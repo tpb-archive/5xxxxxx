@@ -1,0 +1,15 @@
+1. Install directory opus (do not allow to run on start up, disable auto-update)
+2. Get an evaluation license (60 days or so, it's free)
+3. Load the evaluation license. Help > license manager > Install new certificate > paste
+4. Open RunAsDate.exe. Application to run: Browse for dopus.exe usually C:Program FilesGPSoftwareDirectory Opusdopus.exe
+5. Set the Date/Time to the day you acquired the evalutation license or a day after.
+6. Check Immediate Mode
+7. Click "Create Desktop Shortcut" (you must type a name for the shortcut)
+8. Copy the shortcut to your start up folder ( start menu > programs > right click "startup" > click "explore" > paste )
+9. close RunAsDate.exe
+10. Open the shortcut, evaluation will never expire
+11. Enjoy
+
+P.S.
+Just download Directory Opus from official site and same with RunAsDate.exe (http://www.nirsoft.net/utils/run_as_date.html) and follow my steps
+*Disable auto-update: Settings > Preference > Miscellaneous > Option > you will know what to do

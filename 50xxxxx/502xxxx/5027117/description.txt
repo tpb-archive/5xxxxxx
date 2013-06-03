@@ -1,0 +1,146 @@
+all credit for this upload goes to 187CrashOverride, as noted in the title.  this is simply a re-upload and i have made zero changes to the file content.  i just changed the tracker.  follow the directions and enjoy!  and let us know how it works.
+
+
+Games : Wii : Full Game : English
+Hi, here is rev14 plus a new NeoGamma R7 RC4 beta loader AND neogamma R6 channel to try. just out.
+
+To Install:
+
+Copy the apps and WAD folder to your sd. run the apps with HBC and the wad with wad manager.
+
+I would do a net install of rev14 if possible.
+
+
+[ CIOS38 rev 14 ]:
+- Support for games with new error 002.
+- DIP plugin updated (cover commands emulation fixed).
+- ES plugin updated.
+- FFS plugin updated.
+- EHCI module improved.
+- SDHC module improved.
+- FAT module improved.
+- Implemented new anti error 001 system.
+- Anti error 002 system removed.
+- NAND emulation system added (from SD/USB device).
+- Content override system added (from SD/USB device).
+- System Menu support (Disc Channel works again).
+- Installer support for cBoot2.
+- Installer support for all IOS.
+- Some bugs fixed.
+
+
+ 
+V9 Wii Modkit - http://thepiratebay.org/torrent/4983382
+
+
+to see my other torrents go here: 
+http://thepiratebay.org/user/crash_override_
+
+I meant to include this changelog for neogamma. this is ALL for neogamma:
+
+Quote:PROBLEMS PLAYING A CERTAIN GAME?
+
+Try the following options:
+Hooktype: none
+Ocarina: no
+Alternative .dol: no
+Boot language: Console Default (2nd test with the language used in the game)
+Force Video: Disc
+Patch Video: no
+VIDTV Patch: no
+Patch Country Strings: no (2nd test with yes)
+
+If you play from sd or usb, insert a disc.
+
+If the game does not work with this, the game is not compatible or an IOS Reloading game, or it's a cIOS, media or new unknown problem.
+
+If you get either color issues or a green screen freeze(with video mode != Disc), try different combinations of Force Video, Patch Video and VIDTV. Note that this issue can't be fixed in lots of games.
+
+
+PROBLEMS WITH OCARINA?
+
+Try the different hooktypes.
+
+
+PROBLEMS WITH USB LOADING?
+
+- NeoGamma is not able to load games from usb with rev12(maybe rev11 does not work too) of Waninkoko's cIOS
+- Make sure you are using the bottom usb port, the top one won't work for HDDs from cIOSrev12 on.
+- Also if you have WiiConnect24 enabled, test what happens if you disable it.
+- If you have an IDE HDD, try both master and slave jumper settings(experts only!, very low chance to change something)
+
+Try starting the loader after the HDD was connected and powered
+Try starting the loader, connect and power the HD, and then selecct mount WBFS
+Try starting the loader, select mount WBFS, connect the HDD, and then power it
+Try starting the loader, select mount WBFS, power the HDD, and then connect it
+Try starting the loader, select mount WBFS, wait until tries left 20, connect the HDD, and then power it
+Try starting the loader, select mount WBFS, wait until tries left 20, power the HDD, and then connect it
+
+If all this does not help, get: 
+http://wiibrew.org/wiki/GeeXboX
+start something from the HDD with it(requires 2 partitons, 1 wbfs and 1 other),
+don't do anything to the HDD, do not unplug,
+exit to HBC, start NeoGamma and try to connect.
+
+If GeeXboX is the only way for you to get your HDD working, please get in contact with the people at irc://irc.freenode.org/cIOS or me
+
+And if even this does not work, try to get 2 partitions on the HDD:
+1. FAT32 or NTFS
+2. WBFS
+
+And then try again, maybe try the GeeXboX trick again.
+
+
+
+OPTIONS:
+
+Hook Type:
+ONLY ENABLE IF YOU NEED IT! Required for debugging and Ocarina, the different option can differently reduce game compatibilty.
+
+Ocarina:
+ONLY ENABLE IF YOU NEED IT! options to use either sd or usb for Ocarina and which IOS to use to access that device. The "not cIOS" options may not work with some cIOS and sd/usb loading.
+
+Alternative .dol:
+ONLY ENABLE IF YOU NEED IT! "Disc" searches the disc for .dols and let's you select which one to load then. It should be ovious that only using a .dol different from the main.dol makes sense here. "SD & USB" load a .dol from storage instead of loading the main.dol from disc. The .dol has to be in the folder 'NeoGamma' and the name has to be the first 6(or 4) characters of the disc id.
+
+Boot Language:
+Option which language to force. "Console Default" forces nothing, "Auto Force" forces english on NTSC-U games, and japanese on NTSC-J games. Forcing the language of the disc is required for some import games.
+
+Force Video:
+Option which video mode to use. "Disc" is the default and DOES NOT force anything and is THE option that works. "Wii" forces the video mode set in the Wii settings.
+
+Patch Video:
+ONLY ENABLE IF YOU NEED IT! Patches the video mode(s) inside the main.dol to the video mode the game will be started with. This makes more import games playable with "correct" colors.
+
+VIDTV Patch:
+ONLY ENABLE IF YOU NEED IT! Something video related.
+
+Patch Country Strings:
+ONLY ENABLE IF YOU NEED IT! Required for some import games, mostly people with japanese Wiis need this.
+
+
+
+CHANGELOG:
+
+R6 - > R7:
+
+- Increased timeout to 30 seconds
+- Cleaned up code for decrypted discs
+- Hopefully 100% working gamecube disc detection now
+- Cleaned up code for video modes, gamecube games are started with the selected video mode now
+- Changed rebooter behaviour, hopefully works for all system menus WITHOUT preloader attached
+- Removed 001 main.dol patching for alternative .dols
+- Removed Anti 002 fix
+- Removed dirty fix for Wii Sports Resort
+- Added alternative .dol loading from usb storage
+- Alternative .dol loading from storage now loads .dols with 6 and 4 characters
+- Fixed error that prevented to load games after receiving an error in a previous loading attempt
+
+
+R5 - > R6:
+
+- Fixed bug in game selection
+- Fixed no wpad error when no cIOS is installed
+- Added timeout for dvd reading
+- Clearing bss now for alternative .dols
+- Added loading alternative .dols from disc

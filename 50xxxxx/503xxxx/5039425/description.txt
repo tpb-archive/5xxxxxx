@@ -1,0 +1,102 @@
+#     #                     #     #                      #####  #######
+# ##    # ##### ###### #####  ##    #   ##   #            #     #    #   
+# # #   #   #   #      #    # # #   #  #  #  #            #          #   
+# #  #  #   #   #####  #    # #  #  # #    # #      #####  #####     #   
+# #   # #   #   #      #####  #   # # ###### #                  #    #   
+# #    ##   #   #      #   #  #    ## #    # #            #     #    #   
+# #     #   #   ###### #    # #     # #    # ######        #####     # 
+
+Presents...
+
+Wolfenstein.2.MP.BETA.iNterNal-ST
+
+You can use hamachi to play or start your own server using "devmap mp_rooftops"
+
+File listing of the .rar can be found here, complete with CRC and all:
+http://pastie.org/private/vstsnx7u7t3ezucfm5uhxw
+or
+http://pastebay.com/35400
+
+
+
+More info about getting the beta to run can be found on these links: 
+http://www.binsearch.info/viewNFO.php?oid=39278307
+http://www.crossfire.nu/?x=forum&mode=item&id=28497#
+http://warez.f60s.com/forums/t/223683.aspx
+
+Internet servers: http://www.ycn-hosting.com/wolf2list/
+
+(Please help seed here anyway!)
+http://www.cadred.org/Forums/Thread/72399/
+
+
+
+
+
+FAQ
+Code:
+I found this leaked beta on torrent tracker. How do I get it working?
+1. Download the game and extract to c:wolfbeta or c:program fileswolfenstein or whatever you prefer.
+2. Start the game using wolf2MP.exe and create an offline account. You can host your own server now and run around the maps solo.
+
+How about multiplayer?
+3. Install Hamachi
+4. Create or join a hamachi network. This network will act as a fake LAN so you want all the players to install hamachi and join the same network.
+5. One player should start a LAN server. Other players should connect to the hamachi ip of that player. hamachi ip's usually look like this '5.165.199.76' and can be copy pasted from hamachi just like in ventrilo.
+
+The console isnt working
+Use ctrl+alt+ tilde (~ , the same key as you used to press in ET + ctrl + alt)
+Dont put / in front of your commands.
+Putting seta in front of your commands will save them.
+
+How do the configs work?
+Configs go in C:Documents and SettingsYOUMy Documentsid SoftwareWolfMPbase just like in ETQW. Just browse to your documents and look for a folder named ID software.
+
+Can I use an ETQW config?
+Yes you can. This is Hentai's ETQW config
+
+How do you change the fps?
+com_unlockFPS 1
+com_unlock_maxFPS 60 // you can use 30 / 60 / 90 / 120 etc
+com_unlock_timingMethod 1 // somebody explain these again
+com_showfps 1 // cg_drawfps 1
+
+How do i set multicore support?
+r_useThreadedRenderer 2 // put to 1 if you have a singlecore
+
+~censored~ hentai's config, i just want the red dot!
+seta gui_crosshairColor "1.00 0.00 0.00 1.00"
+seta gui_crosshairSpreadScale "0"
+seta gui_crosshairGrenadeAlpha "0.213415"
+seta gui_crosshairStatsAlpha "0"
+seta gui_crosshairSpreadAlpha "0"
+seta gui_crosshairAlpha "0.7"
+seta gui_crosshairKey "pin_01"
+seta gui_crosshairDef "crosshairs
+
+The aiming feels laggy, almost as if the input was delayed?
+m_smooth 1 acts the same as m_filter 1 in ET. At lower fps this will definitly lag your crosshair and you might want to turn it off. It is on in hentai's config.
+
+Ironsight takes up your whole screen
+Try ui_showgun 0. Its the same as cg_drawgun in ET.
+
+
+
+System Requirements
+Code:
+Pentium 4 3.2 GHz or AMD Athlon(TM) 64 3400+ processor
+1GB RAM
+256MB NVIDIA Geforce 6800 or Radeon X800 100% DirectX 9.0c compatible
+Sound card 
+
+
+
+More info about getting the beta to run can be found on these links: 
+http://www.binsearch.info/viewNFO.php?oid=39278307
+http://www.crossfire.nu/?x=forum&mode=item&id=28497#
+http://warez.f60s.com/forums/t/223683.aspx
+
+Internet servers: http://www.ycn-hosting.com/wolf2list/
+
+(Please help seed here anyway!)
+http://www.cadred.org/Forums/Thread/72399/

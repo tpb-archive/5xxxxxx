@@ -1,0 +1,71 @@
+I am thrilled to announce the immediate availability of JustLooking 3.3.3.  JustLooking is a program to view pictures and images on your Mac OS X (Tiger or newer) based computer. JustLooking is a Universal Binary, and can be run on both PowerPC and Intel Macs. The program is and will always be very free
+
+The JustLooking home page: http://chipmunkninja.com/JustLooking
+
+Version 3.3.3 of JustLooking is the best version yet, and contains some massive changes and improvements over previous versions:
+
+* Switching between images is significantly smoother and less jerky than before.
+* Images can now be sorted by the same order as "Finder", or by date, with support for reverse sorting.
+* Shuffle mode for full screen slide show.
+* You can now rename files or move them to a different folder
+* When you 'save as' or move an image to a different directory, you can now tell JustLooking not to switch folders and reload the file list.
+* Image properties and meta data (i.e. Exif) are now properly saved along with files.  Colour Profiles are also correctly managed now.
+* Zooming is fixed to be a bit less unpredictable
+* File resizing and saving is also much better than before, although, due to limitations in the CoreImage filters I'm using for resizing, still not perfect.  The huge white lines seen in previous versions after resizing are now gone, but there are still some unfortunate artifacts on occasion.  I will completely rewrite this code for the 4.0 series of JustLooking.
+* The JustLooking application icon looks less horrible now.
+* New Slovakian translation
+* New Turkish translation
+* New Croation translation
+* New Romanian translation
+* New Arabic translation
+* New Portugal Portuguese translation
+
+JustLooking 3.3.2 ships in the following languages:
+
+
+* French
+* Italian
+* Chinese (Simplified)
+* Portuguese
+* Spanish
+* Dutch
+* Slovenian
+* Polish
+* Korean
+* CatalÃ n
+* Finnish
+* German
+* Slovakian (new!)
+* Turkish (new!)
+* Croation (new!)
+* Romanian (new!)
+* Arabic (new!)
+* Portugal Portuguese (new!)
+
+
+Swedish, Russian, Traditional Chinese, and Norwegian have not been included in this version as they are getting too out of date now.
+
+
+
+Introduction
+
+Welcome to JustLooking, an image viewing program for Mac OS X. JustLooking is designed to be used instead of the â€œPreviewâ€ application on your computer for browsing most image file formats. In particular, it has the following differences:
+
+* It focuses on files and directories instead of lists of files. Thus, once you load a file, you can easily navigate through all other files in the same directory.
+* It displays images at their native resolution instead of interpreting DPI information stored in the image meta-data. While images are printed at the maximum resolution possible, on screen they are displayed pixel-by-pixel.
+* Being designed more for viewing of Images, it properly shows animated GIF files.
+* The entire program can easily be manipulated and powered by simple keystrokes for a quick and pleasant viewing experience.
+* There is support for printing, image resizing, saving to a few key image formats, and displaying of all image info.
+
+
+
+
+Requirements and Installation
+
+Running JustLooking is quite simple, and the only requirements are:
+
+Mac OS X 10.4 or greater (both Tiger and Leopard work fine)
+256MB RAM
+8 MB free disk space
+JustLooking is installed on any new machine by simply dragging it into the Applications folder.
+		

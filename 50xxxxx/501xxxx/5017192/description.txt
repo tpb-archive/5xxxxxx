@@ -1,0 +1,98 @@
+RealStrat - sample-based virtual instrument with an innovative approach to guitar sound modeling and guitar techniques emulating on a standard MIDI keyboard.
+
+RealStrat provides incredible playability based on the unique performance modes and easy-to-use keyboard layout as well as the advanced key/pedal/velocity switch system allowing a keyboardist to perform guitar parts with a whole new level of realistic expression. RealStrat Covers practically all sounds, articulations, and techniques a professional guitarist can produce on his Strat, including mute, bridge mute, harmonics, pinch harmonics, slap, unison bend, strumming, picking, chord chopping, scrapes, etc...
+
+High quality dry samples recorded directly from Stratocaster pick-ups let you easily create any desired guitar sound using your favourite amplifier simulator.
+
+RealStrat innovations:
+
+   * Multi-channel layering technology, incorporating a custom library of specially recorded samples taken from every fret of all 6 strings of a real guitar
+   * The unique Floating Fret Position technology, which imitates change of fret position of a guitarist's hand on the neck. This gives you the possibility of playing on up to 140 guitar frets using just 46 keys of a standard keyboard!
+   * Guitar Touch technology letting you easily imitate basic guitar techniques (strumming, plucking, sliding, bending, muting, etc...), using standard MIDI keyboard and MIDI controllers, such as Pitch Bender, Modulation Wheel, Sustain Pedal, Aftertouch
+   * Sound Humanize technology allowing to wholly reduce 'machine gun' effect on note repetition (tremolo, strumming, plucking, etc...)
+
+RealStrat is equipped with powerful Pattern Manager containing complete MusicLab Guitar Pattern Library for easily creating guitar accompaniment tracks. All you have to do is to find the appropriate rhythm pattern[s] in the Pattern Manager tree view, copy it to the needed number of measures, start your sequencer and use MIDI keyboard to play chord changes, or alternatively add chords to a MIDI track via sequencer's editor.
+RealStrat features:
+
+     Performance modes:
+   * Solo, Harmony, Chords, Bass&Chord, Bass&Pick, Direct
+
+     Sounds:
+   * Full length (recorded with full attack and sustain)
+   * Muted (fret hand mute)
+   * Bridge Mute (palm mute)
+   * Slap + Slap Noises
+   * Harmonics (Artificial)
+   * Pinch Harmonics
+   * Scrapes
+   * Pick position select (15 points)
+   * Pick Noise (adjustable level)
+   * Fret Noise (auto)
+   * Release Noise (auto)
+
+     Articulations/Techniques:
+   * Up/Down strokes
+   * Hammer-On (up to octave range)
+   * Pull-Off (up to octave range)
+   * Hammer-On with Pull-Off on key release (up to octave range)
+   * Legato
+   * Slide Legato Up/Down (up to octave range)
+   * Slide Auto Up/Down (up to 2-octave range, speed adjustable)
+   * Tremolo (up/down strokes, speed adjustable, tempo sync)
+   * Trill (up to octave range, speed adjustable, tempo sync)
+   * Bend auto (range, speed adjustable)
+   * Reverse Bend auto (range, speed adjustable)
+   * MonoBend (Unison Bend, lower string bend)
+   * Intervals (4th, 5th, Octave, 2 Octaves, Power Chords, etc.)
+   * Strums Up/Down
+   * Muted Strums Up/Down
+   * Slow Strums Up/Down
+   * Chucka-Chucka (barre chords muted) Up/Down, various string combinations
+   * Strum Speed adjustable
+   * Strum layers (string groups) control
+   * Number of strings used in strums adjustable
+
+     Effects:
+   * Violining (volume swell)
+   * Sustainer (sound swell)
+   * FeedBacker(harmonic feedback)
+   * Wah-Wah (MIDI CC control, Auto, Modulation)
+
+     Key Switches (Solo mode):
+   * 30 FXs assignable on 33 Keys
+   * Toggle/temporary switch modes
+   * Custom Key Switch presets (save/load)
+
+     Chord detect/construct system:
+   * 1-4 note piano chords to 6-voice guitar chords real-time translation
+   * 26 chord types recognition, including 7th, 9th and altered chords, played in any inversion and voicing
+   * 4 chord positions along the fretboard
+   * Slash Bass Chords option - allows to perform major/minor triads with any note in the bass
+   * About 2000 instant guitar chord shapes
+
+     Pattern Manager:
+   * Built-in multi-functional Pattern Manager letting you in no time create professionally sounding guitar accompaniment tracks
+   * MusicLab Guitar Pattern Library (1250 rhythm patterns covering a wide range of music styles)
+   * Pattern Tree view, allowing to find/select rhythm patterns right from RealStrat
+   * Pattern view, graphically presenting guitar 'Strokes' contained in the current rhythm pattern
+   * Auditioning selected pattern by simply pressing chord on the external keyboard without starting your host sequencer
+   * Total synchronization with host's tempo, start/stop, beats, loop, time signature...
+   * Drag'n'Drop selected pattern from Pattern window right to your host's MIDI track
+   * Real time pattern arranging (dramatic changing pattern performance on the fly):
+         o Add/reduce dynamics (velo+)
+         o Randomize dynamics
+         o Apply velocity of trigger chord to pattern dynamics
+         o Continuous dynamics changes (+/- velocity assigned to Pitch Bender controller)
+
+
+Compatibility:
+
+   * Operates as a virtual instrument software plug-in in all major hosts like Logic, Cubase , Digital Performer, Sonar
+   * Works as a Standalone module
+
+System requirements:
+
+   * 1GB RAM (2GB+ recommended), 2GB+ free hard drive space
+   * PC: Windows XP SP2, Pentium 4 2GHz+ (Intel Core 2 Duo recommended), VST 2/DXi host
+   * Mac: Mac OSX 10.4, G4/G5 1GHz+ (Intel Core 2 Duo recommended), VST 2/AU host
+   * RTAS support is available in ProTools 6/7 via FXpansion's VST to RTAS adapter 1/2.

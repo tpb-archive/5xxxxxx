@@ -1,0 +1,56 @@
+User Type,Username,Date,Text
+,cbre38,2009-08-18T05:01Z,"great job! luv nfo like that. change machineguid has some consequence,, the system restore points use it for id, they will no more work. maybe a few other thingz, like if you are on a network too, may matter. on just a single pc probably ok. maybe delete Data from MiscStatus, export machineguid, then renew dskeeper, then import old machineguid back, or block diskeeper from using internet. anybody know how? add comment."
+,6dr2e,2009-08-18T05:32Z,"yup, MachineGUID is responsible for different services under Windows OS. Besides the Cryptography key in the registry, they are also located here:
+
+Windows Vista
+C:\Users\All Users\Microsoft\Crypto\RSA\MachineKeys
+
+Windows XP
+C:\Documents and Settings\All Users\Application Data\Microsoft\Crypto\RSA\MachineKeys
+
+The MachineGUID begins after the first underscore.
+
+I think Zone Alarm may detect (and allow you to block) Diskeeper's internet communication."
+,mroboto,2009-08-18T06:16Z,"Diskeeper X64 Works perfectly here: 
+
+http://thepiratebay.org/torrent/5025389/Diskeeper_2009_Pro_Premier_13.0.844.0_X64_(64_bit_only)
+
+if you use the keymaker inside this one and the older build 835 keygen for x86,you can get it to work easily,by using the two kemakers and keygen.no other patch or license required.
+
+I have build this portable version using this registration method.http://thepiratebay.org/torrent/4930191/Diskeeper_Pro_Premier_13.0.844_X86_X64_Portable_EN
+
+What i need now is the Anydvd HD (HD) trial reset info.fox killer v6 or v7 didn't work for me with the latest versions.i use 64 bit system.i don't know if it work for 32 bit systems."
+,mroboto,2009-08-18T06:20Z,"I  mean,for 32 bit (X86)...
+
+if you use the keymaker inside this one and the older build 835 keygen for x86,you can get it to work easily,by using the two kemakers and keygen.no other patch or license required."
+,fredsaid,2009-08-18T06:56Z,"installed zone alarm, and it did detect diskeeper (dkservice.exe) and gave me the choice to Allow or Deny. But when I deny it, Diskeeper no longer works. If you just have no internet, that is ok. But if you block it, it will no longer work. aarrghh
+
+anydvd changed? fox killer no longer works? ok i take a look at it"
+,mroboto,2009-08-18T09:18Z,"for zone alarm,you can configure apps policy to permit DKservice.exe to acess system but block it to access  internet."
+,zinfinity,2009-08-21T09:30Z,"I have installed the Pro Premier version, but can't find the unique class ID you've written.  Is there any way to find this info somewhere?  I need to kill the timebomb and don't want to format!"
+,david323,2009-09-07T18:35Z,"Special gift for mroboto:
+
+Slysoft AnyDVD puts a new twist on trial bombs. They use one file, .zreglib, located in c:\ProgramData (a hidden folder on Vista/XP folder will be different), and as backup they add an ADS (Alternate Data Stream) attached to the c:\windows\system32 folder. This ADS can be detected, viewed, and removed with ADS Scanner 2.0 by Pointstone, a free utility. Slysoft is pretty sly. I use Total Uninstall to create an uninstall log for study, and I always delete my Prefetch folder.
+
+Do this from c:\
+del /s /ash *.zreglib
+
+Then use ADS Scanner to find the ADS and delete it.
+
+The ADS contents are the same as .zreglib and look like this:
+
+[AnyDVD/2]
+1=1252312887
+2=1252312887
+
+That's just after a fresh install before any uses. I'd like to figure out the scheme; maybe you could make it good for 1,000 uses. If interested in that, you would also need to learn how to edit the ADS contents in addition to the .zreglib file. They're the same, so they should match.
+
+I did not find anything in the registry related to time bomb. I was able to reset my AnyDVD HD after it expired using the above information.
+
+This is the first time I have seen a software program use an ADS for a trial bomb.
+"
+,mroboto,2009-09-13T11:02Z,"Thank you,i will try this."
+,asm_dh,2010-12-26T01:14Z,"DISKEEPER 2010:
+
+Timebomb is now in HKEY_CLASSES_ROOT\CLSID\{C15BE5EE-86AF-488E-6001-87159B5F3087}
+Remove the entry MiscData and trial will reset."

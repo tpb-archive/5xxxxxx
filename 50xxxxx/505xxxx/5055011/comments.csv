@@ -1,0 +1,80 @@
+User Type,Username,Date,Text
+,Crazy_N,2009-08-16T12:38Z,I accidently pressed enter before activating the code. Is there any way to reverse this?
+,Zach1188,2009-08-16T20:07Z,"It's fine, just follow the directions again.
+
+Let me know how it goes."
+,JoFu2,2009-08-17T00:17Z,"I checked the host file in system32/drivers/etc, and made sure it had the localhost thing, which it did, but I still couldn't get an abyss webserver page when visiting rubberninjas.com. As a sidenote, the lines
+127.0.0.1 localhost
+and
+::1 localhost
+were also listed in the hosts file. Don't know what any of this crap means, but it seemed relevant. I'd love to get this to work if anyone has any insight, thanks."
+,pokemaker1234,2009-08-17T02:02Z,"hey dude when i try to activate rubber ninjas with the key, a message appears saying 
+"" invalid key. Visit rubberninjas.com to purchase a valid key. ""
+
+what do i do?"
+,Zach1188,2009-08-17T03:33Z,"JoFu2, try following Problem 2 in the troubleshooting. Leave both of those alone, but add ""127.0.0.1 rubberninjas.com"".
+
+Pokemaker1234, MAKE SURE Abyss is running, then go to rubberninjas.com. If an Abyss Web Server page shows up, then follow the steps under Problem 3 of the troubleshooting. Otherwise then follow the steps on Problem 1.
+
+I hope the troubleshooting helps both of you. If not then let me know."
+,JoFu2,2009-08-17T04:35Z,Ah it works for me now. My problem was just caused by my own stupidity. :\ Thanks a lot for this torrent!
+,pokemaker1234,2009-08-17T06:23Z,"ive tried everything in the troubleshooting section but nothing works!
+
+ T.T"
+,Zach1188,2009-08-17T07:27Z,"Pokemaker1234, what happens when you go to rubberninjas.com? And what happens when you go to rubberninjas.com/validatekey.php?"
+,Zach1188,2009-08-17T07:45Z,"Wow it seems my torrent has been spread to several torrent sites. That's too bad because I'm only going to give support on here and on Demonoid, everyone else is on their own."
+,Crazy_N,2009-08-17T08:15Z,"I follow the directions and instead of ""Invalid Key"" i get ""Could not connect to server"".
+
+I checked my connection and nothing appears to be wrong."
+,Crazy_N,2009-08-17T08:21Z,It seems after i follow problem 1. It doesn't allow me to connect to the validation server.
+,Zach1188,2009-08-17T09:36Z,"Crazy_N, what happened is that the crack successfully redirected rubberninjas.com to 127.0.0.1 (yourself). The problem is that when it looks for rubberninjas.com/validatekey.php, it doesn't find anything because 127.0.0.1/validatekey.php does not exist. 
+
+A couple things could have happened. Either you did not install Abyss to its default directory (C:\Abyss Web Server), or the file ""C:\Abyss Web Server\htdocs\validatekey.php"" does not exist."
+,Crazy_N,2009-08-17T10:20Z,"*Quote* A couple things could have happened. Either you did not install Abyss to its default directory (C:\Abyss Web Server), or the file ""C:\Abyss Web Server\htdocs\validatekey.php"" does not exist.  *Quote*
+
+Abyss is installed in C:\ and validatekey.php does exist. I have no idea whats wrong."
+,Zach1188,2009-08-17T10:39Z,Well....is Abyss running?
+,Crazy_N,2009-08-17T11:17Z,Yes
+,GenL,2009-08-17T16:53Z,"Rubber.Ninjas.v1.0.cracked-THETA
+Rubber.Ninjas.v1.0.cracked.proper.READ.NFO-THETA
+Both work fine for me, no need to activate."
+,Zach1188,2009-08-17T19:47Z,"Crazy_N, first go to command prompt, and type ""ping rubberninjas.com"". If it pings 127.0.0.1 then goto rubberninjas.com/validatekey.php 
+
+Does it work?"
+,pokemaker1234,2009-08-17T23:35Z,"ok. Now when i go to rubberninjas.com an abyss web server page shows up (yay!)
+but when i go to ""rubberninjas.com/validatekey.php"",
+a message appears saying ""error 404
+Not found""
+
+what do i do?"
+,maddog419,2009-08-18T00:00Z,"set your port from 8000 or 8080 to 80 because that is the default.
+
+basically setting it to 80 will make the port # default and you will not have to include it when typing the address.
+
+if you don't do this you can type http://rubberninjas.com:8000 and get an AWS site "
+,pokemaker1234,2009-08-18T01:22Z,I still have the same problem.
+,maddog419,2009-08-18T01:42Z,"and you have a validatekey.php in your htdocs folder?
+
+I just configured my AWS to be port 80 instead of 8000, I was having the same problem as you and it worked. so I guess I can't help ya :/ sorry."
+,pokemaker1234,2009-08-18T06:31Z,Yay it finally worked!
+,Zach1188,2009-08-18T06:56Z,"Congratulations, pokemaker1234 =)"
+,Shasato,2009-08-18T15:00Z,"downloading now, i hope this'll work, is it only for vista? or can it work on my xp?"
+,uthere1,2009-08-18T15:16Z,"its not working for some reason
+when i try to use the key its says the key is invalid and if i go to rubberninjas.com than its just regular rubberninjas.com and if i got to validatekey.php
+i just see 1 please help me get this"
+,Zach1188,2009-08-18T19:55Z,"Shasato it should work on XP.
+
+uthere1, follow the troubleshooting."
+,Brianl96,2009-08-19T13:35Z,"Thank you very much, ive waited a long time for the full version  :]  "
+,zik321,2009-12-12T17:02Z,"Hey, can you help me?
+
+When I enter at rubberninjas.com it appear the ""Welcome to Abyss Web Server"" page. And when I enter at rubberninjas.com/validatekey.php it appears just one, or asks for download the page.
+I already did everything at the troubleshooting section, and didn't worked."
+,lopaew,2009-12-31T07:31Z,"I have made my own/edited version of yours (referring to: Zach1188). Its much easier go here:
+http://thepiratebay.org/torrent/5248523#"
+,Zelfire22,2010-01-01T13:14Z,"Worked fine for me , you can easily mod some of the files for more fun gameplay"
+,eminem_fan_420,2010-06-22T07:17Z,hey it wont work it keeps saying cant connect to server and i followed ur instructions exactly and followed ur problem 4 exactly too and it still wont work i need help
+,eminem_fan_420,2010-06-22T07:21Z,wont work it says that cant connect to server and i followed your trouble shooting exactly and still nothing please help
+,Tr0Tr0,2010-06-29T07:16Z,"hey everyone, ignore all the shit in the description.
+just use this key: zhl5z2gse8ax17
+=)"

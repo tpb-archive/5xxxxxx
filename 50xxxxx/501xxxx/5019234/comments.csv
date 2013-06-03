@@ -1,0 +1,168 @@
+User Type,Username,Date,Text
+,mr.sodhi,2009-07-30T18:55Z,is it english?
+[T],TaurusKJ,2009-08-02T14:57Z,We can assume so since the region is NTSC (avalible in the USA).
+,JM9210,2009-08-19T20:48Z,seed plz
+,pump01,2009-08-24T13:08Z,Seedeljétek!!!!!!!!
+,radioactivemart,2009-12-05T10:47Z,this doesn't work on pcsx2 help please
+,hovannes650,2009-12-22T20:36Z,"what's the differce about ntsc and pal games?
+
+and can i play it on a pcsx2?
+
+PLEASE HELP!!!!!!!! "
+,doru_celestino,2010-01-16T19:37Z,i try 2 run tekken 5 with pcsx2 and apears 2 me the memory slot loading of the ps2 console...can somebody tell me why can't i load the game ...same problem with Bleach Blade Battlers.I  have the pcsx2 0.9.6 but maybe is a problem with plugins or patches...pls H.E.L.P.
+,SatArray,2010-01-17T23:14Z,"@ jack_red 
+
+ok ill take you up on your offer. What are the perfect settings for this in pcsx2?"
+,BERO1707,2010-02-09T17:03Z,why didn't you put this in rar file and save about 50% space
+,hovannes650,2010-02-21T01:45Z,"Jack_Red Can you please tell us the perfect settings?
+"
+,hovannes650,2010-02-21T01:45Z,"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+,francism39,2010-04-22T06:31Z,"hi virgin to games here i have a ps2 and thats fine with me. i seed mivies and am a pirate fan...what do i do when finished downloading the game...never tried games before, i dont sell just use for own pleasure...hope i donrt seem like a retard"
+,issicus,2010-05-06T01:23Z,stuck at 95% ..  uploaded 15gb
+,[SIC],2010-05-15T20:59Z,"Anyone got an idea what's wrong with this picture?
+Approx 20:33:44
+Thanks in advance
+
+Logfile  (Nero)
+
+SIC©
+ACAB
+1C82-0000-19E5-MAAX-4006-2362-****
+
+Windows XP 6.1
+AMD64
+Wow64Process
+WinAspi: -
+
+NT-SPTI used
+Nero Version: 7.10.1.2
+Internal Version: 7, 10, 1, 2
+
+Recorder:              Version: FX04 - HA 1 TA 0 - 7.10.1.2
+ Adapter driver:                           HA 1
+ Drive buffer  :      2048kB
+ Bus Type      :      default (0) -> ATAPI, detected: ?
+CD-ROM:               Version: FX04 - HA 1 TA 0 - 7.10.1.2
+ Adapter driver:                           HA 1
+
+=== Scsi-Device-Map ===
+DiskPeripheral       : O2Micro SD                    O2SDGRDR Port 4 ID 0  DMA: Off
+
+=== CDRom-Device-Map ===
+Optiarc DVD RW AD-7580S    D:   CdRom0
+=======================
+
+AutoRun : 1
+Excluded drive IDs: 
+WriteBufferSize: 83886080 (0) Byte
+BUFE           : 0
+Physical memory     : 3996MB (4092720kB)
+Free physical memory: 1703MB (1744184kB)
+Memory in use       : 57 %
+Uncached PFiles: 0x0
+Use Inquiry    : 1
+Global Bus Type: default (0)
+Check supported media : Disabled (0) 
+
+15.5.2010
+Bränn dvd-image
+20:22:48	#1 Text 0 File SCSIPTICommands.cpp, Line 424
+	LockMCN - completed sucessfully for IOCTL_STORAGE_MCN_CONTROL
+
+20:22:48	#2 Text 0 File Burncd.cpp, Line 3508
+	Turn on Disc-At-Once, using DVD media
+
+20:22:49	#3 Text 0 File DlgWaitCD.cpp, Line 307
+	Last possible write address on media:  2295103 (510:01.28, 4482MB)
+	Last address to be written:            2189231 (486:29.56, 4275MB)
+
+20:22:49	#4 Text 0 File DlgWaitCD.cpp, Line 319
+	Write in overburning mode: NO (enabled: CD)
+
+20:22:49	#5 Text 0 File DlgWaitCD.cpp, Line 2972
+	Recorder: Optiarc DVD RW AD-7580S, Media type: DVD+RW
+	 Disc Manufacturer ID: MBIPG101, Media Type ID: W04, Product revision number: 0
+	 Disc Application Code: 0, Extended Information Indicators: 1
+
+20:22:49	#6 Text 0 File DlgWaitCD.cpp, Line 493
+	>>> Protocol of DlgWaitCD activities: "
+,[SIC],2010-05-15T20:59Z,"20:22:49	#7 Text 0 File ThreadedTransferInterface.cpp, Line 793
+	Setup items (after recorder preparation)
+	 0: TRM_DATA_MODE1 (2 - Cd-rom-läge 1, ISO 9660)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 2189232 (2189232) = #2189232/486:29.57
+	    not relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_DATA_MODE1, 2048, config 0, wanted index0 0 blocks, length 2189232 blocks [D: Optiarc DVD RW AD-7580S]
+	--------------------------------------------------------------
+
+20:22:49	#8 Text 0 File ThreadedTransferInterface.cpp, Line 995
+	Prepare [D: Optiarc DVD RW AD-7580S] for write in CUE-sheet-DAO
+	DAO infos:
+	==========
+	 MCN: """"
+	 TOCType: 0x00; Session Closed, disc fixated
+	 Tracks 1 to 1:                                  Idx 0         Idx 1      Next Trk
+	   1: TRM_DATA_MODE1, 2048/0x00, FilePos             0             0    4483547136, ISRC """"
+	DAO layout:
+	===========
+	 ___Start_|____Track_|_Idx_|_CtrlAdr_|_____Size_|______NWA_|_RecDep__________
+	        0 |  lead-in |   0 |    0x41 |        0 |        0 | 0x00
+	        0 |        1 |   0 |    0x41 |        0 |        0 | 0x00
+	        0 |        1 |   1 |    0x41 |  2189232 |  2189232 | 0x00
+	  2189232 | lead-out |   1 |    0x41 |        0 |        0 | 0x00
+
+20:22:49	#9 Text 0 File SCSIPTICommands.cpp, Line 215
+	SPTILockVolume - completed successfully for FSCTL_LOCK_VOLUME
+
+20:22:49	#10 Text 0 File Burncd.cpp, Line 4294
+	Caching options: cache CDRom or Network-Yes, small files-No ("
+,rager4754,2010-05-25T22:03Z,"@Jack_Red
+Hey i was wondering if you could help me set the game up to run great, please and thank you!"
+,EXPERT8,2010-11-15T07:57Z,"i m new in ps2 can u tell me wat exactly is pcsx2 ,i really hav no idea about it
+plz help........"
+,EXPERT8,2010-11-15T08:01Z,"i  m new in ps2 ,can u tell me wats is pcsx2 exactly,i have no dea about it
+plz help..."
+,xXxMkd,2011-04-03T00:20Z,"Does this torrent eaven work? 
+I have a mod fat ps2 and i wold like to know how to burn a game so i can play one on it c0uld some one tell me."

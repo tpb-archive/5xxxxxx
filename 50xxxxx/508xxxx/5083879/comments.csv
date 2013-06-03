@@ -1,0 +1,26 @@
+User Type,Username,Date,Text
+,067047,2009-10-17T20:56Z,"no viruses as far as I can tell, it seems legit
+
+it took a while to figure out what the patch was for.
+
+for those who are wondering: first you install the service release 6. Once you do that, the lisecne key will somehow get removed, and you'll no longer be able to use Rhino 4. to fix this, you need the patch. Double click the patch file. When you try to patch, the program will say that the file wasn't found and it asks you if you want to search for rhino4.exe.
+
+click yes, and then go to the C drive, then the program files, then open the folder called  ""Rhinoceros 4.0"", then open the folder called ""System"", then double click on the file called ""Rhino4""
+
+sorry for those that think this is common sense, I'm just posting this for the people like me who don't find it obvious"
+,grub2000,2009-10-26T18:16Z,work perfectly thanks digital_elph
+,shaman427,2009-11-03T08:15Z,"patch triggers VIRUS TROJAN from Norton Endpoint (resident), and 20 out 40 other scanners when uploaded to Virus Total.
+
+Is it a false positive????????"
+,shaman427,2009-11-03T17:40Z,Infected do not use
+,arialzaffir,2009-12-10T23:46Z,Awesome dude! 
+,arialzaffir,2009-12-11T01:08Z,"damn I got a serial problem.. patch did not work don't know why. I tried to uninstall rhino cleaning the reg files too, still nothing"
+,robslave,2009-12-17T06:08Z,The patch seems to be backdoored. (Maybe false positive because it is a registration patch?) Does anyone know an alternative way to register rhino sr6 w/o using this patch?
+,solacapalaka,2010-01-15T20:46Z,"I can't patch. I got error message that said ""Can not access the file. Maybe it's in use... Please close it before patching"". I check all opening files every where and close it, but still not working. Anyone know what's wrong and have a solution?"
+,Esaramago,2010-01-25T00:01Z,"I also get the message ""Can not access the file. Maybe it's in use... Please close it before patching"" Why??"
+,franchin,2010-02-12T20:24Z,"To patch Rhino SR6, you have to enter in Safe Mode Windows(press F8 before windows start) and run patch(find Rhino4.exe and patch). I spent hours trying to patch in normal mode, but it doesn't work(""Can not access the file. Maybe it's in use... Please close it before patching""). But in Safe Mode Windows works! After, return to normal mode Windows and it'll work! good luck!"
+,3Dom,2010-03-11T00:49Z,"Thanks for this. Just so that you guys know: Patches and keygens always come up as virus's or infected, or terrorist bloody blah blah paranoid crap. They are not virus's. They only have certain properties which are similar to a virus, because they have more control than windows thinks they should. A virus is basically something powerful doing something bad. If it doesnt do anything bad, its not a virus. Make sense? Stop being paranoid."
+,gyro_john,2010-12-25T00:07Z,"I have the fix for the 'cannot patch' problem:  The patch program wants to find rhino4.exe.  On my computer the file is called Rhino4.exe - note the capital arr.  
+
+I renamed the file (actually copy and rename that), and had success!  Thank you digital_elph."
+,GullLord,2011-09-05T00:43Z,"You can also run the patch thing as an administrator, works nicely"

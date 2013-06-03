@@ -1,0 +1,31 @@
+WirelessMon is a software tool that allows users to monitor the status of wireless WiFi adapter(s) and gather information about nearby wireless access points and hot spots in real time. WirelessMon can log the information it collects into a file, while also providing comprehensive graphing of signal level and real time IP and 802.11 WiFi statistics.
+
+Any wireless adapter complies with the NDIS_802.11 should be able to report information to WirelessMon. Note that only Windows XP, 2003 and Vista support this software. Windows 95, 98 and NT are not supported. Windows 2000 (Service pack 4 and above) may work but is not actively supported.
+
+All the various IEEE 802.11 standards are supported, including 802.11a, 802.11b and 802.11g. 802.11N is supported to the extent provided by Windows XP and Vista, as the draft becomes a completed standard more 802.11N support should become available. Some features may not be supported by some wireless adapters, typically they will report only partial information in this case. It has been also been noted that several wireless adapter manufacturers are not providing device drivers that are fully Windows compliant.
+
+Key features for "PassMark WirelessMon Pro 3.1"
+* Verify 802.11 network configuration is correct.
+* Test WiFi hardware and device drivers are functioning correctly.
+* Check signal levels from your local WiFi network and nearby networks.
+* Help locate sources of interference to your network.
+* WirelessMon supports the MetaGeek Wi-Spy (2.4i, 2.4x and DBx) useful for finding interference from non 802.11A/B/G devices transmitting on the same frequencies
+* Scan for hot spots in your local area (wardriving)
+* Create signal strength maps of an area
+* GPS support for logging and mapping signal strength
+* Correctly locate your wireless antenna (especially important for directional antennas).
+* Verify the security settings for local access points.
+* Measure network speed & throughput and view available data rates.
+* Help check Wifi network coverage and range
+
+
+
+
+
+*installation*
+1.Unpack with any archiver
+2.Install setup.exe
+3.copy and paste register wirelessmon
+in the installer folder run it register with
+serial from serial text done
+4.Enjoy!

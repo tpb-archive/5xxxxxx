@@ -1,0 +1,84 @@
+User Type,Username,Date,Text
+,fransfl,2009-08-26T10:55Z,"This version doesn't work on PDAs.
+
+Version for PDAs is 835.2420."
+,obekende,2009-08-26T14:55Z,"its compactible with IQ Routes?...
+thk.."
+,piratebay-vpn-user,2009-08-31T10:23Z,"Thanks!
+Could not get it to work on my older GO 710.  Tried a few times with and without the cracked Navcore but always just cme till point 9 (where my TomTom said that I cannot use this map) Then after activating the map with the included keygen (step 10) my Tom Tom Go 710 hooked up as soon as I started it again.
+
+Does anybody know what to do?"
+[T],lowiekuipers,2009-08-31T13:19Z,"piratebay-vpn-user
+
+which bootloaderyou use ???"
+,piratebay-vpn-user,2009-08-31T19:06Z,"@lowiekuipers :
+Aahm - bootloader ? Sorry don´t get it. I was using a new 2 GByte SD card (kept my original 1 GB card with the original TomTom on it just to be safe, including a copy of it on my PC).
+I first copied my original TomTom on the new SD card (using the SD card slot on my PC) using Windows Explorer. Did so just to see if it works and to see if my TomTom Go710 accepts this card. Worked perfectly so I knew this new SD card works in my Tom Tom. Then I deleted everything on this newSD card (putting it into the card slot of my PC) and did what was recommended here in the description. Tried a few times, using the ttsystem that is on this torrent (trying the original ttsystem did not work). I always could start my TomTom and could configure it ? up to point 9 of this description when my TomTom said it can't use the map. 
+Then I did point 10. Using the keygen of this torrent to activate the map. It worked (well it reported no error) but then my TomTom always hooks up.
+"
+,piratebay-vpn-user,2009-09-04T16:42Z,"After trying many times with different changes, including original and new (crackled) Navcore, including old settings but new map etc etc. I gave it up.
+I never got it to work. 
+I think the reason is that all these maps need Navcore 8.xx upwards and the latest available Navcore for the GO 710 is 7,9xx. This is what you get when you update on TomTom Home. 
+Looks to me also that Navcore 8.xx does not run on a GO 710 because I tried different patches and generators (tried it also using tt7_keygen.exe and as a try also tt8_keygen.exe). The keygen worked always fine but the GO 710 never accepted the card. And if I patch the ttsystem (using a cracked version resp. a newer Navcore 8.xx) ? the GO 710 just hooks up.
+Looks like the only solution would be to buy a newer GO ? but what buzzes me is that TomTom offers you to BUY exactle this (resp even the newest) Central and Europe map (2 GByte) on their website. It is said to be about 1,6 GByte. So there must be a solution somehow to get these things work on an older GO 710. Just donnow how"
+,uran235,2009-09-07T05:35Z,you donT have to buy a new device; just upgrade your Navcore Apllication. Meet me at gpsunderground . com to get help
+,piratebay-vpn-user,2009-09-07T11:43Z,"Great wesbite, uran 235!!
+Thx, a lot of good infos and explanations, helped me a lot. 
+
+1.0000 Thank you !!!!
+
+By the way I know and knew that I would need a new Navcore but I never got it running on my older Go. But I tried it again now with a patched Navcore 8.417 and this workes perfectly on a GO 710. 
+
+I just need to figure out now how to get the Western & Central Europe + the Navcore on a 2 GB SD card (as the GO 710 has no internal memory). So far I could only rund smaller cards (like DACH, I, etc.) but noit the full package."
+[T],lowiekuipers,2009-09-07T11:50Z,"piratebay-vpn-user 
+
+one v1 is older device and is working
+
+just go to gpsunderground.com
+
+you need at least a navcore 8.2xxx.xxx se
+
+i did included in other version these one
+
+take a look here
+
+http://www.plaatjesupload.nl/bekijk/2009/09/05/1252143843-130.jpg"
+[T],lowiekuipers,2009-09-07T12:00Z,"with a new boatloader you can use 
+bigger sd card 
+
+these release is not fore 2 gb version
+
+
+tomorrow i will upload 835.241 2 gb version"
+,piratebay-vpn-user,2009-09-08T12:49Z,"Yap - the bootloader! That could have been the problem. I just did not figure out how to update the bootloader but will keep on searching.
+
+As I started with a completely blank SD card (the GO 710 has no internal memory) this could have caused maybe the problem.
+
+Now I installed a patched Navcore 8.417 which is running, but this Navore I got from somewhere else also contained a file called ""bootloaderversion.txt"". And the txt file contains these 2 letters: 
+BootloaderTarget=s3c24xx
+Bootloaderversion=5.5128
+
+The Navcore in THIS torrent doesn´t contain any info or any bootloader.
+
+Anyway, I got the Go 710 working now but I am still a bit buzzed. 
+Why?
+
+OK here is what I did:
+1.	I installed Navcore 8.417 which came along with a smaller DACH map. It worked  
+
+2.	I then deleted the DACH map and took the West en Centraal europa 2GB 835.2420 found here on http://thepiratebay.org/torrent/5069697/tom_tom_West_en_Centraal_europa_2GB_835.2420
+
+3.	All this fits easily on a 2 GB SD card as the map above is only 1,3 GB. And my GO 710 works fine with it. What I don´t understand is why this map is so much smaller but is said to contain the same countries. In this torrent here e.g. the file ?cline.dat? is 922 MB, while on  the West en Centraal europa 2GB 835.2420 it is only 682 MB. Similar with other map-files like ?cname.dat? etc.
+
+Well nothing urgent and no need to spend your time if you are short on it ? as I got it working all now. It is just out of curiosity, I am trying to understand ?what is what?."
+[T],lowiekuipers,2009-09-09T00:24Z," TomTom West en Centraal Europa 835.2419 Full
+is more detail then 2GB 835.2420
+and  has speech files fore microphone
+and iq and has in dutch rijbaanhulp
+
+"
+,falconuser,2009-10-05T16:20Z,"thank you worked great (after some panic attacks !!!) for me on an go 700
+thanks thanks thanks also for the good and sucessfull help how to install"
+,bitdevil,2009-10-07T14:32Z,"Works fine!
+I installed the map on my TomTom ONE v2 by following the instructions. It took a bit of time, but finally I managed to install that stuff. 
+Thanks a lot, lowiekuipers !"

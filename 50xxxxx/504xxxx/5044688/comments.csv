@@ -1,0 +1,198 @@
+User Type,Username,Date,Text
+,MrB8,2009-08-08T04:10Z,"Wow, what a find, this a treasure, thanks for sharing :D"
+,MadShagger,2009-08-08T04:32Z,"Good sir, this is the holy grail of torrents. I will seed this for as long as my computer lives. Thank you."
+,beish,2009-08-09T00:24Z,"This is great upload man. Thanks, but i have a this one problem :( 
+When i try to run a simulation there is error saying ""Some of the components needed by this simulation have not been installed. Please close the course materials and run the setup program for this course"". All other course materials are working just fine. If anyone can please help me with this??? IÂ´m seeding this. "
+,yen81,2009-08-10T08:56Z,"Thic problem may occur on new cources. To avoid it, follow the instruction.
+
+1. Install one of the old Testout cources (for example, 70-294). Don't change the default path (C:\Program Files\TESTOUT).
+
+2. With a program that works with ISO images (UltraISO and others) extract the content to a new folder (for example, C:\Exchange 70-236).
+
+3. From the folder  C:\Program Files\TESTOUT delete subfolders Glossary, Outlines, Questions, resources, Sims or rename them different names however you want.
+
+4. From the folder  ?:\Exchange 70-236 copy subfolders Glossary, Outlines, Questions, resources, Sims to C:\Program Files\TESTOUT.
+
+5. In the folder C:\Program Files\TESTOUT\Outlines\ rename file ms236cle.xml to ms294ce.xml.
+
+6. Launch TestOut Navigator. In the choice window you are going to see the old cource. Choose it - you will see the new one."
+,MrB8,2009-08-12T03:57Z,how do we get past the activation code screen?
+,yen81,2009-08-12T04:18Z,"Sorry, what activation are you talking about? When it is needed?"
+,MrB8,2009-08-12T06:22Z,"I installed 70-640, when I start it, it asks for a login, I click on create account then it asks for an activation code."
+,yen81,2009-08-12T09:08Z,"You don't need to install 70-640. First you should install one of previous cources that need no activation (for example, any of MCSE, you may choose 70-294). Then you mount ""Configuring Windows Server 2008 AD 70-640.iso"" file to a virtual drive and copy every folder from \Testout\ to C:\Program Files\Testout. Then you should rename file C:\Program Files\Testout\Outlines\ms640_cle.xml to MS294CLE.xml. It works. Check this out.
+"
+,yen81,2009-08-12T09:08Z,http://img220.imageshack.us/img220/2551/65043191.png
+,yen81,2009-08-12T09:09Z,img220.imageshack.us/img220/2551/65043191.png
+,yen81,2009-08-12T09:12Z,"Damn, image hosting server have found out that the image is warez-related??"
+,MrB8,2009-08-12T09:58Z,"Thanks yen81,  didnt know about that.
+
+Thanks"
+,beish,2009-08-13T23:51Z,"I still got this same error when i try to run any simulation ""Some of the components needed by this simulation have not been installed. Please close the course materials and run the setup program for this course"" What could couse this problem? I have done everything like this video tutorial is saying, and like i said, everything else in this course working fine except simulations, but simulations are important like all other material. If anyone could help with this???"
+,urbabylon,2009-08-16T06:21Z,"Hi!
+I cannot install Network+. My antivirus program (Norman Security) detecting an infected file, called Xpexplorer.se, and deleting.
+Could anyone help me, please!"
+,yen81,2009-08-16T14:04Z,"I don't know what is Norman Security. If it is possible, add this file to trusted list or something like that, so it could be run without scanning. 
+
+There is a crack for the latest testout cources, try this. Can't check it right now. 
+http://thepiratebay.org/torrent/5055827/Latest_version_testout_hack.rar"
+,MrB8,2009-08-16T21:03Z,"That video is included in this torrent, with the ccna 640-802
+
+BTW its the same method you mentioned before ;)
+
+Thanks"
+,urbabylon,2009-08-16T22:05Z,"Thank you very much for the help, MrB8 :)"
+,urbabylon,2009-08-16T22:39Z,"Hi, yen81!
+Thank you very much for the help!
+I do not know how to add the file mentioned in a trusted list. But for the meantime, I disabled Norman Security, and now the video works just fine.
+Thanks"
+,MadPAM,2009-08-25T15:24Z,"Hey Guys - I need some help.
+I install 294 and it works just fine. Then I move the 5 294 directories (as described) somewhere else and copy 647 (which I want) into the TESTOUT directory and rename the XML file to ms294cle.xml (as it is called in 294). When I start the Navigator the lower Product Information field is empty and the course doesn't start.
+If I then move the 294 files back into the TESTOUT directory and start the Navigator again, it also doesn't work anymore.
+Please - what am I doing wrong???"
+,big_bad_wolf_99,2009-08-26T06:01Z,Thankyou yen81!
+,big_bad_wolf_99,2009-08-28T06:32Z,"Hi yen81, downloaded and installed 294 goes ok, did the file swith over stuff but when I try on 70 643 it says it can't locate the file MS294CLE.xml
+??????? Any ideas, or has any one found this to work OK??????? Thanks all the same as some of this stuff works OK"
+,big_bad_wolf_99,2009-08-28T06:51Z,tried it on  70 647 and does not go says cant find the file 
+,big_bad_wolf_99,2009-08-28T07:38Z,"OK stupid me... it does work. This is what I did.
+1. Install 294 as normal. Installing to disk as in C: not running from disk
+2. run it and make sure it goes OK... it will
+3. delete the 5 files that yen81 says to delete
+4. mount the 70 643 or what ever to POWER ISO or what ever. Copy the 5 folders to the c:/testout ..... basically to the location of the 294 stuff
+5. now this is the bit I did wrong but goes now. Rename the file to ms294cle and it should already have the defult xml attached to it. so all I had to do was rename to ms294cle And nothing else. Run as you did for the 294.....
+6. Enjoy.... thanks again yen81"
+,beish,2009-09-03T19:14Z,"This is solution for installing testout and running all simulations.
+
+step 1:Mount the Iso and install the Labsim.
+
+step 2:Go to H:\Testout\Outlines, where 'H:\' is ur mounted drive location.
+
+step 3:Right click on the .xml file and select Open With, Browse to the C:\Program Files\TESTOUT\Orbis\Legacy and select LegacyXEng.exe and Open.
+
+thanx to deepusanker"
+,aliatad,2009-10-10T21:33Z,"Hi yen81,
+
+do u have the latest hack or activation key please..thx!"
+,coolboi,2009-10-17T03:24Z,"Tesout instruction for XP only (not vista)
+
+No need for old version of testout
+
+1-Install the Labsim
+2-Copy the xml file from the dvd/ISO (X:\Testout\Outlines) to your desktop.
+3-Open the xml file with notepad and click edit and then select and click ""replace"".
+4-In the ""find what"" field type "".."".
+6-In the ""Replace with"" field type ""X:\Testout"", where X is the letter of your virtual drive.
+7-Click ""Replace all"" and then save and close the file.
+8-Right click the xml file and select ""open with"".
+9-Browse to ""C:\Program Files\TESTOUT\Orbis\Legacy"" and select ""LegacyXEng.exe"". 
+
+update windows media player 11"
+,jaystar123,2009-11-01T23:41Z,HELP GUYS!! I dont even have the orbis//legacy folder where did you guys get it?
+,1morelia,2009-11-25T08:28Z,"First of all, thanks yen81 for the upload!
+Can somebody tell me what are the ones that do not need activation, please? I am only trying to get MCSA.
+Also, on the second step of the instructions, what one needs to extract with PowerIso to a new folder is THE NEW COURSE that you want to mount onto the old one, is that right?
+Thanks for your help!"
+,1morelia,2009-12-03T22:10Z,"Hi guys, me again.
+
+I am trying 70-270. It installed and runs well but WITH NO SOUND . . . any ideas, help, suggestions, please? . . . . . . "
+,Omega8472,2009-12-10T22:22Z,"Awesome Download!
+For those that want to install the old A+ Operating Systems Technologies course, install it before every other one because for some reason it cannot install to a directory with a space. If you install others first you will have to reinstall to a directory without a space. I got half way through and it happened to me. I haven't installed it because it is old, but I think there might be a workaround. Start in safe-mode remove the space in program files and install it then add the space after install.
+
+http://www.testout.com/support/kbdetail.aspx?KBA-01006
+
+Also for Vista users this might also be an issue for you
+
+http://www.testout.com/support/kbdetail.aspx?KBA-01029"
+,Omega8472,2009-12-11T11:55Z,"For those who are wondering, the following require activation:
+
+CCNA 640-802
+BCMSN 642-812
+BSCI 642-901
+WS2k8 70-640
+WS2k8 70-643
+WS2k8 70-642
+ES2k7 70-236
+WS2k8 70-647
+WS2k8 70-647
+
+The clue is the different style launchers. If it has a black guy a white guy and an Asian (I know its a setup for a joke) Then it Doesn't need activation, otherwise it does. I did install all except the above and got access.
+
+Side Note: I ran into another problem and am not sure what the cause was. After installing about half the labsims I opened the launcher and noticed only one was in the list. I ended up uninstalling and reinstalling everything to c:\Testout instead of C:\program files(x86) to get it to work. OS: ""Windows 7 Ultimate ala TPB""
+
+I was also wondering if there is a way to work around the activation and still be able to use the old Labsims. Any Ideas?"
+,Bluesky455,2010-01-15T04:46Z,"Thanks so much ""coolboi"" for your important information on how to work with the test out! I spent a lot of time surfing the net until I found this important torrent!! Blessings from El Salvador!"
+,locheim,2010-01-19T05:18Z,"I was having the no sound issue, try installing AC3 Filter:
+
+http://ac3filter.googlecode.com/files/ac3filter_1_63b.exe"
+,coolboi,2010-05-03T04:59Z,"Tesout instruction for XP only (not vista)
+
+No need for old version of testout
+
+1-Install the Labsim
+2-Copy the xml file from the dvd/ISO (X:\Testout\Outlines) to your desktop.
+3-Open the xml file with notepad and click edit and then select and click ""replace"".
+4-In the ""find what"" field type "".."".
+6-In the ""Replace with"" field type ""X:\Testout"", where X is the letter of your virtual drive.
+7-Click ""Replace all"" and then save and close the file.
+8-Right click the xml file and select ""open with"".
+9-Browse to ""C:\Program Files\TESTOUT\Orbis\Legacy"" and select ""LegacyXEng.exe"".
+
+update windows media player 11 
+
+im using this. 
+
+- coolboi, MCTS. MCITP, CCNA, MBA
+
+btw, anyone got a Tesout Security + 2008 ? thanks"
+,coolboi,2010-05-03T05:11Z,"more IT at forum of certcollectionDOTorg
+
+my ID is henyongadik01"
+,enggeorge86,2010-06-14T00:11Z,"yaaaaaaaaaaaaaaaaaaaaaah i'm so happy it works everything works the sim the videos thanks man.
+Here is what i did. 
+1- i had already 294 already installed 
+2- i replaced the folders and changed the name of the file to the old name as the comments said but when i started the sim it said it need some files that is not installed
+3- i installed the new testout 647 which i need and restarted it asked for the user name and password but i noticed that now i have the folder orbis which i didn't have first so reinstalled the old one again and replaced the file ms294le.xls with the new file ms_647le.xls and changed the name
+4- open with orbis/legacy/legacyxEng.exe and then all things start perfict.
+this is done on windows 7 ""just note""
+thanks for the uploader and every comment that made it work for me. 
+hope my comment helps someone who needs help"
+,enggeorge86,2010-06-16T00:10Z,"Dear all it's me again here is the last solution that makes every thing works perfict without any problems and without even the disk space needed for installation. 
+1- install any one of the new testouts.
+2- find the folder orbis copy its content to any other folder 
+3- uninstall the testout 
+Now if you want to open any testout with all its features all you need to do is to
+1- mount the iso  
+2- go to (""testout/outlines"") 
+3- open the file msxxx.xml using the file (""orbis/legacy/legacyXEng.exe"") from the location you copied the folder orbis to"
+,lapradeep,2010-07-12T08:23Z,"I Installed Testout WSA 70-640, 70-643,70-646,-70-647 bou It doesn\'t appera in main labsim window. only appeared their default modules . Hwo does it apperared ."
+,sas222,2010-08-29T15:54Z,"Solution that makes everything work perfectly is very simple and easy. 
+1- install any one of the testouts.
+2- mount the iso 
+3- go to (""testout/outlines"")
+4- open the file msxxx.xml with ""C:\Program files\Testout\orbis\legacy\legacyXEng.exe"". 
+That is all folks."
+,roadrunnerside8,2010-10-12T00:02Z,Some of these are out dated need updated sims and questions.
+,itismee111,2011-02-11T06:15Z,"Visit this link for information:
+http://certcollection.org/forum/topic/12798-how-to-testout-simulation/page__st__42"
+,itismee111,2011-02-11T06:45Z,above method works for the sims as well
+,itismee,2011-07-01T12:22Z,I found a place where you can download portable version of it (and others) here: http://certcollection.org/forum/topic/119787-testout-portable-software/page__st__28
+,legitimate_user,2011-07-09T00:14Z,"Solution provided by sas222 works
+
+1- install any one of the testouts.
+2- mount the iso
+3- go to (""testout/outlines"")
+4- open the file msxxx.xml with ""C:\Program files\Testout\orbis\legacy\legacyXEng.exe"".
+
+Thanks sas222 and yen81 for uploading.. please continue seeding everyone."
+,cn_1250,2011-10-21T11:41Z,the greatest torrent ever. Thanks a lot
+,cn_1250,2011-10-28T11:21Z,"yyyaaahoooo!!!!!  I am going craaazzzy. New TestOut  DVDs  work 100% .
+
+thank you so much  *****yen81 **** &&&& ****sas222*****
+
+guys use sas222's instruction, it's works."
+,xela_kgb,2011-12-07T18:31Z,"Omg great torrent, tnx guys
+
+Follow sas222 instructions"
+,Afrok,2011-12-21T07:50Z,when am gonna finish dwnl
+,Afrok,2011-12-27T11:07Z," just finished downloading
+
+ thanks alot from the HORN OF AFRICA"

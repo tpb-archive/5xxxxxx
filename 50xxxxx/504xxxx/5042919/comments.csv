@@ -1,0 +1,36 @@
+User Type,Username,Date,Text
+,evastevens,2009-08-06T09:58Z,"This is for the game serious sam the first encounter.
+I had already downloaded this but like yours, it doesnt work after installation. I use mandriva 2009 if you know how to start it without errors tell us."
+,shahinul,2009-08-06T15:20Z,"@evastevens first you should note that errors. maybe you have something missing on your os.
+try better to mandriva or linux forum. you could get more help there."
+,Disinfo,2009-08-06T18:16Z,"I`m not sure about dependecies, but the most important thing is your videocard and the installed drivers. 
+I`m running on Ubuntu 9.04 with the ATI Radeon free drivers"
+,evastevens,2009-08-06T23:36Z,"Yes im sorry.
+this is my problem
+
+ Locking assertion failure.  Backtrace:                                                
+#0 /usr/lib/libxcb-xlib.so.0 [0xb7d60726]                                             
+#1 /usr/lib/libxcb-xlib.so.0(xcb_xlib_lock+0x2e) [0xb7d608de]                         
+#2 /usr/lib/libX11.so.6 [0xb7f0e871]                                                  
+#3 /usr/lib/libX11.so.6(XCreateWindow+0x32) [0xb7f03b3c]                              
+#4 ./ssam_lnx [0x829ea09]                                                             
+#5 ./ssam_lnx [0x829f051]                                                             
+#6 ./ssam_lnx(SDL_VideoInit+0x2b2) [0x829ba16]                                        
+#7 ./ssam_lnx(SDL_InitSubSystem+0x39) [0x82938e9]                                     
+#8 ./ssam_lnx(SDL_Init+0x18) [0x82939c8]                                              
+#9 ./ssam_lnx(Init__FPviG8CTString+0x29) [0x80c6bc5]                                  
+#10 ./ssam_lnx(SubMain__FPvT0Pci+0x2f) [0x80c8a6f]                                    
+#11 ./ssam_lnx(CommonMainline__FPvT0Pci+0x23) [0x80c94ab]                             
+#12 ./ssam_lnx(main+0xfe) [0x80c95ce]                                                 
+#13 /lib/i686/libc.so.6(__libc_start_main+0xe5) [0xb7d785c5]                          
+#14 ./ssam_lnx(XMapRaised+0x39) [0x80c34c1]                                           
+STUB: load window icon in SeriousSam/MainWindow.cpp, line 153.                        
+STUB: Need SDL invisible window or something in SeriousSam/MainWindow.cpp, line 356.  
+INFO: ""SeriousSam is starting for the first time.                                     
+If you experience any problems, please consult
+ReadMe file for troubleshooting information.""
+ALSA lib pcm_plug.c:1110:(_snd_pcm_plug_open) Unknown field hint
+Fatal signal: Segmentation Fault (SDL Parachute Deployed)
+
+All libraries included. I found the same in internet but without answer.Thank you and sorry for my comments"
+[T],x___x,2009-08-12T00:05Z,Thanks alot for this. Great game installer to go with a great system :P

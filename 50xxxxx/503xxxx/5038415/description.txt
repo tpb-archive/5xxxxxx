@@ -1,0 +1,76 @@
+The new Avira Premium Security Suite protects you in a comprehensive way against the dangers from the Internet
+Do you surf on the Internet, make online purchases, communicate by email, or make bank transactions on your PC?
+The Avira Security Suite was designed to protect you and has an extra FireWall as well as an AntiSpam and a backup function in addition to the award-winning virus protection.
+In a user-defined installation or a modification installation, the following installation modules can be selected, added or removed.
+Premium Security Suite
+This module contains all components required for successful installation of Avira Premium Security Suite.
+
+
+AntiVir Guard
+The AntiVir Guard runs in the background. It monitors and repairs, where necessary, files during operations such as open, write and copy in on-access mode. Whenever a user carries out a file operation (e.g. load document, execute, copy), Avira Premium Security Suite automatically scans the file. Renaming a file does not trigger a scan by AntiVir Guard.
+
+
+AntiVir MailGuard
+MailGuard is the interface between your computer and the email server from which your email program (mail client) downloads the emails. MailGuard is connected as a so-called proxy between the email program and the email server. All incoming emails are routed through this proxy, scanned for viruses and unwanted programs and forwarded to your email program. Depending on the configuration, the program processes the affected emails automatically or asks the user for a certain action. In addition, the MailGuard can reliably protect you against spam emails.
+
+AntiVir WebGuard
+When surfing the internet, you are using your web browser to request data from a web server. The data transferred from the web server (HTML files, script and image files, Flash files, video and music streams, etc) will normally be moved directly into the browser cache for display in the web browser, meaning that an on-access scan as performed by AntiVir Guard is not possible. This could allow viruses and unwanted programs to access your computer system. WebGuard is what is known as an HTTP proxy which monitors the ports used for data transfer (80, 8080, 312 and scans the transferred data for viruses and unwanted programs. Depending on the configuration, the program may process the affected files automatically or prompt the user for a specific action
+
+Avira Firewall
+Avira Firewall controls communication to and from your computer. It permits or denies communications based on security policies.
+
+Rootkit Detection
+The Rootkit Detection checks whether software is already installed on your computer that can no longer be detected with conventional methods of malware protection after penetrating the computer system.
+
+Shell Extension
+The Avira Premium Security Suite Shell Extension generates an entry Scan selected files with AntiVir in the context menu of the Windows Explorer (right-hand mouse button). With this entry you can directly scan files or directories
+
+Backup
+The Backup component lets you create mirror backups of your data manually and automatically.
+
+
+Here are some key features of "Avira Premium Security Suite":
+
+*Control Center for monitoring, administering and controlling the entire program
+* Central configuration with user-friendly standard and advanced options and context-sensitive help
+* Scanner (On-Demand Scan) with profile-controlled and configurable search for all known types of virus and malware
+* Integration into the Windows Vista User Account Control allows you to carry out tasks requiring administrator rights
+* Guard (On-Access Scan) for continuous monitoring of all file access attempts
+* MailGuard (POP3 scanner and SMTP scanner) for the permanent checking of emails for viruses and malware. Checking of email attachments is included
+* WebGuard for monitoring data and files transferred from the Internet using the HTTP protocol (monitoring of ports 80, 8080, 312
+* Backup-component for creating backups of your data (mirror backups)
+* Integrated quarantine management to isolate and process suspicious files
+* Rootkit protection for detecting hidden malware installed in your computer system (rootkits)
+* (Only for 32-bit systems)
+* Direct access to detailed information on the detected viruses and malware via the Internet
+* Simple and quick updates to the program, virus definitions, and search engine through Single File Update and incremental VDF updates via a webserver on the Internet
+* User-friendly licensing in License Manager
+* Integrated Scheduler to plan one-off or recurring tasks, such as updates or test runs
+* Extremely high virus and malware detection via innovative scanning technology (scan engine) including heuristic scanning method
+* Detection of all conventional archive types including detection of nested archives and smart extension detection
+* High-performance multithreading function (simultaneous high-speed scanning of multiple files)
+* Firewall to protect your computer against illegal access from the Internet or from a network, and against illegal access from the Internet/network by an unauthorized user.
+
+
+
+* Computer: Pentium or higher, at least 133 MHz
+* RAM: 192 MB / 512 MB RAM for Windows Vista
+* 40 MB free memory on the hard disk (more if quarantine is used)
+* 100 MB temporary memory on the hard disk
+* Administrator rights are required for the installation
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+*installation*
+
+
+2.Install app.
+3.When at the activation-window choose "Activate product", click on "HBEDV.KEY",
+browse to the folder "where you have downloaded this" and select one of the regkeys.
+or double click on the keys and select o.k
+
+
+Please Comment So That I Can Work On My Next Release To Improve Its

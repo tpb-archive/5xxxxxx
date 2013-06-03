@@ -1,0 +1,92 @@
+User Type,Username,Date,Text
+,pcitrus,2009-08-14T19:35Z,Thank you again for sharing this useful software!
+,sharebird,2009-08-15T02:16Z,"Three days ago I downloaded one of the poster's other torrents, R-Studio, found here:
+http://thepiratebay.org/torrent/5002104/R-Studio_5.0_Build_129000_Network_Edition_Portable
+
+A scan of the download came up clean, and the portable app runs with no virus warnings.
+
+However, when I open an open/save dialog within the app, Avira pops up warning me of a backdoor trojan with the following info:
+AV program: Avira
+Virus: BDS/Backdoor.7168.C
+Exe: svchost.exe
+Location: C:\Users\\Application Data\Thinstall\R-Studio 5.0\1000000600002i\svchost.exe
+
+This happens every time I open or save an image from within the app.
+
+I asked for confirmation in the that torrent's comment, however it is a month old, and not getting a lot of reads, so I am posting here asking anyone to verify similar behavior in this or other torrents from NoExcuses... he has a shitload of portable apps available, and if he has managed to hide a virus that only runs when a file dialog pops up, that's a huge problem.
+
+All of the warnings NoExcuses posts about being careful, don't trust any post, etc., may very well be meant to lull downloaders into a false sense of security.
+
+Can anyone verify either the torrent I linked to, or any of his newer torrents, to see if they are getting the same warnings?  If you don't have an antivirus program, look in the application data directory for the program to see if there is a svchost.exe file that shows up when you are working with the app, especially opening or saving files.
+
+Again, this virus does not appear until running the app and opening or saving a file... a virus scan on the exe before-hand turns up clean.
+
+I am not making any accusations yet, I am simply looking for independent verification of what I'm seeing.
+
+TY"
+,fredpc,2009-08-17T23:33Z,"sharebird
+I have had this problem when I made my own portables
+The software (eg thinstall that makes it portable) has a virus that it packs into the program
+the exe.file scans clean but when it opens the virus is released
+I had to download another version (thinstall) this fixes the problem
+so maybe this is whats happening here ?"
+,fredpc,2009-08-17T23:38Z,"btw I had to use a previous version (thinstall) that was not infected 
+you might want to think about making you own portables it's not that hard to do...and you'll know that it will be clean.....after a bit of testing
+hope this helps :)"
+[V],NoExcuses,2009-08-18T08:45Z,"@sharebird & fredpc
+most of the times the problem gets solved using a better AV..."
+,fredpc,2009-08-18T12:44Z,"NoExcuses
+yes I agree.....I don't want you to think that i'm bagging ur work.....I have the upmost respect for the work that you guys do......so I was just sharing my experences with this sort of pproblem
+
+keep up the gr8 work  thanx :)
+"
+,sharebird,2009-08-19T00:47Z,"fredpc>  That's what I was beginning to suspect... Thinstall is a very expensive app, and I figured all these portable apps were made with a pirated copy.  Sorry NE, if you're the one making these, I think you have a problem with your software.  If not, I would strongly suggest finding another source,  At the moment, every single portable app you're distributing is suspect.
+
+Sorry, mate!"
+,sharebird,2009-08-19T00:57Z,"PS:  Avira is one of the best rated AV's out there... and you're right, it does solve the problem.  Meaning it catches the svchost.exe and prevents it from running.  I'm able to use the app itself, as the unpacking of this exe doesn't prevent the main app from executing... 
+
+Maybe not smart to run an app I know is infected, but Avira is catching it and keeping it from running, and R-Studio is running so darned well aside from this  : D"
+[V],NoExcuses,2009-08-19T09:32Z,"@sharebird
+Read my answer here:
+
+http://thepiratebay.org/torrent/5059196/Atomic_Mail_Sender_v4.27_Portable
+
+and try to remember always of false positives..."
+[V],NoExcuses,2009-08-19T09:56Z,"@sharebird
+BTW, you are attaching your comments to almost all my uploads, also the ones not built up with Thinstall, so that for sure they could not be infected by the supposed virus you say. I'm quite tolerant, but not too much, so if you want to add your comments only to the uploads that show the problem should be great, not also to the good ones. Don't spread panic around about uploads that you haven't tested, and as I say in my comments, if you find something wrong in any upload, not only in mine, go tell it at
+
+http://suprbay.org/forumdisplay.php?f=34
+
+and the mods will take care of them.
+
+
+
+These uploads are free of charge for all and if your AV tells you not to use some of them, then obey but stop spreading havoc on all the other uploads, specially when they don't have any problem. Spreading around wrong comments is considered annoying, and you can be banned for that..."
+[V],NoExcuses,2009-08-19T11:19Z,"@sharebird
+Here you can see the results of the scanning of the infamous svchost.exe file you are shouting about. It's one of the links that you can find in the VirusTotal scan.
+
+http://www.threatexpert.com/report.aspx?md5=422b7f101d75766e9f298ee501967bc7
+
+From my previous experience, if ThreatExpert finds it clean, there are 99.9999% of probabilities it's so.
+
+Anyway, here it is what I do with almost every downoload from TPB or any other internet site:
+
+Extract all the files and run them in Sandboxie.
+
+1) If there are no strange files trying to run in background or other suspicious behaviours, and they run with no problems, then I put them in the GOOD box, tho check them better in a second time.
+
+2) If there are some extra suspicious files, my AV complains about them trying to access to internet or to some system resources, other than the ones supposed to be done by the right program, I stop everything and go hunting in the Sandboxie dirs to see which files (mainly in the TEMP dir) it was expanding there, moving the good and the bads on the Desktop for further analysis. I scan then with Jotti and VirusTotal, and if I think they are particularly hard to detect, also with ThreatExpert.
+
+When I'm sure that the upload is for sure having some weirdo inside, I go to:
+
+http://suprbay.org/forumdisplay.php?f=34
+
+login, write a message in the relative forum, giving them the link to the file and the one of the user so they don't have any problem to find it, and all the informations regarding what I've found, included links to VT and TE reports about the viruses found, asking them to take care of it. If the Mods find the file infected they will delete it, and ban the user if he is uploading other bullshit.
+
+In other words, going around adding comments to ALL the uploads of TPB doesn't bring to anything good for anybody. If you think that an upload is infected, then collect all the evidences you can get an give it to the mods, they will check if what you say it's true and do what it's necessary about this.
+
+If in any case you want to trust more in your AV, then delete this program and use something else, but
+
+STOP WASTING YOUR AND OTHER'S TIME UPLOADING UNRELATED COMMENTS TO ALL THE UPLOADS YOU CAN THINK OF. THESE COMMENTS DOESN'T BRING NOTHING THAN NOISE TO OTHER PEOPLE.
+
+Hope this helps stopping this mess. I don't think or say that all my uploads are virus free, I can make a mistake too, but I try to not upload anything that I'm not sure it's clean, but anybody that reads this should know that's better to say it to the mods than spreading comments based only on a free AV scan. Even the paid ones can make mistakes, think about the free ones..."

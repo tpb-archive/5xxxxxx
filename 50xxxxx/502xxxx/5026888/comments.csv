@@ -1,0 +1,540 @@
+User Type,Username,Date,Text
+,fabiodrums,2009-07-28T15:27Z,It's works with serial or crack?
+[T],josvila,2009-07-28T22:16Z,"I think serial DMG format when I can not see it because I used Windows, saludos"
+,kevster1976,2009-07-31T09:07Z,"looks like a nice torrent, and universal binary too!!!!
+
+only problem is that i cant get ti to open.
+
+says"" failed to open-bad info. path file error. adobe photoshop pdf""
+
+any help please??? por favor???"
+,argentos23,2009-08-02T20:07Z,Lo instale y segui las instrucciones al pie de la letra. funciona de puta madre. graciaas!!!!
+,hoslabogy1993,2009-08-03T11:51Z,"I dont speak spanish
+
+can i use a serial for this.
+
+cause i need it bad and i have bad experiance on cracks and patches=( 
+
+it lags like a bitch"
+,gigatouch,2009-08-04T11:03Z,SEED PLEASE!!!
+,findermix,2009-08-06T19:04Z,"Podeis poner el serial aquí.
+Gracias"
+,omni1100,2009-08-07T03:59Z,you need to modify your host file to keep app from phoning home. this is what is explained in read me.
+,willpowerpt,2009-08-08T08:30Z,"Can someone explain how to stop it calling home everytime? I cannot see this in the instructions ? Instructions call for this folder ""sudo pico / private / etc / hosts "" I cannot find this folder."
+,mathfreak,2009-08-08T23:11Z,"I haven't downloaded it yet but modifying the hosts file to prevent calling home is basically this:
+
+sudo nano /etc/hosts
+
+In this file you'll see a few lines such as 
+
+127.0.0.1 localhost
+::1 localhost
+
+These lines tell your computer to reroute all requests to localhost to 127.0.0.1 or ::1. You need to add a line that routes all requests to adobe.com to another address that isn't adobe.com. 
+
+Keep in mind that hosts file operates under an exact match setting. In other words, adobe.com is not http://www.adobe.com nor is it https://www.adobe.com. It either matches exactly or it doesn't match at all. You need to include all cases that the program you want to block might try."
+,findermix,2009-08-09T12:42Z,"Apreciados colegas:
+Gracias al aporte de Josvila he instalado la suite, pero como la mayoría de usuarios de Mac hemos escogido este sistema por la sencillez de su funcionamiento y no queremos entrar en sus interioridades, he probado otra alternativa más sencilla que la que indicada y me ha funcionado perfectamente.
+Simplemente una vez que el archivo ""ADBESTAMCS4_LS4.dmg"" que hemos descargado este en el escritorio le damos doble clik y que se abra en el escritorio, abrimos la carpeta y encontraremos un icono de ""SETUP"" le damos a este y se abrirá el instalador, (paciencia...)una vez abierto, aquí colocaremos el serial que está en la carpeta inicial del torrent bajado, tiene que empezar por 1325-....-....- lo insertamos y empezara la instalación. más paciencia.
+CONSEJO: No es necesario instalar toda la suite ya que es muy ámplia y seguramente no necesitaremos todas las aplicaciones, podemos instalarlas más adelante.
+MUY IMPORTANTE: Una vez este la carpeta bajada en el escritorio y antes de instalar nada, desconectarse de INTERNET, instalar las app que necesitemos, abrirlas, probarlas, y después de esto reiniciamos, ya podemos conectarnos a INTERNET.
+No es necesario desinstalar las versiones anteriores, pero una vez comprobado que funcionan las nuevas se pueden desisntalar, más que todo por el espacio en disco y que al clicar un archivo se abra una u otra.
+----------
+-Instalar la aplicación que indica JOSVILA ""Littlesnitch"" no es necesaria, pero es muy buena para saber donde se conecta nuestra máquina. la bajamos de  Softonic  y le colocamos 32T9GDBAA0-715H5-P51UE6HGML listo
+------------
+Para desinstalar una aplicación lo mejor es utilizar AppCleaner, abrir la carpeta que contiene la appp tirar el icono sobre AppCleaner y después todo el resto a la papelera.
+Se consigue free en http://www.macupdate.com
+
+Translate this text whit http://translate.google.com/#"
+,findermix,2009-08-09T19:34Z,"Ampliación/aclaración del anterior post:
+Siguiendo los pasos anteriores para instalar la suite, tengo que rectificar ya que ""si es necesario"" tener instalado Littlesnitch y que cuando se conecte a Adobe para actualizar o registrase  DENEGAR ""DENY"" así tendremos la aplicación disponible, ya que si clicamos ""ALLOW"" nos cerrara y bloqueará la aplicación.
+
+También decir que con el procedimiento de Josvila se instala perfectamente y funciona de maravilla, no es tan complicado de hacer y nos ahorramos cada vez que abrimos las aplicaciones denegar la comunicación con Adobe."
+,willpowerpt,2009-08-09T23:48Z,"ok that's my question Mathfreak.
+Where is this folder ""sudo nano /etc/hosts"" on a mac?
+I cannot find it "
+,mathfreak,2009-08-10T00:55Z,"It's not a folder. hosts is a file located in the folder /etc
+
+Just go into Terminal (it's located in the Utilities folder). Terminal is a black screen that looks like MSDOS in windows. If you don't see this screen then you are in the wrong place. 
+
+Once you find this screen, type the command:
+
+sudo nano /etc/hosts
+
+This will ask for your account password. Enter it in and press enter. Please note that with UNIX, passwords aren't visible so it will seem like your computer has been frozen. Don't worry. Just enter it and press enter. This will open up your hosts file for editing.
+
+If you're still having issues, please tell me your version of Mac OS X that you're running. You can find that out by clicking the Apple icon in your menu bar and then clicking ""About this Mac"".
+
+Hope this helped."
+,findermix,2009-08-10T01:05Z,"Don't exist this folder, 
+Open app Terminal, (inside utilities), you can write exactly this words ""sudo nano /etc/hosts"" and key/Password of administrator/propietari of mac then paste the text 127.0.0. etc. etc.. 
+Reed the instruccions of josvila.
+Dowload the torrent and translate ""NuevasInstrucciones.doc"" inside the folder downdloaded"
+,willpowerpt,2009-08-13T21:50Z,"Thanks, it appears to be working. Thanks for the file. Keep on sharing."
+,4upu6ac,2009-08-17T08:10Z,???????:)
+,andresaic,2009-08-18T09:28Z,"i need a serial code that really works.
+necesito un serial code que realmente sirva.
+andresaic@hotmail.com.
+thank you - gracias."
+,findermix,2009-08-20T17:49Z,"Si sigues las instrucciones de Josvila, no necesitas nada más.
+Funciona perfectamente.
+Leete las instrucciones."
+,peppe eng,2009-08-21T03:05Z,Is it the same file as http://trials.adobe.com/akdlm/dlm/Applications/MastCol/CS4/Mac/ADBESTAMCS4_LS4.dmg ?
+,ripassist,2009-08-24T03:54Z,"So I downloaded the file and installed all of CS4. I had the Internet disconnected. I opened photoshop to test it out and I got the error message ""the licensing for this product as expired."" 
+
+What do I do?"
+,ripassist,2009-08-28T02:20Z,Anybody?  Has this question been answered somewhere else?  Thanks in advance!
+[T],dkent4000,2009-09-21T17:37Z,"Please keep seeding, thanks"
+,Hierotochan,2009-10-04T16:01Z,"All apps works fine with LittleSnitch, except After Effects which quits before it opens!?"
+,frowwg,2009-10-05T12:02Z,"Great App
+
+Running on 10.6.1 Snow Leopard - has anybody found any cracks or got this to work? How? Where?"
+,frowwg,2009-10-08T17:43Z,Trying to run this on 10.6.1 Snow Leopard. Has anybody managed to get it working? Or found a crack? Please share..
+,mudlark1,2009-10-12T23:30Z,"To anyone having the problem with ""Licensing for this product has expired"", the following worked for me. You must be logged in as the administrator on your mac. Also, obviously, you should only do it if you own and have paid for a legitimate copy of the product (clears throat)
+
+OK! Install Adobe but don't launch it. (If you already have it installed, use AppZapper to completely delete it.) Now turn off your AirPort to stop the computer connecting to the internet.
+
+Launch Terminal from Applications / Utilities. 
+
+Type sudo pico /etc/hosts
+
+You will be prompted to enter your password. Nothing will appear onscreen while you do, but enter it anyway and press enter.
+
+A very lo-tech-looking text editor will flash up, with one or two entries beginning 127.0.0.1 in it. Use the arrow keys to navigate to the beginning of these entries. You need to get the following entries in there: use the TAB key to insert a linebreak.
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+When you're done, press CTRL-X to exit. It will ask you if you want to save changes. Hit Y. You have now edited the hosts file to stop Adobe phoning home. Don't stop! There is more.
+
+[Sidenote: the bit above becomes very much easier if you can be bothered to get hold of BBEdit, install its command-line tools and then open terminal and type bbedit /etc/hosts. Then copy/paste the list and save.]
+
+NOW: to get rid of the ""Registration has expired"" thing, do the following:
+
+Quit all Adobe programs and delete the following file:
+
+/Library/Application Support/Adobe/Adobe PCD/cache/cache.db
+
+NB that this should be in the Library folder of your root directory, ie Mac HD, or whatever you've called your hard disk. There's another Library folder under your username under Users, but it doesn't have the Adobe PCD folder in so it isn't the one we want.
+
+Now launch your Adobe app and enter one of the following serials. Make a note which one you used in case you want to install and activate any others. Don't connect to the net just yet.
+
+1325-0321-2015-7091-9681-7717
+1325-0181-3738-0615-5739-9898
+1325-0084-0806-2185-0302-7354
+1325-0112-3840-5467-8974-0282
+1325-0248-9800-0187-7623-7106
+1325-0412-0855-1375-6305-7806
+1325-0581-1108-1105-1944-2760
+1325-0213-2599-6032-5159-4780
+1325-0882-6599-8787-6439-6137
+1325-0261-4811-3496-3493-1549
+
+A tick will appear beside it when you have it right. Hit continue. I don't know if it's safe to run the Updater that may appear, so I have avoided doing so. Quit Photoshop and restart to check everything is OK, then you should be able to reconnect to the net and breathe a sigh of relief. You're done.
+
+Apologies if some of these steps are repeats or redundant. Thanks should go to the various sites all over the net that came up with the separate bits of this explanation: all I have done is put them together. Good luck!"
+,ik80,2009-10-14T03:47Z,"=== HOW TO INSTALL CS4 ===
+8.5GB CS4 MASTER Version:
+
+
+1. If you have CS3, run the CS3 clean script: http://www.adobe.com/support/contact/cs3clean.html
+2. Change the Date to something like 18th December 2008
+3. Block adobe's activation in etc/hosts - by bsodmike (see below)
+3.1. Test if it really blocked: on the Terminal, run ""ping activate.wip3.adobe.com"" it must show 127.0.0.1 instead of 192.150.14.69
+3.2. I turned my internet off, just in case...
+4. Install CS4 (open the .dmg and run the setup)
+4.1. Use capslockasdf serial's (see below)
+4.2. On the Registration step, choose: Register Later (just never register)
+5. Update your Calendar to today (item 2)
+5.1. Reconnect your internet (item 3.2)
+6. Run the Updater: /Applications/Utilities/Adobe Utilities/Adobe Updater6/Adobe Updater.app
+6.1. It updated fine to Photoshop 11.0.1 and InDesign 6.0.1 on Apr/13/09
+6.2. On the Updater Preferences, i've disabled the automatic updates, just in case...
+
+===============================================================
+============== item 3 - activation server blocks ==============
+===============================================================	
+
+Here are the steps:
+
+A. open the terminal.app
+B. type ""sudo -s"" [without quotes]
+C. if asked, type your root password and hit enter
+D. type ""pico /etc/hosts"" [without quotes]
+E. copy the list you find in the post of bsodmike (below) and past in your terminal (at the end of this hosts file)
+F. ctrl+x to exit, y to save and enter to confirm the same name and modify your hosts file.
+
+bsodmike's list:
+
+
+# Block Adobe Activation
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+
+
+And an example, this is what my hosts file looks like. 
+Yours should be similar, what is important is how I pasted the above bit into it!:
+
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting. Do not change this entry.
+##
+127.0.0.1 localhost
+255.255.255.255 broadcasthost
+::1 localhost
+fe80::1%lo0 localhost
+
+# Block Adobe Activation
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+
+
+
+===============================================================
+============== item 4.1. - serials =============
+===============================================================
+
+>> This is if you already had CS4 working  Deactivate > check the Remove key option > hit OK to confirm it. The program closes immediately afterwards
+4. change the date back to the proper date
+5. find that /Library/Application Support/Adobe/Adobe PCD/cache/cache.db
+( I could have sworn the Adobe PCD folder and the cache file wasn't there before I deactivated it, but now it's there)
+6. delete that shit -- it'll ask for your admin password
+7. start up any cs4 program again (i used dreamweaver)
+8. punch in a new serial
+
+1325-0983-0639-2621-9933-0169 (worked!)
+1325-0499-6622-0627-0894-4401
+1325-0251-7271-9123-1273-8884
+1325-0026-4624-8818-7932-0556
+1325-0962-7473-4117-2355-4270
+1325-0486-9027-6954-9463-5444
+1325-0207-0335-6666-8003-7590
+1325-0519-8938-1179-0017-1413
+1325-0691-8375-3037-2163-7263
+1325-0128-5743-2349-4365-4236"
+,pcamw,2009-10-17T02:43Z,Your product key doesn't work!  It says that it's an incorrect product key after about 10 minutes!
+,sat0ri,2009-10-20T10:02Z,"Used AppZapper on all the Adobe stuff, deleted the cache.db file, getting this error now:
+
+""The installer databases are locked. Please restart the machine and then run this installer.""
+
+Anyone have a solution?"
+,DaKettch,2009-10-21T12:15Z,"maaaans!
+seed pls!!!!
+most im-nt!"
+,Sven93,2009-11-02T12:26Z,Is this version also in Dutch (Nederlands)? 
+,montypi,2009-11-13T13:48Z,"I would be interested to know why this is approximately 1.5GB larger than the other popular one here:
+http://thepiratebay.org/torrent/4485990/Adobe_CS4_Master_Collection_Mac_-_EN_FR_ESP
+
+Just wondering..."
+,pdi,2009-11-15T15:28Z,"mudlark1  great guide, the thing is Acrobat 9 pro will not work it keeps asking for serial how can I get around that?what did I do wrong? /P
+pdi@home.se"
+,pdi,2009-11-15T15:28Z,"mudlark1  great guide, the thing is Acrobat 9 pro will not work it keeps asking for serial how can I get around that?what did I do wrong? /P"
+,gisail,2009-12-04T12:10Z,"To all of you that have problems with the activation of Acrobat, please note that the serial needed for the desired tick box to light green is different from the ones provided for all the other applications.
+
+Try one of the following
+
+1118-0011-0841-2246-4404-1353 
+1118-4018-6583-4956-2486-7805
+
+It worked for me but just in case, turn your airport off....
+"
+,carlmichael,2009-12-08T21:52Z,shite image cant be opened. running 10.6
+,vibestyler,2009-12-09T19:57Z,doesn't work on 10.4
+,imnoobish,2009-12-16T20:22Z,in the terminal r u supposed to put in ur mac admin password cuz i didn't set up a password for my mac and i press enter nothing happens or is there a password in the file after download that i gotta input? 
+,LordOrwell,2009-12-29T02:03Z,bbedit is not necessary!  It amazes me when people try to get you to install crap you don't need.  All you have to do is copy that list to your clipboard and pico can paste it with command-v.  No unnecessary BULLSHIT needed.
+,131313121212,2010-01-03T22:54Z,"To: imnoobish
+""in the terminal r u supposed to put in ur mac admin password cuz i didn't set up a password for my mac and i press enter nothing happens or is there a password in the file after download that i gotta input?""
+
+If you did not setup a password to your mac, you can't access commands in the terminal correctly, I MEAN you can't use it with a blank password, please create a password first as an administrator then use it in the terminal windows, you can remove your password afterwords its ok, but in the terminal , it waits for you to enter the account password (admin).. if it is blank, then there is no input ..
+"
+,DPK010,2010-01-11T13:49Z,"HEY BOYS & GIRLS!
+
+SWIM already has this release up and running, but has been nagged by the Adobe Updater.
+
+So SWIM was wondering whether anyone here has concrete info on whether it is okay to let this release update, or whether it's gonna go berserk and lock up the license, as many releases do.
+
+Also, SWIM has just yet downloaded a trial version of Lightroom and keygenned it.
+If (See? SWIM needs YOUR opinion! :-P ) it's okay to update this release, is it then also okay to let Lightroom get updated?
+
+SWIM hopes that this message was clear enough for everyone here to easily grasp and hopes to get some conclusive news from y'all soon! :-)
+
+In case you know the answer to this dilemma, but don't want to discuss it here, feel free to contact SW on facebook[dot]com[slash]damoon.f
+
+
+Thanx peeps!
+
+.D"
+,bananaking,2010-01-12T12:55Z,"hi. i'd like to download a copy of adobe cs4 off piratebay. is this the best place to download incidentally and with vuze? i wondered if i could then burn it on cdr. sorry for ignorance - my computer knowledge is sketchy. does adobe cs3 have the same expiry issues? i guess i don't want to do this over and over again.
+
+-----
+
+these seem the main 2 downloads - i'm not sure if one is better than the other:
+
+http://thepiratebay.org/torrent/4485990/..._EN_FR_ESP
+
+http://www.piratebay.org/torrent/5026888...ction_CS4_[App][Mac_OSX][MULTi]_By_josvila
+
+-----
+
+i've read through the various guides on the boards - but which steps to make this work? i can follow them but as i don't really have a great understanding of computers, i'm not sure what i'm doing...
+
+i've got a 10.5.2 laptop...
+
+-----
+
+STEP 1
+
+Change the Date to something like 18th December 2008
+
+STEP 2
+
+turn off airport to stop connecting to interrnet
+
+STEP 3
+
+Launch Terminal from Applications / Utilities. 
+
+Type sudo pico /etc/hosts
+
+OR: 
+
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+You will be prompted to enter your password. Nothing will appear onscreen while you do, but enter it anyway and press enter.
+
+A very lo-tech-looking text editor will flash up, with one or two entries beginning 127.0.0.1 in it. Use the arrow keys to navigate to the beginning of these entries. You need to get the following entries in there: use the TAB key to insert a linebreak.
+
+Here are the steps:
+
+A. open the terminal.app
+B. type ""sudo -s"" [without quotes]
+C. if asked, type your root password and hit enter
+D. type ""pico /etc/hosts"" [without quotes]
+E. copy the list you find in the post of bsodmike (below) and past in your terminal (at the end of this hosts file)
+F. ctrl+x to exit, y to save and enter to confirm the same name and modify your hosts file.
+
+bsodmike's list:
+
+
+# Block Adobe Activation
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+
+
+And an example, this is what my hosts file looks like. 
+Yours should be similar, what is important is how I pasted the above bit into it!:
+
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting. Do not change this entry.
+##
+127.0.0.1 localhost
+255.255.255.255 broadcasthost
+::1 localhost
+fe80::1%lo0 localhost
+
+# Block Adobe Activation
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+
+When you're done, press CTRL-X to exit. It will ask you if you want to save changes. Hit Y. You have now edited the hosts file to stop Adobe phoning home
+
+STEP 4
+
+Test if it really blocked: on the Terminal, run ""ping activate.wip3.adobe.com"" it must show 127.0.0.1 instead of 192.150.14.69
+
+STEP 5
+
+run the following under Terminal: sudo dscacheutil -flushcache
+
+(above is for leopard)
+
+You can also do the same in Tiger with the following Terminal command:
+
+lookupd -flushcache
+
+STEP 6
+
+Install CS4 MC in Trial mode: select trial mode at the Welcome screen
+
+STEP 7
+
+Use Little Snitch to block Adobe checking serial from obdev.at
+
+STEP 8
+
+Now launch your Adobe app and enter one of the following serials. Make a note which one you used in case you want to install and activate any others. Don't connect to the net just yet.
+
+1325-0321-2015-7091-9681-7717
+1325-0181-3738-0615-5739-9898
+1325-0084-0806-2"
+,bananaking,2010-01-12T13:00Z,"ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+and save the file. Do NOT do a 'Save As'. Close the file.)
+
+Now install CS4
+
+5. Run any application from the MC CS4. Choose trial, let it connect to the internet !!!!!! Close the app.
+
+6. Open Terminal (found in Applications/Utilities/). In the terminal window, paste in:
+
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+Hit return and type in your admin password.
+
+A file will automatically open in TextEdit. In TextEdit, at the bottom of the document, hit return and paste in the following:
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+Save the file. Do NOT do a 'Save As'. Close the file.
+
+!!!! This is not a mistake in step 4 you were supposed to undo these changes if you had edited the file before and had CS4 that suddenly stopped working.
+
+7. In a new terminal window, paste in:
+
+sudo dscacheutil -flushcache
+
+Hit return and type in your admin password [if asked again].
+
+8. Launch any CS4 app and enter the serial:
+
+1325-0505-2949-5043-2724-3432
+
+-----
+
+OTHER STEPS SUGGESTED
+
+setting the clock back off it is says it has expired
+
+using appzapper
+
+to clean:
+
+CS4: http://www.adobe.com/support/contact/cs4clean.html
+
+
+AND THIS:
+
+open a terminal, and become super user ( namely root) using the command 
+""sudo -s"" (without quotes) and when it asks, give your password. and delete the file 
+""cd /Library/Application\ Support/Adobe/Adobe\ PCD/cache/cache.db"" using the command ""rm"" ex. 
+""rm cd /Library/Application\ Support/Adobe/Adobe\ PCD/cache/cache.db""
+when you reopen any adobe mc app. it will ask you a serial, and you know the rest of the story.  good luck.
+anka01 at 2009-10-25 23:53 CET:
+sorry, I forgot to rm ""cd"" command in front of the path to the file. The file is
+/Library/Application\ Support/Adobe/Adobe\ PCD/cache/cache.db
+
+-----
+CAN ANYBODY STEER ME THROUGH THIS A BIT? THANK YOU"
+,Bebras2,2010-02-15T12:35Z,thanks
+,fuckofcommerce,2010-02-16T10:32Z,"YEAH MAN I LOOVE YOU
+works great, no virus, no trojan, with great (spain) HowTo =)
+
+@frowwg, yes for me it works on Snow Leopard."
+,fuckofcommerce,2010-02-16T10:32Z,"@frowwg, just use the serial and read the HowTo to block the Apps from calling home"
+,coolgail,2010-02-24T02:55Z,My husband just bought me a new Imac and he bought the DVD trial for the CS4 Master collection. My question is how can I install using the DVD trial? Will the process be the same as downloading from their site. Any help would be great. I have not had a mac the 2 years and miss my cs4. 
+,wesrik,2010-02-26T02:45Z,I previously downloaded the InDesign ME version - which I took away with AppCleaner. Then when I try to install the full master collection - it says I have a beta-version of InDesign already installed!!! How can I fix this??
+,lamplover,2010-03-05T13:17Z,Yo ho me hearty! Thank you very much. She works like a charm! 
+,EstoyLoko,2010-03-06T17:28Z,"hey everyone, I downloaded this torrent and followed instructions word for word, every app works great except photoshop, the only app I really wanted. keeps saying license epired, but every other app works fine. If anyone can give me details on exactly what I need to do to fix this, I would really appreciate it."
+,hidella123,2010-03-13T00:50Z,"PROBLEM: 
+when I try to install the dmg file, this message comes up : The following disk images failed to mount, reason: codec overrun
+
+How do I solve this? 
+PS - I have already edited my hosts file and done this while being disconnected from the internet.
+THANK YOU!!!!!!!!!!  "
+,goodnoah.com,2010-03-13T17:59Z,SEED
+,tamosswiny,2010-03-30T20:30Z,"I Know it 's multil lang. but does this mean there is also a dutch version included? I don't want to waste 8,5 GB"
+,jbmatrix,2010-10-13T04:04Z,Stop wasting your time. I have adobe master collection for next to nothing. For details email me at apntexas@msn.com.
+,beckman2905,2011-04-22T01:03Z,"is it possible for anyone to make a crack of the app 'InstaDesk'? I don't have an iPhone, so I can't see other people's instagram pictures."

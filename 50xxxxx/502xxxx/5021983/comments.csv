@@ -1,0 +1,14 @@
+User Type,Username,Date,Text
+,RealHaxx,2009-07-29T11:14Z,Found trojan in this one.
+,JustusOumlov,2009-07-29T16:01Z,"That's impossible! I wrote this myself and I know there isn't one!
+Can you prove it or are you just jerking me around?"
+,JetEngineCom,2009-08-03T09:12Z,"Doesn't work - gives message ""Close NetTransport And Try Again"" even when NetTransport is not running. I have tried putting in the full path to the exe file - but nothing"
+,JetEngineCom,2009-08-03T09:14Z,"Justus - the patch is the one giving the error message, so what is wrong and how do i correct the problem?"
+,JetEngineCom,2009-08-03T11:11Z,"Okay finally got the patch working but here is what i had to do - first i installed nettransport, then i copied nettransport.exe and put it to a custom directory, then i uninstalled nettransport such that when i ran the patch, it did not see the executable and had to ask for location, i gave it the custom location and that nettransport.exe was patched and registered, then i reinstalled nettransport, then cut and pasted the patched nettransport.exe from the custom location to the program files location and voila ..."
+,JustusOumlov,2009-08-03T20:11Z,"@JetEngineCom
+If even after showing the program the way to the patch it says Close NetTransport and try again then the file is returning ""Access is Denied"".
+If you have Vista then run the patch as administrator.
+If you have XP or running as administrator doesn't work send me a pm on SuprBay :
+http://suprbay.org/member.php?u=78362
+I'd love to troubleshoot this with you"
+,DarkEcko,2009-08-03T21:17Z,"Patches can't patch open files, did you check Task manager and close all processes with that name?"

@@ -1,0 +1,48 @@
+Counter-Strike 1.6 NoSteam [with BOTS] LAN + online, full p47+p48 support + server nonsteam
+
+You can play online only in patched nosteam servers. I included two separate
+nosteam clients in this release so you should be able to join them all without
+having to worry about which nosteam version the server is. If you want to play in regular
+Steam-only servers, you need to buy the game.
+
+I also included a separate dedicated server setup, in case you want to start your
+own dedicated LAN game with your friends, or start your own server on the internet.
+The server is already setup to accept all nosteam clients.
+
+If you are new to Counter-Strike, read the NFO it includes lots of sites you can
+find support and information at.
+
+==============================================
+
+This torrent is tracked by a variety of public trackers so it should be working for a long time.
+
+Screens: 
+http://img29.imageshack.us/img29/8516/p471.jpg 
+http://img338.imageshack.us/img338/3818/p472.jpg 
+http://img140.imageshack.us/img140/8454/p473.jpg
+
+==============================================
+
+Counter-Strike 1.6 client 1: Protocol 47 v32, for playing on older, p47 nonsteam servers, and dual-protocol nonsteam servers.
+-627mb unpacked
+-Working CZ style bots
+-Working favorites in server browser
+-Server browser with Setti masterserver (huge list of online nosteam servers)
+-Clean, loads quickly, and works fairly well with Steam
+-Works on all p47 nonsteam servers using older patches, and most dual protocol servers
+
+Counter-Strike 1.6 client 2: Protocol 48 v42, for playing on newer p48 nonsteam servers, and dual-protocol nonsteam servers.
+-539mb unpacked
+-Working CZ style bots
+-Working favorites in server browser
+-Server browser with Setti masterserver (huge list of online nosteam servers)
+-Clean, loads quickly, and works fairly well with Steam
+-Works on all dual protocol servers, as well as specific p48 servers
+-Works on Vista/7 (see NFO)
+
+The server uses the latest dual protocol patch, and will support all nosteam clients, as well as steam players.
+-338mb unpacked
+-Windows server
+-Uses Crock's dproto 0.34 nosteam patch
+-Includes AmxModX 1.8.1
+-HLDS v4554 fully updated, protects against fake players bugs

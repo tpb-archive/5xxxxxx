@@ -1,0 +1,30 @@
+ConvertXtoDVD changes history
+
+
+ConvertXtoDVD - 3.8.0.193e
+============================
+- burning sdk 4.0.3.446
+- burning speed optimization , especially for Pioneer DVD writer 
+
+
+
+ConvertXtoDVD - 3.8.0.193d - released 13rd of August 2009
+============================
+- Burning SDK 4.0.2.428 ( increase long write in progress timeout)
+- updated translations.
+- force to delete swscale.dll in the setup script.
+
+ConvertXtoDVD - 3.8.0.193c - Released publicly 10 of August 2009
+=====================================================
+
+new burning sdk update :
+
+Burning SDK - 4.0.0.424 {
+New Enhanced SPTI interface,
+better AnyDVD support,
+better drive locking mechanism,
+other minor fixes }
+
+- 0002894: [Feature Request] Add notification for media parsing (wesson) - resolved.
+- 0002895: [Bug] When burn error is reported, the percentage were the error occured is wrong (wesson) - resolved.
+- 0002592: [Suggestion] Always an extra comma after last burn speed in the logs / Available write speed: 8x, 6x, 4x, 2x, (wesson) - resolved.

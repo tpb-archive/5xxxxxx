@@ -1,0 +1,25 @@
+MediaWiki
+-----------
+
+MediaWiki is a web-based wiki software application used by all projects of the Wikimedia Foundation, all wikis hosted by Wikia, and many other wikis, including some of the largest and most popular ones. Originally developed to serve the needs of the free content Wikipedia encyclopedia, today it has also been deployed by companies for internal knowledge management, and as a content management system. Notably, Novell uses it to operate several of its high-traffic websites.
+
+MediaWiki is written in the PHP programming language, and can use either the MySQL or PostgreSQL relational database management system. MediaWiki is distributed under the terms of the GNU General Public License version 2 or any later version while its documentation is released under the GFDL version 1.2 or any later version and partly in the public domain, making it free and open source software.
+
+
+
+
+Key features
+-----------
+MediaWiki provides a rich core feature set and a mechanism to attach extensions to provide additional functionality.
+
+Due to the strong emphasis on multilingualism in the Wikimedia projects, internationalization and localization has received significant attention by developers. The user interface has been fully or partially translated into more than 300 languages, and can be further customized by site administrators (the entire interface is editable through the wiki).
+
+Because Wikipedia is one of the world's largest websites, achieving scalability through multiple layers of caching and database replication has also been a major concern for developers. Wikipedia and other Wikimedia projects continue to define a large part of the requirement set for MediaWiki.
+
+One of the earliest differences between MediaWiki (and its predecessor, UseModWiki) and other wiki engines was the use of "free links" instead of CamelCase. Where, in a typical wiki, text like "WorldWideWeb" would have to be typed to create a link to a page about the World Wide Web, links in MediaWiki are created by surrounding words with double square brackets, and any spaces between them are left intact, e.g. [[World Wide Web]]. This change was logical for the purpose of creating an encyclopedia, where accuracy in titles is very important.
+
+To make editing long pages such as comprehensive Wikipedia articles easier, MediaWiki allows the editing of a subsection of a page (as identified by its header).
+
+
+
+More MediaWiki related downloads can be found @ http://thepiratebay.org/user/wikidev

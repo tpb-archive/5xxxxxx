@@ -1,0 +1,23 @@
+Fraction of full ISO size: 19.4%
+applydeltaiso's approximate running time (2-3 GHz CPU, 1-2 GiB RAM): 20 minutes
+
+This deltaiso file allows one to generate the Fedora-Unity-20090414-10-i386-DVD.iso image if one already has the Fedora-10-i386-DVD.iso image (either as an ISO file, or on DVD).  This requires the applydeltaiso command, contained in the deltarpm package (available in the Fedora repos).  Using the ISO file, one runs
+
+applydeltaiso Fedora-10-i386-DVD.iso Fedora_Fedora-Unity-20090414-10-i386-DVD.diso Fedora-Unity-20090414-10-i386-DVD.iso
+
+If one has the DVD, just mount it and then run
+
+applydeltaiso /dev/dvd Fedora_Fedora-Unity-20090414-10-i386-DVD.diso Fedora-Unity-20090414-10-i386-DVD.iso
+
+Before downloading the deltaiso, make sure to have the correct, verified, input image.  The SHA1 for Fedora-10-i386-DVD.iso is
+
+086fd570518ac58d3966c43c1b6d146e38919d8d *Fedora-10-i386-DVD.iso
+
+as found in the readily available signed SHA1SUM file.  If it's on DVD, one can simply do a mediacheck.  After running applydeltaiso, verify the output image.  The SHA1 for Fedora-Unity-20090414-10-i386-DVD.iso is
+
+0d20498a25731d9af57d568088baf76650837d1e  Fedora-Unity-20090414-10-i386-DVD.iso
+
+as listed at
+ 
+http://spins.fedoraunity.org/unity/fedora-unity-f10-re-spin-20090414-sha1sums
+

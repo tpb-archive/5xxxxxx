@@ -1,0 +1,87 @@
+Configuration Manual:
+
+Go to config/configure, to configurate your plugins
+
+Click on Set Plugins Directory to choose the plugins path, example: C:Program FilesPCSX 2 TC Editionplugins
+Click on Set Bios Directory to choose the bios path, example: C:Program FilesPCSX 2 TC Editionbios
+
+Once in the emulator go to Config/Controllers/Pad1 and Pad2 to choose your buttons.
+
+For Intel Core 2 Duo CPU's, choose:
+GSdx 826 (MSVC 15.00, SSSE3) 0.1.14
+
+For Intel  Core 2 Duo E7xxx, E8xxx series and Quad Core series, choose:
+GSdx 826 (MSVC 15.00, SSE41) 0.1.14 
+
+For the rest of the CPU's:
+GSdx 826 (MSVC 15.00, SSE2) 0.1.14
+
+For those who own Dual Core, AMD x2 etc CPU's:
+
+Go to Config/CPU and enable "Multi threaded GS mode (MTGS)"
+this will boost your speed in games
+
+Below you have to choose "VU Skip" (doesn't work in all games, Budokai Tenkaichi 3 for example)
+If a black screen appears in some games then you have to choose "Limit"
+
+For those who own a DirectX10 compatible video card and have Windows Vista:
+Go to Config/Graphics renderer and choose Direct3D10 (Hardware)
+This will boost your fps.
+
+DirectX 10 compatible cards: Ati Radeon HD series, NVIDIA GeForce 8,9,200 series.
+
+(NEW) For those who want to remove the Dragon Ball Z Budokai Tenkaichi 3 screen flicker, choose the GSdx (MSVC 15.00, SSSE3) 0.1.4 graphic plugin (this will decrease your fps)
+Use a NTSC Dragon Ball Z Budokai Tenkaichi 3 if you don't want your screen to flicker.
+
+For those who own a GeForce 6600+ or ATI Radeon x1xxx+ series (without DX10):
+Go to Config/Graphics shader and choose: Pixel Shader 3.0
+This will boost your fps.
+
+This repack is made by Tiger (I don't have anything to do with the original creators)
+
+Special thanks to re4rainbow for compiling all the new source codes.
+
+PlayStation 2 games compatibility list: 
+http://www.pcsx2.net/compat.php?c=key
+NOTE: This is version 0.9.6
+
+Thanks to http://www.pcsx2.net/
+I didn't code anything, I just choosed the best plugins & bioses and I did some tweakings
+
+For those who have problems with the CD plugin go here and download a different one: 
+http://www.ngemu.com/ps2/pcsx2.php?action=plugins
+
+
+-Minimum System Requirements-
+
+Processor: Intel Pentium 4, AMD Athlon 64
+Ram: 1 GB
+Video Card: NVIDIA GeForce 6600, Ati Radeon XSeries
+OS: Microsoft Windows XP Service Pack 2
+HDD: 107 MB
+
+-Recomended System Requirements-
+
+Processor: Intel Core 2 Duo, AMD Athlon x2
+Ram: 2 GB
+Video Card: NVIDIA GeForce 8600GT, Ati Radeon HD3850
+OS: Microsoft Windows Vista Service Pack 1
+HDD: 107 MB
+
+ISO images are recomended to play PS2 games, you can create them using Alcohol 120%
+
+TC Edition V8:
+
+Uninstall any previous version of PCSX 2 TC Edition.
+Closing all CPU hungry programs recomended (EX: Yahoo Messenger)
+The newest video card driver is recomended Nvidia www.nvidia.com , Ati www.ati.com
+Install the latest DirectX version included in the arhive.
+
+Changes in v8:
+Big speedup.
+Latest plugins.
+Added compatibility with more games.
+
+
+SAYING THANK YOU DOESN'T COST YOU A PENNY!
+

@@ -1,0 +1,154 @@
+WinRAR 3.90 Final x86 and x64 already Registered (Corporate).
+
+Just install it as the regular one and it works without need to use any KeyGen or Patch.
+
+Just added the rarreg.key to the original setup, so you don't need to search for it. All the other files inside are the original ones, not patched, so you should not have any problem with Antiviruses.
+
+If you don't trust it, download the original Setup from RarLabs Site and copy the RarReg.key file in the install Dir (usually C:Program FilesWinRAR), or use the included KeyGen to Register it.
+
+
+
+WinRAR - What's new in the latest version
+
+
+   Version 3.90
+
+   1. WinRAR version for Windows x64 is available. If you use
+      Windows x64, it is strongly recommended to install 64 bit
+      WinRAR version. It provides a higher performance and better 
+      shell integration than 32 bit version.
+
+   2. RAR compression speed is improved for multi-core
+      and multi-CPU systems. This improvement is most noticeable
+      in Windows Vista and Windows 7 operating systems.
+
+   3. "Remove duplicate folders from extraction path" option
+      in "Settings/Compression" dialog is replaced by more universal
+      "Remove redundant folders from extraction path" option.
+      This option will eliminate redundant archive name based folders
+      from extraction path if you unpack an archive with
+      "Extract to DestName" context menu command and if archive
+      root folder contains only one folder and no files.
+
+   4. Changes in "Extraction path and options" dialog:
+
+      a) "New folder" button creates a new subfolder in currently
+          selected folder;
+
+      b) F2 key renames a selected folder in the folders tree;
+
+      c) F5 key updated the tree pane contents;
+
+      d) Del key removes a selected folder in the folders tree.
+
+   5. You can enable "Show seconds" option in "Settings/File list"
+      dialog if you wish to see seconds in file dates in file list
+      in WinRAR shell.
+
+   6. "Where to check for SFX archives" options group
+      in "Settings/Integration/Context menus items" dialog lets
+      you to control processing of SFX archives in context menus.
+      For example, if you frequently right click ".exe" files
+      on slow network disks, you can turn off "Network disks" options
+      to minimize the delay before displaying the context menu.
+
+   7. If you sort files by name in the file list in WinRAR shell,
+      WinRAR will use the new logical file name sorting,
+      same as in Windows Explorer, considering digits in file names
+      by their numerical value. So files will be sorted as
+      1.txt, 2.txt, 10.txt instead of previous 1.txt, 10.txt, 2.txt.
+      This new sort behavior is available in Windows XP Service Pack 2
+      and newer.
+   
+   8. Ctrl+W key combination can be used to close the main WinRAR window
+      also as WinRAR viewer windows. "View as Windows text" shortcut
+      in WinRAR viewer changed from Ctrl+W to Ctrl+I.
+   
+   9. New command line switch -r- disables recursion completely.
+      So 'rar a -r- arc dirname' command will add only the empty
+      dirname folder and ignore its contents. By default, if dirname
+      does not include wildcards, RAR adds its contents even if
+      -r switch is not specified.
+
+  10. If used when extracting, the new command line switch -ai forces
+      RAR to ignore file attributes. When using this switch,
+      extracted files will always have attributes assigned by
+      operating system to a newly created file by default.
+
+  11. If output file name is not specified in "cw" command, console RAR
+      will send comment data to stdout.
+
+  12. When compressing stdin data with -si[name] switch, RAR sets 
+      modification time of archived entry to current system time.
+      Previous RAR versions did not fill this field, resulting in
+      meaningless modification time for stdin.
+
+  13. Message displayed when you place the mouse cursor on WinRAR
+      tray icon includes the archive name now. Previously only
+      time left and total percent were displayed for archiving operations.
+  
+  14. New 'Shutdown' variable in 'SoftwareWinRARPolicy' registry key
+      allows to disable "Turn PC off when done" option for security reasons.
+      Read "Configuration settings/Registry variables" for more details.
+
+  15. Better shell extension performance. Now WinRAR context menu will be
+      more responsive when working with thousands of selected files.
+
+  16. Improved compatibility with high DPI Windows display mode.
+
+  17. Bugs fixed:
+
+      a) WinRAR could fail to open tar or tar.gz archive if such archive
+         contained a file larger than 8 GB;
+      
+      b) WinRAR context menu did not work properly in Windows 7 beta
+         if icons in context menus were enabled and user clicked
+         a file inside of Windows 7 Library folder;
+  
+      c) previous WinRAR versions failed to rename files having 5 or more
+         continuous spaces in the name. WinRAR shell does not display
+         such spaces for safety reasons, because they can hide an actual
+         file extension. But this security measure prevented the rename
+         command to work properly.
+
+
+More infos at
+  
+http://www.rarlabs.com
+
+
+
+SUGGESTIONS ON USING P2P DOWNLOADS
+==================================
+
+1) It's always better to run all downloaded programs using Sandboxie or a similar virtual machine until you are sure they are clean.
+
+
+2) When in doubt, scan them with an Internet Scan service as the ones provided by Jotti and VirusTotal
+  
+http://virusscan.jotti.org/
+  
+http://www.virustotal.com/
+
+This will ***NOT*** give you any warranty that a file passing their analysis is clean, nor that if they see them as a troian it's so or not just another false positive, but helps you to decide and at least ask for help or infos.
+
+
+3) Remember, trust nobody, and when in doubt, go to point 1) 
+
+
+4) If you find any upload containing trojans or whatsoever malicious or unclean, instead of start cursing in the comments of the upload, take the time to go to the Suprbay Forum at:
+  
+http://suprbay.org/forumdisplay.php?f=34
+
+and report links and comments there, and someone will take care of all the nasties.
+
+
+That's the only way to keep TPB and its uploads fresh and clean.
+
+
+That's for what is regarding security. If after testing it you see that you like it and it's useful for you, show your support by buying it!
+
+
+
+Enjoy and remember to seed... :o)
+

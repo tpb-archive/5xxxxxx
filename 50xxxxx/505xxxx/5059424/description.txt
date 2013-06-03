@@ -1,0 +1,37 @@
+DO NOT RUN ANY OTHER APPS2SD APPLICATIONS ON THIS BUILD. YOU WILL BREAK YOUR SYSTEM. THEY ARE NOT NECESSARY BECAUSE THIS ROM WILL DO A2SD AUTOMATICALLY AND BETTER!
+
+*** DISCLAIMER ***
+While this build is heavily optimized, it is also capable of pushing your G1 much harder. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or the current economic crisis. Please do some research if you have any concerns about features included in this ROM before flashing it! YOU are choosing to make these modificiations, and if you point the finger at me for messing up your device, I will laugh at you.
+
+* UNIVERSAL! Runs on both Dream and Magic 32B
+* Now identifies itself as either T-Mobile G1 or myTouch (due to popular demand, and T-Mobiles lameness to support ADP devices)
+* Based on AOSP 1.5r3, a heap of Donut, various collected patches, and some help from JF-1.51-ADP
+* Enhanced ramdisk which uses optimal mount options and smart startup
+* Includes E2FSProgs for checking and converting Ext filesystems
+* Apps2SD is automatic! All you need is a second partition (ext).
+* Includes script to upgrade to ext3 (from recovery mode, see FAQ)
+* Supports ext2/ext3/ext4 for Apps2SD
+* Includes HTC Framework, various HTC applications, and HTC VK
+* Launcher with 5 screens and auto-orientation and compact drawer layout
+* Enhanced lock screen (Stericson)
+* Clean filesystem shutdown at poweroff/reboot, and fsck at boot (no FS corruption!)
+* Includes T-Mobile IM application, Amazon MP3 (with Stericson's hack), and updated Google Maps
+* Does not require "DangerSPL"
+* Highly optimized kernel with many extra modules
+* Includes a massive APN list
+* Maximum CPU scaling frequency set to 528MHz with latency tweaks
+* Various enhancements to the Settings app including extra partition space
+* Runs /system/sd/userinit.sh after A2SD setup and before starting the runtime for user scripts
+* Microsoft Exchange support (Work Email from myTouch)
+* Compcache 0.6 enabled by default (if no userinit is present)
+* Linux cgroups for better app prioritization
+* Power Widget and App Fuel Gauge from Donut
+* Custom boot screen by matt_stang
+* Phone app enhancements by cytown
+* OpenOBEX commandline tools ported by Erin Yueh - just need an app to run them!
+* Ability to add dialer and MMS shortcuts
+* PPTP/L2TP VPN and WPA Enterprise support from Donut
+* MMS enhancements from rgv151
+* FLAC support from Kruton (buy this man a beer)
+* LocationServices memory leak fixed (by itp)
+* Not vulnerable to the "one click root" exploit

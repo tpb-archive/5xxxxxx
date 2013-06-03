@@ -1,0 +1,82 @@
+Copied from The KMPlayer Forum:
+
+
+The KMPlayer is a versatile media player which can cover various types of container format such as VCD, DVD, AVI, MKV, Ogg Theora, OGM, 3GP, MPEG-1/2/4, WMV, RealMedia, and QuickTime among others. 
+It handles a wide range of subtitles and allows you to capture audio, video, and screenshots in many ways.
+
+The player provides both internal and external filters with a fully controlled environment in terms of connections to other splitters, decoders, audio/video transform filters and renderers without grappling with the DirectShow merit system. Internal filters are not registered to user's system to keep it from being messed up with system filters.
+
+The KMPlayer includes almost all the essential decoders required for media playback. Furthermore, to get beyond the limitation of internal decoders, the external ones such as commercial h.264 decoders or cyberlink/intervideo audio decoders can be specified, so that KMP works optimally by the users' own customization. Even though the KMP is based upon directshow structure, it supports Winamp, Realmedia and Quicktime by the internal logic. 
+Thus, it is possible to specify where to try to connect firstly the media in preferences. 
+
+In short, the player provides a strong hybrid structure efficient for interconnecting various directshow filters, winamp input&dsp plugin, and internal filters. The most outstanding feature is that the player has the full control of filter connections to prevent a media playback from being messed.
+
+The player can set multifarious audio and video effects, slow down or increase playback speed with regular tone, select parts of a video as favorites, do an exceptionally powerful A-B repeat, remap the keys of remote interface for HTPC including overlay screen controls, change a skin dynamically depending on a media type playing, and many more. It is completely customizable thanks to a wide selection of skins and color schemes, and the configuration options are extremely extensive.
+
+
+KMPlayer â€œOpen Album Artâ€ 
+
+The KMPlayer â€œOpen Album Artâ€ provides a preview of the video thumbnail, which allows users to view videos in an easier and in a more comfortable manner.
+
+The user previously had to look for files in where the videos were saved. However, KMPlayer â€œOpen Album Artâ€ now allows users to simply click on the 
+preview of video thumbnail, on KMPâ€™s main page for a better appreciation of the videos. The user can now choose the display options between the album art form 
+and the list of thumbnail form. Moreover, once having watched the video, the user can delete the video by clicking on the [delete] button. Such a service allows 
+users to manage videos in an easier and in a more comfortable manner.
+
+Last but not least, KMPlayer â€œOpen Album Artâ€ also provides remote control and a wireless keyboard. The new era has come for KMPlayerâ€™s HTPC (Home Theater PC) 
+users or that of TV-OUT users to watch videos via â€œOpen Album Artâ€ with a more comfortable service in a more amicable environment.
+
+
+Changelog:
+
+
+URL redirect support.
+
+Change playList XP style.
+
+Open avi file in 0byte fix.
+
+mx Audio file reposition support.
+
+mx Audio file crash fix.
+
+Error with zip file (when title include , it wasnâ€™t play)
+
+Crash error with unsupported file.
+
+Error with mkv file (searching five sec. forward and backward)
+
+Not displayed subtitle in vista EVR.
+
+Codec update : libcodec.dll.
+
+Change default install language to English.
+
+Uninstaller is now English.
+
+ASK Toolbar installation added.
+
+Support madVR.
+
+Support flv (avc, aac codec).
+
+MediaInfo.dll (ver 0.7.21.0) patch.
+
+Possible to playback damaged file.
+
+Support album art(MP3 thumbnail).
+
+
+ED2K Link:
+ed2k://|file|kmp.exe|14914809|1780D775EB7646DF564014D3C2B454E1|h=AVELVNRO3JGLF35EJMY6Q5J2FKEXMOJ5|/
+
+
+
+Comments from the uploader (olofolleola4):
+17 Languages:
+Albanian, Bulgarian, English, Farsi, Finnish, 
+French, German, Greek, Hungarian (Maygar), Italian, Korean, 
+Polish, Russian, Simplified Chinese, Spanish, Swedish and Thai.
+
+You can read more about all the features that The KMPlayer have here:
+http://www.kmplayer.com/forums/showthread.php?t=63

@@ -1,0 +1,176 @@
+User Type,Username,Date,Text
+,sherton24,2009-07-31T07:39Z,Thank YOU. I´ll see after DL if it Works. then i gonna post or give you a feedback.
+,Chiefobi,2009-07-31T08:13Z,"complete bullshit, doesn´t work...i´v tested it 4 some days...game over..."
+,superpala,2009-07-31T10:06Z,"dis is fucking crazy totaly sux kiss my ass 666blade
+hukahan huththige putha"
+,GioDorcel,2009-07-31T11:03Z,Does It Work?
+,windowskez,2009-07-31T12:08Z,"install .exe found in torrent. 
+
+Once installed and it asks you to register, skip through this section. click activate later. 
+
+After the computer has rebooted load up Kaspersky, click on ""Settings"" and go down to ""Options"" and un-check
+""Enable Self-Defence"". 
+Now disable Kaspersky and exit the program.
+
+Next run regedit
+
+
+ for Windows Vista Ultimate 64bit(most operating systems are similiar to this you can always search the registry for the keyword ""Release""
+
+HKEY_LOCAL_MACHINESOFTWARE/Wow6432Node/KasperskyLab/protected/AVP9/environment
+
+Scroll down to Product Status and change from ""Release"" to ""Beta""
+
+
+
+LISTEN CAREFULLY
+xit regedit and reload Kaspersky, you'll notice that when you goto the area where you 
+normally input your key you now have an option to ""Activate Beta Version"".
+
+Click this and you'll get a 30 day BETA trial, the great thing is you can just redo this time and again,
+so 30 days later just click ""Activate Beta Version"" again and you'll get another 30 days. You only need to make the registry change once, not each time :)
+
+You can re-enable Self Defence once you've edited the registry.
+
+
+extincas4 aka 666BLADE
+
+questions email me at 666bladetorrents@gmail.com"
+[T],sanpork,2009-07-31T17:30Z,"1. Disable the Self-Defense.
+Open Kaspersky> Settings> ""Options"" or ""service""> Disable the item ""Enable Self-Defense""> OK
+VERY IMPORTANTEE! You must go to ""Options"" or ""Services"" and uncheck the option ""Enable Self Defense""!!!!!!!
+-
+2. Click the right mouse button on the Kaspersky icon near the clock and select Exit.
+-
+3. Open Notepad, copy and past the text below and save as KasperskyBeta.reg
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\KasperskyLab\protected\AVP8\environment]
+""ProductStatus""=""Beta""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\AVP8\environment]
+""ProductStatus""=""Beta""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\AVP\environment]
+""ProductStatus""=""Beta""
+[HKEY_LOCAL_MACHINE\SOFTWARE\KasperskyLab\protected\AVP7\environment]
+""ProductStatus""=""Beta""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\AVP7\environment]
+""ProductStatus""=""Beta""
+[HKEY_LOCAL_MACHINE\SOFTWARE\KasperskyLab\protected\AVP9\environment]
+""ProductStatus""=""Beta""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\AVP9\environment]
+""ProductStatus""=""Beta""
+
+4. Run KasperskyBeta.reg
+-
+5. Open the Kaspersky.
+Go on Start> All Programs> Kaspersky
+-
+6. Enable the Self-Defense!
+-
+7. Go to the License
+Delete the current key, if it exists.
+Choose ""Activate beta version"""
+,0p3y,2009-07-31T18:40Z,"Well see how long his option works, but for now it is working beautifully. So sick of going chatchitto's route. Anyways I just followed the directions from sanpork with my version and deleted my blocked key and I'm golden. I wish I had money to support good software."
+,EXE_cutioner,2009-08-01T22:27Z,"Works like a charm! To all you flamer N00bs learn how to read then try hacking! I wish your mothers swallowed you!
+
+They don't blacklist keys they send you themselves!
+Thanks for the great upload!!!!!"
+,EXE_cutioner,2009-08-01T22:42Z,PS. I used sanporks instructions with the actual downloaded trial from kaspersky! Zapped it into the BETA just as advertised
+,anaq074,2009-08-03T21:13Z,"cool..... it works....
+we can change the registry back from 'Beta' to 'Release' but we still can get the key for 30 days!!!
+we can repeat it until we die!!!!!
+woooohooooooo!!!!
+thanx all!!!!!!!!!"
+,DavieRoss,2009-08-03T22:37Z,"Thanks to 666Blade for upload and sanpork for instructions on the contents to put in dotReg file. I had fully legal version of KIS 2010 (9.0.0.459) but only 23 days of licence left. Carried out instructions and now have 30 on the beta version which does everything that my release version did - except it lasts longer! More importantly, it can be renewed ad infinitum, lol. Thanks guys. "
+,DavieRoss,2009-08-04T00:11Z,"After carrying out above, visited Kaspersky site and downloaded latest version of KIS - 9.0.0.463 - installed and then re-installed the Beta reg-hack. Everything works fine. Thanks again guys. Just have to renew the beta licence every 30 days or until Kaspersky find a way to screw it all up. ;-)"
+,lucious666,2009-08-06T20:43Z,"Theres no such thing as a ENVIRONMENT folder in the registry!! instead it leeds to ""settings"" 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\AVP9\settings]
+
+Also sanporks instructions didnt work, when i open the .reg file i created a window comes up 
+
+""This file does not have a program associated with it for performing this action. Create an association in the Set Associations control panel.""
+
+AND IM NO NOOb! so any help you guys can give is much appreciated!!  im running Vista Home Premium."
+,lucious666,2009-08-06T22:32Z,"eh.. dw bout it im using Avast!  Kaspersky sucks balls anyway, cant believe you guys go thru all that fuss for a shittie A/v"
+,extincas4,2009-08-07T00:31Z,"thanks for all the comments everyone. sanpork thnks as well. 
+PLEASE READ USER COMMENTS BEFORE SENDING ME A MILLION EMAILS!!!!!!!"
+[T],dkent4000,2009-08-10T03:58Z,Quit spamming me. I only added ONE torrent of yours because you were a crap seed. Now leave me alone.
+,extincas4,2009-08-11T21:39Z,"First off dkent 4000. you didnt add just one of my torrents also the twitter and HIDE IP who did you steal those from?
+YOU STOLE IT< COPIED IT, CALLED IT 10.5.0 AND THEN ""CRACKED BY ME"" it just makes me laugh when guys like you pretend to be a hack/cracker because all you can do is copy something. I bet you cant write a simple vbs script. I bet i could give you my IP address and a port number and couldnt get to my machine.
+YOUR A NOOB just face it, accept it. Learn something then come back at me with something besides ""asshole"" ""stop spamming""
+
+HAHA i love how you try to hurt my feelings saying my seeding sucked. guess what you realize seeding doesnt have much to do with me it has to do with the PEOPLE who download it asshole.
+
+seriuolsly stop trying and just give up.
+I win you lose. "
+,harry0023,2009-08-12T16:00Z,"Hey hiii 666BLADE/extincas4 , :D
+Just tell me that ur Registery hack will work on XP too or not?
+If yes then tell me the procedure. :|
+
+If anybody knws how to hack registery in XP for this Torrent. :?
+then plz tell me the procedure.
+I'll be very Thankful to him. :)"
+,DavieRoss,2009-08-12T17:24Z,"Hey Harry, Yes it works on XP - I'm using XP Pro and it works fine."
+,harry0023,2009-08-14T22:24Z,"Thanx MANY MANY TonS Bro.. 
+somehow i got it bro.
+And now it is working on XP too. :)
+
+\m/ 666Blade aka extincas4 u Rock Buddy. \m/ 
+
+Keep doing Gr8 jobs like this.
+Guyzz Seed it as Many times u can. :)"
+,harry0023,2009-08-14T22:29Z,"dkent4000 is just a asshole...
+He doesnot deserve not to be on TPB and even on Internet too.
+These guys are SHIT of Fucked up Whores who r not get paid yet.
+"
+,wifiuk,2009-08-15T08:57Z,I used sanporks instructions with the actual downloaded trial from kaspersky! Zapped it into the BETA just as advertised 
+,extincas4,2009-08-15T18:06Z,"++++++++++++++++++++++++++++
+thanks to everyone for the comments!
+I try to post only things that no one else has. 
+Email me if you have something you want hacked/cracked and i will let you know. 
+666blade
+++++++++++++++++++++++++++++"
+,clayt2282,2009-08-25T23:21Z,"worked first time on vista 32 bit 
+straight forward from the instructions 
+thank you 
+great upload
+dont listen to the arse hole great job
+keep up the good work"
+[V],[HB],2009-08-30T14:58Z,Thank you for this will give a try 
+,somedudeomg,2009-09-09T01:00Z,it doesnt work...ive installed this on 3 diff comps... whenever it expires i dont see any option to reactivate beta license :(
+,somedudeomg,2009-09-09T01:10Z,"what i found was that once the beta key expires
+I repeated your instructions again, except in reverse
+1) turn off self def-
+2) close protection
+3) go back to regedit, kaspersky lab environment avp9 blah blah
+4) change product status back To ""Release""
+5) exit regedit, reload kaspersky
+6) A message comes up saying your beta key isnt valid, and gives you a bunch of options, it should also show you the Beta key id along with a red ""X"". Click on it to delete your Beta key
+8) Close kaspersky again after closing self-defence
+9) go back to regedit, and change product status again to Beta
+10) Open kaspersky, now when it asks you to activate your license and itll show the ""Activate Beta License"" option again :D"
+,uvamosk,2009-09-13T00:40Z,"Works fine, but I think KasperckyLabs will do somthing with that easy registry editing... Ok, waiting for next mounth beta-reseting..."
+,clayt2282,2009-09-27T21:00Z,"great download
+just updated following somedudeomg info v easy
+thanks again
+if you are a woman i'd give you a kiss"
+,jannek999,2009-09-29T13:28Z,"Very good hack. Tested on 3 different PC's, 2x XP and one Win7. Easy new Beta license. To test: just delete the actual one, close window, go to settings-->activate and choose Beta again, new Beta license key will be downloaded. "
+,jandials123,2009-09-30T01:23Z,"Working absolutely fine.
+ok, had to scratch my head a bit as the subkey environment was not there as mentioned in the readme file (atleast it wasn't there on my computer).
+So I checked for main key Kaspersky and I found ther and changed it.
+Now I do have a beta license for 30 days.
+Truly I was fedup of renewing keys again and again
+
+Thanks again to the uploader. many thanks :)"
+,arikyeo,2009-10-10T11:02Z,it dosent work. kis2009 says tha the activation key is not valid
+,bazoom74,2009-11-08T13:13Z,"this is a great hack.. I am wondering how to gwt rid of the looming expiry notice that starts popping up after 15 days and keeps popping up even after I close it... it also seems to pop up in the middle of the page every time???
+
+any ideas?"
+,st78,2009-11-17T23:47Z,"Hi there, Im new to this site and just wondering if anyone can tell me if this will work on windows 7 ? I am upgrading to Windows 7 and looking for a decent antivirus before I do the upgrade. Also If anyone has and advice on the BEST antivirus as I've read alot but still debating on what one to go with. At present I am leaning towards This (KIS 2010) or NOD32. Any info or advice would be muchly appreciated.......But please remember I will be installing on Windows 7"
+,M4A78,2010-01-28T15:43Z,not working anymore. beta key is blocked
+,mizar,2010-01-28T21:12Z,"Worked nearly six months, but no longer. "
+,somedudeomg,2010-01-29T03:15Z,"yeah what a pain lol, I was still using the beta hack on my laptop
+but i did end up buying kaspersky over the xmas because i liked it so much ^.^ (and it was 20 bucks for 3 keys)"
+,somedudeomg,2010-01-29T03:19Z,either way thx for the great download blade666
+,clayt2282,2010-01-31T15:41Z,"Managed to get another 30 days by activating the trial licence! so still going for now, cheers.."
+,hussam.ms,2010-08-26T09:21Z,will this work for internet security 2011 as well

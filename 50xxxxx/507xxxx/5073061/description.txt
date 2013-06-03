@@ -1,0 +1,133 @@
+Copied from Vuze Homepage:
+
+
+Azureus is free
+
+Azureus is free software, available from http://azureus.sourceforge.net/ and http://vuze.com/ 
+
+If you have been charged to download Azureus then we are very sorry to say that you have been ripped off - you should try and get a refund from the people who have charged you.
+
+  	  	
+About Vuze
+
+Vuze is the world's most popular entertainment platform for high-res digital video content. With an installed base of 18 million unique client downloads in its first year, 500,000 new downloads per week and 150 content partners to date, Vuze is experiencing unprecedented organic growth.
+Vuze attracts and features high quality content from a growing roster of global television networks, premier production studios and thousands of maverick content creators, on the most advanced, most open entertainment platform ever created. Vuze is developed by Vuze, Inc. (formerly known as Azureus, Inc.), with offices in the San Francisco Bay Area, New York, Los Angeles, and London.
+
+The new commercial-grade platform is supported by powerful peer-sharing technology, enabling its vast global community the ability to browse, share, search and discover unique multimedia entertainment in a high-resolution format.
+
+
+Find the video you want
+
+Discover HD videos on the Vuze HD Network
+
+Find content from across the web with powerful meta-search
+
+
+
+Download fast
+
+Download and stream from the Vuze HD Network, or download any torrent file
+
+Download quickly and efficiently with intelligent bandwidth, queue and speed management
+
+
+
+Play on all your screens
+
+Sit back and savor the high-quality entertainment experience
+
+Now on PC, Mac, iPhone, iPod, Apple TV, PS3 and Xbox 360
+
+
+Getting started
+
+Azureus is a BitTorrent client written in Java.
+The BitTorrent protocol is a new way of exchanging or distributing data over the internet. Downloading also means uploading, and the amounts of each are linked, to ensure fairness and rapidity in the spread of the file at hand.
+
+To be able to download a file, you first need to get the associated .torrent file. This file, usually a dozen KB in size, is the â€œsignatureâ€ of the much bigger file to be downloaded, and it needs special software to be read properly. Azureus is one of those types of software.
+
+If you want to host files yourself, you need a tracker, which is basically a central server coordinating the connections between peers.
+Azureus can provide a tracker too.
+
+You will find, as you discover its functionality, that it is easy to customize your copy of Azureus to exactly fit your needs.
+
+
+ED2K Link:
+ed2k://|file|Vuze_4.2.0.8a_windows.exe|10628544|E8D11404A03C188027D5FD2976F1723D|h=3IWH3Y2OZYGPHRVRUA2WCGTYKMVVEEFP|/
+
+
+
+Changelog:
+
+   
+4.2.0.8 - August 26, 2009
+
+New Features:
+
+Core | Factory option to allow switchable unchoke algorithms 
+
+
+Changes:
+
+UI | Less CPU usage for Seeding Rules
+
+
+Core | Only create the transcode directories when required
+
+
+Corrected bugs:
+
+UI | Fixed Speedtest not working
+
+
+Core | Fixed deadlock during UI initialisation
+
+
+4.2.0.6 - August 06, 2009
+
+New Features:
+
+UI | Support delete key for deleting transcoded content 
+
+UI | Added visual indication of buddy shares 
+
+UI | Added toolbar enablers for deleting subscriptions and devices 
+
+
+Core | Support for TiVo device 
+
+Core | Support for PSP device 
+
+Core | Added RSS feed generation for device's transcoded content 
+
+Core | File-based RSS feeds 
+
+Core | Added ability to set category for downloads from a subscription 
+
+
+Changes:
+
+UI | Moved Column Setup and column related menu items to right click of column header 
+
+UI | Made Library/My Torrents filter more visible 
+
+UI | Moved "Rename" context menu in Library to context menu of Name column only 
+
+UI | Gray out non-active devices 
+
+
+Core | Added more meta data for devices RSS Feed 
+
+
+Plug | Added lifetime controls to DHT puts 
+
+
+Corrected bugs:
+
+Core | HTTP seeding was incorrectly handling byte range requests 
+
+Core | Catch failed transcodes and prevent partial files from being produced 
+
+Core | Fixed potential deadlock on startup with Device loading 
+
+Core | Support UTF marker chars in RSS feeds

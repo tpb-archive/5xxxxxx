@@ -1,0 +1,17 @@
+Includes both 1.1.2 and 1.1.3 updates for Native Instruments Akoustik Piano.
+
+As of 1.1.3, Native Instruments has changed the way Akoustik Piano is registered, which now requires their Service Center application. Currently there are no known ways to get around this new activation method, so here's how I got Akoustik Piano working without any problems on both my Macs running 10.5.7.
+
+1. Install Akoustik Piano from the original installation discs. When prompted for the location to install the Sample Library, create a new folder inside the existing Akoustik Piano folder named Sample Libraries, and continue installing.
+
+2. When installation is complete, install the 1.1.3 update.
+
+3. Open up /Libraries/Receipts in the Finder, and delete the five package receipts that start with AP113_
+
+4. Install the 1.1.2 update.
+
+5. When prompted, choose the folder where you installed the Sample Library. If you are doing a default install and followed step 1 correctly, this should be /Applications/Akoustik Piano/Sample Libraries/Akoustik Piano Library.
+
+6. Launch the Akoustik Piano stand-alone application.
+
+I've tested this method four times now without any problems. AP is now stable under Leopard, and the AU plug-in finally shows up and works properly in AU host applications such as GarageBand, Logic, etc.

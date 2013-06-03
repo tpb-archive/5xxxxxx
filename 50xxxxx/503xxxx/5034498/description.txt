@@ -1,0 +1,52 @@
+VLC.Media.Player.1.0.1(djDEVASTATEâ„¢)
+
+
+Features in VLC (VideoLAN Client) 1.0.1 :
+
+- Rewrite of the playlist (tree structure, input preparsing ...) 
+- Preferences improvements 
+- XML parsers 
+- Client-side SSL/TLS support 
+- Massive Matroska improvements 
+- Support for SOCKS proxy 
+- Support for Shoutcast Meta-data 
+- Support for (HE-)AAC raw-audio streams 
+- TiVo demuxer 
+- Samba (Windows shares) access module 
+- Dirac decoder and encoder 
+- PNG decoder/encoder 
+- Support for Apple Lossless Audio Codec 
+- Services discovery modules (brand new SAP module, HAL discovery, DAAP (iTunes shares), shoutcast) 
+- Support for 20/24 bits LPCM 
+- Video snapshot support (png or jpg) 
+- Image file video output (png) 
+- Mosaic (picture-in-picture system) 
+- Pocket PC port 
+- Brand new Internet Explorer ActiveX plugin
+...
+
+Changes from VLC (VideoLAN Client) 1.0.0 to VLC 1.0.1 :
+
+â€¢ Demuxers:
+- Fix wmv/asf issues that caused audio to drop
+- Various fixes for ac3, mp3, dts and stability for wav format
+- Fix seek in RTSP in conformity to RFC 2326
+- Fix Dailymotion access script
+- Fix crashes in xspf files handler
+- Fix seeking and timing issues in some flv files on Windows version
+â€¢ Access:
+- Add extra caching for files on network shares
+- Prevent integer underflow in Real pseudo-RTSP module, discovered by tixxDZ, DZCORE Labs, Algeria
+â€¢ Decoders:
+- Fix seeking in mpeg2 video files
+- Improve SSA subtitles rendering
+- Update most codecs for the Windows and Mac version
+â€¢ Muxers:
+- Fix sound recording of .flv files with mp3 audio
+â€¢ Qt Interface:
+- Possibility to change the opacity level of the Fullscreen controller
+- Fix various crashes and VIDEO_TS folders opening
+â€¢ Windows port:
+- The ZVBI module is now available for Windows, for complete teletext support
+â€¢ Translations updates for Brazillian, French, German, Korean, Norwegian Nynorsk, Lithuanian
+

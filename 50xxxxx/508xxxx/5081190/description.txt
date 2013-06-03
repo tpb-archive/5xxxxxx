@@ -1,0 +1,13 @@
+Longcat Flooder is a multi-protocol flooding tool written during the Subeta raids, by the same creator as the newer bandwith raeping tool, BWRaeper.NET. It quickly became popular amongst Anonymous due to it's simplicity in use and powerful features. The protocols supported are TCP (SYN flooding), UDP and HTTP.
+
+Research has shown that SYN and UDP provide the best results. However, using the HTTP flooder can be useful in several situations:
+
+    * Web server with limited bandwidth
+    * Web server with limited CPU power
+    * Website with search URLs 
+
+Constantly flooding a URL where a search or other heavy SQL command gets executed has proven to be destructive during the Subeta raid. Only several Longcat Flooders were needed to take down the MySQL database when executing search commands.
+
+There are two different types of Longcat Flooder out there. One is a standalone version and one is a distributed version relying on a central server to provide raep information. The current version of the standalone version of the Longcat Flooder is v2.3 Final. The current version of the distributed version of the Longcat Flooder Client is 3.0 Beta it's a little unstable but better than 2.3. And the Longcat Flooder Server has version 1.0.
+
+This is the standalone version, v.2.3 final

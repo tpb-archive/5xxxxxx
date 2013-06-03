@@ -1,0 +1,32 @@
+User Type,Username,Date,Text
+,Galaad1,2009-08-19T01:29Z,Well done! :)
+,MtMCooLBG,2009-08-19T05:44Z,"If any1 want configuration for specific version of the game and PVPGN server post your wishes.
+
+As i guess there may be a lot of different wishes, so as soon as possible i will make a tutorial how to configure the game as you want ;)"
+,MtMCooLBG,2009-08-22T00:27Z,"Hosting is not possible at the moment. I have that problem with other games too, and if any1 has an idea how to bypass that kind of firewall that i think its integreated in the crossover emulator or how to open ports please leave a comment."
+,Riddle0,2010-01-11T15:47Z,Give speed Please
+,dirtchamber,2010-02-23T04:21Z,Hey man. How can I get in touch with you about a solution for a custom pvpgn server? Thanks.
+,MtMCooLBG,2010-04-12T20:08Z,"Sorry, I cant provide the the real solltion atm, but you can try this one:
+
+0.) Before you go, make sure you have the game files patched with your desired patch that the PVPGN server requires. The whole patching procedure must be done on Windows. Then replace the old game folder (Warcraft III Headoff 1.21a.app/Contents/SharedSupport/cxchromium/support/chromium/drive_c/Program Files/) with the new one (that you'v patched on Windows).
+
+1.) Go to 
+Warcraft III Headoff 1.21a.app/Contents/SharedSupport/cxchromium/support/chromium
+
+and open ""user.reg"" with TextEdit.
+
+2.) Locate ""war3.headoff.com"" and replace it with your desired PVPGN server adress, without the quotes. Save the file.
+
+The whole key looks like this: 
+""Battle.net Gateways""=str(7):""1009\00000\0war3.headoff.com\0-2\0Headoff G.I.\0""
+
+""Headoff G.I."" is the name in the server list that you see inside the game.
+
+3.) Delete the ""Warcraft III Headoff"" folder (if you have it) in ""your_home_directory/Library/Application Support""
+
+4.) Run the game."
+,lynvspudge,2010-06-24T12:53Z,is this included W3 ROC & W3 TFT + crack?
+,emmanuel155,2010-10-15T04:22Z,where can i put my cd key ?
+,emmanuel155,2010-10-15T04:29Z,where can i put my bnet key ?
+,FUUK,2011-04-11T04:57Z,"When i try to open it it keeps opening for a sec then nothing happens...
+any ideas?"

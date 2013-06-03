@@ -1,0 +1,67 @@
+Wolfenstein v1.0 -> v1.1 patch for SINGLE PLAYER
+
+
+Instructions:
+
+Install Wolfenstein
+Replace .exe from Razor1911 folder
+Apply update
+Play!
+
+
+
+NOTES:
+Patch for single player only; not for dedicated server
+Savegames will work after update!
+
+
+
+v1.1 Fixes:
+
+- When on the purchase upgrade confirmation screen, ESC now cancels the purchase instead of returning to the menu.
+
+- Sounds added for navigating menus.
+
+- In order to prevent names from running off the screen, character limit has been reduced to 10 characters on names
+
+- Fixed issue causing the Healing icon to remain after dying.
+
+- Sprint functionality has been modified so user can sprint longer, but has longer duration before being able to sprint again
+
+- Global chat now disables properly if disabled through the Server Launcher.
+
+- Fixed bug causing the grenade ammo indicator to reflect having one more grenade in your inventory.
+
+- End-of-round countdown voice-over takes priority over objective status voice-overs.
+
+- When a round ends, the scoreboard will default to the chat window.
+
+- Truck model in Canals has been updated so it is easier to complete the objective
+
+- Clan Tag text box in the Options Menu has been realigned
+
+- Audio countdown has been readjusted
+
+- The kill ticker color has been adjusted to the proper team color
+
+- MP43 melee attack speed has been slightly decreased
+
+- Added Quick voice chat that can be binded via the console (the new binds are _needEngineer, _needMedic, _needSoldier, _needHealth, _needAmmo)
+
+- Both teams should now be able to mute users properly
+
+- Soldier arm when holding Kar 98 has been improved
+
+- Reduced how far packs are thrown
+
+- Reduced how far grenades are thrown
+
+- Removed a chair near the crucifix in Canals to prevent the crucifix from dropping into an area where it could not be reached
+
+- Control options now feature separate binds for Use (resurrect, objectives) and Item (Ammo, Health, Satchel)
+
+- Choosing a random map rotation will work properly now
+
+- Added ability to change cross hair appearance through the menu
+
+- Fixed issue causing the crouch icon to remain after dying

@@ -1,0 +1,45 @@
+User Type,Username,Date,Text
+,jersson,2009-08-18T13:08Z,"Thanks, man Il try this one and tell you how it work.s"
+,jersson,2009-08-18T20:47Z,"Nope it has the same error, fatal error 279 so I will try to install it and see if it works better"
+,sharebird,2009-08-19T00:52Z,"There is a discussion here:
+http://thepiratebay.org/torrent/5052418/Total_Commander_7.50_RC1_Portable
+
+that the Thinstall app used to generate these portable apps is infected... The apps themselves are scanning clean, but when they run they unpack a svchost.exe, usually as part of a file open dialog.  
+
+We appreciate NoExcuses' efforts and don't want to undermine them, but right now all of his portable apps are suspect.
+
+: (
+
+Sorry mate, but you might want do do what fredpc did, download a different copy of thinstall.
+
+Just wanted to spread the word, because this particular virus hides itself very well."
+[V],NoExcuses,2009-08-19T09:26Z,"@sharebird
+The main question is if the mistake is in an application that gets detected by some AV as infected when it's not, or it's in the AV that detects a virus when there it isn't. I have a whole collection of Keygens, many of them gets detected as viruses also by my AV, and many more of them are considered baddies by other AVs, but I've tested all of them in Sandboxie, scanned 'em with online services, and after many tests I'm sure they are clean whatever AVs say. Do you think I stop using them because an AV complains with them even if I'm sure they are good? If I need it I deactivate my AV and do my job, then I reactivate it.
+The main problem here isn't in Thinstall that creates an app that gets detected as a virus, it's in an AV that detects a virus where it isn't. The real solution will be that AVs doesn't get false positives, and alert you only when there is a real danger, not crying ""WOLF!"" to everything.
+Another example. UPX is a great program for packing .exe and .dll files when space is a must for you, and it packs up files to a very good level without problems, but many AVs if they find an UPXed clean program start screaming only because they detect it has been UPXed. It's like considering everything that's ZIPped for sure contains a virus. Clearly many trojan builders have used UPX to pack up their creations, but to shout to all of them is like hating all with red hair because someone redhaired kicked your butt a few years ago.
+
+As I say in my descriptions, always run any downloaded app in Sandboxie, and in any case try to scan it with Jotti and VirusTotal. Another great service is given by www.threatexpert.com that effectively doesn't only scan files with different AVs, but it runs them in a virtual machine, and give you back a list of all the things the program does and which modifications makes to the PC and what it requests from internet and so on. Great service if you want to to see the real job.
+
+I've tested Avira and AVG too, but when I got pissed off for all the false positives they give I moved to Zone Alarm. It's based on Kaspersky's AV that I and many others consider one of the really best AVs, and gives me control of whatever it detects, as I've set it to ask what to do for anything it detects as dangerous, and *I* decide if it should allow it to do or not. Of course you have to use your head too, as there are always new viruses coming out and it takes a while before AVs detects them. Even ZA misses some of them, but if I run a program in Sandboxie and I see there is a legal.exe or some strange name file that tries to access to internet in the background of the real program, I tell to the AV to block it, even it it has not detected it as a virus. As said, AVs are great, but not all the times they block the baddies as they sometimes block the goodies.
+I have already different versions of Thinstall and Thinapp, and I use them only when it's not possible to make something Portable just tweaking Registry and files, and I prefer the older Thinstall as it doesn't show the small pop-up in the lower right corner when running the Thinapped programs. As said, my Thinstall it's not generating infected programs, it creates clean files that some AVs detect as infected, but it's their fault, not Thinstall's. Like in this case, do you think that a virus spreader will go to modify an upload of Thinstall only to make it run sometimes only in some applications a svchost.exe that doesn't do any harm? They want that their trojans get spreaded as fast as possible, and to the higher number of system around, before it gets detected and stopped by the AVs.
+
+Anyway, I'm always delivering also the regular setup, and if anyone doesn't trust or don't want to use the Portable that I've made, he can get his own version of Thinstall/ThinApp and build it with his/her own hands.
+
+And remember: Not all the things your AV say they are clean means they are so, and not all the things your AV say are infected means they are."
+[V],NoExcuses,2009-08-19T09:54Z,"@sharebird
+BTW, you are attaching your comments to almost all my uploads, also the ones not built up with Thinstall, so that for sure they could not be infected by the supposed virus you say. I'm quite tolerant, but not too much, so if you want to add your comments only to the uploads that show the problem should be great, not also to the good ones. Don't spread panic around about uploads that you haven't tested, and as I say in my comments, if you find something wrong in any upload, not only in mine, go tell it at
+
+http://suprbay.org/forumdisplay.php?f=34
+
+and the mods will take care of them.
+
+
+
+These uploads are free of charge for all and if your AV tells you not to use some of them, then obey but stop spreading havoc on all the other uploads, specially when they don't have any problem. Spreading around wrong comments is considered annoying, and you can be banned for that..."
+,jersson,2009-08-19T23:07Z,"This guy is totally wrong about viruses. Iv'e used the portabel vers  since you started to create them and there is NO VIRUS IN THEM. I,m using Panda Antivirus and Panda Active Scan and no problem at all. So keep up the good work my friend, I just love 'em"
+,jersson,2009-08-19T23:12Z,"Unfortunately this one shows the same error as your previous one, fatal error 279. It comes up after I try to send a bulk mail. I've installed it and the same thing happened so my question is, Does this vers 4.27 have a bug or is it the patch that doesn't work ? Only you know the answer. So what's your opinion ?"
+[V],NoExcuses,2009-08-20T08:34Z,"@jersson
+I've also found the Patch around on internet, and as not using this kind of programs I'm not able to test if it works as supposed. The thing that I see is that you have different behaviours than what I have, and as I've also seen different ones between running it on my regular system or on a clean install,  my suggestion is to try it on a completely different machine (or on a clean reinstall with no other apps) and see if the defect is still there. The second choice is to install the original setup and use it in demo mode and see if it works. If you still have the problem then maybe there is something wrong in the program or in the interaction with your previously installed SW. Or maybe that the crack isn't no good too, who knows. There are programs that work for almost anybody but don't like a particular machine, so this can be the case."
+,jersson,2009-08-21T19:29Z,"Thank's for answering and as I said there is a similar vers on PB vers 4.25 uploaded by TheOneX who isn,t on PB anymore and that vers works perfect, so either it's the crack or just that vers 4.27 that has a bug in it.
+I really hope that you can find a later vers like 5.08 or 5.10 (latest) for me asap, thank's"
+,Colonel_Ingus,2010-06-30T09:38Z,Sends 70 emails then says fatal error 279. Sucks.

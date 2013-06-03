@@ -1,0 +1,135 @@
+Windows 7Loader By Orbit30 & Hazar Build 1.5 
+
+Windows 7 RTM Ultimate Activation with OEM Information
+
+This activator works only for RTM ULTIMATE (Retail and OEM Edition)
+It does NOT work on Ultimate 'E' (European) Edition.
+
+Tested and working on both x86 and x64.
+Works in Virtual Environment.
+Works with dual-boot
+
+No key is needed for install or activation.
+The activation adds the OEM master key for you.
+Select your OEM Information
+No BIOS modification needed.
+It has no boot text.
+Uses OEM SLP method.
+
+Supports SLIC and non-SLIC enabled BIOS:
+
+Emulate a SLIC 2.1 enabled BIOS on a PC without SLIC 2.1 present...
+Use 'Install 7Loader' to install the certificate & key to activate offline...
+
+If you have a modded BIOS, you can use 'SLIC 2.1 in BIOS' to just install the certificate & key to activate offline without having to use a loader.
+
+-------------
+
+Instructions:
+
+Recommend a clean Windows 7 Installation.
+
+You must remove all modifications made by previous 7Loaders and Orbit30 Win7 Tool Kit (1.8 toolkit was for pre-RTM).
+You will probably need to do a clean installation anyway.
+
+Disable UAC to be safe.
+
+1 - Run the '7Loader' on your Windows Partition
+2 - Wait until the Window activity finishes
+3 - Reboot
+
+
+* Multi-boot: Works with dual-boot, however if you have Windows Vista activated with VistaLoÃ¤der, then you'll need to reactivate it after you've activated Windows 7.
+Use OpaTool and select 'B' (DO NOT USE choice C on Vista).
+
+
+Notes:
+
+Changelog:
+Better UI
+Better loader code
+Added More slic 2.1 certs for in bios option
+Music removed
+Fixed OEM branding removal
+added all OEM Registery info to vb GUI
+Tweaked GUI
+Added install code to vb GUI
+Added new Uninstall code to vb GUI
+Added new 7Loader status to vb GUI 
+
+------------------------------------------
+
+Ignore any error about services starting. It is normal.
+Ignore any "disc not in drive error" It could be your card reader,etc
+
+------------------------------------------
+
+Do not install on systems with dynamic disks to prevent an un-bootable condition.
+This is a limitation of grub4dos.
+
+------------------------------------------
+
+Enterprise, Home Premium and other editions?
+There are no certificates/keys for those versions yet. When there are, activators will be updated.
+Only the Ultimate edition is supported for activation.
+
+------------------------------------------
+
+Microsoft blacklisted the key we use for activation?
+If the leaked OEM product key is blacklisted, ultimately unblockable OEM-SLP product keys for Windows 7 that deliver with PCs will be leaked when shipped in October. The Activators will be updated.
+
+------------------------------------------
+
+Disable (optional) communications with the Wga server (You will still pass Wga and download updates): Add 127.0.0.1 mpa.one.microsoft.com to your hosts file.
+
+------------------------------------------
+
+Windows 7 E?
+You will not be able to activate your Windows. Microsoft has decided to cancel all E versions. You will need to install a non-E version sooner or later to use and activate Windows 7.
+
+------------------------------------------
+
+The previous leaked builds of Windows 7 Ultimate RTM (below) and the new ones from Technet/MSDN are the same.
+The hashes are identical.
+
+------------------------------------------
+
+Download Windows 7 Ultimate RTM:
+
+Windows 7 Ultimate RTM (English, Retail, 32 Bit): http://torrents.thepiratebay.org/5021073/7600.16385.090713-1255_x86fre_client_en-us_Retail_Ultimate-GRMCU.5021073.TPB.torrent
+
+MD5: D0B8B407E8A3D4B75EE9C10147266B89
+SHA-1: 5395DC4B38F7BDB1E005FF414DEEDFDB16DBF610 
+
+or >>
+
+Windows 7 Ultimate RTM (English, Retail, 64 Bit): http://torrents.thepiratebay.org/5021075/7600.16385.090713-1255_x64fre_client_en-us_Retail_Ultimate-GRMCU.5021075.TPB.torrent
+
+MD5: F43D22E4FB07BF617D573ACD8785C028
+SHA-1: 326327CC2FF9F05379F5058C41BE6BC5E004BAA7
+
+
+Reports : 
+http://www.virustotal.com/analisis/3552b97835479248335a3f950438b4f876ef509f967c0c9e5bbe9fd144c3b003-1250998681
+
+Also scanned with my Kaspersky Internet Security 2010 and runs safely with sanboxie too.
+
+Pirates please come and join us at 
+ 
+http://suprbay.org/
+
+Report spam,fakes or a torrent with a virus here :
+ 
+http://forum.suprbay.org/forumdisplay.php?fid=29
+
+If you need any kind of help just PM me 
+
+I will be there always to help you out
+ 
+http://suprbay.org/member.php?u=81012
+
+Dont just hit and run please seed back again 
+
+Do comment for others
+
+Enjoy !!!

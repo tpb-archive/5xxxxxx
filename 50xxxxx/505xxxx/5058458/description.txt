@@ -1,0 +1,27 @@
+hey guys, just wanted to let everyone know how this Diskeeper trial-bomb works. I read a lot on different forums people getting very frustrated...
+
+this information applies to Diskeeper Home 2009, as of August, 2009. And I don't know how many prior versions... but I think other current versions too.
+
+there are two things that Diskeeper uses to track your usage of the program:
+
+1) this is the actual "time-bomb"...
+The time counter data is kept in a binary value in a key named MiscStatus under [HKEY_CLASSES_ROOTCLSID{8FF8D6D4-BAAF-6C58-C4AA-0F6844C4749D}MiscStatus]
+8FF8D6D4-BAAF-6C58-C4AA-0F6844C4749D is the unique Class ID of Diskeeper, which could be considered the 128-bit numeric name or "social security number" of the program. You must delete the Data binary value in order to reset Diskeeper. But that's not all...
+
+2) they also track you via internet connection, using your unique MachineGUID:
+HKEY_LOCAL_MACHINESOFTWAREMicrosoftCryptography
+Your unique MachineGUID is a string-value under Cryptography.
+You must delete this; don't worry, another different one will be automatically created. Don't worry, this is not the same as your computer SID (security identifier) or user SID.
+
+If you are so inclined and network/firewall savvy, you can figure out how to block Diskeeper from communicating over the internet and reading your MachineGUID.
+
+I do not believe this is currently being used, but one last thing you might check if the above two things do not work, (but I'm pretty sure they will), is some hidden folders named cryptneturlcache, buried deep and hidden under c:users%USERNAME%AppData...
+Go to the root in a cmd window and do a "dir /s /a cryptneturlcache" and delete all of them with their Content and MetaData sub-folders. But hopefully, the first two steps will work.
+
+These are the three things that always work for me. Take advantage too of using your Favorites feature in RegEdit (Favorites, Add to Favorites). It makes navigation nearly instantaneous. Drilling down the CLSID branch is a bitch! You only want to do it once!
+
+Always use sysinternals Process Monitor, launched through the system account using psexec, when time-bomb hunting. And hunting at 2:30 in the morning seems to help too.
+
+psexec -i -s c:...procmon.exe (you gotta use the absolute path or it won't find the file) i switch means interactive, s switch launches the program under the system account.
+
+good luck.

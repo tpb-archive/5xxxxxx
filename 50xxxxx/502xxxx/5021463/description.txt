@@ -1,0 +1,93 @@
+Copied from Shark007 Homepage:
+
+
+The Vista Codec Package is compatible with all versions of Windows XP
+
+MKV playback is fully supported.
+
+The latest release contains a Settings Application which enables the user to choose a different splitters 'on the fly' for specific filetypes.
+The application will also allow you to choose from 10 different speaker configurations from 'same as input' and all the way up to full 7.1 channel output.
+
+
+The Settings Application is 100% UAC compliant.
+Restricted access is enforced. (User Account Control)
+The Application allows each user to maintain individual settings while at the same time seamlessly integrating any administrative commands directly into the users account. New users accounts are detected upon opening the Application and automatically inherit the Administrators settings.
+
+
+Codecs have been a problem for most users at one time or another.
+This is because there has never been an 'out of the box' working solution that the average computer user could install and just have everything work properly from the beginning. There are several decent codec package solutions out there, but none of them did everything I wanted. I was always in need of a tweak, adjustment, or even a re-installation just to get the codecs I needed/wanted and most of the time, the file still didn't play properly.
+I've never claimed to be a media guru. My media experience prior to creating these packages was to double-click a file I downloaded and hope that it played. 
+
+
+The installer will automatically remove most other popular codec releases from your computer before installing this concise yet comprehensive package.
+You won't need to make any adjustments or tweaks to enjoy your media content immediately. Windows Media Player and Vista's Media Center will instantly recognize all your files as playable.
+
+
+It does not contain a media player and it does not associate file-types.
+With this package installed you will be able to use any media player, limited only by the players' capabilities, to play all movies and video clips.
+Streaming video is supported in several formats in all popular web browsers.
+Users of VCP have the ability to choose what is installed and where to install it using the public redistributable. After installation you can select to remove specific portions without removing the entire package.
+You can also re-add the removed items at any time.
+
+
+This package supports 20 localizations.
+The default is English and the installer includes support for the following other languages; Arabic, Chinese Simplified/Traditional, Japanese, Czech, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian, Portuguese, Russian, Spanish, Polish, Swedish and Turkish. Languages can be added upon request. 
+
+
+Uninstall ALL codec related installations
+before installing this comprehensive package.
+
+UNINSTALL YOUR OLD VERSION  - upgrades are enabled but not recommended
+
+
+IF you have RealPlayer installed choose a CUSTOM
+installation and deselect [X] that item from the menu.
+
+
+Changelog:
+
+
+Update FFDShow to rev 3036
+
+Update Gabests splitters to rev 1179
+
+Use Monogram filters for Musepack support
+
+Add MediaInfo interface to the Settings Application
+
+Allow the file renderer to open All Files
+
+Fix a bug that was breaking Audio in some games
+
+Disable installation onto unsupported systems
+
+
+
+Comments from the uploader (olofolleola4):
+Here is a list of all things automatically uninstalled by the VCP installer:
+
+AC3Filter Spdifer
+AC3Filter
+Haali MatroskaSplitter
+Real Alternative
+K-Lite Codec Pack - all versions
+Combined Community Codec Pack
+ffdshow standalone installer
+XviD standalone installer
+Storm Codec Pack
+XP Codec Pack
+Satsuki Decoder Pack
+Theorica Divx ;-) Codecs
+LD-Anim
+ACE Mega CoDecS Pack
+MUSK Codec Pack v5
+TTPack
+Recode Media
+Codec Pack - All In 1
+Cole 2k codecpack
+CodecPack
+Essentials Codec Pack
+Xiph.Org Ogg Codecs
+
+If you DO NOT want something on this list uninstalled,
+choose a CUSTOM installation and de-select Conflict detection.

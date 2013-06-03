@@ -1,0 +1,44 @@
+Information:
+
+- This release supports GPT (Guid Partition Table) partition map scheme. You can change your partition table type to GPT via Disk Utility or some other partition managers. We advice Parted Magic Live CD which is based on GParted.
+
+- This release also includes Darwin EFI emulation boot for MBR (Master Boot Record) harddrives. Intel Core CPUs can use stock kernel and stock ACPIPlatform with EFI emulation on MBR and with GPT. This increases stability and performance.
+
+- Intel CoreDuo Processors have appropriate SpeedStep Technology which is stable in OS X. If you have such processor, you can enable throttling feature using the "SpeedStep" package which you can find under system drivers section. Note that speedstep kernel is included in iATKOS main system, so don't select any of the kernels with speedstep support if you don't want to have kernel panic.
+
+- There are some boot options for some various hardware. Boot DVD, press F8 and enter:
+
+nforce -v
+
+for nForce motherboards with intel SSE3 CPU
+
+nforce_core -v
+
+for nForce motherboards with Intel Core CPU
+
+toh -v
+
+for booting with ToH 9.2.0 kernel which works nice on many types of hardware
+
+
+
+Installation:
+
+1- Run Disk Utility via Utilities menu and erase the target partition for clean install. Do partitioning if you need to.
+
+a- You can choose MBR (Master Boot Record) or GPT (Guid Partition Table) via partitioning options. If you want to change your existing partition table type, know that all your existing data on disk will be gone.
+
+b- For Windows fellows that has not tested this amazing system yet and that does not want to loose their windows software, porn and virus&trojan archive on D:, should use Parted Magic Live CD for preparing an active primary target partition and after that, just erase it via diskutil. Jump to Step 2.
+
+2- Select the destination for installation.
+
+3- Click customize and select what you need.
+
+4- Click Install.
+
+(Install time is about 20 minutes.)
+
+
+Cracked 
+
+Seed&Enjoy ;)

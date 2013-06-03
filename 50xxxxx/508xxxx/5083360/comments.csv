@@ -1,0 +1,45 @@
+User Type,Username,Date,Text
+,Vidpro007,2009-09-09T19:52Z,"Is this true OEM cert style activation or boot loader ""pre-activated"" type????"
+[T],movieFOX,2009-09-10T10:46Z,nfo says preactivated
+[T],movieFOX,2009-09-10T10:47Z,As for wga im not sure as i havnt installed this version myself.
+,Metroidn1f,2009-09-12T03:19Z,Is this the same thing as the thing that is going to be released October 22?
+,vinay86,2009-09-14T14:56Z,Is this english and 7600 16385 i.e. latest version
+,wsjd46,2009-09-15T05:21Z,awesome torrent man thankyou works perfect
+,Fepiro,2009-09-17T03:59Z,"Only English ??
+Spanish ???
+Thanks :)"
+,Crazgtrguy,2009-10-02T01:50Z,How do we install this with all the files?
+,sunny3,2009-10-09T09:43Z,"This does not contain all versions ...it has been patched for ultimate only.
+
+Works perfect though.
+
+Thanks."
+,koenlek,2009-10-15T14:53Z,"Installs well, but Windows 7 won't boot. I have installed it parallel to my Windows Vista install. Vista is first partition, 7 is second. 
+The only problem is that it always boots Vista after installation. I can't choose between both because the bootloader doesn't show a list of those two.
+
+Even after bootloader auto repairing using windows 7 dvd it won't boot nor show a list (even though bcdedit shows in both Vista as Windows 7 dvd console that there are two entries in the loader: one for vista on for win7).
+
+I have tried almost everything, including booting using a grub disc, checking whether the win7 partition is the only one marked active, etc.
+
+The partitions are both primary. I also have a third primary containing OSx86 Leopard and a fourth logical containing 2 linux partitions.
+
+After win7 installation it rebooted af few times and started correctly in win7 to do some configurations, including choosing whether to auto update or not, setting up wireless network connecting and a few other things i guess.
+
+Does anybody please have an idea how to fix this?
+
+Thanks in advance, Koenlek"
+,koenlek,2009-10-15T14:56Z,"I forgot to say one thing:
+
+After the last reboot during installation progress (when a console screen for activation appeared) it just rebooted into vista. Afterwards i never succeeded again to boot in win7. Did a reinstall and got the exact same problem..."
+,Anthony817,2009-10-20T04:46Z,"@ koenlek, dude, did you install it and skip the Windows Key and password? In my BIE Vista 32 ultimate I MUST do a fresh installation, meaning that the partitions must be wiped clean, and you must skip the windows Key and when you make Profile name, DO NOT add a user password.
+
+Thats how OEM operating systems work, cause the first time you boot to windows you can not have any password, cause its like you just bought a PC from the store, and you have to set all the shit up the first time you run it.
+
+Hope that helps you bro. OEM FTW!"
+,damagedmc,2009-12-12T15:38Z,does anyone know if this keeps shutting down in 2010 or will this keep working
+,siddharthshinde,2010-02-17T12:49Z,"haven't been able to bun the image, tried every possible burning tool it gives an error, but it opens fine with daemon :'( plzzz help!!"
+,Leshalles,2010-04-20T22:03Z,"@koenlek
+
+Have you tried a windows boot manager utility like BCDEDIT or VistaBoot Pro?
+
+The problem might be there. You can change to the  windows 7 boot manager and input the parameters for all you OS."

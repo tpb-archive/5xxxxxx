@@ -1,0 +1,28 @@
+This is Myst IV (4) for the Mac OS X 10.3 and up. It includes a patch to Myst 1.03 and instructions on how to fix the game so it plays on the Intel chip line. I have personally tested it and the game does start up on my Intel core 2 duo iMac with 10.5.7 loaded.
+
+*****
+
+The Read Me:
+
+Open both disk images, you do not need to have them burned to physical disks, just mounted images will do. If an alert saying they are damaged comes up, click Open (NOT "Don't Open"). It gives me the error and I made them, dunno why it does, but it does.
+
+Instal the game off disk one (1), then run the update to v1.03 (the .jar file). If you are on a G4-5 chip then you are good to go. If you are on an Intel chip, then follow the following instructions. When you play the game, you will either need a physical burn of disk two (2) in the drive, or the image mounted. Either will do.
+
+These disk images were made in Disk Utility from original disks. I saved them as CD/DVD master disk images.
+
+*****
+
+Found this in another area of the forum! It works!
+The following has been reported to work for an iMac (running Tiger 10.4.4) having problems getting Myst IV to run. No guarantee it'll work (or work with Myst V as well), but it's worth a try.
+
+[NOTE from distributor: I have tested it on my iMac OS X 10.5.7, 2.8 GHz Intel Core 2 Duo, and it runs well when the following modification is made after the patch to 1.03 is made. I haven't tested running the patch after this modification is made.]
+
+Get Info on Myst4.app and set it to Read/Write
+Open Terminal
+Type: cd_ (that's "cd" followed by a space, no quotes)
+Drag the Myst4.app icon into the Terminal window, which will give you the path to the app
+Press return.
+Type the magic line: chmod a+x Myst4
+Press return, quit Terminal.
+
+Just double click on the Myst4.app icon and it should now run.

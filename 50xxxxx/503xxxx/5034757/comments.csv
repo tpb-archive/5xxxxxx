@@ -1,0 +1,74 @@
+User Type,Username,Date,Text
+,PastorVor,2009-08-12T09:02Z,"This installed as Windows XP Pro and would not accept my Tablet PC Edition code.
+The existing code worked fine, though. (for XP Pro)"
+,MPG187,2009-12-02T03:21Z,What kinda of Tablet PC (or any laptop) has a RAID controller?
+,tobywoo,2009-12-13T13:36Z,This seems to be just a copy of XP Pro. Please let me know if I am missing something. It doesn't seem to have any of the drivers or other extras needed for tablet.  I really need a copy of XP Tablet for a Gateway CX2610.  Please help.
+,BTHprimo,2010-01-11T22:45Z,"This works great! installed three different tablets no problem.  Thanks fizzmo, I really needed this."
+,hoku123456,2010-01-25T21:49Z,It worked just fine for me. Tried a version that had 2 cds and could not get that to work but this was just like a normal windows installation and when it then booted the last time my pen worked and it started by giving me a guide in using my pen. 
+,Newgenz,2010-02-02T01:49Z,"How do i install it?
+I can't figure it out :( 
+also downloaded a 2 cd iso from rapidshit and waited 5 hours and my friend helped me download but it didn't work
+now this one is better but i can't figure out what to do just install and done?"
+,Newgenz,2010-02-02T02:10Z,"Testing the install works just fine 
+still 10 minutes from finish tough let you guys know something :) 
+but the install screen says xp pro 
+i ever saw a tutorial on i thought winmatrix about transforming xp pro to xp tablet edition
+maybe this is like it"
+,Newgenz,2010-02-02T02:18Z,"Install is finished,rebooting.
+boots just fine,shows a on screen keyboard on boot
+now asks me what to do activate or have a 60 day trial
+windows journal and etc works tough i installed it on virtualbox wtih a mouse
+but i have a tablet that needs this os 
+still don't know how to actualy activate"
+,Newgenz,2010-02-02T07:57Z,I don't know how to activate =.=
+,Newgenz,2010-02-02T07:58Z,"I also tried my LEGAL tablet pc code with it and it didn't work looks like someone transformed pro into tablet edition with a tutorial from winmatrix?
+Oi lol"
+,BTHprimo,2010-03-01T04:53Z,"Hey Fizzmo.  I've used this successfully in the past a few times, but the product key above isn't working.  Do you have a working one?  much appreciated"
+,lark-040,2010-03-07T23:19Z,"to actavate with a legal code during actavation choose actavate by phone and change the key, quit then reenter actavation and activate normaly over the net"
+,Shadow420,2010-07-29T04:50Z,I have a valid Tablet PC Key but it wont work. How can i get it to work so i can get to windows update?
+,down2business,2010-09-18T22:27Z,"Unfortunately this copy install perfectly but does not pass activation, even with the several legit keys I have tried for both xp pro and tablet..."
+,jjdavis699,2010-12-11T16:42Z,anyone know how to get this running on an Viliv X70 EX with EasyBCD 2.0. It is running 7 Starter ATM and I want to try to get it to run this.
+,Gspro2000,2010-12-15T08:19Z,KY6GY-YHDPV-RMY9G-PHG6P-2F9Y3	keeps telling me the product id you entered is not valid
+,jjdavis699,2010-12-23T18:12Z,"OK I took EasyBCD out of the equation and just opened the iso using jzip and unziped it to a folder on my desktop and copied it over to a flash drive but now it says:
+BOOTMGR is missing
+Press any key to restart.
+Any help here?"
+,johnn5rocks,2011-01-10T19:42Z,this is not xp tablet doesnt even come with one note its just xp pro sp3 nothing more
+,johnn5rocks,2011-01-10T19:48Z,this is not xp tablet doesnt even come with one note its just xp pro sp3 nothing more and this is the key in the I386 folder so this one works CD87T-HFP4C-V7X7H-8VY68-W7D7M
+,johnn5rocks,2011-01-10T19:49Z,also this is the key that will let you install its in the I386 folder unattend.txt CD87T-HFP4C-V7X7H-8VY68-W7D7M
+,johnn5rocks,2011-01-10T19:50Z,CD87T-HFP4C-V7X7H-8VY68-W7D7M
+,Ghalleon,2011-01-15T18:32Z,"That kay worked with windows xp sp2 2-disc retail version. For whatever reason my COA sticker key would not be excepted, this was a save, thanks a bunch"
+,nikosurf,2011-01-23T07:22Z,good and working unfortunately it didnt pass the activation. Anyone please let me know how to pass the activation? i tried with the activation removal but it didnt work.
+,lohigh,2011-02-05T15:03Z,"NOT WINDOWS TABLET
+altered xp pro version
+very good but not tablet"
+,poo4532,2011-03-12T00:14Z,don't waste your time.  get a better image that actually passes activation then google how to convert your existing install into tablet version.  this torrent doesn't do anything for tablet users.
+,neomiko,2011-07-03T01:37Z,"Anyone tried?
+
+http://technet.microsoft.com/en-us/library/bb457078.aspx"
+,ilovepuss,2011-08-19T05:56Z,i do not have a dvd drive in my tablet pc witch means i cant burn the iso to a disk and the hard drive is completely wiped of everything so that means my only option is to connect my hd to the computer im using now and install it that way. i have never done this before and have no idea what to do.
+,Switch013,2011-10-26T22:34Z,"ilovepuss, one way to actually install this without a CD drive is to use a utility that I've used in the past called MultiSystem. It's a small script that allows you to create a live cd/usb multipass so you can load and install various distros. I suggest setting a pendrive up using that script since it supports Winblows iso's. Only issue is that it's a Linux tool. However, you could check out pendrivelinux.com and see if one of their tools can help. That's my suggestion."
+,Switch013,2011-10-26T22:38Z,"Everyone who has downloaded this but hasn't been able to activate it, their is one method that I've used in the past. It actually works. Here's the steps:
+
+
+go to start, click run and type in regedit
+Next, on the left, expand HKEY_LOCAL_MACHINE,
+then expand SOFTWARE, then Microsoft, then
+WindowsNT, CurrentVersion, and then finally
+WPAEvents. Double-click on OOBETimer and enter
+these values in place of the ones in there:
+
+FF D5 71 D6 8B 6A 8D 6F D5 33 93 FD
+
+Then right-click on the WPAEvents folder on the left
+and select permissions and click on SYSTEM.
+Check the boxes that deny full control and click ok.
+Now ""X"" out of everything and go back to start,
+and ""Activate Windows"" or All Programs
+and then ""Activate Windows"". The window
+that comes up should say that windows is already
+activated."
+,PinkAcid,2012-04-18T09:27Z,"Switch013: I fucking love you, I have tried over 20 things this past month trying to activate my LEGIT version of windows XP that came installed on my new computer for art/school/work and this is the ONLY thing that worked. I only had 2 days left until windows was disabled, I literally almost cried when it worked."
+,Dillin,2012-06-22T02:34Z,"A CD Key for Windows XP Tablet PC Edition is:
+
+VQXTT-F82HQ-JYJGV-PV3F9-GCX4T "

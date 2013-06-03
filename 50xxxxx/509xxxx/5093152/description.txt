@@ -1,0 +1,36 @@
+Visual Basic 6 Xtensions Package
+--------------------------------
+
+This is some extensions for the Visual Basic 6 programming language:
+
+- Registration Manipulation Classes:
+  Easy-to-use class library for reading and editing the registry.
+
+- PowerDLL2:
+  Read description below.
+
+
+Description for PowerDLL2:
+This is a code-library, that I made for 3 main reasons:
+- Extend the functionality of Visual Basic,
+- Create a lot of often-used functions to save time,
+- Enhance already existing functions to run faster and smoother.
+
+This DLL-file is an ActiveX DLL, which means that VB (and all other Visual Studio-products) will automatically load the framework from this file. In other words, you just have to link this file into your project, then all functions are available right away.
+
+There is no manual. There never will be. But the functions all have a name that sort of explains what it does.
+
+This version will work with all Windows-versions, but is primarily made for Windows XP.
+
+Known bugs:
+- The Hotkey-module doesn't work. I did some messy code, and decided to leave it.
+
+I have included all the source, for anyone interested.
+
+I have discontinued work on this project, and started on a new version, which will be made on a completely new framework, and will be optimized for Windows 7.
+This new version is still underway, progress is being made in my speed.
+A brief listing of some of the features to come:
+- Support for themes. VB6 will no longer look like a Win9x-application.
+- Support for unlimited numbers. I am creating a new datatype, called SuperInt, that is only limited by the amount of RAM you got.
+
+Feel free to comment, if you find anything that you feel I should know about... :)

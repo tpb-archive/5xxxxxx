@@ -1,0 +1,206 @@
+Copied from PeaZip Homepage:
+
+
+Open source file and archive manager
+Flexibe, portable, secure, and free as in freedom
+
+
+Why PeaZip
+
+
+Flexibility
+
+PeaZip can extract most of archive formats both from Windows and Unix worlds: currently 90 file extensions are supported ranging from mainstream 7Z, RAR, TAR and ZIP to experimental ones like PAQ/LPAQ family, currently the most powerful compressor available.
+For archive creation, PeaZip suppors a wide range of compression and encryption standard, from fastes to most powerful ones, and allows to export job definition as scripts to bridge the gap between GUI and console applications, and let the user pick the best of the two worlds.
+
+PeaZip is a reliable solution for most of the archive types you may met,
+and will help you in finding the right tool for a wide range of specific needs
+
+
+Portability
+
+You can use PeaZip on all Windows version and on Linux (PeaZip is a desktop neutral application) with the same features and look and feel; moreover, for both platforms, PeaZip is also available as standalone, portable application not needing installation.
+
+You can bring PeaZip with you and rely on it on multiple platforms
+
+
+Security
+
+PeaZip has secure deletion feature, can verify file checksum and hash, and supports multiple strong encryption standards, optionally using two factor authentication (password and keyfile) for increased security:
+
+7Z's AES256 encryption
+
+ZIP WinZip's AE encryption based on AES256 (and ZipCrypto for legacy compatibility); can decrypt PKZip's AES encryption
+
+FreeARC's ARC: AES256, Blowfish, Twofish256 and Serpent256 - this format is also capable to generate recovery records to protect data against corruption
+
+PEA: AES256 EAX authenticated encryption
+
+
+PeaZip is focused on security and supports multiple encryption standards
+
+
+Free as in freedom
+
+PeaZip is freeware, free of charge for any use, and is also free as in freedom since it's Open Source (LGPLv3)
+
+PeaZip contains exclusively Open Source components released under OSI approved licenses
+
+
+Main features
+
+PeaZip is an open source file and archive manager: cross platform, available as portable and installable software for 32 and 64 bit Windows (9x, 2k, XP, Vista) and Linux (PeaZip is a desktop neutral application).
+
+* Full support (read and write)
+
+7Z
+7Z-sfx
+ARC/WRC
+BZ2/TBZ2
+custom
+GZ/TGZ
+PAQ/LPAQ
+PEA
+QUAD/BALZ
+split
+TAR
+UPX
+ZIP
+
+
+* Read only (browse, extract, test)
+
+ACE
+ARJ
+CAB
+CHM
+COMPOUND (MSI, DOC, XLS, PPT)
+CPIO
+ISO
+Java (JAR, EAR, WAR)
+Linux (DEB, PET/PUP, RPM, SLP)
+LHA/LZH
+LZMA
+Mac (DMG/HFS)
+NSIS
+Open Office files
+PAK/PK3/PK4
+RAR
+SMZIP
+U3P
+UDF
+VHD
+WIM
+XAR
+XPI
+XZ
+Z/TZ
+
+
+* Repair
+
+ARC
+
+
+PeaZip allows to apply powerful multiple search filters to archive's content; create and extract multiple archives at once; create self-extracting archives; export job definition as command line; save archive's layouts; bookmark archives and folders; scan and open with custom applications compressed and uncompressed files etc...
+
+Other features: strong encryption, robust file copy, split/join files (file span), secure data deletion, compare, checksum and hash files, system benchmark, generate random passwords and keyfiles.
+
+
+Localizations
+Czech, Dutch, English, French, Galitian, German, Hungarian, Italian, Polish, Portuguese, Russian, Simplified Chinese, Sinhala, Spanish, Swedish, Ukrainian.
+
+
+PeaZip for Linux
+
+PeaZip is desktop-neutral so it can be used either under Gnome, KDE or other desktop managers. System integration mechanisms relies on FreeDesktop standards and requires a compliant environment, such Gnome and KDE, but basic archiving operations works on any environment.
+
+
+PeaZip portable
+
+You can simply unpack PeaZip portable in the path you prefer and use it, even on the network or on removable devices as USB sticks; it will not modify the host system.
+A writeable path is recommended to allow updating the internal peristent randomness collector.
+
+
+You can freely replace backend executables in PeaZip/res directory (any PeaZip release/package) with 64 bit counterpart, if available; please note that on Linux 64 bit systems you will need ia32-libs, as long as you need to run a 32 bit executable.
+
+
+
+Changelog:
+
+
+2009 07 14
+
+2.6.3
+
+o Added support for MS Office Template file types
+(a total of 90 file extensions are now supported)
+
+
+o PeaLauncher:
+
++ Fixed bug in exploring paths containing spaces
+
++ Fixed bug in exploring paths in full mode (when PeaLauncher is used as standalone application)
+
++ Standardized ok and cancel buttons' position and icons
+
+
+o Pea:
+
++ Fixed bug refusing chunck size bigger than maxint from command line
+
++ Fixed possible looping of application after internal_error procedure
+
+
+2009 06 12
+
+2.6.2 [Update recommended]
+
+o p7zip backend updated to 9.04 (Linux)
+
++ Added LZMA2 compression in 7z format
+
++ Read .XZ files
+
++ Read .VHD files (Microsoft Virtual PC disk images)
+
+
+o Tightened sanitization of input strings in PeaZip GUI, as security fix against a class of possible attacks based on code injection (ref: http://secunia.com/advisories/35352/ http://milw0rm.com/exploits/8881 original submission:To attack previos releases an attacker could build archives containing objects with nonvalid filenames, containing concatenated commands in the filename "hidden" to the user by making the filename very long with spaces to trick users in non reading the latter part of the name. If unaware users had downloaded such archive and doubleclicked or otherwise opened the archived file entry containing the concatenated command, would have put in execution the command (with current user rights). Fixes:
+
++ Check file/dir names for:
+
+# Non-allowed characters (0..31)
+# Reserved characters
+# Reserved file names
+# Unusual spacing (5 consecutive or more, like in 7-Zip GUI), as may be intended to trick user hiding real filename
+
++ Check command string immediately before execution for:
+
+# Non-allowed characters
+# Reserved characters for command concatenation (|), not used by PeaZip GUI
+# Unusual spacing
+
+
+2009 06 05
+
+2.6.1
+
+o 87 file extensions supported
+
+
+o It is now possible to define a custom desktop folder in Settings
+
++ (Linux) This change fixed possible access violation message at the first run of the application, while the application attempts to open a system dialog to set desktop folder (only on non-English installations, on distributions not using "Desktop" name for desktop folder)
+
+
+o Removed deletion functions from archive layout interface, del remapped to remove item from layout
+
+
+o Various fixes
+
++ Fixed a bug in dragging items to bookmarks (bookmarks bar was raised even if it was hidden)
+
++ Now size of multipart archive is reported correctly in PeaLauncher
+
++ Fixed password input using extract here from context menu

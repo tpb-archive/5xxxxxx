@@ -1,0 +1,45 @@
+FreeBASIC is a 32-bit native code compiler whose tool chain currently targets GNU assembler, but a GCC emitter is in the works.
+
+It can target win32, dos, linux, and albeit experimentally bsd and original xbox(xbox support is unsupported, but older versions may still work...)
+
+In plain english, this can make exe and dll files from BASIC source!
+Even though it is BASIC, it does support a lot of concepts from both
+Visual BASIC
+and C
+
+some OO is now implemented!
+
+Floating point Math can be x87, SSe, SSe2
+
+ex: structs(C) -> udt (FB)
+pointers
+constructors/destructors
+#pragma
+
+
+additionally it can support C/C++ dlls
+and it's dlls can likewise be used in C/C++
+
+VB5/6 dlls can be used using DispHelper (or AxSuite for more umph,.. ie vtables..)
+and FB's dlls can also be used in vb, just
+declare them as you would a dll made in C.
+
+Many libraries have been setup to work in FB:
+OpenGL, DirectX, Allegro, SDL, sockets, HGE,
+to name a few. I hear someone is also working on a
+HAVOC wrapper for phys-X chips as well....
+
+Even though you have to build your own message pump (like you would in C) you can build GUI programs in addition to standard console programs
+
+The power of C/C++, but the flexibility of BASIC.. best combo ever!
+
+If you've got more questions, or just want to go deeper visit the forums at
+ 
+http://www.freebasic.net/forum/
+
+
+
+If you want a library to simplify or enhance a freebasic or visual basic game you
+are building check out:
+ 
+http://dabooda.org

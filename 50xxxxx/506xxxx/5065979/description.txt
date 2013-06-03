@@ -1,0 +1,55 @@
+This is both the x64 and x32(86) edition of Windows 7 RC build 7100 downloaded directly from Microsoft.  
+
+I provide this because Microsoft no longer offers the download of it.
+
+Included are my personal favorite collection of extras for use on Windows 7 after you install it.  
+
+Enjoy and seed.
+
+---------------------------------------------------------
+Extras:
+
+Disable Caps Lock key-
+http://www.askvg.com/how-to-disable-annoying-caps-lock-key-in-windows/
+
+Focus Rectangle Remover-
+http://www.askvg.com/how-to-remove-the-annoying-focus-rectangle-in-windows/
+
+Leftsider-
+Small utility that brings the min/max/close buttons to the left side of the windows.  Use mainly for Mac themes.
+
+Movie Maker-
+Movie Maker from Vista clean install for use in Windows 7.
+
+Ultimate Windows Tweaker 2.0-
+A utility full of registry tweaks that lets you completely customize your system with clicks of a mouse.
+
+Universal Watermark Remover-
+Removes the build info from the bottom right.
+
+Vista Visual Style-
+A Vista theme for Windows 7.  Use the UxThemePatch corresponding to your proccessor to patch to give the ability to use.
+
+Windows 7 Lgon Changer-
+Similar to LogonStudioVista.  Changes the logon screen of Windows 7 RC.
+
+Compatible w/ Windows 7.png-
+Small icon for public use.
+
+cversion.ini-
+If you want to do an upgrade install.  Just extract the .iso image to a blank USB freshly formatted to FAT32.  Then replace cversion.ini in the "sources" folder with this one.  It will let you do an upgrade install if you have Windows Vista SP1 or SP2.
+
+TopDetailPane shell32.dll-
+This is if you want to move the detail pane in explorer to the top.  Just rename shell32.dll in the system32 folder to shell32_backup.dll.  Then paste this .dll and rename it to shell32.dll.  Then log off (requires all users to be logged off) or reboot.
+NOTE: To change it you will have to take ownership of the file.
+     Start>type CMD>Run as Administrator
+           type "takeown /f C:windowssystem32shell32.dll" without the quotes.
+
+UxTheme Patch-
+Reqired for the use of custom themes in Windows 7.  MAKE SURE YOU CHOOSE THE ONE THAT MATCHES YOUR PROCCESSOR!
+
+Windows 7 Dreamscene-
+Gives you DreamScene feature on Windows 7 RC.
+
+Windows 7.ico-
+Windows 7 icon free for use.

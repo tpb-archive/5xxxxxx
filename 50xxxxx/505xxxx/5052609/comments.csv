@@ -1,0 +1,87 @@
+User Type,Username,Date,Text
+,Win7Act,2009-08-14T18:38Z,How to disable self defense? 
+,Win7Act,2009-08-14T18:47Z,"I got it, thanks."
+,irsha1989,2009-08-14T20:31Z,"what do you mean by active product using online method??
+can u tell me plz.."
+,bombym,2009-08-15T06:51Z,"Resetter.exe contains HackTool.Win32.Kiser.ba
+Look at the image below for evidence if you do not believe me.
+
+[img]http://img228.imageshack.us/img228/3664/malware.png[/img]
+
+If you have been infected, go to:
+http://www.threatexpert.com/report.aspx?md5=a1a586c6402739deeeb3b0c640e1db65
+http://www.threatexpert.com/report.aspx?md5=3637ab572d0c165fd52bc1fc1088260a
+
+and remove the registry keys."
+,bombym,2009-08-15T06:52Z,"The image link is
+http://img228.imageshack.us/img228/3664/malware.png
+
+Sorry for the broken link above."
+,shinigamisan,2009-08-15T16:34Z,"bombym:
+does it mean that after we use the resetter, and remove the infectious registries and stuffs, we will still be ok wih the resetter? or better to not use at all?"
+,fallout11,2009-08-16T16:25Z,Probably better not to use it at all. There are other options.
+[V],Dante.Xaiver,2009-08-18T23:08Z,Like i said this one has been cleared as safe nothing to worry about 
+,freemanjosephyap,2009-08-19T11:46Z,"kindly help me how to remove the hacktools.. 
+more power to tpb!!"
+,urdoomd,2009-08-20T02:36Z,"Using the ""Beta"" trick doesnt work with this one so any ""easy"" way to reset or if theres a new way to just keep activating every 30 days without any of these tools would be nice,
+but a VIP uploading an infected file? I've never seen this before."
+,adventurjunky,2009-08-22T10:16Z,"The instructions are crappy,disable self defense from settings tab then choose trial reset,works Great though  thanks,Dante.Xaiver ."
+[T],Spikkie,2009-09-03T11:14Z,"Thanks man, works great."
+,soulp0wer,2009-10-11T08:23Z,you're right bombym. tnx
+,soulp0wer,2009-10-11T08:31Z,"do anyone have the REGISTRY FILE for trial reset for Kaspersky 2010?
+
+that method is safer compared to .EXE applications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+-soulp0wer"
+,molitar,2009-10-11T21:05Z,Ok for those worried.. first of all Kaspersky reports it as a hack tool.. which it is.. it is hacking a program.. not a trojan or a virus.. Secondly scan also with Malwarebytes and it is clean.  Can people not understand the difference between a Hack Tool and Trojan?
+,whato1986,2009-10-29T14:20Z,"Wonder if someone can help me out...
+
+The resetter works fine by the way, but when Kaspersky identifies it as a problem, in the log I right-click and click on 'add exception' to the resetter.exe so that it doesn't delete it... but after a while Kasperky finds it and deletes it! Meaning that I have to download it all over again...
+
+Anyone know what I'm doing wrong?"
+,neuroxtal,2009-11-03T17:55Z,"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\KasperskyLab\protected\AVP""?""\environment]
+""ProductStatus""=""Beta""
+
+_________________
+
+instead of AVP""?"" ur KIS version: AVP7 or AVP8 or AVP9...
+
+save as
+
+XX.reg
+
+_________________
+
+more info at:
+
+http://www.megaleecher.net/Kaspersky_Keys"
+,letjim,2010-02-27T06:06Z,"thanks...works for me. KIS deleted it but I was able to restore it from the 'Detected threats' log by rite clicking on it and click on 'add exception'
+thanks to whato 1986 for the tip. hope this works again in 30 days. will seed as long as I can."
+,Chris_C,2010-03-16T02:02Z,"Ha lol, I was just about to upload this o.O
+
+Anyway, Kaspersky will continue to identify it as a threat because of the way it is coded, and the actions it performs. It works with Kaspersky Internet Security 2010 v 9.0.0.736 (still).
+
+To help those having trouble:
+
+ALWAYS keep the Trial-Reset Program in a .rar archive. Go download Winrar (google it, it's free). If you keep it in an archive, the regular scanner will not identify it unless you manually scan the archive. This prevents file deletion.
+
+-----------------
+
+If you continue to have trouble with this, I suggest you go back to the main page of this site, and search for Kaspersky Internet Security 2010, and look among the torrents for ChattChitto's KIS 2010 keys. They work =)"
+,gayalkr,2011-03-21T03:46Z,DONT USE FOR 2011

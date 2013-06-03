@@ -1,0 +1,72 @@
+Description
+--------------
+
+Semantic Forms is an extension to MediaWiki that allows users to add, edit and query data using forms. It is heavily tied in with the Semantic MediaWiki extension, and is meant to be used for structured data that has semantic markup. Having Semantic MediaWiki installed is a precondition for the Semantic Forms extension; the code will not work without it.
+
+Very simply, Semantic Forms allows you to have forms for adding, editing and querying data on your wiki, without any programming. Forms can be created and edited not just by administrators, but by users themselves.
+
+The main components of Semantic Forms functionality are form definition pages, which exist in a new namespace, 'Form:'. These are pages consisting of markup code which gets parsed when a user goes to add or edit data. Since forms are defined strictly through these definition pages, users can themselves create and edit forms, without the need for any actual programming.
+
+The Semantic Forms extension enforces the use of templates in creating semantic data. It does not support direct semantic markup in data pages; instead, all the semantic markup is meant to be stored indirectly through templates. A form allows a user to populate a pre-defined set of templates for a page (behind the scenes, that data is turned into semantic properties once the page is saved).
+
+Forms can also be used to edit the data in an existing page, and you can enable an 'edit with form' tab to show up on any page; see The 'edit with form' tab.
+
+
+
+Authors
+--------------
+
+Semantic Forms was created, and mostly written by, Yaron Koren, reachable at yaron57 -at- gmail.com. Important code contributions were also made by Daniel Friesen, Eugene Mednikov, Harold Solbrig, Jayson Harshbarger, Jeffrey Stuckman, Louis Gerbarg, Matt Williamson, Nils Opperman, Sergey Chernyshev and wheresmytab.
+
+
+
+Version
+--------------
+
+Semantic Forms is currently at version 1.8.1. See the entire version history.
+
+
+
+Languages supported
+--------------
+
+Semantic Forms has full support for English, Arabic, Catalan, Taiwanese Chinese, Mainland Chinese, Dutch, French, German, Hebrew, Persian, Brazilian Portuguese, Spanish and other languages; and partial support for Afrikaans, Belarusian, Bengali, Bulgarian, Croatian, Czech, Danish, Finnish, Greek, Gujarati, Hindi, Hungarian, Indonesian, Italian, Japanese, Khmer, Lithuanian, Marathi, Pashto, Polish, Portuguese, Romanian, Russian, Serbian Cyrillic, Slovak, Swedish, Tagalog, Tajik, Turkish, Ukrainian, Vietnamese and many other languages.
+
+Semantic Forms also supports autocompletion of fields, so users can easily see what the previously-entered values were for a given field. This greatly helps to avoid issues of naming ambiguity, spelling, etc.
+
+Data in a page that doesn't fit into the form, like a free-form text description of the page's subject, isn't ignored when the page is edited with a form; rather, it is placed into a separate input box called "free text".
+
+Semantic Forms also provides hooks to let outside code easily define new input types; this is useful for, among other things, new extensions to define input types that use code that they provide.
+
+Semantic Forms also provides other features: a form to create semantic properties, a form to create templates, a form to create user forms, pages that list all the templates and all the user forms on the site, and others. This documentation covers all the features, but see especially the Special pages section.
+
+
+
+Getting started
+--------------
+
+So, you've set up all the software on your site. Now what? Now it's time to create the structures to hold, display and enable adding and editing of your data; thankfully all of this can be done simply by creating various wiki pages. You should take the following steps:
+
+    * Figure out your data structure. What types of pages will the site have? What data will be contained on each one? You can change all of this around later, but it's good to have a starting plan.
+
+    * Create properties. The basic building blocks of any semantic site are the connections between data, which in Semantic MediaWiki are known as properties. A property is used to specify a single piece of information about the topic of this page; the value of a property can either be a standalone value, or the name of a page on the wiki. Every property should be defined on your wiki, with a page in the "Property:" namespace. The easiest way to do that is using the 'CreateProperty' special page (see above).
+
+    * Create templates. A template sets the display of the data on a page, holds the markup to turn the data into actual semantic information, and (often) defines the page as being of a certain category, and thus of a certain page type. There will generally be one template per page type, although sometimes a single page type will contain more than one template. A template can also be used for aggregation, by displaying a list of all other pages that have a certain relationship to this page (see the inline queries documentation for much more information on this). The easiest way to create templates is using the 'CreateTemplate' special page (see above).
+
+    * Create forms. Now you can create forms to allow users to easily add and edit pages of various types. There should be one form per page type; a form should populate the template or templates that this page type contains. As before, there's a special page to create new forms: 'CreateForm' (see above). See below for documentation on the special markup language used to define forms. One common request is for these three special pages ('CreateProperty', 'CreateTemplate' and 'CreateForm') to be able to edit existing property/template/form pages, and not just create new ones. However, this is programatically much harder to implement than creating new pages, because it requires parsing. For the foreseeable future, modifying existing properties, templates and forms will have to be done by hand.
+
+    * Create categories. One template in each form should define each article that the form creates as being part of a certain category. You should create a page for each such category, and specify a default form for it so that every article is automatically editable with the same form that created it. The easiest way to do that is using the 'CreateCategory' special page (see above).
+
+    * Enable links to forms. Besides creating categories that have a default form, there are other steps you should take to enable users to access the forms that you have created. These include adding links to add data in the sidebar and elsewhere, and setting default forms and alternate forms on properties, to have red-links to nonexistent pages point to a form for creating them. These actions are all explained further below.
+
+    * Add data. You should also add data to the site, using your new forms, to make sure that forms, templates and categories are working the way you want them to.
+
+    * Add links on sidebar and elsewhere. The sidebar (which, for English-language wikis, can be edited at the page "MediaWiki:Sidebar") should hold links to add each of the data types, and to the categories for each of these data types as well. You can also include such links on the main page and elsewhere.
+
+    * Customize. Once the structure is in place, you can customize all you want - changing the look-and-feel of the entire wiki, of the various templates, and of the forms, adding and changing fields and adding and changing inline queries for queries.
+
+...conversely, instead of creating properties, templates, forms and categories separately, you can create them all at once, using the 'CreateClass' special page (see above). This page does not allow as much flexibility as creating all these pages independently, but it can be done much faster.
+
+
+
+More MediaWiki related downloads can be found @ http://thepiratebay.org/user/wikidev

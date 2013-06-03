@@ -1,0 +1,11 @@
+Tongass Fjords X for FSX
+
+- unpack the Tongass_Fjords folder to your FSX installation
+- add the two scenery areas to FSX:
+- Run FSX, Settings -> Scenery Library -> Add Area
+- browse to the Tongass_Fjords folder, highlight the Tongass_Fjords_Lower_Priority folder, check "use directly" and hit ok
+- do the same for the Higher_Priority folder and make sure it's listed above the other
+- done! maps and manual found in Docs
+
+
+Note: probably need to run the configurator, (TongassFjords FSX.exe), for it to write the proper terrain.cfg

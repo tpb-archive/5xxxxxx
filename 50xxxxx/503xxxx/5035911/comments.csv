@@ -1,0 +1,120 @@
+User Type,Username,Date,Text
+,dukheddd,2009-08-01T18:39Z,"You need a flashed Xbox 360 console to play this game. The lastest Ixtreme firmware you need is 1.6.
+
+Open the DVD file which is associated with the ISO file in IMG Burn and burn at a recommended speed of 2.4x
+
+You MUST use quality discs. I recommend Verbatem Dual Layered 8.5GB discs.
+
+Failure to use quality products or programs will cause this not to work correctly.
+
+dukheddd at 2009-08-01 18:35 CET:
+Also, you can check whether games are already stealth patched or not using a program called ""DVDMulleter""
+
+Search for it using google and download it. This adds extra assurance to you not getting banned from Xbox Live!"
+,anti-capitalist,2009-08-04T20:13Z,"hey thanks for theuploa!! just one question, is this stealth??plz answer!! thx!!"
+[T],gamerguuy,2009-08-04T20:52Z,sorry but i don't know but you can download and check it with xdvdmulleter. Here's the link:http://thepiratebay.org/torrent/4246674/Xdvdmulleter_Beta_10.2_with_guide
+,sedrohatchstyle,2009-08-07T10:44Z,Keep up the seeding :) 
+,mirror86,2009-08-21T11:58Z,hows the download speed? i'm trying to find a well seeded version as i just modded my xbox and really want to try it out!
+,gorilla00,2009-09-09T14:35Z,"I just checked this iso file with the xdvdmullete and it's stealh patched, all I have to do now is to burn it  and then try it out :)
+
+Thanks for the upload"
+,gorilla00,2009-09-09T23:16Z,"One more thing, you can also use abgx360 to check if it's stealth patched or not, and if not you can make it steathed. "
+,lamboleap760,2009-10-08T19:18Z,Your P.C Should always be Seeding Something. There's No Excuse. 
+,svinto007,2010-03-29T23:25Z,not PAL?
+,beathead1974,2011-03-10T14:34Z,whats a flash xbox360 and how to get it
+,FLAMinEK,2011-03-21T20:31Z,"Checking for updates to abgx360.dat...
+     Server file abgx360.dat no newer than local file - not retrieving
+C:\Users\Desktop\xbox\call of duty 4\x360-cod4.dvd is valid
+Checking Game
+     ISO: ""C:\Users\Desktop\xbox\call of duty 4\x360-cod4.iso""
+     Size: 7572881408 bytes
+     Files in ISO: 2596, Folders in ISO: 2
+     Total bytes used: 6943014822 (95.13%)
+Game appears to have random padding
+Checking default.xex
+     Original PE Filename:  CoD3.exe
+     Original PE Timestamp: 2007/09/08 00:09:19
+     Game Name:             Call of Duty 4
+     Developer:             Infinity Ward
+     Publisher:             Activision
+     Genre:                 First Person Action
+     No Avatar Awards
+     Achievements:          37 Achievements totaling 1000 Gamerscore
+     XEX CRC = 336D09AC
+     XEX Media ID: 1EDFAC80440C6BD3DB843F83-15E8CF88
+Region Code: 0xFFFFFFFF
+     Region Free!
+Checking SS
+     Timestamp of Authoring: 2007/09/10 00:00:00
+     Timestamp of Mastering: 2007/10/01 23:55:07
+     SS Version: 1
+     SS CRC = 962ED47D (RawSS = F96EE94A)
+     SS Media ID: 1EDFAC80440C6BD3DB843F83-15E8CF88 (matches game)
+SS looks valid
+Checking DMI
+     Timestamp of Authoring: 2007/09/10 00:00:00 (matches SS)
+     DMI CRC = 19F91B33
+     DMI Media ID: 1EDFAC80440C6BD3DB843F83-15E8CF88 (matches game)
+DMI looks valid
+Checking PFI
+     PFI CRC = A4CFB59C
+PFI matches known data (2nd Wave)
+Video partition found
+     Video CRC = 91410773 (V0 = 81DF6964, V1 = E47F6A94)
+Video partition matches known data (2nd Wave)
+Basic Stealth check passed!
+Starting Verification
+     Looking for 962ED47D336D09AC.ini in the online verified database
+Downloading 962ED47D336D09AC.ini
+100% [================================>] 335
+     962ED47D336D09AC.ini was downloaded successfully
+     Using 962ED47D336D09AC.ini (335 bytes)
+     Video CRC matches
+     V0    CRC matches
+     V1    CRC matches
+     PFI   CRC matches
+     DMI   CRC matches
+     SS    CRC matches
+     Xex   CRC matches
+Checking Game CRC... (press Q to cancel)
+ Percent  Elapsed  Estimated   Time     Average     Current     Errors    Total
+    Done     Time       Time   Left       Speed       Speed  Recovered  Retries
+    100%     2:21       2:21   0:00   49.2 MB/s   57.2 MB/s
+     AnyDVD style corruption was not detected
+     Game CRC = C7A660B0 (matches)
+All CRCs match
+Verification was successful!
+Size is too small for SplitVid, extending...
+Extending ""C:\Users\Desktop\xbox\call of duty 4\x360-cod4.iso"" to 78354923
+52 Bytes... Done
+SplitVid is invalid, fixing...
+SplitVid was added successfully!
+Press any key to exit . . ."
+,FLAMinEK,2011-03-21T20:38Z,as you can see it does verify ok on abgx but there are SSv2/dmi you can manually patch from abgx to make it appear less like a kreon rip (SSv1). Infact wave 3 up c4eva recommends SSv2/Splitvid.
+,FLAMinEK,2011-03-22T09:13Z,"How to Manually patch SSv2 files:
+Go to abgx360 database, use the blue number on the right hand side of your game to obtain an SS and DMI combination (still must match the XEX of your game).
+Load ABGX360, Go to the ""Manually Patch or Extract Files"" tab,
+Tick ""Patch even if stealth passes""
+Tick the Patch SS, & Patch DMI, then browse for the files you just downloaded.
+ Go to the options tab
+UN-tick ""Verify if stealth passes""
+Click ""LAUNCH""
+The files should be patched and will say""patched successfully"" for each one.
+FINALLY, load the ABGX360 default settings again, (reselect the game iso if needed)
+Misc tab, make sure ""Add if it doesnt exist or isnt valid"" is selected for Splitvid
+Options tab, make sure ""Verify if stealth passes"" is checked
+UN-tick any boxes still ticked under ""Manually Patch or Extract Files""
+(the above should really all be enabled as default settings if they are not already. If you had to change to any of them, hold CTRL then press S to save your settings and choose ""Default""
+Click ""LAUNCH""
+If the game now shows SSv2, ALL CRC's Match, and you get Verification Successful at the end of the test, AND it says SPLITVID VALID (or added).
+YOU NOW HAVE SSv2 and SPLITVID, YOUR GAME MATCHES OUR RETAIL RIP, so you are good to go.
+Enjoy your game"
+,jessicajess1997,2011-04-08T12:38Z,"hey,
+im new here...
+i dont noe hw 2 extract these rar files....
+please can someone help me..
+email me at ashil.babloo@hotmail.com"
+,shaneoc,2011-08-21T14:50Z,you need this game burner to burn to a dvd - this is a new data game. xbox 360burner.com download it free http://www.xbox360burner.com/
+,szxusa,2011-11-27T14:11Z,"http://szx360.com/
+Free Xbox 360 Games, [GOD], DLC, XBLA, No-Jtag
+Instruction, FAQ, Forum. Enjoy."

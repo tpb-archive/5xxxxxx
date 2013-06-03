@@ -1,0 +1,61 @@
+UPDATE: TORRENT IS BROKEN: Sorry everyone, but I made the mistake of trying to seed this huge file from Windows XP.  Now Windows has messed up the only copy I have of torrents.tar.bz2 and I was not able to recover it or recreate the exact file, this means the torrent will never finish now.  Use a client like utorrent and you can download only the other files (all the rest are seeded nicely) and skip the torrents file.  The torrents can be downloaded easily using a scraper, maybe I will make another release or someone else with better seeding capabilities will step up and do it.  Sorry again, I'm not used to seeding huge files and I guess I just had too much faith in Microsoft (my Linux partitions didn't have enough free space).
+
+UPDATE 2: I feel bad for breaking this torrent and having no backup, so I made a quick script that downloads the torrent files based on the existing database.  Hope this helps: 
+http://pastebay.com/40370  .  The startid/endid is useful so you can break up the workload for faster (concurrent) downloading. If you manage to download the torrents, please pack them up and release here, I would do it but I don't have much upload bandwidth and a going on vacation.
+
+
+
+**********
+
+
+With this you can run The Pirate Bay yourself! I realize there are some other rips of TPB on here, but this one has a MySQL database, and also a sample PHP site to get you started. (The sample site is far from complete...) The database contains everything except the comments, ratings, thumbnails, type specific data (like artist name for music), and seed/leech counts.
+
+Run this for yourself, your friends, your school, or even the general public! (depending how free your country is and how big your balls are) If you build a nicer PHP site that is compatible with the database, please share it like I've shared with you.
+
+
+The Pirate Bay Archive 1.0.2009-08-08
+=====================================
+By: InfectedPirate  (infectedpirate@hush.com)
+
+- This release requires knowledge of PHP and MySQL and a webserver to run on
+- All files are compressed using bzip2
+- I am not affiliated with TPB and did not ask permission to make this release
+- I'm not responsible for any damage caused by this, use it at your own risk and it's your own fault if you break the law!
+- TPB crew has worked hard for many years to spread file sharing around the World. Sure, it's sad that they have to sellout/shutdown but can you really blame them after all they've done and everything they've been through? So, instead of complaining, start your own torrent site!
+- Have fun!!
+
+File Contents
+=============
+
+database.sql.bz2 - 534M
+sha1: d460f7cf338e84062f2b31baaf2d8a7f93507a10
+- Dump of the database with three tables: torrent (info about the torrents), pirate (names of the uploaders), type (the category names), torrent_files (file info extracted from the torrent files).
+- I used UTF8 for the database (TPB uses UTF8)
+ torrent.pid = the unique ID used on TPB (3210000 ... 5048466 ...)
+ torrent.info_hash = official unique id used for torrent files: use to get tracker stats, prevent duplicates, etc.
+- Try this after creating a database "tpb":
+# bunzip2 < database.sql.bz2 | mysql -uroot -p tpb
+
+torrents.tar.bz2 - DO NOT DOWNLOAD, THIS FILE IS BROKEN! Sorry!
+- The torrent files are named 1.torrent, 2.torrent ... the number is the "id" from the torrent table in the database. (See recent.php in htdocs for an example)
+- Every torrent includes the TPB trackers which are due to be shutdown soon. For best results you should replace TPB trackers with another free public tracker.
+- Make your torrent client skip this file because it's broken.  After you download the other files, save this PHP script to the spider folder and use it to download the torrent files from TPB: http://pastebay.com/40370
+
+htdocs.tar.bz2 - 70K
+sha1: ac1380a90dfb05650909caba27c94a5d1c89c2aa
+- A sample website, mostly copied from TPB pages.  Some pages (such as search.php) have already been modified to work with the database, others are just HTML. These scripts are a good starting point but still need a lot of PHP work before they work well.
+- The scripts in the 'htdocs' folder assume that the 'php' folder is next to it (../php/) and that the torrent files are stored in ./static/torrents/
+
+spider.tar.bz2 - 6K
+sha1: c83f98bde3b61244118606c99d28332d48a925be
+- The PHP scripts that I used to spider TPB (could be modified to spider another site, uses php-curl)
+ bencode.php = read/write data in torrent files
+ tables.sql = create the tables
+ batchstart = I divided the workload for concurrency, this script gets the party started
+ spider.php = Hope you like messy code! Some is reused from old projects so maybe it contains stuff that isn't even used.
+ indextorrents.php = This reads the file info in the torrents and inserts to the database
+
+Sharing == Caring
+
+C2AD EE50 2D72 4A5A FF25
+E2BA 18AA B7AD 1899 09D3

@@ -1,0 +1,51 @@
+Book Details
+-------------------------------------------------------------------------------
+Title : The functional approach to programming with CAML
+Authors : Guy Cousineau, Michel Mauny
+Pages : 447
+Publisher : Cambridge University Press
+Publication Date : 1998
+Format : DjVu
+Ebook quality : Decent
+Source Code included in source_code/ directory
+-------------------------------------------------------------------------------
+The functional approach to programming with CAML
+------------------------------------------------------------------------------
+A programming course should concentrate as much as possible on a program's 
+logical structure and design rather than simply show how to write code. The
+functional approach to programming achieves this aim because logical concepts
+are evident and programs are transparent so can be written quickly and cleanly.
+In this book the authors emphasise the notions of function and function 
+application which relate programming to familiar concepts from mathematics and
+logic.They introduce functional programming via examples but also explain what 
+programs compute and how to reason about them. They show how the ideas can be 
+implemented in the CAML language,and give examples of how complex programs from
+a variety of areas(such as arithmetic,tree algorithms, graph algorithms,text 
+parsing and geometry) can be developed in close agreement with their 
+specifications.Many exercises and examples are included throughout the book;
+solutions are also available.An appendix gives all the code used in the book in
+Standard ML. 
+Guy Cousineau is a professor at Ã‰cole Normale SupÃ©rieure in Paris and head of 
+the computer science laboratory.
+Michel Mauny is Directeur de Recherche at INRIA-Rocquencourt, and head of the 
+Cristal research team,where the CAML language is being developed.
+------------------------------------------------------------------------------
+Chapters
+------------------------------------------------------------------------------
+I- Basic Principles
+  1- Expressions
+  2- Data Structures
+  3- Semantics
+  4- Imperative Aspects
+II- Applications
+  5- Formal Terms, Pattern Matching, Unification
+  6- Balanced Trees
+  7- Graphs and Problem Solving
+  8- Syntatic Analysis
+  9- Geometry and Drawings
+  10- Exact Arithmetic
+III- Implementation
+  11- Evaluation
+  12- Compilation
+  13- Type Synthesis
+------------------------------------------------------------------------------

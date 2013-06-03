@@ -1,0 +1,69 @@
+Copied from DiskDigger Homepage:
+
+
+What is DiskDigger?
+
+DiskDigger can recover files from any type of media that your computer can read. This includes USB flash drives, memory cards (SD, CompactFlash, Memory Stick, etc), and of course your hard drive. The types of files that it recovers includes photos, videos, music, documents, and other formats.
+
+DiskDigger works by thoroughly scanning each sector of your media for traces of files. This has some advantages and disadvantages (read on to find out).
+
+
+You may find DiskDigger useful ifâ€¦
+
+you deleted one or more photos from a memory card by accident, and want them restored.
+
+you deleted one or more photos from a memory card on purpose, but now want them restored.
+
+you deleted some documents from your USB flash drive, and want to recover them.
+
+you came across an old hard drive of yours (or someone elseâ€™s) thatâ€™s been reformatted, and would like to see what its previous contents were.
+
+youâ€™re just curious about what old deleted photos (or other files) are still present on your memory cards.
+
+DiskDigger is also a work in progress. This means that new features will be added very frequently, including support for more file formats, more configuration options, etc., so check back for updates.
+
+
+What isnâ€™t DiskDigger?
+
+DiskDigger is not an â€œundeleteâ€ utility per se. Well, it kind of is, but isnâ€™t.
+An â€œundeleteâ€ utility scans through the file system on your disk and looks for file records that have been marked deleted, and allow you to bring them back.
+
+DiskDigger, on the other hand, brute-forces its way through your media, scanning it thoroughly for any trace of files that can be recovered.
+I donâ€™t mean â€œbrute-forceâ€ in any malicious way; this simply refers to the fact that DiskDigger reads every single sector of data, and scans it for traces of various file types. In this sense, DiskDigger is advantageous over an undelete utility because DiskDigger goes underneath the file system.
+
+DiskDigger is not a â€œrepairâ€ utility. It cannot repair a broken memory card or disk. DiskDigger is a strictly â€œread-onlyâ€ tool, and never changes the contents of the media you scan. It will, of course, scan unformatted (or badly formatted) media, but it wonâ€™t attempt to fix the formatting of the media.
+
+
+Features:
+
+DiskDigger scans for many different types of files, including photos, videos, music files, and documents, and displays what it finds as it scans in real time.
+
+You can preview most of the files found by DiskDigger without having to save them to a different location first. More than that, you can preview files while DiskDigger continues scanning!
+
+DiskDigger scans any type of media that is readable by your computer, including USB flash drives, memory cards (SD, CompactFlash, Memory Stick, etc), and your hard drive(s). Also, it is completely independent of the type of file system thatâ€™s present in your media. The program bypasses the file system and reads the raw data chunks (sectors) to recover data.
+
+DiskDigger can even recover fragments of some files, like partially overwritten photos or other images.
+
+DiskDigger does everything in memory, meaning that it never writes any temporary files to your disk or other media (unless you choose to save files that it recovers).
+
+Since DiskDigger is a completely self-contained program, it leaves no trace on the computer where it is run. It does not save any settings to the registry. There is nothing to â€œinstall,â€ and the entire program is a single executable file.
+
+
+Limitations:
+
+I canâ€™t think of any! OK, fine, there may be one or two:
+
+Because DiskDigger bypasses the file system of the device being read, it will detect files that havenâ€™t been deleted in addition to files that have. This means that you might have to sift through files that still â€œexistâ€ in the file system before you find a file thatâ€™s actually been deleted. However, the Preview feature makes this process quick and painless.
+
+Some very large files may be fragmented by the file system on the disk. In this case, DiskDigger will be able to recover only the first fragment of the file.
+
+If youâ€™re scanning a hard drive that has/had an Operating System installed on it (or other various applications), you might find a lot of irrelevant small files that were specific to the operating system. Some examples of this might be images from every website youâ€™ve ever visited (due to browser caching), or every single icon from a program that uses icons in its user interface.
+
+Scanning a large hard drive may take a substantial amount of timeâ€¦ but this is a matter of convenience. If youâ€™re truly determined to recover any possible lost files, you probably wonâ€™t mind waiting for the program to finish scanning a large drive.
+
+
+
+Changelog:
+
+
+Improved error handling and saving of large files.

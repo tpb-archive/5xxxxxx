@@ -1,0 +1,25 @@
+I have been looking forever to try and find a way to get my HP LaserJet 1000 printer to work with OS X. After a few days of searching I finally found a way to do it. Having gone through such a long process to get it to work and having a horribly hard time trying to find the files to do it, I decided to compile the instructions and necessary files into a .dmg so that others can use it. Thanks to foomatic, foo2zjs, and GhostScript for their work to make this happen!
+
+The .dmg I created has four files in it 3 .dmgs, foomatic-rip, GhostScript, and the foo2zjs drivers. There is a readme file on how to do it, but I'll copy and paste it here too:
+
+Instructions for installing HP Laserjet 1000 (and many others)
+
+Tested on Mac OS X 10.5.8, with HP Laserjet 1000
+
+1) Mount and install gplgs-8.64so-ub.dmg (GhostScript 8.64)
+2) Mount and install foomatic-rip-4.0.2.211.dmg
+3) Mount and install foo2zjs-1.1.2-ub.dmg
+4) Navigate to foo2zjs-1.1.2-ub.dmg, helpers, then copy load_LaserJet_firmware_v4 to Desktop, or other convenient place, as you will have to run it everytime you reboot your computer. This only applys to GDI LaserJets like the LaserJet 1000, so you may not have to do this.*
+5) Plug your printer into a USB Port
+6) Go to System Preferences, Print & Fax, click the + (plus) sign in on the lower left side, make sure you are on the default tab, click your printer, then under Print Using click select driver to use, then type in your printer name (ex. HP LaserJet 1000) and select the proper driver. (Mine is HP LaserJet 1000 Foomatic/foo2zjs (recommended))
+7) Run the load_LaserJet_firmware_v4 script, my printer makes a spooling up sound when it is run.
+8) That's it! Print a test page to see if it works!
+
+Credits go to the authors of GhostScript, Foomatic, and foo2zjs for their great work!
+
+*When the script is run it checks for LaserJets 1000, 1005, 1018, and 1020 printers. If you have one of those, you will need to run this script at every reboot.
+
+Downloaded .dmgs from:
+foo2zjs: http://mac.softpedia.com/get/Drivers/foo2zjs.shtml
+Foomatic: http://www.linuxfoundation.org/en/OpenPrinting/MacOSX/foomatic
+GhostScript: http://www.linuxfoundation.org/en/OpenPrinting/MacOSX/foomatic

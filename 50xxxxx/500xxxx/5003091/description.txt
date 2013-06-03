@@ -1,0 +1,33 @@
+ConvertXtoDVD changes history
+
+ConvertXtoDVD - 3.7.1.186
+=========================
+
+Fix annoying issue with menu that would prevent custom video to be used in menus.
+
+- 0002843: [Bug] Background video no longer added to title menu background (wesson) - resolved.
+- updated translations
+
+ConvertXtoDVD - 3.7.0.186
+=====================
+
+bugfixes
+This version include an important update for audio decoder, now more HD audio format are supported ( such some audio stream available in MKV HD or Blu-ray )
+
+- 0002863: [Bug] 3.6.13.180 : Bad framerate detection on a specific FLV Files (wesson) - resolved.
+- 0002858: [Bug] When converting a 2 file cd (merged together) output size should be DVD5 instead it is creating a DVD9 output. (wesson) - resolved.
+- 0002861: [Bug] No Audio on converted video when the source is DTS 5.0 (wesson) - resolved.
+- 0002862: [Bug] iso output grayed out (wesson) - resolved.
+- 0002567: [Bug] [X] Burn results to dvd / ISO Image in working folder setting not kept (wesson) - resolved.
+
+ConvertXtoDVD - 3.6.13.178 - Released Friday 26 of June 2009
+==========================
+
+Minor fixes
+- 0002811: [Bug] / is not a  (wesson) - resolved.
+- 0002757: [Suggestion] A few minor things wrong with the language lists in the audio selector (wesson) - resolved.
+- 0002821: [Suggestion] "vsoscaler.dll not found" is displayed in the About window (wesson) - resolved.
+- 0002807: [Crash] Access Violation when going into the settings, subtitles, rendering real quickly (wesson) - resolved.
+- 0002832: [Crash] access violation during load, if the templates aren't still not completely loaded (wesson) - resolved.
+14:31 25/06/2009
+

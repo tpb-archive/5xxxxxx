@@ -1,0 +1,3 @@
+This is a VMware image of the installed iDeneb v1.4 distribution.  It contains Mac OSX 10.5.6, which has been updated to 10.5.7.  Networking is enabled (bridged), and keyboard works without nasty repeats.  No audio.  Screen res is 1024x768x32.  User id and password is "iDeneb" and "ideneb", respectively.  Disk is "as needed" up to 30GB.
+
+This VM image is in a suspended state.  Resume it in order to work with it, and then suspend it again when you are finished.  REBOOTING WILL NOT WORK.  Don't even try it.

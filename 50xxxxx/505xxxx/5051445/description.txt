@@ -1,0 +1,47 @@
+www.lucasarts.se/snk/press
+
+Bootable USB Feat
+
+Backtrack 4 Pre
+Trinity RescueKit 3.3
+DBan
+Kon-Boot
+Memtest
+Ophcrack XP
+Ophcrack Vista
+
+
+
+
+          Installation Instructions:
+
+          Im NOT responsible for any damage done to you or your computer when 
+          using/installing SNK.
+
+          You need a USB with at least 4GB of storage.
+          
+          Windows:
+          Install Using winimage (www.winimage.com)
+          or dd for Windows.
+          Format your USB Stick as FAT32
+          Start WinImage and open Nerdyknife2.1b.img
+          Select Disk/YOURUSBDISK
+          Click Write Disk.
+          Done 
+          Boot up a computer and select Boot Order menu, from there select your USB
+
+          Linux:
+          #dd if=Nerdyknife2.1b.img of=/dev/YOURUSBDEV
+
+          Notes:
+
+          This works for me, have tried it on mutiple computers
+          and verified that the dd (back n forth) works fine.
+          Don't mail me Distribution specific problems.
+          Your welcome to come up with more ideeas or just thank me.
+  
+    â–“â”‚                             www.lucasarts.se/snk/press                              â”‚â–’ 
+  
+           
+       
+

@@ -1,0 +1,43 @@
+User Type,Username,Date,Text
+,onikrulz,2009-09-04T16:35Z,How many days does this key add
+,onikrulz,2009-09-05T10:14Z,Kaspersky 2010 doesn't blacklist mine even after I update and I'm using keys like this.
+,sodiumdreamz,2009-09-08T11:52Z,blacklisted now
+,seckss,2009-09-08T18:43Z,New keys on this link: http://thepiratebay.org/torrent/5082322
+,LbL,2009-09-09T17:37Z,"
+
+Kaspersky 2010 Fix:
+
+1. Download Kaspersky Trial version from http://esd.element5.com/demoreg.html?productid=300324330.
+Install it.
+Get all the updates.
+
+2. Go to Kaspersky's settings, click Options, and untick Enable Self-Defence.
+
+3. Exit Kaspersky by right-clicking its icon in the Tray, and choose EXIT at the bottom.
+
+4. Go to Start, run, then type regedit and press enter.
+
+5. Press CTRL+F to serach for    ProductStatus    and hit enter, or go directly to:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\AVP9\environment
+where      ProductStatus    is located in the right window.
+
+6. Double click     ProductStatus    and change the word:
+ Release
+(it may say Trial instead of Release)
+
+to:
+ Beta
+
+
+7. Press OK. Close Registry Editor, start Kaspersky.
+
+Kaspersky will complain your key is invalid.  Click the red message.
+Now License Manager is open.  Click ""Activate New Licens"".
+
+
+8. Tick Activate beta license then press Next and Finish, it will now contact the Server to activate the Beta-key.
+
+9. Re-enable Self-Defence if it hasn't already done that by itself.		
+
+10. This can be done over and over again when the 30-days Trial ends."

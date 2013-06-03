@@ -1,0 +1,190 @@
+Copied from Windows Essentials Codec Pack Homepage:
+
+
+What is Windows Essentials Codec Pack?
+
+Windows Essentials Codec Pack, or WECP for short, is one of the most comprehensive collection of Media Codecs, Filters, Splitters and other tools that will enable you to play 99% of all the movies, music and flash files you download off the internet. WECP also includes a set of powerful filters that can enhance the video quality as well as audio quality and it comes complete with an automatic update service that will keep your computer up-to-date with the latest software upgrades as soon as they become available.
+
+WECP is clean and compact, it has no spyware / adware / or viruses, it's easy to use and even easier to install / uninstall and it's published under the GNU GPL open source license so it's 100% free. But more importantly, it was especially designed to fix the many errors and software conflicts caused by other codec packs which routinely install obsolete or overlapping codecs, and it's guaranteed to keep your to keep your computer up-to-date with the latest software upgrades.
+
+Which formats does W.E.C.P supports?
+
+WECP is designed as a near complete solution for all your video and audio needs, with it you can play
+
+Audio CDs
+DVDs
+(S)VCDs
+XCDs 
+
+on the fly, and it adds support for 
+
+3GP
+AAC
+AC3
+APE
+AVI
+DivX
+3ivx
+DAT
+h.264
+x264
+AVC
+Nero Digital
+DTS
+FLV
+FLAC
+HD-MOV
+MPEG-1
+MPEG-2
+M4A
+MPC
+MP3
+MP4
+MO3
+MOD
+MKV/MKA
+MTM
+OFR
+TTA
+OGG/OGM
+S3M
+Vorbis
+VOB
+WavPack
+ATRAC3
+XviD
+XM
+WV
+UMX
+
+and many more formats so you could play any video / audio file with your favorite media player or with the free and wonderful Media Player Classic player that comes included with WECP.
+
+
+
+Included Codecs, DirectShow, VfW Filters and Tools:
+
+FFDShow:
+DirectShow decoding filter for decompressing DivX, XviD, H.264, FLV1, WMV, MPEG-1 and MPEG-2, MPEG-4 and various other audio and video formats.
+It uses libavcodec from ffmpeg project for video decompression, postprocessing code from mplayer to enhance visual quality of low bitrate movies, and is based on original DirectShow filter from XviD, which is GPL'ed educational implementation of MPEG4 encoder
+
+Gabest FLV Splitter:
+Capable of splitting Flash Video files (FLV) and decoding On2 VP62 Video streams (notable users of the FLV format includeGoogle Video, Reuters.com, Yahoo! Video and MySpace.)
+
+Gabest MPEG-2 Decoder Filter:
+Decodes MPEG2 video (the stuff on a DVD). The filter currently has an extremely low merit level and also MPEG1 decoding removed. It is primarily included as a fallback for DVD MPEG2 decoding if the user does not already have another MPEG2 decoder installed. A few other patches donated by Haali for interlaced/progressive fixes
+
+Gabest VobSub & TextSub filter:
+For displaying subtitles. It will attempt to disable any previous DirectVobSub installations you might have
+CoreWavePack: Decodes WavPack audio and splits WavPack audio files (.WV) for playback in DirectShow. The only DirectShow implementation to support all three WavPack modes: lossless, lossy, and hybrid
+Haali Media Splitter: DirectShow filter, primarily designed to parse MKV files. It also supports MP4, OGM and AVI. It is widely regarded as the most stable and functional MKV splitter.
+
+Media Player Classic:
+an open source media player that looks just like Windows Media Player, but has many additional features. It has a built in DVD player with real-time zoom, support for AVI subtitles, QuickTime and RealVideo support
+
+WECP Media Update Service:
+Keep your computer up-to-date with the latest codecs, filters and various upgrades with WECP own Update Service
+
+WECP Codec Repair Tool:
+Fix registry errors and software conflicts caused by installation of too many codecs
+
+Autorun Repair Wizard: Scan your computer devices to find defective AutoPlay settings, and attempts to fix those it finds 
+
+FFDSHOW is an Open Source DirectShow decoding (and encoding) filter for decompressing several video formats, including DivX, XviD, WMV, FLV, MPEG-1 and MPEG-2 type movies. FFDShow also supports decoding of virtually all audio formats used in movies, including AC3, DTS, MP3 and Ogg Vorbis, and several subtitle formats. 
+
+FFDShow also supports postprocessing capabilities, support for virtually all MPEG-4 video formats, support for various processor enhancements (such as SSE and MMX), etc. FFDSHOW is released as an open source software under GPL license agreement.
+
+To summarize its main idea, the FFDSHOW consumes way less CPU power than original DivX or XviD codecs, even with maximum post-processing.
+At the same time the post-processing seems to give excellent quality results and allows more configuring than the original DivX codec.
+It can even automaticly reduce post-processing if your CPU is getting overloaded. The noise filter adds a kind of a rasterising effect to the picture - might be useful in some cases.
+
+After you'll try FFDSHOW you'll remove any DivX codecs from your PC and never look back. 
+
+Features of FFDShow Video Decoder :
+
+various compression methods: 
+MPEG 4 compatible (Xvid, DivX 4, DivX 5) using libavcodec or XviD
+Divx 3 compatible, MSMPEG4v2, MSMPEG4v1
+WMV1/7, WMV2/8
+H263, H263+, H264
+HuffYUV in YV12 colorspace
+MJPEG
+MPEG 1
+Theora (not for regular use, format isn't stabilized yet)
+MPEG 2 by using mpeg2enc code from MJPEGtools project
+all Windows Media Video 9 supported encoders with output to asf/wmv file or AVI
+
+all common encoding modes: constant bitrate, fixed quantizer, fixed quality, two pass encoding (depends on compressor features)
+
+for libavcodec and XviD detailed selection of motion estimation method
+
+minimum and maximum I frames interval
+
+minimum and maximum quantizer selection, quantizer type and trellis quantization selection for libavcodec
+
+adaptive quantization (aka. masking) for libavcodec and XviD, single coefficient elimination
+
+selectable compression of starting and ending credits
+
+two curve compression algorithms for second pass of two pass encoding - thanks to XviD developers
+
+second pass simulation: although not very precise, still helpful for tweaking advanced curve compression parameters
+
+ability to use libavcodec internal two pass code
+
+image preprocessing with ffdshow image filters (latest ffdshow version must be installed)
+
+graph during encoding: if your encoding program doesn't provide one
+
+B frames support: from one to eight consecutive B frames
+
+support for MPEG 4 quarterpel and GMC
+
+selectable interlaced encoding
+
+
+
+FLV Splitter
+
+FLV Splitter is DirectShow decoding filter for decompressing Flash Video (FLV) movies, which is a proprietary file format used to deliver video over the Internet. Most Flash Video content is viewed online (notable users of FLV format includeGoogle Video, MetaCafe, Yahoo! Video and MySpace), but in order to view .FLV content locally, you need a splitter installed.
+
+Features of FLV Splitter:
+
+A DirectShow splitter filter for Flash Video files, allowing you to playback FLV files in Directshow based players like Windows Media Player, Media Player Classic and more.
+
+FLV1 and FLV4 decoding support
+
+
+
+Gabest VobSub and TextSub filter
+
+VobSub and TextSub (VSFilter) is a DirectShow filter by Gabest and part of the guliverkli project. It is used for overlaying of SRT, SSA, ASS, and VOBSUB subtitles. It integrates automatically with any directshow player like the Windows Media Player, Media Player Classic, Zoom Player, etc.
+It can also be used as a plugin for AviSynth and Virtualdub(use the VSFilter.dll).
+
+Haali Media Splitter
+
+Used for compliant MKV playback. Attempts to disable other MKV splitters on the system. Certain Matroska features are available only with Haali's splitter and not in Gabest's. This filter is also capable of being used as a splitter for MP4, OGM and OGG, MPEG-PS, MPEG-TS, and also AVI. AVI and MPEG-PS are not used by default in the pack and is not recommended to do so. You will, however, need the MP4, OGM and TS parts for playing those files. The installer will also set the source filter for each container only if it is checked in the installation, this fixes any issues with previously installed splitters by overriding them 
+
+
+Media Player Classic - Homecinema 
+
+Media Player Classic - Homecinema is an extremely light-weight Open Source media player for Windows. It may look just like the good-ol' Media Player, but has lots of nice extra features. Media Player Classic has, for instance, a built in DVD player with real-time zoom, support for AVI subtitles, QuickTime and RealVideo support (requires QuickTime and/or Real player Alternative), and lots more. Definitely a great replacement for the huge and clumsy Microsoft Media Players.
+
+
+Requirements
+
+Pentium Pro/Athlon processor or higher (SSE-capable CPU recommended)
+Windows 2000, XP, Server 2003, or Vista
+
+
+ED2K Link:
+ed2k://|file|WECPSetup.exe|9159501|667E4514B23CACC8EFD0AE4BC536D809|h=DALGKAZXELIOPW5T4CMDEKHJM6W7NS4W|/
+
+
+Changelog:
+
+
+
+
+
+Comments from the uploader (olofolleola4):
+I have noticed that the homepage of W.E.C.P never changes their changelog, so I cannot write what the changes is.

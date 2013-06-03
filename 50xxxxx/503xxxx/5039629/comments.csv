@@ -1,0 +1,614 @@
+User Type,Username,Date,Text
+,AkQ,2009-08-03T16:23Z,"FINALY!! Been waiting for hours!!! THANKYOU!!
+
+
+All my family and my friends, and their friends uses your releases! 
+
+Thankyou SO MUCH!"
+,mizar,2009-08-03T17:01Z,"Thanks!
+Win7 really needs a kick in the ass to be as good as XP or hopefully a little more better."
+,Sven the swede,2009-08-03T17:18Z,"I noticed that a lot of crappy custom editions of Windows 7 have started to show up and started thinking ""why do they even bother?"" They just cut out a few things, some of them important, and then claim it is revolutionary and super fast. Hey, anyone could have done that in vLite. It is as silly as someone taking out the calculator and claim that is going to make the OS faster. Now this on the other hand... eXPer1ence knows what he is doing. On the other hand, if you don't know what you are doing, well then this is probably not for you. Does this sound like you? ""Hey?? HELP!! Where did my Help and Support go?? I can't connect to the freaking Internet!"" 
+
+On another topic, I would want to ask if any x64 edition is coming? After all, it is not like comparing the x86 and x64 edition of Windows XP. I think porting this to x64 architecture should not be too time consuming. You used to list in your previous releases what have been removed, not what have been kept, and I would just like to point out that perhaps it was better like you did before? After all, more things have been kept than removed. 
+
+Anyway, this seems like a great release but I don't know why everyone seems mostly interested in the x86 edition of Windows 7. Even computers that are a few years old have most likely x64 processors, unless they are socket 774 processors from Intel. The x86 architecture is really, really old stuff and that version is just developed by Microsoft for compatibility with old software, drivers, licenses and all that stuff which mostly only companies have to think about. One could compare the x86 architecture and x64 architecture with having onboard graphics and having a modern PCI Express video card. "
+[T],eXPer1ence,2009-08-03T17:54Z,"1 - The complete NFO with everything thats removed is on the ISO but it just wouldn't all for here thats all. Demonoid (am I allowed to say that here lol) has the complete NFO on it.
+
+2 - Its x86 purely because I wanted it to fit on a CD.
+
+Fitting x64 on a CD won't be possible but by that time maybe it coud be this x86 one and x64 as a dual booting DVD. I can only guess it will not be huge because a lot of the files in x86 are also in x64.
+"
+[T],eXPer1ence,2009-08-03T17:56Z,"
+REMOVED ITEMS PART 1/3:
+DISM
+
+With DISM the following packages were REMOVED:
+
+Hyper V Common Drivers, Hyper V Guest Integration Drivers, Anytime
+Upgrade Results, Backup, BLB Client, Business Scanning Feature,
+Clips In The Library, Client Wired Network Drivers, Common Modem
+Drivers, Printer Drivers, Tuner Drivers, Win Ocr, Gadget Platform,
+Group Policy Client Extensions, IIS Web Server Add On, IIS Web
+Server Add On 2, Indexing Service, IE Troubleshooters, Links,
+LocalPack AU/CA/GB/ZA/US, Mobile PC Client Sensors, Optical Media
+Disc, PeerDist Client, Printing XPS Services, RasCMAK, RecDisc SDP,
+Sample Content Ringtones, Secure Startup, ShareMedia Control Panel,
+Shell HomeGroup, Shell Inbox Games, Sidebar Killbits SDP, Snipping
+Tool, Sticky Notes, Terminal Services Command Line Tools, Terminal
+Services Misc Redirection, Terminal Services Publishing WMI Provider,
+Terminal Services Remote Applications Client, Terminal Services USB
+Redirector, Terminal Services WMI Provider, Windows Media Player
+Troubleshooters, WMP Network Sharing Service, XPS Foundation Client,
+Networking MPSSVC Rules Ultimate Edition."
+[T],eXPer1ence,2009-08-03T17:57Z,"REMOVED ITEMS PART 2/3:
+
+DELETED DIRECTLY FROM MOUNTED IMAGE:
+
+About 550Mb was removed from:
+Windows\System32\DriverStore\FileRepository\
+
+About 585Mb was removed from:
+Windows\winsxs\
+
+These items were: Printer Drivers, Modem Drivers and Camera Drivers.
+
+Other miscellaneous items were removed like the contents of the
+Recovery folder and certain folders from the Web folder."
+[T],eXPer1ence,2009-08-03T17:57Z,"REMOVED ITEMS PART 3/3:
+vLite
+
+In vLite the following items were REMOVED:
+
+(vLite ""Last Session.ini"" is included in the sources folder)
+
+REMOVED - [Accessories]
+Accessibility, Inbox Games, Premium Inbox Games, Mobility
+Center, Speech Support, Windows Sidebar and Gadgets.
+
+REMOVED - [Drivers]
+Diva Server, Modems, Scanners, TV Tuners.
+
+REMOVED - [Languages]
+Chinese, Japanese, Korean.
+
+REMOVED - [Multimedia]
+Media Center, Music and Video samples, Sample Pictures,
+Screensavers, SideShow, Sound Recorder, Windows Media
+Codecs, Windows Media Player.
+
+REMOVED - [Network]
+Connect to a Network Projector, Internet Information
+Services (IIS), Remote Desktop and Assistance, Remote
+Desktop Client, Simple Network Management Protocol
+(SNMP), Simple TCPIP services, Telnet Client, Telnet
+Server, TFTP Client, Windows Collaboration, Windows
+Mail.
+
+REMOVED - [Services]
+Diagnostics, Error Reporting, Offline Files, Remote Registry,
+Routing and Remote Access, TPM Base Services, Windows Search.
+
+REMOVED - [System]
+BitLocker Drive Encryption, Crash Dump Support, Digital
+Rights Management (DRM), Help, IMAPIv2 Burning Support,
+Manual Install (Setup.exe), Microsoft Message Queue (MSMQ),
+Natural Language, Parental Controls, Performance Counters,
+Reliability and Performance Monitor, Remote Differential
+Compression, Security Center, Software Quality Management
+(SQM), Sync Center, System Restore, Tablet PC, Windows
+Defender, Windows Easy Transfer, Windows SAT (Performance
+Index)."
+,Ov4ar,2009-08-03T18:58Z,Nice work there ;)
+,gnufella,2009-08-03T19:31Z,"> Demonoid (am I allowed to say that here lol) has the complete NFO on it.
+
+can't seem to find it there. no probs. i'll grab it from here. 
+
+been a fan of eXPerience releases for a long time now. thanks a ton for all your work."
+,wulles,2009-08-03T20:42Z,It does not install here. After 90 seconds big error. Harddisk-error or cd-error or something with the usb-error. And that`s not true. Nothing is wrong when I install a full Win 7. I am open for ideas.
+,bouboubou,2009-08-03T23:46Z,"I just installed it on my dell laptop and it's working very well. I'm downloading 3 updates right now and yes, it's activated!
+
+For now, this is a pure GEM guys! Even the two system files on the desktop are hidden!!!! How the hell did you do that experience?
+
+Thank you very much dude for your work! And you should go see the people on the MSNF board because these poor souls are trying to fit an installation of windows 7 on a cd but they seem to fail at it!!
+
+THX AGAIN!"
+,bouboubou,2009-08-03T23:53Z,"I have another question experience. If you look here : http://half-open.com/history_en.htm
+
+They say that the limit is physically present in the file tcpip.sys but is uneffective so there is no use for a fix or else.
+
+I guess you disagree because you put a program to change that on your tiny7. Who's right?
+
+THX for your time!"
+,nayab9,2009-08-04T00:50Z,"once again fantastic release, thank you very much for your great work exp."
+,Damien74,2009-08-04T06:31Z,mizar: win7 allready is better.
+,ntoskrnl,2009-08-04T09:05Z,"But much stuff needs to be removed for Windows 7 to fit on a CD. You need to make compromises.
+
+If you need something that's removed in a Tiny or Micro release, make your own one, use the full one, or don't complain."
+[T],scuba-doo,2009-08-04T09:08Z,YOU THE MAN !!  THNX ALOT
+,mizar,2009-08-04T09:40Z,"@Damien74
+Old Love Is Not Soon Forgotten!
+And nothing is so good that it can not be better.
+Tiny7 is the proof!"
+,minimaxa,2009-08-04T12:48Z,"eXPerience you are the man!
+
+i have been waiting for this sort of release for weeks. 
+
+if only microsoft would have the respect to release a non bloated version. 
+
+the only essentials i would add in the future would be utorrent, 7 zip, vlc and java but no big deal. 
+
+cheers buddy you made my week testing now!
+"
+[T],eXPer1ence,2009-08-04T12:50Z,"Indeed this seems to be the dogs prized assets.
+
+Tablet PC doesn't sound like it would take up much but it does, like 100Mb+ on the ISO.
+
+File sharing - if this doesn't work just enable these services:
+
+Software Accounts Manager
+Computer Browser
+Server
+Workstation
+
+(in that order, the last 3 need the top 1)
+"
+,bouboubou,2009-08-04T12:59Z,"experience, can you please answer my questions?"
+[T],eXPer1ence,2009-08-04T13:24Z,"bouboubou:
+
+1 - The two hidden system files ""desktop.ini"" that are normally there are deleted, not hidden.
+
+2 - Not sure about Windows 7 not having a 10 connection limit, but since we know MS do this and love to annoy everyone, its logical to assume they have done it again on Windows 7. When you run the TCPIP patcher (you can open that automatic patcher with WinRAR and drag out the actual patcher itself Tcpipx86.exe) it shows up saying the limit is 10. Patch the file and reboot and it says the limit is 255. Although I have not done any actual tests, it is sure as hell allowing more than ten connections!
+
+Because my uTorrent gets up to 1.9Mb/s download speeds in Windows 7 and in XP that was just not possible.
+
+Anyone with any driver issues - just go to WINDOWS UPDATE yes Windows Update, Microsoft has got its shit together.
+
+Last night though I swapped Wireless cards (got slight lag in BF2 on my old card) and I had to get the driver's setup.exe and put that on XP SP3 compatibility, then the driver installed, then WU had a tiny driver update, honestly it has not lagged one little bit since! I guess its hit and miss with that BUT the one I took out was a ÂŁ8.50 card with no name (TP-Link, exactly!) but I put in a Belkin card and voila, no lag, not that it was bad before its just that in BF2 unless its running 100% smooth you'll just get shot.
+
+Lets just see how long it stays activated. :D
+"
+,bouboubou,2009-08-04T13:32Z,"You simply deleted the files... LMFAO! How come I didn't think about that possibility!
+
+For tcpip.sys, I guess I'll do some testing and get back to you with the information if you're interested :)
+
+Once again, thank you."
+,thombjz,2009-08-04T15:54Z,"Thank you.
+But getting a blue error screen after it activates it self, somebody know how to fix this?"
+[T],eXPer1ence,2009-08-04T16:23Z,"thombjz whats the last 2 characters of the error code?
+
+EG: 0x0000009F aka ""9F""
+
+Then look here:
+http://aumha.org/a/stop.htm"
+,thombjz,2009-08-04T16:29Z,the last 2 characters of the error code is 7B
+[T],eXPer1ence,2009-08-04T16:52Z,"Microsoft said:
+
+This bug check indicates that the Microsoft Windows operating system has lost access to the system partition during startup.
+
+It seems like the crack has not worked properly, but then only if you had drives A all the way to Z, I thought that could happen.
+"
+,thombjz,2009-08-04T17:03Z,"ok, so i just have to wait for something that works. i cant find anything that can help.
+But thank you eXPer1ence"
+[T],eXPer1ence,2009-08-04T17:21Z,"Are you on a huge network with 26 drives?
+
+If so, this isn't meant for corporate use and I hope you get busted. :p
+"
+,thombjz,2009-08-04T17:38Z,"no im not, this is just on my dell xps laptop"
+,thombjz,2009-08-04T17:39Z,"i've got 2 drives, c and d
+should i delete one of them?"
+[T],eXPer1ence,2009-08-04T18:10Z,"No, don't delete anything.
+
+I can't think why its not worked.
+
+Are you installing Windows to a D:\ drive?
+"
+,thombjz,2009-08-04T18:16Z,"No, its on c:
+trying to make one drive just have to copy all i got to a external hard drive."
+,bouboubou,2009-08-04T18:40Z,"By the way, are you planning on doing a x64 version [(even if it doesn't on a single CD)personnaly I don't care!]?"
+,locker77,2009-08-04T19:51Z,Hi eXPer1ence can you please upload the x64 bit version?Thanks
+[T],eXPer1ence,2009-08-04T21:49Z,You might get away with 256Mb but I can't predict how that might run. 512Mb would b e a lot smoother than 256Mb but still not enough. 1Gb I reckon.
+,canach6,2009-08-04T23:52Z,"i am using your OS on a aspire one. (thanks).
+Will this win7 work on my machine or is there a link to one ?. "
+,faboluz,2009-08-05T03:53Z,DNS service disabled by default?
+,eNigma333,2009-08-05T12:34Z,Thanks a lot! Will there be a x64 version out anytime soon? :)
+,bouboubou,2009-08-05T14:55Z,"@ eNigma333 : you're the third to ask the question and experience still doesn't answer so my guess is he doesn't want to answer or doesn't want to do an x64 version.
+
+@ Stoppit : damn, you're right! the usb thingy to remove hardware is not fonctionnal... the menu where we can choose which hardware to remove doesn't appear! That's a shame! :((("
+,hakuna_matata,2009-08-05T21:37Z,"@eXPerience
+
+again a gr8 release .. you are gr8 bro thanx a ton. i can try but in know i cannot reach that pefection with os customization. so hats off to you bro.
+
+2ndly, I just ordered Asus 1005ha -WT, I will be using this on that netbook, so tell what precaution shall i take when installing this wonderfull iso using a 2GB USB Drive, so that preinstalled os is intact. Thanx
+
+God Bless You Bro! thx again . tk.
+Regards"
+,bouboubou,2009-08-05T23:45Z,"@ bogdanonline :
+
+i was looking the vlite forum and i came across this :
+
+(SAFE TO DELETE) As in wont break install and the system should function on its own OK without these.
+*Languages (keep C_949.nls for KMPlayer)"
+,bouboubou,2009-08-05T23:46Z,"my guess is that experience didn't keep this file so download it from the internet and maybe you'll be good to go.
+
+:)"
+,kalchi08,2009-08-06T06:06Z,"how do you burn this on a dvd disk do you have to mount it with deamon tools first? And whats the best program to burn this with!
+
+HELP ME! :D"
+,Alex9090,2009-08-06T07:42Z,"Thanks!!! Running it on 1.8ghz cpu and 768Ram and it is FAST!!!
+  USB thing works for me...i left click and it gives me option to eject the device. Only thing does not work for me is hibernation. After enabling hibernation it shows the option in menu but it does not work..laptop goes straight to logon screen...but that might be my vieo card driver problem although i have updated it. Other than that everything works for me and when i say fast it is FASTTTT lol  cheers again!"
+,Alex9090,2009-08-06T07:47Z,One thing i forgot to mention is ..people who are having problem with network and file sharing..Just turn on the services exper1ence mentioned on page one and it works instantly. Brilliant ! Thanks again exper1ence!
+,ntoskrnl,2009-08-06T11:07Z,"@kalchi08: If you don't know how to burn an ISO to a disc, I highly doubt that you are able to reinstall Windows properly (without losing your files for example).
+
+You need to burn this on a CD, BTW.
+
+Use ImgBurn. http://www.imgburn.com/"
+,malchomalchev,2009-08-06T11:21Z,"Sorry, but I can't manage to start my local network discovery. Internet connection is OK, but can't see or browse the local network. Activated the 4 services (SAM, Computer Browser, Server & Workstation), also enabled Network Discovery & File&Print Sharing without pasword protection and 128bit encoding, shared a folder - still no luck. Anyone can help??!?"
+,TheCosmicFool,2009-08-06T11:24Z,"Great torrent - but I've ran into a problem. It's not possible to remove IE, XPS viewer, etc from the ""turn Windows features on/off"" menu. Whenever I try and get rid of them, it gives me an error and won't remove them. 
+
+I don't ever use IE or Windows Search and the others, so I'd like to get rid of them. Any help would be great. "
+,Halbermunken,2009-08-06T11:47Z,Any chances of a x64 version? :)
+,sxp64,2009-08-06T14:44Z,"Nice work, pal. Now for the x64 Edition ;-)
+
+Pity you removed Chinese, Japanese and Korean modules. Huge market you're missing out on.."
+[V],sailo,2009-08-06T16:14Z,"installed on 2 computers, Activated the 4 services, both no network for me too"
+,esefa1,2009-08-06T23:19Z,"hi everyone,
+I tried to install a fresh copy of this OS on my thinkpad t60p with a kingspec ssd drive. booting went ok, windows loading files ok, but then it requires to install the drivers (I guess this OS needs the laptop drivers before it installs itself) it dows not recognize the win xp drivers I already have on the hard drive?!!! maybe I need to download from lenovo vista drivers to be compatible with this OS?? "
+,Alex9090,2009-08-07T06:11Z,"@malchomalchev  and @ sailo
+
+ In addition to those services you also need tcp/ip netbios host   service enabled.  It will recognize your netwrok."
+,mizar,2009-08-07T14:22Z,"@Alex9090 
+Please help, where can I find 'Software Accounts Manager'?"
+,arafat_mw,2009-08-07T20:36Z,"hey... Thanks for releasing this... Works perfect.. but why u have removed windows media player ? I am not a fan of WMP... but after installing WLM.. it is not letting me turn on the now playing option... says install WMP..when i follow the link nothing there..so I downloaded WMP 11 for Windows 7 but still no use..
+
+any solution please ?"
+[T],hifi2005,2009-08-08T03:34Z,"@arafat_mw
+
+wmp 12  ?"
+,jimbojames,2009-08-08T04:48Z,"@eXPer1ence
+
+Little problem with installation. After the CD boots, the installer starts (blue screen with flowers and stuff), but nothing happens, even after a few minutes. I'd put this one on a new partition as a dual-boot if possible.
+
+Do I just wait or is something wrong ?
+
+Thanks eXPer1ence or anyone who knows what to do."
+,Furlong23,2009-08-08T05:12Z,Does anyone know how to re-install asian language support? downloading the MUI doesn't work.
+,bedbod,2009-08-08T05:55Z,"@ hifi2005
+
+I am having the same problem with installing WMP. As WMP 12 comes as standard with Windows 7, Microsoft dont seem to support downloading of it. I have tried installing WMP11 instead but it wont budge, as it says that there is a newer version installed. I have tried editing the register as well, but that didnt work.
+
+
+@eXPer1ence
+
+Great release dude. Perfect for me in every way except lack of WMP. Do you happen to know of a way to install it?
+
+Cheers"
+,Alex9090,2009-08-08T06:21Z,@jimbojames ..it did the same thing to me. Just wait until it gives you language option after that blue screen. After that it ll take another few minutes and then it will start. Just wait it out lol
+,Alex9090,2009-08-08T06:23Z,@mizar  try going to services and enabling security accounts manager.
+,GentooX,2009-08-08T12:20Z,"@eXPer1ence
+thank you for this release.
+
+Features were great and im extremely doing well until i tried to move My Documents and other Folders under c:\user\* to map to my own directories. Is there a workaround to this problem?"
+,grandwazoo2,2009-08-08T17:19Z,i wonder if bill is already on to this. i have two almost identical machines i installed it on one of them two or three days ago. and it was already activated just like it is supposed to. but last night i installed it on the other one. and it says 30 days to activate. is it possible to remove the activation crack then re try it. is it the hazar version. i tried to re install the hazar windows activator but it says the process is already running. any thoughts................
+,Loviiisa,2009-08-08T17:23Z,"I'm extremely interested in this version! Good job!
+BUT, i really have to know a couple of things. 
+Would someone help me out??
+
+1. Gadgets are removed? Is there any way to install the Gadget platform again?
+
+2. Is the full .NET Framework included? (3.5)
+
+3. Windows Media Player 12 seems to be gone so it would be nice if someone could verify the possibilty of installing it manually."
+,mizar,2009-08-08T18:19Z,"@Alex9090
+Thanks for helping!
+Now all four services are started."
+,majordisaster,2009-08-08T19:45Z,"Yup, same thing happened to me as grandwazoo, after a faultless install, all seemed to be well except that I was left with the '30 days left to activate' message..........ant idea whats going on here?"
+,megachu,2009-08-08T19:45Z,"wtf??? i installed this version in my pc... everything ok, its fast and reliable, but... i cannot activate it, i followed instructions as they appeared in screen, and even dought it rebooted my pc  because of the ""supposed"" activation, i go to ""my pc"" and still says i have my 30 day limit trial, because my key is fake... anyone has the same shit? how can i resolve this?"
+,Symbian,2009-08-08T23:28Z,"@megachu
+
+Very strange, I didn do anything exept install this and my version is activated"
+,Loviiisa,2009-08-09T02:23Z,"Someone.. please? ^^
+
+1. Gadgets are removed? Is there any way to install the Gadget platform again?
+2. Is the full .NET Framework included? (3.5)
+3. Windows Media Player 12 seems to be gone so it would be nice if someone could verify the possibilty of installing it manually. "
+,jsigur,2009-08-09T04:24Z,"well, this is a great 1st start and I hope Experience refines this. Why disable file sharing services as a default. I've installed and uninstalled this system twice and have yet to get my networks freely sharing files with this system. The boot loader activations won't load so what I  I have been able to load up for activation has borked my install. On the positive side, I bought an eeee computer with lLinux installed on a cheap SSD hard drive and when I switched to xp and then Windows 7 beta, the system was virtually unusable. This OS gives me hope that my little netbook will be used someday!!!"
+,the_tode,2009-08-09T06:17Z,hey whats up!!? ummm cant figure out how to get my speakers to work on my laptop. :( otherwise this kicks ass!! but if you have any advice please leave a comment.: )
+,jackpack,2009-08-09T06:31Z,"hi experience, i have always been very happy with your releases, and was thrilled to see that you did a Tiny7 so quickly! i had been using the RC for a while and enjoyed the new taskbar with pinned icons for IE, Explorer, WMP, etc. and right clicking would bring up a Jump List. In your release there were no icons but these can easily be pinned... however i can't seem to get the jump lists working. any idea what i'm missing here?
+
+Thanks so much for all your work"
+,arafat_mw,2009-08-10T07:46Z,"Experience I always appreciated your stripped down OS versions... but this one , you have stripped down alot man :S shud hav left sum features for us to test....   cant wait to see wats new in windows 7 :P "
+,Alex9090,2009-08-10T07:50Z,"@jackpack     Enabling jump list is simple. Right click on taskbar>properties. Then select start menu tab  and then check the box next to ""store and display recent programs in start menu and taskbar""."
+,ntoskrnl,2009-08-10T12:26Z,"If there's something removed in this release you need, don't use it! Stop complaining.
+
+A lot needs to be stripped to get it down to CD size."
+,Loviiisa,2009-08-10T13:35Z,"I myself is certainly not complaining,
+it's a matter of asking for help. This Win7 version could be perfect for more people if they knew how to install the seperate parts manually.
+
+Is the full Win7 DVD usable as such a tool?"
+,hakuna_matata,2009-08-11T21:33Z,"i heard that eXPy is making one x64 + x86 dvd.. wow.. whenis it coming?
+
+and what is the release date of Rev01??"
+,sm3rck3r,2009-08-12T05:32Z,"@tode, go to the website of your computer manufacturer and look up the sound drivers for your model."
+,fr34x0r,2009-08-12T18:31Z,"I really wish you would stop taking out the asian languages, specifically Japanese.  many geeks who actually download your packaged OS's are probably into anime and having the language means they don't have to stare at boxes trying to figure out what file they're looking at.
+just a suggestion...still love these"
+,Loviiisa,2009-08-12T20:27Z,"qwertymac ... 
+
+So NET Framework 3.5 IS installed in this? Just not activated? Trying to figure this out before install since i really need it... I downloaded another Win7 lite edition and in that one the NET 3.5 was blown out and did not even show up in ""turn windows features on or off"", therefor with no way of installing it manually. Is the NET 3.5 showing up at that place as a checkbox for you??
+
+Also, a helpful soul...? Is it possible to install the Windows Gadget platform manually??"
+,Loviiisa,2009-08-13T00:59Z,"You might try getting the WMP 12 files from here, http://www.blogsdna.com/1851/download-windows-media-player-12-for-windows-vista.htm ..it says it's from the 7000 W7-version so I don't know if there's any difference from the 7600 one. But might be worth a try? There are also alot of Media Player 12 torrents out there, most of them reported with viruses though. Submit your results if you succeed!"
+,oralmud,2009-08-13T14:46Z,Anyone successfully installed this on a real 256mb ram machine? [without increasing ram temporarily during install]
+,Hanekwan,2009-08-13T22:50Z,"hello
+thanx for sharing.
+work ok, only wmp have problem, can not install.
+coming error evry time :-(
+what i must doing?
+helpe"
+,oralmud,2009-08-15T03:08Z,"eXP,
+
+Having an issue with relocating the user folders. I'm getting a ""folder redirection"" error and is unable to relocate the folders properly. Any ideas how to fix this?"
+,mahdi83,2009-08-15T08:25Z,@sausagehack I can't find posts about the usb thing in that site.Could you give me a link?
+,bismuth89,2009-08-16T11:11Z,"I've been using this Tiny7 windows for 2 days, & I must say the speed is great! 
+
+Only problem is that I can't install office 2003, show error everytime. If someone find a solution, please post. Thanks"
+,coltnrg,2009-08-16T18:01Z,eXPer1ence great work i have used alot of your programs   im impressed  one thing that got me lol is Microsoft should not have released vista this whole time in wos in bata form for windows 7 i use windows 7 now in till it runes out /// if my hacks don't work after that hell date that Microsoft gave it lol mm p.s please start working on windows 7 full not xp or vista with redo work to look like 7 kk thnks and im joining SnipeR's Redemption Network mabby there server working again good luck you pireters :)
+,25cent107,2009-08-17T05:59Z,does this version expire like the one on microsoft.com?
+,25cent107,2009-08-17T05:59Z,check out this website->http://420kush420.chill.at/
+,kingosk,2009-08-17T15:35Z,"Tankyou for your work and the upload.  This works great. Very fast interface. Auto Activated worked fine. Shame that there is no Windows Media player but classic media player with k-lite does a better job anyway.
+
+
+Thanx again."
+,s0c0m,2009-08-17T20:00Z,"I love these stripped versions, but why bother destroying stuff just to fit on an ancient medium like a CD ? We can afford DVDs! And 7 is easily installed from a USB drive..."
+,whatsupdere,2009-08-17T23:43Z,"nice realease, instaled fine, works fine but cant connect to internet. on a original windows 7 works fine internet. any help? :("
+,25cent107,2009-08-18T04:34Z,nice upload works great but every time i boot to the logon screen it says incorrect login and i have to then type my password it says it even tho i havent typed in a password-help plz
+,25cent107,2009-08-19T06:46Z,works great but u should put out a windows media player for it.email me if u do i want it-bmxking@live.ca
+,25cent107,2009-08-19T06:46Z,check out this site->if ur bored->http://420kush420.chill.at/
+,racerwho,2009-08-19T09:01Z,Hi looking for a way to use this on my macbook  have problem as i cant eject it to put my mac disc in with the cd/rom drivers?  any ideas?
+,raprap30,2009-08-19T12:47Z,"Hey. It works GREATTT! But somehow, this happened. The start menu search and explorer one disappeared.
+http://www.sevenforums.com/general-discussion/21446-start-menu-explorer-search-thingy-gone.html#post230466
+
+I posted a question there. If you know a solution. Pls post asap"
+,25cent107,2009-08-19T16:11Z,"you need to put out a windows media player for it
+then it be perfect"
+,ntoskrnl,2009-08-20T17:15Z,"Windows Media Player will NOT be added to Tiny7.
+
+But why stick to WMP? There are other a lot smaller alternatives available."
+,marciodw,2009-08-20T22:36Z,"I tryed to install it but the setup asks for CD/DVD driver... I try to point to a folder that has the drivers for windows Vista but nothing happens.
+
+I would love to see a win7 version with a better driver support."
+,physixmaster,2009-08-22T00:38Z,Give it a rest 25cent107 and if you bothered to read the forum it clearly states that if you want to add anything to this edition. Don't use it. Download the full version its free anyway from MS.
+,ThndrBrd,2009-08-22T02:32Z,Only trouble with this one is you've taken out remote access etc and its not possible for me to get onto the net with dialup modem...even tho seven sees the modem......I'l stick with tiny vista...seven is only a warmed up vista anyways
+,bospooier,2009-08-23T00:17Z,"it works nice! allso te activation but do'nt reboot manualy within he instalation or activation keep your hands away aslong as it is'nt ready, be patient it realy works fine!"
+,diebodie,2009-08-23T02:48Z,"Noob question, will this work on a Pentium 4 with 512 mb of ram? thanks, "
+,ThndrBrd,2009-08-24T02:59Z,eXperience.....is there any way to get the remote access stuff installed to get on the net with a dialup modem please......this win 7 is awesome otherwise:)
+,user4126,2009-08-24T11:08Z,"nice work eXPerience ...
+i can not connect to my network printer and can not add its tcp/ip port i.e. 192.168.1.x. help please..........................."
+,paradime1,2009-08-26T02:14Z,to 25cent107 login probs! if you are having problems with the login you may be able to remove it! i know this works on XP i assume it will work on 7 so when you do the install enter your name and computer name and continue with the installation until it asks you to enter a user name at this point go to the third entry down and enter the word user and continue when installation is complete it should bypass the login screen and start!
+,duracell3,2009-08-31T08:42Z,"Good release, although I don't understand why these are always x86 and not x64, it's 2009."
+[T],eXPer1ence,2009-08-31T09:19Z,"Why use cotton when you can have silk:
+
+http://thepiratebay.org/torrent/5074537"
+,radikll,2009-09-06T23:14Z,"Isn't there a way to get pass the 3gb ram limit in the 32bit versions of windows? For me that's the only reason why I don't use the 32bit versions of windows. I don't think 64bit gives you that much more speed.
+
+Anyways, I plan on installing this on my server. M$ decided TinyXP wasn't good enough for it lol."
+,Mick300ZX,2009-09-14T06:06Z,When I try to connect to my home network I'm getting Windows can not find: C:\Windows\System32\msdt.exe any ideas? Thanks
+,swissarmyknife,2009-09-20T22:07Z,"I can't run Visual C# on this. I've installed Tiny7 Rev01 on a virtual machine and on my laptop and it runs absolutely fine on both machines - except i can't use Visual C# Express on any of them! :(
+
+C# starts flawlessy. But i just can't create new projects. Everytime i start one (doesn't matter which one), i get an error code. The code says something like ""file, assembly or dependece not found. the system cannot find the file specified"" 
+
+I'm pretty sure this problem is caused by Tiny7, because i can start projects on my main computer with a ""full"" installation of win7 64bit. I also installed the same full installation on the laptop, where i actually want tiny7 to run - and there are no problems at all.
+
+I really appreciate any help! I absolutely need Tiny7 and Visual C# to run on my laptop. :)"
+,sourav_gho,2009-09-21T06:11Z,"Hi,
+Could any of you guys help me..especially eXPer1ence. I am not able to connect to Remote desktop...?? I am trying to run msdtc.exe. That is how I used to login in TinyXp rev09"
+,Maoxx,2009-09-24T17:21Z,Integrated SATA drivers?
+,recession,2009-09-27T19:28Z,"When can we expect an install for x64? Keep up the good work, guys. I eagerly wait. "
+,mikels12,2009-09-28T00:11Z,"i get this message when installing-(No device drivers were found. Make sure that the installation media contains the correct drivers, and then click OK) please help me as i dont understand what to do cheers any help will be appriecated"
+,emisaki,2009-10-04T12:02Z,"eXPer1ence:hi,
+What is the difference between this torrent and this one Windows Tiny7 Rev01 Unattended Activated CD?
+thanks"
+,mad_onra,2009-10-11T17:06Z,"try Tiny7 Rev02 instead
+
+Fast!! But, several troublesome bugs. use instead Rev02 :
+""Windows Tiny7 Rev01 Unattended Activated CD"" "
+,The_Harlequin,2009-10-13T09:57Z,"Absolutely pro. Installed in 14 minutes on my old school 1700mhz 1gb ram machine. Windows update fixed all the driver issues.
+
+Having trouble with Aero and gadgets - any pro tips?
+"
+,The_Harlequin,2009-10-13T10:10Z,"""File sharing - if this doesn't work just enable these services:
+
+Software Accounts Manager
+Computer Browser
+Server
+Workstation
+
+(in that order, the last 3 need the top 1)""
+
+Can't change my workgroup. Can't find the Software Accounts Manager  service either. Sorry to be annoying 8-D"
+,pantyhacker,2009-10-14T06:35Z,Does anyone know if this retains tablet pc ability?
+,shatru,2009-10-14T16:20Z,"it dosen't  conatain dot net 3.0 and 3.5. 
+
+network features such (file sharing, printer sharing, broadband internet, etc not working.
+
+I enabled some services and thier dependencies that specific to network features. now it's working."
+,extremeuser3,2009-11-06T20:47Z,"Works like cream !
+Thanks Buddy !"
+,SiN-R,2009-11-10T09:46Z,"""- Most Languages (only Chinese, Japanese and Korean are removed)""
+
+WHAAA!!! i need them. is there a way to install them back? "
+,drkelmntl,2009-11-12T02:25Z,"SiN-R: Just run Windows Update and you can choose which language you want to install from the ""Optional Updates"" section.
+
+Fast User Switching does not work properly in Tiny7. If I switch user and then attempt to log on to another user it says ""there is another user already logged in, logging in will log out that user"". Any suggestions?"
+,eo20,2009-12-25T18:38Z,"i keep getting multiple bluescreens every day that reboots the computer.
+strange.
+any thoughts?"
+,eo20,2009-12-25T18:43Z,"also the activation didnt seem to work.
+it says ""26 days to activate"" ?"
+,thucdo,2010-02-05T02:27Z,"exper1ence!
+can u show me how to download?"
+,frostmeova,2010-02-06T23:46Z,Hey eXPerience excellent download... Can I do an over the top install on windows xp without much trouble?
+,sissysparkleprincess,2010-02-09T00:37Z,"I know that laptop support was removed from TinyXP, is it back in Tiny7? If not, can I put it back in? My desktop computer doesn't need the capabilities of Tiny7, my laptop does."
+,lettucekl,2010-02-11T00:06Z,"I need to install Winffx runtime V3.0 to use my onboard graphics settings, but i keep getting an error, any idea how to install .net framework on this version of win7??"
+,jertishnyi,2010-02-18T17:32Z,Is there any way to install windows media player to tiny7? 
+,isaacn86,2010-03-14T19:25Z,"Hello, I updated my windows and now I am unable to make it genuine. I tried everything but nothing has worked. Help please."
+,fish_fingers,2010-03-16T01:37Z,"Same here. Not genuine and can't install WMP11, which is required for some other software to run."
+,fish_fingers,2010-03-16T09:44Z," ""Don't forget To Join The Forum @ SnipeR's Redemption Network: http://forum.retestrak.nl/""
+
+Not allowed to post in your forum or ask about it in the other forums. Douchebag forum is for douchebags."
+,ethical81,2010-03-31T05:07Z,"Just a few things to keep in mind: THIS IS NOT THE FINAL VERSION. IT WILL NOT BE DETECTED ""GENUINE"" by Windows until you run THIS PATCH:
+[url]http://chew7.co.cc/?page_id=237[/url]
+
+As in the description, Chinese, Japanese, and Korean have been removed (for Asian users).
+
+THIS TORRENT WORKS 100% (tested April 2, 2010), CLEAN OF VIRUSES
+
+Thanks eXPer1ence, great torrent!"
+,JakePsycho,2010-04-20T05:10Z,"Everytime I start the CD, I get an error. Help!"
+,JakePsycho,2010-04-20T06:21Z,this is the error i get. windows installation encountered an unexpected error verify that the installation sources are accessible and restart the installation. error code 0xE0000100
+,Grahamatpiratebay,2010-05-24T15:57Z,"Just checking this out in VirtualBox http://www.virtualbox.org.
+Installing so far so good."
+,Grahamatpiratebay,2010-05-24T17:10Z,"Looking good so far: doing the complete.
+Not asked for activation or prod keys."
+,Grahamatpiratebay,2010-05-24T17:43Z,"http://social.technet.microsoft.com/Forums/en/w7itproinstall/thread/c369ab49-5639-4f9b-8752-d18b88b17371
+
+for the STOP error"
+,Grahamatpiratebay,2010-05-24T18:03Z,"Gone through the post install stuff.
+
+Installing the ie9 preview now.
+Win7 seems positively crakced"
+,Grahamatpiratebay,2010-05-24T18:11Z,"Well I have an IE9 preview running on Tiny7.
+Thanks eXPer1ence.
+
+Works for me."
+,Grahamatpiratebay,2010-05-24T21:55Z,Installed guest additions so seems a good rip
+,Vil75,2010-05-28T09:07Z,"Installed great, everything is fantastic until this morning and I am being told that my copy isn't Valid...parp...Have a nice black screen and I am being told every 30 mins or so that I may the victim of blah blah blah!  Is there any known fix to make my copy Valid again please.
+
+Thank you"
+,slasherman,2010-06-10T16:16Z,Sorry for stupid question but does this work on a 32 bit pc ? If not is there a Windows 7 tiny for 32 bit that fits on one cd rom ? (700MB)
+,n2345678,2010-08-10T19:40Z,"@eXperience or someone
+Can you help me? This is my first post.  This ISO isn't working for me in my attempt at multiboot setup, however the another full Windows 7 torrent did work in the same partition. I'd rather use a tiny one, if you can help me figure out how.
+
+I used MBRtool to hide and in-activate my XP partition, then I used GParted to shrink the XP partition and create a new partition after this, then I installed Windows7 there. At first it rebooted fine and took about 5 or 10 minutes to activate (?), but then it finally said it was going to reboot in less than a minute. So I thought it's okay. Then Windows7 won't boot. It just gives me a black with a white text error message, saying 
+""Windows failed to start..."" ""To fix the problem use repair on the Windows CD"" (I see no such option). ""Status: 0xc0000000F"". 
+
+I'll keep reading what the internet says about 0xc0000000F, but in the mean time I was hoping you or someone can point me in the right direction. AGAIN, another full windows7 installation WORKED installed in the same partition.... I just rather used this a tiny version if possible. So I'm thinking you ripped out something critical for my setup, but I wouldn't have a clue where to begin looking for what exactly to plug back in. If that's even the problem.
+
+Unless, the the two Windows intermingled boot files, in which case I don't understand why. They didn't before. As I understand it, I think hiding and in-activating the XP partition was enough to stop the Windows7 installation from mixing up files. So I still think something critical is missing.
+
+I hope you're familiar with MBRtool. You seem pretty knowledgable; it's pretty simple software I found, I'd like to keep using it for now b/c of it's versatility and simplicity.
+
+Just for the record: I started with a blank hard disk, added XP, then did the above. Pretty straightforward. No other monkey business. And I have backups and some time. Just saying it's easy for me to try something.
+
+So yeah... That's my problem... No Windows7 when that partition is activated and unhidden. Just Windows XP when it's activated and unhidden.
+
+I've been reading and experimenting all week with multiboot; learning about backing up MBRs and deactivating and hiding partitions while installing other OSs -- but I'm still new to all this multibooting stuff.  I backup, I'm just lost what's next. Was hoping to finish this soon so I could move on to other projects.  I'll read all the comments eventually.
+
+After this problem is solved, (where I have XP and Windows7 side by side selectable with MBRtool), then I'll be adding one more OS, then the tripleboot setup will be done. I'll add Ubuntu, and I hope it's default Grub installation will autodetect and auto hide and auto activate only one of the three final OSs at a time.  Then I plan to stop playing with MBRtool.  Then I can finally put this issue to rest, and finally enjoy a nice tripleboot setup."
+,FredHoudini,2010-08-18T08:30Z,Great job. Well done.
+,Exvayate,2010-09-06T01:58Z,"Does this come with sound drivers? I've installed TinyXP a few weeks ago, and it had no sound drivers :/ So I couldn't enjoy games or music..."
+,Lafa,2010-09-24T23:34Z,"eXperience: dial-up or VPN does not work in this version of Tiny7. I hope for the next time you'll include this, since there's a lot of people using internet through modems/mobile broadband in for example Sweden. :( *dissapointed*
+
+I installed TinyVista instead and everything works fine. :) (including dial-up/VPN)"
+,Acc0unt,2010-10-15T02:55Z,@Lafa lol did you torrent this 700mb file through dial up??
+,Andree17,2010-10-26T18:02Z,Hello i just whounder if NET.Framwork is includded in this verision ?
+,pravred90,2010-10-30T01:56Z,Just tried and everything works fine on my acer laptop and hp mini netbook....thanks experience
+,MasterFen,2010-11-05T14:27Z,"Worked like a charm in Virtualbox.
+
+Also if my wireless card works with Windows Vista, can I assume it'll be fine in this?"
+,madkid22,2010-11-08T15:42Z,Installed this on a laptop for someone at church who was sick of Vista but is very poor. Installed and worked almost perfectly! I just had to download the correct video drivers and now it works perfectly fine! Thanks for this!!!!
+,Pivotraze,2010-11-14T23:22Z,"Downloaded this 699MB file, burned the ISO onto a CD-R, and installed Windows 7. It works perfectly, updates, upgrades, and even get's past the Genuine 7 check so long as you don't install KB971033, or the WAT update. After I installed Google Chrome, I downloaded Zune. I tried to install, but it failed since Windows Media Player is not available on this version. Skipped it and continued to try and find another media player. Ignored that, and continued on. I downloaded and installed Photoshop, Vegas Pro (with errors, not install-stopping though) and tested it. Worked. Obviously, my internet was working, but I tried to set myself outside of the modem for a direct connection to Qwest and it failed, saying ""The service 'Remote Access Connection Manager' could not be started soon enough."" I tried to load up Services.msc and got the following error, ""One or more ActiveX controls could not be displayed..."" so none of the services would show, therefore I couldn't start the correct service. If anyone could help me find a way to fix either of these, please let me know. 
+eXPer1ence, this is an amazing torrent, and I now have a working Windows 7 copy, but I can't get the previous things working. Any idea how to help me out???"
+,osaka35,2010-12-06T01:29Z,"Installed like a charm, but seems to have problems with .net 3.5. chrome won't install nor will it accept .net 3.5 updates. Other User said chrome installed, downloading again and hoping there was something wrong with the file I burned/downloaded"
+,osaka35,2010-12-06T12:53Z,"Tried downloading multiple times, burning slowly to different cd brands, and formating, but after the initial smooth install, it won't update .net 3.5 or recognize it as even turned on. 
+
+It's turned on according to windows ""turn me on/off"", but it seems to be disabled somewhere along the line. Which means no 3.5 update and no chrome. It'll update 4.0 and everything else, just not 3.5 or 3.5 sp1. "
+,KrK0,2010-12-11T23:23Z,"Nice and MS sayd the engine is only 40+ mb :S
+Wondering .."
+,holabandola2,2011-01-21T15:20Z,"Mine did not get activated after the install. (Easy to install though, I used a usb)
+I tried about 20 different activators without success, but finally..
+This one works! http://thepiratebay.org/torrent/6063830/Windows_Loader_v1.95_by_Daz_DiBYA I hope you guys will get it sorted out."
+,realdexter,2011-01-25T13:08Z,"it boots and start loading windows files, but when its finished loading computer turns off...
+
+any idea about why this happen? i have just ran microsofts tool and there seems not be any shortage in hardware"
+,realdexter,2011-01-25T13:19Z,sorry... rtfm error... 
+,HdGamer26xt,2011-02-06T18:11Z,"Hey man , Please make win 7 tiny sp1. "
+,iwh13,2011-03-08T22:52Z,"--------------------------------------------------------------
+~ Chrome on Tiny7~ 
+--------------------------------------------------------------
+
+I love this torrent, its running really fast. But one thing bothered me: you couldn't install .NET 3.5, so no Google Chrome. 
+But I found the solution!
+
+First download this:
+http://www.microsoft.com/downloads/en/details.aspx?FamilyId=E6E1C3DF-A74F-4207-8586-711EBE331CDC&displaylang=en
+
+Only select Developer Tools, you dont need Documentation and Samples. Install. For me it took about 2 minutes....
+
+After this Google Chrome installs like a charm. Im typing this from Chrome on Tiny7. 
+
+I hope this helps someone....
+
+iwh13"
+,facefurfiend,2011-03-17T08:25Z,I must ask if TinyXP rev11 is an official eXPerience release or something someone made up. I downloaded it from another torrent site but not sure if I should try with it. I am having awful times trying to install 9.
+,barzefutz,2011-03-19T16:14Z,"Read this if you want to enable UAC prompts:
+
+On this system, UAC is enabled and running, but since it uses the default Administrator account, the UAC prompts are disabled. This is not a tweak, it's a windows default setting, but you normally don't notice it because you are not using the default admin account. To change this behavior:
+
+- Start / gpedit.msc
+- Go to: Computer Configuration > Windows settings > Security settings > Local policies > Security settings
+- Set ""Admin confirm mode for integrated admin account"" to ""enabled"" (may be named different)
+
+Note: The options may have different names, I'm using a different system language and I tried to translate to english."
+,silvioster,2011-04-12T16:36Z,"To anyone having problems with the dotNET installs, just install the latest version (4.0 currently) and set the OnlyUseLatestCLR string to ""1"" in the .NETFramework key, or use this .reg:
+
+
+--fix.reg--
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework]
+""OnlyUseLatestCLR""=""1""
+--fix.reg--
+
+
+This will make sure all .net apps use the latest .net CLR installed."
+,waldodeluxe,2011-04-17T14:14Z,"@silvioster, thanks, I had to manually add the key, but I was able to install Chrome. No luck with the LIP language microsoft package, still gives me errors. "
+,sebbe_31,2011-05-04T13:26Z,"Hi..
+First of all, awesome work! The OS runs very good on my old Fujitsu Siemens Amilo A1650G laptop. But i do have some problems.
+1. I have come to a stop with the updates in windows update. I have 16 important updates which i can't install. 
+It says: ""Error: Code 800F081F & Code 80073712"". Does anyone know what the problem is? Because i'm not able to install them it seems i can not install the language pack i need. I've even downloaded the language pack here from pirate bay and tried to install it without windows update but no luck!
+
+2. And the other problem.. It may be because of the updates that needs to be installed but im not sure. Im not able to turn on the WiFi neither... I have a button on the keybord to turn on and off wifi but it doesnt respond (neither does the other 2 buttons for internet and fan control, but the power button works).
+
+Can anybody help me with this problem? I rather not uninstall tiny7 cuz i really like it! Thx!"
+,xerox20001,2011-05-07T08:43Z,What do u use to make the auto run once on startup for installing directx 9.0 and activation i wanted to customise the full windows 7 image and make Tiny7 media centre edition
+,joseph_21,2011-05-29T01:31Z,"HOW TO INSTALL NETFRAMEWORK EASY WAY
+
+simply download net framework sdk (note 1gb) 
+
+http://www.microsoft.com/downloads/en/details.aspx?FamilyId=F26B1AA4-741A-433A-9BE5-FA919850BDBF&displaylang=en
+
+install everything on iso
+
+then ALL framework apps should work without a hitch"
+,sudden0utburst,2011-06-11T16:45Z,"lmfao... i Registered for pbay and EVERYTHING just to write this comment.  lmao:  
+~eXperience: dial-up or VPN does not work in this version of Tiny7. I hope for the next time you'll include this, since there's a lot of people using internet through modems/mobile broadband in for example Sweden. :( *dissapointed*
+
+I installed TinyVista instead and everything works fine. :) (including dial-up/VPN) 
+Fr33Soul at 2010-10-10 22:37 CET: 
+
+please can anyone help me when im installing this window during installation it say that it ""required CD/DVD drive device driver is missing""...how do i obtain this driver or have i done something wrong while i was burning this onto CD.
+
+any help would be greatly appreciated.~
+
+\\ @Lafa lol did you torrent this 700mb file through dial up?? //
+
+
+on the 1st page."
+,PdT123,2011-09-05T22:01Z,I installed this but it does not come with windows recovery/system restore. Is there anyway to add that feature? Any advice would be appreciated!
+,mta_pfs,2011-10-05T18:47Z,does it support multi-boot with windows xp?
+[T],eXPer1ence,2011-10-24T00:12Z,"Yeah it will support multi boot with XP. You should install XP first on one partition then Windows 7 on another. Once Windows 7 is installed, use ""EasyBCD"" (its free) to manage the two OS's. I just have mine set on a 5 second timeout and XP to boot as default with Windows 7 the second choice. EasyBCD lets you change the boot order. I would run 7 but I have an old setup. I actually run Server 2003 most of the time, get on that if you haven't tried it yet, its faster than all other versions including 7/XP."
+,stonestar,2011-10-24T07:39Z,"Software Accounts Manager was clearly a typo, he meant Security Accounts Manager."
+,kpirate2,2011-10-26T17:22Z,"great windows very fast on my pc but I have 1 problem eXPer1ence in explorer how come it doesnt display id3 tags from my mp3 files in my music folder or any folder all my files have id3 tags is there a service I need to enable, thanks"
+,Paddlin,2012-02-05T10:46Z,"I have made a video guide that shows you how to install Tiny7 on your Mac and dual boot. Could be helpful to anyone having trouble working it out. 
+Just search ""how to install tiny7 on your mac"" on youtube and it should come up :)"
+,aldicom3,2012-06-04T07:06Z,"hi eXPer1ence ! there's a way to make tinyxp dvd 6 in 1 usb bootable with a usb memory stick???? I tried all the usb bootable solutions and not working ! have ideas someone tried??? thanks in advance !
+SO...TINY XP 6 IN 1 DVD TO USB BOOTABLE !"
+,rsobhee,2012-07-21T15:57Z,"I have a Dell N5010 core i 5 64 bit. I was growing frustrated with how slow and how unresponsive the machine would invariably become whether it is some surfing or actual work on autocad. The machine is always like doing something else instead of what I am doing. In desperation I went ahead with taking off the original windows..because like Adobe etc..I know how they like to stuff a load of garbage which no one needs... to put Tiny7. I formatted the original partition and made aďťż fresh install of Tiny7. And got the autocad software installed, a 32 bit. When this worked I was glad. Tiny7 boots in less than 30 secs and shuts down in 8 seconds. Thumbs up from me. Surprisingly I did not have to install any drivers too ..it seemed to be working fine..although I still installed some chipset drivers etc.."

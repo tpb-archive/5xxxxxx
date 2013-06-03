@@ -1,0 +1,91 @@
+User Type,Username,Date,Text
+,Ov4ar,2009-08-14T20:57Z,Thanks maaan :)
+,sharebird,2009-08-15T02:13Z,"Three days ago I downloaded on of the poster's other torrents, R-Studio, found here:
+http://thepiratebay.org/torrent/5002104/R-Studio_5.0_Build_129000_Network_Edition_Portable
+
+A scan of the download came up clean, and the portable app runs with no virus warnings.
+
+However, when I open an open/save dialog within the app, Avira pops up warning me of a virus, with the following info:
+AV program: Avira
+Virus: BDS/Backdoor.7168.C
+Exe: svchost.exe
+Location: C:\Users\\Application Data\Thinstall\R-Studio 5.0\1000000600002i\svchost.exe
+
+This happens every time I open or save an image from within the app.
+
+I asked for confirmation in the that torrent's comment, however it is a month old, and not getting a lot of reads, so I am posting here asking anyone to verify similar behavior in this or other torrents from NoExcuses... he has a shitload of portable apps, available, and if he has managed to hide a virus that only runs when a file dialog pops up, that's a huge problem.
+
+I am not referring to the PSWTool.Win32.Password Recovery.a virus the poster indicates you will see on this torrent... I am talking about a back-door trojan that does not appear until after the app runs.
+
+All of the warnings NoExcuses posts about being careful, don't trust any post, etc., may very well be meant to lull downloaders into a false sense of security.
+
+Can anyone verify either the torrent I linked to, or any of his newer torrents, to see if they are getting the same warnings?  If you don't have an antivirus program, look in the application data directory for the program to see if there is a svchost.exe file that shows up when you are working with the app, especially opening or saving files.
+
+Again, this virus does not appear until running the app and opening or saving a file... a virus scan on the exe before-hand turns up clean.
+
+I am not making any accusations yet, I am simply looking for independent verification of what I'm seeing.
+
+TY"
+,Yunichi,2009-08-15T06:52Z,"Extract contents with 7-zip.
+Inside is a Trojan infected file. (ldr.exe)
+I can confirm. Scanned with AVG."
+[V],NoExcuses,2009-08-15T09:25Z,"@sharebird
+The Portable program have been made using Thinstall, that monitors and packs up the files of a regular installation with a regular license. The svchost.exe is a system file that gets recalled by many other programs, don't ask me why or when, also my AV sometimes warns me about running it, and mostly from surely clean programs, so I don't care. I see that sometimes thinstalled programs tend to be recognized as trojans by some AVs, probably because they recognize some part of the code as a signature, and that's common for almost all the AVs. When in doubt, as already stated also in the notes, run all, and I mean *ALL* the downloaded programs from anywhere in Sandboxie or something similar, so you can see in the window what's it's running and your AV have the opportunity to check all the runned files. Like in your comment, you can pick the svchost.exe file where it gets expanded and scan it on an internet scannig service like Jotti or VirusTotal, and see what they say. Obviously you can never be completely sure for anything, and obviously even if a lot of AVs detects something as a Trojan or a Virus doesn't mean that it's so. I have a whole bunch of Keygens that get a hell of hits from my AV but I know that they are clean. That's the real problem with signatures, if someone uses a packer used sometimes from virus makers, all applications packed with it tend to be detected as infected, even if they are not.
+
+@Yunichi
+The ldr.exe is used also in the previous versions of cracked MPR, and it does nothing else than launching properly the pirated program. If you don't want to run it, you can buy a license and use the program without the crack. As said, nobody forces you to use it. Also, scan the file with other AVs, AVG is prone to give a hell of detections on almost everything. Try to run one of the KG for AVG with the AV active and see. Obviously you can imagine why. That's one of the reasons I stopped using AVG, Paranoid, that's the word..."
+[V],NoExcuses,2009-08-15T10:02Z,"@sharebird
+
+http://www.virustotal.com/analisis/dae8b8c4b5b097a5eb89f7711a6994f80342397cc51fdef5b2419774a93ae5fc-1250322042
+
+This is the result of the VT scan of the svchost.exe file that you name. Effectively it gets a few hits from minor AVs, while the Big Ones doesn't find anything wrong in it. Looks like Thinstall uses a stripped down version of the regular program delivered by M$, but as the version of Thinstall that I use is quite old, I suppose that if there was a virus in its creations they should have been coming up earlier. Time to put Avira too in the Paranoid list. Anyway, if you trust more in your AV than in my Portable no problem, use the normal setup or build your own portable using Thinstall/Thinapp or something similar.
+
+@Yunichi
+
+http://www.virustotal.com/analisis/3dbc8917f92031cc16c320df25c7adc4d52b075d41b0f813a462c652b9219bbb-1250321913
+
+Also the ldr.exe gets a few hits from minor AVs only, mainly I think because it has been packed with UPX, thing that some AVs find suspicious. Even Total Commander has stopped using UPX not because is bad, but because many AVs detects clean packed programs as infected. As already said, get a better AV...
+
+Not all the things are how they look, and not all the things look how they are...
+"
+,sharebird,2009-08-19T00:59Z,"Thanks NE, but I think fredpc's comment here:
+http://thepiratebay.org/torrent/5052418/Total_Commander_7.50_RC1_Portable
+
+is spot on, that the Thinstall app used to generate these portable apps is infected... The apps themselves are scanning clean, but when they run they unpack a svchost.exe, usually as part of a file open dialog.  
+
+I appreciate your efforts and don't want to undermine them, but right now all of your portable apps are suspect.
+
+: (
+
+Sorry mate, but you might want do do what fredpc did, download a different copy of thinstall.
+
+Spreading the word, because this particular virus hides itself very well."
+[V],NoExcuses,2009-08-19T09:31Z,"@sharebird
+Read my answer here:
+
+http://thepiratebay.org/torrent/5059196/Atomic_Mail_Sender_v4.27_Portable
+
+and try to remember always of false positives..."
+[V],NoExcuses,2009-08-19T09:55Z,"@sharebird
+BTW, you are attaching your comments to almost all my uploads, also the ones not built up with Thinstall, so that for sure they could not be infected by the supposed virus you say. I'm quite tolerant, but not too much, so if you want to add your comments only to the uploads that show the problem should be great, not also to the good ones. Don't spread panic around about uploads that you haven't tested, and as I say in my comments, if you find something wrong in any upload, not only in mine, go tell it at
+
+http://suprbay.org/forumdisplay.php?f=34
+
+and the mods will take care of them.
+
+
+
+These uploads are free of charge for all and if your AV tells you not to use some of them, then obey but stop spreading havoc on all the other uploads, specially when they don't have any problem. Spreading around wrong comments is considered annoying, and you can be banned for that..."
+,Kaiba142,2009-08-24T02:30Z,What is a reg key in here?
+,wellknown01,2009-09-12T07:19Z,I ran this through Eset nod 32 4.0 av it's fine. Ran it in sandboxie is fine and works without requiring to register. I ran it outside of sandboxie and it requires to buy or register in order to work.
+,pnx2325,2010-03-26T13:50Z,Tnx - from the Phil's
+,greekfirefor,2010-06-02T07:43Z,"Norton says Trojan.ADH
+Take care don't use"
+,odinrlives,2011-05-20T04:34Z,"HI!, I had met the headache things that I had forgotten Windows login password. The login screen rejected my passwords. I was frustrated because there was very important data on my disk and I couldn't reinstall the OS. ............. However, I fortunately got to know the Windows Password Recovery Tools below .
+1. Windows Password Recovery Tool 3.0( http://www.windowspasswordsrecovery.com )
+2. Windows Password Key 8.0( http://www.lostwindowspassword.com )
+3. Password Recovery Bunlde( http://www.recoverlostpassword.com )
+4. Any Windows Password Reset 7 ( http://www.windowspasswordreset.net )
+5. Windows Password Recovery ( http://www.windowspasswordrecovery.net )
+6. windows password cracker ( http://www.windowspasswordcracker.com )
+I compare these tools and try the first one, it help me to recover my forgotten windows xp password in only five minutes. "

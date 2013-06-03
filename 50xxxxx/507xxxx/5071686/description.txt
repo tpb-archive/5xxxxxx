@@ -1,0 +1,39 @@
+Garry's Mod 11 2.0 Patch v2.1
+-----------------------------
+Comment
+----------------------------------------------------
+At last Garrysmod has been fixed, and i included the last 2 important Content Files (HL2EP2,TF2) and now Garrysmod
+generates SteamID's and i hope the undo bug has been fixed. Anyway i included a TOOLS archive again which contains
+2 Steam ID Generators in case PATCH does NOT work.
+----------------------------------------------------
+Content
+----------
+GMOD_CONTENT_v2 = The two final Contents from GMOD 11 2.0 (EP2 and TF2).
+PATCH = The main engine patch.
+TOOLS = The emergency fixes in case PATCH does not work GENERATING STEAM IDs.
+-------------------------------------------------------------------------------
+Installation
+-------------
+Content Install
+----------------
+1.Extract GMOD_CONTENT_v2 with 7zip or WinRar.
+2.Copy the content of it (the GCFs only) to the GMOD 11 2.0, CONTENT_GCFs folder.
+---------------------------------------------------------------------------------
+Patch Install
+--------------
+1.Extract PATCH archive with 7zip or WinRar.
+2.Copy bin folder to [GMOD 2.0 Install folder](Where to shortcuts are) and OVERWRITE ALL.
+3.Play the game
+4.Create a Multiplayer Server
+5.Join it
+6.Open console
+7.Type in "status" without the ".
+8.If your Steam ID is generated and its not STEAM_ID_Pending then patch working succesfully.
+9.If not, Extract TOOLS archive and install those 2 ADDONS.
+-----------------------------------------------------------
+Credits
+-------
+vityan666 - Big Thanks for the VUP patch i used on bin folder.
+cs.rin.ru
+--------------------------
+Have Fun!

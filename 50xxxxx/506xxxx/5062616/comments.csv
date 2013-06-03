@@ -1,0 +1,63 @@
+User Type,Username,Date,Text
+,Fluffytiger,2009-08-20T18:37Z,"Spyware-infected with ""SecurityRisk.Cmdow"" under /System32/
+
+http://securityresponse.symantec.com/security_response/writeup.jsp?docid=2007-121221-0731-99
+
+Don't upload such shit."
+[V],harry711,2009-08-21T02:47Z,"@Fluffytiger: Lol. This is clean.
+""SecurityRisk.Cmdow is a command line tool that can enumerate and manipulate windows.""
+Yes, it allows you to move windows. Also, would you honestly trust Norton?
+
+I never upload shit. I put time and effort into making my releases are clean."
+,nolochemical,2009-08-21T03:54Z,"Seems to be poisned, starts the countdown of death. Otherwise works as promised. Try it with virtualbox."
+[V],harry711,2009-08-21T04:58Z,"@nolochemical: What? I have tested this many times on other computers and it works fine. What do you mean by ""countdown of death""?"
+,Danowsky,2009-08-23T09:34Z,What platform is this? 32 or 64 bit?
+[V],harry711,2009-08-23T14:27Z,It is 32bit.
+,nolochemical,2009-08-23T21:33Z,"On the first boot it did the countdown untill windows close dialog. Reminded me of Sasser a few years back. 
+
+To be fair I will try to duplicate the issue. At the moment I have found nothing wrong.more info shortly.."
+,nolochemical,2009-08-23T21:58Z,"Okay duplicated.. Forced reboot, by user
+
+""EXPERIENCE\Administrators"" upon first login.
+
+I would have to investigate the why; yet the image seems okay."
+[T],Zero_Assassin,2009-08-25T15:52Z,"Works fine on my laptop. 1 forced shutdown, asks user to let it happen and not force reboot yourself, then never happens again. Presume is to do with customisations. Works fine, hunted a couple missing drivers, and is nice. Only thing i have noticed, made another user account with admin rights, but it won't let me do certain things in this account, complains don't have the rights. Annoying. Other than that, proved fine."
+[V],harry711,2009-08-25T17:29Z,"Yes, when it installs the first time, it will auto reboot with the shutdown command, with a 60 second timer. Then it should boot up.
+
+As for any missing drivers, Google should have any installer you need :)"
+,Morno,2009-08-26T22:46Z,Do not ever trust Norton they leak more then 80% of the viruses on ur Comp! Thx for the upload harry :D
+[T],kremit69,2009-09-05T13:58Z,"has some bugs, but a nice download. Thanks for the hard work harry!"
+,GummyNinja,2009-09-07T06:56Z,"eXPerience recommends people not use this version of TinyXP.
+
+Copy/paste from his post (15 Jan 2008) on the retestrak forum.
+
+---
+OK since people insist on using this OS, heres some points you must take into consideration:
+
+1 - ""TinyXP Beast Edition"" was released on 6th June 2006. This means it is now more than 18 months old.
+
+2 - Because this OS is 18+ months old - I urge everyone not to download it. If you have already downloaded it - don't use it.
+
+3 - Stop asking me and other members here questions about ""TinyXP Beast Edition"". Personally, I refuse to support this OS or answer any questions about any problems, because 18 months ago when this OS was made, I didn't know half of what I know now regarding better tweaks, better silent installers, better selection of components to remove and so on. Don't ask me about why you can't use a printer in Beast Edition! Don't ask me why you cannot use a Webcam in Beast Edition. Would you complain to Ford because your 1963 Mustang broke down? STOP USING THIS OS AND GET OVER THE FACT THAT ITS INFERIOR TO ALL THE ""TinyXP"" RELEASES THAT HAVE PRECEDED IT.
+
+4 - Maybe the most important thing to note is this - TinyXP Beast Edition is called the Beast Edition because it was released on 06.06.06. Get it? Number of the beast and all that stuff? 6th June 2006 = 6.6.6 and this is THE ONLY reason this OS was released. IT IS, IN EVERY CONCEIVABLE PERCEPTION YOU COULD MAKE, A NOVELTY OS. Its not supposed to be taken seriously.
+
+5 - This OS, apart from the above 4 points, is only for surfing the internet and playing games. Did I know what I was doing when i removed Webcam support? Yep. Did I know what I was doing when i removed printer support? Yep. I knew these things wouldn't be usable in this OS but it was made to be as small as possible with the knowledge I had at that time - it was never intended to support anything other than to surf the net and play games, thats it.
+
+n00b: OK eXPerience I understand all this, but Beast is a popular OS.
+eXPerience: I don't care if people are framing it and hanging it on their wall, its POINTLESS using it now in 2008.
+
+n00b: OK OK OK, so what can I do?
+eXPerience: The last TinyXP made is called ""TinyXP Rev09 - eXPerience"" so search Pirate Bay for it, this was released on 26th May 2008.
+
+I will not answer any more questions about ""TinyXP Beast Edition"".
+---"
+,vanTorX,2009-11-08T06:22Z,are all TinyXP supposed to require input of key during isntall?
+,SirReadalot,2009-11-14T19:37Z,"Serial number required.
+I just downloaded this with about 1.2Mb/s (hooray!!) and tried to install it via Parallels. 
+Got an error upon launch, pressed ""ok"" and then everything went smoothly. Until it axes me for a serial number :(
+"
+[T],eXPer1ence,2010-10-02T03:05Z,"Guys, word on the street - there might be a new commemorative ""Beast Edition II"" on 10.10.10 this year. Its only a rumour though. Reports just coming in now suggest it will be improved on but still retain the creepy wallpaper and disabled services, shhhhh."
+,spiritis,2010-10-12T15:53Z,hi eXPer1ence! can you make torrent with only one version of tinyxp? newest beast edition (TinyXP Beast Edition II) or newest microxp (MicroXP v0.86) like http://thepiratebay.org/torrent/5062616/TinyXP_Beast_Edition or http://thepiratebay.org/torrent/4254053/MicroXP_v0.82_-_eXPerience please please will be great! thanks in advance!
+,hamsyh,2011-09-07T14:52Z,"@ spiritis i uploaded beast edition ii here : http://thepiratebay.org/torrent/6658215
+"

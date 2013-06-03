@@ -1,0 +1,21 @@
+This is a GUI-Browser for the TPB index found here: http://thepiratebay.org/torrent/5053827
+
+After i downloaded the TPB index and saw that it was a SQLite database i thought that most of you had no clue how to use this database. Therefore i wrote a small windows application that offers the possibility to search and save torrents.
+
+It should be straightforward, but here's a small guide:
+
+1. Click 'Open Database' and choose the downloaded index (a file named tpb.db). It will be loaded (can take 5 to 10 seconds).
+
+2. Enter your search query and click 'Search'. It can take up to 10 seconds for results to appear in the ListView.
+
+3. Select one entry from the ListView. In the TextBox appears the description.
+
+4. Click on the Button 'Save Torrent...' and the torrent will be saved to the same folder the application is running from.
+
+5. Download and enjoy!
+
+NOTE: .NET Framework is neccessary, but it probably is already installed.
+NOTE2: The SQLite3.dll and the search.index have to be in the same folder as TPBBrowser.exe
+
+
+Please comment on this little app so i can improve it.

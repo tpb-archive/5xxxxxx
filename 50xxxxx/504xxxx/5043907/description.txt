@@ -1,0 +1,59 @@
+swf studio is made for editing flash file outside of flash and its action script coding
+
+300$ product
+
+SWF Studio Features:
+
+Synchronous Commands: SWF Studio gives you the option of making ActionScript API calls syncrhonously or asynchronously. When an SWF Studio command is called synchronously, data is returned to the caller immediately through a return object and is available for use immediately in the next line of code. No callbacks are required, which can reduce the amount of code you have to write making you instantly more productive.
+
+Splash Screens: With just a couple of clicks you can add a startup splash screen to your application using JPG, BMP or GIF files. Splash screens appear immediately when your application starts to let users know that the application is working so they don't attempt to start multiple copies. It's also a chance for you to display your brand information when you have the users attention.
+
+Zero-Install Executables: The Flash OCX issues that plagued previous versions of SWF Studio and still affect many third party tools have been resolved in V3. Every V3 application and screensaver is a zero-install executable, which means you don't have to install anything to use them, they just work. This puts an end to the dreaded OCX issue forever. V3 executables have been tested and work even from a default, and very restricted, guest account!
+
+The ActionScript API: Instead of clumsy FSCommands, you access SWF Studio V3 features using an object based ActionScript API that collects all the SWF Studio core functionality and plugin interfaces into an easy to use collection of objects. SWF Studio uses a unique named parameter calling method that improves the readability of your code. The ActionScript API also protects you from future changes to the API and allows us to make changes to SWF Studio without breaking your code so we can deliver updates faster than ever before.
+
+Integrated Help System: We wanted to help you work smarter, not harder so the V3 help is fully integrated into the Flash authoring environment for Flash MX, MX 2004 and Flash 8 and even includes code hinting so you don't have to leave Flash to get the help you need. We've also included searchable and printable versions of the help in CHM format for those of you who are using other SWF creation tools, or for those who just prefer the Windows help format.
+
+Protect Your Work: Are you worried about people extracting the files you bundle with your applications? File resources you bundle with your application can be encrypted using unbreakable 448-bit blowfish encryption. When combined with V3's secure loader your files will finally be protected from prying eyes.
+
+Create Trial Versions: SWF Studio includes expiry settings that allow you to create secure time limited trial versions of your applications by selecting a few simple settings. If your needs are more demanding you can make use of the advanced expiry settings to completely customize the trial mode operation of your applications and add your own secure registration system.
+
+JScript Support: Flash users have been crying for runtime compilation since ActionScript first appeared. We couldn't do that, but we've done the next best thing. SWF Studio now has JScript support so you can call JScript functions from Flash as naturally as you call ActionScript functions and you have access to the ActionScript API from your scripts! When you call ActionScript API functions from a script you don't have to wait for return values, they are available immediately (synchronously) so you can actually do all your processing from JScript. You may not want to go back to ActionScript again!
+
+Launching Documents and Applications: The Shell commands in SWF Studio enable you to open any registered document, or launch any application with a wide variety of options. At first glance the Shell commands are deceptively simple, but you can use them to specify the size and location of the application and document windows as well as their topmost status. You can determine when a document or application fails to open, how long it took to open the window or how long it stayed open.
+
+Plugins: Plugins are zero-install Win32 DLLs which means pain free distribution with your applications. The plugin architecture supports fully asynchronous calls so your Flash application continues to run and receive notifications during long operations.
+
+In addition to updates and improvements to the existing ADO, Catalog, FileSys, FTP, HTTP and INIFile plugins from V2, V3 features four completely new plugins to extend the power of SWF Studio. The Email plugin allows you to send text or HTML emails with attachments and now includes automatic MX record resolution. The Joystick plugin provides the most advanced joystick control you'll find in any Flash application allowing you to connect as many joysticks as your system will support. The TCP and UDP plugins unleash the power of the internet core protocols allowing you to create both client and server applications.
+
+Script Error Suppression: You've probably all seen the dreaded script error message box at one point or another. This is the message that tells you that a script in your movie is running slowly. Macromedia didn't give you any way to disable this message forcing you to code defensively, sometimes awkwardly, to ensure that your users never see this message. With a simple setting change on the Movie tab in SWF Studio you can guarantee that your users never have to deal with this error message again.
+
+Registry Functions: SWF Studio features a set of builtin Registry commands that allow you to add, remove and change registry settings as well as enumerate registry keys and values to provide advanced registry processing capabilities. The range of data types supported by the Registry commands has been expanded (from V2) to include almost all of the various numeric, text, and binary data formats.
+
+Audio and Video Playback: SWF Studio allows you to take advantage of the Windows Media Player to play your audio and video files. The WMAudio and WMVideo commands provide a rich set of commands and events providing an unprecedented level of playback control that integrates smoothly with SWF Studio.
+
+Popup Menus: SWF Studio includes a whole set of commands for creating multi-level popup menus that includes support for custom system tray and context menus as well as menus that you can make appear with just code. You can change the popup menu captions, add separators, enable and disable menu items, check and uncheck menu items on the fly and load saved menu definitions from disk to provide easy support for multiple languages.
+
+Keyboard Control: V3 includes an enhanced keyboard event system to give you near absolute control of the keyboard. You can block any key combination, you can simulate any key combination and even send keystrokes to other applications. You can receive notifications for any key press or release event. You can define your own hotkeys and receive notifications when one of your hotkeys is pressed, no matter what application is running.
+
+Mouse Control: The Mouse commands allow you to receive notifications about the mouse position, what buttons are pressed, the position of the mouse can even be tracked outside of your application. Notifications exist to tell you the up/down and double-click state along with what button triggered the event. You can even simulate mouse move, press, release, click and double click events to control other applications.
+
+Window Control: The Win commands in SWF Studio give you complete control of your playback window. Events exist to provide you with information about when your window is moved, resized or when it undergoes a change of input focus or window state (minimized, maximimzed, normal or hidden). You can lock the aspect ratio of your window or set minimum and maximum allowable sizes, change the window caption, change the icon that appears in the title bar and the task bar, change the window size and position, turn the window border and title bar on and off, and much more.
+
+Shaped Windows: SWF Studio lets you define masks using bitmaps that allow you to quickly and easily change the shape of your application window. If you only need to use one shape then you don't even have to write a line of code to reshape your window. More demanding applications will be able to make use of the new Mask commands to load and apply complex bitmaps to control the shape of the application window.
+
+Desktop Control: Whole products have been built around the ability to change the resolution of the users desktop, with SWF Studio V3 you get that power for free from just one of the new Desktop commands. You can choose whether to use the native Win32 API resolution control or Direct Draw resolution control. You can also hide and show the Windows taskbar and take snapshots of any part of the desktop and save them as BMP or JPG images.
+
+Embedded Browser: The browser support in SWF Studio allows you to choose whether to create an Internet Explorer or a Mozilla compatible browser, you can even find out which browsers are installed on the users system. Browser events allow you to determine when the user selects items or even hovers over active elements. You can take complete control of the browser size and position or tell SWF Studio to make the browser resize automatically and smoothly with your player window. Using V3's JScript you can even access the browser DOM to read or write the HTML for the displayed page.
+
+System Tray: SWF Studio offers nothing less than complete control of your system tray icon. You can change the icon itself, the tooltip text that appears when you hover over the icon and you can hide and remove the system tray icon any time. You can make a multi-line balloon tip appear above your tray icon, complete with a tip title and icon. SWF Studio will notify you when someone clicks on the tray icon and tell you what button they used so you can decide how your application should react.
+
+System Information: The SysInfo commands allow you to retrieve information about the hardware and operating system specific details. You can determine the MAC addresses of all active network cards, the amount of physical and virtual memory, information about the domain and currently logged in user, detailed operating system version info, you can detect whether you are running under 64-bit windows, and more.
+
+Tooltips: It's easy to create tooltips in Flash, but they don't behave like real Windows tooltips so V3 allows you to create real tooltips that can extend past the edge of your application window, automatically activate and timeout, and you have complete control over the size, font and color of your tooltip.
+
+Printer Control: With the Printer commands in V3, your application has the ability to print text and raster graphics, enumerate the installed printers, select a printer, and change the printer settings. You can also display the common printer and page setup dialogs, so that you can let your users make these selections in a familiar, standard way.
+
+Compression: SWF Studio V3 includes functions that allow you to compress and decompress data files using Zlib, the same compression technique used by popular compression applications. Data files can typically be compressed by 50% or more allowing you to save time by downloading compressed data files and decompressing them on the users machine.
+
+Encryption: The V3 Crypto commands enable you to encrypt and decrypt strings and files using the unbreakable 448-bit blowfish algorithm. Use the Crypto functions to secure any data you don't want falling into the wrong hands. Combine the Crypto functions with the UDP or TCP plugins to create your own secure transport protocols.

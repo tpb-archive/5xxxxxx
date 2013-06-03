@@ -1,0 +1,87 @@
+User Type,Username,Date,Text
+,mikaelgbg1,2009-07-26T23:33Z,this serial not works witch offife 2008 12.2.0 (090605)
+,copytenshi,2009-07-29T03:06Z,"Hi, IÂ´ve tried last snÂ´s but not one worked with Microsoft 2008 :( 
+Thanks :)"
+,Bombaybrat,2009-07-29T12:34Z,"For 12.2.0 u need to use this serial:
+PCVGG-GBCF3-72PW4-GRMFK-Q7DD3
+
+Keep posted if it works.."
+,Bombaybrat,2009-07-29T13:02Z,"For those who are updating from 12.1.x to 12.2.0, once u update, n try restarting office, it will say that invalid serial and office will refuse to start... Do not panic or uninstall office.. just follow these simple steps:
+
+Delete the following files:
+/user/applications/microsoft office 2008/office/officePID.plist
+
+Restart your computer and try starting any MS application.. It will prompt u for licence activation.. That time enter the above serial code..
+
+Hope it helps.."
+,Bombaybrat,2009-07-29T13:43Z,"Ignore the earlier post.. Use the same serial. But do the following steps.. They work perfectly..
+
+If your copy of Office 2008 was installed with an invalid product key, or if you mistakenly used the same product key to install Office 2008 on more than one computer, you must remove the invalid product key and enter a valid product key to use Office 2008.
+In the Finder, select /Applications/Microsoft Office 2008/Office/OfficePID.plist, and then on the File menu, click Move to Trash.
+Select /Users/username/Library/Preferences/Microsoft/Office 2008/Microsoft Office 2008 settings.plist, and then on the File menu, click Move to Trash.
+On the Apple menu, click Restart.
+After your computer restarts, open any Office 2008 application.
+The Office Setup Assistant opens.
+Accept the software license agreement, and then enter your valid product key.
+The product key is located on the back of the Office 2008 for Mac DVD sleeve or on the back of the Install Guide."
+,alec801,2009-07-30T05:43Z,"For 12.2.0 i used the serial bombaybrat suggested and it worked
+
+PCVGG-GBCF3-72PW4-GRMFK-Q7DD3
+
+thanks :)"
+,yvonnedeponne,2009-07-30T09:44Z,"I just succesfully installed it with this serial:
+PCVGG-GBCF3-72PW4-GRMFK-Q7DD3"
+,fabio2m,2009-07-30T17:01Z,serial worked for me. thanks
+,Bombaybrat,2009-07-31T01:13Z,"@tmemphis: 
+
+If u r a TPB user, I expect u to have some common sense and use the serial given. Also it has worked for everyone who tried it.. If u hv downloaded it from TPB and still searchin for a DVD sleeve, then may god help u!!"
+,dead_mouse,2009-08-01T14:49Z,"PCVGG-GBCF3-72PW4-GRMFK-Q7DD3 works fine, thanks. Just follow the simple instruction from Bombaybrat."
+[T],nobody2007,2009-08-02T07:51Z,"use this one [DPK2C-TXT29-WQVBG-2CYPT-XJKCW] for registering v12.2.0
+
+you have to remove first:
+/Applications/Microsoft Office 2008/Office/OfficePID.plist
+
+your_username/Library/Preferences/Microsoft/Office 2008/Microsoft Office 2008 settings.plist"
+,fredrikbang,2009-08-06T11:30Z,@Bombaybrat works prefectly. thx.
+,Bombaybrat,2009-08-14T13:35Z,Thanks guys... Please report if it does not work for any1.. Cheers!!
+,decoydevo,2009-08-14T20:35Z,"It's all good still, Thanks for this.
+
+I knew one day one of those updates would be to check validity. Pirates strike again! ..."
+,98wongjf,2009-08-15T11:41Z,"Bombaybrat, is there a difference between the Serial # and the Product Key?  I did everything as instructed and it didn't work."
+,DrTLoveMD,2009-08-17T07:55Z,"Bombaybrat, I followed your instructions and it still  didn't work for me.  Any advice?"
+,hesselden,2009-08-17T23:34Z,i am in the same boat as DrTLoveMD
+,IanManning,2009-08-19T12:02Z,"Hi.
+I am a complete newbie to this torrent business. I run Mac OSX Leopard and have tried to download a couple of things, but all that happens is that a small file is downloaded which I can't open. Could someone explain how the system works? I would be very grateful! Thanks."
+,Bombaybrat,2009-08-21T18:11Z,"@98Wong: Serial# and product key is the same for office 2008. Which version are u usin? If u r on 12.1.x then u gotta use one of the serial in the torrent.. If u r on 12.2.x then use the one I have put in the comments.. It has worked for most of the people..
+
+@DrTLoveMD & Hesselden: Same instruction applies to you as well.. Keep posted if there are any problems..
+
+Even if u hv newly downloaded Office 08, its quite unlikely tht u wl gt 12.2.x.. So i would first suggest you 2 try one of the 14 serials in the torrent.. My instructions in the earlier comments applies only if u r updating from 12.1.x to 12.2.x..
+
+Cheers!!"
+,obmen,2010-03-08T05:46Z,DPK2C-TXT29-WQVBG-2CYPT-XJKCW still works for 12.2.x 
+,overcharge,2010-03-11T10:47Z,"Thanks, this app works fine.
+
+I didn't update my office suite... I just think that it's just a waste of space and time. 
+
+Just wondering ""Why PC's have rare files installed""?"
+,binarydaddy,2010-03-12T06:05Z,"Hey All (Bombaybrat)!
+
+I've attempted this crack before with no luck.  Here's my situation and what I'd done with no such success:
+
+Downloaded 30-day trial from MS.  Upon install, I entered a Trial Key I was emailed.  I manually updated to 12.2.x. Now, everytime I open an office app, I get a splash screen with several options (Activation-Enter Product Key, Buy Now, Try and two other buttons for Customer Service and Manual Activation).  
+
+I would always click try while looking for means to activate.  The same 12.2.x keys posted are ones I've used from prior instructions.  Just as it says, I move officePID.plist and Microsoft Office 2008Settings.plist to trash and restart from Apple Menu.  Upon reboot...I open Word, Excel, PPT or Entourage.  The Office Setup Asst appears.  I have my name, Organization and then input one of the three serials posted.  I choose no for particiaption and then finish without registering.  The Setup Asst closes...nothing else happens.  So I open the ap again and that original splash screen with Activation, Buy Now and Try appears.
+
+I've attempted the fix again and again with the other two 12.2.x keys...changing the key during setup asst as well as inputing the keys into the Activation portion of the splash screen.  Says invalid key, trya gain.
+
+Only problem is...when I try the workaround and eventually click Try to actually use the app, I'm told Office isnt installed correctly and must be reinstalled.
+
+I guess Im wondering...should I not have entered a name or Org...just product key when initially installed?  Or somthing else?  If Im able to fix this with out reinstalling, I;d be happy given everything i done as far as tweaking settings.  
+
+I have 36 hours left on the trial.  Do I need a version other than trial and if so, where do I get it?  Please Help:)  Much abliged!"
+,kamalaya,2011-04-19T02:39Z,"This one still works:
+
+PCVGG-GBCF3-72PW4-GRMFK-Q7DD3
+
+Take that, Microsoft. "

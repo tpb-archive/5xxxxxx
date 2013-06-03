@@ -1,0 +1,102 @@
+User Type,Username,Date,Text
+,Malius16,2009-08-07T18:28Z,"CAMPAIGN/SCENARIO EDITORS
+CAMPAIGN EDITOR	3
+STARTING THE CAMPAIGN EDITOR	3
+USING THE CAMPAIGN EDITOR	3
+The Campaign Editor Screen	3
+Campaign Name	3
+Civilization Name	3
+New Button	3
+Save Button	4
+Delete Button	4
+Author	4
+Author?s E-mail	4
+Background Image	4
+Password	4
+Campaigns List	4
+Description	4
+Available Scenarios	4
+Scenarios in Campaign	4
+Assets in Campaign	5
+Add Button	5
+Remove Button	5
+Up Button	5
+Down Button	5
+SCENARIO EDITOR	5
+STARTING THE SCENARIO EDITOR	5
+LOADING, SAVING, AND TESTING SCENARIOS	6
+MOVING THE CAMERA	6
+CREATING CINEMATICS	6
+MAP CREATION SCREEN	7
+Blank	7
+Random	7
+Seed	7
+Elevation File	7
+MAP ELEVATIONS SCREEN	8
+Land Elevation	8
+TERRAIN SCREEN	9
+Bulldozer	9
+UNIT PLACEMENT SCREEN	9
+Other Unit Controls	10
+Placing Cargo	10
+Placing Camera Markers	10
+PLAYER SETUP SCREEN	11
+Player Page 1	11
+Player Page 2	11
+AI Settings	12
+Tech Tree Page	12
+Options Page	13
+Other Options	13
+STORY/INSTRUCTIONS SCREEN	13
+CIVILIZATION BUILDER	14
+TRIGGERS SCREEN	14
+Component Names	15
+Triggers	15
+Trigger Order	15
+Trigger is On	16
+Condition True For	16
+Looping	16
+Include in Cinematic	16
+Trigger Statement	16
+Conditions	17
+Object Exists	17
+Player Conditions	18
+Trigger Has Attribute	19
+Game Has Attribute	19
+Chat Message Contains	19
+Effects	19
+Object	20
+Player	22
+Trigger	24
+Media	24
+Game	25
+AI	26
+Objects	27
+Object Autonames	28
+Select On Map	28
+Object Specification	28
+Object States	29
+Areas	31
+Select Rectangular Area	31
+Select Continent Tile	31
+Select Town Tile	31
+Center Camera On Area	31
+Trigger Examples	31
+
+CAMPAIGN/SCENARIO EDITORS
+The Empire Earth Campaign and Scenario Editors are versatile and robust tools for creating original maps, scenarios, and campaigns.  Both give you maximum control over your creations without sacrificing ease of use.  The Scenario Editor allows you to create Empire Earth maps and specify explicit goals which the player(s) must accomplish to win.  The Campaign Editor lets you tie scenarios together into an integrated campaign.  This document provides more detail about these editors than the chapter in the printed manual.
+Campaign Editor
+The Campaign Editor is used to ?assemble? scenarios created with Empire Earth?s Scenario Editor into complete campaigns.  A campaign is a collection of scenarios presented in an order determined by the scenario designer, therefore you must first create the scenarios before you can put them into a campaign (see the Scenario Editor section later in this chapter).  Campaigns also include associated files such as JPEGs and sound files.
+Starting the Campaign Editor
+To open the Campaign Editor, click the Game Tools button on Empire Earth?s Main Menu and then click the Campaign Editor button.
+Using the Campaign Editor
+Creating a campaign is a very simple task.  The only prerequisite is that you have working scenarios to put into the campaign.  Then all you need to do is give your campaign a name, select the scenarios and put them in the order you want, and then save the campaign.  That?s all there is to it.  Once created, a campaign contains all the files needed to play each of the scenarios in it.  Associated files (such as JPEGs, MP3s, etc.) are automatically saved as part of the campaign when you click the save button.  
+The Campaign Editor Screen
+This section describes all the controls on the Campaign Editor screen and how to use them.  You can exit the Campaign Editor by clicking the Back button, or click the Scenario Editor button to launch EE?s Scenario Editor.
+Campaign Name
+In this field you can type the name for your campaign.  If you select a campaign from the Campaigns list, its name appears here.  If you edit the selected campaign?s name, the Campaign Editor assumes you are creating a new campaign based on the settings of the selected campaign.
+Civilization Name
+In this field you can enter a name for the civilization that players will use for the entire campaign.  Players cannot change this name.  If you do not specify a name here or in the scenario, players can make up a name themselves when they enter the Civ Builder.
+New Button
+This button resets the Campaign Editor "
+,THSFCK,2012-02-11T21:11Z,Malius16.. Wtf is that? 

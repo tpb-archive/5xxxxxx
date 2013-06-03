@@ -1,0 +1,65 @@
+Data encryption software designed for automation. Automatically encrypt or decrypt, files and folders on a schedule. Encryption methods include password based, secret key, public key and private key, OpenPGP password, Open PGP public and private key.
+
+Features
+
+â€¢ Encryption Profiles allow you to quickly add encryption and decryption profiles. These files can be used in encryption or decryption tasks.
+â€¢ Encryption task allows you to encrypt files or an entire folder and its subfolders.
+â€¢ Decryption task allows you to decrypt files or an entire folder and its subfolders.
+â€¢ Key Generator can generate secret, public, private, OpenPGP public keys and OpenPGP private keys.
+â€¢ Key Store manager allows you to import or export keys for external use.
+â€¢ Email Notification for all tasks based on task exit code.
+â€¢ Dynamic variables are supported for most tasks. Most tasks also generate variables which can be used in other tasks. â€¢ â€¢ Create advanced automation solutions using our Automize tasks in conjunction with variables, directory/file monitors and our task chains.
+â€¢ Zip files and directories using wildcards on a schedule. Can append date/time to filename for archive purposes.
+â€¢ Copy files and directories using wildcards on a schedule. Can append date/time to filename for archive purposes.
+â€¢ Chain Task Integrator runs all supported AutoKrypt tasks in sequence, (with options depending on Exit codes).
+
+AutoKrypt 7 new features
+
+â€¢ The encryption module is now a wrapper around GnuPG 1.4.x.
+â€¢ One Step Encrypt&Sign and Decrypt&Verify is now supported.
+â€¢ The encrypt and decrypt tasks now support more options like backup and deletion of source files.
+â€¢ The tasks and schedules are now displayed in Windows explorer format instead of simple tables.
+â€¢ Each task / schedule is now in its own small setting file. Tasks and schedules can be grouped into folders on the users file system. This system results in unlimited number of tasks and schedules that can be used, with higher scalability, reliability and low memory usage.
+â€¢ Task exit code, runtimes etc.. are displayed on the front panel.
+â€¢ NT service module: Engine stays on during user logoff. In version 6, engine would restart during logoff.
+â€¢ Multilingual user interface and help file for our international users.
+â€¢ Separate Encrypt logs for each Encrypt/decrypt task.
+â€¢ All communication with engine is now secured through user interface password (if set)
+â€¢ New secure command-line module
+â€¢ Directory Loop task
+â€¢ Filename filter now supports support REGEX
+
+Encryption Tutorial
+
+This very brief tutorial is for beginners who have not used encryption tools before.
+
+Introduction
+There are two types of encryption methods: symmetric and asymmetric.
+
+1) Symmetric Password Based Encryption - This is the simplest form of encryption. It is a symmetrical encryption method. The same password is used to encrypt and decrypt the data (or the file). This method is useful to encrypt sensitive information for yourself, or for family, or for a few trusted friends or coworkers.
+
+2) Symmetric Secret Key Based Encryption
+This is the simplest form of key based encryption. It is a symmetrical encryption method. The same secret key file is used to encrypt and decrypt the data (or the file). This is not a very commonly used technique.
+
+3) Assymetric public/private Key Based Encryption
+A public key file is used to encrypt the data. The corresponding private key file is used to decrypt the data. Only you should have access to your private key. You can distribute your public key to anyone who needs to send you data. This is the technique that is most commonly used in corporations.
+
+OpenPGP encryption
+This is the most popular encryption method. Many corporations employ OpenPGP encryption to exchange or store sensitive data.
+
+OpenPGP keys
+To get started you would need to create an OpenPGP Key pair. The private key should be stored carefully. The public key should be distributed to your friends, colleagues, customers or clients etc..
+
+Encrypting and Decrypting files
+Your customers or clients can use your public key to encrypt a file.. Then email the encrypted file to you. The encrypted file can only be decrypted by your private key. If the email is intercepted, no one will be able to decrypt the file since they do not have your private key. Similarly if you need to send a file to a client, you should use the clients public key to encrypt the file. Only your client has his private key to decrypt the file.
+
+Signing and Verifying files
+To confirm that you have sent the file, you should use your private key to sign the file. Your clients can then use your public key to verify that the file was sent by you.
+
+Encrypt & Sign
+OpenPGP software normally support one step encrypt and sign. This allows you to encrypt a file using the recipients public key. At the same time, this also signs the file with your private key. When the recipient receives this file, he can use his private key to decrypt the file, and use your public key to verify that it was indeed sent by you.
+
+OS: WindowsÂ® 2000/XP/2003/Vista/Seven
+Language: English
+
+Enjoy

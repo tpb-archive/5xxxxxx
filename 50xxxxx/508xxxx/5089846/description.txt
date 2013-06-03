@@ -1,0 +1,56 @@
+===Getting started===
+
+Sanctum is a total conversion mod for Unreal Tournament 3 and therefore requires Unreal Tournament 3 to work. It is advisable
+to have it updated to the most current version. (2.1)
+
+In order to get Sanctum to work, you need to do the following:
+
+1. Extract the folder "Sanctum" and its contents to "Documents and Settings/(Your user name)/My Documents/My Games/Unreal Tournament 3"
+
+   Please note that the folder needs to be in the Unreal Tournament 3 folder, and not the subsequent UTGame folder.
+
+2. Right click on the shortcut file "Sanctum" inside of the Sanctum map and go into the Properties window.
+
+3. Replace the shortcut Target with the directory to your Unreal Tournament 3.exe (UT3.exe) file followed by: -mod=..Sanctum
+
+   For example:
+
+   "C:GamesUnreal tournament 3BinariesUT3.exe" -mod=..Sanctum
+
+   You also need to clear the "Start in" field in your "Sanctum" file properties in order to get it working.
+
+4. Execute the game using the Sanctum file
+
+5. Enjoy!
+
+===Key bindings===
+
+WASD - Movement
+E - Use (Hologram and buttons)
+Space - Jump
+Mouse - Look around and shoot 
+Mouse Scroll - Swap weapon
+
+===Description===
+
+Sanctum is a total conversion mod for Unreal Tournament 3. 
+It is being developed by Coffee Stain Studios, a group consisting of eleven university students at HÃ¶gskolan i SkÃ¶vde, Sweden. 
+Sanctum is a first person tower defense game where you take on the role as Skye, a female elite soldier. 
+Your sole purpose is to defend your hometown, Elysion One, from the invading force of mysterious alien creatures. 
+Choose from different defensive formations and upgrade deadly turrets to aid you in the defense of the city. 
+Use hand held weapons to give you an advantage.
+
+The underlying reason for developing Sanctum was to take the popular tower defense game mode and get it
+into a first person perspective. We also developed a quite unique and outstanding art style and feel of the game, 
+being communicated through choice of colours, musical theme and design on world objects. 
+The style is in distinct contrast to the overall look and feel of Unreal Tournament 3 and thus proves that
+something very different can be produced by the popular engine.
+
+The decision of making a total conversion was made so that we could produce all original
+ content instead of re-using the content by Unreal Tournament 3. This means that all the models, 
+textures, sounds and music is or will be developed by us. We are planning on further developing Sanctum
+ in a direction where we add Co-op, different game types and additional turret, enemy and weapon types.
+
+===Contact us===
+
+For more information about Sanctum, visit www.sanctum-game.com

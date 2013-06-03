@@ -1,0 +1,156 @@
+PowerArchiver 2010 11.50.66 (RC3) made Portable.
+
+No need to install it!
+Or, if you want to, Setup and License are included...
+
+
+PowerArchiver 2010 - universal archiver with support of all popular formats. This archive supports ZIP, RAR, 7-ZIP, CAB, LHA (LZH), TAR, TAR.GZ, TAR.BZ2, BH, ARJ, ARC, ACE, ZOO, GZ, BZIP2, XXE, MIME, UUE, XPI , EAR, WAR, REP, JAR, BK, QWK, Quake PK3, skins WinAMP, self-extracting executable file format ZIP and CAB, as well as CD-images: ISO, BIN, IMG and NRG. At the time the program is free, but as the expansion of its capabilities, has moved into the commercial status that, if we look at the overall trend, it is not surprising. This current application, which combines support practically all popular archival formats. If necessary, you can use encrypted archives using AES algorithm with varying degrees of stability (128-bit/192-bit/256-bit). The interface supports the change of skin, works as in classical or contemporary form.
+
+Features: 
+- Complete built-in support for 7-ZIP, ZIP, CAB, LHA (LZH), TAR, TAR.GZ, TAR.BZ2, BH, RAR, ARJ, ARC, ACE, ZOO, GZ, and BZIP2 file formats
+- Support for reading and extracting disc image formats: ISO, BIN, IMG and NRG
+- Built-in support for XXE, UUE, and yENC encoded files and full MIME (Base 64) support
+- Creating ZIP and CAB and PAE encrypted self-extracting archives using a Wizard interface
+- Support for unlimited size ZIP archives, with improved performance when working with 100,000+ files
+- Support for Deflate64, providing improved compression results (both size and speed)
+- Complete support for PKZIP 4.0 and PKZIP 4.5 disk spanning
+- Compression Profiles to store frequently used compression settings
+- Full support for ZIP AES encryption, 128-bit/192-bit/256-bit (supports: PKZip 5.1 (full), Secure Zip 8.0 and WinZip 9.0 AE-1 & AE-2) and proprietary PAE format using 5 different methods: Blowfish (128-bit), DES (64-bit), Triple DES (128-bit), AES 128-bit, and AES 256-bit
+- Support for AES encrypted 7-Zip archives and multivolume 7-Zip archives
+- Uploading archives or backups directly to FTP or SFTP (SSH) sites with multiple profiles supported and timeout option
+- Password manager for saving frequently used passwords
+- Tool for creating PBS backup scripts and running automated backups
+- Internal viewer that supports TXT, RTF, GIF, PNG, BMP, ICO, TIFF, GFI, SGI, EMF, WMF, PPM, Adobe Photoshop, Autodesk, Truevision, - ZSoft Paintbrush, Kodak Photo-CD, JASC PaintShop Pro, and Dr. Halo file formats
+- Many powerful archive operations (including: renaming files in archive, spanning archives, testing archives, viewing and writing comments, installing archives, and checking archives for viruses)
+- Drag and Drop from/to Windows Explorer and the Desktop
+- Two ways of viewing archives (Classic - all files in the same listing; Explorer - browsing through an archive like folders in Windows Explorer)
+- Complete integration with Windows (extracting archives and creating archives directly from Windows Explorer using powerful "Explorer Shell Extensions")
+- Ability to edit files within an archive using one single operation
+- Printing file listing to text file or HTML document
+- Tool for repairing corrupted ZIP archives
+- Converting between file formats (for example: changing a ZIP archive to CAB archive, or LHA archive to ZIP archive)
+- Extracting multiple archives at the same time
+- Batch Zip function to create multiple different archives at once
+- Favorite Folders to quickly locate archives
+- Powerful Find function for searching within an archive
+- Auto Update to automatically download and install new versions of PowerArchiver
+- Powerful help in HTML and a tutorial with pictures for beginners
+- Full skinning support via PSF files - includes interface skins, toolbar skins, icons and customizable application settings
+- Customizable toolbar that can be docked to any side of the application or float independently 
+- Windows XP Theme and ClearType support
+
+
+Version 11.50 [June/2009]
+
+New Features:
+  
+  Brand new ZIP Engine:
+    * Multicore deflate zip engine, almost 4x faster than single 
+      core systems on quad core computers.  
+    * Improved speed of zip compression and extraction on any occassion.
+    * Support for LZMA, PPMd, BZIP2 and WAVPACK in ZIP, according to 
+      latest ZIP standards. Both write and read support, making PowerArchiver
+      only application that supports
+ Winzip 12 and earlier files, while providing
+      faster and stronger compression (up to 4x) compared to WinZip 12.
+    * Full support for new .zipx extension for advanced compression methods.
+    * Multicore LZMA engine for ZIP.
+    * Support for Unicode in ZIP, both read and write. Implemented throughout 
+      application.
+    * Faster loading of archives with thousands of files.
+
+  Windows 7: 
+    * Full Windows 7 support with jump lists, taskbar progress and taskbar 
+      icon overlays. First archiver to do so.
+    * First application with new DirectSkin 6.0 engine that supports 
+      Windows 7 (32bit).
+
+  PA Shell Extensions 2.0:
+    * Added Extract MRU shell extensions.
+    * Added Compress to MRU zip shell extensions.
+    * Added FTP profiles in shell extensions, ftp directly to selected 
+      account via shell.
+
+Backup Improvements:  
+  * Moved backup to standalone application for easier handling, faster load 
+    times.
+  * You can add multiple folders in backup filelist.
+  * Considerably faster zip backup when handling 10,000+ files.  
+  * Better info on files/folders in file list (number/size).
+  * Fixed major issue with 7-Zip backups and larger number of files.
+
+Improvements:
+  * RAR optimizations - up to 20% faster RAR extraction than before, 
+    including WinRar. Faster unrar engine on the market.
+  * Faster compression - "Preparing compression" stage up to 10x faster both 
+    in main PA and PA Backup for all compression formats.
+  * Interface improvements in Modern interface - faster and better looking.
+  * Interface improvements in Classic interface - more MRU's, more usable.
+  * New Add window in main Powerarchiver, most usable options are now shown 
+    on first screen.
+  * You can now select multiple folders in all folder selection windows 
+    (backup, tools, etc).
+  * Optimized 7-Zip's Optimized compression - Ultra and Max feature stronger 
+    compression now.
+  * Added New Folder and Network buttons in Add window, improved look of 
+    other icons.
+  * Unicode support for other formats that support unicode in rest of 
+    PowerArchiver interfaces.
+  * Added method property in file list and properties window.
+  * Better support for Enterprise installations.
+  * Many smaller improvements in Burner and FTP applications.
+  * Other smaller improvements throughout the rest of application.
+
+Bug Fixes:
+  * Fixed Bug #1000: No caption in burner taskbar under special conditions.
+  * Fixed Bug #987 : Doubleclick on file sometimes uses 100% cpu if preview is on. 
+  * Fixed Bug #303 : Support for multiple selection in burner.
+  * Fixed Bug #958 : D&D inside of folder in archive does not save path properly.
+  * Fixed Bug #997 : Cant align toolbar properly when some windows are on (Preview, etc).
+  * Fixed Bug #969 : Various burner options shown in shell/starter even if Standard.
+  * Fixed Bug #970 : CRC error when not enough space on disk (rar).
+  * Fixed Bug #703 : Cancelling extraction of large files takes long time.
+
+
+
+More infos at
+ 
+http://www.powerarchiver.com/
+
+
+
+SUGGESTIONS ON USING P2P DOWNLOADS
+==================================
+
+1) It's always better to run all downloaded programs using Sandboxie or a similar virtual machine until you are sure they are clean.
+
+
+2) When in doubt, scan them with an Internet Scan service as the ones provided by Jotti and VirusTotal
+ 
+http://virusscan.jotti.org/
+ 
+http://www.virustotal.com/
+
+This will ***NOT*** give you any warranty that a file passing their analysis is clean, nor that if they see them as a troian it's so or not just another false positive, but helps you to decide and at least ask for help or infos.
+
+
+3) Remember, trust nobody, and when in doubt, go to point 1) 
+
+
+4) If you find any upload containing trojans or whatsoever malicious or unclean, instead of start cursing in the comments of the upload, take the time to go to the Suprbay Forum at:
+ 
+http://suprbay.org/forumdisplay.php?f=34
+
+and report links and comments there, and someone will take care of all the nasties.
+
+
+That's the only way to keep TPB and its uploads fresh and clean.
+
+
+That's for what is regarding security. If after testing it you see that you like it and it's useful for you, show your support by buying it!
+
+
+
+Enjoy and remember to seed... :o)
+
+

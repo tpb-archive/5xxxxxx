@@ -1,0 +1,18 @@
+                    Proactive Content Poisoning To Prevent
+                           Collusive Piracy in P2P File Sharing
+  Xiaosong Lou, Student Member IEEE and Kai Hwang, Fellow IEEE Computer Society
+Abstract: Todayâ€™s peer-to-peer (P2P) networks are grossly abused by Illegal distributions of music, games, video streams, and
+popular software. These abuses have resulted in heavy financial loss in media and content industry. Collusive piracy is the main
+source of intellectual property violations within the boundary of P2P networks. This problem is resulted from paid clients
+(colluders) illegally sharing copyrighted content files with unpaid clients (pirates). Such an on-line piracy has hindered the use of
+open P2P networks for commercial content delivery. We propose a proactive poisoning scheme to stop colluders and pirates
+from working together in alleged copyright infringements in P2P file sharing. The basic idea is to detect pirates with identity-
+based signatures and time-stamped tokens. Then we stop collusive piracy without hurting legitimate P2P clients.
+         We developed a new peer authorization protocol (PAP) to distinguish pirates from legitimate clients. Detected pirates will
+ receive poisoned chunks in repeated attempts. A reputation-based mechanism is developed to detect colluders. The system
+ does not slow down legal download from paid clients. The pirates are severely penalized with no chance to download
+ successfully in finite time. Based on simulation results, we find 99.9% success rate in preventing piracy on file-level hashing
+ networks like Gnutella, KaZaA,Area, LimeWire, etc. Our protection scheme achieved 85-98% prevention rate on part-level
+ hashing networks like eMuel, Shareaz, eDonkey, Morpheus, etc. Our new scheme enables P2P technology for building a new
+ generation of content delivery networks (CDNs). These P2P-based CDNs provide faster delivery speed, higher content
+ availability, and cost-effectiveness than using conventional CDNs built with huge network of surrogate servers.

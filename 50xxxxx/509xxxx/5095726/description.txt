@@ -1,0 +1,182 @@
+SuperCopier 2.2 beta
+====================
+
+SuperCopier2 is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+SuperCopier2 is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+Website:
+  http://supercopier.sfxteam.org
+
+Description:
+============
+
+SuperCopier replaces Windows explorer file copy and adds many features:
+- Transfer resuming
+- Copy speed control
+- No bugs if You copy more than 2GB at once
+- Copy speed computation
+- Better copy progress display
+- A little faster
+- Copy list editable while copying
+- Error log
+- Copy list saving/loading
+- ...
+    
+Compatibility: Windows NT4/2000/XP/Vista/Seven and 64 bit / Server flavors.
+
+History:
+========
+
+- v2 beta 1:
+Complete rewrite.
+... So many new things but it's too long to enumerate :)
+
+- v2 beta 1.9:
+- Better handling of transfer resume (overwrite if resume is not possible
+and new option to force resume without file age verification).
+- Pause can now be used during waiting state or during copy list creation.
+- Better handling of temporization on retry after copy errors
+- Added a notification balloon for insufficient disk space windows.
+- Corrected speed issues with networked copies (especially on upload).
+- Fixed bug with handled processes name case.
+- Fixed bug with language files loading.
+- Fixed one bug with files larger than 4GB (one more :).
+- Fixed bug while cancelling the insufficient disk space window.
+- Fixed bug with renaming on file names containing dots.
+- Fixed bug with 'Always overwrite if different' option for file collisions.
+- GUI bug fixes and enhancements:
+- Lowered CPU usage.
+- Fixed blinking problem with themes.
+- Fixed problem with copy window minimize button click.
+- Better handling of copy window buttons focus.
+- Hopefully fixed the problem with systray progress bars for copy
+windows.
+
+- v2.2 beta:
+- Complete rewrite of the copy interception system, adds support for
+Windows Vista, Seven and all 64 bit Windows. For now, compatibility with 
+Windows 95, 98 and Millenium has been dropped and 'handled processes' is 
+deactivated.
+- Added options to sort the copy list. You can either click on the column headers
+or use the 'Sort' context menu item.
+- Separated attributes copy from security copy.
+- User interface improvements, including: 
+- Reintroduced Supercopier 1.35 like cursor for copy speed limitation.
+- Popup menus from file collision and file error windows now automatically
+popup when the button is hovered.
+- Copy window is no more a tool window, so now it has standard buttons like
+minimize, maximize and system menu. This should also fix problems with
+non standard themes.
+- Many bugfixes (about 100 bugs were treated).  
+  
+
+
+
+
+SuperCopier 2.2 beta
+====================
+
+SuperCopier2 est libre, vous pouvez le redistribuer et/ou le modifier
+selon les termes de la Licence Publique GÃ©nÃ©rale GNU telle que publiÃ©e par
+la Free Software Foundation ; soit la version 2 de cette licence, soit
+(Ã  vous de voir...) toute autre version ultÃ©rieure.
+
+Ce programme est distribuÃ© dans l'espoir qu'il sera utile,
+mais SANS AUCUNE GARANTIE, ni explicite ni implicite, y compris les garanties
+de commercialisation ou d'adaptation dans un but spÃ©cifique.
+Prenez connaissance de la Licence Publique GÃ©nÃ©rale GNU pour plus de dÃ©tails.
+
+Site web:
+  http://supercopier.sfxteam.org
+
+Description:
+============
+
+SuperCopier remplace le systÃ¨me de copie de fichiers de l'explorateur de
+Windows en y ajoutant des amÃ©liorations:
+- PossibilitÃ© de reprendre les transferts
+- RÃ©glage du taux de transfert
+- Plus de bugs si l'on copie plus de 2 Go de fichiers
+- Calcul du taux de transfert
+- Meilleur systÃ¨me de visualisation	
+- Un peu plus rapide
+- Listes de copie modifiables Ã  volontÃ© pendant la copie
+- Journal des erreurs
+- Sauvegarde/chargement de la liste de copie
+- ...
+    
+CompatibilitÃ©: Windows NT4/2000/XP/Vista/Seven et versions 64 bits / Serveur.
+
+Historique:
+===========
+
+- v2 beta 1:
+RÃ©Ã©criture complÃ¨te de l'application.
+... Donc plein de choses nouvelles mais c'est trop long Ã  Ã©numÃ©rer :)
+
+- v2 beta 1.9:
+- Meilleure gestion de la reprise des transferts (Ã©crasement si reprise
+impossible et option pour forÃ§er la reprise sans vÃ©rification de la date
+de modification).
+- PossibilitÃ© de mettre en pause lors de l'attente ou de la crÃ©ation de la
+liste de copie.
+- Meilleure gestion de la temporisation lors du rÃ©Ã©ssai aprÃ¨s des erreurs
+de copie.
+- Ajout d'une bulle de notification pour les fenÃªtres d'espace disque
+insuffisant.
+- Correction des problÃ¨mes de vitesse lors de copies en rÃ©seau
+(particuliÃ¨rement en envoi).
+- Correction d'un bug avec la casse des noms de processus pris en charge.
+- Correction du bug de chargement des fichiers de langage.
+- Correction d'un bug avec les fichiers de plus de 4Go (encore un :).
+- Correction d'un bug lors de l'annulation sur la fenÃªtre d'espace disque
+insuffisant.
+- Correction d'un bug avec le renommage pour les noms de fichiers contenant
+des points.  
+- Correction d'un bug avec l'option 'Toujours Ã©craser si diffÃ©rent' pour
+les collisions de fichier.
+- Corrections de bugs et amÃ©liorations de l'interface graphique:
+- Diminution de l'utilisation du CPU.
+- Correction du problÃ¨me de scintillement avec les thÃ¨mes.
+- Correction d'un problÃ¨me de clic sur le bouton de rÃ©duction des
+fenÃªtres de copie.
+- Meilleure gestion du focus des boutons de la fenÃªtre de copie.
+- Correction (je l'espÃ¨re) du problÃ¨me avec les barres de progression
+dans le SysTray pour les fenÃªtres de copie.
+
+- v2.2 beta:
+- RÃ©Ã©criture complÃ¨te du systÃ¨me d'interception des copies, ajoute le support
+de windows Vista, Seven et de tous les windows 64 bits. Pour le moment, la 
+compatibilitÃ© avec Windows 95, 98 et Millenium a Ã©tÃ©e abandonnÃ©e et
+'Processus pris en charge' a Ã©tÃ© dÃ©sactivÃ©.
+- Ajout d'options pour trier la liste de copie. Vous pouvez soit cliquer sur les 
+EntÃªtes de colonnes soit utiliser l'Ã©lÃ©ment du menu contextuel 'Trier'.
+- SÃ©parÃ© la copie des attributs de la copie de la sÃ©curitÃ©.
+- AmÃ©liorations de l'interface graphique, entres-autres: 
+- RÃ©introduction du curseur de rÃ©glage de la limitation de vitesse de copie de 
+SuperCopier 1.35.
+- Les menus contextuels des fenÃªtres de collisions de fichiers et d'erreurs de
+copie apparaissent automatiquement quand on survole les boutons.
+- La fenÃªtre de copie n'est plus une fenÃªtre d'outil, donc maintenant elle a des 
+boutons standard tels que rÃ©duire, aggrandir ou menu systÃ¨me. Cela devrait aussi
+rÃ©gler les problÃ¨mes avec les thÃ¨mes non standard.
+- Beaucoup de corrections de bugs (pas loin de 100 bugs ont Ã©tÃ©s traitÃ©s).
+
+
+
+If you want to compare with
+
+
+TeraCopy Pro V2.07ÃŸ 
+http://thepiratebay.org/torrent/5228859
+
+
+TeraCopy Pro v2.1 Final  
+http://thepiratebay.org/torrent/5246945

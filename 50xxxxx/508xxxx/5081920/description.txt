@@ -1,0 +1,19 @@
+Zenwalk 6.2 has been released !
+
+Zenwalk 6.2 is mostly new code (nearly all packages have been updated), and the base system has been slightly modified (EXT4, kernel 2.6.30.5). The switch to LZMA for package compression has reduced the overall size of the ISO image (490MB) while allowing us to provide more applications and drivers.
+
+You will notice that our installer is getting simpler with each new version : as usual, our goal is to create the easiest GNU/Linux installer. From now, the user doesn't have to perform any hardware selection : any part of the computer's hardware is automatically detected, the installer will just ask for a few approvals.
+
+Here's a summary of the important changes :
+
+- Kernel 2.6.30.5
+- LZMA compression for packages
+- EXT4 as main filesystem
+- The new XFCE 4.6.1
+- Openoffice 3.1.0 (fast optimized version)
+- New Netpkg featuring a refined interface, rollback support and instant install with dependencies control
+- A complete set of HP printers drivers are included
+- Faster boot (tuned init scripts)
+- bus auto-detection in the installer (will choose appropriate kernel depending on the architecture, sata, pata, scsi)
+
+We believe that the 6th branch has reached maturity , both as a professional, and multimedia operating system. Our package repository is growing and can now be compared to the big ones!

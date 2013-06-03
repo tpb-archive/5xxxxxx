@@ -1,0 +1,27 @@
+ http://www.damnsmalllinux.org/
+
+
+Damn Small Linux is a very versatile 50MB mini desktop oriented Linux distribution.
+
+Damn Small is small enough and smart enough to do the following things:
+
+    * Boot from a business card CD as a live linux distribution (LiveCD)
+    * Boot from a USB pen drive
+    * Boot from within a host operating system (that's right, it can run *inside* Windows)
+    * Run very nicely from an IDE Compact Flash drive via a method we call "frugal install"
+    * Transform into a Debian OS with a traditional hard drive install
+    * Run light enough to power a 486DX with 16MB of Ram
+    * Run fully in RAM with as little as 128MB (you will be amazed at how fast your computer can be!)
+    * Modularly grow -- DSL is highly extendable without the need to customize
+
+DSL was originally developed as an experiment to see how many usable desktop applications can fit inside a 50MB live CD. It was at first just a personal tool/toy. But over time Damn Small Linux grew into a community project with hundreds of development hours put into refinements including a fully automated remote and local application installation system and a very versatile backup and restore system which may be used with any writable media including a hard drive, a floppy drive, or a USB device.
+
+DSL has a nearly complete desktop, and a tiny core of command line tools. All applications are chosen with the best balance of functionality, size and speed. Damn Small also has the ability to act as an SSH/FTP/HTTPD server right off of a live CD. In our quest to save space and have a fully functional desktop we've made many GUI administration tools which are fast yet still easy to use. What does DSL have?
+
+XMMS (MP3, CD Music, and MPEG), FTP client, Dillo web browser, Netrik web browser, FireFox, spreadsheet, Sylpheed email, spellcheck (US English), a word-processor (Ted), three editors (Beaver, Vim, and Nano [Pico clone]), graphics editing and viewing (Xpaint, and xzgv), Xpdf (PDF Viewer), emelFM (file manager), Naim (AIM, ICQ, IRC), VNCviwer, Rdesktop, SSH/SCP server and client, DHCP client, PPP, PPPoE (ADSL), a web server, calculator, generic and GhostScript printer support, NFS, Fluxbox and JWM window managers, games, system monitoring apps, a host of command line tools, USB support, and pcmcia support, some wireless support.
+
+
+
+
+
+Enjoy this tasty, and free, software. :)

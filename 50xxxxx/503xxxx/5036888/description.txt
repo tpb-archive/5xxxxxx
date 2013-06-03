@@ -1,0 +1,18 @@
+This works for version 1.0.2.10 and abow to version 1.0.2.14
+
+1. Launch the NCSoft Launcher. If you have auto-update bs on, turn it off for this. File>Settings>Auto-Update>Turn off auto-uptdates. close the lancher.
+
+2. To get the update to work, put the file in the Aion folder.
+e.g.: C:Program Files (x86)NCSoftAion (Dump it in here)
+
+2. Once the update has been pasted, open up the "version"(version.ini) text document in the aion folder, and change it from "Version=1.0.2.xx" to "Version=1.0.2.14". 
+
+3. Start the lancher and the update will apply.
+
+4. Turn back on Auto-Updates.
+
+
+
+
+
+

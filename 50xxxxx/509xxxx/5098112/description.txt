@@ -1,0 +1,106 @@
+This is a Media Player that is Open-Source!
+Seed this out! :D
+
+VLC media player (initially VideoLAN Client) is a highly portable multimedia player for various audio and video formats (MPEG, DivX/Xvid, Ogg, and many more) as well as DVDs, VCDs, and various streaming protocols. However in recent years it has also become a extremely powerful server to stream live and on demand video in several formats to our network and the Internet.
+
+It started as a student project at the French Ã‰cole Centrale Paris but is now a worldwide project with developers from 20 countries.
+
+VLC is built in a modular way. This means that you can choose from a range of different modules to decide how to control VLC and how to display the video output.
+
+
+Changelog:
+
+
+# Decoders:
+
+Native support for WMA Professional, without the use of the Win32 dlls
+
+Fix issues in subtitles, especially SSA ones
+
+Various fixes on theora and ogg
+
+
+# Demuxers:
+
+Various fixes for EPG support in MPEG-TS demuxer
+
+Fixes for potential stack overflow in .avi, .mp4 and .asf demuxers
+
+
+# Access:
+
+Fixes for v4l2 devices
+
+Fixes for dvb-c channels-scanning
+
+
+# Qt Interface:
+
+Fix some playlist sorting issues
+
+
+# Mac OS X Interface:
+
+Fixed a crash when updating VLC
+
+Fixed a crash related to QTKit when opening video files (10.6 only)
+
+Added the ability to play 2nd media in sync to the primary item (input-slave)
+
+Added the "Quit after Playback" feature
+
+
+# Mac OS X Port:
+
+The "Delete Preferences" script is now delivered as a Universal Binary
+with native code for PowerPC, Intel and Intel 64bit
+
+Full 64bit runtime compatibility on both Mac OS X 10.5 and 10.6
+- no support for Goom and SDL
+- limited text rendering support
+- This port is still considered as EXPERIMENTAL despite its binary release.
+
+
+# Encoders:
+
+MPEG2 transrate stream output removed
+
+x264 default-values closer to x264.exe defaults.
+
+x264 rc-behaviour fixes:
+- if user defines qp-value, CQP-mode is used
+- otherwise if user defines vb=0, CRF-mode is used
+- otherwise ABR-mode is used
+
+x264 set vbv-bufsize/vbv-maxsize better if user hasn't defined these:
+- ABR mode set vbv-max-bitrate=bitrate
+- vbv-bufsize is bitrate * seconds between keyframes (keyint/fps)
+
+
+# Playlist:
+
+Lua scripts for Mpora and Vimeo playback
+
+
+# Unix builds:
+
+Various fixes to enable 1.0 to build on Solaris and OpenBSD
+
+
+# Translations:
+
+New Kazakh and Croatian translations
+
+Lithunanian translation is available on Windows
+
+Galician, Korean, Nepali, Vietnamese, Ukrainian, Brazilian, Arabic and French translation updates
+
+
+ED2K Link:
+ed2k://|file|vlc-1.0.2.tar.bz2|20958212|5DAE9849BE421F1D6FD5A0BF232FD094|h=43X5JICO3SKKYENFAHHE7EXSVK2SLEOW|/
+
+
+
+Comments from the uploader (olofolleola4):
+Here you have a long list of features in VLC media player: 
+http://www.videolan.org/vlc/features.php

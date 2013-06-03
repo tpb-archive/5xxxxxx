@@ -1,0 +1,45 @@
+User Type,Username,Date,Text
+,seckss,2009-09-08T18:46Z,"This are working keys: September 8th, date of release."
+,airik1,2009-09-08T20:59Z,"i tried 10 keys and only got
+KIS9-CM-20100530-055E90C7.KEY
+to work, it was 4th from the last"
+,airik1,2009-09-08T21:00Z,"btw, thanks seckss! great timing!"
+,seckss,2009-09-09T00:08Z,"1st, 2nd, 3rd and 4th are working for sure 'cos I tried it, and they have life span from 19 to 34 days."
+,LbL,2009-09-09T17:36Z,"
+
+Kaspersky 2010 Fix:
+
+1. Download Kaspersky Trail version from http://esd.element5.com/demoreg.html?productid=300324330.
+Install it.
+Get all the updates.
+
+2. Go to Kaspersky's settings, click Options, and untick Enable Self-Defence.
+
+3. Exit Kaspersky by right-clicking its icon in the Tray, and choose EXIT at the bottom.
+
+4. Go to Start, run, then type regedit and press enter.
+
+5. Press CTRL+F to serach for    ProductStatus    and hit enter, or go directly to:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\AVP9\environment
+where      ProductStatus    is located in the right window.
+
+6. Double click     ProductStatus    and change the word:
+ Release
+(it may say Trial instead of Release)
+
+to:
+ Beta
+
+
+7. Press OK. Close Registry Editor, start Kaspersky.
+
+Kaspersky will complain your key is invalid.  Click the red message.
+Now License Manager is open.  Click ""Activate New Licens"".
+
+
+8. Tick Activate beta license then press Next and Finish, it will now contact the Server to activate the Beta-key.
+
+9. Re-enable Self-Defence if it hasn't already done that by itself.		
+
+10. This can be done over and over again when the 30-days Trial ends."

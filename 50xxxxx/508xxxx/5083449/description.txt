@@ -1,0 +1,66 @@
+NOW THAT IS NOT! YOUR USUAL PHOTOSHOP ;) WHAT YOU HAVE IN PHOTOSHOP TODAY [EG. PAINTNG ON 3D OBJECTS, HARDWARE BRUSHES, ETC. *EX* ALIAS WAVEFRONT HAD 15 YEARS AGO]... AND THAT WAS! THE CUTTING EDGE WORTH A FORTUNE.
+
+*********************************************************************************
+
+StudioPaint 9.5 for IRIX Qualification Products Version Software Date 
+StudioPaint 9.5 200006091522 
+
+Please Note The Following: 
+StudioPaint 9.5 for IRIX is qualified and supported only under the exact OS/Hardware configurations listed below. While it may be possible to use StudioPaint 9.5 for IRIX successfully with lower or higher versions of IRIX 6.5, Alias makes no guarantee of their fitness or reliability. StudioPaint 9.5 will not run at all under any version of IRIX prior to IRIX 6.5. 
+
+Memory and Graphics Requirements 
+We recommend a minimum of 128MB RAM to run StudioPaint 9.5 effectively. Unless otherwise stated, the maximum resolution setting for the graphics card is 1280x1024. Both Multi-headed and 8-bit graphics configurations are not supported. 
+
+Compatibility with other Alias software 
+You can only transfer files between the following combinations of StudioPaint and StudioTools (which is referred to in this document as Alias) or Maya: 
+StudioPaint 9.5 is compatible with Alias 8.5, 9.0, (StudioTools) 9.5, and 9.5.2, and Maya 3.0, 2.5, 2.0, and 1.5 (with plug-in). 
+StudioPaint 9.1 is compatible with Alias 8.1, 8.2, 8.5, and 9.0, and Maya 2.0 and 1.5 (with plug-in). 
+StudioPaint 9.0 is compatible with Alias 8.1, 8.2, 8.5, and 9.0, and Maya 1.5 (with plug-in). 
+StudioPaint 3D 4.0 is compatible with Alias 8.0, 8.1, 8.2, and 8.5 (with compatibility module). 
+StudioPaint 3D 3.3 is compatible with Alias 8.0 and 8.1. 
+StudioPaint 3D 3.2 is compatible with Alias 7.5, 7.5.1, 7.5.2 
+StudioPaint 3D 3.1 is compatible with Alias 7.0 and 7.0.1. 
+ 
+StudioPaint 9.5 Qualification Chart 
+Hardware Qualified on IRIX... 4MB TRAM Required Hardware Brushes 
+Octane R10K SI, SE IRIX 6.5.8m no no 
+Octane R10K SI, SE 
+- with TRAM IRIX 6.5.8m Yes no 
+Octane R10K SSI, SSE IRIX 6.5.8m no no 
+Octane R10K MXI, MXE [1] IRIX 6.5.8m Yes 12 bit 
+Octane R12K MXI, MXE [1] IRIX 6.5.8m Yes 12 bit 
+Octane2 R12K V6  IRIX 6.5.12m [6] n/a no 
+Octane2R12K V8 [5] IRIX 6.5.12m [6] n/a 12 bit 
+Octane2R12K V10  IRIX 6.5.12m [6] n/a no  
+
+Octane2 R12K V12 [5] IRIX 6.5.12m [6] n/a 12 bit 
+Onyx2 R10K Infinite Reality [2] IRIX 6.5.8m n/a 12 bit 
+Onyx R10K Infinite Reality [2] IRIX 6.5.8m n/a 12 bit 
+Onyx R4400 RE2 [3] IRIX 6.5.8m n/a 12 bit 
+O2 R5k [4] IRIX 6.5.8m n/a 8 bit 
+O2 R10k [4] IRIX 6.5.8m n/a 8 bit 
+O2 R12k [4] IRIX 6.5.8m n/a 8 bit 
+Indigo2 R10k Max Impact [1] IRIX 6.5.8m Yes 12 bit 
+Indigo2 R10k High Impact IRIX 6.5.8m Yes no 
+Indigo2 R10k Solid Impact IRIX 6.5.8m no no 
+Indigo2 R10k Killer Impact IRIX 6.5.8m no no 
+Indigo2 R10k Extreme IRIX 6.5.8m n/a no 
+Indigo2 R4400 Max Impact [1] IRIX 6.5.8m Yes 12 bit 
+Indigo2 R4400 High Impact IRIX 6.5.8m Yes no 
+Indigo2 R4400 Solid Impact IRIX 6.5.8m no no 
+Indy R4400, R5000 IRIX 6.5.8m n/a no 
+
+
+
+[1] At 1280x1024, you get 12 bit brushes. At 1600x1024, you get 8 bit hardware brushes. At anything larger than 1600x1024, you get our usual 8 bit software brushes. 
+[2]On an IR with 2 or more raster manager boards, you get 12 bit hardware brushes at all resolutions up to 1920x1200. 
+[3]On an RE2 with 2 or more raster manager boards, you get 12 bit hardware brushes at 1280x1024, or 1600x1200. 
+[4]On an O2, you get 8 bit hardware brushes at 1280x1024. No other resolutions are supported by StudioPaint on an O2. 12 bit hardware brushes are not, nor ever will be supported on an O2. All other machines provide our usual 8 bit software brushes. 
+[5]On an Octane V8/V12, you get 12 bit hardware brushes at resolutions greater than 1280x1024. 
+Note:If a user installs OpenInventor2.1.5 or later, they will require the base execution library from Patch 2752. 
+ 
+
+[6] Note: To run StudioPaint 9.5 on Octane2 in a qualified configuration, the following SGI environment variable must be set either in the user's shell, or their overall shell environment, (ie. .cshrc) prior to launch.
+
+>>setenv GL_ODY_FAST_CLEAR n
+ 

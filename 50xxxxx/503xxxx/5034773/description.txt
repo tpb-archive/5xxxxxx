@@ -1,0 +1,46 @@
+Kolor Autopano Giga is a software dedicated to the creation of panoramas, virtual tours and gigapixel images. Based on Autopano Pro software and including all its featues, Autopano Giga goes far beyond the creation of panoramas : stitch your images in 360Â°, export them into Flash virtual tours, link the tours together... so many possibilities to present in a new way all the photos and places you want to share. Resolution matters? Autopano Giga also enables you to stitch in a record time several hundred or thousand images to create photos of several gigapixels.
+
+With Autopano Giga, you can:
+â€¢ Automatically stitch images to create professional-quality panoramas
+â€¢ Transform the assembled images into virtual tours in a FlashÂ® format
+â€¢ Create complete virtual tours including several views
+â€¢ Stitch images coming from motorized panoramic heads, including Gigapan, Merlin/Orion, Clauss Rodeon and all Papywizard-compatible heads
+â€¢ Create panoramas of several gigapixels, stitching several thousand images together
+
+Changes in Kolor Autopano Giga 2.0.3 (07/30/2009):
+
+â€¢ FIXED : Crash when changing focal for fisheye lens
+When using the image propertie dialog box, some crash could occurs when you change lens type or focal length of a fisheye image.
+â€¢ FIXED : Circular crop display
+In the image properties dialog box, an issue has been solved with the display of the circular crop.
+â€¢ FIXED : Watermark can reappear
+* When using 'Restore default value' in the general settings or in the group dialog box, in some case, the watermark can come back even if the user is registered.
+â€¢ FIXED : Crash during rendering due to special characters in file name or cache folder
+* Fix a crash which result could be crash during rendering but also having a panorama with all the images beeing dispayed like the first one ( all the same ).
+* It only happened when having special characters either in the cache folder, or the folder than contains source images or the source image itself.
+â€¢ NEW : In Flash converter tools, 'limitation view' parameters
+* This feature limits the view (right/left/top/down) of the KRPano viewer. Very useful for partial panorama
+â€¢ UPDATED : Updated UI
+* Layout of the toolbar group box of the dialog box of the panorama editor settings has been changed
+â€¢ UPDATED : New Qt 4.5.2
+* This fix some issue with Mac Leopard version like for example the fact that dialog box were not displayed in the middle of the screen.
+* The only remaining issue with Mac Leopard is the fact that you still don't have access to the button of zooming / zoomout in panorama editor visually. You have still access to them through keyboard shortcut ( Cmd + 0, Cmd + 1 )
+
+:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-::-:-::-:-::-:-::-:
+:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-::-:-:-:-:-::-:-::-:-::-:
+ 
+                   Greetings fly to:
+
+ RobbingHood, W13,Hoofa,Room101bellboy asterastripp,virusofsaten, ill88eagle, Lama,Kentucky-Kid,Looksee,srijantje,Benny2guns,Toblakai,Ube1,Subtob, V-F,Reactor90 
+ 
+ also to WCT-SWE even if we not agree always. To you who help me seeding my torrents and at last to 
+
+"The Scene give me Stuff to work with"
+
+and to all I forgot!
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-::-:-::-:-::-:-::-:
+:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-::-:-:-:-:-::-:-::-:-::-:
+
+
+
+Enjoy

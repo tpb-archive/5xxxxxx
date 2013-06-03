@@ -1,0 +1,43 @@
+User Type,Username,Date,Text
+,-vip-,2009-07-20T08:49Z,"Thank you very, very much!"
+,3xil3,2009-07-20T17:14Z,Much appreciated!
+[T],captim,2009-07-20T17:37Z,"Not working for me. I've got some strange landscape issues. Land and lots of trees, where water should be..."
+,-vip-,2009-07-20T19:49Z,"Yep, me too. The entire coverage area water is land with trees! Damn it."
+,-vip-,2009-07-20T19:57Z,It may have something to do with this cache folder and the terrain.cfg inside of it. It seems it needs to be somewhere important.
+,s0sumi,2009-07-20T20:29Z,"terrain.cfg/cache are where they need to be. Possibly try running the configurator? (TongassFjords FSX.exe), it modifies the cfg.
+
+Sorry for the troubles"
+,s0sumi,2009-07-20T20:31Z,"andiand: size sounds right on. 1.55 GiB, 12 folders, 2771 files (# changes slightly with config changes)"
+,-vip-,2009-07-20T20:56Z,"Yeah, I ran that configurator and it fixed it. Thanks again."
+,s0sumi,2009-07-20T21:06Z,Welcome! Glad it works for you. I'll add that step to the description.
+,EmesiS,2009-07-21T09:33Z,"Thanx for the up dude......
+
+I had the all trees no water syndrome with another prog before, and if you have insatalled Ultimate Terrain X  then just run the setup tool again and it fixed the prob for me."
+[T],captim,2009-07-21T13:11Z,"Doesn't still work for me. I did all according to your instructions. I have the folder Tongass_Fjords direct in the FSX install dir and have run the configurator several times, made some changes and reverted them later and I still have those issues with land and trees all over :("
+,jackdow5,2009-07-21T19:43Z,"When the lower priority is inactive in file library, ocean is good, BUT the terrain is default. Maybe the problem is there?  Airport sceneries are ok"
+,jackdow5,2009-07-21T19:55Z,"s0sumi 
+
+I need the Repair tool program. After really install start menu/fsaddon/ tongass fjord. maybe an .exe or ?"
+,s0sumi,2009-07-21T21:49Z,"Seems like a common issue on their forum, sadly I have no repair tool. I'm guessing it's a shortcut argument to the same exe but I don't know what that switch is.
+
+Problem is in terrain.cfg though. Try comparing the cfg in cache to the one in your FSX root folder, they should be the same and the one in FSX main folder is the one being used. Could also try renaming the one in cache, run the configurator and see if it creates a new terrain.cfg file that's different, (could be read only issue or something)."
+,s0sumi,2009-07-21T21:51Z,"Also in this thread there's a file with the terrain entries that need to be added, if you're up to trying to add them manually.
+http://forums.fsaddon.eu/viewtopic.php?t=1948"
+,EmesiS,2009-07-21T22:04Z,"Yup, no worky here either...the official forum says to run the repair tool, but I don't see it in this rip. Anyone else see it?"
+,EmesiS,2009-07-22T04:10Z,"Well tried the terrain.cfg fix from the forum but it didn't work for me. Only way I can get water is to uncheck the lower priority in scenery library which is just bringing in the default MS water, and it craps out most of the nice scenery. What's weird is that around some airports there's a little water like PAFE, enough to land in at least. I guess Alaska is having one hell of a drought this year!"
+,EmesiS,2009-07-22T10:34Z,"Looks like this rip is not going to work correctly without the installer and repair tool. Which really sux cuz this is a good package, just needs the water fix somehow. Thanx anyway s0sumi, nice try."
+,Abdallah9,2009-07-22T17:03Z,"Not only the water, but the big part of the terrain add-on is missed /or  not work correctly!
+here is the original image in PAFE local: 
+http://h.imagehost.org/view/0637/AAAAAA
+
+And here is the same local in game with this torrent: 
+http://h.imagehost.org/view/0301/BBBBBB
+
+the diference is too much"
+,davincighost,2009-08-09T00:37Z,"Thanks s0sumi for this torrent. But not working for me too, IÂ´ve try every stuff and dont work..."
+,ErnestLoiseau,2009-08-17T14:03Z,"Turn off tour FTX mode!
+I don't have this one but it hapens the same with Ultimate terrainX"
+,gohomepop,2009-11-01T16:34Z,"s0sumi thanks for the upload :) I got it to work by manually editing the terrain.cfg but there still a couple of flaws. There are still some files missing. Can you look in your main fsx directory under Scenery\World\scenery and see if you have any files in there ending with or containing ""_elevation_adjustment"". If so could you upload those too."
+,N519AB,2009-12-09T23:52Z,"I don't know if this will help anyone else out, but after reading the forums, the scenery needs to be placed in an ""FSAddon"" folder, ie...  c:\program files\microsoft games\microsoft flight simulator x\FSADDON.   So just add \FSAddon to the install directory line,, and you're set.  BTW, has anyone else had compatability issues with TFX and Raimond Taburet's Canada-Alaska Vector?"
+,N519AB,2009-12-09T23:54Z,"I'm also running an older torrent that was 880, so it has the elevation issues.  I'm gonna try  a ghost install after I get this and see if I can't post the elevation data, as well as any missing .bgl's"
+,spudkiss,2012-04-08T23:10Z,can someone upload the terrain cfg. that contains the fix for this scenery for us that use windows 64bit. thank u and thanks for the upload...

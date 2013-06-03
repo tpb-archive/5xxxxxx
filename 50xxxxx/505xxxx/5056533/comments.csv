@@ -1,0 +1,40 @@
+User Type,Username,Date,Text
+,Ov4ar,2009-08-16T20:40Z,10x
+,ninjanutta,2009-08-16T22:02Z,"@lulushoutx  how many times have you uploaded this now? Its a 20 day trial,why dont you upload a serial or crack or something useful?"
+,revelation32,2009-08-17T01:28Z," A squared detected, Trojan-Downloader.Win32.Banload!IK
+
+Kaspersky detects it as Trojan-Spy.Win32.Banbra.df.
+
+And dr.web as Trojan.PWS.Banker.897
+
+Technical details
+
+This Trojan downloads other files via the Internet without the knowledge or consent of the user.
+
+The Trojan itself is a Windows PE EXE file written in Delphi. It is not packed in any way. The file is 47616 bytes in size.
+Payload
+
+Once launched, the Trojan downloads a file from the following URL:
+http://z10.***load.com/file.php?filepath=5855
+
+It saves this file to the Windows system directory as %System%\cms.jpg. This file will be detected by Kaspersky Anti-Virus as Trojan-Spy.Win32.Banbra.df.
+
+The Trojan will continue to run until the file has been successfully downloaded. The Trojan will then launch the file for execution and cease running.
+
+The path to the file which is downloaded may vary according to the Trojan variant.
+
+
+Here are the removal instructions:
+
+   1. Use Task Manager to terminate the Trojan process.
+   2. Delete the original Trojan file (its location will depend on how it originally penetrated the victim machine).
+   3. Delete the file downloaded by the Trojan:
+
+      %System%\cms.jpg
+
+   4. Update your antivirus databases and perform a full scan of the computer (download a trial version of Kaspersky Anti-Virus)."
+,LuluShoutX,2009-08-17T06:30Z,"@revelation32
+
+Don't say shit. Only unknown antiviruses has 2 false alarms. File is clean.
+
+http://www.virustotal.com/analisis/6f12ec97d34a7ba13ea81dcde922cfb57b3e75a02f34e089d4364c2306df3d17-1250481851"

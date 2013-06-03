@@ -1,0 +1,43 @@
+User Type,Username,Date,Text
+,tweakhoer,2009-07-24T22:58Z,Does this work on the RTM version?
+,Blazeu,2009-07-24T23:03Z,Havent tried it yet tweakhoer  im still downloading the latest RTM
+,4n0n,2009-07-25T00:34Z,How about waiting for a real crack? :S
+,Blazeu,2009-07-25T08:05Z,Tried it on the latest retail build then fowarded year to 2012 rebooted and everything still working fine.
+,Blazeu,2009-07-25T19:21Z,"1.0.5.0 supports both 32-bit (x86) and 64-bit (x64) editions of Windows Server 2008 and Windows 7. It supports at least up to Windows 7 Beta build 7000.
+However, it likely supports to crack the final RTM release of Windows 7 if the product activation module in the OS is not significantly changed.
+Windows 7 Beta 1 (build 7000) is now available for free download. However, Microsoft has not yet officially launch the beta program or customer preview program for general public yet, so there is no activation product key available yet. For Windows 7 enthusiasts who intends to use Windows 7 beyond the 30-day evaluation period aka activation grace period, other than rearm method and frankenbuild+OEM BIOS emulation method, the best bet is to use Windows 7 activation crack which disable WPA.
+pembros, a hacker who developed the popular TimerLock activation crack for Windows Vista, has compiled an executable, TimerNuke, that run a batch command script to disable the activation process in Windows 7 and Windows Server 2008. TimerNuke, also known as Windows 7 & 2008 Activation Disabler, actually does not stop the activation grace period countdown clock. Instead, it disables and removes several several services and files related to software licensing in order to bypass and skip the activation requirement.
+What TimerNuke does is that when executed, it stops and changes the startup type of sppsvc (Software Protection), sppuinotify (SPP Notification Service) and SLUINotify (SL UI Notification Service) services to disable. Then, the TimerNuke simply takes ownership and full control permissions on the following files, before backing them up and finally deleting them away.
+%SYSPATH%SLLUA.exe
+%SYSPATH%sppsvc.exe
+%SYSPATH%SLUI.exe
+%SYSPATH%sppuinotify.dll
+%SYSPATH%SLUINotify.dll
+Download TimerNukeSetup.zip or download from MDL Forum.
+Current Version: 1.0.5.0 BETA
+Once the Windows 7 or Windows Server 2008 is been nuked and cracked with TimerNuke, Windows will stop asking user to activate. The activation status and product ID becomes not available or unknown. Hence, the Windows may run forever without activation permanently.
+As an added bonus, the crack may also remove expiry date timebomb of beta and RC releases of Windows 7, although the TimerNuke crack does not specifically target to remove the time bomb. Who would want to use beta build when RTM build is released anyway?
+TimerNuke version 1.0.5.0 supports both 32-bit (x86) and 64-bit (x64) editions of Windows Server 2008 and Windows 7. It supports at least up to Windows 7 Beta build 7000. However, it likely supports to crack the final RTM release of Windows 7 if the product activation module in the OS is not significantly changed."
+,zephxiii,2009-07-25T23:09Z,"SharingAll: This crack actually does work. Those command lines you posted do nothing but report errors.
+
+ I am running this in VMWare. After I installed it, i exited vmware, set the host's OS Date to July 2012 which makes Vmware believe the date is actually 2012, booted back into cracked 7 which reports the date as 2012 automatically. The only error i got, was that my password was too old. 
+
+This crack does in fact work, but it may be vulnerable to MS updates that can deactivate it. BIOS method would be preferred. "
+,Blazeu,2009-07-26T17:04Z,No you dont have to set the clock forward i did it to see if it deactivated windows which it didnt
+,EnTek,2009-07-27T09:02Z,"It seemed to have worked on mine, there is not any product activation status or key under control panel then system."
+,Boxer_Dog_2002,2009-10-26T22:20Z,"Blazeu will this work on the retail Version 7600? seeing this worked on my RC Build 7100. Had many problems activating the RTM build 7600, i have used the Orbit patch and every other activator out there pretty much and nothing activates any advice would be appreciated thx"
+,benji2007,2009-11-17T23:12Z,"RC 7100. Works, and i also removed the watermark text too, but a few hours later, the watermark text re-appeared saying ""This copy of windows is not genuine"" 
+
+Every time i use windows photo viewer... i get a pop up message saying ""This computer is not running genuine windows"". Apart from that, the OS still works fine, but i doubt i'd be getting any more windows updates, which sucks! 
+
+I guess i'll just go ahead and but the real thing as i really like win 7. I could do without the hassle."
+,benji2007,2009-11-17T23:38Z,"**Update** 
+
+I tried doing a system restore to before i ran TimerNuke, due to the genuine popups i was getting. For some reason system restore rebooted my PC, but started with a ""system resotre failed"" message. (windows says it could be because of my antivirus (avira))... but anyway, the system is back to normal. TimerNuke is still active, no more watermark, and everything is running smooth again... for some reason. :))"
+,benji2007,2009-11-19T09:32Z,"*Update 2* 
+
+Unfortunately, the message seems to come back after a few hrs of use. This is an out of date activator. A better one can be found in the following link. While timernuke disables system files which leads to windows getting angry, the following activator actually installs a agenuine key +OEM of your choice. 
+
+To use the following activator, first uninstall timernuke here - http://www.mydigitallife.info/2009/01/04/timernuke-uninstall-and-removal-script-for-windows-7-and-server-2008/ 
+
+The download & install the proper activator here - http://thepiratebay.org/torrent/5169002/Windows_7_Activator_Loader_from_Hazar"

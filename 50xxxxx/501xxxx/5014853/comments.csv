@@ -1,0 +1,38 @@
+User Type,Username,Date,Text
+,W4R10CK,2009-08-07T04:34Z,"i get Error 002 i have 002 Fixed luncher !!!
+
+any 1 have same problem ?
+
+and how to fix that ?"
+,W4R10CK,2009-08-07T07:05Z,"The ISO is ok but you have to download this :  (http://www.vertor.com/torrents/1312933/FILES-AND-INSTRUCTIONS-TO-GET-SPORTS-RESORT-ON-PAL-Wii-TO-WORK ) and follow the instructions...
+
+thanks for upload."
+,jenylove777,2009-08-08T16:32Z,ok i want to download games for my wii and i dont even know where to begin on how to do it. can someone plz help? do i put it on a sd card or do i put it on a dvd?
+,brookheather,2009-08-22T16:03Z,"Read this guide on how to modify your Wii:
+
+http://forums.afterdawn.com/thread_view.cfm/773505
+
+You will need an SD card and a USB hard drive to store the game images."
+,skip79,2009-12-29T04:25Z,"this info may help
+
+Use NeoGamma as the USB Loader or use USB loader GX. Both have #002 fix.
+
+You need to get the alt-dol file from the Wii Sports Resort ISO.
+
+Open it in Wii Scrubber and go to partition2>sys >mpls_movie and save the player.dol file.
+
+Rename the Player.dol file to RZTE.dol
+
+For NeoGamma enable the #002 fix setting and Enable the Alt_dol setting. Place the RZTE.dol in the NeoGamma folder that should be located at the root of your SD card.
+
+For USB Loader GX enable the #002 fix setting and Enable the Alt_dol setting. Place the RZTE.dol in the root of the SD card.
+
+Both ways should work. Also I would update to cIOS38_rev14 which came out the other day.
+
+After you play the motion+ video the first time you can then disable the Alt_dol option in whatever USB loader you decided to use."
+,nbvnbv,2010-02-01T15:42Z,I have Neogamma r7 and v4.2 on the wii.  I followed the instructions to make it work and I was able to open it but it I can't get the menu of the games.  It starts wit a game of parachute that after a minute freezes.  Can somebody help me?  Thanks.
+,vicko23,2010-02-09T03:17Z,"RENAME FILE to RZTP01.dol, not RZTE.dol. This game can only be play with wii motion plus."
+[V],HobbitGamez,2011-02-20T09:45Z,"It shouldn't be necessary to download or extract any additional files.. if you have the latest version of your usb loader. Here is the NTSC version of the game with instructions on how to get it to work:
+http://thepiratebay.org/torrent/6166317/Wii_Sports_Resort_[WBFS]_(RZTE01)__NTSC__[wiiGM]"
+,Chuckster_uk,2011-10-19T19:13Z,"To play via gx loader 2.2 go to gx loader click on the game >settings> load, change dol from default to choose one from list,next option down change it to wii motion dol save and exit, then play game it will play the wii motion video then reset to the wii menu,go back into gx loader choose game again settings again then change the dol back to default save and exit then play the game,after you do this it plays normally everytime."
+,uRabbit,2012-04-22T16:52Z,"""No mountable file systems."""

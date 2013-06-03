@@ -1,0 +1,158 @@
+For those that cannot update using the Deploy Client due to dial up, time out or connectivity issues. 
+ 
+http://www.americasarmy.com/aa/intel/versions.php?id=27
+
+America's Army: Special Forces (Overmatch)
+Release Notes (Version 2.8.5)
+
+=======================================================
+What's new
+=======================================================
+
+This release includes ES2 updates to three maps, SF Courtyard, SF Hospital,
+Urban Assault. The maps have been updated with additional ES2 objects to discover
+and report. ES2 Bridge is a revised version of the classic Bridge Crossing
+map with new elements added such as ES2 objects with a new types of intelligence
+functionality. The new functionality includes unlocking access to a new path
+under the bridge, and supplying intelligellence on enemy positions.
+
+SF Courtyard
+"Intelligence reports that an illegal arms dealer is planning to 
+transfer stolen top secret material to an agent of a known terrorist 
+organization. Location of sensitive material is only known to be 
+located in vicinity C94M98A04. Reports confirm that there are willing 
+informants who know the exact whereabouts of the sensitive material."
+
+SF Hospital
+"Following an ambush by enemy forces, a wounded Resistance leader
+escaped to a neutral hospital for treatment of his wounds. The
+leader is a critical member of the Resistance government within
+Unconventional Warfare Area of Operations (UWAO) JAZZ."
+
+Urban Assault
+"A coalition convoy was raided and the cargo was stolen. It has
+been confirmed that the insurgents and the cargo are based in a
+residential area of the city. Due to the dense urban nature of the
+area it will be necessary to do a house by house assault on foot."
+
+ES2 Bridge
+"Enemy forces masquerading as refugees have ambushed the US forces
+defending bridge at grid WS663429. Your force returning from patrol
+is now on the hostile side of bridge, and must link up with your company
+headquarters to pass along time-sensitive information."
+
+=======================================================
+System Requirements (have not changed):
+=======================================================
+
+The current Minimum System Requirements for AA:SF (Overmatch) are as follows:
+
+- 3-D graphics card with 128 MB memory and support for hardware transformation and lighting
+- 2.4 GHz processor or equivalent
+- English version of Windows(r) 2000/XP Operating System with latest updates
+- 512 MB RAM
+- 3.5GB of uncompressed hard disk space for game files
+- 4X DVD-ROM (not required for downloaded installations)
+- Windows 2000/XP compatible system (including compatible 32-bit drivers for CD-ROM drive, video card, sound card,
+mouse and keyboard)
+- DirectX(r)9.0
+- 100% Compatible DirectX 9.0 soundcard
+- 56kbps Modem or other network connection
+- *Nvidiaï¿½ nForceï¿½ or other motherboard/soundcards containing Dolby Digitalï¿½ Content Encoder required for
+Dolby Digitalï¿½ audio.
+
+
+The current Recommended System Requirements for AA:SF (Overmatch) are as follows:
+
+
+- 3-D graphics card with 256 MB memory and support for hardware transformation and lighting
+- 3.0 GHz processor or equivalent
+- English version of Windows(r) 2000/XP Operating System with all updates
+- 1 GB RAM
+- 3.5GB of uncompressed hard disk space for game files
+- 4X DVD-ROM (not required for downloaded installation)
+- Windows 2000/XP compatible system (including compatible 32-bit drivers for CD-ROM drive, video card,
+sound card, mouse and keyboard)
+- DirectX(r) 9.0
+- 100% Compatible DirectX 9.0 soundcard
+- Broadband Network Connection
+- NVIDIA(r) nForce(tm) or other motherboards/soundcards containing the Dolby(r) Digital Interactive
+Content Encoder required for Dolby Digital audio
+
+
+=======================================================
+Technical Notes
+=======================================================
+
+********************************************
+** IMPORTANT NOTE FOR SERVER HOSTS/ADMINS **
+********************************************
+
+NOTE: The cooperative missions will take significantly more CPU resources to run during normal gameplay
+due to the additional AI processing load (shared between the server & client). Server hosts planning to run
+Co-Op servers should plan accordingly. In addition, players running a Co-Op server and client on the same
+machine will experience heavy CPU demand.
+
+It is recommended that server rotations switch only from Co-Op level to Co-Op level, or MP to MP level for
+best performance.
+
+
+--------------------------------------------------------
+GAME PORTS:
+--------------------------------------------------------
+
+The internet ports currently required to be open for America's Army v2.8.5 are listed below:
+
+UDP - 1716, 1717, 1718, 8777, 27900
+TCP - 14200, 20025-45, 20046, 20047, 20048, 28910
+
+UDP ports explained:
+1716 for the Game,
+1717 for the GameQuery,
+1718 for the Master Server Query,
+8777 for the Standard UT Query, and 27900 for GameSpy.
+
+TCP ports explained:
+28910 for GameSpy
+20025-45 for MBS Game Server,
+20046 for the Auth server,
+20047 for MBS, 20048 for DCDS, and 14200 for LAN.
+
+=======================================================
+What's Fixed
+=======================================================
+
+NOTE: This list only includes bugs present in v2.8.3.1 that have been fixed.
+Bugs fixed related to new v2.8.4 features and certain security/exploit fixes have been removed from this list.
+
+-------------------------------------------------------
+
+Map Specific
+- ES2Border: Rebuilt map to re-add lighting to interiors.
+- ES2Border: Adjusted Civilian AI logic to reduce the chances of civialians running into the line of fire
+- ES2Border: ES2 Points are now more evenly awarded to the reporting player as well as live team members
+- ES2Border: Scoring for ES2 objects has been re-evaluated and is now the same for all maps. Points are
+now reflected by the value of the reported object
+- ES2Border: Fixed terrain and player sticking issues
+- ES2Border: Fixed various building anomolies
+- ES2Border: Changed all Triggers and Objectives to be hidden while viewing in single player.
+- ES2Border: Fixed issue with IED exploding even when not visible
+- ES2Border: Fixed ES2 objects that did not spawn flags when reported
+- ES2McKenna: Fixed AAR Instructor's face and hands
+
+Miscellaneous
+- Fixed issues with Friendlies showing up as Op-For when spectating in a co-op mission.
+- Fixed a problem with ES2 objects not showing up after the game round is restarted.
+- Fixed issue with the camera sinking through the ground while ragdolling in first-person. It was caused
+by a counter not being incremented unless the ragdoll was being rendered. Bumped the eye position up a
+few units when the player is dead just to ensure the camera doesn't even partially look through the ground.
+- ES2: Added capability to damage ES2 objects. Added several damageable ES2 objects to the ES2 maps.
+- ES2: Added objectives to the list of grenade damagable objects
+- ES2: Tweaked spawning probabilities of certain ES2 objects
+
+Improvements
+- AI: ES2Border civilians should now take appropriate cover when approached by US Forces or fired upon. Civilian
+will be capable of wandering, hiding/running from grenades, bullets and players.
+
+
+

@@ -1,0 +1,47 @@
+User Type,Username,Date,Text
+,restige,2009-08-20T03:27Z,This is genius.  But I still think that uploading the actual torrents as files would have been better than stuffing them in an SQL database.
+[T],kremit69,2009-08-20T03:41Z,"i like it. stuffing all of TPB torrents in one download would have been real big lol. This way its small, and contains the essentials."
+,iRish_Pirate,2009-08-20T05:03Z,"@restige
+
+The .torrent file for that download would have been over 10MB in size, I feel sure. Plus, this allows high compatibility with other programs, and easy search/sort features.
+
+@daniel33
+
+Thank you SO much!"
+,daniel33,2009-08-20T11:45Z,"Scrolling over the entire index is not possible at the moment but i will implement it in case i'm doing a second version.
+
+Right now the app is scanning the search.index which only contains id and title and then gets the additional data torrent by torrent. This is not useful for > 500 torrents.
+I tried to search the database directly but this takes more than 10 minutes for one search because there is no index on the title column."
+[V],Mbb15,2009-08-20T12:08Z,Thanks
+,isT0rrenT,2009-08-20T16:15Z,"I always get ""The File search.index was not found.
+
+I have search.index, SQLite3.dll and TPBBrowser in the same folder, called browser in D:/U-Trrent/Finished/TPBBrowser/"
+,isT0rrenT,2009-08-20T17:17Z,"Worked, thanks. I still dont know how to set up the Code, you know, like tbdev but that isn't any sql file.."
+,daniel33,2009-08-20T17:31Z,"isT0rrenT: you can convert the db file to sql with SQLite Browser: http://sqlitebrowser.sourceforge.net
+
+however dont ask me how exactly to convert it cause i didn't try myself, besides i don't think that you can use that with tbdev.net because it probably uses other table structures"
+,x2rob,2009-08-21T14:37Z,"
+Thank you very much! 
+
+I am downloading the full ""Anonymous' "" 21.3 GiB torrent, but I don't think I would know how to use it... Now you gave us the light and is teaching us how to use it.
+
+I'll start downloading your torrent now and I'll seed it forever!
+
+Best regards
+
+robs
+----------------------------------------------------- --&"
+,vlayco33,2009-11-27T01:38Z,"TO isT0rrenT -
+Do you have NET Framework installed?
+
+That might be the problem"
+,vlayco33,2009-11-27T01:41Z,"Thanks for this!
+
+Hope you'll soon resolve the issue with over 500 torr results.
+
+Also you could do something with 'sort by' option
+Name, size, type. 
+It's a litlle messy like this
+
+otherwise, fine app!"
+,Bodhi2010,2012-02-16T03:08Z,you can find tracker sources for it on www.bvlist.com

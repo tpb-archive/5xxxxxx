@@ -1,0 +1,24 @@
+ http://bayimg.com/oaddHaACe
+
+Andre Bogus - Lighttpd
+Packt Publishing | 2008 | ISBN: 1847192106 | Pages: 236 | PDF
+
+LightTPD is a secure, flexible, and most importantly, light web server designed and optimized for high performance environments. It is open-source and licensed under the revised BSD license. Its event-driven architecture optimized for a large number of parallel connections, its advanced features (FastCGI, CGI, Auth, Output Compression, URL Rewriting, and many more), and its small memory footprint compared to other web servers, make LightTPD the perfect server software for every web server that suffers load problems or for serving static media separately from dynamic content.
+
+LightTPD supports the FastCGI, SCGI, and CGI interfaces to external programs, permitting web applications written in any programming language to be used with this server. Excellent performance for PHP, a particularly popular language, has received special attention. Additionally, LightTPD has become popular within the Ruby on Rails community.
+
+What you will learn from this book?
+The book teaches the reader to install, configure, and work with Lighttpd:
+
+* Working with Lighttpd 's web application interfaces
+* Configuring Lighttpd to use SSL
+* Preventing attacks and minimizing damage if attacked
+* Virtual hosting
+* Migration from Apache to Lighttpd
+* Setting up web applications and frameworks: Ruby on Rails, WordPress, MediaWiki, trac, AjaxTerm, and more
+* Understand and harness Lua/FastCGI
+* Writing custom modules/plugins for the Lighttpd API
+
+Who this book is written for?
+
+This book is for System Administrators or Web Developers seeking a lean deployment platform for web applications or who want to switch to a "lighter" web server than Apache.

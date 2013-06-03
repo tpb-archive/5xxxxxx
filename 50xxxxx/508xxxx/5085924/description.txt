@@ -1,0 +1,46 @@
+
+                          *******   *    *  *     *   *****
+                             *      *    *  *     *   *
+                             *      ******  *     *   *
+                             *      *    *  *     *   * ****
+                             *      *    *  *     *   *    *
+                             *      *    *  *******   ******
+
+
+                                Mobiion MagiCall v2.2.2
+
+
+
+                                                             
+MagiCall is a smart tool for bidirectional calls filtering and SMS filtering. It is the only product in the world that can not only filter incoming calls but also filter outgoing calls. With MagiCall, you have the ability to block unwanted 
+callers, automatically hang up on someone bothering you, and more! Stop anyone you just don't feel like speaking to at the moment from disturbing you. Automatically add prefix number in front of the original dialing number based on your 
+rule. Hang up predefined outgoing numbers such as international calls. In addition, you can also take control of your incoming SMS Messages. Reply back or forward SMS to someone or launch an application when a rule is being triggered. And it can log detail information about all triggered events to the log file.
+
+
+
+                                  Changelog Version 2.2.2
+  
+
+* Added new contextual parameter - {msg-clip}, which represents the content of a received SMS but excluding the matched keyword
+
+* Now supports negative logic in the [Phone #] field, by using a leading letter '~'
+
+* Now the notification window for ignoring will be kept after the remote party ends the call
+
+* Added a new command line parameter "-lv", used to show Log Viewer
+
+* Added supports to filter SMS sent from contacts' email addresses
+
+* Fixed: SMS Move causes exceptions when checked [Show notification] but not checked [Log events]
+
+* Fixed: Data connection lost for CDMA devices after hanging up a number of incoming calls
+
+* Fixed: Email Account option is not saved for the Smartphone version
+
+* Fixed: Keep Login Minutes option is not saved for the Smartphone version
+
+* Fixed: Program crashes when using Change Dialed Number: {phone}[-x,y], while the original phone number's length is equal to x+y
+
+* Fixed: An incompatible issue between MagiCall home plug-in and SBSH Facade
+
+* Fixed: Upgrades may cause the Today plugin and SMS filtering features not working

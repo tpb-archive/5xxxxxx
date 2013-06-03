@@ -1,0 +1,144 @@
+User Type,Username,Date,Text
+,Thomson486,2009-07-21T19:21Z,"Hm, tried it on my TomTom ONE second version, wont work :("
+,JoBBeR,2009-07-22T04:30Z,I have the TomTom One Second Edition and it won't work on mine either.
+,pinkfloydledzep,2009-07-25T20:43Z,didn't work. tomtom 510
+,pops66,2009-07-27T22:14Z,not working on tt onexl 
+,sheasy22utd,2009-07-29T12:25Z,has this worked for anyone i have tomtom xl and dnt wanna download jus yet..unless sum1 says it works ha
+,cb0279,2009-07-29T16:28Z,hi i hav a tomtom xl i havent a clue how 2 get this on 2 my tom tom can sum 1 help me plz n i was wondering if any 1 new were i could get tomtom traffic updates from thnxs 
+,cobra-uk,2009-07-29T17:27Z,"cb0279 - You can't get traffic updates without the receiver,or a subscription to tomtom.To put voices or anything else on your tomtom,connect to computer,and open as a portable drive,then just copy and paste."
+,BygDon,2009-07-29T18:13Z,Cant get it to work either.  I have been able to get other voices to work in the past.  Don't know what the issue is.
+,pops66,2009-07-30T14:34Z,"an ask to all the peeps seeding this....or the uploader......does this need some kinda activation...dumped it on all my satnavs.....
+it works on none of them......?"
+,weeblpie,2009-07-30T16:55Z,"This worked for me, BUT it first needs to be signed.
+
+To do this, use the EasyUseTools package with this meta key to generate a NEW data110.chk.dct file:
+
+; data110_Homer
+D1 C7 C6 C2 AB 65 10 33 9E F7 79 39 C4 57 42 30 data110.chk
+
+To do this put the following in the same directory:
+
+* meta.txt (a file containing the above meta line)
+* all of the files from this download
+* tt8_keygen.exe
+
+Then run this command (substitute with your actual device ID):
+tt8_keygen.exe "".\"" """"
+
+It will generate a new data110.chk.dct file. Copy this .dct file along with the .chk, .tlv, .bmp and .vif to the \voices directory of your TomTom."
+,pops66,2009-07-30T19:39Z,"as weeblpie says or 
+
+put the files in the map folder and activated the map with easy activater then cut n paste the files out and into the voices folder
+
+; HOMER Voices
+;
+; data63_Homer
+D1 C7 C6 C2 AB 65 10 33 9E F7 79 39 C4 57 42 30 data63.chk
+; data110_Homer
+D1 C7 C6 C2 AB 65 10 33 9E F7 79 39 C4 57 42 30 data110.chk
+; data115_Homer
+83 40 A8 12 25 72 C0 16 14 67 59 E5 33 3A 73 E4 data115.chk"
+,Dead Metal,2009-07-30T23:57Z,"You'll have to do what ""weeblpie"" or  ""pops66"""
+,Dead Metal,2009-07-30T23:57Z,says
+,FyreBoi,2009-07-31T08:25Z,Does anyone have the US version?
+,deathcup,2009-08-18T23:15Z,"anybody got some more in depth comments for how to make this work? 
+the Easy activator doesn't seem to like these files and Easy Use Tools does not appear to change the files when using weeblpie's method"
+,Cerebral,2009-08-19T11:50Z,"Worked for me (using Tomtom on windows mobile)
+
+First, create a file, meta.txt in the same folder where the downloaded files are. These two lines should be inside:
+
+; data110_Homer
+D1 C7 C6 C2 AB 65 10 33 9E F7 79 39 C4 57 42 30 data110.chk
+
+Delete the file data110.chk.dct that you downloaded
+
+
+Run the program tt8_keygen.exe like this:
+
+tt8_keygen.exe PATH DEVICEID
+
+where you replace PATH with the actual path of your files on the hard drive - and DEVICEID with the id found inside your TOMTOM application, it will look somehting like this (remove space in deviceid):
+
+tt8_keygen.exe c:\downloaded\homervoice\ ABCDEFABCDEF
+
+It will generate a new data110.chk.dct file. Copy this .dct file along with the .chk, .tlv, .bmp and .vif to the \voices directory of your TomTom. 
+
+
+Done and working for me, exactly like that."
+,25789,2009-08-21T15:16Z,Do you know where i can find the DEVICE ID in the application? Can't find it anywhere. :(
+,SaXXXon,2009-09-07T02:00Z,tried on htc diamond. gets the right files and anything but when i upload it to my phone i cant find it in the voicemenu. plz help??
+,FotherMucker,2009-09-24T20:14Z,"I love Albert (and his easy activator)! :)
+
+Thanks for this great DO'Hnload!"
+,varman10,2009-10-04T21:33Z,"can someone give me step-by-step instructions?
+I am on a mac, but I have a PC as well. 
+
+Any help will be appreciated
+
+*********
+
+Sharing is Caring"
+,smcnorway,2009-11-24T23:52Z,"Hello,  I am trying to find TT8 keygen.  any help I have searched with no luck"
+,Skye430,2009-11-28T10:21Z,"Um for anyone who is still wondering on how to activate this voice:
+
+- Go to your EasyUseTools folder 
+- Open your Prog folder
+- Open your meta.txt file
+- Paste 
+   ; data110_Homer
+D1 C7 C6 C2 AB 65 10 33 9E F7 79 39 C4 57 42 
+30 data110.chk
+And save
+- Run RunMeForMetaKey.cmd
+- Options 1, 1 and then your Tomtom's Drive 
+
+-Go to your preference and change the voice and thats it :)"
+,Madd_Dowg,2009-12-02T20:10Z,does not work on TOMTOM ONE 125 SE it locks it up!
+,chipsterd,2009-12-20T00:35Z,so... I spent 2 days trying to get this to work using all the excellent advice given in previous posts. My boss threatened to fire me and I lost about 2 days of pay... and then I simply paid ÂŁ7.95 and it worked perfectly...go figure
+,BenDerova,2009-12-29T12:04Z,"Instructions don't work
+If so, they are hard to follow.
+
+Thanks for the upload but...
+I've tried the Easy Activator, the Easy Use Tools, TT8 Keygen, none of which work.... Yet.
+I will continue to try."
+,BenDerova,2009-12-29T12:27Z,"Can anybody shine light on this?
+This is very frustrating.
+
+The furthest I've got is ""fault in check name id hash"" when it does data110 in the ""RunMeforMetaKey.exe"""
+,BenDerova,2009-12-29T12:41Z,"Not even worth trying anymore.
+Thanks but no thanks.
+
+*TomTom One (v8) - Go*
+*one2008_t_1024_m_tts*
+
+Doesn't work."
+,iamabmf,2010-01-20T02:13Z,"Oh my am I glad I stuck with this. Here is how I got it to work for me. Create a text file named meta.txt with the following code: 
+
+; data110_Homer
+D1 C7 C6 C2 AB 65 10 33 9E F7 79 39 C4 57 42 30 data110.chk
+
+Then, save this file and the files from the download in the same folder.  Using Alberts Easy Activator select the Use TT8_Keygen.exe for step 1. Step 2; navigate to your device and select the .bif file. Step 3; select the folder the files to add are in. Step 4; select the meta.txt file you created above. Click on Generate the *.meta.dct file. 
+
+Then go to the folder on your computer where the downloaded files are and copy and paste all to the voices folder on your device. Then, enjoy. "
+,nutch,2010-01-26T09:52Z,The Homer Simpson voice is now free on the TomTom support website.
+,ftzlatan,2010-02-07T19:17Z,i cant do it... can anybody tell me (step by step)how i can make it work? i'm really unexperient on this
+,dagobah,2010-03-07T16:39Z,Gonna give it a try.  Still $13 from Tom Tom
+,jason2025,2010-03-26T09:21Z,"I also struggled with this, and finally figured out what was causing the problem, so try this.
+
+Put the downloaded files in a folder:
+
+c:\homervoice
+Put tt8_keygen.exe in the root of c:
+put the meta.txt file also in the root of c:, NOT in the folder that contains the files. 
+
+Run the command:
+
+tt8_keygen.exe c:\homervoice\ ABCDEFABCDEF
+
+Replacing the ABCD... with your device id.
+
+That worked for me."
+,alasdair97,2010-07-25T14:40Z,plug in your tomtom go to my computer/tomtom/voices copy the downloaded files there done
+,radik4li,2011-01-15T15:06Z,Dont work
+,luke_s,2011-03-28T16:17Z,"Doesn't seem to work on TomTom XXL due to ""restrictions""."
+,cow_man,2011-09-11T23:43Z,"My ONE says ""You did not select a useable voice"""

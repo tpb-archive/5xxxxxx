@@ -1,0 +1,55 @@
+User Type,Username,Date,Text
+,Malayac,2009-07-24T21:59Z,"I can't believe!!!
+Not even one thanks.....even ONE comment!?!?!
+Shame on you all who just took without saying anything!!!!!!!!!!
+
+From my self @NoExuses...thank you very much for sharing!Great job!"
+,maoten,2009-07-28T11:14Z,"very useful,
+Many Thanks. :D"
+,patrian,2009-07-31T12:50Z,"Thanks m8.....
+
+I wish to make job....."
+,ripclaw,2009-08-05T00:24Z,Thanks for the upload!
+,jayneo8,2009-08-05T18:14Z,Awesome torrent. Works perfectly. Thanks!
+,sharebird,2009-08-12T07:10Z,"Perfect timing, thanks!!"
+,dmayan,2009-08-12T19:43Z,Thanks man!!
+,sharebird,2009-08-13T07:56Z,"I wrote yesterday saying thanks (before I d/l'd)... but today my av picked up a backdoor when I ran the app. 
+
+Details:
+AV program:  Avira
+Virus:  BDS/Backdoor.7168.C
+Exe:  svchost.exe
+Location:  C:\Users\\Application Data\Thinstall\R-Studio 5.0\1000000600002i\svchost.exe
+
+It seems like the portable exe drops a backdoor named svchost.exe into my application data directory for r-studio and tries to run it.  This does not sound at all like a false positive, and svchost.exe is a well-known exe name for a variety of viruses.
+
+Can anyone else verify this?"
+,sharebird,2009-08-13T08:18Z,"The above virus message occurs whenever I open or save an image to/from disk.  For example, if I select a drive and choose 'Create Image', a dialog pops up asking me where to save.  This dialog is immediately followed by the warning from my av.
+
+A scan of the original download files comes up clean, however... the virus seems to be compressed/encrypted within the portable executable.
+
+Can anyone verify?  Either by running with av guarding, or by running and looking in the application data directory for a svchost exe or tmp file?"
+,sharebird,2009-08-15T01:58Z,Nobody?  
+[V],NoExcuses,2009-08-15T11:50Z,"@sharebird
+I 've already answered in my other comments, but I report them here too.
+
+http://www.virustotal.com/analisis/dae8b8c4b5b097a5eb89f7711a6994f80342397cc51fdef5b2419774a93ae5fc-1250322042
+
+This is the result of the VT scan of the svchost.exe file that you name. Effectively it gets a few hits from minor AVs, while the Big Ones doesn't find anything wrong in it. Looks like Thinstall uses a stripped down version of the regular program delivered by M$, but as the version of Thinstall that I use is quite old, I suppose that if there was a virus in its creations they should have been coming up earlier. Time to put Avira too in the Paranoid list. Anyway, if you trust more in your AV than in my Portable no problem, use the normal setup or build your own portable using Thinstall/Thinapp or something similar. BTW, scanned also by ThreatExpert this file doesn't do anything harmful but as usual, check by yourself, never trust too much in anybody, 'cause everybody can make a mistake... :o)"
+,fredpc,2009-08-17T23:45Z,"sharebird
+refer to...total commander 7.50 rc1 portable page I have left a comment for you to read :)"
+,fredpc,2009-08-17T23:48Z,"NoExcuses 
+I never had any problems with your torrents and just like to say....keep up the gr8 work :)"
+,sharebird,2009-08-19T01:06Z,"Read the other comments, thanks for the replies.  I think fredpc has hit the nail spot on... I think the version of Thinstall you're using is itself infected.  Fredpc reports seeing the exact behavior I'm describing after downloading an infected version of Thinstall... he resolved it by downloading another version.
+
+Think you may need to do the same  : (
+
+I appreciate your efforts, though, you have some excellent apps (and with a good AV running to catch this, they are still usable).
+
+Thanks!"
+[V],NoExcuses,2009-08-19T09:33Z,"@sharebird
+Read my answer here:
+
+http://thepiratebay.org/torrent/5059196/Atomic_Mail_Sender_v4.27_Portable
+
+and try to remember always of false positives..."

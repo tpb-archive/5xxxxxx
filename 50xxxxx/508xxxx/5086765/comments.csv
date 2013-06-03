@@ -1,0 +1,307 @@
+User Type,Username,Date,Text
+,DrVolker,2009-09-12T18:14Z,"During the install, use this key:  YFKBB-PQJJV-G996G-VWGXY-2V3X8
+
+Then run the Vista Loader 4.0 after installation is complete."
+,DrVolker,2009-09-12T19:04Z,"; vLite preset file
+;
+;#Environment:
+; vLite v1.1.6
+; Framework 2.0.50727.42
+; Microsoft Windows NT 5.1.2600 Service Pack 3 32-bit
+;
+;#Target:
+; Windows Vista ULTIMATE 32-bit 
+; Version 6.0.6000.16386 English (United States)
+;
+[Compatibility]
+Aero Glass
+File and printer sharing (Server)
+Internet Explorer
+Internet Information Services (IIS)
+Recommended
+Scanners and Cameras
+Windows Fax and Scan
+
+[CustomHide]
+
+[Components]
+;# Accessories #
+Accessibility
+Character Map
+Disk Cleanup
+Mobility Center
+Paint
+Snipping Tool
+Speech Support
+System Information
+Welcome Center
+Windows Sidebar and Gadgets
+Wordpad
+;# Drivers #
+Display adapters-Ati
+Display adapters-Intel
+Display adapters-S3
+Display adapters-SiS
+Diva Server
+Ethernet network adapters
+Printers-Apollo
+Printers-Brother
+Printers-Canon
+Printers-Citizen
+Printers-Dell
+Printers-Diconix
+Printers-Epson
+Printers-Fujitsu
+Printers-Generic printer
+Printers-Gestetner
+Printers-HP
+Printers-IBM
+Printers-Infotec
+Printers-Konica
+Printers-Konica Minolta
+Printers-Kyocera Mita
+Printers-Lanier
+Printers-Lexmark
+Printers-Minolta
+Printers-Minolta-QMS
+Printers-NEC
+Printers-NRG
+Printers-Oce
+Printers-Oki
+Printers-Okidata
+Printers-Olivetti
+Printers-Panasonic
+Printers-QMS
+Printers-Ricoh
+Printers-Samsung
+Printers-Savin
+Printers-Seikosha
+Printers-Sharp
+Printers-Sony
+Printers-Star
+Printers-Tally
+Printers-Tektronix
+Printers-Wipro ePeripherals
+Printers-Xerox
+QLogic Fibre Channel Adapter
+Storage controllers-Adaptec
+Storage controllers-Elxstor
+Storage controllers-Hewlett-Packard
+Storage controllers-IBM ServeRAID
+Storage controllers-ICP vortex
+Storage controllers-Intel
+Storage controllers-ITE
+Storage controllers-LSI Logic
+Storage controllers-MegaRAID
+Storage controllers-nVidia
+Storage controllers-Promise
+Storage controllers-SiS
+Storage controllers-ULi
+Storage controllers-Via
+TV Tuners-ADS Technologies
+TV Tuners-ASUSTeK Computer Inc.
+TV Tuners-AVerMedia Technologies, Inc.
+TV Tuners-Compro Technology Inc.
+TV Tuners-Conexant Systems, Inc.
+TV Tuners-Creatix
+TV Tuners-Hauppauge
+TV Tuners-KNC ONE GmbH
+TV Tuners-KWorld
+TV Tuners-Lumanate, Inc.
+TV Tuners-Philips Semiconductors
+TV Tuners-Pinnacle Systems
+TV Tuners-TerraTec Electronic GmbH
+TV Tuners-VidzMedia Pte Ltd.
+TV Tuners-ViXS Systems Inc.
+;# Games #
+Inbox Games
+Premium Inbox Games
+;# Hardware Support #
+Dynamic Volume Manager
+Firewire (1394)
+Infrared Support
+Internet Small Computer System Interface (iSCSI)
+Smartcards
+Windows Mobile Device Center
+WLAN Support
+;# Languages #
+Arabic
+Brazillian
+Bulgarian
+Croatian
+Czech
+Danish
+Dutch
+Estonian
+Finnish
+French
+German
+Greek
+Hebrew
+Hungarian
+Italian
+Japanese
+Korean
+Latvian
+Lithuanian
+Norwegian
+Polish
+Portuguese
+Romanian
+Russian
+Serbian
+Simplified Chinese
+Slovak
+Slovenian
+Spanish
+Swedish
+Table Driven Text Input Processor
+Thai
+Traditional Chinese
+Turkish
+Ukrainian
+;# Multimedia #
+Media Center
+Movie and DVD Maker
+Music and Video samples
+Sample Pictures
+Screensavers
+SideShow
+Sound Recorder
+Windows Calendar
+Windows Media Player
+Windows Photo Viewer
+;# Network #
+Connect to a Network Projector
+MSN Installer
+Remote Desktop and Assistance
+Remote Desktop Client
+Windows Collaboration
+;# Services #
+Computer Browser
+Diagnostics
+Distributed Link Tracking Client
+Distributed Transaction Coordinator (DTC)
+Error Reporting
+IP Helper
+Microsoft DFS Replication
+Offline Files
+Protected Storage
+Quality Windows Audio Video Experience
+ReadyBoost
+Remote Registry
+SuperFetch
+TPM Base Services
+Universal Plug and Play (UPNP)
+Volume Shadow Copy
+Windows Event Log
+Windows Remote Management
+Windows Search
+Windows Time
+;# System #
+BitLocker Drive Encryption
+Digital Locker
+Disk Defragmenter
+Disk Quota
+Guided Help
+Help
+IMAPIv2 Burning Support
+Malicious Software Removal Tool
+Manual Install (Setup.exe)
+Microsoft Agent
+Natural Language
+Parental Controls
+Reliability and Performance Monitor
+Remote Differential Compression
+Run a legacy CPL elevated
+Security Center
+Sync Center
+System Restore
+Tablet PC
+User Account Control (UAC)
+Windows Backup
+Windows Defender
+Windows Easy Transfer
+Windows Picture and Fax Viewer (Shimgvw)
+Windows SAT (Performance Index)
+Windows Ultimate Extr"
+,Spawn66x1,2009-09-15T01:04Z,"Any Instructions on Installing.
+
+Currently Burned to Disk, Booted from CD but didn't show anything. Just skipped to Original OS.
+
+Anything special to do when burning?"
+,DrVolker,2009-09-15T14:02Z,"@Spawn66x1
+
+Nothing special needs to be done.  What type of computer do you have?  Please list your processor, amount of RAM and is it a laptop or desktop?  Thanks.  I always use Nero and burn at half the rated speed of the disc. (If the CD is 48x max, then I burn at 24x; likewise if the DVD is rated at 16x, I burn at 8x)
+
+You can try installing this in a virtual machine (e.g. Microsoft Virtual PC) to see it work.  It definitely works.  The only thing I did differently with this is to slip the Vistaloader into a folder inside the ISO using MagicISO.  This should not affect the installation.
+"
+,DrVolker,2009-09-15T14:05Z,"I would appreciate others giving their feedback too.
+
+@Spawn66x1
+Please list your video card type too.  It might be related to that."
+,DrVolker,2009-09-15T19:29Z,"For all n00bs:
+
+This is an ISO image.  Use Nero to burn this as an image.  Do _not_ burn it using the ""Data CD"" option in Nero."
+,Spawn66x1,2009-09-16T10:54Z,"Yes I burned correctly. 
+
+I got it to work. Had to manually tell it to boot from cd rather then doing it by itself. it skipped it. either way. Got it to boot, worked great. installed perfect. 
+
+The OS works perfect for even an old machine I have.
+"
+,Hanekwan,2009-09-16T23:54Z,"Hi
+Thnx for sharing.
+Vista sp1 or sp2 or just Vista(0) ?
+thanx"
+,DrVolker,2009-09-17T17:49Z,"@Hanekwan
+
+It's RTM (original release in 2007 prior to any service packs)."
+,Hanekwan,2009-09-17T17:52Z,Thanx Drvolker :-)
+,kuciumbaukentutmu,2009-10-06T18:39Z,"Thanks a lot man, it works perfectly. But when i finish install it, all my driver is gone. It said there is no audio driver installed. Can you help me plz! Any solution? Btw, where is the VistaLoader 4.0? I can't seem to find it bcoz this torrent only have 1 file (Vista Lite). And thanks again DrVolker!"
+,sparkoz,2009-10-08T07:04Z,do i have to manually install drivers after installing this?
+,DrVolker,2009-10-08T13:51Z,"@kuciumbaukentutmu ""It said there is no audio driver installed. Can you help me plz! Any solution? Btw, where is the VistaLoader 4.0? I can't seem to find it bcoz this torrent only have 1 file (Vista Lite). And thanks again DrVolker!"" 
+
+Yes, of course, there are no drivers included.  I posted what I removed.  You have to install your own drivers.  If I included all the drivers it wouldn't be only 582MB. :-)
+
+Vistaloader 4.0 is accessible after you finish installing.  Insert the Vista Lite CD, click on the Vista Lite icon in Windows Explorer and look for the Vistaloader folder.  It is there. ;-)
+
+@sparkoz ""do i have to manually install drivers after installing this?""
+
+Yes.  As you can see, I removed video drivers and Vista doesn't come with much audio driver support anyway.
+
+You'll find this is the best way, because there is no chance for driver conflict.  Vista-supplied drivers come from Microsoft and are not always the best for your hardware, so if you install a newer driver on top of the old one, there can be problems because of the old driver hanging around in the registry or other places.
+
+This is a clean install of Vista without the Microsoft-supplied drivers.  See my third post for a list of what was removed.
+
+No problem though, just go to the manufacturers websites for your Vista drivers.
+
+Good luck. ;-)"
+,sparkoz,2009-10-09T12:34Z,"i installed vista, i was wondering how come i can't connect to the internet? it automatically has that connection thing on the task bar with the red x on it. previously when i had XP, i could connect to the internet automatically."
+,LAIKVE,2009-10-10T04:00Z,"bout to give it a go on my dual core amd 7850 2.8Ghz machine, will lwt you know how i go later, please seed thanks only gettin 40kb through utorrent"
+,DrVolker,2009-10-11T03:49Z,"@sparkoz
+
+I had no trouble connecting to the internet using a dial-up modem and also a wireless USB modem.
+
+You have to go to Control Panel or Network Center (I forgot the name as I'm using Windows 7 RTM now) and set up the connection."
+,DrVolker,2009-10-11T03:50Z,"@sparkoz
+
+If you are using ethernet then perhaps you don't have your ethernet drivers installed.  The drivers are not included with this lite version of Vista."
+,sparkoz,2009-10-11T07:50Z,"yeah i got it all working.
+works great now"
+,andruxia,2009-10-14T15:10Z,"I downloaded this torrent on a different computer, used Nero to burn it as an image, and it started working on my laptop. I then clicked ""Setup.exe"" and got an error saying, ""Autorun.dll could not be loaded or is corrupt."" Do you have any suggestions as to what I can do? "
+,DrVolker,2009-10-20T02:42Z,"@ andruxia
+
+Clicked Setup?  No, don't do that.  Go into your BIOS, set it to boot from CD/DVD.  Save changes, then insert the Vista CD/DVD.  Depending on your computer, it will either automatically boot and begin installing Vista or it will ask you to ""press any key to boot from CD"".  You can't use this version to upgrade.  It must be a clean install.   
+
+I hope this helps. :-)"
+,lewstherin001,2009-11-15T15:28Z,Can someone please seed?
+,MrAdos,2010-02-24T04:54Z,Just committed a technological sin.   lol downloaded this and then installed on my macbook. 
+,iLaYzeR,2010-11-11T04:10Z,Will this work if I install this on a 256 RAM Machine?
+,iLaYzeR,2010-11-11T04:16Z,"Also, If there are no ethernet drivers, how are we supposed to connect to the internet? Can someone help me im only 14 I wanna know which drivers to download so I cann burn it to a CD so i can use it when the installation is complete. I need Ethernet Drivers."
+,badcinto,2010-12-18T04:22Z,i have a question will it work on a laptop gateway if i format my computer
+,badcinto,2010-12-18T04:24Z,i have a question will it work on a laptop gateway if i format my computer a clean install
+,garpazian,2011-01-02T19:16Z,thanks
+,AreYouWetYet,2011-02-18T19:27Z,"Just installed it to my AMiGA 4060.
+
+Runs Superfast!"
+,patuasic,2011-03-26T14:36Z,seed pls...

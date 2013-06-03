@@ -1,0 +1,17 @@
+Slysoft AnyDVD puts a new twist on trial bombs. They use one file, .zreglib, located in c:ProgramData (a hidden folder on Vista; XP folder will be different), and as backup they add an ADS (Alternate Data Stream) attached to the c:windowssystem32 folder. This ADS can be detected, viewed, and removed with ADS Scanner 2.0 by Pointstone, a free utility. Slysoft is pretty sly. I use Total Uninstall to create an uninstall log for study, and I always delete my Prefetch folder.
+
+Do this from the c: root:
+del /s /ash *.zreglib
+
+The ADS contents are the same as .zreglib and look like this:
+
+[AnyDVD/2]
+1=1252312887
+2=1252312887
+
+That's just after a fresh install before any uses. I'd like to figure out the scheme; maybe you could make it good for 1,000 uses. If interested in that, you would also need to learn how to edit the ADS contents in addition to the .zreglib file. They're the same, so they should match.
+
+I did not find anything in the registry related to time bomb. I was able to reset my AnyDVD HD after it expired using the above information.
+
+This is the first time I have seen a software program use an ADS for a trial bomb.
+

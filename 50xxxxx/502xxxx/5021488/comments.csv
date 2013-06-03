@@ -1,0 +1,63 @@
+User Type,Username,Date,Text
+,demas113,2009-07-26T23:45Z,@bhood37 What is the extension of the file?Is it a .iso image or is it a .vmx image?
+,bhood37,2009-07-27T04:41Z,"The file you're downloading is a single 7-Zip file.  It contains a folder called ""iDeneb Mac OSX 10.5.7"", and in that folder are all the VMware files for the machine."
+,alanwall,2009-07-27T22:11Z,"I have VmPlayer and it does not open it
+Says some thing about foundry ?"
+,bhood37,2009-07-28T00:48Z,"Just tested this image using VMPlayer 2.5.2 on an i7 machine.  Loaded and ran just fine.
+
+Are you perhaps running a 32-bit operating system?  Mac OSX 10.5.x requires 64-bit hardware, so if I'm not mistaken, you must be running a 64-bit version of Windows (or other operating system) in order to successfully run this."
+,demas113,2009-07-28T03:54Z,"@bhood37
+Does it matter if I'm running a windows 7 32-bit edition on intel core 2 duo machine?"
+,GAMOTO,2009-07-28T05:08Z,There is no difference.
+,demas113,2009-07-28T06:14Z,"@bhood37
+Yes you are mistaken my friend since that I'm running a machine with Windows 7 32-bit edition and I as well been able to run this over.Since that what do you have to tell me a Big BRAVO or what."
+,bhood37,2009-07-28T06:50Z,"@demas113: All my machines are running 64-bit operating systems, so I wasn't sure how this would behave under 32-bit.  If it runs under 32-bit for you, then BRAVO.  :)"
+,webfaqtory,2009-07-28T12:06Z,"Warning! this snapshot is for Intel CPUs only.
+
+I have a quad AMD CPU (XP64) and get the warning about the CPU vendors not being the same. Resuming the snapshot gets to the desktop but instantly grays-out and tells me to restart (not an option here)"
+,thermop,2009-07-28T16:07Z,"Same problem as webfaqtory, both with 64 bit PC (AMD Phenom X4) and 32 bit PC (Dual centrino).
+with VM player 5.2"
+,rscp1050,2009-08-27T22:39Z,SEED!!!!
+,k-line,2009-10-23T00:22Z,"rebooting will not work?
+
+is there a way to fix this?"
+,exorciser,2009-11-25T10:26Z,"hi i am getting this error message with vmplayer 3.0 on windows 7 64 bit mechine.intel board with core two quad 2.8Ghz processor.
+
+ ""Mac OS X is not supported with software virtualization. To run Mac OS X you need a host on which VMware Player supports hardware virtualization.""
+
+
+pls help"
+,mickeyren,2009-12-30T09:53Z,is there a solution when the screen locks up? I can't reboot it since the author said don't even try.
+,mickeyren,2009-12-30T10:58Z,"okay this copy really does lock up - and rebooting it will cause the VM to not find the installed OS anymore.
+
+I hope someone has a solution to this as this is by far the best OSX 10.5.7 that I could find for my machine."
+,teletubie9999,2010-01-02T03:41Z,"To use this image, you need an intel processor with virtualization support  ( enable in bios)
+
+And for the error  ""need NX/ED CPU feature"" , you need enable in bios the pae function( dep in windows)"
+,d4m4s74,2010-01-22T18:47Z,"I've got this thing working (booting, sound, variable resolution, vmware tools, etc.) and I updated it to 10.5.8
+
+it's too big to explain so I'm making a new torrent
+I'll comment here when I've uploaded it.
+unless of of course the bhood37 doesn't want me to"
+,d4m4s74,2010-01-23T00:27Z,"before I forget
+
+FULLY FUNCTIONAL EDITION!
+http://thepiratebay.org/torrent/5300359/Fully_Functional_mac_OS_X_10.5.8_vmware_image_%28intel_only%29"
+,d4m4s74,2010-01-25T15:37Z,"edit:
+
+fixd
+http://thepiratebay.org/torrent/5304774/Fully_Functional_mac_OS_X_10.5.8_vmware_image_%28intel_only%29"
+,StanDP,2010-03-15T17:20Z,"this version total sucks (dont waste Your time, get the iDenib INTEL 10.5.8 FULLY Functional Version) here is info...
+
+
+ This Is The iDeneb Distro of MAC-OSX-10.5.8
+
+ONLY KNOWN ISSUES:
+
+1> Screen Saver Locks System Up After So .....Many Minutes...
+
+2> Full Screen View Is ALL WHITE, Sound, But    .....No Video In Full Screen Mode... 
+
+Other than that it's a FULLY FUNCTIONAL)
+
+MAC- OS X Virtual Machine...!-"

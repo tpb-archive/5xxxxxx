@@ -1,0 +1,110 @@
+User Type,Username,Date,Text
+,jorejk,2009-09-01T20:30Z,Seed please ....
+[V],polisdavid,2009-09-01T21:06Z,THANK YOU SEEDERS!!  ;-)
+,capnjazz,2009-09-01T21:21Z,cheers. make sure you prevent little snitch phoning home itself though...!
+[V],polisdavid,2009-09-01T23:35Z,Thank you capnjazz - otherwise the serial number will time out!
+[V],polisdavid,2009-09-02T05:29Z,"If this keeps timing out on you:
+
+1. Block obdev.at in /etc/hosts by adding a line:
+	127.0.0.1	obdev.at
+
+2. Block Little Snitch with Little Snitch, in Little Snitch Configuration click the New button, select Deny Connections at top, Choose Application: /Library/Little Snitch/Little Snitch UIAgent
+
+3. Enter the following serial number:
+
+SN: 32SPYLJZN0-733P4-6WPM957P4S
+
+courtesy Serial Seeker"
+,Brother_Lee,2009-09-02T13:18Z,Are you sure we can modify that file? It says it's linked to boot. That's scary. And where should we add that line? At the end or at the beginning?
+[V],polisdavid,2009-09-02T18:11Z,"Brother_Lee, YES you can modify that file no problem.
+
+You will however need some way to unprotect it if you do it from the finder.  I used file buddy, and unprotected the ""etc"" directory, and that file.  I then added the line at the end of the list.  I first added a few spaces and labeled it:
+
+# Block Little Snitch
+127.0.0.1      obdev.at
+
+and then saved.
+
+I then reprotected the hosts file and the ""etc"" directory.  That worked for me!"
+,macsilentg,2009-09-03T15:03Z,"Hi Polisdavid,
+
+I have a question: where can I find the file to modify? Is there a directory ETC with a file in? I can't find it. I used file buddy to look for invisible files but no result. Can you help?
+
+
+thanks for the upload!
+me"
+,macsilentg,2009-09-03T19:02Z,"I found it myself by using 'terminal'
+i have changed hosts
+i hope it works
+greetings
+
+were can I learn these things by the way? it's interesting"
+,fluxor69,2009-09-04T00:27Z,even after following the instructions it shut off after 3 hours due to false registration
+,macsilentg,2009-09-04T08:32Z,"@fluxor
+it's working fine here. The instructions are perfect.
+I used the registration key mentioned here but once again AFTER restarting when I changed hosts.
+are you sure you did everything good?"
+[T],Mac-Sparrow,2009-09-04T12:57Z,Thanks for the share :)
+,jwilcox09,2009-09-06T14:28Z,"http://osxdaily.com/2007/03/19/block-access-to-specified-sites-by-modifying-etchosts/
+
+Here's a link on how to change hosts for anyone not familiar with it.  Thanks for the upload!!!"
+,plegilink,2009-09-07T13:45Z,"I have done the following and it keeps ""expiring"" after 3 hours:
+
+Blocked all applications using 80.237.144.65 (within little snitch - IP Address)
+Blocked all applications using www.obdev.at
+(within little snitch - hostname)
+Blocked Little Snitch Configuration
+Blocked Little Snitch UIAgent
+
+Used the command
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+to edit the hosts file and added:
+127.0.0.1 obdev.at
+
+Is there anything else I should be doing to block little snitch from ""phoning home"" and expiring every 3 hours?
+
+Thanks"
+,macsilentg,2009-09-07T17:00Z,"after editing hosts:
+changing the serial?"
+,shinjukublack,2009-09-24T21:40Z,"None of the above methods work. Blocking hosts through Little Snitch or through the hosts file will not work. Blocking Little Snitch itself yields no different results.
+
+I'm thinking that since all communication is blocked, it has to be the serial that is bad (a demo serial?).
+
+At any rate, no matter what method I've tried, Little Snitch reverts to Demo Mode after 3 hours.
+
+Thanks for the effort, though."
+[V],polisdavid,2009-09-26T09:00Z,"I'm sorry you've had problems shinjukublack,
+
+Did you try the two comments I posted above.
+
+First blocking Little Snitch UIAgent, and the using the serial...
+
+and second un-proptecting the /etc folder and the hosts file and editing them, and then re-protecting them?
+
+I've been using it for a month and it's never timed out."
+,SirDuke_13,2009-09-27T22:16Z,Thanks TPB-River. that was a really helpful comment
+[V],polisdavid,2009-09-29T18:13Z,"TPB-River
+
+I searched for a reference that say's ""NEVER CHANGE THE PERMS ON THE /ETC FOLDER!"" - couldn't find one - even on Apple web site.
+
+Please provide a reference..
+
+No need for a reboot either."
+,oscarette,2009-10-04T19:46Z,"Hi polisdavid,
+
+I did all the different procedure explained, many times actually, with a full uninstall every time, but it keeps expiring me after 3 hours!
+I did blocked it from the terminal, stopped with little snitch itself... donno what to do anymore. HELP PLEASE"
+,miknos,2009-10-08T18:23Z,"I want to update to 2.2 (there is a non-beta already). After many problems trying to register it, I decided to go back to 2.1.4i (works fine)."
+,miknos,2009-10-09T09:38Z,Working 2.1.4i (don't expire) here: http://thepiratebay.org/torrent/5116159
+,bdlghtmn,2009-11-13T19:10Z,"Tpb-river
+
+Did what you suggested with Terminal.  Now I can't send email with the Mail client but can receive.  What did I do wrong?"
+,Onatopa,2009-11-21T06:08Z,"Seems to work fine w/sn provided. Some thing about (50 seats)??
+Seeding...
+Thanks much for the Up. Well done."
+,thepornshit,2009-12-11T21:09Z,"TKS @TPB-River
+I'm not much of a noob, but messing with Terminal is something I haven't done yet!"
+,0o00o0,2010-01-22T23:26Z,"Nice torrent, ty.
+
+Btw, if you for some reason don't like terminal, theres another way to edit the host file, go to directory utility in the utility folder and enable root user (for those who never done it the user is simply called ""root""). Simply log into it and edit the host file manually with textedit. Interesting note too, this file can be used to stop whatever application you want from sending stuff, however you need to know where it's sending it."

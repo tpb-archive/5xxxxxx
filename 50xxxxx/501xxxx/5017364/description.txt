@@ -1,0 +1,273 @@
+Copied from HWiNFO32â„¢ Homepage:
+
+
+HWiNFO32â„¢ - A powerful system information tool for Windows FREEWARE
+
+
+Comprehensive hardware information
+
+System health monitoring (Thermal, Voltage, Fan, Power)
+
+Basic benchmarks
+
+Text, CSV, XML, HTML, MHTML report formats
+
+Periodical updates
+
+
+OS: Windows 9x/2000/XP/Server 2003/Vista/Server 2008/Windows 7
+
+Platform: 32-bit (IA-32), 64-bit (x64, IA-64)
+
+
+Latest Hardware Components Supported
+
+
+Processors
+
+Intel Nehalem Family:
+Core i7 (Bloomfield)
+Xeon 55xx (Nehalem-EP/Gainestown)
+Xeon W35xx (Nehalem-WS)
+Nehalem-EX (Beckton)
+Lynnfield
+Clarksfield
+Havendale
+Auburndale
+Jasper Forest
+
+Intel Westmere Family:
+Clarkdale
+Arrandale
+Westmere-EP
+Westmere-WS
+Gulftown
+Westmere-EX (Eagleton)
+Intel EP80579 (Tolapai)
+Atom Z5xx (Silverthorne)
+Atom (Diamondville)
+Pineview
+
+AMD Family 10h (DR-Ax/Bx, RB-Cx, BL-Cx, DA-Cx, HY-Dx):
+Athlon II Neo (Kuma, Regor, Rana, Propus)
+Phenom II Neo (Agena, Deneb, Callisto, Heka)
+TWKR Black Edition
+Opteron (Barcelona, Shanghai, Suzuka, Budapest, Istanbul)
+Turion II Ultra
+
+AMD Family 11h (LG-Ax/Bx):
+Sempron SI/NI/X2
+Athlon QI/QL (Sable)
+Turion X2 Ultra (Griffin)
+VIA C7 and Nano
+
+
+Chipsets
+
+Intel 5-series/34x0 (Ibex Peak) including monitoring
+X58/5500/5520 (Tylersburg)
+Boxboro
+Tigerpoint
+
+AMD 780G/780V/M780/M780V/790GX/780E/760G/780G (RS780)
+SR5690/SR5670/SR5650 (RD870S)
+785G (RS880)
+SP5100 (SB700/750)
+SB800
+
+nVidia nForce 720i/730i/740i/760i SLI
+GeForce 9xxx (MCP79/7A)
+ION
+
+VIA P4M900
+CN896
+VN896
+CX800/VX800/VX820
+VX855/VX875
+
+
+Graphics
+
+ATI RADEON HD 4770 (RV740)
+4830/4850/4870 (RV770)
+4890 (RV790)
+
+Mobility RADEON HD 4570/4650/4670/4850 X2/4870 (M9x)
+
+nVidia GeForce GTX 260/275/280/285/295 (GT200)
+
+Tesla C1060
+
+Quadroplex 2200 D2/S4
+
+Quadro FX 3800/4800/5800
+GT212
+GT214
+GT215 (D10P, N10E)
+
+GeForce GT 220/GT 230M/GT 240M (GT216, D10M2, N10P, N11P)
+
+GeForce G210/G105M/G210M (GT218, Q10E, N10M)
+
+S3 Chrome 500 Series
+
+Intel Ironlake GMA
+
+
+Technologies
+
+PCI Express 2.0
+AMD Hypertransport 3.0
+Intel QPI 1.0
+Intel Manageability Engine (AMT, QST)
+Intel SpeedStep
+Dynamic Acceleration
+Turbo Mode
+Intelligent Power Sharing
+DDR2
+DDR3
+FB-DIMM
+Enhanced Performace Profiles (EPP 1.0 & 2.0)
+Intel Extreme Memory Profiles (XMP)
+ACPI
+IPMI
+ASUS EPU/EPU2
+Giga-Byte DES
+SATA 3Gbps AHCI/RAID
+S.M.A.R.T.
+
+
+ED2K Link:
+ed2k://|file|hw32_310.exe|2102880|9577E3E6E4793BA3008CADF3209220A8|h=CLJUW3Y7SI4APH6OJMVJZ66YXIFP3J4N|/
+
+
+Changelog:
+
+
+Version 2.40
+
+Released: May-13-2009
+
+
+Added ATI RADEON HD 4770 (RV740).
+
+Added several new Intel SSPECs/QDFs and new AMD K10 models.
+
+Improved reporting of Operating System including Microsoft Windows 7 and Server 2008 R2.
+
+Improved/finalized Lynnfield and Havendale support.
+
+Fixed counting of total PCI Express slots in system.
+
+Fixed ADT7473 sensor on nVidia GPU Voltage reading.
+
+Added workaround for Windows 7 crash.
+
+Added preliminary Westmere-EP, Westmere-WS, Gulftown and Westmere-EX (Eagleton) support.
+
+Fixed reporting of current CPU clock under Windows 7.
+
+Added complete Intel 5-series/34xx chipsets (Ibex Peak) SKU distinguish.
+
+Added nVidia GeForce G 103M (G98/D8M) and GeForce G102M (C79G).
+
+Several other minor updates and bugfixes.
+
+
+Version 3.00
+
+Released: Jun-23-2009
+
+
+Added support of monitoring of Apple computers.
+
+Fixed measuring of CPU clock for Cores1-3 on overclocked AMD K10 CPUs.
+
+Added nVidia N10P-LP (GT216) and GeForce G210M (GT218).
+
+Improved reporting of AMD K10/K11 platform and codenames, added new models.
+
+Improved Windows 7 support. No workaround needed anymore.
+
+Improved detection of Tj,max for Penryn CPUs.
+
+Fixed support of Intel XMP.
+
+Completely rewritten System Summary page.
+Integrated with ClockMon to display all important info on one page.
+
+Improved recognition of nVidia ION.
+
+Fixed GPU information display on System Summary.
+
+Improved reporting of Computer Brand Name and Motherboard Model.
+
+Added ATI R750 and M97 GL.
+
+Fixed reporting of SLFM reference clock for some CPUs.
+
+Added new Intel CPU logos.
+
+Added new G92 models: GeForce GT 230, GeForce GTS 240.
+
+Added new G94 models: GeForce GT 230, GeForce GT 220.
+
+Added new G96 models: GeForce G210.
+
+Added new GT215 models: D10P1-30, D10P-40, D10P2-50, N10E-GE, N10E-ES, N10P-GLM4.
+
+Added new GT216 models: GeForce GT 220, D10M2-10, D10M2-20, GeForce GT 230M, GeForce GT 240M, N11P-ES, GT216-INT.
+
+Added new GT218 models: GeForce G210, Q10E-1L, GT218-ES, GT218-INT-S, GT218-INT-B.
+
+Added support of ADT7473 and ADT7476 sensors.
+
+Enhanced support of Westmere-EP/WS.
+
+Added reporting of supported DDR3 Module Nominal Voltage (VDD).
+
+Enhanced support of DDR3 DIMM temperature sensors (JC42.4).
+
+Added recognition of Vortex86DX and Vortex86MX CPUs.
+
+Several other minor updates and bugfixes.
+
+
+Version 3.10
+
+Released: Jul-21-2009
+
+
+Updated reporting of Tcas and Trtp for Nehalem IMC.
+
+Added EVGA X58 SLI motherboard specific sensor support.
+
+Improved recognition of some LPCs.
+
+Added reporting of max Turbo Operating Point for non-XE Nehalem CPUs.
+
+Added nVidia GeForce G 105M and GeForce GT 220M.
+
+Fixed reporting of current ratio and BCLK for Nehalem in Turbo Mode.
+
+Fixed reporting of current Uncore and QPI clock on overclocked Nehalem.
+
+Added nVidia N10E-GLM, N10E-GLM3, N10E-GS, N10P-NS, N10P-GLM, N10M-GLM, GeForce GTS 150M, Quadro NVS 170M (GT218).
+
+Improved clock and sensor support of ATI R7xx family.
+
+Added recognition of Intel LE80578 processor.
+
+Added support of IBM ThinkPad Embedded Controller for monitoring.
+
+Added option to automatically show sensor status and minimalize application after startup.
+
+Enhanced monitoring support for certain DELL machines.
+
+Enhanced support of ATI RS880 chipset and GPU (RADEON HD 4200).
+
+Added reporting of GMCH temperatures for Intel 945xM, 965xM and Mobile 4-series chipsets (if BIOS enabled).
+
+Added support of some Compal Embedded Controllers for monitoring.
+
+Several other minor updates and bugfixes.

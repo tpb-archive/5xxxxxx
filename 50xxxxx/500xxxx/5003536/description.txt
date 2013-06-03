@@ -1,0 +1,138 @@
+PotentialXP 2009 SP3 - x86 - Final - July 2009 Genuine 
+
+Bootable DVD ISO | Multi-Language
+
+RELEASE INFO :
+
+Release Date ..... 1st July 2009 
+Program Type ..... OS 
+More Info ........ http://www.nextgen-os.org/
+Platform ......... Windows XP Professional 
+Image Build ...... windowsxp_en_sp3_msdn.iso
+Language ......... Multi-Language 
+Image Type ....... ISO 
+
+INSTALL NOTES :
+
+1. Burn with Nero/UltraISO, burn at a low speed...
+2. Unnattended Install, Windows Genuine, SP3 Fully Updated to 24th June 2009...
+3. Fresh install only (NO UPGRADE} and full format of the C drive is required...
+
+INFORMATION :
+
+This will be my final release now for about 1 to 2 months now... This image was built on a fresh MSDN image of XP SP3 as stated above, in this version of XP we have lots of addons but not too many to make it bloated, the main addon is the RyanVM Update Pack v1.0.3 which will update this OS install up too 24th June 2009 anything beyond this date I am not sure of. Also integrated is IE8 and WMP 11, IE8 not being my best choice of browsers, i'd easily of prefered IE7 or Firefox but I wanted to put out a totally updated OS, however Firefox v3.5 is included after OS install. WMP 11 ah I wanted to add WMP 12 but I couldn't find a suitable addon and I heard MS is having trouble with WMP 12 so that made me think...
+
+ADDONS INCLUDED :
+
+F:Software DownloadsRVM_Integrator_1.6AddonsRVMUpdatePackSP3_1.0.3.7z
+F:Software DownloadsN-LiteADDONS_FFDSHOW14-06-2009.CAB
+F:Software DownloadsN-LiteCmdOpen-2.0.2-Addon.7z
+F:Software DownloadsN-LiteDirectXRuntimes-200903-Addon-32.7z
+F:Software DownloadsN-LiteGorki_AddOn_QTAddressBar_051107.cab
+F:Software DownloadsN-LiteKal_Vista_Sound_Addon_v1.1.7z
+F:Software DownloadsN-LiteKels_ClearType_V1.0.0.3_addon.cab
+F:Software DownloadsN-LiteKels_Runtimes_addon_v5.4.rar
+F:Software DownloadsN-LiteKels_VistaDriveIndicator_addon_v2.2_uninstallable.CAB
+F:Software DownloadsN-LiteOpenLastClosedTabRnOnceEx_Addon.cab
+F:Software DownloadsN-LiteProgramAddons_Java_Runtime_Environment_6_Update_14.cab
+F:Software DownloadsN-LiteReapers_Notepad_5.1.4_AddOn.7z
+F:Software DownloadsN-LiteRicks_BlueXP_SP3_taskmgr_80511.7z
+F:Software DownloadsN-LiteRicks_StylerTB1401_AddOn.rar
+F:Software DownloadsN-LiteVista.Blue.Boot.SP3.Final.Tumor.7z
+F:Software DownloadsN-LiteOnePiece_IE8_WinXPSP3_v1.3.1_AddOn_ENU.7z
+F:Software DownloadsN-LiteOnePiece_Windows_Media_Player_11_True_AddOn_v1.6.0_ENU.7z
+
+RUNONCE SOFTWARE :
+
+Adobe Reader 9.1
+KLite Codecs Full 4.90
+.NET Frameworrk AIO
+Shockwave 11.5.0.600
+WinRAR v3.80
+UltraISO v9.3.3 Build 2685
+Firefox v3.5 Final
+ImgBurn 2.4.40
+uTorrent 1.8.3 Special
+Vista Icons v3.1 Ultimate
+
+^^^ All silently installed after OS install, also Office 2007 is silent from the autorun menu...
+
+TWEAKS ADDED :
+
+Boot and Shutdown-Auto-End tasks immediately
+Boot and Shutdown-Auto-Kill hung applications immediately
+Boot and Shutdown-Auto-Kill hung services immediately
+Desktop-Internet Explorer icon-Show
+Explorer-Add (un)register libraries in Context Menu
+Explorer-Add 'Command Prompt' to folder context menu
+Explorer-Associate additional file types with Notepad
+Explorer-Change Windows Explorer folder view-Tiles
+Explorer-Launch folder windows in a separate process
+Explorer-Recycle Bin: allow to rename and delete
+Explorer-Show extensions of known file-types
+Explorer-Show Statusbar in all windows
+Explorer-Use small icons in Explorer bar
+My Computer-Add Control Panel
+My Computer-Add Device Manager to Context Menu
+My Computer-Add Drive Cleanup to Context Menu
+My Computer-Add Event Viewer to Context Menu
+My Computer-Add My Network Places
+My Computer-Add Network Connections
+My Computer-Add Registry Editor to Context Menu
+My Computer-Add Services to Context Menu
+Performance-Disable paging of kernel and core-os
+Performance-Disable Tracking of Broken Shortcut Links
+Performance-Run 16-bit Windows applications in a separate process
+Performance-Speed-up Access to AVI Media Files
+Security-Disable Antivirus notification
+Security-Disable Firewall notification
+Start Menu-Add Administrative Tools menu
+Start Menu-Clear most recently opened documents list on logoff
+Start Menu-Remove Windows Catalog shortcut
+Start Menu-Scroll Programs
+Start Menu-Use small icons in Start Panel
+Taskbar-Disable Balloon Tips
+Taskbar-Disable Windows Tour popup
+Windows Media Player-Accept Privacy Statement
+Windows Media Player-Disable automatic codec download
+Windows Media Player-Disable license backup prompt
+Windows Media Player-Zoom video to window size
+
++ many more suitable tweaks inside $OEM$Tweak.reg file, just open it with a text editor...
+
+I have added the Royal theme and made it default since it's a popular theme...
+
+DRIVERPACKS 8.12 ADDED :
+
+3rd party driverpacks :
+
+DP_Bluetooth_wnt5_x86-32_081028
+DP_Broadband_wnt5_x86-32_70416
+DP_HID_wnt5_x86-32_90122
+DP_Misc_wnt5_x86-32_90122
+DP_Monitor_wnt5_x86-32_81227
+DP_Phone_wnt5_x86-32_80207
+DP_Scanner_wnt5_x86-32_60831
+DP_TV_wnt5_x86-32_80908
+DP_USB_wnt5_x86-32_80911
+DP_Virtual_wnt5_x86-32_80925
+DP_WebCam_wnt5_x86-32_81127
+
+actual driverpacls :
+
+DP_Chipset_wnt5_x86-32_803
+DP_CPU_wnt5_x86-32_804
+DP_Graphics_A_wnt5_x86-32_8121
+DP_Graphics_B_wnt5_x86-32_8121
+DP_Graphics_C_wnt5_x86-32_8121
+DP_LAN_wnt5_x86-32_8121
+DP_MassStorage_wnt5_x86-32_901
+DP_Sound_A_wnt5_x86-32_805
+DP_Sound_B_wnt5_x86-32_805
+DP_WLAN_wnt5_x86-32_806
+
+Also I have added a small boot menu, it only has Acronis Disk Director V10 on it for now until I get more pro with making boot menus...
+
+There are no snapshots for this build as I don't feel theyr'e necessary for this build, w/e u see will be surprise to u btw this build is not heavily modded.
+
+RAR Password: http://www.nextgen-os.org/

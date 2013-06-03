@@ -1,0 +1,14 @@
+AUDIO:mpeg1 layer3
+
+constant bitrate mode:320kbps
+
+2ch.stereo
+
+samplingrate:44,1khz
+
+
+Bonus Live Music:constant bitrate mode 192kbps
+
+Bonus Live Videos:mpeg4 format,codec-id:m4v
+
+                  avc format,codec-id:avc1

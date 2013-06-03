@@ -1,0 +1,23 @@
+Windows XP device driver for the
+SIGMACOM Sigma Cyber TV II video capture card.
+
+Contents of ZIP file:
+
+09/23/2009  03:51 PM           165,888 Setup.exe
+09/23/2009  03:51 PM           138,670 Setup.inx
+09/23/2009  03:51 PM            18,009 data1.hdr
+09/23/2009  03:51 PM               417 layout.bin
+09/23/2009  03:51 PM                94 Setup.ini
+09/23/2009  03:51 PM           478,226 data1.cab
+09/23/2009  03:51 PM           346,602 ikernel.ex_
+09/23/2009  03:51 PM           802,339 data2.cab
+
+Running "Setup.exe" installs drivers for the following devices:
+
+SIGMACOM TV Audio Capture(WDM)
+SIGMACOM TV Crossbar(WDM)
+SIGMACOM TV Tuner(WDM)-Alps
+SIGMACOM TV Video Capture(WDM)
+
+On my computer the device name shown by
+the installation program was garbled.

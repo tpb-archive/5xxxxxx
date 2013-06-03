@@ -1,0 +1,41 @@
+PhatDebian_i386_Beta_1
+
+Web site: http://www.phatdebian.com
+Screenshots: http://www.phatdebian.com/forum/viewtopic.php?f=8&t=9
+
+
+Please leave feedback at the forum so that we may make a better build in the end. All input welcome. Thanks for checking us out.
+
+
+
+After a lot of headaches and chasing my tale I am finally finished with the first beta ready for testing. This is a Live DVD with a installer. The installer uses gparted for its partitioner. Gparted will spit out an error three separate times during the format process. Do not concern yourself with it and just press enter. It has no affect on the format or install process. Just not sure yet what is causing it. Make sure to setup a swap partition as the installer will look for one and if it cannot find one it will fail to install. After the drive is formatted and you have a swap and a ext2 or ext3 partition then go ahead and close out gparted. The installer will resume. Next select your swap partition and select next. Then select the main partition for the system. Then select the partition for home. Next you will fill out root pass and user name and pass. Then you will select Country/Region and time zone. Make sure everything is correct and continue to install the system.
+
+
+Added apps installed:
+gdebi
+gnome-do
+screenlets
+take-screenshots
+filezilla
+ktorrent
+pidgin
+xchat-irc
+3D-acceleration
+screem
+audacity
+gnomebaker
+k3b
+oggconvert
+bum
+qtparted
+sum
+update-manager
+ntfs-3G
+disk manager
+gparted
+conky
+
+I have added 54 backgrounds, 13 GDM's, 36 icon sets, and 58 metacity themes.
+
+File size: 1.4GB (1535780864 bytes)
+MD5 Sum: 8c4daebb25a0ab8a09e345248c8c1c4f

@@ -1,0 +1,43 @@
+User Type,Username,Date,Text
+,toja92,2009-08-12T10:58Z,"Hey thanks, it's always good to have a partition manager ;)"
+[V],NoExcuses,2009-08-12T11:26Z,"@toja92
+Specially when it's legally free... :o)"
+,toja92,2009-08-12T11:57Z,@NoExcuses: True :D
+,sharebird,2009-08-15T02:18Z,"Three days ago I downloaded one of the poster's other torrents, R-Studio, found here:
+http://thepiratebay.org/torrent/5002104/R-Studio_5.0_Build_129000_Network_Edition_Portable
+
+A scan of the download came up clean, and the portable app runs with no virus warnings.
+
+However, when I open an open/save dialog within the app, Avira pops up warning me of a backdoor trojan with the following info:
+AV program: Avira
+Virus: BDS/Backdoor.7168.C
+Exe: svchost.exe
+Location: C:\Users\\Application Data\Thinstall\R-Studio 5.0\1000000600002i\svchost.exe
+
+This happens every time I open or save an image from within the app.
+
+I asked for confirmation in the that torrent's comment, however it is a month old, and not getting a lot of reads, so I am posting here asking anyone to verify similar behavior in this or other torrents from NoExcuses... he has a shitload of portable apps available, and if he has managed to hide a virus that only runs when a file dialog pops up, that's a huge problem.
+
+All of the warnings NoExcuses posts about being careful, don't trust any post, etc., may very well be meant to lull downloaders into a false sense of security.
+
+Can anyone verify either the torrent I linked to, or any of his newer torrents, to see if they are getting the same warnings?  If you don't have an antivirus program, look in the application data directory for the program to see if there is a svchost.exe file that shows up when you are working with the app, especially opening or saving files.
+
+Again, this virus does not appear until running the app and opening or saving a file... a virus scan on the exe before-hand turns up clean.
+
+I am not making any accusations yet, I am simply looking for independent verification of what I'm seeing.
+
+I see the original poster has left a reply in this torrent, I invite him to speak to the virus I am seeing.
+
+TY"
+,andersio,2009-08-18T21:47Z,seed
+,daveshelper,2009-12-10T04:31Z,"I have downloaded and used many of your portable apps. I'm have before only posted positive comments.
+
+This one I have a problem with.  Attempted to re-size a partition on a 2nd drive, NOT the one where my OS (XP) was installed.  
+
+On attempt to re-boot to complete operations I could not boot XP.  Forced to re-install.
+
+Only good thing is that most of the applications I use are portable (downloaded from you) and those needed not be replaced.
+"
+,ghbryans,2009-12-16T04:01Z,"There's nothing wrong with Avira--it is proper AV software.
+
+And the problem with the Partition Manager most likely has nothing to do with it being portable"

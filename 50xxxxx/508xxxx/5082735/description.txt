@@ -1,0 +1,28 @@
+Microsoft_Xbox_360_Ping_17_Test_Disc_READNFO_XBOX360-iND
+____________________________________________________________________ _ _
++-RELEASE.DETAiLS
+
+Â¨ReleaseDate..... 2008-04-17
+Â¨Format..... ISO
+Â¨Region..... REGION FREE
+Â¨Source..... DVD9
+Â¨Supplier... Zellcorp
+
+____________________________________________________________________ _ _
++-RELEASE.iNFORMATION
+
+"Ping 17 Test Media" is a confidential internal Microsoft utility disc which was left inside an Xbox 360 when it was sent back to a customer after RRoD repair.
+
+Please note that this disc will not run on iXtreme firmware as-is. It's an exception to the SS authoring date rule and has 2nd wave PFI/Video when iXtreme expects it to have the 1st wave versions.  This is the same reason why backups of DDR Universe (the only other known exception to the rule) will not run on iXtreme.
+
+If you want this disc to run on iXtreme you will need to patch the iso with PFI_739CEAB3.bin and Video_66D0CB54.iso which are included, but note that this is not the proper PFI/Video for this disc and you should use it at your own risk.
+
+Also, be aware that this disc will attempt an internet connection to LIVE/MS, and will halt if it can't connect. Use at own risk!
+
+____________________________________________________________________ _ _
++-RELEASE.NOTES
+
+Special thanks to Zellcorp for the discovery
+
+________________________________________________________________________
+++ iND - ++----------------'

@@ -1,0 +1,292 @@
+User Type,Username,Date,Text
+,britton27,2009-08-09T05:15Z,"Shit it cut off my typing.. any way there is more stuff in the torrent than just those two updates. 
+I'm not retyping all that shit though... its a total of 8 just released updates/hotfixes and two activation tools in case you run into some issues. I didn't have any problems with them, you should be fine to..
+
+Thanks and Enjoy."
+,britton27,2009-08-09T06:18Z,"OH yeah, forgot to mention the updates have you restart. Knock yourself out, but I do hope you turn your torrent client of choice back on once its done updating. 
+
+I remember why I don't upload  torrents directly from me (I'd rather help seed existing ones). Just blows up my pathetic 16kb/s upload away on the DSL line. This one seemed important so I figured what the hell. I can keep it running for as long as there are peers, but can't say I'll seed in constantly once there are some reinforcements. 
+
+Drop me a comment if you want to, tell me and future downloaders if this was worth your time. 
+
+Please don't spam this one with shit like... fake or virus infested. That just makes you look like an idiot."
+,angrymobjustice,2009-08-09T07:14Z,"Thanks, this is what I was looking for!
+
+I have no idea why M$ won't release these updates yet.
+
+100% clean."
+,Lojac,2009-08-09T07:36Z,"Works as described changed 16385 to 16399
+I was already activated, and that did not change after  restart.
+
+Good Lookin out !
+
+Thanks  "
+,britton27,2009-08-09T07:46Z,"My bad, I forgot to explain to novices how to install the updates. 
+
+It's really easy, just start at the top of the list in the Hotfix folder and install one after the other, then restart once all the updates have installed. Your machine will reboot and give you a % of completion on the update process, just like any regular windows update does. 
+
+If for some reason your working with a non activated copy then try out the activators.  One activations tool by Hazar is petty cool, I think (key word think) that it rearms windows ever time it loads. Don't quote me on that though.
+
+Anymore comments or questions, post them here. I'll try to answer as I monitor this torrent for the next few days. 
+
+Keep it Free!"
+,britton27,2009-08-09T08:15Z,"Thank you for helping me seed this, I didn't know just how wanted these hotfixes were. I'm just glad that something I posted is getting used. 
+
+I'm going to bed, its 2AM here and now its the 9th of August already. I'm going to keep it running, I want to see like 1000 seeds when I wake up.. LOL 
+
+Just messing with you...about the seed levels, I am going to bed though."
+,iso-late,2009-08-09T10:29Z,"Thanks britton27...
+
+100% Clean (Kaspersky 2010).
+100% Working.."
+,djsimon23,2009-08-09T13:14Z,great torrent thanks mate
+,twinkles88,2009-08-09T13:39Z,"Thanks for your sharing :) 
+
+Working Nice"
+,britton27,2009-08-09T19:43Z,"Thanks for all the comments, that is what makes it fun. To see people who have downloaded it find use for the files and enjoy it. God knows I hate downloading bullshit, I wouldn't want you to either.
+
+Darn so much for my 1000 seeds...lol but hey! 100+ is still kickin'"
+,britton27,2009-08-09T22:22Z,"Comment directed @ trin02
+
+Well for starters< I don't know anything about your computer, its installed programs, or the version of Windows your running. 
+
+Only advice I can think to offer on the fly is to make sure your not using the Beta or a Release Candidate (RC). Check your build info using the run command and type regedit and hit ok.
+
+Then navigate in the registry to HKEY_LOCAL_MACHINE
+SOFTWARE
+MICROSOFT
+WINDOWS NT
+CURRENT VERSION
+
+In there you see the build number of the version of Windows you have. 
+
+Also try running Windows Update and make sure you have CAPICOM and the .NET Framework installed to. 
+
+If all else fails, back up your files and reinstall a more up to date copy of the RTM version of Windows.
+
+Let me know if any of that worked for ya'
+"
+,avikar,2009-08-09T23:39Z,Can't restat after update !!!
+,britton27,2009-08-10T00:13Z,"Comment @ trin02..
+
+Yeah thats what it looks like after its updated. The activation tools don't come with instructions. Thats just how I found them.
+
+But don't lose hope, there is always a way to fix it. I assume your properties window is saying windows is not activated and no Genuine Microsoft Logo is present. First I would try the stand alone 7Loader_Release 5 option. 
+
+Here's how that works:
+
+Hit the select task button, and you will be presented with some logos and several buttons that don't make much sense. 
+
+All I did was, do each option.  Slic Option 1..and wait. It will apply and tell you to restart but don't. Then try the Hazar option 2.. again wait but don't restart. You should get activation successful etc...then just to really pump one in it use the non slic method. then exit the program..next go to the other activation tool the one that doesn't have a clear ""EXE"" for you to run. 
+
+This is the Vista/Win7 start up loader, it modifies the registry in a way that I don't really understand, but its safe enough. In there you will see  several loose files, run them in this order. 
+
+Install (for Ultimate Only)
+Bootinst (says the word application in the type list)
+
+If those methods still don't work, you will need to find a different copy of the activation tools. It could be your running the 64bit version. I am not 100% sure that the activations will work on 64bit. I know they exists but I didn't get them since I'm just running plain old 32bit. 
+
+Anyway, sorry it been such a headache for you. If that don't work try the 7Loader_Version4
+
+Comment @ avikar
+
+How did you manage to post a comment then? 
+
+Unfortunately not all computers have there programs installed the same way. I have no idea what to do there. Best advice, burn a copy of Windows 7 to a DVD and then use its start up repair option. I have had that tool save my ass on more than one occasion.
+
+Anyone else?
+"
+,britton27,2009-08-10T00:27Z,"OH yeah I miss read your build trin02, you are running the 32 bit version. Yeah I would defiantly try the 7Loader_Version_4
+
+I went ahead and found it for you, actually the 4th version was the one i used to activate my copy as well, but I downloaded and kept the 5th one because i thought it was the same thing just updated...
+
+Humm looks like I might want to go grab that one myself just incase...
+
+You can find that here:
+http://thepiratebay.org/torrent/5032306/WINDOWS_7_LOADER_RELEASE_4_by_Orbit30_32_and_64_bit"
+,avikar,2009-08-10T00:57Z,"thanks for replying
+i'm writing from a second computer
+i can't log on to windows it freeses on ""starting windows"" so it has nothing to do with the activation"
+,britton27,2009-08-10T02:31Z,"Comment @ avikar
+
+Have you created any new partitions on your boot drive? The reason I asked was because one time I was trying to make a partition but got impatient and restarted the computer while it was creating the partition. 
+
+The computer seemed to be frozen so I reset it and when i did that my Vista Home Prem would no longer boot. That's why I upgraded to Windows 7. I didn't want to lose all my data. If it hadn't been for that mistake I wouldn't have installed Windows 7. I would have waited until it hit retail and then seen what my options were for finding it on pirate bay. Now I'm stuck with Windows 7, which I like way better than Vista. Its just that I'm afraid that it won't work past that damn cut off date, RTM or not. 
+
+Anyway that was off topic, about your start up problem. You may want to direct your question for that issue to this site instead 
+
+http://windows7forums.com/windows-7-support/1541-windows-7-start-up-crashes-freezing.html
+
+They may have your answer, or if nothing else your question may be seen by some one with more info. Also when asking for technical help with a computer problem its always a good idea to include some information for the people trying to diagnose it. 
+
+Such as:
+
+version of your operating system
+processor speed and amount of memory
+type of video card: integrated or add on card
+any new hardware attached recently
+
+Also make sure you have no CD's, Flash Drives, USB Hard Drives, MP3 Players etc attached when your booting up. 
+
+Sorry I can't be more helpful."
+,britton27,2009-08-10T07:29Z,"Wow trin02 you've tried em all! Damn! Well in that case your issue is beyond anything I have encountered so far. 
+
+Maybe, total guess here, it's because your using the MSDN/Technet release. It may have some sort of anti-key ""stuff"" in it to work against these activators made by... well people who like to use torrent sites. I got to point out that all the people who have comments never said they were using the recently released copy of Win 7 from MSDN/Technet. 
+
+Have you considered just downloading one of the fine copy's of Windows 7 from piratebay and making a CD of that, then doing a fresh install?
+
+Keep us updated on your progress with that issue, that's a good one to find an answer for."
+,britton27,2009-08-10T17:05Z,"Man trin02 that sucks, have you tried installing a fresh install of Vista, then upgrading to Windows 7. That's the way I was forced to go, but it works. The upgrade I mean, I only had to reinstall a few programs that didn't function quite right after the upgrade.
+
+I would direct you to a forum, but you really can't take this sort of thing to your run of the mill moderated forums, they just look down on ""this sort of thing"" and kick you out. 
+
+Your questions and problems are posted here, they will stay there and perhaps some one else can figure it, until then I'll keep my eye out for similar issues on the subject.
+
+Good Luck man...."
+,canardtorrent,2009-08-10T20:18Z,"@trin02:
+
+type in RUN command: diskmgmt.msc
+
+See if there is a hidden partition named System Reserved Partition
+If so, assign it a lletter, copy activator on this disk, run it, reboot, now it should be activated.
+
+This works perfectly with the very little activator from HAZAR (which I am using for now two weeks, Ultimate 32bits) and should work also for 64bits.
+
+MSDN and RTM versions are the same.
+
+I assume that if you were making fresh install each time, your disk is totally blank, and you will create partitions with integrated menu of the install menu. This way, a hidden partition is created.
+
+If you install W7 on a formerly created partition (created on a second PC with Partition Magic for example), no hidden partition.
+I can tell this because I installed W7 on a formerly created partition and have no hidden, and also installed on an EeePC 901 with builtin W7 formater, which created me a hidden partition.
+
+Try this and let me know if it rox!
+
+Sorry for my english, I am French :P"
+,britton27,2009-08-11T21:27Z,"Your welcome trin02, I like a good challenge to. Yours is a hard one to answer with out actually seeing the problem first hand. 
+
+As for canardtorrent's reply, never even though of that. Usually a ""complete format"" of the drive from out side the operating system will wipe everything. However, he did say separate partition, but that takes me back to the, did you make any new partitions question.
+
+I been trying to monitor this torrent the last day or so but Piratebay been on the fritz on this side so wasn't able to get here and read/reply to anyone's comments until now. 
+
+Sadly it looks like this one has already run its course, the bulk of the folks who wanted this have got it. Torrents are always the most exciting when you first make them. Inside utorrent, its showing 190 seeds at the moment, but hell I never understood how that tracker stuff works, DHT says one thing, the tracker on pirate bay says another. Its crazy I tell ya crazy!"
+,britton27,2009-08-12T04:46Z,"Yeah trin02 that sure is a lot of installing to do. I can try to TeamView your computer if you want and take a look at your settings if you like. 
+
+Just add me to Yahoo Messenger I usually stay logged on to that for a while each day.
+
+Just type  --> brittonburton in the yahoo add dialog. Can't really say I can fix your issue either, especially using remote access to your computer. 
+
+Maybe its in your BIOS settings? That's a long shot but since you said you've formatted the whole drive and any of its partitions if they existed. Then reinstalled several versions of Win7 and none will activate still. Only place left to look is the in the BIOS or a conflicting program. How about windows update, you run that before you tried to activate or after you tried? 
+
+Those are the only suggestions I got right now. 
+
+Good Luck!"
+,britton27,2009-08-12T15:52Z,"Alright, sounds like a plan. :)"
+,kensiko,2009-08-13T02:30Z,"Hello,
+
+I wasn't able to crack my Win7 on my laptop with anything. I think that's because I download the retail version of Win7.
+
+Can anyone here tell me if they are able to crack a Retail Win7?
+
+The only thing I was able to do now is on my VirtualBox, I used TimerNuke 1.0.5.0 and it seems to do a good job."
+,britton27,2009-08-13T13:39Z,"comment @ kensiko
+
+Try reading page one of the comment list, some one else has already started up a topic about not being able to break the Win 7 activation."
+,andrew110,2009-08-13T16:28Z,"@trin02
+
+I've got an XPS 410 too that I can't activate. I've tried everything like you have too. It must be this model that won't activate!
+
+I was about to try an x86 version but since you already have I won't. I hope someone comes out with a fix..."
+,ImNoMyth,2009-08-14T04:08Z,"I have an XPS 420 and am having the same issue.  Man, MS is gay!!!   I got screwed w/Vista now it looks like I'll be shelling out more cash for windows 7 unless I find a working fix..."
+,MrCabana,2009-08-14T08:02Z,"Ok, i'm downloading this but i have a question. I tried 7loader first and it's acctually working fine, but it messed up with my Vista partition. So, if I apply the patch i have for Vista, Win7 will be deactivated and vice-versa. Do you think this patch of yours will do the same thing? I believe the patch i have for vista will install some OEM logo on my bios."
+,britton27,2009-08-14T16:08Z,"Comment @ MrCabana
+
+The other activation tool, the Hazar one is the same or similar to the Vista loader. However, I can't say for sure how that will work on a drive running Dual Boot OS. It's a learning experience, so just try it. As long as your computer case has a Valid OEM license sticker for Vista on it, you can always just reenter that and have Vista go back to normal.
+
+Hope that helps..."
+,britton27,2009-08-14T16:31Z,"Also, its a good idea to run and get all the updates you can before applying any patches or hacks to the system. 
+
+Just a general comment, not directed at anyone in particular."
+,lavoie26,2009-08-16T04:39Z,thank  big big just what i needed 
+,britton27,2009-08-18T06:42Z,"Ok, well looks like everyone who needed or just wanted this has it now. My work here is done, so I will no longer be seeding this one. I will try to keep a check on the comments from time to time though. Just in case someone has another question or anything.
+
+Take Care, and thanks for helping me spread ""the goods"" around."
+,un-limited,2009-09-17T20:37Z,thnx a lot guys and specially britton27 :):):)
+,Maxal,2009-10-07T17:13Z,gdgd hope it works thx 4 da torrent m8
+,britton27,2009-10-08T17:52Z,"*Info Update*
+
+Hello everyone, some one who read the post contacted me. He was at his ropes end on activating Windows 7. So after failed attempt after failed attempt we finally figured out that it had to do with the physical age of the computer and weather or not you upgraded to Win 7 from Vista. If your computer is Pre 2008 then then you will probably not be able to activate Windows 7. I am not sure why but it seems that upgrading from Vista first may solve some of your issues. 
+
+I hope this was helpful for you...
+
+Until then, happy searching!"
+,Please_wait...,2009-10-23T18:14Z,"@britton27
+
+Last thing you said. Sounds logical and I think Microshit might have done that.
+
+I have a laptop since 2007, it activated using Orbit activator, but from the last tow weaks or so, al most every 3 days I have to reactivate cos it figures out that is not genuine.
+
+I will try your posted activators. I hope they work.
+
+Thank you for being so kind in informing detailed so generously other people, including me about what you find out."
+,DoragonMama,2009-11-13T05:34Z,"@Britton27
+How does the program know how old a computer is?
+I build my own and I am curious how Win7 can determine what year it was made."
+,NosTraDomus,2009-11-22T22:57Z,"""ImNoMyth at 2009-08-14 04:08 CET: 
+WROTE:
+I have an XPS 420 and am having the same issue. Man, MS is gay!!! I got screwed w/Vista now it looks like I'll be shelling out more cash for windows 7 unless I find a working fix""
+
+i TO have a XPS420-
+i USED AMITS vista ultimate, with his BUILT in crack, i CLEAN install, and started and it said GENUINE, sweet, easy..and always able to update. but i game alot, and after a while i went back to XP SP3.
+
+NOW w7 is out, first install i used the ""7Loader by Hazar 1.6""  it worked, and i did install all the updates...did my personal touches..nothing to jeopardize the activcation, so it worked, rebooted and it locked up, thought it was a few things, but i think it was the loader.
+
+so im using the WAG remover tool, it completys removes the WinActivation G..something..(cant remember)  i went to UPDATE, NOTHING, lol- it says no available updates. i havent tried to MANUALLY update, but winUPDATE doesnt see anything, ill REBOOT and see for sure. but so far the WAG is gone.
+when AMIT comes out with his win7 version im downloading that for sure.
+
+BUT...
+xp did have a update KB...510- something, like that, that loaded and erased all loaders, and checked to see if it was genuine...sooo...MAYB MS did the same for win7/nt6
+
+the XP version i had bypassed it, but the principle is sound.
+
+7Loader by Hazar 1.6  Loader, created a virtualDrive, after the loader was installed, then later it poped back saying ""you hav 20days left"" then i reapplied the loader, mayb i should have REMOVEd the loader then apply again?! but i applied, and rebooted, and it hung, though, the REPAIR kicked in, i went to DOS did the DISKPART and list disk/volumes,  Root Was not there, lol- but the bootLoader was...
+
+But i just took out the drive,plugged it into my external port, into laptop, formatted that sucker, and reinstalled win7-where iam Now.
+'
+but Definitely downloading AMITS when his comes out.-
+got to go and finish installing other crap, i cant stand using IE-lol"
+,britton27,2009-12-05T05:39Z,"Hey, was just stopping by to check on the comments on this torrent. Seen a couple new ones that had asked a question or pointed out some new information. Here's my reply...
+
+Well its been several months so far, I have not had to rearm, reactivate, or reload anything on the copy of Windows 7 that I have installed. The Hazar loader still pops up on startup and flashes some info at me so that fast I can not read it all.  Windows update is still providing the usual updates for defender and the malicious software removal tools crap.
+
+Comment @ DoragonMama
+
+Well considering the software runs on a computer and is completely driven by a clock/timer that controls electron pulses over a copper data buss. Its very easy to see how the software knows what year it. The BIOS has a time stamp built in on it telling the system the year it was made and then the main clock can also be set in the BIOS. You know Dd:Hh:Mm:Ss, and the system checks that info every time its boots up and that way it always knows what year it was made and what time of day it is. 
+
+Comment @ NosTraDomus
+
+Man that is just way to much crap to have to go through just to get it running. Win 7's of no use if it won't stay activated I'm sure, but you seemed to have tried things even I have not thought of (didn't need to). Still couldn't get it to activate? 
+
+I'm beginning to suspect that its just ""DELL"" and their policy of, ""Don't waste time upgrading your hardware or software, just buy more of our really low end piles of shit"" Every Dell computer I have ever worked on and opened the case for is always extremely limited on its upgrade ability. It's usually those old dimension 2400's with 3 PCI slots, full of useless cards like Dial Up modems and generic Serial ports for antique game pads. Won't hold more than 2 GB's of RAM and its memory specific on top of that, they like to stick with those horrible Intel brand processors to, and Intel is bad about making sure each new chip design has its own special socket, just so you can't swap chips from one gen to the next. A total money racket if you ask me. 
+
+If anyone else that has a dell of any kind tries to use the activator tools, then please post your results. Were you able to activate Windows 7 on your Dell? 
+
+I have a Compaq, it was a bare bones sort of deal from newegg, I just hooked it up with my own custom parts and since its NVIDIA based with an AMD processor, perhaps that is why I didn't have any issues with the activation. I even changed the AMD processor from an Athlon X2 64 5000+ to the Athlon X2 64 5800+ and took out the original 2GB's of ram in favor of 2x2GB strips, as well as added a secondary SATA controller so I could install a 1TB internal HDD to pair up with the 500GB that came with it (didn't take long to fill that 500GBer' up). Also put in a Nvidia 9500GT graphics card, the on board works well enough to run Aero but the score was very limited on the gaming subscore until I added that card.
+
+Anyway its good to see that this torrent is still kickin' considering PB's been on the fritz a lot lately. Drop a question or comment, I'll try to answer them when I think to check on it from time to time."
+,neoform,2009-12-08T03:38Z,"Virus forund: ""BAT/Shutdown.824""
+
+Hmmmm..."
+,britton27,2009-12-28T17:54Z,"Well Neoform, you're the only one to find anything like that. 
+
+It's not surprising though, of course Anti Virus software is starting to pick up on the activators. They work with big business to stop just this kind of thing. This stuffs been out for some time now, so its easy to understand that some Anti Virus software companies are going to flag it as malware. To them it is, its getting something for nothing. We all know that's not how these companies work. Trial-ware fine, but whole programs and operating systems! 
+
+If your scared climb in my pocket, otherwise please visit this link to resolve your Windows 7 blues http://www.microsoft.com/windows/windows-7/"
+,britton27,2010-01-20T01:24Z,"Update:
+
+I had the displeasure of working on a Dell XPS laptop, those tiny lil bastards. I had no problems installing the copy of Win 7, 32bit. The activation tools worked fine. Apparently all the folks complaining about it were doing something wrong, probably failing to use all the activation methods within the V.5 tool. 
+
+A bit tipsy as I write this, but here's some advice for anyone.
+
+READ THE GOD DAMN SCREEN! 
+
+Reading seems to be a lost art, something that disturbed me very much so.  If you are  to ignorant to activate Windows 7 by now, then prepare to shell out some cash or remain in the past with your antique operating systems."

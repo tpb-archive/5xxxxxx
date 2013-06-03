@@ -1,0 +1,10 @@
+These are the original HL2 sound files, to be used together with Synapse's HL2 pack. This should fix the lipsync issues if this is important for you.
+
+Just replace the original sound folder inside your half-life 2 install directory.
+
+- remove hl2/sound in your HL2 folder
+- unpack with 7zip the hl2sounds.7z
+- move the new sound folder to hl2/
+- play!
+
+Now, the lipsync should work.

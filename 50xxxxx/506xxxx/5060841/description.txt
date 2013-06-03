@@ -1,0 +1,111 @@
+Altium Designer Summer 09 - Build 9.0.0.17654 - Portable Edition
+---------------------------------------------------------------------
+
+* Install
+-----------
+
+1) Copy the .EXE and .DAT files to any drive / folder (HDD, DVD, USB Pen Drive ...)
+2) Execute "Altium Designer Summer 09.exe"
+3) Enjoy!!
+
+The examples files are compressed in the "Examples.rar" file. You can delete this file if you don't need the examples to save disk space.
+
+
+
+* Delete saved options, history, restore defaults settings, etc
+-----------------------------------------------------------------
+
+1) Just erase this folder, the custom setup are stored here:
+
+C:/Documents and Settings/username/Application Data/Thinstall/Altium Designer Summer 09/
+
+This folder are recreated every time you run Altium.
+
+
+
+* Uninstall
+--------------
+
+1) Erase all files / folder copied during install
+2) Erase the folder: C:/Documents and Settings/username/Application Data/Thinstall/Altium Designer Summer 09
+
+
+
+Notes
+-------
+
+This software has been portabilized with ThinApp v4.0.3_169725 wich is NOT compatible with Windows 7 Beta. Under Windows 7 Beta, this program crash.
+
+If this portable version crash in your Windows, you need to make a full installation of Altium Designer Summer 09:
+
+1) Download the original Altium Designer Summer 09 from the Altium.com site:
+
+    http://trial.altium.com
+
+2) Unzip and install it. DO NOT EXECUTE Altium Designer.
+
+3) With an hex editor like Cygnus <http://www.softcircuits.com/cygnus/>,
+   open the installed dxp.exe file, search and replace this hex values:
+
+        f8ff84c075088d45
+
+   and replace 75 with EB:
+
+        f8ff84c0eb088d45
+    
+   Save and exit.
+
+4) Download any keygen for Altium:
+
+    http://torrents.thepiratebay.org/3768082/Altium_Designer_6_License_and_Patch.3768082.TPB.torrent
+    http://torrents.thepiratebay.org/5040483/Altium_Designer_S09_Crack.5040483.TPB.torrent
+    
+   or you can search for "altium ad9.ini" in any search engine.
+
+5) Edit the file "altium.ini" or "ad9.ini" with Notepad.
+
+6) Change the line:
+
+        LicenseVersion=6
+    to
+        LicenseVersion=9
+
+7) Change the line:
+
+        ProductName=Altium Designer 6 - Complete System
+    to
+        ProductName=Altium Designer
+
+    Do no put "Altium Designer 9", only put "Altium Designer".
+
+8) You can change the "TransactorName" to any name.
+    
+9) Save the file and exit.
+
+10) Execute "AltiumDesigerKeygen.exe"
+
+11) Change the language to english.
+
+12) Import the "altium.ini" or "ad9.ini" file (button Import INI).
+
+13) Export to "altium.alf" file (button Export ALF).
+
+14) Exit from the keygen.
+
+15) Copy the "altium.alf" file to the Altium
+    Designer folder, usually C:/Program Files/
+    Altium Designer Summer 09/.
+
+16) Execute Altium Designer Summer 09. Ignore the
+    warning about of the license.
+
+17) Select "Add Standalone License File".
+
+18) Select the "altium.alf" file.
+
+19) Enjoy!!
+
+
+You can add extra libs from:
+
+    http://www.altium.com/forms/libraries/other/

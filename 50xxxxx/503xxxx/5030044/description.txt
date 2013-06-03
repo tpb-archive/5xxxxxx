@@ -1,0 +1,14 @@
+uTorrent 1.8.3 Build 15772 with DHT Patch
+PLEASE SEED AFTER DOWNLOADING
+=====================================================================================
+uTorrent uses DHT to find people without using a tracker. This helps you finished downloading if the tracker has a problem.
+
+Some torrents have DHT disabled, and this patch allows you to use DHT with any torrent.
+
+CAUTION: If you use private torrent sites make sure to disable DHT and Peer Exchange for those torrents to avoid getting banned.
+
+This version of uTorrent 1.8.3 will ignore the 'private' flag on any new torrents it opens. This will enable Peer Exchange and DHT on such torrents. 
+
+This is for torrents that are mistakenly or purposely set to 'private' during torrent creation, but then are uploaded to public trackers. There are many private torrents on public trackers and this patched version of uTorrent allows you to download those much faster.
+=====================================================================================
+PLEASE SEED AFTER DOWNLOADING

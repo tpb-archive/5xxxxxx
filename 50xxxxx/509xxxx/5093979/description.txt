@@ -1,0 +1,24 @@
+Installation:
+1. First you need to download AES here http://www.aerosoft2.de/downloads/aes/AS_Airport-Enhancement-Services_V204.zip
+2. Install AES
+3. Over-write the contents of your X:Microsoft Flight Simulator XAerosoftAES folder with the files in this torrent (Make a back up first)
+
+Start AES (2.04) and you will have over 100 credits!
+
+Req.:
+All Imagine Simulations Airports for FSX.
+
+For some reason this doesn't work on all PC's so here are uninstall instructions for AES:
+1. Deinstall AES from FS scenery.cfg
+
+2. Delete the AES folder (FS9AerosoftAES)
+
+3. Delete the following registry entries:
+
+HKEY_LOCAL_MACHINESOFTWAREaerosoft [cryptic string]
+
+HKEY_LOCAL_MACHINESOFTWAREaerosoftAES-Basepack&&AirportPack - FS2004 (if it's not removed after deinstallation)
+
+HKEY_USERS [Looong cryptic string] SoftwareVB an VBA Program Settings [same cryptic string as above]
+
+4. A new installation of AES won't know that you have typed in blacklisted serials before.

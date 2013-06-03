@@ -1,0 +1,15 @@
+Sorry for my former upload that had the latin1 charset and had special and foreign chars messed up. This one is UTF8, i double checked it worked.
+
+This torrent contains every comment to all torrents in the TPB index torrent (http://thepiratebay.org/torrent/5053827).
+
+It is a MySQL SQL file, but is probably readable by other database engines as well.
+
+Fields of the table:
+id - primary key / autoincrement
+torrentid - id of the torrent
+user - user writing the comment
+time - unix timestamp
+comment - the comment itself
+
+The script i wrote to create this sql can be found here: 
+http://paste2.org/p/395750

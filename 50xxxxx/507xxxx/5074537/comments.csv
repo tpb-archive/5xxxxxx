@@ -1,0 +1,725 @@
+User Type,Username,Date,Text
+,user4126,2009-08-31T09:25Z,thanks for rev01...   :)
+,maru_tips,2009-08-31T10:42Z,"Hope this time local network browsing work 
+
+I Love ur  WORK eXPe...."
+[T],eXPer1ence,2009-08-31T10:58Z,"It ""worked"" last time - if you enabled the services, lol."
+,maru_tips,2009-08-31T11:33Z,"Pardon me but  i  have  no idea how  to activate the local networking...no idea nor clue  at all....i read all the  comments in your tiny7 release but really theres is no step by step how to do it....
+
+hehehehehe...."
+,Loviiisa,2009-08-31T12:05Z,"The info is so confusing, lol. ""KEPT COMPONENTS"" should mean ""included in this release""? Judging by this, Windows Media Player is finally present? But why on earth would would someone want to use Paint and dousins of other useless things?
+
+Great work though, eXP. Cred."
+[T],eXPer1ence,2009-08-31T13:31Z,Paint has its uses. Screenshots for example.
+,maru_tips,2009-08-31T14:03Z,Paint  are Old but  it is  very usefull....also the calculator it never dies.....thats the  only program that i will  never let  go......very very  handy... fast and  handy...
+,Loviiisa,2009-08-31T14:12Z,"BTW, i forgot to ask. The activation by hazar, is it updated in this rev, and if not - is it still reliable and good?"
+,gnufella,2009-08-31T17:30Z,"yipee! been waiting for this for long. many thanks, eXP!"
+,Ov4ar,2009-08-31T21:21Z,Nice one man ;)
+,Xelent,2009-08-31T22:17Z,"Brilliant, thanks for this one! 
+According to the retestrak-forum this is an epic release, fast like a rocket.
+Finally I can let Server 2003 Exper1ence edition rest :)"
+,yoke_man,2009-08-31T22:56Z,"Tack mannen, har letat efter ett snyggt operativsystem som dessutom är resurssnålt!
+Du har gjort det!, Min trötta Acer har aldrig gått bättre!"
+,AkQ,2009-09-01T02:37Z,Nicely done again! :) Thankyou.
+,maru_tips,2009-09-01T04:03Z,"when im playing RANonline my chat text and other player chat  dont appear  it only appear and can read from my console chat box  but not from the visible  charachter  ''other player'' 
+
+my opinion is  there  is a  missing FONTS in tiny7. coz when i used it  in  my microXP chat txt are visible. i do have 2 OS by the way...
+
+any idea where to get  those missing  FONTS and where to  put  it or what causes my RANonline chat txt not visible
+"
+,vibe666,2009-09-02T00:14Z,"thanks for the hard work yet again, it's appreciated.  not that you'd know it from all the bitching and moaning.
+
+if you don't like something in  eXPeriences releases then either don't use them or figure out how to fix them yourself.  most of what everyone has asked here so far takes 5 minutes of googling to fix.
+
+there are thousands of different software combinations that eXPerience could have put in this build if he'd wanted to and I bet not a single one would have been good enough for everyone.
+
+don't like paint?  then don't use it and find and install something else.
+
+missing font for some obscure game?  google it and find out where to get it and how to install it yourself.
+
+don't like any of it?  then wait for MS to release the unmodified software and buy it from them instead of getting it here for free before it's even out in the shops and then you can call them and bitch about it.
+
+or you could just show a bit of gratitude for all the hard work and hours of time that has gone into putting this together and say ""thanks"".
+
+Thanks. :o)"
+,maru_tips,2009-09-02T08:48Z,"   WTF Google  are  unreliable when  it  comes to computer problem it will allways  direct  you to a  paying website  nyahahaha.....
+
+   Sharing encountered problem are  productive  than  reading  the  word ''tank you'' word  a  hundred  times  nyahahahah.....
+
+"
+,Loviiisa,2009-09-02T14:18Z,"Well, I for one certainly have alot of gratitude for these releases, and the googling is always the first option. But google is not some god with all the answers. :)
+
+So I ask again, someone who might know: Is the activation by hazar updated in Rev01, or/and is it still reliable and good?"
+,ntoskrnl,2009-09-02T16:33Z,"The activation used on this is exactly the same as on the original one, and it's still reliably working."
+,Loviiisa,2009-09-03T10:09Z,"ntoskrnl: Thank you!
+
+Sadly, gadgets and sidebar do not work in this edition. With some luck it might simply be cuz of turned off processes conflicting it? Otherwise a truly great build."
+,vibe666,2009-09-04T01:02Z,"google (or pretty much any other search engine) is as reliable and effective as the person using it.
+
+learn how to use it properly and it will be very rare that you won't find the solution to pretty much any PC problem.
+
+you can pretty much guarantee that whatever is wrong with your PC, you are not the first person to have that problem by a long shot.
+
+http://google.about.com/od/searchingtheweb/ss/useefectivesbs.htm"
+,oralmud,2009-09-04T20:13Z,"per details in rev01 the sidebar package was removed, but why is the sidebar folder and its contents in program files was left intact? Also, the Run entry in hkcu is still there aside from the rightclick desktop menu item [and start menu, damned things are quite misleading, shouldve been removed].
+
+tried running th exe file to no effect.
+
+So can one can delete the the sidebar program folder without affecting anything else in the system?
+
+looks like this is item number one to be addressed in rev02 "
+,Loviiisa,2009-09-05T00:41Z,I do believe that gadgets were MEANT to be functional in this release. Something just went wrong.
+,winstonG,2009-09-05T19:08Z,"This entry is supposed to be in the registry but isn't :
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar\ etc etc
+
+Apparently there is a bug in win7 where turning off UAC results in gadgets not working ..
+
+""On Windows 7, when user turns off and disables the User Account Control (UAC) by setting the UAC slider to never notify in Control Panel, there will be a ?side effect? on Gadgets and/or Sidebar, where Sidebar together with Desktop Gadgets do not work properly and not been displayed on desktop.""
+
+Reportedly, this can be fixed by creating the following entry under ?Settings? in the registry-entry that isn't there :) 
+-> New -> DWORD (32-bit) value -> Name it ?AllowElevatedProcess? -> Set it to 1
+
+So, I guess we just need the complete reg-entry
+to merge ..
+"
+[T],eXPer1ence,2009-09-06T16:41Z,"GADGETS FIX!
+
+MAKE A .REG FILE OF THE CODE BELOW AND RUN IT.
+
+No need to reboot, Gadgets will work instantly...
+
+________________________________________
+
+Windows Registry Editor Version 5.00
+
+; Gadgets Fix (thanks to r0manian)
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar\Compatibility]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar\Settings]
+
+________________________________________
+"
+,oralmud,2009-09-08T18:17Z,"Thanks for the gadgets fix.
+
+Anyone else have a problem starting the on-screen keyboard though?"
+,raprap30,2009-09-09T10:19Z,"eXp, a great upload again, and u finally added WMP and gadgets! :) but 1 other (only) factor i installed rev01 was that .... .NET framework  3.5 ! It isnt fuckin working!"
+,bencasey95,2009-09-09T21:14Z,"If having torrent download problems, 
+try these alternate trackers (worked for me): 
+
+http://tracker.openbittorrent.kg:2710/announce
+
+http://tracker.publicbt.com/announce
+
+Also, get a big Tracker List here: 
+
+http://thebeehive.info/p/tlist.htm"
+[T],hifi2005,2009-09-11T05:01Z,"the fastest modded os  to date
+this is by far the fastest os ive ever used  
+
+thanks eXPer1ence   keep up the good work   m8"
+,Loviiisa,2009-09-11T09:11Z,"It sure is fast, but is anyone experiencing cpu problems with Microsoft Visual C++?
+
+I had to reinstall this Rev01 several times until I finally pinpointed the problem to that program. 
+
+It causes the processor to work at 50% constantly for some reason. Apparently Visual C++ jinxes my Nod32 since its krnl.exe working all the time. No viruses detected and uninstalling it keeps the problem."
+,pantyhacker,2009-09-12T17:57Z,"I downloaded this okay, checked the hash,  and burned it @ 12X.  It boots on this computer and the one behind me, but for some reason I can't get it to boot on the computer I actually want to install it on.  I keep getting a 
+
+""CDBOOT:  Can not boot this cd error 5"" or some shit like that.  
+
+anyone?"
+[T],hifi2005,2009-09-13T22:45Z,"lo pantyhacker
+
+
+does the pc you have trouble installing on  have  other things  connected  such as   external hardrives  writers,or anything plugged in       cams   ,pen drives    ect ect .
+if so m8  try unplugging  them  and then try again  
+"
+,eNigma333,2009-09-14T13:18Z,Tnx for the fix! Will paste the files to my USB stick and reinstall Windows 7 on my IdeapadS12 later today!
+,AchoBG,2009-09-15T16:10Z,"eXPer1ence: When can we expect a Windows 7 Micro edition?
+Keep up the good work!"
+,arafat_mw,2009-09-17T01:40Z,thnks experience ...thnks for the WMP :D Now its windows 7 time :D sounds awsum \m/ 
+,lilh0tdude,2009-09-17T05:33Z,"Tiny7 IS AMAZING!  It runs alot faster than XP especially if you have readyboost, I cant believe it, Im using it on my desktop computer with only 512mb of ram, a 2ghz pentium 4 processor, and 40gig harddrive and an old nvidia craphics card with i think 64mb.  Its running it almost as good as my labtop with 4gigs of ram and core2duo.  Although I can't enable aero cuz of my card its still the shit.  The only thing that i wish it included (unless im missing something) is system restore
+also, the gadget registry thing works perfectly...
+Thanks for this"
+,raprap30,2009-09-19T07:43Z,.NET 3.5?
+,animeworld,2009-09-19T16:51Z,"Great job as always eXPer1ence, I was reading that does windows 7 32-bit truly see 4gb instead of 3gb ram?"
+,joeshrubbery,2009-09-20T04:45Z,"32-bit Windows 7 may be able to ""see"" 4GBs just fine, but is still subject to the same architectural limitations hobbling 32-bit XP and Vista from actually using most of that last gig. If you've got 4GBs or more you'll just have to make the jump to x64, which is actually not too bad nowadays. Unless you've got some old piece of hardware you can't part with that lacks driver support, there's really not much else to stop someone from jumping to x64 (other than the lack of a Tiny7 x64 edition!)"
+,animeworld,2009-09-20T06:47Z,Does this come with .Net or we have to install it?
+,leonski21,2009-09-22T22:16Z,this is very fast dl ive been gettin240kbps and thanx for the torrent
+,ntoskrnl,2009-09-23T15:02Z,".NET Framework 3.0 and 3.5 are REMOVED from this slimmed-down OS, and they can not be installed in any known way.
+
+If you find a way to install them, please tell us! Knowing fixes will help eXPerience to make even better releases."
+,MagiusRerecros,2009-09-25T02:13Z,"So... wait. You said to create a .reg folder of the following code:
+
+Windows Registry Editor Version 5.00
+
+; Gadgets Fix (thanks to r0manian)
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar\Compatibility]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar\Settings]
+
+How exactly would one do this?"
+,superxyz,2009-09-28T01:21Z,"@ MagiusRerecros
+
+1. Open notepad or your fave text editor.
+
+2.  Paste the code.
+
+3.  Save the file on your desktop as ""AmazingRegistryHack.reg""
+
+4.  WITHOUT the quotes.
+
+5.  Double click the AmazingRegistryHack.reg file
+
+5a.  If this doesn't work, right click it and choose ""merge""
+
+6.  If Windows gives you any bullshit just say yes to everything.
+
+7. Reboot.
+
+8.  Fun and profit."
+,superxyz,2009-09-28T01:24Z,"Also, leave out the line about the gadgets fix"
+,superxyz,2009-09-28T01:32Z,And I see you don't have to reboot.
+,g1701gst,2009-09-30T02:32Z,"I have been using Experience for years, couldnt live without the. I have had tiny 7 for about a week now and loving it also. Updates fine. It runs very fast."
+,sxp64,2009-10-01T15:35Z,"So, does anyone have .NET framework working on this release?
+
+And what a shame it still isn't x64, while both linux and OSX are way into 64 bit now. Ubuntu 9 is even running fine with 64bit firefox and now Adobe Flash for x64 as well."
+,winstonG,2009-10-01T18:30Z,"Yeah, but eXPerience has some old modem or something that doesn't have any 64bit drivers so he doesn't care about it .."
+,GodXZY,2009-10-02T02:00Z,OMFG!  It keeps f-ing asking me to find my CD-DVD driver.  I've got it installed!  That's how it's running!  How the hell do I fix this.  I really want this badly cause it owns!
+,GodXZY,2009-10-03T06:53Z,OMG SOMEONE HELP ME!
+,ntoskrnl,2009-10-03T12:37Z,"@GodXZY: Reburn with ImgBurn at 1x and tick ""Verify""."
+,etvolare,2009-10-05T08:14Z,"Help
+I loaded and ran the 08-04-09 release and when I tried to reload MS Office, I get ""MISSING WAB.DLL"" error.  I think that file is associated with Outlook Express and gets loaded with the Windows OS.  The option to reload Outlook Express is nowhere to be found. "
+,etvolare,2009-10-05T08:19Z,"OOPS!! I checked and it is Rev 01 that I loaded. Anyway, anybody got any ideas???
+BTW: this is running on my old 512KB HP Presario 2100 just to give it a test drive. Amazing!!!"
+,gammy69er,2009-10-05T12:49Z,"Firstly, thanks to eXPer1ence for ripping W7 to shreds. the Misses has always wanted Vista/7, but her puss 512mb ram can't Handle the Jandle (look it up), now it can - YAY.
+Secondly - To all those out there worrying about ""OHHH, is there a x64 version""""are you gonna make an x64 version"" and someone even had the balls to say something about eXPer1ence's ""Modem"", please get a fucking life.  This build is for all thos poor souls stuck on XP, 99% of which have x86 processors (the other 1% don't give a stuff).  most people whom had the foresight to but an x64 pc, bought it with more than 1gb of ram (considering x64 blows out the 4gb limit of x86 to around 8TB).  YOUR COMPUTER SHOULD HANDLE X64 W7. USE IT. GOOD FEATURES. Not all about ram usage for computer speed (never seen min get over 2.1 GB RAM Usage - nominaly 650mb - 700mb). 
+
+Thanks again eXPer1ence.  look forward to testing this out"
+,winstonG,2009-10-05T17:22Z,"Yeah well, he actually DOES have some piece of 
+network-hardware that doesn't have any 64bit drivers .. 
+Besides, what the fuck do you know about who this is for or what hardware people have ?? "
+,fakts,2009-10-07T13:58Z,"Great release, just 2 bugs:
+-Some funny system tray, sometimes it doesn't show some programs icon even though they are running, and sometimes it shows empty space.
+-I can't get some updates to to be installed, example (Update for Windows 7 (KB974332))
+
+Anyone else has the same problem?"
+,Kreon22,2009-10-07T22:00Z,"So far this has worked out great.
+thank you so much.
+
+but a PROBLEM occurred!
+
+my quick search/launch bar from the start menu and from the upright corner of windows has gone missing. 
+It doesn't start, can't enable it from ""customize start menu"", tried to find reg edit fix for it but it can't process it.
+
+when I press win+f I get ""search: class not registered""
+
+
+
+PLEASE Help!!
+
+
+p.s. 
+
+the gadget fix was awesome."
+,NSX01,2009-10-10T16:53Z,Won't this get WGA trouble since M$ blacklisted it?
+,torrenti,2009-10-10T22:07Z,"Thanks for this, runs very nicely.
+The gadget  fix doesn't work for me though, when I try to run it or use the ""merge"" option, I get the following error: ""Cannot import, the specified file is not a registry script. You can only import binary registry files from within the registry editor"".
+
+I get the same error from within the registry editor also.
+Is there any other way?"
+,jeppppe,2009-10-11T08:54Z,"Your releases are awesome, eXPer1ence,  but i can't make media portal work in any of them. PLS somebody help me...."
+,faboluz,2009-10-22T18:05Z,"I can't get some critical updates 
+I think cause there's some dll's missing"
+,animeworld,2009-10-23T09:43Z,"The retail version is out, will you be doing a rev02 based on that?"
+,animeworld,2009-10-25T05:55Z,"@Wikan:
+Please do your homework, what you talking about is the RTM.
+
+http://en.wikipedia.org/wiki/Windows_7
+RTM: July 22, 2009
+Retail: October 22, 2009"
+,arafat_mw,2009-10-25T14:41Z,we want rev02 with the latest build :P plizzz :'(
+,KeepJ24,2009-10-27T23:31Z,"HELP!!!!! I SERIOUSLY WANT THIS! BUT EVERY TIME I BURN THIS TO CD, IT GETS ALL THE WAY TO ""Setup is starting.."" THEN IT SAYS ""AN UNEXPECTED ERROR OCCURRED. PLEASE VERIFY THAT ALL INSTALL SOURCES ARE AVAILABLE AND RESTART SETUP. ERROR CODE 0xE0000100. PLEASE TELL ME WHATS WRONG!!!!!!"
+,animeworld,2009-10-28T03:31Z,"They are not identical, the retail has a higher build
+
+7600.20510 compared to 7600.16385
+
+The retail has all the updates since the first launch of rtm."
+,ptiger,2009-11-01T17:25Z,"Great torrent eXPer1ence - a nice, fast OS with all of the unnecessary crap which comes with windows 7 removed.  I've been having some problems with it though:
+
+My biggest problem is that it appears Tiny7 REV01 failed to activate on my Lenovo 3000 Series N500. On first boot, the activation window came up, and it seemed to work (it didn't return any errors). Later, under Start>Computer>Properties, the ""Windows Activation"" area says ""30 days to activate. Activate Windows now"". However a product key is there - ""00456-OEM-8992662-00497"". When trying to insert ANY correctly-formateed product key, I get ""A problem ocurred when Windows tried to activate. Error Code 0xC004E003"". The only way I found to fix the activation problem with Hazar's RemoveWAT.
+
+On a clean imnstall of Tiny7 REV01, Windows Update worked fine. After installing a few simple applications, it is no longer working. When preparing to download 3 updates for example, the loading text says ""Downloading 3 Updates (0 KB total, 0% complete)"". The loading then stops, and gives an unknown error (code 800F081F). For this reason I can no longer download any updates.
+
+When you open the start menu, type something in and press the return key, you get a window saying:
+""search:query=something
+Class not registered""
+You get a similar message when using Win+F, as mentioned by Kreon22.
+
+If you set a password for the Administrator account which Tiny7 comes with, on boot a message saying ""The user name or password was incorrect."" is displayed without entering anything into the password field.
+
+There's no glow on the Min/Max/Close buttons on mouse-over.
+
+Some of the above issues are pretty serious, and I'd be grateful if you had a look at them, eXPer1ence. I had none of these problems with the build 7127 original ISO.
+
+You could also upgrade the build nuber to 7600.20510 by integrating the hotfixes from here:
+
+http://www.katzforums.com/showthread.php?t=692812"
+,genesis1791,2009-11-05T01:03Z,got the fix for the .net fix issue :D simply install the new .net 4 beta http://www.microsoft.com/downloads/details.aspx?familyid=DED875C8-FE5E-4CC9-B973-2171B61FE982&displaylang=en
+,Redfish71,2009-11-07T01:42Z,"There is only 1 thing you should add, and that is Windows Media Player or somewhere find the dll files that are needed to play videos with evr custom in media player classic hc. Now you can't get dxva to work because of the missing dll. For instance mfplat.dll is missing which is needed for evr.dll. 
+
+Since it's a tiny version probably also run on not so deluxe pc's it would be nice if you could play 1080p content with your GPU instead of CPU (which will be too slow). "
+,KeepJ24,2009-11-09T03:14Z,"YES!!!!!!! OMG!!!!!! IT FINALLY INSTALLED!!!!!! I DOWNLOADED THIS TORRENT LIKE 1000000000 TIMES AND IT NEVER WOULD WORK. SO I DOWNLOADED A SECOND ISO OF WINDOWS 7, COPIED THE SETUP APPLICATION TO THE TINY7 ISO, DID THE INSTALLATION FROM INSIDE XP, AND THE INSTALL ACTUALLY WORKED! AND I HAVE TO SAY, I'M VERY IMPRESSED eXPerience, THIS WINDOWS Se7en ROCKS!!! GOOD JOB!!!!!!!!!"
+,ec16043,2009-11-09T14:34Z,"Hi
+first i wanna thanks for this fenomenal release... I love ir
+i have a problem with windows update
+i canot change language 
+i cannot update anything
+please help...............
+
+EC"
+,chaosx13,2009-11-10T07:11Z,is this 32 bit or 64?
+,chaosx13,2009-11-10T07:17Z,"and would i be able to game with this? (not newest games, just Dawn of war and Oblivion :)   )"
+,Metalcored00d,2009-11-12T21:33Z,"First of all, eXPer1ence, ty so much for this release =] it makes my acer aspire one run supersmooth (with a 2GB SD card as readyboost) =]
+
+I do have a couple of problems though, same ones as I've already seen described here but all left unanswered..
+
+1) No search box in start menu --> is there a way to activate this again?
+2) language packs fail to install
+3) windows update fails on quite a lot of updates
+
+apart from these 'minor' problems, I really enjoy this OS
+
+Keep up the good work!"
+,fragtion,2009-11-17T14:16Z,"Great release, I've always loved eXPer1ence's releases.
+However, Rev2 is overdue!
+The following should be included for Rev2:
+1) .NET Framework 3.5 SP1 MUST WORK FULLY - i've had endledd problems with Rev1 because of this and had to switch back to full Win7 because of applications not running.
+2) Most Windows-based hotfixes are not installing on windows update
+3) Activation should include ""RemoveWAT v1.9 by Hazar"" or something similar
+4) The ""Windows\Install"" folder bat file should ask the user Yes/No if they want to install WinRAR/Foxit/etc, because I personally don't use WinRAR but 7-zip instead
+
+Everything else is perfect, and I'm looking forward to the next release, hope you can get it out soon :]"
+,Mr.Moto,2009-11-22T16:06Z,"using this OS on my eeepc 901 now for a couple of weeks, runs very good and fast. Just one minor problem: for some reason it fails to install language packs, I tried it with Vistalizator (look it up) using the lp.cab for this build and I tried to install it with dism directly into the command box. Neither worked. Is there a workaround for this release to get a different lp installed?"
+,KeepJ24,2009-11-22T23:21Z,"I Agree with Fragtion, You should include RemoveWAT. Your Automatic activator didn't work. so i used RemoveWAT to bypass activation altogether. oh, and PS, you need to get a new product key because ms officially blacklisted this key. Again, its a great OS. Works good on 256mb."
+,kelv1969,2009-11-27T23:35Z,"Installed great. no trouble. But...and it's a big but, my graphics card runs at half the speed that my other windows 7 installation runs. I use 'Video Card Stability Test' from Freestone Group. Ran it on this Experience version of Windows 7, got a fps rate of 64, then ran the same program on my other Windows 7 installation (on same laptop, dual boot) and I'm getting nearly 120 fps. Got all the same drivers installed on both installs. So what's going on? Thought this stripped down version would run faster. But no. So, all of you out there...be aware of this little quirk. Nvidia Geforce 9600m gs on Acer Aspire 7530g laptop. The Experience guys, if you read this, perhaps you could give some sort of reason for the vast difference in performance. 
+
+Try this utility to test out your graphics boards after installing this version of Windows 7 by eXperience. Do the benchmark test then boot to another operating system (on same computer) and run the test again. If anybody gets weird results. post it here. Here's the link for this great utility........ http://freestone-group.com/download/VideoCardStabilityTestSetup.exe 
+ 1 2"
+,kelv1969,2009-11-28T22:41Z,"I've done some more benchmarking of my two separate Windows 7 installs. I've now used 'Performance Test' at www.passmark.com, which tests everything, i.e. cpu, 2d, 3d, disk and the eXperience version of windows 7 comes out better by a few points. So...conflicting results. I'll use the eXperience version, as I've used the XP version for a number of years without any problems. If I run a 3d game that seems to suffer, I'll run my other windows 7 and see if that is better. Would like some others experiences on this (no pun intended). Cheers."
+,D3monoid,2009-12-01T15:45Z,Couldn't agree more with fragtion!
+,ntoskrnl,2009-12-01T20:57Z,"NFO has expired, try this instead:
+
+http://pastebin.com/f470db8c7"
+,NGCapnJack,2009-12-10T09:40Z,"For all of you complaining about the inability to use the search, my guess is that it's disabled because the indexing services take up a huge amount of resources.
+
+An AWESOME alternative that should cover most of your needs is Launchy. It's very light-weight and great for quickly opening files, folders and programs (particularly if you already know where to find them)."
+,Algariol,2009-12-17T16:35Z,I'm enabled some services and my network works fine now. But now renaming bug is comes back. How i can fix it? 
+,thimage,2009-12-17T20:07Z,"Hi,
+Does the removeWAT allow W7 to be used permanently? I mean, is there still a deadline around March to June 2010?
+is Tiny7 Rev01 x86 or x64?
+Thanks in advance,
+Thimage"
+,toja92,2009-12-19T00:40Z,"@thimage: I'm 99% sure this is x86 and I assume this is the RTM AKA. final release, not some beta version. So there shouldn't be a limitation."
+,Tullmann1,2009-12-19T20:34Z,"I am testing this now on my VmWare installation, and it works quite well.
+I have a little ""fix"" for they that miss the search function, install Google Desktop!
+Google's search function is ten times better than the original 7 function.
+I will too recommend people too use Hazar's RemoveWAT if they don't get the activation too work.
+The only thing I would wish for Rev02 is that I can install language packs, maybe a guide for how to do it."
+,Loviiisa,2009-12-21T22:33Z,"Change the language in Rev01 by...
+
+1. downloading Vistalizator: http://www.froggie.sk/
+2. then download the language pack manually (google be thy helper)
+3. Finally use the EXPRESS method when converting language. 
+
+Works like a charm. Merry x-mas."
+,Tullmann1,2009-12-23T00:14Z,"Loviiisa: Nah, does not work for me.
+Merry x-mas to you too ;)"
+,MarXoft,2009-12-25T09:59Z,"Say. This thing works. Great.
+Now make one for 64 bits. Got 8 Gb memory. Not supported in 32 bits. And please put back printersupport.
+Keep this really good work going !!!"
+,PrinceGQ,2009-12-27T02:14Z,"Anyway to reinstall Media Center on this?  Perfect Win7 for me minus the needed MCE!
+
+Thanks!"
+,jzenman,2009-12-29T19:11Z,A hack work around for this if you can't get it to boot is to replace his boot files with the boot files from another Windows 7 disc... That worked for me... If you don't need the auto activated stuff and you know how to activate it yourself... Or use the Remove WAT program after you install...
+,KeepJ24,2009-12-30T19:12Z,"One thing i wish for in Rev02 is the ability to make more than ONE user account. In this version, when you try to make another account, it begins loading the account, and then it says, ""Cannot load User Account Profile"". >( You can't even enable the guest account."
+,toja92,2010-01-02T01:28Z,"Does it exist even the slightest chance of a 64-bit version?
+Or would it be possible for you to upload all files needed so we can do this ourselves(with a 64-bit edition)?"
+,koesherbacon,2010-01-02T10:44Z,Pastbin thing expired.  Can you post somewhere else with the specs?  Thanks!
+,bierisfijn,2010-01-09T16:52Z,"To change the language
+Loviiisa's way (Vistalizator) indeed works, but you need to make sure you have a language pack for Win7 Build 7600.
+And you HAVE to install it via express mode, or it will fail! You have to change the mode by clicking on the mode before installing.. it took a while for me to find out..
+Hope this will help some people."
+,misoa,2010-01-10T16:38Z,"Works great,thanks experience!!
+Did anyone try Microsoft MATH 3.0 , it doesn't work for me,simply won't start,I tried all the compatibilities.Microsoft site says that it is compatible with win7 x86
+I requires .netframework 2, but that is already installed right?"
+,basha04,2010-01-15T18:44Z,seeing that there's more craving for rev02 and some bugs i think eXP will soon release its 3rd version of tiny7. will have to wait for that. [praying]
+,misoa,2010-01-20T21:37Z,"I tried to update windows and it can download the latest drivers but cannot download hotfixes.
+i get this error: Code 800F081F
+I tried RemoveWat 1.9 and 2.1 and also the activation that was built-in"
+,user41263,2010-01-26T15:00Z,"this version working very good
+waiting for Tiny7 Rev02
+and if possible Tiny7x64 version as well
+in next version pls add the following if possible 
+i) On Screen Keyboard
+ii) Search Service
+thanks in advance"
+,Txacoli,2010-01-27T11:16Z,"If you can't enable gadgets try like this:
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar]
+""TurnOffSidebar""=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar\Compatibility]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sidebar\Settings]
+
+make sure you save it as unicode. 
+
+Thanks eXPerience for the awesome work, I have been using your stuff for a long time. This is the first W7 I'm using, I don't thing I would have even decided to try if it weren't your release. Keep it up!"
+,thimage,2010-02-01T23:08Z,"I can't seem to boot from the version saved on a disc through Daemon tools. Could you possibly upload  a version that allows install directly from the file, with the process to format then install right from there? 
+Thanks
+Thimage"
+,ianlin,2010-02-02T02:24Z,"Thank you very much!  There is a so called ""rev02"" on TPB.  I believe it is a fake, not by eXPer1ence. 
+
+Some issues I have had with Rev01: updates don't work, cannot install any language packs on my own.  I also wish the HomeGroup feature can be included."
+,khanvict,2010-02-07T03:44Z,"can anyone modify the resolution for the boot loader on the iso to be 1280x1024? i can't install because during set-up my monitor says 'input signal out of range' and goes blank and can't see anything. I then tried using my flat screen tv and i get a 'invalid input' message.
+
+i had the same issue when trying to install tinyvista but tinyxp always works fine.
+
+any help is appreciated, thank you."
+,sissysparkleprincess,2010-02-09T00:59Z,"(From previous torrent comment)I know that laptop support was removed from TinyXP, is it back in Tiny7? If not, can I put it back in? My desktop computer doesn't need the capabilities of Tiny7, my laptop does."
+,lettucekl,2010-02-09T23:04Z,"I cant seem to access my onboard graphics control panel ( Intel® HD Graphics) with this version of win 7, i click on the control panel, and the egg timer comes up and then disappears and doesnt load up the contol panel for the intel onboard graphics, any ideas?"
+,lettucekl,2010-02-11T00:25Z,"Cant seem to load my onboard gfx control panel, due to .Net Framework V3 being installed with this release, anyone know how to install .Net Framework v3, always comes up with an error when i try and install it? And im unable to uninstall v2 that appears to be included???"
+,Naraku77,2010-02-11T08:58Z,"Works well on the PCs I've used it with.  Unfortunately, that's not many, because most of the ones I've installed 7 on had a 64-bit CPU, and it really is hard to justify putting the 32-bit version on a 64-bit machine now.  Not only have most of the compatibility issues in WOW64 been smoothed out, there's also the ""XP Mode"" that has been made available in 7.  Add to that the fact that many of these people will probably be wanting to upgrade their RAM to 8 GB (or more) in the near future, and I'd be having to install the x64 version then anyway.  So for the most part I've been using the bloated retail x64 disc.  This would have been so much more useful if it had been x64.  I've supported your choice to stick with x86 in the past, because x64's time had not yet come.  But now, clearly the tide has turned.  I can't even use your releases as the primary OSes on any of my machines anymore (all of them that were old enough to have less than 4 GB of RAM have been wiped out by the capacitor plague).
+
+I know you don't seem to like x64 versions (you've only ever released one disc with x64 versions of XP and 2003, a great DVD I might add).  Look at the stats though, the 64-bit version of 7 is outselling the 32-bit version 2 to 1, according to a report from Steam (and 7 has already surpassed Vista's adoption levels in this short amount of time since it's release).  Maybe it's time to reconsider your decision?
+
+Also, I think it would be an interesting thing if you could look into Server 2008 R2, especially the Core installs.  I'd love to see something like ""TinyCore Gamers Edition"" released eventually.  There's no Explorer to waste resources, so that leaves more for the games ;)  Seems to me the only tricky part would be adding DirectX and full .NET support (though it does have some .NET functionality and that may be enough to run most apps that need it).  For the lazy wankers who won't spend the 15 minutes it would take to learn basic DOS commands, you could have Total Commander run at startup, (or include a batch file that runs it when you type ""tc"" at the prompt, that should be easy enough).  Actually, I'm thinking TC UP would be perfect for a Core mod, because it not only includes many useful apps, it includes menu entries for running them.  You could probably even customize it further and add/remove apps to your liking (every app included is portable)."
+,gianelli76,2010-02-17T23:09Z,"Anyone know how to install this to USB drive?  
+
+eXPer1ence, please add USB drivers to next rev!
+
+Thanks for the posting.  JJ"
+,bogas04,2010-02-20T11:37Z,"To install via USB.
+
+1)Convert USB drive into NTFS format (use hp tool on xp , vista/7 already support)
+2)Copy contents of DVD (boot , efi , support and all files) into the drive (not in a new folder , just directly as they appear in a cd/dvd)
+3)re-boot and choose usb drive as boot priority
+4)done!"
+[T],scuba-doo,2010-02-27T06:32Z,Thnx for the up!! but when are we going to see rev02 ??? realy like your work !!
+,Naraku77,2010-02-27T13:31Z,"bogas04, if you had looked closer at the question, you might have realized the poster asked how to install this TO a USB stick, not FROM a USB stick.  There's a difference.  Installing from a USB stick is just going to make the installation go faster.  Installing to a USB stick creates a portable desktop the user can take anywhere.
+
+I'm surprised no additional drivers were included as well.  Stick drives always showed up in Tiny XP (I formatted one by accident that way, lol).  I've had a similar problem.  A friend's machine wasn't able to install this because they apparently have an older SATA controller that 7 does not support by default.  Maybe MS decided it was too outdated.  Maybe there's a firmware update it needs.  For now, that thing's using 2003 (experience's latest release of it, actually, from that DVD that has x64 versions, though the machine itself is x86 so I wasn't able to use those).
+
+I wasn't playing when I said I need an x64 version either.  I deal with the kind of people who buy whatever hype they see on TV and ""just have to have"" 7 when they don't really have the resources it needs.
+
+Case in point, I had this guy's machine that only has 512 MB of RAM (the e-machines trademark -- pathetically low RAM) running just fine with Superior XP x64, even with Windowblinds going.  But no, he can't just be happy that it works (and looks every bit as good as 7, if not better).  So now he's running 7 Ult. x64, and it's sluggish, and he's wondering why.  Not that I plan to use any version of Windows on his system ever again now.  He had my friend (grudgingly) remove all virus protection from his system because he found it annoying (after essentially using torture tactics by complaining over and over until he gave in).  Since I don't want to format his PC once a week or more because he refuses to run an AV, he can take my offer to install Kubuntu + LXDE or take it to Best Buy (which I know he's way too cheap to actually do)."
+,PaceyPimps,2010-03-08T17:46Z,"I can't find REV02 for real everytime i download one that says Rev02 its always Rev01 if anyone has downloaded real rev02 plz let me know the url. Also lets pray for a Rev03 soon with all updates slipstream preinstalled.
+
+Problems i noticed
+1. When you change name of shortcut on desktop it desapears then magicaly appears back and after that never bothers you again.
+2. Will not up date (update for windows 7 KB971033)  I get error code 80070643 
+3. Not activated so aleast try and add loader to iso.
+
+Rumers i confirm
+1. Does come with WMP12
+2. Does all update ect one which i listed above
+3. Does have Aero glass
+4. Faster then reg x64 about winxp speed"
+,fish_fingers,2010-03-10T21:36Z,"Is this safe for the interwebs? If it doesn't update, there's been some serious worms and rootkits for win7 since this was released. Seems kinda iffy."
+,skulldragon,2010-03-12T23:52Z,"Yah, this is yet pointless, full of bugs, and doesn't even support my soundcard."
+,Naguah,2010-03-23T15:08Z,"I struggled with windows update errors. Failed to update.
+Solution:
+Go to Run... in the Start menu. Enter this command:
+sfc /scannow
+
+But windows norwegian language pack keep failing and ""everything language pack"" from voidtools.com does not suport norwegian...=/ Is there a command to remove the ""everything pack""?
+Thanks for uploading! =)"
+,hullubullu84,2010-04-03T17:46Z,"quote ""2. Will not up date (update for windows 7 KB971033) I get error code 80070643""
+Yeah, that's the ""Windows Activation Technology""
+update that is supposed to disable the cracks .
+Gee, it's really bad it doesn't wanna eat that one, isn't it ?  
+
+bibo115, stop using cracked software, you are to stupid to know what you are doing ."
+,NRJ,2010-04-06T09:21Z,"Great DL speed, 1.6mb/s thx"
+,JakePsycho,2010-04-21T16:32Z,can some1 post setup.exe? mine is crapped.
+,samtron1,2010-04-30T13:11Z,"""The gadget fix doesn't work for me though, when I try to run it or use the ""merge"" option, I get the following error: ""Cannot import, the specified file is not a registry script. You can only import binary registry files from within the registry editor"".
+
+I get the same error from within the registry editor also.""
+
+Same problem for me. Any suggestion how to solve this? Turning something on/off?"
+,fragtion,2010-05-06T11:59Z,"Without meaning to sound pushy... will we ever see a rev02 for this? I come on here like once a week to see if there's a rev02 (basically, I just need .Net framework 3.5 to work. Yes I have tried installing 4.0 but the application I need to run depends on 3.5 which I cant get installed). Rev2 doesn't need many changes, just fix the gadgets bug, the windows update bug, throw in the latest updates. Anyway, we love your releases keep up the good work."
+,davynr,2010-06-21T17:07Z,"Started getting ""Windows is not genuine"" messages on June 21st. Any fix for this? Rev02 coming soon?"
+,duudinja,2010-06-25T12:26Z,hmmmm... can not install any language packs.... why???
+,dal2k,2010-07-22T06:26Z,"Hey eXPer1ence, 
+
+I've been using Tiny7 for the last few months and I'm very happy with it. I've been using it as a 'gaming pc' and already installed some cool games like Dirt 2, Crysis and Dragon Age. I tried to installed GTA4 but it seems Tiny7 doesn't have Framework 3.5 and I can't figure out how to get it installed. I've installed Framework 4.0 but still GTA4 won't start.
+
+Do you know solution or workaround?
+
+Thanks"
+,Hvaz0r^,2010-07-26T15:30Z,"I have been very satisfied with your MicroXP. I modded it some more (removed some services and processes (have 10 processes in taskmgr now and I have internet, sound and everything else i need). I even removed a couple of system drivers that loads in the background as the boot-screen (rolling bar) runs (removing the wrong ones will give you BSOD so be careful).
+
+I got a slow-a'ss PC (netbook), but have bootup time around 8 seconds (idling on desktop) and shut-down time around 5 seconds and the battery lasts +8 hours on a charge (also due to the low-energy consumption from the hardware)
+
+Anyway, I'd love to see an even smaller version of 7, 300-500MB should be achievable."
+,Hvaz0r^,2010-07-27T09:14Z,"dal2k: Are you sure you INSTALLED or just TRIED to install it (but installation failed)? I had problems installing the newest version of .net-framework, but then i tried starting off from the very first 1.0 and work my way up and it worked! On a sidenote i hate .net. It's a layer dedicated to translate lazy programmers code into REAL code. Why not write in real languages like C++ that doesnt have dependancies like that. Besides, REAL languages are much more efficient, look at all big name applications and games, photoshop etc. Written in C or C++. runs faster, smaller size, less dependancies. /whine off"
+,IWannaWin,2010-08-11T20:18Z,"I'm pretty sure you could use vLite to add the .NET Framework. If not, do as Hvaz0r^, install .NET 1, .NET 2, .NET 3, ..."
+,pekman,2010-08-24T22:06Z,"Outpost Firewall doesnt work :(
+Icon is grey and service is not available.
+Anybody can help?"
+,omghax,2010-08-30T18:22Z,"installs and runs perfectly
+activation does not work ... 28 days left"
+,Hvaz0r^,2010-09-11T00:29Z,Will we ever see a Micro7? I really hope so! :)
+,FKoops,2010-09-20T23:26Z,"Thank you eXPerience
+But I would be happy to see a x64 version."
+,Lafa,2010-09-26T19:31Z,"Does VPN/dial-up modems work on this version of Tiny7? It didn't on the very first version. I'm very unpleased with that,
+
+so i'm using TinyVista "
+,bitjeking,2010-10-14T17:56Z,"It's stupid, the windows 7 tiny... windows update for some updates don't install, choosed language don't install. That is veryyyy stupid! :(:(:(:("
+,pikkie001,2010-10-21T11:06Z,"I've been working with this for over a year now on 2 old AMD single cores, A brand new Acer Timeline notebook and an older Fujitsu Siemens laptop.
+With this superb, fast, no-nonsnense version of 7 I never exper1enced any trouble at all.
+Certain updates can't be performed, but that's just because in this version they are not required.
+I'm very pleased with this and will keep on using it untill there's Windows Tiny 8.
+Many many many thanx to eXPer1ence!"
+,splinks,2010-10-28T05:44Z,"Hello eXPer1ence, first off i would like to say you one of the best out there for what you do and i have proudly used all your tiny window versions on all my computers at home. For my 2nd thing, I was curious if you happen to have a copy or a location of a REG file with all of your TINY7 tweaks. I would love to have it as a special addition for my flash drive. "
+,dockular,2010-11-09T12:22Z,"GOOD NEWS REGARDING .NET FRAMEWORK!!!
+
+Guys, I can confirm I was able to successfully install .net framework 4.0 using the web installer found here:
+
+http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992&displaylang=en
+
+The .net framework issue has been PLAGUING me since the very first days that tiny7 was released.  I am absolutely ecstatic to have found this solution!!! woot!!!!"
+,DeeJayVZ,2010-11-09T13:12Z,"Awesome!
+
+I installed this on my AAO with 1,5Gb RAM and a 8Gb SSD after having used Ron's Tiny XP for a couple of years. 
+Installing took the best part of two hours but patience has it's rewards. This runs so much better than my previous OS and I can fully recommend this one!
+
+KUDOS!!!"
+,briareosdeunan,2010-11-28T01:36Z,"It's working fine for me.
+Any problems?
+Please e-mail me at emzdoe@yahoo.com.
+Thanks for the upload. I really appreciate it."
+,livesevil,2010-12-18T19:56Z,"Great one. I hope to see rev2 soon.
+After a few hours, I have finally manage to install .NET Framework 3.5.
+
+Here's how I pull it off.
+- Download dotnetfx35.exe (sp1) form Microsoft website.
+- Open regedit.exe, go to ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\"", and delete Folder ""3.5"".
+- Run dotnetfx35.exe in Windows Vista compatiblity mode and install, this should report as successful at the end.
+- Delete folder ""X:\Windows\Microsoft.NET\Framework\v3.5"".
+- Run dotnetfx35.exe again, this time in Windows Server 2003 campatiblity mode, and choose repair. Well, it says failed at the end but never mind it.
+
+I installed Paint.NET as a test, run without problems so far. Not really sure about other apps though.
+
+I can't garrantee this will work for you though."
+,FKoops,2011-01-13T10:47Z,"@livesevil
+Nope didn't work for me. After deleting the reg, the installation with vista compatibility mode gave me an error, and no successful installation."
+,mcpower,2011-01-21T01:43Z,"Sorry if this has been answered before, but when I turn on UAC (User Account Control), even to the highest level, I still DON'T get popups. Is there any fix? I am REALLY security conscious and I don't like having no UAC."
+,antonymic,2011-01-21T12:24Z,"I am very grateful to Xperience for this wonderful release.
+@Txacoli
+I have been standing head over heels for the past few days to get gadgets working..I got fed up and i was about to reinstall..Thank god i tried ur step and the problem is fixed.You saved lot of time bro thanks"
+,mibsyps,2011-01-25T15:46Z,Thanx eXPer1ence for what have you done. Must let you all know that I´ve made many installations and have had NO problems. Many old machines rose up from the dust of oblivion thanx this CD... 
+,e666,2011-01-29T08:34Z,"thanks i have been using the earlier tiny 7 and it is just mindblowing ; simple does what it is supposed to do. i use it mainly for gaming, and boy is it wonderful.
+this is some much needed improvements so thanks for the fine effort and all the hard work.
+cheers"
+,bobbofly,2011-02-15T14:59Z,"gonna try this one site unseen. With the eXPerience name on it, that's good enough for me! If not for your fab creations I'd still be at the mercy of bill gate$. You should have yourself cloned, 'cause I dunno what I'd do w/out your brilliant stuff. Seriously!!!"
+,ninjasource,2011-02-20T11:43Z,"i think ive managed to install .NET FRAMEWORK 3.5
+
+atleast i can now install Google Chrome that otherwise complains about Framework 3.5
+
+Instructions (not 100% accurate):
+
+1.) download the complete dotnetfx35 redistributable english from microsoft... its a ~200 MB download (not the 2 MB crippled version)
+2.) try installing... u will get a error message... keep the error message on the screen - dont close it down.
+3.) go into control panel, and ""Programs and Features"" category... now click ""Turn windows features on or off""... now ACTIVATE/TICK both boxes that reffers to Framework 3.5.1 and click ok
+4.) after install, try rebooting and try installing google chrome to see if you were succesful.
+5.) if not... try to install dotnetfx35 again... and restart again... if it still dont work try doing these stuff simultaneously with ""Turn windows features on or off"" and the box inside framework 3.5.1 and installing framework 3.5
+
+maybe not all steps are needed"
+,livesevil,2011-02-21T04:41Z,"@FKoops: I'm sorry if that didn't work for you. I'll check it again later and correct it if anything goes wrong.
+In case you don't believe me. Here's a screenshot.
+http://img843.imageshack.us/img843/2040/screenshotuc.png
+- Windows 7
+- .NET 3.5 installed
+- .NET 3.5 in the windows features is unchecked. Well, this means any updates related to .NET 3.5 is without a doubt not possible (tried it)
+- ~4 GB Windows folder (since I installed many apps already :))
+- Paint.NET is up and running just fine.
+
+@ninjasource: I think Google Chrome doesn't require .NET 3.5 to install. Perhaps you have a wrong install file for something.
+Perhaps you should try installing Paint.NET to make sure.
+"
+,livesevil,2011-02-21T09:30Z,"@FKoops: Well, I did a little test and just as you said, it failed.
+Then I tried again, this time in Windows Server 2008 Compatibility Mode.
+This goes smoothly without any troubles.
+So I have mistaken there. Sorry!
+
+Try this and tell me the result:
+1) Download dotnetfx35.exe (sp1) form Microsoft website (231MB).
+2) Open regedit.exe, go to ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\"", and delete Folder ""3.5"".
+3) Run dotnetfx35.exe in Windows Server 2008 compatibility mode and install, this should report as successful at the end.
+4) Delete folder ""X:\Windows\Microsoft.NET\Framework\v3.5"".
+5) Run dotnetfx35.exe again, this time in Windows Server 2003 compatibility mode, and choose repair. Well, it says failed at the end but never mind it.
+This step here is to install .NET 3.0, you will see it in your programs list.
+
+I really can't believe how I managed to pull this off while having absolutely no hacking skills. :D
+Hope this will solve .NET 3.5 problems."
+,ninjasource,2011-02-21T21:01Z,"livesevil:
+actually the new Google Chrome versions require framework 3.5 to install... i dont know about the old chrome versions, since i havent tried Tiny7 with old chrome versions.
+
+however i dont know if the framework 3.5 that i installed are 100% complete, and i cant test paint.NET either, since its a friends computer and i cant access it for some weeks.
+
+
+anyway... The method i have used seems to be sufficiently working for Google Chrome and probably other apps as well - but your method perhaps is more reliable."
+,livesevil,2011-02-22T09:22Z,"Sorry again, wrong notice.
+You have to do this first.
+1, Open regedit.exe, go to ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\"", back up your registry then delete Folder ""3.5"" and ""3.0"".
+2, Run dotnetfx35.exe in Windows Server 2008 compatibility mode and install => Failed.
+3, Restore your registry and do as I mentioned before.
+Hope this help"
+,hamsyh,2011-02-26T05:43Z,"hey livesvil, i tried your method but it's not working. anyways i've installed other version which is as fast as tiny7 but contains net framework and other features. 
+
+I've installed this version in 10 minutes, making a bootable flash drive using A Bootable USB, search on google. This is an alternative to Tiny7 which does not contain NET Framework. Enjoy!
+
+For those interested, you can find it here. http://thepiratebay.org/torrent/6203191"
+,woodenlegs,2011-02-28T01:07Z,"Anyone knows how to install japanese on this?
+
+I've tried using Windows update, but it download the language pack and then fails with en error code.
+
+I tried using the System Update Readiness Tool for Windows 7, and after running, it installs fine. but still doesnt display the japanese characters."
+,woodenlegs,2011-02-28T01:33Z,"correction to my previous post.
+I need to be able to view japanese characters, not have all the menus in japanese.
+is this possible on tiny7?"
+,FKoops,2011-03-10T00:38Z,"@livesevil:
+great news! I followed your steps and I managed to get Paint.NET running.
+So.. That sounds like a success.
+But still I get strange errors, like:
+- Security Update for .NET Framework 3.5.1 on Windows 7 x86 (KB983590) won't install.
+- can't install Windows Explorer 9.
+- In Windows Features I can't enable Microsoft .NET Framework 3.5.1.
+
+Thanks tough, Paint.NET running must count for something.
+(I'm hoping to see rev2 in the near future)"
+,FKoops,2011-03-10T00:47Z,"@livesevil:
+Great news! I followed your steps and I managed to get Paint.NET running.
+So.. That sounds like a success.
+But still I get strange errors, like:
+- Security Update for .NET Framework 3.5.1 on Windows 7 x86 (KB983590) won't install.
+- can't install Windows Explorer 9.
+- In Windows Features I can't enable Microsoft .NET Framework 3.5.1.
+-and so forth...
+
+Thanks tough, Paint.NET running must count for something.
+(I'm hoping to see rev2 in the near future. I'm considering hamsyh solution, but really prefer eXPerience versions.)"
+,PymblH,2011-03-11T13:49Z,"eXPer1ence! thank you for this build, but it really lacks .NET Framework 3.5 for me (or an aility to install it later)
+livesevil, FKoops. Could you please post a full step-by step instructions for .NET Framework 3.5? I tried to install it but it failed anyhow..."
+,FKoops,2011-03-11T21:17Z,"@PymblH
+I followed the steps from livesevil.
+As followed:
+- Download dotnetfx35.exe(sp1)(231MB) form Microsoft website.
+-  Open regedit.exe, go to ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\"", back up v3.0, then delete Folder ""3.5"" and ""3.0"".
+- Run dotnetfx35.exe in Windows Server 2008 compatibility mode and install => Failed.
+- Restore the v3.0 registry.
+- Run dotnetfx35.exe in Windows Server 2008 compatibility mode and install => Success.
+- Delete folder "" C:\Windows\Microsoft.NET\Framework\v3.5"".
+-  Run dotnetfx35.exe again, this time in Windows Server 2003 compatibility mode, and choose repair.  => Failed.
+
+Optional:
+- Download Paint.NET to confirm if its running.
+
+Nevertheless I still get errors here and there.
+(rev2 is overdue)"
+,livesevil,2011-03-12T04:56Z,"@FKoops:
+- This .NET installation is not supposed to used for Windows 7. I think any updates related to .NET 3.5 won't work.
+- Enabling Microsoft .NET 3.5.1 in Windows Features is not possible either since you install .NET 3.5 as an independent apps, not a windows features.
+- Haven't try installing IE9 though, I prefer Firefox much better. I'll try when I have some time."
+,PymblH,2011-03-12T20:27Z,"@FKoops
+Thank you SOOOOOO much. It finally works! I tested it on 3ds max 2011 - and it started! Everything is running. No errors."
+,webrabbit,2011-03-14T14:08Z,"Dear all,
+I have been busy for days to get this .net thing working and finally it worked using a German! install program. Even the 3.5.1 updates installed after that. You can imagine I was very happy.
+I wanted to share the news with you but tested my findings first by doing a fresh Tiny7 install and try it again and at the same time write a ""how to"".
+Unfortunately I could not get it done a second time!!! Very frustrating! After 5 fresh installs and trying to install .NET I gave up.
+The only thing I managed is to let it install all other updates. It doesn't do that from start.
+
+I learned that Windows 7 comes with pre installed .NET 2.0 3.0 & 3.5 (you will not see it in add/remove programs) and that you are unable to uninstall using the usual methods.
+Dotnetfx cleanup programs also do not work.
+Probably and unfortunately eXer1ence removed too much and files from 2.0 3.0 & 3.5 .NET making them not functioning anymore.
+I found methods to ""repair"" those installations but the program came back with a lot of errors and missing files. It is unrepairable.
+
+I have a complete Windows 7 running to compare and .NET works on that one (2.0 3.0 & 3.5) even all the security updates SP1 and 3.5.1 are installed.
+
+Basically what I did to install .NET in Tiny7 was remove the 3.0 and 3.5 data from the registry and removed the .NET Framework folders from c:\, run a registry cleaner (Eusing) and used the ""AiO-Runtimes-x86-v1.6.1"" program to install them again after using the dotnetfx programs in different modes. If you want to try it look it up in google it works very conveniently. its from sereby.org.
+
+This program installs a lot more and if you want to try it out, run it, press the ""pause"" button (it will automatically start installing after 30 sec) and deselect what you don't want it to install. At least deselect the german language files. You don't need them. The rest is OK.
+
+Without the correct .NET installed Tiny7 is still amazing!! My wife use it on her older DELL laptop for her job and I installed several programs without any problems including Office 2010 Proffesional, Adobe Acrobat X etc"
+,hamsyh,2011-03-17T00:25Z,"Dear webrabbit, i reinstalled Tiny7 again and tried your method and NET Framework IS WORKING. Hoorray!!!!!  Thank you!!"
+,barzefutz,2011-03-19T16:12Z,"Read this if you want to enable UAC prompts:
+
+On this system, UAC is enabled and running, but since it uses the default Administrator account, the UAC prompts are disabled. This is not a tweak, it's a windows default setting, but you normally don't notice it because you are not using the default admin account. To change this behavior:
+
+- Start / gpedit.msc
+- Go to: Computer Configuration > Windows settings > Security settings > Local policies > Security settings
+- Set ""Admin confirm mode for integrated admin account"" to ""enabled"" (may be named different)
+
+Note: The options may have different names, I'm using a different system language and I tried to translate to english."
+,1nteresting,2011-04-07T23:58Z,"I love what you do! Thank you, thank you, thank you, thank you! I believe I am going to seed this for at least 50gb! More people, utilize this awesomeness! "
+,hamsyh,2011-04-09T14:12Z,"@17tumba , go to google, search 'a bootable usb' install it and ""burn"" it ,it's very easy. just for windows 7"
+,silvioster,2011-04-12T16:35Z,"To anyone having problems with the dotNET installs, just install the latest version (4.0 currently) and set the OnlyUseLatestCLR string to ""1"" in the .NETFramework key, or use this .reg:
+
+--fix.reg--
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework]
+""OnlyUseLatestCLR""=""1""
+--fix.reg--
+
+This will make all .net apps use the latest .net CLR installed."
+,hamsyh,2011-04-13T09:37Z,I added the key manually. It's working 100%! Thank you!
+,qwras,2011-05-07T10:42Z,i got google chrome working by just running CCleaner registry scan! =)
+,dockular,2011-06-21T08:42Z,"Can anyone tell me why they are still messing with all those unneeded steps to install .net 3.5 when you can just click this link, install the more recent version of .net 4.0 and be done with it?
+
+http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992&displaylang=en
+
+guys. wake up. dotnet 4 has been out for a while now. it installs just fine to Tiny 7. 
+
+Can someone please tell me if there is a way to run a repair program to restore certain corrupted files to how they were when tiny 7 was first installed? sfc doesnt work. I don't know if that is intentional, or if it will screw up experience's work. "
+,Ramudeng,2011-06-25T08:00Z,"
+Hello, I just register to give feedback:
+
+1. Outpost Firewall fail to start (the best firewall on earth) maybe because security center removed or failed in searching installed applications. (This are my biggest disappointment).
+
+2. Add Remove Windows Components (Uninstall IE8) does not have any effects.
+
+3. Does not have System Restore (not big problem)
+
+4. Men of War Assault Squad fail to start (not big problem)
+
+
+
+
+If you plan future release. Please stay clean without any program installed. First because to save space to burn into CD, and because we have better software (SumatraPDF better faster than FoxitReader, 7Zip better than WinRAR). I hope you know what I mean. That's all.
+
+Thanks and keep sharing! :)
+
+
+
+
+
+
+"
+,JoeSmo,2011-07-06T04:52Z,"I have this installed, but I want my name to take over as Administrator.  Everytime I execute sysprep, I receive an error message.  When I check the log file, it tries to access files that were not packaged with this version of 7.  This torrent doesn't activate anymore, but that is not an issue.  I already disarmed the activation clock so not to conflict with Sysprep.   Has anyone been able to use Sysprep or have suggestions?"
+,bliiss,2011-08-13T04:04Z,"Hello,
+
+I'm on macbook pro 2011 and i cant change the language in windows upate !
+=> Code 80073701
+
+I also failed about install .net 3.5 :("
+,PdT123,2011-09-05T22:06Z,I installed this but it does not come with windows recovery/system restore. Is there anyway to add that feature? Any advice would be appreciated!
+,Paddlin,2012-02-05T10:45Z,"I have made a video guide that shows you how to install Tiny7 on your Mac and dual boot. Could be helpful to anyone having trouble working it out. 
+Just search ""how to install tiny7 on your mac"" on youtube and it should come up :)"

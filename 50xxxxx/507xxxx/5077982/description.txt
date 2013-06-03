@@ -1,0 +1,57 @@
+Presentation
+
+WampServer is a Windows web development environment. It allows you to create web applications with Apache, PHP and the MySQL database. It also comes with PHPMyAdmin to easily manage your databases.
+
+WampServer installs automatically (installer), and its usage is very intuitive. You will be able to tune your server without even touching the setting files.
+
+WampServer is the only packaged solution that will allow you to reproduce your production server. Once WampServer is installed, you have the possibility to add as many Apache, MySQL and PHP releases as you want.
+
+WampServer also has a trayicon to manage your server and its settings.
+image menu WampServer
+
+Installing
+
+Double click on the downloaded file and just follow the instructions. Everything is automatic. The WampServer package is delivered whith the latest releases of Apache, MySQL and PHP.
+
+Once WampServer is installed, you can add other releases by downloading them on this website. They will then appear in the WampServer menu and you will be able to switch releases with a simple click.
+Each release of Apache, MySQL and PHP has its own settings and its own files (datas for MySQL).
+
+
+Functionalities
+
+WampServer's functionalities are very complete and easy to use so we won't explain here how to use them.
+
+With a left click on WampServer's icon, you will be able to:
+- manage your Apache and MySQL services
+- switch online/offline (give access to everyone or only localhost)
+- install and switch Apache, MySQL and PHP releases
+- manage your servers settings
+- access your logs
+- access your settings files
+- create alias
+
+With a right click :
+- change WampServer's menu language
+- access this page
+
+
+How to start
+
+When you install WampServer, a "www" directory is created (generally c:wampwww). Create a directory inside for your project and put your PHP files in it.
+Click on the link "Localhost" in the WampServer menu or open your browser and open the http://localhost address.
+
+
+
+
+Add Apache, MySQL and PHP releases
+
+WampServer allows you to install almost all the existing releases of Apache, PHP and MySQL so you can reproduce exactly the settings of your production server.
+To add a new release, donwload it here and install it.
+
+Then click on the WampServer menu and activate the release that you want to use.
+
+
+
+Wait until the WampServer icon become white again and start to work.
+
+WARNING : all the PHP releases aren't compatible with the Apache releases. WampServer knows which releases can work together and lets you know when it is not possible to switch.

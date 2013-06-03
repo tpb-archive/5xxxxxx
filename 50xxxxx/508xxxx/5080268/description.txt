@@ -1,0 +1,32 @@
+Mirror:
+ 
+http://www.mobileppl.com/2009/09/06/activefile-v1-43-rc2-for-nokia-5800-n97/  
+
+
+  *  File management with 2 panels (File manager similar to Total Commander). so, you can view one folder in the first tab and browse to another folder in the second tab
+    * File sorting by name, extension, uid, size, date, and ascending, descending
+    * Full file management with copy, move, rename, delete, make directory, make file, file properties, and set attributes
+    * Compress and decompress file using gzip format
+    * Modify the attributes of files and directories
+    * Quick check of available storage on your drives
+    * Allow multiple instances. So, you can launch ActiveFile more than 1 instance.
+    * Searching thru the directories
+    * View running processes, tasks, kernel objects, and display system information (phone info and network info)
+    * SMS creator tool to create SMS (fake SMS) and save it to a destination folder (Inbox, Drafts, Outbox, Sent folder) without using your sim card credit
+    * Capture screenshot and save it to a file in JPEG, GIF, BMP, PNG, and MBM format
+    * Memory monitor tool
+    * Have an option to access inbox files
+    * Add shortcut
+
+Whatâ€™s New:
+
+    * S60 5th Edition have wrong dependency
+    * Single SIS implementation for all S60 3rd edition platforms (Thanks to DeltaFox for his help!)
+    * Support for S60 2nd Edition FP3(N70, N72, N90)
+    * Added Check for Updates
+    * Added Camera key as screen capture hotkey
+    * Fixed bugs switch to fullscreen leads tabs title to corrupt.
+    * Fixed bugs creating fake SMS with wrong date/time
+    * Fixed bugs restart phone on S60 5th Edition
+    * Fixed bugs canâ€™t open ZIP file with 3rd party apps
+    * Fixed numerous other bug reports from previous version

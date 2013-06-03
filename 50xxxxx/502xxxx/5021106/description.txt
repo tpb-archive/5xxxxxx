@@ -1,0 +1,220 @@
+Copied from Shark007 Homepage:
+
+
+When dealing with codecs, more does not equal better.
+
+Having the least amount on your system is the best configuration.
+
+This is exactly what these packages will do for you.
+
+
+
+You will no longer be restricted to using a specific player.
+
+Windows Media Player and Media Center will be able to play all your files.
+
+
+MKV playback is fully supported.
+
+The Win7codecs package which I have created does not change or interfere with what Microsoft has going on concerning native codec support in Windows Media Player 12 and Media Center.
+DXVA accelerated H264 playback is provided by the codec package for all other capable players.
+
+The latest release contains a new Settings Application which enables the user to choose a different splitters 'on the fly' for specific filetypes.
+The application will also allow you to choose from 10 different speaker configurations from 'same as input' and all the way up to full 7.1 channel output.
+
+The Settings Application is 100% UAC compliant.
+Restricted access is enforced. (User Account Control)
+The Application allows each user to maintain individual settings while at the same time seamlessly integrating any administrative commands directly into the users account. New users accounts are detected upon opening the Application and automatically inherit the Administrators settings.
+
+Codecs have been a problem for most users at one time or another.
+This is because there has never been an 'out of the box' working solution that the average computer user could install and just have everything work properly from the beginning. There are several decent codec package solutions out there, but none of them did everything I wanted. I was always in need of a tweak, adjustment, or even a re-installation just to get the codecs I needed/wanted and most of the time, the file still didn't play properly.
+I've never claimed to be a media guru.
+My media experience prior to creating these packages was to double-click a file I downloaded and hope that it played.
+
+The installer will automatically remove most other popular codec releases from your computer before installing this concise yet comprehensive package.
+You won't need to make any adjustments or tweaks to enjoy your media content immediately. Windows Media Player and Media Center will instantly recognize all your files as playable. 
+
+It does not contain a media player and it does not associate file-types.
+With this package installed you will be able to use any media player, limited only by the players' capabilities, to play all movies and video clips.
+Streaming video is supported in several formats in all popular web browsers.
+Users of the Win7codecs have the ability to choose what is installed and where to install it using the public redistributable.
+After installation you can select to remove specific portions without removing the entire package. You can also re-add the removed items at any time.
+
+This package supports 20 localizations.
+The default is English and the installer includes support for the following other languages; Arabic, Chinese Simplified/Traditional, Japanese, Czech, Danish, Dutch, Finnish, French, German, Greek, Italian, Norwegian, Portuguese, Russian, Spanish, Polish, Swedish and Turkish. 
+
+
+UNINSTALL YOUR OLD VERSION  - upgrades are enabled but not recommended
+
+
+Changelog:
+
+
+What's new in Win7codecs 1.2.3:
+
+
+Update FFDShow to rev 3036
+
+Update Gabests splitters to rev 1179
+
+Updater Musepack support for SV8 streams
+
+Add MediaInfo interface to the Settings Application
+
+Allow the file renderer to open All Files
+
+Disable installation onto unsupported systems
+
+
+What's new in Win7codecs 1.2.2:
+
+
+Remove Xiph Ogg Codecs
+
+Improve support for older CPU's
+
+Allow AC3Filter to be turned Off/On
+
+Allow XviD decoder to be turned Off/On
+
+Update Gabest splitters to 1168
+
+Enable thumbnailing OGG/OGM
+
+Add splitter selections for OGG/OGM
+
+
+What's new in Win7codecs 1.2.1:
+
+
+Improve DTS audio in ALL containers
+
+Improve audio type detection
+
+Allow Haali to be turned Off/On
+
+Allow FFDShow to be turned Off/On
+
+Update FFDShow to rev 3029
+
+MANY changes to the Settings Application
+
+
+What's new in Win7codecs 1.2.0:
+
+
+Updates Gabests filters to 1164
+
+Update FFDShow to rev 3020
+
+Add codec testing tool to MISC TAB
+
+Previous version MUST be uninstalled
+
+
+What's new in Win7codecs 1.1.9:
+
+
+Updates Gabests filters to 1161
+
+Use stable revision of FFDShow
+
+Fix DirectVobSub Styles conflict /x64
+
+
+What's new in Win7codecs 1.1.8:
+
+
+Add Arabic language support
+
+Add Danish language support
+
+Add icons for non-native filetypes
+
+Use a stable revision of FFDShow
+
+Updates Gabests filters to 1156
+
+Settings Application bug fixes
+
+
+What's new in Win7codecs 1.1.7.1 Final:
+
+
+Create a 100% stable release
+
+Revert FFDShow for stability
+
+Update XviD to SVN 1.2.2
+
+Update the settings application
+
+
+
+What's new in Win7codecs 1.1.7:
+
+
+Update ffdshow rev 2719
+
+Update Gabest to rev 1004
+
+Fix memory leak in DXVA codec
+
+Minor changes to default settings
+
+
+
+What's new in Win7codecs 1.1.6:
+
+
+Fix explorer crash in Win7codecs 1.1.5
+
+Update FFDShow to SVN rev 2975
+
+
+
+What's new in Win7codecs 1.1.5:
+
+
+Update Gabest SVN rev 1125
+
+Update FFDShow to SVN rev 2972
+
+Update XviD to SVN rev 1.3.0
+
+Improve thumbnail support
+
+
+
+What's new in Win7codecs 1.1.4:
+
+
+Update Gabest rev 1111
+
+Revert FFDShow to a stable version
+
+Add new functionality to Settings App
+
+Add filetype icons for WMP associations
+
+Several improvements for the settings app
+
+
+
+What's new in Win7codecs 1.1.3:
+
+
+Update FFDShow rev 2943
+
+Update Gabest rev 1101
+
+Add new functions to Settings App
+
+Implement filetype associations for WMP
+
+Associations can be reverted to previous state
+
+
+
+Comments from the uploader (olofolleola4):
+This is a freeware codec package specially complied for Windows 7 :D

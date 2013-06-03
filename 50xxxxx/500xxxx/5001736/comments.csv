@@ -1,0 +1,117 @@
+User Type,Username,Date,Text
+,Pufferfishy,2009-07-17T05:15Z,"It looks like the drivers component is purely a post-install piece - is that correct?  Or are there some drivers specific to the 701 embedded?
+
+I want to use this on a 900a, and assume that I can simply substitute all the pieces from Asus for my model.
+
+Thanks for the work - looks pretty slick...."
+,issox,2009-07-18T17:23Z,"You can use this with ANY PC.
+
+Better to add your drivers post-installation, but if  you want to integrate them you can.
+
+This would be done via Nlite - but i cant really see the benefit of doing this. "
+,jokermahn,2009-08-30T04:22Z,"I installed this on my eee pc & it worked perfectly..but there was this problem, after a few days there was a password automatically made on the administrator account.. anyone know what is the password?"
+,issox,2009-09-01T06:45Z,"For the 'password' you just press 'enter'.
+
+Best to set a password, and then autologin with
+
+ control userpasswords2
+
+From, 'run'
+
+Hope it helps"
+,issox,2009-09-07T02:09Z,"Sure it will, 
+
+I have included an 'n-lighted' copy of XP with all the utilities needed to install it via USB.
+
+You would simply need to download 901 specific drivers yourself. 
+
+Let me know if you need help with this"
+,tru_2_ublue,2009-09-15T20:34Z,"i am trying to install the VFD.exe. The sceen flashes and nothing happens. Looked for it in program files, nothin there either. i tried the VFDwin.exe and i get an error ""virtual floppy drive does not run on windows 95, 98, or me."" i run windows 7. help please"
+,issox,2009-09-17T01:11Z,"Not sure about winows 7. Havnt messed around with it yet.
+
+Perhaps they have the 'compatibility' option as in Vista.
+
+In any case I was looking over my torrent and realised my step 1 instructions are missing.
+
+This may help. Otherwise you may just have to use a friend's pc or someting.
+
++++++++++++++
+
+
+
+Copy and paste the '1.boot' folder to the desktop. For some reason this helps.
+
+Right click on 'vfd.exe' and go to 'properties'/'compatibility'. Then 'run as administrator' and 'XPSP2'.
+
+Now double click 'vfd.exe' - this should work.
+
+Type 'SHELL /ON' then enter
+type 'OPEN' then enter
+Type 'Y' and then enter
+
+Now (as above) make 'vfdwin' 'run as administrator' and 'xpsp2' via properties and open it. 
+Click on 'drive1' and 'open/create' and 'create'. Now on the top right change 'Drive letter' to 'Z' via the 'change' tab
+A new 'z' drive should appear in 'my computer'.
+Right click this and go to 'format'. Then thick the 'create an MS-Dos startup disk' box and hit start.
+
+
+
+
+
+"
+,Fake_Loki,2009-10-01T01:53Z,"Hey, under section 2 it says:
+""now under the subsection 'using dos system files located at' . . . . choose your 'Z Drive' ""...
+What Z drive? I don't have a Z drive and no mention had been made of one before this. Do you mean that I need to grab a MSDOS boot disk ISO and mount that as Z drive?"
+,issox,2009-10-27T09:26Z,"Sure you can.
+
+The 701 comes with Xandros as standard.
+
+I you could also try eeeBuntu. Unix is great if you happen to have a doctorate in computer science or something. 
+
+You will need to wipe  your hard drive to install xp. 
+
+Using this toolkit is not very difficult, and if it all goes horribly wrong you can always reinstall Xandros. "
+,padde84,2009-11-15T16:04Z,"Ok, I have a windows 7, 64 bit computer here, the first step: 
+1.Boot, how do I make a z-disc?
+I have tryed to put the 1.boo-folder to the desktop and tryed making the ""vfd.exe"" run via compability of xpSp2, but nothing happends when I dubbleclick the file.
+How can I go on??!! Please help me with this one"
+,issox,2009-11-21T04:19Z,"Would love to help, but i have never used win7.
+
+I have heard it is great . . .
+
+I know its 'cop out' advice . . . but you could always use an xp computer to do the 'z' drive thing.
+
+Sorry, but it prob does work."
+,issox,2009-12-21T01:47Z,"Once installed, Norton seems to delete the keygen.
+
+Im sure it thinks its a virus or whatever, but its really irritating. I cant seem to stop Norton from deleting the file.
+
+Does anyone know what settings to use to stop Norton from doing this ?"
+,issox,2009-12-31T20:10Z,"Havnt a clue, sounds complicated.
+
+Are you sure your 'burned' xp on the drive properly ?
+
+Try using different versions of xp - but the one provided should work fine. Try formatting the entire disk, Ive never tried it with a partitioned drive. "
+,Insomniacno1,2010-02-19T03:25Z,"Plz seed:)
+
+What is the procedure if you are using a laptop to put xp on usb? My laptop has a DVD-rw drive so I'm guessing no need for virtual drive, I also have XP pro sp2 CD already."
+,issox,2010-03-13T15:40Z,"I would imagine your copy of xp is oem, and can only be installed on your laptop. Obviously, if thats all you want to do you should just use your own cd.
+
+If you have your own legit copy of non-oem xp, you can put it on a USB via this torrent. There are two issues really; 
+
+first you can slipstream your copy of xp using nlight - effectively making it smaller to fit on the smaller, 
+
+second if you do 'nlight' / slipstream xp, it is very important that you retain the key code. If you tell nlight to automatically enter xp key, then WinSetupFromUSB will not recognize xp.
+
+In short. Your disk is most likely an oem copy, which will not work. And if you do download another copy of xp, make sure that it does not designed to automatically enter its own key. "
+,jalf09,2010-05-08T19:56Z,"@Padde84
+
+It works okay for me, also running win7 64bit. Anyway, try running vfdwin.exe with the GUI. It's easier. What he means by creating a z-disc after you successfully created a virtual floppy drive, go to your ""my Computer"" Right click on your Z drive, format, tick create an ms.dos recovery something.
+
+Still transfering Windows XP. Will comment if it will work."
+,daklab,2010-06-29T15:36Z,"WARNING CONTAINS TROJAN!!!
+
+TrojanDropper:Win32/Dunik!rts"
+,alez1234,2010-11-19T13:36Z,"I have big request please share your windows xp release with polish language settings. This one really works fine in my eee 701sd but I cannot change the language. Thanks anyway, that was a really good job."
+,alez1234,2010-11-19T13:37Z,"I have big request please share your windows xp release with polish language settings. This one really works fine on my eee 701sd but I cannot change the language. Thanks anyway, that was a really good job."
+,issox,2011-07-22T08:15Z,"alez1234 you can make your own. Just download a polish version of xp, and n-light / shrink it. Just make sure you download a version that requires a serial key."

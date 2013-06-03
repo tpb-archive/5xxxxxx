@@ -1,0 +1,38 @@
+Sample CD of Rosetta Stone Ver.2 with instructions how to add more languages
+(for those who need test Rosetta Stone language course before download giga files)
+(and for those who aren't satisfied with low sound quality of Ultimate iso)
+_________________________________________________________________________
+
+This ISO contains:
+- Tested and working Rosetta Stone Ver.2 application (in folder /!start)
+- Language and picture folders for 1 language (Danish)
+- Instructions on how to add more languages (in /!start/how-to/)
+- daemon347 iso mounting utility (of course you can use Alcohol e.t.c instead)
+- UltraISO portable to create ISOs (in /!start/how-to/)
+_________________________________________________________________________
+
+How-to make your own Rosetta Stone ISO file with languages you choose:
+
+1.Download only languages you need separate as rar files from:
+  http://thepiratebay.org/torrent/3496724/The_Rosetta_Stone_Language_System_-_27_Languages__41_Levels._FIX
+
+2.Download also pictures (PCxx(jpg).rar according to chosen languages/levels (see table in /!start/How-to create iso/How-to.txt)
+
+3.Unrar hundreds of language & picture folders TO NEW EMPTY FOLDER
+  (you should see there together more than hunred language and picture folders)
+
+4. Copy from the folder /!start/How-to create iso/4.Edit TRS Files/ the provided full Catmpc.trs and Cdid.trs files, open them with Notepad.
+  delete all unnecessary languages, leave only the ones you downloaded
+  do not touch Credits.trs file
+
+5.Add to hundred folders also those 3 TRS files and !START folder (application) from this sample CD
+
+6.Create your own ISO file with UltraISO 
+   in lower part - Browse for and select those hundred folders and 3 TRS files
+   add all of them to upper part
+   enter the Label for iso upper left corner
+   save iso to hdd
+
+7.Mount created iso with daemon and run TheRosettaStone.exe from !start folder of the virtual cd
+
+P.S. Tested succesfully on Windows XP, for MAC you will need more files!	

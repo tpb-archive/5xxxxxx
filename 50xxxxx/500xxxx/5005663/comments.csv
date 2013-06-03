@@ -1,0 +1,67 @@
+User Type,Username,Date,Text
+,hoaxj,2009-07-16T05:00Z,trying to get the gameplay vids on here....
+,seedfo3,2009-07-29T10:49Z,"If you can seed this up to 100% for me, I'll seed it as much as I can. A while back I lost my discs, so I bought new on Ebay. Then I lost those... so now I thought, ""Fuck it! I'm gonna use torrents!"" But it's going at like 0.2KB/s...
+
+Thanks for the upload and all that, honestly... but could you please seed for the love of Harabec?"
+,EXoCiDe,2010-02-01T17:32Z,Both Tribes 1 & 2 have been re-released as freeware by Sierra... I wonder if they'd make much of a fuss if I wanted to show my support for this original classic by hosting the download over HTTP/FTP. Any thoughts?
+,zagmonkey,2010-12-05T00:36Z,"When I try to install it says that I need windows NT up to service pack 3. I'm running Windows 7, any help?"
+,hateh2o,2011-03-02T08:21Z,WILL SEED FOREVER I LOVE YOU
+,hateh2o,2011-03-04T07:18Z,"The masterfix that comes with this is outdated. Once you install and patch it, if you want to play online, you'll need to open C:/Dynamix/Starsiege/scripts/master.cs and replace its contents with this:
+
+$Inet::Master1 = ""IP:74.211.82.219:29000"";  // eye's Master
+//$Inet::Master2 = ""IP:"";
+//$Inet::Master3 = ""IP:"";
+//$Inet::Master1 = ""IP:ss1m1.masters.dynamix.com:29000""; // original
+//$Inet::Master2 = ""IP:ss1m2.masters.dynamix.com:29000""; // original
+//$Inet::Master3 = ""IP:ss1m3.masters.dynamix.com:29000""; // original
+$inet::IPBroadcast1 = ""IP:broadcast:29001"";
+$inet::IPXBroadcast1 = ""IPX:broadcast:29001"";
+# times here are in ms
+$pref::maxConcurrentPings = 20;
+$pref::pingTimeoutTime = 1500;
+$pref::pingRetryCount = 2;
+$pref::maxConcurrentRequests = 10;
+$pref::requestTimeoutTime = 3000;
+$pref::requestRetryCount = 2;"
+,d2r2,2011-05-17T03:16Z,"Any tips for using with Windows 7?  (64 bit)
+
+Thanks for the torrent and the great download speed."
+,MeijinKeiri,2011-06-05T04:47Z,"http://www.starsiege1.proboards.com/index.cgi?board=updates
+
+many solutions can be found there. looks like bear vomit."
+,Uberlime,2011-09-26T11:05Z,"actuallythe most recent master.cs file is :
+
+//AUTHOR - who cares
+//This is the master.cs file for
+//eye's Master Server.
+//Long Live Starsiege !!!
+
+
+$Inet::Master1 = ""IP:74.211.82.219:29000""; // Eye's Master Server
+$Inet::Master2 = ""IP:dustersteve.no-ip.org:29000""; // DusterSteve's Master Server
+$Inet::Master3 = ""IP:master.starsiege.org:29000""; // LV's Master Server
+
+
+
+
+
+//$Inet::Master1 = ""IP:ss1m1.masters.dynamix.com:29000""; // original
+//$Inet::Master2 = ""IP:ss1m2.masters.dynamix.com:29000""; // original
+//$Inet::Master3 = ""IP:ss1m3.masters.dynamix.com:29000""; // original
+
+
+$inet::IPBroadcast1 = ""IP:broadcast:29001"";
+$inet::IPXBroadcast1 = ""IPX:broadcast:29001"";
+
+# times here are in ms
+$pref::maxConcurrentPings = 20;
+$pref::pingTimeoutTime = 1500;
+$pref::pingRetryCount = 2;
+$pref::maxConcurrentRequests = 10;
+$pref::requestTimeoutTime = 3000;
+$pref::requestRetryCount = 2;
+
+u can find it in C:\Dynamix\Starsiege\scripts\master.cs
+(or wherever u installed game^)"
+,Nadius420,2011-12-03T22:05Z,Can I get A seed Pls
+,Nadius420,2011-12-03T23:04Z,thx

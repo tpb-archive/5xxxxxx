@@ -1,0 +1,9 @@
+1. Download and install Kaspersky
+2. Go to Kaspersky's settings, click Options, and untick Enable Self-Defence
+3. Exit Kaspersky
+4. Go to Start, run, then type regedit and press enter
+5. Press CTRL+F and type in ProductStatus and hit enter
+6. Double click ProductStatus and change Release to Beta (it may say Trial instead of Release)
+7. Press OK then open Kaspersky.
+8. Tick Activate beta license then press Next and Finish
+9. Re-enable Self-Defence.

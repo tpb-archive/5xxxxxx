@@ -1,0 +1,23 @@
+FSX Version Only...
+
+SceneryTech's Asia Landclass for FSX perfectly demonstrates how SceneryTech hopes to transform the world of Microsoft Flight Simulator, employing innovative development techniques not used anywhere else.
+
+SceneryTech's products fix nearly every issue found in the default landclass, from pervasive desertification of the landscape to missing towns and cities. Most importantly, it will ramp up the realism and make the FS world a more interesting place to fly.
+
+
+SceneryTech's landclass employs a number of technical advancements that sets it apart from the default landclass, as well as the competition's:
+
+
+Users of SceneryTech landclass may notice that it contains more terrain variation than the default landclass. This is due in part to the more specific land classification scheme that is used during the development stage. Although the data must eventually be downsampled to conform with the less-detailed land classification scheme used by the Flight Simulator scenery engine, the fact that it is processed from a higher definition data scheme gives us more control over the final representation.
+
+
+To make sure the resulting landclass product is as accurate as possible, several complementary data sources are used to weed out any imperfections. Besides the basic land classification maps, we also use climatology maps, political maps, elevation maps, and population maps in conjunction to generate the final product.
+
+
+Given the large size of the world, ensuring that there are no errors can be a daunting task. Rather than simply attempting to fix each individual error as they are found, the entire data processing routine is reviewed and changed as necessary to ensure that the error will not be present in the final product. Despite being largely automated, the scenery is also meticulously crosschecked with real-world photographs and satellite imagery to validate that it remains true-to-life, which is, after all, the primary objective of any of our scenery products.
+
+A key goal of the SceneryTech Landclass is to reduce the "desertification effect" that is prevalent in the default landclass. This occurs in large part from imprecisions in the source data used to process many landclass products. Although we are presented with the same limitations in our source data, we employ special techniques to ensure that the final product uses snow where one should find snow, and desert where one should find desert.
+
+Another objective of our landclass is to improve upon the cities and towns. You will notice more realistic urban extents, as well as smoother transitions between suburban areas and urban centers. Furthermore, hundreds of smaller towns and cities that don't appear in the default landclass will spring into existence. 
+
+As part of the effort to reduce the desertification effect, the entire slope texturing scheme has been revamped to minimize the use of desert textures on slopes. This is achieved through the Improved Slope Landclass (ISL), a unique component not found in any other landclass product. The ISL also activates smoother texture transitions between flat surfaces and steep slopes.

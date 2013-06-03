@@ -1,0 +1,31 @@
+This is over 700000 files of the pirate bay. There are about 200000 torrents here and 500000 of mostly html. I used a simple Unix command to download all of this.
+
+wget -rxSkpH -l inf --no-remove-listing -e robots=off --random-wait -a alltpb.log -nc -Dthepiratebay.org http://thepiratebay.org/
+
+*cough* It was a simple command till I added a ton of stuff. *cough*
+
+This might be a good place to tell you all why I did this.      
+*cough* *cough* WELL...  
+ I had just read the wget man page when I heard tpb (one of the best sites around) was going to go legit. This made me very angry for a sec, but then I started reading TorrentFreak (one of my favorite rss feeds). The guy said that if you destroy one tpb people will just copy it and make their own. And He said the whole pirate bay would fit on a USB. So... I thought why not download tpb with wget and make it into a torrent.
+
+ Mr. Nobody: :O You're so... smart 
+ Me: Duh... I'm not Spongebob...   
+ Mr. Nobody: >:( I love Spongebob! 
+ Me: And... Spongebob is dumb...   
+ Mr. Nobody: You sir are a fool!   
+ Me: A fool with tpb in his pocket 
+ Mr. Nobody: I see. SPONGBOB HATER 
+ Me: I have every Spongbob torrent 
+ Mr. Nobody: :O GIMME!!            
+ Me: You'll be able to get it soon 
+ Mr. Nobody: NOW!                  
+ Me: WAIT!! I NEED TO FINISH 1ST!  
+ Mr. Nobody: HURRY UP!!!           
+ Me: Ok but you have to leave!     
+ Mr. Nobody: ok... I'll go... bye  
+ Me: Bye *coughyoufoolcough*
+
+ There are probably a lot of files here that you don't need, but I figure it's better to have too much than not enough. I wasn't able to finish making a complete copy of tpb, but I think I did pretty well. After all, how many people do you know even have the home page of tpb saved lol.
+
+ps
+It will probably take along time to decompress this zip. I tried to make a torrent of it uncompressed, but the torrent file ended up being 64mb (utorrent wouldn't open it). In other words, don't be surprised if it takes a few hours ;)

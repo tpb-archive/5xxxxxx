@@ -1,0 +1,74 @@
+User Type,Username,Date,Text
+,bobbyphoto2,2009-08-07T16:43Z,Why is this in the porn section?
+,thomaspic,2009-08-07T20:45Z,Thanks so much!
+,tronnix7,2009-09-30T04:18Z,anyone know why there are strange links to french car insurance websites in my footer?
+,tronnix7,2009-09-30T04:28Z,"whoever uploaded this torrent put a function in the footer to add a link to some bogus webpage. 
+
+even worse, it's all in base64. pretty clever, but you didn't fool me! ha!"
+,Tm91a29uWA,2009-11-02T12:36Z,"For Those Who dont know, The Themes have a footer encoded in Base64.
+
+Simple enough to decode, but not many know how.
+
+So heres the fix.
+--------------------------
+Open Footer.php, and replace the text with the php code below.
+--------------------------
+
+
+
+
+
+
+
+
+            ÂŠ  
+
+            Fresh News Theme by 
+
+
+
+
+
+
+
+
+"
+,Tm91a29uWA,2009-11-02T12:37Z,"-sigh-
+
+Forgot You cant post codes.
+
+...i dont feel like posting a torrent.
+
+Sucks for those who cant decode base64... just search online for some decoders."
+,pepinocho,2009-12-07T00:30Z,"To decrypt footer.php use this:
+
+http://cyko.decodethe.net/
+
+Upload theme's footer.php and download a new decrypted footer.php!"
+,phunk,2009-12-11T14:11Z,"How to remove footer shit from Woo Themes
+
+http://www.pmkoch.com/?p=63
+
+Thanxx for great UL"
+,poonfang,2010-11-13T09:59Z,"This torrent should make you extremely nervous. For one thing, all of these themes attempt to call the mother ship. Secondly, they've obviously been tampered with. This torrent contains links to external sites not in the original files. No telling what else you're giving it access to when you put it on your server. Be careful, and be smart before you go putting something like this on your server."
+,erentzen,2011-11-03T03:31Z,http://thepiratebay.org/torrent/5045824/NEW_Woo_Wordpress_Themes_-_All_35_-_Professtionnal_WordPress_The
+,erentzen,2011-11-03T03:33Z,oops.
+,drkable,2012-02-18T12:46Z,"Edit the footer with: 
+
+
+
+
+
+
+
+
+Copyright ÂŠ  
+
+
+
+
+
+
+
+
+"

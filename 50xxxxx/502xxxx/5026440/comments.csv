@@ -1,0 +1,44 @@
+User Type,Username,Date,Text
+,themaritimeman,2009-07-28T03:23Z,"Just to let everyone know, my computer is down for maitainance until tomorow. It looks like this torrent has 5 other seeders, though, so hopefully at least one will keep going until tomorow."
+,themaritimeman,2009-07-28T17:26Z,Looks like I don't need to seed anymore. :)
+,worldend3,2009-08-08T14:54Z,what are the serials for these 4 os 
+,worldend3,2009-08-08T14:58Z,i browse the cd i could not find the serials for these 4 os
+,worldend3,2009-08-08T14:59Z,pl where are the serials plpl
+,philipprc,2009-08-09T04:44Z,worldend3 if you have the iso mounted  or if you have it burned to a cd then open up the drive you will see a windows batch file (.bat) labled 1-4 right click  then click on edit the you will see the product key code and for every one else when you come to a:\ type D: then type setup
+,worldend3,2009-08-12T05:49Z,thank u i see it this nice copy of all 9x to keep
+,themaritimeman,2009-08-15T19:06Z,"@worldend3 - like I mentioned in the description, you have to read the Instructions.TXT file. The keys are displayed on the screen just before the setup starts so you can write them down. That's why I took the time to write the file, to save people asking me questions that are answered in it. :)
+
+@philipprc - thanks, I forgot that you have to press d: at the a:\ prompt, and then setup. I'll edit the description right now! :)"
+,Jack_of_Asses,2009-08-17T23:03Z,"How would I install this without the cd, i.e. from a separate partition?"
+,silocky,2009-08-18T03:03Z,"when i try to install the OSes 1st time, it tells me to format the hard drive using fdisk, i format it then fdisk tells me to restart, and then when i restart it just says ""Missing operating system"" what should i doooooooooo!!!!!!!!!!!!!!!!!!!!"
+,themaritimeman,2009-09-06T03:55Z,"@Jack_of_Asses, at the A:\> prompt, you could use the command ""copy d:\*.* c:\[your folder of choice]"" (without the quotes) to copy the contents of the CD-ROM to the hard drive, but you would need to modify the 1/2/3/4.bat file to change the search location of the win95/win98/win98se/winme.zip file to the directory on the hard drive for everything to work. It's easiest just to boot to the CD-ROM and run the setup sequence from there.
+
+@silocky, you have something mixed up, because FDISK does not format the hard drive, it justs partitions it. After you partition the hard drive (as one big primary partition), and exit FDISK, press CTRL-ALT-DEL to restart the computer. Then follow the instructions in the Instructions.TXT file to setup the version of Windows you wish. Remember, after you get to the A:\> prompt, you have to type d: and enter, THEN type setup and enter, and follow the instructions on the screen and in the file."
+,Feikki,2009-09-16T21:52Z,when im instailling this on 98 from 98's boot disk comes after product key bad command or file name. Thath computer is too old from booting cd so what i can do?.
+,themaritimeman,2009-10-06T23:36Z,"@Feikki - after booting from your boot disk, switch to your hard drive, then type:
+
+md setup98
+
+Then switch to your CD drive and type:
+
+pkunzip X:\win98.zip c:\setup98
+
+(Where ""X"" is the letter of your CD drive.)
+
+Then switch to your hard drive and type:
+
+cd setup98
+
+Then type:
+
+setup
+
+And that's it! If you want Windows 98 Second Edition instead of the original Windows 98 (I recommend 98SE) change ""X:\win98.zip"" to ""X:\win98se.zip""."
+,mac0112,2010-03-06T23:53Z,"very cool project, kudos to u/l"
+,themaritimeman,2010-03-26T01:01Z,"@mac0112 - Thanks a bunch! The real credit has to go to the original maker of this ISO, though - who sadly took it down many moons ago (which is why I have revived it here)."
+,MrJinky,2010-09-14T20:16Z,"Very cool ISO.
+Respect!"
+,themaritimeman,2010-10-06T02:25Z,@MrJinky - Thanks muchly!
+,pontoon,2011-04-11T21:51Z,You made my live easier. Thank you very much. The project is very very very good and works fine. Thank you for your efforts.
+,bbcxtra,2011-05-01T05:13Z,Woow !! It's Like A Time Machine Thnx 4 Uploading & If U could Seed That 'd Be Gr8
+,footron,2011-05-17T20:37Z,nice.  thanks

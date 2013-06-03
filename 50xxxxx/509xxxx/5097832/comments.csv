@@ -1,0 +1,69 @@
+User Type,Username,Date,Text
+[V],Murlok,2009-09-23T18:22Z,Thanks for help me seeding friends :)
+,dj_mm,2009-09-26T15:16Z,"Important remark: NEVER use ZoneAlarm when you have avast! antivirus installed or vice versa. After 3 years of personal testing and experience ZoneAlarm still hasn't solved this issue. I like avast! antivirus because it's a strong protection on many levels, even for free. But just remember that ZoneAlarm is totally incompatible with avast! and using these 2 apps together (free or pro, doesn't matter) is begging for total system crash. I tried many times to mention this issue on several fora, but no one knows how to solve this incompatibility. I also contacted avast! website and zonealarm.com to warn them but they refuse to fix this issue, mostly don't even answer my questions. Poor support imho! In 2005 this problem was already known, and currently not solved yet. If anyone knows some advice how to solve this issue, please reply... thx."
+,techfreakz,2009-09-26T15:27Z,"the keygen is for old za...although it works you have to re-enter a new key everytime you restart ur pc or everytime you restart za...
+"
+,xXCudaXx,2009-11-18T06:04Z,"This is all you have to do to stop the reset after reboot:
+
+Zone alarm is now blocking these keys so,Here's a fix i found. 
+Enter license while your internet connection id OFF or disconnected, then do the following:
+
+               (do not connect to the web until you've finished)
+
+Make sure you unhide hidden folders. 
+Boot up in safemode
+
+Windows XP goto:
+C:\Windows\system32\zllictbl.dat
+right click 'properties' attributes click on 'read only' (leave hidden as is) apply > ok > re-boot 
+
+Vista goto:
+C:\ProgramData\CheckPoint\ZoneAlarm\zllictbl.dat
+right click 'properties' attributes click on 'read only' (leave hidden as is) apply > ok > re-boot
+
+
+It stops it from regestering and checking the key online. 
+Mines been working fine for days now, license says 65532 days :)
+
+DarkSeeded
+
+Thanx goes to Rattlehead556 for this info
+
+
+I found this and wanted to share
+
+Thanks for UP Murlok :))"
+,TwoFaced1680,2009-12-04T08:21Z,"@ xXCudaXx
+
+Simply setting the 'Read Only' flag doesn't seem to work anymore, at least for me. After connecting back to the network and re-booting, ZoneAlarm reset the flag and updated zllictbl.dat. The license was then shown to be expired.
+
+
+
+@ All
+
+The procedure I followed to ensure the license remains active is this:
+
+Note: Tested on Windows XP Pro and Windows 7 Ultimate
+
+1) Install ZoneAlarm
+2) Re-Boot your PC
+3) Generate license and input when prompted
+4) Re-Boot and enter safe mode
+5) Login using an administrator account
+6) Ensure hidden files are shown
+7)
+
+For Windows XP browse to c:\windows\system32
+
+For Vista/Win7 browse to C:\ProgramData\CheckPoint\ZoneAlarm\
+
+8) Right click the file 'zllictbl.dat' and select properties
+9) Click on the security tab
+10) For each user and group listed set 'write' access to deny
+11) Reboot
+
+You should now be able to update ZoneAlarm and reboot your PC without having to worry about the license expiring.
+
+FYI: If the security tab isn't available you can still set permissions using the 'cacls' command from the command prompt. If requested I'll post a tutorial."
+,javabest,2010-02-22T10:17Z,seed please :(
+,wulles,2010-03-12T15:11Z,I am using Avast and Zonealarm for at least 5 years now and have NEVER had any problems at all !!!

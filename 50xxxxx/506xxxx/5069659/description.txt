@@ -1,0 +1,14 @@
+The Hackerdemia Project is a LiveCD that provides both an instructional platform (in the form of a wiki) and an attack target to practice newly acquired skills.
+
+How to start the disk:
+Boot the LiveCD on a system within your pentest lab, which needs to be configured to be in the 192.168.xxx.xxx range.
+Connect to http://192.168.1.123 using a web browser (preferably in BackTrack or your favorite pentest platform)
+
+You will be presented with a web page, which is your tutorials. All hands-on examples were created with the Hackerdemia disk as the target, so your results should exactly match those found in the tutorials.
+
+Network configuration:
+The LiveCD configures itself to an IP address of 192.168.1.123 by default. If you want to change it, simply log in as:
+username: root
+password: toor
+
+...and change the ifconfig information (If you don't know what I'm talking about, go to: http://en.wikipedia.org/wiki/Ifconfig )

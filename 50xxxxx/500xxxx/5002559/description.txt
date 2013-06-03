@@ -1,0 +1,9 @@
+For users of Sun xVM VirtualBox only.
+
+This is the compressed image of the installed hard drive within Sun xVM.
+
+To use it unpack the file (7zip archive - free to download and use) - it is about 500Mb and copy it into the Hard Disks directory of your VirtualBox folder.
+Create a new virtual machine and tell the system to use an existing hard disk. (You will have to add it to the list of disks available but this just takes a second.) Then you select the Puppy hard disk Puppy4 2.6.25 and away you go. 
+You will have to tweek xVM a little to set the system up with another network card if you want to get on a network as it has the one from my laptop as installed on this image.
+
+For people into different OS try a search for OS2 Warp4. This is also a setup for VirtualBox but has to be installed from the floppy images I included or you could even install it on an old machine for real!

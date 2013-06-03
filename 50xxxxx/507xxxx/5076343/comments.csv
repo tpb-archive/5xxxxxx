@@ -1,0 +1,68 @@
+User Type,Username,Date,Text
+,LbL,2009-09-09T17:37Z,"
+
+Kaspersky 2010 Fix:
+
+1. Download Kaspersky Trial version from http://esd.element5.com/demoreg.html?productid=300324330.
+Install it.
+Get all the updates.
+
+2. Go to Kaspersky's settings, click Options, and untick Enable Self-Defence.
+
+3. Exit Kaspersky by right-clicking its icon in the Tray, and choose EXIT at the bottom.
+
+4. Go to Start, run, then type regedit and press enter.
+
+5. Press CTRL+F to serach for    ProductStatus    and hit enter, or go directly to:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\AVP9\environment
+where      ProductStatus    is located in the right window.
+
+6. Double click     ProductStatus    and change the word:
+ Release
+(it may say Trial instead of Release)
+
+to:
+ Beta
+
+
+7. Press OK. Close Registry Editor, start Kaspersky.
+
+Kaspersky will complain your key is invalid.  Click the red message.
+Now License Manager is open.  Click ""Activate New Licens"".
+
+
+8. Tick Activate beta license then press Next and Finish, it will now contact the Server to activate the Beta-key.
+
+9. Re-enable Self-Defence if it hasn't already done that by itself.		
+
+10. This can be done over and over again when the 30-days Trial ends."
+,salamlaith,2009-09-12T04:10Z,it didn't work for me. 
+,xlator1,2009-09-12T19:17Z,"I used the same procedure 30 days ago based on another post (exactly the same procedure). The procedure works once. After 15 days you start receiving expiration warnings. When you try to reactivate the Trial version, the License Manager no longer offers that option. You'll be back to Square 1, like me at the present time."
+,xlator1,2009-09-12T19:41Z,"Ok, i finally got this figured out. It works. Follow the following modified procedure if you fail to see the Beta license option during future resets:
+
+If at Step 7 you start Kaspersky and the Beta version is not available, do the following:
+- Delete the previous Trial license (write down the code first, if you want)
+- Make sure ""Enable Self-Defence"" is deactivated.
+- Exit Kaspersky and reboot.
+- Start Kaspersky and proceed with step 8."
+,mistergroenevingers,2009-10-10T23:41Z,"nice info in the comments
+so what would i need to download this torrent for?"
+,soulp0wer,2009-10-11T07:46Z,scanned the file BOX_KTR_v2.5A.rar that contains malware HackTool.Win32.Kiser.be
+,soulp0wer,2009-10-11T08:31Z,"do anyone have the REGISTRY FILE for trial reset for Kaspersky 2010?
+
+that method is safer compared to .EXE applications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+-soulp0wer"

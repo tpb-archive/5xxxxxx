@@ -1,0 +1,49 @@
+Hello Foamers
+
+Here is a prepackaged/precompiled version of OpenFOAM-1.6 and Paraview-3.6.1.
+
+This is all built from source, no prepackaged binaries.
+
+The Thirdparty folder have been striped for any source-code and only the binary/lib files are remaining.
+
+---------------- Included ----------------
+- Qt-4.5.2
+
+- OpenFOAM 1.6 (flex, mpfr and gmp built from source)
+
+- Paraview 3.6.1 and its dependencies.
+- Built with qt-4.5.2, OpenFOAM version of openmpi. ffmpeg support (export to avi), and parallezied support for decomposed cases.
+
+
+---------------- Install Instructions for the whole package ----------------
+
+0. First you need to install the gcc and c++ compiler which is shipped with CentOS 5.3 - yum install gcc gcc-c++ (needed to compile not already precompiled OpenFOAM solvers, or your own solvers)
+
+1. Place the content of libraries.tar.gz into /usr/local and accept overwriting existing folders. The package contains the compiled libraries/executable of gmp. mpfr, flex and ffmpeg. if this step is skipped you wont be able to compile the OF extra solvers.
+
+2. Unpack the content of OpenFOAM.tar.gz to /usr/local, this package contains the compiled libraries/executable which the Allmake command produces. The package also contains the Thirdparty applications needed by OpenFOAM.
+
+3. Put this line in your own .bashrc file.
+
+    . /usr/local/OpenFOAM/OpenFOAM-1.6/etc/bashrc
+
+restart console or source the bashrc $ . ~/.bashrc
+
+to check if it works try
+
+    $ which gcc
+
+this should output the following
+
+    $ /usr/local/OpenFOAM/ThirdParty-1.6/gcc-4.3.3/platforms/linux64/bin/gcc
+
+The Qt-4.5.2.tar.gz is an extra, which is only needed if you consider recompiling paraview, or some other app which depends on Qt.
+
+It is possible to install to another location other than /usr/local, all you have to do is to modify you own .bashrc file, the bashrc in OpenFOAM (/usr/local/OpenFOAM/OpenFOAM-1.6/etc/bashrc) and possibly also the settings.sh file to point to the right directories.
+
+---------------- Disclaimer ----------------
+The package has been verified on a fresh minimal gnome install of CentOS 5.3 64bit
+
+The package is "as is" and can only be guaranteed to work with a 64bit version of CentOS/RedHat/Scientific 5.3 (yum update is fine). Or if in a cluster environment Rocks 5.2 (based on CentOS 5.3).
+
+If other distributions are used, I can't help you.

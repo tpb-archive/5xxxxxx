@@ -1,0 +1,36 @@
+Windows Server 2008 Standard (Microsoft Virtual PC - Virtual Machine Files)
+
+Minimum RAM Required: 512MB
+
+Recommended RAM Required: 1GB+ 
+
+(*Tip: Increase Your Virtual Memory to Run this Program Smoothly
+
+512MB or less - 2 times of existing memory
+
+> 512 MB - 1.5 times of existing memory *) 
+
+
+
+First Rename the file by adding ".daa" to the end of the file
+
+
+Mount .daa(Size=2.38 GB) file using "Power ISO"
+
+
+Copy all the files onto a Folder(eg:WinServer2008)  in a hard drive (minimum - 5.63 GB Required)
+
+
+Install  "Microsoft Virtual PC 2007 (32 bit) Install.exe" from the folder(eg:WinServer2008)
+
+
+Configure Virtual PC by Opening "Windows Server 2008 Hard Disk.vhd" file from the folder(eg:WinServer2008)
+
+Start The Virtual Machine
+
+Use Password for Administrator: 17Jan1986 (Case Sensitive)
+
+
+I will be seeding from 2:00 am to 8:00 am (IST)
+
+

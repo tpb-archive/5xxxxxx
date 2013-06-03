@@ -1,0 +1,65 @@
+Release 20090730.
+
+
+
+Semantic Bundle is a pre-packaged bundle of extensions meant to be used on wikis based around the Semantic MediaWiki extension. It can be obtained either through SVN or by downloading a single .tgz or .zip file.
+
+
+
+Contents
+----------------
+
+Semantic Bundle contains a large number of MediaWiki extensions; chief among them is, of course, Semantic MediaWiki, an extension that enables semantic storage and querying of data. Other SMW-based extensions included in this bundle are:
+
+    * Semantic Result Formats - defines many additional formats for SMW queries
+    * Semantic Forms - allows wiki administrators to create easy-to-use, domain-specific editing interfaces for their wiki
+    * Semantic Compound Queries - allows for displaying multiple queries at the same time
+    * Semantic Drilldown - defines an easy browsing tool for the data set
+    * Semantic Maps - allows for using various various map services to display semantic coordinate data and enter coordinates within forms
+    * Semantic Tasks - allows for sending reminder and notification emails to users for tasks
+
+There are other extensions included in Semantic Bundle that, though they do not use Semantic MediaWiki directly, are often used in conjunction with SMW. These are:
+
+    * Admin Links - defines a special page that serves as a "control panel" for administrative tasks
+    * ArrayExtension - defines useful parser functions for manipulating arrays
+    * Data Transfer - allows importing data into and out of the wiki via XML and CSV formats
+    * External Data - allows for displaying data from outside APIs in the wiki
+    * Header Tabs - allows to convert top-level sections of the page into tabs; often used with Semantic Forms to make long forms more user-friendly
+    * Maps - allows for displaying individual points and geocoding addresses using various map services
+    * Page Object Model (POM) - a code library that helps extension and bot developers manipulate parts of structured wiki text easily using a model similar to W3C DOM. It is also MediaWiki API extension to perform such modifications remotely.
+    * ParserFunctions - adds useful parser functions for programming logic and string manipulation
+    * Replace Text - provides a form for administrators to do a text search-and-replace across the wiki
+    * Widgets - allows adding widgets to wiki by simply creating pages in the Widget namespace
+
+Semantic Bundle is not at all meant to be a comprehensive set of useful extensions, and there are many other extensions that are also quite useful, either in conjunction with SMW or in general, that were not included in the bundle, for technical or other reasons; we would encourage administrators setting up an SMW-based wiki to look at the wide variety of other extensions available. Some of these helpful extensions include CategoryTree, Configure, ConfirmEdit, FCKeditor, Halo, OpenID, reCAPTCHA, Semantic Signup and SemanticQueryFormTool.
+
+
+
+Initializing Semantic MediaWiki
+----------------
+
+To initialize Semantic MediaWiki, open Special:SMWAdmin page on your wiki and click "Initialize or upgrade tables" button. This is enough to start using extensions in the bundle. For more information see installation and configuration sections for each extension.
+
+
+
+Benefits
+----------------
+
+Semantic Bundle provides a number of important benefits over downloading and installing individual extensions; among them:
+
+    * it provides a "best practices" set of extensions around Semantic MediaWiki, based on user experiences
+    * it simplifies download, especially for those systems that don't have SVN, and especially for those extensions (like ParserFunctions) that don't have a downloadable version already
+    * it tries to guarantee working code by using tagged, stable versions of extensions whenever possible
+    * it simplifies installation by providing a pre-generated list of includes
+
+
+
+Authors
+----------------
+
+Semantic Bundle was created, and is maintained, by Sergey Chernyshev and Yaron Koren.
+
+
+
+
+More MediaWiki related downloads can be found @ http://thepiratebay.org/user/wikidev

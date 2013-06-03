@@ -1,0 +1,5 @@
+User Type,Username,Date,Text
+,allswelles,2009-08-21T23:10Z,Anybody have this in some format other than .mkv? Spent all morning trying to convert this to DVD and no luck. Sick of installing new codecs and video converters that simply won't recognise this file. What was wrong with the old .avi format?
+[T],ace_102,2009-08-22T03:05Z,"ffmpeg -i Doctor.Who.Greatest.Moments1.mkv -acodec libmp3lame -ab 128k -vcodec mpeg4 -b 1200k THEDOCTOR.avi
+
+http://www.videohelp.com/tools/ffmpeg"

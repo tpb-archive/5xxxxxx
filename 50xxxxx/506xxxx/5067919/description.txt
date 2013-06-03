@@ -1,0 +1,36 @@
+Although compact and resource-friendly, BitTorrent Mainline does not skimp on features, with a feature set that rivals those of larger clients, such as Azureus, BitComet, and BitTornado. BitTorrent Mainline's more notable features include:
+
+Bandwidth limiter (automatic and manual)
+Customizable interface
+Disk Cache system
+Distributed Hash Table (DHT) support
+Download bar
+Download scheduler
+Embedded tracker
+HTTPS tracker support
+Initial Seeding (Super Seeding)
+IP Blocklist support
+Local Peer Discovery (LPD)
+Local Tracker Discovery
+Localization
+Magnet URI support
+Multi-scrape support
+Multi-torrent interface with queueing support
+NAT Port Mapping Protocol (NAT-PMP) support
+Peer Exchange
+Protocol Encryption
+Proxy support
+RSS "Broadcatching"
+Search bar
+Selective file downloading
+Tetris (Easter Egg)
+Unicode support
+Universal Plug and Play (UPnP) support
+Web Interface
+Web Seeding support
+System Requirements
+BitTorrent Mainlineâ€™s system requirements are very low, especially considering the operations it must perform. Systems running Windows 95 on a 486 processor with 14 MiB of RAM are able to run BitTorrent Mainline without issue. Naturally, this compatibility spans all the way up to even Microsoft's latest operating system. Every operating system in between is supported by BitTorrent Mainline.
+
+It should be noted that Windows 95 users must install the Windows Socket 2 Update in order to use BitTorrent Mainline. Windows 95/98 users should have their global maximum number of connections set lower than the value for the MaxConnections value in the Windows TCP/IP Registry Entries. Additionally, Microsoft Internet Explorer 4 or greater should be installed on Windows 95/98 operated computers if users wish to make use of several features in BitTorrent Mainline, such as the toolbar, graphs in the pieces and files tab, and double-clicking in the torrent jobs list.
+
+Users of non-Windows operating systems may be able to use BitTorrent Mainline on their computers with the use of a special piece of software that allows the operating system to run Windows applications. Note that there are no guarantees of any kind that everything will work properly when BitTorrent Mainline is used on alternative operating systems.

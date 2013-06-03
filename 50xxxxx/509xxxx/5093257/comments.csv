@@ -1,0 +1,86 @@
+User Type,Username,Date,Text
+,TeamWersaq,2009-09-19T02:02Z,Don't forget to seed :-)
+,troy1969,2009-09-19T13:52Z,"""This is a complete pakage to run Mac OS X as guest operative system
+while you run Windows.""
+
+How about to run leopard as guest on a mac who runs Snow Leopard, is that possible? There's some apps that's not yet compatible with SL so it would be great to run Leopard when you need it."
+,DefconOne,2009-09-19T16:45Z,"In Parallels 4 you can install Leopard Server and Snow Leopard Server as a guest OS, I wonder why not standard Leopard/SL?"
+,goinggreen,2009-09-19T17:48Z,Just one question before downloading and seeding: What version of Leopard is this?  I have a VMWare image of 10.5.5 that will not upgrade.  Is this by any chance 10.5.6 or higher?
+,nws6969,2009-09-20T23:34Z,What is the admin password? 
+,arturmaj,2009-09-22T01:43Z,"Thanks, what's the pass for admin?"
+,bsims13,2009-09-22T16:10Z,"the Mac Admin password is ""password"" no quotes"
+,TeamWersaq,2009-09-23T15:41Z,"As ""bsims13"" said, the password for MAC ADMIN is password. I'm sorry i havn't been able to help you guys, my account has been going on the fly."
+,vonspurter,2009-09-25T14:03Z,Works great but USB does not initialize. Do you know how to fix?
+,erroneus,2009-09-26T01:34Z,"Last I heard, there are still no VMWare tools for MacOSX guest.  Is that still the case?  "
+,inhahe,2009-09-29T13:30Z,"download vmware-darwin-200.zip from http://drop.io/donk29a
+mount darwin.iso in vmware and then install client tools
+support is limited though.
+see also http://www.insanelymac.com/forum/index.php?showtopic=172474
+"
+,inhahe,2009-09-29T13:31Z,i meant see also http://www.insanelymac.com/forum/index.php?showtopic=139178
+,raymart,2009-10-07T20:20Z,Many thanks! works very well for me...God bless you Team-Wersaq!
+,XX1078,2009-10-11T00:28Z,"great got it loaded , but password doesnt work , any ideas??? thanks "
+,eking,2009-10-11T17:37Z,"Guys is started this virtual machine and its loading for ages.... nothing happens beside the rotation animation under the apple icon....
+Help..."
+,eking,2009-10-11T18:32Z,"Crashes on startup- 
+crashed using gid: 0 and some more things with : 0 at the end...
+
+please help me out here :(
+
+thank you"
+,twinpeak,2009-10-11T22:58Z,"does not load... 
+wheel just keeps on spinning"
+,eking,2009-10-13T08:41Z,"same here...
+
+Help....................................."
+,blig,2009-10-14T10:08Z,"I had the infinite spinning circle problem, too. Tried it on another computer: same thing.
+
+Here's a workaround: before the OS starts loading (just before the VMWare logo disappears) be holding down Windows Key + V (I think any key should work, but just in case).
+
+It will then ask you if you want to boot in verbose mode or something like that... Just type in -legacy into the prompt and it should work. It did for me. (I think this is always necessary when running VMWare on a 32-bit Windows operating system.)
+
+If this alone doesn't work, also try putting the processor in ""Binary Translation"" only mode in the hardware options for the VMWare machine while the machine is off. (You still need to do the -legacy thing at boot... and it will run much slower.)
+
+You shouldn't have to do -legacy every time. Google to find out how to make it a permanent setting. (I haven't had time, yet.)"
+,eking,2009-10-14T23:32Z,"First of all THANK YOU SO MUCH BLIG!
+that worked-I've bben searching the web for a solution for more than a week!
+
+second-
+Can u please help me on another thing.... I can't change the resolution to more than 1024X768...
+that's the only resolution shown on the screen menu..
+Thank you in advance!"
+,k-line,2009-10-19T03:01Z,"Thanks blig! My Mac OS could load normally though very slow. After I turned on hardware virtualization in bios, it refused to load, but I used the method you mentioned to solve it. Now it runs pretty fast! (relatively speaking of course...)
+I still can't get sound working though..."
+,k-line,2009-10-19T03:20Z,"by the way, i think one can use
+sudo nvram boot-args=""-legacy""
+to make it a permanent setting"
+,k-line,2009-10-19T04:06Z,"nvm that. i could not change it using nvram.
+i had to edit /Library/Preferences/SystemConfiguration/com.apple.Boot.plist and change
+
+Kernel Flags
+
+
+to
+
+Kernel Flags
+-legacy
+
+
+
+...
+if you are a Mac noob like me, be sure to grant write permission to yourself using Get Info to that folder and file. After saving the modification, change permissions back using Disk Utilities - First Aid - Repair Disk Permissions afterwards."
+[T],JugzG0nn4G3tY4,2009-10-28T02:03Z,"Can you upgrade this version to 10.5.8? I tried and it kept saying that I needed to reset guest operating system. So I did, and the same message has appeared hundreds of times. Anyone can help me out would be awesome."
+,anarchydeluxe420,2009-10-31T08:55Z,Will this work on Windows 7 Ultimate x64? I guess my real question is can you install this on a x64 system?
+,m.cenaj,2009-11-01T05:14Z,How fast is this version of mac on vmware. All other versions are really slow...
+,to1337ca,2009-11-03T17:40Z,The audio is NOT working. Can someone please post some straightforward instruction on how to fix this? Running legit Workstation 7 non-ACE edition on legit Vista SP1.
+,oxygens,2009-11-11T18:14Z,"Red Alert 2 Yuri's Revenge VMware Appliance (osx, win7, linux, anything that runs vmware):
+http://thepiratebay.org/torrent/5157060
+
+Full game (NOT rip) with working cracks preinstalled, and other goodies:)"
+,fevriul,2009-12-19T17:50Z,"What is the password for the admin account it is not ""password"" in lowercase!"
+,almhtar2003,2009-12-23T03:51Z,The Mac Admin password is : password 
+,bobalazs,2010-01-05T21:12Z,"Unfortunately i couldn't setup vmtools which meant experience was laggy and generally not acceptable.
+Then found this site:http://www.taranfx.com/how-to-install-snow-leopard-vmware-workstation-windows
+ and and helped me a lot."
+,bobalazs,2010-01-05T21:38Z,the site also helps in screen resolution and sound problem.
+,killer7__,2010-05-24T00:38Z,the password for Mac Admin is: Xelabo

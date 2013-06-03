@@ -1,0 +1,79 @@
+Isow's MultiBoot is a collection of repair, recovery, and diagnostic utilities designed to be run from a bootable DVD or, experimentally, USB. The eventual goal is to be a complete, solid, dependable resource for repairing both Windows and Linux PC's. 
+
+Site:
+ 
+http://multiboot.eqisow.org/
+
+__________________________________________________________________________________
+
+
+Contains:
+
+-- Hiren's BootCD: live DOS environment containing partition and data, MBR, BIOS, and recovery tools, benchmarks, disk cloners and images, and much more
+
+-- Hiren's MiniXP: live XP environment containing AV, anti-malware, and other utilities
+
+-- VistaPE: live Vista environment containing Vista Recovery Environment, GeekSquad MRI, AV, data recovery, VNC, putty, and more
+
+-- Windows XP Pro: stripped down install disk, primarily for recovery console or repair installs.
+
+-- Acronis True Image Echo Server: disk imaging, disaster recovery, and backups.
+
+-- Memtest86+: the standard in memory testing
+
+-- PC-Check: the most comprehensive single hardware tester available
+
+-- NTLDR repair: boot XP machines with 'NTLDR missing' error
+
+-- GOBACK Removal Tool: remove norton GOBACK
+
+-- SAW Linux: modification of the BackTrack4 Linux liveCD that comes with a full suite of security auditing tools as well as AV, data recovery, hardrive diagnostics, and more.
+
+__________________________________________________________________________________
+
+v0.6.1 Release Notes
+
+Hiren's BootCD
+
+ * Updated to 9.9
+
+Hiren's MiniXP
+
+ * Updated to 9.9
+
+VistaPE
+
+ * Updated MRI to 5.0.3
+ * Default resolution changed from 1024 to 1280
+
+memtest86+
+
+ * Updated to 2.11
+
+Acronis
+
+ * Updated to 9.7.8206
+
+SAW
+
+ * Updated base from BT4 beta to BT4 pre release
+ * Can now be installed to hard drive
+ * clonezilla and remastersys added for backups
+ * aimage mmls, and R-Studio added for imaging/file recovery
+ * New, more professional and useful, wallpaper
+
+SpinRite 6.0
+
+ * Added this controversial tool. Many of the author's claims are dubious at best, but many users report that it's still a good program despite this. Use your own judgment.
+
+Misc
+
+ * Seperate config for USB omits XP install and Hiren's MiniXP from the menu
+ * USB install script now removes I386 (XP install) to save space
+ * XP install and MiniXP do not, and may never, work from USB. The only solutions to this issue are inelegent, to be kind, so I have decided to focus efforts elsewhere.
+__________________________________________________________________________________
+
+
+KNOWN BUGS: 
+ 
+http://multiboot.eqisow.org/docs/061/bugs.html

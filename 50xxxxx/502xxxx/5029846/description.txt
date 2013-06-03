@@ -1,0 +1,14 @@
+This is the file you need to install (for free) the gba emulator for the iPod Touch and iPhone. To install, do the following:
+
+1. Copy the .deb file to your iPod using OpenSSH (google it, if you don't know how). Put it in /var/mobile/, and change permissions to '777'.
+
+2. Open Mobile Terminal (can be downloaded from Cydia). Type "su" (without "). Then you need to enter your password, that is "alpine" (again, without "). 
+
+
+3. Now, you should be in the same map as the .deb file. Type exactly "dpkg -i gpSPhone 6.1.0.deb".
+
+4. Reboot, and it should work. 
+
+
+
+Reply if something fails.

@@ -1,0 +1,104 @@
+[ Info sul file ]
+
+Nome: infelici e contenti.avi
+Data: 8/08/2009 17:21:40
+Dimensione: 736,859,192 bytes (702.724 MB)
+
+[ Info generiche ]
+
+Durata: 01:33:58 (5637.96 s)
+Tipo di contenitore: AVI OpenDML
+Streams totali: 2
+Tipo stream n. 0: video
+Tipo stream n. 1: audio
+Audio streams: 1
+Sezioni AVI corrotte:
+
+[ Dati rilevanti ]
+
+Risoluzione: 700 x 570
+Larghezza: multipla di 4
+Altezza: multipla di 2
+DRF medio: 7.918537
+Deviazione standard: 3.976891
+Media pesata dev. std.: 3.976665
+
+[ Traccia video ]
+
+FourCC: xvid/XVID
+Risoluzione: 700 x 570
+Frame aspect ratio: 70:57 = 1.228070
+Pixel aspect ratio: 16:15 = 1.066666
+Display aspect ratio: 224:171 = 1.309941
+Vprp aspect ratio: 224:171 = 1.309941
+Framerate: 25 fps
+Frames totali: 140949 (0)
+Stream size: 614,890,249 bytes
+Bitrate: 872.500335 kbps
+Qf: 0.087468
+Key frames: 1076 (0; 241; 491; 741; 807; ... 140923)
+Null frames: 0
+Min key int: 1
+Max key int: 250
+Key int medio: 130.993494
+Ritardo: 0 ms
+
+[ Traccia audio ]
+
+Audio tag: 0x55 (MP3)
+Bitrate (contenitore): 160 kbps CBR
+Canali (contenitore): 2
+Frequenza (contenitore): 48000 Hz
+Chunks: 234915
+Stream size: 112,759,176 bytes
+Preload: 480 ms
+Max A/V diff: 2928 ms
+Tipo: MPEG-1 Layer III
+MPEG frames: 234914
+Durata: 01:33:58 (5637.936 s)
+Chunk-aligned: No
+Emphasis: none
+Mode: joint stereo
+Ritardo: 0 ms
+
+[ Info sulla codifica MPEG4 ]
+
+User data: XviD0046
+Packed bitstream: No
+QPel: No
+GMC: No
+Interlaced: No
+Aspect ratio: Custom pixel shape (16:15 = 1.066666)
+Quant type: H.263
+Frames totali: 140949
+Drop/delay frames: 0
+Frames corrotti: 0
+
+I-VOPs:   1076 (  0.763 %)                          
+P-VOPs: 139873 ( 99.237 %) #########################
+B-VOPs:      0 (  0.000 %)                          
+S-VOPs:      0 (  0.000 %)                          
+N-VOPs:      0 (  0.000 %)                          
+
+[ Analisi DRF ]
+
+DRF medio: 7.918537
+Deviazione standard: 3.976891
+DRF max: 31
+
+DRF9: 32657 ( 23.169 %) ######                   
+
+I-VOPs DRF medio: 7.463754
+I-VOPs deviazione std.: 3.812958
+I-VOPs DRF max: 31
+
+P-VOPs DRF medio: 7.922036
+P-VOPs deviazione std.: 3.977925
+P-VOPs DRF max: 31
+
+[ Profile compliancy ]
+
+Profilo da testare: MTK PAL 6000
+Risoluzione: Ok
+Framerate: Ok
+Min buffer fill: 78%

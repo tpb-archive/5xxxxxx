@@ -1,0 +1,16 @@
+User Type,Username,Date,Text
+,evastevens,2009-09-01T13:18Z,"I like the idea of making a linux from scratch, i have downloaded the lfs book version 6.4 but i have alot of problems i cant install gcc and i believe that my problems wont stop after installing gcc. As i can see the dependencies for the host system (libraries etc.) are quite old so i installed mandriva 2007 free which has the required dependencies without devel versions but i have the same problem and i cant find an asnwer in internet, but i wont stop trying. Can you tell me about your progress? or the idea of an lfs system is impossible?"
+,erhardm,2009-09-04T03:12Z,"evastevens, the idea of lfs it's not to have an new updated linux os, it is just to have a full understanding of the linux operating system, to know how it works at 'low level'"
+,evastevens,2009-09-06T02:51Z,I afraid that you are wrong my friend erhardm read this :  LFS book version 6.4 page ix
+,evastevens,2009-09-06T02:53Z,"I afraid that you are wrong my friend erhardm read this :
+The goal of Linux From Scratch is to build a complete and usable foundation-level system. Readers who do not wish to
+build their own Linux system from scratch may not benefit from the information in this book. If you only want to know
+what happens while the computer boots, we recommend the ?From Power Up To Bash Prompt? HOWTO located
+at http://axiom.anu.edu.au/~okeefe/p2b/ or on The Linux Documentation Project's (TLDP) website at http://www.
+tldp.org/HOWTO/From-PowerUp-To-Bash-Prompt-HOWTO.html.
+ LFS book version 6.4 page ix"
+,satismo,2010-01-14T07:56Z,"well, according to the website
+
+LFS teaches people how a Linux system works internally.
+Building LFS teaches you about all that makes Linux tick, how things work together and depend on each other. And most importantly, how to customize it to your own tastes and needs."
+,aky_m,2011-09-17T06:07Z,can anyone seed?

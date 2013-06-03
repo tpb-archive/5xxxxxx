@@ -1,0 +1,39 @@
+Book Details
+--------------------------------------------------------------------------------
+Title : Purely functional data structures 
+Author : Chris Okasaki
+Pages : 225
+Publisher : Cambridge University Press
+Publication Date : 1999
+Format : DjVu
+Ebook quality : Decent
+--------------------------------------------------------------------------------
+Purely functional data structures 
+--------------------------------------------------------------------------------
+Most books on data structures assume an imperative language such as C or 
+C++. However, data structures for these languages do not always translate
+well to functional languages such as Standard ML, Haskell, or Scheme. This
+book describes data structures from the point of view of functional
+languages, with examples, and presents design techniques that allow
+programmers to develop their own functional data structures. The author
+includes both classical data structures, such as red-black trees and
+binomial queues, and a host of new data structures developed exclusively for
+functional languages. All source code is given in Standard ML and Haskell,
+and most of the programs are easily adaptable to other functional languages.
+This handy reference for professional programmers working with functional
+languages can also be used as a tutorial or for self-study.
+------------------------------------------------------------------------------
+Chapters
+------------------------------------------------------------------------------
+1- Introduction
+2- Persistence
+3- Some Familiar Data Structures in a Functional Setting
+4- Lazy Evaluation
+5- Fundamentals of Amortization
+6- Amortization and Persistence via Lazy Evaluation
+7- Eliminating Amortization
+8- Lazy Rebuilding
+9- Numerical Representations
+10- Data-Structural Bootstrapping
+11- Implicit Reucrsive Slowdown
+------------------------------------------------------------------------------

@@ -1,0 +1,221 @@
+User Type,Username,Date,Text
+,Flytrap0,2009-09-13T10:34Z,Delph 2010! I'm all over this like a rash... thanks Marias... I'll give you hugs once I know that it works!
+,MariasLove,2009-09-13T22:15Z,It works :)
+,Flytrap0,2009-09-15T03:10Z,"Okay... here is my reportback:
+Embarcadeo RAD Studio (aka Delphi/C++Builder 2010) works. 247 days left on slip license as of today.
+Delphi Prism also works, using the license (doesn't appear to have an expiry)
+
+Win32, WCF Web Services (.NET 3.5) all in Object Pascal... all in one download!
+
+I wonder if everything just stops working after the slip license expires... hopefully somebody comes up with a crack before then.
+
+Thanks MariasLove... I can truely confirm that it all works!"
+,Flytrap0,2009-09-15T03:12Z,"... and oh, yes... I am seeding for all I am worth 8-)"
+,MariasLove,2009-09-15T08:59Z,"Flytrap0, Do you mean 347 days?"
+,Flytrap0,2009-09-17T04:31Z,"I beg your pardon... yes, I meant 347 days."
+,MariasLove,2009-09-17T08:38Z,Did you load the slip file provided?
+,Tsingiska,2009-10-23T19:13Z,"Works beautifully on Windows 7 RC x64. Thank you very much for the upload.
+
+I wasn't sure what to do with the .slip file so I just copied it into the License folder under the folder where the Studio was installed. I then duplicated the file and replaced the existing, differently named .slip file (that the installer placed there) with this copy. Probably one of these steps wasn't necessary but I wanted to be sure. Works perfectly."
+,mawst,2009-10-30T22:47Z,Thanks!
+,Cloud737,2009-11-01T23:06Z,"Thank you very much for this! I've been looking everywhere for it (the 2010 edition) and couldn't find it.
+You should add 2010 to the name of the torrent, so people should know. Otherwise, they'll just pass by thinking it must be an older version. :P
+
+Anyway, I have installed it and registered it using the slip file, and it worked fine and perfect until I installed the updates for it. Now, every time I load it, it closes at the splash screen and pops up Firefox and sends me to http://www.embarcadero.com/products/how-to-buy-map. This is after I'm redirected from http://installers.codegear.com/tamper?Version=xx.x.xxxx.xxxxx&Code=xxxxxxxx (where x is a digit; I prefer not to put the actual URL out of privacy concerns), so I'm thinking that the RAD Studio IDE actually detected that I'm using an ""unregistered"" version.
+Sure enough, I check ""bdsreg.exe"" in the ""bin"" subdirectory of RAD Studio's install path, tried to re-register it again and it says that ""Selected activation file cannot activate this product."" I'm guessing it got wise to me, eh?
+
+Did this happen to anyone else here? Has anyone found any workarounds? Does anyone know where to find other .slip files?
+
+Anyway, as a general warning to anyone that tries, don't download the update files (the help update is fine I think, just make sure you don't install ""RAD Studio 2010 Update 1""). If you do, you might have to uninstall and reinstall RAD Studio again, or look for another crack."
+,Cloud737,2009-11-01T23:44Z,"Yup, it's the ""Update 1"" (not ""Help Update"") pack, it seems. I've looked at the details for it, and it seems ALL it fixes is the license management/registration system (i.e.: totally useless).
+
+I'll try uninstalling and reinstalling it and then downloading the Help Update pack again and see if it works."
+,MariasLove,2009-11-04T11:20Z,I'm afraid it doesn't work anymore if you install the update. I believe that the update only included licence changes not fixes.
+,MariasLove,2009-11-04T11:21Z,Have changed the torrent name to include 2010
+,Cloud737,2009-11-09T18:14Z,"[sorry about that one last message, that was me, I wanted to see if I can post comments; I think I finally figured out why I can't post my comment: it's too long! Breaking it up into multiple parts]
+
+Well, I've gone and done that, and surprisingly, the program behave differently this time, but not really as expected.
+It started asking me about registration again (as it should have like when first installing), it accepted the .slip file, but then when the registration window closed, another window opened saying that the product couldn't be registered and asking me if I want to do it again. Needless to say, the second time went exactly as the first, leaving me no option but to say ""No"" on the next screen.
+
+I then ran Delphi Distiller and cleared out all registration information - nothing. I then saw that, unlike last time (after I installed the Update 1 pack), the check box to remove the RAD Studio 2010 license check wasn't grayed out, and so I activated it... and voila! It now works completely, and on top of that, at the splash screen, the products that appear just say ""Registered"" underneath, but don't say anything about the days remaining (I take it as ""Unlimited Use""). :D"
+,Cloud737,2009-11-09T18:14Z,"After a reboot, however, it started acting up again. I then proceeded with a full uninstall complete with a total wipe of directories containing the words CodeGear, Embarcadero or Borland (I think all of them were in C:\ProgramData\ (hidden) and in C:\Users\) as well as cleaning up all temporary files in C:\Users\[your username]\AppData\Local\Temp (remember to replace [your username] with your username :P).
+After that I reinstalled and instead of using the .slip file, I used Delphi Distiller (which also eliminates that ""x days left"" message and timebomb), and everything works beautifully even after one week of use.
+
+Anyway, I just wanted to share my experiences with everyone so you know what to expect and what you can do.
+
+Hope all this info was of great help! :D"
+,Renegado0,2009-11-20T16:54Z,"According to Avira it contains 2 trojans:
+
+H:\InstallAware\ia-codegear-express-special-edition.exe
+  [0] Archive type: 7-Zip
+    --> data/OFFLINE/22007A41/F4A0C50/mMiniStub.exe
+      [DETECTION] Is the TR/Agent.cxlk Trojan
+H:\Partner\Delphi\helmuth_j_h_adolph\prodelphi_24_0_profiler_for_delphi\Prodel.zip
+  [0] Archive type: ZIP
+    --> ProfNavi13.dll
+      [DETECTION] Is the TR/Swisyn.obo Trojan
+
+Screw you for spreading this kind of crap!"
+,MariasLove,2009-11-21T11:54Z,">>Screw you for spreading this kind of crap! 
+
+It makes me wonder why I bother. This file is clean! "
+,Renegado0,2009-11-22T00:11Z,"Makes me wonder why I bother, but this is the virustotal.com report for the 2nd file I mentioned. 
+
+File Prodel.zip received on 2009.11.21 22:54:14 (UTC)Antivirus Version Last Update Result 
+a-squared 4.5.0.41 2009.11.21 - 
+AhnLab-V3 5.0.0.2 2009.11.20 Win-Trojan/Swisyn.308736 
+AntiVir 7.9.1.72 2009.11.20 TR/Swisyn.obo 
+Antiy-AVL 2.0.3.7 2009.11.20 Trojan/Win32.Swisyn.gen 
+Authentium 5.2.0.5 2009.11.21 - 
+Avast 4.8.1351.0 2009.11.21 Win32:Malware-gen 
+AVG 8.5.0.425 2009.11.21 - 
+BitDefender 7.2 2009.11.21 - 
+CAT-QuickHeal 10.00 2009.11.21 Trojan.PePatch.ju 
+ClamAV 0.94.1 2009.11.21 PUA.Packed.ASPack212 
+Comodo 2990 2009.11.21 Heur.Packed.Unknown 
+DrWeb 5.0.0.12182 2009.11.21 - 
+eSafe 7.0.17.0 2009.11.19 - 
+eTrust-Vet None 2009.11.20 - 
+F-Prot 4.5.1.85 2009.11.21 - 
+F-Secure 9.0.15370.0 2009.11.20 - 
+Fortinet 3.120.0.0 2009.11.21 W32/Swisyn.OBO!tr 
+GData 19 2009.11.21 Win32:Malware-gen 
+Ikarus T3.1.1.74.0 2009.11.21 Trojan-Spy.Win32.GWGhost 
+Jiangmin 11.0.800 2009.11.21 - 
+K7AntiVirus 7.10.901 2009.11.20 - 
+Kaspersky 7.0.0.125 2009.11.21 Trojan.Win32.Swisyn.obo 
+McAfee 5809 2009.11.21 - 
+McAfee+Artemis 5809 2009.11.21 Artemis!B39F8B6B2AAE 
+McAfee-GW-Edition 6.8.5 2009.11.21 Trojan.Swisyn.obo 
+Microsoft 1.5302 2009.11.21 - 
+NOD32 4627 2009.11.21 - 
+Norman 6.03.02 2009.11.21 - 
+nProtect 2009.1.8.0 2009.11.21 - 
+Panda 10.0.2.2 2009.11.21 Trj/CI.A 
+PCTools 7.0.3.5 2009.11.21 - 
+Prevx 3.0 2009.11.21 - 
+Rising 22.22.05.04 2009.11.21 - 
+Sophos 4.47.0 2009.11.21 - 
+Sunbelt 3.2.1858.2 2009.11.21 - 
+Symantec 1.4.4.12 2009.11.21 - 
+TheHacker 6.5.0.2.075 2009.11.20 - 
+TrendMicro 9.0.0.1003 2009.11.21 - 
+VBA32 3.12.12.0 2009.11.20 Trojan.Win32.Swisyn.obo 
+ViRobot 2009.11.20.2047 2009.11.20 - 
+VirusBuster 5.0.21.0 2009.11.21 - 
+
+Additional information 
+File size: 2735324 bytes 
+MD5   : 0cc3fa71a2a15559828d359478ea25f3 
+SHA1  : 92f18abfd945f062eebae5330e77af88a0d79de9 
+SHA256: 8d637408ca71eaa5c588be3dbedc45db91947796e25d07468baa103877a1f622 
+ssdeep: 49152:p6ZpXwSgBGokqHh2npWTkN7ct4Vs6VdA5lTPsz/84H4rvdbcCqaKF:pyJLqOci74TsT/GvdbcCa 
+PEiD  : - 
+packers (Kaspersky): PE_Patch, PE_Patch, PE_Patch, PE_Patch, PE_Patch, PE_Patch, ASPack, ASPack, ASPack, ASPack, ASPack, ASPack, ASPack, ASPack, ASPack 
+packers (F-Prot): Aspack 
+RDS   : NSRL Reference Data Set- 
+
+Antivirus	Version	Last Update	Result
+a-squared	4.5.0.41	2009.11.21	-
+AhnLab-V3	5.0.0.2	2009.11.20	Win-Trojan/Swisyn.308736
+AntiVir	7.9.1.72	2009.11.20	TR/Swisyn.obo
+Antiy-AVL	2.0.3.7	2009.11.20	Trojan/Win32.Swisyn.gen
+Authentium	5.2.0.5	2009.11.21	-
+Avast	4.8.1351.0	2009.11.21	Win32:Malware-gen
+AVG	8.5.0.425	2009.11.21	-
+BitDefender	7.2	2009.11.21	-
+CAT-QuickHeal	10.00	2009.11.21	Trojan.PePatch.ju
+ClamAV	0.94.1	2009.11.21	PUA.Packed.ASPack212
+Comodo	2990	2009.11.21	Heur.Packed.Unknown
+DrWeb	5.0.0.12182	2009.11.21	-
+eSafe	7.0.17.0	2009.11.19	-
+eTrust-Vet	None	2009.11.20	-
+F-Prot	4.5.1.85	2009.11.21	-
+F-Secure	9.0.15370.0	2009.11.20	-
+Fortinet	3.120.0.0	2009.11.21	W32/Swisyn.OBO!tr
+GData	19	2009.11.21	Win32:Malware-gen
+Ikarus	T3.1.1.74.0	2009.11.21	Trojan-Spy.Win32.GWGhost
+Jiangmin	11.0.800	2009.11.21	-
+K7AntiVirus	7.10.901	2009.11.20	-
+Kaspersky	7.0.0.125	2009.11.21	Trojan.Win32.Swisyn.obo
+McAfee	5809	2009.11.21	-
+McAfee+Artemis	5809	2009.11.21	Artemis!B39F8B6B2AAE
+McAfee-GW-Edition	6.8.5	2009.11.21	Trojan.Swisyn.obo
+Microsoft	1.5302	2009.11.21	-
+NOD32	4627	2009.11.21	-
+Norman	6.03.02	2009.11.21	-
+nProtect	2009.1.8.0	2009.11.21	-
+Panda	10.0.2.2	2009.11.21	Trj/CI.A
+PCTools	7.0.3.5	2009.11.21	-
+Prevx	3.0	2009.11.21	-
+Rising	22.22.05.04	2009.11.21	-
+Sophos	4.47.0	2009.11.21	-
+Sunbelt	3.2.1858.2	2009.11.21	-
+Symantec	1.4.4.12	2009.11.21	-
+TheHacker	6.5.0.2.075	2009.11.20	-
+TrendMicro	9.0.0.1003	2009.11.21	-
+VBA32	3.12.12.0	2009.11.20	Trojan.Win32.Swisyn.obo
+ViRobot	2009.11.20.2047	2009.11.20	-
+VirusBuster	5.0.21.0	2009.11.21	-
+
+Additional information
+File size: 2735324 bytes
+MD5   : 0cc3fa71a2a15559828d359478ea25f3
+SHA1  : 92f18abfd945f062eebae5330e77af88a0d79de9
+SHA256: 8d637408ca71eaa5c588"
+,Renegado0,2009-11-22T13:09Z,"Already downloaded it, how could I have scanned it otherwise? But I was just giving a warning to other people, so they can judge themselves. Why, is a negative comment on a torrent not allowed?"
+,Cloud737,2009-11-25T01:31Z,"I've doubled checked the file on virus total, and it's as you say, Renegado0.
+However, looking closely at what AVs have detected it and what it detected, I find it likely to believe it is a false positive. I see most using heuristics, which are infamous for finding false positives everywhere.
+
+Also, among the AVs that did find a virus, only Kaspersky, McAfee+Artemis (though not vanilla McAfee) and Panda are ""serious"" AVs, if you can call Panda serious (popular, yeah, but serious... I'm on the fence here).
+Symantec, TrendMicro, BitDefender, Avast, AVG and McAfee didn't saw anything, and these are pretty big players.
+So, I pretty much believe this is a false positive.
+
+In any case, neither Prodel (ProDelphi Profiler) or InstallAware are installed along with RAD Studio, you have to install them manually, so I would see little reason to believe someone would install a virus there.
+
+Also, I've been using this for a good month or so now, and I haven't found any problem or virus on my computer, so I think it's safe."
+,Trillhouse,2010-02-15T16:51Z,"U dunno ppl, everything can be isnalled expect the delpi, lawl the installer doesnt start:/
+im using windows 7 x64"
+,Trillhouse,2010-02-15T16:58Z,"first this pops up
+http://img211.imageshack.us/img211/1946/86102966.png
+but then the setup process stops, i can instal anything but the Delphi and C++ builder."
+,zorchtorrent,2010-07-19T00:42Z,"Renegado0 said: ""flarf blargh blahblah virus blahblah trojan f.u.!""
+
+I love fucknuts that roll in not knowing the first damn thing of what they speak. If you're not smart enough to figure out the blatant false positive heuristic response involved in patchers, why the hell are you even messing with the likes of this distro?! Stay with movie rips, pal. The world doesn't need another savior-cowboy on a white (trojan) horse. :/ 
+
+Thumbs up on a fine package, uppie!
+Indeed, stay away from update 1, as was mentioned, it's an ex-post-facto license bugfix... useless to the overall package. "
+,petya27,2010-08-12T11:27Z,Trillhouse:  Set International settings in Control Panel to English/USA and Execute install_RADStudio.exe
+,Echew,2010-08-18T17:34Z,"Thanks for uploading this.
+
+Don't forget, people: buy the product if you use it. Help support Embarcadero and future Delphi development."
+,MrJinky,2010-09-16T22:27Z,"Cant start / register.
+
+Quote: ""Selected activation file cannot activate this product""
+
+So I need another slip file?"
+,snhasani,2010-11-01T13:58Z,"The slip file does not work.
+I need another slip file?"
+,pirate4e,2010-11-22T16:04Z,"""D:\Partner\Delphi\helmuth_j_h_adolph\prodelphi_24_0_profiler_for_delphi\Prodel.zip:\ProfNavi13.dll"";""Trojan horse Generic16.AOGI"";""Infected"""
+,ronski34a,2010-12-27T21:02Z,"Regarding the so-called virus...about a year ago I tracked down the author/company of the suspect file. This was the ""conversation"":
+
+I was about to install my copy of Delphi Rad Sudio 2010 when I decided to do a virus scan. It reported the following file as being a Virus/Worm: > adolph\prodelphi_24_0_profiler_for_delphi\Prodel.zip\ProfNavi13.dll > 
+This file has a size of 308736 bytes and a file modified date of  > 24/7/2009 16:51 > Would you please confirm for me whether this is a valid file. > --  > Regards, > XXXX XXXXXX
+
+Reply:
+Hi XXX, that is a false alert, which I have discocered one week ago. If I compile the file, there is no virus. If I pack the file with ASPack, AVIRA virus scanner alerts. I do the same procedure for all other DLL's and this does not happen. If you download the newest version from my web server, you get the file uncompressed and without alert. By the way, which virus scanner do you use ? Kindest regards -XXXXXX"
+,rjlackey,2011-01-11T04:20Z,got the files ok and installed but can not get past the registration page.  what do you do with the supplied slip file?
+,rjlackey,2011-01-11T23:48Z,"got this thing to work
+1 downloaded torrent
+2 used supplied SN to install
+3 got copy of delphi distiller ( hard to find a working copy I found v1.85, don't know web site)
+4 on the Tweaks tab of Distiller check box ""Remove Delphi 2010 RTM license check using EQUINOX method""
+5) scaned this file with AVG, clean.
+
+hope this helps someone...."
+,Lomhoerd,2011-03-06T10:07Z,"Does this torrent have ""C++ Builder"" included as well or only Delphi?"
+,onemeant,2011-10-17T21:47Z,"no no virus i scanned with Norton 2011 its clean :D, some 1 help me with serial?"
+,zippospam,2011-12-08T18:42Z,"so how do you install this without fucking it up? 
+ok don't install update 1 but does this need access to the net or it can be isolated?
+not trolling just ignorant."
+,btmbnd,2012-02-08T17:43Z,Does anyone know where one could get the new Delphi .... XE2 version ? I wish someone would upload it...

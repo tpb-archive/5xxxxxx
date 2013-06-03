@@ -1,0 +1,199 @@
+                     
+BBBBBBBBBB
+BBBBBBBBBBBB                        
+BBBB    BBBB                        
+BBBBBBBBBB    yyyy  yyyy        ::::
+BBBBBBBBBBBB  yyyy  yyyy        ::::
+BBBB    BBBB  yyyy  yyyy            
+BBBBBBBBBBBB    yyyyyy          ::::
+BBBBBBBBBB        yyyy          ::::
+                  yy                
+              yyyy                  
+
+
+
+
+
+
+                                                  
+ 11         1   11      111111   111111111 111111111   111111    11     1
+  11       1    11    11            11     11      1   11    1    11   1
+   11     1     11    11            11     11      1   11    1     11 1
+    11   1      11    11            11     11      1   111111       11
+     11 1       11    11            11     11      1   11    1      11
+      11        11      111111      11     111111111   11     1     11
+
+
++------------------------------------------+
+|   [+] Custom IOS Installer (v38 rev 14)  |
+|       developed by Waninkoko             |
++------------------------------------------+
+|           wwww.teknoconsolas.es          |
++------------------------------------------+
+
+
+[ DISCLAIMER ]:
+
+- THIS APPLICATION COMES WITH NO WARRANTY AT ALL, NEITHER EXPRESS NOR IMPLIED.
+  I DO NOT TAKE ANY RESPONSIBILITY FOR ANY DAMAGE IN YOUR WII CONSOLE
+  BECAUSE OF A IMPROPER USAGE OF THIS SOFTWARE.
+
+
+[ DESCRIPTION ]:
+
+- This is a Custom IOS, an IOS modified to add some new features
+  not available in the official IOS.
+
+  This IOS has been made to be used ONLY with homebrew software.
+
+  The Custom IOS installs as IOS249 and it does not modify any other
+  IOS so it is secure to install.
+
+
+[ REQUISITES ]:
+
+- "IOS38-64-v3610.wad" original WAD file (for WAD installation).
+- Network connection (for Network installation).
+
+
+[ HOW TO INSTALL IT ]:
+
+  WAD Installation:
+
+- Copy "IOS38-64-v3610.wad" file to the root of a SD card.
+- Insert the SD card on your Wii.
+- Run the installer and select "WAD Installation".
+
+
+  Network Installation:
+
+- Run the installer and select "Network Installation".
+
+
+[ KUDOS ]:
+
+- Team Twiizers and devkitPRO devs for their great work in libogc.
+- All the betatesters.
+- WiiGator, for his work in the DIP plugin.
+- kwiirk, for his EHCI module.
+- Hermes, for his EHCI improvements.
+- sorg, for his cover check patch.
+- Shizzza, for the background image.
+- nitrotux, for his IOS5.
+- neimod, for the Custom IOS module.
+
+
+
+
++-----------+
+| CHANGELOG |
++-----------+
+
+
+[ CIOS38 rev 14 ]:
+
+- Support for games with new error 002.
+- DIP plugin updated (cover commands emulation fixed).
+- ES plugin updated.
+- FFS plugin updated.
+- EHCI module improved.
+- SDHC module improved.
+- FAT module improved.
+- Implemented new anti error 001 system.
+- Anti error 002 system removed.
+- NAND emulation system added (from SD/USB device).
+- Content override system added (from SD/USB device).
+- System Menu support (Disc Channel works again).
+- Installer support for cBoot2.
+- Installer support for all IOS.
+- Some bugs fixed.
+
+
+[ CIOS38 rev 13 ]:
+
+- Read speed improved.
+- EHCI module improved.
+- SDHC module improved.
+- DIP plugin improved.
+- ES plugin updated.
+- Implemented new system anti error 002.
+
+
+[ CIOS38 rev 12 ]:
+
+- Based on IOS 38 v3610.
+- Support for consoles with serial number LU64+
+- Error 001/002 patching system improved.
+- Cover check patch added (thanks to sorg).
+- EHCI module improved (thanks to Hermes).
+- SDHC module improved.
+- DIP plugin improved.
+- ES plugin added.
+- FFS plugin added.
+- Some patches fixed.
+- Misc improvements and fixes.
+
+
+[ CIOS36 rev 10 ]:
+
+- Some modifications in DIP plugin.
+- SDHC module added (thanks to WiiGator for the help).
+
+
+[ CIOS36 rev 09 ]:
+
+- EHCI module made by kwiirk added.
+- Support for USB mode in DIP plugin.
+- Removed NAND permissions check.
+
+
+[ CIOS36 rev 08 ]:
+
+- Custom IOCTL_DI_OFFSET command (for multigame support).
+- Support for custom DIP commands.
+- D0 read command now reads at 6x when using original discs or modchip.
+- Error 001/002 transparent patching system.
+- Fixes and improvements.
+
+
+[ CIOS36 rev 07 ]:
+
+- DIP plugin updated (lots of improvements).
+
+
+[ CIOS36 rev 06 ]:
+
+- Custom DIP module removed.
+- DIP module patched (DIP plugin) to support backups.
+
+
+[ CIOS36 rev 05 ]:
+
+- ES_CloseContent() permission check removed.
+- Custom DIP module v0.2 added.
+
+
+[ CIOS36 rev 04 ]:
+
+- Now the base IOS is IOS36.
+- ES_OpenTitleContent() titleid check removed.
+- ES_ReadContent() permission check removed.
+
+
+[ CIOS37 rev 03 ]:
+
+- ES_AddTicketStart() title version check removed.
+- ES_DeleteTicket() and ES_DeleteTitle() now can delete system titles.
+- ES_SetUID() check removed.
+
+
+[ CIOS37 rev 02 ]:
+
+- Removed copyright code.
+- Changed the way the IOS is patched.
+
+
+[ CIOS37 rev 01 ]:
+
+- DVD_LowUnencryptedRead() limit removed.
+- ES hash check disabled (Trucha bug).

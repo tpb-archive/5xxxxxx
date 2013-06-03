@@ -1,0 +1,86 @@
+Copied from Autoruns Homepage:
+
+
+This utility, which has the most comprehensive knowledge of auto-starting locations of any startup monitor, shows you what programs are configured to run during system bootup or login, and shows you the entries in the order Windows processes them. These programs include ones in your startup folder, Run, RunOnce, and other Registry keys. You can configure Autoruns to show other locations, including Explorer shell extensions, toolbars, browser helper objects, Winlogon notifications, auto-start services, and much more. Autoruns goes way beyond the MSConfig utility bundled with Windows Me and XP.
+
+Autoruns' Hide Signed Microsoft Entries option helps you to zoom in on third-party auto-starting images that have been added to your system and it has support for looking at the auto-starting images configured for other accounts configured on a system. Also included in the download package is a command-line equivalent that can output in CSV format, Autorunsc.
+
+You'll probably be surprised at how many executables are launched automatically!
+
+
+Usage
+
+Simply run Autoruns and it shows you the currently configured auto-start applications as well as the full list of Registry and file system locations available for auto-start configuration. Autostart locations displayed by Autoruns include logon entries, Explorer add-ons, Internet Explorer add-ons including Browser Helper Objects (BHOs), Appinit DLLs, image hijacks, boot execute images, Winlogon notification DLLs, Windows Services and Winsock Layered Service Providers. Switch tabs to view autostarts from different categories.
+
+To view the properties of an executable configured to run automatically, select it and use the Properties menu item or toolbar button. If Process Explorer is running and there is an active process executing the selected executable then the Process Explorer menu item in the Entry menu will open the process properties dialog box for the process executing the selected image.
+
+Navigate to the Registry or file system location displayed or the configuration of an auto-start item by selecting the item and using the Jump menu item or toolbar button.
+
+To disable an auto-start entry uncheck its check box. To delete an auto-start configuration entry use the Delete menu item or toolbar button.
+
+Select entries in the User menu to view auto-starting images for different user accounts.
+
+More information on display options and additional information is available in the on-line help.
+
+
+Autorunsc Usage
+
+Autorunsc is the command-line version of Autoruns. Its usage syntax is:
+
+Usage: autorunsc [-a] | [-c] [-b] [-d] [-e] [-g] [-h] [-i] [-l] [-m] [-n] [-p] 
+[-r] [-s] [-v] [-w] [-x] [user]
+
+-a	Show all entries.
+-b	Boot execute.
+-c	Print output as CSV.
+-d	Appinit DLLs.
+-e	Explorer addons.
+-g	Sidebar gadgets (Vista and higher).
+-h	Image hijacks.
+-i	Internet Explorer addons.
+-l	Logon startups (this is the default).
+-m	Hide signed Microsoft entries.
+-n	Winsock protocol and network providers.
+-p	Printer monitor drivers.
+-r	LSA providers.
+-s	Autostart services and non-disabled drivers.
+-t	Scheduled tasks. 
+-v	Verify digital signatures.
+-w	Winlogon entries.
+-x  	Print output as XML.
+user	Specifies the name of the user account for which autorun items will be shown.
+
+
+Runs on:
+
+* Client: Windows XP and higher.
+
+* Server: Windows Server 2003 and higher.
+
+
+Changelog:
+
+
+Autoruns 9.54:
+
+This update includes several bug fixes, the introduction of additional 32-bit autostart locations for 64-bit Windows, some user interface improvements, and brings back compatibility with .ARN files created by older versions.
+
+
+Autoruns 9.53
+
+This update fixes a bug that could cause the file open and save dialogs to not work on 64-bit Windows. 
+
+
+Autoruns 9.52:
+
+Autoruns v9.52 fixes some minor bugs including one where Ctrl+C didnâ€™t copy the entire entry to the clipboard.
+
+
+Autoruns 9.51:
+
+This fixes a bug with the Run As Administrator functionality on 64-bit Windows 7, a copy-to-clipboard bug where part of a lineâ€™s content was truncated, and is updated to show Windows 7 Sidebar Gadget configuration.
+
+
+Autoruns 9.5:
+
+This update to Autoruns, a powerful autostart manager, adds display of audio and video codecs, which are gaining popularity as an extension mechanism used by malware gains automatic execution.

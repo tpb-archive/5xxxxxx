@@ -1,0 +1,10 @@
+User Type,Username,Date,Text
+,DJOLESOFT,2009-08-17T20:09Z,can i put it on my USB flash drive?does it work?
+,cclloyd,2009-08-17T21:16Z,"Yes it works.  And yes you can put it on your flash drive.  you just need at least 16GB.  If you plan on using it for an actual OS instead of just for fun usage, as in if you plan on storing files on it then you will need to create a new virtual hard disk where you can select to run the drive."
+,DJOLESOFT,2009-08-18T14:16Z,I have a USB 8 GB .... It is a little bit? Can I put XP on the USB? Help me please ...
+,cclloyd,2009-08-18T21:27Z,"8GB is plenty to put Windows XP on it.  Just copy everything but the drive itself
+
+(%diskroot%\Portable-VirtualBox-Win32\data\.VirtualBox\HardDisks\)
+
+In that folder just delete the .vdi image there and make a new one then install XP to it.  If you need further help message me on AIM (sn- cclloyd9785)"
+,mangoa,2009-08-21T04:36Z,sounds great!

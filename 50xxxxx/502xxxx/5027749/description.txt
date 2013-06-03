@@ -1,0 +1,10 @@
+Chicken Little Remix 9.04, AMD64 edition
+----------------------------------------
+
+Chicken Little Remix is a modified copy of the Ubuntu "alternate" installer, with all packages relating to Mono removed from the image entirely. No Mono-related packages will be installed onto your system if you install using this ISO instead of an ISO from ubuntu.com
+
+This process is achieved relatively simply. Firstly, a copy of the original ISO's contents is made to disk, and all offending packages are removed. here's the list: f-spot tomboy binfmt-support cli-common gvfs-bin libart2.24-cil libflickrnet2.1.5-cil libgconf2.24-cil libgdiplus libgif4 libglade2.0-cil libglib2.0-cil libglitz-glx1 libglitz1 libgmime-2.0-2a libgmime2.2a-cil libgnome-keyring1.0-cil libgnome-vfs2.24-cil libgnome2.24-cil libgnomepanel2.24-cil libgtk2.0-cil libmono-addins-gui0.2-cil libmono-addins0.2-cil libmono-cairo2.0-cil libmono-corlib2.0-cil libmono-data-tds2.0-cil libmono-data2.0-cil libmono-getoptions2.0-cil libmono-i18n2.0-cil libmono-posix2.0-cil libmono-security2.0-cil libmono-sharpzip2.84-cil libmono-sqlite2.0-cil libmono-system-data2.0-cil libmono-system-web2.0-cil libmono-system2.0-cil libmono0 libmono2.0-cil libndesk-dbus-glib1.0-cil libndesk-dbus1.0-cil libsqlite0 mono-2.0-gac mono-2.0-runtime mono-common mono-gac mono-jit mono-runtime 
+
+Next, the ubuntu-keyring package is modified and replaced to inject my (Debian Mono co-maintainer) GPG key. This is required in order for the modified package manifest on the CD to be accepted as signed off by the CD creator, otherwise installation is refused. The modified keyring package is replaced on first update, but the GPG key remains trusted in the apt-key store.
+
+For the paranoid amongst you, this does indeed mean that I (Debian Mono co-maintainer) have had the opportunity to tamper with any packages on the install media, and that you need to trust me (Debian Mono co-maintainer) to have your best interests at heart before using this CD. Trust is so important these days, isn't it?

@@ -1,0 +1,78 @@
+DeVeDe is a program to create video DVDs and CDs (VCD, SVCD or CVD), suitable for DVD players, from any number of video files. Many different video formats are supported (mpeg, mpeg4, avi, asf,and google flash videos, wmv, ogg, etc...). DeVeDe is an open source program and is free for all use.
+
+
+
+Version 3.12.3 update to mplayer/mencoder version.
+
+
+
+Features include:
+    * Preview Video with selected settings
+    * Save disc structure to convert at a later time
+    * Ability to check for updates
+    * Menu option to view documentation
+    * Create
+          o Video DVD
+          o Video CD
+          o Super Video CD
+          o CVD
+          o DIVX / MPEG-4
+    * Menu - DVD
+          o Action to Perform when Title ends
+                + Stop reproduction/show disc menu
+                + Play the first title
+                + Play the previous title
+                + Play current title again (loop)
+                + Play the next title
+                + Play the last title
+          o Menu Options
+                + Choose custom background
+                + Choose PAL/SECAM or NTSC format
+                + Customize menu font
+                + Preview menu
+                + Option for no menu
+    * DVD Options
+          o Convert only to MPEG
+          o Convert only to disc structure
+          o Convert to ready to burn ISO file
+          o Choose 1.4 GB, 4.7 GB, or 8 GB DVD
+    * Video Information
+          o Original size (pixels)
+          o Final size (pixels)
+          o Length (seconds)
+          o Estimated length (MBytes)
+          o Output aspect ratio
+          o Frames per second
+          o Video rate (Kbits/sec)
+          o Audio rate (Kbits/sec)
+          o Size of chapters
+    * Video Properties
+          o Set video rate (Kbits/sec)
+          o Set audio rate (Kbits/sec)
+          o Output video format as PAL/SECAM or NTSC
+          o Set Final video size to:
+                + 720x576
+                + 704x576
+                + 480x576
+                + 352x576
+                + 352x288
+                + Default
+          o Choose scaling mode
+          o Can choose to use 16:9 aspect ratio
+    * Quality Options
+          o Trellis search Quantization
+          o MacroBloc decision algorithm
+          o Deinterlacing
+    * Audio Options
+          o Delay audio (in seconds)
+          o Create DVD with 5.1 channel sound
+          o Specify video already has AC3 sound
+    * Subtitles
+          o Add subtitles from sub and srt formats
+          o Choose encoding type of subtitles file
+          o Ability to raise subtitles above black bars (if chosen in scaling)
+    * Misc Video Options
+          o Split video file in chapter (for easy seeking). Defaults to 5 minutes per chapter.
+          o Specify video file is already DVD suitable MPEG-PS file
+          o Use a GOP of 12 frames (this improves compatibility)
+          o Option to specify extra parameters for mencoder (DeVeDe back end)

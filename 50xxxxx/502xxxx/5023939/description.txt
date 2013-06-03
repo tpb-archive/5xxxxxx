@@ -1,0 +1,16 @@
+Changes in version 6.5.7.1 
+
+- New (Blu-ray): Added support for new BD+ protections
+- New (Blu-ray): Added support for AACS MKB v14
+- New (DVD): Added support for new copy protection,
+e.g. "Haunting in Connecticut", R1, US
+- New (DVD): AI scanner improved
+- Fix (DVD): Structural repair with some discs, e.g.
+"Transporter 3", R2, Germany
+- Fix (DVD): Bug introduced with 6.5.5.9, "IFOTitles 0" error with some
+titles, e.g. "Seven Pounds", R2, Italy
+- Fix (DVD): Bug in AI scanner, causing parts of a DVD not to be included with
+some discs, e.g. "Aujourd'hui, c'est Ferrier!", R2, France
+- Some minor fixes and improvements
+- Updated languages
+ 

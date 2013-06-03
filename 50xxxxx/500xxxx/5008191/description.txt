@@ -1,0 +1,39 @@
+ConvertXtoDVD changes history
+
+ConvertXtoDVD - 3.7.2.188 - Released publicly 16 of July 2009
+=========================
+
+yet another fix on audio in menus
+- 0002865: [Bug] Regression: Fix of bug 2843 (video) causes Audio no longer working for menus. (wesson) - resolved.
+
+ConvertXtoDVD - 3.7.1.186
+=========================
+
+Fix annoying issue with menu that would prevent custom video to be used in menus.
+- 0002843: [Bug] Background video no longer added to title menu background (wesson) - resolved.
+- updated translations
+
+ConvertXtoDVD - 3.7.0.186
+=========================
+
+Fixes many issues with support of M2TS files.
+* Loading improved (any M2TS / EVOB should load now)
+* audio improved. Support added for TrueHD, PCM, DTS-HD (only the Core DTS is extracted for that one)
+* subtitles are yet to be supported.
+
+Fixes out of sync issues with Flash video (FLV). Flv comes often with a very bad timing and non standard framerates
+
+Improving Framerate detection on some MPEG/VOB/IFO sources
+Fixing some loading issues with AVI files
+
+- 0002705: [Bug] mpeg header problem? (wesson) - resolved.
+- 0002848: [Bug] "Continuable external exception 0xC0000094 [INTEGER DIVIDED BY ZERO]" error when loading some avi files (wesson) - resolved.
+- 0002854: [Bug] v180: Framerate VIDEO_TS.IFO (PAL) from compiled PhotoDVD project wrong detected. (wesson) - resolved.
+- 0000792: [Bug] Audio sync issue with .FLV file (wesson) - resolved.
+- 0002863: [Bug] 3.6.13.180 : Bad framerate detection on a specific FLV Files (wesson) - resolved.
+- 0002858: [Bug] When converting a 2 file cd (merged together) output size should be DVD5 instead it is creating a DVD9 output. (wesson) - resolved.
+- 0002861: [Bug] No Audio on converted video when the source is DTS 5.0 (wesson) - resolved.
+- 0002862: [Bug] iso output grayed out (wesson) - resolved.
+- 0002567: [Bug] [X] Burn results to dvd / ISO Image in working folder setting not kept (wesson) - resolved.
+
+include new burning SDK dll 3.2.6.409

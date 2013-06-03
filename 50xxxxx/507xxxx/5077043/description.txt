@@ -1,0 +1,27 @@
+├óΓé¼┬ó├óΓé¼┬ófile├óΓé¼┬óinfo├óΓé¼┬ó├óΓé¼┬ó
+
+Finished Time: 03.09.2009 00:58:12
+Deny IP Count: 3.042.223.486  (out of 4.294.967.296 IP's or 70,83229%)
+  Rules Added: 407.186
+        Bytes: 14.251.510
+
+├óΓé¼┬ó├óΓé¼┬óbasic├óΓé¼┬óinfo├óΓé¼┬ó├óΓé¼┬ó
+
+IPFilter.dat is a list of IP addresses generated with BlockListManager, which blocks P2P hostile IPs.
+
+if you are unfamiliar with ip filter auto updaters, you can simply use this single file to let utorrent block these IPs.
+
+├óΓé¼┬ó├óΓé¼┬óinstall├óΓé¼┬óinfo├óΓé¼┬ó├óΓé¼┬ó
+
+├é┬╗ViSTA;
+extract IPFilter.dat to
+C:\Users\USERNAME\AppData\Roaming\utorrent
+
+├é┬╗XP;
+extract IPFilter.dat to
+C:\Documents & Settings\USERNAME\Application Data\uTorrent
+
+
+├óΓé¼┬ó├óΓé¼┬óadditional├óΓé¼┬óinfo├óΓé¼┬ó├óΓé¼┬ó
+
+if you think you are somehow getting low download speeds, you can simply disable the filter by deleting the file or by going to advanced options menu and setting ipfilter.enable to false.

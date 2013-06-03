@@ -1,0 +1,24 @@
+With the uncertainty surrounding The Pirate Bay's future, we have felt it necessary to create a downloadable archive of all the torrents found on this site.  To explain:
+Yo dawg, I herd you like The Pirate Bay, so I put yo Pirate Bay in The Pirate Bay, so now yo can pirate the Pirate Bay, dawg.
+
+This bzip2 archive contains the first batch, that is all torrents in the four million range.  This means 539847 torrents, for an uncompressed total of 16GB.  
+
+If TPB's trackers go down, many of these torrents will need to be updated with new tracker information.  This is trivial using the proper libraries.  Or this script: http://publicbt.com/tracker_modify.html
+
+
+Want to help downloading The Pirate Bay?  We sure could use a hand.  Here's s simple bash script that will do the job for you.  To run it (*nix only, sorry), save the following text in a file called crawl, then do ./crawl HIGH_NUMBER LOW_NUMBER from a terminal.  The script counts down, so HIGH_NUMBER is where the downloader will start.
+
+#!/bin/sh
+START="$1"
+END="$2"
+i="$START"
+
+while [ $i -ge $END ]; do
+      wget http://torrents.thepiratebay.org/$i/$i.torrent
+      sleep 0.2
+      i=$[$i - 1];
+
+
+
+
+[Note: This download might initially take some time, I don't exactly have great upstream.  However I shall 'Initial Seed', so that for the first seed it should only take ~40 hours]

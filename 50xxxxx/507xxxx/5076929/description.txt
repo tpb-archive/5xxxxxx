@@ -1,0 +1,85 @@
+Description:
+The Best Blu-ray/DVD Player Software Today
+World-renowned PowerDVD 9 delivers outstanding Blu-ray and DVD movie playback quality on your PC.
+â€¢ new Unparalleled HD movie experience: The best video quality today with incomparable support for all HD video formats like AVCHD, AVCREC, MPEG-4 AVC (H.264), MPEG-2 HD and WMV-HD
+â€¢ new HDMI 1.3 Support: HDMI (High-Definition Multimedia Interface) simultaneously transfers 8 channels of audio over a single cable
+â€¢ new PC friendly: Play your HD movies on high or low spec CPUs
+â€¢ High-Def Home Theater Audio: Supports Dolby TrueHD and DTS-HD
+
+TrueTheater Technology for your DVDs
+Maximize the DVD experience with 2 new TrueTheater technologies:
+
+â€¢ new CyberLink TrueTheaterâ„¢ HD: Presents movies the way they were meant to be, in picture-perfect quality on your HDTV. Utilizing an advanced upscaling algorithm
+â€¢ new CyberLink TrueTheaterâ„¢ Motion: By utilizing a frame rate upconversion technology, TrueTheaterâ„¢ provides a smoother, judder-free playback
+â€¢ TrueTheaterâ„¢ Stretch, Lighting and Surround
+
+Smart Navigation
+Explore your favorite movies with cool and exciting smart features including two new innovations that make the PowerDVD playback software movie experience even more memorable â€” FancyView for animated browsing and the Cinema playback mode tailored for home theater environments
+
+â€¢ new FancyView navigates in an animated fashion: FancyView introduces an entirely unique perspective when you are browsing movie titles, chapters, and special features
+â€¢ new Cinema playback mode: Switch seamlessly between playback modes for larger displays, easier remote control operation, and enable Blu-ray playback in Microsoft Windows Media Center
+
+Features for Movie Fans
+If you love watching movies, then PowerDVD 9's Movie Collection feature is perfect for amassing tons of movie facts & figures, trivia, reviews & ratings, and lots more. Then, upload it to the world by sharing on MoovieLive, the global community where PowerDVD users reside
+
+â€¢ Movie Collection: Often imitated, never duplicated, start your own today and watch it thrive with the more movies watched
+â€¢ Remix Your Movies: Think you can do better than the major movie studio bigwigs? Jump right in with PowerDVD by creating your OWN movie remixes for explosive box office hits or all-time classics
+â€¢ MoovieLive Celluloid Community: PowerDVD users' favorite web site, instantly share your recommendations and thoughts after synchronizing your movie collection to your MoovieLive account
+
+
+Tweaked Preactivated Setup:
+Installs the Ultra Version - Pre-Activated with Advance Audio Pack
+
+The MoovieLive and Movie Remix features are disabled by default
+
+Doesn't install the Google Toolbar & Cyberlink's RichVideo Service
+
+Pre-registered Setup - No annoying Registration Reminder popups
+
+Sets the cursor hide time in Full Screen to 1 second (default= 3)
+Changelog Build 1719 (2009-05-22):
+
+â€¢ Windows 7 32-bit/64-bit compatibility support with High DPI solution
+â€¢ Vista 64-bit compatibility support
+â€¢ NVIDIA CUDA optimization for TrueTheater HD
+â€¢ Netbook/Nettop small display resolution support
+â€¢ Intel GMA500 (Menlow) platform support
+--------------------------------------------------------------------------------
+Note about virus warnings: If you get a trojan or virus warning then it's a false positive! - I've added nothing!!
+You get exactly the same warning when you download and install the trial version because it's the same setup.
+I only removed & modified some files to disable MoovieLive, MovieRemix + RichVideo & to make it pre-activated.
+
+Here's how to check the Digital Signatures:
+
+â€¢ Extract Setup.exe with 7-zip and open the directory where you extracted the files
+â€¢ Right click on any exe file, select properties and click on the Digital Signatures tab
+â€¢ Double click on the Signature and read the line below "Digital Signature Information"
+â€¢ If it says that the Digital Signature is OK, it means that the file isn't altered.
+â€¢ Click on the "View Certificate" button for more information
+--------------------------------------------------------------------------------
+Tweak Pack:
+
+Blu-Ray_Region_Reset.bat: Resets the Blu-Ray region settings (remaining changes)
+Enable/Disable_MoovieLive.bat: Enables/Disables MoovieLive and Movie Remix
+Enable/Disable_FullScreen.bat: Enables/Disables FullScreen launch of movies and DVDs
+Reset_HD_Dailog.bat: Resets the High-Definition Content dialog *
+Remove/Restore_StartupApps.bat: Removes/Restores the Startup Applications **
+Reset_Visualization.bat: Turns the Visualisation Off ***
+Enable/Disable_Visualization.bat: Enables/Disables the Visualisation plugin ****
+Enable/Disable_Toolbar.bat: Enables/Disables the PowerDVD Toolbar (Mini Player Mode)
+
+* This comes in handy if you selected "Don't ask me this question again" and want to re-enable or disable TrueTheater Lightning and Smart De-interlace when playing High-Definition content.
+
+** BDRegion, PDVD9LanguageShortcut and RemoteControl9 (Don't disable this one if you use a remote to controll PowerDVD)
+
+*** Run this one if you selected a visualisation that crashes PowerDVD
+
+**** Disable_Visualization.bat totally disables the Visualisation plugin, run this one if PowerDVD crashes when you play audio files or if you never use it.
+
+INSTALL
+
+1)Install: Just run Setup.exe and you are done, it's activated and registered!!
+2)For Skins and Tweak Pack: Read ADHDerbyPowerDVD9TweakPack.txt (follow it exactly).
+
+* Note to Vista & Windows 7 users: They removed the registration info from the registry, it doesn't register during the setup.
+Just enter a phony name + email address, register it and the register reminder won't popup anymore.

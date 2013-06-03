@@ -1,0 +1,45 @@
+User Type,Username,Date,Text
+,mizar,2009-07-16T21:52Z,"Naa ...
+Not the real one."
+,XecutionerZ,2009-07-16T21:53Z,"check out the build string...6.1.7600.16385.win7_rtm.090713-1255,
+
+its different from previous 7600 build, it ws 6.1.7600.16384
+according to wzor...this is most probably the final RTM version."
+,lastmaxi,2009-07-16T22:07Z,someone try??
+,byte1918,2009-07-16T22:41Z,according to http://www.gosugoon.com/ this is real.
+,richtig4,2009-07-16T23:07Z,"7600.17000
+fake/real?
+http://www.sevenforums.com/attachments/general-discussion/18507-7600-16385-win7_rtm-090713-1255-7600.17000.png"
+,GreenToken,2009-07-17T05:55Z,"Thanks svaike! This is the real deal here, installed in about 20mins, boots in about 30secs, window docking, aero shake, pinning to taskbar. Everything I've tried so far has worked well. Installed DirectXSDK no problem, even installed some unsigned drivers (after rebooting and hammering F8). Ran PCSX2 with XBCD drivers perfectly! Full scan with AVG says it's clean, spybot didn't find anything, seems legit.  Only thing is that this was not an ISO, had to wrestle around with making a bootable disk, other than that this is perfect! Great upload! Cheers and thanks again!"
+[T],whodathoughtit,2009-07-17T09:52Z,"What about activation anyone
+
+@GreenToken
+what did you use to make the disc bootable and does it work as upgrade.?"
+,GreenToken,2009-07-17T11:50Z,"@whodathoughtit
+I actually extracted the bootimage.ima from the 7600.16384 release, but I think I could've just used the bootfix.bin inside the boot folder included with this release. This was the first bootable disk I had to make lol. I fired up Imgburn, got confused, saw the ""extract boot image"" at the bottom and just went with it! But it ended up working so if you need the file I used just let me know and I'll upload it.
+
+PS
+is it just me or is the piratebay database doing ""something bad"" quite often"
+,GreenToken,2009-07-17T11:59Z,"Oh and it seems like you can upgrade with this release, but I did a clean install so I'm not sure how well that works"
+,1x3,2009-07-17T19:54Z,This shit is not bootable fucking idiots.
+,GreenToken,2009-07-17T21:17Z,"You gotta burn it as a bootable disk, if it's too much for you then just wait for another release. Working perfect for me, even running Firefox, Daemon Tools (install SPTD driver separately), KMPlayer, PCSX2 (DX11!), ArmA 2, Juice, ReadyDriver Plus (to disable driver signing), and XBCD drivers for my good old Xbox Controller type S! The only thing is, if there's no activator it isn't going to last until Oct.22, only 29 more days left..."
+,GreenToken,2009-07-17T23:16Z,"Here's a screenshot
+http://funkyimg.com/u2/992/484/GreenToken.jpg"
+,GreenToken,2009-07-17T23:17Z,[URL=http://funkyimg.com][IMG]http://funkyimg.com/u2/992/484/GreenToken.jpg[/IMG][/URL]
+,GreenToken,2009-07-17T23:19Z,Nevermind funkyimg won't hotlink
+,alex2010,2009-07-18T08:56Z,"IS NOT RTM 
+
+FUCK YOU M$
+
+http://windowsteamblog.com/blogs/windows7/archive/2009/07/13/update-on-windows-7-rtm.aspx"
+,RedSaint,2009-07-18T11:56Z,"You can make this bootable by using OSCDIMG. I made this bootable by using the following command, replacing of course the paths with ones fitting my own computer:
+
+oscdimg -n -m -bc:\efi-dvd\boot\etfsboot.com c:\efi-dvd c:\efi-iso\server2008dvd.iso
+
+The article about it can be found here:
+http://blog.aproductofsociety.org/?p=13
+
+I got it to boot inside Virtual PC 2007, but as that piece of software doesn't support 64-bit emulation, I only got the message that it had encountered a problem loading. But it did load instead of giving me a ""Code 5"" or some other BS."
+,edwinlbm,2009-07-18T19:21Z,"CadĂŞ o serial ?????????
+Where are  the key this build 7600???????????
+Sende-me !!! "

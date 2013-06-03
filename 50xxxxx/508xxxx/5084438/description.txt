@@ -1,0 +1,26 @@
+ http://www.koma-code.de/index.php?option=com_content&task=view&id=88&Itemid=93
+
+(Software can be downloaded from above link as well)
+
+CPU-Control handles the CPU-affinity for multicore-systems (supports quadcores as well). Instead of running each process on both CPUs you can define it as you want it. For example, if you want to separate the firewall and the anti-virus-software from the graphics-application. 
+
+CPU-Control offers five different ways to control the CPU-affinity:
+
+Automatic: It chooses alternatingly one CPU for each new process
+
+Manual: You define a list, where you can set the way to handle each process
+
+    (All processes run on CPU 1, which is useful for old applications which crash on a dual core system)
+
+or
+     (All processes run on CPU 2)
+_______________________________________________________________________
+
+NOTE:
+I have tested this on my quad AMD Phenom 9950 with XP Pro 32bit and it works very well.  I have not tested with XP64 or Vista but I would imagine the results would be the same.
+
+It can be a little confusing when you first set it up, but once you understand the layout, it is very user friendly and extremely easy to make affinity changes on the fly as well as save your preferences.
+
+A wonderful no bells & whistles utility for any dual/quad owner who wishes to have control over his/her multitasking abilities!
+
+Many thanks to Koma-code!

@@ -1,0 +1,64 @@
+
+Super Flexible File Synchronizer Features
+
+Here's a list of some of the basic capabilities of Super Flexible File Synchronizer. To get a full impression of the available features, it is recommended to download and try the software and take a direct look at the available options.
+
+This is one of the most comprehensive file synchronization tools available. Be sure to read this independent and very helpful review by Alex Forbes.
+
+    *
+
+      Synchronizes or Backs Up Files and complete folder structures in different locations, such as a PC, laptop, or online storage. There are no limits in terms of file sizes, the number of files, or filename lengths. The program fully supports Unicode characters so that it can copy filenames in all languages.
+    *
+
+      Each sync job is saved as a profile so that you only need to specify the settings once. You can run multiple profiles with a single click. You can also run profiles from the command line. Profiles can be created using a wizard, or in advanced mode.
+    *
+
+      Includes a scheduler. Schedule the synchronization of your data on a backup hard disk at a convenient time each day, or as frequently as you wish. You can also schedule profiles to run upon shutdown or log-off. On Windows NT/2000 or higher, the scheduler can run as a service - without users having to log on.
+    *
+
+      Internet Support. Supports various Internet protocols, including FTP, FTPS, SFTP/SSH, WebDAV, SSL, HTTP, and Amazon S3 web storage.
+    *
+
+      Compression and Encryption Support. Easily zip your files and encrypt them with strong 256-bit encryption. To unzip and decrypt, simply make a copy of your profile and copy in the opposite direction.
+    *
+
+      Detects Moved Files. If you reorganized your folders by moving files to different locations, Super Flexible File Synchronizer will detect this and quickly perform the same moves, for example, on your laptop. No extraneous copying!
+    *
+
+      SmartTracking. This feature keeps a database of all files so that it can detect file deletions and conflicts. You will find the SmartTracking checkbox on the Modes tab sheet (in Advanced Mode). A separate dialog will appear with related settings.
+    *
+
+      Unattended Mode In this mode, no questions are asked while the profile is run. You can specify beforehand which kinds of files may be overwritten.
+    *
+
+      Exact Mirror Mode. If desired, you can create an exact mirror of your data, even if this means that some files are deleted or replaced with older files.
+    *
+
+      Copy Locked Files. If some files cannot be copied due to other software accessing these files, Volume Shadowing can be used on Windows XP or later to copy the files. If files can't be copied, the synchronizer will continue copying the remaining files, and then retry all those files that were locked, until all files have been copied successfully. A limit for the time spent on retries can be specified.
+    *
+
+      Versioning: this feature enables you to keep multiple older versions of each file in the backup. There are several naming schemes available. See also Versioning / Filename Mangling.
+    *
+
+      Partial File Updating (or delta copying): this feature copies only the changed portions of files in order to speed up the synchronization. See the Partial File Updating documentation
+    *
+
+      Database-safe mode: This mode requires exclusive access to the files to be copied. If exclusive access is not possible, Volume Shadowing is used, or the program will wait until the exclusive access becomes possible.
+    *
+
+      Can Use Recycle Bin for older versions of files that are overwritten, as well as for deleted files. This is a fairly unique feature because most programs will permanently replace older versions of a file. Using Super Flexible File Synchronizer, you will have a chance of retrieving overwritten files if you select the appropriate options.
+    *
+
+      File Masks & Filters. Numerous ways to select/deselect files and folders are available.
+    *
+
+      Daylight Savings Time / Time Zones. Since exact hour time differences can be ignored if the file size matches, you won't have any more problems if the file systems of two computers are off by one hour, or even several hours. Whenever possible, UTC (world time) is used to compare the timestamps of files.
+    *
+
+      Easy Resuming On Disk Full. You simply make more space and ask the software to continue copying. It can pause right in the middle of a file until additional space is freed.
+    *
+
+      Obsolete File Folders. If you occasionally move obsolete files to a specially designated folder, this usually causes trouble with traditional file synchronizers. They will copy the obsolete files back from your laptop right into the folders where you moved them out of. No longer! If you use the Select Folders and Files option, you can specify folders for obsolete files using the right mouse button. These folders are then taken into account for moving files into them, but not for copying files out. Thus, the synchronizer does the same moving of obsolete files on your laptop that you  previously did on the PC, but it does not waste any time copying all obsolete files  between the two machines.
+
+
+win/all

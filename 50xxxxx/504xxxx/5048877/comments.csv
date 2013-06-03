@@ -1,0 +1,26 @@
+User Type,Username,Date,Text
+,pandong12,2009-08-12T03:08Z,"i finished downloading this but it gives me a .FILE extensions instead of zip file. 
+
+these are the names that i got here:
+
+mintywhite-1003-fonts-megapack.zip.001
+Type: 001 FILE
+Size: 20 MB
+mintywhite-1003-fonts-megapack.zip.002
+Type: 002 FILE
+Size: 20MB
+mintywhite-1003-fonts-megapack.zip.003
+Type: 003 FILE
+Size 20MB
+mintywhite-1003-fonts-megapack.zip.004
+Type: 004 FILE
+Size 19.3 MB
+
+All 4 are in .FILE extensions. How can i open and use this?  
+
+anyone know how??"
+,mlc666,2009-08-14T18:46Z,use 7zip or winrar to extract them
+,twoedge,2009-08-22T04:40Z,or just rename the end .001.zip
+,BlowBye,2009-09-24T14:51Z,"Thanks for the effort but this does not work. WinRAR can open the files, the contents is viewable but nothing can be extracted."
+,Tusker,2009-10-05T04:00Z,You need a program called HJ Split or Jaxe either is free.  Just Google them they have been around for years.  They will handle any file that ends with .001 etc.
+,Tusker,2009-10-05T04:03Z,From the file ending xx.zip.001 you will need to run HJ Split which should join the four files into a zip file to unzip.

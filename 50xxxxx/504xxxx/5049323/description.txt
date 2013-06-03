@@ -1,0 +1,39 @@
+Step 1.  Get your IP address
+
+Click the start menu on your computer and select run. in the search box type cmd and hit enter. A black box will appear, in that black box type ipconfig and hit enter. you should now see your ip address, it is not the default gateway address nor is it the one that probably reads something like 255.255.255.25......... it will probably read 198.62.0.2 or something similar. write down your ip for later use.
+
+Step 2. Set up yor PC to redirect Home
+
+Now install Apache Server using basic settings, once installed copy files located in Apache File â€œhttpd.confâ€ â€œmime.typesâ€ to C:/Program Files/Apache Software Foundation/Apache2.2/conf and yes when prompted overwrite Files.
+
+Then copy HUBPS3_SVML to C:/Program Files/Apache Software Foundation/Apache2.2/htdocs.
+
+You must edit all the files in the HUBPS3_SVML folder with notepad. To do so, right click and select "open with", if notepad isn't in the "open with" option or the "open with" option isn't there, click open and it will ask you what program do you wanna use, just select notepad then.
+
+In the files names and/or within the file itself you will see either ___IP_GOES_HERE___ and/or ___P_S_N_ID__.
+
+Change anything that reads __IP_GOES_HERE__ with your IP address from step 1.
+Change anything that reads ___P_S_N_ID___with your playstation id.
+
+Now install Simple DNS, and copy the file in the folder named "patch" to C:Program FilesSimple DNS Plus
+
+(This is the default location of the install) Overwrite the files with
+the new ones.
+
+run Simple DNS and select records then select quick.
+
+Zone Name is homeps3.svo.online.scee.com
+Web Sever is The IP of your PC
+
+
+Step 3. Setup your PS3 to run through your computer
+
+Now go to network settings on your ps3 and change the internet connection settings. Select custom then wired connection. now set all Settings to Default until you come to DNS Settings. Under Primary DNS, type the IP of your PC. Under Secondary DNS, type 1.1.1.1
+
+MAKE SURE YOU FIREWALL IS DISABLED ON YOUR PC
+
+Now login to home and go to the EA sports poker room. Upon entry you will be awarded the poker bracelets, this will lock the items to your account. Once you get the "item won" prompt, log off of home and delete the zone created in Simple DNS.
+
+You should now have the Items locked onto your account.
+
+WARNING: YOU WILL LOSE MOST FREE ITEMS EARNED IN HOME MINIGAMES!! ALSO THIS HACK DOES NOT WORK FOR ACCOUNTS THAT HAVE A CLUBHOUSE!

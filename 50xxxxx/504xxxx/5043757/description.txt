@@ -1,0 +1,20 @@
+
+
+
+
+
+
+As with ZoneAlarm 2009, the main window has two great big panels showing the status of firewall security and antivirus/antispyware security. This new product adds another panel for browser security (which, in this case, means ForceField). If there's a problem with the product's configuration in any of the three main security areas, the panel turns red and offers a "Fix it" button to set things right. It also adds buttons for the backup and tune-up components in the Additional Services panel. ZoneAlarm 2009 users will find it looks very familiar.
+
+ForceField's Protective Bubble
+Buzz up!on Yahoo!
+
+ForceField puts the "extreme" in ZoneAlarm Extreme Security. It starts by establishing a bubble of protection around your browsing activities in Internet Explorer or Firefox. A visible halo surrounding the browser window provides visual confirmation of its protection. With ForceField active, any browser-initiated changes to the file system or Registry are virtualized so they have no permanent effect. If a drive-by download or other browser-based malware gets past the many other layers of protection in ZoneAlarm Extreme, you can wipe out its changes by clearing ForceField's virtual data. Poof!
+
+ForceField doesn't virtualize downloads you initiate yourself. If it did, clearing the virtual data might discard valuable programs. However, it does take over the download process. On completion, it reports either the publisher's name from the file's digital signature or that the file is unsigned (and hence less trustworthy). The standalone version of ForceField also checks the file's signature against Check Point's SmartDefense Advisor database, but the suite's built-in anti-malware makes that check unnecessary.
+
+I found it interesting that I had to turn off virtualization to run my performance testing routines. The browser performance test uses a script that launches Internet Explorer, directs it to load a specific URL, and measures how long until that URL loads completely. Virtualization blocked the script from pushing that URL into the browser. That certainly shows it's working!
+
+You can kick protection up a notch by clicking the Private Browser button in ForceField's toolbar. Doing so opens a new instance of your browser with a banner saying "Nothing from this session recorded." Sites you visit aren't added to history, cookies aren't saved, nothing stays in the cache, data entered in Web forms isn't retained. When you close the private browser window, all traces of your surfing vanish.
+
+Enjoy

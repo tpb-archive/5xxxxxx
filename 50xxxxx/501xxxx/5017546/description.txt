@@ -1,0 +1,297 @@
+Copied from CPU-Z Homepage:
+
+
+CPU-Z is a freeware that gathers information on some of the main devices of your system. 
+
+
+CPU
+
+
+Name and number.
+
+Core stepping and process.
+
+Package.
+
+Core voltage.
+
+Internal and external clocks, clock multiplier.
+
+Supported instructions sets.
+
+Cache information.
+
+
+Mainboard
+
+
+Vendor, model and revision.
+
+BIOS model and date.
+
+Chipset (northbridge and southbridge) and sensor.
+
+Graphic interface.
+
+
+Memory
+
+
+Frequency and timings.
+
+Module(s) specification using SPD (Serial Presence Detect) : vendor, serial number, timings table.
+
+
+System
+
+
+Windows and DirectX version.
+
+
+
+
+Install and Remove
+
+Since version 1.51, CPU-Z includes an installer.
+The installation offers several advantages in comparison to the stand-alone version:
+The installation creates program entries in the start menu and on the desktop.
+
+The kernel mode driver used by CPU-Z is installed on the system, that avoids to install / remove it at every run. That makes the process more stable, slightly faster, and also allows to run CPU-Z without the administrator rights (please note that the installation requires administrator privileges however).
+
+Installation
+
+Run the setup executable file, and let it guide you for the installation process. The setup installs a service, that is started the first time that you run CPU-Z. After that first run, you can run CPU-Z from any account, even without administrator privileges.
+
+Removal
+
+You can remove the program either from the Add or Remove Programs window (from Settings, Control Panel), or choose Uninstall CPU-Z from Start menu, Programs, CPUID, CPU-Z.
+
+
+Supported Hardware
+
+
+Processors
+
+IntelÂ® Pentiumâ„¢
+Pentiumâ„¢ MMX
+Pentiumâ„¢ Pro
+Pentiumâ„¢ II
+Pentiumâ„¢ !!!
+Pentiumâ„¢ !!!-M
+Pentiumâ„¢ 4
+Pentiumâ„¢ 4-M
+Pentiumâ„¢ M
+Pentiumâ„¢ D
+Pentiumâ„¢ XE
+Pentiumâ„¢ Dual Core
+Coreâ„¢ Solo
+Coreâ„¢ Duo
+Coreâ„¢ 2 Duo
+Coreâ„¢ 2 Quad
+Coreâ„¢ 2 Extreme
+Celeronâ„¢ (P2/P3/P4/PM/CL) and Xeonâ„¢ (P2/P3/P4/C2D/C2Q)
+Coreâ„¢ i3
+Coreâ„¢ i5
+Coreâ„¢ i7
+Coreâ„¢ i7 Extreme
+Itaniumâ„¢
+Itaniumâ„¢ 2 ;
+
+AMDÂ® Am5x86
+K5â„¢
+Geode LX
+K6â„¢
+K6â„¢-2
+K6â„¢-III
+K6â„¢-2+
+K6â„¢-III+
+Athlonâ„¢ (4, XP, MP)
+Duronâ„¢
+Sempronâ„¢ (K7/K8)
+Athlonâ„¢ 64
+Athlonâ„¢ 64 X2
+Turionâ„¢
+Opteronâ„¢
+Athlonâ„¢ FX
+Phenomâ„¢
+Phenomâ„¢ II
+
+VIAÂ® C3â„¢ (Samuel, Samuel2, Ezra, Ezra-T, Nehemiah)
+C7â„¢
+C7â„¢-M
+Nano (Isaiah)
+
+TransmetaÂ® Crusoeâ„¢ TM3200
+TM5400
+TM5500
+TM5600
+TM5800
+
+
+Chipsets
+
+IntelÂ®
+i430TX
+i440LX
+i440FX
+i440BX/ZX
+i810/E
+i815/E/EP/EM
+i840
+i845
+i845E
+i845G
+i850/E
+i845PE/GE
+E7205
+E7500
+E7520
+i852
+i855
+i865P/PE/G
+i875P
+i915P/G
+i915PM/GM
+i925X/XE
+i945P/PL/G/GZ
+i945PM/GM/GT
+i955X/XE
+P965
+Q965
+G965
+GL960/GM965/PM965
+i975X
+5000X/P/Z
+5400A/B
+P35
+G33
+G31
+Q35
+Q33
+X38
+Q45
+X48
+P45
+X58
+P55
+
+VIAÂ®
+Apollo VP3
+Apollo Pro
+Apollo Pro +
+Apollo Pro 266
+KX133
+KT133(A)
+KT266(A)
+KT400(A)
+KT600
+P4X266(A)
+PT880
+PT880 Pro
+K8T800
+K8T890
+K8T900
+P4M800CE
+P4M890
+P4M900
+CX700/VX700
+
+NVIDIAÂ®
+nForce
+nForce2
+nForce3
+nForce4
+nForce4 SLI Intel Edition
+GeForce 6100/6150 (nForce 410/430)
+nForce 520/550/560/570/590
+GeForce 7050/7100/7150
+650i
+680i
+740i
+750a/780a
+750i
+770i
+780i
+790i
+MCP79/7A
+ION
+
+ATiÂ®
+RS350
+RS400
+RS480/RX480
+RS482
+RD580/RX580
+RS600/RD600
+RS690
+RS700
+RD790
+
+SiSÂ®
+645
+645DX
+648
+648FX
+649
+655FX
+655TX
+656
+662
+735
+756
+761GX
+760
+760GX
+755
+755FX
+741
+741GX
+671/FX/DX/MX
+
+AMDÂ®
+AM-751
+AM-761
+AM-762 (760MP)
+780G
+790GX
+
+
+Memory
+
+SDR
+DDR
+DDR2
+FB-DDR2
+DDR3
+RDRAM (RambusÂ®)
+EPP and XMP extended profiles
+
+
+ED2K Link:
+ed2k://|file|cpuz64_152.zip|817433|A14E72BB6C78AD67B74B0CD24A1CECD6|h=J75KYIILJI2TUA7MQAXOBWUZH7QUWOIT|/
+
+
+Changelog:
+
+
+New design with "Graphics" tab.
+
+New 64-bit version.
+
+NVIDIA nForce 980a chipset support.
+
+Intel Core i5 and Core i3 processors.
+
+Intel Atom Z530, Pentium DC E6300 (2.8GHz) and Core 2 Solo processors.
+
+Intel P55 and US15W chipsets preliminary support.
+
+AMD Phenom TWKR support.
+
+AMD Phenom X2 "Callisto" and Athlon X2 "Regor" processors.
+
+AMD Opteron 6-core "Istanbul" processor.
+
+Improved support for Windows 7.
+
+New Intel logos.

@@ -1,0 +1,86 @@
+* XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC
+----------------------------------------------------------------------------
+
+This is a complete snapshot of what was in SVN Trunk at the time
+the build was compiled, with just a few small additions:
+
+	+ Killarny & Nuka1195 & Pike's Apple Movie Trailers (AMT) SVN pre-0.99.7.1 rev2372 [scripts/Apple Movie Trailers]
+	+ Nuka1195's Apple Movie Trailers II Plugin 1.4.1 [plugins/video/Apple Movie Trailers II]
+	+ Team XBMC Lyrics 1.6.0 rev2346 SCRIPT [scripts/XBMC Lyrics]
+	+ Asteron's Tetris 1.1 SCRIPT [scripts/Tetris]
+	+ BigBellyBilly's T3CH Upgrader 1.8 SCRIPT [scripts/T3CH Upgrader]
+	+ Nuka1195's SVN Repo Installer 1.1 PLUGIN [plugins/programs/]
+	+ Codecs for mplayer [/system/players/mplayer/codecs/*]
+
+If you want to report bugs, please do it the PROPER way, see http://xbmc.org/wiki/?title=HOW-TO_Submit_a_Proper_Bug_Report
+----------------------------------------------------------------------------
+* T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH * XBMC * T3CH
+
+
+_MESSAGE FROM T3CH__________________________________________________________
+
+
+_NOTEWORTHY SVN CHANGES SINCE LAST T3CH (according to T3CH)_________________
+
+_INFORMATION________________________________________________________________
+	XBMC's online manual can be found at http://xbmc.org/wiki
+	Any questions or support issues, are best asked in the XBMC support forums, which are located at http://xbmc.org/forum or in the official IRC support channel, #XBMC on Freenode IRC network (irc.freenode.net).
+	My builds can be downloaded freely from http://t3ch.yi.se no login etc. required :)
+
+	If you want other scripts (extra 3rd party components), see
+	o http://www.xbmcscripts.com
+
+	If you want trainers, grab them at
+	o http://www.google.com/search?q=xbox+trainers
+
+	The xbe has been retail patched and was built using v5933 of the XDK.
+
+	If you want to remove the startup logo, remove >>splash.png<< from the >>/media/<< folder.
+	If you want to remove the startup sound, remove >>start.wav<< from the >>/skin/Project Mayhem III/sounds/<< folder.
+
+	XBMC Changelog is included, see Changelog.txt
+
+
+_APPLICATION INSTALL________________________________________________________
+	Fresh Install: Transfer >>whole<< XBMC folder to your APPS folder (or where you want it).
+
+	Upgrade: Backup the >>XBMC/UserData<< folder. Transfer >>whole<< XBMC folder to Xbox. Overwrite >>UserData<< folder with your backed up copy.
+
+
+_DASHBOARD INSTALL (SOFTMODS)_______________________________________________
+	ARE NOT COVERED IN THIS README, SEE http://forums.xbox-scene.com/index.php?showtopic=406656
+
+
+_DASHBOARD INSTALL__________________________________________________________
+	Option 1. Team XBMC's shortcut tool. 
+	It's included in the _tools folder as >>SHORTCUT by TEAM XBMC.xbe<< + >>SHORTCUT by TEAM XBMC.cfg<<.
+	Instructions here: http://xbmc.org/wiki/?title=As_a_Dashboard (Option 1).
+	Rename the >>SHORTCUT by TEAM XBMC.xbe<<+.cfg & also EDIT the .cfg so it matches your config. 
+	See APPLICATION INSTALL above.
+
+	Option 2. Thanks to an app called >>Team UIX's Xbe Shortcut Maker v1.0<< by JbOnE, it's now easy...
+	Transfer contents of XBMC folder (this is >>VERY<< important since the tool is hardcoded) TO >>/E:/APPS/XBMC/<<. 
+	Rename >>SHORTCUT by TEAM UIX.xbe<< to something your bios can boot (see http://xbmc.org/wiki/?title=As_a_Dashboard or read your BIOS README) and transfer to location your mod solution boots. No need to fiddle with HOME tag anymore, and future upgrades you need not to worry about this file (unless you move XBMC).
+
+
+_AN INTRODUCTION TO PLUGINS_________________________________________________
+	XBMC has a system for Media plugins to allow browsing of remote content (Internet) using the regular filesystem approach.
+	Plugins are put inside >>XBMC/plugins/<video/music/pictures>/<< (I already do this for the one/s I include),
+	furthermore they also need to be installed as a source in (video/music/pictures).
+	You do this install by using the contextmenu choice >>Add New Source<< while in ROOT list and then choosing ***Plugins as source.
+	Then you highlight (not select) the folder of the plugin you want to install. It will be saved inside sources.xml for future.
+
+
+_UPGRADE TIPS_______________________________________________________________
+	If you're updating from a VERY old/bad build you may get issues. Follow these simple rules:
+	o Replace (FTP OVERWRITE) all files in your XBMC folder with fresh ones from your new build (sometimes you need to delete old files)
+	o Delete old settings (from >>UserData/guisettings.xml<<)
+	o In some rare cases some of the database files in >>/UserData/Database/*.db<< may need manual deletion (usually if they are very old). Note: This loses all per file settings you made with the old build!
+
+
+_TWEAKS BY T3CH_____________________________________________________________
+	I'm including a prepared >>favourites.xml<< that has all my included scripts. Don't handedit this file, use GUI to add/move/remove items.
+
+
+_LAST WORDS_________________________________________________________________
+	Who is T3CH? - Revealed on a -need to know basis-

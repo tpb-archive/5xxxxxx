@@ -1,0 +1,229 @@
+
+ ________________________________________________________________________
+
+ eXPerience Presents... 
+
+ Windows Tiny7 Unattended Activated CD (x86)
+ ________________________________________________________________________
+
+ Thank you for trying the very first edition of Windows Tiny7
+
+ Based on: Windows 7 Ultimate x86 build 6.1.7600.16385 RTM
+
+ To install Windows Tiny7 from this CD, set your PC 
+ up so it will boot from the CD-ROM in the PC's BIOS.
+
+ There is no upgrade option available in Tiny7,  because the option
+ is removed.
+
+ Only install Tiny7 onto a freshly formatted partition or hard disk.
+
+ You do not need any product key in this release - the installation
+ of Tiny7 is unattended, apart from in the very beginning where you
+ choose which drive or partition to install to.
+
+ All installations are set to US English. If you do not want the US
+ keyboard settings, you will have to change this in Windows when it
+ has installed (as opposed to choosing it at install time), its easy
+ enough, just open the "Keyboard Settings" folder in the desktop
+ eXPerience folder and read the included ReadMe.txt that is there.
+
+ ________________________________________________________________________
+
+ Statistics:
+
+ - ISO File Size.............................. 699 Mb
+ - RAM Usage On First Installation............ 145 Mb (idle for 5 mins)
+ - Entire Installation Size................... 2.46 Gb
+ - WINDOWS Folder Size........................ 2.40 Gb
+ - Running Processes, total................... 24
+ - Running Processes, Windows................. 22
+ - Install Time In VMware..................... 10 to 15 minutes*
+
+ *The operating system takes 10 minutes to get to first logon, but on
+ first logon the activation process takes a few minutes and in total
+ it all adds up to about 15 minutes. 
+
+ ________________________________________________________________________
+
+ General Windows components that are kept:
+
+ This installation still includes, but is not limited to:
+
+ - Aero Theme
+ - Fax Support
+ - Internet Explorer 8
+ - Modem Support
+ - Most Languages (only Chinese, Japanese and Korean are removed)
+ - Printer Support
+ - Smart Card Support
+ - Windows Sounds
+ - Windows Update
+
+ (See the complete list below of what is kept in vLite)
+
+ ________________________________________________________________________
+
+ Included Features:
+
+ - eXPerience Desktop folder with vital essentials 
+ - eXPerience Wallpaper
+ - Quick Launch enabler on desktop (Thanks to ntoskrnl)
+ - Dozens of tweaks to improve Windows
+ - Watermark "Test Mode" removed
+ - Windows is activated offline (Thanks to Hazar)
+  
+ ________________________________________________________________________
+
+ Installed programs:
+
+ - DirectX 9c DLL Files (some standalone/ripped games might need these)
+ - Everything Search v1.2.1.371 (find files and folders without waiting)
+ - Flash v10.0.22.87 for IE (player forand Google Video etc)
+ - Foxit PDF Reader Pro v3.0.1301 (open PDF files from the web in IE)
+ - HashTab v2.1.1 (adds a tab on file properties to see file checksum)
+ - WinRAR v3.80 (compression tool to handle various archive formats)
+
+ ________________________________________________________________________
+
+ Desktop eXPerience Folder
+
+ Most of these folders contain quick solutions to things that otherwise
+ would be buried away in the Windows GUI, or you would have to know the
+ command to run the item, like "control userpasswords2" will open the
+ screen to change your Windows 7 login password, or "intl.cpl" runs the
+ "Regional and Language Options" from Control Panel.
+
+ [eXPerience folder contents]
+ - Comodo Firewall - Download link to Comodo Firewall. 
+ - Desktop Icon Layout - Allows you to save your desktop icon setup.
+ - Hibernation - Turns Hibernation on/off with one double click. 
+ - Keyboard Settings - Quick way to open "Regional and language Options"
+ - Registry Backup - Easily backup your registry in one double click.
+ - TCPIP Patcher - Patch your tcpip.sys to allow 255 connections, not 10.
+ - User Password - Easily change your password for Windows.
+
+ [+ Links to useful items in Windows]
+ - Add Remove Programs
+ - Disk Management (diskmgmt.msc)
+ - Event Viewer (eventvwr.exe)
+ - Group Policy (gpedit.msc)
+
+ ________________________________________________________________________
+
+ Quick Launch Enabler
+
+ On the desktop is a tool that can enable Quick Launch in just one
+ click. You should run this ONCE only, if you want Quick Launch
+ like on XP/Vista.
+
+ If the program doesn't make Quick Launch the first time, just remove
+ the Quick Launch toolbar and run the enabler again.
+
+ Program created by ntoskrnl.
+
+ ________________________________________________________________________
+
+ On the right click of "Computer" you have the following added:
+
+ - Advanced System Properties
+ - Device Manager
+ - Edit Registry
+ - MSCONFIG
+ - Services
+
+ ________________________________________________________________________
+
+ THE FOLLOWING COMPONENTS HAVE BEEN KEPT IN vLite:
+
+ KEPT - [Accessories]
+ Character Map, Disk Cleanup, Game Explorer, Notepad, Paint, Snipping
+ Tool, System Information, Welcome Center, Wordpad.
+
+ KEPT - [Drivers]
+ Generic printer, QLogic Fibre Channel Adapter, Storage controllers.
+
+ KEPT - [Hardware Support] (everything is kept)
+ Dynamic Volume Manager, Fax Support, Firewire (1394), Floppy Disk
+ Support, Infrared Support, Internet Small Computer System Interface,
+ Microsoft Multi-Path Bus, Modem Support, Printer Support, Smartcards,
+ TV Tuner support, Windows HotStart, Windows Image Acquisition, Windows
+ Portable Devices, WLAN Support, XBOX 360 Controller.
+
+ KEPT - [Languages]
+ Arabic, Brazillian, Bulgarian, Croatian, Czech, Danish, Dutch,
+ Estonian, Finnish, French, German, Greek, Hebrew, Hungarian,
+ Italian, Latvian, Lithuanian, Norwegian, Polish, Portuguese,
+ Romanian, Russian, Serbian, Slovak, Slovenian, Spanish,
+ Swedish, Thai, Turkish, Ukrainian.
+
+ KEPT - [Multimedia]
+ Intel Indeo, Media Metadata Handler, Photo Metadata Handler, Shell
+ event sounds, Wallpapers, Windows Aero Theme.
+
+ KEPT - [Network]
+ Distributed File System, File and printer sharing (Server), Internet
+ Explorer, Link-Layer Topology Discovery, Network and Sharing Center,
+ Network Explorer, Quality of Service, RIP Listener, Windows Firewall.
+
+ KEPT - [Services]
+ Application Experience, Background Intelligent Transfer Service,
+ Computer Browser, Desktop Window Manager, DHCP,  Distributed Link
+ Tracking Client, Distributed Transaction Coordinator, DNS Client,
+ Extensible Authentication Protocol, Interactive Services Detection,
+ Internet Connection Sharing, IP Helper, IPsec Policy Agent,
+ Multimedia Class Scheduler, Network Access Protection Agent, Network
+ List Service, Network Location Awareness, Protected Storage, Quality
+ Windows Audio Video Experience, Remote Access Auto Connection Manager,
+ Remote Access Connection Manager, Secondary Logon, Secure Socket
+ Tunneling Protocol, SSDP Discovery, SuperFetch, Task Scheduler,
+ TCP/IP NetBios Helper, Telephony, TPM Base Services, Universal Plug
+ and Play, User-mode Driver Framework, Volume Shadow Copy, WebDAV
+ (WebClient), Windows Color System (WCS/ICM), Windows Connect Now,
+ Windows Event Log, Windows Remote Management, Windows Time,
+ Windows Update.
+
+ KEPT - [System]
+ 16-bit Support, Beep, Component Cache, Disk Quota, Jet Database Engine,
+ MDAC, Microsoft Client For NFS, Microsoft HTML engine, Run a legacy
+ CPL elevated, Subsystem for UNIX-based Applications (SUA), User Account
+ Control (UAC), Windows Picture and Fax Viewer (Shimgvw), Zip Folder.
+
+ ________________________________________________________________________
+
+ Special note from eXPerience:
+ 
+ I have used this modded OS for a few days and it seems every bit as fast
+ as Windows XP. If you have always wanted to use Vista, but were holding
+ out for Windows 7 - its worth it! This slimmed edition boots up fast,
+ shuts down fast, opens applications fast, even VMware v5.5 runs fast
+ on it once its started up. File copying seems no slower than XP. All
+ in all this new Windows really blows away XP because of all the new
+ features. You have to remember XP is from 2001 when no one even had
+ such a thing as "Wireless" or a SATA drive. Now all this new hardware
+ runs on Windows XP but the OS was never designed to run it really.
+ You might wonder why not just use Vista - don't even go there. Lets
+ just pretend Vista never existed. In fact Microsoft should have not
+ ever released it but I guess they had to in order to improve on it
+ and eventually get it right - with Windows 7.
+
+ ________________________________________________________________________
+
+ ISO File MD5 Hash:
+
+ 1F81758BE8A07148332902C16B38F3EB
+
+ ________________________________________________________________________
+
+ Don't forget To Join The Forum @ SnipeR's Redemption Network:
+  http://forum.retestrak.nl/
+
+ Enjoy this fine release from eXPerience 
+
+ Build Date: 3rd August 2009
+
+ Release Date : Summer 2009
+
+ ________________________________________________________________________
+
+

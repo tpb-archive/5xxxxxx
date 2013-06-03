@@ -1,0 +1,68 @@
+This is a re-upload of a video I previously posted last month.
+I've included some extra applications you can try, plus the necessary files needed to play the new Wii Sports Resort.
+
+The installation instructions are as follows...
+
+README FIRST.txt
+----------------
+Follow the video instructions to install 'The Homebrew Channel' and 'USB Backup Loader'.  Once installed you can install the extra applications by following the instructions below...
+
+
+STEP 1 
+------
+
+Copy the contents of the 'SD_CARD2' folder to your SD card which you should have already done when you installed 'The Homebrew Channel' then insert it in to your Wii.
+
+
+STEP 2
+------
+
+Run 'The Homebrew Channel' then run 'WAD Manager' then install 'USB Loader GX-ULNR-r516.wad' by pressing '+' on the Wiimote.
+
+This will install the 'USB Loader GX' on the Channel Menu.
+
+There are also other USB Loaders in the apps folder which you can try.
+
+I've also included 'WBFS Manager' PC application which is used to transfer ISOs to your USB external device.
+
+'NeoGammer' is also included which is used to play the new 'Wii Sports Resort' game.  Simply follow the instructions which can be found in the 'Wii Sports Resort Instructions.txt' file.
+
+--------------------------------------------------------------------------------
+
+Wii Sports Resort Instructions.txt
+----------------------------------
+STEP 1
+------
+
+Copy the contents of 'SD_CARD2' to your SD card.
+
+
+STEP 2
+------
+
+Run 'The Homebrew Channel' then run 'Neogamma'
+
+Configure settings in 'Neogamma' to:
+
+002 fix: ON
+Alternative dol: SD
+
+
+STEP 3
+------
+
+Launch Game.  Game will load from 'RZTP.dol' from the SD card.
+You will be shown a video on how to connect Wii Motion Plus.
+
+The video will end and you will have to push 'A'.
+The system will restart and your back to the main menu.
+
+
+STEP 4
+------
+
+Now go back to 'NeoGamma' via 'The Homebrew Channel' and turn off 'Alternative Dol' then Launch the game.
+
+These instructions are for the PAL version.
+
+

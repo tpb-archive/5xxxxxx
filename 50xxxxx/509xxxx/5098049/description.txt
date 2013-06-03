@@ -1,0 +1,109 @@
+Office 2007 SP2 BLACK EDITION 1.7
+a tum0r release
+MD5 hash:  D41D8CD98F00B204E9800998ECF8427E
+
+Office 2007 BLACK EDITION is an ongoing project to make Office 2007 more compatible and easier to use.  It supports Open Office and Google Docs formats. 1.7 is a minor update; all add-ins have been updated, and all important and critical updates have been added, and a reminder to "Run as Administrator" has been added.
+
+
+-	Enterprise edition pre-activated from an admin install point.
+- Suitable for XP, 2003, Vista, 2008, 7 - x86 or x64 (Vista and 7 users: right click, and choose Run as Administrator).
+-	SP2 included and installs automatically.
+-	Classic Menus for Office 2007(uninstallable), because letâ€™s face it, ribbons are difficult to navigate.
+-	Black theme and other registry tweaks applied.
+-	Pre-installed add-ins for productivity.
+-	Updates without problem, and PASSES OGA VALIDATION, so templates or addins can be downloaded without hassle.
+
+      - Includes:
+      - Access
+      - Excel
+      - Groove
+      - InfoPath
+      - OneNote
+      - Outlook
+      - PowerPoint
+      - Publisher
+      - Visio Viewer
+      - Word
+      
+      - Addins:
+      - Classic Menus for Office
+      - Office Live Beta
+      - OffiSync (Google Docs Support)
+      - ODF Addin for Office (Open Office Format Support)
+      
+      - Filetypes Supported:
+      - All MS formats
+      - All Google Docs formats
+      - All Open Office Formats
+      - Can save as XPS or PDF
+
+
+
+Install notes:
+VISTA AND 7 USERS: RUN AS ADMINISTRATOR
+You will be reminded at begining of install.
+Office 2007 is customizable, install what ever components you like.
+The "Applying Updates" takes awhile, please be paitent.
+Add-ins are installed after office, please give it a few minutes to install them.
+Add-ins will download some files (hotfixes for OS platforms, .dot net updates if needed).
+If prompted to reboot, choose "No" and wait 2 minutes, then reboot.
+
+Changelog for 1.7:
+- All critical and important Office 2007 added (to 9/13).  Updated help files are not included.
+- Office Live updated to 1.4 (Still shows up as an update though).
+- Classic Menus, Offisync, and ODF add-ins all updated to latest versions.
+- New icon.
+- Reminder window for "Run as Administrator" added.
+      
+Changelog for 1.6:
+- Switched to 7zip sfx:  Better compression and faster extraction.  Added extraction progress bar.
+- Updated OGA script for better x64 support.
+- Default Word file save type is .doc instead of .docx now.
+- Added OffiSync addin for Google Docs support.
+- Added Odf Addin for Open Office formats support.
+- Removed Math addin; It was fairly useless.
+      
+Changelog for 1.5:
+- Updated to Service Pack 2
+- Removed Save as XPS or PDF addin; it is included in SP2
+
+Changelog for 1.4:
+- Completely overhauled OGA.  Fixed bug for users who had office previously installed.  Updated to OGA v1.7.
+- Added Office Live Beta.  Vista, 2008, and 7 users will have to install certain hotfixes for their respective systems, but these will be downloaded automatically during install.  Internet connection required.
+
+Changelog for 1.3:
+-	Made installiation customizable.  Hit the custom button and install whatever you need, instead of the whole Enterprise package.
+-	Removed setup completeion notification.
+-	Added two new add-ins:   Save as PDF or XPS and Office Math.
+-	Moved extracted files back to %temp%.
+
+Changelog for 1.2:
+- The first version updated fine, but did not pass OGA validation. This release does pass.  
+- Small bug was found that caused the installer to extract its contents twice to the temp folder, taking twice as long to extract and twice as much space, hence most of the "it's not installing" complaints.  
+
+
+FAQ:
+
+"WTF is Office 2007 BLACK EDITION you ask?"
+- It is, by no means an authorized MicroSoft release of Office 2007, but a project to make Office 2007 far better than it was when originally released.  
+
+"Can I have my ribbons back?"
+- Yes.  Classic Menus can be configured from the start menu or uninstalled from Add/Remove Programs.
+
+"Can I have the blue theme back?"
+- Yes.  There is a drop down menu to the right of the Orb.  Click that, select More Commands,  select Popular from the list on the left, on the right you'll find Color Scheme.
+
+"I'm having problems installing on Vista."
+- Run as Admininstrator, or try turning off UAC.
+
+"I hate _____ addin, can I get rid of it?"
+- Yes.  All addins are uninstallable.
+
+"WTF is Office Live?"
+- More info: [url]http://workspace.officelive.com/LearnMore[/url]
+
+"WTF is OffiSync?"
+- More onfo: [url]http://offisync.com/[/url]
+
+"I have some other random error/bug."
+- Please PM me or comment with error, OS, and AV version.  I'll do my best to figure out your problem.  It also helps me make Office Black better.

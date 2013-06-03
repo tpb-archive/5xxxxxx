@@ -1,0 +1,61 @@
+User Type,Username,Date,Text
+,wildenbeast,2009-09-18T01:57Z,"i run this program as directed and get the following error message
+
+/Applications/Games/Civilization IV/Beyond the Sword/Civilization IV Beyond the Sword.app/Contents/MacOS
+/Applications/Games/Civilization IV/Beyond the Sword/Civilization IV Beyond the Sword.app/Contents/MacOS/Civilization IV Beyond the Sword"
+,Lasse_sloth,2009-09-19T18:37Z,"how do i open the crack in the terminal, and run it as root?"
+,Cajar_Queen,2009-09-20T17:04Z,"Easiest way to run the crack is as follows.
+1. Right Click on the Crack and select 'Show Package Contents'
+2. Navigate in the folder Contents/MacOS
+3. Open the iPatcher script"
+,Cajar_Queen,2009-09-20T17:14Z,"WARNING: After you install bts you will not be able to launch civ4 or warlords even after the crack. You will only be able to open bts, so if you have a game save for those finish the game before you install bts."
+,ReturnoftheRat,2009-09-23T14:40Z,"When I'm about to start my game after setting everything up, it just crashes while loading the map. Does anyone know what to do? Plus, in the character selecting screen, instead of facts about starting techs and traits, there are some kind of weird text..."
+,swheatle,2009-09-24T07:41Z,Here too! Has anybody got it to work? What OS?
+,Cajar_Queen,2009-09-25T03:50Z,"It opens and runs just fine for me. I'm running 10.6.1 on the 1st gen uni-body 17"" MBP"
+,macinblack,2009-09-25T04:00Z,"If you get an error when patching you might need to manually change the 'Permissions' on the files the error mentions.
+ie: For me they were:-
+1. Civilization IV/Beyond the Sword/Civilization IV Beyond the Sword.app
+2. Civilization IV/Beyond the Sword/Civilization IV Beyond the Sword.app(Show package contents)/Contents/MacOS/Civilization IV Beyond the Sword
+
+Make everything 'Read & Write', then run this crack again. Crash on map load problem has disappeared and I'm now playing.
+
+PS: This usually works for other game/app patches that don't work 100%."
+,swheatle,2009-09-25T09:17Z,"@ macinblack
+
+Thanks! It works for me now!"
+,Dethes,2009-09-28T20:59Z,"I must be stupid. I cant get it to work. I have tried everyting, I have googled around for additional tips. I dont understand the Terminal stuff in the guide here, step 4. 
+I have asumed that opening the content instead and clicking on iPatch is the same as following the guide?
+
+I have changed the permission everywhere to read and write. Nothing work. When I open the patch it terminates directly. Unexpected error. I have X 10.6"
+,713-2388,2009-09-29T01:05Z,"I tried the crack under Leopard 10.5.8 and Snow Leopard 10.6.1, it works fine.
+
+It seems that several people have trouble with the instructions (especially step 4), so I will use an example to make myself more clear.
+
+Asume that you install the game in your ""Applications"" folder in your startup disk, by default the install has ""read only"" permissions, so after step 3 you will have to type this in the Terminal in order to run the crack as root (and be able to overwrite the files):
+
+sudo -b ""/Applications/Civilization 4 - Beyond the Sword 3.17 Crack.app/Contents/MacOS/iPatcher""
+
+Note that in this case I have use the double quotes to avoid problems with the spaces, I suggest you do the same.
+
+The ""sudo"" command allow a user to execute a command as the superuser (or root), and the ""-b"" option stands for ""background"".
+
+It will ask you for your admin password, type it, but you won't see any characters at the prompt, that's normal. Press enter.
+
+At this point the crack application (iPatcher) should be running as a graphical application and you can close the Terminal."
+,Dethes,2009-09-30T00:05Z,"Finaly got it to Work =)
+
+It was a bit tricky but the explenation on step 4 helped a bit. This is the patch I used.
+
+""
+sudo -b /Applications/Civilization\ IV/Civ4\ -\ Beyond\ the\ Sword\ 3.17\ UBCrack.app/Contents/MacOS/iPatcher
+""
+
+Ofcouse the crack has to be in that destination. "
+,supercrisp,2009-10-18T23:14Z,"Does anyone else get the response ""command not found"" when they try to run the crack as superuser?
+
+This keeps occurring for me. I'm using tab completions, so it's not a problem with the path. And I've opened up permissions all over the place, so it's not that. I'm stuck. Any help?"
+,HamHamHam,2009-11-12T00:22Z,"Could someone who knows how make a crack for the newest version, 3.19?  I would really like to play online, but can't because 3.19 is required to play online, but also breaks the crack."
+,uwcheese,2009-11-13T12:06Z,"I modified this crack and simplified the process to help minimize the comment reading.  Here you go:
+http://thepiratebay.org/torrent/5159954/Civilization_IV___Expansions_Crack_Patch__Leopard
+
+Includes patch for all three."

@@ -1,0 +1,31 @@
+Finally a working Rubber Ninjas PC torrent. Please leave a comment and let me know if it works for you.
+
+BE SURE TO DISABLE USER ACCOUNT CONTROL (UAC). It is enabled by default in Windows Vista and Windows 7. There is a guide to do that here: 
+http://www.petri.co.il/disable_uac_in_windows_vista.htm
+REBOOT AFTER YOU DISABLE UAC
+
+1. Install Rubber Ninjas and Abyss Web Server to their default directories. AWS can be downloaded at http://www.aprelium.com/abyssws/download.php
+2. Run RN PHP Crack.exe as administrator.
+3. When prompted, restart Abyss Web Server and activate Rubber Ninjas with this key    M2TAZVVYABGRAN
+DO NOT PRESS ENTER AGAIN AFTER IT ASKS YOU TO ACTIVATE RUBBER NINJAS.
+4. Enjoy :) Press enter now through the final prompts, and it will do a cleanup. You can uninstall AWS after Rubber Ninjas is activated.
+
+Some people are having trouble getting this to work. It is confirmed to work on multiple computer, so don't worry! There's a lot of things going on all at once, you may just have to try a few things. I am going to add a small troubleshooting section here, and will add more problem/answers when I can think of other ways it can go wrong.
+
+____________________________________________________________________
+First, make sure you installed Abyss Web Server to it's default directory (%:\Abyss Web Server). % represents your system drive, most likely C, and will represent that for the remainder of the troubleshooting section. Also, make sure Abyss Web Server is running, and is set to port 80, not 8000 or 8080 (thanks, maddog419).
+
+Problem 1: Go to rubberninjas.com. Is it the regular Rubber Ninjas page? If so then do this:
+1. Open %:\Windows\System32\drivers\etc\hosts in notepad. Add this to that file, without quotes "127.0.0.1 rubberninjas.com". Save changes and exit.
+2. Start Abyss Web Server, and activate Rubber Ninjas.
+
+Problem 2: I Followed the steps from problem 1, but it still brings up the regular Rubber Ninjas page.
+Go here: http://www.accs-net.com/hosts/how_to_use_hosts.html
+
+Problem 3: Going to rubberninjas.com does indeed bring up an Abyss Web Server page, but rubberninjas.com/validatekey.php does not seem to exist.
+1. Open notepad, type in only the number 1. No spaces or anything, just "1".
+2. Save it as %:\Abyss Web Server\htdocs\validatekey.php
+
+Problem 4: I get a "Cannot connect to server" etc error when trying to activate.
+1. Make sure you installed Abyss Web Server to its default directory (%:Abyss Web Server). 
+2. Make sure the file "%:\Abyss Web Server\htdocs\validatekey.php" exists. If not then follow the directions in problem 3 to create it.

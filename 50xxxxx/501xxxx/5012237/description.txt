@@ -1,0 +1,19 @@
+hey..wazup?
+
+This is a modified version of XP pro SP3 setup to run from a USB HDD or a Flash/Jump/Thumb/Pen Drive
+(whatever you call it).
+
+It has been tested and works (tested on a desktop with 2 gigs ram and an athlon64 x2 4200+)
+
+Your bios have to support booting from a USB device and it is a little slow but i am running it off a jump drive
+(4gig).
+
+it should be fully functionalâ€¦have not found any issues with it yet.
+
+ It does bitch during the install about unsigned drivers or such but, this was expected as modifications to make it
+boot from USB break some of this. it also bitches about no pagefile.sys when you boot up but just ignore that as it
+works anyway.
+
+this has probably already been uploaded before but here it is just in case.
+
+note to be on the safe side disconnect the power to your actual HDD before install to eliminate the accidental re-installing over your current OS...may also avoid conflicts too.

@@ -1,0 +1,280 @@
+Copied from PeaZip Homepage:
+
+
+Open source file and archive manager
+Flexibe, portable, secure, and free as in freedom
+
+
+Why PeaZip
+
+
+Flexibility
+
+PeaZip can extract most of archive formats both from Windows and Unix worlds: currently 95 file extensions are supported ranging from mainstream 7Z, RAR, TAR and ZIP to experimental ones like PAQ/LPAQ family, currently the most powerful compressor available.
+For archive creation, PeaZip suppors a wide range of compression and encryption standard, from fastes to most powerful ones, and allows to export job definition as scripts to bridge the gap between GUI and console applications, and let the user pick the best of the two worlds.
+
+PeaZip is a reliable solution for most of the archive types you may met,
+and will help you in finding the right tool for a wide range of specific needs
+
+
+Portability
+
+You can use PeaZip on all Windows version and on Linux (PeaZip is a desktop neutral application) with the same features and look and feel; moreover, for both platforms, PeaZip is also available as standalone, portable application not needing installation.
+
+You can bring PeaZip with you and rely on it on multiple platforms
+
+
+Security
+
+PeaZip has secure deletion feature, can verify file checksum and hash, and supports multiple strong encryption standards, optionally using two factor authentication (password and keyfile) for increased security:
+
+7Z's AES256 encryption
+
+ZIP WinZip's AE encryption based on AES256 (and ZipCrypto for legacy compatibility); can decrypt PKZip's AES encryption
+
+FreeARC's ARC: AES256, Blowfish, Twofish256 and Serpent256 - this format is also capable to generate recovery records to protect data against corruption
+
+PEA: AES256 EAX authenticated encryption
+
+
+PeaZip is focused on security and supports multiple encryption standards
+
+
+Free as in freedom
+
+PeaZip is freeware, free of charge for any use, and is also free as in freedom since it's Open Source (LGPLv3)
+
+PeaZip contains exclusively Open Source components released under OSI approved licenses
+
+
+Main features
+
+PeaZip is an open source file and archive manager: cross platform, available as portable and installable software for 32 and 64 bit Windows (9x, 2k, XP, Vista) and Linux (PeaZip is a desktop neutral application).
+
+* Full support (read and write)
+
+7Z
+7Z-sfx
+ARC/WRC
+BZ2/TBZ2
+custom
+GZ/TGZ
+PAQ/LPAQ
+PEA
+QUAD/BALZ
+split
+TAR
+UPX
+ZIP
+
+
+* Read only (browse, extract, test)
+
+ACE
+ARJ
+CAB
+CHM
+COMPOUND (MSI, DOC, XLS, PPT)
+CPIO
+ISO
+Java (JAR, EAR, WAR)
+Linux (DEB, PET/PUP, RPM, SLP)
+LHA/LZH
+LZMA
+Mac (DMG/HFS)
+NSIS
+Open Office files
+PAK/PK3/PK4
+RAR
+SMZIP
+U3P
+UDF
+VHD
+WIM
+XAR
+XPI
+XZ
+Z/TZ
+
+
+* Repair
+
+ARC
+
+
+PeaZip allows to apply powerful multiple search filters to archive's content; create and extract multiple archives at once; create self-extracting archives; export job definition as command line; save archive's layouts; bookmark archives and folders; scan and open with custom applications compressed and uncompressed files etc...
+
+Other features: strong encryption, robust file copy, split/join files (file span), secure data deletion, compare, checksum and hash files, system benchmark, generate random passwords and keyfiles.
+
+
+Localizations
+Czech, Dutch, English, French, Galitian, German, Hungarian, Italian, Polish, Portuguese, Russian, Simplified Chinese, Sinhala, Spanish, Swedish, Ukrainian.
+
+
+PeaZip portable
+
+You can simply unpack PeaZip portable in the path you prefer and use it, even on the network or on removable devices as USB sticks; it will not modify the host system.
+A writeable path is recommended to allow updating the internal peristent randomness collector.
+
+
+64 bit versions
+
+While PeaZip's 64 bit packages are meant for 64 bit systems only, PeaZip's 32 bit packages can be used on 64 bit Windows or Linux systems; 32 bit backend binaries can be freely replaced with 64 bit counterparts (if available) for performance optimization.
+
+
+Changelog:
+
+
+2009 09 15
+
+What's new in PeaZip 2.7:
+
+
+o BACKEND
+
+
++ (Windows) Updated to 7z 9.07
+
+
+
+o FILE MANAGER
+
+
++ Fixed: issue in remembering last output path used for extraction
+
+
++ Fixed: issue in dropping items to bookmarks (showing on Windows only)
+
+
++ Fixed: incorrect size for files larger than 4GB (showing on Windows only) - to compile sources in Lazarus 0.9.26.2 the IDE needs to be patched: http://bugs.freepascal.org/view.php?id=14472
+
+
++ Fixed: PeaLauncher issue in exploring output path, if it is a folder (showing on Windows only)
+
+
++ Fixed: restored behaviour of open/preview with "PeaZip (new instance)", to attempt to open any file type as an archive
+
+
++ Added copy to, move to, quick and secure deletion, explore and open command prompt here into file manager's toolbar dropdown menu
+
+
++ Back, fwd and up buttons now have a rightclick popupmenu to browse 8 more recent history entries
+
+
++ Drag and drop to application:
+
+# Disabled dropping to non browseable archive (corrupted, or content is protected by unknow passord)
+
+# Disabled dropping to "Settings" panel
+
+# When dropping a single supported non-archive type file into the file browser (i.e. an executable or an Office file),show add to archive instead of choiche dialog
+
+
++ (Windows) Potentially slow operation of querying for units was moved after GUI creation and launch of quick functions
+
+
++ Various minor fixes and improvements
+
+
+
+o EXTRACTION
+
+
++ After extraction by drag and drop the output path is now reset to archive's path, and drop path is saved as last used, as for all other extraction operations
+
+
++ For extractions performed during preview operation, the default output path is automatically moved out of the PeaZip's temporary folder
+
+
++ Output path dialog now starts from archive's path by default
+
+
++ Output path field is now writeable to allow manual editing or pasting paths from other file managers
+
+
++ When browsing a single archive, extraction checks if password is needed, as happens for drag and drop extraction under the same condition
+
+
+
+o ARCHIVING
+
+
++ Enabled Ctrl+V to add objects to archives (from PeaZip's clipboard)
+
+
++ For ease of use, it is now disabled changing output when archiving in archive update mode
+
+
++ LPAQ8 can now be selected as compression format from *PAQ entry
+
+
+
+o 95 File extensions supported
+
+
+
+o Added missing text txt_2_7_oop and txt_2_7_experimental to language file (update of localizations created for beta is needed)
+
+
+
+
+2009 08 27
+
+What's new in PeaZip 2.7.beta
+
+
+
+o GUI
+
+
++ (PeaLauncher) Added option to open output directory after operation
+
+
++ File browser
+
+# It is now possible to force refresh inside archives
+
+# The password / keyfile can now be set once, for being used in file browser, archive creation (setting password triggers use of encryption) and archive extraction, like in WinRar; the locker icon reports if the password is set
+
+# The advanced inclusion and exclusion filters (7z backend) can now be set once (in a separate form) for archive browsing, extraction and creation
+
+# Clipboard is now displayed in a panel at the bottom of file browser, like history and bookmarks
+
+
++ Archive creation interface: new task oriented GUI for compression, adding / dropping files and folders to archive uses the archive creation interface (like in WinRar, where adding to archive raises the archive creation dialog)
+
+# Can optionally archive each input item to separate archives
+
+# Can chose output path with a powerful navigator (like in former "extract to" popup menu): system's paths, bookmarked folders, recent folders
+
+# Supports use of the advanced inclusion and exclusion filters (7z and FreeArc backend)
+
+
++ Archive extraction interface: new task oriented GUI for extraction
+
+# The advanced inclusion and exclusion filters (7z and FreeArc backend) are supported also for multiple archives at once
+
+
+
+o BACKEND
+
+
++ Updated FreeArc to 0.51
+
+# Can now create FreeArc's self extracting archives (sfx creation not jet working on Linux packages)
+
+
++ Updated 7z to 9.06 (Windows)
+
+# Open mslz, flv, swf, gnm
+
+
++ Added backend for ZPAQ (Windows), currently supports only extraction to original absolute path
+
+
+
+o 95 file extensions supported
+
+
+ED2K Link:
+ed2k://|file|peazip_portable-2.7.WIN64.zip|5938753|18F77336F5108E59F418981FD0E20C53|h=7HUZZH5PPY6GWBUA4TKY5JENTJF4S6N2|/

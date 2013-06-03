@@ -1,0 +1,82 @@
+Copied from 7-Zip Homepage:
+
+
+License
+
+7-Zip is open source software. Most of the source code is under the GNU LGPL license. The unRAR code is under a mixed license: GNU LGPL + unRAR restrictions. 
+
+You can use 7-Zip on any computer, including a computer in a commercial organization. You don't need to register or pay for 7-Zip.
+But you can make a donation to support further development of 7-Zip.
+
+
+The main features of 7-Zip
+
+High compression ratio in new 7z format with LZMA compression
+
+Supported formats: 
+Packing / unpacking: 7z, ZIP, GZIP, BZIP2 and TAR
+Unpacking only: ARJ, CAB, CHM, CPIO, DEB, DMG, HFS, ISO, LZH, LZMA, MSI, NSIS, RAR, RPM, UDF, WIM, XAR and Z.
+
+For ZIP and GZIP formats, 7-Zip provides a compression ratio that is 2-10 % better than the ratio provided by PKZip and WinZip
+
+Strong AES-256 encryption in 7z and ZIP formats
+
+Self-extracting capability for 7z format
+
+Integration with Windows Shell
+
+Powerful File Manager
+
+Powerful command line version
+
+Plugin for FAR Manager
+
+Localizations for 74 languages
+
+
+7-Zip works in Windows 98/ME/NT/2000/XP/Vista.
+There is a port of the command line version to Linux/Unix.
+
+On 7-Zip's Source Forge Page you can find a forum, bug reports, and feature request systems.
+
+
+Compression ratio
+
+Compression ratio results are very dependent upon the data used for the tests. Usually, 7-Zip compresses to 7z format 30-70% better than to zip format.
+And 7-Zip compresses to zip format 2-10% better than most of other zip compatible programs.
+
+
+Changelog:
+
+
+7-Zip 9.05 Alpha:
+
+7-Zip now can unpack MSLZ archives. 
+
+Partial parsing for EXE resources, SWF and FLV. 
+
+Some bugs were fixed. 
+
+Some changes in interface. 
+
+
+7-Zip 9.07 Beta
+
+It's possible to specify Diff program in options (7-Zip File Manager). 
+
+Some bugs were fixed.
+
+
+
+Don't use this beta version for important data.
+Call "Test" command after each compressing operation. 
+
+
+
+Comments from the uploader (olofolleola4):
+If you wonder why it is called 9.04 instead of a version number like 4.66 is because Igor Pavlov has decided to give this build the version number for the year 2009. The first 4.xx version were created in 2004.
+So that's why it's called 9.04 :)
+
+
+ED2K Link:
+ed2k://|file|7z907-ia64.msi|1846784|9C41E5B9DF107453C70D44F2ECF61477|h=JFQ472DHWNVQOTKB2FNXMPJXO2IWBVPI|/

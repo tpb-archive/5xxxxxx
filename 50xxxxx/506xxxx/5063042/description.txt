@@ -1,0 +1,83 @@
+ SiSoftware Sandra Professional Business (the System ANalyser, Diagnostic and Reporting Assistant) is an information & diagnostic utility. It should provide most of the information (including undocumented) you need to know about your hardware, software and other devices whether hardware or software. Sandra is a (girl) name of Greek origin that means "defender", "helper of mankind". We think that's quite fitting. It works along the lines of other Windows utilities, however it tries to go beyond them and show you more of what's really going on. Giving the user the ability to draw comparisons at both a high and low-level. You can get information about the CPU, chipset, video adapter, ports, printers, sound card, memory, network, Windows internals, AGP, PCI, PCI-X, PCIe (PCI Express), database, USB, USB2, 1394/Firewire, etc.
+
+All major technologies are supported and taken advantage of:
+- SMP - Multi-Processor
+- MC - Multi-Core
+- SMT/HT - Hyper-Threading
+- MMX, SSE, SSE2, SSE3, SSSE3 - Multi-Media instructions
+- Wireless MMX - Mobile multi-media instructions
+- NUMA - Non-Uniform Memory Access
+- AMD64/EM64T/x64 - 64-bit extensions to x86
+- IA64 - Intel* Itanium 64-bit
+
+Here is a list of current modules.
+- System Summary
+- Mainboard/Chipset/System Monitors Info
+- CPU/BIOS Info
+- APM & ACPI (Advanced Power Management) Info
+- PCI(e), AGP, CardBus, PCMCIA bus and devices Info
+- Video Information (monitor, card, video bios, caps, etc.)
+- OpenGL Information
+- DirectX (DirectDraw, Direct3D, DirectSound (3D), DirectMusic, DirectPlay, DirectInput) Info
+- Keyboard Info
+- Mouse Info
+- Sound Card (wave, midi, aux, mix) Info
+- MCI Devices (mpeg, avi, seq, vcr, video-disc, wave) Info
+- Joystick Info
+- Printers Info
+- Windows Memory Info
+- Windows Info
+- Font (Raster, Vector, TrueType, OpenType) Information
+- Modem/ISDN TA Information
+- Network Information
+- IP Network Information
+- WinSock & Internet Security Information
+- Drives Information (Removable Hard Disks, CD-ROM/DVD, RamDrives, etc.)
+- Ports (Serial/Parallel) Info
+- Remote Access Service Connections (Dial-Up, Internet)
+- OLE objects/servers Info
+- Processes (Tasks) & Threads Info
+- Modules (DLL, DRV) Info
+- Services & Device Drivers (SYS) Info
+- SCSI, SAS Information
+- ATA, ATAPI, SATA, RAID Information
+- Data Sources Information
+- CMOS/RTC Information
+- Smart Card & SIM Card Information
+
+- Arithmetic Benchmark (including SSE2, SSSE3)
+- Multi-Media Benchmark (including MMX, Wireless MMX, SSE, SSE2, SSE3, SSSE3)
+- Multi-Core Efficiency Benchmark
+- Power Management Efficiency Benchmark
+- File System (Removable, Hard Disks, Network, RamDrives) Benchmark
+- Removable Storage/Flash Benchmark
+- CD-ROM/DVD Benchmark
+- Memory Bandwidth Benchmark
+- Cache & Memory Bandwidth Benchmark
+- Network/LAN Bandwidth Benchmark
+- Internet/ISP Connection Benchmark
+- Internet/ISP Peerage Benchmark
+
+- Hardware Interrupts Usage
+- DMA Channel Usage
+- I/O Ports Usage
+- Memory Range Usage
+- Plug & Play Enumerator
+- Hardware registry settings
+- Environment settings
+- Registered File Types
+- Key Applications (web-browser, e-mail, news, anti-virus, firewall, etc.)
+- Installed Applications
+- Installed Programs
+- Start Menu Applications
+- On-disk Programs & Libraries
+- Installed Web Packages (ActiveX, Java classes)
+- System Event Logs
+
+- Burn-in Wizard (test computer stability)
+- Connect Wizard (connect to remote computers, PDAs, Smart Phones and other devices)
+- Combined Performance Index Wizard (overall computer performance score)
+- Create a Report Wizard (save, print, fax or e-mail in CIM (SMS/DMI), HTML, XML, RPT or TEXT format)
+- Performance Tune-Up Wizard (tune-up computer)
+- Environment Monitor Wizard (temperatures, voltages, fans, CPU power, cooling solution thermal resistance, etc.)
+- WebUpdate Wizard for automatic version updating 

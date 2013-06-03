@@ -1,0 +1,251 @@
+Copied from ImgBurn Homepage:
+
+
+ImgBurn is a lightweight CD / DVD / HD DVD / Blu-ray burning application that everyone should have in their toolkit!
+
+It has several 'Modes', each one for performing a different task:
+
+
+Read - Read a disc to an image file
+
+Build - Create an image file from files on your computer or network - or you can write the files directly to a disc
+
+Write - Write an image file to a disc
+
+Verify - Check a disc is 100% readable. Optionally, you can also have ImgBurn compare it against a given image file to ensure the actual data is correct
+
+Discovery - Put your drive / media to the test! Used in combination with DVDInfoPro, you can check the quality of the burns your drive is producing
+
+ImgBurn supports a wide range of image file formats - including BIN, CUE, DI, DVD, GI, IMG, ISO, MDS, NRG and PDI.
+
+It can burn Audio CD's from any file type supported via DirectShow / ACM - including AAC, APE, FLAC, M4A, MP3, MP4, MPC, OGG, PCM, WAV, WMA and WV.
+
+You can use it to build DVD Video discs (from a VIDEO_TS folder), HD DVD Video discs (from a HVDVD_TS folder) and Blu-ray Video discs (from a BDAV / BDMV folder) with ease.
+
+It supports Unicode folder/file names, so you shouldn't run in to any problems if you're using an international character set.
+
+ImgBurn supports all the Windows OS's - Windows 95, 98, Me, NT4, 2000, XP, 2003, Vista, 2008 and 7 (including all the 64-bit versions).
+If you use Wine, it should also run on Linux and other x86-based Unixes.
+
+It's a very flexible application with several advanced features that are often lacking in other tools, especially when it comes to burning DVD Video discs.
+It supports all the latest drives without the need for updates (including booktype / bitsetting / advanced settings on many of the major ones - i.e. BenQ, LiteOn, LG, NEC, Plextor, Samsung, Sony).
+
+There is an image queue system for when you're burning several images (which you can automatically share between multiple drives if you have more than one) and an easy-to-use layer break selection screen for double layer DVD Video jobs.
+The Automatic Write Speed feature allows you store your favourite burn speed settings on a per 'Media ID' basis, right down to a drive by drive level.
+Data captured during the burn (write speed, buffer levels etc) can be displayed / analysed using DVDInfoPro.
+
+Whilst ImgBurn is designed to work perfectly straight out of the box, advanced users will appreciate just how configurable it is.
+
+Oh and let's not forget the best thing about it.... it's 100% FREE ;-)
+
+
+First and foremost, ImgBurn is a freeware tool. You cannot bundle it with your own commercial application and you cannot sell it in any way, shape or form. 
+
+As an individual, you're allowed to use it anywhere you like - be it at home or at work (assuming they don't mind of course!).
+
+
+ED2K Link: ed2k://|file|SetupImgBurn_2.5.0.0.exe|2169915|42E29803A1E54A133C4918C78340C396|h=AG7UN26TFZYFUBEK5AZTICMOCJUX4DY6|/
+
+
+
+Changelog:
+
+
+Added: An 'Advanced' input mode to build mode where you have total control over the layout of the disc and can add new folders, change names etc. (i.e. you're no longer limited to burning an existing folder structure on your hard disc as-is)
+
+Added: Optional logging when hidden or system files/folders are skipped in Build mode due to the current settings (i.e. when 'Include Hidden Files' or 'Include System Files' are disabled).
+
+Added: Yet another attempt at setting the write speed - this one does it 100% by the book. It fills the fields in the performance descriptor sent via 'SET STREAMING' with the values returned in the descriptor after issuing the 'GET PERFORMANCE' command. (The previous best method of setting the speed missed one field out)
+
+Added: An option (off by default) to enable the enumeration of medium changer devices (this was previously always enabled) on the I/O tab in the Settings.
+
+Added: Support for enumerating medium changer devices via the SPTI 'Device Interface' method too - previously it was always done by 'Device Class'.
+
+Added: The graph data preview in the Settings now uses a default value for media/volume id if one isn't available based on the current media/image file.
+
+Added: Support for another IOCTL for locking the drive - this one (only) appears to work with the 'Device Interface' enumeration method of the SPTI I/O interface ('lock volume' doesn't).
+
+Added: Support for using 'Opti Drive Control' as the IBG viewer when you click the 'Display Graph Data' buttons/menu option.
+
+Added: ImgBurn now adds itself to the context menu's 'Open With' submenu for files it's associated with.
+
+Added: Debug logging to the function that compares the image file/disc layouts.
+
+Added: Option to disable the 'Fix VTS Sectors' function when building a DVD Video disc.
+
+Added: The 'Create DVD File' feature can now make DVD files with the MediaType field set to 'CD'.
+
+Added: Support for saving plain MODE1/2048 discs as a MODE1/2352 image in Read mode by saving as a BIN/IMG file.
+
+Added: Support for converting a MODE2/FORM1 track (on a single session/track disc) into MODE1 when reading a disc so it can be stored in an ISO file.
+
+Added: Support for burning CCD files.
+
+Added: Support for adding files that exceed the limit imposed by the ISO9660/Joliet file systems. Those file systems will record the file size as 4GB (-1 byte) but all their data will be physically present in the image.
+The UDF file system will use the correct size.
+
+Added: Support for building images using the 'MODE2/FORM1/2352' data type. (previously it only supported 'MODE1/2048')
+
+Added: Warning when user attempts to read a 'complex' disc to an ISO file and option to use BIN instead.
+
+Added: Support for using 'BurnPlot' as the IBG viewer when you click the 'Display Graph Data' buttons/menu option.
+
+Added: Advice in the log window (on how to remove the virus) for when the 'maximum number of secrets exceeded' error in encountered when searching for devices (and 0 drives are found).
+
+Added: Mini lookup table for some CD disc ID's to get manufacturer info.
+This info is now show in the disc information panel (under ATIP Information) and also in the log when you erase a disc or burn one.
+
+Added: Option to stop the program from analysing (doing the dummy decode pass on) cd-da ready wav files.
+
+Added: Show the booktype in the log when reading a disc in Read mode.
+
+Added: A check to ensure all the DVD Video files in a sequence are present. (i.e. it'll prompt if VTS_XX_1.VOB and VTS_XX_3.VOB are present but VTS_XX_2.VOB isn't)
+
+Added: It now does a basic parse of any supported 'Special' file system on a disc when in Read mode so it can display a volume label (to match what you'd see when loading an image of said disc into Write mode).
+
+Added: 'Write Speed Miscompare!' warning in the log when the drive reports a write speed that doesn't match what the user selected.
+
+Added: Error balloon when user tries to enter an unacceptable character in the 'Rename' box when replacing/overwriting files.
+
+Added: Error checking (and logging) when searching for folders/files (via 'FindFirstFile'/'FindNextFile') and adding them to the image in Build mode.
+
+Added: Detection of attempts to build Vista style OS installation discs (via the 'sourcesinstall.wim' file) and the relevant prompting for conflicting settings, failing to make it bootable etc (same as an 'I386' install disc).
+
+Added: 'Explore' and 'Open' options to the 'Source' box's context menu in Build mode.
+
+Added: You can now control which 'image layout' files Build mode creates via its own set of options (rather than piggy backing the Read mode ones)
+
+Added: Ability to select the media type when creating an MDS file via the 'Create MDS File' feature.
+
+Added: Ability to select the font used by the program's GUI.
+
+Added: New CLI parameter '/CERTIFICATEFOLDER ' to tell the program if it should attempt to include/create a CERTIFICATE folder when a BDAV/BDMV folder is present.
+
+Added: Sanity checking for most of the comboboxes - to catch errors in translations where they don't notice I've added new entries!
+
+Added: 'Average Write Speed' to the log when full erasing a BD-RE disc with 'perfer properly formatted discs' enabled - i.e. so it performs the 'Zeroing Sectors' part.
+
+Added: Workaround for a bug in Windows 7 (7077 anyway) where the PlaySound API will bring up an 'insert disc' error box if the current working directory is no longer valid (i.e. it was set to an optical drive and the disc has been ejected).
+
+Added: Workaround for drives/drivers that randomly report a bogus error ('No Additional Sense Information') during the burn, thus forcing a retry - which fails with the error 'Invalid Address For Write' because those sectors HAVE actually been written ok - according to the track's NWA info anyway.
+
+Added: The option to read/write CD-TEXT using the Ansi code page rather than ISO 8859-1.
+
+
+Added/Changed: The log entry/error box that pops up when 'send cue sheet' or 'set write parameters' fail now includes a 'reason' in the form of the decoded sense area message.
+
+Added/Changed: The ISO9660 Volume Label will now accept characters based on the current ISO9660 character set selection.
+
+Added/Changed: Had a go at making all the Build mode question type messageboxes simpler and translatable.
+
+Added/Changed: Tweaked and cleaned up the file search code when loading CUE files. It now supports relative paths.
+
+
+Changed: The installer no longer offers the 'Quick Launch' option when Windows 7 is detected as an OS.
+
+Changed: The SPTI device enumeration method now defaults to 'Device Interface' on XP SP2/2003 SP2 + IMAPI v2.0, XP SP3, Vista and newer.
+
+Changed: The SPTI device enumeration method 'CdRom Class' is now known as 'Device Class'.
+
+Changed: The 'CERTIFICATE' folder is no longer created for Blu-ray Video discs by default. This means the programs creating the file structure have more control over whether one gets added or not.
+
+Changed: Tweaked all the code for file associations to make it more compliant with Microsoft's documentation. (The installer cleans up the old ones so make sure you use it!)
+
+Changed: Tweaked the code used to determine the drive's current write speed before then displaying the 'Write Speed Miscompare' message (I blame the buggy drive firmware!).
+
+Changed: Tweaked the code that positions forms when they open (in the middle of the main form) so they're no longer drawn a few pixels off the screen (assuming the main form is along the edge) when desktop composition is enabled under Vista / 7.
+
+Changed: Tweaked the code that positions forms when they open (in the middle of the main form) so they're opened on whichever monitor their 'centre point' is on (or the nearest to it).
+
+Changed: Tweaked some of the functions associated with the ISO9660 file system's volume label so they handle characters with extra bits like accents a little better and hopefully reduce the number of '_' characters that end up being used.
+
+Changed: Even when set to 'No', the DVD/MDS layout files will still be created (if they're selected in the first place) when multiple output files have been created (i.e. file splitting has been used).
+
+Changed: Tweaked the way fields in the Joliet volume descriptor are read to hopefully deal with buggy descriptors (like those written by XP's built in burning software) where the fields don't contain Unicode text.
+
+Changed: Updated the Virtual TreeView control to the latest on SVN.
+
+Changed: Ignore failure to set the layer break position (when changeable or not) if the desired position is where the drive reports it is already.
+Previously it only ignored the failure if the position was the same and wasn't changeable.
+
+Changed: Tweaked some of the code that sizes and positions controls based on the current translation.
+
+Changed: The information window shown when building the image/calculating its size in Build mode can now be translated.
+
+Changed: The custom strings inserted into system / application menus can now be translated.
+
+Changed: When loading a CUE into the 'Create CUE File' feature, the program will now warn you if track/index info will be lost (i.e. if a file is used for more than 1 track or a track has more than 1 index).
+
+Changed: Renamed 'Create CD CUE File' feature (and associated buttons/tooltips etc) to 'Create CUE File' so it matches with 'Create DVD File' & 'Create MDS File'.
+
+Changed: Rewrote all the code that deals with when to create/not create CCD/CUE/DVD/MDS files. Each one is handled individually now.
+
+Changed: Modified that MDS file slightly when building an image with a BDAV/BDMV folder in it (so it'll play when mounted in DT).
+
+Changed: Since adding support for CCD/CUE/DVD, the 'Create MDS File' term/option in the Settings didn't really fit - so it's been renamed to a more generic 'Create Image Layout File'.
+
+Changed: The 'Filter Drive Load Order' feature now scans for and lists device class filters found in all the relevant 'CdRom' keys under 'HKLMSYSTEMCurrentControlSetEnum[IDE|SCSI|USBSTOR|1394]' rather than just the first one it finds with an 'UpperFilters/LowerFilters' entry.
+
+Changed: The 'Filter Drive Load Order' feature can now remove 'Upper/Lower Device Class' filters.
+
+Changed: When burning a CD, the program will now also issue the 'SET STREAMING' command (where supported and in addition to the existing 'SET CD SPEED' one) to set the write speed.
+
+Changed: 'FastWrite' no longer applies to BD-R, the new option 'BD-R Verify Not Required' now takes its place.
+
+
+Changed/Fixed: Tweaked the 'Title Case' function to handle certain strings a bit better.
+
+Changed/Fixed: Implemented a workaround for Windows 7 whereby ImgBurn prompts 'Do you really want to cancel?' if it's open when you try to restart/shutdown the computer.
+
+Changed/Fixed: The program would only use the layer break position in an IBB if the /CLOSE switch was issued via CLI, /CLOSESUCCESS wouldn't work (and it should have done).
+
+
+Fixed: Clicking 'Cancel' to certain build mode prompts (that correct conflicts/settings) didn't prevent some other prompts from popping up.
+
+Fixed: Initial disc space check when doing a 'Read' operation didn't take into account the wave header when outputting an audio cd to a wav file.
+
+Fixed: The MD5 was incorrect when reading an audio disc to a *.wav file.
+
+Fixed: Incorrect / missing drive letters when using 'Device Interface' SPTI enumeration.
+
+Fixed: The 'Device Interface' SPTI drive enumeration method didn't work on Vista (drive letters would have been used as a fallback).
+
+Fixed: A little bug (they you'd be very unlikely to run into) in the function that compares the layout of an image file to the layout of a disc in terms of sessions, tracks etc.
+
+Fixed: A problem where code (specific to 'Image File' output mode) was being called for something that only applies to Device output mode.
+This was to do with changing the data type to 'MODE1/2048' if the current disc was DVD/HD DVD/Blu-ray.
+
+Fixed: Problem with reporting the correct error code in the booktype setting tool on the 'LiteOn' tab if the drive doesn't support any of the 3 different I/O command versions (it would always just return 'No Additional Sense Information').
+
+Fixed: The wrong 'Free Space' was/could be displayed in Build mode (image file output) if the destination was set to 'desktop[*.*]' and the desktop folder was on a different drive to the 'Image File' one configured in the settings.
+
+Fixed: A problem with some code that decides if a CCD file should be created or not.
+
+Fixed: A few problems with the creation of CCD files (wrong values in certain fields) - mainly when doing multisession.
+
+Fixed: Incorrect start time of Indexes >= 1 in a CUE file when any sort of pre/postgap was also present.
+
+Fixed: If the 'unlock volume' (exclusive access) function failed after an erase, the program logged that the erase had failed - when actually it hadn't.
+Also, if the erase had failed but the unlock succeeded, the program logged that the erase was successful.
+
+Fixed: The volume label tooltip on the Read mode progress screen was showing 'Unknown' for fields that it shouldn't have been.
+
+Fixed: Problem where the program opens the drive whilst in the middle of a temporary open/close which leads to the drive being left in a 'closed' state ('invalid handle' message in the status bar) and potentially leaves an orphaned drive handle which prevents the program from being able to lock the drive for exclusive usage.
+
+Fixed: Labels were not displaying the '&' character properly in the 'Image Information' box.
+
+Fixed: List out of bounds error when changing the language.
+
+Fixed: Bad text width calculation (due to font changes) when positioning controls.
+
+Fixed: Task status wasn't updated from 'Fixing VTS Sectors' to 'Getting Region Information'.
+
+Fixed: An issue where some internal stuff got messed up as a result of the program prompting to include ADV_OBJ / CERTIFICATE folders (but only if the user said 'Yes').
+
+Fixed: Multi-monitor issue where forms centred over the main one could be displayed slightly off the screen.
+
+Fixed: A call to the SystemParametersInfo(SPI_GETNONCLIENTMETRICS) API function was failing on pre-Vista OS's and so the GUI font might have been different to previous versions of the program - shouldn't have been an issue for people using the default OS fonts for everything though.
+
+Fixed: Bogus 'Destination' text (parent folder of the *.IBB) when loading a project in Build mode where the Output is set to 'Image File' and the destination field is blank.
+
+Fixed: Clicking the 'Close' (X) button in the preparing image / building image tree boxes closed the window but didn't actually stop the program from doing what it was doing.
