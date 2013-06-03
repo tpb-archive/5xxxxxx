@@ -1,0 +1,30 @@
+User Type,Username,Date,Text
+,jersson,2009-11-24T14:55Z,"Very good as usual, thank,s
+
+Here are a few thing's I'd like for my Outlook Express Mail Program that is to be found on 
+http://www.mapilab.com/outlook_express/"
+,xccommander,2009-11-28T04:19Z,"Thanks for this great program. Hey NoExcuses I want to ask you a question, where can I send you a message in private? I've being trying to figure out something you said in one of your other uploads but I can't so I'm giving up and am going to ask you how to go about it.  "
+[V],NoExcuses,2009-11-28T09:52Z,"@xccommander
+Why not asking directly here in the comments, or going to the SuprBay Forum?I have an account there too, and I don't like very much showing publicly an email address, already receiving enough spam... :o)"
+,xccommander,2009-11-28T19:20Z,"I didn't really want to ask in the open because I'm sure your busy and not sure how big this would get  didn't want to take too much out of your time mainly. I'm referring to the 1st comment you made on on this upload.http://thepiratebay.org/torrent/4972976/RegCure_1.6_Portable
+
+I'm mainly concerned about the first two sentences. It sounds so easy reading your comment but I haven't being able to figure it out. Can you help me out with this? 
+
+Also I wanted to thank you for all the great portable uploads you do. I have you bookmarked anytime I need a program I check through your uploads first lol."
+[V],NoExcuses,2009-11-28T20:12Z,"@xccommander
+Not all the programs are working in the same way, so it's not always possible to make them portable in the same way. Let's take as an example this upload:
+
+http://thepiratebay.org/torrent/5184543/YouT_be_MP3_Downloader_Portable
+
+When you install it, all the files go in the same install dir, and when you register it, it modifies the sound.dll file, so you can pack up all the files in one go and there you have your Portable.
+
+http://thepiratebay.org/torrent/5184543/YouT_be_MP3_Downloader_Portable
+
+This one when you install it, it creates a bunch of files inC:\Windows\System32, but you can copy these files in the program Dir and the program finds them too. When registered it creates a few entries in the registry, entries that you can pick up using RegFromApp from nirsoft.net, create the Reg.reg and make your Portable prog load it before running the real program. It's always good to look with WinRAR in the EXE and see what it effectively does. I normally give also the Setup and Crack, so you can install it in Sandboxie and see there which files it's installing and where.
+I know it's not always so easy, but the fun is there, finding it.
+
+The main way to do it is to install the program in Sandboxie, and then go in C:\Sandbox and see where the setup was putting the files, then copy them on your Desktop and start playing around with them. In the beginning it will be a good idea to see what others have done to make them Portable, that's what I've done when I started with this hobby... :-)"
+,xccommander,2009-11-29T03:44Z,I'm using sandboxie but not all programs install in there. I did manage to make a couple programs portable (I think) but they look like sfx files. How do you make them look like the program icon? For example the regcure looks like the reg cure icon mine looks like an sfx file?
+[V],NoExcuses,2009-11-29T08:21Z,"@xccommander
+You need a program that allows to extract the icon file from the original program. I use Easy Extract Icon, but there are also others, and when you have the .ico file, in WinRAR you have to go in SFX > Advanced SFX options > Text and icon and choose there your own icon. In the same Advanced SFX options > Modes you choose where extract the files (usually Unpack to temporary folder) and so on. Opening the SFX EXE file with WinRAR allows you also clicking on Comment, to modify the Setup commands, allowing to execute other commands in sequence when you need more than one. I use this to modify Registry before running the prog."
+,xccommander,2009-12-03T07:09Z,Thanks. 

@@ -1,0 +1,84 @@
+Link-Layer Topology Discovery (LLTD) Version 6.0 for XP Service Pack 3
+
+Overview:
+
+This package contains the Link Layer Topology Discovery (LLTD) responder. The network map on a computer running Windows Vista shows a graphical view of the computers and devices on your network and how they are connected by using the LLTD protocol. The LLTD responder must be installed on a computer running Windows XP before it can be detected and appear on the network map. After you install this item, you may have to restart your computer.
+
+
+Article:
+
+Network Map Does Not Display Computers Running Windows XP
+
+Updated: July 9, 2009
+
+Applies To: Windows Vista
+
+When you run Network Map in Windows VistaÂ®, computers that are running WindowsÂ® XP do not appear on the completed diagram.
+Cause
+
+Network Map in Windows Vista diagrams the connections between network devices to help you troubleshoot connectivity problems. Network Map uses a discovery protocol called Link-Layer Topology Discovery (LLTD) in order to query the other devices on the network to determine how the network is organized. Computers that are running Windows Vista include the software components that implement the LLTD protocol. For network computers that are running Windows XP to appear on the map, they must have a discovery protocol enabled that can respond to the mapping computer's requests.
+Solution on Windows XP
+
+For computers running Windows XP to appear on the Network Map diagram, you must download and install the LLTD Responder component. By installing the LLTD Responder, and enabling File and Printer Sharing in Windows Firewall, a computer running Windows XP can respond to other Windows Vista computers on the network that are attempting to create a network map.
+
+The following procedures are performed on a computer running Windows XP.
+
+To install the LLTD Responder onto a computer running Windows XP
+
+   1. Download the update appropriate for your version of Windows:
+
+          * If you are running Windows XP with no service pack, with Service Pack 1 (SP1), or with SP2, download the update from here: http://go.microsoft.com/fwlink/?LinkId=70582.
+
+   2. Run the update on the computer running Windows XP that you want to appear on the Network Map.
+
+   3. On the Software Update Installation Wizard, click Next.
+
+   4. On the License Agreement page, read the license agreement, and if you agree to the terms, click I Agree, and then click Next.
+
+   5. On the final page of the wizard, click Finish.
+
+   6. If you are prompted to do so, restart your computer.
+
+LLTD Responder
+
+You can verify that the LLTD Responder is successfully installed and running.
+
+To verify the LLTD Responder is installed and running
+
+   1. On a computer running Windows XP, click Start, click Control Panel, and then click Network Connections.
+
+   2. Click Local Area Network Connection, click Properties, and then view the list of items used by the network connection.
+
+   3. Ensure that the Link-Layer Topology Discovery Responder check box is selected.
+
+File and Printer Sharing
+
+Prior to generating a new Network Map in Windows Vista you must ensure that Print and File Sharing is excluded from Windows Firewall filtering.
+
+To exclude File and Printer Sharing from Windows Firewall
+
+   1. On a computer running Windows XP, click Start, click Control Panel, and then click Network Connections.
+
+   2. Click Windows Firewall Settings, and then click the Exceptions tab.
+
+   3. If necessary, click Edit, and then select the File and Printer Sharing check box.
+
+Solution on Windows Vista
+
+After performing the procedures in the preceding section, you can generate a new Network Map for all computers on the network, including those running Windows XP.
+
+To generate a new Network Map and connect to all network computers
+
+   1. On a computer running Windows Vista, perform the following steps to generate a new Network Map:
+
+          * Start Network and Sharing Center.
+
+          * On the right side of the Status section, click View full map.
+
+   2. Right-click the computer running Windows XP, and then click Open.
+
+   3. If connectivity issues persist, perform the following steps:
+
+          * Ensure that File and Printer Sharing is excluded from Windows Firewall on the computer running Windows Vista.
+
+   4. Consider excluding other services from Windows Firewall on the computer running Windows Vista.

@@ -1,0 +1,63 @@
+Format                           : AVI
+Format/Info                      : Audio Video Interleave
+File size                        : 1.85 GiB
+Duration                         : 1h 24mn
+Overall bit rate                 : 3 136 Kbps
+Writing application              : VirtualDubModRus 1.5.10.2 (build 2542/release)
+Writing library                  : VirtualDubMod build 2542/release
+
+Video
+ID                               : 0
+Format                           : MPEG-4 Visual
+Format profile                   : AdvancedSimple@L5
+Format settings, BVOP            : Yes
+Format settings, QPel            : No
+Format settings, GMC             : No warppoints
+Format settings, Matrix          : Default (MPEG)
+Muxing mode                      : Packed bitstream
+Codec ID                         : XVID
+Codec ID/Hint                    : XviD
+Duration                         : 1h 24mn
+Bit rate                         : 2 354 Kbps
+Width                            : 640 pixels
+Height                           : 352 pixels
+Display aspect ratio             : 16:9
+Frame rate                       : 25.000 fps
+Resolution                       : 24 bits
+Colorimetry                      : 4:2:0
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.418
+Stream size                      : 1.39 GiB (75%)
+Writing library                  : XviD 1.2.0.dev47 (UTC 2006-11-01)
+
+Audio #1
+ID                               : 1
+Format                           : AC-3
+Format/Info                      : Audio Coding 3
+Codec ID                         : 2000
+Duration                         : 1h 24mn
+Bit rate mode                    : Constant
+Bit rate                         : 384 Kbps
+Channel(s)                       : 6 channels
+Channel positions                : Front: L C R, Surround: L R, LFE
+Sampling rate                    : 48.0 KHz
+Stream size                      : 233 MiB (12%)
+Alignment                        : Split accross interleaves
+Interleave, duration             : 40 ms (1.00 video frame)
+Interleave, preload duration     : 500 ms
+
+Audio #2
+ID                               : 2
+Format                           : AC-3
+Format/Info                      : Audio Coding 3
+Codec ID                         : 2000
+Duration                         : 1h 24mn
+Bit rate mode                    : Constant
+Bit rate                         : 384 Kbps
+Channel(s)                       : 6 channels
+Channel positions                : Front: L C R, Surround: L R, LFE
+Sampling rate                    : 48.0 KHz
+Stream size                      : 233 MiB (12%)
+Alignment                        : Split accross interleaves
+Interleave, duration             : 40 ms (1.00 video frame)
+Interleave, preload duration     : 500 ms

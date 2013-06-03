@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+\//\//\//\//  _ |_  _  / /_  _  _  \//\//\//\//\//\//\//\//\//\
+//\//\//\//\ (_||_)(_|/ / _||_ | | //\//\//\//\//\//\//\//\//\//
+
+Checking for updates to GameNameLookup.csv and abgx360.dat...
+     GameNameLookup.csv was downloaded successfully
+     Server file abgx360.dat no newer than local file - not retrieving
+
+F:???Forza_MotorSport_3_KenParkDVD_1fm3_kenpark_dvd1.dvd is valid
+
+Checking Game
+     ISO: "F:???Forza_MotorSport_3_KenParkDVD_1fm3_kenpark_dvd1.iso"
+     Size: 7838695424 bytes (SplitVid 3rd wave)
+     Files in ISO: 4, Folders in ISO: 0
+     Total bytes used: 13492224 (0.18%)
+Game appears to have random padding
+
+Checking default.xex
+     Title ID:              4D53084D (MS-2125)
+     Disc Number:           1 of 2
+     Original PE Filename:  default.exe
+     Original PE Timestamp: 2009/09/04 03:47:29
+     title icon
+     Game Name:             Forza Motorsport 3
+     Developer:             Turn 10 Studios
+     Publisher:             Microsoft Game Studios
+     Genre:                 Racing
+     Achievements:          50 Achievements totaling 1000 Gamerscore
+     XEX CRC = 79C39BEC
+     XEX Media ID: 3A19FF1FF6B682F064C5D3D0-04DEF72C
+
+Region Code: 0x0000FD00
+     NTSC/J (Excludes China)
+
+Checking SS
+     Timestamp of Authoring: 2009/08/28 00:00:00
+     Timestamp of Mastering: 2009/09/14 22:39:19
+     SS CRC = EF28034B (RawSS = 1F7AAFCA)
+     SS Media ID: 3A19FF1FF6B682F064C5D3D0-04DEF72C (matches game)
+SS looks valid
+
+Checking DMI
+     Timestamp of Authoring: 2009/08/28 00:00:00 (matches SS)
+     DMI CRC = 4DB968E1
+     DMI Media ID: 3A19FF1FF6B682F064C5D3D0-04DEF72C (matches game)
+DMI looks valid
+
+Checking PFI
+     PFI CRC = 2A4CCBD3
+PFI matches known data (3rd wave - requires iXtreme v1.51 or later)
+
+Video partition found
+     Video CRC = 0E58FB9D (V0 = CF942E7B, V1 = 4809B37A)
+Video partition matches known data (3rd wave - requires iXtreme v1.51 or later)
+
+Stealth check passed!

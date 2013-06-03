@@ -1,0 +1,217 @@
+User Type,Username,Date,Text
+,JesusM8,2009-11-19T05:27Z,Note: If you don't seed I'm pulling this. Don't be selfish!
+,cegrof,2009-12-01T07:53Z,"Hi..Could anyone help me please..I have win7 64 bit and I tried & tried but it still doesnt work..please give me more detailed instructions..gugarl, how did you do it..thnx"
+,brewing,2009-12-08T10:18Z,"Four potential problems on Vista 64-bit. Please help!!!
+
+Step 1-11 carefully followed without anything unexpected occurring.
+
+1.) ""Step 12. - go to the tab ""Start/Stop/Reread"" When clicking on 'Stop Server,' the response at the bottom states ""Unable to Stop Server."" When clicking on 'Start Server,' the response at the bottom states ""Server Start Successful."" When clicking on 'ReRead License File,' the response at the bottom states ""Reread Server Failed.""
+
+2.) I continue on (hoping that all is well). Next step (13) is to install ArcGIS Desktop 9.3. After step 16, it states ""ArcGIS Desktop has been successfully installed."" However, it states that I still must register (did the crack not work?).
+
+3.) Step 17, ""To open the program go to the directory ""Software Product"" and select ""ArcInfo (Floating)""...  Can't find this? Can you be more specific?
+
+4.) Same with Step 18. Can't find it."
+,brewing,2009-12-08T10:29Z,"Okay, Step 17 & 18 are in the ArcGIS Desktop Administrator. Step 17 seemed to work fine. However, when typing in the license manager, ""myname-PC"" I receive a 'DesktopAdmin' error stating ""The computer you chose is not a valid license server or is running an older version of the License Manager.""
+
+In addition to the previous questions 1.) and 2.), can someone also help with this issue?
+
+Thanks!!!"
+,cegrof,2009-12-08T19:18Z,I did it..It works perfectly..Thank you gugarl anyway..
+,brewing,2009-12-11T06:09Z,"Thank you for uploading this software.
+
+Unfortunately, in Step 12 of the 'Install Instructions' document (go to tab ""Start/Stop/Reread"") I receive an error.
+
+When clicking on 'Stop Server,' the response at the bottom states ""Unable to Stop Server."" When clicking on 'Start Server,' the response at the bottom states ""Server Start Successful."" When clicking on 'ReRead License File,' the response at the bottom states ""Reread Server Failed.""
+
+I then check the Server Diagnostics tab, select 'Perform Diagnostics,' and the results are that multiple features (e.g. Aeronautical, AGSDataFX, etc.) state: ""No SERVER lines in the license file.""
+
+Any suggestions would be greatly appreciated."
+,brewing,2009-12-11T08:19Z,"Works perfectly!!! Problem was related to the license file, but was due to my own error.
+
+After downloading software, don't forget to select the extensions you want to use (ArcMap -> Tools -> Extensions)."
+,spiffingblue,2009-12-11T21:47Z,"Maybe have same problem as ""Brewing""? I get all the way to step 18 - Licence Manager - then get the same error message
+""The computer you chose is not a valid license server or is running an older version of the License Manager.""
+I put in the same computer name (replaced ""servernombre"" with my computer name) as licence and same case (are capitals a problem?). Can't use the browse buttin as it's a standalone computer with no other computers to connect to.
+Any help dudes?"
+,ibamba,2009-12-14T19:00Z,"Hello brewing, I am having exactly the same problem you described in Step 12 (server won't stop/start/etc).
+
+Can you (or anyone else) describe exactly what the problem was and how you solved it?
+
+Why won't server stop or start?"
+,JesusM8,2009-12-17T05:07Z,If you're having problems with the licence server then you made a mistake somewhere. The licence server HAS to work before you can proceed
+,gatomau,2010-01-17T14:33Z,"Hi! well i´m trying to get this to work for ages because I´m using 64-bits w7.. I finally was hoping for it to work but as some of others users keep getting a error with DESKTOP ADMINISTRATOR.
+
+""the computer you choose is not a valid license server or is running an older version of the license manager""
+
+Can anyone hep please?!
+
+For the users with:
+
+""Step 12. - go to the tab ""Start/Stop/Reread"" When clicking on 'Stop Server,' the response at the bottom states ""Unable to Stop Server."" When clicking on 'Start Server,' the response at the bottom states ""Server Start Successful."" When clicking on 'ReRead License File,' the response at the bottom states ""Reread Server Failed.""
+
+I suggest to choose ""force server shutdown"", I guess that would solve the problem."
+,symeboy,2010-01-18T17:51Z,"I get to step 13, when i try to start the ARCGIS.exe file a black screen pops up briefly then nothing!
+
+Is this a virus?"
+,symeboy,2010-01-19T19:56Z,"I still cant figure out where Im going wrong.  I am using windows 7 which allows you you install on one of two hard drives and I have tried both.
+
+I get to step 13, double click on the ARCGIS.exe file, a black screen pops up for a second, then nothing happens.
+
+Am I missing something? the instructions repeatedly refer to a DVD, I havent saved any of these files to DVD, is that the problem?
+
+Any help appreciated"
+,the-drifter,2010-01-22T21:45Z,"THANK YOU THANK YOU THANK YOU!
+
+the license manager installed perfectly (windows 7 x64)!
+
+however, i did run into a problem installing arcgis desktop that's native to windows 7. after  a quick search, i found this site to be immensely helpful: http://mandown.co.nz/esri/installing-arcgis-9-3-on-microsoft-windows-7/
+
+after registering the vbscript.dll and installing MSXML 4.0 SP2, the install went perfectly.
+
+also, i cleaned up and fine-tuned the install instructions included in this torrent (with the updated issues i ran into). if anyone's interested, i can post them here."
+,the-drifter,2010-01-22T22:08Z,"symeboy--
+it sounds like you're clicking on the wrong .exe. do not click on the one in the crack folder. the one referred to in step 13 is on the .iso file and is called ""ESRI.exe"".
+
+you have to mount the .iso image that came with the torrent to a virtual drive OR burn that image to a dvd and then place the dvd in your computer. once that's done, click on ESRI.exe (its a setup application).
+
+if you don't know what any of this means, then perhaps you shouldn't be trying to install this particularly heavy program...!"
+,onelife,2010-01-23T08:27Z,"It looks like from the first steps, whne running ""LMSetup.exe"",  files installed in the Program File (X86) under ESRI folder.  Arcview itself installed in ArcGIS folder still in Program Files (x86).  This indicates that although my system is Windows 7 Professional  64bit, the programs installed in 32bit.
+
+There was a warning about a USB dungle required to install in 64Bit when ""LMSetup.exe""  was run.  What is the work around to ensure a true 64Bit Arcinfo install?
+
+I found this article there as a first lead.  Any pointers greatly appreciated.  Thanks.
+Thank you,
+
+"
+,onelife,2010-01-23T08:37Z,ooops here is the link.
+,onelife,2010-01-23T10:04Z,"Ooops here is the link:
+http://geo.geek.nz/esri/installing-arcgis-9-3-1-and-arcgis-server-9-3-1-on-microsoft-windows-7/
+"
+,timhead03,2010-01-27T05:22Z,"hello.
+
+I am also getting this error as i'm trying to culminate my install in 64 bit vista:
+
+""the computer you choose is not a valid license server or is running an older version of the license manager""
+
+i tried following the instructions carefully, and i've been at it many times.
+
+brewing, how did you finally get yours to work?  anyone else have advice for me?"
+,doccohan,2010-03-19T11:34Z,Can it work with Windows 7 32-bit? Thanks!
+,rmb502,2010-05-03T08:06Z,"Great upload! Installed perfectly on Windows 7 64 bit.
+
+For those of you needing some assistance:
+
+Previously, I had difficulty installing ArcGIS Desktop v9.2, and found that I needed to dowload an updated version of License Management Tools. ALSO, I had to edit the Registration Entries file (sometimes titled ESRIfloat) and enter the correct license path and server name. Once I did that, installed perfectly. Hope that helps."
+,brygge_,2010-05-13T18:35Z,"I have tried to install this several times. At first I wasn't able to stop the server in step 12, but I tried again and didn't get that problem.
+
+However, I am now stuck at step 18 and get the same message as several others have before me: ""the computer you choose is not a valid license server or is running an older version of the license manager""
+
+I even redid the whole installation once I had removed the capital letters in the name of my computer, but no luck there...
+
+Anyone have a fix?"
+,scrubby001,2010-05-26T08:08Z,"The license manager appears to have worked fine on my windows 7 64-bit.  Server stop works, server start works, re-read license works.  ArcGIS install went fine.  License Manager changes went fine.  When I start the program it still says ""ArcView is not registered for use. To register, click on Start > Programs > ArcGIS > Desktop Administrator to start the Registration Wizard.""  Any help?"
+,scrubby001,2010-05-27T06:25Z,"If you have the License Manager working (Stop/Start/Re-read License) and the Desktop Administrator setup correctly on Windows 7, you still have to run ArcMap and the other programs with the administrator function (right click and ""run as admin"").  Otherwise you will get an error about the program not being registered."
+,juineaux,2010-07-13T06:41Z,"All the steps worked fine, including start/stop/reread, but keep seeing this message when i start the program. nProvide your license server administator with the folowing information:nLicencse server machine is not responding.nHostname: Not_setnLicense path: @Not_setnFlexnet licensing error:-96.7. System Error: 11001 \"" Winsock: host not found(Host_Not_Found)\"""
+,blackjeep,2010-09-04T23:14Z,"Ok, I have installed this before and it works just fine.  What I need to know is if the Spatial Analyst tool works or does not.  I could not get it to work last time I installed it.  Said the license was not activated or allowed.  Can someone check for me please?"
+,latortugita,2010-10-15T21:40Z,"i don't have this particular copy, but i had a similar problem when launching the program.  try running 
+
+C:\Program Files\ESRI\License\arcgis9x\lmgrd.exe
+
+and then launch the program.  you may find it useful to include a shortcut in your ESRI folder in the start menu.  
+
+please give that a go and let us know how it works. "
+,ttutteerr,2010-10-18T12:21Z,"@max@op
+Could you load the LM_Tools.rar on tpb, and provide a link?
+I cant seem to dl it from rapid..BTW thanks for the install instructions, I was lost with the instructions provided with the torrent."
+,eltoten,2010-11-17T22:23Z,"""
+This step is VERY IMPORTANT TO INSTALL THE SOFT Sentinel System Driver Installer 7.4.2 Restarting NOW
+
+Replace existing files with these new ones. Close and Now restart your computer.""
+
+WTF does that mean? Is this step so important that it is written in code???
+
+Not complaining, man but if it is that important it should also be very clear. I think this is where it goes wrong for me. I managed to get the license server running and ArcGIS installed but upon opening any of the apps I get the message that I need to register and when I click on ""later"" the program simply shuts down. Any solution?"
+,eltoten,2010-11-17T22:29Z,"Another question: if this is the 64 bit version of ArcGIS why dies it end up in the  directory?
+Or is it just that this crack is for WIN7 64 systems?"
+,eltoten,2010-11-26T18:12Z,Anybody got their hands on ArcGIS 10?
+,sedsage,2011-01-27T15:21Z,"Tutorial para instalar o Argis 9.3 no Windows 7 e Windows XP
+
+1-Abra a pasta crack 9.3
+
+2-Edite o arquilo licence.lic no bloco de notas, trocando a palavra scrita depois de server e antes de Esri
+pelo nome do seu computador:
+a primeira linha deve ficar assim:
+SERVER nome do seu computador ESRI_SENTINEL_KEY=37102011 27001
+
+3-Execute o programa LMsetup, que estÃ¡ na pasta crack
+
+4-Marque a opÃ§Ã£o que diz que vocÃª recebeu a licenÃ§a por e-mail, clique em Brownser,
+e procure o arquivo licence.lic, clique em Next atÃ© terminar a instalaÃ§Ã£o.
+
+5-O programa perguntarÃ¡ se vocÃª quer reiniciar NÃƒO REINICIE O COMPUTADOR, de um OK na mensagem de alerta
+que irÃ¡ aparecer.
+copie os seguintes arquivos da pasta crack para a pasta que foi criada em C:\arquivos de programas\ESRI\Licence\Arcgis9.x,
+substituindo pelos arquivos que jÃ¡ existem lÃ¡.
+
+-	ARCGIS.EXE
+-	LICENSE.LIC
+-	LMGRD.EXE
+-	LMSETUP.EXE
+-	LMTOOLS.EXE
+-	LMUTIL.EXE
+-	DEBUG.LOG
+
+
+6-Depois que vocÃª copiou estes arquivos para C:\arquivos de programas\ESRI\Licence\Arcgis9.x REINICIE O COMPUTADOR. 
+NUNCA REINICIE O COMPUTADOR SEM ANTES TEM COPIADO ESTES ARQUIVOS ACIMA PARA A PASTA DESCRITA."
+,sedsage,2011-01-27T15:33Z,"Tutorial português 
+migreme3KZ09 "
+,sedsage,2011-01-27T15:37Z,"7-Abra o licence manager tools que deve estar no seu menu iniciar, ou em : C:\arquivos de programas\ESRI\Licence\Arcgis9.x
+clique na Aba config services, nos campos Patch to the lmgrd.exe file, Path to the licence file e Path to the debug file
+clique no Brownse de cada um deles indicando onde estÃ£o os arquivos Lmgrd.exe, licence.lic e debug.log 
+(todos estÃ£o na pasta: C:\arquivos de programas\ESRI\Licence\Arcgis9.x).
+
+8-Certifique-se que as caixinhas Start server power up e use services, estejam marcadas.
+9-Clique em Save services
+
+10-Clique na aba Start/stop/Reread
+
+11-clique em stop service (observe a mensagem no canto)
+
+12-Clique em start server(observe a mensagem no canto)
+
+13-clique em reread licence file (observe a mensagem no canto)
+
+14-Feche o LMtools
+
+15-Instale o Arcgis normalmente,atraves do Ã­cone ESRI preste atenÃ§Ã£o no comeÃ§o da instalaÃ§Ã£o, ele nÃ£o instala as extensÃµes automaticamente
+Ã© vocÃª que tem que escolher quais vocÃª quer, caso vocÃª tenha esquecido nÃ£o se preocupe, vocÃª pode reinstalar normalmente
+depois, instalando as extensÃµes.Clique em arcview, depois clique em Install arcgis desktop e sigas as instruÃ§Ãµes.
+
+16-O processo de instalaÃ§Ã£o demora cerca de 25 minutos, no final quando perguntar se vocÃª quer registrar responda que nÃ£o
+
+17-Depois da instalaÃ§Ã£o completada, abra o Desktop administrator que deve ter sido criado no menu iniciar ou estÃ¡ na pasta
+c:\arquivos de programa\arcgis\bin\desktopadmin"
+,sedsage,2011-01-27T15:37Z,"18-dentro do Desktop administrator clique em software product, e selecione Arcinfo (floating), clique apply
+
+19-clique em licence manager, clique no botÃ£o change e coloque o nome do seu computador, o mesmo que vocÃª tinha colocado 
+quando alterou o arquivo licence.lic clique em apply
+
+20-Clique em availablity para ver todas as licenÃ§as de extensÃµes que estÃ£o disponÃ­veis.Feche o Desktop administrator
+
+21-Abra o arcmap, abra um novo mapa, clique no menu tools depois em extension e confira as extensÃµes, se estiver em branco
+Ã© porque vocÃª esquecer de instala-las, vÃ¡ para o tÃ³pico 22.
+
+22-Se seu Argis estÃ¡ sem nenhuma das extensÃµes, clique de novo no Ã­cone ESRI, como se fosse reinstalar o programa de novo,
+clique para instalar o Arcgis desktop e em seguida clique em modify, escolha as extensÃµes que vocÃª deseja, quando a extensÃ£o estÃ¡ 
+com um 'X' vermelho Ã© porque o Arcgis nÃ£o vai instalar ela, clique sobre ela para que apareÃ§a uma caixinha para que ela seja instalada,
+depois de escolher as extensÃµes, clique em next."
+,darklazer57,2011-03-02T08:22Z,Where the hell can you find Service Pack 1 for ArcInfo anyways?
+,hfborges,2011-03-02T15:22Z,I downloaded but cannot find the Service Pack. Where is it?
+,conig,2011-05-01T08:44Z,this work for me. i'm using W7 Ultimate x64..it's all running well.thanks anyway.
+,Soprip,2011-11-15T20:50Z,"darklazer57 google it and the first one is the patch
+"
+,Soprip,2011-11-15T20:51Z,thanks for the upload works perfect but i don't know how to call arc box(arctools etc) from command prompt any help there?
+,Soprip,2011-11-17T18:24Z,does it work
+,Soprip,2011-11-17T18:30Z,does it work for 32bit system?

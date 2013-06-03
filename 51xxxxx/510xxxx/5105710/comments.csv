@@ -1,0 +1,46 @@
+User Type,Username,Date,Text
+,blackwidowfarms,2009-09-30T21:39Z,"Works in Sonar 8, should work in Sonar 6 and 7 as well."
+,blackwidowfarms,2009-10-01T08:56Z,"BTW This is the complete list of MP3 bitrates (44.1khz, 16-bit, stereo) available for instant export from Sonar, with the patch:
+
+32 kbps
+40 kbps
+48 kbps
+56 kbps
+64 kbps
+80 kbps
+96 kbps
+112 kbps
+128 kbps
+160 kbps
+192 kbps
+224 kbps
+256 kbps
+320 kbps"
+,scrabulot,2010-02-03T09:39Z,"Hi Aaron, really appreciate the application and torrent but I just can't get this to work.  Any pointers?"
+,scrabulot,2010-02-03T19:49Z,"Ignore me, I figured it out... Didn't notice the drop-down option :-)"
+,blackwidowfarms,2010-04-28T22:14Z,"glad you found that drop-down menu. ok for anyone that cannot find your MP3 export options.... go to ""file / export audio"" as usual. Then look under your file name in the export audio box, it should show you different formats you can export in (WAV, MP3 etc...).
+ do NOT choose ""mp3"" as that's the expired built-in encoder, look at the BOTTOM of the drop down menu and you will see your chosen bitrates in this format:
+
+MP3 ___ kbps 
+MP# ___ kbps
+
+etc...
+
+sorry, I should have pointed this out. if you have any questions or concerns I am at
+blackwidowfarms (at) hotmail.com
+
+thanks, and I'm glad you find this useful.
+
+Aaron Bewza"
+,aaronbewza,2011-04-17T00:24Z,"This is to follow up an obviously old post...
+
+Aaron's Sonar Patch v5.2 is now complete, it features ALL available bitrate options (CBR and VBR), a fully-functional interface and the ability to add tags to your Mp3s. Two encoder engines are incuded (32 and 64-bit), and the appropriate one is used based on if your system is 32 or 64-bit.
+
+This is the solution for us who would like to export Mp3 from Sonar longer than the one-month allowed period.
+
+Works with Sonar X1, and all previous versions.
+I will post it in a few days.
+
+(screenshot)
+http://i1207.photobucket.com/albums/bb474/aaronbewza/SonarPatchv5.jpg
+"

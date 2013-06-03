@@ -1,0 +1,355 @@
+User Type,Username,Date,Text
+[V],RobbingHood,2009-11-30T08:44Z,"* Note: This torrent was posted on Oct, 26 2008 and reposted on Nov, 30 2009.
+
+
+Some additional install notes by BigKarl_519 at 2008-12-24 03:50 CET: 
+
+Thought this might help...
+
+INSTRUCTIONS TO STOP ADOBE FROM CHECKlNG YOUR SERIAL AND DE-ACTIVATING IT
+
+You will be opening a hidden file which needs special permission to open. With a 
+special terminal command, the file will open automatically in TextEdit. You will 
+add a few lines of text to the file, save and close. That's it. Pretty simple and 
+totally not scary, huh? Ok so let's get to it:
+
+Step 1 - If you're still going to install CS4, make sure you install it as a trial 
+(do not enter a serial number). If you've already installed and have used one of 
+the expiring serials, load any CS4 app, go to the Help menu and Deactivate. 
+Quit any open CS4 apps.
+
+Step 2 - Open Terminal (found in Applications/Utilities/). In the terminal window, 
+paste in:
+
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+Step 3 - Hit return and type in your admin password.
+
+Step 4 - A file will automatically open in TextEdit. In TextEdit, at the bottom of 
+the document, hit return and paste in the following:
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+Step 5 - Save the file. Do NOT do a ""Save As"". Close the file.
+
+Step 6 - If you're on OS X 10.4, reboot. If you're on OS X 10.5, in a new terminal 
+window, paste in:
+
+sudo dscacheutil -flushcache
+
+Hit return and exit out of Terminal.
+
+Step 7 - Launch any CS4 app and enter the serial from the keygen. The serial will 
+last for decades.
+
+As from at I can see this method is working with CS4 trials download via 
+www.adobe.com
+
+Hope this helps :) "
+[V],RobbingHood,2009-11-30T08:46Z,"Some additional install notes by ruggers88 at 2009-07-16 06:24 CET: 
+
+I'll confirm that this works on Mac OS X 10.5.7.
+If its not working for you, then you are probably doing something wrong.
+
+1. Install Adobe software. When you get to the serial/trial page, stop. 
+
+Step 2 - Open Terminal (Hit CMD+Spacebar > type in terminal). In the terminal window,
+paste in:
+
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+Step 3 - Hit return and type in your admin password.
+
+Step 4 - A file will automatically open in TextEdit. In TextEdit (if you don't have text edit you're in trouble.. go install it or some kind of text editor), at the bottom of
+the document, hit return and paste in the following:
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+Step 5 - Save the file. Do NOT do a ""Save As"". Close the file.
+
+Step 6 - If you're on OS X 10.5, in a NEW TERMINAL WINDOW (Hit CMD+N or go to Shell menu>New Window>Basic), paste in:
+
+sudo dscacheutil -flushcache
+
+Hit return and exit out of both Terminals.
+
+Step 7 - Unrar the downloaded crack torrent, look for a readme.txt file inside ForceX folder. Scroll to the bottom, type in the serial from there.
+
+Finished!
+
+If there are any problems, reboot and try again. If you can't get past the serial, click trial first. Then when you launch the app for the first time you will come back to serial page, and redo the steps above."
+[V],RobbingHood,2009-11-30T08:46Z,"Some additional install notes by canarycreations at 2009-10-09 05:33 CET: 
+
+This may help those of you that are having problems. I installed this program and discovered that the easiest way to do all of this, open ""Setup"" once opened, click 30 day trial and proceed to do step 1-5 DURING setup. Once setup is COMPLETE, do the steps 6 AND 7 and either REBOOT (if your on 10.4) or do Step 7 (if your on 10.5). I found after this, I open the program, on a computer with MAC OSX 10.5 it just opens without asking for a serial and your cracked and good.. in MAC OSX 10.4 it asks for a serial so insert one from a Keygen and your golden.
+
+Install Instructions FOR MAC-
+Highly recommend Disconnecting from Internet while doing all this!!
+
+Step 2 - Open Terminal (found in Applications/Utilities/). In the terminal window, paste in:
+
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+Step 3 - Hit return and type in your admin password.
+
+Step 4 - A file will automatically open in TextEdit. (If it doesnt CHECK and see if you have a text editor, if you don't GET ONE) In TextEdit, at the bottom of the document, hit return and paste in the following:
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+Step 5 - Save the file. Do NOT do a ""Save As"". Close the file.
+
+Step 6 - If youre on OS X 10.4, REBOOT. If you're on OS X 10.5, in a new terminal window, paste in:
+
+sudo dscacheutil -flushcache
+
+Hit return and type in your admin password [if asked again].
+Step 7 - Launch any CS4 app and enter the serial from the keygen. The serial will last for decades.
+
+4. When you launch again the program will attempt to activate itself by accessing Adobe's servers, but since you have modified the ""hosts"" file, it will simply redirect itself back to 127.0.0.1, which is your own computer. It will assume that activation is successful (it has been tricked!) and you may get the License Agreement box. Click accept and run.
+
+
+IF ERROR OCCURS ON MAC -
+For those who still get the error:
+
+License for this product has stopped working
+Error: 150:30
+
+try this...
+
+If you have modified the Host-file do the following steps, else jump to #6
+#1 In Terminal type: sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+#2 Hit return, enter your admin password when prompted and hit return.
+#3 Your Hosts file should automatically open in TextEdit.
+#4 _REMOVE_ the following from the open Hosts file:
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+#5 Save the file and quit TextEdit and Terminal.
+
+###START HERE### (if you have not been messing with the Host-file)
+#6 In Terminal type following: sudo dscacheutil -flushcache
+#7 Hit return, enter your admin password when prompted and hit return.
+#8 In Terminal type following: sudo rm /Library/Application\ Support/Adobe/Adobe\ PCD/cache/*
+#9 Close Terminal.
+#10 Go to: http://www.adobe.com/support/contact/licensing_download_eula.html
+#11 Download the licensing repair tool (at the bottom of the page).
+#12 Run it, and follow on screen instructions, quit when done.
+
+#13 Instal ""Little Snitch"" from www.obdev.at
+#14 Restart your Mac
+#15 Little Snitch will ask for permissions, allow most but when you notice an adobe application ALWAYS DENY!
+#15 Run a CS4 application, you will now see"
+,albinoz,2009-11-30T08:50Z,Is some one have the k for Director 11.5 ?
+,marvin2000,2009-11-30T14:38Z,My Norton AV delated the file. Virus?
+[V],RobbingHood,2009-11-30T18:15Z,"@marvin2000 
+
+My common sense detected a newbie. I guess this is your first torrent? Then it's serious time to learn about av scanners and women, and why the both can generate false positives ....... Wait with the women till you're  older."
+,troy1969,2009-11-30T19:13Z,"@RobbingHood
+
+Thank you VERY MUCH for all the info!! Man this is highly appreciated. 
+
+I never knew what was wrong before, but now I got it  ;-) As I wrote, highly appreciated!
+
+Thx for your time and effort"
+[V],RobbingHood,2009-12-02T00:50Z,"At TPB there are many n00bs, trojans, and false positives everywhere. 
+*Hint: no trojan in here, but yet another n00b detected. "
+[V],RobbingHood,2009-12-02T04:43Z,"@Frayl 
+
+It wasn't meant to hurt but to learn. I'm glad it did and that you were so honest to reply.
+
+Another *hint* (to help TPB and the society):
+For reporting bad or suspicious torrents: http://forum.suprbay.org/forumdisplay.php?fid=29
+
+Last *hint*: coloured skullz or the Mod logo etc are trusted uploads, althougt mistakes may happen.
+
+
+Cheerz :)"
+,gufiche,2009-12-04T03:30Z,Thanks man...
+,benduncalf,2009-12-04T12:51Z,sounds good... does it work?
+[V],RobbingHood,2009-12-04T23:51Z,"@benduncalf
+
+It works if you read the install notes and additional install notes posted here."
+,rsmseys,2009-12-05T09:12Z,"I can confirm the instructions set out by Robbinghood in these comments worked for me (with updates on Adobe products still working) on Snow Leopard 10.6.2
+
+I used the serial:
+
+1325-0103-9902-0903-4881-3878
+
+which I got from the keygen provided (beware, you can't run the serial unless you have a windows PC handy, or run in an emulator)."
+,rsmseys,2009-12-05T09:15Z,"This is an update about my last post. Everything works still lol, just I said that I got the serial from a keygen provided, when there actually wasn't a keygen provided. That was another torrent. Either way, I gave you the serial that worked, so technically you shouldn't even have to download the other torrent. Enjoy!"
+,steelspring,2009-12-13T21:52Z,hmmm.. can someone please seed this? It says there's plenty of people on here but I'm getting nowhere fast..
+,shalvius,2009-12-14T21:46Z,"RobbingHood-s instuctions worked great for me(Mac OS X 10.5.8)
+i even didn't downloaded the torrent, i used serial posted by rsmseys:
+1325-0103-9902-0903-4881-3878
+works fine,
+thx guys!"
+,Linnxx,2009-12-15T01:44Z,"Ok, this is my first ever attempt at this, and I'm failing. If anyone could help me out I would appreciate it so much! I need that CS4 collection...
+
+Here's what I did:
+
+I first tried using the serial posted by rsmseys and shalvius for a trial version of Flash CS4 which I have already installed and used. That worked fine!
+
+Then I downloaded the Dreamweaver CS4 trial from the Adobe homepage and followed the intructions by RobbingHood: stopped the install before the serial-page-thing. 
+
+Then I copy pasted all the stuff posted here to change the host file in terminal. That seemed to work from all I could tell.
+
+Then I used the same serial again (the one I used for Flash five minutes previous) and no go.
+
+I realise I've probably made some really obvious mistakes here, but I'm clueless as how to fix it...
+
+Do I need to uninstall all Adobe stuff and start again? Do I need a keygen for the serial? 
+
+I'm on Mac OS 10.6.1 and I learned all these words today (keygen, terminal, all of it)
+
+Please please if anyone could take pity on a novise dummie I'm forever grateful."
+,Linnxx,2009-12-15T10:51Z,"Thank you so much RobbingHood, oxmotion, shalvius and everyone for this!
+
+It uninstalled everything and reinstalled following these fabolous instructions, and now all the programs are running perfectly!
+
+Thank you!!"
+,nemma1,2009-12-19T21:00Z,"sorry probably a stupid question but I'm a new Mac user. How do I install .exe on my Mac? 
+
+Thanks"
+,Xsniper,2010-01-06T20:35Z,"Is this working, still? I tried before and it worked and then would no longer validate after reboot. Anyone have a fix for that?"
+,bro0ken,2010-01-08T00:36Z,"Hello :) Thanks for this ! :)
+Almost every program worked perfectly for me :)
+
+Can anybody tell me how to fix Dreamweaver?
+The first time I installed it it came up ""License Expired"" or something, and I uninstalled it and installed all the master collection but it still won't work. I think it's weird because every other program works. Anybody have an idea of what I can do?"
+,kalpeshvakharia,2010-01-15T19:25Z,"Hi,
+Make sure your Admin Password shoudn't be Blank, otherwise it won't work.
+
+Also, I was using Power MAc G5,  OS X 10.5 with 1GB ram.
+After installation, I got an message that some of the  components are not installed.
+Finally I checked all CS4 software and found that InDesign CS4 is not working, everytime, I get message : Application quit unexcepedly...""
+
+Anybody help me to figure out InDesign problem?
+
+Also, how to Uninstall & Install particular software?
+
+Now I hav upgraded OS X to 10.5.8 with 3GB Ram. Thanks."
+,thekmaker,2010-01-19T15:23Z,"I really like you RH, but... This time you was not cool.
+
+http://www.virustotal.com/analisis/5af2880e090b566857d93eb4f57f614feca990b72f166eec09df4d71b9edc8c7-1259681092
+
+Check it out, please before you download the torrent."
+,Lonelyryu,2010-01-26T05:57Z,"Ok, I'm a new MAC user, and this WORKS, but you have to follow the guidelines. I had issues  understanding the ""terminal"" stuff and to do what in what order. So check it. I succeeded first time, and I have the latest leopard software.
+
+1.Download the program and set it up and STOP at the Trial/Serial page & TURN OFF INTERNET.
+
+2. Open terminal and type what ROBBINGHOOD wrote. REMEMBER to watch THE SPACE between the letters, if you don't do it right it won't work. Then PASTE and SAVE all those number codes in the text window that opens.
+
+3. Once you save, close terminal and the text window. THEN proceed to click TRIAL and select the programs you want. 
+
+4. Once it's done, open photoshop and enter the serial, it's here somewhere LOL. I didn't use keygen on this torrent cause it's got a trojan. 
+
+5. Done! I opened every program and they all worked, didn't get a customer agreement, which is beautiful. I opened more than 5 times and nothing. I CONNECTED to internet and tried opening again. NOTHING!! GOOD LUCK, GUYS!
+
+
+Thank you RobbingHood! You Rock! U DA MAN!"
+,leftalone1,2010-01-31T12:22Z,Robinghood: Thanks for the great upload!! I followed your instructions and it worked perfectly. 
+,TylerDurgen,2010-02-05T12:41Z,"I just wanted to say thank you, Thank You, THANK YOU! I followed your directions and then BINGO! Everything is working fluidly! Thanks a bunch man!"
+,KoKoKell,2010-02-08T21:10Z,It won't let me type in my password
+,Evok0ne,2010-02-17T22:48Z,"First things first...
+
+Thank you RobingHood!! It is great to finally have CS4, and it was cake to install.
+
+I'm wondering if it is safe to let CS4 update? Anyone know? 
+
+Thanks in advance"
+,MP4-25,2010-03-02T09:11Z,"I downloaded this torrent on a windows based computer to be able to use the keygen. 
+
+Generated it and got the serial num. for Mac(its so easy to do) then on my mac I went on the adobe website and downloaded the Adobe CS4 Master Collection TRIAL(took about 2hrs)
+
+When that was done I felt that I should restart my mac, so i did restart it, after that I opened one of the Adobe apps for the FIRST time which was Photoshop.
+
+Then the option came up for either to choose the 30 Day Trial or enter a serial code for full use forever.
+
+So all I did was copied the Serial num. from the Keygen on my windows computer and just typed it in the serial code option for Photoshop AND THAT WAS IT. Photoshop opened up then i closed it, open it again to make sure and it did. Then I opened all the other programs and they all did :)
+
+As for updating i'm sure it will. if any updating problems accure i'll be sure to comment on here:)
+
+My Software is MAC OS X version 10.6.2"
+,MP4-25,2010-03-03T04:19Z,"^^^Update! Sorry folks i MESSED UP. I forgot to mention that I turned my Airport/Internet OFF before I installed everything.
+
+Then when I turned it back on an Adobe Message came up and said that ""Adobe DOES NOT recognize your serial"" so then it went back to the option to use it as a 30 day trial or enter a serial for full version.
+
+So, I followed every step by step and every line that RobbingHood posted on his THIRD comment on the FIRST comments page. I turned of the internet like he said to and after i did all the steps with ""TERMINAL"" and so on then i turned the internet on again after i did all the steps right before i opened any of the Apps and everything opened without any serial problems and so on with the net on :)
+
+Software is MAC OS X ver. 10.6.2
+
+:) Please forgive my long comment. Hope I don't annoy anyone. I'm just trying to explain everything fully and very easy so that everyone understands and it will be useful to whoever may like it :)"
+,harmon01,2010-03-13T06:26Z,Follow robbinhood. All programs works.
+,hardfast,2010-03-15T02:55Z,THIS IS A VIRUS AND DOES NOT WORK.
+,LangerX,2010-03-19T23:22Z,"This works fine. By the way, can i update CS4 Photoshop or will block after upgrade?"
+,dnice215215,2010-04-06T04:20Z,HEY ROBBINGHOOD.....THANX FOR ALL THE TORRENTZ....ID LIKE TO ASK YOU A QUESTION....CAN U GIVE ME SOME INPUT ON YOUR HONEST OPINION ON WHAT U THINK THE ABSOLUTE BEST ANTI-VIRUS SOFTWARE OUT THEIR IS...I HAVE A HP PAVILION LAPTOP WITH A WIN 7 64 BIT OPERATING SYSTEM...PLEASE RESPOND ...I TRUST YOUR OPINION!!!!...OH IF U COULD EMAIL ME WITH ANSWER TOO IF POSSIBE...dnice215215@yahoo.com
+,jadagitt,2010-04-26T10:50Z,"This torrent works great! I am rather new at this, and need to ask, when my software update wants to update all my Pro applications (wich contains some ""regular"" software) can i chose to update or will this f""""k up my cracked software?
+
+Thanks."
+,thanatos56,2010-05-15T18:41Z,"k, probably a noob question, but is it supposed to be opening the keygen in a txt edit window? if not, what do i do?"
+[V],RobbingHood,2010-05-16T08:37Z,"@thanatos56 
+
+Probably you're taking about an image of the keygen and don't realize that the keygen is quarantined by your av software. So all you need to do is to learn a lot about false positives."
+,joxii,2010-06-06T17:40Z,"Hi everyone, I'm new and  need some help. My OS is 10.6.3. After i paste in the code in STEP 4 in TextEdit, I couldn't save the document. There was this error message: ""This Document can no longer be saved using its original Western (Mac OS ROman) Encoding. Please choose another encoding (Such as UTF-8)."" What shall I do? I'm stuck.  "
+,ldkjo,2010-07-03T02:34Z,"i installed the trial version and i followed all the steps but when i open any cs4 app it doesnt ask for the serial #, is something wrong ????? :s"
+,articut,2010-07-11T12:53Z,"Hello guys, please i cannot get this crack, i need this RobbingHood files for crack adobe CS4, please anyone can help me, i really don\'t know how crack this suite.nthanks in advance"
+,articut,2010-07-11T16:40Z,i tried to enter the serial and the hosts and it will show : nlicensing for this product has stopped workingnnerror 150:30nWhat can i do????nthanks guys
+,crobmac,2010-08-23T02:45Z,"i'm having some trouble. i already have adobe cs4 and i enter the serial and it works with the internet turned off. the part i cant figure out is the terminal part. i get the root shell and then enter sh disable_activation_osx and it says no such file in directory. then i took the file called disable_activation_osx and put that onto my hdd and executed the same command but this time terminal said permission denied. my operating system is mac tiger. 
+please help. sorry for the long comment"
+,tee_bee,2010-09-18T01:40Z,"This didn't work for me the first time because I entered the serial number.  The second time when I altered the files in Terminal at the Trial or Serial page, it gave me the licence agreement but failed to install the good stuff I selected the first time, and only installed the crud I didn't select (from the first install - I did an uninstall on that).
+Wonder if mac has something like registry keys that show I already tried to run those??"
+,tee_bee,2010-09-18T01:41Z,PS I'm running Leopard 10.6
+,Bouquetin,2010-09-29T10:50Z,I can't expand the .rar file...I use StuffIt expander but it errors for some reason! :(
+,mojoandmrpet,2011-01-22T20:19Z,"I already had the 30-day trial installed. It expired. Tried all steps ROBBINGHOOD provided. It was easy, but it still says that the license has expired. I also deleted the cache in the adobe support folder in the library. Still no go. Any suggestions?"
+,tapitap10,2011-04-28T17:28Z,"I have done all that has been repeated by so many people. Now when I try to start any of the programs, an alert comes up saying ""licence for this product has expired"" there is no error number and the moment i click ok it goes back to desktop. Please help me where am I going wrong?"

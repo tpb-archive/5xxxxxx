@@ -1,0 +1,31 @@
+cuPrintf allows you to to add printf-equivalent cuPrintf calls to your
+CUDA C code.
+
+
+In addition to the readme and the license agreement, the cuPrintf zip file
+package includes two files source files: cuPrintf.cuh and cuPrintf.cu.
+
+Drop these files into your source directory or your include path and start
+making calls to cuPrintf in your CUDA C code.
+
+This sample code works on all CUDA-enabled GPUs.
+
+This cuPrintf code works significantly better on GPUs with SM arch 1.1 and
+later, so always build your code with Ñ‚ÐÐ¬-arch=sm_11Ñ‚ÐÐ­ or higher if possible.
+
+This cuPrintf code should work with CUDA 2.3 or newer, and is supported on
+all platforms on which the CUDA Toolkit is supported.
+  	
+
+Version: 2.3 or later  	
+
+Post Date: 12/4/2009  	
+
+Graphics Processor: General
+
+
+MD5SUMs 
+
+b749c58674b3e950a8d0fa8c3518854b  cudatoolkit_eula.txt
+59e055596664bcfc56b47fd2beeb9576  cuprintf_2.3_5105025.zip
+c8dbc3b65379e6259eb8df100759341d  cuPrintf_readme.htm

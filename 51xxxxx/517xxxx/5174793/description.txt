@@ -1,0 +1,28 @@
+Install game.
+Apply razor patch (rzr-init.exe).
+Extract crackfix, overwrite all.
+Install l4d-stminst-x32.reg or l4d-stminst-x64.reg depending on your OS.
+
+
+Create a shortcut to left4dead2.exe on desktop, add following parameters:
+
+-console -novid +sv_allow_lobby_connect_only 0 +sv_lan 1
+
+
+Server runs L4D2_LANserver.bat and sets up the game.
+
+
+Clients run from game console:
+connect HOSTNAME/IP
+
+
+Players need to rename [sorry, the names won't hold a restart], so once:
+bind F12 "setinfo name PLAYER"
+and then press F12 each time you connect
+
+
+
+
+Credits go to Valve, Razor1911, JIEgOKOJI, madwiggyNLD, Dog, Lonewolf22
+
+This worked OK on my Win7 x64. Witches, cola misson, chainsaw - completed whole first act without a problem. For singleplayer just start a server and don't wait for friends :)

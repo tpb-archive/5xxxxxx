@@ -1,0 +1,17 @@
+User Type,Username,Date,Text
+,SnowManUK99,2009-11-20T10:12Z,T-H-A-N-X
+,dontstealmyfish,2009-11-30T04:07Z,"is this CORE keygen fixed? the previous one that was used with most serv-u releases looked good at first. but eventually gave a trial expired msg and stopped the app from listening for incoming ftp connections. on a normal standalone app this woudlnt be so bad. but since its a server app that usually runs constantly, having ti give an error part way through kind of stinks. i ran hashcalc and checked and the md5's are different....so i HOPE this keygen is new and improved, as i am usually so impressed with CORE work. but everyone has a bad day once in a while.. if this is new and improved, thank you so very much!"
+,Testudocc,2009-12-07T02:35Z,"Does not work properly.
+Although the Keygen does genereta a working license, once a day the license goes 'expired' anyway. Restarting the server brings it back for a day, until it goes expired again...
+Has anyone got this running stable?"
+,Testudocc,2009-12-17T23:16Z,"Contd' - How to *MAKE* this work:
+
+Set a scheduled task to run every few hours for a script:
+==
+net stop serv-u
+net start serv-u
+==
+This way Serv-u has no time to detect it is cracked and stop listening for connections.
+
+Problem solved! ...Kinda... :-|"
+,jocamero,2010-05-15T19:58Z,"betabuster, thanks for the tip, worked great."

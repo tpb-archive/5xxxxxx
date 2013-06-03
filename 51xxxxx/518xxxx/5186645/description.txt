@@ -1,0 +1,45 @@
+assalaamu alaykum 
+
+this torrent has been written to help poeple who have bought a cq61-312sa and who want to downgrade/ (upgrade it) from win7 to winxp. 
+
+GENeRAL INFO ON DOWNGRADING TO XP   
+http://h30434.www3.hp.com/psg/board/message?board.id=OS&message.id=12875#M12875 
+this model is one of the hardest model from hp to downgrade but with this torrent God willing it shall be easy for you. 
+
+1. in the zip file "RAID7xx.zip" are the sata drivers for the hard drive.  they need to be 'slipstreamed' into the windows xp installation disk using software called nlite. 
+
+Important Notes: 
+In Nlite, choose the option of insert -> multiple driver folder 
+Select ONLY x86 driver for AMD SATA AHCI when asked. 
+Never choose x64 driver when asked 
+
+use windows xp service pack 3 or slipstream service pack 3 into your xp install disk 
+
+2.  once you have installed windows xp onto your computer run the program "cq61-312sa drivers auto installer.exe" this will put all the drivers onto your pc.  burn it on to a pc first because you will not have wireless lan or lan installed after installation of xp 
+
+3.  mount and install "graphics driver DNA-ATi_XP_8.12x32.iso" using poweriso the drivers are included in the autoinstaller but this will install software for your graphics 
+
+4.  go to http://h10025.www1.hp.com/ewfrf/wc/softwareList?os=228&lc=en&dlc=en&cc=us&lang=en&product=4033872 and install the xp software for this model 
+
+HP wireless assistant 
+HP Fn shortcut keys 
+
+-------------------------------------- 
+
+any problems pls go to HP Support Forum 
+
+special thanks to 
+Rakhmad (HP Support Forum) 
+CherylG  (HP Support Forum) 
+Daisy @ http://www.driversdown.com 
+
+
+
+ONE MORE THING 
+
+install xp on the largest partition and perform a quick format.  DO NOT REMOVE ANY PARTITION.  the partitions contain backup information and HP will not offer any support for windows XP. once xo is installed make an image of the partition using acronis. 
+
+at anytime windows 7 can be put back on your pc by pressing F11 when booting up 
+
+when you have installed XP you will see that windows XP is on the D drive. 
+

@@ -1,0 +1,35 @@
+IPv6 Security
+ 
+Protection measures for the next Internet Protocol
+ 
+As the worldâ€™s networks migrate to the IPv6 protocol, networking professionals need a clearer understanding of the security risks, threats, and challenges this transition presents. In IPv6 Security, two of the worldâ€™s leading Internet security practitioners review each potential security issue introduced by IPv6 networking and present todayâ€™s best solutions.
+ 
+IPv6 Security offers guidance for avoiding security problems prior to widespread IPv6 deployment. The book covers every component of todayâ€™s networks, identifying specific security deficiencies that occur within IPv6 environments and demonstrating how to combat them.
+ 
+The authors describe best practices for identifying and resolving weaknesses as you maintain a dual stack network. Then they describe the security mechanisms you need to implement as you migrate to an IPv6-only network. The authors survey the techniques hackers might use to try to breach your network, such as IPv6 network reconnaissance, address spoofing, traffic interception, denial of service, and tunnel injection.
+ 
+The authors also turn to CiscoÂ® products and protection mechanisms. You learn how to use Cisco IOSÂ® and ASA firewalls and ACLs to selectively filter IPv6 traffic. You also learn about securing hosts with Cisco Security Agent 6.0 and about securing a network with IOS routers and switches. Multiple examples are explained for Windows, Linux, FreeBSD, and Solaris hosts. The authors offer detailed examples that are consistent with todayâ€™s best practices and easy to adapt to virtually any IPv6 environment.
+ 
+Scott Hogg, CCIEÂ® No. 5133, is Director of Advanced Technology Services at Global Technology Resources, Inc. (GTRI). He is responsible for setting the companyâ€™s technical direction and helping it create service offerings for emerging technologies such as IPv6. He is the Chair of the Rocky Mountain IPv6 Task Force.
+ 
+Eric Vyncke, Cisco Distinguished System Engineer, consults on security issues throughout Europe. He has 20 yearsâ€™ experience in security and teaches security seminars as a guest professor at universities throughout Belgium. He also participates in the Internet Engineering Task Force (IETF) and has helped several organizations deploy IPv6 securely.
+ 
+* Understand why IPv6 is already a latent threat in your IPv4-only network
+* Plan ahead to avoid IPv6 security problems before widespread deployment
+* Identify known areas of weakness in IPv6 security and the current state of attack       tools and hacker skills
+* Understand each high-level approach to securing IPv6 and learn when to use each
+* Protect service provider networks, perimeters, LANs, and host/server connections
+* Harden IPv6 network devices against attack
+* Utilize IPsec in IPv6 environments
+* Secure mobile IPv6 networks
+* Secure transition mechanisms in use during the migration from IPv4 to IPv6
+* Monitor IPv6 security
+* Understand the security implications of the IPv6 protocol, including issues related to ICMPv6 and the IPv6 header structure
+* Protect your network against large-scale threats by using perimeter filtering techniques and service providerâ€“focused security practices
+* Understand the vulnerabilities that exist on IPv6 access networks and learn solutions for mitigating each
+ 
+ 
+This security book is part of the Cisco PressÂ® Networking Technology Series. Security titles from Cisco Press help networking professionals secure critical data and resources, prevent and mitigate network attacks, and build end-to-end self-defending networks.
+ 
+Category: Networking: Security
+Covers: IPv6 Security

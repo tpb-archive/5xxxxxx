@@ -1,0 +1,6 @@
+User Type,Username,Date,Text
+,bard777,2009-11-27T18:35Z,All softwares are latest versions except Java which is about 2 month old (Java 6 update 16) while a new version is available (Java 6 update 17)
+,bard777,2009-11-27T18:37Z,Oh another thing. I'd be seeding only during 2-8 AM IST which is GMT+5:30. Please bear with that.
+,bard777,2009-11-28T10:03Z,"Ummm...another thing. If you have problems during start up or it crashes then reboot, press F8 to enter safe mode upon reboot and remove the graphics and audio drivers (cause they're for my hardware, 99.9% cases you won't have such crappy hardware). The programs you should remove are Intel(R) Extreme Graphics Driver and C-Media 3D audio."
+,Donuty7,2009-12-29T08:40Z,"Question, hopefully you can answer. I use Mac, but I want to partition my hdd using Bootcamp into XP, will this run just like a regular XP set up disk?"
+,bard777,2009-12-31T22:23Z,"Donuty, I really can't comment. But it ought to work. Just choose not to replace the MBR and restore image and let Mac install the bootcamp to chainload NTLDR. Or there's another cheap way that works with OS x86 Dunno if it works original Mac or not. Most probably it won't cause Macs use GUID instead of MBR....naah you would need bootcamp. Why don't you try asking this question in insanelymac forum?"

@@ -1,0 +1,22 @@
+User Type,Username,Date,Text
+[V],MartinBLCK,2011-01-29T23:00Z,thanx mate
+,matriarchies,2011-03-11T11:44Z,"What's the source of this audio?  It can't be CD unless you did something to the audio before conversion to FLAC: CD audio tracks are always a multiple of 1/75 seconds (= 588 samples (at 44100Hz) = 2352 octets = 1 CD sector) in length[1], but all these tracks (except one) have lengths which are not multiples of 1/75 seconds.
+
+This table shows the length of each file, in samples modulo 588 (588 is the number of samples in 1/75 seconds).  For untouched CD-sourced tracks, this number must be 0.
+
+    104  01 - A Victory Of Love.flac
+    412  02 - Summer In Berlin.flac
+    200  03 - Big in Japan.flac
+    196  04 - To Germany With Love.flac
+    392  05 - Fallen Angel.flac
+    464  06 - Forever Young.flac
+      0  07 - In The Mood.flac
+    520  08 - Sounds Like A Melody.flac
+    316  09 - Lies.flac
+    336  10 - The Jet Set.flac
+
+What's this mean?  Either this music wasn't ripped from a CD, or the ripper modified the audio somehow (which is frowned-upon for FLAC audio).
+
+I did run auCDtect on all files, and each is reported as being CDDA-sourced with 100% probability, so it probably wasn't encoded to MP3 and back.
+
+1. Source: http COLON SLASH SLASH wiki DOT etree DOT org SLASH index DOT php QUESTION-MARK page EQUALS-SIGN SeedingGuidelines (section Tracking at Sector Boundaries)"

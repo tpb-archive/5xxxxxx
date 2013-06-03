@@ -1,0 +1,36 @@
+User Type,Username,Date,Text
+,Spartanus,2009-11-21T19:59Z,"Thank you very much, BasilBrush!!! Please continue releasing cross-country races!
+
+Too bad Demonoid is still down..."
+,BasilBrush,2009-11-22T13:41Z,"The relay events from Beitostolen (22nd Nov 2009) will be coming up later this evening as I'm going down the pub.
+I'm cross posting to Mininova as I'm having trouble logining to Piratebay - the site is very busy.
+So you'll find the same torrents at Mininova."
+,BasilBrush,2009-11-22T13:43Z,"Is everyone happy with 700Kbps MP4 ?
+I could increase the bitrate but the files would take longer to download."
+,Spartanus,2009-11-22T19:29Z,"Well, speaking for myself, it would be better to have a higher bitrate.
+
+I start the downloads in the evening and watch the videos in the morning, plus my connection is 4 Mbit/sec, so the size doesn't matter that much. Plus, these videos go into my permanent collection, so I would prefer a higher quality. Plus, my screen is 1920x1200. :) So there you go, four reasons to increase the bitrate, please. :))"
+,BasilBrush,2009-11-22T23:37Z,"What bitrate would you like ?
+1000Kbps is equivalent to many AVI encodes.
+1200Kbps would give good results.
+1500Kbps is probably as high as I would want to go."
+,BasilBrush,2009-11-22T23:44Z,"The 700Kbps (quality 0.12bpp) is what the BBC use for their MP4 files.
+
+700Kbps/264 is about equivalent to 1000Kbps/Xvid.
+I'll bump it up to 1000Kbps next weekend and see how it goes.
+
+264 CAVLC encoded MP4 should play back on old computers similar to Xvid where as 264 CABAC requires a more powerful computer to decode it."
+,ahd39dhd,2009-11-23T01:22Z,"Basil, thanks a million times over for uploading this for those of us who can't get any kind of coverage of XC and Biathlon.
+
+Give us the highest bitrate you feel comfortable with."
+,BasilBrush,2009-11-23T21:32Z,"I've done some test encodes at 1000Kbps and 1500Kbps. You don't really see much difference - it still looks a bit fuzzy. I've also tried using the AviSynth LSFMod which slightly sharpens up the image but the encoding time doubles.
+
+The basic problem is that Eurosport transmit the picture in 544x576i 16:9 format. Most satellite channels do this rather than use 704 or 720.
+
+Black bars exist left and right so I crop 8 pixels left, 10 pixels right, 2 pixels top, 4 pixels bottom so the actual useable picture size is 526x570 which is then resized to 640x368 (for a square PAR) using Spline36Resize. Aspect Error is about -0.2%"
+,Spartanus,2009-11-24T22:23Z,"Pirate Bay's search engine was down, so I couldn't find this torrent. :)
+
+Dear BasilBrush, I am not sure it's worth going for the highest possible bitrate as, like you are saying, the result usually isn't that much different from, say, 1200 Kbps, and at the same time the file size and the encoding time increases significantly.
+
+So I think maybe not 1500, but something more like 1000-1200 Kbps would be a good place to start?.."
+,Spartanus,2009-11-24T22:28Z,"PS I don't think that being able to play back video files of the kind we are discussing is a problem for many computer users nowadays... I mean, my 5 or 6-year-old desktop can evan play 720p video! :)"

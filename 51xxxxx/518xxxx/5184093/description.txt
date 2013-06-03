@@ -1,0 +1,17 @@
+Project Gazelle Bittorrent Tracker (what.cd fame) Virtual Appliance
+
+This is a virtual machine based on debian 5.0.3 minimal install plus dependencies for installing and configuring the gazelle front-end and xbtt back-end.
+
+This is an alpha quality release intended to see if there is any interest for such a idea and to solicit feedback. This release is NOT intended for production.
+
+base:
+xbbt tracker compiled and configured to run.
+gazelle v1.0r27 installed running fine
+mods:
+globalfreeleeech,for external links, client whitelist 
+
+
+TBD:
+Donation, Invite, Collage, Themes, Security and lots more
+
+See projectgazelle dot wordpress dot com for additional details.

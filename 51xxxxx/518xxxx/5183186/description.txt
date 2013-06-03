@@ -1,0 +1,474 @@
+Copied from ÂµTorrent Homepage:
+
+
+What Is ÂµTorrent?
+
+
+Micro-Sized Yet Feature Filled
+
+ÂµTorrent is the world's most popular BitTorrent client.
+Most of the features present in other BitTorrent clients are present in ÂµTorrent, including bandwidth prioritization, scheduling, RSS auto-downloading and Mainline DHT (compatible with BitComet). Additionally, ÂµTorrent supports the Protocol Encryption joint specification (compatible with Azureus 2.4.0.0 and above, BitComet 0.63 and above) and peer exchange.
+
+
+Resource-Friendly
+
+ÂµTorrent was written with efficiency in mind.
+Unlike many torrent clients, it does not hog valuable system resources - typically using less than 6MB of memory, allowing you to use the computer as if it weren't there at all. Additionally, the program itself is contained within a single executable less than 220 KB in size.
+
+
+Skinnable and Localized
+
+Various icon, toolbar graphic and status icon replacements are available, and creating your own is very simple. ÂµTorrent also has support for localization, and with a language file present, will automatically switch to your system language. If your language isn't available, you can easily add your own, or edit other existing translations to improve them!
+
+
+Actively Developed and Improved
+
+The development team puts in a lot of time working on features and making things more user-friendly. Releases only come out when they're ready, with no schedule pressures, so the few bugs that appear are quickly addressed and fixed.
+
+
+Changelog:
+
+
+1.9 is now 2.0, and we've hit beta!
+
+Release Notes:
+
+
+We've added UDP tracker support!
+
+
+uTP has been improved significantly over the previous alpha, with many bugs fixed and performance improvements. It's no longer hidden in Advanced settings.
+
+
+The setup dialog has been overhauled to make it much easier to use and with a built-in speed test. It's still not quite complete yet, but this will give you a good taste of what we're up to with it!
+
+
+A new transfer cap feature has been added to track bandwidth usage, along with graphs to show your usage.
+
+
+
+Feature Overview:
+
+UDP trackers are a different protocol for tracker communication that uses significantly less processing power on the tracker end.
+It's important for us to support this because trackers have limited resources, so this should allow them to support many more users with their current hardware and not crash under the load.
+
+uTP is an alternative communication method for BitTorrent traffic that allows the client to automatically regulate its bandwidth usage to avoid adversely impacting your internet connection. This will allow you or other users on the network to download their torrents but still allow others on the network to function with little difference. This does not require any additional setup.
+In addition, uTP in this version has added its own form of STUN, a method of getting incoming connections without direct connectivity to the Internet.
+This allows ÂµTorrent to punch holes through routers and firewalls to increase connectivity and improve speeds. It is even possible to connect two firewalled peers through uTP's NAT traversal feature.
+
+The transfer cap settings were added in response to various users who have ISP-mandated caps on how much data they can download/upload in a month.
+Now you can track your usage in MB (with a handy graph to visualize it) and even configure ÂµTorrent to stop torrenting once the limits are exceeded.
+Currently, you can configure the time interval, the data cap and whether it should stop based on only download, upload, or both combined.
+As a privacy notice, this traffic data is not sent back to us or anyone. 
+
+
+
+2009-11-25: Version 2.0 Beta (buid 17427)
+
+
+Fix: Fixed rare crash when using magnet links
+
+Fix: Fixed crash when super seeding a torrent without metadata
+
+Fix: Fixed handling of a uTP edge-case
+
+
+Change: Complete upload-only extension support
+
+
+
+
+2009-11-18: Version 2.0 Beta (buid 17341)
+
+
+Fix: Various GUI crash bugs
+
+Fix: Accept magnet links through add-url webUI
+
+
+
+
+2009-11-12: Version 2.0 Beta (buid 17273)
+
+
+Fix: More strict https connection state management for halfopen accounting.
+
+
+Fix: Problem during install toolbar offer
+
+
+Change: Relaxed the requirements on bencoded integers to parse some broken torrents
+
+
+
+
+2009-11-06: Version 2.0 Beta (buid 17188)
+
+
+Change: Added checks for heap corruption that caused crash in uTP
+
+Change: Improved stability by making all executable pages not writable
+
+
+Fix: Fixed stack overflow when copying peer list
+
+Fix: Fixed allocation regression in connection to peers
+
+
+
+
+2009-11-03: Version 2.0 Beta (buid 17127)
+
+
+Change: Enable multiple instances of the client to run on multi-user machines (e.g. fast user switching)
+
+
+Fix: Fixed uTP crash in edge condition
+
+Fix: Fixed crash when icmp.dll wouldn't contain the expected functions
+
+Fix: Fixed crash when closing add torrent dialog while dragging a column
+
+
+Change: The Speed guide will now reject ports listed in bt.no_connect_to_services_list
+
+Change: Add an upgrade message if a buggy version of nvLsp is detected
+
+
+Fix: Don't take the total number of connections into account when connecting to trackers
+
+
+Change: Increase default transfer cap to 250 GB/month
+
+
+Fix: Accounting of halfopen https connections would cause uT to stop making new connections
+
+
+Change: Made the DHT compatible with future extensions
+
+
+Fix: Sometimes the &ip= parameter sent to trackers would be incorrect
+
+Fix: Correctly order bencoded dict items in extension handshake message
+
+Fix: Fixed holepunch error handling and support detection
+
+Fix: Check invalid ports and IPs in the DNS resolver to avoid using them
+
+
+
+
+2009-10-12: Version 2.0 Beta (build 16850)
+
+
+Change: Revert change where asserts are active in release builds
+
+
+
+
+2009-10-10: Version 2.0 Beta (build 16835)
+
+
+Fix: Various polishing on the setup guide
+
+Fix: Potential crash related to TLS not being initialized
+
+
+Change: Disable installer for Wine
+
+Change: Balance CDNs to download updates
+
+
+Fix: Fixes bug where magnet links wouldn't work if PEX was disabled
+
+Fix: Potential crash in network code
+
+Fix: More crashes when using magnet links
+
+
+
+
+
+2009-09-25: Version 2.0 Beta (build 16666)
+
+
+Fix: Port settings saved in Setup guide
+
+
+Change: Updated helpfile code to be forward compatible with changes
+
+
+Fix: Fixed torrent creation bug
+
+Fix: Fixed crash introduced in last build
+
+Fix: Fixed rare crash when parsing messages
+
+
+
+
+2009-09-24: Version 2.0 Beta (build 16625)
+
+
+Change: UI improvements in setup guide
+
+
+Fix: More setup guide crash fixes
+
+Fix: Fixed rare holepunch crash
+
+
+Change: Collect stats on holepunch performance
+
+
+
+
+2009-09-17: Version 2.0 Beta (build 16546)
+
+
+Fix: Fixed crashes in setup guide
+
+Fix: Graying out custom toolbars with transparency
+
+
+Change: Disable Ask for unsupported 64-bit Windows
+
+
+
+
+
+2009-09-14: Version 2.0 Beta (build 16515)
+
+
+Fix: Fixed crash in setup guide
+
+Fix: Fixed UDP-tracker crash when dns resolution would fail
+
+
+Change: Use user-supplied port in Setup Guide, save auto-portmap prefs.
+
+Change: Added European Servers in Setup Guide
+
+Change: New Icons in Setup Guide
+
+
+Fix: Improper mutex accounting in hang detector
+
+Fix: Crash when creating torrents
+
+
+
+
+
+2009-09-09: Version 2.0 Beta (build 16407)
+
+
+Fix: Fixed handling of invalid udp tracker responses
+
+
+
+
+2009-09-04: Version 2.0 Beta (build 16394)
+
+
+Fix: Bugs where have messages would not be remebered for magnet link downloads
+
+Fix: Buffer overrun vulnerability
+
+
+Change: Conservative network locking in installer
+
+
+Fix: Rare crash in low level network read and write
+
+Fix: Fixed crash in udp tracker connection with unresponsive DNS
+
+Fix: Improved out-of-memory error handling in disk thread
+
+Fix: Installer crash after download
+
+
+Feature: Stop setup guide tests without exiting dialog
+
+
+Fix: Crash when peers disconnect from a magnet-link torrent right as we received the metadata
+
+Fix: Fixes bug where magnet links wouldn't work if PEX was disabled
+
+
+Feature: Added ability to re-run setup tests
+
+
+Fix: Fix crash when using magnet links and a peer is failing at a particular point
+
+Fix: Fixed negative allocation in RequestChunks() for web seeds
+
+
+Change: Updated bandwidth presets in Setup guide
+
+
+Fix: Fix startup race condition between network and disk I/O thread
+
+
+Change: Optimization added to speed up torrent creation
+
+
+
+
+2009-08-20: Version 2.0 Beta (build 16222)
+
+
+Feature: Added versioned help files.
+
+
+Fix: Setup guide fixes
+
+Fix: Installer with UAC
+
+Fix: Allow UDP trackers in the first tier when creating torrents
+
+Fix: UDP Tracker retries three times instead of two
+
+Fix: potential crash in installer
+
+Fix: Crashes when removing labels
+
+Fix: Selection of labels over 256 characters in length
+
+Fix: Multiple HTTP download crashes
+
+Fix: Http seed fix for multifile torrents
+
+Fix: uTP connections that are upload rate limited will not have their max window size grow indefinitely
+
+Fix: Vista and Windows 7 FW rules are created for all profiles
+
+
+
+
+
+2009-08-10: Version 2.0 Beta (build 16126)
+
+
+Fix: Tracker requests are not invalid anymore
+
+
+
+
+2009-08-04: Version 2.0 Beta (build 16081)
+
+
+Change: Disable toolbar offers for Wine installs
+
+
+Feature: New Setup guide & Speedtest.
+
+
+Change: Uninstaller is added to all user profiles
+
+
+Fix: Crash when assigning new label to torrents from RSS
+
+
+Change: Incomplete downloads sort after completed downloads if sorting by "Completed On"
+
+
+Feature: Add Moldova to peer flags
+
+
+Change: Added upnp host cache to speed up upnp nat resolution on misbehaving routers
+
+
+Fix: Maintain category list selection on update for some edge cases
+
+
+Change: If selected, install start menu and desktop shortcuts to all users instead of only current user
+
+
+Feature: Grayscale disabled toolbar buttons
+
+
+Fix: Fixed uTP selective ack bug (would cause connections to stall and time out)
+
+Fix: Fixed uTP fast re-send bug (would sometimes re-send packets that shouldn't be re-sent)
+
+Change: Prompt to take associations in installer only if any others exist
+
+
+Fix: Buffer overrun vulnerability in create torrent dialog
+
+Fix: uTP recovers faster after timeout
+
+
+Feature: uTP supports window sizes smaller than the packet size
+
+
+Change: Reduced uTP overhead slightly by ramping up packet sizes at lower rates
+
+
+Feature: Enable and disable toolbar buttons according to selected torrents
+
+
+Change: UAC must be completed to install in Vista or higher
+
+
+Fix: Memory leaks in main window, protocol associations, settings dialog, general tab
+
+
+Change: Tweaks to Ask toolbar offer
+
+
+Feature: UDP tracker support
+
+
+Fix: Only change run on startup if installer is shown
+
+
+Change: Added support for 3:rd party applications to more easily be configured to access the uTorrent web UI, i.e. to pair the applications
+
+Fix: Make "alternate upload rate when seeding" apply when the seeding is set by the scheduler
+
+Fix: Align "Web Seeds" in torrent creation dialog
+
+Fix: Translated strings in uninstaller
+
+Fix: Http seeds would not reconnect after stopping and starting torrent
+
+Fix: Http seed for multifile torrents
+
+Fix: Regression in 15562 that caused frequent crashes
+
+
+Feature: New installer with EULA, file association
+
+
+Fix: uTP issue on low-latency high-throughput networks
+
+Fix: Copying long filenames to clipboard no longer results in garbage or crash
+
+Fix: Fixed web seed support for multi-file torrents
+
+
+Change: Torrent whose "Force Recheck" is greyed out will not recheck when asked through multi-torrent selections
+
+Fix: When adding torrents through URLs via commandline, we would always open the add torrent dialog
+
+Fix: Handle multi file torrents with web seed urls that incorrectly don't end with a slash
+
+Fix: Make sure web seed urls end with a slash for multifile torrents
+
+Fix: Setup Vista firewall
+
+Fix: Remove settings on Vista during un-installation
+
+
+Feature: New "Transfer Cap" pane in Preferences
+
+Feature: uTP can be enabled or disabled using "Enable bandwidth management" checkbox in Preferences
+
+
+Fix: Check at startup for incompatible versions of NVIDIA nForce firewall.
+
+
+ED2K Link:
+ed2k://|file|utorrent-2.0-beta-17427.upx.exe|314160|34FB8C970F252DEC93E00C6FDC6152F5|h=GUW27TNCJ6LCIMSCQVOJ4BVHZGJBY7A3|/

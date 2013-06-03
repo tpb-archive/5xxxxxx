@@ -1,0 +1,52 @@
+User Type,Username,Date,Text
+,DJDRFox,2009-11-08T21:26Z,"I have installed, opened crack. But everytime I open it from start menu it keeps asking for serial number??? How do I stop it doing this? Maybe I have installed it wrong?
+Otherwise great download, thank you"
+[T],ProDvDRipper,2009-11-08T22:40Z,copy and paste the crack in the installer folder that it
+,speedy211,2009-11-15T00:34Z,Does this still have the issue where the program phones home and locks out after a while?
+,Heffnuts,2009-11-17T07:14Z,"speedy211:
+Most likely it is. Cause this dumbass never ups his own shit."
+,stemoc,2009-11-22T06:06Z,if its using the susan* registration then its probably been reported so will not work and will cause the DJ to crash with an error 22
+,zdude123,2009-12-13T11:01Z,"==================
+Protection Error 16 - Fix
+==================
+
+Found this solution on net. Has worked for me so far. Try it if u wish.
+
+Remove The registry entry--
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\VxD
+
+-----------------------------
+
+(((Complete Steps)))
+
+Uninstall Virtual DJ
+
+1- Delete C:/Program Files/VirtualDJ
+2- Delete ""C:/Documents and Settings/*Owner* /My Documents/VirtualDJ
+-3 Delete all other VirtualDJ folders
+
+- Delete these Registry Keys :
+HKEY_CURRENT_USER\Software\VirtualDJ
+HKEY_LOCAL_MACHINE\SOFTWARE\VirtualDJ
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\VxD
+
+If it works for you as well....spread the word. :-)
+
+
+One more thing.
+~ Before installation - disconnect.
+~ After installation prevent VDJ from accessing the internet using firewall."
+,flank11,2009-12-23T01:05Z,"@zdude123
+
+Thanks!! The method you use works thank god. your a life saver"
+,food_lord1992,2009-12-24T08:04Z,"hey, i tried to experiment with this and worked for me. it over-rides my protection error. all I did was download a trial version of the most recent vdj. i replaced the ""virtualdj_trial) with the included crack of this torrent and worked for me.
+
+btw, thanks for this torrent prodvdripper, and thanks to zdude for the instructions on the protection error solution... :)"
+,Magbig15,2009-12-31T19:11Z,"serial should work evry time 
+EX79-WUHL-Y6DTY"
+,mickstanz,2010-01-16T04:38Z,"Im really in need on the map needed to run Xponent on VDJ, anyone help me out? Cheers!"
+,allfuqedup,2010-01-17T20:08Z,"""hey, i tried to experiment with this and worked for me. it over-rides my protection error. all I did was download a trial version of the most recent vdj. i replaced the ""virtualdj_trial) with the included crack of this torrent and worked for me.""
+
+YES! THAT worked perfectly!, thank you! I had made the mistake of NOT catching the option to disable ""autoupdate"" and it went error 16 on me...but this crack works with the trial version...just copy and paste then delete the trial EXE from the folder..great work guys!"

@@ -1,0 +1,58 @@
+NFO:
+
+Pinnacle Station is the eponymous station of the downloadable content Pinnacle Station. It can be found in the Phoenix system of the Argos Rho cluster.
+
+Pinnacle Station is asteroid-based -- close to the planet Vebinok -- and was originally constructed by the turians to function as a concealed command center during the Krogan Rebellions. It was later retrofitted as a military training facility by the Citadel for highly-skilled special operations teams employed by the Council.
+
+The combat simulator allows for training under a variety of hazardous conditions, and promising competitors from all races attend by invitation only. The station has a radius of 340m and a working population of 1200, and is currently commanded by the Systems Alliance Admiral Ahern. 
+
+Installation:
+
+Just put the folder with the downloaded content inside DLC folder that is located in the main directory of the game.
+
+In order for it to work you need an updated exe file that came with Bring Down The Sky (that you propably already have).
+It is recommended to have patch 1.02 installed.
+_________________________________________________________________________________
+
+
+---YOU DO NOT HAVE TO DOWNLOAD THIS TORRENT IF YOU HAVE THE WHOLE MOD WITHOUT SERIAL ALREADY!!!---
+
+
+IF you already downloaded the .exe version of Pinnacle Station that asks for serial from another source, you DO NOT have to download this package, just use 7-zip to extract the files from $[31] folder - there you have DLC folder - just copy what's inside into DLC folder inside main directory of the game. 
+NEXT STEP - copy autoload.ini file from Bring Down The Sky (Mass Effect-> DLC -> DLC_UNC folder) to Mass Effect -> DLC -> DLC_Vegas and make it look like this:
+(posted by EvilDick777)
+Fixed autoload.ini:
+
+[Packages]
+2DA1=BIOG_2DA_Vegas_GalaxyMap_X
+2DA2=BIOG_2DA_Vegas_Merge_X
+2DA3=BIOG_2DA_Vegas_AreaMap_X
+2DA4=BIOG_2DA_Vegas_UI_X
+2DA5=BIOG_2DA_Vegas_TreasureTables_X
+
+DotU1=PlotManagerDLC_Vegas
+PlotManagerConditionals1=PlotManagerDLC_Vegas.BioAutoConditionals
+PlotManagerStateTransitionMap1=PlotManagerAutoDLC_Vegas.StateTransitionMap
+PlotManagerConsequenceMap1=PlotManagerAutoDLC_Vegas.ConsequenceMap
+PlotManagerOutcomeMap1=PlotManagerAutoDLC_Vegas.OutcomeMap
+PlotManagerQuestMap1=PlotManagerAutoDLC_Vegas.QuestMap
+PlotManagerCodexMap1=PlotManagerAutoDLC_Vegas.DataCodexMap
+GlobalTalkTable1=DLC_Vegas_GlobalTlk.GlobalTlk_tlk
+GlobalTalkTable1_ES=DLC_Vegas_GlobalTlk_ES.GlobalTlk_tlk
+
+
+[GUI]
+NameStrRef=182170
+DescriptionStrRef=182171
+ImagePackage="GUI_SF_PRC2_SaveLoad.Images_PRC2"
+ImageFrame="shotOne"
+CreditsFile="BIOCredits_DLC_Vegas.ini"
+
+.!
+.!
+.!
+
+EVEN IF YOU DOWNLOD THIS TORRENT, EDIT Mass Effect->DLC->DLC_Vegas->autoload.ini file and make it look like above!
+.!
+.!
+.!

@@ -1,0 +1,18 @@
+User Type,Username,Date,Text
+[V],mothergoose56,2009-12-05T00:46Z,"""what difference does it make when you convert an audio file into a higher bitrate?""
+
+The 128k VBR's actually average about around 112k - but they peak at 128k 
+when needed, hence the ""variable"". During the quiet moments it drops when 
+not needed, hence the saving in file size. You are getting a slight drop 
+in quality from the re-encode, but (if I may gloat a bit) you are starting 
+with a pretty good source so it won't be too noticable. I've had people tell 
+me that 128k is too high, and it probably is a bit. I could get by with 112k 
+max, but I figure the vbr works it out in the end. I definitely noticed a 
+difference with only 96k max though. 
+
+If I were you I'd try cbr encodes at 96k, 112k and compare it to your 128k's. 
+You might find that it solves your vbr issues and saves you some file size too. "
+[V],mothergoose56,2009-12-05T00:47Z,"BTW, I've been trying to reply but I got ""db error"" every time. "
+,go_yukuri,2009-12-05T05:01Z,"The ones and the twos and the eights.
+Thanks bud."
+,mickfury,2009-12-11T15:51Z,Cheers!!

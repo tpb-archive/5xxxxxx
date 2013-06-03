@@ -1,0 +1,55 @@
+User Type,Username,Date,Text
+,magicpeter1,2009-10-29T18:31Z,"sp3 bis Februar ???
+
+wie soll ich das verstehen?
+
+mfg aus dem schwarzwald"
+,abigcollab,2010-01-29T13:25Z,na det update is vom feb 09!   ;)
+,arschloch23121993,2010-03-07T11:45Z,hallo isz es 32 Bit oder 64 Bit
+,apopapa,2010-03-08T15:48Z,bei mir steht das die eingegebene product id falsch ist. ich es wird kein key benötigt
+,big_lebowski_2,2010-09-20T21:54Z,"mach ich etwas falsch, aber bei mir wird nach nem PK gefragt!!! entpacken>brennen>booten, so funktioniert es leider nicht...."
+,suspectgr,2010-09-23T13:58Z,"Thanks, Working Perfect :)"
+,Maddin.96,2010-12-25T17:48Z,wie muss ich das brennen und starten???
+,Maddin.96,2010-12-25T17:53Z,wie brenn und installier ich das???
+,Maddin.96,2010-12-25T18:48Z,"ich hab die .rar datei entpackt, dann die .iso datei entpackt und den inhalt auf eine cd gebrannt.
+Dann eingelegt, pc gestartet und tadaaa:
+er liest die cd nicht und startet einfach windows....
+kann mir irgendwer helfen???"
+,rumpelstoss,2011-01-04T14:19Z,"Funktioniert einwandfrei! Key und Aktivierung werden nicht benötigt.
+Der Inhalt der iso-Datei muß mit einem geeigneten Brennprogramm, z.B. MagicISO, direkt auf eine CD gebrannt werden, damit die CD auch bootfähig wird. Erst entpacken und dann brennen geht nicht, weil die CD dann nicht bootfähig wäre."
+,lujara,2011-03-28T19:58Z,"Danke für den Up hoffe es geht, habe in nur 9Min 20Sek fertig geldan(bis zu 1.7 Mb/s bei nur ca.55 Seeders!)
+Hoffe das Teil funzt!
+
+Gruß"
+,Solala23,2011-06-26T12:02Z,"Entpacken, das iso brennen.
+
+Im bios die boot reihenfolge auf Cd/dvd stellen den rest auf disable
+
+Pc starten
+
+nach der Installation 25- 40 Minuten wieder zurÃ¼ckstellen, also boot- reihenfolge 1. Hd 2. cd/dvd, etc
+
+fertig.
+
+bei einer  installation auf sata- festplatten
+bei der frage "" treiber von drittanbietern installieren"" bejahen. nach rund einer minute die frage treiber von drittanbietern von disketten installieren wiederum bejahen, dann kommt die Meldung kein Diskettenlaufwerk gefunden, dann auf ""Abrechen drÃ¼cken "" die installationroutine zieht sich dann die treiber fÃ¼r sata von der cd.  (ich habe es zweimal ohne die installation von treibern von drittanbietern versucht und windows antwortete 
+mit bluescreen)
+info: es ist 32 bit"
+,slii,2011-07-19T09:54Z,"hey Leute,
+dieser Release von BIE ist echt gut geworden.... Bis auf das das sie  BIE Inc beim Namen und Organisation hineingeschrieben haben, aber das bekommt ihr ganz gut wieder weg mit ein bisschen Arbeit in der Registery =>
+
+gehe in der registry zu
+ ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion"",
+ dort findest du 2 eintrÃ¤ge:
+ RegisteredOwner und RegisteredOrganization,
+ bei denen Ã¤nderst du die Werte halt von BIE zu irgendetwas!!
+
+PS: Einziger Wehrmutstropfen...Dieser Release kommt ohne SATA-AHCI Treibern mit also ist dieser Release nichts fÃ¼r Leute die eine SATA Festplatte haben... LÃ¶sung = > 
+1) SATA Treiber mit nLite einbinden oder
+2)Deskette mit SATA Treiber ( wer das denn noch hat ;) 
+3)Im Bios auf IDE umstellen...
+
+ODER falls das diese Punkte euch auch nicht helfen kann ich noch einen Release empfehlen , denn gibt es direkt hier bei thepiratebay zum herunterladen ... hier der Link http://thepiratebay.org/torrent/4530636/Microsoft_Windows_XP_7_in_1_German_ink._Service_Pack_3
+
+
+Ciao und brav seeden :DD"

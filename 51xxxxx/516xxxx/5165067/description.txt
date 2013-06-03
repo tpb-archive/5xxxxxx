@@ -1,0 +1,34 @@
+*******************************************************************************
+                   Pixar : Knick Knack (Original Render)
+*******************************************************************************
+
+  Pixar : Knick Knack (Original Render)
+Video Format.........: 23.976fps 2-pass x264
+Resolution...........: 704x474x24bits
+Aspect Ratio.........: 1.33
+Audio Format.........: AC3 2.0 384Kbps 48KHz
+Source...............: NTSC VHS tape (Pixar Tiny Toy Stories).
+http://www.imdb.com/title/tt0097674/
+
+-------------------------------------------------------------------------------
+                                Release Notes
+-------------------------------------------------------------------------------
+
+  This short was re-rendered by Pixar to be more "family-oriented" for the
+theatrical release of Finding Nemo, the "Pixar Short Films Collection" bluray
+release, and other digital releases. This is the original in super 90's
+standard-def, with a bit of modern video filtering applied to it.
+
+*******************************************************************************
+                   Pixar : Knick Knack (Original Render)
+*******************************************************************************
+
+
+
+Well damn it, I hadn't watched this video in a while, and it looks like I messed up the A/V sync. The audio needs to be advanced by 200ms. If you copy the file to your C: drive, you can fix it with    mkvmerge    like this :
+
+
+mkvmerge -o "C:\KnickKnackNEW.mkv" -y 2:-200 "C:\Pixar - Knick Knack (Original Render) x264 AC3-2.0.mkv"
+
+
+Sorry about that, must have been in a hurry...

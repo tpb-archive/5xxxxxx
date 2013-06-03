@@ -1,0 +1,25 @@
+---Hack the max half-open TCP connections---
+
+-If youre on XP sp2, your TCP connections are limited to a maximum of 10. This might hurt your downloading speed because it wont let you connect to as much peers as you want. It is supposed to slow down viruses because their spreading strategy is to connect to a high amount of ip numbers, but it could cripple your torrent downloads.
+
+-A nice way to fix this is to download this patch. 
+
+Note: Some people report that their antivir reports the patch to be a Virus, This is not the case.
+
+-After you have opened this patch, just press (y) when the window pops up and wait for the countdown. en tada! your done.
+
+-The patch allows you to set the maximum allowed connections to any number you want. Any number between 50 and 100 is ok (more is NOT always better).
+
+-Next you need to configure your torrent client to allow 50-100 max half-open TCP connections
+
+*****For uTorrent: Options > Preferences > Advanced options > net.max_halfopen
+
+*****For Bitcomet: Options > Preferences > Connection > max half-open TCP
+
+
+Now youre ready to go!
+
+A third point of interest is that some *windows updates* revert your tweaked tcp connections back to 10. So its wise to check this every now and then. You can check this by going to (in windows xp) Start > Control Panel > Administrative Tools > Event Viewer > System Look for event 4226 (sort by event). 
+
+
+

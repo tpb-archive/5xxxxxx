@@ -1,0 +1,117 @@
+
+
+SpaceSniffer 1.1.0.0
+
+FREEBIE
+
+
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/0spacesniffer_layered.png
+
+
+SpaceSniffer is a freeWare (donations are welcome) and portable tool application that lets you understand how folders and files are structured on your disks. By using a Treemap visualization layout, you have immediate perception of where big folders and files are placed on your devices. Treemap concept was invented by Prof. Ben Shneiderman, who kindly permitted the use of his concept into this tool. 
+
+Start a scan process and see the overall situation. Bigger are the elements on the view, bigger are folders and files on your disk. You need more detail on a big folder? Just single click on it. The selected element will be detailed with its content. 
+
+Need more and more detail? Keep selecting elements and they'll discover their secrets to you. Need a larger view of a small folder? Then double click on it, and it'll zoom to the full extent of the view. 
+
+If you need to understand why no more free space is left on media, keep following bigger elements. Maybe you want to focus only on particular file types... ok. Just type the file type on the filter field (example: *.jpg) and press enter. The view will react and show you only JPEG files.
+Want to exclude files? Then type a starting pipe before the filter (example: |*.jpg) and press enter. The view will show everything but JPEG files. 
+
+If you want to keep track of examined files you can tag them. Four colors are available. Just hover the mouse on a file and press CTRL+1 to tag it red. There are keys also for yellow, green and blue tagging. Use them as you wish. You can also filter on tags (example: :red will show only red tagges files, :all will show all tagged files and so on). You can also exclude tagged files (example: |:red will exclude all red tagged files)
+
+Want to know if you have old files? Type the condition in the filter field (example: >2years) and the view will react accordingly. 
+
+You can also filter on file size, file date and combine all filters
+(example: *.jpg;>1mb;<3months;|:yellow) 
+
+Once you have your result, you can produce a textual report by using the embedded Export Module. You can even customize the report layout to match your needs. 
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/1AskTheAdminHeadSS.png
+
+Do you know what is on your system? I mean do you really really know what is occupying your hard driveâ€™s space?
+Do you know where your 200GB is on free space? Whatâ€™s that? You only have 72MB free? What is using all that lost hard drive space? What do you mean you donâ€™t know?
+It looks like you are in need of a virtual canine application called Space Sniffer (Windows only)â€¦ Get it? Like a dog.
+Umm well, the software is MUCH better than my joke â€“ I assure you. No, really!
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss1.png
+
+It is a 1.1MB file. Once you get that file downloaded, go ahead and extract the executable file from the zip file. It is called SpaceSniffer.exe and it is completely portable!
+
+Once you get the file out and run it you will see a screen that looks like this:
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss2.png
+
+On that first screen, select the drive you want to analyze or sniff for lost hard drive space. I selected my C: drive. And hit Start. That starts the action and you will see a moving representation of your selected drive as it sorts out what is on your drive. You will see something similar to this as it runs:
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss3.png
+
+If you click on any of the drive portions, you can â€œZoom Inâ€ like so (even while you are still scanning). I double-clicked on the desktop portion occupying 5.4GB of data and saw this:
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss4.png
+
+It is pretty damn cool to see the directories or drives broken down like this. My drive did take some time to complete. In the area of 15 minutes. But I was using the system as I went for normal day to day activities. Then it was complete.
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss5.png
+
+Now letâ€™s take a look at your options. You can see them by hitting Edit â€“ Options. Then, you can see each of the four tabs below:
+The first tab denotes if you should show free space, show unknown space, sort item and the minimum size of an element (this is the smallest items), proportions of items against each other and initial detail level. Mess around with them and see what works for you.
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss6.png
+
+Hmm dynamic zoom as a effect? Letâ€™s enable it and see what happens. After enabling this feature it, shows the effect of â€œZooming inâ€. Itâ€™s cool but not very useful. It did not use as much memory as I expected.
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss7.png
+
+Scan alternate data steams? This had me stumped so I checked my friend Google and read this:
+Just after that I heard about an Alternate Data Stream (ADS) scanner named LADS. When I ran it on one of my drives I was shocked to find that I had over 17,000 hidden objects that ETrust had apparently placed there as part of itâ€™s virus scanning procedure. Theyâ€™re â€œAlternate Data Streamsâ€, and one was associated with every file on my NTFS partitions. [http://www.2kevin.net/datastreams.html]
+That sparked my interest enough for me to check the box and re-run my scan.
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss8.png
+
+My new scan showed free space but no Alternate Data Streams.
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss9.png
+
+The last option in the preferences is the colors of items placed on your map. Tweak them to your heartâ€™s desire and let us know how it works out in the comments!
+ 
+http://i903.photobucket.com/albums/ac240/pmsyb/SpaceSniffer/ss10.png
+
+Fast and easy to use 
+Supports drag and drop 
+Export module lets you produce customizable textual reports 
+Intuitive structure layout, multiple views for different media 
+Zoomable elements, navigate like a web browser 
+The Windows folders and file popup menu is accessible by right mouse click 
+It's possible to restrict the view content by typing simple yet powerful filtering criteria 
+Lets you temporary tag files with four different colors and perform filtering on them 
+Different views of the same media can show differently filtered elements 
+Customizable in geometry, colors, behaviors 
+You can navigate even during the scan 
+Smart cached scanning engine, multiple views, single scan 
+You can refine a zoomed area by a secondary scan process, even with main scan active 
+Reacts to file system events, keeps always in synch, warns you by blinking elements 
+Can scan NTFS Alternate Data Streams 
+It doesn't clutter your registry, only a plain XML configuration file 
+It's portable, no installation required, just put the executable somewhere and let's go 
+It's freeWare (donations are welcome) 
+
+ 
+http://www.uderzo.it/main_products/space_sniffer/
+
+SpaceSniffer tips and tricks  
+http://www.uderzo.it/main_products/space_sniffer/tips_and_tricks.html
+
+SpaceSniffer videos 
+http://www.uderzo.it/main_products/space_sniffer/videos.html
+
+
+
+
+
+
+!!!!!!!!!!ENJOY!!!!!!!!!!
+
+
+
+

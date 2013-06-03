@@ -1,0 +1,42 @@
+Pagent is a set of data networking test tools, based on the Cisco IOS (Internetwork Operating System) and developed within Cisco. The test tools are included in special IOS Pagent images.
+
+Callgen is a set of Voice-Over-IP networking test tools, based on the Cisco IOS and developed within Cisco. The test tools are included in special IOS Callgen images.
+
+The primary function of the Pagent and Callgen toolsets is to provide cost effective test tools to the Cisco testing community. The secondary function is to provide testing capabilities that are not available anywhere else and can be used in customer environments. One essential function is to generate valid simulated traffic necessary for testing networks under stress. The tools are not able to test the physical network layer and some parts of the data-link layer; that is, they can not affect frame checksums, preambles, inter frame gap times, inject hardware failures, or transmit invalid packet sizes.
+
+The Pagent programs are best used for testing layer 3 protocols and above; that is, emulating routing protocols, multicast, TCP sessions and HTTP sessions.
+
+Pagent is an enhanced Cisco IOS image that contains both Advanced IP or IP Base Services and the IP traffic generation tools. Pagent generates realistic traffic and bottlenecks to test QoS features such as IP Classification, IP Marking, and Queuing.
+
+CallGen is a Cisco IOS-based bulk call generation tool implemented through extensions to the regular Cisco IOS image, which provides commands and utilities used to simulate originating and terminating calls on routers and access servers.
+
+The file "Patch for Dynamips.txt" contains the instructions for patch Dynamips (for use with Dynagen or GNS3) to use this IOS.
+
+Cisco IOS Pagent:
+21.773.164 c1700-tpgen-adventerprisek9-mz.PAGENT.4.2.2.bin
+13.884.468 c2600-tpgen-ipbase-mz.PAGENT.4.2.2.bin
+19.797.484 c2600-tsjspgen-mz.bin
+21.585.840 c3640-tsjspgen-mz.bin
+26.273.472 c3640-tsjspgen-mz.PAGENT.4.2.2.bin
+23.249.716 c3660-tsjspgen-mz.bin
+28.945.116 c3660-tsjspgen-mz.PAGENT.4.2.2.bin
+38.476.392 c3725-tpgen-adventerprisek9-mz.PAGENT.4.3.0.bin
+14.725.812 c3725-tpgen-ipbase-mz.PAGENT.4.1.0.bin
+15.603.116 c3725-tpgen-ipbase-mz.PAGENT.4.2.2.bin
+17.935.600 c3725-tpgen-ipbase-mz.PAGENT.4.3.0.bin
+14.793.252 c3745-tpgen-ipbase-mz.PAGENT.4.1.0.bin
+15.748.052 c3745-tpgen-ipbase-mz.PAGENT.4.2.2.bin
+21.119.132 c7200-tsjspgen-mz.bin
+ 1.457.500 Logbook_01_Static-Lab.pdf
+     3.635 Patch for Dynamips.txt
+
+Cisco IOS Callgen:
+12.768.568 c3620-tscgen-3101m-mz.bin
+15.631.348 c3620-tscgen-331T-mz.bin
+12.805.052 c3640-tscgen-3101m-mz.bin
+13.103.080 c3660-tscgen-3101m-mz.bin
+26.719.056 c3725-tscgenx-mz.bin
+22.251.400 c3745-tscgenx-mz.bin
+21.976.252 c7200-tscgen-mz.bin
+ 1.098.725 Callgen User Guide.pdf
+     3.635 Patch for Dynamips.txt

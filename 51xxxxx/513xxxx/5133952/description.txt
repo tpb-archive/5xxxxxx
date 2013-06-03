@@ -1,0 +1,91 @@
+The english version of this expansion either doesn't exist, or I couldn't find it anywhere on the internet and neither could other people.
+
+Follow the instructions in How to install on the english version of Settlers.2.10th.Anniversary.txt and you'll be able to install this on the english version of Settlers 2 10th Anniversary, but some stuff will still be in german, read below.
+
+There are a few issues.
+1. The mission briefings are in German - not a big problem, as each mission is quite simple to grasp.
+2. There are some great new features added to the game including notification when you are out of resources, announcements on tool production (so you don't end up with a million scythes Wink) and battle summaries (e.g. attack repelled). These are also in German, but a quick trip to Babelfish allowed me to translate them all. The resource names are in English though.
+3. There are some other bits and bobs still in German but all the screens, menus, buildings etc etc are in English so it's pretty simple to play.
+
+
+
+
+
+
+
+
+
+
+Description taken from http://www.mobygames.com/game/settlers-ii-10th-anniversary-vikings
+
+
+
+We write the year of the wolf. Many years have passed since the discovery of the world portal and the vikings are a accepted race with a high level of wealth due to the trading with other nations which the portal made possible. One day they invited all their friends for a big feast. The celebration goes well until the world portal suddenly explodes and half of the nearby village people are missing. Those people were caught in the blastwave and thrown through the world portal onto an unknown land. Under the rule of Eirigg they now find out, that the guests they harbored were the "Pirates of the Wolf" and now seek vengeance and a way home.
+
+This add-on to The Settlers II: 10th Anniversary adds the vikings as a new playable race to the original game. And they also bring a new campaign with twelve new missions with them. Those missions also feature the new quest-system. Instead of just reaching the portal out of the world, you now get different objectives throughout the mission some of which are optional like destroying a nearby camp of pirates.
+
+But there are also some smaller additions and changes. There's now a random-map-generator for example with which you can generate multiplayer-maps after setting a few parameters like "terrain", "number of player" and so on. In the change-department are things like new messages you can receive ("Flagpole is overloaded" or "No more Soldiers left") or a new button which let's you decide in which warehouse new soldiers should be recruited.
+
+The vikings are also playable in multiplayer. Which features several new maps including three fan-made, that were exclusively made and chosen by a jury for the expansion in the course of a sweepstake held by UbiSoft on the official website.		
+
+
+
+
+
+
+
+
+
+How to install on the english version of Settlers.2.10th.Anniversary.txt:
+
+
+Taken from http://forums.ubi.com/eve/forums/a/tpc/f/7711057942/m/1401015875
+
+
+
+
+I couldn't see if anyone had posted this before, so here goes. This works OK for me, and is easy to do, but I take no responsibility for any damage you do to your PC or your installation!
+It isn't perfect as I'll explain below, but it is certainly good enough to play. I am really dissapointed that UBISoft didn't release this in English. I am sure there is a market for it.
+
+Steps
+1. Install Settlers II 10th Anniversary (if you haven't already!)
+2. Apply the 11757 patch (s2patch11757.exe) (if you haven't already!)
+3. Make a copy of the following folder
+
+<Your Install Path>The Settlers II - 10th Anniversarydatalanguagegb
+
+and its contents. e.g. copy it to gb_copy
+4. Rename the original 'gb' folder to 'de'
+5. Using a registry editor (eg regedit) navigate to the key
+
+HKEY_LOCAL_MACHINESOFTWAREUbisoftFunaticsS2TNG
+
+There you will find a String Value called Language. It will read 1033 (English). Change it to 1031 (German).
+6. Install the Vikings Add-on from the CD, wait for it to finish.
+7. Copy the contents of the previously backed up gb folder (
+
+<Your Install Path>The Settlers II - 10th Anniversarydatalanguagegb_copy
+
+from the example above) into the de folder, overwriting all files when asked.
+8. Change the registry key back to 1033.
+9. Start the Vikings add-on and play...
+
+There are a few issues.
+1. The mission briefings are in German - not a big problem, as each mission is quite simple to grasp.
+2. There are some great new features added to the game including notification when you are out of resources, announcements on tool production (so you don't end up with a million scythes Wink) and battle summaries (e.g. attack repelled). These are also in German, but a quick trip to Babelfish allowed me to translate them all. The resource names are in English though.
+3. There are some other bits and bobs still in German but all the screens, menus, buildings etc etc are in English so it's pretty simple to play.
+
+Some translations
+Soldatennachschub ist knapp - Soldier supply is limited
+Rohstoffe sind knapp - Raw materials are limited
+Warenstau an fahne - Congestion at flag (very useful!)
+Werkzeug hergestellt - Tool manufactured
+Angriffe abgewehrt - Attacks repelled
+
+
+
+
+
+
+s2dng_addon.exe: http://virusscan.jotti.org/en/scanresult/df41bdee37a92fbf1541a82d1600e6803246756a
+S2DNGEditor.exe: http://virusscan.jotti.org/en/scanresult/0f71f79a25fcfbba4c341973622728e2046175bf

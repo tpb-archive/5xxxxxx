@@ -1,0 +1,126 @@
+User Type,Username,Date,Text
+,triovela,2010-04-29T17:19Z,"Dude, this program's the shit!  Cracked my pdf file instantly.  Thanks."
+,Dragansong,2010-09-03T20:00Z,Worked perfectly! Thanks!!
+,God23,2011-03-18T01:26Z,"Thank you so much, it works like charm. So beautiful"
+,tyker2009,2011-05-04T11:57Z,"I CANT GET OVER 10 AGENTS WHY?
+THE PROGRAM IS CRACKET TO 10000 AGENTS.
+A RUN WINDOWS SERVER 2003 SP2
+WHERE IS THE PROBLEM? TO GET OVER 10 AGENTS CONNECTED?"
+,tyker2009,2011-05-04T11:58Z,"I CANT GET OVER 10 AGENTS WHY?
+THE PROGRAM IS CRACKET TO 10000 AGENTS.
+RUNing WINDOWS SERVER 2003 SP2
+WHERE IS THE PROBLEM? TO GET OVER 10 AGENTS CONNECTED?"
+,odinrlives,2011-05-20T04:18Z,"PDF Password Recovery 5.0 is an easy-to-use tool designed for unlocking restricted PDF documents by removing printing, editing and copying restrictions! It recovers or instantly removes passwords protecting or locking PDF documents created with all versions of Adobe Acrobat or any other PDF application. 
+http://www.advancedpdfconverter.com/products/pdfpasswordremover.html"
+,Kepiuer,2011-06-13T05:09Z,"Unlock PDF password to open, print and edit password protected PDF file
+http://findpassword.net/unlock-pdf-password-to-open-print-and-edit-password-protected-pdf-file/
+To assure PDF files safety, many users often decrypt their PDF documents using strong password protection. They may set a user password, which is used to restrict opening the PDF file itself. Or they may set an owner password, which is required when somebody tries to copy, edit or print the password protected PDF file. "
+,dark8218,2011-10-27T03:19Z,"I created a batch file to work with this program to make it easier to run. 
+
+Copy and paste the information into notepad, go to file, save as the first line I write which tells you what the batch does with .bat at the END! VERY IMPORTANT! 
+
+Then run the new batch file in the same location as the program with the PDF to have the password removed."
+,dark8218,2011-10-27T03:20Z,"Overwrite Original PDF - Security Removal.bat
+-------------------------------
+COPY BELOW THE LINE
+------------------------------
+@Echo Off
+
+REM This command changes the file to the current directory the batch file is running in.
+CD /D ""%CD%""
+
+REM This is an explanation on how the batch file is set up.
+Echo The extension is not necessary to include if you 
+Echo type the first few letters of the document and 
+Echo then press tab. It will autocomplete the file name 
+Echo for you with the extension. :D Spaces and the current
+Echo working directory have already been accounted for, as
+Echo long as the PDF to be decrypted is in the same folder
+Echo as the program and batch file, this should work fine.
+
+REM This is a blank line in the batch file.
+Echo+
+
+REM This sets the input to a default value and displays the information so a file name may be stored.
+SET /P INPUT= Please enter the PDF to have the password removed: 
+Echo+
+
+REM This displays the filename you typed in. If correct, the file should be processed without a problem.
+Echo You typed: ""%INPUT%""
+Echo+
+
+Echo If this is incorrect, close this window and reopen the batch 
+Echo file to process the correct file.
+Echo+
+pause
+
+REM This runs the program and removes the encryption, overwriting the original file.
+Echo+
+pdfDecrypt.exe -i ""%INPUT%""
+Echo+
+pause
+------------------------------
+STOP ABOVE THE LINE
+------------------------------"
+,dark8218,2011-10-27T03:21Z,"New PDF File - Security Removal.bat
+------------------------------
+COPY BELOW THE LINE
+------------------------------
+@Echo Off
+
+REM This command changes the file to the current directory the batch file is running in.
+CD /D ""%CD%""
+
+REM This is an explanation on how the batch file is set up.
+Echo The extension is not necessary to include if you 
+Echo type the first few letters of the document and 
+Echo then press tab. It will autocomplete the file name 
+Echo for you with the extension. :D Spaces and the current
+Echo working directory have already been accounted for, as
+Echo long as the PDF to be decrypted is in the same folder
+Echo as the program and batch file, this should work fine.
+
+REM This is a blank line in the batch file.
+Echo+
+
+REM This sets the input to a default value and displays the information so a file name may be stored.
+SET /P INPUT= Please enter the PDF to have the password removed: 
+Echo+
+
+REM This displays the filename you typed in. If correct, the file should be processed without a problem.
+Echo You typed: ""%INPUT%""
+Echo+
+
+Echo If this is incorrect, close this window and reopen the batch 
+Echo file to process the correct file.
+Echo+
+pause
+
+
+REM This sets the file to be created to a default value and displays the information so a file name may be stored.
+Echo+
+SET /P NEW= Please enter the new PDF filename: 
+Echo+
+
+REM This displays the new filename you typed in. If correct, the file should be processed without a problem.
+Echo You typed: ""%NEW%""
+Echo+
+
+Echo If this is incorrect, close this window and reopen the batch 
+Echo file to process the correct file.
+Echo+
+pause
+
+
+REM This runs the program and removes the encryption, overwriting the original file.
+Echo+
+pdfDecrypt.exe -i ""%INPUT%"" -o ""%NEW%"".pdf
+Echo+
+pause
+------------------------------
+STOP ABOVE THE LINE
+------------------------------"
+,dark8218,2011-10-27T07:33Z,"The above posting was made in error. That is for this torrent found here:
+http://thepiratebay.org/torrent/3709668"
+,semick,2011-12-15T19:08Z,Won't run on Windows 20008 R2 x64.  Even if I set compatibility it still doesn't work.
+,iskoristi4,2012-03-27T22:27Z,"worksss great , ty"

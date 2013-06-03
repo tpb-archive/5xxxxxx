@@ -1,0 +1,290 @@
+User Type,Username,Date,Text
+,edit6969,2009-11-28T12:22Z,"OK It works, just remember to select Activate by dongle when you start the app, thanks to the cracker!
+
+EDIT"
+,BigSoul,2009-11-28T12:49Z,"I dont know how to cd-ing in the terminal, olease explaine
+
+Thanks"
+,zogulusnig,2009-11-28T18:12Z,"By ""cd-ing"" the poster is referring to ""changing directory"".  You need to navigate to the directory where this application gets installed from within the Terminal.
+
+Since you start the Terminal in your home directory, you would probably type:
+
+cd /Applications
+
+Which will put you in the 'Applications' directory.  Then:
+
+cd ""name of directory containing Avid Media""
+
+Here the part in quotes is where the application resides.  The application may have been installed directly in the 'Applications' folder itself.  If so, you are there, and ready for the next step in the instructions.
+
+Good luck."
+,zerokoo0l,2009-11-29T18:37Z,Anyone else have any luck with it? Not working for me... error with licensing after cracks and terminal patching.
+,edit6969,2009-11-29T22:20Z,"Sounds like you are trying to install on snow leopard. this release 4.02 is NOT supported for SL.
+
+that is 4.04
+
+HTH
+
+Edit"
+,leftymartinez,2009-11-30T11:58Z,"same problem than zerokoo0l
+
+@ edit6969: i have version 3.1.2 on my mac pro with SL, and everything works just fine. shouldn't it have the same problem? how come the new one cannot get where the old one goes easily?
+i'm a bit lost here... ;) hope you can figure this out. thanks for your help!"
+,edit6969,2009-11-30T12:38Z,"
+I don't know why 3.12 works on SL and 4.02 dose not. all I know is that SL support from Avid starts at 4.04. I DO know that they made a lot of changes to the license system from 3.5 so that may be the issue. I did not write the crack, just trying to help.
+
+HTH
+
+Edit "
+,blackpath,2009-11-30T19:13Z,"same problem with zerokoo0l and leftymartinez.
+I'm working 3.5 on my SL with no prob at all."
+,leftymartinez,2009-12-01T09:41Z,"thank you edit6969, i know u didn't write it and i really appreciate your help.
+cheers"
+,bubblestar,2009-12-01T11:10Z,"Can't get it to work on SL, back to 3.1.2....."
+,torrentkuki,2009-12-01T12:02Z,"pls use google
+
+If you want to install on Snow Leopard, though not yet suported, it still runs. 
+Just open up the permissions on the Library>Application Support>Avid folder.
+
+ Create a folder inside there called ""Pixie"" and one called ""SWL"" and open the permissions on those too.
+"
+,bubblestar,2009-12-01T13:12Z,Thanks torrentkuki! It is working now.
+,leftymartinez,2009-12-02T10:03Z,@torrentkuki: looks like you're a better googler than i am ;) thanks a lot
+,chamba,2009-12-07T13:51Z,"thanks!! also the crack works with 4.0.3 version.
+Please update the fix to work with 4.0.4
+
+thank you!!"
+,alphabeta666,2009-12-07T23:17Z,"Glad to see that Avid 4.0 still running with crack.
+But unfortunallity not for eweryone, (me).
+
+Could someone please give an step by step instruction of the procedure in terminalmode! I really dont understand, and the more I try the more stupid I feel.
+
+What does ""cd-ing"" or ""changing directory"" really means. Do you write the path to the app? Or do you copy/paste the three written 
+lines in the discription into the terminal window? (the one witch starts with ""sudo""...)
+
+I could really need some help here. 
+
+I think I understand the overwriting part, it seems to be the same as this torrent;
+http://thepiratebay.org/torrent/4593979/Avid_Media_Composer_3.05_Mac_cracked.dmg
+(Copy AvidMediaComposer -> /Applications/Avid Media Composer/Avid Media Composer.app/Contents/MacOS
+Copy SuperPro32 -> /Library/Frameworks/SuperPro32.framework/Versions/A)
+
+Big thanks for the upload and the crack. 
+
+
+
+
+"
+,alphabeta666,2009-12-08T06:58Z,step by step guides wanted...
+,edit6969,2009-12-11T08:01Z,"after you have installed the app first and restarted 
+
+After restart, copy the files in the crack directory to the places stated, so step 1
+AvidMediaComposer goes to Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS
+and(step 2) SuperPro32 goes to /Library/Frameworks/SuperPro32.framework/Versions/A
+
+(step 3) then comes the important bit, you must tell MACOS that it is allowed to run the new AvidMediaComposer application.
+this is were the sudo chmod -R 755 command comes in. Open a terminal window and type
+""sudo chmod -R 755 "" without the quotes (remember the space after the last 5) then drag the file you replaced in step 1 from /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS to the terminal window. ( this should make the line now look like this
+""sudo chmod -R 755 /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS/AvidMediaComposer"" then press enter/return and the terminal will ask for an administrators password, type that in press enter/return and the terminal will go back to the same prompt it had when you opened it.
+
+Launch the app and it will ask you how you want to activate media composer. Choose activate via Dongle and it should run. This is what i did and it worked.
+
+
+Running MBP OSX 10.5.8 2.5 GHz core 2 Duo 4GB ram.
+
+Cheers
+
+Edit"
+,alphabeta666,2009-12-13T18:49Z,"Edit6969,
+Thank you so much for your step by step guide. Exactly what I called for!!!
+
+But unfortunally I end up with the ""No Dongle"" message. 
+I copy (and replace) the files in the crack folder to the places described above,
+I do the ""chmod -R 755"" command in terminal. Still ""No Dongle"".
+
+Has anyone got a clue..? By the ""no dongle"" message can you figure out witch part Im doing wrong.
+I mean is it the actual crack files that isnt working (AvidMediaComposer or SuperPro32) or is it
+the ""chmod -R 755"" command that goes wrong?
+
+Or could it be my equipment;
+Im running Mac OSX 10.5.8 Leopard, with Dual 2.5GHz PowerPC G5 processors. (no intel that is..)
+
+Once again, Big thanks!"
+,modcb,2009-12-14T10:10Z,"the crack works untill the 4.0.3 also under snow leopard, but isn't compatible 100% because doesn't work marquee like under the other previous version.
+Marquee works on the 4.0.4 like trial version anyone can help for the 4.0.4? is another crack or a different procedure?
+Thanks
+modcb"
+,jvirgos,2009-12-15T11:54Z,"HI, There must be something wrong in the dongle files superpro or mc , because i follow all the steps in the right way but the dongle doesn´t work when i launh the application. My mac is an imac with leopard 10.5.8 4gb ram and intel chip. Has anyone another dongle? Thanks from Spain for the work you all are doing . sorry for my english"
+,blackpath,2009-12-16T00:16Z,Follow all the steps and it will work...you are wrong not the dongle
+,jvirgos,2009-12-16T00:47Z,"i dont want to be wrong but i will accept if necessary. It seems so esay to follow the steps that i cant see where  i am wrong.
+I install mc from http://cdn.avid.com/MediaComposer/4.0.2/Mac/AvidMediaComposer_4.0.2.dmg then i replace the superpro 32 file in the libray --frameworks  --etc and the avid media composer over the Avid Media Compser ( in show content package ) . Then I open terminal and write sudo chmod -R 755 ( and i am care to save the character after the last five) and i drag the Avid  Media compser file that i ve replaced in the other step. Put my password and close terminal. Then launch MC application and i choose activate via dongle and it doesnt work. I really belive that the steps are good, but the dongle dosent work. I ,ve read that terminal doesnt understand the spaces and is necssary to rename the folder of avid media compser to avid  but i did it and not work again. There is somenthing bad in my steps??.. Thanks for all. "
+,woylee,2009-12-19T00:32Z,"i exactly followed the instructions... after choosing use dongle to activate the avid splash screen shows up and it is starting to load... it shows license type: dongle... but when the timeline and canvas open up... i receive the following message:
+
+The Software License type for this system is of incorrect type. 
+
+I am using SL but I created SWL and Pixie and gave read and write permissions to everyone.
+"
+,controlx_x,2009-12-20T03:55Z,cool man!! it really works fine!!
+,algo69,2009-12-24T20:57Z,"Hey guys , thank you Edit6969 your instructions work perfectly i have a mac book pro dual core 2 @2.93 4 GB ram with snow leopard and it works just fine !! 
+
+I even opened an old project i did from an external hard drive and it worked like a charm !!!
+Once again thnx !!!"
+,jvirgos,2009-12-26T00:23Z,It seems that the dongle works in one type of hardware but not in others. Maybe this is the question. But i have the avid 3.05 installed before and it runs ok and the steps to put the dongle are the same that in v 4.02. Anyone has any idea..? thanks a lot
+,mrf71,2009-12-26T21:51Z,"Hi There, does anyone have the time to write me the instructions for making the changes in the terminal window in an easy to follow 100% correct format....for instance...""then drag the file you replaced in step 1 from /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS to the terminal window""....what file, why not just tell me what to type in as i'm not sure what file you mean....can anyone one be a good samaritan and provide me with instructions as if you were doing it for the first time...touch...m"
+,jvirgos,2009-12-27T00:27Z,"HI , my english is not very good, but i´ll try to explain to you. There are two files needed to run the Media Composer. This ones are located in the torrent file. Its names are avid media composer and superpro32. This are the files that you have to replace in their own respectives locations and when you have done this, go to the terminal in your mac osx so and type sudo chmod -R 755 and then drag the avid media composer file that you have used to replace the original..sorry for my english.. thanks"
+,mrf71,2009-12-27T11:22Z,"Thanks for the reply but your not providing enough information for it to work for me. I need to know all the information. For example....Step 1: Download Torrent file ""Avid Media Composer 4.0.2 medicine Mac OSX Step 2: Run Install......and then what...I need to know exactly what changes to make, with what files, and in what locations....hope this helps.
+
+m"
+,blackpath,2009-12-27T11:38Z,"@mrf71
+
+if you read all the comments and the instruction file in the medicine you will understand what to do......If you can read.
+
+First
+Install Application from http://cdn.avid.com/MediaComposer/4.0.2/Mac/AvidMediaComposer_4.0.2.dmg
+
+Restart
+
+Overwrite this two patched files.
+
+Type the following into the terminal after cd-ing to the ""AVID MC 4.0.2"" directory:
+
+sudo cp AvidMediaComposer /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS
+
+sudo cp SuperPro32 /Library/Frameworks/SuperPro32.framework/Versions/A
+
+sudo chmod -R 755 /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS/AvidMediaComposer"
+,mrf71,2009-12-27T16:26Z,"I can read man...but you haven't told me what to read! I guess its relating to installing Avid which i've done....then you say to restart the two patch files...overwrite them with What?
+
+It would be easier if you could write it out in numbered steps please....big please :)
+
+m"
+,jvirgos,2009-12-27T18:15Z,"Hi blackpath, i have a question for you. I follow this steps of edit6969 user to activate de MC but i still cant get that it works in my mac osx
+
+""After restart, copy the files in the crack directory to the places stated, so step 1
+AvidMediaComposer goes to Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS
+and(step 2) SuperPro32 goes to /Library/Frameworks/SuperPro32.framework/Versions/A
+(step 3) then comes the important bit, you must tell MACOS that it is allowed to run the new AvidMediaComposer application.
+this is were the sudo chmod -R 755 command comes in. Open a terminal window and type
+""sudo chmod -R 755 "" without the quotes (remember the space after the last 5) then drag the file you replaced in step 1 from /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS to the terminal window. ( this should make the line now look like this
+""sudo chmod -R 755 /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS/AvidMediaComposer"" then press enter/return and the terminal will ask for an administrators password, type that in press enter/return and the terminal will go back to the same prompt it had when you opened it.
+
+Launch the app and it will ask you how you want to activate media composer. Choose activate via Dongle and it should run. This is what i did and it worked.
+
+ In this post there is no mention to type sudo cp AvidMediaComposer /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS and type
+
+sudo cp SuperPro32 /Library/Frameworks/SuperPro32.framework/Versions/A
+
+he only replace the amc file and superpro32 but not typing the other two lines above in terminal but only type sudo chmod -R 755 in the terminal. Why?
+he say that it works for him. I did it like him and not work.
+And you will say, do as it say in the patch instructions. Ok, ill try but i cant understand the following message. could you explain me? 
+""Type the following into the terminal after cd-ing to the ""AVID MC 4.0.2"" directory"": Whats that? cd-ing? i dont know what it means. 
+
+
+ill try to do like that. i replace the two patched files in thier locations and then i writte the three lines in the terminal ( avid media composer superpro and and sudo chmod -R )755 in fact i do copy and paste into the terminal.... but finally avd media composer doesnt run... help please!! Why i could did it without any problems whit amc 3.05...mmmmm i thnik my brain is going down..thanks in advance"
+,blackpath,2009-12-28T08:41Z,"@jvirgos
+
+1) Install Media Composer 4.0.2 (http://cdn.avid.com/MediaComposer/4.0.2/Mac/AvidMediaComposer_4.0.2.dmg)
+
+2) This medicine contains two files, a)AvidMediaComposer & b)SuperPro32.
+
+3) Copy the SuperPro32 file and Replase it with the file in: /Library/Frameworks/SuperPro32.framework/Versions/A  "
+,blackpath,2009-12-28T08:57Z,"@jvirgos
+
+1) Install Media Composer 4.0.2 (http://cdn.avid.com/MediaComposer/4.0.2/Mac/AvidMediaComposer_4.0.2.dmg)
+
+2) This medicine contains two files, a)AvidMediaComposer & b)SuperPro32.
+
+3) Copy the SuperPro32 file and Replase it with the file in: /Library/Frameworks/SuperPro32.framework/Versions/A (WAIT...NOT the Library in your user folder...)
+
+4) Go to your Applications folder and locate the AvidMediaComposer.app in your Avid folder. Right click the AvidMediaComposer.app and choose ""Show Package Contents"". A new window will open with the app contents and in /Contents/MacOS folder you will see the AvidMediaComposer file. So Replace it with the one from your medicine. DONT close the contents window yet.
+
+5) Open your terminal and type: sudo chmod -R 755 (after the 755, don't forget the space) and from the contents window Drag and Drop the AvidMediaCopmposer file (the one you replace in the prev. step) in the terminal. If you do it correctly your may read this: sudo chmod -R 755 /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS/AvidMediaComposer. After that press enter, give your password if you have one and again enter
+
+Thats it...Finito!"
+,blackpath,2009-12-28T10:45Z,"I forgot to write the final step (if you working on Snow Leopard)
+
+Open the Library/Application Support/Avid folder
+Create a folder inside there called ""Pixie"" and one called ""SWL"" and open the permissions on those."
+,mrf71,2009-12-28T10:50Z,"Help Lost
+
+What do you mean by this ""medicine"" in the following instruct?
+
+
+2) This medicine contains two files, a)AvidMediaComposer & b)SuperPro32.
+
+Is there a folder that this is store in? If so whats its name? 
+"
+,blackpath,2009-12-28T11:27Z,"@mrf71
+
+M8 read at the beginning of this page PLS...this page is for Avid Media Composer 4.0.2 medicine ONLY...that means you can download this torrent and you will have the medicine for your Avid Media Composer 4.0.2. When you download this open the .dmg file AND you will see those 2 magic files!"
+,mrf71,2009-12-28T15:09Z,"I've downloaded...
+
+http://cdn.avid.com/MediaComposer/4.0.2/Mac/AvidMediaComposer_4.0.2.dmg) 
+
+I've opened .dmg and all i see is....
+
+Avid Media Composer.mpkg
+Other Installers
+International
+README_AvidMediaComposer.pdf
+
+Where are the magical files....and where are you refering to ""read at the beginning of this page"" as per your last post...
+
+cheers"
+,blackpath,2009-12-28T16:30Z,Scroll up...and you will see. You download the program ONLY not the crack(medicine). You will ask me now where is the crack(MEDICINE) scroll up an you will find it.
+,blackpath,2009-12-28T16:50Z,Nevermind... http://thepiratebay.org/torrent/5184379/Avid_Media_Composer_4.0.2_medicine_Mac_OSX
+,mrf71,2009-12-28T18:14Z,blackpath you are the master...thanks big for your patience and skill...take it easy man!
+,jvirgos,2009-12-28T20:43Z,"hi blackpath.. im happy because i am not losing my brain. I did all the steps as you say and it doesnt work, but now i now that there must be something that makes it not working in my mac and i am thinking in my language. i am in Spain and all my path in the mac osx is on spanish and maybe the dongle is build for english. I am stupid?? what do you think about? thanks for your time, you are great!"
+,jvirgos,2009-12-28T20:45Z,or.... maybe..yes maybe is because i have installed before avid 3.05 and it works ok. i have unisntalled but maybe the old dongle is still in my mac. could it be?....uff im lost
+,mrf71,2009-12-28T22:54Z,"Does this look correct...let me know if there are any mistakes :)
+
+1. get  > install > restart (http://cdn.avid.com/MediaComposer/4.0.2/Mac/AvidMediaComposer_4.0.2.dmg)
+2. get & unzip http://thepiratebay.org/torrent/5184379/Avid_Media_Composer_4.0.2_medicine_Mac_OSX
+3. goto  ?MC_4_0_2.dmg? (the downloaded medicine file above) > right mouce >  select open > copy ?SuperPro32? > goto Macintosh HD//Library/Frameworks/SuperPro32.framework/Versions/A > paste new file > accept change
+4. gobackto medicine > copy ?AvidMediaComposer? > goto Applications/Avid Media Composer/AvidMediaComposer.app > right click the AvidMediaComposer.app > select ?Show Package Contents? (new window opens) > goto /Contents/MacOS (you will see the AvidMediaComposer file) > paste new file > accept changes (leave window open) 
+5. goto Terminal (Application/Utilities/Terminal) > enter sudo chmod -R 755 (leave space after the 755 ) > gobackto /Contents/MacOS > select ?AvidMediaComposer? > drag and drop into Terminal (If you do this correctly you may read this: sudo chmod -R 755 /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS/AvidMediaComposer) > press enter > enter password > bingo"
+,blackpath,2009-12-29T01:00Z,"Correct mrf71, I hope it will works now :)
+
+@jvirgos, I have no idea why it still cant run on your machine. I made a fresh install of my snow leopard before i install the 4.0.2 and it works almost perfectly!"
+,jvirgos,2009-12-29T11:09Z,hi blackpath!! i still dont know how it happenned. Every day i repeat all the steps with all my attention. I can say i am an expert with more than 15 years in pc environement and i have installed and  a lot of software even much more complex than this as adobe suite or 3dsmax. I am a new user in mac osx but i dont belive that was a problem... well i dont konw how it happened but i repeat yesterday the proccess and ......IT WORKS!!!! I DID IT THE SAME I PROMISE. i only do 1 different thnig... i dont close the window of content oackage to drag and drop into terminal. but i dont really thnik that was the problem... well thanks to all and specailly to you blackpath. i fu come to Madrid Spain you have a beer...thnakkss
+,blackpath,2009-12-29T12:17Z,Cheers m8!
+,jvirgos,2009-12-30T02:37Z,hi guys.. i am not in the right place but now that i have my 4.02 running ( thanks again blackpath) i would like to use the new feature ama volume but i cant link my external hard drive in order to link my files shot in a canon eos 5d mark II. This feature only works with xdcam drives? thanks a lot
+,blackpath,2009-12-30T07:33Z,"AMA offers XDCAM/XDCAM HD/XDCAM EX, P2/AVC/DVCPRO HD, and new GFCAM support"
+,jvirgos,2010-01-02T13:49Z,thanks blackpah.. i supossed it. no way so i will use  final cut pro... 
+,angyhugh,2010-01-12T06:57Z,"hey have just done everthing correctly and followed the instructions the whole way through but when i go to open AVID this message appears ""You do not have the minimum physical memory needed to run the application"" Im just confused because i have plenty of memory left on my computer. Have i done something wrong or am i missing something obvious. Please help
+
+Angus"
+,jammerjimmy,2010-01-12T08:44Z,"I followed the steps and the program appears to be opening just fine however I can not import anything. The when I go the file menu and move down to ""import"" it is greyed out. Someone please help!!!
+
+Thank you."
+,blackpath,2010-01-12T10:50Z,"# Memory: 2 GB of RAM (4 GB of RAM recommended).
+
+@ jammerjimmy: If you dont know how to use it, you dont need this app ;) Premier Pro is the right software for you."
+,JKLinn,2010-01-23T17:59Z,"Hey Guys - Thanks for all your time, wisdom & patience. I am running OSX 10.5.8 (Leopard) on a G5 (non-Intel) and it won't let me load Avid Media Composer v. 4.0.2 - It says ""Intel Required"". Any idea whats the latest version of Avid I can load and run on this non-Intel G5 and where to get the dmg & crack? Thanks!"
+,romulus22,2010-01-23T23:55Z,"pretty sure i understand how to do this but i am confused on where to put the cracked AvidMediaComposer file. Specifically don't know where to find ""Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS""....don't know where the AMC.app/Contents/MacOS is. When i put the cracked file into the regular folder with the original AMC it doesn't replace it. Besides that I can handle it. Anyone understand this/can help?? thanks."
+,JKLinn,2010-01-24T00:18Z,"When you go into Applications / Avid Media Composer, do a control click on the icon and choose show package contents. Look in Contents / MacOS and you will find the file. Just drag and drop the crack and it will replace the old one."
+,romulus22,2010-01-24T01:05Z,Thanks. I appreciate that.
+,FRESCA01,2010-01-26T15:35Z,"Crack worked fine with me. But can someone tell me why Avid MC only starts up if I'm connected to the internet? It wont start up is offline. Any clue someone? 
+
+MacBookPro10.5.8/Intel Core 2 Duo/2.4 GHz/RAM 2 GB"
+,Munkoli,2010-01-29T21:03Z,"Guys. A new one is here for 4.0.5
+http://thepiratebay.org/torrent/5292881/Avid_Media_Composer_4.0.5_medicine_Mac_OSX
+
+Even though someone says it has a Trojan I did my own thorough testing and not only is it (now atleast) CLEAN, but it works great! "
+,immorak,2010-01-30T10:25Z,I can't find /Library/Frameworks/SuperPro32.framework/Versions/A for the SuperPro32 file. Where would it be?
+,JKLinn,2010-01-30T21:23Z,"Any word on the version for a non-intel G5?
+
+PS - For SuperPro32 double click on your hard drive then follow the path, you will find it."
+,jvirgos,2010-04-01T11:37Z,"hi guys. Maybe is not the right place for that question but im lost. anyone knows if its possible to make a project on mac osx with the AMC 4,02 version and then open it over a windows plattform with a prevoius version of avid media composer 3,5. i will be very congratulated if someone can help me."
+,wikipedo,2010-06-11T11:31Z,he said : Failed to migrate license information. Please contact Customer Support for further assistance.
+,wikipedo,2010-06-12T09:26Z,"how to remove complety, to make a fresh install ? please "
+,dan211085,2010-09-05T22:34Z,"After following all the steps perfectly and after choosing the dongle option, I get this message,
+""Failed to migrate license information. Please contact Customer Support for further assistance"".
+
+Can anybody help? I appreciate that a lot has been written already but I have followed every step to a tee but still no joy.
+
+Thanks in advance."
+,Chloe10108,2010-10-14T17:53Z,"i got it finally to recognize the dongle, but once it opened an all, it popped up some error message about the license. I believe it said that the license was incorrect or something of the like. Is there some way for me to fix this? Is it possible I did something wrong when I put in the crack? "
+[T],fabunbutaps,2010-12-24T01:01Z,"working perfectly with macbook leopard...thank bro.... :)
+
+SEE YA!!!"

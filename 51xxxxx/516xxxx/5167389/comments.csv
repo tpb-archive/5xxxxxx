@@ -1,0 +1,18 @@
+User Type,Username,Date,Text
+,StefaniaCastelli,2009-11-20T18:36Z,"The Torrent contains what it promises and it works (the few lines Sanpork included in this intro are really poor of info).
+
+The True Image Home installs silently and doesn't ask for reboots even if the first time you launch it you must anyway reboot to get it working....
+
+If you, like me, don't love silent stuff running under the covers, you can open the Trueimage201.exe archive using winrar.
+
+You'll find two files: one is the .msi True Image install package and the other is the silent script.
+
+Open the script with notepad or another editor and copy the ""pid"" key (serial).
+
+Then launch the .msi install file and paste the key when prompted.
+
+I installed it on a Win7 image running on Parallels Desktop 4.0 in Snow Leopard 10.6.2.
+
+I encountered problems in creating a backup because True Image hangs when it opens folders to select and save it.
+
+But Acronis and other partitioning/backup tools don't like Virtual Machines.... so I'm sure is not an issue of this release or a Sanpork responsibility... ;-)"

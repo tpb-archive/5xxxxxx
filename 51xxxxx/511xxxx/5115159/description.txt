@@ -1,0 +1,37 @@
+toolkit. The application not only includes support for extracting virtually any kind of file compression format, it also boasts a no-nonsense approach to reducing file sizes.
+
+Some will argue that the application is not as quick as WinZip at compressing files. However, for the small lag in time difference, you end up with a significantly smaller archived file at the end of the process with WinRAR.the application allows you to save files into both ZIP and RAR formats, with a multitude of options for speeding up compression times, or reducing file sizes at the expense of a few more seconds.
+
+Although many newcomers might be put off by the sheer range of features and settings within the program, the interface doesnot take long to get accustomed to, and if youre still really stuck there is a simple wizard-based system that walks you through the process of extracting or compressing. All this adds up to make WinRAR a dependable utility that performs better than any other tool in its class.
+
+
+WinRAR supports the following formats:
+
+RAR, ZIP, CAB, ARJ, LZH, ACE, TAR, GZip, UUE, ISO, BZIP2, Z, 7-Zip
+
+Recent changes in WinRAR:
+
+    * Added support for ZIP archives containing Unicode file names in UTF-8 format.
+    * Added decompression support for WinZip AES encrypted ZIP archives.
+    * Improved Unicode support for RAR and ZIP archive names.
+    * "Ask before overwrite" and "Skip existing files" update modes are now available in archiving dialog
+    * New "Add to context menu" option in "Profile parameters" dialog.
+    * New -cp switch allows to select a compression profile in command line mode.
+    * New "Options" page of archiving dialog contains the group of settings modifying the behavior of "Delete files after archiving" option from "General" page.
+    * WinRAR "Extraction path and options" dialog is now resizable.
+    * New "Update" SFX script command and "Update mode" group of options in "Update" page of "Advanced SFX options" dialog.
+    * SFX script "Shortcut" command and "Add shortcut..." command in "Advanced SFX options" dialog now allow to specify an icon file containing an icon associated with shortcut.
+    * New "Wipe temporary files" option in "Settings/Security" dialog provides more secure, though slower, way to delete temporary WinRAR files.
+    * WinRAR and RAR display the total progress bar when unpacking a multivolume RAR archive if all volumes are present in the same folder.
+    * WinRAR and RAR automatically expand names of environment variables in list files.
+    * Added support of TAR archives with non-zero "extra field" data.
+    * Added support of TAR archives, which does not contain the end of archive entry consisting of 512 zero bytes.
+    * Improved Unicode support when dragging files from WinRAR window.
+    * Shift+Tab key combination can be used in main WinRAR window to
+    * switch the input focus between interface elements (files, comment,
+    * tree, address) in reverse order.
+    * Corrected a possible WinRAR crash when opening truncated UDF ISO files.
+
+OS requirements for WinRAR:
+
+    * OS: Win95/98/98SE/Me/2000/NT/XP/Vista/Windows7	

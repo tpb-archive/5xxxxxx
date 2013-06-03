@@ -1,0 +1,33 @@
+First off, thanks for everyone at Robinhoodsplayground.com for the video and expertise showing how to recover a Lite-On drive.  http://robinhoodsplayground.com/forum/viewtopic.php?f=195&t=3226
+
+This torrent was put together just to take the guess work out of what files you need to recover your drive.  
+
+The only file you'll need besides the ones included are your own Lite_cfw.bin file, which you should have created and saved when gathering your drive's info, before the PC froze.
+
+If your PC froze when modding your Lite-On Drive after the erase this disc will help you recover the drive from being a brick.
+
+1.) Add files and your lite_cfw.bin to a bootable disc, usb, ect.
+
+2.) Restart your PC and boot off your disc.  Make sure your drive is turned off
+
+3.) Once your in DOS turn drive on and type -  "L-O-eras.exe" and the port number your drive is connected to. its different for every user. example: L-O-eras.exe 1150
+
+4.) your drive will more then likley return a status of FF80
+
+5.) repeat step 3 for a second time and you'll get a status of FF72 and you're ready to recover the drive.
+
+6.) Turn off your lite-on drive and type "dosflash"
+
+7.) Once you get to the port your drive is attached to type "Y" till the drive responds.  It will come up as FF72 Status and the choose the number of your drive.
+
+8.) After Choosing your Drive, type "E" to erase the drive completly
+
+9.) Repeat steps 6 and 7 starting with the drive powered off
+
+10.) After Choosing your drive, type "W" to write.
+
+11.) when you're asked what file to write type "Lite_cfw.bin"
+
+12.) After the 4 banks are all written you'll have your 360/lite-on drive back working again and ready to play Burnt games.
+
+Thanks again to everyone at Robinhoodsplayground

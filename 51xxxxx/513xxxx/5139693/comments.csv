@@ -1,0 +1,153 @@
+User Type,Username,Date,Text
+,ScorpioPirate,2009-10-29T15:46Z,"Herligt med Dansk...
+
+Venter på Windows 7 Ultimate 64 bit :-)"
+,hafina,2009-10-29T21:42Z,"Tak Scorpio
+Men du slipper ikke for et par engelske tekster i starten af installationen. Faktisk kan jeg lave en 64, men det må lige vente til jeg for tid. Check tilbage."
+,ScorpioPirate,2009-10-29T22:44Z,"Thanks.... :-)
+
+Vender tilbage og ser hvad du kommer med..."
+,hafina,2009-10-30T04:57Z,"Hej igen Scorpio
+Jeg laver alligevel ikke en 64 - bl.a. fordi jeg ikke kan teste den. Prøv selv med en engelsk og en dansk sprogpakke. Du kan hente her:
+
+http://www.softpedia.com/progDownload/Windows-7-Download-118183.html
+
+Og en guide til at integrere her:
+
+http://www.msfn.org/board/windows-7-mui-slipstream-t136490-pid-888878.html&s=f9ad5ab1242edbb1a426871165d0cca0#entry888878
+
+Det er faktisk ikke så svært - og ret sjovt"
+,kress81,2009-10-31T02:12Z,"Hvorfor kan jeg ikk få det til at virke ?? Den siger jeg har en forkert kode, men har ikk fået lov til at skrive nogen ind, tror bare den tager den som er skrevet ind på min vista... ??
+
+-Kress..."
+,hafina,2009-10-31T03:04Z,"Hej Kress
+Har du kørt Loader?"
+,kress81,2009-10-31T09:59Z,"Loader ?? Ja jeg er ikk den store pc haj, men nej, det tror jeg ikk jeg har. Skal den brændes på cd eller kan man bare kører den ??
+
+-Kress..."
+,hafina,2009-10-31T11:10Z,"Hej igen Kress
+Du skal brænde hele herligheden på en DVD eller USB. Så skal du boote fra DVD/USB og køre installationen. Så har du en færdig installation, der ikke er aktiveret.
+
+Hvis du vil aktivere, skal du køre det lille program Windows 7 Loader.exe i mappen Windows 7 Loader v1 7 (x86 ? x64)-Daz."
+,hafina,2009-10-31T11:13Z,"OBS Ovenstående  beskriver en clean install - hvis du vil forsøge at opdatere , så kør setup fra dit nuværende operativsystem."
+,Brianricko,2009-10-31T16:53Z,"Hej hafina
+
+Først tak for et godt stykke arbejde.
+
+Jeg skal lige vide om den er tidsbegrænset eller en man kan bruge hele tiden?"
+,hafina,2009-10-31T17:58Z,"Hej Brianricko
+Den skulle holde ubebrænset. Der et check:
+
+Manually check the activation status of your Windows
+
+   1. Type cmd in Start menu.
+   2. Right-click on the first result (cmd.exe) and click on Run as administrator (confirm by clicking Yes if required).
+   3. Type
+      Code:
+      slmgr -dli
+      Code:
+      slmgr -xpr
+      Code:
+      slmgr -dlv
+      Press ENTER after each command."
+,kress81,2009-10-31T22:21Z,"
+Jeg blir sindsyg over jeg ikk kan finde ud a det pis !! Men jeg kan ikk gøre noget overhovede før den siger at der er en forkert nøgle og så stopper installationen :("
+,hafina,2009-11-01T09:57Z,"Kress
+Hvis du kører installationen fra DVD/USB skal den ikke bede om en nøgle.
+
+Nøglen er indbygget i  filen, der hedder Autounattend.xml. Den er i øvrigt 22TKD-F8XX6-YG69F-9M66D-PMJBM. Du bør desuden kunne køre installationen videre uden overhovedet at angive en nøgle, hvis den af en eller anden grund beder om en.
+
+Lad mig høre om andre har samme problem som Kess."
+,hafina,2009-11-01T10:03Z,"Hej igen Kess
+Jeg har læst din kommentar igen, og nu fatter jeg, at problemet er, at installationen stopper af sig selv. Det har jeg ikke været ude for selv.
+
+Hvis du kører fra DVD/USB og er gået offline, og det stadig ikke virker, kan du prøve at køre installationen uden Autounattend.xml (slet den helt) og lade være med at angive en nøgle - men, som sagt, så har jeg aldrig selv oplevet problemer i den retning."
+,kress81,2009-11-01T11:41Z,"Starter op og jeg vælger dansk sprog, videre og vælger dansk igen, og så kommer der INSTALLER op den trykker jeg så på og så skriver den STARTER INSTALLATIONEN og 2 sek efter kommer der dette...
+http://www.billedeupload.dk/upload/files/2009-11/a5f90ac9.jpg :(:(:("
+,hafina,2009-11-01T11:57Z,"Hm...
+Kører du fra DVD/USB?
+Har du prøvet at slette Autounattend, inden du kører?"
+,kress81,2009-11-01T12:31Z,"ja kører fra dvd, men har ikk slettet den fil"
+,hafina,2009-11-01T13:31Z,"Slet den - og lad være med at angive et serienr.
+
+Opgraderer du eller kører du clean install?
+
+Jeg har faktisk kun selv testet den som clean."
+,kress81,2009-11-01T18:32Z,"Opgraderer, -Eller prøver på det :) Jeg vil prøve at lave en ny dvd men uden den fil."
+,hafina,2009-11-01T21:13Z,"Tak cooper
+Jeg har redigeret."
+,Brianricko,2009-11-02T07:46Z,"Hejsa igen
+
+Jeg vil bare lige sige jeg har ingen proplemer med at installerer den,den blev installeret som nyinstalastion,alså på en clean harddisk (partion)
+og det virker 100% også loader."
+,hafina,2009-11-02T08:21Z,"Hej Brianricko
+Skønt.
+Så må vi bare håbe, at Kress kan få den til at opdatere, men det er nok tvivlsomt.
+Det er også bedre at installere på en clean harddisk - som du har gjort. Det er lidt mere besværligt med geninstallation af alle programmer, men til gengæld kører alting bedre - efter mine erfaringer."
+,mubeen_s,2009-11-02T10:00Z,"Jeg er ikke særlig skrap i det her og skal derfor lige være sikker...
+Jeg har XP på min comp idag -->
+Sletter Autounattend.xml -->
+windows 7 installere jeg på en DVD/USB -->
+Booter up med DVD/USB (hvordan gøre jeg det?) -->
+and thats it?"
+,hafina,2009-11-02T19:12Z,"Hej Mubeen
+En install på en clean partition:
+Du skal ikke slette noget.
+Brænd iso'en til DVD eller USB.
+Sørg for, at din pc kan boote fra DVD eller USB (indstillinger er inde i bios).
+Boot fra DVD/USB.
+Vælg partition (opret en ny - eller slet den bestående).
+Installer.
+Kør loader."
+,hdbiker,2009-11-14T22:48Z,"Hej haf jeg har godt nok høvlet en engelsk version ned og lagt en dansk sprogpakke på det skulle også være en a de programmer der er pre aktiveret HMM når jeg går ind i system står der win 7 er aktiveret men der er dog nogle updateringer jeg ikke kan få samt jeg ikke kan tjekke via Microsoft genius det gider den ikke  HMM men gerne på din Office den er okey og ingen problemer LOL du har beskrevet hvordan vi ikke ""NØRDER"" kan tjek via fil søgning i start op og cmd men vil du være sød at beskrive mere detaljeret hvordan og i hvilken række følge jeg taster div code samt dli mv der taber jeg altså tråden LOL på forhånd tak og tak for tålmodig respons til andre  KVIK KVAK USERE HDBIKER"
+,hdbiker,2009-11-14T23:22Z,hey igen haf glemte at skrive da jeg brugte loader gik minavast virus program amok men jeg ignorerede det og da jeg var f?rdig med min pc og startede den op dagen efter manglede minstyresystem en ini fil og kunne ikke strate win 7 up sur r?v m?tte starte helt forfra med alle mine programmer  mv hvad skal jeg bede min avast om nor jeg pr?ver loader igen og den igen reagere igen tak fra HDBIKER
+,hafina,2009-11-15T11:34Z,"Hej Biker
+Du skal skrive hver kodelinje (fx slmgr -dli) for sig og trykke p? enter - s? f?r du et svar.
+
+Jeg tror, du helt skal standse dit antivirus, n?r du k?rer loader."
+,BrixBaumann,2009-11-16T18:05Z,"Denne upload er et godt eksempel på, hvordan man spilder andre menneskers tid ved ikke at give den rette vejledning.... 
+
+"
+,hdbiker,2009-11-17T00:41Z,hej igen haf den engelske wersion jeg har kvik kvak ned som hedder windows 7 AIO den er aktiveret ved instalation og det loader er unødvendigt GG LOL f..k loader og til jer andre kvik kvakkere søg efter den og ps haf fandt ud a hvordan jeg tjek som du har beskrevet  og virker fint med dejlig respons uden loader GG LOL 
+,hafina,2009-11-17T05:45Z,"Til Brix (og andre)
+I beh?ver faktisk ikke en detaljeret vejledning: Torrenten er beregnet til en clean install, og s? skal man bare installere og k?re loaderen bagefter. That's it!
+
+De forskellige besv?rligheder i kommentarerne skyldes kun, at man fors?ger at opdatere."
+,Smilmer,2009-12-30T15:33Z,"Hej Hafina
+
+Tusind tak.. Alt virker super godt.. Windows 7 clean install er for fed.. Skiftet fra XP.. Kører på gammel pc, den har aldrig kørt så godt.. "
+,jalal123,2010-01-09T10:43Z,er der en udløbsdato på den?
+,hafina,2010-01-09T11:12Z,Ingen udløbsdato
+,jalal123,2010-01-09T21:09Z,"har du set den der anden windows 7 rc dansk, her på piratebay. han siger at den udløber om et år. Men hvis man bruger det program der hedder removewat, kan jeg så bruge det for evigt?"
+,hafina,2010-01-10T17:07Z,"Du kan jo prøve. Jeg har tidligere citeret det her - det kan du jo prøve bagefter:
+
+Manually check the activation status of your Windows
+
+1. Type cmd in Start menu.
+2. Right-click on the first result (cmd.exe) and click on Run as administrator (confirm by clicking Yes if required).
+3. Type
+Code:
+slmgr -dli
+Code:
+slmgr -xpr
+Code:
+slmgr -dlv
+Press ENTER after each command."
+,jalal123,2010-01-10T21:44Z,"Den andens lincens udløber, fordi det er en prøveversion, men er ikke helt sikker. Men har installeret din og brændt den over på en cd, men den starter ikke, når den skal udpakke windows filer ud."
+,hafina,2010-01-11T13:12Z,"Hvis du har brændt den rigtigt, skal du bare boote fra DVD'en. Så skulle det hele køre af sig selv."
+,jalal123,2010-01-11T18:10Z,"Jeg downloadede den og brændte den direkte, men den virker, men når den skal udpakke filer, jeg har ventet i 10 min den har stadig ikke startet, men jeg droppede det bare smed cd'en ud."
+,jalal123,2010-01-11T18:11Z,og hvordan sagde du man kunne tjekke om sin windows var ægte eller en prøveversion?
+,hafina,2010-01-11T18:54Z,Du kan se lige ovenover! Iøvrigt kan det godt tage et stykke tid at udpakke filer. Måske skulle du vente lidt længere.
+,jalal123,2010-01-12T22:15Z,"jeg forstår altså ikke det der, kan du ikke  skrive det på og en nemmere måde tak."
+,hafina,2010-01-13T17:12Z,"Prøv at se her:
+http://forums.mydigitallife.info/threads/7126-The-Official-Windows-7-Repository
+under 6. Advanced stuff - E. How to check the activation status?"
+,jalal123,2010-02-08T17:29Z,hvad hastighed skal jeg brænde den med?
+,jalal123,2010-03-21T20:09Z,Har du fået den fra Nordic-t?
+,hafina,2010-06-02T19:00Z,"Efter de seneste Microsoft-ugerninger skal I nok bruge en nyere loader. Jeg har brugt den her:
+http://thepiratebay.org/torrent/5541849/Windows_7_Loader_v1.7.9_%5B_Windows_7_Activation_For_all_versions_"
+,lasse23,2010-09-23T20:29Z,Er det ikk meget bedre bare at hente en engelsk og installere dansk sprogpakke...??
+,lasse23,2010-09-23T20:40Z,og for det andet kan jeg ikk se iso afbildnings filen..??
+,hafina,2010-09-24T08:17Z,"lasse23 - hvis du hellere vil bruge en engelsk med dansk sprogpakke bagefter kan du gøre det. Jeg har bare slået dem sammen. Det synes jeg er lettere. Torrenten er en iso-fil, så jeg forstår ikke helt dit problem."
+,hafina,2011-01-18T10:45Z,"Nyere version her
+http://thepiratebay.org/torrent/6110974"

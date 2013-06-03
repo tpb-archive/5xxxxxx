@@ -1,0 +1,32 @@
+Wii Sports, compressed to work with Dolphin.
+
+Please update Dolphin to SVN 4634 or newer.
+
+Settings that made this work for me:
+
+
+Config/General:
+Dual-core: ENABLED
+Idle Skipping: ENABLED
+Panic Handlers: DISABLED
+Framelimit: 60 (might run too fast otherwise)
+EuRGB60 Mode: ENABLED
+Progressive Scan: DISABLED
+
+Plugin:
+Direct3D9
+
+DSP:
+Enable Audio throttle: DISABLED
+
+Properties:
+Enable CPU->EFB Access
+Enable EFB Access to TEXTURE
+Disable FOG
+
+Optional video settings (change to your system/liking):
+Progressive scan: DISABLED
+Aspect Ratio: 16:9
+Full screen resolution: 1440 x 900
+AA Mode: 16xQ CSAA
+Enable 16x Anisotropy filtering

@@ -1,0 +1,54 @@
+xxxxxxxxxxx
+x N A M E x
+xxxxxxxxxxx
+
+Sandboxie v3.36
+
+xxxxxxxxxxxxxxxxxxxxxxxxx
+x D E S C R I P T I O N x
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+Lets you browse the Web securely while keeping all your browser's functionality for active content
+
+Sandboxie requires neither the disabling nor blocking of functions available to Web sites through the browser. Instead, Sandboxie isolates and quarantines the outcome of whatever the Web site may do to your computer, including the installation of unsolicited software.
+
+There is no trade-off of functionality for security: the Web site can use the full range of active content tools, and if it uses these tools maliciously to install software or otherwise make changes in your computer, then these changes can be easily undone.
+
+Sandboxie has originally been designed to increase the security of browsing with Internet Explorer, however it is just as effective with any other browser, and in fact, any other program. Sandboxie wraps a protection layer around the programs it supervises. It is this layer that intercepts and isolates any changes the programs make to the computer. And this layer is impartial to the specific program it wraps.
+
+Sandboxie was designed as an application that will allow you isolates and quarantines website.
+
+When you browse the web, changes occur to your computer system. Most of the time these changes are harmless, like recording the addresses of web sites you have visited (and when), so the browser can help you complete a web address that you type in. Whether these changes are harmless or harmful, they do in fact happen to your computer system.
+
+When you use Sandboxie to protect your browsing session, it catches all these changes just as the browser is about to apply them into your computer system. Sandboxie does record these changes on behalf of the browser, but it records them in a special isolated folder, called the sandbox.
+
+The benefit of having a sandbox is that it ensures your ability to get rid of all changes done by the browser, simply by deleting the sandbox folder.
+
+Another useful feature of Sandboxie is the ability to terminate all sandboxed programs at once. As some web sites tend to pop up three new browser windows for each one you close, you can have Sandboxie close all of them with a click of a button.
+
+What's new in Sandboxie 3.36:
+Translations:
+Â· Albanian translation contributed by Besmir Godole.
+Â· Chinese (Traditional) translation contributed by tenhon.
+Â· Czech translation contributed by Virec Jaroslav.
+Â· Russian translation contributed by Sergey Burkun.
+New Features:
+Â· New application configuration system makes it easy to activate configurations and resolve conflicts with third-party software.
+Â· Intercept AutoPlay notifications for better protection of CD/DVD and USB drives which are protected (forced) by Sandboxie.
+Fixes:
+Â· Sandboxie Control does not abort if the tray icon cannot be installed.
+Â· Border around sandboxed windows uses less CPU resources and does not appear around full screen Web video windows.
+Fixes related to Windows Vista:
+Â· Support "Run As" UAC elevation requests for sandboxed programs.
+Â· Fixed a problem with Internet Explorer 8 when User Account Controls (UAC) is enabled.
+Â· Fixed a problem that prevented a clean start of Windows Installer.
+Â· Fixed a problem with starting Windows Live Messenger.
+Â· Fixed a problem with use of some plug-and-play hardware such as webcams and joysticks.
+Fixes to Quick Recovery and Immediate Recovery:
+Â· Correctly recover files that have a long name or a long path.
+Â· Suspend Immediate Recovery notifications until the file is no longer in use by the application that created it.
+Â· Improved support for Immediate Recovery with Google Chrome and Microsoft Office products.
+Â· Many more fixes under a hood for a smoother Sandboxie experience.
+Third-party software:
+Â· Resolved conflict with eEye Blink (version 4.3.0 or later)
+Â· Resolved conflict with Outpost Firewall during installation.

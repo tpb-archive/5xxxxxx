@@ -1,0 +1,23 @@
+This is a Hard drive rip of my OSx86 server running on my intel D945GCLF2 motherboard. It does not have any user info. All you have to do is restore it to your hard drive, change the BIOS settings (check the forum), and update three UUID's. 
+
+IT WILL PROBABLY NOT WORK ON ANY OTHER MOTHERBOARD
+
+
+check the forum at 
+ 
+http://www.insanelymac.com/forum/index.php?showtopic=183637&st=0
+
+for more information. 
+
+
+credit goes to all of the users of that forum for this release.
+Feel free to make your own mods, but this should more or less work out of the box, except for the audio which i have not bothered, since it is a server with no monitor attached.
+
+the three UUID mods are:
+both com.apple.boot.plist's (in extra/extensions and Library/preferences/System Configuration)
+ and the info.plist inside the contents of Platform UUID.kext (extra/extensions)
+
+WARNING: you need to know how to use OS X server to be able to use this, I recommend reading all of the support files at apple.com/support for snow leopard server. Most notable is getting the correct DNS name. If the DNS name is not automatically generated during setup, I recommend doing some research because it will not work otherwise. You will end up reinstalling this again.
+
+
+

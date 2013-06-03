@@ -1,0 +1,45 @@
+Wrong LiteOn firmware was packed in first packaging.  Sorry for the bug.
+
+
+
+Team HyperX Presents IXtreme 1.6 firmware for Benq, Samsung and Liteon drives
+------------------------------------------------------------------------------
+
+IXtreme fw for Benq, Samsung and Liteon drives!
+
+
+Features
+--------
+
+-Strict Wave 3 compliance! hybrid (modified disks) will not boot! 
+
+-Strict drive speed compliance - 12x only for game discs! 
+
+-Support for SS V2! 
+
+-Integrated 0800 for game dumping including SS v2! 
+
+-Full support for all known game exceptions! eg ddr etc! 
+
+-One shot boot mode! - allows a one off boot of gamedisc without -stealth/partition checks (will still use stealth), use activate.iso disk to activate each time! 
+
+-Support for easy drive key/version info cmd, same as liteon! 
+
+-Strict stealth/wave checking, one shot boot mode will boot wave(x)! 
+
+
+More Info
+---------
+
+
+Strict Wave 3 compliance means wave 3 games will only boot if they have correct PFI/DMI/SS and timestamp for wave 3
+
+Strict drive speed compliance means games will only boot if drive is set for the initial speed of 12x, any modification of this make games fail to boot
+
+SS v2 suports multiple timing samples for challenges type 5 and 7 , stroing them in the SS. This is a pre-requiste for SS v3 which has support for the so called AP2.5 check. Since this has never been used or may never be used by MS we will adopt a wait and see approach and continue to monitor for its usage.
+
+With drive in Windows mode (Tray half open on powerup) 0800 mode is activated allowing easy dumping of game disc including SS v2. In this mode the drive is also able to output drive key, fw version and drive type by using a simple custom inquiry command.
+
+Game exceptions are integrated in the fw for games that do not comply with the strict wave checks but are legitimate. These are Dance Dance Revolution Universe, Stoked, Ping 17 disk, afro samurai
+
+One shot boot mode allows you to boot a Wave X or non stealth game by using the activate.iso disk as a flag. Just insert the activate disc and the next disc inserted will boot without any strict checks. This will still utilise full stealth if available. As soon as that disc is booted the flag is cleared, and you will have to re-insert the activate disk again to enable one shot boot. As always use with caution.

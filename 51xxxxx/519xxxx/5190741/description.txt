@@ -1,0 +1,56 @@
+Only 36KB!!!
+
+I made this keylogger because I was sick of my AV or SpyBot picking up on commercial keyloggers I was trying to use 
+(it defeats the purpose if your AV deletes the keylogger periodically).
+
+
+This keylogger is unrecognised by all virus scanners tested by VirusTotal.com
+I aim to develop this to have all the features of a commercial keylogger.
+
+Features:
+
+ - Logs all keystrokes made on the computer as well as the title of the window
+   the keystrokes are made in. Captures passwords and all other invisible text.
+
+ - Absolutely tiny and resource friendly. Only ~ 30Kb. Has never used more 
+   than 0.2% CPU while I have been using it.
+
+ - Can record all text which is copied to the clipboard 
+   (whenever Ctrl+C, Ctrl+X etc is pressed).
+
+ - Has an invisibility mode as well as user interface. Can be hidden on
+   startup. (Ctrl + Alt + F8 to restore visibility).
+
+ - Undetectable to antivirus software (so far).
+
+ - Can Pause and Resume when you don't want certain keystrokes recorded.
+
+ - Will never attempt to connect to the internet. This keeps it invisible to 
+   firewalls and means you can trust that it is never  sharing your logs with
+   others (as some cracked versions of commercial keyloggers do).
+
+ - No installation necessary.
+
+ - Still in development so any recommendations/requests will be built into 
+   the next release
+
+Has been tested on Vista and XP and have not had any errors. If you like or dislike please leave a comment. I want to hear any recommendations you have. If there is enough interest I will add features such as uploading to an FTP site.
+Please comment as it will let me know if I should continue or can this.
+
+How to use:
+
+      - Move Steel.exe to desired location.
+      - Run Steel.exe.
+      - Choose save location under Options (or Ctrl+S). Default is in a log folder
+        in the same directory as Steel.exe.
+      - Select whether you want the application to startup with windows and
+        enable Hide on Startup if required.
+      - Use Ctrl+Alt+F8 to reshow the keylogger.
+      - Browse to log folder and open with notepad etc to view.
+
+
+
+License:  http://creativecommons.org/licenses/by-nc-nd/3.0/nz/
+
+Created by _Smithy_
+NEWER VERSION OUT. GET IT HERE:  http://thepiratebay.org/user/_Smithy_/

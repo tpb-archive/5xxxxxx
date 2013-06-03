@@ -1,0 +1,30 @@
+CLIENT SIDE (i.e Your own pc)
+-----------------------------------------------------
+
+Extract the Dead Before Dawn folder to Steam/SteamApps/Common/left 4 dead/left4dead/addons
+
+Start up Left 4 Dead, in the main menu open your console and type: snd_rebuildaudiocache 
+It will seem as if a map is loading, let it load, if it gets stuck on a full loading bar, 
+leave it for 5 minutes before CTRL ALT DEL out of it to close it down
+
+If you dont know how to open the console go to options, keyboard and mouse, and enable developers console. 
+You can now bring the console up by pressing the tilde key (`) which is to the left of the 1 key.
+
+KNOWN BUG - DO THIS TO AVOID IT!
+--------------------
+
+There is a known bug with a soundloop that occurs when setting zombies on fire, open the console and type this: bind g "snd_restart"
+Anytime you get the soundloop bug, just tap the G key and it will stop. We apologise for this bug, but its a problem within L4D not the campaign.
+
+
+SERVER SIDE
+----------------------------
+
+Extract the CONTENTS of the folder to /left4dead. Pay attention that you extracted the CONTENTS of the DeadBeforeDawn folder directly into your left4dead folder. 
+
+INCORRECT: left4dead/DeadBeforeDawn (There must be NO DeadBeforeDawn folder, only the files and folders inside the DeadBeforeDawn folder)
+CORRECT: /left4dead
+
+If you install it to the addons folder on your server, it WILL NOT detect it. 
+
+For further support and questions, please visit www.L4DMods.com

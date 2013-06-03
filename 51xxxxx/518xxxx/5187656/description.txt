@@ -1,0 +1,158 @@
+I did not make this just uploaded it. it is a nand emulation thing for the wii..
+if you didnt understand NAND EMULATION, dont download this. you will not get this to work. and YES this is outdated. but it is the only copy i could find laying around on the internet. there is a sneek beta v0.2, but it was a closed beta, and this release was considered illegal, and taken down from all sites within an hour of realese. very very little is know about any advancement in this program. HAVE FUN! and if you have a copy of sneek v0.2 please upload it.
+
+SNEEK v 0.1 (SD-NAND/ES-Emulation Kit) by crediar (10/10/2009)
+-------------------------------------------------------------------------------------
+
+Many tanks to ajd4096 who donated me an USBGecko!
+Thanks to the anonymous guy who helped me with the FS module!
+
+WARNING:
+-------------------------------------------------------------------------------------
+YOU AGREE THAT YOU INSTALL THIS TOOL ON YOUR OWN RISK, THE AUTHOR CAN NOT BE HELD
+RESPONSIBLE FOR ANY DAMAGES CAUSED BY EITHER USING OR INSTALLING THIS TOOL.
+
+
+What is SNEEK and what the hell does it do:
+-------------------------------------------------------------------------------------
+Roughly said SNEEK redirects all NAND access to SD and also has its own ES module
+which already emulates most of the ES calls but does not check any signatures or
+versions of installed titles.
+
+The ES module also automatically adjusts to the IOS version the current title
+requests.
+
+As long as SNEEK is running NO changes are applied to the NAND.
+It outputs a lot of debug information via USBGecko i.e. what ES calls are being made.
+
+Note about the release:
+-------------------------------------------------------------------------------------
+SNEEK has been private for a long time now (the FS module is already four months old)
+the ES module got created last month due a problem with a Wii I own.
+It had a broken NAND and nothing more than BootMii would work so I created the ES
+module.
+
+I thought maybe others also got a use for it since it also allows to take your NAND
+over to a friend who also got SNEEK installed, or simpler things like messing with
+save files or modifing other stuff.
+
+Because mini is released under GNU GPL v2 it is required to also supply the source
+that's why mini-tree-src.rar is included in this package.
+
+
+Known problems:
+-------------------------------------------------------------------------------------
+Due the way it works it breaks any SD access on the PPC side. Since a few apps can't
+handle that no /dev/sdio device is present SNEEK emulates that with no SD card being
+inserted.
+
+But it is still possible to access the whole SD card through ISFS functions i.e.
+ISFS_Open("/music/awesome.mp3", 1 ); so you got at least SD access for homebrew stuff
+if the authors add it.
+
+System menu settings crash. Data management works.
+Wii-Disc loading via System menu doesn't work, GC-Disc work (if BS/MIOS are present).
+Wii-Disc loading works via custom loaders.
+
+Since this is emulation random crashes might occur and some stuff might not work.
+
+
+Requirements:
+-------------------------------------------------------------------------------------
+Before you can use SNEEK you need a few additional things:
+
+-SD/SDHC card
+-IOS60 v6174 (TMD, ticket and decrypted(!) content files)
+-a NAND FS dump
+
+-BootMii installed as boot2(!) (optional)
+-an USBGecko  (optional)
+
+
+Notes on the install methods:
+-------------------------------------------------------------------------------------
+The BootMii install offers the best way of running SNEEK since it directly runs on
+boot up and does not require any modifications of the NAND.
+
+The IOS-Install needs to be install on the NAND and the IOS needs to be called by an
+application before SNEEK can start.
+
+
+BootMii-Install:
+-------------------------------------------------------------------------------------
+
+Modifying IOS60
+-remove the SD module entry from the TMD and reduce the content count by one
+-change the TitleID within the TMD and the ticket to 00000001-000000FA
+
+Create the 0000000e.app/boot2.bin
+-run the following commands
+
+(Note: if you want you can use the ES or the FS module without the other,
+simply do "elfins.exe  0000000e.app")
+
+elfins.exe esmodule.elf 0000000e tmp.bin
+elfins.exe fsmodule.elf tmp.bin 0000000e.app
+
+boot2me.exe 0000000e.app boot2.bin
+
+-now copy the boot2.bin to the root of your SD card
+-copy the supplied BootMii folder to your SD card, you might want to backup the
+ content first!
+
+Create SNEEK FS structure on NAND
+-copy your NAND FS to the root of the SD card
+-create this folder structure:
+/title/00000001/0000000fa/content/
+-copy the IOS60 content files with the TMD into that folder
+-copy the created 0000000e.app to that folder as well
+-rename the TMD to title.tmd
+-copy the IOS60 ticket to /ticket/00000001/000000fa.tik
+
+now SNEEK should be fully working and boot up the system menu
+
+
+IOS-Only-Install:
+-------------------------------------------------------------------------------------
+
+Modifying IOS60
+-remove the SD module entry from the TMD and reduce the content count by one
+-change the TitleID within the TMD and the ticket to 00000001-000000FA
+
+Create the 0000000e.app
+-run the following commands
+
+(Note: if you want you can use the ES or the FS module without the other,
+simply do "elfins.exe  0000000e.app")
+
+elfins.exe esmodule.elf 0000000e tmp.bin
+elfins.exe fsmodule.elf tmp.bin 0000000e.app
+
+Creating and installing the SNEEK.wad
+When running SNEEK via the IOS-Install you have to install it via a .wad
+there are many tutorials on the net on how to create a wad and how to install them
+
+Create SNEEK FS structure on NAND
+-copy your NAND FS to the root of the SD card
+-create this folder structure:
+/title/00000001/0000000fa/content/
+-copy the IOS60 content files with the TMD into that folder
+-copy the created 0000000e.app to that folder as well
+-rename the TMD to title.tmd
+-copy the IOS60 ticket to /ticket/00000001/000000fa.tik
+
+
+as soon as you load IOS250 via any method it should load and load the system menu
+
+
+Change default boot up title:
+-------------------------------------------------------------------------------------
+By default the system menu (1-2) is booted, if you want to boot another title by
+default create a file called "/sys/default.sys" on your SD card and write the
+title ID as hex into it (not as text!!)
+
+
+Uninstall:
+-------------------------------------------------------------------------------------
+Simply restore your BootMii folder on your SD card.
+

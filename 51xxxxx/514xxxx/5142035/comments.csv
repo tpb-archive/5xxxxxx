@@ -1,0 +1,16 @@
+User Type,Username,Date,Text
+,stumpy2006,2010-09-15T21:21Z,What's better than this app? Using the trial version to pirate the full version :D
+,Codeplayer,2010-11-15T01:33Z,"Actually, I found a perfect solution for easy registry changing. I forgot always which registry key it was and the name Morose is not quite easy to remember either :P. So: here is, what I recommend: Download the free task manager app, http://www.dotfred.net/TaskMgr.htm then associate your.reg files to that app (Menu, options, Create Regedit shortcut). Then create a .reg file with your notepad:
+______________________________
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Morose Media\WMWifiRouter\License]
+""StartDate""=-
+_______________________________
+
+Copy the file to your WM device to folder Windows\Start Menu\Programs Name the file WMWifiRG.reg, then it is located next to the app. 
+
+Now, when you have your licence expired, you can click and have a new trial period with no hassle.
+
+I recommend to buy the product, after you have evaluated it, if you like it so much, that you need a second trial period :)"

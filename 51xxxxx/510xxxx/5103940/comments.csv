@@ -1,0 +1,25 @@
+User Type,Username,Date,Text
+,xgp_alex28,2009-09-29T12:35Z,subs: http://www.addic7ed.com/serie/Heroes/4/3/Ink
+,Saberus,2009-09-30T13:32Z,again switched channels.. and btw 720p rips works fine
+,Saberus,2009-09-30T13:34Z,maybe don't touch the audio and compress only video :P?
+,Saberus,2009-09-30T13:36Z,"too bad that i deleted the 720p source, then i can merge sound with mkvmerge ehh.."
+[T],teslaman,2009-10-02T01:49Z,Well that would lower the video bitrate considerably. But what do you mean by switched channels? This time I checked it and the audio was on the Right channel so I moved it to center. And it played center on my system.
+[T],teslaman,2009-10-02T02:03Z,*the voice audio that is.
+[T],teslaman,2009-10-02T05:36Z,"Ok so here's the channel order chart I found:
+5.1 WAV FL , FR , FC , LFE, SL , SR 
+5.1 AC3 FL , FC , FR , SL , SR , LFE 
+5.1 DTS FC , FL , FR , SL , SR , LFE 
+5.1 AAC FC , FL , FR , SL , SR , LFE 
+5.1 AIFF FL , SL , FC , FR , SR , LFE
+
+Now the MKV with AC3 uses:
+FL , FR , FC , LFE, SL , SR
+Which according to the chart is wrong
+
+My AVI with AC3 uses:
+FL , FC , FR , SL , SR , LFE
+Which according to the chart is correct
+
+However, I just demuxed the 720p ac3 and muxed it with my avi, both the 720p audio and mine play correctly on my system with voice on center......lol.
+
+See this time Center was labeled Right after decompression, so I fixed the labeling, which should allow proper playback, which on my system it did. But from now on I will also make sure it follows the same order as well since some systems must not work as good."

@@ -1,0 +1,52 @@
+What's new
+
+[1.8.0.0] 25 November 09 ----------------
+
+* Mark > Sticky selection now compatible with lasso mouse selection mode
+* PNG, AVI and such files now can have comments attached (workaround); also commenting doesn't change file dates
+* Goto > Special folders > Compatibility files (vista or later) jumps to the folder containing any "compatibility files" in the current folder (written by legacy applications without sufficient access rights)
+* View > Tile horizontally easy access command to switch dual panes from left-right to top-bottom
+* [P] Edit > Paste (Ctrl+V) in scrap windows and the mini-scrap accepts file paths (text from clipboard) to import items. Separate multiple items in separate lines
+* [P] Edit > Copy columns includes group header titles, if any (if you are showing in groups from Arrange by menu)
+* [P] Customize > User commands > Add current menu command adds a tool based on the selected EXEcutable item in the active folder
+* advanced settings editor (Tools menu) can now edit lists like File Types (see Global property page). Clear a checkbox to "delete" an entry, click "Add new" to add a new one
+* Tools > Options > Advanced page has a button to cancel xplorerÃ‚Â² replacing windows explorer (so that you don't need to uninstall xplorerÃ‚Â²)
+* [P] Help > About shows installation date and licence key date under the reference number
+* Goto > Special folders includes links to My pictures and My music folders
+* Actions > Split file dialog includes a standard size foruploads (100MB)
+* New tips: 2a, 49a, 56a, 74c, 81a, 102a, 166
+* Tab context menu includes a "Move across" command which sends the tab to the other (inactive) pane
+* external registry settings editor offers to close xplorerÃ‚Â² if found running
+* installer asks if you want separate window/layout (NOT recommended!) when xplorerÃ‚Â² replaces windows explorer
+* [P] file copy overwrite confirmation dialog shows item icon and information about the new item (bigger/smaller, newer/older)
+* windows 7 libraries are enumerated just like in windows explorer
+* registry option nMaxTButWidth sets the maximum width for text-enabled toolbar buttons
+* [P] robust copy <F5> option to overwrite existing folders at destination; this means that if you copy a folder and its target already exists, it will be deleted first then the source folder will go on top, effectively removing all old items at the destination. Overwrite confirmations will follow whatever policy you have for files (Existing objects overwrite section)
+* [P] Bookmarks and user commands on toolbars are valid drop targets (e.g. drag-drop a file on a bookmark to copy/move a file in the bookmarked folder)
+* sticky selection now works in Vista/win7 too
+* Actions > Split file shows estimated file pieces and Merge files restores the original modification date
+* Use drag-drop to rearrange folder tabs
+* Help > How do I? menu command opens pane with on-board tutorials for common file management tasks (requires internet connection)
+* Tools > Options > Advanced "Quick view docked to the right" means to the right of window, not tree
+* right-click on folder tree background to select sorting by date or name menu commands
+* Help > Tell a friend menu command for those who like xplorerÃ‚Â² enough to recommend it to their pals :)
+* Mark > Sync wizard can now check file metadata (column). Unless the column is a date, the comparison is in the sense identical/different, similar to comparison by Name only
+* [P] Tools > Check duplicates can also check for any file metadata (e.g. find pictures that have the same "date picture taken")
+* [P] Autofilter categories can be used as components in comma-separated wildcards e.g. -{documents},-{source code}. They are valid in the addressbar too.
+* Tools > Advanced options launches the GUI registry settings editor (and quits xplorerÃ‚Â²)
+* Help > Crash information locates the crash minidump file (if there were any recorded program crashes). You can then drag-drop it to an email and send it as attachment to xplorerÃ‚Â² customer support.
+* [P] Customize > Color coding now supports checkboxes so that you can turn individual color filters on/off. Right click to tick/untick all checkboxes
+* Edit > Paste commands also accept images and text from clipboard; they create picture or text files from clipboard content, respectively, called x2scrap.*
+* Actions > Change attributes includes a checkbox to change the security of selected items so that everyone is granted full read/write access. WARNING: this totally whacks all prior security information!
+* [P] special paste commands Multi Paste and Sync-o-paste offer to suppress any overwrite confirmation dialogs (XP or later)
+* [P] Edit > Copy to dialog, the queue option is now a persistent tickbox called "Use queue"
+* Script wizard dialog box is resizable like mass rename wizard
+* FTP folder file dates are properly DST and timezone adjusted and refreshed... not sure if that's any good though :(
+* Every 3 months xplorerÃ‚Â² will prompt you to check if there are program updates to download
+* File > Mass rename command doesn't stop if errors are experienced, renames as many items as possible
+* Tools > Options > Advanced has tickbox for automatically resizing the Name column in detailed view mode
+* [P] All permanent delete/trash <Shift+Del> commands go through the new robust delete dialog that continues after errors, has silent mode etc. All delete operations are queued and executed sequentially
+* [P] registry tweak GAOPT_NOROBUSTDEL(=1048576) disable robust delete, all deletions through explorer
+* Help > Command finder locates menu commands using a keyword, if it matches the menu command's text or its description
+* [P] Mark > Quick search understands global saved hyperfilters e.g. :{earlier_saved_filter} such as you saved e.g. in Find Files dialog (predefined)
+

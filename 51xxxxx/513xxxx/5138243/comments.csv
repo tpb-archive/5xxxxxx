@@ -1,0 +1,36 @@
+User Type,Username,Date,Text
+[V],polisdavid,2009-10-27T20:53Z,THANK YOU SEEDERS!  ;-)
+,troy1969,2009-10-28T01:44Z,"When i try to generate a activation code i just get a message that i need to type a challenge code?
+
+What's that?
+
+thx for the up?"
+[V],polisdavid,2009-10-28T02:49Z,"Hi troy1969,
+
+You have to be disconected from the internet and then register offline."
+,troy1969,2009-10-28T03:24Z,"ok.  ;-)
+
+thx sweden I guess?"
+,aaphm45,2009-10-28T16:08Z,"I'm sorry, But, Without Internet i have the same pb  to obtain the code"
+[V],polisdavid,2009-10-28T18:00Z,"Hi aapm45 
+
+use text edit and create a preference file called: 
+com.koingosw.AlarmClockPro9.plist
+
+paste this into it:
+
+bplist00ÓYSUFeedURL_@HIToolbar Config com.koingosw.AlarmClockPro9.macToolbarAlarmList_JHIToolbar Config com.koingosw.AlarmClockPro9.macToolbarEditChronoRevision4_;¡http://www.koingosw.com/versions-sparkle.php?
+appname=alarmclockpro&appversion=9.1.9&sysplatform=Mac%20OS%
+20X%sysversion=Mac%20OS%20X%2010.4.11&rnam=administratorÓ]TBDisplayMode]TBDisplaySizeWTBItems« _8com.koingosw.AlarmClockPro9.macToolbarAlarmList.newalarm_9com.koingosw.AlarmClockPro9.macToolbarAlarmList.editalarm_;com.koingosw.AlarmClockPro9.macToolbarAlarmList.deletealarm
+%com.apple.hitoolbox.toolbar.separator_8com.koingosw.AlarmClockPro9.macToolbarAlarmList.calendar_;com.koingosw.AlarmClockPro9.macToolbarAlarmList.chronoindex_9com.koingosw.AlarmClockPro9.macToolbarAlarmList.stopwatch_9com.koingosw.AlarmClockPro9.macToolbarAlarmList.timezones_6com.koingosw.AlarmClockPro9.macToolbarAlarmList.uptime_)com.apple.hitoolbox.toolbar.flexiblespace_;com.koingosw.AlarmClockPro9.macToolbarAlarmList.preferences
+:=com.koingosw.AlarmClockPro9.macToolbarEditChronoRevision4.add_>com.koingosw.AlarmClockPro9.macToolbarEditChronoRevision4.edit_@com.koingosw.AlarmClockPro9.macToolbarEditChronoRevision4.delete_Fcom.koingosw.AlarmClockPro9.macToolbarEditChronoRevision4.viewsettings\©MTbpxz?Áý;c?ÜT¹÷þE?É
+
+And try that.  This is the ony solution I can give.
+
+Or you could install 8.4.8, and then it won't be a problem:
+
+http://thepiratebay.org/torrent/4375583/Alarm_Clock_Pro_8.4.8_%5Bk%5D_UB.zip"
+,aaphm45,2009-10-28T19:53Z,thanks for your solution 
+,not_john,2010-02-09T12:36Z,"Polisdavid will that advice work on later versions? Such as 9.2.5?
+Also what is a preference file? And where is it located?"
+,Erik.B,2010-11-07T17:27Z,"@pollsdavid I have the same question, im can create the preference file no problem but do not know what directory to put it in and whether theres any other steps necessary. If you could briefly explain this it would be greatly appreciated. Thanks for the torrent! +1"

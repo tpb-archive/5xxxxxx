@@ -1,0 +1,13 @@
+The Definitive ANTLR Reference: Building Domain-Specific Languages
+
+by Terence Parr
+ 
+http://pragprog.com/titles/tpantlr/the-definitive-antlr-reference
+
+ANTLR is a parser generator: a program that generates code to translate a specified input language into a nice, tidy data structure. You might think that parser generators are only used to build compilers. But in fact, programmers usually use parser generators to build translators and interpreters for domain-specific languages such as proprietary data formats, common network protocols, text processing languages, and domain-specific programming languages.
+
+Domain-specific languages are important to software development because they represent a more natural, high fidelity, robust, and maintainable means of encoding a problem than simply writing software in a general-purpose language. For example, NASA uses domain-specific command languages for space missions to improve reliability, reduce risk, reduce cost, and increase the speed of development. Even the first Apollo guidance control computer from the 1960s used a domain-specific language that supported vector computations.
+
+This book is the definitive guide to using the completely rebuilt ANTLR v3 and describes all features in detail, including the amazing new LL(*) parsing technology, tree construction facilities, StringTemplate code generation template engine, and sophisticated ANTLRWorks GUI development environment. Youâ€™ll learn all about ANTLR grammar syntax, resolving grammar ambiguities, parser fault tolerance and error reporting, embedding actions to interpret or translate languages, building intermediate-form trees, extracting information from trees, generating source code, and how to use the ANTLR Java API.
+
+Please purchase if you enjoyed the book.

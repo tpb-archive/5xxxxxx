@@ -1,0 +1,42 @@
+ http://www.vmware.com/support/ws65/doc/releasenotes_ws653.html
+
+Following are the known issues for Workstation 6.5.3:
+
+    * On 64-bit hosts, linked clones created from third-party backup images (for example, Symantec Backup Exec System Recovery files, Acronis True Image files, or StorageCraft ShadowProtect files) fail at startup with the error message: Cannot write to third-party image.
+    * While attempting to drag and drop a file to or from an Ubuntu 9.0.4 guest while in Unity mode some unusual behaviors have been reported, including failures to move files, screen refresh issues, and the inability to exit from Unity mode.
+    * Drag and drop or copy and paste operations from a Windows XP guest to a 64-bit Ubuntu 9.04 host might produce the following error message: Error while copying.
+    * When performing a drag and drop operation from the latest version of a Windows guest to a Ubuntu 9.0.4 host in Unity mode, an error message appears: The source and destination file names are the same. After cancelling the error message, you can drop the file successfully.
+    * You will receive an error message after cancelling a drag and drop operation from the latest Windows guest to an Ubuntu 9.04 Desktop host.
+    * If a guest is powered off while a drag and drop operation from a guest to a Linux host is in progress, drag and drop will not work after the guest is restarted. To workaround this issue, restart the host.
+    * Easy Install does not work for 32-bit and 64-bit FreeBSD 7.1 guests.
+    * Enabling Assistive Technology on a 64-bit SUSE Linux Enterprise Server 10.1 host prevents the Workstation from starting.
+    * When converting Windows 2000 or Windows Server 2003, the Server License Information selected in the Conversion Wizard is not used, as a result, the default licensing mode is used in the guest.
+    * On an Ubuntu 9.04 host, launching a Java application in a virtual machine that uses the Workstation Eclipse debugger plug-in, might cause Eclipse to crash.
+    * VMX hangs in an ATI fglrx driver on an Ubuntu 9.04 host.
+
+
+Miscellaneous
+
+# On Linux hosts, Workstation will not exit normally if the Workspace preference Remember opened virtual machines between sessions is not selected.
+# Workstation virtual machines that were converted from ESX virtual machines might fail if the display is set to 8-bit color.
+# After installing and configuring VMware Tools on Red Hat Enterprise Linux 3, the sound does not work after restarting the guest.
+# On a Windows XP Service Pack 2 guest, the Hardware Wizard stops responding when installing Logitech QuickCAm Pro 9000.
+# Add enhanced SVGA and mouse drivers to support X.Org server version 1.6.
+# WLK DiskStress test fails with data corruption error on LSI Logic virtual device.
+# Moving files between shared folders or mapped drives in Windows guests that point to the same directory on the host, cause the files to disappear.
+# Pressing any keys while grabbing (for example, Ctrl+g) or ungrabbing become stuck on an Ubuntu 9.04 host.
+# On an Ubuntu 9.04 host clicking Tab > Home in a guest makes the Workstation user interface disappear, including the current windows and windows for all other open virtual machines.
+# On Windows hosts, videos that are recorded while toggling between full screen mode and standard screen mode fail to play in Windows and VLC media players.
+# Workstation has been updated to power on the latest Microsoft Virtual PC files (.vhd). VMware recommends that you create a copy or linked clone of the image. If you do not create a copy, you cannot run the original virtual machine in VPC after running it in Workstation, because the virtual hardware layer has been modified.
+# Performance is slow when opening a Shared Folder for the first time in a Workstation Windows guest.
+# Drag and drop stops working when color depth is set to 16-bit on a Workstation guest.
+# When moving a virtual machine from a later version of Workstation to a 6.5.x version of Workstation, the taskbar icon indicates that a more current version of VMware Tools is available and that VMware Tools should be updated.
+# On Linux hosts, when you capture a screen shot to the clipboard by clicking VM > Capture Screen, and paste the image into an image editor, the image colors do not display correctly.
+# NAT networking does not work on the latest Windows operating systems.
+# If VMware Workstation is installed using administrative installation on a 64-bit Windows host, you cannot use Map or Disconnect Virtual Disks. If you attempt to use these features, the following message appears: Failed to initialize library for mounting and unmounting virtual disks.
+# Installing an Ubuntu 8.10 guest from a CD using Easy Install causes the Workstation to hang.
+# VMware Tools does not compile correctly on Ubuntu 8.10 and 9.04.
+# After uninstalling VMware Tools from an Ubuntu 8.10 guest, restart the guest to re-establish the network connection.
+# When upgrading VMware Tools on Ubuntu 9.04, the upgrade fails and a message appears indicating that the modules are already installed.
+# Default suspend and resume scripts do not activate or deactivate the network interfaces correctly in a 32-bit Ubuntu 9.04 guests.
+# Capturing multiple screen shots on an Ubuntu 9.0.4 host, using either the Capture Screen command or the Ctrl+Alt+Print key combination, causes the user interface to become unresponsive. 

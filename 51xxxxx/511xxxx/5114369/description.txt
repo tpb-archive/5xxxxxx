@@ -1,0 +1,54 @@
+		       --------------------------------
+     				   ColdZero
+	
+   			    Login Backdoor 2.0
+
+				   Vista/7
+		       --------------------------------
+
+
+Testing only...
+Microsoft Doesnt have a defender at logon LOL!
+
+Reset any User Password!!!
+
+* You can quick setup this backdoor to any computer (No domain unless you know admin pass)
+* You can setup to a family computer... just in case they forget the password :) 
+
+Compatible with Windows Vista/Windows 7
+
+"Comes with Uninstaller"
+
+Instructions:
+
+You must have Admin Privileges (Common in Vista and 7)
+
+Once Installed:
+
+
+At Login Screen click the "blue icon" located at left
+
+click (check) magnifier and press ok or apply
+
+
+
+
+Example of commands:
+
+AT DOS BOX you can type:
+
+Whoami              to see your power   (You are the System)
+explorer	    to view files on GUI  (Works on Vista) (Currently  developing  on 7)
+
+Net User 	    to change user password ex:  net user username newpassword
+		    Net User John 12345
+
+Regedit	            to Access Registry Editor
+
+
+
+
+
+
+
+Notes: This is not an internet Trojan or remote admin.

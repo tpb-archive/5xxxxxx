@@ -1,0 +1,14 @@
+
+USB Safely Remove 4.2 is publicly available! In the new version we have invested heavily in UI improvements, stability and Windows 7 compatibility. Find below the full list of changes. 
+Windows may assign different drive letters to a certain device, so you are not sure what drive letter will have your flash drive on this connection. Usually it's a bit annoying but do not prevent you working. The problem will arise when you need to start non-portable applications from the flash drive or you wish to ask a desktop application to store data to your external drive. In this case the device must have a fixed drive letter that aren't changed amongst diferent connections.
+
+USB Safely Remove 4.2 resolves that problem allowing you to fix drive letter to a device. Just open your device properties, switch "Drive properties" tab, choose required drive letter and check "Fix drive letter". Starting from this moment your device will always stay with this drive letter and no one of other devices will occupy this letter even when your device is not connected. 
+
+USB Safely Remove get on well not only with USB drives, but with SATA (eSATA) devices as well. However some eSATA drives cannot be autodetected by Windows on connection. You have to run "Scan For Hardware Changes" from Windows Device Manager in order to see your drive in Explorer. You know it's a boring to do many clicks in order to get to Device Manager so we added this ability to the quick stop menu. 
+
+We have conducted extensive testing of the program under the newest version of Windows and now you can get benefit from using USB Safely Remove under both Windows 7 64 and 32-bit versions. 
+
+Version: 4.2 final
+Size: 3.4 MB
+OS: Win 2000XP2003
+VistaWin7, 3264 bit

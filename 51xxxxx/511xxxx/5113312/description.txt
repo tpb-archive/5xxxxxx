@@ -1,0 +1,25 @@
+This is Mac 10.6 updated to 10.6.1 with VMWare Tools Installed.  The image will auto logon.  Change the account information to your preference.  The image is shutdown.  Fusion will support shutdown of this image.  If your fusion does not, then follow the steps below.
+
+I run this in Fusion 2.0.5.  I have not tried anything else.
+
+
+sudo bash
+cd "/Library/Application Support/VMware Fusion/isoimages"
+mkdir original
+mv darwin.iso tools-key.pub *.sig original
+
+perl -n -p -e 's/ServerVersion.plist/SystemVersion.plist/g' < original/darwin.iso > darwin.iso
+
+openssl genrsa -out tools-priv.pem 2048
+openssl rsa -in tools-priv.pem -pubout -out tools-key.pub
+
+openssl dgst -sha1 -sign tools-priv.pem < darwin.iso > darwin.iso.sig
+for A in *.iso ; do openssl dgst -sha1 -sign tools-priv.pem < $A > $A.sig ; done
+
+exit
+
+
+**************************
+Once you open the image you will need the username and password to make changes
+UserName:  none
+Password:  123

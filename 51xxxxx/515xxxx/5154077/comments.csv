@@ -1,0 +1,111 @@
+User Type,Username,Date,Text
+,Smorgan,2009-11-09T07:02Z,yea I did take a look and try to mae it better than the last one which still had those annoyin activation pop-ups
+,banny7000,2009-11-09T09:58Z,"thanx works fine,been lookin for something like this."
+,Smorgan,2009-11-09T16:34Z,It actually has been out for awhile I think it goes back at least one month the only problem is that it has been bundled with the windows 7 hack but now its all its own now.
+,swikaar,2009-11-14T11:13Z,not working for me .. the activation still pops in.
+,Smorgan,2009-11-14T17:38Z,"Hmmm how very odd Ive managed to get it working even with the 64 bit version.  I keep saying restart your computer cause its a .reg so it needs it but it may not be just you.
+
+-Smorgan"
+,KiotieII,2009-11-14T19:09Z,"It did stop the popup, but at the top of the window, it says ""Unlicenced Product."" I'm still happy with this hack, though, because it did get rid of the annoying popup. Thanks!"
+,Smorgan,2009-11-14T22:41Z,"Both hacks as far as is know have that effect which is hazar's and mine.  And contradictory to a statement I say on his forum this will work on 64 bit office on a x64 system.  It has been working on my x64 copy of windows 7 enterprise just to dispel that notion.
+
+-Smorgan ;)"
+,Smorgan,2009-11-15T05:54Z,"Still looking into that but as of this moment you will not find a hack that doesn't do that at this time so please hang tight.
+
+Smorgan"
+,Smorgan,2009-11-16T17:57Z,"I don't think there is anything further to add here so please do comment if you have any suggestions besides that annoying Unlicensed thing.
+
+-Smorgan"
+,Smorgan,2009-11-16T22:27Z,"I will probably not release office 2010 v1.70 to the public since this hack is good enough for you guys the new one does not require a system restart and is a .bat
+
+-Smorgan"
+,tigger22,2009-11-17T01:45Z,maybe i'm doing something wrong ran reg file it asked for product key and i put in one from here says key invalid
+,Smorgan,2009-11-17T02:38Z,"First make sure you put the right key in since you need to put the 32bit one in for the 32bit copy etc.  
+
+Here are a few more keys:
+
+x86
+774GJ-X3942-9GTKT-FWYJ9-KM77K
+DBK8F-MWD72-D8Q9G-K4774-GXP6V 
+x64
+4F3B6-JTT3F-VDCD6-G7J4Q-74W3R
+2MHJR-V4MR2-V4W2Y-72MQ7-KC6XK "
+,tedakk,2009-11-17T10:18Z,will I go with that crack all the updates?
+,Smorgan,2009-11-17T20:54Z,If you mean will it still do updates then yes
+,Smorgan,2009-11-19T07:09Z,I just got confirmation the office 2010 hack is fully functional with the newly released office 2010 v14.0.4536.1000.  So relax the serials I provided still work too.  
+,senyorito,2009-11-19T18:19Z,"Yeah, I confirm that Smorgan.  Thanks alot.  I wish that you could find ways to remove the Unlicensed Product thingy.  If not, no problem at all.  Thanks again."
+,Smorgan,2009-11-19T18:38Z,Finding that problem will be like finding a needle in a hey stack of coding however I think I do have a starting place in order to find that dll but this make take a while.
+,senyorito,2009-11-19T18:45Z,"Yeah I understand Smorgan.  Take your time and good luck!
+
+Btw guys, I've read many comments and people are always complaining on the activation popup where we need to activate the program.  Well unfortunately, activating the program with the ""key/s"" that we are using is not possible.
+
+The new security of MS Office is to disable the functionality of the program if it is remained unactivated.  Notice that once you click ""Cancel"" on the activation popup, toolbars are all grayed-out so you cannot use the program at all -- it's useless.
+
+That's why we are glad for having a people like Smorgan who are finding ways to make us all happy... heheh.
+
+Thanks again Smorgan."
+,Smorgan,2009-11-19T21:06Z,Well I found the file in the registry now I just need to get it to work I'm working with hazar on this one because both office 14 hacks have the same issue
+,senyorito,2009-11-19T21:25Z,Good luck to both of you!  We're looking forward to a favorable result.
+,Smorgan,2009-11-19T21:48Z,Right now the unlicensed thing is just one of those things that is just misc. which is just annoying to see
+,frankfurter,2009-11-20T16:41Z,"yep, verified working. if it's still popping up the activation dialog, try using regedit to individually set the keys in the registry - i found that double clicking on the .reg file on my win7x64 didn't actually update the values into the registry... i think theres some program thats holding the registry entries open. also stop office software protection platform in services.msc first, just in case. "
+,Smorgan,2009-11-20T19:49Z,That pretty much sums up what needs to be done and actually what office 2010 v1.70 does lol
+,Smorgan,2009-11-20T19:51Z,I'v decided to look into the unlicensed thing but thats prob when I will release office 2010 v1.70 or sometime
+,jmanh2c,2009-11-22T11:05Z,Microsoft office 2010 is in beta stage and you can download it for free at the microsoft website. all versions free.
+,Smorgan,2009-11-22T22:47Z,"If you wish to use office 2010 legally here s the link location for a free download:
+http://www.microsoft.com/office/2010/en/default.aspx?WT.srch=1&WT.mc_id=3191505F-486D-4040-8535-6B924D966F2A"
+,Smorgan,2009-11-22T23:23Z,For 32 bit users if you wish to make your copies legitimate go into the registry under the following key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OfficeSoftwareProtectionPlatform\data\d85178f6-0f14-4e4d-a587-aa1174adf53b and rename the 1st one 0 to 7 and restart the office protection service and plug in a new key n enjoy.
+,Smorgan,2009-11-23T16:57Z,Ok Im just gonna say this now ignore my last post if your a 32 bit user run the setup again and hit enter a product key and put in a genuine copy.
+,dzgreek,2009-11-26T07:11Z,"Just finished the download. Installed and tried to activate with provided key 
+774GJ-X3942-9GTKT-FWYJ9-KM77K
+CAME BACK WITH NOT VALID ANYMORE HAS BEEN ACTIVATED MAXIMUM ALLOWED TIMES.
+Anymore available keys? "
+,Smorgan,2009-11-26T07:58Z,"Ok these keys are actually very much genuine keys directly from the Microsoft site so if you act quick enough you may get one without even using the site unfortunately there are no x64 : (.
+
+X86
+YBBDC-YTDX4-MVXQ8-3X3V6-M42XX
+TB2TD-R7KHJ-VYXHV-W632H-8BRCB
+D8XP2-PF6VR-93RXR-HMPTJ-DK269
+MTGKV-8GT7Q-9FCQ4-3636H-TGD7D
+YRM64-V66PV-FPVJB-9BCV2-492W7"
+,Smorgan,2009-11-26T07:58Z,What I meant is that 
+,Smorgan,2009-11-26T07:59Z,"Stupid thing what i meant is that if you act quick enough you'll not even have to use this hack.
+
+: )"
+,666Loke,2009-11-26T09:03Z,"I run the 64 bits version. After patching and restarting have nothing whatsoever changed, it still say that I have 4 days to purchase it...
+
+I have a version before you had to write in a code BTW. "
+,Smorgan,2009-11-27T05:06Z,"I took a look at Hazar's hack try doing this:
+
+takeown /F ""%programfiles%\Common Files\Microsoft Shared\OFFICE14\Office Setup Controller\Proof.en\Proof.xml""
+icacls ""%programfiles%\Common Files\Microsoft Shared\OFFICE14\Office Setup Controller\Proof.en\Proof.xml"" /grant *S-1-5-32-544:F
+del ""%programfiles%\Common Files\Microsoft Shared\OFFICE14\Office Setup Controller\Proof.en\Proof.xml""
+copy ""%~dp0Proof.xml"" ""%programfiles%\Common Files\Microsoft Shared\OFFICE14\Office Setup Controller\Proof.en\""
+
+Thanks given to hazar.  You might have a code but its not quite finished because I'm still working on the Unlicensed issue which is a pain in the ass to fix. "
+,666Loke,2009-11-29T07:17Z,"Hmm, now it seems to work (but still gets up the irritating pop up when starting it). Thanks Smorgan :)"
+,Smorgan,2009-12-10T07:47Z,"I honestly don't think there is a solution to this problem without digging into the key which is used to activate office 2010 which may be possible with time.  I will hopefully be able to do this before the end of the year.
+
+And next yes its obvious I do give support for my stuff so if you need help i will be giving it.
+
+: )"
+,Schezo,2009-12-14T01:03Z,"Thanks Smorgan! It worked for my Windows XP (SP2) machine. MS Office Beta2 14.0.4536.1000 (32-bit).  However, it's title bar says ""Microsoft Word non-commercial use (Unlicensed Product).  Do you know a way to remove the long title bar?? Thanks!"
+,MoonDookie,2009-12-14T06:55Z,"the office 2010 pro  beta version is good until oct 2010 with a legit product key from the M$ site...
+cheers"
+,Smorgan,2009-12-14T07:55Z,Well I did post a few legit product keys in there but going on I did take a look at the annoying title bar issue with all office 2010 hacks on the net at the moment it seems that there is a thing which resets the title bar every time a office program is started so that may be a little difficult to fix.  I am a little surprised that your running XP but whatever works.
+,Schezo,2009-12-14T09:59Z,"Yep.  I didn't encounter any problems with W7, I was also surprised that it worked for WinXP SP2 (SP3 was the minimum requirement!).  What's important is that it works! :) The titlebar is just a minor annoyance.  Keep us posted!"
+,Smorgan,2009-12-14T21:38Z,I have a .bat ready but I dont want to upload it without a fix to the title bar which I have yet to come up with you think I should upload it anyway???
+,Schezo,2009-12-15T01:32Z,"as long as it can make office 2010 work, it's fine.  I think only a handful like me complain about the titlebar's minor inconvenience."
+,Smorgan,2009-12-15T02:00Z,"Yea a minor amount I'm working on a extension to a very annoying thing in Office 2010 which is the Send a Smile feed back which is going to go other than that its ready to go.
+
+Smorgan"
+,Smorgan,2009-12-15T08:46Z,"As most of you can tell I have not done some work on this in some time as well as the windows 7 hack well thats just because i have a legit version now but going on I will have v1.70 by the end of the year and if I dont make the deadline things will be cut (hopefully not) so its time for me to get back to work.
+
+-Smorgan ; )"
+,Smorgan,2009-12-24T06:02Z,Since i want this out before the new years I'm gonna cut out the send a smile (SAS) remover and just get it done office 2010 v1.70 will be released in a few days cheers mates
+,Smorgan,2009-12-24T06:30Z,So in the end 1.70 will be released on Christmas lol in one day lol
+,Smorgan,2009-12-25T20:02Z,"A new Torrent and hopefully the last one with a few updates here and there and did I mention you don't have to restart anything now.   O and merry christmas too
+
+http://thepiratebay.org/torrent/5241287"
+,Smorgan,2009-12-27T20:59Z,"Version 1.80 Suite has been released:
+
+http://thepiratebay.org/torrent/5245033"

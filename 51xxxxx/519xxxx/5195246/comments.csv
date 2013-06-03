@@ -1,0 +1,48 @@
+User Type,Username,Date,Text
+,nj473,2009-12-04T19:19Z,"Ah man you are amazing at this stuff thank you so much! i gave it a try today and everything seems fine. Can you use this download to encode to HD-like quality movies like youve recently been doing? or does it require more? 
+
+dont worry im not going to keep asking you questions lol just a couple here and there i wanted to know, but seriously thanks for responding to my question in the first place and helping me out.
+
+Keep up the GREAT work HR!"
+,nj473,2009-12-15T13:02Z,"Hey man i noticed that aswell, im referring to the audio being pushed off to the right rather than center, do you have any idea how to correct that?"
+,nj473,2009-12-15T21:39Z,"thanks for the advice HR but ill be completely honest in telling you i wouldnt know what to do there, like i mentioned before im new to all this so im pretty limited to what i can do lol. i wouldnt know how to introduce other apps to the encoding bat. files you provided basically. is it possible to include the correct logic to the files in the windows version as an alternative? or is windows not cabable of it? or is another way of doing it a case of editing the text files provided? wb thanks"
+,nj473,2009-12-16T00:05Z,"ah right fair enough =) thanks for the advice. ill be attempting that when i have the chance. i have a mind to install linux soon aswell so i think that doing that will make encoding videos like this easier.
+
+thnks for the reply and keep up the good work =)"
+,nj473,2009-12-18T21:14Z,"thanks for going to the effort to write that all out, im going to give it a try when i can have a proper session of sitting down on my computer lol. but seriously thanks for that. some bits i understand but some i dont so i will probably just research on that. currently though ive just installed ubuntu 9.10 on my computer and im trying to figure that one out aswell, although that is completely new to me, so i dont even know how to do a straight forward encode with it right now but all it will take is time i suppose lol. ive gathered from these torrents that encoding with ubuntu is much easier that doing it with windows, so thats whats persuaded me to try that out at the same time as figuring windows out. thanks once again for the response HR"
+,nj473,2009-12-18T21:42Z,my first impressions of encode-handheld.pl = looks pretty complicated lol. this will take some brains to use properly i think!
+,HR-PiZ,2009-12-21T01:11Z,"eventually got my 5.1 audio separated, then eac3to said,
+
+C:\eac3to>eac3to -test
+eac3to (v3.17) is up to date
+Nero Audio Decoder (Nero 6 or older) doesn't seem to be installed
+http://www.nero.com/eng/store-blu-ray.html
+  CAUTION: You need Nero 7. Nero 8 won't work with eac3to.
+ArcSoft DTS Decoder doesn't seem to be installed
+http://www.arcsoft.com/products/totalmediatheatre
+Sonic Audio Decoder (3.17.0.0) doesn't seem to be installed
+Haali Matroska Muxer doesn't seem to be installed
+http://haali.net/mkv
+Nero AAC Encoder (1.3.3.0) is up to date
+Surcode DTS Encoder doesn't seem to be installed
+http://www.surcode.com
+MkvToolnix doesn't seem to be installed
+http://www.bunkus.org/videotools/mkvtoolnix"
+,nj473,2010-01-05T21:18Z,"Hey HR just a message to tell you i finally think i got all this sorted now, i just tried an encode from which the source file had DTS in it, and i followed all of your steps, and everything hs turned out ok so just another thanks for all the help! the only minor problem was that there were subtitles (which appear to be soft subs) which havnt included in the output file. they appeared in the mkv file, but just not in the output file. (even though there was no srt. or any other external subs file that came with it) so that confused me a little. do you know why that is or what i would have to do to correct that? 
+
+i appreciate that this is like the millionth time ive asked you a question so i understand if you do not want to reply lol but it would be great if you could find the time
+
+thanks!"
+,nj473,2010-01-08T18:18Z,"kk thanks HR i will give that a go (reading through encode-handheld.pl), thanks for the response man =) ive had a couple of other confusions with the windows encoding but im working on fixing it and sorting it out, i know now how to use eac3to (to a basic standard) and its really useful so thanks for that advice too. i encoded one file to the same as ipod quality and for some reason it ended up being 1.08gb in size lol so yeah im working on finding what was the problem there, but im sure that one is do-able from my end. ive got a whole folder on my computer thats full of encoding utilities now as i am determined to see it through untill i am able to do it properly and to understand it lol
+
+anyway sorry for the ramble but thanks for the help! your work is incredible! =)"
+,nj473,2010-01-08T20:32Z,"sorry, just quickly... ive had a bit of a messup just now lol... once ive got the audio separated using eac3to, is there any way i can simply add it to the m4v WHILST ffmpeg is making it? (basically, is there a command that i can add to this torrents batch file that adds an external audio source, instead of ffmpeg taking the audio straight from the mkv file?) 
+
+wb thanks
+
+P.S really sorry to keep bugging you about this!"
+,nj473,2010-01-12T23:16Z,"nevermind, false alarm lol"
+,nj473,2010-01-13T23:52Z,"yeah i found that command line eventually and realised how to use it properly as i want using it properly previously. and since then the encodes have appeared to be just fine. (though my right ear is deaf so its harder to tell if the audio is being pushed to the right or not lol). Ive got dts sorted, by using eac3to n all that, and im trying to work out ac3, as i have encoded a video with ac3 (on a pal dvd source) using ffmpeg without eac3to, and it turned out fine (what i mean is, im confused as to why it actually worked ok, when i thought ffmpeg couldnt process ac3 properly) so im not sure if it was just a one off lol. oh and by the way do you mean a windows or mac/linux encoder? I dont know how youve learnt all this stuff seriously lol"
+,nj473,2010-01-14T02:45Z,"ahh right fair enough, i think ill stick with windows anyway atm because ive pretty much figured all i need to know out now, and plus im completely new to linux, i dont even know which lines are relevant for encoding in encode-handheld.pl being honest so im still working on that lol. and oh yeah believe me i know most the stuff online is shit lol, ive been looking for ages and i found aswell that most of it doesnt even work. and yeah im trying to now create encodes for nokia 5800. it doesnt playback h.264 which is annoying, and im also assuming it doesnt playback .m4v's either, only mp4's etc. so thats gonna take a while to suss out lol i never even heard of command line encoding untill i came across your torrents! =)"
+,nj473,2010-01-16T20:20Z,"yeah ill give that a try, thanks for all your advice dude =)"
+,kuttootta,2010-05-10T11:34Z,................Please seed anyone.....................

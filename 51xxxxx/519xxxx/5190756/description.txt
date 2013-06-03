@@ -1,0 +1,769 @@
+TVIX 6500/7000 Firmware 1.5.17 1/12/2009 (BD-Lite Edition)
+
+TViX HD M-6500 Change log
+
++ 1.5.17 Release note
+
+Changes from 1.5.16
+
+    1) Player
+        1.  Fixed: Folder or files with some characters are not shown.
+
+--------------------------------------------------------------------------------
++ 1.5.16 Release note
+
+Changes from 1.5.11
+
+    1) Player
+        1.  Fixed: Disk corrupted sometiles after copy files from PC to TVIX 
+            through USB.
+        2.  Fixed: Cannot change the partition when copying files using the 
+            function key due to navigation buttons removed.
+
+--------------------------------------------------------------------------------
++ 1.5.11 Release note
+
+Changes from 1.5.10
+
+    1) Player
+        1.	Better support for EXIF rotation information in Jpeg files
+        2.	Change back to old icon size (200*200) for normal and Album Jacket 
+            mode 
+            (We referred to the 1.5.10 feedback, which all preferred 200x200 
+            size rather than new 120x120 size. Video folder icon size will 
+            remain as previous version 1.5.10 which is 138x186)
+
+        3.	The play button is the default button on the synopsis page. 
+            (remote controller focus will be on PLAY button not BACK button)
+        4.	Now, the icon mode change with FUNCTION key on the remote works on 
+            text mode folders. (It worked only when all the three mode was text
+            mode in 1.5.10)
+        5.	More Video cover folders are added
+            If a name of folder, which on the root folder, is starts with one
+            of below words(case insensitive), it will shows Video cover art mode
+            instead a normal icon mode.
+            -"video", "movie", "dvd", "bluray", "blu-ray", "film",
+             "cinema", animation", "drama", "miniseries", "tv series",
+              "music video"
+        6.	Rearrange the file list page for some severe over scan displays. 
+            Depends on the display, there could be still be some hiding at the 
+            edges.
+
+
+--------------------------------------------------------------------------------
++ 1.5.10 Release note
+
+Changes from 1.4.26
+
+    1) Player
+        1. Subtitle loading speed has been improved.
+        2. Audio playlist now supports up to 8192 files.
+        3. Navigation UI Enhanced. (Not supported on UPnP)
+            A. The disc navigation removed from the top of the list UI. To 
+               navigate to USB, Network, UPnP, a user need to press GOTO key 
+               while you browse, then the navigation popup will be shown.
+ 
+            B. Users can select TEXT or more graphical interface mode for each 
+               of Video, Audio and Photo on the Setup-Misc.
+               For Audio and Photo folders, album art and thumbnail mode will 
+               behave similar to the Icon mode and the Thumbnail mode of our 
+               old firmware, But for video, Cover art mode behaves differently 
+               from older firmware. Other then video folders behave differently. 
+ 
+               For Audio,
+                   1. Any folders named 'Audio', 'Automp3' and 'Music' (case 
+                      insensitive) under the root folder will be shown as an 
+                      icon mode (9 columns x 4 rows) with the icon size 
+                      120*120(pixels) so if the folder.jpg(Folder.jpg, 
+                      folder.png) size is 120*120, the icon will be shown 
+                      without scale. (Coincidently, Windows Media Player save 
+                      the covers as Folder.jpg)
+ 
+                   2. The folder which has no subfolder will be shown as list 
+                      mode, so users can see file names easily. (Background 
+                      image is the tvix.jpg on the folder, background image may
+                      differ in actual firmware, please replace with your 
+                      choice of preference)
+                  
+                   3. Now, jpg files which start with 'albumart' 
+                      ('albumartxxxx~xxx.jpg) will not be shown on the list. 
+                      However, these will be shown as an icon when you press 
+                      INFO button while you play music. If you have many 
+                      albumartxxx~xxxx.jpg files in your folder, these files 
+                      will be shown sequentially in time.
+
+                For Photo,
+                   1. Any folders named 'Photo' or 'Picture' on the root folder
+                      will be shown as Thumbnail UI (9 columns x 4 rows).
+ 
+                For Video, 
+                   1. Any folders named 'Video', 'dtv_rec', 'DVD' and 'Bluray'
+                      under the root folder will be shown as a Cover art mode 
+                      (8 columns x 3 rows). The size of the icon is 138x186 
+                      pixels.
+ 
+                   2. When user enters to a folder, (this folder should be 
+                      located under folder named 'Video', 'Dtv_rec', 'Dvd' or 
+                      'Bluray'), TVIX will show a default synopsis page and 
+                      three buttons at the top of the screen which are Back, 
+                      Preview and Play. This is no magic. TViX just shows 
+                      tvix.jpg file in that folder as a background with three 
+                      buttons(Back,Preview,Play) overlaid on it. So, users need
+                      to prepare appropriate tvix.jpg files according the 
+                      content in that folder. If there are sub folders then 
+                      TViX will show folders and files as icons and will not 
+                      display synopsis page. So, you need to delete any 
+                      subfolders to see tvix.jpg as a synopsis.
+
+                   3. If the folder has a file which name starts with 
+                      'preview_', then the Preview button will be enabled and 
+                      when a user select the Preview button, the file will be 
+                      played. After playing it, a synopsis page will be shown.
+ 
+                   4. When a user select the Play button, if there is only one
+                      file, a file will be played. If there is more than one 
+                      file, the file list will be shown so a user can select. 
+                
+                   5. While you watch video, you can see the synopsis by 
+                      pressing the guide key on the remote.
+
+                   So recommended folder structure for movies will be
+
+                   Movie_A
+                       movie_A.mkv (main movie file)
+                       preview_movie_A.mkv (preview file) 
+                       (You do not need to have preview_movie_A.mkv, it is 
+                       optional)
+                       folder.jpg (cover art file)
+                       tvix.jpg (Synopsis file)
+
+
+                   if your movie files are more than two.
+
+                   Movie_B
+                       movie_b1.mkv
+                       movie_b2.mkv
+                       preview_movie_b.mkv
+                       folder.jpg
+                       tvix.jpg
+                       tvix2.jpg 
+                       (the background image that appears with the movie file
+                       list when you press "PLAY" button. if you do not have 
+                       it, default dark background image will be displayed )
+
+
+    2) DTV
+        1.    Now color space option, which is on Video option, will be used.
+        2.    Some UI bug has been fixed.
+        3.    Fixed: In some case, TVIX reboot when DTV stops.
+
+--------------------------------------------------------------------------------
++ 1.4.26 Release note
+
+Changes from 1.4.15
+
+    1) Player
+        - Fixed: Cannot navigate by selecting [Up folder] after playing picture 
+                   files.
+        - Improved : Now use Folder.jpg as an icon on Icon browse mode, so if 
+                   users get album covers using Windows Mediaplayer, these folder 
+                   icons will be used as icons.
+
+--------------------------------------------------------------------------------
++ 1.4.25 Release note
+
+Changes from 1.4.22
+
+    1) Player
+        - When used with some TVs, screen flickers and becomes black after a few
+          seconds. This happens very irregualry, so it is hard to debug.
+          We think it's SDK(Software Develpment Kit) bug from Sigmadesigns. So, 
+          we did some work around. When this happen, please press "VIDEO" button 
+          once and it will become nomal.(It is hard to check whether it solves 
+          the problem because we only have one monitor (out of 100 TVs and 
+          monitors ) that can reproduce the problem but it happens once in days.
+          The SDK that the firmware 1.2.52 based upon does not have this problem 
+          but we cannot go back to this SDK because it has other bugs including 
+          not outputing HD audio output through optical or coax. 
+        - Fixed: The audio file tag info is broken. Does not show APE and CUE 
+                 tags.
+        - Fixed: The Prev and Next key does not work as paging while music play.
+        - Fixed: The audio album jacket is not shown on the info page when 
+                 an audio file is selected from icon mode
+        - Improved: Now, shows the audio jacket files on the folder of currently
+                 playing file in the Audio info page. 
+    2) ETC
+        - Fixed: Cannot copy large size files over SAMBA.
+        - Fixed: System reboot when user try to remount local HDD after copy 
+                 files through FTP.
+ 
+
+
+--------------------------------------------------------------------------------
++ 1.4.22 Release note
+
+Changes from 1.4.19
+
+    1) Player
+        - Fixed: Bookmarks are not saved sometimes.
+        - Fixed: Cannot play M4V files.
+        - Fixed: The audio album jacket is not shown on the info page when an 
+                 audio file is being played.
+        - Fixed: The chapter title is not shown on the info while a MKV file 
+                 with chapters info is being played.
+        - Fixed: When the bookmark key is pressed while a MKV file with chapters 
+                 info, the chapter titles are not shown on the chapter selection 
+                 popup.
+        - Fixed: The 'Â¬Ñ' is not shown for the Cyrillic subtitle.
+        - Fixed: The setup menu shows strange characters when OSD Language is 
+                 Vietnamese.
+
+    2) DTV
+        - Fixed: The scheduled recording does not start.
+        - Fixed: TVIX is not stable if user switch between DTV and player 
+                 frequently.
+        - Fixed: The DTV does not start with the last watching channel.
+
+    Kown issue for UTF8 supports,
+        Does not supports Arabic correctly, and we don't have plan to support 
+        this for now.
+
+    * Known issues for Video related
+        - When HD Audio pass-through is on with HD audio stream, S/PDIF does 
+          not work
+        - When HD Audio pass-through is off with HD audio stream, playback may 
+          not be smooth
+        - When DTS audio setting is digital, HDMI audio is ON and HD audio 
+          pass-through is set to ON, then audio is not heard on the SPDIF 
+          output (For the same setting, if HDMI audio is set to OFF, then audio 
+          is HEARD on the SPDIF output.)
+        - Some WMV may not play correctly
+        - Digital output for AAC/WMA is disabled
+        - Does not support PCM audio track on MP4 now
+        - Some MKV with AAC may not sound
+    
+    * Known issues for TS/TP Video related
+        - The type of PGS language is not showed.
+        - Some TS/TP may not sound.
+        - It is a new TS/TP player written by us not using SDK code. It has 
+          better features but the player has not been tested a lot.
+        - It may have some files which do not work better than old TS/TP player.
+     
+    * Known issues for audio and pictures related
+        - For MP3 files with low sampling frequency, the TVIX might crash while 
+          playing or trick play like FF or RW.
+       
+    * Known issue for Network
+        - BD ISO playback through Network.
+            # It stutters most of the times. It is because mounting ISO as a
+              drive overhead is too much for 6500 CPU. So, it looks like 
+              hardware limitation. We are trying to optimize it but it may not 
+              result to success.
+            # We recommend to use IFO structure.
+            # If you play files without refreshing the file list after delete 
+              files through FTP or SAMBA server, the system will reboot.
+            # 1G option may or may not work better than 10/100M mode depends on 
+              the network environment
+    
+    * Known issues for PVR
+        - After channel changed, you may not here audio in short time. This is 
+          the bug from the chip manufacturer. To solve this, you can press DTV 
+          key or Audio key on the remote.
+    
+    * Known issues for UPnP
+        - Audio Playlist, Icon view and Thumbnail view are not supported
+        - Some internet radio may not be supported
+    
+    *** If you play files with HD audio tracks like Dolby TrueHD, 
+        Dolby Digital Plus, DTS-HD MA or LPCM, you'd better turn on HD Audio 
+        pass through on the setup even though you don't have a receiver that 
+        supports decoding of these formats. Otherwise, you will hear strange 
+        noise with some repetitive popping noise. Currently, we don't support 
+        core decoding, if you don't have a HD audio decoder receiver, you need 
+        to select other then these HD audio tracks audio track for now.
+           
+--------------------------------------------------------------------------------  
++ 1.4.19 Release note
+  Changes from 1.4.14
+  
+    1)    Player
+        - When a user sets OSD language in SET UP menu, the pop-up menu for  
+           default subtitle encoding selection is displayed automatically.
+            # Users need to change encoding type according to the subtitle that 
+              they want.
+              Let's say a user set to English for the OSD language and set 
+              Hebrew for the subtitle encoding. When this user tries to load 
+              French subtitle, it will not shown correctly since it is saved 
+              with different encoding. In this case, this user need to change 
+              encoding to Latin-I by pressing Subtitle key and select the 
+              encoding button on the popup and select Latin.
+        - AAC audio track on TP/TS files is now audible.
+        - Fixed : a subtitle track is not shown on a specific TS stream
+        - Fixed : a system turn off while trying to change subtitle sync by 
+          pressing CH Up or CH Down key.
+        - Fixed : keep showing unsupported font message after boot.
+        - Fixed : an apostrophe is not shown correctly on French OSD.
+        
+    2)    DTV
+        - Fixed a scanning issue.
+        - Fixed : Info OSD is disappear too quickly.
+        - Fixed : System is unstable if a user press audio key while 
+          recording.
+        - Fixed : Channel name is shown strangely on VFD.
+        - Now, the power button will turn off the system.
+        
+    Kown issue for UTF8 supports,
+        Does not supports Arabic correctly, and we don't have plan to support 
+        this for now.
+
+    * Known issues for Video related
+        - When HD Audio pass-through is on with HD audio stream, S/PDIF does not
+          work
+        - When HD Audio pass-through is off with HD audio stream, playback may 
+          not be smooth
+        - When DTS audio setting is digital, HDMI audio is ON and HD audio 
+          pass-through is set to ON, then audio is not heard on the SPDIF output
+          (For the same setting, if HDMI audio is set to OFF, then audio is 
+          HEARD on the SPDIF output.)
+        - Some WMV may not play correctly
+        - Digital output for AAC/WMA is disabled
+        - Does not support PCM audio track on MP4 now
+        - Some MKV with AAC may not sound
+    
+    * Known issues for TS/TP Video related
+        - The type of PGS language is not showed.
+        - Some TS/TP may not sound.
+        - It is a new TS/TP player written by us not using SDK code. It has 
+          better features but the player has not been tested a lot.
+        - It may have some files which do not work better than old TS/TP player.
+     
+    * Known issues for audio and pictures related
+        - For MP3 files with low sampling frequency, the TVIX might crash while 
+          playing or trick play like FF or RW.
+       
+    * Known issue for Network
+        - BD ISO playback through Network.
+            # It stutters most of the times. It is because mounting ISO as a
+              drive overhead is too much for 6500 CPU. So, it looks like 
+              hardware limitation. We are trying to optimize it but it may not 
+              result to success.
+            # We recommend to use IFO structure.
+            # If you play files without refreshing the file list after delete 
+              files through FTP or SAMBA server, the system will reboot.
+            # 1G option may or may not work better than 10/100M mode depends on 
+              the network environment
+    
+    * Known issues for PVR
+        - After channel changed, you may not here audio in short time. This is 
+          the bug from the chip manufacturer. To solve this, you can press DTV 
+          key or Audio key on the remote.
+    
+    * Known issues for UPnP
+        - Audio Playlist, Icon view and Thumbnail view are not supported
+        - Some internet radio may not be supported
+    
+    *** If you play files with HD audio tracks like Dolby TrueHD, 
+        Dolby Digital Plus, DTS-HD MA or LPCM, you'd better turn on HD Audio 
+        pass through on the setup even though you don't have a receiver that 
+        supports decoding of these formats. Otherwise, you will hear strange 
+        noise with some repetitive popping noise. Currently, we don't support 
+        core decoding, if you don't have a HD audio decoder receiver, you need 
+        to select other then these HD audio tracks audio track for now.
+       
+--------------------------------------------------------------------------------
++ 1.4.14 Release note
+  Changes from 1.3.168
+
+    1) General
+       - Supports UTF8 
+       - When browsing files, able to see all of language files without changing 
+         the language setting.
+       - Able to change main language in setup without rebooting.  
+       - Supports Hebrew and Arabic characters for subtitles. 
+       - Adds Portuguese and Vietnamese for the OSD language.
+       - Able to change the default encoding language for subtitle in setup and 
+         even during playing movie with subtitle key on the remote.
+            # Also can change on the fly by pressing subtitle key one the remote
+              while watching video files, select 'Encoding' button on the window
+              and the choose the encoding languate.
+       - When NFS, able to select a encoding type type between the code page 
+         and UTF8.
+            # When using netshare, you must use the code page. You only can see 
+              the language you set on TVIX.
+            # When using other NFS servers beyond netshare like NAS, Linux or 
+              so on, better to use UTF8 in most of cases.
+    2) DTV
+        - The speed of  mode changes between video and DTV has been increased 
+          a lot.
+
+    * Known issues for Video related
+        - When HD Audio pass-through is on with HD audio stream, S/PDIF does not
+          work
+        - When HD Audio pass-through is off with HD audio stream, playback may 
+          not be smooth
+        - When DTS audio setting is digital, HDMI audio is ON and HD audio 
+          pass-through is set to ON, then audio is not heard on the SPDIF output
+          (For the same setting, if HDMI audio is set to OFF, then audio is 
+          HEARD on the SPDIF output.)
+        - Some WMV may not play correctly
+        - Digital output for AAC/WMA is disabled
+        - Does not support PCM audio track on MP4 now
+        - Some MKV with AAC may not sound
+    
+    * Known issues for TS/TP Video related
+        - The type of PGS language is not showed.
+        - Some TS/TP may not sound.
+        - It is a new TS/TP player written by us not using SDK code. It has 
+          better features but the player has not been tested a lot.
+        - It may have some files which do not work better than old TS/TP player.
+     
+    * Known issues for audio and pictures related
+        - For MP3 files with low sampling frequency, the TVIX might crash while 
+          playing or trick play like FF or RW.
+       
+    * Known issue for Network
+        - BD ISO playback through Network.
+            # It stutters most of the times. It is because mounting ISO as a
+              drive overhead is too much for 6500 CPU. So, it looks like 
+              hardware limitation. We are trying to optimize it but it may not 
+              result to success.
+            # We recommend to use IFO structure.
+            # If you play files without refreshing the file list after delete 
+              files through FTP or SAMBA server, the system will reboot.
+            # 1G option may or may not work better than 10/100M mode depends on 
+              the network environment
+    
+    * Known issues for PVR
+        - After channel changed, you may not here audio in short time. This is 
+          the bug from the chip manufacturer. To solve this, you can press DTV 
+          key or Audio key on the remote.
+    
+    * Known issues for UPnP
+        - Audio Playlist, Icon view and Thumbnail view are not supported
+        - Some internet radio may not be supported
+    
+    *** If you play files with HD audio tracks like Dolby TrueHD, 
+        Dolby Digital Plus, DTS-HD MA or LPCM, you'd better turn on HD Audio 
+        pass through on the setup even though you don't have a receiver that 
+        supports decoding of these formats. Otherwise, you will hear strange 
+        noise with some repetitive popping noise. Currently, we don't support 
+        core decoding, if you don't have a HD audio decoder receiver, you need 
+        to select other then these HD audio tracks audio track for now.
+              
+--------------------------------------------------------------------------------
++ 1.3.168 Release note
+
+  Changes from 1.3.137
+
+    1) Added the Audio playlist function (* Please download the detailed guide 
+       for the audio playlist function)
+        - Can turn on/off the audio playlist function in setup. By default, 
+          it will be turned on with the save confirm option.
+        - Select multiple songs that you want to listen and save them as 
+          a playlist conveniently (to be saved in Audio/Playlist folder).
+        - Can add/remove a file by pressing Ok key, and add all 
+          files (recursively) in a folder to a current playlist by pressing 
+          a Softkey 0 key while the cursor is on a folder.
+        - When pressing 'Audio' key on the remote, it will move to 
+          the Audio/Playlist folder automatically .
+          (Jump to 'Audio' folder if there's no 'Audio/Playlist' folder)
+        - Can save the playlist to the network folder when playing audio 
+          through network.
+        - Listen to music without TV or display
+            (When setting Autorun in setup, the first playlist in 
+            the Audio/Playlist folder will be played automatically unless there 
+            is  "autorun" folder.)
+    
+    2) UPnP feature
+        - UPnP media server can be detected on pressing "UPnP" button
+        - UPnP may support high bitrates contents which cannot be supported 
+          by NFS
+        - Internet Radio can be supported if it is proxied or linked through 
+          UPnP server. 
+          (This was tested through Twonky Media server and TVersity server)
+    
+    3)  Audio play besides audio playlist function
+        - Fixed the shuffle function for autorun in setup
+        - Supports M4A extension again
+        - fixed trick play for mp3
+        - fixed the indication of duration time and bitrate for wavepack
+        - fixed the indication of duration time for mp3 VBR
+        - Supports the multi channel for FLAC and WAV
+        - Supports the 24bit for FLAC and WAV
+        - Supports the repeat and shuffle when playing through UPnP
+        - During the slide show through UPnP, it supports playing background 
+          songs which exist with the name of 'automp3' folder on local HDD, 
+          Network or USB.
+        - UI improvement : added a icon to display the shuffle(random) 
+          and repeat status during playing audio.
+        - If there is no key input on the file navigation page for a while, 
+          Audio info page will be shown.
+    4) Contents native resolution output function has been Added
+        Please read below carefully before use the "Native resolution" feature. 
+        If a user do not set resolution correctly, the video may not be 
+        displayed or I might hurt display. Please use this function with 
+        caution.
+     
+        4-1) Native Resolution menu on "SET UP" 
+            - If a user turns on Native Resolution on the Setup-Video/Audio, 
+              the Auto NTSC/PAL/24Hz option will be disabled and will not be 
+              used. 
+              The NTSC/PAL/24Hz option will be functional if and only if Native 
+              Resolution is turned off.
+            - When a user turns on Native Resolution, a popup, will be shown.
+                - The user can select native content resolution output he want.
+                - Users can turn on and off for the each resolution. 
+                - If the user turns on, the check box will be checked and when 
+                  a video file is played, the source will be output according to 
+                  the resolution and scan type(progressive/interlace) regardless
+                  of the current TV out setting.
+                - If the user turns off, the source will be scaled to the 
+                  resolution and refresh rate set by the TV out setting in 
+                  SETUP menu. 
+                - If the user's display device does not support specific input 
+                  mode, users will not see any video. In this case, just press 
+                  stop and the video output mode will go back to the initial 
+                  mode on the SETUP menu.
+                  
+            For the 720p
+                - '720p23.976/24Hz' contents can be set to 720p23.976/24Hz 
+                  or 1080p23.976/24Hz output
+                - '720p25/29.97/30Hz' contents can be set to 720p25/29.97/30Hz 
+                   or 720p50/59.94/60Hz output 
+        
+        4-2) Resolution change popup
+            - If TVIX does not detect resolution and frame rate correctly, 
+              the Native Resolution will not work properly. In this case, users 
+              can press TV Out button while video clips are played. They can
+              change to a specific output mode by selecting correct resolution 
+              and frame rate.
+            - TV out button will show the Resolution change popup if the video 
+              clip is playing. Otherwise, it will change the Video mode 
+              NTSC->480p(DVI)->PAL->576p(DVI) for the a emergency recovery.(If a 
+              user use HDMI, a user must reset set video output mode on the 
+              using SETUP menu, otherwise, audio will not be sent over HDMI)
+         
+            Available frame rate(refresh rate) table for each resolution
+             
+                480i    59.94Hz, 60Hz
+                576i    50Hz
+                480p    59.94Hz, 60Hz
+                576p    50Hz
+                720p    23.976Hz, 24Hz, 29.97Hz, 30Hz, 50Hz, 59.94Hz, 60Hz
+                1080i    50Hz, 59.94Hz, 60Hz
+                1080p    23.976Hz, 24Hz, 29.97Hz, 30Hz, 50Hz, 59.94Hz, 60Hz
+    
+     
+    5) Video playing
+        -  Provides page up/down function with '||' keys on the remote 
+           for the audio/subtitle/chapter pop-up
+        -  Rebooting problem when playing mkv that includes the vob subtile has 
+           been fixed.
+    
+        5-1) Advanced TS/TP player
+            - Trick play works including rewind.
+            - Embedded subtitles(PGS : Presentation Graphic Stream) are 
+              supported with subtitle key on the remote.            
+            - Progressive Scan(24Hz) Detection issue on TS file format is fixed
+              Applied file format : mpg, mpeg, vob, tb, ts, trp, m2t, m2p, m1v, 
+                                    m2v, m4v, dat, m2ts, mts, tod, mod, bdmv, 
+                                    bdm
+     
+    6) Network 
+        - Support for deleting files on network folder has been added.
+          (*Netshare isn't supported)
+        - Improved NFS speed
+          High bit rate movie will play better even with 10/100 connection.
+          In case you have a problem with 1G LAN, we recommend to use 10/100M 
+          mode.
+        - When no internal HDD or USB storage, mount the network drive 
+          automatically after booting.
+        - D-LINK DWA-140 11n works. (only the WEP 64bit is supported ) 
+        - Improved stability when getting IP address from DHCP when using 
+          wired network.
+        - Can send two connection simultaneously for FTP (tested with the 
+          FileZillar ftp client)
+        - UI improvement : added 'Wait' OSD when setting network, which it takes 
+                           long time.
+    
+    7) UJukebox
+        - External subtitle when playing ISO (do not support DVD for now) file 
+          is supported but the name of subtitle should be same as the ISO file.
+        - Users can load an external subtitle just like other files by pressing 
+          a function key. (Since the title key is used just like DVD, users need
+          to press a function key instead of title key unlike other file 
+          playing)  
+        - TViX can show two different subtitle at the same time when selecting 
+          the external subtitle. 
+        - Position of internal subtitle can be adjusted.
+          How to : After pressing the subtitle key on the remote, while the 
+                   'subtitle mode' OSD is shown, press the up/down key on the 
+                   remote
+          For internal/external text subtitle, after pressing the subtitle key 
+            on the remote, you can  adjust the position and size of it as well
+     
+    8)  Etc
+        - Improved UI : appearance of  some icons  have been enhanced.
+        - Keeps separate BCSH(Brightness, Contrast, Saturation and Hue) value 
+          according to output Hz (23.976, 24, 25, 29.97, 30, 50, 59.94 and 60Hz)
+        - Image overlapped issue on Thumbnail mode is fixed.
+    
+    * Known issues for Video related
+        - When HD Audio pass-through is on with HD audio stream, S/PDIF does not
+          work
+        - When HD Audio pass-through is off with HD audio stream, playback may 
+          not be smooth
+        - When DTS audio setting is digital, HDMI audio is ON and HD audio 
+          pass-through is set to ON, then audio is not heard on the SPDIF output
+          (For the same setting, if HDMI audio is set to OFF, then audio is 
+          HEARD on the SPDIF output.)
+        - Some WMV may not play correctly
+        - Digital output for AAC/WMA is disabled
+        - Does not support PCM audio track on MP4 now
+        - Some MKV with AAC may not sound
+    
+    * Known issues for TS/TP Video related
+        - The type of PGS language is not showed.
+        - Some TS/TP may not sound.
+        - It is a new TS/TP player written by us not using SDK code. It has 
+          better features but the player has not been tested a lot.
+        - It may have some files which do not work better than old TS/TP player.
+     
+    * Known issues for audio and pictures related
+        - For MP3 files with low sampling frequency, the TVIX might crash while 
+          playing or trick play like FF or RW.
+       
+    * Known issue for Network
+        - BD ISO playback through Network.
+            # It stutters most of the times. It is because mounting ISO as a
+              drive overhead is too much for 6500 CPU. So, it looks like 
+              hardware limitation. We are trying to optimize it but it may not 
+              result to success.
+            # We recommend to use IFO structure.
+            # If you play files without refreshing the file list after delete 
+              files through FTP or SAMBA server, the system will reboot.
+            # 1G option may or may not work better than 10/100M mode depends on 
+              the network environment
+    
+    * Known issues for PVR
+        - After channel changed, you may not here audio in short time. This is 
+          the bug from the chip manufacturer. To solve this, you can press DTV 
+          key or Audio key on the remote.
+    
+    * Known issues for UPnP
+        - Audio Playlist, Icon view and Thumbnail view are not supported
+        - Some internet radio may not be supported
+    
+    *** If you play files with HD audio tracks like Dolby TrueHD, 
+        Dolby Digital Plus, DTS-HD MA or LPCM, you'd better turn on HD Audio 
+        pass through on the setup even though you don't have a receiver that 
+        supports decoding of these formats. Otherwise, you will hear strange 
+        noise with some repetitive popping noise. Currently, we don't support 
+        core decoding, if you don't have a HD audio decoder receiver, you need 
+        to select other then these HD audio tracks audio track for now.
+--------------------------------------------------------------------------------
+
++ 1.3.137 Release note
+    Changes from 1.3.74
+    
+    1) Video player.
+        - Various problems related with HDMI connection were improved.
+        - Better file compatibility in AVI and MKV.
+            # Supports MKV chapter.
+               a You may find 'Chapters' OSD if you have a file with its chapter 
+               and are able to navigate to specific chapters using the Previous, 
+               Next key and Go-To popup.
+            # Fixed the bug that makes the system reboot when playing DVIX 
+              (extension) files with embedded subtitle.    
+            # Fixed 32KHz audio track that doesn't sound through HDMI.
+            # Supports HD-AAC without problems.
+            # Fixed the rebooting problem after file playing stops.
+        - Supports changing embedded subtitle of MP4 files.
+        - Supports moving 15 sec back and forth on DVD contents with pressing 
+          the Up and the Down key just like other files.
+        - Fixed the sudden change of audio pitch when making adjustment to 
+          volume control in a certain file.
+        - Fixed the problem that it sounds when DVD contents play by HDMI 
+          connection in spite of setting the HDMI Audio Out to off.
+    
+    2) Audio player
+        - Supports 24 bit Flac files.
+        - Supports M4B files.
+        - Fixed the problem that a certain file doesn't play until the end.
+        - Fixed the problem that OGG files don't sound in HDMI connection after 
+          booting the TViX.
+    
+    3) Picture player    
+        - Added 'Thumbnail' function (Photo Preview)
+            # In the 'Function' key, you can change the previous text mode to 
+              'Thumbnail' to see what it is and to find what you want.
+            # It's possible to make a slideshow with the file you want to see or 
+              show.
+            # The 'Scroll' key for view image, the 'Zoom' key for slideshow and 
+              the 'Zero(0)' key for clear all are used as functional keys on the 
+              remote control.
+        - Improved the file compatibility.
+        - Supports EXIF information.
+    
+    4) DTV
+        - Improved channel scanning problems.
+        - Fixed the audio problem on Portuguese station.
+        - Fixed the scheduled recording bug.
+
+    5) ETC
+        - Improved the readability of characters including the subtitle.
+        - Supports more Wi-Fi modules
+            # D-link DWA-140 11n (Hardware version: B1)
+            # D-link DWA-110 (Hardware version: A1)
+        - Possible to change the FTP Password.
+        - Possible to set the 'Startup' option for FTP and Samba server on the 
+          'Setup'.
+        - Possible to set ID and Password for the Samba access.    
+        - Fixed the USB Rom drive bugs.
+        - Added DVI for the TV connection. 
+           # If you are using HDMI to DVI cable, you must select DVI. 
+           # If DVI is selected, HDMI audio output and HD audio pass-through 
+             menu will be disabled. 
+           # If Auto EDID is selected with DVI option, the Video and Audio 
+             option will be set based on the EDID. 
+           # If other than Auto EDID is selected, Audio will be set depends on 
+             the selected TV connection type. 
+           # When user pressed the TV outkey, the DVI will be set for 480P and 
+             576P and audio data will not be transmitted over HDMI. Therefore, 
+             if you use HDMI, you must select correct option on the setup. 
+           # On VFD, DVI will be shown only if DVI is selected. If HDMI is 
+             selected, there will be no info for the TV connection type. 
+        - Fixed DVI motnitor black out issue in specific environments. 
+        - Fixed the problem the IP is not correctly reset if the cable is 
+          re-connected when DHCP is selected.
+    
+    * Known issues and limitations.
+       - Audio channel and frequency information couldn't be correct in some TP 
+         and TS files.
+       - In case of setting the HD Audio Pass-through to On, HD Audio couldn't 
+         work well in S/PDIF.
+       - In case of setting the HD Audio Pass-through to Off, HD Audio stream 
+         couldn't playback smoothly.
+       - Some WMV files don't run well.
+       - Some TP files may cause the TViX to reboot.
+       - Doesn't support digital output in AAC and WMA.
+       - File playing shortly after changing file names through the FTP and 
+         SAMBA Server may cause the TViX to reboot.
+       - Had the 'Rewind' disable in TP and TS files for file liability.
+           # We recommend you to use the Goto for a while and try to improve 
+             this in the next version.
+       - Doesn't support M4A files in this version.
+       - Some MKVs with AAC may have audio problems.    
+       - You may hear anything after changing a channel to another. We recommend 
+         you to press DTV key or Audio key in the case.
+    
+    
+    ***** We recommend to set the HD Audio Pass-through to on when playing 
+          files with Dolby TrueHD, Dolby Digital Plus, DTS-HD Master or 
+          Hi-Resolution, LPCM streams. The receivers that are compatible with 
+          HDMI 1.3a could be noisy in case that the HD Audio Pass-through is 
+          off, so please select normal audio track instead.
+    
+    ***** Since the setup has been changed, please upgrade through USB device if 
+          you don't have an internal HDD. If you upgrade the firmware through 
+          network without an interanl HDD, you will loose the setup.

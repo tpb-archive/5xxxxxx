@@ -1,0 +1,33 @@
+To make things easier, a compiled list of how to make this work on Leopard:
+
+After you mount the main game files, now what is left to do is to apply the updates and warlords patches. The cracks that are included with them arent the ones that are the drag, drop and replace. These are applications that "patch" the existing executable files. So in order that these "patches" can work, you need to give them permission to fuck around:
+
+1. Right click on the civ4 warlords executable and choose SHOW PACKAGE CONTENTS
+2. Right click on CONTENTS and choose GET INTO
+3. At the bottom of the panel should be a lock. click the lock, type in the password, and then change ALL of the options to READ AND WRITE
+4. Then click the gear-like tool on the very bottom and choose apply to enclosed, then click OK in the confirmation dialog.
+
+Now, the patches themselves need to be edited to properly execute. We need to update their iPatcher to fix them. To fix the crack patchers so they work on Leopard (same procedure on both patches):
+
+1. Download the latest iPatch from ipatch.org.
+2. Mount the downloaded iPatch dmg, right-click the iPatch app, choose "SHOW PACKAGE CONTENTS".
+3. Locate "Contents/Resources/iPatcher" (448 K), right-click it and choose "SHOW PACKAGE CONTENTS".
+4. Locate "Contents/MacOS/iPatcher" (212 K).
+5. COPY it.
+
+6. Copy the patches from the .dmg to your harddrive so they can be modified. I keep them with the executables they are going to patch.
+7. Right-click on a patch, choose "Show package contents", locate the file "Contents/MacOS/iPatcher" (208 K)
+8. Replace (PASTE) the file from the iPatch download "iPatcher" (212 K) over the "iPatcher" (208 K) in the crack patch.
+9. Launch the crack, it should not crash if you did it right (obviously).
+10. Run the crack and drag the warlords game executable into the crack to patch it.
+11. Run the game
+
+ok i realized my other instructions were shit so here's the ones that work just ignore warlords and use beyond the sword.
+
+if you want to see the tutorial go to yo.u,tub,e and search civilization mac crack and go to the one with SpudsBM for the creator name
+
+Hope You Enjoy
+
+P.S. thanks to demonoid and mininova and the person who uploaded it and please visit http://www.pp-international.net/ and find your country.
+
+Sig: SpudsBM 

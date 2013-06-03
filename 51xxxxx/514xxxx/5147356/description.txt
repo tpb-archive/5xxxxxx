@@ -1,0 +1,25 @@
+ABGX 1.0.1 for PPC Macs (OSX 10.5 - Leopard Only!)
+
+This was compiled from the Linux version to work on PowerPC Macs
+
+Tested and works perfectly on my Mac Mini G4 1.25 GhZ
+
+--------------------------------------
+
+IF YOU GET AN ERROR WHEN USING ABGX IN TERMINAL THAT SAYS: "-bash: /usr/bin/abgx360: Bad CPU type in executable"
+
+Step 1) Open a new terminal window
+
+Step 2) Type in: which abgx360
+
+If it says: /usr/bin/abgx360 this means you tried to install the Intel version of ABGX360 before (we all hoped it would work, didn't we? lol!)
+
+To fix this...
+
+Step 3) Type in: sudo rm /usr/bin/abgx360
+
+This should get rid of the old abgx360 file.
+
+Step 4) Repeat step 2. it should now say: /usr/local/bin/abgx360
+
+After doing this everything should work fine!

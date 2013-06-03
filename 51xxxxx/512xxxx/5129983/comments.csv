@@ -1,0 +1,188 @@
+User Type,Username,Date,Text
+,uphuckdev,2009-10-21T11:57Z,thanks
+,kami2k,2009-11-12T14:38Z,"Does it require working copy of mac like snow dvd? or it will install without it?
+thx
+Kami"
+,alonzt,2009-11-14T17:01Z,i cant download it using frostwire! why?
+,LinuxPirate2.6,2009-11-18T05:30Z,"@kami2k
+
+This is a full fledged OSx86 DVD (includes OS)."
+,LinuxPirate2.6,2009-11-19T02:06Z,"This damn thing seems corrupted, yet the md5s mach!?
+Original: 126455775040c328df88f399ad52b6bb
+Zipfile   : 126455775040c328df88f399ad52b6bb
+and file-roller says:
+  error:  invalid compressed data to inflate"
+,iHacker0325,2009-11-28T23:09Z,because frost wire sucks penis
+,samkit369,2009-12-16T21:26Z,"When i try to extract the iso file, it says the archive is corrupted or damaged...can anyone help pls... shud i lose all my hopes and download a fresh copy...?? pls help ... i m too too excited to install mac on my computer..."
+,samkit369,2009-12-16T21:28Z,ohh and the md5 did match .. still corrupt... and still so many people are seeding it....wow .... great !!
+,mickeyren,2009-12-26T07:54Z,is this suppose to run under VM player on Windows 7? (Quadcore)
+,usab99,2009-12-29T15:43Z,Does it work or not?  simple question.
+,user1238,2010-01-08T05:30Z,"this 1 is broken. ``System config file `/com.apple.Boot.Slist` not found.`` what a waste of time, skip it. "
+,morphews6,2010-01-13T21:27Z,hey 1238... don't u' think that u're the only one in millions that get this stupid error.
+,TimoWorld,2010-01-23T23:28Z,this works on my acer aspire one a150 :)
+,raze5115,2010-02-09T07:38Z,"Does it install or does it not install just make up your minds. its a simple question. & will this work on my mobo compaq presario sr5710f with a amd athlon 64 x2, 3GB of ram, nvidia chipset, and a dlink dwa-556 wireless nic desktop adapter? & will this install on a pata hdd with a sata dvd burner?"
+,zoner81,2010-02-09T13:36Z,This does NOT install. Tried 5 times now and get error every time. Burnt several times in lowest speed and still nothing. Waste of time and DVDs. Don't download. Wish you cold fkn try your own distros before releasing them!
+,uphuckdev,2010-02-21T12:07Z,"noobs may not be able to read, this is the exact description of noob not newbie. I know that as well but still anoying. These workouts are all for compatible hardware, not for all damn PCs. how the hell hundred thousands people got success on their hardwares do you think? but sorry, thinking needs some nerve cells and connections between them."
+,rapchee,2010-02-25T03:11Z,i'm seeding it from osx already :D thanks a lot!
+,jack2230,2010-03-21T08:55Z,"does this work and is it bootable?
+
+I have tried Kalaway and http://thepiratebay.org/torrent/5129354/iATKOS_v7 
+and both haven't worked because they couldn't boot the installer"
+,bjroks93,2010-03-22T00:00Z,"i want to know if it work on my pc
+my pc config:
+AMD Phenom x4 64bit
+ASUS M3A78-EM
+2 GB RAM 
+Nvdia GEforce 9400"
+,hafiz87,2010-05-16T00:15Z,Acer ASP?RE 5920G  รงal???yor mu?
+,hafiz87,2010-05-16T00:16Z,Acer ASP?RE 5920G  running ?
+,uphuckdev,2010-06-07T18:51Z,"new release will be out, follow the forum www.uphuck.com"
+,psyk1ck,2010-08-10T03:34Z,"This one WORKS for me, except wifi, but that's because there are no drivers for it yet, but soon there will.
+
+Everyone trying to install READ THIS: http://uphuck.ggrn.de/forum/viewtopic.php?f=7&t=4145
+
+Because it's not like oh I boot it, install it, and it's done, you have to read and try things, and be patient, you have to try what patches will work for your pc! it's different for everyone! It took me 2 weeks but now I'm a happy hackintoshah!"
+,PROTEOUS1,2010-11-21T14:35Z,"Confirmed Working: GUID Partition works very well.
+
+ ASUS COMMANDO 
+Pentium 4 3.8Ghz EM64T
+4GB DDR2 Crucial Balistix Ram
+1GB DDR2 NVidia 9500GT
+Creative Sound Blaster Audigy 2 se (not working,no kext available yet)
+Other than sound,everything works A-1 
+Updated normally from Apple ,no restart issues.
+
+SETTINGS I USED:
+Bootloader - Chameleon 1
+
+Patches - Uncheck   Extra directory  and  DSDT
+
+Decryptor- Change to dsmos
+
+Kernel - Voodoo 9.7.0
+
+Disabler  - (check mark this if it's not already0
+
+
+System  - SATA/IDE - Intel SATA/IDE
+
+Network - Marvell Yukon 88E8001
+
+Video - ( I used the NVdia Old Enablers NVInject, works best for me)
+
+SOUND!!!!  ( NO LUCK WITH THIS YET, ANY HELP WOULD BE APPRECIATED) 
+If you know of a sound card or driver  that will work please let me know.
+
+Hope this helps a few people. "
+,PROTEOUS1,2010-11-22T22:45Z,"THIS WORKS 100% BETTER THAN PREVIOUS INSTRUCTIONS . 
+My apologies to one and all.
+
+Confirmed Working: GUID Partition works very well
+
+ ASUS COMMANDO 
+Pentium 4 3.8Ghz EM64T
+4GB DDR2 Crucial Balistix Ram
+1GB DDR2 NVidia 9500GT
+Creative Sound Blaster Audigy 2 se (not working,no kext available yet)
+
+Replaced with an old C-Media card 
+Used kext helper B7 to install the driver from   http://www.kexts.com/
+
+   (CMI8738PCIAudioDriver kext )
+
+Now I have sound in / out and Mic .
+
+Updates normally from Apple  to 10.5.8 
+(Remember to remove your install disk before reboot!)
+
+SETTINGS I USED:
+
+Bootloader - Chameleon 2
+
+Patches - UNCHECK!  Extra directory   (Will not install with this everytime)  
+                - Leave the DSDT checked
+
+Decryptor -  Apple Decryptor   works best
+
+ (Install was taking over an hour with dsmos . Now it installs In about 15 min like it's supposed to.)
+
+Kernel - Voodoo 9.7.0
+
+Disabler  - Leave checked
+
+System  - SATA/IDE - Intel SATA/IDE
+               - Card bus Driver
+               - USB
+
+Network - Marvell Yukon 88E8001
+
+Video - ( I used the NVdia Old Enablers NVInject, works best for me)
+
+
+
+Hope this helps a few people."
+,TN-048,2011-01-03T01:29Z,"Oh my god you n00bs are so freaking annoying. ""I only read the description and I tried it and it doesn't work out of the box so it must be a complete pile of crap!!"" Absolute bull!! Christ go read up on this stuff. There are article after article after article about Hackintoshing and if you read even just one it's pretty obvious that it almost NEVER works right out of the box and takes quite a bit of time. And if you take your time and do it right it's very rewarding, as I am typing this up from an iATKOS Hackintosh right now. And if I can do it (I'm 15!) all you big bad computer experts can too. Stop flaming projects like this just because you have to do some work for yourself!! +1 To the iATKOS devs because it's the best OSx86 I've ever used.  "
+,Lopesmaio,2011-01-06T18:15Z,"is this multilang?
+
+thx for answers"
+,Shadysmurff,2011-05-03T05:18Z,"Does this work on HP Mini 110 - 1006TU, Intel Atom N280? @ 1.66GHz 1.67GHz, 1GB Mem, 32 bit x86 Windows 7 Ultimate, 150GB HDD, and what kind of Mac OS is this 10.5.6? (OS X, Tiger, Leopard, Snow Leopard or what?) sorry for these n00b questions bcoz ive never had a Mac before and dont know anything about Mac OS yet and this will be my first time attempt to add an Mac OS to my already installed Windows 7 Ultimate, can i dual boot this? and what kind of Mac OS version (for ex: 10.5.5, 10.5.6, 10.5.7, 10.6.4, 10.6.5) and what type (for ex: Mac OS X, Tiger, Leopard and Snow Leopard) are suited for my specs? and which one should i use, iPC, iDeneb, or iATKOS?? (What are these anyways??), please help bcoz i am really confused on what kind of guide to follow that are suited for my HP Mini 110-1006TU specs, because ive seen like 50+ Guides out there with different approach and my mind is about to explode.... "
+,Shadysmurff,2011-05-03T05:19Z,"Does this work on HP Mini 110 - 1006TU, Intel Atom N280? @ 1.66GHz 1.67GHz, 1GB Mem, 32 bit x86 Windows 7 Ultimate, 150GB HDD, and what kind of Mac OS is this 10.5.7? (OS X, Tiger, Leopard, Snow Leopard or what?) sorry for these n00b questions bcoz ive never had a Mac before and dont know anything about Mac OS yet and this will be my first time attempt to add an Mac OS to my already installed Windows 7 Ultimate, can i dual boot this? and what kind of Mac OS version (for ex: 10.5.5, 10.5.6, 10.5.7, 10.6.4, 10.6.5) and what type (for ex: Mac OS X, Tiger, Leopard and Snow Leopard) are suited for my specs? and which one should i use, iPC, iDeneb, or iATKOS?? (What are these anyways??), please help bcoz i am really confused on what kind of guide to follow that are suited for my HP Mini 110-1006TU specs, because ive seen like 50+ Guides out there with different approach and my mind is about to explode.... "
+,PROTEOUS1,2011-06-25T16:49Z,"This and the snow leopard s3v2 work perfect .I've installed both on many computers. They work so well in fact that I got rid of my status symbol money sucking Macs'.
+It seems to me that most who can't get this to burn or load are experiencing what is known as a ""PEBCAK"" error
+""ProblemExistsBetweenChairAndKeyboard""
+That's a computer in front of you with access to all the information use it!!!!
+1. You need to know your computer specs.Download a program called EVEREST and find out Don't use the minimal horseshit specs from the manufacturers site.
+2. Find out what the minimum requirements are for these iATKOS  systems are. It's usually one of the first things you see when loading if you take the time to read .If not  just type minimum requirements for iATKOS ------""whatever one your looking for"" in your search engine.
+There's just too many whiney spoiled Iwant it now or I'll throw a little fit people out there nowadays. 
+Asking for help is cool. Immediatly disrespecting someone that's willing to share because you're a dork is very uncool. LOOK FOR INFORMATION YOURSELF FIRST!"
+,makemecount,2011-11-04T14:10Z,"DOWNLOADING . . .
+hope this works ! ! !
+
+
+CPU Type:
+Mobile DualCore Intel Pentium T3200, 2000 MHz
+
+SUPPORTS:
+x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3
+
+Memory Type: 
+2GB DDR2 SDRAM
+
+VGA:
+	Mobile Intel(R) GMA 4500M
+"
+,makemecount,2011-11-06T10:23Z,"thanks for this working upload .! . .cheers .! , 
+
+BTW i have ACER ASPIRE 4730Z 
+
+Mobile DualCore Intel Pentium T3200, 2000 MHz
+
+2GB DDR2 667
+
+GMA4500M
+
+Working with :
+
+- screen resolution 1024 x 800 x 32
+
+- ethernet LAN WORKS
+
+-WI-FI= works
+
+-AUDIO= WORKS
+
+-mouse trackpad = (to responsive i used USB mouse for better sensitivity)
+
+-bluetooth = NOT WORKING ( need a little help here )
+
+-acer Crystal eye webcam = WORKS
+
+thats all basic hardwares for acer 4730z.."
+,kajchamajstor,2011-12-19T18:44Z,"Stop asking here if your computer (with this or this specs) can run it!
+SEED TORRENT AFTER YOU DOWNLOAD IT!
+Btw, i wanted to ask TN-048 what computer does he have, and what did he use to boot from DVD (-x, -v, -f, cpus=x, busratio=x)
+Have never tried iATKOS, or iDeneb, just some mac os xs from LEOHAZARD."
+,kajchamajstor,2011-12-20T19:03Z,"what's md5?
+and how do i use it?"
+,jcyangzh,2012-01-04T05:30Z,"it works on my lenovo thinkpad r61i, thanks."
+,Brickstin,2012-02-22T18:19Z,Common people.. Fecking Seed..... x.x 

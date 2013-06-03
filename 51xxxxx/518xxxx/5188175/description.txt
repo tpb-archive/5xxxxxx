@@ -1,0 +1,44 @@
+Format               : AVI
+Format/Info          : Audio Video Interleave
+Format/Family        : RIFF
+File size            : 350 MiB
+PlayTime             : 48mn 5s
+Bit rate             : 1008 Kbps
+StreamSize           : 5.81 MiB
+Writing application  : Nandub v1.0rc2
+Writing library      : Nandub build 1853/release
+
+Video #0
+Codec                : XviD
+Codec/Family         : MPEG-4
+Codec/Info           : XviD project
+Codec profile        : Streaming Video Profile/Level 1
+Codec settings/Packe : Yes
+Codec settings/BVOP  : Yes
+Codec settings/QPel  : No
+Codec settings/GMC   : 0
+Codec settings/Matri : Default
+PlayTime             : 48mn 5s
+Bit rate             : 868 Kbps
+Width                : 624 pixels
+Height               : 352 pixels
+Display Aspect ratio : 16/9
+Frame rate           : 23.976 fps
+Resolution           : 8 bits
+Chroma               : 4:2:0
+Interlacement        : Progressive
+Bits/(Pixel*Frame)   : 0.183
+StreamSize           : 298 MiB
+
+Audio #0
+Codec                : MPEG-1 Audio layer 3
+Codec profile        : Joint stereo
+PlayTime             : 48mn 5s
+Bit rate             : 132 Kbps
+Bit rate mode        : CBR
+Channel(s)           : 2 channels
+Sampling rate        : 48 KHz
+Resolution           : 16 bits
+StreamSize           : 45.4 MiB
+Writing library      : Xing (new)
+

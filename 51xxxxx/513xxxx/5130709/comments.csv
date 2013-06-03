@@ -1,0 +1,83 @@
+User Type,Username,Date,Text
+[V],Murlok,2009-10-20T14:40Z,Thanks for help me seeding any problems just tell :)
+,hani55,2009-10-20T15:57Z,"Thank you
+do i need to inter liicence every time i restart computer or key gen is working good ?
+thans again"
+,sabian.ro,2009-11-15T14:10Z,"Name: Team Z.W.T
+Serial: dcx5k-p9fqk-njcm0-hrp0sx-4fk84s
+Full working."
+,onemorning,2009-11-16T03:21Z,A reboot causes it to ask for a new key. Has anyone found a way around that yet?
+,juggalo17butrfly,2009-11-19T08:17Z,Is this just zonealarm antivirus or is this zonealarm pro with antivirus?
+,TwoFaced1680,2009-12-04T08:23Z,"The procedure I followed to ensure the license remains active is this:
+
+Note: Tested on Windows XP Pro and Windows 7 Ultimate
+
+1) Install ZoneAlarm
+2) Re-Boot your PC
+3) Generate license and input when prompted
+4) Re-Boot and enter safe mode
+5) Login using an administrator account
+6) Ensure hidden files are shown
+7)
+
+For Windows XP browse to c:\windows\system32
+
+For Vista/Win7 browse to C:\ProgramData\CheckPoint\ZoneAlarm\
+
+8) Right click the file 'zllictbl.dat' and select properties
+9) Click on the security tab
+10) For each user and group listed set 'write' access to deny
+11) Reboot
+
+You should now be able to update ZoneAlarm and reboot your PC without having to worry about the license expiring.
+
+FYI: If the security tab isn't available you can still set permissions using the 'cacls' command from the command prompt. If requested I'll post a tutorial. "
+,chashma,2009-12-05T23:16Z,"TwoFaced1680
+i didnt find security tab. please post the tutorial u mentioned"
+,TwoFaced1680,2009-12-06T00:02Z,"Okay, the instructions for using the 'cacls' command are as follows:
+
+Do steps 1-6 in my previous post. Then ...
+
+7) Bring up a command window by clicking on 'Start' > Run and type cmd ...then press enter
+(Vista users I think should type in cmd where it is says search, but I can't verify that right now)
+
+8) At the prompt type:
+
+cacls c:\windows\system32\zllictbl.dat 
+
+(Note: if vista user remember the path is c:\ProgramData\CheckPoint\ZoneAlarm\zllictbl.dat and should be used instead)
+
+9) A list of 4 or 5 accounts should be displayed and look something like:
+
+     BUILTIN\Administrators:F
+     BUILTIN\Users:R
+
+10) For each account listed type the command
+
+     cacls PATH_TO_FILE /E /G ACCOUNT:R
+
+where ACCOUNT = one of the accounts listed in step 9 such as BUILTIN\Users
+
+and PATH_TO_FILE = file path used in step 8
+
+
+
+At this point all groups and accounts should have read only access which will prevent ZoneAlarm from changing 'zllictbl.dat'. 
+
+The steps followed here accomplish the exact same thing as using the security tab, only without the GUI.
+
+I hope that made sense. Any questions please ask. "
+,TwoFaced1680,2009-12-06T00:22Z,"Sorry, in the above instructions the command to changer permissions should have been
+
+cacls PATH_TO_FILE /E /P ACCOUNT:R
+
+Note the /G is now /P"
+,nikkap25,2010-01-14T20:51Z,"dcx5k-p9fqk-njcm0-hrp0sx-4fk84s code is noor working..
+
+do you pls hv a valid code..?"
+,mandie6881,2010-02-14T05:36Z,"DIDNT WORK:( WORKED UNTIL I RAN MY FIRST SCAN, THE INSTALL WAS GREAT AND WORKS FINE BUT THE ACTUAL KEYGEN IS  A WASTE OF TIME!!
+NOT HAPPY
+WHY NOT UPLOAD A PROPER SERIAL  SO DOWN LOADERS CAN BE HAPPY PLEASE,"
+[T],FRITZBox,2010-05-25T20:46Z,"Don't fucking rar + Keygen relases.
+Now I have to download 92 mb for nothing."
+,Maggot101,2010-05-27T14:02Z,Wicked torrent!! Will seed for a while.

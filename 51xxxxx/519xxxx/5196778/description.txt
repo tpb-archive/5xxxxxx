@@ -1,0 +1,9 @@
+Windows Driver Kit (WDK). The WDK is a fully integrated driver development system that contains the Windows Driver Device Kit (DDK) and tests for stability and reliability of Windows drivers, including the following:
+
+Windows Driver Foundation (WDF) simplifies the development and support of Windows drivers.
+
+Header file refactoring (Windows Vista and later versions) reduces header file complexity by providing a simpler directory structure, eliminating declaration conflicts, and using a single set of header files for all supported Windows versions.
+
+Installable File Systems (IFS) Kit includes headers, libraries, samples, and documentation that are distributed as part of the WDK.
+
+Verifiers and static analysis tools, such as PREfast and Static Driver Verifier, help you find bugs at compile time.

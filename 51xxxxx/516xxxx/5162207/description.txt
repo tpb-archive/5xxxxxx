@@ -1,0 +1,120 @@
+                        *******   *    *  *     *   *****
+                           *      *    *  *     *   *
+                           *      ******  *     *   *
+                           *      *    *  *     *   * ****
+                           *      *    *  *     *   *    *
+                           *      *    *  *******   ******
+
+
+
+
+                        Wisbar Advance Desktop Version   2.5.0.7
+
+
+                                                             
+WisBar Advance Desktop replaces your existing Today screen. You can create shortcuts, system meters, floating windows and virtual pages to extend the functionality of your PocketPC.
+
+WisBar Advance Desktop also supports most existing Today plugins. You can arrange them on multiple pages in order to maximize their usefulness.
+
+
+
+             Here are some key features of "WisBar Advance Desktop":
+
+
+* Customize your home screen any way you wish
+* Add multiple pages to increase the information available at your fingertips
+* Run in "low-memory" mode in order to reduce the amount of memory used
+* Use animations when switching pages or showing/hiding docks
+* Add widgets to your screen: Monthly calendar, Digital or analog clock, Images, Text to monitor the registry, Weather conditions, Grids for contacts, shortcuts or embedded objects, Display up to the next seven days of appointments, Status icons, Notifiers, and more!
+* Use 77 variables to customize the information displayed on the screen
+* Can download up to ten days of weather information
+* Easily import themes created by other users and easily share your own creations!
+
+
+                   Whats new in WisBar Advance Desktop v.2.5.0.7:
+
+
+
+                                   Interface Changes 
+
+
+
+* Reorganised the main menu.
+* Made many of the dialogs finger friendly.
+* Added horizontal and vertical spacing to the calendar widget.
+* Added the ability to align the date in the Agenda widget to either the left, right or center.
+* Added "OnHide" and "OnShow" scripts to the notifiers.
+* Added an "OnHold" script to several widgets. This script only works when in user mode.
+* Added an "OnUpdate" script event for "Registry Text" objects.
+* You will now be visually notified when you are running the program in author mode.
+* Added the ability to add more than two cities for the weather information.
+* Weather icons are now theme-specific.
+* Added a "Medium" size for weather icons.
+* Added text variables to retrieve the current wind direction.
+* Added an "Slide Incomplete" script event for the slider widget.
+* Added an option to the widget grids to respect the horizontal alignment of text widgets.
+* When adding a shortcut to a shortcut grid, the user can now choose a custom icon.
+* Added an option to keep grids from scrolling.
+* Added a feature to the weather settings page to download the latest version of the city data (so I don't have to keep updating the program when a city has been added).
+* Added an option to the button widget to allow tapping on the text to execute scripts.
+* Added an option to the image widget to pass taps to the object underneath the image. This option will only work in user mode. In author mode, the image widget will respond normally to taps and holds (otherwise it would be impossible to access the item).
+* Added a tap animation to the shortcut and bookmark grids.
+* Added a "Startup" script for the theme (it's called when the theme is loaded).
+* Added an option to the Agenda widget to tile the middle scrollbar section.
+* Added a tap and hold option to the shortcut grids to customize the shortcut's icon.
+* Added a "Bookmark Grid" option to the grids.
+* Moved "Change Theme" from the settings dialog to the user-mode menu.
+* Added a custom text variable to display the next appointment in a TouchFlo style (more reminiscent of TouchFlo 2.5) which also allows the user to specify the "No Appointments" text.
+* Added a custom text variable to display just the time of the next alarm (without the date).
+* Added the ability to select a folder of images as a slideshow wallpaper.
+* Added an option to contact and shortcut grids to display the name of the object.
+* Added "Quit" to the user menu.
+* Added an option to the agenda widget to create a task or appointment when tapping and holding on the date.
+* Added an option to not display the appointments in the agenda widget. 
+
+
+
+                                  Bug Fixes
+
+
+* Fixed another grid rendering bug where self-updating items did not refresh themselves properly.
+* Fixed a bug where the finger-friendly volume dialog would not be used.
+* The "System - Volume Control" script command now works with HTC's volume control.
+* Made some optimizations for the grid's rendering.
+* Added some critical section locking in order to prevent some random crashes.
+* Fixed a bug where the program would stall downloading information.
+* Fixed a bug with the tab bar where the bar disappeared when changing pages.
+* Fixed an issue with the tabs where tapping on a tab frequently selected the wrong one.
+* Fixed a bug where the move coordinates would appear under the tabs at the bottom of the screen.
+* Fixed a crash that occurred when rendering the desktop.
+* Fixed a bug where docks that were hidden prior to switching pages would sometimes reappear when switching back to the original page.
+* When a grid's image is stretched, there is no longer a pink outline on the image.
+* Fixed a crash that occurred when adjusting the columns and rows in a grid.
+* Fixed the "System - Display Start Menu" script command on newer builds of Windows Mobile.
+* Fixed a bug in the "Wakeup" settings where the "Wake on Startup" did not indicate that the program was already set that way.
+* Fixed a bug where items in grids would not always be updated when pressed or if the status changed.
+* Fixed a bug where pinning a dock which contained a grid would cause the grid to lose its objects.
+* Fixed a bug in the grids where the selection image was never drawn.
+* Rewrote the wallpaper dialog.
+* Added some code to keep some updating threads from bumping into each other, causing random lockups.
+* Redesigned the image browser in order to fix the disappearing thumbnails on some devices.
+* Fixed a bug in the grid rendering where objects captured the background while sliding.
+* Added the ability to select the agenda object in the agenda script commands.
+* Fixed a bug in the agenda widget where task checkboxes didn't scroll.
+*  Fixed the "Quit" script command so that it works.
+* Fixed the "Quit" start menu command.
+* Fixed a bug in the shortcut widget that didn't allow for commandline parameters to be passed to the program to be launched.
+* Fixed a bug that caused the phone dialer to be brought up inadvertantly.
+* Fixed a bug where the theme manager was still running after changing the theme.
+* Made a change to keep widget dock items from disappearing.
+* Made a change to make docks opaque when the opacity level is set to 100%.
+* Rewrote the notifiers to make them more reliable.
+* Rewrote the grids in order to prevent crashing.
+* Made a change to make the clock more reliable.
+* Made a change to the HTC clock layout to accommodate time separators other than the ':' character.
+* Fixed a bug that allowed grids to appear underneath an edge-aligned dock when the program is restarted.
+* The default theme now properly supports WVGA and WQVGA resolutions.
+* Fixed a memory leak that occurred when updating the weather status.
+* Fixed a crash that could occur when switching between pages.
+* Fixed a bug where docks aligned to the same edge as a tab bar would be behind the tab bar.
+

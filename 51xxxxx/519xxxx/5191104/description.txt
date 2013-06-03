@@ -1,0 +1,43 @@
+OneSwarm 0.6.9 [23 November 2009 (bundled JRE7 to correct a JVM crash bug in the latest JRE)]
+
+Privacy preserving P2P / F2F and the best BitTorrent software we have ever used.
+
+NO REVISIONS, ADDITIONS, DELETIONS, COMPRESSION OR CHANGES BY US WHATSOEVER. It can be a headache to download from the University of Washington web site and the download often stalls so we offer it here as well.
+
+
+OVERVIEW
+
+Popular peer-to-peer (P2P) applications offer no user privacy.
+
+By design, P2P applications  share data with anyone that asks for it, allowing a third-party to systematically monitor user behavior.
+
+As a result, using a P2P network means that your online activities become public knowledge.
+
+OneSwarm is a new peer-to-peer tool that provides users with explicit control over their privacy by letting them determine how data is shared.
+
+Instead of sharing data indiscriminately, data shared with OneSwarm can be made public, it can be shared with friends, shared with some friends but not others, and so forth. We call this friend-to-friend (F2F) data sharing. OneSwarm is:
+
+    * Privacy preserving: OneSwarm uses source address rewriting to protect user privacy. Instead of always transmitting data directly from sender to receiver (immediately identifying both), OneSwarm may forward data through multiple intermedaries, obscuring the identity of both sender and receiver. For more details, check out the OneSwarm overview screencast or our papers.
+
+    * User friendly: OneSwarmâ€™s interface is web-based and supports real-time transcoding of many audio and video formats for in-browser playback, eliminating the need for casual users to master a new applicationâ€™s interface or search for custom media codecs.
+
+    * Open: OneSwarm is freely available and built on existing standards. OneSwarm can operate as a fully backwards compatible BitTorrent client, and its friend-to-friend data sharing features are built on cryptographic standards, e.g., X.509 certificates and SSL encryption.
+
+
+IMPORTANT NOTES:
+
+1) OneSwarm is research software that is still under active development. Do not rely on OneSwarm for strong anonymity. Although OneSwarm is in active use by many thousands of users, many bugs likely remain undiscovered. OneSwarm is free and open source software that is offered as is with no warranty.
+
+2) SOME WANKERS ACTUALLY SELL OLD VERSIONS OF THIS FREE SOFTWARE ONLINE such as SOFTONIC INTERNATIONAL! Don't be stupid. It's free from the creators.
+
+3) The automatic updates and upgrades have NEVER worked for us. When notified of an update and given the option to update, don't bother. Just go to their site and download the newest version. Uninstall your version (but leave keys, friends and other settings). Install the new version. It seems to be able to find everything you were uploading or downloading and pick up from that point  -- no problem.
+
+4) Find new versions for:
+
+Windows XP/Vista/7
+Mac OS X (10.4+, universal binary)
+Linux (32 bit)
+Linux (64 bit)
+Source Code for developers
+
+at

@@ -1,0 +1,43 @@
+McAfeeÂ® VirusScanÂ® Enterprise protects your desktop and file servers from a wide range of threats, including viruses, worms, Trojan horses, and potentially unwanted code and programs. McAfeeÂ® VirusScanÂ® 8 takes anti-virus protection to the next level, integrating elements of intrusion prevention and firewall technology into a single solution for PCs and file servers. This powerful combination delivers truly proactive protection from the newest of todayâ€™s threats-including buffer - overflow exploits and blended attacks - and features advanced outbreak management responses to reduce the damage and costs of outbreaks. Everything is managed by McAfee ePolicy OrchestratorÂ® or ProtectionPilotâ„¢ for scalable security policy compliance and graphical reporting.
+
+Key benefits:
+- Integrated firewall and IPS technology - Addition of firewall and intrusion prevention technology delivers maximum proactive protection in a single, integrated package
+- Enhanced coverage for emerging threats - VirusScan provides protection from the newest potentially unwanted program security threats (e.g., spyware), application-specific buffer overflow attacks, and blended attacks
+- Lowered TCO during outbreak response â€“ Advanced outbreak functionality closes the window of vulnerability before DAT files are available, limiting damage by blocking the entrance and spread of the outbreak
+- McAfee scanning technology â€“ Award-winning McAfee scan engine performs in-memory scanning to block threats such as Netsky and CodeRed, which donâ€™t write their code to disk
+- Centralized management and reporting â€“ Integration with McAfee ePolicy Orchestrator and ProtectionPilot provides a complete security management solution, including detailed graphical reporting, from a single console
+
+Features:
+- Comprehensive McAfee anti-virus protection
+- Potentially unwanted program security
+- Buffer overflow prevention (IPS feature)
+- Complete outbreak response
+- Port blocking/lockdown (firewall feature)
+- Application monitoring: email engines (firewall feature)
+- File blocking, directory lockdown, folder/share blocking (IPS feature)
+
+
+
+
+New features in v8.7i:
+New and updated features in the current release of the software:
+- Support for Microsoft Windows Server 2008
+- Architectural changes:
+â— Better rootkit detection and cleaning without system restart â€” Safe memory patching, better IRP repair support at the system core, and the ability to read locked files at the kernal level provide better rootkit detection and the ability to clean detections without restarting the system.
+â— On-access scan performance improvements during system startup â€” A new boot cache process improves on-access scan performance during system startup.
+â— Greater self-protection â€” The self-protection feature has been enhanced to protect against a wider range of mal-processes that can terminate McAfee processes. This provides greater VirusScan Enterprise self-protection and product stability.
+- Real-time malware protection:
+â— This feature uses sensitivity levels that can be configured, based on your risk tolerance, to look for suspicious files on your endpoints that are running VirusScan Enterprise 8.7i.
+â— When enabled, this feature detects a suspicious program and sends a DNS request containing a fingerprint of the suspicious file to McAfee Avert Labs, which then communicates the appropriate action back to VirusScan Enterprise 8.7i.
+â— The real-time defense feature also provides protection for classes of malware for which signatures might not be available.
+â— This protection is in addition to the world-class DAT-based detection VirusScan Enterprise has always provided. The user experience remains the same and no additional client software is required.
+â— In this release, this feature is available only for on-demand scans and email scanning and is disabled by default. You must select a sensitivity level to enable the feature.
+- Performance improvements:
+â— New scan deferral options improve local control of on-demand scans, including the ability to defer scans when using battery power or during presentations. One option can be configured to allow end users to defer scheduled on-demand scans for the increment of time you specify. You can specify hourly increments up to twenty-four hours, or forever.
+â— Enhanced system throttling now includes registry and memory scanning in addition to file scanning.
+- Improved email scanner
+- Buffer overflow protection exclusions by API
+- On-access scanner â€” Scan processes on enable
+- On-demand scan usability improvements:
+â— Clean â€” Report and clean the detection.
+â— Continue â€” Report the detection and continue scanning.

@@ -1,0 +1,168 @@
+User Type,Username,Date,Text
+,thedeathiown,2009-11-27T14:40Z,"""It is recommended to have patch 1.02 installed.""
+
+It is USELESS to have patch 1.02 installed because most of the fixes it makes are in EXE file. And you clearly use EXE from previous version (BDtS - 1.01a).
+I will say more: it is DANGEROUS to have patch 1.02 installed while using 1.01a executable. Why? Because if any fix in game resources will refer to the corresponding part of the code in executable and won't find it in version 1.01a, game will simply crash.
+
+So I suggest you not to install patch 1.02. You won't get much of the fixes anyway, since you'll need to use old EXE."
+,Satan_PL,2009-11-27T15:20Z,"I almost finished the game by now with patch 1.02 so it is stable. Patch also makes changes to resources, maps etc, but I guess you are correct, exe is outdated, but 1.02 cracks are in reality older cracks that still work or won't work with dlc's (BDTS or PS). If you wish, use 1.01 I just never tried it, I patched the game and say how I made it, prechaps it was not the best way."
+,Satan_PL,2009-11-27T15:28Z,"One thing though, I have achievements that relate to Pinnacle Station, were they not included in the patch? It might be they are in the mod itself, not sure. UT3 engine relies on packages. Only those might be updated during the patch, not sure though, so you can try using 1.01 and check if you have Pinnacle Station achievements available."
+,thedeathiown,2009-11-27T21:14Z,"Well, I've passed DLCs with patch 1.02 and without. The most important fix (fix for audio issues on Realtek cards) is in EXE... Anyway, with 1.02 I've had Survival test crashing on me when health reached critical level, and I'm not the only one. I am not sure if this is patch related, however. But with 1.01a patch only everything works flawlessly. Achievements too.
+
+If someone experiences audio issues after patch 1.01a (and too many people do), I've made a custom patch that will fix that problem. Since 1.02 EXE isn't really an option (DLCs won't work with it), here is the fix if you need:
+
+http://www.yourfilehost.com/media.php?cat=other&file=me_patch_au1.01a.zip
+
+This is genuine, so don't sweat. Unlikely, but if something detects it as a virus, it is because the patch modifies the INI file settings in your Documents folder - some antiviruses don't like that.
+Originally created it for myself long ago, didn't bother to share. So here you go. Oh and - you won't lose any of your game settings too.
+
+P.S. Satan_PL, sorry for sticking this into your torrent topic, but it can help a great many people who installed BDtS + 1.01a. If you want, you can test it and include it in your torrent, up to you."
+,Satan_PL,2009-11-27T21:34Z,"It is ok, but I don't even know the problem that it relates to so testing how/if it works would be a problem for me. If it ONLY changes .ini file, I can just add an explanation so anyone could modify it for themselves. Besides I could not start the download... 0% in flasget all the time. Oh, and I use realtek integrated sound card without any problems now or prior the patch :) Though I had them with many games before getting the latest driver fixed everything (took ages to find)."
+,Insomneac,2009-11-28T00:45Z,"Some of you clearly should do a bit of research before posting.
+
+Pinnacle station INCLUDES patch v1.02.
+
+Just like Bring Down the Sky included patch v1.01."
+,Insomneac,2009-11-28T01:10Z,"And I forgot to mention, Reloaded's v1.02 No CD from GCW works fine with this.
+"
+,Satan_PL,2009-11-28T01:22Z,"Pinnacle Station includes patch 1.02. This package - do not. Original file includes the content you have here, patch and few other files that seem to be (??) useless, perhaps used by installer. And good to know that the latest crack works, mine worked but would not read any DLC's."
+,Insomneac,2009-11-29T00:37Z,It would be good if we could get a hold of the original Pinnacle Station file.
+,cyk0rz,2009-11-29T03:01Z,"i already download MassEffect_PS_ES.exe file  from another torrent site about 1 and a half month ago. since then until now i cant install this DLC coz it ask serial for install, and you said : ""just use 7-zip to extract the files from $[31] folder"" where i can find this folder?
+I mean, would you explain in more detail so this DLC can be a installed & playable. thanks."
+,Satan_PL,2009-11-29T18:08Z,"Sure. If you already have an original exe you can try opening it with program like 7-zip (actualy I USED UniExtract - it is free, google it). It is similiar to zip/rar file in structure. When you open/extract it in said program you will see folders: $[31], $[82], $PLUGINSDIR, $SHELL[49], $TEMP. Screw all the other folders then the first one. Well, in  $TEMP is a 1.02 patch if you want it actually :) BUT IN $[31] is the whole game! Inside are again two folders, biogame (screw that one too!) and open DLC folder. Now you see just one folder: DLC_Vegas. COPY it inside main directory of mass effect inside DLC folder (example: C:\Games\Mass Effect\DLC "
+,Satan_PL,2009-11-29T18:11Z,"Then copy autoload.ini file from your FIRST DLC called Bring Down The Sky. AND VERY IMPORTANT - change every ""UNC"" text to ""Vegas"" in the whole file! (use CTRL-F to find those, open autoload.ini in notepad ofcourse) Becouse that is what makes it to see new mod files!"
+,Insomneac,2009-11-30T00:31Z,"@ Cyk0rz
+
+Would you be able to upload MassEffect_PS_ES.exe somewhere please?"
+,cyk0rz,2009-11-30T13:38Z,"Satan_PL : i've done everything u told n the result is, i see 2 DLCs in game options but all of it was BDTS DLC lol & then when i patched to 1.02 bam.. all the DLC is gone :(. now i reinstalling the whole game & kinda stuck once again. hm..."
+,Satan_PL,2009-12-01T00:26Z,"cyk0rz, this dlc WILL SHOW as bring down the sky but it is in reality Pinnacle Station. This is becouse of the last line of the autoload.ini file I never bothered to change. And you can not see dlc's after patching becouse you have incorrect crack. This release is not perfect, but it DOES work."
+,Satan_PL,2009-12-01T00:30Z,"clonefighter, I explained above and in the torrent installation guide that If you have pure .exe of the mod there is NO autoload.ini there and you have to copy and modify the one from bring down the sky! This is not that hard. "
+,Satan_PL,2009-12-01T00:40Z,"@cykor - If you want that so badly though, change autoload.ini so that the GUI part looks like this: [GUI]
+NameStrRef=182170 
+DescriptionStrRef=182171
+
+Enjoy... I lost 3 minutes of my life searching for this so be sure to be happy lol"
+,Furious1964,2009-12-02T17:05Z,I've tried everything to get this to work and still it doesn't. I've tried it not patched and patched. I tried every download I can think of and nothing. Can someone help me?
+,Furious1964,2009-12-02T17:21Z,Where do I put the autoload.ini file?
+,Satan_PL,2009-12-02T18:43Z,"@Furious1964 If you downloaded this torrent then put it so it looks like that: .../Mass Effect/DLC/DLC_Vegas. Torrent is complete. If you have raw version, then autoload.ini should be in DLC_Vegas. Use included crack or the one from BTDS"
+,Satan_PL,2009-12-02T18:45Z,Anyway go to galaxy map (despite 2 errors while game startup - normal when using file from another dlc and harmless) Check if there is Pinnacle Station mark on Galaxy map anyway. Perchaps it is installed ok?
+,EvilDick777,2009-12-03T17:12Z,"Fixed autoload.ini:
+
+[Packages]
+2DA1=BIOG_2DA_Vegas_GalaxyMap_X
+2DA2=BIOG_2DA_Vegas_Merge_X
+2DA3=BIOG_2DA_Vegas_AreaMap_X
+2DA4=BIOG_2DA_Vegas_UI_X
+2DA5=BIOG_2DA_Vegas_TreasureTables_X
+
+DotU1=PlotManagerDLC_Vegas
+PlotManagerConditionals1=PlotManagerDLC_Vegas.BioAutoConditionals
+PlotManagerStateTransitionMap1=PlotManagerAutoDLC_Vegas.StateTransitionMap
+PlotManagerConsequenceMap1=PlotManagerAutoDLC_Vegas.ConsequenceMap
+PlotManagerOutcomeMap1=PlotManagerAutoDLC_Vegas.OutcomeMap
+PlotManagerQuestMap1=PlotManagerAutoDLC_Vegas.QuestMap
+PlotManagerCodexMap1=PlotManagerAutoDLC_Vegas.DataCodexMap
+GlobalTalkTable1=DLC_Vegas_GlobalTlk.GlobalTlk_tlk
+GlobalTalkTable1_ES=DLC_Vegas_GlobalTlk_ES.GlobalTlk_tlk
+
+
+[GUI]
+NameStrRef=182170
+DescriptionStrRef=182171
+ImagePackage=""GUI_SF_PRC2_SaveLoad.Images_PRC2"" 
+ImageFrame=""shotOne""
+CreditsFile=""BIOCredits_DLC_Vegas.ini"""
+,Satan_PL,2009-12-04T00:22Z,"@EvilDick777 thx for that fix, updated the torrent description. I tried to open image package to find the picture using UE3 but I failed... Not to mention the rest of packages, I was blind-guessing those lol"
+,EvilDick777,2009-12-04T09:51Z,"NP! Yeah, I still don't know if it's 100% correct but there are no errors at startup now, and the station content seems to work fine. Thx for upping in the first place. ^^"
+,Satan_PL,2009-12-05T13:35Z,"~26 seeders ~56 peers
+Info here is wrong...
+
+@EvilDick777
+Btw how did you find that GUI_SF_PRC2_SaveLoad.Images_PRC2 ?"
+,EvilDick777,2009-12-06T08:44Z,Just a good old fashioned hex editor :)
+,Satan_PL,2009-12-07T23:37Z,"Heh, I wouldn't have thought of that :) I would kill for an editor that works, nothing can open those damn packages or even open ""normal"" ones that should be supported..."
+,thepiper888,2009-12-10T08:37Z,"I did everything here, and the dlc seems to be working when I play, but when I go the DLC section in the starting menu, there is the bring down the sky content and blank spot under it like there should be something there but isn't.  I'm not sure if it's a problem cause I seem to still be able to access the content ingame.  Just wondering if I missed something."
+,Bujaaa,2009-12-19T20:51Z,Can anyone please upload bring down the sky and pinnacle station for XBOX360. Thank you.
+,yyywww111,2009-12-23T01:34Z,"I dl'd and put the DLC in the correct folder.
+
+Anyway, I installed the 1.02 patch and DIDN'T use the crack because;
+
+A) My game version was not the same as the crack
+
+and
+
+B) I own the game and so didn't need the crack
+
+Anyway, I don't know if its because I didn't use the crack or not, but I don't see the Pinnacle Station in the Phoneix System :(
+
+I will check again tommorrow, but I am pretty sure it wasn't there.
+
+Any help would be appreciated."
+,Satan_PL,2009-12-25T01:41Z,"@yyywww111 - doesn't matter if you're version is higher then the crack or if it is original or not. The crack is needed to load those dlc's (BOTH Bring Down The Sky and Pinnacle station from torrents). I've been told that 1.02 cracks also work but I never bothered to look for them since it works fine with the one included, and the one 1.02 crack I found didn't work.
+
+solution- use the crack :)"
+,yyywww111,2010-01-01T22:04Z,"@Satan_PL
+
+Ah, that worked
+
+Thanks"
+,lokbrok,2010-01-01T23:03Z,"Not sure what I'm doing wrong.
+
+I downloaded BDtS legally from BW site, and I extracted the Pinnacle Station in to DLC folder.
+
+And I'm using the crack exe that came with this torrent, but still I don't see pinnacle station anywhere, I haven't updated the patches though, because I read here that I don't need to, plus last time I did that and had the dlc in, I got error message... ;/
+
+Any help appreciated. "
+,silvren555,2010-01-06T08:21Z,"lok,
+
+Get patch 1.02, then replace the .exe and modify the DLC_Vegas file as described, I was having issues until I did that, now works fine."
+,NoNic2,2010-01-11T21:43Z,"Wow this explanation is life saver, dident think i will make it to work, dident test it yet but on dlc it write that pinnacle station is installed. Now of first time to play Mass effect + 2 dlc before Mass effect soon hits market. Thanks "
+,blazzox,2010-10-03T13:05Z,"man i tried  different cracks i tried that thing with autoload.ini, i tried everything and still wont work.... i have 1.01, now i am downloading 1.02 and if that doesnt work! I'LL FUCK FEMALE SHEPARD IN HER ASS!!!!!"
+,ffinfinity1,2011-02-02T04:44Z,can someone please give me a step by step on how to make this DLC work. I downloaded Bringing Down The Sky and it works like a charm but for some reason Pinnacle Station simply doesn't work for me no matter what i try. I took the content in the folder and put it in the DLC folder but all i see when i go to the downloadable content part of the menu is a blank slot below BDTS. I even changed AutoLoad.ini from my BDTS DLC like it says in the description but still no cigars. Can ANYONE please tell me how they got theirs to work.
+,ffinfinity1,2011-02-02T04:48Z,I may not be properly changing autoload.ini but i'll check when i can. if anyone can tell problems that could also be hindering my progress please share it with me :I
+,heaser,2011-07-19T17:28Z,do this work with the eu version?
+,taterhead114,2011-07-24T10:44Z,Took a while but i got this one working. i had to get the 1.02 patch and used the .exe out of this. 
+,DoctorHyper826,2011-09-16T17:22Z,"Hey 
+
+I believe I've done everything correctly but when I go to dlc list in game I end up with two of ""Bring Down the Sky"" Any idea why/what I'm ding wrong???"
+,GrimReaperrz,2012-02-17T02:55Z,thanks Satan i wish i could find that mass effect DLC pack skidrow once uploaded it had both dlc + crack and i believed it was a 1.02 crack
+,mgsfan123,2012-03-26T18:15Z,"@Satan_PL
+
+Thanks for the upload. I was having a major problem getting this dlc to work for me.
+
+thx"
+,mgsfan123,2012-03-26T18:17Z,"Thx Satan, I was having a major problem getting this working for me earlier."
+,NE0101,2012-04-05T20:51Z,"I did everything here, and the dlc seems to be working when I play, but when I go the DLC section in the starting menu, there is the bring down the sky content and blank spot under it like there should be something there but isn't. I'm not sure if it's a problem cause I seem to still be able to access the content ingame. Just wondering if I missed something.  please help me my fellow pirates 3 days and counting but I can't fix this bloody problemmmm helppppppppppppp me :''-(((("
+,Fantomnz,2012-04-18T11:51Z,"Hi All & Satan_PL  :)
+
+I can confirm that this works awsome & I get the Title in the DLC box also.....Haha
+
+The process.  
+
+
+First Delete the Mass Effect Desktop Shortcut! If you have one.
+
+The Mass Effect DLC is Installed.
+01. Bring Down The Sky.exe &
+02. Pinnacle Station
+
+Goto   C:/Program Files/Mass Effect/DLC/folder
+
+Do what you have been directed to do with this torrent!!! To the letter!!!!
+
+Next install the,
+03. Mass Effect 1 - Patch 1.02.exe
+
+Finally,
+Goto C:/Program Files/Mass Effect/Binaries/folder
+
+Copy the MassEffect.exe Crack from,
+the Mass Effect DLC Pack folder (the one that you used for (Pinnacle Station to show up) to this folder & Overwrite.
+
+Create a Shortcut on the Desktop from the new overwriten .exe
+
+Close Folder.
+
+I had the blank box until I did this procese.
+
+Hope it works for you    :-)"

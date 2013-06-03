@@ -1,0 +1,18 @@
+Our Bootable Recovery CD is a special add-on developed as an alternative for Windows environment. It provides some opportunities when one can't use our software under Windows for certain reasons. All functions of our software products under Windows can be found on Recovery CD and even more:
+
+   1. You can create/format/delete partitions on hdd, when no OSes are available.
+   2. You can correct different unbootable situations using Update MBR, changing partitions' properties, editing 'boot.ini' file, etc. Some versions include powerful tool 'BootCorrector'.
+   3. When applying operations you can see directly the process taking place and its immediate results.
+   4. You can restore system partition and operate other locked partitions for OSes, which don't have BlueScreen mode (Windows 9x/ME). In DOS mode not all hardware is supported (USB/Firewire devices, some RAIDs).
+   5. You can perform operations, which are unavailable due to software incompatibilities under Windows.
+
+Recovery CD includes Paragon Linux and Paragon DOS. You can read about their differences in the manual. In general, we recommend you to use Linux as it has more capabilities.
+
+There is no need to be afraid of "Linux" here, because:
+
+   1. It easily works with Windows partitions.
+   2. Knowledge of Linux is unnecessary, you'll see nice GUI with menus, wizards, etc.
+
+We recommend you to download the Recovery CD image, burn it and store away to be on the safe side.
+
+WinPE based Recovery CD is also available for some products.

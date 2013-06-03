@@ -1,0 +1,130 @@
+*********************************************************************************************************
+
+      Windows 7 RTM Ultimate Pliek 32/64bit NL Unattended November 2009 versie 1.1 zonder drivers.
+
+                     www.nzbpirates.com de nieuwste pliek software uit eerste hand.
+
+*********************************************************************************************************
+Speciale dank aan me maat Muiz.
+
+
+
+         ,,;####,,.     ;####            ,;!!;                  """Ã›!!!   
+     ;*!!!!!****!!!!!!    $$!!           ;!!!,                     ;Ã›1
+   !!!!!!ÃœÃœ       $$$Â²    !Ã›Ã›,           ,,,                       .Ã›1     ..,,
+      %;1Ãœ         Ã›Ã›$    !!#!          ..,         ,;2%%!,        !!!  .,;#Â°
+      !2kk!    ,,!!ÃžÃžÂ°    !!ÃŸÃŸ         .&;         ;;Â°   ;!!       ;###Â°,%&; 
+      !!%2ÃŸÃŸ>%Â°Ã›Ã›!        %!!!        .!!!        ,..;,,;!:"      .;;!Ã›Ã›Ã›;, 
+     !%Ã›$**Â°"             !!!!!   ,,;$*.!.      ..;;ppp"      .,;;!Ã›Ã›%!"";!!;, 
+     ÃŸÃŸ!!*                !!ÃŸÃŸ>,!!!Â°  ##....,;!!!!:....;    ,&&!" 2kk!Â°    ;&;Ã›,
+    !!!!!                  !!Ã›Ã›$*     Â°!!!!!!#"    *!!!!!11"Â°    !!!&      !!!&%,  Â©2009 
+   !!!!! 
+
+Voorwoord:
+
+- Let op dat waneer je deze Windows 7 Ultimate installeert, je computer aan bepaalde eisen moet voldoen!
+  Deze eisen zijn ongeveer gelijk aan xp (hoe sterkere de cpu/extra geheugen hoe beter de prestaties).
+- PrivÃ© test DVD, niet bestemd voor andere doeleinden, zoals verkoop etc.
+- Hebt u deze DVD toch ergens gekocht, dan bent u opgelicht...Pliek's werk wordt niet verkocht!!!
+- Het gebruik van deze DVD is volledig op eigen Risico, ik ben niet aansprakelijk voor evt. problemen!!!
+
+Inhoud:
+  
+[1] Windows 7 Ultimate Pliek 32/64bit NL is een Unattended versie, dit betekent het volgende.
+[2] Verwijderde onderdelen met vlite.
+[3] Er zijn Updates die na installatie zo zijn ingesteld dat ze verborgen zijn in Windows Update.
+[4] Inhoud aanwezige Microsoft Updates, dank aan George King voor de samenstelling hiervan.
+[5] Inhoud van de aanwezige thirth party Updates/Software, dit is tot een minimum beperkt.
+[6] Ingeschakelde/Uitgeschakelde onderdelen in Windows 7.
+[7] Toegevoegde/geÃ¯ntergreerde software uit Vista.
+[8] In Windows 7 Mediacenter zitten nu standaard een heleboel Internet radiozenders (36).
+[9] Doorgevoerde register tweaks in windows7.
+[10] Uitleg hoe je het wachtwoord instelt.
+[11] Hoe je voorkomen kunt dat je wachtwoord in Windows 7 verloopt, en hoe er mee om te gaan.
+[12] En voor degene die niet weten hoe op te starten van de dvd.
+[13] Bekende problemen.
+[14] Hoe weet ik of ik een echte Pliek heb gedownload?
+
+
+[1] Windows 7 Ultimate Pliek 32/64bit NL is een Unattended versie, dit betekent het volgende:
+- Het is GEEN upgrade, je moet installeren vanaf DVD (booten met de DVD, lees onderaan meer hierover).
+- Alleen het aangeven van de gewenste partitie is nodig, de rest gaat helemaal vanzelf (Unattended).
+- Er is geen serienummer nodig, dit vooraf automatisch al ingegeven.
+- Er is geen patch nodig, je bent namenlijk meteen al geactiveerd (automatische activering).
+- Ook kun je probleemloos Windows Updates gebruiken, deze versie is dus ook volledig WGA proof.
+- Internet hoeft er NIET uit tijdens de installatie.
+- Eventuele aanwezige cardreaders en usb schijven voor de start van de installatie loskoppelen, dit 
+  is om het verschuiven van de drive-letters te voorkomen (cardreaders worden als schijf gezien)!!!
+
+[2] Verwijderde onderdelen met vlite:
+- Helemaal niks, dus lekker orgineel (biliotheken zijn niet meer uitgezet, dit gaf n.l fouten in Mediacenter).
+
+[3] Er zijn Updates die na installatie zo zijn ingesteld dat ze verborgen zijn in Windows Update.
+- Een voorbeeld van verborgen updates: 
+  alle talen pakketten (verborgen, deze zijn handmatig weer aan te zetten om te kunnen downloaden).
+
+[4] Inhoud aanwezige Microsoft Updates, dank aan George King voor de samenstelling hiervan:
+- Alle updates t/m November 2009
+- Microsoft Silverlight KB970363-versie 3.0.4081.0-x86/x64
+- Microsoft PlayReady KB971012-versie 1.3-x86/x64
+
+[5] Inhoud van de aanwezige thirth party Updates/Software, dit is tot een minimum beperkt:
+- Synisterals AutoRuns nieuwste v9.56 (verwijderbaar door mappen uit Program Files en Startmenu te halen).
+- VMWareTools versie 6.0.4 build-93057 (wordt alleen geinstalleerd als je virtuel in VMWare test).
+- SPTD driver nieuwste v1.62 x86/x64
+
+[6] Ingeschakelde/Uitgeschakelde onderdelen in Windows 7:
+- Data Execution Prevention (uitgezet).
+- Energieschema is ingesteld op hoge prestaties (is naar eigen behoren aan te passen).
+- Hibernation (uitgezet, is handmatig weer aan te zetten).
+- Systeemherstel (uitgezet, is handmatig weer aan te zetten).
+- User Account Control (UAC) (uitgezet, is handmatig weer aan te zetten).
+- Windows Defender realtime bescherming (uitgezet, is handmatig weer aan te zetten).
+
+[7] Toegevoegde/geÃ¯ntergreerde software uit Vista:
+- Dreamscene
+  Extra dreams download je makkelijk via Internet Explorer via de ingebouwde quicklink "Dreams Downloaden".
+- Hold'em spel.
+- Microsoft Tinker spel (ook vanuit Mediacenter te spelen).
+- Movie Maker.
+- Windows Mail.
+
+[8] In Windows 7 Mediacenter zitten nu standaard net als in Vista een heleboel Internet radiozenders (36):
+- 100%nl
+- 3FM
+- Action Radio
+- Arrow
+- Arrow Jazz
+- BNR
+- CityFM
+- ClassicFM
+- Concertzender
+- DanceFM
+- FreshFM
+- FunX
+- GigantFM
+- JuizeFM
+- KinkFM
+- KX Radio
+- Laser Radio
+- Qmusic
+- Radio 1
+- Radio 2
+- Radio 4
+- Radio 5
+- Radio 6
+- Radio 538
+- Radio 247
+- Radio 10 gold
+- Roots Reggae
+- RTVNH
+- Skyradio
+- SlamFM
+- SmashFM
+- Studio Brussel
+- TempoFM
+- TMF Radio
+- Veronica
+- XFM
+
+[9] >>>>Begin>Begin

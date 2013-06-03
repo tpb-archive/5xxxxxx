@@ -1,0 +1,23 @@
+iPhone 3G only ! 
+
+Two files included:
+iPhone1,2_3.1.2_7D11_Custom_Restore.ipsw
+PwnageTool_3.1.4.dmg
+
+
+This is for iPhone users on T-Mobile
+Original logos not the Pineapple
+
+___________________________
+
+If youâ€™re already jailbroken (by whatever means), you donâ€™t need to mess around with DFU mode at all.  Just create (or get from a friend) your custom IPSW and Option-Restore (Shift-Restore on Windows) to it via iTunes.  Donâ€™t enter DFU mode at all.  Please make sure you are restoring to the custom IPSW, not the stock one from Apple!  For best results, use the latest iTunes (9.0.1) â€” which includes a nice new application organizer.		
+
+
+
+My method of install:
+
+- Connect the iPhone to your Mac and open iTunes
+- Option+Restore, Select the IPSW from this download
+- When restored you can either setup as new or use a backup to restore prefs and app data.
+- Go into Cydia, update, install Ultrasn0w and AppSync 3.1
+- enter your T-Mobile APN, probably epc.tmobile.com

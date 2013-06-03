@@ -1,0 +1,20 @@
+User Type,Username,Date,Text
+,findermix,2009-10-27T19:58Z,"System Requirements
+EyeTV 3.2.1 is a Universal application. It requires a Macintosh computer with built-in USB 2.0 ports, and Mac OS X 10.4.11 (Tiger) or later. We recommend Mac OS X 10.6.1 or later with all software and security updates installed.
+Atention!!!!
+You need hardware apropiate for runnig this soft, Macintosh computer of course + hardware conect at computer, homeTV, or USB TV, or anothing engine.
+Whit Macintosh computer only no works."
+,mac14568,2009-10-27T21:30Z,Good English Retard.
+,dillerdog,2009-10-28T03:39Z,"@mac14568----How is your German, Mandarin or Japanese?  Comments like yours just make the rest of Americans look really stupid and lazy.  I tell you what.  Post just one comment in a language other than english----I didn't think so---Retard."
+,lappe,2009-10-28T09:10Z,do you have to use Little snitch for this?
+,45ness,2009-11-28T00:36Z,Password is now invalid...do you have another one?
+,CaptainMidnight,2009-12-13T15:51Z,mac14568 has no reason to feel superior. An English teacher would fail his own comment because he incorrectly capitalized a word and omitted a comma. A three-word sentence with two errors isn't good.
+,CaptainMidnight,2009-12-13T17:51Z,"lappe and 45ness,
+
+ALWAYS use Little Snitch to block access to Elgato with any version of EyeTV. Don't even let it connect to services.elgato.com for the program guide. It WILL report your SN and invalidate it. Nothing you do will fix the problem since EyeTV puts an invisible file somewhere on your drive that says you're using a pirated version. You'll have to wait for the next version and a new SN."
+,frugo3000,2009-12-17T12:47Z,"Add this to your /etc/hosts:
+127.0.0.1	services.eyetv.com
+
+No need to use little snitch anymore!"
+,CaptainMidnight,2009-12-20T01:13Z,"Most people don't know how to edit their hosts file. Besides, you don't know what servers elgato will use in the future. Without Little Snitch, you won't know what other connections it's trying. In fact, they already use both services.elgato.com and updates.elgato.com. I only noted services because that's the one that people might allow to connect to get the free one-year subscription to the TV Guide EPG, but both updates and services checks your SN. Block that and use the over the air ATSC guide."
+,warbleuc,2010-01-05T23:41Z,seeded to 3.68 ratio

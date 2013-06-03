@@ -1,0 +1,57 @@
+User Type,Username,Date,Text
+[V],[HB],2009-12-08T11:52Z,It will be in your directory where you have installed the software
+,drz_pc,2009-12-20T22:43Z,"Couple of questions:
+1. Does the keygen work in Windows 7?
+2. Is the key file supposed to be anywhere in particular?
+
+When I first install AnyDVD, it says I have 21 days. When I run the keygen, it tells me it has expired.
+
+Thanks for any help."
+,fredpc,2009-12-25T16:23Z,"drz_pc
+key file is normally a registry entry.........if it is a reg entry copy it to the registry
+
+if it is  a key file.......copy it to the anydvd directory and open with anydvd reg tool "
+,fredpc,2009-12-25T16:25Z,"Also here is a step by step to fix trial expired
+
+Here is a step by step guide 
+Anyone having an issue with..........anydvd ""trial expired"".........error 
+1) Uninstalled the old version of anydvd 
+2) Make sure your disconnected from the net
+3) Install the new anydvd 
+4) If it asks to reboot (do it )
+5) When the computer restarts anydvd will load (you will get trial version) now close anydvd 
+6) Add the key (which is usually a reg key)
+7) Open anydvd and you should have a fully registered version 
+8) If you get ""trial expired"" don't worry move on 
+9) Do a search for anydvd.chk and delete it or rename it to anydvd.bak.......you will have to enable hidden files and folders the locations are as follows 
+
+for xp the location is 
+C:\Documents and Settings\All Users\Application Data\SlySoft\AnyDVD\AnyDVD.chk
+
+for vista
+C: Drive\Program Data\Slysoft\Anydvd\anydvd.chk or anydvd.key
+
+for windows 7 the location is
+C: Drive\Program Data\Slysoft\Anydvd\anydvd.chk or anydvd.key
+
+10) Now open anydvd you should have a fully registered version while your there go to settings and disable updates 
+11) You can now reconnect to the net
+12) Enjoy
+
+ps there is another option with the anydvd.chk file .....open with notepad and delete all text and then save....now right click on the file and select properties
+then select read only .....then apply "
+,steve8001,2010-01-13T15:57Z,"I followed the steps above but i had trouble with the anydvd.chk, i dont have one. "
+,Copurnicus,2010-01-24T00:04Z,"I Think i can help everyone with this .chk file. I noticed a lot of people keep saying they either
+A) don't have or find the anydvd.chk file 
+B) don't know how to enable view all files including hidden
+
+if you are B) and have windows 7 this is how to enable it:
+http://www.bleepingcomputer.com/tutorials/tutorial151.html
+
+Now, if you are A) and you can't find it this should do it. I noticed being a guy that rushes to get programs like this installed I dont' read the directions clear enough. If you notice what fredpc wrote for locating the file its in PROGRAM DATA. I know that the first million times i kept doing it like an idiot I would go C:Program Files/ and then into the anydvd folder but  you won't find it in there. 
+
+First enable it so that you can see all hidden files and folders (using the link above if you don't know how) then go back to c: and there should be a folder called Program Data. from there go to the anydvd folder like you'd normally do and you SHOULD see the anydvd.chk. 
+
+Now go ahead and rename it anydvd.bak and load anydvd again and it should work fine. 
+
+Let me know if this helps"

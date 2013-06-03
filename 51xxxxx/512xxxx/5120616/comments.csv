@@ -1,0 +1,41 @@
+User Type,Username,Date,Text
+,ucnthng,2009-10-12T18:01Z,any questions yet
+,scottsrake,2009-10-13T03:19Z,"my 3gs 3.1.2 gets stuck on the ""entering recovery"" part everytime and i ahve tried lik 6 times and have ended uo restoring my iphone.
+
+im on vista and i changed it to compatibility mode and ran it as an administartor. 
+?"
+,wilsonb,2009-10-13T04:57Z,"Well, this does work... 
+I used Windows 7 - as Admin
+Iphone 3Gs 3.2.1
+
+After it installs an unknown ""APP"" (I thought it was risky to..)
+The App has options  to install Cydia, Ice, or Rocks
+
+
+**** BUT ****
+When trying to install apps via ICE for example, it says 
+setuid: Operation not permitted
+setgid: Operation not permitted
+dpkg: requested operation requires superuser privilege.
+
+
+Apparently, the app doesn't give you root access to write or something.. 
+Can someone clarify..?"
+,ucnthng,2009-10-13T14:49Z,you probally shouldn't even install ice for some reason every time I have read anything they say not to install ice with cidia. that happened to me last night also but I tried a few more times and it worked as far as the hangup 
+,scouseruk1210,2009-10-14T00:32Z,"this works 100%, i unlocked my iphone 3gs 3.1 in about a minute, thanks a million :)"
+,scottsrake,2009-10-14T23:03Z,i just got it to work on 3gs 3.1.2....swithced pc's to a XP instead of vista and worked flawlessly!!
+,zugzug,2009-10-21T21:31Z,"Here is how I got it to work on both iPhone 3G & 3GS with iTunes 9 on Windows 7 Ultimate 64 bit and Vista Ultimate 64 bit.
+
+1. Make sure you iPhone is patched to 3.1.2 and you have a full backup done before you do this.
+2. Exit iTunes
+3. Connect your iPhone via USB, make sure iTunes does not start!
+4. Move blackra1n.exe to your C:\ drive's root i.e. C:\
+5. Check Task Manager for any iTunes processes running and kill them. For me these included iTunesHelper.exe, AppleMobileDeviceService.exe and iPodService.exe
+6. Run BlackRa1n.exe as Administrator (right click, ""Run as Administrator"")
+7. Click ""make it ra1n""
+8. Hold down home and power button, as soon as you see the apple logo release the power button, continue to hold the home button.
+9. Release home button when you see the blackra1n/geohot's picture.
+10. Wait for it to complete. Your iPhone will need to be restarted one last time. 
+
+NOTE: You might have to repeat #8 a few times to get it to work."
+,saftool,2009-10-28T15:52Z,I have 3gs with 3.0 on it jailbroken. DO I just upgrade to 3.1.2 and use this program or do i need to do something else to prepare? 

@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+////////  _ |_  _  / /_  _  _  //////////////////
+//////// (_||_)(_|/ / _||_ | | ////////////////////
+
+Checking for updates to GameNameLookup.csv and abgx360.dat...
+    Server file GameNameLookup.csv no newer than local file - not retrieving
+    Server file abgx360.dat no newer than local file - not retrieving
+
+/home/admin/Desktop/Nba2k10/NBA 2k10.dvd is valid
+
+Checking Game
+    ISO: "/home/admin/Desktop/Nba2k10/NBA 2k10.ISO"
+    Size: 7838695424 bytes (SplitVid 3rd wave)
+    Files in ISO: 7, Folders in ISO: 0
+    Total bytes used: 6556786688 (89.84%)
+Game appears to have random padding
+
+Checking default.xex
+    Original PE Filename:  nba_clean_opt.target.xex
+    Original PE Timestamp: 2009/08/31 01:52:19
+    Game Name:             NBA 2K10
+    Developer:             Visual Concepts Entertainment
+    Publisher:             Take Two Interactive
+    Genre:                 Sports
+    Achievements:          50 Achievements totaling 1000 Gamerscore
+    XEX CRC = 32813D57
+    XEX Media ID: F3907B0A12EBA89BE5A8F50D-418492FB
+
+Region Code: 0xFFFFFFFF
+    Region Free!
+
+Checking SS
+    Timestamp of Authoring: 2009/08/31 00:00:00
+    Timestamp of Mastering: 2009/09/05 09:51:45
+    SS CRC = 4A35CFE0 (RawSS = D3272FDA)
+    SS Media ID: F3907B0A12EBA89BE5A8F50D-418492FB (matches game)
+SS looks valid
+
+Checking DMI
+    Timestamp of Authoring: 2009/08/31 00:00:00 (matches SS)
+    DMI CRC = 56E9886C
+    DMI Media ID: F3907B0A12EBA89BE5A8F50D-418492FB (matches game)
+DMI looks valid
+
+Checking PFI
+    PFI CRC = 2A4CCBD3
+PFI matches known data (3rd wave - requires iXtreme v1.51 or later)
+
+Video partition found
+    Video CRC = 0E58FB9D (V0 = CF942E7B, V1 = 4809B37A)
+Video partition matches known data (3rd wave - requires iXtreme v1.51 or later)
+
+Stealth check passed!
+
+Starting Verification
+    Looking for 4A35CFE032813D57.ini in the online verified database
+    There is no verified rip of this Xex/SS combination in the online database
+Failed to find a verified ini file for this Xex/SS combination
+Verification failed
+
+Set AutoFix Threshold to Level 3 if you want to try and find a verified SS and
+Stealth files that match the Xex, and automatically patch them if found.

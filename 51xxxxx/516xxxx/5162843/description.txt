@@ -1,0 +1,26 @@
+New features and a new look!  Fraps is now compatible with Windows 7 and the latest DirectX 11 games.
+
+Ventrilo & TeamSpeak users have long wanted a way to record their microphone and speakers at the same time.  For Windows 7 and Vista we've added realtime sound mixing to our video recording so you can now capture both sides of the conversation!
+
+NVIDIA have recently included stereoscopic 3D support directly into their drivers.  If you play your DirectX9 (D3D9) game with 3D Vision enabled you can use Fraps to record the game in full 3D too!  You'll get a side-by-side stereo AVI recording that you can drop straight in to a stereoscopic 3D player!
+
+Finally, we are aware that more and more people are putting Fraps to professional use.  We've added a new option to force lossless RGB compression to ensure that you always have the highest quality video output to work with.
+
+We hope you enjoy Fraps 3!
+
+
+ 
+
+Changelog
+
+3.0.1 - 8th Nov 2009
+- Added minimize to systray option for Win7 users
+- Fixed video capture frame rate defaulting to 30 fps when Fraps loads
+
+3.0.0 - 5th Nov 2009
+- DirectX 11 support
+- Compatible with Windows 7 final (RTM) and RC1 versions
+- Stereoscopic 3D Vision video capture up to 1920x1200 for D3D9 games
+- Force lossless RGB option to always capture video in pure form
+- Ability to mix both game sound and external input such as microphone (Vista/Win7 only)
+

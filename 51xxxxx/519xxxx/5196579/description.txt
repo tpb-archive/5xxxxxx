@@ -1,0 +1,78 @@
+**** NOTE: Only change from 1.2 are a new VCTS Launcher ****
+(that does not need NET.framework = no slow 1st start and runs faster)
+
+
+           -= Ventrilo Clients TS v1.3 =-
+
+ A Ventrilo & TeamSpeak package Modded and Compiled by:
+     
+		       Merrik
+ 	        zedpentium@hotmail.com
+
+            Launcher Programming and Design:
+
+                  palmtrae & Merrik
+
+ ________________________________________________________________________________________________
+
+ Benefits:
+
+ - With our "Ventrilo Clients TS" you have separate saved settings for each
+   ventrilo version.
+   So the problem with server passwords that are lost when u switch between the
+   versions, does not happen.
+   And for example:
+   Have different version at different windows position
+   Different keybindings etc etc.
+ 
+ - You can run all ventrilo versions at the same time.
+
+ - One simple installer/uninstaller for all 4 clients
+
+ - Launcher menu for users who prefer that
+
+
+
+ -- Changes / Updates --
+
+ 1.3
+
+ * 4th Release
+ - New VCTS Launcher. Rebuild from scratch. The "old" needed Net.framework, 1st
+   start always very slow. (as all .NET applications are)
+   We found it quite irritating even from the start.
+   So merrik wrote the new launcher in Visual Basic 6 instead. (borrowed
+   palmtrae's icons and some of his smart code)
+
+
+ 1.2 (is now named Ventrilo Clients TS)
+
+ * 3rd Release
+ - Added Teamspeak2 2.0.66.7 Client
+ - Added an optional launcher for those that prefer that (just drag launcher
+   shortcut to where you like it)
+ - Name change (we know, but now we stick with this name)
+
+
+ 1.1 (was named Ventrilo Clients X3)
+
+ * 2nd Release
+ - Added a modded Ventrilo Client 3.0.1 so it also has unique save files and
+   registry entries
+ - Combined Ventrilo 2.1.4 , 2.3.0 and now 3.0.1 into same folder
+ - Name change
+ - Added Uninstaller
+
+
+ 1.0 (Was named VentriloDual)
+
+ * 1st Release
+ - Modded both ventrilo clients so they have unique save files and registry entries
+ - Combined Ventrilo 2.1.4 & 2.3.0 into same folder
+ - Made an Installer
+
+ __________________________________________________________________________________________________
+
+ 
+
+ Enjoy!

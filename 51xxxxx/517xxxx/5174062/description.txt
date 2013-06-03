@@ -1,0 +1,35 @@
+atom hack description translated from russian
+
+from the TeaTeam tea blog site:
+
+Kernel mach_kernel 10.2.0 for netbooks based on Intel Atom.
+
+Everyone knows what happened update 10.6.2. As well all know that Intel Atom is not supported by the new kernel. Well, let's wait when http://opensource.apple.com will source xnu. While there is no source, I made a patch for mach_kernel 10.2.0. This "dirty bithack", so claims are not accepted. The patch is designed exclusively for Atom-based netbook!
+
+I do not update the working system to version 10.6.2, all the field tests carried out on what was at hand, namely, the unfolded stick to Mac OS X Snow Leopard Server. The installer is loaded with a patched kernel. 
+If someone uses the kernel and updated from previous versions of Mac OS, test the given kernel and otpishites in the comments, I'll be very grateful. 
+
+Yes, patches are only 32-bit piece.
+
+Shows atom as Core 2 Solo.
+
+teateam blogspot com
+
+also see macrumors nov 20 9:19 EST post titled "Workaround Restores Mac OS X 10.6.2 Compatibility With Intel Atom Processors"
+ 
+http://bayimg.com/faEkOAacp
+ 
+http://bayimg.com/fAekPAACP
+
+
+INSTALL BY:
+1. Download zip to Desktop
+2. Unzip by double click
+3. Open Terminal.app
+4. sudo -s
+5. Enter your root password
+6. cd /
+7. mv mach_kernel mach_kernel_1062
+8. cp ~/Desktop/mach_kernel /
+9. chown 0:0 mach_kernel
+10. reboot

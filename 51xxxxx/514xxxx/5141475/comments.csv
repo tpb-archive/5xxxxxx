@@ -1,0 +1,170 @@
+User Type,Username,Date,Text
+,sathanas6,2009-10-31T08:56Z,"REMOVED - All language support other than Western Europe and US. I do not know if Spanish is included, but it can be added later using the MUI pack found at THIS PAGE
+
+
+http://www.microsoft.com/downloads/details.aspx?FamilyID=0db2e8f9-79c4-4625-a07a-0cc1b341be7c&displaylang=es"
+,rkp1234,2009-10-31T16:35Z,"I don't know the viability but still want to try with your link, hopefully it will not break the speed of my Acer Laptop"
+,airdale,2009-10-31T20:28Z,This looks great! Never seen one of these! Thank You very much!! Would come in very handy! Thanks for your effort!
+,sathanas6,2009-11-01T06:33Z,"rkp1234, let us know how it turns out please. Airdale, you are very welcome. It was my pleasure, as I install XP several times a week, and this saves me about 2 hours every single install. This was my second release. I try to release one every 3-4 months. In the next release I will include Windows Updates up to that point, up to date versions of the apps that auto-install and I will likely remove unknown device identifier since it doesn't really do much and seems not to work right sometimes. Look for this sometime in November or December."
+,grappler,2009-11-01T07:31Z,"Really great upload and is HIGHLY appreciated :)
+
+Would you upload a XP HOME Version too?
+
+This is a time saver,but as you know most computers they come with HOME Edition and if you want to keep it as original as possible for your customers,then you at least need to install them the same version.
+
+A Media Center Edition would be Great too.
+
+once again THANK YOU for your great job.
+
+Downloading and seeding for 1 week after finish."
+,sathanas6,2009-11-01T07:55Z,"Sorry grap, I don't plan to make any other versions. The process is time consuming and I have what I need. You can make your own by using an untouched, unbranded OEM install disk, Nlite, RyanVM Integrator, Driver Pack Finisher, Mr. Smartepants MultiOEM addon, WMP11 Slipstreamer, Windows Updates and addon packs for Nlite and RyanVM Integrator. These are all the tools I used to create this ISO. There are tutorials online and I would be happy to tell you the process if you would like to make one. I only ask that you share it here when you are finished. Good luck!"
+,belzeburg,2009-11-01T22:25Z,Why remove keyboard support for other countries ? don`t wanna share ?
+,sathanas6,2009-11-01T22:39Z,"belzeburg, I made this just for my own use and wanted to keep it as small as possible. I decided to share, but I don't have time to make different versions to suit everyone. Perhaps in the next version I will include multiple languages and keyboards since these don't seem to require much disk space. When I started this project I had no plans of sharing, so I just cut everything I wouldn't use."
+,grappler,2009-11-02T00:23Z,"Thanks sathanas6, I appreciate your help :)
+and I'll be glad to share it once I finish it.
+
+I'll do a Home and a Media Center and get them here once finished, see if you can contact me thru email or MSN messenger, mine is   locorrecto@gmail.com
+Thanks"
+,wallberg73,2009-11-04T14:02Z,"is there swedish avaible on this one, or anyone have a link so that i can change the language myself after installation?"
+,sathanas6,2009-11-05T03:11Z,Wallberg73 try here> http://download.microsoft.com/download/6/3/4/634DF527-117E-491C-8B8E-930B1B437690/WindowsXP-KB841625-x86MUI-SVE.exe
+,puntmeister,2009-11-05T09:36Z,"I installed this on my Lenovo - generally works ok.
+
+A couple odd glitches though:
+
+1)  Upon loading, sometimes I get ""Executing:  C://Windows/system32/notifywl.dll"" (might be off a little) - when I get this, it won't continue to load, have to cut power, reboot.
+
+2)  When #1 doesn't occur, I get ""username and password not accurate"" (something like that), I then have to hit ""OK"", then continues to load ok.
+
+3)  When shutting down - Start - Turn off - Turn off, it usually won't turn off on the first time, have to run through the process 2 or 3 times before computer will shut down."
+,sathanas6,2009-11-05T09:52Z,"Puntmeister, did you burn at 4X? I use this disk 4-5X a week and never seen what you are describing. You should reburn the disk at 4X and reinstall. When it is done hit cntrl r and type ""oobe\msoobe \a"" and hit enter. If it doesn't tell you Windows is already activated then it didn't activate and you need to use wpa kill and then make genuine forever. If it comes to that, ask me and I will upload those cracks."
+,sathanas6,2009-11-05T21:16Z,"Oops. That should have been: When it is done hit Windows key + r and type ""oobe\msoobe \a"" and hit enter."
+,eltrkbrd,2009-11-06T22:05Z,"Awesome!  Sathanas6, can you please email me some of the tutorial links for how I can get this MULTIOEM working with just a clean install of Windows XP Pro on matching legitimate OEM BIOSes (such as Dell, IBM, etc)?
+
+I would like to modify it without all the pre-configured apps/tweaks that you customized it with.
+
+Awesome work!
+
+My email is eltrkbrd-at-gmail-dot-com
+
+~TIA"
+,sathanas6,2009-11-07T05:56Z,"Thanks, eltrkbrd. Sent."
+,nathanmillsy,2009-11-08T20:21Z,will this boot from bios if i burn straight to disc. NooB question sorry >.
+,sathanas6,2009-11-09T04:05Z,"NathanMillsy, yes. Just make sure to burn at 4X. Also, be sure to set CDROM as the highest boot priority in BIOS."
+,jrizzle,2009-11-09T10:04Z,"I get an error message popping up: 
+
+""INF file G:\i386\TXTSETUP.SIF contains a syntax error.""
+
+Setup cancels after that. Is that a glitch in how I burnt it (I used ImgBurn at 4X), or possibly something that just didn't complete during the download?"
+,sathanas6,2009-11-12T21:14Z,test
+,sathanas6,2009-11-12T21:21Z,"Puntmeister, the wlnotify.dll is just Windows logon notification related to logging on and off. Windows default setting do not display this data. I have just configured it to show you what is happening. Do a google search for wlnotify.dll for more on this."
+,sathanas6,2009-11-12T21:22Z,"jrizzle, never seen that before. Either the disk was bad or the iso is corrupted. Try to burn again, if it still happens, redownload."
+,aintom,2009-11-13T09:07Z,"error file not found!
+""C:\windows\system32\presetup.cmd file not found
+C:\windows\system32\setuporg.exe file not found
+
+cause
+
+Presetup.cmd not in i386 uxpcd
+setuporg.exe no in i386 uxpcd
+
+check txtsetup.sif in i386 folder"""
+,aintom,2009-11-13T09:09Z,i started this install from usb flash
+,sathanas6,2009-11-13T10:21Z,"aintom, I don't know what to tell you. I don't have much experience installing XP from a flash drive. I know you can't just copy the files onto the flash drive, that doesn't work. You need to use a special app to make an XP bootable flash drive. Did you use such an app or just copy the files over?"
+,StrangeBones,2009-11-15T03:15Z,"Thanks again for this.  Downloaded it and used it before, but the download and the drive it was installed onto went belly-up! 
+Preeshy Ate It!!"
+,sathanas6,2009-11-15T07:19Z,"My pleasure. Want to save yourself from having to reinstall on a given PC when the drive dies or you get virused up? Download Acronis True Image Home 11 with the keygen. Works great, been using it for 2 years. From a fresh install with everything set just the way you like it, write a backup to DVDs with 1 click restore and True Image Home 11 full on disk enabled. Awesome!"
+,porgand,2009-11-15T19:49Z,"I'd love to cook my own custom multi-oem install cd but I'm a bit put off by reading that it's a 4-month project. sathanas, could you post the recipe here? Then we could cook untouched versions of Pro and Home, as the demand is there (and there too :D)"
+,sathanas6,2009-11-16T04:29Z,"porgand, it was only 4 months due to my inexperience and the fact that there were so many variables. If you make an untouched version it won't be as bad. Also, I will gladly help you. Email me at sathanas65+moem@gmail.com and lay out the project for me in specifics. Tell me exactly what you want as an end result, IE version, WMP version, updates, apps, Windows version, tweaks, everything. Then I will certainly tell you exactly what to do. I only ask that you upload it when complete and allow me to help seed it."
+,josepatino5,2009-11-21T06:14Z,How do i shrink this to make it fit a regular CD?
+,josepatino5,2009-11-21T06:15Z,Or is the another torrent that fits a CD that is just as good?
+,sathanas6,2009-11-22T05:24Z,"Jose, if you don't require the driver packs (automatic driver installation) you could edit this disk down to fit on a CDR by opening the ISO in Daemon Tools Lite and manually removing the driver packs, then rewriting the bootable ISO. Then it should fit on a CDR. Or you can use USB Multiboot utility to make a bootable USB key with these files. Of course, the easiest way to solve your problem is just to get a DVDRW drive. They come cheap these days. "
+,arcidio,2009-11-26T23:00Z,"hey sathanas, first thanks for the upload, im sure a lot of people made good use of it so far.
+i have an acer laptop on wich i have vista home on, but its in dutch and i need uk or pt... since im not that familiar with messing with language packs n config stuff i thought on installing a second OS (yours, wich im allready downloading) you think its ok to do it? wont it erase the dutch one and its contents? (i need it as well). thanks a bunch."
+,sathanas6,2009-11-27T07:17Z,"Arcidio, you will need to partition your laptops hard drive with a separate partition for this new install. You can use Vista Disk Management to shrink your current partition, allowing you to create a new one. Right click on Computer, select manage, double click storage, double click disk management. Shrink your system drive (assuming your drive isn't already divided) and then install XP to the new partition by booting from the DVD. Alternately, you can use a virtual machine app like VMware to install and run XP from within Vista. Good luck!"
+,sathanas6,2009-11-28T05:03Z,I have begun working on version 3.0! I will post here when it is finished!
+,sathanas6,2009-11-28T08:07Z,"There will be substantial changes in the new version to come.
+
+WHAT?S NEW?????
+Replaced HashTab with Code65536's HashCheck Shell Extension version 2.1.11.1
+Updated Unlocker to version 1.8.8
+Updated UPX to version 3.04w
+Updated Firefox to version 3.5.4
+Updated Jave RE to version 6 update 17
+Updated Quicktime Alternative Lite to version 3.1
+Added Teracopy version 2.01
+Removed Unknown Device Identifier 6.01
+Removed uTorrent 1.8.2
+Replaced all keyboard and language support due to popular demand
+
+TO NAME A FEW....."
+,sathanas6,2009-11-28T09:39Z,"I will be releasing 2 versions of the 3.0, 1 DVD ISO with driver packs and 1 CDROM ISO without driver packs. The build has gone quite smoothly and I am nearly finished. Here are the final changes.
+
+WHAT?S NEW?????
+Replaced HashTab with Code65536's HashCheck Shell Extension version 2.1.11.1
+Updated Unlocker to version 1.8.8
+Updated UPX to version 3.04w
+Updated Firefox to version 3.5.4
+Updated Jave RE to version 6 update 17
+Updated Quicktime Alternative Lite to version 3.1
+Added Teracopy version 2.01
+Removed Unknown Device Identifier 6.01
+Removed uTorrent 1.8.2
+Replaced all keyboard and language support due to popular demand
+Removed Tablet PC
+Set Eastern Time zone as default
+Set default screen resolusion to 1024x768
+Enabled Unsigned Theme Support
+Disabled Beep on Errors (to stop the annoyance when drivers are auto installing)
+Enabled remote desktop
+All Start Menu Folders set to display as menu
+Max number of Start Menu Programs set to 30
+Smart Card Service disabled"
+,la_cross37,2009-11-28T15:09Z,how can I get internet explorer on my virtual pc??? all I have right now is the recycle bin! I have no ide how to get ie because I don't have a browser installed!
+,sathanas6,2009-11-28T20:49Z,I am now in the testing phase of the 3.0. The CD version will be without muliti OEM preactivation and built in driver packs due to size constraints. It will be bundled with a stand alone driver pack disk with activation crack. The DVD version will also include the activation crack for those who need it.
+,sathanas6,2009-11-29T01:43Z,"la_cross37, I am not sure why you wouldn't have a browser, but just download Firefox 3.5.5 and get the IEtab addon for it."
+,sathanas6,2009-11-29T04:27Z,The new version 3.0 CDROM pack is now uploaded. It includes a stand alone driver pack disk with activation and WGA cracks and clear instructions. Download it here---->  http://thepiratebay.org/torrent/5186011/Windows_XP_Pro_SP3_Custom_Boot_CDROM_ISO_version_3.0
+,sathanas6,2009-11-29T05:16Z,Version 3.0 of this DVD is now available here------> http://thepiratebay.org/torrent/5186051
+,Didrik,2009-11-29T08:34Z,"How can i use my own Xp key in this installation , my brand o computer are in the list 
+Can i tell this installation to be able to put in my own "
+,Didrik,2009-11-29T08:35Z,"Ni ce work , work perfekt "
+,sathanas6,2009-11-29T10:00Z,"Didrik, if your system is one of the listed OEMs, you will not need to use your own key. "
+,Didrik,2009-11-29T11:50Z,"Ok 
+
+But if i like to use my comppany lic ,
+
+If it possible ? And if How ?"
+,sathanas6,2009-11-29T18:10Z,"Didrik, of course it is possible, but if you have an OEM system and understand the concept of an SLP key you wouldn't bother. Every Dell PC out there that shipped from Dell and still has the original Dell installed Windows XP have the exact same key. They all have different keys on the certificate of authenticity, but are activated using the same Dell SLP key as everyone else. The other OEMs work the same way. The keys are genuine and used by the manufacturers themselves. So of what benefit is using a different key? These are not hacked keys. These are not volume license keys. These are SLP keys for OEM. Look it up on Google. Trying to use a different key would be a waste of time for nothing."
+,Podgkin,2009-11-29T21:56Z,"Thanks, sathanas6!
+Bloody life-saver...(except for the Driver beeps now fixed on the new version. LOL)
+I installed on a crashed Fujitsu Lifebook (4010?) and everything seemed OK.
+There was a problem with authentication, got the old 30 days warning, but the XP Pro key on the base was accepted when it said...
+Wondered why? I assumed it wouuld be an OEM setup.
+Thanks again."
+,sathanas6,2009-11-29T22:31Z,"Podgkin, I hadn't tested on Fujitsu yet. I guess I'll chalk that up as a failure. Thanks for the feedback."
+,Podgkin,2009-12-04T15:39Z,"It's no 'failure'! LOL
+Just thought I'd let you know it asked for the notify thingy...this time. And as the machine had a key on it, it didn't matter, mate.
+By the way, is there an MCE version anywhere?
+Nice one."
+,Podgkin,2009-12-04T15:46Z,"PS And another big thanks to all those seeders out there, it flew down! ;o)"
+,sathanas6,2009-12-07T04:06Z,I may make an MCE version in the future. Glad you like it.
+,fotsopp,2010-02-15T18:01Z,how can I get this to support a Norwegian keyboard?
+,sathanas6,2010-03-04T13:23Z,"This version does not have support for those keyboards, but version 3.0 has been out for months and does support it. Version 4.0 will be out soon."
+,sathanas6,2010-03-10T06:34Z,The XPAwesome 4.0 DVD.ISO with multi-OEM preactivation and integrated driverpack installation has been completed and tested. I will make the torrent and upload tomorrow. It is gooood.
+,goodtime212,2010-03-19T10:54Z,"I've used this on a Dell, Toshiba, Advent and a compaq. F***ing Marvellous!!! Driver install can drive you mad so just leave it, go have a coffe, and come back to find it all done. It's getting well used..updating windows effortlessly inc WGA !!! Love it and ur my friend for life.!!"
+,sathanas6,2010-04-08T08:43Z,"Thanks for the feedback. FYI, this is version 2, I just released version 5.0beta3 2 days ago, current to April 6th. All updates, dotnet, updated apps. Click on my username at the top of this page and you will see it is my most recent post."
+,marflo,2010-05-20T02:10Z,"To: Sathanas6
+
+Installed xpawsome 5.0; it runs ok on my emachines laptop. I installed on a new hdd before  i did a win 7 ultimate  installation then because it was not genuine I installed your xp.
+I got a partition named C: system reserved.
+I don't know if I can delete that 100 mb partition.
+Also I cannot find the nero installed, is some nero on that c partition.
+Please advise."
+,marflo,2010-06-03T03:43Z,"disregard previous, i got all under control. thank's"
+,AJ-2000,2010-06-20T15:42Z,"Hi santhanas6,
+I will like to try out your ""XPAwseome 6.0 (June 2010)"".
+Or, was that a different sathanas6 torrent?????
+Can you help me with that???
+Peace,"
+,sathanas6,2010-07-02T07:21Z,t
+,sathanas6,2010-07-02T07:22Z,version 6.0 is available at Demonoid. I can't post the url for some reason.
+,UA-07,2012-03-24T00:15Z,sathanas6 - you have remove keyboard support for all languages except english so how can i get keyboard support for arabic and thnks for this great torrent :D

@@ -1,0 +1,37 @@
+#################################################################
+## Chromium OS USB Drive Installation Instructions - By Hexxeh ##
+#################################################################
+
+This image can be copied to a USB drive from both Windows and Linux.
+Instructions are as follows. You will need a 4GB pendrive or memory card
+to use this. Disk requirements may be reduced in future versions.
+
+Linux:
+Extract chromiumos.img and run the following command in the same
+directory as the file, where X is the device name of your USB drive.
+
+sudo dd if=chromiumos.img of=/dev/X bs=4m
+
+Once the command finishes, you can then boot from the USB drive.
+
+Windows:
+Download Image Writer for Windowsand extract the
+program. Launch the program, and select the image (chromiumos.img) and
+your USB drive letter from the drop down box. Click "Write".
+The install image will then be copied to the drive. Once it's done,
+close the program and you can then boot from the USB drive.
+
+Credits:
+grawity for lending me a box with a fast connection to get this image
+onto the net.
+Facepunch.com
+Google for creating the OS (even if it isn't fantastic right now)
+
+Important Info:
+Default username is facepunch, default shared password is facepunch.
+
+If you like this, tweet me @Hexxeh and say hi. :)
+
+UPDATED VERSION AVAILABLE AT HTTP://CARBON.HEXXEH.NET/CHROMIUMOS
+
+THIS VERSION IS NOW OBSOLETE.

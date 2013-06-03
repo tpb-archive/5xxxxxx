@@ -1,0 +1,24 @@
+Mac OS X HP Mini System restore
+
+OS: Mac OS X 10.5.8
+Make: HP
+Model: Mini 1000/110
+User: administrator
+Password: password
+MD5: ac670e700b823c49e6ab17c3f8cf07bf 
+
+This is a full system image of a completed HP Mini 1000/110 install of Mac OS X. All major patches/tweaks have been made to make an easy installation.
+
+Here is a link to what I wrote on the forum: http://myhpmini.com/forum/viewtopic.php?f=17&t=2429
+
+If you have anything to add feel free to post here or on the HP Mini forums. Thanks!
+
+How-To:
+- Download my DMG & UInstaller
+- Restore 16GB USB flash with DMG
+- Use UInstaller to enable flash drive boot (select drive and EFI only)
+- Copy UInstaller to 16GB USB drive
+- Boot HP Mini 1000/110 with USB drive via F9
+- Using Disk Utility or CCC restore DMG to internal hard drive
+- Open Uninstaller and unable internal drive
+- Repair permissions

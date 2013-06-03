@@ -1,0 +1,15 @@
+ http://permalink.paonet.org/key/ubuntu-virtualbox-Java_Card_Dev
+
+Just lauch virtual box ( http://www.virtualbox.org ), create a new machine (Linux > Ubuntu 64), set RAM to 1GB or more and mark "Use existing hard disk" (add the Ubuntu64.vdi) and Run
+
+Linux user: javacard
+password: 1234
+
+
+Contents:
+
+Eclipse Galileu - project with ant tasks to compile, converter (export .cap) and upload .cap to real smart card
+Java Card Development Kit
+GPShell
+CCID (reader driver) - tested with SCR 335 (only), probably you have to configure your reader - do it and type:
+pcsc_scan

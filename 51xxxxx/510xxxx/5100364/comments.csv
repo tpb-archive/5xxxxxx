@@ -1,0 +1,71 @@
+User Type,Username,Date,Text
+,peter07,2009-09-27T06:10Z,Couldnt get this one to work for me 
+,blizzy284,2009-09-27T06:22Z,what? part 1 or 2?
+,groizer_x,2009-12-02T01:24Z,"sorry my poor english ...
+
+on windows xp: 
+
+1 - unzip 'Quake 1 + 2.rar' in c: (will create the folders c:\quake 1 and c:\quake 2) 
+
+2 - rename the folders quake 1 and quake 2 for quake1 and quake2 without spaces (ex: c:\quake1 c:\quake2) 
+
+3 - create 1 folder named quake1 within games folder (ex: c:\games\quake1) 
+
+4 - download dosbox for windows (I prefer version 0.72: http://sourceforge.net/projects/dosbox/files/dosbox/) 
+
+5 - install dosbox 
+
+6 - run dosbox 
+
+7 - mount a virtual drive simulating a hd which is where the files will be installed (ex: mount c c:\games\quake1) 
+
+8 - mount a virtual drive to simulate the cd drive where are the installation files (ex: mount d c:\quake1 -t cdrom) 
+
+9 - enter d: (ex: d:) 
+
+10 - run the installer (ex: install.exe or simply install) 
+
+11 - the default installation path is c:\quake, remove the word: quake and put only c:\ (ex: c:\) 
+
+12 - there are bugs in the installer: 'we've encountered an error as follows: ...................' . always press yes when you see this error message (ex: y) 
+
+13 - after all this process click ok and that will run quake! 
+
+- Every time you want to play quake -- 
+
+1 - run dosbox 
+
+2 - Mount a virtual drive simulating a hd which are installed quake files (ex: mount c c:\games\quake1) 
+
+3 - enter c: (ex: c:) 
+
+4 - run quake (ex: quake.exe or simply quake) 
+
+- To enable the sound -- 
+
+1 - close the dosbox 
+
+2 - go to the location where you installed the dosbox (ex: c:\Program Files\DOSBox-0.72) 
+
+3 - open the dosbox.conf file using notepad  
+
+4 - search for the parameter: gus=true and change to gus=false 
+
+5 - run dosbox and run quake 
+
+- To slow the game --
+
+1 - close the dosbox
+
+2 - go to the location where you installed the dosbox (ex: c:\Program Files\DOSBox-0.72)
+
+3 - open the dosbox.conf file using notepad 
+
+4 - search for the parameter: cycles=auto and change to cycles=100000
+
+5 - run dosbox and run quake
+
+anyone have any tips on how to improve the graphic?"
+,cuallito,2009-12-17T09:27Z,Does this version include the music?
+,DrHendricks,2009-12-21T04:15Z,Seed Plzz
+,phr3akin,2010-01-05T03:34Z,quake II is the crappy PSX version with emulator

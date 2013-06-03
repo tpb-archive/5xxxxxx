@@ -1,0 +1,31 @@
+User Type,Username,Date,Text
+[T],towerelect,2009-11-18T15:58Z,"FROM SLCK Summer 2005
+
+
+Azureus, a leading java based BitTorrent client, has introduced DHT (Distributed Hash Table) to its client. DHT is a networking protocol that enhances the scalability and efficiency of decentralized networks by creating a virtual index rather than broadcasting search queries. Decentralized networks that utilized DHT technology are able to search and locate files significantly faster than networks that do not use this technology.
+
+You may think to yourself, ""So what, Azureus has incorporated DHT, many decentralized networks employ this technology.""
+
+The significance of adding this layer to Azureus is that it significantly increases the efficiency of file distribution. With the new version of Azureus, any client can choose to become a tracker or not. This is where DHT comes into play.
+
+With DHT, each node is responsible for indexing a certain percentage of hash files on the network. For example, say there are 50 Azureus users all participating on the DHT portion of the network. If 8 decide to become nodes, each one will work together to become a virtual index (so-called ""tracker-less."")
+
+This allows a client to continue downloading a file even if the web-based tracker goes down. In addition, even if a tracker happens to go down, the swarms will continue to be maintained - even finding alternative file sources. Olivier from Azureus explains this new DHT implementation has a familiar origin.
+
+""The technology behind the DHT (Distributed Hash Table = Distributed
+Database) is Kademlia, (the ""Kad"" network in eMule is another Kademlia distributed hash table, Kad is heavily modified from the original specifications for performance reasons). Azureus implementation follows quite a lot the original Kademlia specifications so far.""
+
+Keep in mind this is not a ""decentralized BitTorrent"" network. The BitTorrent network and DHT network operate independently. DHT is a layer added on top of the BitTorrent network to assist in Azureus? performance. BitTorrent is a distinct networking protocol, of which is specified by creator Bram Cohen. Anything existing outside of those specifications is not BitTorrent. Some articles have attempted to label the new Azureus as a ?decentralized BitTorrent?, possibly confusing some with a dubious client named ?eXeem.? Olivier makes it quite clear these two clients are not even in the same Universe.
+
+?It has nothing to do with eXeem, and in terms of performance, searching the DHT is a matter of ms (milliseconds) when the content is available (ie, when it has results), and of seconds when it' s not. I don't know for sure how eXeem works, but from the test I did, it's not using a DHT.?"
+[T],towerelect,2009-11-19T20:01Z,"OK Gang, sorry about my slower than normal upload speed here.   This is due to the fact that I am uploading two DHT enabled torrents at the same time, in effect spliting my 140kB per second maximum upload bandwidth between them.   As soon as the first one to get seeders or reach more than 100% of the file out in the swarm I will stop seeding that and give my whole to the remaining torrent.
+
+It is not a good practise to seed more than one new torrent at a time as a rule unless you have a T1 connection and can upload the same bandwidth as your download (rare).   The fact that each of these torrents which are totally trackerless have 40 plus peers each taking from me is proof if proof were ever needed that DHT is the future and the good people at TPB have had the courage to ge there ahead of the rest of the lame sites who still (at there own risk) host trackers, most of which are totally overloaded.
+
+Please make sure your DHT settings and tracker setting are set up correctly in your client.  Seek help online or with a friend if you have any problems at all seeding once this download has finished.    Thank you.   Rigmar Radio"
+[T],towerelect,2009-11-19T21:37Z,IF YOU HAVE ANY questions about DHT or are having difficulty connecting to this swarm please leave a comment here and I will get back to you.   Note as of next week I will be off the net for good until March of 2010 as I am moving country.   Normal seeding service will be resumed then by which time the world will all be using trakerless DHT!  LONG LIVE THE PIRATE BAY and all who sail in her 
+[T],towerelect,2009-11-19T23:46Z,"Azureus/Vuze users PLEASE update your clients to version 4.3.0.1_B08 (The very latest)   For all peers in this swarm - Guide to DHT is enclosed.   This is not new technology, just needed someone like TPB to force everyone to use it!!!!!   Long live TBP.   Please make sure all your torrents in the future use DHT - read up about it here: http://torrentfreak.com/common-bittorrent-dht-myths-091024/"
+[T],towerelect,2009-11-27T19:37Z,"OK Gang I am off the net until 2010 so it is up to you all now to keep these alive until March next year.    Mininova is the latest tracking site to go down, so remember to get the magnet link at least one person in the swarm has to have DHT switched on and working.   THE EXTERNAL TRACKER IS DEAD.  STOP SEEDING THEM.   THEY ARE AS DEAD AS THE VHS VIDEO TAPE SO SEED USING YOUR BUILT IN DHT - THAT IS IT AND THAT IS THE FUTURE."
+[T],towerelect,2009-11-27T19:44Z,"i SEE SOMEONE IS ADDING PUBLIC TRACKERS TO THIS DHT ONLY SEED.  HELLO STOP DOING THAT.  SOONER RATHER THAN LATER ALL PUBLIC TRACKERS WILL BE LEGAL SEEDS ONLY AND THEN WHAT ARE YOU GOING TO DO EH???
+
+LEARN HOW TO SEED AND USE DHT.   THE PUBLIC TRACKER IS DEAD.  TPB trackers are never coming back.   Demonoid trackers are never coming back.  Mininova and Hexagon (Iso Hunt) trackers are dead.   Again for the hard of thinking  USE DHT ONLY SEEDS.   DO NOT ADD PUBLIC TRACKERS TO MY TORRENTS.   THANK YOU."

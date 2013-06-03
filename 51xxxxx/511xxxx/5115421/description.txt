@@ -1,0 +1,31 @@
+Ett litet script fÃ¶r att underlÃ¤tta det urlÃ¶jliga och tidsslÃ¶sande Farmville pÃ¥ Facebook.
+
+Det gÃ¶r att man inte behÃ¶ver toktrycka sÃ¥ mycket nÃ¤r man t.ex skÃ¶rdar.
+
+
+Fungerar under Ã¥tminstone Ubuntu 9.04. Har inte provat det pÃ¥ andra linuxdistar (men det bÃ¶r funka).
+TÃ¤nk pÃ¥ att scriptet mÃ¥ste gÃ¶ras kÃ¶rbart och att xautomation mÃ¥ste vara installerat.
+Packa upp farmvilleclick.sh frÃ¥n zipfilen ;)
+sudo chmod +x farmvilleclick.sh
+sudo apt-get install xautomation (om det inte fanns innan)
+
+
+Hur man anvÃ¤nder skriptet:
+
+RÃ¤kna antalet rutor (i detta exemplet) 1,3,6 och 1,2,4
+    1
+   2 3
+  4 5 6
+   7 8
+    9
+
+Skapa en tangentbordsgenvÃ¤g med kommandot "/home/NN/farmvilleclick.sh 3 3 .2"
+NN=ditt anvÃ¤ndarnamn pÃ¥ datorn
+FÃ¶rsta 3;an Ã¤r antalet rutor snett ner Ã¥t hÃ¶ger frÃ¥n ruta 1
+Andra 3;an Ã¤r antalet snett ner Ã¥t vÃ¤nster frÃ¥n ruta 1
+.2 Ã¤r (hastigheten) fÃ¶rdrÃ¶jningen i sekunder (.2=200ms) mellan musklickarna
+
+Zooma ut sÃ¥ lÃ¥ngt det gÃ¥r. HÃ¥ll muspekaren pÃ¥ ruta "1". Tryck knappkombinationen du skapade nyss. Se och njut.
+
+Du kan skapa olika knappkombinationer fÃ¶r olika stora fÃ¤lt.
+

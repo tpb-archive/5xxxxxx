@@ -1,0 +1,107 @@
+See here for how to root your Android: http://theandroidsite.com/2009/05/14/how-to-root-your-g1-and-install-android-15-cupcake/
+
+
+DO NOT RUN ANY OTHER APPS2SD APPLICATIONS ON THIS BUILD. YOU WILL BREAK YOUR SYSTEM. THEY ARE NOT NECESSARY BECAUSE THIS ROM WILL DO A2SD AUTOMATICALLY AND BETTER!
+
+*** DISCLAIMER ***
+While this build is heavily optimized, it is also capable of pushing your G1 much harder. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or the current economic crisis. Please do some research if you have any concerns about features included in this ROM before flashing it! YOU are choosing to make these modificiations, and if you point the finger at me for messing up your device, I will laugh at you.
+
+* UNIVERSAL! Runs on both Dream and Magic 32B
+* Now identifies itself as either T-Mobile G1 or myTouch (due to popular demand, and T-Mobiles lameness to support ADP devices)
+* Based on AOSP 1.5r3, a heap of Donut, various collected patches, and some help from JF-1.51-ADP
+* Enhanced ramdisk which uses optimal mount options and smart startup
+* Includes E2FSProgs for checking and converting Ext filesystems
+* Apps2SD is automatic! All you need is a second partition (ext).
+* Includes script to upgrade to ext3 (from recovery mode, see FAQ)
+* Supports ext2/ext3/ext4 for Apps2SD
+* Includes HTC Framework, various HTC applications, and HTC VK
+* Launcher with 5 screens and auto-orientation and compact drawer layout
+* Enhanced lock screen (Stericson)
+* Clean filesystem shutdown at poweroff/reboot, and fsck at boot (no FS corruption!)
+* Includes T-Mobile IM application, Amazon MP3 (with Stericson's hack), and updated Google Maps
+* Does not require "DangerSPL"
+* Highly optimized kernel with many extra modules
+* Includes a massive APN list
+* Maximum CPU scaling frequency set to 528MHz with latency tweaks
+* Various enhancements to the Settings app including extra partition space
+* Runs /system/sd/userinit.sh after A2SD setup and before starting the runtime for user scripts
+* Microsoft Exchange support (Work Email from myTouch)
+* Compcache 0.6 enabled by default (if no userinit is present)
+* Linux cgroups for better app prioritization
+* Power Widget and App Fuel Gauge from Donut
+* Custom boot screen by matt_stang
+* Phone app enhancements by cytown
+* OpenOBEX commandline tools ported by Erin Yueh - just need an app to run them!
+* Ability to add dialer and MMS shortcuts
+* PPTP/L2TP VPN and WPA Enterprise support from Donut
+* MMS enhancements from rgv151
+* FLAC support from Kruton (buy this man a beer)
+* LocationServices memory leak fixed (by itp)
+* Not vulnerable to the "one click root" exploit
+
+1. Do I have to wipe?
+You shouldn't have to wipe if coming from a JF ADP-based ROM, otherwise, probably. If weird things are happening, try wiping. You can also try the permission fixer script linked above. If you are coming from an HTC-based ROM like Hero or Sapphire, you are going to have to wipe.
+
+2. Will you include the HTC Dialer/HTC Mail?
+No, because I won't be shipping the full HTC-modified Android core (it's not open source), which these apps depend on. I do include the "Work Email" application which is the HTC Exchange client.
+
+3. Will this work on the Magic?
+It will work on Dream (G1) or Magic 32B (myTouch). I plan to support 32A devices soon.
+
+4. How do I set up apps-to-sd?
+You need to create a second partition on your SD card in the ext2/ext3/ext4 format. Search the forums if you don't know how to do this. Once created, the ROM will move your apps automatically and new apps will be installed to the SD by default.
+
+5. How do I install MyFaves?
+Look here: http://forum.xda-developers.com/showthread.php?t=542267
+
+6. Will you include feature X, Y, or Z?
+Maybe, ask me about it.
+
+7. How do I convert to Ext3?
+Reboot into recovery (home + power), drop to a console (Alt+x), and enter: "upgrade_fs". Reboot and you will be at ext3. This requires my recovery image listed above.
+
+8. Can I use Ext4?
+Yes, the kernel supports it (with delayed allocation fixes) and the required tools are there. You'll need to do the conversion manually, though.
+
+9. How do I enable the HTC_IME?
+Go into settings->Locale & text and disable "Android Keyboard" and enable "Touch Input".
+
+10. Can I tether with this?
+Yes. I recommend using Wifi Tether for Root Users
+
+11. I want to switch back to ext2.
+Reboot into recovery (my recovery image), drop to a console (Alt+X). Remove the journal with "tune2fs -O ^has_journal /dev/block/mmcblk0p2". You should then fsck with "e2fsck /dev/block/mmcblk0p2".
+
+12. Will you include feature XXX from Hero?
+No. Most of the HTC apps in Hero require the heavily modified closed-source Android core which I won't be including.
+
+13. My /system/sd is read only and/or didn't upgrade to ext3!
+Your filesystem is probably corrupt. Boot into Recovery 1.2+ and run a filesystem check from the menu. If it tells you to run it manually, drop to a console (alt+x) and run "e2fsck /dev/block/mmcblk0p2".
+
+14. Is ext3/ext4 safe for my SD card?
+Probably, unless your card is very old and does not support wear leveling. Use Google and decide for yourself.
+
+15. I have problems with force closes of paid apps and have to reinstall my them after a no-wipe upgrade!
+Run the "permission fixer" script. It is included in this build as well as Recovery 1.2+. Just execute "fix_permissions" from a terminal or the recovery console and reboot.
+
+16. Can I use your work in my own ROM?
+Of course, I am all about sharing! Just give credit where credit is due.
+
+17. It's taking forever to boot!
+The first boot will take longer than normal because dexopt needs to run. If you are nervous, connect USB and run "adb logcat" to watch the progress.
+
+18. My phone rebooted by itself!
+Possible kernel panic or oops. Please get me the output of "cat /proc/last_msg" when you reboot so it can be debugged.
+
+19. My camera is black and white only!
+You have settings left over from the old Android camera. Just go into the Camera, hit menu, settings, then "reset to defaults".
+
+20. My auto-rotate/accelerometer isn't working!
+Not really the fault of the ROM, but here's how to fix it: Go into recovery, drop to console, "mount /data", then "rm /data/misc/akmd* /data/misc/rild*" and reboot.
+
+21. What about swap space?
+As of 4.0, Compcache is activated by default unless a userinit.sh script is present. Search the forums for information on how to create a userinit.sh to activate swap.
+
+22. Will you include the Flash Player from Hero?
+No, because it's tightly coupled to the Hero Browser, which is tightly coupled to the Hero Framework. It's not easily portable at this point. Run Hero if you want it. Otherwise, we will have to wait for something more compatible. 
+http://www.theandroidsite.com

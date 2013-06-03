@@ -1,0 +1,20 @@
+patch 2_nov_2009 v1
+
+First
+Install Application from http://cdn.avid.com/MediaComposer/4.0.2/Mac/AvidMediaComposer_4.0.2.dmg
+
+Restart
+
+Overwrite this two patched files.
+
+Type the following into the terminal after cd-ing to the "AVID MC 4.0.2" directory:
+
+sudo cp AvidMediaComposer /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS
+
+sudo cp SuperPro32 /Library/Frameworks/SuperPro32.framework/Versions/A
+
+sudo chmod -R 755 /Applications/Avid Media Composer/AvidMediaComposer.app/Contents/MacOS/AvidMediaComposer
+
+DONE.
+
+Thanks to Djavdet for his 3.0.5 original patch.

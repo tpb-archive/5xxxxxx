@@ -1,0 +1,41 @@
+ffmpeg SVN-r20562 statically linked and compiled for Linux (compiled with Ubuntu 9.04 (Jaunty Jackalope)) for use with encode-handheld.pl.
+
+Includes documentation on how to compile your own static ffmpeg if you like and configure and configure.mak used.
+
+linked against x264:
+
+root@padunkadunk:~# x264 --version
+x264 0.78.1318 fe83a90
+built on Nov 21 2009, gcc: 4.2.4 (Ubuntu 4.2.4-1ubuntu4)
+
+
+
+root@padunkadunk:~/ffmpeg-r20562-static-binary-and-steps# ./ffmpeg -version
+FFmpeg version SVN-r20562, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  built on Nov 21 2009 14:51:30 with gcc 4.2.4 (Ubuntu 4.2.4-1ubuntu4)
+  configuration: --enable-gpl --enable-nonfree --enable-postproc --enable-pthreads --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libdc1394 --enable-libtheora --enable-libvorbis --enable-libx264 --enable-libxvid --enable-zlib --enable-libspeex --enable-libopenjpeg --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-version3 --enable-bzlib --enable-static --disable-shared --extra-libs=-static --extra-cflags=--static
+  libavutil     50. 4. 0 / 50. 4. 0
+  libavcodec    52.41. 0 / 52.41. 0
+  libavformat   52.39. 2 / 52.39. 2
+  libavdevice   52. 2. 0 / 52. 2. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+FFmpeg SVN-r20562
+libavutil     50. 4. 0 / 50. 4. 0
+libavcodec    52.41. 0 / 52.41. 0
+libavformat   52.39. 2 / 52.39. 2
+libavdevice   52. 2. 0 / 52. 2. 0
+libswscale     0. 7. 1 /  0. 7. 1
+libpostproc   51. 2. 0 / 51. 2. 0
+
+
+
+root@padunkadunk:~/ffmpeg-r20562-static-binary-and-steps# file ffmpeg
+ffmpeg: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), for GNU/Linux 2.6.8, statically linked, stripped
+
+
+
+root@padunkadunk:~/ffmpeg-r20562-static-binary-and-steps# ldd ffmpeg
+        not a dynamic executable
+
+

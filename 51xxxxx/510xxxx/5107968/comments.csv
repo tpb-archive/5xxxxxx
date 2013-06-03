@@ -1,0 +1,159 @@
+User Type,Username,Date,Text
+[V],BLACKTROY,2009-10-03T13:51Z,feedback welcome
+,makcs16,2009-10-07T18:49Z,is crack included in da iso file ............plz do comment as fast as possible.............
+,slatina,2009-10-17T10:01Z,There is NO crack and NO serial!!! Where to find these? Thanks
+,MrDavidKelly,2010-03-12T01:02Z,Hey Guys does this work please?
+,blue-cat,2010-03-15T21:44Z,"Hi, the explanation isn't exactly thorough, I've copied the files into the license manager moldflow folder but can't workout what to do with the network license files. I keep getting the license error on opening advisor. any help, cheers."
+,blue-cat,2010-03-16T15:07Z,"Okay, I found these instructions on another site.
+""Autodesk injection molding simulation software"" (Autodesk Moldflow 2010) multi-language version of an installed software module instructions
+1. Virtual Drive software load image file: ""[Autodesk injection molding simulation software]. Autodesk.Moldflow.v2010-MAGNiTUDE.iso"".
+2. If you are using a computer to support self-running CD-ROM, it will be one of the following installation interface will appear; otherwise need to manually run the X: \ cdstartup \ cdstartup.exe document, which is where ""X"" is used to represent your virtual The CD-ROM drive letter, following the same as that.
+3. Choose to install the first ""Autodesk Moldflow Insight 2010"", will appear the following window interface; If you want to install the module, install the ""Autodesk Moldflow Insight 2010"" to complete, you can then install.
+Please choose to install the software needs to be the language, the general would choose ""Chinese"", proceed to the next window. Language of choice here, a window will be displayed next to provide a setup project (language pack).
+4. The first ""Install Autodesk Moldflow Insight 2010"" is a mold flow analysis module;
+The second ""Install Autodesk Moldflow Insight 2010 Chinese Languange Pack"" is the language pack, here is the Chinese; if you are in the third step, choose other languages, on the inside there will be a corresponding language of your choice language pack.
+
+First choose to install the first ""Install Autodesk Moldflow Insight 2010"",
+Click ""Next""
+5. First select ""I accept the agreement"", then click ""Next"",
+You can customize the installation folder, click on ""Next"",
+Here you can choose the working folder for each user mode, click on ""Next"",
+Here you can choose the user's working folder, click on ""Next"",
+Click ""Next"", began to install the interface:
+6. After the installation is complete, because the original did not install Autodesk's license management software, so installing the following interface:
+7. Click ""Next"" to begin installation interface appears:
+Setup appears select the installation folder, click on ""Next"",
+Choose the first ""client and server"", click ""Next"",
+Here will appear the computer you are using the name, if there is not the name of your computer needs to change here, click on ""Next"",
+Click ""Install"",
+Cancel option ""Activate license online"", then click ""Finish."" Here this has been completed license management software installation. Then will appear the following ""Install Autodesk Moldflow Insight 2010"" to complete installation prompt interface:
+Click ""Finsh"" mold flow analysis module to complete the installation.
+8. If you need to install Chinese language pack, please return to the first four steps in the installation interface, select the second item ""Install Autodesk Moldflow Insight 2010 Chinese Languange Pack"" language pack. Then all the various installation steps select the default installation on the line.
+9. If you need to install other modules, please return to the first two steps in the installation interface, select the other modules can be installed.
+Second, install the software module instructions
+10. Copy ""X: \ MAGNiTUDE \ Program Files"" folder, all files and sub-folders corresponding to your installation folder (in the first month the first five steps and seven steps to specify the installation folder), overwrite the original file folder and documents.
+11. Click on the desktop task bar on the lower left corner of the ""Start"" menu, choose ""Programs"" = """" Autodesk ""=>"" Network license Manager ""=>"" LMTOOLS "", refer to the following diagram:
+12. There will be a license management software interface:
+13 Click on the page ""Config Services"", in the ""Service Name"" drop-down list in the text, enter ""Autodesk Network License Manager"";
+14 Click on the first 12 steps to the window in the ""Path to the lmgrd.exe file"" single-line text input box to the right of ""Browse"" button, select the 7 steps to install the folder in the lmgrd.exe documents, reference the following two "
+,eventured,2011-01-15T02:23Z,"wow. That is confusing...
+Hey BLACKTROY, lot of good uploads. Do you have Moldflow 4.1? "
+,eventured,2011-01-15T02:27Z,"wow. That is confusing...
+Hey BLACKTROY, lot of good uploads. Do you have Moldflow 4.1? "
+,Hypogyerek,2011-01-22T14:59Z,"Hi! I've downloaded and installed the software, and the lmtools. Server is working correctly, both, moldflow licensing, and lmgrd are running, but when I try to start moldlow insight, the program says, ""a security failure has occured, check the following: ..."" There is a question in the lower side of the window: Do you want to go to the website of autodesk?"" And when I choose yes or no, the program has stopped. Is the license file not correct? Or I've made something wrong? Please help me hor can I use this program, it is important for me....
+THX"
+,danrobo27,2011-02-22T02:19Z,"You need to the follow reg key.
+
+ADSK_LICENSE_FILE	REG_SZ	@127.0.0.1
+
+Other useful links can be found at http://www.moldflow.com/download/prod_mps/english/troubleshooting/mps_troubleshooting.html"
+,pandunaik,2011-04-02T09:57Z,"hi blacktroy
+Hi! I've downloaded and installed the software, and the lmtools. Server is working correctly, both, moldflow licensing, and lmgrd are running, but when I try to start moldlow insight, the program says, ""a security failure has occured, check the following: ..."" There is a question in the lower side of the window: Do you want to go to the website of autodesk?"" And when I choose yes or no, the program has stopped. Is the license file not correct? Or I've made something wrong?
+
+
+Or Any hardware we want to install 
+
+pl help me past
+
+Thank u "
+,pandunaik,2011-04-02T12:22Z,"hi
+blacktroy
+
+i was installed mold flow successfully
+
+After installation   i was replaced programme File(it was in MAGNITUDE)
+When i  will start sever 
+i am getting this error Messege
+""""""""adskflex.exe has encountered a problem and needs to close.  We are sorry for the inconvenience.""""""
+
+pl give me a solution for this problem"
+,goldrush1,2011-06-02T19:26Z,Its working for me...Dont ask me how...I tried to play with lmtools
+,griffix,2011-06-07T11:36Z,"I've got it to work, so here's everything I did. It involves two processes: 1.) Install an earlier version first and get that to work 2.) Install the version in this torrent.
+
+Keep Firewalls, antivirus and internet connection disabled throughout the install. I don't like the idea either...but it's all I could do to get this to work.
+
+PART 1:
+--------------------------------
+First, download and install this earlier version. Google: 'MOLDFLOW_PLASTICS_ADVISERS_V7.3-LND'
+
+--> Diable internet connection, firewall and antivirus
+--> Extract all the files (I had to disable my antivirus as one of the files MF2007_fix.exe shows as a virus)
+--> Run the install file mpa730_06114_pc.exe
+
+When it prompts for server name, make sure that you enter the right name of your computer. Right-click on 'My Computer' go the the 'Computer Name' tab and see where it says 'Full computer name'.
+
+--> Put this in the server name of the installer and continue
+--> Keep the 'Obtain licence keys' box checked and click YES
+--> Click NEXT
+--> Then cancel the 'Moldflow Electronic Registration Window'
+--> (You might need to click 'Register Later'...)
+
+--> Start -> Run -> services.msc
+--> Find the service ""Moldflow Product Security"", right click and STOP the service. Leave the services window open.
+--> Patch the folders as decribed in the install.txt file in the LEGEND directory.
+--> Go back to the services window and restart the ""Moldflow Product Security"" service. Wait just over a minute (I don't know if this wait does anything...it's in the install instructions do I just did it)
+--> You can now close the services window and run the Mold Advisor 7.3 application. It is necessary to attempt to import a model such as an STL file to ensure the software works and is licenced. 
+
+It is essential that you get the above version up and running without any licence problems when you import models and perform analysis' on them."
+,griffix,2011-06-07T11:36Z,"PART 2:
+---------------------------------------
+--> Install Moldflow Insight 2010. Leave folders on default locations.
+--> The installer will soon start the Autodesk Licence Manager (Moldflow) setup wizard. 
+--> Select Client and Server
+--> Enter your computer name (as done previously) without any formatting or symbols - remove any colons that might be there. Just the name is needed
+--> Uncheck 'Activate Licences Online' and click Finish
+--> Close all the installer windows
+
+--> Start -> Run -> services.msc
+--> Stop the following Services in the following order: Moldflow Product Security & Autodesk Licence Manager (Moldflow)
+--> Leave the services window open
+
+--> Copy the files (in the MAGNiTUDE folder)into the corresponding locations
+
+--> Run 'LMTOOLS' - there should be a shortcut on the desktop / start menu
+--> Config Services Tab --> In service name type 'Autodesk Network License Manager'. Browse to lmgrd.exe file. Browse to licence file (just change file types to .dat when browsing and you'll see the file you copied their earlier). Browse to log file (Just create a text file somewere, call it logfile.log and copy it into the location where you're being prompted to browse). Select that log file.
+--> Check the box that says 'Use Services'. I have not tried checking the 'Start server at startup', but it should still work with it checked.
+--> Save Service - Yes, then go to the START/STOP/REREAD tab. Do nothing yet...
+--> Go back to the services window and restart the two previously stopped services...doing the Moldflow Product Security Service First, then the other one
+--> Go back to the LMTOOLS window, and Start Server for the Autodesk Network Licence Manager. 
+
+--> Now run 'Autodesk Moldflow Insight 2010', keeping all internet disabled and it should be working. If it is, you're almost there:
+
+--> Restart the Installer application, and install A'utodesk Moldflow Advisor 2010'. Just go through all the screens. I selected the 'Classic' option for the workspace selection. And didn't install any other plugin components.
+--> When the install is done and the Autodesk Licence Manager (Moldflow) Setup Wizard starts, just click CANCEL -> YES
+--> CLick finish and close all installer windows.
+--> If you're still here, you should be able to run 'Autodesk Moldflow Advisor 2010'. Just keep internet access and firewalls disabled."
+,griffix,2011-06-07T12:07Z,"Just few more things which might help:
+
+ If you've attempted a previous install then just make sure everything is removed. in the Control Panel, Remove Programs and uninstall any applications with the words 'moldflow' and 'autodesk' in them. 
+(Be careful not to uninstall an Autodesk application if you're using another of their software packages)
+
+Go into your /Program Files directory and delete any directories with the words 'moldflow' and 'autodesk' in them.
+
+Get CCleaner, clean your hard-drive and do a registry scan to remove any registry entries.
+
+I've tried without first installing the earlier version and it doesn't work. But, using that monstrosity of a method above, I've installed it (and it works) on two different computers."
+,griffix,2011-06-08T15:59Z,"One of my computers lost its license after rebooting...possibly due to the internet connection coming on automatically. The earlier 7.3 version still works though, and I suspect I'll just stick to using that. The computer that stays on seems to have kept it's license and the 2010 version still works on it.
+
+**This has to be the most time spent trying to get a crack to work...**
+"
+,Minas103,2011-07-31T11:51Z,"Moldflow 2010 works well with XP Sp3 32 or XP SP2 64. There are some bugs with Vista SP1, but don't work with Win7.
+
+Somebody knows how to use moldflow on a virtual Pc (XP) on win7?
+
+... Or use this version with win7"
+,Minas103,2011-07-31T11:51Z,"Moldflow 2010 works well with XP Sp3 32 or XP SP2 64. There are some bugs with Vista SP1, but don't work with Win7.
+
+Somebody knows how to use moldflow on a virtual Pc (XP) on win7?
+
+... Or use this version with win7"
+,kamanabillu,2011-08-10T14:06Z,Its working..:)and i'm successfully using with windows 7 only. But when in comes in continuous connection with internet it wont work properly..
+,kamanabillu,2011-08-10T14:07Z,"Hey BLACKTROY...
+
+Can you instruct me how to install Autodesk moldflow 2012..?? or else get me a dat file for AMP2012."
+,Minas103,2011-08-22T22:53Z,"Dear kamanabillu,
+
+Do you use a x86 or x64 Win7. If you have x64, you can tell me how to do !
+
+Thanks"
+,pyroclastPRO,2012-02-14T12:58Z,i wish this torrent had been more user-friendly.

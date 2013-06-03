@@ -1,0 +1,15 @@
+ConvertXtoDVD changes history
+
+ConvertXtoDVD - 4.0.6.316
+=========================
+
+Titleset content editor fixes
+Interface fixes
+
+- 0003062: [Information] change box shot in trial window ( for consistancy with website) (wesson) - resolved.
+- 0003061: [Bug] 315: Advisor get not displayed when a short project (8 min) iadded with Automatic encoding option. (wesson) - resolved.
+- 0003036: [Bug] Chosing Automatic in conversion setting in the front of GUI, dont update the encoding option (wesson) - resolved.
+- 0003060: [Bug] 315: Encoding option does not change when click on Automatic. (wesson) - resolved.
+- 0003064: [Bug] ordering files in merge editor window gives error: Init failed on input stream # - Msg "list out of bounds (#)" (wesson) - resolved.
+- 0003063: [Bug] v4.0.5.315a enter goldmember key and get "cannot focus a disabled or invisible window" (wesson) - resolved.
+- compiled with newest innosetup 5.3.6(unicode)

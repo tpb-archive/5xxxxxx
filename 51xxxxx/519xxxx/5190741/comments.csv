@@ -1,0 +1,95 @@
+User Type,Username,Date,Text
+,pufydog,2009-12-01T23:04Z,"@xygor: I checked out the code before I used it and its clean.
+Chucked this on one of our computers, saving the logs to shared documents. From my computer i can view the logs over the network. Caught my son on facebook when he was supposed to be doing homework.
+Thankyou!"
+,naked666,2009-12-03T22:55Z,"YOU ARE SIMPLY A GENIUS, YOU ARE THE BEST!
+IN ITALIAN: SEI UN GENIO SEI IL MIGLIORE, BELLA ZIO!
+WHAT PROGRAMMING LANGUAGE DID YOU USE?"
+,flexxotronZ,2009-12-04T05:51Z,So far so good. Its simple I like it keep it up. No viruses or trojans
+,i_am_bored,2009-12-05T03:45Z,"if there was a way to make it so it recorded everything and have it so it automatically boots with a priority of realtime, which is the only way i have found to get it to capture everything... as i usually run my system reasonably close to it's full capacity.... and it misses some of my keystrokes.... and it doesn't record the f8 key press when it becomes visible..... and it doesn't always respond if i do a quick keystroke to tell it to show itself, i have to hold the ctrl and alt keys for a bit before pressing f8 for it to appear, and if possible, get it to start with admin privileges in vista? the clipboard part has worked though so .....hmmm.... don't think it's that i type to fast, and could you have another viewer that is a separate program entirely that would replace everything like backspace, with what it would actually show when you were typing, it would make the logs slightly more readable."
+,_Smithy_,2009-12-05T07:03Z,"Thanks for the suggestions! Working on improving it now.
+
+@i_am_bored: I will try and make an option to boot at real time priority, and the next version will have a log viewer. I have also fixed the delay time for the Ctrl + Alt + F8 and allowed the user to select their own key combo.
+The problem with implementing your backspace idea is that if the mouse is used to change the area of text being edited, then the backspace key is hit, the keylogger will delete the last character typed even if it was a different character deleted. Also backspace is used a lot to go back a page in internet browsers so characters may be deleted even when they shouldn't be. I will work on something though because currently it is too hard to read.
+Thanks. Would like to hear any suggestions you have."
+,215stud,2009-12-10T13:56Z,could you put a remote  install on it where i can install thru a email?   please let me know when you do the new version so i can download Thanks
+,Bengonga,2009-12-12T02:56Z,do we need a code or serial or anything?
+,dv200567,2009-12-12T06:24Z,"Yes, what programming language indeed? I know its using Visual Studio .NET (or at least it appears to be) and judging from the very small size, I would guess C++, with C# my second guess. If its VB, your coding is very compact and efficient. It would be great if you could release the source as well, as I have a fair amount of .NET experience and would like to see if I could help. Or just modify it to my liking. "
+,bupu,2009-12-12T11:30Z,"Works great with vista once you get around damn security bits (you do not have permission or not authorized) etc..   mainly for enabling autostart
+
+but like most keyloggers does not work with window 7  no key presses reconized at all and won't quit properlly
+
+but does what it says on tin...
+very good program"
+,magerator,2009-12-13T11:42Z,"Very nice program indeed.
+
+I just have the problem with Windows 7, that I cannot enable auto start up. It says ""yritettiin suorittaa toiminto, johon ei ollut oikeuksia"" that's finnish and it means ""tried to perform action, that didn't have rights to do"" or something like that.
+
+Anyone can help me how to enable that auto start up. I am administrator of this computerm but still I cannot do that...argh."
+,magerator,2009-12-13T11:50Z,"doh !
+
+I found out the auto start thingy, so I will answer my own question, if someone else is having the same issue.
+
+So what I did was I right clicked the steel.exe, then went to properties. In there I went to compatibility section and clicked ""run this program as administrator"". Restarted the program and it was working nicely.
+
+Hopefully, this helps someone, or there always is the possibility that I'm the only n00b in this forum. 
+
+Well anyways good job, and hopefully some updates will come to this prog in future. Mainly about clarifying reading of the log."
+,dpow79,2009-12-16T14:01Z,"Works excellent - No viruses!!! Records all keystrokes on main keyboard. Is there any way to get it to record the 10-key buttons, over on the right, as well?"
+,kayc,2009-12-17T17:14Z,"Great work, really effective program!!!  Is there anyway to be able to get the logs remotely with out completely sacrificing invisibility?  I only get to the pc I'm using it on once every two weeks :("
+,aliias,2009-12-17T17:42Z,"sometimes when i press unhide keys, it won't show up. what's the matter?
+and 1 more. it takes a lot of memory to run. around 20,000k. . .
+btw, nice torrent! ty :)"
+,jitb11,2009-12-29T09:47Z,"Hi _Smithy_,
+Wow you are brilliant. You didn't make this with Visual Basic did you? I hope you are working on one with more features. What I'd really like to see is uploading with ftp or sending the logs to an email address. I have had no problems with this and it has been very helpful. Would be great if you continued this."
+,_moppa_,2009-12-31T20:02Z,"great work smithy, thanks a lot.
+
+can you make it record keys on the numeric keypad?"
+,o.0ddsrp,2010-01-03T20:23Z,"When I try to ""x"" out of it, it apparently accesses my registry (a little window popped up and said that). What is it trying to access?"
+,_Smithy_,2010-01-04T21:55Z,"Hey had a busy christmas and new years so have not completed as much as I would like. 
+I am just about to release version 1.1 which mainly fixes up vista UAC issues as well as introducing a few new features. I do not have access to a windows 7 machine. If you do and want to help me make it compatible please email me at: Steel0Smith@gmail.com.
+
+To answer your questions:
+@215stud: No I will not put a remote installer in it, otherwise it will no doubt end up being used against tpb users.
+@dpow79 & _moppa_: Yes the next version will support the numeric pad. Thanks for bringing it to my attention.
+@aliias: Sometimes it appears to be using a lot of memory, most of this is shared memory from the .net environment. Use the performance monitor in the taskmanager for an accurate measure.
+@jitb11: I am a little cautious about allowing it to ftp or email the logs, as I do not wish for this to be used illegally. I have added ftp in the next version, it will only work with drivehq.com, and hopefully it won't be misused.
+@o.0ddsrp: The issue you are experiencing is because you have vista's UAC on and the logger is  trying to access part of the registry that is reserved for administrator accounts. When you close the keylogger it makes sure it has not been removed from starting up with windows. I suggest you turn off ""Auto Startup"" and then add it to start up manually. The next version will have this fixed.
+
+Thankyou for your feedback everyone."
+,tonguewin,2010-01-05T16:59Z,"I wish this would work on windows 7. As of right now, everytime I try to click Hide, nothing happens and then the program crashes. Let me know if this is something you can do, thanks."
+,artgrigo,2010-01-05T23:11Z,"Smithy, you are genius, I was now about to buy a 45 dollar idiotic keylogger with 45 Mb space. Listen, I live in Greece, Thessaloniki, my e-mail is arthur.grigorian@yahoo.com  . If any day you show up here, I buy you as much beer at ANY bar, as much as your stomach would carry. THANK YOU!!"
+,_moppa_,2010-01-09T13:17Z,@tonguewin I have this working on windows 7 32 bit. i turned off uac and had to make all users administrators. had to log in as each user to set the preferences (auto start and hide) from what i can remember!
+,craddster,2010-01-13T00:08Z,"Hi _Smithy_. I've just been having a play with your app and it is fantastic, beautifully simple and easy to use. Its great. One thing for the next version may be this, if you rename the app to something-inocuous.exe it works fine, but if you enable the autostart, it still adds \correct path\steel.exe which obviously won't work. If it could add the current file name to the startup, then noobs wouldn't have to edit the startup items in their registry. Legend."
+,_Smithy_,2010-01-13T05:03Z,Thankyou for bringing this to my attention craddster. I have fixed this issue. Its greatly appreciated when people point these things out :)
+,southern445,2010-01-23T06:49Z,Just installed this on windows 7 Ultimate 32bit os P4 2GHz....works great
+,yoyoming4114,2010-01-23T22:13Z,"Great torrent!  Really excellent.  The only problem I have is when I install and check autorun and auto hide on one account and log on to another account, and alert box pops up and says Steel already running please use unhide code, etc.  As you can imagine it kind of takes some of the stealth away if people see that ven if they don't know what Steel is it still seems suspicious.  How can I get it to only run on one account?  Or just disable the alert message.  This is on XP.  Everything else is perfect.  Simple and elegant."
+,lairod,2010-01-23T23:33Z,hello 2 question? 1 can start up when is restart automatly     2 what about email delivery.
+,_Smithy_,2010-01-30T09:26Z,Newer version is out! Hope you like it.
+,GTG007,2010-02-25T12:05Z,"I'm running on Vista.
+Program will not hide. Program flashes but remains visible when I click the hide button.
+???"
+,NiMaKiNiCk,2010-02-25T18:01Z,Great torrent! I need it so I can make sure no one goes on my computer while I'm on vacation!
+,uberwurst,2010-03-02T09:59Z,"PERFECT!
+NO BULLSHIT!"
+,Aizik,2010-03-07T11:08Z,Hello  _smithy_ i really need Your help. !!!!
+,Aizik,2010-03-07T11:31Z,I was delete program from autostart.I can't finde him ctrl+alt+f8...All the texts what was seve .txt was delete as well ???
+,Aquakeeper,2010-04-03T00:46Z,Wont Open...keep getting a error saying the application failed to initialize properly.
+,PeterAichinger,2010-04-12T21:18Z,"The actual version of Avira Antivirus detects it. Earlier updates of Avira haven't found the logger, but it seems Avira included it into its Viruslist."
+,_Smithy_,2010-04-16T13:30Z,"Hey! The newest version (1.1.0.9) is on the pirate bay now. Please download it and thank you for your support.
+
+@Aquakeeper and others: If you get the fail to initialize problem then you need to download the latest '.net runtime' from microsoft. This is the environment the program was written in and is needed."
+,sawilson005,2010-04-25T10:29Z,Great torrent. Love it. One thought. Can this possibly be made to not show in task manager. Upon opening Task Manager it shows as Steel.exe and a simple search with Google shows this as a key-logger. NOT what we need to happen. Needing this for checking a certain comp here at home and CAN NOT have it detected. Thanks.
+,sawilson005,2010-04-25T10:40Z,"Great torrent. Love it. One thought. Can this possibly be made to not show in task manager. Like an option to ""Hide in Task Manager"". Upon opening Task Manager it shows as Steel.exe and a simple search with Google shows this as a key-logger. NOT what we need to happen. Needing this for checking a certain comp here at home and CAN NOT afford to have this detected. Thanks."
+,nogdog,2010-05-03T02:53Z,"Works ok on my xp and vista boxes. Got two problems though.
+
+I have version 1.1.0.9 and the screen grabs don't get named correctly. they all end in jpg not .jpg
+
+Uploads to the ftp site work ok for screen grabs, but not for the keystroke file. 
+
+Also the keystroke file overwites itself every day so if I don't catch it, I lose a days worth of data. 
+
+Otherwise...its damned good.
+
+Any chance of fixing the glitches or pointing em at a new version? "
+,CTX123,2011-04-16T12:10Z,"FAO _Smithy_ - Can I install this on my ""Admin"" account, but i'd like it to log the ""user/guest""?"

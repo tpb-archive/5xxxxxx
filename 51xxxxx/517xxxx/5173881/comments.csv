@@ -1,0 +1,70 @@
+User Type,Username,Date,Text
+,Fuck__You,2009-11-23T05:15Z,62 seeders and no comments??? whats good??
+,Aman1238,2009-11-28T08:31Z,"Works, but what's the user and pass to log in? And it only contains the Hard disk, not the settings."
+,aroot,2009-12-02T08:35Z,try facepunch/facepunch
+,aroot,2009-12-02T09:31Z,"nevermind, that doesn't work"
+,Shaggster85,2009-12-03T03:29Z,i read on a forum tht the password is ur gmail account info 
+,slobinh,2009-12-09T11:42Z,"sounds shady
+
+here, have my user and pass to my email"
+,BartBarto,2009-12-10T17:33Z,Use chronos as username and no password
+,newbie512,2009-12-16T15:56Z,"the seed is gr8, just adding to my collection of vmwares, with ubuntu, back track 3, snow lepord, win xp and such."
+,pinkdildo,2009-12-28T23:09Z,"Yes i agree with costydogg1984...
+Just download it free from http://gdgt.com/google/chrome-os/download/
+Remember to create an account for free download.
+
+The file is exacly the same without possible bullshit, plus you have good instructions for installing the chrome os :-)"
+,pathak,2010-01-15T01:52Z,"Now install New Chrome OS with working Wifi and improved performance.For download and step-by-step tutorial see this,
+http://www.digitalability.co.cc/2010/01/install-new-chrome-os-with-full.html"
+,CYM1,2010-01-17T01:22Z,"Downloading now. I hope this is cool. If I am waisting my time, im going to be pissed!"
+,the_(dutch)_google_guy,2010-01-30T10:15Z,is this good or bad?....
+,GreyZer0,2010-02-03T11:30Z,i can't connect to the internet !
+,the_(dutch)_google_guy,2010-02-07T12:10Z,nope can't connect to internet
+,the_(dutch)_google_guy,2010-02-07T12:10Z,plz help...
+,eatyourliver,2010-04-28T17:35Z,"This, and the other supposed virtualbox versions, run on vmware.
+
+To covert for use with virtualbox (debian/ubuntu)
+
+sudo apt-get install qemu
+qemu-img convert whatever.vmdk raw-file.bin
+VBoxManage convertdd raw-file.bin chrome.vdi
+
+use chrome.vdi with virtualbox
+
+Oh, username chronos, no password.
+
+I suggest you use a fresh gmail account in case anything dastardly is afoot.
+
+
+
+"
+,jadedshadows,2010-05-05T19:27Z,"You can actually use this image without any conversion, at least on newer versions of VirtualBox. Just drop it in the HardDisks directory of the VirtualBox settings and add it as a pre-existing hard disk. Cheers."
+,jadedshadows,2010-05-05T19:27Z,"For more detailed setup instructions for VirtualBox, check out the following link:
+
+http://chromeos-blog.com/tutorial-chrome-os-virtualbox/"
+,Entuzio,2010-08-24T22:51Z,"1. Use username and password from your 'real' Gmail account.
+
+2. If it's not working then you must establish the internet connection in your Vmware for ChromOS. Go to the 'edit virtual machine settings' section for the Chrome OS.
+
+3. Set the Network adapter to 'Bridged'. Device status must be 'Connect at power on'
+
+4 . That's all Folks, bb"
+,Spironic,2010-09-07T00:05Z,"What will happen if I try to put this on a 2GB drive? Will I get an error loading the OS?
+
+Also, if I put this on a large USB drive (16GB) can I have other files stay on the drive or do I have to format it clean?"
+,Spironic,2010-09-07T00:06Z,"Ignore that last comment, I posted it on the wrong torrent. fml"
+,sreekanthv88,2011-01-12T16:41Z,guys try giving user name:user and root password:root. this will work. and u can connect to internet once this gets connected
+,5iF3R,2011-04-20T16:37Z,"
+This is for vmware workstation 6.5
+
+select Create new virtual machine -> select custom -> on compatibility page take defaults ->
+check I will install os later -> click through several pages choosing other for OS, give it a name, make sure it IS NOT in the same folder as the VMDK file. Choose bridged or NAT network. 
+
+You will now see a screen asking to select disk, select existing virual disk. then browse and select the VMDK file
+
+Worked for me .. FYI, it's just a browser OS."
+,rehtarded1,2011-10-30T16:42Z,"@slobinh 
+
+you're such an idiot for thinking using your google account info on GOOGLE's OS is shady...
+For one, when you log in to Gmail, you're pretty much logged in to all of Google services, except for the music beta at the moment, that makes you put your password in everytime you open the page up....
+i can understand you thinking the uploader of the torrent putting something malicious in there to steal your info, but cmon dude, Google has always been and always will be on top of their shit, so honestly, they might be the only ones out there to trust with info like that ;)"

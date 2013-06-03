@@ -1,0 +1,47 @@
+OpenArtist is a new Linux distribution. It's based on Ubuntu but completely tricked out on graphics - and Blender software.
+
+Cellstorm wrote:
+
+hello there, I want to announce openArtist, a linux distribution for Artists.
+
+It is based on ubuntu Hardy (but updated to jaunty in many aspects), features nearly everything available in the free software world. Categories are 2D, 3D, Audio, Video, VJ, Hardware interfacing, Collaboration.
+
+As you will mostly be interested in the 3D stuff, I'll start with this.
+
+Massive blender focus
+
+5 versions of blender (2.49, 2.5 with automatic download script of graphicall daily build, 2.41, 2.45, publisher 2.2.5 for compatibility reasons and fun :-)
+integration into nautilus (own blender mimetype, open with 2.41, 2.45, control movies with blender:anim on rightclick), hidden blender folder in home directory for fast access to scripts folders of all versions and to sequence and texture plugins)
+collaborative blender scripts folder (symlinked into dropbox, drop a script there and all others will get it, too). many scripts installed (focus mainly on renderers integration until now, all render-related scripts appear in render menu now)
+renderers preinstalled for use with blender: yafray, yafaray, kerkythea, indigo (these two via download script, as they cannot be redistributed), aqusis, pixie, nvidia gelato, luxrender (beta and stable), sunflow, pantograph. also, freestyle standalone and helios distributed renderer are available. which brings me to the next point:
+distributed rendering category: helios (distributed rendering with sunflow), drqueue (packed in custom scripts and with help to be user friendly), yadra, networkrender, farmerjoe. Also all online-tools which allow renderfarming with blender are there, with test accounts: Pgrade Grid portal, HGblender ranch, burp, open rendering environment, BOINC, then the commercial ones: greenButton, respower, pouwa client, deadline renderfarm.
+blender video sequence editor and composite editor launcher in VID cateory, with test project and little intro texts.
+Other interesting things
+
+3D programs: ayam, moonlight, wings3d, k-3d, topmod modeller, equinox, gsculpt, kpovmodeller. Makehuman is there, once with the old version, and MHPhoenix, and a script to automatically download and compile the latest version. there is also Sharpconstruct (standalone scuplter) and structuresynth (where you can code 3D objects)
+texture tools: Mapzone (via wine and a script for download), semicuro, cellule (for procedural textures)
+shaderman tools: sler, shaderman (via wine) and cutter
+plant generators: arbaro, Ivy, ngplant, and apparently, tree form curves.
+g3dviewer: previews all major 3d formats
+bvhplay: player for bvh motioncapture files.
+Useful things beyond 3D
+
+2D: gimp is heavily pimped with all majpur plugins and scripts actually, there are 3 versions of gimp. one is special-pimped for use with graphics tablets: Gimp paint studio.
+more graphics tablets apps: mypaint, gogh, drawpile, alchemy, qaquarelle, and pencil.
+djv imaging for image sequce playing and processing.
+cinepaint is there. with full color management built in.
+Which brings me to
+
+colour mangement: all relevant tools for linux are there (lcms argyl, lprof, oryanos, dispcal), but you will also find tools like a print plugin in gimp, which accepts coulor profiles of printers, or the CMYK plugin for gimp.
+There's also 2Danimation, but this goes out of scope.
+Hardware interfacing: controls for wacom graphics tablet, wiimote, and reactivision
+special kernels: there is a highram kernel available, which could be neat for renderings with more than 3GB ram. Yes you can use more the 3GB ram with a 32bit system. this kernel has to be installed seperately, but there is an install script on the desktop
+Whats lastly worth to mention is that there is help on board, by hovering over the launchers, or in the mindmap (actually it's a network of mindmaps), where I tried to collect every relevant knowledge of a software, up tovideos.
+
+For blender, there is a deep mindmap which covers nearly everything (though abit outdated), previously called the blendermindmap. (actually, you can reach it also via
+
+There is also a map called ressources where you can find models, textures, mocapdata, sounds, etc.
+
+And best of all - its free and online. The help (which is the hompage, too for now) And the os. go to www.openartisthq.org for download, screenshots.
+
+greets, cellstorm. 

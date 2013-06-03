@@ -1,0 +1,30 @@
+My original office 2000 install disc, i've been using this personally for years.
+
+EDIT: Okay after some discussion with a friend of mine, seems i actually have Disc 1 of the full 4-disc office set, the other 3 discs contain: publisher, small office business tools, clip art, photodraw, and Office Server Extensions. If you're trying to get any of these with this torrent, then sorry but they're not here.
+
+This is What's on this disc:
+
+Word
+Access
+Excel
+FrontPage
+Outlook
+PowerPoint
+
+
+As well as the updates as listed below. Sorry for any confusion.
+
+
+The file contains 1 single *.ISO image, just mount and it'll auto-play the installer. I compressed it with 7-Zip to shave about 276mb off the file for torrent purposes.
+
+Once you've mounted it, explore the CD in windows explorer and there's a "EXTRA-FILES" sub folder, inside is cdkey.txt the 100% legit cd key.
+
+Also in the EXTRA-FILES folder is "UPDATES", only AFTER you've completed the install, then go back to the CD: EXTRA-FILES -> UPDATES and run install.bat
+
+It's a custom batch file i created that runs through all of the update packages in the correct order (SR1-A -> SP2 -> SP3 -> Supplemental) and has a progress in the batch file as you go through it. All the updates (Including the hard-to-locate SR1-A) are the offline full-install packages, no downloading, since the microsoft download servers don't offer content for Office 2000 anymore.
+
+During the updates it comes up several times and says something about "some other update program already updated this" just click "ignore" every time and it goes through, not sure why it does that.
+
+We can't buy this from microsoft, and microsoft has completely removed all support for office 2000 off their website, so it's finally time to get this up on torrents for everyone.
+
+Also a little FYI: This is the last version of microsoft office before they went to the online-authentication BS, which is the main reason -I- personally use it.

@@ -1,0 +1,59 @@
+Source: Windows XP Professional with Service Pack 3 - VL (x86) - CD (English)
+ISO size: 530 MB
+Size on disc/disk: 524 MB
+Drive Space Required: ~ 3 GB
+
+[Patches]
+Half-open connection = 16777214
+UxTheme
+
+[Unattended]
+Hibernation Disabled
+Firewall Off
+System Restore Disabled
+
+[DesktopThemes]
+Royale
+
+[Integrated]
+All updates up to 25/11/2009
+Internet Explorer 8
+Windows Media Player 11
+MSXML 4.0 SP3 v4.30.2100.0
+DirectX Redistributable August 2009
+Microsoft & Windows Update v7.4.7600.226 
+Microsoft Update Catalog Web Control v7.4.7057.223
+(KB892130) Windows Genuine Advantage Validation v1.9.40.0/(KB905474) Windows Genuine Advantage Notifications v1.9.40.0
+(KB890830) Malware Removal Tool v3.1.0
+Microsoft European Union Expansion Font Update 1.2
+(KB955305) Microsoft Silverlight v3.0.40818.0
+Adobe Flash Player ActiveX + Plugin v10.0.32.18
+Java Runtime Environment 6 Update 17
+Microsoft .NET Framework 3.5 SP1
+(KB931125) Root Certificate Update - November 2009
+QFEcheck v6.2.29.0
+(KB873374) GDI+ Detection Tool
+User Profile Hive Cleanup Service
+Vista Screensavers
+ 
+[Drivers]
+DP_Chipset_wnt5_x86-32_902
+DP_CPU_wnt5_x86-32_804
+DP_LAN_wnt5_x86-32_8121
+DP_MassStorage_wnt5_x86-32_909r6 <- SATA, RAID
+DP_WLAN_wnt5_x86-32_806
+
+[Runtimes]
+Auto-it
+Openal
+Microsoft C-family runtimes 1
+Microsoft C-family runtimes VC7-VC9
+Microsoft VB runtimes VB1-VB4
+Vista SP2 usp10.dll for greater unicode support.
+& more (zlib1.dll,...)
+
+Note:
+- Boot this CD to install
+- I'm sure I integrated only the necessities for everyone :D
+
+Credits to DriverPacks.net, RyanVM, Siginet & addon creators

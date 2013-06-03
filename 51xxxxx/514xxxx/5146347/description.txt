@@ -1,0 +1,82 @@
+[PC ENG ~ x32] VRay 1.5 SP3 ~ 3DS Max 2010
+
+Name: VRay 1.5 SP3 for 3DS Max 2010
+Target: Windows x32
+Version: Full,working
+Request: 3DS Max 2010
+
+Nuovi strumenti:
+(*) Nuovo materiale VRayFastSSS2 per un'accurata resa di elementi traslucenti;
+(*) Nuovo effetto VRayEnvironmentFog;
+(*) Il VRayLightMtl ha una opzione per la generazione di luce diretta;
+(*) Le VRayLight possiedono l'opzione "Mesh" che permette di trasformare un qualsiasi geometria in una vera sorgente luminosa;
+(*) Supporto per i materiali 3ds Max Arch&Design (molte delle opzioni base sono ora supportate);
+(*) Supporto del vector displacement integrato nel modificatore VRayDisplacementMod;
+(*) Tutti motori di GI (IM, LC e PM) ora supportano direttamente l'AO; 
+
+
+/**********************************/
+ VRay 1.5 SP3 for 3DS Max 2010 (x86)
+/**********************************/
+
+This is a little unstable crack for someone, but i tested it and it works fine for me.
+
+####################################
+           INSTALLATION
+####################################
+
+1. Install VRay 1.5 SP3 for 3DS Max 2010, if you have problem in installation run the installer as admininstrator mode (right click -> run as administrator)
+2. In the installation select this options: Workstation Full, Licence Server on this machine, Do not install WIBU key drivers
+3. Copy vray2010.dll in the 3DS Max 2010 folder, overwriting the existing file
+4. Merge the plugins folder to the plugins folder already existing in the 3DS Max 2010 folder
+5. Go to the Chaos Group folder in C:Program FilesCommon Files
+6. Create a copy of vrlservice.xml and rename it vrlclient.xml
+7. Now open 3DS Max 2010 and in the render settings enable the Frame Buffer, set the default geometry to Dynamic and use only VRay Camera
+8. With this settings the render been fast and there is no watermarks. If the watermarks appear render again, until watermarks not go away.
+9. This is buggy crack it's work all the time for someone and for someone do not work
+
+####################################
+          INSTALLAZIONE
+####################################
+
+1. Installate VRay 1.5 SP3 for 3DS Max 2010, se avete problemi nell'installazione eseguite l'installer in modalitÃ  amministratore (click destro -> esegui come amministratore)
+2. Nell'installazione selezionate le seguenti opzioni: Workstation Full, Licence Server on this machine, Do not install WIBU key drivers
+3. Copiate vray2010.dll nella directory di installazione di 3DS MAx 2010, sovrascrivendo il file esistente
+4. Unite la cartella plugins con la cartella plugins giÃ  presente nella directory di installazione di 3DS Max 2010
+5. Andate nella cartella Chaos Group in C:ProgrammiCommon Files
+6. Create una copia di vrlservice.xml e rinominatela in vrlclient.xml
+7. Ora aprite 3DS Max 2010 e nelle opzioni di render abilitate il Frame Buffer, impostate la geometria di default come Dynamic ed usate esclusivamente le VRay Camera
+8. Con queste impostazioni il render sarÃ  veloce e senza watermarks. Se i watermarks continuano ad apparire ripetete il render finquando non compaiono.
+9. Questa Ã¨ una crack con alcuni bug, per alcuni funziona sempre per altri non funziona affatto.
+
+
+--------------------------------------------------------
+
+Thanks to DuROi
+
+9. This is buggy crack it's work all the time for someone and for someone do not work
+
+I think this is happening to those that tried to install others versions of VRAY without success. So complete remove any installation of VRAY, use CCLEANER and clean registry, manually find any related vray reference in registry (run regedit) and delete all of them.
+
+Update 3DS Max 2010 here: 
+http://usa.autodesk.com/adsk/servlet/ps/dl/index?siteID=123112&id=2334435&linkID=9241178
+
+Autodesk 3ds Max 2010 Service Pack 1
+and
+Hotfix - AutodeskÂ® 3ds MaxÂ® 2010 - 2009.09.22
+
+Now try a clean install of VRAY 1.5 SP3a to 3DS Max 2010 following installation steps.
+
+
+9. Questa Ã¨ una crack con alcuni bug, per alcuni funziona sempre per altri non funziona affatto.
+
+Penso questo problema sia dato alle persone che hanno provato altre versioni del VRAY senza successo. Quindi rimuovete completamente qualsiasi installazione di VRAY, usate CCLEANER e pulite il registro, manualmente eliminate dal registro le chiavi rimaste del VRAY (eseguite regedit).
+
+Aggiornate 3DS Max 2010 qui: 
+http://usa.autodesk.com/adsk/servlet/ps/dl/index?siteID=123112&id=2334435&linkID=9241178
+
+Autodesk 3ds Max 2010 Service Pack 1
+and
+Hotfix - AutodeskÂ® 3ds MaxÂ® 2010 - 2009.09.22
+
+Ora provate un'installazione pulita del VRAY 1.5 SP3a to 3DS Max 2010 seguendo le istruzioni

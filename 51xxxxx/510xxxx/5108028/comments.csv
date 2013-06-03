@@ -1,0 +1,12 @@
+User Type,Username,Date,Text
+,applegate,2009-10-03T13:18Z,"Can you suppply the Hashkey (MD5, CRC) so we check if it is de right one?
+
+Thanks!"
+,table543,2009-10-03T15:06Z,What makes this different than previous uploads????????
+,jrdaigle1000,2009-10-03T19:22Z,"SHA1: FB743D98E6F80D605BB5F96915CA912EC1DAC5FA
+Directly off MSDN.
+And the reason this is different from previous uploads, and something I hope you read in the description before getting this, is that this is a checked build. You may wanna do some research on the differences between free and checked builds. This item was not meant for everyday use."
+,Vidpro007,2009-10-04T18:54Z,"Because the checked build contains fewer optimizations and more debugging checks than the free build, the checked build is both larger in size and slower to run than the free build. As a result, the free build is used in production environments unless it is necessary to use the checked build to identify serious problems."
+,ArcImpulse,2009-11-29T13:55Z,Could someone provide a x86 build? :(
+,jrdaigle1000,2009-12-04T06:01Z,There's no such thing as x86 builds of Server 2008 R2. It's now x64 and ia64 only.
+,ltamake,2009-12-19T19:04Z,I'm going to seed this from my seedbox. Please continue to seed!

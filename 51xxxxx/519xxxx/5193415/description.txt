@@ -1,0 +1,64 @@
+The latest and greatest version of Emerald is now out!
+
+---------------------------------------------------------------------------------
+
+This is a homebrewn viewer which adds new functionality to the viewer with the intent of easing the users interaction with the environment. It's developed by multiple people. Versions for Windows and Mac are released, an internal Linux version exists as well.
+
+Extra Features
+
+    * Optional "Proprietary Pack"
+          o Enables Voice in world
+          o Proprietary technologies that increase speed 
+    * Avatar Scanner
+          o Full sim range (detects over 1M in the air)
+          o Shows name, age, payment info, current activity.
+          o Land and estate commands for ejecting/banning multiple avatars at once
+          o Buttons to open profile, IM, teleport to or track selected avatars
+          o Ability to chat radar info (keys) to boost lsl radars
+          o Ability to display chat notifications for entering sim, exiting sim, entering chat range, exiting chat range, entering draw distance and exiting draw distance respectively. 
+    * RLV API Implementation (off by default)
+    * Different login page
+    * Ability to open and display the owner and location of objects that IM you
+    * Teleport to positions by double clicking
+    * Option to disabling progress screens (teleport, login, and logout respectively)
+    * Clothing layer protection (prevents sending of individual clothing textures to other clients, ensuring they can't copy the clothing)
+    * Customizeable IM Autoreponse system, including giving inventory in the response
+    * Fly can be set to always enabled, even with Admin menu closed
+    * Can turn your avatar 'visually phantom'
+    * Allows ground sit anywhere
+    * Can enable the attaching of objects in inventory by double-click
+    * Can block object sit-on-click
+    * Chatbar as a command line for rezzing platforms, teleporting to coordinates or sims, or teleporting to particular heights.
+    * Various crash fixes
+    * Free uploading of "temporary" textures (sim-local and disappear on relog)
+    * Notification when a friendship ends
+    * Detection of cooperating alternative viewers
+    * Shows object last owner in build floater
+    * Scripts are compiled to mono by default in agent inventory
+    * Inventory is fetched in background immediately on login
+    * Group info can be accessed in about land, even if group is not deeded
+    * Profiles show agent key
+    * More minimap dot colors, blue for lindens, grey for muted, and purple for friended lindens
+    * Build Floater Enhancements
+          o More object choices (from the drop down that lets you change a cube to a sphere)
+          o More precision information (5 decimal points)
+          o Ability to set all prim parameters without changing shape (easy prim torture)
+          o Ability to easily change skulpt stitching
+          o Can set transparency to 100%
+          o Can set texture repeats above 100 
+    * Can turn off the typing sound
+    * Teleport History Floater
+    * Animation Info Floater
+          o Shows you all current animations being played on your avatar
+          o Allows you to stop, or revoke permissions of animations you do not want
+          o Ability to detect owner of the animations being played, as well as their name 
+    * Included the 1.23 Bulk Permissions Setting
+    * Option to block the 1 click auto sit
+    * New custom skin 
+
+Links
+
+    * Website: http://www.modularsystems.sl
+    * Direct download link:or http://code.google.com/p/greenlifeemeraldviewer/downloads/list
+    * Source code:or http://code.google.com/p/greenlifeemeraldviewer/source/checkout
+    * Easy to remember

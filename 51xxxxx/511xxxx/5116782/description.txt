@@ -1,0 +1,351 @@
+Video 1 IntroductionLearn whatâ€™s in the course.
+
+What is VMware vSphere? 
+What We Will Cover in This vSphere Training Course 
+Video 2 Meet Your InstructorIn this Video you will find out a little bit about your instructor David Davis and you will learn about the importance of VMware.
+
+Meet Your Instructor 
+Why is VMware ESX So Important to Me, You, and the Future of IT? 
+Video 3 Our Scenario with the Wired Brain Coffee CompanyIn this Video I layout the scenario we will be using throughout the course, that will allow us to work hands on with VMware ESX vSphere in a corporate setting.
+
+Our Scenario 
+Your Role in the Company 
+Network Diagram 
+Video 4 VMware Certification - Preparing for the VCP and VCDXIn this Video you will discover the benefits of becoming a VCP and you will learn the best way to prepare for your VCP and VCDX exams. 
+
+What are My VMware Certification Options? 
+What Does It Take to Get a VCP? 
+What Are the Benefits to Becoming a VCP? 
+How Do I Upgrade My VCP Certification? 
+How Do I Best Prepare for the VCP? 
+What Does It Take to Get a VCDX? 
+What is a vExpert? 
+Video 5-1 Introduction to Virtualization In this Video we are starting with the basics of virtualization. If youâ€™re new to virtualization this Video will be a great place to start out and if you are more experienced with virtualization, then this Video will be a great virtualization review as you start to work your way through the rest of the course.
+
+What is Virtualization? 
+Virtualization Management Layer Approach 
+Dedicated Virtualization Approach 
+What Are the Various Types of Virtualization? 
+Server Virtualization 
+Storage Virtualization 
+Network Virtualization 
+Application Virtualization 
+Desktop Virtualization 
+What Type of Virtualization is Right for Your? 
+What Makes Virtualization So Appealing? 
+How Can Server Virtualization Help Me? 
+Video 5-2 Virtualization Products Compared What are the differences between the various virtualization products that are available? In this Video we will compare and contrast virtualization software and go over the pluses and minuses of each.
+
+VMware ESX 4 Server 
+VMware Server 
+Microsoft Hyper-V 
+Microsoft Virtual Server 2005 R2 with SP1 
+Citrix XenServer 
+Competitive Comparison 
+Video 6 VMware ESXi4 Free Edition for the SMB In this Video you will learn the differences between the free edition of VMware ESXi and vSphere. Plus, you will see why ESXi is a great solution for small businesses.
+
+What Does VMware ESXi Free Edition Offer You? 
+Why is ESXi Free Ideal for the SMB? 
+Hardware Requirements 
+Getting and Installing ESXi Free 
+VMware ESXi Free Edition FAQ 
+ESXi vs. vSphere 
+Video 7 VMware vSphere 4 and ESX EssentialsIn this Video we will discuss the new features and versions of vSphere and vSphere related products. Plus, we will delve into one of the hottest IT topics around today, Cloud Computing.
+
+vSphere Overview 
+vSphere Offers New Features 
+Learning "vEverything" â€“ vCloud, vCompute, vNetwork, vStorage, and vMore 
+Cloud Computing 
+vSphere Components 
+VMware vSphere-Related Products 
+Packaging and Versions 
+No, You Cannot Buy ESX 
+New Licensing Changes in vSphere 
+Upgrading from Virtual Infrastructure Suite/ESX 3.x 
+Video 8-1 vSphere Management OptionsIn this Video you will learn how to utilize the different management options of vSphere in order to properly take advantage of the features that vSphere offers.
+
+How Do I Manage This Thing? 
+Whatâ€™s the Password, Man? 
+Point Your Web Browser to ESX and vCenter 
+Command Line Junkies â€“ COS and SSH 
+Hacking the ESXi Console to Gain Access 
+I Love the vSphere Client! 
+Video 8-2 Installing the VMware vSphere ClientBefore you install the vSphere Client, you need to understand the installation requirements to make sure everything installs smoothly. Plus, we will actual download and perform a VMware vSphere installation.
+
+vSphere Client Installation Requirements 
+vSphere Client Includes... 
+Downloading and Installing the vSphere Client 
+Video 8-3 Navigating vSphere using the vSphere ClientInstalling the vSphere Client wonâ€™t do you much good if youâ€™re unsure how to use it. In this Video, I will walk you through what you need to know to successfully utilize the vSphere Client.
+
+vSphere Terminology (Lingo) 
+Using the vSphere Client 
+Navigating the vSphere Client with Hotkeys 
+Searching the Virtual Infrastructure 
+Sorting and Filtering in the vSphere Client 
+Exporting Data 
+Running Reports 
+Performing VM Guest Remote Control 
+Video 9 Running VMware ESX 4 in WorkstationIn this Video you will learn why running VMware ESX 4 in Workstation may be beneficial. Plus, I will walk you through the requirements for this type of setup and the best way to configure VMware ESX in Workstation.
+
+Why Would You Want to Run ESX in WS? 
+What is Required? 
+Do I Have the Right CPU? 
+How Do You Configure Your Workstation VM That Will Run ESX? 
+Creating ESX Server 4.0 Inside Workstation 
+Running Our New ESX Server 
+Video 10-1 Installing VMware ESX 4In this Video I will prepar you to install VMware ESX 4 and you can follow along as I download and install VMware ESX 4, step-by-step.
+
+Why is Hardware Compatibility so Important? 
+How to Check Hardware Compatibility 
+Official Hardware Requirements 
+Downloading VMware ESX 4 
+Installing VMware ESX 4, Step by Step 
+Starting ESX 4 for the First Time 
+Installation Tips and Tricks 
+Video 10-2 Installing VMware ESXi Version 4In this Video you will learn the process of checking for hardware compatability, checking hardware requirements, and you will work hands on to install and configure your own ESXi Server!
+
+Why is Hardware Compatibility so Important? 
+How to Check Hardware Compatability 
+Official Hardware Requirements 
+ESXi Installation Notes 
+ESXi is the "Real Deal" 
+Difference Between ESXi Free, ESXi Installable, and ESXi Embedded 
+Downloading VMware ESXi Version 4 
+Installing VMware ESXi Version 4, Step By Step 
+5 Steps to Configuring Your New ESXi Server 
+Checking DNS in a Web Browser 
+Video 11-1 Installing VMware vCenter 4In this Video you will learn about the new features of vCenter 4. Plus, you will see how to install and configure vCenter 4 step by step.
+
+vCenter 101 â€“ What You Need to Know 
+What&rsqups New in vCenter4 
+Installation Requirements and Prerequisites 
+vCenter Server Components & Add-Ons 
+Required Ports for vCenter 
+How and Where to Download vCenter 4 
+Advantages to Installing vCenter in a VM 
+Installing vCenter 4, Step-by-Step 
+Verifying Our Installation 
+Video 11-2 Installing VMware ESXi Version 4In this Video you will see how to properly name and organize your Virtual Infrastructure. Plus, you will work hands on to create and configure your own Virtual Infrastructure.
+
+Planning the Virtual Infrastructure 
+Wired Brain Coffee Company Network Diagram 
+Creating Our Virtual Infrastructure 
+Configuring vSphere Licensing 
+Removing "Getting Started" Tabs 
+Configuring the ESX Server Clock and NTP 
+vCenter Server Settings and Plugins 
+Reviewing System Logs 
+vCenter Sessions 
+vCenter Service Status 
+Monitoring ESX Host Health Hardware Status 
+Video 11-3 Creating and Modifying Virtual Guest MachinesInstalling a guest operating system in a guest virtual machine can be tricky and in this Video you will see how to avoid common issues while installing a guest OS. Plus, you will work hands on to create your own guest virtual machine and install a guest operating system. 
+
+Changing BIOS Settings in a Guest VM 
+Creating ISO Images of CD/DVD Install Media 
+Using LC ISO Creator 
+Transferring ISO Files to Your ESX Server 
+Using Datastore Browser Upload Feature 
+Using Secure Copy Protocol (SCP) 
+Using PuTTY 
+Samba Client Share 
+Creating a New Virtual Machine and Installing the OS 
+VMware Guest OS Install Guide 
+VMware Compatibility Guide 
+Steps to Installing Your New Guest VM 
+Creating a New VM 
+Installing a Guest Operating System 
+Downloading VMs from Virtual Appliance Marketplace 
+Video 11-4 Installing and Configuring VMware ToolsIn this Video I will show you why using VMware Tools is essential and I will cover everything from installing VMware Tools, to configuring VMware Tools, and updating VMware tools. 
+
+Why You Should Use the VMware Tools 
+Installing the VMware Tools in Linux 
+Verifying VMware Tools Installation 
+Running VMware Toolbox in Linux 
+Updating VMware Tools 
+Installing the VMware Tools in Windows 
+Configuring VMware Tools with VMware Toolbox 
+How to Use Searching, Sorting, and Filtering to Find Out if VMware Tools are Installed 
+Video 11-5 Adding Virtual Machine Hardware with vSphere Hot PlugOne of the main benefits of virtualization is the ability to add new virtual machine hardware to your VM quickly and efficiently. In this Video you will learn how to "Hot Add" RAM and "Hot Plug" for CPU while your virtual machine is running. 
+
+Adding, Modifying, and Removing Virtual Hardware 
+What Are the Requirements to Use vSphere Hot Add/Hot Plug? 
+Using Hot Add to Add RAM to a Virtual Machine 
+Using Hot Plug to Add CPU to a Virtual Machine 
+Using Hot Add and Hot Plug without a Reboot 
+Adding a 2nd Virtual Disk to a Running Virtual Machine 
+Expanding a Virtual Disk on a Running Virtual Machine 
+Video 11-6 Using vSphere Host ProfilesIn this Video you will see how to solve common issues like standardizing ESX Server configuration, using Host Profiles. This is a cool new feature in vSphere that you canâ€™t afford to miss! 
+
+Standardizing ESX Server Configuration with vSphere Host Profiles 
+5 Steps to Using Host Profiles 
+Creating and Editing Host Profiles 
+Checking Compliance 
+Applying Host Profiles to Servers and Clusters 
+Another Way of Checking Compliance 
+Video 12 Administering VMware ESX Server SecurityIn this Video you will learn how to use the various security tools of vSphere to make sure your virtual environment is properly secured. 
+
+Basics of vSphere Security 
+VMsafe and vShield Overview 
+Default vSphere Security Roles 
+Adding, Modifying, and REmoving ESX Users and Groups 
+Using Windows AD Users and Groups to Secure vSphere 
+Using AD to Give Specific Access 
+Defining and Applying Roles and Permissions 
+Creating Custom Role 
+Allowing Root Login via SSH 
+Securing Guest Virtual Machines 
+Video 13-1 Introduction to and Installing VMware Data Recovery (VDR)In this Video you will learn how to install and configure VDR. Plus, we will discuss the benefits and limitations of VDR. 
+
+What is VMware Data Recovery (VDR) 
+Why Do I Need VDR? 
+How Do I Get Data Recovery? 
+What Are the Benefits of Using VDR? 
+What Are the Limitations of VDR? 
+How Does VDR Work? 
+Installing VMware Data Recovery 
+Configuring VDR Appliance 
+Installing VDR Plug-In 
+Connecting VDR Appliance to VMware vCenter 
+Video 13-2 Backup and Restore with VMware Data Recovery (VDR)In this Video you will work hands on to backup and restore data on your own virtual machines. 
+
+Creating a Backup Destiniation â€“ Local 
+Adding a Network Share 
+Creating a VDR Backup Job 
+Gotchas of VMware Data Recovery 
+Checking Backup Job Status 
+Recovering/Restoring an ESX Guest VM 
+Video 14-1 Virtual Storage 101 and Storage TerminologyStorage is a critical piece of any virtual infrastructure. In this Video you will learn the critical knowledge you will need to properly utilize Virtual Storage. 
+
+Storage 101s 
+Storage Area Networks 101 
+Understanding iSCSI Storage 
+Why You Need a Storage Area Network (SAN) 
+Storage Terms You Must Know 
+What Is in a Database? 
+ESX Server Storage Options 
+VMFS Specs and Maximums 
+Video 14-2 Configuring vSphere StorageIn this you will work hands on to configure vSphere Storage using the virtual storage theory you have learned thus far. 
+
+New vSphere Datastore Inventory 
+Datastore Maps 
+Datastore Performance 
+Datastore Configuration Tab 
+Datastore Tasks, Events, Alarms, and Permissions 
+Database Storage Views 
+Thin Provisioning for Fun and Profit 
+Creating New Virtual Machine with Thin Provision Disk 
+Finding Out the Disk Provisioning Type on Existing Disks 
+Converting a Thick Provision Disk to a Thin Provision Disk and Vice Versa 
+Storage Views in Relation to Thin Provisioning 
+Configure an Alarm to Prevent Overprovision 
+Digging Into Datastores 
+Taking and Using vSphere Snapshots 
+Creating and Deleting Snapshots 
+Video 14-3 Creating a Free iSCSI SAN with OpenFilerA Storage Area Network is the best way to manage storage when you have two or more servers. In this Video I will show you how to use OpenFiler to configure iSCSI so that you will have one place to back up your data and manage your data as it grows. 
+
+OpenFiler Can "Open" Your Eyes to a SAN 
+Free SAN for All â€“ Downloading OpenFiler 
+Installing OpenFiler 
+Configuring OpenFiler 
+Configuring OpenFiler as Our iSCSI SAN 
+Configuring iSCSI in vSphere 4 
+Creating a New Datastore for Our New Connection 
+Video 15-1 vSphere Virtual NetworkingIn this Video you will learn about the vNetwork and the benefits of network virtualization. You will see how Virtual Networking can save your company time and money when it comes to implementation, troubleshooting, and getting away from physical hardware. 
+
+vNetwork Overview 
+New vNetwork Features in vSphere 
+vNetwork Terms â€“ vmnic, vswitch, vswif, & Port Group 
+Viewing Cisco Discovery Protocol (CDP) Stats 
+vNetwork Configuration Scenarios â€“ Single NIC 
+vNetwork Configuration Scenarios â€“ Private/Host Only 
+vNetwork Configuration Scenarios â€“ Multiple NICs 
+Using VLANs with vSphere 
+Configuring vNetworks and vSwitches 
+Moving Linux Servers to New VM Network 
+Providing ESX3 with Network Redundancy and Load Balancing 
+Checking Out Network Traffic Shaping and Security Options 
+CLI Network Troubleshooting Commands 
+Best Practices for vSphere Networking 
+Video 15-2 Using the vSphere Distributed Virtual Switch (dvswitch)The vNetwork Distributed Switch is a new feature that can only be found in VMware vSphere. In this Video you will learn how to configure the vDS to provide consistent networking across all hosts. 
+
+Introduction to the vNetwork Distributed Switch (vDS) 
+Comparing the vSphere Standard Switch to the Distributed Virtual Switch 
+Benefits of the Distributed Virtual Switch 
+Creating a New dvSwitch and Adding Hosts and vmnics to dvSwitch 
+Creating a dvport Group 
+Migrating a Single Virtual Machine 
+Migrating Legacy vSwitches and VM Networks to dvSwitch 
+Migrating Virtual Adaptors (SC & VMKernel) to dvSwitch 
+Viewing dvSwitch Mapping, Adv Conf, & Alarms 
+Video 16 Understanding and Using Tasks, Events, and AlarmsIn this Video you will work hands on to learn how to use tasks and events and how to access them at different levels of the virtual infrastructure. Plus, you will learn to configure SNMP and SMTP to send email from vCenter. 
+
+Understanding Tasks and Events 
+Exporting Events 
+"Events Home" Section 
+Creating Scheduled Tasks 
+Configuring SNMP Traps in vCenter 
+Configuring SMTP Email in vCenter 
+Alerting with vCenter Alarms 
+Video 17 Performance Optimization in VMware vSphereIn this Video you will learn about the best practices to improve your vSphere 4 performance. Plus, we will work with several performance management tools and use them to view performance information inside the vSphere Client and at the command line. 
+
+Whatâ€™s New in vSphere 4 Related to Performance 
+Selecting the Right Hardware 
+Performance Best Practices 
+Why You Should Care About "Ready Time" 
+vSphere Performance Management Tools 
+CLI Performance Tool esxtop on ESX Full and ESXi 
+vSphere Performance Management Tools 
+3rd Party Performance Management Tools 
+Using Distributed Resource Scheduler (DRS) 
+Video 18 Upgrading from VMware ESX 3.x and Virtual Infrastructure to vSphere 4Is your company currently using a version of ESX 3.x? Donâ€™t let the daunting task of upgrading get you down! In this Video we will work step by step through the upgrade process from ESX 3.x to vSphere 4. 
+
+Upgrade Prerequisites 
+Basic Upgrade Process 
+Edition Licenses 
+Upgrade Checklist for the Wired Brain Coffee Company 
+vCenter Server Upgrade 
+ESX Host Upgrade Using the vSphere Host Upgrade Utility 
+Upgrading VMware Tools and Virtual Hardware Version 
+Upgrading Licensing 
+Video 19-1 Moving Virtual Machines with VMotionIn this Video you will learn how to use VMotion to move RUNNING virtual machines off of one ESX server and onto another ESX server. That means that your end users can use the applications on the virtual machine while you are moving it, resulting in virtually no downtime! You canâ€™t afford to miss this Video! 
+
+Why You need VMotion 
+VMotion Requirements 
+VMotioning Virtual Machines 
+Video 19-2 Moving Virtual Storage with SVMotionIn this Video you will learn how to move the storage of RUNNING virtual machines from one datastore to another datastore. Plus, you will work hands on with SVMotion to migrate your storage to another datastore. 
+
+What is SVMotion? 
+SVMotion Requirements 
+Thin Provisioning and SVMotion 
+SVMotion Your Storage â€“ Step-by-Step 
+Video 19-3 Load Balancing with Distributed Resource Scheduler (DRS)As utilization of your virtual infrastructure begins to grow you will notice that the load on some virtual machines will be much greater than others. In this Video you will learn how to use the Distributed Resource Scheduler to guarantee service levels and prevent a single virtual machine from monopolizing all of the resources. 
+
+Auto Load Balancing with DRS 
+Requirements to Use DRS 
+Reserving Resources 
+Creating a DRS Enabled Cluster 
+Adding ESX Servers to Our Cluster 
+Testing DRS 
+Using Resource Allocation 
+DRS/HA Cluster Settings 
+Resource Distribution Chart 
+Creating Resource Pools 
+Video 19-4 Implementing High Availability with VMware HA (VMHA)In this Video you will learn how to use High Availability to bring back a critical application in the event of an ESX server failure. Plus, you will work hands on to configure VMHA in your own virtual environment. 
+
+Why Do You Need High Availability (HA)? 
+VMHA Saving the Day 
+Requirements for VMHA 
+Configuring VMHA, Step-by-Step 
+Adding ESX Host to the Cluster 
+Enabling VMHA 
+Testing VMHA 
+Optional VMHA Configurations 
+Best Practices for VMHA 
+Video 19-5 Super High Availability with VMware Fault Tolerance (FT)In this Video I will show you how to implement Fault Tolerance to provide continuous availability for a Virtual Machine. This literally means you will see how to make sure your Virtual Machines experience zero downtime! 
+
+Achieve Zero Downtime with Fault Tolerance (FT) 
+Requirements of FT 
+Constraints of FT 
+Testing to See If You Can Use FT with VMware Site Survey 
+Flip the Switch and Enable FT! 
+Testing Failover of Fault Tolerance Virtual Machine 

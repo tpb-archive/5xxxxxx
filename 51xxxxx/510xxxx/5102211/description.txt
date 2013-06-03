@@ -1,0 +1,46 @@
+*************************************
+* Encoded using HandBrake on Ubuntu *
+*************************************
+ job configuration:
+  * source
+    + /media/cdrom0/VIDEO_TS
+    + title 3, chapter(s) 1 to 45
+  * destination
+    + Royal.Canadian.Air.Farce.Farcebook.Disc.1.of.2.mkv
+    + container: Matroska (.mkv)
+      + chapter markers
+  * video track
+    + decoder: mpeg2
+      + bitrate 7000 kbps
+    + frame rate: 29.970 fps -> variable fps
+    + loose anamorphic
+      + storage dimensions: 720 * 480 -> 720 * 480, crop 0/0/0/0
+      + pixel aspect ratio: 853 / 720
+      + display dimensions: 853 * 480
+    + filters
+      + Detelecine (pullup) (default settings)
+      + Deinterlaces selectively with yadif/mcdeint and lowpass5 blending (default settings)
+    + encoder: x264
+      + options: ref=3:mixed-refs:bframes=6:weightb:direct=auto:b-pyramid:me=umh:subme=9:analyse=all:8x8dct:trellis=1:nr=150:no-fast-pskip=1:psy-rd=1,1
+      + bitrate: 1300 kbps, pass: 2
+  * audio track 0
+    + decoder: English (AC3) (5.1 ch) (track 1, id 80bd)
+      + bitrate: 224 kbps, samplerate: 48000 Hz
+    + mixdown: Stereo
+    + encoder: faac
+      + bitrate: 160 kbps, samplerate: 48000 Hz
+
+FARCEBOOK
+
+* 2 Disc Set - Includes Our 300th Episode! *
+
+Farcebook is a double-DVD of Air Farce comedy, Canada's favourite social networking tool. The favs from 2007 disc features 43 favourite scenes from Royal Canadian Air Farce's latest season on CBC Television, taking pokes and potshots at outsourced phone centres, Mac ads and iPods, oddball comedy moments with Britney and Sir Paul, and irresistible targets like politics and politicians.
+
+Disc 2 is AF300 Live, Air Farce's 300th episode, performed and broadcast live on Friday, March 30, 2007. It's a live-to-air hour of television, exactly as broadcast, complete with a couple of near-breakups, special guest performers Sitara Hewitt, Sheila McCarthy and Carlo Rota from Little Mosque on the Prairie, Fred Ewanuick from Corner Gas, Mary Walsh as Marg, Princess Warrior, and cameo visits by Don Cherry, Ron MacLean, and Peter Mansbridge
+
+Available at your favourite DVD retailer. For rush service contact Marty at Air Farce at 416-205-3800, or email him at marty@airfarce.com.
+The CBC Boutique has a number of Air Farce items available for purchase on-line, or over the phone.
+
+Visit the CBC Shop Online (Search Category - Air Farce.)
+
+www.airfarce.com

@@ -1,0 +1,43 @@
+
+
+FL Studio is a Digital Audio Workstation (DAW) for Windows PCs (or Intel Mac/ 
+Bootcamp). With a full feature-set and aggressive pricing (inc. lifetime free updates), FL Studio may be your ideal DAW!
+FL Studio can be used as a scratchpad for your ideas or to produce completely mastered tracks ready for publication. It's up to you! 
+
+Chief Software Architect, Didier Dambrin has realized his vision of creating an open-architecture virtual studio environment where the only constraint on the users is their own imagination. This philosophy is reflected in FL Studio 8?s flexible audio and control data routing, free-form Playlist design and interoperability with industry standards (VST/VSTi/VST2, DXi, DXi2, Buzz, ReWire, MIDI, MP3, WAV, OGG). Didier notes ?We don't try to protect our data & come up with new formats only for marketing reasons. We use existing standards as much as possible, and allow FL Studio to be used as a plugin in other hosts?. In version 8, particular emphasis has been given to improved workflow through enhanced interface design, so that ideas can be crystallized and creativity captured. 
+
+
+New Features in FL Studio 8
+
+FL Engine/Interface
+Cleartype not forced on anymore for mixer labels for Win9X platforms (and there was much rejoicing!). 
+Added recording filter (right-click record button). Choose to record Audio, Automation or Note data independently. 
+Menu icons replaced by global down arrows for a more consistent GUI. 
+New spectral view in monitor panel. 
+Event automation now displayed in pattern clips. 
+Channels in piano roll channel selector are now sorted by channel group. 
+New list of available patterns when right-clicking the pattern selector. 
+Patterns named '-pattern name' now act as separators in lists. 
+Added mouse wheel support to popup menus & combo selectors. 
+Added plugin interface thumbnail pictures to project browser (manual process to add) . 
+Generator smart disable is now compatible with threaded rendering. 
+Added OGG Vorbis rendering (open source compressed audio format). 
+Some FL plugins now support .ogg format audio. 
+Never lose a keyboard performance. The new score logger records all MIDI activity from controller keyboards and the 'typing-piano keyboard' in a 3 minute buffer. 
+Updated MP3 codec (LAME 3.97). 
+One-click audio recording now prompts to record in Edison. 
+Default audio device changed to ASIO4ALL. 
+Sinc interpolator now faster (64point sinc now usable real-time if you have a fast CPU). 
+FL Studio can permanently learn and remember links to external controllers. The new 'multilink' function + 'Override generic links' option. 
+Tweaking controls on VST(i)s now show a hint message in FL's hint bar (when possible). 
+Rendering with latency compensation. 
+Introducing FL-chan in wallpapers.
+
+
+
+1. Install FL with the installer. (Do Not Launch!)
+2. Register FLRegkey (click 2 times and answer yes)
+3. Put FLengine.dll in the directory where you installed FL  (should be somewhere in C:/Program Files/Image-Line/Fl Studio 8)
+4. Launch FL and have fun ;)
+
+

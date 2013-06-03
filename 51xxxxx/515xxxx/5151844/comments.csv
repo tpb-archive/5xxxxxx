@@ -1,0 +1,36 @@
+User Type,Username,Date,Text
+,kestp,2009-11-14T00:07Z,"i no longer will be seeding it as i am going overseas, keep it alive for others if it helped you"
+,Plus18,2009-12-04T23:53Z,"Since thi sis just a text file, I don't see any issue with just posting the contents here, it doesn't take a rocket surgeon to figure it out
+
+1. Go to your ""My Documents""
+2. Find a folder called ""My Games"" 
+3. Make your way through Folders in ""Borderlands""
+   folder until you reach ""Config"" folder.
+4. Open up ""WillowEngine""
+5. Scroll to the bottom line in the file and add semicolons
+   in front of the entries like below or just copy and
+   replace:
+
+[FullScreenMovie]
+StartupMovies=2K_logo
+StartupMovies=Gearbox_logo
+StartupMovies=NVidia
+StartupMovies=Loading
+SkippableMovies=2K_logo
+SkippableMovies=Gearbox_logo
+SkippableMovies=Attract
+SkippableMovies=NVidia
+
+with:
+
+[FullScreenMovie]
+;StartupMovies=2K_logo
+;StartupMovies=Gearbox_logo
+;StartupMovies=NVidia
+;StartupMovies=Loading
+;SkippableMovies=2K_logo
+;SkippableMovies=Gearbox_logo
+;SkippableMovies=Attract
+;SkippableMovies=NVidia
+
+6. Save the file, and that's it."

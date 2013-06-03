@@ -1,0 +1,125 @@
+User Type,Username,Date,Text
+,DaveGee123,2009-10-13T18:49Z,"
+Awesome !!!     Finally !"
+,cash11,2009-10-17T16:31Z,I'm impatient....can't get UGS licensing to install.  Seems to lock up at the very end of installation.  Anyone know what order to install?
+,cash11,2009-10-18T20:12Z,"Got it... nevermind. Still need a crack but at least I got it installed.  I didn't bother installing the UGS licensing server.  Here's my instructions for just installing NX6 (Still need crack):  
+
+1. Install X11
+2. Install OpenMotif
+3. Install NX6"
+,cash11,2009-10-27T16:16Z,Anybody get this to work?
+,gatanass,2009-11-22T11:05Z,"Hi, did anyone get this to work I can get the NX6 to install but the license soft won't install... therefore I can't use NX6... some help would be nice. Cheers"
+,caico1,2009-12-03T23:38Z,"Hi all
+
+I was able to install everything, but it doesn´t work. Here´s the guide to install:
+
+1. Install OpenMotif.
+2. Copy the included license file from the DVD to your hard disk (it must be on a non-write-protected drive).
+3. Install UGSLicensing. When prompted to select a license file, point to the copy on your hard disk.
+4. The previous step creates a folder named UGS Licensing (or something like that). Inside this folder is the actual license file the system will use (a modified, partly encrypted copy of the original). You must edit this file: in the SERVER line replace ´this_host´ (or ´yourhost´) with ´127.0.0.1´. Also, be sure the port number is set to 28000 on the same line.
+5. Install NX. when prompted for the license server, enter ´28000@127.0.0.1´.
+
+That's it. Just reboot your Mac and you´re done.
+
+This installs everything and starts the license server daemons, but the program refuses to start complaining that no licenses are available (it communicates with the license server, but obviously there´s something wrong with the licensed products in the license file.). If someone figures out how to fix this, it will be really appreciated!"
+,mantraa,2009-12-10T08:37Z,"hi all
+thx for the app (wating long time for it)
+
+but there is a problem:
+I try to install on mac os 10.6.2
+I can't install the license file / app
+try calco1 's way, but it doesn't work.
+is this a problem wit snow leopard? any ideas?
+is there a crack anywhere?
+
+cheers!"
+,admawi,2009-12-10T13:11Z,"I think we all figured out that the License file is either missing some files or there is a way to set up ""your_host"" and port in the license file
+
+I am positive someone will figure out the solution...just a matter of time :(  "
+,XarisR,2009-12-25T15:27Z,"I do not know how stuff works on a MacOSX, but have you tryied:
+
+A. openning the lic file and change the word ""host"" or ""thisHost"" whith the name of your computer.
+
+B. When prompt to enter a server, enter 28000@ComputerName.
+
+C. Try installing ugslincensing. Create a license named ""NX 6"" (I do not know how, I do not own a mac) using ugs2.lic file altered as in step A.
+
+D. Create some king of a envieromental value like the one we create in the windows world.
+""UGS_LICENSE_SERVER=28000@YourComputerName""
+
+
+This are the steps I would take.
+
+Good Luck"
+,See280,2010-02-10T20:54Z,"I have not completed the Download yet, but I was wondering if anyone has tried converting the License File to a UNIX Executable;
+
+You do this by opening Terminal and typing:
+
+CHMOD +x ""drag license file to terminal window to automate the file path"" then press return. 
+
+Being as I have not tried this I would do this only to a duplicate of the License file, and maybe try it with the different suggestions above . . . "
+,appocc,2010-03-11T13:53Z,"hey, could anyone make it work properly!?
+
+i made all the way thru the installation, but had no luck.
+
+See280, did ur method worked out??
+
+any idea about magnitude??
+
+pls guys, dont want to go back to work in windows
+cya!"
+,mourgh,2010-09-12T08:13Z,"It works. When ugslicensing install hangs at ./postflight it means your license file is not configured to your computer. fix it.
+
+If you get past this point then you are good.
+The reason it fucks up is because of:
+
+http://support.ugs.com/issues/nx6_license.shtml
+
+Do this.
+
+Remember to correctly configure your server hostname in the license file. (in sharing prefs)
+
+This is a really neat up and a great chance to learn a lot. Thanks guys."
+,c486381,2010-09-15T21:42Z,"@mourgh
+
+Can you pls write exactly your steps you took to make it work?
+"
+,cash11,2010-11-01T00:40Z,"At this point I can install all the software...can get past the 28000@this_host server warning.  
+
+Now i'm stuck at the UGS_LICENSE_BUNDLE environment variable error. I've tried selecting bundles....tried to create an environment variable with the matching bundle.   No luck at all.   Any suggestions?"
+,Joselo17,2010-12-23T23:24Z,"Hello guys,
+
+I got to run de app.
+If anyone wants to know how to right install and run the app just send me an email and i send you the instructions.
+
+As soon as posible i will post you the Instructions.
+I'm writing from my phone so sorry for the delay.
+
+I used the license file hacKed for winxp.
+josluis.torres@gmail.com"
+,Joselo17,2011-01-13T02:53Z,Im looking for some tutorials!
+,mrkiss89,2011-01-31T08:31Z,"It hangs when I install UGSLicensing.
+CPU usage rise to 200%(dual core) and never stop
+I changed hostname in the ugs2.lic file already.
+
+Have anyone an idea what's wrong?"
+,monkey74,2011-02-01T15:34Z,"I had the over run problem as well. I carried on and it had is all working fine now, I think it does it at the very end of the script. 
+
+Does the licence that comes with this require the clock to be set to 2007 ? 
+
+Anyone have any links to tutorials ?"
+,mourgh,2011-03-03T15:48Z,"""The NX6.0.4 Maintenance Release has updated ugs_composite. Please 
+install NX6.0.4 to get the latest updates for identifying the 
+license server on MAC OS X. The MAX OS X NX6.0.4 Maintenance Release, 
+nx-6.0.4.tar.gz, can be downloaded from:
+
+http://ftp.ugs.com/unigraphics/maintenance-release/nx6/macos/nx-6.0.4.tar.gz"""
+,gavinmrsh,2011-03-21T19:14Z,"I can't get this to install the license package. I've altered the license file to say ""mycomputername"" as the host. Still won't work. It gets as far as 
+
+""running package scripts"" then hangs up.
+
+Help !!??"
+,Jhex,2011-06-10T05:32Z,"Please someone help!  I've tried everything multiple times.  I've even got the tutorial from @joselo17.
+
+If anyone can help please post!!!!"
+,kokanevishal,2011-11-02T14:43Z,nx6 for windows with licensing pls.

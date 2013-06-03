@@ -1,0 +1,212 @@
+B L I Z Z A R D               
+                                              
+                                                        
+               South River WebDrive v9.02.2232          
+                           Enterprise Edition                       
+            release date: 2009-12-04      supplier: TEAM BLZ           
+                   disks: 2                cracker: TEAM BLZ          
+               protection: Lic/Online Auth       os: WinALL            
+                                                                  
+                                                              
+     
+                  RELEASE INFO               
+       
+                                              
+                                                         
+                                                                
+                                                                    
+                                                                       
+                                                                       
+    WebDrive is more than just an FTP Client. Unlike a typical FTP     
+    client, WebDrive allows you to open and edit server-based files    
+    without the additional step of downloading the file. Using a       
+    simple wizard, you assign a network drive letter to the FTP        
+    Server. By connecting through a virtual drive, there is no need    
+    to learn a separate FTP client interface. You access and edit      
+    files on the server the same way that you interact with files on   
+    your local PC.                                                     
+                                                                       
+    WebDrive supports additional protocols such as SFTP, WebDAV and    
+    Amazon S3. WebDrive can also connect to online storage services    
+    or your corporate SharePoint Server.                               
+                                                                       
+    Simple Set-up and Configuration                                    
+                                                                       
+    The WebDrive site manager makes it easy to define your             
+    connections. Just enter the server URL and your username and       
+    password and press "connect," to map the selected drive letter to  
+    your server. You can map different directories on the same server  
+    to unique drive letters. This provides easier access to            
+    frequently updated directories. You can also map unique drive      
+    letters to different server types - one drive to an SFTP server,   
+    one to a WebDAV server and another to an FTP server or to Amazon   
+    Web Services. This functionality is not available in typical FTP   
+    software.                                                          
+                                                                       
+    Security Features                                                  
+                                                                       
+    WebDrive has built-in support for the industry standard SSL        
+    protocol. When used in conjunction with secure WebDAV, FTP, FTPS,  
+    or SFTP servers, WebDrive will open an encrypted tunnel between    
+    the client computer and the remote server; giving you secure       
+    transmission of critical data over the Internet. WebDrive can      
+    also be used as an alternative to a corporate VPN. Install the     
+    WebDrive client and an SSL enabled server, and WebDrive can act    
+    as the VPN for your company; an efficient alternative to an        
+    expensive VPN and non-secure FTP client connections.               
+                                                                       
+    Works from Within Your Favorite Applications                       
+                                                                       
+    Open your FTP files from a network drive. It's as easy as editing  
+    files in your "My Documents" FolderUse WebDrive to access and      
+    edit files on your server from within your favorite applications.  
+    Rather than launching an FTP Client or SFTP Client to update your  
+    files, just open the file directly from its folder on the server   
+    and the correct application will launch. When you are finished,    
+    simply click save from within the application. No additional       
+    steps to upload or download.                                       
+                                                                       
+    For example, you can open MS Word and access your FTP files from   
+    the "Open" menu item on the "File" menu. You can also open your    
+    recently edited files. Or use Microsoft Backup to create backups   
+    of your web site, by simply selecting the drive letter to be       
+    backed up.                                                         
+                                                                       
+    WebDrive works with all Windows applications                       
+                                                                       
+    Convenient Search Capability for Your Server Files                 
+                                                                       
+    WebDrive lets you search for files on your server using your       
+    desktop search software. If you use Google Desktop Search, or MSN  
+    Desktop Search, simply configure your search utility to index the  
+    files on the drive letter that WebDrive maps to your server.       
+    Imagine getting search results from your corporate FTP Server,     
+    your Apple iDisk Storage, and your local desktop in one search!    
+    DOS/Legacy Support (Command Line)                                  
+                                                                       
+    Once WebDrive has mapped a drive to your server, you can access    
+    it like a local drive. Use a DOS-prompt to use commands such as,   
+    copy, xcopy, mkdir, dir, move, etc.                                
+                                                                       
+                                                                       
+    Advanced Features...                                               
+                                                                       
+    - SFTP Support - Use WebDrive to connect to your SFTP/SSH server   
+      for fast, secure file access.                                    
+    - Amazon S3 Support - Use WebDrive to connect to your Amazon Web   
+      Services online storage account.                                 
+    - Microsoft FrontPage Support - Connect to any website running     
+      the Microsoft FrontPage extensions.                              
+    - Firewall/Proxy server support - Login through a variety of       
+      proxy servers and firewalls, including MS Proxy 2.0, SOCKS 4.3   
+      and SOCKS 5, and Raptor (gwpasswd).                              
+    - S/KEY Password Encryption - Use MD4 & MD5 password encryption    
+      for supported FTP servers.                                       
+    - Foreign Language Support - Support for Far East languages, such  
+      as Japanese and Chinese, using DBCS.                             
+    - File Caching - WebDrive caches both file and directory listings  
+      for quick access. You can control the amount of disk space used  
+      for the cache, and whether to cache files, directory listings,   
+      or both.                                                         
+    - FTP resume interrupted download.                                 
+    - Support for Unix file attributes through an Explorer shell       
+      extension as well as a command line utility.                     
+    - Options to transfer files in ASCII/Binary mode based on file     
+      extension.                                                       
+                                                                       
+                                                                       
+    Changes in 9.02                                                    
+                                                                       
+    - Fixed: Windows 2000 issue that caused a dll dependency issue     
+      with crypt32.dll, this issue only effects Windows 2000           
+      platforms.                                                       
+                                                                       
+    Changes in 9.01                                                    
+                                                                       
+    - Added: ability to not test directory listing when connecting to  
+      FTP server for the cases where no LIST permissions are possible  
+      however upload permissions are. 
+    - Fixed: Job scheduler was returning an "access denied" error on   
+      low privileged accounts.                                         
+    - Fixed: Intermittent Amazon S3 500 internal server errors.        
+      According to Amazon it's expected that their server will return  
+      this error occasionally and the recommended work around is to    
+      have the client resubmit the command after a pause.  WebDrive    
+      will now retry the command up to "File transfer retry limit"     
+      times and pause 2 seconds between attempts.                      
+    - Fixed: Data Execution Prevention feature of Windows would in     
+      some cases cause webdrive.exe application to terminate when the  
+      popup window was displayed.                                      
+    - Fixed: Amazon S3 duplicate folders being shown.                  
+    - Fixed: Amazon S3 display proper file modification date when      
+      given by the server.                                             
+    - Fixed: VMS FTP Server rename folder issue when moving/renaming   
+      a folder or file to a different location.                        
+                                                                       
+                                                                       
+                                                                      
+                                                                
+                                                          
+                                            
+       
+                  INSTALL INFO                
+       
+                                            
+                                                          
+                                                                
+                                                                      
+                                                                       
+    Run WEBDRIVE9022232.EXE and follow instructions.                   
+                                                                       
+    Run B-WEBDRIVE9022232-PATCH.EXE to eliminate the online            
+    authorization check from the activation procedure.                 
+                                                                       
+    Product Registration Code: 55-386N05-80308A99-007D06-5432          
+                                                                       
+                                                                       
+                                                                      
+                                                                
+                                                          
+                                            
+       
+                    GREETINGS                 
+       
+                                            
+                                                          
+                                                                
+                                                                      
+                                                                       
+      greets fly out to all groups which actively and courageously     
+             work on building better release conditions and            
+                        thus keep the scene up.                        
+                                                                       
+                   special greets to our friends in:                   
+                                                                       
+            absokt - acme - air - digerati - explosion - f4cg          
+         orion - pdx - shock - ssg - tbe - tmg - unleashed - zwt       
+                                                                       
+                                                                      
+                                                                
+                                                          
+                                            
+       
+                     CONTACT                  
+       
+                                            
+                                                          
+                                                                
+                                                                      
+                                                                       
+     We are a closed group, if we need you then we will contact you!   
+                                                                       
+        Software worth using is worth buying.. keep this in mind!      
+                                                                       
+                                                                  
+                                                          
+                                                  
+           nfo updated on       
+                        2009.07.19                 
+                                    
+                                       
+                            INFOFILE DRAWN BY
+                                 H7/ACCESSiON

@@ -1,0 +1,15 @@
+When you download this file, you have to extract it, then go in that map and copy those files in your l4d2 demo directory.
+There has to be a CRACK folder in your l4d2 demo folder. Go in it and then run UnDead.Injector. 
+After you do that run left4dead2_demo_launcher and create a game. Then you are ready to play.
+If your language in l4d2 demo is in russian, you can change it by clicking on the rev.ini. When you open it, it should look something like this:
+
+
+[Emulator]
+Language = Russian     (change Russian to English)
+
+[Loader]
+ProcName=left4dead2.exe
+SteamClientDll=steamclient.dll
+
+[steamclient]
+PlayerName= Player

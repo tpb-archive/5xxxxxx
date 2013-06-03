@@ -1,0 +1,89 @@
+*******************************************************************************
+                                   Tetrinet
+*******************************************************************************
+
+-------------------------------------------------------------------------------
+                              General Information
+-------------------------------------------------------------------------------
+Type.................: Game
+Platform.............: Windows 9x/ME/2000
+Serial #.............: N/A
+More Info............: http://jetrix.sourceforge.net/
+Part Size............: 771,530 bytes
+Compression Format...: RAR
+
+
+
+-------------------------------------------------------------------------------
+                               Post Information
+-------------------------------------------------------------------------------
+
+Ce jeux trÃ¨s connu permet de jouer jusqu'a 6 joueurs en simultanÃ©e.
+Pour ceux qui ne connaissent pas vous allez pouvoir
+- CrÃ©er des Ã©quipes et paramÃ©trer des parties grÃ¢ce Ã  l'interface de configuration serveur
+
+et envoyer les combos suivants:
+
+*  'A' Block:  ( Ajouter une Ligne )
+		This is the add line block.  It will add
+               a "junk line" to the players field that
+               you choose.
+$  'C' Block:  ( Effacer une Ligne )
+		This is the clear line block.  It clears
+               the line farthest to the bottom in the
+               playing field.
+$  'N' Block:  ( Effacer des blocks )
+		This removes all blocks from a playing
+               field giving the player a "fresh start".
+*  'R' Block:  ( Supprime 10 blocks alÃ©atoirement ) 
+		This removes 10 random blocks from
+               a player's field.
+*  'S' Block:  ( Changer votre jeux avec une autre personne ) 
+		This switches your playing field with
+               another player's field depending on which
+               player number you pressed.  If either of
+               the fields' block stack is over 16 blocks
+               high, the stack will be lowered.
+*  'B' Block:  ( Retire les spÃ©ciales blocks Ã  un adversaire ) 
+		This removes all special blocks from
+               a players field.
+$  'G' Block:  ( GravitÃ© blocks ) 
+		This "gravity" block takes all the blocks
+               on the field and "pulls" them all towards
+               the bottom of the field eliminating any
+               gaps in the blockstack.
+*  'Q' Block:  ( DÃ©placement de gauche Ã  droite des blocks ) 
+		This causes each of the lines of blocks
+               on a players field to randomly shift left
+               or right or not at all.
+*  'O' Block:  ( Bombe sur l'adversaire Ã  condition qu'il ai un O ) 
+		This is the block bomb, when used on a
+               player, it clears 3x3 portions on their
+               field anywhere there are 'o' blocks.
+               Any blocks that were in the 3x3 areas
+               are scattered around the field.
+
+* Attaque
+$ DÃ©fense
+
+Une personne doit hÃ©berger le jeux sur son poste. Il faut pour cela utiliser la version  Serveur cf "Version Serveur"
+
+Â°Â° Version ClientÂ°Â°
+Logiciel permettant de se connecter sur une partie dÃ©jÃ  existante.
+- DÃ©compresser "TetrinetClient_1.13" dans un dossier au choix puis lancer le jeux "TETRINET.exe".
+
+Â°Â°Version ServeurÂ°Â°
+Logiciel permettant d'heberger la partie sur son poste permettant aux autres joueurs de rejoindre la partie en cours.
+NOTA ( Vous pouvez vous mÃªme rejoindre la partie en rÃ©utilisant la Version Client )
+NE PAS UTILISER LA VERSION SERVEUR INCLUE DEJA DANS LE JEUX; CA NE MARCHE PAS PREFERER CELLE CI.
+- Installer "TetrinetServeur_jetrix-0.2.3-installer" respecter les rÃ¨gles ci dessous :
+1 Le port "31457" uniquement en TCP doit Ãªtre ouvert sur votre routeur, voir interface de votre FAI.
+2 Prenez soin de dÃ©sactiver le parfeu de votre antivirus si il y a ;) ( Avast par exemple ^^ ).
+3 CrÃ©er une rÃ¨gle pour l'ouverture du port "31457" pour les connexions entrante sur votre parfeu Windows.
+
+LIRE L AIDE DU JEUX 
+CF "TETRINET.TXT"
+
+Pour personnaliser le jeux, notamment pour la musique que je suis sur vous allez adorer  ... cela se passe dans "DEFAULT.TNP" se trouvant dans le rÃ©pertoire du jeux.
+Si vous voyez pas les piÃ¨ces tomber par exemple vÃ©rifier le chemin dans ce fichier ;)
+

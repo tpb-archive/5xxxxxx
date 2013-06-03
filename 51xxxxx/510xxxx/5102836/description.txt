@@ -1,0 +1,85 @@
+See here for how to root your Android: http://theandroidsite.com/2009/05/14/how-to-root-your-g1-and-install-android-15-cupcake/
+
+CHANGELOG
+
+---- v4.1.11.1
+* Fix the bad signature on Phone.apk that was causing problems if you had wiped before installing
+* Added another 1 to the version number
+
+---- v4.1.11
+* Audio recording (camcorder) is fixed. ** DO NOT use the current volume hacks with this- they will break recording on Donut! **
+* Fixed crash in Market notifications menu
+* New Busybox + xbin stuff
+* Updated Browser patches from Loccy
+* Updated kernel
+* More scheduler tweaks
+* Removed the nasty/scary logging from HTC_IME
+* Error checking during A2SD startup
+* Fixed free memory calculation so swap is taken into account (thanks |Rain|)
+* Fixed signature on the FilePicker apk
+* Included new fix_permissions script
+* A bunch of other small things
+
+---- v4.1.10.1
+* Missed some kernel patches when I rebased from Google's tree (including multitouch)
+
+---- v4.1.10
+* Really fixed compcache modules
+* Updated BFS + tweaks
+* Global Search is now location-enabled
+* Added extra crispiness
+
+---- v4.1.9.2
+* Fixed compcache modules
+
+---- v4.1.9.1
+* Kernel in v4.1.9 was too big, preventing booting on some devices. Moved additional filesystems to modules.
+
+---- v4.1.9
+* Camcorder is back, yay
+* Fix the OpenGL breakage that occurred in 4.1.8
+* Added some APNs
+* Updated DroidSansFallback with additional glyphs
+* Additional scheduler tweaks
+
+---- v4.1.8
+* NO MORE CRASHES/ANRS/PANICS/INSANITY YAY!
+* Lots of tweaks to take advantage of BFS in the framework (no keyboard lag, etc!)
+* Readded GooglePartnerSetup, I think it's needed for the media uploader
+* Now using the BFQ I/O scheduler, which seems like a good compromise between CFQ and the old anticipatory scheduler
+* Fixed phone number parsing again
+* FLAC and WMA should both be working again
+* Meltus v7 volume mod
+* This could probably be stable if the freaking camcorder worked.
+
+---- v4.1.7
+* Updated BFS patch and kernel
+* Updated Compcache patch
+* Dalvik fix for BFS
+* New HTC_IME ported from Hero
+* Fixed Google suggestions for non-US locales
+* Automatic crash data collection via apanic on boot
+* Other stuff.. Hrmph.
+
+---- v4.1.6
+* BIG PERFORMANCE INCREASE! CFS/Cgroups are out, BFS is in!
+* Fixed some HTC_IME issues
+* Added apanic crash logging support
+* Camcorder still broken, sorry.
+
+---- v4.1.5
+* Fixed videoetc)
+* Fixed FilePicker (PDFViewer, etc)
+* Improved speed at which the in-call screen is displayed
+* Removed GooglePartnerSetup since it causes mass ANRs and it doesn't actually seem to do anything useful that I can figure out
+* Should work better on Magic 32B now.
+* Fixed protected apps issue
+* Camcorder is still broken
+* Lock screen is still default.. next version.
+
+---- v4.1.4
+* Welcome to Android 1.6 (Donut)
+* QuickOffice was removed since it's warez
+* KNOWN ISSUES: Camcorder and PDFViewer not working (Camera works though)
+* Lock screen is stock for now, next version will have Stericson's new one
+* High Qualityis goofy right now, will be fixed in next version.

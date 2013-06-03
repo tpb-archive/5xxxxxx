@@ -1,0 +1,174 @@
+Overview
+	 	 
+Global Mapper is more than just a utility; it has built in functionality for distance and area calculations, raster blending, feathering, spectral analysis and contrast adjustment, elevation querying, line of sight calculations, cut-and-fill volume calculations, as well as advanced capabilities like image rectification, contour generation from surface data, view shed analysis (including Fresnel) from surface data, terrain layer comparison (including differencing), and triangulation and gridding of 3D point data. Repetitive tasks can be accomplished using the built in scripting language or comprehensive batch conversion functionality. 		
+ 	 	3D Path Profile
+
+Have you ever received a dataset that does not match the projection of your current project? Simply load the dataset into Global Mapper, change the projection, and save the file to match your coordinate system. If the dataset is larger than the area you are interested in, export the data using the crop feature and change the projection and format of the data at the same time.	 	
+ 	 	Aerial
+
+Your data files can be loaded as layers, for example a Digital Elevation Model (DEM) can be loaded with a scanned topographical map to create a 3D view of the map. A digital aerial image can be draped on the surface together with vector contour mapping to create a stunning and informative graphic. The results can be printed, or the workspace can be exported to a high resolution raster image for use in a presentation or report.
+
+Global Mapper supports viewing of dozens of the most common data formats:
+ 
+DLG-O
+DRG
+DOQ
+DEM
+DGN
+DTED
+DWG	DXF
+SDTS DLG
+SDTS DEM
+ECW
+MrSID
+ESRI Shapefiles
+E00	JPEG2000
+CADRG/CIB
+GeoTIFF
+KML/KMZ
+Lidar LAS
+Arc Grid
+Tiger/Line
+
+And many, many more! Click to find out more about the formats supported by Global Mapper.
+
+Provides direct access to DigitalGlobe high resolution color imagery for the entire world from within the application!
+
+Provides direct access to the complete TerraServer-USA satellite imagery and topographic map archive for the entire US free-of-charge within the application!
+
+Provides easy, direct access to WMS data sources, including built-in access to the complete 30-m NED database, the 3-arc second world SRTM database, and color global imagery free-of-charge within the application!
+
+Supports true 3D viewing of loaded elevation data including draping of any loaded imagery and vector data over the 3D surface.
+
+Crop, reproject, and merge any combination of raster data and elevation data, including DRGs. You can also crop data to an area feature.
+
+DIGITIZING SUPPORT! You can digitize new vector (area, line, and point) features by drawing them with the mouse. You can also edit existing vector features. Newly created and editing features can be saved to any of the supported export formats. In addition, shapes like rectangles, circles, ellipses, arcs, and concentric range rings. can be easily drawn as well. You can also input features via a series of distance/bearing/COGO coordinates.
+
+GPS SUPPORT! You can track a compatible GPS device connected to your computer's serial port or USB port in real-time over any loaded data. In addition, you can mark waypoints at the current GPS location and record a tracklog of where your GPS device has been while connected, all seamless with your loaded map data! With supported devices you can even track multiple GPS devices in order to perform fleet management functions.
+
+PROJECTION/DATUM SUPPORT - Global Mapper supports accurate conversions between a large list of projection systems and datums. NAD27 datum conversions in the US use the NADCON conversion method, and the NTv2 datum conversion method is used for the NAD27 (Canada), AGD66, AGD84, and NZGD49 datums. Custom datum conversions can be easily added in either 3-parameter or 7-parameter form if a required datum transformation is not already supported.
+
+EXPORT SUPPORT! You can export both vector, raster, and elevation data to a variety of formats (see below). You can merge any combination of data sets, regardless of source scale, type, and projection. You can also breakup your data into a regularly spaced grid on export if you'd like as well. Get more details about formats!
+
+Vector Data (i.e. DLGs, Shapefiles, DXF, etc.) 
+Arc Ungenerate format 
+AutoCAD DXF format 
+CDF format 
+CSV format 
+Delft3D (LDB) format 
+DGN format 
+ESRI Shapefile format 
+Garmin PCX5 TRK and WPT formats 
+GPX (GPS eXchange Format) 
+KML/KMZ (Google Earth) formats 
+InRoads ASCII format 
+Landmark Graphics format 
+Lidar LAS format 
+Lowrance USR format 
+MapGen format 
+MapInfo MIF/MID format 
+MapInfo TAB/MAP format 
+MatLab format 
+MOSS format 
+NIMA ASC format 
+Platte River ASCII Digitizer format 
+PLS CADD XYZ Grid format 
+Polish MP (cGPSMapper) format 
+SEGP1 format 
+Simple ASCII Text format 
+Surfer BLN format 
+SVG (Scalable Vector Graphic) format 
+TomTom OV2 (point database) format 
+Tsunami OVR format 
+USGS DLG-O format 
+WAsP .MAP format 
+Raster Data (i.e. imagery, scanned maps, etc.) 
+BIL/BIP/BSQ formats 
+ECW format 
+Erdas Imagine format 
+GeoTIFF format 
+KML/KMZ raster format (including super overlay support) 
+Idrisi format 
+JPG format 
+JPG2000 format 
+NITF format 
+PNG format 
+Elevation Data (i.e. DEMs, etc.) 
+Arc ASCII Grid format 
+BIL format 
+BT (Binary Terrain) format 
+DTED format 
+DXF (3D-point, 3D-mesh, and 3D-face) formats 
+Erdas Imagine format 
+Float/Grid file format 
+Geosoft Grid format 
+GeoTIFF DEM format 
+Gravsoft Grid format 
+Idrisi format 
+Leveller Heightfield format 
+Lidar LAS format 
+MapMaker Terrain file format 
+Optimi Terrain file format 
+PGM Grayscale Grid file format 
+PLS CADD XYZ Grid file format 
+RockWorks Grid format 
+STL format 
+Surfer Grid (ASCII and binary) formats 
+Terragen Terrain file format 
+USGS DEM format 
+VRML format 
+Vulcan3D Triangulation format 
+XYZ ASCII Grid format 
+Zmap Plus Grid format 
+
+IMAGE RECTIFICATION! You can graphically rectify (georeference) any JPG, TIFF, or PNG image and save the results to a new fully georeferenced image. Vector data can also have a rectification process applied to it after loading to allow morphing vector data to fit other data sets.
+
+CONTOUR GENERATION! You can create contours for any combination of elevation data. You can also specify the contour interval to use. The generated contour data can then be exported to any of the supported vector export formats (see previous item for a list).
+
+Automatic triangulation and gridding of 3D point data sets, such as ASCII XYZ files. This allows you to convert a set of elevation samples into a fully gridded data set, which can then be used for contour generation, line of sight analysis, and view shed analysis, among other things. The data can also be exported to any of the supported elevation grid formats, such as USGS DEM.
+
+Support for combining/comparing terrain surfaces, such as DEMs. This allows you to generate a new terrain surface by combining/comparing two loaded terrain surfaces with operations like subtraction (difference), averaging, and min/max. The results can then be exported to any of the supported elevation grid formats, such as USGS DEM.
+
+NASA World Wind Support! Any loaded data can be exported to JPG or PNG image tiles setup for immediate display in NASA's World Wind application. The necessary .xml file is also automatically generated.
+
+Google Maps Support! Any loaded data can be exported to JPG or PNG image tiles setup for immediate display using Google Maps in a web browser. The necessary HTML file is also automatically generated.
+
+Virtual Earth Support! Any loaded data can be exported to JPG or PNG image tiles setup for immediate display using Microsoft's Virtual Earth interface in a web browser. The necessary HTML file is also automatically generated.
+
+Advanced screen capture. You can capture the contents of the screen to a BMP, JPG, PNG, or (Geo)TIFF file of user-specified resolution.
+
+Batch conversion of almost any input data data files to any compatible export type.
+
+Auto-clip collar for DRGs/DOQQs/BSBs. You can now have the collar of USGS DRG, DOQQ and BSB (marine chart) files automatically clipped off. This allows you to seamlessly view a collection of adjacent files.
+
+Supports opening SDTS DLG, SDTS DEM, and most other file types directly from .tar.gz and .zip archives. This saves the major headache of decompressing each SDTS transfer into a separate directory.
+
+Comprehensive view shed analysis using loaded elevation grid data from a user-specified location, transmitter height, and radius.
+
+3D Path Profiling and Line of Sight (LOS) capabilities, including receiver/transmitter heights, minimum clearance, and earth curvature options.
+
+Advanced measurement capabilities, including multi-segment path lengths and headings, enclosed area, and cut-and-fill volume calculations either along a path or within an enclosed area.
+
+Ability to link vector feature attributes to web sites or files.
+
+Support the latest DEM and SDTS DEM formats, including decimeter DEMs.
+
+Supports opening DLG-O and DEM files directly from gzipped archives. This means that you can save space and hassle by not having to decompress the data after you download it.
+
+Slide over text. When you move your cursor around the screen you'll get a description of the nearest feature automatically displayed in the status bar.
+
+Supports keyboard navigation. You can pan about with the arrow keys and zoom in/out with the page up/page down keys.
+
+Search and edit load vector data by name, attribute value, or description.
+
+Load and display JPG images with embedded EXIF positioning data at the location that the image was taken with your EXIF-compatible camera.
+
+And much more!
+
+
+
+The Serial is Included inside the readme file at the end....
+
+ENJOY.....SEED!!!...SEED!!!....plz
+
+DEMON_47

@@ -1,0 +1,72 @@
+Before you wonder about the size, this is not the install disc. This is a backup image of a fresh XP install that I made for my personal use, but I decided to share anyway.
+
+Why get this?
+
+Well if you screw up your Windows XP(and considering you're not planning to move to 7 just as a lot people aren't) and want to get XP back from bare metal stage, this would be handy than reinstalling XP again and installing all the essential programs again. With this you can be using XP within 20 minutes (tested on a 256 mb RAM machine, would be faster if you have more) and it comes with a load of essential softwares. Some full versions, some freewares and one trial.
+
+What softwares are included?
+
+7-Zip 4.65
+Adobe Flash Player 10 Plugin
+Ask Toolbar
+Baraha 7.0
+BlueSoleil
+C-Media 3D Audio
+Carabao DIY Machine Translation Kit
+CCleaner (remove only)
+CyberLink PowerDVD 9
+Foxit Editor
+Foxit Reader
+FREE Hi-Q Recorder 1.9
+Freez 3GP Video Converter 2.0
+HashTab 3.0.0
+Intel(R) Extreme Graphics Driver
+Java(TM) 6 Update 16
+K-Lite Mega Codec Pack 5.4.4
+Macrium Reflect
+Microsoft .NET Framework 1.1
+Microsoft Virtual PC 2007
+Microsoft Visual C++ 2005 Redistributable
+Mozilla Firefox (3.5.5)
+MSXML 6.0 Parser (KB927977)
+Nimbuzz 0.99.1
+nMacro Recorder 1.0
+Opera 10.10
+Orbit Downloader
+Paragon Partition Manager 9.0 Professional
+PowerISO
+Rediff Bol
+SC UniPad 1.20
+SUPER Â© Version 2009.bld.36 (June 10, 2009)
+System Scheduler 4.01
+VSO Image Resizer 3.0.1.2
+WinImage
+WinRAR archiver
+WinUHA 2.0 RC1 (2005.02.27)
+
+
+[You might not need some of these, but they're there cause I made this for my personal use]
+
+How to use?
+
+Ok, so you've decided to go on with this? Fine!
+
+1.After getting the files burn the iso image to a blank CD-R at low speed using a burning software like Nero.
+2.Burn the other file 3C02F087A7551D0B-00-00.mrimg to a DVD or place it on a separate partition that you won't mess with during install.
+3.Partition you hard disc if you're planning to install it over a screwed up slow Windows install. Otherwise for bare metal stage with no OS, it'd do the job itself (not tested, I use paragon). Remember to back up any sensitive data you have prior to this.
+4.Put in the first CD you burnt in the CD/DVD drive, reboot and upon reboot enter BIOS by pressing del or F1 key (it'd be displayed). Then in advanced settings (for AMIBIOS, maybe different for you) change the first boot device to CD/DVD and second to hdd.
+5.save changes and exit. Your system should reboot and then boot from CD. Then a screen will come up to select the image file. Select the image file if you stored it on a partition or put in your DVD and select the file if you stored it there.
+6.Choose the partition to restore the image to. Also choose to restore the MBR or Windows won't boot.
+7.It'd take some time to restore. If you're restoring from DVD it'd take even more time. Grab yourself some coffee and a biscuit.
+8.After it is finished it should reboot. If not then reboot yourself and oh! Don't forget to take out any CD/DVD in the drive. 
+9.If you did it all right then you should boot into windows login. Hurrah!
+
+Anything else?
+
+If you need any more help, you'd find me on the Tech and Computers forum of mocospace.com
+
+Security
+
+I don't like Anti Viruses. So none are there. But I recommend that you get one. Also change the Admin account and enter a password for it. And Zone Alarm is preinstalled to secure your net connections
+
+:D that was all. No more boring stuff.

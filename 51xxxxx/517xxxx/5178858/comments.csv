@@ -1,0 +1,23 @@
+User Type,Username,Date,Text
+,pffut,2009-11-25T14:11Z,"A self-extracting .exe rar file inside a plain .rar file
+Hmmm... 
+
+Yep, Avast! says 
+Virus/Worm Win32: Malware-gen   
+and a 
+Trojan Horse Win32;Injector-SE [Trj]"
+,fullhouse251,2009-11-26T03:43Z,"WARNING!!!!!!!   Malware / Trojan inside!!!!!!
+
+I confirm it is just as pffut said (thanks pffut).
+
+Inside the rar is a self-extracting exe.
+
+Out of curiosity I ran the exe file inside Sandboxie.
+
+The exe file contains several files (including the pdf book), at least one of which is a confirmed Trojan.
+The file name is datafile18.exe and is meant to hide inside folder
+...\user\current\Local Settings\Temp\nsvC.tmp
+
+The pdf file is the right one (203MB for 266 pages!).
+It is for ABSOLUTE beginners and tells you nothing more than the very basics.  So it's just not worth the risk.
+"

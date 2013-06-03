@@ -1,0 +1,36 @@
+User Type,Username,Date,Text
+,lamiersi,2009-11-16T21:20Z,"The link by FTL3 does not seem to work. For anyway, for analysis:
+arma2.exe MD5 sum : 117979a54089765ac913e40483ab58db
+
+You can search that with hash search : http://www.virustotal.com/buscaHash.html
+
+Which will show Result: 12/41 (29.27%)
+
+Those 12 scanners seems to classify it by heuristic; i.e. none really knows exatcly what Trojan it has, if any.
+
+For the original patched arma2.exe the score is 0/41 (md5 is 4c93c05dc717911c04e9f3ca9f2bfab6 )
+
+By looking at comments from other FTL3 submits, there are lot of such heuristic 'positives', but couldn't spot any mention of real trojan/virus in his submits.
+
+At least it didn't install anything on my VMware sandbox run (in which it almost immediately aborted since no Arma2 installation present)
+
+-Lasse"
+,lamiersi,2009-11-16T21:27Z,"And a bit more analysis: 
+FTL3 scan can be searched with the hash he mentioned:
+96c18b2ee5c1292f7c4c6cdafcd84470e329babe6e83dc6d11ad2142191bc14c
+
+From:
+http://www.virustotal.com/buscaHash.html
+
+Although his scan shows md5 a4475ca75efde05245cf0134a152b676 for the zip, where I get 46b6db027ee582809154da77ba859206
+
+Could be explained by F-Secure's note about ""File is damaged"" -> perhaps his upload failed
+
+Anyway, probably not a trojan, just some (12) virus checkers getting worried about some heuristics patterns they spot.
+"
+,Siomonte,2009-12-06T07:11Z," Norton AntiVirus 2010:
+
+Trojan Horse liek that from Game Copy world -_-"
+,insomnolent,2009-12-24T03:30Z,Anyone know if someone is working on a crack for the 1.05 version with the new free air campaign?
+,Fulcrum-smt,2011-03-05T13:19Z,"Logan i have a keygen but after install, it's German language, and impossible to change language :s"
+,MrGoy,2011-08-20T09:37Z,This crack makes me turn into a bird. It is not working.

@@ -1,0 +1,10 @@
+Release of TRK v3.4 (ratio/upload increase tool for all private trackers).
+* Support for uTorrent/BitTorrent/BitComet/Vuse/ABC/BitLord torrent clients.
+* Support for https trackers for uTorrent/BitComet.
+* First lunch wizard
+* Small bug fixes
+* Classic Skin.
+
+Expert features:
+1. No download reports anymore, just uploading! Tracker will see you as seeder. :)
+2. No uploading reports. You can use it with first feature to emulate "network problems". On tracker's stats you will not upload/download at all.

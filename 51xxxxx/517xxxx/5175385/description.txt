@@ -1,0 +1,44 @@
+Quite possibly the best dvd rip I have found. There is a 720p version of this but don't bother, it is upscaled and contains no more detail. This took me a very long time to obtain so I am going to repost the torrent I found elsewhere here and seed for the rest of this year. This version of Ergo Proxy is not excessively large, anamorphic, dual audio, and a full resolution capture. Only negative I can find is with the yellow boxy softsub text typically found on dvd's. 
+
+------details--------------------------------
+Video: MPEG4 Video (H264) 720x480 (853:480) 29.97fps - (Anamorphic)
+Audio: AAC 48000Hz 6ch - (Japanese/English)
+Subtitle: VobSub - (English)
+
+---------------------------------------------
+
+Before any windows users complain about it being mkv's, wrong audio, or no picture do the following.
+
+1. Remove existing media players and codecs. (Divx, RealONE, Quicktime, etc etc.)
+2. Go to free-codecs.com and get the following:
+-Media Player Classic (Preferably not MPC-Home Cinema.) 
+-Real Alternative 
+-Quick Alternative (not lite)
+-Combined Community Codec Pack
+-Windows Media Format 11 Runtime (Windows Media support without installing WMP 11)
+
+
+
+Install everything, fairly straight forward unless you're a moron. 
+Don't bother installing the media players that come with Real, Quick, or CCCP. 
+Omit WMF 11 runtime if you already have WMP 11 by default of your O/S (vista/7). 
+
+Place the "Media Player Classic" executable in a folder of your choice on the C: drive.
+(e.g. c:/misc/mpc/mplayerc.exe) The exe is a self contained program. Double click to open it. 
+If you are using Vista or Win7 right click and open it as Administrator. (1 time)
+
+Next go to VIEW > OPTIONS > "FORMATS"
+
+Press the "VIDEO" button
+
+Now go to "Audio Switcher" and tick "NORMALIZE" on.
+
+Press the "APPLY" button.
+
+Press the "OK" button
+
+Now simply navigate to your files with Windows Explorer and double click any video file. They will then open with MPC and you will notice that they take a fraction of the time to open than they did with any bloated, inconsistent, & confusing media player you have used before.
+
+(If you use CoreAVC Pro for hd movies omit h.264 support in CCCP.)
+
+------------------------------------------

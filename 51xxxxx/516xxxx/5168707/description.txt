@@ -1,0 +1,51 @@
+XBox 360
+For BenQ VAD6038 DVD Drives
+ 
+No more error by chosing ixtreme 1.61 Firmware in iPreb v10.7
+ixDef.xml is correct now.
+
+
+Note:
+Worldwide Seeds 
+with regard to "iXtreme 1.61 FW" "iPreb 10.7" and "ixDef.xml"
+
+- Seeds with Xtreme 1.61 FW works incrorret with seedet iPreb 10.7.
+- Ipreb 10.7 with "ixDef.xml" is incompatibel with seedet iXtreme 1.61 FW.
+- Seedet ixDef.xml for iPreb 10.7 is incorrect.
+
+
+
+Files Include
+
+- Ipreb 10.7 (iPreb need motherboard with Via Chipset, or compatible)
+- Correct working ixDef.xml (with Ipreb 10.7)
+- FW: BenQ_iXtreme-THX_v1.61 (working in Ipreb 10.7 with corrected ixDef.xml
+- readme.txt
+- lies mich.txt
+- info.txt
+
+
+==========
+
+PATCHING:
+
+I.O.
+
+Firmware Patched with:
+Asrock Motherboard AM2NF3-VSTA
+with Chipset NVIDIA nForce3 250
+
+==========
+
+Byside,
+
+if you have trouble in Dos, by "send command" option, 
+ignore Dos FAQ in this step.
+FAQ say, first press Y, then power off and power on your box.
+
+! Power off the box first
+! Press Y > ENTER
+! Now Power On the Box, Power down the box, Power On the box again.
+Now the Bank was reading.
+
+In the following steps by "send command" option, repeat this.

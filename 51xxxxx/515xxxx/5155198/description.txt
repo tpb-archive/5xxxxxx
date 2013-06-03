@@ -1,0 +1,11 @@
+6.6.0.0 2009 11 08
+- New (HD DVD & Blu-ray): Updated decryption keys
+- New (Blu-ray): Added support for new BD+ protections
+- New (DVD): Added support for new protections
+- Fix (DVD): CSS error with some protections and region code mismatch
+- Fix (DVD): Error creating image file with some protections
+- Fix: Bug introduced in 6.5.9.5, drives connected while AnyDVD was running
+  didn't work
+- Fix: Bug introduced in 6.5.9.5, "ElbyCheck" warning after installation
+- Some minor fixes and improvements
+- Updated languages

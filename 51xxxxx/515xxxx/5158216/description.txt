@@ -1,0 +1,100 @@
+ACTIVATE ANY OFFICE 2007 APPLICATION.
+
+-----------------------------------------------------------------------------------
+
+TURN OFF INTERNET!!!!
+
+1. Install any Office 2007 app. 
+                    
+2. Enter a serial when installing 
+  
+   (Not a trial serial. A blacklisted one will still work).
+   
+3. Copy the mso.dll to;
+    
+   C:ProgramFiles CommonFiles microsoftshared OFFICE12
+   
+4. Replace file when prompted
+
+5. Open the Office 2007 Application you have just installed.
+   
+6. Click Activate by Phone. Pick your Country.
+   
+7. Fill all of the empty boxes with zeros so it looks
+   like this: 00000-000000-000000-000000-000000-000000 
+
+8. Click Activate and it will tell you it's now activated.
+
+TURN ON INTERNET!!!!
+
+
+
+                 .ADDITIONAL NOTE NOT IN TORRENT INSTRUCTIONS.
+
+----------------------------------
+
+For 64 bit windows copy mso.dll to;
+
+C:Program FilesCommon Filesmicrosoft sharedOFFICE12
+
+And also to;
+
+C:Program Files(x86)Common Filesmicrosoft sharedOFFICE12
+
+----------------------------------
+
+Error message after updates;
+
+"Microsoft Office 2007 is not installed for the current user"
+
+Reaply activation method.
+
+----------------------------------
+
+Error message;
+
+"Activation id"
+
+Place mso.dll in this location as well;
+
+C:Program Files (x86)Common Filesmicrosoft sharedOFFICE12
+
+Reaply activation method.
+
+---------------------------------
+
+Error message;
+
+"microsoft office word has not been installed for the current user. please run setup to install the application"
+
+Show hidden files & folders and go to;
+
+C:ProgramDataMicrosoftOFFICEDATA 
+
+Then delete;
+
+opa12.dat 
+
+And reaply activation method.
+
+
+The Office 2007 range;  
+http://thepiratebay.org/search/Microsoft%20Office%202007%20%5Bthethingy%5D/0/99/300
+
+Microsoft Office 2010 range;      
+http://thepiratebay.org/search/Microsoft%20Office%202010%20%5Bthethingy%5D/0/99/300
+
+***********************************************************************************
+         DO NOT DOWNLOAD "office genuine advantage" WHEN UPDATING WINDOWS
+
+OR ADD THIS TO YOUR HOSTS FILE AND USE ALL UPDATES;
+
+# Microsoft Activation
+127.0.0.1                               mpa.one.microsoft.com 
+127.0.0.1                               sls.microsoft.com 
+127.0.0.1                               genuine.microsoft.com
+127.0.0.1                               wat.microsoft.com
+127.0.0.1                               mpa.microsoft.com
+
+***********************************************************************************
+

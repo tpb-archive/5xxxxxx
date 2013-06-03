@@ -1,0 +1,37 @@
+Notable fixes/changes:
+
+You can now edit samples in musical instrument files. Select the sample 
+      you want to edit, and then choose Edit > Event > Edit to open the selected 
+      sample in a new data window. After editing, you can save your changes 
+      back to the musical instrument file or to a different format.
+    * Disc-at-once workflow improvements:
+          o Audio moves with CD tracks when dragging CD tracks with the Edit 
+            tool.
+          o CD tracks move with events when dragging events with the Event 
+            tool.
+          o CD Tracks can now be locked to audio/events using Options > Lock 
+            Audio and CD Tracks.
+    * Added automation support to the Ã©lastique Timestretch plug-in.
+    * You can now edit the Original Tempo setting in the Ã©lastique Timestretch 
+      plug-in.
+    * Scrollbars have been added to the Plug-In Chainer.
+    * When you have data windows maximized, the window title is now italicized 
+      during playback to indicate which window is playing.
+    * Improved AAC file support.
+    * Fixed a bug that prevented Sound Forge Pro from opening or saving MPEG-4 
+      audio when QuickTime 7.6.4 is installed.
+    * Fixed a bug that could cause corruption in Broadcast Wave Format metadata.
+    * Fixed a bug that prevented the waveform from being displayed properly 
+      within a smooth fade-in curve when zoomed out.
+    * Fixed a bug that could cause the Ã©lastique Timestretch plug-in to crash 
+      on 32-bit PCs that do not support SSE2.
+    * Fixed a bug that could cause markers to shift after using the iZotope 
+      64-bit SRC plug-in.
+    * Fixed a bug that prevented read-only project files (*.frg) from opening 
+      properly.
+    * Fixed a bug that could cause Save to truncate tailing silence in certain 
+      scenarios.
+    * Fixed a bug that prevented Mix/Replace from displaying the entire mixed 
+      result.
+    * Fixed a bug that could cause short clicks at the end of certain preview 
+      operations.

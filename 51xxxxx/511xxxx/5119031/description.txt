@@ -1,0 +1,85 @@
+=====================================================================
+NOTE: This torrent replaces https://thepiratebay.org/torrent/5118986
+      which was accidentally broken by misstake.
+=====================================================================
+
+This is OpenBSD 4.6/i386
+
+Built from CVS release sources. Official release date is 2009-11-01.
+
+ISO File size: 521099264 bytes
+MD5 (openbsd-4.6-x86.iso) = 8acfd35859fa2e34db64ccd61e55a986
+
+CD is bootable and contains the entire x86 distribution + complete sources.
+
+New features in OpenBSD 4.6: see http://www.openbsd.org/46.html
+
+CD contents (or see ls-alR in CD root directory):
+---
+00_OpenBSD-4.6
+4.6/i386/CKSUM
+4.6/i386/INSTALL.i386
+4.6/i386/INSTALL.linux
+4.6/i386/MD5
+4.6/i386/SHA256
+4.6/i386/base46.tgz
+4.6/i386/bsd
+4.6/i386/bsd.mp
+4.6/i386/bsd.rd
+4.6/i386/cd46.iso
+4.6/i386/cdboot
+4.6/i386/cdbr
+4.6/i386/cdemu46.iso
+4.6/i386/cdrom46.fs
+4.6/i386/comp46.tgz
+4.6/i386/etc46.tgz
+4.6/i386/floppy46.fs
+4.6/i386/floppyB46.fs
+4.6/i386/floppyC46.fs
+4.6/i386/game46.tgz
+4.6/i386/man46.tgz
+4.6/i386/misc46.tgz
+4.6/i386/pxeboot
+4.6/i386/xbase46.tgz
+4.6/i386/xetc46.tgz
+4.6/i386/xfont46.tgz
+4.6/i386/xserv46.tgz
+4.6/i386/xshare46.tgz
+CKSUM
+MD5
+SHA256
+doc/OpenBSD_FAQ.pdf
+doc/Whats_new_OpenBSD-4.6.pdf
+ls-alR
+source/CKSUM
+source/MD5
+source/SHA256
+source/ports.tgz
+source/src.tgz
+source/sys.tgz
+source/xenocara.tgz
+tools/README
+tools/fdimage.exe
+tools/fips/MD5
+tools/fips/README
+tools/fips/copying
+tools/fips/errors.txt
+tools/fips/fips.doc
+tools/fips/fips.exe
+tools/fips/fips.faq
+tools/fips/history.txt
+tools/fips/readme.1st
+tools/fips/restorrb.exe
+tools/fips/special.doc
+tools/fips/techinfo.txt
+tools/gzip.exe
+tools/index.txt
+tools/ntrw.exe
+tools/os-bs.doc
+tools/os-bs135.exe
+tools/pfdisk.doc
+tools/pfdisk.exe
+tools/pfdisktc.zip
+tools/rawrite.doc
+tools/rawrite.exe
+---

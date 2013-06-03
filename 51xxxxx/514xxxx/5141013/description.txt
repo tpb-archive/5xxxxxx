@@ -1,0 +1,30 @@
+1. Windows 7 Ultimate x86 & x64
+2. Windows 7 Professional x86 & x64
+3. Windows 7 Home Premium x86 & x64
+4. Windows 7 Starter x86
+5. Windows Vista Ultimate x86 & x64
+6. Windows Vista Business x86 & x64
+7. Windows Vista Home Premium x86 & x64
+8. Windows Vista Home Basic x86 & x64
+9. Windows Vista Starter x86
+
+Mode of Activation:
+1. OEM (Certificate & Key) install only where bios already (or modded) contains slic 2.1
+2. Add slic 2.1 to Bootloader (zsmin 0.95 grldr) with various option.
+3. Add slic 2.1 to Bootmgr (No grldr means less time to boot, not recommended).
+4. Certificate install where you want to replace certificate only.
+5. Key install where you want to replace key only.
+
+Advantage:
+1. Fast Install
+2. Single file
+3. Much smaller in size
+4. Slic can be added in bootmgr
+5. Cert & Slic option are together.
+6. Cert can be installed seperately.
+7. Key can be installed seperately.
+
+Update:
+-Added reboot features.
+
+Hope it works if not tell me since its Halloween

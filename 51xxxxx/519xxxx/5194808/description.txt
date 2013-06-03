@@ -1,0 +1,27 @@
+New in 5.1e
+
+Add preliminary support for rDNSatom atom iTunMOVI
+Currently it just sets studio, producers, copy-warning to predetermined values
+Refer to iTunes-iTunMOVI-info folder if you would like to learn more on it.
+
+--------------
+New in 5.1d
+
+Added ripper variable to easily change name in output.
+Added copyright tag support.
+
+note:
+alternate dvd ripping method if vobcopy fails to rip properly (such as cwacomb)
+
+mount -o loop whatever.img /mnt/disk
+mplayer -v dvd://1 -dvd-device /mnt/disk -dumpstream -dumpfile dvd.vob
+umount /mnt/disk
+
+
+
+
+
+standalone iTunMOVI atom creator/writer is here: 
+http://thepiratebay.org/torrent/5197206
+
+-HR

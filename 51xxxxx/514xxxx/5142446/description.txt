@@ -1,0 +1,176 @@
+From the author's readme file:
+
+cIOSCORP v3.5!
+
+
+
+What is it?
+
+It's a complete software modification for your Nintendo Wii to
+
+allow you to play almost all of your in-region backup burnt Wii
+
+and GameCube games via the disc channel without opening your
+
+console or having to use a loader application.
+
+
+
+What's in it?
+
+Main Installer:
+
+IOS09		= IOS53 v5149 with rev13 DIP
+
+IOS11		= IOS60 v6174 with rev13 DIP + ES_Identify Patch
+
+IOS12 -> IOS15	= IOS53 v5149 with rev14 DIP
+
+IOS17		= IOS53 v5149 with rev14 DIP
+
+IOS20		= IOS60 v6174 with rev13 DIP + ES_Identify Patch
+
+IOS21 -> IOS22	= IOS53 v5149 with rev14 DIP
+
+IOS28		= IOS28 v1293 with rev14 DIP
+
+IOS30		= IOS60 v6174 with rev13 DIP + ES_Identify Patch
+
+IOS31		= IOS31 v3092 with rev14 DIP
+
+IOS33		= IOS33 v2834 with rev14 DIP
+
+IOS34		= IOS34 v3091 with rev14 DIP
+
+IOS35		= IOS35 v3092 with rev14 DIP + ES_Identify Patch
+
+IOS36		= IOS36 v3094 with rev13 DIP + ES_Identify Patch + NAND Permissions Patch
+
+IOS37		= IOS37 v3612 with rev14 DIP + ES_Identify Patch + NAND Permissions Patch
+
+IOS38		= IOS38 v3610 with rev14 DIP
+
+IOS40		= IOS60 v6174 with rev13 DIP + ES_Identify Patch
+
+IOS41		= IOS41 v3091 with rev14 DIP
+
+IOS43		= IOS43 v3091 with rev14 DIP
+
+IOS45		= IOS45 v3091 with rev14 DIP
+
+IOS46		= IOS46 v3093 with rev14 DIP
+
+IOS50		= IOS50 v4889 with rev13 DIP + ES_Identify Patch
+
+IOS52		= IOS52 v5661 with rev13 DIP + ES_Identify Patch
+
+IOS53		= IOS53 v5149 with rev14 DIP
+
+IOS55		= IOS55 v5149 with rev14 DIP
+
+IOS56		= IOS56 v5146 with rev14 DIP
+
+IOS60		= IOS60 v6174 with rev13 DIP + ES_Identify Patch
+
+IOS70		= IOS60 v6174 with rev13 DIP + ES_Identify Patch
+
+All IOS have the Trucha Bug restored.
+
+All IOS, except for 28, 31, 33, 34, 35, 36, and 38, have full Korean
+
+Game support.
+
+All IOS have their version number maxed out to prevent being
+
+overwritten by an Official Nintendo Wii System Update (although we do
+
+not recommend performing a Wii System Update anyway).
+
+
+
+Comment form damysteryman:
+
+"Fuck you, Nintendo! You lose!"
+
+
+
+cIOSCORP v3.5 does not modify IOSes 4, 16, 51, 57, or 61.
+
+
+
+Extras Installer:
+
+cmios (WiiGator)= mios v4 with WiiGator's GC Backup Launcher embedded
+
+		  into it.
+
+cmios (waninkoko)= waninkoko's cmios, but uses mios v4 as a base,
+
+		  instead of mios v5.
+
+cIOS55 rev13 DIP= cIOS55 v5149 with rev13 DIP. Supports Dual Layer
+
+		  discs, but may not fix #001 error properly.
+
+cIOS55 rev14 DIP= cIOS55 v5149 with rev14 DIP. Properly fixes #001
+
+		  error, but does not support Dual layer discs.
+
+
+
+What is needed (other than this package):
+
+- A Nintendo Wii (to modify)
+
+- A non-SDHC Card with heaps of free space (preferably a blank 1GB
+
+  or 2GB card)
+
+- Ability to run Wii homebrew (e.g. Homebrew Channel installed)
+
+- waninkoko's cIOS249 installed, to run the installer
+
+
+
+Optional, but recommended:
+bootmii (preferably as boot2):
+
+We highly recommend installing bootmii, and making a NAND backup,
+
+and/or installing preloader prior to installing cIOSCORP v3.5.
+
+preloader:
+
+Also, installing preloader with a hacks.ini for your System Menu is
+
+recommended, as it has some useful hacks, such as region free games.
+
+
+
+How risky is it to install?
+
+cIOSCORP v3.5 overwrites the majority of the system files (IOS)
+
+on your Nintendo Wii with modified ones which "know" how to handle
+
+DVDÂ±R discs, so the installation process itself can be quite risky.
+
+You should be fine if you just let the installer run though.
+
+
+
+THIS PACKAGE COMES WITH ABSOLUTELY NO WARRANTY, NIETHER EXPRESS NOR
+
+IMPLIED. THIS (AS WITH ANY OTHER MODIFICATION) WILL ALSO VIOD ANY
+
+OFFICIAL NINTENDO WARRANTY THAT YOU MAY HAVE. WE (da_letter_a &
+
+damysteryman) ARE NOT HELD RESPONSIBLE FOR ANY DAMAGE THIS MAY
+
+CAUSE TO YOUR NINTENDO WII CONSOLE! YOU USE THIS AT YOUR OWN RISK!
+
+IF YOU DAMAGE YOUR NINTENDO WII, IT IS ENTIRELY YOUR OWN FAULT!
+
+--------- END ------------
+
+I have included both the installer and uninstaller in this torrent.

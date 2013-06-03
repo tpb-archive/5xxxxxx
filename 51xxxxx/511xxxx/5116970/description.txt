@@ -1,0 +1,165 @@
+FUCK MICROSOFT!!!!! I strongly recommend this distro. I love it!!
+
+COpy image using Poweriso or other, free iso burnig software available google active@iso burner
+run from windows choose options.
+
+
+
+Introduction
+
+This is Linux Mint 7, codename Gloria, based and compatible with Ubuntu 9.04 Jaunty Jackalope and its repositories.
+
+What's new in Linux Mint 7 Gloria?
+
+Based on Ubuntu 9.04 Jaunty Jackalope, Linux 2.6.28, Gnome 2.26 and Xorg 7.4, Linux Mint 7 "Gloria" features a lot of improvements and the latest software from the Open Source World.
+
+Linux Mint 7 "Gloria"
+
+mintMenu improvements
+Highlights: New "Suggestions" feature, keyboard shortcut, trash status
+
+mintMenu lets you filter the list of applications to quickly access what you're looking for. A new feature called "Suggestions" was introduced in Linux Mint 7: When filtering gives no results the menu now shows a set of suggestions related to what is being searched.
+
+mintMenu suggesting actions on "gftp"
+
+This makes it easier to install new applications or packages on the fly or to search the portal or the repositories, directly from the menu itself.
+
+The menu can now be opened from the keyboard by pressing the left Control key and the left Super key (Windows key) simultaneously. This is configurable of course so you can assign it any key you want (note that you'll need to restart the menu for this take effect). The menu also closes itself when either the Super key or the escape key are pressed.
+
+Favorites now come pre-filled and comments are shown under the applications. These features were already present in previous releases but weren't well known by most users.
+
+Applications comments are now enabled by default
+
+Pre-filled favorites in mintMenu
+
+Hovering the menu now shows the Linux Mint release version and edition as a tooltip.
+
+The trash icon now indicates whether the trash is empty or not and a right click option was added to empty it.
+
+Video of mintMenu
+mintInstall improvements
+Highlights: Featured applications, pre-filled information, seamless screenshots downloads, improved GUI layout
+
+Some of the most popular applications were gathered in a new window named "Featured applications". This window shows the popular applications which are available and not currently installed on the system:
+
+Featured applications in mintInstall
+
+This makes it simpler for you to install most of what people are commonly looking for, all in one go.
+
+The mintInstall frontend now comes pre-filled with all the data required to browse and install software, with the exception of the screenshots. Compared to the older versions of mintInstall this means you don't actually need to refresh the application to be able to use it.
+
+When missing, screenshots are downloaded automatically. Of course, the "Refresh" button can still be used to download all of them at once.
+
+The GUI layout was improved. The main window now shows less information and the once called "Versions" button was replaced with "More info".
+
+mintInstall's main window
+
+This opens a window where you can see the versions, licenses, package names and repositories, but now also the upstream website, a long description, and the size of the packages.
+
+mintInstall's "More Info" window
+
+MintInstall now runs in root mode and doesn't store any information in your home folder anymore.
+
+Video of mintInstall
+mintUpdate improvements
+Highlights: Changelogs, package sizes, usability,
+
+The changelog tab now supports Linux Mint packages. Previous versions of mintUpdate could only show changelogs for packages maintained by Ubuntu.
+
+mintUpdate now shows the download size associated with each package upgrade.
+
+mintUpdate now shows the download size of each upgrade and supports Linux Mint changelogs.
+
+In accordance with the Gnome usability guidelines mintUpdate's system tray icon does not blink anymore. The presence of available updates is still quite noticeable as different icons are being used. The update manager now feels even less intrusive.
+
+Video of mintUpdate
+mintUpload improvements
+Highlights: Ads-free, GUI improvements, graphical service manager, SCP/SFTP support
+
+All ads were removed from the the default service.
+
+The GUI layout was improved in mintUpload to make the application simpler to use and to hide information which wasn't relevant to the selected upload service.
+
+mintUpload's main window
+
+Services can now be created, edited or deleted graphically via a new service manager.
+
+mintUpload's new service manager
+
+Editing a service in mintUpload
+
+Two new protocols are supported by mintUpload: SCP and SFTP.
+
+Credits go to Philip Morrell, Manuel Sandoval, and Dennis Schwertel for their work on the SCP/SFTP support and for their continuous help in improving mintUpload.
+mintWelcome
+
+Linux Mint now comes with the following welcome screen:
+
+mintWelcome pointing new users to a few directions
+
+Video of mintWelcome
+Command line goodies - apt version, rtfm
+
+You can quickly get the version of an installed package by typing "apt version" followed by the package name. For instance, "apt version firefox" gives you the version number of the firefox package.
+
+RTFM is not an insult anymore, it's now a command. It's a simple link to the "man" command of course and it's nothing special, but if someone ever RTFMs you after you've asked questions on the IRC, don't feel bad about it, just say thank you. This is our way to make fun of the unfortunately well-established RTFM syndrom and we hope, if anything, you find it amusing.
+New artwork
+
+The default icon set was replaced with Gnome Colors.
+
+Various upstream improvements in the Murrina engine used by the traditional Linux Mint theme make widgets, and buttons in particular, look better than they did before.
+
+A new theme was included and set as default, based on Shiki Colors and the Mint-Dew wallpaper from Zwopper.
+
+The new Shiki-Mint theme, Shiki-Wise + Mint Dew
+Other improvements
+
+Firefox now comes with the Moonlight plugin and support for Silverlight 1.x.
+
+The Firefox google search engine was enhanced to show links to popular search engines, as well as cached links and similar pages.
+
+The Linux Mint 7 Gloria repositories are now signed.
+
+Changes in the packages organization and the introduction of the mint-info virtual package make it easier to add additional desktops environments and editions on top of other ones. The new package hierarchy also makes it easier to upgrade Linux Mint.
+
+mintSystem now comes with a new adjustment system, which restores important files at boot time. This strengthens the system against Ubuntu package upgrades overwriting Mint's specific configuration. This adjustment system can be configured in /etc/linuxmint/mintSystem.conf.
+
+It is now possible to check the integrity of the liveCD and to boot the installer on its own.
+
+MintAssistant was removed, and the installer now applies the same password to root as the one you choose for the main user.
+
+mintDesktop was simplified:
+
+mintDesktop
+
+Xchat now replaces Xchat-Gnome as the default IRC client:
+
+The Xchat IRC client
+
+Video of Xchat
+
+A new command-line tool called Inxi, was introduced:
+
+Inxi in action
+
+Inxi shows various information about your system. An Inxi report can help a lot when asking questions on the forums or in the IRC as it helps others understand more about your system.
+
+Small improvements:
+
+    * "apt purge" was fixed.
+    * "apt source" now runs in user mode.
+    * All Mint tools are now launchable from the command line.
+    * All Mint tools now detect their environment and adapt to it. In particular they know whether to use gksu or kdesudo. The consequence of this is that packages like mintupdate-gnome or mintupdate-kde are not needed anymore, and the same package is now compatible with all desktop environments.
+    * All Mint tools using an about dialog now show their own version number.
+
+Upstream Improvements
+
+Linux Mint 7 Gloria comes with a linux 2.6.28 kernel.
+
+Gnome 2.26 comes with noticeable improvements in PulseAudio support, screen management, file-sharing, and disc burning.
+
+The Ubiquity installer features graphical improvements and support for the ext4 filesystem.
+
+Ubuntu 9.04 also introduced better notifications, faster boot times, enhanced suspend-and-resume and better switching between Wi-Fi and 3G connections.
+
+

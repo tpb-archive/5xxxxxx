@@ -1,0 +1,72 @@
+*************************************
+* Encoded using HandBrake on Ubuntu *
+*************************************
+job configuration:
+ * source
+   + /media/cdrom0
+   + title 2, chapter(s) 1 to 38
+ * destination
+   + Another.Year.of.the.Farce.2001.x264.mkv
+   + container: Matroska (.mkv)
+     + chapter markers
+ * video track
+   + decoder: mpeg2
+     + bitrate 7100 kbps
+   + frame rate: 29.970 fps -> variable fps
+   + loose anamorphic
+     + storage dimensions: 720 * 480 -> 712 * 480, crop 0/0/2/6
+     + pixel aspect ratio: 631 / 712
+     + display dimensions: 631 * 480
+   + filters
+     + Detelecine (pullup) (default settings)
+     + Deinterlaces selectively with yadif/mcdeint and lowpass5 blending (default settings)
+   + encoder: x264
+     + options: ref=3:mixed-refs:bframes=6:weightb:direct=auto:b-pyramid:me=umh:subme=9:analyse=all:8x8dct:trellis=1:nr=150:no-fast-pskip=1:psy-rd=1,1
+     + bitrate: 1300 kbps, pass: 2
+ * audio track 0
+   + decoder: English (AC3) (2.0 ch) (track 1, id 80bd)
+     + bitrate: 192 kbps, samplerate: 48000 Hz
+  + mixdown: Stereo
+  + encoder: faac
+    + bitrate: 160 kbps, samplerate: 48000 Hz
+    
+ROYAL CANADIAN AIR FARCE: ANOTHER YEAR OF THE FARCE
+
+Two of Royal Canadian Air Farce's most-requested shows!
+Together, it's sixty-six minutes of Air Farce - fast, fresh
+and funny!
+
+Canada's favourite comedy troupe (winners of Canada's 
+Viewers Choice Award at both the 2000 and 2001 Gemini 
+Awards) Roger Abbott, Don Ferguson and Luba Goy, take
+one more look back at 2001, with a whack at Osama bin
+Laden, George W. Bush's cross-border memory loss, Keith
+Richards' Napster rap, Harry Potter-mania, and satellite
+time delays at CNN. Plus special guest stars Sean Cullen,
+Sheila McCarthy, Patrick McKenna and Sonja Smits team
+up for a fast-paced strafe of all things topical, tacky or
+tedious in this annual roundup of the year's funniest.
+A 44-minute laugh-filled Tour de Farce, it's the original
+hit TV special that kicked off 2002.
+
+Plus This Special Bonus Show!
+
+Canada - A Mildly Informative, Not Overly-Long People's
+History is Air Farce's celebrated send-up of the ground-
+breaking CBC Television series Canada: A People's History.
+It's the story of our country told with inspired lunacy,
+packed into just 22 minutes. History becomes hysterical,
+with guest stars Graham Greene and Rex Murphy, and
+the original Air Farce foursome, including John Morgan
+as Mike from Canmore.
+
+DVD Special Features (included in this release)
+- chapter indexing
+- History (So Far) of Air Farce
+- weblink
+
+DVD Special Features (not included in this release)
+- closed captioned for the hearing impaired
+- interactive menu
+- bios
+- other CBC titles

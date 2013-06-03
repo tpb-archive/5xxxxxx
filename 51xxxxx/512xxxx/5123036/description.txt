@@ -1,0 +1,58 @@
+              ,,,,::::::::,,,,,.,,,,,,,,
+           ,,::I?ZZ88D88OO$$::::IIZZOO::
+         ,,:,::IIZO8DDDDOO$$::::IIZZOO::,,,,,.,
+         ,,++OO8877===II88ZZ~~??8877DD~~78888,,
+       ,,++8888++:::~=OOOO==~~ZZ88?I88~~Z8877:,
+     ,,::OO8877::,,:+78877:~==88ZZ7I$$~~~~~::,,,,,,::,,,,,,,,,,,,,::,,,
+     ,,?I88O8~~,,,,~I888~=::II88$$ZO=+=~ZOO::::==OO88$$::~~ZZZ~~7788OO::
+     ::ZZ88$7::,,,:I$8ZZ~~::$$88ZZ7$~~II8ZZ~~==8OIIOODD~~I78Z$ZZDDOO88~~
+     ::ZZ88$$::,,,,I$8ZZ:~:~$$88ZZ$$~~II8$Z:~==OOIIOODD~~II8Z7ZZ88OO88==
+     ::8888??,,,,::ZO8II::~~OOOOZZ~~~~Z$8II~~$$887788$$=~ZZOOZOOIIOO88::
+     ::8888==,,,,::O88++::~~8888++::~~OO8+?==88OOOOII~~==8OOOO++7788ZZ::
+     ::8888==::::++888~=~:II8888==::II88O+?Z$8O88??~~~:II888Z?==OZ88??++,,
+     ,:Z$8877~~I?ZZO88??++77OO88????778OO88$$OOOOZZ=~??77888$=~~8888++?I
+     ,,~~ZZ8D88II:~7Z8O8??::II8888??:~$$8II::++OODDOO??:~OOZI:::ZZ88II,,
+     ,,~~ZZ88OOII~~7Z88O??::II88O8??::$$8II~~++OO88OO++~~88Z?:::ZZ88II,,
+       ,,,,::,,,,,,,:::,,,,,,,,,,,,,,,,,,:,,,,,::::,,,,,,,,,,,,,,,,,,,
+
+-------------------------------------------------------------------------------
+                                   12 Monkies
+-------------------------------------------------------------------------------
+Audio Format......: AAC
+Bitrate...........: 160
+Channels..........: 6 Channel Discrete
+Hz................: 48,000
+
+Video Format......: MP4
+Video Bitrate....: 1,400 
+Codec.............: H.264
+Resolution........: 720x462
+FPS...............: 23.976
+Source............: 16x9 DVD, NTSC
+
+Length............: 129m 34s
+Genre.............: 8.1
+IMDB Rating.......: Mystery|Sci Fi|Thriller
+
+Summary (IMDB):
+An unknown and lethal virus has wiped out five billion people in 1996. Only 1% 
+of the population has survived by the year 2035, and is forced to live 
+underground. A convict (James Cole) reluctantly volunteers to be sent back in 
+time to 1996 to gather information about the origin of the epidemic (who he's 
+told was spread by a mysterious "Army of the Twelve Monkeys") and locate the 
+virus before it mutates so that scientists can study it. Unfortunately Cole is 
+mistakenly sent to 1990, six years earlier than expected, and is arrested and 
+locked up in a mental institution, where he meets Dr. Kathryn Railly, a 
+psychiatrist, and Jeffrey Goines, the insane son of a famous scientist and 
+virus expert.  Written by Giancarlo Cairella {vertigo@imdb.com} 
+
+Encode options:
+decomb, ref frames:6, mixed ref, b-frames:6,direct prediction:auto,
+weighted b-frames,pyrmidal b-frames,motion estimation method:umh, 
+motion estimation range:64, subpixel motion estimation:9,analyse:all,8x8 dct,
+deblock:0.0, trellis:2 no fast pskip, cabac entropy encoding
+
+Playback:
+I recommend using VLC. http://www.videolan.org/vlc/. It's my understanding
+(read: unconfirmed) that Quicktime won't play more than 2 audio channels. Mac 
+users may have some luck using the Perian component pack http://www.perian.org/

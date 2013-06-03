@@ -1,0 +1,47 @@
+User Type,Username,Date,Text
+,chuckasarus,2009-10-22T23:30Z,Thank you. It installed with out a hitch! but I can't find the file Block Little Snitch UIAgent located @ [/Library/Little Snitch/Little Snitch UIAgent.app] to block. Can you help me out? Where else can it be?
+,miknos,2009-10-23T07:46Z,"@chuckasarus:
+
+It's in HD/Library.... (not user/Library....)"
+,Faunsix,2009-12-03T17:52Z,@chuckasarus: is it necessary to delete that file before using Little Snitch? I have downloaded the trial version from the obdev website.
+,nixfu,2009-12-05T05:37Z,"How to make the serial(s) work - forever. You need to keep LS from snitching on itself, otherwise any serial you use with be rendered null the first time LS phone's home. Following these steps with ensure a working LS as well as protect you from legal issues.
+
+1. Stop your internet connection (not sure if this is necessary, but I do it as a precaution).
+2. Run Little Snitch installer. (If LS is already installed, uninstall and do it fresh with no web connection active)
+3. Go to ""Little Snitch Rules"" in menu bar.
+4. Select ""Add Rule."" (A Green Button)
+5. Choose ""Disallow Connections"" from drop down menu.
+6. Select ""Choose Application"" from the drop down menu next to ""Applications"" A finder style window will open up.
+7. Go to Library from HD. NOT USER > Library, but MAC HD > Library. Again MAC HD>Library!
+8. Scroll down to the Little Snitch Folder
+9. Find the file inside ""Little Snitch UI Agent"" and select it. Apply the rule by pressing enter or the on-screen button.
+10. You should now see that file in Rules with a red dot. The red dot indicated it's connectivity is blocked.
+10. Close LS Rules
+11. Open LS preferences for menu bar and register with your serial.
+
+This is a proven technique and will give you a 5 Seat registration. If it does not work, you have either not followed the procedure to the letter or have a bad serial. I have done this dozens of times and know what I'm talking about here. If you already have LS installed, uninstall it - if it has already phones home, this may not work.
+
+You have now successfully prevented LS from snitching on itself. Be careful in the future not to reset this rule. LS is invaluable to anyone who uses software form ""shady"" sources. Also, this procedure disables LS's ""Help"" menu, but there is enough info in forums to answer your questions."
+,brotherbriz,2009-12-06T13:11Z,"nixfu, great directions. you the man.
+miknos, thanks champ"
+,BRequena,2009-12-12T02:12Z,"@miknos: Thank you for the torrent!
+@nixfu: Thank you for the install for dummies instructions... it really helped this dummy do it correctly the first time!"
+,eulimp,2009-12-17T10:05Z,"@nixfu : thanks, worked like a charm for me, 
+
+I had the 2.1 installed, kept expiring every 3 hours. I uninstalled it (don't forget to get rid of your system files) and followed what nixfu said. Now it works just fine.
+
+Great !"
+,sheghost,2010-01-16T03:17Z,thanx a lot for the torren miknow. and thank you nixfu for your useful explanations. very much appreciated.
+,BangUchiha,2010-03-14T14:33Z,"before putting a serial, make sure you block
+
+Little Snitch UIAgent located @ [HD/Library/Little Snitch/Little Snitch UIAgent.app]
+
+mine works great. Thanks miknos nice up!"
+,iamgbot,2010-04-10T02:38Z,"this may sound like a dumb question, but can this be made or is there a way to work on more than 5 computers? or can we use 1 serial on 5 then another serial on another 5?"
+,SinnNorth,2010-11-23T06:04Z,"@nixfu:
+
+You did an awesome step by step. Thank you!"
+,goodwood,2011-01-03T18:25Z,Anybody updated after using Nixfu's method?
+,Melbosha,2011-01-20T18:55Z,Works perfect!
+,okiwan,2011-10-27T10:25Z,"Miknos, Nikfu...thank you both for the content and the proper explanation."
+,hbgvfc,2012-01-07T07:41Z,@NIXFU is the man. So simple it seems obvious once you've done it. Good stuff!!

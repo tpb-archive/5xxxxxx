@@ -1,0 +1,91 @@
+Razor 1911 proudly presents: 
+Borderlands Proper 
+(C) 2K Games 
+
+Date: 2009-10-26 Game Type : Shooter 
+Size: 1 DVD Protection: SecuROM 
+
+
+Game Notes
+~~~~~~~~~~
+Lock, Load, Face the Madness Get ready for the mind-blowing insanity, as
+one of four trigger-happy mercenaries, taking out everything that stands in
+your way. With its addictive action, frantic first person shooter combat,
+massive arsenal of weaponry, RPG elements and four-player co-op, Borderlands
+is the breakthrough experience that challenges all the conventions of modern
+shooters. Borderlands places you in the role of a mercenary on the lawless
+and desolate planet of Pandora, hell bent on finding a legendary stockpile
+of powerful alien technology known as The Vault.
+
+
+Proper Notes
+~~~~~~~~~~~~
+The usual suspects suprised us again. They not only released a self made iso,
+which is totaly out of place for this game and wasts 1GB more space, but
+this time they also rushed their (realy ugly looking) crack and removed the
+delay import directory entry, which some of you allready noticed, loads the
+PhysX subsystem. We are realy frightened what happend with our honored friends
+in Reloaded ... .. and by the way the game exe isnt the same as your
+try media one. Next time better proof your words...
+
+Reloaded:
+LordPe Deluxe by yoda statement:
+---------------------------
+ERROR
+---------------------------
+This DataDirectory isnt registered in the PE header
+---------------------------
+OK 
+---------------------------
+
+
+Razor1911:
+->Delay Import Directory
+1. DelayImportDescriptor:
+grAttrs: 0x00000001 (dlattrRva)
+DLLName (R)VA: 0x019840B0 (PhysXLoader.dll)
+Hmod (R)VA: 0x01BD4998
+IAT (R)VA: 0x01AF4554
+INT (R)VA: 0x01A87554
+BoundIAT (R)VA: 0x01A875EC
+UnloadIAT (R)VA: 0x01A87608
+TimeDateStamp: 0x00000000 (GMT: Thu Jan 01 00:00:00 1970)
+
+Ordinal/Hint API name
+------------ ---------------------------------------
+0x0000 NxReleasePhysicsSDK
+0x0000 NxGetPhysicsSDKAllocator
+0x0000 NxCreatePhysicsSDK
+0x0000 NxGetCookingLib
+0x0000 NxGetPhysicsSDK
+0x0000 NxGetUtilLib
+
+
+
+Install Notes
+~~~~~~~~~~~~~
+1. Extract RARs
+2. Mount or Burn image
+3. Install the game
+4. Important While installing replace the original exe with the
+cracked Borderlands.exe from Razor1911Install directoy after the DirectX
+installation
+5. Important While installing copy the cracked exe from Razor1911Crack directory
+to the .{InstallDirectory}Gearbox SoftwareBorderlands directory
+(Not the Binaries directory)
+6. Play the retail
+
+
+Razor 1911 Greetings 
+~~~~~~~~~~~~~~~~~~~~ 
+Our friends who prefer retail discs
+
+
+
+/
+Razor 1911 /__ Since 1985
+/ /
+/__/__
+
+SUPPORT THE COMPANIES THAT PRODUCE QUALITY SOFTWARE
+IF YOU ENJOYED THIS PRODUCT, BUY IT SOFTWARE AUTHORS DESERVE SUPPORT

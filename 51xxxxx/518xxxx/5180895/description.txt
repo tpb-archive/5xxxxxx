@@ -1,0 +1,37 @@
+Better Mind Mapping with XMind 3.1.0.200911230415
+
+
+
+New Features
+
+   1. Default Theme, now makes it easy to use your favorite theme and even your own designed theme in new maps.
+   2. Brainstorming Mode, help you get sparkles easily and save more time.
+   3. Powerful Search, now works among all workbooks, which means you can fast find out useful information in all open XMind files.
+   4. Relative Link, lets XMind be able to your assistant to manage files better.
+   5. Export to PDF(Map), offers another option to share our maps with the world.
+   6. Sorting Topics, helps us review the whole plan handily.
+   7. Enhanced spellchecker, could be our great assistant in work. It not only tell us which is wrong, but also what the right is. Another good news is that we can add our own dictionary file(.dict) into XMind.
+   8. XMind has the new online update system.
+
+Fixed bugs
+
+   1. Fishbone: If changing mapâ€™s structure to fishbone, add summary to a topic, drag and add more topic into this summary, click print, the layout is chaos. When reopening this map, the layout will be chaos too.
+   2. Extract Theme: If we extract a theme(named theme 1), close and reopen xmind, then extract another theme(its name will be the theme 1 automatically,), change its name (like to be theme 2).Now when we reopen XMind, the theme 2 is lost.
+   3. Context Menu: Only in the first sheet of the first workbook, select a topic and right-click mouse, you can see the full context menu(including markers, and structures).
+   4. Upload map: If we add some special theme or style to a map and upload it to http://share.xmind.net/, then download this map and open it, all special theme and style will disappear.
+   5. Import XMind 2008 file: If the map has wallpaper, that wallpaper will lose after being imported.
+   6. Import FreeMind 0.9: Some Freemind 0.9 files can not be right imported into XMind.
+   7. Extract style: Sometimes, your extracted style will disappear after re-launching XMind Pro.
+   8. Export dialog and others works well on Ubuntu, esp 9.10.
+   9. Copying multiple lines which begins with â€œTabâ€ will cause XMind crash.
+  10. Some other bugs fixed.
+
+Improvements
+
+   1. You can open XMind files via double-click on Mac OS.
+   2. XMind works fluently on Mac OS 10.4.
+   3. Improve the Spell Check in XMind.
+   4. Improve the Find and Replace.
+   5. Improve the Notes.
+   6. XMind Pro users can use XMind Pro offline.
+   7. Some other improvements.

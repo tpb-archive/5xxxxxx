@@ -1,0 +1,94 @@
+* * *
+*
+*     If you need only new drivers, go to - http://thepiratebay.org/torrent/5155383
+*
+* * * 
+
+
+
+The CUDA Toolkit 3.0 Beta is now available to GPU Computing registered developers.
+Highlights for this release include:
+* CUDA Driver / Runtime Buffer Interoperability, which allows
+applications using the CUDA Driver API to also use libraries
+implemented using the CUDA C Runtime.
+* A new, separate version of the CUDA C Runtime (CUDART) for debugging
+in emulation-mode.
+* C++ Class Inheritance and Template Inheritance support for increased
+programmer productivity
+* A new unified interoperability API for Direct3D and OpenGL, with
+support for:
+* OpenGL texture interop
+* Direct3D 11 interop support
+* cuda-gdb hardware debugging support for applications that use the CUDA
+Driver API
+* New CUDA Memory Checker reports misalignment and out of bounds errors,
+available as a debugging mode within cuda-gdb and also as a
+stand-alone utility.
+* CUDA Toolkit libraries are now versioned, enabling applications to
+require a specific version, support multiple versions explicitly, etc.
+* CUDA C/C++ kernels are now compiled to standard ELF format
+* Support for all the OpenCL features in the latest R195.39 beta driver:
+* Double Precision
+* OpenGL Interoperability, for interactive high performance
+visualization
+* Query for Compute Capability, so you can target optimizations for
+GPU architectures (cl_nv_device_attribute_query)
+* Ability to control compiler optimization settings, etc. via support
+for NVIDIA Compiler Flags (cl_nv_compiler_options)
+* OpenCL Images support, for better/faster image filtering
+* 32-bit Atomics for fast, convenient data manipulation
+* Byte Addressable Stores, for faster video/image processing and
+compression algorithms
+* Support for the latest OpenCL spec revision 48 and latest official
+Khronos OpenCL headers as of 11/1/2009
+* Early support for the Fermi architecture, including:
+* Native 64-bit GPU support
+* Multiple Copy Engine support
+* ECC reporting
+* Concurrent Kernel Execution
+* Fermi HW debugging support in cuda-gdb
+For more information on general purpose computing features of the Fermi
+architecture, see: www.nvidia.com/fermi.
+Windows developers should be sure to sign up for the Nexus (code name)
+beta program, and test drive the integrated support for GPU hardware
+debugging, profiling, and platform trace/analysis features at: www.nvidia.com/nexus.
+Please review the errata document for important notes about using this beta release.
+
+
+*** Ð’ÑÐµ ÐºÐ¾Ð¼Ð¿Ð¾Ð½ÐµÐ½Ñ‚Ñ‹ Ð´Ð»Ñ 64 Ð¸ 32 Ð±Ð¸Ñ‚. ***
+
+ÐŸÐ¾Ð´Ð´ÐµÑ€Ð¶Ð¸Ð²Ð°ÐµÐ¼Ñ‹Ðµ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ñ‹Ðµ ÑÐ¸ÑÑ‚ÐµÐ¼Ñ‹:
+
+* Red Hat Liunx Enterprise 4.8/5.3,
+* Fedora Linux 10
+* Ubuntu Linux 9.04,
+* Windows XP,
+* Windows Vista,
+* Windows 7
+* MacOS X 10.5/10.6
+
+Ð¡Ð¾Ð´ÐµÑ€Ð¶Ð°Ð½Ð¸Ðµ Ð´Ð¸ÑÐºÐ°:
+* CUDA TOOLKIT
+* OpenCL Profiler
+* CUDA MEMORY CHECKER (Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð´Ð»Ñ Linux)
+* GPU Computing SDK
+
+ÐÐ¾Ð²Ñ‹Ðµ Ð´Ñ€Ð°Ð¹Ð²ÐµÑ€Ð°, Ð´Ð»Ñ Ñ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶Ð½Ð¾Ð¹ CUDA, OpenCL Ð¸ Ð½Ð¾Ð²Ð¾Ð¹ Ð°Ñ€Ñ…Ð¸Ñ‚ÐµÐºÑ‚ÑƒÑ€Ñ‹ Fermi.
+* WindowsXP 32/64 ver. 195.39
+* WindowsXP 32/64 ver. 195.39 (for mobile GPUs)
+* Windows Vista/7 32/64 ver. 195.39
+* Windows Vista/7 32/64 ver. 195.39 (for mobile GPUs)
+* Linux 32bit ver. 195.17
+* Linux 64bit ver. 195.17
+* MacOS X ver. 3.0.0/3.0.1
+
+Ð”Ð¾ÐºÑƒÐ¼ÐµÐ½Ñ‚Ð°Ñ†Ð¸Ñ
+
+* CUDA Toolkit Release Notes for Windows, Linux, MacOS.
+* CUDA Getting Started 3.0-beta1 for Windows, Linux, MacOS.
+
+
+Ð”Ð¾Ð¿. Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ:
+http://ru.wikipedia.org/wiki/CUDA
+http://ru.wikipedia.org/wiki/OpenCL
+http://ru.wikipedia.org/wiki/NVidia_GT300#NVIDIA_Fermi

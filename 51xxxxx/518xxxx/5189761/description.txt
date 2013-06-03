@@ -1,0 +1,9 @@
+Alien is a package that allows a Linux user to convert a deb file into a rpm file.
+
+This package was designed for a Debian system with the Fedora, Suse and Mandriva users having to compile it from scratch.  
+
+This rpm version of alien is tried and tested on a Fedora 12 64 bit system.
+
+Please note that it does not convert all files perfectly, there are flaws with some.  However most work without any major problems.
+
+Dependencies: for this to work on Fedora you will need to download rpm-build, perl-rpm-build-perl-scripts and perl-rpm-build-perl  all of these are available through the Add/Remove software in Fedora, type in rpm-build and select all three.

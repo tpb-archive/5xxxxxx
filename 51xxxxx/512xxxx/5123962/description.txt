@@ -1,0 +1,60 @@
+              ,,,,::::::::,,,,,.,,,,,,,,
+           ,,::I?ZZ88D88OO$$::::IIZZOO::
+         ,,:,::IIZO8DDDDOO$$::::IIZZOO::,,,,,.,
+         ,,++OO8877===II88ZZ~~??8877DD~~78888,,
+       ,,++8888++:::~=OOOO==~~ZZ88?I88~~Z8877:,
+     ,,::OO8877::,,:+78877:~==88ZZ7I$$~~~~~::,,,,,,::,,,,,,,,,,,,,::,,,
+     ,,?I88O8~~,,,,~I888~=::II88$$ZO=+=~ZOO::::==OO88$$::~~ZZZ~~7788OO::
+     ::ZZ88$7::,,,:I$8ZZ~~::$$88ZZ7$~~II8ZZ~~==8OIIOODD~~I78Z$ZZDDOO88~~
+     ::ZZ88$$::,,,,I$8ZZ:~:~$$88ZZ$$~~II8$Z:~==OOIIOODD~~II8Z7ZZ88OO88==
+     ::8888??,,,,::ZO8II::~~OOOOZZ~~~~Z$8II~~$$887788$$=~ZZOOZOOIIOO88::
+     ::8888==,,,,::O88++::~~8888++::~~OO8+?==88OOOOII~~==8OOOO++7788ZZ::
+     ::8888==::::++888~=~:II8888==::II88O+?Z$8O88??~~~:II888Z?==OZ88??++,,
+     ,:Z$8877~~I?ZZO88??++77OO88????778OO88$$OOOOZZ=~??77888$=~~8888++?I
+     ,,~~ZZ8D88II:~7Z8O8??::II8888??:~$$8II::++OODDOO??:~OOZI:::ZZ88II,,
+     ,,~~ZZ88OOII~~7Z88O??::II88O8??::$$8II~~++OO88OO++~~88Z?:::ZZ88II,,
+       ,,,,::,,,,,,,:::,,,,,,,,,,,,,,,,,,:,,,,,::::,,,,,,,,,,,,,,,,,,,
+
+-------------------------------------------------------------------------------
+                                Butterfly Effect
+-------------------------------------------------------------------------------
+Audio Format......: AAC
+Bitrate...........: 160
+Channels..........: 6 Channel Discrete
+Hz................: 48,000
+
+Video Format......: MP4
+Video Bitrate.....: 1,400 
+Codec.............: H.264
+Resolution........: 716x462
+FPS...............: 23.976
+Source............: 16x9 DVD, NTSC
+
+Length............: 119m 37s
+Rated.............: R
+Year..............: 2004
+Genre.............: Mystery|Sci Fi|Thriller
+IMDB Rating.......: 7.8
+
+Summary (IMDB):
+Evan Treborn grows up in a small town with his single, working mother and his 
+friends. He suffers from memory blackouts where he suddenly finds himself 
+somewhere else, confused. Evan's friends and mother hardly believe him, 
+thinking he makes it up just to get out of trouble. As Evan grows up he has 
+less of these blackouts until he seems to have recovered. Since the age of 
+seven he has written a diary of his blackout moments so he can remember what 
+happens. One day at college he starts to read one of his old diaries, and 
+suddenly a flashback hits him like a brick!
+
+Encode options:
+decomb, ref frames:6, mixed ref, b-frames:6,direct prediction:auto,
+weighted b-frames,pyrmidal b-frames,motion estimation method:umh, 
+motion estimation range:64, subpixel motion estimation:9,analyse:all,8x8 dct,
+deblock:0.0, trellis:2 no fast pskip, cabac entropy encoding
+
+Playback:
+I recommend using VLC. http://www.videolan.org/vlc/. It's my understanding
+(read: unconfirmed) that Quicktime cannot play more than 2 audio channels. 
+Mac users may have luck using the Perian component pack  
+http://www.perian.org/. I have also had success with Windows Media Player 12 
+in Windows 7 OOB.

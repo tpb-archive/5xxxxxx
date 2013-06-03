@@ -1,0 +1,86 @@
+User Type,Username,Date,Text
+,Fabbe131,2009-10-31T15:25Z,Is this wave4?
+,4n0n,2009-10-31T16:25Z,Yes. It is Wave 4.
+,Rubbebubbe,2009-10-31T19:40Z,"Är himla sugen på att bränna 3 nya 360-spel som kommit ut nämligen Call of Duty: Modern Warfare 2, Dragon Age och Divinity 2. De lär också vara Wave 4 och nu undrar jag om nån vet nåt kring dem spelen? Är det ""bara"" att ladda hem, packa upp, patcha iso-filen med ppf-o-matic (v14-15) som om det vore ett Wave 3-spel och bränna eller?!
+Jag har försökt läsa mig till hur det fungerar men blir f-n inte klok på vad som gäller. Jag har en äldre iExtreme-flashning (skulle tro att det är version 1.4)  i min XBOX 360 som har en Samsung dvd-läsare. Egentligen skulle man ju ha flashat till en nyare version men det har inte blivit av. I stället har jag använt ppf-o-matic för att kunna spela Wave 3 vilket fungerat utmärkt. Jag är aldrig heller ute på XBOX Live så det är inget jag behöver ta hänsyn till. Problemet är att Wave 3- spelen som jag patchat inte lär gå att spela om jag flashar till iExtreme version 1.6 så därför är jag nu jättenyfiken på om det fortfarande går att få Wave 4-spel att fungera utan att behöva nyare flash och i så fall hur?
+
+Tack på förhand!"
+,ShadowJax04,2009-10-31T20:04Z,"Hey min ven ;d
+
+Så vidt jeg ved, skal du have flashet den yderligere for at kunne spille W4.. :)"
+,pinnen303,2009-11-01T12:44Z,Jag får det inte att funka. Får bara upp Play DVD och då kommer 360-loggan upp och inget mer händer. Finns det någon förklaring och lösning?
+,ShadowJax04,2009-11-01T13:28Z,Jeg fandt også ud af at jeg har det samme problem
+,pinnen303,2009-11-01T15:01Z,Och jag har 1.6. Samma problem med Divinity 2...
+,holmaren,2009-11-01T15:09Z,"Tjo!
+
+Här kommer en beskrivning (för er som ännu inte vet) för att få spelet att fungera och alla andra som använder sig av wave 4.
+
+
+
+These instructions were made using Imgburn!!!
+
+Activate.iso is designed to enable One-shot boot mode for the iXtreme 1.6 firmware. One-shot boot mode allows you to boot your unstealthed, modified or ?Hybrid? backups without any strict stealth checks!!!!
+
+PLEASE NOTE!!! DOES NOT BOOT UNSTEALTHED XBOX 1 BACKUPS!!!! I was really hoping it would?.
+
+
+1: You need your Activate.iso file! should have come with any version of iXtreme 1.6. download one of those to get Activate.iso.
+
+2: Once you have the activate.iso file, you wanna drag and drop or save it to your desktop.
+
+3: Insert a DVD+R DL into your dvd burner.
+
+4: Now open up Activate.iso with any burning software you use. (I.E. Imgburn, Clonecd, etc? I personally use Imgburn? )
+
+5: Now in your burning program go into your write setting tab and make sure your layerbreak is set to the Calculate Optimal setting. Also check your booktype for DVD+R DL and make sure its on the DVD-ROM setting and that your write speed is at 2.4x.
+
+6: Start Burn!
+
+7: As soon as the burn starts a message will pop saying, ?that the image is small enough for a regular DVD R, do you want to continue anyway??
+(You wanna choose yes because burned to a regular DVDR the Activate.iso wont work!!!)
+
+8: Next another message will pop saying, ?even though the image is small enough to fit into one layer its best to write in both layers, do wou wanna go away from the norm and write in only one layer?? (Now I wanna stress?READ THIS MESSAGE CAREFULLY!!!!)
+
+Choosing ?Yes? will cause all data to be wrttin into the first layer.
+
+Choosing ?No? will cause data to be writing into both layers.
+
+CHOOSE NO!!
+
+9: It will burn then finish?
+
+10: Insert the Activate.iso disk into your xbox 360. It will read for a little longer than usual then finally it will say ?Play DVD?. Press ?A? on your controller and a video should pop saying, ?Play this disk in an xbox 360 console?.
+This is how you know you?ve burned the iso sucessfully!!
+
+11: Now just eject the Activate.iso disk and insert your unstealthed, modified or Hybrid disk and it will load!!!
+
+Thanks for listening!! I hope this helps some that were struggling like me? 
+
+Hoppas detta hjälper :)"
+,holmaren,2009-11-01T15:19Z,"Tjo!
+
+Var tydligen 1 fel i instruktionen:
+
+The tutorial posted above is WRONG!!! When IMGburn asks if you want to burn to a single layer you have to press YES!!. Don't try and burn it to both layers it won't work.
+"
+,pinnen303,2009-11-01T15:44Z,Tack för hjälpen men tyvärr fungerade inte detta heller. När jag trycker ut activate skivan i sätter i spelet så kommer jag bara tillbaka till dashboard.
+,pinnen303,2009-11-01T15:47Z,Haha får väl prova att bränna om den igen!
+,pinnen303,2009-11-01T15:56Z,... och då funkar det! Tack för hjälpen och en bra guide! Men... en liten fråga till. Kommer det inte komma någon lösning för att slippa ha activate discen?
+,sammaful,2009-11-01T19:25Z,any ideas on when the pal version will be released?
+,Deucee21,2009-11-03T09:45Z,Jag patchade detta med ppf-o-matic3 sen patchade med v14-15 för har den gamla firmwaren men när jag sätter i skivan och ska lira det laddar han lite sedan står det att han vill lägga in en uppdatering och sedan går det inte står skivan e smutsig ??? testade att köra det ifrån HDn med men samma skivan e smutsig. Vad e det för patch han vill lägga in och hur kan jag lösa detta ett svar vore nice av er längtat så länge efter detta. Cheers
+,michan123,2009-11-05T15:49Z,ANYONE IN SWEDEN...arent the xbox 360s here PAL...this game is NTSC...does it work on a flashed xbox??
+,xaris13,2009-11-09T23:20Z,This isn't region free??
+,Rosmarez12,2009-11-11T12:19Z,"I am norwegian and have downloaded this and it works on my PAL X360.
+BUT this is a so-called ""Wave 4"" game, and you may have to do a little extra work to make it play on ur console.
+
+Will I need a new firmware to play Wave 4 games?
+================
+
+IF you are on iXtreme 1.5 or below, Wave3 games will not boot for you and thus Wave4 games will not either. In this case, YES you need to update your firmware!
+
+IF you are on iXtreme 1.51, then ANY wave will boot fine, including Wave4 however you must be EXTRA careful as you are not protected against corrupt or incorrect video partitions. This is one of the many reasons to always use abgx360. If a game is fully verified, playing it on iXtreme 1.51 is just as safe as playing it on iXtreme 1.6 - this includes Wave4 games.
+
+IF you are on iXtreme 1.6, you can ALSO play Wave 4 and above games, however you need to use a special activation disk to do so. This was added to the firmware specifically for this eventuality - the disk activates ""one-shot-boot"" mode, essentially it allows iX1.6 to boot any game you insert into the drive, even if its not properly stealthed. You simply insert the disk into the drive, let it spin up (it will say ""play DVD""), then swap in your Wave4 game. You will need to do this each time you want to play a Wave 4 (or above) game. Don't worry, if the game has all the necessary stealth data, then iX1.6 will still use it, so if you boot a VERIFIED Wave4 game using this method, you should be just as safe as you were booting a verified wave 3 game.
+
+The disk is available here: www sendspace com/file/5ed5xr and needs to be burned to a DUAL LAYER disk, but entirely on the first layer (do not set a layerbreak and when imgburn prompts, tell it to burn to the first layer only)."
+,SugarAl,2011-12-15T13:19Z," Xtreme 5.3, PAL - works with no problems. Thanks a lot"

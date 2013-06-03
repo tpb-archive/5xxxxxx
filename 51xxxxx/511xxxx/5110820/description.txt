@@ -1,0 +1,94 @@
+Includes all updates as of Sept. 19, 2009
+
+Installation Information:
+
+0. Extract compressed .nz file with NanoZip or run Extract.bat to extract.
+1. Mount or burn 'Call.of.Duty.5.WaW-RELOADED.iso'.
+-- CRC32: 3A83DB7F
+--   MD5: EA86F4942B0F0E6466210A9F575D64AC
+
+2. Install the game using a serial from serial.txt.
+  If you aren't going to use the patches goto step a2, if you are, goto step 3. I recommend going to step 3.
+
+-- a2. Copy cracked EXE from Crack directory on ISO to install directory. eg 'C:Program FilesActivisionCall of Duty - World at War'
+-- -- CRC32: ADF10D24
+-- --   MD5: 430CB73D00D9BD35210F1B93F8CCA573
+
+-- b2. Play the game.
+-- c2. If you like the game, buy it.
+-- d2. End of file.
+
+3. Install 'PatchCoDWaW-1.2-PatchSetup.exe'.
+-- CRC32: 1F897380
+--   MD5: F105FA2A336D993F1706E812DB2B4475
+
+4. Install 'PatchCoDWaW-1.2-1.4-PatchSetup.exe'.
+-- CRC32: D68A1CEF
+--   MD5: 72450CADD216FD1B2A9AB030FDE35848
+
+5. Install 'PatchCoDWaW-1.4-1.5-PatchSetup.exe'.
+-- CRC32: F556EFC0
+--   MD5: 3E2AA611D7CB13727681C94A48A6B63D
+
+6. Install 'PatchCoDWaW-1.5-1.6-PatchSetup.exe'.
+-- CRC32: 7FFFC638
+--   MD5: A73A2AE004EA36C778F340B7276772E0
+
+7.  Copy cracked EXE from 'CrackCoDWaW.exe' to install directory. eg 'C:Program FilesActivisionCall of Duty - World at War'
+-- CRC32: 9EEC13C1
+--   MD5: 72A011C5270BA434E45C86A2A52B9641
+
+8. Play the game.
+9. If you like the game, buy it.
+
+
+NOTES:
+
+-Multiplayer and Co-OP WILL NOT work with the cracks supplied or any other cracks available.
+To use these features you need a valid cd-key, buy the game to accquire one.
+
+-If you cannot get past picking a difficulty here is the fix. It will create an 'Offline Profile'.
+Goto 'C:Documents and Settings<YOUR_USERNAME>Local SettingsApplication DataActivisionCoDWaWplayersprofiles' for XP
+    or 'C:UsersAdministratorLocal SettingsApplication DataActivisionCoDWaWplayersprofiles' for Vista.
+
+Delete all folders there. Create a text file named 'active.txt' and put the username you want to use in the file, nothing else.
+Create a folder with that username in the same place, this folder should be empty.
+
+-If you get an error like the one below...
+
+
+DirectX reports 256 MB of video memory and 550 MB of available texture memory.
+Using video memory size to cap used texture memory at 240 MB.
+Texture detail is set automatically.
+Using picmip 0 on most textures, 1 on normal maps, and 3 on specular maps
+Waited 30 msec for asset 'shadowcaster' of type 'material'.
+Waited 1 msec for asset 'shadowoverlay' of type 'material'.
+Waited 3 msec for asset 'stencilshadow' of type 'material'.
+Waited 41 msec for asset 'cinematic' of type 'material'.
+Error: Could not load material "water_droplet".
+Error: Could not load material "water_dynamic_spray".
+
+------- sound system initialization -------
+Loading fastfile 'ui'
+used 39.48 MB memory in DB alloc
+Waiting for $init to finish. There may be assets missing from code_post_gfx.
+
+
+Error during initialization:
+Unhandled exception caught
+
+...which you shouldn't if your using version 1.6. Goto Device Manager> Sound, video and game controllers> Unimodem Half-Duplex Audio Device.
+And disable it. No this wont hurt anything else and you should be able to play now.
+
+-Any DirectX related issues?
+Upgrade to the latest DirectX.
+
+-If you don't know what a CRC32 or a MD5 is, don't worry about it.
+
+
+Thanks goto ViTALiTY(v1.6) and RELOADED(v1.0) for cracked(No-CD) executables.
+
+- mattlb0619
+
+Compressed....: 8.42 GB
+Uncompressed..: 10.1 GB

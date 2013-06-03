@@ -1,0 +1,30 @@
+User Type,Username,Date,Text
+,jatin_7G,2009-10-18T11:07Z,The quality of the movie is good. Can you upload the IDX/SUB subtitles? Thank you.
+,anonim1979,2009-10-20T15:56Z,"(Use GSpot program to check:)
+Multipart OpenDML AVI (3 parts), ""rec list"" style
+(212 frames in first part, 137835 frames follow)
+Interleave: 788 ms (18.9 v.frames), preload=192
+Audio frames: Aligned on interleaves
+
+
+Wont play properly in MANY standalone DIVX/XVID players.
+Multipart = PROBLEM
+- Most standalones will only play first part (212 frames = about 5 seconds)!
+Some media players on PC will also play sound only for first part. 
+
+To fix:
+
+Download and run VirtualDubMod ( 
+
+http://surfnet.dl.sourceforge.net/sourceforge/virtualdubmod/VirtualDubMod_1_5_10_2_All_inclusive.zip )
+
+1. Open movie file:
+""File"", ""Open video file"" (or use Ctrl+O shortcut), then browse to dir with YOUR_MOVIE.avi
+
+2. If asked: choose and press NO to question on the begining asking you to ""correct"" VBR MP3 audio.
+
+3. ""File"", Save as (or simply press F7)
+
+Put new name and/or directory
+!BEFORE clicking SAVE: CHANGE(Video)""Video mode"" to ""Direct stream copy""
+Done in 1-2 minutes!"

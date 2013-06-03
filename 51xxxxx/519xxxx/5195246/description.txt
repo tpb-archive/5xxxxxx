@@ -1,0 +1,50 @@
+Addresses pixel corruption and audio errors.
+
+Audio errors corrected by reverting to ffmpeg 18709 that had libfaac compiled in it.
+
+Pixel errors corrected by changing refs to 1 on first pass.
+
+Also set threads to 0 (auto) and has crop support.
+
+
+First release is here: 
+http://thepiratebay.org/torrent/5155394/
+
+It has some extra documentation in description you may want to read.
+
+Please realize this is just a batch script and is dumb as poop (0 logic).  If you have the ability to run encode-handheld.pl then do it.
+
+Hmmm. I should of added artwork support, opps.
+
+Well if you want artwork then do this
+
+go to AtomicParsley variables and make new one
+
+set artwork=c:\path\to\your\artwork.jpg
+
+Go to the end of the first long AtomicParsley-utf8 line
+
+after
+ 
+--tracknum %tracknum%
+
+append 
+
+--artwork "%artwork%"
+
+
+The batch file isn't setting stik
+
+Add this to the AtomicParsley call before the --overWrite
+
+--stik "%stik%"
+
+
+This batch script will not properly handle down mixing of DTS audio to stereo.  The center channel audio will be pushed to the right channel.  That is a flaw with ffmpeg that no developer has addressed yet sadly.  Refer to posts below for a work around regarding this.
+
+Please use the spreadsheet included to help you determine proper sizing.  Input original dimensions into spreadsheet.  It will give you the width, height, AR, crop values to use in the script.  Use the PSP line (480 width) for the values in the batch script.  You can get the original dimensions by using mediainfo or just typing ffmpeg -i filename and then reading the results.
+
+You can of course use this script to make larger than the standard 480x272 encodes.  You should adjust the bitrate however to accommodate for that.  You can use the other iPod lines in the spreadsheet.  For the largest iPod dimensions you should use a bitrate of around 1152kb (compared to 384 for PiZ).
+
+
+-HR

@@ -1,0 +1,99 @@
+uTorrent 2.0-beta-16850 ... uTorrent 2.1-beta-17085
+
+01.12.2009 - Added new version utorrent-2.1-beta-17350.upx.exe
+(Here's an alpha for ÂµTorrent 2.1. This release has multiple fixes in it new to the 2.1 tree. It is not feature complete.)
+
+Download: 
+http://download.utorrent.com/beta/utorrent-2.1-beta-17350.upx.exe
+
+Forum Index Â» Announcements Â» ÂµTorrent 2.1 alpha 17350: 
+http://forum.utorrent.com/viewtopic.php?id=63247
+
+Changes in 17350:
+-- 2009-11-18: Version 2.1 (build 17350)
+- Fix: catches crashes in bad DLLs
+- Fix: accept magnet links through add-url webUI
+- Fix: More strict https connection state management for halfopen accounting.
+- Feature: A new tunable option in advanced setting for failover peer speed threshold
+- Fix: Problem during install toolbar offer
+- Change: relaxed the requirements on bencoded integers to parse some broken torrents
+- Fix: svn revision in PeerID on PPC now takes endianness into account
+- Fix: added socket state logging when draining read socket to prevent false asserts
+- Change: fixed nationalization support so it no longer depends on Windows functions
+- Change: added checks for heap corruption that caused crash in uTP
+- Change: improved stability by making all executable pages not writable
+- Fix: fixed stack overflow when copying peer list
+- Fix: fixed allocation regression in connection to peers
+- Change: enable multiple instances of the client to run on multi-user machines (e.g. fast user switching)
+- Fix: fixed uTP crash in edge condition
+- Fix: fixed crash when icmp.dll wouldn't contain the expected functions
+- Fix: fixed crash when closing add torrent dialog while dragging a column
+
+
+
+ISPs have been throttling BitTorrent traffic for years already. Although the true reasons for this are not always clear, some ISPs have argued that a high number of BitTorrent connections are slowing down other applications and traffic.
+
+In early 2007, when network neutrality was still a non-issue for most people, BitTorrent inventor Bram Cohen told us that ISPs should find a way to cope with BitTorrent.
+
+â€œISPs have to invest in making their networks better and faster rather than stifling applications which consumers use and love,â€ he said, while encouraging users to switch to non throttling ISPs if possible, or complain to their ISPâ€™s customer services. 
+
+A lot of things have changed in the years that followed. Comcast started to prevent its users from seeding content on BitTorrent, and many other ISPs took similar actions to throttle BitTorrent traffic. As a direct result, network neutrality was placed on the political agenda in many countries. It also inspired BitTorrent Inc. to look for solutions that would eliminate the need for throttling entirely, solving the problem at its root.
+
+This is where uTP comes in. uTP is a new and improved implementation of the BitTorrent protocol which is designed to be network friendly. The current implementation often causes interference with other applications, which is the main reason why ISPs try to slow it down, or even stop it altogether. uTP aims to solve this problem.
+
+With uTP, uTorrent (and the Mainline client) will become network aware by throttling itself if congestion in the network is detected. This will have a huge impact on ISP networks according to Simon Morris, BitTorrentâ€™s VP of Product Management. â€œIf uTP is successful it should result in a multi-billion dollar windfall in terms of savings for ISPs,â€ Morris told TorrentFreak
+
+This means that the new uTorrent will eliminate the need for ISPs to throttle BitTorrent traffic in their networks. Of course, uTorrent users will also be affected by the new protocol. When needed, uTorrent will decrease the upload or download speed to avoid congestion. 
+
+According to Morris itâ€™s mainly the upload speed that will be affected. â€œThe throttling that matters most is actually not so much the download but rather the upload â€“ as bandwidth is normally much lower UP than DOWN, the up-link will almost always get congested before the down-link does,â€ he explained.
+
+â€œuTP measures the time a packet takes to get sent from peer A to peer B, so in theory uTP will detect congestion anywhere on that path, although in practice the congestion most often happens somewhere on the first-mile uplink connection.â€
+
+So does this mean that the new uTorrent will result in slower download times? Not necessarily. Since there is less congestion, uTorrent users will experience no slowdowns in web-browsing, and ideally less congestion and a more efficient use of the network may result in faster download speeds. uTP is currently being tested in uTorrent v2.0 beta and thus far none of the testers have reported any significant problems.
+
+â€œThere are already a couple of hundred thousand people using our v2.0 beta client, and things seem to be progressing very nicely. Our v2.0 client will initiate outgoing uTP connections by default whenever it can. Previous versions of our clients will accept incoming uTP connections â€“ they just wonâ€™t initiate them,â€ Morris said.
+
+â€œWeâ€™re excited that this creates a better experience for millions of consumers, and it also potentially has a massive impact on ISPs â€“ greatly reducing (even eliminating) any justification to manage or shape BitTorrent traffic and allowing ISP networks to handle more BitTorrent traffic, without resulting congestion forcing capital network upgrades ahead of schedule or the â€˜needâ€™ to invest in DPI or other traffic shaping gear.â€ 
+
+It is hard to tell if uTP really is BitTorrentâ€™s savior (some highly doubt it), but if it lives up to the expectations it will be beneficial to both users and ISPs. The specs for uTP will eventually be open so other clients will have the opportunity to implement it too. However, since uTorrent and the Mainline client together are used by two thirds of all BitTorrent users, the effects should be immediately noticeable to both those users and ISPs.
+
+
+Here's an alpha for ÂµTorrent 2.1. This release has multiple fixes in it new to the 2.1 tree. 
+It is not feature complete.
+
+
+-- 2009-10-29: Version 2.1 (build 17085)
+- Change: The Speed guide will now reject ports listed in bt.no_connect_to_services_list
+- Change: add an upgrade message if a buggy version of nvLsp is detected
+- Fix: don't take the total number of connections into account when connecting to trackers
+- Change: increase default transfer cap to 250 GB/month
+
+-- 2009-10-15: Version 2.1 Beta (build 16932)
+- Fix: Accounting of halfopen https connections would cause uT to stop making new connections
+- Change: Made the DHT compatible with future extensions
+- Fix: sometimes the &ip= parameter sent to trackers would be incorrect
+- Fix: correctly order bencoded dict items in extension handshake message
+- Fix: fixed holepunch error handling and support detection
+- Fix: check invalid ports and IPs in the DNS resolver to avoid using them
+- Fix: various polishing on the setup guide
+- Fix: potential crash related to TLS not being initialized
+- Change: Better handle torrents with files having case insensitive equivalent paths
+- Feature: support trackers and web seeds in magnet links
+- Change: Redirect WebUI requests from /gui to /gui/
+- Change: Disable installer for Wine
+- Change: Balance CDNs to download updates
+- Fix: Fixes bug where magnet links wouldn't work if PEX was disabled
+- Fix: potential crash in network code
+- Fix: More crashes when using magnet links
+- Fix: Port settings saved in Setup guide
+- Change: Updated helpfile links to use redirects
+- Feature: added RSS feeds and filters to WebUI
+- Fix: fixed crashes in setup guide
+- Fix: greyout custom toolbar with transparency
+- Change: Disable Ask for unsupported 64-bit Windows
+- Fix: fixed UDP-tracker crash when dns resolution would fail
+- Change: Use user-supplied port in Setup Guide, save auto-portmap prefs.
+- Change: Added European Servers in Setup Guide
+- Change: New Icons in Setup Guide
+- Fix: Improper mutex accounting in hang detector
+- Fix: crash when creating torrents

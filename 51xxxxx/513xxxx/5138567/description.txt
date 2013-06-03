@@ -1,0 +1,13 @@
+Process Explorer is a freeware computer program for Microsoft Windows created by Sysinternals, which was acquired by Microsoft Corporation.
+
+Process Explorer is a system monitoring and examination utility and can be used as the first step in debugging software or system problems.
+
+Process Explorer can be used to track down problems. For example, it provides a means to list or search for named resources that are held by a process or all processes. This can be used to track down what is holding a file open and preventing its use by another program. Or as another example, it can show the command lines used to start a program, allowing otherwise identical processes to be distinguished. Or like Task Manager, it can show a process that is maxing out the CPU, but unlike Task Manager it can show which thread (with the callstack) is using the CPU â€“ information that is not even available under a debugger.
+
+Process Explorer is one of a set of administration and monitoring utilities available from the Microsoft Sysinternals website.
+
+Until 2008 Process Explorer worked on Windows 9x/Me, Windows NT 4.0, Windows 2000, Windows XP, Windows Server 2003, Windows Vista including 64-bit versions. The current (Aug 200 Process Explorer Homepage states that it works on Windows 2000 with Service Pack 4 and upwards.
+
+Recent versions downloaded with the Sysinternals Suite fully support 64 bit versions of Vista and Windows 7 x64 with a second binary, procexp64.exe. This is transparent and the user need not run it or even know about it; procexp.exe calls it as needed.
+
+Instructions: Once downloaded, unzip and double click (exe) application.

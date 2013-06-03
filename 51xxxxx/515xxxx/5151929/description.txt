@@ -1,0 +1,65 @@
+Hi everyone!
+
+This is a copy of windows 3.11 I have uploaded. It also includes a copy of the graphics drivers (as a .7z) that are already installed with windows 3.11(in case you want to change them for whatever reason) and a copy of DOSBOX which you need to run windows with. 
+
+I have seen other copies of win3.11 around but they dont have the graphics drivers already installed / or are in swedish.
+
+The purpose of this torrent is 2 fold. 
+
+Firstly to allow you to see how far microsoft has come with the windows OS and 
+
+Secondly to allow 16 bit emulation for some very old games.
+
+For example Star Wars Chess (installed in this version of windows 3.11) cannot be played on 64 bit OS's. So if you are running windows 7 64 bit and want to play an old 16 bit game that requires windows to run, you cant play it. 
+
+A good example is already included. Star Wars Chess cannot play with just DOSBOX - it needs windows to work, so booting up win3.11 first gives you a platform for these old games.
+
+Please enjoy. Comments welcome. First Torrent ever uploaded :)
+
+Kind Regards 
+Peter "1337" A.	
+
+PS Note : Instructions - 
+Install DOSBOX.
+Extract the Win3.11 to the root of your C drive (it is already in a win311 folder)
+
+Run dosbox
+Type:
+mount c c:win311 (there is a backslash here between the : and the win311 - for some reason its not displaying)
+cd windows
+win
+This will run windows. Hope this makes it easier to use :)
+
+Pete
+
+PPS
+Sorry I forgot to install sound drivers on this torrent. Rather than do it for you I will provide instructions instead.
+
+First download this torrent with the win3.11 setup files. 
+http://thepiratebay.org/torrent/3392923/Windows.3.11.and.MS-Dos.6.22
+Next extract the files to the win311 folder you already have up and running under a new folder called setup.
+IE you now have a setup directory inside the win311 directory with these files in it.
+
+Step 2
+Boot into win311 and then go to the control panel and then the drivers applet.
+
+Step 3
+Add the "creative labs sound blaster 1.5"
+Browse to the setup folder and hit OK.
+
+Step 4
+Choose Port 220 and interrupt 7.
+
+Step 5
+Reboot and enjoy windows and Star Wars Chess with sound. 
+
+Sorry for not including sound to begin with. I dont normally bother with game sound as my Amps are pumping out MP3's too loud to notice :)
+
+Pete
+
+PPPS
+For those too lazy to apply sound I have uploaded anouther torrent with the sound included as well :)
+ 
+http://thepiratebay.org/torrent/5152416/Windows_3.11_16_bit_color
+
+Pete

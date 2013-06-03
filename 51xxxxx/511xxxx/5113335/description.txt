@@ -1,0 +1,36 @@
+Radar 10 + Encyclopedia Homeopathica 2.21 + WinCHIP 2.85
+
+All cracked
+
+Install to the root of a drive( C:, D:). Enjoy!
+
+If you get an error in EH saying: "An unsupported operation was attempted" then run
+Radar10/autoreg.exe
+once.
+
+if you have a problem in full repertory mode and do not see Murphy 3 and SE92,
+
+install update 30:  
+http://www.archibel-ftp.com/~public/RadarLiveUpdate/RADARLiveUpdate1000030.exe
+
+
+then unpack this archive in Radar10/bin :  
+http://tinurl.com/63wo2u
+
+add a y after tin in the above url
+
+If you want radar to load murphy and se92 at startup add this to the link property Target: mue300 SE92, ex:
+
+C:/RADAR10/BIN/radar.exe mue300 se92
+
+
+also unpack this zip inside RADAR10/SYSTEM/ if you want to have an easier time finding the available repertories, as all non available names are replace with spaces:  
+http://tinurl.com/6eykrt
+
+add a y after tin in the above url
+
+
+example img: 
+http://www.freeimagehosting.net/uploads/d58be241d1.jpg
+
+credits to kpic!!

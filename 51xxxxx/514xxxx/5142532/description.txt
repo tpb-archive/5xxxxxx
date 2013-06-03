@@ -1,0 +1,12 @@
+Release of TRK v3.2 (ratio/upload increase tool for all private trackers).
+* Support for uTorrent/BitTorrent/BitComet/Vuse/ABC/BitLord torrent clients.
+* Support for https trackers for uTorrent/BitComet.
+* First lunch wizard
+* Bluesky Skin.
+
+Expert features:
+1. No download reports anymore, just uploading! Tracker will see you as seeder. Smile
+2. No uploading reports. You can use it with first feature to emulate "network problems". On tracker's stats you will not upload/download at all.
+
+To works with vista/windows 7 (32/64bits) need to launch TRK and Torrent client as Admin:
+Right click on icon and click "Run as Administrator".

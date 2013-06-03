@@ -1,0 +1,20 @@
+User Type,Username,Date,Text
+,mannetjes,2009-11-15T12:41Z,thanks groo nice upload speed like always
+,Mohammed1984,2009-11-16T05:07Z,"When I want to Install the game by running Setup.exe on the CD I Get this:
+
+Extracting file failed.  It is most likely caused by low memory (low disk 
+space for swapping file) or corrupted Cabinet file.
+
+
+What's that mean????
+Please Some body help me, I Love This Games.
+Mored1984@Yahoo.com"
+,pelovski,2009-12-15T01:36Z,does anyone know how to get the multiplayer working on this? Would love to play this LAN
+,AngleZero26,2009-12-17T16:48Z,"thanks for the upload of the game.
+works perfect and clean.
+this game is madness"
+,AngleZero26,2009-12-18T10:29Z,"forgot to mention one thing. why do you put in a .bin file ? T_T i'm tired finding software to convert and extract it to a CD until i find UltraISO to run the installation,etc. thanks again."
+,Berkalp1992,2010-01-02T15:50Z,"nice torrent, working, and a great game, i jsut have 1 problem. it just wont save my game files, everytime I quit an restart later on, it wont let me play the level I was on, got a solution?????"
+,GylleMads,2010-04-23T16:17Z,Can't save either
+,foxoscar,2010-09-18T21:28Z,Also having issues with saving.
+,foxoscar,2010-09-18T22:44Z,"I think I've found the fix to the issues with not saving. Download SQLite Database Browser (2.0b2 was the version as of this writing), load it up, and open the ""config.hdb"" file located in the directory where you installed Madballs. Click the Browse Data tab, and from the drop-down, pick bv3Vars. Scroll down to the 82 line, double click where it says ""false"" and change it to true. Make sure you click ""Apply Changes"" as well... it's not automatic. Save the file, and load it up. I also enabled ""d_profileInfo"" (line 11). When you're playing a game, if you bring down the console (`), it should show info of the profile.hdb being updated."

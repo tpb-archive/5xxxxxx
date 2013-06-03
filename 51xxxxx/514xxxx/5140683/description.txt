@@ -1,0 +1,28 @@
+Titolo: PainKiller Resurrection
+Genere: Sparatutto
+Piattaforma: Pc-Games
+Produttore: JoWood
+Sviluppatore: JoWood
+Distributore: DreamCatcher
+Lingua: Eng Sub Italiano
+Giocatori: 1 - multiplayer online
+Pegi: 16+
+Data di Uscita : 27/10/2009
+
+La procedura per abilitare il testo ITA:
+
+    all'interno di InstallDirDataLscriptsMain c'Ã¨ il file Cfg.lua
+    apritelo con notepad.
+    1 - trovate la linea Language = "EN" o "English" e sostituite con "IT"
+    2 - Trovate la riga:
+    function Cfg:Load()
+    local gamelang = EN"
+    sostituire EN con IT e salvare!
+
+
+	Seed & Banda
+
+      7/7 24/24 2500 KB/s
+    for 6 Days or 50 Complete
+
+More info: Survivalofmisa.altervista

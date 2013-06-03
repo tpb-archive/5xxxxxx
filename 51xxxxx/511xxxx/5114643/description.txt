@@ -1,0 +1,156 @@
+PowerArchiver 2010 11.60.20 (RC5) made Portable.
+
+No need to install it!
+Or, if you want to, Setup and License are included...
+
+
+PowerArchiver 2010 - universal archiver with support of all popular formats. This archive supports ZIP, RAR, 7-ZIP, CAB, LHA (LZH), TAR, TAR.GZ, TAR.BZ2, BH, ARJ, ARC, ACE, ZOO, GZ, BZIP2, XXE, MIME, UUE, XPI , EAR, WAR, REP, JAR, BK, QWK, Quake PK3, skins WinAMP, self-extracting executable file format ZIP and CAB, as well as CD-images: ISO, BIN, IMG and NRG. At the time the program is free, but as the expansion of its capabilities, has moved into the commercial status that, if we look at the overall trend, it is not surprising. This current application, which combines support practically all popular archival formats. If necessary, you can use encrypted archives using AES algorithm with varying degrees of stability (128-bit/192-bit/256-bit). The interface supports the change of skin, works as in classical or contemporary form.
+
+Features: 
+- Complete built-in support for 7-ZIP, ZIP, CAB, LHA (LZH), TAR, TAR.GZ, TAR.BZ2, BH, RAR, ARJ, ARC, ACE, ZOO, GZ, and BZIP2 file formats
+- Support for reading and extracting disc image formats: ISO, BIN, IMG and NRG
+- Built-in support for XXE, UUE, and yENC encoded files and full MIME (Base 64) support
+- Creating ZIP and CAB and PAE encrypted self-extracting archives using a Wizard interface
+- Support for unlimited size ZIP archives, with improved performance when working with 100,000+ files
+- Support for Deflate64, providing improved compression results (both size and speed)
+- Complete support for PKZIP 4.0 and PKZIP 4.5 disk spanning
+- Compression Profiles to store frequently used compression settings
+- Full support for ZIP AES encryption, 128-bit/192-bit/256-bit (supports: PKZip 5.1 (full), Secure Zip 8.0 and WinZip 9.0 AE-1 & AE-2) and proprietary PAE format using 5 different methods: Blowfish (128-bit), DES (64-bit), Triple DES (128-bit), AES 128-bit, and AES 256-bit
+- Support for AES encrypted 7-Zip archives and multivolume 7-Zip archives
+- Uploading archives or backups directly to FTP or SFTP (SSH) sites with multiple profiles supported and timeout option
+- Password manager for saving frequently used passwords
+- Tool for creating PBS backup scripts and running automated backups
+- Internal viewer that supports TXT, RTF, GIF, PNG, BMP, ICO, TIFF, GFI, SGI, EMF, WMF, PPM, Adobe Photoshop, Autodesk, Truevision, - ZSoft Paintbrush, Kodak Photo-CD, JASC PaintShop Pro, and Dr. Halo file formats
+- Many powerful archive operations (including: renaming files in archive, spanning archives, testing archives, viewing and writing comments, installing archives, and checking archives for viruses)
+- Drag and Drop from/to Windows Explorer and the Desktop
+- Two ways of viewing archives (Classic - all files in the same listing; Explorer - browsing through an archive like folders in Windows Explorer)
+- Complete integration with Windows (extracting archives and creating archives directly from Windows Explorer using powerful "Explorer Shell Extensions")
+- Ability to edit files within an archive using one single operation
+- Printing file listing to text file or HTML document
+- Tool for repairing corrupted ZIP archives
+- Converting between file formats (for example: changing a ZIP archive to CAB archive, or LHA archive to ZIP archive)
+- Extracting multiple archives at the same time
+- Batch Zip function to create multiple different archives at once
+- Favorite Folders to quickly locate archives
+- Powerful Find function for searching within an archive
+- Auto Update to automatically download and install new versions of PowerArchiver
+- Powerful help in HTML and a tutorial with pictures for beginners
+- Full skinning support via PSF files - includes interface skins, toolbar skins, icons and customizable application settings
+- Customizable toolbar that can be docked to any side of the application or float independently 
+- Windows XP Theme and ClearType support
+
+
+Version 11.60 Preview [October/2009]
+
+New Features
+	* Support for extracting ZIPX JPEG format, PowerArchiver becomes only
+	application after WinZip 12 to fully support ZIPX format.
+	* Updated Burner engine.
+	* Burner now uses SPTD layer for burning if you install latest PAVD, for faster
+	burning and improved access to drive.
+	* New file/folder selection with checkboxes for backup.
+	* "No to All" option added to all relavant continue dialogues.
+	* Open archive after creation option added to shell.
+
+
+Improvements
+	* Memory usage improvements - up to 1 MB less memory used.
+	* Faster explorer view (startup and browsing folders).
+	* Improved select folder window (faster).
+	* PA uses ZIP as default compression when PA has not been run.
+	* Spanning now enabled when Queue is used.
+	* PA Starter improvements (unicode, interface, etc).
+	* MRU's are now being saved during shell actions as well.
+	* Improved behaviour when extracting single files out of huge rars.
+
+Bug Fixes
+
+	* #1634 - spanned 7zip files showing compress to shell options
+	* #1633 - if overwrite fails, PA does not show an error.
+	* #1626 - if we select open after creating, spanning options get enabled.
+	* #1625 - during drag & drop extraction, empty folders not extracted.
+	* #1581 - Updating encrypted files in certain situations.
+	* #1632 - if burner is not present, yet selected in backup, AV shows.
+	* #1643 - cbr, cbz, pak files showing drag and drop options when opened.
+	* #1621 - CRC not shown for folders inside 7zip archives.
+	* #1624 - CRC issue with zip files that dont have proper local/central headers.
+	* #1612 - Issue with specific large zip file.
+	* #1615 - Unrar does not work in specific situations.
+	* #1618 - PA does not create zip spans over 4 GB properly (sometimes).
+	* #1480 - 7zip bad password can not cancel.
+	* #1603 - PA crashes in config if closed with esc.
+	* #1595 - PA can not encrypt spanned zip files in encrypt tool.
+	* #1577 - Need to click Ok twice when d&d with encryption
+	* #1589 - Can not extract some 7zip archives when filename encryption is on.
+	* #1522 - PAE extraction does not show % done.
+	* #1601 - Pae not under extract menu in 64bit.
+	* #1574 - Change shortcut for shell> extract.
+	* #1582 - Different fonts in preview and backup window.
+	* #1584 - Zipx shows in final backup screen, despite zip selected.
+	* #1435 - Starter crashes if installation closes it.
+	* #1588 - Only one queue item is processed at time.
+	* #1544 - Sometimes erase option in CDRW/DVDRW did not work (in burner/backup tools)
+	* #1580 - Can not open zip encrypted archives created in PA 2007.
+	* #1569 - modification date of folders not extracted properly for rar.
+	* #1573 - compression of larger files through batch zip did not work in specific situations.
+	* #1570 - Optimized + Queue did not work .
+	* #1559 - Previewing inside solid 7zip archives does not work.	
+	* #1547 - PA can not rename specific files in zip.
+	* #1560 - clicking on .z01 does not show file contents.
+	* #1541 - PA does not extract files without extensions in tar format, via D&D
+	* #1536 - Issue with compressing unicode files in non-english Windows (such as Chinese versions of Windows).
+	* #1533 - File format selection resets when open dialogue is used to select new filename.
+	* #1501 - FTP profile selection in backup gets reset.
+	* #1524 - Issue with 7zip and encrypt filename option.
+	* #1520 - Spanning is available when PAE encryption is selected.
+	* #1521 - Update save window does not always default to my documents.
+	* #1517 - Some Pro options still available when registered as Standard license.
+	* #1525 - Mount Virtual DVD option not showing up in shell.
+	* #1507 - Other PA settings not saved if PA is restarted after registration.
+	* #1513 - Right click menu not showing in backup list.
+
+
+
+More infos at 
+http://www.powerarchiver.com/
+
+
+The Portable SFX EXE file is built up using WinRAR. You can use it to extract the files and check them one by one if you want to be sure of what is running on your machine.
+
+
+This has also been built on an XP x86 machine, I don't know if this program can run on a x64 or Vista machine. I't's up to you to check it if you are using them.
+
+
+
+SUGGESTIONS ON USING P2P DOWNLOADS
+==================================
+
+1) It's always better to run all downloaded programs using Sandboxie or a similar virtual machine until you are sure they are clean.
+
+
+2) When in doubt, scan them with an Internet Scan service as the ones provided by Jotti and VirusTotal 
+http://virusscan.jotti.org/ 
+http://www.virustotal.com/
+
+This will ***NOT*** give you any warranty that a file passing their analysis is clean, nor that if they see them as a troian it's so or not just another false positive, but helps you to decide and at least ask for help or infos.
+
+
+3) Remember, trust nobody, and when in doubt, go to point 1) 
+
+
+4) If you find any upload containing trojans or whatsoever malicious or unclean, instead of start cursing in the comments of the upload, take the time to go to the Suprbay Forum at: 
+http://forum.suprbay.org/forumdisplay.php?fid=29
+
+and report links and comments there, and someone will take care of all the nasties.
+
+
+That's the only way to keep TPB and its uploads fresh and clean.
+
+
+That's for what is regarding security. If after testing it you see that you like it and it's useful for you, show your support by buying it!
+
+
+
+Enjoy and remember to seed... :o)
+
+

@@ -1,0 +1,104 @@
+
+BBBBBBBBBB
+BBBBBBBBBBBB                        
+BBBB    BBBB                        
+BBBBBBBBBB    yyyy  yyyy        ::::
+BBBBBBBBBBBB  yyyy  yyyy        ::::
+BBBB    BBBB  yyyy  yyyy            
+BBBBBBBBBBBB    yyyyyy          ::::
+BBBBBBBBBB        yyyy          ::::
+                  yy                
+              yyyy                  
+
+
+
+
+
+
+                                                  
+ 11         1   11      111111   111111111 111111111   111111    11     1
+  11       1    11    11            11     11      1   11    1    11   1
+   11     1     11    11            11     11      1   11    1     11 1
+    11   1      11    11            11     11      1   111111       11
+     11 1       11    11            11     11      1   11    1      11
+      11        11      111111      11     111111111   11     1     11
+
+
++------------------------------------------+
+|   [+] Custom IOS Installer (v38 rev 15)  |
+|       developed by Waninkoko             |
++------------------------------------------+
+|                                          |
++------------------------------------------+
+
+
+[ DISCLAIMER ]:
+
+- THIS APPLICATION COMES WITH NO WARRANTY AT ALL, NEITHER EXPRESS NOR IMPLIED.
+  I DO NOT TAKE ANY RESPONSIBILITY FOR ANY DAMAGE IN YOUR WII CONSOLE
+  BECAUSE OF A IMPROPER USAGE OF THIS SOFTWARE.
+
+
+[ DESCRIPTION ]:
+
+- This is a Custom IOS, an IOS modified to add some new features
+  not available in the official IOS.
+
+  This IOS has been made to be used ONLY with homebrew software.
+
+  The Custom IOS installs as IOS249 and it does not modify any other
+  IOS so it is secure to install.
+
+
+[ REQUISITES ]:
+
+- "IOS38-64-v3867.wad" original WAD file (for WAD installation). ""INCLUDED""
+- Network connection (for Network installation).
+
+
+[ HOW TO INSTALL IT ]:
+
+  WAD Installation:
+
+- Copy "IOS38-64-v3867.wad" ""INCLUDED"" file to the root of a SD card.
+- Insert the SD card on your Wii.
+- Run the installer and select "WAD Installation".
+
+
+  Network Installation:
+
+- Run the installer and select "Network Installation".
+
+
+[ KUDOS ]:
+
+- Team Twiizers and devkitPRO devs for their great work in libogc.
+- All the betatesters.
+- WiiGator, for his work in the DIP plugin.
+- kwiirk, for his EHCI module.
+- Hermes, for his EHCI improvements.
+- sorg, for his cover check patch.
+- Shizzza, for the background image.
+- nitrotux, for his IOS5.
+- neimod, for the Custom IOS module.
+
++-----------+
+| CHANGELOG |
++-----------+
+
+[ CIOS38 rev 15 ]:
+
+- DVD+DL support fixed.
+- DIP plugin improvement (NSMB = New Super Mario Bros Wii may work a bit better).  
+- ES plugin optimized.
+- FAT module bugs fixed.
+- FFS plugin bugs fixed.
+- EHCI module optimized.
+- Fixed bug in Installer.
+- Miscellaneous changes. 
+
+
+_________________________________________________________________________________
+
+
+"IOS38-64-v3867.wad" (for WAD installation). ""INCLUDED""

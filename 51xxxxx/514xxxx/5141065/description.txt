@@ -1,0 +1,51 @@
+Hard Disk Sentinel Professional (HDSentinel) is a HDD/SSD monitoring and analysis application. Its goal is to find, test, diagnose and repair disk drive problems, report and display SSD and HDD health, performance degradations and failures. Hard Disk Sentinel gives complete textual description, tips and displays/reports the most comprehensive information about the hard disks and solid state disks inside the computer or in external enclosures (USB / e-SATA). Many different alerts and report options are available to ensure maximum safety of your valuable data.
+
+The software monitors hard disk drive / HDD status, including health, temperature and all S.M.A.R.T. (Self-Monitoring, Analysis and Reporting Technology, built in most hard disks and solid state disks today) values for each disks. Also it measures the disk transfer speed in real time which can be used as a benchmark or to detect possible hard disk failures, performance degradations
+
+What'S NEW
+
+30/10/2009
+
+
+    * (*) disk surface test functions (accessible from File menu or by quick button) to test hard disk and solid state disk surface with different read and write test methods.
+      Destructive and non-destructive tests are possible and many settings are available including complete simple read tests, disk re-initialisation (**), data area refresh (**), industry standard data-destruction (**) and so to help disk diagnostics and repair. Temperature and data transfer speed is measured and displayed during the test to analyse disk operation and slowly accessible regions
+
+    * (*) Disk Contents Inspector allows to check stored information on the disk
+
+    * detection of both SATA and SAS disks configured to RAID arrays on HighPoint 1xxx and 2xxx series RAID controllers (SAS only if applicable, for example by the 2640x4 controller)
+
+# detection of new USB drives, SATA multipliers, external enclosures, SAS drives
+
+# more SSD specific information and attributes displayed for various SSD devices (for example OCZ, Corsair, Super Talent, Intel, Samsung, Crucial and so)
+
+# added detection of new SSD devices
+
+# (*) verify results online: compare details of a drive with reports received online, to check if the drive is better or worse than average ("globe" with HDD icon)
+
+# (*) right click over list of logical drives to hide drives or select button sizes
+
+# displaying highest temperature ever found in the entire lifespan of the disk, option to reset measured highest/lowest temperatures
+
+# configurable tray icon font (Configuration -> Thresholds/tray icon)
+
+# option to prevent disks from spin down (Configuration -> Disk control)
+
+# (*) Hard Disk Sentinel API: 3rd party software can get disk information from the software for further processing
+
+# many user interface fixes and improvements
+
+# 150+ new hard disks in database
+
+# various minor bug fixes and improvements
+
+# fixed: random seek time test resulted errors on some disks over 1 TB
+
+# improved support for ARECA RAID controllers with STORPORT drivers
+
+# added Bulgarian language support - thanks for Georgi Nenov for the translation
+
+# added Greek language support - thanks for dancer_69 for the translation
+
+# added Swedish language support - thanks for Ulf for the translation
+
+# added Russian language support - thanks for Andrey Nikolaev for the translation 

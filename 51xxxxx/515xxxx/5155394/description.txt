@@ -1,0 +1,87 @@
+No frills basic (PSP, iPod, Zune) (480 x XXX) encoding for Windows.
+
+Comes with batch file.  You will have to edit parameters in batch file for each encode.  This is not a GUI program.  If you do not possess the skills to open and edit text files then this is not for you.
+
+You will have to enter in a minimum of the following values:
+
+encode_file
+dimensions
+aspect
+title
+output_file
+
+Use included spreadsheet to determine dimensions and aspect.  Only use the data from line 32, PSP data only for dimensions and aspect.  This spreadsheet is for many profile but script only setup for PSP dimensions.
+
+To determine the original width and height you can run command ffmpeg -i <source file>  (do not include the < >)  or you can run mediainfo on the source file.
+
+Example included in batch file is for TV show.  Sample has threads set to 2, if you have a quad core cpu you should adjust this to 4 or until all of your cpu's are at max utilization.
+
+Gives exact same PiZ encode as encode-handheld.pl but extremely limited logic.
+
+Could prove useful to some people.  It works fine, just no real logic.  If someone wants to add the advanced logic from encode-handheld.pl be my guest.  For simplicity sake there aren't variables for cropping or padding, although you can quickly add those in if you like.  Only one you would really want for PiZ would be cropping and that would be if you are coming from DVD or uncropped bluray source.
+
+On Intel core 2 duo 2.8 ghz it runs at roughly 38-46 fps depending on pass.  Whopping 7fps on a 2.4ghz pentium 4.
+
+Note:  The default windows command prompt is not wide enough to prevent scrolling of the encode FPS.  To make it wider click the upper left pull down on the command window, select properties, select layout, adjust width to like 120 and height to 500.  Now it will not scroll as it processes.
+
+Base tools:
+ffmpeg
+AtomicParsley
+jhead
+
+Warning: There is no logic to prevent you from overfilling the description character count.  The max description is 255 characters including spaces and what not.  If you put in too large of a description you will screw up the atoms and it can't be fixed without rebuilding.
+
+
+-HR
+
+
+Some extra notes/findings:
+
+ok, please realize that batch script is very basic.
+
+in helping someone else they got hung up on this line
+
+set aspect=16:9
+
+dont include any colons for this, ffmpeg only understands 16:9 and 4:3 in this notation.  for all others just put like 2.35, 1.86, etc.  just copy and paste the AR from line 32 in spreadsheet.
+
+They also got hung up on the thumbnail.
+
+set jpg_dimensions=160x90
+set jpg_padtop=16
+set jpg_padbottom=14
+
+that is for 16:9
+160/90 = 1.7777778
+you then have to fill the remainder with pads.
+
+so for a 2.35 you would do 160/2.35 = 68
+160x68
+pad 26 top and bottom
+
+
+next major part is all itunes flags.  these are pre populate for a tv show as i would have release it.  they are not all applicable to a movie.
+
+i suggest making 2 batch file or 3, one for movie, one for tv show, one for music vid.  and only use atoms you want, make the rest of them = ""
+
+if doing a series you would have to make as many batch as there is to the series.  then call all the batch from another batch.
+
+
+another update:
+
+I have noticed this version of ffmpeg ships with an inferior AAC encoder.  It does not come with libfaac compiled in.  You may want to search for another static compiled ffmpeg that has libfaac.  In tests with certain audio it produces weird static and warble like sounds.
+
+You can see it was removed here: 
+http://ffmpeg.arrozcru.org/autobuilds/blog/2009/05/19/libfaac-removed/
+
+so get an older version from the main page here 
+http://ffmpeg.arrozcru.org/autobuilds/
+
+or use the links to find someone else who compiles ffmpeg for windows and leaves in libfaac. If you do use another binary that has libfaac compiled in you will have to change the acodec from aac to libfaac.  If you don't it will still use the freebie aac encoder.
+
+small update on batch file here: 
+http://ra p  id shar e.com/files/306279782/PiZ_encode_TV_Show.cmd
+
+this update includes cropping support in the batch file.
+
+-HR

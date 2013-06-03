@@ -1,0 +1,95 @@
+User Type,Username,Date,Text
+,99flippy,2009-11-11T20:55Z,"Worked perfectly for me, no virus as far as I can see. Thanks a lot guy who made this. "
+,sadspam,2009-11-13T10:36Z,Both the Warden and Stone Prisoner areas show up on the maps now. Worked really well. 1000+ internets to you for sharing. Thanks.
+,Bullseye150,2009-11-15T02:44Z,Brilliant. Finally got rid of the map issue with this :)
+,femaldif,2009-11-17T13:27Z,sry to be a noob but how do i change the variables?
+,Chodam,2009-11-17T20:07Z,"I was wondering if I could get a step by step on how to apply this ""crack"". Any help will be appreciated."
+,nino206,2009-11-17T21:30Z,"I didn't get it, where to copy it?"
+,sie_olo,2009-11-18T05:55Z,"Good Work:
+
+For the newbies:
+
+1) Download the DLC's (Warden, Stone, ...)
+2) Install
+2.a) You have the .dazip :
+daupdater => install them
+2.b) You have the unpacked files:
+Copy them into the folder(Vista) C:\Users\\Documents\BioWare\Dragon Age\AddIns
+as the AddIns.xml in the \Settings folder
+3) Start decrypt_all.bat (copying not necessary)"
+,femaldif,2009-11-18T07:28Z,i have followed the instructions and copied the .exe and .bat i have run the .bat what next i cant change the variables
+,aav921,2009-11-18T12:20Z,what are the authorization variables? is that where they list the price >540<    ??? Can someone please detail on this
+,guenthar,2009-11-22T05:52Z,"This doesn't work for me.  I have been trying awhile to get Warden's Keep to work and download this but it didn't help at all.
+
+I finally got it working when I downloaded the Dragon Age DLC ARM torrent."
+,femaldif,2009-11-24T11:22Z,i downloaded the arm version but still cant get it to work
+,swagaws,2009-12-02T08:00Z,there are no authorization anything in my addins.xml so im not sure what to do : / ....
+,swagaws,2009-12-02T09:16Z,"is it where is says enable""1"" i change it to 0???"
+,Mystech,2009-12-09T01:35Z,"sie_olo, your directions don't make much sense - you're talking about files that aren't included in the torrent.  What is .dazip for instance?  
+
+What are we supposed to do with AddIns.xml? Your instructions are unreadable, you seem to be assuming way too fucking much."
+,Mystech,2009-12-09T02:09Z,"Ok this crack worked for me. So here's my instructions.
+
+1. Download and install the DLC through whatever means you choose - I hear tell there's torrents of it out there but that would be wrong and immoral so I don't support it.
+
+2. Grab this torrent and run decrypt_all.bat
+
+3. Find Addins.xml (You should find it in My Documents\bioware\Dragon Aage\Settings) and open it with a text editor (I recommend notepad++ because it displays the sort of code that this file is written in very neatly and makes it much easier to read)  Find every instance of the attribute ""RequiresAuthorization"" and make sure that it is immediately proceeded by ""0"" if instead it has ""1"" after it, just change that 1 to a 0 save it and you should be good to go.
+
+Simple as that."
+,Chabs232,2009-12-10T21:00Z,"Wtf is this all 'bout ? 
+
+The only thing you have to do is change the authorisation vars by 0 on the file in My docs...
+I can't see the reason why this torrent was created because it's totally useless... The DLCs work perfectly by changing the vars...
+Any enlighting comments would be welcome !"
+,Cody900,2009-12-13T07:06Z,"@Chabs: They don't all work. Only a few of the items you can use with just changing the authorisation to 0. Some of the other items, the guild belt, and a couple of the rings, and the locations, won't work in the game without the decrypt.
+
+If you just change the authorisation to 0, then speak to the guy in your camp and ask him to mark Soldier's peak on your map, when you leave the camp, nothing shows up on your map, it's still not accessible. After you decrypt the files then it'll show up on the map and be playable."
+,schlixx,2009-12-14T14:29Z,"LISTEN UP PEOPLE
+if you are having problems getting the dlc to install like i did for fucking weeks heres what u need to do. BOTH stone prisoner and wardens keep will not work once installed, that much is obvious, to activate them in game they require AUTHORIZATION, most of you probably know this, but like me did not know how to do that as the XML file does not mention authorization anywhere in them, well i finally figured it out. above wardens keep and stone prisoner items in the xml file you must find the entry for STATE- it will be set to 2, change this to 1 for both items and hurrah they will work, hope this helps all of you."
+,dragondeathlord,2010-01-01T15:14Z,"Thank gods for this crack,work great, sad but funny thing is I own the game and it should be authorized but it kept gliching and the online service kept crashing well this fixed it thank you.
+So I payed for it but piratebay fixed it.Better than teck support! Happy new year!"
+,FreeMayk,2010-01-03T01:35Z,"Tnx m8 a lot.
+After some time Wardens keep and Stone Prisoner finaly work..."
+,patuli,2010-01-06T04:56Z,"is theres any way to decrypt the blood dragon armor 1.1? 
+already read the thread in bioware social and it seems like you need a valid key in order to work
+otherwise all your blood dragon armors dissapears from all your saved games, already tried putting 0 but that only changes the unauthorized crap but still no armor, i can live with 1.0 but it miss the female elven texture in the middle part of the armor"
+,dodgydave79,2010-01-24T18:38Z,"cheers schlixx
+works perfect now
+keep looking for authorisations in the xml
+but couldn't find because they were enabled
+& changed to state instead"
+,Foam42,2010-02-05T01:19Z,"do you have to change the ""STATE"" entry from 2 to 1 every time or only for Wardens Keep and Stone Prisoner?"
+,patuli,2010-02-09T00:40Z,"to cody 900
+add two new lines the first one is for the crypted 
+blood dragon armor 1.1
+and the second one is for the crypted retunr to ostagar 1.1
+@echo off
+dedaodrm.exe dao_prc_promo_me 16030373
+dedaodrm.exe DAO_PRC_CP_1 45125944
+have a nice day and thank you for your utility ;']"
+,Lithocardia,2010-04-26T18:43Z,"Oh my Gawd! Works like a freaking charm... at least so far. I already had the bigger add ons working due to the generous uploaders/haxx0rz but the little things like Guild Masters belt and Memory Ring plus about 5 others always frustrated me showing up as 'unauthorized' and forcing me to disable them. I ran this, edited to 0 and now... all ticks, no 'unauthorized'. Now let's play!"
+,oi4got,2010-05-02T09:03Z,"i can't even find my addins.xml !!! i  looked through the folder and nothing, even searching entire pc....wtf?!"
+,oi4got,2010-05-02T12:34Z,"@Mystech
+
+there's no ""RequiresAuthorization"" at all in my addins.xml!!!! i opened with several readers and searched..cant find it.....at all..."
+,danbest82,2010-08-20T17:48Z,"worked great. couldn't get warden's keep, stone prisoner or other items to actually work without it. thanks!"
+,88MANN,2010-09-03T23:58Z,Thanks works fine
+,Conqinner,2010-09-11T19:37Z,"great job, works fine.thank you"
+,Cthoolhoo,2010-09-28T22:02Z,THAnK YOU so much finally stone prisoner working!!!
+,Nomonicks,2010-12-31T02:48Z,"You, sir, are a life saver no more high blood pressure for me, thank you! 
+
+I've literally been trying to get my DLC to work [For my legal copy lol] since 12/3/2010. I tried EVERYTHING; 
+Contacted EA live chat, EA support global, EA support in my country, Costumer service hotline and so, so many forums. NOTHING worked.
+
+This crack is better than sex. THANK YOU!"
+,guthimillerk,2011-01-02T21:56Z,This crack is awesome. worked flawlessly. Thanks much
+,mrunderstanding,2011-02-27T14:42Z,"Love the text file. :P
+
+I wonder if devs do these things on purpose."
+,pheonixian,2011-03-21T23:10Z,man because my windows are fucking greek i can not change the authorisation variables to 0 i would appriciate it if you could uploade the AddIns with authorisation to 0 thx. But other than this it works like a charm thx !!!!!!!
+,mmadream,2011-08-04T19:19Z,"Hey
+
+I can't even find anything that says RequiresAuthorization=""1"" in my AddIns.xml. 
+
+I have 3 lines of writing that don't do me any good. I've tried to find and replace it using notpad++ but to no avail. Please, i could use some help T__T"

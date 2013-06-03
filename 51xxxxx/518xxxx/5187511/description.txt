@@ -1,0 +1,25 @@
+New in 5.1c
+
+Changes to support wez AtomicParsley --longdesc
+
+Includes new AtomicParsley.  You must install this if you are using appletv and the output file is over 2gb.  You will get a fatal AtomicParsley error otherwise when it tries to tag the file.
+
+Just a note, if you use the -I option with -t appletv you may experience framerate slow down in certain scenes (with Apple TV playback).
+
+-----------
+
+New in 5.1b
+
+Added support for Apple TV Cabac/trellis mode with option -I
+
+Apparently this works and Apple TV published specs are wrong for some reason.
+
+-----------
+
+New in 5.1a
+
+Logic error surrounding new ffmpeg -codecs that was introduced in 5.0c
+Most likely wouldn't effect anyone.  It wasn't setting the output format type correctly.
+
+
+-HR

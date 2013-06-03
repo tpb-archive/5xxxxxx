@@ -1,0 +1,93 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+                    Windows 7 Pre-Activation Kit v2.7.0 (16-11-09)
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+Windows 7 Pre-Activation Kit v2.7.0 for Windows 7 (16-11-09)
+
+New Windows 7 activation toolkit. Just get yourself Windows 7 releases from GRP or WZT, choose one of the activation methods and youâ€™re good to go. Read instructions first.
+
+this pre-activation kit is appropriate for systems with
+a BIOS mod or systems that require a bootloader to activate.
+
+when the script runs it first checks if the system is activated
+if not it installs a certificate for the OEM present in the BIOS
+then checks if the system activated, if not then installs a 
+bootloader with an Acer SLIC and installs an Acer certificate
+then reboots the system.
+
+note: bootloader is zsmin v0.97, keys are installed with DISM
+
+
+[contents]
+
+miso.exe - extracts .iso
+sha1.exe - performs checksum on .iso
+oscdimg.exe - creates the bootable .iso
+imagex.exe - deletes the unactivated images
+Make_x32_DVD.cmd - script to make the preactivated x32 .iso
+Make_x64_DVD.cmd - script to make the preactivated x64 .iso
+
+=================================================================================================================
+
+[directions]
+
+place an un-touched offical Windows 7 RTM .iso in the
+Pre-Activation_kit directory
+
+if you want logos automatically installed accroding to the OEM info 
+in your BIOS then place logos folder, logos.vbs and OOBE.cmd in 
+$OEM$$$SETUPSCRIPTS
+
+
+if you want to install the product key via a script
+place key.vbs and SetupComplete.cmd in 
+$OEM$$$SETUPSCRIPTS
+
+the scripts will ignore the commands to intragrate the
+keys into install.wim
+
+should be used in conjunction with a custom ei.cfg to 
+avoid OOBE asking for a key, but will make a single edition
+install dvd.
+
+pre-made ei.cfg's can be found in the ei.cfgs directory 
+pick one and rename it to ei.cfg and place it in the
+pre-activation_kit directory. it will then be copied
+to the DVD.
+
+=================================================================================================================
+
+file name and SHA1 for 32 bit Windows 7 must be:
+
+file name: 7600.16385.090713-1255_x86fre_client_en-us_Retail_Ultimate-GRMCULFRER_EN_DVD.iso
+SHA1: 5395dc4b38f7bdb1e005ff414deedfdb16dbf610
+
+=================================================================================================================
+
+file name and SHA1 for 64 bit Windows 7 must be:
+
+file name: 7600.16385.090713-1255_x64fre_client_en-us_Retail_Ultimate-GRMCULXFRER_EN_DVD.iso
+SHA1: 326327cc2ff9f05379f5058c41be6bc5e004baa7
+
+=================================================================================================================
+
+right click and "Run As Administrator" the script for the version of
+Windows 7 you want to pre-activate
+
+Make_x32_DVD.cmd for "7600.16385.090713-1255_x86fre_client_en-us_Retail_Ultimate-GRMCULFRER_EN_DVD.iso"
+
+Make_x64_DVD.cmd for "7600.16385.090713-1255_x64fre_client_en-us_Retail_Ultimate-GRMCULXFRER_EN_DVD.iso"
+
+process should take 10-15 min
+
+when completed Ultimate, Professional and Home Premuim will be preactivated
+and you will have the option to install any of the editions on the DVD durring setup.
+
+
+
+PLEASE KEEP SEEDING AS LONG AS YOU CAN...
+
+LEAVE YOUR VALUABLE COMMENTS...

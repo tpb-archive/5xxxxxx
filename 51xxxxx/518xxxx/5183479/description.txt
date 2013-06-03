@@ -1,0 +1,21 @@
+This is a WHQL-certified driver for GeForce 6, 7, 8, 9, 100, and 200-series desktop GPUs and ION desktop GPUs.
+
+New in Version 195.62
+
+Adds GPU-acceleration for smoother online HD videos with the new Adobe Flash 10.1 beta. Learn more here. 
+Adds support for GeForce GT 240. 
+Adds support for OpenCL 1.0 (Open Computing Language) for all GeForce 8-series and later GPUs. 
+Adds support for CUDA Toolkit 3.0 features and performance enhancements. See CUDA Zone for more details. 
+Adds SLI and multi-GPU support for many top new gaming titles including Borderlands, Call of Duty: Modern Warfare 2, FIFA Soccer 10, and more. 
+Includes numerous bug fixes including improved performance for Need for Speed: Shift. Refer to the release notes on the documentation tab for information about the key bug fixes in this release. 
+Users without US English operating systems can select their language and download the International driver here. 
+
+Existing Support: 
+
+Supports DirectCompute with Windows 7 and GeForce 8-series and later GPUs. 
+Supports OpenGL 3.2 for GeForce 8-series and later GPUs. 
+Supports NVIDIA 3D Vision Discover, a complete, low cost solution to start your immersive stereoscopic 3D experience. NOTE: If you are using NVIDIA 3D Vision active shutter glasses, you must download the separate 3D Vision driver which includes the driver for the 3D Vision IR emitter. 
+Supports single GPU and NVIDIA SLI technology on DirectX 9, DirectX 10, and OpenGL, including 3-way SLI, Quad SLI, and SLI support on SLI-certified Intel X58-based motherboards. 
+Supports NVIDIA PhysX acceleration on a dedicated GeForce graphics card. Use one card for graphics and dedicate a different card for PhysX processing for game-changing physical effects. This driver installs PhysX System Software version 9.09.0814. Learn more here. 
+Download these FREE PhysX and CUDA applications now! 
+Supports GPU overclocking and temperature monitoring by installing NVIDIA System Tools software.

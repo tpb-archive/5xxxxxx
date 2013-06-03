@@ -1,0 +1,70 @@
+REAPER is a powerful but sensible Windows application that lets you record, arrange, edit, and render multi-track waveform audio. It provides an extensive set of features, but is a very small and lightweight application (the installer is less than 1 megabyte, and includes many effects and a sample project). REAPER supports ASIO, Kernel Streaming, WaveOut, and DirectSound for playback and recording. It reads WAV, OGG, and MP3 files, and records WAV files. You can arrange any number of items in any number of tracks and use audio processing plug-ins (DirectX and Jesusonic). REAPER also supports volume, pan controls and envelopes per track, multi-layer undo/redo, and user creatable color themes.
+
+Basic features:
+â€¢ Portable - supports running from USB keys or other removable media
+â€¢ 64 bit audio engine
+â€¢ Excellent low-latency performance
+â€¢ Multiprocessor capable
+â€¢ Direct multi-track recording to many formats including WAV/BWF/W64, AIFF, WavPack, FLAC, OGG, and MIDI.
+â€¢ Extremely flexible routing
+â€¢ Fast, tool-less editing
+â€¢ Supports a wide range of hardware (nearly any audio interface, outboard hardware, many control surfaces)
+â€¢ Support for VST, VSTi, DX, DXi effects
+â€¢ ReaPlugs: high quality 64 bit effect suite
+â€¢ Tightly coded - installer is just over 2MB
+
+Editing features:
+â€¢ Tool-less mouse interface -- spend less time clicking
+â€¢ Drag and drop files to instantly import them into a project
+â€¢ Support for mixing any combination of file type/samplerate/bit depth on each track
+â€¢ Easily split, move, and resize items
+â€¢ Each item has easily manipulated fades and volume
+â€¢ Tab to transient support
+â€¢ Configurable and editable automatic crossfading of overlapping items
+â€¢ Per-item pitch shift and time stretch
+â€¢ Arbitrary item grouping
+â€¢ Markers and envelopes can be moved in logical sync with editing operations
+â€¢ Ripple editing - moving/deletion of items can optionally affect later items
+â€¢ Multiple tempos and time signatures per project
+â€¢ Ability to define and edit project via regions
+â€¢ Automation envelopes
+
+v3.141 - November 16 2009
++ Action: toggle selected tracks between touch and trim/read modes (for non-motorized control surfaces)
++ Anticipative FX is no longer by default disabled during rendering
++ Batch converter: added right-click context menu, modeless configuration
++ Custom menu: fixed Actions menu occasionally declining to be customized
++ Fixed mislabeled undo/redo menu items in certain instances
++ Image loading: theme images optimized for faster load (startup) time, and smaller installer
++ Installer: reduced installer size on all platforms
++ Media explorer: fixed import of multitrack MIDI files when importing to empty project
++ MIDI editor: fixed bug when extending a looped item leftwards in the editor
++ MIDI editor: avoid skipping over CC data when drawing edits quickly
++ MIDI editor: actions to explicitly mute and unmute notes (in addition to existing toggle)
++ MIDI editor: middle button hand-scroll
++ Peaks: fixed rebuilding peaks for selected items
++ Project markers: fixed transport jump-to-marker list not being refreshed
++ Preferences: added new Envelopes tab, option for how to handle volume/pan trim when adding envelopes
++ ReWire: per-instance options to control whether slaves can change tempo, loop region
++ Scrollbars: drawing fixes
++ Toolbar: merged toolbar and menu customize interfaces, no limit on custom toolbar buttons
++ Toolbar: customizable tabbed floating toolbar (separate from main toolbar)
++ Toolbar: added 72 more custom toolbar images
++ Toolbar: optional user text over blank toolbar icon
++ Toolbar: armed actions can be run by clicking anywhere in the arrange view (not just on a media item)
++ Video: added support for video files that contain no video track
++ Video: better audio sync on OSX
++ Video: dont show video from stopped background projects
++ Video: fixed possible hang on Windows multi-monitor setups
++ Video: fixed incorrect frame display issues (rounding errors after manually moving the edit cursor)
++ Video: added a preference panel to select video colorspaces
++ x64: fixed bugs in recording and rendering format selection/configuration windows
+
+Link to Patch    http://www.virustotal.com/sv/analisis/38e2437dbccc72b56c6bbb597964305c685728bcefc5609c3097f6274cb08e78-1257908846
+
+
+Look at it before download!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+As always choice is yours
+
+Enjoy

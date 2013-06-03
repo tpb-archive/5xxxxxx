@@ -1,0 +1,53 @@
+User Type,Username,Date,Text
+,kikiraul,2009-12-12T14:32Z,"thanks for the upload,man!
+
+does anubody know if there is any chance of running this OS in VMware workstation, fusion or VirtualBox?"
+,jamesl1,2010-01-04T07:16Z,"we're stuck at 95% 
+
+please seed :) anyone?"
+,PeddersOC,2010-02-08T09:00Z,"Would it be possible to install this on a NeXT computer?
+
+I'm desperate to get this OS for NeXT!"
+,PeddersOC,2010-02-09T06:01Z,"HELP PLEASE!!
+
+How to write a .ufs to a CD?
+
+Searched the net to no avail...
+
+Thanks in advance."
+,PeddersOC,2010-02-09T06:03Z,"kikiraul,
+
+see if this helps:
+
+How to Install NexStep 3.3 on Virtual PC 4.2/5+:
+
+http://leymann.eu/Nextstep/VirtualPC.htm"
+,PeddersOC,2010-02-21T10:53Z,"All right, chaps!
+
+Here's where you can download all the boot floppies you can think of:
+
+http://www.shawcomputing.net/resources/next/hardware/boot_floppies/boot_floppies.html
+
+This torrent will probably work on both Next and Intel computers.
+
+Alas, I can't tell for sure, because I still don't know how to burn .ufs images... :-("
+,vmswift,2010-09-04T09:31Z,"Just change the image from .ufs to .iso and use the boot and driver diskettes mentioned by peddersOC. 
+
+Also, you can burn the image using nero once you change the extension to .iso. Yhough I did get it to burn I haven't tried using a boot disk with it on a real pc.
+
+Also, do not be upset if you cannot view the files on the cd image from windows. 
+
+I can't view the files or anything. I am just happy the boot and driver disk understand it all.
+
+Virutalbox succesfully accessed the cd image for me. 
+
+I think they made the image on linux\unix or unixlike system. For all we know it was put together on an openstep system."
+,cranjum,2011-10-21T11:14Z,"This works on VirtualBox 4.1
+You need to download the four installation floppies and to disable VTx support in the Acceleration tab in VirtualBox settings. Also, don't configure a hard disk image larger than 4GB.
+Here are some installation instructions on an older version of VirtualBox and they work in a similar fashion on newer VirtualBox versions: http://www.nextcomputers.org/forums/viewtopic.php?t=1663
+After installation, apply Patch 4 (for Mach) as described here:
+http://support.apple.com/kb/TA45410?viewlocale=en_US"
+,gridme,2011-10-31T08:15Z,"Hi there, can someone retorrent the Openstep 4.2 for Mach files...
+
+Thanks in advance.
+"

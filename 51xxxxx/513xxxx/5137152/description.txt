@@ -1,0 +1,45 @@
+Nothing beats DVD Architect software for professional DVD authoring. Its clean, drag-and-drop interface and powerful layout and authoring tools make it easy to develop dynamic menu-based DVDs, movies, picture slideshows, and music compilations. Included with the Vegas+DVD Production Suite, DVD Architect software works seamlessly within the Vegas environment. Sony Media Software proudly introduces DVD Architect software, your one-stop shop for authoring and burning DVDs. DVD Architect software lets you create menu-based DVDs, music/video compilations, picture compilations, or a single-movie DVD that will play back automatically in your DVD player.
+
+New features in version 5.0
+
+* Burning to Blu-ray Disc
+* Full-screen previewing to secondary Windows display
+* Support for opening MPEG-2 and AVCHD video files
+* Support for using AC3 and PCM audio with HD video
+* Support for creating .iso files and burning to DVD or Blu-ray Disc
+
+Known Issues
+
+* If you save a project from an earlier version of DVD Architect software in DVD Architect 5.0, it will be unusable in DVD Architect version 3.0 or earlier. Use the Save As dialog to save the project with a new name after editing it in DVD Architect 5.0. DVD Architect versions 4.0 and 4.5 can open version 5.0 projects; however, any Blu-ray Disc settings in the project will be lost.
+* Some Blu-ray Disc players will not support playback of 192 Kbps PCM audio. For increased compatibility with these players, you can provide a secondary audio track using lower-sample-rate PCM audio or AC-3 audio.
+* Attempting to access your DVD or Blu-ray Disc burner (by browsing with Windows Explorer, searching the drive, or starting an application that scans for available drives, for example) while burning your project can cause burning to fail.
+* External monitor output is for visualizing colors, menu layout, and safe areas only and is not an indication of playback synchronization of the final burned disc.
+* The Macromedia Flash (SWF) reader plug-in does not read files saved as Flash 6.0 or higher. Please save your files in the Flash 5 format.
+Flash files that contain Actionscript or motion video will not be interpreted correctly by the Flash reader plug-in.
+* Not all DVD players can play all types of recordable DVD media. For example, some players cannot read +RW discs, and some players are unable to read the second layer on dual-layer discs. To confirm media compatibility, please refer to your DVD player's documentation/specifications.
+* 16:9 Full Height Anamorphic (FHA) QuickTime files do not render as anamorphic.
+* DVD Architect supports only 2-channel MXF files.
+* Your DVD Architect version 4.5 preferences will not persist when you update to version 5.0.
+* When using media that was rendered outside of DVD Architect, video buffer overflow errors can occur during project preparation if portions of a video stream exceed the project's bit rate. You can use the Optimize Disc dialog to force recompression (re-encoding) of the media file, and the project will prepare without error.
+* We recommend that you do not adjust the Windows paging file size below the setting recommended in the Windows Virtual Memory dialog. Doing so could cause errors during the render process when working with large files.
+* Waveforms for AC-3 files rendered from Vegas Movie Studio Platinum Edition will not draw correctly. The left-channel audio will appear as a flat line and the left channel will not preview. DVDs created from these files will, however, play back correctly.
+
+System Requirements
+
+* MicrosoftÂ® WindowsÂ® XP or Windows Vistaâ„¢
+* 1 GHz processor
+* 250 MB hard-disk space for program installation
+* 1 GB RAM
+* OHCI-compatible i.LINKÂ® connector*/IEEE-1394DV card (for external-monitor preview)
+* Windows-compatible sound card
+* Supported DVD-R/-RW/+R/+RW or BD-R/-RE drive
+* Microsoft DirectXÂ® 9.0c or later
+* Microsoft .NET Framework 3.0 (included on application disc)
+* AppleÂ® QuickTimeÂ® 7.1.6 or later
+
+Changes in version 5.0b:
+â€¢ Fixed a bug that prevented markers from being saved to .m2ts files.
+â€¢ Fixed a bug that prevented subtitles from being turned off via end actions in Blu-ray Disc projects.
+
+
+ Enjoy

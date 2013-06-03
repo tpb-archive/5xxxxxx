@@ -1,0 +1,26 @@
+User Type,Username,Date,Text
+,diesel15,2010-02-17T18:58Z,A clue how to install the licence ?
+,pootna,2010-10-13T07:55Z,"
+doesn't like license file
+
+
+The following FLEXlm errors were found:
+    Server C:\ProgramData\mgc\mglicense.dat: Invalid (inconsistent) license key.
+ The license key and data for the feature do not match.
+ This usually happens when a license file has been altered.
+Feature:       mentorall_s
+"
+,LEDsRule,2011-06-26T18:50Z,Seed please!!!
+,Sanjay2_22,2012-03-10T12:39Z,"@ EFA, Mentor Graphics HyperLynx 8.2 is released recently. Can you provide installer & license download details? "
+,Sanjay2_22,2012-03-10T12:41Z,Mentor Graphics HyperLynx 8.2 is released recently. Can you provide installer & license download details? 
+,LooserBoy66,2012-05-03T06:02Z,"Downloaded, installed, works great!  Thank you VERY much!
+
+If you're having trouble with license, you need to edit the mknodelocked.src to modify the HOSTID=your_host_id before you run the script.  You can edit the ISSUER=user_name entry; but works fine as is.
+
+""your_host_id"" is your mac address, I believe.  You can find it two ways, open a cmd prompt window, via StartButton/Run/cmd.exe, then type in: ipconfig /all
+Find the line for Physical Address and use the 12 character address (don't include the dashes).
+
+The other way to find your host id is to run LMTOOLS.EXE, go to the SystemSettings tab and it is shown as the Ethernet Address.  You can copy/paste this into the .SRC file.
+
+Thank you, you guys rock!"
+,LooserBoy66,2012-05-03T06:14Z,Anyone get 7.9.3 license working yet?

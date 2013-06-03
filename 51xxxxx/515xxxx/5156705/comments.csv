@@ -1,0 +1,187 @@
+User Type,Username,Date,Text
+,zirzarzoon,2009-11-11T00:34Z,can you make another just dont scrubb it.thank you
+,zirzarzoon,2009-11-11T00:43Z,im not sure if you take requests but can you make a working spore hero for wii Ntsc not scrubbed thank you.
+,Fuck__You,2009-11-11T06:42Z,"why dont people like scrubbed iso? if you use a usb loader to get them, they autoscrubbed. and most people do it through a loader not a wifi dumper nowadays. get with the times!"
+,Fuck__You,2009-11-12T23:34Z,"meterbay, im not sure what you mean, but if your wondering how to scrub iso;s use wiiscrubber 1.4 kit. i personally use the trim option, but i dont think trimmed iso work for disk backups, but work 100% in usb loaders trimming an iso cuts out the blank data and the update data, only leaving the data partition on the iso. this  makes it so the iso is not 4 gigs, but rather the size it takes up on a WBFS partition."
+,DummyDerrick,2009-11-13T08:22Z,"Hi, please help me! I have chipped my Wii, dunno what, got it a year or two ago, and I burned with ImgBurn at x8 using a Imaton x16, and verified it, but it says "" Unable To Read Disc "" It is NTSC and my console is NTSC. Thanks."
+,dragonloup,2009-11-13T12:12Z,"@ dummy derrick
+you may need to install  a updated cios from wanikoko to run the game. you also need the homebrew channel and an apps to run your game : neogamma , gecko 1.9.3,back up launcher ..... Google is your friend .  "
+,keller433,2009-11-13T22:41Z,"1st attempt:
+
+burned iso with imgburn at 4x with dvd-r. I'm using backup loader gamma 0.3 rev 249. My wii is NTSC version 3.2.
+
+ Loads past backup loader but into black screen with no wii remote functionality, forced to hold power button to turn off. 
+
+Plays most other wii isos, any ideas?"
+,lashi,2009-11-14T02:46Z,I put the disc in the wii and it tells me this disc has a system update on it. I have a wiikey with 1.9s. Is this safe to update? Help anyone please.
+,ForgottenSouls,2009-11-14T05:52Z,at people getting update requests: Don't update.  you're supposed to be using a backup launcher to play these.  otherwise your Wii will become bricked upon update.
+,varman10,2009-11-15T02:32Z,"can you guys please seed??
+it would really help. im seeding faster than i'm actually downloading
+thanks :)"
+,DOPESMOKR,2009-11-15T05:06Z,"wow, how come nobody seeds wii games???"
+,DOPESMOKR,2009-11-15T05:07Z,forgot to say thanks for the up markuf
+,zirzarzoon,2009-11-15T09:37Z,Guys worked first time on my wii NTSC.
+,ricky4502,2009-11-16T01:23Z,"keller433, you're still using gamma 0.3? have you not ever tried neogamma, softchip or cioscorp? each of these have been able to run games that backup loader couldn't. look into those and u should try burning at 2x speed better"
+,Mr.Butts,2009-11-16T08:57Z,"I tried booting this game with gamma 0.3, and it recognized the game title but all i got was a black screen. I tried a different loader and it worked for me. Here is the link 
+
+http://gbatemp.net/index.php?download=6572
+
+its called NeoGamma R4 Backup Launcher
+this might help you keller433"
+,Jwm64,2009-11-16T23:42Z,"Can anyone tell me exactly what to do with all of the files that come with this? I just wasted two DVD-R's trying to get this to work, and I'm rather pissed off (btw I have successfully run backups off of this site before, I'm not a complete noob)."
+,Jwm64,2009-11-17T00:27Z,Never mind I'm an idiot. It's working great now!
+,mattytam1,2009-11-17T14:40Z,game works but when u try to start playin it comes up cant read disk. it loads just crashes and says that
+,iahawkfan,2009-11-17T15:09Z,"I burned 1x using image burn...I can get through most of level 1 then locks up...disk unreadalbe...""check manual""...makes dvd player sound like it is grinding coffee, yet all other backups work...tried 3 times using neogamma 7...."
+,SirSalami,2009-11-17T18:51Z,"I've burned this copy several times (sony dvd-r, 1x-4x) and have only been able to load to the company logos before i get a disc read error. I too also get a strange noise from my wii at that time. I'm using neogamma r8 beta 7. To those that have a similar problem, please post a resolution if found."
+,lashi,2009-11-18T02:46Z,"to all you guys having trouble, try the latest gecko, it's the only thing that works for me. If anyone can figure out how to get a usb loader work, please let us know. I haven't had any luck with any usb loaders. I don't know if it has anything to do with the fact I am still on 3.2. I did updat to latest CIOS."
+,tikol69,2009-11-18T06:22Z,"I am still on 3.2U but I load all the latest CIOS 249, almost all games are running fine on Gamma 0.3.  Would this game works on my system? I cannot understand why all post would say update to System menu 4.2 as all dowloaded NTSC games here are running perfectly on my console.
+
+My system is 3.2U serial LU53xxxx
+I run bannerbomb - Ok, 
+run Bootmii as boot2 - Ok backup NAND - OK
+run Wehackwii package - IOS 249 and Trucha bug restorer.
+After the above steps almost 90% of my dowloaded NTSC games works perfectly.
+
+So why should I go for system 4.2; can you please explain?"
+,mtrhd,2009-11-18T09:14Z,lashi....if you have cios38-rev 14 then you should be able to use gx usb loader...do you have it showing up in homebrew?is it just not recognizing the usb port?i can help but i need more info.my question is has anyone been able to run it on a disk?i get a new error 002 on a disk that i can only bypass on usb
+,mtrhd,2009-11-18T09:22Z,to further clarify my question...i will also add that i tried all disk loaders and i only get half the games to work on them.i made my own loader that auto loads any region automatically from a chanel.this is the only game so far that wont work out of about 100...but the iso is flawless except for the new error 002...nice work!
+,lashi,2009-11-18T16:16Z,"mtrhd, I have Rev14 of cios38, game shows up on homebrew but get either a green screen frozen from neogamma or error 002 if using usbloader original. on the other hand, i burn it to a verbatim dvd-r and run gecko and it works perfrectly. 
+
+between the 2 of us, it works perfect. :) I rather have your problem though since I like loading of USB instead of disc."
+,yashar0,2009-11-19T03:56Z,"hi guys, i finished dling, i have a 4.7gb disk, what do i do? how should i burn it, i have winrar"
+,ForgottenSouls,2009-11-19T06:14Z,"Just finished this torrent( and game) a couple days ago.  basically the PC version of MW on low settings =/
+
+still fun though so ill seed for a couple days.  only problem with it i found is that the controls are pretty difficult and the frame rate is jumpy and not all that great.  i pretty much expected it to be like that on account of it is a pretty big game.
+
+@yashar0 - burn it with a memorex, verbatim, sony, etc DVD-R using IMGburn on 2X.  then play it using a backup launcher."
+,yashar0,2009-11-19T13:37Z,"got 002 error on backup loader and disk read error on gecko, i have DVD-R and used 3x.. what can i do ?"
+,ForgottenSouls,2009-11-20T01:50Z,yashar0 try using neogamma r6 or r7 and select error #002 fix in the boot settings.  see if that works
+,yashar0,2009-11-20T04:21Z,"THANK YOU, i got it working now, but after playing the sound is a bit messed up, sound effects of flashbang has a 2 second lag from the sound, and somtimes during gameplay and in the intro, the music keeps repeating a few times like a broken tape, any way to fix? i burned 3x and im trying 1x now"
+,ForgottenSouls,2009-11-20T06:59Z,yashar0 - That sounds like a bad burn.  I occasionally had some parts in the game where audio was messed up but no where near what you described.  So yeah another burn might help you.  
+,yashar0,2009-11-20T14:40Z,"Well forgottensouls, there was some improvement with the sound now, but there is still one problem, when i enter a game like teamdeathmatch, when the countdown timer reaches 0 the screen goes black for about a few seconds before i start the game. And when i die, the screen goes black for about 5 seconds before i come back, i thought it was normal until i went to search and destroy. When the mach would start, the screen would go black for about 6 seconds, and when i come back, my team already took the bomb and already in their positions, so its impossible for me to get the bomb, any way i can fix this?"
+,ForgottenSouls,2009-11-21T02:00Z,"yashar0 I honestly don't know what to tell you.  being more of a 360 online player than Wii due to the FC factor, I haven't played online yet.  But what that sounds like is more of a network issue.  it just means you connected a little later.  thats all.  no big deal.  at least to me."
+,yashar0,2009-11-21T02:22Z,"Well, i found out that its because its a cracked CD that the respawn times are slower, i have to use a USB flash drive loader, unfortunatly my Flash Drive is only 3.72gb, and the game is 4.72gb (.iso) FML"
+,ForgottenSouls,2009-11-21T03:54Z,lol.  Sorry to hear that yashar0.
+,yashar0,2009-11-21T06:14Z,ah no problem lol
+,tapswap,2009-11-23T21:33Z,"Guys, I have a kind of a problem...
+it works perfectly on the first tutorial mission and when I play online,
+But when I am supposed to grab the rope while the chopper is over the ship in the first mission, i get an error that says the disc can't be read.
+
+Any help to offer? :)"
+,Rovelius,2009-11-24T01:21Z,"For you people who don't know how to get this working :
+
+http://gbatemp.net/index.php?showtopic=168890"
+,oscarhummel,2009-11-24T02:23Z,"thanks for the upload.  works well although i've only played the game for a few minutes.  i'm curious why the uploader did not delete the update partition when they scrubbed the iso.  no big deal, of course, i just always like to remove it."
+,oscarhummel,2009-11-25T17:25Z,works like magic.  have played for several hours without any problems.
+,tikol69,2009-11-27T08:58Z,"Thank you very much markuf and this one works on my system:
+NTSC system 3.2U, cIOS 249 rev 14, Neogamma v.7.
+
+ADVICE to ALL - Nentendog Nazii Gestapo would always advice U to upgrade ur system to version 4.2, 4.1. or 4.0. If your system is 3.x - DO NOT UPGRADE - u just need to upgrade ur CIOS to waninkoko 249 rev 14 with 002 fix - thats it and all ur games will work 99% using Neogamma v.7 and backup channel 0.3 gamma edition. Some games will work on Neogamma v.7 and some will work on backup channel gamma 0.3 - VICE-VERSA. "
+,thorick89,2009-12-05T00:20Z,"THANK YOU!!!
+THIS IS CONFIRMED WORKING ON
+NINTENDO WII W/WIIKEY 2
+FIRMWARE 4.2
+THANKS AGAIN!"
+,4nik8r,2009-12-20T09:17Z,ios249 and neo gamma 7....flawless great game thanks
+,tnt-mac,2009-12-23T15:06Z,"works fine on pal machine, usb loader gx with 002 fix on"
+,Agent74,2009-12-26T07:28Z,"PLEASE HELP ME!!!!!!!!!!!!!!!!!1 I DOWNLOADED THIS AND IT HAS A POS READ ME >:( 
+1:I OPEN PART 1 WITH WINRAR 
+2:I EXTRACT THE ARCHIVE INSIDE PART 1 TO DESKTOP
+3:I TRY TO OPEN THE EXTRACTED ARCHIVE WITCH IS EXACTLY 4.37GIGS AND IT SAYS UNKNOWN FORMAT OR DAMAGED SO WTF!!!! PLEASE RESPOND QUICK!!!!!!!!!!1 "
+,erhantr,2009-12-29T15:45Z,"Question : 
+
+This game hase allot of Winrar parts
+Do I need to use them all or Do I just have to open 1 and burn 1
+
+did that before and the game didn't even start on my wii it said it had a error
+
+So what do I need to do whit all those parts?
+(It's all the same thing right?)"
+,paisa323,2010-01-03T01:47Z,SEED PLZ SEED!!!!!!!!!!
+,kayez,2010-01-03T19:03Z,This works after I loaded neogamma r8 as it's own channel on softmod wii 4.2.  Cheers.
+,memo_juentes,2010-01-07T09:21Z,"slowest torrent ever...
+
+ive been downloading for about a month and i have an average download speed of 2.2kbps, i mean, come on!! this shit has 339 seeds!!"
+,Austinbob2,2010-01-08T01:42Z,"downloading now hope it works 
+DO YOU NEED A SOFTMODDED WII
+I have wii system 4.2u and i have a drivekey 1.0 wii this game work?"
+,monabonbona,2010-01-10T23:38Z,umm I have a problem. whenever I try to play this game through usb loader v1.5 and usb loader gx I just get a black screen and my remote turns off. I have firmware 3.4
+,trom2004,2010-01-11T17:12Z,Works great on Hardmod Wii!
+,megatremble,2010-01-23T00:24Z,Works sweet the fuck as with Softmod Wii 4.2e backup loader 0.3 and neogamma r7 churr churr mayn
+,koko-goal,2010-01-24T03:38Z,"Works awesomely. Thanks Markuf and thanks to seeders.
+
+Burnt via Imgburn (the latest one) at X4. Sony DVD-R
+
+Softmodded Wii. Neogamma R8 Beta 17"
+,EverIrk,2010-01-27T01:09Z,"worked first time with soft modded wii 4.2u, running neogamma R7, on verbatim dvd-r at 4x, using imgburn.
+
+And great game, thanks uploader and seeders!"
+,VE4VENDETTA,2010-01-30T04:21Z,"works..4.2u
+softmod
+neogamma
+the best fukin game for the wii...You gotta get the zapper or ur wasting ur time.."
+,monkeyuk,2010-02-01T06:23Z,"thanks for this guys, really looking forward to it, 
+c
+
+can any one give me a simple way of how to ""hack"" my wii, i just got one and want to get it sorted, please help. "
+,megatremble,2010-02-03T00:43Z,"@ monkeyuk
+
+Go here    http://www.instructables.com/id/Run_Backups_on_any_Wii_Without_a_Modchip/?comments=all#C5OBLN3G4PBP0OM this should help you run backups without chipping your wii"
+,amapx720,2010-02-10T15:56Z,will this work on a dvd-rw? 
+,drmonsta,2010-02-11T23:15Z,"@monkeyuk
+
+If you don't have homebrew installed yet, this should help: http://www.joshuathemusicman.com/2009/05/install-wii-homebrew-without-twilight.html
+
+then megatremble's guide link should serve you well"
+,baka11,2010-02-13T23:50Z,"i used WBFS manager to install the game onto a HDD so i can play it with usb loader (used a softmod. not chip), but as soon as i start the game it stays a black scrren and remote switches off, am i just dum or is there another program to use to load it onto my HDD"
+,pea79,2010-02-17T21:07Z,"this wil work:
+http://thepiratebay.org/torrent/5232466/wii_4.2_homebrew_fix
+download and use winrar.
+read the walktrough.
+This works on all 4.2"
+,iHacku,2010-03-07T20:28Z,"Only took about two and a half days to download, works great, thanks(: "
+,brett.s,2010-05-25T02:38Z,Thanks man great up. I know this one works. Tried it already. I knew the day would come when I wasted my precious bandwidth by accidentally clearing my fucking external. So starting with the best game first again. At least I still have Mario Galaxy too on my comp hdd lol.
+,mojobaby27,2010-06-08T06:51Z,"mARKUF,
+THANKS great game, worked with no prob. cfg. USB loader, latest ver and ios."
+,mojobaby27,2010-06-08T07:22Z,works great with cfg. usb loader and latest ios
+,mansourfatohi,2010-06-11T23:49Z,hi guys can you please help me i need seeds
+,Simpson1998,2010-08-25T22:26Z,this works on the usb loader? because I tried in another torrent and it reaches a level act 1 level aftermath and doesn't work anymore ...
+,aries4.20,2010-10-05T10:35Z,"at the risk of sounding like a total noob, I just burned the whole download with imgburn at 3x, and it didnt work. ""No DVD"" or some shit like that. any suggestions?
+
+HBC 1.0.8
+Latest NeoGamma
+IOs58"
+,aries4.20,2010-10-05T10:35Z,using a 2006 model with 4.2u 
+,Choebee,2010-10-13T21:20Z,"Ok, for those of you having trouble loading it via usb (getting black screen of death), install ios 249 and load the game with ios 249 (change the load settings in your usb loading program)."
+,ITguy,2010-10-23T08:43Z,"This works great via usb loader gx!
+
+Some people may be confused by the packaging. Just use 7zip to unrar the ws_codmwr_ntsc file then copy the iso to hard drive."
+,pb_321,2011-01-24T19:34Z,"downloaded the torrent,,,,used win rar ...got the iso file....but i'm unable to image burn it on to a dvd....nor mount the file on iso drive and transfer it to a usb...couldnt understand usb loader....CAN anyone help me plssssssssssss"
+,Zac1031,2011-03-05T20:07Z,Dude i love scrubbed games thay come faster and thay dont tack up all my meamory. Lol i know im bad at spellin :)
+,nickeon1,2011-08-11T00:18Z,"Help me This is what i did.
+
+1. Downloaded Torrent (Vuze)
+2. Extracted RAR Files
+3. Burn The IOS file (ImgBurn)
+4. Put disc into Wii
+5. Run Neo Gamma (newest version)
+6. ERROR.
+
+what did i do wrong?"
+,alzho,2011-08-17T00:27Z,can you go on multiplayer with this
+,Mario1365,2011-08-17T21:43Z,"arghh...I Downloaded the game...
+           Burned it with img burn
+           and played it...""Unable To Read Disk""
+           SOMEBODY HELP ME....."
+,Jeronwong,2011-09-06T03:30Z,Anyone try just using usbloader gx? prob works...
+,ISO_MODER,2011-11-05T18:48Z,I need some1 to iso mod this and give me a link
+,ISO_MODER,2011-11-05T21:46Z,It dont wrk i trecha signer helppp
+,indie_guy,2011-11-07T22:04Z,"@nickeon1 maybe you should try usb loader gx. I use them both and NeoGamma doesn't start all my discs. If usb loader doesn't work, then try a different brand of DVD-R. I use Sony DVD-R and they work just fine."
+,jm815,2011-11-14T22:09Z,Will this work for +R dvds?  Cause all the games i had tried to play doesnt read in my CD Drive on my Wii.  I also have the newer Wii and i read on some site they wont read burned DVDs anymore.  Can some help me please!!!
+,OscarAndradePTY,2012-06-03T10:39Z,"@jm815
+
+What you read is true. New Wiis won't read burned DVDs. You have to use an external HDD or USB."
+,mrpirate7,2012-06-04T18:56Z,can this game be played online??
+,Adry13,2012-06-11T18:40Z,"The game works just perfectly with USBLoader GX and cIOS 224. PAL users can play it with Force PAL 50 on USBLoader's options.
+
+And YES you can play on multiplayer mode!"

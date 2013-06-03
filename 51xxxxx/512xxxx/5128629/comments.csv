@@ -1,0 +1,82 @@
+User Type,Username,Date,Text
+,Nakazima,2009-10-21T12:31Z,"Hmm.. The game doesnt work with me, It works up to the intro video then it asks if I want to debug it , if you answer yes it says you can't play the game without logging on to steam. If you click no ,it just closes. help? "
+,Nakazima,2009-10-21T12:57Z,"nvm ,finally got it working! Thanks!! great torrent!"
+,kultir,2009-10-22T19:59Z,I wonder how you fixed it...... I have the same problem. Can you share what you did to fix it ?
+,arithine,2009-10-22T22:15Z,"Actually Nakazima, I would love to know the fix. I have not seen this before..."
+,moryok,2009-10-23T00:12Z,How did you get this game working please respond as soon as possible
+,looser66,2009-10-23T09:54Z,Just disconnect the internet to make it work
+,Nakazima,2009-10-25T16:48Z,"Actually at first I just accidentally opened the app while it's not yet copied to my applications once it was there it worked fine, but there are some few bugs like some interactive things in some maps don't work and yeah I've only had the debug problem appear once from when it first appeared
+
+Actually maybe looser66 is right so may I suggest using little snitch on it??
+
+Sorry if that didn't help much."
+,arithine,2009-10-26T04:08Z,"if you are talking about the mines of moria map keep your button held down, gandolf will do his thing and then the hoard comes...
+
+i was worried it was a bigger problem then that :P"
+,ajie9168,2009-10-28T08:37Z,"Everytime i launch the game, it quit automatic and says that i have to launch Steam first? any suggestion?"
+,arithine,2009-10-29T04:14Z,"i updated my mac to snow leopard and that seems to be what is causing the problem. delete these files, not sure where the are so you will have to do some searching inside, addonlist.txt all of the config folders and sourcemod, it should take a little while to load after the intro screen but be patient."
+,arithine,2009-10-29T04:44Z,"ok nvm i got the issue again but this time i edited video.txt to
+
+""VideoConfig""
+{
+	""setting.cpu_level""		""1""
+	""setting.gpu_level""		""1""
+	""setting.mat_antialias""		""1""
+	""setting.mat_aaquality""		""0""
+	""setting.mat_forceaniso""		""0""
+	""setting.mat_vsync""		""0""
+	""setting.mat_triplebuffered""		""0""
+	""setting.mat_grain_scale_override""		""1.320000""
+	""setting.mat_monitorgamma""		""2.200000""
+	""setting.gpu_mem_level""		""2""
+	""setting.mem_level""		""0""
+	""setting.mat_queue_mode""		""0""
+	""setting.defaultres""		""1344""
+	""setting.defaultresheight""		""840""
+	""setting.aspectratiomode""		""1""
+	""setting.fullscreen""		""1""
+	""setting.nowindowborder""		""0""
+}
+
+
+hopefully this is the real fix"
+,UFrame,2009-11-01T14:59Z,"Okey guys i found out how to make it work, pretty easy
+First open the file in Finder, then drag L4D icon into programs/applications, wait for the file to copy into programs, then click on the L4D icon then it should work perfectly
+Notice!
+The game doenset work if you graphic setting are on medium or higher, so make sure that you set the settings on LOW, or else it will not work.
+It will not look that great but, you can at least play the game
+Hope this helped guys, if not post a reply and ask a question
+Peace ^^"
+,airme,2009-11-05T16:15Z,NEED HELP PLEASE!!  The game just quits after the intro.  I'm really not a programmer so please tell me exactly what i have to do.  
+,Silent_G20,2009-11-06T20:30Z,does this work online? if not how can we play using online servers? can you use hamachi as last resort?
+,noobrts,2009-11-07T10:01Z,I am having the same problem as airme. Game just drops to desktop after intro.
+,arithine,2009-11-08T06:59Z,read previous comments please
+,noobrts,2009-11-12T18:10Z,I have tried everything that previous posters have stated. I tried to delete addons folder and .txt files with no avail. Any help to get this game to run without crashing after the intro will be greatly appreciated.
+,Accident,2009-11-15T05:11Z,"""You need to run Steam to play this game"" and exit.
+
+Of course the game was copied out of DMG to HDD, so that is not the fix."
+,danteofenferno,2009-11-27T04:29Z,"is there any known way to make the multiplayer games work, even locally?"
+,danteofenferno,2009-11-27T22:14Z,"if i run steam with crossover, can i play multiplayer?"
+,ZachDark,2009-12-07T18:20Z,"arithine: sorry to bother you with a stupid question... but I'm wondering where to find that ""video.txt""?"
+,iapathy,2009-12-19T06:23Z,"I was able to load the game without issue... except everything is invisible. I can't see myself, my team mates or the zombies. This is the 2nd L4D version I've downloaded where I had this exact same issue.
+
+Am I doing something wrong? Is there a way that this can be fixed?"
+,RubricalEye,2009-12-30T18:37Z,"I got it to work smoothly (60fps with no slowdown) on my MacBook white late 2009. If you have the pool option set above low then everything will be invisible, set that to low. Set the filtering to Optiwhatever X2 and everything else as low (or medium). Also disable film grain and you can get the full 60fps. "
+,tbone2709,2010-01-08T17:08Z,"Please seed. Currently downloading at 2.2 KB/s
+Am ULing to others what I have so far. Please help!!!"
+,thenetkid,2010-01-12T09:11Z,"this torrent DOES NOT WORK =.= everytime you open the file, it either says that you need to have steam (it doesn't work even if u use crossover steam) or it just closes after the intro."
+,TillLindemann,2010-11-02T16:44Z,Seed please
+,lelvilm,2011-05-01T08:35Z,SEEEEEEEEEEEEEEEEEEEEEEEEEEED PLEEEEEAAAAAAAAAAAAAASEEEEEEEEEEEE!!!!
+,lelvilm,2011-05-04T04:13Z,"ok, this torrent works to me, i have
+
+Leopard 10.5.8
+2.13 GHz
+2 Ram
+
+sorry for my english :)"
+,Xuber101,2012-06-05T00:25Z,"Step 1: Turn internet off
+Step 2: Set Pool Option Low
+
+You don't have to turn the internet off anymore after that point. 
+
+Also some people start seeding this... I'm going to seed it to 10 people and then I'm done. "

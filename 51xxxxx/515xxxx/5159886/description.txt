@@ -1,0 +1,41 @@
+abgx360 v1.0.2 released!
+
+Changes affecting all platforms:
+
+- Added support for 4th Wave PFI/Video
+- Added support for SS v2
+- Added the new check for DMI corruption which the database has been using since 2009/06/14
+- Added ability to at least try to verify the game data when no Xex/SS ini is available and we're not going to AutoFix
+- Added support for Avatar Awards
+- Added option to select your preferred language to use when displaying strings from the Xex title resource
+- Added drag & drop support for the GUI Input panel
+- Added option to embed images in the HTML source code as data URIs for better portability (when using HTML output)
+- Added JavaScript to HTML output that allows you to check off achievements and see the achieved text (especially useful when the how-to text is vague)
+- Added a Donate button to the GUI so you can help me pay the bills and continue working on improvements :)
+- Removed "Look for verified files in the local folder only" option from the GUI. I can't tell you how many people have checked this box without reading it because they saw it in a tutorial or someone else told them to do it, and then they can't figure out why abgx360 says you need to enable online functions. Please stop writing/following tutorials! Just read the Quickstart topics, the tutorial is right there.
+- Checking for updates to GameNameLookup.csv is now optional (the csv was eating 50% of our bandwidth and you probably don't need it anyway since the game name can be retrieved directly from the Xex)
+- Fixed a bug where folders would be considered files when parsing the ISO filesystem on some recent games
+- Fixed a bug where default.pe (a temporary file used when decompressing a compressed default.xex) wasn't being deleted automatically
+- Fixed a bug where unicode code point 160 (no-break space) would be displayed in a CLI window as " ?" instead of " "
+- Small changes to the way some messages are displayed (harder to miss)
+
+Changes affecting Windows:
+
+- Now storing data files in the AppData folder to prevent errors related to permissions and UAC. You can open the GUI and hit Ctrl+F to find out where your StealthFiles are now stored and optionally have it opened for you. abgx360 will still check for Video ISOs in the old install directory first though, so you don't need to move that 3rd Wave Video ISO if you have it saved there already.
+- Using libcurl 7.19.6 which should hopefully fix some strange connection problems affecting a small percentage of users
+
+Changes affecting Linux/BSD:
+
+- Fixed a bug on 64 bit systems which made it impossible to read PFI/Video exceptions from abgx360.dat
+- Added code to the unix version of kbhit() to prevent hanging when abgx360 is launched as a background process
+
+Changes affecting Mac OS X:
+
+- Fixed a bug where abgx360 would fail to launch if you supplied a filename that contained an apostrophe
+- Changed the dark gray text used for things like achievement type to normal gray since it was actually showing up black (invisible on a black background)
+- Removed GUI option to "Use Terminal font characters" (this refers to a Windows font which replicates CP437 characters and not Terminal.app)
+
+
+Special Note: It's recommended to wait for iXtreme LT (Lite Touch) before you play any more backups or originals on an unbanned console flashed with custom firmware.
+
+uploaded by Humboldt11502 from http://xbox-experts.com

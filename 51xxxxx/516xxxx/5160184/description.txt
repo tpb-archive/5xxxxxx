@@ -1,0 +1,28 @@
+ConvertXtoDVD changes history
+
+ConvertXtoDVD - 4.0.5.314
+=========================
+
+Interface improvement and fixes.
+* Added a "Save Project As ..." feature
+* Reworked the "Save Project" feature
+* Added a "Reset forms positions" feature
+* Reworded some unclear statements
+* Corrected one wrong statement.
+
+- 0002374: [Suggestion] Save project behaves like "Save As", instead of simple "Save" (wesson) - resolved.
+- 0002979: [Feature Request] windows size back to default (wesson) - resolved.
+- 0002368: [Suggestion] When editing texts, jump to dots using Ctrl+Cursor (wesson) - resolved.
+- 0002165: [Bug] Remove add video icon at "bottom" line merging window (wesson) - resolved.
+- 0002967: [Suggestion] Re-arrange text for Encoding options (wesson) - resolved.
+- 0002612: [Bug] Text in sub-window Settings (header) lost. shows iuf (wesson) - resolved.
+- 0002590: [Suggestion] better understanding of "item" language identifier (wesson) - resolved.
+- 0002581: [Bug] Hint box [Default Subtitle anguage] always displayed in English language, whatever language you select. (wesson) - resolved.
+- 0003048: [Information] updater pointing to shop page instead of download page (wesson) - resolved.
+- 0003039: [Crash] cannot convert files when output is on a network (like coincoin): problem error in log is inaccurate (wesson) - resolved.
+- 0003047: [Bug] 4.0.4.313 : open desktop on 7 instead the output folder (wesson) - resolved.
+- 0002983: [Bug] Convertion Setting is always optimal(build 4.0.3.311) (wesson) - resolved.
+- 0002995: [Bug] Second column not visible in DVD menu label window (wesson) - resolved.
+- 0003044: [Bug] 4.0.3.313: Regression, lost edit function at DVD menus labels sub-window (DVD menus tab) (wesson) - resolved.
+- 0003045: [Bug] 4.0.3.313 : registration : failed to set data 'licensekey' (wesson) - resolved.
+- 0002994: [Bug] v4.0.3.311: "Failed to set data for LicenseKey" (wesson) - resolved.

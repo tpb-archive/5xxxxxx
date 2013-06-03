@@ -1,0 +1,95 @@
+Windows 7 Loader v1.7 (x86 - x64)-Daz
+=====================================
+
+Version 1.7
+Latest - 1.7
+Removed the older loader
+Added loader mode options
+Changed the UI so that it's now slightly transparent as well as resized to suit the new options
+Added Samsung support for Windows 7 Ultimate, Professional & Home Premium editions
+Improved internal resources security
+MD5: e4475733381e34e5ea4b68dbebf9870e
+SHA1: 183977ccd2f5985196d240431eb6ef52533e9e3d
+Features
+Maintain your own list of serials, future or current (comes with allot of preset keys)
+Automatically finds an available drive letter (if required)
+Installer and uninstaller built in as standard
+Checks your Windows version and build before install
+Automatically finds your active boot partition
+Works on all languages
+Works alongside hidden partitions
+Works on Windows 7, Vista and Server 2008 editions
+Support for bios modded users
+Improves Windows 7 boot time on a Mac (Compared to other loaders)
+What makes this different from every other loader out at the moment?
+It's not a batch file and all commands are made within the application, it has great error handling and doesn't try to find the active partition based on size (which every other loader is doing at the moment).
+So whats the advantages and why should you care?
+With me building this loader as an application I can access system details and create declares for many of the functions. This means anyone that uses this loader should have a greater chance of success!
+Whats the differences between each loader option?
+Hover your mouse over each option to see
+Ok so how do I run it?
+Select the brand that best suits your system, if the brand isn't there don't worry as you can pick any and it should still work. All you have to do next is click the blue "Install" button and wait for the completed message.
+I activated Windows 7 and now I want to activate Windows Vista, why isn't it working?
+Use the uninstall option while on Windows 7 and reboot into Windows Vista. Next install your selected cert/slic in Windows Vista and then reboot back to Windows 7 and click install.
+Activation failed, now what?
+Try again with the beta or the older loader option enabled, one of them might just work for you.
+** I have tested this on a virtual machine with a 100% success rate **
+Changes since 1.5.4
+1.6.5 -- Improved profile matchups (for matching a SLIC, certificate and serial)
+1.6.5 -- Added activation checking for Windows 7, Vista and Server 2008
+1.6.5 -- Added tokens checking for Windows 7 (alerts the user, repair is manual so that later on down the line this loader will never frankenbuild your system itself!)
+1.6.5 -- Added error handling should UAC fail to elevate the application
+1.6.5 -- Added Asus SLIC, certificate and Home Premium serial
+1.6.5 -- Added new GRLDR beta 0.93 from zsmin
+1.6.6 -- Fixed activation checking for non-english systems (This release is just to address confusion as to if a system is activated or not)
+1.6.7 -- Fixed Windows Vista activation status
+1.6.7 -- Added Windows 7 Enterprise editions as a supported OS, although you will need to wait for OEM SLP keys to leak
+1.6.8 -- Added application integrity checking. This is a new feature which will display you with information about how the application was launched when the mouse is hovered over the green or red icon. It's goal is to inform you if you are running an untouched version of the application or one that could have been modified in some way by a script kiddie. Of course green is the best result, if it's red then be cautious as someone's likely binded a trojan!
+1.6.9 -- Added amber as a color to the application integrity checking as well as a few tweaks to the existing code (you should still always check the displayed application path even when green)
+1.6.9 -- Cleaned up some code for better performance
+1.6.9 -- Added new GRLDR 0.94 from zsmin
+Latest - 1.7
+Removed the older loader
+Added loader mode options
+Changed the UI so that it's now slightly transparent as well as resized to suit the new options
+Added Samsung support for Windows 7 Ultimate, Professional & Home Premium editions
+Improved internal resources security
+MD5: e4475733381e34e5ea4b68dbebf9870e
+SHA1: 183977ccd2f5985196d240431eb6ef52533e9e3d
+Support Page: http://forums.mydigitallife.info/showthread.php?t=8632
+
+Extra information:
+==================
+
+Do I need to update?
+If you have installed a version and you're activated then you shouldn't need to update. If however you are like me and you like to use the latest and the best versions of software then updating shouldn't be a problem.
+Can I install a newer version over an older version?
+Yes, you don't need to perform an uninstall to upgrade to a newer version.
+Instructions for Use
+If you have NO SLIC 2.1 in BIOS (which unless you flashed with a modded BIOS, you Probably do not have)
+
+1. Install windows 7.
+
+2. Run this as Administrator.
+
+3. Click on Advanced Options. (Optional)
+
+4. Choose Matching SLIC and Certificate (Dell, MSI, etc) (Optional)
+
+5. Choose Serial (Serial Must match Your version of Win 7) (Optional)
+
+6. Choose an option under loader versions (Optional)
+
+7. Click on the install button. (under software mod)
+
+8. Wait for Loader to Work and Reboot.
+
+
+Virustotal Report :
+===================
+ 
+http://www.virustotal.com/analisis/10700bb528b2816a5a9de4b9082a43ce6eb17453d174e55a29342da371519c7d-1255344674
+
+
+
+

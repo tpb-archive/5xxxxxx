@@ -1,0 +1,244 @@
+User Type,Username,Date,Text
+[V],RobbingHood,2009-11-22T09:03Z,"* Status torrent at Sept, 09 2009 - 02.30 CET: clean, tested & working.
+
+* Note: This torrent was posted on Sept, 09 2009 and reposted on Nov, 22 2009."
+,Spartan_300,2009-11-22T09:07Z,"Thanks for the upload,..."
+,mixim,2009-11-23T02:41Z,And where exactly can i find the key?
+,mixim,2009-11-23T02:43Z,"Sorry, just noticed it in readme"
+,chuck24,2009-11-24T18:55Z,giving me error!...my bad I guess!...
+,eiwillie,2009-11-26T07:39Z,how do i download it.. it doesnt want to open can some1 please show me? it tells me to find.. not to open
+,Warchief337,2009-11-26T12:55Z,"if i want to record a video why do i get a error with the codec plz help me out!
+says video codec not found"
+,bliss89,2009-11-26T16:02Z,"Hello, i am getting this error:
+
+Protection error 24. please contact us on
+http://www.virtualdj.com/contact/"
+,bliss89,2009-11-26T16:02Z,Anyone knows how to fix it?
+[T],jmb2012,2009-11-27T01:33Z,Key not Crack?
+,kacique,2009-11-27T07:55Z,"Here's the fix.  Diconnect from Internet. Install software, go2 C:\Program Files and run file ending guard3.exe This will open it, disable auto update and everything that connects 2internet. enter serial listed as part of download. ALWAYS RUN the...guard.exe, not the vdj.exe. Enable internet.  I've run since initial upload w no probs."
+,Ddog89,2009-11-28T05:24Z,"Quick note to all, apparently the guard.exe no longer works.  you will get the protection error.  a permanent fix for vista/7 users is to block the incoming AND outgoing connections for both the guard.exe and vdj.exe in windows firewall.  You can create a rule to block both of these.  anyone needing help send me a messgae darius_suddreth@yahoo.com"
+[V],RobbingHood,2009-11-29T02:51Z,"People just need to learn to how to block unwanted internet traffic by using eg. a firewall (set traffic to manually controlled).
+
+For example: VDJ will try to connect to the homeserver anyway when running it the first time. As far as I know virtualdj.exe is the only file which tries to connect to the homeserver (there's no update.exe or such in the install dir).
+
+So just unchecking the auto-update option of VDJ is not the only thing that needs attention."
+,neodarksaver,2009-11-30T06:35Z,I keep getting protection error 24 also...
+,haruninja,2009-12-01T22:44Z,"I may just be an idiot but i keep getting a protection error 16, even when im not connected to the internet.  Any advice would be greatly appreciated"
+[V],RobbingHood,2009-12-04T23:54Z,"@gregotoby 
+
+I could tell that but it's better to do some learnings yourself. It's easy to find out by doing some searching and reading."
+,zdude123,2009-12-13T11:00Z,"===================
+Protection Error 16 - Fix
+===================
+
+Found this solution on net. Has worked for me so far. Try it if u wish.
+
+Remove The registry entry--
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\VxD
+
+-----------------------------
+
+(((Complete Steps)))
+
+Uninstall Virtual DJ
+
+1- Delete C:/Program Files/VirtualDJ
+2- Delete ""C:/Documents and Settings/*Owner* /My Documents/VirtualDJ
+-3 Delete all other VirtualDJ folders
+
+- Delete these Registry Keys :
+HKEY_CURRENT_USER\Software\VirtualDJ
+HKEY_LOCAL_MACHINE\SOFTWARE\VirtualDJ
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\VxD
+
+If it works for you as well....spread the word. :-)
+
+
+One more thing.
+~ Before installation - disconnect.
+~ After installation prevent VDJ from accessing the internet using firewall."
+[V],RobbingHood,2009-12-14T06:32Z,"@zdude123
+
+On my XP there's no  HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\VxD
+
+When searching for VXD in the registry there's a ""vxdfile"" at: HKEY_CLASSES_ROOT\.386
+
+However, it's not sure that HKEY_CLASSES_ROOT\.386 is related to Virtual DJ."
+,huacas,2009-12-14T17:40Z,thx...
+,rickypujol,2009-12-21T14:08Z,@zdude123  The guide you posted doesn't work :(
+,lucianidol,2009-12-22T06:24Z,"After hours of installing and uninstalling i finally get the solution!
+
+(((Complete Steps)))
+
+Uninstall Virtual DJ
+
+1- Delete C:/Program Files/VirtualDJ
+2- Delete ""C:/Documents and Settings/*Owner* /My Documents/VirtualDJ
+-3 MAKE SURE U SEARCH AND Delete all other VirtualDJ folders!!!!!!
+
+- Delete these Registry Keys :
+HKEY_CURRENT_USER\Software\VirtualDJ
+HKEY_LOCAL_MACHINE\SOFTWARE\VirtualDJ
+
+download and install http://www.comodo.com/home/internet-security/firewall.php its free!!!!
+
+after installing Comodo firrewall disconnect from the internet, install virtual dj and lunch put in serial # found in (info file).
+
+After programe starts go to Config then option and disable auto update! then close programe.
+
+now go to Start / all programes / virtual dj and delete (www.virtualdj.com) link/file
+
+now that Virtual dj programe is all set. you need to configure Comodo firewall.
+
+on taskbar double click on Comodo firewall then on the top menu click (firewall), 
+on left side of window click (Common task),
+then click on (Define a new Blocked Application) click select then browse, look in C:drive/programe files/virtual Dj/virtualdj.exe the click open then apply! close Comodo firewall window and connect to the internet!!
+
+Should work like a charm..... gud luck!"
+,dempstar,2009-12-23T03:40Z,its the best thank!!!!!
+[V],RobbingHood,2009-12-23T15:51Z,"@lucianidol 
+
+It doesn't matter which firewall is used, except Windows firewall. 
+Note: The error protection doesn't seem to be solved by your tips, but thnx anyway."
+,lucianidol,2009-12-23T16:43Z,"@RobbingHood
+
+Note: The error protection doesn't seem to be solved by your tips, but thnx anyway.
+
+Hey robbinhood,
+
+My tips simply stopped it from popping up so we can enjoy the program that is the whole aim.
+
+And for ur info sir i does work!! hell i been using it since then with no issues.
+
+ur still the best dawg!
+peace"
+,lpsssmdlj,2009-12-23T23:37Z,"Oh dude this thing is fucking epic, works 100% perfectly just follow the instructions and u will get it A+++++++++++++++++++ thanks Robbinghood"
+,DanJustus1,2009-12-24T21:03Z,this worked like a charm i have been using it for hours str8. 10/10 thanks! followed ( SIMPLE ) instructions..  very nice.
+,ragewerx,2009-12-25T22:19Z,"unfortunately, I have installed the exe and the program is asking for a serial number. That is all working fine, the problem is that the Keygen is producing bad serials and I can't get VDJ to accept any of the serials I have generated. 
+
+Does anyone have a keygen that works? I can't seem to get an acceptable key to get past the serial after install.
+
+Thanks for any help, and also Thanks to you RobbingHood for the U/L"
+,jadade,2009-12-26T16:58Z,"i have downloaded the prog an i have  a HERCULES DJcontrol mp3 E2 panel i have the pro for 20days
+but i want the pro for evver and it dont work with the panel
+
+sorry for my bad english"
+[V],RobbingHood,2010-01-01T19:22Z,"@ragewerx
+
+There's no keygen in here, just a key (serial).
+Can you describe what the keygen looks like, or what kind of drugs you've used? Or maybe you just posted at the wrong torrent, or you're a troll? Geesh, so many options .... "
+,part-time-torrenter,2010-01-02T11:02Z,Works perfectly. I havent been off this since i downloaded it. 10/10
+,Grafit3D,2010-01-04T15:37Z,"sorry but i cant find the key...
+
+pls help"
+,Grafit3D,2010-01-04T15:45Z,"i found key in readme ...
+
+btw great torrent , took 2 secs to download and 1 sec to install
+keep up a good work XD"
+,mickstanz,2010-01-16T04:37Z,"Im really in need on the map needed to run Xponent on VDJ, anyone help me out? Cheers!"
+,scarycrow,2010-01-23T15:13Z,look u fuc ups been loading from rob for long time. no fuc'n virus. so fuc off!!!!!!!!!!!!!!!!!!!!!
+,balkika,2010-01-23T17:34Z,works great! nice speed download
+,sparkybhoy67,2010-01-27T00:13Z,"Fantastic software! only thing not working is the record option for recording your mixes.  When i click it says there is an error and does not work at all.
+
+Does anyone know if this problem can be repaired?"
+,kingkieran,2010-01-28T07:20Z,"hey I keep getting error 16 or 24.. how can I get rid of these errors??? 
+thanks alot for your help!"
+,jasy47,2010-02-02T20:04Z,After starting the program my pc just shut down
+,Blackwisdom,2010-02-03T14:24Z,"Thanks works perfect!Better than version 5.
+Win7 64x."
+,schmitty84,2010-02-15T16:47Z,"jasy47, maybe your computer is a piece of shit and is trying to tell you to put it out of its misery? Maybe you should upgrade from Windows 3.1? "
+,Psycho_Les,2010-02-15T22:16Z,Does this have a 1024x600 skin that will work on a netbook?
+,Ljsonix,2010-02-16T11:59Z,"i have a problem. it says ""protection error 8."" what do i do? thanks"
+,blackbooster72,2010-02-16T23:19Z,suddenly protection error 8 appears after been working nicely. please help.
+,draki85,2010-02-26T17:38Z,"I downloaded and unzipped, but didn't install. Now I can't delete the files. After ending a running process I've never heard of I was able to delete what was in the folders, now I still can't delete the folders, even with fileassassin.
+I doubt that it's from RobbingHood's upload, as it scans clean with ESET NOD32, but it's only happening to these files. 
+Can someone help me?"
+,drwho4life,2010-03-09T13:10Z,error message protection error
+,NoxiousNox,2010-03-11T00:42Z,"Yeah, I'm getting the protection error 24, but not 16. Any idea on how to get rid of it? Other than this, fantastic torrent!"
+[V],RobbingHood,2010-03-25T17:46Z,"@yamak03 
+
+
+Yeah right...... 
+So who was first: http://thepiratebay.org/torrent/5435720/Atomix_Virtual_DJ_v6.0.7_Professional___Crack_[RH]"
+,urecord,2010-04-03T16:11Z,Is this better than traktor pro?
+,5iTH,2010-05-11T22:13Z,"Followed instructions to the word (been doing this since amiga) and getting ""protection error"" code 24 + 16.
+
+Did this -
+
+Hi all!
+I had the ""Protection error 16."" after some tries, eg. by an earlier comment.
+I've had a rough combat with this, but finally, one registry entry is the problem of error 16.
+Delete this one too:
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\VxD
+Thanks god, it works fine now.
+
+ps. you can open the Registry Editor with the Start->Run cmd command
+
+Good luck!
+---thanks Conoyes.
+
+Now, that solved 24 + 16 but now i get ""protection error"" 8. Marvelous.
+
+Solution?
+
+@yamak03
+
+
+Yeah right......
+So who was first: http://thepiratebay.org/torrent/5435720/Atomix_Virtual_DJ_v6.0.7_Professional___Crack_[RH]
+---i'm trying this and will comment on my progress!
+
+O.S Windows Vista Home Premium 32-Bit."
+,5iTH,2010-05-11T22:34Z,"So far no problems with http://thepiratebay.org/torrent/5435720/Atomix_Virtual_DJ_v6.0.7_Professional___Crack_%5BRH
+
+It ""is"" a tricky one, you have to go out of your way to make sure this does not connect to the internet!
+
+Besides that point, what is interesting is that it loves my old config files ha ha. It even opened up in widescreen with beatgrid on the effects pedal.
+
+I digress. After a small amount of fucking around, mostly (i think) due to http://thepiratebay.org/torrent/5435720/Atomix_Virtual_DJ_v6.0.7_Professional___Crack_%5BRH not having as many seeds, i have it working marvelously.
+
+THANK YOU SQUIRE!
+-5iTH"
+,Kite4444,2010-05-21T21:27Z,Thx man!! Now I'll be able to mix music and blow peoples mind!!!
+,TPBKid,2010-05-22T20:08Z,"Great torrent! I agree you do have to ""go out of your way"" in this torrent, but it's well worth it. Maybe 2 minute's to download and install, not a pain at all. Thanks for the upload! Greatly appreciated."
+,man-hunter,2010-06-12T19:47Z,Protection error 24.please contact us on http://www.virtualdj.com/contact/
+,ryujinXryuk,2010-06-24T00:05Z,hey it sasy protection error 24 how do i fix it thanks
+,ryujinXryuk,2010-06-24T00:50Z,this sucks.i always have protection error even though i made a rule to block it from conncting
+,mvmefools,2010-07-05T06:44Z,DUDE THIS IS CRAP WHATS WITH THE SECURITY ERRORS AT LEAST TELL US HOW TO INSTALL PROPERLY
+,natho30,2010-07-05T19:26Z,"thx for the up robbinghood.easy installation,took 2 mins....and anybody who cant find the serial no/KEY ............ look at the READ ME!!,dumbasses"
+,natho30,2010-07-05T20:06Z,"FFS.....DISABLE YOUR INTERNET CONN AFTER INSTALLATION,OPEN UP VDJ,GO TO CONFIG..INTERNET AND DISABLE NETSEARCH ETC. YOU SHOULD NOT GET ANYMORE ERRORS ONCE YOU RE-CONNECT INTERNET!!!!"
+,estemshorn,2010-07-06T23:36Z,"This literally took like 30 seconds for me to download.
+
+Awesome torrent man!"
+,sharkyfinn,2010-07-14T14:50Z,"Well dl\'d and installed like a snap, was not connected to the net, disabled all net connecting options i could find, worked perfect...for 5 minutes, then i got error 24, spent 5 minutes looking at comments found 60% of them ask about what to do if you get a security error message, another 20% are links to the actual website as how to fix (my guess is they want me to buy it). In my 5 minutes of looking at comments i did not find one from the author providing any pertinent info on security message. Fuck it i\'m uninstalling and finding something else, i don\'t mind spending some time figuring shit out, but when there\'s no response to a repeated question..."
+,sharkyfinn,2010-07-14T14:55Z,"I\'m not throwing out the file, and will continue to seed for a while, if anyone can tell me how to solve security error 24 (and/or all others) i\'d be glad to reinstall, use, and continue to seed for a while longer."
+,lazetearce,2010-09-14T21:47Z,pls give me the serial for this . i don't know where i can find it 
+,newsletter,2010-09-18T20:02Z,"For those who are seeing the error. This is because VDJ is communicating with their servers. This is a fairly new feature in v6.
+
+If you are going to control panel and then to system and security, and accessing ""Allow a program through windows firewall"", creating a rule and disallow it, this will not work because VDJ will replicate and new rules will be constantly created so this is useless.
+
+What you need to do is go to:
+Control Panel> System and Security > Administrative Tools in Win 7 and otherwise in other windows versions.
+The go to ""Windows Firewall with Advanced Security"" and create a new rule which will BLOCK traffic from VDJ.exe and enable it.
+This has worked for me for years now.
+
+Do it it works."
+,deb66,2010-09-19T06:58Z,"Cheers Mate, Works A Treat.
+Thanks For The Up..."
+,Tovansky,2010-10-12T00:33Z,"do what newsletter said, it's working great without the error message when I did it. "
+,whitewidow69,2011-01-21T09:52Z,"Nice upload ThankS mate!!! 
+
+Guess whos back Remix
+back again
+bose8762 is back
+yes im back
+tell a friend
+guess whos back
+guess whos back
+guess whos back
+bose8762 is back
+:))"
+,adicto_al_cafe,2011-08-24T01:37Z,Trusted torrents!
+,BeatVibez,2012-01-02T19:46Z,No serial key?

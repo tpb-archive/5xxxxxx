@@ -1,0 +1,60 @@
+WarDog
+A puppylinux 4.21 derivative
+
+WarDog build9k2.iso (116MEGS)
+by ZooT aLLures.
+
+
+Wardog is privacy enhanced version of puppylinux 4.21
+A backend tool in the war against online privacy.
+The primary motivation for creating WarDog came from a thread at a discussion board.
+
+WarDog, just like it's puppylinux parents runs as a "live-CD".
+Put it n your cdrom drive, boot it, and enjoy.
+Again, like it parents, it's also installable, as either a frugal install(copied to hard disk, but loads and runs from RAM,
+or as a full install, just like any "normal" linux distribution
+
+WarDog contains, in addition to the usual puppylinux software packages:
+seamonkey 1.1.16 browser suite with the enigmail email encryption plugin installed and configured.
+
+Gnu Privacy Guard, generic but very full bodied encryption utility suite.
+
+Gnu Privacy Assistant, A graphical user interface for Gnu Privacy Guard(Gpg) for the point n' click folks out there.
+
+OpenVPN, with a graphical user interface, "I" wrote, in GTKDialog3 to allow configuration/operation by point n' click users.
+This interface makes the configuration and operation of a simple "shared key" vpn a very simple matter.
+It creates the proper environment, including loading the required "tun" modules, wites the iptables, opens the required ports,
+ accepts and writes configuration data to the proper files, generates keys, and will start and shutdown the vpn, point n' click style.
+It also contains the openssh suite allowing one to start an ssh server at one end of the openvpn tunnel and, using included "SSH GUI secure telnet"
+included in puppy by default add a double layer of encryption between the computers connected via openVPN.
+
+BookmarkIP, a small desktop utility "I" wrote that does a DNS query on a domain name and writes the results to /etc/hosts thus bypassing the necessity of further DNS queries for any domain bookmarked. (this is helpful if the US government, or any other entity, selectivly deletes any DNS entries, you'll still be able to get to your favorite sites. Idea for that by Michael W. Dean of 
+RIGHT ARM OF WYOMING 
+http://www.rightarmofwyoming.com
+
+
+Zoot sez: 
+I'm releasing this a donationware*, meaning, it's GPL'd software**, but if you find it useful, and would like me to continue it's development,
+Tossing me a few, or maybe even more than a few bucks would certainly help*grin*
+
+
+I'd like to give special thanks to the puppylinux crew for their hard work(as if it's not a labor of love ;) )
+And to all those who have come before me, and all those yet to come in the world of software development.
+
+Donations can be made to:
+slimedog1
+at
+paypal
+dot
+com
+
+
+And if you don't, won't, or can't use paypal
+Email me at: zoot686@yahoo.com
+
+and we'll figure something else out.
+Thank you for visiting
+
+*For snoops, spooks, govgoons, pigs, and other thugs of state operating in an either official or unofficial capacity in the name of your god, the state,
+the price is $350,000 per copy, per seat, per day of usage, and by downloading this package you agree to pay for it.
+**My stuff is ZPL'd, which is the same as GPL, but please don't redistribute it without permission, ask and ye' shall receive

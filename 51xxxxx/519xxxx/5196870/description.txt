@@ -1,0 +1,139 @@
+B L I Z Z A R D               
+                                              
+                                                        
+            South River DMZedge Server v3.01.507        
+                           Enterprise Edition                       
+            release date: 2009-12-04      supplier: TEAM BLZ           
+                   disks: 2                cracker: TEAM BLZ          
+               protection: Lic/Online Auth       os: Win2k3Vista2k8    
+                                                                  
+                                                              
+     
+                  RELEASE INFO               
+       
+                                              
+                                                         
+                                                                
+                                                                    
+                                                                       
+                                                                       
+    The DMZedge Server enables you to close inbound ports on your      
+    firewall, reducing the risk of network intrusion and enabling the  
+    highest level of security for both data storage and transfers.     
+    When combined with the Titan MFT Server or the GroupDrive Server,  
+    the DMZedge Server uses a two-way connection originating from the  
+    Secure MFT or GroupDrive Server that is inside of the firewall on  
+    your corporate LAN. The DMZedge works as a communication proxy,    
+    replacing unsecure inbound connections from the Internet to your   
+    internal network.                                                  
+                                                                       
+    The DMZedge Server works as a proxy between users on the Internet  
+    and your secure corporate LAN. DMZedge Server resides in the       
+    Demilitarized Zone (DMZ) - outside of your corporate firewall.     
+    The GroupDrive or Titan MFT Server that resides on your network    
+    initiates a session with the DMZedge through a secure outbound     
+    connection. All incoming client requests and data are forwarded    
+    to the back-end server through a connection that has already been  
+    established between the MFT Server and the DMZedge Server. The     
+    MFT or GroupDrive Servers reside securely behind your corporate    
+    firewall, although ease of access for your end users is as simple  
+    as if the servers were in your DMZ. Data storage and               
+    authentication take place on the back-end server, and no inbound   
+    ports are opened through your firewall.                            
+                                                                       
+    Features...                                                        
+                                                                       
+    - No requirement for opening inbound ports through your corporate  
+      firewall; instead the internal MFT or GroupDrive Server          
+      initiates an outbound connection to the DMZedge Server           
+    - Enables Managed File Transfers and secure collaboration by       
+      working in conjunction with either the Titan MFT or GroupDrive   
+      Server products                                                  
+    - Virtual authentication - DMZedge acts as a proxy for             
+      authentication to the back-end server, including authentication  
+      to existing Active Directory or LDAP server implementations      
+    - Secure protocol support including full FTPS, SFTP, HTTPS, and    
+      WebDAV over SSL                                                  
+    - Complete pass-through capability - no storage or replication of  
+      user database information is required on the DMZedge Server      
+    - Simple, wizard-driven installation reduces implementation time.  
+                                                                       
+    Changes in 3.01.507                                                
+                                                                       
+    - Fixed: Port in use error when a MFT server conected and          
+      disconnected and reconnected to the DMZ server.                  
+    - Added: FIPS-140-2 Compliance when used with Titan MFT Server v7  
+      and SFTP.                                                        
+    - Added: DMZedge Server is now available in a full 64-bit edition  
+      for installation under the 64-bit editions of Windows Server     
+      2003 and Windows Server 2008.                                    
+    - Fixed: Activation issue that prevented certain registration      
+      codes from being accepted.                                       
+                                                                       
+                                                                       
+                                                                      
+                                                                
+                                                          
+                                            
+       
+                  INSTALL INFO                
+       
+                                            
+                                                          
+                                                                
+                                                                      
+                                                                       
+    Run DMZEDGE301507.EXE and follow instructions.                     
+                                                                       
+    Run B-DMZEDGESRV301507-PATCH.EXE to eliminate the online           
+    authorization check from the activation procedure.                 
+                                                                       
+    Product Registration Code: 53-12DN05-80308A99-007D06-5432          
+                                                                       
+                                                                       
+                                                                      
+                                                                
+                                                          
+                                            
+       
+                    GREETINGS                 
+       
+                                            
+                                                          
+                                                                
+                                                                      
+                                                                       
+      greets fly out to all groups which actively and courageously     
+             work on building better release conditions and            
+                        thus keep the scene up.                        
+                                                                       
+                   special greets to our friends in:                   
+                                                                       
+            absokt - acme - air - digerati - explosion - f4cg          
+         orion - pdx - shock - ssg - tbe - tmg - unleashed - zwt       
+                                                                       
+                                                                      
+                                                                
+                                                          
+                                            
+       
+                     CONTACT                  
+       
+                                            
+                                                          
+                                                                
+                                                                      
+                                                                       
+     We are a closed group, if we need you then we will contact you!   
+                                                                       
+        Software worth using is worth buying.. keep this in mind!      
+                                                                       
+                                                                  
+                                                          
+                                                  
+           nfo updated on       
+                        2009.07.19                 
+                                    
+                                       
+                            INFOFILE DRAWN BY
+                                 H7/ACCESSiON

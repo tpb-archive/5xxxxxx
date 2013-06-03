@@ -1,0 +1,60 @@
+User Type,Username,Date,Text
+,miknos,2009-10-09T10:05Z,"I've been using this version for months without problems. Tried to use same serial in 2.2 but expired (after 3 hours). I just installed 2.1.4i on top of 2.2 and now everything works perfectly again.
+
+Appreciation is always welcome and don't forget to rate the torrent."
+,Almarenan,2009-10-09T12:07Z,"Do the following (courtesy polisdavid) :
+1. Block obdev.at in /etc/hosts by adding a line: 127.0.0.1 obdev.at
+2. Block Little Snitch with Little Snitch, in Little Snitch Configuration click the Choose Application: /Library/Little Snitch/Little Snitch UIAgent (ANY connection)
+3. Enter the following serial number: SN: 32SPYLJZN0-733P4-6WPM957P4S (Serial Seeker)
+
+PS : you can try skipping part one, still, I did it and, well, it works .."
+,miknos,2009-10-09T12:25Z,I haven't blocked Little Snitch (with Little Snitch) in this version but might be a good idea to do so.
+,vomit60foam,2009-10-10T14:55Z,10.6.1 compatible?
+,vomit60foam,2009-10-10T20:37Z,"In case your not a UNIX maven:
+Step 1 step by step: 
+-Open Terminal
+-Paste or type:
+sudo pico /etc/hosts
+-Enter your Mac user password
+-Enter 127.0.0.1 obdev.at
+-Press Control and x to EXIT
+-Type y for YES
+-Hit return
+-Type exit to logout
+I think that's it . . ."
+,miknos,2009-10-11T01:12Z,"Yes, it works in 10.6.1"
+,Danny880044,2009-10-12T12:30Z,"Works great thanks, block Little Snitch using Little Snitch, so it doesn't phone home and tell you that your license is invalid etc. Thanks for a fine upload :D"
+,capnjazz,2009-10-18T02:36Z,"
+Poor show chaps. I've been using the latest Little Snitch (2.2), blocked from calling home, and a serial I found on TPB (I suspect it wasn't the one from the torrent though) for over a week now - no probs.
+"
+,miknos,2009-10-18T09:07Z,"@capnjazz
+
+Wanna share your serial with us? :)"
+,tsam19,2009-10-24T14:47Z,"I'm using Leopard 10.5.8 & downloaded & installed this 'little snitch' program.
+Tried to follow the instructions on how to 'block LS with LS' but the instructions don't make any sense ?
+I've opened LS configuration - BUT WHERE'S THE CHOOSE APPLICATION TAB' ?
+
+Also I've tried to locate - /Library/Little Snitch/Little Snitch UIAgent (ANY connection)
+
+But where is it ??
+
+Can someone explain it in SLOOOOW TIIIME..
+
+Cheers."
+,miknos,2009-10-24T20:14Z,"@tsam19
+
+In this 2.1.4i you don't have to block LittleSnitch UIagent.
+
+If you want to update to 2.2 you'll have to block UIagent. To do it:
+
+-Run LittleSnitch Configuration.
+-Click NEW (rule).
+-On top choose DENY CONNECTIONS.
+-Where you see ""all applications"", on your right choose ""CHOOSE APPLICATION...""
+-Go to HD/Library/Little Snitch/Little Snitch UIAgent
+
+Link for 2.2: https://thepiratebay.org/torrent/5131516"
+,antsmar,2010-05-03T04:25Z,could anyone please assist as to where i block obdev.at in /etc/hosts by adding a line: 127.0.0.1 obdev.at
+,antsmar,2010-05-03T04:27Z,"is this even necessary?
+
+cheers"

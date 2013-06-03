@@ -1,0 +1,8 @@
+User Type,Username,Date,Text
+,Nath_Bongo,2009-12-01T11:16Z,"norton 360 found-
+Suspicious. MH690.A-
+Its a Heuristic virus-
+don't D/L this"
+[V],NoExcuses,2009-12-01T17:34Z,"@Nath_Bongo
+The files inside the SFX EXE are the ones that the Setup downloaded from the TweakNow site installs on your PC. The only two things added are the Batch file that sets an entry in the Registry to allow it to work as a Portable, and RunHiddenConsole.exe, a small program that hides the DOS window when running the Batch file, that I find quite ugly, and that some AVs detects as unsafe, as you can use it also to hide some dangerous commands. Using WinRAR you can remove it and edit the comment so it runs directly the run.bat file.
+Actually, scanning the program with VirusTotal it shows a few hits, but apart from McAfee only from minor AVs. As said in the description, all files can be extracted and scanned one by one when in doubt. Looks like Norton 360 is part of the crappy AVs..."

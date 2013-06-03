@@ -1,0 +1,27 @@
+Updated Auto Installer to remove WMP 12 and install WMP 11.
+
+This torrent replaces the earlier one (http://thepiratebay.org/torrent/5179780/Windows_7_Downgrader_to_WMP_11), which had a bug preventing the Double click Fix from being installed.
+
+You can run this over the original and update to the latest fixes.
+----------------------------------------------------------------------
+
+To return to WMP 12 after installing this, do the following...
+
+Open Control panel
+goto 'Programs and Features'
+then 'Turn Windows Features on or off'
+Find 'Media Features' and expand the entry
+Untick 'Windows Media Player' (Also uninstalls Media Center as it relies on WMP).
+
+Restart your machine
+
+Go back to The same place and re-enable WMP and WMC.
+
+Windows will reinstate Media Player 12. 
+----------------------------------------------------------------------
+
+
+Install elevated.
+
+RUN AS ADMINISTRATOR
+

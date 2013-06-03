@@ -1,0 +1,114 @@
+User Type,Username,Date,Text
+,Justdaany,2009-12-05T14:15Z,seed please :)
+,ealex1971,2009-12-05T15:44Z, ?? ??? ????? ????? ??? ????? ?? ??????????
+,mnstrptrl,2009-12-05T15:46Z,"How am I supposed to use this wrapper?  I clicked on the icon, but it did nothing and went away by itself after a few seconds, and the black screen persists.  
+Plus, I can't quit the game, and am forced to manually shut down just to make it stop."
+,arbnor187,2009-12-05T15:56Z,how do i actually install this HELP!
+,BoneCrush3r,2009-12-05T16:44Z,please can someone help me how i get modern warfare 2 on mac? i want it so badly...
+,TAVI1988,2009-12-05T17:47Z,where do i have to copy the game into the wrapper? path?
+,arbnor187,2009-12-05T19:04Z,how the fuk am i suposed to even install this someone make a vid
+,BW31,2009-12-05T21:42Z,"The instal guide isn't complete
+The wrapper doesn't have any ""Call of Duty - Modern Warfare 2.app/ContentsResourcestransgamingc_driveProgram Files"" file. How are we supposed to use the wrapper please ?"
+,mnstrptrl,2009-12-05T21:50Z,"I found the Activision folder in ""Programme"" deep inside the game's contents, but there's no ""transgaming"" folder inside the wrapper.  I tried moving it from Programme to Program Files, but nothing was fixed or changed at all.  Your directions don't make much sense, can you rewrite them and/or make an instructional video?"
+,paperboat,2009-12-05T22:00Z,no luck here either
+[T],ctang,2009-12-05T22:50Z,"try this
+show package content of Call Of Duty Modern Warfare 2 ATi Wrapper
+Then open resources folder
+Then create folder called transgaming (inside the resource folder)
+Inside transgaming, create a folder called c_drive
+Inside c_drive, create a folder called Program Files
+Inside Program files, move your Activision folder 
+
+That should work for ya.  Post back with results.
+ctang"
+,TAVI1988,2009-12-05T23:03Z,"it still does nothing. i even tryed to edit the info.plist but with no succes. 
+did you test this, ctang?"
+[T],ctang,2009-12-05T23:27Z,"@TAVI1988
+did you try to delete these files:
+
+~Library:Preferences:com.activision.callofduty.modernwarfare2.plist
+
+~: Library:Application Support:Call of Duty Modern Warfare 2"
+,weebit,2009-12-05T23:52Z,"@ctang
+
+! tried doing that but it didn't make a difference, it still won't work.
+Any suggestion on what to do next?
+Thanks for helping though!"
+,thagunna,2009-12-06T02:20Z,"can u help us out
+it still isnt workin i copied the activision folder even the game lol 
+still aint workin
+or am i supposed to put the wrapper inside the games folder???
+im confused"
+[T],ctang,2009-12-06T02:51Z,sorry for asking this but everyone that is having problems does or doesnt have a ATI graphics card?...this should only work for ATI graphics cards...there is another that works only with nvidia graphics cards and yet another floating around that is claimed to work with bot ATI and nividia graphics cards
+,lonewolf121188,2009-12-06T04:04Z,"I'm having similar problems with the non-ATI version of the wrapper; it basically just quits as soon as I launch the .app. I followed all the directions exactly (installed, copied folder over, edited info.plist in the two places that had ""Programme"". I don't have a com.activision.callofduty.modernwarfare2.plist file or Call of Duty Modern Warfare 2 folder in those directories, so I figure the application is quitting before it even makes those files/folders. Can anyone help?"
+,lonewolf121188,2009-12-06T04:05Z,I forgot to mention: I'm running 10.6.2. Maybe its an issue with Snow Leopard?
+,weebit,2009-12-06T09:14Z,"@ ctang
+I have a ATI Radeon HD 4670 and it does not work for me. 
+
+@lonewolf121188
+You're looking in the wrong ""Library"", those  directories are located in ""User"":Library not Macintosh HD:Library."
+,krarok,2009-12-06T10:24Z,"I have the Activision-folder under Programme, not Program files folder? And when i started the wrapper it did open a small window for a second before quitting. Not even a blank screen. 
+
+I have snow leopard and yes, Ati graphics card too. I also deleted the .plist-file and the application support-folder.(they were created only after the first attempt to launch, i was baffled as i couldnt find them before ;) )
+
+Prob. a stupid question, what does it mean, the I get the Activision folder from the game, not the .app? I opened the contents of the CoD Modern Warfare 2.app and found the Activision folder under Programme-folder. Is this totally the wrong place to go look for it?"
+,Sn0w-You,2009-12-06T11:26Z,"Seed please!
+
+Hope this works!"
+,TAVI1988,2009-12-06T13:34Z,"yes, i did
+
+but it still doesnt work and i have this graphics card: ATI Radeon HD 2600 Pro"
+,BoneCrush3r,2009-12-06T16:09Z,I tried everything you said ctang...i made a copy of activision to programm files...it did install something...a tried several times to delete the 2 folders and then try again...nothing happens...those 2 folder they come back as start the wrapper App...
+[T],ctang,2009-12-06T18:43Z,updated instructions...hope they help and sorry for all the confusion
+,AndreasDV,2009-12-06T20:01Z,"@ctang 
+I have no Windows, only Mac. And now ?"
+,kubasuchy,2009-12-06T20:36Z,"still nothing. i've followed steps one by one, and that's what keeps happening:
+
+after inputnig the command and dropping the moder warfare 2 instruction to terminal, game:
+a) freeze
+b) if you delete this 2 files from libraries than it freezes on the ""setting up for the first time"" screen"
+,cabri001,2009-12-07T11:44Z,"I've followed instructions for Snow Leopard; when I type in the Terminal, the app shows this window (""please stand by CoD is being configured for the first time..."")
+
+http://img.skitch.com/20091207-b4pbj8rhjcrbkgu6paqyw1j8kt.png
+
+but nothing happens, I'm waiting for 40 minutes..."
+,nasius,2009-12-07T13:37Z,"same here, game launch stalls at same point
+
+Mac Pro Quad-Core Intel Xeon
+ATI Radeon HD 4870
+
+btw, Perl environment settings can be set for sure with this command:
+
+defaults write com.apple.versioner.perl Prefer-32-Bit -bool yes"
+,kubasuchy,2009-12-07T17:19Z,"geez, i'm playing that game on my macbook and it's so great, but at the same time it sucks sooo much that i can't play on my iMac :("
+,amancosta,2009-12-07T21:27Z,I've downloaded the mac version: thepiratebay.org/torrent/5161584/modern_warfare_2. Is it the same instructions as for the PC version?
+,jrandalls,2009-12-08T00:54Z,"First of all thanks CTANG for your help. 
+Sadly this does not work for me either. 
+
+Heres whats been done so far:
+
+1) Downloaded the MAC modern warfare file from bigdaddyrob2g - http://thepiratebay.org/torrent/5161584/modern_warfare_2
+
+2) Copied the Activision folder from the bigdaddyrob file (contents/Resources/transgaming/c_drive/programme/Activision/Modern Warfare 2)
+
+to /Contents/SharedSupport/cxchromium/support/chromium/drive_c/Program Files/Activision in the ATI wrapper file. 
+I made sure there arent multiple copies of the activision folder in the wrapper app.
+
+3) Since I have space I also copied the Activision folder to Resources/transgaming/drive_c folder in the wrapper...
+
+4) ive deleted the .plist file and the Modern warfare 2 folder in lib/application support each time I made a change and still the game did not load. 
+
+In running osx 10.5.8 so I double click the wrapper application and it just appears...then disappears after stating ""please wait COD is being configured for the first time"". 
+
+Ive got an ATI, RadeonHD2400XT card in the imac. Any help would be great. thanks. "
+,k2bk2b,2009-12-08T14:34Z,"Hi Ctang, tried step 4 as im on 10.6.2 no deal. still blank screen with fuzz on low settings.
+
+ATi 2600 on imac c2d 4gb ram"
+,TAVI1988,2009-12-08T17:25Z,this game doesnt seem to work for anybody... -.-
+,stueee123,2009-12-08T22:49Z,didnt work at all for me....just gonna try a different torrent for the game
+[T],ctang,2009-12-09T01:54Z,"Everyone try this who is having problems getting this wrapper to work.
+
+http://thepiratebay.org/torrent/5204809/Call_of_Duty_Modern_Warfare_2_Wrapper_for_NVIDIA__amp__ATi_Graphics"
+,koitere,2010-06-15T22:51Z,"What should i do when game stops, because i get ""DirectX error"" while palying?"
+,Canardodo,2010-06-18T15:26Z,pls seed ! :)
+,WayToEasy,2011-12-27T10:38Z,PLZ people seed

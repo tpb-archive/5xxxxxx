@@ -1,0 +1,49 @@
+Copied from Nirsoft Homepage:
+
+
+CurrPorts is network monitoring software that displays the list of all currently opened TCP/IP and UDP ports on your local computer.
+For each port in the list, information about the process that opened the port is also displayed, including the process name, full path of the process, version information of the process (product name, file description, and so on), the time that the process was created, and the user that created it. 
+In addition, CurrPorts allows you to close unwanted TCP connections, kill the process that opened the ports, and save the TCP/UDP ports information to HTML file , XML file, or to tab-delimited text file. 
+CurrPorts also automatically mark with pink color suspicious TCP/UDP ports owned by unidentified applications (Applications without version information and icons)
+
+
+System Requirements
+
+This utility works perfectly under Windows NT, Windows 2000, Windows XP, Windows Server 2003, Windows Server 2008, Windows Vista, and Windows 7.
+There is also a separated download of CurrPorts for x64 versions of Windows.
+If you want to use this utility on Windows NT, you should install psapi.dll in your system32 directory. 
+You can also use this utility on older versions of Windows (Windows 98/ME), but in these versions of Windows, the process information for each port won't be displayed.
+
+
+License
+=======
+
+This utility is released as freeware. You are allowed to freely distribute this utility via floppy disk, CD-ROM, Internet, or in any other way, as long as you don't charge anything for this. If you distribute this utility, you must include all files in the distribution package, without any modification!
+
+
+Changelog:
+
+
+Version 1.75: 
+
+Added 'Exclude Selected Processes In Filters' option in the context menu. 
+
+Added accelerator key for 'Include Selected Processes In Filters' option. 
+
+Fixed bug 'Include Selected Processes In Filters' option: failed to work on system process. 
+
+Added 'Disable All Filters' option to easily toggle between active filter state and no filter state, as an alternative for 'Clear All Filters', which doesn't allow you to return back the filters. 
+
+
+Version 1.70:
+
+Added /sort command-line option for sorting the connections list saved from command-line. 
+
+
+Version 1.66: 
+
+Fixed issue: When CurrPorts window is hidden and there is an icon in the taskbar, running CurrPorts again will open the existing instance of CurrPorts, instead of creating another one.
+
+
+ED2K Link:
+ed2k://|file|cports.zip|60207|BB9E452F38FEB46D9512198699BB0F0F|h=ZXZOC7C5I5H7LXZAHL4V55QV6QSPFDRM|/

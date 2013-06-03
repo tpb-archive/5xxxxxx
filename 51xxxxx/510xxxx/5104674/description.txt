@@ -1,0 +1,43 @@
+Copied from ÂµTorrent Homepage:
+
+
+What Is ÂµTorrent?
+
+
+Micro-Sized Yet Feature Filled
+
+ÂµTorrent is the world's most popular BitTorrent client.
+Most of the features present in other BitTorrent clients are present in ÂµTorrent, including bandwidth prioritization, scheduling, RSS auto-downloading and Mainline DHT (compatible with BitComet). Additionally, ÂµTorrent supports the Protocol Encryption joint specification (compatible with Azureus 2.4.0.0 and above, BitComet 0.63 and above) and peer exchange.
+
+
+Resource-Friendly
+
+ÂµTorrent was written with efficiency in mind.
+Unlike many torrent clients, it does not hog valuable system resources - typically using less than 6MB of memory, allowing you to use the computer as if it weren't there at all. Additionally, the program itself is contained within a single executable less than 220 KB in size.
+
+
+Skinnable and Localized
+
+Various icon, toolbar graphic and status icon replacements are available, and creating your own is very simple. ÂµTorrent also has support for localization, and with a language file present, will automatically switch to your system language. If your language isn't available, you can easily add your own, or edit other existing translations to improve them!
+
+
+Actively Developed and Improved
+
+The development team puts in a lot of time working on features and making things more user-friendly. Releases only come out when they're ready, with no schedule pressures, so the few bugs that appear are quickly addressed and fixed.
+
+
+Changelog:
+
+Here's a new release for the 1.8.x line with some additional bugfixes. The 1.8 line is stable, so only fixes and minor tweaks will be added from here on out. All new features will go into 2.0.
+
+
+
+2009-09-28: Version 1.8.4 (build 16688)
+
+Fix: Fixed potential crash in WSARecv and WSASend
+
+Fix: Fixed piece availibility issue introduced in previous build
+
+
+ED2K Link:
+ed2k://|file|utorrent.exe|289072|A4A2FC8B571D4B89749E5CCA1B35BA1F|h=I36VDZGBUAGCQZKO7T7SEV24OO5CZMDQ|/

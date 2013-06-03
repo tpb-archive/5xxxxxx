@@ -1,0 +1,41 @@
+REAPER 3.1415 - November 28, 2009
+
+Changes:  As good as pumpkin pie.
+
+    * Action: invert item selection
+    * Actions dialog: fixed export of multiple selected actions/shortcuts
+    * API/ReaScript: actions dialog shows command ID strings for custom/extension actions
+    * API/ReaScript: added NamedCommandLookup, to get a command ID from a named extension action
+    * Auto-crossfades: dont initiate auto-crossfade until items overlap by at least one sample
+    * Automation: ctrl+click on envelope point toggles point selection if no envelope drawing occurred
+    * Batch converter: prompt before exit if processing/unprocessed items
+    * Custom toolbars: disabled themed scrollbars on win32 for icon picker
+    * CD extraction: preliminary support (Windows 2000+, OS X)
+    * JS: fixed certain plug-ins on x64
+    * LAME/mp3 support: assorted fixes (multi-encoder, OSX VBR, correct file lengths, etc)
+    * Master track: clean up envelope lanes properly when hiding master track
+    * MIDI editor: moving CC with notes replaces rather than merging with existing CC at the new location
+    * MIDI editor: added action to move to end of selected notes
+    * MIDI editor: support for mouse cursor as vertical zoom center (respects prefs/editing behavior)
+    * MIDI input quantize: various bugfixes
+    * OSX: Audio Unit buggy compatibility mode includes constant blocksize (fixes AUMatrixReverb)
+    * OSX: builtin FX/JSFX fixes for installation on volumes that are case-sensitive
+    * PDC: better behavior when unmuting tracks with routing and "do not process muted tracks" disabled
+    * ReaScript: various bugfixes
+    * Scrub: autoseek during playback regardless of middle-mouse-button handscroll preference
+    * Startup: even faster
+    * Theme: themeable images for tabs (user for docker, project tabs, floating toolbar)
+    * Track: inserting track via context menu inserts new track in the expected place
+    * Toolbar: actions to open the floating toolbar at the mouse cursor
+    * Toolbar: support for more toggle actions staying lit when assigned to buttons
+    * Toolbar: extensions can register toggle actions
+
+
+
+
+OS Requirements:
+
+Windows (32-bit):  Windows 98/ME/2000/XP/Vista/7 or WINE  (limited support for W98/ME).
+Windows (64-bit):  Windows XP/Vista/7 x64  (requires x64 compatible drivers for audio/MIDI hardware).
+OS X: 10.4 or 10.5,  PPC or Intel  (Intel recommended).
+

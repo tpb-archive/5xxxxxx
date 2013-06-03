@@ -1,0 +1,64 @@
+AtomicParsley iTunMOVI writer for Apple TV and iTunes.
+
+The options cast|actors, directors, codirectors, screenwriters, producers can take multiple of the same type.
+
+You can issue --cast "x person"  --cast "y person" or --cast "x person,y person,b person"
+-------------------------------------------------------------------------------------------------------------
+Atom options:
+--copy_warning:         Add copy warning (displayed in iTunes summary page)
+--studio:               Add film studio (displayed on Apple TV)
+--cast|actors:          Add Actors (displayed on Apple TV and iTunes under long description)
+--directors:            Add Directors (displayed on Apple TV and iTunes under long description)
+--producers:            Add Producers (displayed on Apple TV and iTunes under long description)
+--codirectors:          Add Co-Directors (displayed in iTunes under long description)
+--screenwriters:        Add ScreenWriters (displayed in iTunes under long description)
+
+Write and print options:
+--print:                Display XML data to screen
+--file:                 MP4 file to write XML information to
+--write:                Write XML data to MP4 file with AtomicParlsey
+
+Misc options:
+--version:              Displays version
+--help:                 Displays help
+-------------------------------------------------------------------------------------------------------------
+If there is more than 1 entry of cast, directors, producers, codirectors, screenwriters then in iTunes the verbage changes to plural. (PRODUCER -> PRODUCERS).
+
+Apple TV display items:
+Actors, Directors, Producers are displayed for Movies.
+Actors are displayed for TV shows.
+Studio is displayed on all videos (while video is playing press up arrow 2x, it is located under Title).
+
+Requires AtomicParsley for final write.
+
+-HR
+
+
+UPDATE:
+
+Actors, Directors, Co-directors, producers and screenwriters are used and displayed in iTunes under the long description area.
+
+It looks like this;
+
+Joel, the owner of an Extract plant, tries to contend with myriad personal and professional problems, such as his potentially unfaithful wife and employees who want to take advantage of him.
+
+
+ACTORS
+   Jason Bateman
+   Mila Kunis
+   Kristen Wiig
+
+DIRECTOR
+   Mike Judge
+
+CO-DIRECTORS
+   Jasmine Alhambra
+   Maria Mantia
+
+PRODUCERS
+   John Altschuler
+   Michael Flynn
+
+SCREENWRITER
+   Mike Judge
+

@@ -1,0 +1,30 @@
+*******************************************************************************
+                       Akira (Original English Dub)
+*******************************************************************************
+
+  Akira
+Video Format.........: 23.976fps 2-pass x264
+Resolution...........: 1888x1016x24bits
+Aspect Ratio.........: 1.85
+Audio Format.........: track 1 - AC3 2.0 192Kbps 48KHz (Original English Dub)
+                     : track 2 - AC3 5.1 448Kbps 48Khz (Pioneer English Dub)
+Source...............: Widescreen Region A Blu Ray & R4 Madman DVD. 
+http://www.imdb.com/title/tt0094625/
+
+-------------------------------------------------------------------------------
+                                Release Notes
+-------------------------------------------------------------------------------
+
+  Took the BD Region A release of Akira, encoded with 2-pass x264, trimmed the
+black edges, applied a small degree of Warpsharp to clean the noise from the
+original.
+  Worked the original 192Kbps stereo audio track from the R4 Madman DVD with
+Audacity & eac3to. The goal was to get the hidef video and the original audio
+dub to fit into 4G. It does, but I've also interleaved the 5.1 Pioneer audio
+dub (recoded to 448 Kbps AC3-5.1 from the BD's trueHD track) as well, so the
+file, as is, fits on a DVD-5 blank. The video and first audio stream will fit
+on a 4G flash drive if rebuilt using mkvmerge.
+
+*******************************************************************************
+                       Akira (Original English Dub)
+*******************************************************************************

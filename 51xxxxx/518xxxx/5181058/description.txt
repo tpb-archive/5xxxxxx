@@ -1,0 +1,5 @@
+Today we are releasing a new version of USB Safely Remove: 4.2.5. This release is mainly aimed to improve stability of the program as well as it contains some international language pack updates. In total we have fixed about 20 small issues, the most important from them are:
+
+    * Sometimes the program could prevent by itself the device from being stopped
+    * On some system configurations the program displayed "Cannot connect to service" message on Windows startup
+    * Autorun didn't work for non-storage devices

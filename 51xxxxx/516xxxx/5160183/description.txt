@@ -1,0 +1,20 @@
+Retooled script, no longer uses or requires faac (binary) or MP4Box.
+
+set a default fps to 24000/1001
+set a default threads to 2
+
+new option to force widescreen dvd selection.
+
+recognizes "flip video stream" for audio processing.
+
+fix minor bugs that may or may not of been there in 4.8 ;-)  more bugs may appear.
+
+Limited testing, give feedback.
+
+May provide more accurate syncing when syncing audio processed externally via a52dec or dtsdec (100-200ms).  Compare encode with 4.8 using DTS processed audio and 4.9  DTS processed audio using -M.  In 4.8 audio adjust with VLC and use -100 to -200 delay and see if it matches 4.9 audio.
+
+A lot of work went into retooling, hope it worth it.
+
+NOTE: you will have to have an ffmpeg that accepts piped input.  For a while there it was broken in SVN, but it appears fixed again.
+
+-HR

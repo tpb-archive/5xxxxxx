@@ -1,0 +1,24 @@
+User Type,Username,Date,Text
+,rayhaque,2009-09-28T17:02Z,"Hello folks.  If you start downloading this on ""day one"" the seeding may be a bit slow.  It will pick up tomorrow when I bring it into the office with me and give it a good bit of bandwidth to work with.  Hack on!  Check out my blog for more details @ http://www.oddree.com."
+,rayhaque,2009-10-01T23:10Z,"I don't know why I didn't install the VirtualBox guest drivers before sharing this out.
+
+Once you have this up and running, you should do the following to speed things up ...
+
+1) Click Devices > Install guest additions.
+2) Open up a terminal and run the following ...
+
+sudo apt-get install build-essential linux-headers-`uname -r`
+
+(wait for this to finish, then)
+
+mkdir ~/vb
+cd /media/cdrom
+cp -R * ~/vb
+cd ~/vb
+sudo ./VBoxLinuxAdditions-x86.run
+
+(wait for this to finish, then)
+
+sudo shutdown -r now
+
+After reboot - things will run MUCH FASTER!"

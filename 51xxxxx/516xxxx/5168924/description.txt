@@ -1,0 +1,91 @@
+Custom-xubuntu-9.10-SE
+
+
+
+En custom livecd med xubuntu 9.10 32 bit.
+
+
+
+Systemkrav minst 192 mb ram för att kunna köra livecd'n ,256 mb ram rekomenderas.
+
+
+
+Hemsida  http://xubuntu.org/
+
+
+
+Gnome-games är bortaget.
+
+
+
+Extra custom xsplashbild samt skrivbordsbild + eget ikontema
+
+
+
+Extra program och codecs
+
+
+
+Chromium webbläsare (+non-free-codecs)
+
+Uppstartshanterare
+
+Ntfs-config
+
+vim (editor)
+
+
+
+Medibuntu samt chromium tillagt i programkällor
+
+Bcmwl-kernel-source (broadcomdrivrutiner)
+
+w32codecs
+
+non-free-codecs
+
+xubuntu-restricted-extras
+
+mscorefonts
+
+mm
+
+
+
+Tips se till att ha internetanslutning i samband med installation
+
+då installeras även java samt open office med nätverksanslutning under 
+
+installation.
+
+
+
+Om man vill ha tillbaks orginalxsplashen så finns den i /usr/share/images/xubuntu_xsplash,
+
+kopiera innehållet och klistra in i /usr/share/images/xsplash
+
+
+
+Lite screens.
+
+ 
+http://img252.imageshack.us/i/33219425.png/
+
+ 
+http://img252.imageshack.us/i/61066327.png/
+
+ 
+http://img97.imageshack.us/i/93245374.png/
+
+ 
+http://img688.imageshack.us/i/46462320.png/
+
+ 
+http://img97.imageshack.us/i/18218435.png/
+
+ 
+http://img695.imageshack.us/i/69538474.png/
+
+
+
+enjoy :)   elelinux.org

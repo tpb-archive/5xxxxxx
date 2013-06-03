@@ -1,0 +1,11 @@
+User Type,Username,Date,Text
+,defenceplox,2009-11-15T19:25Z,I'm not sure if this worked. i did the steps ok. nothing on my springboard or even if i type it into the search. any steps missed?
+,defenceplox,2009-11-15T19:34Z,"sorry. followed the guide on http://thepiratebay.org/torrent/5056379 and it worked fine. 
+
+instead of putting it in private/var/root put it in var/mobile."
+,1nuk3d1,2010-02-12T08:07Z,"if you put it in root, after you type su, you have to do
+cd /var/root
+
+and make sure you capitalized the letters that need to be else it wont work"
+,locofocos,2010-04-06T00:20Z,"Thanks! It works perfectly for me. I did use the instructions here http://thepiratebay.org/torrent/5056379 (you just need to copy it to /var/mobile/ instead) Roms go in /private/var/mobile/Media/ROMs/GBA/ , on Ipod Touch 3G anyways"
+,TPB_helper,2011-05-07T16:51Z,Works fine on 4.3.3 had to respring before the app showed thanks :)

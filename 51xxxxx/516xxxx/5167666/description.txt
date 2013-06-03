@@ -1,0 +1,18 @@
+Changed some of the logic regarding b frames and flags2.  It is possible now to create videos that will not play on ipod.  So dont use -b unless you dont want it to play.
+
+Added beta AppleTV profile (1280x720 HD).  Use -pb for best results.  Has yet to be verified these play on AppleTV.  Plays fine on PS3 and Xbox 360.
+
+Added iPod 480x320 anamorphic profile.  No real point to this, but someone may want it.  In between profile from -t psp -i and -t ipoddvd.  Creates 569x320 viewing dimensions.
+
+Added auto 16:9 mode.  Will auto crop any source to 16:9.  Use option -A (not -a, that is auto pad).  If you are using Auto Crop to appletv profile you should use a 1080p source.  You don't want to manufacture pixels.  If your input is 1920x800 it will be cropped to 1422x800 and then encoded using that source size to 1280x720.  So no pixels will have to be created, only reducing. If using -t ipoddvd it would be encoded to 640x480 with a 16:9 ar resulting in 853x480 viewing.  In this case you could of used the 1280x534 (949x534 reduced) version and not created pixels.
+
+
+Report any bugs.
+
+note: the only profiles that are iPod and PSP compatible are -t psp -i and -t ipod
+
+(fetch v4.8 if you want associated tools)
+
+
+-HR
+

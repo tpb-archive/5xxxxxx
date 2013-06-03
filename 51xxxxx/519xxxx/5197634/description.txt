@@ -1,0 +1,57 @@
+Call Of Duty: Modern Warfare 2 For Mac Wrapper (ATI Graphics Card Only)
+
+This is ONLY the Wrapper
+
+You must first have a copy of Modern Warfare 2 for this to work.
+
+Status: 
+(10.6 Users please see ReadMe or notes)
+
+Minimum Requirements (For Game):
+Mac OS version: OS X 10.4.11 
+Min. Processor: Intel Core Solo 
+Min RAM: 1 GB 
+Video RAM: 128 MB 
+Harddisk space: 12 GB
+
+Installation Notes:
+To play the game please follow this instructions. Taken from ReadMe within the Wrapper Folder
+
+Step 1. If you have the wrapper then: 
+        Get yourself a copy of the PC game. 
+        Install the game inside windows / parallels / vmware etc.
+        Copy all the files from C:/Program Files/Activision/ onto your mac side
+        Right click the wrapper and click "Show Package Contents" 
+        Navigate to /Contents/SharedSupport/cxchromium/support/chromium/drive_c/Program Files/Activision and place the folder "Modern Warfare 2" that contains your windows files in here.
+        Close those windows
+
+Step 2. If you are running 10.4 or 10.5
+        Open up the game by double clicking on the app
+        Enjoy the game!
+       (Upgrade your Mac to 10.6 it's awesome!)
+
+Step 3. If you are running 10.6 (If you know you've done this before, ignore it, move to step 4)
+        Open up terminal from /Applications/Utilities/ 
+        On the first line enter "cd /usr/bin" and press enter
+        Once it's done what it's doing (less than 1 second) paste sudo mv quartz-wm quartz-wm.bak and press return. Enter your admin password.
+        Wait until it's done its thing once again and then paste: sudo lipo -thin i386 quartz-wm.bak -output quartz-wm
+        Close that Terminal Window
+
+Step 4. If you are running 10.6 Open the game in 32-Bit mode
+        Open up terminal from /Applications/Utilities/ 
+        Paste: VERSIONER_PERL_PREFER_32_BIT=yes
+        Then right click on the game and click "Show Package Contents" 
+        Navigate to Contents/Mac OS (Orange)
+        Drag "Modern Warfare 2" into the terminal window 
+        Press return
+        The game should now launch
+        enjoy!
+
+For the Game Files, if you have a version of the game but are struggling, you can get them from inside the Cider Port of the game. Take the files from Contents/Recourses/transgaming/drive_c/ 
+
+Other notes
+This game works 100% with the retail and other versions of the game that don't require Steam. Steam versions probably will work, but they're a pain in the backside to install. 
+
+There're some slight graphical issues when you do stupid things with the settings - playing High at a good resolution with most of the advanced stuff left works just fine. Normal users will find no problems. 
+
+Please note 10.6 Users (Snow Leopard) you HAVE to follow the instructions in the "installation notes" section or the game will not launch!
