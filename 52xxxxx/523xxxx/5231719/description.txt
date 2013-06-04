@@ -1,0 +1,48 @@
+Removed requirement for mkvmerge if decoder is ffmpeg.
+
+Happy Holidays!
+
+-HR
+
+---
+
+
+./encode-aac5.1.pl -h
+
+HolyRoses AAC 5.1 converter
+
+-------------------------------------------------------------------------------------------------------------
+input options:
+--old:                  Use old mplayer settings (channel remapping)
+--start                 Start encoding time in seconds (requires --ffmpeg)
+--time                  Encode time in seconds (requires --ffmpeg)
+--nero                  Use Nero AAC Encoder (vs faac)
+--ffmpeg                Use ffmpeg decoder (vs mplayer)
+--input:                Input file (*.ac3, *.dts, *.mkv, *.avi, *.vob) (assumes ac3 for .avi if mplayer dec) (vob requires --ffmpeg)
+--output:               Output file (valid output type *.aac, *.mp4, and *.m4a) (.aac not allowed for --nero)
+
+quality options:
+--quantizier            Set quantizier:
+                        If using nero this value should a floating-point number in 0...1 range, (default .5)
+                        If using faac this value should between 10 and 500, (default 100)
+--bitrate               Set average bitrate (ABR) to approximately <bitrate> kbps. (default not used)
+
+misc options:
+--title                 Set a title if your output type is *.mp4, and *.m4a
+                        (if option --nero then only set if neroAacTag or AtomicParsley found)
+--version:              Displays version
+--help:                 Displays help
+-------------------------------------------------------------------------------------------------------------
+
+Currently only accepts raw ac3, raw dts, VOB, AVI, and MKV files as input files.
+Input must be 5.1 audio as no checking is done to ensure that it is.
+
+If your output file has incorrect channel mappings you most likely have an OLD version of mplayer.
+Use the --old option or modify this script to add the appropriate mplayer identifier so that it always triggers the --old argument.
+
+Old mplayer may not be able to decode some AC3/DTS streams extracted from MKV.
+If that is the case then process the MKV directly or update your mplayer.
+
+Use --ffmpeg if you can, its probably the best decoder.  mplayer is just
+using ffmpeg libs anyhow.
+

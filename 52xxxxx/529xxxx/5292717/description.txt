@@ -1,0 +1,149 @@
+ADOBEÂ® PHOTOSHOPÂ® CS AND IMAGEREADYÂ® CS READ ME
+ 
+
+This file contains last-minute product information and troubleshooting tips. Please refer to the User Guide or the HowToInstall document for installation instructions. For further troubleshooting and performance information, see the User Guide or online Help.
+
+If you acquired Photoshop as part of an Adobe Creative Suite, you will find the Photoshop Goodies folder on one of your Content CD's. If you acquired Photoshop as an Electronic Software Download (ESD), you will not have a CD-ROM, but the folder structure created on your hard drive after decompressing your download will contain a Goodies folder and other folders described in this document. Also certain instructions in this document may be slightly different for you, such as Serial Number information. Please refer to your Creative Suite ReadMe, or the e-mail confirmation you received when you purchased the ESD version for the latest information.
+
+Important: Please register your copy of Photoshop online at the end of the installation process, or by accessing the Registration item under the Help menu. You can also complete the registration card and mail it today. You must register to receive technical support and important product update information. 
+
+Your product may also require Activation within 30 days of installation. If your product requires Activation, you will find the Activation ReadMe.wri file in the same folder as this ReadMe file. Please read it for more information.
+
+Serial Numbers
+
+You can find the 24-digit serial number (e.g. 0000 0000 0000 0000 0000 0000) on the back cover of your CD holder. (ESD customers will find the serial number both on the receipt page from the online store, and in the e-mail confirmation you received.) You will be asked for this number when installing Photoshop CS.
+
+If you are upgrading from an earlier version of Photoshop, you will need to use the new 24-digit serial number that came with your new Photoshop CS product. The serial number you used to install previous versions of Photoshop will not work to install Photoshop CS.
+
+If you are upgrading from a version of Photoshop prior to Photoshop 5.0, you will need to contact customer service at 800-492-3623.
+
+If you have purchased Photoshop CS and previously owned Photoshop LE, AdobeÂ® PhotoDeluxeÂ®, or PhotoshopÂ® Elements, please use the serial number that came with your Photoshop CS product.
+
+If your new 24-digit serial number does not work please contact Adobe Systems at 800-492-3623.
+ 
+Optional Extensions and Plug-Ins
+
+There are several optional plug-ins and extentions included in Goodies/Optional Plug-Ins/. Included in this folder are some additional file format and export plug-ins as well as filter plug-ins.
+
+Several extensions are also included in Goodies/Optional Plug-Ins/Photoshop Only/Optional Extensions/. These extensions let you customize and enhance the Adobe Photoshop program in a variety of ways. For more information, see the ReadMe files included with the optional extensions.
+
+It is not recommended that you set your Additional Plug-Ins Folder preferences to use your Photoshop 7.0 or earlier plug-ins with Photoshop CS. You will receive error messages if you do this.
+
+Initialization and Preferences Files
+
+After you have installed the software, you can find the Photoshop preference files at:
+
+C:Documents and Settings<username>Application DataAdobePhotoshop8.0Adobe Photoshop CS Settings
+
+And you can find the ImageReady CS preference files at:
+
+C:Documents and Settings<username>Application DataAdobeImageReadyCSSettings
+
+Note: The Application Data folder is a hidden folder and not visible by default. If you do not see the Application Data folder, go to Windows Explorer>Tools>Folder Options>View and check the option "Show hidden files and folders".
+
+Note: Many preferences are now in the Windows registry. To reset your Photoshop preferences you can hold down Shift-Ctrl-Alt while starting up Photoshop.  
+
+Installation Requirements
+
+When installing Photoshop to a hard drive other than your system or boot drive (usually C:), you will still need to have at least 65-70MB free on your system drive to proceed with installation, regardless of how much space is on your installation drive.
+
+
+Using Adobe Photoshop with WindowsÂ®
+ 
+The following sections include useful information about using Photoshop software with different versions of Windows. (Please note that Photoshop CS does not support Windows 3.1.x, Windows 95, Windows ME, Windows 98 or Windows NT 4.)
+
+Shared Files
+ 
+Many files installed by Photoshop - such as TWAIN support files and MSVCRT*.* files (Microsoft runtime files) are shared with other programs. When you install or uninstall other programs that use these shared files, the file versions used by Photoshop may be overwritten or deleted. If you experience problems with features that depend on shared files, please reinstall Photoshop.
+
+Windows 2000
+ 
+Adobe Photoshop CS requires Windows 2000 Service Pack 3 or higher.
+
+File Associations
+
+The Photoshop installer allows you to associate file types with either Photoshop or ImageReady. When you associate a file type with an application, you specify which application will open when a file of that type is double-clicked on the desktop or in the Windows Explorer. Windows allows all its applications to associate themselves to various file types. If you choose the defaults in the Photoshop installer, you may find that Photoshop or ImageReady will open instead of another application when you double click on certain files. The Photoshop installer allows you to turn off this association with Photoshop or ImageReady if you prefer. To do so, click on each file type you do not want to associate and, for each type, choose "Do not change". 
+
+If you wish to change your file associations after installing Photoshop, please refer to the document, "How to Change File Associations in Windows" in the Adobe Systems Technical Solutions Database on the Adobe website, at this location: http://www.adobe.com/support/techdocs/ac22.htm.
+
+Thumbnail Icons for .psd files
+ 
+Photoshop CS no longer provides thumbnail icons of .psd files through operating system folder windows. Please use the File Browser to view your .psd thumbnail files.
+
+Running Adobe Photoshop Over a Network 
+ 
+Photoshop is not designed (nor was it tested) to be run when Windows is multi-launched over a network. If you want to run Photoshop on multiple Windows systems, make sure that each system has its own copy of Windows and Photoshop installed on the hard drive.
+ 
+Language Settings
+
+If you are using the English version of Windows XP or 2000 and add Chinese Traditional, Chinese Simplified, Korean, or Japanese language components, you must set the language correctly in the Control Panel. For Windows XP, set the Language for non-Unicode programs in the Regional and Language Options control panel Advanced tab and on Windows 2000, set the System Locale using the Regional control panel, General tab, Set default button.  Both systems will then require a reboot. If the language is not set correctly, you will experience display problems with text, file I/O, and Web features.
+
+
+Improving Performance and Troubleshooting
+
+The following sections describe how to improve your system's performance when working with Photoshop, and how to correct some common problems which may occur.  For up to date information on optimizing Photoshop performance, refer to the document #318243, "Optimizing Performance in Photoshop for Windows", available online at
+
+Fonts, Color Profiles and Application Startup Time
+
+Upon startup, Photoshop must enumerate all of the fonts that will be available for the Type tools. If you have a large number of fonts installed on your system, this can cause Photoshop to take longer to start up. If you find the startup time for Photoshop to be too long, you should remove any unused fonts from your system.  
+
+Likewise, all Color Profiles installed on the system must be read. Uninstall or remove any color profiles you will not be actively using to speed up the application startup time.
+
+Changing the Plug-ins Folder and/or Scratch Disk at Launch Time
+
+If you hold down the Control and Shift keys at launch time, the Additional Plug-Ins Folder dialog will appear. You can choose an additional folder from which Photoshop will load plug-ins. If you hold down the Control and Alt keys at launch time the Scratch Disk Preferences dialog will appear. You can choose to change your scratch disk preferences using this dialog.
+
+Resetting Preferences at Launch Time
+
+If you would like to reset all of your Photoshop preferences, simultaneously hold down the Control + Alt + Shift  keys as you launch the application.
+
+Adobe Save for Web Preferences
+
+Photoshop retains its Save for Web settings in the Adobe Save for Web 8.0 Prefs file. You can find it at:
+
+C:Documents and Settings<username>Application DataAdobeSave For Web8.0
+
+To restore Save for Web to its default settings, quit Photoshop, rename the file or move it to the Trash, and restart Photoshop.
+
+Compressed Drives and Virtual Memory 
+ 
+Adobe Systems recommends that you do not set either the Windows swap file or Photoshop's scratch disk to a compressed disk drive. For more information, see Assigning Scratch Disks in Chapter 1 of the User Guide.
+
+Working with the History Log
+
+You can now choose to save a History Log of your work in Photoshop by turning it on in the General Preferences. If you choose to save your log items to the file's Metadata, be aware that the log will not be saved with files saved in JPEG format due to a limit on the amount of text that can be saved in JPEG's File Info fields. (This limitation does not apply to files saved in the JPEG 2000 format.)
+
+
+Scripting Photoshop
+
+Scripting Support is now built into Photoshop. You no longer need to download or install a separate plug-in. Scripts can be written in Visual Basic or JavaScript on Windows.
+
+Scripts let you automate operations in Photoshop. They can range from simple manipulation of a single selected object to complex control of multiple documents. You can even create workflows across multiple applications. Check out the built-in scripts, or load your own by choosing File > Scripts in Photoshop.
+
+Please see the scripting and language reference guides on your Photoshop CD-ROM, or in the Scripting Guide folder installed with Photoshop.
+
+
+Compatibility Issues
+
+Large File Printing Limitations
+
+Photoshop CS can now create and open documents as large as 300,000 x 300,000 pixels. Due to various OS and printer driver limitations, Photoshop can only print documents up to 30,000 x 30,000 pixels. When working with documents larger than 30,000 pixels in either direction, the Print menu item will be disabled. For more information on this issue, see the tech note "Print command is unavailable for documents larger than 30,000 pixels (Photoshop CS)". Visit http://www.adobe.com/support/main.html and select the Support Knowledge Base link to view the tech note in the top issue section for Photoshop CS.
+
+Text Positioning
+
+Due to a minor change in the way the Photoshop CS text engine renders certain text blocks, opening documents created in earlier versions of Photoshop may change the position of a text block. This specifically affects text blocks with hanging carriage returns, but may affect others as well.
+
+Graphics Card Issues
+
+A variety of graphics card drivers may provide intermittent cursor display problems. These problems can include flickering cursors, on-screen artifacts, and cursors that don't immediately update when a new tool or cursor type is chosen. None of these display issues will affect the functionality of Photoshop. If you are experiencing any of these problems with your own graphics card, ensure that you have the latest driver for the card.
+
+Miscellaneous Installer Issues
+
+Windows 2000 and XP do not allow certain sections of the registry to be written to by users without administrative privileges. It is recommended that only those with administrator privileges and those that are logged on as administrator install Photoshop on Windows 2000 or XP.
+
+------------------------------------------------------------
+
+Copyright Â© 1989-2003 Adobe Systems Incorporated. All rights reserved.
+Adobe, Adobe PhotoDeluxe, ImageReady, and Photoshop are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Windows is either a registered trademark or a trademarks of Microsoft Corporation in The United States and/or other countries. Portions Â© Eastman Kodak Co., 1996, 1998. All trademarks noted herein are either the property of Adobe Systems Incorporated, PANTONE, Inc. or their respective companies. Six-color Process System Patent Pending - PANTONE, Inc. Portions Â© Dainippon Ink and Chemicals, Incorporated 1967, 1988. Contains an implementation of the LZW algorithm licensed under various patents. This product includes software developed by the Apache Software Foundation (http://www.apache.org/).
+
+-------------------------------------------------------------

@@ -1,0 +1,106 @@
+User Type,Username,Date,Text
+,OptikCable,2010-01-06T15:25Z,"Thanks for this, your image shows this as the Labsim is that correct?
+Also is there one that does not have the labsim about the same size, or is it just one version they make? once again thanks I needed this none"
+,StUnT66,2010-01-09T01:26Z,"this is a great file, PLEASE SEED!"
+,zip2009,2010-01-14T10:13Z,Yes this is a long awaited TestOut N10-004 module...I'm stuck @ 91.2% please seed and seed & seed.
+,GasheadNaboo,2010-01-14T15:29Z,"Quality share.
+Currently stuck on 92% will seed forever once downloaded."
+,pentax004,2010-01-17T17:58Z,tnx mate its a good one
+,hawkeyeblue,2010-01-19T18:44Z,"Thanks a million doe uploading. I have DL now but I am unable to run the Testout DVD it asks for a activation code. Can you please help me. 
+
+Thanks in advance"
+,hawkeyeblue,2010-01-20T04:14Z,"@hack2003
+
+Please help me I need this I have an exam in 2 weeks ..I am unable to run the Testout DVD it asks for a activation code. Can you please help me.
+
+. PLZ PLZ PLZ 
+
+"
+,hack2003,2010-01-26T22:55Z,"it took me awhile to see the comments cause im active all the time.
+
+if you are using my DVD iso and not others you wont need activation!!!
+the only flaw that i'v found with my cd and with all the net+ of testout is that the exam files are built in other way then the old ones so you cant exam with testout test's but for that there are other exams for...
+
+if you are asked for activation it's not my dvd!
+if you are having difficult running the simulations it can happend cause of windows xp that's have some problems with the newest versions of testout products or bug in twisted method of you people who are not paying for the product :P"
+,hack2003,2010-01-26T22:59Z,"hoo just poped up in my head.
+if you havn't noticed my dvd has an autorun option and otherwise it wont work unless you now something about computers to understand the autorun.inf file.
+
+these is just a nice product!!!
+quote//
+[autorun]
+action=run simulator
+icon=setup\autorun.ico
+open=software\TestOut\Orbis\Legacy\LegacyXEng.exe ..\..\..\..\TestOut\Outlines\NPlus09CLE.xml 
+
+shell\install = &Original Autorun
+shell\install\command = autorun.exe
+
+//end quote"
+,dicfeynman,2010-03-11T12:15Z,"i am getting some error about msi43d6.tmp, i start the autorun tried to run it as administrator, same result. i am using windows 7. any ideas."
+,dicfeynman,2010-03-11T13:35Z,"ok! here's the deal, if you have autorun disabled it won`t run, if you manually run autorun.exe it wont install properly.
+to enable autorun in xp , download a tool from microsoft website. search for autorun in downloads.
+
+in vista and 7 use the control panel 
+in 7 navigate to control panel>hardware and sound>autoplay check the box-set at everything at default
+
+still doesnt work ...
+open gpeddit.msc
+navigate to Computer Configuration > Administrative Templates > Windows Components>autoplay policies
+edit the ""Turn off Autoplay"" option and disable it .
+you are done"
+,dicfeynman,2010-03-11T13:36Z,my sincere thanks to the uploader hack2003
+,Cyberix18,2010-03-13T09:13Z,can someone tell me how to get passed the login screen keeps asking for username and password and if i create username askes for activation code
+,hack2003,2010-03-14T18:56Z,"you are not suppose to use that interface...
+you should create a SHORTCUT to the file
+(x = your emulated drive or dvd drive)
+x:\software\TestOut\Orbis\Legacy\LegacyXEng.exe
+
+and drug on to it the file on 
+
+x:\TestOut\Outlines\NPlus09CLE.xml"
+,Cyberix18,2010-03-16T14:00Z,Anyone have a link for the testout for mcse
+,Cyberix18,2010-03-16T14:01Z,oh thanx hack got it working
+,EvAnA11,2010-03-18T02:49Z,"When I try to access the Practice Exam questions in LabSim I get, ""The Page Cannot Be Displayed"".
+
+All the lessons work though, any ideas?"
+,hack2003,2010-04-02T20:17Z,you dont use the exams in the labsim but just the vce files that is in the torrent.
+,TrongPhan,2010-08-17T05:14Z,How to run your dvd man?
+,DizzleUSA,2010-09-12T17:11Z,I created a shortcut of the LegacyXEng.exe and placed it in a directory \testout\outlines\ alongside the NPlus09CLE.xml file. I get the error msg No file was selected to open.  The application will now terminate.  What am I missing?
+,DizzleUSA,2010-09-12T19:00Z,Nevermind. Just figured it out.  Great download!!
+,DizzleUSA,2010-09-12T19:01Z,I just figured it out.  Great download!!
+,roadrunnerside8,2010-12-21T09:05Z,"Thanks man for the up. BTW there is some Douch over @FILEZERVE By the handle  @quynhnhu139 
+thats tryin to get peepz to sign up and pay for gigabitdownloads to download this. Anyways Thanks a mil peace."
+,cubearth,2011-03-26T19:07Z,"I followed the instructions for uCertify, but it says have have the demo version, anybody have a similar problem, or know a fix?"
+[T],RedHatcc,2011-09-11T15:15Z,"If anyone was wondering the status and legitimacy of this torrent here is the run down. 
+
+
+This IS an actual working LabSim package. You download Daemon Tools Lite which is now free, mount the TestOut Network+ 2009 image which has an autorun.ini. Upon mounting you will see a window pop up about running the software. Once you run it, its a complete LabSim package. 
+
+Unlike the typical LabSim software, this is an iso, so the files within it do not update, so it does not keep track of your progress, which can easily be fixed by opening a text file on your desktop and writing the last module you did in it. 
+
+You can not take the built in test with this LabSim, but rather with this an application included with this torrent in \network+ 2009\vce engine that will allow you to take .vce test, which is similar to those from examcollection's test, which is a brain dump and is actual network+ questions that are on the test. 
+
+To sum it all up, I will be using this torrent. It works perfectly every time. Thank you hack2003 for this rare high quality brilliant torrent. People here should appreciate this. "
+,kernel_deadpixel,2012-03-02T20:53Z,"I have the new LabSim for A+ from my college and I installed Linux+ and Network+ (older versions) that I downloaded from TPB into LabSim through the built-in ""Install/Uninstall"" feature. They installed but won't show up alongside my A+ so I have no way to access them. Does anybody have any ideas/suggestions? "
+,etownbo,2012-03-29T10:52Z,"I still can't figure out how to make this work. There isn't any iso file to mount! When i unpack this thing there are these folders underneath the network + 2009 main folder:
+old
+SETUP
+Software
+Testout
+Ucertify CN10-004
+vce engine
+then there are files underneath like:
+Autorun
+Autorun
+Decrypting_wmv ...... etc...
+
+so now i'm supposed to create a shortcut to as an example: x:softwareTestOutOrbisLegacyLegacyXEng.exe
+and then drug it on to it the file on 
+x:TestOutOutlinesNPlus09CLE.xml
+
+What does this mean??? I don't understand. 
+
+You create the shortcut and when i try to run it i get to where Dizzleusa is at and it says no file was selected to open.
+
+What do i have to do to make this work? Can someone clearly explain how to make this work?"

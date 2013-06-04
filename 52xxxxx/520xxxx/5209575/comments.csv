@@ -1,0 +1,66 @@
+User Type,Username,Date,Text
+,tomcat69,2010-01-03T09:50Z,"hey man thanks for the upload, im a big fan of your encoded movies can i maybe ask for help how to do it thanks.."
+[T],teslaman,2010-01-29T05:54Z,"Thanks tomcat69, sorry it took me so long to get back to you.
+
+And sure, here's the complete writeup of how I do it. ;) The initial setup can be a bit long, but you only have to do it once. :) After that it is just a few clicks per program and done. Or see the other comments near the bottom to shorten the process, but it doesn't use the same method I do. 
+
+You will need 3 free programs, search for:
+VirtualDub (Get Latest Stable Version)
+tsMuxerGUI (Should include tsMuxer)
+Audacity (Get Latest Beta)
+
+For the codecs you will need:
+AC3ACM v1.4 by fccHandler (for ac3 encoding)
+Combined Community Codec Pack (for MKV decoding in VD)
+Divx Pro (or xvid if you prefer) (for video encoding)
+
+Then 1 Plugin for VirtualDub:
+DShowInputDriver-0.5 (For opening MKVs in VD)
+
+FYI The summary end result will be (using Divx):
+Extract MKV in VD, demux ac3 audio in tsMuxerGUI, extract ac3 to WAV in Audacity, Load Uncompressed AVI in VD, add resize filter, set video codec 1st pass, disable audio, save to run later, set video codec 2nd pass, enable audio, add WAV file, set AC3 ACM audio codec, save to run later. Run and wait. ;)
+
+Now if you already encode stuff with xvid you can just substitute those steps you're use to, for the Divx Pro steps. Or just use free Divx with higher bitrates aka bigger filesizes. ;)
+
+Now to set it all up:
+VD and tsMuxerGUI don't require install, just extract them where you like.
+-Extract the DShowInputDriver into the Plugin folder which is inside the VD folder.
+-Opening VD it should say it autoloaded 1 filter at the bottom.
+
+Install Audacity, open it and goto: Edit->Preferences->Libraries
+-If FFmpeg isn't there, click Download and install it.
+-Once done it should show numbers and stuff next to the version.
+-If not, exit the program, re-open and check. (If not then ""Locate"" and go to where you installed FFmpeg for Audacity)
+Go back to Preferences then Import/Export
+-Set ""Use Custom Mix (for example to export a 5.1 multichannel file)"" and click ""OK""
+
+Extract and Install the AC3 ACM encoder per the instructions in the included Read Me file.
+
+Installing Combined Community Codec Pack:
+-I uncheck the Players at the bottom, everything else I leave checked.
+-I check everything on the ""General"" and ""Haali Media Splitter"" page
+-On the settings page after Install I uncheck: DivX, Xvid, Mp3, AC3, DTS
+-Click ""Next"", left side should all read ""No Change"" and click ""Apply""
+
+(You probably already have Divx or xvid, so nothing to do there)
+
+Now onto the actual encoding :)
+
+Open VD and drag-n-drop your MKV on it to open.
+-Or do File->Open select the ""DirectShow input driver"" under ""Files of Type"", browse and open.
+-3 Icons should appear in taskbar, the red ""FFv"" icon and 2 white Haali icons, but as long as it opens, you're good.
+-Select Audio->No audio then File->Save segmented AVI
+-Set MB size limit to Max of 2048 and save in a folder on a drive with at least 160GB of free space (for a 40-45min show). **skip to video encoding if you can't do this step because of the space issue**
+-I uncheck ""Don't run this job now..."" Then Save and let it run with previews off and in Highest priority mode. Leave it on normal though if you have a single core processor otherwise things may get very, very slow.
+
+Once that is done, Minimize and Open tsMuxerGUI:
+-Click ""Add"" and add the MKV file
+-On TV shows you should just have 2 tracks h.264 and AC3, uncheck h.264.
+-On Output, click demux and set to the folder of your choice, I use the same one as the uncompressed video.
+-Click ""Start demuxing"" and exit when it is finished
+
+Open Audacity:
+-Click File->Import->Audio... and open your demuxed AC3 (this is where that FFmpeg comes in and loads the audio)
+-After it loads, Click File->Export and ignore the metadata, Click ""OK""
+-If your file doesn't end in .wav then add it and Click ""Save""
+-The mixing options stay default and should basically read 1 to 1, 2 to 2, etc etc upto 6. Click ""OK"" to save and exit when done. (That page is where the 5.1 setting in Au"

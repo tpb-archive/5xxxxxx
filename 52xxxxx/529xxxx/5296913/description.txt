@@ -1,0 +1,114 @@
+Die Hard (1988) - http://www.imdb.com/title/tt0095016/
+Die Hard 2 (1990) - http://www.imdb.com/title/tt0099423/
+Die Hard: With a Vengeance (1995) - http://www.imdb.com/title/tt0112864/
+Live Free or Die Hard (2007) - http://www.imdb.com/title/tt0337978/
+
+Die.hard.1988.BluRay.1080p.DTS.x264.dxva-EuReKA
+
+E u R e K A
+
+General Info
+IMDB Link:http://www.imdb.com/title/tt0095016/
+Length: 131 minutes
+
+Technical Specs
+Container............: Matroska
+Video Encoder.......: x264
+Video Aspect Ratio..: 2.36:1 (1920x812)
+Audio Codec.........: DTS
+Audio BitRate........: 1536 kbit/sec
+Audio Channels......: 5.1 channels
+Subtitles..............: Dutch, English
+Source................: Blu-Ray
+File Size...............: 13 GB (3x dvd5)
+DXVA compliant......: Yes
+
+
+MeGUI log
+x264 [info]: slice I:2392 Avg QP:17.39 size:127995
+x264 [info]: slice P:137243 Avg QP:19.22 size: 77936
+x264 [info]: slice B:50445 Avg QP:20.74 size: 30443
+
+Used x264 encoder settings
+--level 4.1 --deadzone-inter 10 --deadzone-intra 6 --bframes 8 --b-pyramid --filter -1,-1 --subme 1 --partitions none --vbv-bufsize 30000 --vbv-maxrate 38000 --ratetol 2.0 --me dia --threads auto --thread-input --sar 1:1 --progress --no-dct-decimate --no-psnr --no-ssim
+
+Used Avisynth script
+DirectShowSource("D:tempdie hard.mkv",fps=23.9759856527702,audio=false)
+crop( 0, 134, 0, -134)
+
+
+Die.Hard.2.1990.BluRay.1080p.DTS.x264.dxva-EuReKA
+
+E u R e K A
+-----------
+
+General Info
+------------
+IMDB Link: http://www.imdb.com/title/tt0099423/
+Length: 124 minutes
+
+Technical Specs
+---------------
+Container...........: Matroska
+Video Encoder.......: x264_x86_r839_techouse (FGO patched)
+Video Aspect Ratio..: 2.36:1 (1920x812)
+Audio Codec.........: DTS
+Audio BitRate.......: 1536 kbit/sec
+Audio Channels......: 5.1 channels
+Subtitles...........: Dutch + English
+Source..............: Blu-ray
+File Size...........: 8.7 GB (2x dvd5)
+DXVA compliant......: Yes
+
+
+Extra info:
+-----------
+FGO is an x264 encoder patch to maintain filmgrain. I'm really satisfied with the results. According to the experts of Doom9 the eyes are nowadays really the only way to measure picture quality. Quantizers are not reliable anymore.
+
+
+Die.Hard.3.1995.BluRay.1080p.DTS.x264.dxva-EuReKA
+
+EuReKa
+------
+
+General Info
+------------
+IMDB Link: http://www.imdb.com/title/tt0112864/
+Length: 1h 31mn
+
+Technical Specs
+---------------
+Container...........: Matroska
+Video Encoder.......: x264_x86_r845_techouse (FGO patched)
+Video Aspect Ratio..: 1920x816
+Audio Codec.........: DTS
+Audio Bitrate.......: 1536
+Audio Channels......: 5.1
+Subtitles...........: Dutch,English
+Source..............: Blu-Ray
+File Size...........: 13.0 GiB (3xdvd5)
+DXVA compliant......: Yes
+
+
+Live.Free.or.Die.Hard.2007.BluRay.1080p.DTS.x264.dxva-EuReKA
+
+EuReKa
+------
+
+General Info
+------------
+IMDB Link: http://www.imdb.com/title/tt0337978/
+Length: 1h 30mn
+
+Technical Specs
+---------------
+Container...........: Matroska
+Video Encoder.......: x264_x86_r845_techouse (FGO patched)
+Video Aspect Ratio..: 1920x800
+Audio Codec.........: DTS
+Audio Bitrate.......: 1536
+Audio Channels......: 5.1
+Subtitles...........: Dutch,English
+Source..............: Blu-Ray
+File Size...........: 8.68 GiB (2xdvd5)
+DXVA compliant......: Yes

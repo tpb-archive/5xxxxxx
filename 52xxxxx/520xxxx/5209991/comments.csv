@@ -1,0 +1,175 @@
+User Type,Username,Date,Text
+,chillin69x,2009-12-12T05:18Z,"You are awesome. I cannot express my gratitude. Surely, when I discover some unforeseen metabolic pathway in my later years in academia, I shall entitle it the ""Anonymous Pathway"", after your good soul.
+
+-Cheers!"
+,acollegestudent,2009-12-15T10:17Z,"Anonymous, you're a genius for coming up with that online ebook ripping script.
+
+Could you be so kind and share the script you wrote with us mortals?
+
+This way others could also be able to extract online books.
+
+Also, any chance you could mention more how you that ""fun feature adobe has - built-in OCR""
+possible?
+
+We are all grateful to you.  Please, show us a tutorial or how you did it.
+
+TIA:)"
+,djdjura,2009-12-20T14:36Z,"First of all, thanks for this awesome e-book of that even more awesome book.
+
+I have access to Czech translation (a hudge regular hard-covered book, in 6th edition). Although it's a lot easier to read a scientific text in my native language, on the other hand, the Czech translation is sometimes quite poor. The part about scientific inquiry, summer camps and the broken flashlight is totally messed up, in some other chapter they are confusing carbohydrates with hydrocarbons and so on. I feel I cannot trust that book now. Thanks for the English original again. Good job.
+
+---
+
+The OCR function Anonymous is referencing is IMHO described here: http://www.scanguru.com/e107_plugins/content/content.php?content.76 . You have to have the Adobe Standard version, so free Adobe Reader isn't probably having it. At least mine is not."
+,acollegestudent,2009-12-22T06:49Z,"Thanx djdjura  for the link to scanned Adobe images to searchable text.
+
+Would you happen to know what script Anonymous used to rip the ebook?  Or is it his own personal script not released to the public?
+
+Perhaps, there's a similar script out there, but I all googled out:("
+,djdjura,2009-12-22T22:44Z,"well, I've got nothing on the eBook ripping script.
+
+But, according to http://247xl.custhelp.com/cgi-bin/247xl.cfg/php/enduser/popup_adp.php?p_faqid=7663 it seems that the eBook is viewed in some kind of flash app that downloads the book pages saved on the server as images. And it does it on on-demand basis.
+
+So I guess that Anonymous wrote a sctipt that asks the server for one page after another and saves them. Either the filenames of the pages have some pattern in it, like ascending page number ;-) or the script has to do something to extract the filename (or rather a URL, to be exact) from somewhere... I cannot really imagine how one would hack a flash based site. Never done that :P
+
+I think the second is right. I was after all said that the script is a clever one ;-)
+
+sorry I couldn't be more helpful"
+,whatsdstory,2009-12-23T17:20Z,WOW. Super thanks for the upload and for seeding!
+,efxr,2009-12-26T18:55Z,"@ djdjura
+
+I have access to another book called Microbiology. I've took a look and you're right.
+
+As it turns out, when accessing the ebook version, you're being redirected to a flash website. 
+
+From there, each page gets loaded as a swf file, which you can download and open in your browser. The flash applet that this book is being loaded to also allows you to print that specific page. Pressing the print button opens up the print dialog, which also allows me to save that print to pdf. 
+
+(I'm running Mac OS)
+
+Anyway, since i've got access to a ebook called Microbiology, i have interested in the pdf version.
+
+I'm not handy with command lines or scripts, if anyone is capable of writing a script that does this; print, save as pdf, rename page in a sequence, next page....
+
+I'd be more then happy to merge those pdf's to a single book, and post it here.
+
+I'll have this page here at the PirateBay bookmarked, to see if someone has any interest.
+
+"
+,djdjura,2009-12-27T11:40Z,"@ efxr
+
+I checked what is known about those .swf files, and according to Wikipedia there are two FOSS players for .swf and a bunch of command line tools on http://www.swftools.org/ (in Ubuntu they are in a package with the same name). So if there is a way how to download the sfw's, and if each swf file contains an image of one page of that book, it might be possible to write a script that uses SWFDump and SWFExtract from swftools to extract those images.
+
+When we have images (and it is one image per book page), we can simply build the PDF. There is a lot of command line tools for PDF manipulation, like qpdf, pdftk or pdfsam,...
+
+So, is it possible to somehow download all the swf's? I've 2 ideas how this could be done: Do they for example have predictable URLs, like http://www.s.t/page1.swf, page2.swf, and so on? If so, one can use curl or wget to download them. If there is a HTML page containing links to these sfw's? Then wget supports recursive downloading (download a page, then everything that's linked). 
+
+I guess it can be only done the way I've just described - harnessing the applet that shows the pages, writing a script that pushes buttons in printing dialog and so on isn't IMHO a manageable way of doing this..."
+,efxr,2009-12-28T16:08Z,"@djdjura
+
+Holy fuck, i've hit the Jackpot!
+
+I've edited a link and how i'm in their server, looking at all the .swf files and more!
+
+What i need right now is an script that i can run to download the content of ever link on that website.
+
+Is there anything like that?
+If so, where can I find it?"
+,efxr,2009-12-28T16:52Z,"Nevermind, i'm using SiteSucker to batch download all those files.
+
+All i need now is some sort of decrypter for those swf files."
+,djdjura,2009-12-28T18:58Z,"@exfr
+
+That's very promising, good job exft!
+
+As I wrote before, there are two free players for SWFs and command line SWFtools
+
+I checked those open source players (gnash or swfdec). It looks like gnash cannot output into an image. Hopefully, there is swfdec-thumbnailer, which can produce a thumbnail in PNG of a given size, so this may possibly work for converting SWFs to PNGs... 
+
+Or the image could be extracted using SWFDump and SWFExtract from SWFtools. One of these must work :P
+
+Could you upload two or three SWFs you've downloaded on some filesite to give me a chance to play with this?"
+,djdjura,2009-12-28T19:34Z,"I think I got it! Just SWFextract alone is suffinient for getting all images from a swf. Running it like
+
+swfextract flash.swf outputs list of stuff SWF contains, for example:
+Objects in file flash.swf:
+ [-i] 80 Shapes: ID(s) 1, 3, 5, 7, 9, 11, 13, 15, 17, 20, 22, 24, 26, 30, 32, 34, 36, 38, 40, 42, 44, 47, 49, 51, 54, 56, 58, 61, 63, 65, 69, 71, 73, 76, 78, 80, 82, 86, 88, 90, 93, 95, 99, 100, 103, 105, 108, 112-115, 117-120, 122, 125, 127, 132, 135, 137, 145, 147, 149, 151, 159, 166, 168, 172, 279, 281, 282, 286, 287, 291, 292, 296-298, 65002
+ [-i] 139 MovieClips: ID(s) 2, 4, 6, 8, 10, 12, 14, 16, 18, 19, 21, 23, 25, 27-29, 31, 33, 35, 37, 39, 41, 43, 45, 46, 48, 50, 52, 53, 55, 57, 59, 60, 62, 64, 66-68, 70, 72, 74, 75, 77, 79, 81, 83-85, 87, 89, 91, 92, 94, 96-98, 101, 102, 104, 106, 107, 109-111, 116, 121, 123, 124, 126, 128-131, 133, 134, 136, 177-210, 138-142, 146, 148, 150, 152, 153, 155, 156, 158, 160, 161, 163, 164, 167, 170, 171, 173-176, 283, 288, 293, 299, 65001
+ [-j] 4 JPEGs: ID(s) 278, 284, 289, 294
+ [-p] 1 PNG: ID(s) 165
+ [-F] 3 Fonts: ID(s) 143, 276, 277
+ [-f] 1 Frame: ID(s) 0
+
+and these stuff can be mined out using something like swfextract -j 278 flash.swf for the first JPEG contained. I guess all the book SWFs will have the same internal structure, so running swfextract in a loop for all files with the same image id will do it. (the resulting output.png/jpg must be of course renamed)
+
+There is possibly some software for Mac named like SWF decomposer or SWF decoder or so... Something lik SWFtools for mac could be at http://swftools.darwinports.com/ you can try that...
+
+Upload few actual SWFs from the book somewhere please, so I can try this on a real data"
+,efxr,2009-12-28T20:50Z,"Eh. So i've downloaded the files from the server with SiteSucker.
+
+As it turns out, the pages that the flash applet showed me are somehow layered.
+
+Like, there is a:
+1. page layer, that displays the page with specific color.
+2. image page, that adds the images
+3. the actual text layer, which is just .txt (thus being searchable by the flash applet).
+
+The online eBook reader applet simply layers these files onto each other.
+Now, since these different file types are separated into 3 different folders, but the files that correspond to one page are named the same, reformatting the page 'should be easy'. But this requires the known page layout, which for each page is different.
+
+Again, within the applet itself, there's a print button that prints the page with all layers stacked to display a perfect page. Only with Mac OS there's an 'save print to pdf' option built in, that prints saves these prints to pdf.
+
+The 'save print to pdf' is therefor, in my opinion the simplest to execute, but also the most time consuming, since the formatting already is fixed along with images, etc.
+
+But if there's a script that enables 'auto formatting' or whatever, that would make things more easy.
+
+
+ Since coding isn't my specialty, i'll post the resources for skilled hacker or whatever to do his/her thing."
+,efxr,2009-12-28T21:19Z,"And so I did.
+
+http://thepiratebay.org/torrent/5247273"
+,bourv1l,2010-02-07T09:57Z,"First many thanks for the whole book! It had to take a lot of work to manage to get this nice stuff. 
+I would ask you if you have original flash files for this book as it was originaly in other torrent with Microbiology (Tortora) and in this form it is also available in the net version of this e-book. Your version is much better than nothing but from flash is possible to make vector version of the pages with text as in usual pdf.
+So if you have the original files and if you would be so kind and upload it I will owe you so much!
+
+With thank (big one!) bourv1l"
+,Igorek247,2010-02-19T05:22Z,"=) I only made account here to thank you for this great upload!!!! You have no idea how much it helped me, and im sure lots of other ppl. THANK YOU!!!!!"
+,crazysoccerman14,2010-05-03T09:58Z,"FLAWLESS VICTORY
+
+
+EDUCATE THE MASSES!"
+,bt456,2010-09-06T05:19Z,Good Work man jolly good work. 
+,indiaman,2010-09-29T10:30Z,Thankyou for this excellent book with its brilliant colour illustrations.Simply great.
+,ShadowBlast,2010-10-17T10:58Z,"guys this is just amazing...nice work!!
+can you guys please find a way to extract Genetics: A Molecular Approach, 3/E 
+here is the link
+http://instructors.coursesmart.com/9780321697547/2#X2ludGVybmFsX1BGUmVhZGVyP3htbGlkPTk3ODAzMjE2OTc1NDcvMQ=="
+,susieq1975,2010-12-20T03:17Z,"Thanks for this download it helped out tremendously.  Anonymous are you able to the following books 
+fundametnals of Anatomy and Physiology, 8th Edition by Martini.
+Biostatistics for the Biological and Health Studies. by Triola. 
+or does anyone else  know where I can find these two books. "
+,Roy.5432,2011-01-12T17:11Z,"Heyy I'm really a noob when it comes to scripting and all that shit. Can someone PLEASEEE create a PDF version of this to simplify life?
+Thank youu!!"
+,Jrexxx,2011-05-04T09:38Z,Any chances of finding the French version? :/ It would be really great!
+,Gator420,2011-05-14T06:50Z,"Hey guys I'm huge fan of your work, I just downloaded Biological Science by Scott Freeman off of the Pearson website(which I will be uploading in due time), however I've hit a brick wall trying to download ebooks from Pearson's mymathlab. I just began a pre-calculus course and want to grab this book. I used apple OSX's automator with the ""watch me do"" function; click print print to CUPS pdf, click next, repeat, to download the last book. However that does not seem to work on the mymathlab SWF player. Please help, I have access to many Pearson books through mymathlab and I intend on sharing them with the community."
+,technoob,2011-06-06T17:19Z,"Can someone please SEED this, can't seem to download it."
+,mxyzptik,2011-06-27T01:04Z,"Superb!  Many Thanks!
+
+No problem downloading the pdf to my Mac ... but can't get onto iPad (via Calibre).
+
+Anyone got it to their iPad?"
+,TommyCoke,2011-07-22T16:57Z,Thank you so much! :)
+,anthonyp1010,2011-09-13T19:35Z,"hey thanks alott man you have no idea how much im grateful you already did alot for me but i do have a couple more books if you could get
+Biological Science (4th edition, 2010) by Scott Freeman; Pearson Benjamin Cummings, San
+Francisco, CA.
+
+Reilly, Kevin, ed.  Worlds of History:  A Comparative Reader.  Vol. II:  Since 1400.  4th 
+edition.  (Bedford/St. Martinâs, 2010).  ISBN-10: 0-312-54988-1. (Not Volume I, not the 3rd edition.) 
+ thank you so much"
+,djmopa,2011-09-14T06:05Z,"I just downloaded this copy and it a great scan, probably about a 8/10.
+
+However, someone else did upload it too and they have one that is more of a 9/10.
+
+http://thepiratebay.org/torrent/6314146/Biology_8E_2009_Neil_A._Campbell__Jane_B._Reece_PDF"
+,rotiv94,2011-10-03T15:23Z,THANK YOU
+,rotiv94,2011-10-03T23:55Z,"Could you please try to upload ""Understanding Physics for Advanced Level""- Jim Breithaupt and ""A-level chemistry"" by E. N. Ramsden.?? I REALLY really need these books."
+,Kaje13,2011-12-14T04:25Z,thank you so much for this. very much appreciated

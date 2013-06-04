@@ -1,0 +1,27 @@
+Can't manage to download a server? Here is your chance.
+
+This installfile will download the whole server for you, from Steam. After the server is download, you need to follow this guide to get your server started.
+
+1. Create a shortcut of scrds
+2. Take properties. 
+3. Find path and write the following after the current line:
+
+-console-game cstrike + map de_dust2 + maxplayers 12-port 27015-tick rate 33 
+
+4. Save and close.
+
+You must now start with the new shortcut.
+
+The server will use about 500mb of your harddrive and it's a standalone version, which means you won't need Steam to run it.
+
+If you have any questions please ask.
+
+Here is a guide if you need help installing with the installfile.
+ 
+http://c-sserver.com/english/standaloneinstallfil.shtml
+
+there is one in swedish as well, just change the /english/ to /swedish/
+
+You may share your server IP's as well if you like.
+
+Good luck!

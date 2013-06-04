@@ -1,0 +1,15 @@
+EmpireEFI4AMD - Create Mac OS X 10.6 real and virtual machines with AMD cpus
+
+I was looking for a recent Mac OS X vmware image that I could use on my AMD box as an OS X tutorial when I came across this :- 
+ 
+http://www.vo2ov.com/Vmware-Mac-OS-X-Snow-Leopard-x65-AMD-10-6-6_426624.html
+
+It took a while to download the 78 parts, but once I extracted it and set it up in WorkStation 7 (reducing the cpu cores from 4 to 2 - it looks like it was created on a quad core Phenom) it booted as OS X 10.6.0. To my surprise it even updated to 10.6.2 using Apple Software Updater (OS X 10.6.2 Combo Update). Apparently, what makes all this possible is EmpireEFI4AMD.iso, which I'd never heard of. 
+
+More information about Empire EFI can be found here :- 
+ 
+http://prasys.co.cc/2009/10/empire-efi/
+
+EmpireEFI4AMD makes it possible to install OS X on a physical or virtual AMD machine using an unaltered off-the-shelf OS X retail disk!
+
+Note:- EmpireEFI4AMD.iso has to stay in the CD drive for all this to work. You'll have to add another CD drive if you want to mount another disk.

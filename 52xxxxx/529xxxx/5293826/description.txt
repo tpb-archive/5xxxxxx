@@ -1,0 +1,8 @@
+here is a fullscreen fix if u need it some people dont got problems with it and some does, me to i have windows7 and checked my installfolder of darkvoid and was sniffing in the config files and found the file where u can change it to fullscreen in :), paste this file to Capcom/Darkvoid/Nativepc/Skygame/config 
+and replace the file.
+
+if u dont trust this u can edit the file manually to, open Defaultengine.ini and search (ctrl+f) Fullscreen
+u see Fullscreen=False  change this to Fullscreen=True and save it,
+if u cant save it save it to an other map and copy/paste it again in the config map and replace it.
+
+sry for my bad english xD, hope i can help some people with this :)

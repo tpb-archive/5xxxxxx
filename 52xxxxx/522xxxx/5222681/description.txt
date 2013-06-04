@@ -1,0 +1,42 @@
+cfosspeed 5.0 build 1560 with keys.
+
+==================
+
+Working 100%. Please see the instructions contained in the directory "blacklisted2"
+
+==================
+
+///////////////////////
+P O L I S H   I N F O :
+///////////////////////
+
+cFosSpeed to aplikacja przeznaczona do przyspieszania korzystania z internetu za pomocÄ… funkcji zarzÄ…dzania ruchem. W przypadku normalnego transferu danych odbiÃ³r pakietÃ³w musi zostaÄ‡ potwierdzony (pakiety kontrolne) zanim kolejne pakiety zostanÄ… przesÅ‚ane, bez ZarzÄ…dzania Ruchem pakiety kontrolne sÄ… spowalniane przez ciÄ…gÅ‚e wysyÅ‚anie danych i w rezultacie pobieranie danych jest rÃ³wnieÅ¼ spowalniane. ZarzÄ…dzanie Ruchem za pomocÄ… aplikacji cFos polega na tym, Å¼e pakiety kontrolne majÄ… pierwszeÅ„stwo podczas wysyÅ‚ania danych, pozwalajÄ…c osiÄ…gnÄ…Ä‡ peÅ‚nÄ… prÄ™dkoÅ›Ä‡ podczas pobierania. Poza nadawaniem priorytetu pakietom kontrolnym, ZarzÄ…dzanie Ruchem umoÅ¼liwia rÃ³wnieÅ¼ na optymalizacjÄ™ TCP/IP acknowledgements, utrzymanie niskich czasÃ³w ping, nadawanie wyÅ¼szego priorytetu indywidualnym programom, polepszanie jakoÅ›Ä‡ rozmÃ³w VoIP i nadawanie priorytetÃ³w innym protokoÅ‚om.
+
+=======================
+
+Wymagania:
+Windows XP, Windows Vista, Windows 7.
+
+Screen:
+http://zapodaj.net/images/1f32c0363070.jpg
+
+=======================
+Uwaga!
+
+1. Zainstaluj program.
+2. Dodaj do pliku hosts (windows>system32>drivers>etc) 2 linijki:
+
+127.0.0.1 www.cfos.de
+127.0.0.1 cfos.de
+
+3. Zainstaluj WWebServer.
+4. UtwÃ³rz w folderze gdzie zainstalowaÅ‚eÅ› WWebServer plik blacklist.txt o treÅ›ci [banned].
+5. Uruchom WWebServer i kliknij start.
+6. Aktywuj program cfosspeed.
+7. UsuÅ„ z pliku hosts linijki ktÃ³re dodaÅ‚eÅ›.
+8. Odinstaluj program WWebServer.
+9. Enjoy. DbR. 
+
+==================
+
+enjoy. DbR

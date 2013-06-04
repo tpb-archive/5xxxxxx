@@ -1,0 +1,88 @@
+User Type,Username,Date,Text
+,jaycor77,2009-12-21T03:43Z,"Awesome! Thank you so much.
+
+Works perfectly (MBP 3,1 Intel 2.2 GHz 2G RAM, NVIDIA GeForce 8600M GT, OSX 10.6.2)"
+,fresch3000,2009-12-21T09:55Z,"Youre very welcome :)
+Hope you like it!"
+,BoxMac,2009-12-22T14:45Z,"Yeah, thanks for this, man!  8^ ]"
+,fresch3000,2009-12-22T17:20Z,"You are welcome BoxMac. :)
+I worked hard on making this, so im very thankful for your posts.
+"
+,fresch3000,2009-12-22T17:54Z,"Would one of you try to download my other game in here?
+
+http://thepiratebay.org/torrent/5233662/Daikatana_for_Mac_-_Widescreen_Edition__(Reseed)
+
+People think that i am screwing with them, since i reuploaded it cause to a bad torrent file.
+I just need confirmation, that it works.
+I am seeding full speed.
+
+Thanks :)"
+,jaycor77,2009-12-23T04:17Z,"Spoke too soon!  Ran great on first run only. Second+ runs, the resolution does not match what I entered in the package contents, and the mouse control is all over the place (does not respond to trackpad or mouse). Suggestions?"
+,fresch3000,2009-12-23T15:01Z,"if you change anything in the options menu, it messes up the resolution you entered.
+
+Have you tried to look at the .cfg file again, to see if it has changed?
+
+Look for 
+
+seta r_customwidth ""1920""
+seta r_customheight ""1200"""
+,jaycor77,2009-12-24T04:24Z,"First thing I tried. I set the .cfg width & height to 1440x900 (the max resolution on my MBP). On first run, worked perfectly - each run after, it looks like the game is defaulting to its own max resolution (I think 1600x1200) rather than my parameters (which have not changed in the .cfg). This means I can only see ~75% of the screen. Changing the resolution in-game makes things much worse -- the mouse control gets, for lack of a better word, effed up (cursor ""sticks"" to one of the edges and it takes a lot of coaxing to get it to move). Are there pref files that can be deleted? If so, will that delete game progress? (Haven't tried deleting and reinstalling bec. don't want to lose progress)"
+,fresch3000,2009-12-25T01:29Z,"Hmm.. 
+Thats sounds very wierd.
+I have to check it out when i get back home.
+
+Have you tried changing the PrefsFolderName, in the info.plist, to something else? Like ""EliteForce2new""?
+
+(you can always change it back, or backup your saves).
+
+I hope it works :)"
+,fresch3000,2009-12-25T01:30Z,"by second thought, i actually think the game makes its own CFG file, based off your Mac username.
+
+have you checked the base folder for a CFG file with your username?
+
+If the game indeed creates a new CFG based on your Mac name, you have to change that file, instead of frederikschreiber.cfg :)"
+,jaycor77,2009-12-25T04:28Z,"Success! Explored the package contents, noted that the save games are stored separate from the user .cfg files, so I trashed my .cfg (assuming it would work bec. it worked on first run w/o that .cfg) and it ran perfectly (and spawns a new .cfg file). Just had to re-map the keyboard, etc. but no big deal. Thanks again for all the great work!
+
+BTW: the new .cfg had my correct resolution automatically entered. Did not have to use the method described above. Go figure."
+,fresch3000,2009-12-25T20:20Z,"Im glad it worked :)
+Have great fun with the game :)"
+,fresch3000,2009-12-26T12:02Z,"Hi Pooks. Open Info.plist in the game package under contents. Change the Line under PrefsFolder, to EF2new, and the game should work fine :)
+
+I hope that helps :)"
+,bakachin,2010-01-01T02:17Z,"excellent! 
+thanks alot keep up the good work."
+,sox-xos,2010-01-03T16:36Z,"Just got this, 'tutorial' works fine and I can play the holomatch, but it keeps crashing when I try to play the first sp level (On the Borg Sphere). The prologue dialog scrolls, then the level starts to load, only to crash on ""Loading Media"". Um..help?
+
+White Macbook; OSX 10.6.2; 2.1 GHz Intel Core 2 Duo; 1Gb RAM; Intel GMA X3100 GPU
+
+Thanks in advance..."
+,sox-xos,2010-01-03T20:34Z,"I've given it some thought, checked forums on the windows version and I think I may have found my problem - my 'pak32.pk3' is corrupt. If I rename it to pk32.zip and extract it, I am informed by OSX that extraction is 'not permitted'; the other pk3s unpack nicely.
+
+Would it be asking too much to request someone put a copy of their 'pak32.pk3' online send me a link to download? It would save the hassle of re-downloading the entire torrent (as mine evidently got corrupted somewhere)
+
+Please..? Thanks..."
+,sox-xos,2010-01-04T00:55Z,"*laughs frustratedly*
+
+On closer inspection pak20 and pak15 are corrupt as well... so disregard my last request... I'll simply re-download the torrent... it'll be easier...
+
+...unless someone really, really wants to send me the above mentioned paks... in which case tell me because I've narrowed it down further to the actual folders within the paks... so we could minimize file size...
+
+...of course this means that it is possible that there are some seeders with corrupt data... I know I was seeding as I was downloading so may have passed corrupt data on... just a warning...
+
+...looks good otherwise though..."
+,2515129,2010-01-14T17:13Z,"Well, that sucked. I just spent two days downloading this thing only to find that it's INTEL ONLY, and that's not what I have.
+
+Into the trash with it."
+,carlo.magno16,2010-02-13T00:09Z,thank a whole lot. Good work!
+,godfunk,2010-04-05T21:00Z,testing
+,godfunk,2010-04-05T21:05Z," thank you for the torrent, and I'm pretty much enjoying the game, but now I'm savagely stuck and I think it might be due to a bug.
+
+In the second part of Mission 6, there's a part where you have to disarm three sabotage devices on the hull of the Enterprise. Already hard as frack, but it became impossible because I don't come back down after I jump. I just float indefinitely above the action until the timer runs out and I'm screwed...
+"
+,godfunk,2010-04-05T21:09Z,"If this can't be fixed, can somebody at least tell me how to set the cheats for the Mac?"
+,grubbs111,2010-06-12T06:45Z,pls seeed! :)
+,grubbs111,2010-06-14T04:47Z,0.5kb/sec!!!!! :O :( please seed!!!
+,stresspill,2011-07-06T01:29Z,"doesn't work with tiger? FFFFFFUUUU-
+
+will keep seeding for a bit anyway"
+,PCJ17,2012-07-11T18:01Z,please seed this torrent i want to try it out.  cant play the windows version. because i have no windows computer. please seed this torrent i want to try it out.

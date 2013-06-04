@@ -1,0 +1,1379 @@
+User Type,Username,Date,Text
+,PROTOCOLX,2009-12-08T14:17Z,"Hazard if you have any additional info for the torrent leave a message at www.muzzle.nl 
+
+I can copy paste the info in the description... 
+
+Greetzzz.... ProtocolX"
+,yadayadaya,2009-12-08T17:31Z,I hope you are coming back to seed :(  Doubt anyone got the whole thing with it being up under 6 hours.
+,PROTOCOLX,2009-12-08T19:31Z,"I DON'T have the files to share...! So I'm uploading what I downloaded so far... That's 250MB for now... 
+
+I only announced the torrent for Hazard cause he didn't have a Piratebay account (it's easy to create one though..)
+
+So we all are waiting for the first one that can share the whole image.. "
+,yadayadaya,2009-12-08T23:07Z,I see that from search around on the net...so that said...this would be much much easier if he would dump it to usenet or an ftp site.  I can pull it from usenet and see it then.
+,PROTOCOLX,2009-12-08T23:27Z,"Yup... I don't get it also.. But at last the image is downloading... We waited long for this image... And the only link we had was a bunch of part files that can't be downloaded as a free user... 
+So that sucked!
+
+So we asked Hazard to make at least a torrent file that's accessible for everyone... If you're in a hurry...  this first week is gonna very bad for your're health...  "
+,yadayadaya,2009-12-09T01:28Z,"Nah, not in a hurry...just would hate to wait for an image that won't work on my new laptop, or should I say another that won't work."
+,MWhite,2009-12-09T11:14Z,Pleas seed. I will seed it at least 1:3. And please post user experiences.
+,PROTOCOLX,2009-12-09T14:46Z,"I'm stuck at 425MB... And I'm not downloading any bytes now... Uploading neither cause everybody seems to stuck at 425MB...
+
+I hope Hazard and Friends will upload the rest very soon! "
+,TryGlide,2009-12-09T16:24Z,"Unter diesem Link
+http://isohunt.com/torrent_details/144610105/leopard?tab=summary
+gibt es eine zu 38,6 % fertige Version
+
+Under this link
+http://isohunt.com/torrent_details/144610105/leopard?tab=summary
+there is a 38.6% finished version"
+,yadayadaya,2009-12-10T13:19Z,"maq...speeed apparently you cannot read.  The reason for the slowness is stated here...it's because no one that actually has the complete files is seeding, rather they are downloading it FROM the person who has the complete files and seeding at the same time.  The torrent was uploaded prior to all this, which is a bad idea I know, but still explained here, so your incessant complaining is pointless."
+,PROTOCOLX,2009-12-10T15:32Z,From now on there are 4 seeders who have the complete image... Hazard has brought them the files to upload... So we'll just have to wait till the rest of the files are coming to us.. :)
+,HazardX,2009-12-11T16:43Z,"Image is uploaded from my friend I will keep seeding coz I need to upload 660 mb.
+Download, unpack, burn, install, enjoy."
+,chucklebutte12345,2009-12-12T11:00Z,99.36% FOOOOOOOOOOOOOOOOOOOOK! Spray your seeds on me baby! Please! Anyone?
+,chucklebutte12345,2009-12-12T11:02Z,Password.... wtf?????
+,HazardX,2009-12-12T12:09Z,I did not put password on the image. Try to extract it with winrar or betterzip.
+,chucklebutte12345,2009-12-12T13:01Z,"My bad with the password it was @99.97% I thought it was finished (It said finished...) extracted and asked for password, I reset my client it finished then bam! extracted with no probs! Seeding and thx hope this one works on my vaio!!!"
+,HazardX,2009-12-12T17:46Z,Default boot option is 64-bit and if you want to boot in 32-bit in chameleon write this  -v arch=i386
+,slimdizzy,2009-12-12T21:31Z,"@maq...speed - On boot try typing this at the Chameleon boot loader:  -v -x -x32 arch=i386
+
+If it doesnt boot with that then your system probably is not compatible.  You should see where it fails by using the -v option and then google that.  Most likely a graphics or ide/sata issue."
+,HazardX,2009-12-12T22:00Z,"Guys on http://leohazard.com/Forum/index.php will be DVD patch with different  Extensions.mkext for users who can not boot on Intel.
+Wait 2-3 hours and search on site under News topic. I will try to fix for AMD users to, but give me some time, Need testers for AMD.
+Thanks in advance Hazard."
+,aviemet,2009-12-12T22:28Z,"Thank you for this! 
+Could you post an md5 of the image? Not sure if the burn or the download were corrupted, didn't pass consistency check."
+,HazardX,2009-12-12T23:58Z,MD5  8df10e97e27bd38bc7fd96d97cb7a917
+,HazardX,2009-12-13T00:27Z,For pople who can not boot please visit this page   http://www.leohazard.com/Forum/viewtopic.php?f=18&t=10&p=19#p19
+,mschilling,2009-12-13T01:20Z,How do we patch the iso with file? It downloaded without an extension. Do I need to unpack it first? Then use a utility?
+,johnscare,2009-12-13T01:22Z,"do I still use PPF-O-Matic to patch the iso, because i see that the patch is not a ppf file??"
+,HazardX,2009-12-13T01:31Z,"If you are on Windows use PPF-O-Matic  and if you are on Mac use PPF-O-Matic for Mac or use PPFMaster. If you  asking me and you are on Mac  use PPFMaster coz I made PPF file with it.
+Patch burn install enjoy."
+,johnscare,2009-12-13T05:59Z,i applied the patch and boot with -v -x -x32 arch=i386 and it still restarts after the boot prompt so i could not see any error. im running a p4 with sse2
+,thenewmexican,2009-12-13T06:14Z,"I downloaded this rar. Extracted the iso using unrar x
+. The extracted iso only contained the following files
+
+BOOT
+BOOT.CAT
+BOOT0
+BOOT1H
+BOOT1U
+BOOTHELP.TXT
+CDBOOT
+CHAIN0
+
+Where is the rest of it.
+I tried booting. At boot I get the Boot.plist not found.
+And. Nothing.
+
+What am I doing wrong.
+
+Thanks."
+,Jobauma,2009-12-13T07:32Z,"I get ""com.apple.boot.plist not found"". Looks like it needs the JMicron IDE DVD Drive Fix for the installer to boot, but I have not been able to use the iAtkos, Kalyway, etc. fix to patch this release. I hope the new PPF will include this fix."
+,charliepan,2009-12-13T08:34Z,Thank you so much!! 1st Snow package to work perfectly on my HP dv9700. Everything works now!!
+,HazardX,2009-12-13T12:10Z,"charliepan as i can see you install it with new patch i made, and now it's working good. Post answer on my site please step by step that other people can see how did you do it.
+Thank you in advance Hazard."
+,unchi,2009-12-13T16:53Z,Hello. I have Gigabyte's GA-MA69G-S3H and this did not work. I patched the ISO with the PFF file. But no luck. I hope HazardX will figure it out. ^ ^ Thank you for your great work. 
+,HazardX,2009-12-13T19:54Z,You have ATI SB600 chipset. Wait a little coz I need to make Extensions.mkext for users with SB chipset. 
+,unchi,2009-12-13T19:57Z,"Hello, HazardX. Thank you for replying. Really nice work! Cheer you up ^ ^ P.S : Yes it is SB600. Much appreciated."
+,HazardX,2009-12-14T02:46Z,"New and final DVD Updates (patches) are out with Chameleon RC4, Bootx86 booting in 32bit mode,IOATAFamily SATA Fix repacked, new extensions.mkext (still experimental) with SB chipset support, replaced kernel and replaced  bless. 
+Look under news for details."
+,charliepan,2009-12-14T04:28Z,"Thanks again Hazard. I joined the forum and left a comment, I will copy it here to try to help others out...
+Hi. Thanks for this distro! I was very successful after a few attempts. The ONLY installation that has worked 100% on my HP dv9700. Video, battery, sleep... everything!
+Specs..
+Core 2 duo T7500 2.2 ghz
+4 gb DDR2 800mhz Ram
+Nvidia 8600m gs
+Intel ICH8M sata
+Realtek high def audio
+Broadcom wireless (patched bios to replace Intel adapter)
+I chose both updates 10.6.1 and 10.6.2, the Chameleon with PCEFI 10.3, NVInject, the Elliot RTC choice, NO sound or network. only additional system kext was smbios. I did not patch my DVD.
+Hope this helps!
+
+"
+,charliepan,2009-12-14T04:40Z,"Sorry, forgot to include the AHCIBattery, VoodooBattery, and Voodoo PS/2"
+,HazardX,2009-12-14T17:11Z,New SB chipset support add to Extensions.mkext. Go to Site and download new 2nd PPF file. Apply to DVD and try. Set bios ide or native mod.
+,unchi,2009-12-15T08:53Z,I patched 2nd PPF to the DVD ISO and tried to boot it by AHCI and NATIVE IDE but it did not boot to the SL screen. I did every thing but I could not get it to work. Thanks anyway. I quit this way and get core i7 based PC with nvidia fermi. (^ ^)/
+,jzzzzz,2009-12-15T14:58Z,"hey hazardX, i just hav one question for now,
+can i have both windows 7 and mac os x on the same pc. by the way, nice uploading a 3 gig file. had trouble downloading the other 6 gig shit!"
+,sandy40d,2009-12-15T17:14Z,"unable to boot
+Just restart restart restart restart restart restart & restart
+asus p5q-Em
+intel q6600 cc 2.4
+3gb ddr2
+nvidia 9400gt ????"
+,unchi,2009-12-15T19:51Z,"Finally, it works! I chosen these
+
+Mac OS X 10.6.2 Update
+Legacy Kernel 10.2.0 Intel AMD
+Chameleon RC3 PCEFI 10.5
+NVEnabler
+Voodoo 0.2.52 new
+IOATAFamily Fix
+AMD patch
+CMOS legacy fix
+
+for Gigabyte's GA-MA69G-S3H
+MEM : 3GB
+V/C : GF9800GTX
+H.D.D : SATA2 1TB
+
+Thank you very much for your great work, HazardX!! 
+
+It is really smoothly perfectly running now! 10.5.8 was not perfect on my PC but this 10.6.2 is awsome! Not buggy, very stable, just WOW lol."
+,joew22mpls,2009-12-17T07:04Z,"Will someone please provide help here or recommend the best place to go to ask this question?  I would like to build media center hackintosh machine THE EASIEST POSSIBLE WITH THE LEAST BUGS with i7, optical 7.1 capable out, DVI or HDMI out and be brawny enough to play the most demanding 1080p mkv with ease WHILE (and of course) downloading multiple torrents.  The case doesn't matter as it is in a closet, but I would love to be able to throw a few drives in there. My 2.66 MB Pro 17 does this REASONABLY, so I am guessing I don't need much more, but I do want to future proof a bit.  I have read about the Empire EFI (which sounds like it makes installation easy)."
+,patrick1995,2009-12-22T15:01Z,DOwnload very slow...
+,sarvasu,2009-12-23T05:56Z,"Dear Hazard,
+The install was a breeze. Thanks a ton. The issue is I have a Win 7 install on one partition. Had Leopard on another (logical part) and installed SL on another partition (same drive logical). Before install of SL using EasyBCD 1.7.2 i could boot into Win 7 and Leopard. But after the SL install I have two issues : Cannot see the Snow Leopard or Leopard install even when booting using DVD with F8. I cannot boot into the existing Leopard. I get the message Loading Darwin/x86 and it just stops here. It seems its the booting config that need to be in place. Can someone advise.
+
+I have a Core 2 Duo / 1 GB Ram / 120 HDD / Intel 945 Express Chip Set /  Intel Display Adapter / Intel 82801 GBM/GHM (ICH7-M Family) Serial ATA Storage Controller.
+
+Can anyone help. Thanks"
+,mohsenmehrvarz,2009-12-23T07:20Z,"What's heppening here, my download stopped at 62.63%. Is there any other way to get it?"
+,Havalit0,2009-12-24T01:57Z,"Come on guys, seed on this please :)"
+,kovaxo,2009-12-24T20:23Z,"first at all , thank you hazard for this great work
+i have same spec as you have except the OCZ Ram. anyway
+after downloading this copy and burn it by nero 
+on windows xp
+i found this files only !!!
+BOOT
+BOOT.CAT
+BOOT0
+BOOT1H
+BOOT1U
+BOOTHELP.TXT
+CDBOOT
+CHAIN0
+
+i didnt try to boot it but i just wonder is that normal ?
+and plz tell exactly how did u install it on your spec
+thanks you advance"
+,kovaxo,2009-12-24T20:28Z,bytheway i have ide dvd 
+,HazardX,2009-12-24T23:00Z,"Just select 10.6.2 update, Chameleon RC3 with 10.5 efi, ElliotForceLegacyRTC, Roseta and NVEnabler. Working 100%."
+,prototype6512,2009-12-25T00:14Z,"Hi there, does this distro support an AMD Athlon II X3 processor? I have one; my motherboard being an AMD 785 GX chipset but i can't seem to boot even with arch=i386 and cpus=1 on the boot menu. It just keeps on restarting. I tried applying the patches on the site you indicated but still the same. :("
+,kovaxo,2009-12-25T02:31Z,"Thank you hazard for you reply ,, after boot 
+and -v
+i got problem saying still waiting for root device
+any help ?!"
+,kovaxo,2009-12-25T03:24Z,"hey hazard , sorry for bothering you
+i fixed the problem still wating for root device
+now i have other problem :S
+NFS_Boot_init failded with...... bla bla
+any help plz ?!!"
+,cropsX,2009-12-26T01:12Z,"Hi Hazard, I want to integrate the ripped content from an original Snow Leopard Retail DVD into this distro. I subscribed to your forum and created the same question at http://www.leohazard.com/Forum/viewtopic.php?f=6&t=143&start=0 anywhere you could answer. Thanx
+
+------------------------------
+
+So, first, if I do that, the installer will install everything or does it know that the ripped content should not be installed?
+
+Then, what torrent or download should I use to get the right Snow Leopard Retail DVD?
+
+Finally, what was ripped? Those are 3GB of files!
+
+Thanx so much!!!"
+,happyguru,2009-12-26T05:21Z,"i have intel dual core procesor e5300
+nvidia 9400
+win7 64 bit
+i dowloaded the torrent n burn into dvd. after i boot from dvd the white apple logo comes and my computer restart. i tired by downloading the dvd patch mentioned here in comments. same thing happens. guys can anyone help me what i need to different or wat i am missing "
+,happyguru,2009-12-26T05:27Z,my email is bij_jk@hotmail.com
+,BroderickG,2009-12-26T06:58Z,"Running a Compaq Pressario CQ-60 with AMD.
+
+I boot from the dvd, but right as it boots my computer reboots.
+
+What am I doing wrong?"
+,happyguru,2009-12-26T07:29Z,"hazardx i read your whole forum http://leohazard.com/Forum/viewtopic.php?f=6&t=15&start=20
+you said there that i need
+
+10.6.2 update
+Chameleon 10.5 or 10.3
+NVEnabler
+ElliottForceLegacyRTC for cmos reset
+Roseta
+
+i am regualy user not the advanced one. i tried that normal way burn the image to dvd and try to boot from the dvd. but it happens is the apple logo comes n the computer reboots.
+
+i have no idea what to n where to select the list give above. all i want to do is install mac on pc. i have give my comp spec in previous comment n my email too. step by step instruction would really appericated. thankx"
+,happyguru,2009-12-26T10:37Z,i got everything figured out. i got it installed but new problem is i cant load it after it is installed. nothing happens it takes me back to the window 7. how can open the installed mac?
+,mekka07,2009-12-28T01:46Z,"hi this is to hazard and charliepan,
+
+i have a hp dv9700 and i have tried installing this version of sl on it but near the end of the installation it stops and tells me """"the installer could not validate the contents of the ""dvdplayer"" package"""" what am i doing wrong? i tried installing without the patch then making a cd with patch ""3rd Old DVD Update to Final"".  and to charliepan i did not understand the part that says ""Broadcom wireless (patched bios to replace Intel adapter), i did not patch my dvd"" what was meaning or what was  i supposed to do here? sorry im new at this. thanks much for the help"
+,jzzzzz,2009-12-28T14:31Z,"dude, wtf is this shit! i wasted 3 dvds already.
+i backed up my files tell me what to do next becoz after i install it doesnt boot snow leopard. tried the 1st patch and the 32 bit shit! 
+computer config is 
+intel core 2 duo t7800, intel graphics media accelerator chipset, 1 gig ram, 320 gig hdd.
+come on someone plzz help out here!
+and i use windows 7 now."
+,jzzzzz,2009-12-28T14:36Z,"someone plz help! :-( this thing is crazy! i need snow leopard!! hey hazardx what do u do with those options. i gave my computer config a while ago. it says something about drivers chameleon rc3, rosetta and all that shit! i dont know anythong about that!!! "
+,happyguru,2009-12-29T15:09Z,dont waste ur time guys. if ur new to mac i do not recommend u. i wasted 5 dvds 4 days of my time n still nothing. there is no clear instructions on how to install n no one helps u if u get  stuck.  
+,PROTOCOLX,2009-12-31T00:03Z,"You all should know that OSx86 was and is still a project! 
+
+Not all computers will run OSx86... and different kernels with the right patches can lead to succes....
+
+Just try it... play with it.. "
+,happyguru,2009-12-31T05:26Z,I know what u mean protoclox. My comp is compatible n I have sucessfully installed the mac osx but I am hard time booting up the loaded mac osx. It just goes to the windows boot up mean without the option to choose for mac!!!!!!!!  N the biggest problem is there is no one who has solution to my problem. I tried every forum with no luck. N the guy who were supposed to be geek in this stuff don't even give a damma to even respond my email comment or anything. 
+,sarvasu,2009-12-31T11:35Z,"Dear Hazard,
+
+I get a successful installation. I have 120 GB drive and 5 partitions. I haev a running leopard 10.5.6 from iPC on one partition and installed SL using your distro on another. I dual boot in leopard using easybcd. After SL install i again get the same option of Win 7 and Leopard on booting. After selecting leopard and f8 and trying to boot through SL using -x -f  -v i get the following and everything stops. Please help. 
+
+Loading Darwin x/86
+Loading HFS+ file: [mach_kernel] from 4230450
+Loading HFS+ file: [mach_kernel] from 4230450
+
+cursor keeps blinking.
+
+Please help. I have tried installing customizing using many combinations but i get stuck here.  
+
+Please Please help. "
+,jzzzzz,2009-12-31T11:43Z,"wow fucking right, hell yeah, it works great, just put in the third patch and clean install! works great. protocolx was right, it takes time and u gotta go through choosing all the shit u need with the options. why the fuck dont they have a recovery disk for mac. atleas i dont have to use windows again! "
+,sarvasu,2009-12-31T12:21Z,"hey jzzzz - sounds good that you have a working SL. your sys config seems close to mine. please confirm options used and the key steps.            
+
+would appreciate. "
+,alihassan602,2009-12-31T20:25Z,"i spent over 8 hours trying this last night, was wondering if anyone here could help.
+it all installs fine when i just select snow leopard and the chameleon bootloader, when booting i get kernal panic
+
+using asus p5q deluxe - confirmed to work
+intel Core2Quad q6600
+6gb g-skill 800mhz ram
+using my samsung f1 terrabyte hard drive."
+,alihassan602,2009-12-31T21:54Z,"thought i should post a screenshot
+http://img198.imageshack.us/img198/5153/img00040200912312047.jpg"
+,alihassan602,2009-12-31T23:14Z,"i spent over 8 hours trying this last night, was wondering if anyone here could help.
+it all installs fine when i just select snow leopard and the chameleon bootloader, when booting i get kernal panic
+
+USED 10.6.2 update, Chameleon RC3 with 10.5 efi, ElliotForceLegacyRTC, Roseta and NVEnabler. 
+
+get error http://img198.imageshack.us/img198/5153/img00040200912312047.jpg
+using asus p5q deluxe - confirmed to work
+intel Core2Quad q6600
+6gb g-skill 800mhz ram
+using my samsung f1 terrabyte hard drive."
+,unchi,2010-01-01T01:27Z,"IOATAFamily Fixed
+IOPCIFamily Fixed
+
+How about these? "
+,alihassan602,2010-01-01T01:59Z,"i have everything working perfectly exept the ethernet doesnt work at all! which means no internet, any help?
+can i install drivers from the disk from snow leopard as i cant remember the options i chose to get it working in the first place and dont want to have to install again."
+,alihassan602,2010-01-01T03:23Z,"I finally got everything working perfectly. :D
+Thank you so much Hazard, without your release I wouldn't have attempted this.
+Very Greatful."
+,Petrosask,2010-01-01T12:02Z,"Is it Ok to apply all 3 patches at once just to be sure the DVD boots?
+
+Regards"
+,HazardX,2010-01-01T16:01Z,"Never apply DVD Updates (patches) on already patched DVD image coz you will get corrupt Image. Every patch apply on fresh DVD image (extracted) coz every patch is different then the other one.
+New DVD is coming out soon Snow Leopard Client-Server 10.6.2 SSE2/SSE3 Intel AMD.
+http://www.leohazard.com/Forum/viewtopic.php?f=19&t=155"
+,PROTOCOLX,2010-01-02T00:32Z,Gewoon proberen! Je kan nooit vantevoren 100% weten dat het werkt... 
+,jzzzzz,2010-01-02T06:17Z,"hey sarvasu, give me like 2 or 3 more days, im testing this thing on various other pc's. Try the patches from the website. i did get the same problem you metioned at first but every thing worked fine after i patched it. trying various combinations will work but its a pain in the ass. "
+,PROTOCOLX,2010-01-02T14:37Z,"Eerst op F8 drukken met opstarten...
+
+Dan -v intypen gevolgd door enter...
+
+Dan zal jij geen Appeltje moeten zien hoor!"
+,chocoluis,2010-01-02T18:45Z,"Idownload it, but when I used winrar at the end have a problem and finish without write the iso, help."
+,PROTOCOLX,2010-01-04T00:54Z,"Dan ziet ernaar uit dat die niet werkt voor jouw PC...
+
+It seems that the image isn't working for your PC..."
+,heartsurfer008,2010-01-04T03:34Z,"I am not bale to BOOT, I even tried patching ""2nd DVD Update for SB chipset to Final"" as I have AMD, but I get this  prob 
+
+
+
+After the 2nd page as shown above my PC just re-boots again doin notin..!!!!
+
+So please please help me out..!!!"
+,DaSpace,2010-01-04T06:16Z,"Alihassan602
+
+I have had the same Kernel panic, and have tried a bunch of things, what did you do to get things working?
+
+Thanks"
+,jzzzzz,2010-01-04T14:15Z,ooohhh! that hurts! audio driver gotta problem! how do u install drivers in this thing??
+,jzzzzz,2010-01-04T14:21Z,"no sound, no audio, bad visuals what is wrong with this thing??!"
+,unchi,2010-01-04T14:57Z,first fix your brain ^ ^
+,chocoluis,2010-01-05T06:03Z,"I can't download the iso image with winrar gives me a error, ""file corrupted"" help please."
+,jzzzzz,2010-01-05T12:06Z,"hey unchi, u r a baby with a lollipop for a dick, maybe u should suck it and jerk off my shit!
+i fixed my problems, tried a quicktime player upgrade and i fucked it up. does this thing have the latest software or do i have to upgrade it??"
+,sandy40d,2010-01-06T04:13Z,"working,working,working,working,working"
+,PROTOCOLX,2010-01-06T12:56Z,"jzzzzz did you fucked up your system after a Quicktime upgrade? 
+"
+,jzzzzz,2010-01-06T13:05Z,"nope, i still have windows, dunno why i didnt hear any sounds on my speakers though, and its certainly not a hardware problem if thats what ur thinking. but i got got everything up and running as soon as i reinstalled it!"
+,jzzzzz,2010-01-06T13:06Z,windows could play music and sounds  why not mac?????
+,jzzzzz,2010-01-06T13:09Z,hey do i need to upgrade this thing or is the in built software enough??
+,PROTOCOLX,2010-01-06T13:18Z,What type of soundcard do you have? I suppose you have to install the right driver for OSX to enable sound from your speakers... 
+,rpgman1,2010-01-06T22:15Z,"I've tried this disk and it just loads Darwinx86, shows the Apple logo, and then reboots itself in an endless loop loading kexts. My components are different and consists of:
+i7 920 C0 processor
+Asus P6T6 WS Revolution
+EVGA GTX 275 1792MB
+G. Skill 6GB DDR 1600 RAM
+
+That would explain the rebooting loop. Might as well get another Snow Leopard torrent."
+,1alw4y5n33dh3lp,2010-01-07T02:00Z,Will the graphics work on a nVIDIA 9800 1024mb ddr3 ?
+,1alw4y5n33dh3lp,2010-01-07T12:35Z,533D PL0X  =]
+,happyguru,2010-01-07T17:56Z,well guys after long batteling with my pc and the hazardous mac osX i got it working finally. works great only problem is after i put it to sleep the net n sound get problem. whatelse i can say i am writing this comment from the mac osx in my pc. 
+,PROTOCOLX,2010-01-07T21:48Z,"Try the new voodooHDA for resolving your sound problem...
+
+http://www.kexts.com/view/189-voodoohda_v2.5.3.html"
+,happyguru,2010-01-08T16:06Z,does it works for iaktos v.7 too?
+,ssvenson,2010-01-08T20:10Z,"I'm downloading this torrent to my computer atm.
+I have Windows 7. But do i have to burn this file to a CD/DVD and boot it, or can i just mount it with Daemon Tools/ Virtual Clone Drive? "
+,Ale17,2010-01-08T21:31Z,"Hi alihassan602, which patch did you use for your iso, if any? (I have the same mobo).
+And did you follow a how-to?
+Thanks"
+,Raventhorn,2010-01-08T21:39Z,"@ssvenson
+Its just like installing Windows: you'll have to burn it to a DL-DVD (8.5Gb) or use a bootable USB-Pendrive (8Gb) to install it.
+You'll have to either install it on a different disk (on multiboot, so Win7 and Mac OS X Snow Leo) or you will have to replace Windows for this Mac version.
+
+What languages is this ISO in? multi, just English or maby even Russian? :P Need a Dutch version "
+,sjoelinder,2010-01-09T01:55Z,"Thanks a bunch for the upload. Just one question.
+
+""(AMD users need to patch cupid's with Marvin's AMD Utility)"" 
+
+What should I patch and when should I patch it? 
+
+Got a decent speed of avg.300kb/s so thanks."
+,PROTOCOLX,2010-01-09T21:05Z,"@happyguru yes it works on Leopard too, but you have to choose the kext which is developed for Leopard... 
+
+http://www.kexts.com/view/189-voodoohda_v2.5.3.html
+
+@sjoelinder: That's a very good question which I cannot answer... I'm a Intel Hackintosh user for years... I can post it here as soon as I know.... :)"
+,PROTOCOLX,2010-01-09T21:13Z,"I think it's very simple if you have a second already running OSX on your AMD machine... 
+
+> choose: Patch all binaries
+
+> Select your Snow Leopard partition that needs to be patched... 
+
+done... (I suppose...)"
+,rocketero,2010-01-11T01:48Z,"There is a problem with ThePiratebay site, January 9, and 10, there is not way to do a search, and clicking on ""Download this torrent"" link cames with a connection problem."
+,happyguru,2010-01-11T06:25Z,"Hey protoclox I messed up my mac os n I reinstalled in clean partition. Now the problem is I forgot what I chooses from the customized section for my pc. It gives me press the power bottom to restart message. First time I got it work was like trial n error method so I hav no idea what to select now. Can u help me my comp spec is
+
+intel pentium dual core e5300
+Sata hdd 1tb
+6 gb ram
+nvidia 9400
+
+ps. I tried the spec given in the comment above but it gives me same message. Do I need to select any kernel?"
+,happyguru,2010-01-11T06:28Z,Sorry I forgot to ask about the driver for ethernal. I have intel gigabite ethernal. What driver I select from the network?
+,PROTOCOLX,2010-01-11T17:35Z,"I cannot see any gigabit LAN drivers with this distro... Did you have any internet connection with the previous install?
+
+I posted a screenshot for a installation on Intel system on Muzzle... 
+
+check my post.. >> http://www.muzzle.nl/osx86-installation/3565-snow-leopard-10-6-1-10-6-2-intel-amd-made-hazard-piratebay.html#post14208"
+,happyguru,2010-01-11T21:26Z,i apericate ur help protoclox but ur forum is 95 % dutch wHich i dont understand n i couldn't find the screen shot may be i cant understand the link. no i didnt had internet connection b4 i had only in iaktos 7. i had both n one reason i wanna install this is cuz iaktos take 5.5 mins just to boot!!!!!!! if u can directly post the link of the screenshot it would be much appericated
+,happyguru,2010-01-11T21:28Z,sorry for doulbe post i just tried some options and now all i get is apple screen for like 3 mins and then the monitor shuts off while the system is still running and i have to power off manually
+,dabigboss,2010-01-12T01:18Z,"THANK YOU Hazard! Being a UNIX hacker myself I know the huge amount of work that went into this.
+
+Good job and thanks!"
+,zscrugby,2010-01-13T08:58Z,hey can anyone tell me where i can find if possible a ppf patch to add chameleon as the bootloader for this install? i have an amd an it wont work without it.
+,flyduffer,2010-01-14T00:34Z,"Any chance to work on Alienware M17 with two mobility 4850 in crossfire and all other drivers for sound, lan, wan, bluetooth, touch-buttons, cardreader, and 1920x1200 resolution?!"
+,applesios,2010-01-15T15:57Z,"hey PROTOCOLX 
+
+can you or anyone else give me more trackers?
+
+thanks"
+,Vico63,2010-01-17T16:46Z,"When I decompress the .rar, I have just 8 files (132 ko) so the iso file is 4.33Go
+
+I have decompressed with Winrar and 7Zip but is the same result.
+
+I have tried on Windows 7 and Windows XP 
+
+Please, Help me, I have downloaded the files 4 times..."
+,chicnstu13,2010-01-19T18:08Z,"Hi guys
+          before I begin I would like to state that im a fairly experienced computer user, however i have had what seems a simple problem, when i enter disk utilities my ide disk is the only drive that i can manipulate (i.e format partition) my four other sata ii drives get an error saying opperation timed out when i try to partition. 
+
+P.S Kalyway 10.5.2 installed on my machine sweet as a nut AMD socket 754, Asrock nforce 6 series motherboard vista support, 2 gb corsair ram, ati 1900xt graphics"
+,chicnstu13,2010-01-19T18:12Z,"Hey sorry anyhelp with the post above what be appreciated
+
+cheers"
+,Vico63,2010-01-19T19:06Z,"Hey chicnstu13,
+
+I can't help you but you can answer to my problem because you have a good ISO .
+
+Thanks"
+,urlich,2010-01-21T12:00Z,"Unable to unpack from WinRar. Error logs. If anyone has a similar problem.
+!   Z:\Download\Snow_Leopard_10.6.1-10.6.2_SSE2_SSE3_Intel_AMD_by_Hazard.rar: CRC failed in Snow_Leopard_10.6.1-10.6.2_SSE2_SSE3_Intel_AMD_by_Hazard.iso. The file is corrupt"
+,irmisz,2010-01-21T16:58Z,"I have asus f5sl loptop with sis191 ethernet controller, so I will have internet or not?"
+,euromaxx,2010-01-22T17:51Z,The installer doesn't see my hard drive and i can't install it. Is there any way to make this work?
+,psychokgb,2010-01-23T11:22Z,"First of all: THX 4 UP! I just started to download it.
+
+To everyone else:
+If you want Mac OS X operating system, you have to search on the internet first and do not ask nerdy questions!!! Google is our friend, we can find everything we want...
+[url]http://wiki.osx86project.org/wiki/index.php/Main_Page[/url]
+[url]http://www.insanelymac.com/[/url]"
+,unchi,2010-01-23T23:12Z,"yea really, too much newbies. lol."
+,tmhle241,2010-01-26T16:54Z,"why i boot from the dvd, press f8, after that i can see the snow leopard but when i hit enter, the computer automatic restart.  It's i7 920, main x58, gtx 260. Someone help me please"
+,HazardX,2010-01-26T18:12Z,"Some machine will not boot by normal way, so for some need to add cpus=1 to boot and for some you need to add busratio=20 to boot. I have GA EX58 UD5 mobo and i7 so I'm using busratio=20. Every machine need different flag for booting DVD.
+For you is -v busratio=20 or -v busratio=20 cpus=1"
+,tmhle241,2010-01-26T23:03Z,"thank you. After enter -v busratio=20 cpus=1, it show a lot of error while trying to boot but at last i can see the install language window. Now let see if it work :), i spent 4 day, 5 dvd dl, 2dvd, 5 cd, and now nearly get it done. Thank you again Hazard!!!"
+,tmhle241,2010-01-27T00:35Z,"seem god haven't spare me yet, i must deal with the hard drive problem, the OSX can't see my partition so i can't not install so i format the drive in Fat32, primary, active. Then go to disk ult and chose that partition, click erase tab, choose mac os extend journal and erase but OSX format back to ntfs-3g, tried many time but not success yet. Could any one help me please "
+,tmhle241,2010-01-27T06:06Z,"Hazard, I've done installation. I took the disc out then restart. The OS X automatic boot but after that it say ""you need to restart your computer blar blar..."", i restart again but hit the same message. 
+What should I do next. Seem the OS X need the dvd to boot the OS, I'm not sure."
+,tmhle241,2010-01-27T16:22Z,"ok WORK!!!!!!!, set 10.6.2 update, chamelon Rcs 10.5, ElliotForceLegacyRTC, Roseta,NVenabler , everything will all set! Now I must google how to run both Win7 and OS X. Good work Hazard"
+,tmhle241,2010-01-27T16:24Z,"Hazard, can i buy the key board and magic mouse of apple to use on this?"
+,HazardX,2010-01-27T21:21Z,"I don't know. This is hackintosh not real Mac. If it's on USB it might work but please google and see is there any user with your idea that's working.
+Thats all from me. Enjoy in this distro.
+New DVD update is coming out soon based on Snow Leopard Client Server 10.6.2 SSE2/SSE3 Intel AMD which is coming by the end of this month with repacked and new drivers.
+
+Thank you in advance Hazard."
+,smyr,2010-01-30T11:29Z,"Any chance this will work on my Acer Aspire 5738ZG laptop? Intel® Pentium® mobile processor T4200, ati 1gb gpu etc  ? Will try it out anyway I guess... ;)"
+,tmhle241,2010-01-31T01:55Z,"Hazard, hope the next one include the driver for WUSB54GC, I guess many people crazy to find driver for their wire less USB and card to be able to use on mac. Till now I can't get my poor wireless usb work although I have tried many many method"
+,skypete,2010-01-31T05:22Z,hey hazard i have msi 790FX-GD70 motherboard with a amd 955 Black edition cpu everytime i load the disc it tell me to press -v than it would just keep restarting can u please help me.
+,skypete,2010-01-31T05:32Z,"hey hazard u said u need a amd tester and u got one now my mother board uses the 790FX-GD70
+which is a +SB750 chipset but keeps restarting anysolutions"
+,tmhle241,2010-02-02T16:08Z,"skypete , just read a few last comment of mine, you need to find out which code you need to enter, mine is -v busratio=20 cpus=1, it work on intel x58, i'm not sure it also work to you but I'm just point out a clue that you should google, try -v busratio=20 or busratio=20 cpus=1"
+,cyruskey,2010-02-03T19:31Z,"hai hazard
+you are a genius.
+unix programming is a complex thing.
+finally you won the battle with unix. 
+i am a professional keyboardist.
+i installed successfully on my mobo.
+everything works perfectly.
+thank you very much.
+God blessed you with abundant knowledge.
+
+specs
+intel dg43nb
+4 gb ddr2 800
+asus en9400gt 1gb.
+digidesign 003rack.
+logic 9."
+,gw1zr1824,2010-02-03T21:39Z,What up everyone. So  everything  installed  like  it  was  supposed  to  and  then  at  then  at  the  end  it  says  it's  going  to  restart  and  then  it  does  but  when  it  comes  back  on  all  I  see  is  a  silver  screen  with  the  apple  logo  in  the  middle and  it  stays  like  that  forever. If  anyone  has  the  answer  to  this  million  dollar  question  hit  me  up  at  reasonheathen111@gmail.com. Thanks  in  advance
+,HappyTree1,2010-02-03T22:55Z,"Any idea how this can be booted from USB stick? 
+
+Restore iso to usb in OSX does not make the usb bootable :(
+
+On the other hand, windows sees just the bootable cd partition but not the actual data that are on mac readable partition."
+,aaron1989,2010-02-04T10:52Z,"I am also an AMD tester and i would like to note that after a bit of time and effot got my computer running perfectly, better then any AMD version i have found so far.
+
+AMD Dual Core 5000+
+Nvidia 8500gt SLI
+4GB Ram 
+Nforce 570 SLI chipset with working LAN and WG111V2 Wireless and no disconnection.
+
+anybody require help on installing on similar or same specs comment or email
+
+aarondodd111@hotmail.com"
+,vuonganhquyen,2010-02-04T18:57Z,"Hello aaron1989! I want to install this version on my laptop and dual-boot with Windows 7, but I do not know how to install it, so can you give me detailed instructions how to install it (from USB FlashDrive or DVD) and dual-boot with Windows 7?
+Configuring my computer are:
+Dell inspiron 1440
+Window 7 Ultimate
+IntelPentium(R) Dual-Core CPU T4400 @ 2.20GHz, 2194 MHz (Instruction Set: x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3)
+2GB RAM
+320GB HDD
+Graphics: Mobile Intel(R) GMA 4500MHD (788MB)
+Hope you can help me! Thank you very much and sorry for my bad english!
+
+My email: anhquyen_ht06@yahoo.com"
+,milikman,2010-02-05T00:49Z,"Hi guys,
+
+Hazard mentions patches on his site, which is currently unavailable it seems. Can I get them anywhere else? Are there instructions how to patch etc wherever the patches exist?
+
+My problem btw, is that I can install OS X just fine but when it gets to booting, it just hangs on the bios screen with the HDD activity led all lit up constantly. I have a Gigabyte EP45-UD3L mobo, Core 2 Due E8400, 4 gigs of ram, several HDs. I tried both to dual boot on a sata disk (AHCI enabled if that matters) and disconnecting all disks except one IDE and using that as a single boot OS X. Both ways hang when getting to boot OS X. Any ideas would be appreciated.
+
+Thanks "
+,PROTOCOLX,2010-02-06T18:58Z,"Hazard's forum is back online!
+
+I think you can get your patches also now!! 
+
+http://leohazard.com/Forum/index.php"
+,krillert,2010-02-09T22:10Z,"I have iAtkos 10.5.7 installed now dualboot with Win7. Been running it for 6 months now with no issues.
+
+However when im trying to boot with this DVD all i get is ""Still Waiting For Root Device"". I burned it with the slowest speed possible and i took it out and booted into OSX agian to check the disk and it seem ok.
+
+Double clicking the ""Hazard"" image only gives me a orange color and notning else.
+
+Anyone?"
+,maisternir,2010-02-10T10:47Z,"sorry for the noob question but im totally new to ""installing mac on pc thing"" and while i was trying to install this dvd at the first install i got stuck 'no entry' sign and while trying to install with -v i got 'still waiting for root device'.. i tried installing with rd=disk0s4 (as i am trying to install on my 1 hd and on the 4th partition) but still no luck. just wondering what am i doing wrong??? im on a 32bit toshiba laptop which completely support sse2, sse3 and everything else. just cant get the install to start. do i need to set the partition to active before trying or anything like that?
+any help will be appriciated.."
+,maisternir,2010-02-10T11:39Z,"ok, i already tried setting the partition to active and it got me through the root device thing, but now i got ""NFS_Boot_init failed"" and a kernel panic screen, any idea?!!?"
+,rohit_b,2010-02-15T06:08Z,"i downloaded this burnt it on a dvd
+
+tried to boot but it sticks at 
+
+waiting on IOProviderClassIOResourcesIOResourcesMatchboot-uuid-media
+pls help its my first time
+
+my system config
+
+mother board intel original d946gzis
+cpu intel pentium d 3 ghz
+ram 3 gb ddr 2
+graphic card intel 946gz express chipset
+hard disk a spare IDE 20 GB Seagate
+DVD Writer Samsung SATA"
+,rmz_0116,2010-02-21T13:48Z,"I downloaded the rar file 
+and extracted the .iso and all i saw is this?
+
+BOOT
+BOOT.CAT
+BOOT0
+BOOT1H
+BOOT1U
+BOOTHELP.TXT
+CDBOOT
+CHAIN0
+
+any help guys..
+need some answer? thanks"
+,rmz_0116,2010-02-21T13:54Z,"I downloaded the rar file 
+and extracted the .iso and all i saw is this?
+
+BOOT
+BOOT.CAT
+BOOT0
+BOOT1H
+BOOT1U
+BOOTHELP.TXT
+CDBOOT
+CHAIN0
+
+any help guys..
+need some answer? thanks
+it's my first time to try this..
+hope you guys can help me solve this problem..
+could somebody email how to do it correctly step by step?
+and what are the applications i have to download?
+rmz_0116@yahoo.com"
+,feco182,2010-03-11T20:09Z,i downloaded this becuase i cant install the 6 gb version. My question is can i install this in wmvare if i can how ? and i just have to burn this dvd and put it into the drive and boot from it and i find myself at the installation screen ? thx
+,feco182,2010-03-11T20:10Z,i have an intel processor 3ghz 2gb ram and intel gma graphics accelattor which is on your list
+,feco182,2010-03-11T20:13Z,and i dont have any mac os version isntalled only win7 
+,SaberJ2X,2010-03-12T14:45Z,"Installed it! works perfect!
+
+C2Q
+GA-P43-ES3G
+XFX GTX260
+
+everything works perfect... except sleep... but I don't put my PCs to sleep..."
+,xeikon,2010-03-15T17:46Z,"Hello: I would like to know if this can work in my system or what kind of configuration I should choose to install. I installed OK and get kernel panic on startup (cpu=0 and more code...) THANKS !!!:
+
+- ASUS P5N-D Motherboard (Chipset Nvidia nForce 750i SLI SPP)
+- Nvidia QUadro FX 3500 video card
+- 4 GB RAM
+- Intel Core 2 Duo E8400, 3.0 Ghz "
+,BLADE84,2010-03-18T00:41Z,"Help!! Ho installato questo OS ma dal primo avvio mi da un Kernel Panic . ho un processore AMD
+Grazie!"
+,nuieskater,2010-03-18T18:05Z,"I can't download please help me ! I don't know why I'm newbie here ! 
+and already downloaded it's stop at 98.3% 
+
+wait for 100% for long times .
+
+need help
+regards bro
+
+from THAILAND"
+,superxxx6,2010-03-23T06:24Z,thanx guys..currently im seeding
+,superxxx6,2010-03-23T06:45Z,where tu download the Snow_Leopard_Final.zip ? anyone have backup link ?
+,cclloyd,2010-04-06T05:51Z,White screen at bootup.  Any other kernels to boot from before installing?
+,pravred,2010-04-22T16:40Z,"Hey i just want to whether this version will work on 
+
+my acer 4930g Intel p7350 2.00,Intel pm45 chipset, 
+
+4gb, 9300m gs"
+,hack3r1996,2010-04-25T19:50Z,"What options should i select?
+
+My system: Hp Pavillion a1630n
+Specs:
+Network: NVidia nForce10/100/100 LAN
+Audio: Realtek (i don't really care about the audio drivers, as i already know how to do that )
+Processor: AMD Athlon 64 x2 4600+
+ATA: nForce Serial ATA
+Chipset: Nvidia GeForce 6150
+
+This pc [u]NEEDS[/u] to have the MBR partition table
+
+
+Thanks in advance"
+,GunnarI,2010-04-26T20:23Z,"Asus Crosshair SLI (nForce 590 SLI chipset)
+AMD Atholon II 240 
+4x 1024 DDR2
+Gigabyte ATI HD5750
+
+what options should i use and how does my hard drive need to be formatted.
+
+and one last thing, do I have to burn this to a DVD?"
+,yuvinmw,2010-05-02T01:11Z,"hi. i am Yuvin and i was wondering if u can tell me which drivers to use for my system i would like to use 10.6.2. i already have mac os x 10.5.6 running with windows xp, vista, and 7.
+
+my specs
+dell precision 670
+2x single core intel xeon with ht @ 2.8 ghz sse2
+nvidia 9800gt
+intel pro 1000 mt eathernet
+realtek ac97 audio
+
+also when i installed 10.5.6 i had to choose ichx fix for my chipset and iousb fix. i have a intel e7525 chipset. Plz reply and thxc in advance."
+,mast407,2010-05-03T00:12Z,"Works absolutely perfectly, I had to remove a kext to stop a kernel panic, but thats my hard wares fault, thanks so much"
+,masternath10,2010-05-03T09:37Z,I installed in on my laptop installation went fine when i restart my computer the apple symbol come up then it goes to a blank blue screen then it does nothing please help!!!!! 
+,youngweezer,2010-05-06T17:02Z,"@masternath10
+
+Try installing a proper graphic driver under the installation. I got the same problem, and that's what my soloution."
+,masternath10,2010-05-07T14:25Z,@youngweezer thanks for help but my graphics card ain't up there please help
+,youngweezer,2010-05-07T16:33Z,"@masternath10
+
+Then try to install the driver that looks like your GFX the most.
+
+My GFX wasen't there either so i selected the one that was nearest my model."
+,q64ceo,2010-05-07T19:50Z,Why no ATI HD 4650/4670? We have already figured that shit out! Check out my posts on InsanelyMac
+,masternath10,2010-05-08T03:59Z,@youngweezer thanks for support my graphic card is Mobile Intel (R) 965 express chipset family what option should I choose ????
+,SpectreMD6,2010-05-08T18:00Z,"im here to ask, dose this really install on amd as is? or is there a pack to use first?
+i got this whole, and it just reboots before it boots to system, and this is meant to be easy as -v [enter].
+no it is not, and i think theres some parts missing, compared to the first [lousey] snow leopard distro for hackintosh, my spec is amd phenom triple core, 4 gig ram, 3 tb total hdd on sata, and 2 dvdrw drives on ata, so this should go on easily! any answers to this will be appreciated.
+MD6"
+,SpectreMD6,2010-05-08T18:07Z,"where is the amd bit on here?
+im trying to install as per instructions, but i dont even make the first part.
+as soon as it tries to boot up, it restarts the machine, and im using an amd phenom x3 chip 4 gig ram and more than enough hdd drives to run windows, mac os x linux solaris and even a few others, so wtf is going on with this, if a pack is needed, would be good to have it, if not, then this is just sse 3, my cpu supports upto a sse 4a set, and would run this without looking, and my board is ok with this, just the boot problem, be sure the right booters are in here, not some messed up modded hybrid - they wont work much and cause grief too much"
+,adnanmn,2010-05-08T22:13Z,"@masternath10 go to bios setup.
+go to sata modes or something like that.
+set mode from IDE to ACHNI. then save and restart. and it should work."
+,masternath10,2010-05-09T03:06Z,so then should i not choose a graphic card thing in setup ?
+,masternath10,2010-05-09T03:12Z,where is sata in bios ????
+,addpages,2010-05-11T13:42Z,"Hi 
+First of all Thanx alot to the people who are responsible for this upload.
+
+I downloaded this torrent. burned it on a dvd and
+Installed it. all Went well, but after the restart it is showing kernel panic.
+Please Help Me. I Am very new to the Mac World
+Please Guide me step by step plz.
+Thank you
+
+My Specs:
+
+Intel E7500 Dual Core 2.93Ghz
+Gigabyte: G41M-ES2L MotherBoard
+80GB IDE HDD
+2GB Ram
+nVIDIA GeForce 8600GT Display Card
+"
+,addpages,2010-05-11T13:44Z,"And I For To tell you My Mac Os Boots up If i Select boot Options And Press -x keys
+
+Please Help"
+,dimitriosg2002,2010-05-14T11:04Z,"I couldn't boot this dvd on my PC.
+I have Core2Duo E7500
+plz help"
+,masternath10,2010-05-16T06:03Z,How did you burn the file to the disc ?
+,LordReserei,2010-05-19T12:02Z,No 4600 drivers??....that sucks because I have a PowerColor HD4670 1Gb. >.
+,SpectreMD6,2010-05-22T11:16Z,"are you sure this is the real hazard release???
+where is the cupid soft?' and why is it in such a tard format? please dont waste peoples time with this, it is supposed to be a mac os x distro like the real disc, not full of file, boot and cats.
+i wont admit finding this shit!"
+,masternath10,2010-05-24T11:21Z,its REAL
+,raviraj87,2010-05-26T22:47Z,"I have downloaded this torrent and when extracted it, the iso found is of size 4.37 GB but when i mounted it on PowerISO the disk size shown as 192 KB. Do i got the correct iso or i'll have to redownload it again????
+
+
+
+Please Help!!!"
+,2511,2010-05-29T04:37Z,"@raviraj87: I've got d file nd while mounting it shows d same 192 kb file.... i tried to install it on a virtual machine in vmware bt failed 2 boot.... i guess we'll have 2 burn as the ultimate step.... bcoz when u open the mounted file it hardly has anything bt wen u open the .iso with power iso it shows u a bunch of folder nd files which sums up 2 4.37 gb.... my verdict : Burn IT.... nd dats wat i'm gonna do..... 
+
+@ Community: CHEERS 2 HAZARD for such a fantastic work nd those who r seeding his work @ a fantastic rate... i got an average of 150+ kb/s.... Thanks :)"
+,scrapetorrent,2010-06-03T19:23Z,"On a Gigabyte GA-X58A-UD3R, it shows the apple logo and just reboots. Trying to boot with -v, I see a few lines of text before it reboots."
+,scrapetorrent,2010-06-03T20:57Z,"On a Gigabyte GA-X58A-UD3R, if I add -v busratio=20 then it hangs after writing: [JMicronATA] Unit 0, bus is ready for scan
+
+Without busratio=20 it just reboots instantly.
+
+If I disable the GSATA in bios, then it boots but doesn't detect my drives."
+,NFLutte,2010-06-07T09:24Z,"On my first computer I got it all installed, but then it never booted. There is just a blinking line on the top left corner of the screen.
+
+Now on my second one all I get to see is the apple for half a second, then it restarts, with or without -v."
+,MyWorld00,2010-06-07T19:58Z,"NFLutte, I have the same problem. Can anyone help us? Thanks."
+,MyWorld00,2010-06-07T20:48Z,"NFLutte, I have found a temporary solution. When the computer starts, push F8.
+Then type -v busratio=20
+
+In the intstallation wizard, you have to choose the disk. That's the problem, he don't recognizes the disks.
+
+Any help is welcome!"
+,galactic_prof,2010-06-09T06:58Z,Can I update to 10.6.3? In this verision?
+,snDyaGo,2010-06-13T07:10Z,"There has been 3-4 versions of this torrent and each of different sizes..Please verify and help me choose the correct and best working one...
+with regards to all friends,"
+,snDyaGo,2010-06-13T07:13Z,The one I installed before was some 2.* GB and always stopped at the login screen but showed it was installed completely and problem while rebooting for first time use..please help me out..
+,NFLutte,2010-06-16T00:13Z,"MyWorld00, thank you for your help. Unfortunately, all I see now is a black screen with a lot of errors."
+,miltonsj,2010-06-18T04:27Z,"@Scrapetorrent
+
+If you are using the test7 kernel, try renaming mach_kernel.test7 in your Snow Install root directory to mach_kernel. Delete the original mach_kernel in your Snow install first. Also, make sure your com.apple.Boot.plist in your /Extra/Extensions directory(Snow) says mach_kernel for your kernel string.  Let me know how it goes..."
+,tpbl,2010-06-21T19:41Z,"i installed it for my acer aspire 4730z laptop but it kept asking to reboot the pc
+my config is 
+intel pentium dual core t3200(2.0Ghz,667Mhz,1mb l2cache)
+mobile intel graphic media accelerator 4500m
+2gb ddr2
+
+can any one plz suggest me which kext of kernels should i install keeping in mind my config thnx"
+,tpbl,2010-06-26T21:51Z,"finally i got it running
+by typing the following command at the boot up
+boot: -v -x -x32
+
+this will run mac os x in safe mode and in 32 bit
+
+now my problem is my audio is not working
+my audio device is realtek
+an anyone plz help me"
+,jj97-7,2010-06-28T12:07Z,"Uhmm..Well,I Downloaded This,Extracted the RAR File,Then Burn It..Succefully..
+When I Come to Boot it..It Boots,and everything's ok,but when it asks To Push F8,I Do..And I Put the -v busratio=20 ..It Shows Only Few Lines..Then Restart And Does Nothing..Please Help..I Really Would Like to get it Work!..Thanks x
+{ I HAVE AMD PC }"
+,jj97-7,2010-06-28T21:29Z,"Uhmm..Well,I Downloaded This,Extracted the RAR File,Then Burn It..Succefully..
+When I Come to Boot it..It Boots,and everything's ok,but when it asks To Push F8,I Do..And I Put the -v busratio=20 ..It Shows Only Few Lines..Then Restart And Does Nothing..Please Help..I Really Would Like to get it Work!..Thanks x
+{ I HAVE AMD PC } "
+,jj97-7,2010-06-29T10:34Z,"Well..let's say I Have booted up..using 123 boot loader..and Snow Leopard 10.6.1-10.6.2 Intel AMD made by Hazard (RETAIL)..It comes up with apple loder few minutes later an circeled ( \ ) appear infront of the apple logo is this nor,al will it boot?
+cause its taking like long time to launch the leopard installation..thanks x"
+,jj97-7,2010-06-29T10:35Z,..normal*
+,jj97-7,2010-06-29T10:38Z,"@SpectreMD6
+Well..Yeah I Had the Same Problem too!
+I'm Using An AMD PC,well You May Need To Use 123 Boot Loader..and here's the tutorial:http://www.ihackintosh.com/2009/01/install-mac-leopard-os-x-retail-dvd-on-a-ordinary-pc-with-boot-132-hack/
+
+Good-luck..Happy Macing..!!"
+,ivanjac,2010-07-02T14:50Z,will someone seed ??? i am at 98% need 2% more pls ... whole day none seed ffs !!!
+,ivanjac,2010-07-02T15:01Z,seeeeeeeeeeeeeeeeeeeeeeeeeeed
+,blue_sours,2010-07-24T17:42Z,"Seems like I got a bad download the first time, so I'm trying to redownload it.  :(  Anyway, I'm really excited for this particular distro, one of the drivers included is one that's very hard to find.  I'll report back with results."
+,sataman,2010-07-29T15:04Z,"Hi,
+
+Does this need to be burnt as an .ISO on to a dual  layer DVD or would a normal DVD be fine for this procedure? The dual layers I have say 8.5MB and the normal DVD's say 4.7GB? I am guessing since this file is 3.65 GB I can use a normal DVD?
+
+Thanks a lot.
+
+And one more thing..
+
+Would this be compatibel with my specs : 
+
+CPU: Intel Core 2 Quad Q660 processor 
+
+Memory : Samsung DDR2 1GB x2 Sticks
+
+Graphics card : Nvidia Geforce 7300 GS/7200 SE
+
+Motherboard : ASUS P5KPL-VM (PCI Express)"
+,fnight,2010-08-03T22:42Z,"i have hp dv7 2043cl, with 4 gb ram, 2.0 Core 2 due, 1 Gb Graphic ram, 500 gb hard, and i am not able to install this OS :(,
+
+i need this to be installed, i have done it so many times, that i am tired now, i download and try but nothing, stucks at boot :(
+
+can somebody please please help me out?"
+,easy90rider,2010-08-09T10:18Z,"I'm stuck at the DVD boot with the error:
+calibation failed with 2 attempts.pls help!"
+,111gio,2010-08-14T06:20Z,"hey when i install it and ret=start all my usb ports dont work and keybaord/mouse can anyone help
+amd atholon dual core processor"
+,A.l.xx,2010-08-16T04:26Z,"WTF I Installed The THis Snow LEopard software and thought that my computer was goin to be like new but there app's that i dont even know what they are..WTF,,.and if you put ABOUT THIS MAC it shows tha picture of this skull and says hazard WTF...It dosent even have the apple logo!!!!"
+,abhi86,2010-08-24T09:29Z,"Thnx for the upload. But i get error after install. it asks me to restart. i tried installing twice still the same problem. once it was successful after selecting the option u mentioned earlier, but the loading took long enough to solve a sudoku puzzle ;) (seriously).. apple logo sign took long time n den i saw a blue screen which wasnt goin further. i had to reboot, n again i got the restart error. :( 
+my installation options
+MAC os extended file system
+
+
+my config:
+
+c2d e6850
+4Gb ddr2 800mhz
+seagate 160GB IDE
+8800GT
+LG DVDRW IDE 
+
+here's the link to the error(now i dont get the background error code like i got in the 1st try)
+"
+,abhi86,2010-08-24T09:33Z,"continued..
+installation settings
+xxxx://i34.tinypic.xxx/343s0eg.jpg
+xxxx://i35.tinypic.xxx/154jdj6.jpg
+
+
+error: xxxx://i35.tinypic.xxx/2hyb4sg.jpg
+
+replace xxxx with http n xxx wid com"
+,abhi86,2010-08-24T09:38Z,"EDIT:
+Thnx for the upload. But i get error after install. it asks me to restart. i tried installing twice still the same problem. once it was successful after selecting the option u mentioned earlier, but the loading took long enough to solve a sudoku puzzle ;) (seriously).. apple logo sign took long time n den i saw a blue screen which wasnt goin further. i had to reboot, n again i got the restart error. :(
+
+my installation options
+MAC os extended file system
+Mac os x 10.6.2
+chameleon rc3 10.5
+kernels ALL
+graphic drivers: nvenabler n nvinject
+rosetta
+
+my config:
+
+c2d e6850
+4Gb ddr2 800mhz
+seagate 160GB IDE
+8800GT
+LG DVDRW IDE "
+,sounak.k,2010-09-01T09:11Z,"does it install in 64 bit mothrboard ??? i cant get it to install in my system with a 64 bit motherboard
+ :-s i have been lookin so long for a installer that will work on my system ...."
+,sportstergirl,2010-09-23T18:17Z,"Yeah!  Double thumbs up and thank you!  This was like my 6th Hack and by far the best...Installed this then Apple's Combo Update 10.6.4 and Legacy Kernel Patch. (google it or search on insanelymac forums)
+Everything Works! See my OSX86 Wiki listing for complete installation steps.
+Hack Hardware Specs:
+Intel Core 2 Quad Q6600 Oc'd a lil
+Asus P5KPL-AM-EPU Mobo
+4GB OCZ Ram/640GB HD
+Video: XFX Geforce 9500GT 1GB
+Western Digital 640GB Sata Drive
+Lite On Sata DVD Drive"
+,jophz,2010-10-11T07:00Z,"Need guide to install in my Hp Compaq 
+AMD Turion X2
+4gb RAM
+ATI Radeon 3200
+320GB HDD"
+,dnxx,2010-10-24T01:26Z,"@abhi86: I get the same problem as you!
+
+Did you solve it?"
+,dnxx,2010-10-24T01:46Z,Did this work by someone?? It doesnt work over here.
+,fanman93,2010-10-27T01:15Z,By far one of the slowest downloads I've had to deal with. An average of 50 KB/s? Wow. Over 400 seeders and horrible speed.
+,deepak_28,2010-11-24T08:47Z,"is it run on AMD athlon X2 64 4800+
+jetway motherboard
+ATI X1200 (inbuilt)"
+,daoskar,2010-11-24T23:50Z,"hello when you get Mac OS X 10.6.4 DVD?
+
+sorry my english "
+,anarch0,2010-12-04T23:40Z,I don't know why you guys are complaining about speed. I'm getting a very constant 1.0mbps speed. And it's downloading very fast
+,FreeSoftwareManic,2010-12-06T11:36Z,it says no os when i try to boot up help
+,nemosrings,2010-12-11T19:36Z,"Doesn't everyone luv a hack. Especially one with custom hack skull icons. lol
+I'm a mac user so wtf do I care. But you might be interested in seeing
+/lifehacker.com/5672051/how-to-build-a-hackintosh-mac-and-install-os-x-in-eight-easy-steps
+
+Hopefully that will assist those having problems with this torrent once downloaded. giggles"
+,nemosrings,2010-12-11T19:42Z,"BTW I actually 'bought' my snow leopard upgrade on day I returned from a trip overseas a year ago. It was so cheap, like 1/10th the price Windows costs.
+
+Mac hardware might be expensive, but not everything of theirs is."
+,cmourabr,2010-12-16T19:36Z,Can I burn this on a Single Layer DVD? or must be a Dual Layer DVD?
+,Gothiker,2010-12-19T03:25Z,"Hi, when I'm installing it asks me to Select A Destination, there is not destinations to choose from can you help me out?"
+,jgatatu,2010-12-19T12:42Z,"hello.help me.after  to complete the installation, but can not find it restarts the system, it is only showing a blinking cursor and nothing more. already thanks ..."
+[T],lilmjkl,2010-12-19T23:05Z,"IMPORTANT!!!
+
+- Not all hardware is supported, Most intel hardware works fine but there is absolute no guarante for it. Want to know it for sure, google for it!
+- MAKE A BACK UP FROM YOUR COMPUTER!!!!!!
+
+Installation Help:
+
+- After downloading unzip the file.
+- Burn the unzipped Image on a Single DVD. All kind of DVD's are supported IF your Optical drive supports it.
+- Start the computer you want to install Mac Os on with Windows (if not started yet)
+In Windows go to START and right-click on COMPUTER. Click on MANAGE or something (Sorry, using Dutch computer)
+- Go to Disc Manage and select your drive.
+- Make your drive smaller. Like half your Hard drive. At least 20GB
+- Place the Mac Os DVD in your computer and shut it down.
+- When shut down, start your computer and press F2, F8 or F12, This depends on your Motherboard, and wait untill your computer askes to boot from DVD.
+- Boot from your DVD and wait like 5 minutes untill Hazard Snow Leopards is loaded. 
+Select your luangage and accept all the rest.
+- Then when Mac is asking for a drive to install there is no option. This is normal.
+-Go to UTILITY'S and select Drive options or something. Then it's searching for drives on your computer and also detects for at least 2 Partitions on your Hard Drive.
+Select the Drive we just made in Windows, Be ensure it's not the partition Windows is Installed on.
+- When selected you see NT system or somthing, make this Mac OS Extended (Journaled) and name it Snow Leopard(or something else you remember) and press New, Clean, Fix or maybe an OK button right below.
+- Go to UTILITY'S in the left upper corner and select ( stop UTILITY'S)
+- Now the drive is founded in Mac with the name Snow Leopard (or what you named it) Select it and press install.
+
+This will take a serveral minutes and its not hard from this part. There are enough movies about how Snow Leopard has to be installed.
+
+Problems? All can be found or asked on the website of Leohazerd (see discription)"
+,jgatatu,2010-12-20T22:28Z,"hello. ok installed the system. but on restart it does not find the system hard disk, is a blinking cursor and nothing else. what could it be?"
+,imacintoshuser,2011-01-03T23:26Z,"Hi, Hazardx my system configuration is
+MB = Asus P5LD2-VMSE
+Processor = C2D 1.86 ghz
+HDD = 160 gigs
+Graphics = ATI HD 5670
+
+I have downloaded ur copy of snow leo and burned it. After completing the installation i m stuck on the boot screen may be kernel panic error, can u guide me installation process like what i have to select in customize installation 
+please help me out i m very much eager to run it 
+thanks for reading me post and please reply"
+,Talwinder,2011-01-07T12:49Z,"intel dual 2 core overclocked 3.27ghz
+graphic card nvidia en8400gs 512  
+asus mother board
+4 gb ram
+can it support my graphic card"
+,yogeshmb,2011-01-09T15:34Z,"i burned this image to dvd then booted my laptop from dvd
+i then got dialog box saying select destination
+but it list is empty.
+do i need to make a partition?
+which format should it be?"
+,andersio,2011-01-11T22:07Z,seed
+,andersio,2011-01-12T00:29Z,seed stuck at 92
+,andersio,2011-01-12T01:00Z,"Which of the files should i Burn?  Its many of them
+
+BOOT
+BOOT0
+BOOTH1H and so on"
+,rsjc741,2011-01-15T03:03Z,"Guys, this won't work with iBoot.
+This is also v5.0 of Darwin. 6.0 has been release with MANY more fixes. Download that, then download the actual retail version(not a compilation like this).
+It may help some of you.
+I would still download this after an OS X installation for the ktext's and apps though."
+,Plan9x128,2011-01-28T11:03Z,Works with VMware player 3.1.3 (Windows 7 x86 host) with AMD Athlon 64 X2 240 (2.8GHz). Doesn't work with VirtualBox (restart problem/kernal panic). Use the following bootloader before install http://ifile.it/mfj0sa5/BOOT-KABYL-BUMBY.7z
+,dannyjaya,2011-01-31T13:17Z,"if my spec =
+intel pentum dual cpu 2.00GHz
+ga-g31m-s2c
+9400 GT (1Gb)
+3Gb of ram DDR2
+Matrox 160Gb 5200 r.p.m
+Can it run on my spec ?"
+,Jaymie1989,2011-02-02T04:41Z,"Hi,
+
+I am having problem with this on my AMD PC.
+
+Specs are:
+
+Processor: AMD Athlon LE-1620, 2400 MHz
+Motherboard: Asus M3A78-CM
+Memory: 3x 1GB DDR2 OCZ
+Graphics: ATI Radeon 3100
+Sound: VIA VT1708B CE
+Hard Drive: Western Digital 500GB (Windows 7 Installed on), Western Digital 320GB (Snow Leopard installed on)
+
+The installation says it was successful but upon restarting I get this:
+http://i195.photobucket.com/albums/z248/Jaymie1989/IMAG0005.jpg
+&
+http://i195.photobucket.com/albums/z248/Jaymie1989/IMAG0006.jpg
+
+Could someone help me or point me in the right direction please?"
+,taltro,2011-02-04T19:32Z,"will it work on:
+intel core 2 due E8400 (MSI) 3.00GHz
+3GB RAM DDR3
+NVIDIA GEFORCE 9600 GT"
+,MrNoNameX1,2011-02-05T19:50Z,"how do i install this?
+
+please help me guys"
+,aatt1234,2011-02-08T14:02Z,Does anyone know how to extract more than 4GB? 
+,aatt1234,2011-02-08T14:04Z,"Does anyone know how to extract more than 4GB ?
+Because the file doesnt want to extract it says nfts "
+,andreisun,2011-02-09T19:34Z,"Hi, thank you for the torrent, i will try this in virtualbox on an ubuntu host, hope it works. Anyway thanks!!!"
+,Unetwork2,2011-02-10T21:43Z,"downloaded this and when i started it just made me a error saying Uncompressed file is not the length recorded....
+I burned again this at the lowest burning speed, both on my Windows, Nero and Toast on my hackintosh.
+
+Any idea what the problem might be?"
+,Plan9x128,2011-02-12T13:06Z,"For those who want to enjoy on AMD pc, try VMware, Virtualbox will not work.
+Also you need a boot loader   http://ifile.it/mfj0sa5/BOOT-KABYL-BUMBY.7z 
+Just load the boot loader iso, press ENTER (2x), load this (Hazard's ISO), and boot."
+,Lexifir,2011-02-18T12:32Z,"Do I need to have the Leopard OSX installed prior to attempting to install this? OR is this intended to boot to a blank system?
+I've got an AMD processor (Phenom ii X6 1055T) which I want to test out to see if this will run. Can someone post a link to the Marvin AMD Utility please."
+,abhinav60,2011-02-21T17:05Z,"every thing went fine but when the installation completes the bootloader appears then i selected apple mac os snow leopard then the apple icon appears and after some time a dialogue box appears in which it was written that you need to restart your computer ....... in five different languages then i restart and same things happen again p[lzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+help me i really need to use mac
+
+plzzzzzzzzz"
+,jhonnyboy,2011-02-25T14:52Z,"Having problems installing on Virtual box. Getting the ""com.apple.Boot.plist not found"" error when i boot up into -v mode. Anyone know the fix to this?"
+,abhinav60,2011-02-26T07:02Z,"@jhonnyboy   
+try booting up with this
+-x -v busratio=20 cpus=1"
+,jhonnyboy,2011-02-26T14:42Z,"@abhinav60
+Didn't work. I get an error about VT when I start up the VM. I looked in the BIOS but couldn't find a setting for this. Running it on a Dell 530s w/ Phoenix BIOS. Going to do some more research, but can this be a deal breaker? No VT enabled = FAIL?"
+,jhonnyboy,2011-02-26T17:21Z,"Ok, I ended up combining all commands + the 32bit arch i.e. ""-x -v busratio=20 cpus=1 arch=i386"" and it was able to boot. It's hanging though. I took a print screen. Don't know if anyone can tell me what's going on...get's stuck at ""BSD root: disk1s2, major...."" 
+
+Here is the link to the printScrn: http://img198.imageshack.us/img198/7/osxvbox.jpg
+
+"
+,jhonnyboy,2011-02-26T17:23Z,fixed: http://img198.imageshack.us/i/osxvbox.jpg/
+,jhonnyboy,2011-02-26T17:24Z,"Combined syntax helped booting up, I used ""-x -v busratio=20 cpus=1 arch=i386"" but it's hanging now. 
+
+Attached a link to a printscrn. Any help would be greatly appreciated.
+
+http://img198.imageshack.us/i/osxvbox.jpg/"
+,aziboy69,2011-03-01T07:04Z,"I have hp dv5-116-em
+C2Duo
+2 Gb Ram
+320 GB Ram Seagate
+9600GS Nvidia
+Installs Good But Then GiveS Restart Problem
+Tells To Restart Again & Again"
+,Se7entijz,2011-03-01T21:19Z,have same problem as maisternir
+,jaredsanford,2011-03-04T16:10Z,"@Jaymie1989
+
+I've got the same mobo and and worked on this for weeks. Kernel panic after kernel panic. I gave up on this distro, but here is one that works: http://thepiratebay.org/torrent/5401125/SNOWLEO_MAC_Snow_Leopard_OSX86_64_For_INTEL_AMD_32_64_MBR_GUID
+
+it's only 10.6 but you can alway download the up date off either this site or another. DO NOT UPDATE FROM APPLE. 
+
+Cheers!
+-Jared"
+,erikhosteter,2011-03-14T15:59Z,"PLEASE HELP!!!
+it comes up to the black screen ""press any key...""
+but it restarts WHY???
+my Spec:
+2.0 AMD Athlon x2
+ATI Radeon HD 5870 Eyefinity 2047MB
+6GB DDR3
+2TB HDD"
+,cloudsin,2011-03-15T21:43Z,"what is the administrator's name and password???
+Please help...."
+,jmans25,2011-03-28T21:25Z,"@Plan9x128 dude u r a genus man! IF YOU HAVE AMD U HAVE TO USE WHAT HE SAID or IT WILL NOT WORK!!!
+
+also, to boot from the iso on the second prompt, after u press enter one time, enter ""e0"" no quotes into the prompt to boot!
+
+NOTE TO TORRENT UPLOADER: please post this very important step in the description! "
+,THEPOPEISGOD,2011-04-02T07:30Z,"I got it to work on my hp slimline 7700n with an AMD athon 64 X 2 3800+ cpu
+
+you have to use vmware tryed it on virtualbox on both my linux box and here and didn't work.
+
+I posted a tutorial here basically just the steps I took.  It worked for me so give it a try"
+,THEPOPEISGOD,2011-04-02T07:32Z,"http://leohazard.com/Forum/viewtopic.php?f=21&t=6171 
+
+sorry I didn't give the link"
+,asad.dhamani,2011-04-05T11:35Z,"will this work on dell Inpiron laptop n5010?
+Specs : Core i3 2.27 GHz
+3 GB of ram
+500 gb HD
+Intel HD graphics
+1366 X 768 resolution
+DW1501 Wireless-N WLAN Half-Mini Card"
+,baruch613,2011-04-06T06:57Z,"ok, i got this working on VMware, but now i want it on my computer it self. i did the extra boot loader since i have an AMD and that made it work in VMware, and i put it i think the exact same settings i put in vmware under the customize butten, and then it installs fine, but then i go to the thing wheere it  has windows and mac, with the camelion on the top of the screen, and i click mac, it goes and in the top left it says  had error will shut down it shows the apply logo and then infront of the apple logo it comes up with  the multi language error message thing. i installed 2 times with different settings and same thing. please help!!
+
+and my computer is a laptop not homemade like other people.
+
+dell inspiron 15r m5010
+amd phenom II n8520 X3 processor.
+500gb hdd
+4gb ram."
+,baruch613,2011-04-06T06:59Z,srry its an amd phenom II n850 X3 processor
+,asad.dhamani,2011-04-06T19:37Z,will this work on dell inspiron n5010??? anyone???
+,asad.dhamani,2011-04-07T09:58Z,will this WORK on a dell inspiron n5010 with core i3????!!!!
+,anous,2011-04-21T20:23Z,"i have core2 quad q9300 2.5ghz
+and 4 giga ram DDR2 800
+ati Hd radeon 5450
+motherbord MSI g31 
+some one tell me if that can work with this plz..."
+,malcolm_cg,2011-05-02T16:52Z,"will this work on my PC?
+Processor: AMD Phenom II X4 955 BE
+MB: GA-880GM-USB3
+RAM: 4GB DDR3
+ATI 4250HD onboard
+HDD: WD 1TB SATA
+
+downloaded the image. shud i burn it as it is & install?
+sum HELP plz"
+,DayGhost,2011-05-04T14:02Z,"Ya i downloaded this and tried to install it on Vmware did not work, I restarted my computer to install in but all it does is restart after saying loading. why does it keep restarting?
+
+AMD athlon II X3 445 3.10 GHz
+2 GB DDR2 667
+Geforce 9500GT 512 MB"
+,DayGhost,2011-05-05T02:01Z,I got passes the restarting problem.. I pressed F8 then typed cpus=1 busratio=20 then i saw the apple icon then it was good from their.
+,der259007,2011-05-13T13:04Z,Can it support Mobile Intel 4 chipset family T4400???
+,Machiavelli1,2011-05-15T15:01Z,"It work on AMD X2 4800+ ! And you can update till 10.6.5 , but you nee to replace the kernel with latest legacy kernel ! ;)  
+for me works with this selection :
+Legacy Kernel 
+Graphic Enabler ( If you got Nvidia VGA ) Cmos Reset Fix Legacy Apple RTC , Azilla Audio (Award BIOS ) IOATAFAMILY FIX + Sata FIx , NVenabler , AMD , X11 And AppleUpstreamUserClient and Zydas(but you must find this one from the net ! ;) Wish you luck ! :)"
+,neronx,2011-05-25T22:24Z,"Dear Hazarad,
+I have lost 2 f**king days on your f**king torrent.
+Could you explain to me how can I patch my Iso Image with the ppf  or whatever the program is called (it only opens ppf files)(I even tried on Mac Os VmWare) with the file that has .kmext extension!
+Or could you be so kind to explain to me why the iso image is not visible in Mac os X  finder.     "
+,xxKitsunexx,2011-05-27T12:34Z,"would it have killed you to include a fucking read me? i downloaded the 10.6.1-10.6.2 ppf from leohazard.com, patched it with PPF O Matic, but i still see only 8 fucking files, 197 kb. I've wasted 2 DVD-R s because apparently you can't format it.
+Anyone want to explain what I need to do?"
+,oatgarum,2011-05-28T11:59Z,"Hello this version of snow leopard can run on my ASUS notebook ?
+
+Intel® Core™ i3-370M Processor 2.40GHz 
+Chipset Mobile Intel® HM55 Express Chipset
+RAM 3GB DDR3
+Video Graphics : Integrated Intel® GMA HD 
+
+Would somebody can tell me if can run before i will download this...Thank u very much.. :))
+"
+,fakenstein666,2011-06-30T08:22Z,"Can it run on my PC
+Intel Cleron E1500 - http://ark.intel.com/Product.aspx?id=35100
+
+I have 1GB of RAM."
+,jodr666,2011-07-04T08:57Z,"Download, OK. Now i just have to figure out how to make it work on my pc."
+,lizzy_rawr,2011-07-05T18:24Z,will it work on dell inspiron 1521 with amd processor and toshiba satellita L655D-S5050
+,scramp3,2011-07-18T16:25Z,Winrar and 7zip = File is broken
+,awesome_life,2011-07-23T06:27Z,"working on my AMD pc, thanks"
+,Dingle182,2011-07-25T04:53Z,"I dowloaded and got it working great under VMware workstation. then i tried upgrading it, it all seemed fine but now vmware keeps saying :
+A virtual CPU has entered the shutdown state.
+This would have caused a physical machine to restart. This can be caused by an incorrect configuration of the virtual machine, a bug in the operating system or a problem in the VMware Fusion software. Press OK to restart the virtual machine or Cancel to power off the virtual machine.
+
+When i try to boot it. any ideas?"
+,Naeblis_2512,2011-07-26T22:24Z,"Works perfectly, but I'm also facing the same issues as Dingle182 when shutting down the guest OS.
+Thanks for this man. Never used a mac before :)"
+,g2khannah,2011-08-02T17:03Z,"Hi PROTOCOLX,
+
+Atlast i made this Distro Worked on my AMD Phenom II X4 965.. :P installed with 
+""Cpus=6 busratio=10""
+and got a Working Snow 10.6
+
+System Config
+AMD Phenom II X4 965
+Asus M4A88TD-V
+4GB DDR3
+1TB Seagate Sata
+LG Sata DVD Drive
+Logitech Keyboard and Mouse
+
+
+Thanks for the Distro.. "
+,Ram69,2011-08-08T22:00Z,Doest it work in dell having graphices intel?
+,Ram69,2011-08-08T22:01Z,Doest it work in dell computer  having graphices intel not ATI and AMDA?
+,testarap,2011-08-15T14:51Z,"AMD phenom ii x6 - not working
+
+on the time of Begin installation it restarts.
+
+I have tried -v, -x, -f  and some other options but no result. I think it's not for AMD Phenom 2 x6. If any one can help please update..."
+,ap1922,2011-08-15T18:31Z,I'm downloading at 14.6kB/s o.O 1.7%...
+,akshay101,2011-08-30T08:34Z,can i use it with Vmware 7 on windows 7 64bit ultimate ?
+,Lozzie,2011-08-30T18:17Z,Thanks very much! Works fine on my Windows 7 Ultimate 64bit VirtualBox 4.0.12 which is running on a Core i7 950 6GB rig.
+,DurtySocks,2011-08-31T22:52Z,Can I just burn this onto a DVD and use it?
+,DurtySocks,2011-08-31T23:03Z,Can I just burn this on a DVD and use it?
+,MrDaniel7891,2011-09-01T00:36Z,"Hoi, ik probeer deze snow leopard op mijn pc te installeren maar op een gegevenmoment geeft hij aan kan essentials niet vinden of zoiets. ook als ik niks aanvink bij aangepaste installatie. wat moet ik doen"
+,vishydoc,2011-09-02T08:42Z,"hey hazard , i have amd turion 64,
+
+Northbridge			NVIDIA GeForce 6150 rev. A2
+Southbridge			NVIDIA nForce 410/430 MCP rev. A3
+Memory Type			DDR2
+
+not able get working, kindly suggest"
+,v2513432,2011-09-03T20:12Z,"hi, what commands do i have to enter to make this work? (-v?) (busratio?) (cpus=?)
+
+my system:
+BIOSTAR A770E3 AM3 AMD 770 ATX AMD Motherboard
+AMD Phenom II X6 1055T Thuban 2.8GHz
+ATI Radeon HD 6870 1GB 256-bit DDR5 PCI Express 2.1 x16
+normal 7200rpm hd"
+,G-skill,2011-09-05T09:55Z,"ple.. help my system can run yr mac
+ASUS Crosshair IV Formula
+Phenom x6 1100t
+RAM G-skill 2x4
+XFX 9600GT 512MB
+HHD SATA 500GB"
+,Traum,2011-09-15T15:54Z,"Works fine, but I use Virtualbox, (in Linux) http://lifehacker.com/5583650/run-mac-os-x-in-virtualbox-on-windows"
+,KoolKidDee,2011-09-19T17:31Z,Seed please!!! I been waiting a whole day and a half getting only 20-90 kb/s. I registered just to say this.
+,piripi,2011-09-20T05:56Z,"Can somebody help me?? I Booted the dvd with no problem. But, when I get to the menu to choose your language. I can'r because, my mouse and keybord don't work. thanks."
+,pushkaryadav,2011-09-22T19:56Z,"sorry guys.. i know i SHOULD read all the comments and forums but can anyone help me, i read so many guides on internet, even downloaded three images one of lion and two of snow leopard but could not install any of them (i'm SO tired of doing all this stuff, really, even wasted so many DVD but more than that one whole week)...
+
+my specs are (Dell Insipiron N4110) -
+Intel HD Graphic card 
+4 GB Ram
+Intel Core i5 proccessor @ 2.3 GHz
+64 bit processor running windows 7 (i want to dual boot)
+
+you can even mail me... pushkaryadav2007@yahoo.co.in
+or just reply here, to my comment,
+
+plz plz plz O:D"
+,elaine-,2011-09-26T08:15Z,HMM NICE ONE.. IT WORKS.. ALL YOU NEED IS PROPER PATCH AND SETUP PROCESS WHICH YOU CAN FIND AT - http://forums.techarena.in/guides-tutorials/1431701.htm
+,zekeisaszekedoes,2011-09-27T18:07Z,"I'm impressed: this is one of the few OSx86 ISOs I've burned to DVD that actually boots.  My Leopard one just hangs at the ethernet driver loading.
+
+I'm forcing 32-bit and 1 CPU as I'm trying to install to an old Dell D810.  Lotta options to choose and not much info on how to get it running after install without just hanging before starting to boot correctly.  It's taking a while but I figure after finding the right combination it will work even if the sound/video/ethernet drivers might not be perfect at first.
+
+Thanks for the upload!"
+,zekeisaszekedoes,2011-09-27T20:38Z,"This works!  I got it booting up.  Not much use without sound, network adapters and display forced to 1024x768, but with any luck I can get wireless drivers on my third-party 300Mbps N mini PCI card and other drivers to fix the rest.
+
+I'm impressed."
+,wfinken,2011-10-05T08:57Z,Seed please?
+,wfinken,2011-10-05T09:06Z,thanks!
+,genzters25,2011-10-08T15:58Z,can i burn this into a dvd using my pc?with nero?
+,genzters25,2011-10-08T16:01Z,"is this working in a pc with:
+processor: intel core 2 duo @ 2.80 GHz
+video card: Nvidia 9500 GT 1gb
+mother board: AsRock G41m-vs2
+3gb ram"
+,Zukaro,2011-10-14T02:48Z,"1. will this run on my Acer Aspire One?
+2. can I boot this from USB?
+
+I'm going to triboot Snowleopard with Windows 7 and Ubuntu 10.10.  *has Ubuntu 10.10 and Windows 7 on my netbook already, but if needed I could wipe the drive*"
+,prashu85,2011-10-14T14:37Z,"hey i have successfully installed it in my dell inspiron 1545 but after installation it is not booting up or i guess the bootloader is not installing what to do 
+if i m using another boot cd of bootloader as i open mac drive apple screen comes and it shows the power logo which says to restart your computer"
+,TinNgu123,2011-10-16T13:32Z,"I got this to work.. 
+
+but when I update the system.. there's an error message... can someone tell me how or is it possible to update this..?"
+,TinNgu123,2011-10-16T13:35Z,can you update this once you install?
+,Zukaro,2011-11-01T06:31Z,"I need some help with this.  I'm trying to get this to boot on my Acer Aspire One (AOA-150/ZG5).
+
+Currently I have this running in a Virtual Machine on my desktop, I tried to make a bootable USB but that didn't work.  So I went out and bought some blank DVD's to use for this *and for my other OS's in case this turns out impossible*.
+
+Anyways; I have an external disk drive I can plug in through USB; I tried to boot from that but it wouldn't.  I've been trying for almost a month to get this working; doing tons of research and downloads and so far nothings worked.  So I'm asking here; hopefully someone will know how to get this working on an Acer Aspire One.
+
+Also, I copied the iso to the disk and burnt it that way; after I did that I've heard that people say I should use something else to do that *downloaded a program for that*, but before I waste another DVD, would that actually be the issue when it comes to booting from the DVD?
+
+I'd rather have this booting from USB, but if that's not possible then the DVD is fine."
+,luukje41,2011-11-02T16:34Z,It say i have to restart my computer and when i restarted my computer it will come back how do i fix it
+,TheDaniel23,2011-11-26T23:26Z,"My Specs:
+Intel Pentium Dual Core E5700 @ 3,45 Ghz OC
+AMD Radeon HD 6570 1GB
+4GB DDR3 RAM
+Windows Vista Home Premium 32 Bit (Dual Boot)
+What kernel and other stuff must i choose at installation? Plz Help ME!!!!!"
+,TheDaniel23,2011-11-26T23:28Z,"Also:
+What is the best program to burn this disk?
+Had some trouble with MagicISO and PowerISO so need help plz"
+,benign.psychosis,2012-01-05T06:26Z,"if you get a voodoo clock error when on an AMD, just reboot and press F8. Then press F8 again to enter bootflags and type in: busratio=16 or some other number depending on your cpu multiplier."
+,daggard,2012-01-09T15:23Z,"Hi All,
+
+I have a HP Pavilion 061 with hardwares as follows:
+
+
+- MotherBoard: Asus PTGD1-LA (3 PCI, 1 PCI-E x16, 4DDR DIMM, AUDIO, LAN, IEEE-1394)
+
+- MotherBoard Chipset: Intel Grantsdale i915P/i915G
+
+- MotherBoard Southbridge: Intel 82801FB (ICH6)
+
+- Processor Specification: Intel Pentium 4 640, 3200 Mhz (16 x 200)
+
+- Processor Instructions: MMX, SSE, SSE2, SSE3, EM64T
+
+- Package: Socket 775 LGA
+
+- Sytem Memory: 1792 Mo (1GB Mo, 512 Mo, 256 Mo = all are DDR SDRAM PC2700 166 Mhz)
+
+- Graphic Card: NVIDIA GeForce 8500 GT (1024 Mo)
+
+- Sound Card: PCI C-Media CMI8738/C3DX Audio Device
+
+- Hard Disk: SAMSUNG HD103SI (1 To)
+
+- LAN: Realtek RTL8139/810x Family Fast Ethernet NIC
+
+
+My question is, Is this version can be supported with the requirements of my PC, If not please recommend for me a working version.
+
+Your help will be really appreciated.
+
+Thanks for your help."
+,Rykimaruh,2012-02-11T04:50Z,"So if anyone can clear my doubts, I can run this Snow leopard in Virtual Box. However I would like to try it to install it directly into an AMD Laptop rather than a virtualbox.  
+
+Do I burn the iso image to a dvd and boot it up directly from it or...is it something else?"
+,unchifag,2012-02-14T16:20Z,"Unchi you are such a fucking faggot. Seriously, shut the fuck up asshole."
+,ego0o0o,2012-02-18T04:54Z,"is it work with my pc
+
+
+CPU Type QuadCore AMD Phenom X4 9550, 2200 MHz (11 x 200)
+ Instruction Set x86, x86-64, MMX, 3DNow!, SSE, SSE2, SSE3, SSE4A
+ Motherboard Name Gigabyte GA-MA78GM-US2H v1.0
+ RAM 4G DDR2
+ Device De******ion ATI Radeon HD 3200 Graphics
+ SONY DVD RW DRU-865S ATA Device
+ WDC WD10EADS-00L5B1 ATA Device
+ Realtek RTL8168C(P)/8111C(P) Family PCI-E Gigabit Ethernet NIC (NDIS 6.20"
+,rosocool1,2012-02-22T02:19Z,I wonder if its any good 
+,fuckenmoose,2012-02-27T01:37Z,"This works exellent ! 
+after using this download a software called Myhack 2.2 and use that ! it comes with the chameleon loader and it works liek a charm. all my drivers from my dell 1545 were there! trust me this shit really works :) 
+
+it boots up well.. 
+im not attempting to dual boot with win7 :) 
+
+enjoy and say thank you to 
+protocolx! 
+you fucking rule !"
+,fuckenmoose,2012-02-27T01:39Z,"i meant to say "" Im now attempting to.."""
+,fuckenmoose,2012-02-27T01:43Z,"I have a question to you protocolx, could i update with this version ?? 
+i tried downloading the latest version of itunes on the fully working inspiron i had, and it gave me an instant panic and it wont boot anymore. it keeps telling me to turn off the computer in every language possible.
+Its all good its not my first time installing, more like the 7 and all different methods.. 
+this one actually worked . 
+are we not suppost to update after this version?
+that would suck balls.. just get back at me ..
+kidprep7@yahoo.com, subject :protocolx "
+,rmpirated,2012-03-01T08:32Z,My guide
+,rmpirated,2012-03-01T08:33Z,"Thank you Hazard !! Finally got it to work. It requires patience. I dual booted Windows 7 and Snow leopard successfully. OK so here goes:
+
+I booted from disc, installed, and many time i got ""you have to restart your pc.."". This is a kernel panic. Here are steps taken to prevent this and install and dual boot successfully (I am writing this guide off my head so forgive me if i make mistakes):
+
+-BACK UP YOUR DATA !!
+
+-Burn dvd using any iso burner or if in windows 7, just double click and burn
+
+-Boot from CD
+
+-Press any key quick
+
+-Screen goes to apple logo, installation screen appears.
+
+-ON top bar, click utilities and click disk utility.
+-click on your hard drive name on left panel. 
+
+click partition. Under partition, click drop down list and choose 2 partitions. Type a names for your partitons and size them accordingly. (The 2nd partition is for windows 7).
+
+-Choose 1st partition. under format, choose mac os extended journaled. click options, choose GUID table, click ok. 
+
+-Choose 2nd partition, under format, choose NTFS. click options, choose master boot record.
+
+-Finally click erase. This will partition your hdd making it ready for dual boot.
+
+-Turn off pc. i think click 1st tab, exit disk utility. click it again, shut down. or just hold power button 5 seconds.
+
+-Boot from Windows 7 DVD and install to 3rd partition. (Mac created 2 partition for itself, these will show as unknown)
+
+-Pc will now boot to windows 7.
+
+-Power off and reboot from this snow leopard hazard dvd.
+
+-repeat steps to reach installation screen.
+
+-click next until u see the customize button appear on the left. click it too choose various options.
+
+-Now this is the tricky part. ONLY u know what your system specs are. Take note of any IDE drives, ps/2 keyboards/mice, Processors older than Core 2 duos, AMD processors, etc that u have. My only problem was my IDE hdd. Use google to know which kexts u need. The main ones are chameleon etc. NOTE: Dont choose legacy kernel drivers as you may not need them. Also, I have not tried ticking all options but this is corrupt installation as drivers may clash. I cant say which drivers you may need/not need. 
+
+-After choosing drivers, OK, Click drive, Install
+"
+,rmpirated,2012-03-01T08:36Z,"continuation
+
+-Boot from Windows 7 DVD and install to 3rd partition. (Mac created 2 partition for itself, these will show as unknown)
+
+-Pc will now boot to windows 7.
+
+-Power off and reboot from this snow leopard hazard dvd.
+
+-repeat steps to reach installation screen.
+
+-click next until u see the customize button appear on the left. click it too choose various options.
+
+-Now this is the tricky part. ONLY u know what your system specs are. Take note of any IDE drives, ps/2 keyboards/mice, Processors older than Core 2 duos, AMD processors, etc that u have. My only problem was my IDE hdd. Use google to know which kexts u need. The main ones are chameleon etc. NOTE: Dont choose legacy kernel drivers as you may not need them. Also, I have not tried ticking all options but this is corrupt installation as drivers may clash. I cant say which drivers you may need/not need. 
+
+-After choosing drivers, OK, Click drive, Install
+
+-Installation takes about 6-10minutes. Pc will reboot automatically. 
+
+-You will be rebooted into chameleon bootloader and after 3 seconds it will automatically boot mac. If all went well, you will see an apple with and then mac setup menu appears. If not, you will get the ""your pc needs to reboot error"" like me many times right after apple.
+"
+,rmpirated,2012-03-01T08:38Z,"
+-Reboot and at bootloader, quickly hit any key to pause timer. You should see 2 options, Snow leopard and Windows 7. Type darkwake=0 and at the bottom of the screen, you will see bootloader: darkwake=0 appear. Hit enter too boot mac. It will boot as normal but instead of the reboot error msg, you will see a kernel panic code. Wait till you see a kernel panic appear.  look for the line where it says someting about kernel dependancy and a something.kext. 
+
+"
+,rmpirated,2012-03-01T08:42Z,"-how to delete kext: Boot up to bootloader, pause, and type -v and hit enter. wait till you see root# . "
+,rmpirated,2012-03-01T08:43Z,"
+-Use google to find a guide to delete the kext in particular.
+
+-Reboot into bootloader and allow mac to boot. hopefully if all went well, you should see account setup screen
+
+Thats all advice I can come up with for now. Please note that this will not be easy. You are installing an OS not made for a PC onto a PC. Problems will happen as apple has not accounted for all the different combination of specs of pcs out there in the world.
+
+Good Luck, I hoped it helped a bit !!!!"
+,SYFIER,2012-03-11T05:28Z,"Well. It download rather quickly and I'm really happy about that, but...every time I try to copy my files to my Memorex Dual Layer DVD+R 8x 8.5GB 240min DVD, it fails to copy the ISO image in every  DVD/ISO burning program I've tried to use. I also cannot copy the file to my hard drive, it says 'file too large for designated destination' or some shit like that but I have a 1TB Hard Drive...any pointers? Thanks!"
+,karthik2409,2012-03-12T14:09Z,@rmpirated can you explain me step by step  how to make a bootable dvd in windows 7 of this torrent so that i can install it in my pc
+,karthik2409,2012-03-12T14:12Z,can any one explain me step by step how to make a bootable dvd in windows 7 of this torrent so that i can install it in my pc
+,noob45,2012-04-14T01:42Z,"Can somebody post a brief comment on how to install this os for noobs like me? Also, are my drivers (currently on one cd from pc manufacturer) compatible with Snow Leopard? =)"
+,cherrylo,2012-04-22T18:06Z,"hiii ... im a newbie for the hackintosh.. i downloaded Snow_Leopard_10.6.1-10.6.2_SSE2_SSE3_Intel_AMD_by_Hazard
+and m having cofiguration 
+Processor : core2duo E7500 @2.9 ghz
+RAM: 2GB 
+1 gb nvidia graphic card..
+while im booting with cpus=1 busratio=6 arch=i386
+it is strucking at apple logo.. and even i cant the spinning wheel.. i have to restart my cpu to work..
+even i tried booting with iboot it is showing kernal error 
+
+Kernal panic occured 
+panic cpu 0 caller 0X55aa33
+unable to find the driver for this platform ............................... IOplatformexpert.cpp:1319
+....
+
+how do i solve this..? please help me..."
+,lak203,2012-05-11T20:38Z,"HAZARD  i need your help please
+
+
+my system specificaiton as follows
+
+CPU	
+
+   1. LGA775-pentium-4 630
+
+   2.Supports 800/533MHz FSB 
+
+Chipset	
+
+   1. Northbridge: Intel® 945GZ Express Chipset
+   2. Southbridge: Intel® ICH7 Chipset
+   3. Marvell 8001 Gigabit Ethernet controller
+   4. Realtek ALC883 HD Audio codec 
+
+Memory	
+
+2 GB 800 transcend 
+
+Graphic Card
+
+Nvidia 8400Gs DDR3 1Gb
+
+
+I have not yet installed your Os please specify the Current patch Details please Sir,
+
+
+i am a lover of MAC i Want to install it into my pc Please provide the ""PATCH DETAIL""
+
+my mail id is mcitizen203@gmail.com"
+,WopTopPop,2012-05-20T19:24Z,This is awesome! Completely legit and works like a dream.
+,chuuninkid,2012-06-07T20:21Z,"already burned it, but it wont even reach the grey apple logo... could someon tells me what went wrong??
+
+my specs are
+athlon2 x4
+biostar 790gx am2+
+4gb ddr2
+ati radeon 5750"

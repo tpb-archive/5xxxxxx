@@ -1,0 +1,147 @@
+User Type,Username,Date,Text
+,addictedtomovies,2009-12-26T17:12Z,Can you please do Little Black Book and Deadline where they are compatible with the iPod? The Deadline that you have loaded will not play on my 80G iPod Classic.  Thanks for all you do.
+[V],twentyforty,2009-12-26T18:12Z,"Deadline is 110% compatible with ipod and clones:
+[ About file ]
+
+Name: Deadline.2009.BluRay.H264[PC.Mac.Xbox.PS3.ipod].mp4
+Date: 12/12/2009 13:37:22
+Size: 274,390,849 bytes (261.68 MB)
+
+[ Generic infos ]
+
+Play duration: 01:25:07 (5107.205 s)
+Container type: MP4/MOV
+Major brand: Apple AAC audio w/ iTunes info version 0
+Compatible brands: ISO Base Media, JVT AVC
+Creation time: 11/12/2009 12:36:47 UTC
+Modification time: 11/12/2009 12:36:47 UTC
+Number of streams: 4
+Type of stream nr. 1: audio (AAC Low complexity) {GPAC ISO Audio Handler}
+Type of stream nr. 2: video (avc1) {GPAC ISO Video Handler}
+Type of stream nr. 3: text (tx3g) {GPAC Streaming Text Handler}
+Type of stream nr. 4: text (tx3g) {GPAC Streaming Text Handler}
+Audio streams: 1
+
+[ Relevant data ]
+
+Resolution: 480 x 272
+Width: multiple of 32
+Height: multiple of 16
+
+[ Video track ]
+
+Codec: avc1
+Resolution: 480 x 272
+Frame aspect ratio: 30:17 = 1.764705 (~16:9)
+Pixel aspect ratio: 1:1 = 1
+Display aspect ratio: 30:17 = 1.764705 (~16:9)
+Framerate: 23.976023 fps
+Number of frames: 122445
+Bitrate: 362.578345 kbps
+
+[ Audio track ]
+
+Codec: AAC Low complexity
+Bitrate: 64.806198 kbps
+Channels: 2
+Sample rate: 44100 Hz
+
+[ About H.264 encoding ]
+
+User data: x264
+User data: core 59
+User data: H.264/MPEG-4 AVC codec
+User data: Copyleft 2003-2008
+User data: http://www.videolan.org/x264.html
+User data: cabac=0
+User data: ref=3
+User data: deblock=1:0:0
+User data: analyse=0x3:0x133
+User data: me=dia
+User data: subme=6
+User data: brdo=1
+User data: mixed_ref=1
+User data: me_range=16
+User data: chroma_me=1
+User data: trellis=0
+User data: 8x8dct=1
+User data: cqm=0
+User data: deadzone=21,11
+User data: chroma_qp_offset=0
+User data: threads=3
+User data: nr=0
+User data: decimate=1
+User data: mbaff=0
+User data: bframes=0
+User data: keyint=24
+User data: keyint_min=13
+User data: scenecut=40(pre)
+User data: rc=2pass
+User data: bitrate=372
+User data: ratetol=1.0
+User data: rceq='blurCplx^(1-qComp)'
+User data: qcomp=1.00
+User data: qpmin=10
+User data: qpmax=51
+User data: qpstep=4
+User data: cplxblur=20.0
+User data: qblur=0.5
+User data: ip_ratio=1.40
+User data: aq=2:1.00
+User data: zones=1,2374,q=24
+SPS id: 0
+  Profile: High@L3
+  Num ref frames: 3
+  Aspect ratio: Square pixels
+  Chroma format idc: YUV 4:2:0
+PPS id: 0 (SPS: 0)
+  Entropy coding type: CAVLC
+  Weighted prediction: No
+  Weighted bipred idc: No
+  8x8dct: Yes
+
+[ Profile compliancy ]
+
+Profile to check: MTK PAL 6000
+Resolution: Ok
+Framerate: 23.976023  25
+
+You probably have either corrupted file (it happens, file is playable on computers but cannot be transfered by paranoid iTunes.
+
+It would be stupid to re-encode it again, right? There is a fat chance that your iPod/firmware cannot digest that new (hyphotetical) encode too.
+
+So,you can follow some advice given on doom9.org forum:
+""Ranguvar
+27th October 2007, 00:23
+Just popping in, you can bypass iTunes quite easily.
+
+1. Create a very small compatible MP4.
+2. Sync with iTunes.
+3. Open iPod drive in Explorer, look for the very small MP4.
+4. Replace it with your own MP4. Make sure the name matches.
+
+Make sure iTunes doesn't try to re-sync!"""
+,sassymoon,2009-12-26T18:21Z,"thanks for this one, twenty :) how was your christmas? i hope it was a good one. "
+[V],twentyforty,2009-12-26T18:23Z,"BTW, this encode has subtitles muxed-in the mp4 container.
+That was The Reason why I have opposed to classifying my encodes as ""Movies-Handhelds"" and moving them there by moderators.
+
+Subs was the exact reason, and I have mentioned that specifically. Dozen of times after first few ""incidents"". Now you see who was right.
+
+Now, you can upgrade your firmware or play subtitled movies on computer..."
+[V],twentyforty,2009-12-26T18:27Z,"@sassymoon: Thanks. For the thanks. And above wasn't for you, but for ""addictedtomovies"".
+
+PS: Xmas was warm and - sad and quiet. But thanks for asking."
+,nemesis160,2009-12-26T18:44Z,thanks man............ur the god.........thaks once again...dude any chances of how i met ur mother complete seasons............anyways thanks foe the taking woodstock also........great quality man/.........loved it
+[V],twentyforty,2009-12-27T09:26Z,"@addictedtomovies:
+You may try to remove subtitles tracks from otherwise ipod compliant file:
+- Google and download mp4box; it is free program, available for all platforms (operating systems)
+- Google and download mediainfo, it's also free tool, to get which tracks are subtitles - usually video is Track 1, audio Track 2 and subtitles are 3, 4 and so forth...
+- put mp4 in folder together with mp4box, open CMD box there (or shell window) and issue:
+>mp4box -rem 3 *.mp4
+and if needed
+>mp4box -rem 4 *.mp4 and for any subtitle track you want to remove, by changing respective track number (3,4,5...)
+
+Do it with copy of mp4, not with the ""original"" in case that something goes wrong.
+
+Resulting (new) mp4 would be without removed tracks which may cause troubles for ipods without international/timedtext support in the firmware.
+Old and the new file are perfectly compliant with ipod."

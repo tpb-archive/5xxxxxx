@@ -1,0 +1,34 @@
+                      http://handbrake.fr/index.php
+
+
+
+
+Details
+
+HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder, available for MacOS X, Linux and Windows.
+
+Screenshots
+Supported Sources:
+
+    * Any DVD-like source: VIDEO_TS folder, DVD image or real DVD (unencrypted--protection methods including CSS are not supported internally and must be handled externally with third-party software and libraries), and some .VOB and .TS files
+    * Most any multimedia file it can get libavformat to read and libavcodec to decode.
+
+Outputs:
+
+    * File format: MP4 and MKV
+    * Video: MPEG-4, H.264, or Theora
+    * Audio: AAC, CoreAudio AAC (OS X Only), MP3, or Vorbis. AC-3 pass-through, DTS pass-thorugh (MKV only)
+
+Misc features:
+
+    * Chapter selection
+    * Subtitles
+    * Integrated bitrate calculator
+    * Picture deinterlacing, cropping and scaling
+    * Live Video Preivew
+
+Credits
+
+HandBrake uses a lot of (L)GPL librairies from the Linux world: 
+
+                          Thank their authors!

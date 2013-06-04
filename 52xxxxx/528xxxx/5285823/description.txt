@@ -1,0 +1,23 @@
+Windows Communication Foundation (WCF) is a new Microsoft technology for allowing software to communicate. Superseding earlier technologies, such as COM/DCOM, .NET Remoting, ASP.NET Web Services, and the Web Services Enhancements for .NET, WCF provides a single solution that is designed to always be the best way to exchange data among software entities. It also provides the infrastructure for developing the next generation of Web services, with support for the WS-* family of specifications, and a new serialization system for enhanced performance. For information technology professionals, WCF supplies an impressive array of administration tools that enterprises and software vendors can use to reduce the cost of ownership of their solutions without writing a single line of code. Most important, WCF finally delivers on the long-postponed promise of model-driven software development with the new software factory approach, by which one can iteratively design solutions in a modeling language and generate executables from lower-level class libraries.
+
+ 
+
+Windows Communication Foundation Unleashed is designed to be the best resource for software developers and architects working with WCF. The book guides readers toward a conceptual understanding of all the facilities of WCF and provides step-by-step guides to applying the technology to practical problems.
+
+ 
+
+    * Introduces you to WCF and then takes you deep inside the technology
+    * Gives you nearly 100 best practices for programming with WCF
+    * Provides detailed coverage on how to version services that you will not find anywhere else
+    * Delves into using WCF together with Windows Workflow Foundation and Windows CardSpace
+    * Provides detailed coverage of the new high-performance data contract serializer for .NET
+    * Walks you through how to do secure, reliable, transacted messaging, and how to understand the options available
+    * Introduces you to federated, claims-based security, and shows you how to incorporate SAML and WS-Trust security token services into your architecture
+    * Provides step-by-step instructions for how to customize every aspect of WCF
+    * Shows you how to add your own behaviors, communication channels, message encoders, and transports
+    * Gives you options for implementing publish/subscribe solutions
+    * Walks you through how to do peer-to-peer communications with WCF 
+
+ 
+
+As evangelists at Microsoft for WCF, Craig McMurtry, Marc Mercuri, Nigel Watling, and Matt Winkler are uniquely positioned to write this book. They had access to the product as it was being built and to the development team itself. Their work with enterprises and outside software vendors has given them insight into how others see the software, how they want to apply it, and the challenges they face in doing so.

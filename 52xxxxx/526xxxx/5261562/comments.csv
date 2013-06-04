@@ -1,0 +1,81 @@
+User Type,Username,Date,Text
+,goodhope357,2010-01-07T00:38Z,I do not know what software is it?
+,Amerialb,2010-01-07T01:08Z,"NOTE: To use Jeppesen Chart Trainer, you will need to burn it to disk or make an iso and mount it, because the program wants to read from the disk in order to use each session."
+,kublakan,2010-01-08T15:45Z,"I have downloaded the files and extracted them, followed the instructions and the flight deck program has installed, the problem I am having is when I try to install the 901 D1 it starts but then gives an 'unregognized disc' message.
+
+The extracted files are in my downloaded file, but there are no ISO files so can't mount the disc, is this the problem, and can anyone tell me how to resolve this.
+
+Cheers  "
+,Amerialb,2010-01-08T17:38Z,"Mr. Kan please forgive me for not being very good with computers, I can only suggest two things: 
+1. Your 'unrecognized disc' message is probably due to issues with your HD and might be resolved by defragging.
+
+2. The only other suggestion would be is to burn each file folder to disk and run the install from the CD.
+
+hope this helps.
+
+Hey, does ne1 have Sky Diver 2009?"
+,jeratpb,2010-01-08T23:55Z,"I had to make 2 NavData ISOs and give them specific volume labels:
+0901JVGB_1 and 0901JVGB_2
+Only then I was able to mount them and install without error"
+,torro66,2010-01-09T12:31Z,"Thx JERATPB, I managed to install using MAGIC disc and MAGIC ISO, but can't update as the activation by phone pre fills with the wrong site code, so can't update.  does amerialb have any ideas???"
+,Amerialb,2010-01-09T20:00Z,"Hmmm....Torro, I did have that problem as well, thats what drove me insane trying to install it.
+Thats when I went into the documents and settings-administrator-local settings- temp folder and deleted everything then did the install and deleted everything in the temp folder after each disc, only then did the site code take. This was in XP of course, as for Vista I do not know.
+
+I would remove everything you installed, clean the registry of any Jeppesen entries, delete the contents of the temp folder and try again, being very diligent to delete the temp folder after each install.
+
+Hope this helps."
+,Amerialb,2010-01-09T20:02Z,Torro.. oops don't delete your temp folder just its contents.
+,jeratpb,2010-01-11T07:24Z,"@Amerialb:
+I also couldn't update directly from Internet, so I downloaded new AIRAC data (search for Jeppesen Airac 0925) and installed it"
+,Amerialb,2010-01-11T08:47Z,"jeratpb... yep, I had to do the same thing, but I had to install the 0901 navdata first so it would take the site key, then I went here to PB and download the 0925 navdata."
+,torro66,2010-01-11T15:53Z,"Amerialb...Yes I cleared the TEMP folders as per instruction, but still have the same issue.  Which is the best method to clear the registry I'm not sure.  Do I run MSCONFIG???with a command.  I've installed the Airac0925 ISO's, so it works at the moment but says out of date by 17days, so still can't update.  thanks for all the help anyway."
+,Guz28,2010-01-16T05:46Z,is this for include in flight simulator?! thanks!
+,Amerialb,2010-01-19T19:04Z,"OK its here everybody, download the latest navdata 1001
+
+http://thepiratebay.org/torrent/5291853/FS9_-_FSX_Navigraph_AIRAC_Cycle_1001"
+,Amerialb,2010-01-19T19:47Z,"sorry, not the right one."
+,oemm1,2010-01-24T13:16Z,"Installation with hints from that forum well done!
+Everything is working properly, but when I changed date and time back to actual ones, I do not get any charts anymore.
+
+So, an update should be done.
+
+Has anyone experience with the update, because IÂ´m afraid, that after the update nothing will work anymore.
+
+So if you have done an update succesfully, please share your information in detailed way.
+
+Thank you!"
+,Amerialb,2010-01-24T19:32Z,"Oemm1....I am not sure what you mean by your question, but I can only say this. I use Jeppview along with FSX, I still do not know how to get it to connect to FSX or even if its possible, I just use it with a second monitor to view sim plates and nav aides. Everything here at TPB is pirated software and should not be taken any other way. So no one should ever try to connect to jeppesen to update the navdata or whatever because it will crash the program. We just have to wait for some generous soul who gets the Jeppview cycles and post them here at TPB. the last posted cycle was 0925. Thats it! 
+
+I apologize if this does not answer your question."
+,oemm1,2010-01-25T11:38Z,"Thanx, the answer is clear, only one last question: Where to get 0925?
+
+Regards!"
+,torro66,2010-01-26T08:11Z,"oemm1, if you google airac 0925 and look for the jeppesen torrents you will find the latest one.  http://www.kickasstorrents.com/jeppesen-airac-0925-t3311915.html. I use 0925 at the moment and the charts work fine, but get an out of date message.  Once downloaded install in the same manner...ie load each ISO file to a virtual drive and the update will happen automatically.  The navigraph 1001 does not work for Jeppesen, but you can use it to update your aircraft FMS, and use it in FSX."
+,aKaleb,2010-01-27T22:25Z,Please can anyone reseed Myworld2004 landclass 2005 edition 
+,captinjake,2010-02-18T10:38Z,req fsaddon lysander
+,NASKI,2010-03-09T14:07Z,"hello
+
+Anybody knows if the jeppesen airac 1001 have been post yet.
+
+thank you"
+,Amerialb,2010-03-09T15:16Z,"Here is Jeppview Cycle 1005
+
+http://torrents.thepiratebay.org/5416843/1005.5416843.TPB.torrent"
+,Amerialb,2010-04-02T15:27Z,"Here Jeppesen Jepview cycle 1007
+
+http://thepiratebay.org/torrent/5476067/Jeppesen_Monthly_Data_Disks"
+,sjweemie,2011-03-05T13:28Z,"hi have a problem with jeppview,
+
+i`ve changed the date before installing, i followd the steps in the read me file, installed everything, then i open jeppview and i get the following error:
+the mantic variation table (IGRF*.dat/wmm.dat) could not be loaded. please re-install the jeppesen navdata using electronic chart data.
+
+i click oke , then i get another error:
+the jeppeson navdata could not be located. please install your jeppview navdata cd (ecd disc 2)
+
+i`ve re-installed disc 2, but keep getting the error.
+
+i have windows 7 32bit installed.
+
+is there a way to get jeppview running. tryed allot of diff version but keep getting the error, when i open jeppview.
+
+but thnx for the upload. now i need to get it worken :D"

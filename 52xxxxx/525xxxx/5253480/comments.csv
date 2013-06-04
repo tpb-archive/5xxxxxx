@@ -1,0 +1,35 @@
+User Type,Username,Date,Text
+,PhilLesh12,2010-01-04T02:12Z,"On WDTV Live, the audio is a good 1 to 2 seconds behind the video, using both channels of audio.
+
+Also, I cannot get my A/V receiver to detect DD 5.1 on either channel using WDTV Live.
+
+I can select the 5.1 audio device from audio track 2 in VLC media player, and the sound is not out of sync like with the WDTV Live.
+"
+,tavery80,2010-01-04T17:02Z,"Confirmed problems with WDTV.
+
+I have the original (1st generation) unit running firmware 1.02.10.  Changed m4v to mp4.  Cannot detect Audio Channel 2, therefore no 5.1 output to decoder
+
+However, no audio sync issues with Audio Channel 1, and playback is clean, no stuttering.
+
+Will continue to d/l the original METiS torrent.  "
+,tavery80,2010-01-04T22:06Z,"Since the vast majority of DD decoding receivers cannot decode from AAC audio, AC3 and DTS makes the most sense.  The original mkv container will work with the WDTV units far better than the m4v/mp4 files provided for the PS3 and AppleTV units.  Just the nature of the beast."
+,weiser880,2010-01-06T00:03Z,"Appreciate all the rips for the Apple TV, mate.  Downloaded a few now and they all work great.  Saves me from having to get the .mkv file and converting it myself.  Wish more folks transcoded for the ATV... maybe we're a dying breed?"
+,weiser880,2010-01-06T05:54Z,"I agree, they did not market the Apple TV properly.  If you ever go to an Apple store, it just seems to be at the back somewhere, past the iPods and the iPhones, and not many seem to know what it actually is.
+
+Really, I think they needed to exploit it's capabilities more.  After all, it is basically a very low spec Mac Mini, which could have been sold as a device that brings basic computing abilities to your home TV (couch surfing, anyone?).  Instead, they just marketed it as a media center.
+
+And, as you mentioned, they didn't leave many options for supported video files (because they want you buying movies and TV shows from iTunes).
+
+I tried Boxee for a while, but found it easier to just encode everything and play it through iTunes... that way, it utilizes the onboard graphics chip and looks better.
+
+Yes, the AC3 track is a great addition.  My Apple TV plays through my stereo, so it's nice to have that.
+
+Keep up the good work."
+,weiser880,2010-01-06T17:16Z,Sounds cool.  What do you use to encode the files into .m4v?
+,tavery80,2010-01-08T13:27Z,"Ok, an update.  HR's TDK finally finished and I tested it on my WDTV after changing extension to mp4.  Will not play - unrecognized file type.
+
+It's just a trait of the WDTV units - they prefer the more widely used torrent file types, such as wmv, DIVX avi, and mkv."
+,tavery80,2010-01-08T22:22Z,"HR, I appreciate your efforts in researching the firmware for my WDTV.  I tried FW 1.03.01 back when it came out and it's buggy - too many audio issues (optical out fails, sync issues, etc.) and work arounds.  So I rolled my FW back to the most stable I had, which was 1.02.10.  Thanks for trying, though."
+,wburdett,2010-02-05T23:31Z,"I copied the m4v file directly to the ps3 and not getting any audio. is there something I should do to get audio. A script to run, another file to copy. Does this need to be muxed?
+
+Any help is appreciated."

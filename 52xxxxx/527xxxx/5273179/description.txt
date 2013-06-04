@@ -1,0 +1,60 @@
+This change will make that you ALWAYS GET 100 POST RESULTS gOOGLE.COM  
+
+[It works only in internet explorer. (Not firefox)]
+
+jUST DOUBLE CLICK ON english and it will put in the windows registry, if you want english searh results.
+
+If you want to open the registry   type    regedt32  or regedit in the command task. If you have XP go to run in start meu and type from there
+
+and find to do it manually: Expand the hives till you find this hivekeys down:
+
+
+[HKEY_CURRENT_USERSoftwareMicrosoftInternet ExplorerSearchScopes*??*?*???*?*??*?*?
+
+
+          **************************************
+
+
+You have to look carefully wich changes you have to change..
+
+The most importat is that you add  
+
+
+   Or Change what ever you want but leave  {searchTerms}   and add     &num=100    
+
+in the line   maybe you don't even have to do any changes except that I wrote
+
+
+
+If you just double-click on english reg-file it is fully okej. Then you see on search-scoope in webbrowser up to the right to google icons when you role down. Test both of them and then delete that one that only gives you 10 post results. The reason why Goggle just want you to see 10 results is to save electricity and save bandwith beside to make you click on sponsored linke powered by googles payers, ads, companies
+
+You could also edit my own *.reg -files to see how I did it to customize you own. This is for the searchscoopes. ieaddons and not the regular goolge.com pages. But when you search one time from search scoope then later google remember it and gives you 100 results. 
+
+You coult du it in different ways the most imortant i wrote down on the picture that comes with the download. Sorry for not uploading it past days but it was not my faults.
+
+Guys! Please seed big file. Please buy at least one hard-disk more. I know you need to backup important familis photos and album. We want you to backup you good files. We want you to have a seed-box drive to. If you often delete torrents from your bitTorrent-Client then save an extra green torrent in the same folder in the map for future upload. When you see someone in the future who need it you could upload. The philosophy is that we all are a big family in this little world. Even thought we don't know each other we could love each other for no reason. We do the opposite. People hate for no reason but we love for no reason. And the meaning of life is to live, eat, sleep, seed!
+
+.............................................................................................
+...................................................+*......:...,+............................
+...................................................WWWWWWWWW..#WWWW,.........................
+..................................................W::@WW*W:.W@..+WWW.........................
+..................................................@.....W..WW....@WW.........................
+.......................................................WW.*W@.....WW......,..................
+......................................................WW:.WW@....:W+.........................
+......................................................WW,.WW#.:.,W@.......@W...+...:W...,W...
+.......,.................,............................WW..WW#.:.+*.....+@WWWWWW...*WWW..WWW..
+..WW@###WW@..##.......W*..WWWWWWWWW..WWWWWWWWW,....WWWWW..WW#.:#WW#,....#.,@WWW..,.WWW*.WWW,.
+..W.......W..##.......W*..W.......W..W.......W....W#*WWW..WW#.@...WW....*...WWW....#WW..:WW+.
+.+W:....:...:##.......W*..W.....::W..W.......W+...:.:.WW..WW#.+...WW+...:+..WWW....@WW...WW*:
+..W@*****:..:##.......W*..W.....::W:.W......:W:......:WW:.WW#.*WW@WW*...W.W:WWW....@WW...WW:.
+..:+*@@##WW.:@@......:W*..WWWWWWWW*::WWWWWWWW:......WWWW:.WW:.+:..WW*.:#W.:.WWW....#WW.:.WW..
+..:.:::::.W.:@@......:W*..W....::::::W::::.:.W::::.WWWWW::WW::#W#WWW*:.W@...WWW....@WW::*W+..
+:+W.:..:::W..@@:::::::W*.:W.:::::::::W:::::::W:::::W:.WW:@#:::+:::WW*.:WW:..WWW:::.@WW:.W#:..
+:.W@*****WW.:.W@*****@W..:W::::::::::W:::::::W.::::.::W:@:++..+:::WW*.*WW:::WWW:::.#WW:W+::::
+::..+++++::.::..+++++:.::.:::::::::::.:::::::.:::::::WWWWWWWWW@:#W+::.:WW@:WWWW:..:@WWW:.::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::@W#++#WWWWW*::::::.WWW#:*WW#:::WW::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::#::::::::#W.:::::::::W+:::W+:::@*:::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::#:::::::::::::::::::::::::::::w:::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::W:::::::::::::::::::::::::::::w:::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::+::::::::::::::::::::::::::::::#:::W::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::+w+:::::::

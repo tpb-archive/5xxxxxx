@@ -1,0 +1,27 @@
+ConvertXtoDVD - 4.0.9.322a
+=========================
+
+Improved interface:
+* Implemented a merge feature directly from drag/drop, using the <SHIFT> key
+* Fixed issue when reloading settings
+
+- 0003085: [Bug] Video processing failed to init on stream 0000001 error, I can't convert - resolved.
+- 0003087: [Feature Request] Easy merge mode  - resolved.
+- 0003067: [Bug] v4.0.6.316 ÃŸeta: Add a few files, then click Automatic / Add lots more files, no changes on the Advisor !  - resolved.
+- 0003084: [Feature Request] add info under preview window that subtitles are not visible during conversion  - resolved.
+
+ConvertXtoDVD-4.0.8.320
+
+Bugfix release on interface issues
+- 0003083: [Suggestion] need to add a more precise message when client enters the wrong key into CX4 (wesson) - resolved.
+- 0003082: [Bug] v4.0.7.318 access violation when deleting subtitle file in merge editor window (wesson) - resolved.
+- 0003081: [Crash] v4.0.7.318 error when merging files with subitltes / when subtitles are automatically loaded with video (wesson) - resolved.
+- 0003071: [Information] Updater in english for all languages (wesson) - resolved.
+- 0003077: [Bug] v4.0.7.318: Support for Video: all video type broken under XP os (REGRESSION) (wesson) - resolved.
+- 0003074: [Crash] ConvertX crash when starting (wesson) - resolved.
+- 0003072: [Bug] 316: Some wrong text in hintbox displayed for background Audio. (wesson) - resolved.
+- 0003069: [Suggestion] highlight words 'get a new key', so users click on link (wesson) - resolved.
+- 0003063: [Bug] v4.0.5.315a enter goldmember key and get "cannot focus a disabled or invisible window" (wesson) - resolved.
+- 0003073: [Bug] 316: Regression - Bug 3044 has returned.. Can not enter field for editing with mouse pointer. (wesson) - resolved.
+- 0003044: [Bug] 4.0.3.313: Regression, lost edit function at DVD menus labels sub-window (DVD menus tab) (wesson) - resolved.
+

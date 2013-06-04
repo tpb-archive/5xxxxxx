@@ -1,0 +1,48 @@
+================================== PS3 Media Server-1.10.51 ==================================
+
+Current features
+================
+
+Ready to launch and play. No codec packs to install.
+No folder configuration and pre-parsing or this kind of annoying thing.
+All your folders are directly browsed by the PS3, there's an automatic refresh also.
+Real-time video transcoding via MEncoder, tsMuxer or Avisynth
+DVD ISOs images / VIDEO_TS Folder transcoder
+OGG/FLAC/MPC/APE audio transcoding
+Thumbnail generation for Videos
+You can choose with a virtual folder system your audio/subtitle language on the PS3!
+All formats PS3 natively supports: MP3/WMA, JPG/PNG/GIF/TIFF,
+and all kind of videos (AVI, MP4, TS, M2TS, MPEG) the ps3 is willing to play
+Display camera RAWs thumbnails (Canon / Nikon, etc.)
+ZIP/RAR files as browsable folders for pictures/audio files
+Support for pictures based feeds, such as Flickr and Picasaweb
+Internet TV / Web Radio support with VLC, MEncoder or MPlayer
+Podcasts audio/ Video feeds support
+
+Windows/Linux Only:
+
+Lossless 5.1 PCM transcoding with DTS movies
+Remux video and remux/reencode all audio tracks to AC3/PCM in real time with tsMuxer
+FLAC 96kHz/24bits/5.1 support
+
+
+Requirements
+============
+
+A core 2 duo CPU (mine is a E6750, 2.66GHz) for smooth 1080p transcoding, but 720p seems to be transcodable with a good P4 :p
+
+
+Installation
+============
+
+Get a Java Runtime Environment: http://www.java.com. JRE version 6 is a minimum.
+
+
+Install vlc and Avisynth 
+
+Copy VSfilter.dll in to the AviSynth plugins folders (In Win Vista - C:Program FilesAviSynth 2.5plugins)
+
+
+before installtion of PS3 Media Server (pms-setup-windows-1.10.51)
+
+and it should work fine :)

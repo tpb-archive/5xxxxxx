@@ -1,0 +1,26 @@
+Description: An easy to use tool to preform brute force attacks on hashes. MD4, MD5, RIPEMD160, SHA1, and SHA2 family hashes are supported. Ideal for password recovery, and sending and decoding hash messages. Hashes are text containing data encrypted in an irreversible algorithm, and are most used for storing passwords. More information about hashes can be found in this wikipedia article. If you are looking for a tool to hash text, go to this topic.
+
+
+Release date: 2009-03-21
+Known issues: None
+
+Program version: 1.1.
+Front end language: English
+System requirements
+> Win 2000 / Win Xp / Win Vista
+> .Net framework 2.0 or higher
+
+Developer: Jeroen De Dauw
+Written in: Visual Basic.net and visual C# .Net, using Visual Studio 2008
+Based upon: BN+ Framework 2.0.2.0
+
+---
+
+Official page: http://code.bn2vs.com/viewtopic.php?t=112
+
+---
+
+Version 1.1.0 released
+This release features quite a bunch of new functionality, most noteworthy the multi hash attack feature. This will allow you to enter as many hashes as you want and attack them all simultaneous. Various improvements have been made to the interface itself, like window flashing notification when an attack is completed, and both an update platform and bug submit tool have been added. The update platform will automatically report new updates and enable you to easily download and install them, and the bug reporter provides you with the means to help improve the application itself! For a complete list of changes, see the change log.
+
+The multi hash functionality has decrease the overall performance with about 15%. Tests with up to 10 hashes have not shown a noteworthy decrease in performance compared to an attack with only 1. Version 1.0.8 will therefore have a better performance when attacking only 1 hash then this release. A load of new improvements, including performance, are already on their way to be implemented into the next version.

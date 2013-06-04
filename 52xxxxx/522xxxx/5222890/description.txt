@@ -1,0 +1,25 @@
+The zip-file contains the JWPlayer SWF v 5.0.753 with the watermark removed.
+But here are the instructions on how to do it yourself:
+
+step 1
+------
+Download the source code as Zip Archive from: 
+http://developer.longtailvideo.com/trac/browser/tags/mediaplayer-5.0
+
+step 2
+------
+Open 
+mediaplayer-5.0srccomlongtailvideojwplayerviewview.as
+and go to (about) line 184 and put the next 2 lines in comment
+
+  protected function setupLogo():void {
+   _logoLayer = setupLayer("logo", 5);
+   //_logo = new Logo(_player);
+   //_logoLayer.addChild(_logo);
+  }
+
+
+step 3
+------ 
+compile the project using the instructions in
+mediaplayer-5.0README.txt

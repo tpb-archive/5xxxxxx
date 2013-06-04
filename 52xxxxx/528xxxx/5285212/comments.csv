@@ -1,0 +1,220 @@
+User Type,Username,Date,Text
+,erbmoney,2010-01-18T22:57Z,"Im confused with
+ 2) Open the Ableton app package content and replace ""Live"" from the ""Crack"" folder in contents/MacOS
+
+I tried but it didnt work
+"
+,psystereo,2010-01-19T13:14Z,at least right click then open package should work.. maybe you need a software to browse/extract that kins of file. I'm downloading.
+,avincent,2010-01-19T21:38Z,i replaced the LIVE file and now the app does not fire up. rebooting dint help. what next?
+,dimi13beast,2010-01-22T05:07Z,">My friend tried it and said it worked.
+>Ill ask him if he did anythin different to make it work"
+,deenice1,2010-01-22T09:08Z,"ok u keep sayin...... (Open the Ableton app package content and replace ""Live"" from the ""Crack"" folder in contents/MacOS).....replace it with what? im sorry i must not have it all here tonight, but im lost......"
+,thebeast8,2010-01-22T17:36Z,"Is this Ableton 8.1.1?  
+
+Ableton 8.1.0 has a shit load of bugs.  One of which prevents you from opening sets (I'm a victim).  "
+,casketsunnyside,2010-01-24T02:37Z,"First off Thanks.
+Having trouble with the installation. Any chance for a more detailed install instructions?"
+,MOB4LIFE,2010-01-25T21:50Z,great torrent man thanx works great peace...
+,MOB4LIFE,2010-01-25T21:56Z,everyone i had the same prob. when i first got it the crack (live) file shows up white on mine but then i forgot what i did to make the crack look like an exe  or something like that ill check it out again see what i did redo  everything and ill post another comment showing how to do it
+,dimi13beast,2010-01-27T03:15Z,"@MOB4LIFE thnx i have no mac to test it on, so i can't really post good directions. lots of thnx if you can get good instructions"
+,kshi,2010-02-04T21:13Z,"You need to remove the file associations from the ""Live"" file in the crack folder. To make it work you need to ""chmod +x Live"" in a Terminal window. Then double click the .auz file with Live already open. 
+
+Thats how I got it to work for me at least. 
+
+Thx Dimi13beast, btw. : )"
+,sandypsyc,2010-02-07T18:33Z,"Thanks dimi, thanks kshi.
+
+That worked for me.
+For those like myself less familiar with Terminal, this is the Terminal command I used to make it work.
+
+chmod +x /Applications/Live8/Live.app/Contents/MacOS/Live
+
+so just replace ""Live8"" with whatever you named your Live folder. I renamed mine Live8 with no spaces because i didn't know how to write a 'space' in Terminal."
+,kevbomb,2010-02-09T16:01Z,"Can someone explain the installation steps a bit clearer. I'm so close. I have chmod +x the live crack file and it changed, but where is Contents/MacOS in Live's Application folder, does the live crack file have to go there or do I just need to do Terminal text correctly. Please comment"
+,kshi,2010-02-12T09:06Z,"kevbomb, right click on the Live.app and select ""Show Package Contents"". Procede to Contents/MacOS/ and copy the live file there. "
+,kevbomb,2010-02-12T15:45Z,"Thanks kshl   I got it working. YEEEEEEEEAAAAHHH!!!
+Appreciate it."
+,dimi13beast,2010-02-14T06:03Z,I finally got a mac. Heres some better install instructions
+,KissZol,2010-02-15T11:11Z,"This worked:
+
+1. Open dmg and copy to aplication.
+2. Unzip crack file.
+3. Replace the Live file from the crack folder to the ""real"" Live file. ( Application/Live 8.1 Osx/Live.app right click than show package contants here Contents/MacOS )
+4. Copy the Authorize81Mac.auz also here.
+5. Run Live from here, it will open in Terminal.
+6. IMPORTANT!!! Rename the folder in Applications/Live 8.1 OS X to Live8 (because the Terminal could not handled the ""space"" !!!!!!! 
+6. Type in Terminal:  chmod +x /Applications/Live8/Live.app/Contents/MacOS/Live
+7. Run Authorize81Mac
+
+I hope To work for u too."
+,thebeast8,2010-02-17T01:46Z,"Hey dimi13beast, could you do Live 8.1.1?  
+
+-Thanks"
+,AstroSkate99,2010-02-19T03:51Z,Does this crack work on PPC 10.4.11?
+,dimi13beast,2010-02-24T01:27Z,@AstroSkate99 Hell if i no. Try it.
+,eel33,2010-03-05T06:45Z,im new 2 all of this. can some1 please tell my why everything i try 2 download is only 15kb wat am i doing wrong?
+,eel33,2010-03-05T07:01Z,never mind i workd it out
+,zabiw,2010-03-14T17:45Z,"Hey guys im having a problem near the end of the process. When i finish everything and open the .auz file from the MAC/OS folder to register it says ""this authorization is not valid for this computer"". "
+,astro_righteous,2010-03-17T09:04Z,"im having the same issue as this other guy. i am not having any issues with this download except for the authorization file doesnt work and just says its invalid. 
+
+i had a copy on my old PC and tried using my thumb drive to transfer the old file to my new mac but thats not working either."
+,queue42,2010-03-20T23:35Z,"thanks for the upload dimi, and thanks kshi yr instructions worked perfectly.
+
+however, the library folder wasnt created when i installed, anyone know of a fix for this? "
+,groovenova,2010-03-25T15:57Z,"KissZol...
+
+Good instructions
+
+I managed to get into the MacOS folder and replace the Live file with the one from the crack 
+
+**it brings up a prompt when you replace it**
+
+However when i either double click the Authorise81Mac.auz file or the new Live file i still get the unable to authorise message?
+
+I have tried several times and i dont know what to do - need some help please..."
+,groovenova,2010-03-25T19:50Z,"I dont even know if this works on 10.4.11?
+
+from what i have gathered reading on other forums is that once you have replced the live file with that from the crack as per the instructions posted earlier you then open live, decline the authorisation and then ""drag and drop"" the auz. file onto the live interface
+
+but im buggered if i can get it to work!"
+,cancelctrl,2010-03-25T22:46Z,Where do you all get serial numbers? This version hasn't come with one and I need authorization.
+,coporo,2010-03-30T13:16Z,"the Authorize81Mac.auz does NOT work with Mac powerPC G4 or G5
+
+please if you know who fix it?????...."
+,mickeymas,2010-04-10T01:35Z,"Cheers Mate!, you're a good homo sapiens, it really work!!!!! keep sharing!!!"
+,d-iuiu,2010-04-27T02:31Z,"Hi, thanks for the upload. I'm still having problems with the association. I type the text in the terminal but the program doesnt start. Can you help me please? 
+d_iuiu@hotmail.com
+mateugual@gmail.com
+
+Thank you!!"
+,spiderrichard,2010-05-03T19:12Z,"works fine just need to follow kissZols instructions on first page of comments.
+
+great upload thanks alot :) "
+,d-iuiu,2010-05-04T12:32Z,"I try with his instrucctions, but the program doesn't start, I have snow leopard 10.6.3
+Help me please!!"
+,kess20,2010-05-04T18:25Z,"Hi dimi13beast,
+
+Awesome upload! Thanks so much!
+I have installed Live, can I exit it and open it the next time from Application folder?
+"
+,kellen200,2010-05-06T19:33Z,"tried following kisszoi's instructions from page one, but when I try to run the Live that replaced the ""legit"" Live, nothing happens.  It doesn't open in terminal though i typed out what was instructed anyway, only to recieve ""unknown file"" or something like that.  I followed the directions to a T, so what am I missing?  I'm using an aluminum macbook with OS X 10.5.8"
+,kellen200,2010-05-06T19:48Z,"
+""no such file or directory,"" that's what it keeps saying.  ""Bash 80x24"""
+,nomad707,2010-05-07T23:51Z,Worked great for me. Thanks to KissZol for the help and diMi. I'll make sure to seed.
+,efest234,2010-05-12T11:27Z,"directions worked great.  thanks all!  
+
+i have an important question though... i was running Live 6 before and received the dreaded 'Ableton Copy Protection Violation' message that killed it for me.  can i safely open my old songs from corrupt Live 6 in this version or will the copy protection leach into this one too?  thoughts...
+
+cheers"
+,kellen100,2010-05-15T17:27Z,Has anyone come up with a fix for the registration problem many of us are having?  everything goes smoothly until I open the registration file or drag it into ableton.  Either way it doesn't work.  
+,nickito,2010-05-18T18:39Z,"this version doesn't work. but thisssss...
+http://thepiratebay.org/torrent/5202643/Ableton.Suite.v8.1.MAC.OSX.ISO-ArCADE
+works 100% in snow leopard 10.6.3.
+i try it with this version 1000 times and nothing. but the other version works like a charrrrrmm."
+,Jackpaj,2010-06-21T14:26Z,took a few attempts but got it thanks!
+,rodentdp,2010-07-03T06:23Z,Anyone tried updating this to 8.1.3?
+,borisdivider,2010-07-30T14:00Z,"I have heard that Live will crash after a period of time. When this happens, you should try this:
+
+- close Live
+
+- delete the ""Preferences.cfg"" and ""Template.als""  and ""Undo.cfg""  files (if available) from
+/Users/*yourname*/Library/Preferences/Ableton/Live 8.1.4
+
+- delete the content of these two folders: 
+/Users/*yourname*/Library/Caches/Ableton/Cache/Web
+
+and
+/Users/*yourname*/Library/Application Support/Ableton/Live 8.1.4/Database
+
+- restart Live"
+,borisdivider,2010-07-30T17:36Z,"So I downloaded it. The crack live file has an empty icon which means it can't open in any program, so not in Terminal also. Normally with cracks, the icon should be the same as the original live icon. Does anyone else had this problem?"
+,purps411,2010-09-28T00:52Z,"yeah as some other people said, it says ""This authorization file is invalid on this computer.""
+
+anyone know what to do about this?"
+,dyogi,2011-01-16T22:16Z,pleeaase someone im having that same problem where i drag the authorization file into live and it says this authorization code does is invalid for this computer..please help 
+,REDJELLYNINJA,2011-02-16T00:57Z,"The software runs fine..... in demo mode but the authorizing file 100% will not work on a powerpc G5 mac. 
+I've tried every single method suggested on this torrent and others and still not working. 
+Searched the web for an auth code that works but it seems that it does not exist.
+ Its bad enough that the software developers have gave up on powerpc, now the guys that are cracking our fav programs (who do a fantastic job in doing that btw) seem to not bother with us anymore. 
+Speaking on behalf of all the ppc ableton users that cannot get this working fully, can someone please sort out an auth that we can use??? You will be hailed a God by us all.
+I don't want to go back to 7!!!"
+,popiraves,2011-02-25T07:45Z,how do u replace live?
+,Tasty90,2011-03-26T21:28Z,"Okay guys, here's how to fix the ""Authorization Invalid"" problem.
+
+1: Close live. 
+2: Inside Live/Contents/MacOS/Live, double click on the ""Live"" file. This will open terminal, say a bunch of stuff, then it will open the actual Live program. 
+3: Click on the Authorize81Mac file again.
+4: It should lag for a bit, then tell you everything has been unlocked!
+
+So the key is closing the application, clicking on the Live file AGAIN (the one INSIDE the application, not the actual application file), and then clicking on the Authorization file AGAIN.
+
+
+BAM!"
+,captinbirdseye,2011-04-11T00:58Z,"@ 'MOB4LIFE' on page 1.. Like you said The 'Live' file in the crack folder is a plain text document.. How do i change this?? 
+
+When i replace the 'Live.unix' from Contents\MacOs Folder with the `blank` from the crack folder nothing happens.."
+,captinbirdseye,2011-04-11T18:14Z,"Im no NOOB, I understand the concept of cracks and patches but this one has me baffled.. offering a reward to anyone who can help me get this working on 10.5.8  .."
+,DJ__LG,2011-05-07T03:10Z,"I followed these instructions from the first page. You guys need to learn to read all the comments before asking stupid questions
+
+This worked:
+
+1. Open dmg and copy to aplication.
+2. Unzip crack file.
+3. Replace the Live file from the crack folder to the ""real"" Live file. ( Application/Live 8.1 Osx/Live.app right click than show package contants here Contents/MacOS )
+4. Copy the Authorize81Mac.auz also here.
+5. Run Live from here, it will open in Terminal.
+6. IMPORTANT!!! Rename the folder in Applications/Live 8.1 OS X to Live8 (because the Terminal could not handled the ""space"" !!!!!!! 
+6. Type in Terminal: chmod +x /Applications/Live8/Live.app/Contents/MacOS/Live
+7. Run Authorize81Mac
+
+When it runs it retrieves some authorization data then says it's successful
+Works."
+,Exo1991,2011-06-02T09:41Z,"I've been sure to follow all the necessary steps perfectly, but the live file included in the crack folder doesn't start up terminal when I try to open it...it's just a txt file!! Is anyone else having this problem???
+
+I know several people this has worked for, and I'm doing the exact same setup, not sure why it won't it work for me..."
+,werdyloks,2011-07-15T22:00Z,"thanks you so much i followed these instructions worked perfectly
+1. Open dmg and copy to aplication.
+2. Unzip crack file.
+3. Replace the Live file from the crack folder to the ""real"" Live file. ( Application/Live 8.1 Osx/Live.app right click than show package contants here Contents/MacOS )
+4. Copy the Authorize81Mac.auz also here.
+5. Run Live from here, it will open in Terminal.
+6. IMPORTANT!!! Rename the folder in Applications/Live 8.1 OS X to Live8 (because the Terminal could not handled the ""space"" !!!!!!! 
+6. Type in Terminal: chmod +x /Applications/Live8/Live.app/Contents/MacOS/Live
+7. Run Authorize81Mac"
+,qwertyman_007,2011-07-18T20:59Z,"This worked for me on 10.6.7:
+
+1. Open dmg and copy to application.
+3. Replace the Live file from the crack folder to the ""real"" Live file. ( Application/Live 8.1 Osx/Live.app right click than show package contants here Contents/MacOS )
+3.5 Change permissions to the same like the old ""Live"" file - I used PathFinder's GetInfo. Owner: RWX. Group: RX. Everyone: RX.
+4. Copy the Authorize81Mac.auz also here (To MacOS folder)
+5. Run Authorize81Mac.auz.
+6. Don't check for updates.
+
+When it runs it retrieves some authorization data then says it's successful
+Works. "
+,Blacechan,2011-07-29T01:29Z,"hey yeah. i got the instructions fine i know exactly what to do but i can't change the name of the Live 8.1 OS X file. it just won't let me at all. i've tried everything
+any help would be great cheers. "
+,marchfaster,2011-08-02T17:05Z,"so, i got cocky today and wanted to reinstall this....but somehow it wont let me delete about 90MB of files...says i need to unlock and change the permissions to write and read.  Any idea why its saying that?  I did unlock everything (fucking EVERYTHING) and it still wont let me delete it."
+,marchfaster,2011-08-02T17:09Z,turns out its just 'livegeneric icons' wtf
+,hairyshit,2011-08-18T12:42Z,"Ok, I've tested this on both PowerMac-G5 Leopard and MacBook Air-Intel Snow Leopard machines and it seems to authorise fine on the Intel Machine but not on the PowerPC hardware. Maybe the cracks only for the Intel machines."
+,jimmy3legs,2011-09-04T05:10Z,"Ok, for all of u having trouble with the authorization, here is what I did to fix the issue...
+When u open up the ""live"" file following the previous instructions, the terminal should run and open the program, then when you get the message that says ""invalid authorization file"" click authorize later and quit live (leave the terminal open).
+Next, open up the .auz file and it will run live and you should get the authorization to work at this point."
+,d1sfunctional993,2011-12-28T20:58Z,"Yeah, I followed all the steps given including terminal commands.  Unfortunately Ableton claimed that the authorization was ""invalid on this computer"".  I'm running on OS X Lion 10.7.2 ,  is this version incompatible with Lion or something? "
+,drakulla18,2012-04-03T15:37Z,"I made all the steps and I encountered this problem:
+
+""The present cannot be loaded. It is pobably broken.""
+
+Why ?
+I am using Mac OSX 10.4.8 JAS and I ""updated"" from 10.4.8 to 10.4.11 only by renaming number 10.4.8 to 10.4.11 like some guys on youtube sayd.
+Can you help me ?"
+,bwomp,2012-04-21T19:39Z,"I went through everything and got it working and authorized, but when I try to load presets I get ""This preset cannot be loaded.  It is probably broken.""  Has anyone else had this problem?"
+,Watto6275,2012-05-04T07:38Z,"Just to clear up for a few people who might have the same problems I did:
+
+If you've already downloaded the free trial of Ableton Live 8 and haven't authorised it, opening ""Authorize81Mac.auz"" will open that, rather than the one you've installed here. You have to delete the previous trial that you downloaded.
+
+Secondly, with the ""The present cannot be loaded. It is pobably broken."" message, I found this was also a problem with the fact that I'd installed the trial before this. If you go into preferences, hit Library and then click Repair Library then it sorts it all out and you're good to go."
+,thadisrad,2012-05-09T20:44Z,has anyone gotten this to work with OSX 10.5.8?  I keep getting an invalid authorization message.
+,arvtg,2012-07-03T10:23Z,"To anyone else for whom it doesn't work, please note the following. I am a complete newbie to this and I followed DJ_LG's instructions and it worked perfectly for me. I was also initially confused as the live file in the crack folder was a text file and was opening in text editor the first time I tried. But then I realized I replaced the wrong file.
+
+There are two live files, one in 'Live 8.1 Osx/Live.app'. When you right click on this file, show package contents, and follow path 'Contents/MacOS', there is another Live file in this folder. this is the one which needs to be replaced. Once replaced, you can copy over authorize81mac into this same folder, open this live text file (it will automatically open in terminal) and follow DJ_LG's instructions from there. Ableton should work after that. Hope this helps. "

@@ -1,0 +1,75 @@
+--==AutoViewer==--
+Created by Dave Harold
+
+--==About==--
+This program will browse the selected urls in a minimized, invisible, Internet Explorer browser window. Each url will be opened up in its own tab. It will browse the 4 urls the amount of time you set, close, and start again using a different proxy, if you want to use a proxy.
+
+--==Setup==--
+1. Enter the desired urls into the input box, press add ,save the urls if you wish by clicking the corresponding button.
+2. Under the "Settings" tab, set the amount of time you wish to browse the urls for in seconds. Recomended setting is between 30 and 60 seconds
+3. Also under the "Settings" tab choose if you want to use proxies and if you want to log bad ones.
+4. Add valid HTTP proxies using the format given (123.123.123.123:444), save the proxies if you wish by clicking the corresponding button.
+   If you decide not to use proxies leave the "Use Proxy?" Unchecked.
+5. Click "Start" to earn some cash. 
+6. When you are done CHECK the box marked "Check to stop"
+
+-NOTE-
+Manually editing the ini file may cause problems, do so at your own risk.
+
+-Proxy Note-
+Proxies do not last forever, some may last weeks while others a couple minutes. You can view the log.txt file for proxies that are no longer good. Error codes can be found beside the bad proxies and can be matched up with explanations found in the "Error Code" section here or googled.
+
+
+--==Disclaimer==--
+Use this program at your own risk, I will not be held responsible for anything. If you have any questions, comments, or suggestions you can direct them to me on the AutoClickers forum.
+
+--==History==--
+v2.0
+  *almost a complete revamp
+  *unlimited urls can be in the list now
+  *shortened code with improved efficiency
+  *fixed some crashes
+  *probably other improvements that I can't remember now	
+v1.8
+  *Semi-automatic update added
+  *added settings tab with some new features
+  *added clear proxy list button
+  *no need to pack ini (it will be created upon first run) 
+  *crash fix
+v1.7
+  *fixed a bug where the proxy might not be enabled
+  *added logging for bad proxies (explanation for error codes available on website)
+  *if a proxy is bad it will skip it and move to the next in the list
+  *minor bug fixes
+v1.6
+  *added feature "add from clipboard"
+  *adding a blank proxy will no longer clear the list
+  *proxy inputbox will automatically clear after addition
+  *start button fix
+V1.5
+  *rewrote program with GUI
+V1.4
+  *hopefully increased efficiency again.
+v1.3
+  *added website link.
+  *rewrote the code to be more efficient.
+  *ini file no longer needs the "proxy"x prefix.
+  *now supports infinite proxies.
+  *you can see how many proxies you are using by selecting "Number of Proxies" in tray.
+  *will now only use proxy for 3 minutes so some proxies won't tag you as abusive.
+
+v1.2
+  *removed duplicate entry in .ini file.
+  *you can now see what proxy you are using in the tray by selecting "Current Proxy".
+
+v1.1
+  *added all CAPS to yes or no input box.
+  *added menu to tray icon.
+  *on exit will now kill the iexplorer process.
+
+V1.0
+  *first public release.
+
+
+Official Website   
+http://youbot.nl.eu.org

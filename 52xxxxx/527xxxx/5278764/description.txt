@@ -1,0 +1,61 @@
+ This new version is a substantial upgrade from the previous v3.70. It makes important changes to the GUI and core engine. For the core engine, there is improved ProBalance reaction time and other tweaks, amongst many other changes. For the GUI, a new 'Active Processes' tab with horizontal CPU utilization graphs gives you a quick view of what processes are actually active on the system. Further, the GUI now has better child window positioning and a 'hide graph' button for easy toggling of graph visibility.
+
+    * Addition.GUI: Added new 'Active Processes' view with nifty bar graphs to depict per-process CPU utilization
+    * Addition.GUI: Added CTRL+G keyboard accelerator to toggle visibility of graph
+    * Addition.GUI: Added 'Run as administrator' toggle to instantly have the current instance manage the processes of all users, or only the current user
+    * Addition.GUI: Added easy button to toggle graph visibility
+    * Addition.GUI: Added new log/actions context menu option to search for process name on the internet
+    * Addition.Core: Added safety mechanism to revert the power profile to its original setting in the case of a PC crash or improper termination of the Process Lasso core engine
+    * Addition.Core: Added new 'very high' refresh speed
+    * Addition.InstallHelper: When user wants to launch PL with highest rights at login, they can now optionally choose UAC elevation prompts instead of the Windows Defender manual approval mechanism (Vista/7 with UAC only)
+    * Addition.InstallHelper: Added warning about running Process Lasso with highest rights (its not ideal in most cases, even though it may 'sound' better)
+    * Addition.Updater: Added version number to new simplified update notification message
+    * Change.Updater: Beta versions now always check for beta updates, regardless of user settings
+    * Change.GUI: Organized toggle of things to show on graph into new submenu
+    * Change.GUI: Hide/show graph now preserves bottom pane position
+    * Change.GUI: Buy now button position adjusted to compensate for new shortened tab controls
+    * Change.GUI: Optimized GUI resizing and repainting code
+    * Change.GUI: Ensure graph is initially large enough to show graph legend
+    * Change.GUI: Make initial window size better for small screens
+    * Change.GUI: Force updater to always include betas if beta version installed
+    * Change.GUI: Changed 'buy now' bitmap button into a standard button
+    * Change.GUI: Standardized 'Instance Limits' config dialog OK/Cancel buttons (they deviated in order from the other dialogs)
+    * Change.GUI: Reposition update options in menu
+    * Change.GUI: Removed the naggy text overlaid on the graph
+    * Change.GUI: Rewrite of processes listview update function. Negligible performance increase, but simplified code
+    * Change.GUI: When per-process CPU utilization display turned off, tracking is also disabled
+    * Change.GUI: Some optimization to per-process CPU utilization calculation code
+    * Change.GUI: Tweaked ProBalance restraint highlight color
+    * Change.GUI: Restored 'buy now' button to trial build
+    * Change.GUI: Implemented proper automatic self-restart capability for the couple rare option changes that require a restart
+    * Change.GUI: Restored 'buy now' button
+    * Change.GUI: Changed 'hide process icons' into 'show process icons' and removed the redundant 'hide process icons' in the general options submenu
+    * Change.GUI: Remove 'All sounds off' from system trya menu
+    * Change.GUI: Restore power scheme setting to system tray menu
+    * Change.GUI: Advanced option to manually edit INI file now opens whatever editor is registered with INI files
+    * Change.GUI: New simplified update available message now shows what new version is available
+    * Change.GUI: Rewrote handling of child window positioning code, in preparation for larger UI changes
+    * Change.GUI: Increased font size of Pro solicitation dialog
+    * Change.GUI: Improved behavior of hide/show graph
+    * Change.GUI: Removed gaming mode warning since its now more safe for general use than before
+    * Change.GUI: Expand lower tab to window edge on registered build (where no 'Buy now' button exists)
+    * Change.GUI: Further improvements to default window size and positioning for all size screens
+    * Change.GUI: More memory use optimizations to reduce RAM usage even when user interface is visible
+    * Change.GUI: Changed deafult ordering of process info columns a bit
+    * Change.GUI: Changed default memory info displayed to simply working set and total commit size
+    * Change.Core: Gaming mode now induces high performance power scheme (disabling CPU frequency scaling, etc..)
+    * Change.Core: Improved response time of ProBalance
+    * Change.Core: Improved ProBalance response time
+    * Change.Core: Improved handling of process creation logging
+    * Change.Core: Improved response time during periods of frequent new process creation and destruction
+    * Change.Core: Minor code tweaks
+    * Change.Core: Rewrote 'keep process running' mechanism
+    * Change.Core: Improved ProBalance handling of certain unusual circumstances
+    * Change.Core: Other minor code optimizations
+    * Change.Core: Tweaks to gaming mode to solve conflicts with some games
+    * Change.Installer: Add version to branding text
+    * Change.InstallHelper: Reduced vertical size of first dialog, for lower resolution devices
+    * Change.InstallHelper: By default, the GUI now starts at login for all users, except for Server Edition
+    * Change.Licensing: Lowered maximum nag wait to 10 seconds
+    * Fix.GUI: Fixed badly formatted caption when using the DEL key to terminate processes
+    * Fix.InstallHelper: Fixed issue on update for previously installed core engine running as a service

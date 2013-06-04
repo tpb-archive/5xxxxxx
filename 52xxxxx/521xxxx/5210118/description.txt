@@ -1,0 +1,22 @@
+On Windows 7 we don't crack advapi32.dll any more. Now we crack cryptsp.dll.
+
+This is cracked version of cryptsp.dll. Applied crack allows using custom CSP
+dll not signed by Microsoft. Also, you will need to replace manifest associated
+with cryptsp.dll. If you wish to manually change the original manifest instead
+of, copying this one, change only SHA-256 hash in manifest.
+
+The SHA-256 hash of the patched dll is in BASE64 encoding. To create manually
+SHA-256:
+
+openssl dgst -sha256 -binary "C:cryptsp.dll.cracked" | openssl enc -base64
+-out "C:digest_b64_encoding.txt"
+
+C:digest_b64_encoding.txt will now contain SHA-256 hash for manifest.
+
+If you would like to patch cryptcsp.dll manually:
+DLL version must be 6.1.7600.16385 (Tested on Windows 7 Ultimate x86)
+
+At offset 0x3CF4 change 0F 85 -> 90 E9
+
+
+Tobia Quantrill

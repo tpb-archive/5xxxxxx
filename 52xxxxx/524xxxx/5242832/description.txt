@@ -1,0 +1,30 @@
+this file is based on the torrent
+http://thepiratebay.org/torrent/5202305/HDScape_Fireplace_-_Visions_of_Tranquility_2007_720p_x264_Bluray
+The original file lasts 30 mn but if you look carefully, you will notice that the video repeat itself after exactly 26.624 s!!!!!
+So I extracted these 26.624 s. so as not to waste disk space.
+
+use VLC with loop on or windows media player with repeat on, to get a constinuous fire.
+
+To use it directly with windows screensaver, you will either need to:
+- convert the mkv to wmv format (complicated), and have windows vista ultimate (premium won't do!!!!)
+- or find a program which modify the windows screensaver possibilities (I haven't found any trustworthy one)
+
+You can also create a shortcut for instant launch:
+"vlc.exe" "Fireplace screensaver HD 1280x720 x264.mkv" --loop --fullscreen
+with a shortcut key of your choice (for the shortcut key to work, the shortcut must be in the start menu!)
+
+or
+"wmplayer.exe" "Fireplace screensaver HD 1280x720 x264.mkv" /fullscreen
+but the repeat button can only be switched manually.
+
+Media Player Classic (MPC) /fullscreen won't do because the only way to put repeat on is complicated:
+select View -> Options in MPC; Click on Playback and set to "Repeat forever"
+
+
+file information:
+video codec: AVC
+video bitrate: 5000 kbs
+resolution: HD 1280x720
+framerate: 29.97 fps
+audio codec: AC3
+audio bitrate: 192 kbs

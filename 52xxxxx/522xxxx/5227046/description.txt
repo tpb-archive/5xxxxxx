@@ -1,0 +1,66 @@
+*** Small-sized 2-pass re-encode of 720p BluRay for computers (PC, Mac), PS3 or Xbox, portable and mobile devices (Ipod, Itouch) . ***
+*** Video is 480x272 H264; audio is 44.1 kHz/stereo AAC LC and container is MP4. ***
+
+I can recommend CoreCodec for H264 (avc1, x264) video-playback, free DivX 7 for AAC sound-playback (and .mkv with AAC), Haali splitter (free, comes with CoreCodec) as the fastest and best combination for Windows Media Player. This is what I use.
+VLC player (free), mplayer (free) and KMplayer (free) are available as alternative for all platforms (operating systems) out there and have BUILT-IN codecs and MP4 capabilities. But, video quality is approx. 10-15% lower, blurrier at least on system I have.
+One can try CCCP matroska codec pack, where ffdshow codec/filter packs and Haali splitter comes in one package and support MP4 playback - but extra caution is required during the install process.
+QuickTime of course, supports H264/AAC natively.
+Many of movies I encode have embedded subtitles. So far, only VLC player is able to use them correctly.
+
+USE TORRENT-SEARCH SITES, TorrentBar extension for FireFox OR EVEN GOOGLE: show-name H264
+(for example GOSSIP GIRL H264).
+
+"Home" of my torrents (for Bookmark/Favorites in your browser) 
+http://thepiratebay.org/user/twentyforty
+
+Interesting "Discussion" to follow: 
+http://thepiratebay.org/torrent/5191311/Cloudy.With.A.Chance.Of.Meatballs.PROPER.H264 
+http://thepiratebay.org/torrent/5190694/The.Bad.Lieutenant.Port.of.Call.New.Orleans.LIMITED.H264
+Your comments and opinions are welcomed, good and the bad ones.
+
+General #0
+Format               : MP4
+Format/Family        : MPEG-4
+File size            : 500 MiB
+PlayTime             : 2h 34mn
+Bit rate             : 451 Kbps
+StreamSize           : 2.72 MiB
+Enoded date         : UTC 2009-12-17 12:08:37
+Tagged date          : UTC 2009-12-17 12:08:37
+
+Video #0
+Codec                : H.264
+Codec/Info           : H.264 (3GPP)
+PlayTime             : 2h 34mn
+Bit rate             : 386 Kbps
+Width                : 480 pixels
+Height               : 272 pixels
+Display Aspect ratio : 16/9
+Frame rate           : 23.976 fps
+Bits/(Pixel*Frame)   : 0.120
+
+Audio #0
+Codec                : AAC LC
+Codec/Info           : AAC Low Complexity
+PlayTime             : 2h 34mn
+Bit rate             : 64 Kbps
+Bit rate mode        : VBR
+Channel(s)           : 2 channels
+Channel positions    : L R
+Sampling rate        : 44 KHz
+Resolution           : 16 bits
+
+Text #0
+Codec                : Timed
+Codec/Info           : Timed text (3GPP)
+Language             : Danish
+
+Text #1
+Codec                : Timed
+Codec/Info           : Timed text (3GPP)
+Language             : Spanish
+
+Text #2
+Codec                : Timed
+Codec/Info           : Timed text (3GPP)
+Language             : English

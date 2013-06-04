@@ -1,0 +1,46 @@
+User Type,Username,Date,Text
+,Almarenan,2009-12-13T17:26Z,"Hey, starscrean : NEVER put your mail address in the clear like that !!"
+,n30fr05t,2010-01-08T12:51Z,"Cydia has a problem with this firmware.  Here is the working fi per PanZ.  
+
+You don?t need to restore and re-unlock/jailbreak the phone. That is a huge hassle just to add the following lines to the top of the file: /var/lib/dpkg/status
+
+[I]Package: cydia
+Status: install ok installed
+Priority: required
+Section: Packaging
+Installed-Size: 1448
+Maintainer: Jay Freeman (saurik)
+Architecture: iphoneos-arm
+Version: 1.0.3044-65
+Replaces: com.sosiphone.addcydia
+Depends: apr-lib, apt7-key, apt7-lib, darwintools, pcre, shell-cmds, system-cmds, essential
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: com.sosiphone.addcydia
+Description: graphical iPhone front-end for APT
+Name: Cydia Installer
+Author: Jay Freeman (saurik)
+Depiction: cydia.saurik.com/info/cydia/[/I]
+
+When installing Icye and Cydia at the same time, this status entry gets left out and Cydia uses it to determine what version of itself was installed. Once you add this entry to the ?status? file you should be fine. As always, it is a good idea to backup the file before you modify it. As for how to modify the file, that is up to you. If you have Open ssh installed on your phone, secure shell in to the phone and and use your favorite text editor that you have installed on the phone to edit the file. If you?re one of those sftp/scp people, copy the file to your local machine, add the entry, copy it back to the phone. If you need more details than that, you can google those instructions. I realize this reply is a bit late for you but other people might google this problem and hopefully my post will save them the trouble.
+Best of luck,
+panZ"
+,n30fr05t,2010-01-08T12:53Z,"Sorry, overwrite the existing content of the status file with :
+
+Package: cydia
+Status: install ok installed
+Priority: required
+Section: Packaging
+Installed-Size: 1448
+Maintainer: Jay Freeman (saurik)
+Architecture: iphoneos-arm
+Version: 1.0.3044-65
+Replaces: com.sosiphone.addcydia
+Depends: apr-lib, apt7-key, apt7-lib, darwintools, pcre, shell-cmds, system-cmds, essential
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: com.sosiphone.addcydia
+Description: graphical iPhone front-end for APT
+Name: Cydia Installer
+Author: Jay Freeman (saurik)
+Depiction: cydia.saurik.com/info/cydia/
+
+Leave out the [i]/[i]"

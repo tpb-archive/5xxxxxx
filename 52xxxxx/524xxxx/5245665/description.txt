@@ -1,0 +1,202 @@
+Copied from The GIMP (The GNU Image Manipulation Program) Homepage:
+
+
+Feature Overview
+
+GIMP is a versatile graphics manipulation package.
+
+Customizable Interface
+
+Each task requires a different environment and GIMP allows you to customize the view and behavior the way you like it. Starting from the widget theme, allowing you to change colors, widget spacings and icon sizes to custom tool sets in the toolbox. The interface is modulized into so called docks, allowing you to stack them into tabs or keep them open in their own window.
+Pressing the tab key will toggle them hidden.
+
+GIMP features a great fullscreen mode allowing you to not only preview your artwork but also do editing work while using the most of your screen estate.
+
+Photo Enhancement
+
+Numerous digital photo imperfections can be easily compensated for using GIMP.
+Fix perspective distortion caused by lens tilt simply choosing the corrective mode in the transform tools. Eliminate lens' barrel distortion and vignetting with a powerful filter but a simple interface.
+
+The included channel mixer gives you the flexibility and power to get your B/W photography stand out the way you need.
+
+Digital Retouching
+
+GIMP is ideal for advanced photo retouching techniques.
+Get rid of unneeded details using the clone tool, or touch up minor details easily with the new healing tool. With the perspective clone tool, it's not difficult to clone objects with perspective in mind just as easily as with the orthogonal clone.
+
+Hardware Support
+
+GIMP includes a very unique support for various input devices out of the box. Pressure and tilt sensitive tablets, but also a wide range of USB or MIDI controllers. You can bind often-used actions to device events such as rotating a USB wheel or moving a MIDI controller's slider.
+Change the size, angle or opacity of a brush while you paint, bind your favorite scripts to buttons. Speed up your workflow!
+
+File Formats
+
+The file format support ranges from the common likes of JPEG (JFIF), GIF, PNG, TIFF to special use formats such as the multi-resolution and multi-color-depth Windows icon files. The architecture allows to extend GIMP's format capabilities with a plug-in. You can find some rare format support in the GIMP plugin registry.
+
+Thanks to the transparent virtual file system, it is possible to load and save files to from remote locations using protocols such as FTP, HTTP or even SMB (MS Windows shares) and SFTP/SSH.
+
+To save disk space, any format can be saved with an archive extension such as ZIP, GZ or BZ2 and GIMP will transparently compress the file without you needing to do any extra steps.
+
+Supported Operating Systems:
+Microsoft Windows (2000, XP, Vista)
+
+
+Changelog:
+
+
+Overview of Changes from GIMP 2.6.7 to GIMP 2.6.8
+=================================================
+
+* Bugs fixed:
+
+ 470698 - MapObject cannot modify highlight
+ 593848 - FG color changed to black when FG-BG Editor tab created
+ 594651 - layer.scale() raises RuntimeError
+ 594998 - Keyboard shortcuts does not work for first image when dock
+          is focused
+ 599765 - F1 key on gimp-tool-align in menu have wrong link and it
+          open gimp-tool-move
+ 600484 - Gimp BMP Integer Overflow Vulnerability
+ 600741 - "read_channel_data()" Integer Overflow Vulnerability
+ 601891 - gimp_image_get_selection returns None
+ 602761 - plug-in-grid: Parameters Horizontal/Vertical Spacing and
+          Horizontal/Vertical Offset are reversed.
+ 603995 - PCX plugin doesn't sanitize input to avoid allocation overflows.
+ 603998 - PCX: Calculating amount of memory to allocate may overflow.
+ 604000 - SGI: sanitize input
+ 604001 - SGI: Calculating amount of memory to allocate may overflow.
+ 604002 - SGI: RLE encoded input data may write beyond allocated buffers
+ 604004 - SGI: allocate memory consistently
+ 604008 - GBR, PAT: sanitize input data
+ 604078 - Crash when pressing Backspace with Free Select Tool
+
+* Updated and new translations:
+
+ Basque (eu)
+ British English (en_GB)
+ Czech (cs)
+ French (fr)
+ Greek (el)
+ Italian (it)
+ Japanese (ja)
+ Norwegian Nynorsk (nn)
+ Polish (pl)
+ Romanian (ro)
+ Russian (ru)
+ Simplified Chinese (zh_CN)
+
+
+Overview of Changes from GIMP 2.6.6 to GIMP 2.6.7
+=================================================
+
+* Bugs fixed:
+
+ 591017 â€“ Tablet pan is not working as fast as it should
+ 577581 â€“ Crashes when using any colors tool/function on Windows
+ 589667 â€“ GIMP crashes when clicking GEGL Operation on Windows
+ 569833 â€“ file-jpeg-save erroneous with small quality values
+ 590638 â€“ Changing palettes from list to grid view loses "locked to dock"
+          status
+ 589674 â€“ "Send by Email" does not update "Filename"
+ 586851 â€“ Transparent BMP files fail to load
+ 589205 â€“ help-browser uses deprecated (and sometimes broken) webkit call
+ 582821 â€“ 'Sphere Designer' does not reset correctly...
+ 570353 â€“ first time open of .svg file ignores the requested units
+ 555777 â€“ Export to MNG animation fails
+ 577301 â€“ Dithering with transparency is broken for "positioned" method
+ 493778 â€“ metadata plug-in crashes on some images
+ 567466 â€“ PNG comment not found if more than 1 tEXt chunks
+ 585665 â€“ Exporting to PSD with a blank text layer creates a corrupt file
+ 586316 â€“ Levels tool does not adjust output levels correctly if input
+          levels are changed
+ 569661 â€“ Import from PDF throws errors when entering resolution in
+          pixels per millimetre
+ 567262 â€“ Black pixels appear in "Spread" filter preview
+ 554658 â€“ Path Dialog: Path preview pics not to see constantly
+ 167604 â€“ gimp_gradient_get_color_at() may return out-of-bounds values
+ 567393 â€“ Rectangle select tool size shrinks to 0 if size is larger than
+          the image and the up or down arrow is pressed
+ 587543 â€“ crash when invoking certain actions by keyboard shortcut
+ 563029 - Closing maximized image doesn't restore document window size
+ 585488 â€“ Perspective transformation on a layer with a mask causes crash
+ 586008 - GIMP crashes when right-click canceling a drawing action initiated
+          outside layer boundaries
+ 584345 â€“ when printing, the number of copies should be reset to 1
+ 557061 â€“ Alpha to Logo
+ 472644 â€“ Rotate with clipping crops the whole layer
+ 577575 â€“ transform tool fills underlying extracted area wrongly
+ 555738 â€“ Image display is wrong after undoing canvas size
+ 577024 â€“ help-browser plugin crashes when used with webkit 1.1.3
+ 555025 â€“ Action GEGL box widgets weirdness
+
+* Updated and new translations:
+
+ Czech (cs)
+ Danish (da)
+ German (de)
+ Spanish (es)
+ Basque (eu)
+ Finnish (fi)
+ Hungarian (hu)
+ Italian (it)
+ Gujarati (gu)
+ Japanese (ja)
+ Kannada (kn)
+ Marathi (mr)
+ Norwegian bokmÃ¥l (nb)
+ Oriya (or)
+ Portuguese (pt)
+ Romanian (ro)
+ Sinhala (si)
+ Swedish (sv)
+ Simplified Chinese (zh_CN)
+ Traditional Chinese - Hong Kong (zh_HK)
+ Traditional Chinese - Taiwan (zh_TW)
+
+
+ED2K Link:
+ed2k://|file|gimp-2.6.8-i686-setup.exe|18234256|27B2D6544638FED4C84D15CDE4F63A84|h=55LQ3F7Y375N7BKWCXIEXIKCIEDPA37I|/
+
+
+
+Comments from the uploader (olofolleola4):
+The following file formats are supported:
+
+GIMP XCF Picture: *.xcf
+Alias Pix Picture: *.pix, *.matte, *.mask, *.alpha
+AutoDesk FLIC-animation: *.fli, *.flc
+BZip-archive: *.xcf.bz2, *.bz2, *.xcfbz2
+DICOM-picture: *.dcm, *.dicom
+Postscript picture: *.eps
+Flexible Image Transport System: *.fit, *.fits
+G3 Fax Image: *.g3
+GIF-picture: *.gif
+GIMP-pattern: *.pat
+GIMP-pencil: *.gbr, *.gpb
+GIMP-pencil (animated): *.gih
+GZip-archive: *.xcf.gz, *.gz, *.xcfgz
+JPEG-picture: *.jpg, *.jpeg, *.jpe
+KISS CEL: *.cel
+Microsoft Windows Icon: *.ico
+Microsoft WMF-file: *.wmf, *.apm
+Paint Shop Pro Picture: *.psp, *.tub, *.pspimage
+Photoshop-picture: *.psd
+PNG-picture: *.png
+PNM-picture: *.pnm, *.ppm, *.pgm, *.pbm
+Portable Document Format: *.pdf
+PostScript-document: *.ps
+Silicion Graphics IRIS-picture: *.sgi, *.rgb, *.bw, *.icon
+Desktoplink: *.desktop
+SUN rasterfile-picture: *.im1, *.im8, *.im24, *.im32
+SVG-picture: *.svg
+Targa-picture: *.tga, *.vda, *.icb, *.vst
+TIFF-picture: *.tif, *.tiff
+Windows BMP-picture: *.bmp
+X-window dump: *.xwd
+X bitmap-picture: *.xbm, *.icon, *.bitmap
+X pixmap-picture: *.xpm
+ZSoft PCX-picture: *.pcx, *.pcc
+
+Here is some links if you cannot download it through this torrent:
+uploadbox . com / files / 2e01eaddfe
+rapid share  .  com  /  files  /  326813925  /  gimp-2.6.8-i686-setup.exe

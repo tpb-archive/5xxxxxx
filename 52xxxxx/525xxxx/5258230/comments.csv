@@ -1,0 +1,17 @@
+User Type,Username,Date,Text
+,S3nd41,2010-11-16T12:49Z,This program sucks... it keeps running on your system even when you're not using it. Does anyone have any alternatives?
+,S3nd41,2010-11-16T15:28Z,"Stop Connectify from launching on every Windows logon
+
+By default, Connectify will launch itself everytime you start your PC. To disable this:
+
+   1. Go to Control PanelSystem and SecurityAdministrative Tools and select System Configuration
+   2. Click on the Startup tab
+   3. Uncheck Connectify
+
+Alternatively:
+
+   1. Go to Control PanelSystem and SecurityAdministrative Tools and select Task Scheduler
+   2. Select Connectify
+   3. On the right sidebar, under Selected Item, click on Disable.
+
+Okay... so now I want a version with no ads."

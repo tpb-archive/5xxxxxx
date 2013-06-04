@@ -1,0 +1,47 @@
+Used SecretMyth-Kingdom Release H264 as Video and Audio source. KINGDOM and SECRETMYTH ALWAYS RELEASE QUALITY TORRENTS! THIS IS WHY I CHOSE THEM. AS ALWAYS THANKS GO OUT TO THE ORIGINAL UPLOADER!!!
+
+
+Work done:
+
+Audio gap correction: -300ms
+
+Deinterlace mode: When Nessesary
+Deinterlace method: Interpolation - adjusted
+
+
+Video correction:
+Y.U.V. Expansion - Start Y:0, End Y: 232, Chroma: +52
+Y.U.V. Conrtast (black base) - Y: -34, U: -18, V: -13
+Y.U.V. Contrast (white base) - Y: -31, U: -6, V: +2
+R.G.B. Gamma - R: -47, G: -15, B: -53
+R.G.B. Contrast - R: +39, G: +40, B: +40
+Y.U.V. Luminance - Y: +6, U: +0, V: +0
+
+Anti-flickering: +256
+
+Subtitles: Corrected the .srt file. The original creator tried to make all the N'avi speaking parts in italics and the <i></i> html codes kept showing up on screen. 
+
+:FORMAT:
+:VIDEO:
+MPEG-4
+Profile: Baseline
+Level: Automatic (Level 4.1 and less)
+Size: 720x304 pixel 1:1
+Aspect Ratio: Display 16:9
+Framerate: 50fps (Progressive)
+Rate control mode: 1 pass Constant bitrate
+Average bitrate: 2189kb/s
+Motion search range: 120
+Bitrate buffer: Auto
+Video system: Automatic
+
+:AUDIO:
+Encode type: AAC encoder
+Sampling rate: 48000Hz
+Channel mode: Stereo
+Bitrate: 320kb/s
+MPEG-4 (ISO/IEC 14496-3)
+Object type: Main
+Output format: With ADTS Headers
+
+There was a problem with my machine and the old torrent. This one I will seed 5:1. Everyone please seed to at least 1:1		

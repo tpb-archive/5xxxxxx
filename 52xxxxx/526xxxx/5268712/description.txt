@@ -1,0 +1,86 @@
+===================================================================================
+Welcome to SwiftShader 2.01 :
+===================================================================================
+This is the SwiftShader 2.01for 32/64-bit.
+
+Created by : The Mastermind   Email : the1mastermind@gmail.com
+===================================================================================
+SwiftShader is a revolutionary software-only 3D renderer that provides 
+DirectX 9 features including both Pixel and Vertex Shaders and can be more 
+than 50 times faster than Microsoft's reference rasterizer. SwiftShader 
+achieves this level of performance through the use of TransGaming's SwiftAsm 
+runtime code generation system.  SwiftAsm allows developers to easily and 
+efficiently generate highly optimized code entirely at runtime. SwiftShader 
+uses SwiftAsm to translate both shader-based and fixed function geometry 
+and pixel pipeline operations into high-speed x86 SSE and MMX code, which 
+is then cached for later reuse as needed.
+
+NOTE: Use of the SwiftShader 2.01 is subject to the enclosed SwiftShader 
+License agreement.
+
+System requirements
+-------------------
+
+* x86 CPU, SSE support recommended
+* Basic 2D video card - no 3D card necessary!
+* Microsoft Windows 98SE, Windows 2000, Windows XP, or Windows Vista 
+* 128 MB RAM
+* 25 MB free hard disk space
+
+
+Installation
+------------
+
+SwiftShader 3D renderer is packaged into two DLL files:
+ D3D8.DLL and D3D9.DLL
+
+These DLL files can be dropped into a directory containing an application
+that uses Direct3D, and SwiftShader will automatically be used in place of
+the built-in OS version of Direct3D. Note that some applications may load
+the D3D DLL directly from the Windows System32 directory.  Such programs
+will not work directly with SwiftShader without modification.
+
+In addition to the DLL file, an optional configuration file can be used 
+with SwiftShader.  This file, SwiftShader.ini, can be put in the 
+same directory as the application, and can be used to fine tune performance
+and quality settings.  The commercial version of SwiftShader includes an 
+API for changing many of these settings programatically at runtime.
+
+
+Multi-core Support
+------------------
+
+SwiftShader can use multiple CPU cores to speed up software rendering.  
+Using SwiftConfig or the SwiftShader.ini file, you can determine how many 
+threads will be used simultaneously.  By default, SwiftShader will use as 
+many cores as possible.  Note that SwiftShader is currently optimized for 
+single-processor multi-core configurations due to inter-core bandwidth
+limitations.
+
+
+Changes since previous version
+------------------------------
+
+*SwiftShader 2.01*
+- Improved scheduling on AMD based systems
+- Several graphics correctness improvements
+
+
+*SwiftShader 2.0*
+- Initial relase of SwiftShader 2.0
+
+===================================================================================
+This release is a pure Mastermind release.
+===================================================================================
+Â© Copyright The Mastermind 1988-2009
+
+Email  :  the1mastermind@gmail.com
+===================================================================================
+All software included in this release is only intended for your use if you own a 
+legal license to this software. I am not to be held responsible for illegal 
+use/installation of this software. If you choose to install and test this software 
+and you decide to keep it, you must purchase a valid license. If you do not own 
+legal license to this software i will not be held responsible for any charges 
+brought against you by any software company(s) or people working for any software 
+company(s). I do not support piracy, I am here only to provide an evaluation.
+===================================================================================

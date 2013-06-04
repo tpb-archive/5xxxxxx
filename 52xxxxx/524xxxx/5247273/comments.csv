@@ -1,0 +1,107 @@
+User Type,Username,Date,Text
+,djdjura,2009-12-29T00:02Z,"Hi efxr,
+
+actually, I've found combining those layers together quite easy. Using swfdec-thumbnailer, That is a program Ubuntu uses for creating thumbnails in Nautilus file manager.
+
+You can invoke it with flag -s somenumber, which indicates height dimension of the thumbnail. So by calling
+swfdec-thumbnailer -s 1566 14.swf 14.png
+(1566 is the height of that background JPEG, IMHO it's pointless creating the bitmap any bigger) you get that page nicely rendered as bitmap picture. Honestly, I hate bitmaps (vector graphic RULEZ!), but SWFs cannot be embedded into PDF, whereas PNGs can be. I prefer png, because jpeg tends to create blurry edges when used for text or screenshoots.
+
+So now we have to sort out page ordering, export the images into PDF and do OCR in Adobe Standard. The result should be something like Campbell's biology at http://thepiratebay.org/torrent/5209991/Biology_%288th_Edition%29_by_Neil_A._Campbell__Jane_B._Reece
+
+you can see the result (just one PNGised picture) at http://drop.io/microbiologyswfdecthumbnailerpng"
+,efxr,2009-12-29T05:42Z,"Oh, that looks just perfect!
+
+To be perfectly honest, I have no idea how the whole Ubuntu thumnailer thing workings. 
+
+But the result you posted is just perfect. The text is nicely rendered. 
+
+Converting them those png's to pdf is something that i can do, very easily. Mac OS X has the whole pdf thing built right into it. 
+The reason is that when you're compiling a large pdf (as the Campbell book) things tend to get unstable and crash.
+
+Also, getting the pages into the right order shouldn't be a problem, since I own the paperback version of the Microbiology book."
+,djdjura,2009-12-29T14:30Z,"I've sorted out the ordering issue. In the folder txt there is for each swf a txt with the same name (differs only in .extension) and the last word of every txt is the pagenumber. So I wrote the Script ;-P
+
+#works in bash (MacOSX compatible ;-)
+#we need also flwdec-thumbnailer (probably not in MacOSX :-(, sed and awk for this to work
+
+#reads flws, converts them into pngs and names them after their pagenumber. Pngs end up in folder ebookCM29042497/pngs, which is created by the script
+
+#assumes we are in /view.ebookplus.pearsoncmg.com/view.ebookplus.pearsoncmg.com/ebookassets/ebookCM29042497/swfs
+#so you should cd there
+
+#make output directory for our PNGs
+mkdir ../pngs;
+
+#for all flws in current folder
+for i in *.swf; do
+	#Take flw in $i, replace 'swf' with 'txt', save result in FILENAME
+FILENAME=$(echo $i | sed 's/swf$/txt/');
+
+	#Take that txt, get last word (that is pagenumber ;-) and store in PAGE
+PAGE=$(cat ../txt/$FILENAME | awk 'BEGIN { RS = ""\n\n+""; FS = ""\n""} {print ($(NF-1))}' | awk '{print ($NF)}');
+
+
+
+	#invoke swfdec-thumbnailer with correct height and the pagenumber as name for the output png
+swfdec-thumbnailer -s 1566 $i ../pngs/$PAGE.png;
+done
+
+I am running it just now, got about 600 pages done already. It dropped two or three strange warnings like SWFDEC: ERROR: swfdec_image.c(128): swfdec_image_validate_size: 2913x3098 image doesn't fit into 33554432 bytes of cache, so few pages will be missing and I'll have to manually find out which. 
+
+The only problem is, that the PNGs are huge, about 2,5 MB per page. So Ill have to scale it down a little bit (or maybe use a JPEG if the quality loss is acceptable).
+
+BTW, I've found this: http://www.mail-archive.com/swftools-common@nongnu.org/msg03429.html It is a discussion with the author of SWFtools (namely PDF2SWF) about If there is any SWF2PDF out there. He says that sadly no and he doesn't have time to write it, though it should be quite simple. :-("
+,efxr,2009-12-29T15:42Z,Oh. You're a genius!
+,djdjura,2009-12-29T21:36Z,"http://bayimg.com/nAjeEaace
+
+I went through that slow (maybe because I did it all on an old 0.8 GHz laptop) process of ""thumbnailing"" all those swfs you've downloaded, sorting them (page 221 got a little bit lost, but I managed to find it again at tihe end), converting to pdfs, joining it all together and finally publishing the whole book.
+
+For OCRing and naming pages in some meaningful way (so page numbers in PDF and a book match) is probably necessary to use Adobe Standard. I don't have that, so the book is NOT searchable as well as the page numbers do NOT match. You can see there is still a room for improvement  ;-)
+
+I horribly failed to upload a torrent here n this site, so I'm putting in to http://drop.io/microbiologyswfdecthumbnailerpng . 
+
+---
+
+Some final useful linux commands just for me not to forget this ;-)
+
+Convert an image to png (using ImageMagick):
+convert file.png file.pdf
+
+join pdfs using pdftk:
+pdftk file1.pdf file2.pdf file3.pdf cat output output.pdf
+
+another loop in Bash:
+FILES=
+PAGENUMBER=1
+PREFIX=I-
+
+#as long as there is a page no. $PAGENUMBER
+while [ -e $PREFIX$PAGENUMBER.pdf ]; do
+
+	FILES=$FILES\ $PREFIX$PAGENUMBER.pdf
+
+	PAGENUMBER=$(($PAGENUMBER+1));
+done
+
+it creates a space-separated list of files in variable $FILES. Now one can use it in that joining command like:
+pdftk $FILES cat output outputI-.pdf"
+,efxr,2009-12-30T16:02Z,"I'm (trying, but no seeders yet) downloading it now.
+
+Really thanks for this.
+
+
+I can take over from here, and OCR and do the whole page layout with Acrobat 9 pro."
+,djdjura,2009-12-31T00:18Z,"@ exfr
+
+Sorry, I haven't really got the grip on .torrent creation yet. I'm reuploading the torrent to the same place, now it should work. This time it should work."
+,efxr,2009-12-31T00:54Z,Downloading it right now.
+,efxr,2009-12-31T15:44Z,"I'm done.
+
+OCR'ed the bitch and all."
+,djdjura,2009-12-31T18:04Z,"Lets just hope it will be useful for someone.
+
+GJT! (Good job team ;-) and a Happy New Year to all!"
+,efxr,2010-01-02T02:42Z,"You can now download the actual PDF.
+
+http://thepiratebay.org/torrent/5252096"

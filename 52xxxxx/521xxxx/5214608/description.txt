@@ -1,0 +1,19 @@
+--------------
+- Fixed deflection not doing anything
+- Non-hero units can no longer pick up runes
+
+Engineer
+- Turret no longer procs the death effect of Sacrifical Stone
+- Turret can no longer attack Kongor or Runes
+- You can no longer sell items off the Turret
+- Items that you have in your inventory that are not owned by you will no longer be copied to the Turret
+- Fixed misc tooltip errors
+
+Forsaken Archer
+- Crippling Volley will no longer hit Magic Immune units
+- Skeletal Minions now only spawn from organic unit deaths
+* This is to stop silly times where you get a skeleton for killing a tower or catapault
+- Skeletal Minions can no longer attack chests or runes
+* This is to stop situations like killing items when you mean to pick them up
+- Fixed Split Fire reducing damage properly on the main target, also making it properly shoot 4 arrows, not 5
+- Split Fire will no longer grant Mana Battery charges when toggled on or off

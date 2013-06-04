@@ -1,0 +1,59 @@
+MoonShell is a homebrew multimedia player for the Nintendo DS and Nintendo DS lite dual-screen handheld videogame systems. It is one of the most well known pieces of Nintendo DS homebrew software, and is one of the few and best ways to play video on the DS.
+
+The player supports DPG video files, MP3 / OGG / MOD / SPC / MDX (no PCM) / GBS / HES / NSF / XM / MIDI / WMA / low bit rate AAC audio / non-progressive JPEG / BMP / GIF / PNG images, and text files. MoonShell plays fullscreen videos at 20fps and widescreen videos at 24fps, with joint stereo sound at a samplerate of 32.768 kHz. Both screens on the DS are used, with the bottom screen allowing file selection and control via touchscreen. The integrated plug-in system provides extensibility of program features. To add a feature, the plug-in files are simply copied to the appropriate folder. In order to function as a media player, several plug-in files are distributed with the software.
+
+MoonShell is included as the default multimedia player for the commercial products N-Card, R4 DS, EDGE, CycloDS, AceKard, i-cheat XTRA and M3 DS Simply. The EZFlash V Flash Card and SuperCard One has modified Moonshell source code for firmware use which can be used for booting NDS files. Another modification made for the product M3 Real is the DSM Player.
+
+
+
+This Torrent has a self extracting File, all instructions included and is 2.08 Stable 
+
+
+Please copy 'moonshl2.nds' and '/moonshl2' folder onto the root folder of MicroSD, and start 'moonshl2.nds'.
+
+
+--------------------------------------------------------------------------------
+Support file formats.
+
+Music formats: MP1, MP2, MP3, OGG, WAV, M4A, AAC, WMA, TTA, MID, RCP, R36
+MOD formats: MOD, IT, MTM, S3M, XM, 669, MED, STM, AMF, GDM, ULT, UNI, ASY, IMF, OKT, STX
+Chiptune formats: SPC, NSF, GBS, HES, AY, SAP, KSS
+Playlist formats: M3U, WPL
+Picture formats: JPG, BMP, GIF, PNG, PSD
+Support DPG movie files.
+Support text files.
+
+
+--------------------------------------------------------------------------------
+Limitations concerning format.
+
+NDS: Not support commercial NDSROM files.
+WMA: Not support 'loss-less' and 'voice mode' format WMA files.
+M4A, AAC, WMA: Not support encrypted files.
+MID: Not support 'Standard MIDI file format.2' format.
+SPC: Tone quality is very bad.
+Chiptune: Only the first track is performed. The FM sound chip cannot be emulated.
+Playlist: Support encode is ANSI, S-JIS, UTF-8, CP437, CP850, CP1252.
+Text file: Support encode is ANSI, S-JIS, UTF-8, UTF-16BE, UTF-16LE. Auto detection only.
+
+Information is displayed in the file list. MP3, Jpeg, BMP, PSD, DPG only.
+
+
+--------------------------------------------------------------------------------
+Limitations concerning file with large size.
+
+Picture formats: The size that exceeds 3648x2736 pixels cannot be displayed.
+Text file: The line that exceeds 131072 lines is disregarded.
+MOD: The file that exceeds about 500KByte might not be able to be reproduced.
+MID, RCP, R36: The file that exceeds about 500KByte might not be able to be reproduced.
+
+MoonShell v2
+
+Videos
+As of version 2.00, video playback does not skip as it uses a buffer instead of direct reading, meaning that movies/videos with a lot of action will not skip. Because of this, it is also possible to use a higher bitrate. People have encoded videos using 800kb/s and higher and can watch the videos without problems at all. Audio can have a higher bitrate as well.
+
+Audio
+Audio has been improved. It now fully supports MPEG-4, AAC, MP3 and WMA files.
+
+The GUI
+The GUI has been vastly improved and is more user-friendly. It now displays information such as the length of an audio file, and it displays the ID3 tag at the top screen using transparency so the playlist can be seen through it.

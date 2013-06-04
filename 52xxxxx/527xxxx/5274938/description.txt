@@ -1,0 +1,5 @@
+The Cisco AnyConnect VPN Client provides remote users with secure VPN connections to the Cisco ASA 5500 Series Adaptive Security Appliance using the Secure Socket Layer (SSL) protocol and the Datagram TLS (DTLS) protocol. 
+
+AnyConnect provides remote end users with the benefits of a Cisco SSL VPN client, and supports applications and functions unavailable to a clientless, browser-based SSL VPN connection. It runs on Microsoft Windows, Windows Mobile, Linux, and Mac OS X, and supports connections to IPv6 resources over an IPv4 network tunnel. You can upload the client to the security appliance to automatically download to remote users when they log in, or you can download and install it on the endpoint. You can configure the security appliance to uninstall AnyConnect from the endpoint after the connection terminates, or it can remain on the remote PC for future SSL VPN connections. 
+
+In addition to the Cisco Adaptive Security Appliance 5500 Series, Cisco IOS supports AnyConnect. For more information, see the Cisco IOS SSL VPN Data Sheet. 

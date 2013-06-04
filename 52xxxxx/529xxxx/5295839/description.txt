@@ -1,0 +1,33 @@
+Product Description:
+SheepShaver is an Open Source PowerPC Mac OS run-time environment. That is, it enables you to run PowerPC Classic Mac OS software on your computer, even if you are using a different operating system. However, you still need a copy of Mac OS and a PowerMacintosh ROM image to use this program. SheepShaver is distributed under the terms of the GNU General Public License (GPL).
+
+Features:
+SheepShaver runs Mac OS 7.5.2 thru Mac OS 9.0.4
+PowerPC G4 emulation on non-PowerPC platforms, direct execution otherwise
+Basic but portable JIT engine (x86, x86_64, mips)
+Copy and paste of text between Mac OS and the host OS
+File exchange with the host OS via a Unix icon on the Mac desktop
+Color video display with support for run-time resolution switching
+Run-time depth switching from 1 bpp to current host depth settings
+Native QuickDraw 2D acceleration for BitBlt and FillRect operations
+CD-quality stereo sound output
+Networking: SheepShaver supports Internet and LAN networking via Ethernet and PPP with all Open Transport compatible MacOS applications
+If you are using a PowerPC-based system, applications will run at native speeds (i.e., without any emulation involved). On other systems, SheepShaver provides the first PowerPC G4 emulator, though without MMU, to enable the execution of Mac OS Classic. Performance with the current CPU emulator using basic just-in-time (JIT) translation techniques is roughly 1/8-th of native speeds.
+
+The following platforms are currently supported: Linux (i386, ppc, x86_64), MacOS X (i386, ppc), Darwin, NetBSD 2.0, FreeBSD 5.3 and Windows for x86. Please note that I am pretty careless of the Windows version since I am not a Windows developer. You are heartily invited to join the effort!
+
+TORRENT INFO:
+This torrent has all the files you need to run Mac OS 9 (Classic) on your Mac OS X with SheepShaver. It also includes instructions to help you get Mac 9 started!
+ENJOY!!  --> IsolatedSoul5591
+
+UPDATE: ADD TO STEP 18:  Drag the "System Folder" from OS9 to your Mac OS 9 hard disk. Then proceed to step 19.
+
+Installation:
+--> Open folder & unzip file
+--> Follow included instructions to install Mac OS 9
+--> Done!
+
+ENJOY!!
+--> IsolatedSoul5591
+
+For those still having problems installing Mac OS 9, you can watch the tutorial video I made at http://www.myotherdrive.com/dyn/file/981.044321.21012010.73818.6a64fi/SheepShaverTutorial.mov

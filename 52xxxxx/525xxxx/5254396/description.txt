@@ -1,0 +1,10 @@
+- Huge rewrite, mainly from the new members of the Playground branch! Too many speedups, optimizations and other fixes to write here! Many famous games will now work.
+- Dropped VM build replaced by the all new Vtlb, meaning no more â€˜Cannot allocate memoryâ€™ errors at start up, more accurate emulation, slightly lower speeds but with many optimizations to come
+- Full memcard support, working in all games
+- Improved Frameskip/VU-skip
+- Special Game Fixes Section
+- Advanced Options Section for custom tweaking VU/FPU behavior.
+- Rewritten Multithreaded GS (MTGS) mode, with as much as 15% speedup for HT machines (only 3-5% for Dual Core), and fixes many instabilities.
+- Improved VU/FPU Flags and Clamping support (helps fix odd behaviors and SPS in some games)
+- Improved EE/IOP synchronization (fixes many freeze-ups and vmhacks).
+- Improved CDVD support.

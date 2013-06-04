@@ -1,0 +1,8 @@
+6.6.0.9 2009 12 25
+- New (HD DVD & Blu-ray): Updated decryption keys
+- New (Blu-ray): Added support for new BD+ protections
+- New (DVD): Added support for new protections
+- Fix: Driver verifier problems with ElbyCDIO.sys
+- Fix (DVD): Handling of some FluxDVD protected discs was broken in 6.6.0.7
+- Fix (DVD): Handling some discs with interleaved cells was broken in 6.6.0.7
+- Some minor fixes and improvements

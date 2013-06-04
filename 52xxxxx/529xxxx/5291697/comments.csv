@@ -1,0 +1,335 @@
+User Type,Username,Date,Text
+,digggerydooo,2010-01-21T06:13Z,"Excellent;-)
+Couple of points XP host file is read only so i had to change that to add the blocks
+Go to EDIT,PREFRENCES,GENERAL & UNCHECK AUTO UPDATE BOX
+Couldn't see ""Auto UPDATE BOX"" on mine!
+So blocked Adobe_Updater.exe in C:\Program Files\Common Files\Adobe\Updater6 with firewall hope that works"
+[V],thethingy,2010-01-21T06:33Z,"you might get errors doing that, the host file blocks everything for you, disabling the updates is just to be sure you dont update acidently as all adobe apps share 1 updater, you can just change the prefrences in the updater to not auto check."
+,digggerydooo,2010-01-21T18:16Z,"Thanks for the reply 
+But when i start Flash CS4 and go to  EDIT,PREFRENCES,GENERAL
+There is no options for updater visible
+Despite having all host file scripts in place first thing it did was try to update 
+But firewall seems to have blocked Updater.exe now;-)"
+[V],thethingy,2010-01-21T19:36Z,"thats an adobe updater update, let it run then you will get the option to turn it off."
+,digggerydooo,2010-01-22T05:22Z,"Ok thanks thought it was an update 
+Not an updater update ;-)"
+,PiPSpreads,2010-01-22T11:54Z,"I am stuck at step 9... I get this message
+
+Licensing for this product has stopped working. 
+
+This product has  encountered a problem which requires that you restart your corrupter before it can be launched. 
+
+If you continue to see this message after restarting your computer, please contact ether your IT administrator or Adobe technical support for help, and mention the error code shown at the bottom of this screen.
+
+Error: 148:3 
+
+http:www.adobe.com/support/"
+[V],thethingy,2010-01-22T19:27Z,"148:3
+
+1. Go to ""Start/Run"" and type ""services.msc"" into the ""Open"" field, then pressed [Enter]
+2. Look for ""FLEXnet Licensing Service"" under the column labeled ""Name""
+3. Right click on ""FLEXnet Licensing Service"", selected ""Properties""
+4. Under the ""General"" tab, Set the startup type to ""Manual"" and click on ""Start"" to start the service
+5. Under ""Recovery"" tab for the first failure, chose ""Restart the Service""
+6. Click OK "
+,PiPSpreads,2010-01-22T22:14Z,thank you so much... you are so amazing. every thing is good.
+,AxisRose,2010-01-24T07:28Z,"I am getting error code 130:3. Do you have a solution?
+
+Flash Pro worked for about an hour before kicking me off, displaying said error message. Uninstalled everything and tried a fresh reinstall. I am still getting code 130:3. "
+,AxisRose,2010-01-24T07:31Z,"PS
+Seems to be same problem as PiP. I tried the solution given there, but it did not work."
+[V],thethingy,2010-01-24T07:47Z,"uninstall it with the tool in the torrent, check your host file is setup then reinstall."
+,WestHustle,2010-01-24T19:51Z,"nice, work perfectly! "
+,WestHustle,2010-01-24T19:52Z,work perfectly!!
+,phdsigns,2010-01-25T02:21Z,"I do not think it is fault of this torrent for my unsuccessful install... Even after running Windows Cleanup (although I'm not sure which Adobe installs should be removed) I have them all xcept 4 Premiere... At the end... It's telling me: ""Expired License""...
+If U have time to help would be great :) "
+[V],thethingy,2010-01-25T02:48Z,"open your hosts file with notepad and check it matches the one in the instructions, if not correct it, if it matches post another comment."
+,phdsigns,2010-01-25T03:53Z,"Hey... Thanks 4 the quick response..
+It matches... I copied and paste in fact, the part that was not correct.. as U recommended.
+If I may add... during the so 7 updates, 4 and 6 failed... if I can remember, 4 said the update was successful but with errors. 6 completely failed because the update was already installed (I think) I have uninstalled it, so I could start again :) Thanks again Thingy!"
+[V],thethingy,2010-01-25T04:06Z,"one of the updates is 32 or 64bit only, the other one you shoudent be getting errors, look through the adobe posts here, youll note that many of the apps share components, so what you need to do is determine with your apps what ones have the same components as this one then remove all of them with the tool then reinstall them, its best with adobe not to mix and match cracks as if one of your apps contacts the mothership then all of your pirate ones will be killed of, all of the posts here share a common patch and host and all work together."
+,phdsigns,2010-01-25T04:19Z,"I think Ur right unfortunately :) I will uninstall everything and start again fresh.
+This window cleaner... cleans it all, for sure?
+A fresh install wouldn't pick on anything left over.. (always does)... and ruin the whole thing :S
+No matter what, Thank 4 the help... I'll be posting again when everything works :)"
+[V],thethingy,2010-01-25T04:28Z,"the tool gets rid of them 4 sure, use ccleaner after to clear your registry."
+,phdsigns,2010-01-25T04:38Z,"Will do!
+Thanks M8!"
+,phdsigns,2010-01-25T04:40Z,"U do not happen to have fireworks by any chance?
+I hope I'm not pushing my luck here :)"
+[V],thethingy,2010-01-25T05:00Z,"fireworks is in this;
+
+http://thepiratebay.org/torrent/5287986"
+,nut2much,2010-01-26T05:00Z,"Installed without problems on Win7 64.
+
+Thanks."
+,nut2much,2010-01-27T00:47Z,Firefox is prompting me to install Adobe Flash Player 10.0.42. Is it o.k. to install it?
+[V],thethingy,2010-01-27T01:29Z,"yes, firefox should recognise the player in flash cs4 though"
+,nut2much,2010-01-27T02:18Z,Thanks man. You're superb.
+,ChenChong91,2010-01-29T08:04Z,"It still says licensing has expired.
+
+I followed your instruction...it doesn't work!!!"
+[V],thethingy,2010-01-29T12:43Z,"it does work, check your host file first, post what appears after;
+#	::1             localhost"
+,ChenChong91,2010-01-29T16:08Z,I checked and it doesn't work. I downloaded another torrent...similar but with more seeds. I will try to uninstall and download this torrent instead. but please try to help my current version.
+[V],thethingy,2010-01-29T16:17Z,"what do you mean youve checked and it doesent work?, have you checked your host file and there is nothing there?, if theres nothing there then its pointless using any adobe torrent."
+,ChenChong91,2010-01-29T19:26Z,There is nothing there. How do I create a host file and where do I put it?
+[V],thethingy,2010-01-29T19:45Z,why were you posting negative comments saying you followed my instructions and it did not work when you hadent even downloaded this torrent?
+,LilMoony,2010-01-29T21:30Z,"Hello, I just downloaded the program, and it seems to work fine and all, but I had to open it as a 30-day trial because I couldn't figure out how to get the Activation Code. How do I get it so I can have the program for longer than 30 days?
+Thank you"
+[V],thethingy,2010-01-30T05:01Z,"there is no activation, just enrer the serial provided when installing."
+,LilMoony,2010-01-30T10:32Z,Got it! Thanks! 
+,Gladiator_11,2010-01-30T20:46Z,"tfs. I was installing this Flash CS4 and suddenly at the end, before the installation complete, my computer crashed (i got the blue screen) and then tried it again, but it didn't work. Is this familiar to anyone?"
+[V],thethingy,2010-01-30T23:22Z,"no this is specific to you, what did you try again?, what did not work?"
+,ChenChong91,2010-01-31T03:45Z,"Look I tried EVERYTHING FROM the instructions and I even downloaded this torrent...
+
+And i get LICENSING IS Expired."
+[V],thethingy,2010-01-31T09:46Z,"ChenChong91, Licensing for this product has expired, read in this;
+http://thepiratebay.org/torrent/5316905"
+,ImassmakerI,2010-01-31T12:49Z,"I was wondering if anyone got a 1603 error.  I found several solutions, getting ready to try a new solution.  Thought I would check to see if there was any posts on this issue."
+[V],thethingy,2010-01-31T13:00Z,http://thepiratebay.org/torrent/5323279
+,joris579,2010-01-31T13:28Z,thx for the much Seeds :D i will test but i think i will work
+,ChenChong91,2010-02-01T05:51Z,"It finally worked! Thanks!
+
+So I should not update, right?"
+[V],thethingy,2010-02-01T07:21Z,"ChenChong91, the updatesin the download are the latest and work without deactivating"
+,torrentseed,2010-02-01T18:16Z,Works just fine! I followed the instructions word by word.
+,joris579,2010-02-01T22:23Z,"Sorry for ma question
+
+how do i run xD
+maybe this is noob but do i need a thing from the other links or just search for the program ?"
+[V],thethingy,2010-02-02T02:04Z,"whats/where is ""xD"" ???"
+,joris579,2010-02-02T18:09Z,"Ok i will explain it 
+Do i need 1 of the files linked in the torrent discript for this problem:
+After installing i did all wath the instruction said but after running 1 time it say's licensing for this problem has stopped working 
+error 130:3 
+
+wath now ?"
+,joris579,2010-02-02T18:26Z,"I know the ERROR 130:3 = 
+Caused by;
+A. hosts file not being set.
+B, Corrupt installation.
+C, Conflicting Adobe apps or patches.
+Solution; 
+1. Try the steps in Adobe Licence Recovery folder.
+2. if that fails go to the Licence Method 1 folder and follow the instructions 
+   there.
+3. if that fails go to Clean Install & Uninstall folder and follow the steps 
+   there.
+ way but wath is Adobe Licence Recovery folder and the folder of 2"
+[V],thethingy,2010-02-03T06:17Z,"way but wath is Adobe Licence Recovery folder and the folder of 2?
+
+in this download;
+http://thepiratebay.org/torrent/5323279"
+,Tkc123,2010-02-04T01:30Z,"Hey, thanks for the Flash, one problem though.
+
+How do I *change* my host file? I tried ""Save"" and ""Save as..."" and it doesn't work. 
+
+Is there a certain way I need to do it?
+Vista 32."
+,Tkc123,2010-02-04T01:44Z,"Found solution here:
+http://thepiratebay.org/torrent/5296064
+
+Thanks again! :)"
+,joris579,2010-02-04T19:32Z,did wath you asked and followed the instructions but after instruction 1 ihave to try but the error code has changed  to 6 and isnt 130:3 anymore wat now ?
+[V],thethingy,2010-02-04T19:57Z,whats the full error code?
+[V],thethingy,2010-02-04T20:03Z,looking back over your comments joris579 does the error say licencing stoped or licencing expired? and the full error 6 code?
+,jaxbishop,2010-02-05T04:56Z,"So everything works absolutely fine. One question though. I changed my host file back to it's original format, started the program and received the ""excuse the interruption"" message. I disconnected the internet, used one of the other serials numbers, changed the host file back to your way and it worked fine again. If I block the CS4 exe file in my fire wall can I change my host file back?"
+[V],thethingy,2010-02-05T12:10Z,"your firewall will block parts of the applications from working fully, the hosts file blocks only the activation servers."
+,joris579,2010-02-05T19:04Z,"just icencing stoped or licencing expired in titel and in the popup him zelf and error code:6
+
+Thanks for all your help :D"
+[V],thethingy,2010-02-05T19:58Z,"licence expired and licence stoped are 2 diferant problems with 2 diferant soloutions, if you now dont know which one it was do the steps for both in the toolkit"
+,joris579,2010-02-05T21:06Z,"working now 
+i want to thank you and seed for long time :D"
+,niedmann,2010-02-10T23:29Z,"Hi, whenever I get to step 5, where I'm supposed to change the host file, after I change it and I try to save the file it doesn't work. A window comes up that says ""File couldn't be created, check path and file name"". I read in your FAQ about these torrents that I should make sure that I have administrative permissions to alter the host file, and I do. I've tried this twice, and I was hoping that maybe you could help me figure out what I'm doing wrong, as I doubt there's something wrong with the file. "
+,niedmann,2010-02-11T00:04Z,"disregard that last comment, I downloaded the hosts file from http://thepiratebay.org/torrent/5296064
+
+it's working great, thanks so much for putting this up"
+,dhaft88,2010-02-11T16:43Z,When I try to run the activation blocker the cmd prompt flashes and says the system cannot find the specified path.. any ideas?
+[V],thethingy,2010-02-12T00:08Z,"dhaft88, r u using 64bit os?, in any event just use this one;
+http://thepiratebay.org/torrent/5296064"
+,hitchen1,2010-02-14T02:09Z,"Great torrent, got an average of 1.1 mb/s, thanks! =3"
+,DrBullshit,2010-02-17T03:39Z,"Great torrents thethingy, "
+,mentos11,2010-02-17T15:47Z,"hey, I installed adobe flash by the instructions but when I am at step 9.3 (Go to EDIT,PREFRENCES,GENERAL & UNCHECK AUTO UPDATE BOX,the adobe auto updater
+may run, let it but dont download any updates.)
+
+I cant find the uncheck auto update box :S
+am I blind? 
+
+(windows 7   64 btw)"
+[V],thethingy,2010-02-17T16:13Z,dont worry about it
+,mentos11,2010-02-17T16:35Z,"ok
+great torrent btw. and fast download (2,2 mb/s)
+Regards from Holland!!"
+,HawtSawce,2010-02-18T22:29Z,"Hey Thingy, 
+
+When I try replacing the hosts file, I get an error message saying: 
+
+Cannot create the C:\Windows\System32\Drivers\etc\hosts file.
+
+Make sure that path and file name are correct.
+
+
+Please help, what can I do?? Thanksss"
+[V],thethingy,2010-02-19T01:33Z,"read the hosts steps in this;
+http://thepiratebay.org/torrent/5323279"
+,HawtSawce,2010-02-19T03:16Z,"Great,... it worked! Thank you SOOO Much!!"
+,HawtSawce,2010-02-19T22:54Z,Can I take pictures and edit them with this program or is that a different Adobe Professional??
+[V],thethingy,2010-02-22T18:26Z,"youll want this;
+https://thepiratebay.org/torrent/5305030"
+,supiii,2010-02-23T13:34Z,"Everything else is working fine (I think) but when I go to a site which uses flash, I get this error:
+Error: Error #2134: Cannot create SharedObject."
+,supiii,2010-02-23T17:08Z,"Oh, I take it back. I get 130:3 error.
+
+I have uninstalled everything twice already and done everything according to instructions.
+
+Oh I just noticed. I havent uninstalled Pixel Bender Toolkit. Could that be the reason?"
+[V],thethingy,2010-02-24T02:06Z,probabily
+,X-Out,2010-02-24T21:18Z,"I'm having trouble getting it installed.  I'm using MagicDisc and have mounted the image and run the setup.exe, but right as it goes to install I get the message:
+
+""Please insert Adobe CS4 into drive H:\ to continue installation.""
+
+There aren't any other .iso or .uif files so... what do I do?
+
+Thanks."
+[V],thethingy,2010-02-26T17:28Z,"what iso did you mount?, this torrent doesent have any iso files?????"
+,Xeraphim,2010-03-02T01:05Z,"The installation dialogue didn't have a key already entered, I don't see a file with keys in it.  Where are we to find a key for installation.  (Using win 7 64)"
+,1okaty,2010-03-02T17:50Z,"I have the same problem as X-out.
+If I read iso image with daemon, after registration code, setup talk me ""Please insert Adobe CS4 into drive H:\ to continue installation.""
+
+How I can resolve this problem? 
+
+I check it with clean iso without ckrack, but not help me. Can U advise other Flash 10 crack to me?"
+[V],thethingy,2010-03-03T23:13Z,"1okaty, there is no iso in this torrent"
+,incognitopsycho,2010-03-05T19:49Z,All works fine for me. Thanks!!
+,_natka_,2010-03-05T23:08Z,"The program works, but i can't choose any color (stroke and fill) exept white and grey! "
+,ErowidZero,2010-03-14T08:33Z,I followed the instructions and everything seems to be working great but I have a few questions.  1) My Win Defender and anti-virus were turned off and when I try to turn them on it goes to an adobe folder; why?   2) Any special instructions for adding photoshop from a similar torrent?
+[V],thethingy,2010-03-14T16:34Z,"^^^^ antivirus and bit defender has nothing to do with this adobe as there is no crack or keygen used ,,, photoshop, follow the steps in the torrent you get photoshop from"
+,yarddrop,2010-03-14T18:48Z,Absolutely seamless! Excellent work.
+,ErowidZero,2010-03-14T21:31Z,"Thanks for the response.  I know they sound unrelated but for a month defender and anti-virus were active and were shut off IMMEDIATELY following this installation.  There was no other activity that could have caused this.
+
+*Also - my Win7 no longer appears to be genuine. Can you think of anything this installation could have done?"
+,ErowidZero,2010-03-14T22:18Z,"I'm not gonna bug you anymore beyond this but I had one more detail to add - the antivirus program is running fine but since flash installation windows7 reports that it is off even though it isn't.
+
+I don't claim this issue is your responsibility and I respect your time - if you have ANY ideas of how the flash installation (or supporting files such as the hosts file and toolkits) could have possibly caused this, please offer me your insight."
+[V],thethingy,2010-03-15T06:42Z,"win7 action centre is not the most reliable of things, flash doesent interact with it at all, the activation blocker edits the hosts file, the patched dll file is a genuine unmodified file that is taken from a legal copy of flash, so on the basis that nothing in this torent goes near win7 action centre i would have to say the problem is unrelated, there is a website win7 (i think) that shows you how to reset action centre, its a common enough issue."
+[V],thethingy,2010-03-15T06:44Z,"or in action centre turn off all monitoring, restart and turn it all back on then restart again, that will reset action centre "
+,ErowidZero,2010-03-15T08:01Z,Thanks again for your time.  I should note that the flash program worked great so I'm thinking my issues are an isolated situation.  I did a system restore to before I installed flash and my win7 is back to being genuine and I'm seeing no problems.  I'll attempt flash installation in a virtual machine and see what happens.  Thanks for trying to help and keep up the good work providing quality apps.
+,Phantomcat,2010-03-18T21:56Z,"Okay, downloaded the torrent, and made an attempt to install, but after it checks my system profile, it says ""setup has encountered an error and cannot continue. Please contact Adobe Customer Support for assistance.""
+Help?"
+[V],thethingy,2010-03-19T09:52Z,"^^ do the failure to install steps in this;
+http://thepiratebay.org/torrent/5323279"
+,Phantomcat,2010-03-19T23:28Z,"Did it, and it still doesnt work. I still get the same error message."
+[V],thethingy,2010-03-20T08:33Z,"Phantomcat, whats your pc specs?"
+,Phantomcat,2010-03-20T08:41Z,"What do you mean by specs?
+Heh, sorry, I'm somewhat illiterate when it comes to computers. ^^;;"
+[V],thethingy,2010-03-20T12:15Z,"i mean how much memory do you have, what cpu have you got, what graphics card etc.
+
+try this;
+http://thepiratebay.org/torrent/5427502
+then try to install again."
+,Phantomcat,2010-03-21T00:04Z,"Oh. Well, I have about 88.3 Gigs left, windows 7, e machines laptop, graphic card, not sure. But I had Photoshop and flash previously, and Photoshop worked perfectly for a really long time, and flash worked for about a day.
+
+Also, I have tried that, and I still get the error. "
+,sooppa,2010-03-23T01:37Z,"Hi thethingy, your photoshop torrent worked seamlessly for me.  
+
+This time, however, when I opened my hosts file in notepad - it was different that yours.  So my question is, when I SAVE the updated ""hosts"" file - do I SAVE IT in the ""notepad"" format i.e. .txt?
+
+Secondly, I already did step 6&7 when I downloaded your photoshop (dlls & adobe updates) so do I have to do them again?
+
+Thanks so much.  You are great!
+Sooppa"
+,sooppa,2010-03-23T02:17Z,"OK, nevermind.  I ""saved as"" ""all files"" then went through ALL the steps.  FYI, there doesn't seem to be an ""auto update"" button to uncheck in any of the preferences panels.  I noticed that before too."
+[V],thethingy,2010-03-23T20:28Z,"sophie, just use this hosts file;
+http://thepiratebay.org/torrent/5296064
+its got the entries for all of the Acrobats on it"
+,rum.police,2010-03-25T05:32Z,Well done. This has been one of the most straight forward installation instructions I have had the pleasure of following. Everything worked as it should. Step 9 was a little of track but you later post sorted that out. Thank you.
+,Bud4Bud,2010-03-25T13:20Z,"Thanks The thingy, everything works fine, you are jesus christ reborn !!!  Only thing i can't figure out is step 9 when it says ""Go to EDIT,PREFRENCES,GENERAL & UNCHECK AUTO UPDATE BOX "" 
+
+When i do that i can't see where the update box is,where is it located  ? "
+[V],thethingy,2010-03-25T16:48Z,"Bud4Bud, not all of the apps have the updated option, just turn it off if its there if not dont worry about it."
+,Bud4Bud,2010-03-26T03:47Z,"Ok, cool ! Thanks again thingy !"
+[V],thethingy,2010-03-26T14:54Z,"Jake2319, do the licencing stopped steps in this;
+http://thepiratebay.org/torrent/5323279
+and check your hosts matches this one;
+http://thepiratebay.org/torrent/5296064"
+,tlk101,2010-03-26T17:04Z,"hey all I'm having trouble with this (I have Win7 ultimate), it was working fine until I was installing the 4th update and it wouldn't let me install it then when I was adding the line in the hosts file it wouldn't let me save so it won't open, any help would be much appreciated "
+[V],thethingy,2010-03-26T17:39Z,"tlk101, read failure to install and hosts steps in this;
+http://thepiratebay.org/torrent/5323279"
+,tripplesix,2010-04-24T19:05Z,"This was a great torrent.  Installed flawlessly... and opens (although I haven't actually used it yet) on Windows 7 Home Premium 64-bit.
+
+THANKS thethingy!"
+,JorenKH,2010-04-25T07:16Z,ummm something is not working the setup will not do anything i click on it and it doesnt do a thing
+,maximillion11,2010-04-25T12:49Z,"Thanks! this works perfectly, no problems at all on windows xp"
+,polska224,2010-04-26T15:19Z,"thethingy, you sir, are a scholar among men. torrent worked perfectly and im currently downloading photoshop. thanks!"
+,LilMoony,2010-05-14T07:58Z,"Hello, I downloaded it and everything works wonderfully, but whenever I open CS4 it keeps asking me to enter a new key =/  I try entering the same one over again, but it won't let me. Right now, I have it on trial mode because I don't wanna waste the key numbers I have, but how do I fix it so that it's installed properly and stops asking for a new key?"
+,headshotu,2010-05-16T05:42Z,i dont why but i keep getting error 147:20 9 followed all the step but i am still getting the SAME AND ANNOYING problem HELPPP i am desperate 
+,aNNie11,2010-05-20T15:24Z,"finally works=)))
+had that same error 130:3
+And I downloaded Adobe Install and Licence Toolkit, and just copied amtlib.dll file again, and now works fine=))))"
+,mikejacobs,2010-05-28T13:12Z,"I had to uninstall due to 103.3 error and now, when I run setup.exe it says ""Setup error has occured and cannot continue"", can someone help me?"
+,Yell0wdog,2010-06-11T03:25Z,"When i use the extractor it goes through and extract and then gives me and error that says ""Some installation files are corrupt. Please download a fresh copy and retry the installation"" I've deleted it and re-downloaded 2 times and keep getting the same message. I'm gonna download and try again... is there anyone that can help?"
+,Beepboxx,2010-06-15T01:13Z,"Works great!  Another nice piece of work.
+Thanks once again.
+Cheers
+BB"
+,kuki88,2010-06-23T04:23Z,thank you 
+,kensuga,2010-07-16T12:57Z,hi thethingyni have some probs goin on..i downloaded ur illustrator and this i got the instruction but wen i open in a agreement apears and wen u clicked it nothing will happen o_O
+,gmjh,2010-07-22T12:20Z,Hi there thingy. The link you've posted a couple of times to fix the 130 3 error message is now dead. Can you provide another link or give a name for it so I/we can search for it? Or describe how to deal with 130 3 error? Thanks in advance
+,rabbel,2010-08-16T06:27Z,"Hi thingy, can u please provide a link to your solution of saving the host file in the system folder? The current links are 404. "
+,sv504,2010-09-11T10:10Z,Thanks. Excellent upload with clear instructions.
+,mvillaev,2010-09-23T20:17Z,"Hi thethingy,
+
+1st thx for the fin upload
+it was working fine for a while but now i got this same 130:3 error
+
+unfrotunately, this doesnt work any more:THERE IS A TOOLKIT HERE FOR PREPAIRING A PC FOR A CLEAN INSTALL & FIXING ERRORS;  
+http://thepiratebay.org/torrent/5592268
+
+could you upload again or help me fix it some how
+checked host file - its flawless
+
+thx in advance "
+,nymphadoratonks,2010-09-26T08:10Z,I am getting the 130:3 error. I have done everything in the instructions. Can you please help me. ##Please answer quickly##
+,nymphadoratonks,2010-09-26T08:12Z,"HI, I am getting the 130:3 error. I have done Everything in the instructions. Can u please help me solve this?"
+,LauranceX,2010-12-13T22:56Z,"I tried using this installed, with errors (Windows XP 32-bit)
+
+Then when I tried running it, flash resources.dll not found.. so I downloaded a file elsewhere and it still doesn't work... any hints?"
+,spiffyness,2011-02-15T11:20Z,I'm having the same problem with the 130:3 error
+,niceworkbuddy,2011-03-02T03:50Z,"Thing, do you know where have the serial numbers gone? I enter the numbers I saw here last month, it accepted it, but when I closed the program and reopened it, it asked for the serial number again, and it didn't always work. Please help. "
+,axise,2011-06-15T11:39Z,"Ok. 2 Things Thingy:
+
+Thanks A Lot N It Works Well.
+
+Note: The Host File Didn't Add All The Exceptions After Running The Block. So I Manually Added All The Other IPs Just In Case.
+
+I've Used This Install Method For A Couple Years Now. N I Had Problems With The illustrator Install. It Fucked Up My Licenses For All My Adobe Products. Im Not A Noob But IDK What The Heck Happened. I Tried The Install From Scratch 4 Times N Nothing So I Gave Up On That One. The Error I Got Wasnt Listed In The Folder. [There Has Been An Error With The Licensing Of This Product, Blah Blah.] The SN Worked Well N The Install Ran Perfectly Smooth.
+Im Sure It Was Something Related To The Host.
+
+Well To All The Complainers...If U Can't Make It Work, Pay More Attention N Try Harder. Cuz This Works 100%. There Was NO 1 Issue During The Install. Nor During The Updates.
+
+HP Mini 210-1010NR [Netbook.] 
+Win 7 Starter. 32Bits. 1Gb Ram."
+,SumeklamKidd,2011-09-30T04:26Z,"Hi thethingy.
+
+First, thanks for all you fine uploads, you are awesome!!!
+
+I have followed every link you have posted, and all of them say ""Not Found (aka 404)"".
+
+Have you deleted the former links, or is something else up?
+
+I'm asking because I have tried everything multiple times, and the setup.exe works for a few seconds, then goes into an infinite feedback loop: nothing happens. "
+,blaba12,2011-12-11T14:40Z,"hi thethingy, can you please please please upload the host file again, I had the same problem with others that i can't save as from the notepad. many thanks for the upload! "
+,brodzio,2012-01-21T21:24Z,"Guys... It *does not* work well... You will do most of things here, but I can't believe such expensive software has a bug that makes it impossible to compile animations with external .AS files. It's either not cracked (not cracked at all btw) very well, or indeed Adobe sux. Either way, not worth to download if You make external .AS document class. I would try trial version but i think I'll try CS 3 instead."
+,krit01,2012-07-10T10:45Z,"please help how can i do step 8 adding the last line to activate the cs 4 
+
+im getting error 130:3
+
+the links here are not working anymore"
+,krit01,2012-07-10T10:48Z,"step 8 solve
+
+but still getting the error 130:3 
+
+please help"
+,krit01,2012-07-10T11:05Z,license has stopped working

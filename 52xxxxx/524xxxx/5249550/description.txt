@@ -1,0 +1,7 @@
+ http://decafme.org/
+
+Update: 28/12/2009 - It's finally here...
+
+Version 2 is finished. We are now monitoring Microsoft COFEE, Helix, EnCase, Passware, Elcomsoft, FTK Imager Port, Forensic Toolkit, ISOBuster, and ophcrack. We also give the user the ability to add their own custom signatures. We have also added CD-Rom monitoring. We no longer execute a "self destructive lock-down mode" but rather give the user the ability to execute files, to disable the device where the signatures were found, and start-up in monitor mode. We decided v2 will not report usage back like v1 did. We also do not perform automated version checking.
+
+

@@ -1,0 +1,80 @@
+BLUETOOTH STACK FOR WINDOWS BY TOSHIBA v7 (works on any pc with any bluetooth)
+
+-----------------------------------------------------------------------------------
+
+INSTALL (AS ADMIN VISTA/7), RESTART, CLOSE BLUETOOTH STACK FROM TASKBAR, COPY TosBtMng TO THE INSTALLATION DIRECTORY AND REPLACE EXISTING TO REMOVE TRIAL PERIOD
+
+-----------------------------------------------------------------------------------
+
+Supported Operating Systems (32 AND 64BIT):
+
+- Windows 2000 
+    
+- Windows XP  Home/Professional/Tablet PC Edition/Media Center Edition
+     
+- Windows Vista 
+
+- Windows7 
+
+Supported Bluetooth Profiles:
+
+A2DP: Advanced Audio Distribution Profile
+AVRCP: AV Remote Control Profile
+BIP:  Basic Imaging Profile
+DUN:  Dial-Up Networking Profile
+FAX:  FAX Profile
+FTP:  File Transfer Profile
+HCRP: Hardcopy Cable Replacement Profile
+HDP:  Health Device Profile
+HID:  Human Interface Device Profile
+HSP:  Headset Profile
+HFP:  Handsfree Profile
+LAP:  LAN Access Profile
+OPP:  Object Push Profile
+PAN:  Personal Area Networking Profile
+SPP:  Serial Port Profile
+
+Additional features:
+
+- Multi connection capable HFP (Handsfree Profile) device support
+- IT-Admin functions (allows the Administrator to limit Bluetooth 
+  functions for Standard Users) 
+- Bluetooth speaker auto-reconnect function. It is especially 
+  useful for Bluetooth speakers (can be enabled in "Bluetooth Settings
+  -> speaker icon ->Detail...->Automatic connection..")
+- Scatternet support
+- VoIP utility, which works together with Skype
+- Bluetooth specification v1.1 support
+- Bluetooth specification v1.2 support
+- Bluetooth specification v2.0 + EDR support
+- Bluetooth specification v2.1 + EDR support
+- Microsoft SDIO controller driver is supported
+- "Remote Camera" tool for Bluetooth Cameras with "RemCam"-profile
+  support, which is a (not mandatory) sub-profile of the BIP-profile. 
+- Enhanced HCRP profile to support all Canon printer tools.
+- Silent installation feature 
+- Restricted user support
+- Setup and installation scripting features
+- HID auto-connect function for Bluetooth bar code scanner 
+  "Symbol LS3578"
+- Share Mode 
+  Each user can share registered data and settings.
+  Private Linkkey feature is available. This function supports 
+  security between each users.
+- IT Admin feature with Share Mode option.
+- Startup option of Bluetooth Manager is controlled by parameter 
+  setting in "TosBtUtl.ini" file.
+- Enhanced printer management utilities 
+  Toshiba bluetooth printer tools:
+  Tbpcheck: Tool to get printer configurations 
+  Tbpsetuup: Tool for Bluetooth printer pre-installation 
+  Tbpconfig: Restricted user can setup bluetooth printers.
+- AV Remote Control feature is enhanced.
+  Windows Media Player, iTunes, others
+- Microsoft "OEM Ready Program" compliant.
+- Hardware detection install mode is supported.
+  Main Set File Name: setup.exe 
+  Installation Parameters: /s /v/qn /DETECT:"ACPITOS6205"  
+- Bluetooth stack startup options (do not start, start disabled)
+- Bluetooth PAN auto-reconnect
+

@@ -1,0 +1,184 @@
+New in 5.2
+
+tweaks to help output
+was searching for AtomicParsley with all lowercase, changed.
+Included iTunMOVI-1.1.pl to add new advanced tagging to files.  (Not yet incorporated into encode-handheld.pl as it requires switching to Getopt::Long;)
+renamed psp720 to psp480p in support for psp576p
+corrected psp640 (was missing refs)
+added: PSP 720x576 16:9 & 4:3 encoder. (use psp768 for 4:3 and psp576p for 16:9)
+(believe you need psp firmware 5.50 and above to use the new PAL 720x576 sizing)
+Search for dcadec instead of dtsdec
+dcadec and a52dec were being called by name instead of variable, corrected
+Disable wpredp if present in ffmpeg
+added support for mbtree if present in ffmpeg
+Removed reliance on unix date command for formatting the iTunes year. (fixed Mac OS X year problem)
+
+
+-------------------------------------
+
+Now includes binaries for Mac OS X.  Binaries were compiled on Mac OS X Snow Leopard on Intel i386 platform.  ffmpeg, mkvmerge, mkvextract are not compiled statically like they are for Linux.  I have included them in tarball fashion so when you unpack the tarball you will get the needed dynamic libraries.
+
+Mac binary versions:
+
+ffmpeg SVN-r20797
+x264 0.80.1373 4322f63
+mkvmerge v2.9.9 ('Tutu') built on Dec  7 2009 01:07:42
+AtomicParsley wez commit 31.
+
+
+
+-HR
+
+-------------------------------------
+
+Subtitle HOWTO
+
+You can use the following Mac OS X software to setup SubTitles (soft subs) 
+http://code.google.com/p/subler/ 
+http://www.bitfield.se/isubtitle/index.html
+
+You can also do it with the latest CVS version of gpac.
+
+Here is how to get get gpac and compile and use it.
+
+You need Xcode to compile it on Mac OS, get it from below url in downloads, get the proper Xcode for your version of MacOS.  Of couse you dont need Xcode if you are compiling on Linux.  On Snow Leopard get xcode321_10m2003_developerdvd.dmg 
+http://connect.apple.com/
+
+cvs -d:pserver:anonymous@gpac.cvs.sourceforge.net:/cvsroot/gpac login
+(just press enter when it asks for password)
+cvs -z3 -d:pserver:anonymous@gpac.cvs.sourceforge.net:/cvsroot/gpac co -P gpac
+
+cd gpac
+sudo ./configure
+sudo make apps
+sudo make install
+sudo install  -m 755 bin/gcc/MP4Box "/usr/local/bin"
+(some reason it doesn't install MP4Box on make install, its commented out)
+
+OK, now you have MP4Box
+
+(example SRT subtitle add for District 9 for the PiZ release by HR.)
+(These commands are basically the exact same commands subler is running)
+
+MP4Box -add m-district9-720p.srt:lang=eng:layout=0x60x0x-1:group=2 District 9.m4v
+
+each subsequent sub should be added disabled (some reason if they aren't then subs is disabled)
+
+MP4Box -add District 9.srt:lang=afr:layout=0x60x0x-1:group=2:disable District 9.m4v
+
+the 60 is the height of the characters.  (this is all you should modify if anything, or modify lang if you are adding something other than english)
+
+This is the breakdown from MP4Box help.
+
+ ":group=G"           adds the track as part of the G alternate group.
+                         If G is 0, the first available GroupID will be picked.
+ ":lang=LAN"          sets imported media language code
+ ":layout=WxHxXxY"    specifies the track layout
+                         - if W (resp H) = 0, the max width (resp height) of
+                         the tracks in the file are used.
+                         - if Y=-1, the layout is moved to the bottom of the
+                         track area
+
+After adding the subtitle track you will see it now like this:
+
+MP4Box -info 3 District 9.m4v
+Track # 3 Info - TrackID 3 - TimeScale 1000 - Duration 01:38:45.167
+Media Info: Language "English" - Type "sbtl:tx3g" - 301 samples
+Handler name: m-district9-720p.srt:lang=eng:layout=0x60x0x-1:group=2 - Imported with GPAC 0.4.6-DEV (build 1)
+3GPP/MPEG-4 Timed Text - Size 480 x 60 - Translation X=0 Y=198 - Layer 0
+Alternate Group ID 2
+
+Computed info from media:
+        Total size 3948 bytes - Total samples duration 5924334 ms
+        Average rate 5 bps - Max Rate 608 bps
+
+-------------------------------------
+
+The language audio track on HR releases aren't properly set (will be addressed in encode-handheld.pl later)
+
+Here is how to adjust it using MP4Box
+
+MP4Box -lang 2=eng District 9.m4v
+
+(This sets track 2 (audio track) to language english)
+
+
+To remove a track:
+
+MP4Box -info District 9.m4v
+
+MP4Box -rem <TrackID #>
+
+
+So basically in sum to fix the audio to english and add the alien/africaan and full english subs we ran 3 commands.
+
+MP4Box -lang 2=eng District 9.m4v
+MP4Box -add m-district9-720p.srt:lang=eng:layout=0x60x0x-1:group=2 District 9.m4v
+MP4Box -add District 9.srt:lang=afr:layout=0x60x0x-1:group=2:disable District 9.m4v
+
+Since subler runs extremely fast it must not be rebuilding the file completely like MP4Box is.  It is also putting the subs on Layer -1 instead of Layer 0 like MP4Box is.  I don't know how it is doing that yet.
+
+
+UPDATE:  You cannot have 2 of the same language type and have it work under Apple TV.  You can also not define one of the tracks as "und", it wont work.  I defined one as "afr" and one as "eng".  afr = Afrikaans, but it isnt known to Apple TV, but it does work.
+
+A list of codes is here: 
+http://www.loc.gov/standards/iso639-2/php/code_list.php
+
+
+I credit most of this information to the original find here: 
+http://forum.doom9.org/showthread.php?t=147494
+
+where I then researched in more depth.
+
+
+If you don't want MP4Box to do this:
+
+Forcing AVC/H264 SAR to 1:1...
+Saving output.m4v: 0.500 secs Interleaving 
+
+then rename your .m4v to .mp4
+
+and change your MP4Box lines to:
+
+MP4Box -add m-district9-720p.srt:lang=eng:layout=0x60x0x-1:group=2:hdlr="sbtl:tx3g" District 9.mp4
+MP4Box -add District 9.srt:lang=afr:layout=0x60x0x-1:group=2:hdlr="sbtl:tx3g":disable District 9.mp4
+
+Notice the added hdlr option.  After running then rename back to .m4v otherwise iTunes/Quicktime does not recognize the subtitles.
+
+
+----
+
+unrelated note, this is a pretty cool list of iTunes atoms. 
+http://code.google.com/p/mp4v2/wiki/iTunesMetadata
+
+
+---
+
+you can use this same method for adding additional audio tracks as well.
+
+Something like this works:
+
+MP4Box -add District 9.m4v#audio:lang=afr:disable District 9-new-testing.mp4
+
+Make sure your you set the additional tracks to disable.  You could use this to add an additional 5.1 audio track.  I would guess this would still be xbox 360 compliant as long as the main track is stereo and the remaining tracks are set to disabled.  You have to change the language code still.
+
+Works fine in quicktime and itunes and VLC.
+
+To access the subtitles and additional audio tracks on Apple TV just hold down the pause/play button and a menu will pop up.  Here you can select the tracks you want.
+
+---
+
+ill probably make a short script like iTunMOVI.pl to handle adding subtitles and audio tracks, seems the easiest.  Something like:
+
+./add-subtitle.pl --sub=whatever.srt:eng,another.srt:spa --sub=yetanother:fre --file=myfile.m4v --audio=mynewaudio.m4a:spa --print --write
+
+
+Another update:
+
+Apple TV can play 2 subtitles of the same language as long as trak.udta.name has a different value on each track.  By default this is blank.
+
+Subler has the ability to change this, so does 
+http://code.google.com/p/mp4v2/
+
+
+-HR

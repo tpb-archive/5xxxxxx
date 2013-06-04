@@ -1,0 +1,195 @@
+Snow Leopard for Intel and AMD. This distro include retail 10.6 with 10.6.1 and 10.6.2 update. It's include many fixes and drivers and fell free to experiment. Working perfectly 100% on my spec: GAEX58 UD5, i7, eVGA GTX 260 and OCZ 6GB 1600 MHz.
+
+This Snow Leopard is made from Retail Mac OS X 10.6 with update's 10.6.1 and 10.6.2. Support most of the modern hardware for Intel and AMD (AMD users need to patch cupid's with Marvin's AMD Utility). DVD include Intel Atom fixed kernel for 10.6.2 update, support for Intel Pentium 4 with Legacy Kernel, SATA Fix and more.
+After I upload all files one more PPF file extra will be included as a little fix.
+
+By Hazard
+
+DVD content:
+
+Retail 10.6 main files
+
+List of the kext's included in standard installation:
+
+AHCIPortInjector
+AppleACPIPS2Nub
+AppleATIATA
+AppleIntelGMA950 Fixed
+AppleIntelGMAX3100FB Fixed
+AppleIntelIntegratedFramebuffer Fixed
+AppleIntelPIIXATA
+AppleNForceATA
+ApplePS2Controller
+AppleVIAATA
+ATAPortInjector
+AttansicL1eEthernet
+Disabler
+EvOreboot
+Fakesmc
+Intel82566MM
+IOAHCIBlockStorageInjector
+IOATAFamily Fixed
+IOPCIFamily Fixed
+JMicronATA Fixed
+LegacyJMB36xSATA
+nForceLAN
+NullCPUPowerManagement
+OpenHaltRestart
+PlatformUUID
+RealtekR1000SL
+Sleepenabler
+SuperNForceATA
+SuperVIAATA
+VoodooHDA
+
+List of the Tools and Software included in standard installation:
+
+AppCleaner
+BetterZip
+Colloquy
+Disk Order
+EFIStudio
+IORegistryExplorer
+Kext Utility
+OSX86Tools
+Pacifist
+PPFMaster
+Property List Editor
+Smultron
+StuffIt Expander
+uTorrent
+
+
+
+Install options:
+
+Mac OS X Update:
+
+Mac OS X 10.6.1 Update
+Mac OS X 10.6.2 Update Combo
+
+Boot Loaders:
+
+Chameleon RC3 PCEFI 10.3
+Chameleon RC3 PCEFI 10.5
+
+Kernels:
+
+Intel Atom Kernel 10.2.0
+Legacy Kernel 10.2.0 Intel AMD
+Mobdin Kernel 10.0 AMD Only
+
+Graphic:
+
+ATI HD 2600 Fix
+GMA3500
+GMA X4500
+ATY_init
+ATI 48X0 IDs Injector
+Graphic Enabler
+EVOenabler for Extra/Extensions
+EVOenabler for System/Library/Extensions
+EVOenabler ATI HD 4870 Extra/Extensions
+EVOenabler ATI 4830 System/Library/Extensions
+Legacy ATI 4800
+NVEnabler
+NVInject
+Remove ATI4500 and ATI 4600 Controller - Support for ATI 4850
+
+Audio:
+
+AppleAzaliaAudio
+AppleAzaliaAudio ADI 1981
+AD1988b Fix
+AppleHDA
+HDAIDT Driver for HP M311
+Envy M-Audio
+ALC662 for Gigabyte
+ALC883 for Gigabyte
+ALC888b for Gigabyte
+ALC889a
+Voodoo 0.2.52 new
+
+LegacyHDA:
+
+LegacyHDA 885
+LegacyHDA 888
+LegacyHDA 889
+ALC 889 HDA MIC Panel Hd x86 - 64
+ALC889 Legacy for EVGA X58
+
+Network:
+
+Atheros Fix 10.6.2
+RTL8139 Ethernet
+BCM 5787M Ethernet
+RTL8169 Ethernet
+BCM 5755M Ethernet
+D-Link DWL G520
+Legacy Yukon 2
+Marvel-Yukon 88E8056
+Skge
+
+Laptop:
+
+AppleACPIBatteryManager
+FunctionFlip - Bightness control
+MACam
+VoodooBattery
+VoodooMonitor
+VoodooPower
+VoodooPowerMini
+VoodooPS2Trackpad
+
+System Support:
+
+AHCI SATA Fix Extra/Extensions
+Legacy SATA Fix
+AppleRTC
+LegacyAppleRTC
+ElliotForceLegacyRTC
+AppleUpstreamUserClientDisabler
+FramebufferDisabler
+JMicronATA Injector
+LegacyAppleIntelPIIXATA Fixed
+IOATAFamily Fix
+IOATAFamily SATA Fix Extra/Extensions
+SMBIOSResolver
+UUID
+Dsmos
+Fakesmc 1.0
+
+AMD
+AdditionalFonts
+X11
+Rosetta
+QuickTime 7
+
+More Info?
+
+Register at http://leohazard.com/Forum/index.php
+
+
+NOTE:
+
+THIS SNOWLEOPARD IS BOOTING BY DEFAULT IN 64BIT!
+
+SO THE ONES WHO CANNOT BOOT IN 64BIT or WANT TO BOOT IN 32BIT MODE SHOULD TYPE IN BOOTLOADER MENU:
+
+-v arch=i386
+
+or
+
+arch=i386
+
+
+
+
+
+
+
+NEW!
+
+Mac OSX 10.6.2 Client Sever coming very soon! 
+
+check: http://leohazard.com/Forum/viewtopic.php?f=19&t=155

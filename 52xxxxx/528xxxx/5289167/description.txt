@@ -1,0 +1,42 @@
+TomTom 7 for Windows Mobile 2003
+================================
+
+Information:
+
+* Works on WiMo 2003(SE)
+* Includes latest Benelux Maps (version 8.40)
+* Includes Dutch voices
+* Only total size of 120MB
+* Latest version of TomTom Navigator(7.9)
+
+This application works ONLY on Windows Mobile 2003 or Windows Mobile 2003SE !
+Do not try to install this on a Windows CE or Windows Mobile 5/6 device.
+This is NOT an official or copied version.
+I have changed a lot of things to work with Windows Mobile 2003.
+
+If you can't get it working, check your time & date settings, make sure you have
+the latest ROM for your device, and try again after a hard-reset.
+
+Instructions:
+
+1. Format your SD-card as FAT32.
+2. Copy all files in folder "COPY_TO_SD_CARD" to your SD-card.
+3. Insert SD-card in Windows Mobile device.
+4. Start File Manager and install TomTom-Installer.cab (in INSTALLER directory).
+5. Start TomTom 7 Navigator from Menu.
+6. After setting it up, it will tell you the map is not activated.
+7. Quit the TomTom application or softreset your phone.
+8. Put the SD-card back in your PC.
+9. Open the file "ttnavigator.bif" with Notepad and copy the code after "DeviceUniqueID=" to the "DeviceID.txt" file in "KEYGEN_TOOLS".
+10. Now copy the ".meta" file (Benelux-110.meta in this case) to "insert_meta_from_Map_here".
+11. For all other maps than Benelux, add META-info to META.txt in Progs directory.
+12. Open "RunMeforDCT.cmd", select option 1, then select option 1.
+13. If it says OK, copy the ".meta.dct" file from "insert_meta_from_Map_here" to your map folder (BENELUX).
+14. Now put your SD-card back in your PDA and start TomTom 7.
+
+If you have any problems or suggestions, please tell me in the comments.
+This TXT-file is also available in Dutch for those who want it.
+
+========
+FezzFest
+========

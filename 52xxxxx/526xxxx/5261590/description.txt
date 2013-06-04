@@ -1,0 +1,12 @@
+This is The Elder Scrolls Construction Set, a tool to create plugins for Morrowind. This is only for Morrowind and is NOT compatible with The Elder Scrolls IV: Oblivion.
+
+If you were foolish enough to purchase Morrowind from Steam rather than on a plastic disc, you may have noticed that the publisher chose not to include these mod tools in that release for reasons that, I'm sure, made sense in a boardroom somewhere. Unlike for its sequel, Morrowind's Construction Set was never made available on the Bethesda Softworks website for download, either. So here it is.
+
+Installation instructions: 
+1) Unzip this to your Morrowind folder. If you bought this from Steam, this is probably something like:
+C:Program Files (x86)Steamsteamappscommonmorrowind
+2) Run TES Construction Set.exe
+3) That's it.
+
+If you need the other files (textures and meshes) from the construction set disc to make your mod, you secretly already have them! Just use a BSA unpacker to extract the contents of Morrowind.bsa (and, if needed the expansion pack files as well, Tribunal.bsa and Bloodmoon.bsa) to your Morrowind/Data Files folder. Read more here:
+http://cs.elderscrolls.com/constwiki/index.php/BSA_Unpacker_Tutorial

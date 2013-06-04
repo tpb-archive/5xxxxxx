@@ -1,0 +1,25 @@
+OK, HERE IT IS,, if somone could help me along,, 
+1. If COD modern warfare isn't in applications already move it there
+
+2. get steam FOR MAC not the windows version that runs through crossover,, here are links for 2 different versions
+(this is the one i used but it seems to be down at the moment)
+ 
+http://snow-leopard.ning.com/page/steam-for-mac (havnt tried this one but it should be the same)  
+ 
+3, Download http://www.qurlyq.com/7j3 (u have to fill out survays but just write random stuff)
+
+4, UNRAR all of the files and replace the files in applications-->Modern WarFare 2.app (rightclick show package contents) /Contents/Resources/transgaming/c_drive/Programme/Activision/Modern Warfare 2 
+
+5, Then go to applications/modernwarfare2/contents/info.plist (open in text edit) then about 3/4 of the way down change 
+<string>c:ProgrammeActivisionModern Warfare 2iw4sp.exe</string>
+to
+<string>c:ProgrammeActivisionModern Warfare 2iw4mp.exe</string>
+
+change the iw4sp.exe to iw4mp.exe then save
+
+6, Finaly go into your mac version of steam and login to your account, then go to file --> settings --> friends and change your nickname to somthing with a space in it, i was sanjeb and now i am sanjeb 123, so yer,
+
+7, NOW this is very important, go to MY GAMES tab on steam and click on add-non steam game, then click browse, then at the top pull down menu click z: then navagate to applications then to your cod modern warfare 2 folder 
+applications-->Modern WarFare 2.app/Contents/Resources/transgaming/c_drive/Programme/Activision/Modern Warfare 2/IW4MP.EXE and then add it to the games list, then just open it from in steam and it should be running,, 
+
+There is only one problem this only allows you to play online for a couple of minute because you get kick but i am working on a fix for this,,, MERRY CHRISTMASS (OR FESTIVE CELEBRATION OF YOUR RELIGION :) ) PEACE OUT Y'ALL

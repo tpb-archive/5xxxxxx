@@ -1,0 +1,11 @@
+ISPs have begun to take drastic measures to slow that flood of data currently clogging up their pipes.
+
+Though many ISPs deny it, most ISPs actively engage in traffic shaping, bandwidth throttling, connection denial or some such tactic to keep the amount of bandwidth consumed by high traffic applications on their networks to a minimum. While this does often ensure better performance for everyone in the neighborhood, it can mean painfully slow transfer speeds for those dabbling in P2P -- legit or not.
+
+
+ipfilter.dat is used to outwit traffic shaping ISPs.
+
+copy this ipfilter.dat to your utorrent folder
+
+c:documents and settingsUSERNAMEapplication datautorrent
+

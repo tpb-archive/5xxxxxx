@@ -1,0 +1,112 @@
+Here for your perusal and scholarly-type e-study are the full contents of the Ciscokits.com CCNA Lab Workbook.  This is the paid version I have uploaded for use only as a backup.  I *HIGHLY* recommend, if you haven't already, going over to http://www.ciscokits.com/ and purchasing one of their Lab Workbooks, or at least seeing some of the other paid and free content they have on their site.
+
+
+(Synapsis from Ciscokits.com)
+
+Passing the Cisco Certified Network Associate (CCNA) certification exam is difficult enough if you are fully prepared by attending a Cisco CCNA class with an instructor and you have access to all the proper books and equipment.  But what happens when you go home as it is not reasonable for you to retain all that information you would have been exposed to in a one week boot camp.  You will need to setup a CCNA lab in your home or work to really absorb all those concepts and cement them into your brain through actual hands-on application.  This is where our CCNA Lab Workbook can help you!
+
+Our CCNA Lab Workbook was designed with the knowledge that most of our customers canâ€™t afford a large lab.  Some people can only afford the bare minimum two router lab.  Other people may have a larger budget that will accommodate three Cisco routers and three Cisco switches or more in their lab.  But no matter what the size of your lab, you need to have some sort of lab guide to help you along in your CCNA studies.  
+
+That is exactly why we created our generic CCNA Lab Workbook.  It will provide you access to 60 different CCNA labs.  Some of these labs will be able to be completed on a single router, some will require two routers and other labs will require all the way up to four or more routers.  Does this mean if you only have two routers in your CCNA lab that this lab workbook is of no value to you and that you can't do all the labs?  Definitely not!  It will still be able to help you in your lab studies.  You will note that some of the labs such as the three router RIP lab can also be performed with only two routers.  What will you lose?  Obviously the extra set of routes the third router would have produced.  So you can just ignore that portion of the lab.
+
+So if you set your expectations properly, we think you will be very happy with this CCNA Lab Workbook.  There is no way we could write a lab workbook knowing exactly what equipment will be in your lab or how many pieces you will have in your lab.  But it was written as generically as possible to accommodate most CCNA lab scenarios.  We even took the extra time to include a handy interface cross reference chart. What is that you might ask?  Let's say the lab was written with a Cisco 2501 router in mind.  It tells you to configure E0 on the Cisco 2501 router.  But you have a Cisco 2620 router.  When you type in E0 the router does not recognize the port.  Why?  Well your syntax is incorrect.  So then you look up in our handy interface cross reference chart and you see that the syntax for a 2620 Ethernet port is fa0/0.  Now you are back on your way to configuring your CCNA lab!
+
+Finally, we have had many requests by customers who can't wait and just want to just download a copy of the Lab Workbook or they want to preview the Lab Workbook.  Well, we now offer a preview version of the Lab Workbook which you can download and view some of the labs and chapters.  It is available at this link CCNA Lab Workbook eBook Download Keep in mind, if you order the download version, you do not get a physical copy of the book.  You only get a physical copy of the book if you order it from the page you are on now.
+
+Below you will find a listing of how many Cisco routers or Cisco switches are needed per lab to fully complete them.  
+
+Number of labs requiring only one router â€“ 7
+
+Number of labs requiring two routers â€“ 11
+
+Number of labs requiring three routers â€“ 19
+
+Number of labs requiring four routers â€“ 4
+
+Number of labs requiring one or more switches - 8
+
+This 225 page Cisco CCNA Self-Study Lab Workbook will walk you through 60 different CCNA lab scenarios. That comes out to fifty cents per lab!  What a deal!  Below you will find a list of all the labs covered: 
+
+
+Chapter 1        Letâ€™s Get Started!
+Lab 1-1      Identifying Router Components and Accessories                                   
+Lab 1-2      Connect a PC to a Cisco Switch or Router                                           
+Chapter 2        Password Recovery Procedure
+Lab 2-1      Cisco 2500 Series Router Password Recovery                         
+Chapter 3        Configuring Static Routes
+Lab 3-1      Configuring Static Routes and Verifying Connectivity Lab A      
+Lab 3-2      Configuring Static Routes and Verifying Connectivity Lab B       
+Lab 3-3      Test Your Static Route Configuration Skills Lab                                    
+Chapter 4        Configuring Routers using the RIP Protocol
+Lab 4-1      Basic RIP Configuration                                                                        
+Lab 4-2      Passive Interface Configuration                                                 
+Lab 4-3      RIP Timer Configuration                                                                       
+Chapter 5        Configuring Routers using the IGRP Protocol
+Lab 5-1      Configuring IGRP and Verifying Connectivity Lab A                  
+Lab 5-2      Configuring IGRP and Verifying Connectivity Lab B                  
+Lab 5-3      Test Your IGRP Configuration Skills Lab                                              
+Chapter 6        RIP & IGRP Culmative Scenarios
+Lab 6-1      Configuring RIP, IGRP, Default Routes and Testing                               
+Lab 6-2      Test Your IGRP Static Route, RIP & IGRP Skills Lab              
+Chapter 7        Configuring Routers using the EIGRP Protocol
+Lab 7-1      Configuring EIGRP and Verifying Connectivity Lab A               
+Lab 7-2      Configuring EIGRP and Verifying Connectivity Lab B                
+Lab 7-3      Complex EIGRP Configuration Lab                                                      
+Lab 7-3A   Enabling EIGRP on a Backbone Router                                                
+Lab 7-3B   Configuring EIGRP in an NBMA Environment                          
+Lab 7-3C   Creating a Frame Relay Switch in an EIGRP Environment                     
+Chapter 8        Configuring Routers using the OSPF Protocol
+Lab 8-1      Configuring OSPF and Verifying Connectivity Lab                                
+Lab 8-2      Configuring OSPF Priority                                                                    
+Lab 8-3      Configuring OSPF and Verifying Connectivity Lab B                 
+Chapter 9        Configuring 1900 Catalyst Switches
+Lab 9-1      Managing the 1900 Switch                                                                    
+Lab 9-2      1900 Switch Operations                                                                       
+Lab 9-3      Creating VLANs                                                                                  
+Lab 9-4      Assigning VLANs to Switch Ports                                                        
+Lab 9-5      Configuring Trunking                                                                               
+Lab 9-6      Configuring VTP                                                                                   
+Lab 9-7      Configuring Inter-VLAN Routing with ISL                                            
+Chapter 10      Configuring 2950 Catalyst Switches
+Lab 10-1    Configuring VLANs                                                                              
+Lab 10-2    Configuring Swithport Security                                                  
+Chapter 11      Configuring PPP and Chap
+Lab 11-1    Configuring PPP and Chap                                                                   
+Chapter 12      Configuring Access Lists and VTY Access
+Lab 12-1    Configuring Standard Access Lists                                                        
+Lab 12-2    Configuring Extended Access Lists                                                       
+Lab 12-3    Configuring VTY Access                                                                      
+Chapter 13      Configuring Network Address Translation
+Lab 13-1    Static Inside Source Address Translation                                               
+Lab 13-2    Dynamic Inside Source Address Translation                                          
+Lab 13-3    Overloading an Inside Global Address                                      
+Chapter 14      Configuring a Frame Relay Switch
+Lab 14-1    Configuring a Frame Relay Switch Lab A                                              
+Lab 14-2    Configuring a Frame Relay Switch Lab B                                              
+Lab 14-3    Configuring Frame Relay with OSPF                                                     
+Lab 14-4    Configuring Frame Relay with Virtual Links                                           
+Chapter 15      Configuring IPSec 
+Lab 15-1    Configuring an IPSec Tunnel                                                                 
+Chapter 16      Installing & Configuring Security Device Manager(SDM)
+Lab 16-1    Installing Security Device Manager                                                        
+Lab 16-2    Configuring Security Device Manager                                        
+Lab 16-3    Configuring DHCP with Security Device Manager                                 
+Chapter 17      Configuring IPv6 on a router with RIP
+Lab 17-1    Configuring IPv6 on a router with RIP                                       
+Chapter 18      Configuring Redistribution of Routing Protocols
+Lab 18-1    Redistribution of RIP, IGRP and OSPF                                                
+Lab 18-2    Redistribution of EIGRP and OSPF                                                      
+Lab 18-3    Redistribution of OSPF over Frame Realy                                             
+Chapter 19      Configuring BGP
+Lab 19-1    Configuration of BGP                                                               
+Chapter 20      Challenge Configurations
+Lab 20-1    Basic Crossover Configuration                                                  
+Lab 20-2    Creating a Bridge                                                                                  
+Lab 20-3    IGRP Configuration                                                                              
+Lab 20-4    Frame Relay Configuration                                                                    
+Lab 20-5    LAT Configuration                                                                                
+Lab 20-6    Configuring a Tunnel                                                                             
+Lab 20-7    Configuring Hot Standby Routing Protocol                                            
+Lab 20-8    Load Balancing WAN Links                                                                 
+Appendix A          Cisco Router Command List                                     
+Appendix B          Router Interface Summary

@@ -1,0 +1,20 @@
+VirtualDub is a video capture / processing utility for 32-bit Windows platforms, licensed under the GNU General Public License (GPL). It lacks the editing power of a general-purpose editor such as Adobe Premiere, but is streamlined for fast linear operations over video. It has batch-processing capabilities for processing large numbers of files and can be extended with third-party video filters. It is mainly geared toward processing AVI files, although it can read MPEG-1 and also handle sets of BMP images.
+
+
+What's New in version 1.9.8:
+- Fixed occasional hang with certain conversion paths from 8-bit (256 color) to YCbCr formats.
+- Fixed bug where two curve points on top of each other in the curve editor didn't save properly in script files.
+- Fixed decompression error in IFF ANIM decoder when entire bitplanes were skipped.
+- Filters: Fixed glitches in IVTC pattern in the first five frames of video.
+- Filters: Fixed occasional crash when 3D acceleration is enabled and the 3D device is lost.
+- Filters: Fixed bugs where the curve display would either show the wrong frames or fail to step in certain circumstances.
+- Filters: Blends are no longer allowed on filters where the input and output have different formats; this didn't work and produced a corrupted image.
+- Filters: Fixed crash in smoother filter with MMX disabled.
+- Decoders: Fixed crash in Motion JPEG decoder on certain kinds of corrupt data.
+- Frameserver: Fixed random crash issue related to stream format structure.
+- Hex editor: Fixed bug where 'O' and 'S' activated open and save commands instead of Ctrl+O and Ctrl+S.
+
+
+OS: Win 9x/ME/NT/2K/XP/2K3/Vista/7
+Release Date: 24/12/2009
+Bonus: VirtualDub-1.9.8-AMD64, VirtualDub-1.9.8-src

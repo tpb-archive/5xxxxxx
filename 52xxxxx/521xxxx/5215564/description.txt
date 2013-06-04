@@ -1,0 +1,23 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!! AUDIO VIDEO SYNCHRONIZATION !!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Step 1. Download Avi-MUX.
+
+Step 2. Unzip AVI-Mux_GUI-1.17.7.zip into separate folder, and launch AVIMux_GUI.exe 
+
+Step 3. Load your avi file into Avi_mux (right-click -> add). Click on the avi file to select it. 
+
+Step 4. Click the "Generate Data Source From Files" button. Information about audio and video streams will appear in the bottom window. 
+
+Step 5. Click on the audio stream. Now, you must see "Delay Box [ms]" showing on the right side of the window. 
+
+Step 6. Enter audio delay value, for example:-
+If you see in the movie that a person speaks, and you can hear the voice only several seconds later (Audio is after Video), then you must choose negative value (in milliseconds), for example:
+-5000 = shift audio by 5 seconds before video 
+
+If you can hear the voice in the movie too early, and only after several seconds you can see & determine who has said that (Audio is before Video), then you must enter positive value (in milliseconds):
+5000 = shift audio by 5 seconds after video 
+
+Step 6. Finally, click start button, choose output avi filename. DONE!

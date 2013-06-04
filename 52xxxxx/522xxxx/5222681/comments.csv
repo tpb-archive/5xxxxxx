@@ -1,0 +1,79 @@
+User Type,Username,Date,Text
+,ltorrentstorm,2009-12-17T01:01Z,"This has already been out there, and no, the keys do not work.  All of the keys posted recently for Cfos 5 vers. are bogus."
+,ltorrentstorm,2009-12-17T01:04Z,"Working 100% my butt!  This torrent has already been out there.  All the keys posted for vs. 5 releases are bogus, made by lameass lazy crackers who didn't take the time to properly crack the program."
+,tommo39,2009-12-17T12:43Z,"THEY DONT KNOW THE 1ST THING ABOUT ""CRACK""!!"
+,sudhan,2009-12-20T17:46Z,"The key works fine,But the only thing is that,
+They could've used some more intelligence
+-like- 
+A Key file generator.
+Well for now, Download and seed!
+It's a good program though."
+,borgmedve,2009-12-21T21:12Z,"Activate cFosSpeed using blacklisted key - how to:
+
+New tutorial, this time use WWebserver
+
+0. Install newest version of cFosSpeed.
+1. Add to hosts file (path: %SystemRoot%\system32\drivers\etc\) these two lines:
+CODE
+127.0.0.1       www.cfos.de
+127.0.0.1       cfos.de
+2. Set up (http) server on localhost. In this turorial I used WWebserver.
+2a. Download newest version of WWebserver (~ 8,6 MB) from homepage.
+2b. Install it: just run setup, and click install (path may be default: C:/WWebserver, but you can change it, of course). Soft start automatically, do not close.
+2c. Add blacklist.txt file to WWebserver folder. blacklist.txt should include:
+CODE
+[banned]
+2d. WWebserver: now just click ""Start"".
+3. Try activate cFosSpeed now. Enjoy.
+2e. Stop WWebserver. Uninstall it.
+4. Remove new (added) lines from hosts file.
+5. Reboot computer.
+6. Should works fine, tested."
+,I3lackDragon,2009-12-24T00:30Z,"And then, I can delete the ""two lines"" added from the host file?
+
+And unninstal WWebserver?"
+,borgmedve,2009-12-26T16:38Z,I3lackDragon: Yes!
+,IamMille,2010-01-15T23:20Z,"Download the newest version from cFos website instead!
+
+Then use the trick mentioned earlier in the comments by borgmedve!
+
+Works for me on Win7!"
+,gadgetpal,2010-01-26T04:35Z,"This torrent works..just follow the guide above. It works on my win7. There is 2 keys given, use either one of them
+
+Note: How this works is that the method creates a webserver on your own computer, so when the key tries to register itself, Cfosspeed can't blacklist it because the information doesn't gets there. After you have registered the key, you can uninstall the webserver and also removed the 2 entries in the HOST file.
+
+More Help
+You need to use notepad to create the blacklist.txt file and just add in [banned]. Remember when you look at the file, it should show blacklist and not blacklist.txt
+
+Look inside the torrent under folder blacklist2 and there is a bunch of pictures showing screenshots of the various procedures. Just figure it out.
+
+This one works better than the few torrents using trial reset key, at least no more annoying notificaiton."
+,irqbw81,2010-01-30T18:00Z,WORKS like a charm! easy to understand instructions!! thanks borg and gadget.
+,khai911,2010-02-02T06:22Z,they key invalid..
+,khai911,2010-02-02T06:38Z,can u help me...brfore it become expired...can u give another key password...when i put the password its invalid...nice to hear the solution...
+,khai911,2010-02-02T16:44Z,how do i install this in win7 ultimate 64 bit ? it say that the key is invalid...
+,khai911,2010-02-03T15:37Z,now im using the trial...
+,khai911,2010-02-10T03:53Z,are u using 64bit ? - kasuya99
+,thecensor,2010-02-10T04:26Z,"worked fine. I had to copy the key.cfosspeed file to the cfosspeed folder then run it and provide the password.
+
+thanks"
+,yibo,2010-03-12T12:40Z,Thanks ! It work.
+,dclau,2010-03-18T14:44Z,"Yes, it works fine, thank you for this excellent upload."
+,jerekpl,2010-03-19T10:02Z,I have error 12029 when trying to activate the key with 5.10 when following the guide by borgmedve
+,kiritikot,2010-05-02T14:43Z,"hey guys can i ask? im using windows 7.
+and when i click start
+then run the program and input the key
+for a while the program status and not responding for a while then error w/ a no. came up. although 
+i continue with the instruction ang restart my pc.
+after reboot. the cfosspeed  runs and when i check it on it says that "" Your Evaluation Period has expire for 1day. oreder cfosspeed  today""
+is it already done??? is it working?
+sorry just a noob"
+,rpatkar,2010-07-02T19:06Z,please some one provide a download link for WWebserver...googled it for hours...but still couldnt get it....thank u
+,mib348,2010-07-31T09:26Z,"no fuckin link to WWebserver on google
+please help!"
+,mib348,2010-07-31T09:56Z,key activation failed: error 12180.
+,poltergeist84,2011-03-06T21:26Z,"WWebserver found at:
+www.dex.tvn.hu/wwebserver"
+,thetenfold,2011-05-26T06:48Z,"Works great if you follow the steps from borgmedve (except I used Apache).
+
+Thanks."

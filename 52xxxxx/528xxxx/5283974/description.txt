@@ -1,0 +1,71 @@
+ZERO GEAR STILL WORKS ITS DEMO NOW :)
+ 
+http://www.y0utube.com/watch?v=DK1wy4uqZkI  0 = o
+ 
+http://www.y0utube.com/watch?v=2_WVnGPAu7o  0 = o
+
+Or:
+ 
+http://kortie.nl/gfq9gc
+ 
+http://kortie.nl/ewgg9p
+ 
+http://kortie.nl/tdpgxn
+
+
+
+Multiplayer v1.0.175
+Notes:
+- unlocked "com_maxfps" (up to 1000), "cg_drawFPS", "cg_fov", "cl_maxpackets"
+- cg_scoreboardPingText = 1
+- unlocked "ping_default_min", "ping_increment", "ping_searches_per"
+- unlocked toggle commands, like bind F8 "toggle drawLagometer 1 0" 
+- unlocked WinConsole
+- and more =)
+
+P.S. lobby invate works, but not at all
+
+enjoy
+by Parovoz
+
+
+How to create server on v1.0.175
+1. Join 3rd Person DM. 50% you will be selected as game host
+2. Join the game and switch to the WinConsole (by Ctrl+Alt+Del) or run game in window mode (r_fullscreen 0 in config_mp.cfg)
+Type in console
+Code: Select all | Line number On/Off | Expand/Contract
+sv_maxclients 18 
+party_maxplayers 18
+scr_dm_timelimit 1
+map_restart
+
+3. Wait 1 minute and you are in lobby with 18 slots. Join the game.
+4. Now you are server with 18 slots, you can change
+- active playlist: playlist 0 / 1 / ... / 16 // 13 - 3rd person dm, 0 - tdm, ... 
+- map: map mp_blablabla; restart map: map_restart
+- gametype: g_gametype dm / war / sab / sd / ctf / gtnw / oneflag / vip ...
+- hardcore mode: g_hardcore 1 / 0
+- kick players: kick Parovoz
+- and more =)
+
+Easier guide for getting host:
+
+1. Join 3rd Person Cage Match playlist
+2. Once you get into a game (and are host), enter the following commands in your console:
+sv_maxclients 18
+party_maxplayers 18
+map mp_rust
+3. Once you've loaded Rust, enter the following:
+scr_dm_timelimit 1
+4. The game will end in a minute, from there you should have a lobby with 18 available slots. The next step is to type:
+playlist dm
+5. This will switch the playlist over to Team Deathmatch. The first game will be a FFA, and all games after that will be TDM.
+
+You can use these commands to change the gametype (NOTE: you MUST be in a game to do this, and you MUST replace <gametype> with the gametype, read dan2k5's post above me for them, additionally, you MUST replace <mapname> with the map name, you can find these in /Server/zone/english/. They all have "mp_" before them.):
+g_gametype <gametype>
+map <mapname>
+
+Also, if you want to get rid of 3rd person, just do:
+g_gametype <gametype>
+scr_thirdperson 0
+map <mapname>

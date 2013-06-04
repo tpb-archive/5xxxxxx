@@ -1,0 +1,81 @@
+To get most of the PortingTeam's newest ports to work you need the "CXZ Game Engines". So here they are!
+
+
+History
+What is CXZ?
+Versions of CXZ Wrappers
+Why Multiple Wrappers?
+As a user, how do I use a wrapper?
+More Info
+
+Intro
+You've probably seen more and more 'ports' that have got the tag [CXZ] in the name bar, such as Need for Speed: Pro Street, and wondered what it all means. Firstly - the Wrapper is an application that holds a PC game inside it. The Wrapper by itself is only small - usually about 25MB - and requires you to put the PC game files inside it. (see the How do I use a wrapper section below). This saves time if you've got the game on disk or think that downloading from a torrent or PC site will be quicker. On the other hand a "port" (usually, and any PortingTeam stuff will comply!) refers to a FULL port of the game with the PC files already inside the game so all you have to do is a) install the Game engines found here http://dl.dropbox.com/u/604847/CXZProject/CXZEngines.zip and then drag the game file from the dmg it(should!)'s in and double click the game to open it. (This is unless the Porter says otherwise!).
+
+History
+For the explanation we need a bit of history. Over the past few years there has been an emerge of mac game 'ports' - PC games that are either modified or wrapped in 'wrappers' to make them play under Mac OS X. Games such as Grand Theft Auto: San Andreas and Half Life were ported using Transgaming's 'Cider" technology - a professional level technology to simply take a PC game and run it inside Mac OS X without needing parallels or another type of emulator. Some mac users noticed this and so extracted what would become known as 'wrappers' and wrote up some instructions allowing other mac users to 'port' games. Cider grew and as more games were released by the professionals for official games, the mac users would take this technology and take it to new levels porting some very high quality games such as Left 4 Dead. Cider technology is still advancing and more and more games are being released with it, giving much higher compatibility. Recently the first port of Call of Duty: Modern Warfare 2 ported using Cider and it had amazing quality and works perfectly!
+
+As Cider was advancing the OpenSource project "WINE" (Wine Is Not an Emulator) was gaining headway (it's been around for over 15 years!) and becoming much easier to use inside of Mac OS and Codeweavers were making it even easier, taking hold of the Wine project and modified the engine making it dead easy to use inside Mac OS. From a wrapper for the port of Google Chrome called 'Chromium' that was based on the CrossOver engine the mac-porting legend "thedoctor45" made up a customisable "Crossover" wrapper for version 7.1.1 of the engine. As newer versions of CrossOver and CrossOver Games were released more CX Wrappers (CrossOver Wrappers) and CX Game Wrappers were made.
+
+When Apple released 10.6 with an overhaul in the system - mainly 64Bit processing - it stopped the CrossOver and CrossOver Game Wrappers working under 10.6 with a temporary fix being made that required terminal for every launch. Because of this the mac user doh123 started up with 2 wrappers: WineSkin, and CXSkin. WineSkin was is a simple bottle that uses the latest wine engine from the project and has some very useful Regedit, Installer, Config and other similar things. CXSkin was similar but used the CrossOver Engine instead of standard Wine. Doh123 stopped plugging the CXSkin as it was (only into beta 2) and so devilhunter took it up and changed it into what we now have as a CXZ Wrapper.
+
+So what IS CXZ?
+The biggest improvement over all the other Wine Wrappers we have is that it shrunk in size considerably. This new Wrapper is only about 8 MB big. This was achieved by throwing out the Wine Engine and putting it to a central point on your Hard Drive, which all CXZ Wrappers will access to work.
+You save a lot of space if it gets done this way, since you copied the same Wine Engine files over and over again with other Ports. Now there is only one Wine Engine on your system that all CXZ Wrappers access, saving you about 100 MB of Hard Drive Space per Port. This added up quickly with the old Ports, if you have about 100 CX/CXS Ports you have wasted effectively 10 GB (Gigabyte) of space.
+
+The old big Wrappers that are currently in use still use their internal Wine build they carry, only the new small CXZ builds will need the Engine files.
+
+There will be multiple engines that will all be stored in the same engine folder. When a wrapper is made for a certain engine, the end user will have to know they need that specific engine installed. We do not want to force everyone to install every engine, that wastes spaces, they can only install the engines for the wrappers they want to use. Hopefully almost all the wrappers can work off just a few engines.
+
+Before you can work with any CXZ Ports you have to download and install the CXZ WineEngine, or the Ports won't start. You only have to install the CXZ Engine once. You only need to add extra engines if a wrapper you want to run requires it. You can have multiple engines all installed at the same time, if you have them all installed, any CXZ wrapper will run.
+
+All source code written by doh123 for the wrapper is Open Source and released under the LGPL license.
+all bash source code can be found inside the wrapper, but 3 programs were written in C++.... CXSkin, CXInstaller, and CXCustomEXE. the source for these 3 programs can be found at the following download link.
+
+CXS Source Code Download Zip
+
+if you make any changes to the program, per the LGPL license, you need to make your new source code available as well. This is easy with Bash scripts, since they can be edited in place... Everything had been made everything in Bash, but due to unknown reasons, Crossover wouldn't work right doing certain things with the bash versions, but worked fine using C++... so these 3 bash programs had to be re-written in C++.
+
+Versions of CXZ Wrappers
+Diamond: Wine version 1.1.25, like CrossOver Games 8
+Black Diamond:Wine version 1.1.25, like CrossOver Games 8.1.3 (Left4Dead2)
+Ruby: Wine version 1.1.12, like CrossOver Games 7.2
+Amethyst: Wine version 1.1.0, like CrossOver Games 7.1.1
+Sapphire: Wine version 1.1.18, like CrossOver Pro 8.0
+Topaz: Wine version 1.1.4, like CrossOver Pro 7.1.1
+Emerald: Wine version 0.9.60, like CrossOver Pro 7.1
+
+Why are there multiple wrappers?
+CXZ has it's roots in WINE. WINE is a code translation Software that was developed on Linux for 'emulating' (see Wine Is Not an Emulator) Windows Code on their Platform. Each new Wine release adds compatibility for certain Games and Applications, but breaks some compatibility for others. Like some Games only work with WINE version 1.1.18, and don't work with the newer 1.1.25 anymore.
+
+Traditionally Linux users had to make a choice for updating their installed WINE Engine for compatibility in some newer Games and Applications, or risk making already installed apps unusable or adding bugs to them due to some differences in the new Engine.
+
+We have a tremendous advantage with the different WINE Engines, because we can let each Game or Application talk to a different Engine without deinstalling another Engine. Since each of the CXZ Wrappers use other Engine files, this gives us tremendous potential on porting Games and Applications.
+
+As a User, how do I use a CXZ Wrapper?
+1. Download Ê»CXZ Engines.mpkgÊ¼
+2. Install Required CXZ Engines
+3. Download the Wrapper (usually about 20MB)
+4. Unarchive the WrapperÊ¼s Archive
+5. Mount the .dmg
+6. Drag the Wrapper to your Hard Drive
+7. Install the PC Game (CrossOver, Parallels etc.)
+8. Install any required additions such as DirectX
+9. Copy the Game Files from C:/Program Files/ to near your Wrapper
+10. Right Click the Wrapper and â€œShow Package Contentsâ€
+11. Navigate to Contents and double click â€œrootâ€
+12. Navigate to drive_c/Program Files
+13. Drag your game files (from Program Files) into this folder - overwrite all
+14. Close the Contents Window
+15. Double Click the game to launch
+
+More info
+For a Tutorial please see this topic
+For the official sub-section for CXZ See: http://forum.portingteam.com/viewforum.php?f=107
+
+If you've got ANY questions - PLEASE ask! We (thePortingTeam) love porting games, playing them and especially seeing you guys enjoying them inside Mac OSX!
+
+
+Thanks for this Project go to:
+doh123 (development & coding)
+devilhunter (Engine building & editing)
+thedoctor45 (testing & support)

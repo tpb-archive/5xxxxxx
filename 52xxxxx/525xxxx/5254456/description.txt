@@ -1,0 +1,44 @@
+---Information--------------------------------------
+Jad 1.58 for Mac OS X
+It has unfortunately become extremely hard
+to find Jad anywhere.  You can thank me
+for finding Jad.
+
+---System Requirements------------------------------
+ - Mac OS X 10.4.6
+ - A proper torrent downloader to download this.
+
+---Other requirements, not system-------------------
+ - You must have the time to seed this,
+   don't be selfish
+
+---How to install-----------------------------------
+First download the torrent (a no-brainer)
+using Vuze, Tomato Torrent, or similar
+NOTE: Vuze is formerly Azureus.
+
+In Finder, press CMD+G and type
+/usr/bin
+
+Drop "jad" into /usr/bin
+Finder will ask you to authenticate to
+put it in there.
+
+Installed!
+
+---How to use JAD-----------------------------------
+Open Terminal, it's in the Utilities folder.
+Press Shift+Command+U to open the Utilities folder.
+
+Use the "cd" command to cd to the directory
+of your class files you want to decompile.
+Then type jad *.class
+
+EXAMPLE: I have class files in /javastuff/exampleapp/
+
+In terminal, type:
+cd /javastuff/exampleapp/
+jad *.class
+
+---Tags---------------------------------------------
+jad,java decompiler,java,decompiler,hack java applications,hack,hacking,macosx,mac os x,macos x,mac osx, mac,os,x

@@ -1,0 +1,82 @@
+Copied from ÂµTorrent Homepage:
+
+
+What Is ÂµTorrent?
+
+
+Micro-Sized Yet Feature Filled
+
+ÂµTorrent is the world's most popular BitTorrent client.
+Most of the features present in other BitTorrent clients are present in ÂµTorrent, including bandwidth prioritization, scheduling, RSS auto-downloading and Mainline DHT (compatible with BitComet). Additionally, ÂµTorrent supports the Protocol Encryption joint specification (compatible with Azureus 2.4.0.0 and above, BitComet 0.63 and above) and peer exchange.
+
+
+Resource-Friendly
+
+ÂµTorrent was written with efficiency in mind.
+Unlike many torrent clients, it does not hog valuable system resources - typically using less than 6MB of memory, allowing you to use the computer as if it weren't there at all. Additionally, the program itself is contained within a single executable less than 220 KB in size.
+
+
+Skinnable and Localized
+
+Various icon, toolbar graphic and status icon replacements are available, and creating your own is very simple. ÂµTorrent also has support for localization, and with a language file present, will automatically switch to your system language. If your language isn't available, you can easily add your own, or edit other existing translations to improve them!
+
+
+Actively Developed and Improved
+
+The development team puts in a lot of time working on features and making things more user-friendly. Releases only come out when they're ready, with no schedule pressures, so the few bugs that appear are quickly addressed and fixed.
+
+
+Changelog:
+
+
+1.9 is now 2.0, and we've hit beta!
+
+Release Notes:
+
+
+We've added UDP tracker support!
+
+
+uTP has been improved significantly over the previous alpha, with many bugs fixed and performance improvements. It's no longer hidden in Advanced settings.
+
+
+The setup dialog has been overhauled to make it much easier to use and with a built-in speed test. It's still not quite complete yet, but this will give you a good taste of what we're up to with it!
+
+
+A new transfer cap feature has been added to track bandwidth usage, along with graphs to show your usage.
+
+
+
+Feature Overview:
+
+UDP trackers are a different protocol for tracker communication that uses significantly less processing power on the tracker end.
+It's important for us to support this because trackers have limited resources, so this should allow them to support many more users with their current hardware and not crash under the load.
+
+uTP is an alternative communication method for BitTorrent traffic that allows the client to automatically regulate its bandwidth usage to avoid adversely impacting your internet connection. This will allow you or other users on the network to download their torrents but still allow others on the network to function with little difference. This does not require any additional setup.
+In addition, uTP in this version has added its own form of STUN, a method of getting incoming connections without direct connectivity to the Internet.
+This allows ÂµTorrent to punch holes through routers and firewalls to increase connectivity and improve speeds. It is even possible to connect two firewalled peers through uTP's NAT traversal feature.
+
+The transfer cap settings were added in response to various users who have ISP-mandated caps on how much data they can download/upload in a month.
+Now you can track your usage in MB (with a handy graph to visualize it) and even configure ÂµTorrent to stop torrenting once the limits are exceeded.
+Currently, you can configure the time interval, the data cap and whether it should stop based on only download, upload, or both combined.
+As a privacy notice, this traffic data is not sent back to us or anyone. 
+
+
+
+2009-12-09: Version 2.0 Beta (build 17539)
+
+
+Change: Added auto restart feature for use in minimized mode.
+
+Change: On Windows 7 default to not minimize to tray
+
+Change: Silently add multiple torrents when more than 5 torrents are added using drag'n'drop 
+
+Change: Tell user about buggy 3rd party software that might degrade uTorrent performance
+
+
+Fix: Transfer Cap tab in preferences would display incorrect Uploaded / Downloaded
+
+
+ED2K Link:
+ed2k://|file|utorrent-2.0-beta-17539.upx.exe|315184|A5017DCE4B544E5A21990AA21A4363B6|h=2JQK3N5MPBZVSR2FIMORWXY4JWLHN4UA|/

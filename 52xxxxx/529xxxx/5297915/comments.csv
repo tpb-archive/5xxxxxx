@@ -1,0 +1,306 @@
+User Type,Username,Date,Text
+,forestbayer,2010-01-23T06:42Z,Out of all of my downloads yours is the best of the best...Nicely packaged with very clear instructions for all to understand.  You are not afraid to respond back in a positive way which keeps us coming back....I will now only download from you!!!
+[V],thethingy,2010-01-25T09:33Z,"THE .DLL FILE NEEDS TO GO HERE ASWELL;
+
+
+C:\Program Files\Adobe\Adobe Illustrator CS4\Support Files\Contents\Windows"
+,sooppa,2010-01-27T16:00Z,"I know this is a big ask.  But I'm such a newbie.  I can get as far as downloading Illustrator CS4 to utorrent.  Then I don't know what to do.  Does anyone know where I can find a dumb-dumb explanation, step by step, with everything explained easily for a know-nothing like me!  I have an expired trial version of CS4 installed.  thanks in hope!
+Sophie"
+[V],thethingy,2010-01-28T05:15Z,"sooppa, there is a guide when you extract the download, if you run into any problems it will be covered in the ADOBE INSTALLATION AND LICENCE ERRORS posting in the torrent description."
+,admbmb,2010-01-28T22:39Z,"I have done all the instructions, but upon starting Illustrator CS4, I get a window that says my license for this product has expired, and that's the end of that.  I even put the .dll in the third location.  What's going on?"
+,HedeiK,2010-01-29T00:01Z,Hi im new to these things....i followed the whole instructions notes and when i start illustrator they keep asking me for a new serial and that when i will open it again it wont work.....i dont know what to do plz help me :P ....thx
+[V],thethingy,2010-01-29T06:14Z,check your hosts file is set up properly.
+,forestree,2010-01-31T04:59Z,"I am running a spanish language OS, so obviously the hosts file is in spanish. Do I need to change that part too or is that irrelevant?
+Also, I guess I need to get rid of Photoshop CS3 before installing this, because it shares a couple of apps with Illustrator. But is it safe to install Illustrator without removing previous existing versions of Adobe Reader and Lightroom? 
+Thanks!"
+,androidboltz,2010-01-31T08:06Z,"@thethingy nniiiiiccee !!
+SEEDD PPEEPZ"
+[V],thethingy,2010-01-31T09:41Z,"androidboltz, what?
+
+forestree, lanuage text in host does not matter, just put the addresses in. Try installing first if you get, , Licensing for this product has expired, follow steps for  Licensing for this product has expired in this; 
+http://thepiratebay.org/torrent/5316905
+if it fails to install to install follow, FAILURE TO INSTALL IN WHOLE OR PART OR UPDATES FAILING TO INSTALL steps."
+,forestree,2010-01-31T22:10Z,Thank you very much for your answer. I have another doubt. Is it possible to install 2 or more of your adobe CS4 apps separately (Illustrator and Photoshop for instance)? Or would I need to download the master collection instead?
+,forestree,2010-02-01T01:09Z,"Thingy, I apologize but I have another question for you. I used the windows cleanup tool to uninstall PS CS3 but the program is still there, same goes for Lightroom. The programs no longer appear in the list but apparently nothing happened. I tried uninstalling the cleanup tool and after reinstalling it the apps still don't show up. Any idea?"
+[V],thethingy,2010-02-01T07:09Z,"forestree, ive got all of them except master collection on 1 pc and master collection on another, all of them work perfectly and have done for around a month of continual testing, use the adobe cleanup in combination with the windows cleanup;
+http://thepiratebay.org/torrent/5323279"
+,revolvermd,2010-02-01T16:40Z,"Hey Thingy,
+I really tried everything through the instructions and even also did the missing instruction with reinstalls and clean ups with that tool you gave a link for.  The thing is no matter what I do, I still always get a licensing issue where it tells me it's expired no matter how many times I clean and reinstall.  Is there something hidden in windows 7 that blocks me from completely getting rid of the old Illustrator?"
+,PhiKap19,2010-02-01T17:10Z,"thethingy,  i followed the instructions and still got the msg ""licensing for this product has expired"" even with my host file matching up.  i assumed i must have messed up the install at some point so retried installing the file at which point i was getting the error that some components were not installing correctly.  so now i figured i did not uninstall everything correctly.  so i tried the clean install/uninstall tool, and now when i try to run the install file I get the ""Setup has encountered and error and cannot continue..."" and to contact adobe after it runs the system profile check when it kicks off.  so it would seem i cant even get adobe to begin an install now.  appreciate any ideas you can offer."
+[V],thethingy,2010-02-01T17:54Z,"revolvermd & PhiKap19 use the FAILURE TO INSTALL IN WHOLE OR PART OR UPDATES FAILING TO INSTALL  steps in this;
+http://thepiratebay.org/torrent/5323279"
+[V],thethingy,2010-02-01T18:09Z,and the Licensing for this product has stoped working part.
+,PhiKap19,2010-02-01T19:58Z,"unfortunately i have followed those steps and is why i am here posting for support.  going to the clean install and uninstall folder and opening the instructions.txt file only states under the ""failure to install in whole or part or updates failing to install section to ""Go to the CLEAN INSTALL & UNINSTALL folder and follow the steps there."" which would essentially create an infinite loop becuase there are no further steps.  i went ahead and ran CS3Clean.ext from 1 CLEAN SCRIPT TOOL, and also ran CS4InstallerDatabaseUtility.exe.  The latter resulted in stating that ""There are no session to delete.  The CS4 Clean up Utility will quit"".  So if i have no CS4 to clean up, then what other options are there to fix this short of reloading the OS (Vista 64-bit)???  The windows install clean up utility also shows no Adobe CS4 apps installed.  I believe running the clean scripts from adobe has someone resulted in removing registry keys that are now preventing the .exe file from even installing (even if i were to buy the software).  FYI...your instructions worked perfectly on my desktop where an Illustrator CS4 trial was previously installed, but this is for my g/f's laptop and under the same circumstances something has gone amiss.  Thanks again for your help."
+[V],thethingy,2010-02-01T20:28Z,"have you got system restore turned on?, if so try restoring to before the first licensing for this product has expired installation, if not there is a registry key to delete in the ""Licensing for this product has stoped working"" steps in the toolkit, even if you did buy the software this would still happen it seems the adobe apps that use the adobe installers are useless but the apps like photoshop elements that use the installshield installer work perfectly, if you have the memory, which running 64bit you should then if all else fails reinstall windows and install the adobe master collection first and have all the adobe apps including acrobat 9.3.0 and this illustrator;
+http://thepiratebay.org/torrent/5287986"
+,PhiKap19,2010-02-01T22:00Z,"got it working.  noticed an issue within office 2007 enterprise dealing with permissions to a registry key.  once i restored security permissions back to default with the help of an MS tool, the .exe file ran normally again and i was able to complete a sucessful install of CS4. thanks for your help."
+[V],thethingy,2010-02-01T23:01Z,"can you post a link to the tool,thanks"
+,kimuru,2010-02-02T13:26Z,tnx.. a lot.. your the best..why update number 4 can't be update??..this that important to update??or not??
+[V],thethingy,2010-02-02T14:58Z,"kimuru, one of the upates is 32 or 64bit only."
+,androidboltz,2010-02-03T01:48Z,"@thethingy whhaa??
+no d00d it wrks i just finidhed my project 
+good job with this i will seed"
+,a1iz,2010-02-08T20:26Z,"amazing torrent, everything works fine, thanks so much, ill make sure to seed!
+
+I have the Clone DVD and the anydvd by elaborate bytes original (i bought it ) and would love to make a torrent and share but I dunno how to do this, if you wish I can give you the serial and file so you upload it just let me know, aliz.ayala at gmail 
+
+THANKS YOU ROCK! "
+,forestree,2010-02-09T00:20Z,"Thethingy: thanks so much for your great adobe torrents! Photoshop and Lightroom are now running fine on my laptop. I did however encounter a problem with my PC. Illustrator was running fine but when I set the date to june 2010 I received the licence has expired message. I tried the adobe cleanup scripts, license recover tool, cleaned the registry with ccleaner. But I'm sure that something was left behind from my previous CS3/4 installs. Out of frustration I used the amtlib.dll file from another torrent and that fixed it. I'm sure that the problem was just with this machine, so I wanted to thank you for sharing these apps and for answering all our questions so quickly. Deeply appreciated!!!"
+[V],thethingy,2010-02-09T01:06Z,why did you set your date forward?
+,forestree,2010-02-09T15:34Z,"When I install adobe programs I always check if they will be working in the future by setting my date forward. I know that sometimes people have had problems because they were working on a project and suddenly the app refused to open and started asking for a serial (even those who have legit programs). Becase I don't like that kind of surprises, I prefer to check right after installing and try to fix the problem before it strikes. I probably just worry too much, I know...
+But sincerely, thanks again for your torrents, they are clean and they do work fine. And mostly, you are the only uploader I know that actually answers questions on a daily basis, which is simply great. Thanks for your effort!!!"
+[V],thethingy,2010-02-09T16:54Z,"i see, problem with that is the adobe licencing service, it is blocked from varifing the key by the hosts file but apart from that it still functions and if you do things like seting date forward/back or shrinking partition or cloning hd to another pc then the licence service kicks in and shuts you down, it will function permanantly cs5 will be diferant as adobe wont be so kind when the key cant be varified itll shut down till server authentication happens but ill be hacked within a week though."
+,khanii,2010-02-10T03:38Z,"hi i have a question about changing the host file.  Are you suppose to save the file after you edit it? and is it suppose to look like this:
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+127.0.0.1				activate.adobe.com
+127.0.0.1				practivate.adobe.com
+127.0.0.1				ereg.adobe.com
+127.0.0.1				activate.wip3.adobe.com
+127.0.0.1				wip3.adobe.com
+127.0.0.1				3dns-3.adobe.com
+127.0.0.1				3dns-2.adobe.com
+127.0.0.1				adobe-dns.adobe.com
+127.0.0.1				adobe-dns-2.adobe.com
+127.0.0.1				adobe-dns-3.adobe.com
+127.0.0.1				ereg.wip3.adobe.com
+127.0.0.1				activate-sea.adobe.com
+127.0.0.1				wwis-dubc1-vip60.adobe.com
+127.0.0.1				activate-sjc0.adobe.com
+
+
+i tried saving it but it keeps saying the path or file name is wrong. please help!"
+,ajcalder3,2010-02-10T04:45Z,"i have photoshop cs4, bridge cs4, device central cs4, drive  cs4, extend script toolkit cs4, extension manager cs4, do i need to uninstall these before i install your torrent or can i just let them be "
+,josh2020,2010-02-10T09:27Z,thethingy is the best! thankyou i love all your torrents.
+[V],thethingy,2010-02-10T12:24Z,"khanii, just use this one;
+http://thepiratebay.org/torrent/5296064
+
+ajcalder3; no"
+,cipitillo182,2010-02-10T17:51Z,"hey thethingy, I have a question:  I installed you flash pro cs4, now I want to install photoshop and illustrator.  What should I do with the hosts file I have already modified.  Should I restore it to the original while I install each of the new programs, or should I just leave it like it is (when I installed flash).  Please help.  And thanks for the torrents."
+[V],thethingy,2010-02-10T18:33Z,"the host file when modified is the same for all thethingy adobe's, if youre sure its set skip that step."
+,Koudyss,2010-02-14T05:02Z,"Missing required plugins. PDFFORMAT.aip : What can I do with it? 
+Thx"
+[V],thethingy,2010-02-14T15:27Z,what were you trying to do when that hapened?
+,Koudyss,2010-02-14T16:26Z,"I just opened program after install and crack (i did it like in instruction). I read some forums and lot of people have the same problem, but anyone can't solve it.. "
+[V],thethingy,2010-02-14T16:49Z,"it seems its a font issue, remove all fonts and put them back 1 by 1 till you cant start illustrator again, when you find the culprit search the web for a replacement or look in this;
+http://thepiratebay.org/torrent/5353064"
+,Koudyss,2010-02-14T17:30Z,"Yes! It works! 
+Thank you for torrent and help :-)"
+,donimac,2010-02-17T02:10Z,hi i seem to have a problem. when i ran the activation blocker it showed the window for a few seconds so i looked at the hosts file and it looked nothing like the one you showed in the instructions. then i replaced it with the host  torent you posted. but it still tells me there is an error and i should restart. the error number is 130:3 could you help me out ?
+[V],thethingy,2010-02-17T13:56Z,"error number 130:3;
+http://thepiratebay.org/torrent/5323279"
+,nguithi,2010-02-18T17:48Z,the creativeservicesinfrastructure1 update didn't install because it said the first to updates were already installed but my adobe was installed perfectly without it. should i leave the creativeservicesinfrastructure1 update or try installing it again?
+[V],thethingy,2010-02-18T18:20Z,"you may have other adobe apps that already have this update, check for updates and that will tell you"
+,Pho_Q,2010-02-23T07:12Z,I downloaded this and had it for a while then got the expiration error. At that moment I wasnt aware of the changing time back trick so i deleted it from my computer. Now everytime i try to download this again it wont work for me. the installation stays on for hours. I have deleted it completely from my comp. Any help?
+,smclean,2010-02-23T17:05Z,"Can someone explain this a bit more:
+
+STEP 5
+
+1) You should should now have a hosts file that looks like this;
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+127.0.0.1				activate.adobe.com
+127.0.0.1				practivate.adobe.com
+127.0.0.1				ereg.adobe.com
+127.0.0.1				activate.wip3.adobe.com
+127.0.0.1				wip3.adobe.com
+127.0.0.1				3dns-3.adobe.com
+127.0.0.1				3dns-2.adobe.com
+127.0.0.1				adobe-dns.adobe.com
+127.0.0.1				adobe-dns-2.adobe.com
+127.0.0.1				adobe-dns-3.adobe.com
+127.0.0.1				ereg.wip3.adobe.com
+127.0.0.1				activate-sea.adobe.com
+127.0.0.1				wwis-dubc1-vip60.adobe.com
+127.0.0.1				activate-sjc0.adobe.com
+
+2) Go to C:\windows\system32\drivers\etc and open the ""hosts"" file with
+   notepad and check it matches the above, if not correct it.
+
+
+It says go to C:\windows\system32\drivers\etc and open ""hosts"" file...I have nothing in my drivers folder that says anything about hosts, so I'm not sure what to do and completely stuck :("
+[V],thethingy,2010-02-24T02:01Z,"are you using 64bit, if so open my computer then copy the address of the hosts file into the address bar and hit enter and youll get to it"
+[V],thethingy,2010-02-24T02:02Z,"Pho_Q, do the failure to install steps in this;
+
+http://thepiratebay.org/torrent/5323279"
+,chibibel,2010-02-25T12:45Z,"Im having a problem with it, when the installation says its installing Adobe Drive CS4 (x64) (i cant remember the whole name or whatever) it causes the program to stop working, ive tried installing it several times, and it keeps doing this, i downloaded a torrent before this of AI and i had the same problem so its not that the torrent is corrupted or a file in it isnt working... any help someone?"
+,chibibel,2010-02-25T13:07Z,"I unchecked the Adobe Drive box, then got the same problem when it said it was trying to install adobe csi cs4 (x64) 
+this is annoying me!"
+,Pho_Q,2010-02-26T01:32Z,"Hey thingy thanks a lot man BUT
+I have another problem...
+I can get it to the installation part but i get the 1603 fatal error.
+Help plz?"
+,ApacheDriver,2010-03-03T15:27Z,"downloaded fine, installed, followed instructions - tried to run activation blocker as admin - it opens and then imediately closes - unable to save changes to host file - I am logged on as administrator"
+[V],thethingy,2010-03-03T23:11Z,"the activation blocker does do that, justmake sure your hosts looks like this one;
+http://thepiratebay.org/torrent/5296064"
+,ApacheDriver,2010-03-04T01:09Z,"Ok on the activation blocker. still can't save host file can make it look exactly you you have, when I try to save it I don't have permission  to save in that location. Running windows7 as administrator"
+,ApacheDriver,2010-03-04T03:49Z,Got it! Thank you!!!!
+,kazaly,2010-03-06T08:28Z,"Hi thethingy, thanx for the up!
+I.m getting an error after install 148:3 and the app will not launch.
+Running Photoshop CS3 and Lightroom 2.2
+Do I need to uninstall all or part of these?
+Any suggestions at all gratefully appreciated.
+Cheers Mate."
+[V],thethingy,2010-03-09T04:37Z,"kazaly, try just uninstalling the problem app first then reinstalling, if the problem persists do the clean install steps in this to remove all adobe apps then reinstall;
+http://thepiratebay.org/torrent/5323279"
+,mcalliw,2010-03-10T17:52Z,"I can't get this to work. I get the EULA but the software doesn't start after that. I had previously tried installing a different torrent download and that didn't work, giving me a licence expired error. I think that somehow AI knows that the licence is already expired. Does anyone know how to fix this/ remove AI completely as though it had never been installed before."
+,BratAssociation,2010-03-12T04:12Z,"This is a flawless torrent. It works perfectly, it's clean, and best of all, it's FREE! To all the nay-sayers and people screaming virus, you don't know what you're talking about. The Thingy made a great torrent and saved my college grades. =] Thanks"
+,zetto23,2010-03-13T16:08Z,anyone got a proper illustrator cs4 torrent link?
+[V],thethingy,2010-03-13T16:45Z,"^^^^ yes because this ones a pretend illustrator, are you retarded or something?"
+,mequilibrium,2010-03-14T15:33Z,"Hi Thingy, thanks for the perfectly fine working torrent! 
+
+A question on updating, when i open an AI file made in an older illustrator version I get a popup saying the legacy text must be updated before I can edit it. 
+
+Is it safe to let illustrator update this?"
+[V],thethingy,2010-03-14T16:31Z,it should be fine
+,mequilibrium,2010-03-14T17:17Z,Thanks for your quick reply! I updated the text and indeed all seems fine. Also it looked as though it was only searching on my system and not the internet. Fonts were replaced... Thanks again!
+,dam87dam,2010-03-16T07:45Z,"hi, first thanks for the torrent!!!
+i installed the program bur when i try to open it my computer says: ""The localized resource files for this application could not be loaded. Please reinstall o repair application and try again.""
+
+sorry for my awful English im from Uruguay :)"
+[V],thethingy,2010-03-17T18:30Z,"dam87dam, use the clean instal steps in this;
+http://thepiratebay.org/torrent/5323279"
+,moschino25,2010-03-19T20:09Z,tenx meng! worked liked a charm...
+,lawnmower2010,2010-03-20T17:53Z,"If I already have downloaded and installed photoshop cs4 can I edit the host file to add apps like illustrator and dreamweaver without messing up photoshop?  Or, is it better to uninstall and clean, then install the master library to get those programs?  "
+,jwill313,2010-03-20T23:21Z,the serial number isnt valild
+[V],thethingy,2010-03-21T10:17Z,"lawnmower2010, the hosts is the same one for all adobe apps
+
+jwill313, the serial is working"
+,lawnmower2010,2010-03-21T15:37Z,"Thanks thethingy,
+
+Great Torrents!!!"
+,khanii,2010-03-24T19:23Z,"hi,
+
+I am having problems saving the host file after i change it. It says I do not have permission to save it but i'm running it as the administrator.  same problem as APACHEDRIVER... please help"
+[V],thethingy,2010-03-24T22:02Z,"khanii, read the hosts steps in this;
+http://thepiratebay.org/torrent/5323279"
+,daMouse,2010-03-25T09:04Z,"Important: Install as Trial. Enter key after the installation is done, or it won't be accepted.
+There is no .DLL file."
+,chigrrl1098,2010-03-26T04:02Z,"I can't finish installing this program. It gets stuck at the Checking System Profile during initializing. According to the Adobe site, it's supposed to work on Windows 7. Is there something I can do to make it work? Thanks."
+[V],thethingy,2010-03-26T14:57Z,"daMouse, there is a key and dll file are you shure you have downloaded this one?
+
+chigrrl1098, do the failure to install steps in this;
+http://thepiratebay.org/torrent/5323279"
+,Pho_Q,2010-03-26T21:26Z,dude can you please tell me what to do about the 1603 error I keep getting? I already ran your other program to remove any old adobe files.
+,chigrrl1098,2010-03-27T03:30Z,"Thanks. I tried all that, but when I run Clean Up 2 I get a message: ""This application has requested the Runtime to terminate it in an unusual way."" Am I screwed or is there a fix for this?"
+[V],thethingy,2010-03-31T17:34Z,"chigrrl1098, do the clean install steps in the same download"
+,chigrrl1098,2010-04-01T04:44Z,I've already done that. I got nothin. :)
+,tripplesix,2010-04-24T19:07Z,"This was a great torrent.  Installed flawlessly... and opens (although I haven't actually used it yet) on Windows 7 Home Premium 64-bit.
+
+THANKS thethingy!"
+,ukg273,2010-04-29T15:21Z,"Hi thethingy,
+
+Iv already downloaded the Photoshop CS4 Extended from you which is working great so far!
+
+I now want to download Illustrator CS4 from you, however it contains other files i have already downloaded with Photoshop CS4 extended. How do i only download Illustrator CS4? and will it cause any problem if i only download Illustrator?"
+,illcadaver,2010-05-10T08:17Z,does this work for windows 7?
+[V],thethingy,2010-05-25T13:25Z,This works on all windows
+,UnfeelingTable,2010-06-02T12:07Z,"hey bro, downloaded and installed illustrator not long ago - worked fine. now it tells me that my license has expired please help? (p/s, d/w and flash all work fine) (cs4)"
+,debido66,2010-06-06T05:40Z,"Same here, get license has expired. The other programs work fine. Just Illustrator. Think there needs to be a new AdobeLM.dll."
+,debido66,2010-06-06T05:42Z,If I set the clock back to 2009. It works.
+,debido66,2010-06-06T05:45Z,"If I turn the date back, it works."
+,debido66,2010-06-06T06:09Z,"I used (part 2) http://thepiratebay.org/torrent/4888527
+and it fixed the problem."
+,foxelein,2010-06-07T11:52Z,":)... and it works...
+many thx..."
+,foxelein,2010-06-07T12:04Z,"and info for those who got ""license expired""..
+just follow as @debido66 said, there's in http://thepiratebay.org/torrent/4888527
+and (for some reason) no need to forward the PC date.."
+,Viktor_B,2010-06-09T22:57Z,"Hi Thethingy. Thanks!!!
+When I set the clock back to 2009 it works. 
+If not ""product license expire""
+Thak u. Nice work:)"
+,Majati,2010-06-11T17:47Z,"Thank you thethingy! Works very well. I have downloaded applications only from you and they all works great thanks to the easy Instructions.
+Cheers"
+,arteye,2010-06-14T08:31Z,"Thanks loads for the upload! :D 
+I've already installed your Photoshop CS4 (THANKS!!!). Will it cause any problems if I tried to install Illustrator on top, like with the drivers?
+
+Please let me know. Thanks. :)"
+,Beepboxx,2010-06-15T01:04Z,"Getting that Lic exp thing on this one, replaced the DLL, may have some Ill CS3 stuff in the system, have to clean out. Get the same message from another download too. It's my problem.
+Hey all the other Adobe CS apps worked fine.
+Thanks, your like A#1."
+,Darksabor,2010-07-15T05:49Z,Hello thethingy i had some trouble with your torrent and i was wondering if you could help me im not on that often but if you could email me at Dragonslayer@gmail.com it would be appreciated thanks
+,eWin4T,2010-07-16T21:12Z,"License issues (crashing, disappearing immediately) if you are connected with proxy, changing the host file won\'t stop license validation. nnAt least for me worked after I connected without proxy. nnThanks a lot thethingy!"
+,matildahoxha,2010-08-26T00:49Z,i love you e your torrents! thanks
+,byakuya-nii-sama,2010-09-17T00:50Z,"hey i keep getting a license for this product has expired.
+help?"
+,rustycodlover,2010-09-23T15:08Z,"iv completed all the steps without any problems. but when i try to open illustrator it says ""licensing for this product has expired"".  can anyone help me please??  "
+,duchessCK,2010-10-18T07:12Z,"Hey thethingy, I always download my stuff from you and normally they work like a dream but a few days ago my Illutrator CS5 and Photoshop CS5 stopped working, kept telling me it was a trial. I ran ALL the clean ups...more than once and now Illustrator CS4 just keeps telling me it failed to install due to Adobe Anchor...I could really really really use your help..I'm at a complete loss...even my husband, a total computer nerd is at a loss...I've done EVERYTHING multiple times, step by step just the way you have it laid out...I would really appreciate any help!!"
+,dragon132,2010-10-22T20:21Z,"I'm getting a 10061 Connection Refused
+p.s. you're toolkit 5592268 no longer exists"
+,norba22,2010-10-27T20:36Z,"Hi thethingy, all. When i start to install, copy serial, accept agreement and click on next, the installation just stuck, says preparing installation... and nothing happens! I have your PhotoshopCS4, FlashCS4 already, they work just fine. Any advise? Thx"
+,micantiro,2010-11-03T12:50Z,"hi thethingy... I have installed Illustrator CS4 and followed all instructions but, when I try to open Illustrator this message appears: ""Licence Expired: Licensing for this product has expired"", and it closes. What I have to do? Thanks."
+,micantiro,2010-11-03T12:57Z,"Hi thethingy... I have installed Illustrator CS4 and followed all instructions but, when I try to open Illustrator this message appears: ""Licence Expired: Licensing for this product has expired"", and it closes. What I have to do? I already copied the DLL to the 3 different places as you said... Thanks."
+,eckane_org,2010-11-24T05:40Z,"hey thingy, i installed illustrator cs5 like ten times already i did everything that it says on the instructions i modified the hosts and put the crack on the adobe folder but when i open the program looks like its loading all the plugins and then it shuts byitself no errors or messages about the license expired or anything like that, i really need this program for school, it'll be great if you could help me with this problem"
+,kenjiron,2011-01-06T16:57Z,"people this worked for me when i got the message of licence expired:
+
+get this torrent: http://thepiratebay.org/torrent/4888527
+and use the ""me first file""
+
+install illustrator cs4 and run the activation blocker
+
+use de ""me last file""
+
+i swap manually the .dll file that comes with the adobe fix torrent in . . .support files\contents\windows
+
+and thats it, i skipped some original instructions like editing the hosts file.
+
+i let you know if stop working.
+
+thanks to thethingy for great uploads
+
+hey thingy, what happen to your pet?"
+,venezolanisimo,2011-01-29T20:22Z,Thank you. I really appreciate your work.
+,venezolanisimo,2011-01-31T04:12Z,"I think there is a problem with this torrent and the AdobeLM.dll: I changed it with the AdobeLM.dll from http://thepiratebay.org/torrent/4888527 (thanks user kenjiron) and worked it -at least until the first usage-
+
+I had the problem ""Licensing for this product has expired"" appears before change this torrent AdobeLM.dll for the two ones from the link that I submited
+
+Additionally, I turned back my computer clock before I added the new AdobeLM.dll, following this instructions:
+
+http://kb2.adobe.com/cps/494/cpsid_49485.html
+
+Wasn't easy, I felt very frustrated, but I need the software and I can't afford it right now."
+,SHARPOV,2011-02-14T10:17Z,"Hi THINGY ,First  i want  to thank you for you hard and great job . But when I finished downloading some files messing in ( 10 Exercise Files ).I did all the steps that are in the video but i still messing the files, what i can do THINGY ???"
+,cesar5654,2011-03-29T17:15Z,"hi thethingy i have windows 7. this torrent isnt working for me, even when i put the .dll file in the new spot. i keep getting licensing issues. i really need this program so i was wondering if you could help me :)"
+,The_Philosoph3r,2011-10-18T01:10Z,"[TheThingy] whats good, listen i need the serial number for my illustrator to operate i dont want to begin to use it and the TRIAL runs out that would suck, what do i do ?"
+,climbingkilimanjaro,2012-01-31T16:31Z,"Thanks lots TheThingy for the torrent with a little help of debido66 for fixing license error. Going good, cheers! "

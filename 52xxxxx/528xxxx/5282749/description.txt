@@ -1,0 +1,164 @@
+doomsday_engine_jdoom_high_resolution_pack
+=======================================
+version 012010
+
+Dans cette archive vous trouverez tout ce qu'il vous faut pour tuner vos anciens jeux Doom avec Doomsday Engine.
+Pour l'utiliser, installer Doomsday Engine puis copier le rÃ©pertoire "auto" de l'archive Ã  cet emplacement:
+
+- sous Linux:
+/home/mon_profile/.doomsday/jdoom/auto
+
+Le rÃ©pertoire "auto" contient de nombreuses archives pk3 dÃ©veloppÃ©s par la communautÃ© des fans de doom-like. 
+UtilisÃ©es avec Doomsday Engine, vous pourrez  ainsi jouer ou rejouer Ã  Doom, Doom 2, Doom Plutonium, Doom Evolution en haute rÃ©solution et une interface complÃ©tement mise au goÃ»t du jour. 
+Un coup de jeune pour ces jeux cultes de chez ID Software qui fera renaÃ®tre le fragger qui sommeillait en vous. 
+Vous aurez bien-sÃ»r besoin des fichiers WAD officiels des jeux qui ne sont pas fournis dans ce pack.
+
+Packs rassemblÃ©s dans cette archive:
+dhtp-20090226.pk3 --> textures et paysages en haute rÃ©solution.
+jdui-all-20080614.pk3 --> interface du jeu (menu, images du dÃ©but et de la fin du jeu, barre d'Ã©tat du jeu, visage...) en haute rÃ©solution.
+wolf3dhud.pk3 --> remplace le visage de la barre du jeu par celui du jeu "Wolfeinstein 3D - Retour au chateau". Retirez le du dossier "auto" pour obtenir le visage par dÃ©faut.
+jdrp-04042007.zip --> Objets et personnages du jeu en 3D haute rÃ©solution (armes, munitions, clÃ©s, armures, bidons de tnt, monstres...). 
+Cette derniÃ¨re archive contenait les pk3 suivants:
+---------------------------------------------
+info
+jdrp-ammobox.1.01.pk3
+jdrp-ammoclip.1.01.pk3
+jdrp-arachnoshot.1.01.pk3
+jdrp-arachnotron.1.01.pk3
+jdrp-archvile.1.01.pk3
+jdrp-armor.1.01.pk3
+jdrp-backpack.1.01.pk3
+jdrp-baronfireball.1.01.pk3
+jdrp-baronofhell.1.01.pk3
+jdrp-barrel.1.01.pk3
+jdrp-berzerkpack.1.01.pk3
+jdrp-bfgshot.1.01.pk3
+jdrp-biglamp.1.01.pk3
+jdrp-bigstonepillar.1.01.pk3
+jdrp-bigtree.1.01.pk3
+jdrp-bloodpools.1.01.pk3
+jdrp-bosscube.1.01.pk3
+jdrp-brainstem.1.01.pk3
+jdrp-cacodemon.1.01.pk3
+jdrp-cacofireball.1.01.pk3
+jdrp-candelabra.1.01.pk3
+jdrp-candle.1.01.pk3
+jdrp-cell.1.01.pk3
+jdrp-celllarge.1.01.pk3
+jdrp-colongibs.1.01.pk3
+jdrp-computermap.1.01.pk3
+jdrp-cyberdemon.1.01.pk3
+jdrp-demon.1.01.pk3
+jdrp-evileye.1.01.pk3
+jdrp-firecan.1.01.pk3
+jdrp-firestick.1.01.pk3
+jdrp-floatingskulls.1.01.pk3
+jdrp-formercommando.1.01.pk3
+jdrp-formerhuman.1.01.pk3
+jdrp-formersergeant.1.01.pk3
+jdrp-genericmodels.1.01.pk3
+jdrp-hangbyfeet.1.01.pk3
+jdrp-hangingleg.1.01.pk3
+jdrp-hanginglegs.1.01.pk3
+jdrp-hangnobrain.1.01.pk3
+jdrp-hangnoguts.1.01.pk3
+jdrp-hangnoleg.1.01.pk3
+jdrp-hangtlookdn.1.01.pk3
+jdrp-hangtlookup.1.01.pk3
+jdrp-hangtnobrain.1.01.pk3
+jdrp-hangtorso.1.01.pk3
+jdrp-hangtskull.1.01.pk3
+jdrp-headcandles.1.01.pk3
+jdrp-headonastick.1.01.pk3
+jdrp-headsonstick.1.01.pk3
+jdrp-healthpotion.1.01.pk3
+jdrp-heartpillar.1.01.pk3
+jdrp-hellknight.1.01.pk3
+jdrp-hud-bfg.1.01.pk3
+jdrp-hud-chaingun.1.01.pk3
+jdrp-hud-chainsaw.1.01.pk3
+jdrp-hud-fists.1.01.pk3
+jdrp-hud-pistol.1.01.pk3
+jdrp-hud-plasmarifle.1.01.pk3
+jdrp-hud-rocketlauncher.1.01.pk3
+jdrp-hud-shotgun.1.01.pk3
+jdrp-hud-supershotgun.1.01.pk3
+jdrp-imp.1.01.pk3
+jdrp-impaledtwitcher.1.01.pk3
+jdrp-impfireball.1.01.pk3
+jdrp-invisibility.1.01.pk3
+jdrp-invulnerability.1.01.pk3
+jdrp-keen.1.01.pk3
+jdrp-keycards.1.01.pk3
+jdrp-lightgoggles.1.01.pk3
+jdrp-lightmaps.1.01.pk3
+jdrp-lostsoul.1.01.pk3
+jdrp-mancfireball.1.01.pk3
+jdrp-mancubus.1.01.pk3
+jdrp-medikit.1.01.pk3
+jdrp-mediumlamp.1.01.pk3
+jdrp-megasphere.1.01.pk3
+jdrp-miscfx.1.01.pk3
+jdrp-painelemental.1.01.pk3
+jdrp-particles.1.01.pk3
+jdrp-plasmashot.1.01.pk3
+jdrp-player.1.01.pk3
+jdrp-procket.1.01.pk3
+jdrp-radiationsuit.1.01.pk3
+jdrp-revenant.1.01.pk3
+jdrp-revrocket.1.01.pk3
+jdrp-rocket.1.01.pk3
+jdrp-rocketbox.1.01.pk3
+jdrp-shellbox.1.01.pk3
+jdrp-shells.1.01.pk3
+jdrp-shinemaps.1.01.pk3
+jdrp-skullkeys.1.01.pk3
+jdrp-skullpillar.1.01.pk3
+jdrp-smalllamp.1.01.pk3
+jdrp-soulsphere.1.01.pk3
+jdrp-spectre.1.01.pk3
+jdrp-spidermastermind.1.01.pk3
+jdrp-spinalcolumn.1.01.pk3
+jdrp-spiritualarmor.1.01.pk3
+jdrp-sssoldier.1.01.pk3
+jdrp-stalag.1.01.pk3
+jdrp-stalagtite.1.01.pk3
+jdrp-stimpack.1.01.pk3
+jdrp-stonepillar.1.01.pk3
+jdrp-talltorch.1.01.pk3
+jdrp-techpillar.1.01.pk3
+jdrp-tree.1.01.pk3
+jdrp-w-bfg.1.01.pk3
+jdrp-w-chaingun.1.01.pk3
+jdrp-w-chainsaw.1.01.pk3
+jdrp-w-plasmarifle.1.01.pk3
+jdrp-w-rocketlauncher.1.01.pk3
+jdrp-w-shotgun.1.01.pk3
+jdrp-w-supershotgun.1.01.pk3
+---------------------------------------------
+
+Tous ces packs ont Ã©tÃ© testÃ©s et reconnus compatibles avec Doomsday Engine 1.9.0 beta 6.8.
+
+Les packs suivants ne sont pas compatibles avec Doomsday Engine 1.9.0 beta 6.8:
+jdep-all-20080614.pk3 --> Paysages colorÃ©s en haute rÃ©solution
+jdep-all-skyglow20080930.pk3 --> Brouillard et effets de lumiÃ¨res
+C'est la raison pour laquelle ils ne sont pas intÃ©grÃ©s dans ce pack.
+Pour obtenir plus d'info sur ce point: http://sourceforge.net/tracker/?func=detail&aid=2924932&group_id=74815&atid=542099)
+
+--> Site de Dommsday Engine:
+http://www.dengine.net/
+--> Forum officiel:
+http://dengine.net/forums/
+--> Site sourcefourge:
+https://sourceforge.net/projects/deng/
+pour y tÃ©lÃ©charger les sources, dÃ©clarer un bug ou demander une nouvelle fonctionnalitÃ©.
+--> Installer Doomsday sur Ubuntu:
+http://doc.ubuntu-fr.org/doomsday
+Article avec lequel j'ai fait mes premiers pas avec Doomsday Engine sur Ubuntu.
+--> DHTP (Doom Hires Texture Pack - DHTP) website:
+http://doomtextures.freelanzer.com/ 
+site officiel pour se procurer le dernier pack des textures des murs, sols et des paysages des jeux Doom en haute rÃ©solution.
+--> autres:
+http://ansozour.free.fr/Doom.html
+http://www.moddb.com/games/doom/
+http://forums.newdoom.com/forumdisplay.php?f=73

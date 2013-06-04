@@ -1,0 +1,69 @@
+Urban Terror 4.1
+
+Urban Terror, commonly abbreviated as UrT, is a free-to-play first person shooter developed by FrozenSand. Originally a total conversion of id Software's Quake III Arena, FrozenSand released Urban Terror as a free standalone game in 2007, utilizing ioquake3 as an engine.[1] Although the ioquake3 project uses id Software's id Tech 3 engine under GPL license, Urban Terror's assets and code are closed source.[2]
+
+Urban Terror was nominated to the 2007 Mod DB's Mod of the Year Award.[3]
+Contents
+[hide]
+
+    * 1 History
+    * 2 Gameplay
+          o 2.1 Weapons and equipment
+          o 2.2 Damage and stamina
+    * 3 Community
+          o 3.1 Anti-cheating technologies
+          o 3.2 Competition
+          o 3.3 Other technologies
+    * 4 References
+    * 5 External links
+
+[edit] History
+
+Urban Terror started out in 1998 as a planned mappack for Quake III Arena, in which real world environments would be featured.[citation needed] It expanded from this idea to a full total conversion featuring realistic weapons and gameplay similar to Action Quake 2.[4] Silicon Ice Development was formed in spring 2000 and was made of several international developers, many whom were with familiar modifying Quake III Engine games; hence progress was made quickly.[citation needed] When its first version, beta 1.0, was released at QuakeCon 2000[5], Urban Terror was the realism mod with the most features and graphics completed.[citation needed] Beta 1.0 gained popularity quickly, and many third party maps became available. The development team was expanded, and beta 1.27 was released in late 2000.
+
+Beta 2.0 was released in June 2001[6], and was a major leap forward in terms of production quality. New textures, models, weapons, sounds, and maps brought the mod up to par with many contemporary commercial games of the time. The next major release occurred in August 2001, at QuakeCon 2001, of beta 2.3, which introduced several new maps.[6] The last release for the beta 2 series occurred in January 2003, with beta 2.6a being primarily a weapons balancing patch.[6]
+
+August 2003 saw the release of beta 3.0[7], a major graphical revision of Urban Terror. Over the next 11 months, seven more updates were released, culminating in beta 3.7 in July 2004.[7] Work on Urban Terror for Quake III Arena slowed down, as Silicon Ice Development was working on a release for Wolfenstein: Enemy Territory, titled Urban Terror MX.[8][9] Urban Terror MX was to feature vehicles and completely new gameplay. During this period, Silicon Ice Development changed its name to FrozenSand. Urban Terror MX never reached alpha stage, and the project was canceled in 2006.
+
+With the release of the ID Tech 3 engine source code, Urban Terror could legally be released as a standalone game. Urban Terror beta 4.0 was released in April 2007[10] using the ioquake3 project engine. Urban Terror is now a standalone game. Beta 4.0 ushered in another graphical overhaul, several new maps, and numerous tweaks and bug fixes.[11] The popularity of Urban Terror surged as Quake III Arena was no longer required in order to play. The current version of Urban Terror, beta 4.1, was released in December 2007[12]. Beta 4.2 is in the works, and although several teaser images and videos have been shown[13], no release date has been set. Beta 4.2 is slated to include an anti-cheat system[14], two new weapons[1][15], and several new maps.
+[edit] Gameplay
+
+Urban Terror is billed by FrozenSand as a "Hollywood tactical shooter."[1] It blends elements from games such as Quake III Arena, Unreal Tournament, Counter-Strike, and Warsow. The realism in the mod is introduced through a number of changes:
+
+    * The weapons available are from real life.
+    * The weapons have recoil.
+    * The weapons are less accurate when fired while moving (called movement penalty).
+    * The weapons require reloading after a magazine has been expended. Reloading before a magazine is expended will result in the loss of the remaining rounds in the magazine.
+    * Falling from a sufficient height causes damage, and possibly death.
+    * Wounds cause bleeding, which must be bandaged to prevent the player from bleeding out.
+    * Sprinting and jumping drain stamina
+
+The number of weapons and other gear that can be carried is limited. Damage is also more realistic than in Quake III Arena, based on dividing the player target into discrete areas. Depending on the map being played, external environments are realistic too and can include weather effects such as rain or snow. Weather effects can also be controlled by game variables a server admin can set.
+
+Urban Terror allows players to perform superhuman feats. Damage is a key example; while damage taken depends on the part of the body which is hit, one can keep going after receiving numerous hits. Further breaking from reality, Urban Terror also retains the movement speeds from Quake III Arena (circle jumping) which allows players to move through the environment incredibly quickly and includes moves such as wall jumping and power sliding. Wall jumping allows players to literally jump off of walls and helps the player to gain more height, distance and speed. Power sliding lets the player move rapidly in a crouched position, maintaining speed. These abilities have spawned a sub-community of players who focus on specially designed "jump maps" of which the goal is to reach the end of a series of difficult courses.
+
+Numerous game modes are featured, including classic FPS modes such as Team Deathmatch and Capture the Flag. Also included are Team Survivor, Free-for-All (deathmatch), Bomb & Defuse, Capture & Hold, and Follow the Leader. Beta 4.2 will bring two additional game types: Last Man Standing, and Jump Map Training (a special mode for the aforementioned jump maps).[16][17]
+[edit] Weapons and equipment
+
+Players have one primary, one secondary, one pistol, and one grenade slot, in addition to three general equipment slots. Players must select one pistol, and one primary weapon. Players are also automatically equipped with a Ka-bar knife. Primary weapons include heavy weapons such as sniper rifles and assault rifles, while the secondary weapons include submachine guns and shotguns.
+
+Of the remaining five slots (secondary weapon, grenades, general equipment) only three may be filled at spawn-time. (Equipment may be picked up from dead players to fill unused slots later on during the game.) The player may select to carry either two fragmentation grenades or two smoke grenades. The player can also select one of three secondary weapons. Finally, the three general equipment slots may be filled with any of several items such as kevlar armor and weapon attachments.
+
+The upcoming beta 4.2 release will introduce two new weapons to both the primary and secondary weapon choices: the FN P90 and the Benelli M4.[1][15].
+[edit] Damage and stamina
+
+Damage registration in Urban Terror is done by dividing the player target into four discrete areas: head, torso, arms, and legs. The effects on the torso and head can be reduced by game items such as the kevlar vest and the kevlar helmet, respectively. In addition to the damage system, wounds require bandaging, and wounds sustained in the legs slow the player down considerably until they are bandaged. When a wound is not bandaged, the player will eventually slowly die from bleeding to death. Players can also bandage each other to restore other players health partially. The bandaging proceed much faster if the player that is bandaging is equipped with a medkit item, and which also allows the healing of others back to almost full health.
+
+A stamina system is also present, and is depleted by jumping, sprinting, and crouching. The amount of stamina is related to the amount of health a player has. Equipping or picking up a kevlar vest increased stamina drain considerably. Stamina is recharged fastest when a player is motionless and crouched, but will recharge slowly even during normal movement.
+[edit] Community
+[edit] Anti-cheating technologies
+
+Originally, Urban Terror (as a Quake III Arena mod) used the PunkBuster anti-cheating technology built into Quake III Arena. As PunkBuster does not support modified versions of the ID Tech 3 engine[18], the standalone version of Urban Terror 4.0 had no working anti-cheat system. The development team is planning to include an anti-cheat system with the beta 4.2 release.[14] An independent anti-cheat is also being developed by Virtual Dark Arts, known as Virtual Dark Arts Anti-Cheat (VDAC).[19]
+
+Currently cheating is regulated by a group known as the Urban Terror Admin Alliance, or UAA. The UAA was founded in July 2007, and is composed of several dozen server administrators who maintain a ban list of convicted cheaters.[1]
+[edit] Competition
+
+Several competitive gaming leagues for Urban Terror exist and their activity has been more intensive since the beta 4.0 release which allowed more players to participate. Notable among them are the Europe-centric Urban-Zone CTF League[2], Clanbase OpenCup[3][4], and eChain TDM League[5]. The For The Win Gaming League[6] is geared towards North and South American teams.
+[edit] Other technologies
+
+Beta 4.2 will also include other technologies. One of which include anaglyph mode, where you have the option of wearing 3D glasses.

@@ -1,0 +1,20 @@
+First of all, forget MPCHC and VLC. You can enjoy mkvs from your own native wmp or any other player that does not use its own codecs.
+How to enable hardware acceleration?
+
+First of all, you need a display card that support Pure Video HD or Avivo HD. It would cost you US$65 to US$100. Make sure you update to the latest driver.
+
+The most important thing, you need a codec pack called Pure Codec. At this moment, the latest version is V2008 Build 0831.
+
+Here is the settings that do the trick, I tested it on both Windows XP and Windows Vista. I also tested it on Vista 64 bit. Once you installed the codec pack Pure Codec, do the following settings:
+
+    * Deselect â€œAuto Modeâ€
+    * Video Renderer use VMR9 Renderless (Remap_16_235). This will give you better color.
+    * Audio Decoder choose InterVideo. Better sound quality and smoother playback.
+    * H.264 Video Decoder is our main concert, choose CyberLink (DXVA) for MKV. This is the one which enabling hardware acceleration!
+
+You setting window should look like this:
+Pure Codec Setting
+
+In fact, there is nothing new about hardware acceleration, it is just the default setting of the codec packs are usually not working. That is why most of us fail to enable hardware accelerationâ€¦ including myselfâ€¦
+
+Wish this article can help friends who are planning to upgrade their computer â€¦. you may save you money and enjoy more high definition! Enjoy mkv files with X264 encoding!

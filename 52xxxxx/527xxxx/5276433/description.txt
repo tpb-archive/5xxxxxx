@@ -1,0 +1,76 @@
+Name:	Mac.OS.X.10.6.2.Patched.for.PC.UNIVERSAL
+Description:
+SnowOSXUniFlash
+
+
+
+Torrent Info 
+
+
+â€¢Torrent Size: 6.01 GB 
+SnowOSXUniFlash1.0.img 6.00 GB 
+USB Image Tool.lnk 1.27 KB 
+usbit.zip 225 KB 
+USB ItUSB Image tool.exe 4.00 KB 
+USB Itusbit32.dll 4.00 KB 
+USB Itusbitcmd.exe 4.00 KB 
+USB ItUSB Image Tool.exe 134 KB 
+USB Itusbit32.txt 3.32 KB 
+
+
+â€¢Mac OS X Snow Leopard 10.6.2 
+Has all the features of the original 
+Ability to update if they come out UNLESS OTHERWISE WARNED! 
+â€¢System Requirments 
+1GB DDR2 RAM (2GB for x64) 
+1024x768 monitor/compatible graphics card 
+8 GB Disk space (HFS+ format [able to do in installer]) 
+USB 2.0 Bus 
+AirPort (for wireless internet, only if desired) 
+1 GHz AMD or Intel Proccessor with instruction sets SSE2 and/or PPF 
+
+
+
+â€¢Questions or comments 
+Contact me at cclloyd9786 @ gmailcom 
+Leave a comment regarding installation failures and successes, or with 
+questions that I will reply to, or others if they can help. 
+Instructional Video: 
+video code dEE84N-mFCI   
+
+â€¢Dual boot with Vista/7 (Can't dual boot with XP or older. Google instructions 
+for linux. 
+With installing mac first: 
+Â»Boot up to the installer (or to your mac if you have another version install-
+ed) and open Disk Utility under Utilities. 
+Â»Create a new partition if you plan on installing it on the same drive, and 
+format it to HFS+ (Mac OS X Extended (Journaled)). (Also do with full drive 
+if you plan on installing OS X only on the drive) 
+Â»Then if you need to apply the DSDT patch in the installation (you will see 
+as you go) 
+Â»Install OS X. MAKE SURE YOU CHOOSE CUSTOMIZE BEFORE THE INSTALL! 
+Â»If you installed the bootloader that is by defualt chosen during the install
+then you do not need to do the dual boot steps of Windows. 
+Â»Now after you have it installed and everything, boot into Windows, and 
+install as normal. (If you cant boot into your mac, then use Windows Disk- 
+part to set your mad partition or drive as active. 
+With Windows installed first: 
+Â»Create a partition in Windows at least 8GB in size and set it to active 
+Â»Use USBit to make your USB the installer. 
+Â»Boot into your USB and open disk utility. Format your mac partition to HFS+ 
+Â»Apply the DSDT patch if neccessary. 
+Â»Go through the install REMEMBERING TO CUSTOMIZE YOUR INSTALLATION. 
+Â»After installed, and have your OSx86 setup, open disk utulity again and set 
+the Windows partition to active (If you Don't want to use the Mac bootloader 
+which i suggest you use) 
+Â»After booting into Windows, download and install EasyBCD (Google is your 
+friend) and add a new entry. 
+Â»Choose 'Generic x86 PC' for the mac and DONT CHANGE THE NAME 
+Â»Then save changes. Now when you boot up, it will let you choose which to 
+boot into. 
+If you don't understand anything, google it or ask me. Or go to OSx86.com. 
+THEY ALSO HAVE A FULL LIST OF COMPLETELY COMPATIBLE HARDWARE!
+â€¢If you cant boot because you have a x32 PC, then use the bootflags 
+-v -x32 
+If you load a few kernals then your screen flashes white and goes black use 
+voodoo -v -x32

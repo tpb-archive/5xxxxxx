@@ -1,0 +1,28 @@
+Date: December 22, 2009
+ 
+Today we released IsoBuster 2.7 with following new cool features and improvements:
+
+Changes:
+
+    * Support for interleaved files in the ISO9660 / Joliet file-system (rare but it can happen)
+    * Support for Right to Left reading languages and their optimized language dlls
+    * Proper print functionality from the View/Edit text window (formatting, copies, collate etc.)
+
+
+Improvements:
+
+    * Hard coded ignore of drive "HUAWEI Mass Storage" which is a USB modem with CDFS and which returns drive type CDROM, but it behaves badly and causes crashes
+    * Implemented *.cwk file-type recognition for found files based on their signature
+    * Ctrl-p (Print) and Ctrl-s (Save) implemented in the View/Edit text window
+    * Implemented ability to read raw on DVD in [Business] mode when the disc is Blank (some rare drives allow this on readable media without TOC, but they return user data, which is then remapped to raw by IsoBuster)
+    * Program start-up speed improved by skipping network drives to avoid long delays
+    * Create MD5 of image filename dialog improved
+    * Various other GUI improvements
+
+
+Fixes:
+
+    * In rare cases, on Windows OS with particular settings, the program would start with an "Invalid code page" error. This has been fixed
+    * Fixed issue that made the online check occur despite the user saying No
+    * Fixed it so that the nag screen doesn't show at the first try
+    * Fix in CueSheet handling to better deal with image files containing different block sizes per track

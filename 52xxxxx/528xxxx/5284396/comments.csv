@@ -1,0 +1,116 @@
+User Type,Username,Date,Text
+,kocoman,2010-01-23T13:20Z,Why is everyone stuck at 97.7%?
+,klein666,2010-01-25T20:09Z,"hey there i have a question!
+I downloaded it,but now when i hit OSX and click enter it restarts and im at the screen wehere dath vader is what must i do???"
+,OlympusDeadPool,2010-02-02T23:43Z,how do i fix sound
+,Deadhorror,2010-02-03T03:52Z,"After I hit ""Enter"" on the Darth Vader screen on the VMware Workstation 7. Why did it not work? It's gave me a bunch of codes. Can u help me?"
+,Deadhorror,2010-02-03T04:08Z,I got it right now. Thx u so much. Forget about my last question. IT Work. Yea WOOT. SO much relief for me.
+,OlympusDeadPool,2010-02-05T22:50Z,"@deadhorror
+How did you fix it? I have the same problem"
+,cclloyd,2010-02-09T03:26Z,"I should let you know the answer to the resolution problem.
+
+OS X defaults to 1024x768 when there is no video driver (mac os x kext).  So search for a kext for your gfx card, and it will get full resolution."
+,FartOnMe,2010-02-09T16:08Z,it says on the empire link that they have limited it to 1GB ram by default.  would be nice to be able to raise this.  also they say 4GB is too much.
+,cclloyd,2010-02-10T00:48Z,"Do you think if i copied all the files from the vm image, and put them into an HFS+ drive, it would boot like a hackintosh, which I have had before?"
+,ScrubbyScott,2010-02-13T10:24Z,I'd also like to know the answer or any success or failures to cclloyd's last question.. LoL
+,funforus,2010-02-18T06:44Z,"For those who are getting ?Invalid front-side bus frequency 6600000 Hz?
+
+Put:
+
+guestOS = ?darwin10-64?
+
+in your .VMX file. And be sure you have enabled VT in the BIOS."
+,me.home,2010-02-18T18:34Z,"running on vmware 7 on win 7 (64bit) with AMD Phen. X4.
+No real sound no Lan ?
+Grafix 1400x900 and more works (no QE, CI) with a small pkg. found here:
+http://sourceforge.net/projects/vmsvga2/files/
+
+LAN + Sound need help."
+,upeco,2010-02-23T20:49Z,It works fine on AMD 64 X2 4400+ and Win7 32bit with VMware 7 Lite.
+,drcoxer,2010-03-19T13:39Z,PLEASE Rise on distribution
+,Grimdrome,2010-06-12T15:47Z,When I hit enter it's just stuck on the darth vader screen can anyone help me please. I don't really care about sound I just need this for some small testing
+,Grimdrome,2010-06-12T17:16Z,Never mind I was just being stupid :|
+,chaddi,2010-06-12T20:59Z,What is the password ?????? 
+,Th3_0ne,2010-07-07T06:34Z,how long is it suppose to sit on the darth vader screen?
+,FartOnMe,2010-07-09T09:22Z,"@me.homenTHANKS!!!nusing the stuff at your link, i got adjustable video resolution, working sound, and working networking.nnhttp://img651.imageshack.us/img651/6637/vmwaremacvideo.pngnhttp://img257.imageshack.us/img257/9496/vmwaresound.pngnnthis also updates to 10.6.4 without any issuesnthe only limit i see left is the damn 1GB ram limit"
+,FartOnMe,2010-07-09T09:25Z,"god dammit, this comment form doesn\'t handle new lines correctly... http://img257.imageshack.us/img257/9496/vmwaresound.png http://img651.imageshack.us/img651/6637/vmwaremacvideo.png"
+,citizenatlarge,2010-07-21T23:18Z,"Found a sweet post over at demon's for this exact same torrent.. 
+
+Posted by Ratio: 0.43Telekast 3 months ago	 [ Complain ] [ Send PM ]
+Just got this running, it's by far the best OSX image out there.
+Here's how I installed properly and solved a bunch of problems(Using VMware Workstation 7.0.0)
+
+Getting Around Lag:
+The first time I booted I noticed there was a TON of lag.
+To fix go to
+Virtual Machine Settings -> Hardware Tab -> Processors
+Go to Virtualiation Engine
+and Select either Intel-VT / AMD-V or Intel-VT/EPT / AMD-V/RVI
+Most people have the former, if you get a prompt for both though saying that virtualization is not available you'll have to live without it. I highly recommend virtualization though because without it it will be very laggy.
+
+Accessing More than 1GB of RAM / More CPUs if Your Hardware Allows:
+This gets a little complicated.
+Go to the Bootdisk Folder (Should be on your desktop) -> Extras -> Post Install (or something like that, mines not open atm).
+You're gonna need to install a native install to the virtual machine, if you've ever tried this before you'll know what an ass that can be.
+I suggest opening myHack and fiddling around with the options till you get one that will boot with your hardware.
+I don't suggest doing this if you don't know your hardware specs / what you're doing.
+I do suggest making a backup of the disk image folder because chances are you'll need to do this more than once. It's easier to just delete your old VMware folder and start over if you have freeing, kernel panics, etc.
+
+Full Screen Video:
+As Armony posted earlier VMsvga2 is a great tool that allows for ported VMware drivers to be installed on the virtual machine.
+I'd also suggest installing guestd_patches.pkg which is on the same page under files.
+This allows for not only full screen support but also scaling for resizing the window. A little buggy but very useful.
+Both can be found here:
+http://sourceforge.net/projects/vmsvga2/files/
+
+Sound Drivers:
+On the same link listed above you can go to
+Audio -> Snow Leopard
+and download
+EnsoniqAudioPCI_1.0.2_for_SnowLeopard.mpkg.tar.gz
+
+It works to give you very basic audio drivers. It was static-y on my laptop but I'm only using OSX as a dev environment so it doesn't bother me much.
+
+EDIT:
+A couple other things. 1) This will work on non-AMD Intel systems. And even some Atom and i series systems if configured properly. Using the boot disk it should work fine with 1GB as well.
+
+also
+
+Networking:
+To enable networking on OSX go to
+Virtual Machine Settings -> Hardware Tab -> Network Adapter
+Select Network Connection -> Bridged
+When you open OSX when you go to the System Preferences -> Network Utility it should recognize it in a few seconds
+
+Shared Folders:
+To enable a shared folder between your Host PC (Windows I'm assuming) go to:
+Virtual Machine Settings -> Options Tab -> Shared Folder
+Select Always Enabled and then Add... and then select your folder and it should show up on your desktop in OSX"
+,citizenatlarge,2010-07-22T01:04Z,"Here's another trick I just found.. by default, you can't get any more than 1024 mb ram.. here's how to get around that.. 
+
+with the vm os-x powered off, edit the memory to what you want.. ie-2048mb.. VM>Settings>Memory
+
+now power on the vm os-x.. when you get to the darth vader screen, click inside the window, press the right arrow to select OSX.. now BEFORE hitting ENTER, type ""maxmem=2048"" 
+
+Now hit ENTER.. let the vm boot, and check.. it should show 2048mb ram or what ever values you put in respectively.. :D
+
+unfortunately, you have to type it everytime.. D:
+don't know how to make it stick yet.. anybody?"
+,seeder08,2010-09-10T04:31Z,"@upeco
+
+how did you make it work?
+I use clloydd's torrent but no luck, I'm stucked in ""power on this virtual machine"". it says ""Mac OS X is not supported with software virtualization. To run Mac OS X you need a host on which VMware Workstation supports hardware virtualization."" 
+please help upeco."
+,seeder08,2010-09-10T04:41Z,"@upeco
+
+how did you make it work?
+I use clloydd's torrent but no luck, I'm stucked in ""power on this virtual machine"". it says ""Mac OS X is not supported with software virtualization. To run Mac OS X you need a host on which VMware Workstation supports hardware virtualization."" 
+please help upeco."
+,seeder08,2010-09-10T04:42Z,"sory i double posted.
+coz i didn't see my post. ^_^"
+,illitero,2010-10-01T11:18Z,EXCELLENT trainer for a final hackintosh install.  Thank you!
+,Ambly,2010-11-13T22:29Z,"Thanks men! I really needed to run MAC and install SDK on my AMD. Works perfect! Cheers, i owe you a beer!"
+,Ambly,2010-11-14T01:28Z,"Did someone allready update to 10.6.5?
+Its ok to update?
+
+I got another VM image running on a I7 with bios virtualization, and updated. But im afraid that this one doesnt. I apreciate an anwser, Thanks!"

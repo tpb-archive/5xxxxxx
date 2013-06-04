@@ -1,0 +1,109 @@
+User Type,Username,Date,Text
+,BOMM2,2010-01-18T13:51Z,"Thank you for sharing, I've been looking to replace the old worn out vinyl copy for a long time.
+
+Please tell Bob that his gap settings in EAC is undefined and therefore the CUE sheet is bad. - In EAC, load a CD, hit F4 to detect gaps, in the menu select Action, make sure to tick ""Append Gaps To Previous Track (default)"".
+
+Copy/paste the following to create a proper CUE sheet. It is burn-tested against AccurateRip.
+
+REM GENRE Rock
+REM DATE 1989
+REM DISCID CE116C10
+REM COMMENT ""ExactAudioCopy v0.99pb5""
+PERFORMER ""Foghat""
+TITLE ""The Best Of Foghat""
+FILE ""01. Foghat - I Just Want To Make Love To You.wav"" WAVE
+  TRACK 01 AUDIO
+    TITLE ""I Just Want To Make Love To You""
+    PERFORMER ""Foghat""
+    PREGAP 00:00:32
+    INDEX 01 00:00:00
+  TRACK 02 AUDIO
+    TITLE ""Maybelline""
+    PERFORMER ""Foghat""
+    INDEX 00 04:19:20
+FILE ""02. Foghat - Maybelline.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 03 AUDIO
+    TITLE ""Ride, Ride, Ride""
+    PERFORMER ""Foghat""
+    INDEX 00 03:32:42
+FILE ""03. Foghat - Ride, Ride, Ride.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 04 AUDIO
+    TITLE ""Take It Or Leave It""
+    PERFORMER ""Foghat""
+    INDEX 00 04:24:60
+FILE ""04. Foghat - Take It Or Leave It.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 05 AUDIO
+    TITLE ""Home In My Hand""
+    PERFORMER ""Foghat""
+    INDEX 00 04:55:55
+FILE ""05. Foghat - Home In My Hand.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 06 AUDIO
+    TITLE ""Drivin' Wheel""
+    PERFORMER ""Foghat""
+    INDEX 00 04:56:69
+FILE ""06. Foghat - Drivin' Wheel.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 07 AUDIO
+    TITLE ""Fool For The City""
+    PERFORMER ""Foghat""
+    INDEX 00 04:28:45
+FILE ""07. Foghat - Fool For The City.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 08 AUDIO
+    TITLE ""Slow Ride""
+    PERFORMER ""Foghat""
+    INDEX 00 03:26:70
+FILE ""08. Foghat - Slow Ride.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 09 AUDIO
+    TITLE ""Stone Blue""
+    PERFORMER ""Foghat""
+    INDEX 00 03:56:46
+FILE ""09. Foghat - Stone Blue.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 10 AUDIO
+    TITLE ""Honey Hush""
+    PERFORMER ""Foghat""
+    INDEX 00 03:57:03
+FILE ""10. Foghat - Honey Hush.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 11 AUDIO
+    TITLE ""Night Shift""
+    PERFORMER ""Foghat""
+    INDEX 00 04:20:43
+FILE ""11. Foghat - Night Shift.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 12 AUDIO
+    TITLE ""Wild Cherry""
+    PERFORMER ""Foghat""
+    INDEX 00 05:32:15
+FILE ""12. Foghat - Wild Cherry.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 13 AUDIO
+    TITLE ""Third Time Lucky (First Time I Was A Fool)""
+    PERFORMER ""Foghat""
+    INDEX 00 05:26:57
+FILE ""13. Foghat - Third Time Lucky (First Time I Was A Fool).wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 14 AUDIO
+    TITLE ""Easy Money""
+    PERFORMER ""Foghat""
+    INDEX 00 04:11:38
+FILE ""14. Foghat - Easy Money.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 15 AUDIO
+    TITLE ""Chateau Lafitte '59 Boogie""
+    PERFORMER ""Foghat""
+    INDEX 00 03:53:69
+FILE ""15. Foghat - Chateau Lafitte '59 Boogie.wav"" WAVE
+    INDEX 01 00:00:00
+  TRACK 16 AUDIO
+    TITLE ""Eight Days On The Road""
+    PERFORMER ""Foghat""
+    INDEX 00 06:14:28
+FILE ""16. Foghat - Eight Days On The Road.wav"" WAVE
+    INDEX 01 00:00:00"

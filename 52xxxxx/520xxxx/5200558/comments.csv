@@ -1,0 +1,31 @@
+User Type,Username,Date,Text
+,eddietah,2009-12-07T01:45Z,"@billymayscocaine2009
+
+i second that"
+,waterman100,2009-12-07T03:49Z,Duhhhh. Crap
+,FTL3,2009-12-08T04:04Z,"LATEST LEFT 4 DEAD 2 PATCH + CRACK 2.0.0.4 HERE, WORKS ON GARENA ALSO!
+
+http://thepiratebay.org/torrent/5202892/%5BFTL3%5D_LEFT_4_DEAD_2_2.0.0.4_PATCH___CRACK___GARENA_WORKS
+
+?        Fixed crash on startup when using FAT32 file system
+?        Fixed in-game chat input where the local encoding differs from the input language's
+?        Fixed bug where Survivor Bots would sometimes become unresponsive in Scavenge games
+?        Updated subtitle localization files for Hungarian, Portuguese, Romanian and Russian
+?        Fixed exploit that allowed players on the Infected team to spawn directly next to the Survivors
+
+
+    * Fixed performance problem when rendering lots of decals, notably when fighting tanks with shotguns
+    * Fixed rcon response not working on Linux dedicated servers
+    * Fixed matchmaking problem matching into Advanced and Expert games
+    * Fix bug that would cause other specials to try to pummel a player a Charger disconnects or reconnects
+    * Fixed versus mode results panel being cut off in transition stats screen in non-english
+    * Found games: fixed non-player entries drawing the wrong type of icon in the selected item name label
+    * Game mode selector on main menu now takes keyboard input		"
+,mr357magnum,2011-04-03T14:31Z,"If you get an error saying ""MODE NOT SUPPORTED"" because your monitor or TV does not support the Games Default Resolution, then here is the fix:
+
+All you have to do is, go to your shortcut on the desktop, right click go to properties. There should be text ""Target"" and next to it a line of coding like this ""C:\Program Files\Left 4 Dead 2\left4dead2.exe"" 
+
+Change ""C:\Program Files\Left 4 Dead 2\left4dead2.exe"" to ""C:\Program Files\Left 4 Dead 2\left4dead2.exe"" -w 1024 -h 768 or what ever your Monitor or TV Supports.
+
+That should force it to start up with those dimensions. Also if you wanna skip the video in the beginning, type -novid after -h 768
+"

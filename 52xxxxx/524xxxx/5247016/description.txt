@@ -1,0 +1,69 @@
+Sin - For Mac - By Fresch3000
+
+
+Ten years ago in 2027, the city of Freeport was on the verge of collapse. The inefficient and under manned police forces were losing in the long hard battle against crime. The city needed help, but the overburdened government could no longer cope with maintaining peace on the streets. The government proposed a bill giving individual corporations the right to form their own police/security forces and they in turn would provide protection for the companies and citizens of the cities. This bill was passed and a new order of law enforcement was birthed. Several well respected sec-forces were established and one hard hitting group calling themselves HARDCORPS helped lead the way in crime prevention and elimination. The chaos slowly subsides as the sec-forces bring peace and order back to the city. 
+
+Colonel John Blade, the owner of HARDCORPS, is currently trying to track down the source of a drug distributed on the streets called "U4". This highly addictive drug has been around for some time, but lately strange things have been happening to its users. It is up to Blade to find out what is happening; figure out who or what is behind the weird problems now plaguing the streets; and put a stop to it.
+
+This elaborate puzzle eventually leads back the mysterious Elexis Sinclair. A brilliant biochemist who is attempting to push the evolution of mankind ahead by a thousand generations and she will stop at nothing to get what she wants.
+
+
+
+
+
+Widescreen Guide!
+
+
+The standard widescreen resolution in this port is 1920x1200.
+
+The game only supports 4:3 resolutions from the ingame menu, so if you want to use your widescreen resolution you have to do the following:
+
+
+The first thing you need to get is an Hex Editor.
+For mac,  HexFiend is Great.
+
+Rightclick on the Sin icon, click Show Package Content.
+Navigate to: Contents -> Shared Support -> CrossoverGames -> Support -> Default -> Drive_c -> Sin
+Drag the file "Sin.exe", to your desktop.
+
+
+ Open HexFiend, and locate the Sin.exe file on your desktop. Open it.
+
+Start by pressing "CMD+F", to find a line. Mark the radiobutton ASCII.
+Write:     1600
+And press Next.
+
+
+Find number 00800700, and 00B00400 (Usually next to eachother), to the left, from "1600" in the Hex part of the editor.
+
+The part "8007", and "B004", and the ones that need to be changed.
+
+8007 is the screen width and B004 is the height.
+Change the two numbers (When you press delete, or backspace, it removes 2 digits. Remember that!!!) , into the resolution in the table below:
+
+For example, if i want to change my resolution to 1280 x 720, 
+ill change 8007 to 0005, and B004 to D002
+
+After you have made your change, save the file, and drag it back into the Sin folder. Remember to make a backup of the original Sin.exe, if you mess something up.
+
+
+Resolutions:
+
+_____________
+1650  x   1050
+90 06    1A 04
+_____________
+1440  x   900
+A0 05     84 03
+
+_____________
+1280   x   720
+00 05     D0 02
+
+Not every resolution work in full screen, but check it out.
+If your resolution is not supported, use the original Sin.exe file, and play the game using a standard ingame resolution.
+
+
+
+
+ENJOY!

@@ -1,0 +1,26 @@
+This is a torrent file for Left4Dead 2 NCF files and common files for PacSteam or other cracked steam client.
+
+1. Copy the files to you SteamSteamApps folder
+2. Open your steam client and download the Left4Dead 2 Dedicated Server
+3. Create a dedicated server and use the following console commands:
+
+net_start
+sv_lan 0
+sv_allow_lobby_connect_only 0
+z_difficulty Normal
+motd_enabled 0 (YOU NEED TO USE THIS COMMAND, otherwise the game WILL crash after the MoTD screen)
+
+4. Join your server with the (connect "your ip") console command
+
+Additional in-game commands:
+
+rcon_password "password" (To be the admin and use the server commands in-game)
+rcon changelevel "map name" (if you want to change the campaing or map)
+rcon sv_cheats 1 (if you want to use cheats)
+
+
+Note: The opening movie is corrupted, skip it and the game will start.
+
+If you like the game, BUY IT !!
+
+Enjoy!

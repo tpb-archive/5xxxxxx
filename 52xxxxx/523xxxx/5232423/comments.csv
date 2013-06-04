@@ -1,0 +1,25 @@
+User Type,Username,Date,Text
+,Bumbaz,2009-12-22T15:14Z,Do you need the USB Eye-TV key?
+,HSG49X0,2009-12-22T20:29Z,thanks a lot
+,winobie,2009-12-23T05:21Z,"Many thanks, EyeTV works again. Was black screened after a Snow Leopard update, I spent a whole day trying to sort it then gave up short of paying for new software.
+I purchased EyeTV 410 just before EyeTV2 and begrudge any additional costs. "
+,Allifan,2009-12-28T21:31Z,"The serial was invalidated already, I removed EyeTV and ALL associated files with CleanApp then re-installed EyeTV again, Blocking with Little Snitch Twice. Works, I read of sneaky Elgato files hiding on your drive but I guess CleanApp got them. (I had the CleanApp background process keeping tabs)."
+,livetorrents,2010-03-23T18:12Z,"For your information:
+
+If you should forget to block internet-access for eyeTV, and your serial become unusable, try this:
+
+BLOCK EYETV FROM GETTING ACCESS TO THE INTERNET! 
+
+1. Open terminal
+
+2. write ""sudo rm /Users/Shared/Library/Preferences/com.elgato.eyetv.plist""
+
+and
+""sudo rm /Users/Shared/Library/Preferences/com.elgato.eyetv.world.plist""
+
+Then re-use the serial you already have.
+
+
+A question;
+
+Why use ""little snitch"" to block access, when you can block all access in OS X firewall? You can find it under ""Security"". "

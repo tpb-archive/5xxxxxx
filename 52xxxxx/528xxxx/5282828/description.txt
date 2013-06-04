@@ -1,0 +1,47 @@
+ Professional Image Processing
+In spite of its low price PhotoLine offers every function needed for professional image processing:
+
+    * 16 bit per color channel
+    * CMYK and Lab color space
+    * Color management with ICC profiles
+
+Lossless Image Processing
+Lossless image processing is made possible by adding functions to an image without changing the original data. This way you loose no information and have access to the unmodified image data every time you want to.
+
+    * Layer Masks
+      Layer masks hide parts of the accompanying image.
+    * Working Layers
+      Working Layers operate on the image data beneath them. Their field of operation can be restricted by a mask. There are the following Working Layers available: Curves, False Color, Histogram Correction, Hue/Saturation, Color Balance, Unsharp Masking, Gaussian Blur, Median, Perturbation and much more.
+    * Scaling/Rotating
+      If an image is rotated or scaled in a document, the image data won't be modified but only the corresponding information will be added to the image.
+
+Digital Photo Imaging
+PhotoLine offers every function for working with digital photos:
+
+    * Digital Camera Raw Data
+      PhotoLine can import the raw image data - the so-called raw-files - of nearly every digital camera. You can find a detailed list of the supported cameras here.
+    * EXIF Data
+      EXIF data are saved by digital cameras together with the image data. They contain useful informations like the camera model, the focal length, the time of exposure and so on (see also EXIF Data in PhotoLine).
+    * IPTC Data
+      IPTC data are used to add additional informations to an image. Some of these are the author, a description and keywords, that allow categorizing images and this way easier retrieval (see also IPTC Data in PhotoLine).
+    * Corrections
+      PhotoLine offers many functions for enhancing photos:
+          o Light/Shadow adjusts brightness errors.
+          o Connect Images can be used to combine two differently exposed photos to a single better one.
+          o White Point corrects the white point of an image automatically or manually.
+          o The Color Temperature can be set or adjusted.
+          o Chromatic Aberration corrects color distortions at edges.
+          o Image Noise reduces the color and brightness noise in an image.
+          o Red Eyes removes red pupils caused by the flash of the camera.
+          o Lense Correction corrects the distortions caused by the curvature of the lense.
+          o Perspective distortions can easily be fixed by using the layer tool or the rectangular lasso.
+
+Additional Functions
+In addition to the functions above PhotoLine offers many more:
+
+    * Standard Filters
+      There is every standard filter available like Unsharp Masking (USM), Sharpen, Soften, Gaussian Blur, Adaptive Soften, Motion Blur, ...
+    * Retouch Filters
+      Optimize Contrast, Remove Dust/Scratches, Descreen, Remove Waste, Deinterlace, ...
+    * Correction Tools
+      Histogram Correction and Online Histogram, curves with contrast, brightness and gamma correction, Hue/Saturation, ...

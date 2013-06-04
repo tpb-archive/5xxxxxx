@@ -1,0 +1,89 @@
+Product Description:
+Parallels Desktop for Mac is the first solution that gives Apple users the ability to run Windows, Linux or any other operating system and their critical applications at the same time as Mac OS X on any Intel-powered iMac, Mac Mini, MacBook or MacBook Pro. 
+
+Unlike dual-boot solutions, in which users must completely shut down Mac OS X and endure a full OS start-up cycle to access a important application, Parallels Desktop for Mac empowers users with the ability to run important Windows programs like Outlook, Access, Internet Explorer and all other applications without having to give up the usability and functionality of their Mac OS X machine even for a few minutes.
+
+What's New?:
+Virtualization
+--> Improved USB mass storage performance.
+-->SMP Windows XP and Windows Server 2003 virtual machines migrated from Parallels Desktop 4 may crash on startup -fixed.
+--> Black screen on startup in Windows 2000 virtual machines that support the Intel EPT technology - fixed. 
+
+Windows guest operating systems
+--> Improved resume from suspend in virtual machines with multiple monitors assigned.
+--> Accidental keyboard problems when switching between applications if several virtual machines are running in Coherence or Crystal - fixed.
+--> Switching to the default space when clicking Windows Start Menu in the Crystal mode - fixed.
+--> Improved performance of file access via Shared Folders.
+--> Problems with switching to Coherence or Crystal in a multi-monitor configuration with a USB-to-DVI/VGA adapter driver installed in the virtual machine - fixed.
+--> Problems with switching to Coherence or Crystal when Parallels Desktop is on the display attached to a different graphic card - fixed.
+--> Time zone synchronization in the Windows 7 guest OS - fixed.
+--> The Visual Studio debugger hitting breakpoint on applications launched in the debug mode when running in Coherence or Crystal view modes - fixed.
+--> Overlapping of menus appearing on right-click and left-click in Crystal mode - fixed. 
+
+Linux guest operating systems
+--> Parallels Tools support Xorg 1.7 in Fedora 12 virtual machines (experimental) - new!
+--> Parallels Tools support Mandriva 2010 (experimental) - new!
+--> OpenSUSE 11.1 installation media auto detection - new!
+--> A non-writable Desktop folder created during the Express installation in some distributions - fixed.
+--> Problems with the Ubuntu 8.04 x64 guest OS booting after the Express installation - fixed.
+--> Blinking when working in the Topogun 1.05 application - fixed.
+--> Problems with right mouse click in some versions of GNOME - fixed.
+--> Parallels Tools reinstallation may stall - fixed. 
+
+Mac OS X Server guest operating system
+-->The ability to pass kernel options to the Mac OS X Server guest OS - added. To do so, enable the "Select boot device on startup" option in the virtual machine configuration: it will enable you to specify the necessary kernel options in the 5-seconds timeout before booting the kernel. 
+
+User Interface
+--> Very slow Parallels Desktop 5 startup on some computers - fixed.
+--> Artifacts in Quartz animation after applying changes to Undo Disks and some other actions - fixed.
+--> Visual artifacts when switching to Full Screen in some machines - fixed.
+--> Possible application crashes when switching to the Crystal mode with VoiceOver turned on - fixed.
+--> Problem with quitting Parallels Desktop via Dock icon > Quit when Virtual Machines List is not closed - fixed.
+--> Problem with some dialogs staying in background when accessed in the Crystal view mode - fixed. 
+
+Mac OS X 10.4 Tiger host operating system
+--> Parallels Desktop may crash on startup in Mac OS X 10.4 Tiger host OS - fixed.
+--> Possible problems with connecting USB devices in Mac OSX 10.4 Tiger host OS - fixed. 
+
+3D & Video
+--> Improved video playback performance in Windows Vista and Windows 7.
+--> Windows Aero is now available by default for computers with Intel GMAX3100 and GMA950 graphic adapters (some MacBook and Mac mini models).
+--> Vertical synchronization is now configurable. You can configure these settings using the corresponding option in the virtual machine video configuration page.
+--> Black screen blincking in Windows Aero in SMP systems - fixed.
+Visual problems with the Battlestation Pacific game running on NVidia adapters - fixed.
+--> Improved 3D performance for the Mirror's Edge game.
+--> Possible texture corruption in Autodesk AutoCAD - fixed.
+--> Possible Windows XP guest OS crashes when Autodesk Inventor is running in the virtual machine - fixed.
+--> Possible crashes of the Torchlight game - fixed.
+--> Visual artifacts in Quicktime 7 on ATI video adapters running in the WDDM mode - fixed.
+--> Possible crashes in the Microsoft Train Simulator game - fixed.
+--> The Mass Effect game crashes on startup - fixed.
+--> Visual artifacts on "water" in the Spore game - fixed.
+--> Accidental crashes in the Portal game on the GMA950 graphics adapter - fixed.
+--> Accidental crashes in the Unreal Tournament 3 game -fixed.
+--> Problems with OpenGL applications startup in Full Screen in multi-monitor configurations - fixed.
+--> The Final Fantasy XI game compatibility issues - fixed.
+--> Problems with the Counter Strike 1.6 game in DirectX rendering mode - fixed.
+--> Corrupted images in Anatomage InVivo - fixed.
+Video quality problems in some video players on Windows 7 - fixed. 
+
+Parallels Transporter
+--> Improved performance of virtual machines migrated from VMware Fusion to Parallels Desktop.
+--> Disabled Aero in the Windows 7 virtual machines converted from VMware Fusion 3 to Parallels Desktop - fixed.
+--> Migration via the Parallels USB cable when the source computer's USB port is a USB 1.1 port - fixed.
+
+Installation:
+--> Mount app
+--> Use app installer
+--> Run app & use serial in .txt file
+--> Done!
+
+ENJOY!!  
+--> IsolatedSoul5591
+
+UPDATE: The key in this torrent has expired! Here's a permanent key: 
+GFB577-DDJJ9A-VGPP47-EAB1YR-EEQDMJ
+
+If you are asked for an "activation key for the previous version of Parallels Desktop", enter: MJZQ7R-CNDVAJ-605Z8C-2VC1CN-PXQC5T
+
+Cheers!

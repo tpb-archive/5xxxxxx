@@ -1,0 +1,93 @@
+Windows.7.Loader.v1.7.7r-DAZ :-
+============================
+
+Latest - 1.7.7
+==============
+   
+       
+* Fixed loader modes to stop system hangs
+   
+* Changed the way the loader is wrote to the partition (no more mounting)
+   
+       
+   
+Changes since 1.6.9
+===================
+   
+       
+   
+* 1.7.0 -- Removed the older loader
+   
+* 1.7.0 -- Added loader mode options
+  
+* 1.7.0 -- Changed the UI so that it's now slightly transparent as well as resized to suit the new options
+  
+* 1.7.0 -- Added Samsung support for Windows 7 Ultimate, Professional & Home Premium editions
+  
+* 1.7.0 -- Improved internal resources security
+  
+* 1.7.1 -- Removed window transparency to fix a Windows 7 artifacts bug and improve responsiveness on older systems using onboard graphics
+  
+* 1.7.1 -- Improved the "Custom menu.lst" loader option. It will now show all people using this setting the GRUB menu at system startup
+  
+* 1.7.1 -- Upgraded some certificates to version 2.1
+  
+* 1.7.1 -- Added a new GRLDR version (0.96) from zsmin (custom edition for my program)
+  
+* 1.7.1 -- Added external SLIC support (read "How to add support.txt" for more info)
+  
+* 1.7.1 -- Added support for BenQ and Sony machines
+  
+* 1.7.1 -- Added support for Windows 7 Starter Edition
+  
+* 1.7.1 -- Added various new OEM SLP serials
+  
+* 1.7.2 -- Added encrypted SLIC support
+  
+* 1.7.2 -- Added random loader names
+  
+* 1.7.2 -- Added byte differences (everyones GRLDR loader won't be byte for byte the same)
+  
+* 1.7.2 -- Added a new GRLDR version (0.97) from zsmin (custom edition for my program)
+  
+* 1.7.2 -- Added /norestart argument
+  
+* 1.7.2 -- Added support for Windows 7 Home Basic (4 new keys)
+  
+* 1.7.3 -- Improved free drive letter assignment
+  
+* 1.7.3 -- Corrected some grammar
+ 
+* 1.7.3 -- Added random SLIC encryption support, this means everyones SLIC will have a unique encryption
+  
+* 1.7.3 -- Added GRLDR file size randomization
+  
+* 1.7.3 -- Added GRLDR v0.97-DAZ+SEC-R2. This is just a minor version to support the random encryption
+  
+* 1.7.3 -- Added SLIC table detection (BIOS mod and software, it can tell the difference) -- this feature is in BETA
+  
+* 1.7.3 -- Added support for Advent, Medion and Nokia
+  
+* 1.7.3 -- Added various new OEM SLP serials
+  
+* 1.7.4 -- Improved SLIC detection (still not tied to anything, it's simply a BETA feature until I get more feedback)
+  
+* 1.7.4 -- Fixed file write errors caused by version 1.7.3
+  
+* 1.7.4 -- Added support for Server Standard R2
+  
+* 1.7.4 -- Added support for FSC, Quanmax and Trigem
+  
+* 1.7.4 -- Added various new OEM SLP serials
+  
+* 1.7.5 -- Removed the beta SLIC detection (caused crashes on 1.7.4)
+  
+* 1.7.5 -- Added support for LG
+  
+* 1.7.5 -- Added various new OEM SLP serials
+  
+* 1.7.6 -- Improved the encryption support
+  
+* 1.7.6 -- Added Toshiba Professional serial
+  
+* 1.7.6 -- Added support for Gigabyte

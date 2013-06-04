@@ -1,0 +1,28 @@
+TextPad is a powerfull text editor for Microsoft Windows.
+
+
+Key features include:
+
+    * the ability to maintain block indents
+    * automatic code indentation
+    * regular expression based search and replace, including multiline regex
+    * macro recording feature to facilitate complex text transformations and data processing.
+       - macro feature supports multiple regex searches (and replacements) within a macro
+    * syntax highlighting (extendable to many different languages)
+    * ability to call external programs (such as compilers)
+       - regex matching can be used to jump to a line number in a file given in the output from external programs (e.g. to locate the cause of a compiler error)
+       - automatic integration with Java JDK, if JDK is already on the machine
+    * large file support
+    * support for editing multiple files, with tabbed document selection
+    * block select mode
+    * synchronized scrolling of multiple files
+    * clip libraries - snippet management for reusable portions of text to insert into documents
+    * clipboard history - Allowing textpad to function as a Multiple Clipboard tool
+    * Bookmarking of lines, therefore allowing users to copy specific lines (e.g. log file error messages), and then paste them to another document.
+
+
+Snippets (Clip Library):
+
+The Clip Library is a TextPad sidebar that allows users to store small items persistently, and then use them easily. This is done by double clicking clip names in the Clip Library sidebar.
+
+TextPad comes with a number of pre-defined clip libraries, including ANSI characters, HTML characters and HTML tags. A very useful clip library is the Clipboard History. This is a list of previous Clipboard contents. So even though the standard Windows Clipboard can only hold one piece of information, the TextPad Clipboard History Clip Library can access a whole history of entries.

@@ -1,0 +1,313 @@
+Copied from the Notepad++ Homepage:
+
+
+Notepad++ is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement that supports several languages.
+Running in the MS Windows environment, its use is governed by GPL License.
+
+Based on a powerful editing component Scintilla, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size. By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions. When using less CPU power, the PC can throttle down and reduce power consumption, resulting in a greener environment.
+
+This project is mature. However, there may be still some bugs and missing features that are being worked on.
+
+I hope you enjoy Notepad++ as much as I enjoy coding it.
+
+
+Here are the features of Notepad++ :
+
+
+Syntax Highlighting and Syntax Folding 
+
+Supported languages:
+
+C
+C++
+Java
+C#
+XML
+HTML
+PHP
+CSS
+makefile
+ASCII art (.nfo)
+doxygen
+ini file
+batch file
+Javascript
+ASP
+VB/VBS
+SQL
+Objective-C
+RC resource file
+Pascal
+Perl
+Python
+Lua
+TeX
+TCL
+Assembler
+Ruby
+Lisp
+Scheme
+Properties
+Diff
+Smalltalk
+Postscript
+VHDL
+Ada
+Caml
+AutoIt
+KiXtart
+Matlab
+Verilog
+Haskell
+InnoSetup
+CMake
+YAML
+
+
+WYSIWYG 
+
+If you have a colour printer, print your source code (or whatever you want) in colour.
+
+
+User Defined Syntax Highlighting 
+
+It allows user to define his own language : not only the syntax highlighting keywords, but also the syntax folding keywords, comment keywords and the operators.
+
+
+Auto-completion 
+
+For most supported languages, user can make his/her own API list.
+Once the api file is ready, type Ctrl+Space to launch this action.
+
+
+Multi-Document 
+
+You can edit several documents at the same time.
+
+
+Multi-View 
+
+You have two views at same time. That means you can visualize (edit) 2 different documents at the same time. You can visualize (edit) in the 2 views one document at 2 different positions as well. The modification of document in one view will carry out in another view (i.e. you modify the SAME document when you are in clone mode). 
+
+
+Regular Expression Search/Replace supported 
+
+You can search and replace one string in the document by using the regular expression.
+
+
+Full Drag â€˜N' Drop supported 
+
+You can open a document by drag & drop.
+You can also move your document from a position (or even a view) to another by drag & drop. 
+
+
+Dynamic position of Views 
+
+The user can set the position of the views dynamically (only in 2 views mode : the splitter can be set in horizontal or in vertical). 
+
+
+File Status Auto-detection 
+
+If you modify or delete a file which opened in Notepad++, you will be notified to update your document (reload the file or remove the file). 
+
+
+Zoom in and zoom out 
+
+That's another fantastic function of Scintilla component.
+
+
+Multi-Language environment supported 
+
+The Chinese, Japanese, Korean, Arabic and Hebrew Windows environments are supported.
+
+
+Bookmark 
+
+User can just click on the bookmark margin (located right side of line number margin) or type Ctrl+F2 to toggle a book mark.
+To reach the bookmark, type just F2 (Next bookmark) or Shift+F2 (Previous bookmark). To clear all bookmarks, click the Menu Search->Clear All bookmarks.
+
+
+Brace and Indent guideline Highlighting 
+
+When the caret stay beside of one of those symbol { } [ ] ( ) , the symbol beside of caret and its symmetric opposite symbol will be highlighted, as well as the indent guideline (if any) in order to locate the block more easily.
+
+
+Macro recording and playback 
+
+You can save several macros and edit their keyboard shorcuts for the next use.
+
+
+Changelog:
+
+
+Notepad++ v5.6.4 new features and fixed bugs (from v5.6.3) :
+
+
+Add feature of conversion from a localization encoding to UNICODE.
+
+
+Fix status bar display bug that xml/html utf8 indicator makes status bar display ANSI instead of ANSI as UTF-8.
+
+
+
+Notepad++ v5.6.3 new features and fixed bugs (from v5.6.2) :
+
+
+Add restore button in fullscreen and postIt mode.
+
+
+Fix auto-updater bug.
+
+
+
+Notepad++ v5.6.2 new features and fixed bugs (from v5.6.1) :
+
+
+Fix the Unicode localization file display problem.
+
+
+Update template localization file (english.xml) to v5.6.1.
+
+
+Fix tag highlighting bug while disabling indent guide lines.
+
+Fix the translated sub menu entries applying on the menu item.
+
+
+Display more information while catching of plugins crash.
+
+
+
+Notepad++ v5.6.1 new features and fixed bugs (from v5.6) :
+
+
+Fix brace highlighting breaking issue and related performance problem.
+
+
+Add new encodings in the shortcuts map.
+
+
+Remove annoying encoding issue warning dialogs.
+
+
+Enhance Html encoding auto-detection.
+
+
+Fix case-insensitive searching bug for non-ascii characters
+(for example some characters in French and Cyrillic letters).
+
+
+Add find result commands in the menu.
+
+Add DOS CodePage : CP437, CP737, CP850, CP852, CP855, CP857, CP858, CP860, CP861, CP863, CP865, CP866 and CP869.
+
+
+Fix localization combo box unselected in preference dialog bug after startup
+(when a localization file is in use).
+
+
+
+Notepad++ v5.6 new features and fixed bugs (from v5.5.1) :
+
+
+Add languages encoding - Chinese traditional (BIG5), Chinese Simplified (GB2312), Japanese (Shift JIS), Korean (EUC), Thai (TIS-620), Hebrew (iso-8859-8), Hebrew (1255), Central European (1250), Cyrillic (1251), Cyrillic (KOI8-U), Cyrillic (KOI8-R), Cyrillic (Mac), Western European(1252), Greek (1253), Turkish(1254), Arabic (1256), Baltic (1257), Vietnamese (1258), ISO_8859-1 to ISO_8859-16 and a lot of more.
+
+Add auto-detection of HTML and XML files encodings.
+
+Add COBOL, D, Gui4Cli, PowerShell and R language support.
+
+Add Marker Jumper feature (Jump down/up : Ctrl+Num/Ctrl+Shift+Num).
+
+Add indent guide line highlighting for html/xml tags.
+
+Add system tray context menu and new command argument "-systemtray".
+
+
+Fix Unicode to ANSI encoding bug.
+
+Fix last recent file list menu items localization encoding bug.
+
+Fix last recent file number goes to zero issue.
+
+
+Add new command argument "--help".
+
+
+Fix Calltip hint bug and add a new capacity in it.
+
+
+Add the ability to add the second keyword group for user in both LISP and Scheme languages.
+
+
+Fix the wrap symbol display problem.
+
+
+Add SQL ESC symbol ''.
+
+
+Fix column editor insert number bug in virtual space mode.
+
+Fix status bar displaying "-2 char" issue for a empty document.
+
+Fix installation of NppShell64 failed issue in installer.
+
+
+
+Notepad++ v5.5.1 new features and fixed bugs (from v5.5) :
+
+
+Old icon is back.
+
+
+Set ".txt" extension automatically while saving a document text.
+
+
+Real characters count is added in status bar.
+
+
+Fix some memory leaks.
+
+
+Add "open all" capacity in finder (for find in files).
+
+Replaced nppcm with NppShell (in installer).
+- Dialog to allow change of various settings (cmd : regsvr32 /s /i NppShell.dll)
+- Context menu icon properly rendered
+- Incorporate dynamic icon for registered filetypes
+
+
+
+Included plugins (Unicode):
+
+1.  TextFX v0.26
+2.  NppExec v0.3.2
+3.  Spell Checker v1.3.3
+4.  MIME Tools v1.6
+5.  NppExport v0.2.8
+6.  NppNetNote v0.1
+7.  Compare Plugin 1.5.5
+8.  Plugin Manager 0.9.3.0
+9.  Light Explorer v2.0
+
+Included plugins (ANSI):
+
+1.  TextFX v0.25
+2.  NppExec v0.3.2
+3.  Spell Checker v1.3.3
+4.  MIME Tools v1.6
+5.  NppExport v0.2.8
+6.  Light Explorer v1.6
+7.  NppNetNote v0.1
+8.  Compare Plugin 1.5.5
+9.  Plugin Manager 0.9.3.0
+
+
+ED2K Link:
+ed2k://|file|npp.5.6.4.Installer.exe|3546726|CEC128AC0BCD5730C935F84E2CB60243|h=DWTGQK5JHV3QJRJBIC2A74C5VDB6UIIV|/
+
+
+
+Comments from the uploader (olofolleola4):
+Here is some links if you cannot download it through this torrent:
+upload box  .  com  /  files  /  076db30668
+rapid share  .  com  /  files  /  327060783  /  npp.5.6.4.Installer.exe

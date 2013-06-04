@@ -1,0 +1,36 @@
+Red Alert 2 Mental Omega
+
+compressed: 390 MB
+installed:  940 MB
+
+contents:
+Red Alert 2 (ripped music + videos)
+Yuri's Revenge (ripped music + videos)
+Mental Omega mod v2.0c (full with music) -> http://mo.cncguild.net/
+
+includes:
+-red alert 2 v1.06
+-yuri's revenge v1.01
+-npatch 0022
+-lan patch (uses UDP instead of IPX) -> http://www.understorm.net/cnc/lan/ts_ra2.php
+-ddraw patch (eliminates slow-downs) -> http://esource.freedomstudios.net/misc/ddraw.rar
+-trainer for ra2 & mo
+
+You cannot play the original Yuri's Revenge.
+Only Red Alert 2 and Mental Omega mod.
+
+Notes:
+-if you get *** FATAL STRING ERROR *** just try again. it does this sometimes at first run
+-if you get "encountered an error and needs to close" try to set win98 compatibility on all game exe's
+-if you get black screen try to delete ddraw.dll from your game folder
+-the resolution should be set identical to your desktop when you install
+but if you have to do it manually look for these 3 lines
+in ra2.ini (for red alert 2) or ra2md.ini (for mental omega)
+and change the values to what you want
+	[Video]
+	ScreenWidth=640
+	ScreenHeight=480
+
+Special Thanks to The Great Elmo @ retestrak.nl for making the no-cd crack for the npatched gamemd.exe
+
+zpimp

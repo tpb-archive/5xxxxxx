@@ -1,0 +1,35 @@
+----------------------------------------------------
+INFO
+----------------------------------------------------
+Passware Windows Key Enterprise Edition v9.3 (Build 815)
+
+This is a bootable ISO file that I customized myself for your use. It is far superior to the others I found available at the "usual places" - here is why:
+
+First I downloaded the current release of the DriverPacks.net Mass Storage Driver Pack v9.01 and their slipstreaming tool DP_BASE v8.12.5.
+I then copied my Windows Server 2003 R2 CD to my computer and slipstreamed in all the SCSI/RAID/SATA drivers.
+After that I loaded up the TSRh Team's release of "Passware Kit Enterprise" to create a "WindowsKey.iso" using the slipstreamed 2003 Server R2.
+
+The result is a Password reset disk that will work on Workstation OSes: Win7/Vista/XP and Server OSes: 2008/2003/2000/NT4 for local and domain user accounts on Fat/Fat32/NTFS partitions on almost ANY Mass Storage Device!
+
+This iso has support for all standard Mass Storage supported by Windows and has almost 700 ADDITIONAL SCSI/RAID/SATA Drivers to ensure this disk will work on 99.9% of the systems you try to use it on including the most robust enterprise grade servers!
+
+All credit for the cracked version of Passware's software itself goes to TSRh Team.
+All credit for the consolidation of all of the drivers goes to DriverPacks.net and their people.
+I only take credit for coming up with the idea to put the two together and actually make it happen. :-)
+
+
+NO I.T. PERSON SHOULD BE WITHOUT THIS!!!
+
+
+
+
+----------------------------------------------------
+HOW TO USE
+----------------------------------------------------
+First burn the ISO file to a CD (I recommend you do it at the slowest speed you can).
+Next, just put the CD in a Laptop/Workstation/Server you need to reset a password on and boot up from the CD.
+Onscreen instructions will wall you through everything.
+
+
+NOTE: If you boot to this disc and cannot see your windows partition you may have a mass storage device in the 0.1% that is not covered by this disc. If this is the case you can press "F6" during the blue eindows setup screen to load your own 3rd party SCSI/RAID driver.
+

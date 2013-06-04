@@ -1,0 +1,73 @@
+Screenshot on 
+http://www.ikiclassifieds.com/cap9.jpg
+
+Turn key classifieds solution.
+
+Easy to install, highly configurable.
+
+Unlimited categories and subcategories.
+
+Unlimited Photos and Videos.
+
+Google Maps integrated.
+
+Google Adsense / Paypal ready.
+
+Advanced Search Engine, RSS feeds...
+
+
+Demo On
+http://www.ikiclassifieds.com/features.html#Multi
+
+Install Note Inside Original Folder size 5mb winzip to around 2mb...
+
+Enjoy..		
+
+
+
+
+
+Step 1)
+Unzip the installer.
+
+Step 2)
+Create a new database for ikiClassifieds on your web server.
+
+Step 3)
+Open iconfig.php in your favorite text editor and fill in your database details.
+
+Step 4)
+Place the ikiClassifieds files in the desired location on your web server:
+- If you want to integrate ikiClassifieds into the root of your domain (e.g. http://www.itechjunky.com/),
+ move or upload all contents of the unzipped ikiClassifieds directory (but excluding the directory itself)
+ into the root directory of your web server.
+- If you want to have your ikiClassifieds installation in its own subdirectory on your web site
+(e.g. http://example.com/blog/), rename the directory ikiclassifieds to the name you'd like the subdirectory to have
+ and move or upload it to your web server. Then please update .htaccess and /admin/.htaccess as follow:
+In .htaccess file, change from "RewriteBase /" to "RewriteBase /your_subfolder/"
+In /admin/.htaccess file, change from "RewriteBase /admin" to "RewriteBase /your_subfolder/admin"
+
+Step 5)
+Change the following folders chmod mode to 777 so that they are writeable.
+a) templates_c
+b) images_upload
+c) logs
+d) /admin/templates_c
+e) /admin/tmp
+f) /admin/images_upload
+
+Step 6)
+For proper operation of the script, output buffering must be enabled.
+- Go to your Cpanel and turn "output_buffering" On.
+The procedure depends on your Cpanel. For instance with Hostgator Cpanels: click the "Php.ini Quickconfig" link. Next to "output_buffering" select "On". Some Cpanels don't have the "Php.ini Quickconfig" link. In this case you need to click a "PHP Config" icon and then a button to Install php.ini Master file. Then open php.ini file at the root of your server and turn "output_buffering" On.
+- If you don't have Cpanel, check php.ini file at the root of your server. Turn "output_buffering" On.
+- If you can't find php.ini, please contact your Host to request to turn "output_buffering" On.
+
+Step 7)
+Open the following link on browser to start install:
+http://www.yourdomain.com/admin/install
+
+If you are installing under subfolder:
+http://www.yourdomain.com/subfolder/admin/install and follow the on screen instructions.
+
+That's it! ikiCLassifieds should now be installed.

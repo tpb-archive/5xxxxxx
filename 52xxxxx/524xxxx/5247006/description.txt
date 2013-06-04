@@ -1,0 +1,49 @@
+Hidden and Dangerous 2 for Mac - By Fresch 3000.
+
+Those stuck at 99,8% with the previous Torrent, can continue with this one.
+
+
+Hidden & Dangerous 2 is a tactical shooter computer game developed by Illusion Softworks.
+
+
+The player controls a four-man British Special Air Service (SAS) team during World War II, conducting a wide variety of operations behind enemy lines. The game is set in a number of World War II battle theaters, from Burma to Norway.
+The game centers around realistic gameplay and immersive environments. Weapon and vehicle physics are detailed. For example, bullets can penetrate wooden doors and other objects.
+
+
+__________________________
+
+
+Before starting the game, the screen resolution must be changed in the game to match your screen.
+
+To do that, right click on the game icon and click on "Show Package Content".
+
+Launch "ScreenOptions", select "Fullscreen" and choose your resolution.
+DONT choose widescreen resolutions, as the game doesn't support it. 
+This will make the game cherish.
+
+Just choose the 4:3 resolution closest to your resolution.
+Example. Are you running a screen resolution of 1920x1200, choose 1600x1200, in "ScreenOptions".
+
+Close "ScreenOptions", and navigate to "Contents".
+Open "Info.plist", in Property List Editor (Xcode Dev. Tools), or in your favorite Text Editor.
+
+Find the Line: "/Program Files/Illusion Softworks/HiddenDangerous 2/hd2.exe"
+and change it to: "/Program Files/Illusion Softworks/HiddenDangerous 2/setup.exe"
+
+Run the game, and a configuration too will launch.
+Choose the same resolution here, as in ScreenOptions (Example. 1600x1200); and setup your graphics options.
+
+Click "Save and Exit"
+
+Now you need to change the "info.plist" back to how it was before.
+To do that, right click on the game icon and click on "Show Package Content".
+Navigate to "Contents", and open info.plist, like above.
+
+Change the line: "/Program Files/Illusion Softworks/HiddenDangerous 2/setup.exe"
+back into: "/Program Files/Illusion Softworks/HiddenDangerous 2/hd2.exe"
+
+Save the file, and Launch the game.
+Hopefully everything should work :)
+______________________
+
+Enjoy!

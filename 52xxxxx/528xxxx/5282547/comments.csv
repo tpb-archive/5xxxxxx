@@ -1,0 +1,12 @@
+User Type,Username,Date,Text
+,marshwash,2010-01-16T02:23Z,"Thanks. I'm trying to do a study on the potential malware holes in bittorrents, as well as developing a model for the bittorrent protocol. Grad school stuff. I've been a good downloader and seeder, but uploading and protecting are new to me. "
+,twistles,2010-01-16T02:52Z,"While at it, perhaps I could add a couple of points to the advice from Ant above?
+
+a) For privacy/safety, you will generally be better off with a full VPN service (*coupled with robust firewall rules*) rather than a Socks proxy.  eg Anonine, SwissVPN, etc.
+
+b) The file in this torrent is called ""1-19 Organ Fugue In G Minor.m4a"" ~ Buxtehude? Bach? Lemare? :) I notice in your two previous tests, you include the composer, but its a very good idea to be 100% consistent, and as full as practical, in your naming conventions (if people have to rename downloaded files themsleves, they are unlikely to keep seeding afterwards as it needs some fiddling to point their client to the now-renamed files).  
+
+c) Avoid special charaters such as _ (use a space), : (use -),  & (use +), # etc in your file and torrent names : some indexers that take RSS feeds from TPB don't like them at all, and certain characters are also not permitted in Windows filenames.
+
+d) While you might give the info in individual torrent descriptions, M4A is a nasty format for torrent uploads (its a container, rather than a data format, and people dont know what they are getting if your description gets separated from the torrent file off-site - lossy or lossless?).  Stick with FLAC and MP3 / OGG (Vorbis), and let people do their own transcoding for their ipods, imo.  You will certainly have a larger audience if you use well-known filetypes, and that means better-seeded torrents :)"
+,twistles,2010-01-16T02:53Z,ah cross-posted :)  Ignore my blurb above.  Good luck on your research!

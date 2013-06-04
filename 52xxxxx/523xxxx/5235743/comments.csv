@@ -1,0 +1,131 @@
+User Type,Username,Date,Text
+,fresch3000,2009-12-22T22:57Z,"For those of you, using Transmission, open the torrent, click ""Verify Data"", and wait for the percentage to reach 100% :)"
+,fraguplenty,2009-12-23T04:41Z,"hey man thanks for this I was one of the few who likes daikatana but theres a problem I am working with fixing when I go to launch the game I get an error saying an error occured while initializing the opengl driver. At first I thought it might be me so I launched some of the other opengl games on my system and some of the other ports and they all worked. Ill work on trying to figure out what the problem is but just wanted to tell you what was going on with me incase you allready have a solution.
+
+My system specs are
+2.16ghz intel core 2 duo
+2gb DDR Ram
+geforce 7300gt
+OS X 10.5.8"
+,rusty-koathanger,2009-12-23T08:17Z,"precisely my problem too
+
+2.4ghz intel core 2 duo
+2gb DDR Ram
+ATI,RadeonHD2600  (256 mb)
+OS X 10.5.6
+"
+,ras_yo,2009-12-23T12:08Z,"Hi Fresch, 
+At least I see you tried a third time. Lets see if it works ... ;o)"
+,fresch3000,2009-12-23T12:09Z,"Ill look into it, and get back to you :)
+Does anyone have success with it?"
+,ras_yo,2009-12-23T12:25Z,"Hi man, It took just a few minutes to complete the file. But I have the same Problem, Frago* and rusty* have with 2,8singleQuad, 12GBRAM, 2xATI Radeon 2600XT, OS10.5.8. The same with 10.6
+I  changed resolution, but it seems the problem is somewhere else to find. It shows the same problem at any resolution. 
+Hope anybody can handle this
+"
+,fresch3000,2009-12-23T13:40Z,"Ras_yo.
+
+How did you change the resolution?
+Were you able to launch the game, and see the main menu?"
+,fresch3000,2009-12-23T13:44Z,"also, can you post a screenshot at the error?"
+,fresch3000,2009-12-23T13:55Z,"First of all, i have to ensure that the problem is not the EXE file.
+
+Rightclick on the Daikatana icon:
+
+click Show Package Content.
+Navigate to: Contents -> Resources -> transgaming -> c_drive -> Daikatana
+
+Rename ""Daikatana.exe"", to something else (like BackupDaikatana.exe), and rename the file ""Daikatana-kopi.exe"", to ""Daikatana.exe""
+
+Daikatana-kopi.exe, is the original unmodified exe for the game.
+
+If that doesnt work, we at least know that its not the exe, which causes the problem."
+,ras_yo,2009-12-23T17:12Z,"Hi fresch, 
+O changed the resolution with the hexeditor 'hexedit' , like you write in the description. No launching, no main-menu. Just the error-message: ""An error occured while initializing the opengl driver"".
+I also renamed the daikatana.exe and dikatana-kopi.exe
+It gives me the same message. :( "
+,ras_yo,2009-12-23T17:23Z,"fresch 
+When i press  cmd+opt+esc  it shows the active tasks, but the icon of daikatana is named/writen/called(I dont know the correct word, but i hope you understand): 'borderlands' 
+Is this like it should be?"
+,fresch3000,2009-12-23T19:38Z,"Okay. It is definatly not the exe then. 
+The borderlands name, is normal, since the wrapper i used to port the game was the one from the game ""Borderlands"".
+
+Im currently downloadig the torrent on a fresh mac Pro, so i Can identify the problem, but im off to Christmas vacation now.. But ill be back in 5 days, and fix the problem then. But thank you All very much for your patience, and merry Christmas to you All :)"
+,fresch3000,2009-12-24T13:55Z,"FIXED THE OPEN GL PROBLEM!
+
+1. Download this Zip (daikatanafix.zip), 3mb.
+
+LINK: http://www.meny-graphics.dk/DaikatanaFix.zip
+
+2. Unpack the Zip.
+3. copy and overwrite the files from DaikatanaFix.zip, into the Folder Daikatana (Rightclick on the Daikatana icon, click Show Package Content.
+Navigate to: Contents -> Resources -> transgaming -> c_drive -> Daikatana)
+
+4. Launch the game! :)"
+,ras_yo,2009-12-24T14:27Z,"hi fresch 
+you made my day dude  ;o)
+
+It works like a charm with the DaikatanaFix. 
+a big THANKS for all the work you have done for us. you did a really good job. 
+merry X-mas. 
+
+"
+,rusty-koathanger,2009-12-24T15:30Z,me too! thanks for all your work fresch3000. hope we didn't put too much of a dent in your holidays. cheers! 
+,wiiS360,2009-12-25T00:03Z,Thanks Fresh3000. The game works but i'm having trouble with changing the resolution. i never used Hex Edit before. I cant find #s 00800700 or 00B00400 in line 739424. think you can help me out?
+,fresch3000,2009-12-25T00:46Z,"Thank you all very much :)
+Im happy that you got the game to work..
+
+I just came home from christmas eve, and was very happy to see the positive comments from you all :)
+
+MERRY CHRISTMAS!"
+,fresch3000,2009-12-25T00:55Z,"wiis360:
+
+Have you tried searching for the line ""1920"", with HexFiend? Remeber du mark the radiobutton ""ASCII"", next to the line ""Find""
+
+you can find hexfiend here:
+
+http://ridiculousfish.com/hexfiend/
+
+In HexFiend, you are shown ASCII text on the right side, and HEX data on the left.
+
+The numbers, are usually in the closest lines to the left, from the ASCII data called ""Mode 9: 1920"".
+
+Here is a Screenshot of the Line.
+I hope that helps :)
+
+http://peecee.dk/uploads/122009/DaikatanaHex_big_thumb.png"
+,wiiS360,2009-12-25T01:13Z,thanks Fresch! it works! merry Christmas
+,fresch3000,2009-12-25T01:22Z,"Great :)
+And merry christmas to you!"
+,BBQbullet,2009-12-25T02:13Z,hey Fresch. hate to bother you but i got a problem with the mouse. i touch it and the game points straight up. any ideas?
+,fraguplenty,2009-12-25T08:42Z,omg thank you so much that fix worked the last mac port I played of daikatana was crap but this one is excellent. Great job man
+,ras_yo,2009-12-25T12:04Z,"Hi together, 
+I changed resolution with the menu. It works without any Problem. It works fine if you change the resolution via hexfiendr, but I think on some sytems you can do it via the menu. Its worth a try. If it doesnt work you still can do it with the hexfiend."
+,fresch3000,2009-12-25T12:34Z,"Hi Ras :)
+
+you can change the Resolution in the menu on all systems.
+
+The only difference between doing that, and by hex, is that you can use widescreen resolutions in the Hexeditor.
+
+Through the Menu , only 4:3 resolutions are availble, to if you arent using a widescreen monitor, you can use the game menu to change resolution :)
+
+Hope that helped!"
+,fresch3000,2009-12-25T12:37Z,"You CAN hardcode all 4:3, and widescreen reslutions into the EXE, and i indeed tried that, eleminating the need for the hexeditor, but it was too much for the EXE, since the game wouldnt boot after i made the changes.
+
+But ill play with it later :) Hopefully ill release a patch, where all 4:3, and widescreen resolutions are available from the ingame Menu :)
+
+BBQbullet -
+I have never heard of your problem, sorry.
+Are you sure you are not running the game in window mode, or that other apps are conflicting with the game?"
+,ras_yo,2009-12-27T21:03Z,"@BBQbullet:
+restart your Finder:
+opt+cmd+esc
+select 'Finder'
+click on 'Restart'
+
+Hope this will solve your Problem"
+,karmakov,2010-01-13T06:04Z,"Thank you so much for all the work.
+
+I am hoping that you can add the values to enter in order to set the res to 1024 X 600... I have no idea how to do the translation myself.
+
+I intend to run it on an eee 901 with 10.5.8 and I'll post back how it goes."
+,poochyfud,2011-04-12T20:19Z,No seeds for months... any way we can get another reseed?

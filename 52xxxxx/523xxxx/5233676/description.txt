@@ -1,0 +1,67 @@
+This program is developed as an easy-to-use, small, but powerful converter. It features a wide variety of tools, including text based conversions from and to binary, ASCII and hex, text hashing and cryptography.
+
+---
+
+
+
+
+Version 1.0.6 release notes:
+
+Today, may 20th 2009, the new version of BN+ Converter Pro was released. It features a load of new functionality and a few bug fixes. The menu also had an overhaul and should now be more clear for less experienced users. Here you have a list of both the new features in this version and the bugs fixed.
+
+New features
+* Multi language functionality: You can now view the main interface in both English, Dutch, German and leet. The application will automatically detect your computer language and use it at start-up. You can disable the auto detect option via the options menu, and then choose the start-up language.
+* Advanced cryptography options: Via the options menu you can change the DES and TrippleDES keys and initialization vectors, and configure the AES (Rijndael) salt, password phrase, initialization vector and iterations.
+* An automated update platform: The application will automatically check for updates when an internet connection is present. When there is an update, the application will show you some information about it and provide you with the option to download and install it. You can also manually check for updates via menu -> Help -> Check for updates.
+* Bug report creator: When you find a bug (typo, wrong behaviour, application crash, ect...), you can now easily report it via the build in bug report creator. You can find it in the menu, under Help: Report a bug...
+* Password protection: This feature enables you to protect the application, and the settings (like RSA keys) stored in it, from other people. You can turn it on via the options, in the section utilities.
+
+Fixed bugs
+* Hashing of an empty string (This caused the application to crash in v1.0.4, and was therefore disabled in v1.0.5, but now fixed and re-enabled)
+* Auto saving of text (Even when enabled in the options, this would not be done in the previous version)
+
+Further development
+These are features that are on the roadmap for future versions of BN+ Converter Pro. Every feature might or might not be implemented, varying on the demand.
+* Create a plug-in system for BN+ Brute Force Hash Attacker and other relevant applications
+* Add build-in help contents
+* Recode the codec system to work text file based (so users can create their own codec's and share them)
+* Redesign the options menu and add live validation to it 
+
+---
+
+
+
+Release date: 2009-05-20
+Known issues:
+* Setting invalid data in the cryptography options can cause the application to malfunction or to crash
+
+Program version: 1.0.6
+Front end language: English
+System requirements: Win 2000 + .Net Framework 2.0, Win Xp + .Net Framework 2.0, Win Vista
+
+Developer: Jeroen De Dauw aka De Dauw Jeroen aka [RTS]BN+VS*
+Written in: Visual Basic.Net and Visual C#.Net, using Visual Studio 2005 and Visual Studio 2008
+Based upon: BN+ Framework 2.0.3.x
+
+---
+
+
+
+
+This torrent contains 3 directories, each containing BN+ Converter Pro 1.0.6, but in a different format.
+* Direct run: The exe file and required dll's, you can directly run the exe.
+* Setup: Windows installer file, when run it will provide you with the ability to choose the place of installation and create a shortcut on your desktop.
+* U3: Installation file for U3's. Visit www.u3.com for more information.
+
+For more information about BN+ Converter Pro, check out the following resources:
+* Official site: http://www.binary-converter.com
+* Manual: http://code.bn2vs.com/viewtopic.php?t=65
+* Release notes: http://code.bn2vs.com/viewtopic.php?p=500#500
+* Blog posts: http://blog.bn2vs.com/tag/binary-converter
+* Dutch support: http://www.helpmij.nl/forum/showthread.php?t=363153
+
+---
+
+
+
+Keywords: Binary, Text, ASCII, conversion, decryption, encryption, Hex, MD5, SHA1, SHA2, SHA256, SHA384, SHA512,  crypt, codec, converter, encrypter, decrypter, Binary translator, Binary converter, Binary encrypter, Binary decrypter, Hex converter, MD5 converter, SHA1 converter, ASCII converter, codec converter, BN Converter, BN converter pro, pro converter, instant decryption, instant decryption, Binary to text, text to Binary, DES, AES, RSA, base64, public key encryption, obfuscation, block ciphers, rijndael, trippleDES.

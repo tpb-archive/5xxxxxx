@@ -1,0 +1,142 @@
+User Type,Username,Date,Text
+,nasius,2009-12-09T15:18Z,Seed please. Everyone is stuck at 86.5% :(
+[T],ctang,2009-12-09T16:39Z,still seeding...sorry for the slow up speed...i dont know why it wont upload faster
+,jrpp207,2009-12-09T18:01Z,"Im lost in step 2... idk what to do....i downloaded the game from this torrent  
+
+http://thepiratebay.org/torrent/5161584/modern_warfare_2
+
+so...what file should i put on ""Program Files"" folder?"
+,nasius,2009-12-09T18:18Z,"This wrapper does start the game. However in my case I end up with completely distorted graphics. Intro part is ok, but the actual graphics is totally messed up. It's same wether lowest graphics settings are set or moderate or highest.
+Screenshots:
+http://img20.imageshack.us/img20/565/screenshot20091209at711.png
+http://img130.imageshack.us/img130/565/screenshot20091209at711.png
+
+Mac Pro Quad-Core Intel Xeon
+ATI Radeon HD 4870"
+,jrpp207,2009-12-09T18:21Z,"""nasius""
+
+what did u do in step 2?? im lost in that part"
+,nasius,2009-12-09T18:45Z,I copied game files from CoD pack for Nvidia. Moved everything from Program Files/Activision into same directory in a wrapper from this pack.
+,jrpp207,2009-12-09T18:53Z,"sorry but what do u mean with ""game files from Cod for Nvidia"" ... sorry could u be more specific ...I Really need ur help "
+,mnstrptrl,2009-12-09T19:02Z,"It's not letting me modify the wrapper, so even if I was sure what I had to do in step 2, I couldn't."
+,jrpp207,2009-12-09T19:05Z,"""mnstrptrl""
+
+
+Are u trying to modify it without copying it to ur hard drive?"
+,jrpp207,2009-12-09T19:06Z,HELP! with step 2! plz!!!1
+,zzanko,2009-12-09T19:32Z,"Same as nasius, intro is fine but graphics are partly invisible. iMac 2,4 GHz, ATI Radeon HD 2400"
+,jrpp207,2009-12-09T19:45Z,"""zzanko""
+
+What did u do?? im trying to do step 2 but i cant...i dontknow really what i have to do...can u explain me?"
+,jrpp207,2009-12-09T19:52Z,Help with step 2... i really dont know what i have to do... I have Nvidia Graphic card.. stuck in step 2!
+,zzanko,2009-12-09T19:56Z,jrpp207 just copy activision folder from game to wrapper: contents/resources/transgaming/c_drive/Program files or Programme
+[T],ctang,2009-12-09T20:05Z,"@zzanko
+
+actually you need to put it in:
+Contents/SharedSupport/CrossOverGames/support/default/drive_c/Program Files/"
+,BW31,2009-12-09T20:12Z,"Ok everything is working fine, except for some ""DirectX errors"" that make the game quit. So far, mission 2 and 5 aren't playable. But jeez, the other one ROCK
+If you're stuck because of these error just select the next mission
+
+Step 2 :
+The .rar contains a ""Modern Warfare 2 CXZ Black Diamond Wrapper.dmg.zip""
+Unzip it, mount the disc image.
+In this disc image, you have the wrapper and the ""extra"" file that will help you for the further steps ( or not )
+
+Take the files from your original game contents to the wrapper ( as it said in the help )
+
+ctang, you're my hero "
+,zzanko,2009-12-09T20:13Z,"ctang yes that's the path to copy activision folder, but as i said graphics are mostly invisible, but if you turn mouse right or left you can get better view, just for a second"
+,BW31,2009-12-09T20:26Z,"Huh ... There's actually a lot of fucked up missions because of the ""DirectX errors""
+If someone could find any fix about that... I'd build a temple for him"
+,BW31,2009-12-09T20:27Z,Btw : ATI Radeon HD 2400 Mac OS X 10.5.6
+,zzanko,2009-12-09T20:36Z,"BW31 same as my iMac, but i'm on 10.6.2... but i can't play anything because graphics sucks"
+,stueee123,2009-12-09T21:16Z,graphics are all weird for me too. wat can i do???
+,jrpp207,2009-12-09T21:19Z,BUT what files should i put in the wrapper?? form the originla game...the contents carpet? or whats inside of the contents carpet?
+,jrpp207,2009-12-09T21:21Z,just for the record... i have Nvidia graphic card
+,paperboat,2009-12-10T00:50Z,Can't load any maps due to DirecX error. I followed all the instructions using ATI Radeon HD2400
+,awmt102,2009-12-10T02:10Z,"I have a copy of the PC COD MW2 DVD and have installed into crossover, but there is no Activision\Modern Warfare2\ folder. Can anyone tell me where to find the game files?"
+,kubasuchy,2009-12-10T09:44Z,"aye, it's working but the graphics make the game inplayable. :("
+,BW31,2009-12-10T17:40Z,"@jrpp207
+
+You have to put the files from the original ""Modern Warfare 2"" ( which are in ""content"" ) inside the ""Modern Warfare 2"" in the wrapper's ""content""
+
+@paperboat
+
+You should be able to load at least the first map and some other ones ( The one in the favelas for example ).
+
+For those who are having graphic issues. Have you replaced the .reg files ?"
+,BW31,2009-12-10T18:47Z,"I downloaded the game from the torrent in this list and I'm encountering problems with DirectX. But the game still works, at least for some missions...
+
+Maybe our Cider Heroes will upload a fully fonctional wrapper and game as a Christmas gift =D ?"
+,zzanko,2009-12-10T19:01Z,"For now it's better to play PC game on Parallels, try SKIDROW realese on win XP, it works, not perfect, in 800X500 resolution"
+,BW31,2009-12-10T19:36Z,Huh ... Any link ?
+,paperboat,2009-12-10T23:15Z,"Nope, I're tried all the levels. Using SKIDROW and the ATi fixes."
+,stueee123,2009-12-11T01:22Z,"graphics are still weird, i def did all the steps. i need help!"
+,LakeOfSorrow,2009-12-12T01:08Z,Totally useless... Do not download!
+,MPFO,2009-12-12T04:17Z,"Played all the levels, working perfectly"
+,BoneCrush3r,2009-12-12T12:15Z,"does this work for intel core duo? i have ATI graphic 2600
+
+does this work for me?"
+,BW31,2009-12-12T12:39Z,"@MPFO
+
+Did you have any DirectX error ?
+What kind of graphic card have you ?"
+,mnstrptrl,2009-12-12T16:46Z,"I'm damn close, but the game had to quit before it reached the first loading screen, and now it quits unexpectedly before starting up.  I've successfully completed all the steps, and am not sure what to do."
+,LakeOfSorrow,2009-12-12T17:04Z,"I'm using the mac version uploaded by bigdaddyrob2g. Is that ok? Because I followed every step and it doesn't even start at all (before doing anything, if I click the wrapper at least it opened and icon sticked to dock for a few seconds before closing). Mac OS 10.5.8 in a Intel Core Duo 2,66Ghz, 2Gb RAM, ATI Radeon HD 2600 Pro."
+,mnstrptrl,2009-12-12T20:04Z,"I played through the first level, and it looks amazing, no graphics problems here.  However, some sort of DirectX error prevents me from playing past that."
+,Tazay,2009-12-13T08:01Z,"I spent 3 weeks downloading the first MAC OSX cider to find it doesnt work, now I have to download this? Wow. Why not just upload it all at once as one file, then no one will mess up the steps."
+,Tazay,2009-12-13T08:21Z,How do I get this on the Bigdaddyrob version?
+,Tomliem,2009-12-14T14:09Z,can someone please tell me what to do in step 2?? and has anyone got it working with the propper graphics? i got the newest imac 3 ghz nvidea 9400
+,Tomliem,2009-12-14T15:40Z,got it to work once but with dogiie graphics... its not starting up anymore.. @ BW31 what .reg files do you need to replace and whit what thanks!!
+,Tomliem,2009-12-14T18:47Z,ok all works except for the graphics accelaration it's just not using the 3d engine of my nvidea 9400! this way the game looks crap and not fun to play!! anyone thinks there is going to be a solution?? thanks anyway for the effort!
+,BoneCrush3r,2009-12-14T18:58Z,"it works, but it doesnt work how i want it to work...its slow the graphic isnt nice...its not fun to play this game like that...sometimes the game ends because of an ''Wine'' error or something like that...this shit realy makes me mad...I saw it working really thought yeaah haleluja! but it works like shit...can somebody make it better?"
+,broisou3,2009-12-15T12:55Z,"hi everybody , i downloaded the .rar and when i start the game i heard the activision's song but i have a black screen . I downloaded the codecs for my ati graphic card but it still not work help me plzzzz"
+,BoneCrush3r,2009-12-15T15:40Z,broisou u need to do the steps raight...but i dont believe it will work to you either...it works but it isnt nice to play...
+,mnstrptrl,2009-12-15T21:22Z,Anyone have a fix for the DirectX errors that prevent me from playing any level other than the very first one?
+[T],ctang,2009-12-15T23:23Z,"im looking into the dirtctx error that a lot of people are getting...will post back when i find something out
+
+ctang"
+,mnstrptrl,2009-12-16T02:48Z,"Thanks, ctang. I really appreciate all your hard work on this."
+,adidassj,2009-12-16T08:28Z,"anyone else getting this error upon application launch?
+
+""Error during initialization:
+Video card or driver doesn't support vertex shader 3.0 or better.""
+
+I'm running it on a macbook pro intel core duo, 2.16ghz, 2gb ram and ati radeonx1600 video card.
+
+Figured i can bypass this by changing the game settings, yet i'm unable to get to the game itself. Only startup image displays until error message appears."
+,Tomliem,2009-12-16T11:04Z,"@ctang can you also look into the graphics? or is that something that can't be fixt? it seems like i can't use the game 3d engine... no texture details etc.. installed the wrapper etc but still nothing.. can only play in ""normal"" mode.. thanks anyway"
+,BW31,2009-12-16T14:23Z,"Thanks Ctang ! Thanks a LOT ! Btw, updating DirectX to its last version doesn't change anything"
+[T],ctang,2009-12-16T17:27Z,"@Tomliem
+im am almost positive that 3d mode cannot be used...sorry...when i find a wrapper that has 3dmode enabled i will post it on here
+
+ctang"
+,BoneCrush3r,2009-12-16T18:31Z,ctang...sry that im waisting ur time no but i got an other problem now...when i launch the game...everything come good...till i start a mission...it comes always call of duty modern warfare has an aerror bla bla...it says an error with ''Wine'' then it says an adress wine.org...what the heck is that? i cant play it now because of that shit
+[T],ctang,2009-12-17T03:29Z,"@bonecrus3er
+I have no idea what that is.  Im sorry.  I emailed the developer of this yesterday about the directx issue and haven't received an email back yet.  Everyone keep your fingers crossed.
+
+ctang"
+,salfanar,2009-12-26T20:39Z,"hey
+any1 else getting this graphical error? where all the textures (and other stuff) are everywhere except for the place where they're supposed to be. e.g. i launch the first spec.op. mission. it loads, shows a few pics, all looks good. then it comes to the 1. person view. everything is brown. u can see a few lines which are porbably supposed to be the airport, but i dont know exactly.
+help, pls"
+,warrior1232l,2009-12-29T14:54Z,"I am using WINE. When I try to drop the ""Activision"" folder into ""Program files"", an error comes up saying: Program files cannot be modifies.
+
+Permissions issue?
+help"
+,warrior1232l,2009-12-29T16:09Z,new problem: the screen is upside down! THERE  are no options to change graphics or video mode in the game.. sucks :-(
+,poweramiga,2010-01-06T11:40Z,"also having gfx problems totally unplayable on my 2009 Mac Pro 2.66ghz quad core 12 gig ram radeon HD4870/512m 
+someone please get this working so looking forwards to playing it on osx "
+,thenetkid,2010-01-14T16:31Z,i get the same issue as adidassj as im unable to play or even start it... =.=
+,scifygreg,2010-02-08T07:03Z,"@all of the dumbfucks complaining about the graphics problem
+           its not something wrong with the program, its the fact that your computer is too shitty to run the program, it doesnt matter how ""amazing"" your processor is, it all depends on your GRAPHICS CARD (you know, that thing you plug the monitor into)"
+,eclair4151,2010-02-28T13:37Z,wtf. why are there only 2 seeders.
+,gi4mi,2010-03-02T05:35Z,"The game runs fine except when I aim everything becomes white, and when I'm online i get the error IWNET_INVALIDVERSION, in order to play i must deactivate the airport; not nice if your downloading stuff, how do i fix these problems? "
+,notas,2010-03-22T04:28Z,same problem as adidassj and thenetkid on the same machine... all it seems we need is a way to init w/out shaders
+,notas,2010-03-22T04:31Z,"nm, guess the cards too suck"
+,imnoobish,2010-04-10T03:10Z,wat does the wrapper do?
+,koitere,2010-06-15T22:52Z,"What should i do when the game says ""DirectX error"" and it shuts down?"
+,Alfy94,2010-10-19T13:13Z,Can someone please seed =[
+,sawjonathan1,2011-02-19T19:53Z,"wait a minute. if i download alteriwnet and put it in this wrapper will it work?
+pls answer me.
+thanks,"
+,Messi_1995,2011-08-12T23:36Z,SSEEEEEEDDDDD THIS SHIITTTT PLSSSSSS....

@@ -1,0 +1,68 @@
+Honda_Europe_EPC_v15.00_(12.2008)_2.3_GB_Win32bit.iso 
+by www.spoonertuner.com 
+
+1. Contents in English 
+2. Contenu en FranÃ§ais 
+3. Inhalt in Deutsch 
+4. Indice en Castellano 
+5. Inhoud in Nederlands 
+6. Indice in Italiano 
+7. ConteÃºdo em PortuguÃªs 
+8. INNEHÃ…LL PÃ… SVENSKA 
+
+1. CONTENTS IN ENGLISH 
+====================== 
+
+FILE : README.TXT 
+APPLICATION : EPC Electronic Parts Catalogue for Honda Cars 
+VERSION : 15.00 
+LAST UPDATE : 12-11-2008 
+
+This readme file contains last minute information on EPC 
+
+1.1 Installing / Uninstalling EPC version 15.00 
+============================================== 
+
+To install EPC version 15.00 : 
+----------------------------- 
+Run SETUP.EXE from the root of your CD-rom drive. 
+(see CD-cover for step-by-step instructions) 
+
+To uninstall EPC : 
+------------------ 
+Select 'Add/Remove Programs' in the Windows 
+control panel. Select 'Electronic Parts Catalogue' 
+and click on 'Add/Remove..'. 
+
+1.2 Improvements/New Functionality as from version 15.00 
+======================================================= 
+
+1. EPC Version 15.00 contains information for modelyears 
+1982 till 2008. 
+
+1.3 Important Notes 
+=================== 
+
+1. Due to VIN changes (concerning 0 and W Year 
+Indication), sometimes you will not be able to 
+select parts when using Model or Part. You will then 
+receive the following message : 
+
+"It is impossible to select parts via Model or Part 
+for the selected car ! Use VIN to select the 
+correct parts !" 
+
+Example : 
+
+Accord 4 doors 1996 1.8I 5MT KE 
+
+VIN VIN Ranges 
+--- ---------- 
+SHHCE7540 0 U 0U000001 - 0U026609 
+SHHCE7540 W U WU026610 - WU099999 
+
+Since these are two different Modeltypes, EPC is 
+unable to know the correct Modeltype without 
+knowing the VIN.
+
+EPC, Electronic, Parts, Catalogue, Honda, Cars, Europe, 15.00, (12.2008), 2.3GB, Win, 32bit

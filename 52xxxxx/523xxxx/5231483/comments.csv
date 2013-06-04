@@ -1,0 +1,13 @@
+User Type,Username,Date,Text
+,trifreddy,2009-12-21T00:01Z,Thx again!!!
+,eirikmysen,2009-12-22T14:27Z,Hey. I cannot use those files in Vegas. Do you know why?
+,BasilBrush,2009-12-22T16:36Z,"> Vegas
+I've not had much experience with Sony Vegas. You should be able to break open the MP4 container using Yamb/MP4box to create the raw .264 and .aac files. I don't think the raw .264 will play - you have to mux it into a container to play it. You could transcode the .aac using the new Audacity to ac3 or mp3. You should be able to transcode the .264 to Xvid/avi using megui - obviously the quality goes down. You could remux the .264 and .aac into a MKV container using mkvtoolnix and then use the mkvmerge GUI tool to split the MKV (to remove adverts) and re-combine the parts into an advert free MKV version. In mkvtoolnix mkvmerge GUI check the tab marked ""Global"" and the tickbox marked ""Enable splitting"". You'll need to enter a list of cut points in the ""...after timecodes"" box in the format ""hh:mm:ss,hh:mm:ss...etc"" and enter the ""max. number of files"". When you ""Start muxing"" it'll split the file up into smaller MKV files. When recombining using the ""append"" option in the ""Input"" tab you just append the files with odd numbers - the MKV files with even number will be the adverts.
+
+I prefer the MKV container as the tools and subtitle support are much better but MP4 plays with Quicktime and a lot of people have MAC's."
+,BasilBrush,2009-12-22T16:46Z,"It's possible that Sony Vegas prefers constant bitrate video for its input like what you get from a DVD or a Transport Stream. Once you've split the .264 video from the mp4 container megui should be able to transcode to Xvid or to another 264 using a different frame size or lower bitrate.
+
+I'll try to dig out a copy of Sony Vegas and see what happens. If you give me more details of what you're trying to do then I'll know what to test."
+,BasilBrush,2009-12-27T09:03Z,I managed to break open the MP4 container using Yamb to create the .264 and .aac files. I used Audacity to trancode the .aac to .ac3. I used DGAVCIndexNV to create the .avs file and transcode the .264 to Xvid/avi using megui and finally muxed the video and audio. Is that what you're trying to do with Vegas ?
+,aviator_dude,2009-12-29T11:25Z,"No skiing video lately.  Currently suffering from withdrawal since we have no snow here currently.
+Need to watch video to get my kicks... lol :( "

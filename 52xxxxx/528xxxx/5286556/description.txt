@@ -1,0 +1,132 @@
+************************************TGCLEADER************************************
+
+
+MY NEW VERSION OF ROADMATE 2010 US & CAN V1.2 IS OUT NOW GET IT HERE NOW: 
+ 
+http://thepiratebay.org/torrent/5386880 
+
+
+ALSO INCLUDING A NEW AND EASIER WAY TO DO THE RESOLUTION FIX DIRECTLY ON YOUR IPHONE NO PC OR MAC NEEDED.
+
+
+************************Magellan Roadmate US & CANADA 1.10 IPA ******************* 
+
+For iPhone 3G and 3GS only. (not 2G) or iPod Touch Second Generation only. (not orignal iPod Touch)
+
+This includes all the files and tools to get Magellan Roadmate 1.10 to run correctly including: WinSCP, My Modified Info.plist so that you dont get the resolution error and how to stnc the Magellan Roadmate 1.10 app to your iPhone/iPod Touch without getting an error. Just follow the instructions below or the rar file inclused the same instructions.
+
+The RoadMate for iPhone application includes a number of new features in version 1.10. Most significant among them
+is compatibility with the second-generation iPod Touch. Also new is customizable speed warnings and 
+multi-destination routing, Find My Car in the OneTouch menu, a variety of UI enhancements, and more.
+
+To get what all of the new features are go to the app store and review the features on the Magellan app.
+
+
+
+
+***BEFORE CONTINUING YOU MUST HAVE A JAILBROKEN IPHONE OR IPOD TOUCH FOR IPOD TOUCH IT MUST BE SECOND GENERATION 
+AND FOR IPHONE USERS IT ONLY WORKS ON 3G AND 3GS NOT 2G***
+
+
+
+HOW TO ADD THE MAGELLAN APP TO YOUR IPHONE/IPOD TOUCH 
+
+(NOTE: IF YOU ALREAD HAVE YOUR PHONE PATCHED TO 
+ALLOW PIRATED APPS ON YOUR IPHONE/IPOD TOUCH YOU CAN SKIP TO STEP 12.) 
+
+ALSO IF YOU HAVE MAGELLAN INSTALLED ON 
+YOUR IPHONE/IPOD TOUCH AND YOU ARE GETTING A RESOLUTION ERROR YOU NEED TO FOLLOW INSTRUCTIONS BELOW AFTER STEP 14.
+
+1. Go to Cydia.
+
+2. Go to manage tab.
+
+3. Go to sources.
+
+4. Click on edit.
+
+5. Click on add.
+
+6. Type ''http://cydia.hackulo.us'' (without quotes) and click add source
+
+7. It will pop up a message saying that the app is know for copyright infringement but just click continue anyways.
+
+8.once the source has been added go to the search tab.
+
+9. Type in ''AppSync'' (without quotes)
+
+10. Install AppSync.
+
+11. Once installed reset your iPhone/ iPod Touch.
+
+12. Extract the folder Winrar to the destination you can easly find the fokder and once done go in to the folder.
+
+13. Open up iTunes and drag the Magellan Roadmate 1.10 app to the applications folder or if you dont have any app in ituse there 
+wont be an applications folder  so just drag ove the Magellan app. If you already have the previous version of
+Magellan in iTunes just drag it over and it will tell you that you already have the app and if you want to replace
+and just replace it.
+
+14. Plug in your iPhone/iPod Touch and sync it. If you have a previous version installed on your iphone/iPod Touch
+you still need to sync your device so that it can update to the newest version so that you have the latest
+features. 
+
+********************HOW TO FIX THE RESOLUTION ERROR FOR MAGELLAN SO THAT IT WORKS********************
+
+MAKE SURE YOUR IPHONE/IPOD TOUCH HAS OPENSSH. IF IT DOESNT GO TO CYDIA AND SEARCH FOR OPENSSH AND INSTALL IT. 
+ALSO MAKE SURE YOU HAVE A WIRELESS NETWORK YOU CAN CONNECT TO AND THAT YOUR IPHONE/IPOD TOUCH AND YOUR PC IS
+CONNECTED TO THE SAME WIRELESS NETWORK.
+
+
+1. Install WinSCP.
+
+2. On your iPhone/iPod Touch go to settings.
+
+3. Turn on Wifi.
+
+4, Connect to a wireless network thats available.
+
+5. Once connected click on the blue arrow icon next to the network your connected to.
+
+6. Keep now of the IP address your connected to.
+
+7. Run WinSCP.
+
+8, In the host name field put in the IP address your connect to.
+
+9. In the username field put in ''root''(without quotes).
+
+10. In the password field enter ''alpine'' (without quotes).
+
+NOTE: if its not connecting then at some point of having OpenSSH you have changed your username and password or
+your wifi network isnt connected to the internet.
+
+11. Go to the right side and click the drop down directory list and click /.
+
+12. Go to ''Private'' folder.
+
+13. ''Var'' folder.
+
+14. ''mobile'' folder.
+
+15. ''Applications '' folder.
+
+16. Now you need to find the Magellan app folder and since the folders are named letters and numbers it might be
+difficult to find it. So the easiest way to find it is at the top of the window click changed so that it organizes
+the folders by date and if your last app you added was the Magellan app then it will be the top folder.
+
+17. Now that you are in the folder you will see ''Roademate.app''folder click that and go into the folder.
+
+18. Now look for ''Info.plist'' select that and delete it.
+
+19. Now on the left window go to the directory of where you downloaded my torrent file and drag my modified 
+''Info.plist'' into the left window in the ''Roadmate/app'' folder/
+
+20. Thats It enjoy.
+
+
+If anyone wants to donate for my time and effort you can do so at my PayPal email at tgcleader@msn.com.
+
+Also I want to make a site but I only know the basics of html and php. I want to have a forum and chat so if someone wants to help me that would be great and ill make them staff. Thanks!!!!!!
+
+
+Please Seed!!!!!!

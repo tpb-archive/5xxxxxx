@@ -1,0 +1,25 @@
+info:
+ 
+http://www.withinwindows.com/2009/04/18/photo-sharing-feature-in-live-messenger-kill-it-dead/
+
+patched exe for WLM 14.0.8089.726
+
+for version number check:
+
+1) start WLM
+2) help
+3) about messenger
+4) version/build
+
+use only with the appropriate version. if your build differs, you may still try to use it, but
+that's discouraged, you should modify your exe yourself.
+
+install:
+
+1) go to
+  - x86: c:Program FilesWindows LiveMessenger
+  - x64: c:Program Files (x86)Windows LiveMessenger
+2) rename msnmsgr.exe to msnmsgr.exe.orig
+3) unzip msnmsgr.exe to here
+4) run WLM. when you drap & drop a picture in a conversation windows it should be sent as a
+   regular file, but others will still be able to share photos with you.

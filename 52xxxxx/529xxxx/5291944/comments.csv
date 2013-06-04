@@ -1,0 +1,230 @@
+User Type,Username,Date,Text
+,FluffyBeast,2010-01-20T20:49Z,Seeders needed :p already on 71% :p
+,grakal,2010-01-20T22:15Z,"torrent deleted from demonoid!!?
+and no seeders here too!!
+WTF!!??"
+,FluffyBeast,2010-01-20T23:42Z,"@grakal;
+what the fuck? are you serious ?
+so we can never finish this download ?"
+,grakal,2010-01-21T00:21Z,"i'm stuck at 71% like you,and yes the torrent have been delete from demonoid,i don't know why.
+maybe the seeder will comeback,maybe no :("
+[T],thenoobish,2010-01-21T17:06Z,"its not removed from demonoid, its still there."
+,SoundWaves,2010-01-21T20:19Z,"Will seed the shit out of this torrent for as long as i can, its my favorite game of all time and will help fellow AC fans with macs get what they deserve
+
+Thanks a Billion for this upload, really apprieciate that people take the time to make us Macster's get quality games!
+"
+,klugov,2010-01-23T11:17Z,"Hi, I downloaded it...it works!! everything goes smooth...but there is a graphix problem:
+
+the ground doesn't show, it's invisible. So whenever I play I can't really see where I'm going.lol"
+,klugov,2010-01-23T11:17Z,oh! and many thx!!!! really cool
+,FluffyBeast,2010-01-23T11:59Z,"well 
+i have to say you did a good job because it works
+the only thing i wanna do is warn people... with an iMac 21.5""
+INtel Core 2 Duo
+2.66Ghz
+2GB 1067 Mhz DDR3
+Nvidia GeForce 9400
+with 256 VRAM,  caus i have to play it on lowest graphiqs, caus other wise it laggs like hell... and with lowest graphqs, it stil sometimes laggs, and it looks shit then :p"
+,FluffyBeast,2010-01-23T14:48Z,is it possible to mak a port from Crysis for mac?
+,kimmo1599,2010-01-24T22:41Z,"Agree, Its quite laggy for macbooks,but thats the price you have to pay for great games:-P"
+,ohjim27,2010-01-25T16:27Z,"i'm having trouble running the game. i get to the point where i can click on a new game and it comes to an error message saying debug, when i hit yes to debug it shuts down but when i hit no, it just stays up at a white screen playing game music and i can't quit out of it. anyone able to help me?"
+,LeeS.,2010-01-26T00:26Z,"Same problem with the ground not showing up, but everything else works fine, thanks anyway though!"
+,trashyyx,2010-01-26T12:47Z,"same problem as ohjim27, meaning when clicking on new game, the game window is reduced to a grey screen, a ""debug? Y/N?"" kind of pops out, no has no effect and yes quits the game.
+
+I'm playing on a macbook intel core 2, with of course the lame GMA x3100 video chip... 
+anyone help??
+thxx "
+,salfanar,2010-01-26T16:19Z,"doesnt work with ati graphic cards. at least mine doesnt. looks a bit like cod4 mw2 port, just u can see poeple, but walls and the groundfloor is invisible"
+,Philemaster,2010-01-26T23:46Z,"I solved the problem with ATI Radeon HD 4850 (maybe works with other ATI cards). 
+Press left mouse button over Assassins Creed icon and select Show Content. Browse to Contents/Resources/Preferences/ and edit the config file.
+Go to the line 180 and change ""GLSL"" = ""M"" to ""GLSL"" = ""Y"". Save the changes and run the game.
+
+If you already run the game, maybe you have to change the config file in your user preferences... (~/Library/Preferences/AssassinsCreed v06.3305hy Preferences/Config)"
+,ohjim27,2010-01-27T04:13Z,"I have the same specs as trashyyx
+
+this is the ""exception raised"" notification i'm getting 
+""Unhandled page fault on read access to 0x00000000 at address 0x00000000.
+Do you wish to debug it?"""
+,PorromAtic,2010-01-27T14:22Z,"imac 27"" i5 and ati hd 4850 
+I can't see ground and people's face as others here reported
+
+Unfortunately its unplayable"
+,PyrotasticSpitfire,2010-01-29T20:12Z,"hey guys. Ive got a mid 2009 MB with 2.0ghz Core 2 Duo, 3 gigs DDR3 RAM, and the NVidia 9600 Card.
+The game seems to run fine, but the OSX pointer remains superimposed over the application. (i am not running in a window). i still get the A symbol pointer in game but the OSX pointer floats in the middle of the screen. its not really a problem, its just annoying and distracting. 
+any ideas of how to get it to disappear?"
+,salfanar,2010-02-01T19:12Z,"to all the people having problems with textures, like having no floor, or seeing no objects:
+its a graphic card related problem. this port doesnt work properly with ati cards. your not the first ones. its like call of duty modern warfare 2.
+doesnt work aswell.
+try bootcamp or get a machine with a nvidea card."
+,Philemaster,2010-02-01T21:17Z,"Salfanar, you are wrong. I'm playing the game in a 27"" i7 iMac with a ATI RADEON HD 4850 Graphic Card. 
+All the game run fine. You have to change the config file like I say in my first post....
+
+
+I solved the problem with ATI Radeon HD 4850 (maybe works with other ATI cards). 
+Press left mouse button over Assassins Creed icon and select Show Content. Browse to Contents/Resources/Preferences/ and edit the config file.
+Go to the line 180 and change ""GLSL"" = ""M"" to ""GLSL"" = ""Y"". Save the changes and run the game.
+
+If you already run the game, maybe you have to change the config file in your user preferences... (~/Library/Preferences/AssassinsCreed v06.3305hy Preferences/Config)"
+,tj91,2010-02-02T05:53Z,"hey guys, i cant seem to get any controls working. no idea what the controls are and when i go to the control layout options, half the controls have a numerous amount of ubisoft like said in the info..any idea how to get around it??..thanks guys"
+,tj91,2010-02-02T20:38Z,ubisoft icons*
+,Philemaster,2010-02-04T06:37Z,tj91. The best way is redefine the keyboard.....
+,Telefonkabine,2010-02-06T18:16Z,"works perfectly (except controls, which can be handled by setting them manually). Ty!
+
+Anyone around, who is able to create a cider port of the second one?"
+,BPirates,2010-02-14T10:13Z,"Didn't work for me. Probably because I am bang on the minimum system requirements. Ah well, I couldn't see my player, it was laggy as hell, but I gave it an up rating because the cider does work."
+,Antigravity,2010-02-14T17:38Z,"Everything works great, graphics are a little laggy even on nVidia 9600M GT but it's playable. And controls are ok, they don't display correctly, just don't modify them and check this http://assassinscreed.wikia.com/wiki/Controls"
+,jim9morrison,2010-02-15T18:51Z,"hi everyone,
+I'm trying to use an xbox360 controller (for PC) using ""tattiebogle.net"" driver for mac, which usually works fine, but not for this game (i was waiting for so much!!!), could anyone provide some help please?
+thx"
+,Mono99099,2010-02-18T20:28Z,"The time difference for the sounds of cutscenes and the movements of cutscenes is off. It becomes greater with time, so I'm guessing that either the speech is too slow, or the movements are too fast. I did what Phil said, changed the M to a Y, but did nothing else. Can someone please help? Its annoying as hell. "
+,Mono99099,2010-02-19T00:33Z,"I changed it back, still same problem."
+,manny0509,2010-02-20T23:47Z,I downloaded this and when I try to open it i can't. I've tried to open it with zip and it didn't work. Any help anyone might provide?
+,manny0509,2010-02-21T02:47Z,nvm. I just had to re-download it because the files were not done yet. Nice upload.
+,rezdog21,2010-02-24T03:09Z,"HELP
+Mine isn't working, I get to the part where you choose new game, and i click on it and it pops up some error, and asks me if i want to debug, if i say no it just stays as a white screen, and if i say yes it just exits, please help i really wanna play this game. 
+I'm running a macbook 10.5.8 "
+,rezdog21,2010-02-24T03:10Z,"it's ""Unhandled page fault on read access to 0x00000000 at address 0x00000000.
+Do you wish to debug it?"""
+,idk101,2010-02-27T23:33Z,"everything works fine, those of you who think you are having a graphics problem, like no floor or objects. it's just the tutorial, follow the directions that the chick gives you to get through it, after that the real game will begin."
+,rezdog21,2010-02-28T16:52Z,"if you read my post above idk101, you would see that everything does not work fine, this problem has been raised multiple times on this thread and so far nobody has solved it"
+,zaibatsu02,2010-03-02T13:16Z,guys im at 70% i need some seeders.thanks!
+,ManianOwns,2010-03-06T01:48Z,doesnt work
+,Sn0w-You,2010-03-06T22:20Z,"Hi guys, can someone help me?
+
+I enter the game (the menu), no problems. I created a profile, and go to the tutorial. Until there fine. Then the tutorial end's, and start's loading level 1, but the loading doesn't end, and I'm not manage to play the game. 
+
+Can someone help me?"
+,Sn0w-You,2010-03-06T22:23Z,"P.S. System:
+iMac w/ 2.8 GHz Core 2 Duo.
+Mac OS X, Snow Leopard (10.6.2)
+ATI Radeon HD 256MB
+2GB RAM (800MHz, DDR2)
+
+Tks for help."
+,Sn0w-You,2010-03-06T22:27Z,"3 post.
+
+One last thing I fergot to mention.
+During the unzip of the file, I had issues, but I got over it, doing the unzip with the Terminal. Can this be the problem?
+
+Tks again."
+,pacmonk,2010-03-09T15:59Z,"""Unhandled page fault on read access to 0x00000000 at address 0x00000000.
+Do you wish to debug it?"" 
+
+
+PLEASE HEEEEEEEELP.....WTF WHY HAS NO PERSON ANSWRED THIS QUESTION CANT RUN THE GAME CAUSE OF IT
+
+
+YES IT QUIT THE GAME,
+NO IT STAYS A GRAY SCREEN
+
+
+
+HEEEELP"
+,Freterz,2010-03-11T12:45Z,"I also have the ""Unhandled page fault on read access to 0x00000000 at address 0x00000000. Is it a problem with my stuff, or the torrent? Or is it just an unfortunate download, and repeating downloading it will fix?"
+,AlexanderDC92,2010-03-11T18:00Z,"yea
+i have the same problem!
+""Unhandled page fault on read access to 0x00000000 at address 0x00000000.
+Do you wish to debug it?"" 
+Can someone help plzzz "
+,Tortolini,2010-03-15T03:04Z,"glsl=Y doesn't work for me. I have the ATI Radeon HD 4850 512mb.
+Still no floors. I guess i will install windows and download the windows version because i like the game from the first looks.
+The first people never have faces, come later in the game.
+Thanks for trying though noobish!"
+,dajeffries,2010-03-15T08:02Z,great ul.  also thanks to Philemaster-great fix
+,shelleyerest2000,2010-03-18T04:06Z,"Yo thenoobish why does mine say ""Unhandled page fault on read access to 0x00000000 at address 0x00000000.
+Do you wish to debug it?""  can you help????"
+,raljin007,2010-03-22T15:27Z,Do i need some special app to run this or i just unzip place in desktop and im ready?
+,eddymurfy1,2010-03-24T20:59Z,SEED please!!!
+,raljin007,2010-03-26T20:33Z,"everything work flawlessly so downloa enjoy, only frustrating jumps 0.1 kb /s to 25 to 360 to 180 to 0.1 and again but its worth it) enjoy playing it "
+,Bobthedeadly,2010-03-31T05:10Z,"Works for me... sorta. Few notes:
+
+-The requirements are STEEP. I have a brand new White Unibody MacBook with a 2.26 GHz processor and 4 GB of RAM and it lags like shit even when I turn everything all the way down.
+
+-The controls are awful, and you can't remap them. Also, unless you have a 2 button mouse, you're screwed. The freerunning requires holding down the right mouse button, it is very difficult if you're trying to use a laptop like me.
+
+Also, the reason the video gets out of sync with the audio is because your computer can't render the moving people fast enough, and the audio always plays normally. You can make the cutscenes run a little smoother by turning the graphics way down.
+
+This game does technically work, but it's very difficult because of the combination between lag and bad controls. I know that I don't have the fastest computer ever, but every other game I have works fine and so should this game. The Ubisoft games always have this trouble. I have Prince of Persia for the mac, and despite not being any more graphically impressive than, say, Bioshock, it lags like a bitch. Also, Star Wars: The Force Unleashed has very steep requirements, and even though I havent played it on my computer, I doubt it'd run."
+,CarlCarlton2100,2010-05-07T05:18Z,This Game Works :) Why The Fuck Is It So Lagg Up Thenoobish Fix this Shit !!!!!! :(
+,DrJPMalin,2010-05-11T07:00Z,"i would like a fast seeder, please"
+,Sledgebat,2010-05-11T07:15Z,"I get the same debugging problem as a lot of the other people here.  I got the same type of problem with a soccer game I downloaded, and changing the screen resolution solved that.  That doesn't seem to work on this.
+
+Anyone have any ideas?"
+,seiriol1,2010-06-15T12:57Z,"seeeeeeeeed pleeeeeaaaaasssseee! :'(
+im 20 days off! aaaarrrghh!"
+,Hellfire_109,2010-06-16T06:28Z,PLEASE SEED!!! 99.97% for 3 hours!!!
+,ModKing218,2010-06-16T10:34Z,"Does Assassins Creed Work On MacBook
+
+Verison: 10.5.8
+Processor: 2.16 GHz Intel Core 2 Duo
+Memory: 2 GB 667 MHz DDR2 SDRAM"
+,seiriol1,2010-06-16T11:51Z,"@modking i have the same macbook, when i download it ill tell you but might be a while cos of NO SEEDERS!"
+,ArtJenneration,2010-06-19T09:58Z,"Works AMAZINGLY. Have been playing for the last day, haha.
+Thanks for this upload!"
+,lilzac26,2010-06-24T18:22Z,"Sooo... it kinda works, I can hear everything but it just keeps switching from a black to white page... how do you change the resolution, that's probably the problem."
+,lilzac26,2010-06-24T19:53Z,HELP ME!
+,cstraybeck,2010-07-30T15:54Z,Mine is on 82.4 PLEASE SEED!
+,nick17g,2010-08-16T15:40Z,SEED when you're done downloading! Don't be an ass hole. K? good. 
+,Nbah,2010-08-19T13:46Z,Plz seed :(
+,nick17g,2010-08-19T21:05Z,"Amazing torrent! took awhile to download bc there isn't many seeders!!! Ass holes! haha 
+
+well there is some lag and audio is sometimes a little off but with the settings at the lowest it played fine. 
+
+I have 4gigs memory and 320m Nvidia graphics card so if you have that or better then you should be fine. "
+,Senly,2010-08-24T14:23Z,"I get a Exception Raised error
+
+Unhandled page fault on read access to 0x00000000 at address 0x00aa4088.
+Do you wish to debug it ?
+
+Can someone tell me what to do ?"
+,leyton0,2010-09-15T18:26Z,For me doesnt work is says unssuported format (i am using zipeg) please help it took alot to download and i feel pissed off :/ 
+,Themata,2010-10-20T17:23Z,"1.7mb Download.
+Game works perfectly.
+thenoobish = win.
+
+I am, however, having a problem with sound on my system, but only because my soundcard is external / third party, or my computer itself is not powerful enough to run the game.
+I'm having the same problem with Command and Conquer 3: Tiberium Wars.
+
+If your computer is awesome, though, get this torrent."
+,thapheon1,2010-10-30T23:38Z,"Not any troubles for me, works great. Thank you"
+,margitmayer,2010-11-23T15:37Z,"Maybe I am stupid since nobody has that problem here.
+But where is the crack? It ask me to register an ubisoft account and after that for a key.
+Am I stupid?"
+,jacobbsny10,2010-12-06T02:51Z,"Great upload, everything works fine, once you figure out the controls hidden by ubisoft signs. Thanks a lot thenoobish! "
+,wasd853,2010-12-07T14:38Z,SSSSSSSSSSSSSEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDD!!!!!!!!!!!!!!!!!!!!!
+,G1ng4,2010-12-14T03:58Z,"look 
+over here in NZ you can buy assassins creed for $24 i have it on boot camp no lag and no bugs so just get bootcamp and buy it if your so desperate"
+,kirb13,2010-12-21T09:33Z,Works will
+,red_boost,2010-12-22T13:30Z,"Hi,
+I have a request: Can you make a cracked launcher for Dragon Age: Origins please?
+There are lots of people who would really enjoy it!
+Thanks! "
+,HaloDiego,2011-01-05T05:07Z,Yeah I know this sounds stupid but can you connect controls to this. Preferably a PS3 control? If you can then how? 
+,HaloDiego,2011-01-08T23:34Z,Can someone help me?! I was able to connect Xbox 360 wired Control and when I open Assassins Creed I change the control settings to controller but I can no longer move anything after that. It even says that the control is connected but I just can't move anything with it at all.
+,kirb13,2011-01-15T12:23Z,i have a request for you please make assassins creed 2 on mac please i hope you will do that 
+,joaolx,2011-06-29T19:38Z,I can't even open the .zip file. It's gives me an error. Can someone tell me what i can do?
+,000stealth1,2011-07-03T06:51Z,mine goes really slow on loading screens and the faces don't appear on the common people. can you help?
+,Dpratt78,2011-07-07T05:00Z,"thanks so much i am downloading now. could you make brotherhood for mac now? you are very good at this and i am sure capable
+thankyou (as I have just beat ac2 and i want to do number 1 and 3 now)"
+,000stealth1,2011-07-26T11:09Z,"now that brotherhood is on mac via steam, someone should start making a torrent for that plz!"
+,TJDouglas,2011-08-01T10:31Z,help. i cant open the zip file. tell me what to do!!!!!!!!!!!!!!!
+,denatorewu38,2011-08-16T00:55Z,movie playground 100%: http://www.gamestia.com/video/assassins-creed-c14s1.html
+,maximelafrime,2011-10-17T17:04Z,"They ask me to register the product...
+What product code should I put? 
+Thank you for your help"
+,metsrule08,2011-11-25T18:38Z,I turned down texture details and other graphic things to the lowest settings and changed the controls (notably i turned high profile from RMB to SHIFT) and this baby worked like a charm on my 2010 MBP!!! Thanks a lot thenoobish
+,zdubbb,2011-11-27T09:11Z,"It won't unzip the file :[ this is the 2nd torrent that's done this to me. It says ""the content can not be extracted with this program"". i'v also tried multiple programs to unpack it. what have you guys used?"
+,Teck1,2011-11-30T14:21Z,"Just downloaded it today, makes me wish I played it first cos so far its nothing compared to Brotherhood, all the same, good game & thanks for the upload.
+
+@zdubbb Right click on the file, select open with Archive Utility. It will extract it into that same folder then all you have to do is drag it into your applications folder & you are good to go. 
+
+P.S: It seems archive utility comes with all Mac's (I guess). Have fun."
+,kick455,2011-12-25T07:03Z,"Hi! i have a problem here, please anyone help! everything works fine in the game, everything runs smoothly but i have a problem with the graphics, the whole game is like being displayed in a thermal camera, all faces are glowing yellow, andd al the clothes are glowing blue, please can anybody help! :("
+,jaraat,2012-01-08T12:45Z,"Hi,
+
+The same problem: game asks for registration and serial. What should be done with that issue?
+"
+,WeezyWeena,2012-03-29T05:05Z,Is this the first one to the series?
+,gangstaxo22,2012-06-16T20:19Z,"Can you please fix the ""KNOWN ISSUE"" cause some people arent able to play. thanks in advance. "
+,gangstaxo22,2012-06-16T20:24Z,"""Known issues:
+- Due to a missing font, during tutorials and instructions, where the game should show controls, it instead shows little Ubisoft icons"". CAN IT BE FIXED OR CAN SOMEONE TELL ME WHAT THE SYMBOLS MEAN SO I CAN ACTUALLY PLAY THE GAME. "

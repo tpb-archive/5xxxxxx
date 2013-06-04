@@ -1,0 +1,13 @@
+User Type,Username,Date,Text
+,elektronik_supersonik,2010-11-28T19:39Z,"Great movie and good torrent overall. If the Display Aspect Ratio flag has been set to 16/9 though, it's been set wrong.
+
+So I'd assume you've cropped two vertical lines (""the black bar"" probably) out of the original 720x554 (since it's 1,85:1). That makes the correct resultant DAR
+
+(718/720) * 1024  /  554
+=~1,843:1
+=~1021:554
+
+The movie can be demuxed and remuxed (losslessly) to update the DAR flag to the correct value. There might be a tool for editing the flag straight away, too."
+,elektronik_supersonik,2010-11-28T19:49Z,"Also, I don't think there's any point in using MP3 when using the Matroska container. I'd recommend AAC instead. Sorry, I'm a bit compulsive :p"
+,elektronik_supersonik,2010-11-28T20:40Z,"Actually, AAC would've let you conserve the 5.1 audio with a sub-192 kbps bitrate - and with good quality, thanks to its superiority in multichannel encoding."
+,elektronik_supersonik,2010-12-03T17:23Z,"Hmm, it's been cropped, but not completely. There's a vertical black bar on the right. Of course, it's only a rather trivial detail and the quality of the encode is excellent ;)"

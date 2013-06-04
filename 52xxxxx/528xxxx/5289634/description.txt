@@ -1,0 +1,73 @@
+#ExplicaÃ§Ã£o e Tutorial#
+
+zBattle:
+
+zBattle Ã© um programa/emulador para conectar uma pessoa Ã  outra de modo que elas joguem online um mesmo jogo atravÃ©s de um emulador
+central chamado zsnesw.
+
+Para que o zBattle funcione, vocÃª deve ter tambÃ©m o emulador zsnesw , e consequentemente o seu executÃ¡vel >> zsnesw.exe , tento o zsnesw +
+as roms(jogos) + zbattle + conexÃ£o com internet, vocÃª poderÃ¡ jogar vÃ¡rios jogos online, tais como Bomberman, Street Fighter, Mortal Kombat,
+Mario Kart , entre outros jogos que tenham suporte a opÃ§Ã£o MultiPlayer(jogos para duas pessoas).
+
+Online:
+
+Todo programa ou emulador que use a internet para funcionar deve passar pelo Firewall do Windows, nesse caso chamamos de exceÃ§Ã£o.
+O zBattle deverÃ¡ estar na exceÃ§Ã£o do Firewall do Windows, ou melhor, as portas usadas por ele, essas portas Ã© por onde os dados sÃ£o
+enviados de computador para computador por meio de protocolos de rede.
+
+Portas e Protocolo:
+
+A porta usada pelo zBattle Ã© a 7845. Existem dois protocolos principais no Firewall do Windows, TCP e UDP, vocÃª deve entÃ£o liberar a porta
+7845 para ambos protocolos, ou seja, liberar a porta 7845 em TCP e liberar a porta 7845 em UDP. Fazendo isso o zBattle deverÃ¡ funcionar
+corretamente.
+
+MÃ£os Ã  massa:
+
+Primeiro de tudo, vocÃª deve ter baixado esse pacote no site Game Hero Brasil -e entÃ£o o descompactou em uma pasta
+de sua preferÃªncia, depois disso (espero eu hehe) vocÃª abriu este arquivo para ler as informaÃ§Ãµes, e chegou nessa parte agora, para liberar
+a porta 7845 no Firewall do Windows automaticamente, eu fiz um script de modo que automatize esse processo(mesmo sendo rÃ¡pido), abra o arquivo
+Liberar portas no Firewall.bat , e vocÃª deverÃ¡ ver duas mensagens escrito >> "A operaÃ§Ã£o foi concluÃ­da com Ãªxito." , uma parte jÃ¡ estÃ¡ feita , agora
+vamos abrir o arquivo zbattle.net.exe para configurarmos-lhe.
+
+zBattle ConfiguraÃ§Ãµes:
+
+1 - Clique em File
+2 - Depois em Options
+3 - Em Player Name vocÃª deverÃ¡ colocar seu nome ou apelido
+4 - Em Path to ZSNES program: vocÃª deverÃ¡ indicar onde estÃ¡ o arquivo zsnesw.exe
+5 - Em Path to ROM image: vocÃª deverÃ¡ indicar o diretÃ³rio onde estÃ£o guardados os jogos >> ROMS
+6 - Agora clique em OK para salvar as configuraÃ§Ãµes
+7 - Agora provavelmente o zBattle farÃ¡ a conexÃ£o com o servidor para ver os jogos crados no momento e logar vocÃª no servidor.
+
+zBattle Jogando:
+
+1 - Clique em Game
+2 - Depois em Create
+3 - Escolha um nome para o jogo, de preferÃªncia um nome que lembre o jogo.
+4 - Clique em OK.
+5 - Agora clique em Select para escolher o arquivo do jogo com extensÃ£o .smc (ROM) por exemplo >> Ultimate Mortal Kombat 3 (U).smc
+6 - Espere alguÃ©m entrar para jogar com vocÃª e clique em Start
+7 - Pronto ! VocÃª jÃ¡ estÃ¡ jogando Online com outras pessoas e amigos.
+
+
+CrÃ©ditos:
+
+Tutorial feito por Humberto Lima :: Beto Default
+
+Uploader do site Game Hero Brasil
+
+Portal do True Iory 
+
+OBSERVAÃ‡ÃƒO: Caso vocÃª venha a publicar o conteÃºdo do site e em especial nesse caso, meu tutorial , entre em contato comigo por e-mail ou msn, os
+meios de comunicaÃ§Ã£o comigo estÃ£o no final desse arquivo.
+
+@ A conversa civilizada Ã© o comeÃ§o de tudo ^^
+
+Contato:
+
+E-mail.: humbertolimacb@gmail.com
+msn....: betokoframon@hotmail.com
+Site...: Portal do True Iory
+
+Obrigado pela visita e download ! Mais inforamaÃ§Ãµes , pedidos , sugestÃµes , dÃºvidas sobre qualquer coisa , entre em contato comigo , que eu 
+estou apto a lhe ajudar.

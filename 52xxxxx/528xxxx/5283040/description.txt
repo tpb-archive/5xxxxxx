@@ -1,0 +1,128 @@
+Product Description:
+Built on a foundation of simplicity, Acorn eschews the 
+outmoded "many palettes" design from yesterday's 
+editors. Acorn presents a fluid new interface that will be 
+familiar to users of Apple's iLife applications. Designed 
+for simple editing, Acorn features flood fill, gradients, 
+vector shapes, drawing and erasing tools, and more. It 
+also brings a few new tricks to the table, including 
+chaining filters and easy image and canvas resizing. 
+From quickly adding text to an image to creating a new 
+graphic with pixel-precise control to just sketching out 
+ideas, Acorn is great for all kinds of image editing.
+
+What's New?
+--> Fixed a couple of crashers when opening a PSD files.
+--> Fixed bug where you couldn't set the height of an 
+image via AppleScript.
+--> New pref to ignore trackpad gestures (rotate, swipe 
+to undo, magnify).
+--> Fixed a crasher when using certain core image 
+filters.
+--> You can now see the bounds when creating a new 
+shape.
+--> The layer list contextual menu now has the option to 
+lock the clicked on layer.
+--> Fixed some drawing issues with the grid when 
+zoomed in.
+--> Fixed a bug where the flipped cursor coordinates 
+were off by 1pt in the y direction.
+--> Updated selection cursors.
+--> Hold down the option key on an anchor point for a 
+bezier curve to reset it. Hold down option when using a 
+control point, to no longer mirror it with the control 
+point opposite it.
+--> New menu item to take a layered screenshot under 
+the Image menu.
+--> The combo slider widgets now fit in with the rest of 
+the Acorn UI, and round down it's values when slidering.
+--> The layer list thumbnail for shape layers draws a bit 
+nicer now.
+--> Bezier Shapes, in the shape palette (shortcut key 'p'). 
+Not available in Acorn Free.
+--> Newer, faster, better, stronger flood fill 
+implementation.
+--> You can now lock layers (currently using the Layer > 
+Lock Layer menu item) A UI is coming eventually for the 
+layers list.
+--> No longer removing the color profile for PNG web 
+exports.
+--> The tooltip hint you get when you are inside a 
+selection now hides when you have the shift or option 
+key down, so you can see what you want to select (or 
+deselect) better.
+--> New advanced prefs pane, with fancy 'advanced' 
+stuff.
+--> The custom checkboxes now draw a highlight when 
+they have focus.
+--> You can now tab between the size and opacity fields 
+in the brush palette.
+--> Updated UI for the canvas free rotate, and you can 
+now use your mouse to rotate the canvas when in this 
+mode.
+--> Updated UI on the scale transform.
+--> Fixed a problem where sometimes clicking on a text 
+area would reset it's color to black.
+--> You can now save and open files as Microsoft Icons 
+(.ico).
+--> Double clicking on a rectangle will now open up the 
+frame tab in the shape attributes palette.
+--> Fixed a bug where paragraph styles were not scaled 
+in text boxes along with the rest of the image.
+--> Fixed a bug where "New Layer With Selection Via 
+Cut" with shape layers didn't work properly.
+--> An additional Transform operation "Scale Transform" 
+has been added, bringing the total up to 3. They've also 
+been moved under a new Layer â–¸ Transform menu, and 
+the Scale Transform now uses the cmd-shift-t shortcut, 
+since this is the most common type of transform that 
+folks are trying to do.
+--> Select All now works while you are cropping, and 
+sets the crop to the whole canvas.
+--> A new "precision mode" button for the brush tool, 
+which lets you make your brush strokes in 
+slllllooooooowwwwww mooooooootttttttiiiiiooonnnn.
+--> Updated to a version of SQLite with better file 
+locking behavior, which means you can now save Acorn 
+documents on AFP volumes.
+--> Acorn does a better job at keeping the cursor 
+hidden when drawing in slowmo mode.
+--> Fixed a bug where duplicating a shape layer would 
+forget corner radiuses on rectangle shapes.
+--> You can now change the bounds of a selected shape 
+from the tools palette.
+--> Fixed a bug where new image from clipboard would 
+allow you to undo a change that you didn't make.
+--> The Python runtime is no longer loaded into Acorn if 
+you don't have any plugins installed which can use it.
+This cuts down on memory that Acorn uses.
+--> If your bitmap layers have a frame that falls outside 
+the canvas bounds, then you'll see a light gray line 
+representing those bounds as seen in this movie.
+--> Three finger swipes on your macbook's trackpad 
+now performs an undo for left swipes, redo for right 
+swipes, select next layer for up swipes, and select 
+previous layer for down swipes. (This is only for 
+macbooks which have support for gestures in the 
+trackpad).
+--> You can now use pinch motions on the trackpad to 
+zoom in and out, or rotate the canvas (for macbooks 
+which have support for it).
+--> The Canvas Resize command no longer brings up a 
+modal window, and instead puts it's UI in a sheet.
+--> You are now given an option to resize the canvas or 
+not on rotate, as well as showing a grid.
+--> You can now use the arrow keys to rotate the 
+canvas, when the Image â–¸ Rotate Canvas â–¸ Free Rotate 
+command is being used.
+--> Shape handles are now drawn outside the canvas 
+when the frame of the graphic are outside.
+
+Installation:
+--> Unzip & mount dmg
+--> Drag app to your applications folder
+--> Follow instructions in .txt file to register program
+--> Done!
+
+ENJOY!! 
+--> IsolatedSoul5591

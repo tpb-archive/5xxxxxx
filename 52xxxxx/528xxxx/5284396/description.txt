@@ -1,0 +1,40 @@
+MAC OS X SNOW LEOPARD 10.6.2 VMWARE IMAGE FOR AMD CPUS
+
+I was looking for a recent Mac OS X vmware image that I could use on my AMD box as an OS X tutorial when I came across this:- 
+ 
+http://www.vo2ov.com/Vmware-Mac-OS-X-Snow-Leopard-x65-AMD-10-6-6_426624.html
+
+It took a while to download the 78 parts, but once I extracted it and set it up in WorkStation 7 (reducing the cpu cores from 4 to 2 - it looks like it was created on a quad core Phenom) it booted as OS X 10.6.0. To my surprise it even updated to 10.6.2 using Apple Software Updater (OS X 10.6.2 Combo Update). Apparently, what makes all this possible is EmpireEFI4AMD.iso, which I'd never heard of. 
+
+More information about Empire EFI can be found here:- 
+ 
+http://prasys.co.cc/2009/10/empire-efi/
+
+I've not been able to test this on any other setup other than my own (dual core 64-bit Athlon, Windows 7 64-bit, VMware WorkStation 7), but it may work with with VMware Player 3.
+
+To use it, power on the virtual machine and wait for the Darth Vader screen to appear, then --> to select OSX and hit Enter. Ignore the F5 instruction at the bottom; this is only for when installing on a physical machine. It auto logs in to the administrator's account. The administrator's user name is "no skill" and the password is "noskill" (without the quotes, of course).
+
+So, what works and what doesn't.
+
+Network works almost out-of-the-box. I had to go to System Preferences -> Network where the default interface in PCI slot 33 showed as not connected. I was wondering what to do about this when a box popped up saying it had detected a new interface on PCI slot 34. Once I selected this new interface it found the right DHCP settings and auto connected to the network.
+
+USB support works.
+
+VMware shared folders works once you set the host's shared folders path.
+
+Sound didn't work for me because of a PCI slot conflict. In the .vmx file sound is assigned to PCI slot 34 which was grabbed by the ethernet interface. At the moment I can have the network or sound, but not both.
+
+The default screen resolution is 1024x768 and I haven't found a way to change this yet.
+
+The default keyboard is German. Go to System Preferences -> Languages -> Input Devices and select your choice and de-select German.
+
+The only problem I don't understand is memory. "About This Mac" shows 1GB of memory no matter what you allocate in virtual machine settings. 
+
+To sum up, the only things I changed from the vm I downloaded was to change the cpu cores from 4 to 2 and to do the update to 10.6.2. As there was no problem doing this suggests that future updates will also not be a problem.
+
+I'm a Mac NOOB, so I can't really answer any questions you might have. If anyone finds a way to add extra screen resolutions please post the answer in a comment. It is slow on my rig, but I'm only using it as a cheap way to teach myself OS X. I'd be interested to know how it performs on a fast quad core Phenom.
+
+Note:- EmpireEFI4AMD.iso has to stay in the virtual CD drive for all this to work. You'll have to add another CD drive (virtual or physical) in machine settings if you want to mount another disk. EmpireEFI4AMD makes it possible to install OS X on a physical AMD machine using an unaltered off-the-shelf OS X retail disk! I'll post a separate torrent of this amazing little utility (only 50MB) for anyone who wants to play with it. Intel users will have to download a suitable file from the Empire EFI link above.
+
+Enjoy (and seed!)
+

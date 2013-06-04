@@ -1,0 +1,32 @@
+This is a very simple program.  Depends libglib
+
+usage:
+
+engine used_tags input output
+
+an input file could look like this
+        
+          Text used 
+          Text unused 
+        Always used
+         unused  still unused  
+         Hello  goodbye  
+
+used_tags could look like this
+      use this
+      and this
+      more
+      whatever
+
+output would look like this
+      Text used
+      Always used
+      Hello
+
+So it can be used in programming and publishing when you are unsure if an element will be there or if an either or is need but your not sure which and you don't want to erase anything.
+
+Give me suggestions.  I'll be switching input & output to stdin & stdout.
+
+About me and my torrents:
+  I'm here to start doing torrents smarter.  If you know any torrents that you would like done smarter leave me a comment.  We have 17 of the top trackers in this torrent.  I also have made it so it organizes smarter.  I do have a policy on leechers.  Just seed it to a ratio of 3. Just set the download to do that automatically. If it sits around for a week then stop seeding.  Also if you can learn about port forwarding then do so.		
+

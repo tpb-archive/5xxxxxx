@@ -1,0 +1,28 @@
+Redirecte pentru toate serverele firsthit.ro
+
+
+Descriere: Aceasta aplicatie incearca sa va populeze serverul de Counter-Strike ! Este un redirect mult mai dezvoltat de care beneficiati de o gramada de optiuni
+
+
+
+
+Observatii:
+* Aplicatia are nevoie de Net Framework 3.5 
+* Serverul se poate minimiza si functiona jos in bara de activitati!
+
+
+Utilizare: Aveti 7 campuri pe care trebuie sa le completati astfel:
+
+1. Server: alegeti serverul din lista aceea pe care vreti sa fie redirectati jucatorii
+
+2. Nume admin/nickname: numele vostru
+
+3. IP Internet/Lan: Selectativa IP **Cei care sunt cu Ip Routabil selectati ip care incepe cu 188... 189 etc nu cu 10
+
+4.Numar Redirect(max 70) :Selectati cate redirecte vreti sa tineti!!
+
+5.Delay:Timpu la care se porneste un redirect fata de altu.
+
+6.Port de start: default 27001
+
+7.Port Skip:Default 27005,27015

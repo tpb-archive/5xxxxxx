@@ -1,0 +1,23 @@
+=== FROM http://www.xpud.org/ ===
+
+xPUD is an unique Linux distribution with a simple user interface on top, including a web browser and a media player.
+
+xPUD is fast booting : average booting within 10 seconds. It's light : core image is weighing less than 35MB. IT's easy to use with a very simple user-interface.
+
+This project is still under heavy development!
+
+=== Instructions ===
+
+CD: Burn the iso image to a CD-R or CD-RW drive. Set CDROM to first boot device in BIOS.
+
+IMG: Save it under your existing operating system, then add corresponding lines to you boot loader configuration. Linux and GRUB for example:
+
+title xPUD 0.9.2
+root (hd0,0)
+kernel /xpud-0.9.2-image noisapnp lang=en quiet
+
+USB: Use UNetbootin to create a bootable USB drive, delete boot.cat, isolinux.bin, syslinux.cfg, ubnfilel.txt and ubnpathl.txt, and rename isolinux.cfg as syslinux.cfg. Set USB to first boot device in BIOS.
+
+More information on http://xpud.org
+
+For more applications download xpud opt files

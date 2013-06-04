@@ -1,0 +1,45 @@
+User Type,Username,Date,Text
+,FrasseDaMan,2010-01-12T22:04Z,"It's confusing with a MapSource ... img version. Either it's MapSource version OR img version!
+
+Why the codes for PC? For someone that reverse engineer the IMG to a MapSource version with gMapTool & cGPSmapper?"
+[T],Nincsenex,2010-01-13T12:57Z,"FrasseDaMan:
+You are right, MapSource is in the name only to make search for maps easier.
+
+And you are right again, unlock codes for PC, are for the version that people can make with different programs to see the map in MapSource."
+,vick977,2010-05-24T01:25Z,"Has anyone been able to get this to work? Instructions would be helpful. I tried mounting with Daemon with no luck, there seems to be missing files (tried on 2 different PCs/OS). Thanks."
+[T],Nincsenex,2010-07-03T23:20Z,"This is not a CD/DVD image!
+
+This is an image for Garmin GPS devices!"
+,vick977,2010-07-05T21:26Z,"OK, so how would I go about transferring it to a Garmin Nuvi for eg? Thanks in advance for the instructions."
+,vick977,2010-07-28T23:31Z,Anybody? 3 weeks no response.
+,amaan,2010-09-15T21:00Z,"vick977,
+i donno abt dis 1 bt usually u hav 2 copy nd paste the gmapsupp.img file in your garmin device or mem. card in a folder named ""Garmin"". I think dat shud do."
+,newnew2010,2010-10-03T14:47Z,"how can this be used on a Garmin GPS Device? i tried copying it directly to the device but it keeps giving a error message about ""CAN'T UNLOCK MAPS""
+
+any help would be appreciated. i want to buy the latest garmin india maps, but this will give a good understanding of what to expect and what not to.
+
+can anyone please post instructions on what/how to make it useable on a garin device?
+
+thank you"
+,ravenlost,2011-02-11T08:45Z,"If anyone can help, what do we need to do with theses ""unlock codes""?
+
+I do have Garmin Mapsource software on my pc... but not sure what to do. 
+
+I also tried just copying over the gmapsupp.img into my GPS's GARMIN folder (like I usually do) but I also get the ""CAN'T UNLOCK MAPS"" message turning on my GPS. Ive got a Garmin Daakota 20.
+
+Can anyone clarify how I can get this working?
+
+Cheers! Pat"
+,ravenlost,2011-02-24T18:57Z,"Okay, I found how to make this work. Have no clue what thoses listed ""unlock codes"" are for as I did not use them.
+
+
+Here's what I did to make it work:
+
+Assuming you have your GPS Unit ID at hand and using Jetmouse 1.5 keygen, enter your Unit ID at the top, select ""Custom mapset"" at the bottom and enter FID / MapID: 281. Hit Generate at the bottom.
+
+Copy the generate code into a new file called ""gmapsupp.unl"" NO LINE BREAKS.
+
+Finally, copy the UNL file you've just created, along with the ""gmapsupp.img"" file under your Garmin\ subdirectory of your gps device.
+
+It worked for me. Cheers!
+"

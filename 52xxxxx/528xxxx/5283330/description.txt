@@ -1,0 +1,55 @@
+Product Description:
+Coda brings under one roof "means source code editing, 
+a powerful FTP-client, excellent CSS-editor and many 
+other useful tools.
+Coda is a one-window web development app. Coda takes 
+all of the tools you need to build the future of the web, 
+including an integrated file browser, fully-featured text 
+editor, CSS editor, preview, built-in terminal, and 
+complete set of reference, and wraps it all in a single 
+elegant interface.
+
+What's New?
+
+--> Fixed possible hang when using the scroll wheel 
+with the HTML validator or DOM inspector in 10.6
+--> Fixed a bug causing auto-updating remote previews 
+to fail
+--> Spell checking now works more reliably in Snow 
+Leopard
+--> Reduced memory usage when using Subversion for 
+long periods of time
+--> Correctly set PHP environment variables in Coda 
+plug-ins under Snow Leopard
+--> Added support for ColdFusion 9
+--> Fixed automatic tag writing to be W3C compliant
+--> Fixed a bug where some files would not open in the 
+correct syntax mode
+--> Fixed various syntax highlighter bugs
+--> Fixed Javascript functions not showing in code 
+navigator in some cases
+--> Fixed PHP functions showing up twice in the code 
+navigator in some cases
+--> Find and replace across files now maintains the 
+UTF8 BOM marker in modified files
+--> Applescript command set selected range no longer 
+advances the selection one character too far
+--> Fixed logged warning when scrolling the clips 
+window in some cases in Snow Leopard
+--> Reverted publishing behavior when no FTP server 
+information is present in a site
+--> Fixed a bug in which Coda would fail to open files 
+with Korean text encoding
+--> Fixed an exception in the web preview controller 
+when trying to reference css files when a parent folder is 
+actually a file
+--> Made publishing behavior more reliable on some 
+systems
+
+Installation:
+--> Open folder & mount dmg
+--> Follow instructions from .txt file to register program
+--> Done!
+
+ENJOY!!
+--> IsolatedSoul5591

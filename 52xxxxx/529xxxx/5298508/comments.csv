@@ -1,0 +1,62 @@
+User Type,Username,Date,Text
+,RIggsta,2010-01-22T07:05Z,best print 4gigs? noway jose
+,theone_nr,2010-01-22T11:05Z,Loooool =)) A new definition on torrent world =)))) Dude be more specific ... source ? quality ? SCREENS ??? Until then NO DOWNLOAD !!!
+,theone_nr,2010-01-22T11:07Z,"BTW , what language are you using : ""the james camaron epic avatar, i am uploding so late becos i dont upload rubbish out there"" ?!?
+ camaron ???
+uploding ???
+becos ???
+=))))"
+,vjrulz02,2010-01-22T16:54Z,k dude so here u go it has been copied from a dvd i dont know the source of it but belive me you will not be disappointed by it mark my word here 
+,vjrulz02,2010-01-22T17:14Z, i will be abl to seedonly from 5:30 to 8:00 am IST or 18:30 (6:30 P.M) gmt
+,theone_nr,2010-01-22T18:40Z,"@""dude"" vjrulz02 i see u make some changes in ur description but :
+1.""it has been copied from a dvd""...anyone can this day transform a TS to a dvd !
+2.""belive me you will not be disappointed""...ur word value NOTHING unless u are a modder or major releaser !
+3.""mark my word here""... the most important rule are posting screens from ur release !!!
+Bullshiting about how ""good"" is ur release impress no one !!!
+...""dude"" =)))"
+,ryannining,2010-01-22T19:29Z,"Hi guys, i know there is no DVDrip for avatar movie right now, but if you want to get better Color when playing TS Avatar video, i can tell you how, i attach sample.
+
+http://img710.imageshack.us/i/avatar5m.jpg/ 
+http://img98.imageshack.us/i/avatar4l.jpg/ 
+http://img710.imageshack.us/i/avatar3p.jpg/ 
+http://img21.imageshack.us/i/avatar2cj.jpg/ 
+http://img638.imageshack.us/i/avatar1h.jpg/
+
+Please let me know if you interested, its very easy, you just need Media Player Classic and a Video card that support Pixel Shader"
+,10101011,2010-01-22T22:41Z,"ryannining, what are the setting required to get that quality"
+,ryannining,2010-01-23T05:16Z,"Well guys, try put this on Shaders (media player classic). You can edit shader for example, Invert.
+
+sampler s0 : register(s0);
+float4 p0 : register(c0);
+
+float4 main(float2 tex : TEXCOORD0) : COLOR
+{
+float3 LuminanceWeights = float3(0.299,0.587,0.114);
+float4 c0 = tex2D(s0, tex);
+c0=pow(c0,float4(0.68,0.76,0.86,1));
+c0=c0-float4(0.011,0.020,0.029,0);
+c0=c0*float4(1.148,1.159,1.104,1);
+float lum = dot(c0,LuminanceWeights);
+float r1=max(0,(0.25-lum));
+float r2=1-r1;
+float4 c1=float4(lum,lum,lum,0)*r1;
+c0=pow(c1+c0*float4(r2,r2,r2,1),1.1);
+c0=lerp(lum,c0,1.6);
+c0=max(0,c0)*0.9-0.03;
+return c0;
+}
+
+And then combine with other shader sch sharpness is possible, you will get a better TS screen. "
+,ryannining,2010-01-23T05:19Z,"if you dont understand, well, i will try to make some tutorial. Also a tutorial to fix the color permanently using VirtualDub , so you can get good TS Video anywhere (i am reencode to my Mobile phone, so i can watch anywhere)"
+,doubledge,2010-01-27T07:08Z,"@ryannining :
+(and anyone else experimenting with pixel shaders):
+A word of advise - BEFORE you edit one of the preset shaders (like ""invert"") COPY & PASTE the original (notepad works) so that you can restore it if you need to.
+
+@ryannining : Tried you settings, but didn't quite get the results you did - (probably due to different video cards, etc.) 
+These settings produce a lot of noise in my red gamma channel - the overall hue leans more toward red/yellow rather than the blue/green effect that you got.  
+What pixel shader did you use? there are settings for 1, 2, & 3 - BOTH HARDWARE & SOFTWARE! (My card supports 3.0, but i tried them all - lol)"
+,jbailes,2010-01-30T04:57Z,Has anyone gotten past 1.2% yet?
+,tcdk1st,2010-02-02T14:22Z,"Hi jbailes
+
+It dosn't matter where we stucks, it's a Swedish
+movie anayway"

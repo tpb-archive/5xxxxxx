@@ -1,0 +1,56 @@
+CoreAVC Professional
+
+Is fast becoming the industry standard for high quality H.264 playback.  For the highend video zealots CoreAVC Professional Edition even supports SMP processors, allowing for even fast multitasking while playing back high-definition CoreAVC H.264 video.
+
+ 
+Technology Bulletpoints
+
+    * Supports Windows 7
+    * 32/64 bit Support
+    * NVIDIA CUDA GPU support
+    * Supports up to 16 CPU Cores
+    * QuadHD Resolution Support
+    * Uses Directshow for MKV
+    * Includes the Haali Media Splitter
+    * Full Interlaced support
+
+
+CoreAVC H.264 Video Codec - Version 2.0.0.0 (20091218)
+- ADD: Initial support for Windows 7
+- ADD: Support for Windows Media Center (in .MKV)
+- ADD: Custom fourcc to match the Haali splitter
+- ADD: Support for Non-Compliant Motion Vectors (MV)
+- ADD: mmx optimizations
+- ADD: mmx2 optimizations
+- ADD: sse optimizations
+- ADD: sse2 optimizations
+- ADD: sse3 optimizations
+- ADD: ssse3 optimizations (almost 70)
+- ADD: sse4 optimizations
+- ADD: faster handling of pure-DC chroma blocks
+- ADD: new x86 cpu caps
+- ADD: Multi-dupe weightp (+Future x264 changes)
+- ADD: 64bit support
+- FIX: Fix potential failure in CABAC MVD decoding.
+- FIX: Proper alignment intrinsics for MSVC and GCC.
+- FIX: AVC SEI+userdata fix
+- FIX: Focus bug in Windows Media Center that disabled CUDA
+- FIX: Better frame re-ordering on difficult streams
+- CHG: Supports 16 CPU Cores (was 4 cores max)
+- CHG: Support for QuadHD resolutions(4096Ã—4096)
+- CHG: New dc_add
+- CHG: Faster CAVLC
+- CHG: Faster CABAC
+- CHG: Faster Deblocking (Massive deblocking overhaul)
+- CHG: SSSE3: Faster Motion Compensation (20% faster on Core 2 Conroe and more for Penryn)
+- CHG: New CoreNumber for 2.0
+- CHG: Initial support for CoreAccount. Linking purchase+account
+- CHG: Integrated the Haali splitter into the installer
+- CHG: New installer supports both 32/64 bit Operating Systems
+- CHG: Filter compiled against ICC (2% speed increase for modern Intel Processors)
+- CHG: Updated IDCT to support ARM NEON Cortex A8 Support
+- CHG: Updated Blitter YUV/RGB for ARM NEON Cortex A8 Support
+- OEM: Initial ARM NEON Cortex A8 Support (iPhone, Touch, Linux, Windows Mobile)
+- OEM: SDK NVIDIA CUDA 2.3 support
+- OEM: Removed the windows direct3d requirement for CUDA (it can now be native)
+- OEM: Updated GStreamer plug-in

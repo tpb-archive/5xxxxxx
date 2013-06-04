@@ -1,0 +1,105 @@
+User Type,Username,Date,Text
+,zerokoo0l,2010-01-05T21:02Z,I cant say for anyone else but this does not work for me. Same result as the older cracks
+,vjman2001,2010-01-05T22:30Z,it worked fine for me!? what happens for you?
+,zerokoo0l,2010-01-05T23:40Z,"It goes into the same loop that the other cracks all have, after you finish putting in the challenge code and than the serial after the restart it says it must be done online and than the whole process restarts. I tried a second machine that never had modul8 to see if it was a prefs file or something similar but got the same result. Thanks for your effort though....hope it is an individual problem for me but was curious as to others results."
+,furcough,2010-01-07T15:21Z,"Doesn't seem to work when loading saved projects, though."
+,anon456,2010-01-29T14:35Z,Not working for me too. I can't open a saved project.
+,pompoos,2010-03-27T15:21Z,The crack works.Everything works except for opening saved documents. This is sooo frustrating. It's definitely a huge step further from 2.5 If anyone finds a torrent for a working 2.6 please post it here. 
+,vmartins,2010-05-10T14:05Z,"did anyone found the ""open and save project"" fully functional?? "
+,dickchampion,2010-05-19T07:39Z,"http://thepiratebay.org/torrent/5571108
+
+Has a solution for opening saved project files in modul8 2.6
+
+...or - for those who live on the command line (you know who you are):
+
+sed '/master_speed_factor/,/FLOAT/d' ""projectfile.md8"" > ""unlockedproject.md8""
+"
+,liftr098,2010-10-24T10:41Z,"When the crack goes into loopmode after 3 months of use: remove all modul8 files, including the hidden .info. type files. If it still goes into loop you must install M8 on another user profile."
+,emump7,2010-11-02T18:56Z,"liftr098 could you explain in more detail how to eliminate the info data to wipe the modul8 stuff from  the computer? I have tried various appzapper type programs to get all the files out but it still just ends up in the ""loop"" PLEASE SOMEONE POST A RESOLUTION TO THIS PROBLEM ARGHHHHHHHHH!!!"
+,symatiks,2011-01-23T02:00Z,"Hey is it possible to download modules with the the online library inside modul8 with this version.  I have tried but it doesn't seem to work.  Though it was my computer.
+
+Thanks "
+,montinhoman,2011-05-04T05:48Z,"The solution for the loop registration problem on 2.5 was:
+delete all the ( hidden ) .info.XXXXX files on
+/Library/Preferences
+~/Library/Preferences
+/Users/Shared
+
+also delete 
+om.GarageCUBE.modul8_25.plist
+from ~/Library/Preferences
+
+Not sure if this will work on 2.6"
+,montinhoman,2011-05-04T05:49Z,"delete
+com.GarageCUBE.modul8_25.plist
+from ~/Library/Preferences
+
+not 
+om.GarageCUBE.modul8_25.plist
+
+sry xD"
+,Sirouhei,2011-05-17T00:35Z,So has anyone figured how to bypass the loop on 2.6? The steps mentioned don't work for me.
+,ricktechnotrick,2011-05-18T01:52Z,it's working perfect for me .. amazinglyyy :) thanks 
+,jcumbre,2011-08-15T23:26Z,"Anyone found a solution to get this version running?? At the beginning it was working perfectly but afterwards is always in the same loop asking for the serial, etc..... PLEASE HELP!!!! Thanks"
+,azerty426486434,2011-09-26T22:48Z,"Don't know if anyone still need that but I'll write it anyway.
+
+I found a way through the loop problem.
+
+I had the problem, and couldn't register modul8 anymore. I tried the deleting .infoxxxx files and com.garage..... file too but it didn't work.
+
+The joke is that there is another .infoxxxx file hidden inside the app.
+
+after you deleted all files montinhoman said should be deleted in his post,
+you have to launch an xterm and log as root. then you just have to go to the directory where your modul8 application is (mine is called ""Modul8 2.6 DC"" ) and type rm Modul8.app/Contents/Resources/.info*
+
+I've been able to register successfully after that."
+,souploops,2011-10-06T06:32Z,"OK- PLEASE HELP THOSE OF US THAT STILL CAN'T MAKE IT WORK! THE LOOP THE LOOP!
+
+step one:delete all the ( hidden ) .info.XXXXX files on
+/Library/Preferences
+~/Library/Preferences
+/Users/Shared
+
+also delete
+om.GarageCUBE.modul8_25.plist
+from ~/Library/Preferences
+
+
+
+step two:
+launch terminal
+""log as root. then you just have to go to the directory where your modul8 application is (mine is called ""Modul8 2.6 DC"" ) and type rm Modul8.app/Contents/Resources/.info*
+
+However i have no idea what that really means to do!  I launch terminal and type in that code and nothing happens"
+,salyan,2011-10-12T11:56Z,"THAT'S WORKING (just follow step by step) 100% sure
+
+Use ""TinkerTool"" or similar to show hidden files
+
+search for all *****.info.****** files and delete them! (they are created with the first registration - afer you installed it the first time)
+do this in the following folders:
+
+library/pref
+user/share
+user/library/pref
+
+replace the ""modul8"" file in applications with the one provided in your original zip/torrent file (this is important or it won't work)
+
+and use the keygen
+it will work for about three months then do it again !"
+,salyan,2011-10-12T11:58Z,"do not change ur system, do not buy a new mac, do not log as root or anything else, just follow my first message
+i've tried to bypass the reg loop for a long time
+i've got previous versions installed
+
+it works
+
+share"
+,salyan,2011-10-12T12:01Z,"âŚ at leastâŚ
+if u have it for professional use, then buy it (this will bypass every loops things !)
+http://www.modul8.ch/index.php?c=buy
+
+:)"
+,cel_asto,2012-01-29T17:57Z,"Never ending loop for me. Removed all the above mentioned files, just as salyan said, replaced the application and used the keygen but it keeps showing the register loop. Any ideas?"
+,walrus101,2012-02-26T23:47Z,"Yeah, could someone please clarify how to get this v2.6 working. As soon as the Terminal app gets mentioned my heart sinks cos I have no luck with it and no idea what to do with it. I've got my first vj show coming up and I really need the functionality of version 2.6. Could someone that really understands how to get this working please just spell it out, asap? Cheers :)"
+,expand3r,2012-03-22T10:55Z,can i update this to modul8 2.4.6 ???
+,expand3r,2012-03-22T11:09Z,"ok i downloaded this, what should i do with the folder named ""Modules"" ???"
+,anonv,2012-07-21T02:13Z,the keygen will not work on my os. is there anyone who can plz run it for me and get me a quick one?

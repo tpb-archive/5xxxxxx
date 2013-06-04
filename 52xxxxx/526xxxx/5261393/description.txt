@@ -1,0 +1,37 @@
+X-Plane 9 No DVD for Linux
+
+Converted from the mac .dmg "crack" to a linux usable .img file.
+
+I have looked many time for something like this, so I finally decided to share to others, to make it easier.
+
+
+
+Usage:
+
+Extract to any location.
+
+Open Mount Image file, replace **** with the path to where the image is.
+
+Run the Mount Image file in terminal.
+
+and start X-Plane
+
+
+
+If you want it to mount and the start x-plane at the same time then just add the follow to the end of the Mount Image file:
+
+'####/X-Plane-i686'
+or
+'####/X-Plane-i386'
+
+
+#### of course being the path to X-Plane executable.
+
+or use any other application to mount the image, and forget about the script.
+I just prefer doing it manually :)
+
+
+
+Enjoy!
+
+Da Iceman

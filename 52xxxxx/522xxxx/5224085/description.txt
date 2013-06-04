@@ -1,0 +1,15 @@
+GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring. It has many capabilities. It can be used as a simple paint program, an expert quality photo retouching program, an online batch processing system, a mass production image renderer, an image format converter, etc. GIMP is expandable and extensible. It is designed to be augmented with plug-ins and extensions to do just about anything. The advanced scripting interface allows everything from the simplest task to the most complex image manipulation procedures to be easily scripted.
+
+Main features:
+ A full suite of painting tools including brushes, a pencil, an airbrush, cloning, etc.
+ Tile-based memory management, so image size is limited only by available disk space
+ Sub-pixel sampling for all paint tools for high-quality anti-aliasing
+ Full Alpha channel support for working with transparency
+ Layers and channels
+ A procedural database for calling internal GIMP functions from external programs, such as Script-Fu
+ Advanced scripting capabilities
+ Multiple undo/redo (limited only by disk space)
+ Transformation tools including rotate, scale, shear and flip
+ Support for a wide range of file formats, including GIF, JPEG, PNG, XPM, TIFF, TGA, MPEG, PS, PDF, PCX, BMP and many others
+ Selection tools, including rectangle, ellipse, free, fuzzy, bezier and intelligent scissors
+ Plug-ins that allow for the easy addition of new file formats and new effect filters

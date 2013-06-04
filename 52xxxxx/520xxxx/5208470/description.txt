@@ -1,0 +1,37 @@
+Do you enjoy the new World Vision ads that add an extra 1-inch bezel to the whole f*cking program?   Do you like the smaller adspace at the bottom of the program window?  Me neither.
+
+This is a replacement DLL for TheWeatherNetwork's program "WeatherEye"
+
+Tested OS: Windows XP
+
+The Weather Network says it supports Windows 2000, XP, Vista, 7
+
+
+
+
+1) Download WeatherEye here:
+   http://weathercentre.pelmorex.com/install/twn/en/WeatherEyeDownloader.exe
+
+2) Install it
+
+3) Once you've got a System Tray icon, right click it, exit.
+
+4) Now copy the DLL you've just downloaded to:
+
+C:Documents and SettingsYOUR_USER_NAMELocal SettingsApplication DataTheWeatherNetworkWeatherEye
+
+(different for Vista, 7 .  Just search for weathereye.dll on your system, and replace the file)
+
+4b)Overwrite the file that's in there.
+
+5) Now open WeatherEye again. - POOF, no more 1 inch bezel of ads, and just a placeholder on the bottom.
+Clean as a whistle.
+
+Do leave comments as to your success.
+
+Tested with Windows XP SP3 and the latest WeatherEye 3.0.0.36 from the link provided.
+
+Lastly, this will probably stop working when a new version comes out.
+
+
+For the curious: I opened the dll with a hex editor, and "zeroed out" two instances of "adstart", no other changes.

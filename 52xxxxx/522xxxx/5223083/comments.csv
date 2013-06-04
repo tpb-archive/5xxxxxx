@@ -1,0 +1,52 @@
+User Type,Username,Date,Text
+,foikfaftw,2010-01-24T07:44Z,Stuck at 84% - seed please!  I will seed it for awhile when I get 100%
+[T],2mean2die,2010-01-25T04:51Z," foikfaftw at 2010-01-24 07:44 CET:
+Stuck at 84% - seed please! I will seed it for awhile when I get 100%
+
+
+Will be up and running again soon, had to re-install everything because of a virus. "
+,foikfaftw,2010-01-25T07:01Z,The reviews of this game (the Encore version) were pretty bad.  I've decided to get a free copy of Oregon Trail Deluxe for DOS and play in DOSBox.  It's actually funner than the newer versions.
+,Caji,2010-10-16T23:03Z,Will not setup. It stops at 94% and want go any further. I use ISO premium to try and load.
+,Fyropyro,2011-01-12T04:54Z,"I downloaded and it and burned it to a cd, setup went well, but when I try to run the game I get an error message says ""System cannot locate ""oregon.dat"" please make sure the cd is in in the drive""  Ive tried reinstalling, and it still gives same message. Even with the cd in the drive. Any suggestions?"
+,5v3nd0ttg,2011-02-05T02:06Z,"@Fyropyro: The game was made before new OS's like win7, ensure than the path it was installed to is actually in the Oregon5.ini file located in your install dir. Here is what i had to change mine to (standard install location) to get it to work.
+
+""rsrcpath=C:\Program Files (x86)\The Learning Company\Oregon Trail 5"""
+,Apathetic_Killer,2011-02-11T18:24Z,"Oregon.5.dat file not found. Make sure its located in the right place on the CdRom. Mmmkkk?
+I magic ISO'd to a disc, and I still get this error?"
+,Apathetic_Killer,2011-02-11T18:27Z,"And the files and folders are all in the right spots, from What i see too."
+,Apathetic_Killer,2011-02-11T18:30Z,"I dont understand why its not working, everything seems to be in place."
+,wickedspade4,2011-02-22T08:15Z,downloaded just fine but i got the same error as Caji..How do i fix this? I want this game..not going to seed until i get this resolved
+,1bdm1,2011-03-22T05:44Z,"To fix it and get it to work... open your c drive and go to program files, then to the learning company and Oregon trail 5. In there you will see a file called OREGON5(which is a configuration setting) and double click on it. Remove the {cdrom} line completely so all you will have in the file is:
+
+[Sound]
+music=on
+sfx=on
+speech=on
+buffers=20,2000
+rsrcpath=C:\Program Files\The Learning Company\Oregon Trail 5
+[game]
+intromovieid=100
+vfw=on
+speed=2
+
+[scores]
+hiscore1=Elisha Stephens;15835
+hiscore2=Stephen Meek;13492
+hiscore3=Celinda Hines;11673
+hiscore4=George Washington Bush;10340
+hiscore5=Thomas Knight;8771
+hiscore6=Ezra Meeker;6239
+hiscore7=Sherri;6134
+hiscore8=Jesse Applegate;5507
+hiscore9=Mary Bartlett;5198
+hiscore10=William Wiggins;4615
+
+Click on save and save over the old config file. 
+
+Launch the program and all should work. "
+,1bdm1,2011-03-22T05:57Z,"Also, (if using vista/windows 7) right click on the Oregon Trail 5th Edition icon on your desktop and click properties, then go to compatibility and click on change settings for all users. Then check run this program in windows xp sp3, and click to run as an administrator then ok, ok."
+,xtyrasage,2011-06-06T10:05Z,"This doesn't work. I mounted it with powerISO, it installed fine, and I tried to do what 1bdm1 said, but it said access denied when I tried to save the file. I've been looking for a working torrent of the Oregon Trail for a long time and haven't had any luck. :/ "
+,chickenchicken,2011-07-26T18:25Z,"It's a little trickier than just editing and saving, but it's possible. Make a copy of the OREGON5 config file and paste it to your desktop. From there, you can make the edit (deleting the ""cdrom"" line) and save with no problem. Then replace the original file with your new one."
+,claimex,2011-08-27T12:18Z,you can try my torrent as well if this one doesn't work out for you.
+,WhigBullMoose,2011-12-16T06:10Z,"Okay, I got it to work after the above comments didn't seem to do the trick. Do what the above comments say but make sure to copy the .dat file from the ""data"" folder on the .iso and paste it into your ""C:\Program Files (x86)\The Learning Company\Oregon Trail 5"" folder."
+,1Anarchy,2012-05-06T23:02Z,Works perfect. Kids love it. Thank you 2mean2die for the upload and 1bdm1 for the quick easy help.

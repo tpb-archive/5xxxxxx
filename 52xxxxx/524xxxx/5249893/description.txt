@@ -1,0 +1,37 @@
+December 31, 2009
+DVDFab 6.2.1.8 Updated!
+
+    * Happy New Year 2010 to all DVDFab users!
+    * New: Command line are fully supported, please read Commandline.txt in installation folder.
+    * New: Updated language files.
+
+DVDFab "DVD to DVD":
+
+    * Fix: A PathPlayer problem which causes reading error when copying "District 9".
+
+DVDFab "Blu-ray to Blu-ray":
+
+    * New: Added support for BD+ protection.
+    * New: Improved BD-Live removal.
+    * Fix: PiP(Picture in Picture) Blu-ray disc can be read correctly now.
+    * Fix: Multi-angle Blu-ray disc can be read correctly now.
+    * Fix: Backup disc cannot be played in certain cases.
+    * Fix: An output oversized problem when copying "Main Movie" to BD-25 with "Remove HD Audio" checked in certain cases.
+    * Fix: Estimated source size is not updated when switching "Remove HD Audio" option.
+    * Fix: A crash problem when opening Blu-ray disc in certain cases.
+    * Fix: A crash problem when copying Blu-ray disc in "Main Movie" mode in certain cases.
+    * Fix: A crash problem at start of "Clone" Blu-ray disc in certain cases.
+
+DVDFab "DVD to Mobile":
+
+    * New: Updated A/V codecs.
+    * New: "Video Effect Settings" window is resizable now.
+    * New: Added "Source Aspect Ratio" option in "Video Effect Settings" window, user can specify "16:9", "4:3" or customize it.
+    * Fix: A crash problem at end of conversion in 2-pass encoding mode.
+
+DVDFab "File to Mobile":
+
+    * New: Updated A/V codecs.
+    * New: "Video Effect Settings" window is resizable now.
+    * New: Added "Source Aspect Ratio" option in "Video Effect Settings" window, user can specify "16:9", "4:3" or customize it.
+    * Fix: A crash problem at end of conversion in 2-pass encoding mode.

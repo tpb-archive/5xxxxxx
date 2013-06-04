@@ -1,0 +1,22 @@
+├é┬╡Torrent is a small and incredibly popular BitTorrent client. 
+Micro-Sized Yet Feature Filled
+
+Most of the features present in other BitTorrent clients are present in ├é┬╡Torrent, including bandwidth prioritization, scheduling, RSS auto-downloading and Mainline DHT (compatible with BitComet). Additionally, ├é┬╡Torrent supports the Protocol Encryption joint specification (compatible with Azureus 2.4.0.0 and above, BitComet 0.63 and above) and peer exchange.
+
+Resource-Friendly
+
+├é┬╡Torrent was written with efficiency in mind. Unlike many torrent clients, it does not hog valuable system resources - typically using less than 6MB of memory, allowing you to use the computer as if it weren't there at all. Additionally, the program itself is contained within a single executable less than 220 KB in size.
+
+Skinnable and Localized
+
+Various icon, toolbar graphic and status icon replacements are available, and creating your own is very simple. ├é┬╡Torrent also has support for localization, and with a language file present, will automatically switch to your system language. If your language isn't available, you can easily add your own, or edit other existing translations to improve them!
+
+Actively Developed and Improved
+
+The developer puts in a lot of time working on features and making things more user-friendly. Releases only come out when they're ready, with no schedule pressures, so the few bugs that appear are quickly addressed and fixed.
+
+ChangeLog : 
+
+- Fix: disconnect issue with seeds
+- Fix: uTP over Teredo at high speeds, and MTU problems on some kinds of networks
+- Fix: Add translations to new graph strings

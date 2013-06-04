@@ -1,0 +1,33 @@
+ActFax has been designed for network-wide transmission and receipt of fax messages, as well as sending and forwarding fax messages by email. The software runs on any Windows version from Windows 95 or higher and also supports terminal servers. Due to the client/server architecture of ActFax, all data is stored centralized on the fax server. With the integrated fax client and the ActFax printer driver, faxing from any standard application is as easy as printing. For the integration of the fax service into own applications, ActFax offers various standardized interfaces. Due to the intuitive user interface, the installation and configuration of ActFax is done in just a few minutes. Since ActFax automatically detects and configures the available hardware, the fax server is ready for operation right after the installation. ActFax is also available for free download through the download area for in-depth testing.
+
+Features:
+# Terminal Server and Citrix support
+# Complete client/server architecture
+# Centralized data storage on the fax server
+# Data access from every workplace in the network
+# Sophisticated user, group and security concept
+# Support of all common fax modems (fax class 1, 1.0, 2 and 2.0), ISDN adapters and Brooktrout/Cantata and Intel/Dialogic fax boards (list of recommended modems)
+# Support of V.34 Fax (Super G3) for transfer rates of up to 33,600 bps
+# Support of VoIP/FoIP (Voice over IP/Fax over IP) with Eicon "Diva Server SoftIP" software
+# Support of Venali Web Fax Service
+# Unlimited number of fax lines (modems)
+# Faxing and emailing from any Windows application through native printer driver
+# Faxing and emailing from UNIX and Linux through LPD/LPR, FTP, TFTP and RAW-TCP-Port connections as well as import from the file system
+# Automatic routing of received fax messages with extension numbers (DDI, MSN, DID), station id (CSID) and line routing
+# Automatic printing of received fax messages and sending reports on different printers per user
+# Automatic forwarding of fax messages by email, also to multiple email addresses
+# Automatic export of fax messages
+# Support of the file formats PDF, Tiff, Multipage Tiff, GIF and BMP for email attachments and document export
+# Automatic definition of fax parameters (fax number, subject, priority, etc.) for fully automated fax messages from own applications through data fields
+# Formatting of fax messages from non-Windows operating systems with printer commands of HP-LaserJet (PCL), Epson-LQ, Postscript and PDF
+# Automatic archiving of fax messages
+# Central and private phone books
+# Direct access to Outlook and Exchange address books
+# Cover pages and overlays
+# Data exchange with external database tables through ODBC
+# Fax on Demand server and client (fax polling)
+# Least Cost Routing and automatic delayed fax transmissions
+# Email transmission through SMTP with direct Internet connections or RAS dialup connections
+# Support of HP Digital Sender 9100C and Xerox Workcentre series
+# Economical utilization of available resources for low hardware requirements
+# Automatic hardware detection and configuration by the setup program

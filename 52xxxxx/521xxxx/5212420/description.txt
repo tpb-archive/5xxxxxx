@@ -1,0 +1,125 @@
+L4D2 patch to 2005 files (inc. stryder loader)
+As described in  
+http://blog.theevilpc.com/2009/11/how-to-update-and-play-left-4-dead-2-no.html
+
+
+
+
+Game Details:
+
+Set in the zombie apocalypse, Left 4 Dead 2 (L4D2) is the highly anticipated sequel to the award-winning Left 4 Dead, the #1 co-op game of 2008.
+
+This co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.
+You'll play as one of four new survivors armed with a wide and devastating array of classic and upgraded weapons. In addition to firearms, you'll also get a chance to take out some aggression on infected with a variety of carnage-creating melee weapons, from chainsaws to axes and even the deadly frying pan.
+
+You'll be putting these weapons to the test against (or playing as in Versus) three horrific and formidable new Special Infected. You'll also encounter five new â€œuncommonâ€ common infected, including the terrifying Mudmen.
+
+Helping to take L4D's frantic, action-packed gameplay to the next level is AI Director 2.0. This improved Director has the ability to procedurally change the weather you'll fight through and the pathways you'll take, in addition to tailoring the enemy population, effects, and sounds to match your performance. L4D2 promises a satisfying and uniquely challenging experience every time the game is played, custom-fitted to your style of play.
+
+Here's how to play without Steam mucking everything up, and how to update without the need for Steam:
+
+
+Prerequisites:
+Microsoft Visual C++ 2008 SP1 - Download and install: 32-bit or 64-bit
+Microsoft's .net Framework 3.5 - Download and install .net 3.5
+
+
+Quick Setup:
+
+I. Install Left 4 Dead 2:
+Download and Install Razor's release or, better yet, grab the clean 2.0.0.0 files linked below..
+
+II. Update Left 4 Dead 2:
+Update L4D2 to the latest version using the update installers linked below.
+The Full Update will update any version of L4D2.
+Incremental Updates will update only one specific version to another specific version.
+After installing latest full/incremental update and/or hotfix, Please patch the game with the Loader again..
+
+III. Patch Game and play with Stryder's Loader:
+ No reg-fixes needed.  Less CTDs than RevLoader.  Best method to play SP, LAN, and online.
+
+First make a backup of your origianl left4dead.exe before installing. 
+Install L4D2_Stryder_Loader_dec8.
+Run IniGen.exe in root L4D2 folder to generate a custom stryder.ini file for your system and
+set your in-game name.
+Create a shortcut on your desktop to left4dead2.exe and click it to play!
+
+NOTE: Stryder's Loader will generate a log file [stryder.txt] and an error message after exiting the game.
+
+IV. Add Setti as the MasterServer:
+1. Download MasterServers.vdf from here: http://css.setti.info/code/masterserver/
+2. Create a folder named 'config' inside the 'bin' folder. [Ex. C:Program FilesLeft 4 Deadbinconfig]
+3. Copy MasterServers.vdf to the config folder, right click and set its attribute to read-only.
+4- Go to your L4D shortcut [used to launch game]. Right click it and select properties.
+5- In the shortcut tab, add -console -serverbrowser to the end of the target line. Click Apply and OK.
+6- Open the game, go into console and type: openserverbrowser.
+
+NOTE: PrivateCracked servers will now show up in the custom tab of the server browser.
+Favorite Servers can be saved as well as Server History.
+
+
+:DOWNLOADS:
+
+
+Stryder's L4D2 Loader_dec8
+[new loader includes stryder's fixed left4dead2.exe, stryder.dll, ini generator
+and new Name_Enabler via inigen.exe] 
+Download from:-
+
+Setti MasterServer.vdf
+For ServerBrowser Support of Private Servers.
+Direct Link
+
+Current Updates:
+
+Full Update:
+
+Full Update to 2.0.0.5
+[Repacked - now includes client and server files] 
+[28.9MB exe  137 MB installed]
+L4D2_Full_Update_to_2.0.0.5.exe
+Download from-
+
+File Checker for v2005
+Open this archive and extract it into yer Left 4 Dead Installation Folder. Run testfiles.exe.
+Download from:-
+
+Incremental Updates:
+
+Update from 2.0.0.0 to 2.0.0.1 
+[7 MB  32.4 MB installed]
+L4D2_Update_2.0.0.0_to_2.0.0.1.exe
+Download from-
+
+Update from 2.0.0.1 to 2.0.0.2
+[5.38 MB exe / 18.7 MB installed]
+L4D2_Update_2001-2002.exe
+Download from-
+
+Update from 2.0.0.2 to 2.0.0.3
+[4 MB exe  14.3 MB installed]
+L4D2_Update_2002-2003-
+
+Update from 2.0.0.3 to 2.0.0.4 -repacked
+[12.5 MB exe  59.7 MB installed]
+L4D2_Update_2003-2004.exe-
+
+
+Update from 2.0.0.4 to 2.0.0.5
+[3 MB exe  12 MB installed]
+L4D2_Update_2004-2005.exe-
+
+
+FULL clean 2.0.0.0 files: 
+left 4 dead 2 v2.0.0.0 files in 6 parts:
+[4.06 GB total parts 6.15 GB installed]
+Use 7zip to extract left 4 dead 2_v2.0.0.0.zip from the split archives.
+Then un-zip the entire contents to Program Files/left 4 dead 2.
+
+Download from
+Part 1
+Part 2
+Part 3
+Part 4
+Part 5
+Part 6

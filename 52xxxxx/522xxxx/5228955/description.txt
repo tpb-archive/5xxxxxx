@@ -1,0 +1,32 @@
+Star Trek: Elite Force 2 - By Ritual Entertainment.
+
+I have ported Star Trek: Elite Force 2 to Mac successfully!
+
+This great game was the Second last First Person Shooters, from the Ritual gods, Who made FAKK2, SiN, Sin Episodes, etc.
+
+This is a GREAT first person shooter, with one of the funniest multiplayer components ever!
+
+
+Update:
+
+Widescreen Support!
+
+
+To change into a widescreen resolution (Standard is 1920x1200),
+Right click on the file -> Show Content
+
+and navigate to:
+
+Contents -> Resources -> transgaming -> c_drive -> EF2 -> base
+
+Right click on the file: frederikschreiber.cfg, and open with TextEdit.
+
+Find the lines:
+
+seta r_customwidth "1920"
+seta r_customheight "1200"
+
+and change the numbers to your screen resolution.
+
+
+Good Luck! :)

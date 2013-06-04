@@ -1,0 +1,17 @@
+Version 2.51.1021 includes:
+
+FIXES:
+
+    * fixed problem with subtitles embedded in mkv files with new parser/renderer
+    * EVR aspect ratio fixes
+    * fixed problem with EVR in full screen mode, some areas was not completely black
+    * under Vista and Windows 7 some decoders couldn't be added in 'Filter management', fixed
+    * local codec system fixes (codec reinstall required)
+    * fixed problem with power savings options (monitor powering down) on laptop computers
+    * some other minor bug fixes
+
+ ADDITIONS:         
+
+    * added option to disable embedded subtitles
+    * custom extension can now be added in Vista and Windows 7 (UAC prompt will be displayed)      
+    * added second online subtitle provider getsubtitle.com

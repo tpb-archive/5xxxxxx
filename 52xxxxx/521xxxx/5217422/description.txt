@@ -1,0 +1,72 @@
+note: soft subs are embedded.  Subs will play on Apple TV, iTunes, Quicktime, VLC, others possibly.  If for some reason you need raw srt subs then refer to the PiZ release.  Hold down the play button on Apple remote to select subs, or change your settings to play eng subs by default.  Let me know if they work on ps3 or 360.
+
+Unfortunately popcorn hour will not even play this file due to it not understanding Type: sbtl:tx3g handler code, nor will it play the subs if Type is text:tx3g (however it does play the file).  So in order to play on popcorn you will have to remove track 3 and 4.
+
+MP4Box -rem 3 -rem 4 District 9.m4v
+
+and then just use the standard .srt files from the PiZ release and notes.
+
+You can remove the tracks with Yamb also.
+
+This bug has been reported to popcorn hour here: 
+http://www.networkedmediatank.com/showthread.php?tid=32549
+
+But unlikely they will address it.
+
+-HR
+
+
+---
+
+Source: District.9.720p.BluRay.x264-METiS
+
+Poster: 
+http://bayimg.com/image/haemlaacn.jpg
+
+Icon: 
+http://bayimg.com/image/haemmaacn.jpg
+
+Snaps: 
+http://hiderefer.com/?http://img709.imageshack.us/img709/5091/vlcsnap2009121411h42m29.png 
+http://hiderefer.com/?http://img189.imageshack.us/img189/135/vlcsnap2009121411h42m41.png 
+http://hiderefer.com/?http://img44.imageshack.us/img44/8509/vlcsnap2009121411h43m07.png 
+http://hiderefer.com/?http://img706.imageshack.us/img706/4474/vlcsnap2009121411h38m01.png 
+http://hiderefer.com/?http://img51.imageshack.us/img51/7349/vlcsnap2009121411h38m31.png 
+http://hiderefer.com/?http://img31.imageshack.us/img31/6164/vlcsnap2009121411h39m46.png 
+http://hiderefer.com/?http://img52.imageshack.us/img52/7465/vlcsnap2009121411h40m45.png 
+http://hiderefer.com/?http://img691.imageshack.us/img691/9024/vlcsnap2009121411h41m59.png 
+http://hiderefer.com/?http://img691.imageshack.us/img691/2417/vlcsnap2009121411h42m23.png
+
+--------------------------------------------------------
+
+Designed for direct playback on Apple TV, PS3, Xbox360, Popcorn Hour, VLC.
+
+Apple TV is the perfect way to enjoy HR HD on your HDTV.
+
+Apple TV on eBay: 
+http://computers.shop.ebay.com/Apple-TV-/168058/i.html?_npmv=3
+
+Apple TV (160gb) at Apple.com (currently $229 free s/h) 
+http://store.apple.com/us/browse/home/shop_ipod/family/apple_tv
+
+Apple TV (40gb refurb) at Apple.com (currently $149 free s/h) 
+http://store.apple.com/us/product/FA711LL/A
+
+--------------------------------------------------------
+
+Apple TV enhanced (CABAC) profile basic specs:
+
+Video:
+Encoder: CABAC, AVC
+Profile: High@3.1
+Bitrate: 1920 Kbps
+FPS: 23.976
+Rate Control: 2 pass
+
+Audio:
+Channels: Stereo
+Bitrate: 160 Kbps
+
+--------------------------------------------------------
+
+-HR

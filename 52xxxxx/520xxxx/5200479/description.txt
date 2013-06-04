@@ -1,0 +1,13 @@
+This is SimCopter.
+
+Many of you will remember it as the game with the horrible graphics but really fun gameplay where you get to fly around in SimCity 2000 cities putting out fires, rescuing idiots, chasing down runaway trains and so on.
+
+This has been one of my favorite Maxis games ever since I got it -- right up there with:
+
+* SimTower, which they actually just translated from Japanese into English
+
+* SimCity 2000 + SCURK
+
+This won't play straight off the CD unless you have a glide.dll installed, but if you use the installer, it will be installed and then it should work. (Hopefully, it won't overwrite any glide wrappers you might have installed...) Which is kind of strange, because I didn't think SimCopter *used* any hardware acceleration, and I certainly don't have the Voodoo 1 that the included glide.dll seems to be intended for, so it makes me wonder why (a) they didn't just use LoadLibrary() to load glide.dll and (b) they didn't test that running it off the CD on a plain Windows system worked for this release. I'm pretty sure it worked with my old SimCopter CD...
+
+Note: This might seem obvious to many of you, but if you want to edit the cities or create your own, you should hunt down a copy of SimCity 2000 Special Edition and use either the game or the accompanying copy of SCURK to create / edit cities.

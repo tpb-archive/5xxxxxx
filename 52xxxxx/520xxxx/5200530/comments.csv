@@ -1,0 +1,12 @@
+User Type,Username,Date,Text
+,eddietah,2009-12-07T01:46Z,is this working?
+,mr357magnum,2011-04-03T14:31Z,"If you get an error saying ""MODE NOT SUPPORTED"" because your monitor or TV does not support the Games Default Resolution, then here is the fix:
+
+All you have to do is, go to your shortcut on the desktop, right click go to properties. There should be text ""Target"" and next to it a line of coding like this ""C:\Program Files\Left 4 Dead 2\left4dead2.exe"" 
+
+Change ""C:\Program Files\Left 4 Dead 2\left4dead2.exe"" to ""C:\Program Files\Left 4 Dead 2\left4dead2.exe"" -w 1024 -h 768 or what ever your Monitor or TV Supports.
+
+That should force it to start up with those dimensions. Also if you wanna skip the video in the beginning, type -novid after -h 768
+"
+,zahej,2012-07-11T15:35Z,"TNX man it totally works.
+when i downloaded the game the first time it diddnt work. but when i put this in it worked perfectly TNX ALOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOT"

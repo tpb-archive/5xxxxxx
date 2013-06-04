@@ -1,0 +1,866 @@
+User Type,Username,Date,Text
+,drklevl,2010-01-09T02:10Z,"thank you !!!!
+"
+,AronMosh7,2010-01-09T02:13Z,"Thank you so much even though i am not a big mac fan, i will try this on virtual pc on windows 7 to see how it goes"
+,cclloyd,2010-01-09T02:17Z,"It will not work on a virtual environment unless you run it from a mac, or from osx on your PC."
+,AronMosh7,2010-01-09T02:53Z,"oh, that sucks"
+,zaibazu,2010-01-09T03:29Z,So is this release only for use with a USB stick or can it somehow be put on a DVD ?
+,cclloyd,2010-01-09T05:39Z,You can use it on a DVD if it has the capacity (at least 6.5 GB)
+,a.skiller,2010-01-09T07:59Z,can i use an external hardisk to install it
+,meroonberet,2010-01-09T13:23Z,nobody seed
+,cclloyd,2010-01-09T18:28Z,"@askiller
+
+You just have to partition it to 32 GB or less, and format it to fat32.
+
+@walictwo
+
+Yes your specs seem capable.  Although i am unsure if they will be fully functional like i was on one computer.  Go to OSx86 to see a full list of fully compatible software."
+,Pfyber,2010-01-09T19:06Z,HI. Will it work if I burn it on 2 layer DVD? 
+,spyserve,2010-01-09T19:06Z,"Hi cclloyd, you've said this iso is not bootable under vmware, but how could it be under usual way ? I mean vmware simule the same boot process as a real machine ... its strange ! 
+
+And what is the difference with the release : ""Mac Os X Snow Leopard Universal 10.6 v3.5"" 
+
+Because this release dont work for me and im afraid it will the same with your release ...
+
+Boot --> Darwin x86 ""Press any key to boot ..."" --> then reboot and so on (in loop) ....
+"
+,cclloyd,2010-01-09T20:12Z,"That happened to me when coding.  Thats why if it doesnt work after installing, use the boot flags
+
+amd_kernel -v -x32
+
+no matter what system specs you have it should boot up.
+
+It cant be used under VMWare because when you boot up, it uses areas of your proccessor that are unaccessable and unrecognizable by windows.  You can do it though once you use it from a mac.
+
+And yes you can burn it to a 2 layer DVD as long as it is on 1 side (not double sided DVD) UNLESS you have a dual sided DVD drive where it can read the other side without having to flip it."
+,Pfyber,2010-01-10T10:11Z,Ok thanks... do I have to use rebel EFI or something.. or just regular boot?
+,spyserve,2010-01-10T16:49Z,"Ok thanks, iam burning it, i have created a new partition (ntfs) ... and now what iam supposed to do ? I reboot on the dvd, and after how can i convert my partition into HFS+ ? Because you cant have disk utility without the USB or is it include in the DVD ? 
+
+THks"
+,spyserve,2010-01-10T16:59Z,I have boot on the DVD and i got this message : Operating System not found ... :(((
+,spyserve,2010-01-10T17:46Z,"I guess this version (uniFlash) is optimised to boot on a usb flash disk only and not from a dvd ... 
+
+Anyone can tell if that work with usb key ?"
+,cclloyd,2010-01-10T18:29Z,"I guess thats why.  When you format your USB with the files inside this, it auto formats to HFSJ.  If you could do that with a CD, then it would work, in theory.
+
+And one last thing, make sure you choose device mode on USB IT when putting this on your USB."
+,findermix,2010-01-10T20:46Z,"Tip:
+There are so many problems it is better to install Windows 7 or better to buy a Mac"
+,spyserve,2010-01-10T21:40Z,"Ok i'll try out this when i will have an usb stick ... 
+
+For the amd_kernel -v -x32 boot flag, it dont work and with the voodoo too ... 
+
+I see brievly a white screen and then it reboot ... again and again ... 
+
+For info, i got a labtop with Windows 7 64 bits / Core i7 72O  ... does it could be problematic ?"
+,spyserve,2010-01-10T22:49Z,"now i can boot on the usb stick, but for every boot flag i try (without,amd_kernel,voodoo) it dont work !!! A few lines appear on the screen very quickly and then my computer reboot ... no OS Install Screen ! 
+
+Is there any tips or solutions to resolve this problem ?
+
+PS/ For info, USBit was dont working for me, i do this with WinImage (http://www.winimage.com/download.htm) ..."
+,cclloyd,2010-01-10T23:33Z,it probobly didnt work because you didnt restore in device mode.
+,maffiakillen,2010-01-10T23:58Z,"Sorry TPB but if have to help the community. While the site don't work, all leave a temporary link here so you can download. There are not just one seeder, there are more but the site have difficulties. Till then can back again here
+
+http://www.google.com/search?as_q=Mac+OS+X+10.6.2+Patched+for+PC+UNIVERSAL&hl=en&num=100"
+,spyserve,2010-01-11T00:24Z,"USBit dont work for me, i got an error message when i select the file (code 32) and i cant change the mode (its volume) the field is disabled ... 
+
+this is the first time i have so many problems to install an OS, ALL methods i've finded on the web dont work for me and they all conduct me on the same problem : rebooting after the darwin bootloader ... (with USB / DVD or even VMware method ) ... This is an hardware problem for me but i cant find it ..."
+,spyserve,2010-01-11T01:11Z,"After reformating my usb stick and run USBit with administrator rights, i will able to mount the image in ""Device Mode"".
+
+I reboot just after and i've still the same problem :( ! 
+
+I have the last lines whose appear on my screen before the reboot : 
+
+""efi_inject_get_devprop_string NULL trying string data
+Loaded HFS+ file : [Extra/smbios.plist) 
+Patched DMI Table.
+No DSDT replacement found. Leaving ACPI data as is 
+Starting Darwin x86""
+
+... any ideas ?
+"
+,RobertWHurst,2010-01-11T12:37Z,Awesome! Thank you. your instructions are great. I was trying to find out how to install from windows without OS X before hand. You are the only one that has provided that info thanks again.
+,eskimoz,2010-01-11T20:37Z,"Istallion freezes to ""AppleDecrypt: Starting..."" just after darwin load, i dont even see apple installion logo or installer.. any ideas? last version did same to me, i have msi P31-neo and intel E2xxx processor with 8800gts (320mb)"
+,cclloyd,2010-01-11T21:55Z,"DibYaTPB-
+
+No because it is meant for PC aka Windows.
+
+
+Eskimoz-
+
+That means that your BIOS cant handle Mac OS X."
+,eskimoz,2010-01-11T22:59Z,"Now i tried to instal this to msi P35 neo-f motherboard and only way i can get installer to start is by setting ""cpus=1"" without that it reboots.. but, when i get to installer and tried to format partition yms, installer didnt find my harddrive..=// it found only my memory stick, any ways to get installer to find my motherboard? i have some kind of modded bios for mac!"
+,maffiakillen,2010-01-12T04:03Z,"hey cclloyd! Let me thank you first of all. 
+
+During the installation it never ask to to build an admin account and now I trying to install customized drivers for my pc acer 8930g powerfull laptop but I can't get it working. Besides when I try to update anything it is asking me for administrator's name and password and it never asked me at all during installation. I am not quit satisfied with the screen resolution since I have full HD. Is it possible to install Nvidia Cuda. Gogglet a lot. With Linux it was much easier. Just fill in with new kerner. I read somewhere if it was possible to replace the kerner darwin with linux 2.6  lol  I know here isn't the place for forums but I need the admin password so I could go throw the rest with googles help. Thanks again cclloyd!"
+,maffiakillen,2010-01-12T04:20Z,cclloyd. I have intel core 2 duo processor. And intel chipset. And intel wireless (it don't help anyway unless it is airport) A lot of work to get that inte wifi 5100 abgn to work. To the subject. Should I try you earlier torrent or not? Or was it enough when I customized this one?
+,rocketero,2010-01-12T11:49Z,"I'm using Windows 7 32bit to download this torrent, and after downloaded it, I check the MD5 checksum and all was OK.
+
+But I am trying to use PowerISO and UltraISO apps to burn the dvd, but once I try to point to the .IMG file PowerISO and UltraISO says that is the wrong format or is not an Image File.
+
+Any help here is appreciated."
+,killerxtinct,2010-01-12T13:15Z,"my pc specs are 
+win 7
+1gb ram
+260gb sata hdd
+can i run mac os smoothly
+n can any1 mail me detailed info on how to install it in simple language
+robin . prototype @ gmail.com
+remove the spaces"
+,AnotherBoy,2010-01-12T15:18Z,"I did a successful installation of the following machines:
+
+Asus P5LD2
+Intel 945P/Intel ICH7R
+Intel C2D E4400 2.0GHz
+A-DATA 2 x 1GB RAM DDR2
+SEAGATE 300 GB HDD
+WD 500 GB HDD
+Lacie 500 GB HDD
+Galaxy 7300GT 256 MB DDR3
+Realtek ALC882
+Marvell 88E8053 PCI-E Gb LAN controller
+LG CD-DVD/RW
+LG 42LG5000 1920x1080, 60Hz
+
+Everything works fine except:
+
+ALC882 (VoodooHDA) - only 2 channels work, but I continue to seek a solution for 5.1
+Galaxy 7300 GT (Natit, NVInject, NVEnabler) - work fine (native resolution), but without OpenCL/QE/CI, but I continue to seek a solution.
+
+If anyone knows anything about it, thanks in advance for shared information.
+
+Good luck to all!!!"
+,youwei3,2010-01-12T16:38Z,"I have an acer PC but can't boot with Mac OS X 10.6.0 Patched for PC UNIVERSAL . 
+I hope Mac OS X 10.6.2 Patched for PC UNIVERSAL will works..."
+,AnotherBoy,2010-01-12T16:48Z,"youwei3,
+
+check your correct BIOS settings to make success installation. You can find info about your MB and BIOS at google.com"
+,spyserve,2010-01-12T19:58Z,"@eskimoz Check your BIOS setting (ACHI enabled for your HDD) ... remember IDE dont work, only SATA ... 
+
+@others : this release dont work with a burned DVD, its only with a usb stick ... but after that your PC need to match with hardware requirements (kernel & DSDT in particular) of MAC OS X and that's not a piece of cake ! Believe me !
+"
+,aagaliarept,2010-01-12T22:33Z,"@cclloyd
+
+When you say this is x32 compatible, do you mean it can run on a 32 bit processor or that it can run in 32 bit mode on a 64 bit processor?
+
+@spyserve
+
+You state this only works on sata. I originally tried an older version of OS X on an AMD laptop with a sata drive and had trouble since the harddrive was never detected by OS X. From what I had read online it seems there were few if any drivers for the sata drives and it was recommended to stick with IDE. I am now trying this on a different laptop with IDE drive but I haven't tried this version yet. Can this version only be used on sata drives? Is there a workaround?
+
+Thanks in advance."
+,cclloyd,2010-01-12T23:04Z,"@aagaliarept 
+
+It can run on a x32 bit proccessor as long as you use the boot flag -x32"
+,maffiakillen,2010-01-13T00:19Z,"cclloyd!  cccllooyd!
+
+Do you know the admin pass, or it is not supposed to install new software, updates, and driver??
+
+Do you know the admin password or should I re-install and see if I missed somethin during the installation? Don't think so, need your reply about that, the admin user name and pass?  Thankyou"
+,aagaliarept,2010-01-13T00:31Z,"@cclloyd
+
+Are there any restrictions on using a sata or an IDE drive with this OS X?"
+,biatchslapper,2010-01-13T15:12Z,"There's no way disk utilities to find my new created partition. I shrinked C: and now i have 20gb new partition, it's active, but in mac os installation trough the usb stick, disk utilities can't find the partition, can't find anything than the usb stick. What should i do? My partition is NTFS, does this matters?"
+,biatchslapper,2010-01-13T22:36Z,Ok i installed it but how to fix sound and video and mac os x can't detect my internet connection.
+,cclloyd,2010-01-14T02:29Z,"As i said, it will install, but might not be fully functional.  If you want you need to search for a driver for 10.6.2 which are very limited.  Most of them are on OSx86 dot com"
+,Azure.Sky,2010-01-14T03:32Z,"I booted it up and typed in -v but...
+
+I got stuck at, ""Startup in nanoseconds: random large #"""
+,night.afg,2010-01-14T07:47Z,What modifications did you do from the original snow leopard installer? thanks
+,maffiakillen,2010-01-14T12:11Z,"Every windows guys...  if you want to see your volume och make volume   type  ""diskmgmt.msc""  in run commantask, "
+,maffiakillen,2010-01-14T12:16Z,"This will work with desktops but not so well with laptops.... unfortunaly...  you can install and use but not get all the feature... Here is a link for wich motherboard it will work, grapihic card and sound, and ethernet, and wirelss for this patch
+
+http://wiki.osx86project.org/wiki/index.php/HCL_10.6.2"
+,Anathemae,2010-01-15T06:12Z,"When I try to boot the USB it runs for a few lines and then? halts, the last few lines are something like Extension ""com.apple.driver.ACPI_SMC_Pla tformPlugin"" has immediate dependencies on both com.apple.kernel and com.apple.kpi components; use only one style. I've tried booting with -x -v, -v -f -x, -v -f -s, cpus=1 -x -v, cpus=1 -v -f -x, but it still halts at the same point. I've looked everywhere for a solution but I cannot find one."
+,unchi,2010-01-15T13:44Z,Hey. When can we get the AMD version? I almost waited for one month. Thanks.
+[V],thethingy,2010-01-15T19:14Z,"HEY, unchi, this is it, try reading the description.
+
+This one works on toshiba satellite pro psa family for any one who has one."
+,unchi,2010-01-15T21:25Z,Why don't you create DVD version not like this one? Please release DVD version. Thanks.
+,happyguru,2010-01-16T08:10Z,"@ cclloyd
+ok i got question i was not able to install ur pervious version of snow leopard. it not that my pc dont support mac, i am running mac os x.5.8 but it takes like 6 mins to open. so can i install this one sucessfully?"
+,jinzou,2010-01-17T02:16Z,"@biatchslapper : i am having the same problem you were having, where the disk utility can only see my usb flash drive. How did you fix this???"
+,aman369,2010-01-18T09:58Z,pleaseeee seed!
+,cclloyd,2010-01-19T03:32Z,"ATTN:  If the installation cant see you partition or drive, on windows, create a simple partition, and DO NOT FORMAT IT, but add a drive letter to it.  Then it should see it.  And if you install Mac Drive 8 (on TPB) you can even browse your mac partition from your windows."
+,lateef4u,2010-01-19T13:05Z,Hey dude thanx 4 da upload and i hav installed eceryhin was runnin well except my sound driver which is creative xfi xtreame audio so wat shud  do i updated my os now at loading cross line in a circle apears on apple symbol it stops there only after update restart this is happenin before everythin was well runnin exept i beleive i have to reinstall it dats no probz any help regardin audio
+,youwei3,2010-01-19T15:04Z,seed!!plz
+,spyserve,2010-01-19T22:41Z,"I've finded a solution (which works for every hardware config!) using a VMWare image of the Mac OSX SL 10.6.2 installed. 
+
+Every boot problems/hardware bugs are avoided with that method ! But this solution is reserved if you cant run Mac OSX from classics hackintosh methods ! Be aware !
+
+If you've tested unsuccessfully all previous methods (such as this one) check here : 
+
+http://mahmood1.com/Vmware_Virtualization_Windows.aspx
+
+Everything is explained ! That the only one which works for me !"
+,Andreasnordbo,2010-01-20T08:57Z,Can i boot this with a Ipod. If so how?
+,take311,2010-01-20T20:50Z,please help meee!! is there any other tool to make this boot from usb? USB image tool is not working for me! 
+,spideypunk,2010-01-20T21:03Z,"can anyone please tell me if this will work with these specs
+MEDION® AKOYA® E1311 
+
+1.5GHz AMD Sempron 210U, M690E chipset and ATI Radeon Xpress 1250 graphics. Other specs include 1GB RAM, 160GB HDD, Bluetooth, 1.3MP webcam, Wi-Fi (draft-N), HDMI out and a 2200mAh battery.
+
+I want to buy a laptop to run this so my choice is vital. 
+thanks so much!"
+,the_house123,2010-01-20T21:40Z,"Cclloyd, thanks for uploading this!!!
+
+However Iv got a problem. 
+
+Iv got windows 7 installed on one HD no problem and im trying to install Snow leopard to the other HD. 
+
+however once the installer starts, my keyboard and mouse stop working completely (connected by usb and I have no ports for the old style keyboard/mouse) and I cannot complete the install (or even start it for that matter).
+
+Please advise :) "
+,soapdude,2010-01-22T20:04Z,Can't get a good download rate??? seed? averaging: 55 Kb/s
+,TimoWorld,2010-01-22T21:29Z,"I restored the image succesfully with USB it.
+When I try to load the installer, it just hangs on the second screen with all the text (the one with the smaller font). I tried almost every possibly combination of the startup flags. I'm using a 64-bit AMD processor. voodoo -v should work for me, right? I also tried putting -x32 behind it. It doesn't work?
+I'd love it if somebody could help me."
+,plopbellie96,2010-01-22T22:05Z,will this work if you burn it to a cd. its not working when i use usbit for my 8gb flsah drive
+,plopbellie96,2010-01-22T22:24Z,nevermind it was because i had that cruzer partition still on my flash drive it was messing it up
+,plopbellie96,2010-01-22T22:47Z,nevermind again srry for all the comments. i use usb it on windows to burn the image to my flash drive. then when i go to boot from it (i select f12 then select usb drive) it gives me a flashing line in the corner like im waiting to input text ive left it there for a day and nothing please help!
+,cclloyd,2010-01-23T19:52Z,"Then your flash drive probobly didnt format correctly.  Format it to NTFS (not quick format), then make sure you use USBit to restore the image IN DEVICE MODE!"
+,plopbellie96,2010-01-23T22:34Z,ok tahnaks i was formatting it as fat32 because that all mac computers recognize but then i was thinking im using this on a pc lol
+,plopbellie96,2010-01-23T22:56Z,another problem i cant put it in disk mode because it is grayed out on usbit
+,arshiay,2010-01-24T09:24Z,"hi i download and restor to usb but when i boot in usb it stay in boot0: done and repet it again and again??
+what can i do?"
+,plopbellie96,2010-01-24T16:48Z,"OMG Everything Thing is working fine after downloading a couple kexts. Screen Resolution is at 1400x900 ( ithink thats what it is), all usb's working, onboard wireless internet card working. a Dell Xps M1530 is made for this! Now i have a macbook pro. If you have this laptop label your specs and i may be able to help you with your kexts after you install this great software by cclloyd!"
+,spideypunk,2010-01-25T00:12Z,"@plopbellie96
+can you please help mate my machine boots into this great but nothing works and cant find the kext (or where to put them)
+its an emachines e627
+http://www.amazon.co.uk/Emachines-Laptop-Athlon-Windows-Premium/dp/B002SG7KBQ
+much appreciated! :)"
+,jblunden,2010-01-25T00:50Z,Is this only for USB or can i burn it to a disk too?
+,arshiay,2010-01-25T12:08Z,"hi and thank for upload
+plz help for vostro 1500 nvidia 8600 256 
+and lan driver 
+where can i download these driver?"
+,Ridicu,2010-01-25T16:16Z,"Could someone PLEASE tell me if this works on Dual layer DVD or not. Yes or No, once and for all."
+,unchi,2010-01-25T16:19Z,It did not work with dual layer DVD. People told that to us already also.
+,0zten,2010-01-26T01:53Z,"Hi. When i try the boot flags it says ""Can´t find mach_kernel""
+Do you know why?
+I can´t find my motherboard in the list of compatible hardware. Is that why?
+Its a Asus P5GD2-X.
+Is the list really complete?
+I couldnt find it until version 4.9"
+,tmhle241,2010-01-26T01:57Z,"how about  'BOOTMGR is missing/Press Ctrl+Alt+Del to restart' sir. I have properly format it in NTFS (no quick format). then Press 'Restore' button in USB IMAGE TOOL, mount and press OK, after abt half of hour, it's done. Make primary partition in window and make it active. Restart. Choose boot from usb in bios, then it say  'BOOTMGR is missing/Press Ctrl+Alt+Del to restart', i don't know what i did wrong. And what is ""in device mode"" ccloyd? could you help me pleasezzzzzzzzz :("
+,green98ls,2010-01-26T06:30Z,"are you formatting this in windows?  I tried to format my usb drive NTFS and windows wont let me, it fails at the end.  I tried in Linux with gparted but NTFS isn't selectable. 
+
+any suggestions?"
+,PirateSabin,2010-01-26T15:27Z,"I can get the installer to load successfully if I use the boot command ""voodoo -v -x32"", but when I go into Disk Utility to format my disk to HFS+, then only disk I see is the USB flash drive that is running the installer.
+
+I have three IDE hard drives in this box.  The first is the primary system (Windows XP) drive formatted as NTFS. The second is unformatted but has a set drive letter (as the comments suggested was necessary) and is set as a primary drive and active. The first is formatted NTFS (though I also tried FAT32) and is set as a logical drive, but it is also hosted via a separate BIOS card.
+
+What do I need to do in order to detect any of these disks (particularly the second one)?  Please help!  :)"
+,rsca21,2010-01-26T15:45Z,"seed please, I see people downloading at 350 kb/s, but I'm stuck at 90kb/s"
+,red-liner,2010-01-26T19:07Z,"having the same problems as PirateSabin, loads into installation screen fine but no hard drives are recognized just the usb stick. any solutions?"
+,red-liner,2010-01-26T19:09Z,whoops forgot to say i dont need to use any boot commands as it loads fine without any of that.
+,roykuhhhh,2010-01-26T20:01Z,"Is this version multilangual?
+I not, is it possible to download other languages?
+
+Thnx.. Roy"
+,red-liner,2010-01-26T22:37Z,"yes it is, options to select language before install"
+,PirateSabin,2010-01-27T03:00Z,"To clarify, the drive I mentioned as a logical drive on a separate BIOS card is my THIRD drive, not first."
+,bmnott,2010-01-27T07:45Z,How to install as only OS?
+,anon1832,2010-01-27T12:24Z,"Same problem as PirateSabin and red-liner:
+
+I have one SATA drive with 3 primary partitions and then logicals, 1st is /boot, 2nd is ubuntu, 3rd is win 7, and I was hoping to either install OSX in one of the logical partitions or, just replace win 7. Nothing shows up in the ""select destination"" window or the Disk Utility, only the USB key shows up."
+,roykuhhhh,2010-01-27T14:45Z,"Hello,
+I have installed this without problems, but after the install he shows me I have no keyboard connected to my computer, but during the install I have used the same keyboard and it worked.
+
+Please Help!
+Thnx Roy.."
+,cowspoo,2010-01-28T00:23Z,"I'm worried about setting the new partition to ACTIVE. If it doesn't boot from my usb, I won't be able to get back into windows... Yet, if i just restart and boot from usb it doesn't work and just boots to windows. If i set the new partition to ACTIVE will i be able to login again?"
+,ztr337,2010-01-28T04:36Z,"@
+
+PLEASE HELP!! I restored this image using usbit onto my 16g cruzer flashdrive under device mode after fully formatting it into NTFS. My computer will not recognize it as bootable at startyp. I tried emulating it as a cdrom, hard disk, and fdd and still no luck.
+
+specs:
+amd athlon II 6000+
+3gb ddr2
+asus m4n78 pro mobo"
+,PirateSabin,2010-01-28T04:40Z,"ztr337:
+Might want to make sure your BIOS is up to date.  Try the tool ""BIOS Agent Plus"" from Phoenix."
+,cowspoo,2010-01-28T04:41Z,"@ztr,  
+
+You must uninstall u3 off your cruzer micro usb. Google "" uninstall u3"" download the program, then reformat the usb drive NTFS ( not quick format) then RESTORE the image.
+
+
+@everyone else, 
+IN the disk utiltiy, i only see my USB. I don't see the partition. I've tried it with unallocated and with an assigned drive letter."
+,t3fa,2010-01-28T08:31Z,"@cowspoo
+me too :(
+it doesn't seem to recognize S-ATA HDD 
+and if i plug in a P-ATA the installation doesn't even load it
+couldn't find a solution for this problem yet :(
+btw i got an asus p5q
+@ everyone else
+if you get to startup with the flash disk
+but got stuck at the black screen with white writings (try to update your bios with another one osx ready ) google is ur friend"
+,cowspoo,2010-01-28T10:17Z,"@t3fa, i couldn't figure it out. Right now i'm working on another approach. im trying to setup my usb to work with Kalyway 10.5.2. It's optimized for dvd, but i don't have any. I'll let you know how the installation goes"
+,roykuhhhh,2010-01-28T12:48Z,"PLEASE HELP!:
+I've installed it without problems, but when I tried to use EASYBCD, it says that it cant find a vista boot file. But I've installed windows 7, no vista. And now its impossosible tot make the dual-boot. When I now startup the PC it shows me the apple icon and a loading sign but thats all. Even after a hour nothing happened. To go inside the Mac OSX I have to boot my USB and then reinstall Snow Leopard.
+
+PLEASE HELP!
+Thnx...Roy"
+,t3fa,2010-01-28T17:17Z,"hmm i read a guide made by guy named IanT (same guy who made the 132 mars boot disk)
+anyway he says i need a ATA-kext  so that the installer detect ATA drives 
+the kext is included in the 132mars boot disk 
+
+but i will try again tomorrow coz i'm fed up with searching & reading searching & reading :P
+
+"
+,cowspoo,2010-01-28T17:44Z,"@t3fa, go to your bios and switch everything that says IDE to ACHI, it will find it then, however you wont be able to boot back into windows. so when youre ready to go back to windows go to your bios and find the Load optimized defaults, press enter so everything is set back to IDE. It will see your HDD's. dont give up, i need some help in the next step! i havent made it yet. I'm nervous about the bootsector part now"
+,t3fa,2010-01-28T18:02Z,"@cowspoo
+lol i was just going to tell you that :D :D
+tried to do so and it worked :)
+
+http://www.insanelymac.com/forum/index.php?showtopic=137296
+
+have a look @ this "
+,cowspoo,2010-01-28T18:25Z,"t3fa, have you installed it yet? I cant figure out how to format my drive.
+
+If i go to Erase, then select the volume format of ""mac os extended ( jounalized)"" will it do the entire disk or just that partition"
+,t3fa,2010-01-28T19:21Z,"it depends on what u chooose from that list on the left if you clicked on a partiotion it will erase only that partiotion 
+anyway i can't format it it erases the data on the partition without formating it 
+if i click on the hdd name a new tab appear (partition) there are couple of new options to format but they are grayed out :(
+i'm now searching for a software to format the partition from windows :)
+will tell you if i managed to format it"
+,cowspoo,2010-01-28T22:07Z,"Possibly, hopefully, my last step! In easybcd, i added the entry for the mac but it put the NST folder on my C drive, when my mac installation is on another HD. I cant transfer the files, windows wont let me. What's a solution?"
+,green98ls,2010-01-28T23:04Z,"I was able to get this loaded on a Studio XPS w/ C2D.
+
+Format the USB drive NTFS, if it keeps failing, try a different usb drive. then restore the IMG with the usbit program included.
+
+Make a partition from windows and mark it as active.
+
+reboot from the usb drive"
+,cowspoo,2010-01-29T00:27Z,Ive installed it and finally made it boot. Now stuck at a screen that says hold the power button to restart. -x32 -v only brings up a ton of code and freezes it seems. What's next
+,vuonganhquyen,2010-01-29T19:00Z,"Hello cclloyd!
+My pc specs are
+Dell inspiron 1440
+Window 7 Ultimate
+IntelPentium(R) Dual-Core CPU T4400 @ 2.20GHz, 2194 MHz (Instruction Set: x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3)
+2GB RAM
+320GB HDD
+Adapter card: Mobile Intel(R) GMA 4500MHD (788MB)
+
+Can I install this version on my PC and dual-boot with Windows 7? Do you have any better version of Mac OS X can be installed on my PC? Thanks!
+
+http://thepiratebay.org/torrent/5215890/Mac_OS_X_Snow_Leopard_10.6.0_Patched_for_PC"
+,cowspoo,2010-01-29T19:58Z,"@ everyone, If you have a kernel panic ( where it says you must restart your computer. hold the power button) I HAVE A SOLUTION!!
+
+press the space bar when it?s asking you to press any key?
+then type : -v -s
+it?ll scroll a bunch of stuff finally you?ll get to a prompt type this:
+/sbin/fsck -fy (this checks your HD for fragmentation and some other stuff)
+once it?s done type:
+/sbin/mount -uw / (don?t forget the -uw I often forget it ;) )
+now it?ll mount your system?s volume, so then type:
+cd /System/Library/Extensions (hit enter)
+rm -rf AppleIntelGMA950.kext (hit enter)
+cd .. (go up a directory, hit enter)
+rm -rf Extensions.mkext (hit enter)
+exit (hit enter)
+
+I booted up great! In return, can someone lead me to where i can find drivers? I need audio, wireless, and graphics"
+,t3fa,2010-01-29T20:18Z,"have you looked into insanelymacDOTcom/forum/ ??
+they got a sub forum about drivers there
+
+here too 
+
+wikiDOTosx86projectDOTorg/wiki/indexDOTphp/3rdPartyDrivers"
+,joke4me2003,2010-01-31T06:56Z,"""Does readme has all the instructions for installation"" Sorry wrong question guys....What is readme for then? Haha...Lol. Anyway I'm downloading right now and hope to get pass through the instaalation and if I run into any problem, I'll post a comment. Please help me....Or some one can please post a detailed instruction for theinstallation based on my system specification. ........I have an Intel core 2 duo, 260 GB HD and 1 GB RAM. I'm running Windows 7. Thanks one and all...Help appreciated much."
+,picketf,2010-01-31T15:09Z,"Usbit doesn't seem to work on USB IDE controllers. I bought a 12gb 2,5 HD for 1.- at ebay to try this out and attached the HD to my USB controller thingy formatted and tested it with HD tools and it's in perfect condition.
+
+When I launch Usbit it doesn't show it. I then tried to use SelfImage but Acronis Disk Director tells me it is RAW (no NTFS no HPFS) and when I set to boot from it in the bios many ""ot0: done"" lines appear and stays that way.
+
+Any other program recommended to transfer the IMG to the HD????"
+,red-liner,2010-01-31T17:32Z,still no solution to the undetected hard drives? im using a 1tb sata and a small 20gb sata drive both unable to be detected only the usb memory stick is being detected.
+,cool_jags,2010-01-31T19:57Z,"Hello Somebody help me pls !!!
+
+Getting following error while booting from USB - 
+ACPI_SMC_PlatformPlugin::start - waitforService(resourceMatching(AppleIntelCPUPowerManagement)timed out
+ACPI_SMC_PlatformPlugin::getCPU_PSSData - _PSS evaluation failed
+ACPI_SMC_PlatformPlugin::getCPU_PSSData - _PSS evaluation failed
+Still waiting for root device  (This message gets repeated many times no other activity)"
+,d0ce,2010-02-01T07:28Z,"I got through the whole first part of the install, but when I try to boot back into it for setup, it comes up with a problem about a missing ""com.jmicron.JMicronATA"" kext. Im using Ramapge Formula (X48/ICH9R) and a Core2Quad 9450. If someone could point me in the right direction."
+,vuonganhquyen,2010-02-01T16:02Z,Has anyone successfully installed this version yet?
+,nsjmurray,2010-02-01T23:09Z,"localhost. mdnsresponder [48] couldent read user specified local host name; using deafault bimac-000000000000. localb instead
+
+i got stuck on this whilst booting it up it stayed like this and would not move"
+,Esskel,2010-02-02T01:16Z,"When I boot from USB, it begins to load and then reboot. Any idea on how to deal with it ?
+
+My specs :
+AMD Phenom X3 8600
+3go DDR2
+Radeon X1600"
+,DashBlacK,2010-02-02T03:09Z,"while booting up it keeps saying :
+Still waiting for host device
+PLEEEEEAAAAAASDESE HELP ME#EEEEEEEE~"
+,ashotn,2010-02-02T06:08Z,"Working like a charm!!! Thank you!!! :)
+DashBlack, try to boot with -x -x32 params, it will start loading and when freezed again, try to boot with -v -x32. It looks like there are some kexts making problems."
+,ashotn,2010-02-02T14:28Z,"also try with -f param, it will force kext to reload"
+,nsjmurray,2010-02-02T18:39Z,"localhost. mdnsresponder [48] couldent read user specified local host name; using deafault bimac-000000000000. localb instead 
+
+
+Help me it stopped here and did not continue"
+,PirateSabin,2010-02-02T21:39Z,Mine usually stops on that but then eventually loads like 5-10 minutes later.
+,jcdvsrbld,2010-02-03T04:31Z,"im having trouble with this. i have a hfs+ partition, and the image is restored to my usb drive. when i try to boot, i get only a blinking cursor. not really sure what the problem is..."
+,ashotn,2010-02-03T11:31Z,"for them who have ""waiting for root...."", edit the com.apple.Boot.plist and add ""-x32 -f"" params under kernel flags...
+I have installed this 2nd time on another computer, all working!!!! manualy edited DSDT.aml,... and now have sound, and no cmos reset!!!! drop an email to ashotnavasardyan@gmail.com with questions!"
+,ashotn,2010-02-03T11:44Z,"I have just updated the system!!!!! There was an official security update... all done without problems, system restarts and working excellent!!!!!!!!!!!!!!"
+,jcdvsrbld,2010-02-03T16:14Z,"nvm, seems i wasnt using ""device mode."" The OS installed without any issues; however, it doesnt boot past the apple loading screen, any ideas why this is?"
+,jcdvsrbld,2010-02-03T17:13Z,"finally got it working, but there arent any kernel extensions for my hardware yet =\"
+,aaron1989,2010-02-04T10:44Z,"Firstly, I find that the AMD / INTEL by Hazard version has worked best so far if anybody wants to download it and burn it to dvd and requires any help from their just email or post comment - aarondodd111@hotmail.com and i will help you as have that version currently working on my AM2 Nvidia 8500 version 10.6.0 (currently trying to get the 10.6.2 version working.
+
+Secondly, as for this version, I have had this problem since beginning where none but your flash drive is being recognised when getting to the installation part of things. Now the only thing i've gotten to work so far (quite long winded considering...) requires two hard drives / partitions and a separate USB drive that you can use 8gb minimum. 
+I found that when trying to install this version USB drives are the only thing that have been detected, so what i did was installed this version onto the usb drive, then on another hard drive, installed another version of leopard, then after booting into the other version, used the disk utility (as it sees all the hard drives then) to restore the usb hard drive of this version to the second partition / hard drive that has no operating system, allowing you to then boot off the hard drive that has this version installed.
+
+Again i'd suggest you not bother unless there is an easier method then this, and simply install the AMD / INTEL version by hazard.
+
+Sorry about the essay and for newbies, this may seem quite complicated, for people used to tearing the pc apart and messing with jumpers and what not, this just requires effort and time -_-"
+,ashotn,2010-02-04T11:35Z,"I have installed it on ATA drive, I have 1 SATA using Ubuntu, and 1 ATA MAc... :)"
+,d0ce,2010-02-04T20:08Z,"well finally booted to snow leopard. no sound, nic or display adapter yet and stuck at 1080x768, I need to be messing around with kexts yeh? Some help with the res would be good, I have a 4870 x2"
+,aaron1989,2010-02-04T22:06Z,"To D0ce, 
+
+the only luck i had installing graphics drivers was EFI studio, that came with all the drivers for the nvidia graphics cards, and i simply picked out mine, added the string for the graphics to the boot (does this automatically when you click add) rebooted, and went straight from 1024 - 768 to 1680 - 1050, try googling, the version of leopard i had comes with efi studio but i assume there is a downloadable version for this purpose."
+,rpgman1,2010-02-05T22:10Z,"Doesn't work for me at all. I've tried to use USBit on my 8gb corsair flash voyager, but it says the BOOTMGR is missing. So do I need a Mac in order to format my flash drive to HFS+ and mount the img on the flash drive?"
+,Farctan,2010-02-06T01:14Z,"Is there a way for DVD installation?  the most ive got is a 4GB flash drive, but it would just be cheaper to buy a DVD+DL and install if from that, without having to waste money on a new flash drive.  Any help?"
+,Delifed,2010-02-06T17:10Z,Hmm it says the image is corrupt or damaged. Any idea?
+,thesolcity,2010-02-07T03:12Z,"everything is all good till i get a blue screen, help please."
+,Wize_Caine,2010-02-07T14:58Z,"Ive gotten it to boot and then load the apple logo but then it just reboots... Ideas?
+
+Im running an acer aspire 1 netbook"
+,aman369,2010-02-07T20:39Z,i tried to mount the image file and it wouldnt let me.. any advice
+[T],whodathoughtit,2010-02-08T01:32Z,"thanks cclloyd 
+will try now you have AMD covered"
+,d0ce,2010-02-08T04:01Z,"Ive got my res up to 1680x1050 but still no internet. Im using a ""Marvell Yukon 88E8056 PCI-E Gigabit Ethernet Controller"" and have got it to show up in about this Mac thingy but it says I have no ethernet cable plugged in. Beats me if anyone has any ideas?"
+,picketf,2010-02-08T11:03Z,"Ok managed to make it boot into OSX86 with my VIA C7 pc. Here's the thing for those who can't get it to work with USBit. 
+
+USE TRANSMAC 7.5
+
+It will wipe any partitions though, there's no way to format to HFS+ without formatting all partitions later you can use Acronis or whatever partition program to create a partition out of the unallocated space left. Transmac will also copy the IMG file to the newly formatted drive
+
+And why was BootHelp.txt removed?? I just enter ""?"" at boot and it says its not there..."
+,aaron1989,2010-02-08T12:08Z,"To Farctan - yeah that's cheaper if you have a Dual Layer DVD burner, otherwise no.
+
+To Idannc USBIT does not recognise USB hard drives only USB flash drives e.g them little ones that looks like skinny matchboxes lol.
+
+To Aman369 if you're trying to mount this image on windows - you're an idiot. if not i dont understand what you're trying to mount or what on.
+
+it says clearly in the description use USBIT image tool to restore this image to your USB flash drive and boot from flash drive.
+
+To Delifed - try re-downloading the image. sorry.
+
+To Solcity - blue screen isn't an informational error - google it and see what comes up.
+
+To Wize_Caine - try typing -v rather then just enter when it gives you the option to do so, so you can get information on your error and find out why it doesn't load the OS.
+
+To d0ce it seems like you have the wrong drivers installed for your Network, or the drivers dont work properly maybe because of the Mac OS version. Have you any wireless devices you could try?
+
+Lastly to PicketF, to format a NTFS / FAT32 partition to HFS+ or HFS you can use the linux distro Gparted Live, a live cd that once burned you simply run at boot, and use the application to format your drive or partition without affecting the rest of the drive.
+
+Agreeably I also wondered why the boothelp file was removed.
+"
+,jsmoot,2010-02-09T04:50Z,"My Specs :)
+
+Intel Core i7-860 Lynnfield
+ASUS P7P55D PRO
+8GB (4 x 2GB) 240-Pin DDR3 SDRAM DDR3 2200
+Radeon HD 5670 (Redwood) 1GB 128-bit DDR5
+WD10EVDS 1TB 32MB Cache SATA
+Seagate 750GB SATA
+Eagle Tech ET-PSVTX500-BK 500W ATX12V v2.2 Power Supply
+
+What you guys think?"
+,jesusismyairbag,2010-02-09T16:12Z,"@ jsmoot; your computer sucks,sorry. u need to updgrade definitely... 
+
+
+
+
+
+
+jks."
+,rohan-04,2010-02-09T19:37Z,"I have a strange problem,i use usbit and after i get the img restored in device mode,i dont see anything on my flash drive and my flash drive goes from 16Gb to 8Gb and when i try to boot i dont get anything it goes straight to windows.....Pls help somebody!"
+,rohan-04,2010-02-09T20:47Z,"This is my config 
+Core2Duo T5800 (2.0Ghz) 
+, 800Mhz FSB, 3GB RAM, Intel PM45, ICH9-M, NVidia 9200M GS, 
+Realtek 8168c network, 
+Broadcom 4315 wireless,
+ IDT Audio."
+,krillert,2010-02-10T01:02Z,"Gonna try this on my AMD. Im running Leo 10.5.7 now flawless. Tried the one from Hazard with no luck.
+
+Also new to using a USB instead of DVD so it will be insterresting.
+
+Can it be done from a excisting OSX install at all?"
+,rohan-04,2010-02-10T05:54Z,Yeah you can do it with an existing mac.....Go to disk Ut...and restore the image to your flash drive........then run the install! :)
+,hiya123,2010-02-10T05:55Z,"Hey, does it matter what OS I use to mount the image? This is what I've been doing:
+
+1) Format Flash Drive using FAT32
+2) Use USBIT (one in download) -> Device Mode -> Restore -> Select Image
+3) Plug in USB, reboot, make sure BIOS boots from USB
+
+I get nothing. My computer just normally boots Windows and when I disable the hard drive and only enable the USB, it doesn't boot at all. 
+
+Could this be that I'm using Windows 7 to restore the image..? I've tried multiple times and tested the mounted USB on an XP and Vista. I'm going to try to restore on XP and Vista now and see if it'd work..
+
+Any ideas? Thanks!"
+,hiya123,2010-02-10T07:28Z,"Okay, fixed that problem, now I have a new one.
+
+When I go into Disk Util, it only recognizes my USB drive? 
+
+I have shrinked data in my hard drive, then partitioned it as a primary and set it active with DISKPART but still doesn't recognize.
+
+Will reformatting through an XP boot disk work? Will have to format the partition with NTFS?"
+,rohan-04,2010-02-10T08:17Z,How did you fix that usb problem...i too have the same problem!
+[T],whodathoughtit,2010-02-10T16:25Z,"having problems with not seeing my HDD's in the installer, been through the utilities
+
+do you need to prep your hdd, 
+
+also how would i then achieve duel boot 
+
+little help plz :)"
+,d0ce,2010-02-10T19:22Z,"Has anyone had any luck with a X-Fi Titanium PCIe sound card? Id tried the VoodooHDA but it wont let me use analog out, only optical. Its the last thing I need to get going now. Thanks."
+,mendezjrs,2010-02-11T00:40Z,"Hi! i followed every instruction.. got a 10gb partition set it to active.  used usbit to restore imag to usb on my 8gb usb drive. but when i choose to boot from my generic usb it just says BOOT0:Done a million times and nothing happens.. tried to burn the image file to a DVD-9 but still wont boot through that either... by the way, this is my first time to try to install OS X on my pc.. I checked CPU-Z and it says i have SSE2 and SSE3 on my instructions.. Please any help would be much appreciated.."
+,KronosDude,2010-02-11T17:07Z,"Hello cclloyd9786,
+Support for the Intel Atom Processor (Used in Netbooks) was removed on 10.6.2, but exists in 10.6.1.
+
+Have you re-enabled support for Atom processors?"
+[T],whodathoughtit,2010-02-12T00:06Z,"I cannot get this to work have tried swearing at it an everything,
+
+the usb drive works fine, 
+
+its the hard drive that will not become visible in the utilities
+
+it seems like it is a common problem..??"
+,kevinthomas,2010-02-13T07:25Z,hey i got this problem the installer wont show my hard drive im trying to dual boot ive followed the instructions idk how many times im running a AMD machine with windows 7 trying to dual boot email me at kevincheatwood@live.com if you have the answer thanks
+[T],whodathoughtit,2010-02-13T12:16Z,"the usb download for leopard should be taken down it does not work, currupted.?
+
+where I am up to is;
+
+I can get the duel boot working with EasyBCD -> http://neosmart.net/dl.php?id=1 very easy
+
+for formating the hdd I use GParted live cd -> http://gparted.sourceforge.net/livecd.php
+
+I have downloaded 2 versions of OSX ""iATKOS v7"" and ""iDeneb"" and burned them onto dvd using 
+ImgBurn at 1x speed
+
+So I am now able to load the OSX onto my system,
+boot into Windows and OSX,
+
+however the OSX just hangs on the gray apple screen and does not start up.
+
+I think it might be about setting the hdd up correctly before install
+and I cannot use my keyboard in the osx options to configure my hdd
+
+email me; who-da-thought-it@hotmail.co.uk"
+,LTAcosta,2010-02-13T22:29Z,"Hey guys, I was just wondering if anyone could help me make this work. I have the usb working where I can boot to it, but when it goes to run setup, it flashes a bluish white screen for a little bit then goes black. When I try to use 'voodoo -v' it stops after a bunch of text floods by, and says 'ERROR: Firewire unable to determine security-mode; defaulting to full-secure'. I was just wondering if anyone else has experienced this, or knows what I'm doing wrong. I'm using an 8 gb flashdrive that I did a full normal NTFS format on, and also am sure that I was in device mode when I restored the mac image.
+
+Here's my computer's specs:
+Intel Core 2 Duo CPU T8100 @2.1GHz [Instructions:MMX, SSE(1,2,3,3S,4.1), EM64T, VT-x]
+3GB DDR2 RAM
+Mobile Intel 965 Express Chipset Family Graphics Card
+15GB Partition on a 300GB WD Sata
+
+This is in my Dell Inspiron 1525 laptop, so the motherboard is a Dell, and the graphics card is integrated."
+,KronosDude,2010-02-14T17:37Z,Intel Atom support for netbooks??? Anyone?
+,ysa1337,2010-02-14T21:34Z,"@hiya123
+
+How did you fix the USB problem?
+I Have it too."
+,jesusismyairbag,2010-02-15T20:19Z,"I have a 500GB external HDD hanging around,can i install it on that??"
+,cclloyd,2010-02-16T05:24Z,"For those having the white/black screen problem, you will need access to a mac to add a kext for your graphics card to the installation.
+
+And yes you should be able to install it on an EHD"
+,ysa1337,2010-02-16T15:28Z,"cclloyd
+
+When i use USBit in device mode and restore the img file my windows stops recognize my flash drive and when i try to boot with it with the usb flash it just boots normaly in to windows. Any idea how to fix this?
+
+Sorry for my bad english!"
+,ells1231,2010-02-20T19:24Z,"PLEASE SEED!!!!!!! DOWNLOADING AT 0.5KB/S
+
+PLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASEPLEASE
+
+SEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEEDSEED"
+,GenEmperor,2010-02-21T09:09Z,Would i be able to install this OS to an External Hard drive? I have a Dell inspiron 1520 laptop running vista home premium 32 bit and using a core 2 duo 2.0ghz processor. It has a 256mb 8600MGT video card. Will I have issues finding drivers for it?
+,brklynzboy22,2010-02-21T22:42Z,"Hey CClloyd, how do burn this to a disk? Can u give me instructions because i really want this thanks"
+,hammett38,2010-02-24T23:11Z,HI can I use windows 7 after Mac Os X snow leopard again with no probs?? And ceaping all my files And Programs?? Tnx
+,SWE_1,2010-02-25T12:28Z,"cclloyd
+
+how to add this graphic card drivers? Whare can I find them, and wher do I put them?"
+,SWE_1,2010-02-26T20:50Z,So I solved the problome whit black screen. But hawe anyone solved the hardriver problomes? 
+,SirPhobos,2010-02-27T00:12Z,"The largest USB drive I have is 4GB and would prefer not to buy a new 8GB drive just for this purpose.  cclloyd has stated that this OS could be installed from a DVD+DL, I am wondering if the OSX img file should be burnt as a file or burnt as an ISO.  Any help would be appreciated."
+,SirPhobos,2010-02-28T06:23Z,"There are over 150 seeders alone.  I was able to max out my connection (20mbit) on this torrent, please don't spam."
+,x50fxsiq,2010-02-28T12:38Z,i need help 4 sum reason im not able 2 change the setting for USBit from volume to device... can ne1 plz help me
+,x50fxsiq,2010-02-28T17:33Z,ok scratch dat i got it workin but now i get stuck on the blck screen with really fast ritin rite afta u select the snow os off  the usb drive it says waitin on boot... n then waitin on ??? i dnt remeber but dats where it gets stuck... can ne1 help me plzzzzz
+,GenEmperor,2010-02-28T18:11Z,"For those that don't know there is a newer version and final version of this. it is final v2. TPB didn't let me add the websites but it is tiltled:
+XxX_x86_10.5.6_Install_Disc_Universal_Final.v2
+This should work perfectly on a Dell inspiron 1520 with a dell 1390 wireless card. Will post my results here when I finish."
+,SirPhobos,2010-03-01T03:22Z,"GenEmperor, that is actually an older version since this is 10.6.2 Snow Leopard and that version is 10.5.6 Leopard.  It might work better for you but it's not ""the latest""."
+,x50fxsiq,2010-03-01T12:56Z,hey does any1 know how to get the internet and/or sound workin cuz 4 sum reason mines isnt workin
+,Remixboyyy,2010-03-01T16:30Z,"can someone help me with that damn USBit thing?
+
+i cant boot from the USB flash when i restore the IMG. What is DEVICE MODE you all are talking about? if you mean this tool up to the left in the program (USBit) then its grayed for me.
+
+PLEASE HELP!"
+,Smythe94,2010-03-01T17:00Z,"Where do I find a list of compatible video cards?
+I've got a NVIDIA GeForce 8800 GT, does anyone know if that will work out?"
+,SirPhobos,2010-03-02T02:56Z,"Remixboyyy - Try right clicking the program and click ""Run as Administrator"".  That fixed the problem for me."
+,Remixboyyy,2010-03-02T16:16Z,"@SirPhobos
+
+thx i solved the problem, but im stuck now at detecting my partitions and my harddisk mainly like some others here.
+
+it finds just the USB flash memory but not the harddisk. i tried on my laptop and it found the harddisk but the 2 partitions i had was grayed (tried just for testing, dont want to fix mac os on my laptop)
+
+does that mean that im unable to install mac os on my computer?
+
+thanks in advance :)"
+,Remixboyyy,2010-03-02T16:21Z,"i've uploaded 2 scrn shots so you can see which HD i have:
+
+http://data.fuskbugg.se/skalman01/oishbgf.jpg
+
+http://data.fuskbugg.se/skalman01/sdfssd.jpg"
+,LTAcosta,2010-03-07T17:25Z,Has anyone found a fix for the white screen/black screen problem? Where do I put the kext?
+,wuns,2010-03-08T21:13Z,"to aaron1989:
+
+i have a wd external hd, i made a 10 gig hfs+ partition with linux gparted live, but transmac only sees the NTFS partition of the drive :(
+any ideas?
+thx"
+,Who-Dat-Der,2010-03-11T02:56Z,"download this: http://thepiratebay.org/torrent/5138002/VMware.Workstation.v7.0.0.203739.Incl.Keymaker-EMBRACE%28Murlok%29
+
+it allows you to run multiple operating systems simultaneously on a single PC"
+,wuns,2010-03-11T13:13Z,"I tried it, but it doesn't support Mac Os X, its not in the operating system list, i tried with ""other op system"", after starting the vm, it said, operating system not found..."
+,xTuckerx,2010-03-15T15:00Z,"@wuns. You need the darwin-snow.iso. 
+
+Put that in the disk drive.
+Then the .img you got here in the floppy disk drive."
+,jmans25,2010-03-15T16:58Z,"http://thepiratebay.org/torrent/5269611
+Ok, so I can download the IMG file, but that is a floppy image. How do I get a disc image out of it (.iso)? thanks, and I will install this in VMware (it worked for 10.5.0). 
+
+---jmans25
+
+____________________
+PS: your e-mail address is not recognized by g-mail, so I cannot send you the e-mail!!!
+
+I get this:
+ The email address ""cclloyd9786@gmailcom"" is not recognized. Please fix it and try again. "
+,feco182,2010-03-16T16:15Z,can i install this from my 200 gb external hdd ? or i have to burn this ? does this works with single core processors ?
+,feco182,2010-03-16T16:16Z,i downloaded a lot of mac version and dont know which is good to install without burning. i dont want to waste dvds
+,Hypercube,2010-03-17T19:57Z,@jmans25: so you are going to install macos on a pc and yet you dont know how to send an email ? lol
+,Abuel3izz,2010-03-18T10:22Z,"i need help using usbit
+i cant seem to know how to use it
+pls help"
+,wuns,2010-03-18T17:28Z,"I tried it with an usb stick using usbit in device mode, after booting it sais:
+boot0: testing
+boot0: done
+
+after this nothing happens... any ideas?
+i tried it with ntfs, fat32 and hfs+  format as well :)"
+,Pyro1099,2010-03-20T14:31Z,Nice upload. Thanks
+,ichthyostega,2010-03-21T01:49Z,"Let me try to help the ones that have problems with USBit and external disks, some new HDs aren't recognize as MASS STORAGE and the USBit can't find him, Use a ""pen"" or a memory card (or in my case my nokia 5800 in mass storage mode) to restore the image and the forget to use ""device mode"".
+
+Now I'm stuck on a blue screen after boot the usb. 
+
+I'm not give up, I will try to find a solution"
+,ichthyostega,2010-03-21T01:50Z,*Don't forget to use device mode! (sorry the mistake)
+,jmans25,2010-03-21T02:00Z,"@Hypercube
+lol I was making a stupid mistake... i forgot he removed the dot in gmail.com .  that was a stupid mkistake of mine... ow, and i allready have 10.5 installed, but wanna upgrade."
+,ichthyostega,2010-03-21T17:46Z,"I've done it! Works like a charm!! 
+The only kext I had to install was the AC'97 audio driver! Even wireless work with no problem without needed to install anything.
+
+I have to run: voodoo -v -x32 I have Intel, this should only needed to AMD.
+
+Many thanks cclloyd! :)"
+,ViAlKa,2010-03-21T18:26Z,Istallion freezes to AppleDecrypt: Starting...
+,ViAlKa,2010-03-22T15:00Z,RAM 6 GB
+,boy007,2010-03-25T05:36Z,thanks man
+,zedtx,2010-03-26T04:12Z,"I followed the instructions but after from booting flash disk it sais
+boot0: testing
+boot0: done
+boot0: boot_
+
+Any Idea what that means?"
+,lanceroxas08,2010-03-31T09:44Z,hi soory if I don't get if I install this mac os x in my asus das all the features of mac os x are working like the voice over if you try to use voice over on your pc plc comment to me tnx
+,promothus,2010-04-09T20:50Z,"So I get it all onto my USB and everything, and get it booted into my PC. I get to the prompt, and I press enter to continue as said. It goes through, and then the screen blanks. The computer restarts. It does this continously. So I press F8 to try to type various commands, such as -v to see what the issue is, but still, it crashes and restarts automatically no matter what I do.
+
+System specs:
+AMD Athlon 7750 Dual-Core @ 2.8
+nVidia GeForce 9500 GT PCIe 1gb GDDR3
+2 gb of RAM DDR2
+1TB SATA Hard drive
+ECS GF8200A Black Edition (Motherboard)
+
+Thank you much."
+,c00lpirat,2010-04-25T12:04Z,"Hi,
+
+my config,
+
+intel g31
+c2d e7600
+1gb ram
+80gb hdd
+
+only issue is network card is not working
+
+Can anyone help me please?"
+[V],thethingy,2010-05-01T08:48Z,DONT POST DO NOT DOWNLOAD COMMENTS ON MY TORRENTS YOU LITTLE PRICK 
+,Berty_baset,2010-05-10T14:19Z,"So this is where I am with this from windows os USBit will only write the image to a usb key or hdd so you need a pen drive or the like, once done I have booted to the drive run the command -voodoo -v -x32 as i'm using an amd system
+system boots up fine but I can't see my hdd, only the pen drive, this is because this version will only see usb hdd's... so I have put my computer hdd in a sata usb hdd caddy and connected it that way. now I can see the hdd. The disk utility from the util menu will let me format it to a mac file system and now i'm happily installing, hope this helps people with no hdd issue"
+,Harutik_11,2010-05-12T10:12Z,"Can anyone help me, I keep getting stuck at this
+http://i135.photobucket.com/albums/q141/nhzharuthopar/DSC02434.jpg
+http://i135.photobucket.com/albums/q141/nhzharuthopar/DSC02432.jpg
+http://i135.photobucket.com/albums/q141/nhzharuthopar/DSC02433.jpg
+
+Specs:
+HP Pavilion a6747c Win 7 64bit
+
+CPU Type: DualCore Intel Pentium E5200, 2500 MHz (12.5 x 200)
+
+Motherboard Name: Asus IPIBL-LB (Benicia)  
+
+Motherboard Chipset: Intel Bearlake G33
+
+System Memory: 5120 MB  (DDR2-800 DDR2 SDRAM) 
+
+Graphics Card: GIGABYTE Radeon HD 4350 512MB
+
+Hard Drive: 500gb Seagate Baracuda ST3500620AS
+
+Network Adapter: Atheros AR5005GS
+
+
+Plzzz... Thanks in Advance :)"
+,orient3d,2010-05-16T14:54Z,fake .img no mountable file system
+,orient3d,2010-05-16T14:54Z,no mountable file sys
+,baronobeefdip,2010-05-21T00:52Z,can you post a link that lists compatible processors
+,jesusismyairbag,2010-05-29T05:14Z,work with 5770HD?
+,SH0CKW4V9,2010-06-07T17:30Z,"downloading it at the moment, my cpu supports sse2, lets hope it'll work..."
+,McLovinnnn,2010-06-12T19:10Z,"Dear cclloyd
+First of all thanks a lot for the torrent.
+I seem to be having a little problem though.
+I put the image on my 8GB usb stick using USB IT. Then I managed to successfully load it and get past all the writing that comes with the -v option. However, everything stops at the light blue screen right before the installation menu comes up. (the one that says ""welcome to whateverOSthisis"") What can I do to get past it? My USB just becomes inactive at the blue screen.
+
+Many thanks"
+,ptn009,2010-06-14T22:41Z,"i'm having same problem as Harutik_11
+i'm using asrock motherboard with intel core to quad. please guide me to do it correctly..."
+,Trancelover,2010-06-15T19:08Z,I have a usb hard drive thet i have made a new 8gb partition in fat32.. bu how can i put the .img on there ... USBit does not recognize the drive.. which program to use?
+,codymx,2010-06-19T23:40Z,"I installed everything successfully, customizing my installation, but when I boot up, I get this ->
+
+http://i983.photobucket.com/albums/ae314/codymx/P1010204.jpg
+
+I have also tried putting -v -x -x32 in the command line. PLEASE HALP!! D: "
+,chrissosa,2010-07-04T23:54Z,can i install mac os x if i have a Mobile Intel® 945 Express Chipset Family?
+,orbis0467,2010-08-04T21:48Z,I installed everything correctly thanks for the awesome torrent but how do you get drivers????
+,dickincorp,2010-10-22T01:12Z,"They are called ""KEXT"" (Drivers) http://www.insanelymac.com"
+,drachir1234,2010-11-01T11:16Z,"cclloyd:
+ will this work on my pc deskotp, 2x i tried to install from other uploader but nothing happens..always freezing on boot menu,
+MOTHERBORD:asustek P5G41T-M LX
+CPU:PENTUIM(R) DUAL CORE E6600 @3.06GHZ
+DDR3 GB
+NVIDIA GeFORCE GT240 1GB (ZOTAG)
+...pls help me i want to knkow before i try to install this one...
+thanks in advance!"
+,drachir1234,2010-11-01T11:38Z,"ccloyd:
+it freeze my pc on STARTING:APPLEDECRYPT  what should be the problem?
+pls help"
+,maxnov,2010-11-05T17:20Z,"is there any way to install OS X without flash usb?
+
+with burned 8GB DVD or smthing like that?
+"
+,suyog14,2010-11-25T10:59Z,"Hi.......I am facing  d error of 
+
+Boot0:done
+
+repeatedly ..
+PLz help me..."
+,rail3r85,2010-11-29T10:25Z,"@Codymx
+Check if Max CPUID is enabled or disabled in BIOS settings, it must be disabled for Mac OS X."
+,rail3r85,2010-11-29T10:28Z,"@Thethingy
+All patched OS X 10.2 dvd's are the same, there is no difference. So fuck off."
+,FreeSoftwareManic,2010-11-30T19:17Z,dont work so dont waist time downloading 
+,HussleFlow,2010-12-21T14:10Z,"Hey, CCLoyd. I tried to email you but it wouldn't send. 
+
+So here's my problem, i've put the .img on my USB with your USBit ON Device Mode, went to boot it, and at first I was like, ""cool it works"" but then unlike what yours did, my codes started scrolling but it doesn't scroll for even 5 seconds and it goes black, then lights up. I figured at first ""Ok, maybe Ihave to wait"" So I waited, watched the screen for a good 15 minutes, nothing happened. I started regularly, and started with -v, same thing. (Note my USB was in NTFS) So, I tried your ISO, from the tutorial video. This time on the ISO, the mac screen pops up, does the little loading thing at the bottom, THEN it goes black, and lights up. ( same as the .img) So at the moment, i'm formatting my USB again and putting it in FAT32 then putting the .img on it, and i'll try to boot it again.. 
+
+But yeah does anybody know how to fix this issue?
+
+P.S. i'm so psyched, i've always wanted a Mac OS. 
+"
+,HussleFlow,2010-12-21T14:55Z,"Alright so in case you guys' didn't quite make out what I meant, here's my problem.
+
+Video - 
+/watch?v=A6pqk40SaOw"
+,mataanjin,2010-12-24T15:08Z,"i have install it fine but get a restart loop after the first reboot.
+how do i get past it?
+
+i'm using lenovo s10-3t.
+at install waht should i choose at customize? fix for note book?"
+,bobosim,2011-01-03T02:46Z,"Please can someone help me: I put the MAC OS X on my 8gb flash drive then restart and set USB to boot first, but it just loads windows. I have tried formatting it to NTFS and FAT32, and am using USBit, I really want to get this to work, please help me. Thanks in advance!"
+,Ghanijazz,2011-01-13T23:55Z,not working dude it's getting after installation i'm tried to install mac os x i think i have to stop triing install mac os x windows 7  is best ever and easy yo install 
+,tyguy01,2011-01-26T01:32Z,So i start it up and it get to the apple pic and it doesnt do anything what do i do?
+,bobosim,2011-02-05T08:39Z,"Someone please help!! I have installed it fine on my Acer Aspire One netbook, but when it gets up to the ""restart to complete installation"" I restart and it doesn't boot up mac, I have tried booting from the partition that its installed on and evrything, has anyone else had this problem? What do I do? Thanks in advance :)"
+,bobosim,2011-02-05T08:43Z,"@mataanjin I have the same problem as you, have you found a solution yet?"
+,bobosim,2011-02-05T08:50Z,"Also when I tell it to boot from the Mac partition it scrolls through all these lines saying ""loading HFS+......"" before restarting.. anyone?"
+,ankit.aki,2011-02-06T10:52Z,"Thnx for the Torrent..
+I Installed mac on an Intel based pc with configuration
+Processor-2.93 ghz
+Motherboard- dg41rql
+ram- 2gb ddr2
+hard disk- 250
+From where i can find my drivers?"
+,ankit.aki,2011-02-06T10:55Z,"Thnx for the Torrent..
+I Installed mac on an Intel based pc with configuration
+Processor-2.93 ghz
+Motherboard- dg41rql
+ram- 2gb ddr2
+hard disk- 250
+From where i can find my drivers?
+Can Any one help?"
+,ankit.aki,2011-02-06T10:57Z,"Thankx for the Torrent..
+It works perfect but
+I Installed mac on an Intel based pc with configuration
+Processor-2.93 ghz
+Motherboard- dg41rql
+ram- 2gb ddr2
+hard disk- 250
+From where i can find my drivers?
+Can any1 help?"
+,GaGaVerHulst,2011-03-06T11:10Z,"how do you exactly need to install this?? can't you write e word or whatever file and upload it, than I can print it and look up the papers while I am installing this software?.!."
+,ncastillo,2011-04-21T18:30Z,"Hello, long time ago I'm looking for a Snow Leopard which I run on a Dell Inspiron 600m or D600, I have 2 Gb RAM, 2.0MHz Pentum M Centrino Processor Simple, I have now upgraded to 10.5.8 Leoard installed and works well, 
+
+but I want to install Snow Leoapard if anyone knows which version should I install by for aid, in order to install Snow in Dell D600 or 600m
+
+Thanks to all, Help!"
+,delanooo,2011-04-30T14:40Z,Thank you!! 
+,livebug,2011-05-17T13:36Z,"does it work 
+Answer immediately please"
+,livebug,2011-05-20T14:10Z,"can i write it on to a dvd
+
+please answer ccloyd
+
+
+i am trying to grab some attention to your torrent"
+,LUCAS96,2011-07-08T15:48Z,"can i install this operational system on my pc? i have 2 gb ram, 1 tb hd, processor dual core 2.70 ghz e5400, video card nvidia geforce 9500 gt 1gb. i'm from brazil, but you can send e-mail in english for me. my e-mail are: lucas.casagrande@live.com or lucas.casagrande@yahoo.com.br can i install other operation system with mac in boot camp? really? can i install windows 7 ultimate 32 bits in boot camp? can install games for windows live on mac?
+i wait your answers on my e-mail and here this site!"
+,dilog46,2011-07-13T19:11Z,"Tried on Acer Aspire 5610 half succeeded. 
+Not recognized:
+Broadcom 440X
+Intel Pro/Wireless 3945ABG
+Nvidia geForce Go 7300
+Audio ok
+USb ok
+Sometimes freezes!
+is there a remedy?"
+,sniper336,2011-08-06T02:41Z,SEEEEEEED! i hope this works! People need to be more positive.
+,wakazaki,2011-08-10T16:27Z,"21 sources..
+4 of 10 clients
+and I am still not downloading it...
+Is this torrent dead? =/ ¨
+I really hope not! Please seed ^^"
+,dilog46,2011-08-14T11:57Z,"I finally managed to install some old wireless USB had available, Belkin G Plus Mimo Wireless Network Adapter recognize as RT2573 USB wireless not bad at all!, 
+although the in-box Broadcom 440X and
+Intel Pro/Wireless 3945ABG still not working, but no problem for me.
+Also Nvidia geForce Go 7300 only working for 1024 x 768 quite poor resolution. Tested with Google Earth - not good at all!
+Audio: the mic is not working at all, speakers ok.
+USB ok
+Now I have at least a hacintosh and my thanks for that! Only one question left. Is it possible to upgrade somehow? "
+,hussman95,2011-09-04T20:31Z,does it rly work?
+,ysn500,2011-10-16T16:05Z,Video was removed

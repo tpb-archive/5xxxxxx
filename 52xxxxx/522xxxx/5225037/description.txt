@@ -1,0 +1,45 @@
+Java baziran PSP emulator.
+
+Odpakovati arhivu i pokrenite "Jpcsp.jar"
+
+
+
+Jpcsp â€“ Java PSP Emulator
+
+Jpcsp is a PlayStation Portable emulator for PC, started by shadow (the same great 
+person that made  PCSX & PCSX2)  and joined by a great team.
+Jpcsp is the first psp emulator written in java, allows to play your psp games on a PC
+Whatâ€™s new on v0.3?
+â€¢ Itâ€™s Jpcspâ€™s birthday!! Happy birthday JpcspïŠ
+â€¢ A huge improvement in CPU/FPU/VFPU added and fixed a considerable 
+instructions which make things better.
+â€¢ v0.3 is 50% faster than v0.2 ïŠ.
+â€¢ Fixed a lot of issues and bugs ( in compiler, loader, memoryâ€¦etc).
+â€¢ Better fake Mpeg.
+â€¢ Improved and fixed a lot of modules like sceUmdâ€¦etc, and other HLE stuffs 
+which make a lot of games are running or even playable.
+â€¢ Improved graphics in VideoEngine and pspdislay, fixed compressed textures, 
+textures cache, and also 2D & 3D (yeah we have 3D ïŠ).
+â€¢ Added special settings for more compatibility and speed.
+How it works:
+â€¢ First you need to install JRE (Java Runtime Environement).
+â€¢ Put your iso/cso in â€œumdimagesâ€ folder, and your homebrews/demos in â€œms0/
+PSP/GAMEâ€.
+You can find the saves in â€œms0/PSP/SAVEDATAâ€.
+Note: only ISO and CSO are suported for commercial games!!and pbp/elf for 
+demos.
+â€¢ To lunch Jpcsp click on â€œJpcsp.jarâ€ or you can run it from a batch file using â€œ 
+java -Xmx512m -jar "Jpcsp.jar" â€ you can also use Xmx1024m if you have 
+more than 2bg of memory ;-)
+â€¢ To load & play a gme do: click on file and choose â€œLoad UMDâ€ now you will 
+see a window (â€œUMD iso/cso Browserâ€) choose a game and press â€œLoadâ€, 
+then press â€œRunâ€ and be happy :p. 
+â€¢ For homebrews/demos choose â€œLoad MemStickâ€â€¦
+â€¢ In â€œOptionsâ€ you will see some special hacks, they helps to improve 
+compatibility and speed, play with those hack to find a good stability for each 
+game you are trying (not all games uses the same hacks :p). 
+â€¢ To get more speed enable â€œOnly GE graphicsâ€ in â€œOptionsâ€ and disable the 
+logger (in Logger change log level to â€œOFFâ€).
+â€¢ Jpcsp is using HLE (High Level Emulation), the team chosen it for speed and 
+a good compatibility instead of LLE which is really slow compared to HLE especially with Java, plus we havenâ€™t enough infos about hardware and 
+firmwareïŒ to handle all the hardware at low level.

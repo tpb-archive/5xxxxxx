@@ -1,0 +1,22 @@
+///////////////////////
+P O L I S H   I N F O :
+///////////////////////
+
+cFosSpeed to aplikacja przeznaczona do przyspieszania korzystania z internetu za pomocÄ… funkcji zarzÄ…dzania ruchem. W przypadku normalnego transferu danych odbiÃ³r pakietÃ³w musi zostaÄ‡ potwierdzony (pakiety kontrolne) zanim kolejne pakiety zostanÄ… przesÅ‚ane, bez ZarzÄ…dzania Ruchem pakiety kontrolne sÄ… spowalniane przez ciÄ…gÅ‚e wysyÅ‚anie danych i w rezultacie pobieranie danych jest rÃ³wnieÅ¼ spowalniane. ZarzÄ…dzanie Ruchem za pomocÄ… aplikacji cFos polega na tym, Å¼e pakiety kontrolne majÄ… pierwszeÅ„stwo podczas wysyÅ‚ania danych, pozwalajÄ…c osiÄ…gnÄ…Ä‡ peÅ‚nÄ… prÄ™dkoÅ›Ä‡ podczas pobierania. Poza nadawaniem priorytetu pakietom kontrolnym, ZarzÄ…dzanie Ruchem umoÅ¼liwia rÃ³wnieÅ¼ na optymalizacjÄ™ TCP/IP acknowledgements, utrzymanie niskich czasÃ³w ping, nadawanie wyÅ¼szego priorytetu indywidualnym programom, polepszanie jakoÅ›Ä‡ rozmÃ³w VoIP i nadawanie priorytetÃ³w innym protokoÅ‚om.
+
+=======================
+
+Wymagania:
+Windows XP, Windows Vista, Windows 7.
+
+=======================
+
+
+1. Zainstaluj CfosSpeed.
+
+2. Po upÅ‚ywie 30 dni uÅ¼yj wpisu do rejestru [cfosspeed_trial_reset(5.01).reg]
+
+3. WaÅ¼ne! Po dodaniu wpisu do rejestru musisz ponownie zainstalowaÄ‡ cfosspeed, w przeciwnym przypadku zostaniesz poinformowany, Å¼e okres testowy minÄ…Å‚.
+
+
+enjoy DbR.

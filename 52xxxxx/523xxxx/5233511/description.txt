@@ -1,0 +1,31 @@
+This was actually very hard to find pre-compiled.
+
+Here is the mp4v2 web page 
+http://code.google.com/p/mp4v2/
+
+The tools let you do some unique things that AtomicParsley currently cannot.  Basically setup some Apple crap that is needed for multiple audio tracks and subtitle tracks.  Such as alternate groups and modifying trak.udta.name values for each track.  This is the codebase that subler, muxo and isubtitle most likely are using, pretty sure they are.  I believe handbrake is as well.  I sorta went into great detail about this in encode-handheld 5.2 comments.
+
+Binaries were found here: 
+http://forum.doom9.org/showthread.php?p=1352680
+
+Actual download link from that forum is 
+http://kurtnoise.free.fr/mp4tools/mp4v2%20tools%20trunk-r355.zip
+
+
+Looks like he has some other windows compiled tools of interest here 
+http://kurtnoise.free.fr/mp4tools/
+
+
+-HR
+
+Within the zip contains
+
+06/17/2009  06:43 PM           565,760 mp4art.exe
+06/17/2009  06:43 PM           622,080 mp4chaps.exe
+06/17/2009  06:43 PM           536,576 mp4extract.exe
+06/17/2009  06:43 PM           880,128 mp4file.exe
+06/17/2009  06:44 PM           563,200 mp4info.exe
+06/17/2009  06:43 PM           553,472 mp4tags.exe
+06/17/2009  06:42 PM           605,184 mp4track.exe
+06/17/2009  06:43 PM           519,680 mp4trackdump.exe
+

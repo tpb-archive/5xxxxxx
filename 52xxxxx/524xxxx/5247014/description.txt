@@ -1,0 +1,65 @@
+Heretic 2 for Mac - By Fresch3000
+
+Heretic II is a fantasy action-adventure game developed by Raven Software and published by Activision in 1998 continuing the story of Corvus, the main character from its predecessor, Heretic. Using a modified id Tech 2 engine, the game features a mix of a third-person camera with a first-person shooter's action, making for a new gaming experience at the time.
+
+
+This port supports Widescreen Resolutions.
+Some Work, and Some dont.
+
+The standard resolution is 1920x1200, but it can be changed via. the Video menu, in the game.
+
+The game only supports 4:3 resolutions from the ingame menu, so if you want to use your widescreen resolution you have to do the following:
+
+
+The first thing you need to get is an Hex Editor.
+For mac,  HexFiend is Great.
+
+Rightclick on the Heretic 2 icon, click Show Package Content.
+Navigate to: Contents -> Shared Support -> CrossoverGames -> Support -> Default -> Drive_c -> Program Files -> Heretic
+Drag the file "quake2.dll", to your desktop.
+
+
+ Open HexFiend, and locate the quake2.dll file on your desktop. Open it.
+
+Start by pressing "CMD+F", to find a line. Mark the radiobutton ASCII.
+Write:     1920
+And press Next.
+
+
+Find number 00800700, and 00B00400 (Usually next to eachother), to the left, from "1920" in the Hex part of the editor.
+
+The part "8007", and "B004", and the ones that need to be changed.
+
+8007 is the screen width and B004 is the height.
+Change the two numbers (When you press delete, or backspace, it removes 2 digits. Remember that!!!) , into the resolution in the table below:
+
+For example, if i want to change my resolution to 1280 x 720, 
+ill change 8007 to 0005, and B004 to D002
+
+After you have made your change, save the file, and drag it back into the Heretic 2 folder. Remember to make a backup of the original quake2.dll, if you mess something up.
+
+
+Resolutions:
+
+_____________
+1650  x   1050
+90 06    1A 04
+_____________
+1440  x   900
+A0 05     84 03
+
+_____________
+1280   x   720
+00 05     D0 02
+
+Not every resolution work in full screen, but check it out.
+If your resolution is not supported, use the original quake2.dll file, and play the game using a standard ingame resolution.
+
+
+
+
+MUSIC SUPPORT!
+The music in Heretic 2, is played from the original Heretic 2 cd, and cant be ripped and used without the Cd. What a shame... BUT, the port does support the original cd. If you have it, pop it in the drive, and mark "CD Music", in the ingame menu, and everything should be fine :)
+
+
+ENJOY!

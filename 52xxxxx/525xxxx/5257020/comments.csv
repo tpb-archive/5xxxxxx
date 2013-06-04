@@ -1,0 +1,24 @@
+User Type,Username,Date,Text
+,jklasd1234,2010-01-16T19:28Z,Virus free and it works like a charm! Great job. The only thing it misses are the linux server files (would be awesome to be able to host cracked servers on linux).
+,elenfoiro,2010-02-23T17:56Z,"Works fine for windows, also works fine on an old osx version but cannot get it to work properly on snow leopard 10.6.2"
+,elenfoiro,2010-02-23T17:57Z,And when I say can't get it to work properly I mean vent won't even start. Not a matter of connecting to the server.
+,Andreasvb,2010-03-20T11:58Z,"elenfoiro: You may need to make the file executable.
+
+Read the NFO, then do this in Terminal:
+
+~ Andreas$ cd /Applications/Ventrilo.app/
+Ventrilo.app Andreas$ cd Contents/
+Contents Andreas$ cd MacOS/
+MacOS Andreas$ ls -al
+-rw-r--r--@ 1 Andreas  staff  1924460 20 Mar 10:54 Ventrilo
+MacOS Andreas$ chmod +x Ventrilo 
+MacOS Andreas$ ls -al
+-rwxr-xr-x@ 1 Andreas  staff  1924460 20 Mar 10:54 Ventrilo
+
+Then it will start. :)"
+[V],Haxar,2010-05-14T04:04Z,"Mangler 1.2 beta, a reversed Ventrilo client for Linux, should now be able to handle and connect to UCF's cracked server binary.
+
+mangler.org for more info."
+,Minibrutalt,2010-10-25T12:06Z,"Ok, so i instal it etc etc and all is successful, however, other people cant login, why?"
+,nkhaim,2011-02-27T02:55Z,waste of time imo because only users with cracked versions of ventrilo client can connect to your server.
+,Werepire,2011-08-17T17:54Z,"where is the ventrilo_srv.ini file! and where do you put the ventrilo_srv.exe, im really stuck plz help me."

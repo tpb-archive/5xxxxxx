@@ -1,0 +1,102 @@
+User Type,Username,Date,Text
+,k.aijura,2010-01-02T08:09Z,Thanks a ton.  This will definitely be worth it on a screen than lugging the 7lb book around.
+,efxr,2010-01-02T16:40Z,Not to mention the cost wise.
+,acollegestudent,2010-01-03T23:09Z,"@ efxr, congrats to you and @ djdjura
+
+Amazing work guys.  I tried to keep up but kept getting lost since i'm not on Apple nor am I running Ubuntu."
+,acollegestudent,2010-01-03T23:11Z,"@efxr @djdjura:
+
+Any chance that either of you could post an idiot proof tutorial and how you both pulled this off?
+
+Perhaps on UTube or on different site with screenshots?
+
+For, i'm sure many would love to follow both your footsteps with the help of a tutorial.
+
+Again, thank you!  Way to make a stance against those rip off publishers and company."
+,acollegestudent,2010-01-04T00:04Z,"Could all the steps be done in a windows environment?
+
+You guys are ahead of many in your skillz.  
+
+I just feel if we could get a user friendly tutorial this could spread like wildfire.  Kinda what George Hotz did for jailbreaking the iPhone/iPod Touch."
+,efxr,2010-01-08T01:11Z,"To be honest, I don't think it's easy to perform, since you need access to an actual eText / eBook version. 
+
+Basically, when going to the official website to view this eBook, what actually happens is that an Flash Applet opens up in your browser and downloads the files from a certain place on their own server. 
+
+Normally (at least I'd expect) for the server location that has these files stored, to be restricted or locked. 
+Luckily, it wasn't. In this case at least.
+
+I managed to find the file location simply by backtracking the URL that is linked to certain content i.e. images that where being loaded.
+
+It's like: www.ebook.com/tortora/microbiology/page1.html.
+
+So what I did was delete the /page1.html part to take me to folder what contains the files. This folder contained a link to every page from the book.
+
+From there on I ran an application called SiteSucker for Mac, there are plenty Windows applications that have the same functionality. 
+
+Anyway, the application proceeded to 'suck' the content from the server location, to my computer in the same order and folders, as they were on the server.
+
+What i found out was that the pages where being build up by stacking up 3 layers, being: page background, images and the actual text. 
+
+After posting these resources Djdjura, performed a script to stack those layers in the proper format and layout, into a single page (and image file). 
+
+After all the pages were layered, they got converted and merged to form a single PDF file. After that, I performed OCR, to make the PDF searchable.
+
+
+To reply to your questions, personally I don't have any experience with the coding part. Since all the files, with the exception of the text being encoded as flash, it's hard to do. 
+
+The files I extracted made the conversion easy, since all the layers that belonged to a particular page, where in a different folder, but named the same. 
+
+The whole thing could be automated, because they were nicely ordered and has some actual logic into them. 
+
+
+
+Now asking you a question, what eBook do you have excess to?"
+,efxr,2010-01-08T01:39Z,"Replying on the 'being rebellious' comment.
+
+What I've heard (from a teacher), the reason why the publishers of both Tortora and Campbell charge those high prices for their books is because they've invested a lot in the online digital content, such as the video's, outline notes, etc. 
+
+As with all protected digital media, DRM can get stripped off fairly easy. They're just trying to protect their own interests, which is their right. 
+
+But in this day and age, information and technologies (such as eBooks) shouldn't be limited to high pricing. And let's face it, there are plenty other alternative resources one could hit to learn about mitochondria or whatever. 
+
+Like i said before, one shouldn't have to pay this amount of money for something that you can't fully own (basically you get to lend it). 
+
+I don't blame the publishers for trying to protect their own content. They should however consider adjusting there pricing models, and charge for actual content. 
+"
+,acollegestudent,2010-01-09T04:51Z,"@efxr, thanx for detailed explanation.
+
+The method you described, would you say that was the same if not similar thing that was on the torrent Campbell Biology 8th by Anonymous?
+
+If not how do you suppose he/she did it?
+
+Also, as far as getting access to the ebook site, there will always be students that purchase the physical book new, thus they get an included online code.
+
+The trick is to get some one to share that code or sell it to another student in same class.
+
+Further, even if they don't hit the mother load like you did, the pages I would assume could still be ripped one at time by simple going through the online book.  I'm assuming.
+
+Nevertheless, great work and thank you for taking the publishers to school! "
+,djdjura,2010-01-09T21:25Z,"First, just to make things clear, I haven't written ""a script to stack those layers in the proper format and layout, into a single page (and image file)"", the script was just for the batch-renaming.
+
+The story on rendering swfs to pngs is a different one. And it starts when you open a page full of swfs in Nautilus, filemanager in Ubuntu. When you do that for the first time, you see how the generic swf file icons are replaced with thumbnails as Ubuntu keeps generating them. I only found that stand alone program that Ubuntu uses for thumbnailing swfs, and found in its documentation, that there is a -s switch, that allows you to pass the desired height of the produced image to the program, so instead of tiny thumbnails it produces large pagerenders. Just to clarify
+
+Second, on the prizing matter, I think that the figures are the most expensive part of the book. I translated several figures from Campbell Biology for further use and just erasing English stuff, fixing background and writing it again took me a considerable amount of time. So speaking about actually creating the figures by their respective authors from scratch must took plenty of time and the publisher had to pay for their work. So the price IMHO kind of matches the extensive scale of that book, 5,5 pounds of paper and the time spent on creating that.
+
+And yes, I agree it is a lot of money for a student. Maybe the authors should rethink who are they writing the textbooks for."
+,Cat3illa,2010-02-05T07:49Z,"guys, check back at http://thepiratebay.org/torrent/5209991, the original author talked =)"
+,Devilseed,2010-02-10T01:52Z,"Impressive, thanks for the upload. I have some other microbio books if you're interested."
+,efxr,2010-02-12T20:38Z,"Yes, I am interested. Very much so, actually.
+Which books you have?"
+,crazysoccerman14,2010-05-03T10:00Z,FLAWLESS VICTORY :D
+,cza247,2010-10-04T17:56Z,"@ efxr I've recently just saw you and djdjura's teamwork to figuring out how to extract all of pages, images, etc. this seems like a great tool to have under your belt and even though i was following i didn't quite understand what was going on.  So maybe in the near future i could ask you guys if it would be possible to upload other books that i might need for my classes.  And maybe in the further on into the future i will be able to help and or do this on my own which is highly unlikely but i like learning new things.  Even though i don't need any of these books yet i do thank you for uploading it to public."
+,ShadowBlast,2010-10-16T14:42Z,"guys this is just amazing...nice work!!
+can you guys please find a way to extract Genetics: A Molecular Approach, 3/E 
+here is the link
+http://instructors.coursesmart.com/9780321697547/2#X2ludGVybmFsX1BGUmVhZGVyP3htbGlkPTk3ODAzMjE2OTc1NDcvMQ=="
+,efxr,2010-11-08T19:03Z,"To download the entire content, you must first have an account from that website that gives you full access to the online version. 
+
+When I purchased the book from Pearson, the book included a license to do so. "
+,indiaman,2011-02-05T13:58Z,Thanks for this wonderful book in color with excellent practical examples from the world around us.
+,Secus,2011-02-07T20:53Z,"Thanks a lot Efxr, you saved me $140-$190 on this book!"
+,liam.t,2011-02-22T03:02Z,thanks a lot!
+,dj_jen,2011-07-08T10:12Z,Thank you so much for making this torrent. I'm already past my budget for school and this saved me at least $120.

@@ -1,0 +1,24 @@
+Windows 7 Transformation pack 3.0 the Perfection 
+
+Alright, the waiting is over. While Apple fanboy is carving for new iPods, I'm here to give you the one of hella release that should keep remembering for Seven Transformation Pack. Thanks to Windows 7 going RTM'ed, I can fully explore its resources without worrying about going to update again and again. So I take this time out for all I can do with this. This version contains over 50 lines of changelog, 3 new features that keep this version a lot cooler and major updates in UI. 
+
+Keynotes 
+
+Deferred 3rd-party applications startup 
+This stuff is the coolest part of this release. You won't have issues with 3rd-party applications fighting other applications to allocate resources in startup anymore. Even if you use tons of 3rd-party applications bundled in Seven Transformation Pack, it won't degrade your Windows startup performance like before. Why? Because I put startup list in launcher application to handle this mess instead of putting in registry and let them fight each other increasing resources overhead and lower performance. Launcher will pause for 3 seconds to allow most existing applications to allocate. Then, it'll start 3rd-party applications one by one after each 2 seconds until done. Also, if new user logged in after using Seven Transformation Pack, Welcome Center will run automatically to configure user account for complete Seven experiences. It's just pure bliss with launcher. 
+
+
+
+System files modification support for Windows Vista 
+This is very big step for Windows Vista. It's ashame that I can't put this in x64 edition no matter how much I wish for it. Now Seven Transformation Pack supports both Windows XP/2003 and Windows Vista equally. For this first release, I don't want to risk much about system files so I decided to modify only ones that won't really suffer system too much like imageres.dll and branding files. You'll get Windows 7 logon screen, logo and main icons updated. You can hope to see more in future releases like visual style support if Windows Vista don't get pwned by Windows 7 at that time. 
+
+
+
+3rd-party applications tweaks and optimization 
+In this version, I spent a lot of time refining how existing 3rd-party applications can work best in almost every condition. For Vista Rainbar, you get 800x600 support, show desktop fix, slideshow pictures, and Windows 7 graphics. For TrueTransparency, you get 1.2 update with new features, optimized font name with color and shadow. For WinFlip, you get better compatibilities by using system memory instead of video memory, disabled caching new window for thumbnail for potential crash and permanent ViStart fix on startup. For ViGlance and ViStart, compatibilities between these two improved a lot. 
+
+Windows 7 resources updated 
+Well, Windows 7 is now RTM'ed so I spent my time digging around it and updated all resources I have with this ones including parts I left during betas. Mostly about icons though but I also put some graphics UI updates too. You'd better checkout in changelog for details. Most of all, I'm very happy with new visual style frame border I remade from WindowBlinds skin. Thanks to old monitor that I saw wrong color and screwed VS up but now it's looking very good again. You sure will love it. 
+
+
+It won't Slow Down your Computer 100%Tested By Me! Thanks  to Windows X's Live Team! 

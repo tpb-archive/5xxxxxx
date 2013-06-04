@@ -1,0 +1,50 @@
+2002.02 mirror of t10.org (SCSI Storage Interfaces), who unilaterally decided to stifle innovation by preventing *FREE* general public access to these well established specs. Included:
+
+8gb    Boot Considerations for devices > 8 GBytes Technical Report
+       (obsolete)
+ata2   AT Attachment - 2 (now a T13 Committee project)
+ata3   AT Attachment - 3 (now a T13 Committee project)
+atap   ATA Packet Interface (now a T13 Committee project)
+cam    SCSI-2 Common Access Method (CAM)
+cam3   SCSI-3 Common Access Method (CAM-3)
+epi    SCSI   Enhanced Parallel Interface (EPI) Technical Report
+f20    SCSI-3 Fast-20 Parallel Interface (20MB/S on 8-bit bus or 40 on 16-bit)
+fcp    SCSI-3 Fibre Channel Protocol (for Fibre Channel)
+fcp2   SCSI   Fibre Channel Protocol - 2 (second generation)
+gpp    SCSI-3 Generic Packetized Protocol Technical Report
+hap    High Availability Profile (HAP) (project closed)
+mmc    SCSI-3 Multi-Media Commands (CD-ROM command set)
+mmc2   SCSI   Multi-Media Commands - 2 (MMC-2) (second generation)
+mmc3   SCSI   Multi-Media Commands - 2 (MMC-3) (third generation)
+rbc    Reduced Block Commands (RBC)
+rmc    Reduced Multi-media Commands (RMC)
+s1     Final X3T9.2 Committee Draft of SCSI-1 (minus figures) (obsolete)
+s2     Final Committee Draft of SCSI-2
+s2t1   Technical Information Bulletin #1 for SCSI-2
+s2t2   Technical Information Bulletin #2 for SCSI-2
+sam    SCSI-3 Architecture Model (what it means to be SCSI-3)
+sam2   SCSI   Architecture Model - 2 (SAM-2) (second generation)
+sbc    SCSI-3 Block Commands (for direct-access devices e.g., disks)
+sbp    SCSI-3 Serial Bus Protocol (for 1394) (standard withdrawn)
+sbp2   Serial Bus Protocol - 2 (SBP-2) (second generation)
+scc    SCSI-3 Controller Commands (for RAID controllers)
+scc2   SCSI   Controller Commands - 2 (SCC-2) (second generation)
+sep    SCSI Enclosure Profile (SEP) (project closed)
+ses    SCSI Enclosure Services (SES)
+sgc    SCSI-3 Graphics Commands (for scanners and printers) (project dropped)
+sip    SCSI-3 Interlocked Protocol (for parallel copper SCSI e.g., SPI)
+smc    SCSI-3 Medium Changer Commands (for separate medium changer devices)
+spc    SCSI-3 Primary Commands (common commands for all SCSI-3 devices)
+spc2   SCSI   Primary Commands - 2 (SPC-2) (second generation)
+spi    SCSI-3 Parallel Interface (parallel copper interface for SCSI-3)
+spi2   SCSI   Parallel Interface - 2 (second generation)
+spi3   SCSI   Parallel Interface - 2 (third generation)
+spi4   SCSI   Parallel Interface - 2 (fourth generation)
+spia   SPI Amendment #1
+ssc    SCSI-3 Stream Commands (for tapes and printers)
+sss    SCSI Socket/SSL Services (SSS) (project closed)
+sts    SCSI-3 Transport via SBP-2 (STS) (project included in SBP-2)
+
+Also included Mt Fuji v4, v5 & v7
+
+Please seed to help hardware innovators - "Information wants to be free"

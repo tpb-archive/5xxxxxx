@@ -1,0 +1,60 @@
+User Type,Username,Date,Text
+,next_level_reaper,2009-12-25T12:42Z,"this upload has a virus!!
+
+
+Select local site 
+ Global Sites F-Secure.fi F-Secure Italian site F-Secure UK site F-Secure.com Slovenia France Germany Italy Japan Sweden 
+
+
+
+
+
+
+
+
+
+
+
+F-Secure Virus Descriptions : Back Orifice
+
+
+
+
+
+
+
+NAME: Back Orifice 
+ALIAS: BO, CDC-BO, BOSERVE, BOCLIENT, Orifice, Hacktool, Back_Orifice 
+
+There is no virus by this name. However, there is a toolkit from a hacker group Cult of the Dead Cow by this name. 
+
+This trojan horse allows an intruder to monitor and tamper with Windows 95 and Windows 98 computers over the Internet. There is no easy way for a computer user to know the attack is taking place, and there is no easy way to stop the attack once Back Orifice has installed itself on the computer. 
+
+In a typical attack, the intruder sends the Back Orifice trojan horse to his victim as a program attached to e-mail. When the e-mail recipient executes the program attachment, the trojan horse opens connections from the computer to the Internet. This allows the intruder to control the computer. The trojan horse is invisible and will restart itself automatically even if Windows is re-booted. 
+
+Back Orifice allows a hacker to view and modify any files on the hacked computer. It can create a log file of the computer users actions. It can take screen shots of the computer screen and send them back to the hacker. Or it can simply crash the computer. 
+
+
+
+F-Secure Anti-Virus detects and disinfects this trojan as Trojan.Win32.BO. 
+
+To manually remove Back Orifice, restart the machine in MS-DOS mode (Start/Shut Down/Restart in MS-DOS mode) and delete the BO server from Windows system directory. Usually this can be done by typing in the DOS prompt: 
+
+
+        DEL C:\WINDOWS\SYSTEM\EXE~1
+
+ALIAS: BOSniffer 
+
+
+This is a trojan which claims to detect Back Orifice, while in fact it is Back Orifice server itself. It is detected as Trojan.Win32.BO.b. 
+
+See: Netbus 
+
+
+
+"
+[M],k-kid,2009-12-25T14:52Z,"this is clean, false positives detected by antivirus"
+,TPBUROCK,2009-12-26T06:47Z,"No This is Virus ??
+100% virus"
+,OurNifty,2010-01-03T18:31Z,"FILE ARE CLEAN BUT YOUR ANTIVIRUS IS SHOWING FALSE POSITIVE.
+www.OurNifty.com"

@@ -1,0 +1,11 @@
+User Type,Username,Date,Text
+,jjsmalls,2010-01-06T21:40Z,on a mac.  a couple of the mkv's didn't play in vlc or mplayer.  went into bootcamp used mkv2vob to convert they play now.  thanks for the upload.
+,jjsmalls,2010-01-09T04:47Z,"check that.  just downloaded xmbc player, and it plays everything i've downloaded from ""[D]"" wonderfully.  get xmbc; especially if you're on an older mac."
+,boring123,2010-01-11T08:50Z,"jjsmals, I usually get mkv files to play in Front Row after installing Perian."
+,zaroba,2010-04-24T22:19Z,it seems that only the first 1 min 20 secs of the eps will play in vlc.
+[T],[D],2010-07-19T00:39Z,"Indeed, vlc is not supported due to ordered chapters. 
+Use media player classic+haali splitter+coreavc 2.0+any ac3 decoder."
+,blahblah2,2010-07-28T21:44Z,"you can disable ordered chapters and watch these mkv in VLC.
+in the configuration file :
+# Ordered chapters (boolean)
+mkv-use-ordered-chapters=0"

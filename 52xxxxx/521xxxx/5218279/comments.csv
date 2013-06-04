@@ -1,0 +1,68 @@
+User Type,Username,Date,Text
+,shen_long75,2009-12-16T01:42Z,"The latest tomtom europe map 8.40.2563
+
+http://thepiratebay.org/torrent/5220949/TomTom_Western_and_Central_Europe_2GB_840_2563"
+,shen_long75,2009-12-16T01:42Z,http://thepiratebay.org/torrent/5220949/TomTom_Western_and_Central_Europe_2GB_840_2563
+,cyrilator,2009-12-17T15:53Z,"shen long75, your map version is not adapted for 2GB SD Card, tomtom ONE  and One XL use others folders to work, so you can't put a 1,94 GB map on it."
+,luftwaffa,2009-12-21T00:53Z,"Hi, I have the tomtom one v1, will this navcore and map work on this version?
+
+I saw somewhere else that the v1 tomtom one won't accept 8.x navcore and maps...
+
+Would be great if I could get this working, thanks!"
+,cyrilator,2009-12-21T19:10Z,"hi luftwaffa, I have a tomtom one new edition (v2) and the 8.40 and the navcore work like a charm.
+
+i'm not sure but i think it should also work with the tomtom one v1. 
+just try to cpoy the v8.40 map + the navcore 8.41 in your SD card and run the easy tool.
+
+MAKE A BACK UP of your previous SD CARD files before, in case of problems."
+,luftwaffa,2009-12-21T20:30Z,"Thanks cyrilator, couple of questions thou...
+
+The root of my SD card has two folders, v1 and v2.
+
+v1 contains the map folder and a bunch of other folders (itn, Licences, raster, schemes, Script, TomTom-Cfg, voices, zip) and files (autorun.inf, connect2internet.db, CurrentMap.dat, data.chk, splash.bmp, system, tomtom.aid, tomtom.ico, ttgo.bif, ttsystem).
+
+The v2 folder contains only two files, data.chk and ttsystem.
+
+So note there's 2 ttsystem files, one in each folder.
+
+So what should I copy from this download and to where? I.e. do I copy the contents of the SE_Navcore.8.412.1236.Basicpack folder to the v1 folder? And the SE_ttsystem.8.412.1236 to v2? Should I delete the contents of the v1 and v2 folders before copying? Or any other ideas?
+
+Thanks v much for your help btw!"
+,luftwaffa,2009-12-21T20:31Z,"Btw I def have the tomtom one v1, not sure why its got folders called v1 and v2, but its def v1!"
+,cyrilator,2009-12-23T22:54Z,"hi luftwaffa, personnaly in my SD root there is all what you describe in your V1 folder.
+
+to install the Western and central europe v8.40 and the navcore 8.41  follow it : (make backup before ^^)
+
+1) erase your current map folder from your SD root.
+2) put the 8.40 map folder in the SD root
+3) put the ""SE_Navcore.8.412.1236.Basicpack"" folder in the SD root.
+
+4) run the easy tool.
+
+ in the easytool :
+
+ Step 1 : choose TT8 keygen.exe
+ Step 2 : browse for the .bif file (it's in you SD card Root)
+Step 3 : - browse the v8.40 map (in the SD root) (you put it in previously)
+ - Browse for the meta.txt (it's in the easytool folder) or download it via the easytool.
+- Generate the .meta DCT file
+
+- Exit.
+
+Restart your Tomtom. it should be ok.
+
+"
+,okamiokami,2010-01-03T17:33Z,"cyrilator: please explain how to upgrade Navcore. simply copying the folder onto the SD card won't do the trick, overwriting won't let tomtom boot. thnks"
+,Op.D,2010-01-19T00:45Z,"Can somebody please help me!
+I have installed maps from different gps such as N95 and Iphone and never failed. But now with my TomTom One XL I can not make it work. I have an old scandinavia map in the harddrive. I have bought a new SD card 2GB but after trying to do as the comments here say it doesnt work. It just shows on the screen a big red kross over a memory card showing ""take out card"". Can somebody please post a walkthrough/guide showing ALL steps in the procedure? PLEASE!"
+,maxbull,2010-02-10T22:02Z,"To Cyrilator: I've got tomtom xl with build in 2gb hd only, will this map work on my gear? Is this new navcore is with lane guidance or IQ routes? Would be very nice if someone could make clear,easy step by step instructions (navcore upgrade + map upload )for people like me :/ ...
+thanks in advance"
+,maxbull,2010-02-11T00:36Z,"I followed your instructions, and seems to be ok till I restarted my tomtom and get red screen and message: ""Problem with map, You cannot use this map on this device: Western_and_Central_Europe_2GB""
+I dont know what to do. Please advice. "
+,rpsamme,2010-02-17T18:57Z,"I am trying to install on a tom tom one, I have followed luftwaffas instructions, but when I turn on I get ""No Map Found!"" message.  Any idea what I am doing wrong?"
+,ea1532,2010-03-17T10:52Z,"FOR EVERYONE WHO FOLLOWS INSTRUCTIONS AND TOMTOM SAYS YOU CANNOT USE THIS MAP HERE IS THE SOLUTION.
+Download yDGpatch_1-2-16-10 or GOOGLE it
+Install then start program choose PATCHFILE and direct it to where Ttom is on your Sd card etc and choose TTSystem then GO!
+Wait a minute after it says patch sucessful put it in your tomtom and you are good to go."
+,matte_halen,2010-07-25T22:18Z,"I have a tomtom one XL and have follow the instructions from cyrilator but still get ""cant find a map"" on my tomtom. What could i do wrong?"
+,dragonblu,2011-03-15T13:36Z,do u know if greece is in this map :((((( plz reply 

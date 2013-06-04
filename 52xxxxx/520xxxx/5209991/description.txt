@@ -1,0 +1,60 @@
+That's right, folks, the 8th edition! My first release, too, don't be too harsh on me.
+ 
+http://www.amazon.com/gp/product/0321543254
+
+ISBN-10: 0321543254
+ISBN-13: 978-0321543257
+
+Description:
+Neil Campbell and Jane Reece's BIOLOGY remains unsurpassed as the most successful majors biology textbook in the world. This text has invited more than 4 million students into the study of this dynamic and essential discipline.The authors have restructured each chapter around a conceptual framework of five or six big ideas. An Overview draws students in and sets the stage for the rest of the chapter, each numbered Concept Head announces the beginning of a new concept, and Concept Check questions at the end of each chapter encourage students to assess their mastery of a given concept. New Inquiry Figures focus students on the experimental process, and new Research Method Figures illustrate important techniques in biology. Each chapter ends with a Scientific Inquiry Question that asks students to apply scientific investigation skills to the content of the chapter.
+
+-----------------------------------------------------
+
+
+
+I got this off the e-book version that you buy for half a semester using a clever script that I wrote. All credit goes to me =)
+
+When I needed it myself, I only found the 7th edition - which doesn't cut it for my professor, unfortunately. So, when I figured out how to almost painlessly extract the ebook, I thought why not share it with other unfortunate souls forced to take Biology.
+
+
+Enjoy! =)
+
+
+
+
+PS I used this fun feature adobe has - built-in OCR. So this text is searchable!
+
+PPS Upload is capped at 50 Kb/s, so please seed after you get it off me.
+
+
+Edit:
+Hey guys, sorry for not being here with you all this time, I just went back to check on this book =)
+Anyhow, all I did was write a simple script with AutoHotKey that clicked "print" (to print to pdf) and flipped to the next page, with a simple counter to increment page number.
+I combined the resulting files - and there you go. It's very simple =)
+
+
+pageNum = 0
+loop
+{
+Sleep, 1000
+WinWait, myPearsoneBook - Mozilla Firefox, 
+IfWinNotActive, myPearsoneBook - Mozilla Firefox, , WinActivate, myPearsoneBook - Mozilla Firefox, 
+WinWaitActive, myPearsoneBook - Mozilla Firefox, 
+MouseClick, left,  120,  239
+Sleep, 2000
+MouseClick, left,  823,  246
+Sleep, 300
+WinWait, Print, 
+IfWinNotActive, Print, , WinActivate, Print, 
+WinWaitActive, Print, 
+Send, {ENTER}
+Sleep, 1500
+WinWait, Save As, 
+IfWinNotActive, Save As, , WinActivate, Save As, 
+WinWaitActive, Save As, 
+Sleep, 700
+Send, {TAB}{TAB}{TAB}{TAB}{TAB}%pageNum%{ENTER}
+pageNum++
+}
+
+I hope this helps get the word out and get more quality ebooks reeled into the community.

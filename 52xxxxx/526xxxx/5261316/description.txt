@@ -1,0 +1,67 @@
+this is a full pack to modify any system 3.1-4.1u. as usual included is a step by step txt file  #   to guide the willing. this is similar to but a little different than the 4.2 hack that i put up. no one should have a problem with this. open and read the txt file first, you WILL need it.
+forgot to add the guide so here it is
+1. INSTALL BOOTMII AND THE HOMEBREW CHANNEL
+
+a . Put all the files from Ã¯Â¿Â¢Ã¯Â¾Â€Ã¯Â¾Â˜copy to sd card.rarÃ¯Â¿Â¢Ã¯Â¾Â€Ã¯Â¾Â™ onto the root of the SD Card  #  . It should look like this when done.
+
+b . Insert the SD card into Wii.
+
+c . Go to Wii Options, then go to Data Management > Channels > SD Card, then you will get a message saying "Load boot.elf?" , select 'Yes' and the Hackmii installer will run.
+
+d . Install Bootmii as boot2 if you can, if not then install it as an IOS then go back and install the Homebrew Channel.
+
+If you are connected to the Internet the Homebrew Channel will ask to update - say no until you have completed this guide, then the choice is yours...
+
+
+2. BACK UP YOUR NAND
+
+Making a NAND backup  #   with Bootmii is a must, it will recover your Wii from 99.9% of bricks.
+Use the same SD card you used to install Bootmii and make sure there is at least 530mb free on it.
+Bootmii is very fussy about what SD cards it uses, so avoid generic ones and try and use a Sandisk or similar.
+
+
+a  Put the SD card into the Wii, if you installed Bootmii as boot2 then it will load, if it is installed as an IOS go to the Homebrew Channel, press 'home' on your wiimote and select 'Launch Bootmii'.
+
+b  Use the power/reset/eject buttons to navigate the Bootmii menu  #   and select the icon with the gears on it. If those buttons don't work then you will have to use a Gamecube controller.
+
+c  Now select the icon with a green arrow pointing from the chip to the SD card and follow the on screen instructions.
+
+D  In about 10 mins you will have a NAND backup, it is normal to have up to 80 bad blocks so don't worry if you get some.
+
+e  Put the SD card into PC and copy the NAND backup somewhere safe, you can now delete it from your card. If you installed Bootmii as boot2 then also copy the Bootmii folder to your PC and either delete or rename it, otherwise it will load every time you switch  #   your Wii on.
+
+If ever you get bricked then copy the bootmii folder and NAND backup onto your card, do steps a  & b  again, using Priiloader to get to HBC if necessary, then select the icon with the arrow going from the SD card to the chip.
+
+
+3. GET A CIOS
+
+a  Go to Homebrew channel and run Trucha Bug Restorer, load IOS36, press 1, read the warnings then select 'downgrade IOS15', select to load IOS from SD card then let it do its job, keep an eye on what it is doing and make sure you select 'load from sd card' when it asks & don't get any errors.
+
+b  Run Trucha Bug Restorer again, this time select to load IOS15 on first screen using dpad left/right, then select the IOS36 menu & install patched  select 'yes' on all 3 patches  IOS36 to slot 36, again using IOS from SD card.
+
+c  Run Trucha Bug Restorer again, load IOS36 and this time select restore IOS15.
+
+d  Run cIOS38 r14 installer, select IOS36 as the one it should use and then select wad install.
+
+4. UPDATE YOUR SYSTEM MENU VERSION  OPTIONAL 
+
+This step is optional unless you are on 3.3 or 3.4, you may upgrade now if you wish, boot2 v4 owners cannot downgrade! but can upgrade  #   if you want. If you want to update to 4.1 then make sure you have at least 250 blocks free or you will brick, install IOS60-patched first  step 5a , then run Firmware Updater 4.1. If you are on 3.3 or 3.4 then you must update now - DO NOT install priiloader until you have updated as it will cause untold problems!.
+
+
+5. THE FINAL STEP
+
+Priiloader is also an optional install, if you don't want it just skip b & c, but you must do step d, system menu hacks can be taken care of by Starfall  3.2  or startpatch  4/4.1 , if you want them click my sig and have a look through myThere are no system hacks for 3.3/3.4.
+
+a  If you are on system menu 4/4.1 use Wad Manager  #   with default settings  IOS249 & SD card  to install IOS60-patched.wad - make sure you do this before you install Priiloader. If you installed it in step 4 then skip this part. Never uninstall IOS60! You will brick!!
+
+b . Open the Homebrew Channel and load Priiloader, press + to install. After install, your Wii should reboot and load the Priiloader menu. If it doesn't, turn your wii off and on again whilst holding down reset and it will load the Priiloader menu.
+
+c  Select 'system menu hacks' in the Priiloader menu, and enable the hacks that you want - 'skip disc update check' and the region free ones are all you need. Select 'save settings' and wait for confirmation message to display 'settings saved'. Press B to go back, and enter Settings. Set 'Autoboot: System Menu' using D-Pad, then select save settings. Press B to return to main Priiloader menu.
+
+d  In the Priiloader menu select Homebrew Channel  if you didn't install Priiloader then just open HBC as normal , run Wad Manager 1.4, use default settings  IOS249 & SD card  and install these wads from the 'wad' folder:
+
+IOS38-64-v3610
+IOS50-64-v4889
+IOS53-64-v5149
+IOS55-64-v5149
+NeoGamma r8b7

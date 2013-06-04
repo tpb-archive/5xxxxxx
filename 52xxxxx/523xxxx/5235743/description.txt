@@ -1,0 +1,95 @@
+I tried creating the torrent file with another application, and now i can download it my self, and get to 100%.
+
+Please report if it works.
+
+You can continue your file from 99,7% :)
+
+For everyone else:
+
+ew Release of Daikatana for Mac! (Reseed)
+This release is an updated version of my previously released torrent.
+
+What have changed?
+
+WIDESCREEN SUPPORT!
+
+
+John RomeoÂ´s (The Co-creator of Doom), biggest ad most hyped First Person Shooter.
+Personally i think this game was way ahead of its time, and only got bad reviews for its difficulty.
+
+But as John Romeo said himself: Daikatana is a Hardcore first person shooter!.
+
+ 
+
+I have re-coded Daikatana into a Mac Version.
+Everything works as it should :)
+
+
+
+IF YOU GET THE OPENGL ERROR DO THE FOLLOWING:
+
+
+1. Download this Zip (daikatanafix.zip), 3mb.
+
+LINK: http://www.meny-graphics.dk/DaikatanaFix.zip
+
+2. Unpack the Zip.
+3. copy and overwrite the files from DaikatanaFix.zip, into the Folder Daikatana (Rightclick on the Daikatana icon, click Show Package Content.
+Navigate to: Contents -> Resources -> transgaming -> c_drive -> Daikatana)
+
+4. Launch the game! :)
+
+
+
+Widescreen Guide!
+
+The Default resolution is 1920x1200.
+
+If you want to change that, you have to do it outside the game.
+
+The first thing you need to get is an Hex Editor.
+For mac,  HexFiend is Great.
+
+Rightclick on the Daikatana icon, click Show Package Content.
+Navigate to: Contents -> Resources -> transgaming -> c_drive -> Daikatana
+Drag the file "daikatana.exe", to your desktop.
+
+
+ Open HexFiend, and locate the Daikatana.exe file on your desktop. Open it.
+
+Start by pressing "CMD+F", to find a line.
+Write:     Mode9: 1920
+And press Next.
+
+You will now see line 739440 (The line numbers are shown to the left in the window)
+The line above 739440, is line 739424.
+Find number 00800700, and 00B00400 (Usually next to eachother)
+
+The part "8007", and "B004", and the ones that need to be changed.
+
+8007 is the screen width and B004 is the height.
+Change the two numbers (When you press delete, or backspace, it removes 2 digits. Remember that!!!) , into the resolution in the table below:
+
+For example, if i want to change my resolution to 1280 x 720, 
+ill change 8007 to 0005, and B004 to D002
+
+After you have made your change, save the file, and drag it back into the Daikatana folder. Remember to make a backup of the original Daikatana.exe, if you mess something up.
+
+
+Resolutions:
+
+_____________
+1650  x   1050
+90 06    1A 04
+_____________
+1440  x   900
+A0 05     84 03
+
+_____________
+1280   x   720
+00 05     D0 02
+
+
+
+
+ENJOY!!!				

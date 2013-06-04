@@ -1,0 +1,93 @@
+WinRAR 3.91 Final x86 Registered and Patched for Locked Archives.
+
+Install it as the regular one and it works without need to use any KeyGen or Patch. Th EXE files have been patched so you can modify also Locked files.
+
+If you don't trust it, download the original Setup from RarLabs Site and copy the files From Crack Dir  in the install Dir (usually C:Program FilesWinRAR).
+
+
+
+WinRAR - What's new in the latest version
+
+
+   Version 3.91
+
+   1. This version can decompress 7-Zip archives created with
+      LZMA2 algorithm.
+
+   2. Now a password is requested only once when unpacking 7z archives
+      with encrypted file names from context menu. WinRAR 3.90 asked it
+      twice.
+
+   3. This version can unpack tar.bz2 archives consisting of several
+      smaller bz2 streams merged together. Previous versions unpacked
+      only the first nested bz2 stream in such composite archive.
+
+   4. WinRAR displays CRC32 of files inside of usual .gz (not .tar.gz)
+      archives. Previous versions left this field blank for GZIP files.
+
+   5. Bugs fixed:
+
+      a) WinRAR 3.90 displayed "Save" button instead of "Open" or "OK"
+         in "Find archive" dialog ("Open archive" command in "File" menu
+         and "Browse..." command in archiving dialog);
+
+      b) WinRAR could display incorrect file names when browsing malformed
+         ZIP archives;
+
+      c) WinRAR 3.90 failed to decompress LZH archives created with
+         "-lh7-" algorithm;
+
+      d) WinRAR 3.90 could fail to delete a part of files after archiving
+         if delete to Recycle Bin was enabled. This bug was present
+         when working in Windows XP, but not in Windows Vista and Windows 7;
+
+      e) when unpacking ISO file using WinRAR "Extract files..." command
+         in Explorer context menu, WinRAR could unpack same archived files
+         twice during the same operation. It displayed the overwrite prompt
+         when unpacking files for the second time;
+
+      f) hexadecimal search in WinRAR 3.90 "Find" command and console RAR
+         "ih" command failed to find matches if first byte in search string
+         was greater than 127.
+
+
+More infos at
+  
+http://www.rarlabs.com
+
+
+
+SUGGESTIONS ON USING P2P DOWNLOADS
+==================================
+
+1) It's always better to run all downloaded programs using Sandboxie or a similar virtual machine until you are sure they are clean.
+
+
+2) When in doubt, scan them with an Internet Scan service as the ones provided by Jotti and VirusTotal
+  
+http://virusscan.jotti.org/
+  
+http://www.virustotal.com/
+
+This will ***NOT*** give you any warranty that a file passing their analysis is clean, nor that if they see them as a troian it's so or not just another false positive, but helps you to decide and at least ask for help or infos.
+
+
+3) Remember, trust nobody, and when in doubt, go to point 1) 
+
+
+4) If you find any upload containing trojans or whatsoever malicious or unclean, instead of start cursing in the comments of the upload, take the time to go to the Suprbay Forum at:
+  
+http://forum.suprbay.org/forumdisplay.php?fid=29
+
+and report links and comments there, and someone will take care of all the nasties.
+
+
+That's the only way to keep TPB and its uploads fresh and clean.
+
+
+That's for what is regarding security. If after testing it you see that you like it and it's useful for you, show your support by buying it!
+
+
+
+Enjoy and remember to seed... :o)
+

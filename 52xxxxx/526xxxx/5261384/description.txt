@@ -1,0 +1,26 @@
+Hey everyone, here's a copy of the New Super Mario Bros. game for the wii. All you need to do is download it and burn it using ImageBurn, good luck thanks.
+
+Update. This is a ligit copy, but if you are like me this game was giving me trouble after about ten minutes of playing time, it would give me a disc error, but I figured out that I needed to update my Wii Key 2 to version 1.3 If you have trouble with this as well I suggest you go to www.Wiihacks.com and search Super Mario Bros and read up on what others are doing to get theirs to work. O by the way if you have a Wii Key 2 the update link is http://www.wiikey.cn/en/legacy/
+
+Another Update. This is the original iso and is not scrubbed at all so more than likely will not work for softmod wiis, unless you do the following to the iso file.
+
+Patching/Fixing the ISO:
+
+1) Download WiiScrubber 1.40 from http://filetrip.net/f4399-Wiiscrubber-Kit-with-multiloader-1-40.html the download comes with multiple rar files that you will need to unrar each one. Put all of the files in one folder to keep this simple.
+
+2) Run the "MakeKeyBin.exe" Type in the number and hit generate, done.
+
+3) Open WiiScrubber, and select your ISO, the one you are downloading here.
+
+4) Search for the main.dol -> right click -> Extract //// you want to look for the main.dol under the New Super Mario Partition, not the one that says sample partition. Make sure you know where you extracted the file to.
+
+5) Download NSMB Wii PPF Patches.rar and NSMB Wii PPF-O-Matic.rar one is the patches for this NTSC version and the Pal version if that is what we had but it isn't, the other is the program that is going to patch the main.dol file we extracted with the patched one.
+
+6) Open PPF-Patcher, and on the top box you want to select the main.dol file you extracted, you will have to select all files before you will be able to view it in your browse category box. The bottom box you want to select the NTSC patch that you just downloaded and then hit apply. Once you are done it has patched the file that you extracted in the beginning. 
+
+Now go back to the wii scrubber and instead of hitting the extract hit the replace button when you right click on the main.dol file. 
+
+After you replace the file with the patched one hit the scrub button and when it is done you will have the version that will most likely work for your wii. Good luck and hope this helps.
+
+
+I took these instructions from this link http://www.wiihacks.com/wii-games/28589-guide-new-super-mario-bros.html they are right at the top with links to all the downloads.

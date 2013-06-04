@@ -1,0 +1,105 @@
+I forgot to mention on the "ReadThis_B4_Installing.txt" file, After booting in Safe-Mode and doing changes to the file located in folder "programdata", you should run again "Msconfig" and re-enable the services and startups referent to ZoneAlarm that were disabled in the beginning. Do this before the last Reboot and all should be working fine.
+
+In Windows XP I believe the file to change is located at C: | Windows | System32
+
+=================================================================================
+
+
+ZoneAlarm Internet Security 2010 gives users a strong feature set that focuses on immediate security, but a clunky interface makes some key features hard to reach and activate. Among these are the virus scan, the cornerstone of any security product, and the new gaming mode. ZoneAlarm is boasting of scan times supposedly 80 to 90 percent faster than in previous versions, possible because the company has finally unified its antivirus and antispyware engines, and has made improvements to its download scanning protocol.
+
+Other features include an identity protection module to encrypt personal information and alert you when it leaves your computer. It also helps you set up an eBay fraud report, if you're an eBay user. There's an outbound e-mail alert, in case your account gets hacked, and there are parental controls. ZoneAlarm's well-known firewall is included, and after spending half a day with it on a Windows 7 computer, we didn't notice any of the usability problems that have notoriously plagued it. That doesn't mean they don't exist, of course, but we didn't experience them on the latest version.
+
+In terms of threat detection and removal efficacy, independent data isn't available yet for this version. On ZoneAlarm Internet Security 2009, the program scored better than average, but not in the upper percentiles on malware detection, removal, or response times, and only average on false positives. The trial period is shorter by half than its competitors, and many of the mid-level security suites contain more browsing protections than ZoneAlarm's. Given those drawbacks, plus the unnecessarily complex interface, we recommend giving ZoneAlarm Internet Security a pass this year unless you're a ZoneAlarm fan. 
+Complete System Requirements for All ZoneAlarm Products
+
+The following minimum requirements are recommended for the best performance levels and experience with our software.  Installing our software on computers that do not meet these requirements is possible but will result in a lower-quality user experience, and in particular slower performance.
+
+Operating system requirements
+
+MicrosoftÂ® WindowsÂ® 7:
+
+This Version of ZoneAlarm Internet Security Suite is compatible with Windows 7. Antivirus and AntiSpyware work ok.
+
+    * 32-bit / 64-bit , 2 GB RAM
+    * 2 GHz or faster processor
+    * 250MB of available hard-disk space
+
+
+
+Microsoft Windows Vista SP1 or SP2
+
+Business / Home Premium / Ultimate:
+
+    * 32-bit / 64-bit, 2 GB RAM
+    * 2 GHz or faster processor
+    * 250MB of available hard-disk space
+
+
+
+Microsoft Windows, XP SP2 or SP3
+
+Home / Professional:
+
+    * 32-bit, 1GB RAM
+    * 1 GHz or faster processor
+    * 250MB of available hard-disk space
+
+
+
+Feature-specific requirements
+
+
+
+Browser security requirements
+
+    * Microsoft Internet Explorer 6, 7, 8
+    * Mozilla Firefox 2.0, 3.0, 3.5
+
+
+
+Spam filtering and Mail-Safe requirements (not available in all ZoneAlarm products)
+
+Spam Filtering protocols:
+
+    * IMAP4
+    * POP3 (YahooPops POP3 e-mail service not supported.)
+    * HTTP in conjunction with Outlook, Outlook Express and Windows Mail ( Vista) only. (Microsoft Exchange not supported.)
+
+
+
+Spam Filtering e-mail clients:
+
+    * Outlook and Outlook Express
+    * Windows Mail for Vista 32 and 64 (Windows Live Mail is not supported)
+
+
+
+MailSafe protocols:
+
+    * SMTP outbound only
+
+Laptop Hard Drive Encryption requirements (optional add-on; not available in all ZoneAlarm products):
+
+*Note: Your computer will be checked for compatibility with Hard Drive Encryption at installation time.  Not all systems will be compatible.
+
+    * Ability to write to a USB stick, floppy disk, or CD from your laptop (CD-burning software with ISO-burning capability also needed if you use a CD to make your recovery disk)
+    * Laptop PC
+
+Parental controls (Not available in all ZoneAlarm products):
+
+Parental controls work for any Web browser, and for any program that can be used to surf the Web.
+
+Additional requirements
+
+ZoneAlarm security software works with most types of TCP/IP connections including Ethernet LAN, wireless LAN, DSL, cable modem, and dial-up connections. The ideal resolution for ZoneAlarm security software is 1024 x 768 or higher. Some software screens might not display properly at resolutions of 800 x 600 or lower.
+
+Microsoft Operating Systems Support Status
+
+Current Operating System Support Information:
+
+It is ZoneAlarm's policy to extend protection to customers of all Microsoft Windows operating systems as long as the following conditions apply:
+
+    * The operating system itself is still supported by its creating company (Microsoft) with automatic and proactive security updates to protect customers against the latest security vulnerabilities.
+    * The operating system can technically support the ZoneAlarm software without negatively effecting the users security.
+
+When these above criteria are not met, we will, at the sole discretion of Check Point Software Technologies, discontinue support of the operating system. We will make every attempt to give prior notice to customers before discontinuing support for an operating system.

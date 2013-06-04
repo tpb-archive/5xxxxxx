@@ -1,0 +1,32 @@
+User Type,Username,Date,Text
+,Nohg,2009-12-20T19:54Z,"Since my torrent description is taking its time to update, I will make this note here again:
+
+I have ADSL, which means a very shitty upload speed.
+
+You have been warned."
+,Nohg,2009-12-21T01:44Z,Working? Not? Feedback would be superior.
+,gukid,2010-04-26T21:58Z,"Worked for me!
+
+Things to note:
+- didn't use the supplied .conf, mine worked fine.
+- sound is muted in the game, so turn up the volume before you start messing with sound settings.
+- i still ran setsound and setup sb16, which is more compatible with what dosbox uses.
+- you don't need the moo folder in c:, you can actually just take the ORION2 folder and put that wherever you mount your drives for dosbox.
+- you can also delete the 3 folders in ORION2, one is directx, one is ten (old online gaming service) and one has some old windows stuff, wallpaper, screensaver, etc.  you could probably delete a lot of the files in the ORION2 folder too that pertained to ten/directx/win95version, but I didn't really feel like messing with it.
+
+Thanks for the torrent!"
+,AmberEstelle1990,2010-06-06T22:15Z,Not sure how to get it to work. I think i followed the instructions right but I still get an illegal comand prompt everytime i try to run it. I'm still new to this so help would be greatly appreciated
+,AmberEstelle1990,2010-06-06T22:44Z,The torrent works it's a great download once you figure out how to use dosbox but I can't figure out how to make it full screen
+,WolyThoctar,2010-08-09T05:05Z,I cant get it to run on dosbox. i get the illegal command response. I have the moo file in C: but it's not working. I also have the .conf in the dosbox file. As far as I can tell I have followed the instructions ccorrectly but to no avail. HELP PLEASE.
+,empertu,2010-09-06T15:53Z,AmberEstelle1990  press alt enter
+,Nohg,2011-02-13T16:29Z,"And another note on sound. If it's not working for you at all, make sure to find the sound.lbx file and and un-check ""read-only"".
+
+As to gukid, the extra folders are because this .rar allows you to install Moo2 as well as play it. I probably should have cleaned it up, but it's already uploaded.
+
+
+For anyone wondering about the conf file, for the new DOSBox on 7, it goes /users/you/(hidden folder) appdata/local/dosbox.
+
+The reason I'd recommend using the included conf file is because it allows netplay and has spiffy auto-mount. 
+
+
+You are of course free to do as you wish...."

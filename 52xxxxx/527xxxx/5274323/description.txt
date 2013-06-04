@@ -1,0 +1,191 @@
+Windows XP PRO SP3 Lite Edition Modd [Tntvillage.Scambioetico]
+
+Windows XP PRO SP3 Lite Edition Modd
+by xelion21
+
+ 
+[img]http://img39.imageshack.us/img39/7750/59645507.jpg[/img] 
+
+
+Descrizione della release
+
+Questa versione di XP che ho preparato Ã¨ per tutti quelli che vogliono una release senza tante cose inutili, e una base pulita a cui aggiungere software aggiornati di casa Microsoft.
+
+Sicuramente non accontenterÃ  tutti perchÃ© ognuno di noi ha esigenze diverse, ma certamente Ã¨ molto leggera.                                                                                                                                   
+
+Non Ã¨ unâ€™installazione unattend, dovrete solo impostare il proprietario e il seriale e cliccare 2 volte OK dopo.  
+
+Non aspettatevi che vi chieda di impostare lâ€™utente, perchÃ© ho eliminato OOBE, quindi sarÃ  Administrator lâ€™utente principale, di default, sempre liberi di aggiungerne altri dopo.       
+
+Il seriale lo trovate nella cartella compressa insieme alla ISO.
+Su macchina virtuale impiego 12 minuti a installarlo e penso che non sia male come tempo.
+
+Non ho ritenuto opportuno lasciare i Framework originali perchÃ© obsoleti, e utili a qualche rara applicazione, eventualmente chi dovesse aver bisogno del NetFx sp2 si installa in 2 minuti.
+
+Ho impostato parecchi servizi in manuale e altri li ho disabilitati perchÃ© inutili in ambito casalingo.
+Al primo avvio sono attivi 16 servizi e il consumo di memoria Ã¨ limitato a 72MB.
+
+Infatti gira veramente bene su PC con poca RAM.
+
+NB. Windows Update Ã¨ anche lui bloccato per chi come me non sente la necessita di aggiornare 
+il sistema a molte patch inutili.
+ 
+Per chi invece desidera aggiornare o almeno sapere quali aggiornamenti ci sono, puÃ² sempre andare in pannello di controllo e attivare una delle 2 opzioni.  
+
+Non ci saranno problemi con il WGA, non servirÃ  nessuna patch. 
+(Il seriale allegato Ã¨ genuino, Ã¨ a prova di WGA, testato)
+
+ 
+[img]http://img43.imageshack.us/img43/5111/81880162.jpg[/img] 
+
+Scheda del software 
+
+S.O base:
+Windows XP Corporate
+
+Aggiunti:
+
+Service Pack 3
+Windows MediaPlayer11 con ultime patch
+IE7_WinXPSP3 con ultime patch
+Microsoft Update v7.2.6001.788
+Windows_Installer v4.5.6001.22159
+MSXML 4.0 SP3
+WGA Validation v1.9.40.0
+WGA Notifications v1.9.40.0
+WindowsXP-KB898461-x86-ITA.exe
+NotePad2_v3.0.20.9
+Vistaluna_Basic_Theme
+
+Le ultime 2 aggiunte sono un ritocco visuale, una per ammodernare XP e lâ€™altra per avere un Blocco Note con piÃ¹ funzioni rispetto allâ€™originale. 
+
+ 
+[img]http://img20.imageshack.us/img20/6115/94295466.jpg[/img] 
+
+
+Rimozioni:
+
+# Applicazioni #
+Accesso Facilitato
+Giochi Internet
+NT Backup
+Sincronia File
+                                                                                                                                               
+# Driver #
+Audio Removibile
+IBM PS/2 TrackPoint
+IBM Thinkpad
+ISDN
+Logitech WingMan
+Microsoft SideWinder
+Modem
+MultiFunzione
+Penna seriale da Tablet
+Periferiche a Nastro
+Scanner
+Scheda decodifica DVD Toshiba
+Schede Video (datate)
+Sony Jog Dial
+Stampanti
+
+# Lingue #
+Tutte  
+
+# Multimedia #
+Codec Intel Indeo
+Cursori del Mouse
+Media Center
+Movie Maker
+Sample musicali
+Sintesi e riconoscimento vocale
+Supporto audio MIDI
+Tablet PC
+
+# Opzioni Sistema Operativo #
+Compressione Zip
+DR Watson
+Extensible Storage Engine (Esent97)
+Framework
+IExpress Wizard
+MS XML 2.0
+Out of Box Experience (OOBE)
+Pulitura Guidata Desktop
+Servizi di Installazione Remota (RIS)
+Strumento di rimozione Blaster/Nachi
+Tour
+Trasferimento Guidato File e Impostazioni
+
+# Rete #
+Client per la Rete Netware
+Connessione Guidata ad Internet
+Estensioni di FrontPage
+Manager di Sincronizzazione
+MSN Explorer
+Netmeeting
+Peer-to-Peer
+Protocollo NWLink IPX/SPX/NetBIOS
+Windows Messenger
+
+# Servizi #
+Accesso secondario
+Archivi rimovibili
+Avvisi
+Copia di Backup del Volume
+Gruppo di continuitÃ 
+Messenger
+Registro Remoto
+Segnalazione Errori
+Servizi di testo Framework
+Servizi Fax
+Servizio COM di masterizzazione CD IMAPI
+Servizio di indicizzazione
+Servizio Ripristino configurazione di sistema
+
+# Supporto Hardware #
+Adattatori seriali multi-porta
+Gravis Digital GamePort
+Iomega Zip drive
+Periferiche Brother
+Smartcard
+Windows CE USB Host
+
+# Tastiere #
+Tutte 
+
+# Cartelle #
+DOCS
+SUPPORT
+VALUEADD
+
+Patch:
+TcpIp = 100
+DoUxTheme   (sblocco per i temi non firmati)
+DoSFC           (SFC disabilitato) 
+
+Servizi:
+Numerosi servizi sono stati disabilitati e altri portati in manuale, si attiveranno solo alla reale necessitÃ  poi si disattiveranno.
+
+Tweaks:
+Non ne ho abilitato nessuno perchÃ© ognuno nel post installazione puÃ² mettere quelli che preferisce, ed nLite ha delle problematiche di inserimento dei tweaks, ossia tu li attivi, ma poi il software non li inserisce nel registro (provato).
+
+Io personalmente ho creato un file .reg con una 50 di registri per necessitÃ  mie o impostazioni visuali, che lancio a fine installazione.
+
+
+Infine per alleggerire ancora la ISO, e togliere cose inutili ho rimosso le seguenti cartelle:
+
+I386COMPDATA
+I386DRW
+I386WIN9XMIG
+I386WIN9XUPG
+I386WINNTUPG
+
+Anche perchÃ© non penso che qualcuno voglia aggiornare da S.O. vecchi, si fa prima a reinstallare,
+come pure mi chiedo chi fa lâ€™installazione manuale.
+
+Chi avesse necessitÃ  di fare una installazione o una riparazione del sistema manualmente puÃ² sempre scompattare la ISO in una Directory e aggiungere queste cartelle prese dal suo CD originale, e lanciare la routine necessaria.
+
+Se siete interessati a questa release e avete delle domande da fare, sempre disponibile a fornire spiegazioni o suggerimenti, anche in PM.
+
+N.B. Non installare se vedete la mancanza di alcuni componenti a voi essenziali, nella lista delle rimozioni.
+
+Virus FREE: Controllato con "Kaspersky Internet Security 2009" aggiornato al "26/05/2009"

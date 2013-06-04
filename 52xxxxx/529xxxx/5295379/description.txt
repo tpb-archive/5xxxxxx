@@ -1,0 +1,15 @@
+Created for CSE 335 at Michigan State University.
+
+This appliance is a full Ubuntu 9.10 installation plus Eclipse (with Galileo), and Bouml, configured for development in CSE 335.
+
+OVF 1.0 format.
+
+Though it can be imported with any OVF-supporting VM software, it has the VirtualBox Guest Additions installed for VirtualBox hosts, so it will only work well under VirtualBox.
+
+Configured with one user
+username: cse335
+password: class
+
+UPDATE:
+Eclipse will still need one more configuration option to be fully configured for use in CSE 335.
+Go to Window -> Preferences -> C/C++ -> Code Style and select BSD/Allman from the drop-down.

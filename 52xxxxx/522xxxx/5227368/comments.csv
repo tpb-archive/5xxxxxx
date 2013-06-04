@@ -1,0 +1,81 @@
+User Type,Username,Date,Text
+,gsdiag1,2009-12-19T16:52Z,"When I insert the game into Wii, it requires Wii Update. My version is 4.1E.
+
+I didn't use imgburn to burn the game - used Nero instead.
+
+I'm wondering if it's safe to perform wii update in order to play the game, or will this update brick my console, or disable Homebrew channel?"
+,waffleman1112000,2009-12-19T18:56Z,"@gsdiag1:
+
+Don't, notice the game is ntsc-u so it would screw up your wii..."
+,elma1337,2009-12-19T21:30Z,"Not rly! 
+
+I changed to PAL Regio with RegionFrii
+
+And works like a charm on my softmodded 4.1E PAL with cIOS Rev 14 / NeoGamma R8b12
+
+@ gsdiag1 don't update cause you will loose all of your Homebrew ... assuming you have a softmodded Wii that is ;)
+
+
+"
+,gsdiag1,2009-12-20T18:36Z,"My wii has Wiki 1, the firmware is 4.1E, and installed homebrew channel. I primarily use homebrew because of codes and freeloader.
+
+elma1337, will I lose my homebrew if I use the update that came on the disc, that is will it update my Wii to 4.2?
+
+And what is ""with cIOS Rev 14 / NeoGamma R8b12"" that you refer to in your post?
+
+I can't install WAD files, due to error being reported each time I try to."
+,Guytsu,2009-12-21T03:31Z,"Huh. I just don't get it. I've had my Wii softmodded for a long time now. I think I used that Zelda"" Twighlight"" method. 
+
+Anyway, I've had no problem downloading games, burning them to a disc and then playing them. Everything has worked perfectly. (Well, with the exception of VC and WiiWare games. I've been unable to play those since I softmodded the Wii. I cant even access the shop channel any more) 
+
+The past few games I've downloaded, however, haven't worked. This one also doesn't work for me. All I get is either a black screen, a blue screen, or a green screen, and the Wii just freezes. I have to unplug the whole system just to turn it off. 
+
+Does anyone know what could be causing this? I think the first game that didn't work for me was Super Mario Bros Wii or the newest Harvest Moon. Either way, they also both didnt work. 
+
+I don't understand a lot of technically terms and the like, but I hope someone can help. I don't understand why it'd just stop working. The old games I burned I can still play just fine. 
+
+Oh, and for the record, if there IS some way to fix this, is it safe? I took a huge risk softmodding the system in the first place. If something happens to my Wii, I'll never be able to get another one. But I'm unable to buy games for it anymore, so this is my only means"
+,elma1337,2009-12-21T20:42Z,"gsdiag1: I see you have a hardmodded wii I'm not too familliar with those :( cIOS is a custom IOS (operating system of the wii) created thru homebrew.
+
+You aren't able to install any wad ? with progs like wadinstaller ? Maybe that's cause of the hardmod ... like I said i'm not to familliar with those. Probably your wiki has to be updated, dunnot know if that is possible or will fix the problem
+
+I do know that if you update from 4.1 to 4.2 you will loose homebrew. Hower Homebrew can be installed on 4.2 also, but 4.1 and below where much easier to install homebrew on, id say 99% of chance to install. With 4.2 it has been a lot less % of the wii's that will let homebrew install, even a lot of bricked wii's due to the software update even without installing homebrew. Just google a bit for it but as to my knowledge update to 4.2 is not recommended.
+
+and NeoGamma is an extra channel created thru Homebrew (wad installed) and on that channel you don't have to update the new games and the new games work (at least most of em do ;))
+
+Maybe the guys at http://gbatemp.net forum can help you out. That's the best place imo to get info about wii/homebrew/backups/ etc.
+
+good luck!"
+,elma1337,2009-12-21T20:53Z,"Guytsu: I think you need to do some cIOS updates ...
+
+You still have the Wadinstaller prog in your Homebrew channel ? try and look on the internet for cIOS Rev14.(not the newest Rev15, that's a bit bugged) put it on an SD card and install with wadmanager. (choose network install that woks best) Next up search for NeoGamma R8 beta 12 or higher and also install that one with wadmanager from SD card. That way your softmodded system is updated a bit and should play most of the newest games thru the NeoGamma channel (in stead of the old backupdisk channel 0.3)
+
+But like I said I'm not an expert or so, but as long as you don't update to 4.2 the softmod business is not that risky.
+
+I'm also referring you to sites like http://gbatemp.net they have all the working softmod tuts (for free offcourse) and a lot of members helping other people out. Or just search on google there are a lot of other good sites out there to help you on the way :)"
+,Guytsu,2009-12-22T07:01Z,"Thank you very much; I'll take your advice. However, I've already encountered a problem. When I open the SD card and attempt to replace the old cIOS with rev14, it says it's ""write-protected"" and it can't be deleted. In fact, I can't get rid of anything on the SD card at all. I don't know what that means.
+
+I'm positive this wasn't the case in the beginning, a long while back. Do you know what causes that, and how I can fix it? I can't put the rev14 ontp the SD card without being able to replace the old one"
+,elma1337,2009-12-22T13:12Z,"That's pretty strange indeed ... However the SD card is just a medium to get the cIOS files on the Wii. I suggest to totally format the SD card (or if you have another clean SD card use that one) and go to this site:
+
+http://forums.afterdawn.com/t.cfm/f-154/how_to_install_neogamma_r7_with_rev_14_cios-818197/
+
+download their Pack and install on SD card
+
+then click on http://forums.afterdawn.com/t.cfm/f-154/4_1_and_below_firmware_softmod_guide-all_systems_except_for_korean_linked_4_2_guide-797772/
+
+and follow the guide from point: cIOS38_rev14:
+
+Neogamma 7 they are using is a bit outdated try find R8 Beta 12 and up on the net and put that on the SD card.
+
+
+"
+,Guytsu,2009-12-23T00:43Z,"Thank you yet again. You've been a big help. This time, I've encountered yet another, much more serious problem, but I figure I shouldn't continue to bug you with my problems. Thank you for your help up until now"
+,VixVaden,2009-12-27T02:29Z,Just wanted to add my $0.02 :) This game got some mixed reviews.. most of the bad review komes from the kontrols but u get use to everything with time(i think)
+,Jettwinlock,2010-01-09T00:03Z,"I am getting the error 001 when I burn the game, I tried to use 3 different versions of wii scrubber to get the game to work but that won't me to the main.dol that I need to check the 001 error.
+
+I know this is already scrubbed so I'm guessing its my wii, i used neogamma 8 and rev 14 im just wondering if i need to do anything else since this isnt the only game that's doing it.  any thoughts"
+,mjhorton,2010-01-24T23:02Z,"Guytsu, SD cards have a little slider that can make them read-only and can't delete or copy to them, check that switch.
+I update my wii to 4.2u before I attempted softmodding it, with the newest tuts it works fine for now at least."
+,tuxtepec2001,2011-05-01T12:06Z,"thanks working great 
+white and black wii 4.2 softmod  ubsloader gx"

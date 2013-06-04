@@ -1,0 +1,90 @@
+notes:
+
+English soft subs are embedded.  Subs will play on Apple TV, iTunes, Quicktime, VLC, others possibly.  To access the subs on Apple TV hold down the play button and select them when menu pops up.
+
+There is an english ac3 track embedded. Will play on Quicktime, iTunes, Apple TV, VLC.  To play AC3 audio on Apple TV you must have Dolby Digital output enabled in A/V settings and have a toslink cable plugged into your optical output and then ran to your DD receiver.  The audio is sent automatically.  Otherwise just watch via HDMI cable to TV or component plus stereo cables to tv to playback the stereo audio track.  Mute your TV if you are able to listen to both tracks! ;-)
+
+Unfortunately popcorn hour will not even play this file due to it not understanding Type: sbtl:tx3g handler code, nor will it play the subs if Type is text:tx3g (however it does play the file).  So in order to play on popcorn you will have to remove track 4.
+
+MP4Box -rem 4 The Dark Knight.m4v
+
+You may also need to remove the DD track which is track 3.
+
+If you don't care about subs or the DD track and want to save about 700mb then just remove both tracks:
+
+MP4Box -rem 3 -rem 4 The Dark Knight.m4v
+
+You can remove the tracks with Yamb also.
+
+This bug has been reported to popcorn hour here: 
+http://www.networkedmediatank.com/showthread.php?tid=32549
+
+But unlikely they will address it.
+
+-HR
+
+
+---
+
+Source: The.Dark.Knight.2008.PROPER.1080p.BluRay.x264-CiNEFiLE
+(Source has IMAX scenes, some scenes will play at 16:9 AR)
+
+Poster: 
+http://bayimg.com/image/eajkfaacb.jpg
+
+Icon: 
+http://bayimg.com/image/eajkgaacb.jpg
+
+Snaps: 
+http://hiderefer.com/?http://img29.imageshack.us/img29/9276/vlcsnap2009121609h23m47.png 
+http://hiderefer.com/?http://img705.imageshack.us/img705/4759/vlcsnap2009121609h24m24.png 
+http://hiderefer.com/?http://img42.imageshack.us/img42/636/vlcsnap2009121609h25m01.png 
+http://hiderefer.com/?http://img707.imageshack.us/img707/9126/vlcsnap2009121609h25m18.png 
+http://hiderefer.com/?http://img705.imageshack.us/img705/4814/vlcsnap2009121609h25m28.png 
+http://hiderefer.com/?http://img42.imageshack.us/img42/3031/vlcsnap2009121609h20m05.png 
+http://hiderefer.com/?http://img705.imageshack.us/img705/8175/vlcsnap2009121609h20m17.png 
+http://hiderefer.com/?http://img705.imageshack.us/img705/8692/vlcsnap2009121609h20m34.png 
+http://hiderefer.com/?http://img705.imageshack.us/img705/9286/vlcsnap2009121609h20m46.png 
+http://hiderefer.com/?http://img707.imageshack.us/img707/2972/vlcsnap2009121609h21m05.png 
+http://hiderefer.com/?http://img64.imageshack.us/img64/3079/vlcsnap2009121609h21m51.png 
+http://hiderefer.com/?http://img29.imageshack.us/img29/6741/vlcsnap2009121609h23m27.png 
+http://hiderefer.com/?http://img695.imageshack.us/img695/7879/vlcsnap2009121609h23m42.png
+
+--------------------------------------------------------
+
+Designed for direct playback on Apple TV, PS3, Xbox360, Popcorn Hour, VLC.
+(If video contains embedded subs or DD track you may need to remove those to play back on Popcorn Hour).
+
+Apple TV is the perfect way to enjoy HR HD on your HDTV.
+
+Apple TV on eBay: 
+http://computers.shop.ebay.com/Apple-TV-/168058/i.html?_npmv=3
+
+Apple TV (160gb) at Apple.com (currently $229 free s/h) 
+http://store.apple.com/us/browse/home/shop_ipod/family/apple_tv
+
+Apple TV (40gb refurb) at Apple.com (currently $149 free s/h) 
+http://store.apple.com/us/product/FA711LL/A
+
+--------------------------------------------------------
+
+Apple TV Dolby Digital enhanced (CABAC) profile basic specs:
+
+Video:
+Encoder: CABAC, AVC
+Profile: High@3.1
+Bitrate: 1920 Kbps
+FPS: 23.976
+Rate Control: 2 pass
+
+Audio:
+Channels: AAC Stereo
+Bitrate: 160 Kbps
+
+Audio:
+Channels: DD 5.1
+Bitrate: 640 Kbps
+
+--------------------------------------------------------
+
+-HR

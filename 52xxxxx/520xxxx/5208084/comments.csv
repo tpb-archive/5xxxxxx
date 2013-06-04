@@ -1,0 +1,64 @@
+User Type,Username,Date,Text
+[V],matimike,2009-12-19T10:23Z,works thanks
+,13ip0lar,2009-12-22T05:53Z,Thanks m8 :D
+,prk72,2009-12-22T06:52Z,"4 min download - nice
+
+Commercial for 1 computer for 183 days
+
+License validity period expires 5/25/2010 10:59:59 PM
+
+155 days remaining.
+
+Is this what is suppose to happen?
+
+Do I activiate a new license in 155 days?
+
+Thanks!"
+,treps_92boy,2009-12-22T18:19Z,"I do not know if these keys will work but the Beta-key will work fine
+
+After the installation do this:
+
+1. Update Kaspersky
+
+2. Then rightklick at the Kaspersky icon down  at the clock and take ""Settings"" then at the left meny take ""Options"". At the top, disable ""Self-Defense"" (uncheck it)
+
+3. Rightklick again at the Kaspersky icon at the clock and take ""Exit""
+
+4. Click ""Start"" and ""Run"" then type ""regedit""
+
+5. Navigate to HKEY_LOCAL_MACHINE -> SOFTWARE -> KasperskyLab -> protected -> AVP9 and then click
+at ""environment""
+
+6. To the right you will scroll down and double click at ""ProductStatus"" and change from ""Release"" to ""Beta""
+
+7. Close the Registationeditor and then start Kaspersky again! 
+A window will shows up and there you will click ""Activate beta key"" or something then next the hole time
+
+8. DONE!!!
+
+Every 30 days you will need to activate again at the window who shows up!
+
+This worked for me :)"
+,callmepaul,2009-12-31T06:20Z,"Cheers, treps_92boy 
+
+just an update for windows 64bits users
+
+u'd find ""ProductStatus"" key at
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\AVP9\environment]
+
+
+"
+,lkadar,2010-01-05T03:53Z,Fast download! THANKS. Hope will work.
+,letjim,2010-01-05T18:25Z,thanks...but only lasted about 15 minutes then was blocked.
+,letjim,2010-01-05T18:39Z,"tried going into the regedit as treps_92boy suggested, but that didn't work either."
+,muryucu,2010-01-05T20:40Z,"letjim at 2010-01-05 18:25 CET: 
+thanks...but only lasted about 15 minutes then was blocked.
+
+ Yes,i see......:("
+,davitodude,2010-01-08T21:29Z,Still works for me at least. I did this about two weeks ago and got another 30 day trial. Did it again and it's updated for another 30 days. THANKS!
+,paradise23,2010-01-21T16:09Z,"It worked perfectly, Thanks. But, now it's telling me the database is obsolete.  Where do I go to find updated version of kaspersky, they all seem very similar in the torrents list. or should i just try other keys? 
+
+Thanks in Advance."
+,dragon1317,2010-02-15T20:46Z,the installation doesnt work for me!! somebody help! the installation finishes i think then it closes and there's no desktop icon...HELP
+,kolot182,2010-02-15T22:54Z,why is it that in the website of kaspersky the internet security 9.0.0.736 is 72.7mb and here is 70.17mb only?
+,dhruv990,2010-05-22T21:13Z,"will this run in win 7 64 bit?(looka like dell has stopped support for 32 bit, bought a new laptop that's 64 bit without realising it)"

@@ -1,0 +1,57 @@
+BE SURE TO DISABLE USER ACCOUNT CONTROL (UAC). It is enabled by default in Windows Vista and Windows 7. 
+There is a guide to do that here: 
+http://www.petri.co.il/disable_uac_in_windows_vista.htm
+REBOOT AFTER YOU DISABLE UAC
+
+1. Install Rubber Ninjas and Abyss Web Server. AWS can be downloaded at  	http://www.aprelium.com/abyssws/download.php
+
+         * Abyss Web Server Already Included just Click "Abwsx1.exe"
+
+2. Run RN PHP Crack.exe as administrator.
+3. When prompted, restart Abyss Web Server and activate Rubber Ninjas with this key    
+	M2TAZVVYABGRAN
+DO NOT PRESS ENTER AGAIN AFTER IT ASKS YOU TO ACTIVATE RUBBER NINJAS.
+4. Enjoy :) Press enter now through the final prompts, and it will do a cleanup. 
+	You can uninstall AWS after Rubber Ninjas is activated.
+
+Some people are having trouble getting this to work. It is confirmed to work on multiple computer, so don't worry! 
+There's a lot of things going on all at once, you may just have to try a few things. 
+I am going to add a small troubleshooting section here, and will add more problem/answers when 
+I can think of other ways it can go wrong.
+
+Problem 1: Go to rubberninjas.com. Is it the regular Rubber Ninjas page? If so then do this:
+1. Open C:WindowsSystem32driversetchosts in notepad. Add this to that file, without quotes 
+"_127.0.0.1_rubberninjas.com" Each underscore ( _ ) represents a tab space (achieved by pressing the tab button), 
+so don't actually put underscores there. Save changes and exit.
+2. Start Abyss Web Server, and activate Rubber Ninjas.
+
+OR 
+
+Drag "Hosts" send to C:WINDOWSsystem32driversetc
+
+
+
+
+Problem 2: Going to rubberninjas.com does indeed bring up an Abyss Web Server page, but rubberninjas.com/validatekey.php 
+does not seem to exist.
+1. Go to your Abyss Web Server installation directory, usually C:Abyss Web Server by default.
+2. Open the htdocs directory.
+3. Create a new file (any, .txt, whatever). Open it in notepad, and put in the number 1. No spaces before or after, just "1"
+4. File > Save as. For file type, choose all files. Save it as "validatekey.php"
+5. Start Abyss Web Server, and activate Rubber Ninjas.
+
+OR
+ 
+Drag "validate key.php" to C:Program FilesAbyss Web Serverhtdocs
+
+
+
+
+Internet connection may not be needed
+
+
+Take note that all problems are solved by dragging the 2 files to their respective locations if there are any.
+
+
+Edited By: Lopaew 
+And Originator: Zach1188

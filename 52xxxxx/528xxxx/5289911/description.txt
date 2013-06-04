@@ -1,0 +1,61 @@
+Source: A.Serious.Man.2009.LIMITED.720p.BluRay.x264-MELiTE
+
+Poster: 
+http://bayimg.com/image/oajdiaacm.jpg
+
+Icon: 
+http://bayimg.com/image/oajdjaacm.jpg
+
+Snaps: 
+http://img707.imageshack.us/img707/7436/vlcsnap2010011810h43m44.png 
+http://img706.imageshack.us/img706/1549/vlcsnap2010011810h44m27.png 
+http://img696.imageshack.us/img696/8945/vlcsnap2010011810h41m02.png 
+http://img706.imageshack.us/img706/6896/vlcsnap2010011810h41m54.png 
+http://img706.imageshack.us/img706/4619/vlcsnap2010011810h41m57.png 
+http://img706.imageshack.us/img706/8571/vlcsnap2010011810h42m03.png 
+http://img696.imageshack.us/img696/9027/vlcsnap2010011810h42m23.png 
+http://img684.imageshack.us/img684/3665/vlcsnap2010011810h42m34.png 
+http://img22.imageshack.us/img22/1563/vlcsnap2010011810h43m40.png
+
+--------------------------------------------------------
+Designed for direct playback on Apple TV, PS3, WDTV, Xbox360, Popcorn Hour, VLC.
+
+WDTV users change extension from .m4v to .mp4
+
+Apparently there is a sync problem with MP4 for WDTV Live with the latest firmware.
+
+It is discussed here 
+http://wdtvhd.com/index.php?showtopic=8778
+and here 
+http://community.wdc.com/t5/WD-TV-Live-Firmware/1-0-17-MP4-Audio-Sync/td-p/6146
+
+and suggested to rollback firmware to revision 1.01.00
+
+PS3 user may need to rename to .mp4 also if you are playing from USB device.  Should be fine if you are just streaming with the .m4v extension.
+
+Apple TV user ensure running firmware 3.0.1 (this firmware plays video much better than old firmware).  Use custom movie sync option "Automatically include the 10 most recent movies along with selected movies."  Streaming is possible but for best result always play native.  You may experience slight frame rate loss while streaming under certain conditions.
+--------------------------------------------------------
+Video technical specifications:
+
+Video:
+Codec: AVC via x264
+Profile: High@3.1
+Bitrate: 3000 Kbps
+FPS: 23.976
+Rate Control: 2 pass
+
+Audio 1:
+Codec: AAC Stereo
+Bitrate: 160 Kbps
+(for everything)
+
+Audio 2:
+Codec: Dolby Digital 5.1
+Bitrate: 448 Kbps
+(for Apple TV use TOSLINK to receiver to enable DD, or use WDTV Live, or VLC on PC)
+
+Subtitle 1 (External):
+English
+-------------------------------------------------------
+
+-HR

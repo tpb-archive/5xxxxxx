@@ -1,0 +1,96 @@
+User Type,Username,Date,Text
+,--EtraX--,2009-12-11T13:35Z,could somebody upload only the keygen?
+,roby222,2009-12-14T00:51Z,"I tried the ""old fix"" (safe mode) where you make the hidden file  in C:\ProgramData\CheckPoint\ZoneAlarm
+read only but that did not work for me... after restartign into normal mode when you try to update it connect online and says you sub is about to expire...  Is there another file that needs to be fixed in the 2010 version??"
+[T],sanpork,2009-12-14T19:21Z,"
+I haven't used this particular torrent myself (I'm just using ZA Pro myself), but if your copy is reverting back to a trial 
+after you reboot, you need to take a few additional steps to keep it registered.  ZoneLabs caught on to the read-only trick;
+ you need to take it a bit further.
+
+Install ZA and reboot like usual.  When the system reboots, it'll ask for your key.  Enter your key and immediately reboot.  (You don't want the software doing an update yet.)
+
+Boot into safe mode.  Open Explorer, and locate zllictbl.dat.  In Vista and 7, you'll find it in 
+""C:\ProgramData\CheckPoint\ZoneAlarm"".  (ProgramData is hidden.)  In XP, it's in C:\Windows\System32.  
+
+First, bring up the properties and make the file read only.  You're not done, don't reboot.  ZA will turn that read-only
+ flag off.  Go to the security tab.  You need to set Administrators and Authenticate Users permissions to Read and 
+Read/Execute ONLY.  Turn off ALL write permissions.  This will stop ZA from resetting the read only flag.
+
+That's it, reboot, and you're good to go."
+,hub_cap,2009-12-14T22:01Z,"Another trick as been added by Checkpoint. There is a file ""forcefield"" that must be deleted and removed from the registry before the trial is eliminated. Simply changing the security does not solve the problems as the programs resets the permissions back to  the default. Search the registry and remove references to forcefield. Or install AVG instead."
+[T],sanpork,2009-12-15T10:03Z,"The procedure I followed to ensure the license remains active is this:
+
+Note: Tested on Windows XP Pro and Windows 7 Ultimate
+
+1) Install ZoneAlarm
+2) Re-Boot your PC
+3) Generate license and input when prompted
+4) Re-Boot and enter safe mode
+5) Login using an administrator account
+6) Ensure hidden files are shown
+7)
+
+For Windows XP browse to c:\windows\system32
+
+For Vista/Win7 browse to C:\ProgramData\CheckPoint\ZoneAlarm\
+
+8) Right click the file 'zllictbl.dat' and select properties
+9) Click on the security tab
+10) For each user and group listed set 'write' access to deny
+11) Reboot
+
+You should now be able to update ZoneAlarm and reboot your PC without having to worry about the license expiring.
+FYI: If the security tab isn't available you can still set permissions using the 'cacls' command from the command prompt.
+
+Okay, the instructions for using the 'cacls' command are as follows:
+
+Do steps 1-6 in my previous post. Then ...
+
+7) Bring up a command window by clicking on 'Start' > Run and type cmd ...then press enter
+(Vista users I think should type in cmd where it is says search, but I can't verify that right now)
+
+8) At the prompt type:
+
+cacls c:\windows\system32\zllictbl.dat
+
+(Note: if vista user remember the path is c:\ProgramData\CheckPoint\ZoneAlarm\zllictbl.dat and should be used instead)
+
+9) A list of 4 or 5 accounts should be displayed and look something like:
+
+BUILTIN\Administrators:F
+BUILTIN\Users:R
+
+10) For each account listed type the command
+
+cacls PATH_TO_FILE /E /G ACCOUNT:R
+
+where ACCOUNT = one of the accounts listed in step 9 such as BUILTIN\Users
+
+and PATH_TO_FILE = file path used in step 8
+
+
+
+At this point all groups and accounts should have read only access which will prevent ZoneAlarm from changing 'zllictbl.dat'.
+
+The steps followed here accomplish the exact same thing as using the security tab, only without the GUI.
+
+I hope that made sense. Any questions please ask. 
+
+
+Sorry, in the above instructions the command to changer permissions should have been
+
+cacls PATH_TO_FILE /E /P ACCOUNT:R
+
+Note the /G is now /P
+"
+[V],NoExcuses,2009-12-26T08:43Z,"For what I've seen, this works only if you have XP installed in NTFS, if you use FAT32 you will not be able to lock the zllictbl.dat. It was working fine for me on W7 and I suppose also on Vista, as they will be installed on NTFS only.
+If someone knows how to lock it on FAT32 I'll be glad to know it... :o)"
+,Yoshi__,2010-01-01T07:20Z,"@sanpork. Thanks! works perfectly! =D
+I would also like to add that getting the ""security tab"" is easy, just open Windows Explorer, go to Tools, Folder Options, View and uncheck Use Simple File Sharing."
+,Danz01,2010-01-14T22:48Z,"Thanks sanpork, followed your simple instructions and worked for me"
+,turnpikesurfer,2010-06-19T18:15Z,"I have tried every zonealarm copy on piratebay but all of them had virus update issues, they throw up an error saying there is an error in updation. Will try this last copy and post comments later. "
+,upreshpal,2010-07-22T17:07Z,what the hell happened to all the comments?
+,freedom_now,2010-08-11T07:58Z,Lol @ telling me to restart computer after installing a program.
+,mephimort,2010-08-18T15:01Z,hey thanks for all the activation help..now ZA tells me theres an update..i downloaded the file seems like its 144mb..shud i install this? will it effect the license? thanks..so far the only thing i update is the AV in ZA
+,purestone,2011-08-25T15:44Z,"WTF MAN  possible virus?  Did restart after install  as  said in instructions and win7 denied me access to most of my programs.
+Zone Alarm wouldn't even open. WTF was up with that!!"

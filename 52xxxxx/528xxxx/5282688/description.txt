@@ -1,0 +1,365 @@
+INSTALLATION INSTRUCTIONS:
+Install Mobile Terminal and OpenSSH on your iDevice from Cydia
+SSH your file into the directory
+Code:
+/tmp
+Open Terminal and type
+Code:
+su
+and press enter then enter your password. Default is
+Code:
+alpine
+Then type
+Code:
+cd /tmp
+and hit enter
+Then type
+Code:
+dpkg -i /tmp/FILE_NAME_HERE.deb
+Hit enter and let it finish
+When it is finished restart your Device
+
+Added (10/01/2009):
+
+
+Package #59:
+Name: PhotoShare Web v1.0.1-1
+Description: Share photos directly from the built-in Photos and Camera applications!
+Depiction: http://moreinfo.thebigboss.org/morei...tosharewebData
+--------
+Package #60:
+Name: UDIDFaker v0.1
+Description: With this little App you can change your device's UDID for every AppStore-App. iTunes and Cydia-Apps will still see the original UDID.
+--------
+Package #61:
+Name: Action Menu Plus Pack v1.0
+Description: Additional actions for Action Menu!
+Included actions: History, Lookup and Tweet
+Depiction: ActionMenu
+--------
+Package #62:
+Name: Action Menu v1.0
+Description: Customize the callout with more actions
+The 3.0-compatible follow-up and replacement for Clippy
+Included actions: Copy All, Dial, Favorites and Scroll
+Depiction: Action Menu
+--------
+Package #63:
+Name: AnyRing v2.0-1
+Description: (Cracked by Studguy1) With AnyRing you can easily select any song on your iPod to play as a ringtone. AnyRing even lets you select the starting/ending point in the song to play when the ringtone is played in real-time. Does not require any audio conversion of any type!
+--------
+Package #64:
+Name: Kirikae vsvn.r43
+Description: Backgrounder-compatible task switcher/launcher.
+Depiction: http://moreinfo.thebigboss.org/morei...le=kirikaeData
+--------
+Package #65:
+Name: qTweeter v2.06
+Description: Versione Crackata! Aggiorna Twitter/Facebook in qualsiasi applicazione ti trovi!
+--------
+Package #66:
+Name: Rock Extensions v0.97-1
+Description: Enables 3rd Party System Add-Ons
+--------
+Package #67:
+Name: SMS Helper v0.1
+Description: Counts characters inside SMS composer
+Depiction: http://moreinfo.thebigboss.org/morei...=smshelperData
+--------
+Package #68:
+Name: xGPS v1.2.7
+Description: Maps application which can be used with different GPS devices (including iPhone 3G)
+Powerful maps application to display its own GPS position on a map.
+Can download maps for offline use. Driving directions and voice guidance support.
+
+
+:ALL USEFUL DEBS IN ONE PLACE:
+
+Package #1:
+Name: Camera Zoom v1.0
+Description: Neat camera app with ZOOM feature.
+--------
+Package #2:
+Name: ClearCam1.1.2 v1.1.2
+Description: take 4megapixels pictures
+--------
+Package #3:
+Name: Cyntact v1.3.1-1
+Description: show profile pictures in contact lists
+Depiction: http://cydia.saurik.com/info/cyntact/
+--------
+Package #4:
+Name: EasyWakeup Full Cracked v2.7.4
+Description: Cracked by HunterX. Wanna wake up easier? You need this app! It use accelerometer for detect best awake time (based on sleep phases knowledge). You will simply set a guide time in which your alarm must wake you, and the alarm will wake you up at the opportune time in your given time period.
+Depiction: http://moreinfo.thebigboss.org/morei...sywakeupDpData
+--------
+Package #5:
+Name: GriP - Growl for iPhoneOS v0.1-11p {free}
+Description: This also includes "MemoryWatcher" and "You've Got Mail" (new mail notifier). GriP lets iPhoneOS applications and extensions unintrusively tell you when things happen.
+--------
+Package #6:
+Name: MCleaner v1.8.0
+Description: MCleaner is a iPhone Call and SMS Filter program. With MCleaner you can block incoming calls and SMS messages automatically and protect your privacy. MCleaner allows you to create Blacklists, Whitelists, Profiles and Schedules to meet your individual needs. It's easy to use and good for you when you are busy, constantly in important meetings,telephone marketing or have a couple of lovers.
+Depiction: MCleaner
+--------
+Package #7:
+Name: PKGBackup v3.0.10
+Description: backup all you cydia apps
+--------
+Package #8:
+Name: PhotoShare Web v1.0.1-1
+Description: Share photos directly from the built-in Photos and Camera applications!
+Depiction: http://moreinfo.thebigboss.org/morei...tosharewebData
+--------
+Package #9:
+Name: PkgBackup v3.0.8
+Description: This is a K.I.S.S.(Keep It Simple & Stupid) backup application that allows you to back up & restore all the cydia packages installed in your iphone. You can even share/exchange/send your packages lists to others. I'm counting on your support & comments to make this app more KISSable . The application is also Facebook Connect enable so that you can proudly share the apps you have on your iPhone.
+Depiction: http://moreinfo.thebigboss.org/morei...ydiabackupData
+--------
+Package #10:
+Name: PkgBackup v3.0.12
+Description: This is a K.I.S.S.(Keep It Simple & Stupid) backup application that allows you to back up & restore all the cydia packages installed in your iphone. You can even share/exchange/send your packages lists to others. I'm counting on your support & comments to make this app more KISSable . The application is also Facebook Connect enable so that you can proudly share the apps you have on your iPhone.
+--------
+Package #11:
+Name: Qik v3.96 {free}
+Description: Qik enables live video streaming from your iPhone to the web.
+Depiction: http://moreinfo.thebigboss.org/morei...p?file=qikData
+--------
+Package #12:
+Name: SBAdBlockToggle v1.4 {free}
+Description: SBAdBlockToggle
+Provides a way to switch between AdBlock and Non-AdBlock host file using SBSettings.
+Recent Changes
+(v 1.2)
+* Added dependency for coreutils. Thanks spamdumpster
+* Added icons for default theme. Thanks DarkLord468
+(v 1.3)
+* Disabled iPhone App Kill switch while in adblock mode
+(v1.4)
+* Updated to the latest host file by rbisconti97 (05-Aug-2009)
+Depiction:
+--------
+Package #13:
+Name: Safari Download Manager v1.0.0-1
+Description: A full Download Manager for Mobile Safari. Safari Download Manager is an extension that adds a powerful, highly-configurable download manager to the iPhone's built-in web browser. It is intended as a replacement for other plugins that insert download prompts into web displays, and offers finer-grained control over what is download and what is not, as well as control over running and completed downloads. Multiple downloads can be running at one time, without interrupting your browsing experience.
+Depiction: http://moreinfo.thebigboss.org/morei...downloaderData
+--------
+Package #14:
+Name: Safari Download Manager v1.3.0-1
+Description: A full Download Manager for Mobile Safari.
+Depiction: Safari Download Manager
+--------
+Package #15:
+Name: Stack v3.0
+Description: Internal build of Stack v3 for testing.
+Requires iPhone OS 3.0.
+Depiction:
+--------
+Package #16:
+Name: StatusNotifier v0.2.11 {free}
+Description: Email, SMS, MMS, IM, Call, Voicemail notification in status bar.
+Depiction: ModMyi.com
+--------
+Package #17:
+Name: Supreme Preferences 3.0 v1b8
+Description: ''Over 100 new features added to Settings!''
+--------
+Package #18:
+Name: ToneFXs v1.501
+Description: Shuffle ringtones & customize sound effects
+Depiction: tonefxs
+--------
+Package #19:
+Name: YourTube v1.0.0-1
+Description:as it was meant to be. This package adds a fully integrated downloader so you can keep those great videos you love to watch and show to friends.
+Depiction: ModMyi.com
+--------
+Package #20:
+Name: AttachmentSaver v1.1.0
+Description: Mail.app as it was meant to be. This package adds an extension which allows you to save Mail attachments directly to your iPhone.
+Depiction: Attachment Saver
+--------
+Package #21:
+Name: biteSMS v4.1
+Description: You love your iPhone as much as we do? You text all the time? Want more features? Then biteSMS is for you, with lots of extra features like Smileys, Quick Reply, Quick Compose / Quick Call, Privacy, a Character / SMS Counter and much more!
+
+You can use biteSMS as a replacement to the built-in Messaging application, and send messages via your mobile carrier as you normally do. Or, if your mobile carrier charges a lot for sending SMS messages (say texting to overseas), you can buy credits and send them via the biteSMS network instead, which can be much cheaper.
+Depiction: http://moreinfo.thebigboss.org/morei...SDepiction.php
+Cracker: wortel
+--------
+Package #22:
+Name: biteSMS v4.2
+Description: You love your iPhone as much as we do? You text all the time? Want more features? Then biteSMS is for you, with lots of extra features like Smileys, Quick Reply, Quick Compose / Quick Call, Privacy, a Character / SMS Counter and much more!
+
+You can use biteSMS as a replacement to the built-in Messaging application, and send messages via your mobile carrier as you normally do. Or, if your mobile carrier charges a lot for sending SMS messages (say texting to overseas), you can buy credits and send them via the biteSMS network instead, which can be much cheaper.
+Depiction: http://moreinfo.thebigboss.org/morei...SDepiction.php
+Cracker: wortel
+--------
+Package #23:
+Name: Cyntact v1.3.2-1
+Description: show profile pictures in contact lists
+Depiction: http://cydia.saurik.com/info/cyntact/
+--------
+Package #24:
+Name: QuickScroll v0.1-12d {free}
+Description: Quickly scroll through anything. PDF paging. Initiate with triple tap.
+--------
+Package #25:
+Name: iBirthdays v2.0
+Description: Cracked by HunterX, The iBirthdays helps you remember all the birthdays of your contacts.
+Depiction: http://moreinfo.thebigboss.org/morei...ibirthdaysData
+--------
+Package #26:
+Name: iBluetooth3.0 v1.0.8
+Description: first application for transfer files via Bluetooth
+--------
+Package #27:
+Name: iDitDahText v1.1-1
+Description: Type text fast using morse code!
+Cracker: isamoto
+--------
+Package #28:
+Name: iSteamy v3.6
+Description: disfruta de videos y fotos XXX en tu iphone/ipod
+Depiction: http://clubifone.org/depiction.php?id=iSteamy
+--------
+Package #29:
+Name: iSutra v1.1.1
+Description: Kamasutra is an ancient Indian book about human sexual behavior. iSutra it's a unique Kamasutra teaching manual, without adult contents and for teaching purpose.
+--------
+Package #30:
+Name: iTypeFastR v1.1.2
+Description: 3.0 and newer only. iTypeFastR is an extra keyboard application that helps you type faster and with less typos, through it's smart design.
+Depiction: itypefastr
+--------
+Package #31:
+Name: iWipe v1.0-1
+Description: utility to zero free space on the iPhone
+Depiction: http://cydia.saurik.com/info/iwipe
+Cracker: mastermark
+--------
+Package #32:
+Name: iBlacklist v3.0-8
+Description: iBlacklist (Cracked by Studguy1) is the best call blocker and SMS/MMS selector available for the iPhone. It ables you to select from who you want to receive calls and hide messages. It also removes the sms popup preview protecting your privacy, has parental control mode by blocking outgoing calls, can be fully scheduled and many other features. Try it , you'll love it. Runs on 3.X and 2.x !!! PLEASE RESTART YOUR DEVICE AFTER INSTALL.
+Depiction: http://moreinfo.thebigboss.org/morei...iblacklistData
+--------
+Package #33:
+Name: mCoolPhone v1.3
+Description: shake to answer call, flip over to hangup call or mute ringer, and a lot of more cool feature will be added
+Depiction: mCoolPhone
+--------
+Package #34:
+Name: ToneFXs v1.500
+Description: Shuffle ringtones & customize sound effects
+Depiction: tonefxs
+--------
+Package #35:
+Name: YourTube v1.0.0-1
+Description:as it was meant to be. This package adds a fully integrated downloader so you can keep those great videos you love to watch and show to friends.
+Depiction: ModMyi.com
+--------
+Package #36:
+Name: yxflash Cracked v2.0.0-1
+Description: Cracked by HunterX. yxflash is video player for mobile devices, It supports High quality Xvid/Divx, Flash Video, and WMV playback on iPhone
+Depiction: http://moreinfo.thebigboss.org/morei...le=yxflashData
+
+Added (08/30/09):
+
+37. 3G Unrestrictor v1.0.4 - 3G Unrestrictor is the premium succesor of VoIPover3G for iphone.
+38. Inspell v1.1.0 - Adds a spell checker to input fields. (Cracker/buyer: zoogderrick2)
+39. Cyntact v1.3.3-1 - show profile pictures in contact lists. (Cracker/buyer: zoogderrick2)
+
+Package #40:
+Name: MCleaner Cracked v1.8.1
+Description: MCleaner Call and SMS Filter program.
+MCleaner is a iPhone Call and SMS Filter program. With MCleaner you can block incoming calls and SMS messages automatically and protect your privacy. MCleaner allows you to create Blacklists, Whitelists, Profiles and Schedules to meet your individual needs. It's easy to use and good for you when you are busy, constantly in important meetings,telephone marketing or have a couple of lovers.
+--------
+Package #41:
+Name: PdaNet Cracked v1.53
+Description: PdaNet WiFi Router for iPhone.
+PdaNet WiFi Router for iPhone. Now also supports USB connection for Windows users!
+Works with FW 3.0
+--------
+Package #42:
+Name: Snapture Cracked v3.0
+Description: Snapture is full featured advanced camera app that extends the possibilities for iPhone photography.
+Cracker: crash-x
+--------
+Package #43:
+Name: StatusNotifier (3.0) v0.2.11-1 {free}
+Description: Email, SMS, MMS, IM, Call, Voicemail notification in status bar.
+Author: 3744111
+--------
+Package #44:
+Name: Universal Search v1.08-1
+Description: Search the web, right from Spotlight!
+Depiction: universalsearch
+Cracker: fusen
+--------
+Package #45:
+Name: AdBlock v3.0.1
+Description: AdBlock blocks ads in Safari [Cracked by Studguy1]
+Depiction: http://moreinfo.thebigboss.org/morei...=adblockDpData
+
+Package #46:
+Name: 6-IconDock v1.0 {free}
+Description: 6 Icons on the dock!
+Finder: TheZimm
+--------
+Package #47:
+Name: 7-IconDock v1.0 {free}
+Description: 7 Icons on the dock!
+Finder: TheZimm
+--------
+Package #48:
+Name: 8-IconDock v1.1 {free}
+Description: 8 Icons on the dock!
+Finder: TheZimm
+--------
+Package #49:
+Name: CallController v0.4
+Depiction: iClarified - Apple News - Call Controller Answers iPhone Calls By Shake or Flip
+--------
+Package #50:
+Name: Categories v2.24 {free}
+Description: Move your springboard icons into folders!
+Depiction: http://moreinfo.thebigboss.org/morei...tegoriesDp.php
+--------
+Package #51:
+Name: IntelliScreen v2.94.1
+Description: Intelliscreen & Intellishared Patch by Studguy1
+Depiction: ModMyi.com
+--------
+Package #52:
+Name: iPhoneDelivery v0.1 {free}
+Description: A SMS delivery report hack
+
+Added (08/31/09):
+
+Package #53:
+Name: Battery Control Premium Cracked v1.0.1
+Description: *3.x OS ONLY* Fine-grain control over the status bar battery. This will let you show percentage and/or the battery icon on any 3.x iDevice. The premium features (99c) add custom settings for low battery and charging, styles for the percentage, the ability to remove the percent symbol and tapping the battery to switch to percentage.
+--------
+Package #54:
+Name: Installous v2.0.3
+Description: Installous is the perfect app to install your downloaded IPAs.
+--------
+Package #55:
+Name: MyWi Cracked v0.96.1
+Description: Instant WiFi HotSpot with your 3G/3GS iPhone!
+Instant WiFi HotSpot with your 3G/3GS iPhone!
+Does not work with the iPhone 2G
+--------
+Package #56:
+Name: gpSPhone Cracked v6.6.5
+Description: Gameboy Advance Emulator!
+--------
+Package #57:
+Name: iProtect Cracked v1.1
+Description: Protect the contents of your iPhone, blocking all applications with a password and a SIM Card control.
+--------
+Package #58:
+Name: ultrasn0w v0.91-1
+Description: Unlock your iPhone 3G or 3GS for use on any GSM carrier!
+
+Enjoy

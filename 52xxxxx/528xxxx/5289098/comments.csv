@@ -1,0 +1,65 @@
+User Type,Username,Date,Text
+,antonro,2010-02-03T22:28Z,"Didn't work, i have put the file in the map and i can still only play Asian Dynasties. What have I done wrong?"
+,anmisto,2010-03-08T16:02Z,it works for me
+,sasanet,2010-03-20T12:34Z,"doesn't work for me as well
+I've put this into Age of empires 3 folder located in installation folder and run."
+,pirateizbizniz,2010-06-15T09:19Z,"hey Anmisto, so where did you put the registry file? just in (C:\Program Files\Microsoft Games\ Age of Empires III) because it doesn't work for me as well."
+,bucket13,2011-01-06T05:04Z,"Ok for those of you using windows 7 x64 I was able to get this working you have to right click and choose edit on the file when it opens change
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack 2\1.0] to [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack\1.0] basically you are adding Wow6432Node between software and Microsoft apparently windows 7 stores these keys in a different location."
+,AMoveFan,2011-02-01T20:22Z,I wish the game companies would come out with more rts games like this for the pc or 360.
+,dyingdoll,2011-03-04T11:53Z,WOW MAN . . .it WORKs PERFECTLY . . . !!!!!!!!!! win 7 32 bit lol
+,scrapii,2011-05-17T04:14Z,wooow!! tanxx a miilllll!! wrks gr8 for win.7
+,pasifiste,2011-06-20T09:38Z,"So it didn t work to me but i found a way to play warchiefs and tad togever.
+1 st open a new text file with notepad and copy this one :
+
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v SetupPath /t REG_SZ /d ""D:\Jeux\Age of Empires III\""
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v PID /t REG_SZ /d 77076-142-4072341-40812
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v CDPath /t REG_SZ /d L:\
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v CheckAccess /t REG_SZ /d 1
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v Version /t REG_SZ /d 1.12
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v DigitalProductID /t REG_BINARY /d a40000000300000037373338302d3134322d343037323334312d343032373500500000004731302d3030303235000000000000001c616e6b563193a34dda40d8f5ad0000000000003e7add472ed7af04000000000000000000000000000000000000000000000000343035323500000000000000ba040000fe807ebc00080000691d00000000000000000000000000000000000000000000000000000000000070c53933
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v LangID /t REG_DWORD /d 407
+REG ADD ""HKLM\SOFTWARE\Wow6432Node\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack\1.0"" /v DigitalProductID /t REG_BINARY /d a40000000300000037373037362d3134322d343037323334312d343038313200500000004731302d3030303235000000000000001c616e6b563193a34dda40d8f5ad000000000000f42365478dca4d00000000000000000000000000000000000000000000000000363638323300000000000000bc160000c03c6d500002000006180000000000000000000000000000000000000000000000000000000000007d37387f
+REG ADD ""HKLM\SOFTWARE\Wow6432Node\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack\1.0"" /v PID /t REG_SZ /d 77076-142-4072341-40812
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack\1.0"" /v DigitalProductID /t REG_BINARY /d a40000000300000037373037362d3134322d343037323334312d343038313200500000004731302d3030303235000000000000001c616e6b563193a34dda40d8f5ad000000000000f42365478dca4d00000000000000000000000000000000000000000000000000363638323300000000000000bc160000c03c6d500002000006180000000000000000000000000000000000000000000000000000000000007d37387f
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack\1.0"" /v PID /t REG_SZ /d 77076-142-4072341-40812
+
+2 nd at 1st line u can read ""D:\Jeux\Age of Empires III\"" so change it for ur game location as exemple if ur game is in C:\Program Files\Microsoft Games\ Age of Empires III then change ""D:\Jeux\Age of Empires III\"" for ""C:\Program Files\Microsoft Games\ Age of Empires III"" BUT DON T FORGET THE """".
+3rd save the file as for exemple patch.txt
+4th rename the .txt by .bat so for exemple patch.bat
+5 th launch it as administrator
+6 th launch the asian dynasties it should work now for every windows versions
+Excuse me for my bad english ^^"
+,pasifiste,2011-06-20T09:39Z,"So it didn t work to me but i found a way to play warchiefs and tad togever.
+1 st open a new text file with notepad and copy this one :
+
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v SetupPath /t REG_SZ /d ""D:\Jeux\Age of Empires III\""
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v PID /t REG_SZ /d 77076-142-4072341-40812
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v CDPath /t REG_SZ /d L:\
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v CheckAccess /t REG_SZ /d 1
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v Version /t REG_SZ /d 1.12
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v DigitalProductID /t REG_BINARY /d a40000000300000037373338302d3134322d343037323334312d343032373500500000004731302d3030303235000000000000001c616e6b563193a34dda40d8f5ad0000000000003e7add472ed7af04000000000000000000000000000000000000000000000000343035323500000000000000ba040000fe807ebc00080000691d00000000000000000000000000000000000000000000000000000000000070c53933
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3\1.0"" /v LangID /t REG_DWORD /d 407
+REG ADD ""HKLM\SOFTWARE\Wow6432Node\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack\1.0"" /v DigitalProductID /t REG_BINARY /d a40000000300000037373037362d3134322d343037323334312d343038313200500000004731302d3030303235000000000000001c616e6b563193a34dda40d8f5ad000000000000f42365478dca4d00000000000000000000000000000000000000000000000000363638323300000000000000bc160000c03c6d500002000006180000000000000000000000000000000000000000000000000000000000007d37387f
+REG ADD ""HKLM\SOFTWARE\Wow6432Node\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack\1.0"" /v PID /t REG_SZ /d 77076-142-4072341-40812
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack\1.0"" /v DigitalProductID /t REG_BINARY /d a40000000300000037373037362d3134322d343037323334312d343038313200500000004731302d3030303235000000000000001c616e6b563193a34dda40d8f5ad000000000000f42365478dca4d00000000000000000000000000000000000000000000000000363638323300000000000000bc160000c03c6d500002000006180000000000000000000000000000000000000000000000000000000000007d37387f
+REG ADD ""HKLM\SOFTWARE\Microsoft\Microsoft Games\Age of Empires 3 Expansion Pack\1.0"" /v PID /t REG_SZ /d 77076-142-4072341-40812
+
+2 nd at 1st line u can read ""D:\Jeux\Age of Empires III\"" so change it for ur game location as exemple if ur game is in C:\Program Files\Microsoft Games\ Age of Empires III then change ""D:\Jeux\Age of Empires III\"" for ""C:\Program Files\Microsoft Games\ Age of Empires III"" BUT DON T FORGET THE """".
+3rd save the file as for exemple patch.txt
+4th rename the .txt by .bat so for exemple patch.bat
+5 th launch it as administrator if u don t it won t work
+6 th launch the asian dynasties it should work now for every windows versions
+Excuse me for my bad english ^^"
+,The-Chaser,2011-08-02T13:42Z,"Thx dude, it really worked "
+,AznAssassin,2011-10-03T12:45Z,"@AMoveFan
+
+360's cant play rts games for shit. "
+,AznAssassin,2011-10-03T12:47Z,"@AMoveFan
+
+360's cant play rts games for shit. All the 'RTS' games on the 360 r dumbed down, stripped bare, strategy-lacking versions of the original PC versions for dumbshits "
+,SoundSC,2011-10-21T20:17Z,"Work as charm, thanks, mate =]"
+,NexisX,2012-03-14T01:27Z,"Works as intended, Windows 7 32bit, Just remember to ""merge"" it as the admin. It won't fully merge into registry from a limited account (no run-as admin unfortunately)"
+,Millor1,2012-05-07T23:41Z,"@bucket13
+
+That's the fix I needed, thanks, got my warchief maps and civs in asian dynasties now."

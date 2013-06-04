@@ -1,0 +1,11 @@
+User Type,Username,Date,Text
+,Corsair2499,2009-12-15T22:43Z,"Um...normalization when encoding is a bad idea.  You're not just adjusting the volume, you're evening out the volume levels.  This can make quiet bits too loud and vice versa.  In any case it's an alteration and is therefore no longer lossless.
+
+If you want consistent volume level, use a player that can calculate and apply ReplayGain.  That will adjust the volume without altering the data."
+[V],LosslessDude,2009-12-15T22:56Z,"You are quite wrong, what you are describing is hard limiting...
+
+The Normalize effect amplifies the entire file or selection equally. For example, if the original audio reaches a loud peak of 80% and a quiet low of 20%, normalizing to 100% amplifies the loud peak to 100% and the quiet low to 40%.
+
+So nothing is changed... (btw this is straight from the manuel in adobe audition)
+
+Dont mess with an audiophile.... : P"
