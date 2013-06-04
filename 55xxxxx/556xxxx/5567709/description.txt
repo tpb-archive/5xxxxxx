@@ -1,0 +1,20 @@
+Deltaiso for CentOS-5.4-i386-bin-DVD.iso -> CentOS-5.5-i386-bin-DVD.iso
+
+Fraction of full ISO size: 20.4%
+applydeltaiso's approximate running time (2-3 GHz CPU, 1-2 GiB RAM): 19 minutes
+md5sum of deltaiso: 2a5f7f165eccf80695a8cd73396bf09d
+
+Instructions at https://fedoraproject.org/wiki/Delta_ISOs
+
+I've renamed the signed 5.4 SHA1 checksum file (originally sha1sum.txt.asc) to CentOS-5.4-i386-CHECKSUM, and the signed 5.5 SHA256 checksum file (originally sha256sum.txt.asc) to CentOS-5.5-i386-CHECKSUM.  When verifying 5.4 or 5.5, use sha1sum or sha256sum, resp.
+
+Direct download (200 MiB chunks): 
+http://purl.org/Delta_ISOs/CentOS-5.4_5.5-i386-bin-DVD.diso.1 
+http://purl.org/Delta_ISOs/CentOS-5.4_5.5-i386-bin-DVD.diso.2 
+http://purl.org/Delta_ISOs/CentOS-5.4_5.5-i386-bin-DVD.diso.3 
+http://purl.org/Delta_ISOs/CentOS-5.4_5.5-i386-bin-DVD.diso.4 
+http://purl.org/Delta_ISOs/CentOS-5.4_5.5-i386-bin-DVD.diso.5
+
+Use the cat command to put them together, in order:
+
+cat CentOS-5.4_5.5-i386-bin-DVD.diso.? > CentOS-5.4_5.5-i386-bin-DVD.diso

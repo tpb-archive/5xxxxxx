@@ -1,0 +1,12 @@
+User Type,Username,Date,Text
+,tommo39,2010-05-05T12:35Z,"is this from GAWOFTHEDAY? i think it is,their download is 500MB 4 both 32 and 64,bad comments at giveaway website,sorry mate"
+,tommo39,2010-05-05T12:41Z,"SORRY green, 300MB apologies"
+[V],NoExcuses,2010-05-05T15:27Z,"@tommo39
+Yep, this is the ripped Setup of GAOTD that's 300 MB, plus the 32bit version made Portable. The Setup contains both the 32 and 64 bit version, plus a CD image that allows to boot from it and restore, partition, if I remember well also install a Boot Manager and some other extras, all for free, and you don't want to get it? Well, it's your choice... :o)"
+,faboluz,2010-05-06T19:42Z,can't mount archive with portable
+[V],NoExcuses,2010-05-10T07:32Z,"@faboluz
+Never gone so far testing it. To fix it is necessary to add an extra line to the SFX, but as the file is locked you need to extract the files and rebuild it, or use a patched version of WinRAR that allows also to modify the locked files. If you do a quick search, I've uploaded a couple of them here on TPB. The comment should be modifed adding the following line:
+
+Setup=uim\uim_x86.exe
+
+You can also open directly the SFX with WR, go to the uim dir and execute the uim_x86.exe before running the SFX, but it's only for a quick 'n dirty try, to make it clean it should be rebuilt or modified. Sorry for the inconvenience, never tried to mount the archives with the Portable..."

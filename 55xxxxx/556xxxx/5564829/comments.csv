@@ -1,0 +1,98 @@
+User Type,Username,Date,Text
+,evilminded,2010-05-16T05:56Z,"Thanks Meechorno!!!
+
+I was just looking for the original dvds so I can rip them the  same way that you did :-D
+You saved me weeeeeks!
+
+Thanks again!"
+,evilminded,2010-05-16T05:58Z,"Also what soft are you using for the rips?
+I use Handbrake.
+
+Can you post the encoding settings you use?"
+[V],meech,2010-05-16T18:14Z,"Hi evilminded:
+I use Handbrake as well.  I really think it's the best program out there for ripping video.  I turn all the settings up pretty high.  Probably some are overkill, but like I said in the description, my computer handles it pretty well.  The following options take about 1.5 hrs for a 4 min show.  If I rip a movie, I usually use 1-pass with a Constant Quality/RF of 16.5. with Motion Estimation Method: Exhaustive (which takes much longer...not feasible when ripping an entire series)
+
+The options string I use for t.v. shows: ref=9:bframes=8:subq=9:mixed-refs=0:8x8dct=1:trellis=2:b-adapt=2:direct=auto:b-pyramid=1:me=umh:merange=64:analyse=all:no-fast-pskip=1.
+
+Or in other words:
+PICTURE TAB
+Anamorphic: Loose
+Modulus: 16
+Cropping: Automatic
+
+VIDEO VILTERS
+Detelecine: Default
+Decomb: Default
+Deinterlace: Off
+Denoise: usually off or Weak if bad noise
+Deblock: Off
+
+VIDEO
+Video Codec: H.264
+Framerate (FPS): Depends...usually 23.976
+2-Pass Encoding: on
+Turbo first Pass: off
+Target Size: Depends
+
+AUDIO:
+AC3 Passthru (choose 5.1 ch if available)
+
+ADVANCED
+Ref Frames: 9
+Mixed References: on
+B-Frames: 8
+Adaptive B-Frames: Optimal
+Direct Prediction: Automatic
+Weighted B-Frames: on
+Pyramidal B-Frames: on
+Motion Estimation Method: Uneven Multi-Hexagon
+Subpixel Motion Estimation: 9
+Motion Estimation Range: 64
+Anaylsis: All
+8x8 DCT: on
+CABAC Entropy Coding: on
+Trellis: 2
+Psychovisual Rate Distortion: slider all the way to right
+Psychovisual Trellis: slider all the way to left
+No Fast-P-Skip: on
+No DCT-Decimate: off
+Deblocking: Default/Default"
+[V],meech,2010-05-16T18:16Z,Typo on previous comment.  It takes about 1.5 hours to rip a 45 minute show....not a 4 minute show ( :
+,evilminded,2010-05-16T19:32Z,"Wow :) i use 90% the same settings :-D
+you use 9 Ref Frames: I use 6
+AND
+No Fast-P-Skip: on is OFF ... no idea what that does (forgot)
+AND
+Deblocking: Default/Default I use -2/-2
+http://sinblade.com:888/all/wow.PNG
+take a look here!
+left is the original right is my encode!!!
+look at the hair and the eye wrincles :)
+i cant believe it but it looks like my encode has more detail then the DVD :-D
+
+Oh with my E6600 it takes 5 hours for 45 mins "
+,Da_ud001,2010-06-04T18:48Z,"Hi buddy,
+
+First of all i must say, good job,
+
+second, when can we expect to see seasons 7-10
+
+Thanks"
+,yukihotfc,2011-04-11T16:20Z,"Quality: 9/10
+
+overall nicely done :)"
+,Jamjarstation24,2011-04-13T09:47Z,Downloading now and i am only uploading to people? come on guys FFS seed cause all i am getting it people leeching of me from vuze and shit and i aint that bothered as long as i can download 
+,Jamjarstation24,2011-04-13T09:50Z,and to point out something Rakasas is the only one that i can download from? And he doesn't want to upload?
+,thespike,2011-06-01T07:56Z,Awesome Work..10/10  Cheers
+,history_boy_,2011-06-19T11:33Z,"Beauty - Thanks very meech! Haha. I've had old copies of SG-1 SE1-10 for years and they were pretty terrible in comparison. Watchable, but you know how it is. Better quality IS better. 
+
+I will get the files on the UL as much as possible but I can't promise permanent connection.
+Thanks to everyone who seeded, even those who limited their UL rate. It doesn't matter, just means you have to be more patient. (Those who whine about it, please just think how much time and effort it takes to get these series UP on the service)
+
+Thanks again guys 
+
+   (   :"
+,Enh4nc3r,2011-06-26T21:15Z,"Very nice quality, but downloads at only 20 kbps average
+Please seed? it takes really long this way.."
+,Enh4nc3r,2011-06-26T21:17Z,"Well, history_boy is right"
+,rsi,2011-11-09T17:56Z,Thanks !

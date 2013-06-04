@@ -1,0 +1,126 @@
+User Type,Username,Date,Text
+,Ivica121,2010-05-12T17:59Z,"Thanks, works perfect!!"
+,Griften,2010-05-13T00:22Z,"is anyone else getting unlimited special units?
+
+some units like Napoleons Old Guard are supposed to have limits because they are too strong, but here you can make like 500 old guard units lol.. its kinda stupid
+
+any chance for real vanilla settings?"
+,safelydespised,2010-05-13T02:26Z,does it include new elite units ? other then patch2 ?
+,jakastou,2010-05-13T04:32Z,"Thank you Tanauser ...
+But is this the same as those torrents around the NET called : NAPOLEON TOTAL WAR DLC RELOADED
+I read your comment that this was your torrent that you had removed before ... Is it the same ??
+
+Anyway thank you once again ...
+Waiting for your Pirate Mod for Napoleon now ...  ;)"
+,jakastou,2010-05-13T04:47Z,"Tanauser :
+Do you have an account in DEMONOID ???
+I can give you an invitation if you want ..."
+,m33st4,2010-05-13T05:11Z,Thanks for uploading it back :)
+[T],Tanauser,2010-05-13T08:01Z,"This is not the same torrent as the first one
+I have uploaded here 
+in this one
+I didn't change the projectiles : 
+just DLC + that CTD occuring if you play friedland with this patch3 ......;and unlimited DLC units  (right)
+Yes I have a demonoid Account ; I was there in the old old  time"
+,Ratspike,2010-05-13T09:27Z,"Thank you, this is awesome.
+
+In singleplayer late game AI spam recruits the best units like the guy said above. Is there an easy way to fix special unit limits, id do it myself if i could"
+[T],Tanauser,2010-05-13T12:01Z,Do you have the PFM ? or get it ; and I will show you how to put back the unit limit
+[T],Tanauser,2010-05-13T17:11Z,"In order to put the DLC limit
+
+open the mod with the Napoleon PFM (not the Empire one)
+
+clic on the db tab
+clic on units_tables and open the Tab on the right side
+look for the unit Name you want to change the limit in the 2nd Row ; following the line
+
+goto  the row unit Limit units  ;;; 0 (zero) stays for Unlimited ; just put what ever you want instead
+
+now goto MP Unit Limit row (7 row from here on the right) and do exactly  the same thing
+
+save the pack"
+,Ivica121,2010-05-13T17:32Z,"Tanuser now limit works thanks!!
+
+Gjurgjev vidim da si sa ovih prostora bok."
+,Ivica121,2010-05-13T18:41Z,"Tu ima? originalne unit statse i po tome stavljaj http://totalwar.honga.net/napoleon_faction.php?v=napoleon&f=france
+A krek ti netreba novi."
+,Ivica121,2010-05-13T18:54Z,"Neznam za to jel treba mjenjat, moram jo? vidjet. nisu ti sve statistike na 1 pi?e ti pored svake jedinice koja statistika ide."
+,Ivica121,2010-05-13T19:48Z,"Moras izmjenit i onaj zadnji stupac, gdje ti pis?u nule, u taj zadnji stupac napises iste brojeve ko u prvi stupac gdje ti pi?u nule, a predzadnji stupac gdje ti pisu nule ne diraj."
+,20PPC,2010-05-13T23:21Z,"Tanauser, thank you for correcting the projectiles in this version. I will download the PFM and learn how to put the unit limits back to their original vanilla values."
+,Ratspike,2010-05-13T23:24Z,"I might be missing something, 
+
+i downloaded http://www.twcenter.net/forums/showthread.php?t=338259 
+
+i followed directions and changed unit limit back to standard but when I go to save i get a unhandled exception error which destroys the Napmod.pack in the process."
+,b0ck3n,2010-05-14T06:42Z,"Where can I find the actual vanilla unit limits? I know how to edit them, just not what the standard value was in the first place."
+,Ratspike,2010-05-14T06:55Z,"@ b0ck3n
+
+http://totalwar.honga.net/napoleon_faction.php?v=napoleon&f=france
+
+also if you can edit with np, what tips can you give if any about my situation?"
+,b0ck3n,2010-05-14T07:19Z,"@ Ratspike
+
+Cheers! If I'm able to get it working I'll upload the edited pack. Just to be sure, all extra units are located in the NapMod pack right, nothing in patch3 needs editing?"
+,b0ck3n,2010-05-14T07:23Z,"edit: am I correct in assuming that only the ""custom"" units in napmod.pack needs editing, and all remaining lines are just there to remove the unit limit, as they are either part of the original game or the patch?"
+,Ratspike,2010-05-14T14:26Z,"Yea I'm having a bit of trouble editing, if anyone could upload a standard value unit limit replica of this, me and other noobs would be eternally grateful."
+,b0ck3n,2010-05-16T09:28Z,"Haven't encountered any problems thus far, changing unit limits was easy enough and everything's stable. However there's a texture issue with the 8th Life Regiment of Prussia, all other extra units are working."
+[T],Tanauser,2010-05-16T13:46Z,"I saw it the ruban in the hat ;
+ probably a bug from the this DLC"
+,krigla,2010-06-06T16:45Z,"Tanauser, thank you for you torrents!
+However, is there a way to really unlock these dlc units instead of modding them in? This way they are not compatible with many mods so I have to edit them in PFM every time I switch mods. If anyone has any idea how to do it, please contact me on minimun  (@) gmx.com, thanks!"
+,krigla,2010-06-06T16:49Z,I have some experience with modding so please tell me if it`s possible at all.
+,cpt_acid,2010-06-06T23:38Z,"Much thanx to Tanauser for all his efforts with TW!
+
+Hvala, brate!
+
+Houston, though, we have a slight problem...
+I can't seem to find original unit limits for Coalition Battle Pack units.
+
+Does anybody have them?"
+,krigla,2010-06-07T03:32Z,"Sve su ti 1, sve DLC jedinice od CA imaju limit od 1. Ja ih dignem na 2, tako simuliram regimentu od 2 bataljona.
+
+Jesmo svi ovdje iz Hrvatske?"
+,Ivica121,2010-06-07T10:17Z,"Malo nas je, al nas ima."
+,cpt_acid,2010-06-07T15:33Z,"@ krigla:
+
+Pa, da, i mislio sam da su 'unique'.
+
+
+Here's a file with original unit recruitment limitations for those that don't wanna bother with manual editing:
+
+http://r*ap*i*d*s*h*a*r*e.com/files/396278099/NapMod.rar
+
+
+Too bad many of these units cannot be recruited in the campaign, only in battles and MP."
+,webtax,2010-06-07T18:38Z,"nice , thanks cpt_acid and tanauser"
+,cpt_acid,2010-06-08T22:22Z,"@ krigla:
+
+Regarding your question on how to make these compatible with other modes...
+You could circumvent this by adding the entries for custom_unitsXX from MyNaploc.pack to this file:
+http://www.twcenter.net/forums/attachment.php?attachmentid=93440&stc=1&d=1275923093 
+
+That is a ""localization"" file designed to be compatible with many mods.
+
+Hope this helps, though this is only a workaround to unlocking the units.
+
+Pozdrav!"
+,mike360,2010-06-09T21:04Z,Guys i want the dlc from 1.02 and this one combined.. how do i do that?
+,Bludeous_Whallean,2010-06-09T23:29Z,"It says require patch 2. I downloaded patch 2 but the file is weird because it has  a winrar icon but I cant extract. Anyway, I put patch 2 into the data folder and installed v1.03 and the game crashes/ HELP"
+,krigla,2010-06-13T04:29Z,"@cpt_acid thanks for the help, I`m using UPC already:) 
+
+Unfortunately, it doesn`t adjust the unit statistics with the mod (for example, bigger unit sizes in mostly any mod), so it`s not a solution (it only provides text for added units).
+
+It would be easy to just copy/paste entries in PFM (from a mod into napmod.pack, as all mods have entries adjusting DLC units statistics already), but Tanauser changed their names to custom_unitsXX, so it takes eternity to find out which unit is which."
+[T],Mincan,2010-06-27T05:57Z,"I notice in the main menu it still reads the game version as 1.00, isn't it supposed to read 1.03 now?"
+[T],Tanauser,2010-06-29T19:24Z,right ; we need another cracked .exe
+[T],Mincan,2010-06-30T00:22Z,"All I've done is paste patch2.pack and patch3.pack in my data folder, is this all I need to do to get the updates? Personally I don't want any mods or DLC, just want the updates. Thank you for uploading the patches. So I just need to know if that's all I need to do, or do they only work with also installing the mods?"
+[T],Tanauser,2010-07-03T20:10Z,"The patch 2 & 3 are working with the Razor's version with no need of anything else
+
+The Patch4 won't run nor the updates that come along with it because they have changed the .exe"
+[T],Tanauser,2010-07-04T12:14Z,"here is patch 4
+
+http://thepiratebay.org/torrent/5668569/Napoleon_Total__War_PATCH_4"
+,omerhayyam,2010-08-12T16:06Z,just installed napoleon total war and this patch over it. i was wonderin if its normal that europe and waterloo campaigns are locked in campaign section? or do i have to finish italy and egypt campaigns first to unlock them?
+,Re95,2010-09-04T02:59Z,Tanauser can you put up a torrent for the Royal Scots Greys please i would like that and most probably alot of people who did not pre order on steam...
+,Re95,2010-09-04T03:29Z,and what do you mean by: i didnt change the projectiles do you mean that they are bugged or normal because in the other one in the description it said that you corrected bugs to do with projectiles.
+,SergioFCPorto,2012-04-05T01:51Z,thanks

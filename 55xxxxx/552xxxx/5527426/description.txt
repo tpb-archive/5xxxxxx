@@ -1,0 +1,61 @@
+KonBoot v1.0
+
+FAKE VIRUS ALERT
+-----------------------------------------
+NOTE: THIS GIVES A FALSE POSITIVE FROM A FEW AV SOFTWARES WHEN YOU DOWNLOAD IT. 100% CLEAN. The virus scan at virus total will show you that it includes code that "not-a-virus". 
+http://www.virustotal.com/analisis/37059d13554d1a0155296f8ef6ffef90e6785f1f1e9a91487c220f8122d848ff-1272811368
+
+
+
+
+WHAT IS KONBOOT
+-----------------------------------------
+Kon-Boot is an prototype piece of software which allows to change contents of a Linux kernel (and now Windows kernel also!!!) on the fly (while booting). In the current compilation state it allows to log into a Linux system as 'root' user without typing the correct password or to elevate privileges from current user to root. For Windows  systems it allows to enter any password protected profile without any knowledge of the password. It was actually started as silly project of mine, which was born from my never-ending memory problems :) Secondly it was mainly created for Ubuntu, later i have made few add-ons to cover some other Linux distributions. Finally, please consider this is my first Linux project so far :) Entire Kon-Boot was written in pure x86 assembly, using old grandpa-geezer TASM 4.0.
+
+
+
+TESTED ON
+-----------------------------------------
+Windows Server 2008 Standard SP2 (v.275)
+Windows Vista Business SP0
+Windows Vista Ultimate SP1
+Windows Vista Ultimate SP0
+Windows Server 2003 Enterprise
+Windows XP
+Windows XP SP1
+Windows XP SP2
+Windows XP SP3
+Windows 7
+
+
+
+INSTRUCTIONS
+-----------------------------------------
+Kon-Boot for Windows enables logging in to any password protected machine profile without without any knowledge of the password.
+
+
+1. Burn the small image. 
+2. Set the computer you wish to bypass the password on to boot from cd, then boot to the cd. 
+3. The administrator password will be gone. 
+
+
+
+
+
+One more note: I used this several times on several jobs, and it has failed about 3 out of 100 times, so its pretty successful program.
+
+
+
+
+
+
+
+
+
+
+=========================================
+
+G U R U F U E L 
+           .com
+
+HARDWARE, SOFTWARE, PROGRAMMING, HACKING.

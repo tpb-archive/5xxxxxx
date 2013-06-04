@@ -1,0 +1,91 @@
+User Type,Username,Date,Text
+,navaneeth,2010-04-27T15:04Z,No need to register for an ubisoft account. You can play the game offline. Enter any desired username and password in the launcher. Your save games are linked to that username. Use the same username everytime you play.
+,navaneeth,2010-05-01T19:02Z,"When you run the launcher a black emulator command window (showing some virtual ports open) appears along with an ubisoft login screen asking for username and password. Minimise the black window , enter your desired username, password and login through the other one. Don't click register. After clicking login another window appears which has an option to disable games to be saved online. Disable that. Your game will run fine till the end don't worry. This is the one and only clean version of ACII."
+,MaglorAnarion,2010-05-01T21:42Z,Worked like a charm! Thanks!
+,rapscallion412,2010-05-03T15:44Z,"This is the easiest crack I've ever used. Thank you for this wonderful work-around to Ubi's horrid DRM.
+
+One thing to note. If you are running a web-server, like apache, on your machine... or are using skype (with default port settings) you will have to disable both to free up port 80. Otherwise the server emulator can't work."
+,ajitsalopal,2010-05-04T14:12Z,awsm work buddy ...... 
+,Figamer,2010-05-05T06:15Z,"I have installed the game but when i try to run it through the installed icon it asks for a internet connection, even after connecting to the internet it is saying the game could not find an internet connection.
+details steps to install plz"
+,yashshah0796,2010-05-05T07:06Z,plssss seed people the download is very slow it is not going beyond 36kb/s 
+,grimy7,2010-05-05T11:27Z,I installed the game and started it from the launcher on the desktop. It opened a DOS window and a small window with the assassin in it and started loading but after a few seconds it said that an internet connection was needed and that it cannot connect to the Ubisoft master server. I have turned off Skype and i don't have any server applications. Please help
+,yashshah0796,2010-05-05T14:50Z,plsssss seeddddd
+,navaneeth,2010-05-05T15:09Z,"When you run the launcher a black offline gameplay emulator window (showing some virtual ports open) appears along with an ubisoft login screen asking for username and password. Minimise the black window , enter your desired username, password and login through the other one. Don't click register. After clicking login another window appears which has an option to disable games to be saved online near the close button. Disable that and rerun the launcher. Your game will run fine till the end."
+,navaneeth,2010-05-05T15:13Z,Figamer and grimy7 U have to reinstall and follow these steps
+,navaneeth,2010-05-05T15:15Z,Run the launcher as administrator if u are using vista or win 7
+,Figamer,2010-05-05T17:25Z,"I am using win XP SP2, suggest some remedy plz as fast as u can"
+,yashshah0796,2010-05-06T05:18Z,can anyone tell me dat wat is your download speed ?????
+,Figamer,2010-05-06T11:32Z,"I am using XP sp2, and i have disabled my u torrent, but still cannot run the game i am also running as an administrator, my prob is same as that of grimy7, pl z help anyone"
+,yashshah0796,2010-05-06T19:03Z,can anyone seed faster  plssss help meee 
+,swiftry,2010-05-07T03:11Z,"Works perfectly!
+Win7 64-bit.
+
+Thanks navaneeth :)"
+,saurav_k,2010-05-07T06:53Z,i am using windows 7 32 bit..the game is running on win xp sp3 but on win7 it is asking for an internet connection..how can it be resolved..?
+,saurav_k,2010-05-07T06:59Z,hey navneeth thanks buddy for this great work...cud u plz upload dark sector...plz!
+,hnstcheat,2010-05-07T11:10Z,"Hey dude please help i have installed this three times but every time it shows the same error msg that an internet connection and it is required its not showing the login window............please help me........
+M using Windows 7 32-bit
+How to free this Port 80?"
+,saurav_k,2010-05-07T12:56Z,@hnstcheat...untill a solution comes out use windows xp sp3...i t is running fine but for win 7 we dont have any option except waiting...
+,navaneeth,2010-05-07T13:17Z,"Guys  those who messed up somehow resulting in ""An internet connection is required"" error
+
+Make a clean reinstall of ACII again (though it is frustrating) but don't launch the game
+
+Open the Hosts file (C: Windows System32 drivers etc) in notepad and make sure these lines are there
+
+127.0.0.1 static3.cdn.ubi.com
+127.0.0.1 ubisoft-orbit.s3.amazonaws.com
+127.0.0.1 onlineconfigservice.ubi.com
+127.0.0.1 orbitservice.ubi.com
+127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
+
+Open Run
+Type cmd and hit enter
+Type ipconfig/flushdns in the command window that appears
+
+Restart the pc and run the launcher in desktop as administrator
+"
+,swiftry,2010-05-08T05:16Z,"Hi, I'm having a problem. The game worked fine until the part where I go to Leonardo da Vinci to repair the broken blade. For some reason it hangs there, but i can access the game menu. I exit the game and restart, but the save file appears to have vanished. Have to start a new one one.
+
+Has anyone been able to actually complete the game with this?"
+,Cease33,2010-05-08T11:11Z,"@swiftry
+Just pres ""2"" to select the hidden blade"
+,swiftry,2010-05-09T05:18Z,"Did that, but the game didn't unfreeze after that. Just stuck. And how do you explain my save game vanishing? :s"
+,James94,2010-05-13T00:58Z,guys someone seeed!
+,Polo754,2010-05-13T01:40Z,i get to the part where u meet ur dads friend in his office and it just freezes. what should i do?
+,yashshah0796,2010-05-29T19:42Z,hey i have instaleed the game i have a internet conand it perfectly works fine but it opens a error an internet connection is required to play this game and failed to connect to the ubisoft master server 
+,Kenuves,2010-06-13T10:36Z,"Whenever I start the launcher, it says either: ""Error: Could not find data file"", or it will launch into the screen, giving me all options, but when I start it up it'll disable anyway. What do I do?"
+,INeonLeonI,2010-06-20T20:32Z,"I got it all, installed etc. worked fine up til now... now I start the launcher, minimize the black window, enter my name and password, and then it asks me for the product/serial key! Help?!"
+,pakiland,2010-07-13T08:37Z,"i managed to figure out      internet required problem. its simple just install net. framework 3.5, and the fake server will run..."
+,SD_rocks,2010-07-26T18:41Z,hey r all video files included in this torrent?
+,espener,2010-08-04T21:13Z,"when i try to press play, it comes a: cant find C:\program files\assassin`s creed 2\Assassins Creed 2.exe.
+can someone please help me!!"
+,espener,2010-08-05T01:22Z,"when i start the game everything is black the sound and every thing is there but no picture 
+help me!!"
+,kirantdh,2010-09-02T19:55Z,"for all those that didnt understand 
+here are the steps :-
+1. mount the file 
+2.install 
+3.when you double click on the game file u ll see a pop up jut type desired username and password 
+and login do not register 
+4. while playing reduce the resolution for better performance 
+Warning ur comp can become extreme  hot 
+if it overheats the game might crash"
+,kirantdh,2010-09-02T19:56Z,by the way this is one of the easiest game to install and play wish there were more uploaders like this 
+,kirantdh,2010-09-09T10:31Z,Lisen the game crashes at the part where leornado gives him the wings tried everything wont straighten out 
+,kirantdh,2010-09-09T10:40Z,"For all those who dont know how to open port 80 in windows 7
+go to this link http://maximumpcguides.com/windows-7/open-a-port-in-windows-7s-firewall/"
+,afferik,2010-11-09T17:51Z,"sorry for REALLY stupid question, but what does ""mount"" means?"
+,scamInc,2010-12-17T07:07Z,fuck you leechers. seed god damn it!
+,sidsin21,2011-01-01T19:02Z,Thank u for a wonderful torrent...!! Small size...has all dlc's...and is very very easy to install...!!! Great Work!!!!!!!!!!
+,asifah30,2011-01-19T06:34Z,"Hi guys....!!!
+I read carefully every comments and instruction to install the game. Now i have done everything. When i start server.exe then command prompt window appears and after a second disappears. Means server is not getting started....i am using Vista 64bit, with no internet connection, no msn, skype etc.....Moreover it is giving msg like 'no internet connection' 
+Plz help me......waiting for response...."
+,hrishd,2011-07-06T12:27Z,Guys plz seeeeeed stuck at 15KBps
+,denatorewu38,2011-08-16T00:20Z,video tutorialos Assassins Creed 2: http://www.gamestia.com/video/assassins-creed-2-c15s1.html
+,Juoka,2011-08-30T22:58Z,"""Mount the iso file, install the game and play using the special launcher.""
+
+Umm...what exactly is that special launcher?"
+,EzioAssassin,2011-09-14T15:34Z,someone seed!!!! please!!! i'm stuck at 23.5% please i need this game!!!
+,joulius,2012-06-21T14:17Z,thanks mate!!!!

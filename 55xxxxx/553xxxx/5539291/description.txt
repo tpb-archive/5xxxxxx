@@ -1,0 +1,27 @@
+Release leaked from BHN forums by Ivan Grozny
+
+General Notes
+This release works by running scrapebox in a VM with a ripped license.
+The license is dead because BHN didn't realise that scrapebox is a clever piece of kit - it
+will detect a fake server and use the auxiliary backup. They all used a live license until 
+they got banned. They still can't get 1.14.16 to work, but you can :), follow the 
+instructions below. If for some intense reason you prefer an older version, I included it 
+too. All the bragging about how l33t they are cause they managed to license a VM has been
+left in for its comedy value. Visit to their forums is a serious mental prolapse risk.
+
+Prerequisites:
+VM Player - http://www.vmware.com/go/downloadplayer/
+Perl - http://www.activestate.com/activeperl/downloads/
+
+Install:
+1. Unrar
+2. Edit your Ethernet Card or Wireless Adapter and manually set a static IP address.
+3. After you manually set your IP address under TCP/IP V4, click the advanced button, 
+   under IP addresses, click the Add... button and add following IP Addresses: 
+   206.214.211.165 Subnet Mask: 255.255.255.0
+   208.79.237.176 Subnet Mask: 255.255.255.0
+4. Go into server dir and double-click webserver.pl, it should display an empty black window.
+5. Run VM image, when asked whether it was copied or moved, select moved.
+6. Run scrapebox, do not close the server window.
+
+Enjoy, and if you make some money using this app, BUY IT.

@@ -1,0 +1,36 @@
+Swarm Intelligence
+Morgan Kaufmann | ISBN: 1558605959 | 2001 | PDF | 541 pages | 12,7 mb
+
+
+
+
+
+
+
+
+
+My original motivation for reading Swarm Intelligence was a desire to learn about the Particle Swarm Optimization (PSO) algorithm -- in particular, to learn how to implement it in a Java program. To the credit of its authors, what I found in Swarm Intelligence was far more than that. The authors have taken on the rather daunting task of presenting a new paradigm -- a new way of thinking about mind and intelligence -- and they have succeeded.
+
+PSO, itself, is deceptively simple. The heart of the algorithm can be written in a single line of code. Understanding the basis for its approach to intelligence isn't difficult, either. The authors begin their explanation using the old parable about the blind men and the elephant. You are most likely familiar with the story. 
+
+
+In summary form, it is about a group of blind men standing around an elephant each declaring "what an elephant is like" based upon which part of the elephant they are touching -- and elephant is like: a wall (side); a tree trunk (leg); a hose (trunk); a fan (ear); and so on.
+
+What is wrong with this story, the authors point out, is its implicit assumption that these blind men are also deaf. If not, as they each announced their impressions the individuals, as a group, would discover much more about what an elephant is. 
+
+
+The significance here is easily missed. The capabilities of a group emerge from the individuals immersed in it. The group can do more (see more, discover more, experiment more) than the individuals from which it emerges and, by virtue of their immersion in it, the individuals benefit (and in turn, the group then benefits as it now emerges from these "benefited" individuals).
+
+The authors view this emergent/immergent "cycle" as the driving force behind mind and intelligence. In contrast to the normal (phenomenological) view of mind as an internal, private "thing that thinks," the authors assert that mind is something requiring sociality. To put it bluntly (and the authors do), in the absence of social immersion there is no mind; mind is social. The majority of the book is focused on this: why it's true, how it's true and how it is implemented in the PSO algorithm.
+
+It is easy to see how the book might have ended up a long philosophical argument. It isn't. Instead, the authors present a nicely written history of efforts to achieve "computational intelligence" (a much better phrase than the more familiar "artificial intelligence") including great summaries of evolutionary approaches, fuzzy logic, neural nets and artificial life. Along the way they point out recent advances in psychology and sociology. The net effect is that they don't need to argue their point. 
+
+
+By the end of this part of the book the importance of sociality has become rather obvious. If you are interested in sociology, psychology, engineering and/or computer science you will enjoy this part of the book immensely, learn a lot and find a wealth of references to additional sources of information.
+
+The second part of the book presents the PSO algorithm, compares its performance with other methodologies (in addition to being simpler to understand and implement, it's an order of magnitude faster when applied to certain problems -- training neural nets, for example), demonstrates how it is applied to some "real life" problems and discusses some implications of (and speculations about) the approach. 
+
+
+As with the first part of the book, the presentation is clear, concise and informative. There is, though, indications here that the PSO approach is rather new (young). There isn't enough experience with PSO yet to give this part of the book the same feeling of depth one gets from the first part.
+
+There is a companion site (of sorts) on the web for the book through which you can download Visual Basic and C source code of PSO implementations. There is also a Java applet which demonstrates PSO applied to a number of test functions. - Amazon Reviewer

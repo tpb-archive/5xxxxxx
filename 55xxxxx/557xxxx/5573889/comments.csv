@@ -1,0 +1,12 @@
+User Type,Username,Date,Text
+,hsm01,2010-05-20T17:54Z,"Windows
+On Windows run synergy by double clicking on the synergy file. This brings up a dialog. Configure the client:
+
+Click the Use another computer's shared keyboard and mouse (client) radio button
+Enter the server's computer name next to Other Computer's Host Name
+This is not the server's screen name, unless you made that the server's host name as recommended
+If the client's screen name is not the client's computer name:
+Click Advanced...
+Enter the client's screen name next to Screen Name
+Click OK
+Now click Test."

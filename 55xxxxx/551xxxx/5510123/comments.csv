@@ -1,0 +1,15 @@
+User Type,Username,Date,Text
+,5orless,2010-04-25T21:12Z,"The Mac version has an glitch that was never fixed by the programmers but theres an easy fix 
+
+I found this http://forums.introversion.co.uk/darwinia/viewtopic.php?t=762
+
+Basically this takes a few minutes and it fixes it.
+
+USE Redshirt  from http://clementcadbury.free.fr/redshirt2/index.php
+
+Open up the file  found via Library/Application Support/Darwinia/full/users/NewUser/game.txt, 
+
+and search for a line that looks like this: 
+76 2 4 6 0 0 
+
+Mine was 76 2 4 5 -1 0 but it is the only line thats close. Using Redshirt - Replace the 2 with a 1 and then save the crypted file game.txt and replace it with the game.txt thats on your HD. The Control Tower thats next to the Generator will now be uncaptured at the start of the level allowing your engineers to reprogram it so it will register the energy generated from the solar panels."

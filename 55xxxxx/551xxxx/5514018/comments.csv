@@ -1,0 +1,5 @@
+User Type,Username,Date,Text
+,sowbug,2010-04-26T01:04Z,"One comment about this ISO: OSX users can mount the ISO just fine, of course. But unfortunately, it's not a hybrid HFS/ISO9660 image, so Windows users won't see anything unless they're using an HFS-aware mounting utility (. This partially defeats the purpose of making it easier to kickstart an old Mac using modern hardware (""modern"" including Windows machines).
+
+I apologize for this; I'll update the image to make it a hybrid, so that Windows users will be able to use it easily. Meanwhile, try any of the following: MacDrive, HFV Explorer, Linux's loopback mount (mount -o loop disk1.iso /mnt/disk), and possibly the Apple BootCamp HFS driver for Windows (which might work only with HFS+)."
+,sowbug,2010-04-27T07:49Z,I've addressed the problems described in my previous comment. See http://thepiratebay.org/torrent/5518302 for the 1.1 version of this ISO.

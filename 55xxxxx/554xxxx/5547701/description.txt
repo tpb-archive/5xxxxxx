@@ -1,0 +1,25 @@
+A complete site-rip of a major Atari ST dev docs repository + extras from me.
+http://dev-docs.atariforge.org/
+For reading HYP files within an Atari ST:
+EXTRAS...
+--###SOFTWARE##--
+- winguide.exe = Windows viewer for Atari HYPertext files (.HYP).
+- Hatari & Steem = Atari ST emulators.
+- ROMS = Use em with your emulators!!
+- Everest = Atari ST text editor
+- KnifeST = very excellent disk editor
+- Mononomon = another disk editor. never used it
+- TTD = TT Digger. Despite the name, works on ANY Atari ST. http://members.chello.nl/h.robbers/TTD.html
+- ASSEMBLE & DEVPAC31 = assembly language compilers. Devpac31 was THE standard for Atari STs.
+Devpac31 must sit in the Atari ST C drive root. To put it elsewhere, adjust the environment settings.
+- PURE_C & LATTICE_C = C language compilers.
+- INTRFACE = a resource editor. Can edit a program's GUI.
+- SYSINFO.PRG = Gives you an overview of your Atari ST specs along with your Atari ST vectors (hdv_bpb, etc). If your technically savvy, you can spot memory resident viruses.
+
+--###DOCUMENTS##--
+- 68K references
+- The ST Assembly Learning Workshop (ALW_V1 & ALW_V2). HYP format.
+- Atari ST compendium. PDF & HTML
+- Devpac3 manual. PDF & HYP (NOT easy to find!!!)
+- ST_WORLD magazine articles (graphix coding). DJVU format.
+I use WinDJVU. http://windjview.sourceforge.net/

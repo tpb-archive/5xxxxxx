@@ -1,0 +1,53 @@
+Classic Mac Kickstart
+Version 1.1, April 25, 2010
+By M
+
+INTRODUCTION
+
+You have an old Macintosh -- one that is new enough to have a SuperDrive, but that is older than an iMac. For some unknown reason, instead of throwing it away, you want to get it running again.
+
+This CD-ROM image will make your job easier. Burn it to a standard CD-R with any burning program, then use that CD-ROM to create a bootable Mac floppy disk. Then you'll have a way to boot into a HFS-compatible CD-ROM containing all the files you need to kickstart your old Mac. (The HFS-compatible part is what makes this image valuable. Try using a modern computer to make a CD-ROM that an old Mac will read, and you will find the experience slow and frustrating.)
+
+This image is not a compendium of cool old Mac applications, games, and utilities. You can find that stuff on the web on your own. This image is designed simply to kickstart a dead Mac back to life. That's why it provides only boot floppies, basic System installers, and a couple file-transfer utilities, and nothing else.
+
+STUFF YOU'LL NEED
+
+- An old Mac that either
+  (a) has a working floppy drive and can boot System 6.0.8, or
+  (b) has a working CD-ROM and floppy drive and can boot System 7
+- A modern PC that has a CD burner and a floppy drive
+- A blank CD-R (note that many old Macs can't read CD-RW)
+- A high-density floppy disk (one that has an HD on it)
+
+INSTRUCTIONS
+
+This disc is divided into two parts: Modern and Classic. You'll use the Modern files on a modern PC to create the media you need to resurrect the Mac, and then once the Mac is working, get Classic files to install a new System Folder and get it ready to download files from the Internet.
+
+ 1. Modern
+
+This image is a hybrid HFS/ISO9660, so burn it or mount it. Then using rawrite on Windows, Disk Utility on OSX, or dd on Linux (dd if=whatever.dmg of=/dev/fd0 bs=512), write the appropriate floppy image to your floppy disk.
+
+  - System Startup.dmg in the System 6.0.8 folder if your Mac can't boot System 7.
+  - Boot75withCD.dmg if your System 7-compatible Mac has a CD-ROM.
+  - Disk_Tools81_PPC.dmg if you just want to repair or format your Mac hard drive.
+  - Network Access.dmg if you don't have a CD-ROM drive on your System 7-compatible Mac and want to try setting up an AppleShare server on your network (good luck with that).
+
+Note that we're assuming your Mac has at least a hard drive. If not, seriously, do the world a favor and throw it away.
+
+Now boot up your Mac with the floppy. System 6 Macs should install the System now. Other Macs should put in the CD-ROM and install the appropriate version of System 7.
+
+If you don't have a CD-ROM, at this point you might want to put in the Fetch & Expand floppy, copy those apps over, and then try downloading more stuff from the Internet.
+
+If you do have a CD-ROM, once the basic System is running, you should install StuffIt Expander 5.5. This gives you the ability to open .bin, .hqx, and .sit files. Then install DiskCopy to mount .img files. Finally, install Fetch and get your network settings right.
+
+Congratulations! You now have a working Mac that can download and install more programs from the Internet. Have fun.
+
+REVISION HISTORY
+
+1.0
+  First release.
+1.1
+  Converted to HFS/ISO9660 hybrid so that modern computers can read CD easily.
+  Substantially reworked directory layout and README.
+  Converted bootstrapping DiskCopy NDIF images into DMG files, which can be more easily written to floppies by modern computers.
+  Removed some unneeded installers.

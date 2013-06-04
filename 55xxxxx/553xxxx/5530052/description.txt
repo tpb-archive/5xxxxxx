@@ -1,0 +1,186 @@
+proudly presents
+
+Just Cause 2 Proper / SQUARE ENIX - Eidos Interactive
+
+
+RELEASE DATE : 23-03-2010               PROTECTION : Steamworks
+
+GAME TYPE    : Shooter                  DISKS      : 1 DVD
+
+
+Release Notes:
+
+The Skid Rowdies are looking new blood to fill up the ranks.
+
+We're a professional team of dedicated sceners with big mark
+
+under sceners. We believe on the ground idealism of the root
+
+of the real old school scene. We do all this for fun and
+
+nothing else. We don't earn anything on our hobby, as we do
+
+this for the competition and the heart of what got the scene
+
+started in the mid eighties.
+
+If you think you got something to offer, then don't hold back
+
+on contacting us as soon as possible.
+
+twice the fun   / double the trouble
+
+Proper Notes:
+
+In RELOADED exe steamworks triggers are not resolved, look
+
+example:
+
+00401010     51              PUSH ECX
+
+00401011     B8 30354900     MOV EAX,JustCaus.00493530
+
+00401016     FFD0            CALL EAX           <- CRASH HERE
+
+00401018     59              POP ECX
+
+00401019   - FFE0            JMP EAX
+
+Properly fixed:
+
+00401010     51              PUSH ECX
+
+00401011     B8 10926F00     MOV EAX,JustCaus.006F9210 <- Good
+
+address restored
+
+00401016     90              NOP
+
+00401017     90              NOP
+
+00401018     59              POP ECX
+
+00401019   - FFE0            JMP EAX
+
+RELOADED did also miss 2 vital game files in archives_win32
+
+folder. Files pc4.arc and pc4.tab to be precise.
+
+Also our crack do not take 20 secs to start exe.
+
+As a bonus, we have made a language selector for you all. The
+
+RELOADED version only enables english, when there is actually
+
+6 languages included in the game. English, German, French,
+
+Italian, Spanish and Russian.
+
+On with the game release information:
+
+Dive into an adrenaline-fuelled free-roaming adventure. As
+
+agent Rico Rodriguez, your orders are to find and kill your
+
+friend and mentor who has disappeared on the island paradise
+
+of Panau. There, you must cause maximum chaos by land, sea and
+
+air to shift the balance of power. With the unique grapple and
+
+parachute combo, BASE jump, hijack and create your own
+
+high-speed stunts. With 400 square miles of rugged terrain and
+
+hundreds of weapons and vehicles, Just Cause 2 defies gravity
+
+and belief.
+
+UNIQUE VERTICAL GAMEPLAY - Take to the air like no other game.
+
+Experience total aerial freedom with the unique parachute and
+
+dual grapple
+
+UNBELIEVABLE ADRENALINE-FUELLED STUNTS - Free fall, base jump,
+
+vehicle surf, para sail, skydive, grapple, slingshot, leap
+
+between vehicles, hang from helicopters, scale buildings. The
+
+impossible is within your grasp.
+
+UPGRADED DUAL GRAPPLE - Your best tool is now a weapon. Fire
+
+two shots with the grapple hook and attach unwilling enemies
+
+to high-speed vehicles, hang them upside down from buildings,
+
+tether objects in mid air. The possibilities are as vast as
+
+your imagination.
+
+DISCOVER THE SECRETS OF PANAU - Explore the island paradise;
+
+from sprawling cities, secluded beaches and towering mountain
+
+peaks   more than 400 square miles of your own personal
+
+playground.
+
+EXPERIENCE TRUE FREEDOM - Hundreds of objectives can be
+
+completed in any way or order that you choose. When it s time
+
+for a break from Agency business, kick back and enjoy all the
+
+attractions that Panau has to offer.
+
+MASSIVE SELECTION OF VEHICLES - Catch air on a high-speed dirt
+
+bike, race across the sea in a power boat, or fire a spread of
+
+rockets from an attack chopper   more than 100 land, sea and
+
+air vehicles are yours for the taking.
+
+
+Install Notes:
+
+1. Unpack release
+
+2. Mount image or burn it
+
+3. Install
+
+4. Copy the content from the SKIDROW folder on the DVD to your
+
+installation directory and overwrite
+
+5. Play the game
+
+The minimum system requirements are as follows:
+
+OPERATING SYSTEM: Microsoft Windows Vista (Windows XP is unsupported)
+DIRECTX: Microsoft DirectX 10
+CPU: Dual-core CPU with SSE3 (Athlon 64 X2 4200 / Pentium D 3GHz)
+RAM: 2GB system Memory
+GRAPHICS: DX10 compatible graphics card with 256 MB of memory
+(Nvidia GeForce 8800 series/ ATI Radeon HD 2600 Pro)
+SOUND: 100% DirectX 10 compatible sound card
+DVD-ROM: Quad-speed (4x) DVD-ROM drive
+HARD DRIVE: 10GB of free drive space
+INPUT DEVICES: Keyboard and Mouse.
+
+The recommended system requirements are as follows:
+
+OPERATING SYSTEM: Microsoft Windows Vista SP1 or Windows 7
+DIRECTX: Microsoft DirectX 10.1
+CPU: Intel CoreÂ® 2 Duo 2.6 GHz or AMD Phenom X3 2.4GHz or equivalent
+RAM: 3GB system Memory
+GRAPHICS: DX10 compatible graphics card with 512 MB of memory
+(Nvidia GeForce GTS 250 series/ ATI Radeon HD 5750 series)
+SOUND: 100% DirectX 10 compatible Dolby Digital 5.1 sound card
+DVD-ROM: 8 Speed DVD-ROM drive
+HARD DRIVE: 10GB of free drive space
+INPUT DEVICES: Keyboard and Mouse. (Microsoft Xbox360 controller supported)

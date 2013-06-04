@@ -1,0 +1,404 @@
+                      Ãœ                     Ãœ ÃŸ Ã¾
+      Ãœ ÃŸ               ÃŸÃœ    ÃœÃ¾ÃŸÃŸÃŸÃ¾Ãœ      Ã›                ÃœÃ¾ÃŸÃŸÃŸÃ¾Ãœ
+ Â°   Ã›Ãœ     Â²Ãœ     Â°    ÃœÃ›Ã  ÃŸ       Â²Ãœ     ÃŸÃŸÃ›Ã›Ã›ÃœÃœ     Â° ÃœÃ›Ãœ     Â²Ã›Ãœ
+      ÃŸÃ›Ã›Ã›Ãœ Â²Ã›Ã›Ãœ     ÃœÃœÃ›Ã›Ã›ÃœÃœÃŸ    Â°   Â²Ã›Ã›ÃœÃœÃœÃœÃœÃœÃœÃ›Ã›Ã›Ã›Ã›Ãœ Â° ÃœÃ›Ã›ÃŸÃ›Ã›Ãœ Â° Â²Ã›Ã›Â²  Â°     Ãœ
+ÃœÃ›Ã›Ã›Ã›ÃŸÃŸÃŸÃŸÃŸÃŸ Â²Ã›Ã›Â²  Â²Ã›Ã›Ã›Ã›ÃŸÃ›Â²Â²Â²Ã›  ÃœÃœÃœÃœÃœÃœÂ²Ã›Ã›Â² Â²Ã›Ã›Â²  Â²Ã›Ã›Â²ÃŸ ÃœÃ›Ã›Â²   Â²Ã›Ã›Ãœ Â²Ã›Ã›Â² Â°Â°Â°  ÃœÃ›Â²
+ ÃŸÃŸÃŸÃŸÃŸÃŸÂ²Â²Â²Â²ÃœÃŸÂ²Â²Â²ÃŸÃŸÂ²Â²Â²Ãœ   ÃŸÃŸÃŸ  Ã›Â²Â²Â²ÃŸ  Â²Â²Â²Â² Â²Â²Â²Â²ÃŸÃŸÂ²Â²Â²ÃœÃœ Â²Â²Â²Â² Â° Â²Â²Â²Â² Â²Â²Â²Â² Â°Â°Â° Â²Â²Â²Â²
+Â±Â±Â±Â±Â±  ÃžÂ±Â±Â±Â±Ã›ÃžÂ±Â±  ÃžÂ±Â±Â±Â± Â²Â²Â²Â²Â²ÃžÂ±Â±Â±Â± Â° Â±Â±Â±Â± Â±Â±Â±Â±  ÃžÂ±Â±Â±Â±Ã›ÃœÂ±Â±Â± Â° Â±Â±Â±Â± Â±Â±Â±Â± Â°Â°Â° Â±Â±Â±Â±
+Â°Â°Â°Â°Â° Â° Â°Â°Â°Â°Â°ÃÂ°Â° Â° Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°ÃžÂ°Â°Â°Â° Â° Â°Â°Â°Â° Â°Â°Â°Â° Â° Â°Â°Â°Â°Â°Â°Â°Â°Â° Â° Â°Â°Â°Â° Â°Â°Â°Â°  Ãœ  Â°Â°Â°Â°
+Â±Â±Â±Â±Â± Â° Â±Â±Â±Â±Â±ÃÂ±Â± Â° Â±Â±Â±Â±Â±ÃœÂ±Â±Â±Â±Â±Â±Â±Â±Â± Â° Â±Â±Â±Â± Â±Â±Â±Â± Â° Â±Â±Â±Â±Â±ÃÂ±Â±Â± Â° Â±Â±Â±Â± Â±Â±Â²ÃŸÃœÃ›Ã›Ã›ÃœÃŸÂ²Â±Â±
+ÃžÂ²Â²Â²Â² Â°ÃžÂ²Â²Â²Â²Â²Â²Â²Â² Â°ÃžÂ²Â²Â²Â²Â²ÃÂ²Â²Â²Â²ÃžÂ²Â²Â²Â²Ã  Â²Â²Â²Â² Â²Â²Â²Â² Â°ÃžÂ²Â²Â²Â²Â²Â²Â²Â²Â² Â° Â²Â²Â²Â² Â²Â²Â²Â²Â²ÃŸ ÃŸÂ²Â²Â²Â²Â²
+ ÃŸÃ›Ã›Â² ÃœÃ›Â²Ã›Ã›ÃŸÃœÃ›Ã›ÃŸ  Â²Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›ÃŸ  Â²Ã›Ã›Ã›Â²ÃœÃœÂ²Ã›Ã›Â²ÃœÂ²Ã›ÃŸ   Â²Ã›Ã›Ã›Â² ÃŸÃ›Ã›Â²   Â²Ã›Ã›ÃŸ Â²Ã›Ã›ÃŸ Â° Â° ÃŸÃ›Ã›Â²
+Â°  ÃŸÃœÃ›Ã›ÃŸÃŸ   Ã›ÃŸ   ÃœÃ›Â²Ã›Ã›ÃŸ Ã›ÃŸ  Â°  Ã›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸ   ÃŸ  Â° ÃžÃ›Ã›Â²Ã›Ã Â° ÃŸÃ›Ã›ÃœÃ›Ã›ÃŸ Â° Â²ÃŸ   Â°     ÃŸÃ›
+  ÃœÃŸÃŸ    Â°     ÃœÃ›Ã›Ã›ÃŸÃŸ  Â° ÃŸÃ¾ÃœÃœÃ¾ÃŸ ÃŸÃŸÃ›Ã›Ã›Ã›ÃœÃœÃœÃ¾ÃŸ  Â°  ÃŸÃŸÃ›Ã›Ã›ÃœÃœÃœÃœÃœÃ›Ã›ÃŸ Eboy
+  ÃŸÃœÃœÃ¾ÃŸ     Ã¾ÃŸÃŸ                                     ÃŸÃŸÃŸÃŸÃŸÃŸ
+                          S   K   i   D   R   O   W
+
+ ÃœÃŸ               ->  T H E   L E A D i N G   F O R C E   <      Ã› Ã›         ÃŸÃœ
+ ÃŸÃœ                                                                          ÃœÃŸ
+   ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ ÃŸÃŸÃŸÃŸÃŸ  ÃŸ proudly presents ÃŸ  ÃŸÃŸÃŸÃŸÃŸ ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ
+  Â° Ã›Ã›Ã›Â²Â²Â²Â²Â²Â±Â±Â±Â°Â°         Distant Worlds v1.04 Update         Â°Â°Â±Â±Â±Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã› Â°
+  Â±ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÂ±
+  Â²                                                                           Â²
+  Â²   RELEASE DATE : 06-05-2010            PROTECTION : .Net Reactor + Serial Â²
+  Â²   GAME TYPE    : Strategy              DISKS      : CRACKED UPDATE        Â²
+  Â°                                                                           Â°
+   ÃŸÃ›Â²ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃ›Ã›ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ ÃŸÃŸÃŸ  ÃŸ
+    ÃŸÃ›Ã Release Notes: ÃŸÃ›Ãœ                                               Â° Ã›
+ ÃœÃ¾  ÃžÂ² ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃ›Ã›Ãœ                                             Â± Ã›
+Ã›   ÃœÃ›ÃŸ Ã›                                                                Â² Ã›
+ ÃŸÃŸÃŸ  Â° Ã› The Skid Rowdies are looking new blood to fill up the ranks.   Ã› Ã›
+      Â± Ã› We're a professional team of dedicated sceners with big mark   Ã› Ã›
+      Ã› Ã› under sceners. We believe on the ground idealism of the root   Ã› Ã›
+      Ã› Ã› of the real old school scene. We do all this for fun and       Ã› Ã›
+      Ã› Ã› nothing else. We don't earn anything on our hobby, as we do    Ã› Ã›
+      Ã› Ã› this for the competition and the heart of what got the scene   Ã› Ã›
+      Ã› Ã› started in the mid eighties.                                   Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› If you think you got something to offer, then don't hold back  Ã› Ã›
+      Ã› Ã› on contacting us as soon as possible.                          Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã›  _______  __     ___     _____   /__                          Ã› Ã›
+      Ã› Ã›      / |/ /_/_|         _  / /_ /  /                   Ã› Ã›
+      Ã› Ã›  / /| / / //| |     //_// / / / / / /                   Ã› Ã›
+      Ã› Ã› /   |   /  | |_   / / / /_/ / /// /                    Ã› Ã›
+      Ã› Ã› ____/|_|_\__/|___/ / /_/_/__/_/____/                     Ã› Ã›
+      Ã› Ã›     twice the fun   / double the trouble                      Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„ Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› On with the update release information:                        Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Distant Worlds v1.04 Update                                    Ã› Ã›
+      Ã› Ã› ===========================                                    Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Fourth Official Update                                         Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Please Note - This update does create a new save folder,       Ã› Ã›
+      Ã› Ã› although it will work with previous saves. You need to         Ã› Ã›
+      Ã› Ã› navigate to the previous version save folder to open your      Ã› Ã›
+      Ã› Ã› older saves. We recommend starting a new game in order to get  Ã› Ã›
+      Ã› Ã› the full effect of the changes and improvements, as some will  Ã› Ã›
+      Ã› Ã› not apply to older save files.                                 Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Also, this update may reset the automation settings in your    Ã› Ã›
+      Ã› Ã› Options screen. Please open the Options screen again to adjust Ã› Ã›
+      Ã› Ã› them to your preference. Apologies for any inconvenience.      Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Suggestions on Game Difficulty Settings: It has come to our    Ã› Ã›
+      Ã› Ã› attention that some of the sliders intended to control         Ã› Ã›
+      Ã› Ã› difficulty may not be as intuitive as we had hoped. If you     Ã› Ã›
+      Ã› Ã› want an easier or harder game, please consider adjusting the   Ã› Ã›
+      Ã› Ã› Expansion, Aggressiveness and Home System sliders in your      Ã› Ã›
+      Ã› Ã› galaxy settings when you start a new game. Expansion controls  Ã› Ã›
+      Ã› Ã› the level of development the other AI empires start with,      Ã› Ã›
+      Ã› Ã› Aggressiveness controls how likely they are to forego          Ã› Ã›
+      Ã› Ã› diplomacy and provoke or declare war, Home System plays a huge Ã› Ã›
+      Ã› Ã› role in how wealthy your economy is to begin with. For a       Ã› Ã›
+      Ã› Ã› harder game, try increasing Expansion a step or two (to Young  Ã› Ã›
+      Ã› Ã› or Expanding) and increasing Aggression to Unstable or Chaos,  Ã› Ã›
+      Ã› Ã› along with decreasing your Home System to Trying. For an       Ã› Ã›
+      Ã› Ã› easier game, move each of these in the other direction. We     Ã› Ã›
+      Ã› Ã› recommend trying these out in different combinations to        Ã› Ã›
+      Ã› Ã› determine what works best for you.                             Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Bug Fixes:                                                     Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 1. Races with special tech now have requisite resources at     Ã› Ã›
+      Ã› Ã›    startup to build ships using the special tech               Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 2. Medical and Recreation center components now work at bases  Ã› Ã›
+      Ã› Ã›    other than space ports                                      Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 3. Fixed crash with defeated 'ghost' empires reappearing and   Ã› Ã›
+      Ã› Ã›    'ghost' ships visible in the mini-map                       Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 4. Fixed crash that sometimes occurred when viewing a          Ã› Ã›
+      Ã› Ã›    Construction yard list sorted by some columns               Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 5. Fixed various other minor crashes                           Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 6. Designs for Resupply ships, Colony ships and Construction   Ã› Ã›
+      Ã› Ã›    ships now have size limits, even though built at colony.    Ã› Ã›
+      Ã› Ã›    Size limit is current maximum base construction size. These Ã› Ã›
+      Ã› Ã›    civilian ship designs also have some minimum requirements   Ã› Ã›
+      Ã› Ã›    for the number of certain component types that must be      Ã› Ã›
+      Ã› Ã›    present.                                                    Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 7. Fixed issues with super-luxury resource distribution in     Ã› Ã›
+      Ã› Ã›    small galaxies                                              Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 8. Can no longer retrofit to designs that are bigger than your Ã› Ã›
+      Ã› Ã›    current construction tech allows                            Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 9. Fixed bug where freighters sometime stack up waiting to     Ã› Ã›
+      Ã› Ã›    dock at a space port                                        Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 10. Fixed 'GxBO' crash reported by some players                Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 11. Fixed detached mining station bug                          Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 12. Games will no longer start with ships that you cannot      Ã› Ã›
+      Ã› Ã›     build (i.e. too big)                                       Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 13. Fixed a crash that could be caused when ships reverted to  Ã› Ã›
+      Ã› Ã›     an invalid mission                                         Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 14. AI-generated designs now always use the latest technology  Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 15. Default colony ship designs now come with more engines,    Ã› Ã›
+      Ã› Ã›     making them faster and better able to â€œmeetâ€ the planets   Ã› Ã›
+      Ã› Ã›     they are heading to colonize                               Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 16. Retrofits are now always charged for, regardless of the    Ã› Ã›
+      Ã› Ã›     method used to order them                                  Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 17. The automation AI will no longer cancel retrofit missions  Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 18. Fixed a crash when a single ship was sent to patrol a      Ã› Ã›
+      Ã› Ã›     system                                                     Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 19. Fixed a bug that could cause invisible space monsters      Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 20. Fixed a bug that caused the AI Empires to sometimes not    Ã› Ã›
+      Ã› Ã›     build military ships                                       Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 21. Fixed occasional game freezes during space battles and     Ã› Ã›
+      Ã› Ã›     planetary invasions                                        Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 22. Fixed a bug that could cause two ships in the same         Ã› Ã›
+      Ã› Ã›     location to merge                                          Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 23. Fixed a bug that would not cancel an alliance agreement    Ã› Ã›
+      Ã› Ã›     with a pirate faction when you attack their ships or       Ã› Ã›
+      Ã› Ã›     stations                                                   Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 24. Fixed retrofitting for construction, resupply and colony   Ã› Ã›
+      Ã› Ã›     ships                                                      Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 25. Disabled command and selection popup menus when autosaving Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 26. The Ship Designer now properly resets values for targeting Ã› Ã›
+      Ã› Ã›     and countermeasures when the relevant components are       Ã› Ã›
+      Ã› Ã›     removed                                                    Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 27. Fixed a crash that could happen when editing some planets  Ã› Ã›
+      Ã› Ã›     in the game editor                                         Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 28. Automatically designed Resort Bases no longer include      Ã› Ã›
+      Ã› Ã›     bombard weapons                                            Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 29. The Quameno now properly use their special tech (NovaCore  Ã› Ã›
+      Ã› Ã›     reactor) in their designs                                  Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 30. Government attributes are now properly updated when the    Ã› Ã›
+      Ã› Ã›     government type is changed in the game editor              Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 31. Manually recruited intelligence agents now properly use    Ã› Ã›
+      Ã› Ã›     racial espionage bonuses(reflected in their starting skill Ã› Ã›
+      Ã› Ã›     levels)                                                    Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 32. Fixed messages explaining new racial bonuses when          Ã› Ã›
+      Ã› Ã›     colonizing a new planet. These now only display when a new Ã› Ã›
+      Ã› Ã›     race has joined your empire as a result of the             Ã› Ã›
+      Ã› Ã›     colonization.                                              Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 33. When retrofitting space ports to larger or smaller sizes,  Ã› Ã›
+      Ã› Ã›     the role now properly changes after retrofit (e.g. from    Ã› Ã›
+      Ã› Ã›     medium to large space port)                                Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 34. Mining stations no longer start right next to pirate bases Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 35. Improved the placement of defensive bases around colonies, Ã› Ã›
+      Ã› Ã›     they should no longer be built right next to each other.   Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Game Balance Changes:                                          Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 1. The economy has been overhauled in several respects. It     Ã› Ã›
+      Ã› Ã›    should now scale better and work better than in previous    Ã› Ã›
+      Ã› Ã›    versions. Colony development level now comes half from      Ã› Ã›
+      Ã› Ã›    population (0 at 0 population up to 50 at 500 million) and  Ã› Ã›
+      Ã› Ã›    half from access to luxury resources (50 for 10 luxury      Ã› Ã›
+      Ã› Ã›    resources). Colony income is reduced by local corruption,   Ã› Ã›
+      Ã› Ã›    global empire corruption and corruption caused by distance  Ã› Ã›
+      Ã› Ã›    from the capitol system. The larger and more populated an   Ã› Ã›
+      Ã› Ã›    empire becomes, the greater the overall corruption will be, Ã› Ã›
+      Ã› Ã›    though larger empires should still be more economically     Ã› Ã›
+      Ã› Ã›    powerful than smaller ones. Please also see the notes at    Ã› Ã›
+      Ã› Ã›    the top of this readme for suggestions on how to make the   Ã› Ã›
+      Ã› Ã›    game easier or harder, depending on your preference.        Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 2. Racial bonuses apply in more gradual manner for             Ã› Ã›
+      Ã› Ã›    multi-racial empires - will only get full bonuses if a      Ã› Ã›
+      Ã› Ã›    race comprises at least half your empire's population       Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 3. Rebalanced trade offers so that valuations for tech, bases  Ã› Ã›
+      Ã› Ã›    and colonies much higher. Valuations now also scale quite   Ã› Ã›
+      Ã› Ã›    dramatically based on how much the other empire likes or    Ã› Ã›
+      Ã› Ã›    dislikes you                                                Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 4. Research speed has been halved                              Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 5. Empires now much less likely to colonize in another         Ã› Ã›
+      Ã› Ã›    empire's system                                             Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 6. Your empire's reputation now has less impact on your        Ã› Ã›
+      Ã› Ã›    colonies if the population at the colony is aggressive and  Ã› Ã›
+      Ã› Ã›    unfriendly. In other words, citizens of war-like races      Ã› Ã›
+      Ã› Ã›    aren't so concerned about you having a poor reputation.     Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 7. Positive reputation impact from destroying pirate ships has Ã› Ã›
+      Ã› Ã›    been lowered, but positive reputation impact from           Ã› Ã›
+      Ã› Ã›    destroying pirate bases has been increased.                 Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 8. Ending a war no longer completely resets attitudes, there   Ã› Ã›
+      Ã› Ã›    may be some lingering animosity                             Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 9. Other empires much less likely to accept unfavourable trade Ã› Ã›
+      Ã› Ã›    offers                                                      Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 10. Private ships can now only be armed with a single weapon - Ã› Ã›
+      Ã› Ã›     this armament will not cause any offense when they enter   Ã› Ã›
+      Ã› Ã›     other empire's systems                                     Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 11. Government types have been rebalanced, resulting in less   Ã› Ã›
+      Ã› Ã›     extreme values for corruption and approval                 Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 12. The AI for other empires and for your own automation is    Ã› Ã›
+      Ã› Ã›     now much more careful about what ships and bases it        Ã› Ã›
+      Ã› Ã›     builds, resulting in much better automated management      Ã› Ã›
+      Ã› Ã›     without overspending.                                      Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 13. War weariness now starts lower and increases more          Ã› Ã›
+      Ã› Ã›     gradually                                                  Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Fleet and Ship Management Improvements:                        Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 1. Holding down the Ctrl key while right-clicking to assign a  Ã› Ã›
+      Ã› Ã›    mission now overrides the default mission for the selected  Ã› Ã›
+      Ã› Ã›    ship. This allows you to override the default right-click   Ã› Ã›
+      Ã› Ã›    behaviour and gain access to a comprehensive pop-up menu    Ã› Ã›
+      Ã› Ã›    to select the mission you want, e.g. military ships can     Ã› Ã›
+      Ã› Ã›    refuel at a space port instead of patrolling it, troop      Ã› Ã›
+      Ã› Ã›    transports can refuel at a colony instead of loading troops Ã› Ã›
+      Ã› Ã›    at it                                                       Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 2. Added filtering for ship and base icons at galaxy zoom      Ã› Ã›
+      Ã› Ã›    level - can selectively enable/disable ship types displayed Ã› Ã›
+      Ã› Ã›    at galaxy level. By default civilian ships are turned off   Ã› Ã›
+      Ã› Ã›    at Galaxy zoom level. Please see the Options screen,        Ã› Ã›
+      Ã› Ã›    Advanced Display Options to change this to suit your exact  Ã› Ã›
+      Ã› Ã›    preferences.                                                Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 3. Manually controlled ships will now automatically refuel     Ã› Ã›
+      Ã› Ã›    when low on fuel, and then return to their previous mission Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 4. Manually controlled ships will now automatically repair     Ã› Ã›
+      Ã› Ã›    when damaged, and then return to their previous mission.    Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 5. Manually controlled ships will now automatically engage     Ã› Ã›
+      Ã› Ã›    enemy targets without needing to be manually directed to    Ã› Ã›
+      Ã› Ã›    each target. They will then return to their previous        Ã› Ã›
+      Ã› Ã›    mission, e.g. patrol, escort, etc                           Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 6. Patrol missions now automatically reset, i.e. a manually-   Ã› Ã›
+      Ã› Ã›    controlled ship will stay at a patrol target until you      Ã› Ã›
+      Ã› Ã›    tell it to stop                                             Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 7. Fleets should stay together better than previously          Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 8. Fleets should not cancel their missions when advisors       Ã› Ã›
+      Ã› Ã›    suggest other uses for them                                 Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 9. Fleet system patrolling: select a fleet and right-click a   Ã› Ã›
+      Ã› Ã›    system or star to patrol all of your colonies and bases in  Ã› Ã›
+      Ã› Ã›    the system                                                  Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 10. Fleets are now more responsive and their automatic handing Ã› Ã›
+      Ã› Ã›     of refuel and repair has been improved                     Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 11. It is now possible to assign construction ships to build   Ã› Ã›
+      Ã› Ã›     mining stations at gas clouds from the sector and galaxy-  Ã› Ã›
+      Ã› Ã›     level zoom.                                                Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Ship Design and Retrofitting Improvements:                     Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 1. Added mass retrofit option in Ships and Bases screen.       Ã› Ã›
+      Ã› Ã›    Multi-select ships and bases from the list and click the    Ã› Ã›
+      Ã› Ã›    retrofit button to select the design to retrofit to. The    Ã› Ã›
+      Ã› Ã›    mass retrofit cost for all selected ships and bases is      Ã› Ã›
+      Ã› Ã›    shown and if you cannot afford it you will not be allowed   Ã› Ã›
+      Ã› Ã›    to retrofit.                                                Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 2. Upgrading designs now names them as "Old Design Name Mk2",  Ã› Ã›
+      Ã› Ã›    etc                                                         Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 3. Added new design subroles: energy research station, weapons Ã› Ã›
+      Ã› Ã›    research station, industrial research station, high-tech    Ã› Ã›
+      Ã› Ã›    research station, monitoring station, defensive base. These Ã› Ã›
+      Ã› Ã›    types of bases are no longer AI-designed if you turn off    Ã› Ã›
+      Ã› Ã›    automation for ship design                                  Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 4. Design screen now shows all latest designs (when Show       Ã› Ã›
+      Ã› Ã›    Latest Designs selected), regardless of whether you can     Ã› Ã›
+      Ã› Ã›    build them or not.                                          Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 5. Added maximum weapons energy use to Design screen (top of   Ã› Ã›
+      Ã› Ã›    Weapons panel) so that you can compare reactor power output Ã› Ã›
+      Ã› Ã›    to optimize military designs                                Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 6. Added energy collector to default military ship designs     Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 7. The AI will no longer build ships of a particular type if   Ã› Ã›
+      Ã› Ã›    all designs of that type are marked as obsolete             Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 8. The AI will try to keep design sizes for destroyers and     Ã› Ã›
+      Ã› Ã›    troop transports under the maximum size of your current     Ã› Ã›
+      Ã› Ã›    construction tech                                           Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 9. The AI will now add extra reactors to its designs to make   Ã› Ã›
+      Ã› Ã›    sure the ship has enough energy for maximum effectiveness   Ã› Ã›
+      Ã› Ã›    in combat and movement.                                     Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Other Improvements:                                            Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 1. Expansion Planner now always shows colonization and mining  Ã› Ã›
+      Ã› Ã›    targets, even when they are considered unimportant          Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 2. Expansion Planner now uses the best location to build       Ã› Ã›
+      Ã› Ã›    queued colony ships, which is not necessarily the closest   Ã› Ã›
+      Ã› Ã›    colony                                                      Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 3. Expansion Planner now uses the best construction ship to    Ã› Ã›
+      Ã› Ã›    build queued mining stations, which is not necessarily the  Ã› Ã›
+      Ã› Ã›    closest construction ship                                   Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 4. Slightly fewer surprise attack suggestions from advisors    Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 5. Message added in research progress bar to indicate when     Ã› Ã›
+      Ã› Ã›    you have completed all research in an area                  Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 6. Newly-recruited intelligence agents should automatically    Ã› Ã›
+      Ã› Ã›    start off assigned to counter-intelligence                  Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 7. The multiple race ability popup messages will now only show Ã› Ã›
+      Ã› Ã›    a new race becoming part of your empire once                Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› 8. The Cash flow number showed at the top right of the screen  Ã› Ã›
+      Ã› Ã›    now has the variable elements smoothed out (i.e. Space Port Ã› Ã›
+      Ã› Ã›    and Resort income) which should allow the income trend to   Ã› Ã›
+      Ã› Ã›    match                                                       Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Â°                                                                Ã› Â°
+   ÃŸÃ›Â²ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃ›Ã›ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ ÃŸÃŸÃŸ  ÃŸ
+    ÃŸÃ›Ã Install Notes: ÃŸÃ›Ãœ                                               Â° Ã›
+ ÃœÃ¾  ÃžÂ² ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃ›Ã›Ãœ                                             Â± Ã›
+Ã›   ÃœÃ›ÃŸ Ã›                                                                Â² Ã›
+ ÃŸÃŸÃŸ  Â° Ã› 1. Unpack the included rar files.                              Ã› Ã›
+      Â± Ã› 2. Run Setup.exe and install (type anything you at the serial  Ã› Ã›
+      Ã› Ã›    screen or just press next)                                  Ã› Ã›
+      Ã› Ã› 3. Copy the cracked content from SKIDROW directory to your     Ã› Ã›
+      Ã› Ã›    main installation directory and overwrite.                  Ã› Ã›
+      Ã› Ã› 4. Play the game                                               Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Â°                                                                Ã› Â°
+   ÃŸÃ›Â²ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃ›Ã›ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ ÃŸÃŸÃŸ  ÃŸ
+    ÃŸÃ›Ã Greetings:     ÃŸÃ›Ãœ                                               Â° Ã›
+ ÃœÃ¾  ÃžÂ² ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃ›Ã›Ãœ                                             Â± Ã›
+Ã›   ÃœÃ›ÃŸ Ã›                                                                Â² Ã›
+ ÃŸÃŸÃŸ  Â° Ã› Salutes to our old Amiga friends from:                         Ã› Ã›
+      Â± Ã›                                                                Ã› Ã›
+      Ã› Ã› FAIRLIGHT - RAZOR 1911 - VISION FACTORY - PARADOX - QUARTEX    Ã› Ã›
+      Ã› Ã› DCS - CRYSTAL - ZENITH - ACCESSSION - ALPHA FLIGHT - PRODIGY   Ã› Ã›
+      Ã› Ã› THE COMPANY - LEGEND - TRSI - ORACLE - ANTHROX - CLASSIC       Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› Salutes to our new friends in:                                 Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã› Ã› UNLEASHED - TiNYiSO - BReWErS - RADIKAL - POSTMORTEM - SHOCK   Ã› Ã›
+      Ã› Ã› FAIRLIGHT - CRUDE - VACE - ReUnion - OUTLAWS - GENESIS         Ã› Ã›
+      Ã› Ã›                                                                Ã› Ã›
+      Ã›ÃœÂ°ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃ›ÃœÂ°
+        ÃŸÃŸÃ›Â²Ãœ             Logo and layout by: Eboy/SAE               ÃœÂ²Ã›ÃŸÃŸ
+  ÃœÃŸÃŸÃŸÃ¾Ãœ  ÃžÂ²Â²Ã          Last updated 21/07/2007 by [XXX]            ÃžÂ²Â²Ã  ÃœÃ¾ÃŸÃŸÃœ
+  ÃŸÃœ    ÃŸÃŸÃŸÃŸÃŸ ÃŸ  ÃŸÃŸÃŸ ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸ ÃŸÃŸÃŸ  ÃŸ ÃŸÃŸÃŸÃŸÃŸ   ÃœÃŸ
+    ÃŸ                                                                       ÃŸ

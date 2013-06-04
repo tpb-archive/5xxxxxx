@@ -1,0 +1,76 @@
+Needed to asure gameplay:
+
+* Microsoft Visual C++ 2008 SP1 - Download and install: 32-bit or 64-bit // x64 OS users installthem both to be sure, as the game is x32 program (left4dead2.exe *32)
+* Microsoft's .net Framework 3.5 - Download and install .net 3.5
+
+I. Install Left 4 Dead 2:
+
+* Extract the files from <l4d2_clean_2.0.0.0> Dir. using 7zip (winrar was reported to record errors). I recomend this and no other installer since the clean 2.0 was the only one working for me (tested several clients and all failed)
+
+II. Update Left 4 Dead 2:
+
+* Update L4D2 to the latest version using the update installers:
+  1. Install <L4D2_Full_Update_2013_The_Passing> //The Update will update the client to v2.0.1.3
+  2. Install <L4D2_Update_2013_to_2014>  //The Update will update the client to v2.0.1.4
+
+III. Install Add-on Support:
+
+Add-on Support Package will allow you to  run any custom map,
+including the ones released for original L4D.
+* 1.Instal <L4D2 Addon Support>
+* 2.Instal <L4D2_Addon_Update_feb5>
+
+
+After, and only after, doing exactly those steps as i described them:
+*PATCH THE GAME WITH <L4D2_RevEmu_for_v2014>
+
+
+IV. Patch Game with Rev-Emu:
+
+* Install Latest Rev-Emu Installer which includes left4dead2.exe and Setti masterserver.vdf.(MEANING <L4D2_RevEmu_for_v2014> ). Install to your Left 4 Dead 2 Installation Folder and choose which fix to use (either RevEmu or RevExe).
+* Edit rev.ini with notepad to change your name. (SteamUser=YourName and PlayerName=YourName)
+* Edit rev.ini depending on how you would like to play:
+	- For playing single player via the main menu:
+	Edit rev.ini with notepad and comment out the ClientDLL line with a # like this:
+	#ClientDLL=steamclient_l4d2.dll
+	- For playing online and enable serverbrowser and SteamGroupServer on main menu:
+	Edit rev.ini with notepad and confirm the ClientDLL line is not commented out:
+	ClientDLL=steamclient_l4d2.dll
+	
+Go into your Left 4 Deadbinconfig folder and make sure Masterserver.vdf is set to Read-Only. The latest RevEmu installer will set this to read-only for you.
+
+* Use openserverbrowser in console to open the server browser.
+Setti servers will now show up in the custom tab of the server browser.
+Favorites tab doesn't work - Don't use it - it will crash your game
+SETTI Steam Group Servers will be available via the Main Menu for quick connection to servers!!
+
+V. Play by executing Left4Dead2.exe:
+
+* The latest Rev-Emu installer will create a desktop icon for you.
+
+
+NOTE:
+	If you previously used Stryder Loader and wish to move to the New Rev-Emu:
+	1-Remove Stryder Loader: delete stryder.dll, stryder.ini, stryder.txt, IniGen.exe from root 	folder and remove Name Enabler Addon.
+	2-Install repacked update with new patched client.dll.
+	3-Install latest rev-emu.
+
+For further details & help read: 
+http://blog.theevilpc.com/2009/11/how-to-update-and-play-left-4-dead-2-no.html
+
+
+Enjoy the game!
+
+PS:
+If you fallowed all this steps, exactly as i described them and the game doesn't work, you've donne something wrong. I tested this on <Win XP Pro SP3 x86> and <Win 7 Ultimate x64>
+
+
+NOTE!!!
+
+!!! Updated to 2.0.1.5 and it works great, you only need L4D2_Update_2014_to_2015 from the site 
+http://blog.theevilpc.com/2009/11/how-to-update-and-play-left-4-dead-2-no.html
+
+
+
+
+G3N0â„¢ salutes you.

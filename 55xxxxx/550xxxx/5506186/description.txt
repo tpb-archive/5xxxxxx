@@ -1,0 +1,53 @@
+GTA Grand Theft Auto Episodes from Liberty City-RELOADED
+
+Grand Theft Auto: Episodes from Liberty City (c) Take 2 Interactive
+RELEASE.DATE....: 04/2010
+PROTECTION ....: Securom + Custom
+DISC(S).....: 1
+GAME.TYPE ........: Action, Crime
+
+
+We would like to explain why our recent Solidshield cracks are not using any
+kind of emulator, workaround or protection bypass. As it seems, crackers of
+a couple of groups failed to reverse-engineer or understand this awesome
+piece of work! To give a quick overview of how we managed to defeat this
+protection:
+* Created a set of tools which decompiled the solidshield vm into a set of
+raw x86 programs (including all stolen functions)
+* Stripped all calls to TAGES from those functions and compiled them into
+x86 blocks (with relocation info included).
+* Created our own "dvm.dll" library, which decrypts those precompiled and
+fully reversed stolen functions (they are added as overlay data in the dll),
+moves them to alloced buffers, fixes relocations and adds E9 jmps from all
+of the protected modules to point to them.
+That's it! Was it really so hard to check this? We had some mild respect
+to your crackers, but hey - it's all gone now.
+
+
+Game info:
+
+Grand Theft Auto: Episodes from Liberty City includes two complete games -
+The Lost and Damned & The Ballad of Gay Tony - together on disc for
+PlayStation 3 computer entertainment system and Games for Windows. In The
+Lost and Damned, experience Liberty City as Johnny, a veteran member of The
+Lost, a notorious biker gang. Johnny has been creating business
+opportunities for The Lost in Liberty City but his first loyalty must be to
+the patch he wears on his back and to Billy Grey, the club's President.
+However, when Billy returns from rehab hell-bent on bloodshed and debauchery,
+Johnny finds himself in the middle of a vicious turf war with rival gangs
+for control of a city torn apart by violence and corruption. Can the
+brotherhood survive? The Ballad of Gay Tony injects Liberty City with an
+overdose of guns, glitz, and grime. As Luis Lopez, part-time hoodlum and
+full-time assistant to legendary nightclub impresario Tony Prince (a.k.a.
+"Gay Tony"), players will struggle with the competing loyalties of family
+and friends, and with the uncertainty about who is real and who is fake in
+a world in which everyone has a price.
+
+
+1. Unrar.
+2. Burn or mount the image.
+3. Install the game.
+4. Run the included update to update your game to version 1.1.1.0.
+5. Copy over the cracked content.
+6. Play the game by starting LaunchEFLCc.exe.
+7. Support the software developers. If you like this game, BUY IT!

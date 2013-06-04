@@ -1,0 +1,64 @@
+User Type,Username,Date,Text
+,stalker2755,2010-08-27T13:05Z,"Serial not working... don't bother with it.
+
+Proof: make an udf image with some files with a program like ultraiso, install isobuster, register, close it and restart it, try to unpack the files in the udf image, the nice message to greet you: for this functionality you need to register"
+,vlad145,2010-08-28T16:02Z,many thanks for the uploader! It really worked for me!!!
+,eZuck,2010-08-29T02:01Z,niZe! ^_^
+,Mystik_Systems,2010-09-24T12:36Z,"work perfect :) Thankx hellboy :)
+i download the setup from official site and use your register info :) now i got v2.8 Pro :)"
+,lonmohr,2010-09-30T07:32Z,"Works fine, thanks."
+,lonmohr,2010-10-01T05:23Z,Oops! Stopped working. It says it's registered but refuses to do functions that require registration.
+,Kiweed,2010-10-17T22:16Z,WTF i registered and that went fine but it just closes when i try to extrac iso files now and after uninstall and then reinstall its still registered and wont work!!!! before i used this reg code it was better but now i cant get the free version WTF how do i fix this??? hellboy or someone plz help me this is shit!!!
+,metalmshreves,2010-11-04T08:32Z,it works fine. no problems...
+,dario7000,2011-03-10T09:03Z,"For all that made the mistake of register before running, this is the solution...
+
+Make sure IsoBuster is not running.
+
+click on bottom left windows icon -> Run...
+
+next to ""Open:"" type -> regedit
+
+On regedit window, click on Computer -> HKEY_CURRENT_USER -> Software -> Smart Projects -> IsoBuster
+
+scroll down and highlight (shift-leftclick) from ID to ID26 then press delete to remove them
+
+close regedit...don't need it anymore.
+
+Register again -"
+,Michel.18,2011-04-01T11:21Z,Registration problem... Not works...
+,Michel.18,2011-04-02T03:58Z,100% Sure... Not Working... Try Some Other...
+,Michel.18,2011-04-02T03:59Z,hellboy must see to it...
+,B.Genaaid,2011-05-09T12:47Z,"same here, tried everything.
+Firewall option is not working because the programm keeps wanting to verify online, as long as it did not do that, it will cease to work.
+
+To be clear, it worked for me 2  times and then stopped. now it does not do anything anymore.
+
+This programm needs a real crack"
+,B.Genaaid,2011-05-10T18:56Z,"If you want a working version, try the next one, I tried it, ran it from USB flashdrive (20Mb/s) and filled in the first key and it worked with the first DVD like a charm. (only a little slower reacting)
+
+do not use the install, just the stand alone app. and one of the keys.
+
+PS my PC is still a stand alone not to the Internet connected PC, the same as where I tried this torrents one as I stated here in a previous post. only before using the linked torrent, I reverted with system restore to a point before the first try of this faulty torrent of isobuster.
+
+Good luck to you all
+
+
+
+http://thepiratebay.org/torrent/5568931/IsoBuster_2.8_Final_Portable"
+,Telling_the_Truth,2011-06-12T07:32Z,"LISTEN UP EVERYONE who downloads this or another similar torrent of IsoBuster!
+
+This software WORKS!
+
+You JUST need to follow the instruction above which is given by ""DARIO7000"". Locate all the file names that start with ""ID"" and delete it. You should see that group (it starts with ID and ends with ID26) in the ""I"" alphabetical order.
+
+Thanks to his guide, i finally got the damn thing working...and recovered my otherwise unreadable Imation CD-R which is only a year old..dang it!"
+,12uel,2011-07-08T19:00Z,"For all of us who are getting frustrated about this ""functionality"" message, I recommend try using PowerISO instead. I tried it on my 9-yr-old unreadable CD-RW disc that contained pictures, music and some Word files, and it read and extracted those files without a problem. Good luck. "
+,BoonesFerry,2012-03-16T22:01Z,"DOES NOT WORK
+It worked one time only.
+Close program then re-lauch program and does not work. 
+Of course I followed the install directions correctly. 
+I even blocked ALL network traffic before installing, kept it blocked during the registration, and while running the app. 
+As suggested by another user, I closed the app, I deleted the registry keys, then open the app and reregistered...still does not work. 
+I uninstalled the app and deleted ALL isobuster keys and the 'smart projects' tree from the registry. I rebooted and checked the registry. 
+I then went through all of the steps as before, still does not work.  
+DO NOT WASTE YOUR TIME WITH THIS TORRENT...OR ANY OF THE OTHERS' BECAUSE ONCE YOU INSTALL AND USE ONCE, NONE OF THESE OTHER VERSIONS/TORRENTS WILL WORK. NONE!!!"

@@ -1,0 +1,15 @@
+5-3-2010
+
+Voltare's installation pack for i<3cabbage's amazing inept Adobe DRM removal scripts.  These scripts work only for ePub and PDF documents encrypted with Adobe DRM.  I suspect this will be helpful, with the advent of Apple's epub reader iBooks for iPad and iPhone.
+
+First, this is a free distribution.  There's NO warrenty.  No promises.  Use at your own risk.
+
+This package installs Python 2.6.0, pycrypto-2.1.0.win32-py2.6, Adobe Digital Editions 1.7.2, and ineptpdf 7.4, ineptepub 4.1, and ineptkey 4.4.  The uninstaller only removes the inept scripts; you'll need to use the control panel to remove Python and Adobe DE if you wish.
+
+During the installation, the installer will offer to install Adobe Digital Editions.  If you already have ADE, you may skip this phase.  If you don't have it, you'll need to install, and then activate (a local, anonymous 'this computer only' activation is fine.) Afterwards, you may continue to install the scripts, at which time ineptkey will attempt to strip the DRM key from your machine.
+
+After installation, you'll simply need to run the ineptepub (for epubs) or ineptpdf (for pdfs) link from your desktop or start menu.  The certificate file should already be found, simply navigate to the directory of the file you wish to decrypt, and indicate which directory you'd like it to end up.
+
+
+ 
+http://www.virustotal.com/analisis/ef0b6e35061eff8f5c859042a06d79b802ace1c49de91c172e16baf93b446608-1273007181

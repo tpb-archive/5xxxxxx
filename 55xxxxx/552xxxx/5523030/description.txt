@@ -1,0 +1,52 @@
+DOCman 1.5.7 FULL + Upgrade from 1.5.x to 1.5.7
+
+DOCman is a document management solution for Joomla. DOCman makes offering downloadable documents on your Joomla site a breeze.
+
+Manage documents across multiple categories and subcategories, give users permission to upload, download or edit documents. Store documents either locally or remotely and prevent direct linking using our build-in anti-leech system. All from within an intuitive and simple to use administration interface.
+
+
+Main features:
+
+* Nested categories. Documents can be organized across infinite categories and subcategories.
+
+* Custom Groups. Documents can be owned by a specific registered user, a groups of registered users, all registered users or everybody.
+
+* Powerful Permission System. Easily set default guest, frontend and document and creator permissions and fine-tuned permission on a document level. DOCman's permissions system gives you full control over who can access, edit, manage and download documents.
+
+* Remote or Local Storage. Files can either be hosted locally or you can easily link to files stored on a remote server.
+
+* Statistics. You can display a download counter per document. All downloads are also being logged (by user, IP, browser, date and hour) to give you full overview of what is happening with your documents.
+
+* Integrated Search System. Documents can be searched by name and/or description. The search system integrates with Joomla! using an optional Plugin.
+
+* Security. The built-in anti-leech system avoids direct linking to documents. Real paths to documents are never displayed to users.
+
+* Flexible Themes. Change the look and feel of your documents repository using our flexible themeing system. Easily create your own themes to match the look and feel of you site.
+
+
+------- Changelog -------
+Release 1.5.7 | 30 april 2010
+
+* Fixed "Call to undefined function apache_setenv" on IIS
+
+
+Release 1.5.6 | 30 april 2010
+
+* Fixed #194 Background gradient on dark templates can be set in theme config
+* Fixed #170 Document table headers not sorting
+* Fixed #189 Local Name setting while transfer file is now required in backend
+* Fixed #169 Re-added, cleaned up, fixed email group feature
+* Fixed #209 Smarter filtering for files in backend
+* Fixed #107 Installation with FTP layer
+* Fixed #192 Batch upload relative path
+* Fixed #182 Couldn't delete filenames with quotes
+* Fixed #167 DOCman license not using JRoute class
+* Fixed #183 Downloading with IE7/8
+* Fixed: Wrong div class in latest down module
+
+
+------- System Requirements -------
+
+1. Joomla 1.5.x (recommended 1.5.15 or later). 
+2. PHP 5.2.x or higher
+3. Database: MySQL 4.1 or higher

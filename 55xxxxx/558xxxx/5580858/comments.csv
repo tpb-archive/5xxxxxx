@@ -1,0 +1,71 @@
+User Type,Username,Date,Text
+[T],480v,2010-05-22T14:54Z,"@ TheExecutive
+
+I just wanted to help you find a way to merge mp3 files if you're still looking. I also left a reply on the May 19 RR upload. Didn't want to double post again. It's a drag you can't edit your comments on TPB.
+
+I didn't know you were a mac user...unfortunately you don't have a lot of free options. Besides switching to a less constrained system, your only choice really is Audacity. The problem with Audacity is, it doesn't merge mp3 files natively. It has to re-encode the files to make one new file instead of just joining them untouched. But it doesn't sound bad at all. Also, the instructions isn't very straight forward which makes the whole process a little difficult to figure out. But I'll try to explain what to do. I'm used to Windows version, but I don't think there's a difference.
+
+
+Follow these steps::
+
+1. Install ""Audacity"". Download link & instructions for Mac. http://audacity.sourceforge.net/download/mac
+
+2. Install ""LAME MP3 Encoder"" for ""Mac OS 9 or X"". Download link & instructions  http://audacity.sourceforge.net/help/faq?s=install&item=lame-mp3
+
+3. Start Audacity. From the pull down Edit menu, click ""Preferences"". Then click the ""File Formats"" tab & change the ""Bit Rate"" option to 32 in ""MP3 Export Setup"". Then click the ""Find Library"" tab & locate ""libmp3lame.dylib"" or ""LameLib"". This is the LAME MP3 Encoder you just installed. click OK & close pref window.
+
+4. In the pull down Project menu, click ""Import Audio"" & locate 1st file of the MP3 set you will install. Repeat for each subsequent MP3 files. Note: expand Audacity's window vertically so you're able to see all mp3 track waveforms.   
+
+5. Select the bottommost mp3 track by clicking on its label (the area that has the mute/solo buttons). Just click this area, not the buttons, make sure it changes color. Here's an example. http://img208.imageshack.us/img208/4614/labelselection.png
+
+6. Now From the Edit menu, click ?Find Zero Crossings?. Then click ""Cut"" from the same edit menu.
+
+7. Now place your cursor at the end of the MP3 track directly above the one you just cut and click it. http://img139.imageshack.us/img139/9239/step6.png
+
+8. From the pull down Edit menu click ""Paste"". This should attach the last mp3 to the end of the mp3 before it. Repeat steps 5 to 8 for remainder files. 
+
+9. When all the files have been merged, click the ""Export As MP3"" command from the pull down File menu. Make sure it saves as a 32 kbps MP3 because the source were 32k to begin with. Thats it
+
+Good Luck..If you have any questions, just post it here or on the ""Randi Rhodes Show - May 19 2010"" upload by sonews. I'm sure he/she won't mind."
+[T],480v,2010-05-22T14:58Z,"@ TheExecutive
+
+I just wanted to help you find a way to merge mp3 files if you're still looking. I also left a reply on the May 19 RR upload. Didn't want to double post again. It's a drag you can't edit your own comments on tpb.
+
+Unfortunately, as a mac user, you don't have a lot of free options. Besides switching to a less constrained system, your only choice really is Audacity. The thing about Audacity is, it doesn't merge mp3 files natively. It has to re-encode the files to make one new file instead of just joining them untouched. But it doesn't sound bad at all. The instructions isn't very straight forward which makes the whole process a little difficult to figure out. But I'll try to explain what to do. I've used the Win vers., but I don't think there's a difference.
+
+1. Install ""Audacity"". Download link & instructions for Mac. http://audacity.sourceforge.net/download/mac
+
+2. Install ""LAME MP3 Encoder"" for ""Mac OS 9 or X"". Download link & instructions  http://audacity.sourceforge.net/help/faq?s=install&item=lame-mp3
+
+3. Start Audacity. From the pull down Edit menu, click ""Preferences"". Then click the ""File Formats"" tab & change the ""Bit Rate"" option to 32 in ""MP3 Export Setup"". Then click the ""Find Library"" tab & locate ""libmp3lame.dylib"" or ""LameLib"". This is the LAME MP3 Encoder you just installed. click OK & close pref window.
+
+4. In the pull down Project menu, click ""Import Audio"" & locate 1st file of the MP3 set you will install. Repeat for each subsequent MP3 files. Note: expand Audacity's window vertically so you're able to see all mp3 track waveforms.   
+
+5. Select the bottommost mp3 track by clicking on its label (the area that has the mute/solo buttons). Just click this area, not the buttons, make sure it changes color. Here's an example. http://img208.imageshack.us/img208/4614/labelselection.png
+
+6. Now From the Edit menu, click ?Find Zero Crossings?. Then click ""Cut"" from the same edit menu.
+
+7. Now place your cursor at the end of the MP3 track directly above the one you just cut and click it. http://img139.imageshack.us/img139/9239/step6.png
+
+8. From the pull down Edit menu click ""Paste"". This should attach the last mp3 to the end of the mp3 before it. Repeat steps 5 to 8 for remainder files. 
+
+9. When all the files have been merged, click the ""Export As MP3"" command from the pull down File menu. Make sure it saves as a 32 kbps MP3 because the source were 32k to begin with. Thats it
+
+Good Luck..If you have any questions, just post it here or on the ""Randi Rhodes Show - May 19 2010"" upload by sonews. I'm sure he/she won't mind."
+[T],480v,2010-05-22T14:59Z,Damnit!!!! sorry for the double post....
+[V],TheExecutive,2010-05-22T16:32Z,"Are you a fan of The Virginian too, 480v,
+or actor James MacArthuir?
+
+I replied to you in the Randi Rhodes 
+torrentabout Audacity and why it won't 
+work for me.
+
+It's a horrible piece of software (at least 
+the Mac version of it).
+
+Anyway thanks for your advice.
+
+Now feel free to enjoy The Virginian.
+
+Book 'em,  480v !!"
+,CAWS03,2010-11-21T17:25Z,Could someone Seed this?  I have 90% of it.

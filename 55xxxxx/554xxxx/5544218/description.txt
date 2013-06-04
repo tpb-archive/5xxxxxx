@@ -1,0 +1,313 @@
+RabooXP Lite 10.05.06
+
+RabooXP Lite Ã¤r en "Unattended" Installation av Windows XP Professional Student Edition SP3 med nÃ¥gra vardagliga program som installeras automatiskt.
+Flera "Tweaks" har gjort fÃ¶r att fÃ¥ bÃ¤ttre prestanda och stabilitet samt fÃ¶r att slÃ¥ av en massa onyttiga/oanvÃ¤nda funktioner i Windows XP.
+
+RabooXP Ã¤r byggd pÃ¥ Microsoft.Windows.XP.Professional.Student.Edition.SP3.Integrated.SWEDiSH-ETH0 
+och inkluderar uppdateringar till dagens datum 2010-05-06.
+Student Edition valdes fÃ¶r att Windows XP inte behÃ¶ver aktiveras.
+
+Med Unattended menas att visa Ã¤ndringar gjorts i installationsprocessen fÃ¶r att minska anvÃ¤ndarinteraktionen under installationen.
+I det hÃ¤r fallet sÃ¥ vÃ¤ljer man paritition och dÃ¤refter Namn & Organisation, Datornamn och AdministratÃ¶rskontots lÃ¶senord, vÃ¤ljs inget lÃ¶senord blir det utan lÃ¶senord.
+
+Det som skiljer "RabooXP" och "RabooXP Lite" Ã¤r att i "Lite" sÃ¥ finns det inga extra Drivrutinspaket och att "Lite" fÃ¥r plats pÃ¥ en CD-ROM skiva fÃ¶r vissa gamla datorer som inte har DVD-lÃ¤sare.
+
+
+
+Detaljerat InnehÃ¥ll:
+--------------------
+
+* InstÃ¤llningar:
+................
+NÃ¤tverk: DHCP
+Arbetsgrupp: WORKGROUP
+Tangentbord: Svenskt
+Tema: Windows Klassisk
+
+
+* Operativsystem tillÃ¤gg:
+.........................
+MGA Crack v6.0 (Windows Genuine Advantage)
+Windows Media Player 11
+.NET Framework 1.1
+.NET Framework 2.0 SP1
+Mass Storage Drivrutiner (Drivrutiner till SATA, SAS & SCSI vid installationen)
+
+
+* Program installerade:
+.......................
+XP Powertoys Image Resizer v1.2
+CD burner XP v4.3.2.2140
+FFDShow 20100504 SSE
+Mozilla Firefox v3.6.3 Svenskt
+Flash Player v10.0.45.2
+Java 6 Update 20
+KMPlayer v2.9.3 build 1428
+QT Lite v3.22
+Real Alternative v2.02
+7-zip v9.13 beta
+PDF X-Change Viewer v2.050
+
+
+* Kataloger borttagna:
+......................
+I386/LANG
+I386/WIN9XMIG
+I386/WIN9XUPG
+I386/WMP9L
+I386/WMP9NL
+I386/WMP10
+DOCS
+ETH0
+SUPPORT
+VAlUEADD
+
+
+* Komponenter borttagna:
+........................
+Multimedia
+  Music Samples
+Network
+  MSN Explorer
+Operating System Options
+  .Net Framework
+  Blaster/Nachi removal tool
+  Desktop Cleanup Wizard
+  DR Watson
+  Symbolic Debugger
+  Tour
+
+
+* Patches:
+..........
+TCP/IP Patch: 100 simultana halvÃ¶ppna anslutningar
+Uxtheme patch (stÃ¶d fÃ¶r osignerade teman)
+SFC (Windows File Protection): AvstÃ¤ngt (snabbar upp installationen och operativsystemet)
+
+
+* Tweaks:
+.........
+Desktop
+  Internet Explorer Icon - show
+  My Computer icon - show
+  My Documents icon - show
+  Recycle Bin icon - show
+Explorer
+  Disable Prefix: Shortcut to
+  Show extensions of known file-types
+  Show Statusbar in all windows
+  Show the full path in the Address Bar
+Internet Explorer
+  Disable Market Place bookmark
+  Enable Google URL-Search (ex. "g aftonbladet" i adressfÃ¤ltet)
+  Keep IE URL-History for - 50 Days
+  Set Homepage - www.google.com
+  Set Internet Explorer to accept 10 connections at a time
+Performance
+  Processor scheduling - Programs
+  Speed-up Access to AVI MEdia Files
+Privacy
+  Disable Error Reporting
+  Remove Alexia (Samlar dina surfingvanor)
+Start Menu
+  Disable Highlight newly installed programs
+  Remove Help and Support
+  Remove Search the Internet from Search
+Windows Media Player
+  Accept Privacy Statement
+  Disable MRU (historik)
+  Disable starting with Media Guide
+
+* Services:
+...........
+ Alerter - Disabled
+ Application Layer Gateway Service - Manual
+ Background Intelligent Transfer Service (BITS) - Manual
+ ClipBook - Disabled
+ COM+ Event System - Manual
+ COM+ System Application - Manual
+ Error Reporting Service - Disabled
+ Help and Support - Disabled
+ IMAPI CD-Burning COM Service - Disabled
+ Logical Disk Manager - Manual
+ Logical Disk MAnager Administrative Service - Manual
+ Messenger - Disabled
+ MS Software Shadow Copy Provider - Manual
+ NetMeeting Remote Desktop Sharing - Disabled
+ Network DDE - Disabled
+ Network DDE DSDM - Disabled
+ NT LM Security Support Provider - Disabled
+ Performance Logs and Alerts - Disabled
+ QoS RSVP - Disabled
+ Remote Procedure Call (RPC) Locator - Disabled
+ Remote Registry - Disabled
+ Telnet Disabled
+ WebClient - Manual
+
+
+* Updateringar installerade:
+............................
+KB898461
+kb942763 
+kb923789
+KB941569
+
+kb950759
+kb950762
+kb951376
+kb951698
+kb951978
+kb951748
+kb950760
+kb941569
+KB929399-v2
+KB936782
+KB939683
+KB954154
+KB938464
+KB946648
+KB950974
+KB951066
+KB951072-v2
+KB952287
+KB952954
+KB953838
+KB953839
+kb958644
+kb956841
+kb957095
+kb956390
+kb954211
+kb956391
+kb956803
+KB943729
+
+KB923561
+KB952004
+KB952069
+KB954155
+KB954459
+KB955069
+KB955759
+KB956572
+KB956744
+KB956802
+KB956844
+KB958869
+KB959426
+KB960225
+KB960803
+KB960859
+KB961501
+KB967715
+KB968389
+KB968816
+KB969059
+KB969947
+KB970238
+KB970430
+KB971468
+KB971657
+KB971737
+KB971961
+KB972270
+KB973354
+KB973507
+KB973540
+KB973687
+KB973815
+KB973869
+KB973904
+KB974112
+KB974318
+KB974392
+KB974571
+KB975025
+KB975467
+KB975560
+KB975561
+KB975713
+KB977816
+KB977914
+KB978037
+KB978262
+KB978338
+KB978601
+KB978706
+KB979306
+KB979309
+KB979683
+KB980182
+KB980232
+KB981349
+
+
+
+Ã„ndringar (Changelog)
+---------------------
+
+
+8.11.11.1 --> 10.05.06:
+.......................
+
+* Program borttagna:
+ESET NOD32 AntiVirus 3.0.667
+ESET Anti-virus Marsu Fix 2.5
+Office 2003 SP3 Svensk
+Acrobat Reader v8.11
+KMPlayer v2.9.3 build 1428 
+Winamp v5.5
+Winamp v5.5 SprÃ¥k tillÃ¤gg
+WinRAR v3.71
+
+* Program tillagda:
+7-zip 9.13 beta (ersÃ¤tter WinRar)
+PDF X-Change Viewer 2.050 (ErsÃ¤tter Adobe Reader lite)
+
+* Program uppdaterade:
+CD burner XP v4.2.3.1062 -> v4.3.2.2140
+FFDShow 20081026 SSE -> 20100504
+Mozilla Firefox v3.0.3 Svenskt -> v3.6.3
+Java 6 Update 4 -> j6u20
+Quicktime Alternative v2.60 --> QT Lite 3.22
+Real Alternative v1.82 -> v2.02
+Flash Player --> v10.0.45.2
+
+* Tweaks:
+TCP/IP Patch: 50 simultana halvÃ¶ppna anslutningar -> 100 halvÃ¶ppna anslutningar
+MGA Crack v6.0 (Windows Genuine Advantage)
+
+* Windows uppdateringar tills 5:e maj 2010.
+
+
+
+8.10.31.1 --> 8.11.11.1:
+........................
+
+Fixade 3 fel som orsakade att fÃ¶ljande program inte installerades automatiskt, Office 2003, Real Alternativ och Acrobat Reader.
+
+
+
+8.06.02.1 --> 8.10.31.1:
+........................
+
+* Bytt kÃ¤llan pÃ¥ Windows fÃ¶r att slippa hÃ¥lla pÃ¥ att cracka Windows Genuine Advantage Validation(WGA), dvs valideringen vid windows update.
+Microsoft.Windows.XP.Professional.Corporate.SP3.Integrated.SWEDiSH-ETH0 --> Microsoft.Windows.XP.Professional.Student.Edition.SP3.Integrated.SWEDiSH-ETH0
+
+* Fixat en del felskrivningar i Info filen.
+
+* Reshackat setup.exe sÃ¥ att det ska fungera bÃ¤ttre att installera direkt frÃ¥n Windows (dÃ¤remot har jag inte testat att gÃ¶ra det).
+
+* Program uppdaterade:
+CD burner XP v4.0.024.439 --> 4.2.3.1062
+ESET NOD32 Antivirus v2.7 --> 3.0.667
+nsane NOD32 FiX v2.2 --> Marsu Fix 2.5
+Office 2003 SP2 Hotfixes 20060731 Svensk --> Office 2003 SP3 Svensk
+FFDShow 20080523 --> 20081026
+Mozilla Firefox v2.0.0.14 Svensk --> 3.0.3
+Flash  Player updaterad
+Quicktime Alternative v2.51 --> v2.60
+Real Alternative Lite v1.75 --> v1.82
+.NET Framework 2.0 --> 2.0 sp1
+
+* Windows uppdateringar tills 31 oktober.

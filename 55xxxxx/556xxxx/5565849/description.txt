@@ -1,0 +1,23 @@
+Naruto Shippuuden: Ultimate Ninja Heroes 3
+
+Requirements: custom firmware 5.XX (e.g. 5.00 M33, 5.03 GEN, 5.50 GEN)
+
+Tested on PSP-1000 (5.50 GEN-D3) and PSP-2000 (5.50 GEN-D3) - both working fine.
+
+Instructions:
+
+1) In case you are already using plugins, just paste this: "ms0:/KHBBS/KHBBS_patch.prx 1" (without quotation marks) into your seplugins/game.txt. Otherwise just copy "seplugins" folder from this release to the root directory of your Memory Stick.
+
+2) Copy "KHBBS" folder to the root directory of your Memory Stick.
+
+3) Put NSUNH3.iso into ISO directory on your Memory Stick.
+
+4) Power-off your console (by holding power switch upwards for a couple of seconds), so the new installed plugin can be used. Then turn it on. Now you're ready to go!
+
+If for some reason game refuses to launch reboot to your Recovery Menu, go over the 'Plugins' section and make sure KHBBS.prx is Enabled at [GAME] section.
+
+And remember these files are for the custom firmwares ONLY!
+
+Confused about the game? Check out GameFAQs.com for help.
+
+Enjoy & Have fun! :)

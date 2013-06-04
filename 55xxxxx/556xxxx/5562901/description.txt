@@ -1,0 +1,70 @@
+Updates:
+
+Left 4 Dead 2 Patch From v2.0.1.5 / v2.0.1.6 / v2.0.1.7 / v2.0.1.8 / v2.0.1.9 / v2.0.2.0 / v2.0.2.1 TO v2.0.2.2 
+http://thepiratebay.org/torrent/5623703/Left_4_Dead_2_Update_v2.0.2.2_%28Cracked_For_Online_Game_Play%29
+
+
+
+Left 4 Dead 2 Patch From v2.0.1.5 / v2.0.1.6 / v2.0.1.7 / v2.0.1.8 / v2.0.1.9 / v2.0.2.0 / v2.0.2.1 / v2.0.2.2 TO v2.0.2.3 
+http://thepiratebay.org/torrent/5639668/Left_4_Dead_2_Update_v2.0.2.3_%28Cracked_For_Online_Game_Play%29
+
+
+
+
+Left 4 Dead 2 Patch From v2.0.1.5 / v2.0.1.6 / v2.0.1.7 to v2.0.1.8
+
+
+
+***********************************************************************************
+
+info:
+
+Open Rev.INI to change name also if you want to play in single player comment  
+
+ClientDLL=steamclient_l4d2.dll   -> MultiPlayer
+#ClientDLL=steamclient_l4d2.dll -> single player
+
+Xfire:
+
+Open xfire_games.ini file.
+
+"C:  Program Files (x86)  Xfire"  -> 64Bit
+"C:  Program Files  Xfire "   -> 32Bit
+Open xfire_games.ini with notepad.
+Press "Ctrl" + "F" on your KeyBoard  Find Left 4 Dead 2.
+
+[6003]
+LongName=Left 4 Dead 2
+ShortName=l4d2
+LauncherDirKey=HKEY_LOCAL_MACHINE  SOFTWARE  Valve  Steam  InstallPath
+LauncherExe=steam.exe
+DetectExe=SteamApps  *  left 4 dead 2  left4dead2.exe
+LauncherNetworkArgs=+connect %UA_GAME_HOST_NAME%:%UA_GAME_HOST_PORT%
+Launch=%UA_LAUNCHER_EXE_PATH% -applaunch 550 %UA_LAUNCHER_EXTRA_ARGS% %UA_LAUNCHER_NETWORK_ARGS%
+ServerStatusType=SOURCE
+ServerGameName=Left 4 Dead 2
+ServerEncodingType=UTF8
+InGameRenderer=D3D9
+InGameFlags=ENABLE_MOUSE|USE_DINPUT_MOUSE
+
+
+Edit
+
+LauncherDirKey=HKEY_LOCAL_MACHINE  SOFTWARE  Left 4 Dead 2
+LauncherExe=left4dead2.exe
+DetectExe=left4dead2.exe 
+
+
+Save and Exit notepad. Restart Xfire.
+
+Next, add L4D2 to the Xfire detected games list:
+Go to Tools -> Options -> Games tab -> expand the "Not Installed" section and select Left 4 Dead 2.
+Example:
+
+Check the option that says "Manual Setup" then browse to the folder where L4D2 is installed.
+Click apply and OK. 
+
+If the xfire updates you have to do same thing again 
+
+
+***********************************************************************************

@@ -1,0 +1,40 @@
+Jtag Saver 1.0 by Xbox1crew
+
+
+Reasoning behind the design:
+We wanted a simple, easy, and effective way of shutting down the jtag when it wasnt needed any longer.  
+Trying a 555 timer circuit, the circuit worked well, but was too expensive for people to get behind. This revision
+actually costs about 2 dollars USD to implement and works well, without all of the extra components that were needed for
+our first revision.
+
+What will Jtag Saver do for me?
+It will, in essence, allow you to safely use your jtagged xbox 360 without worry due to extra voltage or current being applied
+to areas that weren't meant to have them applied. This circuit will shut the jtag circuit off after 15 seconds to try and limit
+the damage that could be caused after long periods of use.  
+
+We developed this circuit after a few boards died soon after jtagging.  It was too close together to be coincidental.  Most boxes 
+that died did so within a week of jtagging.  THIS is the reason for our pursuit.
+
+The circuit has been tested thoroughly.  Many on/off cycles were gone through to make sure that it worked every single time.  It did.
+Optionally, you can add a resistor and LED to pin 7 to show you when pin 6 is shut off (goes high).  A 220 ohm resistor should suffice, but
+this part is up to the end user.
+
+
+Disclaimer:
+We have no responsibility for anyone's damaged equipment, or for any misuse due to this circuit.  This circuit was designed as a help to the
+jtagged system user.  Everything needed to get this circuit functioning, once you have the parts, is included in this file.
+
+Enjoy and THANKS!
+
+Greets:
+EMAXX
+Redline99
+Horneydvl
+c0z
+GreenGian
+IceKiller
+crazie
+Team XeDev
+free60
+and Microsoft for making this fun :-D
+ 

@@ -1,0 +1,18 @@
+User Type,Username,Date,Text
+,novastyle,2010-05-05T17:59Z,"Hey, just discovered your encodes. No criticism, but have you thought about upping the resolution? Before 720p became big, the scene was pumping out HR.HDTV rips which were about 960x540. They were also 700MB and given that your encoding settings are superior, you could probably pump up the resolution to at *least* full DVD resolution and they'd still look great. Just a suggestion. I'll still be downloading your stuff either way (at least until I make the jump to 720p). Cheers."
+[T],teslaman,2010-05-06T03:16Z,"Hey, yeah actually DVD is 480p which is 720x480 max. ;) At first I was thrilled to see the scenes doing those 700mb rips, until I saw they were over the 480p resolution. That meant they can't be played on most standalone devices like the majority of retail DivX DVD players. :( So that's really the important thing for me...the most widely usable format. ;)"
+,novastyle,2010-05-06T17:15Z,"Ah, fair enough. So any chance of full 480p encodes in the future?"
+[T],teslaman,2010-05-07T03:14Z,"Oh, well there is a width and height restriction basically. With widescreen format it usually ends up being less than 480 in order to fit the standard 720 width limit. Technically you can go to 854x480 as the max 480p size, but most if not all 480p devices are restricted to the standard 720x480 resolution. ;)"
+,novastyle,2010-05-07T08:56Z,"That's true, and I've never done any encoding myself, but isn't it possible to force the aspect ratio  of 720x480 to 16:9 widescreen (non-square pixels)? I'm sure in the past I've downloaded torrents that did that."
+[T],teslaman,2010-05-07T10:18Z,"Ah, hmmm, yeah I'm not that familiar with all the different aspect ratio settings. I know HD and NTSC use square pixels, non-square is normally found in PAL formats. So to take a square pixel and stretch it rectangular would lose quality. ....from my understanding of it anyways. ;)
+
+I checked several scene movie rips that use HD as the source and shrink them down to 480p and they were 720x400 as well. ;) ....some do have a aspect ratio that's even wider, but those were 720x304. "
+,novastyle,2010-05-07T17:18Z,"NTSC definitely does it too since the standard resolution of 720x480 isn't widescreen or fullframe, it's roughly in the middle or the two. And there shouldn't be any extra quality loss since it's just like maximising a video on your computer.
+
+Oh well, never mind anyway. Still, if you can figure out how to do it, it'd be cool!"
+[T],teslaman,2010-05-08T06:07Z,"Ah ok, I think I see what you mean, basically make it like an anamorphic DVD. ;) Yeah those are usually not compatible with standalone devices.
+
+I'll try one though and test it out on mine to see what it does. ;)"
+[T],teslaman,2010-05-08T09:59Z,"Well I tested one @ 720x480 on my standalone and it did playback at the correct aspect ratio. On the PC, VLC had to be manually changed to 16:9, but the DivX player played it correctly. I haven't tested it yet on WMP. In comparing the screenshots, it did lose quality, probably because of the larger resolution for the same filesize."
+,novastyle,2010-05-09T18:38Z,"Oh really? That's a surprise, I would have thought the bitrate would be enough for it to look better. If the lower resolution works out better then stick with it I guess! It was worth testing out though."
+[T],teslaman,2010-05-10T06:55Z,"Yeah it was definitely worth a try, thanks for the info. :) But yeah, it's 20% more pixels, so sadly the quality will suffer."

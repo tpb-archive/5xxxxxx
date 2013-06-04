@@ -1,0 +1,237 @@
+User Type,Username,Date,Text
+,RitchieRich,2010-05-03T19:18Z,"Just an FYI, you know this is already up right??
+http://thepiratebay.org/torrent/5528529/Adobe_CS5_Master_Collection_Serials_and_Activation_Blocker_-MAC_"
+,Godoid,2010-05-03T21:20Z,i didn't see that and i didn't get the 'already uploaded' thingy. But if you want i can delete it. Sorry :) Just thought i'd post it here cos it worked for me and there were people asking me for a workaround for the mac. I don't think they saw your file. Thanks for letting me know though.
+,RitchieRich,2010-05-03T21:59Z,"@Godoid
+The more info to share the better. Yeah this script works very good that's why I uploaded it. "
+,Godoid,2010-05-04T13:14Z,:) Thanks
+,76dragon,2010-05-05T16:34Z,"For all of you that have problems with installation
+I thought it would be useful to post step by step installation instructions. I already posted them at the ""Adobe CS5 Master Collection [MAC]"" torrent on The Pirate Bay. In particular read the ""REMOVE....."" section of this post if you have problems with your Adobe installations. With respect to where to go for your installation packages: I prefer to get them from the torrents. They are the same as what you download from the Adobe website. However, there has been some discussion on Demonoid about Adobe matching registration info with your IP address when you download the package. I'm not sure about the validity of this claim but I prefer to play safe and get the packages via torrents.
+
+If you follow the steps below you will not have to run the ""Block Activation"" script included in this torrent. Basically the ""Terminal"", ""TextEdit"" and ""Finalize Adobe CS5 Installation"" steps below guide you manually through the automated ""Block Activation"" script. Please install CS5 in the way that you prefer.
+
+You may notice below that I recommend to ""turn off Airport"" during installation and to run ""sudo dscacheutil -flushcache"" after updating the /etc/hosts file. I'm not sure if these steps are necessary but I recommend to do so anyway. Also notice the link to Acrobat 9 Pro at the bottom of the post:
+
+REMOVE OLD ADOBE INSTALLATIONS (IF APPLICABLE) BEFORE INSTALLING ADOBE CS5
+Remove the following Adobe applications, folders and files before installing the Adobe CS5 Master Collection (but check notes below this list first):
+/Applications/Adobe... (everything with Adobe)
+/Library/Application Support/Adobe
+/Library/Application Support/FLEXnet Publisher
+/Library/Preferences/com.adobe... (everything with com.adobe)
+/Library/Preferences/FLEXnet Publisher
+~/Library/Application Support/Adobe
+~/Library/Application Support/Adobe/Acrobat
+~/Library/Preferences/Acrobat
+~/Library/Preferences/Acrobat Distiller Prefs
+~/Library/Preferences/Adobe... (everything with Adobe)
+~/Library/Preferences/com.adobe... (everything with com.adobe)
+
+A few notes:
+- / is the system root folder (which you can find in Finder by clicking on the hard drive icon at devices)
+- ~ is the User folder (which you can find in Finder by clicking on the home icon at places)
+- I strongly recommend to delete the ""/Library/Application Support/FLEXnet Publisher"" and ""/Library/Preferences/FLEXnet Publisher"" folders if you have old Adobe applications installed. Keeping an old version of this folder can cause a variety of licensing errors. It will automatically be regenerated with the CS5 installation.
+- Obviously, if you're attached to your old Adobe application preferences, don't delete the preferences files in the system and User libraries. There is no harm in doing so, they'll be automatically regenerated but by deleting them you will loose your user preferences. I prefer to start with a clean system but that may not be the case for everybody.
+
+INSTALLATION OF ADOBE CS5
+Disconnect from network/internet (Turn AirPort Off). Double click ""CS5_Master_Collection.dmg"" to install the Adobe CS5 Master Collection. Whilst installing CS5, ensure that you choose ""Install this product as a trial"" and DO NOT enter any serials. If you've already installed CS5 applications using a serial, load any of the installed CS5 applications and select Help > Deactivate. Quit all of the installed CS5 applications.
+
+TERMINAL
+Launch a Terminal window (in /Applications/Utilities) and copy and paste:
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+Hit return and type your admin password.
+The ""hosts"" file should automatically open in TextEdit.
+
+TEXTEDIT
+If the following lines are already part of the ""hosts"" file close it and continue with the ""Finish"" section. If not hit return (in the opened ""hosts"" file) and copy and paste following lines:
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com"
+,carlitos2010,2010-05-05T18:44Z,"I have beed looking for this application, Restaurant Pro Express 12. Can anyone help me with this. I need it bad! Thanks!"
+,Jerramain,2010-05-07T14:57Z,So if there's a update i can download it whit out problems??
+,JSIT99,2010-05-10T06:09Z,"Is it international complete version (actually i'm searching french version and is it compatible with CS4 ? thanks anyway
+
+JSIT99"
+,hoodoracle,2010-05-11T22:11Z,when i unpacked the rar files there were 2 different folders with so many files and folders...can someone PLEASE help me out by telling me which one is the exact script to run....
+,5h,2010-05-14T16:21Z,"Hi, wanted Acrobat pro 9 with updates but am not member of demonoid, can someone invite me? Please,  sheptim1@yahoo.com, thanks"
+,76dragon,2010-05-14T19:29Z,"@Sh  You don't need to be a member and you don't have to log in to Demonoid to download the Acrobat pro 9 torrent. Besides, there are many alternative torrent sites (e.g. btjunkie). Try to Google ""adobe 9 pro mac torrent"" and the top link is actually from The Piratebay.
+
+After installing Acrobat 9 run Adobe Acrobat > Help > Check for Updates? multiple times until Adobe Acrobat 9 Pro is up to date (version 9.3.2 at the date of this post). "
+,hoodoracle,2010-05-16T09:07Z,"anyone???
+
+i downloaded the torrent and when i open it, theres more then one file where the script is found, Which file do i run to enable the script"
+,PirateKid77,2010-05-24T01:39Z,"I'm having problems with my CS4. I've installed  everything by the instructions and everything has been fine  when i run these programs:
+Adobe After Effects CS5
+Adobe Contribute CS5 
+Adobe Encore CS5
+
+I'm asked to install additional codecs, file formats or effects but the install never completes. Anyone have any ideas?"
+,azula86,2010-05-27T12:18Z,Brilliant!
+,garmin123,2010-05-27T19:53Z,"@Godoid, Ive followed all the instructions and everything CS5 wise works well - thanks :-)
+However Im now faced with a fairly big problem if I can't also have CS4 installed. I need to be able to save down to InDesign CS3. This is only possible from CS4. So can I reinstall CS4 or is that gonna mess up the script?
+Also, I use Mobile Me's Back to Mac to connect to my home laptop from work. Since installing I can't connect. Could the block-script also block this - my mac will sync all my other data (ical, mail etc) but just Back to Mac isnt working. Cheers in advance!"
+,shazza007,2010-06-01T04:40Z,Just a note to say thanks! Excellent instructions. All working great!
+,co10mbian,2010-06-17T21:38Z,So apparently my screen saver works with adobe flash to update the schedule of my soccer team--with the script blocker the screen saver cannot speak to the server online and freezes. Any idea on how I can undo the actions of the script blocker application?
+,ghostfacevanilla,2010-08-09T15:55Z,"if I drag my adobe files into the trash, do I have to empty trash before installing?"
+,ghostfacevanilla,2010-08-09T17:13Z,anyone know where I can download CS3 or CS4 flash (trial or otherwise)?  My mac OS can't manage CS5
+,edwardnese,2010-08-31T06:46Z,Hey can anyone send me a demonoid invitation code please i need a torrent from that website
+,fotomotooto,2010-09-01T17:50Z,"Adobe CS5 Master Collection SN block-script [MAC Only]
+add me
+psquash@yahoo.com"
+,Mosertie,2010-10-03T15:19Z,"Omg, this is awesome. I don't keep track of whoms Torrent is the original upload but in any way, this works.
+Download Your Adobe Master Collection Program of Choice
+Install as trial
+Run activation Blocker
+enter serial number.
+the program is now yours ;)
+I love the internet"
+,disn3yprincess22,2010-10-04T16:50Z,THANK YOU
+,agadaga,2010-11-30T23:12Z,"Could someone tell me how to remove this from my system? It was working great, but then my iMac started clicking off at random times. The mac tech said it was due to a bad crack, so I'm biting the bullet and purchasing the software. He told me I should reformat my entire drive and reinstall everything to make sure it's gone, but I'm hoping someone here can tell me how to make it go away without wiping my drive. Thanks!!"
+,Mashler,2010-12-24T01:00Z,I think I may be blind but I cannot find a .zip folder or .txt file that has any serial numbers. Where do I find those?
+,shitballz,2011-01-05T03:48Z,Couldn't you just type in the serial and use a firewall to block all incoming connections to the applications involved?
+,Cleanasawhistle,2011-02-17T17:22Z,"Brilliant!
+Thank you so much for providing this and to anyone who worked hard on instructions, scripts etc. I followed it word for word and it works perfectly! I've donated to TPB and I always keep transmission on to seed to others.
+Thank you."
+,Cleanasawhistle,2011-02-17T17:36Z,"I've downloaded and followed instructions, installed as a trial and entered serial after opening first program. On opening Soundbooth a box comes up saying ""Missing codecs need to be installed not included in trial version.... Press ok to install the files. Would I be safe to do this? I have pput the text edit code in the hosts file and saved as instructed."
+,Cleanasawhistle,2011-02-17T17:49Z,"I've answered my own question! Yes, it seems I can download the codecs."
+,Dostov11,2011-02-18T07:14Z,just great!! thanks
+,-Dan-The-MAN-,2011-02-26T02:29Z,Works great! havent had any problems with it for a couple of months
+,jamalharris,2011-03-01T00:10Z,"Hi, first of all, thanks for this torrent!
+great instructions!
+But i have one problem, every time a open photoshop i enter one of the serials, except the next  time i open it, i am asked to enter a new serial , because the one i entered previously isn't good.
+They then allow me to enter a different serial from your torrent, except I can only use each SN once....
+is this normal?
+and what am i supposed to do, when ive used all 6 serial numbers you provided?
+thanks"
+,sxyblkgl,2011-03-08T19:19Z,Please tell me how to uninstall the block script. Its interfering with me connecting to a certain port. Really dont have time to explain but can i reverse the installation of this script. Please please help me.
+,vampixx,2011-03-20T17:44Z,Works great! Thank you sir!!
+,seedplease2010,2011-03-26T07:37Z,I'm not asking for anyone to post serials... but where do you get the serial? Is it in one of the folders?
+,Blaanth,2011-04-11T09:17Z,"I followed the instructions, but when I go to install the program, I get the following message: installer failed to initialize. please download Adobe Support Advisor (which I did). This found no issues. Then I downloaded the Adobe cleanup program - it found no old files to delete. What do I do now?"
+,kinon,2011-04-23T09:40Z,"Download the script gives a file. xpi that I can't 
+open or launch. If I change to. zip I find an chrome installer in the folder
+ ...??"
+,lavagirlll321,2011-05-13T07:05Z,"i've been having the same problem as jamalharris, can anybody help me? but i have used up all six codes as of now and I kind of need premiere on an urgent note.. can anybody show me how to unlock premiere again? or do I need to download a new blocker?"
+,amac81691,2011-05-24T20:20Z,"After the direction to 'Save' and NOT 'Save As' I receive this message : ""The document âhostsâ could not be saved. You do not have appropriate access privileges. To view or change access privileges, select the item in Finder and choose File > Get Info."" I tried to find the file in Finder but wasn't there. Can someone please help?"
+,mrexcitement,2011-06-07T05:04Z,Great posting. I'm having problems getting a serial number to work. Can someone help me? 
+,loladobe,2011-06-10T19:26Z,"Hello, I downloaded the torrent and ran the script but none of the serials are working. I have the updated Adobe CS5.5 that may be the problem. Do you have any serials for 5.5 ?
+
+Email is yayadobe@yahoo.com"
+,bwhite93,2011-06-27T10:55Z,Serials are not working.
+,MustL0veD0gs,2011-06-29T22:25Z,"I'm having issues with the Bridge application. It opens and the menu at the top works fine, but the actual window doesnt load images properly, it acts as if its buffering and doesn't fully load. I tried to reinstall photoshop, but that did not fix the problem. Is there anything I can do to make it work properly? my email is mariyanovitski@yahoo.com Thank you!"
+,Peregr1n,2011-07-23T18:17Z,Can anyone confirm that this works with Lion? Thanks
+,vnebula,2011-07-31T18:12Z,"Just to warn everyone - I could not get this to work with OSX Lion.
+I got the following error message:
+Jul 31 12:11:07 xxx.local TextEdit[418] : kCGErrorIllegalArgument: _CGSFindSharedWindow: WID -1
+Jul 31 12:11:07 xxx.local TextEdit[418] : kCGErrorFailure: Set a breakpoint @ CGErrorBreakpoint() to catch errors as they are logged.
+Jul 31 12:11:07 xxx.local TextEdit[418] : kCGErrorIllegalArgument: CGSSetWindowShadowAndRimParametersWithStretch: Invalid window 0xffffffff
+2011-07-31 12:11:22.884 TextEdit[418:3f07] PersistentUI: LSSharedFileListInsertItemURL() failed at inserting URL file://localhost/etc/hosts"
+,vnebula,2011-07-31T18:21Z,"Actually, I'm wrong! It works fine in Lion - but there is a trick with text edit now that saving is automatic. Launch text edit before you enter anything into terminal, and delete any text that might be on the document. Then close the window and open a new text doc. Then run terminal."
+,Darkprophet777,2011-08-17T22:38Z,"After I Installed as a trial, where do I put the serial???"
+,unuser,2011-08-18T21:22Z,"When I run the Installer, I'm shown a list of the CS5 apps to be installed, except for After Effects and Premiere.
+
+I've uninstalled all previous CS installs and chosen ""install as trial"" option in the CS5 installer.
+
+I look on the installer image under ""Payloads"" and all the files for AE and P are there.
+
+Why are these 2 apps not showing up in the list of apps to be installed? "
+,nan0hawk,2011-08-23T23:48Z,"Guys... When after i install it, when i open athe CS5 apps for the first time, the application window manager thing popus up, then thats where i enter it right? I enter it and it still doesn't work... Dc'd from internet and everything!
+
+Heeeelp!~"
+,nan0hawk,2011-08-24T11:30Z,"THIS WILL NO LONGER WORK AS CS5.5 IS OUT, IF YOU WANT TO WORK IT GET THE ACTIVATOR AND BLOCKER FROM HERE! http://thepiratebay.org/torrent/6583464/NEW_Adobe_CS5.5_Serials_and_Activation_Blocker-MAC"
+,ptumbleweed,2011-09-11T14:51Z,"Hello, I cannot seem to edit the hosts file, my system tells me I don't have permission to write to this file.  Anyway to unlock it?  "
+,IXLGuy06,2011-11-06T03:14Z,"I have Adobe CS5 Master Collection ready to ship.
+All Updates Work As Of November 2011!!!
+100% Working
+Exact copy of the retail Apple store version that sells
+
+Contact me at IXLGuy@yahoo.com
+
+I have other MAC goodies
+
+This is great for people who do not want to spend forever getting it"
+,catinabag,2011-12-05T14:49Z,"Wow. Thank you uploader!!!! Works perfectly!
+
+Ignore nan0hawk. the above link worked perfectly for me!"
+,mizlisalou,2011-12-13T07:23Z,my host file is locked and i can't unlock it. it says i'm not authorized but can save a duplicate. will this work?
+,pagoto,2012-01-03T03:34Z,"THANK YOU. I couldn't get adobe to stop calling it a subscription edition, so i uninstalled everything and then followed these directions and it worked like magic! I also was using CORE keygen for each individual program instead of one serial for the master collection which may have helped, too."
+,qw101,2012-01-12T00:16Z,how do i delete this so i can re download  adobe 
+,qw101,2012-01-12T00:38Z,"how do i delete it completely so it will let me download adobe 
+
+
+i accidentally opened it before i downloaded adobe photo shop  "
+,piratingapp,2012-01-14T03:40Z,Hi can i sign in live with my adobe acount with this crack ? is it safe or will it fuck up on me??
+,skull2011,2012-01-18T01:43Z,is it safe to update? can i sighn in to adobe.com ??
+,cider114,2012-02-10T07:59Z,works great!
+,2016178,2012-03-20T14:01Z,"If your hosts file is locked (OSX Lion users) use this:
+
+Paste this into a terminal window:
+
+sudo nano /private/etc/hosts
+
+Type in your password.
+
+Use UP & DOWN arrow keys to navigate the file.
+
+Paste this into the window:
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+
+[Control] + [O]
+
+[Enter]
+
+[Control] + [X]
+
+Paste this into the terminal window:
+
+sudo dscacheutil -flushcache
+
+[Enter]
+
+Type:
+
+logout
+
+[Enter]
+
+
+Your hosts file has now been successfully patched.
+
+--- 2016178"
+,junkyello,2012-04-10T09:07Z,"how do i remove this script from my girl's macbook? a new job she's starting is installing a legit copy of cs5 on her mac so she can work from home and she don't want them to know she has an illegal version.
+
+i can uninstall the illegal copy, but the i.t. guy at her new work is gonna want to register the legit copy.
+
+i went to terminal and typed this
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+and then got a file with a bunch of servers listed like this
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+etc etc etc
+
+can i just delete all that and save? if yes, what part do i delete and what part do i save?
+
+thanks a lot.
+
+by the way, this shit was awesome while it lasted. my girl is forever grateful that she was able to use this for the past year. peace."
+,drunkenFlower,2012-06-25T04:45Z,Thank you!! 
+,drunkenFlower,2012-06-25T04:46Z,Thank you!! This works perfectly ! :)

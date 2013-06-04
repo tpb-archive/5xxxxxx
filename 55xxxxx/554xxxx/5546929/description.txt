@@ -1,0 +1,39 @@
+Batch Con Flag Remover v0.2.2 *Update v0.2.3*
+
+Scuba156 of Xbox1Crew released a new version of Batch Con Flag Remover. It's a tool that will batch-uncorrupt game saves from a banned console instead of having to do it one by one.
+
+What's new/fixed:
++ Redesigned the GUI
++ Changed 'open' button to 'Add' which now allows you to select multiple directories to add for batch removing
++ Added a remove button (can remove multiple selections)
++ Now also searches for files in the selected directory (for single file flag removal)
++ Fixed a typo
++ Now only writes to file if the flag needs to be removed instead of writing 'FFFFFFFF" regardless
++ Check if file is already listed so no duplicate items (determined by file
+location)
++ Begun to write for resigner (very little but its a start)
+- Ignore the product ID column, it is not working as of yet
+
+!Update! v0.2.3 has been released, here's what's new/fixed:
++ Basic resigning (Wont work for all games) using X360.dll from DJ Skunie Butt
++ Fixed a bug where backups were getting created after editing file
++ Now needs a KV.bin file, which should be placed in the Resources folder
+
+>> Scuba156 of Xbox1Crew released a new version of Batch Con Flag Remover. It's a tool that will batch-uncorrupt game saves from a banned console instead of having to do it one by one.
+
+What's new/fixed:
++ Redesigned the GUI
++ Changed 'open' button to 'Add' which now allows you to select multiple directories to add for batch removing
++ Added a remove button (can remove multiple selections)
++ Now also searches for files in the selected directory (for single file flag removal)
++ Fixed a typo
++ Now only writes to file if the flag needs to be removed instead of writing 'FFFFFFFF" regardless
++ Check if file is already listed so no duplicate items (determined by file
+location)
++ Begun to write for resigner (very little but its a start)
+- Ignore the product ID column, it is not working as of yet
+
+!Update! v0.2.3 has been released, here's what's new/fixed:
++ Basic resigning (Wont work for all games) using X360.dll from DJ Skunie Butt
++ Fixed a bug where backups were getting created after editing file
++ Now needs a KV.bin file, which should be placed in the Resources folder

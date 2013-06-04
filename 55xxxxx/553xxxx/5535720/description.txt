@@ -1,0 +1,94 @@
+     			XX  XX XXXX XXX  XXXX X    X		irc.efnet.net	
+ 	 		 XXXX  X    X  X X    X    X		#team-xedev
+         		  XX   XXX  X  X XXX   X  X
+			 XXXX  X    X  X X     X  X
+ 			xX  XX XXXX XXX  XXXX   XX
+			  Presents: XeXMenu v1.0
+
+
+
+-------------------------------------------------------------------------------
+                                 Release Notes
+-------------------------------------------------------------------------------
+
+XeXMenu V1.1 
+=============
+
+* Added HFS+ drive support
+* Added ip adress information to the configuration menu
+* Added skin loading verify routine to output errors on the screen while starting XeXMenu
+* Added some user skins
+* Improved ftp upload speed
+* Loads nxebg.dds and icon.dds even if nxeart isn't present
+* Some other bugs fixed
+
+
+Press "BACK" for detailed help pages!
+
+
+Note: If you only get a black screen on startup try to delete the XeXMenu 
+      savegame known as "Unknown Xbox Game" using system tab in dash
+
+
+XeXMenu V1.0 
+=============
+
+* Gametitle extraction from NXEART if possible (toggle)
+  - Games with more than just one XEX will show up multiple times 
+* Embedded FTP Server to transfer your stuff directly from your computer
+  - Use xbox:xbox@ip:21
+* Use FTP to read/write/delete your onboard flash
+  - Only user flash/flash is able to do that!
+* Support for all found XEX files. Not just default.xex (toggle)
+* Shows the content of any GAMES folder on any device
+  - Use GAMES, APPLICATIONS, EMULATORS for auto discovery menu on each device
+* Switch between games/apps/emus in the discovery menu using RB/LB
+* Auto scale skins for most resolutions (toggle)
+* Different help screens for each menu
+* Use DPad to switch between devices while browsing files
+* Xbox1 compatibility partition support (if exists)
+  - Xbox1 partition known as "HddX"
+* Alphanumeric listing for files
+* No more XEX auto patching when copying DVDs
+* Manual XEX patching for freeBOOT users
+* Configuration menu
+* Real XBox save system for the configuration
+  - Gamesave known as "Unkown Xbox Game" 
+* Chose between different skins from the configuration menu
+* Support for own skins
+* many more things we can't remember
+
+-------------------------------------------------------------------------------
+                                 Install Notes
+-------------------------------------------------------------------------------
+
+LIVE) Copy the C0DE9999 folder to
+		HDD1:/Partition3/Content/0000000000000000/
+
+      ... or use the XEX version
+
+
+FTP)  To prevent the Xbox from connecting to Xbox Live you can set up your 
+      network as follows
+
+      - Use an IP adress outside your routers DHCP IP pool
+        If your router use 192.168.1.100-200 for DHCP you could use 192.168.1.210
+      - Set up your computers IP as gateway.
+      
+      The XBox should be able to connect to your computer now but won't get
+      access to the internet.
+      
+      If you have a second NIC just make a direct connection to be sure
+
+      Use xbox:xbox@ip:21 to connect
+
+
+-------------------------------------------------------------------------------
+                                 Special Thanks
+-------------------------------------------------------------------------------
+    			  
+			 GX-Mod, everyone who donated
+
+-------------------------------------------------------------------------------
+                                 Team-XeDEV 2010
+-------------------------------------------------------------------------------

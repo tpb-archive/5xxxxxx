@@ -1,0 +1,76 @@
+*** 2-pass 360p encoding for computers (PC, Mac), PS3 or Xbox, portable and mobile devices (Ipod, Itouch) . ***
+*** Video is 640x360 H264; audio is 44.1 kHz/stereo AAC LC and container is MP4. ***
+
+"Home" of my torrents (for Bookmark/Favorites in your browser) 
+http://thepiratebay.org/user/twentyforty
+
+
+-----------
+NOTE: 272p = frame-size 480x272 pixels, 16:9 aspect ratio, playable on all kinds
+             of MP4 capable devices/players/playback systems
+      360p = frame-size 640x360 pixels, 16:9 aspect ratio, middle-format, playback
+             as for 272p (except streaming)
+      480p = frame-size 720x480 pixels for 16:9 aspect ratio (TV) or 720x304
+             for 2.35:1 (movies/theatrical AR)
+      720p = frame-size 1280x720 pixels for 16:9 aspect ratio (TV) or 1280x544
+             for 2.35:1 (movies/theatrical AR), hardware intensive
+      
+      Most problems people have are with frame-sizes 1280x720 (720p). I recommend 
+      and have used one system for years - CoreCodec for H264 and part of DivX7 
+      for AAC. 
+      Both are proved perfect, fastest and provide seamless playback up to 1080p 
+      on new generation of computers. Newer NVIDIA graphic cards processors (GPU)
+      decode H264 using dedicated subroutines directly served from CoreCodec 
+      (I have an ATI card, just in case you were wondering).
+      
+      Problems one can have may come from either one of the following 
+      and/or a combination of these â€“ the playback system itself, a 
+      malfunctioning device or lack of knowledge. 
+      
+      For instance, any so called "jerky" playback of "system-heavy" 720p comes
+      from insufficient CPU and graphic engine power or simply - overloaded 
+      computer. Use of ddshow filters and "codecs" is suicidal. This is not 
+      Russian 720p Matroska format ("official" 720p) and completely different 
+      setup is required (extremely high bit-rates of .mkv 720p to some extent
+      "hide" bad encoding style). In low bit-rate H264, such as mine, 
+      those errors and bad technique cannot be hidden and therefore are avoided as 
+      much as possible.
+        
+      Any 'blurriness' of video comes from less-than-recommended media player. 
+      VLC  and a few other players are the most versatile and, generally speaking,
+      good - but quality is 10-20% lower.
+      Any â€˜blockinessâ€™ comes from 'system-too-slow' situation, when decoding 
+      engine of ones device become over-capacitated and cannot process all frames 
+      as it supposed to.
+      On "I have no video" and "I have no sound" I don't waste my time as this 
+      is generally a complete lack of knowledge and/or understanding. 
+      RTFM is the best response I can give.
+
+      MP4 is absolutely ISO 14496-1 compliant. There are no B-frames, no CABAC 
+      entropy in 272p and 360p, no strange filtering and no AV weirdness of 
+      any kind.
+
+      Recommended resolution for computers is 1024x768 (no matter frame-size).
+      PS3 + HDMI cable + newer TV have been reported as best combination.
+      I am very proud on sound quality and hence I recommend use of stereo system 
+      and proper loudspeakers (connect Line Out of Soundcard or standalones 
+      with Line In of any Stereo rack).
+      
+      I encode H264 for six years and I have experienced (first-hand) any problem 
+      one might have or imagine. I have heard almost every â€˜complaintâ€™ out there 
+      and would, if asked POLITELY, be happy to answer questions and give as much 
+      help as humanly possible   
+      I always have.
+ 
+    One man stated just recently
+     ">>>...... at 2010-05-26 17:04 CET: 
+    ...your 720p format is unique - For some reason no one seems to think
+    doing it, which is why people go into spastic attack in your comments. "
+     "...the quality is much higher than ANY other 350mb rip."
+     
+    Please Others, don't go "spastic" - just go away instead spreading Insanity 
+    and Evil.
+    We have enough of that. On TPB alone every single title is usually 
+    available in many torrents.
+    Nobody forced you to use mine, right? 
+    But maybe.... no.... anyway, I'll ask "Who was that?"

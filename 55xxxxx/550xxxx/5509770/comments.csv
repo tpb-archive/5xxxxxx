@@ -1,0 +1,23 @@
+User Type,Username,Date,Text
+,wishbonn,2010-04-24T01:53Z,"Redhatcc
+
+i had prevously installed windows 7 but then i made a partition and installed windows XP coz XP is much better than 7 and its stable but i made multi boot with a partition installed with XP and 7.XP works fine and windows 7 works fine but i cannot install the Audio drivers. I searched everywhere but i cant get the Audio drivers for XP.I'm using HP Pavillion DV4 1125NR. i had Vista which i formatted earlier coz it was a crap and installed 7 but windows 7 is even not better than XP.I just need to get Audio drivers for Windows XP for my notbook Dv41125nr. HELP ME Coz i spend days and hours locating the drivers but i couldnt get it.. THANKS ALOT IF YOU CAN BE A SUPERMAN."
+[T],RedHatcc,2010-04-24T02:18Z,"Hate to hear that problem. I had a HP DV9260nr, they are great laptops indeed :D. But here is the problem, XP audio drivers were not coded for those models for the most part, so you have to resort to other methods. Try this. 
+
+ftp://ftp.hp.com/pub/softpaq/sp41501-42000/sp41616.exe
+
+There is a link to a driver that looks promising. Try that. If that does not work...
+
+http://thepiratebay.org/torrent/4645761/Ultimate_Microsoft_Drivers_Collection___Over_1M__-by_Redhatcc
+
+That is a link to a torrent to raw extracted drivers on one image. You can burn that to a DVD or mount the image... the try and install the drivers from there by setting the driver update to auto search for the correct drive from that DVD. 
+
+If neither work, sign up on my site and i'll gather more details from you about your laptop http://www.GuruFuel.com/
+
+We'll get it fixed dont worry."
+,ripp1916,2010-06-01T02:49Z,"Didn't work for me. 
+Copied antiwpa.dll to %systemroot%\system32\ manually and it worked.
+
+I cannot see any copy command in the .CMD.
+Did I miss something."
+,PimpTee,2010-12-08T18:25Z,"Didn't work for me either.  After reboot I even tried to copy/paste as another user had suggested, but it wouldn't let me since the file was indeed already there.  So it looks like it installed, but not working."

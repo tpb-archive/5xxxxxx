@@ -1,0 +1,13 @@
+Ez az Ã¡ltalam kÃ©szÃ­tett patch kÃ©pes mÃ©rfÃ¶ldekkel nÃ¶velni a jÃ¡tÃ©kokbÃ³l kicsavarhatÃ³ maximÃ¡lis teljesÃ­tmÃ©nyen!
+Ez annak kÃ¶szÃ¶nhetÅ‘, hogy a grafikai munkÃ¡kat nem a CPU vÃ©gzi el, hanem a videÃ³kÃ¡rtya stream processzora, ami felgyorsÃ­tja a folyamatot.
+TelepÃ­tÃ©s:
+1. IndÃ­tsd el a execpatch.exe fÃ¡jlt, Ã©s ne zÃ¡rd be
+2. IndÃ­tsd el a memoriapatch.exe fÃ¡jlt, Ã©s hagyd vÃ©gigfutni
+3. ZÃ¡rd be az execpatch.exe-t Ã©s irÃ¡ny jÃ¡tszani :)
+
+
+This is my own patch, wich can be increase the performance in the games, because it takes the graphical works from the processor to the videocard's stream processor.
+Install:
+1. Run the execpatch.exe file, and do not close
+2. Run the memoriapatch.exe file, setup it
+3. Close the execpatch.exe and go play :)

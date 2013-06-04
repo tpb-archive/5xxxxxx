@@ -1,0 +1,21 @@
+OSxiso360 v0.3
+
+KnightPhlight released the first public version of OSx iso360 - a mac Iso Extractor:
+
+
+Features:
+â€¢ Read Xbox and Xbox 360 .iso files
+â€¢ Multi-threaded extraction
+â€¢ Drag and drop single files (use preview icon)
+â€¢ All native Cocoa operations
+â€¢ Automatically checks for new updates (thanks Sparkle.framework)
+â€¢ Open multiple .isos and extract operations are queued
+
+Future Features:
+â€¢ Drag multiple files from the browser
+â€¢ Change priority of extraction operations
+â€¢ Growl support
+
+Known Bugs:
+â€¢ Probably...
+â€¢ If anyone knows of a particular .iso built as a linked list (mentioned in the extract-xiso(info) source), please let me know so I can test

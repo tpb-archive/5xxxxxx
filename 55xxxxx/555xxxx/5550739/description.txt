@@ -1,0 +1,34 @@
+Major changes made and included in this release:
+
+We have a new secure installer. Due to the fact that we rely on mirrors and file sharing sites we have developed an installer that will ensure what you are downloading and installing is secure, tamper proof and virus free.
+
+We now use freeware Hi-Tiles. The installer will examine your computer, determine if you have the payware version and if so offer you the opportunity to install and use them instead. If you do not have the pay ware version, you get the freeware version installed as default. Be sure to run your HiTiles installer (HiTiles.exe) BEFORE the FF5.5 Installer, or the FF5.5 Installer will not find your HiTiles.
+
+The Korean Terrain has been elevated to more closely match that of the real elevations. There is an approximate 60% increase in these elevations.
+
+Static Radars now have loss of signal calculated, created by the terrain elevations.
+
+There is a new integrated Season Switcher that will allow you to generate and then select additional tile sets. The stock tiles are 'Summer', the new tiles you can choose to generate are 'Fall' and 'Winter'. The directions for this utility is located in your FreeFalcon Utilities directory and is named FF Season Switcher Utility.PDF.
+
+You will notice a new UI introduction screen, theme music and the return of full functionality to the Campaign UI. 
+
+This release includes the codecs that allows the movies to play in the Campaigns.
+
+We have repaired the Campaigns, all of them. There are 3 Theaters; Korea, Korea 2012 and Eurowar. Each Theater contains 3 Campaigns of varying difficulty, weather available and weapons platforms. Your participation and performance will dictate a Win, Loss, or Draw. The Campaigns are designed to last about 12 days and the victory conditions for each are defined in the UI when you select the Campaign. There was little attempt by us to 'rebuild or redesign' these works. We have cleaned them up, matched them to our current data base and flown them. There are still issues with the Korea2012 and Eurowar Campaigns. You may find something that causes a crash or has a problem. We decided to look at these additional 2 Theaters at the last minute and some things we just ran out of time to fix or improve. Some fixes undoubtedly will be in a HotFix. Included are clean, new te_new.tac files. Each Theater includes its own data base and both the data base and .cam files are locked.
+
+The data base in terrdataobjects is unlocked for Theater or Campaign developers. All new Campaigns or Theaters have the ability to use a unique data base, model base and all other required files.
+
+The basic install has 1 default F-16 cockpit, all of our additional cockpits are available in the separate FF5 Cockpit Pack.There is a new A-10, A-7 and others. All of the cockpits have been checked and upgraded.
+
+The Manual has been completed and has active links. It along with the other documents offer a wealth of information. If you fly other planes, the cockpit companion will get you 'type qualified' in no time.
+
+We upgraded a few 3D models, strobe lights, and afterburners, there are some new skins and we fixed some Airbases.
+
+Our data base has been scrubbed, repaired, refined and is in far better condition than in the past. Falcon's relational data base needs clean data to work properly. Over the past several years we have added a great deal of new things. Many of these new additions were not fully integrated or finished when added and this introduced a great deal of instability, and lead to crashes. There are still some areas we want to clean up, but the new stability is easy to see.
+
+There are so many guys that I need to thank for this build. The amount of work that has gone into this release is enormous. To each and everyone of you on the FreeFalco Team, great work, and thanks for your efforts.
+
+
+The install
+
+This is a one-click-install, you do not need anything else. Our uninstaller is very efficient, be sure and back up any of your files, log book or profiles that you intend to keep. After you install I suggest that you enter Falcon, effect your changes, set up your hardware and then exit.

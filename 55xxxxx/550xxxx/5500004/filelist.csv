@@ -1,0 +1,787 @@
+Filename,Size,Unit
+/AI/+ÃºÂ¦Â«+Â¼+t+Â¦ ++Â¦Â°-Ã·Â¦+ +Â¦+Â¬+Â¦Â¦Â« +Â¦+f+Â¡.htm,479.04,K
+/AI/AI.lua,13.74,K
+/AI/AI_M.lua,13.48,K
+/AI/Const.lua,3.04,K
+/AI/Util.lua,2.6,K
+/BGM/124.mp3,4.05,M
+/BGM/121.mp3,3.96,M
+/BGM/136.mp3,3.73,M
+/BGM/135.mp3,2.93,M
+/BGM/113.mp3,2.9,M
+/BGM/111.mp3,2.86,M
+/BGM/59.mp3,2.62,M
+/BGM/08.mp3,2.62,M
+/BGM/39.mp3,2.58,M
+/BGM/18.mp3,2.57,M
+/BGM/24.mp3,2.53,M
+/BGM/138.mp3,2.33,M
+/BGM/23.mp3,2.33,M
+/BGM/86.mp3,2.32,M
+/BGM/19.mp3,2.32,M
+/BGM/27.mp3,2.29,M
+/BGM/88.mp3,2.29,M
+/BGM/125.mp3,2.22,M
+/BGM/122.mp3,2.2,M
+/BGM/134.mp3,2.2,M
+/BGM/112.mp3,2.17,M
+/BGM/35.mp3,2.15,M
+/BGM/102.mp3,2.15,M
+/BGM/133.mp3,2.14,M
+/BGM/85.mp3,2.12,M
+/BGM/42.mp3,2.1,M
+/BGM/87.mp3,2.09,M
+/BGM/137.mp3,2.08,M
+/BGM/30.mp3,2.06,M
+/BGM/65.mp3,2.05,M
+/BGM/108.mp3,1.99,M
+/BGM/63.mp3,1.97,M
+/BGM/91.mp3,1.94,M
+/BGM/123.mp3,1.94,M
+/BGM/31.mp3,1.93,M
+/BGM/15.mp3,1.91,M
+/BGM/66.mp3,1.89,M
+/BGM/69.mp3,1.89,M
+/BGM/103.mp3,1.88,M
+/BGM/81.mp3,1.85,M
+/BGM/131.mp3,1.83,M
+/BGM/48.mp3,1.82,M
+/BGM/110.mp3,1.81,M
+/BGM/109.mp3,1.81,M
+/BGM/76.mp3,1.81,M
+/BGM/75.mp3,1.8,M
+/BGM/120.mp3,1.79,M
+/BGM/17.mp3,1.79,M
+/BGM/25.mp3,1.79,M
+/BGM/41.mp3,1.78,M
+/BGM/34.mp3,1.78,M
+/BGM/96.mp3,1.77,M
+/BGM/132.mp3,1.77,M
+/BGM/104.mp3,1.77,M
+/BGM/128.mp3,1.76,M
+/BGM/107.mp3,1.75,M
+/BGM/89.mp3,1.75,M
+/BGM/02.mp3,1.75,M
+/BGM/119.mp3,1.74,M
+/BGM/100.mp3,1.74,M
+/BGM/130.mp3,1.74,M
+/BGM/118.mp3,1.73,M
+/BGM/40.mp3,1.72,M
+/BGM/92.mp3,1.72,M
+/BGM/13.mp3,1.72,M
+/BGM/49.mp3,1.72,M
+/BGM/79.mp3,1.71,M
+/BGM/106.mp3,1.7,M
+/BGM/126.mp3,1.69,M
+/BGM/64.mp3,1.68,M
+/BGM/28.mp3,1.68,M
+/BGM/77.mp3,1.68,M
+/BGM/29.mp3,1.68,M
+/BGM/38.mp3,1.67,M
+/BGM/62.mp3,1.67,M
+/BGM/37.mp3,1.65,M
+/BGM/90.mp3,1.64,M
+/BGM/33.mp3,1.64,M
+/BGM/45.mp3,1.63,M
+/BGM/06.mp3,1.62,M
+/BGM/47.mp3,1.61,M
+/BGM/115.mp3,1.61,M
+/BGM/43.mp3,1.61,M
+/BGM/94.mp3,1.61,M
+/BGM/72.mp3,1.6,M
+/BGM/04.mp3,1.59,M
+/BGM/61.mp3,1.59,M
+/BGM/50.mp3,1.59,M
+/BGM/67.mp3,1.58,M
+/BGM/82.mp3,1.57,M
+/BGM/70.mp3,1.57,M
+/BGM/97.mp3,1.56,M
+/BGM/84.mp3,1.56,M
+/BGM/93.mp3,1.54,M
+/BGM/74.mp3,1.53,M
+/BGM/51.mp3,1.52,M
+/BGM/105.mp3,1.51,M
+/BGM/129.mp3,1.51,M
+/BGM/117.mp3,1.5,M
+/BGM/46.mp3,1.5,M
+/BGM/44.mp3,1.5,M
+/BGM/127.mp3,1.48,M
+/BGM/26.mp3,1.48,M
+/BGM/53.mp3,1.48,M
+/BGM/54.mp3,1.48,M
+/BGM/83.mp3,1.46,M
+/BGM/78.mp3,1.46,M
+/BGM/101.mp3,1.46,M
+/BGM/22.mp3,1.45,M
+/BGM/58.mp3,1.45,M
+/BGM/03.mp3,1.44,M
+/BGM/20.mp3,1.43,M
+/BGM/71.mp3,1.43,M
+/BGM/57.mp3,1.42,M
+/BGM/73.mp3,1.42,M
+/BGM/12.mp3,1.41,M
+/BGM/116.mp3,1.4,M
+/BGM/56.mp3,1.4,M
+/BGM/114.mp3,1.39,M
+/BGM/80.mp3,1.39,M
+/BGM/99.mp3,1.39,M
+/BGM/55.mp3,1.38,M
+/BGM/14.mp3,1.36,M
+/BGM/60.mp3,1.35,M
+/BGM/16.mp3,1.32,M
+/BGM/36.mp3,1.32,M
+/BGM/68.mp3,1.3,M
+/BGM/95.mp3,1.24,M
+/BGM/11.mp3,1.22,M
+/BGM/98.mp3,1.21,M
+/BGM/52.mp3,1.19,M
+/BGM/21.mp3,1.16,M
+/BGM/05.mp3,1.09,M
+/BGM/07.mp3,1,M
+/BGM/10.mp3,944,K
+/BGM/09.mp3,780,K
+/BGM/01.mp3,730,K
+/data/texture/+Â»+Â·+++-Â¦S+Â¦+Â¦/basic_interface/QuickSlot.bmp,2.74,K
+/data/texture/+Â»+Â·+++-Â¦S+Â¦+Â¦/basic_interface/chatmode_on.bmp,224,B
+/data/texture/+Â»+Â·+++-Â¦S+Â¦+Â¦/basic_interface/chatmode_off.bmp,224,B
+/data/texture/effect/freeze_a.bmp,192.05,K
+/data/texture/effect/white02.bmp,12.05,K
+/data/texture/effect/Â¦Â·Â¦Ã_+=+-.bmp,1.74,K
+/data/texture/ÃÂ¯ÃÃºÃÃÃÃÃÃ¤ÃÃÂ½Âº/basic_interface/QuickSlot.bmp,2.74,K
+/data/texture/ÃÂ¯ÃÃºÃÃÃÃÃÃ¤ÃÃÂ½Âº/basic_interface/chatmode_on.bmp,224,B
+/data/texture/ÃÂ¯ÃÃºÃÃÃÃÃÃ¤ÃÃÂ½Âº/basic_interface/chatmode_off.bmp,224,B
+/data/NHCgogo_12.eot,50.65,K
+/data/RixLoveangel_12.eot,46.09,K
+/data/NHCgogo_10.eot,45.58,K
+/data/RixSquirrel_12.eot,45.37,K
+/data/RixNHCgogo_10.eot,45.17,K
+/data/RixMagic_10.eot,44.28,K
+/data/RixSquirrel_10.eot,41.85,K
+/data/RixDiary_10.eot,40.8,K
+/data/RixMiniHeart_10.eot,40.31,K
+/data/RixFreshman_10.eot,39.33,K
+/data/RixLoveangel_10.eot,39.25,K
+/data/RixKid_10.eot,37.63,K
+/data/RixJJangu_10.eot,37.5,K
+/data/ChatWndInfo_U.lua,2.93,K
+/data/OptionInfo.lua,1.46,K
+/data/UserKeys.lua,99,B
+/data/UserKeys_s.lua,58,B
+/HShield/asc/asc_unp.dll,358.77,K
+/HShield/asc/0sccure.scd,291.52,K
+/HShield/asc/0sgame.scd,208,K
+/HShield/asc/asc_mmgr.dll,114.77,K
+/HShield/asc/asc_com.dll,82.77,K
+/HShield/asc/asc_dh.dll,74.77,K
+/HShield/asc/fse_pe.dll,58.77,K
+/HShield/asc/asc_intg.dll,46.77,K
+/HShield/asc/gfs_file.dll,38.77,K
+/HShield/asc/gfs_os.dll,38.77,K
+/HShield/asc/gfs_proc.dll,34.77,K
+/HShield/asc/gfs_util.dll,34.77,K
+/HShield/asc/fse_base.dll,34.77,K
+/HShield/asc/gfs_base.dll,34.77,K
+/HShield/asc/gfs_mem.dll,34.77,K
+/HShield/asc/gfs_fact.dll,30.77,K
+/HShield/asc/fse_fact.dll,30.77,K
+/HShield/asc/asc_fse.dll,30.77,K
+/HShield/asc/0asc.scd,14.21,K
+/HShield/asc/moduler.scd,12.63,K
+/HShield/asc/option.scd,1.97,K
+/HShield/asc/0spe3f.scd,247,B
+/HShield/Update/patch/39/ehsvc.dl-,2.34,M
+/HShield/Update/patch/39/ahnrpt.ex-,685.08,K
+/HShield/Update/patch/39/ahnupgs.dl-,86.74,K
+/HShield/Update/patch/39/3n.mh-,86.14,K
+/HShield/Update/patch/39/hsinst.dl-,81.19,K
+/HShield/Update/patch/39/hsupdate.ex-,75.88,K
+/HShield/Update/patch/39/ahnupctl.dl-,68.38,K
+/HShield/Update/patch/39/v3hunt.dl-,67.87,K
+/HShield/Update/patch/39/hslogmgr.ex-,38.67,K
+/HShield/Update/patch/39/bz32ex.dl-,33.54,K
+/HShield/Update/patch/39/mspatcha.dl-,17.01,K
+/HShield/Update/patch/39/aspinet.dl-,12.35,K
+/HShield/Update/patch/39/psapi.dl-,11.02,K
+/HShield/Update/patch/39/v3inetgs.dl-,9.68,K
+/HShield/Update/patch/39/ahn.ui,1.4,K
+/HShield/Update/patch/39/hshield.da-,240,B
+/HShield/Update/patch/39/ahnrpt.in-,164,B
+/HShield/Update/patch/39/bldinfo.in-,110,B
+/HShield/Update/win/e/b/b_echo_sl/asc_unp.dl-,177.92,K
+/HShield/Update/win/e/b/b_echo_sl/asc_mmgr.dl-,46.42,K
+/HShield/Update/win/e/b/b_echo_sl/asc_com.dl-,34.89,K
+/HShield/Update/win/e/b/b_echo_sl/asc_dh.dl-,31.22,K
+/HShield/Update/win/e/b/b_echo_sl/fse_pe.dl-,25.23,K
+/HShield/Update/win/e/b/b_echo_sl/asc_intg.dl-,18.99,K
+/HShield/Update/win/e/b/b_echo_sl/gfs_file.dl-,13.02,K
+/HShield/Update/win/e/b/b_echo_sl/gfs_os.dl-,12.03,K
+/HShield/Update/win/e/b/b_echo_sl/gfs_util.dl-,11.83,K
+/HShield/Update/win/e/b/b_echo_sl/gfs_mem.dl-,11.5,K
+/HShield/Update/win/e/b/b_echo_sl/fse_base.dl-,10.38,K
+/HShield/Update/win/e/b/b_echo_sl/gfs_proc.dl-,10.06,K
+/HShield/Update/win/e/b/b_echo_sl/fse_fact.dl-,9,K
+/HShield/Update/win/e/b/b_echo_sl/gfs_base.dl-,8.9,K
+/HShield/Update/win/e/b/b_echo_sl/gfs_fact.dl-,7.95,K
+/HShield/Update/win/e/b/b_echo_sl/asc_fse.dl-,7.61,K
+/HShield/Update/win/e/b/b_sign_hs/0sccure.sc-,136.58,K
+/HShield/Update/win/e/b/b_sign_hs/0sgame.sc-,115.44,K
+/HShield/Update/win/e/b/b_sign_hs/moduler.sc-,13.03,K
+/HShield/Update/win/e/b/b_sign_hs/0asc.sc-,4.34,K
+/HShield/Update/win/e/b/b_sign_hs/option.sc-,2.37,K
+/HShield/Update/win/e/b/b_sign_hs/0spe3f.sc-,280,B
+/HShield/Update/win/e/b/v3_echo_hs/v3pro32s.dl-,37.75,K
+/HShield/Update/win/e/hs_heuristic/3n.mh-,120.84,K
+/HShield/Update/win/e/v3/echo_sl/v3pro32s.dl-,51.32,K
+/HShield/Update/win/e/v3/sign_hs/v3warpds.v3-,37.34,K
+/HShield/Update/win/e/v3/sign_hs/v3warpns.v3-,29.3,K
+/HShield/Update/supdate.log,2.69,M
+/HShield/Update/autoup.exe,184.07,K
+/HShield/Update/ahnupctl.dll,149.69,K
+/HShield/Update/ahni2.dll,101.67,K
+/HShield/Update/v3bz32.dll,61.85,K
+/HShield/Update/ahn.ui,2.85,K
+/HShield/Update/ahn.uic,561,B
+/HShield/hshield.log,2.61,M
+/HShield/EhSvc.dll,2.36,M
+/HShield/aspinet.log,835.76,K
+/HShield/supdate.log,814.86,K
+/HShield/AhnRpt.exe,701.66,K
+/HShield/HSInst.dll,192.09,K
+/HShield/AhnUpGS.dll,172.1,K
+/HShield/3N.mhe,161.63,K
+/HShield/HSUpdate.exe,150.7,K
+/HShield/AhnUpCtl.dll,149.69,K
+/HShield/V3Hunt.dll,137.7,K
+/HShield/HsLogMgr.exe,114.7,K
+/HShield/v3pro32s.dll,86.72,K
+/HShield/Bz32Ex.dll,80.14,K
+/HShield/v3warpns.v3d,72.42,K
+/HShield/v3warpds.v3d,49.49,K
+/HShield/AspINet.dll,36.14,K
+/HShield/V3InetGS.dll,36.1,K
+/HShield/mspatcha.dll,26.5,K
+/HShield/psapi.dll,20,K
+/HShield/HSUpChk.log,14.07,K
+/HShield/HSUpdate.env,1007,B
+/HShield/ahnrpt.ini,198,B
+/HShield/HShield.dat,160,B
+/HShield/bldinfo.ini,81,B
+/PatchClient/skin.bmp,826.44,K
+/PatchClient/start.bmp,23.49,K
+/PatchClient/start_nonpay.bmp,23.49,K
+/PatchClient/start_pay.bmp,23.49,K
+/PatchClient/beginner.bmp,22.74,K
+/PatchClient/withgm.bmp,22.74,K
+/PatchClient/center.bmp,19.65,K
+/PatchClient/home.bmp,17.63,K
+/PatchClient/exit.bmp,17.63,K
+/PatchClient/Thumbs.db,13,K
+/Rivendel-RO/skin.bmp,1.07,M
+/Rivendel-RO/start.bmp,31.3,K
+/Rivendel-RO/exit.bmp,23.49,K
+/Rivendel-RO/home.bmp,23.49,K
+/Rivendel-RO/center.bmp,22.74,K
+/Rivendel-RO/withgm.bmp,22.74,K
+/Rivendel-RO/beginner.bmp,22.74,K
+/skin/default/basic_interface/equipwin_bg.bmp,36.25,K
+/skin/default/basic_interface/basewin_bg.bmp,33.74,K
+/skin/default/basic_interface/skillcollection.bmp,33.04,K
+/skin/default/basic_interface/collection_bg.bmp,33.02,K
+/skin/default/basic_interface/exchange_bg.bmp,28.48,K
+/skin/default/basic_interface/statwin1_bg.bmp,28.37,K
+/skin/default/basic_interface/statwin0_bg.bmp,28.33,K
+/skin/default/basic_interface/optwin1_bg.bmp,28.27,K
+/skin/default/basic_interface/optwin0_bg.bmp,28.27,K
+/skin/default/basic_interface/chatwin0_bg.bmp,28.26,K
+/skin/default/basic_interface/dialog_bg.bmp,14.17,K
+/skin/default/basic_interface/basewin_mini.bmp,10.12,K
+/skin/default/basic_interface/shortitem_bg.bmp,9.39,K
+/skin/default/basic_interface/Thumbs.db,6,K
+/skin/default/basic_interface/titlebar_fix.bmp,5.57,K
+/skin/default/basic_interface/LV_UP_ON.BMP,2.9,K
+/skin/default/basic_interface/lv_up_off.bmp,2.9,K
+/skin/default/basic_interface/tab_itm_01.bmp,1.73,K
+/skin/default/basic_interface/tab_itm_02.bmp,1.72,K
+/skin/default/basic_interface/chatwin1_right.bmp,1.72,K
+/skin/default/basic_interface/tab_itm_03.bmp,1.71,K
+/skin/default/basic_interface/chatwin1_left.bmp,1.71,K
+/skin/default/basic_interface/chatwin1_mid.bmp,1.71,K
+/skin/default/basic_interface/btn_skill_on.bmp,1.66,K
+/skin/default/basic_interface/btn_map_on.bmp,1.64,K
+/skin/default/basic_interface/btn_comm_on.bmp,1.64,K
+/skin/default/basic_interface/skill_up_b.bmp,1.61,K
+/skin/default/basic_interface/skill_up_c.bmp,1.61,K
+/skin/default/basic_interface/btn_equip_on.bmp,1.6,K
+/skin/default/basic_interface/itemwin_mid.bmp,1.59,K
+/skin/default/basic_interface/btn_friend_on.bmp,1.59,K
+/skin/default/basic_interface/btn_option_on.bmp,1.57,K
+/skin/default/basic_interface/btn_status_on.bmp,1.57,K
+/skin/default/basic_interface/btn_items_on.bmp,1.55,K
+/skin/default/basic_interface/btn_cartoff.bmp,1.39,K
+/skin/default/basic_interface/mesbtn_mid.bmp,1.21,K
+/skin/default/basic_interface/mesbtn_05_a.bmp,1.16,K
+/skin/default/basic_interface/titlebar_right.bmp,1.13,K
+/skin/default/basic_interface/titlebar_mid.bmp,1.13,K
+/skin/default/basic_interface/titlebar_left.bmp,1.13,K
+/skin/default/basic_interface/mesbtn_02_a.bmp,1.07,K
+/skin/default/basic_interface/mesbtn_05_b.bmp,1.05,K
+/skin/default/basic_interface/mesbtn_03_a.bmp,1.04,K
+/skin/default/basic_interface/mesbtn_01_a.bmp,1.01,K
+/skin/default/basic_interface/btn_comm_dis.bmp,1,K
+/skin/default/basic_interface/mesbtn_04_a.bmp,1,K
+/skin/default/basic_interface/btn_comm_off.bmp,1,K
+/skin/default/basic_interface/btn_status_off.bmp,1012,B
+/skin/default/basic_interface/btn_option_off.bmp,1008,B
+/skin/default/basic_interface/btn_status_dis.bmp,1008,B
+/skin/default/basic_interface/btn_friend_off.bmp,1008,B
+/skin/default/basic_interface/btn_friend_dis.bmp,1004,B
+/skin/default/basic_interface/btn_option_dis.bmp,1004,B
+/skin/default/basic_interface/btn_map_off.bmp,996,B
+/skin/default/basic_interface/btn_map_dis.bmp,992,B
+/skin/default/basic_interface/mesbtn_02_b.bmp,992,B
+/skin/default/basic_interface/btn_equip_off.bmp,988,B
+/skin/default/basic_interface/btn_skill_off.bmp,988,B
+/skin/default/basic_interface/btn_equip_dis.bmp,984,B
+/skin/default/basic_interface/btn_skill_dis.bmp,984,B
+/skin/default/basic_interface/btn_items_off.bmp,980,B
+/skin/default/basic_interface/btn_items_dis.bmp,976,B
+/skin/default/basic_interface/GZE_BG.BMP,964,B
+/skin/default/basic_interface/mesbtn_01_b.bmp,956,B
+/skin/default/basic_interface/mesbtn_03_b.bmp,936,B
+/skin/default/basic_interface/skill_up_a.bmp,924,B
+/skin/default/basic_interface/mesbtn_04_b.bmp,920,B
+/skin/default/basic_interface/mesbtn_05.bmp,892,B
+/skin/default/basic_interface/mesbtn_04.bmp,856,B
+/skin/default/basic_interface/mesbtn_03.bmp,844,B
+/skin/default/basic_interface/mesbtn_02.bmp,840,B
+/skin/default/basic_interface/mesbtn_01.bmp,836,B
+/skin/default/basic_interface/btnbar_left2.bmp,792,B
+/skin/default/basic_interface/btnbar_right2.bmp,792,B
+/skin/default/basic_interface/btnbar_mid2.bmp,776,B
+/skin/default/basic_interface/GRP_STUN.BMP,756,B
+/skin/default/basic_interface/grp_online.bmp,752,B
+/skin/default/basic_interface/txtbox_btn_b.bmp,688,B
+/skin/default/basic_interface/txtbox_btn_a.bmp,688,B
+/skin/default/basic_interface/txtbox_btn_c.bmp,684,B
+/skin/default/basic_interface/item_invert.bmp,628,B
+/skin/default/basic_interface/btnbar_right.bmp,600,B
+/skin/default/basic_interface/btnbar_left.bmp,596,B
+/skin/default/basic_interface/btnbar_mid.bmp,584,B
+/skin/default/basic_interface/gzeblue_mid.bmp,524,B
+/skin/default/basic_interface/gzeblue_left.bmp,520,B
+/skin/default/basic_interface/gzeblue_right.bmp,520,B
+/skin/default/basic_interface/gzered_mid.bmp,504,B
+/skin/default/basic_interface/grp_leader.bmp,500,B
+/skin/default/basic_interface/gzered_left.bmp,500,B
+/skin/default/basic_interface/grp_offline.bmp,496,B
+/skin/default/basic_interface/sys_close_off.bmp,460,B
+/skin/default/basic_interface/sys_close_on.bmp,452,B
+/skin/default/basic_interface/mesbtn_right.bmp,444,B
+/skin/default/basic_interface/mesbtn_left.bmp,444,B
+/skin/default/basic_interface/sys_mini_off.bmp,416,B
+/skin/default/basic_interface/chatwin1_line.bmp,412,B
+/skin/default/basic_interface/sys_mini_on.bmp,404,B
+/skin/default/basic_interface/sys_base_off.bmp,368,B
+/skin/default/basic_interface/sys_base_on.bmp,364,B
+/skin/default/basic_interface/ARW_DOWN.BMP,300,B
+/skin/default/basic_interface/ARW_LEFT.BMP,296,B
+/skin/default/basic_interface/arw_right_on.bmp,296,B
+/skin/default/basic_interface/arw_right.bmp,296,B
+/skin/default/basic_interface/ARW_UP.BMP,296,B
+/skin/default/basic_interface/dialog_btn2.bmp,276,B
+/skin/default/basic_interface/dialog_resize.bmp,272,B
+/skin/default/basic_interface/dialog_btn1.bmp,272,B
+/skin/default/basic_interface/dialog_btn0.bmp,272,B
+/skin/default/basic_interface/ico_frozen.bmp,248,B
+/skin/default/basic_interface/ico_curse.bmp,244,B
+/skin/default/basic_interface/itemwin_right.bmp,236,B
+/skin/default/basic_interface/ico_poison.bmp,236,B
+/skin/default/basic_interface/itemwin_left.bmp,236,B
+/skin/default/basic_interface/ico_stone.bmp,232,B
+/skin/default/basic_interface/ico_confusion.bmp,232,B
+/skin/default/basic_interface/ico_silence.bmp,228,B
+/skin/default/basic_interface/gzered_right.bmp,216,B
+/skin/default/basic_interface/dialog_mid.bmp,212,B
+/skin/default/basic_interface/shortitem_btn.bmp,156,B
+/skin/default/basic_interface/cutline_0.bmp,140,B
+/skin/default/basic_interface/sysboxs_ru.bmp,136,B
+/skin/default/basic_interface/sysboxs_lu.bmp,136,B
+/skin/default/basic_interface/sysboxs_rd.bmp,136,B
+/skin/default/basic_interface/sysboxs_ld.bmp,136,B
+/skin/default/Thumbs.db,115.5,K
+/skin/default/win_msgbox.bmp,33.76,K
+/skin/default/esc_04c.bmp,5.43,K
+/skin/default/esc_04b.bmp,5.43,K
+/skin/default/esc_01b.bmp,5.43,K
+/skin/default/esc_03c.bmp,5.43,K
+/skin/default/esc_03b.bmp,5.43,K
+/skin/default/esc_01c.bmp,5.43,K
+/skin/default/esc_02b.bmp,5.43,K
+/skin/default/esc_02c.bmp,5.43,K
+/skin/default/esc_01a.bmp,4.77,K
+/skin/default/esc_02a.bmp,4.77,K
+/skin/default/esc_04a.bmp,4.76,K
+/skin/default/esc_03a.bmp,4.76,K
+/skin/default/colorchip.bmp,3.05,K
+/skin/default/btn_cancel_b.bmp,2.55,K
+/skin/default/btn_back_b.bmp,2.55,K
+/skin/default/BTN_OK_B.BMP,2.55,K
+/skin/default/btn_close_b.bmp,2.55,K
+/skin/default/btn_next_b.bmp,2.55,K
+/skin/default/btn_edit_a.bmp,1.91,K
+/skin/default/btn_edit_b.bmp,1.91,K
+/skin/default/btn_send_a.bmp,1.91,K
+/skin/default/btn_view_b.bmp,1.91,K
+/skin/default/btn_view_a.bmp,1.91,K
+/skin/default/btn_send_b.bmp,1.91,K
+/skin/default/btn_back_a.bmp,1.91,K
+/skin/default/btn_buy_a.bmp,1.91,K
+/skin/default/btn_sell_a.bmp,1.91,K
+/skin/default/btn_sell_b.bmp,1.91,K
+/skin/default/btn_buy_b.bmp,1.91,K
+/skin/default/btn_cancel_a.bmp,1.91,K
+/skin/default/btn_close_a.bmp,1.91,K
+/skin/default/btn_exchange_b.bmp,1.91,K
+/skin/default/BTN_use_a.bmp,1.91,K
+/skin/default/BTN_use_b.bmp,1.91,K
+/skin/default/btn_exchange_a.bmp,1.91,K
+/skin/default/BTN_OK_A.BMP,1.91,K
+/skin/default/btn_next_a.bmp,1.91,K
+/skin/default/chat_open.bmp,1.62,K
+/skin/default/chat_close.bmp,1.62,K
+/skin/default/shop.bmp,1.62,K
+/skin/default/BTN_OK.BMP,1.27,K
+/skin/default/BTN_BACK.BMP,1.27,K
+/skin/default/btn_close.bmp,1.26,K
+/skin/default/btn_cancel.bmp,1.26,K
+/skin/default/BTN_NEXT.BMP,1.24,K
+/skin/default/BTN_SELL.BMP,1.24,K
+/skin/default/btn_edit.bmp,1.23,K
+/skin/default/btn_view.bmp,1.23,K
+/skin/default/BTN_BUY.BMP,1.23,K
+/skin/default/btn_send.bmp,1.22,K
+/skin/default/BTN_use.bmp,1.21,K
+/skin/default/btn_exchange.bmp,1.17,K
+/skin/default/btn_exchange_dis.bmp,1.1,K
+/skin/default/btn_ok_dis.bmp,1.09,K
+/skin/default/scroll0up.bmp,528,B
+/skin/default/scroll0down.bmp,528,B
+/skin/default/scroll1right.bmp,488,B
+/skin/default/btn_resize.bmp,480,B
+/skin/default/radiobtn_on.bmp,428,B
+/skin/default/scroll1left.bmp,424,B
+/skin/default/checkbox_1.bmp,344,B
+/skin/default/sysbox_arr_r.bmp,300,B
+/skin/default/sysbox_arr_l.bmp,300,B
+/skin/default/sysbox_ru.bmp,296,B
+/skin/default/scroll0mid.bmp,296,B
+/skin/default/sysbox_ld.bmp,296,B
+/skin/default/scroll1mid.bmp,296,B
+/skin/default/sysbox_lm.bmp,296,B
+/skin/default/sysbox_rm.bmp,296,B
+/skin/default/sysbox_mu.bmp,296,B
+/skin/default/sysbox_md.bmp,296,B
+/skin/default/sysbox_rd.bmp,296,B
+/skin/default/sysbox_lu.bmp,296,B
+/skin/default/scroll1bar_left.bmp,236,B
+/skin/default/scroll1bar_right.bmp,236,B
+/skin/default/radiobtn_off.bmp,216,B
+/skin/default/scroll0bar_up.bmp,212,B
+/skin/default/scroll0bar_down.bmp,204,B
+/skin/default/checkbox_0.bmp,196,B
+/skin/default/sysbox_bg.bmp,180,B
+/skin/default/scroll1bar_mid.bmp,160,B
+/skin/default/scroll0bar_mid.bmp,156,B
+/skin/scribbling kid/basic_interface/dialog_bg.bmp,42.24,K
+/skin/scribbling kid/basic_interface/equipwin_bg.bmp,36.17,K
+/skin/scribbling kid/basic_interface/skillcollection.bmp,33.86,K
+/skin/scribbling kid/basic_interface/collection_bg.bmp,33.8,K
+/skin/scribbling kid/basic_interface/basewin_bg.bmp,33.64,K
+/skin/scribbling kid/basic_interface/optwin1_bg.bmp,29.21,K
+/skin/scribbling kid/basic_interface/exchange_bg.bmp,29.21,K
+/skin/scribbling kid/basic_interface/statwin1_bg.bmp,29.21,K
+/skin/scribbling kid/basic_interface/optwin0_bg.bmp,29.21,K
+/skin/scribbling kid/basic_interface/statwin0_bg.bmp,29.21,K
+/skin/scribbling kid/basic_interface/chatwin0_bg.bmp,29.21,K
+/skin/scribbling kid/basic_interface/shortitem_bg.bmp,27.95,K
+/skin/scribbling kid/basic_interface/basewin_mini.bmp,9.43,K
+/skin/scribbling kid/basic_interface/Thumbs.db,7,K
+/skin/scribbling kid/basic_interface/titlebar_fix.bmp,4.77,K
+/skin/scribbling kid/basic_interface/LV_UP_ON.bmp,2.9,K
+/skin/scribbling kid/basic_interface/LV_UP_OFF.bmp,2.9,K
+/skin/scribbling kid/basic_interface/tab_itm_01.bmp,2.65,K
+/skin/scribbling kid/basic_interface/tab_itm_02.bmp,2.65,K
+/skin/scribbling kid/basic_interface/tab_itm_03.bmp,2.65,K
+/skin/scribbling kid/basic_interface/btn_cartoff.bmp,1.91,K
+/skin/scribbling kid/basic_interface/btnbar_mid2.bmp,1.87,K
+/skin/scribbling kid/basic_interface/chatwin1_left.bmp,1.71,K
+/skin/scribbling kid/basic_interface/chatwin1_right.bmp,1.71,K
+/skin/scribbling kid/basic_interface/chatwin1_mid.bmp,1.71,K
+/skin/scribbling kid/basic_interface/btn_equip_dis.bmp,1.57,K
+/skin/scribbling kid/basic_interface/btn_map_dis.bmp,1.56,K
+/skin/scribbling kid/basic_interface/btn_option_dis.bmp,1.52,K
+/skin/scribbling kid/basic_interface/btn_skill_dis.bmp,1.51,K
+/skin/scribbling kid/basic_interface/btn_friend_dis.bmp,1.48,K
+/skin/scribbling kid/basic_interface/btn_comm_dis.bmp,1.46,K
+/skin/scribbling kid/basic_interface/btn_status_dis.bmp,1.44,K
+/skin/scribbling kid/basic_interface/btn_equip_on.bmp,1.43,K
+/skin/scribbling kid/basic_interface/btn_comm_off.bmp,1.43,K
+/skin/scribbling kid/basic_interface/btn_map_off.bmp,1.43,K
+/skin/scribbling kid/basic_interface/btn_equip_off.bmp,1.41,K
+/skin/scribbling kid/basic_interface/btn_skill_off.bmp,1.41,K
+/skin/scribbling kid/basic_interface/btn_items_dis.bmp,1.37,K
+/skin/scribbling kid/basic_interface/btn_friend_off.bmp,1.37,K
+/skin/scribbling kid/basic_interface/btn_status_on.bmp,1.34,K
+/skin/scribbling kid/basic_interface/skill_up_c.bmp,1.33,K
+/skin/scribbling kid/basic_interface/btn_status_off.bmp,1.32,K
+/skin/scribbling kid/basic_interface/skill_up_b.bmp,1.32,K
+/skin/scribbling kid/basic_interface/btn_skill_on.bmp,1.31,K
+/skin/scribbling kid/basic_interface/btn_friend_on.bmp,1.29,K
+/skin/scribbling kid/basic_interface/btn_option_on.bmp,1.29,K
+/skin/scribbling kid/basic_interface/btn_option_off.bmp,1.29,K
+/skin/scribbling kid/basic_interface/btn_items_off.bmp,1.27,K
+/skin/scribbling kid/basic_interface/btn_map_on.bmp,1.27,K
+/skin/scribbling kid/basic_interface/btn_comm_on.bmp,1.26,K
+/skin/scribbling kid/basic_interface/btn_items_on.bmp,1.25,K
+/skin/scribbling kid/basic_interface/itemwin_mid.bmp,1.08,K
+/skin/scribbling kid/basic_interface/skill_up_a.bmp,1.07,K
+/skin/scribbling kid/basic_interface/mesbtn_01_b.bmp,1.04,K
+/skin/scribbling kid/basic_interface/mesbtn_01_a.bmp,1.04,K
+/skin/scribbling kid/basic_interface/mesbtn_01.bmp,1.03,K
+/skin/scribbling kid/basic_interface/mesbtn_02_b.bmp,924,B
+/skin/scribbling kid/basic_interface/mesbtn_04_a.bmp,916,B
+/skin/scribbling kid/basic_interface/mesbtn_04_b.bmp,916,B
+/skin/scribbling kid/basic_interface/mesbtn_02_a.bmp,904,B
+/skin/scribbling kid/basic_interface/mesbtn_02.bmp,900,B
+/skin/scribbling kid/basic_interface/mesbtn_04.bmp,892,B
+/skin/scribbling kid/basic_interface/mesbtn_05_b.bmp,880,B
+/skin/scribbling kid/basic_interface/mesbtn_05_a.bmp,872,B
+/skin/scribbling kid/basic_interface/GZE_BG.bmp,868,B
+/skin/scribbling kid/basic_interface/mesbtn_05.bmp,860,B
+/skin/scribbling kid/basic_interface/btnbar_right2.bmp,784,B
+/skin/scribbling kid/basic_interface/btnbar_left2.bmp,784,B
+/skin/scribbling kid/basic_interface/mesbtn_03_b.bmp,764,B
+/skin/scribbling kid/basic_interface/mesbtn_03_a.bmp,760,B
+/skin/scribbling kid/basic_interface/mesbtn_03.bmp,752,B
+/skin/scribbling kid/basic_interface/item_invert.bmp,628,B
+/skin/scribbling kid/basic_interface/btnbar_right.bmp,588,B
+/skin/scribbling kid/basic_interface/btnbar_left.bmp,588,B
+/skin/scribbling kid/basic_interface/btnbar_mid.bmp,584,B
+/skin/scribbling kid/basic_interface/grp_leader.bmp,472,B
+/skin/scribbling kid/basic_interface/txtbox_btn_a.bmp,464,B
+/skin/scribbling kid/basic_interface/txtbox_btn_c.bmp,464,B
+/skin/scribbling kid/basic_interface/txtbox_btn_b.bmp,464,B
+/skin/scribbling kid/basic_interface/arw_right_on.bmp,452,B
+/skin/scribbling kid/basic_interface/GRP_STUN.bmp,440,B
+/skin/scribbling kid/basic_interface/chatwin1_line.bmp,416,B
+/skin/scribbling kid/basic_interface/grp_online.bmp,352,B
+/skin/scribbling kid/basic_interface/titlebar_left.bmp,332,B
+/skin/scribbling kid/basic_interface/titlebar_right.bmp,332,B
+/skin/scribbling kid/basic_interface/titlebar_mid.bmp,328,B
+/skin/scribbling kid/basic_interface/grp_offline.bmp,324,B
+/skin/scribbling kid/basic_interface/dialog_resize.bmp,268,B
+/skin/scribbling kid/basic_interface/ico_frozen.bmp,248,B
+/skin/scribbling kid/basic_interface/dialog_btn2.bmp,248,B
+/skin/scribbling kid/basic_interface/dialog_btn1.bmp,244,B
+/skin/scribbling kid/basic_interface/dialog_btn0.bmp,244,B
+/skin/scribbling kid/basic_interface/ico_curse.bmp,244,B
+/skin/scribbling kid/basic_interface/mesbtn_right.bmp,240,B
+/skin/scribbling kid/basic_interface/mesbtn_left.bmp,240,B
+/skin/scribbling kid/basic_interface/ico_poison.bmp,236,B
+/skin/scribbling kid/basic_interface/mesbtn_mid.bmp,236,B
+/skin/scribbling kid/basic_interface/itemwin_left.bmp,236,B
+/skin/scribbling kid/basic_interface/itemwin_right.bmp,236,B
+/skin/scribbling kid/basic_interface/ico_confusion.bmp,232,B
+/skin/scribbling kid/basic_interface/ico_stone.bmp,232,B
+/skin/scribbling kid/basic_interface/ico_silence.bmp,228,B
+/skin/scribbling kid/basic_interface/arw_right.bmp,216,B
+/skin/scribbling kid/basic_interface/ARW_DOWN.bmp,216,B
+/skin/scribbling kid/basic_interface/ARW_UP.bmp,216,B
+/skin/scribbling kid/basic_interface/ARW_LEFT.bmp,216,B
+/skin/scribbling kid/basic_interface/sys_base_on.bmp,212,B
+/skin/scribbling kid/basic_interface/sys_mini_off.bmp,212,B
+/skin/scribbling kid/basic_interface/sys_base_off.bmp,212,B
+/skin/scribbling kid/basic_interface/sys_mini_on.bmp,212,B
+/skin/scribbling kid/basic_interface/sys_close_off.bmp,212,B
+/skin/scribbling kid/basic_interface/sys_close_on.bmp,212,B
+/skin/scribbling kid/basic_interface/dialog_mid.bmp,208,B
+/skin/scribbling kid/basic_interface/shortitem_btn.bmp,148,B
+/skin/scribbling kid/basic_interface/sysboxs_lu.bmp,140,B
+/skin/scribbling kid/basic_interface/sysboxs_ld.bmp,140,B
+/skin/scribbling kid/basic_interface/sysboxs_ru.bmp,140,B
+/skin/scribbling kid/basic_interface/sysboxs_rd.bmp,140,B
+/skin/scribbling kid/basic_interface/cutline_0.bmp,136,B
+/skin/scribbling kid/basic_interface/gzered_left.bmp,116,B
+/skin/scribbling kid/basic_interface/gzeblue_right.bmp,116,B
+/skin/scribbling kid/basic_interface/gzeblue_left.bmp,116,B
+/skin/scribbling kid/basic_interface/gzered_right.bmp,116,B
+/skin/scribbling kid/basic_interface/gzeblue_mid.bmp,112,B
+/skin/scribbling kid/basic_interface/gzered_mid.bmp,112,B
+/skin/scribbling kid/Thumbs.db,118.5,K
+/skin/scribbling kid/win_msgbox.bmp,32.96,K
+/skin/scribbling kid/esc_01a.bmp,5.43,K
+/skin/scribbling kid/esc_03c.bmp,5.43,K
+/skin/scribbling kid/esc_01b.bmp,5.43,K
+/skin/scribbling kid/esc_02b.bmp,5.43,K
+/skin/scribbling kid/esc_02a.bmp,5.43,K
+/skin/scribbling kid/esc_01c.bmp,5.43,K
+/skin/scribbling kid/esc_02c.bmp,5.43,K
+/skin/scribbling kid/esc_04c.bmp,5.4,K
+/skin/scribbling kid/esc_04b.bmp,5.34,K
+/skin/scribbling kid/esc_03b.bmp,5.34,K
+/skin/scribbling kid/esc_03a.bmp,5,K
+/skin/scribbling kid/esc_04a.bmp,4.93,K
+/skin/scribbling kid/btn_exchange_b.bmp,1.65,K
+/skin/scribbling kid/btn_send_b.bmp,1.64,K
+/skin/scribbling kid/btn_edit_b.bmp,1.63,K
+/skin/scribbling kid/btn_back_b.bmp,1.63,K
+/skin/scribbling kid/btn_next_b.bmp,1.59,K
+/skin/scribbling kid/btn_cancel_b.bmp,1.59,K
+/skin/scribbling kid/btn_view_b.bmp,1.56,K
+/skin/scribbling kid/btn_send_a.bmp,1.55,K
+/skin/scribbling kid/btn_exchange_a.bmp,1.52,K
+/skin/scribbling kid/btn_close_b.bmp,1.51,K
+/skin/scribbling kid/btn_next_a.bmp,1.5,K
+/skin/scribbling kid/btn_back_a.bmp,1.5,K
+/skin/scribbling kid/btn_edit_a.bmp,1.49,K
+/skin/scribbling kid/BTN_OK_B.BMP,1.48,K
+/skin/scribbling kid/btn_buy_b.bmp,1.48,K
+/skin/scribbling kid/BTN_use_b.bmp,1.46,K
+/skin/scribbling kid/btn_sell_b.bmp,1.45,K
+/skin/scribbling kid/btn_view_a.bmp,1.44,K
+/skin/scribbling kid/btn_cancel_a.bmp,1.43,K
+/skin/scribbling kid/BTN_OK_A.BMP,1.43,K
+/skin/scribbling kid/btn_buy_a.bmp,1.42,K
+/skin/scribbling kid/BTN_use_a.bmp,1.41,K
+/skin/scribbling kid/btn_close_a.bmp,1.39,K
+/skin/scribbling kid/btn_sell_a.bmp,1.35,K
+/skin/scribbling kid/btn_send.bmp,1.22,K
+/skin/scribbling kid/btn_exchange.bmp,1.22,K
+/skin/scribbling kid/BTN_NEXT.BMP,1.22,K
+/skin/scribbling kid/btn_edit.bmp,1.22,K
+/skin/scribbling kid/BTN_BACK.BMP,1.2,K
+/skin/scribbling kid/btn_cancel.bmp,1.19,K
+/skin/scribbling kid/BTN_OK.BMP,1.18,K
+/skin/scribbling kid/BTN_use.bmp,1.18,K
+/skin/scribbling kid/btn_close.bmp,1.17,K
+/skin/scribbling kid/BTN_BUY.BMP,1.17,K
+/skin/scribbling kid/btn_view.bmp,1.17,K
+/skin/scribbling kid/BTN_SELL.BMP,1.14,K
+/skin/scribbling kid/btn_exchange_dis.bmp,1.14,K
+/skin/scribbling kid/btn_ok_dis.bmp,1.14,K
+/skin/scribbling kid/colorchip.bmp,1.11,K
+/skin/scribbling kid/shop.bmp,1.03,K
+/skin/scribbling kid/chat_close.bmp,908,B
+/skin/scribbling kid/chat_open.bmp,844,B
+/skin/scribbling kid/sysbox_rm.bmp,312,B
+/skin/scribbling kid/sysbox_mu.bmp,312,B
+/skin/scribbling kid/sysbox_lm.bmp,312,B
+/skin/scribbling kid/sysbox_md.bmp,308,B
+/skin/scribbling kid/sysbox_rd.bmp,308,B
+/skin/scribbling kid/scroll0up.bmp,308,B
+/skin/scribbling kid/sysbox_lu.bmp,308,B
+/skin/scribbling kid/sysbox_ru.bmp,308,B
+/skin/scribbling kid/sysbox_ld.bmp,308,B
+/skin/scribbling kid/sysbox_arr_r.bmp,308,B
+/skin/scribbling kid/scroll1left.bmp,308,B
+/skin/scribbling kid/sysbox_arr_l.bmp,308,B
+/skin/scribbling kid/scroll1right.bmp,304,B
+/skin/scribbling kid/scroll0down.bmp,304,B
+/skin/scribbling kid/checkbox_1.bmp,304,B
+/skin/scribbling kid/sysbox_bg.bmp,296,B
+/skin/scribbling kid/btn_resize.bmp,292,B
+/skin/scribbling kid/scroll0mid.bmp,292,B
+/skin/scribbling kid/scroll1mid.bmp,292,B
+/skin/scribbling kid/radiobtn_on.bmp,260,B
+/skin/scribbling kid/radiobtn_off.bmp,228,B
+/skin/scribbling kid/checkbox_0.bmp,196,B
+/skin/scribbling kid/scroll0bar_up.bmp,156,B
+/skin/scribbling kid/scroll0bar_down.bmp,156,B
+/skin/scribbling kid/scroll0bar_mid.bmp,152,B
+/skin/scribbling kid/scroll1bar_right.bmp,144,B
+/skin/scribbling kid/scroll1bar_left.bmp,144,B
+/skin/scribbling kid/scroll1bar_mid.bmp,140,B
+/skin/+Â¦+Â¦-Âª+Â¦++Â¦Â¦+=.txt,9.18,K
+/_tmpEmblem/RivendelRO_464_17.ebm,1.69,K
+/_tmpEmblem/RivendelRO_4_218.ebm,732,B
+/_tmpEmblem/RivendelRO_42_1.ebm,703,B
+/_tmpEmblem/RivendelRO_29_5.ebm,689,B
+/_tmpEmblem/RivendelRO_394_3.ebm,185,B
+/data.grf,1.21,G
+/rdata.grf,156.39,M
+/riro.grf,62.48,M
+/RIRO.DLL,15.13,M
+/riro.exe,3.9,M
+/Ragexe.exe,3.85,M
+/RagexeRE.exe,3.75,M
+/mfc90u.dll,1.11,M
+/mfc90.dll,1.1,M
+/msvcr90.dll,640.5,K
+/msvcp90.dll,555.5,K
+/suipre.dll,408.14,K
+/msvcp60.dll,392.05,K
+/ijl15.dll,364,K
+/binkw32.dll,350.55,K
+/Mss32.dll,338.5,K
+/GameGuard.des,274.69,K
+/NPSCAN.DES,272.09,K
+/FindHack.exe,261,K
+/aossdk.dll,248.13,K
+/ASPLnchr.exe,242.74,K
+/npkcrypt.dll,228.08,K
+/granny2.dll,225.05,K
+/msvcm90.dll,219.5,K
+/Ragnarok.exe,192,K
+/Ragnarok_RE.exe,192,K
+/Setup.exe,188,K
+/lua.exe,184,K
+/NPUPDATE0.DLL,161,K
+/dbghelp.dll,159.27,K
+/npupdate.dll,153,K
+/RivendelRO.exe,140,K
+/supdate.log,131.88,K
+/v3hunt.dll,128.13,K
+/NPX.DLL,124,K
+/Mp3dec.asi,123,K
+/RSU-Renewal.exe,112.5,K
+/RSU-Ragnarok.exe,112.5,K
+/bz32ex.dll,85.48,K
+/npkeysdk.dll,80,K
+/Desinstalar RivendelRO.exe,73.62,K
+/cps.dll,72,K
+/GravityMain.jpg,70.18,K
+/Mssfast.m3d,61.5,K
+/NPCHK.DLL,60.5,K
+/Uninstall.exe,60.35,K
+/mfcm90u.dll,58.5,K
+/mfcm90.dll,58.5,K
+/NPCIPHER.DLL,54,K
+/npkpdb.dll,52,K
+/IFU148.inf,45.56,K
+/IFU14E.inf,41.01,K
+/IFU7A.inf,40.86,K
+/npkcusb.sys,36.14,K
+/NPPSK.DLL,31,K
+/npkcrypt.sys,20.94,K
+/npkcrypt.vxd,18.13,K
+/patchRE3.txt,10.82,K
+/patch8.txt,10.26,K
+/dinput.dll,9.96,K
+/tipOfTheDay.txt,9.54,K
+/dinput.ini,1.29,K
+/Ragexe.exe.manifest,953,B
+/FORMAT.CFG,898,B
+/KOR_LANG.CFG,837,B
+/licence.txt,595,B
+/Microsoft.VC90.MFC.manifest,548,B
+/Microsoft.VC90.CRT.manifest,524,B
+/Ragnarok.exe.manifest,521,B
+/Ragnarok.ini,336,B
+/ProhibitionLog.gd,79,B
+/RIRO.INI,57,B
+/rivudt.txt,30,B
+/patch_allow_RE.txt,5,B
+/rivudtallow.txt,5,B
+/patch_allow.txt,5,B
+/patchRE.inf,4,B
+/Patch.inf,4,B

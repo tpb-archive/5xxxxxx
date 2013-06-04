@@ -1,0 +1,63 @@
+
+
+1080i HDVictoria's_Secret_Fashion_Show_2009-1010_1080i_HD.ts
+Format                           : MPEG-TS
+File size                        : 5.19 GiB
+Duration                         : 43mn 17s
+Overall bit rate                 : 17.2 Mbps
+
+Video
+ID                               : 2048 (0x800)
+Menu ID                          : 1 (0x1)
+Format                           : MPEG Video
+Format version                   : Version 2
+Format profile                   : Main@High
+Format settings, BVOP            : Yes
+Format settings, Matrix          : Default
+Duration                         : 43mn 16s
+Bit rate mode                    : Variable
+Bit rate                         : 15.6 Mbps
+Nominal bit rate                 : 38.8 Mbps
+Width                            : 1 920 pixels
+Height                           : 1 080 pixels
+Display aspect ratio             : 16:9
+Frame rate                       : 29.970 fps
+Standard                         : Component
+Resolution                       : 8 bits
+Colorimetry                      : 4:2:0
+Scan type                        : Interlaced
+Scan order                       : Top Field First
+Bits/(Pixel*Frame)               : 0.251
+Stream size                      : 4.72 GiB (91%)
+
+Audio
+ID                               : 2049 (0x801)
+Menu ID                          : 1 (0x1)
+Format                           : AC-3
+Format/Info                      : Audio Coding 3
+Format_Settings_ModeExtension    : CM (complete main)
+Duration                         : 43mn 16s
+Bit rate mode                    : Constant
+Bit rate                         : 384 Kbps
+Channel(s)                       : 6 channels
+Channel positions                : Front: L C R, Side: L R, LFE
+Sampling rate                    : 48.0 KHz
+Stream size                      : 119 MiB (2%)
+
+Text #1
+ID                               : 2048 (0x800)608-1
+Menu ID                          : 1 (0x1)
+Format                           : EIA-608
+Muxing mode                      : MPEG Video / EIA-708
+Muxing mode, more info           : Muxed in Video #1
+Duration                         : 43mn 16s
+Stream size                      : 0.00 Byte (0%)
+
+Text #2
+ID                               : 2048 (0x800)1
+Menu ID                          : 1 (0x1)
+Format                           : EIA-708
+Muxing mode                      : MPEG Video / EIA-708
+Muxing mode, more info           : Muxed in Video #1
+Duration                         : 43mn 16s
+Stream size                      : 0.00 Byte (0%)

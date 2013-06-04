@@ -1,0 +1,56 @@
+Admin_Explorer_final.exe let you run a alternative Explorer shell 
+as admin from a limited account.
+(based on XYplorer v9.10)
+The first time you run the executable you will be prompted for a username
+and password.(The admin credentials)
+Those details will then be encrypted and saved in a file called Adminpass.dat.
+
+The Adminpass.dat file gets created in programfilesXyplorerData directory.
+(C:Program FilesXyplorerDataAdminpass.dat)
+
+The next time you run Admin-Explorer.exe, it reads the encrypted admin
+credentials from the Adminpass.dat, and executes explorer automatically.
+
+If you want to change or delete the credentials, simply 
+delete the Adminpass.dat file.
+You will then be prompted again for username and password.
+
+By using this app, you will get a much cleaner interface, with direct access
+to many of the administrator tools one click away, without the hassle of UAC promts.
+Still benefitting of the security of limited account user.
+Remember though, running a second instance as Administrator on Win7, still gives you a few prompts
+on some of the tools.
+This is because the elevation scheme built into win7. 
+http://en.wikipedia.org/wiki/User_Account_Control
+I recommend using the superuser account "Administrator" for minimal UAC prompts.
+(This app does not write to registry, all settings is in a ini file)
+On XP this app is a breeze, Total admin control, but still peasant, farmer, underdog user  
+
+(On a footnote i can tell you while developing this app, i truly appreciate
+the non-bloated interface of XYplorer.
+The obnoxious explorer interface on Windows 7 turns my gut around.)
+
+Updated to Xyplorer v9.10 and the following improvements:
+
+Profile installer (on non UAC OS'es only)
+By choosing the profile installer feature, you will be logged in 
+to the current userprofile with admin priviledges, without being an admin!
+This is very usefull.
+You can install programs, run regcleaners etc, and the settings will be 
+stored/deleted from the current user profile.
+This is achieved by adding the non admin user to the administrator
+group temporarily, and start a new login session.
+Directly after the session is started, the user gets removed from the
+administrator group.
+Since the session got created before the user were demoted, admin credentials
+still apply.effectively making you an admin, without belonging to the 
+admin group.
+No need to logout and login again as you usually have to do, when changing
+user groups for the new credentials to be effective.
+This works immediately!
+Just choose what application/installer you wanna run, or open a new instance
+of Xyplorer.
+
+Choice to save admin credentials or not on startup
+
+Improved detection of OS

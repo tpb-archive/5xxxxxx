@@ -1,0 +1,48 @@
+User Type,Username,Date,Text
+[T],FatFreddy69,2010-05-02T21:56Z,"Only those will be shown as seeders who downloaded all the files. Very few obviousely will download all that's why are shwon only 5 seeders right now.
+Any way don't forget to skip from download the separate AC§ dub files if you don't need them."
+[T],FatFreddy69,2010-05-08T07:58Z,"Those with Win 7 64 bit seem to have issues with playing back seccondary or external audio tracks & subs etc.
+Much better then k-lite pack(too complicated) is CCCP ( http://www.cccp-project.net/ ) using the same player MPC) When installing leave all as it is (default). When finished open the player, click View/Options/PlaybackOutput/check Evr Costum Pres & chose System Default under DirectShow Audio.Under Internal Filters - Source Filters should be checked DirectShow Media, Matroska & MP4 and Transform Filters should have H264/AVC(DXVA) checked & next (FFmpeg) unchecked. Now I can even play Blue-ray m2ts being able to switch between Audio tracks by clicking on the Haali Media Spliter on the task bar bottom right."
+[T],FatFreddy69,2010-05-08T09:36Z,"@yorkman
+#1.This is full 1080p. 1 920 x 1 072 because the missing 8 pixels were black bars, just like here:
+http://thepiratebay.org/torrent/5528589/Avatar_2009_BluRay_1080p_DTS-HD_MA_5.1_x264_-Wrath
+
+Nothing was cropped from the picture.  good luck with your encoding, when you're you're done compare the quality of the two files, lol..
+
+
+Avatar 2009 1080p BluRay X264-AMIABLE (1920x1080)
+http://img27.imageshack.us/img27/7430/bscap0013pk.jpg
+
+My torrent (1 920 x 1 072 )
+snap shot of the same frame as the AMIABLE's:
+http://j.imagehost.org/0997/Avatar_2009_BDRip_1080p_x264_mkv_Frame_11285.jpg
+You see no black bar at the bottom of my picture and my picture has more natural colors, the other has more red/violet in it(it could be the source but also one can manipulate with the colors when ripping with ripbot, I never change the colors).
+
+#2.What I said in description about subtitles refers to TextSubs (srt) not  VobSubs(idx/sub).
+"
+[T],FatFreddy69,2010-05-09T23:25Z,"Magyar Avatar Forced na'vi szöveghez felirat:
+
+http://www.filmfeliratok.org/film-feliratok/#search
+
+Az elsö-t kipróbáltam es jo. Nevezd at erre:
+Avatar (2009) BDRip 1080p x264.Magyar Forced
+es automatikusan megmutatja a felirat listán, vagy rakd be(muxold be) az mkv-ban az mkvmerge GUI -al (   http://www.videohelp.com/tools/MKVtoolnix   )"
+,SyrinXeno,2010-05-11T19:56Z,"Great torrent, great quality. I used mkvmerge GUI to remove french audio and all subtitles except the english one, reducing the file to 12.4 GB (I did not try to extract eng sub though, cause i want it to be included).
+
+I have Win7 64bit and use VLC media player for playback and everything works fine.
+
+However, to see a sub/translation when they are talking Na'vi I have to turn on a sub, would be nice if they could be displayed without sub too somehow, maybe by including it in audio for showing the right translation?, but i don't know if that's possible.
+
+After all, it's great, I love your multi torrents mkvonly, keep up the good work!"
+[T],FatFreddy69,2010-05-12T02:52Z,"English subtitle (I tried it and is good) only for the Na'vi dialog:
+
+http://www.opensubtitles.org/en/subtitles/3672095/avatar-en
+
+Rename it to 
+Avatar (2009) BDRip 1080p x264.Eng Na'vi
+in the same folder then you should see it in the list of subs as Eng Na'vi. cheers"
+[T],FatFreddy69,2010-07-05T09:08Z,"If DTS is not good for you convert to AC3 without extracting the Audio Track in a few minutes with PopCorn MKV AudioConverter
+http://www.videohelp.com/tools/PopCorn_MKV_AudioConverter
+Don't convert it to lower then 448 KB/s. "
+,thewiggle,2010-07-17T19:35Z,"Hi Mkvonly. I have a big problem. The movie isnt running flawlessly on my computer! I have loads of pixels and some pauses etc. It just looks as if my computer is too weak to play the file. But thats surprising. nhere are my pc details:nnARBEITSSPEICHERnn 4 GB DIMM DDR2nnSpeichermodul : Corsair CM2X2048-6400C4DHX 2GB DIMM DDR2 PC2-6400U DDR2-800 (5-5-5-18 3-23-6-3)nnSpeichermodul : Corsair CM2X2048-6400C4DHX 2GB DIMM DDR2 PC2-6400U DDR2-800 (5-5-5-18 3-23-6-3)nnSpeicherbusgeschwindigkeit : 2x 401MHz (802MHz)nnnCHIPSATZnnModell : ASUS X48 Processor to I/O ControllernnFront Side Bus Geschwindigkeit : 4x 334MHz (1.34GHz)nnnnGRAFIKSYSTEMnnGainward Grafikkarte:nnAdapter : NVIDIA GeForce 8800 GTS (96 SM4.0 1.1GHz, 640MB DDR3 2x792MHz, PCIe 1.00 x16)nnGrafikprozessornnAdapter : NVIDIA GeForce 8800 GTS (96SP 1.19GHz, 640MB 2x792MHz Interne Grafikeinheit)nnI mean I dont have such a weak system. I don\'t get it. However, do you think it might be an idea to reduce the file size by removing all irrelevant subtitles and dubs? I am only interested in German and english subs and dubs. Maybe a bit smaller file can be played better on my pc? If you think it might work. How exactly do I remove all non Germen+English subs + dubs? I never ripped, encoded anything before. Total newbie here regarding this topic. DO you have a step by step guide for me? Thanks in advance and thanks for the great file!nnthewiggle"
+,thewiggle,2010-07-17T19:45Z,"Hi Mkvonly. I have a big problem. The movie isnt running flawlessly on my computer! I have loads of pixels and some pauses etc. It just looks as if my computer is too weak to play the file. But thats surprising. nhere are my pc details: RAM: 4 GB DIMM DDR2. nSpeicherbusgeschwindigkeit : 2x 401MHz (802MHz) // Computermodel:  : ASUS X48 Processor to I/O Controller // Front Side Bus Speed : 4x 334MHz (1.34GHz) // Graphic : Gainward Grafikkarte: Adapter : NVIDIA GeForce 8800 GTS (96 SM4.0 1.1GHz, 640MB DDR3 2x792MHz, PCIe 1.00 x16) /// Grafikprozessor : Adapter : NVIDIA GeForce 8800 GTS (96SP 1.19GHz, 640MB 2x792MHz Interne Grafikeinheit). nI mean I dont have such a weak system. I don\'t get it. However, do you think it might be an idea to reduce the file size by removing all irrelevant subtitles and dubs? I am only interested in German and english subs and dubs. Maybe a bit smaller file can be played better on my pc? If you think it might work. How exactly do I remove all non Germen+English subs + dubs? I never ripped, encoded anything before. Total newbie here regarding this topic. DO you have a step by step guide for me? Thanks in advance and thanks for the great file!nnthewiggle"

@@ -1,0 +1,50 @@
+WoWEmuHacker 5.0.5.2 - 3.3.3 (11685) & v3.3.3a (11723)
+
+By: Devalina(Supreme Being) of Deathsoft.com
+
+------------------------------------------------------------
+Features:
+â€¢ Goto Location 
+â€¢ Goto Spirit Healer 
+â€¢ Goto Corpse
+â€¢ SpeedHacking 
+â€¢ Trackings 
+â€¢ Wall Climb
+â€¢ No Fall Damage 
+â€¢ Teleport to Plane 
+â€¢ FlyMode
+â€¢ Walk on Water 
+â€¢ Hyper Mode 
+â€¢ P2P Teleport
+â€¢ Allow Model Hacks 
+â€¢ Gravity Control 
+â€¢ Change Model Size
+â€¢ No Clip 
+â€¢ Increase XYZ 
+â€¢ Decrease XYZ 
+â€¢ Air Jump
+â€¢ Faction Change 
+â€¢ Rosetta Stone
+------------------------------------------------------------
+These clients are detected through an MD5 hash check run when the target process is selected. If you have modded your WoW.exe the MD5 will fail and you will not be able to use WEH with it, you can provide the MD5 shown by Client Info and WoW.exe version to me in a PM to have support added.
+------------------------------------------------------------
+Buttons:
+â€¢ Teleport List: Shows the teleport locations found in your WEHTeleportList.txt
+â€¢ Add Location: Adds your current location into WEHTeleportList.txt
+â€¢ Launch WoW: Launches client.
+â€¢ Spirit Healer: Teleports you to the nearest Spirit Healer (While Dead)
+â€¢ Goto Corpse: Teleports you to your corpse (While Dead)
+â€¢ HotKeys: Show Hotkey Dialog Box. Note* To remove a hotkey select the hotkey you want hit backspace so it says None then hit set.
+â€¢ Client Info: Display the PID, Client Version, MD5, Client Path of the open process.
+â€¢ Save Settings: Saves your currently selected options in the windows registry.
+â€¢ about: Display the about box.
+------------------------------------------------------------
+How To Use:
+If you have started WEH before starting WoW you can select your client by going to the Process ID Drop List and selecting the PID of the client, this allows you to select from multiple versions of WoW.exe that might be open and using the Client Info button, you can confirm if its the correct one you have selected, by default WEH will open the first WoW.exe that it detects. If you have more then one WoW open you can still switch to another client from the drop box.
+------------------------------------------------------------
+Note* Warning:
+There have been a few reports from users who use AVG anti-virus that the AVG program has been blocking WEH, this is because of the file compressor used with WEH is setting off the AVG protection and therefore causing it to block the program from starting. The fix to this is to add WEH to the allow list of programs in AVG or to Disable AVG while using WEH, no other Anti Virus programs have had any issues that I am aware of.
+------------------------------------------------------------
+Changes:
+Added support for 3.3.3 & 3.3.3a
+Also added Fish Tracking.

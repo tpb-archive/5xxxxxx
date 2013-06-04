@@ -1,0 +1,13 @@
+User Type,Username,Date,Text
+,thuerrsch,2010-05-25T09:57Z,"Very beautiful! Thx for sharing! This will be a gem among my (many) recordings I possess via a torrent source.
+
+BTW, the flacs don't have their MD5 signatures set in the STREAMINFO. A simple reencode will fix this, but ..."
+,twistles,2010-05-25T21:36Z,"Glad you like it =)  It really is a superb recording, but then again one cannot go far wrong with the Tallis Scholars imo.
+
+I include MD5 tags NOT so the end user can confirm the accuracy of supplied audio compared to the moment it was ripped, but so they can check, without requiring use of a suitable torrent client, whether they have suffered silent corruption across multiple files over the long-term (eg through copying, esp. to optical media): a real problem these days with monster drives.  Therefore I am not keen on MD5 values being included in tags, and for several further reasons: 
+
+a) The checksum is of the audio stream, and therefore will appear correct even if the metadata has been altered (thus changing the md5 of the entire file, which is what counts for torrents!), 
+
+b) Limited software support for the checksum field within software: an embedded tag is fairly pointless if you cannot quickly check the accuracy of multiple files for corruption.
+
+c) The nifty hashcheck shell extension (a tiny 85K) reads the included MD5 file perfectly ~ a case of ""Ain't broke? Dont fix!"".  If you don't know of it, try it out.  Download at : http://code.kliu.org/hashcheck/"

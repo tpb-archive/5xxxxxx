@@ -1,0 +1,85 @@
+DOCman 1.5.5 Stable FULL
+------------------------
+
+DOCman is a document and dowload management solution for Joomla! v1.5. DOCman makes offering downloadable documents on your Joomla site a breeze.
+
+Manage documents across multiple categories and subcategories, give users permission to upload, download or edit documents. Store documents either locally or remotely and prevent direct linking using our build-in anti-leech system.
+
+All from within an intuitive and simple to use administration interface.
+
+
+JOOMLA 1.5 NATIVE!
+
+
+
+These are the main features of DOCman
+-------------------------------------
+
+* Infinite categories and subcategories. The documents can be organized across custom categories and subcategories;
+
+* Files can be hosted locally or on a remote server
+
+* Access control: Documents can be assigned to specific user or to custom groups of users
+
+* Download counter and log. You can display a download counter per document and all the downloads can be logged (by user, IP, browser, date and hour);
+
+* Own search system. Documents can be searched by name and/or description. The search system integrates with Joomla! using an optional mambot;
+
+* Anti-leech system. The built-in anti-leech system avoids direct linking to documents;
+
+* Path protection. Real paths to documents are never displayed to users;
+
+* Themes: The layout can be changed using custom themes;
+
+* ... and much more!
+
+
+
+DOCman 1.5.5 released on 03/09/2010
+----------------------------------
+
+A couple of regressions were discovered after the releases of 1.5.3 and 1.5.4, which mostly affected IIS users (and local Windows installations). That's why we we decided to get the fixes out so soon. This should allow us to get back to our regular release schedule of +- 4 weeks. As usual, if you've bought DOCman 1.5, you will get the latest update by mail.
+
+Changes in 1.5.5
+
+    * Fixed 403 error when author uses DOClink
+    * Fixed search form html anomality
+    * Fixed missing icons
+
+Changes in 1.5.4
+
+    * Fixed some IIS regressions
+    * Fixed notices in Search
+    * Fixed problem uploading on IIS in some cases
+
+
+Changes in 1.5.3
+
+    * Fix - Upgrade with FTP Layer
+    * Fix - Issue with theme configuration not being found in some cases
+    * Fix - User can no longer upload all file types not obeyed
+    * Fix - Search results now point to correct menu items
+    * Fix - Searching international characters
+    * Fix - Missing icon in DOClink
+    * Fix - Description vanishes in IE7, because of Joomla template dependence
+    * Fix - Improved IIS compatibility drastically
+    * Fix - DOClink takes into account multiple DOCman menu items
+    * Fix - Unable to select unpublished category when creating document
+    * Fix - More helpful info when configuring max upload filesize
+    * Fix - Version check during install requires PHP5
+    * Change - Refactored Help button to point to support.joomlatools.eu
+    * Change - Removed email group
+    * Note - Max documents limit in DOClink upped to 2500
+    * Performance:
+          o Loading users in frontend is now twice as fast
+          o Documents view is now 10% faster
+          o Files view is now 60% faster
+
+
+
+System Requirements
+-------------------
+
+1. Joomla 1.5.x (recommended 1.5.15 or later). 
+2. PHP 5.2.x or higher
+3. Database: MySQL 4.1 or higher

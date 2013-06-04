@@ -1,0 +1,139 @@
+[ About file ]
+
+Name: Breaking.Bad.S03E09.720p.HDTV.H264.mp4
+Date: 17/05/2010 11:48:32
+Size: 366,909,305 bytes (349.912 MB)
+
+[ Generic infos ]
+
+Play duration: 00:46:59 (2818.576666 s)
+Container type: MP4/MOV
+Major brand: Apple AAC audio w/ iTunes info version 0
+Compatible brands: ISO Base Media, JVT AVC
+Creation time: 16/05/2010 09:48:02 UTC
+Modification time: 16/05/2010 09:48:02 UTC
+Number of streams: 2
+Type of stream nr. 1: audio (AAC Low complexity) {GPAC ISO Audio Handler}
+Type of stream nr. 2: video (avc1) {GPAC ISO Video Handler}
+Audio streams: 1
+
+[ Relevant data ]
+
+Resolution: 1280 x 720
+Width: multiple of 32
+Height: multiple of 16
+Average DRF: 28.640791
+Standard deviation: 0.900317
+Std. dev. weighted mean: 0.872301
+
+[ Video track ]
+
+Codec: avc1
+Resolution: 1280 x 720
+Frame aspect ratio: 16:9 = 1.777777
+Pixel aspect ratio: 1:1 = 1
+Display aspect ratio: 16:9 = 1.777777
+Framerate: 23.976023 fps
+Number of frames: 67568
+Bitrate: 974.826332 kbps
+
+[ Audio track ]
+
+Codec: AAC Low complexity
+Bitrate: 64.435234 kbps
+Channels: 2
+Sample rate: 44100 Hz
+
+[ About H.264 encoding ]
+
+User data: x264
+User data: core 59
+User data: H.264/MPEG-4 AVC codec
+User data: Copyleft 2003-2008
+User data: http://www.videolan.org/x264.html
+User data: cabac=0
+User data: ref=3
+User data: deblock=1:0:0
+User data: analyse=0x1:0x131
+User data: me=dia
+User data: subme=6
+User data: brdo=1
+User data: mixed_ref=1
+User data: me_range=16
+User data: chroma_me=1
+User data: trellis=0
+User data: 8x8dct=0
+User data: cqm=0
+User data: deadzone=21,11
+User data: chroma_qp_offset=0
+User data: threads=3
+User data: nr=0
+User data: decimate=1
+User data: mbaff=0
+User data: bframes=0
+User data: keyint=250
+User data: keyint_min=25
+User data: scenecut=40(pre)
+User data: rc=2pass
+User data: bitrate=976
+User data: ratetol=0.9
+User data: rceq='blurCplx^(1-qComp)'
+User data: qcomp=1.00
+User data: qpmin=10
+User data: qpmax=51
+User data: qpstep=4
+User data: cplxblur=20.0
+User data: qblur=0.5
+User data: ip_ratio=1.40
+User data: aq=2:1.00
+SPS id: 0
+  Profile: Baseline@L4.1
+  Num ref frames: 3
+  Aspect ratio: Square pixels
+  Chroma format idc: YUV 4:2:0
+PPS id: 0 (SPS: 0)
+  Entropy coding type: CAVLC
+  Weighted prediction: No
+  Weighted bipred idc: No
+  8x8dct: No
+Number of frames: 67568
+Drop/delay frames: 0
+Corrupted frames: 0
+
+P-slices: 67104 ( 99.313 %) #########################
+B-slices:     0 (  0.000 %)                          
+I-slices:   464 (  0.687 %)                          
+SP-slices:     0 (  0.000 %)                          
+SI-slices:     0 (  0.000 %)                          
+
+[ DRF analysis ]
+
+Average DRF: 28.640791
+Standard deviation: 0.900317
+Max DRF: 34
+
+DRF<21:     0 (  0.000 %)                          
+DRF=21:     1 (  0.001 %)                          
+DRF=22:     1 (  0.001 %)                          
+DRF=23:    50 (  0.074 %)                          
+DRF=24:    41 (  0.061 %)                          
+DRF=25:   263 (  0.389 %)                          
+DRF=26:   972 (  1.439 %)                          
+DRF=27:  3433 (  5.081 %) #                        
+DRF=28: 22394 ( 33.143 %) ########                 
+DRF=29: 31688 ( 46.898 %) ############             
+DRF=30:  8122 ( 12.020 %) ###                      
+DRF=31:   525 (  0.777 %)                          
+DRF=32:    30 (  0.044 %)                          
+DRF=33:    25 (  0.037 %)                          
+DRF=34:    23 (  0.034 %)                          
+DRF>34:     0 (  0.000 %)                          
+
+P-slices average DRF: 28.659319
+P-slices std. deviation: 0.872016
+P-slices max DRF: 34
+
+I-slices average DRF: 25.961206
+I-slices std. deviation: 0.913620
+I-slices max DRF: 30
+

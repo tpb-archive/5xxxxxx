@@ -1,0 +1,15 @@
+Initial speed will be slow, please help seed if you can, thanks.
+
+Compatible With DivX DVD Players (720x400 Resolution).
+
+Method used:
+VirtualDub MKV Plugin:
+Lanczos3 Resize Filter and Saved uncompressed @ 48GB
+Compressed With DivX 2-Pass @ "Insane Quality" Setting
+Resolution: 720x400
+Bitrate: 2095
+Audio: AC3 ACM 5.1 Channel @ 256kbps @ 48,000hz
+
+Note: I switched resizing from the encoding step to the uncompression step, which made it possible to use the better Lanczos3 resize filter. I wasn't resizing first since it cuts the uncompressed data by just over 100GB. Which to me, didn't sound good, but I think it actually does look better.
+
+So feel free to let me know how you think it compares to my previous rips.

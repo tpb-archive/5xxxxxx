@@ -1,0 +1,706 @@
+User Type,Username,Date,Text
+,lean1489,2010-05-11T21:54Z,not sure wut i am doin wrong but the patch dont do ne thing for me and yes have my anti virus turned off too so ne help would be great thanks 
+,michaelingeorgia,2010-05-12T01:03Z,"The patch will work as long as you have run Setup.exe first. What happens when you run the patch? It should say patching now and then a command window will open, then ableton should open and authorize."
+,lean1489,2010-05-12T13:44Z,yea thats same thing when i do it it wont work or say any thing just goes away 
+,michaelingeorgia,2010-05-12T16:59Z,If you are running 64 bit Windows. Try to install Ableton to the Program Files folder (not x86). Then run the patch.
+,romastini,2010-05-13T16:40Z,will this work on a macbook??
+,michaelingeorgia,2010-05-13T18:55Z,This will only work on mac if you are running a virtual windows application.
+,TRIXENOL,2010-05-20T09:39Z,i have a problem too i run the setup.exe then the patch too and it goes away but when i try to open it from my start menu it tells me to authorize it... i want it i had it on my other comp cracked just fine but now man idk wtf someone help me out plz!?!?!
+,j2good,2010-05-21T04:59Z,"michaelingeorgia said to download to ""program files"" not ""program files (86x)"" ... that's what im doing now to see if that works better"
+,kmmcmill,2010-05-23T22:54Z,"Hey man, I'm not sure what all that 86x stuff is but I'm havin the same problems. ran it thru setup.exe first as adm.then ran the patch as admin as well but it only shows up as a bar and then goes away. any advice or should i try findin another torrent?"
+,bxphreak,2010-05-24T09:09Z,I've tried both Program Files and Program Files(x86).  The patch doesn't work on 7 64 bit.  
+,Rakeltje,2010-05-24T16:00Z,"It's not working here either.
+the patch-exe shows a splash screen with a throbber, but then disappears."
+,gyzmo69,2010-05-25T02:29Z,we need serial number
+,Entrance,2010-05-25T13:04Z,"Not working here on XP either.
+
+Patch produces splash screen and nothing else.
+
+This needs to be fixed or disclaimer to save wasting bandwidth."
+,brownstem,2010-05-25T23:40Z,Seems like far too many people are having trouble given what is advertised as a quick and easy patch. I don't think I'll bother given that the uploader has stopped trying to provide assistance.
+,ksirob,2010-05-26T01:00Z,"unpack AbletonLiveSuite8.1.1Patch.exe (i used winrar)
+you should get three files: Authorizelive8.auz , Live.exe and LivePatch.exe
+rename Live.exe to Live 8.1.1.exe and then copy it over the original file (for me it was in C:\Program Files\Ableton\Live 8.1.1\Program)
+open Authorizelive8.auz with ableton (right click it, choose open, choose ableton in list of programs)
+have fun :-)
+"
+,jacknitro,2010-05-26T12:11Z,"I'm going to wait for Live to stop importing VSTis before trying the above, but it'll probably work. There's a TON of importing to be done the first time you run Live."
+,nfingers,2010-05-26T15:33Z,the fix described by ksirob above worked for me on XP pro
+,gyzmo69,2010-05-27T23:28Z,hate to be a further killjoy but i didnt get the file Authorizelive8.auz
+,choobaloob,2010-05-28T13:30Z,"@ksirob or anyone who can help!?!
+Thanks for the info it really helped, i think I've followed the instructions to the letter but Ableton wont let me save anything (not that i've tried yet) I tried to authorise it on the website and obv. it's asking me for a product code. What might i have done wrong? what can i do to get round it? can you help please!!!"
+,fazerbay,2010-05-29T15:35Z,"I can Confirm @ksirob  method. 
+Works without any problems on Win7, Program Files(x86) path"
+,dafthouse3,2010-06-05T00:41Z,Do what ksirob says and it works great
+,Jysta,2010-06-06T17:20Z,"ksirob's method worked for me on 32bit vista.
+
+ renamed live.exe, 
+deleted the original, 
+moved the new live 8.1.1.exe to the program file,
+right click opened authorizelive8.auz
+
+got a confirmation screen.
+
+nice fix!"
+,Skppza,2010-06-06T21:11Z,"@ksirob  Works perfect!  
+
+Windows XP Home SP3"
+,x9x9x9x9x9,2010-06-07T12:05Z,"It DOES work with Windows 7 64 bit. I'm not quite sure if you have to put it in the NON-x86 bit folder or not but mine is and it works. Here is what I did:
+
+1. open the folder (lawlz)
+
+2. right click on the patch and extract. This is where everyone is getting confused. it looks like a straight up patch but its not. it is a zipped file.
+
+3. run the LivePatch patch file (I never saw the command window just like everyone else)
+
+4. rename the large Live.exe file to Live 8.1.1 and put it in the place of the other Live 8.1.1 file that is in 
+C:\program files\ableton\live 8.1.1\program 
+
+5. Once you have extracted, ran the patch, renamed, and replaced the files. run the Authorizelive8.auz file. This should open live and authorize the program. This may take a few minuets so be patient It is also going to want to install some other crap after it has authorized just click yes. this will take a while so dont fuck with the program or it could freeze up. 
+
+That should be it if anyone has problems with it I will try to remember to get back on here and check every few days to see if there are any questions. You may have to put it in C:\Program Files or you may not I don't know. You may also have to right click and change the compatibility by right clicking and going to the compatibility tab, clicking on the ""Run this program in compatibility mode box and selecting windows xp. Just give it a shot if it doesn't work well shit that sucks. I got it working for me and I suck with this type stuff. But go ahead and ask if you are confused.
+
+Thanks to ksirob for the help. This is really just a more detailed explanation on how to do it. Also Thanks to michaelingeorgia for putting this up."
+,daynewhitehouse,2010-06-08T05:47Z,"HELP. I have downloaded a few different Ableton torrents using my Windows Vista Home Premium 32-bit system. Every time I click on setup, no matter which Ableton torrent it is,  it just gives the busy blue ring of death over my download folder. It doesn't matter if I try to run as admin or not. Any suggestions??"
+,daynewhitehouse,2010-06-08T06:12Z,"I tried running it in compatibility mode (Win XP SP2) as an admin, and that too did not work. Running out of ideas and time. Lost my last copy due to OS reinstallation. I need this to mix music at Bonnaroo, which for me is in less than 48 hours. HELP HELP HELP. Gracias. "
+,fraca1df,2010-06-12T18:05Z,"Okay, it works, and will load, but I can't seem to run the .auz file. 
+
+I right click, open with, browse for Ableton, select it, but nothing happens after that.
+
+Any suggestions?"
+,ef6854,2010-06-14T19:32Z,It wont reinstall for me I think maybe ableton have goten unto this authorizing patch cuz its no longer working- download another one like tony's
+,showwmann,2010-06-15T09:43Z,"Guys ksirob's way is working! (xp 32bit)
+Thank u ksirob!!
+I wanna explain the same way step by step:
+
++First download the torrent and install it to ur computer using setup exe like every program.
+
++Then unpack the Patch.exe. Use winrar! Some other free zip applications wont work here. Just right click the patch file and select 'extract here'.
+
++There u got 3 more files: Authorizelive8.auz , Live.exe and LivePatch.exe
+
++Rename Live.exe to Live 8.1.1.exe and copy it over the original file (for default download path it is on C:\Program Files\Ableton\Live 8.1.1\Program). I mean overwrite the original Live 8.1.1.exe with the renamed one.
+
++Then right click the Authorizelive8.auz file and select Live 8.1.1. In other words open with Ableton.
+
++Wait for 1 min. The programme ll automaticly autorizes. It asks: ""do you want to check update before autorize?"" Select NO!.
+
+P.S: Do not click or double click the patch file any time. It says self extractor but NO. only use winrar to extract it! otherwise you see a small ableton window and nothing happens. Let me say it last time; unzip the AbletonLiveSuite8.1.1Patch.exe with winrar!
+
+Enjoy.."
+,mrmoo222,2010-06-21T00:22Z,Hey. when i open ableton live it says I hav to authorise online. before i can save any music work. 
+,showwmann,2010-06-23T13:32Z,"Guys I've news for you,
+
+If you are using Ableton while online, Ableton detects your copy and sends a bug especially to the Export Adio/Video command. You can't save your work properly, most of the time it saves half of your work.
+
+Good news is that, this is not a permanent bug. BEFORE U SAVE YOUR WORK DELETE ALL COOKIES/BROWSER CASH, RESET YOUR MODEM, RESTART YOUR LAPTOP. AND THIS TIME YOU HAS TO BE OFFLINE. THEY DETECT & SEND A BUG EVERYTIME YOU'RE ONLINE."
+,dimitrios,2010-06-24T06:56Z,"The patch does not work with Windows7 Starter. When Ableton opens a small box opens saying ""Please take a moment to authorize your software, if you're connected to the internet click here"". When I click ""Authorize later"" it opens the program but can't save nor export. Sucks. Also when starting the program, there occurs an error loading Rewire. Any solution out there?"
+,emelawford,2010-06-26T21:37Z,"it works!
+
+*run the setup.exe
+*then
+*open WINRAR
+*then
+*find the file live patch
+*unzip it to the same location its found in
+*then
+*rename the file called 'live.exe'
+*to
+*'live 8.1.1.exe'
+*and drag this file to 
+/computer/programfiles/ableton/program (something like that)
+*and replace the original program
+*then open 'autherise' with 'live 8.1.1.exe'
+*then viola
+*and also drag the program to desktop
+.. :)"
+,JCB4CXLWTII,2010-06-30T21:32Z,"Geat torrent, works like a charm.
+
+Followed x9x9x9x9x9's instructions, also with the Authorizelive8.auz file, use Ableton Live to open it so it works."
+,chacona,2010-07-02T10:37Z,"I'm having the same problem as many others are. I tried loading the patch after following ksirob's method and just got a splash screen, then it disappeared. I tried to go ahead and authorize anyway, but I keep getting a ""authorization is invalid on this computer"" screen which forbids me from saving anything. Help please? I'm depending on this for a gig I have coming up next week."
+,shtank,2010-07-05T02:24Z,"http://thepiratebay.org/torrent/5498307/Ableton_Suite_8.1.1_Full_Cracked . much simpler, imo."
+,tehmadcap,2010-07-08T19:45Z,"Easy, the above methods work. Download, install, extract patch, copy live.exe to live 8.1.1 in install directory, open authorization file with live 8.1.1.exe, click \""no\"" for update.nnDone!"
+,GnarShredBrah,2010-07-09T23:13Z,It won\'t even let me install it. When i click setup.exe it just freezes and nothing happens.
+,breakstop,2010-07-10T05:27Z,"Mine has been working fine for a while now but since yesterday it\'s just been crashing after like 5 minutes of it being open. Amazing up until that point, I must say."
+,hasslas,2010-07-14T13:19Z,"hey i just can extract the path file, and ableton live still want to \""authorize the account\"" when i open it,nsomeone help me plz n"
+,LandHo12345,2010-07-16T22:47Z,"The bollocks doesn\'t work. The patch is a patch, not a zip file, and it can\'t find some mouse file, even though it installed fine.nnPissing shitbags."
+,LandHo12345,2010-07-16T23:09Z,"Ok I take t back. The swearing, not the mouse problem. Specifically: \'cannot find kcmouse.mfx!\' Any suggestions? It installed without a hitch."
+,masterzapper,2010-07-23T17:26Z,I can't get the easy patch to work and I also can't read any of the comments....any suggestions?
+,DanieLsD664,2010-08-06T05:01Z,"worked like a charm not as difficult as it seems, follow the instructions and it will work out..
+im runnin on a windows 7 x64
+when you install make sure u install in the program files folder..follow showwmann's method for best results. make sure you delete all cookies and all that stuff its under internet option in control panel, make sure your offline too a very critical step, and restart your computer...
+be patient..took me about 30 min to complete.
+
+if you have any problems i might be of some assistance,,
+will definetely start seeding now that its working, thanks, been trying for a really long time and i got so excited when it authorized, XD
+happy music,
+
+i make psytrance, will share my music,
+happy hearing..
+:]"
+,S8NH8S,2010-08-06T18:41Z,Follow showwmann ORDERS. THEY WORKED FOR ME. side note you can also use winzip pro.
+,ninesevenfive,2010-08-07T22:53Z,"@ksirob Many Thanks Sir!
+
+unpack AbletonLiveSuite8.1.1Patch.exe (i used winrar)
+you should get three files: Authorizelive8.auz , Live.exe and LivePatch.exe
+rename Live.exe to Live 8.1.1.exe and then copy it over the original file (for me it was in C:\\Program Files\\Ableton\\Live 8.1.1\\Program)
+open Authorizelive8.auz with ableton (right click it, choose open, choose ableton in list of programs)
+have fun :-)"
+,Pimmek,2010-08-13T09:10Z,"It works for me!
+I followed ksirob's instruction and the job's done.
+Thanx!"
+,stk_rew,2010-08-14T18:58Z,works perfectly! thanks!
+,YureiSama,2010-08-17T11:34Z,"THE FIX:
+ Ok everyone i was having problens authorising as well.
+
+do as he says using winrar to extract all the files in the patch file.
+
+then after renaming and planting the live 8.1.1  file 
+YOU HAVE TO EDIT THE PROPERTIES OF THE AUTHORISELIVE8  FILE TO OPEN WITH ABLETON LIVE.    THEN OPEN LIVE, SAY REGISTER LATER,  THEN OPEN THE REGISTERLIVE8  FILE IN YOUR FOLDER.   IT WILL POP UP IN LOVE TELLING YOU YOU HAVE BEEN AUTHORISED.
+
+no codes,  no account.
+
+P.S.  im running Windows 7 64 bit."
+,kmart_88,2010-08-18T04:35Z,"so ive done everything explained on how to get the patch to properly work.
+-extracted patch files
+-renamed live.exe to live 8.1.1.exe and replaced the original file with the new one
+- open .auz file with live 8.1.1 
+
+and i get the authorization file on this comp is invalid? 
+
+tried a couple times.. any ideas?"
+,tinkady,2010-08-26T07:14Z,"i got the thing to work but i think i interrupted the downloading of the presets so i have no instruments. I dont have a microphone on my computer so i need instruments to do anything right? i looked up the issue and it said to go to repair library under preferences. I did that and it started loading something, then stopped responding. is this just cuz i have a crappy computer or is something wrong?"
+,tinkady,2010-08-26T07:16Z,this happened multiple times btw. also is there any other way to open the program besides opening authorizelive8 with the live 8.1.1? clicking on the links that look lilke they should open the program doesnt do anything
+,GrymmT,2010-09-06T19:10Z,"Everything's authorised and the program works fine, but there's no sound at all! Any help?"
+,daGrauna,2010-09-12T17:08Z,kaspersky got the easypatch as a virus! a trojan.
+,jayw,2010-09-27T12:17Z,"when i try open setup.exe it just freezes wherever i open it, if i open it on the desktop it will freeze the desktop. im running on windows vista. can anybody help me?? "
+,SNiPerXP,2010-09-27T16:21Z,"When I run the patch, I get an error message, ""Cannot find kcmouse.mfx"". I am running Windows Vista btw, so if anyone knows how to fix this error please post a comment."
+,Appleford,2010-09-28T19:03Z,"Reiterating for new page: so yeah, the patch says ""exe"" but it's a rar, albeit with a busted self-extract. Open it in WinRAR, extract the three files within, go to the directory you installed Ableton in, replace the live8.11.exe file there with the one from the patch (renaming it to fit), run authorise.auz (which runs under Ableton itself) and wait. Worked for me."
+,givemefreeshit,2010-10-04T03:06Z,"Posted before by ksirob: 
+
+unpack AbletonLiveSuite8.1.1Patch.exe (i used winrar)
+you should get three files: Authorizelive8.auz , Live.exe and LivePatch.exe
+rename Live.exe to Live 8.1.1.exe and then copy it over the original file (for me it was in C:\Program Files\Ableton\Live 8.1.1\Program)
+open Authorizelive8.auz with ableton (right click it, choose open, choose ableton in list of programs)
+
+Worked for me.
+(Running Win7 64Bit)"
+,radu122,2010-10-05T19:35Z,"For those who are searching for their samples, you have to install them manually. There are at Resources\DefaultPackages, and Live8Library_v8.6 is what you are looking for essentialy, but there are more samples there."
+,juxta99,2010-10-07T12:32Z,"I followed the instructions and authorized and installed sound banks etc, but after my midi keyboard stopped responding in set up and I quit out to restart the program won't load! The ableton start box loads up and says initializing program but goes no where.
+
+Any one got any ideas?  I use windows 7 ultimate 32 bit...
+
+Any help greatly appreciated!"
+,H-A-L-L-Y,2010-10-12T22:36Z,"works very nice thankyou, if you need any help dont be afraid to ask, il give ya a helpin hand. 
+
+thanks again "
+,andreasbakke,2010-10-14T16:11Z,"@ SniperXP
+I too got the error message, ""Cannot find kcmouse.mfx"", and I have Vista 64bit. Why doesn't it work on Vista? Can someone help me?"
+,FMJd,2010-10-21T16:29Z,"Thank you for an amazing torrent! Worked perfectly, thanks again! :)))))))))"
+,djlager,2010-10-30T13:41Z,"The installation itself worked perfect, but the patch doesn't seem to work. Help anyone?
+
+When I run the patch it opends and says its patching, but after it closes nothing has happend.
+
+thanks!"
+,czechout,2010-11-07T19:02Z,"ksirob and givemefreeshit, thanks guys, you rock, to the uploader, thanks man, you rock.Now I'm off to play with rock ;)"
+,bimbler,2010-11-09T16:27Z,"works a treat,thankyou.Just one thing I take it it cant be updated at all????"
+,JustinSxE,2010-11-10T19:26Z,"Posted before by givemefreeshit, who reposted ksirob: 
+
+unpack AbletonLiveSuite8.1.1Patch.exe (i used winrar)
+you should get three files: Authorizelive8.auz , Live.exe and LivePatch.exe
+rename Live.exe to Live 8.1.1.exe and then copy it over the original file (for me it was in C:\Program Files\Ableton\Live 8.1.1\Program)
+open Authorizelive8.auz with ableton (right click it, choose open, choose ableton in list of programs)
+
+This works perfectly. Thank you!!"
+,Jailboy,2010-11-17T08:39Z,"For those who can't get it to work!
+1) The file AbletonLiveSuite8.1.1Patch.exe is actually an archive file. Open it with your compression software (7zip/WinRAR/WinZIP) and extract the files.
+2) Move the 3 files (Authorizelive8.auz/Live.exe/LivePatch.exe) to your install directory. Normally: C:\Program Files\Ableton\Live 8.1.1\Program.
+3) Rename Live 8.1.1.exe to Live 8.1.1old.exe and rename Live.exe to Live 8.1.1.exe
+4) Run Authorizelive8.auz and wait
+5) Program should open and say products were authorized.
+
+Credits to previous comments, but people are blind and stupid so I reposted it."
+,SaltSlasher,2010-11-19T03:20Z,"@givemefreeshit
+
+Your instructions worked very well! This is one hell of an easy setup. 
+If you try and just click abletons sutie patch, with norton it says its a trojan and won't open.
+So if you use winrar and extract it, it splits it into 3 files, rename the live.exe with live 8.1.1.exe, and open ableton in the c drive, and copy the file you renamed to it, and delete the original. 
+Then use the the Authorizer, and pick ableton, and wa lah!
+
+very very easy even the noobiest of noobs shouldn't have a hard time on this one.
+At first I kept trying to click on the patch and kept getting the trojan thing. So after I read the more detailed instructions it was easy cake. Just make sure you delete the original program that the renamed file replaces or it won't work.
+
+Thanks michaelingeorgia and givemefreeshit!
+Windows 7 64 bit Home!"
+,rswargod,2010-11-23T20:15Z,"HELP!  Everythime I open the setup it freezes.. I got windows vista, *begging*."
+,TKRandall,2010-11-24T23:38Z,"Hi, I've done everything right, the only problem is when i try to open the .auz file with Live 8.1.1.exe, when i click it it just goes back to the 'open with' folder thing and has nothing selected.  help please?"
+,Waksamba,2010-11-26T17:27Z,"Top site, Top Upload, works perfectly on first run. Win 7 X84"
+,mc19,2010-12-01T03:38Z,it says that the authorization is invalid on my computer. could someone help me with that? cheers
+,mc19,2010-12-01T03:46Z,oh wait dont worry i figured it out =) runs perfect!
+,circusletter,2010-12-03T03:49Z,does anybody know how to activate the live plugins? 
+,Viviliad,2010-12-04T05:38Z,"Please help...I have installed, reinstalled, rereinstalled, redownloaded too many times for it to be healthy.  I followed all the versions of the directions & the furthest i got was when i would load the auz patch with ableton and get the message: ""this patch is not valid on this computer"".  i have win7 32 bit system.  Why won't it work?!"
+,M19M,2010-12-08T17:22Z,"I cant figure out how to fix the "" patch not autorized on this computer"" problem if anyone had that problem and figured it out please let me know thanksss!"
+,Viviliad,2010-12-13T23:29Z,"yeah, I've had the same problem ""patch not authorized on this computer' bulllsh*t - can anyone pleeease help us out? Come one...it's f*king christmas season lol"
+,Angookie,2010-12-21T21:07Z,"Ok, so since I'm god of installing illegal softwarez,
+heres how to ACTUALLY activate this program:
+
+
+1.) Install Ableton Live 8.1.1, by running:
+................. "" Setup.exe ""
+in the downloaded folder, BUT DON'T RUN IT!!!
+
+
+2.) Then, Un-Archive the file:
+................. "" AbletonLiveSuite8.1.1Patch.exe ""
+
+============================================================
+
+2.1) For those who do NOT know how to un-zip things, get:
+................. "" http://www.7zip.com ""
+
+2.2) Use the 1st download link, because even if your 64 bit,
+....... it'll still work with a 32 bit install, don't trip
+
+2.3) Right click the "" Patch "" file & hover over:
+................. "" 7-Zip -> ""; then click: "" Extract Here ""
+
+You have now learned how to Un-Archive things & can continue
+Leave every thing how it is, keep this folder open
+
+============================================================
+
+3.) Right-Click Live 8.1.1's Shortcut in the Start Menu
+....... then click on: "" Properties ""
+
+4.) Click on either: ""Open Target"", or ""Open File Location""
+It's different for Windows XP and lower & Windows Vista & 7
+
+5.) Go to the Ableton downloaded folder & copy over:
+"" Live.exe "" & "" Authorizelive8.auz ""
+
+6.) Rename: "" Live.exe "" to:
+.................. "" Live 8.1.1.exe""
+
+7.) Then double click on:
+.................. "" Authorizelive8.auz ""
+
+:D"
+,Angookie,2010-12-21T21:25Z,"Your also gonna want to:
+
+1.) Click: Options in the Upper Left
+
+2.) Click: Preferences
+
+3.) Click: Library
+
+4.) Click: Repair Library
+
+This will scan the defualt packages for Live in the Program Folder of Ableton
+
+Which will then give you all the sounds and plugins and other stuff that you were like:
+
+Hey, WTF??!?? I dont have any thing to work with"
+,redrum671,2010-12-28T08:06Z,"Well done Angookie, logged in just to thank you."
+,Hybrid_Styles,2010-12-30T14:08Z,Angookie you saved me on this one. Got it all working perfectly after you directions the first time!! Thanks!!
+,mattski123,2011-01-05T22:28Z,"Every single time I try and do the setup I get this: Windows could not find C:\PROGRA~2\Ableton\LIVE81~1.1\Redist\vcredist_86x.exe.
+
+Then once I click that:
+could not execute the external program C:\PROGRA~2\Ableton\LIVE81~1.1\Redist\vcredist_86x.exe.
+
+Then after I click that:
+The system must be restarted to complete this installation. Or click cancel to return to windows.
+
+And I restart it but nothing happens. Any answers?"
+,Anonpwi,2011-01-05T22:34Z,"Angookie, ty so much never would have figured that out, been a tpb member for over a year and never wrote a comment until now...I had to thank you."
+,nark0z,2011-01-07T02:44Z,Thank you so much Angookie! Now to get my art of sampling on ;)
+,danmc84,2011-01-10T14:10Z,"downloaded and all seems sweet, but cant authorize so therefore cant export or save my work... wtf am i doing wrong?"
+,iGiraffe,2011-01-14T05:43Z,"Thank you kindly, Angookie. You're quite the lifesaver. 8)"
+,psymon9220,2011-01-14T19:38Z,"i run vista 34bit and i had also been having trouble authorizing. I followed Angookie, but continued to have a problem, i realised that the problem lay in the properties of the authorization file. after swapping the the Live 8.1.1.exe files. u also need to swap the file that opens the authorization file. after i ""re-told"" it to open with the new Live 8.1.1.exe file the thumbnail image changed. i double clicked it and then BOOM BOOM BOOM!!! hope this helps!"
+,psymon9220,2011-01-14T22:08Z,"3 and a halfs hours in now after starting the install, i think the freezing is normal. just need to wait it out patiently. after authorization, repairing the library in preferences is taking forever. at least 3 quarters of total waiting time. haha thought u should be aware! "
+,psymon9220,2011-01-14T23:09Z,good god....
+,psymon9220,2011-01-14T23:12Z,the ableton train is a mentally challenging journey. long and slow. cold and damp
+,nicko3695,2011-01-17T09:02Z,hi and thanks for the up i have intsalled and got it registered but for some reason i cannot repair my liubray does anyone have any clue??
+,whateva1,2011-01-18T09:55Z,For some reason it is asking me to authorize the program online otherwise it wont let me save or export anything. In my experience authorizing anything online is not a good idea. What should I do?
+,psymon9220,2011-01-22T18:44Z,"@nick3695
+you must of deleted the library file from abletons documents during one of ur attempts at reinstallation, im guessing. cuz thats what i did.
+system restore worked..."
+,Larrimore,2011-01-22T23:13Z,"Okay, heres my problem. I'm running Windows Vista 64 bit and whenever I try to extract the Patch file, It says no archived files. So I cant get the 3 activation files. FML anyone can help?"
+,IKARI2012,2011-01-24T09:39Z,I have the same problem as Larrimore on Win7 64. Any ideas?
+,nark0z,2011-01-25T02:07Z,"Did you try Angookie's method? (one of the comments) 
+
+It worked for me on Win7 64bit."
+,edinc,2011-01-28T07:12Z,"I've moved ""Live.exe"", ""Authorizelive8.auz"" and ""Livepatch.exe"" to C:programfiles,Ableton,Live8.1.1,program and changed ""Live.exe"" to ""Live 8.1.1.exe"" then deleted the old version of ""Live 8.1.1.exe"" as described in the earlier posts. But every time I run ""Authoriselive8.auz"" it gives me the error message ""This authorization file is invalid on this computer"".
+What am I doing wrong?! Someone please help me! Thanks"
+,Lause77,2011-02-01T09:18Z,"Well done, Angookie, your instruction for dummies, step by step, in almost comic-strip like language, not to long words, not to many of them, should be understandable.
+
+But: IT DOESN'T APPLY TO THE FILES IN THIS DOWNLOAD! 
+
+""Go to the Ableton downloaded folder & copy over: "" Live.exe "" & "" Authorizelive8.auz """"
+
+They don't exist. Neither here, nor in the torrent called ""Ableton Live Suite 8.1.1 Quick Authorize Patch"".
+So what to do? Do YOU have an answer (for dummies) to this?"
+,Lause77,2011-02-01T09:20Z,"Well done, Angookie, your instruction for dummies, step by step, in almost comic-strip like language, not to long words, not to many of them, should be understandable.
+
+But: IT DOESN'T APPLY TO THE FILES IN THIS DOWNLOAD! 
+
+""Go to the Ableton downloaded folder & copy over: "" Live.exe "" & "" Authorizelive8.auz """"
+
+They don't exist. Neither here, nor in the torrent called ""Ableton Live Suite 8.1.1 Quick Authorize Patch"".
+
+So what to do? Do YOU have an answer (for dummies) to this?"
+,nuvoix,2011-02-01T11:04Z,"If you muppets cant mange to install this software then give up now....you wouldn't stand a chance of understanding how to use it. Theres step by step instructions ffs.
+
+Works fine XP Home, Win 7 64
+
+:)"
+,nuvoix,2011-02-01T11:40Z,"works like a dream XP home 32
+
+If you muppets are incapable of installing this despite having instructions supplied then what chance have you got of using the software? Tip for the day give up now."
+,Lause77,2011-02-01T23:09Z,"Well, if the files, you're referring to would exist, it would be easy to follow instructions given here. So I wonder who's the muppets here..."
+,Lause77,2011-02-01T23:26Z,"Well you might wanna check the files list - and you might notice there isn't any ""live.exe"" nor ""Authorizelive8.auz"". And no rar-file in which they might be. So after you have downloaded this torrent, the files must have changed - or you have downloaded a completely different one.
+I tried to appreciate Angookie's instructions (cause I know al lot of people in here at incapable of reading at text longer than 10 words, not to mention words with more than 7 letters), and asked where the mentioned files are, because they aren't in this torrent.
+Instead of calling others muppets (or what the next answer will be), check it out before you shoot at us humble comunity members, trying to make the best of what's offered!"
+,nuvoix,2011-02-01T23:49Z,"I downed it less than 12 hours ago...long after the muppets have posted 'where are my files'
+read the soddin instuctions....extract the patch....dont run it
+d'oh"
+,nuvoix,2011-02-01T23:59Z,"I downed it less than 12 hours ago...long after the muppets have posted 'where are my files'
+read the soddin instuctions....extract the patch....dont run it
+d'oh"
+,siddlah,2011-02-02T01:26Z,"
+
+""Angookie at 2010-12-21 21:07 CET: 
+
+Ok, so since I'm god of installing illegal softwarez,
+heres how to ACTUALLY activate this program:
+
+
+1.) Install Ableton Live 8.1.1, by running:
+................. "" Setup.exe ""
+in the downloaded folder, BUT DON'T RUN IT!!!
+
+
+2.) Then, Un-Archive the file:
+................. "" AbletonLiveSuite8.1.1Patch.exe ""
+
+============================================================
+
+2.1) For those who do NOT know how to un-zip things, get:
+................. "" http://www.7zip.com ""
+
+2.2) Use the 1st download link, because even if your 64 bit,
+....... it'll still work with a 32 bit install, don't trip
+
+2.3) Right click the "" Patch "" file & hover over:
+................. "" 7-Zip -> ""; then click: "" Extract Here ""
+
+You have now learned how to Un-Archive things & can continue
+Leave every thing how it is, keep this folder open
+
+============================================================
+
+3.) Right-Click Live 8.1.1's Shortcut in the Start Menu
+....... then click on: "" Properties ""
+
+4.) Click on either: ""Open Target"", or ""Open File Location""
+It's different for Windows XP and lower & Windows Vista & 7
+
+5.) Go to the Ableton downloaded folder & copy over:
+"" Live.exe "" & "" Authorizelive8.auz ""
+
+6.) Rename: "" Live.exe "" to:
+.................. "" Live 8.1.1.exe""
+
+7.) Then double click on:
+.................. "" Authorizelive8.auz ""
+
+:D 
+
+""
+
+Thank you Angookie, works great!!!
+
+only thing i'd like to add to your instructions is I had to associate the .auz file to ableton live.
+
+for the techinically inclined, 
+
+when you click open on this file and it cannot find the correct program to use to open it, click browse and find yourself back to the Live 8.1.1.exe and use that to auth the program.
+
+Recommend that you repair your library before you start playing around in the program."
+,Gunnerhero,2011-02-02T08:59Z,"jut to tell everyone, if you run the patch and get an error about a mouse.fx (well Something like that) ITS IS A TROJAN VIRUS! "
+,Lause77,2011-02-02T09:01Z,Funny idea to call a zipped/archived file .exe... never seen before (unless it is selfextracting)
+,littledutchgirl,2011-02-03T14:04Z,it doesnt run u fag why do you put a non working thing on this site?!!
+,EZlee,2011-02-04T00:34Z,"i finished installing the program and everything.
+works fine, except i cant use the presets for the vsti's. whenever i try to use them says they are broken. ive repaired the library numerous times and i still keep getting this message. any help plz?"
+,badprenup,2011-02-07T01:48Z,@Lause It is a self extracting file. It was supposed to patch the files over but he screwed up with a file name so it don't work lol
+,rainadil,2011-02-21T12:58Z,"Yeah. 
+AbletonLiveSuite8.1.1Patch.exe unpacking to somewhere I don't know and it seems it doesn't work properly. Because program still asks for authorization.
+Please renew it with working thing.
+Thanks."
+,Billy321,2011-02-23T12:24Z,"Works fine 
+
+Thanks alot"
+,intheattic83,2011-03-02T17:57Z,"Before i do ANYTHING... can any of you guys confirm that it's completely safe to use this? And if it is 'orange' (Safe, though only through certain methods), fill in what's best to stay in the 'green zone'!
+
+I'm not doing anything yet... too much of a pussy. Thanks in advance."
+,bigBubba1,2011-03-02T18:59Z,"Look ppl this is not rocket science. Some of you need to stop acting like computer techs because you couldn't walk someone down the street let alone gettin thru this crap. Bottom line is Ableton caught on people! You will no longer be able to authorize your torrent. So until someone else can crack 8.1.1, just leave it alone ."
+,LeliStarr,2011-03-13T17:33Z,"Angookie's instructions are correct, and they have worked for me.
+
+When the torrent is complete, open up an extraction program like winrar, or 7zip. Locate the downloaded folder AFTER you've installed Ableton with the setup.exe
+
+Once found within your extraction program, right click AbletonLiveSuite8.1.1Patch.exe and select extract. You can choose where the extracted files will go to, but the default will most likely be within the same folder.
+
+Once extracted, a new folder will be where you selected the extracted files to be place. Inside that folder, three files will be inside:
+Live.exe, LivePatch.exe, and AuthorizeLive8.auz
+
+Go to your Ableton folder which was created from the install (It will be in your Program Files, or Program Files x86, in your C-Drive), remove the Live 8.1.1.exe from the Program folder inside the Ableton folder, and replace it with the Live.exe from the new extracted folder. Rename it Live 8.1.1 when it is inside the Program folder.
+
+Lastly, double click AuthorizeLive8.auz
+
+Ableton will start up, self-authorize, and you'll be good to go."
+,TheIrishPirate,2011-03-17T03:58Z,"Thank you, Angookie
+And THANK YOU VERY MUCH LeliStarr it worked!!
+Finally a good torrent lol"
+,TheIrishPirate,2011-03-17T04:05Z,"Oh but one fix.
+You had a typo; rename Live.exe to Live 8.1.1.exe
+
+And if when you double click the .auz and it doesn't work just browse and double click Live 8.1.1.exe
+
+Okay phew I think this torrent is as dumbed down as possible now..."
+,one_seedin_sucka,2011-03-17T05:04Z,This is 100 Percent Working!!!!!!! You just have to make sure to unlock the 3 programs that are in the patch. Follow Lelli & Angooks description. And a little patience. Just worked for me on Win 7 64 bit. THANX!!!!!!!!!!!!!!!!!!!!!!!1
+,DJNight2k,2011-03-19T07:17Z,what if anything do you do with the LivePatch.exe file? do you need to run it or just copy it to the same folder as the other 2 files from the patch archive?
+,bobtheiphonenob,2011-03-20T04:04Z,"If you download the patch etc only and go download the latest version from Ableton website it works also, just make sure you follow the auth structions in the comments, and rename the live.exe to live 8.#.#.exe (# = version number).  When it first runs it says that installation has failed but it hasn't it runs great!"
+,bobtheiphonenob,2011-03-21T21:00Z,"actually no it does work but doesn't install all the addons etc,  I've just signed up for the 30 day trial through Ableton sure Time Stopper would get this working?  Or install everything then run .auz file again, and rename hacked live file...  Gonna try..."
+,bobtheiphonenob,2011-03-21T21:48Z,"It works! Go get full suite trial, set it up as normal then sign up for 30 days for activation key.  Then install all packs etc. Then go copy across .auz file and the live.exe file from this torrent, rename the live.exe to whatever version it is in your program files/ableton folder, ie live 8.2.1.exe , then run the .auz file and it works woohoo!!"
+,bobtheiphonenob,2011-03-21T21:49Z,Just got this working with latest version but can't type anything here??
+,bobtheiphonenob,2011-03-21T21:51Z,"IT WORKS! Full Updated Version. Get full 30 day suite from Ableton, then install, then sign up for 30days and activate normally, then install all add ons.  Then copy across .auz file and the live.exe hacked file, then rename hacked file to live 8.2.1.exe and run the .auz file, enjoy full latest version."
+,d0ubleplus,2011-03-27T07:08Z,"@bobtheiphonenob I followed your instructions - downloaded from Ableton and updated with the 30 day trial, copied/renamed the .exe and .auz, and ran the .auz - but it insisted on connecting to ableton.com to validate. When I said I had no connection, it still wouldn't allow me to update. Is there a way around this?"
+,d0ubleplus,2011-03-27T07:22Z,"Can't see my most recent comment here so don't know if this will show: Went ahead and ran .auz and allowed it to connect me to Ableton and validate. Still just showing on a 30 day trial. Yes, I've copied and renamed the live.exe file to 8.2.1.  Any way around this?"
+,jsudrum,2011-03-29T20:58Z,"I have followed the instructions posted on here but am still having some difficulty.  After set file is run, and .auz file is opened, Ableton comes up but the screen is scrambled and unreadable. Since so many people have been able to use this torrent, I must be doing something wrong, but I can't figure it out. Any help would be appreciated.  Thanks!"
+,becca4132,2011-03-30T00:55Z,"Not a computer expert so please go easy if this seems lame.....I can, however, assist someone while crossing the street!:)
+
+
+1.  Downloaded torrent and unpacked within the download file.
+
+2.  Installed setup.exe but DID NOT Run the Program.
+
+3.  QUESTION WITH THIS STEP:  You say to copy over (from the download folder) ""live.exe & authorizelive8.auz.
+
+What exactly do you mean by ""copy over??""
+
+4.  next step would be to then rename Live.exe (from within the install program folder) to Live 8.1.1.exe.
+
+5.  Last step - run authorizelive8.auz which is one of the three unpacked files (live.exe, livepatch.exe, and authorizelive8.auz.
+
+LAST QUESTION:  What am I supposed to be doing with LivePatch.exe??
+"
+,iamhelix,2011-03-30T04:52Z,"Extract the patch.exe file its a compressed file
+copy the contents to the program folder in your live install location
+run the live patch 
+run the .auz file and then it will work.
+
+Its been covered in more detail in previous posts on this torrent"
+,Dangerdsd,2011-04-01T05:24Z,I did nothing with livepatch.exe. After extraction I renamed Live.exe to Live 8.1.1.exe and copied to Program Files (x86)/Ableton/Live 8.1.1/Program. Then I ran the .auz file. Everything works fine now.
+,SkagTrendy,2011-04-01T12:20Z,"Can anyone get VSTplugins to work with this? and if so how? 
+Thanks"
+,chaosheritage,2011-04-02T16:41Z,Thanx m8
+,Deeder100,2011-04-03T03:51Z,"ATTENTION SETUP.EXE FREEZE PEOPLE !! Just wait a few minutes, mine took about 5 minutes to finally pop up but it works, just be patient.
+
+On another note, I have everything installed but there is no Library folder, therefor, I can't ""Repair Library"" either, (no option for it ""Library Unavailable"") PLEASE HELP !!"
+,Deeder100,2011-04-03T05:24Z,"*SOLVED* What I did for the library was go into where it said the directory was, in my case My Documents/Ableton/Library, (there was no library folder) so I just made a new folder called Library and the Repair Library function became optional, took about an hour and a half to repair but it installed around 10k files adding up to around 15GB's, which is what the ableton site says it takes up."
+,EarlPorter,2011-04-06T19:51Z,"This torrent works excellent.   The instructions that come with it suck very much, but if you follow the step by step instructions that others have provided it works excellent."
+,upthetempo,2011-04-09T02:51Z,i cant even unzip the patch.. real computer illiterate i think i hate downloading torrents just as much as i love to any advice?
+,edlyrose,2011-04-11T19:47Z,"I ran setup then i ran the patch and its still not fully unlocked.
+
+It send me to the abelton website and asks for a username and password. 
+
+anyone care to explain this to an IDIOT plz"
+,edlyrose,2011-04-12T07:01Z,"followed instructions and it said AUTHORIZATION FILE INVALID FOR THIS COMPUTER.. 
+
+????"
+,Baron55,2011-04-17T18:50Z,"I Downloaded the Torrent via Tixati.  I did not get a zip file, but the following - AbletonLiveSuite8.1.1Patch; Readme; Setup
+
+I do not have the listed files to install via Siddlah & Angookie - no Live.exe, nor AuthorizeLive8.auz.  
+
+I'm not a complete moron on systems, etc, and have searched the system for those files, to no avail.  I'm running Windows 7 Home Pro, and again use Tixati to download torrents.  Could it be how I'm downloading, as they're not coming across as zip or rar files to begin with?
+
+Thanks,
+Fozzy (the cuddly Muppet)"
+,Rundaus,2011-04-19T05:41Z,"I have not been able to find anyone who has said as much prior, but if any new takers to this program are running into problems, here is a little tidbit of information, you have to extract the authorizelive8.exe twice. The first time gives you access to the live patch and live executeables, but the authorizedlive8.exe needs to be extracted again to get to the base .auz file that will allow for the option to run the file with ableton, instead of it attempting to unpack itself and just give you the splash screen. 
+
+so after that, just copy what everyone says to do, first unpack the first file, run the setup.exe, rename live to live 8.1.1 and put it in the ableton program file, run livepatch.exe, then unpack authorizelive8.exe to get the .auz file and chose to open that file with ableton...
+
+hope I helped..."
+,haxnstuff,2011-04-20T06:09Z,"@bobtheiphonenob
+Sorry, the little trick you put up ""works"" but not really. Live starts and works but its still 8.1.1 (the hacked file is ver 8.1.1  You can tell when the program is starting up it will say starting live 8.1.1"
+,heatmizer35,2011-04-21T23:47Z,"I dont have a folder called Ableton under C:\OS\Program Files AND C:\OS\Program Files x86
+
+where do I move my live 8.1.1 file to???"
+,VixtoSirchy,2011-04-23T11:01Z,"Okay for anyone still confused I have made clear instructions.
+There is one thing you NEED TO KNOW before going into this though...
+The files named ""AbletonLiveSuite8.1.1Patch"" & ""LivePatch.exe"" are files that need to be extracted with WinRAR or WinZIP or any program like that. So make sure you have a program like this. I use WinRAR.
+
+1. Run Setup.exe
+2. Open WinRAR and extract ""AbletonLiveSuite8.1.1Patch"" - this will reveal a new folder containing ""Live"" and ""LivePatch"" 
+Open WinRAR again and extract ""LivePatch"" - this should reveal the file ""Authorizelive8.auz""
+3. Rename ""Live"" to ""Live 8.1.1""  
+4. Copy ""Live 8.1.1""  to ""Program files (x86)/Ableton/Live 8.1.1/Program"" replacing the file of the same name (mine was in ""Program Files x86"" - yours might just be ""Program Files"")
+5. Right Click ""Live 8.1.1"" > Send to > Desktop   - to create a desktop shortcut
+5. Back in the extracted folder, run ""Authorizelive8.auz"" - this will open Ableton and then authorize for full use. 
+6. Now you can run Ableton from the desktop shortcut, and have full use. 
+Enjoy
+I'm astounded that the Readme file covers none of that. "
+,VixtoSirchy,2011-04-23T11:03Z,"Heatmiser35... did you run Setup.exe ?
+that would have put the folder in your program files. "
+,chexom66,2011-04-24T16:57Z,i got this all 2 werk but i have alot of live packs 4 newer versions can i go to the ableton websit n upgrade to a newer version with out screwin this 1 up?
+,nark0z,2011-04-27T01:10Z,"Highly considering buying this, it's such a great program ;D"
+,molee,2011-04-28T18:54Z,"one last thing guys - before i download i want to make sure it is compatable with windows 7 starter.  had some serious trouble with fruity loops 7 so i said screw that and am now moving on to ableton since i've heard so many great things about it.
+
+just wanna make sure that it will work before i dl.  and i will definitely continue to seed!"
+,kzamrini,2011-05-03T20:44Z,the download is raelly slow. any way i can speed it up?
+,Superjon2000,2011-05-04T01:18Z,"Stuck at %99.5, anyone have any ideas? I've deleted the task and files twice to try again, but each time I've hit the same roadblock."
+,BratAssociation,2011-05-06T04:51Z,"Followed VixtoSirchy's directions and it worked perfectly.
+
+I'm on Windows 7 Ultimate edition 64bits"
+,lirantoyo,2011-05-09T17:19Z,"im using win7 ultim 64b
+its not working for me 
+i tried all methods from comments
+wanting to try ksirob's method but dont understand it, if you can please help me out and contact me via emial to lirantoyo@gmail.com  Thanks :)"
+,Digxtal,2011-05-09T18:01Z,"Okay, assumingly you have to have the trial version from the site? When I download I just get an icon on my desktop(where I saved it to) that says easy patch, ect..I open with winrar and extract and it just gives me another folder with the easy patch file in it....??? What am I doing wrong..?? Email is chrisxtohxfur@aIM.COM or respond on here please!! I'm tired of FL studio lol"
+[V],IndexTrance,2011-05-13T23:13Z,Thanks!
+,PaulieMia28,2011-05-14T02:16Z,"Works great, great torrent."
+,leonag1,2011-05-16T19:07Z,Download and install was easy except for the authorization. It says that the authorization is invalid for this computer. Can anyone help me to fix this problem? I am a noob and just want some help thanks
+,hygores,2011-05-17T18:28Z,There is VIRUS in the patch!
+,Mabakhurts123,2011-05-27T20:04Z,"The patch has a virus in it, like hygores said"
+,lindy_o,2011-06-05T09:57Z,@ksirob this fix way back on page one solved all my problems
+,pan_pan1,2011-06-10T09:55Z,Downloaded but i cannot find Live.exe or other.rar files in the downloaded content.... Any help?
+,pan_pan1,2011-06-10T10:08Z,oookkkk!!!! Working just fine! Thank you!
+,Vauveli,2011-06-15T14:07Z,live patch doesnt work what can i do to crack this app :S
+,opeth5,2011-06-18T08:05Z,"SOMEONE PLEASE HELP!!! This download installs and works great BUT it doesn't seem to have a preferences file. My info view doesn't APPEAR; A simple fix for this is go in and erase preferences.cfg but there is no such file with this crack. I have tried reinstalling but nothing seems to work, HELP ME PLEASE!"
+,kriiizzi,2011-06-18T11:10Z,Works great except there's no library
+,cocoloco0,2011-06-18T22:57Z,"WARNING Serious Waste of time ..........Extremely poor instruction make this torrent absalutly worthless!!!! , No wonder there is no group/person who has put there name to this torrent cause its utter shit. Save yourself some time and frustration and get another torrent. I strongly recommend the TEAM AiR Release as it WORKS and is simple to install =}"
+,thatavguy,2011-06-22T23:51Z,"Took me a while to get working, but yup - %100 percent working.
+Took me a while to find the Repair Library step, but follow the instructions and Authorised without problems - Maybe better to link instructions to the torrent rather than having to go through the comments.
+But very happy - %100 working for free, suspect the Haters need to read more closely
+
+Thanks"
+,jms.93,2011-06-28T22:18Z,Cant someone help me? i downloaded the torrent and everything worked fine except there is no instuments/effects in the program.. is there a way to get these? THANK YOU
+,De_W_eY,2011-07-03T04:35Z,"WOW! lol took me like an hour BUT.. followed ANGOOKIE's post and authorized.. Biggest issue I think was assuming the ""AbletonLiveSuite8.1.1Patch"" would not extract lol it does.. with 7zip and sure enough three files in it. SO... uninstalled Live completely. reinstalled to reg progrom folder NOT X86...renamed LIVE.exe to Live 8.1.1.exe and copied over  in Ableton\Live 8.1.1\Program folder.. ran the .auz with the OLD LIVE.exe that came with the patch cuz the new one wouldn't recognize as a possible program for some reason. Viola.. n'shit"
+,De_W_eY,2011-07-03T04:36Z,oh ya. UNPLUG INTERNETS!
+,ScoreGods,2011-07-06T00:37Z,"THIS WORKED FOR ME 
+
+run the setup.exe
+*then
+*open WINRAR
+*then
+*find the file live patch
+*unzip it to the same location its found in
+*then
+*rename the file called 'live.exe'
+*to
+*'live 8.1.1.exe'
+*and drag this file to 
+/computer/programfiles/ableton/program (something like that)
+*and replace the original program
+*then open 'autherise' with 'live 8.1.1.exe'
+*then viola
+*and also drag the program to desktop
+.. :)"
+,salitrov,2011-07-12T11:46Z,Thank you!
+,sufibridge,2011-07-22T13:40Z,"Hi, tried your crack twice .. and one from THE LEAK (8.2.2) using Trial version for now find it the best out there so really want it. Leak's method same as yours. Thought I did it right. Get ""This authorisation not valid on this computer."" message. Now it just goes straight to trial version. Do I have to uninstall everything again to make it work ?
+Inside Ableton 8.2.2 (yellow folder) there is a black folder Live 8.2.2 and beside that is a folder that says Program and inside it there is another black folder Live 8.2.2 .. 
+When you say write over do you mean drag and drop ? If so, over which of the two inside the main folder ?
+ I understand the method but must be doing something wrong .. takes about 2hrs to download each time but I'm determined to do it  .. 
+Any help much appreciated. 
+Do you think once I've opened a program with Ableton the crack wont work , or will uninstalling everything & starting again be the answer ?
+I've managed to get Fruity Loops and Mixcraft O.K. but they are crap compared to this so really want to get it. Please be patient. Thanks for you good work .. obviously other people have done it O.K. :)"
+,sufibridge,2011-07-22T17:52Z,Hi again. O.K. got it now. Actually used Leak's one but it's same method. For anyone interested the two progs (trial and cracked versions) run completely seperately. I copied and pasted the crack over both the folders inside the program & it worked for me. Thanks anyway .. it's a great prog. Happy music making. :)
+,aspiratr7,2011-08-30T18:55Z,Thanks! and if it doesnt work follow what x9x9x9x9x9 says in the firsts comments page. thats what i did
+,Randomman1697,2011-09-09T02:55Z,"Just to make it 2 seconds easier for everyone else
+
+x9x9x9x9x9 had previously stated:
+
+It DOES work with Windows 7 64 bit. I'm not quite sure if you have to put it in the NON-x86 bit folder or not but mine is and it works. Here is what I did:
+
+1. open the folder (lawlz)
+
+2. right click on the patch and extract. This is where everyone is getting confused. it looks like a straight up patch but its not. it is a zipped file.
+
+3. run the LivePatch patch file (I never saw the command window just like everyone else)
+
+4. rename the large Live.exe file to Live 8.1.1 and put it in the place of the other Live 8.1.1 file that is in
+C:\program files\ableton\live 8.1.1\program
+
+5. Once you have extracted, ran the patch, renamed, and replaced the files. run the Authorizelive8.auz file. This should open live and authorize the program. This may take a few minuets so be patient It is also going to want to install some other crap after it has authorized just click yes. this will take a while so dont fuck with the program or it could freeze up.
+
+That should be it if anyone has problems with it I will try to remember to get back on here and check every few days to see if there are any questions. You may have to put it in C:\Program Files or you may not I don't know. You may also have to right click and change the compatibility by right clicking and going to the compatibility tab, clicking on the ""Run this program in compatibility mode box and selecting windows xp. Just give it a shot if it doesn't work well shit that sucks. I got it working for me and I suck with this type stuff. But go ahead and ask if you are confused.
+
+Thanks to ksirob for the help. This is really just a more detailed explanation on how to do it. Also Thanks to michaelingeorgia for putting this up. "
+,111ryan111,2011-09-12T00:27Z,"when i open up ableton live and it gets to the part ""creating a new live set"" a popup seys ""a serious program error has occoured. live will shut down after this message box is closed.""      i folowed x9x9x9x9x9's instructions and i tried evrything else. can anyone help me?"
+,bauke84,2011-09-14T11:12Z,There is a trojan in the patch! 
+,montu123,2011-09-15T15:57Z,Please help.....after doing all this things in this thread for cracking and if all things got right....then will i be able to update my ableton from 8.1.1 to 8.2.2 without any problem or the bitches wud know that i have fake license......pl...rply fast.....
+,111ryan111,2011-09-16T01:36Z,"when i open up ableton live and it gets to the part ""creating a new live set"" a popup seys ""a serious program error has occoured. live will shut down after this message box is closed."" i folowed x9x9x9x9x9's instructions and i tried evrything else. can anyone help me?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+,111ryan111,2011-09-16T01:40Z,"when i open up ableton live and it gets to the part ""creating a new live set"" a popup seys ""a serious program error has occoured. live will shut down after this message box is closed."" i folowed x9x9x9x9x9's instructions and i tried evrything else. can anyone help me?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ps anyone have the same problem?"
+,Socomeagle,2011-09-29T16:21Z,"Works greeeat, thks so much!!"
+,ayaPapaya,2011-10-06T03:22Z,"For those of you that read the comments and figured it all out But are still having audio problems - you should try this: Options->Preferences->Library->Repair Library
+
+My midi files weren't working because I interrupted the download. This was my solution (win7 64b)."
+,mikec12,2011-10-18T18:35Z,"Everything works fine except when i run the authorization file ableton says ""This authorization file is not valid for this computer."" Any suggestions?"
+,Ssera,2011-10-24T16:17Z,"Hi everybody. Thx for the upload!
+One problem though, I recently dl'ed this torrent for a friend who isn't good with computers, but after installing and trying to open the authorization patch, etc. which was a hassle, all his shortcuts on his windows 7 computer (desktop shortcuts, recently used and so forth) were replaced by some sort of ableton shortcut, so it is near impossible to open firefox and other programs.
+
+Have this happened to anyone else? How do i fix this?
+Thx"
+,insanetuga,2011-10-25T22:05Z,"DOES THIS WORK FOR WINDOWS VISTA ?
+Thanks"
+,marlamartian,2011-11-27T02:38Z,"Thank you so so so so SO so much LeliStarr!!! i tried all 5 pages of advice before coming to your post... probably put in a good 2 or 3 hours before getting it to work lol. The remedy that FINALLY got the program to authorize, was not renaming the file till the original live 8.1.1 was removed and the new live file was replaced, THEN rename it. 
+
+this is her original post for others who are also having trouble getting the program to authorize:
+
+LeliStarr at 2011-03-13 17:33 CET:
+Angookie's instructions are correct, and they have worked for me.
+
+When the torrent is complete, open up an extraction program like winrar, or 7zip. Locate the downloaded folder AFTER you've installed Ableton with the setup.exe
+
+Once found within your extraction program, right click AbletonLiveSuite8.1.1Patch.exe and select extract. You can choose where the extracted files will go to, but the default will most likely be within the same folder.
+
+Once extracted, a new folder will be where you selected the extracted files to be place. Inside that folder, three files will be inside:
+Live.exe, LivePatch.exe, and AuthorizeLive8.auz
+
+Go to your Ableton folder which was created from the install (It will be in your Program Files, or Program Files x86, in your C-Drive), remove the Live 8.1.1.exe from the Program folder inside the Ableton folder, and replace it with the Live.exe from the new extracted folder. Rename it Live 8.1.1 when it is inside the Program folder.
+
+Lastly, double click AuthorizeLive8.auz
+
+Ableton will start up, self-authorize, and you'll be good to go.
+
+
+thank you again, and also a BIG thanks to michaelingeorgia for the upload!!!"
+,WhyPaywhenUcanPirateBay,2011-12-04T18:43Z,thanks for the help bros. works fine Win 9 64bit
+,1skgrk,2011-12-11T12:26Z,"Hey Guys the instructions worked great, I installed it on a previous occasion but this time round I'm installing it once again on Windows 7 Professional 64 bit.
+Once i get to the stage of replacing the live 8.1.1 and re naming. The program will not launch n just keeps crashing. So when i try run the Authorizelive8.auz file the program keeps crashing. Anybody got any ideas what might be conflicting with the program? 
+This problem only occurs when i replace the live 8.1.1 file :S
+Thanks guys"
+,arsoned,2011-12-18T23:24Z,"PROPER/DESCRIPTIVE INSTRUCTIONS! (Cause the ones above are bullshit)
+----------------------
+
+1. Extract files from AbletonLiveSuite8.1.1Patch.
+2. Run Setup
+3. In Extracted folder, run LivePatch.
+4. Rename larger ""Live"" file as ""Live 8.1.1"" (you may need to copy it into random folder so that it doesnt turn into ""Live 8.1.1(2)""
+5. Copy and replace renamed ""Live 8.1.1"" into program files directory under ableton/live8.1.1/programs.
+6. After you've run Setup, LivePatch, renamed, copied, and replaced Live8.1.1, run Authorizelive8.auz. (If windows cannot find appropriate program to run it, open it with the file Live 8.1.1 that is in the patch folder)
+7. Several minutes to Authorize, then like 45+ minutes to install all sounds.
+8. Enjoy!"
+,ComposerCK,2011-12-26T16:36Z,Why can't anyone make a straightforward version of Ableton Live that can be installed without doing all this crap ?
+,rupelto,2012-01-03T17:33Z,"Thanks it worked. 
+Read some comments and it helped a lot."
+,Psythik,2012-01-29T19:47Z,"Where's the crack?  Installed the program, then ran the patch (it didn't seem to do anything other than show the ableton logo for a few seconds).  Now when I run Live it won't let me save anything until I ""authorize"" it."
+,lisyk,2012-02-19T12:13Z,"Installed fine using this and another crack - but for some reason I have an empty library i.e. no drums, instruments etc.
+
+Help!"
+,boofont,2012-03-10T18:04Z,"I'm the same as Psythik, I followed arsoned's instructions but the patch just flashes up a screen for a few seconds, no 45 min plus install etc, and when I open Ableton it wants me to authorise it. Please help!"
+,bergsnes,2012-03-20T00:04Z,"Jeg fant en  ""Trojan.gen""  i patch filen!  alle som laster ned denne filen ikke run Patch filen!!!!!  책pne programmet fra startmenyen! ."
+,mro1990,2012-05-24T11:35Z,"yupp bauke84 is right, there are trojans in the Patch file. If u have no anti-virus i recommend not to download this.."
+,fukthesyst3m,2012-05-27T00:29Z,"The patch does contain a virus, but the virus is in the executable- not within the patch files themselves. If you follow ksirob's method of patch installation (1st page of comments) and extract the files with winRAR, and then copy into place manually you will avoid installing the virus."
+,Dlaregztif,2012-06-22T00:22Z,"@arsoned
+Worked perfect on 7 x64
+Thanks!"

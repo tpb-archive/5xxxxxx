@@ -1,0 +1,46 @@
+User Type,Username,Date,Text
+,StratubasGR,2010-05-06T09:59Z,"I messed the tracker list, everything is double. I hope it'll be OK, I don't wanna fix it with so many people downloading at the moment."
+,Alekcsander,2010-05-06T19:26Z,"I have a problem, I've copy mb_warband.exe into game directory, I've patched the game to version 1.113 but when I open the game I can't join any server. It says unable to join the server. What to do ?!"
+,Alekcsander,2010-05-06T19:44Z,Unable to connect to the server.
+,StratubasGR,2010-05-06T20:09Z,"FIRST update, THEN overwrite the .exe files"
+,StratubasGR,2010-05-06T20:10Z,So now I guess you only need to overwrite the .exe files one more time and you'll be OK
+,Alekcsander,2010-05-06T20:53Z,So I have did and still doesn't work.
+,StratubasGR,2010-05-07T08:28Z,"Did you do that?
+1. In rgl_config.txt change the use_secure_connection = 1 to use_secure_connection = 0"
+,StratubasGR,2010-05-07T08:32Z,"And that?
+3. Forward/Open the UDP 7240 port(on your firewal etc.)
+
+If so, I give up, ask at cs dot rin dot ru."
+,shadowpath,2010-05-08T12:56Z,"I had the same problem and found a solution that worked for me :
+You have to edit 2 files rgl_config.txt; paths:
+1. C:\Users\""Username""\Documents\Mount&Blade Warband\
+2.C:\Users\""Username""\AppData\Roaming\Mount&Blade Warband\
+For Win7 users. I don't know the path for other OS but just search the file in c: and if you get 2 results edit both."
+,merik..,2010-05-11T21:37Z,"Works for me, tnx dude"
+,merik..,2010-05-11T21:38Z,tnx 4 uploading and tnx 4 shadowpath 4 the rest
+,hungryman521,2010-05-17T09:58Z,"SORRY but i dont really understand the part where you say ""Forward/Open the UDP 7240 port(on your firewal etc.)"" what am i supposed to do with the 2 modified exe's? im kinda confused all in all so if you could give some help it would be appreciated.
+Thank you!!!"
+,merik..,2010-05-18T18:45Z,made a video tutorial to  download and play m&b wb using this download
+,merik..,2010-05-18T18:47Z,y0utube.com
+,merik..,2010-05-18T18:47Z,"www.y0utube.com/watch?v=17GHefbMoB0
+
+(change 0 into an o)"
+,merik..,2010-05-18T18:48Z,/watch?v=17GHefbMoB0
+,merik..,2010-05-18T18:48Z,srry 4 ttriple post computer crash
+,data_err0r,2010-05-19T04:43Z,"Couldn't find an answer on those forums, so hoped you could help me. Whenever I try to join a server I get a incorrect authorization key message. Any idea what I'm doing wrong?"
+,Samwise94,2010-05-19T13:15Z,Did you try selecting and changing the ip from Mbauthserver file
+,data_err0r,2010-05-20T02:19Z,"I think I may have missed something in these instructions. How would I go about doing that? Also, this DOES work on all servers, not just cracked ones right?"
+,StratubasGR,2010-05-20T14:22Z,"You'll only see cracked servers.
+For the incorrect auth key... did you change the ""use_secure_connection"" to 0? Is your 7240 port open?"
+,data_err0r,2010-05-21T02:32Z,"Yes to both, and I even made sure to do so on my router. This sure is confusing :S "
+,Michoooooo,2010-05-22T21:03Z,"thnx dude but i keep getting ""unauthorized"" message , did i do anything wrong or the crack need more work ?"
+,moler023,2010-05-25T17:38Z,"When you do like instalation instruction say you need to get in the game and ""refresh"" server searcher and you will be able to play...it works, thanks its most funny game i ever played. (dont forget to open port in your router)"
+,mistadrum,2010-06-13T20:56Z,"Works perfect!
+anyone that cant do this must be retarded, its self explainitary ffs!!!"
+,tankabajs,2010-06-14T13:41Z,"I dont have any txt file called 'rgl_config.txt' in C:\Users\""Username""\Documents\Mount&Blade Warband\ ??? what to do help plz"
+,merik..,2010-06-14T16:12Z,Online doesn't work anymore :(
+,MrTor95,2010-06-19T14:03Z,do i get trial game if i download it?????????
+,alexaras1313,2010-06-24T23:19Z,doukeuei auto?
+,StratubasGR,2011-01-26T13:53Z,cs dot rin dot ru/forum/viewtopic.php?f=10&t=56031&hilit=Mount+%26amp;+Blade+Warband+1.114+Multiplayer+Crack
+,1389,2011-08-19T16:14Z,"Game is Great,thanks for upload!i will seed...    does someone have servers?"
+,imortaluz,2012-04-07T18:30Z,"This WILL NOT work online, I have uploaded a version that does! http://thepiratebay.se/torrent/7159290/Mount_and_Blade_Warband_-_WORKING_MULTIPLAYER_[Portable]_by_iMor"

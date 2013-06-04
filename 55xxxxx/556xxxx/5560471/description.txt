@@ -1,0 +1,75 @@
+##############################################################################
+
+xXx (2002) 720p ( Vin Diesel, Asia Argento, Samuel L. Jackson )
+
+                   http://www.imdb.com/title/tt0295701/
+
+Video: Matroska (H264) 1280x528 23.98fps
+
+Audio: Dolby AC3 48000Hz 6ch [ English ]
+
+Subtitles: English, Arabic, Bulgarian, Croatian, Czech, Danish, Finnish, French, German
+Greek, Hebrew, Hungarian, Italian, Lithuanian, Polish, Portuguese, Portuguese +BR
+Romanian, Russian, Serbian, Slovenian, Spanish, Swedish, Turkish
+
+Sample: 7.3 MB multisub
+
+
+                       http://a.imagehost.org/0892/xXx_2002.jpg
+
+
+###############################################################################
+
+xXx: State of the Union (2005) ( Ice Cube, Willem Dafoe, Samuel L. Jackson )
+
+                 http://www.imdb.com/title/tt0329774/
+
+Video: Matroska (H264) 720x432  25.00fps
+
+Audio 1 English(default):  Dolby AC3 48000Hz 6ch 448Kbps
+Audio 2 Magyar(separate): Dolby AC3 48000Hz 6ch 448KB/s
+
+Subtitles: English(1 &2), Arabic, Bulgarian, Croatian, Czech, French, German, Greek
+Hebrew, Hindi, Hungarian, Icelandic, Lithuanian, Norwegian, Polish, Portuguese + BR,
+Romanian, Russian, Serbian, Slovenian, Swedish, Turkish
+
+Sample: 10.7 MB multisub
+
+
+          http://a.imagehost.org/0539/xXx_State_of_the_Union_2005.jpg
+
+
+###############################################################################
+
+Skip from download the Hungarian dub file xXx State of the Union (2005).Magyar (300 MB)if you don't want it.
+###############################################################################
+
+Use MKVextractGUI     (  http://www.videohelp.com/tools/MKVExtractGUI  ) 
+ to mux & demux Audio tracks and Subtitles.
+
+###############################################################################
+All subs show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+
+If the subs are muxed in mkv download & use MKVextractGUI to extract(demux) the
+
+subtitles from mkv, and mkvmerge GUI to mux back the edited/repaired sub in the mkv.
+
+Download "Notepad++" (free):     http://sourceforge.net/projects/notepad-plus/
+
+
+The sub you demuxed from mkv: Open and save as...ANSI !(Important!)
+
+Right click on the sub/Open with nppIExplorerShell.exe (Notepad++ exe)/click
+
+Encoding(upper part menu)/Character sets and chose the language ISO.
+
+Click again on Encoding/then click on Convert to UTF-8 or Unicode Big
+
+Indian/save as...srt
+
+You're done with the encoding, now you can mux it back in the mkv with mkvmerge
+
+GUI, select the language & mux.
+
+################################################################################

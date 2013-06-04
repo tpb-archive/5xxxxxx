@@ -1,0 +1,5 @@
+FLCL Ripped from the DVDs by me. The video has been de-interlaced and transcoded to h.264 @ 1mbps, with the original audio (no transcode) for both the English and Japanese tracks packed into a single Matroska file with English subtitles (Hand corrected for spelling and OCR errors) for each episode. 
+
+The subtitles are coloured, so you'll need a player that supports coloured SRT subtitles to see them. VLC works fine for this. Quicktime will ignore the colour in the subs and play them in black and white, as will mplayer. Totem-player spits out the colour codes directly (gross), and I know nothing about MPC's handling of them. Like I said, VLC is fine, and that covers most everyone. If you're not using subs, every player works fine.
+
+The inverse-telecine filter broke down at a few scene changes, but it's barely noticeable. I'll post a better de-interlace when I get around to it. (It's my first time dealing with made-for-SD-TV content, usually I work with HD)

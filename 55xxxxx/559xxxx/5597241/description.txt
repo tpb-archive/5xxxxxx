@@ -1,0 +1,311 @@
+.     .                                                                                                                 
+                       .             . ..::iiiir;i::::..                               ..::iirr7:,...                                                 
+                                  .,7LJLYLv777rii:i;777rvri:                        ,i7vJYLr;irrrii:irv77:i:,                                         
+                   . .       .:irLU1L77;:::iiriiirr77LvL7YUXYi.                  :ivYJri:;i:,:::ii,,:77LLjU2jU7:                                      
+              .           .:J5X2jr7rri;ir;rr77rir;riiirvuu2UFqZJ:             .rjLYL7r7rrii::i;iL;:,;rii7rvLLukUYr:.                                  
+                         i5N227r;rii;rir;rrrrr:i;i::irirrr;LY5XG0U.         .715u251vriiii:iirrr;i:::iirir;7LJYSPXuji                                 
+                      .:71SjYL7vYiirL77rv77r77rir::i7iii7r77vYjuXN87      .2OE5Y5FSUJ77;;:r;r;7r7i::::i:::ii77J5NqNSFL:                               
+                     .vGqjrLYr7J7rrYLvvYYYvLrriirYLYYJ7YJUYju2uYYSGBSi,:.iBBZ2jUY2uYLYLLrr77rr;ri:,;ri:;rrr7r77YuXkSSEFL.                             
+                    iuEk2u5jL72uUUUvLYjYuYjLY7Juuvv7uUuuj7LLuu5FPFSXBM;.,7BBBk1U51SU125uuv7777v;i:i;riiiii7777jYujUU12XkJ.                            
+                  .vEBkuFquJjjL1SFU521jUjUuUYjFPUuUuYUJjLLLjLU2SSqSFGBPu:.,GBGYjUkSP51juYuLUUU7r:ii:;L7riirYvYj2YJ7YU2vUF5r                           
+                 .vqO155U2UuSUU2UJ5PNUJYuj51SJYLFFF2FUjYuUuLLUEq0qNSkZBXJr,:MMkU2U1F5JjYuuUu5ULiir7rLL7rJvuuuLUUU22v25UJPBBF                          
+                .J0E5151JUY2kS5SJJ21r:....,7u8PUYuU2uuLuUSUYLUU22kkqUSM57Ui.qGU12U7L7LvjYj2uJSJrrYLYYY7vY12uYLLYYju51FSMBBNu,...                      
+                v0Z1kPkL1FUJkSS1XJ:  .,.,..  :UN27YYYLYYUUUYujuY2SXXXkB0jri:NqE80UY7L7JYJ7L7YuJ77LJLL7v7LjJLYLLLUYYU5PBB7   ... :.                    
+               :UEk0GX1X5SjU1FU0L. ::::::i::,  iJuYuJuU1Juj12F155PX0ZOMMU7LPMBBBF12XFkSkUuLUj1SPuUF5L;;j2SuU21Juu51UUBN.  ,r:i::,:,                   
+               iUP0PP2SS2JUUF11j,.i::.i:i;;:ri.:jY7rY5EXF252EPPUv:::iL0MFY0BBMZ5uL55Y;i,,,7UjYF7vj5F1j5SSkFJJJ5F5Fkj57. iir;ii;ii.i.                  
+               UPZF1UUjUYU5PFXuL.:::,i;7irr:,;LLrjYUSXFk1UUXFY,.      .U1GBBMMSU10F7.       .rUSuUJJr;ii:7YULj2Uj1u1L. :ii::,:iri,i,                  
+              .U0NFuF55u1FNPqFSL.,:.:r7;::i:iLPuLjSkXuUjSP0ki.  .:;i::.;PBMOB8SFqP7   ,,:,.  .rY7:.       :r77YY152Jv77:::::::::r.i.                  
+              ,JF0FFX05UUSP0kXE1,.:,iri::i::LGSSU1XXvJ21XBki .iJU121YrrNMMMBM01N5i .:J152qL:.. ,.   .:..   :Y2Lu52jFUS1i:::i::.,:.:.                  
+             .iYk2Fq0U5UEqk5XFN0j..::,ri:i::1qF25jUjUUPEMP7.:72JY7v7rLBBBNO0NUU2; .i777r;rYr;:,,,:7L1uFLi,. r20qX11jUJYii,:::,,.,,,                   
+             .,jXP5GSXP0XSFqkFkMOj. .:,,:;,:uS1FJYY2XEkqkj;iii:::::riPBB0ENU185i.,:iii,i:::;ii:::rv7r;7LLr:.,UM8kEk5jjv7:,,i...::,                    
+               iXXXZFNPXPkX55UPkMBk:.     ,YGNq2U2k2F5S127i:i,::,.r7i1BBZPNXPMX:::;iiYPMM5i:iii::,::rii:rir:.iXE8ZZq88NJ: .. .::,                     
+               iq1ZM0MNZEM0XSZ00X8BBqjii:,7M05NG51FquYuSur::,::v5MBBi,SBMPEGqN5Y:::LFBBB1MMj:iii:i7qBBkL7iir:iYEG8qPqMMMr  .,i:                       
+                v7BBB0OGZ0Zk0NPF0OMOBBBBBBGkFEMEqXqJj1kF17:,:i7u0Xvi. . rPN2M80U:,::i7OBFZBPi.,:rjBBB7MBUri:r7u500GqN0MMO2Y507.                       
+                 7GP08Z8ZOqqNPqZNZGBMBBBBM5X8MZ0F1u11Nqk2Y:i,,,r7r,. :,. 7BBBBNGUr:,...7Uji:    ,U8ME50Ov7iivSkXNMEqkG8MMBOqSL.                       
+                 7N1BMMEEMNqZNMZZqGGMGMG8NqPZEN51YjU51q527;;;iY2L.  ...77.:0BMMEqSFYvii,.         .:Yj: :,i75XEZMMMNNNES2XBj. .                       
+                 :rBGBMNqMqGMMZ8G0PZMME8NEE8EE51FkjYYkS1UuvujPqY.  .        rMN5NqqBS7.   ,Yi.,r.   .rvLrL2PSNZBBBMZPE0NPkq0i                         
+                  2q7kMSZZMEBBEXNPNXPkGOMNNkXEqPG5YLU1F2XkF525Y. .... .      :NkFUFu:.   .:jur5Fi     ;E0X8GEEMMBBMkSkNXN0Ui:                         
+                  ,,i8FOqMMGGB8P5E0qkZNNqNSqE5LFPuL2U25P12j2uur:.,.,..  .::. vBk1Xji,...   ..:,. . . ..iPEP8OMZ8OBGZNqF51PS7                          
+                .   iNNEEEBNMM8PN8MEqZMXkNG0OU2kSY22UUk1UvjUuvYvi.::,...,:,. iBEkkUiLi...           ,,,.Y5FXMOMOB8ZEZUUFN5j:                          
+                    iu2XFXB8MGNMOMOBBBBBBBBBBB88XFXSJ2uU5k125jLU7:.:,,,,.,.;jPEEGF;:ri.:.,..    ...:.,7771J5OBBZNZkPXSFOMY.                           
+                  . , .r7SOGM8MBBBBBBBBPji:iJEZBBENqEPSUFkkU2U2uur:,..,..iYBBXOMM1Y:::::,::,,...,.,...JLJqqqMOZSkXEqGMGUu.                            
+                         :k8kEGBBBBM7:,.     .,rEB8P0X1qFFFFL1kFYLv7ii:rvi.:UMBBBBGuiiii.::,.:::.,.:iri7SBq0Z8XqqqSPSUri                              
+                          ,..SM0E5L:,..,..,.,:,.,;NMMNq88qXUSFPSkF0NSk0u,  iNMq2kGBMk7i:::i::;i:::7r;:7uPGqN1582iLUi.                                 
+                           .YME0U7iii::L:.,::i,...:FBBMBBBBBBBOMBBOME0i   :kEF;:iLEBZG5vrLri:::::ri;rjXBBBBBJ ..                                      
+                          vNE1YYY;LYr:r;,.,,:.7::i::UMBBBZMP7r77r:,.      .ZOuv7rii;kkNMBBq5UvLLYUPSZEZEOPGBM                                         
+                        ;FU7r7777jY7i7r:.i:,:i,:i;i::iuBZY:.           . .uBMPJLr;i:,. ...,::::7YGB8JYYviiijJv                                        
+                      .YPYLriL7LYLu77Yj::7i,:i:,::::i. :1NP1Su7r7rriYUjF1uBBBqF2J::.             :F7::ii::::iri                    .. .   .           
+                     .r1Y7r7iYrUJLYuLjr7rLv:ii:::::;r7i,.r7;vYLjjUYvLjr7;ii::::i:,.            .,. :ii:7:,,::ri,                   :. ..  .           
+                   .r7YYY;rr7ivL7rjLYvrrrr7:ii::;iii;i:::,........... .,..,.:ii::,,..    . .,.:::,..Luiiiii::iri:           ...   ,:..i. .i,          
+                 .iYYYv;:77i:;j7:7uLLL77i7;7L7i:iri;i;ii:::i:::i:i:::;ii;virii:ii,.,.......,,:,:,,,.,Jriii::,irr:.         :,...  i::YL:i7....        
+                ,iLLvr;:irr:irUr7vurjYY77vuUJr7i;v7v1viiriiiri;;;iiir;777irr777;i..,:...,..   ... ,rY7r::i;:::i:Lr.   . ..:i.  ::...ii::rvi,:,        
+             ,i77L77rr::ir;i7UYLYSJL7jYUJJu1UvLvLUYUULr;;Yvrir77riirrjjjrrYv7JuUr:...,.. . .:LuUvLUSJr:::i,..,,.,7;:.::ii::r.. 77...,,:ri:7i ,:       
+            :iri;iiiri::ii;ivYLrrU12Yu2Jjj1UjLLj52512L7JkuLvuLLLY7r72JYYYv2LYjFJr::...i:i;1MBBSvYYYL7;i:......:....r82,,,.:r..:i....:..:i:i;.:,       
+          .ir;:i;i:iii:i::iLYYvYJ22UjSPkUF51Lj7U5UUFu2UXSj7u1uLUUurY2JvUuYYv7YLr:YUSNOEMMMMBBMSJv7;7;;i:.......,...,iuYi::i7 .:i.,:.,...,i..::        
+         :7rrr7r7;i:i:::i:irrirYqkk2qXNNOZ0F5UL5XJ12U1XUuJS1SFF1Uv1u55kkUJULLv1JJ8B0ON2ju1PqZNkJ7rLri::,,.,.,......,.rPj7;v,..,i;::,,,:.. .:r         
+        ,Jrii7v7:::i:::::ii;i;7YYU2ZMBBBBBGE882EXkPk5X11UF5FqNSUk2MXqNqG2PFOE0BME8X2j5YLiJ1SkZXurrrr::.,.,...,.......,rUL2r..,.:ii::::....:7          
+       .YJirvi7ri:;:::r;r;ri7vSYYkBBMOE7:.....:uqBB8OXkEqPG8BPqNMU0PNjYLi:.NBBO5qYvUUJ7iir772Eqv7r;ii::::.....,,,,. . .jN0...,::iii::,.. :r           
+       vur7Yr;;iir:::rrrir7uUFPUJqXr             UMBB2Y8U520BXLL, .:AimHarder  iBB5jLY7L77:i:;:iLP0F7r;i:i::.:iuU2j1JLL1uri5BU ..::::i::::..:i.. ...      
+      ;1LiU7rYri7i:iJv7rrrUSX2Li::. .,, ....:..    ,Si      .              :BBEkJYL:ii7jYvvr;i1GP7ri::7LUuF1jri::,iLL710B  ...::ii:::..rL,....:i:     
+     .jqJvr7vLr7ii7Y7v7rr7YULr::::::ii,,,:,:::,:,,.,,;i.        .  ,:.....:::SG2Yvrvi::7LuL;ir78GYi77U1FUr77..,::i:iir7FU. ,.:::::,,.:Jr. ...,.:::    
+     ,5SFj7i777ii;Lrr7Y7rr7rririi:;ir::i:,::i::::,::::iir:.     ,  7u. .,.,. .Y2LjUr7:,.::i:;;rJ8kUX8P1v7ri:::::rrrii:7Jk. ...:,,.. i7:   ..,,:,,Y:   
+     :YEFJLLi;j7i777iLYYr7777jJLiii;iiir:i7Yii;i::::,,,::r;:.i:....:...,.,,,:::uF1vr:,.,.,.::iir2BBOqX22JjvYL7:r;iir;;i75r   ... .,:i:   . .,i:...r:  
+  .  .jE5U2Yr7kjL7Lr7Lu7rrLrLUY7vr7rLvYJJLYL7iYL;irii:ir:,i:rLr,,.....,.,.:::.  JU7;:.:ii:,;i:rvjSNP0Xk5S2UYYYYL7iiiriiijk2r:   ,i;:. . ........ri:   
+      LMj22J7uuu7rrLLjrr7L7LvY7L77vUjjYJu5LvL7r7r7rr7Jr7i::iir:,...,,,:::::: ,r1GEYvrr::::.i::i77LJqESJuUFuJLUuuLLr7r7rYrvjNEq1N0u,.......,..,i;..    
+      iBF7XUU5uYY7YJUYLYY7r7Y7u7r7UjYLjJUYjLY7LLuJYrrrY7;:r7r;i,..:.,,,,i:. LNBBBP277ri::.:,::::LvY0BPUY5F5UUjuLjjUJUJUjY7;i7j1Yr::,....,.., rj       
+       NNYk5u0U2uUjUUUU2Lv7JJjL7rL77Y2Ukuju2L2UUU2uY77;77Yrrii:,.,,,::::,,.7BMXBOEEkjYiii;:::i,,iJuP0ZXXkqSk12JUYuUUjUYY7LL7rrii...,,,.,,,...r.    .  
+. .    .qBO1PkFUF15uUUU7LLUYjuYYUYYYSqEqNX0qZkFjYLYLLvYLYvL7jr:::.,::,:..:jPB0SNMEq2ujvrY7;:::ii;7JjXNGFUU5SX5kXF201UU2LjYL7Lv7;i..,:,:,:.,:r:   .,.  
+. .:.   iMMOX5k25NSFuUjjYUJYJ5JSXXk0kN0NEM0E8ZkFUUJYYUYLj1Yjvr::::,,,:,:rr,UZMPqN0FSSUri::....,:,.,YqBBMPXXqXNSXkXSE0GP1ujLJYYL;.,,:,:,..,rU, .,.,.  .
+  .:i:..,i0BB0Z5FFNkk55u225UFkF1XPPkNXqXqXZGBB8kqqNS5SXjS1jU;ii::::,,:ri:  .5MOqNP8MNi:,...   . .  .iUBBBBBZZPZ0ZNG8EZB8SUS5ur;::,:,,...rjj. :i.,..   
+  ..:;i::rYGBBBBNkXNkOZXXZZEPEEOZ8EE0GZZNZ8BBBBBBBE8ENXSk01ji:,;:,.i;ri:,,...UBBBBBMr,.,...........,...iYFUMMkZBZBBS:7P00MEPkXYi.:...:7U2v.:i:...     
+    .,::i7vr2ZBBBBBBBBBOMBBBBBBBBBBBBBM8OGGqqSFkBBBMM8M8EXU:::::..;Y7:7r,.;:.;q8BBBB7. .7:. ir..r:,:i:    .FBBBBBPuLr:irYUPZBBB5r::r5NMSui::i,.       
+       .     ...iYY1XXkGk0EOOBOMMONNPSJJ77i::::::;752J10SENL:::irjUY7Ji,:;iiriir7kBB7. rM7..JO,.iUi.:F1v;7uZMGJr:,.ii::i:::r7jXO0Zq0Ur,,...,..        
+                            . .           ... ..   .,.. .:rrvY1UJr:::. .:,..... ...:7,:kM7:iP8v.iSU.:L7:ii:..       ..... .                           
+                                                                                     .,,..::...,:,.:.                                                 
+
+
+       -----â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ ---â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ -----â˜ â˜ 
+  
+                                         ______)          _____                        ______         
+                                        (, /  /)         (, /   ) ,                   (, /    )       
+                                          /  (/    _      _/__ /    __  _  _/_  _       /---(  _      
+                                       ) /   / )__(/_     /     _(_/ (_(_(_(___(/_   ) / ____)(_(_(_/_
+                                      (_/              ) /                          (_/ (        .-/  (
+                                                      (_/                                       (_/   
+
+       -----â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ ---â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ -----â˜ â˜ 
+
+
+         .Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·Â¤~à¹‘Â°â˜†â˜†Â°à¹‘~Â¤Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·â˜†â˜†â˜†â˜†â˜†â˜† ~â˜¢   â˜¢~ â˜†â˜†â˜†â˜†â˜†â˜†Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·Â¤~à¹‘Â°â˜†â˜†Â°à¹‘~Â¤Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â· 
+
+
+Version : 1.2.3             SystÃ¨me : Windows 7           32Bits (x86) & 64Bits (x64)      Editeur : Yamicsoft      
+
+
+Protection : Serial (Lire NFO)        Utilitaire : Keymaker       Cracker : Challenge Of Reverse Engineering (CORE)
+
+
+
+
+Price app. : 39.95 $
+
+
+
+                     -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+An all-in-one utility to tweak, optimize, tune and clean up your Windows 7, it includes over thirty different utilities to help make your system 
+
+perform faster, increase stability and security, and helps you to personalize your copy of Windows 7.
+
+
+
+
+Why Should I use Windows 7 Manager?
+
+
+
+Windows 7  is the newest Operating System for home users and professionals alike. Windows 7 brings clarity to your world, so you can more safely and 
+
+easily accomplish everyday tasks and instantly find what you want on your PC.
+
+Windows 7 Manager is the powerful software tool to tweak and optimize your Windows 7, it bundles more than 30 different utilities in one and help your 
+
+system faster and more stable, secure and personal!
+
+
+Features and Benefits of Windows 7 Manager
+
+    * Information
+      Get detailed system and all hardware information on your system; help you find out the installation key of Windows, Office products; show all 
+
+      detailed information of running processes and threads on your machine; Windows 7 Manager offers  1-clicking cleans your system automatically.
+
+
+       
+    * Optimizer
+      Tweak your system to improve windows startup and shutdown speed; tweak your hardware to increase system speed and performance; Optimize Task 
+
+      Schedule to turn off unnecessary system tasks.
+
+
+       
+    * Cleaner
+      Find out which files or folders engross your disk space and shown with chart; Find and clean junk files to increase Hard Disk space; Duplicate 
+
+      Files Finder can scan your computer for files with the same size, name and modification time; Registry Cleaner can easily checks your registry 
+
+      and repair incorrectly linked registry entries, automatically remove invalid entries; Registry Defrag rebuilds and re-indexes your registry to 
+
+      reduce registry access time and therefore improve application responsiveness.
+
+
+       
+    * Customization
+      Control what is started on Windows startup; Create the quick startup items on Taskbar with the Jump List quick launcher; Tune up Windows 7 boot menu;
+
+      edit context menus of mouse Right-Clicking; customize system desktop, menus, toolbar and notifications settings; customize the look of your system.
+
+
+       
+    * Security
+      You can improve desktop, menus, Windows logon securities, and enable numerous hidden performance options of system, disable system updates and error 
+
+      reports; hide and restrict to access drives, specify which applications are not allowed to be executed on your computer; encrypt/decrypt and shred
+
+      files, change the location of system folders; Privacy Protector can maintain your personal privacy by eliminating the tracks that you leave behind; 
+
+      create lots of randomization password once.
+
+
+       
+    * Network
+      Optimize your Internet connection speed, manage all shares items; tweak your Internet Explorer easily.
+
+
+       
+    * Misc. Utilities
+      Show the collection of Windows utilities; split and merge any file; Copy and move files neatly, you can also automatically back up files regularly.
+
+
+
+
+                    ############################################### F R E N C H ###############################################
+
+
+
+Windows 7 Manager est un utilitaire tout-en-un (AiO) pour tweak, optimiser, rÃ©gler et nettoyer votre Windows 7. Il comprend plus de trente utilitaires 
+
+diffÃ©rents pour permettre Ã  votre systÃ¨me de fonctionner plus rapidement, augmenter la stabilitÃ© et la sÃ©curitÃ©, et vous aide Ã  personnaliser votre version 
+
+de Windows 7. Windows 7 Manager est "LA" solution complÃ¨te pour dÃ©couvrir une vision unique de Windows 7
+
+
+Version : 1.2.3
+
+SystÃ¨me : Windows 7
+
+Architecture : 32Bits (x86) & 64Bits (x64)
+
+Langue : Anglais
+
+Editeur : Yamicsoft
+
+Protection : Serial (Lire NFO)
+
+Utilitaire : Keymaker
+
+Cracker : Challenge Of Reverse Engineering (CORE)
+
+Prix Application : 39.95 $
+
+
+
+Pourquoi devrais-je utiliser Windows 7 Manager?
+
+Windows 7 est le plus rÃ©cent systÃ¨me d'exploitation pour les utilisateurs domestiques et professionnels. Windows 7 apporte de la clartÃ© Ã  votre monde, 
+afin que vous puissiez plus sÃ»re et plus facilement accomplir les tÃ¢ches quotidiennes et de trouver instantanÃ©ment ce que vous voulez sur votre PC.
+
+Windows 7 Manager est l'outil logiciel puissant pour tordre et optimiser votre Windows 7, il faisceaux plus de 30 services diffÃ©rents dans un seul et 
+aider votre systÃ¨me plus rapide et plus stable, sÃ©curisÃ© et personnel!
+
+
+CaractÃ©ristiques et avantages de Windows 7 Manager
+
+    * Information
+      Obtenez dÃ©taillÃ©e du systÃ¨me et toutes les informations sur le matÃ©riel sur votre systÃ¨me; vous aider Ã  trouver la clÃ© d'installation de Windows, 
+      Office des produits; afficher toutes les informations dÃ©taillÃ©es sur les processus en cours et les discussions sur votre machine, Windows 7 Manager 
+      offre 1-clic nettoie votre systÃ¨me automatiquement.
+       
+    * Optimiseur
+      Tordre votre systÃ¨me pour amÃ©liorer la vitesse de dÃ©marrage de Windows et d'arrÃªt; tweak votre matÃ©riel pour augmenter la vitesse du systÃ¨me et des 
+      performances; Optimiser Planifier les tÃ¢ches pour dÃ©sactiver les tÃ¢ches inutiles du systÃ¨me.
+       
+    * Cleaner
+      DÃ©couvrez quels sont les fichiers ou dossiers accaparer votre espace disque et montre avec carte; Rechercher et nettoyer les fichiers indÃ©sirables pour augmenter l'espace disque dur; Duplicate Files Finder peut scanner votre ordinateur pour les fichiers avec la mÃªme taille, nom et date de modification; Registry Cleaner peut facilement les contrÃ´les votre base de registre et la rÃ©paration des entrÃ©es de registre mal liÃ©, de supprimer automatiquement les entrÃ©es invalides; Registry Defrag reconstruit et re-index de votre registre afin de rÃ©duire le temps d'accÃ¨s de Registre et donc d'amÃ©liorer la rÃ©activitÃ© des applications.
+       
+    * Personnalisation
+      ContrÃ´ler ce qui est commencÃ© au dÃ©marrage de Windows; crÃ©er les Ã©lÃ©ments de dÃ©marrage rapide sur la barre des tÃ¢ches avec la liste des sauts lanceur 
+      rapide; Tune up menu Windows 7 Boot; modifier les menus contextuels de la souris clic droit, de personnaliser le systÃ¨me de bureau, les menus,  
+      la barre d'outils et les paramÃ¨tres de notifications; personnaliser l'apparence de votre systÃ¨me.
+       
+    * SÃ©curitÃ©
+      Vous pouvez amÃ©liorer de bureau, les menus, les titres d'ouverture de session Windows, et permettent de nombreuses options cachÃ©es d'exÃ©cution du 
+      systÃ¨me, dÃ©sactiver les mises Ã  jour systÃ¨me et les rapports d'erreurs; masquer et limiter l'accÃ¨s aux disques, spÃ©cifier les applications ne sont 
+      pas autorisÃ©s Ã  Ãªtre exÃ©cutÃ© sur votre ordinateur; crypter / dÃ©crypter et les fichiers de dÃ©chiqueter, de changer l'emplacement des dossiers systÃ¨me, 
+      Privacy Protector pouvez maintenir votre vie privÃ©e en Ã©liminant les traces que vous laissez derriÃ¨re vous, de crÃ©er des lots de mot de passe 
+      alÃ©atoire .
+       
+    * RÃ©seau
+      Optimisez votre vitesse de connexion Internet, de gÃ©rer des Ã©lÃ©ments de toutes les actions; modifier votre Internet Explorer facilement.
+       
+    * Divers. Utilitaires
+      Afficher les fichiers de la collection d'utilitaires Windows, dÃ©couper et fusionner n'importe quel fichier, copier et dÃ©placer proprement, 
+      vous pouvez Ã©galement sauvegarder automatiquement les fichiers rÃ©guliÃ¨rement.
+
+
+
+                                 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+                                  ## MERCI DE FAIRE POUR LES AUTRES CE QUE JE FAIS POUR VOUS : PARTAGER ##
+                              ## LAISSER LE TORRENT EN PARTAGE LE + POSSIBLE & VOUS AUREZ FAIT VOTRE BOULOT ##
+
+                                 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+
+                                    Â°~Â¤Â¤~Â°â˜ â˜ !SÂ£Â£D!â˜ â˜ Â°~Â¤Â¤~Â° Â°~Â¤Â¤~Â°â˜ â˜ !SÂ£Â£D!â˜ â˜ Â°~Â¤Â¤~Â° Â°~Â¤Â¤~Â°â˜ â˜ !SÂ£Â£D!â˜ â˜ Â°~Â¤Â¤~Â°
+
+                                       2 @ll Hit n' RÂµnnÂ£rz - 2 U nah $haring - Plz accept my greetz :
+
+                                       A Tous qui prennent et s'en vont - A vous qui ne partagez pas :
+
+                                                       
+                                                       Mes Sinceres Salutations 
+                                                        ............/??)......
+                                                        .........../../.......
+                                                        .......___/../_.......
+                                                        ....(/??/../?.?......
+                                                        ..././../../../.|.....
+                                                        ..(.(..(..(../..).....
+                                                        ..;.............;.....
+                                                        ..............//.....
+                                                        ....(;........;)......
+                                                         .....â˜ â˜ â˜ â˜ â˜ â˜ â˜ ......
+
+
+
+
+
+
+                                 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                                                        !Pan!    Ì¿Ì¿ Ì¿ Ì¿Ì¿'Ì¿'Ì¿Ì¿ÌµÍ‡Ð·=(â€¢Ìªâ—)=Îµ/Ì¿Ì¿ÌµÍ‡/'Ì¿'Ì¿Ì¿Ì¿ Ì¿ Ì¿ Ì¿   !Pan!
+                                                          |3Âµrn4 B4byL0nyz O0opps
+
+                                 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                                 .::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+                                 .::::|            --------------------------------                 |:::.
+                                 .::::|                $H@RÂ£ PIRATES RULZ on TPB                    |:::.
+                                 .::::|            --------------------------------                 |:::.
+                                 .::::|_____________________________________________________________|:::.
+                                 .::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+                                 .::::|                     Â®Â©ÂºÂ°Â¨Â¨Â°Â¨Â¨Â°Â°Â¨Â¨Â°ÂºÂ©Â®                       |:::.
+                                 .::::|_____________________________________________________________|:::.
+     
+                                 .::::|         â˜†Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â¤~à¹‘Â°â˜†â˜†Â°à¹‘~Â¤Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·â˜†           |:::.
+                                 .::::|              --------------------------------               |:::.
+                                 .::::|             http://ThePirateBay.org/user/DeGun              |:::.
+                                 .::::|              --------------------------------               |:::.
+                                 .::::|_____________________________________________________________|:::.
+                                 .::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+
+       -----â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ ---â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ -----â˜ â˜ 
+  
+                                         ______)          _____                        ______         
+                                        (, /  /)         (, /   ) ,                   (, /    )       
+                                          /  (/    _      _/__ /    __  _  _/_  _       /---(  _      
+                                       ) /   / )__(/_     /     _(_/ (_(_(_(___(/_   ) / ____)(_(_(_/_
+                                      (_/              ) /                          (_/ (        .-/  (
+                                                      (_/                                       (_/   
+
+       -----â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ ---â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ -----â˜ â˜ 

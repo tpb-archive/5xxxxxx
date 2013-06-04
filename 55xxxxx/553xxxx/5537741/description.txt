@@ -1,0 +1,32 @@
+Hiren's Boot CD is a boot CD containing various diagnostic programs such as partitioning agents, system performance benchmarks, disk cloning and imaging tools, data recovery tools, MBR tools, BIOS tools, and many others for fixing various computer problems. It is a Bootable CD; thus, it can be useful even if the primary operating system cannot be booted. Hiren's Boot CD has an extensive list of software. Utilities with similar functionality on the CD are grouped together and seem redundant; however, they present choices through UI differences. Hiren's BootCD - All in one Dos Bootable CD which has all these utilities.
+
+
+
+Changes in v10.3:
++ Total Commander 7.50a
++ PST (Outlook) Password Recovery 1.12
++ DiskCryptor 0.8
++ TeamViewer 1.85
++ InstalledCodec 1.15
++ Bulk Rename Utility 2.7.1.1
++ AlternateStreamView 1.12
++ RegFromApp 1.20
++ GMER 1.0.15
++ Network Password Recovery 1.23
++ Smart Partition Recovery 3.3
++ ShellMenuNew 1.01
++ Kon-Boot 1.1
++ BootSect 6.0.6
++ AccessGain MiniFilter 1.0 (Mini Xp)
++ exFat Driver (Mini Xp)
++ Process Monitor 2.8
++ H2testw 1.4
+- Streams
+- Data Advisor 2005 (Dos)
+- DosCDroast
+- Ghost Walker (Dos)
+- GDisk (Dos)
+
+Changes from Hiren's BootCD 10.3 to 10.4:
+
+It has been reported that driver iastor.sys version 9.6 causes BSOD 0x0000007E on some machines when booted from USB so its downgraded to version 8.9.

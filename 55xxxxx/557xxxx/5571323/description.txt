@@ -1,0 +1,38 @@
+ As always Winamp also features:
+â€¢ Now Playing: Discover Artist Songs, Videos, Radio and Photos
+â€¢ iPod Support: Play and manage music on your iPod
+â€¢ AOL Radio Online Service Powered by CBS Radio
+â€¢ Album Art: Retrieve and view Album Art
+â€¢ Expanded Flash video support
+â€¢ Auto-Tag: Automatically update your song information
+â€¢ Media Monitor: Playing the music web just got even better
+â€¢ Remote Media: Access your media remotely
+â€¢ Thousands of skins and plug-ins to make Winamp even better
+â€¢ Free videos, radio stations, MP3 downloads and more
+
+Winamp 5.572
+* Improved: [h264.w5s] H.264 decoder optimizations
+* Improved: [in_avi/bmp.w5s] Support for RGB bitmap AVI
+* Improved: [ml_disc] Support for Disc# in CD Ripping naming convention
+* Fixed: Crash when using Alt+3 editor during mldb background scan
+* Fixed: EasyMove for classic video window
+* Fixed: Spectrum analyzer and beat vis for 32bit PCM files
+* Fixed: [bmp.w5s] Memory leaks with BMP AVI codecs (tscc, rle, yuv, rgb)
+* Fixed: [D3D] Crash when changing height but not width on back-to-back videos
+* Fixed: [gen_tray] Compact mode in Win7 popout tray
+* Fixed: [in_avi] Crash on files with missing RIFF header (including 0-byte files)
+* Fixed: [in_avi] Crash when ix## seektables aren't where they are supposed to be...
+* Fixed: [in_mod] Out of memory error with some older .mod files
+* Fixed: [in_mp3] ADTS header unicode/ansi issues (for .aac files)
+* Fixed: [ml_impex] UTF-8 writing
+* Fixed: [ml_local] Info editor erasing mldb fields not supported by input plugin
+* Misc: Further attempts to fix reported elevation/registration issues on Vista & Win7
+* Misc: Installer: Only install Gracenote alongside dependent components
+* Misc: More general tweaks, improvements, fixes and optimizations
+* Misc: Various translation updates (note: French lang pack now updated to 5.57x)
+* Updated: [gen_jumpex] JTFE v1.0.7.3
+* Updated: libpng 1.4.0
+* Updated: libsndfile 1.0.21
+
+
+Enjoy

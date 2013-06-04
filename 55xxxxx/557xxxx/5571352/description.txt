@@ -1,0 +1,16 @@
+Build Xellous v0.1
+
+Krizalid released Build Xellous v0.1, a PC app that builds XeLLous for first time JTAG:
+
+
+Build XeLLous v0.1 (uses ibuild, nandpro2b and donor files)
+
+- Simply start the app and type the motherboard type you want it for and it will build it for you.
+Final size is in 50 blocks (hex), or 80 16kb blocks. NAND area is 0 > 4F
+
+- NOTE and WARNING: This will make a fully working XeLLous to flash for the first time to your 360. Keep in mind that it's based on FreeBoot's ibuild and it will look to launch the rebooter if you power on with the "power button", please power on with the "eject button" and drive attached.
+
+What's the main idea?
+- Rapidly build Xellous.bin for your console so you may acquire "fuses.txt" and "flashdmp.bin" via FTP and create your FreeBoot or XBR Image and flash, instead of flashing all from PC (may take forever using LPT)
+
+This version does have both Jasper's South Bridge versions of the SMC so that you may build for Jasper16 or JasperBB and not having a black screen boot up on you ;)

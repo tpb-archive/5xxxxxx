@@ -1,0 +1,96 @@
+I. Source
+download http://www.torrentroom.com/torrent/2671098-%D0%9F%D0%B0%D1%80%D0%B0%D0%B4-2010.html
+Format                           : MPEG-TS
+File size                        : 2.47 GiB
+
+Video
+ID                               : 330 (0x14A)
+Menu ID                          : 10801 (0x2A31)
+Format                           : MPEG Video
+Format version                   : Version 2
+Format profile                   : Main@Main
+Format settings, BVOP            : Yes
+Format settings, Matrix          : Default
+Format settings, GOP             : M=3, N=12
+Bit rate mode                    : Variable
+Bit rate                         : 4 288 Kbps
+Nominal bit rate                 : 6 000 Kbps
+Width                            : 720 pixels
+Height                           : 576 pixels
+Display aspect ratio             : 4:3
+Frame rate                       : 25.000 fps
+Standard                         : PAL
+Color space                      : YUV
+Chroma subsampling               : 4:2:0
+Bit depth                        : 8 bits
+Scan type                        : Interlaced
+Scan order                       : Top Field First
+Bits/(Pixel*Frame)               : 0.414
+Stream size                      : 2.25 GiB (91%)
+
+Audio
+Format                           : MPEG Audio
+Format profile                   : Layer 2
+Bit rate mode                    : Constant
+Bit rate                         : 192 Kbps
+Channel(s)                       : 2 channels
+Sampling rate                    : 48.0 KHz
+Video delay                      : -106ms
+Stream size                      : 103 MiB (4%)
+Language                         : Russian
+***************************************************************************************************************
+
+II. AVIsynth script
+LoadPlugin("D:ProgramsmeGUItoolsdgindexDGDecode.dll")
+mpeg2source("video.d2v", cpu=6, idct=5, info=3)
+LoadPlugin("D:ProgramsmeGUItoolsavisynth_pluginColorMatrix.dll")
+ColorMatrix(hints=true, interlaced=true, threads=0)
+LoadPlugin("D:ProgramsmeGUItoolsyadifyadif.dll")
+Yadif(order=1)
+crop(8,8,-8,-8)
+***************************************************************************************************************
+
+III. Final clip
+Format profile                   : OpenDML
+File size                        : 2.07 GiB
+Duration                         : 1h 13mn
+Writing application              : VirtualDubMod 1.5.10.3 | www.virtualdub-fr.org || (build 2550/release)
+
+Video
+Format                           : MPEG-4 Visual
+Format profile                   : Advanced Simple@L5
+Format settings, BVOP            : Yes
+Format settings, QPel            : Yes
+Format settings, GMC             : No warppoints
+Format settings, Matrix          : Default (MPEG)
+Codec ID                         : XVID
+Bit rate                         : 3 871 Kbps
+Width                            : 704 pixels
+Height                           : 560 pixels
+Display aspect ratio             : 5:4
+Frame rate                       : 25.000 fps
+Color space                      : YUV
+Chroma subsampling               : 4:2:0
+Bit depth                        : 8 bits
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.393
+Stream size                      : 1.99 GiB (96%)
+Writing library                  : XviD 1.2.1 (UTC 2008-12-04)
+
+Audio
+Format                           : MPEG Audio
+Format version                   : Version 1
+Format profile                   : Layer 3
+Mode                             : Joint stereo
+Codec ID                         : 55
+Codec ID/Hint                    : MP3
+Bit rate mode                    : Constant
+Bit rate                         : 128 Kbps
+Channel(s)                       : 2 channels
+Sampling rate                    : 48.0 KHz
+Stream size                      : 67.5 MiB (3%)
+Alignment                        : Split accross interleaves
+Interleave, duration             : 40 ms (1.00 video frame)
+Interleave, preload duration     : 500 ms
+***********************************************************************
+IV. Any comments (on quality, encoding, etc.) are welcome ;-)

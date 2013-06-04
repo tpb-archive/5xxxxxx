@@ -1,0 +1,52 @@
+Format : AVI
+Format/Info : Audio Video Interleave
+File size : 697 MiB
+Duration : 3h 3mn
+Overall bit rate : 531 Kbps
+Writing application : VirtualDubMod 1.5.10.2 (build 2540/release)
+Writing library : VirtualDubMod build 2540/release
+
+Video
+ID : 0
+Format : MPEG-4 Visual
+Format profile : Advanced Simple@L5
+Format settings, BVOP : Yes
+Format settings, QPel : No
+Format settings, GMC : No warppoints
+Format settings, Matrix : Default (H.263)
+Codec ID : DIVX
+Codec ID/Info : Project Mayo
+Codec ID/Hint : DivX 4
+Duration : 3h 3mn
+Bit rate : 417 Kbps
+Width : 680 pixels
+Height : 288 pixels
+Display aspect ratio : 2.35:1
+Frame rate : 23.976 fps
+Resolution : 8 bits
+Colorimetry : 4:2:0
+Scan type : Progressive
+Bits/(Pixel*Frame) : 0.089
+Stream size : 547 MiB (79%)
+Writing library : XviD 1.2.1 (UTC 2008-12-04)
+
+Audio
+ID : 1
+Format : MPEG Audio
+Format version : Version 1
+Format profile : Layer 3
+Format_Settings_Mode : Joint stereo
+Codec ID : 55
+Codec ID/Hint : MP3
+Duration : 3h 3mn
+Bit rate mode : Variable
+Bit rate : 102 Kbps
+Nominal bit rate : 106 Kbps
+Channel(s) : 2 channels
+Sampling rate : 44.1 KHz
+Stream size : 134 MiB (19%)
+Alignment : Aligned on interleaves
+Interleave, duration : 26 ms (0.63 video frame)
+Interleave, preload duration : 188 ms
+Writing library : LAME3.90.
+Encoding settings : -m j -V 4 -q 2 -lowpass 16 --abr 106

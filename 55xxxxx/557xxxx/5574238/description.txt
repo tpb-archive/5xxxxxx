@@ -1,0 +1,113 @@
+Media Center 15.0.35 | 16.60 MB
+
+
+Full Version with Patch 
+J.River Media Center has a streamlined user interface designed to make it even easier to organize, 
+find and play your digital files, and to connect to hardware devices. All-in-one media management 
+app turns any Windows PC into an entertainment hub for complete control of your digital media. 
+It connects PC to stereo, TV, remote control devices, digital cameras, scanners, 
+and portable MP3 players. It plays all media, rips, burns, and organizes all your music, 
+images, and video. MC encodes and plays all popular media formats. Powerful utilities 
+include Media Server for streaming music and images to remote PCs. 
+Music, photos and video - all with one program! Connect your PC to your home entertainment 
+hardware and control it all with a remote! Load your music on your iPod while you watch TV! 
+All easily done with Media Center! Copy music from MEDIA CENTER to a portable digital audio 
+player or move digital camera photos into MC's powerful image library. 
+Record your favorite shows and watch them on your TV. More than one soundcard? Play different 
+music simultaneously in different rooms. MC's Media Server can even stream your music to your PC at work! 
+
+New features in J. River Media Center 15.0: 
+Audio 
+* Native support of DirectShow DSP filters 
+* Audiophile -- WASAPI exclusive output using high-end USB DACs 
+* Audiophile -- Added ability to play files from memory instead of disk 
+* Audiophile -- Support for high end USB DAC's with WASAPI 
+* Headphone DSP makes listening more natural and comfortable. 
+* /SoundcardSwitch command for the launcher (MC14.exe), allows soundcard selection on Vista and W7 
+* 3D album view adjusts text size to display more tracks when necessary 
+* 3D album view allows playing, adding, shuffling, and adding as next to play 
+* Improved tagging and tag compatibility 
+
+Images 
+* Image Preview allows zoom from a thumbnail to rotate, delete, compare, edit, and more 
+* Image thumbnail frames (optional) 
+* Photoshop PSD file support 
+* Single command copy / send to an editor like Photoshop, and stack new image with original 
+
+Video 
+* Video tagging using sidecar files 
+* Chapter Support for MKV and MP4 
+* Chapters added to On Screen Display 
+* Info Panel displays metadata 
+
+Television 
+* Added new "watched" column to metadata 
+* EPG can automatically retrieve XMLTV data 
+* Automatic correlation of XML channel names and MC channel names 
+* Info Panel displays metadata, including TV program art 
+* TV program art from YADB 
+
+Theater View 
+* Watch Hulu andfrom Theater View 
+* Customizable nested views in Theater View 
+* Customizable File Info panel to display metadata 
+* Speed and quality enhancements 
+* Custom backgrounds 
+* Touch screen support 
+* On screen clock 
+
+Remotes and Servers 
+* Wiki articles: Remotes and Servers 
+* Remote Relay using IR transceivers for controlling a set top box or receiver 
+* Remote Setup Wizard 
+* Media Center Remote learning and blasting 
+* Media Center can connect to another Media Center to act as a remote (TRemote) 
+* New HID remote control plug-in -- supports shortcuts with keyboard, mouse, & gamepad 
+* Remote control with REST based Web Service Interface in Library Server 
+* Library Server supports read and write to allow for shared, multi-user database access 
+* DLNA added to the UPnP Server 
+* Library Server clients can write changes back to server 
+* Library Server connections allow playback on server as Playing Now zones 
+
+Optimization 
+* Faster file import on multi-core systems 
+* Faster drawing on multi-core systems 
+* Faster image rendering 
+* Faster MP3 ID3v2 tag reading 
+
+General 
+* New import wizard finds and suggests folders to import 
+* Animated scrolling in lists and trees 
+* Improved search box suggestion 
+* New Media Center 14 Service runs when the player is running to allow talking to hardware 
+(for remotes, portable devices, etc.) when UAC is enabled. 
+
+Complete Feature List 
+
+Changes in J.River Media Center 15.0.35 (4/29/2010): 
+1. NEW (Experimental!): Remuxing of television recording (digital television only, i.e. ATSC or DVB-T) jtv files to MKV. 
+Requires Haali Matraska Muxer filter which is part of Haali Media Splitter installation. 
+Select jtv files, and go to Tools > Advanced Tools > Convert Format... 
+2. Changed: It is no longer possible to create a new library in a non-empty folder 
+(the program requires full control over its library folder, and deletes files in that folder that are obsolete or foreign). 
+3. Changed: List-style fields like image keywords are saved to the database with spaces 
+after delimiters. ("Al; Bob" instead of "Al;Bob") 
+4. Changed: Doing a manual 'Quick Find Cover Art' will force a rescan of a directory for 
+art (previously could use a cached scan up to one minute old) 
+5. Changed: MCWS (developers web service) is available on a client using protocol commands. 
+(i.e. on a local webpage, mc15://MCWS/v1/Playback/Pause) 
+6. Changed: The Library Server root page has a link to connect to the server (requires Media Center to be installed). 
+7. Fixed: Crash in "Export to iPod..." when trying to export unsupported media types. 
+
+NOTE: 
+Some Antivirus scanners will give an Trojan Alert for the Patch file, 
+You can ignore this, it's a False/Positve, the Patch intrudes the executable 
+to register the program. 
+
+Install Notes: 
+1)Unpack the rar archive 
+2) Run MediaCenter150035.exe 
+3) After setup, close the program 
+4) Copy the patch (j.river.media.center.15.xxx-patch,exe) into install dir 
+5) Run the Patch 
+Done 

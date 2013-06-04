@@ -1,0 +1,23 @@
+Cataclysm Friends & Family Alpha Sandbox 1.0
+
+The Cataclysm Friends & Family Alpha just started. 
+
+Important: The Friends & Family Alpha is restricted to employee's friends and family, the only way to enter this phase of the alpha is to have a Blizzard employee request a key for you personally. Any mail you receive about a potential Cataclysm beta is a scam.
+
+
+- you can create a goblin or worgen character, however, it crashes the client when trying to enter world
+- worgen female model is currently NOT implemented
+- when logging in with a character with the new class changes (e.g. tauren paladin) you will be dead and unable to type or do anything, but it allows you to enter world
+- there's a huge maelstrom-like change in STV that crashed my client when I went near it
+- Blasted Lands has to be a lil bugged (or at least for me) - dropped to 1 fps as soon as I entered it - and I have 100+ fps on all areas.
+
+
+1. Install Warcraft client enUS version only!
+2. Install Cataclysm Client.
+3. Edit the file c:/users/public/games/world of warcraft/data/enus/realmlist.wtf in notepad so it says: 
+
+set realmlist 127.0.0.1
+
+4. Load the sandbox.exe
+5. Load game with wow.exe not launcher.exe and login with any username/password. Both must match though.
+

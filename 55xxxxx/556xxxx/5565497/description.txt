@@ -1,0 +1,97 @@
+--
+Made by tjeckit (my internet name accound name is noobmert)
+--
+Crack included
+--
+first torrent post
+--
+
+Techsmithâ€™s Camtasia for Mac is a new entry in the field of screen recording and editing tools available for OS X, but Techsmith isnâ€™t new to the field of screen recordingâ€”their Camtasia Studio for Windows is a powerful and widely-used program.
+
+Unlike the screen recording tool built into OS X 10.6, Camtasia for Mac (Camtasia from here on) is a full capture and edit solution. It not only captures the action on your screen, but also (optionally) captures video from a built-in iSight (or connected camera) at the same time. In addition, you can record audio from both your Mac and an external microphone, if you wish.
+
+Techsmith has a great collection of online tutorials to get you up to speed with Camtasia, as well as a free 30-day trial. I found the tutorials very useful, as they clearly discussed each subject in an easy-to-follow manner.
+
+Once captured, you can edit your production directly in Camtasia, theoretically taking your project from start to finish using just one application. So how well does reality match up with theory? Pretty well, although this first release of Camtasia does have a few rough spots.
+
+Those who have had experience with Camtasia Studio for Windows will probably be disappointed by this first version of Camtasia for the Macâ€”the Mac product is not a clone of the current Studio product. From a user interface standpoint, thatâ€™s a good thing, as the program feels completely Mac like, and not at all like a poor Windows port.
+
+However, on the features front, Mac users arenâ€™t getting all the bells and whistles of the Windows version. Techsmith has a comparison table on its site, highlighting the differences between the two programs.
+
+While there are a few things the Mac program can do that the Windows version cannot (capture DV camera, upload to iTunes orthere are many more features available in the Windows product that are not currently in the Mac release. That doesnâ€™t necessarily make the Mac version a bad program, but it does mean you can do more with the Windows version.
+
+Capturing video and audio
+As an end-to-end solution, Camtasia lets you capture and edit both audio and video from your Mac and connected audio/video devices. After launching Camtasia for Mac, you start recording by pressing a keyboard shortcut, which you press again to stop recording. The program captures everything happening on the screen with the menu bar, but canâ€™t capture regions (though you can crop during edit), nor can it capture anything other than the main screen. In comparison, Snapz Pro X () can capture regions, including regions across multiple screens, and ScreenFlow () can capture from any one of multiple monitors.
+
+These recordings are temporary in natureâ€”if you donâ€™t do anything with them, theyâ€™re automatically deleted after 14 days. (You can change this time period in Camtasiaâ€™s preferences). To convert a temporary recording into a permanent file, you simply have to save a project using that recording; when you save the project file, the recording is copied from the temporary folder directly into the project.
+
+This method is different than that of ScreenFlow, whose movie files are also its project files. While this approach takes a bit of getting used to, it also proves quite flexible, as you can record multiple versions of segments you may use, and then not worry about going back and removing those that you didnâ€™t need. You can also easily use the same recording in multiple projects.
+
+Camtasia uses a bundled version of Soundflower, an open source system extension, to capture audio with its screen recordings. While this worked well in nearly every application I tested in both 10.5 and 10.6, thereâ€™s at least one (and probably more than one) program that doesnâ€™t work with Soundflower: In both 10.5 and 10.6, audio capture failed when using Real Player. There may be other applications with similar problems, but this is the only one I ran into while testing.
+
+In my trial recordings, Camtasia did a good job at capturing typical user activity on both my 1440-by-900 pixel MacBook Pro and on the 1920-by-1200 display attached to my Mac Pro. I did notice, however, that Camtasia had a lot of trouble when asked to capture recordings of tasks that stress the CPUs. Recording a movie of the iTunes visualizer, for instance, resulted in choppy playback, and lots of delays when dragging the cursor through the timeline while editing. I tried the same recording with both Snapz Pro and ScreenFlow, and didnâ€™t see any similar problems.
+
+I created a small movie demonstrating the differences between the three programs, using a quick fly-around of an aircraft in X-Plane.
+
+
+
+Camtasia is notably choppier than the other two programs, and (to my eye, at least) ScreenFlow is the smoothest of the three. ScreenFlow also did the best job with the color, as itâ€™s less washed out than the others. I donâ€™t know what caused this, but the washed out colors are visible in my raw Camtasia project, so itâ€™s not an artifact of the export process.
+
+If youâ€™re interested in capturing high-CPU-load activities, I would recommend Snapz Pro X (if you donâ€™t mind using an external editor) or ScreenFlow, as both programs handled these workloads much better than did Camtasia. Under less CPU-intensive conditions, however, Camtasia performed fine with no lag issues that I could discern.
+
+The editing interface
+When you stop recording, Camtasia instantly opens your newly-created movie file in its editing interface, which looks similar to that of most any video editing application.
+
+
+
+The Camtasia editing interface.
+The leftmost pane of the window displays audio and video effects and transitions; the center pane is a preview of your movie; and the rightmost pane shows settings for the currently-selected object. Below those panes is a traditional multi-track editing timeline.
+
+The timeline shows your raw audio and video recordings, as well as markers denoting positions where effects have been inserted. The timeline also represents layers in your final video, with the topmost track on the timeline representing the frontmost layer in the video.
+
+Working on the timeline is generally easy and intuitive, and Camtasia includes useful features such as a ripple delete, and the ability to export any frame of your video as a still (which you can then import and make use of in editing). After only a few minutes, anyone whoâ€™s spent time with most any video editing program should feel right at home in Camtasiaâ€™s editing environment.
+
+Customizing your recording
+To help you create a professional final product, Camtasia lets you add objects (including text), transitions, filters, and actions to your project. Transitions and filters apply to entire objects, including your recorded video, while actions can be applied many times to the same object.
+
+
+
+Some of the objects in CamtasiaThe bundled objects include different styles of arrows and speech bubbles, and a squareâ€”but no circle. Objects are always filled shapes, too, which means you canâ€™t use them to, for example, draw attention to something onscreen by placing a square around it.
+
+The solution to this problem is Camtasiaâ€™s import feature, which can import still images and videos. I created hollow circles and squares in Photoshop, and saved them as PNGs with transparency. These imported just fine into Camtasia, and I was then able to use them on my video project to call out various onscreen elements. Still, it would be nice if Camtasia included transparent (outlined) versions of at least some of its shapes, and added a standard circle shape.
+
+Working with text in Camtasia isnâ€™t as easy as it should be. While text objects are easily placed, theyâ€™re set directly against your video; if you want to set them off, youâ€™ll need to separately add a box object, and then customize the appearance of the box. While this provides more flexibility (text can easily be placed over any object), it does so at the cost of ease of use. Ideally, Camtasia would offer a standard background (with user-controllable fill and line settings) as an option.
+
+Camtasia also lacks any ability to group objects, so if you then decide you want your text object somewhere else, you need to move both it and its backing box. Further, the text alignment options donâ€™t work, so all text winds up left aligned. (Techsmith is aware of this bug it will be fixed in a future update.)
+
+
+
+Camtasia's transitionsTransitions affect how objects (including video clips) appear and disappear from your video; you can make objects fade, fly, rotate, slide, or zoom in and out of your project. You add transitions by dragging them to an object in the timeline. If you drag the transition to the end of the object, Camtasia smartly adds the "out" version of that transition; drag it to the beginning of the object, and the transition is addd as an "in" transition.
+
+Unfortunately, you have very little control over these transitions. You can change their duration in the timeline, but nothing more than that. The fly transition, for instance, is anchored to the top of the screen, and this canâ€™t be changed to another edge. The same is true for the rotate and slide transitions, both of which are anchored to the left edge of the screen. It would be better to be able to specify the entry and exit points for any transitionâ€”this is especially useful when applying a transition to an object, as opposed to a video clip.
+
+Filters are used to modify objects, and include color adjustment, colorize, drop shadow, glow, reflection, and window spotlight. As noted, they apply to the entire object, which is both good and bad. If youâ€™re modifying the color of a placed object, such as a speech bubble, thatâ€™s a good thing. If, however, you want to highlight one particular window that appears in the middle of a longer screen recording, thatâ€™s not so good.
+
+
+
+A highlighted window in front of a fuzzy and dimmed-out backgroundTo highlight just that window in Camtasia, youâ€™ll need to first split your recording immediately before and after the target windowâ€™s appearance in the recording, then apply the Window Highlight filter to the newly-split piece of the recording. ScreenFlow handles this task in a much simpler manner, allowing you to apply a window highlight to just a section of a recording, without requiring any splits.
+
+Actions are just what they sound likeâ€”you can use actions to spin, flip, fade, and zoom objects, including video, within your project. In addition, a feature called Smart Focus tries to make your production job easier by identifying those spots in the video where you would probably want to zoom in, and then does so automatically.
+
+Smart Focus only works, though, when there are extra pixels in your recording that wonâ€™t be in your final project. For instance, if youâ€™re capturing a MacBook Proâ€™s 1440-by-900 screen, but your final project will be exported at 640 by 480. Smart Focus will use the extra recorded pixels in your project file to zoom in intelligently. In my testing, this worked reasonably well, but still (as you might expect) required some hand tweaking to match what I thought should be done.
+
+If youâ€™re creating recordings where you need every bit of the screen you recorded, you canâ€™t use Smart Focus. The good news is that Camtasiaâ€™s zoom feature works really well; just add zoom in actions where you need them, set the size youâ€™d like to zoom in to, and then move the movie around in the preview area such that the relevant portion of the screen is visible, and youâ€™re done. Drag in a zoom out action, and you can scale back down to 100 percent just as easily. Thereâ€™s also a custom video action, which can be used to mingle any combination of actionsâ€”zoom while spinning and fading in, for example.
+
+Rough edges
+This is version 1.0 of Camtasia for Mac, and in a few areas, the programâ€™s relative youth shows through. In addition to the bugs and limitations discussed above, I found that Camtasia for Mac lacks control over the cursor, especially when compared with ScreenFlow. Whereas ScreenFlow lets you easily show or hide the cursor at any time, or call out its presence by adding a spotlight, Camtasia provides absolutely no control over the cursor.
+
+If you want it hidden during a portion of your recording, youâ€™ll need to move it offscreen yourself while capturing. If you want to call out the cursor with a highlight, youâ€™ll need to use a program like MouseposÃ© or OmniDazzle to do so while recording. While these workarounds help get the job done, they mean you have to make all cursor-related decisions during capture, instead of during editing, as you can do in ScreenFlow. This limits creativity, and could cause a number of retakes while you figure out exactly when you want to highlight the cursor.
+
+Another thing you canâ€™t do in Camtasia is record a voiceover narration directly within the program. You can capture a second recording while editing one, but youâ€™ll also capture a screen video when you do so. The workaround is to use a program like QuickTime Player X to record your voiceover while watching your movie in Camtasia, then import the recording and add it to the timeline. Screenflowâ€™s built-in voice recording tool makes this process much easier.
+
+Macworldâ€™s buying advice
+Despite the rough edges, Camtasia for Mac is a very promising first release. The editing interface is very well thought out, and the addition of built-in objects, transitions, and actions makes it simple to create nice looking productions. If your needs are relatively simple, and youâ€™d like an easy-to-use application, Camtasia is worth consideration.
+
+Once you start pushing on the program a little, though, its youth begins to show. Youâ€™ll be frustrated by the inability to highlight or hide the cursor, align your text, capture anything other than the main screen, and customize the transitions. If youâ€™re interested in recording games or other high-CPU-usage activities, youâ€™ll be frustrated not only by the choppiness of the recordings, but with the poor performance of the timeline while editing.
+
+None of these issues are unsolvable, of course, and if theyâ€™re addressed in future updates, Camtasia Mac could quickly become an indispensable program. Until the problems are resolved, though, Camtasia for Mac is best suited for those with simpler needs.

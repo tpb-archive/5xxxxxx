@@ -1,0 +1,141 @@
+User Type,Username,Date,Text
+,Blabbus25,2010-05-07T01:48Z,"thx man, I will seed for a week when I finished it. "
+,23joecool,2010-05-07T09:07Z,"so, but can that be played without the beta key and battlenet account ?"
+,beamto,2010-05-07T14:29Z,"I tried it on MacOS 10.4 :
+after clicking the game icon, a window appears and downloads updates. After having successfully updated and then clicking the ""Play"" button an error message says, that necessary files are missing and then it quits. When I try to start the game again, then only the error message, asking for the missing files, appears.
+
+The missing file could be a License file...
+
+Result: I cannot play it...
+."
+,fl1m,2010-05-07T15:45Z,"Max OS X 10.5.8 here. Little Snitch blocks all outgoing acces at first, but then I don't have a battle.net account... Who can help us out here?! I wanna play :)"
+,monkeybro,2010-05-07T23:04Z,"wont creating a B-net account with another Blizzard game work? ie, WC3, Diablo 2."
+,fsmc,2010-05-08T05:07Z,"fl1m, you can get a free bnet account from blizzards website.  but i don't know if this will help you:
+.on 10.5 i get an error during patch updating at around 85% or so:
+Blizzard Updater was unable to read the file ""Mods/Liberty.SC2Mod/Base.SC2Assets/Assets/Textures/commandcenterwrecked_diffuse.dds"". This error may be caused by problems with the media or drive at --for example, a scratched or dirty CD-ROM/DVD-ROM, hard drive corruption, or a networking problem while downloading the update. (The error code was 0.) : DecompressJob::Execute()"
+,ionlyknow,2010-05-08T11:48Z,"Hm okay... I installed the game succefully and started it with no problems. But whn i enter my battle . net accout it says ""this account does not have a valid CD-key attached to it."" 
+So i'm gonna need a valid CD-key in order to play it. "
+,ionlyknow,2010-05-08T12:09Z,"Hmm I just found the next best thing. 
+This version ill not be playable online, but singleplayer works. It's legit and downloadable from a website. Remember to remove the spaces. and change ""dot"" to a real dot
+
+http : / /www.bigdownload dot com/ games/ starcraft-ii/ pc/ starcraft-2-wings-of-liberty-us-closed -beta- client"
+,rikal,2010-05-09T02:17Z,You need a Battle.net account AND to have been invited to the beta to get in.
+,Tseran,2010-05-09T06:03Z,"Indeed the commenters are correct.  This is BATTLENET ONLY.  You need an INVITE or it will NOT work.  There is NO SINGLE PLAYER BETA.  How do I know?  I am actually in the beta, and I wish there was a single player.  For now at least, they are testing Battle.net with it, as a lot of the new features are being added into WoW as well, so may as well get both tested at the same time.  If you don't have an invite, the most you can get from this is datamine a few graphics, animations and sound files, most of which are already out there.  But seed all you want."
+,bettse,2010-05-09T07:51Z,"Get AI (single player) maps from http://darkblizz.org/Forum2/ai-scripts/starcraft-2-beta-offline-ai-maps/
+
+Run using Terminal command:
+open ""Starcraft II.app"" --args -run ""${MAPLOCATION}""
+
+This worked for me for the (4) - AI - Lost Temple (1x) map with the caveat that there was an error at the beginning of the game, and the AI never got beyond gathering resources.  It might be a map bug, I'm not sure."
+,adriensmart,2010-05-09T14:41Z,"@bettse I've tried your method, Starcraft II beta loards succesfull, but it says it can't load the map... Do you know why ? Is there a problem with updates of the game ?"
+,the_noc_list,2010-05-09T22:44Z,I'm downloading this... but I have no idea why
+,benvs,2010-05-10T02:08Z,"sorry for the noob question but, could someone explain how to open this from the terminal?"
+,adriensmart,2010-05-10T11:20Z,Somebody can make an equivalent of Lazylauncher 2 for Mac ?
+,robin1232,2010-05-10T13:19Z,"I tried registering for the beta ages ago, but it didn't work, it somehow redirected me to a korean site."
+,benvs,2010-05-10T19:40Z,"there is a launcher: http://www.sc2mapster.com/assets/mac-map-launcher/
+but it's not working for me. Maybe someone else could try."
+,adriensmart,2010-05-11T11:56Z,"@santoka I've done what you say but I haven't ennemies, do you know why ?"
+,jun92,2010-05-11T15:42Z,"good. I have an account. but I'm not living at US, so couldn't download it until now. I can play it with my lovely MBP. thanks!"
+,benvs,2010-05-11T18:20Z,"@santoka
+my problem is, when I click launch in MapCraft it does nothing at all.
+Can you help me? please"
+,gj009n,2010-05-11T19:55Z,dude how is the AI??? are they same with the pc version crack AI's???
+,adriensmart,2010-05-11T21:14Z,I've got a problem with the AI: they only collect ressources and they don't make units or buildings... Do you knwo why ?
+,adriensmart,2010-05-12T17:10Z,"I've found files for AI, but I don't know where I can put them, can you help me ?"
+,gj009n,2010-05-13T00:15Z,omg seed!!!!!! pls it keeps dying!!!!
+,gj009n,2010-05-13T16:39Z,@adriensmart : can u pls post where you found AI maps pls....... do they build units and  buildings???
+,adriensmart,2010-05-13T17:28Z,I thought it was the good file but in fact no... Somebody can post the correct link for AI please ?
+,adriensmart,2010-05-13T17:28Z,I thought it was the good file but in fact no...  Somebody can post the correct link for AI please ?
+,benvs,2010-05-15T05:16Z,"@bettse: I tried using terminal but I got this.
+open: unrecognized option `--args'
+Usage: open [-e] [-t] [-f] [-W] [-n] [-g] [-h] [-b ] [-a ] [filenames]
+Help: Open opens files from a shell.
+      By default, opens each file using the default application for that file.  
+      If the file is in the form of a URL, the file will be opened as a URL.
+
+please, can anyone help?"
+,benvs,2010-05-15T05:17Z,"@bettse I tried using terminal but I got this
+open: unrecognized option `--args'
+Usage: open [-e] [-t] [-f] [-W] [-n] [-g] [-h] [-b ] [-a ] [filenames]
+Help: Open opens files from a shell.
+      By default, opens each file using the default application for that file.  
+      If the file is in the form of a URL, the file will be opened as a URL.
+
+please, can anyone help?"
+,benvs,2010-05-15T05:18Z,"@bettse: I tried using terminal but I got this.
+open: unrecognized option `--args'
+Usage: open [-e] [-t] [-f] [-W] [-n] [-g] [-h] [-b ] [-a ] [filenames]
+Help: Open opens files from a shell.
+      By default, opens each file using the default application for that file.  
+      If the file is in the form of a URL, the file will be opened as a URL.
+Options: 
+      -a                Opens with the specified application.
+      -b                Opens with the specified application bundle identifier.
+
+please, can anyone help?"
+,benvs,2010-05-15T05:18Z,"@bettse: I tried using terminal but I got this.
+open: unrecognized option `--args'
+Usage: open [-e] [-t] [-f] [-W] [-n] [-g] [-h] [-b ] [-a ] [filenames]
+Help: Open opens files from a shell.
+      By default, opens each file using the default application for that file.  
+      If the file is in the form of a URL, the file will be opened as a URL.
+Options: 
+      -a                Opens with the specified application.
+      -b                Opens with the specified application bundle identifier.
+      -e                Opens with TextEdit.
+      -t                Opens with default text editor.
+      -f                Reads input from standard input and opens with TextEdit.
+      -W, --wait-apps   Blocks until the used applications are closed (even if they were already running).
+      -n, --new         Open a new instance of the application even if one is already running.
+      -g, --background  Does not bring the application to the foreground.
+      -h, --header      Searches header file locations for headers matching the given filenames, and opens them.
+
+please, can anyone help?"
+,Leoryc,2010-05-16T18:23Z,"I made a little app for those who don't start a map with SC2.
+He's available here : http://mp107.free.fr/Fichiers/SC2/
+Simply download the maps and launch the app. Then, select the map that you want to play and point out the SC2 app ;)
+
+Have fun !"
+,MarVinHill,2010-05-16T20:27Z,Thanks Leoryc! Works great
+,Bigals,2010-05-17T05:15Z,"I keep getting an error with the --args. i have bee trying to get this working on both my osx and windows partition. different ways of course. but my setup is i have the scII beta installed and updated to patch 12. i have tried the installer that Leoryc linked both on my desktop and in the actual scII folder. i also am using the map pack he provided and it is located on my desktop. because i have tried many other options on my mac, i am going to reinstall the scII from the dmg and try again. what patch is everyone running, and where are your files located. i am very new to macs, and i am trying to get the paths/files straight. thanks for the help in advance.
+-Bigalsworth"
+,MarVinHill,2010-05-18T13:35Z,"@ Bigals if you use Leoryc app you should put the mapfolder he provided in your: user/library/application support/ Battle.net/
+You might have to make the Battle.net map yourself"
+,cosmoray,2010-05-19T13:18Z,"I've done the Leroyc app, put the maps in the application support folder and I'ms till getting the -args error message.
+
+Do I need the patch? How do I patch it?"
+,cosmoray,2010-05-19T23:58Z,"Okay, I patched it, still not working. Help?"
+,cosmoray,2010-05-20T00:06Z,Got the patch to work but I'm still getting the same error. I'm on 10.5.8 and neither Leroyc's launcher nor Mapcraft is working for me. Mapcraft doesn't do anything when I select a map and click the launch button.
+,benvs,2010-05-20T22:11Z,"@cosmoray
+mapcraft launcher does not work on 10.5. You need snow leopard.
+By the way, AI patch are not working on mac.
+Please, anyone knows any solution?"
+,Leonthelion13,2010-05-22T10:07Z,"I got some extra keys from a friend of a friend.  Grab them while you can.
+
+TCNYV7-ET8C-4MEPYY-F2C4-B7PG8F
+ZYKH2M-V29D-BXEZG9-CG64-96MZRE
+7VKKBF-MXBW-NDBT8C-KV9F-Y7XN6K
+
+http://fileups(.)net/2767e1"
+,gman1233,2010-05-22T23:32Z,"does anybody have extra starcraft beta key codes!!! please if this doesn't work could you send them to gman1233@hotmail.com, i just want one key code....please :("
+,Mercor,2010-05-23T17:08Z,"Guys, can someone send me a key to Battle.net ? I really need to check if this game will run properly on my Mac, and all those Single Player mods failed, can't run it at all... If you happen to have a spare cd-key, please send me one ( harvenheitt@gmail.com ) Thanks!"
+,Kronik2t,2010-05-23T22:25Z,Does anyone have a spare beta key! I really want to try this before I buy it!!! Kronik2t@hotmail.com
+,humenbean,2010-05-27T21:39Z,Yea anyone have any idea to do single player yet like you can on a pc? Thanks! humenbean@gmail.com ~ also are people giving out spare beta keys? Not sure how this works. The maps work great though!
+,pedpedro,2010-05-28T01:53Z,@Leonthelion13 hello! is there anyway that you can help me to get a key please!! I've been looking for years! pedpedro@hotmail.com.. Anyone!
+,toddba,2010-06-06T22:28Z,can someone with a beta code send me one to toddba@gmail.com !! please and thankyou!
+,utron11,2010-06-08T13:32Z,"@Everyone: Please do not waste your time finding the beta key on the internet, they are rare and well-protected, unless you are extremely lucky or super hackers, you can find one! So if you want to play this game, consider to spend some money!!!"
+,re4n1m4t3d,2010-06-11T08:01Z,"i managed to load the map and play into the game thanks to Leoryc's map launcher, but the AI doesn't work, they just gathering resources. so, anyone out there got a working AI file for mac?"
+,ContraOner,2010-06-11T18:28Z,ive been patching this for hours now for patch 15 or whatever is it really taking this long or am i wasting my time?
+,shelleyerest2000,2010-06-12T20:23Z,Wow the beta is over as of june 7th any one know how to use it offline?
+,shelleyerest2000,2010-06-13T20:56Z,"omg, turn up your seeding rates, if i get this downloaded in one hour ill seed unlimited for one week"
+,Swatta7,2010-06-22T09:34Z,"ok everytime i install it, it updates and everything and when i click play, it says i need the blizzard launcher in the same file as the starcraft 2 beta file. i make sure it is the same file everytime, yet it still doesnt work. can i have help?"
+,xspence,2010-07-06T19:17Z,"Works great. Blizzard's servers are amazingly slow, so this is a great way to speed things up. 
+
+Just to put it out there for those of you that do not still get it...
+
+YOU CANNOT PLAY THE BETA UNLESS YOU HAVE A BETA KEY. 
+
+Simple and easy!"
+,Shalinar,2010-10-04T05:32Z,"So I downloaded this, got it installed, run the .app, and I can't log onto battle.net. It says: ""Login error: Invalid version. Please try again later.""
+
+Any help???? its so hard to find anything for starcraft 2 for mac >."

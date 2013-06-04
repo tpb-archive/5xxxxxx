@@ -1,0 +1,26 @@
+Link-Layer Topology Responder Driver
+(LLTD Responder)
+
+NOTE: This driver information is for SWEDISH WINDOWS XP, the protocol installed will show up in Swedish.
+However, as far as I can tell the drivers are in EN-US so it shouldn't matter if you install it or not.
+The only thing I have found that you need to change between the various languages is found in the rspndr.inf file, at the end you'll find this line:
+
+HelpText="GÃ¶r det mÃ¶jligt att identifiera och hitta datorn i nÃ¤tverket."
+
+This more or less say "Make it possible to find and identify this computer in the network.". Translate this to whatever language you use, or install it anyway. You'll only see the Swedish line if you ever want to add or remove protocols again.
+
+Driver version: 07/01/2001,5.1.2600.3029
+rspndr.sys, rspndr.exe and rspndr.inf are all official files from Microsoft.
+
+The lltd.bat is a batchfile I wrote myself. It copies the files to the correct windows folders, change current folder and installs the protocol. Nothing else. The command lines inside:
+
+   copy rspndr.exe %windir%System32
+   copy rspndr.sys %windir%System32Drivers
+   copy rspndr.inf %windir%Inf
+   cd %windir%system32
+   rspndr.exe -i
+
+I've used this on many XP computers, and also on my windows home server (2k3). Works great!
+The only thing to remember is, you have to have this folder on a drive with a drive letter. You can't run this directly from a network share unless the mounted as a drive.
+
+If you copy the files to a folder on your desktop, you can safely remove that folder after the batch is completed (takes just a few seconds).

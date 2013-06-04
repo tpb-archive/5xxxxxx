@@ -1,0 +1,11 @@
+User Type,Username,Date,Text
+,nuboo,2011-04-04T22:14Z,"Hi thank you for this patch.
+I'm using linux and installed everything with wine, however I cannot get your patch to work, and I followed your instructions.
+Basically when I start h2cdplay.exe it just disappears after a few seconds.
+I wonder how that fheroes sourceforge project is going..."
+,m_gol,2011-04-27T16:04Z,"@uploader
+Thanks a lot, I was waiting for such a thing! One remark - town music always start from the beginning when you enter the town screen, shouldn't it continue where it left off? At least this seems more reasonable (and it's implemented this way in HoMM3).
+
+@nuboo
+I also use Linux with Wine. I have a Polish Gold Edition and this patch works correctly for me. Try to run it in the terminal and see what error output you have."
+,nuboo,2011-04-28T22:28Z,"@m_gol Good idea, perhaps I'll try to try that some time. I really don't need to because I solved the original problem with Music: I couldn't mount the cue files, so I mounted the bin file, and therefore I lost all the music in addition to some functionality.Btw the town music thing is not a bug with this software but a feature of HoMM3 :)I still love this game a whole lot more!"

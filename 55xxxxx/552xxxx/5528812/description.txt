@@ -1,0 +1,45 @@
+This tutorial will teach you how to unlock the Halo: Reach beta on  your JTAG'd Xbox 360. It will allow you to run around on all maps  including two that haven't been released yet(one of which is a Firefight  map) and will also make modifying those .map files possible.
+
+Requirements:
+A JTAG'd Xbox 360 or a developement kit
+Halo:  Reach Beta (Available for download May 3rd on xbox.com)
+Forceload XeX's -WxPirs - 
+Auto Xbins to download XeXmenu or  Xplorer360 - 
+
+Once you have all those files, you may start. You will need to use all  of them and if you are missing one, then you can not complete this  tutorial.
+
+
+Downloading the Beta
+
+1. Get torrent
+2. Once the beta is done downloading, either put your hardrive on your  JTAG'd Xbox and boot into XeXmenu and FTP the 4D53885C folder to your  computer. Or you can connect your hardrive to your computer and open  Xplorer360. Then in Xplorer360 go to Partition  3>Content>00000000000>4D53885C>00080000>725EC55D55   2A4DEDDE69466A0BA490B2CB496EF74D and extract that file to somewhere on  your computer.
+
+
+Extracting the maps, default.xex, waves, etc.
+
+1. Now open WxPirs.
+2. In the top left hand corner, click file>open or click the folder  with an arrow above it button.
+3. Locate your where you saved your Halo 3 Beta to(aka the  725EC55D552A4DEDDE69466A0BA490B2CB496EF74D file). And open the file.
+4. You should now be presented with bink, maps, and waves folders and a  default.xex, WaveShell-Xbox.dll and WavesLibDLL.dll
+5. Click file>extract all or click the repeating floppy disc icon in  the top left hand corner.
+6. Pick a folder to extract all of those files and folders to and wait  until they are all done(it was will say
+"done" next to every folder and file).
+
+
+Downloading the Forceload XeX's
+(Credit to DeToX for the XeX's and Halo: Reach modding  research)
+
+1. Download the Forceload XeX's
+2. Extract all contents of the  halo_reach_beta_forceload.rar to a folder.
+
+Putting the Beta on your Hardrive and Playing it
+
+1. Open Xplorer360 and navigate to your Partition  3>Content>0000000000>and make a new folder called "Games" if  you don't already have that folder.
+2. Inside that folder make a new folder called "Halo Reach Beta".
+3. Inside of the Halo Reach Beta folder, put your  reach-30_settlement.xex, reach-ff10_prototype.xex,  reach-20_sword_slayer.xex, reach-70_boneyard.xex, reach-mainmenu.xex,  WaveShell-Xbox.dll, WavesLibDLL.dll, and waves folder that you got from  the halo_reach_beta_forceload.rar. Make sure that you put EVERY file  that came in the halo_reach_beta_forceload.rar folder.
+4. Once those files are on your hardrive, go to the folder that contains  all the files and folders that you extracted using WxPirs. Take the  "maps" and "bink" folders and all of their contents and put those in  your Halo Reach Beta folder on your hardrive.
+4. Put your hardrive on your Xbox and go to Game Library>XeXmenu.  Then go to Hdd1>Content>000000000>Games>Halo Reach Beta>  Then click on either reach-30_settlement.xex, reach-ff10_prototype.xex,  reach-20_sword_slayer.xex, or reach-70_boneyard.xex to load whichever  one of those maps you want.
+5. Once you have clicked one of those, you should be in the main menu.  Your game will appear to freeze on a black screen. Just wait a few  seconds and then the map will load.
+6. To go to another map, repeat step 4.
+
+Enjoy! PS: The Firefight map is reach-ff10_prototype.xex and the other  unreleased map is reach-70_boneyard.xex

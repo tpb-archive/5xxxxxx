@@ -1,0 +1,47 @@
+User Type,Username,Date,Text
+,Ahmedattia24,2010-04-25T06:34Z,"Looks great, but can you seed please."
+,tripplesixty,2010-04-25T06:43Z,Multiple seeders coming online in the next few hours.
+,sinvis,2010-04-25T07:56Z,"@triplesixty
+
+the one by amiable is 10.94 gb with bitrate of 8171
+yours is 14.96 with bitrate of 9000 ....(comparing video bitrates)
+
+very less improvement for 4 gb ...i dont get it ..
+
+please help me understand....i want to download best possible copy(leaving the full bluray)
+"
+,tripplesixty,2010-04-25T08:20Z,"The difference in size is probably from the audio. I don't know what audio encoding he used, but I'm guessing DTS Core, which is a very lossy format, while I used DTS HD, which is entirely lossless. That should account for the difference in size, mine likely has much higher quality audio."
+,coolzizo,2010-04-25T08:21Z,when i start the download the speed is 450 to 520 now is 52 25 3 1 but the upload is 45 
+,tripplesixty,2010-04-25T08:44Z,"It's likely you've caught up with the rest of the swarm, and now it's just a waiting game for me and my recruited seeds to get the data to you. I'm on a pretty limited uplink, but rest assured that it will complete, it just takes time."
+,sinvis,2010-04-25T10:00Z,"@tripplesixty
+thanks for clearing the confusion....audio is very important (i have good hardware for that)
+
+thanks....."
+,somedude.1001,2010-04-25T10:31Z,"Dont hit and run, please! Seed it, even 5-10KB/s helps."
+,tripplesixty,2010-04-25T11:09Z,"@FuGGers
+
+When I encode I let the x264 encoder chose the profile.  Typically this profile is chosen based on action scenes that require a high bit rate or a large number of macro blocks.  I tend to go for the best encode possible at the specified bit rate, this usually lands me at high, 5.0 and yes this does limit the hardware support.  However its a balance between supporting hardware players while keeping the quality very high."
+,Ahmedattia24,2010-04-25T11:43Z,"tripplesixty, how about a screenshot please :)"
+,LAMBORGHINI38,2010-04-25T14:56Z,"its not a 3d ,no multi audio and no multi subsso not worht downloading."
+,john5246,2010-04-25T16:41Z,"I've been wanting to know this for a long time:
+
+What is the video bitrate for blu-ray compared to this rip?????????????????????????????????????
+"
+,tripplesixty,2010-04-25T21:59Z,"subs are provided with English and Na'vi parts. They are not forced and if you really want to you could pull out the Na'vi parts and force only those. Audio is provided through a second torrent.  the .torrent file is included in this release or it can be searched for ""Avatar.Supplemental.Audio-Spa.Fre.Por.AC3"".  As for subs with other languages, I only speak fluent English, not enough Spanish or French or other language for that matter to give you an accurate subtitle rip.  If you want the raw .sup files I can provide those."
+,tripplesixty,2010-04-25T22:00Z,"As for bit rate the average bit rate on the source averages 28 MB/s peaking out at 46 MB/s.  The average bitrate here is just around 9 MB/s.  Its basically compressed to 1/3 the original size, however this is done with the slowest and highest quality encode I could afford."
+,john5246,2010-04-26T02:35Z,"Let me clear this up:
+
+I speak only English and I need those subs for the nav'i parts just like in the theater version.
+
+So the nav'i parts are HARD subbed right? "
+,john5246,2010-04-26T02:36Z,"Ok I think I get it, nothing is hard subbed but you can choose subtitles for the nav'i only from the menu?"
+,Yanglem23,2010-04-26T23:02Z,guys so much talk `bout bit rate and others...... wtf bout seed!!!......plz seed... 10kb/s dwn  this is not fair.....
+,Sublime420,2010-04-29T02:08Z,What downloadable player can i play this on.Im using power dvd 10 which plays bluray and this video is always stopping and starting....can anyone help please
+,tripplesixty,2010-04-29T19:06Z,Sublime420: Try VLC. It might also be an issue with your rig not having enough power to play this without stuttering.
+,ekul_reklaw,2010-04-30T05:05Z,Navi only sub's that are in sync with this rip with a cool font !!!                                  http://www.opensubtitles.org/en/download/file/1952314172
+,Bean-Bandit,2010-04-30T18:32Z,I'm currently using a A.C. Ryan PlayON!HD player and I'm getting the stuttering in the video which is very annoying. Other then that everything seems fine. Has anybody found one that doesn't stutter so badly as this one?
+,Zbojnik2010,2010-05-02T16:43Z,"Hi I hv the same problem...Iv tried everyfing..all the programs I now and in everyone the same problem stuttering stuttering stuttering..:( I thing my computer hv enough power 4gb ram, 2core, windows7 & graphic radon hd 4870. pls help Iv tried VLC, MPC, WMP, PowerDVD10, ALLPlayer, BSPlayer & WinDVDPro2010... pls pls pls help "
+,gorang,2010-05-04T04:48Z,"Total Media Theatre 3 work, also MPC HC work IF ffdshow audio codec is installed. follow http://sites.google.com/site/xorphdstuff/mpc
+
+Whis Avatar use DTS HD and codec for that is needed"
+,Xanderain,2010-05-09T21:38Z,Install the DTS audio codec.  Fixes everything.

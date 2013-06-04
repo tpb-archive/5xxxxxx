@@ -1,0 +1,13 @@
+********************************************************
+Ubuntu restricted extras offline installer 10.04 for Ubuntu 10.04
+********************************************************
+
+Installing this package will pull in support for MP3 playback and decoding,
+support for various other audio formats (GStreamer plugins), Java runtime environment, 
+Flash plugin, LAME (to create compressed audio files), and DVD playback.
+
+Please note that this does install libdvdcss2, and will let you play
+encrypted DVDs. 
+
+Commanly used microsoft fonts in .deb format added in this verson. 
+Adobe flash player is included instead of (Adobe) flash player installer to enable complete offline installation.

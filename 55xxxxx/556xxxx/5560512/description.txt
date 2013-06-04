@@ -1,0 +1,592 @@
+..                                                                                                                      
+                              .     .                                                                                                                 
+                       .             . ..::iiiir;i::::..                               ..::iirr7:,...                                                 
+                                  .,7LJLYLv777rii:i;777rvri:                        ,i7vJYLr;irrrii:irv77:i:,                                         
+                   . .       .:irLU1L77;:::iiriiirr77LvL7YUXYi.                  :ivYJri:;i:,:::ii,,:77LLjU2jU7:                                      
+              .           .:J5X2jr7rri;ir;rr77rir;riiirvuu2UFqZJ:             .rjLYL7r7rrii::i;iL;:,;rii7rvLLukUYr:.                                  
+                         i5N227r;rii;rir;rrrrr:i;i::irirrr;LY5XG0U.         .715u251vriiii:iirrr;i:::iirir;7LJYSPXuji                                 
+                      .:71SjYL7vYiirL77rv77r77rir::i7iii7r77vYjuXN87      .2OE5Y5FSUJ77;;:r;r;7r7i::::i:::ii77J5NqNSFL:                               
+                     .vGqjrLYr7J7rrYLvvYYYvLrriirYLYYJ7YJUYju2uYYSGBSi,:.iBBZ2jUY2uYLYLLrr77rr;ri:,;ri:;rrr7r77YuXkSSEFL.                             
+                    iuEk2u5jL72uUUUvLYjYuYjLY7Juuvv7uUuuj7LLuu5FPFSXBM;.,7BBBk1U51SU125uuv7777v;i:i;riiiii7777jYujUU12XkJ.                            
+                  .vEBkuFquJjjL1SFU521jUjUuUYjFPUuUuYUJjLLLjLU2SSqSFGBPu:.,GBGYjUkSP51juYuLUUU7r:ii:;L7riirYvYj2YJ7YU2vUF5r                           
+                 .vqO155U2UuSUU2UJ5PNUJYuj51SJYLFFF2FUjYuUuLLUEq0qNSkZBXJr,:MMkU2U1F5JjYuuUu5ULiir7rLL7rJvuuuLUUU22v25UJPBBF                          
+                .J0E5151JUY2kS5SJJ21r:....,7u8PUYuU2uuLuUSUYLUU22kkqUSM57Ui.qGU12U7L7LvjYj2uJSJrrYLYYY7vY12uYLLYYju51FSMBBNu,...                      
+                v0Z1kPkL1FUJkSS1XJ:  .,.,..  :UN27YYYLYYUUUYujuY2SXXXkB0jri:NqE80UY7L7JYJ7L7YuJ77LJLL7v7LjJLYLLLUYYU5PBB7   ... :.                    
+               :UEk0GX1X5SjU1FU0L. ::::::i::,  iJuYuJuU1Juj12F155PX0ZOMMU7LPMBBBF12XFkSkUuLUj1SPuUF5L;;j2SuU21Juu51UUBN.  ,r:i::,:,                   
+               iUP0PP2SS2JUUF11j,.i::.i:i;;:ri.:jY7rY5EXF252EPPUv:::iL0MFY0BBMZ5uL55Y;i,,,7UjYF7vj5F1j5SSkFJJJ5F5Fkj57. iir;ii;ii.i.                  
+               UPZF1UUjUYU5PFXuL.:::,i;7irr:,;LLrjYUSXFk1UUXFY,.      .U1GBBMMSU10F7.       .rUSuUJJr;ii:7YULj2Uj1u1L. :ii::,:iri,i,                  
+              .U0NFuF55u1FNPqFSL.,:.:r7;::i:iLPuLjSkXuUjSP0ki.  .:;i::.;PBMOB8SFqP7   ,,:,.  .rY7:.       :r77YY152Jv77:::::::::r.i.                  
+              ,JF0FFX05UUSP0kXE1,.:,iri::i::LGSSU1XXvJ21XBki .iJU121YrrNMMMBM01N5i .:J152qL:.. ,.   .:..   :Y2Lu52jFUS1i:::i::.,:.:.                  
+             .iYk2Fq0U5UEqk5XFN0j..::,ri:i::1qF25jUjUUPEMP7.:72JY7v7rLBBBNO0NUU2; .i777r;rYr;:,,,:7L1uFLi,. r20qX11jUJYii,:::,,.,,,                   
+             .,jXP5GSXP0XSFqkFkMOj. .:,,:;,:uS1FJYY2XEkqkj;iii:::::riPBB0ENU185i.,:iii,i:::;ii:::rv7r;7LLr:.,UM8kEk5jjv7:,,i...::,                    
+               iXXXZFNPXPkX55UPkMBk:.     ,YGNq2U2k2F5S127i:i,::,.r7i1BBZPNXPMX:::;iiYPMM5i:iii::,::rii:rir:.iXE8ZZq88NJ: .. .::,                     
+               iq1ZM0MNZEM0XSZ00X8BBqjii:,7M05NG51FquYuSur::,::v5MBBi,SBMPEGqN5Y:::LFBBB1MMj:iii:i7qBBkL7iir:iYEG8qPqMMMr  .,i:                       
+                v7BBB0OGZ0Zk0NPF0OMOBBBBBBGkFEMEqXqJj1kF17:,:i7u0Xvi. . rPN2M80U:,::i7OBFZBPi.,:rjBBB7MBUri:r7u500GqN0MMO2Y507.                       
+                 7GP08Z8ZOqqNPqZNZGBMBBBBM5X8MZ0F1u11Nqk2Y:i,,,r7r,. :,. 7BBBBNGUr:,...7Uji:    ,U8ME50Ov7iivSkXNMEqkG8MMBOqSL.                       
+                 7N1BMMEEMNqZNMZZqGGMGMG8NqPZEN51YjU51q527;;;iY2L.  ...77.:0BMMEqSFYvii,.         .:Yj: :,i75XEZMMMNNNES2XBj. .                       
+                 :rBGBMNqMqGMMZ8G0PZMME8NEE8EE51FkjYYkS1UuvujPqY.  .        rMN5NqqBS7.   ,Yi.,r.   .rvLrL2PSNZBBBMZPE0NPkq0i                         
+                  2q7kMSZZMEBBEXNPNXPkGOMNNkXEqPG5YLU1F2XkF525Y. .... .      :NkFUFu:.   .:jur5Fi     ;E0X8GEEMMBBMkSkNXN0Ui:                         
+                  ,,i8FOqMMGGB8P5E0qkZNNqNSqE5LFPuL2U25P12j2uur:.,.,..  .::. vBk1Xji,...   ..:,. . . ..iPEP8OMZ8OBGZNqF51PS7                          
+                .   iNNEEEBNMM8PN8MEqZMXkNG0OU2kSY22UUk1UvjUuvYvi.::,...,:,. iBEkkUiLi...           ,,,.Y5FXMOMOB8ZEZUUFN5j:                          
+                    iu2XFXB8MGNMOMOBBBBBBBBBBB88XFXSJ2uU5k125jLU7:.:,,,,.,.;jPEEGF;:ri.:.,..    ...:.,7771J5OBBZNZkPXSFOMY.                           
+                  . , .r7SOGM8MBBBBBBBBPji:iJEZBBENqEPSUFkkU2U2uur:,..,..iYBBXOMM1Y:::::,::,,...,.,...JLJqqqMOZSkXEqGMGUu.                            
+                         :k8kEGBBBBM7:,.     .,rEB8P0X1qFFFFL1kFYLv7ii:rvi.:UMBBBBGuiiii.::,.:::.,.:iri7SBq0Z8XqqqSPSUri                              
+                          ,..SM0E5L:,..,..,.,:,.,;NMMNq88qXUSFPSkF0NSk0u,  iNMq2kGBMk7i:::i::;i:::7r;:7uPGqN1582iLUi.                                 
+                           .YME0U7iii::L:.,::i,...:FBBMBBBBBBBOMBBOME0i   :kEF;:iLEBZG5vrLri:::::ri;rjXBBBBBJ ..                                      
+                          vNE1YYY;LYr:r;,.,,:.7::i::UMBBBZMP7r77r:,.      .ZOuv7rii;kkNMBBq5UvLLYUPSZEZEOPGBM                                         
+                        ;FU7r7777jY7i7r:.i:,:i,:i;i::iuBZY:.           . .uBMPJLr;i:,. ...,::::7YGB8JYYviiijJv                                        
+                      .YPYLriL7LYLu77Yj::7i,:i:,::::i. :1NP1Su7r7rriYUjF1uBBBqF2J::.             :F7::ii::::iri                    .. .   .           
+                     .r1Y7r7iYrUJLYuLjr7rLv:ii:::::;r7i,.r7;vYLjjUYvLjr7;ii::::i:,.            .,. :ii:7:,,::ri,                   :. ..  .           
+                   .r7YYY;rr7ivL7rjLYvrrrr7:ii::;iii;i:::,........... .,..,.:ii::,,..    . .,.:::,..Luiiiii::iri:           ...   ,:..i. .i,          
+                 .iYYYv;:77i:;j7:7uLLL77i7;7L7i:iri;i;ii:::i:::i:i:::;ii;virii:ii,.,.......,,:,:,,,.,Jriii::,irr:.         :,...  i::YL:i7....        
+                ,iLLvr;:irr:irUr7vurjYY77vuUJr7i;v7v1viiriiiri;;;iiir;777irr777;i..,:...,..   ... ,rY7r::i;:::i:Lr.   . ..:i.  ::...ii::rvi,:,        
+             ,i77L77rr::ir;i7UYLYSJL7jYUJJu1UvLvLUYUULr;;Yvrir77riirrjjjrrYv7JuUr:...,.. . .:LuUvLUSJr:::i,..,,.,7;:.::ii::r.. 77...,,:ri:7i ,:       
+            :iri;iiiri::ii;ivYLrrU12Yu2Jjj1UjLLj52512L7JkuLvuLLLY7r72JYYYv2LYjFJr::...i:i;1MBBSvYYYL7;i:......:....r82,,,.:r..:i....:..:i:i;.:,       
+          .ir;:i;i:iii:i::iLYYvYJ22UjSPkUF51Lj7U5UUFu2UXSj7u1uLUUurY2JvUuYYv7YLr:YUSNOEMMMMBBMSJv7;7;;i:.......,...,iuYi::i7 .:i.,:.,...,i..::        
+         :7rrr7r7;i:i:::i:irrirYqkk2qXNNOZ0F5UL5XJ12U1XUuJS1SFF1Uv1u55kkUJULLv1JJ8B0ON2ju1PqZNkJ7rLri::,,.,.,......,.rPj7;v,..,i;::,,,:.. .:r         
+        ,Jrii7v7:::i:::::ii;i;7YYU2ZMBBBBBGE882EXkPk5X11UF5FqNSUk2MXqNqG2PFOE0BME8X2j5YLiJ1SkZXurrrr::.,.,...,.......,rUL2r..,.:ii::::....:7          
+       .YJirvi7ri:;:::r;r;ri7vSYYkBBMOE7:.....:uqBB8OXkEqPG8BPqNMU0PNjYLi:.NBBO5qYvUUJ7iir772Eqv7r;ii::::.....,,,,. . .jN0...,::iii::,.. :r           
+       vur7Yr;;iir:::rrrir7uUFPUJqXr             UMBB2Y8U520BXLL, .:AimHarder  iBB5jLY7L77:i:;:iLP0F7r;i:i::.:iuU2j1JLL1uri5BU ..::::i::::..:i.. ...      
+      ;1LiU7rYri7i:iJv7rrrUSX2Li::. .,, ....:..    ,Si      .              :BBEkJYL:ii7jYvvr;i1GP7ri::7LUuF1jri::,iLL710B  ...::ii:::..rL,....:i:     
+     .jqJvr7vLr7ii7Y7v7rr7YULr::::::ii,,,:,:::,:,,.,,;i.        .  ,:.....:::SG2Yvrvi::7LuL;ir78GYi77U1FUr77..,::i:iir7FU. ,.:::::,,.:Jr. ...,.:::    
+     ,5SFj7i777ii;Lrr7Y7rr7rririi:;ir::i:,::i::::,::::iir:.     ,  7u. .,.,. .Y2LjUr7:,.::i:;;rJ8kUX8P1v7ri:::::rrrii:7Jk. ...:,,.. i7:   ..,,:,,Y:   
+     :YEFJLLi;j7i777iLYYr7777jJLiii;iiir:i7Yii;i::::,,,::r;:.i:....:...,.,,,:::uF1vr:,.,.,.::iir2BBOqX22JjvYL7:r;iir;;i75r   ... .,:i:   . .,i:...r:  
+  .  .jE5U2Yr7kjL7Lr7Lu7rrLrLUY7vr7rLvYJJLYL7iYL;irii:ir:,i:rLr,,.....,.,.:::.  JU7;:.:ii:,;i:rvjSNP0Xk5S2UYYYYL7iiiriiijk2r:   ,i;:. . ........ri:   
+      LMj22J7uuu7rrLLjrr7L7LvY7L77vUjjYJu5LvL7r7r7rr7Jr7i::iir:,...,,,:::::: ,r1GEYvrr::::.i::i77LJqESJuUFuJLUuuLLr7r7rYrvjNEq1N0u,.......,..,i;..    
+      iBF7XUU5uYY7YJUYLYY7r7Y7u7r7UjYLjJUYjLY7LLuJYrrrY7;:r7r;i,..:.,,,,i:. LNBBBP277ri::.:,::::LvY0BPUY5F5UUjuLjjUJUJUjY7;i7j1Yr::,....,.., rj       
+       NNYk5u0U2uUjUUUU2Lv7JJjL7rL77Y2Ukuju2L2UUU2uY77;77Yrrii:,.,,,::::,,.7BMXBOEEkjYiii;:::i,,iJuP0ZXXkqSk12JUYuUUjUYY7LL7rrii...,,,.,,,...r.    .  
+. .    .qBO1PkFUF15uUUU7LLUYjuYYUYYYSqEqNX0qZkFjYLYLLvYLYvL7jr:::.,::,:..:jPB0SNMEq2ujvrY7;:::ii;7JjXNGFUU5SX5kXF201UU2LjYL7Lv7;i..,:,:,:.,:r:   .,.  
+. .:.   iMMOX5k25NSFuUjjYUJYJ5JSXXk0kN0NEM0E8ZkFUUJYYUYLj1Yjvr::::,,,:,:rr,UZMPqN0FSSUri::....,:,.,YqBBMPXXqXNSXkXSE0GP1ujLJYYL;.,,:,:,..,rU, .,.,.  .
+  .:i:..,i0BB0Z5FFNkk55u225UFkF1XPPkNXqXqXZGBB8kqqNS5SXjS1jU;ii::::,,:ri:  .5MOqNP8MNi:,...   . .  .iUBBBBBZZPZ0ZNG8EZB8SUS5ur;::,:,,...rjj. :i.,..   
+  ..:;i::rYGBBBBNkXNkOZXXZZEPEEOZ8EE0GZZNZ8BBBBBBBE8ENXSk01ji:,;:,.i;ri:,,...UBBBBBMr,.,...........,...iYFUMMkZBZBBS:7P00MEPkXYi.:...:7U2v.:i:...     
+    .,::i7vr2ZB*Ã¹!^$Ã¹$^$;:!JAH BLÂ£$$ & L0VÂ£ to @ll of Âµs MONKEYZ !qSFkBBBM.:Sctv83.blogspot ir..r:,:i:    .FBBBBBPuLr:ir  gheruihgigldfhbgnlkhql      
+       .     ...iYY1XXkGk0EOOBOMMONNPSJJ77i::::::;752J10SENL:::irjUY7Ji,:;iiriir7kBB7. rM7..JO,.iUi.:F1v;7uZMGJr:,.ii::i:::r7jXO0Zq0Ur,,...,..        
+                            . .           ... ..   .,.. .:rrvY1UJr:::. .:,..... ...:7,:kM7:iP8v.iSU.:L7:ii:..       ..... .                           
+                                                                                     .,,..::...,:,.:.                                               
+
+       -----â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ ---â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ -----â˜ â˜ 
+  
+                                         ______)          _____                        ______         
+                                        (, /  /)         (, /   ) ,                   (, /    )       
+                                          /  (/    _      _/__ /    __  _  _/_  _       /---(  _      
+                                       ) /   / )__(/_     /     _(_/ (_(_(_(___(/_   ) / ____)(_(_(_/_
+                                      (_/              ) /                          (_/ (        .-/  (
+                                                      (_/                                       (_/   
+
+       -----â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ ---â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ -----â˜ â˜ 
+                                                            Piratz Luv W0men slurp ;)
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°         Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›      
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°Â°                              Â°Â°Â°Â±Â±Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›       
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²   ÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœ   Â°Â°Â±Â±Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›     
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²   Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â°Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃŸÃŸÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Â°Â°Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°Â°      Â°ÃŸÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â°Â±Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²  ÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â°         Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â°Â±Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°     ÃœÃŸÃŸÃœÃ¾Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â±Â±Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â±Â± ÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°    ÃÂ°Â°Â°Â°Â°Â°Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²  Â°Â°Â±Â±Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â±Â±Â° Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â°   ÃÂ°Â°Â°Â°Â°Â°Â°Â° ÃžÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã  Â°Â°Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â±Â±Â°  Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃÂ°   Â°Â°Â°Â°Â°Â°Â°Â°Â° ÃžÃ›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â±Â±Â°Â° ÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°  Â°Â°     Â°Â°Â°Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Â°Â°Â±Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â±Â±Â°Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃÂ° Â° .ÃÂ° Ãž  Â°Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã   Â°Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â±Â±Â°Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°   ÃÂ°Â°      Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â±Â±Â±Â°Â°  ÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â°   ÃÂ°   Â°Ãž   Â²Ã›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â±Â±Â°Â°Â°  ÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â°  ÃÂ°Â°    Â°Ã ÃÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã  Â°Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â±Â±Â±Â±Â°Â°   Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â°  ÃÂ° ÃœÃœÃŸÃŸÃŸÃŸÃŸÂ°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã  Â°Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Â²Â²Â²Â±Â±Â°Â°Â°    Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°  ÃÃŸÃŸ       Â°Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²  Â°Â°Â±Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Â²Â±Â±Â±Â°Â°    ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã             Â°Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›  Â°Â°Â±Â±Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Â²Â²Â±Â°Â°Â°    Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›               Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã  Â°Â°Â±Â±Â²Â²Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Â²Â²Â±Â±Â°    ÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°              Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã  Â°Â°Â±Â±Â²Â²Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Â²Â±Â±Â°Â°   Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃÂ°               Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â°Â±Â±Â²Â²Â²Ã›Ã›Ã›    
+                                Ã›Ã›Â²Â±Â°Â°   Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃŸ                 Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    Â°Â°Â±Â±Â±Â²Â²Â²Ã›    
+                                Â²Â²Â²Â±Â°   Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃŸÂ° ÃœÃœ               Â°Â²Ã›Ã›Ã›Ã›ÃŸÂ²Â°Â²ÃŸÃ›Ãœ  Â°Â°Â°Â±Â±Â±Â²Â²    
+                                Â²Â²Â±Â±Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â° Ã›  ÃŸÃŸÃœÃœ          Â°Â²Ã›Ã›Ã›Ã›Â²Â°Â°Â°Â°Â°Â°ÃŸÃ›   Â°Â°Â°Â±Â±Â²    
+                                Â²Â±Â±Â°Â°  Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃŸÂ°  ÃžÃœÃœÃœÃœÃœÃœÃœÃ›       Â°Â°Â²Ã›Ã›Ã›Ã›ÃÂ°Â°Â°Â°Â°Â°Â°Â°Â²Ã›   Â°Â°Â°Â±Â±    
+                                Â²Â±Â°Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°  Ã     Ã›      Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°    Â°Â°Â°Â°Â²Ã›    Â°Â°Â±    
+                                Â²Â±Â°Â° Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â° ÃŸÃ›Ã›ÃœÃ›ÃŸÂ°    Â°Â°Â²Ã›ÃŸÃ›Ã›Ã›Ã›Ã›Â²Â°      Â°Â°Â°Â°Â²Ã›   Â°Â°Â±    
+                                Â²Â±Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°  Â°Â°      Â°Â°ÃœÂ²Â²Â°Ã›Ã›Ã›Ã›Â²Â°        Â°Â°Â°Â°Â²Ã›   Â°Â°    
+                                Â²Â±Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°       Â°Â°ÃœÃ›ÃŸ   Â°Â²Ã›Ã           Â°Â°Â°Â°Â²Ã›   Â°    
+                                Â±Â±Â°  Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°    Â°Â°ÃœÂ²ÃŸ        Ã           Â°Â°Â°Â°Â°Â²Ã›  Â°    
+                                Â±Â±Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°Â°      Â°Â²ÃŸÃŸÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃŸÃŸ                      Â°Â°Â°Â°Â°Â°Â²Ã›      
+                                Â±Â±Â°  Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°Â°Â°             ÃŸÃŸÂ²Ã›Ã›Ã›Ã›Ã›Â²ÃŸ Â°                        Â°Â°Â°Â°Â°ÃœÃ›Ã›Ã›Ã›Â²     
+                                Â°Â°Â°  Ã›Ã›Ã›Ã›Ã›Â²Â°Â°Â°                       ÃžÂ°Â°Â°                      Â°Â°Â°Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Â°Â°Â°  Ã›Ã›Ã›Ã›Â²Â°Â°                         ÃžÂ°Â°                       Â°Â°ÃœÃ›Ã›ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Â°Â°Â°  Ã›Ã›Ã›Â²Â°Â°                          ÃÂ°                       Â°Â²Ã›Ã›Â°Â°Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Â°Â°Â°  Ã›ÃÂ°Â°Â°Â°                           Â°                       Â²Ã›Ã›Â°    Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Â°Â°Â°  Ã›Â°Â°Â°Â°          Â°                                    Â° Ãž Â°Â²Ã›Ã›Â°    Â°Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Â°Â°  Ã›Â²Â°Â°Â°Â°        ÃœÂ°             Â°Â°                       Â° Ãž.Ã›Ã›Ã›Â°     Â²Ã›Ã›Ã›Ã›Ã›    
+                                Â°Â° Â²Ãœ Â°Â°Â°        Ãž Â°            Â°Â°       ÃœÃœÃœÃœÃœÃœÃœ             Ã›Ã›Ã›Ã›Â°     Â°Ã›Ã›Ã›Ã›Ã›    
+                                ÃœÃœÂ²Ã›Ã›Â²ÃœÂ°Â°       ÃœÂ²Ã›Ã›Ã›Ã›Ãœ       ÃžÂ°Â°Â°    ÃœÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ãœ          ÃžÃ›Ã›Ã›Ã›Â²Â°     Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°     ÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²     ÃÂ°Â°  ÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²        ÃžÃ›Ã›Ã›Ã›Ã›Ã›     Â°Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²   ÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²    ÃÂ° Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ       Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â°     Â²Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²  ÃžÂ°Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²     Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°    Â°Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã› Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â² ÃžÂ°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã     Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›     Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃžÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã     Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›      Ã›Ã›   
+                                Ã›Ã›Ã›Ã›Ã›   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃžÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²      Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Â°     Ã›   
+                                Ã›Ã›Ã›Ã›   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã     Â°Â°ÃžÂ²Ã›Ã›Ã›Ã›Ã›     Ã›   
+                                Ã›Ã›Ã›    Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã    Â°Â°Â°ÃžÃ›Â²Ã›Ã›Ã›Ã›Â²Â°       
+                                Ã›Ã›   Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²    Â°Â°Â°Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›       
+                                Ã›   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â°Â°ÃžÃ›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Ã›Â°     
+                                    Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã   Â°Â°Â°Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Â²Â°    
+                                   Ã›Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã   Â°Â°ÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Ã›Â°   
+                                 Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²   Â°Â°Â°ÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã   Â°Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Â°Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â² Ã›Ã›Ã›Ã›   
+                                Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã› Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã   Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²  Ã›Ã›Ã›   
+                                Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›   Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²  Â° Ã›Ã›   
+                                Ã›Ã›Ã›Ã›Ã›Â²Ã›  Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã  Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â² Â°Â°  Ã› 
+                                Ã›Ã›Ã›Ã›Â²Ã›  Â°Â°Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã Â°Â°ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â² Â°Â°Â°Â°     
+                                Ã›Ã›Ã›Â²Ã›  Â°Â°Â°Â°   Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²ÃÂ°Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²  Â°Â°Â°      
+                                Ã›Ã›Â²Ã› Â°Â°Â°Â°Â°  Â°  Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›Â²Â²Â²Â°ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›Ã›Â²ÃŸ Â°Â°Â°Â°Â°Â°     
+                                Â°Â°Â°Â°Â°        ÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Ãœ    Â°Â°Â°Â°Â° 
+                                Â°Â°Â°Â°Â°   Â°     ÃŸÂ²Ã›Â²DeGunÂ²ÃŸÃŸÃŸÃŸÃŸÃ›Â²SCTV83.blogspotÃœÂ±Ã›ÃœÃœ ÃŸÃ¾ÃœÂ²Ã›Ãœ ÃŸÃŸÂ²Ã›Ã› ÃœÂ²Ã›Ã›
+                                Â°Â°Â°         Â²ÃŸ ÃœÂ±Ã›ÃœÃœ ÃŸÃ¾ÃœÂ²Ã›Ãœ ÃŸÃŸÂ²Ã›Ã› ÃœÂ²Ã›Ã›Ã›Ã›Ãœ ÃœÂ±Ã›Ã›Ãœ ÃŸÂ²Â²Ã›Ã›Ã   Â° 
+
+
+â˜†â˜†â˜†â˜†â˜†â˜†Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·Â¤~à¹‘Â°â˜†â˜†Â°à¹‘~Â¤Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·â˜†â˜†â˜†â˜†â˜†â˜† ~â˜¢ Trojan Box Set Collection â˜¢~ â˜†â˜†â˜†â˜†â˜†â˜†Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·Â¤~à¹‘Â°â˜†â˜†Â°à¹‘~Â¤Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·â˜†â˜†â˜†â˜†â˜†â˜† 
+
+
+                 ROOTS - DIGITAL ROOTS - NUH ROOTS - REGGAE - EARLY REGGAE - ROCK - ROCKSTEADY - SKA - DUB - FOUNDATIONS - DANCEHALL
+
+                                                               and much more :
+
+
+91 ALBÂµM$ BOX SET TROJAN From A to Z + 42 Trojan Label Various Artists + 11 ALBÂµM$ from PAMA RECORDS RARITIES + 7 ALBÂµM$ TREASURE ISLE RARITIES
+
+& 52 Âµnclassified albums (Channel One , third World , ShowCase , Studio One , King Edwards , Tone Records , K & K Records etc...)
+
+I trÂµly hope you will appreciate this Âµpload , it took me days & nights for weeks during months ;-) to achieve this "collection" so please let's share it.
+
+
+
+
+
+TROJAN COLLECTION 
+
+1 - Trojan Story - The Label That Defined Reggae - 2CDs
+2 - Trojan - 12 inch Box Set 3CDs.rar
+3 - Trojan - 16 Reggae Rockers (1979) RARITIES
+4 - Trojan - 35th Anniversary Box Set - 3CDs
+5 - Trojan - 60' Sixties Box Set 3CDs Rarities
+6 - Trojan - 70' Seventies Box Set 3CDs
+7 - Trojan - 80' Eighties Box Set - 3CDs
+8 - Trojan - A Place Called Africa
+9 - Trojan - Battlefield - King Pioneer Ska Productions
+10 - Trojan - Beatles Tribute Box Set - 3CDs
+11 - Trojan - Bob Marley & Friends Box Set - 3CDs
+12 - Trojan - Bob Marley Covers Box Set [2006]
+14 - Trojan - British Reggae Box Set 3 CDs
+15 - Trojan - Burning Up Box Set 3CDs [1973-83]
+16 - Trojan - Calypso Box Set - 3CDs
+17 - Trojan - Carnival Box Set Limited Edition - 3CDs
+18 - Christmas Box Set 3CDs.rar
+19 - Trojan - Country Reggae Box Set - Retail - 3CDs - 2007
+20a - Trojan - Creation Rockers Vol.1 1979 LP
+20b - Trojan - Creation Rockers Vol.2 1979 LP
+20c - Trojan - Creation Rockers Vol.3 1979 LP
+20d - Trojan - Creation Rockers Vol.4 1979 LP
+20e - Trojan - Creation Rockers Vol.5 1979 LP
+20f - Trojan - Creation Rockers Vol.6 1979 LP
+21 - Trojan - Creole Reggae Box Set 3CDs
+22 - Trojan - Dancehall Roots Box Set 3CDs
+23 - Trojan - Dancehall '69 (40 Skinhead Reggae Rarities) 2CDs
+24 - Trojan - Dub Box Set Vol 1 - 3CDs
+25 - Trojan - Dub Box Set Vol 2 - 3CDs
+26 - Trojan - Dub Massive Chapter Vol 2
+27 - Trojan - Explosion - 196x-198x
+28 - Trojan - Ganja Box Set 3CDs
+29 - Trojan - Instrumentals Box Set 3CDs
+30 - Trojan - Jamaica Box Set - 3CDs
+31 - Trojan - Jamaican Hits Box Set 3CDs
+32 - Trojan - Jamaican R&B Box Set 3CDs
+33 - Trojan - Jamaican Superstars Box Set - 3CDs
+34 - Trojan - Legends Box Set 3CDs Rarities
+35 - Trojan - Lovers Box Set - 3CDs
+35b - Trojan - Lovers Rock Box Set 3CDs
+36 - Trojan - Mod Reggae Box Set Vol1
+37 - Trojan - Mod Reggae Box Set Vol2 - 3CDs
+38 - Trojan - Motor City Reggae Box Set aka Motown Covers 3CDs
+39 - Trojan - Nyahbinghi Box Set - 3CDs-2003-BiM
+40 - Trojan - Originals Box Set 3CDs
+41 - Trojan - Producer Series Boxset 3CDs - 1999
+42 - Trojan - Ragga Box Set - 3CDs
+43 - Trojan - Rare Box Set - 3CDs - 1999
+44 - Trojan - Rare Groove Box Set 3CDs Rarities
+45 - Trojan - Ras Reggae Box Set - 3CDs - 2004
+46 - Trojan - Rastafari Box Set 3CDs
+47 - Trojan - Records Sampler Box Set 3CDs RARITIES OF RARITIES
+48 - Trojan - Reggae Brothers Box Set - 3CDs
+49 - Trojan - Reggae Classics Tighten_Up - 2CDs - 2002 LsP
+50 - Trojan - Reggae Duets Box Set 3CDs (2004)
+51 - Trojan - Reggae Party (Recorded Live ) [1971] RARITIES
+52 - Trojan - Reggae Sisters Box Set 3CDs
+53 - Trojan - Reggae for Kids Bos Set 3CDs
+54 - Trojan - Revive Box Set - 3CDs - 2002
+55 - Trojan - RockSteady Rarities - Box Set 3CDs
+56 - Trojan - Rockers Box Set 3CDs [2006]
+57 - Trojan - Rocksteady Box Set 3CDs (1999)
+58 - Trojan - Roots Box Set Vol 1 - 3CDs
+59 - Trojan - Roots Box Set Vol 2 - 3CDs
+60 - Trojan - Roots Reggae Box Set 3CDs
+61 - Trojan - Roots of Reggae Vol 2 - Rocksteady Rarities
+62 - Trojan - Rude Boy Box Set 3CDs
+63 - Trojan - Selecta Vol 2 [2006]
+64 - Trojan - Selecta Vol 3 [2006]
+65 - Trojan - Selecta Vol 5 [2007]
+66 - Trojan - Sessions Pama International
+67 - Trojan - Singles Box Set 3 CDs
+68 - Trojan - Ska Box Set 3CDs Vol1
+69 - Trojan - Ska Box Set 3CDs Vol2
+70 - Trojan - Ska Rarities Box Set 2CDs (2005)
+71 - Trojan - Ska Rarities Box Set 3CDs (2006)
+72 - Trojan - Ska Revival Box Set 3CDs
+73 - Trojan - Skinhead Reggae Box Set 3CDs
+74 - Trojan - Slack Reggae Box Set 3CDs
+75 - Trojan - Sound System - 1CD
+76 - Trojan - Suedehead Box Set - 3Cds
+77 - Trojan - Sunshine Reggae Box Set 3CDs
+78 - Trojan - Tighten Up Box set - 2CDs
+79 - Trojan - Toots & the Maytals - Roots Reggae Box Set 6Cds
+80 - Trojan - Tribute To Bob Marley Box Set 3CDs (1999)
+81 - Trojan - UK Hits Box Set - 3CDs
+82 - Trojan - Upsetters Collection Box Set 3CDs
+83 - Trojan - Vinyl Story - 1987 - Box Set 2CDs
+84 - Trojan - X-Rated Box Set 3CDs
+85 - Trojan - Originals Box Set RARITIES
+86 - Trojan - suedehead box set 3CDs 
+
+
+
+TROJAN LABEL VARIOUS ARTISTS : 
+
+Trojan Label -  Jamaican Memories 67-68 Blue Cat Label 2002
+Trojan Label - Baba Boom! Musically Intensified Festival Songs
+Trojan Label - Best of Beverley's records
+Trojan Label - Birth Of Trojan - Duke Reid Rocksteady [1967]
+Trojan Label - Blessed Love - Jamaican Producers 1960-1969
+Trojan Label - Bob Marley - 1973 - the record plant studios
+Trojan Label - Boris Gardiner - I Want To Wake Up With You
+Trojan Label - Byron Lee - The Man & his Music 2CDs
+Trojan Label - Dennis Alcapone - My Voice is Insured for Half a Million $
+Trojan Label - Dennis Bovell - Yuh learn! 1978
+Trojan Label - Derrick Morgan - Seven Letters (1969)
+Trojan Label - Dj's choice - Soul to Soul - LP
+Trojan Label - Don Letts Presents The Mighty Trojan Sound
+Trojan Label - Down In A Tenement Yard (Sufferation And Love In The Ghetto 1973-1980)
+Trojan Label - Duke Reid - Nuclear Weapon - Rare & Previously Unissued Early 60's Ska[196x]
+Trojan Label - Free Soul Flight to Jamaica
+Trojan Label - Funky Kingston Reggae Dancefloor Grooves (1968-74)
+Trojan Label - Gaz Mayall presents Top Ska !
+Trojan Label - High Explosion Sound DJ 1970 To 1976 - 2CDs
+Trojan Label - Keep The Pressure Down -  Rarities 1974-77
+Trojan Label - Leslie Butler (With Joe White) - Ja-Gan (1975 - LP)
+Trojan Label - Lloyd Charmers - Reggae Is Tight [1969]
+Trojan Label - Marcia Griffiths - Sweet Bitter Love [1974]
+Trojan Label - Marie Pierre - Love Affair - LP TRLS - 177 1979
+Trojan Label - Pama International - Trojan sessions Rarities
+Trojan Label - Queen Of The World (Trojan 1970 LP)
+Trojan Label - Reggae Party (Recorded Live !) [1971]
+Trojan Label - Rough And Tough 2CDs (The Story Of Ska 1960 - 1966)
+Trojan Label - Socking Good Time - Rare & Unreleased Rocksteady -  - [1967-70]
+Trojan Label - Something Sweet The Lady 196x-197x
+Trojan Label - Soulful Reggae For Lovers - Just My Imagination [197x]
+Trojan Label - Soulpower Funky Kingston vol 2
+Trojan Label - The Ethiopians Hits
+Trojan Label - The Kingstonians - Sufferer (1970)
+
+Trojan Label - Tighten Up - Deluxe Edition Vol 1 & 2
+Trojan Label - Tighten Up x 8 - Collection ]x 8[ Volumes - 
+
+Trojan Label - Toots & the Maytals - Roots Reggae Box Set 7Cds
+Trojan Label - U Roy - Dreamland EP 7''
+Trojan Label - VA Rarities - Reggae To Reggae
+Trojan Label - Work Your Soul - Jamaican 60's & Northern Soul 1966-74
+Trojan Label - You Left Me Standing
+Trojan Label - Young Gifted & Black 2Cds
+
+
+PAMA RECORDS RARITIES :  (ALL in ONe (1) RAR FILE 423Mb )
+
+PAMA Records - Bullet - A World of Reggae Ska Rocksteady
+PAMA Records - lloyd charmers & the hippy boys - house in session
+PAMA Records - Mandrill - Just Outside of Town [1973]
+PAMA Records - Max Romeo - A Dream by Max Romeo
+PAMA Records - Mohawks - Mony Mony 7'' (pama rds, pm 757)
+PAMA Records - Reggae Hits '69 Vol.1 (Pama LP)
+PAMA Records - Rudy Mills - Reggae Hits
+PAMA Records - The Upsetters - Many Moods 1970 LP
+PAMA Records - VA - Hot Numbers vol 1 & 2
+PAMA Records - VA - Lovely Dozen Best Ska Reggae Blue beat
+PAMA Records - VA - Nu Beat Greatest Hits
+
+
+TREASURE ISLE RECORDS RARITIES : (ALL in ONe (1) RAR FILE 457Mb
+
+Boom Shaka Lacka - Treasure Isle Reggae Hits 1968-74
+Greatest Jamaican Beat (Treasure Isle LP)
+Independent Jamaica - Treasure Isle
+Rock Steady Beat - Treasure IsleÂ´s Greatest Hits  [1967]
+Ska After Ska [treasure isle]
+Treasure Isle - Showtime [196x]
+Version Affair vol.1 [197x]
+
+
+
+
+ÂµNCLASSIFIED ARTISTS / ALBÂµM$ 
+
+
+Barry Heptone Meets Leroy Smart - Showcase (struggle lp 198x)
+BB Seaton - It Dread & Dreaded Version (Soul Beat 7'' 1976)
+BB Seaton & The Gaylads - Seal of Aprroval Vol 1+2 - Soul Beat Records
+Best of Beverley's records
+Bittye McLean - Made In Jamaica '07
+
+CA 48 - glorias allstars(1970)
+Cedric Im Brooks & Dave - money maker
+Channel One Records - Dennis Alcapone - King Of The Track (1974)
+count owen & his calypsonians - down jamaica way
+Creation Rebel - 1978 - 1983
+
+dr ring-ding - dandimite Ska Rocksteady
+flight 404 - trip to moon
+gladiators - studio 1 - 12''
+Gladstone Anderson All Stars - Peace Pipe Dub _198x_
+Groovin high - Rocksteady Ska Oldies 6x & 7x
+Hortense ellis - jamaica's first lady of songs (lp 1977) Third World
+
+Ijahman - Are we a warrior 1978
+jamaica ska -amy records (rare)
+Joe Gibbs Productions
+King Kong - Big Heavy Load (world enterprize lp 1986) Third World Production
+
+Lee Perry - Cloak & Dagger [1973]
+Lee scratch Perry - super ape
+Lee scratch Perry - return of the super ape
+Linval Thompson - I Love Marijuana
+
+Michael Prophet - Yabby You Vivian JAckson - Stars In Disco Showcase (prophet 1982)
+mojo rocksteady beat
+Reggae Roots - vol 01
+Roots of Reggae
+Reggae Sounds Are Boss Vol.1-  Brixton Cat
+
+Scattarock - Scattarock _1982 LP
+Skatalites - In Orbit - Live Buenos Aires Argentina
+Soul Vendors - On tour Studio 1 vinyl
+Street Corner- Ska Classics & Original Rude Boy Sound
+STUDIO 1 - Ernest Ranglin (1970) Boss Reggae K & K Records
+
+techniques - little did you know
+The caroloregians - organic coal beats from the groovy mines
+The Gladiators - Proverbial Reggae
+The Mighty Diamonds - Deeper Roots Dub  1979
+The Upsessions - 2009 - Beat You Reggae
+THIS is England - Soundtrack
+Tommy McCook & The Agrovators - Disco Rockers
+
+VA - 60s Hits Reggae Style - 2cds - Original Reggae & Creole Rarities
+VA - Authentic Jamaican Ska
+VA - Bobby Aitken presents Rock Steady - Original & Red Hot (1966-67)
+VA - Coconut Ska - king edwards 1963-64
+VA - Dance Craze Rarities 2 Tone Records British SKA
+VA - Humble Commission - Showcase-LP-1985-YARD
+
+VA - I'm Going Home - 25 classic ska shots
+VA - Italian Rude Boys - Ska & Rocksteady 2003
+VA - Ska - Au Go-Go - Studio 1
+VA - The King Kong compilation 68-70
+
+Villains - Life of Crime EP Rarities - Skinhead Records
+
+
+
+
+â˜†â˜†â˜†â˜†â˜†â˜†Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·Â¤~à¹‘Â°â˜†â˜†Â°à¹‘~Â¤Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·â˜†â˜†â˜†â˜†â˜†â˜† THE TROJAN STORY - a brief history â˜†â˜†â˜†â˜†â˜†â˜†Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·Â¤~à¹‘Â°â˜†â˜†Â°à¹‘~Â¤Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·â˜†â˜†â˜†â˜†â˜†â˜†
+
+
+
+Since its creation in 1968, Trojan Records has led the way in presenting the very best in classic Jamaican sounds, from the Rocksteady and early Reggae 
+
+sounds that dominated in the years of its launch, up to the modern styles of Dancehall and Jungle. The company has always taken pride in the quality of 
+
+its releases, which has highlighted the cream of Jamaican talent, with the likes of Bob Marley & The Wailers, Dennis Brown, John Holt, Ken Boothe, 
+
+Toots & The Maytals and The Inner Circle all included on its illustrious roster. The output of the leading producers who have been instrumental in the 
+
+developing sound of Jamaican music has also received due attention, with the works of such legendary figures as Arthur â€˜Dukeâ€™ Reid, Lee â€˜Scratchâ€™ Perry, 
+
+Clement â€˜Coxsoneâ€™ Dodd and Leslie Kong all featuring prominently on Trojan releases.
+
+
+The Trojan story begins on July 28th 1967 when the first incarnation of the label was launched by Island Records as a showcase for the productions of 
+
+Duke Reid. The name itself derived from the seven ton Leyland â€˜Trojanâ€™ trucks that were used to transport the producerâ€˜s huge sound system around Jamaica, 
+
+and which had emblazoned upon its sides, â€™Duke Reid, The Trojan King Of Soundsâ€˜. In fact, long before Island launched their version of the imprint, 
+
+Reid had used the name on a series of 78s, although it was by the early sixties it had been dropped in favour of the Duke Reidâ€™s and later, 
+
+Treasure Isle labels. Meanwhile, the first British inception of Trojan proved a short-lived operation, folding after a mere dozen or so releases, 
+
+with Reidâ€˜s productions subsequently highlighted on the UK incarnation of the aforementioned Treasure Isle imprint.
+
+
+In 1968, the Trojan name was reactivated by businessman Lee Gopthal, whose company, B&C (Beat & Commercial) had recently merged with Island. 
+
+Unlike its previous manifestation, the new Trojan label showcased material from varying sources, ranging from British-based producers such as Dandy
+
+ and Joe Mansano to their esteemed Jamaican counterparts, among whose number included Lee Perry, Bunny Lee, Clancy Eccles and the aforementioned Duke Reid.
+
+ Meanwhile, the increased volume of recordings being purchased and licensed by the company led to the formation of a series of subsidiary labels, 
+
+most of which showcased the output of a single producer. Included among these were Amalgamated (for Joe Gibbs), High Note (Sonia Pottinger), 
+
+Upsetter (Lee Perry), Jackpot (Bunny Lee), Clandisc (Clancy Eccles) and Downtown (Robert â€™Dandyâ€˜ Thompson). So substantial was the volume of material 
+
+obtained for release that further labels such as Blue Cat, Big Shot and Duke were also created to fulfil a similar function to the parent label, issuing
+
+ recordings from an array of producers. Over the next year or so more than thirty different labels under the Trojan umbrella were launched.
+
+
+Soon after its creation, Trojan also began releasing albums, with the TRL (S) series featuring packages considered more up-market and the
+
+ TTL line (later superseded by TBL) aimed at the budget-price market, predominantly featuring various artist compilations, the most successful of 
+
+which were the popular ##### â€™Tighten Upâ€˜ volumes.#####
+
+
+In 1969, the company enjoyed their first taste of mainstream success, when Tony Tribeâ€™s upbeat version of Neil Diamondâ€˜s â€™Red Red Wineâ€˜ briefly entered
+
+ the lower reaches of the UK singles chart on 16th July, re-appearing the following month to peak at number 46. Rather than proving a one-off success,
+
+ the record in fact marked the beginning of a deluge of hits for Trojan and its associated labels. In the Autumn, the Upsetters, led by saxophonist, 
+
+Val Bennett, hit the number five spot with their double-header, â€™Return Of Djangoâ€˜/â€™Dollar In The Teethâ€˜, while the Pioneersâ€™ â€˜Long Shot Kick De Bucketâ€™
+
+ peaked at number 21. These were swiftly followed by top ten singles from Jimmy Cliff (â€˜Wonderful World, Beautiful Peopleâ€™) and the Harry J All Stars 
+
+(â€˜Liquidatorâ€™).
+
+
+The hits continued into 1970, with Desmond Dekker, the Melodians, Toots & the Maytals, Bob & Marcia, Nicky Thomas, Horace Faith, Freddie Notes & 
+
+the Rudies, as well as the aforementioned Jimmy Cliff, all breaking into the charts. In the spring of 1971, â€˜Double Barrelâ€™ by Dave (Barker) & 
+
+Ansel Collins gave the company their first British number one, while further chart entries were provided by Bruce Ruffin, Greyhound and The Pioneers.
+
+Aside from the more commercially successful releases, Trojan also showcased work from an array of artists previously considered virtual unknowns outside
+
+the shores of Jamaica. Among these were a number of performers who were later to become major international recording stars, including Dennis Brown, 
+
+Gregory Isaacs, U Roy and a Kingston-based vocal trio called Bob Marley & the Wailers.
+
+
+The dramatic rise in the companyâ€˜s fortunes since its humble beginnings just a year or so before were nothing short of phenomenal. While its incredible 
+
+success could certainly be credited in some part to the British West Indian ex-patriot community, it was undoubtedly the buying power of the white and 
+
+proudly working class youth movement, the skinheads, which had the most profound effect. Unable to identify with either the teen-based style of bubblegum 
+
+or the psychedelic sounds so favoured by the middle-classes, skinheads found the direct, unpretentious approach of Reggae in keeping with their lifestyle 
+
+and attitudes and readily adopted the music as their own. But as Reggae became mainstream, Trojanâ€™s releases developed a more sophisticated sound, 
+
+which although initially proved successful, ultimately led to the disenchantment of the musicâ€˜s loyal skinhead following. Nonetheless, the hits continued 
+
+for the company into 1972, with singles from Greyhound, The Pioneers, Dandy (Livingstone) and Judge Dread. The same year Trojan finally severed all links 
+
+with Island, which began to concentrate its efforts into promoting UK-based acts.
+
+
+Over the next few years, Trojan released further UK chart hits, with singles by Dandy, Judge Dread and John Holt all breaching the top thirty, while Ken 
+
+Bootheâ€™s soulful rendering of Breadâ€˜s â€™Everything I Ownâ€˜ gave the company its second UK number one. Meanwhile, back in Jamaica, the sound of Reggae was 
+
+changing. Increasingly apparent was the rise in black consciousness and the growing influence of the Rastafarian faith, while Dub had also begun to make 
+
+its mark, with the pioneering sound engineer, King Tubby continually furthering the boundaries of the sound with his innovative mixing style.
+
+In 1975, Trojan was sold to Saga Records and despite a number of worthwhile releases, sustained commercial success proved elusive. Despite this, 
+
+the company continued to present some of the best in Jamaican sounds, showcasing the work of leading vocalists, including Linval Thompson and Sugar Minott,
+
+ DJs, such as the late Prince Far I, and leading Dub masters, Scientist and Prince Jammy.
+
+
+Ten years on, the company changed hands yet again and its new owners embarked on an extensive re-issue programme, with the imprint quickly becoming
+
+ established as world leaders in field of vintage Jamaican sounds. In the summer of 2001, Trojan was acquired by Sanctuary Records Group who immediately 
+
+set about raising the labelâ€™s standards even higher. Today, Trojanâ€˜s future looks brighter than ever and with some of the leading authorities in the field
+
+ of vintage Jamaican music contributing to future releases, there are undoubtedly some truly exciting times ahead.
+
+
+..................................................................................................................End of the Trojan Story..... Â£NJOY
+
+
+
+
+
+IF YOU HAVE GOT TROJAN SELECTA VOLUMES 1 & 4 & 6 & 7 & .8. PLZ MAIL ME for upload !!!! 
+
+################################################################### INFOS TORRENT : ###################################################################
+
+TOTALE SIZE ÂµPLOAD : + 25Gb :)))
+
+
+DOWNLOAD THE TORRENT FILE AND CHOOSE WHAT YOU WANT ! you don't have to DL all 25 gigz at once even if i think YOU SHOULD ! get a new HDD hell yeah .
+
+AND PLEASE FOR Â£VÂ£RY1 fan of TROJAN RECORDS : HELP ME SEEDING AND SHARING THIS FOR THE TORRENT TO LIVE FOR Â£VÂ£R & Â£VÂ£R . What a Torrent innit ? 
+
+
+
+                                 .::::|_____________________________________________________________|:::.
+                                 .::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+                                 .::::|Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯|:::.
+                                 .::::|                                                             |:::.
+                                 .::::|                                                             |:::.
+                                 .::::|         ------------/Â¯/)-----------(Â¯-----------           |:::.
+                                 .::::|         -----------/Â¯.//-----------.Â¯----------           |:::.
+                                 .::::|         ----------/..//-------------..---------           |:::.
+                                 .::::|         ----/Â´Â¯`/' /Â´`------------/Â´` 'Â´Â¯`----              |:::.
+                                 .::::|         ---/ '/ / / /Â¨/Â¯--------/Â¯Â¨   ' ---                |:::.
+                                 .::::|         --( '( Â´ Â´ Â¯/'' )-----( ''/Â¯ ` ` )' )--             |:::.
+                                 .::::|                                                             |:::.
+                                 .::::|            Â®Â©ÂºÂ°Â¨Â¨Â°Â¨T0 @ll H!T & RÂµNnÂ£r$Â¨Â°Â°Â¨Â¨Â°ÂºÂ©Â®            |:::.
+                                 .::::|_____________________________________________________________|:::.
+                                 .::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+                                 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                                              !Pan!  Ì¿Ì¿ Ì¿ Ì¿Ì¿'Ì¿'Ì¿Ì¿ÌµÍ‡Ð·=(â€¢Ìªâ—)=Îµ/Ì¿Ì¿ÌµÍ‡/'Ì¿'Ì¿Ì¿Ì¿ Ì¿ Ì¿ Ì¿   !Pan!
+                                                          |3Âµrn4 B4byL0nyz O0opps
+
+                                 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                                 .::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+                                 .::::|            --------------------------------             |:::.
+                                 .::::|       $H@RÂ£  â˜†â˜†â˜†â˜†â˜† PIRATES RULZ on TPB â˜†â˜†â˜†â˜†â˜†  $H@RÂ£  |:::.
+                                 .::::|            --------------------------------             |:::.
+                                 .::::|_____________________________________________________________|:::.
+                                 .::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+                                 .::::|                     Â®Â©ÂºÂ°Â¨Â¨Â°Â¨Â¨Â°Â°Â¨Â¨Â°ÂºÂ©Â®                       |:::.
+                                 .::::|_____________________________________________________________|:::.
+     
+                                 .::::|        â˜†Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â¤~à¹‘Â°â˜†â˜†Â°à¹‘~Â¤Â·.Â¸Â¸.Â·Â´Â¯`Â·.Â¸Â¸.Â·â˜†            |:::.
+                                 .::::|              --------------------------------             |:::.
+                                 .::::|             http://ThePirateBay.org/user/DeGun              |:::.
+                                 .::::|              --------------------------------             |:::.
+                                 .::::|_____________________________________________________________|:::.
+                                 .::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+
+       -----â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ ---â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ -----â˜ â˜ 
+  
+                                         ______)          _____                        ______         
+                                        (, /  /)         (, /   ) ,                   (, /    )       
+                                          /  (/    _      _/__ /    __  _  _/_  _       /---(  _      
+                                       ) /   / )__(/_     /     _(_/ (_(_(_(___(/_   ) / ____)(_(_(_/_
+                                      (_/              ) /                          (_/ (        .-/  (
+                                                      (_/                                       (_/   
+
+       -----â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ ---â˜ â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ $H@RÂ£â˜ Â°~Â¤Â¤~Â°â¤â¤!SÂ£Â£D!â¤â¤Â°~Â¤Â¤~Â°â˜ â˜ -----â˜ â˜ 
+
+                                                    http://thepiratebay.org/user/DeGun/
+

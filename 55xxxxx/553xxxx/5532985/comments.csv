@@ -1,0 +1,84 @@
+User Type,Username,Date,Text
+[T],SceneRlz,2010-05-04T13:56Z,"Keymaker only...
+njoy!"
+,iwantcs4,2010-05-04T23:58Z,does this work?
+,yurez1,2010-05-05T23:50Z,"Yes, it works, but I rewrote a better version of it!
+
+----------------
+
+INSTALL NOTES:
+1, Install as usual with trial for 30 days. 
+2, Open a terminal and execute the following commands:
+	sudo su -
+	echo ""127.0.0.1 activate.adobe.com"" >> /etc/hosts
+
+3, navigate to your download directory with the command ""cd""
+	chmod +x keygen_osx
+	./keygen_osx
+4, Copy the key that the terminal prints out and start Photoshop CS5
+5, You should now be promted to insert a key or continue you trialperiod. Simply paste the key and Photoshop CS5 is activated. "
+,bravestdawg,2010-05-07T04:18Z,worked perfect! much appreciated. :)
+,Jaylink,2010-05-07T20:43Z,Does this only work for MacOS?
+,Win7Act,2010-05-08T01:53Z,"Where's the ""Terminal""?"
+,Win7Act,2010-05-08T02:24Z,How to make a key?
+,Xx_ucantwin_xX,2010-05-11T02:54Z,make a video
+,lepperfish,2010-05-12T03:29Z,"I do not understand how to do this bit..
+navigate to your download directory with the command ""cd""
+chmod +x keygen_osx
+./keygen_osx
+
+Can anyone explain further?"
+,JKHILL07,2010-05-24T15:05Z,"To everyone wondering here is some more detailed instructions:
+
+Don't enter the quotation marks, only the text inside
+
+Firstly, download the free trial of Photoshop CS5 from Adobe's website, once it's downloaded follow the on screen instructions until you can use the application (feel free to do what you want)
+
+The open Terminal (Applications > Utilities > Terminal), once terminal is open, enter ""sudo su -""
+you will then be prompted to enter your password, enter it then press return.
+
+then just copy and paste ""echo ""127.0.0.1 activate.adobe.com"" >> /etc/hosts"" and hit return.
+
+type cd, then space, then drag n' drop the folder you downloaded from this torrent into the command line. You will get something like ""cd /Users/Imac/Downloads/Adobe.Photoshop.CS5.Extended.v12.0.MacOSX.Incl.Keymaker-EMBRACE "" (mine). Hit return.
+
+Copy paste ""chmod +x keygen_osx"" and hit return.
+
+Copy paste ""./keygen_osx"" (include the period) then hit return.
+
+You will then be given a key, open photoshop, you will be prompted to either enter a key or continue with the free trial, type in the serial.
+
+You now have a fully functioning version of Photoshop CS5, congrats!"
+,Zeegratar,2010-05-28T15:36Z,"I get the message ""-bash: /etc/hosts: Permission denied"" when I type in ""echo ""127.0.0.1 activate.adobe.com"" >> /etc/hosts"". What do I do wrong?"
+,at19ck61,2010-05-28T18:44Z,"it worked as a charm! 
+simple and powerfull,
+thank you very very very very much!"
+,twixie91,2010-06-17T02:56Z,"So would you make one of these again for the Flash CS5 for mac??
+This one worked by the way THANKS :D"
+,twixie91,2010-06-17T02:57Z,and then one for After Effects for mac?
+,hakke666,2010-06-28T12:10Z,"Zeegratar said:
+""I get the message ""-bash: /etc/hosts: Permission denied"" when I type in ""echo ""127.0.0.1 activate.adobe.com"" >> /etc/hosts"". What do I do wrong?""
+
+I get the the same message. Any advice?"
+,fith78,2010-07-25T17:33Z,"@Zeegratar 
+
+have you type ""  sudo su - "" ? 
+then enter your password 
+then copy paste this 
+echo ""127.0.0.1 activate.adobe.com"" >> /etc/hosts"
+,dbuffet,2010-08-05T04:39Z,"after i enter \""./keygen_osx\"" and hit return nothing happens.  were do i get the key. Terminal doesnt do anything and i dont get a key.  also what is the serial number that i use?? thanks"
+,Wuzafish,2010-12-15T19:31Z,"thanks embrace, and LOTS of thanks to JKHILL07, helped me loads!"
+,krocku81,2011-02-09T08:23Z,"When i go to terminal i type sudo su- hit return. It then asks me for my password. I type my password and nothing shows up. I hit return again, and it says ""command not found"".. please help. I really need this program.. thanks!"
+,hryhairy,2011-04-26T20:48Z,"Thank You! After trying to do it a couple different times on terminal I finally did it right. Works great! Have to leave internet off when using it cuz registration tried comin back but besides that, awesome. Props from Montana."
+,aligallop,2011-06-15T01:44Z,"I previously used this and it worked fine, I have tried now to intall it on a laptop and it is saying that the code will activate photoshop as an subscription version... is this because the demo available is cs5.1?? I think I used cs5 previously. "
+,hippy500,2011-09-16T12:08Z,I use this download wYYYww.megauYYYpload.com/?d=EZHTYYYXNBL (without YYY's) and use yurez1's instructions and it worked for me.
+,mandya91,2011-09-19T20:59Z,"I'm having issues.. I can get my key and everything but when I put it in, it asks me to sign in. I sign in and it says ""Try Again, we are unable to start your subscription for Adobe Photoshop CS5.1 Extended Subscription Edition, Please choose to Close and then re-launch your product. You will be prompted to start your subscription once you launch the product."""
+,flipflopflump,2011-10-30T18:37Z,"@ JKHILL07 
+
+Thanks for the instructions! Worked like a charm. :D"
+,flipflopflump,2011-10-30T18:38Z,"@hippy500
+
+Thanks for the download link! Everything worked perfectly!"
+,777eric,2011-11-05T07:43Z,"Nice, but I have one problem...After I enter the serial, the program want my adobe ID and my password to validate.
+Who can help me?"
+,cplg23,2012-01-19T10:46Z,"has anyone been able to get this to work recently i have the same problem as the others. it asks for my adobe id which i have created one before and then says it can't do it and closes me out of the program so basically i can't get away from the trial version. if someone can help me out i would really appreciate it. i can get the serial number and place it in it works but it makes me connect to the internet to complete. 
+Chester_2111@hotmail.com for any information to correct this. "

@@ -1,0 +1,307 @@
+Copied from SoftwareOK Homepage:
+
+
+Q-Dir makes your files and folder easy to manage.
+Fast and easy access to your hard disks, network folders, USB-Stiks, floppy disks and other storage devices.
+
+Q-Dir i a good file manager with an amazing Quadro-View technique.
+You don't have to renounce the usual, Drag and Drop, all Views, and other functions of your system.
+No! Q-Dir gives you other nice functions, that make you happy.
+One can save many hand moves and also time!
+
+Q-Dir does not have to be installed and can be executed easily from the desktop, and can be carried on a small usb-stick or other memory device.
+
+Start the program. The first time that you use it the program it will present you with a license screen. The program is free and the license info is only displayed the first time (per PC).
+
+Operating systems: Windows 7, Windows Server 2008, Windows Vista, Windows 2003, Windows XP, Windows 2000, Windows Me, Windows NT, Windows 98
+
+WARNING : Once Q-Dir, always Q-Dir !!!
+
+Some Features!
+
+Favorites:
+Quick access to most often used folders.
+
+Drag&Drop:
+Move files by dragging in Q-views, and other programs such as MS Explorer.
+
+Clipboard:
+Copy/ Paste between the Q-Dir directory views, and other programs such as MS Explorer.
+
+Folder-Type :
+ZIP-, FTP-,cabinet-,network-, system - folders, shortcuts ...
+Views:
+Large icons, tiles, list, detail, thumbnail (Vista: extra large symbols) .
+
+Export:
+to XLS, CSV, TXT, HTML.
+
+Popup Menus:
+Desktop, My Computer.
+
+Screen magnifier:
+anything on the screen can be enlarged.
+
+Color Filter:
+Different colors for different item types (e.g. *.log;*.txt).
+
+Highlight-Filter:
+Effective way for fast items highlighting.
+
+File-Filter:
+Allows for quick and easy filtering of the items.
+
+Columns:
+All columns support, and save function .
+
+Quick-Link's:
+For fast folder access.
+
+Folder-Select:
+Fast & flexible folder selection address-bar/ desktop menu/ my-computer menu/...
+
+Multi-INI:
+Several INI files for Q-Dir.
+
+Quadro-View technique:
+Quad-Pumped x 16 Tabs, (-: quad core + :-).
+
+Tree-View:
+Single and quadruple.
+
+Preview:
+Allows a quick preview.
+
+Portable:
+from 2.77 is Q-Dir portable.
+
+Printing:
+from 3.77 List, Details ... .
+
+Folder size Column:
+from 3.83 file and folder size Column.
+
+Settings transfer:
+from 3.83 Improved transfer for folder and view settings.
+
+Faster edit:
+from 3.86 Faster edit or rename of the files.
+
+File association:
+from 3.91 Internal file association rules.
+and ........ ;) 
+
+
+Changelog:
+
+
+4.21 // 18 May 2010
+
+General update and the update language files
+Optimization and various fixes.
+
+4.19 // 28 Apr 2010
+
+1. Bug: Correct reading of the tab drag-over time from the ini file.
+2. Optional Managing favorites in the active view Menu/Favorites.
+3. Bug: When printing the bottom line it was sometimes not listed.
+4. Keyboard shortcut CTRL-K for a fast Tab copy!
+5. New Language in Q-Dir, Portuguese-Brasil.
+Thanks to: por Pix
+
+4.18 // 19 Apr 2010
+
+New dialog window when saving the favorites!
+Bug: crash if no default printer is defined (by querying the default printer)
+Optional Confirmation before exiting the program on Menu/Extras/Q-Dir.
+Option for disabling the automatic select of the folder in tree view from the list view, over Menu/Tree-View.
+Various corrections
+
+4.16 // 09 Apr 2010
+
+Bug-Fix:
+At placeholder %curdir1% ... %curdir4%.
+Context menu when multiple monitors are in use.
+In the Context menu with R-mouse drop!
+Retains the current view when you open the new table
+More in the next version.
+
+4.15 // 31 Mar 2010
+
+To toggle Tabs with [Ctrl + Tab] or [Ctrl + Shift + Tab]
+Privilegs are disabled in Q-Dir, activation is possible over the q-dir.ini by entry enable_priv=1
+The occasion was e.g. access to "Samba" (Linux) on windows and others,
+a better solution in the next versions.
+General update and the language files.
+More in the next version.
+
+4.14 // 24 Mar 2010
+
+Open new tab over the Vista's address bar with middle mouse click.
+Small fine sanding in the tab's and optimization.
+Various corrections and updating.
+More in the next version.
+
+Thanks to "skimpax" for French update!
+
+4.13 // 18 Mar 2010
+
+Drag and drop support for moving and copying of tabs within the
+single Explorer view and among each other.
+Various corrections and updating.
+
+Information on the tab functions!
+Open in new tab:
+Opens only the current folder in a new tab
+Selection in new tab:
+Opens the selected folder in a new tab.
+Duplicate Tab:
+Opens the current folder in new Tab plus selection, history and view settings
+Close Tab:
+Closes the active tab.
+New Tab:
+Opens the My Computer folder in a new tab
+Close all other:
+Closes all tabs except the active
+
+Using a mouse right click on the "New folder" icon
+to open a new tab with the current folder.
+
+Also use the mouse right-click on the "My Computer" Icon
+to open a new Tab with the "My Computer" folder.
+
+
+4.11 // 09 Mar 2010
+
+More options for the list view for Vista/Windows-7:
+1.) Soft-Refresh, not re-enumerate the view (drop, copy, refreshed).
+2.) No column header in all views.
+
+Optimization and various fixes.
+More in the next version.
+
+4.09 // 02 Mar 2010
+
+Corrections, various improvements and updating the language files.
+
+4.08 // 26th Feb 2010
+
+1.) Option for disabling Up/Down Label-Edit
+2.) Highlighting of the column in Windows 7 can be disabled.
+3.) Bug-Fix with mouse wheel focus when multiple monitors in use.
+4.) Ignoring the uppercase or lowercase for internal file association rules.
+5.) Warning if the progam path was not found (internal file association rules)
+and start the default system rules.
+6.) At the option "internal size information", autoupdate of the file size.
+7.) Language files update, and other improvements.
+
+4.05 // 19th Feb 2010
+
+The problem with Display of the folder size under NTFS fixed.
+Copy, Cut & Paste & can be started in a separate background process.
+Drop start in a new process or drop into the recycle bin.
+Many other improvements and updating the language files.
+More in the next version.
+
+4.04 // 10th Feb 2010
+
+Save column settings and view settings for FTP folders.
+Blocking of the listing in the shell folder menu for Zip, Cab, ... Folders.
+Optimization and balancing of diverse functions, particularly for Windows-7 but also for the good XP and Vista.
+Language files updated.
+
+4.03 // 4th Feb 2010
+
+Windows paint bug.
+New Language in Q-Dir Danish.
+Thanks to P. Allan
+
+4.02 // 3th Feb 2010
+
+Correction in the window position from stored Favorites.
+Fix the use of only one address bar.
+Improvements in access to the network (Win-7 and Vista).
+And again improved of the Q-Dir startup time , and various fine-tuning.
+Language files updated.
+
+4.01 // 1th Feb 2010
+
+Fix Win-7 folder structure and folder menu (network).
+Windows 7 Bug fix: error opening file.
+Language files updated.
+CTRL+W for Last tab close
+
+4.00 // 30th Jan 2010
+
+1.) Adjustments and improvements for a better functionality under Windows-7/Vista.
+2.) Optimization at the menu, favorites, loupe, preview ... .
+3.) Folder tabs fox each Q-View and save options.
+4.) Bugfix in relative paths for program starts.
+5.) Various speed optimizations, such as for example when you start Q-Dir.
+6.) Ctrl+T is now for new tabs, and Ctrl+E to toggle tree view.
+
+3.95 // 12th Sep 2009
+
+Small Update: Language files
+New Language in Q-Dir Japanese
+Thanks to "Dim" from Japan // Homepage: localize-to-ja.seesaa.net
+
+The update to 4.xx expected on ~ 22th Sep 2009.
+The revision of the source took more time than I thought.
+I also have underestimated Q-Dir ;).
+
+
+3.94 // 1th Sep 2009
+Small Update: Language files
+Currently I am working on the cleanup of the code for a better Q-Dir 4.XX
+In 10-14 days ;)
+3.93 // 3th Aug 2009
+
+
+Optional colored highlighting of the active status bar.
+Bug fix e.g. background-paint, internal file association, ...
+Language files update.
+..., more in next version
+
+3.92 // 29th Jul 2009
+
+Small update
+Some fixes and optimizations
+Update the language files.
+New language in Q-Dir ÄŒeskÃ½
+Thanks to Dalibor MaÅ¡ek for ÄŒeskÃ½ :) Â»Â»Â» pcbezproblemu.cz
+
+3.91 // 23th Jul 2009
+
+/SILENT or /S parameter for silent install e.g. for administrators.
+Q-Dir internal file association rules. Good for portable use.
+Beauty corrections for Vista and W7 and small fixes.
+More placeholders for the folder paths %desktop% %appdat% and %personal%.
+Optional remember the main window placement in favorites.
+
+
+
+3.87 // 17th Jul 2009
+Update the language files.
+Small fixes and optimizations.
+More in the next version!
+
+3.86 // 9th Jul 2009
+
+# For favorites, the saved view (details, icons ,...) correctly. Likewise, you can now save the column settings .
+# Use the arrow keys (Up / Down) for faster edit / rename of the files.
+
+Bugs:
+Grouping in Vista and Windows 7 eliminated.
+Font size problem in the directory structure removed.
+Columns setting transfer problem solved.
+
+
+ED2K Link:
+ed2k://|file|Q-Dir_Portable.zip|375497|5BA16F6E81A5B74E5D3C3384D68D029E|/
+
+
+Comments from the uploader (olofolleola4):
+Here is some links if you cannot download it through this torrent:
+upload box  .  com  /  files  /  Z2uOBk3Bdm
+rapid share  .  com  /  files  /  388763546  /  Q-Dir_Portable.zip

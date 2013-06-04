@@ -1,0 +1,64 @@
+2012 (2009) BDRip 1080p Eng Ger Tur x264 multisub
+
+         Action | Adventure | Drama | Sci-Fi | Thriller
+
+               http://www.imdb.com/title/tt1190080/
+
+Format                           : Matroska
+File size                         : 7.32 GiB
+Duration                         : 2h 37mn
+Overall bit rate                : 6 641 Kbps
+
+Video
+Format                            : AVC
+Format profile                  : High@L5.0
+Bit rate                            : 6 000 Kbps
+Display aspect ratio          : 1 920 x 1 080 (16:9)
+Frame rate                       : 23.976 fps
+Stream size                      : 6.47 GiB (88%)
+Writing library                  : x264 core 88
+Encoding settings                : cabac=1 / ref=5 / deblock=1:0:0 / subme=9
+
+Audio #1 English (default): AC-3, Constant, 640 KB/s, 6 ch, 722 MB (10%)
+
+External Audio tracks(unselect them from download if you don't want them)
+Audio #2 Director's Commentary: AC3, 192 kB/s, 217 MB
+Audio #3 German : AC-3, Constant, 640 KB/s, 6 ch, 722 MB 
+Audio #3 Turkish : AC-3, Constant, 448 KB/s, 6 ch, 506 MB 
+
+Subtitles: English + Non-English Parts (Tibet), Albanian, Arabic, Chinese
+Croatian, Czech, Danish, Dutch, Finnish, French, German, Greek, Hebrew
+Hungarian, Indonesian, Italian, Japanese, Persian (Farsi), Polish, Port + BR
+Romanian, Russian, Serbian, Slovak, Spanish, Swedish, Turkish
+
+Extra: Making of 2012, 720p, German + Turkish subs, 26 minutes, 371 MB
+
+Sample: 22 MB
+ 
+http://j.imagehost.org/0851/2012_mkv.jpg
+ 
+http://h.imagehost.org/0506/2012_mkv.jpg
+ 
+http://j.imagehost.org/0301/2012_mkv.jpg
+ 
+http://j.imagehost.org/0405/2012.jpg
+
+#####################################################################
+Use MKVextractGUI (   http://www.videohelp.com/tools/MKVExtractGUI  ) to mux in the AC3 dub file.
+##################################################################
+All subs show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+If the subs are muxed in mkv download & use MKVextractGUI to extract(demux) thesubtitles from mkv, and mkvmerge GUI to mux back the edited/repaired sub in the mkv.
+Download "Notepad++" (free):  http://sourceforge.net/projects/notepad-plus/ 
+ The sub you demuxed from mkv: Open and save as...ANSI !(Important!)
+Right click on the sub/Open with nppIExplorerShell.exe (Notepad++ exe)/click Encoding(upper part menu)/Character sets and chose the language ISO.
+Click again on Encoding/then click on Convert to UTF-8 or Unicode Big
+Indian/save as...srt. You're done with the encoding, now you can mux it back in the mkv with mkvmergeGUI, select the language & mux.
+
+##################################################################
+
+Those with Win 7 64 bit seem to have issues with playing back seccondary or external audio tracks & subs etc.
+Much better then k-lite pack(too complicated) is CCCP (   http://www.cccp-project.net/   ) using the same player MPC).
+When installing leave all as it is (default). When finished open the player, click View/Options/PlaybackOutput/check Evr Costum Pres & chose System Default under DirectShow Audio.
+Under Internal Filters - Source Filters should be checked DirectShow Media, Matroska & MP4 and Transform Filters should have H264/AVC(DXVA) checked.
+Now I can even play Blue-ray m2ts being able to switch between Audio tracks by clicking on the Haali Media Spliter on the task bar bottom right. 

@@ -1,0 +1,145 @@
+Windows Seven GT Pro X86
+
+
+Historique de Windows GT :
+
+L'Ã©quipe NewsTeam, pour ceux qui connaisse, Ã  sortie en Mai 2009 Windows UN v1 Version CD et Version DVD .
+Au mois de Septembre 2009, c'est une Ã©quipe remaniÃ©e, qui vois le jour, et qui se nomme dorÃ©navant la GrizzlyTeam (GT)
+C'est une Ã©quipe de 5 potes, qui travaillent main dans la main chacun apportant ses compÃ©tences personnelles afin de vous mettre Ã  disposition un Windows 7 remaniÃ©.Le but recherchÃ© avant tout, Ã©tant la lÃ©gÃ¨retÃ©, et l'optimisation.
+Nous espÃ©rons ainsi pouvoir rÃ©pondre Ã  vos attentes, avec cette nouvelle version.
+
+
+L'ISO :
+
+Noyau basÃ© sur un Seven Pro MSDN x86
+Lâ€™installation se fait sans clÃ© dâ€™activation.
+IntÃ©gration des MAJ OFFICIELS jusqu'au jour de la sortie de cet OS.
+L'ISO n'a subis aucune suppression, juste des dÃ©sactivation de packages afin de garder toutes les fonctionnalitÃ©s systÃ¨me opÃ©rationnel en cas de besoin.
+Libre accÃ¨s a Microsoft Windows Update.
+
+
+
+Configuration Minimale recommandÃ©e:
+
+1 GHz ou plus compatible 32-bit
+MÃ©moire vive : 1GB RAM
+Disque dur :16GB d'espace libre
+
+
+La gravure :
+
+Avant toute chose, vous devez graver votre ISO sans la dÃ©compresser sinon votre DVD ne sera pas bootable. Vous devez graver en vitesse trÃ¨s lente
+(x2) est vivement conseillÃ©.
+Logiciels recommandÃ©s pour la gravure : (ImgBurn / PowerIso / UltraIso).
+
+
+
+Information sur lâ€™OS :
+
+
+=>IntÃ©gration :
+Firefox 3.6
+Ccleaner 2.29.1111
+Adobe Shockwave Player 11.5
+7ZIP 4.65
+Paint-net 3.5.4
+Drivers carte reseaux3 com920b
+Notepad++ 5.6.8.fr
+Abode flash player 10.0.42.34
+Assistant GT
+Tweaker GT
+IconLauncher GT
+Shell Menu Clic droit GT
+Tool's GT
+Logon Changer
+OrbChanger
+
+
+=>Optimisations de la Base de Registre:
+Ajout de la commande "Gestionnaire de PÃ©riphÃ©riques" au menu contextuel du poste de travail
+Ajoute Windows switcher Clic droit
+Ajout de la commande "Services" au menu contextuel du poste de travail
+Ajout de la commande "Editeur de registre" au menu contextuel du poste de travail
+Ajout de la commande "Changer le logon" au menu contextuel
+Ajout de la commande "Ajout/Suppression de Programmes" au menu contextuel du poste de travail
+Modification de la commande "GÃ©rer" au menu contextuel du poste de travail
+Ajout de la commande "MS Config" au menu contextuel du poste de travail
+Supprime "porte-documents" du menu "nouveau" du menu contextuel
+Ajoute copier et dÃ©placer dans le clic droit
+Ajoute "prendre Control Total" Merci a Matx
+
+
+=>services DÃ©sactivÃ©s
+
+Windows search
+ContrÃ´le parental.
+Le pare-feu
+Remote access
+Services biomÃ©trie
+Surveillance DÃ©fragmentation
+Tablet Pc
+Universal plug&play
+Windows defender
+Les services MÃ©dia Center
+Windows Update
+
+
+=>Ã‰lÃ©ments supprimÃ©s:
+Echantillons d'images
+Echantillons de musiques
+
+
+=>Ã‰lÃ©ments dÃ©sactivÃ©s:
+UAC (unitÃ© de control des actions)
+
+
+=>Tweaks divers
+
+Fait apparaÃ®tre les sous-menus plus rapidement lorsque vous sÃ©lectionnez le menu-parent.
+Limite de tÃ©lÃ©chargement simultanÃ©s avec Internet Explorer 8 augmentÃ©s Ã  20 (2 par dÃ©faut)
+AccÃ©lÃ¨re le temps d'accÃ¨s pour les fichiers *.avi
+DÃ©sactive les mises Ã  jour automatiques de Windows MÃ©dia Player..
+Autorise la recherche de fichiers systÃ¨me dans les recherches..
+DÃ©sactive les alertes pour les dossier systÃ¨me cachÃ© quand vous les manipulez..
+Augmente la rapiditÃ© du pointeur souris.
+Defrag au boot
+AccÃ©lÃ©rer les rÃ©ponses du Shell.
+AccÃ©lÃ¨re "explorer.exe" (supprime toutes les clÃ©s appelant le planificateur des taches Windows)
+Navigation plus rapide avec Internet Explorer 8
+DÃ©sactivation du "ContrÃ´le de Compte d'Utilisateur" (UAC)
+DÃ©sactivation du "IE8 Welcome Tour"
+DÃ©sactive les notification du "ContrÃ´le de Compte d'Utilisateur" (UAC).
+DÃ©sactive l'enregistrement de Windows avec Microsoft
+Ombres plus prononcÃ©es sur l'Ã©cran de Bienvenue
+Donne les rÃ©elles informations sur ce que fait Windows Ã  l'Ã©cran de Bienvenue
+Windows fermera plus rapidement les programmes lorsque la fermeture de ceux-ci prendra plus de temps que prÃ©vu
+DÃ©sactive le redÃ©marrage automatique lors d'un Ã©cran bleu (BSOD)
+Toujours dÃ©charger les fichiers DLL
+Optimiser les performances NTFS
+AmÃ©lioration du cache DNS.
+Le fichier d'Ã©change n'est pas effacÃ© Ã  l'arrÃªt de l'ordinateur :
+arrÃªt plus rapide.
+Fermeture plus rapide des programmes lors de l'arrÃªt de l'ordinateur : arrÃªt plus rapide.
+Forcer le noyau de Windows 7 dans la RAM plutÃ´t que dans le fichier d'Ã©change.
+Activer pavÃ© numÃ©rique au dÃ©marrage
+Pas de documents rÃ©cents
+DÃ©sactive les notification d'icÃ´nes sÃ©curitÃ© dans le systray.
+Affiche "ExÃ©cutez" au Menu DÃ©marrer.
+
+
+=>Installation
+
+Il est conseillÃ© de choisir Â« paramÃ¨tre avancÃ© Â» lors de lâ€™installation et de formater votre partition.
+Nous vous conseillons dâ€™installer Se7en GT sur C:/
+Prenez bien soin avant votre installation dâ€™avoir sauvegarder toutes vos fichiers. Le formatage effaÃ§ant irrÃ©mÃ©diablement tous vos Ã©ventuels documents.
+
+=>Change log
+
+Fichiers WIM optimisÃ©s
+Pas de partition cachÃ©e de 100MB lors du formatage
+Supporte de nouveaux thÃ¨mes
+Microsoft Silverlight 3.0.50106.0
+Microsoft DirectX Redistributable 9.27.1734 AoÃ»t 2009
+SPTDinst x86 v1.62.0.0
+HashCheck v2.1.9.0 pour l'onglet "hashage" dans les propriÃ©tÃ©s de fichiers
+Changement de l'icÃ´ne par dÃ©faut de WMP12

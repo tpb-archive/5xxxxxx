@@ -1,0 +1,107 @@
+User Type,Username,Date,Text
+,ghaonhao,2010-05-16T13:21Z,Host seed please
+,NitrogenUA,2010-05-16T17:55Z,"Experiencing some connection problems atm. Super-seeding alone. Sorry for that, one of my first releases. Adding couple of fast hosts tonight. Hopefully it'll help. Seed until 1.000 ratio if possible. Thanks for contributing to community!"
+,NitrogenUA,2010-05-16T20:24Z,Couple nice FAQs here: http://www.gamefaqs.com/psp/961549-naruto-shippuden-ultimate-ninja-heroes-3/faqs
+,Ph0enlx,2010-05-16T21:09Z,seed please 10 kb/s :P
+,NitrogenUA,2010-05-17T01:19Z,Switched to my regular ADSL now. Full speed ahead!
+,strumtop,2010-05-17T05:02Z,ITS WORKING!!! MANY THANKS !!! i am using 5.03 hen C just activate(enable) the game plugins at advance options and the KHBBS_patch.prx  plugin (at the plugin menu) at the recovery menu.... enjoy!!!!
+,Vexxian,2010-05-17T08:24Z,Works great on 5.00 M33-6.
+,Rofellos,2010-05-19T05:51Z,"@Vexxian
+how did you make it work? i get an error message when i start the game.."
+,NitrogenUA,2010-05-19T22:27Z,"Rofellos, error 8002013C? Did you enabled KHBBS plugin properly? Make sure your Memory Stick root directory contains 'seplugins' folder. Make sure 'seplugins' folder contains game.txt. Make sure game.txt contains at least this string:
+
+ms0:/KHBBS/KHBBS_patch.prx 1
+
+Also KHBBS folder included in this release must be present at the root of your Memory Stick.
+
+And by the way, what firmware do you use?"
+,Rofellos,2010-05-20T00:46Z,"@NitrogenUA
+yes, error 8002013C.. my cfw is 4.01 m33. is there any way i can make this game work without updating? this is just the third game that didn't work for me. as long as it's decrypted or fix it will work for me except for mimana iyar chronicles, pop: the forgotten sands and this one, naruto3.
+
+thanks for your help."
+,roy96v2,2010-05-20T04:17Z,works perfectly on 5.03 MHU thnanks!!!
+,NitrogenUA,2010-05-20T15:44Z,"@strumtop, roy96v2 - you're welcome  guys.
+@Vexxian - nice to hear that.
+
+@Rofellos - reading throughout the internets i came to conclusion - no one releases new games for old firmwares cuz they're obsolete. So i can't help but to assume an update. I don't know why people afraid of updating firmware. There is nothing scary or difficult about it. Everything automated nowadays - you have only to push the button) But it's up to you ofcourse. Good luck."
+,Rofellos,2010-05-21T03:12Z,"@NitrogenUA
+i'm not afraid or anything, i'm just used to that cfw because everything was working for me except for a few games. anyway, i have the update already. i'll be updating later and post a comment after but i'm sure it will work. thanks for the upload in advance. btw, you're better than espalpsp because you reply to comments. lol
+
+@scare_crow
+lol"
+,spitod,2010-05-21T03:48Z,"@Rofellos
+
+this can work in 4.01 m33.
+u just change the string
+
+ms0:/KHBBS/KHBBS_patch.prx 1
+
+to this
+
+ms0:/KHBBS/KHBBS_patch.prx
+
+that's right, just remove the '1' and the space behind it."
+,NitrogenUA,2010-05-21T22:58Z,"@Rofellos
+thanks, lol. Actualy espalpsp were my ideal when i started releasing. So i think it's natural to wish to overcome your ideal) Yet still they're doing great job and ofcourse they are one of my most reliable sources of games. Good luck updating.
+
+@spitod
+Interesting. Gotta get some proof."
+,Rofellos,2010-05-22T04:53Z,"@spitod
+it worked! thanks!
+
+@NitrogenUA
+it works on 4.01 m33!"
+,Rofellos,2010-05-22T05:36Z,"@stipod, NitrogenUA
+any ideas how can i make mimana iyar chronicles work? it gives me a black screen when i start a new game.."
+,salvadista,2010-05-22T17:20Z,"Hei guys i have some problems. when i run game says error 8002013c, but i put in root that KHBBS folder and game.txt. Can anyone help me ?"
+,thezeros,2010-05-22T23:46Z,Can i emulate this game on pc?
+,Rofellos,2010-05-23T00:59Z,"@salvadista
+what cfw are you using?"
+,salvadista,2010-05-23T11:18Z,"I use 5.00 M33-6. Can anyone tell me what i need to do in easy way couse i dont know those files and that shit. And i never used and plugins.
+If i understand it good all i need it to put seplugins file on memory card and KHBBS file but looks like i dont have plugin and i never use it"
+,NitrogenUA,2010-05-23T22:45Z,"@Rofellos
+As you may expected Mimana Iyar Chronicles (DLed from ESPALPSP's release) works fine on my 5.50 GEN, so i have no clue how to make it work on 4.01 M33.
+
+@thezeros
+Tested that, but game won't run, probably because of newest firmware requirement. Yet still emulator is unable to run games at full speed. So you can expect 10 FPS at maximum even if you will be able to launch the game.
+
+@salvadista
+Ok, let's check some things. Power-off your console (by holding power switch upwards for a couple of seconds). Then turn it on, holding down right trigger (button R). If you've done everything right - Recovery Menu should appear. Go to 'Advanced' section, then to 'Advanced configuration'. Make sure GAME plugins (currently: Enabled) otherwise Enable them. Here you can also enable any other plugins of your choice. When game plugins are enabled return to the main menu by pressing 'Back' twice. Go over the 'Plugins' section and make sure KHBBS.prx is Enabled at [GAME] section. If it was already enabled try disabling and then enabling it again - may help. Then exit the Recovery Manu and wait until console boots."
+,thezeros,2010-05-23T23:33Z,@NitrogenUA. And that the emulator is unable to run games at full speed with ~ 10 FPS at maximum even if I will be able to launch the game is because of pc's performance or just because the emulators are not good enough.(by this i mean i have a v.good pc[at least in my opinion :P ])anyways i'll try it with jpcsp and will tell you here if it runs...
+,thezeros,2010-05-24T01:02Z,well it doesn't work in Emulator. I sold my psp long time ago but was interested in this game so i tryed it if it works but nope :(
+,morfeas1975,2010-05-24T01:39Z,OK MAN
+,salvadista,2010-05-24T17:37Z,"Yes i go on recovry and on advanced and i have enable (plain module UMD/ISO,excute BOOT.BIN in UMD/ISO, XMB plugin enabled, GAME enabled and POPS enabled. On plugins it says KHBBS_patch.prx [GAME] enabled. Maybe i dont have right plugin or something. or i didnt put something in right files on MS. I created on MS folder seplugins and inside that game.txt and that file KHBBS.
+1 more thing om what is root i only have 1 file MP ROOT"
+,NitrogenUA,2010-05-25T16:38Z,"Root is a root directory of your Memory Stick. At my pc Memory Stick locates at letter G. So the root directory for drive G will be G:\. So you have to put KHBBS folder to your Memory Stick so it will be like G:\KHBBS and the plugin files inside. Considering what you said you are doing everything right. I will look into it. Another thing to check - go into Recovery Menu, 'Configuration' section and check your UMD Mode. Try setting it to 'M33 driver' or 'Sony NP9660' - i'm currently using the first one. Good luck, mate."
+,salvadista,2010-05-25T18:31Z,"lol im confused. I go from begining. When i put PSP on usb on MS i have those files= ISO, MUSIC, VIDEO, PSP, MP_ROOT. those are files i have what i need to do now?"
+,nobkirdej,2010-05-27T02:35Z,Help! Game crashes after new game option..
+,nobkirdej,2010-05-27T02:37Z,i need help! the game crashes after the New Game Option..
+,NitrogenUA,2010-05-29T19:10Z,"@salvadista
+Just go by the manual provided:
+1) copy ""seplugins"" folder from this release to the root directory of your Memory Stick.
+2) Copy ""KHBBS"" folder to the root directory of your Memory Stick.
+3) Put NSUNH3.iso into ISO directory on your Memory Stick.
+If you've done everything right - it should work.
+
+@nobkirdej, what firmware do you use?"
+,nasos95,2010-08-21T17:19Z,"can this work with PSP-3000, working on Prometheus 5.03??? is there a way? because, on my PSP, it says ""couldn't start the game"" (or something like that) :)
+Any help would be appreciated...."
+,NitrogenUA,2010-11-01T13:54Z,Couple videos showing Naruto Shippuuden: Ultimate Ninja Heroes 3 gameplay on JPCSP emulator. Awesome! http://t.co/6OFOMhw http://t.co/8qvW2I0
+,chaox38,2010-12-08T09:38Z,"when i start the game the PSP logo shows, and then my psp will turn off :( please help me"
+,kazuro2011,2010-12-17T15:42Z,Tx! It works on my psp with psp 1000 and CFW 5.50 GEN D3
+,girjeu21,2010-12-19T13:44Z,"Does this game work on PSP Slim 5.50 prome-2
+I've been having problem with this english version for 2 months now. I already finished the japanese version, but still not satisfied, what i want is the english version."
+,theTRADEMARKguy,2010-12-24T13:03Z,"Oh my God!! it works.
+thank you very much NitrogenUA, ur d best."
+,swizzle20,2011-01-08T19:12Z,NitrogenUA could u please seed..... thx
+,swizzle20,2011-01-09T00:28Z,when it was done i opend the file i saw seplugins the KHBBS file and i saw NSUNH3 image file not iso help
+,swizzle20,2011-01-09T00:48Z,well uh never mind. THANKX TO DE WORLD MAN IT WORK PERFECT THANKX. RIGHT NOW ME SAY FUCK HOME WORK N MORE NSUNH3
+,bonzvalles,2011-02-26T00:33Z,Man it worked!! but it's very SLOW!! WHAT SHOULD I DO?
+,bonzvalles,2011-02-26T00:57Z,VERY SLOW!! WHAT TO DO>??
+,DarthNik7,2011-03-11T15:11Z,Can someone tell me how to get this working on 6.20 TN-D??
+,KillerLOL,2011-07-15T20:24Z,I have psp 5.50 prome-3 and this game not work !!! i do all instructions !!! please help me !!!!!!!!!!!
+,thabetx12,2011-07-26T11:02Z,can it works in 6.35 A-4?????????????
+,omgisuck,2011-12-14T08:50Z,"Help! i get a black screen when i start the game
+using 6.35 PRO-B . . . . ."
+,omgisuck,2011-12-14T09:03Z,"oh sorry it works now
+i upgraded to 6.35 PRO-B9 :P"

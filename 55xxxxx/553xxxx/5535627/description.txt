@@ -1,0 +1,26 @@
+Title: Lead and Gold
+Developer: Fatshark
+Publisher: Paradox Interactive
+Genre: Third Person Shooter (multiplayer)
+Released: 2010
+Description: Lead and Gold: Gangs of the Wild West is a third-person shooter that delivers an intense team-based multiplayer experience. Relive the violent era of the Wild West with adrenaline-fueled action and fast-paced gunfights. Engage in gritty battles in beautifully rendered classic Western settings. Players will test their mettle in genre-specific game modes and levels tailor-made for satisfying team play.
+
+Install: This is the short version of what you have to do, if you want a more thorough explanation, read the included PDF document.
+
+1) Mount or burn game image;
+2) Install the game;
+3) If you don't have Steam, install it, create a new account and login; if you already have Steam, login using your account;
+4) Download the Zero Gear Demo;
+5) Go to your Steam folder, steamapps, common, zero gear and open ZeroGear.bat with a text editor;
+6) Modify the bat file like so:
+
+cd /d [Lead and Gold folder]
+start lag_win32_public_dev.exe
+exit
+
+[Lead and Gold folder] is where you've installed the game (e.g., "C:Program FilesLead and Gold"). Save and close the file.
+7) Start the Zero Gear Demo and Lead and Gold will launch;
+8) Create a game and invite your friends or have your friends create a game and join them;
+9) Support the producer.
+
+Right now there is no way to play the game without Steam.

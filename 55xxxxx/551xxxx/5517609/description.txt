@@ -1,0 +1,64 @@
+This is the real deal, unlike the malware infested webshit floating around the interwebs. :)
+
+Extract to a folder, rename to Xpadder.exe (if you wish, not necessary) and execute.
+
+N. ;)
+
+
+What is Xpadder?
+****************
+Xpadder simulates the keyboard and mouse using your gamepad
+
+
+What does Xpadder let you do?
+*****************************
+- Play PC games with poor or no gamepad support
+- Add gamepad support to emulated, internet and DOS games
+- Play multiplayer games with each player using a gamepad
+- Control video/music players using their shortcut keys
+- Use a gamepad with a browser or any Windows program
+
+
+Technical details?
+******************
+- Supports Windows XP, Vista and the new 7
+- Works on both 32 and 64 bit versions of Windows
+- Full keyboard and mouse emulation
+- Supports up to 16 controllers at the same time (multiplayer)
+- Rumble (force feedback) and advanced fine-tuning options
+- Create and share any layout for any controller
+- Multiple profile management using sharable files
+- Designed for gamepads, joysticks, arcade sticks
+- Also steering wheels, dance mats, drum kits, guitars...
+For more information read the full list of features
+
+
+
+How TO USE
+**********
+1. Extract Xpadder.exe
+2. Download or make a controller profile  (None Included)
+3. Download or make a game/program profile  (None Included)
+4. Enjoy using your controller on games and programs that you couldn't
+
+
+
+Changes from v5.6 to latest version v5.7
+****************************************
+Replaced external language files with built-in versions - Zip distribution is no longer needed
+Improved compiler directives to produce a smaller and faster executable
+Improved advanced assignment time value entry
+Improved CoreLoop SubWindow update determinations
+Improved window dimensions (new minimum resolution is 600x400)
+Added DistanceZones so sticks and triggers can have different assignments based on distance
+Added multiple controller watches (one watch autoopens different profiles onto each controller)
+Added global AutoProfile (de)activation
+Added AutoProfile program selection as well as active window
+Fixed a profile update memory leak
+Fixed some slot scheduling bugs
+Fixed an update bug for Dpad, Stick and Trigger images and improved visuals
+Fixed a bug where assignment was not shown on button if it was not in the first holdzone
+Fixed a bug in Stick settings windows where stick 2 auto-assign caused an error
+Fixed some theme clashing bugs
+Fixed a bug where selecting item off the bottom of a list caused the list to jump to the top
+Fixed other minor bugs

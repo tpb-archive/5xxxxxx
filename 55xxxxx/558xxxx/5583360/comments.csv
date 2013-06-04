@@ -1,0 +1,133 @@
+User Type,Username,Date,Text
+,Blabbus25,2010-05-23T17:03Z,"get stuck at 69%, please seed further. Will continue seed for a week!"
+,ajw1675,2010-05-24T00:05Z,Aweomse upload!  Just wondering if it will run on my mac.  I have a 2.53 GHz Core 2 duo processor and an Nvidia gefore 9400m.  I know ur requirements say nvidia geforce 8600 gs and 2.4 Ghz pentium 4 but what i have usually works.  please let me know @thenoobish
+,kaokine,2010-05-24T09:17Z,@thenoobish or anyone that finished downloading this. Is part of the game in German. After downloading this everything in the game is in german i've tried changing the language in willowgame.ini and nothing happens. If someone has a fix for this please help but other then that this is an excellent upload and i can now go online :)
+,Ricknederland,2010-05-24T13:46Z,"I have an ATI Radeon HD 2400 XT, can I run the game?"
+,kaokine,2010-05-25T03:06Z,can you please help me the language is in german and changing the language files does nothing ? what should i do this game is unplayable when you can't do your quests
+,Ketanou,2010-05-26T20:11Z,"Nice post ! The game runs great, except that the inventory, the description and effects of the items are in Russian (and not german, it's not the same alphabet guy). If someone find how to fix this..."
+,kaokine,2010-05-27T21:39Z,k thx katanou but again everyone does not know russia but has anyone found a fix to the language ?
+,Ketanou,2010-05-27T23:54Z,Actually I'm not really sure it's russian. It's perhaps just a problem with the alpahbet used (cyrillic one's and not latin's one). But it does not change anything (just the way to fix it) : the game is unpalayable like this...
+,leeofwestover,2010-05-29T16:16Z,"I have a suggestion, just don't bother. If you have a mac, it can run windows and that is the only way to run this game. At first I was getting like 30-40 fps with Dynamic Shadows off, but now that I have reached the headstone mines I am lucky to get a steady 20fps. And this is with a Radeon HD 4850. I downloaded the windows version of the game with all of the DLC( http://thepiratebay.org/torrent/5398067/Borderlands_1.3.0___Dr._Ned_DLC___Mad_Moxxi_s_DLC___Gen._Knox) and a working online portion of the game. It took about two hours to download and I had to play through the first ten hours of the game again, but it is so worth it. At 1920x1200 with shadows off I can get a solid 60fps and with shadows it varies but never drops below 35fps. Not only does the game play better out of the box, there are also about 50 variables you can play with in the DefaultEngine config file in the windows version of the game that are not accessible in the mac cider port. I was able to spend some time fooling around and have managed to strike the perfect balance between eye candy and performance. "
+,Ketanou,2010-05-29T18:12Z,"Yes but in fact, if we want to dl this torrent perhaps it is because we don't want to play with window (perhaps we bought a mac for the same reason)."
+,kaokine,2010-05-30T03:37Z,@leefwestover i'm using a mbp with a weaker graphic processor than you nvidia geforce 9600 M GT with everything on max flare out is enabled and so is bloom I personally think that cider has problems with ATI cards as seen in other cider ports  such as CODMW2 which also runs crystal clear. Main point is that cider games are not for everyone it's for me because I personally do not want to partition my HDD for Games.
+,Bobthedeadly,2010-06-07T03:32Z,"Great, thanks a ton, it works very well on low settings on my 2.26 GHz Macbook with 4 GB RAM and a Nvidia 9400M.
+
+One question: Where are the save files located? I've looked briefly, but can't find them. Anyone know?"
+,Dobik2000,2010-06-07T22:17Z,"@Bobthedeadly: Seriously, several people, myself included, have tried looking just about everywhere for the savegame files, and nobody has managed to find them.
+What we do know, if you want to contribute to the search, is that they're on the computer (savegames are accessible without gamespy account or internet connection) and not in the application package (someone from the torrent without the DLCs installed had messed up the installations, and therefore erased the borderlands app and restarted the installations from scratch, and his savegames were still there).
+More than that, nobody knows, but good luck anyway. And if you find them, share the knowledge..."
+,Riotnoob,2010-06-08T04:15Z,"Does the online multiplayer function work? For the other torrent (mac cider), it doesn't. Perhaps because it's not updated to 1.3. Also, it doesn't run very smoothly and there are a few texture glitches (no scope, missing textures, etc).
+
+Any problems with this one? I may download this one instead, but I heard it wasn't in English lol."
+,Major._Spork,2010-06-09T18:45Z,"for everyone having issues with the language, go find a ""New U"" station in the game, and go change your name. do whatever you want for your name, and it fixes the language for the whole game. so it seems at least. "
+,Major._Spork,2010-06-10T14:46Z,"actually, I lie... it fixes some of the text issues.. but not all"
+,Shikozu,2010-06-14T15:35Z,"Seems like the (english) Localization/INT files are corrupt.
+When playing the game in another language it works fine.
+
+Someone has to find us a new INT folder :)
+
+Other then then that the game works great.
+Thanks for the upload! "
+,bigkid719,2010-06-17T21:56Z,save files are usually kept in the documents folder
+,mfjf,2010-06-18T12:55Z,If someone could find a fix or upload there working version of the INT folder that would be greatly appreciated. :)
+,Doloranal,2010-06-20T14:26Z,and how do you cange the language? i canÂ´t see that option in the main menu :S
+,manualdownload,2010-06-21T03:27Z,Does anyone know how to make a game pad work with this version? I have an Xbox controller that works with other games and would love to use it with Borderlands.
+,Shikozu,2010-06-21T13:04Z,"Change the language by editing ""BaseEngine.ini"" [Borderlands.app/Contents/Resources/transgaming/c_drive/Program Files/Gearbox Software/Borderlands/Engine/config/]
+(open it with textedit) and modify the line Language=int to DEU, ESN, FRA, or ITA. (or back to INT again)
+
+That will change the entire language of the game.
+you can also replace the corrupt INT files with another localization (DEU worked best for me, since i can manage my way around german.)
+
+go to  [Borderlands.app/Contents/Resources/transgaming/c_drive/Program Files/Gearbox Software/Borderlands/WillowGame/Localization/] 
+
+make a backup of the INT folder, copy these files from you language of choice;
+(You'll be replacing the following corrupt files)
+
+(allmost) all the files starting with ""gd_*.INT"" 
+with the exeption of:
+
+gd_Balance_SkillActors.INT
+gd_challanges.INT
+all gd_DLC3_*.INT
+gd_Globals_VS.INT
+gd_grenades.INT
+gd_input.INT up to gd_RegistrationStationList.INT
+gd_SledgeBoss.INT
+gd_Slow.INT
+
+You should be replacing the following files to;
+
+""I1_MissionData.INT"" up to ""i2_missions.INT""
+""Z0_Echos.INT"" up to ""z2_missions.INT""
+
+if you are not sure, just open the files in text edit and check for random text garbage and symbols.
+Those files are corrupt.
+Just replace all files mentioned earlier with the files sharing the same name with your localization of choice and be sure to change the extention to .INT of all the replaced files
+
+Hope that helps!
+
+
+"
+,Shikozu,2010-06-21T13:06Z,"^
+confusing Typo.
+Not ""You should be replacing the following files to;"" but 
+""You should also be replacing the following files;""
+sorry!"
+,mfjf,2010-06-21T20:07Z,"very useful tips, I'm holding out and hoping that someone can upload fixed int ini files because of my lack of linguistic skills. 
+
+I had a friend send me his INT folder, which I switched with the old one, and now half the game is english, however a full INT folder would be ideal, thanks again though."
+,manualdownload,2010-06-29T07:31Z,"So seriously, no way to use a controller? Because it's kind of hard to use the right mouse button for the scope and the left mouse button to fire on a single button mouse."
+,Maximus1111,2010-07-02T14:24Z,"Can someone help me? 
+I donwloaded it just fine, pretty fast actually, and then I went to mount it, and it said
+
+""Warning the following disks could not be mounted""
+Borderlands.dmg          no mountable file systems
+
+
+
+
+any help? please?"
+,vince613,2010-07-14T19:27Z,"Username/Library/Preferences/Borderlands Preferences/p_drive/User/My Documents/My Games/Borderlands/SaveData nnThere are your savegames.  Be free, my people!"
+,igiveup420,2010-07-20T00:46Z,"Fixed INT Folder uploaded here
+
+http://thepiratebay.org/torrent/5703302/Fixed_INT_Files_for_Borderlands___3_DLC_(MAC)"
+,Xgtrick,2010-08-01T22:35Z,Anyway to play this online?
+,Xgtrick,2010-08-05T22:12Z,How do i install new patches?
+,Xgtrick,2010-08-05T22:28Z,"I need help installing the new patch, otherwise online play is inaccessible. Can anyone help me out here?"
+,Xgtrick,2010-08-06T19:04Z,"Please, anyone? Online play is a pretty big feature to lose, i need help on installing the updates"
+,Drickoo,2010-08-27T07:35Z,the game crashes when I go into the sledge safehouse. Someone had the same problem?
+,chelsmile,2010-09-20T00:57Z,"hey i downloaded this, game works aside from the few bugs everyone has been talking about, But I can't die, my vehicles dont take damage, and my Health will reach 1, but then I just take damage without dying... 
+I did research and saw there was a demigod mode that you could set to True located in the int files. I went to find this variable in the willowgame.int file and its not even there?
+
+Help?"
+,chelsmile,2010-09-20T01:17Z,"hey i downloaded this and the game works aside from the few bugs everyone has been talking about, But I can't die, my vehicles dont take damage, and my Health will reach 1, but then I just take damage without dying... 
+I did research and saw there was a demigod mode that you could set to True located in the int files. I went to find this variable in the willowgame.int file and its not even there?
+
+Help?"
+,Obar111,2010-10-04T03:18Z,"Chelsmile, I'm having all the same problems as you man..
+
+The online wont work if you do have demigod enabled I think... someone help us out ! "
+,Strykerr,2010-10-18T04:27Z,"OK for all of you who would like to be able to die, you need to navigate inside the app to resources>transgaming>c_drive>prog files> gearbox> borderlands >willowgame > config. Open DefaultGame.ini in textEdit. Search for bDemiGodMode=true
+
+change to false &save :)"
+,ynkhmer,2010-10-21T07:42Z,"Hello fellow mac gamers,
+
+do u guyz know anyway to install the new DLC Claptap's Robot Revolution??
+
+THX!!! (from cambodia)"
+,ynkhmer,2010-10-21T07:44Z,"oh & by the way ...... can someone please tell me the method to play LAN games with Borderlands?? I tried setting up my own network to no avail and i do not know any VPN programs for mac.
+
+Peace all"
+,Slydoug,2010-10-28T05:12Z,"Hey I have downloaded the torrent and when I try to open the Borderlands.dmg file it an error comes up that says the file is not recognized.
+Any help would be appreciated. "
+,Strykerr,2010-11-05T23:10Z,Ok its Strykerr again. I will attempt to install the newest DLC. I might not be able to attempt this until next weekend but I will try :/ I'll let ya guys kno the results.
+,harakeeri,2010-11-09T11:34Z,"Thanks for the upload..but..uhmm..everything seems to work fine..except when I reach this Prison Escape part in T-Bone Junction, the screen just turns black and the game stops...any solutions?"
+,quazx12,2011-01-15T17:23Z,"Works great, plays beautifully, just a couple things though. Already played Robolution on Xbox so don't care for that, but how would someone go about applying the 1.4 patch? Also, when I transferred my modded game save into the folder that vince613 stated, it didn't show up in the game. True, I put in my xbox save, but it HAS worked before. One final thing.....anyone else getting the game in the Cyrillic alphabet? And is there a fix?"
+,reagon111,2011-02-03T23:03Z,Assertion failed: i>=0 && (i
+,pat795,2011-03-31T12:23Z,"Hey can you guys please seed a little more? I am at 85% but im getting speeds of about 5kbps, i used to get 190kbps, does anoyone know whats happening?"
+,ce60,2011-04-13T16:42Z,"game crashes when I get to sledge's warehouse. I played it once, died halfway through it and since then whenever I try to run that particular game it goes black and freezes my machine. Anybody knows has the same problem here? Is there a fix, apart from finding a new version of the game?"
+,cheesy66,2011-05-12T05:27Z,YO BRO NEED SERIAL
+,staticfuzz,2011-05-15T02:33Z,Need a serial number
+,dave.lemke,2011-06-12T09:22Z,"I have tried changing the Language=INT with ENG so that the mission specifications or purchase store details are in english, this does not work.  Game won't even start.  How do I get the game to be 100% in english?"
+,kaz72,2011-07-26T05:58Z,i tried to edit ini files in text editor to change god mode and language but it said they were read only files so i was unable to edit....HALP?
+,yosarrian,2011-10-08T03:49Z,"thanks, but please hook a feller up with a serial # product key!"

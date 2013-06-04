@@ -1,0 +1,16 @@
+RAW2SMC - coded by foouser - 28/04/2010 v0.2
+==============================================
+
+
+A tiny utility to convert a config_raw.bin file dumped via Xellous or NandPro into a smc_config.bin file required by ibuild.
+Place a config_raw.bin file in the same directory as RAW2SMC and run the utility. You'll find the smc_config.bin file in the same folder.
+
+NOTE:
+config_raw.bin file must be exactly 33kb in size, else RAW2SMC won't accept it!
+File validity is NOT being checked. If your config_raw.bin file contains bad data, RAW2SMC will create a smc_config.bin file with
+the bad data you provided. USE AT YOUR OWN RISK!
+Run RAW2SMC_BigBlock_v0.2 if you need a smc_config.bin file for big block Jasper (512/256MB NAND),
+or RAW2SMC_SmallBlock_v0.2 for everything else (16MB NAND).
+
+
+Enjoy!

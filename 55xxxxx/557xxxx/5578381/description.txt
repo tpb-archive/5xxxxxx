@@ -1,0 +1,349 @@
+   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„   â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„
+   â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆÂ¦     â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    â–ˆâ–ˆâ–ˆâ–ˆâ–€ â–€â–ˆâ–ˆâ–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–€ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ ÃŒâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–€â–€â–€â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–€â–€â–€â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆÂ¦
+     â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–„â–ˆâ–ˆâ–ˆâ–ˆâ–€      â–€â–ˆâ–ˆÂ¦ â–ˆâ–ˆÂ¦  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆÂ¦ ÃŒâ–ˆâ–ˆâ–ˆÂ¦   â–€â–ˆâ–ˆâ–ˆÂ¦    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    ÃŒâ–ˆâ–ˆâ–ˆâ–€
+      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    â–„â–ˆâ–ˆâ–ˆâ–€           â–€ â–ˆâ–ˆÂ¦    â–ˆâ–ˆâ–ˆâ–€ â–„â–ˆâ–ˆâ–€       â–€â–ˆâ–ˆÂ¦   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   ÃŒâ–ˆâ–ˆâ–€
+      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–„â–ˆâ–ˆâ–€               â–ˆâ–ˆÂ¦     â–€â–€ â–„â–ˆâ–€            â–ˆâ–ˆ   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–ˆâ–ˆ
+      â–ˆâ–ˆâ–ˆâ–ˆÂ¦â–„â–ˆâ–€  â–„â–„â–„            â–ˆâ–ˆâ–ˆ      â–„â–ˆâ–€ â–„            ÃŒâ–ˆâ–€   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ   â–€â–ˆÂ¦
+      â–ˆâ–ˆâ–ˆâ–ˆÃŒâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„         â–ˆâ–ˆâ–ˆ    â–„â–ˆâ–€  â–„â–ˆâ–ˆâ–ˆ                 â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ
+      â–ˆâ–ˆâ–ˆÂ¦â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆÂ¦       ÃŒâ–ˆâ–ˆÂ¦ â–„â–ˆâ–€    ÃŒâ–ˆâ–ˆâ–ˆâ–ˆÂ¦                â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ
+  â–„   â–ˆâ–ˆâ–ˆâ–ˆÂ¦â–€â–€â–€â–€    â–€â–€        â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–€       â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–„         â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ
+ â–€â–‘â–€  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ                 ÃŒâ–ˆâ–ˆâ–ˆâ–€         ÃŒâ–ˆâ–ˆâ–ˆâ–ˆÂ¦    â–€â–‘â–€        â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ
+      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ           â–„     â–ˆâ–ˆâ–ˆ            â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ               â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ
+      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ    â–„     â–€â–‘â–€   ÃŒâ–ˆâ–ˆÂ¦            ÃŒâ–ˆâ–ˆâ–ˆâ–ˆÂ¦              â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ      â–„
+      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆÂ¦  â–€â–‘â–€      â–„   â–ˆâ–ˆâ–ˆâ–ˆ             â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ              â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ     â–€â–‘â–€
+      â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„        â–„â–ˆâ–ˆ ÃŒâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–ˆ       â–„   ÃŒâ–ˆâ–ˆâ–ˆâ–ˆÂ¦             â–ˆâ–ˆâ–ˆâ–ˆâ–ˆ
+    â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆÂ¦ÃŒâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆÂ¦     â–€â–‘â–€  â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„           â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„
+  â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ         â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„       â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„
+  â–€â–€â–ˆâ–ˆâ–ˆâ–ˆâ–€â–€â–€â–€â–€â–€â–€â–€â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–€â–€    â–€â–ˆâ–ˆâ–€          â–€â–ˆâ–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆâ–ˆâ–€       â–€â–ˆâ–ˆâ–ˆâ–€â–€â–€â–ˆâ–ˆâ–ˆâ–€
+                      â–„           â–„â–„â–„â–‘â–’â–„â–’â–‘â–„â–„â–„
+                     â–€â–‘â–€     â–„â–„â–„â–ˆâ–ˆâ–€â–€â–€â–€â–‘â–’â–‘â–€â–€â–€â–€â–ˆâ–ˆâ–„â–„â–„              â–„
+                          â–„â–ˆâ–ˆâ–€â–€        â–€        â–€â–€â–ˆâ–ˆâ–„          â–€â–‘â–€
+                        â–’â– â–€        SINCE 2000       â–€â– â–’
+                       â–€                               â–€
+                     â–        E A T  P R E S E N T S      â– 
+
+                    Foxit.Reader.Pro.v3.3.1.0518.Cracked-EAT   
+
+
+
+                              â–                   â– 
+        â–„â–„â–„                 â–„â–ˆÂ¦                  ÃŒâ–ˆâ–„                 â–„â–„â–„
+    â–„â–„â–ˆâ–ˆâ–’â–“â–ˆâ–“â–ˆâ–„â–„            ÃŒâ–ˆâ–ˆ                    â–ˆâ–ˆÂ¦            â–„â–„â–ˆâ–“â–ˆâ–“â–’â–ˆâ–ˆâ–„â–„
+   â–“â–ˆâ–“â–ˆâ–„â–€â–ˆâ–€â–‘â–€â–“â–€â–ˆâ–„          â–ˆâ–ˆÂ¦   RELEASE  INFO    ÃŒâ–ˆâ–ˆ          â–„â–ˆâ–€â–“â–€â–‘â–€â–ˆâ–€â–„â–ˆâ–“â–ˆâ–“
+  ÃŒâ–ˆâ–“â–€          â–€â–ˆâ–“â–„       ÃŒâ–ˆâ–ˆ                    â–ˆâ–ˆÂ¦       â–„â–“â–ˆâ–€          â–€â–“â–ˆÂ¦
+  â–ˆâ–ˆÂ¦             â–€â–ˆâ–ˆâ–„      â–ˆâ–“Â¦                  ÃŒâ–“â–ˆ      â–„â–ˆâ–ˆâ–€             ÃŒâ–ˆâ–ˆ
+  â–“â–ˆâ–ˆ               â–€â–“â–ˆâ–„    ÃŒâ–ˆâ–ˆ                  â–ˆâ–ˆÂ¦    â–„â–ˆâ–“â–€               â–ˆâ–ˆâ–“
+   â–€â–“â–“â–„               â–€â–„â–ˆâ–’â–„â– â–„â–ˆâ–ˆÂ¦                ÃŒâ–ˆâ–ˆâ–„â– â–„â–’â–ˆâ–„â–€               â–„â–“â–“â–€
+â–„â–ˆâ–ˆâ–„ â–ˆâ–ˆâ–ˆâ–                 â–€â–“â–€ ÃŒâ–ˆÂ¦                ÃŒâ–ˆÂ¦ â–€â–“â–€                â– â–ˆâ–ˆâ–ˆ â–„â–ˆâ–ˆâ–„
+â–“ÃŒâ–„â–€â–ˆâ–„â–€â–“â–ˆâ–                     â–ˆ                  â–ˆ                    â– â–ˆâ–“â–€â–„â–ˆâ–€â–„Â¦â–“
+â–’ÃŒâ–“â–“ â–€â–ˆâ–ˆâ–€                     Â¦                  ÃŒ                     â–€â–ˆâ–ˆâ–€ â–“â–“Â¦â–’
+â–’ÃŒâ–“â–ˆ   â–“                     â–                     â–                      â–“   â–ˆâ–“Â¦â–’
+â–’ÃŒâ–ˆâ–ˆ   â–’                                                                â–’   â–ˆâ–ˆÂ¦â–’
+â–‘ÃŒâ–ˆÂ¦   â–’                                                                â–’   ÃŒâ–ˆÂ¦â–‘
+â–‘â–ˆâ–ˆ    â–’  SUPPLIER ....: TEAM EAT                                       â–’    â–ˆâ–ˆâ–‘
+ÃŒâ–ˆÂ¦    â–’  PROG TYPE ...: APPLICATION                                    â–’    ÃŒâ–ˆÂ¦
+â–ˆâ–ˆ     â–‘  LANGUAGE ....: MULTI                                          â–‘     â–ˆâ–ˆ
+â–ˆÂ¦        RELEASE DATE.: 2010-05-21                                           ÃŒâ–ˆ
+â–ˆ      â–‘                                                                â–‘      â–ˆ
+â–ˆ     â–‘   CRACKER ......: TEAM EAT                                       â–‘     â–ˆ
+â–ˆ         PROTECTION ...: DEMO-LIMITS                                          â–ˆ
+â–ˆ         DIFFICULTY ...: GUESS!                                               â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ         PACKAGER ....: TEAM EAT                                              â–ˆ
+â–ˆ         FORMAT ......: ZIP/RAR                                               â–ˆ
+â–ˆ         ARCHIVE NAME.: eatfr331.zip                                          â–ˆ
+â–ˆ         No OF DISKS .: [XX/03]                                               â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ         REQUIREMENTS .: Win2000/XP/2003/Vista                                â–ˆ
+â–ˆ         PRICE ........: $39.00                                               â–ˆ
+â–ˆ         WEBSITE.......: http://www.foxitsoftware.com/pdf/reader/reader3.php  â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆÂ¦                                                                            ÃŒâ–ˆ
+â–ˆâ–ˆâ–„                                                                          â–„â–ˆâ–ˆ
+â– â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„â–„â–‘                                                           â–‘â–„â–„â–„â–„â–ˆâ–ˆâ–ˆâ–’â–ˆâ– 
+  â–€â–ˆâ–ˆâ–“â–ˆâ–ˆâ–ˆâ–ˆâ–“â–„â–„                                                     â–„â–„â–“â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–“â–ˆâ–€
+      â–€â–€â–“â–“â–ˆâ–ˆâ–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„â–„                                    â–‘    â–„â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–“â–“â–€â–€
+         â–„â–ˆâ–„ â–„â–ˆâ–ˆâ–€â–€â–“â–ˆâ–ˆâ–€ â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„                   â–„â–„â–„â–„â–„â–„â–„â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„ â–„â–ˆâ–ˆâ–ˆâ–€   â–„
+     â–„â–„â–“â–ˆâ–€â–€â–€â–€â–€â–€â–ˆâ–ˆâ–„â–„â–„  â–€â–ˆâ–ˆâ–“â–€ â–€â–ˆâ–ˆâ–ˆâ–“â–ˆâ–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–“â–„â–ˆâ–ˆâ–€ â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–€â–€â–€â–€â–“ â–„â–„â–ˆâ–€
+   â–„â–€â–€â–‘          â–€â–“â–ˆâ–“â–ˆ â–ˆâ–€â–ˆâ–ˆâ–„â–ˆâ–„â–€â–ˆâ–’ÃŒâ–“â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–’â–ˆâ–€â–„â–ˆâ–„â–ˆâ–ˆâ–€         â–„â–ˆâ–ˆâ–ˆâ–ˆâ–€â–€
+                 â–„â–ˆâ–“â–€  â–€â–‘ÃŒâ–“â–ˆâ–€â–€â–“Â¦â–‘              â–‘ÃŒâ–“â–€â–€â–ˆâ–“Â¦â–‘        â–„â–“â–ˆâ–€â–€
+                   â–‘    â–€â–“â–ˆâ–„â–‘                      â–‘â–„â–ˆâ–“â–€       â–€â–‘
+                          â–ˆâ–ˆâ–ˆâ–“                    â–“â–ˆâ–ˆâ–ˆ
+                       â–„â–„â–ˆâ–ˆâ–“â–€                      â–€â–“â–ˆâ–ˆâ–„â–„
+                   â–„ â–“â–€â–€â–€                              â–€â–€â–€â–“ â–„
+                 â–€                                            â–€
+
+
+                              â–                   â– 
+        â–„â–„â–„                 â–„â–ˆÂ¦                  ÃŒâ–ˆâ–„                 â–„â–„â–„
+    â–„â–„â–ˆâ–ˆâ–’â–“â–ˆâ–“â–ˆâ–„â–„            ÃŒâ–ˆâ–ˆ                    â–ˆâ–ˆÂ¦            â–„â–„â–ˆâ–“â–ˆâ–“â–’â–ˆâ–ˆâ–„â–„
+   â–“â–ˆâ–“â–ˆâ–„â–€â–ˆâ–€â–‘â–€â–“â–€â–ˆâ–„          â–ˆâ–ˆÂ¦   RELEASE  NOTES   ÃŒâ–ˆâ–ˆ          â–„â–ˆâ–€â–“â–€â–‘â–€â–ˆâ–€â–„â–ˆâ–“â–ˆâ–“
+  ÃŒâ–ˆâ–“â–€          â–€â–ˆâ–“â–„       ÃŒâ–ˆâ–ˆ                    â–ˆâ–ˆÂ¦       â–„â–“â–ˆâ–€          â–€â–“â–ˆÂ¦
+  â–ˆâ–ˆÂ¦             â–€â–ˆâ–ˆâ–„      â–ˆâ–“Â¦                  ÃŒâ–“â–ˆ      â–„â–ˆâ–ˆâ–€             ÃŒâ–ˆâ–ˆ
+  â–“â–ˆâ–ˆ               â–€â–“â–ˆâ–„    ÃŒâ–ˆâ–ˆ                  â–ˆâ–ˆÂ¦    â–„â–ˆâ–“â–€               â–ˆâ–ˆâ–“
+   â–€â–“â–“â–„               â–€â–„â–ˆâ–’â–„â– â–„â–ˆâ–ˆÂ¦                ÃŒâ–ˆâ–ˆâ–„â– â–„â–’â–ˆâ–„â–€               â–„â–“â–“â–€
+â–„â–ˆâ–ˆâ–„ â–ˆâ–ˆâ–ˆâ–                 â–€â–“â–€ ÃŒâ–ˆÂ¦                ÃŒâ–ˆÂ¦ â–€â–“â–€                â– â–ˆâ–ˆâ–ˆ â–„â–ˆâ–ˆâ–„
+â–“ÃŒâ–„â–€â–ˆâ–„â–€â–“â–ˆâ–                     â–ˆ                  â–ˆ                    â– â–ˆâ–“â–€â–„â–ˆâ–€â–„Â¦â–“
+â–‘ÃŒâ–“â–“ â–€â–ˆâ–ˆâ–€                     Â¦                  ÃŒ                     â–€â–ˆâ–ˆâ–€ â–“â–“Â¦â–‘
+â–‘ÃŒâ–“â–ˆ   â–“                     â–                     â–                      â–“   â–ˆâ–“Â¦â–‘
+â–‘ÃŒâ–ˆâ–ˆ   â–“                                                                â–“   â–ˆâ–ˆÂ¦â–‘
+â–‘ÃŒâ–ˆÂ¦   â–’                                                                â–’   ÃŒâ–ˆÂ¦â–‘
+â–‘â–ˆâ–ˆ                                                                          â–ˆâ–ˆâ–‘
+ÃŒâ–ˆÂ¦    â–‘                                                                â–‘    ÃŒâ–ˆÂ¦
+â–ˆâ–ˆ     â–‘                                                                â–‘     â–ˆâ–ˆ
+â–ˆÂ¦                                                                            ÃŒâ–ˆ
+â–ˆ             Foxit Reader is a PDF document viewer, with                      â–ˆ
+â–ˆ             incredible small size, breezing-fast launch speed                â–ˆ
+â–ˆ             and rich feature set. Foxit Reader supports Windows              â–ˆ
+â–ˆ             2000/XP/2003/Vista. Its core function is compatible              â–ˆ
+â–ˆ             with PDF Standard 1.7.                                           â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             In the past, you've had to download a huge PDF                   â–ˆ
+â–ˆ             reader from another software company, go through a               â–ˆ
+â–ˆ             lengthy installation process and wait for an                     â–ˆ
+â–ˆ             annoying splash window to disappear just to open a               â–ˆ
+â–ˆ             PDF document. Moreover, if you want to annotate a                â–ˆ
+â–ˆ             PDF document, you have to pay US$299 to buy certain              â–ˆ
+â–ˆ             software.                                                        â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             Now with Foxit Reader, you don't have to endure such             â–ˆ
+â–ˆ             pain any more. The following is a list of compelling             â–ˆ
+â–ˆ             advantages of Foxit Reader:                                      â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             * Incredibly small: The download size of Foxit                   â–ˆ
+â–ˆ               Reader is just a fraction of Acrobat Reader 20 M               â–ˆ
+â–ˆ               size.                                                          â–ˆ
+â–ˆ             * Breezing-fast: When you run Foxit Reader, it                   â–ˆ
+â–ˆ               launches instantly without any delay. You are not              â–ˆ
+â–ˆ               forced to view an annoying splash window                       â–ˆ
+â–ˆ               displaying company logo, author names, etc.                    â–ˆ
+â–ˆ             * Annotation tool: Have you ever wished to annotate              â–ˆ
+â–ˆ               (or comment on) a PDF document when you are                    â–ˆ
+â–ˆ               reading it? Foxit Reader allows you to draw                    â–ˆ
+â–ˆ               graphics, highlight text, type text and make notes             â–ˆ
+â–ˆ               on a PDF document and then print out or save the               â–ˆ
+â–ˆ               annotated document.                                            â–ˆ
+â–ˆ             * Text converter: You may convert the whole PDF                  â–ˆ
+â–ˆ               document into a simple text file.                              â–ˆ
+â–ˆ             * High security and privacy: Foxit Reader highly                 â–ˆ
+â–ˆ               respects the security and privacy of users and                 â–ˆ
+â–ˆ               will never connect to the Internet without users'              â–ˆ
+â–ˆ               permission. While other PDF readers often silently             â–ˆ
+â–ˆ               connect to the Internet in the background. Foxit               â–ˆ
+â–ˆ               PDF Reader does not contain any spyware.                       â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             Foxit Reader Pro Pack features:                                  â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             * Comments Tools. This module includes Text Markup               â–ˆ
+â–ˆ               Tools, Drawing Markup Tools, Typewriter Tools,                 â–ˆ
+â–ˆ               Measure Tools, and File Attachment Tool.                       â–ˆ
+â–ˆ               Evaluation marks will be added to your annotated               â–ˆ
+â–ˆ               pages without Pro Pack. Once you purchase Foxit                â–ˆ
+â–ˆ               Reader Pro Pack, you'll get rid of these                       â–ˆ
+â–ˆ               evaluation marks.                                              â–ˆ
+â–ˆ             * Text Viewer & Text Converter. Text viewer: View                â–ˆ
+â–ˆ               the whole text contents from a PDF file in Foxit               â–ˆ
+â–ˆ               Reader, and right click on the feature to use the              â–ˆ
+â–ˆ               option" Copy" to copy those texts. Text converter:             â–ˆ
+â–ˆ               Convert a whole PDF document into a simple text                â–ˆ
+â–ˆ               file by using the button" Save as" in the"File"                â–ˆ
+â–ˆ               menu. You can use the feature after purchasing Pro             â–ˆ
+â–ˆ               Pack add-on.                                                   â–ˆ
+â–ˆ             * Form Filler. Basic non-interactive PDF form                    â–ˆ
+â–ˆ               operations i.e. filling out PDF forms and printing             â–ˆ
+â–ˆ               them out. Advanced PDF form operations, such as                â–ˆ
+â–ˆ               saving filled-out forms and import/export forms.               â–ˆ
+â–ˆ             * Spell Checker. When you fill out an English form               â–ˆ
+â–ˆ               or use typewriter to insert any English text, this             â–ˆ
+â–ˆ               tool will try to find any spelling errors and                  â–ˆ
+â–ˆ               highlight them with squiggly lines. If you right               â–ˆ
+â–ˆ               click on the misspelled words, you will see a list             â–ˆ
+â–ˆ               of suggested words. This feature is available only             â–ˆ
+â–ˆ               to users who purchase Pro Pack if the security                 â–ˆ
+â–ˆ               settings allow and requires downloading of an                  â–ˆ
+â–ˆ               extra add-on, which is the lexical dictionary.                 â–ˆ
+â–ˆ               Click here to download the dictionary.                         â–ˆ
+â–ˆ             * Advanced Editing Tools. It includes Image Tool,                â–ˆ
+â–ˆ               Attach File Tool, Link Tools, and Multimedia Tools             â–ˆ
+â–ˆ               below the "Edit" menu of Foxit Reader. It's a part             â–ˆ
+â–ˆ               of Foxit Reader Pro Pack. You may evaluate those               â–ˆ
+â–ˆ               features before buying it; however evaluation                  â–ˆ
+â–ˆ               marks will be added to the top-right corner of the             â–ˆ
+â–ˆ               modified pages. If you purchase a license of Pro               â–ˆ
+â–ˆ               Pack add-on, you will be able to get rid of                    â–ˆ
+â–ˆ               evaluation marks.                                              â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             What's New in Foxit Reader 3.1x?                                 â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             * Internet Search. Foxit Reader 3.1 supports                     â–ˆ
+â–ˆ               internet keyword search. You can select the text               â–ˆ
+â–ˆ               and click the pop-up search icon or press and drag             â–ˆ
+â–ˆ               the mouse directly to search for the related                   â–ˆ
+â–ˆ               information in internet.                                       â–ˆ
+â–ˆ             * Favorite Toolbar. Foxit PDF Reader 3.1 supports to             â–ˆ
+â–ˆ               customize the useful tools to appear in the                    â–ˆ
+â–ˆ               Favorite Toolbar area, so that users can choose                â–ˆ
+â–ˆ               the tools that are used most often easily and                  â–ˆ
+â–ˆ               quickly.                                                       â–ˆ
+â–ˆ             * Comments Panel. Lists all comments in the PDF                  â–ˆ
+â–ˆ               document, and provides a number of common options              â–ˆ
+â–ˆ               that helps users check their comments better, such             â–ˆ
+â–ˆ               as expanding or collapsing all comments, as well               â–ˆ
+â–ˆ               as sorting comments in different ways.                         â–ˆ
+â–ˆ             * Summarize Comments. Allows users to generate a new             â–ˆ
+â–ˆ               PDF document with comments summary and set the                 â–ˆ
+â–ˆ               document properties, such as paper setting, page               â–ˆ
+â–ˆ               range choosing, and so on. It is a convenient way              â–ˆ
+â–ˆ               to get a synopsis of all the comments associated               â–ˆ
+â–ˆ               with a PDF.                                                    â–ˆ
+â–ˆ             * Document Restrictions. Now users can view document             â–ˆ
+â–ˆ               restrictions by clicking the Security tab in the               â–ˆ
+â–ˆ               properties dialog box. The document's Security                 â–ˆ
+â–ˆ               Method restricts what can be done to the document,             â–ˆ
+â–ˆ               and the Document Restrictions Summary displays a               â–ˆ
+â–ˆ               list of tasks that users can perform.                          â–ˆ
+â–ˆ             * Supports MSAA. Part of user interface elements                 â–ˆ
+â–ˆ               supports Microsoft Active Accessibility (MSAA),                â–ˆ
+â–ˆ               that is, to deliver the UI information to the MSAA             â–ˆ
+â–ˆ               client-side.                                                   â–ˆ
+â–ˆ             * Streamlined UI. A completely redesigned UI with a              â–ˆ
+â–ˆ               new look and feel that makes Foxit Reader more                 â–ˆ
+â–ˆ               intuitive than ever before, such as updated icons              â–ˆ
+â–ˆ               and the reclassified menu bar.                                 â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             What's New in Foxit Reader 3.2?                                  â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             * Undo and Redo. Allows users to easily correct                  â–ˆ
+â–ˆ               mistakes by cancelling their previous actions and              â–ˆ
+â–ˆ               quickly adding back in changes made with the Undo              â–ˆ
+â–ˆ               option, this makes it convenient for users to                  â–ˆ
+â–ˆ               revoke their performances and enables better                   â–ˆ
+â–ˆ               editing requirements.                                          â–ˆ
+â–ˆ             * Expand Current Bookmark. Click the Expand Current              â–ˆ
+â–ˆ               Bookmark icon to expand nested bookmarks and                   â–ˆ
+â–ˆ               highlight the bookmark of the current page.                    â–ˆ
+â–ˆ             * Grayscale Printing. Reader 3.2 supports to print               â–ˆ
+â–ˆ               in grayscale, using many shades of gray to                     â–ˆ
+â–ˆ               represent subtle variations in color and light.                â–ˆ
+â–ˆ             * Speed up printing. Foxit Reader has optimized the              â–ˆ
+â–ˆ               printing feature, improving the speed of printing              â–ˆ
+â–ˆ               dramatically.                                                  â–ˆ
+â–ˆ             * Logical Page Number Support. Display the physical              â–ˆ
+â–ˆ               and logical page number on the status bar at the               â–ˆ
+â–ˆ               bottom of the working area, enabling you to go                 â–ˆ
+â–ˆ               right to the desired page fast and accurately.                 â–ˆ
+â–ˆ             * Hundreds of bugs fixed.                                        â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             What's New in Foxit Reader 3.3?                                  â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             * Secure Trust Manager                                           â–ˆ
+â–ˆ             * Improved Ask Search Button Setting                             â–ˆ
+â–ˆ             * Many Bug Fixes                                                 â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             * NOTE: Form Filler / Foxit Form Designer is now NOT             â–ˆ
+â–ˆ               AVAILABLE in Foxit Reader 3.0 and 3.1. Foxit has               â–ˆ
+â–ˆ               included this feature into Foxit Phantom - the                 â–ˆ
+â–ˆ               business ready PDF toolkit.                                    â–ˆ
+â–ˆÂ¦                                                                            ÃŒâ–ˆ
+â–ˆâ–ˆ                                                                            â–ˆâ–ˆ
+ÃŒâ–ˆÂ¦                                                                          ÃŒâ–ˆÂ¦
+â– â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„â–„â–‘                                                           â–‘â–„â–„â–„â–„â–ˆâ–ˆâ–ˆâ–’â–ˆâ– 
+  â–€â–ˆâ–ˆâ–“â–ˆâ–ˆâ–ˆâ–ˆâ–“â–„â–„                                                     â–„â–„â–“â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–“â–ˆâ–€
+      â–€â–€â–“â–“â–ˆâ–ˆâ–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„â–„                                    â–‘    â–„â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–“â–“â–€â–€
+         â–„â–ˆâ–„ â–„â–ˆâ–ˆâ–€â–€â–“â–ˆâ–ˆâ–€ â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„                   â–„â–„â–„â–„â–„â–„â–„â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„ â–„â–ˆâ–ˆâ–ˆâ–€   â–„
+     â–„â–„â–“â–ˆâ–€â–€â–€â–€â–€â–€â–ˆâ–ˆâ–„â–„â–„  â–€â–ˆâ–ˆâ–“â–€ â–€â–ˆâ–ˆâ–ˆâ–“â–ˆâ–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–“â–„â–ˆâ–ˆâ–€ â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–€â–€â–€â–€â–“ â–„â–„â–ˆâ–€
+   â–„â–€â–€â–‘          â–€â–“â–ˆâ–“â–ˆ â–ˆâ–€â–ˆâ–ˆâ–„â–ˆâ–„â–€â–ˆâ–’ÃŒâ–“â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–’â–ˆâ–€â–„â–ˆâ–„â–ˆâ–ˆâ–€         â–„â–ˆâ–ˆâ–ˆâ–ˆâ–€â–€
+                 â–„â–ˆâ–“â–€  â–€â–‘ÃŒâ–“â–ˆâ–€â–€â–“Â¦â–‘              â–‘ÃŒâ–“â–€â–€â–ˆâ–“Â¦â–‘        â–„â–“â–ˆâ–€â–€
+                   â–‘    â–€â–“â–ˆâ–„â–‘       COMMENTS       â–‘â–„â–ˆâ–“â–€       â–€â–‘
+                          â–ˆâ–ˆâ–ˆâ–“                    â–“â–ˆâ–ˆâ–ˆ
+                       â–„â–„â–ˆâ–ˆâ–“â–€                      â–€â–“â–ˆâ–ˆâ–„â–„
+                   â–„ â–“â–€â–€â–€                              â–€â–€â–€â–“ â–„
+              â–„ â–€                                              â–€ â–„
+            â–„                                                      â–„
+           â–„   Do NOT distribute this release outside of the scene   â–„
+          â–„             Keep the scene alive and secure!              â–„
+         â–„                                                             â–„
+                       All good progs start as freeware,                      
+                         then things get worse ... ;-)                        
+
+           â–€                                                        â–€
+             â–€â–„â–„                                                â–„â–„â–€
+               â–€â– â–ˆâ–ˆâ–„â–„â–„                                    â–„â–„â–„â–ˆâ–ˆâ– â–€
+                  â–€â–€â–ˆâ–“â–ˆâ–ˆâ–‘â–„â–„                          â–„â–„â–‘â–ˆâ–ˆâ–“â–ˆâ–€â–€
+                      â–€â–€â–ˆâ–“â–ˆâ–ˆâ–‘â–„                    â–„â–‘â–ˆâ–ˆâ–“â–ˆâ–€â–€
+                          â–€â–ˆâ–ˆâ–“Â¦                  ÃŒâ–“â–ˆâ–ˆâ–€
+                       â–„â–„â–ˆâ–ˆâ–“â–ˆâ–€                    â–€â–ˆâ–“â–ˆâ–ˆâ–„â–„
+                    â–„â–“â–ˆâ–€â–€â–€                            â–€â–€â–€â–ˆâ–“â–„
+                â–„ â–€                                          â–€ â–„
+
+
+
+
+                              â–                   â– 
+        â–„â–„â–„                 â–„â–ˆÂ¦                  ÃŒâ–ˆâ–„                 â–„â–„â–„
+    â–„â–„â–ˆâ–ˆâ–’â–“â–ˆâ–“â–ˆâ–„â–„            ÃŒâ–ˆâ–ˆ                    â–ˆâ–ˆÂ¦            â–„â–„â–ˆâ–“â–ˆâ–“â–’â–ˆâ–ˆâ–„â–„
+   â–“â–ˆâ–“â–ˆâ–„â–€â–ˆâ–€â–‘â–€â–“â–€â–ˆâ–„          â–ˆâ–ˆÂ¦ INSTALLATION NOTES ÃŒâ–ˆâ–ˆ          â–„â–ˆâ–€â–“â–€â–‘â–€â–ˆâ–€â–„â–ˆâ–“â–ˆâ–“
+  ÃŒâ–ˆâ–“â–€          â–€â–ˆâ–“â–„       ÃŒâ–ˆâ–ˆ                    â–ˆâ–ˆÂ¦       â–„â–“â–ˆâ–€          â–€â–“â–ˆÂ¦
+  â–ˆâ–ˆÂ¦             â–€â–ˆâ–ˆâ–„      â–ˆâ–“Â¦                  ÃŒâ–“â–ˆ      â–„â–ˆâ–ˆâ–€             ÃŒâ–ˆâ–ˆ
+  â–“â–ˆâ–ˆ               â–€â–“â–ˆâ–„    ÃŒâ–ˆâ–ˆ                  â–ˆâ–ˆÂ¦    â–„â–ˆâ–“â–€               â–ˆâ–ˆâ–“
+â–“  â–€â–“â–“â–„               â–€â–„â–ˆâ–’â–„â– â–„â–ˆâ–ˆÂ¦                ÃŒâ–ˆâ–ˆâ–„â– â–„â–’â–ˆâ–„â–€               â–„â–“â–“â–€  â–“
+â–„â–ˆâ–ˆâ–„ â–ˆâ–ˆâ–ˆâ–                 â–€â–“â–€ ÃŒâ–ˆÂ¦                ÃŒâ–ˆÂ¦ â–€â–“â–€                â– â–ˆâ–ˆâ–ˆ â–„â–ˆâ–ˆâ–„
+â–“ÃŒâ–„â–€â–ˆâ–„â–€â–“â–ˆâ–                     â–ˆ                  â–ˆ                    â– â–ˆâ–“â–€â–„â–ˆâ–€â–„Â¦â–“
+â–’ÃŒâ–“â–“ â–€â–ˆâ–ˆâ–€                     Â¦                  ÃŒ                     â–€â–ˆâ–ˆâ–€ â–“â–“Â¦â–’
+â–’ÃŒâ–“â–ˆ   â–“                     â–        `TLB'        â–                      â–“   â–ˆâ–“Â¦â–’
+â–’ÃŒâ–ˆâ–ˆ   â–’                    Try it, Like it, Buy it!                    â–’   â–ˆâ–ˆÂ¦â–’
+â–‘ÃŒâ–ˆÂ¦   â–’                                                                â–’   ÃŒâ–ˆÂ¦â–‘
+â–‘â–ˆâ–ˆ                                                                          â–ˆâ–ˆâ–‘
+ÃŒâ–ˆÂ¦    â–‘                                                                â–‘    ÃŒâ–ˆÂ¦
+â–ˆâ–ˆ     â–‘                                                                â–‘     â–ˆâ–ˆ
+â–ˆÂ¦    â–‘                                                                  â–‘    ÃŒâ–ˆ
+â–ˆ             1. Unpack and install.                                           â–ˆ
+â–ˆ             2. Copy the included files to the installed folder.              â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ             That's all. Have fun using it! ;-)                               â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ      ___________________________________________________________________     â–ˆ
+â–ˆ                                                                              â–ˆ
+â–ˆ      Always remember to block applications (or go off line) from calling     â–ˆ
+â–ˆ      home 'during install'. Once installed, disable 'check for automatic     â–ˆ
+â–ˆ      updates' option if available, so that you don't get it blacklisted.     â–ˆ
+â–ˆÂ¦                                                                            ÃŒâ–ˆ
+â–ˆâ–ˆâ–„                                                                          â–„â–ˆâ–ˆ
+â– â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„â–„â–‘                                                           â–‘â–„â–„â–„â–„â–ˆâ–ˆâ–ˆâ–’â–ˆâ– 
+  â–€â–ˆâ–ˆâ–“â–ˆâ–ˆâ–ˆâ–ˆâ–“â–„â–„                                                     â–„â–„â–“â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–“â–ˆâ–€
+      â–€â–€â–“â–“â–ˆâ–ˆâ–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„â–„                                    â–‘    â–„â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–“â–“â–€â–€
+         â–„â–ˆâ–„ â–„â–ˆâ–ˆâ–€â–€â–“â–ˆâ–ˆâ–€ â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–„                   â–„â–„â–„â–„â–„â–„â–„â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„ â–„â–ˆâ–ˆâ–ˆâ–€   â–„
+     â–„â–„â–“â–ˆâ–€â–€â–€â–€â–€â–€â–ˆâ–ˆâ–„â–„â–„  â–€â–ˆâ–ˆâ–“â–€ â–€â–ˆâ–ˆâ–ˆâ–“â–ˆâ–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–„â–“â–„â–ˆâ–ˆâ–€ â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–€â–€â–€â–€â–“ â–„â–„â–ˆâ–€
+   â–„â–€â–€â–‘          â–€â–“â–ˆâ–“â–ˆ â–ˆâ–€â–ˆâ–ˆâ–„â–ˆâ–„â–€â–ˆâ–’ÃŒâ–“â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–’â–ˆâ–€â–„â–ˆâ–„â–ˆâ–ˆâ–€         â–„â–ˆâ–ˆâ–ˆâ–ˆâ–€â–€
+                 â–„â–ˆâ–“â–€  â–€â–‘ÃŒâ–“â–ˆâ–€â–€â–“Â¦â–‘              â–‘ÃŒâ–“â–€â–€â–ˆâ–“Â¦â–‘        â–„â–“â–ˆâ–€â–€
+                   â–‘    â–€â–“â–ˆâ–„â–‘                      â–‘â–„â–ˆâ–“â–€       â–€â–‘
+                          â–ˆâ–ˆâ–ˆâ–“                    â–“â–ˆâ–ˆâ–ˆ
+                       â–„â–„â–ˆâ–ˆâ–“â–€                      â–€â–“â–ˆâ–ˆâ–„â–„
+                   â–„ â–“â–€â–€â–€                              â–€â–€â–€â–“ â–„
+             â–„  â–€                                              â–€  â–„
+       â–„  â–€                                                          â–€  â–„
+   â–„â–“â–€                                                                    â–€â–“â–„
+  â–ˆâ–ˆÂ¦                                                                      ÃŒâ–ˆâ–ˆ
+  â–“â–ˆâ–ˆ                         â–„                  â–„                         â–ˆâ–ˆâ–“
+â–“ â– â–€â–“â–“â–„                      â–ˆÂ¦                  ÃŒâ–ˆ                      â–„â–“â–“â–€â–  â–“
+â–„â–ˆâ–ˆâ–„ â–ˆâ–ˆÂ¦                     ÃŒâ–“   EAT  CONTACT   â–“Â¦                     ÃŒâ–ˆâ–ˆ â–„â–ˆâ–ˆâ–„
+â–“ÃŒâ–„â–€â–ˆâ–„â–€â–“â–„â–                     â–ˆ                  â–ˆ                    â– â–„â–“â–€â–„â–ˆâ–€â–„Â¦â–“
+â–’ÃŒâ–“â–“ â–€â–ˆâ–ˆâ–€                     ÃŒÂ¦                ÃŒÂ¦                     â–€â–ˆâ–ˆâ–€ â–“â–“Â¦â–’
+â–’ÃŒâ–“â–ˆ   â–“                       â–                 â–                        â–“   â–ˆâ–“Â¦â–’
+â–’ÃŒâ–ˆâ–ˆ   â–’                                                                â–’   â–ˆâ–ˆÂ¦â–’
+â–’ÃŒâ–ˆâ–ˆ   â–’                                                                â–’   â–ˆâ–ˆÂ¦â–’
+  â–ˆâ–ˆ   â–’                                                                â–’   â–ˆâ–ˆ
+â–’ â–ˆâ–ˆÂ¦  â–’                                                                â–’  ÃŒâ–ˆâ–ˆ â–’
+â–’ â–ˆâ–ˆâ–ˆ  â–‘     EAT is a closed group. We would consider only:             â–‘  â–ˆâ–ˆâ–ˆ â–’
+â–’ â–ˆâ–ˆâ–ˆ  â–‘                                                                â–‘  â–ˆâ–ˆâ–ˆ â–’
+â–‘ â–ˆâ–ˆÂ¦  â–‘     â–  Excellent reverse-engineers                              â–‘  ÃŒâ–ˆâ–ˆ â–‘
+â–‘ÃŒâ–ˆâ–ˆ   â–‘     â–  Experienced coders/scripters                             â–‘   â–ˆâ–ˆÂ¦â–‘
+â–‘â–ˆâ–ˆÂ¦   â–‘     â–  Supplier of quality software who can do so on a          â–‘   ÃŒâ–ˆâ–ˆâ–‘
+ÃŒâ–ˆâ–ˆ    â–‘       frequent basis (retail date not older then 6 months)     â–‘    â–ˆâ–ˆÂ¦
+â–ˆâ–ˆÂ¦                                                                          ÃŒâ–ˆâ–ˆ
+â–ˆâ–ˆÂ¦          We do *NOT* want...                                             ÃŒâ–ˆâ–ˆ
+â–ˆâ–ˆ           â–  Distros, Shells, etc                                           â–ˆâ–ˆ
+â–ˆÂ¦     â–‘     â–  Carders 

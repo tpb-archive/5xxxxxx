@@ -1,0 +1,87 @@
+IsoBuster v2.8 Beta made Portable.
+
+No need to install it!
+Or, if you want to, Setup Keygen and an already generated license are included, in case your AV don't like KGs...
+
+
+Today we released IsoBuster 2.8 beta with a range of new cool features and improvements. We're very proud of the plugin support. With plugin support it is now possible for third parties, from the hobby coder at home to the professional world, to create plugins to support new or already existing image file formats. And this for opening, but also creating image files. A dll can support either one of the two (opening or creating) or both. Check our plugins page to find out more if you're interested.
+
+Changes:
+
+    * Plugin support for IsoBuster: Opening image files
+    * Plugin support for IsoBuster: Creating image files
+    * Installing and/or loading plugins via the GUI and command line parameters
+    * Support for multi-file CUE sheets & PREGAP directive
+    * Wave file support when loading multi-file CUE sheets
+    * Support for *.RMG Image files
+
+
+Improvements:
+
+    * Escape sequence in HFS support to deal with HFS bug so that certain HFS file-systems can still be found
+    * Add file-extensions only when no file extension is present yet for files in the HFS(+) file system
+    * Updated the HFS extensions database
+    * Workarounds for buggy ISO9660 file systems created by professional DVD mastering software (affecting commercial DVDs)
+    * Improved IFO/VOB file system finding in case of badly mastered Video DVDs
+    * Show layer break address
+    * Various other GUI improvements
+
+
+Fixes:
+
+    * Fix so that CD-Text is shown again when present in a CDT file (associated to a CUE file)
+    * Fix so that the associated CDT file is also MD5'ed when the entire image file is MD5'ed
+    * HFS(+) Fix to find additional file extents (>8) that are referenced from the Overflow file.
+    * Fixed possibly incorrectly reported size of VIDEO_TS.VOB in the IFO/VOB file system
+
+
+Similar to versions 2.6 and 2.7, and all future versions, this version will not work anymore on old, officially "End Of Life", Microsoft OS: Windows 95, 98, ME and NT4 due to the too big differences between the early OS and the modern OS. It's simply not possible anymore to support and create functionality for the modern OS (XP, VISTA, 7) and still keep it compatible with the old OS. 
+
+More infos at
+ 
+http://www.isobuster.com/news.php?news_page=49
+
+
+
+The Portable SFX EXE file is built up using WinRAR. You can use it to extract the files and check them one by one if you want to be sure of what is running on your machine.
+
+
+This has also been built on an XP x86 machine, I don't know if this program can run on a x64 or Vista machine. I't's up to you to check it if you are using them.
+
+
+
+SUGGESTIONS ON USING P2P DOWNLOADS
+==================================
+
+1) It's always better to run all downloaded programs using Sandboxie or a similar virtual machine until you are sure they are clean.
+
+
+2) When in doubt, scan them with an Internet Scan service as the ones provided by Jotti and VirusTotal
+ 
+http://virusscan.jotti.org/
+ 
+http://www.virustotal.com/
+
+This will ***NOT*** give you any warranty that a file passing their analysis is clean, nor that if they see them as a troian it's so or not just another false positive, but helps you to decide and at least ask for help or infos.
+
+
+3) Remember, trust nobody, and when in doubt, go to point 1) 
+
+
+4) If you find any upload containing trojans or whatsoever malicious or unclean, instead of start cursing in the comments of the upload, take the time to go to the Suprbay Forum at:
+ 
+http://forum.suprbay.org/forumdisplay.php?fid=29
+
+and report links and comments there, and someone will take care of all the nasties.
+
+
+That's the only way to keep TPB and its uploads fresh and clean.
+
+
+That's for what is regarding security. If after testing it you like it and it's useful for you, show your support buying it!
+
+
+
+Enjoy and remember to seed... :o)
+
+

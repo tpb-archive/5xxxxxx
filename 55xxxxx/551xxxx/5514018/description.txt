@@ -1,0 +1,29 @@
+Classic Mac Kickstart
+Version 1.0, April 24, 2010
+By M
+
+INTRODUCTION
+
+You have an old Macintosh -- one that is new enough to have a SuperDrive, but that is older than an iMac. For some unknown reason, instead of throwing it away, you want to get it running again.
+
+This CD-ROM image will make your job easier. Burn it to a standard CD-R with any burning program, and you will have an HFS-compatible CD-ROM containing all the files you need to kickstart your old Mac. (The HFS-compatible part is what makes this image valuable. Try using a modern computer to make a CD-ROM that an old Mac will read, and you will find the experience slow and frustrating.)
+
+HOWTO
+
+First, you'll need to start with a real, physical floppy disk and a working modern computer that has a floppy drive. Sorry about that; I couldn't figure out how to make this CD bootable. Using high-density drive on a Mac or PC, copy Boot75withCD.img to a floppy. Search the web for "rawrite" to find an appropriate utility. (Yes, you can create high-density Mac floppies on a PC.)
+
+Now boot your Mac with that floppy. You should be taken to the Desktop, and the Apple CD-ROM driver should be loaded. Now stick in this CD-ROM. You can now install System 6.0.8, System 7, System 7.0.1, or System 7.5.3 (with update to 7.5.5) depending on what kind of Mac you have.
+
+(Actually, if your Mac is really old, you have probably figured out by now that you wanted to boot from the System 6.0.8 floppy. At least floppy disks can be erased.)
+
+Once the basic System is running, you should install StuffIt Expander 5.5. This gives you the ability to open .bin, .hqx, and .sit files.
+
+Now install DiskCopy. This lets you mount .img files.
+
+Finally, install Fetch and get your network settings right.
+
+Congratulations! You now have a working Mac that can download and install more programs from the Internet. Have fun.
+
+NOTES
+
+All these files can be downloaded from Apple's site. It's unlikely Apple will care that they're being made available in this slightly more convenient form.

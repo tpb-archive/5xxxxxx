@@ -1,0 +1,148 @@
+User Type,Username,Date,Text
+,roby777,2010-05-14T19:17Z,Thanks for the update.
+,Lucifesb,2010-05-15T11:24Z,"What about playback support of CPRM protected content?
+"
+[T],ADHDerby,2010-05-15T12:19Z,"It supports the playback of CPRM protected content.
+I didn't forget to add the keys this time. ;)"
+,Lucifesb,2010-05-15T15:22Z,U'r the best ...thank u my man ...keep up ;)
+,masterfaster2,2010-05-15T17:57Z,"It's a nice repack. Good work ADHDerby.
+
+Suggestion: I don't know if you already did something about the problem with CLFLVSplitter.ax and Windows Media Player. Basically CLFLVSplitter.ax cause a crash when you play flv videos in Windows Media Player. The solution is to unregister it (regsvr32 /u CLFLVSplitter.ax). 
+
+This problem doesn't happen to all users, but you can add a batch file to a future version of your pack, just for users that experience the problem."
+,dman1812,2010-05-16T05:53Z,"You're awesome.
+Thanks."
+,brianxxx,2010-05-16T16:56Z,"Awesome work! This is definitely what the scene needs...someone that consistently works on PowerDVD and gets the job done right every time!
+
+Thanks a million!"
+,butt2butt,2010-05-22T16:36Z,"I'm having a problem with this release.  I can play DVD's and Blu-ray's fine in the normal Power DVD player.  But when I try to play them in Windows Media Center, using the Power DVD plugin, the sound doesn't work.
+
+I was able to reproduce the problem on 2 computers, both running Windows 7 x64.  I don't know if this is Power DVD's problem, or a problem with your release, but I thought I would mention it."
+,puma_ile,2010-06-02T16:28Z,Thanks!
+,ChillieD0g,2010-06-05T20:50Z,Awesome just awesome thanx :)
+,Moamma,2010-06-07T12:06Z,"Hi and tnx for your great release ... 
+
+I have a little problem and i taught u may be able  help me  ...
+
+I have 2 DVD-ROM and when I start PowerDVD ... it keeps asking me which drive I would like to set as default ... even I'm selecting one of them ... it's continues asking next time I run the program .  I had not this issue with previous versions . "
+[T],ADHDerby,2010-06-07T18:12Z,"You're welcome! :)
+
+@ masterfaster2: Thanks, I'll add it to the next release!
+
+@ butt2butt: It's a known problem,.. they are working on it.
+
+@ Moamma: I experienced the same problem.
+
+I've created a fix,.. it works on my system and I hope it also works on yours.
+
+Create a new text document and copy and paste the lines below:
+
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Cyberlink\PowerDVD10]
+""UIFocusCDDrive""=dword:00000008
+""UIFocusPrevDrive""=dword:00000006
+
+
+Save the file as FocusDriveFix.reg and merge it.
+
+PowerDVD will ask the question one more time and now it should save it.
+
+Cheers,
+
+ADHDerby"
+,Moamma,2010-06-08T21:39Z,"Thank u very much ...
+
+I did as u said and it worked like a charm ...
+
+u r the man ."
+,Moamma,2010-06-08T22:14Z,"update :
+
+it only lasts until  I play a movie ... and its there again :(
+
+I'm using windows 7 32 bit ... if it's important .
+
+Thank u anyway ."
+,jobinmathew,2010-06-09T17:52Z,works gr8....thnks ADHDerby.....
+,enb0m,2010-06-10T22:06Z,Ehm can't play bluray movies on this one! It worked with powerdvd 9! Help Please! It just don't read the bluray disk. Tried 2 different blurays that i've downloaded!
+[T],ADHDerby,2010-06-14T20:13Z,"@ Moamma: Try a clean re-install:
+1) Uninstall PowerDVD and reboot.
+2) Create a new text document and copy and paste the lines below:
+
+
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\CyberLink\PowerDVD10]
+
+[-HKEY_CURRENT_USER\Software\Cyberlink\PowerDVD10]
+
+
+Save the file as CleanupPDVD.reg and merge it.
+This will remove the PowerDVD settings from the registry.
+
+3) Re-install PowerDVD.
+
+@ jobinmathew: They are probably not ripped correctly.
+Guide for unprotected Blu-ray ISO for PowerDVD: http://forum.slysoft.com/showthread.php?t=24169
+Most of the time you can fix the image by checking the folder structure and adding the missing folders."
+[T],ADHDerby,2010-06-14T20:25Z,"Sorry,.. I meant enb0m instead of jobinmathew. :/ "
+,blasto_master,2010-06-19T14:06Z,This guy is the truth! I am very happy with this torrent. Thanks again.
+,altern822,2010-06-24T18:56Z,"So far so good.  Quick download.
+Plays fine, haven't encountered any register product pop ups or anything negative.
+Thanks"
+,BluRayPro,2010-06-29T02:58Z,"HOLY SHIT I just installed this player and it just blew my fucking mind how vivid the picture is!!! I had to jump up from my HTPC and comment. I have traditionally been a TMT3 user but no longer.
+
+The king is dead, long live the king! PowerDVD 10 Ultra 3D plays raw Blu-ray M2TS files and everything else I threw at it effortlessly. Kudos CyberLink!"
+,ziixx,2010-07-01T16:46Z,so thanks..
+,rogamosh,2010-07-01T23:03Z,Thank You So Much......Specially For The Tweaks.....
+,sum_c,2010-07-02T10:45Z,"Every thing is working fine but when i try to play the files with '.mkv' extension, it plays the audio but no video. All i get is a black screen.. Any suggestions?"
+[T],ADHDerby,2010-07-03T16:40Z,"You're welcome! :)
+
+@ sum_c: MKV's play without problems here.
+Try a clean re-install (see description above)."
+,haguey666,2010-07-06T00:42Z,Thanks
+,colloso,2010-08-03T07:09Z,I literally created an account just to thank you for this!!!! Great torrent!!!
+,xtreme__boi,2010-08-07T14:38Z,"Works a treat, thank you.
+
+Just have a question.  I tend to get Blu-Ray DVD torrents, and they download in a MP4 format.  I don't have a Blu-Ray DVD player, and my current DVD player wont play MP4 formats.  But I do have the 42"" 1080 HDTV connected to my PC via HDMI!  In the past I tend to play movies with VLC player, and watch it on my 42"" 1080 HDTV via the HDMI channel.
+
+So if I use PowerDVD 10 as my ""Blu-Ray DVD player"", and have the HDMI channel on the TV turnt on, will I still get Blu-Ray quality on my 42"" 1080 HDTV, even though the file is being played via PowerDVD on my PC.
+
+Hope that makes sense..."
+,xvm,2010-08-12T10:54Z,I can't open the program.  Anybody else has this problem?  I can't open Ultra mark II either.  Powerdvd shows up in the task manager and disappear after a second.  I'm running win 7 64.
+,charlesdon018,2010-08-14T10:08Z,"hey , the 3d wont work ! :'("
+,_nefe_,2010-08-16T10:21Z,"@xvm 
+Same problem 
+any help ?"
+,allwin55,2010-08-17T19:37Z,does the 3d work? answer  please
+,X750Fnor,2010-08-20T01:50Z,"what do i need to see movies in 3d with thise? do i need 3d glasses? which type of 3d glass?
+Pls help!"
+,sanzhey,2010-08-27T00:19Z,works fine easy to install. but I cant play 3d. anyone hav a solution? I do have a 3d ready desktop n 3d bluray disk. but not able to play help
+,AndreLinoge,2010-09-15T22:33Z,"@sanzhey
+
+A 3D monitor maybeez? xD"
+,sreeraj702004,2010-09-21T11:02Z,"i have a problem....when i drag the timeline slider, the whole thing gets stuck!! also the audio effects like dolby pro logic is disabled!! any fixes??"
+,hieubg,2010-10-20T11:07Z,"I make some bluray iso with IMGBurn, mount with daemon and got this problem ""Unsupported format in drive x"". The iso worked fine with WINDVD and TOTALMEDIA THEATER 3"
+,saku234,2010-10-22T18:13Z,"Same problem, the 3d wont work, i have Nvidia stereoscopic 3D classes and samsung syncmaster 2233 3d display."
+,saku234,2010-10-22T18:31Z,And geforce gtx 285
+,s_4170_va,2010-10-28T15:13Z,"its work
+thanks....!"
+,mmmp9sjl,2010-10-31T14:16Z,"works very well, no need for any serial number or key/crack, many thanks!"
+,zonzai,2010-12-03T03:51Z,Does the sound work on BluRay disks with this version.  The last couple of releases I tried wouldn't play BluRay audio formats.
+,ps3_4_eva,2011-01-12T22:30Z,"Thanks for this brilliant upload, best video player I've ever used. makes DVDrips look like BDrips with the reccomended setting. makes movies look WAAAAY more real, and you feel like you're there, and the motion is ABSOLUTELY flawless. perfectly smooth, even with poor sources"
+,2311,2011-01-13T00:54Z,"Hello, I've a problem. Ik downloaded this torrent http://thepiratebay.org/torrent/5983576/Pillars.of.the.Earth.720p.BluRay.X264-REWARD . I don't get any sound. I thought it had something to do with the fact that those .mkv-files have DTS audio (the torrent uses DTS 1509kbps
+), but then again PowerDVD 10 is DTS-audio compatible, isn't? (By the way the same story when I use Divx Player Plus) Or are the files the problem? Could someone help me out here, thanx in advance!"
+,ps3_4_eva,2011-01-13T08:08Z,"@2311 yeah, try it with VLC and if it dosen't play properly in VLC its the file"
+,crzytimes,2011-01-16T00:45Z,+1 works like a charm
+,M_J_Luff,2011-01-19T04:04Z,"Brill.  Just install and go.  No virus, no code, no problems!!  Love it thanks!!"
+,mygirlscock,2011-02-15T15:44Z,"Thanks, I have disabled PoweDVD with firewall, no more stupid lightning etc popup, questions. Thanks "
+,Minot13,2011-03-12T09:52Z,error 1706. help please.
+,UleMbaya,2011-03-29T10:27Z,Thanks dude.
+,cyberkeeper1,2011-03-30T05:04Z,"to the users who have problems with their audio, its because more than likely you do NOT have HD audio output with surround sound encoding available. Meaning, your sound card probably doesnt have a surround output at all. also, to those who have problems with the seek bar, try to update your computer. include both the windows updates and PowerDVD updates. their might be an issue with your specific computer that prevents it from working properly. if it breaks the activation, simply reapply it. as long as the executable is not the one being patched, then the versions should not mismatch and the patch should be fine in any version. lets hope that ADHDerby was able to accomplish this. :)"
+,Yeshasd,2011-04-11T07:02Z,"It works flawlessly, thanks for that sir, but I have this problem
+
+I was using cinema mode but it has no sounds but has video. Can you help me with that sir?"
+,kyuss75,2011-05-28T03:30Z,Hi please can someone please help. I have installed as per instructions but when I restarted to complete install I get an error message saying could not find a file on the specified path or disk unable to locate file \Users\AppData\Local\Temp\7zS7493.tmp\PowerDVD.msi  the program is in my program list and runs from shortcut it has placed on my desktop but the installer program runs and I get this error message every time I restart my pc and also when I try to uninstall it...running Windows 7 32bit ultimate.
+,kyuss75,2011-05-30T03:21Z,"All good, managed to fix my problem by installing the update. :0)"
+,sr040956,2011-12-15T09:16Z,Need your help. This is new to me. Downloaded the link. Keep getting an update message even after I say yes. Still the same result. Notice the tweak package that can enable/disable that so I can enjoy a blu ray dvd. I just need basic steps on how to extract or simply use winrar to properly play a blu ray movie without interruption. Thanks

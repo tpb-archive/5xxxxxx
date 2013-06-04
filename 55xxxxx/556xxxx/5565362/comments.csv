@@ -1,0 +1,94 @@
+User Type,Username,Date,Text
+,IDiO,2010-05-19T13:45Z,"Doesn't work. Runs the game, but no text is visible whatsoever. Anywhere. Not sure how that's even possible ;)."
+,givemethis,2010-05-20T14:48Z,IDiO from where you download game?
+,IDiO,2010-05-26T06:23Z,here: http://thepiratebay.org/torrent/5095719/Supreme_Ruler_2020_Gold_%5BEnglish%5D%5BPC%5D%5Bgamerguuy%5D
+,givemethis,2010-05-26T14:40Z,"Hmm, I have same game image and loader works on my Win 7 x64.
+Try reinstall game and update video drivers."
+,IDiO,2010-05-27T00:59Z,"Win XP SP3, reinstalled, it does skip past the serial check (without the crack, the only thing you see is an invitation to ""re-enter"" valid serial :)) but then all the text both in the menu and in-game is gone. Really, really weird.
+
+PS. Image itself works fine."
+,Vig_vam,2010-05-28T20:12Z,"It's work. ?????? ????? ????????? ?????????? ??? ???????. ??????? ????? ?????????? ??????????, ??????????? ?? ? ?????? ?????. ????? ?????????????? ?????? ???? 6.6.1 ? ???????????? ?????????? ??????????. ????? ????? ?? ??????? ? ??? ????????. "
+,FormicHiveQueen,2010-05-28T22:40Z,"I'm experiencing the same issue as IDiO. The crack works fine, but all of the buttons in the game show up as white bars without text."
+,Alex1453,2010-05-28T23:50Z,"This DOES NOT WORK, period. Every button is white. Just download the game from the link IDiO gave above use the serial:  SKID-ROW0-RULE-YOUR-WORL-D431, apply the crack and enjoy the earlier, unpatched vesion of the game, unless you can find a working crack for this one, in which case please upload it in the PB:)"
+,IDiO,2010-06-02T08:41Z,All we really need is a new valid serial... Can't believe there still isn't one
+,Ophincar,2010-09-03T04:37Z,"givemethis, I think we can figure out what the problem is if you help us with some information:
+
+- Which version did you install? English or German?
+- What is the FULL installation path you chose? Program Files? Program Files (x86)?"
+,duiveldoder,2010-09-04T13:14Z,"I made a complete 6.7.63 version that works.
+Install complete 6.6.1 version,
+update all the way to 6.7.63 patch
+and then use my own made crack 0Kb!
+
+I'm not sure why cracks out there of 12kB and 63kB, and I wouldn't trust such sources as really, the crack itself is only 4bytes = 0kB
+
+But unfortunately every torrent where I want to upload my crack, block either my account or my upload.
+
+If someone else wants to try to upload it, contact me: mrgenie@mail.ru
+
+Like I said, I made 4 accounts with the pirate bay, the moment I try to upload my 100% non virus infected patch pirate bay blocks me out.
+
+And it's really BS to download cracks of 12 or even 63kB!!! As you only change only
+1) a few hexes in the exe
+2) Not needed if installed properly, you have to change some reg keys as well if installed unproperly
+
+anyway, my total package of 'everything included' will work for everyone..
+so, in case you need help how to do it,
+ask me at my mail address,
+and feel free to try to upload yourself my solution, as obviously I'm blocked out"
+,duiveldoder,2010-09-24T07:08Z,"Over 50 people got the fixed version (both complete version and stripped 661 version) many say thanks it's working etc. It's good it's working. But no one took the time to spread or try uploading to piratebay.
+
+The deal was, you can get it, but then please try to upload it, because in my country my IP gets banned from pirate bay. 
+
+Since no one even tries to upload it, but only leech, I hereby stop helping others.
+
+So stop asking or write emails for the working patch or anything. I won't reply anymore."
+,morMi,2010-11-23T11:55Z,"If someone have a working crack, please send it to mormota@hoff.hu
+I would be glad!"
+,slat1,2010-12-31T02:43Z,"After some trial and error I figured out that the text problem originated from the registery values of the patch installation and not from the loader.
+The game doens't realy need these values so, just uninstall the game but keep the actual files.
+
+1. Install Skidrow game image
+2. Use the serial: SKID-ROW0-RULE-YOUR-WORL-D431
+3. Install update v6.7.63 
+4. Copy all the content in the game folder and paste it elsewhere
+5. Uninstall the game
+6. Copy SupremeRulerLoader.exe to the copied game folder and launch it
+
+Enjoy!"
+,JerombaCZ,2011-01-02T07:03Z,"I will modify Slats advice from step 4
+
+instead uninstalling whole game, just run regedit, delete Battlegoat dirs both in Local Machine/Software and CurrentUser/Software
+
+Then run loader, retype SKID-ROW0-RULE-YOUR-WORL-D431 in cdkey check box and olala, game works"
+,JerombaCZ,2011-01-02T07:10Z,"!!!!!!!!!!!!!!!!!!!!!!!!! CHANGE !!!!!!!!!!!!!!!!!!!!!!!!!
+
+Delete whole battlegoat dir in HKEY_Current_User and then open and delete everything except CD KEY value in HKEY_Local_Machine/software/battlegoat/supreme ruler 2020
+
+otherwise you will have to retype it every time you run game"
+,_Necross_,2011-02-26T23:15Z,"slat's and jeromba's solution works great. But for WIN7 the register entry is not Local Machine/Software but 
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node
+Although menu shows version 6.6.1 I can see features of the new patch in game.
+Thanks!"
+,AleonDestiny,2011-03-01T03:41Z,"Fix for white boxes open regedit
+-Go to HKEY_CURRENT_USER,     Software,     Battle Goat,     Supreme Ruler 2020
+-Edit Language File And Change LOCALEX to LOCALEN
+-Sometimes Under one of the of HKEYs instead of current user"
+[V],matimike,2011-05-07T17:06Z,"works perfectly, thank you  givemethis"
+,crowb14,2011-07-14T08:06Z,it worked but every thing is not showing in game like i cant even pick my teams the menu ids missing every botten
+,Enf0rc3,2011-10-08T16:09Z,"***WHAT I HAVE DONE TO RUN THIS GAME***
+
+1. I Downloaded the Game from here http://gwarez.cc/4130/supreme-ruler-2020-gold-skidrow/
+2. After the Download i run the Installation
+3. He ask me if i would update, i pressed ok and i was downloading a 250mb File ~ (Update 6.7.63)
+4. After the complete Installation i go again in the Mounted CD-Rom folder and copied the 2 files into my Directory 
+5. I run the Game and noticed that the Buttons are all white
+6. I closed the game and opened the Regedit (You can open it with the execute function from windows WinXP = Execute / Win7 Start -> Searchbar)
+7. i go to HKEY_CURRENT_USER ---> Software ---> Battlegoat ---> Language and edited from LOCALEX to LOCALEN
+8. For another languages this works also for example im from Germany and i replaced the 2 last Letter who standing for English to ""DE"" what means German, here the example
+LOCALDE
+LOCALEN
+....
+
+9. I run the game, and i notice that all the White bars now have letters :o),
+10. I Start the Campaign and anything works fine :D"

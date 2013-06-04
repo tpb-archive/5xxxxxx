@@ -1,0 +1,78 @@
+User Type,Username,Date,Text
+,garfieldmc,2010-05-24T23:30Z,please seedddd ! thks
+,toroechado,2010-05-25T06:22Z,Thanks! working perfect!
+,kriss1313,2010-05-27T01:18Z,"STILL ASKS FOR SERIAL :(
+NO PRO!!!"
+,toroechado,2010-05-28T21:52Z,Just follow instructions exactly as are
+,MaxxPowers,2010-06-22T07:38Z,"Followed directions perfectly and get this error -
+
+LimeWire version 5.5.8
+Java version 1.6.0_20 from Apple Inc.
+Mac OS X v. 10.6.4 on i386
+Free/total memory: 51520200/65470464
+
+FATAL ERROR!
+
+java.lang.UnsatisfiedLinkError: org.mozilla.browser.impl.CocoaUtils.asyncExecOnAppKitThread(Ljava/lang/Runnable;)V
+	at org.mozilla.browser.impl.CocoaUtils.asyncExecOnAppKitThread(Native Method)
+	at org.mozilla.browser.MozillaExecutor.asyncExec(MozillaExecutor.java:339)
+	at org.mozilla.browser.MozillaExecutor.mozAsyncExec(MozillaExecutor.java:508)
+	at org.limewire.core.impl.mozilla.LimeMozillaOverrides.overrideMozillaDefaults(LimeMozillaOverrides.java:27)
+	at org.limewire.ui.swing.Initializer.initializeEarlyUI(Initializer.java:576)
+	at org.limewire.ui.swing.Initializer.initialize(Initializer.java:180)
+	at org.limewire.ui.swing.GuiLoader.load(GuiLoader.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.limewire.ui.swing.Main.main(Main.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at apple.launcher.LaunchRunner.run(LaunchRunner.java:115)
+	at apple.launcher.LaunchRunner.callMain(LaunchRunner.java:50)
+	at apple.launcher.JavaApplicationLauncher.launch(JavaApplicationLauncher.java:52)
+
+
+-- listing session information --
+Current thread: main
+Active Threads: 15
+Peak Number of Thread: 19
+System Load Avg: 0.9765625
+Objects Pending GC: 0
+Free Space In Settings: 162701123584
+Free Space In Incomplete: 0
+Free Space In Downloads: 0
+Heap Memory Usage: init = 67108864(65536K) used = 14574000(14232K) committed = 65470464(63936K) max = 265093120(258880K)
+Non-Heap Memory Usage: init = 12750848(12452K) used = 29486232(28795K) committed = 37199872(36328K) max = 100663296(98304K)
+
+-- listing threads --
+AWT-AppKit: 1
+AWT-Shutdown: 1
+CreationTimeCacheDeserializer: 1
+Deadlock Detection Thread: 1
+FastExecutor: 1
+backgroundExecutor: 1
+main: 1
+Poller SunPKCS11-Darwin: 1
+FirewallEventThread: 1
+AWT-EventQueue-0: 1
+Library Disk I/O Thread: 1
+Image Fetcher 0: 1
+UDPSocketChannelConnectionEvent: 1
+IdleThread: 1
+NIODispatcher: 1
+
+
+-- listing properties --
+FILTER_HASH_QUERIES=true
+CUSTOM_FD_CRITERIA=ups;atUpSet;"
+,Mgurica,2010-06-29T00:00Z,"Done n done, thank you good sir"
+,joepearcee,2010-07-06T11:32Z,"@kriss1313 
+
+Just downloaded, mine does the same.
+Click NO THANKS & it still works as Pro ;)
+well, for me atleast."
+,ikickurasz,2010-07-06T13:38Z,"No, its not limewire pro, its just the ' normal' version :/"
+,iN0pay,2010-09-07T03:52Z,work thanks if you are haveing problems just read the read me thing 

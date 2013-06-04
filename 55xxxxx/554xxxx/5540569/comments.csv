@@ -1,0 +1,25 @@
+User Type,Username,Date,Text
+,t06afre,2010-06-01T13:18Z,"SHAME ON YOU Horose! I GOT A VIRUS WARNING infostealer.gampass  IN THE AD9KeyGen.exe
+Safe crack Description:
+1) Edit ""License.ini"" in NOTEPAD. You can change this strings:
+TransactorName= Your name - for ex. John Smith
+TransactorID=   any 6 digits number
+SerialNumber=   any 7 digits number. If you are on a network your SerialNumber must be unique
+2) Run AD9KeyGen, and switch to English lang.
+Click IMPORT INI button and load your ""License.ini"" file.
+Generate your own license file via EXPORT ALF button.
+3) Click ""Build Agreement"", save the generated alf file to your installation directory;
+4) Install Altium Designer. Do not start the application!
+5) Backup dxp.exe (like create a zip file)
+6) With a hex editor like Cygnus , open the installed dxp.exe file, search and replace this hex values: 
+f8ff84c075088d45 
+and replace 75 with EB: 
+f8ff84c0eb088d45 
+Save and exit.
+7. Start DXP, Run menu DXP-> My Account, click the Add Standalone License file, load the license file generated before.
+If you update you must replace the cracked DXP.exe with the original DXP.exe. Run the update, and repeat step 5 and 6"
+,t06afre,2010-06-01T17:35Z,Sorry the virus is in the ads09crack.exe NOT IN THE AD9KeyGen.exe
+,Cristo,2010-06-03T07:23Z,Tested & no virus found
+,GarryBSI,2010-11-18T03:31Z,"Instructions by t06afre also work for build 9.4.0.20159 
+
+Haven't tested exhaustively, but seems all good."

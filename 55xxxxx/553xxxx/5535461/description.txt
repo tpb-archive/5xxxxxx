@@ -1,0 +1,50 @@
+BadBlockRemapper Helper for NandPro v0.2 by Nknave/Krizalid
+
+Changes from v0.1 to v0.2
+
+- Added nandchk v2.3 to avoid using 360 Flash Tool During the Process.
+- Fixed a couple typos and made the script a little more stethic.
+- You now have to enter the names of your source and target file.
+* Source being the retail file that has bad blocks
+* Target is the file that will be flashed to your console
+* Name must be in this form: "nandname.bin" without quotes.
+
+Since we haven't had any updates with Badblockmover
+I decided to script a little batch file for my needs 
+and I like to share it with you all.
+
+I know, it's no super code, but it's something to 
+help those who are struggling with bad blocks using
+Freeboot and suffer remapping manually.
+
+- Supports FreeBoot v0.03x, XBR, etc.
+- Supports all 16MB and 66MB dumps
+- Strongly recomend NANDPro2b for virtual files.
+
+
+How does it work?
+
+It will go in the following steps:
+
+- Will ask for NAND size
+
+- Will ask for bad block ID (example: 11d is bad on orig.bin;
+* will dump 11d from updflash.bin and zero out this block).
+
+- will ask for target block ID (example: 11d will be flashed to 
+* specified block like 3FF)
+
+Will loop untill you have remapped all bad blocks.
+
+
+Intructions:
+
+- Unpack this package to the root of nandpro folder.
+
+- make sure nandpro.exe is the executable name
+
+- make sure your freeboot image is called updflash.bin
+
+
+
+-Nknave/Krizalid

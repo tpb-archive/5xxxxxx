@@ -1,0 +1,18 @@
+Arn - The Television series [2010]
+
+6 episodes
+
+Standard MP4 container with:
+
+     video: H.264 768x432 25fps
+
+     audio: AAC LC - stereo 24kHz
+            Mostly in Swedish but some English and Arabic
+
+  subtitle: In swedish (spoken swedish is also subtitled)
+
+Playback with subtitles is tested to work with
+VLC and Media Player Classic.
+
+Use mp4box to extract subtitles to separate file if
+needed ("mp4box -srt 3 Arn_1.mp4").

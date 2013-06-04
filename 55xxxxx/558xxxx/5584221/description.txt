@@ -1,0 +1,245 @@
+Full Version of America's Army Version 2.8.3
+
+This is the version that myself and our clan plays on.
+
+We are recruiting h t t p : / / e l i t e s t a r . c l a n . s u
+
+
+We currently have 2 servers running on this version.
+
+Personally I run multiple versions of this game, drop me a line to learn how.
+
+Custom maps, yes I posses over 300 maps. 
+
+Just ask,
+
+({STAR})spkenny2-A
+
+May 23rd 2010.
+
+
+
+
+America's Army: Special Forces (Overmatch) 
+Release Notes - Version 2.8.3 
+
+
+What's New 
+============================================= 
+Our goal is to tighten up the game, increase performance and reduce the size of 
+the installers. We improved the frame rate a great deal in this release. Some 
+people have reported as much as a 40% increase - although performance varies 
+based upon your specific system setup. 
+
+-Instant Action- 
+The new Instant Action mode of Americaâ€™s Army allows you to quickly jump into 
+the AA action without the need to complete training first. Now with Instant 
+Action Recruit status you can play alongside veteran AA gamers and complete 
+training at your convenience. Instant Action is available on any mission that 
+is not restricted to Special Forces only players. You will need to complete 
+Basic Combat Training in order to achieve honor levels higher than Honor 20, 
+plus you'll gain the benefits of improving your skills as a soldier with each 
+training level you complete! Your Honor will remain at 20 until you pass BCT, at 
+which point you will receive all of the additional experience points you have 
+accrued. 
+
+-AA Loader- 
+The new AA Loader checks your version of the game to ensure you are up to date 
+with the most current release. It also provides easy links to other community 
+tools and support information. The AA Loader requires Internet Explorer 6.0 or 
+later be installed on your system. 
+
+-Flashbang- 
+The flashbang has been tuned a bit to make it more realistic. The effectiveness 
+has been reduced when used outdoors. Also the blackout duration has been 
+reduced. 
+
+-Weapon Reloading- 
+Weapons reload faster then before. Fixing jams and using the 
+supported/unsupported function are also quicker now. 
+
+-Every Soldier is a Sensor (ES2)- 
+Every Soldier, as a part of a small unit, is a potential information collector 
+and an essential component in achieving situational awareness. The updated 
+SF Extraction mission includes new ES2 gameplay designed to embrace this 
+new ES2 philosophy. 
+
+-SAI Creation Tool- 
+The AA Mission Editor now includes tools to help you set up and capture images 
+for use with the Situational Awareness Indicator (SAI). You can customize 
+the captured images and import them into your maps to enable simple SAI 
+functionality. Look in the 'Tools/SAI Map Image Tools' menu to give it a try. 
+
+System Requirements (have not changed) 
+============================================= 
+The current Minimum System Requirements for AA:SF (Overmatch) are as follows: 
+
+* 3-D graphics card with 128 MB memory and support for hardware transformation and lighting 
+* 1.8 GHz processor or equivalent 
+* English version of Windows(r) 2000/XP Operating System with latest updates 
+* 512 MB RAM 
+* 3.5GB of uncompressed hard disk space for game files 
+* 4X DVD-ROM (not required for downloaded installations) 
+* Windows 2000/XP compatible system 
+* DirectX(r)9.0 
+* 100% Compatible DirectX 9.0 soundcard 
+* 56kbps Modem or other network connection 
+* *NvidiaÂ® nForceâ„¢ or other motherboard/soundcards containing Dolby DigitalÂ® Content Encoder 
+required for Dolby DigitalÂ® audio. 
+
+
+The current Recommended System Requirements for AA:SF (Overmatch) are as follows: 
+
+* 3-D graphics card with 256 MB memory and support for hardware transformation and lighting 
+* 3.0 GHz processor or equivalent 
+* English version of Windows(r) 2000/XP Operating System with all updates 
+* 1 GB RAM 
+* 3.5GB of uncompressed hard disk space for game files 
+* 4X DVD-ROM (not required for downloaded installation) 
+* Windows 2000/XP compatible system 
+* 100% Compatible DirectX 9.0 soundcard 
+* Broadband Network Connection 
+* *NvidiaÂ® nForceâ„¢ or other motherboard/soundcards containing Dolby DigitalÂ® Content Encoder 
+required for Dolby DigitalÂ® audio. 
+
+
+Technical Notes 
+============================================= 
+Important Note for Server Hosts/Admins 
+The cooperative missions will take significantly more CPU resources to run during normal gameplay due 
+to the additional AI processing load (shared between the server & client). Server hosts planning to 
+run Co-Op servers should plan accordingly. In addition, players running a Co-Op server and client on 
+the same machine will experience heavy CPU demand. 
+
+It is recommended that server rotations switch only from Co-Op level to Co-Op level, or MP to MP level 
+for best performance. 
+
+
+Game Ports 
+============================================= 
+The internet ports currently required to be open for America's Army v2.8.2 are listed below: 
+
+UDP - 1716, 1717, 1718, 8777, 27900 
+TCP - 14200, 20025-45, 20046, 20047, 20048, 28910 
+
+UDP ports explained: 
+1716 for the Game, 
+1717 for the GameQuery, 
+1718 for the Master Server Query, 
+8777 for the Standard UT Query, and 27900 for GameSpy. 
+
+TCP ports explained: 
+28910 for GameSpy 
+20025-45 for MBS Game Server, 
+20046 for the Auth server, 
+20047 for MBS, 20048 for DCDS, and 14200 for LAN. 
+
+
+What's Fixed 
+============================================= 
+
+NOTE: This list only includes bugs present in v2.8.2 that have been fixed. 
+Bug fixes related to new v2.8.2 features and certain security/exploit fixes have been removed from 
+this list. 
+
+
+Bugs Fixed 
+- Demorec: Demorec system does not save files to the correct directory 
+- Demo Mode: There are no sounds from the pawns weapon when he is firing it. 
+- Shoothouse Map: Wrong m9 ammo is shown on the table 
+- Demo Mode: Muzzle flashes are not displayed on playback. 
+- SF Water Treatment Map: Player is able to shoot through bulletproof glass in Machinery Server Room 
+- Gameplay: Screen shaking is observed when player joins map and changes viewpoints 
+- Medic Field: Cap rank does not match rank on ACU Shirt 
+- Weapons: Obtaining 31 40MM rounds with the M203 causes the rifle to malfunction. 
+- GamePlay: Player observes camera shaking while dying. 
+- Steamroller Map: Objective shows up through concrete wall 
+- Hospital Map: Smoke grenade is eaten by truck. 
+- Guildhall SF Refinery - Reporting in Northwest & Southeast are not reporting correct area 
+- SF_CSAR: Player pawn stuck between building ground rubble and wall 
+- SF Courtyard: Rock/wall causes pawn to get stuck and bounce 
+- GuildHall SF Old Town: Player able to crawl under Tunnel Alpha floor and see other parts of the map 
+- VRS: VAE NPC goes into crouch position when action key is used 
+- Rummage: Lamps do not register bullet hits 
+- River Village: Building has a random ledge sticking out 
+- Rummage: Player movement is blocked when moving along the wall 
+- Rummage: Item on clothes line causes warping 
+- G15: Single player training missions show up with improper names or labeled as "untitled" 
+- G15: Player's name displayed too large. 
+- Stats: "Killed while capturing objective" statistic is not being recorded 
+- Rummage: Glitch on map, unable to move through doorway 
+- Viewing scoreboard while playing COOP maps causes log spam 
+- Rummage: Pawn gets stuck in SW Corner 
+- SF Hospital SE: NPC AI cause player to be shielded from live fire 
+- Rummage : Player gets stuck in one location 
+- Urban Assault: Stair well openings in Urban Assault have blocking volumes that allow bullets 
+but not grenades 
+- Interdiction: Opening door causing collision with Civilian Informant, ending missing 
+- Excessive server log spam when AI hits movers or navigates to objective locations 
+- Editor: The "Possible Corrupted Installation" message box can become lost behind the splash screen 
+forcing the user to force quit the application. 
+- Player is able to move while securing an objective if the player is self-healing 
+- Player may not spawn in the next round if they were leaning in the previous round at the time in which 
+it ended 
+- GuildHall SF Floodgate: Player gets stuck exterior catwalk 
+- Training, Weapons Familiarization: Pawn rotation is limited to the bipod deployed scope when the weapon 
+is not up 
+
+Crash/Exceptions Fixed 
+- Unreal Editor: Crash when using SAI Map Save Image 
+
+Miscellaneous Issues Addressed 
+- SteamRoller: Pawn warps across map when jumping on top of telegraph pole 
+- FOV changes back to normal while weapon is still zoomed 
+- Player pawn disappears from view when motionless against wall surfaces 
+- SF Floodgate: Assault player is able to disappear from Defense view. 
+- Rummage: Player able to get to barbed wire rooftop 
+- River Village: Player able to fall through map if jumped on 
+- Field Dressing: User can stay alive by repeatedly applying field dressing 
+- Player able to take multiple objectives without standing next to it 
+- Player can apply Field Dressing while looking through scope or sights 
+- Medic: Instant reload can be performed when a medic has an empty magazine and reloads while performing 
+a healing action 
+
+Improvements 
+- Duration of flashbang too long 
+- Flashbang effectiveness outdoors is too strong 
+- SF Floodgate: Add Random Spawning to prevent grenade spam 
+- River Village: Rename the teams to "Assault Alpha" and "Assault Beta" since the level has random spawn 
+points 
+- Increase the speed of the weapon reload, fixjam and supported/unsupported animations 
+- Demo Mode: Surpress UI elements from being displayed during playback 
+- Punkbuster: Update PBSetup to version 3.0 
+- Do not apply points to personal jacket that are obtained during rounds which forceclass is used on honor servers. 
+- Do not allow server administrators to forceclass individual players on honor servers without cheats 
+being enabled. 
+
+New Features 
+- Add support to flag a map/mission as a night time level so that flashbang intensity is not reduced in 
+night time outdoor zones. 
+- Introduce the America's Army Loader 
+
+Performance Fixes 
+- Opening console adversely affected game performance 
+
+
+Known Editor Issues 
+============================================= 
+White/missing viewports 
+When the Editor is launched, the viewports will appear to be missing or all white. 
+To resolve this issue simply go to "View > Viewports > Configure ...", select one of the options and 
+click OK. 
+
+Brightness/Gamma 
+When the Editor is launched the brightness/gamma will be increased. 
+Adjustments to the gamma can be made in "View > Gamma Options". 
+
+Unable to select any map objects (static meshes, brushes, etc) using right or left mouse click 
+** This issue is specific to systems with ATI graphics cards ** and occurs due to Anti-Aliasing 
+and/or Anisotropic Filtering being enabled. 
+Disabling these settings has been shown to resolve the problem. 
+
+Dual Monitor Setup: Unable to move the Editor from one monitor to the other. 
+** This issue is specific to systems with ATI graphics cards ** 
+To resolve this issue, click the View menu and uncheck "Automatically reposition windows".    
+ 

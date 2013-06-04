@@ -1,0 +1,19 @@
+Hi TPB fellows, I've found some stuff into the cs(put a dot)rin(put a dot)ru forums I'd like to share!!!
+
+Step 1: Extract the contents of the "SCC Starting Crack.rar" INSIDE the SC:C's directory (C:Program Files (x86)UbisoftSplinter Cell Conviction).
+
+Step 2: Go to C:WindowsSystem32driversetc and you'll find the "hosts" file. Rename this file to "hosts2" or something along those lines. Copy the "hosts" file that you downloaded (located in the RAR file).
+
+Step 3: Open the Start Menu and either click Run.. or type "cmd" into the Vista/7 search bar, and right-click cmd.exe in the results, and left-click "Run as administrator.." once the cmd shell is open, type in "ipconfig /flushdns" and it will confirm that it has done so. Close out of the cmd shell.
+
+Step 4: In the SC:C directory, copy the "ubiorbitapi_r2.dll" file. Then, navigate to the Ubisoft game launcher directory (C:Program Files (x86)Ubisoft by default, or whatever your location is - may not be changeable, actually) and go into the "Ubisoft Game Launcher" folder. In there, you should see another "ubiorbitapi_r2.dll" file. Backup this file or whatever. Then paste the one you copied in the RAR.
+
+Step 5: Go to the SC:C directory, and run the server.exe file. Then, in the SC:C directory, go into the "src" folder, then the "system" folder and launch the game using the conviction_game.exe.
+
+Step 6: Log into the game using a Ubisoft account that actually exists. Yes, you can register one: it doesn't require a key or anything. Simply register the account. Not that it matters for now, but make sure that when the game is launching that you click the gear in the top-right corner of the window and DISABLE online game-saving.
+
+This should work for all of you. If you have any problems, let me know.
+
+Note/Edit: The game DOES NOT WORK for campaign or any other mode, as of now. The only mode that works is Deniable Ops, which is the Coop Mode, basically.
+
+If the problems still persist, reinstall the game.

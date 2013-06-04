@@ -1,0 +1,66 @@
+Metasploitable is a Linux VM configured specifically to be vulnerable to several attacks avaialbe to both Metasploit and Metasploit Express.
+
+Contents of the README.txt:
+
+System credentials:
+-------------------
+msfadmin:msfadmin
+user:user
+service:service
+postgres:postgres
+klog:123456789
+
+
+Discovery:
+-------------
+ftp  		21/tcp  	220 ProFTPD 1.3.1 Server (Debian) [::ffff:10.0.0.48]
+ssh 		22/tcp 		SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1
+telnet 		23/tcp 		Ubuntu 8.04x0ametasploitable login:
+smtp 		25/tcp 		220 metasploitable.localdomain ESMTP Postfix (Ubuntu)
+dns 		53/tcp 	
+dns 		53/udp 		BIND 9.4.2
+http 		80/tcp 		Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch
+netbios 	137/udp 	METASPLOITABLE:<00>:U :METASPLOITABLE:<03>:U :METASPLOITABLE:<20>:U :WORKGROUP:<00>:G :WORKGROUP:<1e>:G :00:00:00:00:00:00
+smb 		139/tcp 	
+smb 		445/tcp 	Unix Samba 3.0.20-Debian (language: Unknown) (domain:WORKGROUP)
+mysql 		3306/tcp 	5.0.51a-3ubuntu5
+distccd 	3632/tcp 	
+postgres 	5432/tcp 	8.3.8
+http 		8180/tcp 	Apache-Coyote/1.1
+
+
+Bruteforce:
+-----------
+smb         Anonymous
+ssh         6 sessions
+telnet      6 sessions
+bind        n/a
+apache      2 web apps (twiki and tikiwik)
+postgres    db compromise (postgres:postgres)
+mysql       db compromise (root:root)
+tomcat 5.5  shelled (tomcat:tomcat)
+
+
+Exploits:
+---------
+distcc                  Excellent     1 session on all ranking levels
+tomcat_mgr_deploy       Excellent     requires credentials
+tikiwiki_graph_formula  Excellent     1 session on all ranking levels
+twiki                   Excellent     information disclosure
+mysql_yassl_getname     Good          triggers crash, but not working
+
+
+TODO:
+-----
+switch to a vulnerable version of sendmail
+configure proftpd with vulnerabilities (sql injection? others? downgrade?)
+
+
+Expected sessions:
+------------------
+From Bruteforce:
+ 5 ssh, 5 telnet, 1 tomcat
+From Exploit:
+ 1 distcc and 1 tikiwiki_graph_formula
+
+(more if you use known credentials - try multiple times for extra win)

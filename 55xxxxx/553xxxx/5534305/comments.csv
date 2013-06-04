@@ -1,0 +1,22 @@
+User Type,Username,Date,Text
+,Fuckinoob,2010-05-05T04:40Z,Thanks
+,Chiefobi,2010-05-05T06:58Z,"thx, good work..."
+,hattedone,2010-05-06T03:56Z,Am I missing something.  This is a trial.... how to I get it fully working?
+,hattedone,2010-05-06T04:04Z,oops never mind.. I see that the reg file was clickable after rebooting.  Great software... I actually think I may buy this... we have to support truly great software like this.
+,hattedone,2010-05-07T04:56Z,I that back.  The registration key worked for 1 day.. the next day the program said - trial period is OVER.  So anyone got a fix to this?
+,hattedone,2010-05-07T05:46Z,"Ok.. after installing.. it said it was a trial version for 21 days.  Clicked on the included reg file and viola boom it said I was registered till 2011.  The next day.. I bootup and 'your trial period is over' and I can't use it at all.  Any help here is appreciated.   If I uninstall it and reinstall again, I get the 21 trial period, but if I dare use that included reg file - boom it's dead.  Anyone else? "
+,hattedone,2010-05-07T06:14Z,"figured I would help you out... after an hour of tinkering.. I found the program connects to the internet and invalidates your reg.  So you need to disconnect from the net, then go into c: program data, slysoft (the enable showing hidden files) then rename anydvd.chk to anydvd.bak  or just delete it.  Also disable internet updates.  Run the program and you're back in business. Another torrent explains this better.  Again I want to see if this will back up my most difficult blu rays and then I will buy it if it's worth it.  Thanks to pirate bay for providing fully working chances to use it since the trial is handicapped and annoying."
+,Satsuma117,2010-05-07T18:22Z,Thanks works great!
+,TheGarden,2010-05-14T19:21Z,"@HATTEDONE, what are you on about? there IS NO anydvd.chk file anywhere, hidden or otherwise"
+,TheGarden,2010-05-16T07:05Z,"@HATTEDONE, stop smoking whatever it is you're smoking.
+
+ANYDVD.CHK file is located in C:Documents and Settings\All Users\Application Data\Slysoft\AnyDVD (XP)       NOT Program Data
+
+and you have to show hidden files n folders, and uncheck Hide Protected Operating System Files in Folder Options just in case.
+
+you can just delete the chk file, it will be replaced with a LIC (licence) file when you click on the registration file included with the release
+
+better safe than sorry, disconnect from the internet during installation and when it says ""must restart pc to complete installation""."
+,mrnapolean1,2011-09-20T05:12Z,"Your Trial has expired
+
+i am going to find a patch for this."

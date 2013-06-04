@@ -1,0 +1,121 @@
+No personal computer exists in a vacuum. As elegantly designed as Macs are, a connected world means that their popularity attracts the attention of malware writers and virus engineers. Not only can malware and other threats attack the Mac OS X platform directly, but Macs can also serve as a carrier of Windows or Linux-based threats. Network shares, email and removable media like USB keys are easy ways for multiplatform malware to spread undetected. Additionally, third party applications which are not consistently patched and updated, are prime targets for hackers to gain control of user systems.
+
+ESET NOD32 Antivirus 4 for Mac brings protection that Windows users have trusted in and depended on: the smart proactive detection and small footprint of our ThreatSenseÂ® technology. ESET NOD32 Antivirus 4 will keep you and your network safe from emerging and cross-platform threats without system slowdowns. Advanced heuristic technology recognizes and nullifies novel threats while other AV solutions are still waiting hours or days for signature updates.
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+March 23, 2010
+The license term for ESET NOD32 Antivirus 4 for Mac Beta has been extended. The previous license key expires on April 1, 2010. All users who would like to extend their license must download and install the latest build of ESET NOD32 Antivirus 4 for Mac. To uninstall any earlier builds before installing the latest version, Force Quit ESET NOD32 Antivirus 4 for Mac, drag the application to the Trash from the Applications window in Finder and then restart your computer.
+
+January 8, 2010 
+A new build for ESET NOD32 Antivirus 4 for Mac is now available. Build 4.0.12 addresses the system font errors that had been reported after the first public beta release and other minor bugs in the graphical user interface. The new build also includes improvements to the user interface. 
+
+For a complete list, see the Changelog tab, above. 
+
+December 2, 2009 
+The first public beta for ESET NOD32 Antivirus for Mac OS X Desktop is now available. 
+
+Based on our technology for BSD, Linux, and Solaris servers, ESET NOD32 Antivirus for Mac OS X Desktop has evolved to provide a GUI and feature set similiar to ESET NOD32 Antivirus for Microsoft Windows. 
+
+ESET NOD32 Antivirus for Mac OS X Desktop (MENA) is built on ThreatSense, the industry's most accurate proactive technology for detecting viruses and other malware, delivering proactive protection against zero-day threats and attacks. Features of ESET NOD32 Antivirus for Mac OS X Desktop include: 
+advanced scanning settings (comparable ESET NOD32 Antivirus v4 for Windows)
+detection of threats for Mac OS X, Windows, Linux and other operating systems
+informative graphs, statistics and logs
+removable media scanning
+proxy support
+scheduler for automating scans
+support for both 32-bit and 64-bit Intel CPUs
+ThreatSense.NET sample submission
+This beta test version is a precursor of the final product without full functionality and documentation. It is intended for experienced Mac OS X users and should not be installed on computers that perform critical tasks because it may cause errors or crashes.   We are not testing for compatibility with nor are we able to support ESET NOD32 Antivirus for Mac OS X Desktop on non-Apple hardware. 
+
+For additional information and known bugs for this release, see the Changelog tab, above.
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+General Questions
+
+Q1: What is ESET NOD32 Antivirus for Mac OS X Desktop? 
+A1: ESET NOD32 Antivirus for Mac OS X Desktop is ESET's anti-malware offering for Intel-based Apple computers. 
+
+Q2: How do I obtain a copy? 
+A2: Download links and information are available at http://beta.eset.com/. 
+
+Q3: Why do I have to fill out a form to download the beta? 
+A3: You do not have to fill out the form to download the beta, however, if you do we will be able to contact you via email during the beta test cycle to announce new releases or provide other urgent information. 
+
+Q4: How many beta test releases will there be? 
+A4: ESET does not have a public schedule for when new beta test builds will be released. New beta test builds will be released in response to feedback from bug reports and feature requests as well as to add additional functionality to the software. 
+
+Q5: How long will the beta test program run for? 
+A5: The beta test cycle for ESET NOD32 Antivirus for Mac OS X Desktop will run until the program reaches the necessary levels of quality, performance and reliability. 
+
+Q6: What happens at the end of the beta test program? 
+A6: At the end of the beta test program, a message will be sent to testers who provided a contact email address letting them know the exact date the beta test version ceases to work. If you did not provide contact information, you will only receive notifications through thrugh the program when the beta test version's license has expired. 
+
+Q7: How do I provide feedback? 
+A7: There are two ways to contact ESET in order to report a bug, request a feature or ask a question regarding ESET NOD32 Antivirus for Mac OS X Desktop: 
+Write a message in the ESET Other Products Forum. 
+Send email to betasupport@eset.sk. 
+
+Please keep in mind that ESET may not respond to your report unless additional information is required in order to replicate the problem. 
+Public Beta 1 Questions
+
+Q1: Is a list of known issues available? 
+A1: A list of known issues can be found in the Changelog tab. 
+
+Q2: Which versions of Mac OS X are supported? 
+A2: ESET NOD32 Antivirus for Mac OS X Desktop runs on Mac OS X 10.5.x and 10.6.x  both 32-bit and 64-bit (AMD64/EMT64) architectures are supported (where applicable).
+
+Q3: What are the specific hardware requirements? 
+Q3: Hardware requirements are still being finalized and we are hoping you will report your experiences back to us. In general, the highly optimized code and moderate system requirements mean it should work on any computer capable of running Mac OS X 10.5.
+
+Q5: How do I uninstall ESET NOD32 Antivirus 4 for Mac?
+A5: To uninstall ESET NOD32 Antivirus 4 for Mac, use the ESET NOD32 Antivirus 4 Uninstall application included in the EAV4 Install Disk. If you do not have the EAV4 Install Disk, force-quit ESET NOD32 Antivirus 4 for Mac by clicking Apple â†’ Force Quit and then selecting EAV4 â€” Beta. When the application has closed (it will no longer be present in the Dock or on the menu bar), open the Applications window in Finder. Select the EAV4 application and drag it to the Trash. Restart your computer. Empty the Trash. 
+
+REV. 20091201AG
+
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Changelog
+
+January 8, 2010
+The following are new or revised features for ESET NOD32 Antivirus for Mac OS X Desktop: 
+General
+Fixed GUI failure that had occurred in some cases during configuration imports
+System font warnings no longer display
+Added advanced "About" window and "Splash" screen
+Added information windows about detected and cleaned infiltrations
+Support for selection of multiple items from lists 
+ 
+
+December 2, 2009 
+The following are new or revised features for ESET NOD32 Antivirus for Mac OS X Desktop: 
+General
+initial release (no changes)
+Known Issues
+font error reported on initial installation
+no popup displayed when threat found
+status icon turns red when signature update fails
+
+These and other identified issues will be resolved in future builds.
+
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+Brought You By LH-TAIMI.
+Find Virus?
+Contact me on LH-TAIMI@live.se Or Comment.
+
+Downloaded From: http://beta.eset.com/
+
+Feel Free To Ask Questions.
+
+if its Crash? Still Beta!
+Serials And Cracks?
+Post Links.
+Serials, DO NOT POST SERIAL HERE (Infact This is a legal torrent) ;)
+
+3NJOY!

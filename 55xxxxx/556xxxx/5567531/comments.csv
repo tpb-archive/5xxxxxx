@@ -1,0 +1,46 @@
+User Type,Username,Date,Text
+,h0ser81,2010-05-19T03:31Z,Is this game freezing for anyone else?
+,kevinmitzel,2010-05-19T22:23Z,"hoser81, this game froze 4 me too through usb loader & u loader. I got it to work for a while using neogamma with default settings.... We""ll have to wait and see what the fix is. Markuf will figure it out he always has good torrents...."
+,tylerm21,2010-05-20T02:34Z,I couldn't get it to load at all in USBLoaderGX and in WiiFlow I got to those title screens then it froze
+,xx21playerxx,2010-05-20T04:31Z,"FIX>>>>>>>>>>>>>>
+
+Here is the replacement main dol............@ MU
+/?d=OHOM50A0
+
+Use wiiscrubber.
+ENJOY!!!!!!!
+
+Still issues with the USB Loader Gx and Wiiflow, freezes at the same spot. However works with Neogamma R9 beta 6 rev 17 loading from WBFS HDD. NTSCU 4.1"
+,kevinmitzel,2010-05-20T21:03Z,"Install USB Loader GX r782
+Install Wanins cIOS36 rev9
+
+
+GX Settings:
+Video Mode: Autopatch
+Error 002 Fix: on"
+,kevinmitzel,2010-05-20T21:09Z,"game keeps freezing do this.......
+
+Install USB Loader GX r782
+Install Wanins cIOS36 rev9
+
+GX Settings:
+Video Mode: Autopatch
+Error 002 Fix: on
+Works on softmod Wii"
+,aquickheadsup,2010-05-28T16:11Z,"The game worked for me, but then froze shortly into the third or fourth enemy encounter.  Can't say I was too upset, though, as this game feels like a step backwards from previous PoP titles.  I uninstalled immediately after the freeze and haven't looked back."
+,EpyxZ,2010-06-22T21:42Z,"if you get freezes create a text file with gameid.wip with the following inside it.
+
+007AAC6A 7A6B6F6A 6F6A7A6B
+007AAC75 7C7A6939 69397C7A
+007AAC82 7376686B 686B7376
+007AAC92 80717570 75708071
+007AAC9D 82806F3F 6F3F8280
+
+copy the .wip file to your sd card or usb in the code directory for your loader and it will work.
+
+wip and .dol patching thread for this game. check it if you need more info / help
+
+http://gbatemp.net/t227702-prince-of-persia-the-forgotten-sands?&st=360"
+,MechwarriorPuppies,2010-12-15T07:03Z,"The text above for the .wip file works for me. Here's how I got it to work: I updated to the latest version of USB Loader gx (r938), then opened notepad, pasted the above text and saved it as RPWZ41.wip and put it in the USB Loader gx folder on my Wii SD card. Simple! It didn't work for me before I updated."
+,vinnylima,2011-03-11T20:46Z,"Works perfectly on my NTSC-U console w/ Wiikey 2 (running through Disc Channel).
+By the way, this is indeed the American version of the game, but Wii Backup Manager shows it as Region Free."

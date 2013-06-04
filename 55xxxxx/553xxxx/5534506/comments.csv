@@ -1,0 +1,16 @@
+User Type,Username,Date,Text
+,dandymike,2010-05-05T02:21Z,PLEASE COMMENT IF WORKING
+,hhache,2010-05-13T06:00Z,"Works!  But its the trial version.
+
+And must be installed thru unpacking the *.deb file, not just dragging the file to dynamic library folder."
+,dandymike,2010-05-16T21:34Z,"i installed .deb using ifile. once installed i swapped the dylib with this one.
+
+there is no indication that it is the trial version. everything works fine for me"
+,wwwes,2010-06-07T07:23Z,"I agree with dandymike. This appears to be legit, thanks a lot!"
+,MrElectrifyer,2010-09-30T03:30Z,"I installed it by placing the .deb file in the following AutoInstall directory, then rebooted
+
+var/root/Media/Cydia/AutoInstall
+
+Then I replaced the iRealSMS_dylib.dylib with the provided one. Attempted to launch the app, it just opened, displayed the white screen for about 2-3 seconds and crashed.
+
+Any ideas why this is happening? Been using the 3.0.0.0 version on iOS 3.1.3 on an iPhone 3GS  and it has been working as expected."

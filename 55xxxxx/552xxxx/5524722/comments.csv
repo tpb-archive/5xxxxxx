@@ -1,0 +1,362 @@
+User Type,Username,Date,Text
+,efxr,2010-05-01T18:58Z,"You can download the full version of CS5 as a trail from Adobe.com (with 2MB per second, beats the 300 kpbs i'm getting now...)
+
+http://trials2.adobe.com/AdobeProducts/STAM/CS5/osx10/MasterCollection_CS5_LS1.dmg
+
+After this you can activate the product with simple instructions i'll post next..."
+,efxr,2010-05-01T19:00Z,"So here are the instructions, they're essentially the same as the ones used for CS4, but with updated DNS'es that you need to block.
+
+ONLY ENTER THE SERIAL AFTER YOU'VE BLOCKED THE DNS
+
+-------------------
+
+Open terminal and type:
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+Hit return and enter your admin password when prompted and again hit return.
+Your Hosts file should automatically open in TextEdit.
+
+Add the following to the open Hosts file.
+The entries should ideally be made between the existing broadcasthost and ::1localhost entries.
+
+127.0.0.1	3dns.adobe.com
+127.0.0.1	3dns-1.adobe.com
+127.0.0.1	3dns-2.adobe.com
+127.0.0.1	3dns-3.adobe.com
+127.0.0.1	3dns-4.adobe.com
+127.0.0.1	activate.adobe.com
+127.0.0.1	activate-sea.adobe.com
+127.0.0.1	activate-sea.adobe.com.*
+127.0.0.1	activate-sjc0.adobe.com
+127.0.0.1	activate.wip.adobe.com
+127.0.0.1	activate.wip1.adobe.com
+127.0.0.1	activate.wip2.adobe.com
+127.0.0.1	activate.wip3.adobe.com
+127.0.0.1	activate.wip4.adobe.com
+127.0.0.1	adobe-dns.adobe.com
+127.0.0.1	adobe-dns-1.adobe.com
+127.0.0.1	adobe-dns-2.adobe.com
+127.0.0.1	adobe-dns-3.adobe.com
+127.0.0.1	adobe-dns-4.adobe.com
+127.0.0.1	crl.verisign.net
+127.0.0.1	CRL.VERISIGN.NET.*
+127.0.0.1	ood.opsource.net
+127.0.0.1	209-34-83-73.ood.opsource.net
+127.0.0.1	practivate.adobe
+127.0.0.1	practivate.adobe.*
+127.0.0.1	practivate.adobe.com
+127.0.0.1	practivate.adobe.newoa
+127.0.0.1	practivate.adobe.ntp
+127.0.0.1	practivate.adobe.ipp
+127.0.0.1	ereg.adobe.com
+127.0.0.1	ereg.wip.adobe.com
+127.0.0.1	ereg.wip1.adobe.com
+127.0.0.1	ereg.wip2.adobe.com
+127.0.0.1	ereg.wip3.adobe.com
+127.0.0.1	ereg.wip4.adobe.com
+127.0.0.1	wip.adobe.com
+127.0.0.1	wip1.adobe.com
+127.0.0.1	wip2.adobe.com
+127.0.0.1	wip3.adobe.com
+127.0.0.1	wip4.adobe.com
+127.0.0.1	http://www.wip.adobe.com
+127.0.0.1	http://www.wip1.adobe.com
+127.0.0.1	http://www.wip2.adobe.com
+127.0.0.1	http://www.wip3.adobe.com
+127.0.0.1	http://www.wip4.adobe.com
+127.0.0.1	wwis-dubc1-vip60.adobe.com
+127.0.0.1	installer.nemetschek.net
+127.0.0.1	piracy.nemetschek.net
+127.0.0.1	secure.nemetschek.net
+127.0.0.1	obdev.at
+127.0.0.1	192.150.18.108
+127.0.0.1	192.150.22.40
+127.0.0.1	192.150.14.69
+127.0.0.1	192.150.8.118
+127.0.0.1	192.150.8.100
+127.0.0.1	192.150.18.101
+127.0.0.1	192.168.112.207
+127.0.0.1	194.224.66.48
+127.0.0.1	199.7.52.190
+127.0.0.1	199.7.52.190:80
+127.0.0.1	209.34.83.73:43
+127.0.0.1	209.34.83.73:443
+
+Save the file and quit TextEdit.
+
+In the terminal type:
+
+sudo dscacheutil -flushcache
+
+
+Activate your product using this serial:
+
+1325-0621-9125-0765-3648-0614
+
+
+"
+,masterbluestar,2010-05-01T19:02Z,Yeah... access denied on Adobe link
+[V],MAFIAA.,2010-05-01T19:05Z,"You guys wont stop spamming and point people to Adobe websites wont you? Well good luck then, reporting from now on..."
+[V],MAFIAA.,2010-05-01T19:07Z,@masterbluestar because its pointless buddy Adobe capped speed to 1MB/s and registration required with link to your mail address. PLease Guys stop pointless spamming this is torrent sites thats why we share torrents. 
+,efxr,2010-05-01T21:06Z,"You don't need an account. Just give a fake emailaddress (that doesn't even exists). 
+
+They won't send you anything. 
+
+After you signup, you'll be redirected to a download page where you can download the file.
+
+At 2 MB per second. 
+
+No cap, at all.
+
+
+Maybe you should stop uploading applications that are already free to download from official servers."
+[T],frankie-boy,2010-05-01T21:25Z,"Stun, spam is unsolicited commercial email. It is kind of ridiculous to say a link to use Adobe's bandwidth so we can pirate their $2500 software is somehow commercial communication.
+
+OTOH, getting the software from Adobe's servers assures I am getting clean, virus-free goods and is usually faster than torrents. It is at least a viable alternative. So chill."
+,seqscan,2010-05-01T22:04Z,"@efxr - Thanks for the instructions, but where ever did you get those hosts file entries? Half of them are bullshit (you can't alias TCP/IP ports or URIs, VeriSign CRL servers are actually important, private use ranges, etc.). 
+
+I've been using CS4 all this time with only a couple of entries, no trouble so far. I'm not saying the same ones will work, but people wanting to install the latest release should search around a bit for a better guide."
+,zogulusnig,2010-05-01T22:55Z,"Heya Efxr, why do you have non-Adobe sites blocked in your hosts example?  I have no reason to add a block for Little Snitch, itself (obdev.at).
+
+What does that have to do with Adobe?"
+,efxr,2010-05-01T23:36Z,"I have actually no idea.
+
+Yeah, when i used CS4 I used a couple of those lines, so i'll believe you if you say that most of those are not legit or whatever.
+
+But i got those instructions from a German forum. "
+,seqscan,2010-05-01T23:43Z,"127.0.0.1     activate.adobe.com
+
+That's the only entry you need. Installed fine, update and Adobe Live stuff work fine, everything's fine :D"
+,ajgz,2010-05-02T00:17Z,Could I not just block the connections with Little Snitch rather then editing the hosts file?
+[V],MAFIAA.,2010-05-02T02:11Z,"@efxr Maybe you should stop talking crap, and start sharing... thats my advise to you.
+
+@frankie-boy this is torrent site with torrents on it. Want to do http linked crap go to http linked forums."
+,sKiZZiT,2010-05-02T03:49Z,"efxr, do I just leave those /etc/hosts file unmodified after installing? Just afraid those that was added are junk... :$ I'm only 1 week old using a Mac! :S"
+[T],frankie-boy,2010-05-02T03:52Z,"Not to mention, if I download from adobe.com, I don't have to seed 5+ Gb worth! I can use that to seed stuff- for you, Stun, if you want it, or for others running torrents- that isn't available from the web."
+,bradmajorsok,2010-05-02T05:57Z,"Just so everyone knows: The Master Collection trial version that you can download from Adobe's website IS NOT a complete version. Copied from https://www.adobe.com/cfusion/tdrc/index.cfm?product=master_collection:
+
+""[...] The trial versions of After Effects CS5, Adobe Premiere Pro CS5, and Soundbooth CS5 [included in the Master Collection trial download] do not include some features that depend on software licensed from parties other than Adobe. For example, some codecs for encoding MPEG formats are available only with the full version of this product.""
+
+It appears that you can only get this additional content when you purchase the software and either opt to receive the boxed media in the mail or as a download files that Adobe provides to you through their online store.
+
+Is this a torrent of the full edition of Master Collection?"
+,werring,2010-05-02T08:23Z,"These entries in your /etc/hosts file won't even work 
+
+(dont prepend a protocol definition)
+127.0.0.1 http://www.wip.adobe.com
+127.0.0.1 http://www.wip1.adobe.com
+127.0.0.1 http://www.wip2.adobe.com
+127.0.0.1 http://www.wip3.adobe.com
+127.0.0.1 http://www.wip4.adobe.com
+
+(you can't redirect an IP like this)
+127.0.0.1 192.150.18.108
+127.0.0.1 192.150.22.40
+127.0.0.1 192.150.14.69
+127.0.0.1 192.150.8.118
+127.0.0.1 192.150.8.100
+127.0.0.1 192.150.18.101
+127.0.0.1 192.168.112.207
+127.0.0.1 194.224.66.48
+127.0.0.1 199.7.52.190
+127.0.0.1 199.7.52.190:80
+
+(appending a port isn't possible like this)
+127.0.0.1 209.34.83.73:43
+127.0.0.1 209.34.83.73:443
+
+/etc/hosts file only contains:
+
++ --+------------+-------+
+| IP | Hostname | Alias* |
++---+------------+-------+
+
+*optional"
+,kfriede,2010-05-02T08:26Z,"I'm fully with efxr and appreciate what he's done, but am in no way any less appreciative of Stun.  I'm all for downloading from the Adobe site because it's faster and more reliable than a torrent this fresh, but I think we owe it to Stun for having it up here for the rest to download.  
+
+As for the trial having less than the ""Full Version"" if you buy the master collection through adobe they have you download the trial and activate that.  It's in no way different than what efxr is suggesting, other than legality.  As for not having the full version, the Adobe download is 5.62GB, while Stun's version here is 5.24 GB.  Doesn't seem like much is missing there to me.  In all likelyhood, Stun's version is probably just the trial anyways.  They're the same."
+,kfriede,2010-05-02T08:30Z,"Oh and it looks like Werring got to it before I did, but he's right about the ports.  
+
+Plus, unless you're running vectorworks, you probably don't need the three nemetshek domains in there either.  "
+,kfriede,2010-05-02T08:38Z,"I'm fully with efxr and appreciate what he's done, but am in no way any less appreciative of Stun.  I'm all for downloading from the Adobe site because it's faster and more reliable than a torrent this fresh, but I think we owe it to Stun for having it up here for the rest to download.  
+
+As for the trial having less than the ""Full Version"" if you buy the master collection through adobe they have you download the trial and activate that.  It's in no way different than what efxr is suggesting, other than legality.  As for not having the full version, the Adobe download is 5.62GB, while Stun's version here is 5.24 GB.  Doesn't seem like much is missing there to me.  In all likelyhood, Stun's version is probably just the trial anyways.  They're the same.
+
+And Werring got to it before I did but a lot of those hosts are for no purpose.  Alongside with the one's he listed, the 3 nemetschek one's are pointless unless you're running vectorworks."
+,354,2010-05-02T09:04Z,"@efxr
+Hi,
+I downloaded ps, dw and ae from adobe.com as trials and I followed your instructions and activated ps first. Does that activate the other 2 when i install them because they are not asking for serials and your one does not work anymore.
+Thanks"
+,remer94,2010-05-02T09:42Z,hey can anyone help if just finished downloading it but when i expand it using stuffit the blue bar gets to the end but it does not finish any ideas to get adobe cs5 installed?
+,bradmajorsok,2010-05-02T10:04Z,"kfriede: Sorry, but I must disagree. The trial download file (from Adobe's website) isn't exactly the same as what you Adobe provides you when you actually purchase. One proof of this fact is that the trial download doesn't include Adobe Acrobat, which is part of Master Collection; you only receive that when you purchase Master Collection. 
+
+From http://www.adobe.com/products/creativesuite/trial/faq/:
+
+""A trial version of Acrobat 9 Pro for Mac OS is currently not available. However, the full version of Acrobat 9 Pro for Mac OS is included in the full version of Master Collection available for purchase.""
+
+From that fact alone, it's clear that trial download is not the same as what Adobe provides you when you purchase it."
+,russianbar,2010-05-02T10:59Z,"I have to say, despite all the drivel, I've installed it and it runs like a dream. Thanks Stun"
+[T],frankie-boy,2010-05-02T12:37Z,"Acrobat 9 is available elsewhere here on TPB:
+
+http://thepiratebay.org/torrent/4270317/Adobe.Acrobat.V9.Pro.MAC.OSX-HOTiSO"
+,live_vom_sonnendeck,2010-05-02T12:50Z,Which language is this?
+,porkygimp,2010-05-02T12:56Z,"@bradmajorsok  
+Start a new premiere project and it downloads the codecs automatically"
+,tarkovski2,2010-05-02T13:09Z,"I used the serial on a copy I downloaded from Adobe, and it woks like a charm! Excellent.
+"
+,efxr,2010-05-02T13:16Z,"Thanks for everyone that pointed out which hosts don't need to be blocked.
+
+I'm not an expert on this stuff and to be frank, i've been worried about blocking this intere list (with CS4 you only needed to block a few lines).
+
+As Seqscan pointed out, I reedit the Host file to only block     127.0.0.1 activate.adobe.com   
+
+And everything works fine, no 'your serial has expired' messages so far. 
+
+I wish i could edit that huge Hosts list in my second post..."
+,Coldmac,2010-05-02T14:04Z,"I have installed CS4 masters collection. I tried to install with the setting in Host Database from last installation, and it works like a charm? :) In other words, if you blocked in CS4, it works on CS5.
+
+Feel free to correct me on this. Thanks for the UL. Personally I downloaded the trial from Adobe, and it took 18 minutes. "
+,kfriede,2010-05-02T16:16Z,"@bradmajorsok okay you got me there. :)  But I have Acrobat 9 from CS4 anyways so it doesn't matter to me, and the version on here probably doesn't have it either considering they're almost the same size."
+,Olive74,2010-05-02T18:57Z,Thx but only english version or multi ?
+,MYST2002,2010-05-02T18:59Z,Thanks!! It's work!!!
+,MYST2002,2010-05-02T19:00Z,English (North America) + English (International)
+,Olive74,2010-05-03T00:30Z,"Thx for the reply ;)
+If someone can upload multi version when it'll be out... it'll be so cool ! ;)
+Thx !"
+,bradmajorsok,2010-05-03T03:07Z,"Oh, and another difference between the trial download and a full version: The trial version only includes 64-bit versions of Premiere and After Effects.
+
+Per http://www.adobe.com/products/creativesuite/trial/faq/:
+
+""If you decide to purchase Creative Suite 5 Master Collection, Creative Suite 5 Production Premium, Adobe Premiere Pro CS5, or After Effects CS5, complimentary 32-bit compatible versions of Adobe Premiere Pro CS4 and After Effects CS4 will be provided with your purchase."""
+,bradmajorsok,2010-05-03T03:12Z,"Ok, I am doofus. After Effects CS5 and Premiere CS5 are actually only available in 64-bit versions. Sorry!"
+,smoothiskittles,2010-05-03T09:27Z,okay so im new to .rar files can someone plz explain to me how to open this
+,smoothiskittles,2010-05-03T09:50Z,okay so i got the .rar thing down. but in the instructions u say open the terminal. what does that mean. sorry for my stupidity guys
+,smoothiskittles,2010-05-03T09:51Z,NVM!!!! ima just shut up now lol
+,FredP,2010-05-04T00:11Z,"BEWARE of AKAMAI
+I downloaded the CS5 demo from Adobe using the Akamai downloader (and then installed as per the instructions in this thread).  You should be aware that Akamai installs a program that phones home to a range of sites on a regular basis, and some of the sites seem to be related to activation.  Little Snitch caught it and I blocked outgoing and then deleted the Akamai process that was starting automatically and phoning home.  So far CS5 is functioning fine.  "
+,ssiicckk,2010-05-04T00:12Z,"This is what it says on the adobe site: 
+
+*Adobe Acrobat® 9 Pro is not available as a trial for Mac OS. Adobe Encore® CS5 software is not available as a trial. Encore CS5 will be installed as part of the trial for Creative Suite 5 Production Premium and Master Collection but will not be available for use until you purchase. The trial versions of Adobe After Effects® CS5, Adobe Premiere® Pro CS5, and Soundbooth® CS5 software do not include some features that depend on software licensed from parties other than Adobe. For example, some codecs for encoding MPEG formats are available only with the full version of these products.
+
+So can someone tell me if Adobe Premiere actually doesn't include those features, or are they just not available in the trial version?"
+,FredP,2010-05-04T00:47Z,"I downloaded the demo from Adobe and activated it as per this thread.  Encore 5.0.0.508 was included and it launches fine, but I have not used it.  Not sure about Acrobat Pro 9 as I already had it installed.  However, as I posted previously the Akamai downloader that I installed to download the demo launches a process that starts automatically tries to call all sorts of addresses, some which seemed related to activation.    "
+,ninjatag,2010-05-06T18:24Z,"I know that on previous trials of Adobe After Effects, the amazing plug-in Keylight (used in movies like Harry Potter) is not available. I assume that other plug-ins of equal value are not included in the trial versions of CS5. Does anyone know where to get a torrent for the full-version Master Collection?"
+,LAchristus,2010-05-06T22:51Z,"I have installed Creative Suite 5 on my computer, and the block and all worked like a charm! 
+
+But my friend is having problems. I told him to uninstall CS4, drag to the trash, and then install like told. However he didn't save the hosts file the first time, and now it says the serial is invalid. He have tried reinstalling but it doesn't seem to work.
+
+I think there might be some hidden registration file somewhere - anyone have an idea on how to solve this?"
+,efxr,2010-05-07T10:45Z,"Simply using the uninstall feature isn't enough. 
+
+Adobe always leaves a shitload of garbage around the place, even if you select 'delete preference' when uninstalling. 
+
+Delete the following:
+
+Macintosh HD / Library / Application Support / Adobe
+Macintosh HD / Library / Application Support / regid.1986-12.com.adobe
+Macintosh HD / Library / Preferences .... delete anything that starts with com.adobe.
+
+Repeat the first and third line in your User library. "
+,LAchristus,2010-05-11T21:23Z,"I have an edition of Nik software and Topaz Labz that i used with CS4. When I installed it with CS4, it found the appropriate folder for installation itself - however with CS5 it says that it cannot locate the appropriate folder.
+
+So in what folder do I place plugins when installing them?
+
+Thanks for the help"
+,Atheistic,2010-05-23T06:53Z,"OK, I got everything working except After Effects. Anyone else having this problem? When I go to launch it I get an error statin ""After Effects warning: unable to create font. After Effects can't continue: unexpected failure during application startup"". Someone please help as I downloaded this mainly for After Effects due to the 3D work I do. Thank you in advance!"
+,felinei,2010-06-16T15:02Z,can anyone please explain again to a layman....please....right from what to do after you are done downloading the trail.
+,Jeepster1,2010-07-16T20:23Z,"Haven\'t downloaded yet, but thanks Stun for releasing it as hopefully will soon.nnGot to ask though if anyone will be making the \'full retail version\' available like one of the current windows versions available here on the bay? (damn windows).. The full retail is either around 9GB or 12GB for Mac (12GB I think) and has all of the features for, Premiere, After Effects, Soundbooth and Encore, and also has all of the codecs included for Premier, After Effects, etc. and much more besides. Therefore a mustnnFrom Adobe site:-nn*A trial version of Acrobat 9 Pro for Mac OS is currently not available. However, the full version of Acrobat 9 Pro for Mac OS is included in the full version of Master Collection available for purchase. Encore CS5 is not available as a trial. Encore CS5 will be installed as part of the trial for Creative Suite 5 Master Collection but will not be available for use until you purchase. The trial versions of After Effects CS5, Adobe Premiere Pro CS5, and Soundbooth CS5 do not include some features that depend on software licensed from parties other than Adobe. For example, some codecs for encoding MPEG formats are available only with the full version of this product."
+,the-cloud-processor,2010-07-21T06:19Z,someone help i cant find instructions..? please help. i need to install.
+,findermix,2010-07-30T04:10Z,The new Master collection no have Acrobat for Mac
+,iprince143,2010-07-31T19:26Z,"just started downloading it... hope i could use it...
+
+btw, this is a complete version right??
+
+may i just add,, did anyone of you know a torrentdownloader aside from utorrent tat is much faster??? i'm using utorrent right now, and i must say, im not that impressed with the speed..."
+,schube87,2010-08-12T12:24Z,"Can someone help? I downloaded this but all I see is a folder with a bunch of random files I don't recognise. 
+
+I'm new to all of this so sorry if I'm asking a really dumb question, but what do I do? "
+,bbell,2010-08-28T10:32Z,"First of all, Stun, this is great.  Everything works perfectly!  However, I'm at a loss where to locate a serial number.  Am I supposed to generate from one of the files, or locate one elsewhere?  What am I missing?  Help is appreciated.  Thanks again!"
+,ChronicDK,2010-09-07T17:29Z,"First of all, I want to thank you for uploading this package, it works beautifully on my Macbook laptop. Unfortunately, I have encountered a problem when installing it on my iMac, to which I would like to address to you in the hopes that you can be of assistance.
+
+My iMac was the first of my two computers where I installed it on. Therefore, this was the one where I made the fatal mistake of installing and using the programs before having added the necessary IP addresses to my hosts file. When I found this out I used the Adobe Installer to uninstall the programs, Appzapper to remove any remains and an app from Adobe called Adobe Creative Suite Cleanup to be absolutely sure that there was nothing left.
+
+Even though, when having added the IP addresses before re-installing the programs, Adobe still wants me to Register :( So, I was hoping that you can help me with this problem? Maybe even let me know which file I have to remove that the uninstall programs obviously cannot find? It can't be that I have to format the entire computer to completely remove the files, can it?
+
+By the way, bbell, the serial key is located in the .nfo-file... Open the file with Notepad :)"
+,maxwellcarl,2010-09-11T02:47Z,"hello, thanks so much for this... well done. 
+
+1 thing though: please help: i got this all to work perfectly, and i believe i blocked the hosts correctly. but i had some trouble with my connectivity and i reverted my hosts back to the default... basically the adobe serial# screen now pops up when i go to open it... ive tried re-blocking the hosts and re-installing the .dmg i extracted...still no luck.. takes me to the application manager everytime...
+
+is there anyway around this? .. does adobe know my IP er somthing now? not sure how this works.... should i re-download the original torrent? 
+
+please help! thanks again!"
+,lycosether,2010-09-14T19:38Z,How do you install this once it downloads. I do not see a dmg file
+,Faunsix,2010-09-21T17:06Z,"Did anyone try using Little Snitch to stop the official Adobe install 'phoning home' rather than following efxr's method? If so, did you have any success?"
+,evanyarr,2010-10-13T04:09Z,Hi I downloaded the file and followed the instructions on the readme.  But I am unaware what my next step should be
+,Dispers,2010-11-01T15:41Z,"Thanks Stun, i had already that copied on terminal for the psCS5 :
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+
+
+it finish there. it sims to work fine for the other products. Should i copy the rest ? -->
+
+127.0.0.1 adobe.activate.com
+127.0.0.1 209.34.83.73:443
+127.0.0.1 209.34.83.73:43
+127.0.0.1 209.34.83.73
+127.0.0.1 209.34.83.67:443
+127.0.0.1 209.34.83.67:43
+127.0.0.1 209.34.83.67
+127.0.0.1 ood.opsource.net
+127.0.0.1 CRL.VERISIGN.NET
+127.0.0.1 199.7.52.190:80
+127.0.0.1 199.7.52.190
+127.0.0.1 adobeereg.com
+127.0.0.1 OCSP.SPO1.VERISIGN.COM
+127.0.0.1 199.7.54.72:80
+127.0.0.1 199.7.54.72
+
+Can i update the products?
+
+Thanks again."
+,moonson,2010-11-06T19:02Z,"> echoing the last question of the last questioner: anyone know if it's safe to use the updaters, or update by any other method?
+> also echoing others: thanks for putting this up!"
+,bronco3,2010-11-23T03:45Z,"Despite claims of the possibility to upgrade cs 5, this is not correct. InDesign will not work anymore... Photoshop seems to be okay. For the rest of the CS software, I do not know yet.
+
+What should be the proper thing to do in this case?
+If anyone has an answer, could you PLZ write me and tell me? paxlander@gmail.com 
+
+Many THANX in advance!"
+,skt786,2010-12-24T11:06Z,"The Adoba CS5 on the imac works fine, but can i uninstall illustrator and then reinstall just illustrator?
+or do i have to uninstall the whole of Adobe CS5 and then reinstall it
+Thanks"
+,aliceprin,2011-03-18T01:37Z,"re: tarkovski2 at 2010-05-02 13:09 CET:
+I used the serial on a copy I downloaded from Adobe, and it woks like a charm! Excellent.
+
+I downloaded a trial from adobe, can anyone tell me if I can do this and how?"
+,dljones,2011-07-20T16:53Z,"This did not come as a DMG file (as noted above); rather it downloaded as 59 files (also as noted above). I'm not a Mac person; I did this for my son, who is a Mac user. I have downloaded DMGs for him, so the format of these files (.r(xx) and .rar) leaves me wondering what to do with them. The individual files are 100 MB (mostly), but contain a DMG of >6 GB with RAR packing of different sizes for each file. Your advice would be most appreciated."
+,ogge7,2011-09-24T15:23Z,"@dljones and anyone else. The .dmg-file is split up into 57 files due to if a part of the download gets corrupted, they only need to redownload the corrupted RAR and not the whole file.
+
+Simply extract the contents of one of the rar-files to get the dmg. (Rar works like .zip-files)"
+,stevennorri,2011-09-25T20:25Z,"Thanks mate, installing now!"
+,zazad,2011-11-16T02:15Z,"I went through each step carefully to block the hosts as recommended, but adobe updater continued communicate with Adobe and interfere. Then I discovered this site:
+
+http://osxdaily.com/2010/06/21/stop-adobe-update-manager-launching/
+
+follow the steps described and it works like a charm!  Adobe doesn't bug me anymore."
+,braymcd,2012-03-23T19:54Z,"The download and installation went quite well, but my Hosts file is locked and I have already tried unlocking it the usual way- all it says I can do is create a duplicate. Is there a way around this?"
+,captainsmee,2012-04-19T21:18Z,"Your time and efforts are highly appreciated, thank you for sharing. "

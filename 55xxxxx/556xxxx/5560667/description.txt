@@ -1,0 +1,21 @@
+DESCRIPTION
+Little Snitch... A firewall protects your computer against unwanted guests from the Internet. But who protects your private data from being sent out? Little Snitch does!
+As soon as you're connected to the Internet, applications can potentially send whatever information they want to wherever they want.
+
+Sometimes they do this for good reason, on your explicit request. But often they don't. Little Snitch allows you to intercept these unwanted connection attempts, and lets you decide how to proceed.
+
+Little Snitch informs you whenever a program attempts to establish an outgoing Internet connection. You can then choose to allow or deny this connection, or define a rule how to handle similar, future connection attempts. This reliably prevents private data from being sent out without your knowledge. Little Snitch runs inconspicuously in the background and it can also detect network related activity of viruses, trojans and other malware.
+
+WHAT'S NEW
+Version 2.2.3:
+Fixed an issue when creating rules by dragging an application into the Little Snitch rules window.
+Fixed a localization issue in the preferences window.
+Fixed: Some applications were not shown with their correct app icon.
+Improved detection of invalid rules.
+Some minor UI improvements.
+
+REQUIREMENTS
+Mac OS X 10.4 or later.
+
+
+Serial number thanks go to Special K and still working after 10 hours

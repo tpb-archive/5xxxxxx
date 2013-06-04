@@ -1,0 +1,54 @@
+Raxco Software, the leader in disk defragmentation, now provides the power of enterprise defragmentation for desktop and laptop users with PerfectDisk.
+
+
+Delivering a unique set of easy-to-use features and benefits not found in any other solution, PerfectDiskÂ® 2008 will make your computer run like new. Work and play faster - and smarter. PerfectDisk makes everything you do on your computer faster - so you can be more efficient at your work or play. PerfectDisk 2008â€™s patented SMARTPlacementâ„¢ optimization is paired with its exclusive single-pass defragmentation and Space Restoration Technologyâ„¢ to maximize PC and laptop performance. All controlled and automated according to your unique requirements through AutoPilot Schedulingâ„¢ or StealthPatrolâ„¢ unattended background processing.
+
+Features:
+Key Features:
+â€¢ Microsoft Certified. Ensures PerfectDisk 2008 meets Microsoft-specified availability, reliability, security, and supportability guidelines that result in a better and safer user experience.
+â€¢ Patented SMARTPlacementâ„¢ Optimization. PerfectDisk 2008's SMARTPlacementâ„¢ optimization strategy results in faster subsequent defragmentation runs and faster boot times because many of the files on the drive do not need to be moved at all, since they are placed according to users unique usage patterns. Typical defragmenters waste resources by constantly moving all files around on the drive during every defrag pass.
+
+What's New in PerfectDiskÂ® 2008:
+
+* A brand-new user interface. A new user interface makes it easier than ever to use PerfectDisk. Menus and toolbars have been replaced with a ribbon that organizes and presents capabilities into a set of tabs that correspond to how the product is used. The tabs on the ribbon display the commands that are most relevant for each of the task areas in PerfectDisk. New wizards are also now included, providing easier setup.
+* StealthPatrolâ„¢ automatic disk defragmentation. PerfectDisk now provides the ability to automatically perform defragmentation only when your system is idle. Together with the wide range of scheduling options available with AutoPilot Scheduling, PerfectDisk 2008 provides more flexibility, automation and complete control than any other disk defragmenter.
+* Improved performance and reduced resource usage. PerfectDisk has been enhanced to run even faster during SMARTPlacement defragmentation passes. The engine also now uses 15% - 20% less memory consumption than PerfectDisk 8, which results in additional improved performance.
+* Selected Files Defrag. PerfectDisk's Single File Defrag has been replaced with Selected Files Defrag, giving users the ability to select multiple files to defragment, rather than the entire drive. The ability also now exists to select files from the "Most Defragmented Files" list for immediate and automatic defragmenting.
+* Fragmeter. A new graphical view of how fragmented your drive is. PerfectDisk 2008's powerful bit map display of disk drives is now enhanced with a new, colorful and easy-to-view circular graphic of your drive's level of fragmentation.
+* Free Space Recycler. PerfectDisk now provides the ability to easily and automatically reclaim valuable free space from your Recycle Bin, Temporary Internet Files, and duplicate text, picture, video and music files.
+* Space Explorer. See a bird's eye view of the space distribution between files and folders inside your drives' directories. PerfectDisk 2008's Space Explorer also allows you to delete large files to recapture valuable space on your drive.
+* Enhanced system tray icon functionality. Additional capabilities are now available through the system tray icon, providing additional ease-of-use.
+* Estimated Time to Completion. PerfectDisk now provides the estimated time of day when a defrag run will complete.
+* Native support for 64-bit platforms. Native support for 64-bit platforms provides improved performance and efficiency on 64-bit platforms.
+* Enhanced Active Directory Integration. A new Active Directory tab is now available for those enterprises utilizing
+
+What's new in PerfectDisk 2008 Build 61:
+
+# New Features
+1. PerfectDisk 2008 for VMware is bundled with VMware DiskMount Utility.
+
+# Bug Fixes
+1. PerfectDisk works incorrectly if per-user quotas are being used.
+2. Active Directory tree does not display child domains.
+3. Active Directory tree does not display containers that have a slash character in their names.
+4. If PD91Agent is set to manual, PerfectDisk fails to start on some machines.
+5. PD Exchange still tries to compact after unmounting store error.
+6. PD Exchange - Stop button is disabled during compaction of datastore.
+7. PD Exchange - Compaction fails if mapped network drive used. Need to verify that UNC path is used.
+8. PD Exchange - GUI does not display log entries.
+9. "Maximum Duration hours" setting ignored.
+10. "Do not start a defragmentation pass while on battery power" option does not work.
+11. Time lag between the start time of a scheduled task and the actual start.
+12. Offline schedule created without "Override drive Properties Settings" doesn't use drive property setting.
+13. Problems with AutoUpdate in Windows 2000 environment.
+14. Upgrade from PerfectDisk v8 to PerfectDisk 2008 migrates the date and time of last defragmentation.
+15. Upgrade from PerfectDisk v8 to PerfectDisk 2008 migrates empty offline defragmentation drive settings.
+16. VMware guests with linked clones or snapshots are not supposed to be defragmented.
+17. Invalid file error on attempt to add a virtual machine
+18. . Defragmentation of a virtual machine fails with unspecified error when it has an additional disk setup.
+19. Machine goes into sleep mode during the defragmentation of a virtual machine.
+20. After Analyze, Summary and Most Fragmented Files Disagree.
+21. On Windows Vista, PerfectDisk periodically changes status causing Task Bar tray icon to "light up".
+22. Statistics Incorrect/Inconsistent for Number Of Fragmented Files & Size.
+23. Drive properties notebook opens minimized on certian screen resolutions.
+24. Initial column width does not accommodate text. 

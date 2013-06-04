@@ -1,0 +1,98 @@
+I claim no credit for making this...Thanks to DMAN999 & DAZ
+
+About:
+This is the loader application thats used by millions of people worldwide, 
+well known for passing Microsoft's WAT (Windows Activation Technologies) and is arguably the safest Windows activation exploit ever created. 
+The application itself injects a SLIC (Software Licensing Description Table) into your system before Windows boots, 
+this is what fools Windows into thinking it's genuine.
+
+Features
+Ã¯Â¿Â½Can be run as a standalone application
+Ã¯Â¿Â½Works well with all system languages
+Ã¯Â¿Â½Argument support for silent installs
+Ã¯Â¿Â½Can be used for pre-activation
+Ã¯Â¿Â½Application integrity checking
+Ã¯Â¿Â½Custom error handling
+Ã¯Â¿Â½Support for hidden partitions and complex setups
+Ã¯Â¿Â½Can work alongside Linux's GRUB or any other boot manager
+Ã¯Â¿Â½Works with TrueCrypt and many other types of hard drive encryption applications
+Ã¯Â¿Â½Add your own certificates and serials externally
+Ã¯Â¿Â½Offers certificate and serial installation only for users with an existing SLIC 2.1
+Ã¯Â¿Â½Automated system profiling (The application matches everything up for you)
+
+The rundown
+Ã¯Â¿Â½This will run on x86 and x64 systems 
+Ã¯Â¿Â½This can activate all Windows versions at the same time, just install it on each 
+Ã¯Â¿Â½No core system files get modified 
+Ã¯Â¿Â½No extra processes are run so you have nothing eating at your RAM 
+Ã¯Â¿Â½All key parts of the exploit are encrypted with a custom encryption 
+Ã¯Â¿Â½The exploit runs before Windows so it's harder for Microsoft to prevent 
+Ã¯Â¿Â½The exploit patches all necessary tables making activation look authentic 
+Ã¯Â¿Â½The application will select the best profile for your system during installation 
+Ã¯Â¿Â½Each and every user has a unique version of the exploit installed on his/her system 
+
+Supported operating systems
+Ã¯Â¿Â½Windows 7 Ultimate
+Ã¯Â¿Â½Windows 7 Professional
+Ã¯Â¿Â½Windows 7 Home Premium
+Ã¯Â¿Â½Windows 7 Home Basic
+Ã¯Â¿Â½Windows 7 Starter
+Ã¯Â¿Â½Windows Vista Ultimate
+Ã¯Â¿Â½Windows Vista Business
+Ã¯Â¿Â½Windows Vista Business N
+Ã¯Â¿Â½Windows Vista Home Premium
+Ã¯Â¿Â½Windows Vista Home Basic
+Ã¯Â¿Â½Windows Vista Starter
+Ã¯Â¿Â½Windows Server 2008 R2: Enterprise
+Ã¯Â¿Â½Windows Server 2008 R2: Standard
+Ã¯Â¿Â½Windows Server 2008 R2: Foundation
+Ã¯Â¿Â½Windows Server 2008: Enterprise
+Ã¯Â¿Â½Windows Server 2008: Standard
+Ã¯Â¿Â½Windows Server 2008: Foundation
+Ã¯Â¿Â½Windows Small Business Server 2008
+Note: You must be running build 7600 or greater for Windows 7 and Windows Server 2008 R2.
+Note: Windows 7 N and E editions will only be supported when OEM SLP serials leak for them editions.
+
+Version 1.8 changes:
+* Cleaned up and improved a lot of code
+* Added a new GRLDR version (Thanks to lash78 for spending a few hours helping to debug)
+* Made the UI even more user friendly
+* Added some new serials
+* Improved certificate OEMID to system OEMID installation
+* Made OEM recovery partition ignoring optional
+
+Application integrity checking?
+Hover your mouse over the green, amber or red icon to see detailed application information.
+Note: Even if the icon is green someone might have found a way around the protection system so it's worth checking that the applications path is always the same as the location from which you launched the application. You should also check that the MD5 matches the MD5 found online.
+
+Whats the goal of this program?
+To activate you in a clean and simple way without putting a load of buttons and checkboxes on your screen and expecting you to know what to do. It's all about keeping it simple!
+
+What makes this different from every other loader out at the moment?
+It's the only fully coded API based loader application, this means it cuts out the middle man (.NET framework) and can handle everything on it's own. This increases reliability and is considered the professional coder approach.
+
+So whats the advantages and why should you care?
+With me building this loader as an application I can access system details and create declares for many of the functions. This means anyone that uses this loader should have a greater chance of success!
+
+Whats the differences between each loader option?
+Each option uses a slightly different method to get you activated, of course the custom menu.lst option should be ignored unless you know what you're doing.
+
+OK so how do I run it?
+In general you simply press Install!
+
+I activated Windows 7 and now I want to activate Windows Vista, why isn't it working?
+Use the uninstall option while on Windows 7 and reboot into Windows Vista. Next install your selected cert/slic in Windows Vista and then reboot back to Windows 7 and click install.
+
+Activation failed, now what?
+Try again with one of the other loader options, maybe one of them might just work for you.
+
+Application integrity checking?
+Hover your mouse over the green, amber or red icon towards the bottom right of the window to see the information.
+
+I should note that even if the icon is green someone might have found a way around it so it's worth checking that the applications path is always the same as the location from where you launched the application. You should also check that the MD5 matches the MD5 found online.
+
+Support Page: http://forums.mydigitallife.info/showthread.php?t=8632
+
+Windows Loader.exe Hashes:
+MD5: 8e3982049e03023f39c4cf6dec74c1e3
+SHA-1: 3ab1bb831ab3ebb3cdf4d486939aea0eb2881e1b

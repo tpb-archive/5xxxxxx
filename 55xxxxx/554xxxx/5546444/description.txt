@@ -1,0 +1,22 @@
+360 Flash Dump Tool v0.94
+
+MODFREAKz released a new version of 360 Flash Dump Tool(info), an application that will allow you to decrypt/encrypt and extract various parts of a XBOX360 flash dump and much more!
+
+What's new/fixed:
+
+* Added static SMC Config editing [change CPU/GPU Fan Speed, Calibration Data, MAC Address, ....] (Thanks to q36)
+* Added support for single file "config.bin" editing/converting via Drag'n'Drop
+* Added ability to convert Xellous/NandPro(info) raw SMC Config to different Styles and vice versa, e.g. for ibuild (Thanks to foouser)
+// FreeBOOT SmallBlock Style 16Kb
+// FreeBOOT BigBlock Style 128Kb
+// FlashTool SmallBlock Style 64Kb
+// FlashTool BigBlock Style 512Kb
+// BinCrypt2 Style 32Kb
+* Added checksum calculation for static SMC Config Block (Thanks to cory1492)
+* Added ability to extract/import encrypted KeyVault without known CPU Key [For Advanced Users]
+* Added ability to extract ibuild compatible files (..freeBOOTData)
+* Added ability to open 70MB images (dumped with nandpro "-r70")
+* Added Option menu to enable/disable several features
+* Added Tooltips and Glass Effect
+* Bugfix in Multiple CPU Key handling
+* Fixed a lot small bugs

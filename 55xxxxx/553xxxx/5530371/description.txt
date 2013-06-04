@@ -1,0 +1,154 @@
+*** 2-pass 720p encoding for computers (PC, Mac), PS3 or Xbox. ***
+*** Video is 1280x720 H264; audio is 44.1 kHz/stereo AAC LC and container is MP4. ***
+
+"Home" of my torrents (for Bookmark/Favorites in your browser)       
+http://thepiratebay.org/user/twentyforty
+
+SUBTITLES: external, English, English for hearing impaired, Spanish, Italian.
+
+***********************************************************************************
+
+
+[ About file ]
+
+Name: Breaking.Bad.S03E07.720p.HDTV.H264.mp4
+Date: 3/05/2010 16:36:24
+Size: 367,013,388 bytes (350.011 MB)
+
+[ Generic infos ]
+
+Play duration: 00:47:04 (2824.451666 s)
+Container type: MP4/MOV
+Major brand: Apple AAC audio w/ iTunes info version 0
+Compatible brands: ISO Base Media, JVT AVC
+Creation time: 2/05/2010 14:36:05 UTC
+Modification time: 2/05/2010 14:36:05 UTC
+Number of streams: 2
+Type of stream nr. 1: audio (AAC Low complexity) {GPAC ISO Audio Handler}
+Type of stream nr. 2: video (avc1) {GPAC ISO Video Handler}
+Audio streams: 1
+
+[ Relevant data ]
+
+Resolution: 1280 x 720
+Width: multiple of 32
+Height: multiple of 16
+Average DRF: 28.160545
+Standard deviation: 1.173248
+Std. dev. weighted mean: 1.153150
+
+[ Video track ]
+
+Codec: avc1
+Resolution: 1280 x 720
+Frame aspect ratio: 16:9 = 1.777777
+Pixel aspect ratio: 1:1 = 1
+Display aspect ratio: 16:9 = 1.777777
+Framerate: 23.976023 fps
+Number of frames: 67713
+Bitrate: 972.813471 kbps
+
+[ Audio track ]
+
+Codec: AAC Low complexity
+Bitrate: 64.516349 kbps
+Channels: 2
+Sample rate: 44100 Hz
+
+[ About H.264 encoding ]
+
+User data: x264
+User data: core 59
+User data: H.264/MPEG-4 AVC codec
+User data: Copyleft 2003-2008
+User data: http://www.videolan.org/x264.html
+User data: cabac=1
+User data: ref=3
+User data: deblock=1:0:0
+User data: analyse=0x1:0x131
+User data: me=dia
+User data: subme=6
+User data: brdo=1
+User data: mixed_ref=1
+User data: me_range=16
+User data: chroma_me=1
+User data: trellis=1
+User data: 8x8dct=0
+User data: cqm=0
+User data: deadzone=21,11
+User data: chroma_qp_offset=0
+User data: threads=3
+User data: nr=0
+User data: decimate=1
+User data: mbaff=0
+User data: bframes=0
+User data: keyint=250
+User data: keyint_min=25
+User data: scenecut=40(pre)
+User data: rc=2pass
+User data: bitrate=973
+User data: ratetol=1.0
+User data: rceq='blurCplx^(1-qComp)'
+User data: qcomp=1.00
+User data: qpmin=10
+User data: qpmax=51
+User data: qpstep=4
+User data: cplxblur=20.0
+User data: qblur=0.5
+User data: ip_ratio=1.40
+User data: aq=2:1.00
+SPS id: 0
+  Profile: Main@L4.1
+  Num ref frames: 3
+  Aspect ratio: Square pixels
+  Chroma format idc: YUV 4:2:0
+PPS id: 0 (SPS: 0)
+  Entropy coding type: CABAC
+  Weighted prediction: No
+  Weighted bipred idc: No
+  8x8dct: No
+Number of frames: 67713
+Drop/delay frames: 0
+Corrupted frames: 0
+
+P-slices: 67225 ( 99.279 %) #########################
+B-slices:     0 (  0.000 %)                          
+I-slices:   488 (  0.721 %)                          
+SP-slices:     0 (  0.000 %)                          
+SI-slices:     0 (  0.000 %)                          
+
+[ DRF analysis ]
+
+Average DRF: 28.160545
+Standard deviation: 1.173248
+Max DRF: 33
+
+DRF33:     0 (  0.000 %)                          
+
+P-slices average DRF: 28.178966
+P-slices std. deviation: 1.152860
+P-slices max DRF: 33
+
+I-slices average DRF: 25.622950
+I-slices std. deviation: 1.193066
+I-slices max DRF: 29
+
+[ Profile compliancy ]
+
+Profile to check: MTK PAL 6000
+Resolution: 1280 x 720 > 720 x 576
+Framerate: 23.976023  25
+Min buffer fill: 39%
+
+***************************************************************************
+
+I recommend CoreCodec for H264 (avc1, x264) video-playback, free DivX 7 for AAC sound-playback (and .mkv with AAC), Haali splitter (free, comes with CoreCodec) as the fastest and best combination for Windows Media Player. This is what I use.
+VLC player (free), mplayer (free) and KMplayer (free) are available as alternative for all platforms (operating systems) out there and have BUILT-IN codecs and MP4 capabilities. But, video quality is approx. 10-15% lower, blurrier at least on system I have.
+One can try CCCP matroska codec pack, where ffdshow codec/filter packs and Haali splitter comes in one package and support MP4 playback - but extra caution is required during the install process.
+QuickTime of course, supports H264/AAC natively.
+MP4 is ISO 14496-1(H264 video & AAC LC sound) .
+recommended resolution for computers is 1024x768..
+PS3 + HDMI cable + newer TV have been reported as best combination.
+I am very proud on sound quality and hence I recommend use of stereo system and proper loudspeakers (connect Line Out of Soundcard or standalones with Line In of any Stereo rack).
+And please, do not watch it with a nose in the screen, take proper distance to the monitor or TV (as advised in TV manuals).
+Many of movies I encode have embedded or external  subtitles. So far, only VLC player is able to use them correctly.

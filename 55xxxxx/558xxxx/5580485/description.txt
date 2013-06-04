@@ -1,0 +1,34 @@
+JungleFlasher v0.1.74 (138)
+
+
+Team Jungle released a new version (v0.1.74) of JungleFlasher(info).
+
+What's new/fixed:
+* Key Verification - thanks to C4eva
+Routines will validate a key against the attached drive 100%
+Routine added to:
+- DVDkey32 Extract, also as key ver is 100%, 6 dumps no longer necessary
+- LO83info Extract, also as key ver is 100%, 2 dumps no longer necessary
+- Source and Target context menus
+
+* IO port refresh
+Extra checks to determine drive hardware type, as opposed the Inquiry info.
+Key is easily queryied from Samsung and Hitachi pre 78, can grab key, verify and lookup KeyDB.
+Lite-On Barcode uniquely identifies drive, look-Up Barcode in KeyDB and verify
+Fancy icon on the Drive Properites group box and tooltip to display Key and KeyDB info.
+Context menu on Drive Properties to peform KeyDb functions ( load files etc )
+
+* KeyDB
+Now index by Lite-on barcode, barcode will be added at next refresh for rapid Drive ID.
+Added an new field call LastFile, this will point to file last used to update KeyDb.
+Useful if you want to refresh KeyDb with all your Lite-On files.
+This is used on Drive Properties Context Menu, to load an OFW.
+
+* Dummy from KeyDB **New**
+There are 3 parts to this
+- for and identified Lite-On this will use the verified key and grab all other dummy data and build it
+- for un-identified Lite-On, will test ALL keys in KeyDB and return on a successful hit, build dummy as above
+- for non lite-on, will test ALL keys in KeyDB and return on a successful hit.
+
+* USB Com Port Enumeration
+Will properly report device types in Vista and Win 7 - FTDIxxx.dll dependancy removed

@@ -1,0 +1,15 @@
+Ubuntu image for O2 joggler vers. 9.1 originally sourced from  http://stephenford.org  but it's been getting a lot of stick and can be very slow. Please visit his site though as it's full of useful stuff incl. some easy fixes to stabilise this release, you might even wanna donate for all his hard work. 
+
+This doesn't change the original O2 software at all as it runs off the USB drive - if you unplug  the drive, it reverts bag to being a standard Joggler.
+
+
+
+Instructions:
+
+You need a 4GB USB drive (flash, HDD, card reader, whatever) which won't be useable as anything else whilst this image is on it.
+
+1> Unzip 'joggler_unr__9.10_v1.3a.bin.tar.gz' it will create a 3.56GB folder.
+2> In this new folder change the extension of the .bin file to .img (you may have to enable 'view file extensions' via Tools > Folder options at top of your window)
+3> Plug in your USB drive.
+4> Use included win32diskimager to write the .img to your USB drive.
+5> Your USB stick now has a working image of Ubuntu on it so just plug it into your Joggler and switch it on, wait a few moments and magic should happen. If it doesn't work try a different USB drive as the Joggler can be fussy.

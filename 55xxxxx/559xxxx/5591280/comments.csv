@@ -1,0 +1,52 @@
+User Type,Username,Date,Text
+[V],DibyaTPB,2010-05-26T12:02Z,This one is CLONE DVD.
+,Omiee,2010-05-26T12:10Z,so no crack hmm oke i already installed the early one that was uploaded im just waiting for a crack
+,TiGORiN,2010-05-26T12:43Z,This is going to be a damn big hit!
+[V],DibyaTPB,2010-05-26T14:16Z,I will upload the crack once i get it.
+,Omiee,2010-05-26T14:32Z,when do u expect to get it.
+,s0meguy,2010-05-26T15:39Z,"thanks, fast download"
+,borgqx,2010-05-26T19:32Z,"thats awesome. to bad there aint no crack yet. 
+cant wait to play this game :D"
+[V],DibyaTPB,2010-05-27T11:39Z,Will do once i get it.
+[V],DibyaTPB,2010-05-28T03:34Z,crack got upped by me here http://thepiratebay.org/torrent/5595379
+,AZkiller7,2010-05-28T18:42Z,"How to change language in Alpha Protocol
+
+If your version of Alpha protocol runs in any other language than English (and if you want the game to switch to English), try the fix below.
+Go to X:\Users\USERNAME\Documents\Alpha Protocol\APGame\Config\APEngine (where X: is your system drive, usually C:) and open the APEngine.ini file with a text editor. 
+Scroll to the [Engine.Engine] section and set Language=EN. Save and close the file. 
+Go to X:\Program Files\SEGA Corporation\Alpha Protocol\Engine\Config\BaseEngine and Open BaseEngine.ini file with a text editor. 
+Scroll to the [Engine.Engine] section and set Language=EN. Save and close the file. Now start the game. 
+
+If you want to change the language to any other language than English, you may try a different language string. For example to switch it to Russian set Language=RUS. For this to work your copy of the game must be a MULTILANGUAGE version.
+
+How to Fix Crashes, weird menu sounds, game exiting to main menu after the first cutscene, etc
+
+We?ve received several E-mails from our readers who all seem to have run into a very weird issue. Whenever a menu item is selected/hovered on, the game would emit a strange moaning sound :D Apart from that it would crash to desktop or go back to the main menu after the first cut scene. From what I have found so far, this happens when you try different versions of the game in your machine. For example if you installed a leaked copy of the game earlier and then tried installing the legit version (or a different exe) later, these problems may materialize. To try and resolve these issues, follow the instructions below.
+
+Note: Be careful when making changes to the system registry. Deleting/modifying wrong values may cripple your system.
+Open the Windows Registry Editor ? this is usually done by typing RegEdit.exe in the run/search box and pressing enter. 
+Expand the key HKEY_LOCAL_MACHINE and then expand SOFTWARE 
+Right click the ?SEGA Corporation? Key (under SOFTWARE) and hit delete. Press yes to the confirmation message. Close the Registry Editor. 
+Navigate to X:\ProgramData directory, where X is your system drive (usually C:\). Delete the SEGA Corporation folder located inside it. Now run the game. 
+
+If the above does not work, try uninstalling the game, repeating steps 1-4 and then reinstalling a fresh copy.
+
+How to improve mouse controls and mouse movement in Alpha Protocol
+
+If you are annoyed by the way your mouse behaves in Alpha Protocol (sudden mouse speed variations when FPS drops), you can try the following fix to improve mouse handling. Full credit for this fix goes to user MirkoOdora on NFoHump Forums.
+Go to X:\Users\USERNAME\Documents\Alpha Protocol\APGame\Config & open DefaultInput.ini file with a text editor. Set  bEnableMouseSmoothing=False in this file, save and close it. 
+Go to X:\Users\USERNAME\Documents\Alpha Protocol\APGame\Config & open APInput.ini file. Set all occurrences of bEnableMouseSmoothing variable in this file (there should be 2) to bEnableMouseSmoothing=False 
+Go to X:\Users\USERNAME\Documents\Alpha Protocol\APGame\Config & open APEngine.ini file. Set the following values in appropriate sections 
+[Engine.GameEngine] 
+bSmoothFrameRate=FALSE 
+MinSmoothedFrameRate=1024 
+MaxSmoothedFrameRate=4096 
+[SystemSettings] 
+UseVsync=False 
+Open X:\Users\USERNAME\Documents\Alpha Protocol\APGame\Config and make all ini files in this folder read only (note ? after making these files read only, your changes from the in game menu options may not get saved. If you need to change any settings from the in game menu, it?s suggest that you do it before this step)"
+,job_hunterx,2010-05-29T01:27Z,i crash to DT with every crack i try n use. Im on Win7 x64 shits pissin me off
+,tramho,2010-05-29T13:48Z,"Thanks AZkiller7 
+With your help its English now.
+works perfect!
+So far no crashes or strange sounds"
+,Deathman668,2010-06-07T08:08Z,ever time i go to replace the language file and save it the stupid thing says acess denide how do i change it

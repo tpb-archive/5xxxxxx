@@ -1,0 +1,37 @@
+User Type,Username,Date,Text
+,motnahpraw,2010-05-06T01:01Z,Does it work? How is it?
+,motnahpraw,2010-05-06T02:54Z,I got into the Main Menu. Hadn't tried it in-game. Do I risk getting banned by Valve?
+,esharoth,2010-05-06T17:33Z,"If you're worried about getting banned, don't use your main Steam account while playing this game."
+,mills007,2010-05-10T16:57Z,I get an error that it cant execute DirectX..... can i delete that folder?
+,esharoth,2010-05-10T18:24Z,"What DirectX error do you get, exactly?"
+,JopeCRO,2010-05-11T02:56Z,"I cant run game! I have error: Windows cannot find 'lag_win32_public_dev.exe'.
+
+PLEASE HELP!!!!"
+,JopeCRO,2010-05-11T03:01Z,"I cant run game! I have error: Windows cannot find 'lag_win32_public_dev.exe'.
+
+c:\program files\steam\steamapps\common\zero gear>cd /d [Lead and Glod folder]
+The system cannot find the path specified.
+
+PLEASE HELP!!!! 
+
+sry for SPAM"
+,JopeCRO,2010-05-11T18:37Z,"SOMEONE HELP MEEEEE?????
+PLZZZZZZZZ"
+,JopeCRO,2010-05-12T19:53Z,NOBODY HELP ME!!!!!!!!!
+,JoeMimic,2010-05-12T22:32Z,JopeCRO  - Trying taking everything that's extracted after you mount and install the game and put it in the SteamApps\Common\Zero Gear folder. I originally got the same error but after I did that it worked just fine.
+,esharoth,2010-05-20T21:24Z,"JopeCRO, the problem is with yout ZeroGear.bat file. If you installed the game in ""C:\Program Files\Lead and Gold"" for example, the ZeroGear.bat file should be:
+
+cd /d D:\Games\Lead and Gold
+start lag_win32_public_dev.exe
+exit"
+,esharoth,2010-05-20T21:29Z,"JopeCRO, if you installed the game in ""C:\Program Files\Lead and Gold"" for example, your ZeroGear.bat file should contain:
+
+cd /d C:\Program Files\Lead and Gold
+start lag_win32_public_dev.exe
+exit"
+,AssassinGamePlayer,2010-05-27T07:40Z,How do i play with other peeps?
+,boricuaflyboy,2010-06-08T23:33Z, I usually have no problems downloading torrents but this one is unique. I got every thing working right when it starts up i get the black window where it looks like the game is loading it says Lead and Gold on top and everything but then it disappears and that's it. Anybody got a solution?
+,TheXGuys,2010-07-07T11:36Z,man what to say you are the best of the bests this game works but you just need to know what to do
+,bigwigg,2010-11-12T12:08Z,thx
+,megafilipe,2011-01-01T20:19Z,"works, online?"
+,INVADERMUFFIN,2011-01-25T23:34Z,"i cant seem to open the .bat file, it wont open with notepad or wordpad... any help?"

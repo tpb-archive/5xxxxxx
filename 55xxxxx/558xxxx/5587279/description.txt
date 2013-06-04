@@ -1,0 +1,19 @@
+Constraints allow the user to set up animatable 'transform node' relationships between objects. These can be used in a wide range of applications, from how a characterâ€™s eyes follow an object, to how a character might pick up a staff. While the latter is relatively straightforward to rig, what about situations when an object must pick up a character? This lecture gives an in-depth look at techniques that can be used to animate character/object interactions including situations when a character may jump from one moving object onto another.
+
+
+Point Constraint
+Orient Constraint
+Aim Constraint
+	
+
+Locators
+Connection Editor
+Scripts
+
+01: Introduction
+02: Basics
+03: Handoff
+04: Aim Constraint
+05: Character/Object
+06: Object/Character
+07: Credits

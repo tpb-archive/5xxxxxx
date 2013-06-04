@@ -1,0 +1,51 @@
+------------------------------------------------------------------------------------------
+Originally created by HK1295.
+
+Description:
+This is a Fallout 3 GOTY wine wrapper just download and follow instructions to play - works great
+
+Chromium/Cider status:
+GREEN, fully playable
+
+System requirements
+Mac OS version: Leopard, or Snow Leopard
+Min. Processor: Intel 2.0ghz
+Min RAM: 2gb
+Video RAM: 256mb
+Hard-disk Space: 10GB
+
+ScreenShots:
+
+Notes/Known Issues
+. You may not even need G4WL disabler but incase you do it is included.
+. This has NOT been tested with GMA chipsets or ATI. This was tested on my nvidia 9400m and 9600m GT
+. This game runs smooth on: 10.5.6 Leopard with 2.4ghz Intel, 512 VRAM, and 4gb of ram
+. This games screen sometimes gets stuck on loading when entering a new area just Quicksave then reboot the game.
+. Has same issues as other fallout 3 wrappers
+
+------------------------------------------------------------------------------------------
+[EDIT]  - 20 May 2010 - LooseMorals
+
+This is the wrapper only. Taken from the full game upload. I have deleted the game from the package. You will need to install your own copy of this game...
+
+The path for the game is (right click - show package contents):
+
+Fallout 3 GOTY/Contents/Resources/drive_c/Program Files/Bethesda Softworks/Fallout 3
+
+Your install should replace the last directory 'Fallout 3'
+
+The best way to do this is to install your version of the game in VMware fusion, Paralleles or similar (Bootcamp whatever), then copy the 'Fallout 3' folder into this location in the wrapper.
+
+Good Luck
+
+LooseMorals
+
+PS. HK1295 mentions in his text that the screen gets stuck and that to resolve the problem - just save and restart. I have found that when the screen gets stuck (I get a black screen), that just tabbing (cmd + tab) to the finder and back to fallout will solve the problem without needing to reboot the app.
+------------------------------------------------------------------------------------------
+What is Wine?
+ 
+http://en.wikipedia.org/wiki/Wine_%28software%29
+
+Basically it is a technology that allows you to run Windows Software native on your Mac. Similar to VMware and paralleles but not quite the same (ie: it is not an emulation or virtual machine as such). All you need to know is you can play Windows Games on your Mac.
+
+Note: You will need a copy of the game to install into the wine wrapper!

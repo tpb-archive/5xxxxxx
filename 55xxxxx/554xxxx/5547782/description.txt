@@ -1,0 +1,10 @@
+Batch Con Flag Remover v0.2.4
+
+Scuba156 of Xbox1Crew released a new version of Batch Con Flag Remover. It's a tool that will batch-uncorrupt game saves from a banned console instead of having to do it one by one.
+
+What's new/fixed:
+
+* Added some backend for Profile id, Console ID and Device ID
+* Fixed a few bugs, mainly in the way backups are created
+* Added a tool to restore backups to there original state
+* List now correctly refreshes after restoring backup/resigning

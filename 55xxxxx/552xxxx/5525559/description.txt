@@ -1,0 +1,28 @@
+This pack contains all Wiiware games wads released for the PAL consoles up to date (May 01, 2010) + a number of 'unreleased on PAL consoles' USA wads that were region-freed to work on PAL consoles.  
+
+All 204 wads were tested & worked on a Softmodded 4.2e PAL system.
+
+Please help seeding this torrent, so that everyone could enjoy it.
+
+
+I figured that some of you don't know how to install wads, so I wrote this guide for you. just follow these steps:
+
+(make sure you got the Homebrew Channel already installed! â€“ Google for more information if you donâ€™t)
+
+
+Wad installation guide:
+
+1. Download Wad Manager 1.5 â€“ Here: http://filetrip.net/f5964-WAD-Manger-1-5.html
+2. Create a directory named "apps" in the root of your storage device
+3. Unzip the downloaded file and copy the WAD_Manger_1.5 directory with its content into that "apps" directory
+4. Create a directory named "wad" in the root of your storage device and copy any desired wads into that directory
+5. Go into the Homebrew Channel and load Wad Manager 1.5
+
+In Wad Manager:
+
+1. Select IOS249 (Already selected by default)
+2. NAND controller device: Disabled (Already selected by default)
+3. Select your source device: (SD CARD / USB / USB2.0)
+4. Navigate through the wads you copied into the "wad" directory. Click (A) to select a wad and (A) again to install it (will take a few moments)
+5. Go back with (B) and install more wads if you wish
+6. Get back to the Homebrew Channel by clicking "HOME" on your Wiimote. Click "HOME" again in the Homebrew Channel and 'Exit to system menu'. the Wii will restart, with the wad-channels installed.

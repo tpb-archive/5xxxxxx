@@ -1,0 +1,36 @@
+==Intro==
+
+SF94-Serv is a modification for Sonic Robo-Blast 2(or SRB2) to generally enhance the experience of the game, but it's also heavily Phantasy Star Online based. It is designed specifically for use with the OpenGL Render mode in SRB2, because it uses various visual enhancements only available to the OpenGL renderer, along with better framerate in larger levels. SF94-Serv has various features, which will be shown down the page more ;). SF94-Serv is heavily based off of a SOC or "Sonic Object Configuration", which is in a way a sort of dumbed-down scripting. The SOC, even though it can be totally self-reliant, uses resources from a WAD, and when put together runs in SRB2, enhancing away.
+
+==Features==
+As said above, there are various features in SF94-Serv. Here's a list of the obvious and/or basics.
+
+==General Enhancements==
+These include updated and new textures, Sprites, and HUD related things. Before a public beta is released, it'll have at least one singleplayer/multiplayer coop level. 
+
+***Other enhancements*** 
+This includes Sounds, Music, level fixes, all that good stuff. 
+
+==Match/CTF enhancement==
+
+***Ring re-grabbing***
+In game-types such as Match or CTF (Capture the Flag), when you throw a ring, it would usually just disappear into nothing. However with SF94-Serv, you can go back and grab that ring again. Makes sense, eh? Be careful, other players can grab your rings too! 
+
+***Shootable weapons***
+In Match/CTF, you can shoot oncoming weapons! But some aren't affected by just normal rings. Normal Weapon Rings can hit other Weapon Rings, as well as they can hit Bomb Rings and Automatic Rings(but to no avail, the Automatic Rings are too fast =P). Scatter Rings are only hittable with the Bomb Ring, otherwise they implode on themselves(no really, they do). The Automatic Ring can take on other Automatic Rings, Bomb Rings, and Weapon Rings. As for the grenade ring, modifying it with a SOC causes problems at the moment, so it doesn't do anything special. 
+
+==Other Features==
+
+***Blood***
+When the player is hit, the bleed a very cartoon-ish blood. 
+
+***Jump Sphere or Aura*** 
+Like most Sonic games, such as Sonic Adventure 2, Sonic Heroes, Shadow the Hedgehog, and Sonic Unleashed, Sonic has sort of a lit sphere around him while in his spinning or jumping state, and as of now is in SRB2 =P 
+
+***King of the Hill*** 
+SF94-Serv wasn't the first to do this, but King of the Hill is a game-type where the objective is to stay on the hill for the longest amount of time to rack up your score. You can still be hit off of the hill by other players, because they want to get their points too. KOTH has yet to be re-implemented into SF94-Serv, there are higher priority things on the list at the moment that need working on. 
+
+***SF94-City***
+SF94-City, usually referred just as the city, is the main feature from SF94-Serv. It is accessed from the server lobby using the central space elevator, which leads to the guild in the city. The city is located on Earth on a remote island, and is located right below the lobby. While the island is still remote, it somehow has still kept it's sense of technology.
+
+~SF94

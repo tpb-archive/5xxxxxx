@@ -1,0 +1,12 @@
+User Type,Username,Date,Text
+,The_Wizard_99,2010-05-28T08:02Z,2nd Fail
+,The_Wizard_99,2010-05-28T16:17Z,"Maybe you should check out the forum to learn how to upload a torrent.
+Tutorials are at http://forum.suprbay.org/showthread.php?tid=60880 and http://forum.suprbay.org/showthread.php?tid=60770"
+,nuggetboy,2010-05-28T23:41Z,"Already done.  Followed it to a T.  And I've done this before.  Quite frustrating.  Changed ISPs recently, but the NAT checker indicates positive.  I'm puzzled.  I'll look closer when I get home."
+,nuggetboy,2010-05-29T01:28Z,"The suprbay links are not working for me, although I know they were working last night when I posted the torrent.  The instructions I followed used openbittorrent as a tracker, which I used here.  I come to find out, the DNS for OBT was changed recently to 127.0.0.1, rendering it useless.  I wish there was a way to test this s**t before posting and wasting people's time."
+,nuggetboy,2010-05-29T15:57Z,Working now with no changes on my end so it must have been something else in the pipe these last couple days.
+,The_Wizard_99,2010-05-30T11:11Z,"Working how? It still shows no seeders, so it isn't working. D/L the torrent yourself and point it to where you have the files stored."
+,nuggetboy,2010-05-30T20:07Z,"The ratio is up over 3.0 so some people have been able to grab this, but I don't think this is using the tracker (DHT?).  The TPB tracker resolves to 127.0.0.1 now, so ...
+
+Sorry if you can't get this.  It's set up correctly (at least according to the forum instructions).  If you're still needing this album, it's on demonoid.  Beyond that, I can't help."
+,nuggetboy,2010-05-30T20:26Z,"OK, I added publicbt.com's trackers and that seems to have vastly improved the situation.  As this is not using the TPB tracker(s) at all, I'm guessing seeders up above will always say 0 (unless they get those trackers back up).  Good luck."

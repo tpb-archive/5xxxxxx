@@ -1,0 +1,67 @@
+User Type,Username,Date,Text
+,counterstrike2010,2010-07-18T01:49Z,Merci beaucoup.
+,ithurts,2010-08-11T19:55Z,Merci infiniment :)
+,tigzy44,2010-08-24T19:31Z,"Le loader modifie la MBR et y insère un code malicieux! Attention Donc.
+Je fais de plus amples analyses, je reviendrai poster."
+,tigzy44,2010-08-25T12:01Z,"MÃ©a culpa, ce n'est pas le loader qui modifie la MBR, c'est juste l'ISO windows qui est infectÃ©e.
+Ã  ne surtout pas tÃ©lÃ©charger!
+
+VÃ©rifiez vous mÃªme avec MBRcheck, voici un log de windows 7 normal:
+
+MBRCheck, version 1.2.3
+(c) 2010, AD
+
+Command-line:			
+Windows Version:		Windows 7 Home Premium Edition
+Windows Information:		 (build 7600), 32-bit
+Base Board Manufacturer:	Gigabyte Technology Co., Ltd.
+BIOS Manufacturer:		Award Software International, Inc.
+System Manufacturer:		Gigabyte Technology Co., Ltd.
+System Product Name:		XXXXXXX
+Logical Drives Mask:		0x0000009d
+
+
+\\.\C: --> \\.\PhysicalDrive0 at offset 0x00000000`00007e00  (NTFS)
+PhysicalDrive0 Model Number: XXXXXXXXXXXXXXXX, Rev: 01.03E01
+      Size  Device Name          MBR Status
+  --------------------------------------------
+    232 GB  \\.\PhysicalDrive0   Windows 7 MBR code detected
+            SHA1: 4379A3D43019B46FA357F7DD6A53B45A3CA8FB79
+
+
+----------------------------------------------------
+et voici le log de ce torrent une fois installÃ©:
+
+MBRCheck, version 1.2.3
+(c) 2010, AD
+Command-line:			
+Windows Version:		Windows 7 Ultimate Edition
+Windows Information:		 (build 7600), 32-bit
+Logical Drives Mask:		0x0000000c
+
+\\.\C: --> \\.\PhysicalDrive0 at offset 0x00000000`06500000  (NTFS)
+
+PhysicalDrive0 Model Number: VBOXHARDDISK, Rev: 1.0     
+
+      Size  Device Name          MBR Status
+  --------------------------------------------
+     14 GB  \\.\PhysicalDrive0   MBR Code Faked!
+            SHA1: 639AC5CDF8A5CF3245975932C6A4215450A7B98F
+
+Found non-standard or infected MBR."
+,tigzy44,2010-08-25T20:53Z,"En fait il s'agirait d'un problème dû à la lecture des MBR virtualisée.... 
+Toutes mes excuses à l'auteur.
+
+Free of viruses ;)"
+[T],sk4nz,2010-08-26T11:17Z,"@tigzy44 : No problem ! C'est exactement le but du loader de modifier le MBR, il virtualise au boot un disque dur sorti d'usine avec les tags windows, ce qui fait croire a l'os qu'il est authentique, car préinstallé a l'assemblage."
+,cyrlou38,2010-09-04T12:03Z,"Bonjour Skz, faut-il télécharger le windows 7 activateur (uploadé par toi) ou est ce que ce torrent contient tout ce qui est nécessaire?"
+[T],sk4nz,2010-09-17T18:57Z,@cyrlou38 : L'activateur est fourni !
+,cepr,2011-02-19T11:59Z,"Attention, l'activateur semble infécté par ""Trojan.Dropper.Mudrop.Jld""
+http://virusscan.jotti.org/fr/scanresult/860a29ccb716100d7da43045c679d1bed5d06bce/4efadc617dc3b36e7647db5a1643e85e5d10d319"
+,rafoufounne,2011-02-20T11:47Z,"bonjour,
+
+est ce que cela conserve les données présentes sur l'ordinateur?"
+[T],sk4nz,2011-02-25T17:13Z,"@cepr : Au vues des résultats des antivirus, une alerte sur le panel des 19 antivirus me semble n'être qu' un simple faux positif (http://fr.wikipedia.org/wiki/Faux_positif)."
+,Near111,2011-11-13T14:24Z,"J'ai un petit problème avec ton crack, l'installation de Windows 7 s'est passé la perfection, mais maintenant je ne peux plus explorer mon disque dur depuis l'explorateur Windows, je suis obligé d'utiliser la recherche de fichiers et de naviguer depuis le menu démarrer c'est assez contraignant.
+
+Si quelqu'un a une solution je suis preneur..."

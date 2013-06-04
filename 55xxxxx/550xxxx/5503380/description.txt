@@ -1,0 +1,154 @@
+Oblivion v4.0.6c Made by Zynastor
+Updates available at 
+http://www.gamethreat.net
+
+For Starcraft/Brood War 1.16.1
+
+===================================================================================
+
+HOW TO APPLY - Log into Battlenet, then without closing StarCraft, Open the file Z Loader and you will get a message DLL Applied Successfully. Then just follow the below commands to activate the various hacks. 
+
+-----------------------------------------------------------------------------------
+Hotkeys:
+
+- In-Game
+F5	 Toggle lag defender on/off. (Removes lag box screen)
+F6	 Toggle auto command repeat. (/fr command for faster repeat)
+F7	 Carry out last build command on selected worker. (Useful for UMS)
+F8	 Add/Remove unit for auto queue/upgrade.
+Ctrl + F8	Remove all units for auto queue/upgrade.
+F9	 Toggle global auto queue on/off.
+Ctrl + F9	Toggle global auto upgrade on/off.
+Ctrl + F10	Toggle subunit auto queue on/off. (Carriers & Reavers)
+F12	 Toggle five-state stat hack forwards.
+Ctrl + F12	Toggle five-state stat hack backwards.
+~ / Alt	 Select all units of the same type that are currently selected. (Excludes workers)
+Ctrl + ~ / Alt	Same as above but is used for workers and loaded transports/overlords.
+Delete	 Toggle in-game message log.
+Ctrl + Delete	Change page for message log.
+Pause	 Pause/Resume game.
+Insert	 Toggle three-state maphack forwards.
+Ctrl + Insert	Toggle three-state maphack backwards.
+Ctrl + LMC	(Left Mouse Click on "Idle" text) Select idle worker.
+Shift	 Hold key when building to keep cursor set and ready to go again.
+
+Commands
+
+- In-Game
+/kill	 Kill selected workers.
+/load	 Load selected units into transports/overlords.
+/m	 Display how much workers each player has mining minerals.
+/s	 Display the stack count of current selected. (How many stacked minerals, I wonder?)
+
+- In-Game + Lobby
+/mh [num]	Set maphack state. (1=off, 2=lite, 3=full)
+/tclicks	 Toggle maphack target clicks on/off. (Default off)
+/reveal	 Toggle reveal invisible on/off. (Default on)
+/sh	 Toggle selection hack on/off.
+/fr	 Toggle faster repeat on/off.
+/apm	 Toggle show APM counter on/off.
+/automine	Toggle worker auto mine on/off.
+/autogas	 Toggle auto mine gas on/off.
+/nukealert	Toggle nuclear missile alert on/off.
+/autounally	Toggle auto unally on/off. (Default off)
+/list	 Show a list of players. (Player id - Race | Slot id - IP)
+
+- Lobby
+/swap [id] [id]	Swap one player with another. (Must be game host)
+
+- Channel
+/ff	 Toggle friend follow on/off.
+/ff [name]	Enable friend follow and follow target player.
+/profile [name]	View a players profile.
+/spoof [name]	Spoof a custom name. (Supports color)
+/spoof [num]	Spoof a saved name from list. (1 to 5)
+/sn [num]	Save spoof name to list. (1 to 5)
+/dn [num]	Delete spoof name from list. (1 to 5)
+/ln	 List saved spoof names.
+/rn	 Restore current spoof name to original name.
+/cn	 Display current spoof name.
+/ar	 Toggle auto respoof on/off. (Default on)
+
+- Global
+/wb	 Whisper back to last whispered person.
+
+Other features
+Host identifier for lobby. (Host has red download status)
+Auto refresher for hosted game. (Game is refreshed every 6 seconds)
+Slot unlocker for lobby. (Remove computer player(s). and go them yourself)
+Start a game without any opponents.
+Stay in game even after being defeated.
+Show map download status at all times.
+Save screenshots as bitmap's rather than PCX.
+In-game system and elapsed timers.
+Selection hack with mass select hotkey. (Select upto 252 units)
+Maphack with safe clicks and state hack.
+Name spoofer with temp ip ban protection.
+Ally alert with auto unally/unvision.
+Nuclear missile alert with map ping on nuke attempt. (Not launch)
+Rally point changer hack detection. (Alerts once)
+Ping ghost on 'Nuclear launch detected'.
+In-game message log that holds upto 32 messages.
+Chat logger for channel, lobby and in-game.
+Automatically re-queue units. (Auto queue)
+Automatically re-queue upgrades. (Auto upgrade)
+Automatically create a worker on map begin.
+Automatically mine minerals on map begin and on unit create.
+Automatically mine gas on refinery completion.
+Automatically gain lobby ops. (Host hack)
+Alliance menu player names are in ally status color.
+Color player name notifications. (Pause/Leave/Latency change)
+Lag screen box timer always set to 1 second. (Safe quick drop)
+On-screen map max counter. (Shows at 400 and under)
+On-screen worker idle detection.
+On-screen APM counter.
+Show enemy minimap pings.
+Minimap pings are in player color. (Yellow is unknown/default)
+Build anywhere on most terrain with lights off.
+Remove warning messages. (Unit unplaceable)
+Auto join home channel on battle.net login.
+Sprite crash protection. (Protects against invalid sprites)
+Subunit crash protection.
+Anti-hacker map fix. (Protection against EUD triggers)
+Alert and protection against astat flooding exploit.
+Auto-hide leaderboard when stats hack is on.
+Bypass anti-hack protection when connecting to battle.net.
+
+Name Spoofer Codes
+
+B	Blue.
+G	Green.
+L	Light Green.
+D	Dark Grey. (Later text cannot be changed)
+W	White.
+R	Red.
+I	Invisible/Black.
+T	Tab.
+N	New line.
+C	Center justify.
+V	Right justify.
+
+Version 4.0.6c
+- Fixed Shift key feature for when building with Terran.
+
+Version 4.0.6b
+- Fixed a bug with APM counter.
+
+Version 4.0.6
+- Added Shift key feature for when building.
+- Added on-screen APM counter.
+- Added all players APM counter to stat hack.
+- Added stack counter command. ( /s )
+- Improved anti-hacker map fix. (Protection against EUD triggers)
+- Fixed load command to work with zerg overlord hero.
+
+Credits
+707 - Helping convert and test.
+Palomino - Various source code.
+PizzaPan - From Game-Deception for PEB module hiding.
+-----------------------------------------------------------------------------------
+Protection Against astat Flooding Exploit
+When a player joins a game their stats are automatically displayed for you with a /astat server command, so the exploit works by a player forcing you to do many /astat server commands on them within 1 second, causing you to get a temp IP ban from battle.net. My protection will fix this, still allow stats of players to show and alert you if the exploit was used.
+
+===================================================================================
+Stats earned while using this software on Battlenet will not be recorded. Its only for fun, so please no shit talking about "Hacking is for cheaters"

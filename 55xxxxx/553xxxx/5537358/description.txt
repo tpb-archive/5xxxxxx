@@ -1,0 +1,56 @@
+This is a scanned copy of the third edition of the manual for CMD RAMLink, along with the various addenda that I had with my particular copy. I have provided it here strictly for the purpose of replacing manuals which others may have lost or not received in a sale of a used RAMLink.
+
+
+Sources/Software:
+
+I used an Epson Stylus CX6400 scanner/printer for the imaging device, an original "plastic spiral/comb" bound RAMLink manual including JiffyDOS section, a stapled 28-page "addendum" booklet, and a one-page troubleshooting leaflet.  All imagery was imported using XSane with the Epson "Iscan" driver, processed with The GIMP, and converted to PDF using ImageMagick and PDFJam, running under Gentoo Linux.
+
+
+Processing:
+
+Each page was first scanned in and saved as a "full quality" greyscale PNG image.   All text-only pages and a couple of pages with very simple diagrams were scanned at 300 DPI, while pages with more complex diagrams/images were scanned at 600 DPI. 
+
+The front and back covers were scanned in at 300 DPI full RGB color.
+
+After scanning, each page was then post-processed one by one primarily to correct the rotation and to remove noise.  Much of the noise removal was done first by getting the brightness, gamma, and contrast set to just the right point where the paper was pure white, the text was nearly pure black, and the edges of the text still had a reasonable amount of anti-aliasing present.
+
+Once that was set, I could then select and manually blank out all areas of the page that are supposed to be blank anyway to rapidly cut out any large batches of splotches or whatever, combined with select-by-color against white, with a threshold of 20, so that anything even remotely close to white would be selected.  That way even the noise I couldn't readily see would be selected.  
+
+Then a quick "cut" (control-X that is) gives me text on a transparent background, and then flatten the image and I've got black text on pure white paper, with perhaps only a few stray dots left behind.  After that it's just a matter of using the paintbrush to remove those stray dots and repair any lettering that was damaged in the original print.
+
+
+Changes/corrections against the Original Work:
+
+In many places, the text and/or imagery were not rotated correctly relative to the edges of the pages in the original print.  In a few places, individual items on a page were mis-aligned relative to one another.  I have corrected these to my best ability.
+
+In a few places, some of the images came out particularly bad during the original printing - probably inadequate toner flow by the look of it - so I did some manual clean-up by re-painting them where necessary.  This was mostly needed just around the edges of dark items.  At any rate, I tried to limit how much re-painting I did.
+
+In two of the images describing the placement of the "timing" jumper in the C128 and C128-DCR, I had to manually tweak a few words to clarify them, as the original images were blurry.
+
+In a few other places I had to correct some whole-page warping that happened during the original printing.
+
+If I happened to spot a typo or minor spelling error, I've corrected those as well.
+
+In one or two places, the typist made clear but simple copy&paste errors, such as telling the user to validate a solid-state RAMLink partition, but calling it a "diskette".
+
+In one or two places, the typist appears to have been interrupted by someone else, and never quite finished what they were saying.  I've filled in one or two words as needed to complete the broken sentences, according to the surrounding context.
+
+No major changes were made to the content of this document, just the above minor corrections.  It is my opinion that the original authors would also make the above corrections in the same or substantially similar manner.
+
+
+Finalizing:
+
+After processing, each page was converted to 4-bit indexed mode, a second select-by-color-and-cut sequence was done (for some reason, this seemed to help some pages), and then saved out as a PNG.
+
+The front cover received a number of minor repairs to remove scratches and chips to the main logo, and then underwent some very aggressive noise filtering (thanks to The GIMP's "Selective Gaussian Blur" filter) before finally being saved out as a 256-color indexed PNG.
+
+The back cover received the regular noise removal treatment that I did with the rest of the manual, and was also saved out as a 256-color indexed PNG.
+
+Each of the final images generally ended up being about 180KB in size for a text-only page (though a few were quite small, perhaps 50KB), and some were as  high as 590KB for the 600DPI pages with complex images, hence the large size of this PDF.
+
+
+Fair use rationale:
+
+This manual is 20 years old, now out of print, and originally distributed by a company that is no longer operating in the field covered by it. Furthermore, the hardware device covered by this manual is no longer available new, from any source, and has not been manufactured by that company in quite some time. No new copies of this manual appear to be available from any reliable sources either.  While JiffyDOS is mentioned in this manual several times, these mentions are limited only to descriptions of the command set and how to use it.
+
+Therefore, distributing this manual poses no threat to anyone's sales.

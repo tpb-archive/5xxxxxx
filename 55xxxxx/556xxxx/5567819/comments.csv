@@ -1,0 +1,444 @@
+User Type,Username,Date,Text
+,mazzstrike10,2010-05-17T01:23Z,"Wait, does this NOT work for vista?"
+,trimidogg,2010-05-17T02:47Z,maybe works but not tested
+,trimidogg,2010-05-17T03:11Z,"Try it on Vista and report back if any one can do that 
+?"
+,DeathStryk3,2010-05-18T16:21Z,Thanks a lot ;) i am downloading now 
+,DeathStryk3,2010-05-18T16:23Z,can i install dlc? and how
+,DeathStryk3,2010-05-18T17:36Z,sorry its included NVM!
+,s0meguy,2010-05-18T18:45Z,yarrrrr
+,MakahNation,2010-05-19T07:33Z,Can someone please help? I can't play single player offline. It loads halfway and then stops. I noticed that it said I have to comment out something in order to play single player but I don't understand. Thanks!
+,trimidogg,2010-05-19T11:00Z,"Open Rev.INI  you have a shortcut on your desktop find 
+
+
+[steamclient]
+PlayerName = =Play-Shqip.com
+Logging=False
+ClientDLL=steamclient_l4d2.dll
+
+
+You need to comment # ClientDLL=steamclient_l4d2.dll to play Single Player to Play MultiPlayer Remove #
+
+Single Player
+
+[steamclient]
+PlayerName = =Play-Shqip.com
+Logging=False
+#ClientDLL=steamclient_l4d2.dll
+
+MultiPlayer
+
+[steamclient]
+PlayerName = =Play-Shqip.com
+Logging=False
+ClientDLL=steamclient_l4d2.dll
+
+"
+,smithy125,2010-05-20T04:09Z,"Great upload gonna be seeding this for a while, just one question trimidogg can add ons be added to this, if so can they be downloaded from steam it selve. Cheers"
+,Tommek93,2010-05-20T15:31Z,"hi
+please help
+someone write how to set up this game 'cause i don't know"
+,patje007,2010-05-20T15:32Z,"Hi trimidogg, nice torrent. But if I understand this, it means this is not singleplayer but only multiplayer?"
+,patje007,2010-05-20T15:34Z,"Nevermind, found it out already!
+
+Thanks for the torrent! :D"
+,lollyp,2010-05-20T20:46Z,"thank u its fork for me
+
+a little problem ony, i dont change to installation folder
+
+can u make a new install exe?   
+
+very very thank u :)"
+,CptGio,2010-05-21T13:31Z,"So far I've followed your instructions, now whenever I start the game I get a CTD (crash to desktop) and windows says that the program encountered some problems bla bla bla... Tell me what I might be doing wrong. Thanks"
+,Kastofillidan,2010-05-21T20:46Z,I'm in the same boat as CptGio I cant get this torrent to work Single Player OR Multiplayer they both just crash.
+,Johad,2010-05-21T22:34Z,What if i want to install it someplace other than my root drive?
+,martinbeast,2010-05-22T07:10Z,"i have the same problems of Johad and Kastofillidam, the game crash and send me to the desktop, come on trimidogg, any solutions? give us a hand here..."
+,martinbeast,2010-05-22T07:11Z,"i mean, in the same problem of kastofillidam and CptGio."
+,CptGio,2010-05-22T09:07Z,YARRRRRRR! Still not working...
+,vatsa1708,2010-05-22T11:52Z,"Crashes to Desktop and says sreams not running..
+Does this need steam?"
+,vatsa1708,2010-05-22T11:59Z,"For most the troubleshooting try this blog,
+http://blog.theevilpc.com/"
+,vatsa1708,2010-05-22T13:18Z,"Alright this guys from Demonoid and found a solution posted over there for Crash To Destop.
+
+Create a new txt and past the following in it;
+
+64 Bit Systems
+
+CD %HomeDrive%\""Program Files (x86)\Left4Dead2""
+
+attrib /S /D -R -A -S -H
+
+
+
+32 Bit Systems
+
+CD %HomeDrive%\""Program Files\Left4Dead2""
+
+attrib /S /D -R -A -S -H
+
+
+Save this txt as L4D2 Attrib.bat
+Now run it as Admin and go to the root folder, find Update.exe.
+crack it by using any of the 5 available options..
+And one more thing run the game from the root folder itself and DO NOT touch the rev.ini.."
+,TheBigHase,2010-05-22T19:31Z,"I am really thankful for this BUT once again like with other L4D 2 Rips I have troubles! Again ""The Passing"" crashes after loading (some file missing or so) thus all other single maps or campaigns or addons do run! What on earth is this had that before - any clue for that do others have the same prob!? Please help me really wanna play ALL of it... Thx again!!!"
+,trimidogg,2010-05-22T21:45Z,http://www.play-shqip.com/d05/SetupV2.rar
+,lollyp,2010-05-23T07:45Z,thx
+,pauliux11,2010-05-24T10:18Z,seed please also im trying on win7
+,TheBigHase,2010-05-24T16:42Z,"Well I installed this V2 thing,too but still ONLY The Passing CTDs ! WTF I'm slowly giving up on this BS - how about others c'mon guys some feedback pls!  Please say if u can run EVERYTHING without probs and if so how did you do it!? And the best - I never had any prob with L4D 1 - what did they put into it that makes it so complecated!? :-("
+,TheBigHase,2010-05-25T08:58Z,"Also there's a  PW needed for the file ""Updates"" in the ""V2"" -Folder - so what's the PW then!? Hello, anyone here ? All can play with no probs at all!?  Again : I am very thankful trimidogg BUT I have had big problems with all L4D 2 's  I have tried so far - and I ain't a Noob u know - L4D 1 for ex. runs perfectly ever since, could be updated with no probs etc. but not this..."
+,Drastik15,2010-05-25T12:13Z,"Okay, I'm on Vista. I have installed the game using SetupV2 I then chose number 4 (Download the newest version Add Crack for Client) then I ran the new exe and it crashed after a few seconds asking for background images. What went wrong? I hope it's not a vista thing."
+,trimidogg,2010-05-25T12:57Z,"If you have some missing files make sure you downloaded the files 100% if you still have same problem try reinstall , Setup does not have any error report it's just a windows CMD command but still we know there can be two problems 
+1: the game did not download correctly 
+2: something blocked the process it can be some anti virus that sux or you don't have full access if your admin on your PC try right click the Setup.exe Run As Administrator
+
+This setup game files are tested on Win 7 /32/64/ , Win XP /32/ , Win 2003 /32/
+game works just perfect also keep in mind even if you buy the game there are problems for some "
+,spikercbu,2010-05-25T18:52Z,"Hello guys is anyone has the idea how run this game on lan without any online server like hamachi,garena,tunggle etc. like counterstrike versions?
+create server,find server,game...
+
+my set up:
+modem-> router-> pc,pc,pc,pc,pc"
+,xoliouse,2010-05-27T22:19Z,"Seed, you furries."
+,Drastik15,2010-05-28T07:58Z,"Okay, I'm on Vista and I've done it all properly this time. I ran the game and it crashed as soon as the first picture came up. I tried again and again. So Trimidogg, it might be a good idea to get this working on Vista. You'd be suprised with how many people use it. Otherwise this seems to be a very good torrent. Just very complicated."
+,Drastik15,2010-05-28T10:18Z,Okay nevermind I also ran number 3 on the update thing. NOw I'm having the same issue as other people. It freezes half way through loading
+,XRoseFuneralX,2010-05-28T17:47Z,"Jesus people please seed, I've been downing this for an hour now and it's only gone past 13.6% with a down speed no higher than 50 kb/s, please freakin' seed D:"
+,TheBigHase,2010-05-28T18:35Z,"If anybody's interested : ""The Passing"" still CTDs after loading sayĂ­ng some file missing (..._teen_angst blabla) - everything els runs fine  - really I am slowly fed up with dis - there is something fishy with it..."
+,exversus,2010-05-29T07:05Z,"Seed Please!
+I Play this through Garena"
+,butterstick6993,2010-05-29T16:31Z,"can someone please give me instruction on how to install the game? 
+
+this is only my second torrent so i'm still a noob sorry.
+
+i've ran setup twice but it's still not installed on my computer. can someone help me please?"
+,leviminator94,2010-05-30T11:54Z,Please seed i need this game today.
+,jordanidk,2010-05-30T16:49Z,"After a LOT of messing around with this it finally started working although limited. 
+
+Can't find servers but I got around this by simply running steam and joining a group, I can join steam group games..for some reason.
+
+Perhaps give us some easier to follow instructions? There horrible. 3/5."
+,exversus,2010-05-30T17:50Z,"Please seed!
+__________________
+i play this
+game
+through
+Garena"
+,Torbax,2010-06-01T00:29Z,"Now If plz someone would fuck me !? 
+WTF is going on here ... 
+All I got was 5 rar files which need a password and a Setup.exe  that says I need to press a key then gives a really fast red flash and then gives me the 5 options named at the end of the info 
+
+Now I don't know How to fucking install the game because I can't unpack the rar's and that setup thingy won't install anything and keeps asking me if I want to run a update or crack or whatever ... 
+
+What do I need to do ..!? Fucking hell "
+,az000,2010-06-01T02:42Z,wats the password
+,smithy125,2010-06-01T05:40Z,"You dont need a password, you dont need to open the rar files just click on the set icon ( its got 2 fingers sticking up) it will then install."
+,az000,2010-06-01T06:44Z,ok i have mounted and installed quite a lot of programs but i dont freakin get this really need a walkthrough installation video XD
+,az000,2010-06-01T11:06Z,"launcher error launcher error launcher error cmon someone please give us a favor and make a video tutorial on how to install this wtf!!!
+
+i dont even want to play online i just want to play singleplayer fuck"
+,Torbax,2010-06-01T17:07Z,"@smithy125  
+I noticed ... But when I startup that setup ( with the 2 fingers lol ) It says press a key and then I get a series real fast flashes ...I've been able to printscreen those and It says it can't find a file in my (C:) computer thing    ... then I get a screen with in green ""Select 1 if you want to run a server and add crack for server"" and so on"
+,smithy125,2010-06-01T20:43Z,"Torbax, 
+
+click the 2 fingers
+
+A dos screen will appear with green writing
+
+in this writing it will tell you where the game will b installed ie ""c:\program files\left 4 dead 2""
+
+press any key and it will install
+
+this takes about  30 mins,did 4 me
+
+it will then come up with 5 options, these i had problems with as couldnt play, kept askng for steam to be running, now i pressed them all and some how dont know how i got it to work without steam installed. and had no problems with it.
+
+if its ging straight to the 5 options when u go to install it could be a problem with the download or hasnt installed prop, check your C drive and delete any left 4 dead 2 folders and start again, this game does work but some people are having problems with it"
+,mark.taiwan,2010-06-02T04:40Z,Is there anything ripped in this version? Why is the file size so small?
+,TheBigHase,2010-06-02T17:40Z,"I got it running once , but then the ""Passing"" won't run - I agree with people who are annoyed - Me too also wanna play SP don't need Multiplayer. Maybe trimidogg will help us again - or we wait for a next full release after patch Nr. 15643 lol  - sometimes I think L4D 1 is enuff (and it runs and runs without any probs!!!) I am convinced that the producers have put in some crap stuff that causes the probs - I mean it's like Cats and Dogs fighting between Devs and Rippers!  And most of all : I like the survivors better in 1 but 2 has good weapons n' stuff..."
+,tommi8404,2010-06-03T06:40Z,"does it crash if STEAM  is  on?
+
+i hope it works for vista...
+
+good seeding!    :D"
+,AL-Samurai,2010-06-04T16:29Z,"it work but when i search for Online Servers it can't find any thing>
+
+
+any help?"
+,jay397,2010-06-05T11:58Z,10GB u can kiss my ass it says 2GB
+,whitehand,2010-06-05T22:54Z,awesome rip awesome work trimidogg thank you very much for great game
+,gabumon,2010-06-06T16:21Z,"Hi, My game froze when loading the map on single player game
+I already removed the coment out in the rev.ini but it still donÂ´t work"
+,tommi8404,2010-06-07T12:51Z,"doesnt work....
+
+i get this  ALWAYS after ""trailer"" :
+
+engine error. 
+could not load library machmaking.
+
+WHAT I DO?? 
+ I tried to re-extract. doesnt work"
+,Drastik15,2010-06-08T13:22Z,"With the commenting thing, you're supposed to do the opposite of what Trimidogg said lol. # for if you want play Single Player no # for online"
+,heywood_j,2010-06-08T13:39Z,"Oh hey, AVG detects a virus in the temp files created by your little setup.exe. Go fuck yourself, trimidogg."
+,Alari93,2010-06-09T17:08Z,Do I need Garena to play co-op/online?
+,Alari93,2010-06-09T17:13Z,Do i need garena to play online?
+,trimidogg,2010-06-10T00:33Z,"naa ""heywood_j"" am F your sis ask around you
+
+go check what's on setup.exe 
+
+http://www.play-shqip.com/d05/SetupV2/setup.txt
+
+it's a simple bat file you stupid a$$ , you see how stupid you are , F your stupid a$$ brain , F your sis F your AVG 
+Before you post some stupid post as you did go F your sis loose your virgin than come back looser
+
+
+""Alari93"" you can see some servers without garena  so you don't need it it's up to you "
+,heywood_j,2010-06-10T17:57Z,"Look, we're all really sorry that infecting other people's boxes is the closest you're ever getting to a box, but seriously. Do you expect people to believe that a legit installation would raise trojan flags? If this was a repack of the material put out by Valve and nothing else, virus scanners would still be screaming bloody murder? Riiiight.
+
+And telling me that there's no malware in the .bat file, holy no shit sherlock. And here's me thinking there was a line somewhere in there that said FORMAT C:! Good thing not even some serbian retard with fetal alcohol syndrome would think to fuck with the actual files extracted by the .bat!"
+,trimidogg,2010-06-10T20:41Z,"1: am not serb
+2: if you want something with me there are lots of places this is not a chat room post what you think and F off
+3: i see you have New brain never used that's bad for you 
+4: if you know how to open MSN that does not mean you know shit on computers 
+5: if you think you are smart gay you don't want to put viruses on your Pentium III why you came here ? and you start winning also if i want to format you HDD to be more specified you gay porn you think that's hard ? you think your AVG will protect you go get a life looser 
+6: maybe some anti Low viruses will give you an alarm it would  say something like this file contains CMD command idk i guess i use  McAfee VirusScan Enterprise v8.7i / NOD32 v4.2.40 best for now 
+
+this game works for me just fine so i shared with yo it does not matter if you download or not it's up to you if you think there is a virus don't download it am against files that contains viruses also i don't understand why ppl compiling viruses ? maybe there is a war between those companies that building Anti Viruses and selling them that's lot's of money :) who knows maybe our retard friend here knows ? 
+
+Sorry if any of yo see your self offended by this post "
+,ZhangKhaiEn,2010-06-11T12:51Z,"I have try only single player, it work
+But there is 2 issue I notice.. is it just me? Request to clarify..
+1. static scratchy sound from time to time on all campaign
+2. my character icon is just white box during chapter loading screen.. does not matter who i choose
+if it is not just me.. how to fix?
+many thanks"
+,Emp230E,2010-06-12T02:54Z,Can you play over LAN with this version?
+,evilmtv,2010-06-12T11:06Z,"ZhangKhaiEn>
+1) in console, key in
+snd_rebuildaudiocache
+it'll bring you to the page as though you're loading a map. Its taxing on your PC so do it when you aren't going to need to tab out etc. Takes about 10-15 minutes depending on your PC. Once completed (loadbar reached full), you have to manually close the program eg. end task/process.
+2) not sure, sorry. Have never encountered it. Try updating to v2.0.2.0?
+
+Emp230E>
+Yes. I've tried with Garena after updating these files to v2.0.2.0
+
+heywood_j>
+My licensed up-to-date AVG scanned it clean.
+Game worked perfectly for me.
+Up till now it has done nothing to my PC.
+So please have 2 MSN accounts and screw yourself instead of flooding the comment box with your useless spam.
+
+Alari93>
+Yes, that is one way. I'd recommend that or you could try cracked private severs. I've not tried that myself so I can't give you any details. Try googling them
+
+jay397>
+Its highly packed and trimidogg said it before. After extracting and updating its about 8GB for me."
+,PussyMonster13,2010-06-12T13:59Z,"Yeah,works without problems!!!!
+Ty trimidogg !!"
+,trimidogg,2010-06-12T22:53Z,"There is a new Patch Released 
+
+Left 4 Dead 2 Patch From v2.0.1.5 / v2.0.1.6 / v2.0.1.7 / v2.0.1.8 / v2.0.1.9 / v2.0.2.0 / v2.0.2.1 TO v2.0.2.2 
+
+http://thepiratebay.org/torrent/5623703/Left_4_Dead_2_Update_v2.0.2.2_%28Cracked_For_Online_Game_Play%29
+
+
+Rate Files if you can : /  
+
++5 / -7 (-2) 
+
+Why ppl rate with - ???"
+,pirateGodz,2010-06-13T05:44Z,i need help trimidogg.... i choose single player but its not work its crash when loading a map to 50% can you please help me thanks!!! 
+,peterASP,2010-06-13T07:30Z,tommi8404 how did u solve your problem of it closin after the trailer!?! it keeps pissin me off!
+,trimidogg,2010-06-13T16:32Z,"Open REV.INI CHANGE IT LIKE THIS 
+
+
+******************************
+* REV.INI FOR SINGLE PLAYER: *
+******************************
+
+
+
+[Emulator]
+# Supported Languages - English, French, Italian, German, Spanish, sChinese, 
+# Korean, Koreana, tChinese, Japanese, Russian, Thai, or Portugeuse
+Language = English
+Logging=False
+SteamDll=Steam_l4d2.dll
+SteamClient = True
+SteamUser = Play-Shqip.com
+
+
+[Log]
+FileSystem=False
+Account=False
+UserID=False
+
+
+[steamclient]
+PlayerName = Play-Shqip.com
+Logging=False
+#ClientDLL=steamclient_l4d2.dll
+
+
+[GameServer]
+#AllowOldRev=False
+#AllowUnknown=False
+#AllowCrackedSteam=True
+#AllowLegitSteam=True
+
+
+
+
+
+******************************
+* REV.INI FOR Multi PLAYER:  *
+******************************
+
+
+[Emulator]
+# Supported Languages - English, French, Italian, German, Spanish, sChinese, 
+# Korean, Koreana, tChinese, Japanese, Russian, Thai, or Portugeuse
+Language = English
+Logging=False
+SteamDll=Steam_l4d2.dll
+SteamClient = True
+SteamUser = Play-Shqip.com
+
+
+[Log]
+FileSystem=False
+Account=False
+UserID=False
+
+
+[steamclient]
+PlayerName = Play-Shqip.com
+Logging=False
+ClientDLL=steamclient_l4d2.dll
+
+
+[GameServer]
+#AllowOldRev=False
+#AllowUnknown=False
+#AllowCrackedSteam=True
+#AllowLegitSteam=True
+"
+,BricedeNice,2010-06-13T18:41Z,Hi trimidogg i got a little issue my c: is an 36 gig velociraptor and with win7 installed and a few utility it come to about 7 gig left i got another hdd that much bigger so my problem is that the default path in ur exe is c:\program files\left 4 dead 2 and that quite an issue since3 it encrypted and there is a password on the rar files and also demonoid public registration are closed so that make me unable to get the password anything u can do for me that would help would be great thanks !
+,Bludtypo,2010-06-13T20:31Z,"People are giving you a negative (-) rating because your instructions are motherfucking horseshit. 
+
+Seriously, are you 10 years old?  Have you ever communicated with people in plain English before? 
+
+Christ, this torrent is more confusing than a $2 German hooker. ""NAI RONG HOLE NAI PULL OUT NAI PULL IN NAI!!"".
+
+Here's a tip for your next torrent: Tell US -the people who download your shit- in the SIMPLEST WAY POSSIBLE, how to USE YOUR SHIT.
+
+Such a convoluted, overly complicated, and fucking useless torrent. I advise everyone who's interested in playing L4D2 to leave this page and download it elsewhere, it's not worth the fucking headache to try and understand HALF of the instructions on this fucking page.
+"
+,Emp230E,2010-06-14T00:55Z,"peterASP: Right click and run as administrator or go to properties, compatibility tab and check Run this program as administrator so it always opens that way.
+
+The game works great online and in single player. The game hangs up when you try to create a game though. Is there a way to play this over a true LAN(not Garena etc)?
+ Trying to play with a roommate. "
+,pirateGodz,2010-06-14T05:59Z,"yeah its working now but ..have a questions what is the minimum requirements of L4D2 to my pC? e.q Ram,Video card,??? "
+,pirateGodz,2010-06-14T06:06Z,trimidogg.. i have a question.. what are the minimum requirements of L4D2? its working now to my pc but the graphics is not good and its too log think the prob is in my videocard or Ram??? thanks!!!!
+,findnatehere,2010-06-14T07:36Z,why is it that they keep telling me that i need steam in order for the game to run? what am i doing wrong here?
+,FagBelowMeSucks,2010-06-19T11:38Z,"Okay, for all you guys saying it freezes in mid-loading. Its because you have the multiplayer dll running instead of the Single player and too change that all you have to do is go into Rev.ini and write ""\\"" or ""#"" beside 'ClientDLL=steamclient_l4d2.dll'. Thats how to make your game load all the way to actual play. If your are suffering from lag, disable SteamCloud, V-Sync, and make sure you have at least 2 of the video setting set to either Low or Medium depending on wether your computer sucks ass."
+,DaniilEST,2010-06-20T15:24Z,"Let me say that this torrent is pure sh*t. Why?
+1. Long install
+2. Messing with .INI files
+3. Malware
+I went through all this and all I got is intro video and an engine error after that. 
+Anyone who thinks the same way should go and download the original version of this messed up junk. 
+
+http://thepiratebay.org/torrent/5415400/Left_4_Dead_2_-_V2.0.1.1_(Patched_For_Online_Gameplay)_PROPER_.F
+
+Download this one instead. 
+1. No messing with .INI files
+2. No malware
+3. No frustration
+All you have to do is extract and double-click the ""setup"" icon and go have a smoke (if you smoke). Easy.
+Haven't tried it online, but the singleplayer works just fine. Oh, and do read the ""readme"" file.
+
+Thanks for reading. Cheers!"
+,Dig1taL,2010-06-21T17:32Z,"________________
+Noticed that some people are wondering what the minimum requirements are, and if their computers will run this game.
+
+Simple way to find out:
+Go to www.canyourunit.com
+Choose Left 4 Dead 2 from the drop down list.
+You may have to install the java runtime application, but it's completely legit.
+________________"
+,Dig1taL,2010-06-23T13:11Z,"Just to let you know:
+I installed, I didn't update anything, just ran the setup.exe
+
+First thing I did: Play on a versus server. IT WORKED.
+
+Then, I decided to play on The Passing. The game closes itself before loading the campaign.
+
+Then I tried Dead Center. That crashed too, so I assume that either single player doesn't work or co-op doesn't work.
+
+Gonna try updating it to 2.0.2.3 now."
+,nezzdivyn,2010-06-27T03:18Z,may somebody plz explain how to properly step by step download this please! I'm sure it would help out many people.
+,Watatsumi,2010-06-28T19:56Z,"http://www.virustotal.com/analisis/aac2e37cab1f6713d8143bbe127bfa13598c5e367ca58216466bf22f6bf48e75-1277746231
+
+File Setup.exe
+Current status: finished
+Result: 18/41 (43.90%)
+
+MD5...: 9d8a64681f2d166e8a6c0fbc63fad8dd
+SHA1..: 6dc9b55be455ac1ac13090a09d446cb987aacc66
+
+add to this that the rar archive is passworded and you MUST run this exe instead, exe which is supposed to expand the archive and then run any crap it wants from inside the archive.
+
+this doesn't smell nice to me :(
+
+anyone cares enough to risk getting a good serving of impossible-to-scan-until-you-get-infected rootkits, keyloggers and other crap from inside the opaque passworded archive?
+
+not me"
+,nezzdivyn,2010-06-28T22:08Z,"i recently downloaded this game unsuccessfully and i could assure you that there is no virus in any of the files...
+i have Norton 360 anti virus, which is allot better then avg or any other free virus protection you could find on the internet and i assure you that no virus was found while downloading this file."
+,nezzdivyn,2010-06-29T00:42Z,"trimidogg could you help me download plz im ver new to the Rev.INI thing..
+ty"
+,silentbob515,2010-07-01T12:59Z,"working release,but there is some things.Lets say Trimidogg need think before action and dont be such a noob.Why he have to think and dont be such a noob?Because this motherfuckin instaler extract L4D into C:\ partition and it cant be changed.Im not talkin how much lame is when you have games on same disk with systam.If you wish lost all your data with reinstall...feel free.Anyway i have quite new light speed disk for my Win7,unfortunately there is not enough free space for this game.So if u have 40gb 10k Rps disk with Win 7 do not download this release.U will wish kill this uploader"
+,silentbob515,2010-07-01T13:23Z,"Well this crack vote after instalation finish is just another piece of shit.U cant just put crack in folder like other do,no.We must have to choice from five options and nobody tell me which is right..."
+,thumtack,2010-07-02T03:31Z,Hey man is any one having problems with the links to the setups 
+,bubster22,2010-07-03T17:26Z,i cant edit the rev file? i add the # infront to play single player mode but it keeps saying access denied when i try to save it. I am the administrator...and thers no right click option to run as admin for this file so what do i do o-o
+,Infected03,2010-07-06T07:45Z,i click on the icon to play  and at the loading screen  its crashes what other steps do i need to take in order for it to work completely
+,AntraxM,2010-07-06T16:19Z,"Hello.
+
+I still can't understand a lot about this game's setup.
+I've installed the 2.0.1.8. v of this game, and already used this 2.0.2.4 update.
+But when I try to create a new game or join servers, it doesn't seem to connect to the network and it ends up in a loop. I've read some .txts and it seems I need to choose option 4 at the update.exe to join an online game.  I tried it and the answer was ""no instalation record find at.... /left4dead"". How do I get this to work? Sorry for the spam."
+,Infected03,2010-07-07T16:07Z,"Steam dosnet allow me to play this version    its says  ""no permission to play left 4 dead 2"" when the intro trailer finished. How can i get around this        in order to play the game  it requires steam so i cant turn it off and when i turn it on steam says i have no permission       Any Help?"
+,trimidogg,2010-07-07T16:37Z,"""Infected03"" Get 
+
+Left 4 Dead 2 Patch From v2.0.1.5 / v2.0.1.6 / v2.0.1.7 / v2.0.1.8 / v2.0.1.9 / v2.0.2.0 / v2.0.2.1 / v2.0.2.2 / v2.0.2.3 TO v2.0.2.4 
+http://thepiratebay.org/torrent/5670991/Left_4_Dead_2_Update_v2.0.2.4_%28Cracked_For_Online_Game_Play%29
+
+"
+,Niyghtell,2010-07-11T11:29Z,:O see this is like like a virus n{4.5% 8:18:12}  722.160 MB use
+,Ello64,2010-07-12T22:24Z,"Hey trimidogg, for some reason, my AVG (how worse or good it may be) detects a virus in both the normal .exe as the V2.exe in the download. I believe you if you say you didnt put one in, but now I cant run both the .exe as the V2.exe. What is the password from the .rar files so I can install from there? or is there an other solution?nnAnd the links to the play-shqip website are down."
+,wraithsmith,2010-07-17T23:03Z,"hi folksncould someone give me an up to date rundown or link to properly play this online with a friend? im pretty confused about the patch order,what to and not to do,genera and himmachi and tunngle. basically all i wanna do is play with the boy together online before school starts back up.any help from you\'se guys would be GODLY! you guys are great.nSTAY CHUFFED!"
+,sharkzfan,2010-07-25T02:39Z,"Hm... I downloaded this game, chose option #4, and when I tried to run it, it CTD'd after the intro clip. So, I tried updating it to v. 2.0.2.4 (the other torrent), and when I tried to run the game, a message popped up saying, ""Failed to load the client DLL, the operation completed successfully."" Am I the only one here getting this... or did I do something wrong?"
+,shad00w,2010-07-26T00:23Z,"It gets stuck while extracting says some thing about 1,4% and gets stuck there...
+Did this even work to any one rofl"
+,soapcfc,2010-08-12T21:46Z,THIS FILE HAS VIRUSES. DO NOT DOWNLOAD!!!  TROGEN VIRUS!!!
+,soapcfc,2010-08-12T21:53Z,VIRUS DO NOT DOWNLOAD!!!!
+,delakron,2010-11-02T00:28Z,how can i change the installation path?
+,delakron,2010-11-02T01:07Z,because i have free space in my second and it seems that installation path is unchagable.
+,MonkeyPirate419,2010-11-02T06:33Z,"Nice torrent, seems to check out...
+but i never install games on my C:\ drive, its just a bad idea. I keep it partitioned at 50GB and another partition for gaming at 200GB. So how do i change the installation path? Or is it even possible? Because i only have 5.5GB free :P
+Thanks"
+,slim912,2010-11-27T13:47Z,y u guys stop seeding??????????
+,jrs3000,2010-12-07T11:07Z,umm yea i downloaded and installed this and when i went to play dead center it crashed do i need to update to fix this and if i do how do i do that?
+,cnotorious2,2011-01-18T06:22Z,"trimdogg i DL'ed and when i try to open 1 ,2 , 3 or 4 all say i need a encrypted password??? whats the dilio?"
+,cnotorious2,2011-01-18T06:25Z,when i try to open the 1 2 3 4 it says i need a encrypted pw??/
+,cnotorious2,2011-01-18T06:48Z,A DECRYPTION PW I MEAN
+,cnotorious2,2011-01-18T06:49Z,a decryption pw i mean
+,cire666siuol,2011-03-05T07:53Z,"@cnotorious2: I haven't downloaded this yet, but my guess on why you can't open the rar files without a password is probably because you're not supposed to open them... Just run the install that comes with it and it extracts and installs the game, I'm guessing anyways..."
+,trimidogg,2011-03-31T20:27Z,"password is:
+
+ttr"
+,Janobala,2011-07-09T22:26Z,"YEAH THIS DOES HAVE 2 TROJAN INFECTED FILES, DONT DOWNLOAD"
+,yznad1,2011-10-18T09:37Z,"ive just installed the game via setupv2 and i chose number 3 it installed and mad an icon on my desktop and when i click on it says "" Failed to load the launcher DLL: the specified module could not be found."" can some one please help me Thankyou"
+,33pwnt33,2012-02-25T05:59Z,nice torrent ty!!!
+,trimidogg,2012-03-31T20:16Z,Get L4D2 v2.1.0.2 Patch =TRK= From http://www.play-shqip.com

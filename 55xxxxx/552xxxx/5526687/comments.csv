@@ -1,0 +1,60 @@
+User Type,Username,Date,Text
+,ferrusonlymetal,2010-05-08T16:16Z,"SDL training http://thepiratebay.org/torrent/5544415
+Thank you so much"
+,Tulkoju,2010-06-29T11:28Z,"I followed your instructions in the readme file and it doesn't seem to work. The ""del_trial.bat"" only opens for app half a second. I opened ""patch.exe"" and left it running.
+Should I do anything, e.g. click ""patch""???
+After I ran the ""LicenseConsole.exe"" and selected the ""I have purchased a license and would like to activate the product now.""
+Then I selected ""Use a local license file.""
+Then I browsed to ""C:\Program Files\SDL\License file\trados.lic"", clicked ""next"" and got the message, ""You have successfully activated your product. Visit the SDL Trados Website for updates or more information.""
+The program attempts to start and then a window pops up with the message ""you must have a valid license to use SDL Trados Studio 2009."" and the program closes.
+Any suggestions????"
+,fajarp,2010-07-12T05:49Z,"had the same problem , solved it by patching the app in Safe Mode.works like a charm :)"
+,Sapolagarto,2010-08-23T05:48Z,"How did you do it!? I had the same problem, I followed the instructions and I couldn't patch."
+,mapachero,2010-08-31T18:42Z,"I had the same problem as Tulkoju. Tried running the patch in Safe Mode, no good. The patch seems to be looking for a specific file to use in order to patch... and I have no idea what that may be. 
+
+What exactly did you do, fajarp, in Safe Mode?
+
+THANK YOU!!"
+,ImSoJaded,2010-10-12T19:32Z,"Works fine on Win 7 x64. Follow the instructions to the letter, don't forget to run the patch as admin.
+Turn off antivir, it whines about the patch being a trojan but as usual, it is a false positive.
+
+I tried the patch on the new Trados Studio SP3, and... TADA!!! Guess what, it works!!!!
+
+Thanks."
+,eriknw,2010-12-04T17:23Z,"Thanks so much for this - I had it working perfectly on my old Win 7 x64 machine, but tried installing it on my new one (Win 7 Ultimate x64, same as the last one) and got a compatibility error for the patch.exe.  Tried running it in XP mode but still no luck - anyone else have this problem or any suggestions?  "
+,keila12345,2010-12-11T13:53Z,"Thank you very much! I had the same prob with the patch (it said sth. like the file may be open, try again) but It was very easy to solve it: right click to the patch icon and then ""run as administrator"". It works fine! Hope to be as simple for you as it was for me! "
+,hederek,2011-01-25T03:14Z,"I have tried many others and they all drove me crazy  but this definitly works.However remember to run del.trial.bat  and patch.exe files in the directory where you already copied them. To do that, go to the directory you copied them, first click on del.trial.bat 
+than find patch.exe and right click on it.than  click run as administrator. that is how it patches. and to ones who made it possible for us to get this program thank youuu sooo much, you are awesome!"
+,hederek,2011-01-25T03:15Z,by the way that is for windows 7 :)
+,kermit123,2011-03-26T08:23Z,"Installed just fine on my Win 7 x64. Just to make sure, I created a system restore point before running  the install.
+I hope it will still be running after 30 days! If so, a great big thank you to the person who made this possible!"
+,kermit123,2011-03-26T08:25Z,And just to reiterate what has already been said by other users: turn off any anti-virus program before installing the activation and don't forget to run the patch as an administrator.
+,eyesburned,2011-09-19T10:20Z,done everything like written in the read.me and works like a charm on win7. tnx man.
+,cedrik1408,2011-10-15T23:18Z,"Hey, i had a hard time making this work but i finally did it, here are the stepts.
+
+TESTED on WIndows XP 32 bit
+
+-you don't need to back up your hard or anything, just delete the first instalation if it didn't work and try again.
+
+1. You need the following :
+http://thepiratebay.org/torrent/5423789/SDL_Trados_Studio_2009_SP1_Bundle
+
+2. follow the exact steps in the instructions from the above torrent, even the patching.
+( trados 2007 and passolo 2009 work but trados 2009 required the patch from the current torrent )
+
+3. After installing the suite in this order : 
+
+3.1 SDL trados 2007 suite 
+3.2 SDL traods 2009 
+3.3 SDL Multiterm 2009.
+( passolo is included and other info for installing are in the instructions.text ) 
+
+4. Patch them in the same order
+5. If you followed the previous steps correctly, DON'T RUN TRADOS 2009, the first time it may start but it is a trial and will expire soon enough, instead download this torrent and apply the patch over the other patch.
+
+6. To apply this patch copy the Licence folder in C:\Program Files\SDL\SDL Trados Studio\Studio1\  
+6.1 copy the files from D:\download\SDL Trados Studio 2009 SP2 activation\SDL Trados Studio 2009 SP2 activation\SDL.Trados.Studio.2009.SP2\patch   
+and run them according to the instructions. 
+6.2 Do the same for multiterm even if it shows it is already patched just to be sure.
+
+READY to Go , hope it works for you."

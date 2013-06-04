@@ -1,0 +1,57 @@
+Here is the May 2nd, 2010 (r 1049) release of Zygor's Guide. Included are the horde and the alliance leveling guide and the new dailies guide for both horde & alliance.  It includes both the viewer and the updated guides.
+(it was found on the demonoid tracker)
+
+_____________________________________________________________________________
+
+CHANGELOG (from 1005)
+
+Version: 2.0.1049
+-- Alliance Guides Change Log --
+Dailies Guide:
+* Updated Dailies Trial Guide
+
+-- Horde Guides Change Log --
+Dailies Guide:
+* Updated Dailies Trial Guide
+
+-- Other Changes --
+* Renumbered steps in all guides for accuracy
+
+Version: 2.0.1042
+
+-- Alliance Guides Change Log --
+
+Aldur'thar: The Desolation Gate Step 3 & Speed Gold Run w/ATG Step 70: All instances of the quest Putting the Hertz: The Valley of Lost Hope now have the objectives corrected tied to the quest. Duplicate or unneeded objectives have been removed as well.
+Step 24 (68-70 Alliance) Fixed "havebuff" part so that it would detect the right buff.
+Step 66 (68-70 Alliance) Fixed incorrect coordinates.
+Speed Gold Run (w/ ATG) - Step 25 - Coordinates were pointing to the wrong boat. Fixed.
+Speed Gold Run (w/ ATG) - Step 27 - Coordinates were pointing to the wrong boat. Fixed.
+
+
+
+-- Guides Viewer Change Log --
+
+* fixed SiS failing to mark quests as obsolete
+* added proper Carbonite waypoint support, instead of the flaky TomTom emulation
+* fixed guide descriptions not appearing with Beginner Tooltips on
+* new option to hide step borders (combines well with "auto hide window border") for minimalists
+* drastically reduced guides loading time
+
+===================================================================================
+
+Instructions:
+-------------------
+1. Download.
+2. Extract.
+3. Copy extracted folders to your WoW/Interface/AddOns folder.
+   - Both Horde and Alliance folders are included, if you don't play both, don't worry, WoW will only load the appropriate guide.
+4. Launch WoW.
+5. Once you are logged in and at your character screen, click the AddOns button and make sure that ZygorGuidesViewer and ZygorTalentAdvisor are checked.
+6. Launch the game and enjoy.
+
+
+Notes:
+-------------------
+* FYI, Warcraft AddOns should never include executable files.  With the exception of addons that include graphics or sounds, you should only find LUA, TOC, and XML files.  WoW AddOns do not have the capability to act as a keylogger or virus unless they have that executable in them that shouldn't be there!
+* Seeding makes everything go faster!
+(it was found on the demonoid tracker)		

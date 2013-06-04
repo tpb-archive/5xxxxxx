@@ -1,0 +1,27 @@
+Keyvault Modder v1g-1
+
+Zouzzz released a new version of Keyvault Modder, a GUI tool to modify/read some of your keyvault data (region, dvd key, dvd info etc).
+
+What's new/fixed:
+
+* Compatible with NAND and KeyVault of DevKit / DemoKit / TestKit
+* Added DevKit and NTSC-HK regions
+* Changed color of left button
+* Fixed error "Compatibilty with" with central button
+* Fixed error of re-opening decrypted KV with left button
+* Fixed cancel bug 'Open File'
+* Fixed cancel bug 'Save File'
+* Fixed bug on size of certain KVs (0x10 and 0x20 left over here and there)
+* New layout (TextBox replaced by Panels ...)
+* Removed the .dll
+* Removed compatibility info
+* Check that CPU key is HEX
+* Check that DVD key is HEX
+* FileName indication in Open File
+* FileName indication in Save File
+* RC4 Key indication while decrypting
+* Hmac Message indication while decrypting
+* Added KeyVauly encryption
+* Added encryption + inset of KV in NAND dump
+* Added Donate button
+* Loading / Saving of 5 different profiles (from A to E), saving Name, CPU key, RC4 Key and Hmac Message

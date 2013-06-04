@@ -1,0 +1,74 @@
+This is Adobe Illustrator CS5 for Mac OS X!!
+
+I decided to upload this because when doing a search for it I couldn't find it.
+
+I got Illustrator DMG from Adobe's website and the install instructions are the same as 76dragon's instructions, as they worked very well for me.
+
+Included in this torrent is Illustrator_15_LS1.dmg and install instructions, including activator keys.
+
+These instructions are not mine, they are 76dragon's (TPB) and I take no credit for them in any way.  They are being used because they worked for me without any incident or hiccup!!!
+
+Part 1:
+REMOVE OLD ADOBE INSTALLATIONS (IF APPLICABLE) BEFORE INSTALLING ADOBE CS5
+Remove the following Adobe applications and files before installing the Adobe CS5 Master Collection:
+/Applications/Adobe? (everything with Adobe)
+/Library/Application Support/Adobe
+/Library/Application Support/FLEXnet Publisher
+/Library/Preferences/FLEXnet Publisher
+/Library/Preferences/com.adobe... (everything with com.adobe)
+~/Library/Application Support/Adobe
+~/Library/Application Support/Adobe/Acrobat
+~/Library/Preferences/Acrobat
+~/Library/Preferences/Acrobat Distiller Prefs
+~/Library/Preferences/Adobe... (everything with Adobe)
+~/Library/Preferences/com.adobe... (everything with com.adobe)
+
+Part 2:
+INSTALLATION OF ADOBE Illustrator CS5 (Or any other CS5 pruduct)
+Disconnect from network/internet (Turn AirPort Off). Double click "Adobe CS5 Master Collection.dmg" to install the Adobe CS5 Master Collection. Whilst installing CS5, ensure that you choose "Install this product as a trial" and DO NOT enter any serials. If you've already installed CS5 applications using a serial, load any of the installed CS5 applications and select Help > Deactivate. Quit all of the installed CS5 applications.
+
+TERMINAL
+Launch a Terminal window (in /Applications/Utilities) and copy and paste:
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+Hit return and type your admin password.
+The "hosts" file should automatically open in TextEdit.
+
+TEXTEDIT
+If the following lines are already part of the "hosts" file close it and continue with the "Finish" section. If not hit return (in the opened "hosts" file) and copy and paste following lines:
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+Save the "hosts" file, DO NOT Save As?.
+
+Part 3:
+FINALIZE ADOBE CS5 INSTALLATION
+In Terminal copy and paste:
+sudo dscacheutil -flushcache
+
+Hit return (and type your admin password if asked for it). The Adobe activation servers are now blocked.
+
+FINISH ADOBE CS5 INSTALLATION
+Launch any of the installed CS5 applications and enter one of the following serials:
+1325-0617-8365-2331-6662-9349
+1325-0621-9125-0765-3648-0614
+1325-0365-5929-6118-8817-8422
+1325-0150-1163-7532-1626-3430
+1325-0178-1927-9019-0123-2254
+1325-0702-3693-1544-9166-3515
+1325-0549-2240-0071-3409-1342
+
+Connect back to network/internet (Turn AirPort On). You can start using CS5 applications.
+Run any CS5 application > Help > Updates? multiple times until all installed Adobe CS5 applications are up to date.

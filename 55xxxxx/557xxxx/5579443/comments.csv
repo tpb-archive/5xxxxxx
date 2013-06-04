@@ -1,0 +1,11 @@
+User Type,Username,Date,Text
+[T],ADHDerby,2010-05-22T12:55Z,"This conversion is not the same as my previous release. This one contains an individual, completely discrete center surround channel, along with the standard 5.1 channels (DTS-ES 6.1 Discrete). I finally succeeded to extract all 7 channels from the DVD. The problem was that every program I know of extracts just 6 of the 7 channels.
+
+Here's how I did it: I've converted each track to mkv with DVDFab (mkv.h264.audiocopy). Then I demuxed the DTS tracks from the mkv files with tsMuxeR. Then I've extracted the 7 wavs from the DTS tracks with eac3to (Decoding with ArcSoft DTS Decoder) and resampled the wavs with Adobe Audition 3.0. Then I've encoded the wavs to DTS Music Disc wavs with DTS-HD Master Audio Suite (Channel Layout: 6.1 ES Discrete).
+
+If someone knows an easier way, please let me know!
+
+Cheers,
+
+ADHDerby"
+,alicedowntherabbithole,2011-03-15T17:30Z,Thank you for all your efforts

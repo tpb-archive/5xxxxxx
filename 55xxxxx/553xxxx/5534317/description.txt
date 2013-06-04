@@ -1,0 +1,59 @@
+"discography" means a LIST of recordings, not a collection. 
+http://en.wikipedia.org/wiki/Discography
+
+Find more NIN downloads here:
+http ://bit . ly / ETSDownloads
+http ://media fire . com / nympholept
+
+(remove the spaces)
+-----------------
+
+How To Destroy Angels - A Drowning
+Mariqueen Maandig (West Indian Girl), Trent Reznor (Nine Inch Nails), Atticus Ross (12 Rounds)
+
+Stream captured, not "recorded".  
+Mp3 demuxed, not transcoded.
+
+Saved FLV included.
+
+
+edit:
+Details, for the doubters
+
+I used jaksta, but replicated results with rtmpdump.  
+rtmpdump command: rtmpdump.exe -o a_drowning.flv --host "s3w1mu85xbnhjc.cloudfront.net" --playpath "mp3:a_drowning" --tcUrl "rtmp://s3w1mu85xbnhjc.cloudfront.net/cfx/st" --app "<NULL>" --protocol 0
+
+Jaksta reports stream: rtmp://s3w1mu85xbnhjc.cloudfront.net/cfx/st<break>mp3:a_drowning
+
+(Orbit downloader reports the stream url as: rtmp://s3w1mu85xbnhjc.cloudfront.net/cfx/st|cfx/st|mp3:a_drowning|http://cdn.pitchfork.com/streaming-player/player.swf|http://pitchfork.com/news/38686-how-to-destroy-angels-a-drowning/&OBT_fname=a_drowning.flv)
+
+
+Jaksta log:
+Recording of rtmp://s3w1mu85xbnhjc.cloudfront.net/cfx/st<break>mp3:a_drowning
+Download file: 4a6d0d48-a8a2-4636-a611-0e4eebb7f857.flv
+Started at: 2010-05-05 10:26 AM
+Starting RTMP download ...
+Detecting file name ...
+Queued for downloading
+Detecting file name from page title ...
+File name detection complete
+Sending RTMP Handshake Request ...
+Waiting on RTMP Handshake Response ...
+Received RTMP Handshake Response ...
+Sending RTMP Handshake Complete and Connect ...
+Waiting for RTMP connection response from the server ...
+Processing RTMP connection response from the server ...
+Now successfully connected ...
+Sending createStream ...
+Sending play ...
+Sending Ping ...
+Downloading (RTMP) - 34 B
+Downloading (RTMP) - 226 B
+Downloading (RTMP) - 430 B
+Downloading (RTMP) - 8 KB (00:00:00 / Live stream)
+...snip...
+Downloading (RTMP) - 16595 KB (00:07:03 / Live stream)
+Detecting file name from tags ...
+No title tag could be extracted
+File name detection complete
+Complete

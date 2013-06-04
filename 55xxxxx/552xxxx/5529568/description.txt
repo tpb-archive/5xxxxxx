@@ -1,0 +1,120 @@
+This is for the Mac. NOT for Windows. Please keep Windows discussions off this thread.
+
+Follow the included instructions and you're good to go. If you're having problems with the serial, remember to install as a trial first, then use the serial when you first run a CS5 app. If you haven't downloaded CS5 yet, get it from Adobe for free: http://www.adobe.com/ap/downloads/
+
+A note about the included Block Adobe Activation script:
+The app will block the same servers used for CS4. Not one new server is needed. If you already have blocked Adobe before on your machine, you can skip it.
+
+Yes there are bigger lists out there. They will prevent you from being able to get updates, use Adobe Live, get additional content or get additional help or visit Adobe community forums.
+You can safely update your apps, they will not get blocked. All the necessary servers are blocked by the script. Anything else if optional, it will not invalidate your serial, ever. I promise.
+And let's all thank thebug for the script. I added the dialog boxes but he did all the hard work!
+
+FYI, the serials are good for any of the following apps, if it's not listed, it probably won't work:
+
+AdobeÂ® PhotoshopÂ® CS5 Extended
+AdobeÂ® IllustratorÂ® CS5
+AdobeÂ® InDesignÂ® CS5
+AdobeÂ® AcrobatÂ® 9.3 Professional
+AdobeÂ® FlashÂ® CatalystTM CS5
+AdobeÂ® FlashÂ® Professional CS5
+AdobeÂ® FlashÂ® BuilderTM 4 Standard
+AdobeÂ® DreamweaverÂ® CS5
+AdobeÂ® FireworksÂ® CS5
+AdobeÂ® ContributeÂ® CS5
+AdobeÂ® PremiereÂ® Pro CS5
+AdobeÂ® After EffectsÂ® CS5
+AdobeÂ® SoundboothÂ® CS5
+AdobeÂ® OnLocationTM CS5
+AdobeÂ® EncoreÂ® CS5
+AdobeÂ® Bridge CS5
+AdobeÂ® Device Central CS5
+AdobeÂ® Media Encoder CS5
+AdobeÂ® Extension Manager
+
+Please do NOT post serials on this thread. They are made public and will be blacklisted.
+
+-----------------------------------------------------------------------------------
+
+DICKHEAD WARNING: THIS IS NOT A TORRENT I UPLOADED. THIS WAS POSTED FOR PEOPLE WHO WANT IT. IF YOU DON'T JUST FUCK OFF!!
+
+Want L.o.c.k.e.r.z invites? post your e-mail here as a comment!!
+Request a Demonoid torrents? post the torrents full name here as a comment.
+Fan Us for more stuff: search for u.n.l.o.c.k.e.r.z of Facebook.
+{in all names remove the dots for the real name. TPB-SuperGirl fucked me with her screening cunt ;P}
+
+----------------------------------------------------------------------------------
+
+For all of you that have problems with installation
+I thought it would be useful to post step by step installation instructions. I already posted them at the "Adobe CS5 Master Collection [MAC]" torrent on The Pirate Bay. In particular read the "REMOVE....." section of this post if you have problems with your Adobe installations. With respect to where to go for your installation packages: I prefer to get them from the torrents. They are the same as what you download from the Adobe website. However, there has been some discussion on Demonoid about Adobe matching registration info with your IP address when you download the package. I'm not sure about the validity of this claim but I prefer to play safe and get the packages via torrents.
+
+If you follow the steps below you will not have to run the "Block Activation" script included in this torrent. Basically the "Terminal", "TextEdit" and "Finalize Adobe CS5 Installation" steps below guide you manually through the automated "Block Activation" script. Please install CS5 in the way that you prefer.
+
+You may notice below that I recommend to "turn off Airport" during installation and to run "sudo dscacheutil -flushcache" after updating the /etc/hosts file. I'm not sure if these steps are necessary but I recommend to do so anyway. Also notice the link to Acrobat 9 Pro at the bottom of the post:
+
+REMOVE OLD ADOBE INSTALLATIONS (IF APPLICABLE) BEFORE INSTALLING ADOBE CS5
+Remove the following Adobe applications, folders and files before installing the Adobe CS5 Master Collection (but check notes below this list first):
+/Applications/Adobe... (everything with Adobe)
+/Library/Application Support/Adobe
+/Library/Application Support/FLEXnet Publisher
+/Library/Preferences/com.adobe... (everything with com.adobe)
+/Library/Preferences/FLEXnet Publisher
+~/Library/Application Support/Adobe
+~/Library/Application Support/Adobe/Acrobat
+~/Library/Preferences/Acrobat
+~/Library/Preferences/Acrobat Distiller Prefs
+~/Library/Preferences/Adobe... (everything with Adobe)
+~/Library/Preferences/com.adobe... (everything with com.adobe)
+
+A few notes:
+- / is the system root folder (which you can find in Finder by clicking on the hard drive icon at devices)
+- ~ is the User folder (which you can find in Finder by clicking on the home icon at places)
+- I strongly recommend to delete the "/Library/Application Support/FLEXnet Publisher" and "/Library/Preferences/FLEXnet Publisher" folders if you have old Adobe applications installed. Keeping an old version of this folder can cause a variety of licensing errors. It will automatically be regenerated with the CS5 installation.
+- Obviously, if you're attached to your old Adobe application preferences, don't delete the preferences files in the system and User libraries. There is no harm in doing so, they'll be automatically regenerated but by deleting them you will loose your user preferences. I prefer to start with a clean system but that may not be the case for everybody.
+
+INSTALLATION OF ADOBE CS5
+Disconnect from network/internet (Turn AirPort Off). Double click "CS5_Master_Collection.dmg" to install the Adobe CS5 Master Collection. Whilst installing CS5, ensure that you choose "Install this product as a trial" and DO NOT enter any serials. If you've already installed CS5 applications using a serial, load any of the installed CS5 applications and select Help > Deactivate. Quit all of the installed CS5 applications.
+
+TERMINAL
+Launch a Terminal window (in /Applications/Utilities) and copy and paste:
+sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit /etc/hosts
+
+Hit return and type your admin password.
+The "hosts" file should automatically open in TextEdit.
+
+TEXTEDIT
+If the following lines are already part of the "hosts" file close it and continue with the "Finish" section. If not hit return (in the opened "hosts" file) and copy and paste following lines:
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+
+Save the "hosts" file, DO NOT Save As?.
+
+FINALIZE ADOBE CS5 INSTALLATION
+In Terminal copy and paste:
+sudo dscacheutil -flushcache
+
+Hit return (and type your admin password if asked for it). The Adobe activation servers are now blocked.
+
+FINISH ADOBE CS5 INSTALLATION
+Launch any of the installed CS5 applications and enter a serial that is included in the torrent.
+
+Connect back to network/internet (Turn AirPort On). You can start using CS5 applications.
+Run any CS5 application > Help > Updates... multiple times until all installed Adobe CS5 applications are up to date.
+
+ADOBE ACROBAT 9 PRO INSTALLATION
+Download Adobe Acrobat 9 Pro (not included in the CS5 torrent). On the Demonoid website search for "Acrobat Pro 9.0 + 9.1 Update + SN".
+Adobe Acrobat 9 Pro can be installed by double clicking "Adobe Acrobat 9 Pro.dmg". After installation is finished install the 9.1.0 update by double clicking the "AcroProUpd910_all.dmg" installation package.
+Launch Adobe Acrobat 9 Pro and enter the serial that is included in the torrent.
+
+Run Adobe Acrobat > Help > Check for Updates... multiple times until Adobe Acrobat 9 Pro is up to date.

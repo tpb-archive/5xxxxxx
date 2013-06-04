@@ -1,0 +1,12 @@
+Batch Con Flag Remover v0.1a
+
+Scuba156 of Xbox1Crew released Batch Con Flag Remover v0.1a:
+
+Was getting tired of having to uncorrupt game saves from my banned console one by one, so i created Batch CON Flag Remover.
+Just select the root folder of where you have saved all your save games, select whether to create a backup of each file (created as *.bak in the same folder) and click 'unflag'. Simple. The only thing it wont do is resign them if needed (unsure if the save files need to be signed, will look into it)
+
+I have included all files required to run, if it doesnt run, try installing .Net 3.5
+
+Small update to v0.1a
+-Small bug fixed
+-made window resizable

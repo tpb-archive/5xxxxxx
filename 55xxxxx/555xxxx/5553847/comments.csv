@@ -1,0 +1,66 @@
+User Type,Username,Date,Text
+,Sarethi,2010-05-12T10:18Z,Thanks so much!
+,umbral,2010-05-31T19:29Z,"Change log ?
+
+In game it still stows 4.1b"
+,mucgoo,2010-06-16T23:19Z,"you just extract the rar to your folder and it overwrite files to update,   
+
+
+
+The info in the readme file in main folder,
+
+- Fixed a bug that cause countrynames to go wild under certain circumstances
+- Strategic/Diplo AI: Will no longer view the Infamy limit as the ""max acceptable"" Infamy, but a much lower figure, depending on aggressiveness settings and personality
+- Diplo AI: HRE members will not take non-core (or mission target) provinces from other HRE members.
+- Added an ""on action"" event (950). When HRE members take HRE provinces from outside countries in peace, they get cores on them.
+- Implemented jdrou's latest fixpack (4)
+- Imperial Occupation Penalty is now only applied if you actually own the province.
+- Added a 'hre_size = ' trigger for checking how many members hre has.
+- It is no longer possible to leave the empire if you are at war.
+- Its no longer possible to build ships with the rightclick menu if you are not allowed to.
+- If a province has picked tradegoods once, and is back at unknown, it will now get 
+- Fixed a few triggers that allowed impassable provinces to be viewed as empty.
+- The AI will now ignore ""make elector vote for us""-missions.
+- Alot of beneficiary events are now more likely to happen for members of the HRE if hre is big, OR if you have no badboy.
+- Being a member of the HRE now has a nice static bonus to diplomatic skill, badboy reduction, prestige and cultural tradition.
+- When there is 25 members of the HRE, every member gets a nice bonus to tech costs, stability costs, manpower and revolt risk.
+
+
+- Fixed an infinite loop bug in the new country name code
+- Increased the size of the QuĂŠbec province text
+- The Oirat Horde provinces are now Buddhist to match the state religion
+- Adjusted some HRE reform event modifiers to make more sense, and corrected use of the ""badboy"" trigger.
+- Now possible to annex countries of greater size than 1. If you can vassalize them, you can annex them as well, but you always need to occupy their whole territory.
+- The HRE can no longer be forcibly disbanded once it is hereditary.
+- Adjusted the Free Subject policy in the history of certain countries, and increased the max slider limit to 2
+- Badboy is now a bigger impact on imperial elections.
+- Supply range is now properly checked for when the AtSea counter is increased for navies.
+- Interests are now set every month for bankloans.
+- It is now much cheaper to send spies to a country with high badboy.
+- Selected countries now gets a black stripe in the lobby.
+- Reworked sow discontent, it will now increase stability costs and revoltrisk for a year instead.
+- Mercenaries are now more expensive when badboy goes up.
+- There is now a penalty for occupying other parts of the empire that is not your core.
+- Its only possible to join cores into the empire now.
+- Added a few random events for super badboys.
+- Reenabled the country overview, and tech levels overview ledgerpages in multiplayer, since 90% of that data could be found anyway by anyone with a pen+paper.
+- Changed income column in the ledger to show a full years income (direct taxes + 12 monthly) instead of just monthly.
+
+- Mercenaries now reinforce, but are more expensive; both to buy and maintain
+- Lowered the effect of revolt risk on local tax a little bit
+- Fixed a problem with AI peace demands sometimes exceeding peace cost due to gold rounding
+- Added new modifier merc_maintenance_modifier
+- The Colonel advisor now also lowers mercenary maintenance costs
+- Fixed a bug causing PU junior countries to sometimes get their own monarch after a reload
+- Added forts to many Tatar and Middle East provinces
+- Added ""Tribal Feud"" and ""Horde"" CBs
+- The Horde type FoGs now bleed off Infamy much faster
+- Imperial bonuses and penalties are a little smaller now.
+- France and Revolutionary France are now mutually exclusive.
+- Fixed the ideas tooltip.
+- 'controlled_by' trigger now lists rebelfaction in tooltip.
+- When negotiating a settlement with rebels you no longer get their units.
+- Prestige is now colored correctly.
+- Diplomatic skill is now"
+,darkmonk56,2010-09-03T23:00Z,Very much appreciated :)
+,Lunthar,2010-11-21T20:44Z,Any new beta patch???

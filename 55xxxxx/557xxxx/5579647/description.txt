@@ -1,0 +1,12 @@
+This is Cedega 7 patched with installer 000138.
+Fixed python2.4 dependence and work with last python. 
+Tested with Ubuntu 10.04 LTS with no dpkg rebuild. Just install.
+
+Instructions:
+1) Go to www.cedega.com and sign up for the free trial (you don't have to pay just sign up or it won't work).
+2) Once signed up install the RPM/DEB/TGZ for your system.
+3) Start up Cedega and let it update to the latest UI.  Installing the engine will fail cause you haven't paid
+4) Install the Spore Trial
+5) Copy the winex-7 folder to: ~/.cedega/.winex_ver
+6) Do in the terminal: chmod a+x ~/.cedega/.winex_ver/winex-7/bin/* ~/.cedega/.winex_ver/winex-7/winex/bin/* ~/.cedega/.winex_ver/winex-7/winex/lib/*
+7) Profit

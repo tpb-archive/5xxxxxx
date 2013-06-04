@@ -1,0 +1,84 @@
+User Type,Username,Date,Text
+,F.B.I,2010-05-12T00:28Z,Guys ill be bk online tomoz around 8am for Questions!!!
+,theropod,2010-05-12T00:50Z,thank you F.B.? for this long waited product:))) i wish vrs superhornet will be the next. thanks for your effort
+,bubba1991,2010-05-12T03:17Z,If i am right the Concorde x is monotored by ecelerate which means it can only be installed a certain number of times.
+,Jimstalk,2010-05-12T08:01Z,"thanks F.B.I!!!!!THANKS FOR KEEPING YOUR PROMISE!!!!!I havent downloaded yet but i hope it works!!
+
+JIM:)"
+,F.B.I,2010-05-12T08:57Z,"Typoon iv uploaded theexefile for you, good luck http://thepiratebay.org/torrent/5554735"
+,Jimstalk,2010-05-12T09:44Z,DOESN'T WORK.DO NOT DOWNLOAD
+,Jimstalk,2010-05-12T10:12Z,"F.B.I:HERE IT IS
+
+http://thepiratebay.org/torrent/5554882/FSX_CONCORDE-X__crack"
+,bourneslimshady,2010-05-12T12:40Z,"dont work for me gutted no landing gear, no vc gauges, effects dont work like reheat & vapour,...hope someone can sort it out soon ,.."
+,Jimstalk,2010-05-12T12:51Z,levkovv:I've deleted the link because the crack was a mallware.............It's not easy to find a crack for this addon
+,bourneslimshady,2010-05-12T13:20Z,"can someone plz try & upload vrs superbug x plz thank you ,.."
+,VEIVE,2010-05-12T13:40Z,let's hope someone cracks it fast and good.. 
+,Jimstalk,2010-05-12T14:37Z,"i found a crack but i dnt know  how to use it....
+
+STEPS TO DOWNLOAD:
+1Open frostwire(ore limewire)
+2.select the option ''all file'' in the search bar
+3type ''concorde-x'' or ''concorde-x crack''
+4.When the search results appear download the one named ''[CRACK].[concorde-x crack].[by FFF]''
+4.then open the fiLE!!!
+
+WARNING!!-->I DONT KNOW IF THE FILE IS INFECTED WITTH SOME KIND OF VIROUS BUT MY ANTVIROUS HASN'T SEEN IT AS A  TROJAN OR VIROUS
+
+
+GOOD LUCK!!!!"
+,h00kw0rm,2010-05-13T00:29Z,"Got it installed and working for a few seconds:
+
+Install the exe file while using the pmdg crack
+Copy FBI's riped version over the installed plane files and select latest copy
+If you try to start it now it will give you a civic.gau error (perhaps it needs restarting at this point)
+Install Civic.gau available at avsim
+Restart computer
+It hangs a long time on resouce loader - if you get this just switch to missions and then back again
+It still needs a s/n because the entry in the registry looks like vietnamese
+I dont think this has to do with dll files
+
+Hope this helps guys."
+,aarque,2010-05-13T07:49Z,"Ok FBI, ur awesome. Are you able to install the airplane into another folder? One way to trick the installer is to rename your FSX folder, the create a new folder called ""FSX"" (or Microsoft Flight Simulator X or whatever you use. Some installers check for the presence of the FSX .exe, so you can just copy/paste the exe into your new folder, install the Concorde X, then upload the entire ""bogus"" FSX folder.
+
+Can't re-install? No problem. There are gauges and effects and apparently a livery or repaint manager that are not in the airplane folder, I'll tell you how to get them. First off, your entire effects folder is so small, it is easiest and most practical to upload the entire thing. If people drop it into the main FSX folder and so dot allow overwrite, then all their effects remain and only effects from planes the don't have, like the Concorde, get added. Excellent.
+
+Another way: Somewhere in your ""aircraft.cfg"" file for the Concorde is a section called [EFFECTS]. each term after the parenthesis is an effect that is called from the effects folder. For example: concrete=fx_sparks. For the action of striking concrete, the effect ""fx_sparks"" is called and you will be able to find that in the effects folder.
+
+The livery manager is almost certainly within a folder in the main FSX folder called ""Concorde X"" or ""Flight Sim Labs"">""Concorde X."" This is also the location some developers store common textures which might solve the invisible landing gear issue.
+
+ Also you would want to include a copy of your DLL.xml and your exe.xml, these also open with Notepad and within is indicated what application or .dll needs to be loaded when the Concorde X is selected. These files are located within users>(your name)AppData>Roaming>Microsoft>FSX for Vista; Microsoft XP uses a similar location.
+
+Finally the gauges. It is pretty certain that one or two main gauges are tied to the license .dll or file which usually resides in the Modules folder. Don't bother gathering anything from the modules folder, these keys are machine specific and will not work in other computers. The only real way to effectively share the appropriate gauges is to use the panel file to identify them within the gauges folder. Inside the Concorde X folder is a Panel folder. Inside that is a Panel.cfg, Notepad will open it by the way. Below is another example.
+
+gauge19=Bell_206B2!Avionics Switch,  170,511,21
+gauge20=Bell_206B2!Fuel Valve,  119,534,25
+gauge21=Bell_206B2!Master Switch,  147,511,21
+gauge22=Bell_206B2!Annunciator,  316,189,137
+gauge23=Bell_206B2!Rotor,  180,295,85
+
+The above indicates that gauges 19) Avionics Switch, 20) Fuel Valve, 21) Master Switch, 22) Annunciator and 23) Rotor are all within the .cab file Bell_206B2 which is in the gauges folder. Now you can find all the gauges and bundle them in a zip. Often the protected gauges are: EFIS, PFD, ADI, HSI and others. The plane will likely not load if these protected gauges are called. They must be sequentially eliminated, until the plane works again, then substituted for other unlocked gauges. 
+
+That should do it."
+,mst63,2010-05-13T14:29Z,i'm looking for the Cessna O-1/L-19 Bird Dog by Sibwings 
+,F.B.I,2010-05-13T14:36Z,"Guys ill have a look later, just bussy untill around 7pm"
+,PyrateStyle,2010-05-13T21:36Z,"I followed hookworms lead and got the same results. It wasn't untill after installing civac.gau untill I got the serial error. The aircraft pulls its resources from FSL_CONCX.dll and on load crashes the sim after sernum warning. 
+
+Anyway, as much as I'd like to sit and wait I'm off the buy this one. Looks worthy enough."
+,gaflyer2010,2010-05-13T23:37Z,"I've baught this one too... I tried to use the patch in TPB but even tho my PC is runing ESET NOD32, it was not caugt in time and I got infected... so screw them for uploading a fake patch!"
+,F.B.I,2010-05-14T23:43Z,where is the FSL_CONCX.dll located?? 
+,Beaver221,2010-05-15T07:14Z,I got everything installed works fine and loads but once in game afew sec's i get an invalid license error....but gauages show up and stuff 
+,Jimstalk,2010-05-16T22:17Z,"F.B.I please send me the email you wanted im still waiting
+
+greekbloodgr@hotmail.com
+
+JIM:)"
+,VEIVE,2010-05-20T18:56Z,Any progres on cracking it guys? :D
+,twww23,2010-05-26T08:25Z,"can someone tell me the exact installation instructions, i just cant seem to get it with all the gear showing and gauges working. i dont really know where to put all the dlls, and stuff, i got all the  gauges and effects things copy and pasted on, panels are there, they just aint working. i have windows 7"
+,raslenny2,2010-08-29T13:46Z,"We need a serial number , do you have or anyone have it available yet???"
+,NvidiaPhysX,2010-12-04T05:02Z,"http://thepiratebay.org/torrent/6010147/Concorde_X_for_fsx_by_FlightsimLabs
+
+100% working official installer with serial key bypasser, crack"
+,alef1995,2011-08-20T00:41Z,"Req:captain sim weapons Working 
+
+Thk's Alef "

@@ -1,0 +1,19 @@
+This is the a basic FreeBSD 8.0-RELEASE install
+
+o default install
+   - with kernel sources
+   - without Xorg
+o ports tree is updated
+o virtualbox guest additions installed
+   - Including 72 dependency packages
+
+Download the image, import it in VirtualBox and off you go.
+Login with user 'root' and password 'toor'. Then change this
+password immediately (unless you like to share.. ;p)
+
+Be sure to checkout the FreeBSD VirtualBox wiki: 
+http://wiki.freebsd.org/VirtualBox
+
+Enjoy!
+
+

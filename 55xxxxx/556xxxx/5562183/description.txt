@@ -1,0 +1,23 @@
+TRK is the best free torrent ratio/upload increase tool for all private trackers.
+It's version for MacOS/*nix. This version can run on any PC with Java 1.5/1.6/1.7 installed.
+New Version has console support. It can work on seedboxes and dedicated severs without GUI:
+
+Usage: java -jar TorrentRatioKeeperMonster.jar -ui:0 [OPTIONS]
+
+-ui:1|0 (launch TRK with gui or without. Default - 1)
+-active:1|0 (Activate TRK for the new tracker (Default Settings). Default - 1)
+-seeder:1|0 (Turn on Seeder mode for the new tracker (Default Settings). Default - 0)
+-noup:1|0 (Emulate Upload Problems for the new tracker (Default Settings). Default - 0)
+-upinc:0..1000 (Increase Uploaded Traffic for the new tracker (Default Settings). Default - 75(%))
+-downdec:0..100 (Decrease Downloaded Traffic for the new tracker (Default Settings). Default - 0, turned off)
+-port:1..65535 (TRK listen proxy HTTP port. You need to setup your torrent client to use it as proxy. Default - 3012. Example: localhost:3012)
+--help (display this help and exit)
+
+Example: java -jar TorrentRatioKeeperMonster.jar -ui:0 -seeder:1 -noup:0 -upinc:112 -downdec:0
+
+
+More info:
+
+    
+http://www.torrentratiokeeper.com/forum/viewtopic.php?f=9&t=224
+

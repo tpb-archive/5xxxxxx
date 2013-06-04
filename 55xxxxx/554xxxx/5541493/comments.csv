@@ -1,0 +1,31 @@
+User Type,Username,Date,Text
+,Jomafer,2010-05-07T17:42Z,"1) Instalar como trial/prueba.
+2) Desabilite el ""phone-home"" siguiendo uno de esots 2 metodos :
+
+	1- vaya a C:\Windows\system32\drivers\etc\, habra el archivo ""hosts""
+	   con el bloc de notas y agregue el texto = 127.0.0.1 activate.adobe.com
+	   guarde los cambios. Si no le deja salvar los cambios, copie el archivo
+	   ""hosts"" al escritorio, realiza los cambios y lo salva, luego lo copia
+	   y pega donde esta el original, acepte el copiar-y reemplazar.
+
+	2- Abra el archivo ""keygen.exe"" y cliquee en ""patch"" para que aplique el
+	   parche y desabilite el ""phone-home"".
+
+3) Abra el archivo ""keygen.exe"" y cliquee en ""generate"" para generar un serial
+
+Listo !!!!
+
+
+
+
+1) Install as trial
+2) Disable the phone-home by one of two methods:        
+   - add ""127.0.0.1 activate.adobe.com"" to Windows\system32\drivers\etc\hosts                      
+   - Apply our patch to disable the phone-home code
+3) Use our keymaker to generate a serial                     
+
+NOTE: Although CORE already released the Master Collection   
+as an ESD ISO, we feel as though these applications deserve  
+seperate 0day releases.
+
+Done !!!!"

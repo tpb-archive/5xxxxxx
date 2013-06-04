@@ -1,0 +1,43 @@
++-----------------------------------+
+|Fraps 3.2.2 Build 11496 Retail-[HB]|
++-----------------------------------+
+
+Fraps is a universal Windows application that can be used with games  using DirectX or OpenGL graphic technology. In its current form Fraps performs many tasks and can best be described as:
+Benchmarking Software - Show how many Frames Per Second (FPS) you are getting in a corner of your screen. Perform custom benchmarks and measure the frame rate between any two points. Save the statistics out to disk and use them for your own reviews and applications.
+
+Screen Capture Software - Take a screenshot with the press of a key! Theres no need to paste into a paint program every time you want a new shot. Your screen captures are automatically named and timestamped.
+Realtime Video Capture Software - Have you ever wanted to record video while playing your favourite game? Come join the Machinima revolution! Throw away the VCR, forget about using a DV cam, game recording has never been this easy! Fraps can capture audio and video up to 2560x1600 with custom frame rates from 10 to 100 frames per second!
+All movies are recorded in outstanding quality
+
++---------------------------+
+|Changes in this new version|
++---------------------------+
+
++---------------------+
+|3.2.2 - 31st Mar 2010|
++---------------------+
+- Fixed trouble opening movies with VLC, Avidemux, AVI synth, Virtualdub and some other applications
+- Fixed problem capturing stereoscopic movies at 1920x1080 and 1920x1200
+- Fixed loop recordings sometimes becoming corrupted
+
++---------------------+
+|3.2.1 - 29th Mar 2010|
++---------------------+
+
+- Fixed screen capture of large resolutions (ATI Eyefinity)
+- Fixed counter disappearing in some games when switching resolution
+- Improved recording speed on SLI configurations
+- Other minor bug/crash fixes
+
+
++---------------------+
+|3.2.0 - 26th Mar 2010|
++---------------------+
+
+- Added loop recording for registered users. Press and hold video capture hotkey to 
+  start 30 second buffer
+- Added option to disable stereoscopic capture when running with NVIDIA 3DVision
+- Major optimizations for recording from D3D10 & D3D11 games
+- Compatible with: Windows 2000, XP, 2003, Vista, Win7 (32/64-bit )
+- Requires DirectX 9.0c or DirectX 10.
+- Supports all modern CPUs (Pentium 3 and above)

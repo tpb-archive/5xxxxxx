@@ -1,0 +1,48 @@
+User Type,Username,Date,Text
+[T],solstars,2010-05-19T20:08Z,Is this the WS version or the crappy 4:3 version that Cinemax and HBO have been showing for the past month?
+[T],solstars,2010-05-20T06:25Z,It is WS but has some weird logo at the top right of the screen.
+,mdlp,2010-05-30T17:56Z,Good quality... but hardcoded Asian subs.
+,master_b415,2010-06-08T22:19Z,"@mdlp - tnx 4 the heads up ""Asian subs"" - not my cuppa :("
+,lamamaha,2010-07-04T01:38Z,"2h50min special edition
+1280x576 mkv  
+weird crop wildscreen ver. 
+asian hard sub
+
+thx mirik007 , thx seeders , thx tpb"
+,Dizzious,2010-09-13T05:55Z,"I don't care how high of a resolution this is, the fact that the subs are hard-coded ruins the movie. 
+
+TO ALL PEOPLE WHO MAKE RIPS: NEVER, EVER, EVER HARD-CODE YOUR SUBTITLES. How hard is this to understand? "
+,Luther76,2010-12-05T12:36Z,"There hardcoded subs in this video are not intrusive, there's a small asian logo in the upper right corner, and once in a while there are some asian text for a brief moment at the bottom of the picture. If these are subs then it would be equivalent of speaking for 2 minutes and then turning to the interpretor to hear him utter a one syllable word summing up all you have said. I suspect most of the subs has been put in the black area beneath the picture, and then cropped out.
+
+So, to sum it up... Great quality, it is the one with the breathing rat, and there is very little hardcoded subs, but as of right now, this is the best quality i could find online. "
+,ro4eva,2011-02-08T20:03Z,I'll see what I can do about getting rid of the subs once I've downloaded this release although I can't promise anything.
+,ro4eva,2011-02-10T05:09Z,"This is by far the best version of this film that I've seen in terms of video quality.  I know it's not perfect but it certainly beats the non anamorphic DVD.
+
+There's a few very important things about this release I was able to fix and am fixing but I'm not done yet.  I'll do a full write up once I'm done for anyone who cares."
+,ro4eva,2011-02-17T15:51Z,Update - I'm more than half way through fixing/editing what I can at the moment.  I should be done no later than 3 days from now.  I think it'll be worth the wait (for some of you at least).
+,ro4eva,2011-02-22T23:28Z,"Alright I'm finally done.
+
+There's 2 things that you yourself can fix from this release (and it's not hard at all):
+
+1) Audio - The audio from this release is not properly synced.  To fix this, you can use MKVMergeGUI.  All you have to do is delay the audio track by ""-250"" without the quotes (located in the ""Format specific options"" tab where it says ""Delay (in ms):"").  This will properly and perfectly sync the audio with the video.
+
+2) Video - The Abyss was originally shot in an aspect ratio of 2.35 to 1.  Yet the video's resolution obviously does not match this.  Instead of it being 1280x576, it should be 1280x528.  So, you can either manually change the resolution (using your media player's settings) every time you watch this movie.  Or, you can re-encode the video with the proper resolution using (for example) RipBot264 if you'd like.  Don't bother trying to change the resolution using MKVMergeGUI as it does not work.
+
+--------------------------------------
+
+Lastly, the reason why I took so long to bring you this information is because - for the past several days - I've been working on creating perfectly synced subs for this release, and, I'm finally fucking done and it took for fucking ever.  I've created 2 versions of my subs.  Version 1 is synced with this release.  Version 2 is synced with a -250ms modifier for those who've gone ahead and properly synced the audio with the video.
+
+Link to Version 1 (originally synced audio) - http://subscene.com/english/The-Abyss/subtitle-414561.aspx
+
+Link to Version 2 (properly synced audio) - http://subscene.com/english/The-Abyss/subtitle-414562.aspx
+
+For those who have no idea what I was talking about concerning the subtitles, download both of them and see which one you find is properly synced.
+
+I'm out, my eyes and fingers need a vacation."
+,ro4eva,2011-02-22T23:31Z,Forgot to add - I didn't bother with the Asian subs.  They're forced obviously and modifying that part of the video track with a blur filter would actually make the viewing experience worse in my opinion.
+,ManuelRivero,2011-02-23T23:49Z,"thx for the tips ro4eva.
+Thank you mirik007."
+,hauntnut,2011-03-28T19:43Z,"Video is the best quality you'll find online for this movie; it's not the absolute greatest compared to other 720p releases, but it's still very good. Yes, the hardcoded foreign subtitles are a bit of a nuisance, but they're not too intrusive, and after awhile you get used to it. The audio is out of sync, and the video skips some frames here and there early on which makes the situation worse, but using VLC media player allows to adjust this. All-in-all, a good upload. Thanks!"
+,enonumus,2012-02-13T08:12Z,"There's never been an HD version of this released or broadcast.  I've viewed all the so-called 720p versions, and they all look like upscaled 576p versions, with odd artifacts and colors.  I'll stick to my original DVD version and wait for the blu-ray to come along, hopefully soon.
+
+@ro4eva  You do know that you can change the video aspect ratio with MKV Merge as easily as you can change the audio sync don't you?  You don't have to waste hours re-encoding (and degrading) the video to do this.  All you do is select the video track, then select the Format Specific Options tab, and then select the correct aspect ratio.  Or you can type it in manually if there isn't a preset for the ratio you want.  At least 25% of the torrents I've downloaded have had incorrect aspect ratios or audio sync issues, so I'm used to using this tool frequently to fix the file permanently before it goes into my collection.    "
