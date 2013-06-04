@@ -1,0 +1,38 @@
+This is the first Snow Leopard PC Distribution
+Its works very well, tested by me before upload
+Intel only as described below, no AMD, for AMD support you will need to find 3.6a
+I'll see if I can upload that sometime soon, I don't have it myself though.
+Please upload when you are done downloading, it will be much appreciated.
+
+Retail 10.6 Update 10.6.2 (10c540)
+Platform: Intel only
+Minimum hardware requirements:
+PC computer with an Intel SSSE3 (Not SSE3!) processor
+1GB of memory
+8GB of free disk space
+Loaders
+- PC EFI 9.4 - boot-9-4 by Netkas
+or
+- PC EFI 10.5 - Chameleon 2 RC3 (r658) PC EFI 10.5 by Netkas
+--
+- NullCPUPM - IntelCPUPowerManagement
+- PlatformUUID - Error 35 fix
+- FakeSMC
+- IOATA Kernel Panic fix - 32/64-bit IOATAFamily.kext from Leo 10.5.8 (compiled by Slice)
+- EvOreboot - Restart and Shutdown fix
+- EvOSpeedStep - Power Management for Core i7
+- EvOenabler - ATI video injector
+- SMBIOSResolver - only for PC EFI 9.4!!!
+- Legacy AHCI - 32/64-bit Legacy kext ?? Intel AHCI (SATA)
+- Legacy ATA - 32/64-bit Legacy kext ?? Intel ATA (IDE)
+- Legacy JMicron ATA - 32/64-bit Legacy kext ?? JMicron ATA (IDE)
+- PS/2 - kext for PS/2
+- Rosetta
+- ATools - tools
+
+Hope you enjoy =)
+
+Thanks
+
+Note: if you need more information... Google is your friend, though i will try to help with any questions =)
+Use 7-zip or similar to decompress 7z file for ISO

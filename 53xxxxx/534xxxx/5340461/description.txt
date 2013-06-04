@@ -1,0 +1,18 @@
+By default Windows XP allows a maximum of 10 half open connections at a time, this limit is implemented as a security feature to slow-down spreading of internet-worms in-case the user machine gets infected, if your network use is crossing this limit your computers event-log will show the following Event:
+
+    EventID 4226: TCP/IP has reached the security limit imposed on the number of concurrent TCP connect attempts.
+
+This limit can slow down your internet access specially Peer-2-Peer applications like BitTorrent which require connecting to several peers for optimal performance, to increase this limit for speedy torrent downloading you need to patch the Windows TCP/IP system driver file, If your have already patched your TCPIP.sys file and updated your computer to Windows XP Service Pack 3, you should re-patch it using this TCP/IP patcher for Windows XP.
+
+
+scan results: 
+http://www.virustotal.com/analisis/338c2f9190bdf86287b85c3a4c1519b5
+
+by
+
+
+
+ ____    ____,  __,     ____,   _,   __,  
+(-|__)  (-/_|  (-|     (-/_|   (-|  (-|   
+ _|__)  _/  |,  _|__,  _/  |,  __|,  _|_, 
+(      (       (      (       (     (     

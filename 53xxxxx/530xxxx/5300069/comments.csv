@@ -1,0 +1,88 @@
+User Type,Username,Date,Text
+,i11usi0n.ru,2010-01-28T18:45Z,it`s not work
+,exekuter,2010-01-28T20:07Z,Whats not working? cant u install?
+,i11usi0n.ru,2010-01-28T22:19Z,"Sorry, im  be wrong. You programm is work."
+,ZiggyVG,2010-02-01T11:12Z,"I can't start installation, do I need to burn image with some tool (Alcohol) or just mount it?
+How did you do it?"
+,baloozzy,2010-04-03T09:22Z,Same Problem: Wrong disc inserted. Can you help me?
+,Manu1453,2010-04-27T18:56Z,"Don't work with alcohol 120
+
+Disque incorrect.
+Merci d'insĂŠrer le CD/DVD original ""DVDGMGE1"" CD/DVD.
+Voir http://www.securom.com/message.asp?m=wrongdisc&l=fr pour plus de dĂŠtails."
+,djklauss,2010-05-05T20:27Z,"This is the order with the steps for SUCCESS FULL installation:
+
+1. We mount the image (Alcohol20%)
+2. From the Folder ""GMGInfrastructure"" we run the GMGInfrastructure.msi and we choose ""Standalone""
+3. From the Folder ""GMEApplication"" we run the GMEApplication.msi
+4. From the Folder ""GMGLocalDB"" we run the GMGLocalDB.msi
+5. From the Folder ""GMERomDB"" we run the GMERomDB.msi and we copying the Data Base to our HDD
+6. IF we using HDD with letter ""C"" for the Default installation Folder, WE MUST MAKE A .BAT FILE with this lines:
+
+SET PATH=""C:\Program Files\Snap-on Business Solutions\Global EPC\GM\jre1.6.0_02\bin"";%PATH%
+c:
+cd ""C:\Program Files\Snap-on Business Solutions\Global EPC\GM\Configurator""
+java -jar Configurator.jar
+
+Save with opel.bat name and run it
+
+7. We waiting to finish the ""Fixing"" and we rebooting the Computer!!!!!
+8. Now we run the program from the ""GM EPC 4.0"" url
+
+Finally we can copy THIS url to the desktop OR the NEW FINAL url that provided from the GM EPC 4.0.....
+
+Enjoy!!!!!
+klauss is in the house :D"
+,0va,2010-06-13T19:01Z,damn it....i installed it just like klaus said....but i don't know how to make a .bat file
+,longword,2010-07-21T12:22Z,"You don't need to make a batch (.BAT) file, just start and run CMD for a command window and copy/paste each line in order to install.
+
+But it seems as usual, it's better to have XP for this software."
+,will.1992,2011-01-05T21:10Z,"I have followed the instructions by klauss but get this error:
+
+""Bad CD-ROM (not a database CD-ROM): Retry!
+
+@(#) tbadm32.exe
+  Version: V6.6.2.15 (Build 428) 2007/11/27 (Release)
+  License: EF4159A0-51DFCC67-CA6355A6-0721CE9C
+
+U.S.-Patent Nr. 6,381,596 and 6,510,335
+
+Copyright (c) 1987 - 2005 by Transaction Software, D 81829 Munich
+
+
+attach to CD-ROM database GME_ROM_1: CD-ROM 1: bad contents or not promptable in batch""
+
+Any ideas?"
+,Apeloff,2011-01-29T15:23Z,"Doesn't work for me. I get to the EPC ""Launch"" screen, but get an error after that."
+,Apeloff,2011-01-29T15:24Z,"Doesn't work for me. I get to the EPC ""Launch"" screen, but get an error after that. "
+,JaSonic75,2011-03-26T10:23Z,"The instructions by djklauss were absolutely spot on, however because i'm running windows 7 I had to modify the opel.bat file slightly to make work
+
+SET PATH=""C:\Program Files (x86)\Snap-on Business Solutions\Global EPC\GM\jre1.6.0_02\bin"";%PATH%
+c:
+cd ""C:\Program Files (x86)\Snap-on Business Solutions\Global EPC\GM\Configurator""
+java -jar Configurator.jar"
+,skytec12,2011-03-31T12:12Z,"Ok i did everything that is, and got confused on point 8?
+8. Now we run the program from the ""GM EPC 4.0"" url
+
+Can you please explain me little more how do I get there and what do I have to do to start program?
+I'm on win7 and I folow JaSonic75 instructions for win7 .bat file set up"
+,chrisy76,2011-06-24T11:52Z,cant get this to work pls help
+,83GMC,2011-10-29T03:10Z,"I've got it installed (on W7 PC), created the batch file, ran it, and rebooted it, but I cannot figure out the URL to start the EPC.  Can anyone help me figure out the URL?"
+,portreathbeach,2012-01-22T14:51Z,"To get the URL that the instructions are talking about is found by:
+
+Start, All programs, Opel Vauxhall EPC, Show URL 
+
+Now, copy and paste that into browser.
+
+:)"
+,whereiamnot,2012-06-18T05:46Z,"hey guys for ENGLISH windows XP the instructions work fine, I didn't expect such a retard protection like Securom in the setup program.
+
+To have it work on GERMAN windows the part ""Program files"" must be changed in ""Programme""
+for have it work on ALL languages on 32 bit Windows use this:
+%ProgramFiles%
+That also works for 32 bit Windows 7 (but I did it on XP), on Windows 7 64 bit you need %ProgramFiles(x86)% 
+This is also kinda confusing because Windows7 internally uses english path names, but shows them in the explorer in the UI language (which is free of choice in Ultimate and Enterprise)
+Should also work on chinese XP :-) 
+The reboot seems not really to be required
+Another note:
+switch off the popup blocker for ""http://localhost"""

@@ -1,0 +1,19 @@
+User Type,Username,Date,Text
+,nikky248,2010-01-26T04:26Z,do we have a serial? 
+,z8o8x,2010-02-11T13:50Z,"it works great, no serial is needed
+thanx for seeding"
+,johnrivers,2010-06-19T05:01Z,YEs disable the internet connection it works fine
+,holy...,2011-10-22T19:29Z,"When I launch the game, it only gets black screen, but I can still move the game cursor. What's the problem?"
+,SoMBiE,2011-10-29T05:34Z,"yes, a serial number is requested and typing nothing or anything does  not work. so whats the serial number?"
+,SoMBiE,2011-10-29T05:42Z,ok... I blocked rome.exe in windows firewall by adding the file then unchecking the box. this does not work. other postings say to yank the cable... this works for me. 
+,TheSlyGuy,2011-11-25T15:45Z,"Can anyone giv link for a keygen so that i can play it online ?
+
+i tired searching but cudn't find any :("
+,timbard,2012-03-11T20:31Z," If you are having issues with the serial number do this
+
+Open a CMD Prompt as an Admin (right click on CMD in the start menu and select ""run as administrator""
+
+Then paste this into the box  
+
+netsh advfirewall firewall add rule name=""Block Kalypso Grand Ages Rome"" dir=out profile=any remoteip=94.75.242.20 remoteport=40009 protocol=TCP action=block
+"

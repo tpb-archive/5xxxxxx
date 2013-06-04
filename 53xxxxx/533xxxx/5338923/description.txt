@@ -1,0 +1,29 @@
+This is the Swype Keyboard for the Android OS. Supports the HVGA screen resolutions phones. I didnt make this software app, nor do I claim to. I cannot offer any support for this app. I wont be taking any bug reports either.
+
+For support visit this site: 
+http://forum.xda-developers.com/showthread.php?t=622144
+
+Install: 
+
+Preparing your PC and Phone:
+
+On your phone go to settings -> Application Settings and enable Unknown Sources.
+Also go to Settings -> SD Card and Phone Storage -> Disable Use for USB Storage. You can enable it again later.
+
+Connect your phone to your pc and if prompted for drivers point windows to the location of the USB drivers that you downloaded.
+
+Getting it on device:
+
+Run the included batch script i wrote and it will auto install it for you.
+
+After it is on device:
+
+Go to settings> locale+text> enable swype - disable sound. long press any text box> input> Swype
+
+If your computer doesn't auto detect drivers for your phone then follow the steps here: 
+http://developer.android.com/sdk/win-usb.html
+
+
+Coded by the AOEP Group
+00110001
+THE GHOST

@@ -1,0 +1,27 @@
+User Type,Username,Date,Text
+,maxdoom,2010-02-11T20:08Z,Sims 3 launcher says: installation failed. How do you make this work?
+,narfdude,2010-02-12T21:12Z,"I'm not sure, sometimes stuff downloaded from places other than the store doesn't work for me either.
+
+if nothing else works, try this http://www.modthesims.info/download.php?t=364038"
+,narfdude,2010-02-12T22:16Z,I reinstalled it and remembered the way I made it work. Try running the launcher as an administrator then double-click the structuralset file with the launcher still open. You should try this before you use that program I mentioned above.
+,dribblez,2010-02-13T05:22Z,"So after i fully patched i had the same problems as you guys i used.
+http://www.modthesims.info/download.php?t=364038
+extracted the store items to Mod/packages
+
+then used
+http://forum.jfade.com/viewtopic.php?f=51&t=468 on mod/packages
+
+and my game i'snt slow and all Store downloaded items now work
+Also make sure you delete all content in mydoc/sims/downloads and dcbackup
+(just make sure you dont extract riverveiw to the mods package lol)"
+,amynicole912,2010-03-01T03:13Z,"here's what the problem is with downloading this and really any of the Store items. if there has been an update, the download of the store item will not work. the person who originally purchased the item will have to re-download it from EA and then upload it again. if you havent done any updates then the store items that were downloaded with no updates are the only ones that will work for you. "
+,narfdude,2010-03-06T04:39Z,"So what you are saying is that the file would have been changed or updated? Well I checked it out and the files are the same.
+sha1 from this file: 80d6300502714aca4570e4a48209f96b3ccdf61c
+sha1 from re-downloaded file 80d6300502714aca4570e4a48209f96b3ccdf61c
+
+I have the most recent version of the sims 3 too."
+,narfdude,2010-08-23T08:59Z,"This will fix it:http://www.moreawesomethanyou.com/smf/index.php/topic,15129.0.html"
+,8Gpigs,2010-10-30T10:50Z,"Hi,
+
+does anyone know if ALL the store content comes in sets or is there some stuff that is sold seperately and not in a set. Thanks (:"
+,narfdude,2010-10-31T02:53Z,Some things are sold separately. There are items that aren't in sets.

@@ -1,0 +1,20 @@
+ABOUT
+This is version 2 of the Zipit Z2 Development kit.  You can use this kit to compile your own software for use on the Zipit Z2 from Zipit Wireless.
+
+Included is a virtual appliance exported out of VirtualBox v3.1.4.  This image should also work with VMWare.  However, if you are using VMWare you will need to install the guest tools and possibly remove the included guest tools for VirtualBox.
+
+The image includes a configured and ready-to-use Scratchbox environment and also a buildroot environment that includes a patched Z2 kernel and ALSA (thanks again, GPSFan).
+
+INSTALLATION
+Download and install VirtualBox from http://www.virtualbox.org.  Click File > Import Appliance and then point to this torrent.  Adjust your memory as you see fit (256MB is about as low as you should go - 1GB+ is probably overkill).
+
+After booting up for the first time, you should be auto-logged on as "zipit".  This users password is "password" (without the quotes).  Note that the root password is also "password" and so you should change those if you are going to attach this device to a network!
+
+MORE INFO
+For more information - see the README.txt file on the Desktop of the virtual appliance, and the README.txt in the root of the Scratchbox home directory.
+
+Check out www.oddree.com for more details and post-release notes and linux.zipitwireless.com for more on the Z2 device.
+
+Hack on!
+-Ray Dios Haque
+February 2010

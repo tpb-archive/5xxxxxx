@@ -1,0 +1,89 @@
+Platform: Windows 95, 98, ME, NT4, 2000, XP, 2003, Vista, Windows 7.
+
+Please seed (share) these programs. Most people (just like me when I started) don't know how to do this. It simply means that when the download is complete, don't press stop or close down your program. It will then be available to anyone who wants to download it from you. Thanks.
+
+This is a powerful collection of data recovery software. It is easy to use and is nowhere near as technical as it sounds. 
+
+I have used it to recover a broken RAID 0 array and to get files back from a hard drive which had been formatted. You don't have to download all four tools but to recover from a broken RAID array you will need the first and second or the first and GetDataBack either for FAT (Windows 98 & older) or for NTFS (for NT, Windows 2000, XP, Vista & Windows 7) which work together.
+
+If you just want to recover lost data then you need only download GetDataBack. These are the four programs:
+
+
+RAID Reconstructor 4.02.
+
+Recover Data from a broken RAID Level 0 or 5 Array.
+
+Runtime's RAID Reconstructor will help you to recover data from broken:
+
+* RAID Level 0 Array (Striping) consisting of up to 14 drives.
+* RAID Level 5 Array consisting of 3 to 14 drives.
+
+Even if you do not know the RAID parameters, such as drive order, block size and direction of rotation, RAID Reconstructor will analyze your drives and determine the correct values. You will then be able to create a copy of the reconstructed RAID in an image file or on a physical drive.
+
+Once you created an image you can use it for further data recovery processing with Runtime's GetDataBack. If you create the image on another physical drive, you can process it with GetDataBack or you might even be able to boot directly from it.
+
+RAID Reconstructor is Read-Only.
+
+It will not try to "fix" your RAID. It will merely create a copy of your RAID at another location. It will collect sector by sector from each single drive involved and write these sectors in the correct order to the designated destination. This process is also called "de-striping".
+
+Because one drive is redundant in RAID 5, it is sufficient to have one less than the original number of drives (N) in the array. RAID Reconstructor can recalculate the original data from the N-1 drives. For a RAID-0 (striped) array you will need all drives.
+
+The RAID Reconstructor will recover both hardware and software RAIDs. It will recover from broken Windows Dynamic Disk sets.
+
+System Requirements:
+Pentium processor
+32MB Ram
+Disk controller card capable of handling all the drives in your RAID individually
+Storage space for holding the reconstructed RAID.
+
+
+Captain Nemo Pro 4.20.
+
+Widely used by law enforcement personnel, forensic investigators as well as network administrators. Captain Nemo enables you to access any Novell, NTFS or Linux drive from your Windows computer without requiring a network setup.
+                                                                                
+Just connect the drive to your machine and Captain Nemo will automatically mount your Netware, NTFS or Linux partitions in Windows. You can read, search and view all your Novell/NT/Linux files and copy them to your Windows drive.
+                                                                                
+Mount images you previously created with other software, such as DD, RAID Reconstructor or GetDataBack. Captain Nemo can mount any raw image of a disk that was formatted with NTFS, Novell or Linux. Captain Nemo accepts raw images (.img), compressed raw images (.imc) and virtual images .vim).                                                
+                                                                                
+While Captain Nemo is not a data recovery tool in a strict sense, you can often use the Captain to mount an image or virtual image that you created with RAID Reconstructor. Once a RAID array is reconstructed, its' file system is usually in good enough shape to be simply mounted in Captain Nemo, saving you many hours recovering your files.          
+                                                                                
+Captain Nemo does not require the installation of any Netware, NTFS or Linux drivers, programs or files!          
+                                                                                
+The foreign file system will be mounted automatically and you can copy files from it to the Windows partition.          
+                                                                                
+Captain Nemo looks like and is as easy to use as the Windows Explorer, but allows you to access all the data on the Novell, NTFS or Linux drive.          
+                                                                                
+In addition Captain Nemo has some strong features:
+
+- a file viewer, which allows you to see the content of almost any file. 
+
+- a search function, which enables you to do extensive search containing text or files.
+
+- display of the owners and attributes of every file                  
+                                                                                
+New: Captain Nemo runs from a WinPE boot CD-ROM.
+
+
+GetDataBack for FAT & GetDataBack for NTFS v4.0.0.1 made Portable.
+
+These two programs are by courtesy of NoExcuses. The following information is his, at :-
+ 
+http://thepiratebay.org/torrent/5017538/GetDataBack_for_FAT_and_NTFS_v4.0.0.1_Portable
+
+Each has two versions included. The portable version is a standalone program which can be run from a CD, DVD or memory stick. Also included are the usual installable versions.
+
+Runtime Software's data recovery software will help you rescue your lost or inaccessible files from any imaginable data recovery disaster.
+
+
+Data Recovery is possible more often than you might think - even without having to send your hard drive to a data recovery service. Download our printable Step-by-Step Guide. Our powerful, yet easy to use, data recovery tools are designed not only to undelete accidentally deleted files or partitions but also recover your data with GetDataBack after fdisk, formatting your drive, power failure, virus attack, software failure, or after deleting files, folders or partitions. 
+Our data recovery products come with free updates for the lifetime of the software. Other than with competitors who require you to buy a new version every year, our first GetDataBack customers from 2001 are still enjoying the newest versions of our software. 
+
+Runtime Software also offers a wide range of file system utilities and forensic tools as well as data recovery service for all kinds of logical hard drive failures and RAID reconstruction and recovery. More info at:-
+ 
+http://www.runtime.org/ 
+
+The Portable SFX EXE files are built using WinRAR. You can use them to extract the files and check them one by one if you want to be sure of what is running on your machine. This has also been built up on an XP x86 machine, I don't know if this program can run on a 64 bit machine. Itâ€™s up to you to check it if you are using them.
+
+Let me express my thanks to NoExcuses for these two excellent programs which he has made portable along with many others.
+
+Enjoy this comprehensive, professional & powerful toolbox of essential software.

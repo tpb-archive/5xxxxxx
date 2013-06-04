@@ -1,0 +1,27 @@
+Fraction of full ISO size: 14.6%
+applydeltaiso's approximate running time (2-3 GHz CPU, 1-2 GiB RAM): 20 minutes
+
+This deltaiso file allows one to generate the Fedora-Unity-20100202-12-i386-DVD.iso image if one already has the Fedora-12-i386-DVD.iso image (either as an ISO file, or on DVD).  Using it requires a box running Fedora 11 or later, the deltarpm package (version 3.5 or later), and if running Fedora 12 or later, the deltaiso package (these are in the Fedora repos).  Use the applydeltaiso command as follows:
+
+applydeltaiso oldiso deltaiso newiso 
+
+where oldiso is the Fedora-12-i386-DVD.iso input image, deltaiso is the Fedora_Fedora-Unity-20100202-12-i386-DVD.diso file from this torrent, and newiso is the generated Fedora-Unity-20100202-12-i386-DVD.iso output image.  If oldiso is on DVD, then one can just mount it and replace oldiso with /dev/dvd:
+
+applydeltaiso /dev/dvd deltaiso newiso
+
+Before downloading the deltaiso, make sure to have the correct, verified, input image.  The sha256sum for Fedora-12-i386-DVD.iso is
+
+f0ad929cd259957e160ea442eb80986b5f01daaffdbcc7e5a1840a666c4447c7
+
+If it's on DVD, one can simply do a mediacheck (or use the checkisomd5 command - "checkisomd5 --verbose /dev/dvd" is the equivalent of mediacheck without having to reboot).  After running applydeltaiso, verify the output image.  The sha1sum for Fedora-Unity-20100202-12-i386-DVD.iso is
+
+60cf6c6d469708fcdc19291ee8f1ad1fe63b7392
+
+as listed at
+ 
+http://spins.fedoraunity.org/unity/fedora-12-20100202-re-spin-sha1sums
+
+(note that Fedora Unity still uses sha1sum, even though Fedora Project has used sha256sum since Fedora 11).
+
+Update 2010-03-20: Fedora Unity just released the 20100303 12 i386 DVD respin, and deleted all traces of the 20100202 respin, so the above link no longer works.  My page for the new torrent is at 
+http://thepiratebay.org/torrent/5448103

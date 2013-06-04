@@ -1,0 +1,25 @@
+Microsoft announced the released of â€œWindows Embedded Standard 7â€ â€” whichâ€™s basically a reversioning of the system from release year-based versions to numeric versions based on the underlying OS for that embedded release. Therefore, Windows Embedded Standard 2011 will now be known as Windows Embedded Standard 7. Itâ€™s a componentized and embedded version of Windows 7, enabling to embed all the power of Windows 7 into devices and therefore leveraging Windows Touch, Aero, performance. You can find more details about it here. Microsoft has introduced this change in order to the alignment between embedded product and Windows 7 for business to take advantage of the great reception Windows 7 has received.
+
+The RC release includes the x86 Image Builder Wizard (IBW) which will allow you to configure and install an evaluation copy of Windows Embedded Standard 7. The evaluation copy has either a 30-day or 180-day trial period depending upon whether a product key is used during setup.
+ 
+[Q]  What product key should I use?
+[A]   For a 30-day trial period:
+Â·         Run setup without a product key, or
+Â·         Use product key 00000-00000-00000-00000-00000
+ 
+For a 180-day trial period:
+Â·         Use product key 34VFJ-QQ7G4-47K84-74BHY-WQGQ2
+ 
+[Q]  What happens at the end of the trial period?
+[A]   Standard 7 will shut down once every 20 minutes.
+ 
+[Q]  How do I enter a product key?
+[A]   There are two ways to enter a runtime product key:
+-       Type it on the â€œEnter your Windows product keyâ€ page during setup when using IBW.
+-       Use ICE to include it in your answer file for setting Shell-Setup | ProductKey in the â€œSpecializeâ€ Configuration Pass.
+ 
+[Q]  Do I need a product key to install the Toolkit?
+[A]   No. The Toolkit installs without a product key. A product key is only requested during setup of the Standard 7 runtime.
+ 
+[Q]  Does RC have an expiration date?
+[A]   Yes. The RC build is a pre-release version of Standard 7 that expires on August 15, 2010. The pre-release expiration date takes precedence over the evaluation trial period.

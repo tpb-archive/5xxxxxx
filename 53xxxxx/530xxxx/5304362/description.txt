@@ -1,0 +1,248 @@
+===================================================================
+MTS2000 Customer Programming Software R02.00.01
+===================================================================
+
+WARNING:
+--------
+DOS RSS VERSION R06.08.00 and LATER WON'T SUPPORT RADIO WITH MODEL
+NUMBER H01xxxxPWxxx. 
+ALL DOS RSS VERSION WILL NOT SUPPORT RADIO WITH MODEL NUMBER 
+H01XXXXPWXXX ONCE PROGRAMMED WITH CPS R01.13.00 OR SERVICED 
+AT MOTOROLA DEPOT AFTER JULY 10, 2005. 
+
+Introduction:
+------------
+
+Welcome to the Windows MTS2000 Customer Programming Software (CPS) 
+by Motorola.  The notes below serve to introduce you to the software
+you are about to install.  Please read these notes in their entirety
+ before installing and using the MTS2000 CPS R02.00.01 Release.
+
+New Radio Features Supported:
+--------------------------------
+
+- Support for 800 MHz Rebanding
+
+
+CPS Enhancements in this Release:
+---------------------------------
+- The Clone Wizard feature is now supported by the CPS.  This feature
+  groups all fields needed to be updated when cloning to one or many 
+  radios, or to one or many archive codeplug files.
+
+- The Clone Express is now supported by the CPS.  This feature significantly
+  reduces the time required to clone a radio when you want to preserve
+  the ID's within the radio.  This feature provides the Clone Wizard
+  functionality, including "Read Radio ID's" with one mouse click. Please
+  refer to the help for further information.
+
+- The Advanced System Key feature is now supported.  This feature can
+  be used to produce system keys that have limited functionality and/or
+  have an expiration date.
+  This feature also supports obsolescing the older keys if desired, by
+  providing an option to only honor the new keys for radio programming.
+  Multiple keys can be attached in the CPS provided that all system IDs
+  are unique.
+
+- Drag and drop between MTS2000, and the ASTRO and ASTRO 25 products is
+  now supported by the CPS.
+
+- Top Node Drag and Drop for copying complete codeplug data from one radio 
+  to another, including MTS2000 to ASTRO and/or ASTRO 25 products and vice
+  versa.
+
+- Auto Display of the Drag & Drop Report is now supported by the CPS.
+
+- Across-band Drag and Drop for copying non-frequency-related information 
+  from 800 radios to UHF and VHF radios and vice versa is now supported
+  by the CPS.
+
+- Drag and Drop Personality to Zone feature allows you to drag a Conventional 
+  Personality or a Trunking Personality and drop it on top of any Zone 
+  Channel Assignment zone for easily addition of channels to existing zones.
+
+- The tables now support Fill Up/Down for copying the same value across
+  multiple rows. To change the value for a field on all records, switch
+  to the alternate table view, change the value in the first record and
+  select 'Fill Down' to copy the value to all records.
+
+- Saving Invalid Archives allows you to save a codeplug that has unresolved
+  invalid fields to a file with the extension ".inv," which can be read
+  back into the CPS at a later time to resolve the invalid fields and
+  complete codeplug setup. Invalid (.inv) files cannot be written to a
+  radio; they must be read into the CPS and all invalidities must be
+  resolved prior to programming. Certain fields cannot be saved when
+  invalid, and the CPS will not allow you to save a .inv file until these
+  fields have been resolved. Fields that cannot be saved when invalid will
+  be denoted by a red dot next to the field name in the Invalid Fields
+  dialog. Please see the Known Issues section below for information on
+  unresolved issues with this feature.
+
+Please refer to the CPS Online Help for more information on these features.
+
+
+System Requirements:
+--------------------
+Operating Systems:   Windows 98 Second Edition,
+                     Windows NT 4.0 (SP 6a or higher),
+                     Windows 2000
+                     Windows XP Home Edition (See Note)
+                     Windows XP Professional (See Note)
+                     Note: XP upgrade from other operating systems
+                     is not supported if the CPS was previously installed
+                     on the old operating system. Windows ME, Windows 95
+		     and Windows 98 First Edition are no longer supported.
+                     You may choose to proceed with the installation, but
+                     some features might not be functioning properly.
+                     Upgrading the operating system is highly recommended.
+
+Hardware Requirements:      
+Processor            400 MHz or higher Pentium grade Processor
+Memory               128 MB RAM minimum for Windows 98 Second Edition, NT
+		     and 2000
+                     256 MB RAM minimum for Windows XP (Home or
+                     Professional)
+Hard Disk Space      1 Gigabyte Drive with 450 MB minimum free space (for a
+                     Typical Installation, including Help Audio-Visual
+                     Tutorials) or 60 MB minimum free space (for a Compact
+                     Installation)
+
+Peripherals          Microsoft Windows supported Mouse or Trackball
+                     Microsoft Windows supported Serial Port 
+                     for radio communication
+                     Microsoft Windows supported Printer Port 
+                     for report printing
+                     CD-ROM for software installation
+
+
+Known Issues With the MTS2000 CPS R02.00.01 Release:
+---------------------------------------------------
+
+1)  Drop down items in table fields cannot be accessed when using Windows XP
+    Professional "Windows XP Style" display.  If this issue is encountered,
+    change the display setting to "Windows Classic Style" for proper
+    functionality.
+
+2)  Attempting to Read from or Write to a radio with the CPS while the Tuner
+    is open will cause a communication failure.
+
+3)  Due to French import laws, the Microsoft encryption support used to
+    create archive (.cpg) files with the CPS (Customer Programming Software)
+    is not available on the French version of the Windows Operating Systems.
+    Therefore, there is no way to save archive files when the CPS is
+    installed on the French version of Windows. Until import laws are
+    changed such that Microsoft can provide encryption support, this feature
+    can not be addressed.
+
+4)  If you attempt to close a dialog box by pressing the 'X' in the upper 
+    right of the dialog while the application is still busy (the cursor 
+    is shaped like an hourglass), the application may terminate.
+
+5)  Reading two radios simultaneously results in an error message.  
+    Computers equipped with two Communication Ports can potentially read
+    two radios at a time.  This is not recommended at present, as error 
+    messages have been observed during simultaneous reading of radios on 
+    different COM ports.
+
+6)  The CPS will display the error message "Unable to write header" if you 
+    try to save a codeplug file that has been marked as read-only.  To 
+    circumvent this problem, either save the codeplug under a different name
+    or remove the read-only setting from the codeplug file.
+
+7)  The CPS does not warn users when they have opened a codeplug in more 
+    than one application.  Information saved in one application will be 
+    overwritten by subsequent saves of the same codeplug in the second 
+    CPS application.
+
+8) In the unlikely event that a FLASHport operation fails, disconnect and 
+    power off the SRIB and radio, and reconnect them again.  Retry the 
+    FLASHport operation.
+
+
+Installation:
+------------
+
+1)  Before installing the MTS2000 CPS, you must uninstall any previously
+    installed versions of the MTS2000 CPS, and reboot your machine.  You
+    can uninstall the CPS by going to the Windows Control Panel,
+    double-clicking on Add/Remove Programs, selecting the CPS in the list of
+    installed programs, and clicking the Add/Remove button. If you insert the
+    installation CD for the new CPS before uninstalling the old CPS, you will
+    be presented with a screen containing three buttons: Remove, Modify, and
+    Repair. You must select Remove to uninstall the old CPS, then reboot your
+    machine, then install the new CPS.
+
+2)  When you insert the Installation CD into the CD-ROM drive, the 
+    installation will start automatically. You may select to install the CPS
+    or the Tuner or both applications. Follow the on-screen instructions to 
+    install the software.
+
+3)  Before uninstalling the CPS, disable the CPS Password if you have 
+    enabled this feature.
+
+4)  If a file installed by the CPS later becomes corrupted, the Repair
+    option on the Installation CD may be used to restore it. It is very
+    important that the Installation CD for the same version that is
+    installed on the computer is used for Repair. Use of a different
+    version in an attempt to Repair an installation will result in further
+    corruption.
+
+5)  Windows NT Installation: If the Install does not find the shlwapi.dll in
+    *WINNTSystem32 directory, you will need to install Internet
+    Explorer 4.1 or above to facilitate the XML installation, which is 
+    required for the FLASHport feature of the CPS.
+
+
+Programming Hints:
+------------------
+1)  You can use your DOS archive files in the MTS2000 CPS without the need 
+    for any conversion process. There is no CPS Archive Converter; you simply 
+    read your DOS archives directly into the CPS. To open a DOS codeplug in
+    the MTS2000 CPS, select File->Open from the Menu, and change the setting
+    in the "Files of type" drop-down to "All Files (*.*)".  You will then be
+    able to select any DOS archive and click the "Open" button. When you are
+    ready to save the archive, select File->Save As from the Menu, and save
+    your archive as a .cpg (Windows archive) file.  The DOS RSS cannot read 
+    archive files saved with this or later versions of Windows CPS.
+
+2)  If your DOS archive ends in an extension that Windows recognizes as a
+    particular file type (*.xls, which Windows recognizes as an Excel file, 
+    for example), you may need to enter the .cpg extension in the Save As 
+    dialog.
+
+3)  The first time you start the CPS, you should go to the User Settings
+    Dialog under the Tools menu and set up the directories where you will 
+    store your system keys.
+
+4)  Several user-configurable view items are available under the 
+    View->Options Menu. You can set a color for invalid fields, so that
+    these fields are more visible.  You can also configure whether or not
+    you wish to confirm deletion of records with a popup window.  PLEASE 
+    NOTE that the default for Confirm on Deletion is NO. If you wish to 
+    see a popup menu every time you delete a record, please change this
+    setting.
+
+5)  To get help on a field, press F1 or 'right click' and select 'What's 
+    this?' while you are on the field, or click on the Help button on the
+    tool bar (an arrow with a question mark) and then click on the field 
+    for which you want to view help.
+
+6)  For more information on the features available in the Windows CPS, we
+    suggest you view our audio-visual help tutorials. They can be accessed 
+    from the CPS menu by selecting Help->CPS Help Topics, and then 
+    double-clicking on CPS Tutorials, then The Tutorials Menu. Then select
+    the tutorial you wish to view.
+
+
+Scope:
+-----
+
+The MTS2000 CPS R02.00.01 replaces the DOS RSS in all respects except in the 
+following.
+
+   *  The CPS does not support Service Mode Tuning (F2 from the Main Menu in 
+      the DOS RSS). Service Mode Tuning functionality is provided in the Tuner
+      application on this CD.
+   *  The CPS does not support reading or importing the TCMS file format.
+
+For the above two functions, please continue to use the DOS RSS.

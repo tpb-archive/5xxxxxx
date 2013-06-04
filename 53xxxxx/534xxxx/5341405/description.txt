@@ -1,0 +1,36 @@
++------------------------------------+
+| Airbus A320 FMGS Free Play Trainer |
+|     Version 3.01 RELEASE NOTES     |
+|      (c) FAROS DECEMBER 1998       |
++------------------------------------+
+
+
+- s/n = 1000120299
+
+
+
+- run SETUP.EXE in [Soft_2D] folder to install, using above serial/license number.
+
+- copy [USERDATA-EUR] to
+
+ C:-->FMGS_2D.302-->DATABASE-->USERDATA-EUR, (create folder if needed).
+
+
+
+
+- you now have the default [USERDATA] (Northwest Airlines) for lbs  and
+  [USERDATA-EUR] - metric for Europe and  (SXBDD - Agean Air) utilities for database manipulation.
+
+- you may rename userdata to userdata-usa and then rename [USERDATA-EUR] to [userdata] 
+  so you can use all major European Airports. 
+
+- it should run smoothly, even under Win7 x64.
+
+
+
+- included as a pdf, is an excellent 700-page manual for the Airbus FMGS ! 
+
+
+- Enjoy flying !!!
+
+FSallATP

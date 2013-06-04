@@ -1,0 +1,39 @@
+User Type,Username,Date,Text
+,dankspot,2010-02-09T22:59Z,EXPIRED!
+,Padesatka,2010-02-10T06:32Z,"I tried Mac version, and it's expired, just as dankspot said (won't launch, popup directs one to download new version from developer). "
+,Asuraku,2010-02-11T20:36Z,"Little Snitch it before opening it, then open up your favorite hex editor and change:
+
+30 31 2D 33 31 2D 32 30 31 30 
+
+to: 
+
+30 31 2D 30 31 2D 33 30 30 30
+
+Done. Works great!"
+,Asuraku,2010-02-13T07:16Z,@pieratebay: BumpTop.app/contents/MacOS/BumpTop
+,JTimmers,2010-02-14T18:49Z,"Has anyone got this to work (that will explain it here)
+using OxED (for the 1st time)
+I searched 30312D in offset then over wrote the remaining string, but no luck still @launch says expired.
+someone please help, id really like to try this out."
+,Asuraku,2010-02-16T18:47Z,"@scubasme: BBEdit is a HTML/Text editor dipshit. 
+
+1). Little Snitch it first. If you don't have LS, find a copy, or hell buy it. It's well worth it.
+
+2). Download 0xED and open ../BumpTop.app/contents/MacOS/BumpTop.
+
+3). Hit Command+F and type EXPIRED.
+
+4). There is a date near it, change it to a future date without using backspaces or without changing the format. (I.E. if the date is 01-31-2010, you need to keep it as ##-##-####.)
+
+5). Hit Command+S and save it.
+
+6). Run it, Enjoy it, then come back here and complain less."
+,Asuraku,2010-02-16T18:48Z,"Also if you've already opened it before doing the above, then you need to completely remove it via AppZapper or whatever means. Once it's flagged for expiration, you can change the date and expect it to work."
+,SkaRJE,2010-02-17T04:08Z,"i may be mistaken, but from what i can see after installing, the mac version is not PRO?
+If that's the case doesn't it make it pointless to d/l this, go through the trouble of hex editing it when the current non-pro version is already a free non-expiring d/l? Maybe I'm missing something here?"
+,Asuraku,2010-02-17T18:53Z,"@SkaRJE: It's not pro, but the whole ordeal here was to get it to run. "
+,xedath,2010-03-09T07:47Z,"asuraku it says i cannot save bumptop in mac os because the app cant be modified, how do i get around this"
+,silvrmane,2010-03-13T05:23Z,all this trauma to avoid paying $29. tsk tsk.
+,pelihullu99,2010-07-30T21:44Z,"u can dl this for free..is it so hard to google it?
+dl from here:
+http://www.pcworld.com/downloads/file_download/fid,77603-order,4-c,desktop/download.html"

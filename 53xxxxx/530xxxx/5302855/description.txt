@@ -1,0 +1,30 @@
+Srcds source dedicated server.
+
+Comes with
+
+Mani admin plugin
+Metamod
+Sourcemod
+Super admin
+Sourcerpg
+cssdm
+Addon manager
+
+Maps in:
+surf_greatriver_xdre4m
+surf_skyworld
+surf_japan_v69
+surf_machine4
+surf_matrix_v8
+surf_rebel_resistance_final2
+
+Can be changed by you XD
+
+You dont run srcds but the srcds shortcut.
+You have to open port 8080 in your router.
+you can use other ports but configure in srcds shortcut is needed.
+Srcds: Target: -console -game cstrike +port YOUR PORT HERE -autoupdate +maxplayers 16 +map START MAP HERE -tickrate 66
+
+Original: -console -game cstrike -port 27015 -autoupdate +maxplayers 12 +map de_dust
+
+Here's a wonderful .cfg maker : http://www.cstrike-planet.com/cfgmaker?cfg=srcds

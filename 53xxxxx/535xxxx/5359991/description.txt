@@ -1,0 +1,12 @@
+An in-depth book should go beneath the API layer to talk about API design rationale, internal data structure, and implementation outline. It should provide spying and exploration tools for you.
+
+A complete and up-to-date book should focus on the best implementation of Win32 API so far, Windows 2000, which will be basis for future Microsoft operating systems, and cover its new features.
+
+An accurate book should be based on actual exploration of Win32 API features and verify all the details. Relying solely on Microsoft documentation is definitely not good enough, because it merely describes the abstract Win32 API and unfortunately has some incomplete, out-of-date, and vague information.
+
+A practical and useful book for programmers and software engineers should go beyond mere description of API and simple illustrative examples, to solve real-world problems, provide reusable building blocks, supply useful tools, and encourage readers to write professional programs.
+
+In particular, a book of this sort is needed to elucidate Win32 GDI, or Windows graphics programming in general, which is a fundamental building block of all Windows programs. The most in-depth coverage to date may be provided by Matt Pietrek's books, which discuss the internal working of Windows 3.1 GDI. The most complete and up-to-date description of GDI is offered by Microsoft's MSDN library. Half of Charles Petzold's famous book Programming Windows, Fifth Edition, is devoted to Windows 98 GDI programming.
+
+But for the whole Windows programming community dealing with Windows GDI frequently, something more in-depth, more complete, more up-to-date, more accurate, and more useful is needed. These are the goals that have guided the preparation of this book.
+

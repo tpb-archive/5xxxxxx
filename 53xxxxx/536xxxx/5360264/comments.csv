@@ -1,0 +1,56 @@
+User Type,Username,Date,Text
+,iBox01,2010-02-13T19:39Z,can you please upload The Stepfather. thanks and i love your downloads
+,jaydigital,2010-02-14T00:08Z,Thanks Brick
+,halfmonkey,2010-02-14T12:19Z,"Hi, I know I've seen an explanation somewhere by PS3 TEAM, but can't find it - I'm buying a new high end PC with Blu-ray drive and want to create these 4 Gb m2ts files - Is there a wiki/ guide I can follow and possibly upload here the final films here for seeding?"
+,HeWillSeeTheBigBoard,2010-02-14T14:28Z,"Tutorial For Ripping A Blu-Ray Disc to a PS3 Compatible Movie: (source Bluray or mkv)
+
+Opening Note
+If you dont want to buy a bluray drive just yet, you can download the mkv files off of any of the many torrent sites and convert them for ps3.
+
+Necessary Software: (Ripbot and Plugins are all freeware)
+Ripbot264 (your encoding program)
+Ripbot plugins:
+AviSynth
+Haali Media Spliter
+ffdshow
+
+Anydvd hd (your ripping program, if you choose to rip Bluray Disc?s) (not freeware)
+
+As for step by step instructions:
+
+Anydvd hd:
+· Place you Bluray disc in your bluray drive and wait a second for it to be recognized. Then Right click the Anydvd hd logo next to the time on your taskbar and click ?Rip video DVD to hard disk? (This will make a bunch of folders, the only one that matters to you is BDMV>>STREAM)
+
+· if your movie is split into multiple parts you just add the first one of the files and Ripbot should automatically load the rest. (keep all these files in the same folder)
+
+Ripbot:
+· Open Ripbot264, click ?add? in the bottom right, select the biggest ?m2ts? file in that ?Stream? folder or the mkv that you downloaded
+
+· On the bottom you can choose mp4, mkv, or AVCHD (Choose AVCHD for m2ts)
+
+· change ?mode? from CQ to 2-PASS
+
+· select ?lock size? on the bottom right and type 4096 (your file should come out at around 3.99 to 4GB?s)
+
+· ?Audio Profile?, chose 5.1 AC3 640kbps
+
+· ?Video Profile?, chose [HIGH 4.0] HD . Bluray . Consoles
+
+· next Select ?Properties? on the right side of mode and set size to HD-Full 1920×1080 for 1080p. Movies will not encode in the AVCHD Format with inconsistent resolutions, so make sure you do this. Also if you need to hard-code subtitles you can do it in this Properties window. have your .srt file ready and under ?Subtitles? choose build in picture, it will promt you with a load screen, find you subtitles (.srt file) and hit open.
+
+· Finally set a destination where your computers gonna write the converted movie. (default is desktop)
+
+· Click ?Done?, then ?Start? to Start the conversion
+
+· Your finished movie will be in a ?BDMV>>STREAM? folder at the destination you choose to save it to.
+
+Faster the computer, faster it will go, i got 4GB?s of RAM, a 64 bit processor and intel core 2 duo. And a 1080p 2 Pass Encode takes me anywhere from 18-25 hours.
+
+also make sure you un-check the low priority mode for a faster encode.
+
+And this should have you covered!"
+,halfmonkey,2010-02-14T14:43Z,Thanks!
+[T],bricktophd,2010-02-14T17:59Z,hewillseethebigboard very nicely done thank you
+,sax0god,2010-02-16T21:52Z,well how do you seed?
+,malanzirotti,2010-08-13T18:43Z,"Hello bricktophd:
+A question from a non-techie: are there any HDTV sets in the market that would be able to display  movie files such as this one by a direct connection from a PC output?  If there are, could you provide me with the details of TV model/connection cable/required software and anything else that is relevant? Thank you so much, and forgive me if the question appears to be naive to you."

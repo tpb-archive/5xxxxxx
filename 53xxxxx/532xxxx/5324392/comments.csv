@@ -1,0 +1,50 @@
+User Type,Username,Date,Text
+,phreak1982,2010-01-31T20:19Z,To Unpack use 7-zip: http://www.7-zip.org/download.html
+,206andy206,2010-02-27T10:57Z,"Doesn't work, don't bother."
+,lemon714,2010-04-09T20:02Z,"22 seeds,think it works,I just cant get it to."
+,lemon714,2010-04-09T20:42Z,"took about 15 minutes to figure out,works on Win7."
+,Alpha_Slayer,2010-04-16T19:02Z,Works perfectly on Win7 with Firefox 3.6.3 and DownloadHelper 4.7.3. Thanks!
+,p0wwww,2010-04-20T04:41Z,"It works with Firefox 3.6.3 and Download Helper 4.7.3.
+No virus, tested and working on Windows 7 64bit
+For people who can't read that language in the help file, here's a brief explanation:
+
+1. Open the ""addon-3006-latest.xpi with firefox by either dragging it over the firefox icon, or double clicking, select choose file to open, navigate to the mozilla installation directory, and select firefox. After that it should install the addon. Now as of today that's the current addon so you could just download it from their site and it might work, idk i havent't tried it.
+
+2. Next close firefox and install the converthelpersetup.exe
+3. once it's done, navigate to:
+
+C:\Users\YOURUSERNAMEHERE\AppData\Roaming\Mozilla\Firefox\Profiles
+
+Replace the ""YOURUSERNAMEHERE"" with whatever your username is.
+
+There should be a folder that looks like ""XXXXXXXX.default"" with the in my case it was: m5u6xvjo.default
+
+Open that folder and then navigate from there to: 
+
+\extensions\{b9db16a4-6edc-47ec-a1f4-b86292ed211d}\components
+
+Then copy the ""dhConvertMgr.js"" and paste it in the same directory. Rename the copy to ""dhConvertMgr.jsBAK"" without the quotes. After that move and replace the ""dhConvertMgr.js"" from the crack folder to the folder you navigated to. 
+
+You're done. Open firefox and enjoy.
+
+To remove it just navigate back, delete the ""dhConvertMgr.js"" file and change the name of ""dhConvertMgr.jsBAK"" to what it was before (dhConvertMgr.js)"
+,p0wwww,2010-04-20T04:41Z,Sorry that wasn't very brief was it? haha
+,Gran88,2010-05-08T17:29Z,"thx for guide p0wwww, it was really good"
+,pkipirate,2010-07-01T13:22Z,"@ p0wwww.
+cheers mate, smooth mannualilng."
+,ValnezZz,2010-08-18T08:15Z,"Thanks. 
+It worked perfectly. My video DownloadHelper was already installed before and using these instructions, this crack worked. 
+
+Thank you :) "
+,lithoxene,2010-08-21T01:37Z,"@p0www
+
+Can you elaborate on:
+
+""After that move and replace the \""dhConvertMgr.js\"" from the crack folder to the folder you navigated to.""?
+
+I've gotten this far, and have hit a brick wall.  First time cracking, and I'm lost as to what you mean here."
+,trippinyuout,2010-10-03T19:35Z,Thanks p0wwww. Real good explanation got it to work ! excelent torrent! 
+,wranglery,2010-11-13T15:27Z,"Thanks for the instructions.  Works perfectly.
+^lithoxene: once you downloaded all the files, the crack file is located inside the crack folder.  Copy that file onto the folder \components to overwrite the original file if you didn't rename it.  If you rename the original file, just copy and paste into the \components folder."
+,chubauk,2011-04-11T16:41Z,Thanks a million. You cannot possibly imagine how helpful this has been. I'm using Windows 7 Ultimate 32-bit and Firefox 3.6. I've followed the instructions and everything is perfect.....Brilliant.....Thanks!
+,tanmay16,2011-11-02T06:48Z,i need registration key......pls upload the registration/serial key......pls 

@@ -1,0 +1,83 @@
+User Type,Username,Date,Text
+,PorromAtic,2010-01-25T09:15Z,Zero seeds? zero comments?
+,mitrovna,2010-01-25T15:55Z,"So close, just need a bit more seed, then we can seed for each other"
+,jimis1992,2010-01-25T19:52Z,i am at 88% and i am downloading with 5 kbps
+,mitrovna,2010-01-26T05:07Z,"so, what's the deal? Is there a seeder???"
+,hurukhan,2010-01-26T14:16Z,"I finished the download, I'm extracting it now.. It better work, cause I already tried the CS 1.6 torrent by ""thenoobish"" and it didn't work!!
+I'll tell you guys if it works.."
+,hurukhan,2010-01-26T15:41Z,"Ok so I downloaded the CXZ game engine, but the game(if it is even a game) quits right away at startup.. The noobish must be uploading fake files on TPB...
+Forget his uploads!!!"
+,blitzkrieg12349,2010-01-26T15:45Z,doesnt work for me too
+[T],thenoobish,2010-01-26T17:18Z,Did you follow this step? Install CXZ Game Engine.  Copy the game from the DMG to your Hard Drive. Double click the icon/application to open it. 
+[T],thenoobish,2010-01-26T17:29Z,"and hurukhan stop say its fake, did u try all my uploads or just this and cs? maybe its a problem on your end?????"
+,hurukhan,2010-01-26T17:43Z,"I installed CXZ Game engine..
+When I start HAWX, it gives me an error message right away..
+Forget it, I trashed everything, I don't feel like losing more time.."
+,gi4mi,2010-01-26T21:24Z,"There's a problem with the wineloader, the game can't start; but left 4 dead 2 runs pretty nice thanks anyway. perhaps if you upload de dmg no .zip"
+,jaguar4499,2010-01-26T21:36Z,"Im not getting a dmg, ive downloaded and i have a shitload of zip files, best course of action? btw i tried to expand them, no luck"
+,Jason99KR,2010-01-28T03:53Z,"dude, what the f*ck is wrong with you?
+all torrent you've uploaded is NOT WORKING.
+CAN'T EVEN OPEN IT. F*CK IT."
+,Ilpastoredelcampo,2010-01-28T14:19Z,"Guys, use Betterzip to extract these files. Then it works perfectly; I am flying around already..."
+[T],thenoobish,2010-01-28T18:38Z,"Jason99KR: STFU It does work, read what the guy under u said"
+,gi4mi,2010-01-28T22:31Z,betterzip do the trick thnx for the tip mate and thnx for the upload Noobish; i appreciate the uploads not like  those poor bastards
+,gi4mi,2010-01-28T23:05Z,"now i can run the game but the plane moves in circles and i can't control it, what can i do? help please"
+,gi4mi,2010-01-29T02:12Z,Finally solve it > are you gonna upload mass effect ?
+,jaguar4499,2010-01-29T12:53Z,"i probably sound like a dick but how do i extract files? all that happens when i extract with betterzip is it creates an archive with all the zip files in it- no results concerning an actual application. am i doing something wrong? does god hate me? don't answer the last one but please help, someone. btw thanks a bunch for l4d2 works great."
+,jaguar4499,2010-01-29T13:33Z,wait hold my tongue i somehow deleted some zip files by accident. incomplete archive etc. never mind ill redownload those missing pixies. thanks for the torrent ill cross my fingers and hope it works in the end
+,jaguar4499,2010-01-29T19:06Z,got working... sort of. crashes every time i attempt to start a mission. any cure for this ailment?
+,jaguar4499,2010-01-31T15:59Z,"anyone have any answers? anyone afflicted by this too? i've tried changing settings(everything to low) and then extracting the files with different versions of betterzip. i mean unless someone can either tell me a better extractor because u think that may be the problem, im pretty screwed. error message when crashes is ""save dump file to ...."" then it has a string to an hawx exe file."
+,SOLID-CZ,2010-01-31T21:25Z,"try stuffit expander, iam almost finished downloading, so i post some more info after i get hands on complete files."
+,el_nygusso,2010-01-31T23:59Z,"I have the same problem too... ""save dump file to..."" "
+,jaguar4499,2010-02-01T01:30Z,nah i had stuffit expander to start with but it didn't even work. i guess i could try download a newer version... but i pretty sure stuffit isn't the answer.
+,SOLID-CZ,2010-02-01T22:14Z,"i did use the stuffit expander yesterday, files unpack just fine, but game wont start, it gives me error just after i try to start...app quit unexpectably...or something like that, i tryied to find some config files inside game package, but no succes there..."
+,jaguar4499,2010-02-02T04:40Z,try better zip it will get you as far as the menu of hawx but it may screw up when you try to start a mission. it didn't work for me but other people here have used it and it works fine it seems.
+,willtard,2010-02-03T21:45Z,"Don't start, what's the hell!"
+,tylermarcus14,2010-02-05T06:31Z,"works great, just gotta follow all the directions guys. thanks"
+,willtard,2010-02-06T00:01Z,"my apologyces to thenoobish, The game work fine as he said, but it's a little bit more difficult to put in place. I explain you my solution.
+
+1. As he said, go to http://forum.portingteam.com/viewtopic.php?f=107&t=2227 
+2. Register
+3. Validate
+4. a. Download and install CXZ engine (choose Black diamond when you install the package)
+4. b. Download CXZ Wrapper
+It's no it's a little bit complicate
+5. Unzip CXZ Wrapper
+6. right click and Show PAckage Contents
+7. follow this path in the package and remove all content : /Contents/root/drive_c/ (so you remove Program files, users, windows, winetrickstmp)
+8. Unpack the torrent
+9. right click and Show package Contents
+10. follow this path in the package and copy all content in the CXZ wrapper drive_c folder : /Contents/SharedSupport/CrossOverGames/support/default/drive_c/ (so you move/copy program file, users, windows, ...)
+11. you must modified the CXZ Wrapper Content/Info.plist. Ref to the tuto on CXZ (http://forum.portingteam.com/viewtopic.php?f=117&t=2225&p=17858#p17858) like this : 
+
+	CXOEMCmdLine
+	/Program Files/Ubisoft/Tom Clancy's H.A.W.X/HAWX.exe
+	CXOEMWorkdir
+	/Program Files/Ubisoft/Tom Clancy's H.A.W.X
+
+
+12. It's over."
+,Veselim,2010-02-07T02:27Z,"Thx for all the instruction but I got error and it asks did I install the game in the wrapper.
+I just did copied all the content from the torrents drive_c folder to the wrappers drive_c folder and it seem that it doesn't see it...
+Any clues where I did wrong ?
+I edited Info.plist as said on porting site and all..."
+,JFDavid01,2010-02-18T22:00Z,"SERIOUSLY man, post some ACTUAL tutorial on video for this. Everything I got was just a crazy zip file that leads me to the exact place with lots of zip files I started."
+,willtard,2010-02-19T13:38Z,tutorial... why not... I'll do it
+,willtard,2010-02-23T14:03Z,"sorry, when i try to post the link I have a database error"
+,willtard,2010-02-23T14:07Z,"tuto here : 
+ on tiny[dot]cc[Slash]RuNGv "
+,nobina,2010-03-20T09:38Z,"At first it didn't work. Downloaded ""Betterzip"", klicked the first .zipfile, called 001 and opened.
+
+Voila! Works perfect.
+
+Now I try to figure out how to fly...
+
+Thanks thenoobish!"
+,gogi010,2010-06-09T09:19Z,this sucks its not workinkg cant you make it more simple 
+,BwcWolf,2011-01-26T08:53Z,"The game works fine, but as I start a mission, the view is white, I can see the ""HUD"" and stuff.... anyway over this?"
+,bonghi123,2011-04-28T22:36Z,"!!! CAN SOME ONE SEED PLEASE !!!
+I will get the 2 soon and I want to play number 1 first
+PLEASE "
+,Klimpen8550,2011-09-12T18:33Z,SEED someone!
+,lsmanutd4,2011-10-28T16:34Z,SEEEEEED!!!!! PLEASE!!!
+,canal06,2012-05-15T16:49Z,will this work on Lion?

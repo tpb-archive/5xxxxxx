@@ -1,0 +1,33 @@
+******************************************************
+*                                                    *
+*      ÂµTorrent IP Filter Updater by GEARPY          *
+*                                                    *
+******************************************************
+
+Dies ist eine optimierte Version von "ÂµTorrent IP Filter updater".
+Beinhaltet nebst der ursprÃ¼nglichen Installationsroutine nun auch eine Deinstallationsroutine.
+BenÃ¶tigt weniger Bandbreite beim Runterladen der "ipfilter.dat" da es die Komprimierte Version runterlÃ¤dt
+und danach mit 7-Zip Console entpackt.
+
+Zum starten des Downloads resp. der Aktualisierung, benutze bitte die neu angelegte
+VerknÃ¼pfung "Updater" auf dem Desktop und folge den Anweisungen.
+FÃ¼r den Download wird "wget.exe" eingesetzt, daher kann es sein dass, falls vorhanden, die Firewall
+eine Meldung ausgibt wegen dessen Zugriffversuchs ins Internet.
+Am besten gleich eine Regel fÃ¼r das Programm erstellen, dann klappts beim nÃ¤chsten mal auf anhieb.
+
+Sollte der Bedarf bestehen, die Dateien von "ÂµTorrent IP Filter Updater" zu entfernen, benutze bitte
+ebenfalls die VerknÃ¼pfung auf dem Desktop dazu und wÃ¤hle danach die Deinstallation.
+Es werden alle erstellten Dateien gelÃ¶scht, ausser die "ipfilter.dat". Diese kann also weiterhin von
+uTorrent benutzt werden.
+Damit ÂµTorrent die Datei Ã¼berhaupt nutzt, muss dies in dessen "Optionen/Einstellungen/Erweitert"
+unter dem Punkt "ipfilter.enable" der Wert auf "true" gesetzt werden.
+Ein Neuladen der Datei kann mit den Wechsel von "true" auf "false" und zurÃ¼ck erzwungen werden, wÃ¤hrendessen
+ÂµTorrent am laufen ist. Die "ipfilter.dat" wird auch beim nÃ¤chsten Neustart von ÂµTorrent geladen.
+
+ÂµTorrent Ip Filter Updater und die ipfilter.dat befinden sich Ã¼brigens im folgenden Verzeichnis:  
+"%AppData%uTorrent"
+
+
+----------------------------------------
+         (c) 2010 by GEARPY
+----------------------------------------

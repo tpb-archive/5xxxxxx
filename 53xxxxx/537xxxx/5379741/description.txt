@@ -1,0 +1,141 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+                Win XP Pro SP3 Performance Edition Dec.2009
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+ This supports ONLY English Language and ONLY English Keyboard Layouts.
+
+This is a FULL Install. You CANNOT Upgrade from previous versions of Windows.
+
+There is no validation required. This PASSES WGA. This works 100% with Windows Update.
+I have included the CD-Key already in the install process. This means at no point will you have to enter it.
+Some people using Macs or Virtual Machines might need the serial. See Serial.txt if you do need it.
+Serial.txt is located in the download folder and in a folder on the disc/iso.
+This has all windows updates through December 2009. This is has been tested numerous times with no errors.
+This has minimalist Internet Explorer 6. (Use It To Download Firefox, Opera, Safari, Chrome, Etc)
+This is the x86 version (32Bit).
+
+I have integrated a few new driver packs this time. I kept all the Sata, Raid, & Mass Storage Drivers from before, but also added Chipset, Lan, and WLan drivers.
+This is why it is slightly larger in size than the previous releases. I did this because of people previously having such a hard time finding correct network drivers.
+This way they are now able to connect to the internet and download all the other necessary drivers themselves. You will still probably need to install other drivers
+yourself. Graphics, Sound, Printer, Etc. Unfortunately, the newest driver packs leave behind a little garbage on the main hard drive (Usually C: Drive). You can
+safely delete everything EXCEPT WINDOWS, Program Files, & Documents and Settings.
+
+Updates currently work fine and this also currently passes WGA. As a preventative measure, I've also
+included Office and Windows WGA Cracks which are in a folder called "TJ" on the disc in case they start blocking the serial number included.
+You don't need to use these unless you can't get updates, or this is no longer passing WGA.
+
+This is set to automatically log you in each time you start up. If you want to be prompted for a username and password
+please see the "TJ" folder on the disc. It contains a registry patch that you can run to have it prompt for username and password again.
+This folder on the disc also contains numerous other little tweak applications, registry patches, WGA Cracks & More.
+Please look at it before asking questions.
+
+In the "TJ" folder on the disc, in the folder called "Registry", you will see another folder called "Save_Icon_Layout". Whenever I install
+new graphics drivers my icons on my desktop get out of place. This little DLL and Reg Patch will help with saving/restoring your Desktop Icon Layout.
+To Install It: Extract the "LAYOUT.DLL" filder to "Drive:Windowssystem32" folder. Then double click the Reg Patch to apply it.
+Now it should show up as an option when you right click on your My Computer Icon.
+
+I have removed the original Net Framework that ships with XP. It's super old and outdated.
+You can still download and use a newer version however. Just download the latest version from Microsoft.com or Windows Update.
+
+The Following has been Removed From This OS...
+
+Applications:
+Briefcase
+Games
+Internet Games
+Pinball
+Screensavers
+
+Hardware Support:
+ATM Support
+Brother Devices
+Gravis Digital GamePort
+Iomega Zip drive
+Multi-port serial adapters
+Ramdisk
+Windows CE USB Host
+
+Multimedia:
+AOL ART Image Format Support
+Images and Backgrounds
+Intel Indeo codecs
+Media Center
+Mouse Cursors...
+
+Network:
+Client for Netware Networks
+Communication tools
+Comtrol Test Terminal Program
+Connection Manager
+FrontPage Extensions...
+
+Operating System Options:
+NET Framework
+Blaster/Nachi removal tool
+Color Schemes
+Desktop Cleanup Wizard
+Document Templates
+DR Watson...
+
+Services:
+Application Layer Gateway
+Error Reporting
+Indexing Service
+Messenger
+Network DDE...
+
+Directories:
+DOCS
+SUPPORT
+VALUEADD
+
+I have disabled and deleted the Classic Windows XP Install Screens with the info about XP and the blue Background.
+You will just see a black background now and the install will look similar to 2000. This saves Space and gives more
+info while installing.
+
+The Minimum HD and RAM Requirements have been lifted. You can try and install this on whatever machine you like now.
+High ISO Compression has been enabled to save space.
+
+Patches:
+TCP/IP Half-Open Connections = Unlimited (Default 10)
+UXTheme Patch (Allows Unsigned Themes to be applied to XP)
+Windows System File Checker Disabled (SFC)
+
+Tweaks:
+Boot and Shutdown-Auto-End tasks immediately
+Boot and Shutdown-Auto-Kill hung applications immediately
+Boot and Shutdown-Auto-Kill hung services immediately
+Boot and Shutdown-Ctrl-Alt-Del at logon-Disabled
+Boot and Shutdown-Logon Page-Classic
+Boot and Shutdown-Setup Prefetch-Cache-Applaunch and Boot enabled
+Boot and Shutdown-Status Messages-Extended...
+
+Additional Features:
+VLK Serial Number
+Firewall Disabled (Can be re-enabled)
+System Restore Service Disabled (Can be re-enabled)
+Automatic Updates Disabled (Can be re-enabled)
+Default Theme Set on Classic (Can Change to Luna Which is Still Included)
+
+Install Notes:
+
+1. Unrar the Archive(s) using WinRAR or 7Zip. This will produce an ISO file.
+2. Burn the ISO using a program such as IMGBurn, Nero, Alcohol 120, Blindwrite, ect... (Burn at a slow Speed to ensure no errors, 1x-4x)
+3. Change Bios Priority settings so it boots from the CD-ROM Drive First. (You may be able to skip this step)
+4. Insert Disc and Reboot PC, Follow the on screen prompts and enjoy.
+
+
+Notes:
+If you are getting errors while copying files. It's your CD, not the release. Try burning it to different brand of cd/media and try burning at the slowest speed possible.
+I just tested this in VMWare and it works flawless. You should get between 16-19 Processes and under 100mb of ram usage when using the computer initially. Everything you install/use will obviously increase this, however its the leanest XP Copy around.
+
+
+----------------------------------------------------------------------------------
+
+
+PLEASE HELP SEEDING.......
+
+DON'T FORGET TO LEAVE YOUR COMMENTS......

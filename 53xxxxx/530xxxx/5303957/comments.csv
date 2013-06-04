@@ -1,0 +1,50 @@
+User Type,Username,Date,Text
+,Gert83,2010-01-25T06:40Z,"What is the Serial for the game?  When I enter the game, it starts great but then it asks for a serial."
+,MeZZal,2010-01-26T00:07Z,I need a serial too.. where can i find one?!
+,nikky248,2010-01-26T04:25Z,"dont understand the crack process as there are no sub-directories to copy the crack to in my folder. Also, what is the serial for this? "
+,McRulle,2010-01-26T11:19Z,"I haven't found a serial anywhere. And since this is normaly not how you do the ""copy the crack"" procedure, could you be more specific? And what if your firewall doesn't block the game?"
+,STrjesi,2010-01-28T01:08Z,crack not working.... no serial.... and dont downl.... SHIT REALESE!
+,lucky99,2010-01-30T12:23Z,"DOESNT WORK, DONT DOWNLOAD, ITS A FAKE!"
+,lucky99,2010-01-31T14:36Z,"UPDATE: Woops, I got the game to work by blocking the IP address as per Instructions. Sorry."
+,Gert83,2010-02-03T03:10Z,Lucky 99 did you get it to work?  What is the Serial key??
+,killer9032,2010-02-07T14:35Z,i need a serial or atleast some explination how to use the crack yaeh how can i block the .exe with my firewall or the thingy with the ip dont get it just make an key thingy (forgot the name) wich randomises keys
+,killer9032,2010-02-07T20:17Z,i think i have a solution when the loading screen comes before the clips pres esc constantly and click on the left mouse bottun than go as quickly as you can to the thing you wnat to go wait to long and the key thingy comes back.
+,killer9032,2010-02-07T20:18Z,nvm mind made a mistake worked for me once
+,farzin911,2010-02-09T13:24Z,"please send me some more specific installation notes,the game runs but it doesnt go to the game.
+farzin911@gmail.com"
+,farzin911,2010-02-10T06:22Z,give some more explanations plz
+,spoke012,2010-02-16T02:48Z,Dude post the key serial for the cd. Not direction about block some freakin fw port. 
+,z8o8x,2010-02-21T11:50Z,"@spoke012 and everyone else askin about serial:
+game works only in single player mode, serial is needed when playing online"
+,BaseKan,2010-03-22T16:58Z,"Can anyone post a clear explanation, becaus the it keeps asking for a serial and I can't get past it to play singleplayer"
+,z8o8x,2010-04-01T18:33Z,"@basekan if connected to internet game will ask for a serial, u must prevent or block in fw"
+,zavish,2010-04-04T10:54Z,"Hey i think i have a solution when it starts and asks for a serial press F1 and click the augustus campaign but the serial will ask in the screen press F1 and click anywhere well the game will still aks for the serial but you can play it for free! ^_^
+
+-it works"
+,zavish,2010-04-04T11:02Z,@z8o8x it still ask for a serial even if i block it in the fw 
+,z8o8x,2010-04-05T15:53Z,very nice city building game...
+,iet8,2010-04-10T21:06Z,it is working when u disable ur internet connection
+,kebdan,2010-05-23T20:18Z,DOES NOT WORK
+,johnrivers,2010-06-19T04:58Z,someone please give a better explanation
+,johnrivers,2010-06-19T05:01Z,YEs disable the internet connection it works fine
+,chuchu40,2010-09-22T15:47Z,"fw??? uh, hello? can you give a better instructional please"
+,Orgroth,2011-05-24T21:25Z,"How do i block rome.exe? i really wanna play this, please help... or what is that thing about ip? how can i use it?"
+,hackingone1,2011-06-28T00:28Z,"  5. Block rome.exe in fw.
+     (or ip 94.75.242.20:40009)
+This step is a huge hurdle to people who are not sure how to do it.
+
+Solution that worked for me. I switch off my internet then I start the game. The serial number screen will not pop up. You can turn on your internet immediately after you start the campaign. The serial number screen will not pop up again. 
+
+I tried many ways to do step 5 but I might be doing it wrongly. Turning off internet is a way easier solution."
+,pig2011,2011-08-16T20:00Z,"work perfectly, thx
+
+must turn off internet"
+,gioaace,2011-10-01T23:13Z,i swear to god ive followed directions perfectly but im still getting the serial key request even after shutting my router off.... help
+,gioaace,2011-10-01T23:22Z,i swear i followed directions and nothing i REPEAT nothing is doing the trick... wtf
+,timbard,2012-03-11T20:28Z,"If you are having issues with the serial number do this
+
+Open a CMD Prompt as an Admin (right click on CMD in the start menu and select ""run as administrator""
+
+Then paste this into the box  
+
+netsh advfirewall firewall add rule name=""Block Kalypso Grand Ages Rome"" dir=out profile=any remoteip=94.75.242.20 remoteport=40009 protocol=TCP action=block"

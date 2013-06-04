@@ -1,0 +1,106 @@
+~ EXPLANATION OF [twistle] TORRENTS : upd. 10.02.05 ~
+
+This isn't a non-torrent: if you DO download it, you'll get a yummy piece of music (Chopin - Nocturne 20 in C#m, arranged for violin and piano (live recording) in MP3), but it's more a way of adding a Q&A about me and my uploads to my listing without adding this info to the description (or content) of each and every torrent I upload (I'll provide a link to this torrent description instead).  I may occasionally update the text below (and change the date in the title to reflect that).
+
+I've received a couple of emails recently asking me why I have files named or tagged a certain way, or why I don't use particular formats, or why I do or don't include certain files, etc.  The following is an attempt to answer those questions.
+
+~~ WHO? ~~
+
+Secret!  But I am, obviously, keen on music, and own a sizeable CD collection from which I select bits to upload via torrents.  I have also been involved with p2p, in its various facets, since before the days of Napster.
+
+~~ WHY? ~~
+
+My own interest in music came from a large box of borrowed and copied cassette tapes, many years ago, and I would like others to make similar discoveries.  However I do not consider access to our musical heritage to be something that should be made possible only through lots of $$$ (even though I expect and believe that those who develop an interest in music will want to spend those $$$ furthering their listening interests).  
+
+Everyone should be able to enjoy music in the same way that they can, if they wish, enjoy for free the classics of literature (via Project Guttenburg, etc).  The problem is that music requires performers, performers/labels "reset" the copyright dates, and the music gets locked up behind never-ending rights issues.  There is currently no sensible way around this, therefore I work to a certain compromise: I provide the music, but no covers or scans or cue sheets (if you want the premium product, go pay for it - it's only the music that needs freeing!).  Maybe oneday the ridiculous 70/90/whatever year copyright periods will be reduced to a term that respects the public as much as profits. We can dream ...
+
+~~ WHAT? ~~
+
+Any Classical music - under the broad definition of the term - but tend to be interested mainly in Early and Baroque periods, or anything more modern that is based upon the folksong tradition.  You will not find me uploading anything that has been done to death already, but I'll focus on the relatively obscure ~ I want my uploads to be new discoveries for people rather than yet more Four Seasons.
+
+~~ WHAT NOT? ~~
+
+I will not upload recent new releases, or current modern music, as I do actually consider that morally dubious (one exception was a Howard Goodall CD : Very popular, and complete junk.  People should only be persuaded to buy junk having had the opportunity to know what they are paying for). I will not upload from "ethical" independent labels unless it is for a specific purpose or because the music is completely obscure (this now includes Hyperion, who have their entire catalogue available in FLAC and MP3 formats at greatly discounted rates).  And I will generally de-list on 1337x and TPB any individual CDs that the owning label itself politely requests are removed (there have been 2 thusfar ...).
+
+~~ WHERE? ~~
+
+My current home is 1337x.org, but I keep a parallel listing on TPB.  I am also considering KickAssTorrents as a possible replacement to 1337x, and a full listing will be found there too.  All my uploads originally had the [twistle] tag.  It has been suggested that I ought be interested in private trackers, but this is not for me: our shared musical heritage needs to be freed, and the biggest audience is on public sites (in any case, I do not have the bandwidth to satisfy "Uploader" requirements on private sites).  Frankly, bittorrent isn't particularly good for Classical music: I'm not here because there are not better alternatives, but because so many people have not found those alternatives.
+
+~~ TRACKERS? ~~
+
+This has changed somewhat over the years.  Currently use nemesis at 1337x as announce, genesis at 1337x as a non-port-80 alternative, and openbittorrent as a major public "backup".  But of course many index sites, including TPB, like to meddle with the trackers contained in an uploaded torrent file.
+
+~~ SEEDING! ~~
+
+My bandwidth is maxed 24/7.  I try to keep alive all torrents, even if that means a very slow upload per torrent.  If I decide a particular torrent is more trouble than it is worth to keep alive, I will delete its listing on 1337x and TPB, otherwise you can queue it even if it appears "dead" in the knowledge that it WILL spring back to life before too long.  
+
+Some requests: 
+a) If you can seed a bit, please do. If you cant, well its the thought that counts :) 
+
+b) If you want a torrent fast, and are not prepared to potentially wait for it to complete before you cancel it and move elsewhere, kindly do not start the download!  Its a waste of everyone's precious bandwidth. 
+
+c) Do not decide you want to download all of my torrents at once! If I notice, this will get you stuck on a blocklist, as I assume that you are some sort of bot or a hardcore leech!  3/4/5 at a time is fine, though.
+
+~~ FORMATS - WHY? ~~
+
+In almost all cases, I will rip from a CD that I personally own.  Therefore I have full control over the parameters used for a particular torrent.
+
+The only lossless format that I will include in torrents is FLAC, because a) its open source b) Its better supported than alternatives (ALAC/APE) c) it's what I started with, and there is no real benefit in change.
+
+Generally, though, I'll keep away from FLAC torrents because a) High-Quality lossy formats sound absolutely no different to lossless (see the ABX test results on HydrogenAudio forums, if you want some demonstration of that), but are much smaller and thus b) keeping an 80Mb torrent alive is much easier than keeping a 300Mb one alive thus c) I can provide more torrents in total if I upload lossy bits instead of FLAC.
+
+Instead, I'll usually upload in OGG Vorbis (or, rather, aoTuV till the optimisations are incorporated into the official Vorbis libraries).  I will use a quality setting of between q6 and q8, depending upon the complexity of the music, to ensure that that the end result of the compression will be transparent.  OGG Vorbis is free, fully supported under Windows/Linux/Mac, and is supported by quite a few portable devices.  OGG Vorbis is better than MP3 for many reasons, not least the fact that OGG supports seamless joining of separate tracks and offers much better fidelity for a given bitrate than MP3.  If you absolutely need MP3 (or some other format) for your portable device, then q6 OGG should be sufficient for transcoding the OGG to 128Kb/s MP3 (ie plenty for general portable use).
+
+I include an MD5 checksum file in all torrents. This is useful for two reasons: a) Enables downloaders to see which files are, for whatever reason, different or corrupt to the originals without having to check in their torrent client. b) Handy for spotting silent corruption, especially on optical backups of the music or where a drive restore has had to be performed (eg. via GDB).
+
+~~ FORMATS - HOW? ~~
+
+FLAC will not play by default on WMP.  Codecs available here : 
+http://flac.sourceforge.net/download.html
+
+OGG will not play by default in most older players.  Codecs available here :
+http://www.vorbis.com/
+
+MD5 files can be used with the freeware HashCheck shell extension here : 
+http://code.kliu.org/hashcheck/
+
+~~ TAGGING ~~
+
+Due to the age of a good chunk of my collection, I have carried on the tagging scheme that I was forced to adhere to when there was little alternative to ID3v1 tags, although I now disregard the old limits on field length.  
+
+%title% : Title of the work
+%artist% : The Composer.  OR trad(country) for traditional/folk music.
+%date% : Approx date of composition 
+%track% : Zero-padded track number.
+%genre% : Generally always "Classical", to ensure compatibility.
+%discnumber% : Only on multi-CD sets, else null.
+%comment% : The performers.  Generally in format "Soloists / Ensemble / Conductor"
+%album% : Generally in format "Composer - CD title (Label)"
+
+On the more recent OGG torrents, track and album gain are calculated and included in the tags (using vorbisgain -a).
+No artwork is included in tags (as it is poorly supported, apart from anything else).
+
+~~ SO WHAT? ~~
+
+The layout is consistent across all my torrents, but will differ from that provided by external tagging services (freeDB based / Gracenote).  If you use an external tagging service, you are not assured accurate tags (I can guarantee my tags are accurate to the CD box, unless I "know better").  You will be unable to continue to seed (it changes the files, therefore you no longer possess an exact copy), and your MD5 file will no longer correspond to the files you possess.  You will lose the old IDv1 compatibility.  
+
+~~ FILE NAMES ~~
+
+I try to keep a common format for all filenames : 
+%album% (Label - ID)  %discnumber%-%track% %artist% - %title%
+where ID is optional info identifying the particular recording (eg, Karajan56, AAM, Pinnock etc)
+
+This is not always possible, such as when there is no specific title to a CD, or when a particular ensemble is performing its own compositions or arrangements.
+I will never upload FLAC+CUE of an entire CD in one file: this prevents selective downloading and searching of tracks.  
+
+~~ SO WHAT? ~~
+
+You can easily search your drive for particular music using windows Find or (better) a tiny program called Everything Search (http://www.voidtools.com/), as most of the relevant info is in the filename rather than only within the tags inside the file.
+
+~~ REQUESTS? ~~
+
+Always open to ideas.  Let me know!
+
+~~ CONTACT? ~~
+
+Feel free!  Either via a PM on 1337x.org (you will need to register there first, though), via email : twistles (at) hushmail com, or as a comment to THIS torrent.  If you write under other torrents, that's great, but I may take a long time to notice :)

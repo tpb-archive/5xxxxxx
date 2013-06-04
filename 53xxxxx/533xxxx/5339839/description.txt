@@ -1,0 +1,117 @@
+---------------------------
+| T V  S H O W information|
+---------------------------
+  Title................................: Haibane Renmei
+  International title(s)...............: Charcoal Feather Federation
+  Director.............................: Tomokazu Tokoro
+  Release year.........................: 2002
+  Language.............................: Japanese
+  Runtime..............................: USA:25 min 
+  Genre................................: Animation | Drama | Fantasy more
+  Color................................: Color 
+  IMDb rating..........................: 8.8
+  Link 1...............................: http://www.imdb.com/title/tt0380113/
+  Studio...............................: Radix
+  Subtitles............................: Yes
+  Source (DVD/DVDR 5,9)................: DVD 5
+  Total TV Show's files size...........: 5.51 GB
+
+-------------------
+| Video Attribute |
+-------------------
+  Video compression mode...............: x264 AVC 2200kbps
+  TV system (NTSC/PAL).................: NTSC
+  Aspect ratio.........................: 16:9
+  Source picture resolution............: 1280x720
+  Frame rate...........................: 29.97
+
+-------- Subpicture attributes --------
+  Number of subtitles..................: 2
+  Subtitle language/s..................: English (Names and Titles), English (Full Subtitles)
+
+-------------------
+| Audio Attribute |
+-------------------
+  Audio coding mode....................: FAAC
+  Sampling rate........................: 48kHz
+  Number of audio channels.............: 2
+  Bitrate..............................: 192 kbps ABR (adaptable bit rate)
+  Number of audio streams..............: 2
+  Audio stream language/s..............: English, Japanese
+
+-------------------
+| RIP Information |
+-------------------
+  Video (Untouched/Re-encoded-%).......: Re-encoded
+  Audio (Untouched/Stripped)...........: Untouched
+  Menus (Untouched/Stripped)...........: Stripped
+  Extras (Untouched/Stripped/N/A)......: Stripped
+  Subtitles (Untouched/Stripped/Added).: Added
+
+--------------------
+| Post Information |
+--------------------
+  Posted by............................: QuackMasterDan
+  File validation......................: SFV (13 Episodes)
+  Number of files......................: 20
+  Total files size.....................: 5.50GB
+  Date of post (d.m.y).................: 26.1.2010
+  Posted to............................: The Pirate Bay, Demonoid,
+  Re-posting policy....................: Feel free, just include my NFO file.
+
+----------------
+| Plot summary |
+----------------
+A young woman quietly falls to the earth, escorted by a solitary crow. This sort of dream, as many others before have dreamed, comes just before being reborn as a Haibane, a charcoal-winged angel. On the outskirts of the walled-in city lies Old Home, a haven for Haibane to study, live, and learn, while waiting for their chance to ascend to the heavens and escape the confines of their new world. Rakka is the newest inhabitant of Old Home who wants nothing more than to remember her past and discover the secrets of her kind. Together with Reki, Kuu and plenty of other new friends, Rakka will laugh, explore, and search for the meaning of their existence in the process.
+
+----------------
+| Release note |
+----------------
+All MKVs work flawlessly (video, subs, audio, chapters) in VLC (1.0.3), SMPlayer (0.6.8 SVNr3213), and Media Player Classic (1.3.249) with CCCP on Win XP 32-bit SP3. 
+
+VLC playback is flawless on Win 7 64-bit. Win 7 Ultimate 64-bit has non-showing subs in MPC and flashing on full-screen SMPlayer (these are both likely just program settings, since at this time neither MPC or SMPlayer has a Win7 64 bit release). 
+
+Raw VOBS and IFOs extracted from DVD5s with DVD Decrypter
+
+De-muxed with meGUI v0.3.3.0
+    Video: MPEG2 720x480 (16:9) -> RAW AVI (each volume made a ~45GB file)
+    Audio: AC3 192kbps CBR- > AC3 (each volume made a ~140MB file)
+
+Processed through meGUI v0.3.3.0 with AviSynth 
+    Video:    1280x720p x264 2200kbps 2 pass
+        High Profile, Unrestricted AVC Level
+        Upscaled with Multi hex, 06 Subpixel Refinement, using Spine36resize, Minimal noise
+    Audio:     FAAC ABR 192kbps, original channels
+        Two language tracks
+            English Dub (Default Enabled)
+            Japanese Dub (Default Disabled)
+        
+meGui Command Line Settings for VOB Encoding:
+program --profile high --pass 2 --bitrate 2200 --stats ".stats" --thread-input --deblock 1:2 --b-pyramid normal --ref 5 --me umh --subme 6 --output "output" "input
+
+SubRip trained via OCR to extract Subtitles
+    Two embedded .srt files:
+        English, Episode Names and Titles (Default enabled)
+        English, Full Subtitles (Default disabled)
+
+Custom chapter files created for end of introduction and credits.
+
+Muxed with MKVMerge GUI v3.1.0
+    Merged AVIs, FAACs, SRTs, Chapter timecode TXTs; split to files via timecoding.
+
+DVD Box Cover Images are taken from Cdcovers.cc
+
+Created 23-26 January 2010 by QuackMasterDan
+
+---------------
+| Ripper note |
+---------------
+Upon looking at various BT sites I was unable to find a 720p version of Haibane Renmei, as Geneon (Pioneer) has only released a 480p DVD box set for consumers. Though there is much criticism on upscaling source footage to higher resolutions, this release was a learning project for me to minimize artifacts and properly optimize encoding times for just such an upscale. I managed to obtain the DVDs from a friend, retailing at $180, giving me the opportunity to work on DVD files rather than simply an already re-encoded release.
+
+I wanted to learn every step that many release groups go through for this project, so I taught myself much, including demuxing, optimal video and audio encoding methods, creating subtitles, chapter markings, properly merging metadata, and muxing MKVs and MP4s (not used for this release as MKV was more flexible).
+
+Getting a new computer with three 1TB drives, a Quad-Core Intel i7 920 2.66Ghz, and 6GB RAM helped motivate me to test my system.
+
+I greatly enjoy this anime, and am a great fan of Yoshitoshi ABe's works including Serial Experiments Lain and Welcome to the N.H.K. Haibane Renmei is more of a psychological series than action or drama oriented. Out of the thirteen episodes, the first five serve to build the settings and characters in the show, so if you find it rather slow, it picks up at episode six through the end. The first time I watched Haibane Renmei I was greatly moved by it, and have thought upon it much. The fictional countryside of Glie serves very well in applying salvation, forgiveness, punishment, redemption, and growth to one's own life. I hope you enjoy watching one of ABe's masterpieces as much as I have.
+
+-QMDMQ

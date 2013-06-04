@@ -1,0 +1,40 @@
+Need For Speed 2 SE iso plus glide wrapper
+
+(The Glide Wrapper included is the Zechensack wrapper that I have found to be the most complete glide wrapper which also supports a wide range of other glide games) 
+
+Using the Glide Wrapper to run this game you're basically running a emulator with the wrapper emulating the glide instruction set for the game and making the translation to D3d for the graphics hardware to understand. So basically the faster your system the better this will run.
+
+With NeedForSpeedIISE to run the game in 3DFX mode you need to locate the NFS2SEA.exe on the CD and copy it to the games main directory this is after you have finished installing the game and then use this to run the game. Using the games default exe in the start menu or desktop icon will run the game without 3d acceleration. Also if you are running this game on anything other than a 3DFX graphics card you will need the Glide Wrapper to run the game in 3D accelerated mode. 
+ 
+In XP/Vista run NFS2SEA.exe in 95 or 98/ME compatibility mode
+In Vista also set NFS2SEA.exe to run as Administrator
+to access these options right click on the NFS2SEA.exe and select Properties then select Compatibility tab and tick/select options required...
+
+
+If you'd like the game to run faster then you could try using the Compatibility Administrator, download the Microsoft Compatibility toolkit 5.0 from here....
+ 
+http://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971&displaylang=en
+
+Run Compatibility Administrator from Start Menu.
+Go to Custom Database / New Database.
+Click 'Fix' button.
+Type the name of the game, vendor, and browse to NFS2SEA.EXE file. If it is not in NFS2SE folder on your hard drive yet, then copy it manually from CD.
+Click Next, Select None, Next.
+Toggle following positions on:
+
+- EmulateSlowCPU <-Optional
+- CorrectFilePath
+- EmulateGetDiskFreeSpace <-This fixes insufficent memory error
+- GlobalMemoryStatusLie <-and so does this
+- SingleProcAffinity <-This is the Multi processor fix
+
+Click Next, Finish.
+Save your database preferably in game directory.
+Now click on NFS2SEA.EXE file in the right panel of Compatibility Administrator. Click Run button. The game should start.
+
+If you want to play the game again you'll need to run Compatibility Administrator again, load your database, click on NFS2SEA.EXE file and Run button. Also Running the game this way does seem to cause some sound corruption.. (I think this is more a issue with the games internal timings than anything) But you do get a faster frame rate than with 95 compatibility but sadly the game is also less stable.. and slightly prone to crashes..though I'd have thought EmulateSlowCPU fix would have fixed this...
+
+
+But i have found Compatibility Administrator to be a bit of a fiddle and 95 & 98/ME compatibility options quicker to use, plus they already have the games fixes incorporated, in the 95 compatibility the frame rate is slower but there isn't any sound corruption and the game doesn't crash, 98/ME compatibility has a faster frame rate but there is slight sound corruption but still doesn't crash..
+
+When you goto close the game it may throw a error up but this is to do with the way the wrapper handles the games window...

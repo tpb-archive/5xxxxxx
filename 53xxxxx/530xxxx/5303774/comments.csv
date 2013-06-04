@@ -1,0 +1,21 @@
+User Type,Username,Date,Text
+,notisfudas,2010-02-03T10:13Z,very nice idea
+,Olroch,2010-03-01T18:41Z,not working in win7 home 64
+,hilux94,2010-03-06T15:41Z,"Downloaded well, mounted it w deamon, intalled well.  However when tried to open file in weswood, it says insert cd in drive.  How do I bypass this?"
+,Saduff,2010-03-13T20:18Z,"@hilux94
+
+When you mount the .iso, then it still tells you to insert the CD, because a function in the program gets the first CD-ROM drive you have. For example, if your real CD-ROM drive is D:\ and your virtual drive is E:\, then it would still tell you to insert the CD, because D comes before E. If you change the drive letters, it will work, I've tried it, but I have provided a workaround for this. My modified ""MONOPOLY.EXE"" will make the game load the required files from your HDD.
+
+I guess you can call it a nocd crack. Here it is:
+
+http://pastebay.com/89314
+(Can't post the link directly, TPB doesn't let me.
+The link above contains the download link.)
+
+But please follow these instructions or you won't get it to work:
+
+1. You must mount the .iso and copy everything from the ""MONOPOLY"" folder to where you installed the game. Overwrite all folders/files.
+2. Download my modified/cracked ""MONOPOLY.EXE"" from the link above.
+3. Move it to the folder where you installed the game and overwrite the original ""MONOPOLY.EXE"".
+4. The game should work fine now and shouldn't ask for the CD. :)
+5. Enjoy. :) "

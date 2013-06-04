@@ -1,0 +1,14 @@
+Here Guys this contains all the savegames ...just extract and copy the contents of folder SAVE to the game directory
+..
+for others having a problem like this :-
+"Unable yo get IFileSystem interface from FileSystem factory"
+just modify the game shortcut file's compatibility to Windpws XP
+
+
+and for those having directx related problems try adding this line to the shortcut
+
+Copy and paste
++matforcehardwaresync 0 +sndasyncprefetchpriority 1 
+in the target line, in the games shortcut
+It should look like this exactly: 
+"C:Half-Life 2hl2.exe" -steam-console +matforcehardwaresync 0 sndasyncprefetchpriority 1 If you still get the error when quitting the game just ignore it, it will still save.

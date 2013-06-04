@@ -1,0 +1,22 @@
+User Type,Username,Date,Text
+,Simon2672,2010-02-07T18:54Z,"thanks for the upload.
+What is this new unlocking mechanism? Is it better or worse than the earlier one?"
+[T],Nincsenex,2010-02-07T20:18Z,"Better or worse?
+Depends for who.
+From now you will be not able to unlock new maps, like CN Eu 2010.30 with the 25 chars long key in MapSource.
+These new maps are only unlocked when installation is performed via setup.exe (not the .msi method).
+This way a GPS has to be connected to your PC and the PC have to be online so Garmin can check if you are installing it legaly, if yes a CNEUNT2010.30.gma certificate file will be created. MapSource will check for the CNEUNT2010.30.gma file, and if it can't find it it will not unlock the new maps.
+This is true for new maps only!
+
+Workaround: You can still use older MapSource.exe, like the 6.15.7 version."
+,brianxxx,2010-02-08T15:35Z,THANK YOU!
+,ali87sa,2010-06-11T23:47Z,"Dear Nincsenex,
+
+MapSource 6.16.1 is already out, will we ever be able to use it to unlock the latest 2011 maps?
+
+Some users are reporting issues when using the latest maps with an old MapSource, Garmin has fixed those issues in their recent MapSource updates.
+
+Will you be able to upload City Navigator NT Middle East 2011 maps? :) Thanks!"
+[T],Nincsenex,2010-07-03T23:03Z,"@ali87sa:
+
+See post regarding MapSource 6.16.2 Special"

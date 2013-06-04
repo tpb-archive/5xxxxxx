@@ -1,0 +1,37 @@
+This is a compilation of the Clannad VN, the English patch, the Voice patch, and instructions for combining them all.
+
+The torrent was not created originally by me. I found it here: post 548
+http://www.hongfire.com/forum/showthread.php?t=77237&p=2031509#post2031509
+
+The English patch is version .94
+I severely doubt we will be seeing a new version of the patch, as it was last updated in 2008.
+The only things that are not translated are some menus, and a few *rare* words of text (usually names).
+
+
+
+Instructions:
+
+Note:  The Audio Patch requires some updates to the gameexe.ini file in the Clannad folder. The seen.txt file also needs to be updated if you want the english language text through the game and afterstory.  Following these steps should give you a working installation.
+
+Step 1:  Make sure that your pc has the appropriate Japanese language support files installed and that your default non-unicode language is set to Japanese.
+
+Step 2:  Mount the Clannad.cdi disc image using daemon tools or virtual cd. (extracted from the Clannad-cdi.rar file).
+
+Step 3:  Do the full Clannad installation.  
+
+Step 4:  Make a backup copy of the seen.txt and gameexe.ini files from the clannad installation directory (typically c:keyClannad)
+
+Step 5:  Extract the Voice and text patch files, then copy them to the Clannad directory.  You can keep the directory structure of the source files, so you should overwrite the existing gameexe.ini and seen.txt files, as well as creating a new folder named koe that will contain the voice resource files.  Basically, just copy the contents of the clannad_patch folder to the c:keyclannad directory, overwriting files as needed.
+
+
+
+The files in this package are a compilation of various items I found on the net.  They represent a tremendous amount of work for which I cannot take any credit. Unfortunately, I found them unsourced, so I can only offer my respect and gratitude to those anonymous souls, wherever they may be.  
+
+
+
+There is a walkthrough available here!:
+http://www.hongfire.com/forum/attachment.php?attachmentid=142085&d=1259554020
+
+I recommend you don't look at it the first time you play through. It is very useful after the first playthrough though, to help you complete all of the routes.
+
+Have fun!

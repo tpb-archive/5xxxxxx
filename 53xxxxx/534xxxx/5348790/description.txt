@@ -1,0 +1,49 @@
+Format : AVI
+Format/Info : Audio Video Interleave
+File size : 698 MiB
+Duration : 1h 36mn
+Overall bit rate : 1 015 Kbps
+Movie name : Police Story
+Director : SolarBurn
+Subject : Police Story
+Writing application : Nandub v1.0rc2
+Writing library : Nandub build 1852/release
+Copyright : MEDiAMANiACS
+Comment : 140lbs of pimp
+
+   Video #0
+
+      ID : 0
+      Format : MPEG-4 Visual
+      Codec ID : DIV3
+      Codec ID/Hint : DivX 3 Low
+      Duration : 1h 36mn
+      Bit rate : 870 Kbps
+      Width : 592 pixels
+      Height : 224 pixels
+      Display aspect ratio : 2.643
+      Frame rate : 25.000 fps
+      Resolution : 24 bits
+      Bits/(Pixel*Frame) : 0.263
+      Stream size : 599 MiB (86%)
+
+   Audio #1
+
+      ID : 1
+      Format : MPEG Audio
+      Format version : Version 1
+      Format profile : Layer 3
+      Codec ID : 55
+      Codec ID/Hint : MP3
+      Duration : 1h 36mn
+      Bit rate mode : Variable
+      Bit rate : 132 Kbps
+      Channel(s) : 2 channels
+      Sampling rate : 48.0 KHz
+      Resolution : 16 bits
+      Stream size : 90.5 MiB (13%)
+      Alignment : Aligned on interleaves
+      Interleave, duration : 24 ms (0.60 video frame)
+      Interleave, preload duration : 449 ms
+      Writing library : LAME3.90a
+      Encoding settings : -m j -V 7 -q 1 --vbr-new

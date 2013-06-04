@@ -1,0 +1,41 @@
+User Type,Username,Date,Text
+,tpsnoopbot,2010-02-23T10:29Z,"guys i really need help im desperate, i download this game, then i extract both disk 1 & 2 then i mount both disk 1 and 2.., great the game started then after the video the game crash and a message saying ERROR- dont send - send- help me plz i wanna play this game... help!!!"
+,Soda-88,2010-02-25T20:07Z,"tpsnoopbot, did you mount original image on the same device from which you installed the game?"
+,tpsnoopbot,2010-02-26T17:01Z,"soda-88, want original image u mean? hehehe... im kinda dumb at this... just mount the cd and only the cd... =)"
+,Soda-88,2010-02-26T23:24Z,"original image is the bigger one in mds format, retaining the cd copy protection
+
+you are supposed to install the game from the smaller one (.iso), then mount the bigger one (.mds) on same drive to play"
+,Hannibal0303,2010-03-07T11:18Z,"I'm having the same problem as tpsnoopbot.
+I run it in windows xp. Tried it in compatibility mode for win 95 and win 98. As soon as I hit Esc or after the intro movie it crashes and I get the send/don't send message."
+,Soda-88,2010-03-07T18:31Z,"Hannibal0303, you're not supposed to run it in compatibility mode
+
+i'm not sure if this will help, but since both of you get crashes when the intro video is supposed to play, try downloading GSpot (http://www.headbands.com/gspot/) and see if you got codecs used by commandos videos installed properly (cd\COMANDOS\VIDEO); just drag and drop 1 of the videos in gspot http://img517.imageshack.us/img517/752/77362297.jpg"
+,Soda-88,2010-03-07T18:37Z,"also, another solution i came up with is to replace COMANDOS.exe in installed folder with original 1.0 version from original cd (bigger image in mds format; cd\COMANDOS\comandos.exe; 2.469.376 bytes); 1.1 version is 2.469.888 bytes (make sure you check under 'size' and not 'size on disk' under file properties)"
+,umarnawazkhan,2010-03-21T02:19Z,"is this working? i got windows 7 64 bit...
+i can see people have problems..has any1 sorted it out yet?
+
+i tryed Commandos - Behind Enemy Lines (direct play) but was running to fast..and i couldn't save or load the game..."
+,pewpew7,2010-03-28T23:35Z,"That's a great upload, I love that it finally remembers the resolution. 
+Is there anyway to play it without mounting the image though? I tried copying the videos but it didn't work. When I launch the game without mounting the image I get a black screen and I have to ctrl-alt-del (with both versions of the .exe). 
+Thanks!"
+,pewpew7,2010-04-02T10:37Z,"ok, found a way to play without mounting any image, and with the in-game videos. it was simple:
+-unzip and mount CBELDISC1.iso, install game
+-on winxp, go to start->run, and type ""regedit""
+-go to ""HKEY_LOCAL_MACHINE -> SOFTWARE -> Pyro -> Commandos -> 1.0""
+-right click ""modify"" on the ""DirIns"" key. Dont modify it, just copy the full line.
+-right click ""modify"" on the ""DirCd"" key, delete the current line, and paste the full line from ""DirIns""
+-Close registry editor and start the game without mounting a cd :)
+
+If you want the videos, unzip and mound CBELDISC2.iso. Copy the full ""VIDEO"" folder to your main ""Commandos, Behind Enemy Lines"" folder.
+
+The same method works for Commandos beyond the call of duty by the same uploader. The folder for the reg key is ""1.0MP"""
+,eran84,2010-05-04T09:57Z,"I'm using Windows 7, and when I use the MDS file, I can hear the videos but can't see anything so I'm forced the shut the software down through task manager. 
+If I use the ISO, I can't see the videos or play the tutorials. 
+I tried all the tips mentioned here... 
+Any advice? "
+,motley666,2010-06-12T13:43Z,"Thanks for your efforts, it works fine on xp."
+,Su_BlackWolf,2010-06-23T18:37Z,"I`m having the same trouble that eran84.
+Can hera the sound but can`t see the videos...
+already tried everything...someone know how to fix this?"
+,thangdut,2010-12-29T11:20Z,i had the same problem as tpsnoopbot. The game crashed right after the intro video of stage 1. i found a solution: just skip the 1st stage. type the password for the 2nd stage (4JJXB). hope this helps.
+,shyam0507,2012-02-23T16:51Z,uncheck the windowed option in the game launcher

@@ -1,0 +1,125 @@
+The ZIP file linked below  contains an image file that can be used to re-create a compact disk containing files to test and compare the performance of standard 1200 baud VHF packet radio TNCs under various conditions.
+
+This disk is a â€œCD-Extraâ€ combination disk that contains standard CD audio files playable on any normal home or car audio CD player or boombox, and CD-ROM data files (including a copy of this page) viewable on a computer. 
+
+The CD-ROM part of this disk should autorun and display a directory of files automatically when inserted into a computer optical drive.  The (hidden) audio part WILL NOT start playing automatically on a computer drive.   On a computer CD drive, right-click the CD drive icon in the Windows File Explorer or â€œMy Computerâ€ and choose â€œPlayâ€ to force the audio part of this disk to play. This should launch your default audio player application. 
+
+Playing back standard CD audio rather than CD-ROM .wav data files avoids the timing errors and incorrect playback sample rates that often accompany low-cost software-based (i.e. motherboard AC97) PC sound systems. It also avoids the mangling of data waveforms that may occur with MP3 or other lossy compression formats. 
+
+Note that some recent PC CD-drives now extract audio digitally rather than using the digital-to-analog converters inside the CD drive for audio playback; i.e. there is no separate analog audio output and cable from the CD drive to the computer sound system. Check the properties of the CD/DVD Drive in the Windows Device Manager. If a box for "Enable Digital CD Audio..." is checked, you have this kind of system.  In this case, take the audio directly from the front panel earphone jack of the drive rather than from the computer sound system, if possible. Again, the objective is to avoid the timing errors and out-of-tolerance audio playback sampling rates of cheap computer sound systems, if possible.
+
+The audio files could also be played on an old CD-ROM drive standalone, without a computer, by connecting the TNC under test to the drive's front panel earphone jack, or to the 4-pin analog audio jack on the drive's rear panel.  (A CD-ROM drive normally doesn't need computer support to play audio CDs.  A drive with a front panel volume control and track-select button is preferred.)
+
+To aid in selecting the cuts on a CD-ROM drive that lacks a front-panel track-number indicator, voice announcements and cue tones have been added to the beginning and end of each track.
+
+    Track 1 has a DTMF digit "1" at the beginning and a DTMF digit "6" at the end.
+
+    Track 2 has a DTMF digit "2" at the beginning and a DTMF digit "7" at the end.
+
+    Track 3 has a DTMF digit "3" at the beginning and a DTMF digit "8" at the end.
+
+    Track 4 has a DTMF digit "4" at the beginning and a DTMF digit "9" at the end.
+
+    Track 5 has a DTMF digit "5" at the beginning and a DTMF digit "0" at the end
+
+The differing digit values could possibly be used with a DTMF decoder to automatically start or stop data acquisition devices.
+
+Note that all these recordings are taken directly from the discriminator. Tracks 1, 3 and 4 are not de-emphasized. Track 2 is de-emphasized (see below). If you wish to evaluate how various TNCs behave when connected to a radio's speaker or headphone output (rather than directly to the discriminator such as from a 6-pin mini-DIN "data" jack.), you will have to insert an RC de-emphasis network between the CD player and the device under test. 
+
+For an excellent discussion on FM pre-emphasis and de-emphasis, and how it relates to packet operating and TNCs, visit this website:
+
+     http://www.febo.com/packet/layer-one/transmit.html
+
+NOTE: A very useful APRS program for this kind of testing is KH2Z's APRS+SA a.k.a "APRSplus" because it keeps a running count of the number of times each station has been heard. Thus one can easily compare the number of successful decodes different TNCs produce. Both track 3 and track 4 are recordings exclusively of a single callsign (WA8LMF), making this comparison of number of decodes very simple.
+The Tracks
+
+    *
+
+      Track 1 is an off-the-air recording of 40 minutes of activity on 144.39 MHz in Los Angeles, California, during the afternoon rush hour at about 5:00 PM when the channel is totally saturated to several hundred percent of the Aloha threshold. This recording was taken from the non-de-emphasized direct discriminator output of a Yaesu FT-1500 via the 6-pin mini-din data connector. It contains a variety of over- and under- deviated signals, packet collisions, rapid-fire packets with practically no pause between them, raw NMEA string trackers, TinyTraks, clueless idiots using CW ID on packet, etc. All periods of dead air over about 1 second have been edited out so that 40 minutes of real-life activity have been compressed to 25 minutes on the CD.
+
+      This track is intended to be played back directly into TNCs to compare the performance of various TNCs "under fire" in the real world . The rapid pace of the packets should be a good test of the ability of buffers in TNCs and associated applications to hand a rapid flow of data without overrunning.
+       
+    *
+
+      Track 2 is identical to Track 3 except that a precise 6db-per-octave/20db-per-decade de-emphasis between 300 and 3000 Hz has been applied to simulate the typical de-emphasis found at the volume control or speaker output of the typical land-mobile receiver. This can used to evaluate the relative performance of TNCs in handling raw non-deemphasized discriminator audio vs de-emphasized speaker audio. The effectiveness of jumper-selected equalization networks available inside some TNCs can also be tested. This track was created by applying the graphic equalizer filter in Adobe Audition set to simulate the standard EIA land-mobile radio de-emphasis curve. 
+
+    Note that a roll-off was also applied below about 200 Hz to simulate the typical highpass filtering used to keep CTCSS ("PL") tones out of the speaker of mobile radios.
+     
+
+    * Track 3 is a recording of a Kenwood D700 transceiver sending a Mic-E position report, taken from the wideband low-distortion discriminator output of an IFR1500 service monitor. The receiver was unsquelched and no de-emphasis was used. This recording of a single packet was then copied and pasted repeatedly in the Adobe Audition audio editor. The result is 20 bursts each minute, for 5 minutes, for a total of 100 absolutely identical packets.
+
+      This track is intended to modulate an RF signal generator, or the generator mode of a service monitor. Connect the CD player to the external modulation input of a generator, and set the playback level so that the data bursts deviate the generator about 3.5 KHz. Connect a radio's receive audio output to the TNC under test. Connect the RF generator to the radio's antenna input. While the recording is playing, gradually decrease the generator RF output level until the TNC starts failing to decode. Since the recording contains exactly 100 bursts, counting the number of successful decodes can directly indicate the percent success rate at various RF carrier levels.
+
+      Possible uses of this track:
+      1)     Compare different TNCs connected to the same radio.
+
+      2)     Connect the same TNC to different radios to compare the weak-signal data performance of various receivers.
+
+      3)     Evaluate the relative receive performance of audio taken from the radio's speaker versus audio taken from dedicated "data" or "packet" jacks or outputs. (De-emphasis and audio bandwidth may be different at these two sources.)
+       
+    * Track 4 is an off-air recording of 25 minutes of a single mobile D700 beaconing every 12 seconds (maximum beacon rate) on a quiet channel (no other stations) while driving around the San Gabriel Valley area of Los Angeles. The signals were monitored in Pasadena, California. Most of the drive test course was 8-10 miles from the fixed station, far enough away from the monitoring fixed station to create some mobile flutter, multipath and loss of quieting. In several stretches, several successive packets are audible on the recording but failed to decode with the AGW packet engine.
+
+      Again, this recording was taken from the non-de-emphasized direct discriminator output of a Yaesu FT-1500b via the 6-pin mini-din data connector. Click Here for a map of the route driven, produced with UIview32, Precision Mapping 7.1 and UI-HeightTrack (opens in new window).
+
+      This track is intended to be played back directly into TNCs under test. An APRS application running on a computer attached to the TNC should create a realistic moving object.
+
+ 
+
+The three following tracks are for TNC alignment rather than testing. They are intended to evaluate TNC demodulator tolerance to tone "skew" (unequal levels of the 1200 and 2200 Hz tones).
+
+    *
+
+      Track 5 is a direct recording of one minute of a KPC3+ TNC in the "CAL" mode sending the alternating 1/0 test pattern (i.e. alternating between 1200 and 2200 Hz tones) with both tones at the same amplitude.
+       
+    *
+
+      Track 6 is the same recording with a precise 6 dB/octave 20 dB/decade de-emphasis applied as in Track 3 above.
+       
+    *
+
+      Track 7 is the same recording with a mirror-image precise 6 dB/octave 20 dB/decade pre-emphasis applied. 
+
+ 
+
+ 
+
+ 
+File Download
+READ THIS FIRST !!!
+
+The image file contained in the download linked below produces a MIXED MODE disk that combines audio CD tracks and CD-ROM data trackes.
+
+    * This is not a normal CD_ROM.
+       
+    * This is not a normal audio CD.
+       
+    * It is a combination of the two.  When you place this disk in a computer CD drive, you will only see the CD-ROM data part of the disk.  The audio tracks will NOT show, and will NOT automatically start playing.  In Windows XP, right-click the icon for the CD drive in the Windows Explorer or "My Computer" and choose "Play" to force the disk to play in your default player.
+       
+    * The audio tracks should play automatically and normally in a car CD player, boombox or home stereo CD player.
+
+The files in the ZIP file download linked below are an image of an entire CD-ROM in the BIN/CUE format. It will re-create a compact disk containing files to test and compare the performance of standard 1200 baud VHF packet radio TNCs under various conditions. This file, like the more common .ISO file type, is a "snapshot" of an entire CD, sector by sector, captured into a single file.  [The standard .ISO CD-image-file format doesn't support the mixed-mode (part-audio-CD/part CD-ROM) format of this disk.]
+
+Many CD-recording applications, including Nero and CDRwin, can re-create a disk from this kind of file. You do not place the .BIN file in a list of files to be recorded as you typically do. Instead, pull down "File" from the menu bar, and look for something like "Record image file..." or "Make CD from image file...". Normally you point the program file select dialog at the .CUE file which is a text file containing information on the structure of the companion .BIN file.
+
+The original mixed-mode CD was created with the freeware program CD Burner XP available at:
+
+     http://cdburnerxp.se
+
+The image file was created from the physical CD with the freeware program ImgBurn available at:
+
+     http://www.imgburn.com
+
+This same program can be used to burn a new CD from the image file.  Both programs are also available from the high-volume download site for freeware and shareware:
+
+     http://filehippo.com 
+
+along with a huge variety of other useful utilities.
+
+WARNING!  This is a very large download (over 530 megabytes). It may take several hours even on a broadband connection, and days on a 56K dialup connection.
+
+If you would rather avoid the huge download, you can purchase a recorded CD and have it mailed to you.  The recorded CDs are being distributed by Argent Data, the online store of N1VG of OpenTracker fame.  Scott has also graciously offered to host the large CD image files, downloadable for free if you wish to make your own, on his Argentdata server.
+Click Here for ordering information.
+
+
+ 
+

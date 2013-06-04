@@ -1,0 +1,110 @@
+Windows 7 crack activator
+
+
+
+::::How to Crack::::
+::Run windows 7 loader and crack!!! simple:)) use offline please:))!::
+
+
+::::Version History::::
+Version 1.6.3
+* Fixed a missing serial issue caused by the new bios type detection feature
+* Fixed an issue which would cause the application to start hidden behind other windows
+
+Version 1.6.2
+* UAC control reworked
+* Changed the default loader to zsmin's
+* Bios type detection now assigns a SLIC, certificate and if possible a serial to match
+* Added leaked Dell Home Premium key
+
+Version 1.6.1
+* Fixed Windows Vista version detection
+* Added new Dell Windows 7 Professional key
+* Added new GRLDR beta 0.91 from zsmin
+
+Version 1.6
+* Fixed Windows version detection (name spaces were off)
+* Added support for Windows 7 Home Premium
+* Compressed the internals a litte so the executable size has been shaved just a little
+
+Version 1.5.9
+* Added new GRLDR beta 0.90 from zsmin
+* Fixed missing OS information on unsupported OS's
+
+Version 1.5.8
+* Keys and certificates now use internals when external files cannot be found (this means you can run just the executable as a standalone application)
+* Added future OS key support (via Keys.ini)
+* Changed how an unsupported OS is displayed
+* Added new GRLDR beta 8c from zsmin
+
+Version 1.5.7
+* Fixed unicode text string issue which caused activation to fail
+* Fixed title assignment for unsupported operating systems
+* Added new GRLDR beta 8b from zsmin
+
+Version 1.5.6
+* Full recode so that debugging is easier for me and performance and reliability is better for you
+* User interface redesigned for simplicity
+* Added new GRLDR beta 8 from zsmin (Thanks go to him)
+* Added external certificate support for bios modders
+* Added external key input support
+* Added argument support
+
+Version 1.5.5
+* Improved error handling even more
+* Rewrote drive mounting code (should fix the x64 mounting issue and letter assignment)
+* Mac users should now automatically have the experimental loader option selected for them
+* Tweaked UI layout just a little (width was off)
+* Fixed other minor issues
+
+Version 1.5.4
+* Tweaked free drive letter handling just a little
+* Corrected a typo on the experimental loader option
+* Corrected Windows Vista version ID
+
+Version 1.5.3
+* Fixed a rare issue that would select a network drive as a free drive letter
+* Performing an uninstall now restores to the default Windows 7/Vista bootsect (wasn't required, but some machines need this!)
+* Performing an uninstall now inserts trial keys so you will have x amount of days remaining (On Windows 7)
+* Upgraded support for error handling (errors get logged to the system event viewer)
+* The loader window will now start centered when launched
+* Added a custom file icon (Thanks to my friend Logie)
+* Added support for Starter, HomeBasicN and BusinessN versions of Windows Vista
+* Upgraded experimental GRLDR to beta 6 (Thanks to zsmin)
+* Added another GRLDR for older Dell and HP machines to try (the older loader option)
+* Cleaned up code in general
+
+Version 1.5.2
+* Fixed a rare issue which could cause a nil object exception
+* The window title will now change to a more suiting "Windows Vista Loader v1.5.2 - By Daz" when run on Windows Vista
+
+Version 1.5.1
+* Updated GRLDR v0.4.4 to beta version 4 (Thanks to zsmin)
+
+Version 1.5
+* Fix to prevent hangs at boot when each OS needs it's own active partition exclusive while other primaries are set to hidden. Every other loader has this bug! (Thanks to endeavor for working with me to fix this issue)
+* Can now activate both Windows 7 and Windows Vista, just run the loader on either OS
+* Optional new beta GRLDR v0.4.4 can be used on Mac or Windows (New GRLDR created by zsmin, boots Windows 7 on a Mac much faster)
+* Updates to GRLDR v0.4.4 to become dynamic and allow slic change
+* Fixed UI font sizes for users who have changed their system font
+
+Version 1.4
+* Added x64 support
+* Drive letter assignment is now automatic
+* Changed how the key input is handled
+* Made UI a little more user friendly
+
+Version 1.3
+* Added brand support to the loader creator
+* Added certificate and serial install only for bios modded users
+* Added new Ultimate and Professional keys
+* The loader now automatically displays keys only for your installed version of Windows 7
+
+Version 1.2
+* UAC settings modified in manifest
+* Added future support for Windows 7 Professional
+
+Version 1.1
+* Silent certificate and key installs
+* Fixed file overwriting issue
+* Lists some BIOS information

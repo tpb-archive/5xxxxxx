@@ -1,0 +1,81 @@
+Exact Audio Copy V0.99 prebeta 3 from 28. July 2007
+
+EAC extraction logfile from 30. July 2009, 22:51
+
+VA / Moments Vol. 2 Mixed By Anthony Pappa Disc 1
+
+Used drive  : TSSTcorpCD/DVDW TS-H552L   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 6
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 1024 kBit/s
+Quality                         : High
+Add ID3 tag                     : Yes
+Command line compressor         : C:Program FilesExact Audio CopyFLACFLAC.EXE
+Additional command line options : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  6:50.16 |         0    |    30765   
+        2  |  6:50.16 |  4:43.48 |     30766    |    52038   
+        3  | 11:33.64 |  4:10.46 |     52039    |    70834   
+        4  | 15:44.35 |  6:38.33 |     70835    |   100717   
+        5  | 22:22.68 |  4:09.04 |    100718    |   119396   
+        6  | 26:31.72 |  5:11.71 |    119397    |   142792   
+        7  | 31:43.68 |  5:54.61 |    142793    |   169403   
+        8  | 37:38.54 |  5:48.71 |    169404    |   195574   
+        9  | 43:27.50 |  3:36.57 |    195575    |   211831   
+       10  | 47:04.32 |  6:52.55 |    211832    |   242786   
+       11  | 53:57.12 |  4:13.12 |    242787    |   261773   
+       12  | 58:10.24 |  6:51.11 |    261774    |   292609   
+       13  | 65:01.35 |  7:12.35 |    292610    |   325044   
+
+
+Range status and errors
+
+Selected range
+
+     Filename E: 1-va_-_moments_vol_2_mixed_by_anthony_pappa-cd1-gstar.wav
+
+     Peak level 98.8 %
+     Range quality 100.0 %
+     Test CRC 893D8936
+     Copy CRC 893D8936
+     Copy OK
+
+No errors occurred
+
+ 
+AccurateRip summary
+ 
+Track  1  not present in database
+Track  2  not present in database
+Track  3  not present in database
+Track  4  not present in database
+Track  5  not present in database
+Track  6  not present in database
+Track  7  not present in database
+Track  8  not present in database
+Track  9  not present in database
+Track 10  not present in database
+Track 11  not present in database
+Track 12  not present in database
+Track 13  not present in database
+ 
+None of the tracks are present in the AccurateRip database
+
+End of status report

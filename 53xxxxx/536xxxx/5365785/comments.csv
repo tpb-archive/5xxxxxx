@@ -1,0 +1,119 @@
+User Type,Username,Date,Text
+,iloveu2mch,2010-04-25T22:43Z,"rieving
+
+C:\Users\\Desktop\all-nier.dvd is valid
+
+Checking Game
+     ISO: ""C:\Users\RAJUN\Desktop\all-nier.iso""
+     Size: 7838695424 bytes (larger than normal)
+     Files in ISO: 4, Folders in ISO: 0
+     Total bytes used: 9646080 (0.13%)
+     ISO appears to have random padding
+     XEX Media ID: FC9B0E7A9995DE49C15719A0-507D2720
+     XEX CRC = 175BEC5A
+
+Checking Game CRC... (press Q to cancel)
+ Percent  Elapsed  Estimated   Time     Average     Current     Errors    Total
+    Done     Time       Time   Left       Speed       Speed  Recovered  Retries
+    100%     3:41       3:41   0:00   31.5 MB/s   48.9 MB/s
+
+     AnyDVD style corruption was not detected
+     Game CRC = BB4D9773
+
+Region Code: 0x00FF00FF
+     PAL
+     NTSC/U
+
+Checking SS
+     Timestamp of Authoring: 2010/03/05 00:00:00
+     Timestamp of Mastering: 2010/03/25 16:40:21
+     SS CRC = BD78F375 (RawSS = A614F373)
+     SS Media ID: FC9B0E7A9995DE49C15719A0-507D2720 (matches game)
+SS looks valid
+
+Checking DMI
+     Timestamp of Authoring: 2010/03/05 00:00:00 (matches SS)
+     DMI CRC = 2BD3F6F2
+     DMI Media ID: FC9B0E7A9995DE49C15719A0-507D2720 (matches game)
+DMI looks valid
+
+Checking PFI
+     PFI CRC = 05C6C409
+PFI does not match known data (could be corrupt or a new wave not seen before)
+Displaying suspicious PFI in hex and ascii:
+
+Video partition found
+Video volume space size and size of PFI data area do not match!
+Cannot check padding due to invalid or uncertain PFI/Video
+     Video CRC = F95C55C1 (V0 & V1 skipped due to non-matching or absent PFI)
+Video partition does not match known data but neither did PFI
+
+Stealth status is uncertain
+
+Verifying this game against the online database...
+One or more CRC requirements for Verification were not met, cannot continue
+Verification failed
+
+Starting AutoFix
+     Attempting to get 'Xex_175BEC5A.ini' from the online verified database
+ERROR: The requested URL returned error: 404
+
+Failed to find a verified ini file for this Xex
+Attempting to fix PFI based on SS
+Unwilling to automatically fix PFI because SS is newer than the last known 2nd w
+ave date
+AutoFix Failed, Stealth is still uncertain
+
+Cannot check SplitVid due to invalid or uncertain PFI/Video
+
+Press any key to exit . . ."
+,iloveu2mch,2010-04-25T22:45Z,"Hey sorry for the comment which i left first sunblock i was wondering is you could me out whenever i put a iso file through xdvd mulleter it keeps saying iso is invalid, not present or broken and i also have a problem with abgx360 please check it this"
+,iloveu2mch,2010-04-25T22:48Z,"Checking SS
+     Timestamp of Authoring: 2010/03/05 00:00:00
+     Timestamp of Mastering: 2010/03/25 16:40:21
+     SS CRC = BD78F375 (RawSS = A614F373)
+     SS Media ID: FC9B0E7A9995DE49C15719A0-507D2720 (matches game)
+SS looks valid
+
+Checking DMI
+     Timestamp of Authoring: 2010/03/05 00:00:00 (matches SS)
+     DMI CRC = 2BD3F6F2
+     DMI Media ID: FC9B0E7A9995DE49C15719A0-507D2720 (matches game)
+DMI looks valid
+
+Checking PFI
+     PFI CRC = 05C6C409
+PFI does not match known data (could be corrupt or a new wave not seen before)
+Displaying suspicious PFI in hex and ascii:
+
+     OFFSET   0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+     0x0000  01 02 31 10 00 03 00 00 00 FC FF DF 00 03 AD 7F    1 . ...? ?. ยก
+     0x0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     *
+
+Video partition found
+Video volume space size and size of PFI data area do not match!
+Cannot check padding due to invalid or uncertain PFI/Video
+     Video CRC = F95C55C1 (V0 & V1 skipped due to non-matching or absent PFI)
+Video partition does not match known data but neither did PFI
+
+Stealth status is uncertain
+
+Verifying this game against the online database...
+One or more CRC requirements for Verification were not met, cannot continue
+Verification failed
+
+Starting AutoFix
+     Attempting to get 'Xex_175BEC5A.ini' from the online verified database
+ERROR: The requested URL returned error: 404
+
+Failed to find a verified ini file for this Xex
+Attempting to fix PFI based on SS
+Unwilling to automatically fix PFI because SS is newer than the last known 2nd w
+ave date
+AutoFix Failed, Stealth is still uncertain
+
+Cannot check SplitVid due to invalid or uncertain PFI/Video
+
+Press any key to exit . . ."
+,BMHRECORDS,2011-04-19T23:21Z,"Does Anyone Know how I Can Back Up Copy Protected Games? Everywhere I Look I Keep Running In To ""Easy Backup Wizard"" Or ""Game Copy Wizardโข V2.3"""

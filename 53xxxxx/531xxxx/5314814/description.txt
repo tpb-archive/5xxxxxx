@@ -1,0 +1,90 @@
+Dit is al de derde keer dat ik deze bestanden met de wereld probeer te delen. De eerste versie is te groot (zonde) en mijn tweede versie (inmiddels verwijderd) was niet goed omdat de ingesloten zipjes niet werkten. Zip is kennelijk niet geschikt voor dit formaat bestanden. 
+
+De torrent bevat het De Sims 3 basisspel en de uitbreiding Sims 3 Wereldavonturen, inclusief cracks, keygens en updates. Het spel is alleen te spelen in het Engels, omdat het basisspel eigenlijk een Aziatische versie is. Dit was de enige combinatie van spel(versies) die ik aan de praat heb gekregen, dus daar zult u het mee moeten doen tenzij u zelf graag gaat knutselen (het kost u drie dagen).
+
+Readme.txt is een volledig Nederlandstalige uitleg die u zou moeten kunnen begrijpen als u enigzins ervaring heeft met het downloaden en installeren van gekraakte spellen. En anders misschien ook wel omdat het dit keer volledig in het Nederlands wordt uitgelegd. U vindt deze uitleg hieronder opgenomen.
+
+Ik heb deze torrent gemaakt omdat ik de krakers van het spel dankbaar ben, maar anderzijds baalde van het feit dat er geen 'juiste' combinatie van basis en uitbreiding te vinden was. Dat is deze ook niet, maar met toepassing van een truukje lukt het toch om het spel lekker te kunnen spelen.
+
+Voor installatie van het spel heeft u nog nodig:
+- Daemon Tools
+- Unrar-programma
+
+Veel plezier met spelen en succes met de installatie. Ik zal blijven seeden tot tenminste een aantal downloaders dit bestand volledig in hun bezit hebben.
+
+
+
+Hieronder vindt u de uitleg die ik in het bestand Readme.txt ook heb toegevoegd.
+--------------------------------------------------------------------------------
+
+Let op: dit is de Aziatische versie van de Sims 3 (region code 3). Dat maakt niet uit als je het niet erg vindt om de Engelse versie te spelen.
+
+Installatie
+-----------
+1. Ga naar de map Sims 3. Allereerst moet je deze versie van de Sims installeren. Dat doe je door Sims3.iso te mounten met Daemon Tools waarna de installatie vanzelf begint.
+
+2. Voor het registratienummer open je de keygenerator die je kunt vinden in de map crack.
+
+3. Start het spel nog niet!
+
+(4. Zorg dat je 'Sims 3 EmuImage.rar' uitpakt en het .mds bestand mount met Daemon Tools. Dit is nodig om het spel voor de gek te houden dat er wel een cd in zit. Dat is steeds weer nodig tenzij je ook World Adventures gaat installeren.)
+
+(5. Het installeren van de extra downloads heeft alleen zin als je World Adventures niet gaat installeren. De installatie gaat heel eenvoudig. Pak extras.rar uit met een 	unrar programma. Vervolgens installeer je de aanvullingen door iedere keer te dubbelklikken op Ã©Ã©n van de sim3pack-bestanden die je in de diverse submapjes van 'All Sims 3 Store Items' kunt vinden. Deze map verschijnt na het uitpakken van extras.rar.)	Zorg er hierbij voor dat je geen verbinding hebt met internet 	omdat de Sims Launcher anders moeilijk gaat doen over updates.
+
+6. Pas je snelkoppelingen aan. Zowel in het menu start als op het bureaublad zijn snelkoppelingen naar het spel verschenen. Als je deze aanpast heb je nooit meer gezeur van de sims3launcher over achterstallige updates en dergelijke en opent het spel meteen. Aanpassen doe je als volgt: druk op eigenschappen van de snelkoppeling en verander het doel dat er nu staat opgegeven. Het nieuwe doel heeft op het eind niet 'S3Launcher.exe' maar 'TS3.exe'.
+
+
+World Adventures ook installeren
+--------------------------------
+7. Eerst zorgen dat het basisprogramma geupdate is naar versie 1.8.25, omdat World Adventures anders niet aansluit. Dat doe je door de update patch te installeren die je in de map update vindt.
+
+8. Mijn download van World Adventures heeft een andere regiocode dan het basisspel en daarom sluit deze niet vanzelf aan. Je moet een truucje toepassen. Druk op {Windowstoets} + R, type 'regedit' en druk op enter. Je hebt nu het register geopend. Ga naar HKEY_LOCAL_MACHINE > SOFTWARE > Sims > The Sims 3 en dubbelklik op SKU. Verander de regiocode van 3 naar 2. Het spel denkt nu dat het gewoon een Europese versie is.
+
+9. Vervolgens ga je naar de map World Adventures waar je (allÃ©Ã©n) het .rar bestand uitpakt. Dit moet u misschien meerdere keren proberen omdat het bij mij ook niet meteen de eerste keer goed ging. Er verschijnt een .iso bestand die je moet mounten met Daemon Tools. De installatie begint. De keygenerator vind je wederom in de map crack, dus daar haal je je registratienummer vandaan.
+
+10. Na de installatie krijg je een melding dat het basisprogramma niet up to date is en dat je WA pas kunt spelen wanneer dat gebeurd is. Updaten doe je niet via de Sims3Launcher, maar via de update in de map update.
+
+11. Pas na deze update ga je de crack 'installeren'. Ga naar programfiles > Electronic Arts > Sims 3 Wereldavonturen > Game > Bin en knip het bestand TS3EP01.exe. Plak het twee mappen eerder (Sims 3 Wereldavonturen). Dit bestand heb je nodig als je ooit nog een andere uitbreiding wilt installeren of een update wilt doen. Dan kopiÃ«er je het gekraakte bestand in de map crack (ook TS3EP01.exe) naar de map 'Bin' waar je dus net het originele bestand uit hebt gehaald. Als het goed is wordt er nu dus niet gevraagd of je het bestaande bestand wilt vervangen.
+
+12. Pas je snelkoppelingen aan. Zowel in het menu start als op het bureaublad zijn snelkoppelingen naar het spel verschenen. Als je deze aanpast heb je nooit meer gezeur van de sims3launcher over achterstallige updates en dergelijke en opent het spel meteen. Aanpassen doe je als volgt: druk op eigenschappen van de snelkoppeling en verander het doel dat er nu staat opgegeven. Het nieuwe doel heeft op het eind niet 'Sims3Launcher.exe' maar 'TS3EP01.exe'.
+
+
+vEEL SUCCES! en daarna heel veel spelplezier!
+
+
+
+
+OORSPRONKELIJKE README
+----------------------
+
+I've been working on this since early June 2nd and saw Sims 3 items scattered here and there but I wanted to compile all resources together for convenience.
+I'd like to say that I would like to provide this for TESTING purposes of course, please support the originating company for all their hard work. Don't forget to buy the game!
+This is the way I've gotten this to work, so I hope it works for you also.
+
+DISABLE INTERNET
+1. Make sure all Sims 3 copies are uninstalled.
+2. Install this multilanguage FINAL copy of The Sims 3 provided
+3. Copy all the data in the Sims3 Store Items (Neighborhoods, Objects & Sets, and Sims) folder to 'DocumentsElectronic ArtsThe Sims 3Downloads' (create it if its not there).
+    -After all the folders are copied open the Neighborhoods folder and run the Riverview file, it will open The Sims 3 Launcher (Make sure internet is NOT on). 
+    -On the left side of the window find the Downloads tab, then click 'Select All' and press Install. 
+3. Mount NS-SIMS3_DC.mds located in the 'SIMS 3 EmuImage' folder. This is the file needed to be mounted to prevent any check for legit CD.
+      HINT: I tried mounting this to both PowerISO and MagicISO. But I got this to work ONLY with DAEMON Tools.
+4. After installation DO NOT run the default shortcut (The Launcher.exe)
+   What you want to do is run the game from TS3.exe. Any access to the internet given to the launcher could prevent the game from running.
+5. Enjoy!
+*BACKUP ALL DATA OF YOUR SIMS AS IT MAY BE LOST IF DONE INCORRECTLY
+**I AM NOT RESPONSIBLE FOR WHATEVER ELSE IS DONE WITH THESE FILES
+
+I pulled these files from different resources. I CANNOT take credit for being the creator of any of them, and I regret not keeping track of who I should credit. The only thing I've done is made it a one-stop torrent. If you have any questions please post on the torrent. 
+Also, Ive divided up the torrent between the "NO-CD CRACK", The Sims 3 FINAL copy, and the store items. Feel free to select just what you need.
+
+***PLEASE READ ALL DIRECTIONS TO MINIMIZE DUPLICATE QUESTIONS***
+
+Thank you!
+
+Purchased JUNE 2nd, 2009
+THE SIMS 3 FINAL - GameVersion = 1.0.631.00003
+
+
+
+

@@ -1,0 +1,69 @@
+User Type,Username,Date,Text
+,080586,2010-02-11T20:51Z,"Please KEEP SEEDING. 
+
+Also would be nice to hear comments about this release."
+,jonbon0,2010-02-12T09:20Z,"downloaded this, nice speeds, when came to installing, double clicked setup.bat and got loads of errors saying system couldn't find path! anyone help?"
+,jonbon0,2010-02-12T11:42Z,"btw, im using windows 7 home prem x86 and i haven't edited the setup in any way, and ive ran as admin"
+,080586,2010-02-12T11:55Z,"Hi jonbon0
+
+Unpack the complete RAR file into a directory like (for instance) c:\UnrealTournament\
+
+If you drag and drop the folder from WinRAR you will get all the files in the right place for installation.
+
+Then right click the setup.bat and select ""Run as administrator""
+
+I have done extensive testing to make sure this installer should work as smooth as silk :)"
+,080586,2010-02-12T12:40Z,"You might have UAC enabled.
+
+Click Control Panel, type UAC in searchbox, Click ""Change User Account Control Settings"", Pull it down all the way to ""Never Notify"". OK
+
+Windows prevents any installation if you have UAC enabled."
+,080586,2010-02-12T13:09Z,"Check this out, this is how the installation looks :)
+
+http://bayimg.com/OAKejAAcg"
+,jonbon0,2010-02-12T13:56Z,"@080586 I did what you said > http://bayimg.com/DAkfhAaCG < look at this image, it's my installing window. This was after i'd turned UAC to ""Never Notify"", your drag and drop and unpack technique with WinRAR, and then run the setup as admin, and none have worked.
+
+Could you upload a screenshot of the files in the install folder and onlinecrack folder so i know i have all the files? Thanks"
+,080586,2010-02-12T14:33Z,"@jonbon0
+Great pictures, I can see that xcopy.exe is not found in your console window.
+
+If you look in ""C:\Windows\System32"" can you see xcopy.exe there ?
+
+The installer cannot find this file and it should be part of your windows command files, thats why it doesn't work for you.
+
+IF you did find your xcopy.exe file in that place you can add this line to the top of the setup.bat ""path %path%;C:\Windows\System32"" without the Quotation marks.
+
+Right click the setup.bat and select ""edit"" then add the line above and save the file.
+
+Good luck :)"
+,jonbon0,2010-02-12T14:38Z,"OMFG THANK YOU SO MUCH!
+
+After doing what you said, it installed like a dream. It runs perfect on my laptop, and you were a massive help!"
+,080586,2010-02-12T14:44Z,"@jonbon0
+That's great to hear, it was all thanks to your screenshots. It's like finding a needle in a haystack otherwise :)
+
+Now you can go online and play right away, serials and online cracks have been applied by the installer.
+
+Enjoy"
+,080586,2010-02-14T14:00Z,"If you want to run your own server to play over the Internet (with friends or anybody) then ...
+
+You need to make sure these ports are open in your router/firewall
+
+Enable ports with both UDP/TCP
+
+7777-7788 (what people connect on)
+42292 (Broadcasts your server online in servers list)
+27900 (Also a server broadcast port)
+
+Good Luck and have fun :)"
+,RichoGuerra,2010-05-05T04:15Z,"Hi men, im sorry, but i try tu instal the game, but after do everything i cant play, i click on the start button, but then show a error message Runtime error, they said its missed a library... wht can i do? i already install the game like a 6 times and the same error happened :( please help me"
+,theguywhosaidsawesome,2010-12-07T20:42Z,run it as administrator
+,truth101,2012-03-22T15:46Z,"Unbelievable!!!! Thanks for the game bro.
+easiest install, works online... windows xp"
+,Im_H3r3,2012-03-29T11:36Z,"F**K every ut2004 on here when i try downloading the torrent it says file not found damn, i swear when i find a version im uploading it -_-"
+,Im_H3r3,2012-03-29T11:46Z,i have found a working copy and will now upload once done.
+,171295,2012-04-24T08:34Z,"Hey, i downloaded this thing and when i tried to unzip the .rar file ""UT2k4"" it said there were no archives...i deleted it and I'm downloading this torrent again,maybe it will work out fine.
+But if the same thing happens again what do i do?
+
+and is this game compatible on 64-bits?"
+,KaiJay,2012-06-28T14:51Z,"I don't know if anybody knows but there is a free online game called Tribes:Ascend.It is similar to Unreal tournament and Quake , it is very dinamic everyone is equipped with a jetpack and jet boots that allow you to ""ski"".It is a lot of fun, here is a link for those who want to try it out : https://account.hirezstudios.com/tribesascend/?referral=1263875&utm_campaign=email"

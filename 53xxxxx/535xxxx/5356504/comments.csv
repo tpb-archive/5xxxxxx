@@ -1,0 +1,24 @@
+User Type,Username,Date,Text
+,1950sigma,2010-02-14T12:15Z,"This is more unlock shit - after you fill in offer.
+
+And it comes up with ""Sorry, the link you are using is no longer active"".
+
+Waste of bandwidth"
+,Eter_Pt,2010-04-08T16:52Z,"Don't download this.
+This is just publicity. You'll have to ""unlock"" it by filling an ad.
+
+Don't waste your time."
+,ttlens,2010-10-26T06:57Z,"As 1950sigma and Eter_Pt wrote, you have to ""unlock"" this file by filling in an ad.
+
+That isn't all though... If you open the file with a hex editor and have a look at it, over 99% of the file is filled with zero values. In other words, even if you fill out the form (DON'T!) you still get absolutely nothing -- there is no data there.
+
+Just for laughs I compressed the install file with 7zip, the 67MB original file compressed to 14KB.  Yes, KB, not MB. 
+
+TL/DR: Total waste of time, should be removed."
+,ttlens,2010-10-26T07:07Z,"Forgot to add... The web page you get sent to is PHP page that redirects you to the site where the form is. The redirect is on this domain:
+
+baictron.com
+
+Not going to repost the whois info, but it's not cloaked if anyone cares to look.
+
+So...anyone have a spare botnet looking for a target?"

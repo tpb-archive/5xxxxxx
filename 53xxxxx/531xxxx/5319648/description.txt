@@ -1,0 +1,49 @@
+Mac OS X 10.6.2 "Snow Leopard" in VMware Workstation 7 - Complete Package
+
+Desktop: http://bayimg.com/image/oakghaaca.jpg
+Safari: http://bayimg.com/image/oakgiaaca.jpg
+
+This is a complete package for running Mac OS X 10.6.2 "Snow Leopard" in VMware Workstation 7.
+
+Default settings for the virtual machine are 1 CPU/core, 1024 MB RAM and 40 GB HDD. Tested virtual machine using VMware Workstation 7.0.0-build 203739. Virtual machine is clean of personal information, any time a name or user was required "User" was used.
+
+Archive has been compressed with 7-Zip 9.10 using maximum LZMA2 compression.
+
+Original size: 11457 MB
+Compressed size: 8341 MB
+Compression ratio: 72%
+
+---- Prerequisites -----
+
+VMware Workstation 7 (Included)
+Premade OS X Virtual Machine (Included)
+VMware Tools for OS X (Included - darwin_snow.iso)
+64-bit Intel processor with Virtualization Technology
+
+----- Usage -----
+
+1. Install VMware Workstation if not already done so.
+2. Extract and then copy the "Mac OS X 10.6.2" directory to your Virtual Machines directory.
+3. Open the virtual machine in VMware and edit the processor, RAM and hard drive settings to your liking.
+4. Set darwin_snow.iso (under Misc) as CD-ROM media.
+5. Boot your virtual machine.
+
+---- Tips ----
+
+I recommend taking a snapshot of the virtual machine prior to making any major changes such as a system update.
+
+You will always need to use the darwin_snow.iso to boot your VM but this is a small price to pay for having Snow  Leopard in a VM, using a vanilla install disk at that. Not having darwin_snow.iso mounted at boot will result in an Operating system not found error.
+
+If you have any difficulties with this premade virtual machine, you can try setting up OS X yourself using the guide at: 
+http://www.online-tech-tips.com/mac-os-x/install-snow-leopard-on-pc/
+
+I have successfully installed iLife 09 and Microsoft Office 2008 in this virtual machine however they are NOT included for the sake of keeping this torrent below 10 GB.
+
+iLife 09: http://thepiratebay.org/torrent/4679908/iLife__09_Install_DVD.dmg
+Microsoft Office 2008: http://thepiratebay.org/torrent/4011190/Microsoft_Office_2008_for_Mac_-_Standard_Edition___14_serials
+
+To mount these in VMware, use dmg2img from http://vu1tur.eu.org/tools/.
+
+-- Duff
+
+Credit to "P|astikman" and "Online Tech Tips" for the original guide on setting up OS X in VMware.

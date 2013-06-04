@@ -1,0 +1,26 @@
+I take no credit for making this.
+
+tried and tested
+
+Windows 7 crack RemoveWAT 2.2.5.Hazar  *updated from 2.2.3
+
+Also works after  M$ KB971033 update will make your Win7 Genuine again
+
+
+WORKS ON ALL EDITIONS OF 7/R2!
+
+NOT FOR VISTA/ORIGINAL SERVER 2008!!!!
+
+IMPROVEMENTS SINCE 1.0:
+renames slmgr on x64 aswell
+Works on unicode systems
+silent mode with /s switch
+UI tweaked slightly
+No reboot neccessary
+Passes WGA on X64
+
+This is a little tool I put together to remove WAT (Windows Activation Technologies) completely from the OS, whilst still retaining 
+genuine status and receiving all updates (optional aswell). You can also pass the genuine check in things like Windows Defender.
+There will be no windows activation section in control panel (thanks to nononsence)
+no slmgr
+no nags, no prompts, nothing. WAT gone.

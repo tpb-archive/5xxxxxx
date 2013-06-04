@@ -1,0 +1,152 @@
+KKKK      KKKK                KKKK      KKKK  iiii            dddd
+KKKK    KKKK                  KKKK    KKKK                    dddd
+KKKK  KKKK          ****      KKKK  KKKK      iiii      dddddddddd
+KKKKKKKK        ************  KKKKKKKK        iiii    dddd    dddd
+KKKKKK              ****      KKKKKK          iiii    dddd    dddd
+KKKKKKKK          ********    KKKKKKKK        iiii    dddd    dddd
+KKKK  KKKK                    KKKK  KKKK      iiii    dddd    dddd
+KKKK    KKKK                  KKKK    KKKK    iiii    dddd    dddd
+KKKK      KKKK                KKKK      KKKK  iiii      dddddddddd
+
+xoxoxoxoxox
+x N A M E x
+xoxoxoxoxox
+
+Windows 7 Loader v2.4.2
+
+xoxoxoxoxoxoxoxoxoxoxoxox
+x D E S C R I P T I O N x
+xoxoxoxoxoxoxoxoxoxoxoxox
+
+Ensure you login as administrator. Activate your copy of windows 7 / Vista/ Server 2008, all edition or uninstall all types of cr**k (bootmgr,bootloader or key/cert) from any loader in one click.
+
+MD5...: 7a8715460437a98c02494c7f82677481
+SHA1..: 61356363a89da2ed3beb5f3124d11b4f60e729a7
+
+If you have no idea of OEM activation, just click install (default), reboot ur PC and check status.
+
+It will work in
+Windows 7 Ultimate x86 & x64
+Windows 7 Professional x86 & x64
+Windows 7 Home Premium x86 & x64
+Windows 7 Home Basic x86 & x64
+Windows 7 Starter x86
+Windows Server(R) 2008 Standard x86 & x64
+Windows Server 2008 R2 Standard x86 & x64
+Windows Server(R) 2008 Enterprise x86 & x64
+Windows (R) Small Business Server 2008 x86 & x64
+Windows Vista Ultimate x86 & x64
+Windows Vista Business x86 & x64
+Windows Vista Home Premium x86 & x64
+Windows Vista Home Basic x86 & x64
+Windows Vista Starter x86
+
+Basic Info :
+OEM (Certificate & Key) install only where bios already (or modded) contains slic 2.1
+Add slic 2.1 to Bootloader (0.97 grldr customised by Zsmin for me) with option (Default,Alternative, Low Memory, Debug, Forceful)
+- default option allows auto-detect best method where possible
+- alt method relocates SLIC, RSDT, XSDT and RSD PTR to low memory
+- low memory method relocates SLIC to low memory
+- forceful mode tries to activate on systems where some checks don't complete successfully, may cause problems.
+- Debug mode allows view to process behind bootloader.
+Install GUID Path (Thanks to PAYMYRENT) failing which install using Mount method.
+Add Security to bootloader (Read Access only).
+Randomly renamed grubloader (Thanks to PAYMYRENT) failing which allow its user to try normal grldr.
+Add slic 2.1 to Bootmgr (No grldr means less time to boot, not recommended).
+Certificate install where you want to replace certificate only.
+Key install where you want to replace key only.
+OEM Slic detection with matching OEM Key if possible. (You can always choose different OEM Key available or own custom key)
+Check incorrect custom key.
+Detects SLIC version(Thanks to MasterDisaster) and then autoselect best activation mode.
+Detects any preinstalled bootloader and removes it when install.
+
+Advantage :
+[LIST][*]Fast Install (since based on WMI script).[*]Single file.[*]Much smaller in size (since based on .NET Framework 2.0).[*]Bootloader are randomly renamed and so uninstall of old ldr not necessary.[*]Slic can be added in bootmgr (Not recommended).[*]Cert & Slic option are together for OEM install.[*]Cert can be installed/replaced only.[*]Key can be replaced only.
+[*]Option to add your customised OEM info and logo.[*]Option to backup and restore your licence (useful for retail and mak key users).[*]Default start autoselect best activation mode, slic, cert and key.[*]Detects any preinstalled bootloader functional inside.
+
+Change 2.4.2:
+* Detects for first time, any preinstalled bootloader functional inside and will overwrite when slic ldr is installed.
+* Added Sony Ultimate, Unknown Premium and MSI Starter Key.
+
+OS: Vista, Server 2008, Seven
+Language: English
+License: Cracked
+
+***************************************************************************
+xoxoxoxoxox
+x N O T E x
+xoxoxoxoxox
+
+1. ALL my uploads scanned by Kaspersky Anti-Virus                           
+   (They won't be here if they never pass)
+
+2. While using TPB, please make sure to have check that torrent throughly before executing it.
+
+3. Common type of fakes/infected torrents
+
+->  No username (Anonymous) <- with NO SKULLS
+->  Only has 1 or 2 uploads
+->  Randomy generated usernames; ie 'ghjjsda', 'rqrqnds', 'rqrwsx'
+
+4. Should you find a bad torrent(fakes/infected torrent), DO NOT hesitate to report it here:
+   http://forum.suprbay.org/forumdisplay.php?fid=29 (Create a 'New Thread' there)
+
+->  Note: We ONLY remove the following:
+
+    * Spam (including spam comments)
+    * Trojan/malware/virus/etc.
+    * Fake
+    * NOTHING ELSE
+
+xoxoxox
+x FaQ x
+xoxoxox
+
+Q: 'I download this movie/video, but there's only picture in it, no sounds. Why??'
+A: It's because you're missing certain codecs. There's 2 option to this ; 
+   
+   OPTION 1: Download & install the free K-Lite Mega Codec Pack here: 
+
+   http://www.free-codecs.com/download/K_Lite_Mega_Codec_Pack.htm
+   
+   OPTION 2: Download & install VLC Media Player here: http://www.videolan.org/vlc/ ; use it to play the movie/video file which you've downloaded
+
+Q: 'I download a keygen from a user & my AV flagged it as a virus!'
+A: It MIGHT be false positives flagged by your AV, OR it might really be a virus. 
+
+   First, look at the uploader. Does he has a skull(pink/green) with him? If yes, most probably that keygen is NOT infected.
+   
+   However, on a safe side, what you can do is download the similar torrent from another skulled user & check if your AV flagged it as infected of not. 
+
+   IF NO, high chances the previous torrent perhaps IS infected.
+   IF YES, most probably it's false positive.
+
+   Well, if you're still unsure, you can just drop by to our forum & report it here: 
+   http://forum.suprbay.org/forumdisplay.php?fid=29 ; the staff will gladly double-check it.                                                                    
+
+Q: 'I can no longer log into my account on TPB. Why is this so?'
+A: Most probably you're banned. Don't worry, drop by to the forum & explain it here: http://forum.suprbay.org/showthread.php?tid=3772
+
+Q: 'I registered an account on TPB, but i don't receive any of the confirmation/activation email. Why?'
+A: It might be the mail servers are down. Come to the forum, and post it here: http://forum.suprbay.org/showthread.php?tid=50701
+
+Q: 'I don't know how to mount an image file. I don't know this I don't know that. How?'
+A: Again, drop by to the forum here: http://forum.suprbay.org/index.php & create a new thread under the Help Section
+   Alternatively, you can browse through the Tutorials Section first to see if anyone have already answered your question here: http://forum.suprbay.org/forumdisplay.php?fid=43
+
+* You can read up other FaQs regarding TPB here: http://forum.suprbay.org/showthread.php?tid=25383 (Credits to Adapa for this)
+                                                      
+* Check out for more of my uploads @ 
+ 
+http://thepiratebay.org/user/kentucky-kid/
+
+* After your download, please DON'T forget to seed so that you can help others get this torrent & feel free to leave any comments.              
+
+--> Should you need help in anything(NO REQUESTS), feel free to approach me on SuprBay(The Pirate Bay Forum) here: 
+ 
+http://forum.suprbay.org/member.php?action=profile&uid=77652
+
+Cheers! 
+
+Regards,
+kentucky-kid :]

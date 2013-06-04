@@ -1,0 +1,25 @@
+Windows 7 RTM 
+updated to
+Windows 7 RTMLDR :
+RTMLDR_Ultimate_7600.20618.x86fre.win7_ldr.100114-1818
+info:
+version= 6.1.7600.0
+Arch=  x86 based 32-bit
+os= Windows 7 Ultimate
+ServicePack level= 0
+buildlab= win7_ldr (RTMLDR Branch)
+Builddate= 100114-1818
+language= en -us
+installed hotfix(s) = 259 (190 + 77 - 8(version skip)
+259 kb .XYZ= post-RTM GDR(Official), LDR(QFE)Hotfixs updates ,       .             with Windows XP mode (aka XPM)
+
+dism addpackge 77 of 77 (20100101-20100201)
+
+
+
+RTM/
+RTMGDR/RTMLDR(QFE)/
+RTMSP1/
+RTMSP2/
+Windows 8
+Windows 2020

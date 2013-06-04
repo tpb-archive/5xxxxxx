@@ -1,0 +1,22 @@
+I'm a bit early, so don't expect a great seed till next weekend.
+Feel free to try though.
+
+ON WITH THE SHOW!
+
+I told you I was making a 10.6.2 image.
+Retail based (so no premade virtual machines with small edits.)
+Of course audio, networking and screen resolutions work AND the 1440x900 bug is solved.
+
+Instructions:
+
+This VMware image works on VMware workstation and player, tested on debian/GNU/Linux and windows xp.
+NOTE only works on Intel pcs with hardware virtualization enables
+
+How to get it working:
+1: install VMware player or workstation
+2: extract rar files
+3: edit the settings so it loads bootloader.img on boot (in virtual CD drive)
+4: start it
+5: do what the installer asks
+
+Password is what you tell it to be, same with username.

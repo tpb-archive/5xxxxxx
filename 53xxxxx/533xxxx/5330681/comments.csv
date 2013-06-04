@@ -1,0 +1,31 @@
+User Type,Username,Date,Text
+[V],FerraBit,2010-02-21T21:12Z,"Thanks for the feedback.
+Thank you seeders!"
+,AudioBK,2010-02-22T08:35Z,"Thanks for the upload, FerraBit.
+
+I'm trying to make torrents available here as well, but I'm not sure I have the proper ANNOUNCE URL.  I have used this one:
+
+http://tbp.tracker.thepiratebay.org:80/announce
+
+Is that not the proper entry?
+
+I'd appreciate any helpful info on how to get torrents working on TPB.
+
+Thanks again,
+
+BK"
+[V],FerraBit,2010-02-22T21:28Z,"@AudioBK - on trackers - TPB trackers are long gone-dead. See any of my (or others) recent torrents for several popular trackers. the one's I currently use are:
+
+http://tracker.openbittorrent.com/announce
+http://denis.stalker.h3q.com:6969/announce
+http://tracker.publicbt.com:80/announce
+http://tracker.prq.to/announce
+http://tracker.bittorrent.am:80/announce
+udp://denis.stalker.h3q.com:6969/announce
+udp://tracker.openbittorrent.com:80/announce
+udp://tracker.publicbt.com:80/announce
+plus demonoid's (semi-private)
+
+trackers are becoming less critical (even optional) as DHT and peer exchange can do most of the work nowadays. i'd say openbittorrent is the most reliable at the moment. more trackers won't help the torrent any, just included in case some the trackers go offline completely at some point.
+this might be something worth looking into: 
+http://lmgtfy.com/?q=how+to+make+a+torrent "

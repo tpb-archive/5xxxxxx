@@ -1,0 +1,14 @@
+User Type,Username,Date,Text
+,ghostchildnn,2010-03-14T13:33Z,Not working on PS3 - I'm no expert but I'm thinking that it wont read 5.1 from a CD. Any suggestions? 
+,ronmann,2010-12-05T11:12Z,"I'm having problems.  I play it with VLC, when ""encoded output"" is off, it plays fine but this means no DTS.  When I turn on ""encoded output"" the DTS light on my receiver comes on for second but VLC crashes.  I've screwed with the settings a bunch but same thing everytime.  I've had no problems in the past with this its possibly a bad rip.  Defiantly try for yourself though."
+[T],ADHDerby,2010-12-12T20:19Z,"@ ghostchildnn: PS3 settings to play a DTS Audio CD:
+
+Under Music Settings set Audio CD Output Frequency to: 44.1/88.2/176.4 kHz
+Under Audio Output Settings select HDMI or Optical
+Deselect LPCM 2ch 88.2 and 176.4 (leave only 44.1)
+Save & Exit
+
+@ ronmann: Burn the CD image on a CD-R or mount it with a virtual CD tool like Daemon Tools.
+Then play the CD with VLC media player and it should play without a problem. :)"
+,xefermix,2011-04-17T22:38Z,"Thanks man, this is really cool stuff. Got it to work fine on my PS3 after burning it with imgburn. I wish it would have worked without having to physically burn a disk, but whatever I guess"
+[T],ADHDerby,2011-08-13T16:30Z,Muse - The Resistance 5.1: http://thepiratebay.org/torrent/6602208

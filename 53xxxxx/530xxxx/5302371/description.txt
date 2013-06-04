@@ -1,0 +1,60 @@
+Source: Love.Happens.1080p.Bluray.x264-CBGB
+
+Poster: 
+http://img691.imageshack.us/img691/9971/lovehappensposter.jpg
+
+Icon: 
+http://bayimg.com/image/hajmhaacn.jpg
+
+Snaps: 
+http://img707.imageshack.us/img707/3686/vlcsnap2010012214h57m13.png 
+http://img62.imageshack.us/img62/6250/vlcsnap2010012214h57m35.png 
+http://img63.imageshack.us/img63/82/vlcsnap2010012214h57m49.png 
+http://img97.imageshack.us/img97/6186/vlcsnap2010012214h58m00.png 
+http://img109.imageshack.us/img109/8520/vlcsnap2010012214h55m30.png 
+http://img689.imageshack.us/img689/1740/vlcsnap2010012214h56m05.png 
+http://img109.imageshack.us/img109/8200/vlcsnap2010012214h56m23.png 
+http://img690.imageshack.us/img690/7254/vlcsnap2010012214h56m45.png
+
+-------------------------------------------------------
+Designed for direct playback on Apple TV, PS3, WDTV, Xbox360, Popcorn Hour, VLC.
+
+WDTV users change extension from .m4v to .mp4
+
+Apparently there is a sync problem with MP4 for WDTV Live with the latest firmware.
+
+It is discussed here 
+http://wdtvhd.com/index.php?showtopic=8778
+and here 
+http://community.wdc.com/t5/WD-TV-Live-Firmware/1-0-17-MP4-Audio-Sync/td-p/6146
+
+and suggested to rollback firmware to revision 1.01.00
+
+PS3 user may need to rename to .mp4 also if you are playing from USB device.  Should be fine if you are just streaming with the .m4v extension.
+
+Apple TV user ensure running firmware 3.0.1 (this firmware plays video much better than old firmware).  Use custom movie sync option "Automatically include the 10 most recent movies along with selected movies."  Streaming is possible but for best result always play native.  You may experience slight frame rate loss while streaming under certain conditions.
+--------------------------------------------------------
+Video technical specifications:
+
+Video:
+Codec: AVC via x264
+Profile: High@3.1
+Bitrate: 3072 Kbps
+FPS: 23.976
+Rate Control: 2 pass
+
+Audio 1:
+Codec: AAC Stereo
+Bitrate: 160 Kbps
+(for everything)
+
+Audio 2:
+Codec: Dolby Digital 5.1
+Bitrate: 384 Kbps
+(for Apple TV use TOSLINK to receiver to enable DD, or use WDTV Live, or VLC on PC)
+
+Subtitle 1:
+English
+-------------------------------------------------------
+
+-HR

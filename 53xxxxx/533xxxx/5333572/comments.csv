@@ -1,0 +1,215 @@
+User Type,Username,Date,Text
+,Toimu,2010-02-04T04:09Z,"Trying to use the Setup.exe gives me the same error as if I downloaded this from the developers.
+
+There is a WinRAR file 195,154 KB named Setup1 with 207 files in it.  Most named dlc1_(something) or dlc2_(something).  I think those might go into:
+
+Borderlands > WillowGame > Localization > INT folder
+
+There is a Razor1911 folder with a Borderlands icon that I guess I'll replace my old one with in my Binaries folder after I've use this crack for patch 1.2.1."
+,Toimu,2010-02-04T04:18Z,"There is a WinRAR file 195,154 KB named Setup1 that has a ShippingPCWillowGame.exe application in it.  I extracted all 207 files and ran this .exe and got the following error:
+
+This application has failed to start because wxmsw28u_core_vc_custom.dll was not found.  Re-installing the application may fix this problem."
+,Toimu,2010-02-04T05:30Z,"Ok, I've got it working (even online).  You have to put all the 207 files in the correct folders yourself.
+
+All the .int files go into:
+
+Borderlands > WillowGame > Localization > INT folder
+
+---
+
+All the .esn files go into:
+
+Borderlands > WillowGame > Localization > ESN folder
+
+---
+
+All the .deu files go into:
+
+Borderlands > WillowGame > Localization > DEU folder
+
+---
+
+All the .fra files go into:
+
+Borderlands > WillowGame > Localization > FRA folder
+
+---
+
+All the .ita files go into:
+
+Borderlands > WillowGame > Localization > FRA folder"
+,kevoo_11,2010-02-04T13:52Z,"What about the rest of those 207 files?  I noticed a few .upk files, .u files, at least 1 .bin file, and a couple .exe files.   
+
+Should we ignore them"
+,kevoo_11,2010-02-04T14:00Z,"Also,
+
+After we move around all those files do we use the borderlands.exe file that game with this?  If someone who's figured this out happens along please write a small walkthrough to get this working...I'm stumped.  "
+,xMusik,2010-02-04T16:06Z,"Attempted to use BOTH patches. Followed the instructions that Toimu put out. Now I come up with 3 errors. The last one is one that prevents and crashes on startup.
+Error 1:
+""Ambiguous package name: Using 'x:\Program Files\2K Games\Gearbox Software\Borderlands\WillowGame\CookedPC\Patch\GuidCache.upk', not 'x:\Program Files\2K Games\Borderlands\WillowGame\CookedPC\GuidCache.upk' ""
+Error 2:
+""Ambiguous package name: Using 'x:\program files\2k games\gearbox software\borderlands\willowgame\cookedpc\packages\interface\RefShaderCachePCD3DSM3.upk', not 'X:\Program Files\2k games\gearbox software\borderlands\WillowGame\CookedPC\RefShaderCachePCD3MDSM3.upk' ""
+Error 3:
+""Borderlands has stopped working -Close Program-""
+Error Message 3:
+""UE3ShaderCompileWorker.exe terminated unexpectedly! ThreadId=0
+
+RaiseException() Address = 0x75f19617 (filename not found) [in x:\Windows\system32\KERNELBASE.dll]
+CxxThrowException() Address = 0x68eadbf9 (filename not found) [in x:\windows\winsxs\x86_microsfot.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.4926_none_508ed732bcbc0e5a\MSVCR90.dll]
+GetOutermost() Address = 0x5ebed8 (filename not found) [in x:\program files\2k games\ gearbox software\borderlands\ binaries\ borderlands.exe]
+GImage::GImage() Address = 0x5c355d (filename not found) [in x:\program files\2k games\gearbox software\borderlands\binaries\borderlands.exe]
+GetOutermost() Addresss = 0x6fafb8 (filename not found) [in x:\program files\2k games\gearbox software\borderlands\binaries\borderlands.exe]
+RtlQueryEnvironmentVariable() Address = 0x77d9683e (filename not found) [in x:\Windows\SYSTEM32\ntdll.dll]""
+
+After that I tried KAOs release of the patch. Still got no where. Help?"
+,Toimu,2010-02-04T16:29Z,"All the .ita files go into:
+
+Borderlands > WillowGame > Localization > ITA folder"
+,Toimu,2010-02-04T16:33Z,"Sorry all, I keep getting Data Base Error when I try to post so I can not finish the directions.  I was hoping it was because I just had posted too much in one day.  But I'm still getting that error...  maybe I should type it out and not copy/paste."
+,Toimu,2010-02-04T16:42Z,"I unRAR'ed the files into a folder to keep track of which ones I put in the correct place, and which ones I haven't yet.  Here is where the 207 files go:
+
+All .int go into the INT folder.
+
+All .esn go into the ESN folder.
+
+All .deu go into the DEU folder.
+
+All .fra go into the FRA folder.
+
+All .ita go into the ITA folder.
+
+You have to do searches to find the location of the other about 50 files.  Most somewhere in the CookedPC folder or sub folders.
+
+Also 2 files are missed named.  They replace the old files in the CookedPC folder.
+
+GlobalShaderCachePCD3DSM3
+needs to be renamed:
+GlobalShaderCache-PC-D3D-SM3
+
+RefShaderCachePCD3DSM3
+needs to be renamed:
+RefShaderCache-PC-D3D-SM3
+
+There is an app named ShippingPCWillowGame.exe that I didn't use because I didn't find one to replace.  You don't need it it seems.
+
+There is a Razor1911 folder with a Borderlands.exe that you use to replace the old one in your Binaries folder.  Just click that new Borderlands.exe and play the game.  Easy as 1,2,3...207!"
+,Toimu,2010-02-04T16:47Z,"The above post are the complete directions on how I got the game to work.  Please delete all my other posts!
+
+I am not a programmer.  This too me about an hour to figure out myself.  Even with how I did it, it will still take a while for someone to do.  If you put 1 of those 207 files in the wrong place, the game will not work!"
+,Toimu,2010-02-04T16:57Z,"I unRAR'ed the files into a folder to keep track of which ones I put in the correct place, and which ones I haven't yet. Here is where the 207 files go:
+
+All .int go into the Borderlands > WillowGame > Localization > INT folder.
+
+All .esn go into the Borderlands > WillowGame > Localization > ESN folder.
+
+All .deu go into the Borderlands > WillowGame > Localization > DEU folder.
+
+All .fra go into the Borderlands > WillowGame > Localization > FRA folder.
+
+All .ita go into the Borderlands > WillowGame > Localization > ITA folder.
+
+You have to do searches to find the location of the other about 50 files. Most somewhere in the CookedPC folder or sub folders.
+
+Also 2 files are missed named. They replace the old files in the CookedPC folder.
+
+GlobalShaderCachePCD3DSM3
+needs to be renamed:
+GlobalShaderCache-PC-D3D-SM3
+
+RefShaderCachePCD3DSM3
+needs to be renamed:
+RefShaderCache-PC-D3D-SM3
+
+There is an app named ShippingPCWillowGame.exe that I didn't use because I didn't find one to replace. You don't need it it seems.
+
+There is a Razor1911 folder with a Borderlands.exe that you use to replace the old one in your Binaries folder. Just click that new Borderlands.exe and play 
+
+the game. Easy as 1,2,3...207! "
+,xellb14,2010-02-05T23:30Z,"for all a U guys who wanna make this shit work - toimu is 100% correct, i'll just add some hints not to work your fingers off to the bone when u use the searcher.
+1.st thing is that if u happen to miss 1 or couple of files u will see them in a shitty floating window when u try and start this game, ABOVE - where the file should be and BELOW where u have dropped it. if u r lazy, just relocate all of them as the pc says. the easier way is putting them before this floats appear :).
+so the .deu, int, esn, fra and ita extensions are found, i will add some more.
+
+MOST    .upk   to WillowGame\CookedPC\
+
+
+!!!!!!!!!!!!!!!except:
+dlc_1***.upk dlc_2***.upk to\WillowGame\CookedPC\Patch\
+menumap_LOC_***.upk  to \WillowGame\CookedPC\Maps\Menu_Map\
+ui_frontend.upk  to WillowGame\CookedPC\Packages\Interface\
+
+
+.u to WillowGame\CookedPC\
+bin to WillowGame\CookedPC\ (rename file)
+.usf to borderlands\Engine\Shaders\
+.umap to \WillowGame\CookedPC\Maps\Menu_Map\
+"
+,NanoEntity,2010-02-06T04:41Z,"Someone should make a damn torrent with all the files extracted places in all the correct folders and paths and post it here.
+
+So we can just download the torrent copy all files and overwrite the directory structure."
+,Hero_Cake,2010-02-07T08:25Z,"AW MAN! Toimu and xellb14 my hats off to you two sirs! Most bea-u-ti-FUL combination of instructions! Everything works like a clock~ Thank you, Thank you :D"
+,Tempa133,2010-02-07T11:03Z,^ Said exactly wat i wanted to say :) thanks again!
+,Krasotkin,2010-02-08T09:00Z,"I'm getting the same error as xMusik.
+
+Any thoughts on how to fix it?"
+,Krasotkin,2010-02-08T09:34Z,"I'm going to try uninstalling and reinstalling from scratch.
+
+These are what I'm using to install if it makes a difference:
+
+http://thepiratebay.org/torrent/5137664/Borderlands_Proper-Razor1911%28No_Rars%29
+http://thepiratebay.org/torrent/5167164/Borderlands.Patch.1.01-RELOADED
+http://thepiratebay.org/torrent/5219867/Borderlands.The.Zombie.Island.of.Dr.Ned.DLC-RELOADED
+http://thepiratebay.org/torrent/5273874/Borderlands.Mad.Moxxis.Underdome.Riot.DLC-RELOADED
+
+and this one (obviously) for 1.2.1"
+,Toimu,2010-02-09T04:33Z,"xMusik and Krasotkin,
+
+Error 1:
+
+Do a search for GuidCache.upk and delete all you find.  Then go to your RAR file from this download and put GuidCache.upk in:
+
+C:\Program Files\2K Games\Borderlands\WillowGame\CookedPC
+
+---
+
+Error 2:
+
+Do a search for RefShaderCache and delete all you find.  You might find it written as:
+
+RefShaderCachePCD3DSM3.upk
+or
+RefShaderCache-PC-D3D-SM3.upk
+
+Then go to your RAR file from this download and put:
+
+RefShaderCachePCD3MDSM3.upk
+
+here:
+
+C:\Program Files\2k games\gearbox software\borderlands\WillowGame\CookedPC
+
+and rename to:
+
+RefShaderCache-PC-D3D-SM3.upk
+
+---
+
+Error 3 shouldn't happen after you fix the first two."
+,Toimu,2010-02-09T04:36Z,"Krasotkin, I'm using the same five torrents."
+,ninjapiratez,2010-02-11T13:12Z,"I've renamed the 2 files correctly, put every file in the right folder and uploaded for you guys, pre-cracked with razor 1.21 no-cd
+
+just unrar/extract and play
+
+enjoy
+
+http://thepiratebay.org/torrent/5354561"
+,Shadow884,2010-02-13T03:46Z,"if you have Trouble Installing this Update try this, It Worked for me:
+Add this to your registry
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Gearbox Software\Borderlands
+InstallSource = DVD  as REG_SZ
+InstallFolder = f:\Games\2K Games\Gearbox Software\Borderlands\Binaries as REG_SZ (Replace Folder Location with your Game Install Location)
+
+Im interested in Knowing if this Works for others"
+,Shadow884,2010-02-13T07:29Z,"Oh sorry my Previous Post is for Win 64Bit, for 32 bit windows just leave out ""Wow6432Node"""
+,adventurjunky,2010-02-20T19:41Z,Could not get it working anyone know a torrent with this mubojumbo installed?
+,adventurjunky,2010-02-21T19:59Z,Everyone go here just unrar and play http://thepiratebay.org/torrent/5338113/%5BFTL3%5D_Borderlands_1.21_Crack
+,barash,2010-02-23T14:10Z,"flawless install on my end, thanks for the up :)"

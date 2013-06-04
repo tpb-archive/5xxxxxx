@@ -1,0 +1,34 @@
+Windows 7 Ultimate RTM LITE [ITA][WiNetwork-bt]
+
+
+
+File:       [ITA]Windows 7 LITE.iso 629MB
+
+
+
+
+
+Questa Ã¨ la versione Ultimate LITE a 32 BIT che sta in un CD.
+Una volta installato occupa circa 3GB su hard disk e 300MB su ram, ha ancora tutte le applicazioni che vengono utilizzate piu spesso come WMP12 IE8 e c'Ã¨ anche AERO. 
+
+
+
+Per ridurre ancora la dimensione su disco basta eseguire (come amministratore) questo BATCH che vi elimina il file di ibernazione (circa 1GB) e vi comprime le cartelle di sistema.
+
+powercfg -h off
+cd windows
+takeown /f winsxs /r
+icacls winsxs /grant Administrator:(F) /t
+
+
+
+
+CRACK: Windows 7 Loader eXtreme Edition 3 (SAFE) 3.118.exe
+
+
+
+
+
+visita WiNetwork-bt
+ 
+http://www.google.com/search?hl=it&q=winetwork-bt&btnG=Cerca&lr=&aq=f&oq=

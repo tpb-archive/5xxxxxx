@@ -1,0 +1,191 @@
+Exact Audio Copy V0.99 prebeta 1 from 25. May 2007
+
+EAC extraction logfile from 4. July 2009, 6:18
+
+Steve Bug / Collaboratory
+
+Used drive  : LG      CD-RW CED-8080B   Adapter: 0  ID: 1
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 86
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Used interface                              : Installed external ASPI interface
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 320 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:Program FilesExact Audio CopyFlacflac.exe
+Additional command line options : -8 -A tukey(0.25) -A gauss(0.1875) -b 4096 -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s --sector-align
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  7:04.07 |         0    |    31806   
+        2  |  7:04.07 |  6:37.47 |     31807    |    61628   
+        3  | 13:41.54 |  4:53.38 |     61629    |    83641   
+        4  | 18:35.17 |  2:45.12 |     83642    |    96028   
+        5  | 21:20.29 |  7:35.25 |     96029    |   130178   
+        6  | 28:55.54 |  6:23.38 |    130179    |   158941   
+        7  | 35:19.17 |  4:31.00 |    158942    |   179266   
+        8  | 39:50.17 |  6:48.02 |    179267    |   209868   
+        9  | 46:38.19 |  7:00.35 |    209869    |   241403   
+       10  | 53:38.54 |  8:52.73 |    241404    |   281376   
+       11  | 62:31.52 |  4:55.07 |    281377    |   303508   
+
+
+Track  1
+
+     Filename C:TEMP 1 - Steve Bug - Trees Can't Dance.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 96.6 %
+     Track quality 99.9 %
+     Test CRC 3D1F49D1
+     Copy CRC 3D1F49D1
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  2
+
+     Filename C:TEMP 2 - Steve Bug - Swallowed Too Much Bass.wav
+
+     Pre-gap length  0:00:00.36
+
+     Peak level 96.6 %
+     Track quality 99.9 %
+     Test CRC BF0C3E9E
+     Copy CRC BF0C3E9E
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  3
+
+     Filename C:TEMP 3 - Steve Bug - Strong Moment.wav
+
+     Pre-gap length  0:03:16.84
+
+     Peak level 96.6 %
+     Track quality 99.9 %
+     Test CRC CD2F2164
+     Copy CRC CD2F2164
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  4
+
+     Filename C:TEMP 4 - Steve Bug - You Neverâ€¦.wav
+
+     Pre-gap length  0:02:24.78
+
+     Peak level 96.6 %
+     Track quality 99.9 %
+     Test CRC 21FD46EA
+     Copy CRC 21FD46EA
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  5
+
+     Filename C:TEMP 5 - Steve Bug - Month Of Sip.wav
+
+     Pre-gap length  0:00:17.22
+
+     Peak level 96.6 %
+     Track quality 99.9 %
+     Test CRC C37ED693
+     Copy CRC C37ED693
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  6
+
+     Filename C:TEMP 6 - Steve Bug - Mr. Suitcase.wav
+
+     Pre-gap length  0:00:01.38
+
+     Peak level 96.6 %
+     Track quality 100.0 %
+     Test CRC 98A988BD
+     Copy CRC 98A988BD
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  7
+
+     Filename C:TEMP 7 - Steve Bug - Trust In Me.wav
+
+     Pre-gap length  0:00:44.52
+
+     Peak level 96.6 %
+     Track quality 100.0 %
+     Test CRC 3CE24CA7
+     Copy CRC 3CE24CA7
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  8
+
+     Filename C:TEMP 8 - Steve Bug - Passing Clouds.wav
+
+     Pre-gap length  0:00:30.45
+
+     Peak level 96.6 %
+     Track quality 99.9 %
+     Test CRC B2C4E9B7
+     Copy CRC B2C4E9B7
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  9
+
+     Filename C:TEMP 9 - Steve Bug - Still Music.wav
+
+     Pre-gap length  0:00:47.58
+
+     Peak level 96.6 %
+     Track quality 100.0 %
+     Test CRC 6F079055
+     Copy CRC 6F079055
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 10
+
+     Filename C:TEMP10 - Steve Bug - Like It Should Be.wav
+
+     Pre-gap length  0:00:09.36
+
+     Peak level 96.6 %
+     Track quality 99.9 %
+     Test CRC 17E56F2D
+     Copy CRC 17E56F2D
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 11
+
+     Filename C:TEMP11 - Steve Bug - Cherry Blossoms.wav
+
+     Pre-gap length  0:00:29.65
+
+     Peak level 96.6 %
+     Track quality 100.0 %
+     Test CRC 2B4ADB04
+     Copy CRC 2B4ADB04
+     Track not present in AccurateRip database
+     Copy OK
+
+No errors occurred
+
+End of status report

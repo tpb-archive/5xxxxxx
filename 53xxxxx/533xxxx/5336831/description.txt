@@ -1,0 +1,73 @@
+3DSimED Features
+
+Windows 32-bit application (Windows 98 & later) requiring OpenGL.  
+Fast display exploiting OpenGL hardware acceleration. 
+Use Of OpenGL GLSL shaders for high quality fast rendering. See Examples 
+Real-time rotation and zooming. Fast textures display.   
+Visual selection of objects, vertexes and faces. 
+Edit multiple drawings in a single instance of 3DSimED. Context help included. 
+Object File Formats Supported
+
+3D Editor support:- Collada DAE (Blender, 3DSMax & others) ; SKP (Google SketchUp) ; 3DS (3DSMax & others) ; .X (Direct X) 
+
+Import:- VHF SGB and MEB (NFS Shift) ; GMT (RACE ON, RACE07, RACE , GTR2, GTR, GTL, rFactor) ; TRK (GTR2, GTL) ; CAR (GTR2) ; VEH (rFactor) ; SCN (rFactor, NSR, F1CC, F1-2002) ; GRF (Viper Racing and Nacsar Heat) ; MOD (Viper Racing and Nascar Heat)  ;  PTF (N2003,N2003,N4) ; 
+3DO (N2003,N2002,N4,GPL,N3,N2,ICR2) ; .MTS (F1CC,F1-2002,NSR) ; P3D (Race Driver) XBX (Ford Racing 3) ; VRL (SCGT, F1-2000)
+
+Export:- MEB (NFS Shift) ; GMT (RACE ON, RACE07, RACE, GTR2, rFactor, GTL, GTR) ; GRF (Viper Racing and Nacsar Heat) ; MOD (Viper Racing and Nacsar Heat) ; 3DS; 3DO (N2003) ; MTS (F1CC,F1-2002) ; .X (Direct X) ; .X (Richard Burn Rally) ; GPS (Bob's Track Builder) ; Update:- .PTF (N2003) ;
+GPL TSO .3DO; ASE for ASE23DO util. 
+Packed Data Formats Supported
+
+Decompression to a folder of:-  .DAT (all Papyrus sims); .MAS (F1CC, F1-2002, NSR, rFactor) ; GTR (GTR, GTR2) ; GTL (GTL).BIG (Toca Race Driver) ; RES, TRK, CAR (Viper Racing and Nascar Heat).
+
+Object Editing
+
+XYZ position and rotation including realtime preview.  
+Delete and Replace with new object. 
+Explode to edit faces and vertices of object. 
+Isolate to open a copy of the memory object in a new window. 
+Open of disk object in a new window. 
+Material Support
+
+Materials loaded from MTS & GMT files. 
+Material editing including assignment of textures, bump mapping, specular mapping, environment mapping,  transparency, specular power etc. 
+Copy and Paste of materials. Filter display of model by material. 
+Copy and Paste.
+
+Copy and paste model data and objects. 
+ Texture Brower.
+
+Browse:- .MIP (all Papyrus sims) ; .BMP ; .TGA; .DDS; .TEX; .PNG; JPG. 
+Conversion (single file or batch)  to:-  .MIP (N2003 & GBL); .BMP; .TGA; DDS ; PNG. 
+Display Control
+
+Filter model display by texture, material, and or object. 
+Walk tracks 
+Cull back facing faces. 
+Quickly change light source position by mouse. 
+Texture, wire frame and flat shading. 
+Geometric Editing
+
+Centre model 
+Calculation of facet or vertex normals. 
+Move/rotate model 
+Re-position model vertices.  
+
+
+TrkMaker Features
+
+Windows 32-bit application requiring Microsoft NET. Framework 1.1 (free download from Microsoft)  
+Starting from GPL or N2003/N2002/N4 create a common database which can then be written to many racing simulator formats or 3DS. All formats written can be read by SimED. In addition. 3DS can be read by many 3D editing applications. 
+Object File Formats Supported
+
+Create database from N2003/N2002/N4 .PTF or GPL .TRK Note that PTF and TRK files supplied with the games N2003 and GPL cannot be opened. 
+Option to allow creation of track database from scratch. 
+Export:- 3DS; PTF (N2003) ; GMT (GTR2, rFactor, GTL, GTR) ; MTS (F1CC,F1-2002) 
+Creation of AIW files converting from N2003/GPL .LP files. 
+Creation of CAM files for GTR2, rFactor, GTL converting from N2003/GPL .CAM files. 
+Database stored in XML format to allow editing using 3rd party applications (e.g. XMLSpy, MS Access etc.) 
+Database
+
+Describes track with simple tables. The track's geometry is contained in Section tables which have child tables describing the cross-section and grips of the track surface. 
+The structure of the database makes it extremely simple to change the material and textures assigned to surfaces both globally and individually. 
+Control of mesh resolution for 3DS, GMT and MTS files. A resolution can be defined for the complete track and then overridden for sections requiring greater or less detail. 
+TrkMaker includes a grid based editor or an external application such as XMLSpy can be used to modify the database.

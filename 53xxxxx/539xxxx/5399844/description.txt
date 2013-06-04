@@ -1,0 +1,16 @@
+This the first milestone release of my game NoZone.
+
+To install and play:
+
+1) Unpack .7z files into a new folder with 7zip.
+
+2a) Run nozone.bat to start the game.
+3a) Press 't'
+4a) Type '/connect ' to join a game. My testing server is at 80.177.160.241
+
+2b) Or start server.bat to start a server.
+3b) Then start nozone.bat and follow the above guide to connect to 127.0.0.1
+4b) Press 't' again and type '/mode 0' for FFA or '/mode 11' for CTF
+5b) Finally press 't' again and type '/map ' to change maps. NoZone's CTF maps are 'nz_field' and 'nz_screw', and it's FFA maps are 'nz_dopefish' and 'nz_ramp'.
+
+That should be all.

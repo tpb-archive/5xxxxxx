@@ -1,0 +1,65 @@
+d888888o.   8 8888      88 8 888888888o   8 8888      88 
+ .`8888:' `88. 8 8888      88 8 8888    `88. 8 8888      88 
+ 8.`8888.   Y8 8 8888      88 8 8888     `88 8 8888      88 
+ `8.`8888.     8 8888      88 8 8888     ,88 8 8888      88 
+  `8.`8888.    8 8888      88 8 8888.   ,88' 8 8888      88 
+   `8.`8888.   8 8888      88 8 8888888888   8 8888      88 
+    `8.`8888.  8 8888      88 8 8888    `88. 8 8888      88 
+8b   `8.`8888. ` 8888     ,8P 8 8888      88 ` 8888     ,8P 
+`8b.  ;8.`8888   8888   ,d8P  8 8888    ,88'   8888   ,d8P  
+ `Y8888P ,88P'    `Y88888P'   8 888888888P      `Y88888P' 
+
+
+                    Steve's Ultimate Boot USB
+                    http://stevereeves.biz
+
+
+
+
+About: SUBU is a bootable USB drive comprised of free and open source operating systems and diagnostic/repair utilities. 
+
+SUBU contains the following tools:
+
+BackTrack 3 Final
+Hiren's Boot CD 10.1
+Hiren's Mini Windows Xp
+Kon-Boot
+OPH Crack 3.3.1 XP
+OPH Crack 3.3.1 Vista
+DBAN 2.0.0 (Darik's Boot and Nuke)
+Memtest86+ 4.00
+Ultimate Boot CD (UBCD) v4.11
+
+
+Requirements: 2 gig's of free space & a computer capable of booting via USB. Patriot USB sticks are recommended. 
+
+
+
+Installation:
+
+
+   Steve's Ultimate Boot USB (SUBU) Installation Guide - - http://stevereeves.biz
+
+
+1. Goto MY COMPUTER and right click on your flash drive. Select "FORMAT" from the drop down menu. Format your flash drive
+to FAT32. A quick format should suffice.
+
+2. Use the Grub4dos tool located in '.READ MEGrub4dosgrubinst_gui.exe'. Select "Disk" and press the "Refresh" button. In the Disk 
+drop down menu select your flash drive. Be 100% sure that you have the correct drive selected, once you are sure the correct drive is selected press the Refresh button next to "Part List". In the "Part List" drop down menu select "Whole Disk MBR".
+
+Press the "Install" button located at the bottom of the window.
+
+3. Copy BT3, HBCD, konboot, OPHVISTA, OPHXP, splash, dban-beta.2006042900_i386.iso, grldr, grub.exe, memtest86+-4.00.iso,menu.lst, and ubcd411.iso to the root of your USB drive.
+
+
+   Installation is complete! 
+
+
+Reboot your computer with your USB drive connected to the PC. Boot to your computer Boot Menu and select Boot to USB.
+
+Your computer should now boot to your SUBU USB Drive.
+
+If you experience any trouble installing SUBU to your USB drive please visit the SUBU forum at http://stevereeves.biz/forum 
+
+Installation instructions can also be found on the SUBU homepage at http://stevereeves.biz
+

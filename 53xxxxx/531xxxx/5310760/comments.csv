@@ -1,0 +1,370 @@
+User Type,Username,Date,Text
+,funforus,2010-01-27T00:54Z,"Neat, how does it work on Windows 7?"
+,d4m4s74,2010-01-27T01:05Z,"I haven't tested it on windows 7 yet, but if you can run vmware workstation it should work."
+,ScreamingDeath,2010-01-27T09:48Z,"Hi! Although I have a mac pro 2008 model, I do use bootcamp windows 7 64-bit quite a lot. Will this work under windows 7 64-bit bootcamp, so that I won't have to boot back up to snow leopard natively?"
+,d4m4s74,2010-01-27T13:49Z,"If you can enable hardware virtualisation while in windows (should be possible using CrystalCPUID's MSR walker) it should be able to work, but I can't guarantee it
+
+I'd say try it out with 10.5.8 first (smaller download)"
+,noVerity,2010-01-27T20:18Z,"I tried it on Windows 7. I get to a screen with the Apple Logo, but then it says Operating System not found and stops responding."
+,d4m4s74,2010-01-27T21:59Z,"noverity, did you read the readme?
+
+redo step 3
+
+Open settings, click CD/DVD
+and open the bootloader.iso
+
+should look a bit like this
+http://img710.imageshack.us/img710/5335/201001261231161440x900s.png"
+,d4m4s74,2010-01-27T22:29Z,"edit: (damn, they should give us an edit function)
+
+I reread your post, it's another problem, it reboots (at boot)
+try pressing F8 a couple of times when opening the VM
+if it asks if you want to boot from cd or hd you're too early, click H and press it a couple of times more.
+
+then finally once you can enter boot options enter -v (verbose) and tell me when it reboots"
+,noVerity,2010-01-27T22:46Z,"hmm thats hard. It's only for about half a second on sreen. The last thing i could see was something like ""EFI Runtime returned"" and a few lines after that.
+"
+,d4m4s74,2010-01-27T22:58Z,"try to record it
+pause the vm when you boot it (press f12 or f8 a couple of times so it asks you something)
+press ctrl-alt to free your mouse, in the vm tab click capture movie, then go on with booting (in verbose) then you can watch it back and pause it to see what it says."
+,mhermanus,2010-01-28T03:38Z,Maybe somebody have Rebel Efi? Please...
+,d4m4s74,2010-01-28T09:21Z,"I did some research
+noVerity, do you have a core2 duo or quad?
+You might have to change the kernel.
+
+What processor have you got?
+I'll give you directions on fixing it as soon as I know.
+
+and mhermanus, rebelEFI doesn't work anymore. The Kext server is down.
+
+also, read this:
+http://prasys.co.cc/2009/10/psystars-rebel-efi-is-evil"
+,noVerity,2010-01-28T16:52Z,I should have read it more carefully. I have a AMD CPU no wonder it didn't work. Sorry for stealing your time. I will try a AMD compatible one.
+,d4m4s74,2010-01-28T19:58Z,"You could try to install an AMD kernel
+http://nawcom.com/osx86/files/Kernels/Darwin-10/10.2.0/legacy_kernel-10.2.0.pkg.zip
+
+but you will need an OS X cd (image) to install it if you can't boot
+
+I don't exactly know how this works so you'll have to do some googling"
+,poon!!,2010-01-28T21:28Z,"Works without any problems on Windows 7 64 Enterprise. 
+Thanks a lot for this one. 
+I will continue to seed, so far I have uploaded about 100GB, have 100/100Mbit line :-)"
+,PROTEOUS271158,2010-01-29T04:36Z,"Could you explain #3 in the instructions a little clearer please?
+Do you mean mount the boot image in  a virtual disk like magic disk on the desktop,...then browse to it from where it says Use ISO image in the edit settings of VMWARE Workstation?"
+,d4m4s74,2010-01-29T20:06Z,check the sixth post
+,arl1ngton,2010-01-30T12:46Z,"Hi d4m4s74, this is ""#%#造% awesome, 2 questions:
+
+1. Can i do software update from within osx?
+
+2. Those performance optimizing vmware tools.. are they installed? do i need to install them ?
+
+And lastly thanks sooo much, this is the most happy i have gotten about warez since i dont know when : )"
+,arl1ngton,2010-01-30T13:33Z,"okay, so iwork 09 plus other QE/CI enabled apps wont work under vmware, and development of stuff that might fix it seems to be at a standstill, correct me if im wrong : /
+
+Too frikin bad "
+,arl1ngton,2010-01-30T17:07Z,"3 message : )
+
+So there's a workaround 
+
+http://www.insanelymac.com/forum/index.php?showtopic=67226&pid=477069&mode=threaded&start=#entry477069
+
+the guy there posted some screenshots, but the pictures and thus the settings have been lost... go figure : )"
+,d4m4s74,2010-01-31T14:32Z,"As far as I know you can do software updates without problems, I did it and I'm still alive.
+
+also, vmware tools are installed, but I'm not 100% sure they're performance enhancing"
+,pony2006,2010-02-01T02:18Z,"great torrent. will anyone be doing a 32bit version?
+I have the 64 bit version working, but not for long periods of time.
+Thanks"
+,ScreamingDeath,2010-02-01T21:54Z,"Hi, do you just have the bootloader.iso for download? I already have snow leopard 10.6.2 on dvd. All I need is the bootloader
+
+Thanks,
+
+Screamingdeath"
+,OlympusDeadPool,2010-02-01T22:54Z,Can someone please make this work on AMD Or tell me how to make it work on AMD?
+,ninj0e,2010-02-03T03:06Z,"Hello everybody, I've beem trying to install OSX for ages on my ASUS laptop, but nothing has worked for me, i tried booting from USB, from DVD, u name it, then i tried VMWare and it didnt work either. So i find this torrent, and on the instructions says very clearly: ""NOTE only works on Intel pcs with hardware virtualization enables"" And this worries me because my CPU is not capable of such thing, so do u guys recommend givin it a try? Or it just wont work?"
+,ninj0e,2010-02-03T03:09Z,EDIT: My CPU is an Intel Core 2 Duo P7450 @ 2.13GHz
+,bimbo2003,2010-02-03T19:45Z,"d4m4s74 please help me with this:
+When i start (play virtual machine) i got a message: Error while powering on: Unable to open file ""D:\Incoming\Hudournik\Mac OS X 10.6.2\Mac OS X 10.6.2\Mac OS X Server 10.6 (experimental)\Mac OS X Server 10.6 (experimental).vmdk"": The system cannot find the file specified."
+,pony2006,2010-02-05T00:47Z,a 32bit version? please?
+,LunaLife,2010-02-06T09:40Z,"i got this error ""Mac OS X is not supported with software virtualization. To run Mac OS X you need a host on which VMware Workstation supports hardware virtualization."""
+,LunaLife,2010-02-06T09:54Z,i use win7 x64
+,d4m4s74,2010-02-06T23:43Z,"try to enable hardware virtualization (in the bios) (possible on most intel cores (core 2 duo all the way to core i7)
+if that's possible you can run this
+if not, I'm sorry, you're screwed"
+,d4m4s74,2010-02-06T23:44Z,"also, bimbo, did you extract the whole (and all) archives?
+because it says the file is missing"
+,tuvokk,2010-02-07T01:58Z,"Thanks for this, well done! Now I can have a look at this Mac OS and then tell my Aunt living on the other side of the globe how to configure her macbook !
+
+Runs fine with (latest) VM Player on windose XP 
+
+Does not run with (latest) VM Player on OpenSuse 11.1 64 bit,, says wrong Hz, disables CPU, whatever setting I try.
+
+Both on same PC, MB Asus MB P5KPL/1600 with 3GHz Intel Core Duo."
+,d657465,2010-02-07T04:53Z,"Hi poon!!, which version of vmware are you using?
+
+Thanks a lot"
+,itgab,2010-02-07T12:56Z,"Hi d4m4s74, seems a great job. Downloaded fine, changed dvd pointing to iso... boots up but after a while (while ""loading Darwin x86"") I get ""Invalid front side bus frequency 66000000 Hz. Disabling CPU ..."" . Any clue? Tried to press F8 and -v option and everything load fine till last one TMSafetyNet.kext   
+Running on Asus 2core 2,16Ghz 3GB RAM Win XP PRO SP3 and vmware Workstation 7.0.1"
+,itgab,2010-02-07T15:30Z,update... my Intel速 Pentium速 Processor T3400 seems to not support Hardware Virtualization...
+,d657465,2010-02-07T21:03Z,"Hi,
+I have the exact same problem that itgab. But my system supports hardware virtualization and it's enabled in the bios.
+I'm using vmware 6.5.1, windows 7 64 and my processor is intel i7 920.
+Any suggestions?
+
+Thanks a lot."
+,tintin04,2010-02-08T04:48Z,"It's great! work like a charm.
+
+But sometime get kernel panic if do nothing for a while. I think b.c the macosx try to sleep and cause kernel panic.
+
+Anyone has the experience to solve it ?
+Thanks"
+,d4m4s74,2010-02-08T12:00Z,"simply turn off sleep in the settings menu (I couldn't do it on default because I removed all user accounts before spreading)
+
+Click system preferences in the tray
+then Energy Saver
+
+The rest should be obvious"
+,robertrl,2010-02-10T00:41Z,"Ok, I just signed up specifically to say how awesome you are! 
+I don't know if it was you, the new vmware player, or a combination there of, but now all the vmware tools feature work!
+I can move my mouse in and out of the OS, copy and paste, and even resize the window!
+Holy crap man! Good job!
+
+
+PS. I had the ""disabling the CPU"" issue, and I got around it by installing vmware player 3.0"
+,nambud,2010-02-11T23:36Z,"Excellent... a big download but just what I was looking for... I went out and upgraded to a VT enabled 64 Intel CPU... as the old 32 bit version was so slow on my old hardware. 
+
+Anyway I'm having problems with freezing when I boot up the guest, infact any guest (OSX or XP32b) which I try and run with VT enabled in the bios on either 32b Kubuntu 9.10 or 64b Kubuntu 9.10... I'm thinking it must be a hardware problem perhaps my motherboard (GA-945GZM-S2) 2MB Ram, Intel E6500 with VT... anyone with any experience with these things ?
+
+I've tried the latest 3 versions of Vmware-workstation and vmware-server 2.2 all freeze just as the guest starts to boot.
+
+Thanks"
+,aktp,2010-02-12T12:04Z,"hi
+
+i am getting the
+
+""Invalid front-side bus frequency 6600000 Hz""
+""CPU DISABLED""
+
+my processor is ""Intel(R) Core(TM)2 Duo CPU T6670 @ 2.20GH""
+
+thx"
+,aktp,2010-02-12T12:05Z,"also vmware ver - 6.5.1....
+host os : vista
+
+
+thx"
+,d4m4s74,2010-02-12T13:58Z,"aktp, try the newest workstation/player"
+,d4m4s74,2010-02-12T14:00Z,"nambud, try to change the allocated memory to the recommended amount  (or at least somewhere below the blue arrow)"
+,maxerl,2010-02-13T08:51Z,is there a change to get it running on a single-core system like Intel Pentium 4 or Celeron or does it have to be a dual core?
+,magnumzip,2010-02-17T19:02Z,"d4m4s74:
+the last lines looked like this when i ran the image in verbose -v;
+Loading HFS file: [/usr/standalone/i386/efi_runtime] from 4230470
+EFI runtime returned 0
+Starting Darwin/x86_
+
+thats when the vmware image reboots again, how do i fix this problem? 
+i am using intel 2.13GHZ 4GB core i3 64 bit laptop and have intel VT-x enables in the bios. "
+,bdfortin,2010-02-17T21:59Z,Any idea how to get this working in VMWare Fusion? It keeps complaining that the guest OS isn't OS X Server.
+,nambud,2010-02-19T00:01Z,"Thanks d4m4s74 i tried that... and still get freezing, but its a general problem with my setup somehow as any 64 bit os Linux or Mac osX ran with VT freezes... I'm really wondering if its a problem with my mother board ? its a GA 945GZM-S2 ? Any ideas ?
+
+I tried to turn on debuging in vmware... but the log file is blank (0)..."
+,Sdraer,2010-02-20T23:58Z,"@d4m4s74
+
+THANK YOU!  so much!   I have been trying to get a working VMWARE Image for soo long.
+
+Works great with:
+Core i7 920
+Core 2 duo (mid 2009 macbook pro)
+
+both running windows 7 64bit and VMware 7.0
+
+CHEERS!"
+,ikkeno,2010-02-26T16:28Z,"Thanks alot man! I have wanted to try out Mac OS X forever, and I have downloaded all the other torrents, but none worked. So I gave up. And I tryed this, and it worked! wow, you are great! Thank you!"
+,jesus123456,2010-03-01T10:14Z,"@LunaLife
+
+you need to enable virtualization in your bios, its just saying that your CPU wont allow it."
+,corruptedSoul,2010-03-01T11:15Z,"You MUST have:
+1. an Intel CPU:
+1.1 with Intel VT-x
+1.2 not all Intel CPUs with Intel 64 have Intel VT-x
+
+2. motherboard BIOS that supports Intel VT-x
+2.1 Intel VT-x activated in BIOS, most are disabled by default
+2.2 there are still quite a number of mobo BIOS that don't support Intel VT-x
+
+3. VMware (either one)
+3.1 VMware Workstation 7 and above
+3.2 VMware Player 3 and above
+3.3 VMware Fusion 3 and above
+3.4 not sure which version of VMware Server is required.
+
+if display is screwed up, just resize VMware window (or restore/maximize) and back, and the display should refresh itself.
+
+Video/Audio is smooth. Just having minor glitches with some OpenGL apps. A bit laggy compared to your 10.5.8 release, but i guess that was expected. Any way to enable  64-bit Kernel and Extensions? That might help improve performance.
+
+Great work and thanks for the upload!"
+,marcink99,2010-03-02T05:03Z,Please help for some reason I cant boot from the image. I use workstation 7 I have hv enabled. When I set workstation to load from the image it nothing pops up. If i press f8 and than boot from cd it tells me that its a wrong disk and to put mac osx disk in please advise
+,winchendonsp,2010-03-09T04:07Z,"Not working for me. Seems I'm having similar trouble to others.
+
+I have Workstation 7, Virtualization is enabled in Bios, Virtual image points to the bootloader.iso in settings.
+
+Workstation ""Hint"" - The CPU has been disabled by the guest operating system. You will need to power off or reset the virtual machine at this point.
+
+Apple boot screen reads - 
+
+Loading Darwin/x86
+Invalid front-side bus frequency 66000000 Hz.
+Disabling the CPU ...
+_
+
+Okay - something I noticed was in Workstation settings under OPtions>General>Guest Operating System it was set to Microsoft Windows. I changed the radio button to Other> and Version>Other
+
+Any ideas ?"
+,poop.2345,2010-03-11T10:28Z,"This VM worked great right out of the box! Thanks! I want to get the display larger than 1024x768. Do I need to find a better driver? I have an Asus EAH3650, but I don't see Mac drivers out there for it. I guess this is the fun with Hackintosh?"
+,pinz1,2010-03-13T18:55Z,"seed please! im getting only 20kbps :/
+
+if a few people can seed at like 100k for just a few days it'll be amazing!"
+,koolguy_ani,2010-03-15T11:52Z,"I am using vmplayer 3 and that too on intel i3m processor,that has vtx technology..i edited the virtual pc and set the cd rom options to the boot loader;but the apple logo arrives and it restarts itself.
+I tried in vmware workstation,but in it i get an error stating virtual cpu shutdown..
+Please help me!!!
+
+thanxx!!"
+,s4vy,2010-03-19T13:16Z,"This works perfectly fine on my PC - except no internet on Network Bridge connection type
+My PC specs:
+i7-860 --6GB DDR3 -- ATI 4350 
+Instructions are simple. Download the torrent, unrar.
+There would a folder for MacOSx in it would be the VMware files. Open VMware 7 workstation and locate the file bootloader.img and change any settings for the processor and memory if u want. Rest all just follow the instructions. If you want to check if your processor would support VT here's the link
+http://www.tomshardware.com/news/windows-xp-mode-virtualization-intel,7709.html
+
+To download the VMware 7 
+http://thepiratebay.org/torrent/5138002/VMware.Workstation.v7.0.0.203739.Incl.Keymaker-EMBRACE%28Murlok%290"
+,Baemon,2010-03-20T10:31Z,"This is the best OS X vmware image ever!
+Thank you so much."
+,ZSamuels28,2010-03-24T20:03Z,"This worked great on my Asus G73JH-A1, I think the motherboard is the Intel HM55 it has an i7 720 on it.  I'm surprised how easy it was to install... everything worked great, sound, display... even the resolution was fixed...."
+,kamen555,2010-03-26T14:08Z,"Internet and sound works.  I have Windows Vista 32-bit and Intel Q6600, 3GB ram. Great image."
+,lanceroxas08,2010-03-31T10:59Z,I like to install mac os x 10.6.2 on my asus x80 can you tell me if I can install this  mac os x in the drive c and can I make it my difolt os plc help me with my question tnx
+,lanceroxas08,2010-04-05T11:58Z,guys can you help me about this problem I'm thingking if I install this on my laptop I just like to know if the voice over will work I'm a blind mac user tnx for the help so plz reply to this
+,EmilRuda,2010-04-12T17:13Z,"Works out of the box with W7 host, no problems!
+
+But, I would like to increase the disk size to some 120, so that I can try out Final Cut Studio 3.
+
+Could someone please help me by writing a FOR DUMMIES instruction about how to increase the disk size? (I can increase the disk size in VMware, but then i am stuck.)
+"
+,A-Dev,2010-04-13T22:46Z,"I'm having problems getting into the install.
+When I boot from ""first hard disk"" an error comes up:
+
+system config file '/com.apple.boot.plist' not found.
+
+solutions anyone?"
+,EmilRuda,2010-04-22T17:49Z,"@ bastard182,
+
+Yes you can, but if you want to install ""Final Cut Pro"" then you must first increase the disk size. You may find instructions about how to do that among the comments on http://thepiratebay.org/torrent/5492956/Mac_OS_X_10.6.2_for_VMware_-_working_
+Look for ""CCC""!"
+,comefly,2010-05-04T10:33Z,"it works perfectly well, thanks!"
+,tonmey,2010-05-27T08:51Z,"This is nice, since this is much bigger than another one from Russia, so I assume this is better. For example, does this one fully support 3D acceleration in vmware7? 
+Anyone knows?"
+,ausshadu,2010-06-05T08:56Z,"Is this 32-Bit Image ????????????
+Please Reply me................
+
+Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please Please "
+,ausshadu,2010-06-05T08:58Z,"Intel Core 2 Duo - E7300 - 2.66 GHz....
+4GB DDR2
+NVidia GeFore 9400GT XFX 1GB DDR2
+Intel DG31PR Board
+
+Will it Run on my Machine ????????
+Please "
+,mattharb,2010-06-09T20:26Z,"Not working here either.
+
+Using VMware Player 3.1 on Windows 7 64 with virutalization enabled in CPU.
+
+On starting VMware Player, I choose ""Open a Virtual Machine"" and then select ""Mac OS X Server 10.6 (experimental).vmx"" from where I unrar'd everything.
+
+I set the CD/DVD as specified to bootloader.iso.
+
+However, whenever I view the Hard Disk tab under options, or whenever I try to start it, I get the error, ""The file specified is not a virtual disk."""
+,mattharb,2010-06-09T21:38Z,"Ignore my post above, got it working. Just deleted everything and unrar'd again. Worked this time. Must have somehow corrupted it the first time."
+,peidcud,2010-06-12T11:16Z,"hey, mine won't work. Got leopard to work but this file just doesnt want to work.
+
+The message coming up says ""Mac OS X is not supported with software virtualization. To run Mac OS X you need a host on which VMware Workstation supports hardware virtualization.""
+
+I have:
+
+Windows 7, 32-bit w/ intel core2 duo and I'm trying to run it on VMware workstation 7.
+
+If solution, will seed! Haha, but seriously please help!"
+,oojoe,2010-06-16T23:03Z,"Nice work -- best OS X available for Intel.  
+
+Does anyone know what the root password is (SU password)?
+
+thanks."
+,peidcud,2010-06-17T05:38Z,help me please!!! I still can't get mine to work!!
+,oojoe,2010-06-17T20:24Z,"duh -- I just figured out the root password was not enabled.
+
+Here's how to enable it. 
+
+http://support.apple.com/kb/HT1528"
+,julion2,2010-06-19T01:13Z,"aaaa
+
+what is the password
+
+please, helpppppppp
+
+
+passwordddddd"
+,Jaraguala,2010-06-19T02:07Z,"Apparently the password is ""password""."
+,julion2,2010-06-19T02:42Z,"NOT
+
+""password""
+
+NO
+
+
+PLEASE
+
+WHAT IS THE PASSWORD?"
+,allanonong,2010-06-23T13:11Z,"Followed the instructions to install and it start up ok. Thanks for the sharing.
+
+However, after using it for 10-15 minutes, I get the VMWare error that the guest system disabled the CPU, and then a gray window inside MacOSX says ""You need to restart you computer. Hold down the Power button until it turns off, then press the Power button again.""
+
+Anyone knows how to fix this problem?
+
+Thanks."
+,trashcan889,2010-09-04T21:01Z,"Hello ive been having an issue I have a 32 bit pentium 4 HT and when i try to load the bootloader.iso it just sticks at the following screen:
+
+http://img842.imageshack.us/img842/300/macso.png
+
+Let me know if im doing something wrong"
+,brandon0011,2010-09-05T06:46Z,"how do i download the torrent? when i select ""download this torrent"", it is a very small file, not the 10.52 GB i am expecting."
+,JPeterson,2010-11-06T07:41Z,"@allanonong same problem here. but it's even more frequent than that for me. I have a core 2 duo BX80571E7500, so I'm using the intel virtualization, if that makes a difference."
+,Zon9d,2010-12-08T22:02Z,We need more seeders
+,george.jester,2010-12-22T18:19Z,"Thanks, it works great on my Intel i7 870, ASUS P7P55D-E EVO, Gigabyte Nvidia GeForce 9800GT with VMWare Workstation 7.0.1. I assigned 2 more processors to the virtual machine, so it uses 4 CPUs now.
+
+Do not forget to explicitly set the bootloader.iso image for the CD/DVD before running it!
+
+Strangely enough, I even successfully ran the Apple system update and now it is running the 10.6.5! Just had to restart it and remount the bootloader.iso image! :-)"
+,george.jester,2010-12-22T18:23Z,...I just had to disable the Computer Sleep in System Preferences > Energy Saver. Otherwise it would freeze the VM when triggered.
+,kshans,2011-01-15T19:45Z,MAN ... What is the password to extract zip file ???  
+,orhancc,2011-01-22T21:06Z,works perfect. thank you.
+,orhancc,2011-01-23T17:13Z,i have installed ios sdk and xcode but i wont run. is there any fix for this.
+,BruceDeVries,2011-02-26T04:16Z,"VmWare workstation 7.1 Windows 7 32 bit Intel Core 7.  Loaded and works except for sound.  When I look at internal sound it says there is none.  Any suggestions?  Also when I tried using a Magic Jack it tells me to reinsert it, but that does not help.  Updates worked perfectly.  I guess the serial number isn't banned yet.  Thank you for all your hard work!"
+,Hemske2,2011-03-04T12:36Z,"It works like a charm, except for the sound.
+
+Thanx!!!
+
+I have tried it on an old laptop, HP 8710w with win7 64-bit and it just started right up."
+,yxli,2011-04-28T12:26Z,"hi, i am trying to install mac in workstation 7.1 but encountered this problem while installing.
+
+system config file '/com.apple.boot.S/Library/Preferences/SystemConfiguration/com.apple.Boot.plist' not found
+
+the previous line appeared for a short while then there is a prompt to type -v, and then the next page the two digit hex boot device, i keyed in and it returns to the prompt page. this loop continues no matter what i key in?
+
+any idea what the problem is?
+
+thanks and regards"
+,deno028,2011-05-19T14:35Z,"hi d4m4s74,
+I downloaded it and install in vmware 7.1.4 when I type -v it load until the line: ""...MsafetyNET] from 4234070....EFI runtime returned 0"" and it popup a crash: ""A virtual CPU has entered the shutdown state..."". I used the intel Processer Ultility to check that my cpu support VT. Can you please help me. My computer is: intel core i3 540, gigabyte H55M UD2H.
+"
+,Spyboth,2011-08-02T20:03Z,"Hi! i already update the ios to 10.6.8 but restarting the machine i get an error ""Operating system not found"", how can i fix this?
+
+Thanks!"

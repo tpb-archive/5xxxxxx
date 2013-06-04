@@ -1,0 +1,32 @@
+*******************************************************************************
+
+*******************************************************************************
+
+-------------------------------------------------------------------------------
+                                 Release Notes
+-------------------------------------------------------------------------------
+
+Fallout Revived Installer 1.3.5.0
+
+This installer will take care of everything. Contains the unofficial patch
+(version 1.3.5) by TeamX and the High Resolution Patch made by Mash (2.2b).
+
+Many thanks for them making it possible to play with this decade-old game even
+on Windows 7 x64!
+
+After installation, check out the valueadd folder, it provides a few additions.
+
+Install: just use the exe provided, it will install to "Games" in your user
+folder. Then you can run Fallout from the Start Menu.
+
+If the game crashes on run, check whether fallout.cfg exists. If it doesn't,
+run bs_run.bat and it will create it. If it fails for some reason, copy
+fallout.cfg.in to fallout.cfg, and replace the REPLACEME string with the
+install path everywhere (5 occurrences in total).
+
+Uninstall: go to Control Panel, and use "Add or remove programs" or "Uninstall
+a program". Alternatively, use "Uninstall" from Start Menu.
+
+*******************************************************************************
+
+*******************************************************************************

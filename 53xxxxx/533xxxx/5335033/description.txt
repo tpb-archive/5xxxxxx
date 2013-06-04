@@ -1,0 +1,35 @@
+Instructions:
+======================
+
+
+For BitDefender 2010
+
+1. Install BitDefender2010 but {DO NOT RESTART YOUR COMPUTER}. 
+
+(If already installed, then see Note A below.)
+
+
+2. Execute the TR and restart your computer.
+
+
+3. Adjust the BD settings, update, and do a full scan of your computer.
+
+
+4. To remove the TR, just click the <Uninstall>. 
+
+
+The uninstall will convert the BD back to a 30-day trial version.
+
+(You should uninstall the TR and restart the computer before uninstalling the 
+
+BitDefender itself. IF you don't, BD will generate a bug report.)
+
+
+
+Note A: If BD2010 is already installed, then you must install in TR in Windows Safe Mode
+
+(F8) using an Administrator account or uninstall BD then repeat the steps above.
+
+NOTE B: When using the TR with Total Security, the Online Backup feature does not work
+
+because you don't have an account with BD.

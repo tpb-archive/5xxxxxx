@@ -1,0 +1,32 @@
+Fraps (derived from Frames per second) is a benchmarking, screen capture, and real-time video capture utility for DirectX and OpenGL applications. It is commonly used to determine a computer's performance with a game, as well as record gaming footage. The program is very popular in the making of amateur machinima films. Fraps can take screenshots in various formats: BMP, TGA, JPEG, and PNG. However, only the BMP format is available in the freeware version. In its current form Fraps performs many tasks and can best be described as: 
+â€¢ Benchmarking Software - Show how many Frames Per Second (FPS) you are getting in a corner of your screen. Perform custom benchmarks and measure the frame rate between any two points. Save the statistics out to disk and use them for your own reviews and applications. 
+
+â€¢ Screen Capture Software - Take a screenshot with the press of a key! There's no need to paste into a paint program every time you want a new shot. Your screen captures are automatically named and timestamped.
+â€¢ Realtime Video Capture Software - Have you ever wanted to record video while playing your favourite game? Come join the Machinima revolution! Throw away the VCR, forget about using a DV cam, game recording has never been this easy! Fraps can capture audio and video up to 2560x1600 with custom frame rates from 10 to 100 frames per second!
+
+
+The lossless Fraps codec allows decoding of Fraps-encoded videos (using a media player capable of decoding the AVI container format) or transcoding to other video formats (with the use of the right software). The Fraps video codec manages to capture videos with minimal impact on game performance, as it has been optimized to achieve compression higher than uncompressed RGB, resulting in smaller filesizes, though the lossless format is considerably less space-efficient than more heavily compressed lossy video formats such as DivX. This is because encoding on-the-fly to a high-compression format such as DivX would have a large negative impact on game performance (as of 2007) and only a very fast hard drive could record the immense amount of data produced in using uncompressed video. The Fraps format is a compromise of the two.
+
+The system requirements for this version of Fraps are:
+â€¢ DirectX 9.0c or DirectX 10
+â€¢ Requires Administrator rights
+â€¢ Supports all modern CPU's (Pentium 3 and above)
+â€¢ Captures fastest with an NVIDIA GeForce or ATI Radeon graphics card
+â€¢ Windows 2000, XP, 2003, Vista and Windows 7
+
+Fraps 3 - New features and a new look!  Fraps is now compatible with Windows 7 and the latest DirectX 11 games.
+Ventrilo & TeamSpeak users have long wanted a way to record their microphone and speakers at the same time.  For Windows 7 and Vista we've added realtime sound mixing to our video recording so you can now capture both sides of the conversation!
+
+NVIDIA have recently included stereoscopic 3D support directly into their drivers.  If you play your DirectX9 (D3D9) game with 3D Vision enabled you can use Fraps to record the game in full 3D too!  You'll get a side-by-side stereo AVI recording that you can drop straight in to a stereoscopic 3D player!
+
+Finally, we are aware that more and more people are putting Fraps to professional use.  We've added a new option to force lossless RGB compression to ensure that you always have the highest quality video output to work with.
+
+Changes in Fraps 3.1.0:
+- Added option to capture videos with framerate locked or unlocked
+- Fixed startup crash for some Intel i5/i7 configurations under Windows 7 
+- Minimum recording speed is now 1 fps to allow for time lapse recording
+- Fixed vista desktop recording not capturing mouse cursor
+- Fixed sound length for Vista/Win7 recordings
+- Added large address support to 32-bit codec
+- Fixed window starting off screen on some multi-monitor systems
+

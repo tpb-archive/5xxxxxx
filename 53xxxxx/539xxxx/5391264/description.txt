@@ -1,0 +1,34 @@
+Why Box Shot 3D?
+
+There are many virtual cover applications that cost less than Box Shot 3D. One may think $60 is too expensive for this kind of software but we donâ€™t think so. Letâ€™s dig deeper: There are two main types of virtual cover applications: Hardware accelerated and Software renderers.
+
+Hardware accelerated renderers
+
+Hardware accelerated renderers require modern 3D acceleration hardware that may cost hundreds of dollars. But even if you already have this hardware, your result may be poor as there are no hardware renderers that can calculate sky dome lighting.
+
+Software renderers
+
+Software renderers donâ€™t require 3D acceleration hardware and thus perform all calculations on the CPU. There are two types of software renderers: polygonal and raytracing. Polygonal renderers calculate light in the corner of objects and interpolate it over the object. Raytracing renderers perform physical simulation of light distribution and produce photorealistic images.
+
+Now for the facts:
+
+1. There are no hardware accelerated cover renderers that can calculate smooth shadow.
+2. There are no polygonal software renderers that can calculate sky dome lighting.
+3. Most polygonal software renderers use fake shadows.
+4. Most virtual cover renderers use simplistic lighting.
+5. Most virtual cover renderers canâ€™t calculate correct shadows on the faces of complex objects (such as open books)
+
+Box Shot 3D is the only virtual cover software that can do these things:
+
+1. Calculate true physically simulated shadows.
+2. Calculate sky dome lighting.
+3. Allow fine tuning of the lighting environment. (Direct, ambient, specular, sky dome).
+
+OS version: Mac OS X 10.4.11 or later
+
+Link for more information: http://www.boxshot3d.com/
+
+
+Courtesy of Nowsendit
+
+Newer versions will not accept the serial and disable the renders

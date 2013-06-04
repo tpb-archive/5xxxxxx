@@ -1,0 +1,165 @@
+El dia de la bestia, [Dvdrip-XviD-Ita Esp Mp3- Softsub Ita Esp][tntvillage.scambioetico.org]
+
+DESCRIZIONE
+
+Titolo Originale: El Dia De La Bestia
+Regia: Alex De La Iglesia
+Paese: Spagna, Italia
+Sceneggiatura: Alex De La Iglesia e Jorge Guerricaechevarria
+Fotografia: Flavio Martinez Labiano
+Musica: Battista Lena
+Scenografia: Jose Luis Arrizabalaga e Biaffra
+Montaggio: Teresa Font
+Durata: 98'
+Anno: 1995
+Genere: Commedia/Horror
+
+PERSONAGGI E INTERPRETI
+
+Prete Angel BerriartÃ¹a: Alex Angulo
+Jose Maria: Santiago Segura
+Professor Cavan: Armando De Razza
+Rosario: Terele Pavez
+Mina: Nathalie Sesena
+Susanna: Maria Grazia Cucinotta
+Il Produttore Televisivo: Gianni Ippoliti
+Sacerdote Anziano: Saturnino Garcia
+Nonno Terminale: Pololo
+Conferenziere: Daniel Cicare
+San Giuseppe zingaro: Jose Colomina
+Vergine zingara: Paloma Montera
+
+TRAMA
+
+Un prete di provincia che per venticinque anni ha studiato l'Apocalisse di San Giovanni Ã¨ convinto di aver decifrato il messaggio nascosto tra le righe del testo sacro: I'Anticristo nascerÃ  a Madrid il 25 dicembre 1995. Il prete, sicuro di essere l'eletto che dovrÃ  fermare l'"avvento demoniaco", parte alla volta della capitale spagnola. Per avvicinarsi al diavolo l'unica strada praticabile gli sembra quella di esercitare a sua volta il male. Intraprende, dunque, una carriera da delinquente che lo porterÃ  a commettere varie nefandezze. Con l'aiuto di una lunga serie di strampalati personaggi riuscirÃ  a capire cosa si nasconde dietro il mistero del testo sacro.
+DATI TECNICI
+
+[ Traccia video ]
+
+FourCC: xvid/XVID
+Risoluzione: 624 x 320
+Frame aspect ratio: 39:20 = 1.95
+Pixel aspect ratio: 1:1 = 1
+Display aspect ratio: 39:20 = 1.95
+Framerate: 25 fps
+Frames totali: 149376
+Stream size: 963,904,879 bytes
+Bitrate: 1290.575298 kbps
+Qf: 0.258528
+Key frames: 1824 (0; 125; 192; 317; 442; ... 149320)
+Null frames: 0
+Min key int: 1
+Max key int: 125
+Key int medio: 81.894736
+Ritardo: 0 ms
+
+[ Traccia audio - Italiano ]
+
+Audio tag: 0x55 (MP3)
+Bitrate: 132.64 kbps VBR
+Canali: 2
+Frequenza: 48000 Hz
+Chunks: 248960
+Stream size: 99,069,168 bytes
+Ritardo: 0 ms
+
+[ Traccia audio - Spagnolo ]
+
+Audio tag: 0x55 (MP3)
+Bitrate: 127.96 kbps VBR
+Canali: 2
+Frequenza: 48000 Hz
+Chunks: 248960
+Stream size: 95,576,304 bytes
+Ritardo: 0 ms
+
+[ Info sulla codifica MPEG4 ]
+
+User data: XviD0046
+Packed bitstream: No
+QPel: No
+GMC: No
+Interlaced: No
+Aspect ratio: Square pixels
+Quant type: MPEG
+Frames totali: 149376
+Drop/delay frames: 0
+Frames corrotti: 0
+
+I-VOPs: 1824 ( 1.221 %)
+P-VOPs: 75000 ( 50.209 %) #############
+B-VOPs: 72551 ( 48.569 %) ############
+S-VOPs: 0 ( 0.000 %)
+N-VOPs: 1 ( 0.001 %)
+
+Max consecutive B-VOPs: 1
+
+Compatibile lettori stand alone
+
+Codec: XviD 1.1.2
+Mode: 2-pass
+Bitrate: 1299 kb/s
+B-Vop: 1, 1.00, 0.00
+Trellis: OFF
+Chroma motion: OFF
+VHQ: 2
+VHQ for B-Frames: ON
+High Bitrate scene degradation: 10%
+Low bitrate scene improvement: 10%
+
+[ Script ]
+
+Script ottimizzato con HGAVSOpt, <500><100><50><8>:
+
+P1 4.96% (7407 of 149377 frames)
+P2 7.64% (11407 of 149377 frames)
+P3 13.92% (20794 of 149377 frames)
+P4 18.76% (28021 of 149377 frames)
+P5 24.06% (35940 of 149377 frames)
+P6 16.42% (24522 of 149377 frames)
+P7 8.24% (12308 of 149377 frames)
+P8 2.95% (4410 of 149377 frames)
+P9 3.06% (4568 of 149377 frames)
+
+mpeg2source("F:El dia de la bestiaVTS_03_1.d2v", info=3).ColorMatrix(hints=true)
+crop(6,94,710,398)
+#OPTIMIZATION
+P1=last.LanczosResize(624,320).fft3dfilter(sigma=1.1, bt=3, bw=32, bh=32, ow=16, oh=16, sharpen=0.3)
+P2=last.BicubicResize(624,320,0,0.5).fft3dfilter(sigma=1.2, bt=3, bw=32, bh=32, ow=16, oh=16, sharpen=0.2)
+P3=last.BicubicResize(624,320,0.1,0.45).fft3dfilter(sigma=1.3, bt=3, bw=32, bh=32, ow=16, oh=16, sharpen=0.1)
+P4=last.BicubicResize(624,320,0.15,0.425).fft3dfilter(sigma=1.4, bt=3, bw=32, bh=32, ow=16, oh=16, sharpen=0.0)
+P5=last.BicubicResize(624,320,0.2,0.4).fft3dfilter(sigma=1.5, bt=3, bw=32, bh=32, ow=16, oh=16, sharpen=0.0)
+P6=last.BicubicResize(624,320,0.25,0.375).fft3dfilter(sigma=1.7, bt=3, bw=32, bh=32, ow=16, oh=16, sharpen=0.0)
+P7=last.BicubicResize(624,320,0.3,0.350).fft3dfilter(sigma=1.9, bt=3, bw=32, bh=32, ow=16, oh=16, sharpen=0.0)
+P8=last.BicubicResize(624,320,0.33333,0.333335).fft3dfilter(sigma=2.1, bt=3, bw=32, bh=32, ow=16, oh=16, sharpen=0.0)
+p9=last.bilinearResize(624,320).blur(1.5) --> coda e testa
+
+P9.trim(0,191)+P3.trim(192,580)+P4.trim(581,875)....
+undot()
+
+[ Analisi DRF (corretta) ]
+
+Fine titoli di testa: 00:00:22 (22 s) - frames ignorati: 550
+Inizio titoli di coda: 01:36:38 (5798.4 s) - frames ignorati: 4416
+
+DRF medio: 2.680220
+Deviazione standard: 0.471279
+DRF max: 4
+
+DRF=1: 222 ( 0.154 %)
+DRF=2: 45844 ( 31.746 %) ########
+DRF=3: 98234 ( 68.025 %) #################
+DRF=4: 109 ( 0.075 %)
+DRF>4: 0 ( 0.000 %)
+
+I-VOPs DRF medio: 2.352017
+I-VOPs deviazione std.: 0.479941
+I-VOPs DRF max: 3
+
+P-VOPs DRF medio: 2.750830
+P-VOPs deviazione std.: 0.438923
+P-VOPs DRF max: 4
+
+B-VOPs DRF medio: 2.615497
+B-VOPs deviazione std.: 0.490188
+B-VOPs DRF max: 4

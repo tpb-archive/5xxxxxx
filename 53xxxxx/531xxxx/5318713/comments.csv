@@ -1,0 +1,101 @@
+User Type,Username,Date,Text
+,Midifile,2010-01-31T19:55Z,"bedankt voor de uitleg !
+
+voor het gemak hier de doc. het bestand Amtlib.dll zit in de rar
+
+Nederlands:
+
+Eenmalig Adobe blokeren van internet;
+
+Windows XP: ga naar C:\Windows\System32\drivers\etc\host
+
+Rechtermuisklik op ""host"" en selecteer ""openen met kladblok""
+
+kopieer ""#	127.0.0.1	activate.adobe.com"" onder de tekst zoals voorbeeld hieronder;
+
+-------------------------------------------------------------------------------------------------------------------
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+#	127.0.0.1	activate.adobe.com
+
+-------------------------------------------------------------------------------------------------------------------
+
+En sla het bestand op (ctrl + s)
+
+-------------------------------------------------------------------------------------------------------------------
+
+Vista en Windows 7: ga naar start en open alle programma's. klik op het mapje ""bureau-accosoirers"" en je ziet 
+kladblok staan.
+Rechtermuisklik op ""kladblok"" en selecteer ""als adminitrator uitvoeren""
+
+Als kladblok is geopent is druk je de toetscombinatie ctrl + O in op te openen. na het open gaan we zoeken naar het 
+Bestand host. Deze is te vinden in C:\Windows\System32\drivers\etc\host
+
+Na het openen copieer je dit ""#	127.0.0.1	activate.adobe.com"" regeltje onder de andere tekst zoals te zien is
+in het voorbeeld hieronder.
+
+-------------------------------------------------------------------------------------------------------------------
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+#	127.0.0.1	activate.adobe.com
+
+-------------------------------------------------------------------------------------------------------------------
+
+Sla nu het bestand op (ctrl + S)
+
+Adobe kan nu geen verbinding meer maken met de server van Adobe zelf.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Nu gaan we het programma adobe wijzigen zodat het geen verbinding meer kan maken met internet.Dit gaan wij doen met
+het bestand Amtlib.dll
+
+Voor de mensen die adobe hebben ge誰nstaleert op de default plek ga naar ""C:\Program Files\Adobe""
+Voor de mensen die adobe op een andere plek hebben ge誰nstaleert moeten hun map zelf opzoeken.
+
+Als je in deze map bent kun je kiezen welk Adobe programma je wilt ""cracken"".
+
+Als voorbeeld neem ik Adobe Photoshop maar voor de andere adobe programma's is het hetzelfde.
+
+Ik ben in de map C:\Program Files\Adobe en open de map ""Adobe Pho"
+[T],lilmjkl,2010-02-01T20:21Z,"ik kan niet meer seeden, mijn laptop is overleden met het bestand er op... iemand anders die het al heeft en wilt seeden??"

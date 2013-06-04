@@ -1,0 +1,47 @@
+How to use it
+
+For a comprehensive guide to using BID please read the BID User's Guide .
+
+ 
+
+If the current web page you're viewing contains a thumbnailed image gallery simply right click inside the window and select "Open current page with Bulk Image Downloader". Alternatively if the page contains links to thumbnailed image galleries right click on one of the links and select "Open link target with Bulk Image Downloader". Either of these actions will launch BID and cause it to immediately scan the page or link for downloable images. Alternatively start BID manually and copy and paste  the URL of the web page containing the images into the "URL to page containing links" edit box. Click on "Scan URL for images" to bring up a list of images that B.I.D. is capable of downloading.
+
+ 
+
+Once BID has presented you with a list of images select the ones you don't want and press the Delete key to remove them from the list. You can select multiple images by holding down the Ctrl key while clicking with the mouse.
+
+ 
+
+Double click on an image to display the full sized thumbnail. Double click the thumbnail image to download and display the full sized image.
+
+ 
+
+Select a download folder and then click on "Download files" to begin downloading the images.
+
+ 
+
+Click on "Save Batch" to save the download links to a text file. These ".bidlist" saved files can be loaded into B.I.D. by clicking on the "Load Batch/Scan links from file" button.
+
+ 
+
+To create a list from multiple sources check the "Append to existing links" checkbox. Links will now be appended to the list instead of replacing the existing list when a URL is scanned or a file is loaded.
+
+ 
+
+Some image hosts scramble the image filenames. In such a case you can select the "Generate Filenames" checkbox and type in an image prefix. Images will be saved as "PREFIXnnn.jpg" where nnn is the image's sequence number on the list. 
+
+ 
+
+The "Thumbnails" checkbox toggles the display of image thumbnails within the list.
+
+ 
+
+If "Close when download complete" is selected, B.I.D. will close automatically after the last image in the list has been downloaded.
+
+ 
+
+Click on "Add to Queue" to have the current batch saved and sent to the Queue Manager.
+
+
+
+

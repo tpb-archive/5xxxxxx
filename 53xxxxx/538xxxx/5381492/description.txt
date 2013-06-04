@@ -1,0 +1,100 @@
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                ttRRtt  ZZZZZZ""    RRZZRR;;                ZZZZZZZZZZZZZZkk              RRZZZZZZZZJJ                  
+                kkMMJJ  MMMMMMww  ;;MMMMMM""                MMMMMMMMMMMMMMRR              MMMMMMMMMMMMkk                
+                JJMMJJ  MMMMMMMM  JJMMMMMM""      JJJJ            MMMM        ttkk""      MMMM    ""MMMM                
+                JJMMJJ  MMMMMMMM  ZZMMMMMM""  JJMMMMMMMMJJ        MMMM      MMMMMMMMZZ    MMMM      MMMM                
+                JJMMJJ  MMMMwwMM;;MMMMZZMM;;  MMMM;;;;MMMM        MMMM    wwMMww  RRMMtt  MMMMJJkkRRMMMM                
+                JJMMJJ  MMMMttMMkkMMwwZZMM;;JJMMkk    kkMMJJ      MMMM    MMMM"";;JJMMww  MMMMMMMMMMMM;;                
+                JJMMJJ  MMMM  MMMMMMJJZZMM;;JJMMkk    kkMMJJ      MMMM    MMMMMMMMMMMMww  MMMM;;"";;                    
+                JJMMJJ  MMMM  MMMMMM;;ZZMM;;""MMRR    RRMM""      MMMM    RRMM    ttkk;;  MMMM                          
+                kkMMJJ  MMMM  ZZMMMM  ZZMM""  MMMMMMMMMMRR        MMMM    ""MMMMZZMMMM    MMMM                          
+                ttRRtt  ZZRR  ttZZZZ  kkRR;;    wwMMMMww          RRZZ      ttRRMMRR;;    RRZZ                          
+
+
+                                               Proudly Presents:
+
+
+                                   ULTIMATE.Wii.SoftMod.Kit.3.0-4.1-IMoTeP
+  
+
+                                              
+                                                ------------- 
+                                                    NOTES
+                                                ------------- 
+
+I've converted consoles before, installed modchips and so on. So far my earlier experience with
+the wii was installing wiikey v1 and argon modchips, but that was a while ago...
+
+This morning I started working on softmodding my best friend's wii. Strange enough it took me
+a very long time to figure out all the files to use. I can see A LOT of people out there are
+doing some effort to make all kinds of wii software, but unfortunately a lot of them don't work
+properly. I've also seen a lot of video tutorials that only explain part of puzzle...
+
+What this 'kit' does is converting an official Nintendo wii to a hacked wii that can run homebrew
+software or even backup games from a USB harddisk or memory stick. Also included is the full guide
+how to play the new super mario bros on ur new hacked wii, as this was the final goal...
+
+First of all you need to know what version of wii you have, go to Wii options (the ball in the lower
+left corner of the wii menu that says 'wii'), there choose settings and you can see your firmware
+version. This kit should be able to convert ANY wii from 3.0 to 4.1, but personally I only tested
+it on a 4.1E, so I don't know about the others...
+
+You need to have a SD card (doesn't matter how big) and a SD Card reader/writer in your PC or laptop.
+
+Make sure the SD card is empty to begin with and unpack FirstSD.rar onto it.
+Put it in the wii afterwards and click on Wii Options, Memory Management, Channels, SD
+It will ask you if you want to load boot.dol, say yes
+A message will appear saying you shoudn't pay for the software, be patient and wait 8 secs
+Press 1 to continue and follow the installation of The Homebrew installer by pressing a lot
+of times 1, you'll see...
+
+Afterwards reboot your wii and you should have another icon that says 'The Homebrew Channel'
+
+You can take the SD card out of the wii again and put it back in your pc. In the meanwhile,
+make sure your wii is internet connected via wifi or LAN, preferably WIFI
+Go to the wii options menu, choose settings, internet, and so on, do a test to make sure
+
+Remove all contents of the SD card and unpack SecondSD.rar to it. This time go into the Homebrew
+Channel and launch it, put in the new written SD Card and multiple programs should appear on the
+screen. 
+
+First of all go to "USB 2.0 snelheid" and install and run this. This modifies the USB read speed
+
+Next choose "Trucha Bug Restorer". 
+
+Load in the first screen ISO36, press 1 and so on until you get a menu where you can choose
+"downgrade IOS15", select to load IOS from the SD Card and let it complete.
+
+Afterwards run Truch Bug Restorer again, this time in the FIRST SCREEN use the pad left/right
+to change the IOS, load IOS15!!!, continue on and when you come to that menu again select the 'Install IOS 36 menu'
+(select 'yes' on all 3 patches) IOS36 to slot 36, again using IOS from SD card.
+
+Run Trucha Bug Restorer again, in the first screen load IOS36 again, carry on to the menu and choose
+this time 'restore IOS15'
+
+When back in the Homebrew Channel, Run cIOS38r17 installer select IOS36 as the one it should use and then select wad install.
+
+At this time your wii is actually hacked and ready, but we want loading from USB, so...
+
+Back in the Homebrew Channel, Run ciOS 222 installer and complete it.
+Normally you can now launch "Configurable USB loader" and play any game from usb you like, but you first need to prepare
+the usb device. So get a USB stick of over 4GB or an external USB hard disk and connect it to your PC.
+Format it completely using FAT32 filesystem. If windows doesn't allow this use Partition Magic 8.0
+to format your external hard disk to it. For USB sticks there's a tool called HP usb format tool or something.
+Remember the drive letter the new formatted USB device got. Go to the Software folder that came with
+this kit and find "WBFS Wii FileSystem for Windows". Run it, specify the drive letter your usb device is on
+format it to WBFS, choose option 01. Add to start adding .iso files. After all this is done reconnect the
+usb device to the lower USB port of your wii. Launch "Configurable USB loader" and play the iso-game directly
+from USB..... ALL DONE !!
+
+For details on installing new super mario bros see the snmb folder :)
+
+
+
+                                                ------------- 
+                                                  Greetings
+                                                ------------- 
+
+                 I wish ALL other release groups the very best. "Scene" or not, who cares anyway?

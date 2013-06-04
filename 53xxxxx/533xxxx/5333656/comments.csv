@@ -1,0 +1,428 @@
+User Type,Username,Date,Text
+,PROTOCOLX,2010-02-04T03:26Z,"THIS IS A ULTRA FAST 10 MINUTE MAC OSX SNOWLEOPARD INSTALL FOR INTEL PC'S... THIS IS A .DMG INSTALLATION SO YOU NEED A WORKING MAC OR A HACKINTOSH TO INSTALL!!!!
+
+SOON!: A WINDOWS PC INSTALLATION !!! "
+,pompor,2010-02-04T06:59Z,"thankyou , great torrent :)"
+,soelaas,2010-02-04T20:50Z,"Nice job PROTOCOLX.
+Thanks, you're the master.
+rene"
+,gisgrill,2010-02-05T16:06Z,Jäklar vad grymt !  funkar bra .....
+,PROTOCOLX,2010-02-05T16:39Z,"
+Jäklar vad grymt ! funkar bra ..... 
+
+Translated with Translator:
+
+Damn what cool!... works very good!
+
+
+THX... have fun!! "
+,theteamnfo,2010-02-06T09:04Z,"When I boot I get ""error parsing plist""
+
+Whats wrong?"
+,PROTOCOLX,2010-02-06T16:49Z,"I have that too on my Hackintosh to one of mine internal harddrives... 
+
+But it's booting.... 
+
+You're iPortable won't boot?"
+,theteamnfo,2010-02-07T10:05Z,"It boots to a small logo of iPortable Snow, but nothing else happens. When I try to enter a command, the message ""Error parsing plist"" show up."
+,PROTOCOLX,2010-02-07T10:14Z,"Did you already installed 'iPortable Bootfix'?included in the 'First Aid' package?
+
+If you did already, you may have to do the cloning proces again on a clean formatted disk or USB pendrive... 
+
+Sometimes I did have that error also... But most of the times it worked right away... 
+
+It also can be that your motherboard isn't compatible... "
+,ivan9898,2010-02-07T15:05Z,"This really works! Thanks, PROTOCOLX ... Follow the instructions and you all make 
+well, iPortable will work ... I had to install only boofix ... Again, thank you!"
+,hauptoon,2010-02-08T14:32Z,"salü
+PROTOCOLX  great work 
+I'm really very surprised to have already tried many things but this is really so much more.
+
+I have a question about graphic resolution as I can reach higher than 1024 * 768th
+Graphics Card Nvidia GeForce 8400 gs 256 ram.
+with DSTD patcher I have already tried but did not help the resolution is simply too small.
+
+many thanks"
+,PROTOCOLX,2010-02-08T15:23Z,"Simple instruction:
+
+1. Go to the 'Hackintosh Tools' folder on root..
+2. Go to Snow Drivers/Video Drivers/Removed  Videokexts.. 
+3. Unzip RemovedGraphicsKexts.zip 
+4. Drag all kext files into Kexthelper B7 (OSx86tools folder) password.. reboot
+5. Remove framebufferdisabler.kext from 'Extra' 'extensions' folder. reboot.
+6. copy com.Apple.Boot.plist from 'Removed Video Kexts' folder to 'Extra' folder.. (Remove the old one) reboot
+7. No Resolution change? You should edit the new com.Apple.Boot.plist 
+8. Open com.Apple.Boot.plist with textedit and change the following value
+
+GraphicsEnabler
+	y
+	PciRoot
+	1
+
+
+
+INTO:
+
+GraphicsEnabler
+	y
+	PciRoot
+	0
+
+
+
+So you only change the 1 into a 0... :)
+
+Save it to your desktop with extension .plist! 
+
+Replace the older one in 'Extra' folder on root.
+
+Reboot!
+
+You don't should have only resolution change now but also CI/QE !!! 
+
+Succes!!"
+,PROTOCOLX,2010-02-08T15:25Z,You may have to reboot with -v -f
+,hauptoon,2010-02-08T22:52Z,"Thanks for the time being, the rapid information
+I, like you had tried to describe it to me and now I have a bit more idea how it works here.
+unfortunately I could not achieve the desired resolution.
+So I've noticed that if the settings with the ...
+
+1. Go to the 'Hackintosh Tools' folder on root ..
+2. Go to Snow Drivers / Video Drivers / Removed Videokexts ..
+3. Unzip RemovedGraphicsKexts.zip
+4. Drag all kext files into Kexthelper B7 (OSx86tools folder) password .. reboot
+5. Framebufferdisabler.kext Remove from 'Extra' extensions' folder. reboot.
+6. com.apple.boot.plist copy from 'Video Removed kext' folder to 'extra' folder .. (Remove the old one), reboot
+7. No resolution change? You should edit the new com.apple.boot.plist
+8. Open com.apple.boot.plist with textedit and change the following value
+
+GraphicsEnabler
+y
+PciRoot
+1
+
+INTO:
+
+GraphicsEnabler
+y
+PciRoot
+0
+had made, the system is indeed high gerfahren but only a black screen.
+
+With-v-f I also tried but the salad itself
+
+Perhaps you still falls a bit
+Many thanks to Germany and balde
+
+System info
+Board: Asus P5K
+CPU: Intel Core 2 Quad Q6600
+Rams: Corsai 2 Gig 800 mghz
+Graphics card: Nvidia geforce 8400 256
+Chipset: Intel 35"
+,PROTOCOLX,2010-02-09T00:34Z,"It may also work...
+
+(If the previous method didn't work...)
+
+To generate a EFI string with EFI studio http://www.osx86.nl/dload/apps/index.html
+
+Choose your videocard in this program
+
+DO THIS IN MAC OSX LEOPARD 10.5!! OTHERWISE THE STRING WILL NOT BE GENERATED CORRECT!!
+
+Copy this EFI string into the com.Apple.Boot.plist that is located on root in 'Extra' folder...
+
+This should work!"
+,packhater,2010-02-09T07:03Z,"No Mac???
+
+Rename to .ISO anbd burn!   :)"
+,hauptoon,2010-02-09T10:32Z,"good morning PROTOCOLX
+I try my level of English through the underside ... ""make intelligible""
+
+I finally made it almost at the moment with a resolution of (1152 * 720)
+I tried with Efistudio and entered into bootplist black display no way.
+Then I tried again with the original form of the first solution from you, and it worked.
+
+now my question, I dare not change the resolution to say that I have of course tried few times already ...
+
+Can someone please tell me how can I create an image of the current system so that I can easily restore later) at the wrong angle adjustment, or (kernel panics as before.
+best of all I would like to have a bootable image as the original iPortable Snow OSx86 image 10.6.2 Bootable USB,,, is it possible?"
+,hauptoon,2010-02-09T10:56Z,"I'm really interested with the system really works as a flower order is possible ..
+
+I am with Ikatos 7 and updates from iDeneb 10.5.8, it runs really stable and it can perform many functions there without immediately making silly.
+Especially for audio applications.
+
+Well sure, I have also surfed a whole month amok, had then also quite noll idea about the mac.
+
+Can you tell me whether the (64-bit can be used) without any problems with the graphics and kernel panics caused.
+
+I have previously tried with 64bit and it was no problem, it was only when I changed the resolution of the graphics card not working any more.
+
+But then the solution is very simple you just have not (yet com.apple.boot.plist)
+
+bring on the original state. it is best to secure the original (com.apple.boot.plist) to a different drive or USB stick."
+,PROTOCOLX,2010-02-09T12:48Z,"64bit can't be used without any issues... 
+
+Fact is that most real Apple system are running 32bits.... It can work... But you must know sure that the .kexts that you're using are 64bit compatible, otherwise you will get Kernel Panic!
+
+You can also force resolution with typing in Chameleon bootmenu:
+
+""Graphics Mode""=""1280x1024x32"" -v"
+,hauptoon,2010-02-09T13:04Z,"Can someone please tell me how can I create an image of the current system so that I can easily restore later) at the wrong angle adjustment, or (kernel panics as before.
+
+best of all I would like to have a bootable image as the original iPortable Snow OSx86 image 10.6.2 Bootable USB,,, is it possible? 
+
+muchas gracias"
+,PROTOCOLX,2010-02-09T13:48Z,"CopycatX.. You can make you're very own image with that software... 
+
+It's included in Utlities folder.. I've made iPortable image with it..
+
+Now you can make you're own image with this software! 
+
+Note: You have to do this from a different OSX installation!"
+,hauptoon,2010-02-09T13:54Z,"thank you mister, I'm going to try whit Copcatx"
+,hauptoon,2010-02-09T16:45Z,"Copycatx works really well when restoring from backup 100% result
+
+the only problem there is always the graphic resolution.
+In making any attempt to change the entire system shall larm.
+
+Real shame but we'll think of something.
+
+Is it perhaps in my video card NVIDIA GeForce 8400GS 256 Ram?
+
+stay in touch"
+,PROTOCOLX,2010-02-09T17:19Z,"But you have now CI/QE?
+
+And resolution change in menu?
+
+You can try to change it in safemode (-x) and maybe then it' working... "
+,hauptoon,2010-02-12T09:11Z,"CI / QE?
+how can I make these changes?
+
+With Efi studiu've already got under mac osx 10.5.8 then tries to change the entries in the (com.apple.boot.plist) so I can only under safe mode-x to the system clean and there can be no resolution to change more .
+Perhaps you have other suggestions.
+
+The EfiStudio in 10.5 with the following've made, called Efistudio from the snow Iportable drive under 10.5.8 then Nvidia geforce 8400 selected device will write to add com.apple.boot.plist.
+
+And Thanks for Copycatx exactly something I wanted so I can create by other OSX Image.
+
+The resolution is important to me in so far as stable functioning of certain applications such as audio only under specified resolution."
+,hauptoon,2010-02-12T09:15Z,"""Graphics Mode"" = ""1280x1024x32""-v
+
+These keystrokes, I can not run, unfortunately, because the character ( "") on the keyboard is not possible"" only under the current system.
+
+Great"
+,PROTOCOLX,2010-02-12T15:12Z,"Maybe you can copy/paste this from other install.. into the .plist in the 'Extra' folder on root..
+
+
+
+
+
+	Graphics Mode
+	1280x1024x32"
+,PROTOCOLX,2010-02-12T15:45Z,"check description down.. on this torrent..
+
+I added some part of the com.Apple.Boot.plist.."
+,poon!!,2010-02-13T02:33Z,What's the password for sudo? 
+,hauptoon,2010-02-15T12:17Z,"It really bugs me.
+with Leohazar but I have tried the same problem
+With the ""Graphics Resolution""
+Iportable at least works.
+
+But Leohazard because I keep getting the problem with ...
+com.apple.driver.appleAHCIPORT-IOAHCIFAMILY-IOPCIFamily or sometimes with JmcronATA: B363, and sometimes not
+
+
+I have already tried a lot of real ""fuck""
+
+I just let the fingers of times because I find it very slowly, much is creativity.
+With Ikatos and updates combu iDeneb 10.5.8 runs very well.
+
+Well, I'll wait times on I've been able to initialize represent many mistakes.
+
+Or perhaps it happened a miracle.
+
+Stay at work
+
+I am not annoyed by you, the most annoying with marriage
+
+Everything only temporarily  GO"
+,PROTOCOLX,2010-02-15T13:29Z,"@poon!!
+
+The sudo password should be your own password! Because I've haven't created one! But if you have skipped the registration I have too had weird thing that I wasn't able to login!"
+,gimme5,2010-02-16T10:14Z,"Downloading fast!
+will seed if works on my Asus G1S"
+,hauptoon,2010-02-24T18:29Z,"Hey Proto
+Finally I have the right resolution and then goes.
+You may want to try generating an EFI string using OsX86Tools. You will see the option in the software to create a new string, allowing the ability to create your own custom video card, and not use on of the ones already generated. It gives you the option to enter the resolution you want. I was able to generate an EFI string to make my resolution go to 1680x1050x32@60hz. Find out what the limits are on your card, such as resolution and refresh rate.
+
+I know there is a tutorial on how to do this, step by step, if I find it, I will post a link on here. But try it yourself first.
+
+Basically:
+
+Open OsX86Tools
+Create new EFI String
+I believe there is an option for video output
+Enter the name of your card in, or choose a preexisting one if your card is listed.
+Enter the resolution you want the EFI string to have, then there is a button to have it placed within your system, i can't remember the name of it.
+
+Restart your computer... again sorry these are vague instructions...
+
+Nice time "
+,armandrillo,2010-02-25T14:21Z,"Hi,
+
+I want to thank you for the great job you did with iportable. A very fast and easy way to install successful snow leopard on pc.
+
+I used it on my Dell studio 1557. After some trials i got native screen resolution using raedonhd kext. Now my video card, ati mobility radeon 4570, it's well recognized as Mobility Radeon HD 4500 Series in system profiler, but there are some problems:
+
+in system profiler the video card its recognized with 256mb vram memory, but when i try to install final cut studio 3, the installer says I have 0 mb vram (really the video cards has 512mb), it also says I have no quartz extreme. I tried to disability system requirement checker, but final cut crashes soon after during opening.
+
+What can I do?
+Please help me, I need final cut *_*
+
+Thank you!!!
+armandrillo@libero.it"
+,hauptoon,2010-02-26T09:09Z,"Hi guys really cool number Iportable beats all records it works amazingly well and easily.
+
+Mach_Kernel Boot für Intel core (TM) 2 Quad CPU 6600
+
+In system profiler shows that the CPU is a quad-core Intel Xeon,  instead of Intel Core (TM) 2 Quad Q6600
+I have registered with the mach_kernel boot of OSX, it runs until the login window and then I just get a blue screen.
+
+With lizard tool I have ever tried there is the kernel registered as chocolate deafault kernel.
+
+
+Any idea why this is so 
+
+System info
+Board: Asus P5K
+CPU: Intel Core (TM) 2 Quad Q6600
+Ram: Corsair 2 Gig PC800
+Graphics card: Nvidia geforce 8400 256
+Chipset: Intel 35"
+,hauptoon,2010-03-02T17:47Z,"hi Protoclox
+
+may you can help me  i try to instal FakeSMC 2.5
+but befor i have to delete the DSMOS ketx but i cant find it .
+
+You by the start in -v modus have some 
+Error FakeSMC  key not found.
+
+Thanks for any idea"
+,PROTOCOLX,2010-03-03T02:34Z,"iPortable Snow contains a bug... It cannot boot in 64bits modus... It will result in blue screen... That is the reason why mach_kernel will not work.... :(
+
+iPortable Snow x86 is really x86 now...
+
+Soon I post the fixed version as a Clonezilla image, so it can be installed also by people who don't have a working OSX... 
+
+Also very soon a OSx86 Bootable Utilities 2.4 beta... "
+,PROTOCOLX,2010-03-04T04:28Z,"But further everything works just fine...! 
+
+It's the very fast on my old pentium 4 PC! 
+
+Restarts within 3 seconds!! Snowleopard is really fast!"
+,hauptoon,2010-03-04T19:17Z,"Hi mister Tocolx
+
+So now I want your new date and that it is true it works pretty well.
+
+And all without the man the whole stupid driver selection.
+
+Of course, man can do a few things to improve it will still be rocking
+
+Example:
+mach-kernel
+64bit function
+And supplemental applications like ..
+FakeSMC 2.5 
+
+
+I can hardly wait for the news from you  .Clonezilla image,
+a Bootable OSx86 Utilities 2.4 beta ...
+
+Come on man do something Tocolxy . But more important is to be healthy and happy.
+
+Remember 
+DO not forget to Smoke, Drink, Eat
+
+Everything good  your fan
+
+Viva # liberty # license"
+,Stone-D,2010-03-08T07:45Z,"Is there an alternative to using copycatx? I've tried writing the image to my flash drive and my external drive - both resulted in success, but with ""Invalid b-tree node size"" errors. Fsck doesn't want to know, and diskwarrior gives up. This is immediately after restoring with copycatx!!!
+
+Is the image corrupt or what? Do I have to create a partition of a specific size?"
+,PROTOCOLX,2010-03-09T00:58Z,"@Stone-D, Sorry there no other way but CopyCatX... The image isn't corrupt... 
+
+I think maybe your destination size is too small...
+
+@pyramid22
+
+I think you have to copy the original Alex voice from the original image of SnowLeopard. .
+
+I don't know if I'm gonna put Alex voice in the next Windows/PC release... 
+
+Maybe I can upload the voice of Alex as new torrent apart from the next release.."
+,dayk,2010-03-25T14:42Z,"Hi Tocolx,
+can u make tutorial for make an usb bootable under windows system???
+coz i don't have any Osx installed on my system.
+
+anybody heeeelllllllllllppppppppppp!!!!!!!!!
+
+-sorry for my bad english-"
+,PROTOCOLX,2010-04-15T02:32Z,"Very soon I shall upload iGenius II 
+
+(Snowleopard 10.6.3 edition)
+
+This will be a Universal installer based on a Linux distro that can be installed installed on from almost any computer PC or Mac. 
+
+It will not only run PC's but also on real Mac's... 
+
+With some luck it will run also on some AMD systems as well...
+
+It's almost finished... But need to be tested... "
+,th3h00d13g4m3r,2010-04-25T04:28Z,Works Great Thanks Man!!!!!! 
+,capth00k,2010-06-14T00:29Z,"Followed ProtocolX's instructions ; installing the image to a USB External Hard drive on a 11GB partition, the rest of the space on the drive open as storage.  Setup boot from USB dev in BIOS, and it won't boot.  Maybe the two partitions is the problem, because I did include the MBR option when I partitioned and erased the drive.
+
+I just get a blinking curser... no boot splash screen. Did the iPortable bootfix, but have not tried the G-Parted Live CD yet."
+,jalavera,2010-06-23T08:45Z,"Hi!  I installed iPortable snow and runs ok, but I have an obscure question about Chameleon booloader.
+When enter with 'mach_kernel"" with the built-in 'iPortable version' in Mac Properties it say 'Mac Pro' and I'm using Core 2 Quad-xeon processor.
+Otherwise if reinstall Chameleon (same version) included in iPortable Loaders with same flags, kernel and .plist it says 'Pentium 4' and only 'Mac' not 'Mac Pro'. Anyone knows why?
+Thanks "
+,mr.jun,2010-07-04T15:33Z,"hola, i have a nVidia ""9800gtx +"" 512mb (asus p5q pro), and i cant get it running. searched the web, appearantly many ppl got the same problem. there are some solutions that are meant to work, but none of them did really do the trick at mine...
+im wondering if there isnt a poss to write an accurate driver for the 9800 series, since too many ppl have that issue, some are lucky, but most are as desperate as I with a res of 1024x168 one one screen only...
+any idea of a help? or someone fancy to do a working kext for them? ty
+the rest of the iportable is fab, works nice, so thanks for that one!"
+,jalavera,2010-07-06T12:28Z,"mr.jun Please read this!
+
+http://aquamac.proboards.com/index.cgi?action=display&board=hack1&thread=509"
+,ivan9898,2010-08-30T22:12Z,"CopyCat X won´t work for me..
+I download vmWare image of Leopard and open CopyCat X to restore it and it starts and stop at some point (everytime different)
+What to do?"
+,SirCrow,2010-09-27T20:18Z,"I'm a Happy iGenius user, i thought let's give iPortable i try :) but using a MacBook Pro (5-5) i get a Kernel Panic on boot.
+
+Used CopyCatX to restore the volarchive, tried both MBR en GUID partition table.
+
+Any idea?"
+,TN-048,2010-12-01T00:06Z,"Think it'll work on any of these systems?
+
+*Dell Dimension 8300 (Desktop)(Stock everything)
+
+*Acer Aspire 5810 TZ (Notebook)(Stock everything)
+
+*Intel SE7501BR2 server board with Nvidia GeForce 9500 GT, WD Elements 160GB HDD 3gb RAM, 2x Intel Xeon @2.4 GHz (hyper threaded)
+
+All three can handle Windows 7 if that helps any.
+I just have terrible internet speed (~100Kbps) so I want to make sure..."
+,kaswistry,2010-12-13T02:41Z,"Was just wondering: How do you update this to 10.6.5? Also, would this be a good and stable platform for everyday use? TIA :)"
+,nightwalker1977,2010-12-23T20:01Z,Every time I try downloading this I get an error saying permission denied about the torrent. It usually gets only a couple MB into it then stops and hands me that error... any ideas people?
+,sreekanthv88,2011-01-08T06:11Z,"Hello! TOCOLX can i really install this on windows...... and a month back i tried installing 10.6.2 sse2/sse3 on my intel @7500 core 2 duo, 2 GBRAM and 1 GB nvidia graphic card....... everything was fine and it got installed but the problem was after installation reboot was required but my cd-rom got stuck...... not only once but twice and after it got fine i had to insert MAC dvd but it was showing booting failed......... i had to reformat my pc to run it again! please give me a solution....... this time im trying to install this distro from u (OSx86 10.6.2 Bootable USB image) please guide me or gimme some guide lines pleaseeeeeeeee!"
+,teloycho,2011-01-24T07:59Z,"Can anyone help me here???? I want to install this software in my netbook ""samsung nc10"" it is an atom processor with 1 gb ram !! 
+Is it possible to install this software ??? And i am complete newbie in this ! Can anyone guide me here!!!! 
+i desperately want to see this OS running in my netbook !!!!!!"
+,Techjunkie,2011-02-03T23:10Z,teloycho@ http://alex.mullr.net/blog/2009/01/os-x-leopard-on-a-samsung-nc10-netbook/
+,Airush777,2011-07-12T07:57Z,Awesome fully working on acer one D255E.(except cam)
+,TheDaniel23,2011-11-27T17:59Z,"Help! Its a .dmg image.
+How can i copy this to my usb on windows?
+Alvast bedankt! (Dutch!)"
+,thenou,2012-01-25T10:35Z,So u just have to restore the dmg and run the efi from osx tools??
+,mylarkee,2012-06-21T03:19Z,"There seems to be a lot of missing files here. Only three files here: iPortable Snow Installer [MacOSX].dmg (which ONLY opens 'copyX' ; iPortable Snow ReadMe.pdf (a big help-for 'copyX) ; and a small text file. So please help. Where is Mac 10.6.2 and all the other applications, utilities and tools listed?
+Thanks"

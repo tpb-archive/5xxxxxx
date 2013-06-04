@@ -1,0 +1,205 @@
+Copied from the Notepad++ Homepage:
+
+
+Notepad++ is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement that supports several languages.
+Running in the MS Windows environment, its use is governed by GPL License.
+
+Based on a powerful editing component Scintilla, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size. By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions. When using less CPU power, the PC can throttle down and reduce power consumption, resulting in a greener environment.
+
+This project is mature. However, there may be still some bugs and missing features that are being worked on.
+
+I hope you enjoy Notepad++ as much as I enjoy coding it.
+
+
+Here are the features of Notepad++ :
+
+
+Syntax Highlighting and Syntax Folding 
+
+Supported languages:
+
+C
+C++
+Java
+C#
+XML
+HTML
+PHP
+CSS
+makefile
+ASCII art (.nfo)
+doxygen
+ini file
+batch file
+Javascript
+ASP
+VB/VBS
+SQL
+Objective-C
+RC resource file
+Pascal
+Perl
+Python
+Lua
+TeX
+TCL
+Assembler
+Ruby
+Lisp
+Scheme
+Properties
+Diff
+Smalltalk
+Postscript
+VHDL
+Ada
+Caml
+AutoIt
+KiXtart
+Matlab
+Verilog
+Haskell
+InnoSetup
+CMake
+YAML
+
+
+WYSIWYG 
+
+If you have a colour printer, print your source code (or whatever you want) in colour.
+
+
+User Defined Syntax Highlighting 
+
+It allows user to define his own language : not only the syntax highlighting keywords, but also the syntax folding keywords, comment keywords and the operators.
+
+
+Auto-completion 
+
+For most supported languages, user can make his/her own API list.
+Once the api file is ready, type Ctrl+Space to launch this action.
+
+
+Multi-Document 
+
+You can edit several documents at the same time.
+
+
+Multi-View 
+
+You have two views at same time. That means you can visualize (edit) 2 different documents at the same time. You can visualize (edit) in the 2 views one document at 2 different positions as well. The modification of document in one view will carry out in another view (i.e. you modify the SAME document when you are in clone mode). 
+
+
+Regular Expression Search/Replace supported 
+
+You can search and replace one string in the document by using the regular expression.
+
+
+Full Drag â€˜N' Drop supported 
+
+You can open a document by drag & drop.
+You can also move your document from a position (or even a view) to another by drag & drop. 
+
+
+Dynamic position of Views 
+
+The user can set the position of the views dynamically (only in 2 views mode : the splitter can be set in horizontal or in vertical). 
+
+
+File Status Auto-detection 
+
+If you modify or delete a file which opened in Notepad++, you will be notified to update your document (reload the file or remove the file). 
+
+
+Zoom in and zoom out 
+
+That's another fantastic function of Scintilla component.
+
+
+Multi-Language environment supported 
+
+The Chinese, Japanese, Korean, Arabic and Hebrew Windows environments are supported.
+
+
+Bookmark 
+
+User can just click on the bookmark margin (located right side of line number margin) or type Ctrl+F2 to toggle a book mark.
+To reach the bookmark, type just F2 (Next bookmark) or Shift+F2 (Previous bookmark). To clear all bookmarks, click the Menu Search->Clear All bookmarks.
+
+
+Brace and Indent guideline Highlighting 
+
+When the caret stay beside of one of those symbol { } [ ] ( ) , the symbol beside of caret and its symmetric opposite symbol will be highlighted, as well as the indent guideline (if any) in order to locate the block more easily.
+
+
+Macro recording and playback 
+
+You can save several macros and edit their keyboard shorcuts for the next use.
+
+
+Changelog:
+
+
+Notepad++ v5.6.6 new features and fixed bugs (from v5.6.5) :
+
+Fixed Search bug with Chinese/Japanese/Korean characters.
+
+
+Notepad++ v5.6.5 new features and fixed bugs (from v5.6.4) :
+
+
+Fix loading encoding file making file corrupted (after saving).
+
+Fix xml/html encoding overrides BOM if present.
+
+Fixed Chinese/Japanese/Korean characters display problem after "find in the current document".
+
+
+Add "set find text and find next" feature.
+
+Add JSP.
+
+
+Recover langs.xml while its length is zero.
+
+
+Fix "Close Window(s)" in Window dialog bug (if file is dirty and cancel to close).
+
+Fix finding " " or "x00" issue in find extened mode.
+
+
+Add "u" in find extened mode to find Unicode encoding character(ex. "u00e9" find 'Ã©').
+
+
+
+Included plugins (Unicode):
+
+1.  TextFX v0.26
+2.  Spell Checker v1.3.3
+3.  MIME Tools v1.6
+4.  NppExport v0.2.8
+5.  Compare Plugin 1.5.5
+6.  Plugin Manager 0.9.3.0
+
+
+Included plugins (ANSI):
+
+1.  TextFX v0.25
+2.  NppExec v0.3.2
+3.  Spell Checker v1.3.3
+4.  MIME Tools v1.6
+5.  NppExport v0.2.8
+6.  Light Explorer v1.6
+8.  Compare Plugin 1.5.5
+9.  Plugin Manager 0.9.3.0
+
+
+ED2K Link:
+ed2k://|file|npp.5.6.6.Installer.exe|3235154|3A3B0C1192B7B0C6578CA5100FFBD365|h=4OS6KUPBYJ5XFZDMM2LNJXCJNHN7756P|/
+
+
+
+Comments from the uploader (olofolleola4):
+Here is some links if you cannot download it through this torrent:
+upload box  .  com  /  files  /  ad40f2026c
+rapid share  .  com  /  files  /  341433784  /  npp.5.6.6.Installer.exe

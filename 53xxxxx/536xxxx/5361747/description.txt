@@ -1,0 +1,107 @@
+create-torrents.pl -h
+
+Create torrents via command line.
+
+Edit script to setup clients, announcers, trackers, and paths
+
+Usage:
+create-torrents.pl <file or directory>
+------------------------------------------------------------------------------
+
+Client options:
+--transmission          Force selection of using Transmission as your torrent creator
+--bittornado            Force selection of using BitTornado as your torrent creator
+
+Misc options:
+--version:              Displays version
+--help:                 Displays help
+
+------------------------------------------------------------------------------
+
+create-torrents.pl -v
+
+/usr/local/bin/create-torrents.pl v1.0
+
+Written by HolyRoses
+
+
+
+Examples:
+
+------------------------------------------------------------------------------
+
+create-torrents.pl Yes Man Poster.jpg
+Making torrents for Yes Man Poster.jpg
+Creating torrent file Yes Man
+hash: 86381db8568828e274187e9b624813fde1884cff
+Creating torrent file Yes Man
+hash: 86381db8568828e274187e9b624813fde1884cff
+Creating torrent file Yes Man Poster.jpg-demonoid.torrent
+hash: 86381db8568828e274187e9b624813fde1884cff
+Creating torrent file Yes Man Poster.jpg-hexagon.torrent
+hash: 86381db8568828e274187e9b624813fde1884cff
+Creating torrent file Yes Man Poster.jpg-1337x.torrent
+hash: 86381db8568828e274187e9b624813fde1884cff
+Creating torrent file Yes Man Poster.jpg-ilibr.torrent
+hash: 86381db8568828e274187e9b624813fde1884cff
+btshowmetainfo 20030621 - decode BitTorrent metainfo files
+
+metainfo file.: Yes Man Poster.jpg-ilibr.torrent
+info hash.....: 86381db8568828e274187e9b624813fde1884cff
+file name.....: Yes Man Poster.jpg
+file size.....: 204959 (6 * 32768 + 8351)
+announce url..: http://tracker.ilibr.org:6969/announce
+announce-list.:comment.......: A HolyRoses Production
+
+
+
+------------------------------------------------------------------------------
+
+
+create-torrents.pl -t Yes Man Poster.jpg
+Making torrents for Yes Man Poster.jpg
+Creating torrent file Yes Man
+hash: 5d3b6f032485ce3f44e6b71f780eb36a0a33b7dc
+Creating torrent file Yes Man
+hash: 5d3b6f032485ce3f44e6b71f780eb36a0a33b7dc
+Creating torrent file Yes Man Poster.jpg-demonoid.torrent
+hash: 5d3b6f032485ce3f44e6b71f780eb36a0a33b7dc
+Creating torrent file Yes Man Poster.jpg-hexagon.torrent
+hash: 5d3b6f032485ce3f44e6b71f780eb36a0a33b7dc
+Creating torrent file Yes Man Poster.jpg-1337x.torrent
+hash: 5d3b6f032485ce3f44e6b71f780eb36a0a33b7dc
+Creating torrent file Yes Man Poster.jpg-ilibr.torrent
+hash: 5d3b6f032485ce3f44e6b71f780eb36a0a33b7dc
+Transmission 1.83 (10040) - http://www.transmissionbt.com/
+hash:   5d3b6f032485ce3f44e6b71f780eb36a0a33b7dc
+name:   Yes Man Poster.jpg
+
+tracker tier #1:
+        announce:       http://tracker.ilibr.org:6969/announce
+
+tracker tier #2:
+        announce:       http://tracker.openbittorrent.com/announce
+
+tracker tier #3:
+        announce:      
+tracker tier #4:
+        announce:      
+tracker tier #5:
+        announce:      
+tracker tier #6:
+        announce:       http://genesis.1337x.org:1337/announce
+
+tracker tier #7:
+        announce:       http://tracker.bittorrent.am/announce
+
+tracker tier #8:
+        announce:       http://denis.stalker.h3q.com:6969/announce
+
+tracker tier #9:
+        announce:       http://tracker.publicbt.com:80/announce
+size:   204959 (6 * 32768 + 8351)
+comment:        A HolyRoses Production
+creator:        Transmission/1.83 (10040)
+file(s):
+        Yes Man Poster.jpg (204959)
+

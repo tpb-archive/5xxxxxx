@@ -1,0 +1,23 @@
+Ezt a telepÃ­tÅ‘t (mÃ¡rmint magÃ¡t a game telepÃ­tÅ‘jÃ©t) King.Arthur.The.Role-playing.Wargame.nodisc.609team iso-t kÃ©szÃ­tÅ‘ csapatnak kÃ¶szÃ¶nhetjÃ¼k! 
+Ã‰n csak annyit csinÃ¡ltam hogy a bolti magyar verziÃ³bÃ³l kiszedett szinkron fÃ¡jlokat beletettem! crytek
+TehÃ¡t a jÃ¡tÃ©kot feltelepitve mÃ¡r szinronosak lesznek a videÃ³k szÃ¶vegek. 
+A szinkron ill. felirat fÃ¡jlokÃ©rt ezer kÃ¶szÃ¶net felho38-nak aki megvette Ã©s kÃ©szsÃ©gesen minden szÃ³ nÃ©lkÃ¼l megosztotta velÃ¼nk Å‘ket. 
+
+A telepÃ­tÃ©s ill teljes magyarrÃ¡ tÃ©tel menete: 
+
+1. MountoljÃ¡tok az isot Ã©s feltelepÃ­titek. 
+2. Az isoban talÃ¡lhatÃ³ KA 1.03 Ã©s feliratok.exe-t felteszitek.A telepÃ­tÅ‘t ezuton is kÃ¶szÃ¶njÃ¼k egy "JÃ³karÃ³nak" (Ez tartalmazza az 1.03-as javÃ­tÃ¡st Ã©s a felirat fÃ¡jlokat) 
+3. Az UI/Fonts mappÃ¡bÃ³l tÃ¶rÃ¶ljÃ©tek a Blackcha Ã©s a Bernhard Moder BT ttf fÃ¡jlokat! Ãgy mÃ¡r lesz hosszÃº Å‘ betÅ±! Ezt kihagyva csak nÃ©gyzet lesz a helyÃ©n. 
+4. ElinditjÃ¡tok Ã©s jÃ¡tsztotok. 
+
+Ha valaki a magyarÃ­tÃ¡s utÃ¡n nem a tahoma betÅ±tÃ­pust szeretnÃ©, az ConfigurationFontMap.cfg fÃ¡jlt Ã­rja Ã¡t a kÃ¶vetkezÅ‘ mÃ³don: 
+
+FONTNAME_GENERAL=Tahoma 
+FONTNAME_TITLES=QuasiChancery 
+FONTNAME_DESCRIPTIONS=kawoszeh 
+FONTNAME_POPUPS=Trebuchet MS 
+
+FONTFILENAME0=./UI/Fonts/kawoszeh.ttf 
+FONTFILENAME1=./UI/Fonts/qchmi.ttf 
+FONTFILENAME2=./UI/Fonts/tahoma.ttf 
+FONTFILENAME3=./UI/Fonts/trebuc.ttf 

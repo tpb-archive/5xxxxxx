@@ -1,0 +1,43 @@
+Frischluft Lenscare 1.43 for AE (MAC)
+(Keyfile included)
+
+
+Introduction:   
+-------------
+Lenscare moves depth of field and out of focus generation to post production. If you need high quality camera blurs with the flexibility of 2d post processing, Lenscare is a great choice. It can get you rid of long extra 3d rendering times. The key aspect during the development of these filters was to match the real thing as good as possible. Lenscare is available as plugins for Adobe After Effects and Photoshop compatible programs.
+
+Depth of Field:
+---------------
+Depth of field effects (dof) happen in all real optical devices to a certain extent. It is heavily used in photography and film as a style element. In computer graphics dof is usually generated using ray tracing techniques which increase rendering times considerably. The depth of field plugin generates those fast as a post process. It needs a depth buffer for its calculations. 
+
+Out of Focus: 
+-------------
+'Out of Focus' is a fast version that works without depth information. It creates a blur with constant radius over the complete image and is a good complement to 'Depth of Field'. It offers some extra functionality as well. It's possible to use a custom drawn lens in addition to the generateable ones. 'Out of Focus' also offers background distortion for semi transparent areas.
+
+A cameras blur looks substantially different from what common blur filters look like. Among other differences Lenscare offers these features to help adding realism:  
+
+Lens Aperture:
+--------------   
+A cameras lens aperture greatly defines the look of its blur (Bokeh). Therefore the filters offer the possibility to alter the lens apertures form to simulate several kinds of real cameras. This is important if you want to comp cg elements into real footage or just want your cg shot to fit in with the rest. A wide range of apertures can be simulated. The Out of Focus plugin provides the possibility to completely replace the aperture with a custom image. The aperture's form is most apparent in highlight spots.  
+
+Highlights:
+-----------
+In reality very bright image parts are predominant when being out off focus (see image below). Unfortunately common graphic formats cut of bright parts. Thus the plugins offer the possibility to select parts that are supposed to be brighter and give those boost.  
+
+Background Distortion:
+----------------------
+This is only available in 'Out of Focus'. When looking through a blurred object the background is distorted due to that object. This effect is not very apparent. But slight distortions help adding to the believability of your comp. To experience this effect try holding your finger in front of your eye so that it is out of focus. Now look through the blurred region on whatever is behind. Move your finger around slightly to see the effect better.
+
+Apart from its speed and quality, an important advantage of a depth of field post filter is that you are able to test various focus settings easily without re-rendering the whole scene. That way you can quickly get an impression what settings work out best for your shots.  
+
+Speed:
+------
+'Out of Focus' effects is a speedy 2d blur and can compete with any existing solution. 'Depth of Field' is very fast for what it does. In a lot of situations you can save hours of render time for just a couple of seconds per frame in post processing. This is a big advantage especially with high quality global illuminated renders. Imagine what you can save on animations. Check out this comparison  of Brazils depth of field with Lenscares. (Brazil: 190 minutes vs. Lenscares dof: 6 seconds + 4min no dof Brazil render). Of course Lenscare takes advantage of multiple cpus if present.  
+
+Quality:   
+--------
+Plenty depth of field and out of focus solutions are available. Fortunately for us most don't simulate camera effects properly. They don't do their names justice because their algorithms are not physically based. They are just methods that look nice in some situations but fail in others. A common mistake for 'depth of field' filters is to 'blur' all the surrounding pixels without regards to their depth values. Usually this results in ugly glow effects in regions with great differences in depth. Here  is a comparison of the After Effects standard depth of Field filter compared to Lenscares. The artifacts described above can be seen pretty good in the After Effects version. Please note that the After Effects version was honestly adjusted to look as good as possible. Stochastic or super sampled ray traced blurs suffer from artifacts if not enough samples are used. Lenscare doesn't produce any such artifacts. Of course both filters support 16bit image format. Judge the quality for yourself and take a look at the gallery  or download the demo version.  
+
+Issues:
+-------
+There are common unavoidable problems that all post processing depth of field solutions have. It's not possible to blur reflections or objects behind transparent objects correctly. This is obvious when you see that the depth buffer can only hold one value per pixel. But the biggest problem is with no doubt the missing information. 'Depth of Field' tries to compensate for missing information but of course there are situations when this is not enough. An example to illustrate the problem is a fence in front of the camera that is so much out of focus that it's hardly noticeable in the resulting image. Now the plugin would have to make up what's behind that fence completely. Obviously this is not possible. In such situations it is recommended to render in layers and apply several blurs.

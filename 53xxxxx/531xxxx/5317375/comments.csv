@@ -1,0 +1,42 @@
+User Type,Username,Date,Text
+,FrasseDaMan,2010-01-30T15:25Z,"Needs some more info!
+
+This is probably from Garmin City Navigator Australia NT 2010.10 or Garmin City Navigator Australia & New Zealand NT 2010.20.
+
+So what's the version?"
+,testogel,2010-01-31T13:30Z,"It's CN AUS & NZ NT 2010.10 with FID2006, but I cant get it to work in Mapsource, all registry info is not created by the install.bat ie the MDR pointer is missing. Even after adding that it seems a basemap is also missing? Any1 succesful out there?"
+,wreckasyd,2010-02-02T11:17Z,what version of mapsource are you using  mine is 6.13.7  all i did was get the map 2010.10 off torrent and run it through gmaptool and it loaded fine onto mapsource for me 
+,wreckasyd,2010-02-02T11:20Z,even converted oztopo v2.1 and running fine too
+,wreckasyd,2010-02-02T11:25Z,try putting whole folder into mapsource and run from there also had city navigator 2009 installed as well maybe it uses base maps and such from there
+,testogel,2010-02-04T13:54Z,@wreckasyd: I have also 6.13.7. What base map are y using and can y share the registry content for this Au2010?
+,mtwalkert28,2010-03-12T04:09Z,thanks
+,mtwalkert28,2010-03-12T04:10Z,"works well 100% ... easy install thanks
+
+base map comes from TrainingCenter_345.exe
+
+
+1. Download the ""Garmin Training Centre"" and install.
+
+2. Download MapSource and install. 
+
+3. Goto the mapsource directory and create a directory called CNAUS2010 ... extract all files from this torrent into the directory you created. run install.bat and follow instructions ..
+
+4. open mapsource and the 2010 map should be installed.
+
+this DOES add all the registry stuff you need.
+
+thanks again wreckasyd!!
+"
+,deano_33,2010-05-05T10:15Z,"Hey mate just wondering how i bring australia up as a country. I have installed the maps but cannot seem to input an address. I can manually navigate on the map to the address, but will only recognise my european maps / cities. Is there anything else i need to do in mapsource?"
+,aekofo,2010-05-17T08:34Z,"Yeah I've got the same problem with entering addrtesses, it says you need to contact Garmin for a more detailed map.
+
+Is there something we're doing wrong??"
+,ax1m1l1,2010-06-20T04:35Z,"I am getting the same error when trying to enter an address:
+Detailed maps are required to use this feature.
+
+even though I can see addresses on the map.
+Why is that happening?"
+,kiasu1,2010-11-28T20:02Z,"Got it to work but need to give a warning. I copied to my card...a card with another set of NZ maps and my UK maps on. Totally over wrote it :-(
+
+Looks like the safe bet is to use separate CF card for each country to avoid this in future. Painful."
+,IBerber,2010-12-29T20:59Z,"Don't bother with this if you want to be able to enter the address in either the GPS unit or MapSource on your PC. It just wont let you!!! What is the point, even if you get the 2010 maps? No reply to anyone who has mentioned this in previous comments. What a waste of time!"

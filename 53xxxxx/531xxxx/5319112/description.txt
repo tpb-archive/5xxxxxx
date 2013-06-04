@@ -1,0 +1,24 @@
+
+This is the Arcade version of BlazBlue Continuum Shift. BlazBlue runs on an embedded windows XP arcade system, which means that after a bit of ingenuity it can be run on windows PCs of comparable/higher specs.
+
+To configure the game, drag "game.exe" onto "typex_config.exe"
+Answer no to the first 3 questions, and on the fourth just press enter. Then configure your inputs.
+To run the game, drag "game.exe" onto "typex_loader.exe"
+This process can be simplified by making a simple shortcut/batchfile
+
+If you're having trouble configuring your controls, unplug any USB joypads/sticks before running typex_config.exe
+
+If your settings aren't saving, you can translate the japanese text to english by going to data/ETC/Text and rename the "eng" folder "jap" and the "jap" folder "eng"
+
+If the game is running slowly, try installing some replacement backgrounds:
+http://www.uploadmirrors.com/download/ON9VLUPB/BG%20Replace%202.zip
+
+If your D drive isn't writeable and you want to change your operator menu
+settings, use this launcher. It will reassign your D drive to Z, and assign your BBCS folder to the D drive. It will change everything back when you quit the game.
+
+
+
+I tested it on Vista 64 bit with a ps2 controller and it worked fine!
+
+
+Enjoy!

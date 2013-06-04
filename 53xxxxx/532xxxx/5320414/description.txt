@@ -1,0 +1,135 @@
+
+EU3:HttT 4.1b public beta patch.
+
+Changelist:
+####################################################################
+# AI
+####################################################################
+- Peace AI: Will be a bit more versatile with what it offers to players
+- Peace AI: The AI will scoff at offers of treaty annulment
+- Peace AI: Should no longer offer deals worth more than 100%
+- No Elector will never prefer a candidate with whom they are at war as new HR Emperor
+- The AI Aggressiveness setting now has more effect
+- Strategic AI: Will tend to be friendly to its Merchant League controller
+- Strategic AI: Slightly more wary of high Infamy
+- Diplo AI: Fixed a problem with premature AI alliance breaking
+- Diplo AI: Smarter about claiming thrones
+- Diplo AI: Lowered AI acceptance chances of Religious Unity
+- Diplo AI: Adjusted chance of honouring an alliance (good relations have a bigger effect)
+- AI: Tweaked national focus selection a bit
+- AI: More wary of assaulting with enemy armies nearby
+
+
+####################################################################
+# Gamebalance
+####################################################################
+- Reduced the peace cost and prestige gain from treaty annulment
+- Pretenders rising should now break all old royal marriages
+- Papal FoG now only gets 1.5 magistrates per year.
+- Fixed the problem with auto-investment in minting once stability is maxed
+- Lowered the chance of heirs dying prematurely
+- The final HRE reform require the emperor to be at peace
+- Negative Stability now properly decreases legitimacy
+- The Colonial CB now properly only triggers for overseas provinces neighbouring your own
+- Adjusted the difficulty modifiers
+- Increased relations and prestige loss of failing to enforce Religious Unity
+- No longer ever possible to get the Excommunicated CB if you are not Catholic
+- Fixed a new bug with monarchs-as-leaders not getting saved in v4.1
+- Discipline now affects military tactics.
+- Sponsored pirates no longer block straits for friendly units
+- Declaration of war not allowed if a player has not yet answered an incoming call to arms against the target
+- The target is now always the defensive leader in wars declared with union forming CBs
+- Can no longer demand religious unity with a Defender of the Faith
+
+
+####################################################################
+# Setup
+####################################################################
+- Adjusted the trigger for the French decision 'say_the_state_is_me'
+- The "Scheming Bureaucracy" event can now only fire after government tech 40
+- Reworked the Byzantine decision 'reestablish_the_theme_system'
+- The Ottoman decision to move its capital to Constantinople will now rename the city to Istanbul
+- WUU is now Cantonese and the primary tag for Cantonese culture
+- Tweaked the Kingdom of Jerusalem
+- Incas, Aztecs, Zapotec and Chimu are now tribal democracies, to avoid horde type events
+- Tweaked the Papal mission to annex Avignon
+- No government tech level allows merchant republic
+- Event 9489 now gives a more substantial Infamy reduction
+- Changed the FoG bonuses of tribal federation and despotism
+- History: Poland is now the leader in the 1399 war against the Golden Horde
+- Scripts: The Russian decision to build St. Petersburg now renames the province capital
+- Trebizond is now guaranteed by Georgia in 1399
+- Scripts: Kaffa is now a Byzantine and Trebizond core
+- Scripts: Post offices, roads and arch dioceses now only give 0.01 magistrate per year each
+
+
+####################################################################
+# Interface
+####################################################################
+- Optimized the DoW warning text to show fewer duplicates (e.g. if an alliance applies, don't also show guarantees, warnings, etc)
+- Shortened some DoW warning strings
+- The Claim strength of foreign heirs during regencies is now indicated by colour
+- The DoW warning text when someone has warned you is no longer shown if it does not apply
+
+
+####################################################################
+# Added Features
+####################################################################
+- Added event effect 'this_remove_casus_belli' (reversed remove casus belli)
+- Added event effect 'rename_capital'
+- Added Romania
+- Added a decision to form Romania
+- Exported chance of heirs dying prematurely as _CDEF_HEIR_DEATH_
+- Added static modifier 'regency_council'; will decrease legitimacy over time
+
+
+####################################################################
+# Bugfixes
+####################################################################
+- The generic 'vassalize_mission' no longer aborts if you are at war with the target
+- Fixed a problem with the 'mission' console command
+- Fixed a bug with war subsidies not being cleared correctly on annexation
+- Fixed CTD on MP chat
+- Fixed another bug in the Swabian War script
+- Fixed some other bugs in the war histories
+- The 'placed_merchants' trigger now works in country scope as well as province scope
+- Hopefully fixed a bug with the HRE Emperor not changing back correctly when playing around with the start date
+- Junior PU members should no longer have the old heir if the suzerain state gets annexed
+- Fixed a bug where military westernization would still not unlock cavalry and arty for countries completely lacking them at start
+- Fixed a problem with HRE reforms not correctly costing 50 IA
+- Fixed a bug in the 'muslim_westernisation' decision
+- The Ottomans are called that in German as well
+- Fixed an issue with random effects not being random at all in Decisions
+- The "had flag" triggers are no longer reversed
+- Corrected script usage of "had flags" where needed
+- Fixed a bug with the military westernization decisions (backward centralization)
+- Fixed a script problem that allowed France to immediately diplo-annex Berry in 1399
+- The Curia controller and controlled Cardinal modifiers are now properly disabled with the rest of the Papacy mechanics
+- Fixed a bug in decision 'charter_guild_of_st_luke'
+- Fixed a bug in event 'Submission of the Clergy' (9600)
+- Fixed some bugs with the road network decision and event
+- Fixed a bug preventing the CB "Imperial Ban"
+- Fixed the "lesser in PU steals monarchs-as-leaders" bug 
+- Fixed a bug that would reset a player's choice for HR emperor
+- Scripts: Fixed a typo in the Hanseatic Missions
+- Scripts: Fixed a typo in the construction missions
+- Scripts: Fixed a typo in the decision 'commission_medieval_tapestry'
+- Scripts: Fixed a typo in the decision 'church_tax'
+- Scripts: Fixed another problem in the road network decision
+- Scripts: Fixed some issues with the monarchs of Holland
+- Texts: The Papal mission 'conquer_ancona' now has a title
+- Fixed a bug where rebel defection of a one-province minor province would not correctly clear treaties, etc
+- Scripts: Fixed a bug in 'support_enlightenment_movement'
+- Scripts: Fixed a bug in the spy mission 'tarnish_reputation'
+- Scripts: Fixed a typo in the history of Annam
+- Scripts: Removed a weird character the Khmer ship names
+- Scripts: Fixed a typo in the monarch list for Nizhny Novgorod
+- Scripts: The Papal State can no longer take the decision 'statue_in_restraint_of_appeals'
+- Pretenders should now correctly get a dynasty
+- Random outcomes now actually work in decisions. Really.
+- Text: Fixed missing string COUNTRY_HISTORY_BATTLE_NAVAL_D_NO_COMMANDER
+- Casus Bellis should now be refreshed when an alliance is made or broken
+- Gameplay settings from v4.0 saves should now be compatible
+- Fixed a bug with tag changing giving double HRE emperor modifiers
+- Peace AI: Fixed some bugs with duplicate demands made
+- Fixed some problems with cached country information not updating when appropriate

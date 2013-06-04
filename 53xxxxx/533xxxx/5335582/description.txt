@@ -1,0 +1,35 @@
+CDRoller is a powerful, easy-to-use and low-cost toolset for CD/DVD data recovery. CDRoller supports industry-standard ISO 9660 file system, including Microsoft's extensions for long file names support, so-called Joliet extensions. CDRoller also supports the discs formatted in UDF file system, including versions 1.02, 1.50, 2.0, 2.01 and also so-called UDF Bridge format. Support of wide set of CD, CD-R, CD-RW and DVD formats such as: CD-DA, CD-ROM, CD-WO, CD-ROM XA and Mixed-Mode CD, Stamped multisession CD, CD-MRW ("Mt. Rainier" CD-RW), DVD-ROM, DVD-R, DVD-RW, DVD+R, DVD+RW, DVD-RAM. Features: 
+â€¢ Effectively retrieves the data off the discs created by "drag and drop" CD/DVD writing software, such as well-known Roxio (Adaptec) and Ahead Nero software packages, CeQuadrat's PacketCD, Instant Write, B's CLiP and others.
+â€¢ "On-the-fly" unpacks the files initially compressed by Roxio (Adaptec) DirectCD. 
+
+â€¢ Recovers CD and DVD data created by standalone devices that record directly onto disks, including: Sony digital cameras, DVD camcorders, personal DVD recorders, etc.
+â€¢ Retrieves back up files from the discs recorded in several stages (multisession discs).
+â€¢ Includes a built-in UDF Reader. There is no need to install a third-party software, for example Roxio (Adaptec) UDF Reader driver.
+â€¢ Finds and retrieves the lost files on UDF discs, including: accidently deleted files, files on quick-formatted disc, files on incorrectly closed disc, etc.
+â€¢ Rescues the data from scratched, damaged or defective discs.
+â€¢ Provides direct access to the hardware, bypassing the Windows File System. Looks for the lost tracks (sessions) every time when you insert a new disc into the drive
+â€¢ Digitally extracts audio tracks into a wide set of wave formats.
+â€¢ Tests CD readability. 
+â€¢ Extracts ISO Image file.
+â€¢ Catalogs files and folders into CD library. 
+â€¢ All features are integrated into a common and easy-to-use intuitive shell. User Interface is similar to well-known Windows 95 File Manager (Windows Explorer), with file property pages, pop-up (context) menus and drag-and-drop support.
+
+
+Support of wide set of CD, CD-R, CD-RW and DVD formats such as:
+* CD/DVD format CD-DA,
+* CD/DVD format CD-ROM,
+* CD/DVD format CD-WO,
+* CD/DVD format CD-ROM XA and Mixed-Mode CD,
+* CD/DVD format Stamped multisession CD,
+* CD/DVD format CD-MRW ("Mt. Rainier" CD-RW),
+* CD/DVD format DVD-ROM, DVD-R, DVD-RW, DVD+R, DVD+RW, DVD-RAM.
+
+Changes in Version 8.70 - January 04, 2010:
+    * Improved code for search of the lost audio data on unfinalized CD. For example, if the recording process was accidently interrupted due to a failure of your standalone CD recorder, or power was cut off.
+    * Disc analysis updated. Added some basic guidelines how to find the lost data when your disc looks like an empty one under Windows OS.
+    * Fixed a bug when reading the directory tree on write-once discs (-R/+R discs) created by Roxio Drag-to-Disc v.9.
+    * Added a new Extract track data option into the Disc Properties dialog. This can be useful to create ISO Image file (*.iso file) from the UDF disc.
+    * Recover DVD Video updated with more intuitive user interface.
+
+Homepage - http://www.cdroller.com
+

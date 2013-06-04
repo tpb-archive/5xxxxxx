@@ -1,0 +1,30 @@
+Proof it works:
+ 
+http://kortie.nl/MW2Dedicatedservers1.0.180
+
+
+codmw2 1.0.180 cr@cked + devconsole with sv_cheats enabled
+
+29/01/2010
+NB: still quite buggy and being tested.
+*Finds a game shortly before being kicked - error "Failed to join steam lobby"
+*User can host using host forcing method described below with some errors. (Not sure about other host forcing methods)
+
+PATCHING AND CR@CKING
+
+1. Patch modern warfare 2 to 1.0.180.  .NCF files can be ignored.
+2. Drag iw4mp.exe (from "SkyLine console hack + sv_cheats bypass" folder) over reCEG-xXX.exe (64bit users use reCEG-x64.exe and 32bit use x86) and it will run by itself. Old exe will become iw4mp.bak and new exe will be created.
+3. Copy and replace this new iw4mp.exe to your codmw2 folder. You now have your console enabled with sv_cheats enabled.
+4. Run codmw2 through steam. Using zero gear method or other similar method.
+
+
+FORCE HOSTING
+
+Here's a tutorial for getting your very own custom game up and running:
+1) badhost_endGameIfISuck 0
+2) iwnet_searching 0
+3) Join a lobby like TDM, it won't search for other players because you disabled it. Now do: map mp_rust/airport etc.
+4) While it's loading quickly do iwnet_searching 1 and you will be the host. You can change as you please, like g_gametype DM/DOM/WAR etc
+
+
+See consolecommands.txt for comprehensive command list.

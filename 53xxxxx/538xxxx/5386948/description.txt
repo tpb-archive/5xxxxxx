@@ -1,0 +1,18 @@
+Fraction of full ISO size: 12.7%
+applydeltaiso's approximate running time (2-3 GHz CPU, 1-2 GiB RAM): 14 minutes
+
+This deltaiso file allows one to generate the Fedora 13 Alpha RC2 i386 DVD image if one already has the RC1 image (either as an ISO file, or on DVD).  Using it requires a box running Fedora 11 or later, the deltarpm package (version 3.5 or later), and if running Fedora 12 or later, the deltaiso package (these are in the Fedora repos).  Use the applydeltaiso command as follows:
+
+applydeltaiso oldiso deltaiso newiso 
+
+where oldiso is the RC1 input image, deltaiso is the Fedora-13-Alpha.RC1_RC2-i386-DVD.diso file from this torrent, and newiso is the generated Fedora 13 Alpha RC2 i386 DVD output image.  (Be careful - the RC1 and RC2 images were given exactly the same name - Fedora-13-Alpha-i386-DVD.iso - so they have to either be given different names, or put in different directories.)  If oldiso is on DVD, then one can just mount it and replace oldiso with /dev/dvd:
+
+applydeltaiso /dev/dvd deltaiso newiso
+
+Before downloading the deltaiso, make sure to have the correct, verified, input image.  The sha256sum for the Fedora 13 Alpha RC1 i386 DVD image is
+
+d97f81f92c23177535410662da3b75a342b91fb1b56eb262926a32e686bed109
+
+If it's on DVD, one can simply do a mediacheck (or use the checkisomd5 command - "checkisomd5 --verbose /dev/dvd" is the equivalent of mediacheck without having to reboot).  After running applydeltaiso, verify the output image.  The sha256sum for the Fedora 13 Alpha RC2 i386 DVD image is
+
+bf13a06a0c2fae80ac0c5851c0d2965f5a6116cda66fb68aaf4917168795da8f

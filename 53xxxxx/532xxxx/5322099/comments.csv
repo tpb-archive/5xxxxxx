@@ -1,0 +1,31 @@
+User Type,Username,Date,Text
+,ArunMeansSun,2010-04-12T05:59Z,"hello guys. one trick for playing game without cd . . . extract iso contents to a folder .. ... . then install commandos from that extracted folder. When you install, choose the destination directory same as that of iso extracted folder . . . your game would run with save compatibility . . .... 
+I use windows Xp SP3"
+,Azharkhan,2010-05-22T19:43Z,best game
+,motley666,2010-06-13T15:30Z,"It works fine, thanks."
+,kingler,2010-09-14T06:05Z,"no this doesnt work
+got a .rar file which is password protected
+even after receiving a password form some site this doesnt work"
+,quesopilipinas21,2010-11-15T04:29Z,"up to mission 5 only, help guys!"
+,executionist,2010-11-25T23:01Z,6th mission wont load
+,leumwasp,2011-05-22T20:22Z,it wOrks thanks
+,.laciko.,2011-07-02T08:51Z,6th mission don't work!! load failed...
+,Master159,2011-08-16T21:41Z,"this doesn't work right,soundthere is no sound in the game and it freezes ,sorry"
+,kohin00r,2011-12-17T09:50Z,It is not running on Win7 x64. Not even in XP mode.
+,taqujan,2012-03-17T05:23Z,"Those having problem in saving the game can follow these steps:
+1.Go to the installation directory where the game is installed
+2.Next locate the Commando configuration file in the output folder.
+3.It should be in .cfg or.CFG format
+4.After locating the file, openit with Notepad
+5.Replace the text in the file with the following text: SAVA
+.SONIDO [ .VOLMUSICA 1.000000 .VOLEFECTOS 1.000000 .ACTIVO 1 ]
+.SIZE [ .INITSIZE 2 ]
+.PROFILE [ .USER 0 ]
+.NETGAMEPLAYER [ ]
+.SERVERADDRESS [ ]
+.DEVELOP 1
+6.now save the cfg file and start the Game
+7.The save and load options should work now....
+Enjoy !!!!!!!"
+,msameerbutt,2012-05-24T09:49Z,"Thanks,
+its working fine on Windows 7 64bit"

@@ -1,0 +1,99 @@
+Major Features
+
+â€¢Works with any controller! (Xbox 360, PlayStation, Wiimote, PC gamepads, etc.)
+â€¢Full emulation of keyboard and mouse (even use your gamepad to control Windows)
+â€¢Game Profiles can be auto-applied when Pinnacle detects you've started a game
+â€¢Built-in PinnacleUpdate feature keeps your software and game profiles up-to-date
+â€¢Create your own custom game commands, keyboard hotkeys, and automated macros
+â€¢Force feedback commands can be assigned direclty to your game controller
+â€¢On-screen help guides you through the simple process of creating your profiles
+
+Advanced Features
+
+â€¢Setup a joystick to run or walk depeding on how far forward you tilt the joystick
+â€¢Assign a shift button to double the commands you can assign to a controller
+â€¢Create toggle commands and cycling commands that rotate each time you fire them
+â€¢Two separate triggering events (pressed & released) give you complete control
+â€¢Design an ImageGuide for your controller to guide you while you assign commands
+â€¢Direction pad support features three styles:  standard 4-Way, simple 4-Way, and 8-Way
+â€¢Invert the movement axis of any analog joystick
+
+Change Log V5
+
+Fixes and Improvements
+
+â€¢Fixed process enumeration for x64 operating systems (automatic activation and deactivation of profiles now works properly, multiple instances now fixed)
+â€¢Hotswapping with an axis command inside a joystick command has been fixed
+â€¢Fixed display for some Windows Themes that didn't look as expected
+â€¢Fixed problem that was causing freezes for some users when optical drives were checked during game detection. Optical drives are now excluded.
+â€¢Fix to prevent the failure of updates on PinnacleUpdate that some users were seeing
+â€¢Fix for wireless controllers on Vista 64 for idle-sleep crash
+â€¢Improved form loading speed and efficiency (hopefully improving overall stability)
+â€¢Improved map to mouse spring feature to work better in full-screen games
+â€¢Improvements to Axis Command handling, ensuring super-fast changes don't cause any unexpected results (particularly relevant when using pause steps in the subcommands)
+â€¢Improved keyboard hotkey handling
+â€¢Minor tweaks and fixes too numerous to mention
+New Features in PGP 5.x
+Note that the changes listed in these release notes do not reflect all the changes in PGP v5.x.
+
+â€¢Support for Windows 7 Operating System
+â€¢Complete overhaul of internal structuring for existing and future features 
+â—¦Server storage changes made to streamline post v5.x formatting on PinnacleUpdate
+â—¦Command names now stored in central directory for easy updating
+â—¦Unique command id's replace previous command name based system
+â—¦New structuring includes room to store all the new behavior modifications and future planned features
+â—¦Profile compatibility translators from v4.x to v5.x (new profiles will not be backwards compatible)
+â€¢New icons designed, created, and added to user interface to represent new and previous features.
+â€¢A deadzone can now be applied to triggers by decreasing the axis range of an individual axis
+â€¢Option added to export all profiles at once
+â€¢Environmental variables like %APPPATH%, %APPDATA%, and %PROGRAMFILES% can now be used in event step paths
+â€¢Previously shifted and unshifted commands shared the same "d-pad style" but now you can set different styles for different shift-states
+â€¢New quad-shift system added 
+â—¦Commands can now be executed along with shifts
+â—¦Symbolically color coded to distinguish states: blue, red, yellow, green
+â—¦Configurations now can have up to four shift states
+â€¢New Behavior Modification system added 
+â—¦Command-level modifiers that make using some of Pinnacle's features more accessible, quicker, and easier
+â—¦Command-level modifiers are not mutually exclusive!!! ( at least for current feature set)
+â—¦Virtual stickiness feature adds the capability of toggling ON or OFF any digital control by successive activations. Formerly this would have taken two commands and a cycle command.
+â—¦Rapid fire feature adds command-level repetition when digital control is ON.
+â—¦Sniper assistant feature reduces mouse-emulation sensitivity by 50% when digital control is ON.
+â—¦Behavior modifications can be applied to keyboard hotkeys
+â€¢Wiimote has 100% new library that improves response time (noticeably better in infrared), is much more efficient (less CPU intensive), and has improved compatibility with bluetooth stacks; infrared support has been enabled, but it's not yet accessible through the GUI
+â€¢New location on hard disk and start menu reflecting recent change in company's name
+â€¢New, more descriptive and accurate terminology adopted and implemented to make PGP easier to use and more intuitive. These include new dichotomies of standard versus compound commands and activated (ON) versus deactivated (OFF) states of digital controls (formerly pressed and released events).
+â€¢You can now change POV-Style when changing to a different shift-state
+â€¢Now possible to attach notes to profiles and to individual commands in profiles. Command notes are visible in balloons activated by mouse overs in the Controller Configurations window.
+â€¢Controller Configurations enhanced 
+â—¦Balloon pop-ups added. These are visibile when you mouse over an icon next to a command. These are displayed for command-level assignments. They do not display event level steps (what commands are composed of)
+â—¦Balloons display the following items: 
+â– Command notes
+â– Cycle command components
+â– Double command components and method
+â– Force feedback effect and intensity
+â– Sticky, rapid fire, and sniper assistant behavior modifications
+â– Display shift mode
+â—¦Axis commands enhanced 
+â– Behavior modifiers added
+â– Compound commands now include cycle commands
+â—¦Controller Configurations' popup-menu enhanced 
+â– New icons added for new features
+â– Along with green and blue dots, there are now purple dots to indicate keyboard hotkey assignments (previously they were also blue)
+â– Cycle and double commands grouped together under compound commands
+â– Command behavior modifiers introduced 
+â– Force feedback options for ramping and rumbling added (previously accessible via CMD+left mouse click
+â– 4-way shifting system: blue, red, green, yellow
+â– Sticky control
+â– Sniper Assistant
+â– Rapid Fire assistant
+â—¦Cosmetic changes 
+â– Tool icons reordered, repositioned, and labeled as toolbox
+â– Config name repositioned to make room for shift-mode combobox
+â– New icons added for new features like cycle, double
+
+Known issues
+
+â€¢Some large icons may appear incorrectly the first time you run the beta.. This problem resolves itself after restarting PGP.
+â€¢Background profile not automatically applying. Temporary workaround is to manually apply it.
+â€¢Help files out-of-date. A new document system is in the works, so this will not be corrected until we are closer to a stable release.
+â€¢Print Layout... currently disabled. It's being replaced by a new system.

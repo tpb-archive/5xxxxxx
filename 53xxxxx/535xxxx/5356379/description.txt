@@ -1,0 +1,18 @@
+Fraction of full ISO size: 37.3%
+applydeltaiso's approximate running time (2-3 GHz CPU, 1-2 GiB RAM): 40 minutes
+
+This deltaiso file allows one to generate the Fedora 13 Alpha TC1 i386 DVD image if one already has the Fedora-12-i386-DVD.iso image (either as an ISO file, or on DVD).  Using it requires a box running Fedora 11 or later, the deltarpm package (version 3.5 or later), and if running Fedora 12 or later, the deltaiso package (these are in the Fedora repos).  Use the applydeltaiso command as follows:
+
+applydeltaiso oldiso deltaiso newiso 
+
+where oldiso is the Fedora-12-i386-DVD.iso input image, deltaiso is the Fedora-12_13-Alpha.TC1-i386-DVD.diso file from this torrent, and newiso is the generated Fedora 13 Alpha TC1 i386 DVD output image.  If oldiso is on DVD, then one can just mount it and replace oldiso with /dev/dvd:
+
+applydeltaiso /dev/dvd deltaiso newiso
+
+Before downloading the deltaiso, make sure to have the correct, verified, input image.  The sha256sum for Fedora-12-i386-DVD.iso is
+
+f0ad929cd259957e160ea442eb80986b5f01daaffdbcc7e5a1840a666c4447c7
+
+If it's on DVD, one can simply do a mediacheck (or use the checkisomd5 command - "checkisomd5 --verbose /dev/dvd" is the equivalent of mediacheck without having to reboot).  After running applydeltaiso, verify the output image.  The sha256sum for the Fedora 13 Alpha TC1 i386 DVD ISO is
+
+1bc43365fcf45711d7d8e137e0015a5b541446eca39ccc5c9e42044aaf2032a9

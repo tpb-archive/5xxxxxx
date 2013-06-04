@@ -1,0 +1,34 @@
+WinRAR - What's new in the latest version
+
+
+   Version 3.92 beta 1
+
+   1. If you start WinRAR command from Explorer context menu in multiple
+      monitor configuration, the command dialog will be displayed
+      on the same monitor as context menu. In previous versions it was
+      always displayed on primary monitor.
+
+   2. WinRAR "Compress and email..." context menu command adds the archive
+      name to email subject. Previous versions left the subject blank.
+
+   3. In RAR 3.91 -x switch could also exclude folders from archiving
+      even if mask contained wilcard characters and did not contain a path.
+      For example, -x*. excluded all those folders, which do not have
+      the extension in the name. Now -x switch uses RAR 3.80 approach
+      for masks without path, excluding folders only if mask does not
+      contain wildcards and matches the folder name exactly.
+
+   4. Bugs fixed:
+
+      a) WinRAR 3.91 reported the incorrect "Unexpected end of archive"
+         error, when opening an empty ZIP archive created with
+         "New WinRAR ZIP archive" context menu command;
+
+      b) if "Delete archive" option was enabled when unpacking several
+         ZIP archives and if one of archives was damaged, WinRAR did not
+         delete archives after the damaged one, even if they were unpacked
+         successfully;
+
+      c) if file matched two different masks in RarFiles.lst, WinRAR
+         could select the last match. Normally, if neither of masks
+         is a subset of another, the first match must be chosen.

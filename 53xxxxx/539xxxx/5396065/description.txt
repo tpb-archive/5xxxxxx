@@ -1,0 +1,156 @@
+Windows 7 Loader v1.7.7 (REPACK) (x86 & x64) by Daz [Un-Zipped]
+
+----------------------------------
+Latest - 1.7.7 REPACK
+Fixed loader modes to stop system hangs
+Changed the way the loader is wrote to the partition (no more mounting)
+----------------------------------
+
+Features
+Can be run as a standalone, just move the executable to wherever you like
+Maintain your own list of serials, future or current (comes with allot of preset keys)
+Add your own certificates and SLIC's
+Automatically finds an available drive letter (if required)
+Installer and uninstaller built in as standard
+Checks your Windows version and build before install
+Automatically finds your active boot partition
+Works on all languages
+Works alongside hidden partitions
+Works on Windows 7, Vista and Server 2008 editions
+Support for bios modded users
+Argument support for silent installs
+You can use this tool to activate your Windows 7/Vista ISO by editing setupcomplete.cmd
+Improves Windows 7 boot time on a Mac
+Encrypted SLIC support
+
+Advantages
+Advantages
+Encryption and randomization for your security
+Byte differences - Everyones GRLDR won't be byte for byte the same
+Profile matchups - SLIC, certificate and serial that best suits your system
+Arguments - Can be used to pre-activate your OS
+Uses custom error checking on near every function making the application much more reliable instead of spitting out files and failing
+Frankenbuild checking
+Integrity checking with useful info on screen so the user can verify it
+External Keys.ini support for all OS versions
+External file support for both SLIC's and certificates
+Newer GRLDR versions before other applications, thus a greater chance of a successful activation
+
+In short this is now the only application based loader or loader period that has encryption and some randomization going on to help protect you from MS. And on top of that it's using a much newer GRLDR with some bug's fixed
+
+What makes this different from every other loader out at the moment?
+It's not a batch file and all commands are made within the application, it has great error handling and doesn't try to find the active partition based on size (which every other loader is doing at the moment).
+
+Whats the differences between each loader option?
+Hover your mouse over each option to see
+
+Ok so how do I run it?
+Select the brand that best suits your system, if the brand isn't there don't worry as you can pick any and it should still work. All you have to do next is click the blue "Install" button and wait for the completed message.
+
+I activated Windows 7 and now I want to activate Windows Vista, why isn't it working?
+Use the uninstall option while on Windows 7 and reboot into Windows Vista. Next install your selected cert/slic in Windows Vista and then reboot back to Windows 7 and click install.
+
+Activation failed, now what?
+Try again with the beta or the older loader option enabled, one of them might just work for you.
+
+** I have tested this on a virtual machine with a 100% success rate **
+
+
+Changes since 1.6.4
+1.6.5 -- Improved profile matchups (for matching a SLIC, certificate and serial)
+1.6.5 -- Added activation checking for Windows 7, Vista and Server 2008
+1.6.5 -- Added tokens checking for Windows 7 (alerts the user, repair is manual so that later on down the line this loader will never frankenbuild your system itself!)
+1.6.5 -- Added error handling should UAC fail to elevate the application
+1.6.5 -- Added Asus SLIC, certificate and Home Premium serial
+1.6.5 -- Added new GRLDR beta 0.93 from zsmin
+1.6.6 -- Fixed activation checking for non-english systems (This release is just to address confusion as to if a system is activated or not)
+1.6.7 -- Fixed Windows Vista activation status
+1.6.7 -- Added Windows 7 Enterprise editions as a supported OS, although you will need to wait for OEM SLP keys to leak
+1.6.8 -- Added application integrity checking. This is a new feature which will display you with information about how the application was launched when the mouse is hovered over the green or red icon.
+It's goal is to inform you if you are running an untouched version of the application or one that could have been modified in some way by a script kiddie. Of course green is the best result, if it's red then be cautious as someone's likely binded a trojan!
+1.6.9 -- Added amber as a color to the application integrity checking as well as a few tweaks to the existing code (you should still always check the displayed application path even when green)
+1.6.9 -- Cleaned up some code for better performance
+1.6.9 -- Added new GRLDR 0.94 from zsmin
+
+Changes since 1.6.9
+1.7.0 -- Removed the older loader
+1.7.0 -- Added loader mode options
+1.7.0 -- Changed the UI so that it's now slightly transparent as well as resized to suit the new options
+1.7.0 -- Added Samsung support for Windows 7 Ultimate, Professional & Home Premium editions
+1.7.0 -- Improved internal resources security
+1.7.1 -- Removed window transparency to fix a Windows 7 artifacts bug and improve responsiveness on older systems using onboard graphics
+1.7.1 -- Improved the "Custom menu.lst" loader option. It will now show all people using this setting the GRUB menu at system startup
+1.7.1 -- Upgraded some certificates to version 2.1
+1.7.1 -- Added a new GRLDR version (0.96) from zsmin (custom edition for my program)
+1.7.1 -- Added external SLIC support (read "How to add support.txt" for more info)
+1.7.1 -- Added support for BenQ and Sony machines
+1.7.1 -- Added support for Windows 7 Starter Edition
+1.7.1 -- Added various new OEM SLP serials
+1.7.2 -- Added encrypted SLIC support
+1.7.2 -- Added random loader names
+1.7.2 -- Added byte differences (everyones GRLDR loader won't be byte for byte the same)
+1.7.2 -- Added a new GRLDR version (0.97) from zsmin (custom edition for my program)
+1.7.2 -- Added /norestart argument
+1.7.2 -- Added support for Windows 7 Home Basic (4 new keys)
+1.7.3 -- Improved free drive letter assignment
+1.7.3 -- Corrected some grammar
+1.7.3 -- Added random SLIC encryption support, this means everyones SLIC will have a unique encryption
+1.7.3 -- Added GRLDR file size randomization
+1.7.3 -- Added GRLDR v0.97-DAZ+SEC-R2. This is just a minor version to support the random encryption
+1.7.3 -- Added SLIC table detection (BIOS mod and software, it can tell the difference) -- this feature is in BETA
+1.7.3 -- Added support for Advent, Medion and Nokia
+1.7.3 -- Added various new OEM SLP serials
+1.7.4 -- Improved SLIC detection (still not tied to anything, it's simply a BETA feature until I get more feedback)
+1.7.4 -- Fixed file write errors caused by version 1.7.3
+1.7.4 -- Added support for Server Standard R2
+1.7.4 -- Added support for FSC, Quanmax and Trigem
+1.7.4 -- Added various new OEM SLP serials
+1.7.5 -- Removed the beta SLIC detection (caused crashes on 1.7.4)
+1.7.5 -- Added support for LG
+1.7.5 -- Added various new OEM SLP serials
+1.7.6 -- Improved the encryption support
+1.7.6 -- Added Toshiba Professional serial
+1.7.6 -- Added support for Gigabyte
+
+Latest - 1.7.7 REPACK
+Fixed loader modes to stop system hangs
+Changed the way the loader is wrote to the partition (no more mounting)
+
+MD5: fb11ad4bfdf3b063ce1116294c8db769
+SHA1: 58cbaff2c5473290ceee8c895455df5af140d1c5
+
+Support Page: http://forums.mydigitallife.info/showthread.php?t=8632
+
+
+Extra information
+--------------------------------------------------------------------------------
+Do I need to update?
+If you have installed a version and you're activated then you shouldn't need to update. If however you are like me and you like to use the latest and the best versions of software then updating shouldn't be a problem.
+
+Can I install a newer version over an older version?
+Yes, you don't need to perform an uninstall to upgrade to a newer version.
+
+
+---------------------------
+Instructions for Use
+
+If you have NO SLIC 2.1 in BIOS (which unless you flashed with a modded BIOS, you Probably do not have)
+---------------------------
+1. Install windows 7 (DON'T Enter a Serial During Installation).
+2. Run this as Administrator.
+3. Click on Advanced Options. (Optional, Loader will automatically choose best options for your PC)
+4. Choose Matching SLIC and Certificate (Dell, MSI, etc) (Optional)
+5. Choose Serial (Serial Must match Your version of Win 7) (Optional)
+6. Choose an option under loader versions (Optional)
+7. Click on the install button. (under software mod)
+7. Wait for Loader to Work and Reboot.
+Enjoy !!!!
+
+Note:
+If Windows does NOT Activate:
+Re-run the loader under Win 7 and choose a different Mode from the Drop-Down List.
+
+
+To Determine if you have Slic 2.0 or Slic 2.1,
+Read this: 
+http://forums.mydigitallife.info/showthread.php?t=8267

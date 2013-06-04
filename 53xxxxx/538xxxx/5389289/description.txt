@@ -1,0 +1,74 @@
+#2nd Update#
+
+#README TEXT#
+
+#Uploaded By Humberto Lima :: Beto Default#
+
+#Playstation 2 PCSX2 Plugins Collection#
+
+#Distribua livremente o pacote com as condiÃ§Ãµes abaixo#
+
+>> CondiÃ§Ãµes:
+
+Existem muitos plagiadores na internet, isso Ã© notado atÃ© pelos mais leigos em informÃ¡tica.
+
+Muitos sites brasileiros : "Warez","de downloads","download de graÃ§a","download livre", etc ; Que contenham esses nomes ou algo parecido
+geralmente nÃ£o testam os arquivos e quando testam fazem "trabalho porco" , ou atÃ© pior, baixam o arquivo original, tira os
+crÃ©ditos da pessoa, e ainda por cima desconfiguram tudo e desfazem o trabalho original, ocasionando erros. =aff's
+
+EntÃ£o se for redistribuir o arquivo em seu site, blog ou seja lÃ¡ a merda que for, pelo menos deixe os crÃ©ditos Ã  pessoa que
+teve o trabalho de construir o pacote e posteriormente UpÃ¡-lo.
+
+#Mantenha os crÃ©ditos por favor#
+
+Sobre o conteÃºdo das pastas:
+
+Bios >> ContÃ©m vÃ¡rios arquivos necessÃ¡rios para o perfeito funcionamento do emulador PCSX2.
+
+C--WINDOWS--system32-64--CatRoot--{F750E6C3-38EE-11D1-85E5-00C04FC295EE} >> Corresponde aos arquivos de catÃ¡logo do directx, dependendo do seu tipo de sistema(x86 ou x64) a pasta irÃ¡ ser system32 ou system64.
+32-bits >> %WinDir%system32CatRoot{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+64-bits >> %WinDir%system64CatRoot{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+
+Directx >> Arquivos do directx caso vocÃª nÃ£o tenha atualizado o seu directx. Caso o emulador diga que nÃ£o estÃ¡
+iniciando porque estÃ¡ faltando uma dll relacionada ao directx, basta pegar a dll e por no diretÃ³rio do emulador, e
+depois pegar a mesma dll e jogar na pasta system32 ou system64 e registrÃ¡-la.
+
+CÃ³digo no executar quando a dll jÃ¡ estiver na pasta do sistema: regsvr32 /s "nome-da-dll.dll"
+
+Onde nome-da-dll.dll equivale ao nome da dll , vocÃª deverÃ¡ tambÃ©m por a extensÃ£o dll.
+
+Para fazer esse trabalho de registrar rapidamento deixarei um script automÃ¡tico que copiarÃ¡ as dlls para a pasta
+do sistema e logo em seguida registrarÃ¡-las.
+
+WinDir--System32-64--Drivers >> Driver que deve ficar na pasta drivers do Windows.
+Acompanha arquivo para copiar o arquivo para a pasta drivers automaticamente
+
+%WinDir%System32Drivers >> 32-bits
+%WinDir%System64Drivers >> 64-bits
+
+Tools >> Uma ferramenta para ser usada por pessoas mais avanÃ§adas. A ferramenta estÃ¡ em duas versÃµes: ISO e BIN
+
+Programs Utilities >> Programas para vocÃª instalar em seu computador para que melhore o desempenho de alguns programas e emuladores
+
+Plugins >> Na pasta plugins constam os plugins mais atualizados hoje(dia 24/02/10) e ainda uns extras
+(revisÃµes dos mesmos plugins e / ou outras versÃµes).
+
+Readme Texts >> Alguns arquivos explicativos ou que acompanham os plugins.
+
+As pasta vazias sÃ£o pastas que o prÃ³prio emulador cria em sua primeira execuÃ§Ã£o.
+
+No mesmo diretÃ³rio do emulador deverÃ¡ existir trÃªs dll's:
+
+gnu_gettext.dll
+w32pthreads.dll
+w32pthreads.v3.dll
+
+Aguardem as prÃ³ximas atualizaÃ§Ãµes, suponho que seja por volta de fevereiro ou marÃ§o.
+
+Acredito que os plugins nÃ£o sofram modificaÃ§Ãµes drÃ¡sticas positivamente enquanto que o cÃ³digo do emulador, sim, esse sim
+seja melhorado e muito ao longo do tempo.
+
+>> Contato:
+
+E-mail e msn : betokoframon@hotmail.com
+E-mail       : humbertolimacb@gmail.com  ou onekdash@gmail.com

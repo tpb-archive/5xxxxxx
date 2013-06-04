@@ -1,0 +1,64 @@
+Exact Audio Copy V0.99 prebeta 5 from 4. May 2009
+
+EAC extraction logfile from 28. August 2009, 16:30
+
+Joachim Garraud / Toolroom Knights CD2
+
+Used drive  : Optiarc DVD RW AD-7201S   Adapter: 3  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 48
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Installed external ASPI interface
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 128 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:Program FilesExact Audio CopyFlacflac.exe
+Additional command line options : -8 -V -T "ARTIST=%a" -T "TITLE=%t" -T "ALBUM=%g" -T "DATE=%y" -T "TRACKNUMBER=%n" -T "GENRE=%m" -T "COMMENT=EAC FLAC -8" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  4:43.59 |         0    |    21283   
+        2  |  4:43.59 |  3:27.59 |     21284    |    36867   
+        3  |  8:11.43 |  3:35.14 |     36868    |    53006   
+        4  | 11:46.57 |  3:46.21 |     53007    |    69977   
+        5  | 15:33.03 |  5:11.23 |     69978    |    93325   
+        6  | 20:44.26 |  5:39.26 |     93326    |   118776   
+        7  | 26:23.52 |  3:33.44 |    118777    |   134795   
+        8  | 29:57.21 |  5:51.13 |    134796    |   161133   
+        9  | 35:48.34 |  4:06.74 |    161134    |   179657   
+       10  | 39:55.33 |  4:28.62 |    179658    |   199819   
+       11  | 44:24.20 |  6:09.64 |    199820    |   227558   
+       12  | 50:34.09 |  5:07.30 |    227559    |   250613   
+       13  | 55:41.39 |  6:16.05 |    250614    |   278818   
+       14  | 61:57.44 |  6:00.08 |    278819    |   305826   
+       15  | 67:57.52 |  6:38.08 |    305827    |   335684   
+
+
+Range status and errors
+
+Selected range
+
+     Filename E:Joachim Garraud - Toolroom Knights CD2.wav
+
+     Peak level 98.9 %
+     Range quality 100.0 %
+     Test CRC BBC442D3
+     Copy CRC BBC442D3
+     Copy OK
+
+No errors occurred
+
+End of status report

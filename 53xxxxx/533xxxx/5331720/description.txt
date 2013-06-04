@@ -1,0 +1,97 @@
+Windows Live messenger 8.5 multi works on ALL win OS.
+simply i modify exe and it works and never says to update to new on (i create it) because i dont like latest msn msgr and i done this setup.
+Its free of viruses but som antiviruses says that has virus on it but i garanty that its 100% clean.
+dont forget it is multimessenger.
+
+I check with kaspersky its clean but see 
+virustotal.com
+
+[code]Antivirus 	Version 	Last Update 	Result
+a-squared 	4.5.0.50 	2010.02.03 	-
+AhnLab-V3 	5.0.0.2 	2010.02.03 	-
+AntiVir 	7.9.1.158 	2010.02.03 	-
+Antiy-AVL 	2.0.3.7 	2010.02.03 	-
+Authentium 	5.2.0.5 	2010.02.03 	W32/Trojan-Gypikon-based.DE!Maximus
+Avast 	4.8.1351.0 	2010.02.02 	-
+AVG 	9.0.0.730 	2010.02.02 	-
+BitDefender 	7.2 	2010.02.03 	-
+CAT-QuickHeal 	10.00 	2010.02.03 	-
+ClamAV 	0.96.0.0-git 	2010.02.03 	-
+Comodo 	3803 	2010.02.03 	-
+DrWeb 	5.0.1.12222 	2010.02.03 	-
+eSafe 	7.0.17.0 	2010.02.02 	-
+eTrust-Vet 	35.2.7278 	2010.02.03 	-
+F-Prot 	4.5.1.85 	2010.02.01 	W32/Trojan-Gypikon-based.DE!Maximus
+F-Secure 	9.0.15370.0 	2010.02.03 	-
+Fortinet 	4.0.14.0 	2010.02.03 	-
+GData 	19 	2010.02.03 	-
+Ikarus 	T3.1.1.80.0 	2010.02.03 	-
+Jiangmin 	13.0.900 	2010.02.03 	Trojan/StartPage.bim
+K7AntiVirus 	7.10.963 	2010.02.02 	-
+Kaspersky 	7.0.0.125 	2010.02.03 	-
+McAfee 	5880 	2010.02.02 	-
+McAfee+Artemis 	5880 	2010.02.02 	-
+McAfee-GW-Edition 	6.8.5 	2010.02.03 	-
+Microsoft 	1.5406 	2010.02.03 	-
+NOD32 	4830 	2010.02.03 	-
+Norman 	6.04.03 	2010.02.03 	W32/Obfuscated.T2!genr
+nProtect 	2009.1.8.0 	2010.02.03 	-
+Panda 	10.0.2.2 	2010.02.02 	-
+PCTools 	7.0.3.5 	2010.02.03 	-
+Prevx 	3.0 	2010.02.03 	Medium Risk Malware
+Rising 	22.33.02.04 	2010.02.03 	-
+Sophos 	4.50.0 	2010.02.03 	-
+Sunbelt 	3.2.1858.2 	2010.02.03 	-
+TheHacker 	6.5.1.0.178 	2010.02.03 	-
+TrendMicro 	9.120.0.1004 	2010.02.03 	-
+VBA32 	3.12.12.1 	2010.02.03 	-
+ViRobot 	2010.2.3.2170 	2010.02.03 	-
+VirusBuster 	5.0.21.0 	2010.02.02 	-
+Additional information
+File size: 15370409 bytes
+MD5   : e3bf8a0bd0e4ee5be299b472adc5c950
+SHA1  : 3d85b981011df531f48e6b7fa8e48f700c75b505
+SHA256: a3e3921062eb9de69334318da1c1489959d464ad50e13a5e5bdcb5f4ab45b687
+PEInfo: PE Structure information
+
+( base data )
+entrypointaddress.: 0x17D64
+timedatestamp.....: 0x2A425E19 (Sat Jun 20 00:22:17 1992)
+machinetype.......: 0x14C (Intel I386)
+
+( 8 sections )
+name viradd virsiz rawdsiz ntrpy md5
+CODE 0x1000 0x16DC8 0x16E00 6.47 b770c7f279eb9fc26ac4a87d2b12ac8f
+DATA 0x18000 0x700 0x800 3.18 c4c19ca9e500cb531e93a6fc31dcb110
+BSS 0x19000 0x8A9 0x0 0.00 d41d8cd98f00b204e9800998ecf8427e
+.idata 0x1A000 0x14D0 0x1600 4.79 08b2ec6b7f09cb82de12e663d8041976
+.tls 0x1C000 0x8 0x0 0.00 d41d8cd98f00b204e9800998ecf8427e
+.rdata 0x1D000 0x18 0x200 0.20 17291f4d14f4488dcc09f44b431f3d22
+.reloc 0x1E000 0x11C0 0x1200 6.71 68baacd130dcf39d09b27606b341bb93
+.rsrc 0x20000 0x140C0 0x14200 7.27 28fb5e8e28e6e15591745996f5b40ee5
+
+( 10 imports )
+
+> advapi32.dll: RegSetValueExA, RegQueryValueExA, RegQueryInfoKeyA, RegOpenKeyExA, RegEnumKeyExA, RegCreateKeyExA, RegCloseKey, OpenThreadToken, OpenProcessToken, LookupPrivilegeValueA, GetUserNameA, GetTokenInformation, FreeSid, EqualSid, AllocateAndInitializeSid, AdjustTokenPrivileges
+> cabinet.dll: FDIDestroy, FDICopy, FDICreate
+> comctl32.dll: ImageList_Draw, ImageList_SetBkColor, ImageList_Create, InitCommonControls
+> gdi32.dll: StretchDIBits, StretchBlt, SetWindowOrgEx, SetTextColor, SetStretchBltMode, SetRectRgn, SetROP2, SetPixel, SetDIBits, SetBrushOrgEx, SetBkMode, SetBkColor, SelectObject, SaveDC, RestoreDC, OffsetRgn, MoveToEx, IntersectClipRect, GetTextExtentPoint32A, GetStockObject, GetPixel, GetObjectA, GetDIBits, ExtSelectClipRgn, ExcludeClipRect, DeleteObject, DeleteDC, CreateSolidBrush, CreateRectRgn, CreateFontIndirectA, CreateDIBSection, CreateCompatibleDC, CreateCompatibleBitmap, CreateBrushIndirect, CombineRgn, BitBlt, AddFontResourceA
+> kernel32.dll: GetCurrentThreadId, WideCharToMultiByte, ExitProcess, UnhandledExceptionFilter, RtlUnwind, RaiseException, TlsSetValue, TlsGetValue, LocalAlloc, GetModuleHandleA, FreeLibrary, HeapFree, HeapReAlloc, HeapAlloc, GetProcessHeap, WritePrivateProfileStringA, WriteFile, WinExec, WaitForSingleObject, TerminateProcess, Sleep, SetFileTime, SetFilePointer, SetFileAttributesA, SetErrorMode, SetEndOfFile, SetCurrentDirectoryA, RemoveDirectoryA, ReadFile, OpenProcess, MultiByteToWideChar, LocalFileTimeToFileTime, LoadLibraryA, GlobalFree, GlobalAlloc, GetWindowsDirectoryA, GetVersionExA, GetVersion, GetUserDefaultLangID, GetTimeFormatA, GetTempPathA, GetSystemDirectoryA, GetShortPathNameA, GetProcAddress, GetPrivateProfileStringA, GetModuleHandleA, GetModuleFileNameA, GetLastError, GetFullPathNameA, GetFileTime, GetFileSize, GetFileAttributesA, GetExitCodeProcess, GetDiskFreeSpaceA, GetDateFormatA, GetCurrentThread, GetCurrentProcess, GetComputerNameA, GetCommandLineA, FreeLibrary, FormatMessageA, FindNextFileA, FindFirstFileA, FindClose, FileTimeToSystemTime, FileTimeToLocalFileTime, ExpandEnvironmentStringsA, DosDateTimeToFileTime, DeleteFileA, CreateFileA, CreateDirectoryA, CompareStringA, CloseHandle
+> ole32.dll: OleInitialize, OleInitialize, CoTaskMemFree, CoCreateInstance, CoUninitialize, CoInitialize
+> oleaut32.dll: SysFreeString, SysReAllocStringLen, SysAllocStringLen
+> shell32.dll: SHGetFileInfoA, ShellExecuteExA, ShellExecuteA, SHGetSpecialFolderLocation, SHGetPathFromIDListA, SHGetMalloc, SHChangeNotify, SHBrowseForFolderA
+> user32.dll: wvsprintfA, WaitMessage, ValidateRect, TranslateMessage, ShowWindow, SetWindowPos, SetWindowLongA, SetTimer, SetPropA, SetParent, SetForegroundWindow, SetFocus, SetCursor, SendMessageA, ScreenToClient, RemovePropA, ReleaseDC, RegisterClassA, PostQuitMessage, PostMessageA, PeekMessageA, OffsetRect, MessageBoxA, LoadIconA, LoadCursorA, KillTimer, IsZoomed, IsWindowVisible, IsWindowEnabled, IsWindow, IsIconic, InvalidateRect, GetWindowTextLengthA, GetWindowTextA, GetWindowRgn, GetWindowRect, GetWindowLongA, GetWindowDC, GetUpdateRgn, GetSystemMetrics, GetSystemMenu, GetSysColor, GetPropA, GetParent, GetWindow, GetKeyState, GetFocus, GetDCEx, GetDC, GetCursorPos, GetClientRect, GetClassLongA, GetClassInfoA, GetCapture, FindWindowA, FillRect, ExitWindowsEx, EnumWindows, EndPaint, EnableWindow, EnableMenuItem, DrawTextA, DrawIcon, DispatchMessageA, DestroyWindow, DestroyIcon, DeleteMenu, DefWindowProcA, CopyImage, ClientToScreen, CheckRadioButton, CallWindowProcA, BeginPaint, CharLowerBuffA, CreateWindowExA
+> winmm.dll: timeKillEvent, timeSetEvent
+
+( 0 exports )
+TrID  : File type identification
+InstallShield setup (59.5%)
+Win32 Executable Delphi generic (20.2%)
+Win32 Executable Generic (11.7%)
+Win16/32 Executable Delphi generic (2.8%)
+Generic Win/DOS Executable (2.7%)
+ssdeep: 393216:0SahuRpcPZh0rEGPuYT1pCgz2AvmiadsalPVJ:8ERp6hBGPJTvJ2AvmiunJ
+Prevx Info: http://info.prevx.com/aboutprogramtext.asp?PX5=7F7BEA85A94B11358801EA4218A7B80000735870
+PEiD  : -
+packers (Kaspersky): Swf2Swc
+RDS   : NSRL Reference Data Set[/code]

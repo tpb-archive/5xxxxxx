@@ -1,0 +1,27 @@
+Epic thread with lots of beauties: http://www.fohguild.org/forums/screenshots/4328-pretty-girl-thread.html
+Ripped pages 1-1457.
+
+How to download forum threads like this:
+
+1. Figure out the sequence of pages (some increment according to number of posts):
+PAGE_START=1
+PAGE_INCREMENT=1
+PAGE_LAST=1457
+
+2. Plug that into the base URL:
+BASE_URL=http://www.fohguild.org/forums/screenshots/4328-pretty-girl-thread-{$(for i in $(seq $PAGE_START $PAGE_INCREMENT $PAGE_LAST); do echo -n $i,; done)}.html
+
+3. Set download directory:
+NAME=PGT
+DIR=$HOME/$NAME
+mkdir $DIR
+
+4. Download:
+DL_CMD="wget --page-requisites --tries=5 --no-directories --accept .jpg,.jpeg --execute robots=off --directory-prefix=$DIR $BASE_URL"
+eval "$DL_CMD"
+
+5: Compress:
+zip --recurse-paths -X --compression-method store $NAME $DIR
+
+6. Create torrent:
+transmissioncli -n $NAME.zip -a http://tracker.thepiratebay.org/announce $NAME.torrent

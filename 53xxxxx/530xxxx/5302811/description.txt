@@ -1,0 +1,223 @@
+Exact Audio Copy V0.99 prebeta 5 from 4. May 2009
+
+EAC extraction logfile from 16. October 2009, 12:32
+
+Various / John Acquaviva  Back To The Future
+
+Used drive  : TSSTcorpCD/DVDW SH-S162L   Adapter: 0  ID: 1
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 6
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Installed external ASPI interface
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 192 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:Program FilesExact Audio CopyFlacflac.exe
+Additional command line options : -8 -A tukey(0.25) -A gauss(0.1875) -b 4096 -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s --sector-align
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  5:02.66 |         0    |    22715   
+        2  |  5:02.66 |  3:31.48 |     22716    |    38588   
+        3  |  8:34.39 |  6:02.59 |     38589    |    65797   
+        4  | 14:37.23 |  5:02.25 |     65798    |    88472   
+        5  | 19:39.48 |  6:17.69 |     88473    |   116816   
+        6  | 25:57.42 |  4:43.33 |    116817    |   138074   
+        7  | 30:41.00 |  5:09.67 |    138075    |   161316   
+        8  | 35:50.67 |  4:01.66 |    161317    |   179457   
+        9  | 39:52.58 |  6:36.61 |    179458    |   209218   
+       10  | 46:29.44 |  6:21.52 |    209219    |   237845   
+       11  | 52:51.21 |  5:34.35 |    237846    |   262930   
+       12  | 58:25.56 |  4:01.65 |    262931    |   281070   
+       13  | 62:27.46 |  5:25.01 |    281071    |   305446   
+       14  | 67:52.47 |  3:16.39 |    305447    |   320185   
+       15  | 71:09.11 |  6:41.02 |    320186    |   350262   
+
+
+Track  1
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future 1 - Kolombo - Tweedle Dee (Daniele Papini Remix).wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 97.5 %
+     Track quality 100.0 %
+     Test CRC 48CFEEEC
+     Copy CRC 48CFEEEC
+     Accurately ripped (confidence 1)  [23F3C8B0]
+     Copy OK
+
+Track  2
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future 2 - The Cruzaders - Fluo (Veerus & Maxie Devine Remix).wav
+
+     Peak level 94.8 %
+     Track quality 100.0 %
+     Test CRC B44151C2
+     Copy CRC B44151C2
+     Accurately ripped (confidence 1)  [73128501]
+     Copy OK
+
+Track  3
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future 3 - Vandermeer & Nitin - Beached Beluga.wav
+
+     Peak level 97.5 %
+     Track quality 100.0 %
+     Test CRC D670BC56
+     Copy CRC D670BC56
+     Accurately ripped (confidence 1)  [3D96B559]
+     Copy OK
+
+Track  4
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future 4 - Swen Weber - Deep In Matadi.wav
+
+     Peak level 97.5 %
+     Track quality 100.0 %
+     Test CRC 2B3DCB08
+     Copy CRC 2B3DCB08
+     Accurately ripped (confidence 1)  [CFE305F1]
+     Copy OK
+
+Track  5
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future 5 - D-Unity - Shake It (D Unity's Shaker Mix).wav
+
+     Peak level 97.3 %
+     Track quality 100.0 %
+     Test CRC 72A56AC5
+     Copy CRC 72A56AC5
+     Accurately ripped (confidence 1)  [A4E87043]
+     Copy OK
+
+Track  6
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future 6 - John Acquaviva  &  Alex D'Elia - Salamandra (Original Mix).wav
+
+     Peak level 92.5 %
+     Track quality 100.0 %
+     Test CRC BA0E093B
+     Copy CRC BA0E093B
+     Accurately ripped (confidence 1)  [FFB0FC14]
+     Copy OK
+
+Track  7
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future 7 - Tyler Michaud  &  Mat Zo - Stubby.wav
+
+     Peak level 92.7 %
+     Track quality 100.0 %
+     Test CRC 5BDA379E
+     Copy CRC 5BDA379E
+     Accurately ripped (confidence 1)  [2106B90E]
+     Copy OK
+
+Track  8
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future 8 - Olivier Giacomotto - Guacamoli.wav
+
+     Peak level 97.5 %
+     Track quality 100.0 %
+     Test CRC AEC9B9A7
+     Copy CRC AEC9B9A7
+     Accurately ripped (confidence 1)  [CBD20232]
+     Copy OK
+
+Track  9
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future 9 - Mark Trophy - Ripper.wav
+
+     Peak level 97.5 %
+     Track quality 99.9 %
+     Test CRC 5F923FBC
+     Copy CRC 5F923FBC
+     Accurately ripped (confidence 1)  [AB83A03C]
+     Copy OK
+
+Track 10
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future10 - Deepgroove  &  Jamie Anderson - Invaders.wav
+
+     Peak level 97.5 %
+     Track quality 100.0 %
+     Test CRC 73BAF63B
+     Copy CRC 73BAF63B
+     Accurately ripped (confidence 1)  [3FAACA7F]
+     Copy OK
+
+Track 11
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future11 - Robot Needs Oil - High Voltage (Raul Blanco Malassa Remix).wav
+
+     Peak level 97.5 %
+     Track quality 100.0 %
+     Test CRC 3564B78D
+     Copy CRC 3564B78D
+     Accurately ripped (confidence 1)  [2B6F3873]
+     Copy OK
+
+Track 12
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future12 - Acquaviva & Zenker pres A2Z - Dot Bomb.wav
+
+     Peak level 97.5 %
+     Track quality 100.0 %
+     Test CRC 2C89BF39
+     Copy CRC 2C89BF39
+     Accurately ripped (confidence 1)  [31A68429]
+     Copy OK
+
+Track 13
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future13 - Les Schmitz  vs. Amo & Navas - Positive (Amo & Navas Rework 2008).wav
+
+     Peak level 94.6 %
+     Track quality 100.0 %
+     Test CRC 97F30DBD
+     Copy CRC 97F30DBD
+     Accurately ripped (confidence 1)  [3E994644]
+     Copy OK
+
+Track 14
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future14 - Josh Wink - Counter Clock 319.wav
+
+     Peak level 95.5 %
+     Track quality 100.0 %
+     Test CRC 3ECFEFDA
+     Copy CRC 3ECFEFDA
+     Accurately ripped (confidence 1)  [BEA68BFA]
+     Copy OK
+
+Track 15
+
+     Filename C:Documents and SettingsBobMy DocumentsEdited filesEac ripsJohn Acquaviva  Back To The Future15 - Marc DePulse - PS. You Rock (Spektre Remix).wav
+
+     Peak level 94.8 %
+     Track quality 100.0 %
+     Test CRC 4C913057
+     Copy CRC 4C913057
+     Accurately ripped (confidence 1)  [03AD077D]
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report

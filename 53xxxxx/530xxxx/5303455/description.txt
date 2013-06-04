@@ -1,0 +1,37 @@
+/*
+
+    This suite includes:
+
+        Turbo C 2.01
+        Turbo C++ 1.01
+        Turbo Profiler 1.02
+        Turbo Debugger 2.02
+        Turbo Assembler 2.02
+
+    Turbo Profiler, Debugger, and Assembler are preinstalled for you, in
+    the READY directory.  The three 720K floppy images are included, but
+    installing them without using real floppy disks is only for the most
+    adventurous.  Have fun with that, if you wish.
+
+    Turbo C 2.01 and Turbo C++ 1.01 will both default install to the /TC
+    directory.  Since Turbo C++ compiles both C and C++, you may want to
+    omit Turbo C 2.01, and install only Turbo C++ 1.01; despite having a
+    lower version number, it's more recent.
+
+    In the TCPP101 directory, INSTALL.EXE will get you going.
+
+    
+    0.001 2010-01-23
+
+    I rebuilt the preinstalled READY directory, using subdirectories for
+    installing the EXAMPLES, consistent with the TCPP101 default install
+    choices.
+
+    TD386.EXE fails with more than 16MB of RAM, but TDG16M.SYS will work
+    around the problem.  So now I include TDG16M with the archive.  It's
+    getting hard to find these old files.  Someone should organize a DOS
+    perservation network.
+
+
+*/
+

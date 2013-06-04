@@ -1,0 +1,57 @@
+(not HD, just tagged this way to assist Apple TV users)
+
+---
+
+Source: Where.The.Wild.Things.Are.DVDR-CLUE
+
+Poster: 
+http://img192.imageshack.us/img192/2312/wherethewildthingsarepo.jpg
+
+Icon: 
+http://bayimg.com/image/gakoeaacg.jpg
+
+Snaps: 
+http://img42.imageshack.us/img42/4922/vlcsnap2010021422h01m43.png 
+http://img34.imageshack.us/img34/6651/vlcsnap2010021422h01m47.png 
+http://img20.imageshack.us/img20/7650/vlcsnap2010021422h01m55.png 
+http://img28.imageshack.us/img28/3936/vlcsnap2010021422h00m49.png 
+http://img34.imageshack.us/img34/6818/vlcsnap2010021422h00m59.png 
+http://img20.imageshack.us/img20/97/vlcsnap2010021422h01m07.png 
+http://img34.imageshack.us/img34/224/vlcsnap2010021422h01m35.png
+
+-------------------------------------------------------
+Designed for direct playback on Apple TV, PS3, WDTV, Xbox360, Popcorn Hour, VLC.
+
+WDTV users change extension from .m4v to .mp4
+
+Apparently there is a sync problem with MP4 for WDTV Live with the latest firmware.
+
+It is discussed here 
+http://wdtvhd.com/index.php?showtopic=8778
+and here 
+http://community.wdc.com/t5/WD-TV-Live-Firmware/1-0-17-MP4-Audio-Sync/td-p/6146
+and suggested to rollback firmware to revision 1.01.00
+
+Apple TV user ensure running firmware 3.0.1  Use custom iTunes movie sync option "Automatically include the 10 most recent movies along with selected movies."
+--------------------------------------------------------
+Video technical specifications:
+
+Video:
+Codec: AVC via x264
+Profile: High@3.0
+Bitrate: 1280 Kbps
+FPS: 23.976
+Rate Control: 2 pass
+
+Audio 1:
+Codec: AAC Stereo
+Bitrate: 160 Kbps
+(for everything)
+
+Audio 2:
+Codec: Dolby Digital 5.1
+Bitrate: 384 Kbps
+(for Apple TV use TOSLINK to receiver to enable DD, or use WDTV Live, or VLC on PC)
+-------------------------------------------------------
+
+-HR

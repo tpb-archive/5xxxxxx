@@ -1,0 +1,18 @@
+User Type,Username,Date,Text
+,Simon2672,2010-02-12T20:21Z,"Does not work in Vista Home Premium 32bit.
+Crashes when trying to save the CNEU map image in C:/."
+,Simon2672,2010-02-13T14:13Z,"Correction: the bug that makes Mapsource crash is not in this release but it is in CNEUNT2010.31 itself. 
+If you select the few areas on the west side of Madrid in Spain, the upload to the device wont work but the app crashes once the traffic index is done. The rest of Europe is OK."
+,FrasseDaMan,2010-02-14T05:26Z,"@Simon2672
+
+Everyone of City Navigator Europe NT 2010.30, 2010.30b & 2101.30c works perfectly with BADAJOZ map section in Spain. It's just the MapSource version that makes the difference.
+MapSource v6.15.7 avoids the need for GMA certificate files but gives trouble generating some TRF data for certain map pieces.
+
+Using the MapSource v6.15.11 special patched version takes care of all problems . No need for digital certificate authentication with GMA-files, works with BADAJOZ map tile, writes generated map to any hard drive ([X]:\Garmin\gmapsupp.img)."
+,nkx659,2010-03-02T21:50Z,"It's no longer possible to download from Garmin website, only 6.15.11."
+[T],Nincsenex,2010-03-12T23:21Z,"@nkx659:
+You can download lates MapSource from Garmin, just replace the .exe file with the patched version it will still work."
+,Fraggle2222,2011-09-01T19:20Z,"When i patch mapsource with this special version, mapsource doesn't work anymore. Messgae: Incorrect language file. Please reinstall mapsource.
+Can anybody help me?????"
+,sigbert,2011-10-14T17:55Z,Have the same problem as fragle2222.
+,sigbert,2011-10-14T18:23Z,My problem could be as easy as i found my mapsource on drive D instead of C. 

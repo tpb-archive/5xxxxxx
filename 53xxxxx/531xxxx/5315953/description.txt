@@ -1,0 +1,57 @@
+XBR Flasher By Plexo
+
+Features
+Automatic CB Detection 
+Automatic dumping (2 times)
+Automatic checksum compare
+Automatic Keyvault and config extraction and injection 
+Automatic XBR.bin selection
+Keeps backups in tidy folders
+Supports 16mb and 256/512mb nands
+
+XBRFlasher will now dump 1 sector from the NAND and run cbcheck.exe
+to determine the CB Version, it will then (based on your board revision
+you picked) decide if the xbox is exploitable or not, it will continue 
+if exploitable and go back to start with an error if your xbox has an
+unexploitable CB version
+
+Looking further into GUI idea... have a rough draft layed out still
+deciding on alot of things...
+
+**PLEASE NOTE ** i recommend that when XBRFlasher tells you to press any key
+to continue flashing, you run 1 of the backup files through Degraded or similar
+to check for badblocks!
+
+simple batch file for flashing/restoring your xbox 360 nand chips,
+compatible with all revisions to date. nand backups along with kv
+and config seperate and log files from nandpro all kept in /backups/
+restoring will come next havent done that yet...
+
+installation:
+1. make a folder called firmwares
+2. Install PortIO Install.exe
+3. put the following files into the firmwares folder:
+     XBR_Xenon_8955_3.bin
+     XBR_Zephyr_8955_3b.bin
+     XBR_Falcon_8955_3a.bin
+     XBR_Jasper16_8955_3.bin
+     XBR_JasperBB_8955_3.bin
+4. Run XBRFlash.bat
+
+todo
+hhd uncripple support - should be easy enough when i have time...
+Bad Block support - unsure how to do this.. need to know how to determine "bad blocks"
+Automatic Board detection - so it will auto detect if you have a falcon etc...
+lots of error detection/handling (will be leaving this for GUI ??)
+
+changelog
+v0.2 26/01/10 - Added Automatic CB Checking, cleaned up some of batch script
+                fixed some misc errors coming up
+
+v0.1 22/01/10 - inital release
+
+
+DISCLAIMER
+Please note, this program is in very early stages and may have some bugs, i cannot 
+be held responsible for any damage whatsoever done by this program, use it at your
+own risk!

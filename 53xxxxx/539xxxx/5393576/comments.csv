@@ -1,0 +1,89 @@
+User Type,Username,Date,Text
+,darth5ava63,2010-03-03T23:34Z,"Do you have deep space nine ? i would love over a 100 gigs of that too. This will go great on my 2tb external hard drive, thank you "
+,TheAtomicAss,2010-03-05T02:31Z,"Thank you for the hard work making these...
+
+Have you got Voyager as well?  :)"
+[V],meech,2010-03-05T23:20Z,"Glad you enjoy.  I am a big Star Trek fan.  There are some pretty decent torrents out there for Voyager and Deep Space Nine.  They are the standard 350mb dvd-rip.  Not sure if they have 5.1 sound.  While I'm into quality over size, those types of torrents tend to do better.  However, I am thinking about possibly doing Voyager and Deep Space Nine when I am done with Next Generation.  We'll see : ) "
+,dangeri874,2010-03-17T05:55Z,"Hey thanks so much Meechorno!  I'm a big Star Trek fan too, since I was a kid. And now on such a small income, it's been impossible to get these shows that I love so very much. I appreciate your efforts in putting them up here more than I can tell you!"
+,Fuxsylady,2010-03-30T20:09Z,What program do you use to rip dvs Ive been looking for a good one lately but the quality of your rips speaks for itself
+[V],meech,2010-04-01T00:46Z,"I use Handbrake. Great free program that's powerful, yet easy to use.  The reason these rips are such good quality is mostly because of my new computer.  The i7 processor allows me to turn on ALL of the bells and whistles of the h264 standard (through the Handbrake encoder).  I turn the settings up real high and set the output size to a reasonable limit (550 gb 2 pass rip for 45 min show).  It takes about 2 hours for a 2 pass encode.  On a slower pc, it could take well over 20 hours depending.  If you are going to rip a movie instead of a t.v. series, I would probably use constant quality ratio (one pass encode) around 16.  I also utilize the medium denoise option in Handbrake for these dvds.  The original picture is very noisy.  This does slightly degrade the sharpness (by smoothing things out)...but it's really not that noticeable.  I've noticed that with the denoiser and other encoder options (the h264 internal decomber) these rips can sometimes look even better than the original dvds."
+,Fuxsylady,2010-04-01T20:54Z,"Thank you so much for the info, Ive been itching to do a higher res version of the batman animated series but my PC is a bit old (one of the first dual cores 1.8 mhz) Ill download the program and give it a shot. Looking foward to season 4!"
+,dangeri874,2010-04-04T19:19Z,"Hey Meechorno, what do you suggest as the best way to convert the MKV files, and to which format (AVI, MP4, etc.) to burn them to DVDs with Nero 8? Or is there another program that works well for this? In order to really enjoy these, I'll need to burn them to DVDs."
+[V],meech,2010-04-05T04:28Z,"dangeri874: Unfortunately I only have minor experience with burning dvd's from a ripped source.  I would think that something like Nero would be able to burn/convert to dvd on-the-fly without having to convert on your own first.  But if that's not the case, my favorite video converter is ""Any Video Converter"".  It doesn't really matter what format, as that (avi, mp4, etc) is just a container.  It's the original codec that determines the quality (h264).  However, any kind of conversion may degrade quality.  The best way to view these on your t.v. is to stream/transcode them through a media server like the PS3media server with a ps3 or something like the apple tv, popcorn hour, WD TV HD Media Player, etc.  That way you can conveniently keep them stored on your computer and just stream them (if you have the proper equipment).  If any video converter doesn't give you the results you are looking for, you might want to ask around in the various a/v forums.  Enjoy!"
+,dangeri874,2010-04-05T18:16Z,"Thanks Meechorno, sounds like good counsel. I understand about the quality issue, I did convert one MKV file once to burn to a DVD and it was very bad, very pixelated. and Any Video Converter was the one I used for the conversion.  I think Nero 9 has a converter for MKV files, from my research, but I may see if there is a way to add a feature to my Nero 8 and see if it will work.  I'm also looking at the DivX program, as it has conversion and is pretty inexpensive.  This is all quite a learning process!  Thanks so much for your response on my question also, I really appreciate it."
+,Fuxsylady,2010-04-05T20:38Z,"Convertx to dvd is pretty good, the menu making options are extremely limited but the laczios decoder is the best"
+,dangeri874,2010-04-06T22:08Z,"Thanks Fuxsylady, I'll check that out.  I think I ran across it in my research too, but I appreciate the helpful comment, nice to have some idea about a product."
+,dangeri874,2010-04-14T21:26Z,I tried the DIVX program as a free download... got the converter with it as a 15 day free trial.  The converter did a pretty good job with the episode I tried converting... which I then burned to a dvd and the quality was very good.  So I think I'll spring for the $20 to buy it.  Will look at ConvertX in the future if needed.  Might also consider hooking up the computer to the TV and dispense with dvds also!
+,truthy,2010-05-21T08:09Z,"thx for sharing!
+
+the quality of your rips is indeed far better than any other rips around. I downloaded the 350 MB Xvid/DivX Rip ages ago (around 60 GB, standalone compatibility) and compared it with yours - quite a difference. watching on a 32'' LCD.
+
+here's some important video/audio info, I guess it's roughly the same for every episode of every season of your rips:
+
+video: x264, 720x480@23.976 fps, AR 4:3, avg. bitrate 1200 Kbps, Bits/(Pixel*Frame) 0.145
+audio: ac3 6 channel (5.1), 448 kbps Constant, 48.0 Khz
+container: mkv
+subtitles: Text, Subrip/SRT Format"
+,truthy,2010-05-24T05:40Z,"one small note though, the audio is slightly of by +150 ms (most people won't notice that, I know ...) - easily permanently correctable with mkvmerge (mkvtoolnix)
+
+also vlc is not the best player atm for h.264 encoded movies (especially for hd stuff) - better to use MPC HC (media player classic home cinema) - or wmp + ffdshow tryouts"
+[V],meech,2010-05-25T00:12Z,"Can't say I noticed the audio sync problem.  I haven't noticed it from this or any other encodes I've done with handbrake.  However, I'll take your word for it.  You must have a very good eye to notice a tenth of a second!  Or is there a program maybe that checks for that?  If so, I would be interested in how to check for something like that.  Thanks for your comments.  I appreciate all feedback to ensure top quality rips in the future."
+,truthy,2010-05-28T02:10Z,"as I said, it's really a minor issue. +150 ms is almost nothing. I encounter such slight audio delays between 150-250 ms quite often in various rips or scene releases. normally if there is an audio delay on the dvds the encoding program automatically recognizes the delay and ads it to your rip. 
+
+the only way to check this afterwards is to apply the audio delay during playback (with & without delay) and closely watch the characters lips during dialogues. you can easily try that with vlc (Show extended Settings --> Synchronization --> Advance Audio over Video) or mpc hc (audio --> options --> delay). If you'r on mac/linux, I'm quite sure mplayer also has this option somewhere.
+
+still, you really did a great job making these HQ-Rips, thx for the effort!"
+[V],meech,2010-06-02T00:36Z,Truthy: Thanks for the tips!
+,JT5150,2010-07-29T03:09Z,"Great quality!
+
+Can you point me in the right direction for some good DS9 rips?  The ones I found are not that good on my big screen."
+[V],meech,2010-07-29T13:01Z,"JT5150:
+It' funny you ask.  I am actually in the process of ripping DS9 right now.  I have finished ripping seasons 1-3 and am going to be uploading season 1 very soon.  I just have to work on adding the subtitles.  Look out for them this weekend or early next week."
+,Balinor13,2010-08-14T10:07Z,"I have your entire collection of SG-1, TNG, and im starting on DS9. 
+
+The quality on all of your rips is the best ive ever seen for DVD. Thanks so much for taking the time to upload them."
+,darren12,2010-09-24T13:31Z,"Firstly, thanks so much for posting this series, have grabbed a couple of seasons and will get the rest soon. 
+And a question - what codec is needed to play these back under Win7 Media Centre?  I have Haali Media splitter installed, and the files are playing back, but have blocking artifacts on them.  I tried putting ffdshow on there but that still gets the block artifacts.  Total Media Theatre 3 platinum plays them back without any artifacts, but it only plays MKVs from windows desktop, not from within the media centre plugin..  Really keen to get these showing from inside media centre.  TIA, Dazza"
+,J270145,2010-09-25T06:04Z,Past day or so my client isn't finding any peers for this torrent. All the other TNG seasons are downloading just fine though. What gives?
+[V],meech,2010-09-25T18:52Z,"J270145:
+Not sure why you are having trouble finding peers.  I just tested this torrent by trying to download it and was able to connect to 23 out of 151 peers.  I have noticed that the main trackers have been down lately (at least when i connect with my uTorrent).  Perhaps that is the reason why, i dunno.  However, even without the trackers, you should still be able to connect using DHT and Peer Exchange.  You might want to make sure they are enabled in your torrent client.  Then again, if that was your problem, the other seasons shouldn't have worked for you either.  I don't have much to offer you besides these suggestions.  If I start to get more complaints about not being able to connect, I'll try to look into it further."
+,Lars_83,2010-10-08T22:11Z,"My client isn't finding any peers for this torrent.
+Why does it not work?"
+[V],meech,2010-10-08T23:51Z,"If you are having trouble find peers with your torrent client, it is probably because you don't have DHT and/or the Peer Discovery options enabled in your client.  If you can't connect to this season 1 torrent, but you can to season 2, than that is almost for sure your problem.  This season 1 was the first torrent I've ever posted, so I was pretty new at it.  I only used the openbittorent tracker.  Back then it was rock solid, reliable, and recommended as the only tracker needed.  Later (after season 1), I found another big tracker called: http://tracker.publicbt.com/announce & udp://tracker.publicbt.com:80/announce.  This tracker is used by the rest of my torrents.
+
+Lately, the most popular big torrent trackers: udp://tracker.openbittorrent.com:80/announce & 
+http://tracker.openbittorrent.com/announce (which is in this torrent) have been offline for quite a while.  Haven't looked into, so not sure why.
+
+PublicBt IS currently working...which is why you may be able to download the rest of my torrents but not this one.  However, nowadays it's not so important to have online trackers.  
+
+Peer Discovery and DHT network is all you need.  You'll notice that a lot of torrents' trackers are down as well and will require Peer Disc/DHT.  So make sure you enable these options and you should be good to go.
+
+I just connected to this torrent and 42 seeds and 107 peers."
+,Bosch234,2010-10-23T08:40Z,"Hey man, this is great.  Finished downloading season 1, now seeding and working on season 2.  Quick question.  Is there any way to disable the subtitles?  I'm new to this so forgive me if this seems like a stupid question."
+[V],meech,2010-10-24T05:15Z,"Bosch234:
+Yes, you can disable subtitles.  They are ""soft"" subtitles which means they are not burned into the picture.  The MKV container is very flexible and allows you to put multiple tracks in there including different audio tracks (ex. 1 english track and another different foreign language track) and can also include different subtitle streams.  These MKV files are basically one audio file (stream), one video file (stream) and one subtitle file all contained in one container (mkv file).  So if you want, you can completely remove that subtitle file from the MKV by using a tool called MKVmerge (a tool that's part of MKVtoolnix).  Google it to find it.  Or you can usually simply disable them in the player you are using.  Just about every p.c. media player can handle this.  If you are using the popular VLC player, Click on [video] in the toolbar and then [subtitles track] and then click [disable].  You can also similarly disable them in other media players like media player classic and (usually) windows media player.  If you are streaming them to your ps3 through ps3mediaserver, there is also an option there.  Not so sure about the other media servers out there.  Hope this helps."
+,Bosch234,2010-10-25T01:46Z,"Yes this helps thank you.  Thank you also for these shows, the quality is great.  It runs great on my computer, I can't wait until I get it on my tv."
+[V],meech,2010-11-02T14:05Z,"To view some of my other torrents, goto my piratebay page http://thepiratebay.org/user/meech
+
+Some of my other sci-fi torrents include high quality complete series of: Star Trek DS-9, Stargate SG-1, Farscape, and Space Above and Beyond.
+
+Star Trek Voyager is currently being ripped.  The first season should be up soon."
+,J270145,2010-11-03T22:50Z,It cleared up for me after a few days. I think it was the rtorrent program itself having issues. Thanks!
+[V],meech,2010-11-05T12:07Z,"J270145: I would still look at your torrent program options and make sure Peer Discovery and DHT is enabled.  If it cleared up after a few days, then I would definitely look into it.  The reason being, a few days after you wrote your comment, the tracker that I was telling you about came back online.  So it is most likely that. Besides going into the options, you can check to see if they (DHT/Peer Discovery) are working by looking at the trackers that you are connected to.  In uTorrent, you click on the file you are downloading, then click on the trackers tab.  If you are not connected to any seeds or peers on DHT or Peer Discovery, then they are turned off."
+,robr1967,2011-02-03T14:05Z,"Pardon me, I am new to downloading things.  I just downloaded a few of the seasons.  FIrst off, I got the MKV player, not the VLC, perhaps I need to download the VLC one, since I can not seem to be able to get rid of the subtitles with the MKV player.  It will move them and delay them but not remove them.
+
+Also, when I played the first episode, I saw the format was TV format (4:3).  Is this the case?  When I tried to stretch it out to widescren the credits at the beginning started to pixelate.
+
+Can someone please help me out here.
+
+Thanks"
+,mr.torture,2011-03-04T18:54Z,"I have your Farscape collection, and it's quality is really amazing, especially for an DVDrip. So bow down for it... I didn't checked any of TNG episodes yes, cause I'm still downloading it, but I expect nearly the same.
+Only, for some reason, download speed for this season, season 1, is much lower compared to other seasons. If I have to compare speeds it is something about 1:5 in favor of other seasons. But neverming, it will be downloaded in few days probably... Btw, have you thought about ripping the Enterprise series, if you have them at all?
+Cheers..."
+,mr.torture,2011-03-04T19:01Z,"@ robr1967
+
+Yes, you should download VLC or KMPlayer (this one is amazing) and you will have no problems at all with those files. You can turn off the included subtitles, and load whichever you want. And about aspect ratio, this series is not released in 16:9 ratio yet, and I guess it will never be, so you have to stick with this one."
+,pwnprincess,2011-03-26T15:49Z,"Thank you so much for putting this series up for download! I have been looking for  this series to download for my Dad for ages! Very good quality, worthy of the size of the files, also has English subtitles which is great as my Dad is losing his hearing and will eventually become deaf. My whole family will surely enjoy this series for many years to come! Warp speed Mr Meech!  Btw I will seed as long as I can! "
+,boxman0,2011-12-30T19:09Z,Help this torrent live Long and Prosper by seeding!! Please!!
+,ajroberts,2012-02-19T07:52Z,Could someone please seed? Thank you.
+,mrxff,2012-04-01T16:10Z,"Hi, meech, is it possible for you to rip those extras as well? They are incredible but there are no high quality versions and the subtitles are particularly difficult to find :("

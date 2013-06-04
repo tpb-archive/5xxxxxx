@@ -1,0 +1,375 @@
+DOS(Box) Games Bootable CD version 3.1 (provided by Brood Warior)
+
+========
+OVERVIEW
+========
+
+DOS(Box) Games Bootable CD contains over 190 games for MS-DOS and
+over 100 games for Microsoft Windows 3.x. The games can be played
+from Windows (tested on Windows XP), Linux (tested on Ubuntu 9.10)
+and as the title says, the CD is bootable, which gives you the
+ability to play the games in pure MS-DOS mode or from the built-in
+Linux distribution (Slax 6.1.2) provided along with the games.
+
+Moreover, the games can easily be copied or installed on your hard
+drive, USB flash device or any other writable media. Starting from
+version 3.1, the CD comes with extended usability support for DOS,
+Windows, and Linux.
+
+==========
+HOW TO USE
+==========
+
+There are many (and I mean really many) ways to run the games:
+
+1) (Windows) Put the CD in your CD-ROM device (or mount with Daemon
+   Tools) and then double click on the CD icon located in My Computer.
+   Now you have the option to play the games directly. In this mode
+   the games will be installed in your Windows TEMP directory.
+
+2) (Linux) Restart the computer and boot from the CD. Choose one of
+   the Slax related boot options. A system with 1GB RAM or more is
+   required. After Slax has started, you will find a shortcut on
+   the desktop, from which you can start the games.
+   
+3) (MS-DOS) Restart the computer and boot from the CD. Choose the
+   MS-DOS 7.1 boot option. A system with 64MB RAM or more is required.
+   Most of the games might not work well though, as this mode is
+   'last resort of hope' and is kind of unsupported... sorry.
+
+4) (Windows, Linux) Copy ALL files and directories from the CD to any
+   directory you want. In this mode you  will have the option to play
+   the games directly or install them automatically to the folder
+   'playgame' (if the folder is writable). You need to run 'Games.exe'
+   for Windows or execute the command 'sh games.sh' in termainal console
+   for Linux in order to play the games in this mode. If you have done
+   this on your USB flash device, you can easily make it bootable later.
+
+5) (Windows, Linux) Navigate to the folder 'slax' => 'rootcopy' and
+   copy the 'dosgames' folder which resides in 'rootcopy' to any
+   location at your choice. Inside 'dosgames' you will find additional
+   set of startup files ('Games.exe' for Windows and 'games.sh' for Linux).
+   In this way you can't make bootable USB flash device but you are
+   preserving space as you are not copying the built-in Slax distribution.
+   The games are fully loadable and playable. This option is useful
+   when for example you already have a bootable USB flash device and you
+   just want to be able to play the provided games.
+
+6) (Windows) Choose 'Install Games' from the context menu of your
+   CD-ROM device. There is another option in the same context menu
+   which allows you to uninstall the games later.
+
+7) Youse a PC emulator like 'VMware Player', 'Qemu' or 'Virtual Box'.
+   These virtualization solutions are free and publicly available.
+   After you have obtained, installed and configured one of them, you
+   can try one of the options explained above.
+
+Regardless the way you start the system, you will see the same text
+based menu from which you can choose an item to run.
+
+IMPORTANT NOTE: Some of the games may not run well in MS-DOS mode!!!
+
+==========
+WHAT'S NEW
+==========
+
+- No new games provided. The last update of the game list was done
+  in version 2.4, which was quite a long time ago.
+- Ability to play the games directly from CD or USB in Linux mode.
+- Added extensive usability support for generic Linux distributions
+  with possibility to play the games directly from CD, USB flash
+  device, or any other readable media.
+- The game menu is slightly reorganized. Added new 'Exit' option.
+- Updated the built-in DOSBox emulator to version 0.73 (Windows).
+
+==============
+INCLUDED GAMES
+==============
+
+DOS(Box) Games Bootable CD version 3.1 contains the following games:
+
+- Lotus III
+- Chuck Yeager's Air Combat
+- Mario
+- Across
+- Arcade Volleyball
+- Prince of Persia
+- Ugh
+- Grand Prix Circuit
+- Brix
+- Battle Chess
+- Dangerous Dave
+- Mortal Kombat
+- NBA Lakers vs. Celtics
+- Sharkey's 3D Pool
+- Tetris
+- Fritz 2
+- CD Man 2
+- Prehistorik 2
+- Prehistorik
+- Space Invaders
+- The Lost Vikings
+- Death Track
+- Golden Axe
+- Nethack
+- Pinball World
+- Red Baron
+- Sokoban
+- Titus The Fox
+- Tristan Pinball
+- Wolfenstein 3D
+- Spear of Destiny 1
+- Spear of Destiny 2
+- Spear of Destiny 3
+- Space Hog
+- One Must Fall
+- Fairy Godmother
+- Block-O-Mania
+- Cochese
+- Clone
+- MS Packman
+- Night Ride
+- Sky Roads
+- Black Thorne
+- Bubble Pop
+- Tomb Raider
+- Jazz Jackrabbit
+- Crazy Cars III
+- Push Over
+- Bubble Bobble
+- Win, Lose or Draw
+- Arkanoid
+- Alien Breed
+- Eliza
+- Alien Carnage
+- Doom 2
+- 100+ Windows 3.x Games
+- Raptor
+- Block Out
+- Blocks From Hell
+- Civilization
+- Dune 2
+- Master of Orion
+- Warcraft I
+- War Lords
+- The Incredible Machine
+- H2O
+- Aliens Doom
+- Heretic & Expansion
+- Oblige Doom
+- Plutonia
+- Randoom
+- The Proving Grounds
+- Evilution (TNT)
+- Ultimate Doom
+- Batman Doom
+- Alien Cabal
+- Hexen Beyond Heretic
+- Hexen Expansion Pack
+- Mortal Kombat II
+- Return of Triad
+- Warcraft II
+- Xenon II Megablast
+- Ford Simulator 5.0
+- Kwik Snax
+- Pong
+- The 7 Cities of Gold
+- Aladdin
+- Battle Chess 4000
+- BC Racers
+- Carnage
+- Cyber Empire
+- Doom 2D
+- Death Rally
+- Dune
+- Dynablaster
+- Fire & Ice
+- Goblins II
+- Goblins III
+- Gods
+- License to Kill
+- Bad Street Brawler
+- Caesar
+- Grand Prix Motors
+- Indiana Jones III
+- Indiana Jones IV
+- Karateka
+- Commander Keen 1
+- Commander Keen 2
+- Commander Keen 3
+- Commander Keen 4
+- Commander Keen 5
+- Commander Keen 6
+- Commander Keen 7
+- King's Quest 1
+- Krypton Egg
+- The Legend of Kyrandia
+- Lamborghini
+- Lemmings Holiday
+- Lemmings Classic
+- Lemmings Xmas
+- Liero
+- Lords of The Realm
+- Monkey Islands II
+- Pinball Fantasies
+- Serf City
+- Syndicate
+- Super Speed Deluxe
+- Theme Park
+- Transport Tykoon Mars
+- Tyrian
+- UFO Enemy Unknown
+- XWing
+- Catacombs III
+- Day of The Tentacle
+- Duke Nukum I
+- Eye of The Beholder I
+- Eye of The Beholder II
+- Eye of The Beholder III
+- World Cup USA '94
+- Hi Octane
+- King's Bounty
+- King's Quest II
+- King's Quest III
+- King's Quest IV
+- King's Quest V
+- Legend of Kyrandia II
+- Lode Runner
+- Mario Bros
+- One Must Fall (Full)
+- Voodoo Island
+- Jump Jet
+- Railroad Tycoon
+- Sam & Max
+- Space Quest I
+- Space Quest I (VGA)
+- Space Quest II
+- Space Quest III
+- Space Quest IV
+- Space Quest V
+- Space Quest 'Lost Chapter'
+- Stratego
+- Tank
+- Test Drive I
+- Test Drive III
+- Zeliard
+- 4K Adventure
+- Princess Alandria
+- Another World
+- ACiD Tetris
+- Bureau 13
+- Bad Blood
+- Realms of Arkania
+- Ancient Empires
+- Classic Concentration II
+- Dark Half
+- Disc World
+- Escape From Delirium
+- Hitchhiker's Guide
+- Hocus Pocus
+- Hoyle Card Games
+- Inspector Gadget
+- KGB
+- King's Quest I (VGA)
+- King's Quest VI
+- Laura Bow II
+- Lost in Time
+- Police Quest I
+- Police Quest III
+- Quest for Glory I
+- Red Hell
+- Wild Science Arcade
+- Shadowcaster
+- Simon the Sorcerer I
+- Simon the Sorcerer II
+- Strike Squad
+- Total Carnage
+- Veil of Darkness
+- Zork Zero
+
+======================
+ADDITIONAL INFORMATION
+======================
+
+When you start the games, the provided executables and scripts will
+check if the media you are running the games from is read only or
+with read/write permissions. For example, a CD is a read only meadia,
+while the HDD device is usually with read/write permissions enabled.
+
+Anyway, the system is 'smart' and if the media is 'read only', then
+the games are unpacked to your temporary folder, which location is
+specific for your operating system. Usually it is called 'TEMP' or
+'TMP' on Windows and '/tmp' on Linux. Although you still can save
+and load games, the OS has the final decision when to wipe the
+temporary folder, which means that your saves are not safe if you
+play for a long time from read only device.
+
+On the other hand, if the system detects a read/write enabled media,
+then your games are unpacked to the relative folder 'playgame', which
+can be found at 'slax' => 'rootcopy' => 'dosgames' => 'playgame'. In
+this way you are assured that all your saved games are at safe location
+and that they will not be wiped out unless you do it yourself. For
+example you can delete the content of the folder or use the text based
+menu to uninstall the game you wish to remove.
+
+In Linux you will need to have DOSBox preinstalled but even if you don't
+have it, the provided scripts (games.sh in particualr) will show you how
+to install it for Ubuntu. The process is similar for other distributions
+and I hope that since you are using Linux, you know what you are doing.
+
+If you use the CD in DOSBox mode, you have the option to install each
+item to your HDD or USB flash. This feature enables you to start the
+games faster (unpack game only the first time) and your saves are now
+really saved, so you can really load them later! This was already
+mentioned above, but it doesn't hurt to remind it. :)
+
+Once an item is installed, you have the option to uninstall it. This is
+available ONLY for previously installed items.
+
+You also have the option to install permanently all items from this CD
+to your HDD or USB flash device. All you need to do is to follow these
+easy to do steps:
+
+First option (Windows, Linux): 
+
+1) Copy ALL files and folders from the CD to the location you want. This
+   is mandatory if you have copied the files to your USB flash device and
+   you intend to make it bootable later.
+2) Start the system via 'Games.exe' (for Windows).
+   Start the system by executing 'sh games.sh' from console (for Linux).
+
+Second option (Windows, Linux): 
+
+1) Copy tyhe content of 'slax' => 'rootcopy' => 'dosgames' folder from
+   the CD to the location you want. Please be aware that in this way you
+   can't make your USB flash device bootable. Suitable if you have less
+   space available on the destination drive, or if you don't intend to
+   make the targeted device bootable.
+2) Start the system via 'Games.exe' (for Windows).
+   Start the system by executing 'sh games.sh' from console (for Linux).
+
+Third option (Windows):
+
+1) From the context menu of your CD-ROM device choose 'Install Games'.
+2) Start the system via 'Games.exe' (or create shortcut for this file).
+
+To create a bootable USB flash device, follow these instructions:
+
+1) Copy ALL files and folders from the CD to the root directory of your
+   USB flash device.
+2) Navigate to the folder 'boot' and execute 'bootinst.bat' (Windows)
+   or 'bootinst.sh' (Linux). Then you just need to follow the provided
+   instructions and if everything goes fine, you will be able to boot
+   from your USB flash device.
+
+Due to design issues the games on this CD will not work well in pure
+MS-DOS mode if you have more than one physical CD-ROM device. In this
+case you should choose the alternative boot option from the MS-DOS
+section and then load the games manually. Yo need to know how to work
+with MS-DOS text console in order to do that and since the majority of
+the modern society have no idea how to do that, please try some of the
+other available options first. For example if you use the system as
+bootable media, you may first try to play the games from the built-in
+Linux distribution insted from the pure 'legacy' MS-DOS mode.
+
+Have fun! :)

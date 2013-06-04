@@ -1,0 +1,32 @@
+User Type,Username,Date,Text
+[V],HMVinyl,2010-02-15T23:21Z,"i really hope these arent just mp3 converts, you've ul'd alot the past few days..."
+[T],willrain,2010-02-16T01:02Z,"1977, 1980, 1982 is a High Definition Audio, from DVD Audio discs in 24/192 format. All other from ""traditional"" Audio CDs:
+
+http://losslessclub.com/details.php?id=3367
+http://losslessclub.com/details.php?id=4506
+http://losslessclub.com/details.php?id=5478"
+[V],Mair.nl,2010-02-20T16:06Z,I seem to be short a codec. What do I play or burn these HD audio files with? they are not ordinary flac
+[T],willrain,2010-02-20T16:50Z,"This is a ordinary FLAC, but in high resolution:
+
+rain@acnote:/mnt/music/flac/The Alan Parsons Project/1977 - I Robot$ metaflac --list 01\ -\ I\ Robot.flac | grep -E 'comment|vendor|sample_rate|channels|bits-per-sample'
+  sample_rate: 192000 Hz
+  channels: 2
+  bits-per-sample: 24
+  vendor string: reference libFLAC 1.2.1 20070917
+  comments: 10
+    comment[0]: TITLE=I Robot
+    comment[1]: ARTIST=The Alan Parsons Project
+    comment[2]: ALBUM=I Robot
+    comment[3]: DATE=1977
+    comment[4]: TRACKNUMBER=01
+    comment[5]: TRACKTOTAL=10
+    comment[6]: GENRE=Progressive Rock
+    comment[7]: DESCRIPTION=2004 Release. Dvd Audio
+    comment[8]: COMMENT=2004 Release. Dvd Audio
+    comment[9]: WAVEFORMATEXTENSIBLE_CHANNEL_MASK=0x0003
+
+
+You can play it in any modern software player, like Audacious / MOCP / deadbeef or any other under Linux or in Foobar if your OS is Windows."
+,niggyniggnigg,2010-08-14T04:44Z,thanks mate!
+,ramsex,2011-09-24T11:58Z,Thanks I'm happy!!!!
+,ramsex,2011-09-24T11:59Z,Thanks I'm happy!!!!

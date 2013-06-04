@@ -1,0 +1,61 @@
+User Type,Username,Date,Text
+,bnrcanty,2011-04-19T05:55Z,"Hi jojost1
+
+I have downloaded this but doesn't let me play. Open app and Fatal Error occurs.. the info is as..
+Exception: Access Violation (code 0xc0000005) at address 005B9ADA in thread 7C
+Module: cakemania2.exe
+Logical Address: 0001:001B8ADA
+
+09B7FB24 005B9ADA 0001:001B8ADA cakemania2.exe
+Params: 00000000 07742F10 000000A6 0DD610E0
+
+StackWalk failed (error 299)
+
+EAX:07742FB6 EBX:09B7FBA0 ECX:00000029 EDX:00000002 ESI:07742F10 EDI:00000000
+EIP:005B9ADA ESP:09B7FB1C  EBP:09B7FB24
+CS:0023 SS:002B DS:002B ES:002B FS:0053 GS:002B
+Flags:00010206
+
+Windows Ver: NT 6.1  Build 7600
+DDraw Ver: 6.1.7600.16385
+DSound Ver: 6.1.7600.16385
+
+Product: CakeMania 2
+Version: 2.19
+Time Loaded: 00:00:07
+Fullscreen: No
+Primary ThreadId: 172C
+
+
+Pls advise!!
+Thkx"
+,jojost1,2011-04-23T10:04Z,"@bnrcanty:
+maybe you run it as an administrator? or compatible version Windows XP/ME,2000?
+You have the hole game downloaded, maybe you missed a part..
+Good luck.
+jojost1"
+,dolfijntje95,2012-01-29T14:42Z,thank you very much
+,Marielmifsud,2012-07-09T12:19Z,"it's not working i need help its going this to me Exception: Access Violation (code 0xc0000005) at address 005B9ADA in thread BA4
+Module: cakemania2.exe
+Logical Address: 0001:001B8ADA
+
+0993FB24 005B9ADA 0001:001B8ADA cakemania2.exe
+Params: 00000000 0A0ACE70 000000A6 0B82EB58
+
+StackWalk failed (error 299)
+
+EAX:0A0ACF16 EBX:0993FBA0 ECX:00000029 EDX:00000002 ESI:0A0ACE70 EDI:00000000
+EIP:005B9ADA ESP:0993FB1C  EBP:0993FB24
+CS:0023 SS:002B DS:002B ES:002B FS:0053 GS:002B
+Flags:00010206
+
+Windows Ver: NT 6.1 Service Pack 1 Build 7601
+DDraw Ver: 6.1.7600.16385
+DSound Ver: 6.1.7600.16385
+
+Product: CakeMania 2
+Version: 2.19
+Time Loaded: 00:00:13
+Fullscreen: No
+Primary ThreadId: 13F8"
+,Marielmifsud,2012-07-09T12:20Z,and i am the administor in my computer

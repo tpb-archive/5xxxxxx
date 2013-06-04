@@ -1,0 +1,12 @@
+Windows 7 Logon Background Changer is software that let you change the wallpaper of the Windows 7 logon screen (also known as "welcome screen", "login screen" or LogonUI).
+
+It has been tested successfully with the final version of Windows 7 (RTM) and Windows 7 RC 7100. It works with Windows 7 Home Basic, Home Premium, Professional, Ultimate and Enterprise, in x86 or x64 (32 or 64 bits). It does NOT work with Windows 7 Starter (edition sold with most netbooks). It works also on Windows Server 2008 R2 (but you are not supposed to customize a server).
+
+What does it do?
+- It does NOT change any system file, and the program itself does not requires admin rights to run (it will just ask you to run as admin a very simple cmd file that creates the required folder et registry key with the appropriate rights)
+- It creates a few JPEG files based on the image you want to put as wallpaper for the Windows 7 login screen, applies the appropriate cropping and sizing and saves them using the best compression quality possible.
+
+just run the  (Win7LogonBackgroundChanger.exe)  and pic your pic
+
+
+nice little tool :D

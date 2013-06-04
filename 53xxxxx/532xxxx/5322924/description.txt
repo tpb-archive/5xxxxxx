@@ -1,0 +1,119 @@
+avast! is a package of applications that aim to protect your computer from a possible virus infection or other malware threat. If you use it correctly, and in combination with other programs such as data backup utilities, it will significantly reduce the risk of your computer being attacked or infected by a virus, and thus the risk of losing important or private data.
+
+These help files have been created to help you understand how the program works as a whole, as well as describing the properties and functions of its component parts. We assume the user has knowledge of basic terms and the basic skills needed to use the Windows operating system. If you are not familiar with terms such as "folder", "file", or "window", or what it means to "activate a window" or "click a button", we recommend that you consult the appropriate user manual before proceeding.
+
+Based on the award-winning avast! antivirus engine, avast! antivirus 5.0 contains all of the features you would expect in a modern antivirus program. It incorporates anti-spyware technology certified by West Coast Labs' Checkmark process, as well as anti-rootkit and strong self-protection capabilities, but now provides even faster scanning with improved detection ability. It contains several real-time "Shields" which continuously monitor your email and internet connections and check the files on your computer whenever they are opened or closed.
+
+- Continuous protection against viruses and spyware 
+- Ensures all mails sent and received are clean 
+- Keeps you protected from "chat" infections 
+- Stops attacks from hijacked websites
+- Lets you safely browse suspicious websites or run unknown applications 
+- Allows safe and uninterrupted gaming
+
+Here are some key features of "Avast! Pro Antivirus":
+
+Â· Core and detection
+Â· Antivirus and anti-spyware engine
+Â· State of the art scanning engine provides reliable protection against viruses, spyware and other forms of malicious software.
+
+Â· Real time anti-rootkit protection
+Â· Unique "on access" technology checks all kernel-mode drivers that the operating system is loading for signs of rootkit behavior. This enables even unknown rootkits to be detected and stopped before they can do any damage.
+Â· avast! Sandbox
+Â· Enables potentially exploitable programs (such as web browsers) and/or suspicious executables to be run in a safe, virtual environment. The avast! Sandbox is unique as it runs on both 32 and 64bit platforms.
+
+Â· avast! Community IQ
+Â· Most samples we process come from sensors deployed throughout the avast! community in the Behavior shield and anti-rootkit modules. This is a unique source of data made possible only thanks to our huge user base. Most of the collected samples are analysed by a number of automated processes and only a small fraction of the samples need to be processed manually by our virus analysts.
+
+Â· Code emulator
+Â· When a suspicious executable is encountered (during both on-demand and on-access scanning), avast! is able to emulate the programâ€™s code in an isolated environment. The code emulator is used for two purposes. First, it is used for generic unpacking. Secondly, it is used in the heuristics engine. Technically, this is done using dynamic translation, a method much faster than traditional emulation techniques.
+
+Â· Heuristics engine
+Â· Starting with version 5.0, avast! features a new heuristics engine designed to proactively detect malware undetectable with normal definitions. The heuristics engine is able to cover both binary (executable) and script malware.
+
+Â· Potentially unwanted programs detection
+Â· New in version 5.0, avast! now detects potentially unwanted programs, such as remote admin tools and commercial key loggers. Custom rules can be set for dealing with these types of programs.
+
+Â· Scanning
+Â· Boot-time scanner
+Â· Allows you to scan your computer for infections before the operating system has started and before a virus can be activated (32-bit operating systems only).
+
+Â· Command-line scanner
+Â· Enables you to run a scan directly from the command line.
+
+Â· Wake-up for scan
+Â· Microsoft Windows is woken from sleep or hibernation mode, performs a scheduled scan, then returns back to sleep mode.
+
+Â· Scheduled scanning
+Â· Allows users to define the scan time and files to be scanned.
+
+Â· avast! Intelligent Scanner
+Â· Can reduce the number of required file scans by up to 80% through a white list of proven safe applications. Files identified as safe are not rescanned unless they change.
+
+Â· Shields
+Â· Behavior Shield
+Â· Monitors activity on your computer using a number of sensors (file system, registry and network based) and reports/blocks any suspicious behavior.
+
+Â· Behavioral Honeypots
+Â· avast! sensors identify and monitor suspicious file activity on selected computers, automatically submitting files to the Virus Lab for additional analysis.
+
+Â· File System Shield
+Â· Real-time scanning of opened/executed files.
+
+Â· Mail Shield
+Â· Scans all incoming/outgoing e-mails for malware. For MS Outlook, a special plug-in is used. Other email clients are protected by a generic POP3/IMAP4/SMTP proxy. New in version 5, the proxy also supports scanning of SSL communication (gmail.com, sympatico.ca, â€¦.)
+
+Â· Web Shield
+Â· Scans all visited web pages and checks all files, pages and java scripts downloaded from the internet. Thanks to the Intelligent Stream Scan feature, the Web shield doesn't slow down your web browsing.
+
+Â· P2P Shield
+Â· Checks files downloaded using P2P programs. - ABC, Ares, Azureus, BearShare, Bit Torrent, BitComet, BitLord, BitPump, CZDC++, Direct Connect, eDonkey, eMule, iDC++, iMesh, Kazaa, Kceasy, LimeWire, Morpheus, Opera's DC++, Overnet, Qtrax, Shareaza, SoulSeek, StrongDC++, uTorrent, Vuze, WinMX, Winny2, Zultrax.
+
+Â· IM Shield
+Â· Checks files downloaded while using instant messaging or â€œchatâ€ programs. - AIM (AOL Instant Messenger), Gadu-Gadu, gaim/Pidgin, Google Talk, ICQ, IM2 Messenger, Infium, Miranda, mIRC, MSN/Windows Messenger, Odigo, PalTalk Messenger, Psi Jabber Client, QIP, QQ, SIM, Skype, Tlen, Trillian, WengoPhone, XFire, Yahoo! Messenger.
+
+Â· Network Shield
+Â· Provides protection against network-based viruses. The module has two main components: a URL blocker, designed to block malicious URLs (as defined by the Virus Lab), and a lightweight intrusion-detection system.
+
+Â· Script Shield
+Â· Detects malicious scripts hidden in internet web pages and prevents them from running and hijacking or potentially causing damage to your computer (Internet Explorer only, 32-bit only).
+
+Â· Updates
+Â· Smart virus definition updates
+Â· Incremental updating system minimizes the size of regular update files.
+
+Â· Fast application of updates
+Â· New format for the virus definition file speeds up application of updates into avast! 5.0 and reduces demand on CPU/memory, resulting in uninterrupted computer use.
+Â· New format for the virus definition file means faster updates and reduces demand on CPU/memory, resulting in uninterrupted computer use.
+
+Â· Gaming
+Â· Silent/Gaming Mode
+Â· New Silent/Gaming Mode automatically detects full-screen applications and disables pop-ups and other on-screen notifications without degrading security.
+
+Â· Optimized for latest Intel Core i7 CPUs
+Â· Critical sections of the avast! scanning engine code have been optimized to deliver unrivaled performance on the latest Intel chips.
+
+Â· CPU optimization
+Â· Multi-threaded scanning optimization
+Â· avast! runs faster on new multi-core CPUs. A new avast! feature allows the splitting of large individual files between cores, accelerating the scanning process.
+
+Â· Green computing
+Â· Reduced demands on the disk drive result in lower energy consumption.
+
+Â· Miscellaneous
+Â· avast! iTrack
+Â· Real-time graphic scanning reports.
+
+Â· Graphical user interface
+Â· Easy to navigate graphical interface.
+
+Â· Automatic processing
+Â· Infected files are processed automatically without requiring user instructions.
+
+Requirements:
+
+Â· Processor Pentium 3,
+Â· 128 MB RAM,
+Â· 100 MB of free hard disk space
+
+Limitations:

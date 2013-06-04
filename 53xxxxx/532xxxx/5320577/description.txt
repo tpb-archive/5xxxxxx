@@ -1,0 +1,28 @@
+
+This is the GParted Live CD .iso Version 0.5.1-1
+ 
+
+The GParted application is the GNOME partition editor for creating, reorganizing,
+and deleting disk partitions.
+
+A disk device can be subdivided into one or more partitions. The GParted 
+application enables you to change the partition organization on a disk device 
+while preserving the contents of the partitions.
+
+With GParted you can accomplish the following tasks:
+
+    * Create a partition table on a disk device.
+    * Enable and disable partition flags such as boot and hidden.
+    * Perform actions with partitions such as:
+          o create or delete
+          o resize or move
+          o check
+          o label
+          o copy and paste
+
+GParted uses GNU libparted to detect and manipulate devices and partition tables. Several optional file system tools provide support for file systems not included in libparted.
+
+GParted is developed on GNU/Linux. It can be used on other operating systems, such as Windows, by booting from media containing GParted Live.
+
+GParted is free and open source software available under the terms of the GNU General Public License
+

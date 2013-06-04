@@ -1,0 +1,47 @@
+ZModeler (or Zanoza Modeler) is a 3D modeling application developed by Oleg Melashenko. It is aimed at modelers who model for computer games such as 18 Wheels of Steel, Grand Theft Auto, Need for Speed, Midtown Madness or similar video games.
+
+ZModeler versions
+
+ZModeler is capable of complex modeling, even though it does not support important modeling functions such as extruding, or beveling.
+
+Version 1 does not support polygons other than triangles, or NURBs, or other forms of modeling other than polygonal and splines. It comes with filters to import and export meshes of other formats. However, there are more formats other than the included ones for download in various websites. ZModeler does not have a lighting system, although lighting can be made by using gradients for reflection maps.
+
+The current ZModeler2 branch has a revised user interface, and adds new functions. Since version 2, ZModeler is no longer proposed as a feature-full freeware. Once activated, it becomes possible to use filters and plugins to import and export models of various other formats, including formats for computer games. ZModeler2 has a new rendering engine, and adds several more functions. It sports a vastly different user interface than ZModeler1. Additionally, ZModeler2 supports quadrilateral polygons, a major step-up from ZModeler1.
+
+Rendering
+
+No version of ZModeler comes with support for making final scene renderings. Currently, scene renderings can only be made by taking a screen capture. This method, however, does affect the output quality because no post-processing, such as anti-aliasing, is performed on the final image. Any necessary manual post-processing can, for example, be done by rescaling a high-output rendering of the scene with any graphics software.
+
+Primitive objects
+
+Both ZModeler versions come with a standard list of primitive objects that can be easily created. After determining the size and location of the object, a dialog box will pop up, allowing the user to specify the object name, and the "horizontal steps" and "vertical steps". The list of primitive objects include spheres, cones, cubes, cylinders, tubes, and toruses.
+
+Format
+
+The ZModeler file format has an extension of "*.Z3D". The ZModeler2 file format is different from the ZModeler 1x series' file format. Although ZModeler2 can open ZModeler 1 files, ZModeler 1 cannot open ZModeler2 files. Both formats have the same file extension. They are also both capable of storing unsupported data. Z3D files do not store the textures; instead, textures are separately stored as bitmaps, PNG, or other supported files types.
+
+Minimum system requirements
+
+ZModeler is a relatively light program needing only around 20MB of empty hard disk space. The CPU and RAM requirements depend on the complexity of the scene, with the graphics card being the most important factor. Besides support for any graphics card with Direct3D hardware transform and lighting support, software rendering is also supported although render errors may occur. Certain graphics cards may cause artifacts to occur.
+
+Filters
+
+3ds
+Battlefield 2
+Convoy PMG
+Emergency 3
+Flatout
+GTA San Andreas
+GTA IV
+Juiced 2
+Live for Speed
+Lock On
+Moto Gran Prix 2
+NFS Carbon
+NFS Shift
+PSM
+Race Driver P3D
+rFactor GMT
+Richard Burns Rally
+Test Drive Unlimited
+Xpand Rally

@@ -1,0 +1,135 @@
+PLEASE HELP SEED AT LEAST ONCE!! BE NICE! SHARE YOUR TOYS!
+
+
+
+PUPPY ARCADE 7 
+
+
+A videogame emulation live-CD that can be run totally in RAM or optionally installed to nearly anything! Puppy Arcade 7 even works well on older PCs.
+ 
+http://scottjarvis.com/page105.htm
+
+
+Consoles/Systems emulated: 
+
+Amiga (500, 1000, 2000), Atari (ST, 800, 800XL, 130XE, 5200), Amstrad (CPC, Plus, VEB), Arcades, Colecovision, Commodore (64, 128, VIC20, PET), GameBoys (GB, GBC, GBA), GameGear, Genesis, MasterSystem, MS DOS, N64, NeoGeo, NeoGeo CD, NES/Famicom, PC Engine/TurboGrafix 16, PSX, ScummVM, SNES and ZX Spectrum. 
+
+To play games, you need to load any emulator, optionally choose some settings, and select a rom to play.
+___________________________
+
+Contents:
+
+1. The desktop
+2. The control panel
+3. Configuring emulators and joypads
+4. Getting ROMs
+5. Enable 3D acceleration (optional)
+6. Accessing your drives
+7. Saving your settings
+8. Tips & Tricks
+
+
+1. The desktop:
+
+- left-click on the deskop for a small 'apps' menu, with links to the most useful apps and tools
+- right-click on the desktop for the full puppy menu 
+- you'll see an animated icon bar at the bottom, showing all the emulators available
+- left-click on the emulator you want to load, then browse for a rom file.
+- right-click on the emulator icons to reset/refresh the menu
+- go to 'menu->desktop->wbar configuration centre' to edit your emulator bar
+- in wbarcc, click on 'profiles', choose the one for your resolution and click 'apply'
+- a start menu, quick links menu and taskbar at the very bottom, set to auto-hide
+- the wallpaper can be changed by right clicking on any image any choosing 'Set as wallpaper'
+- the file manager has all the most important bookmarks added already, in the toolbar
+
+2. The control panel:
+
+- a tabbed navigation panel showing most of the settings and tools available
+- choose the 'Gaming' tab to configure your emulators config files
+- if needed, use one of the network wizards to setup your internet connection
+
+3. Configuring emulators and joypads:
+
+BIOS
+
+Some emulators require not only roms, but BIOS files too.
+
+- Amiga: Find and download a kickstart file (kick13, kick20, kick31), put it in '/usr/lib/uae' and rename (or symlink) to 'kick.rom'.
+- Atari ST: You need '/usr/share/hatari/TOS.img' installed. Get it from http://steem.atari.st/download.htm
+- Atari 800: You'll need the Atari 800 BIOS (OS) to 'usr/local/speccy/'
+- Commodore:You'll need to download a pack of system roms, and extract to '/usr/lib/vice'
+- PupDoom: get doom2.wad or freedoom.wad. You already have '/usr/share/games/doom/prboom.wad' installed
+
+NOTES: You are not allowed to own the BIOS of any systems that you have never purchased. 
+Mupen64Plus requires OpenGL (3D acceleration, see below)
+
+Joypads
+
+- Plug in any joypads before the desktop has loaded and Puppy Arcade should get it working.
+- To make ALL emulators support joypads you must use 'rejoypad' in 'Menu->Fun' or the 'Gaming tab of the Control Panel
+- Use Rejoypad to map your joypad buttons to your preferred keyboard keys
+- Use 'Menu->Shutdown->Restart X server' after changing your Rejoypad configuration
+- type 'killall rejoystick' in the terminal if you need to close it
+
+
+4. Getting ROMs
+
+- I cannot include roms with this release, but here are some great links where you can get them:
+- Rom-World.com, Romhustler.net, Emuparadise.org, Snes-O-Rama.us, ROMKeeper.com, LemonAmiga.com and so on
+
+NOTE: You are not allowed to own the ROMs of any games released commercially, that you have never purchased. 
+
+5. Enabling OpenGL (for 3D acceleration - optional for most emulators):
+
+You'll simply need to download and install the correct dot pet file for your graphics card.
+Then (optionally) follow the softwares' instructions and restart X.
+
+PETS FOR NVIDIA CARDS:
+The 'nvidia-7186.pet' is for ancient nvidia graphics cards (riva TNT to Geforce 1).
+The 'nvidia-9643.pet' is for most nvidia cards (officially Gf2 to Gf4 but tested on Gf7 OK).
+The 'nvidia-100.14.19.pet' is for latest cards (Gf5 to Gf8).
+
+All Nvidia drivers are available http://download.tuxfamily.org/nop/
+More Nvidia info http://www.murga-linux.com/puppy/viewtopic.php?t=22272
+
+Alternatively, you could find and download "NVIDIA-Linux-x86-180.22-pkg1_412.sfs" to add a large collection of proprietry Nvidia drivers.
+
+PETS FOR ATI CARDS:
+Catalyst 9.9: For newer cards, go to http://www.murga-linux.com/puppy/viewtopic.php?t=46507
+Catalyst 9.3: For older cards, go to http://www.murga-linux.com/puppy/viewtopic.php?t=45601
+You can find out which one you need at the pages above.
+
+PETS FOR INTEL CARDS:
+A few drivers and details about compatibility can be found at http://www.murga-linux.com/puppy/viewtopic.php?t=44388
+Finally, for one more .PET, you can check out http://murga-linux.com/puppy/viewtopic.php?p=291587#291587
+
+PETS for OLDER / VARIOUS CARDS:
+Here are a load of .PET files for SiS, framebuffer, 3dfx, Voodoo, Intel, Matrox, VIA and others, see this post:
+http://www.murga-linux.com/puppy/viewtopic.php?t=48019
+
+If you STILL can't find what you are looking for, then try a search at http://pupplinux.ca or the puppy forums 
+
+6. Accessing your drives:
+
+- all your storage drives can be found at '/mnt/' - but not until you 'mount' them
+- left-click on the desktop and choose 'Drives' to see all your drives
+- hard drives are listed as sda1, sda2, sda3 and so
+- double-click on a drive to mount it, it will then open up in a file manager window
+- after saving your settings (see below), you can use 'startmount' you open your drives at boot
+
+7. Saving your settings
+
+- when you shutdown for the first time, you'll be asked to save your session, so you don't lose any changes
+- a nice menu will popup when you shutdown to help you create a savefile, if needed
+- after creating a savefile, you will be asked whether to save to it or not, at each shutdown
+
+8. Tips & Tricks
+
+- After booting, you can simply replace your Puppy Arcade live-CD with a CD/DVD full of roms.
+- Mount the DVD/CD drive and your roms will be available at '/mnt/sr0/'
+
+or
+
+- Put your savefile on the same drive as your roms, and your roms will be available at '/mnt/home/path/to/your/roms'
+- You can then symlink your roms folder to /roms/ - so it's nice and fast to reach them
+- To do this, type 'ln -s /path/to/your/roms /roms' in the terminal

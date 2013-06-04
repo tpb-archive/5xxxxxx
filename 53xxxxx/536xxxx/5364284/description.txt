@@ -1,0 +1,58 @@
+(not HD, just tagged this way to assist Apple TV users)
+
+---
+
+Source: The.Collector.DVDR-BOW
+
+Poster: 
+http://img691.imageshack.us/img691/7414/thecollectorposter.jpg
+
+Icon: 
+http://bayimg.com/image/cakpgaacg.jpg
+
+Snaps: 
+http://img705.imageshack.us/img705/5940/vlcsnap2010021422h03m19.png 
+http://img705.imageshack.us/img705/9617/vlcsnap2010021422h03m30.png 
+http://img689.imageshack.us/img689/2865/vlcsnap2010021422h05m01.png 
+http://img52.imageshack.us/img52/7125/vlcsnap2010021422h05m20.png 
+http://img718.imageshack.us/img718/3997/vlcsnap2010021421h58m23.png 
+http://img714.imageshack.us/img714/1998/vlcsnap2010021421h59m00.png 
+http://img132.imageshack.us/img132/7545/vlcsnap2010021421h59m21.png 
+http://img37.imageshack.us/img37/4841/vlcsnap2010021421h59m39.png
+
+-------------------------------------------------------
+Designed for direct playback on Apple TV, PS3, WDTV, Xbox360, Popcorn Hour, VLC.
+
+WDTV users change extension from .m4v to .mp4
+
+Apparently there is a sync problem with MP4 for WDTV Live with the latest firmware.
+
+It is discussed here 
+http://wdtvhd.com/index.php?showtopic=8778
+and here 
+http://community.wdc.com/t5/WD-TV-Live-Firmware/1-0-17-MP4-Audio-Sync/td-p/6146
+and suggested to rollback firmware to revision 1.01.00
+
+Apple TV user ensure running firmware 3.0.1  Use custom iTunes movie sync option "Automatically include the 10 most recent movies along with selected movies."
+--------------------------------------------------------
+Video technical specifications:
+
+Video:
+Codec: AVC via x264
+Profile: High@3.0
+Bitrate: 1280 Kbps
+FPS: 23.976
+Rate Control: 2 pass
+
+Audio 1:
+Codec: AAC Stereo
+Bitrate: 160 Kbps
+(for everything)
+
+Audio 2:
+Codec: Dolby Digital 5.1
+Bitrate: 384 Kbps
+(for Apple TV use TOSLINK to receiver to enable DD, or use WDTV Live, or VLC on PC)
+-------------------------------------------------------
+
+-HR

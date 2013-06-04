@@ -1,0 +1,36 @@
+Details:
+
+Program Name: PowerGREP 3.5.5
+Release Date: September 6, 2009
+Author: Just Great Software
+Website: http://www.powergrep.com/
+
+Files:
+
+PowerGREP_3.5.5_setup.exe
+PowerGREP_3.5.5_screenshot.png
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This torrent is a ***CLEAN RE-POST*** of http://thepiratebay.org/torrent/4347444/JGSoft_PowerGrep_3, which contained a malicious rootkit.  I extracted the *ACTUAL* setup program from the wrapper executable, so this version should be (and is, to the best of my knowledge) CLEAN and VIRUS-FREE.
+
+My computer became infected after running the original setup program, and it literally took 51 different virus/malware scanners and utilities to finally track the nasty little son-of-a-bitch down.  NONE of the major programs caught it.  The one tool that finally found and removed it was Hitman Pro 3.5, a program I HIGHLY recommend if you have a rootkit that evades detection by all other programs.
+
+The original .exe *looks* like a setup program for PowerGREP 3, but it's not - it's a wrapper executable that contains the actual setup program as well as a number of virus files.  When executed, the virus installs rootkits in various places across the system, including the %TEMP% directory and the %WINDOWS%/System32/DRIVERS directory.
+
+The rootkit then downloads additional virus files from malicious servers in France and Germany.  One of the many programs it installed was the infamous "Internet Security 2010" virus.  Joy.
+
+I set up a VMware Virtual Machine running Windows XP Professional with Service Pack 3 and installed a number of free virus/malware scanners to try and catch the rootkit.  I then ran the infected setup program to learn how it works.  Here are some screenshots:
+
+Rootkit Installation: http://bayimg.com/kaJjLAaco
+Legitimate Installation: http://bayimg.com/lajjIAaCo
+Executable Comparison: http://bayimg.com/LajjbAaCO
+Background Process: http://bayimg.com/KAJJnAAcO
+Wireshark Capture: http://bayimg.com/lAjJfaaCo
+Hitman Pro Scan: http://bayimg.com/LAjJdaaCO
+
+The good news is that the infected .exe extracts the *real* setup program to the %TEMP% directory, so I was able to copy it and run it independently to verify that it wasn't also infected.  I noticed that the extracted setup program contains a valid digital signature (security certificate), but the wrapper executable doesn't.
+
+Anyway, I hope someone finds this useful.  Please let me know in the comments if you have any questions about this bad boy.
+
+- drsquirlz

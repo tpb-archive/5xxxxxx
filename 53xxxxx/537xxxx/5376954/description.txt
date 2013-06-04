@@ -1,0 +1,80 @@
+Because it took many retries to get this iso, I am posting it here. Please seed.
+ 
+http://www.livehacking.com/
+
+Update: It is now mirrored: 
+http://www.livehackingfilebank.com/feb2010/livehackingcd/livehackingcd.iso
+
+The Live Hacking CD is packed with tools and utilities for ethical  hacking, penetration testing and countermeasure verification. The CD includes hacking tools for DNS, reconnaissance, foot-printing (gathering information about computers on the network), password cracking, network sniffing, spoofing (or masquerading) and wireless networking utilities.
+
+ Here is a list of the hacking tools you can find on the Live Hacking CD:
+
+     Reconnaissance (and DNS)
+
+        * Dig - DNS lookup utility
+        * DNSMap - DNS mapping is a mechanism which allows hosts on a private LAN to use DNS Services even if the address of an actual DNS Server is unknown.
+        * DNSTracer - Trace DNS queries to the source
+        * DNSWalk - Checks DNS zone information using nameserver lookups
+        * Netmask - Helps determine network masks
+        * Relay Scanner - This program is used to test SMTP servers for Relaying problems
+        * TCPTraceroute - Traceroute implementation using TCP packets
+        * Firewalk - Firewalk is a network auditing tool that attempts to determine what transport protocols a given gateway will pass.
+
+     Foot-printing
+
+        * Amap - Performs fast and reliable application protocol detection, independent of the TCP/UDP port they are being bound to.
+        * Curl - Get a file from an HTTP, HTTPS or FTP server
+        * Fping - Sends ICMP ECHO_REQUEST packets to network hosts
+        * Hping3 - Active Network Smashing Tool
+        * HTTprint - A web server fingerprinting tool
+        * Ike-Scan - IPsec VPN scanning, fingerprinting and testing tool
+        * MetoScan - HTTP method scanner
+        * Namp - The Network Mapper
+        * Netcat - TCP/IP swiss army knife
+        * P0f - Passive OS fingerprinting and masquerade detection utility
+        * Zenmap - The Network Mapper Front End
+
+     Password Cracking
+
+        * Chntpw - NT SAM password recovery utility
+        * Rainbowcrack â€“ Crack LM, MD5 and SHA1 hashes
+        * THC PPTP Bruter - A brute forcing program against PPTP VPN endpoints (TCP port 1723)
+        * VNCrack â€“ Crack VNC passwords
+        * John the ripper - A fast password cracker
+
+     Network Sniffing
+
+        * DHCP Dump â€“ DHCP packet dumper
+        * Dsniff â€“ Password sniffer
+        * SSLDump â€“ Dump SSL traffic on a network
+        * Ntop â€“ Displays top network users
+        * Wireshark â€“ Interactively dump and analyze network traffic
+
+     Spoofing (or Masquerading)
+
+        * File2cable - Sends a file as a raw ethernet frame
+        * Netsed â€“ Network packet streaming editor
+        * Sing â€“ Send ICMP Nasty Garbage packets to network hosts
+        * TCPreplay â€“ Replay network traffic stored in pcap files
+
+     Wireless Networking Utilities
+
+        * Aircrack-ng - Aircrack-ng is an 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured.
+        * Kismet â€“ Wireless sniffing and monitoring
+        * THC Leap Cracker - The THC LEAP Cracker Tool suite contains tools to break the NTChallengeResponse encryption technique e.g. used by Cisco Wireless LEAP Authentication.
+        * WEPCrack - WEPCrack is an open source tool for breaking 802.11 WEP secret keys.
+        * WIDZ - Wireless Intrusion Detection System
+        * Cowpatty - Brute-force dictionary attack against WPA-PSK
+
+    Miscellaneous
+
+        * GDB â€“ The GNU Debugger.
+        * Hexdump â€“ ASCII, decimal, hexadecimal and octal dump tool.
+        * Hexedit â€“ View and edit file in hexadecimal or in ASCII
+        * Wipe â€“ Securely erase files
+        * Madedit -Text/Hex Editor
+
+MD5 Hash: B5F7013C382E2C17C4CF3EA9EECAB45A
+SHA1 Hash: 6456DC7060B232F87B011E530FE7568AB1FE06CA
+Version: 1.0 Beta
+File Size: 689218.00KB (705759232 bytes)

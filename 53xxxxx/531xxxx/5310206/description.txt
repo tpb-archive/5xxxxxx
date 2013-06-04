@@ -1,0 +1,260 @@
+A fully-functional WinPE (Windows Pre-Installation Env, based on
+Windows XP SP2) + Linux (Slax-6.0.7) live CD/DVD ISO.  Comes w/
+MalwareByets Anti-Malware + McAfee AV,updated as of 25-Jan-10, Windows
+Explorer, SmartDriverBackup, PCITREE, CPUZ, FoxIt PDF Reader, Firefox,
+FileZilla FTP Client, Ghost 11, UltraVNC, Partition Magic 8, CHNTPW
+(now Vista-compatible), WIPECMOS, MEMTEST, the Hitachi/Seagate/WD
+hard drive diagnostics, etc.  Boots to WinPE by default.
+
+What is WinPE ?  It's a limited version of Windows XP, bootable from
+your own media, so that you can prepare a naked PC for installation of
+an operating system or rescue a damaged system when it won't boot
+properly.  WinPE, therefore, looks and behaves like the OS you know
+best and gives you an opportunity to fix things as opposed to simply
+wiping the hard drive and redoing the PC from scratch.
+
+Starting with HawkPE #41, there are two separate downloads: a CD ISO
+(without Slax and other goodies) and a DVD ISO (the full treatment.)
+The split has permitted the addition of a few more diagnostics/tools
+to the CD image, while eliminating the Linux payload for those who
+simply never did/will grok/want Linux.
+
+For those who've been asking, there's now a procedure to transfer
+HAWKPE to a USB thumb drive and make it bootable, along w/ other
+tidbits in the HAWKPE-CHANGES, README-HAWKPE, and HAWKPE-USB-HOWTO
+text files !
+
+Slax is an excellent example of a portable Linux, which comes w/
+Firefox-2+Flash-9, KDE's KOffice suite, multimedia goodies, and the
+latest K3B CD/DVD burning application.  So with a USB thumb drive and
+your HAWKPE CD/DVD, you can carry a multimedia-enabled computer
+system, with you at all times.  Slax also makes for a more informative
+diagnostic than the stand-alones like Microscope and PC Doctor.
+Enjoy....
+
+As a recap, here's the most up-to-date inventory of what's on the
+disc:
+
+A2Hijack
+AusLogic Defrag
+Broadcom 44xx-NIC Drivers
+Broadcom Extreme-NIC Drivers
+Change NT/2K/XP/2K3/Vista Passwords
+CPUZ
+Darik's Boot and Nuke
+DriversPack.net Stand-Alone Driver Installer (DVD Only)
+ERD Commander 2005
+Filezilla
+Firefox
+FoxIt PDF Reader
+Ghost 11
+Hardware Detection Tool
+HDDScan
+Hitachi Disk Fitness Test
+HWPnP
+Intel-10-100-1000MHz NIC Drivers
+Intel-810 Display Drivers
+Intel-Extreme Display Drivers
+Joshua's Key Reader
+LLFTOOL
+Malwarebytes Anti-Malware
+Microscope 2005
+McAfee AV Scanner
+Memtest86
+MemtestPlus
+MHDD Hard Drive Repair/Analysis Utility
+NSSI
+NT PswdEdit
+nVidia Display Drivers
+Partition Magic 8
+PCITree
+PowerDefragmenter
+PuTTY
+Python
+Sala Password Renew-Beta
+Samsung HUTIL Hard Drive Diagnostics
+SeaTools (Seagate/Maxtor) Drive Diagnostics
+Slax 6 (DVD Only)
+Smart Driver Backup
+SpinRite
+TFTPD32
+Treesize Pro
+UltraVNC
+Unknown Devive Identifier
+ViewCHM
+WCPUID
+Western Digital Drive Diagnostics 5
+Windows File Explorer
+WinRAR
+
+PS: Download all components in order to extract the payload.  It has
+been compressed using 7-Zip, a very good, free data compression
+utility.  Download 7-Zip from http://www.7-zip.org/, ** BEFORE ** 
+downloading the HawkPE payload.
+
+AND BE SURE TO READ ALL OF THE TEXT FILES ** AND ** BEFORE ASKING
+QUESTIONS !!!
+
+If you're uncertain that the compressed ISO(s) have been transferred
+correctly, their MD5 signatures are shown below:
+
+953ecb02c4ecc17bacdabca7d13b0232 *HAWKPE-43-CD.7z
+c04eed5a04f5968f5d92900f8e208f99 *HAWKPE-43-DVD.7z
+
+You can download a free MD5 signature checker, HashCheck Shell
+Extension from http://code.kliu.org/hashcheck/, or MD5 Summer, or
+anything else that you can find.
+
+PPS:  Better than UBCD, better than Hiren's CD.  [b]This is a true Swiss
+Army knife for repairing and setting up PCs.[/b]
+
+[b]Snapshots:[/b]
+The HawkPE boot screen:
+http://i286.photobucket.com/albums/ll101/greyhawk516/HAWKPE-43-Boot-480.png
+
+The HawkPE/WinPE desktop screen:
+http://i286.photobucket.com/albums/ll101/greyhawk516/HAWKPE-43-Desktop-480.png
+
+There's another payload you should see:
+
+From HAWKPE-CHANGES.TXT:
+
+
+25-Jan-10  -  Changes to HAWKPE-43 from HAWKPE-42:
+
+**  Updated BartPE/WinPE w/ the latest McAfee defs, Firefox Portable to
+3.57, FileZilla Portable to 3.3.1, SYSLINUX to 3.84, and CPUZ to 1.52
+
+**  Per user feedback (via Demonoid), fixed main menu issues w/ correct
+versions of Memtest86 and MemtestPlus
+
+**  Removed AdAware Pro (end of support by Lavasoft), ClamWin (more on
+this below), Magical Jellybean Keyfinder (replaced w/ something
+better), Portable CCleaner (never worked well), Portable DriverGenius
+(never worked well either)
+
+**  Added Joshua's Key Reader (to recover Windows XP product keys from
+dead systems), MalwareBytes Anti-Malware (more on this below), NT Pswd
+Edit (an alternative to NTCHPW which many find too cryptic), SpinRite
+6, and SYSLINUX' new Hardware Detection Module, the DriverPacks.net
+stand-alone driver installer for Windows XP/2003 (much more on this
+below)
+
+**  Reorganized the CD/DVD boot menu to move the hard drive-related
+utilities to a sub-menu
+
+**  Reorganized README-HAWKPE, to split out the Mini-HOWTOs at the end
+of the file, in the "hope" that people will read them instead of
+asking the SAME OLD questions again and again
+
+********************************  Notes  ********************************
+
+Made the ramdrive larger by 32MB (to 64MB), to accomodate ClamWin
+which (per user reports) stopped working w/ #42.  **THEN** after
+playing w/ the various 43-RCs (release candidates), it was decided to
+deep-six ClamWin altogether !  Regretably, Lavasoft stopped updating
+AdAware Pro 6 (really good program) and since I never really thought
+ClamWin did that good of a job *and* was slow to scan, let's just rip
+them both out and make room for something/anything else.  (For the
+record, I **still** include the McAfee scanner bec it **works**, not
+as effectively as other AV scanners, but then the alternatives don't
+operate under WinPE/HawkPE **at all**.)  I don't use HawkPE/WinPE
+*often* (note the word *often*) for actual virus/malware cleaning and
+favor a much more reliable cleaning method: delete a corrupt Windows
+and replace it w/ a fresh copy of the operating system.  However, when
+customers insist on retaining the OS *and* their installed
+apps/drivers, there's MalwareBytes Anti-Malware [MBAM] !
+
+This iteration of MBAM isn't as stable as I'd like, but I've used it
+successfully for many months (since I discovered the UBCD4WIN project
+had a working BartPE plugin), so here it is.  The biggest caveats are:
+
+**  the loader that launches MBAM will only do so *ONCE* per run of
+HawkPE/WinPE; so if MBAM crashes or simply doesn't load, one must
+reboot HawkPE/WinPE  <sigh>
+
+**  after scanning for malware w/ MBAM, the dialog that saves the log
+file "works", but the combox for choosing the destination folder for
+the file doesn't work right away *and* you have to keep pressing the
+Save button repeatedly to make it do so  <sigh>
+
+**  since MBAM doesn't know jack about WinPE, it will try to restart
+itself on the next launch of Windows itself (to delete certain files);
+nothing to be concerned about here, just a simple heads-up
+
+**  one must explicitly select only what you want to scan for (the
+bottom three check boxes: files, registry entries, and
+extra/heuristics objects) on the Settings tab
+
+According to the MBAM forum, the program's authors have decided to do
+an official BartPE plugin, but there's no date for that and the
+aforementioned announcement was issued in April '09, so don't hold
+your breath waiting for the plugin.  Fact is, malware cleaning is/will
+always be a hit-miss proposition.  The most agressive intruders are
+very ingenious in finding multiple reinfection vectors (startup
+points) and strategies, so after spending *hours* performing a deep
+scan w/ a couple different tools, you may still be SOL (simply out of
+luck.)  Moreover, some intruders damage the TCP/IP stack or Internet
+Explorer, so even if do purge them, the PC *may* no longer connect to
+the outside world, requiring a reinstall anyway.  When you use MBAM,
+give it time to load, bec it does take some time (up to a minute) on
+slower PCs.
+
+Anyway, I will continue to keep my eye open for anything else which
+might help defeat the malware threat.  Spybot comes to mind, but I
+need to free up a lot more space before it will "join the family."
+Prior to adding MBAM, HawkPE/WinPE already *had* a2-hijack and
+SysInternals Autoruns, so I want to remind that I haven't completely
+abandoned the idea of malware detection/cleaning.
+
+Briefly, about the other additions:
+
+**  Firefox and FileZilla are based on the latest versions from the
+PortableApps suite.  They got a special treatment for HawkPE, where
+they are wrapped in a SFX which will automagically launch them from
+COMMON on the RAM drive (R:).  However (*AND* this is *IMPORTANT*),
+they can't be used SIMULATANEOULY, since they share the same folder
+and each launcher will delete the current contents of R:COMMON,
+before extracting its own payload.  This is intended to cut down on
+overall failures in HawkPE, due to exhausting all TEMP space on the
+RAM drive
+
+**  Joshua's Key Reader is central to why *I* started using BartPE to
+create HawkPE/WinPE, ie. to be able to retrieve information from a
+dead or hopelessly damaged Windows, like a product key 
+
+**  NT Pswd Edit, just like Joshua's Key Reader, is one of those tools
+permits to *fix* a broken Windows installation (I routinely encounter
+customers at my day job, who need help removing an account password),
+instead of **reformatting**
+
+**  There are times when I need to get a quick overview of the
+hardware in a PC and for this purpose I've added HDT (Hardware
+Detection Tool) from the SYSLINUX suite
+
+**  The DriverPacks.net stand-alone driver installer for Windows
+XP/2003 (only).  In case you need a ready-made source of drivers, to
+complete an installation of Windows XP/2003, look no further.
+However, it must be understood that this installer is **ONLY** to be
+used from within a real, operational instance of Windows, **not**
+HawkPE/WinPE; just navigate to the DPSADriverPacks.net folder on the
+DVD, then run the DP_Install_Tool.cmd batch script.  The script will
+attempt to install device support from a tested library of hundreds of
+mfr's device drivers in the audio, chipset, CPU, graphics, LAN, mass
+storage, and WLAN categories, for any unknown devices.  Have even
+kicked in the UAA service pack (KB888111) for both XP/2003, in case
+you have one of those new-fangled HD audio adapters, which will
+**only** install *after* the UAA upgrade.  Do I have to say it, but
+the DriverPacks stand-alone installer is **ONLY* on the DVD edition of
+HawkPE !
+
+It's regretable that it's been an entire year since the last release
+and as always, I hope the next iteration won't take as long to
+release.  I'm hopeful that we can keep a two-month schedule between
+releases this year.  Enjoy....
+
+:--  The Hawk  --:
+
+
+==========================================================  25-Jan-10  ==
+

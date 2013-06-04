@@ -1,0 +1,260 @@
+Copied from Audacity Homepage:
+
+
+The Free, Cross-Platform Sound Editor
+
+AudacityÃƒâ€šÃ‚Â® is free, open source software for recording and editing sounds.
+It is available for Mac OS X, Microsoft Windows, GNU/Linux, and other operating systems.
+
+Because it is a work in progress and does not yet come with complete documentation or translations into different languages, it is recommended for more advanced users.
+
+For all users, Audacity 1.2.6 is a stable release, complete and fully documented. You can have Audacity 1.2.6 and 1.3.11 installed on the same machine.
+
+
+Features
+
+This is a list of features in Audacity, the free audio editor.
+
+Recording
+
+Audacity can record live audio through a microphone or mixer, or digitize recordings from cassette tapes, vinyl records, or minidiscs.
+With some sound cards, it can also capture streaming audio.
+
+
+Record from microphone, line input, or other sources.
+
+Dub over existing tracks to create multi-track recordings.
+
+Record up to 16 channels at once (requires multi-channel hardware).
+
+Level meters can monitor volume levels before, during, and after recording.
+
+
+
+Import and Export
+
+Import sound files, edit them, and combine them with other files or new recordings. Export your recordings in several common file formats.
+
+
+Import and export WAV, AIFF, AU, and Ogg Vorbis files.
+
+Import MPEG audio (including MP2 and MP3 files) with libmad.
+
+Export MP3s with the optional LAME encoder library.
+
+Create WAV or AIFF files suitable for burning to CD.
+
+Import and export all file formats supported by libsndfile.
+
+Open raw (headerless) audio files using the ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œImport RawÃƒÂ¢Ã¢â€šÂ¬Ã‚Â command.
+
+Note: Audacity does not currently support WMA, AAC, or most other proprietary or restricted file formats.
+
+
+
+Editing
+
+
+Easy editing with Cut, Copy, Paste, and Delete.
+
+Use unlimited Undo (and Redo) to go back any number of steps.
+
+Very fast editing of large files.
+
+Edit and mix an unlimited number of tracks.
+
+Use the Drawing tool to alter individual sample points.
+
+Fade the volume up or down smoothly with the Envelope tool.
+
+
+
+Effects
+
+
+Change the pitch without altering the tempo, or vice-versa.
+
+Remove static, hiss, hum, or other constant background noises.
+
+Alter frequencies with Equalization, FFT Filter, and Bass Boost effects.
+
+Adjust volumes with Compressor, Amplify, and Normalize effects.
+
+Other built-in effects include:
+Echo
+Phaser
+Wahwah
+Reverse
+
+
+
+Sound Quality
+
+
+Record and edit 16-bit, 24-bit, and 32-bit (floating point) samples.
+
+Record at up to 96 kHz.
+
+Sample rates and formats are converted using high-quality resampling and dithering.
+
+Mix tracks with different sample rates or formats, and Audacity will convert them automatically in realtime.
+
+
+
+Plug-Ins
+
+
+Add new effects with LADSPA plug-ins.
+
+Audacity includes some sample plug-ins by Steve Harris.
+
+Load VST plug-ins for Windows and Mac, with the optional VST Enabler.
+
+Write new effects with the built-in Nyquist programming language.
+
+
+
+Analysis
+
+
+Spectrogram mode for visualizing frequencies.
+
+ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œPlot SpectrumÃƒÂ¢Ã¢â€šÂ¬Ã‚Â command for detailed frequency analysis.
+
+
+
+Free and Cross-Platform
+
+
+Licensed under the GNU General Public License (GPL).
+
+Runs on Mac OS X, Windows, and GNU/Linux.
+
+
+
+
+New features in Audacity 1.3
+
+Beta version
+
+Audacity 1.3 Beta is our new, not quite finished, development version which will be the basis of our next "stable" version.
+
+
+Contains dozens of new, exciting features. Very occasionally, these might need final polishing or not be retained in later versions.
+
+Occasionally, a feature might not work as it did before, or might be temporarily disabled.
+
+Some parts of the program are not yet documented or translated into different languages.
+
+
+
+Changelog:
+
+
+The Audacity Team is pleased to announce the release of Audacity 1.3.11 (Beta) for Windows, Mac and Linux/Unix. This release fixes a number of bugs reported to us in 1.3.10. Thank you to everyone who sent us feedback.
+
+
+We dedicate this release to David R.Sky who passed away in October 2009.
+David did some great work on Audacity plug-ins and his work lives on today in our program. He provided assistance to all who needed help. We shall miss him.
+
+
+1.3.11 has provisional support for Windows 7 and is also strongly recommended for Windows Vista and Mac OS X 10.6, rather than 1.2 Stable.
+We ask everyone to help us test 1.3.11 and let us know of any problems you find.
+
+
+Summary of Changes in 1.3.11:
+
+
+Bug fixes for:
+
+Too much audio exported when exporting partial selections
+
+Exports via FFmpeg corrupted if included metadata; M4A now supports metadata export
+
+Nyquist plug-ins did not add labels to an existing label track
+
+Crash opening Preferences when no audio devices available
+
+Timer Record and Sound Activated Recording bugs
+
+(Windows)  Installer now installs correctly over previous Audacity versions
+
+Miscellaneous crashes and interface issues
+
+
+Improvements:
+
+(Windows)  Higher resolution icon file
+
+New Sound Finder plug-in for labelling regions of audio
+
+
+
+Changes in Audacity 1.3.11
+
+
+Bug fixes for:
+
+Imports and Exports:
+
+Bug when exporting partial selections caused too much audio to be exported is fixed
+
+Fix corrupt files exported through FFmpeg when metadata included (metadata is now exported correctly in M4A files)
+
+Prevent saving a new Audacity Project over an existing one as this could corrupt both projects
+        * Improved help for files that cannot be imported because the relevant optional library is missing
+
+
+Effects:
+
+Allow effects which change the length of the audio they work on to also be applied to selected label tracks, thus keeping them synchronized
+
+Fixed inability in Nyquist plug-ins to add labels to an existing label track
+
+(Mac)  Equalization window was corrupted after Preview
+
+(Linux 64-bit)  Fixed crash Generating Click Track
+
+
+Audio Devices:
+
+Fixed bug causing recording to stop short when the recording sample rate is not supported by the sound device and libsamplerate is used for resampling
+
+Fix crash when opening Preferences on a machine where there are no available audio devices
+
+Fixes for bugs using Timer Record and Sound Activated Recording
+
+
+User Interface:
+
+Sizes of some dialogs adjusted to ensure they fit on the screen
+
+Fix for supposedly "hidden" items appearing on screen with large monitors
+
+Various keyboard shortcut and translation fixes
+
+
+Other bug fixes:
+
+Several timing-dependent crashes and minor incorrect behaviours have been fixed
+
+Windows installer now installs correctly over previous versions of Audacity
+
+
+
+Changes and improvements:
+
+(Windows)  Better icon file with higher resolution and transparency
+
+New SoundFinder plug-in to label regions of audio between silences, so allowing silences between tracks to be excluded when exporting multiple
+
+
+ED2K Link:
+ed2k://|file|audacity-win-unicode-1.3.11.exe|11468190|6E5381E754223F1C6249225F56001A7C|h=IRNOE4H7AARHEGZ4BHOXWW53BPL3MFXR|/
+
+
+
+Comments from the uploader (olofolleola4):
+Here is some links if you cannot download it through this torrent:
+upload box  .  com  /  files  /  09e020f054
+rapid share  .  com  /  files  /  341549270  /  audacity-win-unicode-1.3.11.exe

@@ -1,0 +1,42 @@
+ http://multicd.tuxfamily.org/#Downloads
+
+
+Multicd.sh
+
+combine several CDs into one
+
+
+multicd.sh is a shell script designed to build a multiboot CD image containing many different Linux distributions and/or utilities.
+
+The avantages to making a CD with this script are:
+
+    * You don't need to burn multiple CDs for small distributions.
+    * If you already have the ISO images, it is not necessary to download them again.
+    * When a new version of one of the distributions is released, you can simply download the new version and run the script again to build a new multiboot image.
+
+
+
+Instructions:
+
+An image of an example multicd directory.
+
+   1. Make a folder for building the image. You can give it any name; I call mine multicd.
+   2. Download the multicd.sh script and save it into that folder. (For version 5.0+, either download multicd-[version]-combined.sh to that folder or untar multicd-[version]-seperate.tar.gz to that folder.)
+   3. Copy or symlink some of the supported boot images to files in that folder. Note: they must have the names below (i.e. Puppy must be puppy.iso, etc.) Also, only distros supported by this script will work.
+   4. Install mkisofs or genisoimage. If your distribution comes with CD/DVD burning sftware, you probably have it already.
+   5. Open a terminal, go to the multicd folder (made in step 1) and type:
+
+      chmod +x multicd*.sh
+      sudo ./multicd*.sh
+
+      The script will detect which images are present and make a CD for you. They will appear on the menu of the final CD in the order they are listed. (Note: if the final size is over 700 MB, you will have to use a DVD.)
+
+Arguments:
+
+b: don't incude Balder FreeDOS (v4.9 and lower only; in v5.0 you must include it manually)
+c / md5: include an MD5 checksum file (md5sum.txt)
+m: don't include Memtest86+
+modules: select which Slax moudles to copy over (requires dialog)
+v: be more verbose
+
+

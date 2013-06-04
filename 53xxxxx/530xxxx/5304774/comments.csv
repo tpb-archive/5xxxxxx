@@ -1,0 +1,119 @@
+User Type,Username,Date,Text
+,JJH41924,2010-01-25T05:56Z,"Hey, thank you for this torrent.  Alot of people are trying to do this and you have made it very simple.
+
+
+I have a question though.  I do not know how to complete step 3. Can you provide a bit more detail?
+
+I have been able to resume the image but I cannot restart. 
+
+thanks"
+,d4m4s74,2010-01-25T15:15Z,"open it in vmware workstation or player, release your mouse (ctrl+alt) click on VM, Removable devices, settings
+turn on the radio button for Use ISO image (should already be checked), click browse and go to the place you extracted the RAR files.
+
+then simply double-click bootloader.iso and restart the VM"
+,d4m4s74,2010-01-25T19:39Z,"Question for everyone who successfully installed it.
+
+Is your audio working alright?
+From some friends running GNU/Linux I've heard about some audio problems (choppy)"
+,Jack.Cisco,2010-01-26T01:18Z,"Wohee, next try. Comments are promising."
+,erroneus,2010-01-26T01:19Z,I wonder if there is a load that will work with VirtualBox?
+,p0h3v,2010-01-26T07:53Z,"Thank you!
+it work very well, best vmware image ever"
+,d4m4s74,2010-01-26T12:22Z,"erroneus
+I'm trying to make one, but for now I haven't gotten it to work yet"
+,d4m4s74,2010-01-26T20:17Z,"I'm already working on a 10.6.2 vm, If you're lucky I'll upload it by saturday
+
+Any preinstalled-software requests?"
+,poon!!,2010-01-26T20:55Z,"It doesn't work for me. 
+After power on I get the gray screen with Apple logo and then after 30 sec. the screen gets f***ed up, but I have a mouse pointer, but that's all. I'm using VmWare wkst 7.0.0. Any ideas?"
+,d4m4s74,2010-01-26T20:59Z,"oh, poon, that's a problem which happens a lot
+You probably have a 1440x900 resolution
+
+hold ctrl-alt and press return two times, that should fix it"
+,d4m4s74,2010-01-26T21:05Z,"also, (almost forgot) for a permanent fix
+edit /Library/Preferences/SystemConfiguration/com.apple.Boot.plist and replace 1440Ă900x32 by 1024Ă760x32"
+,poon!!,2010-01-27T19:55Z,"The native resolution for my primary screen is 2560x1600. 
+The ctrl-alt return did the trick :-)"
+,rafagonc,2010-01-30T04:01Z,"When is opening Mac OS X, in the logo, the Virtual machine REstart.
+
+What Should I do?
+ Sorry for my English"
+,d4m4s74,2010-01-30T23:31Z,"do you have an intel computer?
+
+last time I saw this happen someone was using it on an AMD"
+,DD96,2010-01-31T02:42Z,It says going into restart mode any help?
+,ShambleT,2010-02-02T07:22Z,"http://img109.imageshack.us/img109/4010/idenebmacosx10572010020.png
+After showing the apple logo and booting up ALMOST correctly, the screen turns to that. However, I hear some funky music, and then some dude talking about voice help? And I can move the mouse, and when I press keys I hear sounds, so I know it's responsive, but the video is screwed. Help me please!"
+,d4m4s74,2010-02-02T17:08Z,"ShambleT, your link is not working
+but looking at your post it's a bug I call the 1440x900 bug
+
+it's possible to solve by holding ctrl-alt and pressing return twice"
+,ShambleT,2010-02-02T20:35Z,"That's weird, the link still works for me. But I also tried the fullscreen thing that you said to poon and it didn't work. :(
+Is there another way?"
+,ShambleT,2010-02-02T20:36Z,"Also my native res is 1680x1050, dunno if that's important"
+,ShambleT,2010-02-02T21:50Z,"AHA! after hours of messing around with VM settings, I changed the display settings to 1 monitor at 1024 x 768 and now I can see it all!"
+,ShambleT,2010-02-03T03:28Z,"Damn, now I can't change the res without it doing the same thing again.
+Can you think of anything?"
+[T],JugzG0nn4G3tY4,2010-02-05T01:51Z,"Props to d4m4s74 for the upload but I do have one question while this is downloading: is this as slow as the vmimage mac os x 10.5.5? If so, I don't know if it's worth DLing. Anyone got a comment?"
+,ShambleT,2010-02-05T16:56Z,"JugzG0nn4G3tY4, in my experience this is a lot faster than 10.5.5, but it might just be slow because of your hardware.
+Just finished downloading and installing d4m4s74's 10.6.2 version which seems to be working absolutely glitch free so far, which is awesome.
+Even though it's twice the size it's worth it, imo.
+http://thepiratebay.org/torrent/5310760/Fully_Functional_mac_OS_X_10.6.2_vmware_image_%28intel%29"
+,d4m4s74,2010-02-06T23:42Z,"what you can do is go in the vm settings and disable full screen on start
+Wait till it boots (it's in the options at the power settings)
+then when it's booted press the full screen button"
+,3StarsNdSun,2010-02-08T20:10Z,"Thank you very much d4m4s74, its a dream come true.. its working in my pc,, but i am experiencing it very slow.. and my cpu usage is @ 100%..could it be my hardware?.. dual core @2.5ghz. 2 gb of ram, windows xp pro sp3.. again thank you..."
+,ShambleT,2010-02-09T19:04Z,"3StarsNdSun, it's likely your hw just can't handle running two OSs simultaneously."
+,Mollrow,2010-02-10T03:22Z,"I open VMWare Workstation(6.5) and open the .vmx file, change the boot image to 'bootloader.img' and hit power and the bootloader starts up, the apple logo shows, the virtual machine restarts and tells me 'operating system not found_'
+Now you have four hard disk files and only two of them are large enough to have an operating system installed. Both do not work. Help would be greatly appreciated since it took so long to download this thing."
+,d4m4s74,2010-02-12T13:56Z,"mollrow, try vmware player/workstation 7
+also, the last time I saw that happen is when the user had an AMD Processor (please note: intel only)"
+,cubbieblue16,2010-02-16T00:45Z,"d4m4s74, I was getting the resolution issue, once I changed it, it showed up beautifully.  thanks for that!  Now when I am going through the sign up thing and when i get to create your account, i click create an account and it just freezes, the spinny wheel goes and i can no longer move the cursor.  Would you happen to know why this is happening?"
+,cubbieblue16,2010-02-16T01:06Z,"I was finally able to create an account, now I keep getting the garbled screen.  How do I fix this from happening?  Before I had to switch from auto to 1024x800 something.  Why does this keep happening?  That ctrl+atl then enter twice does not work for me!"
+,fklammer,2010-02-16T12:07Z,"Thanks for this torrent, worked out of the box without any problems. I am a first time VM Player user, so it can't be that difficult :)
+
+- I downloaded this torrent.
+- Extracted rar files to my C drive.
+- I downloaded VMWare Player 7 from vmware.com and installed it
+- Started VMWare Player
+- Opened the OS X virtual machine in VMWare Player
+- Right clicked ""Edit VM"" and added bootloader.iso 
+- Voila, OS X on my Notebook :)"
+,fklammer,2010-02-16T12:09Z,"Oh, and it worked with sound and even with the built-in camera from my notebook. I could also plugin my iPod and connect it to the VM. I was able to access the internet and also connect to a shared folder on my windows machine (host OS). Very well done, great work. I am going to install Xcode on this..."
+,cubbieblue16,2010-02-16T17:03Z,"This a little buggy on certain machines.  I tried installing this on another machine and it worked fine.  Hopefully 10.6 isnt as buggy as some stated.  When this thing works, its pretty awesome, sound and shared folders cant beat that.  Its just when I open certain programs, like ichat the system crashes and tells me I need to restart the machine by holding the power button.  I am then forced to restart the VM."
+,corruptedSoul,2010-02-28T06:05Z,"You MUST have:
+1. an Intel CPU:
+1.1 with Intel VT-x
+1.2 not all Intel CPUs with Intel 64 have Intel VT-x
+
+2. motherboard BIOS that supports Intel VT-x
+2.1 Intel VT-x activated in BIOS, most are disabled by default
+2.2 there are still quite a number of mobo BIOS that don't support Intel VT-x
+
+3. VMware (either one)
+3.1 VMware Workstation 7 and above
+3.2 VMware Player 3 and above
+3.3 VMware Fusion 3 and above
+3.4 not sure which version of VMware Server is required.
+
+if display is screwed up, just resize VMware window (or restore/maximize) and back, and the display should refresh itself.
+
+Been using for a few hours now, everything is nice and snappy. Video/Audio is smooth. Just having minor glitches with some OpenGL apps.
+
+Great work and thanks for the upload!"
+,d4m4s74,2010-03-09T16:08Z,"thanks, mind if I use that?"
+,koolguy_ani,2010-03-15T11:47Z,"I am using vmplayer 3 and that too on intel i3m processor,that has vtx technology..i edited the virtual pc and set the cd rom options to the boot loader;but the apple logo arrives and it restarts itself.
+I tried in vmware workstation,but in it i get an error stating virtual cpu shutdown..
+Please help me!!!
+
+thanxx!!"
+,Ozzapoo,2010-03-17T10:43Z,"It works well, but shortcuts don't work? I press ALT+Q and it does nothing! What is wrong?"
+,kludge420,2010-07-22T06:27Z,"Has anyone tried this on actual Apple hardware? It says ""VMWare Fusion 3 and above"" so I'm hoping so.
+
+I need to test my software on 10.5 as well as 10.6 so this would be quicker way without having to swap boot partitions all the time. Especially for debugging so I can just keep coding in 10.6 and drop the app into 10.5"
+,gFrenke97,2010-10-17T12:12Z,please seed !
+,gFrenke97,2010-10-17T12:56Z,"wow i said please seed
+1 minute later i look and it was going 3,2 mb/s :D"
+,gFrenke97,2010-10-17T15:38Z,"@ Ozzapoo
+thats because mac has an other keyboard setting because they heave other keyboards"
+,Moddom12,2011-03-05T17:33Z,SEED FOR YOUR LIFE!!!! But no really seed :|

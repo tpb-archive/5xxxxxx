@@ -1,0 +1,420 @@
+Audigy Driver for Windows Vista / 7 / etc. by daniel_k
+
+Note from http://forums.creative.com/t5/Sound-Blaster/SB-Audigy-Series-Support-Pack-3-6-11-09-2009/m-p/540934:
+
+IMPORTANT: Before installing this version, start Windows in Safe Mode and delete the following files:
+
+- 32-bit: C:WindowsSystem32UDAAPO32.DLL
+- 64-bit: C:WindowsSystem32UDAAPO64.DLL and C:WindowsSysWOW64UDAAPO32.DLL 
+
+
+
+Supports any model of the following Sound Blaster cards (based on Emu10kx DSP):
+
+- Audigy
+- Audigy 2
+- Audigy 2 ZS
+- Audigy 4
+ 
+For Audigy SE/LS/Value and Live! 24-bit cards, click here for a compatible version.
+ 
+Operating systems supported: 32-bit and 64-bit editions of Windows 7 RTM / Vista SP2 / XP SP3
+ 
+Included in the pack: 
+ 
+- Audigy series driver 2.18.0011.10 (latest beta)
+- ALchemy 1.26.04
+
+- Audio Console 1.32.02
+- DDL and DTS Connect License Activation 2.00.03 (*)
+- Dolby Digital Live Pack 3.00.03 (*)
+
+- DTS Connect Pack 1.68.75 [modified 1.03.04] (*)
+- EAX Console 3.00.56 (Windows XP only)
+- Graphic Equalizer 2.00.65
+- MediaSource DVD-Audio Player 2.00.78
+- SoundFont Bank Manager 3.21.00
+- Speaker Settings 2.00.60
+
+- THX Setup Console 2.10.43 (Windows XP only)
+ 
+
+(*) Purchase and activation required, more info at http://buy.soundblaster.com/.
+
+ 
+Does this driver improve sound quality or performance? Are there any tweaks?
+
+
+No, this driver does not improve sound quality nor increase performance.
+
+No, there are no tweaks.
+
+If someone states that its driver improves sound quality and performance, you are being fooled, cheated.
+
+ 
+
+It is even worse that the so called tweaks come from a person who is not EVEN technically acknowledged, does NOT know anything about Windows internals, software engineering and sound fidelity that all audiophiles always look for.
+
+ 
+
+If you "feel" the sound better, that is the infamous placebo effect and there is no real proof that any tweaks work.
+
+ 
+
+In fact, I have yet to see a driver that states in its release notes that it improves sound quality.
+
+ 
+
+I've disassembled about every single .SYS driver, .DLL libraries and .EXE executables and found nothing.
+
+ 
+
+There are some undocumented registry values, but nothing related to sound quality or performance.
+
+ 
+
+Would the so called tweaks even exist, they would be in my Support Packs, you can bet that.
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+Fixes and improvements:
+
+ 
+
+- Fixes the static issue when playing audio using DirectSound, WaveOut or WASAPI interfaces.
+
+- DTS Interactive encoder now works on Windows XP without any tricks.
+
+- Fixes a cosmetic issue on Audio Console, encoder status now says DTS Interactive.
+
+- Readds support for 64-bit OpenAL and 64-bit ASIO.
+
+- Fixes Microphone not available on Audigy1 cards on Windows 7 / Vista.
+
+- Enables support for WASAPI exclusive-mode event-driven playback, seems to be working just fine.
+
+- Fixes the enhancements errors in Windows mixer and Windows Media Player.
+
+- Adds Microsoft Audio Home Theather Effects for both Speakers and S/PDIF Out endpoints.
+
+- Includes Encoder Switcher to enable DTS Interactive on Audigy cards.
+
+- Fixes the Audio Console "Internal application error" when enabling the DDL Encoder on localized installs.
+
+- Updates Audio Console to display DTS Interactive in the Encoder tab when Encoder switcher is used.
+
+- Workarounds a bug that unexpectedly resets the speaker configuration.
+
+- Prevents an issue during installation on Windows 7/Vista that may result in low volume when certain enhancements are enabled.
+
+- Implements Hardware CMSS Headphone by using a workaround.
+
+- Updates all InstallShield setup scripts to support Windows 7.
+- Fixes installation INI to properly install applications depending on the detected OS.
+- Removes COM workaround for Equalizer, fixed by Creative.
+- Adds workaround to a memory corruption issue preventing Equalizer from starting on Windows 7/Vista.
+- Updates shared modules, responsiveness on certain applications is improved.
+- Enables CMSS2 and Stereo Surround.
+- Fixes 32-bit ASIO not working on Windows 7 x64.
+- Fixes Encoder not available on Windows 7 x64 (related to fix above).
+- Sets default speaker setting to 5.1 to properly reset configs to their defaults during install (fixes Bass and Treble leves not set to 50% on Windows 7 / Vista). 
+
+ 
+
+ 
+
+ 
+
+Undocumented fixes by Creative (not listed in the release notes):
+
+ 
+
+- Fixes the 6.1 speaker configuration is incorrectly available on Windows 7 64-bit (documented).
+
+- Fixes the Enable Dolby Digital Live checkbox not staying checked when Audio Console is closed.
+
+- Fixes Equalizer Out of Memory error.
+- Fixes Equalizer settings being lost on Windows 7 / Vista when speaker configuration is changed.
+- Fixes low volume on Windows 7 / Vista when default format is set to anything higher than 16-bit, 48kHz.
+- Fixes MIDI instruments in Melodic Pool not playing when speaker setting is higher than 2.1 speakers.
+- Restores missing Microphone option in Surround Mixer (documented).
+- Fixes Microphone mute, volume and +20db boost controls.
+
+ 
+
+ 
+
+ 
+
+Release Notes:
+
+ 
+
+ 
+
+Windows Security warning during driver installation
+
+ 
+
+When prompted with: "Windows can't verify the publisher of this driver software", choose "Install this driver software anyway".
+
+ 
+
+ 
+
+OpenAL 2D benchmark in RightMark 3DSound crashes your system
+
+ 
+
+Due to a driver bug, your system will crash if you run the OpenAL 2D benchmark using 63 buffers. No problem With 62 or fewer buffers. OpenAL 3D and OpenAL 3D + EAX benchmarks are not affected.
+
+ 
+
+Details: DRIVER_IRQL_NOT_LESS_OR_EQUAL (0x000000D1) - ctoss2k.sys
+
+ 
+
+ 
+
+ 
+
+System crashes when shutting down or restarting Windows if Encoder is enabled 
+
+ 
+
+Due to a driver bug, your system will crash if you try to shutdown or restart Windows with Encoder enabled.
+
+ 
+
+Details: SYSTEM_SERVICE_EXCEPTION (0x0000003B) - ha10kx2k.sys
+
+ 
+
+ 
+
+There is no DirectSound hardware acceleration on Windows XP 64-bit (x64)
+
+ 
+
+The Audigy driver does not support 64-bit addressing, disabling the DirectSound hardware acceleration and causing multichannel sound to be played only in the stereo channels (front left/right).
+
+ 
+
+Workarounds:
+
+- install the 32-bit (x86) version of Windows XP.
+- limit to less than 4GB the amount of RAM available to Windows.
+- enable the "Memory Hole" setting in the BIOS Setup, if your motherboard supports it.
+
+ 
+
+ 
+
+Microphone issues on Windows 7/Vista 64-bit (x64) with 4GB of RAM or more
+
+ 
+
+Audigy driver does not support 64-bit addressing, resulting in random issues with the Microphone (static, robotic or distorted voice, white noise).
+
+ 
+
+Workarounds:
+
+- install the 32-bit (x86) version of Windows
+
+- limit the RAM available to Windows to less than 4GB
+
+- enable Memore Hole in BIOS Setup, if your motherboard supports the setting
+
+ 
+
+ 
+
+MediaSource DVD-Audio Player system requirements
+
+ 
+
+- 32-bit edition of Windows 7 / Vista / XP
+
+- any Audigy 2, Audigy 2 ZS or Audigy 4 card
+
+ 
+
+ 
+
+Built-in Decoder on Windows 7 / Vista (requires Service Pack 1)
+
+ 
+
+To use the built-in decoder, make sure it is enabled in Audio Console.
+
+ 
+
+Select "SPDIF Out (Creative SB Audigy (WDM))" as the output device of your player and then configure the AC3/DTS filter to send the stream through SPDIF.
+
+ 
+
+When you restart your computer, the Tone settings (Bass and Treble) are not applied.
+
+ 
+
+Just readjust one of the controls one time per boot.
+
+ 
+
+ 
+
+Advanced EQ and Special FX not available on Windows 7 / Vista
+
+ 
+
+These presets don't work on Windows 7 / Vista.
+
+ 
+
+ 
+
+There is no sound in games with OpenAL support on Windows XP
+
+ 
+
+Disable Advanced EQ and Special FX selecting "No effect" before running the game or program.
+
+ 
+
+ 
+
+Equalizer settings are lost
+
+ 
+
+When you run a game with OpenAL support or using Creative ALchemy, the Equalizer settings are lost.
+
+ 
+
+Just run Equalizer and the saved setting is loaded automatically.
+
+ 
+
+ 
+
+Tone settings are reset when speaker configuration is changed
+
+ 
+
+Bass and treble settings are reset when speaker configuration is changed.
+
+ 
+
+ 
+
+DTS Encoder Switcher
+
+ 
+
+The Encoder Switcher is now part of Audio Console.
+
+ 
+
+A shortcut is created in the Programs -> Creative folder in Start Menu.
+
+ 
+
+For additional info, read thoroughly the ReadMe.txt file included in the EncSwitcher folder where you extracted the Support Pack.
+
+ 
+
+ 
+
+Hardware CMSS Headphone
+
+ 
+
+To use the hardware CMSS you need to select "Disable all enhancements" in the "Enhancements" tab on:
+
+Playback Devices -> Speaker Properties
+
+ 
+
+Now check the Speaker configuration in "Playback devices".
+
+ 
+
+If it is Stereo, run Audio Console and change it to 4.1, 5.1 or 7.1 and only after that change it to Headphones.
+
+ 
+
+This procedure ensures that CMSS(1) will work after a Windows restart, otherwise only CMSS2 will work.
+
+ 
+
+ 
+
+Microsoft Audio Home Theater Effects
+
+ 
+
+This driver adds the following audio effects, which are available depending on the current speaker configuration:
+
+ 
+
+- Bass Management
+- Speaker Fill
+- Room Correction
+- Loudness Equalization
+- Bass Boost
+- Virtual Surround
+- Low Frequency Protection
+
+ 
+
+Some effects are also available for the "SPDIF Out" device.
+
+ 
+
+Some Microsoft effects have priority over Creative CMSS effects and will disable the later.
+ 
+
+ 
+
+MIDI Device Configuration Utility for Windows 7 / Vista
+
+ 
+
+Use this utility to change the MIDI playback device for 32-bit and 64-bit applications.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Download:
+
+ 
+
+Filename: Audigy_SupportPack_3_6.exe
+
+File size: 60.1 MB 
+
+CRC32 hash: CD6B0A9B
+
+SHA-1 hash: 3DCF4B11A668363F704A805AD3F2F25405C9BF44
+
+ 
+
+To verify the file hashes, I recommend HashTab.
+
+ 
+
+All files are property of Creative Technology Ltd, unless otherwise noted.

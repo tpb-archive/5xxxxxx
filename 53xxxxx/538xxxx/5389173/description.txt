@@ -1,0 +1,20 @@
+DatAdmin is a database administration tool that allows working with MySQL, MS SQL, SQLite, PostgreSQL and MS Access databases. Its design is primarily focused on easy usage and thanks to the modularity and flexibility of the tool, it can be from functionality standpoint compared to single-database focused programs.
+
+Functionality
+Database connection
+Connection using native ADO.NET, ODBC, OLE DB drivers. Native support for Microsoft SQL Server, MySQL, Postgre SQL, SQLite, MS Access. PHP-tunnel function for connection to MySQL without direct access to the database server.
+
+Database management
+Tables, keys, indexes and references creation and editing. Database object management (views, procedures, functions, schemas, triggers). Support for specific database objects compatible with MySQL versions 4.x, 5.x, MS SQL 2000, 2005, 2008.
+
+View and edit data
+Table data editor with handy functions such as paging, filtering, searching, generating SQL for data row (UPDATE, INSERT, etc.). Display other table references, automatic master/detail views.
+
+Backups, exports, imports
+Database backup, export and import. Table data export/import from/into formats including CSV, TXT, HTML, XML, Excel etc. Command line support. Scheduling. Table copying by drag & drop also between different servers.
+
+Database design and comparison
+Database model and table structure editing. Database diagrams. Synchronization with real database. Database schema comparison.
+
+SQL Editor
+Graphic query design, syntax highlighting. SQL query management

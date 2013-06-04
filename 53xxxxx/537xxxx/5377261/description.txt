@@ -1,0 +1,25 @@
+How does CheckMyTorrentIP work?
+CheckMyTorrentIP is a torrent tracker that lets you download a legal torrent file created uniquely for you. Because no one other than you has this torrent and since there are no seeders, the torrent will remain active in your queue as long as you wish. You'll see your torrent IP within your torrent client under trackers.
+
+But I'm using a VPN or Proxy, isn't my privacy 100% safe guarded?
+Maybe, maybe not. This FAQ details many ways your IP address can leak and explain what steps you can take to prevent it. By checking your torrent IP address over a period of time, you can verify if there are any holes in your security practices. If you're not a techie, have a friend help diagnose your connection. 
+Why can't I just use a web browser or other program to check my IP?
+See the next question that gives examples where a web browser fails to help you. Also keep in mind that you can't manually check your IP with a browser 24x7 and your torrent client may be setup to use a different IP address. 
+How can my IP address be exposed if I'm using a VPN or Proxy?
+There are many ways, here are some different scenarios, feel free to send in any others you know about and suggestions.
+
+VPNs - There are many types of VPNs, the two most prevalent types are PPTP and OpenVPN. While each has their advantages and drawbacks, all suffer from the same weakness, at one point or another the connection will drop and this may expose your personal IP address (Note: VPNs enjoy dropping while you're tucked in bed catching up on ZZZzzzs). To completely prevent exposing your IP address you'll need to modify your routes or use a firewall program to do this for you. See below in another question for more details on securing a VPN.
+
+Proxies - Again there are many variations but the most popular by far is a socks proxy. The proxy can be a remote host or exist locally via an ssh tunnel. If your proxy is incorrectly configured or unknowingly unset you may expose your IP address. Also always be sure to disable DHT and UPnP in your client otherwise you will mostly likely leak your IP address even if your proxy is configured correctly. Please see below in another question for more details on securing your proxy and DHT/UPnP.
+
+Firewall - Some users use a software or hardware firewall to route torrent traffic through a secure connection and other traffic (like web) through the local connection. The configuration can be incorrect or become undone.
+
+Relative or Friend - You may have the most secure setup but all it takes is a lovely relative or friend to misunderstand/forget your clear simple instructions and expose your IP address.
+
+Torrent client software bug - There are plenty of torrent clients, and new ones coming out all the time, some are specialized or experimental, others tout better performance. As long as you stick to established mature software, this shouldn't affect you. But for the bold and daring, make sure to always test the proxy/forwarding feature.
+
+Being an exit node on private P2P - There is a new wave of public/private P2P networks (not Tor) that anonymize your traffic in return for you anonymizing other user's traffic. There have been and currently exists bugs that incorrectly route your traffic to the point of making you the exit node of your own traffic!
+
+Unknowingly using employer's VPN - Some computers have multiple VPN configurations installed and you could inadvertently be using the wrong VPN.
+
+***If you are unable to download this torrent go to.. http://checkmytorrentip.com/  ..this is the actual site that this IP checking torrent is linked to and keeps updating your IP.

@@ -1,0 +1,43 @@
+Dee Mon Video Enhancer v1.9.3
+ 
+http://www.thedeemon.com/VideoEnhancer/
+
+Infognition Video Enhancer allows you to: 
+Increase resolution of your video with video Super Resolution technique, where each frame is upsized using information from a number of neighbor frames to extract maximum details for outstanding results. All the other resize algorithms use information from one current frame only. Now you can convert low res standard definition (SD) video to high definition (HD) quality! 
+Use more than 220 VirtualDub filters for powerful and flexible video editing: deinterlacing, denoising, deblocking, color correction, stabilizing, sharpening, visual effects etc. On multiprocessor systems, dual core or hyperthreading CPUs, Video Enhancer performs much faster than VirtualDub because all filters, decoders and coders work in separate threads, simultaneously. 
+Open any video which can be played in your system and re-compress it with any video codec (DirectShow, DMO and Video for Windows) installed in your system. 
+With Video Enhancer you can perform all these tasks together or just some of them. 	 	 
+
+Download v1.9.3 
+30 days free trial, 2.9 MB 
+
+Buy now 
+
+Filters (plugins):
+Download Filter Pack - 20 popular filters in one easy-to-use installer or see full list of 226 filters working in Video Enhancer. 
+
+See also: SuperResolution plugin for Adobe After Effects and Premiere Pro (not required by Video Enhancer, it has this technology built-in). 
+
+
+1. Video Super Resolution
+Video Enhancer can upscale digital videos to any resolution with superb quality: be it 480p to 720p, 720p to 1080p, 480p to 1080p or anything else. Super Resolution is a method to upscale video and images, i.e. increase resolution of a video or picture (terms "upsize", "up-convert" and "uprez" are also widely used). To upsize each frame, information from this very frame and from a number of neighbor frames is effectively used. If picture in your video is not changing too fast, then information from several frames is added to create a larger and more detailed picture. No algorithm of ordinary image resize/resample is capable of providing this quality just because of the lack of information in one frame.
+
+We performed extensive testing of different upscaling options. The result is a comparison of Infognition's technology with other resizing methods, including Topaz Enhance, Red Giantâ€™s Instant HD, DA Resizer etc. Sample videos used in comparison are available for download and sceptics are welcome to check our results. 
+
+To explain how the above pictures were created, we suggest you to download the test video clip (2.8 MB) and see it for yourself. The clip is compressed with Lagarith Lossless Video Codec. 
+
+Our super resolution video upscaling technology is also available as Adobe After Effects and Premiere Pro plugin. 
+
+2. Two hundred filters for video editing
+You might be familiar with VirtualDub - a powerful video editing application. What makes it so powerful is a vast collection of video and audio filters. Over two hundred filters for VirtualDub provide limitless possibilities: use Subtitler filter to subtitle videos, logoaway filter to remove annoying logos, deshaker to stabilize shaky video, denoise for noise reduction, or cartoonizer to make a movie look like cartoon. You can crop and rotate a video scene, deinterlace, adjust brightness or correct video with frame luminance variations using deflicker. A disadvantage, however, is that VirtualDub reads AVI files only and works with Video for Windows codecs only. 
+
+Video Enhancer allows you to use most of the VirtualDub filters (90% now) combining with power to open any video file (AVI, WMV, MPEG, RM, MOV - see documentation for details) and use any video codec either Video for Windows or DirectShow. 
+
+Unlike VirtualDub, in Video Enhancer all filters, coders and decoders work simultaneously in separate threads (model known as multithreading). For example, if you process a video with two filters, then at the time coder compresses the first frame second filter is already processing second frame, first filter is processing third frame and decoder decompresses fourth frame. Simple test with processing DV video with 3 filters and compressing it with XviD showed 1.9 times higher speed than VirtualDub on Dual Core AMD Opteron. 
+
+Here is a list of VirtualDub filters that proved to work well with Video Enhancer. Choose any filters from that list, download them, unpack and put *.vdf files to "plugins" directory in the Video Enhancer folder. If you have VirtualDub installed, then Video Enhancer will find installed filters automatically. 
+
+In Video Enhancer you can create chains with any number of VirtualDub and Super Resolution filters. It means you can filter your video before resizing, after resizing, between or even instead. ;) 
+
+3. Convert your video
+After you've decided what to do with your video, you can choose any video codec to compress your output video to reduce the output file size. Video Enhancer lets you use not only VfW codecs (like VirtualDub) but also DirectShow and DMO ones, i.e. any video codecs.

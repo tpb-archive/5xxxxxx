@@ -1,0 +1,18 @@
+User Type,Username,Date,Text
+,Njordin,2010-02-18T19:48Z,"There is a problem. When I try to launch the game from the HL2 icon, I get the message ""Unable yo get IFileSystem interface from FileSystem factory"".
+Also, if I try to launch it from the shorcut ""Half-Life.2.PROPER.Offline.Nosteam-AHU"" I'll get to the loading screen but then an ""engine error"" message telling that my ""available memory is less than 128mb"".
+What can i do ?"
+,JesseAarons,2010-02-18T21:52Z,"ok Njordin  tell me whats your system configuration ???
+i dont think your RAM is much "
+,CatsLikeCatFood,2010-02-18T22:10Z,"Ok,I Downloaded it,extract it all,and i was reading the notes about merging dlls and stuff,so i tried em all,and nothing,i try the Half Life launcher but i get ""Unable to get IFileSystem interface from filesystem factory"",and if i tried the shortcut,It starts but never reaches main menu,only after the valve picture...any ideas on what should i do?"
+,JesseAarons,2010-02-19T09:15Z,"try this for all who have problems 
+Copy and paste +matforcehardwaresync 0 +sndasyncprefetchpriority 1 in the target line, in the games shortcut
+It should look like this exactly: ""C:\Half-Life 2\hl2.exe"" -steam-console +matforcehardwaresync 0 +sndasyncprefetchpriority 1 If you still get the error when quitting the game just ignore it, it will still save."
+,Njordin,2010-02-19T10:11Z,"My memory is definitelly not the problem, it's 4GB and I have played Half Life 2 in the past. I copied what you said in the target box and the ""Unable to get IFileSystem blah blah blah"" has gone but I still get an error about my memory."
+,Njordin,2010-02-19T19:06Z,"Ok, I fixed the memory problem by chaning the compatibility {found in properties} to windows xp. The only problem now is that Alyx may stick in some elevator scenes. When she, or anyone else, sticks, a quick save and then load may help but that's not for sure. You {JesseAarons} should create quicksave folders that can get us out of this situation just like dopeman did for hl episode2  http://thepiratebay.org/torrent/3858005/%5BPC%5D_Half_Life_2_Episode_Two_%5BTEMP.FIX%5D_%5Bdopeman%5D"
+,JesseAarons,2010-02-19T20:48Z,"all having problems with the game refer to this address
+http://thepiratebay.org/torrent/5377272/Half_Life_2%28extract_and_play%29_-_FIX"
+,SNES_VS_PS1,2010-06-09T18:13Z,DUDE!IT WORKS PERFECT!THANKS!
+,Fapachino,2010-06-21T16:26Z,"Works perfectly for me, occasionally stalls when loading but recovers quickly. Thanks you"
+,Gordon_Frohman,2010-09-18T10:20Z,Frohwned!
+,ijijij123,2011-04-23T23:53Z,I'm at the beginning of Black Mesa East and Dr. Mossman won't get on the elevator.  Any suggestions?

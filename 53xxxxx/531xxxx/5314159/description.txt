@@ -1,0 +1,130 @@
+::: WARNING ::: files included should ONLY be used on PC hardware running OSX
+
+Just a short list of whats included, there are a hundred files not listed (too much to list basically). Apps, Kext files (drivers), PKG installers for sound, video cards, Patches and Fixes. Theres a lot missing and still needs to  be compiled but that will come in my next driver pack upload. (will upload full and update version of next driver pack, for those who download this one).
+
+Apps
+PList Generator
+EFI Studio
+Kext Helper b7
+Main Menu
+mkextMaker
+OSX86 Tools
+Pacifist
+SimplyRar
+SteerMouse
+USB Overdrive
+Chamelon 2 RC1
+PC_EFI V9
+PC_EFI V10.1
+
+KERNELS
+930 Sleep Kernel
+Kernel-9.2.0-Sleep
+Kernel-9.2.0-Speedstep
+Kernel-9.4.0-Modbin
+Kernel-9.2.2-SSE3
+kernel-9.5.0-Voodoo
+ToH_9.2.0_Sleep
+
+FIXES and PATCHES
+ACPI SMC fix
+ACPI Plugins
+AppleDecrypt
+AppleSMBIOS
+BatterManager
+CPUPowerManagementDisabler
+CPUS=1 FIX
+EHCI Sleep enabler fix
+firewire remove
+INTELCPUMDisabler
+DSMOS
+TimeMachine FIX
+NULLCPUM
+OpenHaltRestart
+PS2 driver
+SMBIOSEFI
+SMBIOSEnabler
+Seatbelt fix
+
+LAN / NETWORK DRIVERS
+82566 series
+Apple BC440x
+Apple BC5751
+Apple BCM578x
+AttansicL1
+D Link DGE-530T GigaExpress
+Intel 100ProVE
+nForcedeth
+nForceEthernetDriver
+Ralink
+RealtekR1000
+RTL8201CL
+
+AUDIO
+AC97
+ALCxxx
+Azalia Audio
+Envy24
+Envy24HT
+IDT
+SiSAC97
+Creative SB (Live! Audigy, Audigy2, EMU10kX eDSPs)
+ADI
+taruga
+
+VIDEO (INTEL, ATI, NVIDIA, OTHER)
+ATI Radeon HD 
+ATI Radeon HD 
+ATI Radeon HD 
+ATI Radeon HD 2400 Pro AGP
+ATI Radeon HD 2400 Pcie Series
+ATI Radeon HD 2600 Pro AGP
+ATI Radeon HD 2600 XT AGP
+ATI Radeon HD 2600 Pro Pcie 
+ATI Radeon HD 2600 XT pice
+ATI Radeon HD 2900 Series
+ATI Radeon HD 3650 pcie Intel
+ATI Radeon HD 3650 pcie AMD
+ATI Radeon HD 3650 AGP
+ATI Radeon HD 3800 series
+ATI Radeon HD 3850/3870 AMD
+ATI Radeon HD 3870 X 2
+X1400
+X1600
+X1900XT
+X2300 Mobility
+
+
+NVDARWIN
+NVINJECT
+Universal NVIDIA Installer
+NVKush
+GeForce 9800
+GeForce FX 5200
+
+WIRELESS / BLUETOOTH
+Atheros AR5007
+Atheros
+Belkin Wireless G Desktop Network Card F5D7001
+Broadcom
+Dell Studio Laptop BluetoothHCI
+iwi2200 fix
+iwi3945
+iwi4965
+PROSet/Wireless 2100 10.4
+PROSet/Wireless 2200b/g and 2915 a/b/g 10.5
+RT61 CardBusWIFI
+RT2500 RT73 USB
+RT2500 Replug
+RT2860 CardBusWIFI
+RTL8187
+RTL818B
+RTL818L
+RTL818SE
+RTUSB_2870
+Tiger IO80211
+Zydas ZD1211-1215
+
+
+
+thanks PCWiz, Netkas, LastExile, Voodoo team, Prasys, modbin, StageXNU team, zef and the Chameleon team, aquamac, Taruga, stickpin, mac.nub, Steven Lin, ToH, and others who's patches/kexts are included but I am unaware of their creators

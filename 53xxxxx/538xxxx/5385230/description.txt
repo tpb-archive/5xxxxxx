@@ -1,0 +1,33 @@
+AnyDVD History
+
+6.6.2.3 2010 02 22
+- New (HD DVD & Blu-ray): Faster response time when changing settings during scan in progress
+- New (Blu-ray): Updated decryption keys
+- New (Blu-ray): Added support for new BD+ protections
+- New (Blu-ray): Added support for new structural protection
+- New (Blu-ray): Added workaround for District 9 (US) playback problem with PowerDVD
+- New (DVD): Added support for new protections
+- New (DVD): CSS archive now stores layer break VTS key for increased performance
+- New (DVD): CSS keys are always stored, regardless of the "Use CSS archive" setting
+- New (DVD): Added workaround to AnyDVD ripper for "Angel & Demons (rental)", Japan
+- New: Added more info to logfile
+- New: Information window while AnyDVD is scanning discs
+- New: Option to enable / disable this window
+- New: Workaround for problems with some VMs and certain drives
+- New: Create logfiles for empty drives
+- New: Better handling of "files in use" during installation
+- Change (DVD): CSS archive is enabled by default
+- Change: Replaced AnyDVD "Safe Mode" with "Aggressive I/O Mode".
+- Note: Aggressive I/O mode is disabled by default. It might be required with some 3rd party software.
+  Please report which programs require it. Thank you!
+- New: Added warning message, if applications requiring "Aggressive I/O Mode" are installed
+- New: Added option to disable the "Aggressive I/O Mode" warning message
+- Fix (DVD): AI scanner removed non-existant copy protection from "Tomorrow Never Dies", US
+- Fix (DVD): AI scanner could mess up chapters with some discs, e.g. "Odyssey 5", UK
+- Fix: Driver verifier problem with ElbyCDIO.sys
+- Fix: Driver verifier problem with AnyDVD.sys
+- Fix: Various potential crashes
+- Fix: Changing a disc could be missed while AnyDVD is scanning a disc in another drive
+- Fix: Disabling power saving didn't always work
+- Some minor fixes and improvements
+- Updated languages

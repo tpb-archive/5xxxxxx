@@ -1,0 +1,158 @@
+iPortable Snow x86 optimized Mac OSX 10.6.2 Snowleopard CopyCatX MBR image for generic Intel PCÊ¼s (32/64bit) and (SSE2/SSE3) or higher.. 
+
+Based on previous and never released iPortable 10.5.8 and Hazardâ€™s patched Snowleopard 10.6.1-10.6.2 and Snowleopard Server 10.6.2 distro, Empire EFI and MyHack releases... 
+
+Re-ripped, tweaked and optimized by ProtocolX to make it booting on a lot of Intel chipset  PC'[s! 
+
+Read carefully !!!
+
+AMD not yet supported.. Intel only [SSE2/SSE3] or higher.. English and Dutch only !! 
+
+All other system languages and left over PPC architectures are removed !! 
+
+You can always re-install more languages very easy..
+
+- NO APPLE SOFTWARE IS REMOVED IN THIS EDITION!!
+
+This is a full Mac OSX Snowleopard 10.6.2 installation! No account is created, registration screen will be loaded at first boot. (Only removed big file is Alexâ€™s voice)
+
+-ALL VIDEOKEXTS ARE REMOVED FROM SYSTEM!!
+
+To prevent booting problems on serveral systems. They are zipped and moved to: Hackintosh tools/Snow Drivers/Video Drivers/Removed Video Kexts... Use Kexthelper B7 to re-install your videokexts before trying enabling graphics.
+
+- DEFAULT BOOT MODE IS 32BIT!!
+
+The default bootmode of this iPortable Snow is 32bits. So it can run even on an old Intel SSE2 processor. (SSE3 is recommended..) But no 64bit code is removed offcourse... You always can still use this Snowleopard in full 64bits mode.
+
+To enable 64bit in Snowleopard 
+
+Type in bootloader: arch=x86_64 (Boot in 32/64bits mode) 
+
+or -force64 (Force booting in 64bit)
+
+
+Included Applications
+
+- EZ 7z 
+- KCNScrew 
+- LiquidCD 
+- Property List Editor 
+- Smultron 
+- Stuffit Expander 
+- Transmission 
+- UnRARx 
+- BetterZip
+
+Included Utlities
+
+- Appcleaner 
+- Carbon Copy Cloner 
+- CopyCatX 
+- Diskwarrior 4.2 
+- Clonetools H1
+
+
+OSx86 Hackintosh Tools
+
+32-64-bit Kernel Startup Mode Selector 
+AMD Patcher (leo) 
+About This Mac Modifier 
+AnyToISO 2.5.1 - 
+Keygen AnyToISO 
+AppleHDAPatcherv1.20 
+BootCDMaker 
+Bootloaders 
+CPU-X 
+CPU-i 
+ChangeVisibility 
+Checksum 
+Custom DVD SlimbuildGUI-1 
+DPCIManager 
+DSDT Patcher GUI 
+DSDTSE 
+Disk Order 
+DisplayUtility 
+EFI partition Mounter 
+EFIStudio 1.1 
+EFiXUpdater 
+EvOToolsX (snow) 
+Extensions-Repair 
+Gfx Utilities 
+HexEditors 
+Hide Folders 
+INSTAHackintosh (beta) 
+IORegistryExplorer 
+IPObserver 
+Kernel64Enabler 
+Kext Helper b7 
+Kext Utility 
+KextSpy 
+KextStatInfo 
+KeyViewer 
+Lizard 
+MKextTool-1.0
+MSR Tools 
+Man Viewer 
+Marvin's AMD Utility v.25 
+NVCAP Maker 1.4 
+NetbookBootMaker 0.8.3 
+NetbookInstaller 0.8.3 RC4 
+Network Diagnostics 
+OSx86 Update 
+OSx86tools 
+PPCKextsRemover 
+PPF-O-Matic 
+PPFMaster 
+Pacifist 
+PackageMaker 
+PartitionsList 
+PlistEdit 
+Pro Pref Setter 
+Preferential Treatment 
+Property List Editor 2.2 
+Quartz Debug 
+QuartzSimple 
+Repair & Set Permissions scripts 
+RepairKexts Permission 
+SMART Utility 
+SpindownHD 
+Super_PI 
+SwitchResX Control 
+USB Prober 
+UUIDGenerator 
+Universal Checker 
+Universal OSx86 Installer 
+Winclone 
+freeMem 
+iASLMe 
+iPatch 
+mCoreTest64 
+mkextMaker 
+unHiddenIT
+
+
+Included Kernels:
+
+chocolate_kernel
+anv_kernel
+atom_kernel
+legacy_kernel
+blackknight_kernel
+mach_kernel
+
+
+
+Powered by Chameleon 2.0 RC4 r684 bootloader 
+
+
+By ProtocolX
+
+
+Other resolution:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Graphics Mode</key>
+	<string>1280x1024x32</string>

@@ -1,0 +1,25 @@
+  How it works :::
+(Read the concepts document for more information)
+
+Carrom game is a C++ multithreaded application. It has two synchronized background threads, one to monitor game situations and user activities and the other to monitor coin collisions.
+
+
+The main game progresses as a series of polymorphic commands issued by an object called â€œRefereeâ€. Referee checks the game status and gets a sequence of appropriate actions from â€œGameRulesâ€ object and issues polymorphic commands to current â€œPlayerâ€ object. The player, human or computer implements these commands and returns control back to "Referee".
+
+Collision detection of carrom coins is done by using relative velocities and relative paths of the coins. Game doesnâ€™t use OpenGL collision detection methods, as collision detection was developed with a different initial intension. The collisions are assumed to be smooth in order to get rid of moment of inertia.
+
+In Sri Lanka, when we play carrom with our friends for fun, we used to make jokes at the player. Some times encouraging and most of the time making funny jokes for his/her incompetence. This generally happens from the start to the end of the game making the game even more fun to play. This program can mimic this feature by observing the game and user activities and, generating various conversations. This is done by one of the two background threads mentioned earlier.
+
+The thread monitors user activities and game situations (called â€œEventsâ€) and passes them to an object called â€œTalkNodeMeshâ€ which is basically a large mesh of interconnected nodes stored in a file.
+
+ Each node represents a voice clip with necessary information to play it. Nodes are interconnected as a mesh with different probabilities for each connection. When an Event occurs, one of the starting nodes get triggered and it causes one of the other nodes connected to it be triggered probabilistically. This happens until the end of nodes comes or until triggering process looses â€œenergyâ€. In this way a whole conversation is generated logically. Once the triggering process is over, the â€œTalkNodeMeshâ€ returns information of the triggered nodes (logical conversation) to a sound player object to play them one after the other with appropriate delays in between them. As and when these sound clips are played, the probability of occurrence of the connection of the particular node is deduced by a value unique to the connection. This reduces the probability of same conversation being generated repeatedly. However these probabilities are gradually incremented with time until they get their original value.
+
+  Thank You :::
+
+The thought of adding background conversations came to me very recently when I saw several young guys playing a game of carrom. What they really enjoyed was not just the game itself but the various jokes made by their friends, standing around them. This made me look into the possibility of integrating a feature where there would be a set of virtual 'spectators', passing comments and jokes while the game is on. Once I completed programming part to facilitate this feature I faced with a problem of finding suitable people for dubbing the sounds. Luckily I found several guys who are probably the best for the job.
+
+  The thought of adding background conversations came to me very recently when I saw several young guys playing a game of carrom. What they really enjoyed was not just the game itself but the various jokes made by their friends, standing around them. This made me look into the possibility of integrating a feature where there would be a set of virtual 'spectators', passing comments and jokes while the game is on. Once I completed programming part to facilitate this feature I faced with a problem of finding suitable people for dubbing the sounds. Luckily I found several guys who are probably the best for the job.
+
+  A couple of guys from my workplace itself, Kanchana and Neyomal, and a few undergraduates who joined Virtusa as interns and a few others who are professionals in sound mixing who had their own studio and all the necessary equipment required for the task. After putting much more effort than I had initially anticipated, these guys came up with a brilliant set of voice clips. And not just that, they all urged me to put this on a website and Nadeera, who is a brilliant web designer, created this very attractive website for me. Kokila and Ryan urged me to publish this, and came up with various creative ideas and Kanchana, Neyomal and Dharshana were always behind me with their full help. The professionals Chamara, Tharinda and their friends spent a lot of time (despite their very tight schedule) on this, providing their ideas, voices and equipment. Many thanks to all these creative people who provided me with much needed help on this.
+
+imges http://bayimg.com/thumb/hakdmaaci.jpg

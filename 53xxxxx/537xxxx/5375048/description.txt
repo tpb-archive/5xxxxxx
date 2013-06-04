@@ -1,0 +1,18 @@
+Xslimmer, the friendly way to right-size your apps without losing functionality.
+
+-->Remove unnecessary code from fat binaries. Xslimmer determines which code your machine needs and removes the rest. This is achieved by removing the code inside the Universal Binaries that does not fit with your machine's architecture, a code that never gets executed and just wastes your disk space.
+
+-->Strip out unneeded languages. Safari is available in more than a dozen languages, Adium in more than 20. This is great, but how many of those do you need? Xslimmer allows you to select how many languages you want to preserve in your apps and will remove the rest, recovering lots of precious free space from your disk.
+
+-->Xslimmer not only frees space wasted by unused code, it can even increase your Mac's performance. Some of our users have reported applications loading in almost half the time, because OS X does not need to analyze Xslimmed applications in search for the most suitable version of the code.
+
+What's New?
+-->Adds the option to keep all native host architectures (32 and 64 bits), as explained below. It also solves a very rare crasher that could occur when the applications list was refreshed after modifying Xslimmer's preferences.
+
+Installation:
+--> Open folder & mount dmg
+--> Drag app to your applications folder
+--> Done!
+
+ENJOY!! 
+--> IsolatedSoul5591

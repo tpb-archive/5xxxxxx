@@ -1,0 +1,51 @@
+This is a compiled version (exe) of a Autohotkey script i use in borderlands.
+
+It spams the "E" button while you hold Left Shift, which makes you loot or use
+
+whatever item is currently in your crosshair at a rate of 20 times/second 
+
+without accidentally equipping any items. The program runs in Windows taskbar and 
+
+can be paused or shut down by from there through the right-click menu. 
+
+You can start it before or after you start Borderlands, it doesn't matter. 
+
+The hotkey script is global and affects the key input only, not the BL process.
+
+Remember to use Right Shift when typing capital letters. Enjoy!
+
+
+MIRROR: http://www.m e d i a f i r e.com/?yzw3mznadnm
+
+
+-----------------------------------------------------------------------------------
+
+
+(for those of you who wonder what the script looks like or want to use another key)
+
+
+
+LShift::
+while GetKeyState("LShift", "P")
+{
+Send, E
+Sleep, 50
+}
+Return
+
+
+
+If you want to change it, edit both instances of LShift to the hotkey 
+
+(LCtrl or LAlt or F1 or Q... you get the idea)
+
+Edit the E in Send, E to whatever your Use Key is (if its not E)
+
+The Sleep, 50 is the delay between loot attempts in milliseconds
+
+Save it as bl_autoloot.ahk and use or compile it with autohotkey
+
+Download link (optional): http://www.autohotkey.com/download/
+
+
+----------------------------------------------------------------------------------

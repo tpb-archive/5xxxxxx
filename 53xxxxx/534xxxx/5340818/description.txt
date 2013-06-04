@@ -1,0 +1,33 @@
+THE INSTALLER FOR WINDOWS VIRTUAL PC IN THE TORRENT IS FOR 32-BIT. IF YOU HAVE 64-BIT, CLICK HERE TO DOWNLOAD IT http://download.microsoft.com/download/0/5/5/0554AE99-785F-45CB-B1F2-0E3ED1E6117D/Windows6.1-KB958559-x64.msu
+
+
+***********************************************************************************
+
+Step 1: run the .msu (Windows Update Standalone Installer format) file that installs virtual pc (OPTIONAL IF YOU ALREADY HAVE WINDOWS VIRTUAL PC)
+
+Step 2: move the .vhd and the .vmc files to C:/Users/WhateverYourAccountNameIs/AppData/Local/Microsoft/Windows Virtual PC/Virtual Machines
+
+Step 3: run virtual pc, and then a windows explorer window will pop up. somewhere in that windows explorer it should say "Create new virtual machine" click that
+
+Step 4: in the name box, name it whatever you want. i named it "Windows XP Professional SP3"
+
+Step 5: don't change the location box.
+
+Step 6: click next
+
+Step 7: i adjusted the amount of RAM that it is allowed to use to 1024 MB (which is exactly one GB) but you can do however much you want. (too much can make your real computer slow while you are running virtual pc though)
+
+Step 8: make sure the Networking checkmark box is checked so you can get on the internet on virtual pc
+
+Step 9: click next. when you get to the "Add a Virtual Hard disk" thing, make sure the "Use an existing virtual hard disk" thing is selected.
+
+Step 10: go to start and search "folder options" and then go to the View tab and in Advances Settings make sure "Show hidden files and folders is selected"
+
+Step 11: now back in the Virtual PC window select "Browse" to browse for a virtual hard disk. browse to C:/Users/WhateverYourAccountNameIs/AppData/Local/Microsoft/Windows Virtual PC/Virtual Machines, and select Windows XP Professional.vhd
+
+Step 12: click "Create"
+
+Step 13: now run virtual pc again and when the Windows Explorer window comes up, double click the "Windows XP Professional" file and windows Xp will start up in virtual pc
+
+Step 14: if you have any questions or problems, ask (if you downloaded this torrent from ThePirateBay, you can contact me by leaving a comment on the torrent download page)
+

@@ -1,0 +1,25 @@
+This book explains the underlying principles of lighting more
+deeply than most game development books. However, unlike
+other theoretical books, this book takes a holistic approach
+that couples theory with practical implementations that
+address the features and limitations of modern hardware.
+
+The first chapters of the book deal with theory. They lay
+the conceptual foundations for the remaining chapters. The
+bulk of the book is comprised of chapters that each focus on a
+specific technique. Each chapter will explain the theory as
+well as give a sample implementation. Some readers look for
+books that give them a fully built out gaming engine. That is
+not our intention here. In fact, we have tried to strip each
+sample down to its bare essentials in order to highlight a
+given technique. This should make it easier to put the technique
+into any engine you need.
+
+This book can be read nonlinearly. Advanced readers
+might want to jump to specific chapters. Beginning readers might
+want to start with the theory before they jump through
+sets of theory/approach/implementation to see how everything
+fits together. Regardless of how they are read, the
+chapters provide a solid theoretical and practical foundation
+on which additional techniques and further optimizations can
+be based.

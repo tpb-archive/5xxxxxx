@@ -1,0 +1,59 @@
+App can convert save games between PSX(or emulator) and PC version of:
+
+- Final Fantasy 7, 
+- Final Fantasy 8 (we can finish ChocoboWorld on PC, save normally game with gained GF's and items, ant then transfer save to PSX/emulator) 
+- Tony Hawk's Pro Skater 2 
+- Mat Hoffman's Pro BMX
+
+Installation:
+1. Install PSXMemTool_1.17b_Setup.exe
+2. Unpack dll's from PSXMemTool_Runtime.zip to installation folder or to Windows/System32
+
+* Editing of Final Fantasy 8 save data (PSX and PC), many thanks to Cyberman.
+* Creation of blank memory card files. (Thanks to gamer-one).
+* Saving of memory card files in a number of supported formats.
+* Copying of saved games between either card.
+* Deletion and undeletion of saved games from either card.
+* Importing and exporting of single game saves.
+* Loading of ePSXe saved states to extract memory card contents.
+* Selection of all linked saved games to keep data integrity.
+* Hex-editing of saved games, viewable in hex and ascii.
+* Ability to change Country Code, Identifier and Product Code.
+* Ability to compare saved game files or other files.
+* Ability to compare saved game slots between either card.
+* Change detection to show where files changed since it was last saved.
+* Option to search through the memory card file for specific values.
+* Batch converting of memory card files to a number of supported formats.
+* Batch renaming of memory card files based on their contents.
+* Support for opening some PC saves so you can convert them to PSX saves.
+* Support for saving some PSX saves in PC format.
+* Ability to view icons in large format and edit them.
+* Automatic calculation of header XOR values.
+
+PSXMemTool supports the following PSX file types:
+
+* Bleem! (*.mcd)
+* Connectix VGS (*.mem)
+* DataDeck (*.ddf)
+* DexDrive (*.gme)
+* ePSXe (*.mcr)
+* PSEmuPro (*.mcr)
+* PSXGameEdit (*.mc)
+* WinPSM (*.ps)
+* MCExplorer (*.mci)
+* SmartLink (*.psm)
+
+PSXMemTool supports the following PC file types:
+
+* Final Fantasy 7 (save0?.ff7)
+* Final Fantasy 8 (save0?)
+* Tony Hawk's Pro Skater 2 (*.sav) - may not be fully working
+* Mat Hoffman's Pro BMX (*.sav) - may not be fully working
+
+PSXMemTool also supports importing and exporting of the following single game save types:
+
+* Action Replay, GameShark, XPlorer (*.psx)
+* PSXGameEdit (*.mcs)
+* SmartLink (*.mcb)
+* Datel (*.mcx and *.pda)
+* Memory Juggler (*.ps1)

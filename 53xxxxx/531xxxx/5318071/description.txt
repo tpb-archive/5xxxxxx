@@ -1,0 +1,140 @@
+WI-FI NETWORK HACKING FOR WINDOWS
+
+-----------------------------------------------------------------------------------
+
+Virustotal report; 
+http://www.virustotal.com/analisis/e0d28b551269489ae57205447430bc2744f37f5a01a133296f7aa71000fdc661-1264774915
+
+-----------------------------------------------------------------------------------
+
+WHAT YOU NEED;
+
+1; THIS TORRENT (COMMVIEW, FULL VERSION NO KEY NEEDED AND INSTRUCTIONS TEXT).
+
+2; WINDOWS 7, VISTA OR XP.
+
+3; AIRCRACK.NG FOR WINDOWS (FREE BUT NOT INCLUDED AS ANTIVIRUS DONT LIKE IT).
+
+4; TWO WI-FI NETWORK CARDS OR ADAPTORS ONE MUST BE;
+
+Atheros Wireless Network Adapter (AR5008)
+Broadcom 802.11n Network Adapter (requires Windows Vista or 7) 
+D-Link DWA-542 RangeBooster N Desktop Adapter
+D-Link DWA-547 RangeBooster N Desktop Adapter
+D-Link DWA-552 Xtreme N Desktop Adapter
+D-Link DWA-556 Xtreme N PCI Express Desktop Adapter
+D-Link DWA-642 RangeBooster N Notebook Adapter
+D-Link DWA-643 Xtreme N Notebook ExpressCard Adapter
+D-Link DWA-645 RangeBooster N 650 Notebook Adapter
+D-Link DWA-652 Xtreme N Notebook Adapter
+Dell Wireless 1505 Draft 802.11n WLAN Mini-Card (requires Windows Vista or 7) 
+Dell Wireless 1510 Wireless-N WLAN Mini-Card (requires Windows Vista or 7) 
+Dell Wireless 1515 802.11 Wireless-N Mini-Card (requires Windows Vista or 7) 
+Gigabyte GN-WI03N (mini) PCI WLAN Card
+Gigabyte GN-WI06N (mini) PCI Express WLAN Card
+Gigabyte GN-WM02N Express WLAN Card
+Gigabyte GN-WP02N PCI Express WLAN Card
+Intel Wireless WiFi Link 4965AGN (requires Windows Vista or 7) 
+Intel Ultimate N WiFi Link 5100 (requires Windows Vista or 7) 
+Intel WiMAX/WiFi Link 5150 (requires Windows Vista or 7) 
+Intel Ultimate N WiFi Link 5300 (requires Windows Vista or 7) 
+Intel WiMAX/WiFi Link 5350 (requires Windows Vista or 7) 
+Linksys Dual-Band ExpressCard WEC600N (requires Windows Vista or 7) 
+Linksys Dual Band USB Adapter WUSB600N (requires Windows Vista or 7) 
+NEC AtermWL300NC (PA-WL300NC) Wireless Network Adapter
+Realtek RTL8192E Wireless LAN 802.11n PCI-E NIC (requires Windows Vista or 7) 
+TP-Link TL-WN910N Wireless N Cardbus Adapter
+CACE Technologies AirPcap Nx USB Adapter 
+3Com OfficeConnect Wireless a/b/g PC Card (3CRWE154A72)
+Atheros Wireless Network Adapter (AR5001 through AR5007)
+Broadcom 802.11g, b/g, a/b/g Network Adapter (requires Windows Vista or 7) 
+Cisco Aironet 802.11a/b/g Wireless Cardbus Adapter
+D-Link WNA-2330 RangeBooster G Notebook Adapter
+D-Link AirPremier DWL-G680 Wireless Cardbus Adapter
+D-Link AirPremier DWL-AG660 Wireless Cardbus Adapter
+D-Link AirPremier DWL-AG530 Wireless PCI Adapter
+D-Link AirXpert DWL-AG650 Wireless Cardbus Adapter
+D-Link AirXpert DWL-AG520 Wireless PCI Adapter
+D-Link AirPlus G DWL-G630 Wireless Cardbus Adapter (Rev. C, Rev. D)
+D-Link AirPlus Xtreme G DWL-G520 Adapter 
+D-Link AirPlus Xtreme G DWL-G650 Adapter 
+D-Link Wireless 108G DWA-120 USB Adapter (requires Windows Vista or 7) 
+Dell Wireless 1390 WLAN Mini-Card (requires Windows Vista or 7) 
+Dell Wireless 1395 WLAN Mini-Card (requires Windows Vista or 7) 
+Dell Wireless 1397 WLAN Mini-Card (requires Windows Vista or 7) 
+Gigabyte GN-WI01GT (mini) PCI-E WLAN Card
+Gigabyte GN-WI01HT (mini) PCI WLAN Card
+Gigabyte GN-WI07HT (mini) PCI-E WLAN Card
+Gigabyte GN-WIAG/GN-WPEAG (mini) PCI WLAN Card
+Gigabyte GN-WIAH (mini) PCI WLAN Card
+Gigabyte GN-WLMA102 Cardbus WLAN Card
+Gigabyte GN-WM01GT Cardbus WLAN Card
+Gigabyte GN-WMAG Cardbus WLAN Card
+Gigabyte GN-WP01GT (mini) PCI WLAN Card
+Intel PRO/Wireless 3945ABG Network Connection (requires Windows Vista or 7) 
+LinkSys WPC55AG Dual-Band Wireless A+G Notebook Adapter
+NETGEAR WAG511 802.11a/b/g Dual Band Wireless PC Card
+NETGEAR WG511T 108 Mbps Wireless PC Card
+NETGEAR WG511U 54AG+ Wireless PC Card
+NETGEAR WG511U Double 108 Mbps Wireless PC Card
+NETGEAR WPN311 RangeMax Wireless PCI Adapter
+NETGEAR WPN511 RangeMax Wireless PC Card
+Proxim ORiNOCO 802.11a/g ComboCard Gold 8480
+Proxim ORiNOCO 802.11a/g ComboCard Silver 8481
+Proxim ORiNOCO 802.11a/g PCI Adapter 8482
+Proxim ORiNOCO 802.11b/g ComboCard Gold 8470
+Proxim ORiNOCO 802.11b/g ComboCard Silver 8471
+SMC 2336W-AG v2 Universal Wireless Cardbus Adapter
+TRENDnet TEW-501PC 108Mbps 802.11a/g Wireless CardBus PC Card
+Ubiquiti Networks SRC Wireless Network Adapter
+CACE Technologies AirPcap Ex USB Adapter 
+
+-----------------------------------------------------------------------------------
+
+WHAT TO DO TO ACCESS A NETWORK;
+
+1.Install Commview.
+2.Open commview and install the commview drivers to a card. It should prompt you 
+about your card and than automatically install the driver. 
+3.Go to the rules tab and check enable advanced rules
+4.Type in the box labled formula " tods=1 and dmac=FF:FF:FF:FF:FF:FF " then type a 
+name for your formula in the box labled name and than click add/edit.
+5.This should now appear in the upper box. if it is not checked, check it.
+6.Click settings = options = memory usage and turn maximum packets in buffer to 
+20000. If it prompts you to restart it, do so. There are three funnel 
+looking things on the main menu bar of commview. uncheck all but the first one 
+(one labled capture data packets)
+7.Click the play button and scan for the network you want to crack.
+8.Once you have found it, drag the channel menu down to the desired channel and 
+click capture.
+9.Now using your other adapter thats not capturing, connect to the password 
+protected network. when it asks you for key, type in something random, like 
+1234567890.
+10.It should now say connected with limited connectivity.
+11.Go back to your commview menu and click on the packets tab. you should see a 
+couple of packets.
+12.Looking at the protocol column, you should see a couple labled IP/UDP, ARP 
+REQ, and a couple of others. Right click on any packet labled Ã¢â‚¬Å“ARP REQÃ¢â‚¬Â and 
+than click send packet, and selected. A mini menu should now appear.
+13.On the mini menu, change packets per second to 2000, and rather than 1 
+time(s), click continuously, and Then click send.
+14.Go back to the main commview window and go to the rules tab, and uncheck the 
+rule you made.
+15.You are now injecting and you should see the number of packets rising 
+really fast.
+16.Save the packets, you have to save every 20000 packets, click file, save 
+and than in the save dialogue, remember where you saved it, and instead of 
+saving it as an ncf file, save it as a dump cap file.
+17.Extract the Aircrack-NG.
+18.open aircrack-ng-GUI that can be found in the map Ã¢â‚¬Å“binÃ¢â‚¬Â and select the files 
+you saved, and than click launch.
+19.Look at the list of IVÃ¢â‚¬â„¢s you have, and select the network you want to crack  
+there should be a list of a lot of them, chose the one with the most IVs.
+20.You should now be connected to the desired network.
+21. Once connected use windows to display the network access code in text rather
+than hex, right click the network, select properties and tick the show charicters box.
+
+-----------------------------------------------------------------------------------
+
+WHEN YOU HAVE ADDED THE PATCHED DRIVER YOUR WI-FI CARD WILL FUNCTION AS NORMAL
+WHEN YOU ARE NOT RUNNING COMMVIEW.

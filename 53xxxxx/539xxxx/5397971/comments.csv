@@ -1,0 +1,21 @@
+User Type,Username,Date,Text
+,Nansin,2011-10-31T22:34Z,"This is a good documentary that explains just how much we do not live in Democracies. Thanks to theArchit3kt for the upoload.
+
+However, the audio is out of sync and it makes it difficult to watch/listen. For those that don't know how do the following to get the audio synchronised:
+
+1.  Download and install 'Avidemux'.
+http://avidemux.sourceforge.net/
+2. Open the movie file in Avidemux.
+3. Now look to the left side of the Avidemux window. You will see, in bold, 'Video' and 'Audio' with drop-down selection boxes.
+4. Make sure 'Video' is set to 'copy'. Make sure 'Audio' is set to 'copy'.
+5. At the bottom of that 'Audio' section you will see a check-box for 'Shift:'.
+6. Check the box and enter the value for the shift as -200 (negative/minus two-hundred).
+7. Now select menu item: File\Save\Save Video... (or just keyboard Ctrl+S)
+8. Enter a name for the video and Okay the save.
+
+That's it audio will now be in sync with the video. Sounds complicated but only takes a few seconds to do the whole thing.
+
+Hope this helps. Thanks again, theArchit3kt"
+,Nansin,2011-10-31T23:08Z,"Forgot this:
+
+2b. When asked to 'Build VBR Timemap?' click 'Yes'."

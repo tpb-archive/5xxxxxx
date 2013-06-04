@@ -1,0 +1,36 @@
+Based on http://thepiratebay.org/torrent/5021488/VMware_Mac_OSX_10.5.7, updated to 10.5.8, it now includes drivers and vmware tools (which means the screen resolution is variable and you have AUDIO) AND IT BOOTS (if you use the included bootloader).
+
+Instructions:
+
+This VMware image works on VMware workstation and player, tested on debian/GNU/Linux and windows xp.
+NOTE only works on Intel pcs with hardware virtualization enables
+
+How to get it working:
+1: install VMware player or workstation
+2: extract rar files
+3: edit the settings so it loads bootloader.img on boot (in virtual CD drive)
+4: start it
+5: do what the installer asks
+
+Password is what you tell it to be, same with username.
+
+Rearchived, reuploaded, rechecked, should work
+
+note:
+
+You MUST have:
+1. an Intel CPU:
+1.1 with Intel VT-x
+1.2 not all Intel CPUs with Intel 64 have Intel VT-x
+
+2. motherboard BIOS that supports Intel VT-x
+2.1 Intel VT-x activated in BIOS, most are disabled by default
+2.2 there are still quite a number of mobo BIOS that don't support Intel VT-x
+
+3. VMware (either one)
+3.1 VMware Workstation 7 and above
+3.2 VMware Player 3 and above
+3.3 VMware Fusion 3 and above
+3.4 not sure which version of VMware Server is required.
+
+if display is screwed up, just resize VMware window (or restore/maximize) and back, and the display should refresh itself.

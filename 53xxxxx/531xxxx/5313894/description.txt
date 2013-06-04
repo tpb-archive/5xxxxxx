@@ -1,0 +1,28 @@
+Little Snitch... A firewall protects your computer against unwanted guests from the Internet. But who protects your private data from being sent out? Little Snitch does!
+
+As soon as you're connected to the Internet, applications can potentially send whatever information they want to wherever they want.
+
+Sometimes they do this for good reason, on your explicit request. But often they don't. Little Snitch allows you to intercept these unwanted connection attempts, and lets you decide how to proceed.
+
+Little Snitch informs you whenever a program attempts to establish an outgoing Internet connection. You can then choose to allow or deny this connection, or define a rule how to handle similar, future connection attempts. This reliably prevents private data from being sent out without your knowledge. Little Snitch runs inconspicuously in the background and it can also detect network related activity of viruses, trojans and other malware.
+
+WHAT'S NEW
+Version 2.2.1:
+
+   * New rules can now be created by dragging an application icon into the rules window.
+   * Added a new Ã¬Turn into Global RuleÃ® command to contextual menu.
+   * Improved alert message when attempting to delete a protected rule.
+   * Improved detection of invalid process paths.
+   * Added Ã¬viaÃ® info to summary of Ã¬DonÃ­t show in Network MonitorÃ® rules.
+   * The Ã¬BuyÃ® button is now removed after successful registration.
+   * Fixed: Clicking in the application column didnÃ­t select all rules of this process.
+   * Fixed: Changing a ruleÃ­s Ã¬approvedÃ® status didnÃ­t immediately update the status icon.
+   * Fixed: Long hangs after accepting / editing rules.
+
+Requirements: 10.4.9 or above
+
+Link for more information: http://www.obdev.at/products/littlesnitch/index.html
+
+
+
+Thanks to Special [K] for serial and Kermit for sharing and TOBW for package - Passed 3 hour test but have not tested for 24 hours.

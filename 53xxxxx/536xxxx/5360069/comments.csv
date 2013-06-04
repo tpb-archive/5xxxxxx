@@ -1,0 +1,117 @@
+User Type,Username,Date,Text
+,drklevl,2010-02-13T23:05Z,"Thethingy : Thank you very much !
+
+And thnx for moderators :)
+"
+,drklevl,2010-02-13T23:06Z,thanx to Velvet :) anyway :)
+,basicslot,2010-02-16T14:45Z,"Hmm, all seemed to be going well with this (I have an updated Hosts file etc) but then I ran the program after following all the instructions and when I click Accept on the licence agreement the app just vanishes - no Director.exe running any more. I'm on Win7 64-bit - could that be posing problems?"
+[V],thethingy,2010-02-16T16:09Z,"whats posing problems?,,,,failure to install is a common adobe issue;
+http://thepiratebay.org/torrent/5323279"
+,basicslot,2010-02-16T16:26Z,"Thanks, but that doesn't seem to work for me either. The software is installed but it just stops running straight away when I accept the licence agreement.
+
+I've tried the various fixes in that other torrent without any luck so I guess I may have to give up on Director. Thanks anyway!"
+,basicslot,2010-02-18T00:34Z,"OK I have gone away from this and come back to it and run through all the various licence fix stuff but now whenever I run the installer I get ""Setup Error - Setup has encountered an error and cannot continue. Contact Adobe Customer Support for assistance"" at about 90% of the way through ""Checking System Profile..."". Clicking OK just quits the installer. I've tried lots of reboots and rerunnings of the Clean Install stuff but the same error just keeps coming back when I try to install. Any suggestions? Should I try a System Restore to before I first tried this yesterday or something?"
+[V],thethingy,2010-02-18T01:01Z,"yes system restore would be the best thing to do,,,this does work 100% its the same as adobe download but with serial and patch"
+,sm90,2010-02-26T19:36Z,"Hi I have installed director however i was never asked for a license key and i cannot see an option to turn off auto update, is the program still fine to use?
+thnx 4 upload ;)"
+[V],thethingy,2010-02-26T19:55Z,"its fine, when you start it it will ask for the serial, my mistake in the readme"
+,sm90,2010-02-26T20:17Z,"i have the program working though it had error 130:30 at the start and i used license recovery etc to fix it, is this maybe the reason why i wasnt asked for a serial?"
+,DaigoDJM,2010-04-17T14:18Z,"I got error. 130:3. 
+Program itself won't start.. I followed the instructions twice, but same thing happened.
+Would you give me advice, ""thethingy""?
+
+Your Adobe CS4 Master Collection torrent works great, tough! Nicely done..
+
+Thank You!"
+,chrisbowen,2010-04-26T19:41Z,"I had the same error (130:3) and I did this...
+Downloaded the LICENCE RECOVERY from thethingy but used the Licence Method 1 option.
+If you do it the way I did then it should work.
+
+1. make sure all adobe programs are closed first.
+
+2. run Licence Method 1 (as admin vista/7).
+
+3. allow files to be copied over.
+
+4. start app and install the serial again if asked.
+
+5. if problem persists (which it did for me) Search for ?amtlib.dll? in all the Adobe folders C:\Program Files\Adobe\
+   and replace all the ?amtlib.dll? files in each of the Adobe folders with the file in the 
+   downloaded.
+
+Once I did step 5, it worked and the error was fixed.
+Hope this helps :)
+"
+,mordennight,2010-07-27T19:07Z,"Hey. I tried this and I am denied access to the hosts file. I followed the instructions and it won't let me save the hosts file once I make the changes to it.
+
+Help? I really want to check out this program."
+,beuwolf777,2010-07-28T22:03Z,"@ mordennight I had the exact same prob error 130:3 did everything i could think of and in the end like you say amtlib.dll worked like a charm, just copied the one from the CS4 Master collection.
+
+Nice one fella
+
+thethingy you rock son keep on keeping on"
+,mordennight,2010-07-31T22:33Z,Okay. so how do I find this amtlib.dll file?
+,mordennight,2010-07-31T22:36Z,Cause When I searched for them in my adobe file (I have production Premium) there was one for every program. Are they all different? the same? does it matter which one I use?
+,beuwolf777,2010-08-24T23:19Z,"atlib file was part of the CS4 crack if needed i can sort it out, but if you search in google for Adobe Crack AMTLID.dll it comes up"
+,beuwolf777,2010-08-24T23:20Z,"Ok so need to proof read BEFORE I post here ya go again
+
+amtlib file was part of the CS4 crack if needed I can sort it out, but if you search in google for Adobe Crack AMTLIB.dll it comes up "
+,directordffg,2011-01-20T22:13Z,"This did not run after install on Win 7 x64 or a plain old Win XP VM; it errored with 130:3.
+
+Here's a solution I found for both 7 and XP, but it may affect other Adobe products:
+
+1. Install per thethingy's instructions.
+2. Run director to get the error.
+3. Press OK.
+4. Now backup
+x86: C:\Program Files\Common Files\Adobe
+x64: C:\Program File (x86)\Common Files\Adobe
+5. Delete
+x86: C:\Program Files\Common Files\Adobe
+x64: C:\Program File (x86)\Common Files\Adobe
+6. Run director again and you'll get the license window.
+7. Director crashes after you accept it.
+8. Director has made:
+x86: C:\Program Files\Common Files\Adobe\Adobe PCD\cache\cache.db
+x64: C:\Program Files (x86)\Common Files\Adobe\Adobe PCD\cache\cache.db
+9. Copy it somewhere safe and delete \Adobe\ again.
+10. Reinstall Director (I cba to uninstall it first).
+11. Before launching it, copy your previous cache.db over it.
+12. It should now start :)
+
+Now copy your common files\adobe back in, without cache.db ;)"
+,lum.lumenario,2011-06-03T05:41Z,"i was able to get it to open by copying the amtlib.dll. the problem is that i get the message ""a fatal error has occurred. director will quit now"" everytime i try to import or do something. is this a compatibility problem? im running on win 7 starter, 32 bit. any help? thanks"
+,AsILayDaing,2011-06-09T01:47Z,"I tried backing up and deleting the adobe folders inside both the common files, still the same error. (i ctrl+x'd the 2 folders and just placed it in the desktop)
+
+is it supposed to be backed up in a usb/hard drive of some sort?
+
+thank you very much for the free programs thethingy!"
+,antipasto,2011-10-19T04:38Z,"Have downloaded the torrent and end up with 1 unidentifiable file ""ADOBE DIRECTOR v11.5.0 [thethingy]"". Can't open it, don't if I have to unpack it and how. Can you please give me some advise?"
+,antipasto,2011-10-19T04:42Z,"Have downloaded the torrent and end up with 1 unidentifiable file ""ADOBE DIRECTOR v11.5.0 [thethingy]"". Can't open it, don't know if I have to unpack it and how. Can you please give me some advise?"
+,antipasto,2011-10-19T04:45Z,"Have downloaded the torrent and end up with 1 unidentifiable file ""ADOBE DIRECTOR v11.5.0 [thethingy]"" 113 MB. Can't open it, don't know if I have to unpack it and how. Can you please give me some advise?"
+,Gachinto,2011-11-07T23:17Z,"Thank you for the share, thethingy! Your thingys have always worked, but I've absolutely tried everything mentioned here and still can't get it to work.
+
+I did clean installation, dll overwrite, host... still it now goes directly to fatal error.
+
+Should I try and download the trial and crack it? Thank you so much for any assistance."
+,dudiro,2012-02-25T11:41Z,"Alright, signed up just to help you. If you get the 130:3 error follow these steps.
+
+1. Uninstall Director
+2. make sure internet is off
+3. reinstall director
+4. do the host thing in the directions
+5. run director
+6. enter serial number
+7. press ok
+8. close director
+9. run the activator thing
+
+It should work after that, however, I don't have internet on the computer I use it on, so you might need to do some other things. Probably just whats in thethingy directions"
+,JonnyMurphy2,2012-03-17T02:43Z,"Hi there hopefully you can help me!
+
+I downloaded this and tried to install exactly by ""thethingy's"" instructions. Unfortunately after I ran the activation blocker my internet froze during the download. Now when I try to re-download through the setup.ex Director is saying that ""One or more components of Adobe director 11.5 failed to install correctly""
+
+Can someone please help me as to how to rectify this
+
+Thanks"
+,markdavy,2012-04-10T12:11Z,"Have been able to install correctly but is asking for a serial, bit of a noob and cant seem to find one. Anyone help out?"

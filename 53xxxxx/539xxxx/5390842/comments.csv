@@ -1,0 +1,28 @@
+User Type,Username,Date,Text
+,delvair,2010-02-28T20:08Z,any english version yet?
+,toothzahn,2010-03-04T09:18Z,seed! I have only 11% downloaded
+,MisterVSX,2010-03-04T13:35Z,what shall i do with that files
+,McVilly,2010-03-09T22:58Z,"Extract them with WinRar, ofcourse (right click on .001->Open with->WinRar"
+,ncrpts,2010-05-14T16:13Z,"hey guys, i found this solution on a forum to put the game in english :
+
+Download the english demo and install. go to C:\Program Files (x86)\Kalypso\MudTV Demo\data\localization\
+Copy the folder named EN.
+
+Than paste the folder in your original folder:
+C:\Program Files (x86)\Kalypso\MudTV\data\localization
+
+or if you got steam game:
+C:\Program Files (x86)\Steam\SteamApps\common\m.u.d. tv\data\localization (not sure, but i think this is the location.)
+
+
+edit C:\Program Files (x86)\Kalypso\MudTV\default-config.cfg in notepad. if steam, use the steam location.
+
+change line: Misc.language = de
+to:
+Misc.language = en
+save en exit.
+
+Enjoy!
+
+
+this looks to work so far, but the audio of campaign intro ""movies"" could be in german after mission 2"

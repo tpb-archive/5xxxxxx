@@ -1,0 +1,203 @@
+*************************************TGCLEADER*************************************
+     
+*******************Magellan Roadmate US & CANADA 1.2 IPA ************************* 
+
+For iPhone 3G and 3GS only. (not 2G) or iPod Touch Second Generation only. (not orignal iPod Touch)
+
+This includes all the files and tools to get Magellan Roadmate 1.2 to run correctly including: WinSCP, My Modified Info.plist so that you dont get the resolution error and how to stnc the Magellan Roadmate 1.10 app to your iPhone/iPod Touch without getting an error. Just follow the instructions below or the rar file inclused the same instructions.
+
+Im not sure what this versions update 1.2 includes but I have heard from people that it drains your battery fast even if you have it plugged in and charging and they said that I would do this before but now its alot faster. But i bever really Noticed this but I also wasent paying that close attention eather. I will check on this. So some people switched back to 1.1 and like i said I dont know what this update includes.
+
+To get what all of the new features are go to the app store and review the features on the Magellan app.
+
+
+
+
+***BEFORE CONTINUING YOU MUST HAVE A JAILBROKEN IPHONE OR IPOD TOUCH FOR IPOD TOUCH IT MUST BE SECOND GENERATION 
+AND FOR IPHONE USERS IT ONLY WORKS ON 3G AND 3GS NOT 2G***
+
+
+
+HOW TO ADD THE MAGELLAN APP TO YOUR IPHONE/IPOD TOUCH 
+
+(NOTE: IF YOU ALREAD HAVE YOUR PHONE PATCHED TO 
+ALLOW PIRATED APPS ON YOUR IPHONE/IPOD TOUCH YOU CAN SKIP TO STEP 12.) 
+
+ALSO IF YOU HAVE MAGELLAN INSTALLED ON 
+YOUR IPHONE/IPOD TOUCH AND YOU ARE GETTING A RESOLUTION ERROR YOU NEED TO FOLLOW INSTRUCTIONS BELOW AFTER STEP 14.
+
+1. Go to Cydia.
+
+2. Go to manage tab.
+
+3. Go to sources.
+
+4. Click on edit.
+
+5. Click on add.
+
+6. Type ''http://cydia.hackulo.us'' (without quotes) and click add source
+
+7. It will pop up a message saying that the app is know for copyright infringement but just click continue anyways.
+
+8.once the source has been added go to the search tab.
+
+9. Type in ''AppSync'' (without quotes)
+
+10. Install AppSync.
+
+11. Once installed reset your iPhone/ iPod Touch.
+
+12. Extract the folder Winrar to the destination you can easly find the fokder and once done go in to the folder.
+
+13. Open up iTunes and drag the Magellan Roadmate 1.10 app to the applications folder or if you dont have any app in ituse there 
+wont be an applications folder  so just drag ove the Magellan app. If you already have the previous version of
+Magellan in iTunes just drag it over and it will tell you that you already have the app and if you want to replace
+and just replace it.
+
+14. Plug in your iPhone/iPod Touch and sync it. If you have a previous version installed on your iphone/iPod Touch
+you still need to sync your device so that it can update to the newest version so that you have the latest
+features. 
+
+********HOW TO FIX THE RESOLUTION ERROR FOR MAGELLAN SO THAT IT WORKS*************
+
+I have found a new way to do that that can be easier so you dont even have to be connected to wifi and us openSSH. Try it its alot better and you can do it directly off your phone. ***READ BELOW THIS TUTORIAL TO SEE HOW TO DO IT***
+
+MAKE SURE YOUR IPHONE/IPOD TOUCH HAS OPENSSH. IF IT DOESNT GO TO CYDIA AND SEARCH FOR OPENSSH AND INSTALL IT. 
+ALSO MAKE SURE YOU HAVE A WIRELESS NETWORK YOU CAN CONNECT TO AND THAT YOUR IPHONE/IPOD TOUCH AND YOUR PC IS
+CONNECTED TO THE SAME WIRELESS NETWORK.
+
+
+1. Install WinSCP.
+
+2. On your iPhone/iPod Touch go to settings.
+
+3. Turn on Wifi.
+
+4, Connect to a wireless network thats available.
+
+5. Once connected click on the blue arrow icon next to the network your connected to.
+
+6. Keep now of the IP address your connected to.
+
+7. Run WinSCP.
+
+8, In the host name field put in the IP address your connect to.
+
+9. In the username field put in ''root''(without quotes).
+
+10. In the password field enter ''alpine'' (without quotes).
+
+NOTE: if its not connecting then at some point of having OpenSSH you have changed your username and password or
+your wifi network isnt connected to the internet.
+
+11. Go to the right side and click the drop down directory list and click /.
+
+12. Go to ''Private'' folder.
+
+13. ''Var'' folder.
+
+14. ''mobile'' folder.
+
+15. ''Applications '' folder.
+
+16. Now you need to find the Magellan app folder and since the folders are named letters and numbers it might be
+difficult to find it. So the easiest way to find it is at the top of the window click changed so that it organizes
+the folders by date and if your last app you added was the Magellan app then it will be the top folder.
+
+17. Now that you are in the folder you will see ''Roademate.app''folder click that and go into the folder.
+
+18. Now look for ''Info.plist'' select that and delete it.
+
+19. Now on the left window go to the directory of where you downloaded my torrent file and drag my modified 
+''Info.plist'' into the left window in the ''Roadmate/app'' folder/
+
+20. Thats It enjoy.
+
+How to fix the resolution error a much easier way directly on your iphone or ipod touch not using Winscp.
+
+****NOTE: YOU STILL NEED APPSYNC INSTALLED BUT BY DOING IT THIS WAY IT WILL ALSO ALLOW YOU TO INSTALL APPSYNC IF YOU ALREADY DONT HAVE IT.
+
+1. Go to Cydia.
+
+2. Go to manage tab.
+
+3. Click Sources.
+
+4. Click edit button.
+
+5. Click add button.
+
+6. In the address url dont delete the http:// but continute to enter sinfuliphonerepo.com so that it looks like this ''http://sinfuliphonerepo.com/'' without quotes.
+
+7. Click add source and wait for it to add the source and refresh.
+
+8. Now if you havent already add AppSync Go to the search tab and search AppSync this allows you to download ipa files off the internet and drag them into itunes and sync them to your iphone with out errors so you can use the apps free.
+
+9. Install AppSync if you dont have it already.
+
+10. It might as you to restart your phone or something. If so do that.
+
+11. Go to Cydia.
+
+12. Click on the search tab.
+
+13. Search for iFile.
+
+14. Install iFile and if it asks you to restart or anythind do so.
+
+15. Go into iFile and now that is is is like Winscp where you can view your files and foldes on your phone so you will go to the same place as you would on opneSSH except when you go to the applications folder its now just a whole bunch of folders with random letters and numbers. Its the actual app names so its easier to find the RoadMate app but here are the steps.
+
+16. In iFile if your already not in the ''/'' directory go there now by clicking the tab in the left top corner til you are there.
+
+17. Go to ''privete''.
+
+18. ''var''.
+
+19. ''mobile''.
+
+20. ''applications''.
+
+21.  Then scroll down to the r's and find ''RoadMate'' and click into that folder.
+
+22. Now click the folder ''RoadMate.app'' and go into there.
+
+23.  Now find ''Info.plist'' and click that.
+
+24. Then at the top left corner click edit.
+
+25.Then scroll dow to the bottom and find ''SignerIdentity'' and delete that whole thing and make sure you delete all the way up so that there is no gap from the text below.
+
+26. Then below that you will see ''Apple iPhone OS Application Signing'' and you will also delete that whole text and once agaon make sure you delete all the way up so that there is no gap from the text below.
+
+27. so not it shouls read that the bottom like this:
+ MainWindow
+ UIPrerenderedIcon
+ 
+
+
+
+Not Like This:
+
+ MainWindow
+ 
+UIPrerenderedIcon
+ 
+
+
+
+28. Once you have done that click save in the top right hand corner.
+
+29. Then click done and press the home button.
+
+30. Thats it!!!!!!
+
+
+Now if you find you dont like that way which I find is much easier you can just get my modified Info.plist file i have included in this torrent and follow the steps using Winscp and delete the old one and drag in the new one.
+
+If you want to donate for all my time and effort you can do so on paypal email at tgcleader@msn.com. You can also you that email to contact me if you have any other questions or comments or just post a comment here and me or someone else will do are best to help you.
+
+
+Also i want to make a website but know just the basics of html and barely any php so and i want to make a forum site and chat. So if anyone whats to help I will make them staff.
+
+Please Seed!!!!!!		

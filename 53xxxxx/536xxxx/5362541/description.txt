@@ -1,0 +1,23 @@
+- New, more friendly GUI.
+- Auto Discovery mode. All applications/games which are in the Games directory at the root of any device will be displayed in the first screen when you launch XeXLoader. For example, if "hdd1:GamesMyGame" exists, and there is a default.xex in "MyGame", it will be shown in the first menu.
+- Enhanced File Manager (you can now Copy, Move, Paste, Delete and Create). You can display help with Back, change current device with X, open sub-menu with Y, and show only .xex with RB.
+- Overwriting is now available.
+- Progress bar when copying files/folders. You can cancel a copy with B.
+- Automatically displays selected game's theme when browsing directories
+
+* The default.xex auto-patch when copying DVDs is not included in this version. This function will be implemented for the next release.
+* Lot of bugs fixed.
+* Known bug: Some game previews could cause memory corruption (very few spotted), which can cause crashes and other weird behavior. If you encounter this, delete the files "nxeart" and "nxebg.dds" from the game directory.
+
+
+
+Install :
+
+1) Launch old version of XeXLoader. Use the file browser to copy the directory "C0DE9999" to the 360 HDD at: Hdd1://Content/0000000000000000/
+
+2) Burn CD/DVD using XeXLoader.iso. Use the file browser to copy (using the "Y" button) the directory "C0DE9999" to the 360 HDD at:
+Hdd1://Content/0000000000000000/
+
+3) Transfer Cable
+Use appropriate software to copy the directory "C0DE9999" to 360 HDD at:
+Partition3Content 000000000000000

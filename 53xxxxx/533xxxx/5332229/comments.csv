@@ -1,0 +1,32 @@
+User Type,Username,Date,Text
+,l8atnite,2010-02-04T19:38Z,"Lovely.   \Ren and Stimpy Audio All Albums with Production Music and Interview\Ren & Stimpy - Production Music\Finger of Fear.mp3
+
+has trojan downloader Win32/Lnkget.I  embedded in it  :p "
+,frit0,2010-02-09T19:24Z,"I don't know much about embedding malware, but from what google tells me if it's a virus the file itself will not play.
+
+I think you got a false positive. This came from a trusted source and the mp3 plays fine. Ran it through 2 virus scanners (one online, one local) and found nothing.
+
+A little more googling and I found this:
+What is lnkget?
+
+TrojanDownloader:Win32/Lnkget.* is a malicious Windows shortcut. Once executed, it is able to carry out actions like downloading new files (in this case malware).
+
+To be successful, it must use only executables that exist by default on any given system. However, the only executable that is really required is cmd.exe. All others can be carried by the shortcut itself. The executables must of course also be command-line executable only and must not have any user interface. One executable that is available on all Windows (non-server) operating systems versions previous to Vista is ftp.exe.
+
+The shortcut uses cmd.exe as its root process, with which it creates files and executes other processes. The file that is created is a data input file (stdin) containing the parameters and commands used by the next process to be launched. The next process to be launched is ftp.exe (see detailed example at the end).
+
+Then, the shortcut  uses the ?start? command to run the file downloaded by the ftp.exe process. For some malware shortcuts, the downloaded file is itself another script, normally a Visual Basic script, instead of an executable. The Visual Basic script, which is obfuscated, will then connect out to another ftp server and download the actual malware. Some malware shortcuts also open up Internet Explorer to certain websites that contain messages in Chinese.
+
+This completes the life of the shortcut, with the malware downloaded and now executed. Interestingly, I haven?t seen any of the malware shortcuts try to delete itself. In recent variants of the LnkGet malware family, the malware authors have implemented rudimentary obfuscation techniques. Many of the malicious shortcuts do try to masquerade themselves by using common icons for the shortcut file.
+
+Spreading Vector
+The main spreading vector of this threat is through email. These emails are spreading between email addresses with Chinese or East Asian domains like .cn or .tw.
+
+----
+
+So in other words it can't be that particular trojan, since it is not a shortcut, but an actual, working, mp3.
+
+lrn 2 internet"
+,sole_fish,2010-12-13T04:46Z,"This is great! I can finally introduce my son to the music of my youth. Actually, that sounds reeeallly sad. I feel like an eeediot! :)"
+,papermarioball,2012-04-25T04:53Z,Thanks a bunch going to make GMods now and I WILL SEED!
+,papermarioball,2012-04-25T05:40Z,Forget my previous comment I think it's weird when I pause the torrent this file keeps downloading fucking up my internet speed.... I want to yell out VIRUS!?!?!??!?!??! but I don't want to be so ummm i don't know the word? This has never happened before so watch out! (uTorrent)

@@ -1,0 +1,49 @@
+*** Small-sized 2-pass re-encode of 720p for computers (PC, Mac), PS3 or Xbox, portable and mobile devices (Ipod, Itouch) . ***
+*** Video is 480x272 H264; audio is 44.1 kHz/stereo AAC LC and container is MP4. ***
+
+WARNING: If you limit your upload speed during the download in initial seeding phase (when I am single seeder) FOR WHATEVER REASON, youâ€™ll be kicked-out for good. Whatâ€™s going to be later, I couldnâ€™t care less, and itâ€™s up to your consciousness in relation to other people. Any ratio below 1.084 for sure means death of P2P, torrents and whole idea of sharing.
+
+I am sick and tired not only of Hit&Run, but of 90% who think Iâ€™m some kind of â€œfree launchâ€ downloading service. NO â€“ ITâ€™S ABOUT SHARING. If you do not want or can or care to share, please, go someplace else. Consider this as one friendly warning. 
+Also, in the future, if I spot something like kind of gang-banging of innocents, you'll feel my response, I promise. If you are not satisfied with things I've just said, please - go away. Internet is a Big place for all of us. And don't come back. Please.
+
+Many people - even if they think otherwise - cannot make a distinction between "normal" swarm and the swarm where initial-seedeing is performed. They say "OK, 0/1 seeder"; but infact, they do not recognize all implications of joining to initial-seeding swarm. To keep it short and simple, if anyone need/wants to save on traffic - for whatever reason - better is to stay away and wait till more than four stable seeders are present. Initial swarms are for the people who CAN put upload/download speed at 1:1 ratio - all other "types of behaviour" leads to semi-catastrophic consequences, not only to individual peer, but to ALL peers in specific swarm.
+Why is that, I've explained numerous times on name-not-to-be-spoken - and I might post this Q&A part of the text here. Maybe.
+
+IMPORTANT: Torrents, especially of UK shows, are under constant and coordinated attack from British-based IP numbers. If you see number of peers with very, very similar address block them all (block range) with your firewall.
+Their MO is called â€œbyte-thrashersâ€; they aggressively pull bytes from normal peers, causing other â€œnormalâ€ peers to tag you as â€œuncooperativeâ€ since all newer torrent programs have built-in Friend or Foe mechanism. 
+Normal clients receive nothing from you (â€˜cause you gave packets to â€œgremlinsâ€) and doesnâ€™t give you back any byte â€“ simple as that. 
+Companies currently pay agencies and individuals to starve us to death (byte-wise and otherwise). Do not let them to get richer, and let us just to wave to their Jags, Porschs and yachts.
+----------------------------------------------------
+
+1st. â€“ XP users MUST use patched tcpip.sys or patch it from TCP-Z. Set on 60 half-open connections. There is a solution for Vista too. Your torrent program must be set to: accept 256 global connections, 16 (or 32), 8 upload slots per torrent, Google.
+Most of you ARE CHOKED by leechers, empty request, attacks from above dot net guys and so on and on. You are sitting ducks for them.
+
+2nd. â€“ ALL should pay a visit to their user pages of their ISP (Internet Service Provider) and look around, get informed and make adjustments. Why? Because most of the modern providers offer different services â€“ as anti-spam filtering, virus-checking of incoming mail AND firewalling. 
+Most ISPs by DEFAULT switch on firewalls â€“ 'cause of your security â€“ but this ISP firewall must be switched off (disabled) by you â€“ user. You cannot achieve decent speeds or connect at all to P2P network with activated ISP firewall. Thousands of Providers use firewall (tactic) to prevent (protect) you from misdoings. 
+
+3rd. â€“ USE ports in range 50000 to 60000, not lower (one TCP and one UDP).
+
+4th. â€“ OPEN these ports in modem/router. Google â€“ every modem/router has different procedure â€“ almost ALL of them are detailed on some site.
+
+5th. â€“ Use (as I said) YOUR firewall and antivirus. It should be 3rd party programs, not built-in ones. XP Windows users' should disable Remote Assistance, Firewall/Security Center (become useless), in Control Panel "System" and in  "Adm.Tools/Services".
+
+6th. â€“ Set your torrent programs to use Encrypted traffic ONLY â€“ and DO NOT accept (allow) unencrypted connections.
+
+7th. â€“ IF you feel like be throttled-down by ISP do following:
+	a) Apply every tip I gave above
+	b) Use uTorrent from 1.8.4 up
+	c) In "Preferences">"BitTorrent" choose in Protocol Encription "Forced" and DO NOT allow incoming legacy (unencrypted) connections (un-mark box)
+	d) In "Preferences">"Advanced" find the line bt.transp_disposition, click on line and below "Set" it to 10 (was 5) in order to force uTorrent only to use the uTP UDP protocol (specific type for uTorrent-but beware-no other torrent programs can not connect with you (only newest uTorrent 1.8.4 up and newest BiTtorrent 6.2 up), but uTorrent use 92% of people anyway).
+
+I have noticed how some of you load two or more of my torrents at the same time when I perform so called initial seeding (you can see only "1 seed").
+It's recipe for a disaster, first; you may be flagged by my server for leeching (because almost no one can sustain d/l-u/l ratio doing that), 2nd; you will "overstress" your connection â€“ and â€“ you'll be an easier target for leechers. It is just a tip, but suit yourself. Do it one by one, it looks slowlier, but in most cases it isn't.
+Usage of "rigged" and "patched" torrent programs (as from "leecher pack" ) is not recommended (or to aggressive Transmissions â€“ record is 57 requests per minute even if client can go 32 kB/s). Also, banning (kicking all other peers) from Azureus and KTorrent is not recommended. Irregular torrent clients (as Shareazes and MLDonkeys) are also not recommended. Putting initial-seed flag (there is only one who can do that â€“ me) or KEEPING YOUR UPLOAD SPEED AT MINIMUM ("'cause someone told me so" ) during the download (it is lowest kind of s*it one can do) aren't desirable.
+All these recommendations can be taken as decisions for "FOF" target rules (in short â€“ if something goes bad; not recommended ones will be kicked out first). 
+
+BiT Tornado as the fairest torrent program IS RECOMMENDED.
+
+Also, for XP, use patched tcpip.sys or patch it from TCP-Z. Your modems/routers control panel/page has ability to open designated ONE TCP and ONE UDP port for your torrent programs. Do it! 
+
+Widest acceptances today have high-numbered ports (ranging 55000-60000). Use them, 'cause uPnP in 98% cases cannot do it properly. Use 3rd party firewalls rather than built-ins, not because they are better, but they are "harder" to hack. Update virus definitions daily. Firewalls and anti-virus programs always come in some free version, use them and forget about hacked programs. 
+
+Finally, DO NOT run Windows without logging-in in created account/user and protected by password. For sure it isn't convenient, but may offer you some better protection. Also, Windows users' should disable Remote Assistance, in Control Panel and in Services. Close biggest open-house doors.

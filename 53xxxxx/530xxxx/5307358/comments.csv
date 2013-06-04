@@ -1,0 +1,131 @@
+User Type,Username,Date,Text
+,josetrate,2010-01-25T19:56Z,"Download mapsource???
+This is mapsource... so dont need install from garmin website...
+
+Or do you mean check updates??"
+,PlatinumAzz,2010-01-25T20:08Z,"Yes, download an erlier mapsource (google). This is a new mapsource version that you cant unlock maps."
+,jurijvm,2010-01-26T08:50Z,"If you're having problems sending maps to your device, remove the tile ""Badajoz, Spain"". If not, tell us, so we will download this version :)"
+,FrasseDaMan,2010-01-26T11:01Z,"The new install package for CNEU NT 2010.30 will install MapSource 6.15.10 and MapInstall 3.13.4.
+Both of the new applications have enforced high encryption locking with digital certificate files.
+
+Circumvent by making a backup of the working set of MapSource.exe and MapInstall.exe before updating. Then put back your old and working EXE-files to your Garmin directory.
+
+Now you can use JetMouse KG again even for CNEU NT 2010.30 & CNNA NT 2010.40."
+,zorza100,2010-01-27T00:24Z,"headsup:
+1) copy not only mapsource.exe and mapinstall.exe, but all files named mapsource and mapinstall to a backup directory (this is the .exe, the .dll, etc)
+2)To install, go to \IMG direcory and run the setup for your language.
+3)badajoz spain not working.
+"
+,jammeke,2010-01-27T15:58Z,MapId ???
+,kallehumla,2010-01-27T20:05Z,2200
+,josetrate,2010-01-27T22:06Z,"still can't unlock
+
+we accept the unlock code, but still locked"
+,Arlen_Ness,2010-01-28T05:45Z,"It asks to run this:
+run Setup.exe in the Windows subdirectory to begin
+the update process.
+then comes up with:
+Select the region you would like to install on your GPS.
+there is nothing in the drop down box.
+Step by step simple instructions would be appreciated as the read me text file in teh download doesn't work.. cheers in advance."
+,Arlen_Ness,2010-01-28T06:10Z,Managed to install it but the map is locked 
+,Manptv505,2010-01-28T11:24Z,For use with only pc .Try to use DEMO as licence
+,testogel,2010-01-28T14:28Z,"Tnks, working perfect, convert .gmp files to .img using proper tools and y can still use MapSource 6.13.7, then use jetmouse kg to unlock."
+,nbarch,2010-01-29T12:19Z,"The new version of mapsource requires an unlock code (Jetmouse KeyGen) and is also incorporating a new Digital Signature, may be linked to GPS firmware.
+We need Jetmouse to look at this!"
+,NUNOCORREIA,2010-01-30T10:04Z,please someone can tell me step by step how to solve the block map with the same password. it unlocks but is locked how do I solve the problem? tanks
+,natzori,2010-01-30T11:55Z,"It works! Instructions:
+- backup from 'C:\Garmin' folder these files: MapSource.exe, MapInstall.exe and all relative *.dll files;
+- install 2010.30 and unlock with jetmouse keygen;
+- recover old backuped files in 'C:\Garmin' folder;
+- run MapSource and install map on gps unit! :)
+- Badajoz region (Spain) doesn't work in complete Europe installing."
+,NUNOCORREIA,2010-01-30T14:47Z,"thank you natzori for the help.
+it works now.
+your help was very important."
+,ptja,2010-01-30T15:12Z,"Får det inte att funka. 
+Har bara Mapsource 6.15.10 kan inte backa. 
+
+I only have Mapsource 6.15.10 and i cant go back to a older version a have tried a cuple of times. 
+Any one now how to get it to work, pleace sign in a step by step guide to register the map!"
+,kallehumla,2010-01-30T17:37Z,"Tanka ner tex den här:
+http://thepiratebay.org/torrent/4871196/Garmin_MapSource_6.15.6_Special
+Sedan är det bara att ersätta din mapsource.exe"
+,kallehumla,2010-01-31T15:05Z,Tyvärr inte :-)
+,brianxxx,2010-02-01T16:45Z,"2010.40 version is out and it corrects a lot of mapping mistakes in the previous version. 
+
+It is not on this site but other sites have it so keep an eye out."
+,emisaki,2010-02-01T18:00Z,Which version do you mean? Europe or America?
+,emisaki,2010-02-01T18:02Z,"Kallehumla,hur fixade du med upplåsning kan du skriva ner instruktioner?
+Tack!"
+,Hackeenrek,2010-02-01T20:39Z,"doesn't work for me, when i try to install mapsource i need a 8-digit product key and the jetmouse keygens are much longer.
+
+where the f*ck can i find my product key or a product key generator, i have downloaded already a few garmin city navigator releases but none of them include a mapsource key or tell how to find a mapsource key..."
+,stambo98,2010-02-03T10:17Z,"You can add Badajoz, Spain after removing. Transfer the Europe map set to flash drive, transfer only Badajoz,Spain to flash drive (rename previous transfer !), use GMapTool to join Badajoz,Spain to Europe set."
+,FrasseDaMan,2010-02-04T00:32Z,City Navigator Europe NT 2010.30 Revision B is now available at myGarmin.
+,FrasseDaMan,2010-02-04T00:32Z,"@Hackeenrek
+Don't try online registration. Use Utilities, Manage Map Products... Ctrl+U. Select Unlock Regions and then Add... button."
+,FrasseDaMan,2010-02-04T00:45Z,"@natzori and all others
+Try the patched MapSource v6.15.11. Unlock with JetMouse works and creation with BADAJOZ included works.
+
+Search for it at GPS Underground or Noeman GSM among others."
+,petar2258,2010-02-04T18:26Z,"install 2010.20, backup folder Garmin where is located mapsource.exe and mapinstall.exe
+then install 2010.30 and replace folder Garmin with backup
+last version that works without problems is Mapsource 6.15.7"
+,emisaki,2010-02-06T10:55Z,@FrasseDaMan What do you mean with City Navigator NT 2010.30 Revision B is now available at myGarmin? 
+,FrasseDaMan,2010-02-07T15:39Z,"Garmin MapSource v6.15.11 special.
+
+Works well with JM KG unlocked CNNANT 2010.40 & CNNEUT 2010.30.
+
+http://thepiratebay.org/torrent/5343176/Garmin_MapSource_6.15.11_Special"
+,FrasseDaMan,2010-02-07T15:49Z,"@emisaki - About CNEUNT 2010.30b:
+
+City Navigator Europe NT 2010.30b is a new release with some corrections for lane assist additions (JCV) and language details.
+
+The ones with a lifetime subscription of City Navigator Europe NT can download the new 2010.30b from their myGarmin account. 2010.30b was released around Feb 03, 2010. Hopefully someone will share that release also.
+
+However, there's still the problem with highway A4 in northern Italy classified as urban road 50 km/h."
+,emisaki,2010-02-09T12:59Z,Let us hope that someone will upload it City Navigator Europe NT 2010.30b
+,iamsougly,2010-02-10T12:41Z,"install 2010.30 and than install 2010.20, it will overwrite map source 6.15.10 with 6.15.7. Than you can use BADAJOZ from ver. 2010.20"
+,FrasseDaMan,2010-02-10T23:05Z,"The BADAJOZ map part in southern Spain works perfectly in CNEUNT 2010.30. The problem is with the MapSource version that's not compatible with CNEUNT 2010.30. Legitimate users receive a GMA digital certificate for CNEUNT 2010.30. Trying to avoid the need ot a GMA file by using MapSource v6.15.7 makes the BADAJOZ problem to occur.
+Users unlocking with JM KG v1.5 should use MapSource v6.15.11 special patched version.
+http://thepiratebay.org/torrent/5343176/Garmin_MapSource_6.15.11_Special
+
+There's also the newer release of CNEUNT 2010.30b.
+http://thepiratebay.org/torrent/5351614/Garmin.RMU.CNEUNT.2010.30.b
+
+I'm waiting for a torrent of CNEUNT 2010.30c that was released by Garmin 8th of February. That one should correct the problem with northern Italian autostrada A4 classification error (50 km/h).
+
+"
+,zodiak06,2010-02-11T10:18Z,Can anyone plz put up a 8-digit code so I can install this?
+,emisaki,2010-02-11T10:18Z,@FrasseDaMan Have they released the newer version now of Garmin City Navigator Europe?When will they be finished with the final version? I wonder 
+,iamsougly,2010-02-11T11:20Z,"Installed mapsource 6.15.11, than replaced with ver. 6.15.11 special and nothing, map is still locked"
+,emisaki,2010-02-12T18:30Z,should have an upload it to MapSource version?
+,Kido25,2010-03-02T11:08Z,"Can anyone give me a clue as to where I find the details I need to unlock it so I can load into onto my GPSmap CS60csx. I've downloaded Jetmouse keygen but can't find the 8 digit code. Am I doing something wrong?
+
+Thanks, I'm very comfused."
+,niekb,2010-03-24T23:34Z,"Hello,
+
+I installed the programm as told in the readme file. Now the grogramma asks for a productkey (8 numbers?) Can anybody tell how to get this key? (I tried Jetmouse but nu 8 digit key there)
+
+Help me!"
+,bengt.mansson,2010-04-03T21:50Z,"Tried MapSource v6.15.11 special. Nope. Don't work. Maps are still locked. (I use XP Sp3).
+6.15.7 from a previous install works well. Could not find it at garmin's website but had it lying around somewhere."
+,tenerife1,2010-05-22T21:20Z,I am also being asked for the product key can anyone please help.
+[V],mirogster,2010-05-29T22:05Z,"I can confirm that: MapSource v6.15.11 special is not working! 
+Instead use old version 6.15.7 from here:
+
+http://thepiratebay.org/torrent/5343160/Garmin_MapSource_6.15.7_Special
+
+Combine with 
+http://thepiratebay.org/torrent/4182602/Garmin_Keygen_v1.5
+
+and  all map will be unlocked :)
+Cheerz!"
+,Digifan,2010-06-12T13:55Z,"No matter what Mapsource (special) I have tested with this torrent, I allways get the ""Incorrect Language dll file. Please reinstall Mapsource"". Is there any way to completely remove mapsource and then reinstall it or will this do any difference?"
+,Digifan,2010-06-12T14:17Z,"Do I have to execute the Setup.exe file at all in the Windows directory, or should I directly replace the Mapsource file after first ""installing"" with the .msi file? I don't get it..."
+,Digifan,2010-06-12T14:20Z,Should I execute the Setup.exe in the Windows directly at all or directly replace the mapsource.exe file after installing with the .msi file? I don't get it...
+,puuttis,2011-03-01T14:09Z,"can anyone help me  in finnish. i can´t install and unlock maps.  i have tried everything but no...
+
+in IMG folder i install CNEUT 2010 folder to my computer...what then. i come crazy with this maps fuck :D"
+,NikoH,2011-03-03T14:32Z,Digifan: your OS language have to be english or you get that error.

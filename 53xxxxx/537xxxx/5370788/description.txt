@@ -1,0 +1,145 @@
+Freestyle XBOX 360 Dashboard
+-------------------------
+
+2010/02/16
+Create by axc97c
+version 1.09
+
+-------------------------
+
+I suggest doing a "Get Data For All Games" and doing all games not just 
+incomplete ones when upgrading to this version.
+
+Features
+--------
+
+FTP Support.
+List XBOX 360, XBOX Live, Application and Emulators, and launch them.
+Support for artwork for each title, including boxart, screenshots and icon.
+Use pc to download artwork to xbox either via usb drive or ftp.
+Browse games by genre.
+Favourite games support.
+Game details including no of players, resolution, sound and online options,
+Fullscreen screenshot viewer.
+Fully skinable.
+Uses indexer to allow you to download artwork, and edit the metadata with
+each game.
+Customizable overscan.
+Source code released too.
+FTP speeds now 10Mb+ to internal HDD.
+FTP working in many more clients (see FTP info section).
+Copy DVD to USB drive or HDD. 
+View recently played games.
+Preview video for each game.
+Sounds within user interface.
+View free disk space on all drives.
+Date and Time in dashboard.
+Background Artwork.
+Add images manually using indexer.
+File Browser including copying, moving and deleting files.
+
+Installation
+------------
+
+Copy the "freestyle" folder onto either the root directory of the usb hard drive or
+xbox hard drive and launch however you like. It will work in any directory, but 
+ive only provided launch isos and packages to boot from these locations.
+
+Ive included several launch options for this release in the launch dir of the release
+
+freestyle-usb.iso - cd image to boot freestyle from usb0:freestylefreestyledash.xex
+freestyle-hdd.iso - cd image to boot freestyle from hdd1:freestylefreestyledash.xex
+
+freestyle-usb - package to boot freestyle from usb0:freestylefreestyledash.xex
+freestyle-hdd - package to boot freestyle from hdd1:freestylefreestyledash.xex
+
+To use the iso files, burn em to a disc and boot it. To use the package files so you 
+get an item on the ms dash copy the one you need to 
+Content 000000000000000C0DE9999 0007000 on your xbox hard drive.
+
+FTP
+---
+
+To make ftp work with all clients, you need to exit the config.xml file in
+the fsdata folder and set the xboxip field.
+
+Other Notes
+-----------
+
+When first launching, you will be asked if you want the dashboard data
+storing on the usb drive or xbox hdd. If you choose usb, you can run the
+indexer with the drive connected to a pc, or via ftp while its still
+connected to the xbox. If you use the internal xbox drive, you can still
+run the indexer on the xbox via ftp.
+
+Artwork wise, i have hosted all the icons i have available, so if any are
+missing let me know which. For the boxart and screenshots, the indexer 
+uses the xbox marketplace for most content. Games that arent listed use
+an alternate url for the main xbox site, but these need to be added manually
+so some may be missing. The file for this is automatically updated so
+if games have no info you can either wait for me to add them to the list or
+edit the altgames.xml file yourself.
+
+When the dash first scans your content, it takes a while as it extracts any
+icons etc it finds. This is all cached though so subsequent launches of the
+dashboard are quick.
+
+The first run of the indexer will take quite some time, as it has got a lot
+of artwork to get, so please be patient with it.
+
+Video Preview support
+---------------------
+
+Plays preview.wmv from the games artwork folder. Larger files seem to crash the
+XUI video player, so keep em to a few Mb. In the main skin, the res of the video 
+object it 354x200. Not sure what to do regarding the indexer and the video files,
+they would require quite a bit of bandwidth to host if we started creating a collection
+for everyone to download, so im open to suggestions.
+At the the moment, some files play and some crash. I have no idea what the cause is
+for this, prehaps someone can do some testing? All 3 sample wmv files with the XDK 
+play properly, and the 720p HD wmv samples from microsofts site done.
+
+Fonts
+-----
+
+The dash will look for a file called fonts.xml in your skin folder. The file contains the
+typeface names and filenames that will be loaded for use in the skin. 
+
+An example file is as follows:
+
+
+
+	
+	
+
+
+To load the font "skinNXE (List)BRLNSR.TTF" as "Berlin Sans FB"
+and "skinNXE (List)CONSTAN.TTF" as "Constantia"
+
+The fonts filename and name should be the same as you set up in the XUI Tool.
+
+Future of Freestyle Dash
+------------------------
+
+I no longer have to time to continue development of this dashboard. I may have time for
+the odd fix, but for it to continue to develop someone needs to set up a svn and project
+page and get the community developing it further. I have included the full source code
+to everything to build the dash and indexer, but if ive missed anything please let 
+me know.
+
+Thanks
+------
+
+Thanks to [coz] & Jeff, and the xedev team for the code for launching XBLA containers.
+Thanks to dstruktiv for sending me the code.
+Thanks to all feedback from 360 dashit indexer users, as this is what that
+project has turned into.
+Thanks to hfmls and ACharmedMatrix for beta testing some new stuff
+
+History
+-------
+
+v1.09	Dont download artwork thats already on the hdd
+		Support for foreign characters
+		Fixed black screen at startup
+		No skin changes so 1.08 skins will work ok

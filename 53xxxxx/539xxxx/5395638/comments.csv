@@ -1,0 +1,11 @@
+User Type,Username,Date,Text
+,ZeRaWaKH,2010-09-11T09:29Z,"Thanks, looks like a good release overall! Though there are a couple of things to point out:
+
+-Why the 24000Hz sampling rate? It'd be better just to use 48 kHz VBR (variable bit rate) (LC-)AAC and with a slightly higher target bitrate like 192 kbps. AAC is surprisingly smart with multichannel.
+
+-If IMDB is correct, the aspect ratio is 1,85:1. Using a resolution of 688x368 (crop 2&2 pixels from top & bottom) would've been a more optimal square pixel mod16 resolution. Of course since this video isn't really meant for playback on standalone (e.g. Blu-Ray) players, the ideal thing would be to resize to 708x544, crop 2&2 pixels from left&right -> 704x544 (mod16) and encode anamorphically (setting the Pixel Aspect Ratio flag 1,84:1) since software players handle aspect ratio flagged videos just fine.
+
+Sorry, I'm compulsive :p"
+,ZeRaWaKH,2010-09-11T09:38Z,^ * The video will have to be cropped from 720x576 to 720x554 first (black bars) (before the resize to 708x544 and the final crop.
+,ZeRaWaKH,2010-09-11T09:41Z,"Or maybe 720x553, I'm not really sure. Haven't been working with 1,85:1, just did some maths. Anyway, in that case it'll require using a colorspace like YUY2 or RGB for the editing."
+,yelloo,2011-02-11T02:37Z,Thanks i0.

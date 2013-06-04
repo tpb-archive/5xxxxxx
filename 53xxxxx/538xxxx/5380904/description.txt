@@ -1,0 +1,50 @@
+Acronis True Image Echo Enterprise Server 9.7.8398 + Acronis Universal Restore FULL Version -Tested & Works!
+
+For disaster recovery and system migration in both physical and virtual environments, Acronis True Image Echo Server for Windows delivers greater flexibility and value for SMBs and the Remote Office / Branch Office. Are you running an organization with mission-critical Microsoft Windows servers in one ******** and limited IT staff? How much business would you lose if these servers went down? Acronis True Image Echo Server for Windows provides comprehensive system protection and recovery of Windows servers and allows you to get back to business and minimize downtime. 
+
+Features: 
+Restore the entire Windows or Linux servers in minutes after any unforeseen event 
+Acronis Universal Restore - restore to different hardware or to a virtual server (note: requires separate add-on license) 
+Centralized remote operations are even more convenient with the New Acronis Management Console 
+Centralized remote operations â€” Are even more convenient with the New Acronis Management Console 
+New! VMware Consolidated Backup integration - reduce the load on your ESX server 
+New! Backup image encryption 
+New! Multi-volume snapshots - Permits you to back up data located on multiple volumes 
+New! Convert image files to VMDK or VHD for instant virtualization - Supports major virtualization operating systems from VMware, Microsoft, SWsoft and Parallels 
+New! Dynamic disk support 
+New! Wider hardware compatibility - Including SAS drives, Wake on LAN, and tape libraries support 
+New! Improved Scheduling and Notifications - Including event-driven backups, periodic backup validations, and schedule cloning 
+Remote unattended restores with the Acronis bootable agent - Recover all systems in the network from a central ******** 
+Modify images - Mount images in read/write mode and apply changes directly 
+Boot from an image, using Acronis Active Restore (a patent pending technology) Decrease downtime by allowing systems to be used during a recovery 
+Enhanced database support - Online backup of servers with the mission critical databases, such as Microsoft Exchange Server, Microsoft SQL Server, Oracle, and more 
+Automatic image verification 0 - Peace of mind by ensuring that images can be used for restoration 
+Differential backups - Decrease the number of backups you manage 
+Data backups, in addition to our traditional image backups 
+Exclude files from backups - Capture only business data and saves space in storage archives 
+Windows Event Log and SNMP support - Plug into your existing network monitoring application 
+Custom scripts before/after backups - Facilitate compliance with company-wide backup policies 
+Throttling to control hard disk write speed and network bandwidth usage â€” Minimize disruptions of business operations 
+Create CDs with bootable images, PXE packages, and bootable recovery media ISOs - Eliminate the need to have separate recovery media and provide flexibility for application management 
+
+Release Notes for Acronis True Image Echo Workstation Build 8398 
+
+New features: 
+Sendsysinfo: a command-line utility located on Acronis bootable media that gathers and e-mails system information. 
+
+Fixed issues: 
+Archive deletion in the Acronis Secure Zone does not work correctly. (After deletion of any backup all backups and archives created later are also deleted). 
+Acronis Universal Restore cannot be installed on a machine with Acronis True Image agent installed. 
+It is not possible to protect the Acronis Secure Zone with a password. 
+Acronis Bootable Agent cannot be placed on Acronis Bootable rescue media. 
+Backup of a system logical volume fails if one backs it up as an SDA device. 
+The One-click restore option does not find an archive on Acronis bootable media if bootable media is loaded in a USB-attached CD/DVD drive. 
+Acronis True Image fails to convert a *.tib image containing Microsoft Windows x64 to Hyper-V. 
+A RegSvr32 warning message appears during the Acronis Secure Zone creation. 
+Acronis Startup Recovery Manager cannot be activated in Acronis True Image Agent for Linux. 
+Acronis Group Server duplicates log entries for an archive. 
+An error occurs when one creates a backup ******** folder on the Backup Server. 
+
+Known issues: 
+Acronis Startup Recovery Manager cannot be deactivated without the Acronis Secure Zone. 
+Acronis Bootable rescue media cannot manage image archives created in the Acronis Secure Zone under the Windows operating system. 
