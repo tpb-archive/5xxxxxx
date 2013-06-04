@@ -1,0 +1,143 @@
+[align=center]
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showforum=395][IMG]http://img21.imageshack.us/img21/8945/freeculture.gif[/IMG][/URL]
+[/align]
+
+26th Chaos Communication Congress - Here be dragons 
+[IMG]http://events.ccc.de/congress/2009/wiki/skins/herebedragons/img/26C3_topbar.jpg[/IMG]
+[URL=http://events.ccc.de]http://events.ccc.de[/URL]
+
+Speakers[URL=http://events.ccc.de/congress/2009/Fahrplan/speakers/2588.en.html]	Mike Brennan[/URL]
+Schedule
+Day 	Day 2 - 2009-12-28
+Room 	Saal1
+Start time 	16:00
+Duration 	01:00
+Info
+ID 	3468
+Event type 	Lecture
+Track 	Science
+Language used for presentation 	English
+
+Privacy e Stilometria
+
+Attacchi Pratici Contro le Tecniche di Risconoscimento dell'Autore
+
+Il riconoscimento dell'autore basato sulla linguistica (conosciuto anche come Stilometria) ha contribuito a chiarimenti storici e letterari. Questi successi hanno portato all'uso di queste tecniche nelle indagini criminali e nelle ricerche di essi. La Stilometria, comunque, puo' anche essere usata per infrangere la privacy di individui che vogliono solo pubblicare documenti in forma anonima. La nostra ricerca dimostra come vari tipi di attacchi possono ridurre l'efficacia delle tecniche stilometriche, portandole ad un livello di ipotesi casuali o peggio. Questi risultati sono resi piu' significativi dal fatto che i soggetti degli esperimenti non erano famigliari con le tecniche stilometriche, non avevano conoscienze specializzate nella linguistica ed hanno impiegato poco tempo per realizzare gli attacchi. Questo talk esaminera' anche i modi in cui il riconoscimento dell'autore (detto anche Stilometria) puo' essere usato per annullare la privacy e l'anonimato e come questi attacchi possono essere usati per mitigare questa minaccia. Trattero' anche i nostri progressi attuali fatti nello stabilire un vasto corpus di campioni di scritture e di attack data e la creazione di un tool che possa aiutare gli autori a preservare la loro privacy nelle pubblicazioni anonime.
+
+All'origine la ricerca fu motivata dall'idea di usare la stilometria, che e' lo studio del riconoscimento dell'autore basato sullo stile linguistico, per aumentare la sicurezza. Puo' la stilometria essere usata come un aiuto per verificare l'identita' di un' utente? Il primo passo era vedere come la stilometria resisteva di fronte ad attacchi avversi. Abbiamo sviluppato due attacchi e scoperto che sono devastantemente efficaci contro i vari metodi di stilometria. Questo ha cambiato il nostro obiettivo di ricerca dal cercare di capire come la stilometria possa aumentare la sicurezza verificando un'identita' in: come attaccare la stilometria possa aumentare la sicurezza aiutando autori anonimi a mantenere la loro privacy e proteggere la loro identita'.
+
+Questa ricerca presenta un framework per attacchi avversi includendo attachi di offuscamento, dove un soggetto cerca di nascondere la propria identita' ed attacchi ad imitazione, dove un soggetto tenta di incastrare un alro soggetto imitandone lo stile di scrittura. Il maggior risultato di questa ricerca e' che dimostra che entrambi gli attacchi funzionano molto bene. L'attacco ad offuscamento riduce l'efficacia delle tecniche a livelli di ipotesi casuali e l'attacco ad imitazione ha successo con una probabilita' del 68-91% a seconda della tecnica stilometrica usata. Questa ricerca inoltre fornisce un'altro importante contributo al campo usando soggetti umani per validare empiricamente che queste tecniche attuali (senza attacchi) sono altamente accurate riproducendo risultati per tre metodi silometrici rappresentativi.
+
+Il talk esamina la minaccia che la stilometria puo' porre all'anonimato, e cosa si puo' fare al riguardo. Si danno consigli su come offuscare il tuo stile di scrittura basato su cio' che si e' appreso dai soggetti in questo studio. Il talk discutera' anche il lavoro attuale per creare uno strumento che aiuti gli autori a nascondere i loro stili di scrittura. Questo strumento usera' un largo corpus di scritti e di attacchi esistenti, in molti linguaggi, assieme ad una varieta' di tecniche stilometriche basate su diversi aspetti e metodi di machine learning (IA). Facciamo anche una richiesta di aiuto agli ascoltatori e lettori di questa ricerca per partecipare alla creazione di questo corpus in molteplici linguaggi in modo che il tool possa essere utile a piu' autori possibili.
+
+Allegato:
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1485_Mike%20Brennan%20-%20Privacy%20and%20Stylometry.ppt]    * (application/octet-stream - 1.4 MB)[/URL]
+
+Links
+
+[URL=http://www.cs.drexel.edu/~mb553/]    * Michael Brennan[/URL]
+
+EN:
+
+Privacy & Stylometry
+
+Practical Attacks Against Authorship Recognition Techniques
+
+Authorship recognition based on linguistics (known as Stylometry) has contributed to literary and historical breakthroughs. These successes have led to the use of these techniques in criminal investigations and prosecutions. Stylometry, however, can also be used to infringe upon the privacy of individuals who wish to publish documents anonymously. Our research demonstrates how various types of attacks can reduce the effectiveness of stylometric techniques down to the level of random guessing and worse. These results are made more significant by the fact that the experimental subjects were unfamiliar with stylometric techniques, without specialized knowledge in linguistics, and spent little time on the attacks. This talk will also examine the ways in which authorship recognition can be used to thwart privacy and anonymity and how these attacks can be used to mitigate this threat. It will also cover our current progress in establishing a large corpus of writing samples and attack data and the creation of a tool which can aid authors in preserving their privacy when publishing anonymously.
+
+This research was originally motivated by the idea of using stylometry, which is the study of authorship recognition based on linguistic style, to increase security. Could stylometry be used as an aid for verifying the identity of a user? The first step was to see how stylometry held up against adversarial attacks. We developed two attacks and found that they were devastatingly effective against various methods of stylometry. This turned our goal for the research from looking at how stylometry could increase security by verifying an identity to how attacking stylometry can increase security by helping anonymous authors maintain their privacy and protect their identity.
+
+This research presents a framework for adversarial attacks including obfuscation attacks, where a subject attempts to hide their identity and imitation attacks, where a subject attempts to frame another subject by imitating their writing style. The major contribution of this research is that it demonstrates that both attacks work very well. The obfuscation attack reduces the effectiveness of the techniques to the level of random guessing and the imitation attack succeeds with 68-91% probability depending on the stylometric technique used. This research also provides another significant contribution to the field in using human subjects to empirically validate the claim of high accuracy for current techniques (without attacks) by reproducing results for three representative stylometric methods.
+
+The talk examines the threat that stylometry can pose to anonymity, and what can be done about it. Advice is offered on how to obfuscate your writing style based on what was learned from the subjects in this study. The talk will also discuss current work to create a tool that helps authors hide their writing style. This tool will use a large corpus of existing writing and attack passages in multiple languages along with a variety of stylometric techniques based on different features and machine learning methods. A call for help is also put out to the listeners and readers of this research to participate in the creation of this corpus in multiple languages so the tool can be helpful to as many authors as possible.
+Attached files
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1485_Mike%20Brennan%20-%20Privacy%20and%20Stylometry.ppt]    * (application/octet-stream - 1.4 MB)[/URL]
+
+Links
+
+[URL=http://www.cs.drexel.edu/~mb553/]    * Michael Brennan[/URL]
+
+
+[ Info sul file ]
+
+Nome: 26c3-3468-de-privacy_amp_stylometry.mp4
+Data: 14/01/2010 02:17:09
+Dimensione: 685,147,653 bytes (653.408 MB)
+
+[ Info generiche ]
+
+Durata: 00:58:21 (3501.08 s)
+Tipo di contenitore: MP4/MOV
+Major brand: ISO Base Media version 512
+Compatible brands: JVT AVC
+Data creazione: 1/01/1970 00:00:00 UTC
+Data modifica: 1/01/1970 00:00:00 UTC
+Streams totali: 2
+Tipo stream n. 1: video (avc1) {VideoHandler}
+Tipo stream n. 2: audio (AAC Low complexity) {SoundHandler}
+Audio streams: 1
+
+[ Dati rilevanti ]
+
+Risoluzione: 720 x 576
+Larghezza: multipla di 16
+Altezza: multipla di 32
+
+[ Traccia video ]
+
+Codec: avc1
+Risoluzione: 720 x 576
+Frame aspect ratio: 5:4 = 1.25
+Pixel aspect ratio: 25777493:23592960 = 1.092592
+Display aspect ratio: 25777493:18874368 = 1.365740
+Framerate: 25 fps
+Frames totali: 87527
+Bitrate: 1497.327777 kbps
+
+[ Traccia audio ]
+
+Codec: AAC Low complexity
+Bitrate: 63.996988 kbps
+Canali: 1
+Frequenza: 44100 Hz
+
+[ Info sulla codifica H.264 ]
+
+SPS id: 0
+  Profile: Baseline@L3
+  Num ref frames: 1
+  Aspect ratio: Custom pixel shape (59:54 = 1.092592)
+  Chroma format idc: YUV 4:2:0
+PPS id: 0 (SPS: 0)
+  Codifica entropica: CAVLC
+  Weighted prediction: No
+  Weighted bipred idc: No
+  8x8dct: No
+
+[ Profile compliancy ]
+
+Profilo da testare: MTK PAL 6000
+Risoluzione: Ok
+Framerate: Ok
+Avvertenza: Se vuoi un rapporto piÃ¹ completo e preciso clicca su "Analisi DRF"
+
+Rapporto generato da AVInaptic (18-11-2007) in data 14 gen 2010, h 15:44:56
+
+
+
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/event-3652-128x128.png[/IMG]
+
+Banda: 20kB/s 24/24 7/7 fino ad assestamento della release
+
+se vi piace questa release forse vi interesseranno anche le atre mie rel:
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?act=allreleases&st=0&filter=gioacchino2&sb=1&sd=0&cat=0&mid=294618]http://forum.tntvillage.scambioetico.org/t...&mid=294618[/URL]
+
+nota: in questi giorni il download e' abbastanza veloce (OLTRE 300kB/s ) siccome c'e' molta gente in DHT e su altri trackers
+
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/conference-128x128.png[/IMG]
+
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showtopic=198053]link[/URL]

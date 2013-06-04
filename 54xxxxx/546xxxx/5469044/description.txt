@@ -1,0 +1,59 @@
+The DiRT 2 1.1 patch is meant to improve performance on NVidia GPU based systems, the full list of changes is listed below.  The 1.1 patch was released March 2010.
+
+Also included is the RELOADED crack for this patch - as usual unzip and copy these files to your install directory once you have run the patch.
+
+Tested and working on Vista 64 SP2.
+
+
+-----DiRT2 Patch Change Notes----- 
+
+Bug Fixes 
+
+Graphics 
+
+â€¢ Shadow quality setting of â€œlowâ€ is now correctly saved instead of resetting to â€œmediumâ€ Combinations of both high resolutions and high MSAA levels have been restricted on graphics cards with low memory to prevent issues found with those settings 
+â€¢ Added missing function key icons 
+â€¢ Fixed several lighting artefacts in night races 
+â€¢ Fixed missing initial load screen on multi-GPU setups under DX11 
+â€¢ Alt+Tab and Alt+Enter are now better supported under DX11 
+â€¢ Benchmark mode now correctly applies custom settings 
+â€¢ Fixed missing text in benchmark mode pause menu 
+â€¢ Fixed a crash when changing multisampling mode 
+â€¢ Fixed flickering text on stats screen in network mode 
+â€¢ Improved image sharpness in DX9 
+â€¢ Fixes to improve NVIDIA 3D Vision support 
+â€¢ Better default graphics options are chosen when running the game for the first time with a GeForce 8400 GS 
+
+Audio 
+
+â€¢ Fixed an issue where replay music would suddenly cut in when navigating a replay at very slow speeds 
+â€¢ Ensured that OpenAL is properly shut down when exiting the game using Alt+F4 
+â€¢ Prevented reverb cutting in and out abruptly on the Utah tracks 
+
+Gameplay 
+
+â€¢ Fixed player being able to drive through the ground on the Rewang Trailblazer track 
+â€¢ Fixed wall-riding on Battersea routes 
+â€¢ Bug-fixes for LA Stadium, Malaysia Rally and Baja Rally tracks 
+
+General 
+
+â€¢ Fixed a rare crash during the loading sequence 
+â€¢ Fixed an issue in the Russian language version where the default player name is missing from the one-to-watch sequence 
+â€¢ Fixed an issue where loading and saving would fail if multiple controllers were connected 
+â€¢ Fixed a crash which could occur when entering the first race using a motion platform 
+
+Changes 
+
+â€¢ Removed 16x quality coverage sampled anti-aliasing support 
+â€¢ Added support for MS Sidewinder Force-Feedback USB Wheel 
+â€¢ Added support for Logitech Driving Force USB Wheel 
+â€¢ Added support for Logitech Cordless RumblePad 2 USB controller 
+â€¢ Machines with 6 cores will now use the 4-core worker map rather than the single core map 
+
+Optimisations 
+
+â€¢ Optimised shadow rendering 
+â€¢ Optimised CPU performance on machines with SMT and multiple cores 
+â€¢ Improvements to frame-rate fluidity and triple-buffering support 
+

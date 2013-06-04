@@ -1,0 +1,57 @@
+User Type,Username,Date,Text
+,dannbeau,2010-04-07T18:01Z,so this works?
+,MartanElite,2010-04-07T21:47Z,"Yes, but the 4.1 version is now released in the forum. But this works."
+,dariian,2010-04-10T04:49Z,"Yes it's working..just instal after [url]
+http://thepiratebay.org/torrent/5418171/Assassins_Creed_2_Patch_v1.01_US[/url]
+
+the edit the HOST file ubicated in C:\windows\system32\drivers\etc
+
+put this lines on the bottom of the file...
+
+127.0.0.1       static3.cdn.ubi.com
+127.0.0.1       ubisoft-orbit.s3.amazonaws.com
+127.0.0.1       onlineconfigservice.ubi.com
+127.0.0.1       orbitservice.ubi.com
+127.0.0.1       ubisoft-orbit-savegames.s3.amazonaws.com
+
+save.
+
+
+go to Star - Run type ""ipconfig /flushdns"" 
+whitout "" press enter.
+
+the run server.exe inside this file let it open and then run game.exe.
+
+Si funciona primero instalar este parche  [url]
+http://thepiratebay.org/torrent/5418171/Assassins_Creed_2_Patch_v1.01_US[/url]
+
+luego siguen esta ruta  C:\windows\system32\drivers\etc
+
+abren el archivo HOST y copian estas lineas al fnial de archivo y guardan.
+
+127.0.0.1       static3.cdn.ubi.com
+127.0.0.1       ubisoft-orbit.s3.amazonaws.com
+127.0.0.1       onlineconfigservice.ubi.com
+127.0.0.1       orbitservice.ubi.com
+127.0.0.1       ubisoft-orbit-savegames.s3.amazonaws.com
+
+luego van a inicio ejecutar ""ipconfig /flushdns""  sin comillas presionan enter. luego abren el archivo server dentro de este archivo y lo dejan abierto luego ejecutar el game.exe y juegan
+thanks MartanElite
+
+"
+,didah,2010-04-11T14:56Z,"i copied everything into the host file, ran the ipconfig thing, started the server but still cant play - i get the message u need to be connected to the internet... also in server.txt i get ""2010-04-11 14:44:36,312 - root - ERROR - Couldn't bind to port 80, do you already have a web server running at that port?"" well, i dont....."
+,MartanElite,2010-04-11T20:01Z,"@didah You need to close Skype, MSN and other things that can disturb the server"
+,didah,2010-04-12T10:31Z,"tnx martan, got a step further ;) now it asks me for a serial.... sry for being noobish, but i tried to follow instrucions as good as possible ;)
+
+so i copy the content to my host file, run ipconfig / flushdns, close skype and stuff, start server.exe and run the game? thats it?"
+,MartanElite,2010-04-12T15:11Z,@didah I think that you can use any Serial and any Account name. As long as you don't change the account name. Then your save will disappear. I used a crack and registred before. But you won't need a crack anymore.
+,commmander,2010-04-13T20:39Z,"oh so create game
+started today and middle of second sequence
+huge thanks for this"
+,dont_ask,2010-04-16T03:02Z,This server is awesome works 100%
+,sior9,2011-04-30T10:42Z,can't connect to the master launcher....what should i do?help..
+,herra0,2011-06-28T16:25Z,"When i try to launch it it just says checking assassins creed 2 installation and doesnt move. HELP PLEASE!!! 
+
+
+http://thepiratebay.org/torrent/5500416/Assassins_Creed_2_Launcher_%28Crack%29"
+,gabru420,2011-12-31T07:09Z,thanks:)

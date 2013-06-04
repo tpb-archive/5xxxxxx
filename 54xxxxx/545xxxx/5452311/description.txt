@@ -1,0 +1,166 @@
+[align=center]
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showforum=395][IMG]http://img21.imageshack.us/img21/8945/freeculture.gif[/IMG][/URL]
+[/align]
+
+26th Chaos Communication Congress - Here be dragons 
+[IMG]http://events.ccc.de/congress/2009/wiki/skins/herebedragons/img/26C3_topbar.jpg[/IMG]
+[URL=http://events.ccc.de]http://events.ccc.de[/URL]
+
+Speakers[URL=http://events.ccc.de/congress/2009/Fahrplan/speakers/2201.en.html]	Davor Emard[/URL]
+Schedule
+Day 	Day 1 - 2009-12-27
+Room 	Saal3
+Start time 	21:45
+Duration 	01:00
+Info
+ID 	3696
+Event type 	Lecture
+Track 	Making
+Language used for presentation 	English
+
+Trasferimento senza fili della corrente elettrica
+
+La conoscenza dimenticata: Tesla invento' l'alimentazione wireless
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/event-3696-128x128.png[/IMG]
+
+L'alimentazione wireless e' una delle tecnologie piu' desiderate. Era gia' stata inventata da Nikola Tesla nel 1888. Lo speaker ha letto le carte, e riprodotto i risultati teorici e pratici. L'idea teorica per ottenere una trasmissione altamente efficente di corrente, senza fili, e' quella di separare il campo elettrico da quello magnetico, siccome le linee di campo magnetico sono curve chiuse vicino al dispositivo, mentre le linee a campo elettrico raggiungono l'infinito e il ricevitore necessita solo di una massa comune (la terra). Questo viene fatto per via di requisiti speciali per le antenne del mittente e del ricevente (forma della bobina).La forma dell'antenna e' stata modellata nel software nec2 (variante xnec2c su debian). Una bottiglia PET a basso costo serve come involucro per la bobina. Circa 200 bobine di cavo di rame isolato vengono applicate manualmente alla bottiglia. E' stato raggiunto un raggio di trasmissione di 10 metri, la corrente usata e' 100mW, dal generatore di segnale com ampiezza 10V e frequenza di 1MHz. Anche questo verra' mostrato nel talk.
+
+La Trasmissione Wireless di Energia altamente efficente, ad alta potenza e lunga distanza, di Tesla e' ancora un mistero per la nostra tecnologia. Per meglio comprendere le sue affermazioni sulla possibilita' di trasmettere corrente elettrica ad ogni distanza sulla terra con dispersioni insignificanti, e per vedere quali sfide cio' pone alla tecnologia atttuale, sono stati costruiti due semplici prototipi di Tesla Magnifier.
+
+Per la costruzione dei prototipi e' stata necessaria con materiali moderni la comprensione del principio di funzionamento.Tutti i dati erano prontamente disponibili su Internet: i brevetti originali di Tesla e gli articoli dal 1891 al 1919 riguardanti alla trasmissione wireless dell'energia. L'informazione ha portato ad un calcolo ottimale della geometria per un Tesla Magnifier, un tipo di antenna risonante usato per la trasmissione e/o ricezione di corrente.
+
+Nel protoripo replicato la modalita' di oscillazione e' stata determinata misurando la fase e la magnitudo della corrente e voltaggio sulla linea di alimentazione del "magnifier" [scusate la traduzione lacunosa.. non sono un elettricista :-) ]
+
+Sono state notate alcune condizioni elettriche inaspettate che sono state riprodotte accuratamente usando modelli computerizzati in SPICE (simulazione di circuiti elettronici) e NEC2 (visualizzazione del campo elettromagnetico e simulazione dell'antenna).
+
+La simulazione ha rivelato la geometria del campo attorno al Tesla Magnifier ed essa e' differente dal campo circostante le antenne radio ordinarie (che irradiano onde elettromagnetiche trasversali) e potrebbe essere un indizio per trasferimenti di energia su scala planetaria piu' veloci della luce che Tesla ritenne possibili nei suoi progetti e articoli.
+
+File Allegati
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1424_electric-field.jpg]    * Il Ricevitore Interrato ha un Alto Campo Elettrico (image/jpeg - 389 KB)[/URL]
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1423_remote-led.jpg]    * Il Ricevitore Interrato alimenta 2 LEDs a distanza (image/jpeg - 402 KB)[/URL]
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1446_wireless.pdf]    * Carte per le Procedure  (application/pdf - 371 KB)[/URL]
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1422_wireless.jpg]    * Tesla Magnifier in Azione  (image/jpeg - 105.2 KB)[/URL]
+
+Links
+
+[URL=http://peswiki.com/index.php/Directory:Konstantin_Meyl]    * prof. dr. Konstantin Meyl usa e spiega il sistema wireless di Tesla[/URL]
+[URL=http://en.wikipedia.org/wiki/Nikola_Tesla]    * Riguardo Nikola Tesla[/URL]
+[URL=http://www.teslascience.org/]    * Links e Novita'[/URL]   * Il Vero Wireless, by Nikola Tesla, pieno di importanti informazioni[/URL]
+
+
+EN: 
+
+
+Wireless power transfer
+
+Forgotten knowledge: Tesla invented wireless power
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/event-3696-128x128.png[/IMG]
+
+Wireless power is a most wanted technology. It has already been invented by Nikola Tesla in 1888. The speaker read the papers, reproduced the theoretical and practical results. The theoretical idea to get highly efficient wireless power transmission is to separate the electric from the magnetic field, because magnetic field lines are closed curves near the device, while the electric field lines reach to infinity and receiver only needs common ground (the earth). This is done by special requirements to the sender and receiver antennas (form of the coil). The antenna form has been modeled in the software nec2 (variant xnec2c on debian). A lowcost PET bottle serves as the hull of the coil. Around 200 windings of insulated copper wire are manually applied to the bottle. A transmission in the range of 10 meters was reached, the power used is 100mW, from signal generator amplitude 10V and 1 MHz frequency. This will be shown.
+
+Tesla Long Distance High-Power and High-Efficiency Wireless Energy Transmission is still a mystery to our technology. To better understand his claims that power can be transmitted to any distance on Earth with insignificant losses, and to see what challenges does this pose to the current technology, two simple prototypes of Tesla Magnifier have been built.
+
+Understanding of the working principle was needed to build the prototypes with modern materials. All data was readily available on Internet: original Tesla's patents and articles from 1891-1919 related to wireless energy tramission. Information have led to optimal calculation of geometry for a Tesla Magnifier, a kind of resonant antenna used to transmit and/or receiver power.
+
+In replicated prototype the oscillatory mode has been determined by measuring phase and magnitude of current and voltage at magnifier's feed line.
+
+Some unexpected electrical conditions have been observed which were accurately reproduced using computer models in SPICE (electronic circuit simulation) and NEC2 (antenna simulation and electomagnetic field visualization).
+
+Simulation has revealed geometry of the field around the Tesla Magnifier and it differs from the field around ordinary radio antenna (which radiates transversal electromagnetic wave) and could be a clue for faster-than-light energy transfer on planetary scale which Tesla claimed in his patents and articles.
+Attached files
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1424_electric-field.jpg]    * Grounded Receiver has High Electric Field (image/jpeg - 389 KB)[/URL]
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1423_remote-led.jpg]    * Grounded Receiver Powers 2 LEDs Remotely (image/jpeg - 402 KB)[/URL]
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1446_wireless.pdf]    * Paper for Proceedings (application/pdf - 371 KB)[/URL]
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1422_wireless.jpg]    * Tesla Magnifier in Action (image/jpeg - 105.2 KB)[/URL]
+
+Links
+
+[URL=http://peswiki.com/index.php/Directory:Konstantin_Meyl]    * prof. dr. Konstantin Meyl uses and explains Tesla wireless system[/URL]
+[URL=http://en.wikipedia.org/wiki/Nikola_Tesla]    * About Nikola Tesla[/URL]
+[URL=http://www.teslascience.org/]    * Links and news[/URL]   * The True Wireless by Nikola Tesla, full of important info[/URL]
+
+
+
+[ Info sul file ]
+
+Nome: 26c3-3696-en-wireless_power_transfer.mp4
+Data: 9/01/2010 02:34:06
+Dimensione: 703,251,193 bytes (670.673 MB)
+
+[ Info generiche ]
+
+Durata: 00:59:54 (3593.72 s)
+Tipo di contenitore: MP4/MOV
+Major brand: ISO Base Media version 512
+Compatible brands: JVT AVC
+Data creazione: 1/01/1970 00:00:00 UTC
+Data modifica: 1/01/1970 00:00:00 UTC
+Streams totali: 2
+Tipo stream n. 1: video (avc1) {VideoHandler}
+Tipo stream n. 2: audio (AAC Low complexity) {SoundHandler}
+Audio streams: 1
+
+[ Dati rilevanti ]
+
+Risoluzione: 720 x 576
+Larghezza: multipla di 16
+Altezza: multipla di 32
+
+[ Traccia video ]
+
+Codec: avc1
+Risoluzione: 720 x 576
+Frame aspect ratio: 5:4 = 1.25
+Pixel aspect ratio: 25777493:23592960 = 1.092592
+Display aspect ratio: 25777493:18874368 = 1.365740
+Framerate: 25 fps
+Frames totali: 89843
+Bitrate: 1497.268143 kbps
+
+[ Traccia audio ]
+
+Codec: AAC Low complexity
+Bitrate: 63.996619 kbps
+Canali: 1
+Frequenza: 44100 Hz
+
+[ Info sulla codifica H.264 ]
+
+SPS id: 0
+  Profile: Baseline@L3
+  Num ref frames: 1
+  Aspect ratio: Custom pixel shape (59:54 = 1.092592)
+  Chroma format idc: YUV 4:2:0
+PPS id: 0 (SPS: 0)
+  Codifica entropica: CAVLC
+  Weighted prediction: No
+  Weighted bipred idc: No
+  8x8dct: No
+
+[ Profile compliancy ]
+
+Profilo da testare: MTK PAL 6000
+Risoluzione: Ok
+Framerate: Ok
+Avvertenza: Se vuoi un rapporto piÃ¹ completo e preciso clicca su "Analisi DRF"
+
+Rapporto generato da AVInaptic (18-11-2007) in data 23 gen 2010, h 05:48:51
+
+
+Banda: 20kB/s 24/24 7/7 fino ad assestamento della release
+
+se vi piace questa release forse vi interesseranno anche le atre mie rel:
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?act=allreleases&st=0&filter=gioacchino2&sb=1&sd=0&cat=0&mid=294618]http://forum.tntvillage.scambioetico.org/t...&mid=294618[/URL]
+
+nota: in questi giorni il download e' abbastanza veloce (OLTRE 300kB/s ) siccome c'e' molta gente in DHT e su altri trackers
+
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/conference-128x128.png[/IMG]
+
+
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showtopic=199103]link[/URL]
+

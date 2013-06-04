@@ -1,0 +1,48 @@
+
+Install Fedora 12 From usb(HOW TO FORCE BRUTE BOOT USB from grub boot-loader)
+
+This tutorial was writen just to show you that you can force the usb to boot from your pc, if your pc can't boot form usb.
+
+Fro Linux users only
+
+Requirements:
+1GB USB stick
+A pc with Linux OS
+And The ISO Fedora 12 Image
+and that's it
+
+
+We need first to download the liveusb-creator form this site 
+https://fedorahosted.org/liveusb-creator/
+Once you downloaded the liveusb-creator, and installed it open it and extract the ISO image on your usb 
+All done 
+
+Now The tricky part
+Open The syslinux folder on the USB you just extracted and open syslinux.cfg and you should see these lines(Not all writen here just the one we need)
+
+append initrd=initrd0.img root=live:UUID=B07A-F99F rootfstype=vfat rw liveimg overlay=UUID=B07A-F99F quiet  rhgb rd_NO_LUKS rd_NO_MD noiswmd 
+
+Now you can see clearly there my USB UUID, wich is UUID=B07A-F99F
+now yours should be different, write your UUID like this on paper so you 
+have it for later.
+
+All we need is this line..
+
+root=live:UUID=hereyourUSBnumber rootfstype=vfat rw 
+
+Now insert USB on your PC
+Now reboot your system and from boot-loader command line
+you have to type this at the boot menu
+
+kernel /syslinux/vmlinuz0 root=live:UUID=hereyourUSBnumber rootfstype=vfat rw
+initrd /syslinux/initrd0.img root=live:UUID=hereyourUSBnumber rootfstype=vfat rw
+boot
+
+You should be able to boot and get Fedora menu, where you can install it to your hard drive...
+
+
+If you have problems plase comment, and be specific about it
+
+Brought to you by Dummy-Team.
+
+My spieling is awfuller

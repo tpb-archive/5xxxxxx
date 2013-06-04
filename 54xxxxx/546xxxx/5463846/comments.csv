@@ -1,0 +1,108 @@
+User Type,Username,Date,Text
+,nox150690,2010-03-27T01:07Z,"Please note that I have uploaded a separate crack, for those who have already downloaded the game."
+,userloader,2010-03-28T01:43Z,"noxxx?need help mate!i cannot save it !!!when i saved that game and next time i wanted to play from that last point ,BUT THERE WASNT ANY savegame"
+,nox150690,2010-03-28T04:43Z,"I have had this problem before too, sometimes you need to save the game several times for it to register. Once you have done this, it should save the game.
+
+If this is your first save (starting from the beginning) then save it at least 3 times straight after your character creation, also make sure the the following settings are set in the Options tab.
+
+GBA Cartridge Backup Media: Auto
+
+NDS Cartirdge Backup Media: FLASH 512Bytes
+
+Hopes that helps :)"
+,nox150690,2010-03-28T04:44Z,"Also, once you have done this, it should start saving normally, and won't require the multiple saves."
+,nox150690,2010-03-28T04:50Z,"Sorry for the multiple comments, but make sure you restart the application after you have performed the three saves. "
+,userloader,2010-03-28T12:52Z,nox??????i love you :-))))))) now it saves hehehehehe ok thanks mate !!!!!now i will try to play it to end and find  hints and so on about crashing and other stuff ok?see ya bro 
+,nox150690,2010-03-28T19:13Z,"Hehe nps, that no-save problem happens with some games when you try to save it the first time."
+,userloader,2010-03-28T20:57Z,"well i am on the 4th arena, it crashes sometimes is that normal???????and i need to save more than 1 time ,so it can save really!!!!!!!!"
+,nox150690,2010-03-28T21:09Z,"make sure your sound is set to Stereo, as this can cause crashes. 
+
+These are the settings I am using:
+
+Emulation Speed, LCD Refresh: Realtime, Auto
+Reset/Startup Entrypoint: GBA BIOS(Nintendo logo)
+Video Output: 24bit True Color
+GBA Mode: Nintendo DS (in GBA mode)
+GBA Cartridge Backup Media: Auto
+NDS Cartridge Backup Media: FLASH 512Bytes
+Solar Sensor Level: Darkness
+
+Sound Output Mode: Digital Stereo
+Sound Desired Sample Rate: Hight (44kHz) (Best)
+Multiboot Port: LPT3/3BCH
+Multiboot Normal/BurstDelays: Fast/Fast (best)
+Number of Emulated Gameboys: 1
+Link Gamepaks: Gamepaks in all GBAs
+Link Cable Type: Automatic
+
+It should already be set to these settings, but if not make sure they are. There are no reasons for the application to crash, if these settings are applied. "
+,nox150690,2010-03-28T21:16Z,"Sorry, I was supposed to say ""Make sure your sound is set to stereo, and without this it can cause crashes""."
+,nox150690,2010-03-28T21:34Z,"If it still crashes, try setting the Multiboot Normal/BurstDelays to Medium/Medium (Stable) 
+
+And/or turn off the Multiboot Port."
+,userloader,2010-03-29T00:32Z,its still crashing mate isnt there any nds emulator with saving mode except no$gba??????why there is no possibility to save in your emulator??????any reason ?
+,nox150690,2010-03-29T15:34Z,"I've never had any problem saving, mine saves every time I want it too. "
+,AngelDann,2010-03-30T07:55Z,does anyone know if this works on desmueme?
+,nox150690,2010-03-30T12:41Z,"It may do, I have only tested it with the no gba emulator."
+,userloader,2010-03-31T19:02Z,ok well game complete!thanks noxxxxxxxxxxx LOL needed to save several times but doesnt  matter you are  gggggggggggggggreat :D:D:D
+,YogyBear,2010-04-01T16:54Z,"I'm wondering if there's any way to make the ""multiplayer"" work. I'd like to trade pokemons between these 2 games. It seems that if I add a second gameboy it has disabled sound so it freezes right after the first screen. Also it doesn't seem to support loading of different ROMs on each gameboy. I've tried other emulators, but No$GBA was the only one supporting ""multiplayer"". Any ideas how to make this work?"
+,nox150690,2010-04-01T22:51Z,"I have also been trying this, I have tried every pokemon ROM I could lay my hands on , and the only way I could do it was with Fire Red:
+
+1: have two save games
+2: one should be named ""Pokemon Fire Red.SAV"" (This need to be the name of the file, and also the format as well, renaming it should change the format straight away).
+3: The other rename as ""Pokemon Fire Red.sv2""
+4: Move the second save game (Pokemon Fire Red.sv2) into the Battery Folder, where your other save file is located.
+5: Load Fire Red, Right click as soon as you start up, and click ""Link"".
+6: The other save file should now appear on the right-side emulator, and your original save file is located on the left-side emulator. 
+7: Configure the Controls for Player 1 and 
+8: Start both games, and try trading.
+
+Remember not to ""spam"" any buttons, as I find this can cause crashes, when you select an option, only press once. 
+
+Hope this helps, if you need any help, just ask :)"
+,nox150690,2010-04-01T22:58Z,"Also, DONT use the zoomed addon for gba, use the original .exe file, (the smaller one) and load you game from there."
+,jsletvold,2010-04-05T05:52Z,"thankyou so much, efficient download, saves perfectly and a great game.
+
+i save 3 times every 10 minutes and reset, its a pain but it works =)"
+,jsletvold,2010-04-05T06:54Z,"Also, you may want to save at least 3 times and reset after every major event such as a gym battle, elite 4 battle or trainer battle. The enter of a new city may also be mandatory"
+,nox150690,2010-04-05T09:31Z,"Good to hear that this is helping those who want to play. I have only experienced the saving issue once, so I don't really know what causes it. I believe it may be that no gba is not creating the save file quick enough, or ""forgets"" to generate the file."
+,christian_persson,2010-04-05T20:05Z,money cheat to heart gold and how to use it please help
+,nokiahaler,2010-04-06T12:55Z,"I don't know if I am the only one experiencing this, but when I entered the first cave you needed flash for, my character sprite did not show. I had to rely on the sound of bumping the rocks to navigate, even if I already had flash on. What's up with that?"
+,nox150690,2010-04-11T01:27Z,"Make sure the Following settings are correct:
+
+GBA Cartidge Backup Media : Auto
+
+NDS-Cartridge Backup Media : FLASH 512 Bytes"
+,grendal89,2010-04-23T22:47Z,"my emulator is lagging like hell.. going around 40-60% :S is this normal ? lol, or is it my pc thats just fucked here ?"
+,nox150690,2010-04-29T18:22Z,"It runs at over 60fps on mine, might be your pc"
+,chr111st000ffer,2010-05-11T09:23Z,"hi nox, is there any way to get a full screen? 
+
+but anyway thnx for the upload, and everything works fine!"
+,nox150690,2010-05-12T12:50Z,"Try and find a copy of No Zoomer 2.3.0.1 , that should give you full screen."
+,tikkz37,2010-05-17T09:28Z,how can i link the two games?? thatnks for the reply :D
+,Veserius,2010-05-18T14:01Z,"You are a champion, this works great, i have searched for so long for something that's actually playable, thank you so much.
+
+I will try it with Desume tomorrow and see if it works, it might be good for that whole save problem since desume is much easier to save states, instead of using the actual in game save.
+Will post whether it works or not"
+,tikkz37,2010-05-19T07:44Z,"how can i link the two pokemon games using the NO$GBA emulator???? please reply.. 
+
+thank you very much"
+,Veserius,2010-05-19T09:56Z,"This works Great on Desume, i exited and entered a house about 30 times at first, then i went a ahead to the next town and busted up some pokemons, healed a few times, meaning this has gotten past the Anti-Piracy that was making it freeze before (24 actions then freeze). Also i'm using the save state feature of Desume which is working great, and the save function in the actual game is working fine as well.
+
+THANK YOU"
+,Papipetrou,2010-05-25T14:58Z,"Hey, thanks for the torrent first of all. I tried it on the emulator given, it worked fine until I was on my way to the first gym then it crashed completely, had the sound on and the right settings =/. Then I tried it on Desmume and it happened again, even with the save states. Any ideas on what I'm doing wrong?"
+,Verd,2010-05-30T19:19Z,How can i erase the savefile...IT doesnt allow me to save my own game and cant find away to delete yours. Otherwise seems to be working just fine. 
+,b893,2010-07-17T22:28Z,"How am I supposed to get rid of the save file thats already on here. I cant save my own game but also cant get rid of his, help plz"
+,nox150690,2010-07-19T17:17Z,"Go to the battery folder and delete the ""Soul Silver file"""
+,xristos999,2010-10-04T15:10Z,"------------>IF YOU ARE GETTING BLACK SCREEN JUST USE THAT CHEAT
+020DE16C E1A00000
+IT WILL BE FIX!"
+,MovieFreakPiraye,2012-01-24T14:13Z,"So is this Rudolph Crash Fix? 
+Or the AP Fix? 
+Cause AP Can be fixed by just Running the JP Version and changing the language, but to run well on a Emulator i you require Rudolph Crash Fix. 
+Which I'm finding Incredibly hard to find at the end of the day what I'm asking is, If i save 7 times at the beginning so it registers a save file and then i begin my game will i need to save every 10 minutes to ensure it sticks? and will my game randomly blank out on me mid game when I'm battling or walking around aka crash and then delete my save :l and make me have to start fresh... i don't care if that happens as long as my Original save file stays put and i only have to start from say 10 minutes ago not get to like the fourth gym and then have to start all over cause then ill just Rage and i'd rather not do that to myself :P.
+But Much Appreciation for you trying to bring a working copy to us Pirates :) ill be getting a SuperCardDSTWO soon so all should be well in my pokemon world :P "
+,raggmunk666,2012-03-08T12:46Z,Its crashing when i am in a cave and i cant see myself. what is the problem?
+,DarkeZeal,2012-06-27T13:35Z,"can someone help me? after i saved once in the pokecenter it wont register any more saves
+
+i saved in there with time on 1.03 and then again at 1,15 in next city but when start the game again it says 1.03 and im back in the pokecenter with everything like it was then"

@@ -1,0 +1,17 @@
+User Type,Username,Date,Text
+,ee9,2010-03-28T12:17Z,Thank you guys!
+,ForFun00,2010-04-04T03:32Z,Thanks a lot!
+,Super_Saiyan_Link,2010-04-06T07:27Z,Thanks for the upload. Is there any chance we could get a portable version of the latest version of Thinapp?
+,snkrk,2010-05-16T09:08Z,Thank you brother
+,MrElectrifyer,2010-08-07T07:59Z,"Works as expected except I am not sure how to add context menu entries for apps made portable.
+
+For example, if I make any Anti Virus App Portable, they always have context menu entries to scan any file.
+
+Does any one know how I can do this? I would really appreciate an answer."
+,23photo,2010-08-14T06:17Z,Infected with a trojan.
+,rbtOne,2010-10-28T23:47Z,"MrElectrifyer:
+I'm not too sure you should make AV-programs mobile with this. But I have not really checked this out yet.
+
+If this handles drivers and services which are often required by antivirus tools there are simple registry hacks to enable context, but the problem is the application is inside a virtualized bubble and windows explore is not. MS App-V and Citrix XenApp handle this, but they both use an installed client on the machine.
+
+I'll play around with this for a while and might get back with a better answer. I'm a licensed partner with VMWare but TPB is always easier. I'll have to get v4.6 from VMWare if this looks good."

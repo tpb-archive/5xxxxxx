@@ -1,0 +1,152 @@
+User Type,Username,Date,Text
+,hoppah,2010-03-10T08:57Z,"dit is de nieuwste gedetailleerde topo kaart van Belgie Nederland en Luxemburg.
+
+super voor geocachen,wandelen en mountainbiken."
+,hoppah,2010-03-10T13:40Z,wel blijven seeden aub!!!!!!!!!
+,hoppah,2010-03-10T17:03Z,FAMILY/MAP ID: 1725
+,hoppah,2010-03-10T23:04Z,"kan iemand city navigator europe 2010 er overheen plaatsen? (topo transparant maken en samenvoegen) lukt mij niet :(
+en daarna weer uploaden op PB?!
+
+cheers!"
+,simon2010,2010-03-14T11:22Z,"""staan er genoeg op PB""
+Wat is en waar vind ik PB?
+Simon"
+,hoppah,2010-03-14T17:09Z,"PB= Pirate Bay
+er staan er genoeg = Keygenerator (sleutel genereer programma) of unlocker. beide om de kaarten te ontgrendelen zodat je ze kan gebruiken op je gps"
+,DiSoHil,2010-03-19T17:37Z,"De kaart is wel ""een beetje zwaar"" voor een GPSmap 60 CSx... (trage beeldopbouw bij verplaatsing)"
+,hoppah,2010-03-22T20:57Z,"heb er zelf nog geen last van gehad?! wel bij de eerste keer laden vlak nadat ik hem aanzet maar tijdens navigeren geen problemen.
+"
+,willemschurink,2010-03-24T14:53Z,"Werkt uitstekend, alleen jammer dat de wandelpaden wat vager zijn dan in TopoBelux"
+,hann-nl,2010-04-23T11:59Z,"het lukt me niet aan de gang te krijgen. uitpakken gaat goed, eerst 1 dan 2 en dan automatisch de andere 3. vervolgens kan ik kiezen tussen de a en de w versie van de exe. als ik a kies krijg ik ""fout, verkeerd besturingssysteem"" als ik w kies, dan begint eea maar met de boodschap dat deze is voor windows NT en voor windows 2000. vervolgens krijg ik dezelfde foutmelding. ik heb vista kan het daar aan liggen? "
+,hann-nl,2010-04-23T12:32Z,het is me inmiddels gelukt om te installeren. uitpakken in c/garmin/fam_1725 ging beter. maar nu het volgende: de kaart is vergrendeld. dus ik zie alleen wat wegen met op de achtergrond een hoop driehoekjes. ik zie 2 unlocks staan op PB en die zijn beiden niet op te halen momenteel. wie weet een oplossing hiervoor?
+,hann-nl,2010-04-24T16:18Z,"aan de gang gekregen met een jetmouse unlock keygen. dus in mapsource werkt het nu. vervolgens wil ik de kaarten van NL op ee micro SD zetten (via een usb kaartlezer), via mapsource zelf.dat gaat goed. kaartje in de garmin 60csx: kan de kaart niet openen. wat doe ik verkeerd?"
+,hoppah,2010-04-25T08:46Z,"beste hann.nl..
+
+als je de unlocker gebruikt (jetmouse oid) is het erg belangrijk dat je de unit id van je gps gebruikt als je hem ontgrendelt anders doet hij het wel op mapsource maar niet op je gps. de unit id vind je onder de batarijen. of kijk hier: http://thepiratebay.org/torrent/4050490/Garmin_unlocker.rar
+
+suc6!"
+,hann-nl,2010-04-25T12:49Z,"Hoppa dank voor je reactie. ik heb inmiddels al vanalles geprobeerd. Ik heb de kaart zelfs op een microsdkaartje geinstalleerd. daar via key gen een mapunlockcode geselecteerd en dat ingevoerd. resultaat: mapsource op mijn laptop opent nu alleen nog maar als ik die microsdkaart in de kaarlezer stop. als ik de microsdkaart in de 60csx stop krijg ik niet meer de foutmelding, maar schakelt de 60csx zich gewoon helemaal uit. ik heb de torrent over garmin unlocker eerder ook gezien, kreeg m niet binnengehaald. overigens lees ik onderin het draadje dat veel mensen uiteindelijk toch tegen hetzelfde probleem aan lopen: wel draaiend onder mapsource op de pc, maar niet als je de kaart op een microsdkaartje in je device stopt. jij hebt m wel aan de gang gekregen, dus  ik ben niet van plan op te geven, heb je de gouden tip voor me wat ik verkeerd doe?"
+,hann-nl,2010-04-25T13:38Z,"heb gekozen om de map benelux toch maar op de pc te installeren, want mapsource deed het uiteindelijk helemaal niet meer. heb nu gelukkig mapsource met de benelux op de pc in ieder geval wel weer aan de gang. ik ben aan het zoeken naar die garmin-unlocker. de torrent heb ik, die is voor limewire, maar daar is de unlocker niet bij bronnen beschikbaar.
+*t zal me lukken*"
+,hoppah,2010-04-25T20:20Z,"mmm?? je moet in ieder geval in mapsource het volgende doen:
+
+in normaal scherm tijdens mapsource ga je naar ""hulp programma's"" >> kaartproducten beheren>> ontgrendelbare regio's>> toevoegen en daar de key invoeren gegenereerd met een keygenerator (let dus op dat je dat doet met je product ID) 
+
+bij jetmouse ga je als volgt te werk:
+
+Enter unit ID (staat achter de batarijen)
+Select Map Product (kies voor custom mapset en vul 1725 in)
+Druk op generate en kopieer de code naar het vak dat je krijgt als je doet wat ik heb beschreven in mapsource en dan zou het moeten werken?! 
+
+dan kaarten set selecteren en via mapsource naar je gps kopieren (terwijl de micro sd er in zit)
+
+suc6"
+,hoppah,2010-04-25T20:24Z,ik kan de unlocker denk ik wel mailen?! 44kb moet wel lukken toch?
+,hann-nl,2010-04-26T23:45Z,"Instructions to generate map unlock code for Garmin device:
+----------------------------------------------------------
+
+1. Launch the keygen and enter your 10# GPS Unit ID (GMXT Card ID, Unlock ESN or GMPC Device ID).
+
+2. Select desired Map product and hit the corresponding Generate button to generate Map unlock key.
+
+NOTE: If your map is not included in the Map product list, select , enter the corresponding MapID and hit OK.
+      If you are not sure about your MapID, install it first into the MapSource, open regedit and browse for 
+      one of the following keys:
+
+      [HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\Mapsource\Families\]
+
+      or
+
+      [HKEY_LOCAL_MACHINE\SOFTWARE\Garmin\Mapsource\Product\]
+
+      and check the ""ID"" REG_BINARY. That is your MapID (in HEX). You have to convert it 
+      from HEX to decimal (do not forget to reverse the byte order when coverting)
+
+3. Hit Generate button to generate map unlock key.
+
+4. Copy (CTRL+C) your generated map unlock key to the clipboard.
+
+5. Open the Notepad again and paste (CTRL+V) the key and save the file as GMAPSUPP.UNL
+
+6. Put your newly created file to your SD Card\Garmin directory and restart GMXT.
+
+This keygen is also compatible with Garmin MapSource application. You can use it to generate map unlock keys 
+for any Garmin GPS device and any map using Garmin IMG format.  ""
+
+Als ik dan kijk wat er in de gmapsupp staat (met gmaptool) zie ik dit:Reading file J:/garmin/gmapsupp.img.
+
+
+File:		J:/garmin/gmapsupp.img, length 18873344
+Header:		26.04.2010 21:23:49, DSKIMG, xor 00h
+Mapset:		3755, H3, 3756, 3747, 3748
+
+Map              length s-f  CP    prio  PID   FID  name
+ 00001725 IDX    151851  2
+ I00006BD TYP     13392  1  1252           1  1725
+ I0964B73 MPC   1811568  6  1252   24 L    1  1725  3755
+ I0964B74 MPC   5094157  6  1252   24 L    1  1725  H3
+ I0964B7C MPC   2426072  6  1252   24 L    1  1725  3756
+ I0964C0C MPC   4831849  6  1252   24 L    1  1725  3747
+ I0964C0D MPC   4470989  6  1252   24 L    1  1725  3748
+ MAPSOURC MPS       374  1
+
+Data MPS
+ V: 3755, H3, 3756, 3747, 3748 (1)
+ U: DR5AJ-FXKPU-KWPCX-M4FLQ-L7RVM
+ F: PID 1, FID 1725, Topomap Benelux
+
+
+Bij vorige pogingen zag ik overigens wel dat er melding kwam van foute header (die hier ook dskimg heet), dat er 3 fouten werden geconstateerd en dat het resultaat faulty was. die melding zie ik nu niet meer, dus we gaan vooruit.
+maar nog steeds....
+als je me die unlocker kan mailen graag dus
+helseheron@hotmail.com
+dank alvast!!"
+,Alphaqueco,2010-08-13T19:30Z,"Ik ben echt ten einde raad, ben heus geen PC noob maar ik krijg dit niet aan de praat. Ik snap keygen en unlocker en dergelijke maar ik moet ergens iets verkeerd doen. Ik kan de rar bestanden zelfs niet uitpakken met winrar. Wil iemend me eens duidelijk uitleggen hoe je dit doet werken."
+,Alphaqueco,2010-08-13T19:33Z,"of email me dimienmij@hotmail.com
+
+Alvast bedankt aan degene die me wilt helpen, het is vast iets stom dat ik over het hoofd zie."
+,MaC-red,2010-08-24T20:49Z,"eerst en vooral al bedankt voor de torrents, al heb ik ook een klein probleem.
+de topo benelux staat reeds ge誰nstalleerd in mapsourse op de desktop en op het toestel maar nu wil ik deze ook op de laptop installeren in mapsourse maar het ontgrendelen lukt al geen kanten daar.
+Iemand een idee wat ik misdoe of vergeet ?? ik neem de laptop mee naar Luxemburg maar als de topo kaart er niet opstaat kan ik geen routes in elkaar zetten.
+
+David"
+,GPSMAP62S,2010-09-03T18:30Z,"Hallo allemaal,
+
+ik heb een vraag ik heb de Garmin Gpsmap 62s ik heb deze torrent gedownload en geinstalleerd. Op mijn laptop en pc doet hij het perfect. Op mijn gps echter geeft hij steeds aan dat de kaarten niet ontgrendeld kunnen worden :-S.
+Ik heb al van alles geprobeerd eerst met de garmin unlocker en daarna met de jetmouse keygen v1.3 alleen het werk nog steeds niet.
+Zou iemand mij hiermee kunnen helpen?
+
+Alvast bedankt 
+
+Timo"
+,dennis.kolk,2010-09-04T10:43Z,"Wie o wie kan mij helpen met de installatie van het programma op mijn GSP device. De kaarten zijn inmiddels un-locked, echter als ik delen wil plaatsen in mijn GPS geeft het systeem aan dat ""de kaarten nog niet zijn ontgrendeld"" Hoe kan ik dit oplossen?"
+,jelleboy,2011-01-30T22:24Z,werkt dit ook op de edge 705 ??
+,moghammed,2011-03-07T15:52Z,"Hallo
+
+voor iedereen die de kaarten wel in mapsource kan ontgrendelen maar ze vervolgens niet naar zijn gpsapparaat kan verzenden.
+
+Je hebt in jetmouse het verkeerde unit ID ingevuld. Deze vind je namelijk vaak niet onder de batterij (er staat daar een ander nummer) maar in het menu van je gps apparaat. kijk hier om te zien waar je jouw unit ID kunt vinden:
+
+www[punt]oztopo[punt]com/garmin_unit_id_table.htm
+
+nog wel even de punten vervangen natuurlijk."
+,madone4.7,2011-03-23T23:09Z,"Hey Hoppah,
+
+Eerst super bedankt voor Topo! Ik heb hem op mijn laptop nu maar ik weet niet welke delen ik van de download op mijn sd moet zetten. Zijn dat alle mappen, moet ik mappen openen voor ik ze kopieer? Ik hoop op je reactie!
+
+Thanks,
+
+Robert"
+,bvanov,2011-05-15T08:47Z,"Heb ik het goed als ik zeg dat je voor het ontgrendelen van topo kaarten een 25 tekens code nodig hebt indien je ze wil ontgrendelen voor mapsource maar als je ze dan op het toestel overzet je ze nog niet ontgrendeld hebt? om de topo kaart voor het toestel te ontgrendelen moet je dit online via mapsource doen met een 20 tekens code die je normaal op binnenzijde van dvd doos vind? zo ja hoe kan ik die 20 cijfirige code vinden is hiervoor ook een keygen of unlocker beschikbaar of kunnen de op PB downloadbare kaarten enkel gebruiken in mapsource?????
+
+Help mij, help mij, uit de nood."
+,bvanov,2011-05-15T08:48Z,"Heb ik het goed als ik zeg dat je voor het ontgrendelen van topo kaarten een 25 tekens code nodig hebt indien je ze wil ontgrendelen voor mapsource maar als je ze dan op het toestel overzet je ze nog niet ontgrendeld hebt? om de topo kaart voor het toestel te ontgrendelen moet je dit online via mapsource doen met een 20 tekens code die je normaal op binnenzijde van dvd doos vind? zo ja hoe kan ik die 20 cijfirige code vinden is hiervoor ook een keygen of unlocker beschikbaar of kunnen de op PB downloadbare kaarten enkel gebruiken in mapsource?????
+
+Help mij, help mij, uit de nood.
+
+Ik gebruik wel Dakota 20 toestel."
+,pmzl,2011-06-15T17:15Z,"hartelijk dank voor de Topo kaart, ik heb alleen een probleem met het overbrengen naar mijn gpsmap 60csx. Installeren op de PC lukt prima met de juiste Unit ID enzo, alleen bij het overzenden naar de gps krijg ik de melding ""de volgende kaarten zijn niet ontgrendeld""
+Wat zou het probleem hiervan zijn?
+Misschien een andere versie van Mapsource?"
+,fazant3101,2011-07-03T12:52Z,Voor mij werkte het door deze patch voor Mapsource te gebruiken: http://thepiratebay.org/torrent/5924772/Garmin_Mapsource_v6.16.3_patched_exe
+,Jojojojo1221,2011-09-25T11:03Z,Zou deze download probleemloos kunnen werken op een Garmin Edge 500? In het geval dat deze download niet goed werkt is het dan gemakkelijk te verwijderen?

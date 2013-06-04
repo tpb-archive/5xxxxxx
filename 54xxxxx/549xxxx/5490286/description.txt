@@ -1,0 +1,277 @@
+Train Signal VMware vSphere Pro Series Training Vol 1 | 4.3 GB
+
+This is the first in a series of collaborative VMware vSphere training courses meant to elevate your vSphere knowledge to an expert level.
+
+
+
+
+
+Myself, Hal, and Rick are three of the worldâ€™s top 300 VMware users and have been designated as vExperts by VMware, to recognize our achievements in the world of virtualization.
+With our VMware vSphere Pro Series training Volume 1, you will receive intensive, detailed training on each of our specific areas of expertise within VMware vSphere.
+More specifically, this training course was created to teach you the tips and tricks you need to know to utilize VMware vSphere like a vExpert.
+
+VMware vSphere Pro Series Training Course Vol. 1 Outline
+VMware View & ThinApp â€“ David Davis
+Video 1
+Virtual Desktop Infrastructure Overview â€“ Understanding the Options
+
+You have probably used or are familiar with server virtualization. Now, virtualizing desktops is the next step in your virtualization process and this video will show you the various options that are available in Virtual Desktop Infrastructure to accomplish your desktop virtualization goals.
+
+* What is VDI?
+* Why Should You Use VDI?
+* VDI Network Diagrams
+* Thin Clients
+* VDI vs. Terminal Services
+* The Most Popular VDI Options
+
+Video 2
+Introduction to VMware View 4
+
+VMware View is the #1 desktop virtualization product available and in this video you will learn exactly what VMware View can do for your organization and the best possible way to prepare to install VMware View 4.
+
+* What Does View Offer You?
+* Return on Investment
+* Requirements to Use View 4
+* View 4 Components
+* View 4 Administrator Console and Client Display
+* How to Evaluate and Download View
+* View Resources
+
+Video 3
+Installing VMware View 4
+
+In this video you will create a plan to install VMware View. Plus, you will work hands-on to install VMware View 4 and its components.
+
+* Planning Your View Infrastructure
+* Advanced View Topics
+* Requirements to Install View Connection Server
+* Installing the View Connedtion Server
+* Installing View Composer
+* Preparing a Guest OS to be a Virtual Desktop
+* Installing the View Agent
+* Installing the View Client
+
+Video 4
+Deploying Virtual Desktops with View
+
+In this video you will learn how to add an individual virtual desktop and point your virtual desktop to a virtual machine. Plus, you will learn how to use the VMware View Client to connect to that virtual desktop. By working through this process you will actually end up testing the entire View infrustructure that youâ€™ve worked to create thus far.
+
+* Adding Virtual Desktops
+* Assigning Desktop Sources
+* Creating Entitlements for Desktops
+
+Video 5
+Automated Virtual Desktop Deployment with View Pools
+
+In this video you will learn how to use a golden virtual machine snapshot to be used by VMware Composer to roll out the Automated View Pool. Plus, you will work hands-on with the View Client and web based View Portal to test the pool youâ€™ve just created.
+
+* Taking a Snapshot of the Golden Virtual Machine
+* Creating Automated View Pools
+* Giving Entitlements to Users and Groups
+* Testing Pools in the View Client and View Portal
+
+Video 6
+Adding a Terminal Services Pool in View
+
+If you are already using Terminal Services then you will want to take advantage of the option to add a Terminal Services Desktop Pool. In this video you will work hands-on to Add a Terminal Services Pool in order to give your end users the flexibility to connnect to individual View Virtual Desktops or a Windows Server 2008 Remote Desktop Server/Terminal Server.
+
+* Benefits of Terminal Services Desktop Pools
+* Adding TS Desktop Pools
+* Entitling TS Pools
+* Testing TS Pools in View Client
+
+Video 7
+Understanding View Composer Linked Clones
+
+In this video you will learn how View Composer helps you to save disk space and to roll out desktop images. Plus, you will work hands on to upgrade multiple desktops to Windows 7 in under 10 minutes!
+
+* How View Composer Helps You
+* View Composer Replicas
+* Desktop Recomposition
+* Desktop Refresh
+* Upgrading Multiple Desktops to Windows 7 in Under 10 Minutes
+
+Video 8
+Introduction to ThinApp 4
+
+In this video you will learn how to utilize ThinApp to avoid application conflicts and run multiple revisions of the same application. Plus, you will learn how to utilize ThinApp so that you wonâ€™t have to install applications on end user desktops ever again!
+
+* What is Application Virtualization?
+* How Can ThinApp Help You?
+* What Makes ThinApp Unique?
+* How Does ThinApp Fit in with Other Types of Virtualization?
+* ThinApp Usage Scenarios
+* Four Steps to Virtualizing an Application with ThinApp
+
+Video 9
+Installing ThinApp
+
+In this video you will learn how to properly prepare for a ThinApp installation. Plus, you will work hands-on to install ThinApp on your own virtual machine.
+
+* Requirements to Use ThinApp
+* Why You Need a â€œPristine OSâ€
+* What Can and Cannot Be Virtualized
+* Downloading and Installing ThinApp and VMware Workstation
+* Installing ThinApp on the Virtual Machine
+* Taking a Snapshot of the Pristine OS
+
+Video 10
+Virtualizing Applications with ThinApp
+
+In this video you will work to virtualize Office 2007 with ThinApp. You can use this same process to virtualize any application! Plus, you will work hands-on to create a ThinApp library of virtual applications that can be run across multiple operating systems.
+
+* Four Steps to Virtualizing Office 2007
+* Prescanning the Clean OS
+* Installing and Configuring the Applications
+* Postscan
+* Choosing Options and Building the Package
+* Post-Capture Customization
+* Testing the Application
+* Building a ThinApp Application Library
+
+Managing VMware vSphere with PowerCLI
+Hal Rottenberg
+Video 1
+Introduction to Power CLI
+
+In this video you will learn how PowerCLI will help harness the power of scripting and automation from a real-world perspective. Plus, you will work hands-on to download and install PowerCLI.
+
+* Videos in this Series
+* What is PowerCLI?
+* PowerCLI Window
+* How Does PowerCLI Work?
+* Why Learn PowerCLI?
+* Downloading the Toolkit
+* Installing PowerCLI
+* The PowerCLI Console
+
+Video 2
+PowerShell Basics
+
+In this video you will learn the basics you need to know to use Windows PowerShell. Plus, you will work through real-world PowerShell demonstrations, so that you are able to understand and apply the core concepts of PowerShell in your own virtual environment.
+
+* PowerShell the Command-Line Interface
+* PowerShell the Script Engine
+* Variables
+* Automatic Variables
+* Operators
+* Cmdlets
+* Parameters
+* Typing Savers for the CLI
+* The Pipeline
+* Flow Control
+* Object-Oriented Scripting
+* Reading a PowerShell Script
+* Integrated Scripting Environments (ISE) and More
+* Other Resources
+
+Video 3-1
+PowerCLI Concepts â€“ Part 1
+
+In this video you will work hands-on with the many components of PowerCLI to connect to and manage your vSphere environment.
+
+* Support Matrix
+* vSphere Object Model
+* Managed Objects
+* Automation Objects
+* Connecting to vSphere and vCenter
+* PowerCLI Cmdlets
+* Inventory and Reporting
+* Deployment and Configuration
+* Maintenance and Operations
+* Removing Snapshots
+* Starting and Stopping VMs
+* Troubleshooting and Problem Resolution
+* Examining Virtual Machines
+
+Video 3-2
+PowerCLI Concepts â€“ Part 2
+
+In this video you will complete several hands-on demonstrations that involve working with objects in PowerShell. Then, you will learn how these objects are applied to PowerCLI.
+
+* The Pipeline
+* Examining Objects
+* Filtering Objects
+* Exporting Data Using Export-CSV Cmdlet
+* Exporting Data Using ConvertTo-HTML Cmdlet
+* Reporting Features within vEcoshell
+* Using the vSphere API
+
+Video 4
+Power CLI in the Real World
+
+In this video you will work through several different real-world demonstrations including building a Virtual Farm, finding old snapshots and creating linked clones.
+
+* When to Script?
+* From Console to Script
+* Build a Virtual Farm
+* Script to Create a New Farm
+* Find Old Snapshots
+* First Script for Finding Old Snapshots
+* Second Script for Finding Old Snapshots
+* Created Linked Clones
+* Script for Creating a Linked Clone
+* Quick Tips and One-Liners
+
+Video 5
+PowerCLI Cmdlet Deep Dives
+
+In this video you will take a detailed look at some PowerCLI Cmdlets and you will learn how the different parameters of these Cmdlets work to help you control your virtual infrastructure from the command line. Plus, you will work hands-on to create new and cloned virtual machines using the New-VM Cmdlet.
+
+* Deep Dive into New-VM
+* Create New Virtual Machines from Scratch
+* Creating a Virtual Machine
+* Clone an Existing Virtual Machine
+* Cloning a Virtual Machine
+* Create a Virtual Machine Based on a Template
+* Deploying a Template
+* Register an Existing Virtual Machine
+* Registering a Virtual Machine
+* New-VM â€“ Other Features
+* Read the vCenter Event Log with Get-VIEvent
+* Using Get-VIEvent
+* Event Properties
+* Working with Event Objects
+
+Cisco Nexus 1000V
+VMware vSphere Third-Party Virtual Distributed Switch â€“ Rick Scherer
+Video 1
+Getting Started with the Nexus 1000V
+
+The Cisco Nexus 1000V is Ciscoâ€™s powerful add-on network switch for VMware vSphere. In this video you will learn the details of what the Cisco Nexus 1000V is and how it is used. Plus, you will learn how to obtain and install the Cisco Nexus 1000V Virtual Supervisor Module.
+
+* vNetwork Review
+* Cisco Nexus 1000V Overview
+* Cisco Nexus 1000V VSM Requirements
+* Cisco Nexus 1000V VSM Installation
+
+Video 2
+Integrating the Cisco Nexus 1000V with vCenter Server
+
+In this video you will use a Java based utility to finalize the VSM installation. Plus, you will work hands-on to install your own VEM on an ESX Host and then add that ESX Host to the N1KV dvSwitch.
+
+* Final Configuration of the VSM
+* Installing the VEM on the ESX Host
+* Adding an ESX Host to the N1KV dvSwitch
+* Verifying Installation
+
+Video 3
+High Availability Options for the Cisco Nexus 1000V
+
+In this video you will learn how to properly utilize the high availability options of the Cisco Nexus 1000V to limit the impact of hardware and software failures.
+
+* Nexus 1000V HA Options
+* Service-Level High Availability
+* Process Restartability
+* Network-Level High Availability
+* Installing a Secondary VSM and Linking it to Existing VSM
+
+Video 4
+Configuring Port Profiles on the Cisco Nexus 1000V
+
+Port-Profiles contain all the necessary information for network access. In this video you will work hands-on to configure the different port profiles to properly utilize the benefits of each.
+
+* Creating Uplink Port-Profile
+* Creating VM Port-Profile
+* Adding ESX Host to a N1KV and Migrating the Service Console to the N1KV
+* Removing the ESX Host from the N1KV

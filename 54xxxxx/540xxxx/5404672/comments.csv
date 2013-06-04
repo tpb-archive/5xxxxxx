@@ -1,0 +1,94 @@
+User Type,Username,Date,Text
+,smj2,2010-03-05T06:31Z,"Skidrow released a repack, which works. Get it here and forget about this broken release:
+
+http://thepiratebay.org/torrent/5404672/Ghost.Pirates.of.Vooju.Island.REPACK-SKIDROW.iso"
+,smj2,2010-03-05T06:32Z,"Oops. Sorry, this was supposed to go on the ""other"" release. This is the good release and it works just great!"
+,Docoptik,2010-03-07T10:45Z,"I also having problem with the load system (i have the repack version).
+I have found from a forum this solution: 
+
+* Open the ""Documents"" (XP: ""My documents"" folder and then the Ghost Pirates folder.
+
+* Open the file ""14793.bin"" with a text editor.
+
+* Change the line
+
+to
+
+(just change the ""False"" to ""True"";)
+
+* For Windows Vista/ Windows 7 change the line
+
+to
+
+(Just change the value part. The right windows user name is important! I've chosen ""Nikos"" for this example)
+
+* For Windows XP change the line
+
+to
+
+(Just change the value part. The right windows user name is important! I've chosen ""Nikos"" for this example)
+
+* Save the changes and close the file.
+
+* Start the game.
+
+The game should now automatically load the autosave savegame after the title loading screen of the game. Therefore the screen could stay black for a few seconds. If the main menu appears again, just leave the game and try it again.
+
+
+It worked for me but the problem is that you will play from the autosave point not when you last save.
+BUT i thought a solution:
+
+* After you do all the above steps, play the game and choose save.
+
+* Go to (for XP) C:\Documents and Settings\Nikos\My Documents\Ghost Pirates
+
+* View the files in Detail mode so you can see now the name, the size AND the date of each file.
+
+* Look for the BIN file with the most recent date (for instanve mine is 1267925374.91)
+
+* Open that file with the text editor (notepad).
+
+* Copy everything inside.
+
+*Now open the Autosave bin file with the text editor.
+
+*Erase everything inside and paste the lines you just have copied.
+
+* Save and exit from the editor.
+
+* Run the game
+
+* With the first steps the game automatically load the autosave savegame and with the last steps you 've changed your last save as autosave, so now you will play from the point you have left the game
+
+* Enjoy!!"
+,dion_1,2010-03-21T11:43Z,It works.. You are fuckin fuckin fuckin fuckin clever.. Thanks dude
+,Afiniasmenos,2010-05-12T14:59Z," Can't LOAD saved games in Ghost Pirates of Vooju Island
+-------------------------------------------------------
+SIMPLE METHOD
+Problem is now fixed, it appears that the game doesn't like it if you have your regional settings in Windows set to Greece or whatever. If you turn them to ENGLISH (UK), then the game doesn't crash every time you hit the load button. I'm now enjoying playing the game.
+
+[Berserk]"
+,Monkku69,2010-05-29T22:42Z,doesn't work...some failure disappear....
+,Monkku69,2010-05-29T22:44Z,"with that main.exe,about that failure"
+,thedevilsdoormat,2010-06-17T15:46Z,"Doesn't work for me. I get the error message:
+
+Problem signature:
+  Problem Event Name:	APPCRASH
+  Application Name:	main.exe
+  Application Version:	0.0.0.0
+  Application Timestamp:	4ad326f6
+  Fault Module Name:	libpandadx9.dll
+  Fault Module Version:	0.0.0.0
+  Fault Module Timestamp:	490fb761
+  Exception Code:	c0000005
+  Exception Offset:	0000e15a
+  OS Version:	6.1.7600.2.0.0.256.1
+  Locale ID:	2057
+  Additional Information 1:	243c
+  Additional Information 2:	243cb74e6eeb587136e2c634127e794b
+  Additional Information 3:	6218
+  Additional Information 4:	6218a3fefed36ca89e6e37a611ab897e
+
+:-("
+,nadalinio,2010-08-26T22:15Z,"and al that went right over my head av installed loads of gams but this one......not working at all still asks for original cd when i have already installed then mounted it? what am i doing wrong am not following those instructions,  i cant make head nor tail of them"
+,dragonzer0,2011-07-12T08:09Z,How about some seeders please. Thanks.

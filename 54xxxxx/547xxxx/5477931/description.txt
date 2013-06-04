@@ -1,0 +1,25 @@
+   -------------------------------------                                    
+                                                                            
+   Updated in v1.01:                                                        
+                                                                            
+   Added steam cloud support for all in-game progress                       
+                                                                            
+   Fixed a bug where following a link to a web page from a popup within     
+   the game would make all other in-game popups attempt to take the user    
+   to the same web page                                                     
+                                                                            
+   Updated the readme to include additional known issues                    
+                                                                            
+   Fixed a crash that would occur when detecting certain input devices. A   
+   warning is now shown when Shatter detects an incompatible device         
+                                                                            
+   Fixed an issue with leader board times for boss rush where times over    
+   40 minutes would wrap back around to zero                                
+                                                                            
+   Added detection of modified game data. When the user has local           
+   modifications to their data Shatter will enter offline mode and will     
+   not upload scores                                                        
+                                                                            
+   Fixed an issue where Shatter would incorrectly enter offline mode if     
+   the user had set their Steam account to appear offline. Shatter will     
+   now enter offline mode if Steam is offline

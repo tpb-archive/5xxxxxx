@@ -1,0 +1,165 @@
+Flotilla.v1.7-OUTLAWS
+
+Genre: Indie, Space Adventure Game
+Developer: Blendo Games
+Publisher: Blendo Games
+Release Date: 4 March 2010
+
+System Requirements:
+~~~~~~~~~~~~~~~~
+
+# Windows 2000/XP/Vista/7
+# 1GHz processor
+# 1GB available system memory
+# 80MB available hard drive space
+# DirectX-compatible graphics card with Shader Model 1.1
+
+This game requires: Microsoft .NET Framework Version 2.0
+
+hxxp://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5
+
+and Microsoft XNA Framework Redistributable 3.1
+
+hxxp://www.microsoft.com/downloads/details.aspx?FamilyID=53867a2a-e249-4560-8011-98eb3e799ef2&displaylang=en
+
+Description:
+~~~~~~~~
+
+Chicken space pirates, psychic dog advisors, and rhino bounty hunters. Just another adventure in Flotilla! Fight, trade, and explore to make a name for yourself in the galaxy.
+
+Features:
+~~~~~~
+
+# No adventure is the same. Whenever you begin an adventure, the universe is randomly populated with characters and encounters.
+
+# There is no "up" in space. Explore the tactical richness of full 3D movement. Watch your angles and flank the enemy from all directions.
+
+# Configure your fleet. Find crazy loot throughout your adventures, and install upgrades and artifacts to your flotilla of ships.
+
+# Play with a friend. Grab a buddy and play through the adventure cooperatively in splitscreen.
+
+# Or, blow up your friend. In the Skirmish Mode, set up custom fleets and battle human or computer-controlled enemies.
+
+Version History:
+~~~~~~~~~~~
+
+Version 1.7
+
+March 4, 2010
+
+# Fixed crash in the line renderer.
+# Fixed collision on Beam Gunship.
+# Fixed bug that caused ships to stop rotating.
+# Fixed bug that prevented high scores from being saved.
+# Moved hardware mouse option to the video settings menu.
+# Added functionality to slow down camera (ctrl or alt)
+# Balancing: increased flank move speed.
+
+Version 1.6
+
+March 3, 2010
+
+# Fixed crash in particle system.
+# Added extra check to ensure AI ships don't collide.
+# Planar grid now raises and lowers to the selected ship's altitude.
+# Unlocked the Proto Fighter for skirmish games.
+
+Version 1.5
+
+March 2, 2010
+
+# Fixed audio system crash.
+# Fixed crash in the mesh renderer.
+# Fixed crash in the Fleet Setup menu.
+# Fixed crash caused by beam weapon sounds.
+# Fixed crash in the patch version-check.
+# Fixed crash during the Priority Target step.
+# Fixed crash in the skybox renderer.
+# Fixed crash in the starfield renderer.
+# Fixed missing Captain's Log for hitchhiker-deer event.
+# Fixed bug in playback recording.
+# Reduced default screen resolution.
+# Added extra check to ensure AI gives every ship a move order.
+# Activating Manual Mode now defaults orientation to the ship's current orientation.
+# Added an option to default to Manual Mode.
+# Added an option to use hardware mouse.
+
+Version 1.4
+
+March 1, 2010
+
+# Fixed crash in the bloom renderer.
+# Camera no longer auto-rotates when player selects ship.
+# Added option for mousewheel to toggle between moving the camera forward/backward or up/down.
+# Added option to adjust mouse sensitivity.
+# Added new keyboard shortcuts/UI:
+
+    * F: toggle Manual Mode.
+    * F: skip priority target.
+    * F: open command menu.
+    * F: open fleet menu.
+    * Spacebar: close Captain's Log.
+    * Spacebar: close Fleet Setup menu.
+    * Spacebar: close Playback menu.
+    * 1 2 3 4: select event decisions.
+    * 1 2 3 4: select ship orders.
+    * 1 2 3: select command orders.
+
+Version 1.3
+
+February 28, 2010
+
+# Fixed crash when loading certain ship content.
+# Fixed crash with graphics device not properly unloading.
+# Fixed crash when unequipping inventory items.
+# Fixed audio crash when player ends or begins a turn.
+# Fixed bug with assassin encounter giving infinite cargo items.
+# Fixed player not having any more planets to visit.
+# Selecting the patch option now directs user to Flotilla patch website.
+# Added UI label showing ship type beneath the ship name.
+
+Version 1.2
+
+February 27, 2010
+
+# Fixed crash with region-specific character sets
+# Fixed crash with certain gamepad/joystick configurations.
+# Fixed rare crash when game saves options settings.
+# Fixed region-specific issue with the startup version check.
+# Fixed issue with video settings menu sometimes not saving changes.
+# Added "Draw Planets" video option. Uncheck this if you have a low-end PC or netbook.
+
+Version 1.1
+
+February 26, 2010
+
+# Initial release
+
+Installation Notes:
+~~~~~~~~~~~~~
+
+1) Unpack
+2) Run FlotillaSetup_v13.exe
+3) Run FlotillaPatch_v1_7.exe
+
+The installer may appear unresponsive. It is normal for the Flotilla installer to take a few minutes to complete unpacking its files.
+
+How do I run the game in full-screen mode?
+
+You can toggle between fullscreen and windowed mode in the Video Settings menu:
+
+Options/Help > Options > Video Settings > Fullscreen
+
+And finally enjoy it !!!
+
+:P
+
+PS: Files are packed according to scene rules ...
+
+The uploaded files are ZIPped.
+
+Inside the ZIPped files are the RAR files.
+
+How to unzip all files in an easy way:
+
+Select all ZIP files, right click and click Extract files... 

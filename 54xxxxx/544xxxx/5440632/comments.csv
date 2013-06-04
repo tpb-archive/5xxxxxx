@@ -1,0 +1,63 @@
+User Type,Username,Date,Text
+[V],polisdavid,2010-03-17T23:05Z,THANK YOU SEEDERS !!  ;-)
+,gkarma,2010-03-17T23:14Z,THANK YOU FOR THE UPLOAD !!!
+,ciprol,2010-03-18T00:40Z,"my hosts file already has,
+
+127.0.0.1	localhost
+
+What does this mean? Do I over-write it based on instruction?"
+[V],polisdavid,2010-03-18T04:50Z,"ciprol,
+
+If your hosts file is already correctly configured, then you don't have to add it again.
+
+dp"
+,goodwood,2010-03-18T05:45Z,"Version 2.2.1 caused KP on 1 of my 2 Hackintosh machines. Actualy I'm afraid to try this one, on that machine. Anybody else had this problem?"
+[T],NoggintheNomad,2010-03-18T19:10Z,"Seems to work fine on 10.6.2 Intel. Just waiting for the 3 hours to expire... Obdev are good at stopping serials, let's just hope no-one forgot to 'deny their connections'! Cheers, Polis."
+,ninline,2010-03-20T03:00Z,I bought this app for my mac.  This is what guards my ass and is the one piece of software that I can't afford to have problems with.  I wouldn't chance pirating it.  
+,danah2009,2010-03-20T13:05Z,"THANK YOU  
+THANK YOU  
+THANK YOU  
+THANK YOU  
+THANK YOU  
+THANK YOU  
+THANK YOU  "
+,sandrafan,2010-03-21T00:24Z,"@ciprol
+
+this: ""127.0.0.1 localhost"" means that you're telling your computer to interpret the hostname ""localhost"" as the IP address ""127.0.0.1"".  127.0.0.1 always points back to your own computer, so it's telling any address directed towards ""localhost"" as going directly back to your computer.
+
+if you added another entry like this: ""127.0.0.1 google.com"" it would tell any traffic from your computer directed towards google.com to loop back to your own computer, effectively blocking all traffic from your computer to google.
+
+so putting in whatever the instructions say, probably ""127.0.0.1 obdev.at"" if it's the same as other instructions i saw, means that any traffic sent out towards obdev.at would just get looped back to your own computer, blocking it.  you can have multiple listings in the hosts file that start with 127.0.0.1."
+,Drizzcol,2010-03-21T16:46Z,Thanx man! appreciate alot!
+,bazza76,2010-04-03T11:25Z,thanks man!
+,kerikino,2010-08-07T19:06Z,"All the Read Me files and everyone on the pirate bay says we have to disable:
+
+/Library/Little Snitch/Little Snitch UIAgent.app
+
+However, when I ran activity monitor this morning, I noticed--to my surprise--the UI Agent was running... at this location:
+
+/Library/Little Snitch/Little Snitch UIAgent.app/Contents/MacOS/Little Snitch UIAgent
+
+So I checked it out and low and behold the initial ui agent had package contents, with an additional ui agent within.  Does this mean the program will ultimately fail and snitch itself?  Or since the parent folder/application is disabled, we are safe?
+
+here is what activity monitor gave under open files and ports:
+
+/
+/Library/Little Snitch/Little Snitch UIAgent.app/Contents/MacOS/Little Snitch UIAgent
+/usr/share/icu/icudt40l.dat
+/private/var/folders/8O/8O+CsmguGHWszfwpDQPKmk+++TI/-Caches-/com.apple.LaunchServices-025501.csstore
+/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Resources/Extras2.rsrc
+/System/Library/Fonts/Helvetica.dfont
+/usr/lib/dyld
+/private/var/db/dyld/dyld_shared_cache_i386
+/dev/null
+->0x18b9ccec
+/Users/kerikino/Library/Logs/Little Snitch UIAgent.log
+/private/etc/security/audit_control
+count=1, state=0x2
+/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Resources/Extras2.rsrc
+/private/etc/security/audit_class
+
+
+
+please pardon any newbishness"

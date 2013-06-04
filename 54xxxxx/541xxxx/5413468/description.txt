@@ -1,0 +1,338 @@
+. 
+ 
+http://www.torrentday.com - Your Key To The Scene.
+ 
+http://www.torrentday.com :  Clean Scene Releases!
+
+
+...................................NFO:....................................
+
+.                                                    
+                                                          
+                                                
+                            
+                        
+           
+                     
+                
+pl             
+          
+   -    --
+    t h e   e n d    i s   t h e   b e g i n n i n g 
+-      --
+                                                                     
+
+  
+                      Preee v3.55 2010-03-05                     
+                                   (c)                            
+                               PARADOX                          
+                                                        
+                                              
+                                           
+                          
+                                  
+  Supplier : selfmade                             
+   Cracker  : paradox                                
+    Packager : paradox                      
+             
+ Release Date : 03/2010                       
+ Protection   : no.docu              
+ Num # Disks  : 03 * 4,77MB                
+ Rating       : 10/10                                  
+                        
+ Requirements : 586 CPU, +64MB ram                  
+                >20MB Hd-Space                    
+                a brain                                
+            
+ System       : [] W9X/ME   [] WinXP            
+              [] WinNT    [ ] Linux              
+              [] Win2k    [] Wine                     
+                      
+                              
+                                                      
+                                                           pl
+                                                             
+                                                          
+                                                         
+ RELEASE INFO:                                                
+ ~~~~~~~~~~~~~
+
+ It's a selfecoded application that we in paradox have coded. 
+           
+ It's not only an autotrader but also dupechecker, rls-search, rls-fxp, 
+ ftp-gui, news-checker, update-checker, irc-client, pre-engine,  
+ spread-engine... 
+           
+           
+              ***  Found a bug or have a suggestion?    *** 
+              ***  join irc -> linknet -> #PREEESUPPORT *** 
+           
+           
+ changes since last public release: 
+           
+   - new: icons improved (at least in my eyes) 
+   - new: updated scrapers from latest xbmc build 
+   - new: added all dupeengine scripts i did in the past  
+          (some might not work anymore) 
+   - new: a news get added to box if a request was filled by the bot 
+   - fix: auto - site invite 
+   - fix: minor gui bugs 
+   - new: updated the docu 
+   - fix: bug in !invite <site> fixed 
+   - new: speeded up the new SiteRules->DUPE checks 
+   - fix: bug in converting old rule syntax 
+   - new: better genre handling (especially for mp3s) 
+   - fix: several bugs for single-autotrade by irc 
+   - new: an error is written to maingui log when internal db seems to be broken 
+   - new: db scripts in config->dupe db->internal db will not be executed autom. 
+          when checkbox is disabled 
+   - fix: nuke extractions from broken/older preee bots are ignored 
+   - fix: bugs in watermark system where nfo was the only thing to watermark 
+   - fix: dupe(search) for trade logs will be ignored for sites where this is 
+          disabled 
+   - new: SiteRules->Dupe / this removes the option "skip pal after ntsc" and 
+          "skip ntsc after pal" (autoconverted) as this can be configured here. 
+          You can also configure to skip DVDRip after BDRip 
+   - fix: comboboxes didn't allow mousewheel 
+   - fix: !nfo and some other commands in internal channel didnt work 
+   - new: when adding a new Mask/Tag it will open the multifile form by default 
+   - fix: bug from previous release where siterules havent been saved correctly 
+   - new: removed checkboxes in sitemanager (enable/disable them in main gui) 
+   - fix: minor bugs while editing rules by popup menu 
+   - new: ability to refresh linked template lists by popup 
+   - new: site order list includes int_local now 
+   - new: internal tvrage script will only parse if there are tags in the  
+          tv release like SXXEXX and so on (before it searched also tv releases 
+          of e.g. sport events or docus) 
+   - fix: again bug in Get NFO on release list 
+   - new: ability to view last 10 nukes form selected sites (popup) 
+   - new: added some new templates from contributers (tnx) 
+   - new: a click on news box with content of siterule-change will open it  
+          in viewer and highlicht the line 
+   - new: improved streaming of none rar content 
+   - fix: mp3s got never streamed (instead nfo was tried to stream to VLC) 
+   - fix: minor bug in release search (tags in section path didnt get replaced) 
+   - fix: auto nuker could have aborted running VLC stream 
+   - new: improved site-list which should result in a much faster gui 
+   - fix: no longer incorrect ul/dl icons 
+   - new: ability to use $year/$month/$week/$day ... in SiteRules->nfo 
+   - new: a doubleclick on a request in news box opens sites and its requestdir 
+   - fix: in Get NFO on release list 
+   - fix: genre skip issues with mp3s 
+   - fix: minor bug in later ul/dl 
+   - new: option to set a order of sites to fill first 
+   - fix: improved mp3 genre parsing 
+   - new: line number in site rules output 
+   - new: new options to trade a release only if it was detected in specific 
+          sources (e.g. irc channel, sites, plugins...) 
+          see config->RlsTicker/trade 
+   - fix: bug in rls-info adding 
+   - new: linked rule-templates in site rules 
+          this way you only have to edit one template and changes apply to all 
+          sites/sections where this linked template is added 
+   - new: cosmetic changes in release list 
+   - new: !reloadrule <site> command 
+   - new: multi select in site rule lists 
+   - new: displaytime of hints increased 
+   - fix: minor bugs in incomplete detection 
+   - new: improved file-list parsing under multitrade 
+   - new: for a release in the list you got now the info where it was  
+          first detected and when 
+   - new: improved check for later ul/dl 
+   - new: improved nuke-detection while trading 
+   - new: save of release list column width 
+   - fix: site rules get saved only when user changes section or site or  
+          goes out of config form 
+   - new: small gui fixes 
+   - new: improved trade logging 
+   - fix: minor bug which resulted in no fxp (and no further tries)  
+          in rare situations 
+   - new: $today / $yesterday support in sql-queries (will replace  
+          variables with yyyy-mm-dd and not with mmdd as in pathes) 
+   - new: ability to set int_local (ul/dl to local hd) to prefered sites 
+   - new: added abook template 
+   - new: news get saved now and are available on restart 
+   - fix: another deadlock 
+   - fix: "skip all dupes" will now ignore ul of proper/working/dizfix and so on 
+   - fix: "skip all dupes" will not skip if the rls was under a different  
+          section (e.g. /xvid vs. /x264) 
+   - new: all files will be uploaded in lowercase now (even if source has  
+          mixed/uppercase) 
+   - fix: small bug in one class with case sensitive 
+   - new: !getrls <rls> <site> <sec> will ul a rlease to that site rule section 
+   - new: releases will not get checked if it was detected as complete before on 
+          that site 
+   - fix: news box columns 
+   - new: removed "PRE: YES" information since it doesnt get used (use 
+          !searchgroup to see if you have that on a site) 
+   - new: affil detection in mouse over -> release infos 
+   - fix: bug in search release list 
+   - new: improved release checking a bit more 
+   - fix: bug from previous release with rule-skip flags 
+   - new: better checks to skip files who have been uploaded in wrong folder 
+   - fix: some bugs from previous release which caused a lot crashes (I  
+          warned you) ;) 
+   - fix: again some deadlocks from yesterdays build 
+   - new: improved dir parsing 
+   - fix: bug from yesterdays build with "seperate cradits" 
+   - new: much faster site-rule checking 
+   - new: bug in nfo-siterule checking 
+   - new: faster site search 
+   - fix: minor bug with yesterdays build 
+   - new: site rules are cached now which should make things a lot faster 
+          as no file has been loaded before siterule checking 
+   - new: a realease get extracted from irc now even if a ! is the  
+          first char in that line 
+   - new: date in release list has color according to the current date  
+          (green = today, yellow.., red = not this year) 
+   - new: !search with not found result gets posted in red (feature request) 
+   - new: execute nuke/unnuke is off by default now 
+   - fix: stupid bug where pree uploaded to different folder/drive on local hd 
+   - new: improved file filter 
+   - fix: fxp might have truned a cureently offline set site on again 
+   - new: several rule templates improved (e,g, skip_internals.rt,  
+          xbox, xbox360...) 
+   - new: added template SampleCD (not perfect) and might also go to  
+          Utils on some sites 
+   - new: ability to set a site to "prefered fxp from" for all others 
+   - fix: site rule wizzard checks if a site is connected before it continues 
+   - fix: in site rule wizzard sections like MDVDR will no longer be detected 
+          as DVDR ans alike 
+   - fix: !searchsections didn't parse correctly 
+   - new: release list with columns 
+   - new: release list should be much faster now (syncing with threads) 
+   - fix: thread safe search-buffer 
+
+ ATTENTiON:
+ ~~~~~~~~~~
+
+ We have open positions to fill:
+
+ If you are a talented:
+
+  - cracker
+  - supplier
+  - dump owner
+
+ please do not hesitate and
+  contact us now:
+
+ send us a site-msg else we are not available for u.
+
+
+ NOTE: Please neither request nor ask any stupid
+        questions like how do i apply a crack!
+
+ WE NEiTHER SUPPORT FREE NOR COMMERCiAL DiSTRiBUTiON OF
+  OUR RELEASES!
+
+ WE NEiTHER SELL CDs, FXP OUR RELEASES, SHARE THEM iN
+  ANY KiND OF P2P NETWORK NOR DCC THEM TO ANYONE!
+
+ WE DO NOT WANT OUR RELEASES THERE AT ALL! YOU ARE
+  NOT SUPPORTiNG US iN ANY WAY iF YOU SPREAD
+   OUR STUFF AROUND!
+
+ ONLY GAY MOTHERFUCKERS DO THAT, WE SHiT ON YOU!
+
+  OUR RELEASES ARE MENT FOR THE SCENE ONLY AND NOT FOR
+   ALL YOU WAREZ HUNGRY FUCKERS!!!
+
+
+ INSTALL NOTES:
+ ~~~~~~~~~~~~~~
+
+  unZiP, unRAR or use our installer 
+  
+
+                                                   
+                                                                     
+                                                           
+                    
+                                       
+                                          
+                                        
+                                        
+                        
+                                     
+                                                     
+                                                        
+                                                         
+                         We know, who's in and            
+                                                  
+          who's NOT !!!                
+                                            
+                                                         
+                                                             
+                                                      
+                                                     
+                                                           
+                                                        
+                                                     
+                                                       
+                                                      
+                    
+                       
+                                             
+pl                                          
+                 
+              
+          
+               
+                         
+         
+                                  
+                                                  
+                                          
+                                               
+  If you are a talented:                      
+                                               
+   - cracker                          
+   - supplier                             
+   - dump owner                                        
+                                                           
+  please do not hesitate and                        
+   contact us now:                                
+                                                       
+  send us a site-msg                                   
+                                                  
+          BOARDS:             
+           DONT APPLY, BBS SCENE IS DEAD               
+                     
+                         
+                                                       
+                                                
+                                            
+                                   
+                                      pl  
+                                
+                                      
+                    
+                                       
+                                                     
+                                                          
+                             N E W S F L A S H !          
+                                                        
+             We still do it just for fun!      
+                                       
+                                            
+                                                         
+                                                             
+                    Greets are going out to:          
+                       
+                     BACKLASH  PANTHEON  CLASS  HS     
+                    DYNASTY  COUNCIL  GENESIS  NAC     
+                PDXCONSOLE  MYTH  AOD  LND        
+                                                      
+                                                            
+                              
+                          
+pl                             
+                     
+  
+ 
+      
+              
+                         
+                                      
+Nfo Characters and Layout by Puschel<sac>   -  Last updated :     2002/02/25

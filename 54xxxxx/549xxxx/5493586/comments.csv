@@ -1,0 +1,116 @@
+User Type,Username,Date,Text
+,Klaytor,2010-04-13T21:42Z,Serials work for now.
+,Klaytor,2010-04-13T22:41Z,"I installed and used Photoshop, Flash, Fireworks, and Dreamweaver. They work great!
+Thanks."
+,ilefx,2010-04-13T23:11Z,"there maybe will be fix in the final ver 
+
+but first needs to be released "
+,jammeke,2010-04-14T05:37Z,Need the Dutch Mac version
+,Saiyavenger,2010-04-14T11:10Z,The codes no longer work. Any idea on when we'll get new codes?
+,ilefx,2010-04-14T21:35Z,"in Adobe PCD  delete cache.db but keep pcd.db
+
+and try again 2 put the serial "
+,astronim,2010-04-14T22:06Z,"serial don't work!
+http://img697.imageshack.us/img697/3526/psop.png"
+,ilefx,2010-04-14T22:37Z,"block first 1325-1118-5864-4422-1094-1166 enjoy test it
+
+block this for now  works ok
+
+127.0.0.1 activate.adobe.com
+ 127.0.0.1 practivate.adobe.com
+ 127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+ 127.0.0.1 wip3.adobe.com
+ 127.0.0.1 3dns-3.adobe.com
+ 127.0.0.1 3dns-2.adobe.com
+ 127.0.0.1 adobe-dns.adobe.com
+ 127.0.0.1 adobe-dns-2.adobe.com
+ 127.0.0.1 adobe-dns-3.adobe.com
+ 127.0.0.1 ereg.wip3.adobe.com
+ 127.0.0.1 activate-sea.adobe.com
+ 127.0.0.1 wwis-dubc1-vip60.adobe.com
+ 127.0.0.1 activate-sjc0.adobe.com
+ 127.0.0.1 adobeereg.com "
+,vincent9679,2010-04-16T02:57Z,What do I block those IPs with?
+,Ploedman,2010-04-16T09:44Z,search for the host file and copy & paste the ips over this comment
+,N1KY,2010-04-16T12:58Z,"for winXP ->
+C:\WINDOWS\system32\drivers\etc 
+open ""hosts"" file with notepad and copy-paste this"
+,hunnicuddler,2010-04-19T02:08Z,Why does the Activate.exe wants to start on Start Up and why does it stop my AV from initialising?? I keep getting error reports from it as well.. but why do I need it?
+,Dfewer,2010-04-20T21:26Z,Got it working on Win 7 64bit. Blocked list of IPs and have had no registration problems so far for three days.
+,tehmoshee,2010-04-24T19:32Z,I tried to add those IPs to the hosts file and it still blacklists all of the serials I've tried :( What am I doing wrong?
+,TheStrengthGamer,2010-04-25T17:36Z,Not bad :)
+,ilefx,2010-04-30T08:26Z,"http://www.adobe.com/cfusion/tdrc/index.cfm?product=master_collection
+
+TRIALS OPEN"
+,mrmanga88,2010-05-01T04:02Z,Adobe.Creative.Suite.5.Master.Collection.Keymaker.Only-CORE.7z  http://www.envirofile.org/download/32468
+,Fireater989,2010-05-19T22:00Z,"Thank you soo much, the first serial worked on first try. To users having problems, add the lines mentioned by the uploader to your hosts file if the serial won't work. To get to your hosts file, go to C:/Windows/System32/drivers/etc
+and open the hosts.file with Notepad and paste the lines in and save. You might have to log off or restart but I doubt it."
+,kauken,2010-06-03T12:48Z,"PLEASE HELP.
+
+Cant evade ( get past) the activation code popup.
+
+I have to each time use the keygen on startup, fine, but when u have Photoshop, illustrator, Dreamweaver, Flash etc it gets kind of irritating AND I guess I?m gone run out of codes!!
+
+I have done as described: used the ?127.0.0.1 activate.adobe.com? in
+Windows / system 32 / drivers / etc / hosts
+
+?Screenshot?
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+
+# localhost name resolution is handled within DNS itself.
+# 127.0.0.1 activate.adobe.com
+# ::1 localhost
+
+127.0.0.1 tools.bvrp.com
+
+
+AND I have also tried adding many many lines as: 
+
+127.0.0.1 activate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 adobe.activate.com
+127.0.0.1 adobeereg.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 125.252.224.90
+127.0.0.1 125.252.224.91
+127.0.0.1 hl2rcv.adobe.com"
+,jean_eudes_du_53,2010-12-06T12:38Z,"Don't download, it'll not work !"
+,Lionel07,2010-12-30T21:51Z,Should I add it to SysWOW64 too? Or is it System32 only?
+,insickness,2011-05-19T22:13Z,Do I need to block 6464799168?
+,vinwe,2011-05-24T19:15Z,"Can ANYONE upload and share the 'Adobe Dynamic Link' application that is part of master collection?..
+
+There is something out there that hacks master collection and deletes Dynamiclink.app, which makes the whole suite collection not work."
+,quinndi,2011-10-03T00:07Z,"1325-1145-9329-8504-4109-5334
+
+please try that serials... it works on me"
+,svetkopetko5,2011-10-31T13:01Z,@robemumzho FUCK OFF! EAT DICK AND DIE LOOSER with your spamming of gay ass affiliate garbage.
+,studddownloader,2012-01-30T11:32Z,1325-1476-6551-7242-1245-7100 this serial worked for me. got it from http://cs5mXstercollectionseriXl.com (replace Xs with As) this is where i got this serial from and worked fine for me

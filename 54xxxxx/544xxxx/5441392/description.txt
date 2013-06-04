@@ -1,0 +1,8 @@
+Created with NDS Slot-2 Backup tool 
+may freeze from security checks on flashcarts
+if you experience black screen on no$gba put this code in
+
+020DD9E4 E1A00000
+020D3820 E1A00000
+ 
+enjoy

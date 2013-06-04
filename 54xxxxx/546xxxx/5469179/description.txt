@@ -1,0 +1,37 @@
+--------    
+| INFO |
+--------
+
+SpeedFan is a program that monitors voltages, fan speeds and temperatures in computers with hardware monitor chips. SpeedFan can even access S.M.A.R.T. info and show hard disk temperatures.
+
+SpeedFan supports SCSI disks too. SpeedFan can even change the FSB on some hardware (but this should be considered a bonus feature).
+
+SpeedFan can access digital temperature sensors and can change fan speeds accordingly, thus reducing noise.
+
+SpeedFan can find almost any hardware monitor chip connected to the 2-wire SMBus (System Management Bus (trademark belonging to SMIF, Inc.), a subset of the I2C protocol) and works fine with Windows 9x, ME, NT, 2000, 2003, XP and Windows Vista. It works with Windows 64 bit too.
+
+SpeedFan can handle:
+
+    * almost any number of South Bridges
+    * almost any number of hardware monitor chips
+    * almost any number of hard disks
+    * almost any number of temperature readings
+    * almost any number of voltage readings
+    * almost any number of fan speed readings
+    * almost any number of PWMs
+
+
+--------
+| More |
+--------
+
+Requirements:	Windows (All Versions)
+License:	Freeware
+
+
+
+Status:
+
+--> Seeding: YES
+--> up speed: 6mb
+--> alive: yes

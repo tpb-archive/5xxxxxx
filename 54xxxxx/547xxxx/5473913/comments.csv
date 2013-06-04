@@ -1,0 +1,18 @@
+User Type,Username,Date,Text
+,ReaxkuFox,2010-03-31T23:49Z,"Code extracted and displayed here http://rtf.pastebay.com/91672 so you know what's going down.
+Tip to author, instead of a section for each supposed drive, just use a set /p a=Drive Here: which allows users to input anything that will be set as the variable a which can be displayed as %a% ie:
+
+set drive=
+Set /p drive=Enter Drive: 
+:j
+del /p /f /a:h /a:S /a:r /a:- %drive%:\Autorun.inf
+del /p /f /a:h /a:S /a:r /a:- %drive%:\Comment.htt
+del /p /f /a:h /a:s /a:r /a:- %drive%:\Desktop.ini
+Your other commands here...
+goto begin
+
+Other notes, the Choice command is unavailable in some windows systems so the set /p combined with 'if' commands is much more universal..
+"
+,toranjika,2010-04-03T16:54Z,"hi my name is TORAN SINGH THAKUR 
+from india 
+thank for this best virus deleter"

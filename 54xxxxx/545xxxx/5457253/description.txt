@@ -1,0 +1,111 @@
+This is the Carmageddon 2 "ZOMFG" Pack, Version 5 (says 4 in text file - mistake on my part)
+
+== What's New ==
+
+- Some original car models replaced by high-res ones.
+- High-res blood patch.
+- High-res pedestrian models pack.
+- Improved "Car Wasted" explosion effect.
+- New Car / Ped Sounds.
+- Applied the V2.0 Super Patch & XP/Vista patch.
+- Added a whole bunch of extra peds, amongst them the "GOATY" ped which was left out of the game by SCi.
+- Replaced some drones by newer models:
+  generic city cars, 747 in Beaver County Airport and train in Beaver Woods
+- Shitloads of extra cars! There are 138 cars in total now.
+  Drive cars from Carmageddon 1, 3, movies/tv, and some other oddities.
+- Meddled with settings; draw distance has been increased, magnets and air vents in Max's Junkyard work now.
+  Also increased texture and sound detail level. See below for more information on this.
+- Supplies with a 'Completed Game' savegame.
+- Supplies with Zeckensack's Glide wrapper for playing the game in high resolutons.
+
+- Deleted all 'thumbs.db' files in some addon image folders.
+  Also deleted all other 'cruft' files.
+  Seriously people, clean your directories before uploading stuff.
+  It may just be a few files / Kb's per folder but this quickly amounts to Mb's / hundreds of files
+  when more and more folders/addons are installed, which means unnecesary bits to download 
+  thus longer download times.
+
+- Included the add-on installation files.
+
+
+== Changes==
+v5 - added a bunch of new peds, re-tested all car addons.
+v4 - added 10 more Carmageddon 1 cars
+v3 - changed config options / found bugs
+v2 - changed config options due to bug
+v1 - initial release
+
+
+== General Notes of General Interest ==
+
+* You want to install the Glide Wrapper first.
+  After installing, run configurator.exe to set up the resolution and such.
+  After this the Carmageddon 2 startup menu should show the "Glide" option to be available.
+
+  THE ZECKENSACK'S GLIDE WRAPPER CAUSES SOME ANTI VIRUS PROGRAMS TO GIVE A FALSE POSITIVE!!!
+  There is no virus/trojan in the Zeckensack's Glide Wrapper, you can install it without worry.
+  Google for 'Zeckenzacks Glide Wrapper Virus Warning' if you want to confirm the false positive yourself.
+
+* If you go to the settings; the game will overwrite the manual settings.
+
+  Go to data/options.txt and change 'Yon 35.000000' to 'Yon 125.000000', this will increase draw distance.
+  You can set the Yon higher, but it will start to cause visual bugs and drops the framerate.
+  The next things you want to change are
+  CarTexturingLevel, RoadTexturingLevel, WallTexturingLevel, ShadowLevel and SoundDetailLevel.
+
+  Set all of these to 3, this will cause textures to be drawn without that ugly blur right in front of the car.
+
+  Setting "SoundDetailLevel" to 3 will let you hear your opponents cars, altough it sometimes causes
+  your own engine to 'drop out' due to the game's engine not being able to handle that much sounds playing at once.
+
+  Set "RusselsFannies" to 1 to make the magnets and air vents in Max's Junkyard work. If this option does not exist yet, add it.
+
+  NOTICE: Setting the Yon too high will cause the engine to glitch and crash on some levels.
+  The level mostly affected by this seems to be the ship. Set Yon to 60 or lower to play this map.
+
+* Check out http://carma.jjunkies.com/ for more of this goodness!
+
+
+This Pack was created by SireCP. Credits for mods should go to their respectable authors.
+I did not create any custom content, only added new stuff and edited a few game files.
+Once again, credits for mods should go to their respectable authors.
+
+
+== Installation Notes ==
+
+[WINDOWS]
+Download and install the 7-zip archiver (if you have not installed this yet) at: http://www.7-zip.org/. 
+ 
+[LINUX]
+Use your favorite distribution's package management tool to install the p7zip program.
+You might like a graphical frontend for your zip programs; you can try file-roller for Gnome, ark for KDE or xarchiver for X(fce).
+ 
+Also be sure to install wine to be able to run windows programs and games on linux.
+ 
+[ALL SYSTEMS]
+After installing the neccesary tools, extract the archive into its own folder.
+There is no need to extract it over an already existing carmageddon 2 installation.
+ 
+Now you can start the game by either double clicking "carma2.exe" in windows, 
+or cd'ing to the Carmageddon 2 ZOMFG pack folder and running "wine carma2.exe" in linux.
+
+
+== Disclaimer ==
+
+Please note that I do not and can not take any responsibilities for this pack.
+I think I'm not even supposed to share many of these cars in this way, but what the hell,
+the game is like 10 years old or something, someone had to do it.
+Either way if this pack fucks up your life, computer etc etc,
+which it theoretically should not since I tested all this crap myself,
+tough luck for you.
+
+
+== Final Note ===
+
+This (version 5) is the last release of the ZOMFG pack from my hand. Yes, really!
+Feel free to take over the Carmageddon 2 ZOMFG pack management from here.
+I have included all used add-ons in a 7zip file so *you* can pick up and continue the 'update' process easier.
+
+Comments and Questions should go to robert[dot]tigelaar[monkeytail]gmail[dot]com
+
+I would be grateful to hear who is taking over the pack management. This game ain't dead yet! :)

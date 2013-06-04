@@ -1,0 +1,39 @@
+Duplicate File Detector is a powerful tool to search for file duplicates on your computer. It can find duplicates of any files: text, binary, music or image. Algorithms used in the program allow for quickly analyzing of content of small and large files. The following criteria can be used search for duplicates: filename, file size, or file content. For multimedia files (MP3, OGG/Vorbis, WMA), the content of the following tags can be also analyzed: "Artist", "Album", "Title" and "Comment".
+
+Features:
+* Search is performed in specified folders and drives.
+* You can specify a set of folders, which will be excluded from search.
+* Search for duplicates of music and video files.
+* Search for duplicates of digital photo files.
+* Search for duplicates of executable and any other files.
+* When searching, you can filter files by size, creation date and specify masks such as *.jpg;*.png;img??.bmp;
+* When the scanning process is finished, you will see the full list of files, which were analyzed as well as the list of found duplicates. The duplicates will be marked and you will be able to delete them with a single mouse click.
+* Content analysis is performed using one of the following algorithms: Adler32 CRC32 CRC32B HAVAL128 HAVAL160 HAVAL192 MD2 MD4 MD5 RIPE-MD128 RIPE-MD160 SHA1 TIGER128 TIGER160 TIGER192. There is an option to analyze only a part of the file (10KB, 20KB, 30KB, 40KB, 50KB, 100KB, 200KB, 300KB, 400KB, 500KB, 1MB, 2MB, 3MB, 4MB, 5MB, 10MB, 50MB, 100MB).
+* Analysis of ID3v1 and ID3v2 tags as well as tags in WMA and OGG files.
+* Group copy, move and delete commands, which can be applied to the list of duplicates and to the general file list.
+* Folder history (copying, moving) is stored, so they can be easily selected in the future.
+* By default, files are deleted to the recycle bin.
+* Convenient navigation tools allow for easy navigation in the duplicate list.
+* Markers display the current state of the file (marked, deleted, moved etc...).
+* Built-in file viewer allows you to analyze the content of the file before deciding what to do with it.
+The built-in file viewer allows viewing of the following file types:
+Images: JPEG images, Standard Windows bitmap images (*.bmp, *.rle, *.dib), Photoshop images (*.psd, *.pdd), Paintshop Pro images (*.psp), Portable network graphic images (*.png), TIFF images (*.tif; *.tiff), GFI fax images (*.fax), SGI images (*.bw, *.rgb, *.rgba, *.sgi), Autodesk images files (*.cel; *.pic), Truevision images (*.tga; *.vst; *.icb; *.vda; *.win), Paintbrush images (*.pcx, *.pcc), Kodak Photo-CD images (*.pcd), Portable pixel/gray map images (*.ppm, *.pgm, *.pbm), CompuServe images (*.gif)
+Text files : (*.txt, *.c, *.cpp, *.h, *.hpp, *.pas, *.dpr, *.inc, *.ini, *.log, *.bat, *.cmd, *.inf, *.url, *.php, *.php2, *.php3, *.def, *.dsp, *.dsw, *.dpk, *.dpkw, *.bpg, *.bpr, *.mak, *.bas, *.tex, *.css, *.js, *.pm, *.awk, *.cla, *.clw, *.for, *.prg, *.spr, *.mpr, *.java, *.cgi, *.cls, *.sty, *.v, *.wrl, *.sh, *.sql, *.cfg, *.ctl, *.ion, *.diz, *.nfo, *.bbs, *.cnt, *.md5, *.sfv, *.manifest, *.uue, *.xxe)
+RTF files (*.rtf)
+Multimedia files: any files supported by MS Windows Media Player ( *.avi, *.mpg, *.mpeg, *.mpe, *.mpv, *.mp2, *.mp1, *.m1v, *.m2v, *.mpv2, *.mp2v, *.mpa, *.m1a, *.m2a, *.asf, *.lsf, *.lsx, *.ivf, *.wav, *.mid, *.midi, *.rmi, *.mp3, *.aif, *.aifc, *.aiff, *.au, *.snd, *.mov, *.qt, *.3gp, *.3gp2, *.3g2, *.3gpp, *.ra, *.rm, *.ram, *.rmvb, *.rpm, *.rt, *.rp, *.smi, *.smil, *.roq, *.asx, *.m3u, *.pls, *.wvx, *.wax, *.wmx, *.wmv, *.wma, *.wmp, *.wm, *.cda, *.ac3, *.dts, *.vob, *.ifo, *.d2v, *.fli, *.flc, *.flic, *.mka, *.mkv, *.ts, *.tp, *.tpr, *.pva, *.aac, *.mp4, *.ogm, *.ogg, *.divx, *.vp6, *.m4a, *.m4b, *.vqf, *.ape, *.mpc, *.flac). Such files are displayed using MS WMP ActiveX-control.
+Binary files : any files (unlimited size). Simple file dump can be viewed as binary/hexadecimal or Unicode. Only the currently viewed portion of the file is loaded into memory. This mode is ideal for very large files or files of unknown type.
+Internet files : any files supported by MS Internet Explorer. Such files are displayed by MSIE ActiveX-control. (*.htm, *.html, *.htx, *.shtml, *.xhtml, *.shtm, *.stm, *.xml, *.xsl, *.asp, *.pl, *.vrml, *.plg, *.mht, *.htt, *.wbk, *.wps, *.csv, *.swf)
+Saving current session when leaving the program. At the next program startup you will be able to continue working with the same data.
+Multilanguage interface with support for Unicode languages (English, Russian)
+
+Why search/delete file duplicates:
+Free hard drive space and reduce fragmentation
+Sort and order information on your PC
+Reduce the time required to find necessary information
+Search software (such as Google Desktop) will require less space to store index and the indexing process will speed up
+Reduce the time required to perform data backup
+Reduce the time required for antivirus check
+
+Tested And Working
+
+Enjoy

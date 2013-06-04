@@ -1,0 +1,216 @@
+Copied from eMule Project Homepage:
+
+
+What is eMule?
+At dawn of  May 13th 2002 a guy called Merkur was dissatisfied with the original eDonkey2000 client and was convinced he could do better. So he did.
+He gathered other developers around him, and eMule Project was born.
+Their aim was to put the client back on track where eDonkey had been famous before, adding tons of new features and a nice GUI.
+They couldn't imagine what impact this decision would have... 
+
+As of today, eMule is one of the biggest and most reliable peer-to-peer file sharing clients around the world. Thanks to it's open source policy many developers are able to contribute to the project, making the network more efficient with each release. 
+
+What does eMule mean?
+The name "eMule" comes from an animal called "Mule" which is somehow similar to a donkey ;) 
+
+How often is eMule updated?
+eMule is not updated regularly, but at the moment the frequencies are between 1 and 3 months.
+Don't take this for guaranteed. :) 
+
+
+A list of a few features available.
+
+Clients use several networks to create one reliable network.
+(ED2K, Source Exchange, Kad) 
+
+Kad is now in an open testphase, eMule v0.42 can be enabled to use Kad 
+
+eMule's Queue and Credit system helps to ensure that everyone will get the file he wants by promoting those that upload back to the network. 
+
+eMule is completely free. eMule is also completely free of any Adware, Spyware, and ect. We do this for fun and knowledge, not for money. 
+
+Each file checked for corruptions while downloading to ensure an error free file. 
+
+The eMules Intelligent Corruption Control helps to speed up the correction of corrupted parts. 
+
+Auto priorities and Source management allows you to start many downloads without having to monitor them. 
+
+The Preview function allows you to look at your Videos and Archives before they are completed. For video previewing, we recommend the Video Lan Client. 
+
+The eMule features webservices and a webserver that allows you to have quick access to and from the internet. 
+
+You can create categories for your download to organize them. 
+
+To find the file you want, eMule offers a wide range of search possibilities which include: Servers (Local, and Global), web based (Jigle, and Filedonkey), and Kad (Still in Alpha). 
+
+eMule also allows you to use very complex Boolean searches that make the searches much more flexible. 
+
+With the messaging and friend system, you can send messages to other Clients and add them as friends. In your friend list, you can always see if a friend is online. 
+
+With the build in IRC client, you can chat with other downloaders and chatters around the globe.
+
+
+
+This is the complete changelog since the eMule 0.49c release:
+
+
+eMule 0.50a BETA1
+-----------------------
+- Mar, 8. 2010        -
+-----------------------
+.: Fixed a bug which caused the "Add files to download in paused mode" otpion to not work properly in all cases
+.: Fixed a visual glitch on taksbar notifiers when using the Aero theme [gureedo]
+
+-----------------------
+- Mar, 3. 2010        -
+-----------------------
+.: Added Windows 7 taskbar goodies:
+   - Global progress bar in the eMule taskbar button, progress colors: green when downloading, red when a download is errorous, yellow otherwise
+   - Taskbar Buttons: when hovering over the eMule taskbar button (connect/disconnect/throttle/unthrottle/open preferences)
+   - Overlay icon:    Overlay icon on the eMule taskbar button indicating active up- and downloads (disabled by default, enable by ini entry "ShowUpDownIconInTaskbar=1"). 
+
+-----------------------
+- Mar, 1. 2010        -
+-----------------------
+.: Tweaked uploadcode to significantly increase the possible uploadspeed per slot especially on LANs, making eMule more suitable for those
+.: The number of maximal open upload slots has been decreased to 100
+.: Fixed a bug which caused the "Add files to download in paused mode" otpion to not work properly in all cases
+
+-----------------------
+- Feb, 28. 2010       -
+-----------------------
+.: Fixed a problem with the sharedfiles list when deleting a shared files [dolphinX]
+.: Fixed minor possible memory/ressource leak in the archive recovery and ipfilter [dolphinX]
+.: Fixed possible problem when wrong incoming directory due to categories in certain cases [dolphinX]
+
+-----------------------
+- Feb, 19. 2010       -
+-----------------------
+.: Fixed a bug in Kad which would not enforce the search tolerance in certain cases
+.: Changed Kad to work better in small LANs. If Kad detects it is running on a LAN (only LAN IPs in the routing table), it will assume beeing open and not behind a NAT/Router without trying to verfiy (which would fail in a small LAN),
+        and also doesn't enforces several security features like flood detection for LAN IPs. Now even a small Kad LAN of 2 nodes works well without any setup issues
+(To create such a Kad LAN, make sure all clients have Options->Extended->"Filter server and client LAN IPS" disabled, delete the existing nodes.dat if necessary, go to the Kad dialog and enter the IP+Port of one other client (which is either connected or in connecting mode for Kad) to the bootstrap box - done)
+
+-----------------------
+- Jan, 25. 2010       -
+-----------------------
+.: The connection wizzard is no longer shown after finishing the first start wizzard (it's deprecated)
+.: The first start wizzard is only shown on first starts and no longer after updates
+
+-----------------------
+- Jan, 21. 2010       -
+-----------------------
+.: Added a new graph to the Kad window, which lets you watch each Kad lookup in detail. For non-Devs this is just for fun, you don't need to worry about anything shown there. A detailed explanation of the graph can be found in the onlinehelp.
+.: Added "Automatically show active searches" option to the context menu of the new graph which lets it switch to active lookups automatically (instead having to select it in the list). Now you can watch Kad working for hours without a click! :)
+
+-----------------------
+- Jan, 12. 2010       -
+-----------------------
+.: Added a new dockable toolbar to the transfer dialog. The buttons resemble the context menu options, but making them accessible easier and faster. The toolbar can be removed by right clicking on it and shown again by selecting context menue option of the downloadlist
+
+-----------------------
+- Jan, 10. 2010       -
+-----------------------
+.: The context menu in of the downloadlist allows now directly assign a file to a new category (instead of having to create it separately first)
+.: The "Unassign" category context menu entry is now only available if a file actually has a category
+
+-----------------------
+- Dec, 7. 2009        -
+-----------------------
+.: Fixed missing setting saving after automatic adapting incoming folders of categories due to changed main incoming folder
+.: Fixed a bug with overwriting the nodes.dat on times we actually don't want to write it [Nissenice]
+.: Added a quick intermediate fix to make certain Kad lookups more reliable, improving the (search/source-) results in some cases [based on research from http://www-users.cs.umn.edu/~hopper/kad.pdf]
+
+-----------------------
+- Nov, 28. 2009       -
+-----------------------
+.: Switched the eMule fileidentifiers from ED2k-Hash + Size to ED2k-Hash + AICH-Hash + Size. This means eMule is now using two hashing algorithms combined (based on MD4 and SHA1) to verify if a received part (and eventually the comlete files) is not corrupt
+   This change is necessary due to weaknesses in the MD4 algorithm and enables eMule to make sure to never complete a corrupt files for the next decade
+   All changes are backwards compatible, so no clients or files will be exluded from the network
+.: AICH part hashsets are build out of existing AICH recovery hashsets, no rehashing is done
+.: AICH verification is enabled when using an ed2k link with included AICH hash, or when searching and downloading a file from Kad when certain requirements are met (this will only start to work once the majority of nodes update)
+.: The AICH hash can be seen in the search results list for kad searches if available
+.: ed2k links can no longer be created without the AICH Hash, except if it is not available. ed2k links without AICH hash are considered deprecated, but are still accepted by eMule for now
+
+-----------------------
+- Nov, 15. 2009       -
+-----------------------
+.: The shared files list now shows files in root directories properly [dolphinX]
+.: Fixed a bug with determining if the filesystem can handle large files when using categories [dolphinX]
+.: Added preferences.ini-only option "KeepUnavailableFixedSharedDirs" ("eMule"-Section) which lets eMule keep shared directories on fixed drives even if they are not found anymore
+.: Fixed minor memleak on kad searches [tHeWiZaRdOfDoS]
+-----------------------
+- Oct, 13. 2009       -
+-----------------------
+.: Added preferences.ini-only option "ForceSpeedsToKB" ("eMule"-Section), which will make eMule display all speed values in KB/s (instead of B/s to TB/s depending on the speed)
+
+-----------------------
+- Aug, 7. 2009        -
+-----------------------
+.: The shared files dialog has now a tab selector, letting you choose to view the statistics,(reduced versions of) the content, ed2k-link or metadata info for the selected file(s)
+.: The statistics page on in the shared files dialog also has the following new entries: Popularity rank (ranking all your shared files based on Requests), On Queue (clients on queue for the selected file) and Uploading (current bandwidth used to upload the selected file)
+.: The new tabs in the shared files dialog can be closed or restored by an arrow button on the right side
+
+-----------------------
+- Aug, 3. 2009        -
+-----------------------
+.: Fixed possible resource leaks in ZIP file decompression [tHeWiZaRdOfDoS]
+.: Fixed sorting bug in Shared Files window [moloko+]
+
+-----------------------
+- Aug, 2. 2009        -
+-----------------------
+.: Fixed bug with downloading files via the built-in webserver [Stulle]
+.: Fixed double/single click behaviour in search results window [tHeWiZaRdOfDoS]
+.: Fixed bug in user hash validation [ilmira]
+.: Fixed bug with space characters in ED2K URLs [moloko+]
+
+-----------------------
+- Jul, 25. 2009       -
+-----------------------
+.: Fixed a bug which made search tabs in certain cases invisible after you closed one
+
+-----------------------
+- Jul, 20. 2009       -
+-----------------------
+.: Cleand up options dialog a bit:
+   The following settings have been removed and are now preferences.ini-only: "BeepOnError", "DontRecreateStatGraphsOnResize", "UpdateQueueListPref", "MessageFromValidSourcesOnly" (Section "eMule") and "EnabledDeprecated" (section "PeerCache")
+.: The exit conformation messagebox has now a "Don't ask me again" option
+.: Added "Pause on when preview possible" option to the downloadlist context menu. Only visible when "advanced mode controls" is enabled
+
+-----------------------
+- Jul, 09. 2009       -
+-----------------------
+.: Improved storing AICH hashsets after a download has finished - should be much faster now if you share many files
+.: Sparse files are available on Windows7 again, Vista stays the only version were they are disabled
+
+-----------------------
+- Jun, 12. 2009       -
+-----------------------
+.: Added basic checks and user warnings for wrong operator usage (like using OR on the first keyword) in Kad. Earlier version just delivered wrong/incomplete results in such cases.
+
+-----------------------
+- Jun, 10. 2009       -
+-----------------------
+.: Fixed a bug in Kad with setting the proper searchkeywords when searching for exact phrases with quotes
+.: Fixed a bug with rearranging quoted keywords on kad searches
+
+-----------------------
+- Jun, 2. 2009        -
+-----------------------
+.: Kad1 is no longer supported and we will no longer answer or request any packets from Kad1 nodes (the last eMule Kad1 version was release about 4 years ago)
+
+-----------------------
+- Mar - May 2009      -
+-----------------------
+.: eMule Summer of Non-Code :)
+
+
+ED2K Link:
+ed2k://|file|eMule0.50a_BETA1-Installer.exe|3382198|A25087410B0B737AB1D6ED03DAB579ED|h=DU2TG3BPHBZHA5HZWCH2WOQJRLSOUZD4|/
+
+
+
+Comments from the uploader (olofolleola4):
+Here is some links if you cannot download it through this torrent:
+upload box  .  com  /  files  /  bb16ac7a4a
+rapid share  .  com  /  files  /  362385420  /  eMule0.50a_BETA1-Installer.exe

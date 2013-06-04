@@ -1,0 +1,23 @@
+JungleFlasher 0.1.73(108)
+
+========================================
+Lite-On, Benq LT ver 1.1 Support.
+General Support
+----------------------------------------
+Better support for 125% / 120dpi in win 7
+Bad DevID trap, Message to disable MRA mod and continue.
+Links in IRC browser tab will load to default browser rather than IE
+DVDKey32
+----------------------------------------
+Reg setting Delay32 adjustable from GUI, right click DVDkey32 button.
+This will delay key extract to allow time to position probe.
+See ver 0.1.59 nfo.
+LO-Erase
+----------------------------------------
+ESC to cancel failing intro after LO-Erase
+Bad Sammy-Un-Lock Key fix
+----------------------------------------
+Will launch automatically on see symptoms... CTRL + SHIFt + F10 still works
+Dummy from IX
+----------------------------------------
+Trap added to fail if key appears as regular inquiry data 05 80 00 32.......

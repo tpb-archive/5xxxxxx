@@ -1,0 +1,38 @@
+For those of you which can't find anymore the original CD-ROM of the printer software which came originally with your hp LaserJet 3300 series printer. You might have contacted hp already to get to know that they will charge you for shipping you the CD-ROM. Also you might know that the software on this CD-ROM is essential for many tasks such as scanning from your PC. While hp provides the software updates (4.4) on their support website, they don't provide a downloadable version of the original software. Meaning that if you ever had to reinstall your XP and can't find your CD-ROM you will be left with a printer which will never fully function again as day one, unless you install the original software from the CD-ROM it came with.
+
+All you need to do is burn the .ISO file with your prefered CD burning software and intall.
+
+NOTE: Users of F-Secure Security Suite and most other anti-virus brands MUST disable temporarily their software as it is recommended when installing new device drivers. Best option is simply to run 'msconfig.exe' at a command prompt and disable all items from the 'Startup' tab and all Non-Microsoft Services from the 'Services' tab. Then reboot, install CD-ROM software. After installation is complete run 'msconfig.exe' again, and select 'Normal startup' from the 'General' tab, and reboot.
+
+
+Hope this helps anyone out there.
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+
+     Hewlett-Packard LaserJet 3300 Series Software Version 4.0
+                 Late Breaking Readme
+
+The Late-Breaking Readme file contains information that may impact 
+the installation and use of your HP LaserJet 3300 Series printer.  
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+
+ReadMe File Contents:
+
+I. Introduction
+II. Version 4.0 Fixes
+III.	Version 3.0 Fixes
+IV.   Version 2.1 Fixes
+V.    Version 2.0 Fixes
+VI.	Recommended USB Installation Method
+VII.	Device Communication Errors
+VIII.	Known Install Issues
+IX.	Known Printing Issues
+X.    Known Scan Issues
+XI.	Known Fax Issues
+XII. 	Known HPD Issues
+XIII.	Where to Get Additional Information
+XIV.  Legal Statements
+       --Trademark notices
+       --Software license and copyright

@@ -1,0 +1,29 @@
+User Type,Username,Date,Text
+,ILoveSky,2010-04-26T01:29Z,Does this work?
+,4rror,2010-07-21T15:46Z,"@ILoveSky:
+Provided your computer can run it; yes. It's worked fine for me on many different computers and virtual machines."
+,MrJinky,2010-09-11T20:55Z,Thank you SO MUCH 4rror!
+,nandor78,2010-10-12T13:37Z,you can install on real machine only if you install first on virtualmaschine like virtualbox and after mount the virtual hardrive with winmount exctract the all image to your hard drive and modify the xp boot.ini and let the xp boot loader run nt4
+,4rror,2010-10-15T11:19Z,"@nandor78:
+I have previously installed this on real hardware without any issues. Could you be having a specific hardware incompatibility?"
+,midtown292,2010-11-23T06:45Z,"Thanks 4rror, this is great!  I never appreciated Windows NT when my local library had it on their PCs - at the time I wanted XP, which is what I had at home.  Now, I want something interesting to add to my dual boot, and also to see if it can integrate to my domain as well as XP/2000/7/Vista can!  Thanks again, especially for uploading SP6.  It still amazes me how high the SP numbers went for older Windows versions.  XP only got to SP3, and Vista to SP2 but 2000 got to SP4 and NT4 to SP6!"
+,binyo66,2010-11-23T11:55Z,thx. I i installed under vmware. and works good
+,heisler98,2011-02-03T20:46Z,"Awesome. Hope it works well with Parallels Desktop. If not, guess I'll do VirtualBox. 
+
+Is there any special requirements needed besides the 640MB hdd space? RAM and processor speeds? "
+,4rror,2011-02-24T14:09Z,"@heisler98:
+Microsoft specifies the following hardware requirements:
+
+    - 12 MB of RAM
+    - VGA level video support
+    - Keyboard
+    - IDE, EIDE, SCSI, or ESDI hard disk
+    - 486/25 processor or better
+
+I would say a Pentium II (any speed) is pretty much a must, and going below 32MB RAM will be a torturous experience."
+,4rror,2011-02-24T14:11Z,"@promodsharma, binyo66:
+Glad to hear it!
+
+@midtown292:
+I would be careful installing this _after_ any newer version of Windows. With that said, I hope it worked out for you."
+,Lowen454,2011-06-09T07:57Z,"Forgive my ignorance, how do I properly burn this as a boot disk to repair or re-install NT"

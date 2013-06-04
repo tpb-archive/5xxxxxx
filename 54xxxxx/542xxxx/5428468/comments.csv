@@ -1,0 +1,160 @@
+User Type,Username,Date,Text
+,larchy,2010-03-11T17:56Z,"This is fantastic m8 - I've still got my original CDs kicking around but getting them to work is such a pain.
+
+Thanks a bunch, awesome!"
+[T],Huggybaby,2010-03-11T17:58Z,"You're very welcome. People still love this game, it's just a bear to get working. Come see us in the forum if you have trouble or are interested in like a million updates."
+,ThomasDollar,2010-03-11T20:12Z,"Let me get this straight, i can actually play the old Shandalar game with new cards from up to 2009? Sorry if this question is stupid ;) i'll download this, thanks a lot"
+[T],Huggybaby,2010-03-11T21:48Z,"That's a good question. This version does include more cards than the original, Still, there are ways to play with much newer cards using a custom set editor. You need an editor because there's a 2,000 card limit, so if you add some cards you have to remove others.
+
+I haven't included any of that here because it's always being updated and would have needlessly complicated the torrent. I wanted to keep things almost stock to appeal to the widest range of people.
+
+If you're hardcore enough though (and it's surprising how many people are!) you can find all that stuff, and more, in the forum. Different play modes, different graphics, etc. It's all in the readme."
+[T],Huggybaby,2010-03-11T21:51Z,"OH, I didn't properly answer your question: All the newer cards DO NOT work in Shandalar. We've figured out how to make them work in Shandalar, that part is done. But we don't have a competent programmer to actually do it. It requires knowledge of assembly language and will be a tedious process!"
+,ThomasDollar,2010-03-11T22:45Z,"Ah ok. Glad to see people are actually working on this :D I have Magic Workstation, but sometimes you just wanna play against an AI to test."
+,noso,2010-03-12T10:07Z,I play this on virtual pc - be nice to get it working on win7 64 - cheers!
+,avatar2012,2010-03-19T16:52Z,Average upload speed 7mb! Nice work uploader and thanks to the seeders~  Ill be sure to support likewise
+,hermes122,2010-03-26T05:27Z,Thank you to Huggybaby and the team for making this fantastic update.  You guys (and gals?) are AWESOME - not only saved me the annoyances of finding the damn game but also the difficulties of installing.  And it's got the new cards!  And the launcher!  I could go on and on.  Outstanding work and thanks again.  
+,fwee288,2010-04-01T22:55Z,this game was running fine until recently avg recognized a trojan in it. n e one else get that?
+,robotiod,2010-04-02T15:47Z,"Thanks its a very good torrent, 10/10."
+[T],Huggybaby,2010-04-03T06:56Z,"fwee288, I've had one other report of a trojan, also from AVG. It's a false positive.
+
+I'd also like to thank everyone for the nice comments. BTW, I have a brand new CardArtNew collection ready, all the images redone and corrected from CCGHQ images. It looks great and I'll have it up as soon as I can finalize some other details."
+[T],Huggybaby,2010-04-08T22:08Z,"UPDATE April 8, 2010
+Get the new, corrected, best quality CardArtNew here: http://www.slightlymagic.net/forum/viewtopic.php?p=31726&f=2#p31726"
+,PhillipVector,2010-05-13T04:45Z,"It installed fine. But when I run it, I get no text at all in the launcher, the cards have no text, etc.
+
+Any ideas?"
+,PhillipVector,2010-05-13T04:58Z,The text is missing from this download.
+,sacrophice,2010-05-25T10:03Z,um i am having a bit of a problem installing... when i try to install i run into an error... basically stating that the data. cab is corrupt and it wont go past the 638.jpeg file... any help would be appreciated. 
+,varglad,2010-05-27T19:07Z,"Awesome torrent! It all works perfect... except that I can't see the attack/toughness stats on any of the cards nor the life points of me or the oponent. I use Vista 64bit, tried reinstalling, installed it as it says in the readme. Anyone who knows how to fix it?"
+[T],Huggybaby,2010-05-27T21:41Z,"PhillipVector, missing text means the ACT fix didn't work. Make sure to install to C:. If you didn't there is a workaround, come to the forum.
+
+sacrophice, I've never heard of that problem. Either you have a corrupt download or maybe your AV is interrupting? Are you installing from CD or did you extract the ISO?
+
+varglad, I'm not sure what's happening there.
+
+You guys will get help in the forum. I don't check here often because TPB doesn't send me email notification of postings like Demonoid now does."
+,sacrophice,2010-06-03T06:58Z,i mounted then extracted the iso... not to keen on burning anything that isn'd dvd or dl dvd
+[T],Huggybaby,2010-06-05T07:49Z,"I'm not sure I follow...you're extracting a mounted ISO?
+
+Don't mount the ISO, just extract the file using 7zip or winrar. There really should be absolutely no problems doing that, I've done it several times."
+,Spoon871,2010-06-06T11:37Z,"This is so awesome, I missed this game so much ! Thanks for your effort guys, great job !"
+,onchant,2010-06-09T02:50Z,"How can I get this to work on lan? Says ""Can't create over DirectPlay""
+
+I unchecked the 2 use auto buttons writtin in another forum and tryed to join my own IP but still I get the message but atleast I'm able to get the Host or Join menu up now... What to do?"
+[T],Huggybaby,2010-06-10T00:10Z,"Multiplayer Instructions for use with the downloaded registry files:
+
+(Optional) Double click/run the Magic.reg file just to ensure that the entries were properly placed when you installed the game.
+
+Choose which mode you want to run in by running either Serial.reg (for single player mode) or No-Serial.reg (for multiplayer mode).
+
+If you open the game at this point and DO NOT see the blue gem in the top right of your screen, you'll need to heed this step. Go to your start menu and run regedit to open your registry. Navigate to HKEY_USERS\S-1-5-21-xxxxxxxxx\Software\MicroProse\Magic: The Gathering. The Manalink key should have a value of ON not OFF. Just double-click on Manalink and edit the value to ON in the pop-up window. Close the registry (there is no save requirement when you're in the registry).
+
+Now open the game.
+
+Right click on the Manalink gem and choose Preferences -> Options.
+
+Uncheck/Clear 'Use Autoconnect' and click APPLY.
+
+Now double-click the gem or right-click and choose OPEN.
+
+What opens is the Manalink program. Choose TCP/IP regardless of whether you're playing on a home network (LAN) or over the internet and click the CONNECT button.
+
+Choose to Host or Join.
+
+If you choose Join and are playing a LAN game, leave the next pop-up window blank that requests for you to enter an IP address. The game will find another computer on the network running Manalink for you :)
+
+(Thanks to Salinnar for re-doing these instructions.)"
+,bograts,2010-06-22T00:46Z,How can I use the newer cards? I can only play cards upto Urza's...
+[T],Huggybaby,2010-06-22T07:46Z,"To get newer cards you will have to break Shandalar. Updates are available at the forum like it says in the readme.
+http://www.slightlymagic.net/forum/viewforum.php?f=55"
+,Aerionix,2010-06-23T19:25Z,"A most excellent creation, thank you.  and checked the forums and can't believe I had no idea it existed.  Looking forward to getting into it after work. 
+
+Is the manalink 2.01 thats here compatible with 2.00?  The little bit I had to time to read on the forum suggests that everyone there should be using 2.00 and if you folks have tourneys and such, I'd really like to be able to participate.  
+
+You know what?  Lets just extend this question to  ""Can I enjoy most of what is offered on Slightlymagic with this version or should I be reinstalling from originals, doing virtual machine and all that fun stuff?""
+
+Thanks again, it is much appreciated"
+[T],Huggybaby,2010-06-24T04:50Z,"""Is the manalink 2.01 thats here compatible with 2.00?""
+Yes, they're the same. Before, to update you would install the 1.32 patch, then the 2.0 patch. Instead of going through that, I just combined both patches and called it 2.01.
+
+""Can I enjoy most of what is offered on Slightlymagic with this version""
+Yes you can. But since the newer addons break Shandalar, most people use this version for the original experience, then use the smaller Mok's Manalink package in a separate directory for everything else."
+,Fenrir007,2010-06-26T04:47Z,"What should I do if I want to play this on multiplayer? Is it possible? I didn't find this info in the forums.
+
+Also, thanks for the awesome upload! I still remember playing this back when it was released - didn't know fans were keeping it up to date."
+[T],Huggybaby,2010-06-26T22:07Z,"Multiplayer instructions are right here, five posts above yours. They are also in the forums, along with the multiplayer registry files.
+http://www.slightlymagic.net/forum/viewtopic.php?f=2&t=2349&start=0"
+,Fenrir007,2010-06-27T06:51Z,"Ah, I see - thanks for pointing it out! One last thing. I'm confused as to which new card art pack I should install - the one linked in this torrent description, or the one in the forum thread named
+
+
+THE ONE AND ONLY UPDATE FOR THE ISO:
+CCGHQ CardArtNew 061110.zip (66.89 MB)
+
+Which one should I use? Apart from that, Shandalar is running great and hassle-free on my Windows 7 x64 (not sure why some people couldn't make it work)."
+[T],Huggybaby,2010-06-27T09:00Z,"Use CCGHQ CardArtNew 061110.zip (66.89 MB), it's the newest available, and I'll fix that link.
+
+I don't know why it doesn't work for some people, but with over 11,000 downloads (that's just the number reported by Demonoid, who knows how many downloads were completed using DHT or other trackers) I've heard from less than five people about unsolvable problems. That's pretty damn good!
+
+And for those who can't get it working, there's the virtual machine option, which we have also provided on the forum."
+,Tangooe,2010-06-27T16:35Z,will i be able to play this online/LAN?
+[T],Huggybaby,2010-06-27T21:20Z,"Yes, if you follow the instructions."
+,fj4,2010-08-12T02:09Z,Why are there always Slivers in my Arabian Nights boosters? :O
+,dwarf314,2010-08-14T17:03Z,"Havent installed yet, but just want to say thanks to all of you, sounds like an awesome job, you rock"
+,Mudget,2010-09-05T08:59Z,"What a great discovery.  Thanks so much!  Always loved this game, was too aggravating to play on newer operating systems.  This is awesome."
+,no_use_for_charisma,2010-09-15T01:41Z,when i try to play duel the aplication doesn't do nothing and goes to desktop. any hints?
+,shivan2418,2010-09-22T22:56Z,"Works like a charm. Its such a nice old game, brings back memories.
+
+BEST TORRENT OF THE YEAR!"
+,stevenstoop007,2010-09-24T21:55Z,"thanks for download, works great, seeding away lol, one problem? why do i look like a chick in shandalar?"
+[T],Huggybaby,2010-09-27T15:31Z,LOL That's funny!
+,stevenstoop007,2010-09-28T21:17Z,"What its true, do you have any idea how to speed up downloads for bit torrent on 384kb/s line, yeah i know its slow, i'm from south africa."
+,elmerlim,2010-10-28T12:15Z,"my OS (XP) is installed in E:, will this be a problem?"
+[T],Huggybaby,2010-11-02T05:16Z,"That may be a problem. If it doesn't work there's a way to fix it, just ask at the forum."
+,esbornia,2011-01-29T03:40Z,"I installed the Duels of the PLaneswalkers but I can't find Spells of the ancient. Is it included in this torrent or I have find it elsewhere?
+
+Thanks in advance."
+,dirtydemon39,2011-02-19T18:48Z,is There any magic the gathering games for a mac??
+,mickebu,2011-03-14T22:04Z,"Awesome upload! Been looking for this for ages.
+
+Especially i've been looking for the song thats played in the installation screen. Does anyone know if it's ""taken"" from somewhere? I recall hearing a longer portion of it from some tv show a few years ago."
+,dermott,2011-05-06T22:12Z,"Thanks for doing this...  8^)
+I downloaded the files, but there was not an autoinstaller in the package.  Have I done summat dumb?  I'm new to torrents.
+
+Thanks in advance"
+,Zylexm,2011-07-01T21:21Z,"dermott 
+
+In the downloaded folder there is a file with the extension .iso
+
+that file is a CD image, which basically acts like a virtual version of the install CD. To use this file you can either 
+1) Burn it to a CD and run it from there; or
+2) ""Mount"" the iso as a virtual CD using software. magicISO, powerISO, daemon tools.. etc.
+
+Google will help."
+,alfonso625,2011-08-11T04:31Z,seed me please
+[T],Huggybaby,2011-09-09T01:15Z,"esbornia: This game is fully updated, it includes the original Magic: The Gathering 
+
+plus both the Duels of the Planeswalkers and Spells of the Ancients expansions.
+
+dirtydemon39: There are several MTG games that run on Mac with Java. Go to Slightlymagic.net/forum
+
+mickebu: I think the intro song is from the original game. I don't know if it was ever on a TV show.
+
+dermott: After inserting the CD or mounting the image, if the installer doesn't begin, or autorun fails, navigate to the CD and run Setup.exe from the Setup folder."
+,Shihphu,2011-09-12T18:53Z,"minimum requirements?
+
+for the 2012 i need 256Mb grafic card, but i have half!"
+,newslimepirate,2011-11-03T03:24Z,"@Shihphu: These are NOT the droids you're looking for.
+
+You are thinking of the shitty new MTC game with the same exact name as this.
+
+This game was made in 1998 and this is simply a rerelease compatible with new OS's. Graphic requirements? Almost none whatsoever."
+,esbornia,2012-05-03T07:44Z,I love you.
+,esbornia,2012-05-03T07:59Z,Could anyone get me alink to download CCGHQ Microprose DOTP Custom ISO Update 102910.zip? I cant find it and the MediaFire link I find at CCGHQ dont work no more.
+,esbornia,2012-05-03T08:02Z,Nvd my last comment. Found the link to updated artwork.
+,esbornia,2012-05-03T08:11Z,"Most recent card art update:
+
+http://www.slightlymagic.net/forum/viewtopic.php?f=76&t=5043&p=65902&hilit=CCGHQ#p65902"
+,esbornia,2012-05-03T08:16Z,"Most recent card art update:
+
+http://www.slightlymagic.net/forum/viewtopic.php?f=76&t=3855"

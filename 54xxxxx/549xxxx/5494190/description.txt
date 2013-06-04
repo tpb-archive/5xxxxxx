@@ -1,0 +1,86 @@
+Scrivener 1.54 | Mac OS X |
+
+
+
+
+
+
+
+Scrivener  is a word processor and project management tool created specifically for writers of long texts such as novels and research Papers. It won't try to tell you how to write - it just makes all the tools you have scattered around your desk available in one application.
+
+
+
+
+Focus on Writing
+
+Scrivener provides access to the full power of the OS X text system: add Tables, bullet points and images and format your text however you want. Define ranges of text as footnotes and they become footnotes when you export or print. And because the way you view your text onscreen may not always be how you want to see it in print, Scrivener makes it easy to format the printed or exported text completely differently from what is onscreen - leaving you free to focus on the actual writing.
+
+
+
+Refer to Research
+
+No more switching between multiple applications to refer to research files: keep all of your research - image files, PDF documents, movies, sound files and web pages - right inside Scrivener. And unlike in other programs that only let you see one document in a window at a time, in Scrivener you can view a research document in one pane and compose your text in another right alongside it. Transcribe an InterView, make notes about a picture, or just refer back to another chapter, all from within the same program.
+
+
+
+
+Corkboard
+
+The cork notice-board is one of the writer's most familiar tools. Before Scrivener, though, the index cards were not Connected to anything (other than ideas, of course); any changes to the order on the corkboard would have to be replicated manually in the draft. In Scrivener, every document is attached to a virtual index card onto which you can jot a synopsis. Use the corkboard to shuffle these index cards around - which is instantly reflected in the structure of your draft.
+
+
+
+
+Requirements: Mac OS X 10.4 or higher
+Platform: PowerPC / Intel
+
+
+
+
+
+What's new:
+
+
+
+Version 1.54 released: 22nd March 2010
+
+
+
+
+Changes:
+
+
+Import from WriteRoom.ws has been renamed Import from SimpleText.ws, and the default setting for this feature now downloads from simpletext.ws. You can change it back to writeroom.ws or choose a self-hosted service using the "Options..." button. This change was made because Hog Bay Software have changed the service so that WriteRoom for the iPhone and other Hog Bay apps have moved to simpletext.ws, although writeroom.ws will remain for some time as a read-only service. Users who don't wish to go through Hog Bay's site can also self-host their own text service for syncing their WriteRoom.iPhone texts and from which to download to Scrivener, as SimpleText is open source - see http://simpletextws.appspot.com for details.
+
+
+Scrivener 1.54 knows about the new Scrivener 2.0 file format, so will issue a more meaningful message when trying to open Scrivener 2.0 projects than earlier versions (not that Scrivener 2.0 will be available for a few months yet).
+
+
+Bug Fixes:
+
+
+
+Fixed bug whereby the source link beneath imported web pages always went to literatureandlatte.com.
+
+Fixed bug whereby footnotes cut get cut short when exporting to some formats.
+
+Fixed bug whereby some imported web pages would not always open, for instance if they had an anchor in the link.
+
+Changed "Split Horizontally" keyboard shortcut to opt-cmd-=, so that it no longer conflicts with Format > Font > Bigger.
+
+Fixed bug whereby text with a foreground colour could change the colour of annotations when the user clicked in an annotation.
+
+Changed default full screen scroll bar to one that is more in keeping with the current iLife full screens scrollers (this should also fix crashes that were happening on 10.6.2, which were apparently caused by a conflict between 10.6.2 and the old full screen scroller). Thanks to Jesse Grosjean for the code for this new scroll bar.
+
+Fixed a bug in FDX export where the next element on return would always be set to "Action". (Also fixed some other minor FDX import and export bugs.)
+
+Fixed the project templates so that the "Files were recovered" error message no longer appears when creating projects from certain templates.
+
+Miscellaneous minor bug fixes.
+
+
+
+
+
+Link for more information: http://www.literatureandlatte.com/scrivener.html
+

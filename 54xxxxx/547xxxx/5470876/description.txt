@@ -1,0 +1,57 @@
+XXxx=====>=====xxXX
+
+Forums: http://wow-covenant.org/
+
+Check out our other games and servers that
+we host.
+
+===========================================
+	      How to Install
+===========================================
+
+1. Run InstallWoW.exe.
+
+2. Select to install "Wrath of the Lich King"
+   in the drop-down box. Let this run (will 
+   take a few hours at least usually).
+
+3. Once done do not let it automatically patch.
+   Run each patch in this order...
+	
+	WoW-3.2.0.10192-to-3.3.0.10958-enUS-patch
+	WoW-3.3.0.10958-to-3.3.0.11159-enUS-patch
+	WoW-3.3.0.11159-to-3.3.2.11403-enUS-patch
+	
+4. Delete the Launcher.exe from your desktop
+   and navigate to the locale folder located in
+   your World of Warcraft folder.
+	
+     XP: C:Program FilesWorld of Warcraft
+         DataenUS
+
+     Vista: C:PublicGamesWorld of Warcraft
+            DataenUS
+
+     Windows 7: Same as Vista
+
+5. Right click on realmlist.wtf and select
+   "Open With..." and select notepad. Copy and
+   paste this...
+ 
+   set realmlist servers.wow-covenant.org
+
+   Then click save and go back into the root
+   directory for WoW.
+
+6. Create a shortcut to Wow.exe by right 
+   clicking and going to "Send to..." then
+   click "Desktop (create shortcut)".
+
+===========================================
+             Account Creation
+===========================================
+
+1. Go to http://servers.wow-covenant.org/
+
+2. Put in your details and you are done.
+

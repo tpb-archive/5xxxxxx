@@ -1,0 +1,20 @@
+User Type,Username,Date,Text
+,morgan1212,2010-04-09T09:48Z,varfĂśr kan du inte lĂ¤gga ut iso filer??
+[V],r3dcat,2010-04-09T10:33Z,"@morgan1212: Google translated your comment as ""why can you not put iso file?"" ... 
+
+To answer your question, the wbfs format is MUCH better for several reasons 
+
+1. Smaller file size makes it better for distribution as well as archiving.
+
+2. It does not require any modification for distribution (does not need to be rar'ed and unrar'ed)
+
+3. Does not require any modification to play from hard drive. You can literally drop the file into your wbfs folder on a FAT32/NTFS drive and play.
+
+4. Makes archiving/backup and restore much easier.
+
+5. Makes seeding easier as you can keep a backup of your drive on your PC and directly seed from it ""as is"" without having to repack/compress files for distribution.
+
+6. WBFS formatted drives are prone to corruption and there are limited utilities to use for recovery. FAT32/NTFS formatted drives hosting .wbfs files are a more secure and versatile option.
+
+There may well be other reasons that I have overlooked but these are the main ones for me :)"
+[V],r3dcat,2010-04-09T11:06Z,I also should have added ... Converting/extracting an .iso file from a .wbfs file is really no different to extracting an iso from a rar file/archive! ... Usually most if not all iso releases are rar'ed for distribution ... So even for users requiring iso's there is no real difference in the process :)

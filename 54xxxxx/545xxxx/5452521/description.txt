@@ -1,0 +1,27 @@
+This should fix the crashes that many people are having for the $gba emulator.(crack only no game)
+
+
+
+unzip the Rom Decrypter and follow the instructions in the readme file. This also includes a few files ( I have not tried any of the others) that may help you with your emulator.
+You may also experience crashes with this crack if u have the sound turned off.
+
+-Extract firmware/bios files to no$gba folder
+-Put ROM in encrypt folder
+-Run encrypter
+-Press 1
+
+-Run no$gba and open the (now encrypted) ROM
+-AS SOON AS THE FILE BOX CLOSES (while the screens are still white)
+open the emulation options (F11) and change the option under
+"Reset/Startup Entrypoint" to GBA BIOS. After hitting OK,
+immediately reset the game (numpad *). If you did it right, you'll
+see the DS menu as you would on a real DS. Play it normally from there.
+If you reset too late, or use an unencrypted ROM, it will crash.
+
+Make sure the save type is set to automatic (2.6a).
+
+This should work with any $gba emulator.
+
+You can also find an already patched version of both games that I have uploaded.
+
+Hope this helps anyone who has had the same crashing issues I have had.

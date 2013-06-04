@@ -1,0 +1,37 @@
+Mount & Blade Warband 1.105 Multiplayer Fix
+
+Archive contents: 
+mb_warband.exe - modified SKIDROW crack for 1.105
+mb_warband_dedicated.exe - modified original 1.105 dedicated server executable 
+mbwserver.jar - serial authentication server(mainly for offline LAN multiplayer)
+
+
+
+GUIDE
+
+Hosts file is located in WindowsSystem32Driversetc
+rgl_config.txt is in C:Users\AppDataRoamingMount&Blade Warband (windows 7 and Vista)
+
+In rgl_config.txt change the use_secure_connection = 1 to use_secure_connection = 0
+
+
+1. Online multiplayer:
+Should work with hamachi or external IP(i tested both, worked good). Clean your hosts file if you have some MB redirects in it.
+1.1. Hamachi
+All you have to do is join a hamachi network and use these modified executables to start/join a game(both listen server and dedicated server should work), use the Local Area Network filter in game. There is no need to check the Add to official game servers list option if you dont have an external IP 
+1.2. Internet(host with external IP)
+Host/Join the game using these modified exe files(the "master" server is hosted on a free hosting service so Unable to Connect error might occur so I suggest using hamachi). You can also check the Add to official game servers list option so other ppl can see your server(you actualy have to :) ).
+
+2. Offline multiplayer
+Example: your LAN IP is 192.168.100.1(computer hosting the game)
+Add this line to your hosts file: (everyone has to do this, clients and server too)
+192.168.100.1 warband.x10.mx
+
+Start the mbwserver.jar (JRE required) on the host machine. Choose your IP from the drop down menu and hit the Change button. Start the server and everyone on your LAN should be able to join
+
+I did some testing, worked good so far, both online and offline multiplayer. I am not sure how will the master server handle dedicated servers hosted on different ports but the default port does work.
+
+Enjoy this and I suggest you buy the game, its definitely worth it!
+
+made by Lakky @ Warez-bb
+(have mercy on me, this is my first "crack")

@@ -1,0 +1,35 @@
+!!! Latest instructions on the image can be found here: 
+http://xsellize.com/threads/97527-Mac-OS-X-10.6.2-%28for-latest-SDK-beta%29-VMware-image
+
+This is the only place where I will give support for this from now.
+
+
+This is a VMware image of Mac OS X 10.6.2 (The version you need for the latest iPhone SDK beta)
+
+You can use this image with either with VMware Workstation or with the free VMware Player. The whole package has been compressed using 7zip (otherwise you would have to download >20gigs), 7zip portable is included in this torrent.
+
+To boot, you can either point the virtual CD drive at bootloader.iso, or you can load a saved snapshot of the booted machine (useful for users having booting issues)
+
+It will only work on machines with Intel processors with hardware virtualization:
+
+    * Pentium 4 662 and 672
+    * Pentium Extreme Edition 955 and 965 (not Pentium 4 Extreme Edition with HT)
+    * Pentium D 9x0
+    * Core 2 Duo E6300, E6400, E6320, E6420, E6540, E6550, E6600, E6700, E6750, E6850 (Conroe)
+    * Core 2 Duo E5400, E7600, E8200, E8300, E8400, E8500, E8600 and some versions of the E7400 and E7500 (Wolfdale)
+    * Mobile Core 2 Duo T5500, T5600, T6670, T7100, T7200, T7250, T7300, T7400, T7500, T7600G, T7700, T7800, U7500, L7200, L7300, L7400, L7500, L7700, U7500, U7600, U7700 (Merom)
+    * Mobile Core 2 Duo SU7300, SU9300, SU9400, SU9600, SL9300, SL9380, SL9400, SL9600, SP9300, SP9400, SP9600, P7350 (mac),P7370, P7550 (confirmed), P7570, P8400, P8600, P8700, P8800, P9500, P9600, P9700, T8100, T8300, T9300, T9400, T9500, T9550, T9600, T9800, T9900 (Penryn)
+    * Core 2 Quad Q6600, Q6700 (Kentsfield)
+    * Core 2 Quad Q8400, Q8400S, Q9300, Q9400, Q9400S, Q9450, Q9550, Q9550S, Q9650 and some versions of the Q8300 (Yorkfield)
+    * Core 2 Extreme X6800 (Conroe XE)
+    * Core 2 Extreme QX6700, QX6800, QX6850 (Kentsfield XE)
+    * Core 2 Extreme QX9650, QX9770, QX9775 (Yorkfield XE)
+    * Xeon 3300 and +, 5000, 7000 series
+    * Atom Z520, Z530, Z540, Z550 (Silverthorne)
+    * all Intel Core i3 processors
+    * all Intel Core i5 processors
+    * all Intel Core i7 processors
+    * Pentium Dual-Core E6300, E6500, E6600 and some versions of the E5300 and E5400*
+    * Celeron SU2300, E3200, E3300, E3400
+
+Intended for xSellize only, but as soon as I uploaded the torrent (had not even published it on xSellize) there were ~20 leechers. So here is the password: "xsellize". When logged into Mac OS X, username and password are both "hobbypunk".

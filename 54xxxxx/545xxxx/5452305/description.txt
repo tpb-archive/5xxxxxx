@@ -1,0 +1,154 @@
+[align=center]
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showforum=395][IMG]http://img21.imageshack.us/img21/8945/freeculture.gif[/IMG][/URL]
+[/align]
+
+26th Chaos Communication Congress - Here be dragons 
+[IMG]http://events.ccc.de/congress/2009/wiki/skins/herebedragons/img/26C3_topbar.jpg[/IMG]
+[URL=http://events.ccc.de]http://events.ccc.de[/URL]
+
+Speakers[URL=http://events.ccc.de/congress/2009/Fahrplan/speakers/1036.en.html]	aestetix[/URL]
+[URL=http://events.ccc.de/congress/2009/Fahrplan/speakers/1187.en.html]	equinox[/URL]
+[URL=http://events.ccc.de/congress/2009/Fahrplan/speakers/2779.en.html]	Eric Michaud[/URL]
+[URL=http://events.ccc.de/congress/2009/Fahrplan/speakers/313.en.html]	mc.fly[/URL]
+Schedule
+Day 	Day 1 - 2009-12-27
+Room 	Saal3
+Start time 	16:00
+Duration 	01:00
+Info
+ID 	3504
+Event type 	Lecture
+Track 	Community
+Language used for presentation 	English
+
+la nostra darknet ed i suoi punti luminosi
+
+costruire connessioni per spazi e persone
+
+Costruire una rete privata per connettere il tuo vicinato. Perche' sentiamo che le soluzioni piu' comuni siano terribili dal punto di vista dello spreco delle risorse e quello che pensiamo vada meglio.
+
+Salite a bordo.
+
+In questo talk vi daro' l'opportunita' di dare un'occhiara alle sfumature di grigio dell'interconnessione di reti di hackerspaces e di persone. Mc.Fly presenta ChaosVPN, rinato in questo darknettesco approccio ed ottenendo momentum dagli hackerspaces stabiliti negli USA e in EU con spazi come NYC Resistor, Pumping Station: One, Noisebridge e c-base. L'Agora Network sara' presentata da Aestetix e Eric per coprire gli aspetti tecnici e comunitari e spiegare cosa asspettarsi. Equinox mostrera' il lato white-ish  chiamato dn42 - la vecchia ma simpatica signora che collega gran parte degli spazi tedeschi e giovanili come sublab ed entropia.
+
+Fare leva sugli sforzi della rete ChaosVPN negli USA e' l'Agora Network (Attualmente in Private Beta). Facendo questo non dovremo duplicare gli sforzi di ogniuno coinvolto che abbiamo "settled" su una piattaforma standard usando tincd [scusate per la traduzione]. Con hasckespaces che spuntano molto rapidamente e con successo negli USA negli ultimi 24mesi abbiamo pensato che sia necessario. Agora e' una servizio mesh vpn che serve a legarli tutti assiee in una comune intranet. Sulla rete le persone ospiteranno macchine per VMs, sviluppo, file hosting, servizi telefonici PBX, ed un numero di cluster di alte performance a disposizione degli utenti che stiamo attualmente sviluppando incluso quelli forniti dagli utenti dei nodi. Nel processo diverse universita' negli US hanno chiesto di entrare a fare parte della rete per diverse opportunita' di ricerca non precedentemente disponibili a loro.
+
+dn42 e' costruito con tunnels (OpenVPN, GRE, tinc, ecc) ed fa uso di BPG - lo stesso protocollo di routing dinamico sul quale funziona Internet, ma con meno reti nella tabella di routing. Gettiamo inoltre un po di luce sia sugli aspetti tecnici che sociali del dn24. La nostra camminata inizia con fondazioni tecniche e continua trattando cio' che BGP ci permette di fare a livello sociale. Vedremo anche come il flusso di traffico possa essere progettato tenendo conto di limitazioni esternet (pensa ad esempio alla tua DSL asimmetrica di casa [ADSL]), ed ultimo ma non il meno importante: discuteremo diversi casi di attacchi intenzionali e come vengono affrontati. Mentre dn42 e' il nostro terreno di gioco per testare e modellare tutta questa roba, gran parte di esso si applica benissimo anche ad internet.
+
+Questo talk e' da qualche parte attorno all'entrata al livello immediato [scusate per la trad]. Dovreste gia' sapere cosa e' una sottorete IP, un route ed il routing dinamico.
+
+Allegati:
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1497_darknet.pdf]    * (application/pdf - 731.4 KB)
+
+Links
+
+[URL=http://dn42.net/]    * dn42[/URL]
+
+
+
+
+EN:
+
+our darknet and its bright spots
+
+building connections for spaces and people
+
+Building a private network to connect your neighbourhood. Why we feel common solutions are terrible on resources and what we think is better.
+
+Get on board.
+
+This talk will give you the opportunity to take a look at the shades of grey of interconnecting hackerspaces and people's networks. Mc.Fly presents ChaosVPN, reborn in its darknet-ish approach and gaining momentum from established hackerspaces in the US and Europe with spaces like NYC Resistor, Pumping Station: One, Noisebridge and c-base. The Agora Network will be presented by Aestetix and Eric in covering the community and technical aspects and what to expect. Equinox will show you the white-ish side called dn42 - the old but nice lady that connects mostly german people and younger spaces like sublab and entropia.
+
+Leveraging the efforts of the ChaosVPN network in the US is the Agora Network (Currently In Private Beta). By doing this we are not having to duplicate the efforts of every one involved we have settled on a standard platform utilising tincd. With hackerspaces popping up very rapidly and successfully in the US for the last 24 months we find this necessary. Agora is a mesh vpn service that serves to tie them all together on a common intranet. On the network people will be hosting machines for VMs, development, file hosting, PBX phone services, and a number of high performance clusters at the disposal of users which we are currently developing including those provided by node users. In the process several universities in the US have asked to join the network for several research opportunities not previously available to them.
+
+dn42 is built with tunnels (OpenVPN, GRE, tinc, etc) and has BGP running over them - the same dynamic routing protocol the internet runs on, albeit with less networks in the routing table. We will shed some light on both the technical and social aspects of dn42. Our walk starts at technical foundations and heads over to what BGP allows us to do on a social level. We'll also see how the flow of traffic can be engineered according to external constraints (think your plain asymmetric DSL at home), and last but not least we'll discuss different cases of maliciousness and how they're treated. While dn42 is our playground for testing and modelling all this stuff, most of it apples to the internet as well.
+
+This talk is somewhere around entry to immediate level. You should roughly know what an IP subnet, a route and dynamic routing is.
+Attached files
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1497_darknet.pdf]    * (application/pdf - 731.4 KB)
+
+Links
+
+[URL=http://dn42.net/]    * dn42[/URL]
+
+
+[ Info sul file ]
+
+Nome: 26c3-3504-en-our_darknet_and_its_bright_spots.mp4
+Data: 14/01/2010 01:37:24
+Dimensione: 611,567,864 bytes (583.237 MB)
+
+[ Info generiche ]
+
+Durata: 00:52:04 (3124.12 s)
+Tipo di contenitore: MP4/MOV
+Major brand: ISO Base Media version 512
+Compatible brands: JVT AVC
+Data creazione: 1/01/1970 00:00:00 UTC
+Data modifica: 1/01/1970 00:00:00 UTC
+Streams totali: 2
+Tipo stream n. 1: video (avc1) {VideoHandler}
+Tipo stream n. 2: audio (AAC Low complexity) {SoundHandler}
+Audio streams: 1
+
+[ Dati rilevanti ]
+
+Risoluzione: 720 x 576
+Larghezza: multipla di 16
+Altezza: multipla di 32
+
+[ Traccia video ]
+
+Codec: avc1
+Risoluzione: 720 x 576
+Frame aspect ratio: 5:4 = 1.25
+Pixel aspect ratio: 25777493:23592960 = 1.092592
+Display aspect ratio: 25777493:18874368 = 1.365740
+Framerate: 25 fps
+Frames totali: 78103
+Bitrate: 1497.828272 kbps
+
+[ Traccia audio ]
+
+Codec: AAC Low complexity
+Bitrate: 63.996213 kbps
+Canali: 1
+Frequenza: 44100 Hz
+
+[ Info sulla codifica H.264 ]
+
+SPS id: 0
+  Profile: Baseline@L3
+  Num ref frames: 1
+  Aspect ratio: Custom pixel shape (59:54 = 1.092592)
+  Chroma format idc: YUV 4:2:0
+PPS id: 0 (SPS: 0)
+  Codifica entropica: CAVLC
+  Weighted prediction: No
+  Weighted bipred idc: No
+  8x8dct: No
+
+[ Profile compliancy ]
+
+Profilo da testare: MTK PAL 6000
+Risoluzione: Ok
+Framerate: Ok
+Avvertenza: Se vuoi un rapporto piÃ¹ completo e preciso clicca su "Analisi DRF"
+
+Rapporto generato da AVInaptic (18-11-2007) in data 14 gen 2010, h 15:42:24
+
+
+
+Banda: 20kB/s 24/24 7/7 fino ad assestamento della release
+
+se vi piace questa release forse vi interesseranno anche le atre mie rel:
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?act=allreleases&st=0&filter=gioacchino2&sb=1&sd=0&cat=0&mid=294618]http://forum.tntvillage.scambioetico.org/t...&mid=294618[/URL]
+
+nota: in questi giorni il download e' abbastanza veloce (OLTRE 300kB/s ) siccome c'e' molta gente in DHT e su altri trackers
+
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/conference-128x128.png[/IMG]
+
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showtopic=198523]link[/URL]

@@ -1,0 +1,40 @@
+INTERIM (This Eval Copy Will b expired on 20110401 to 20110701 with Rearm)
+Win7_SP1_Beta1-Wave0.Version(SP1.v153)
+7601.16537.100327-0053_Update_Sp_Wave0-B1SP1.0_DVDWave 0 
+RTM_Update_Sp_Wave0-B1SP1.0_DVD
+ Wave 0 _ English, Spanish, Japanese, German, French
+
+inthis DVD
+Update Package (Standalone) x86 x64 ia64 Update.exe  OnlyY!
+
+
+LeaksOut 20100406
+
+
+How to deploy SP1wave0 on None wave0 (5 lang) Systems 
+
+1. Install English(r GER r JP r Es r Fr) language pack (ULTI Edition)
+X86 Language Pack-en 
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/08/windows6.1-kb972813-x86-en-us_22ee3397a02372681b375ddabf6ffa33662fd500.exe
+X64 Language Pack-en 
+http://download.windowsupdate.com/msdownload/update/software/updt/2009/08/windows6.1-kb972813-x64-en-us_483a3e51038f1a369bc5b5cdf5fc32df3ea4ad27.exe
+
+2. change UIlang, regionalSet. LocaleSet to en-US (reboot)
+3. change registry value to 0409 .openHive n goto
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE  SYSTEM  CurrentControlSet  Control  Nls  Language]
+"Default" = "0409"
+"InstallLanguage" = "0409" 
+
+if jp 0411
+if ger 0407
+if fr 040c
+if es 0C0A = "es;Spanish (International Sort)" ? (dunknowthis)
+
+4. now Delete this Entry value (must backup first)
+[HKEY_LOCAL_MACHINE  SYSTEM  CurrentControlSet  Control  MUI  UILanguages  zz-ZZ]
+ (zz-ZZ is System Original Default lang)
+
+5. Reboot!
+6. Install Win7_SP1_B1SP1.0_wave0.exe (30min-40mins)
+7. After SP1 install finished . apply regi that backed on Step.4 (dan goto controlpnnel n change UIset)

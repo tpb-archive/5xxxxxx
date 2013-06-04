@@ -1,0 +1,60 @@
+Strona Servera : http://wow.gamefreedom.pl
+
+Opis instalacji: Gry
+
+W pierwszej kolejnoÅ›ci instalujemy Klienta w wersji 2.0.0, nastÄ™pnie Dodatek TBC i kolejno
+patche do wersji 2.4.3, ktÃ³ry obowiÄ…zuje na serwerze HellGround.
+W trakcie instalacji nie dopuszczamy do pobierania nowych patchy
+przez klienta! W tym celu wyÅ‚Ä…czamy niezwÅ‚ocznie okno WoW'a po
+kaÅ¼dej zainstalowanej czÄ™Å›ci.
+Po zaktualizowaniu gry do wersji 2.4.3 edytujemy plik realmlist.WTF
+(np. za pomocÄ… notatnika) i zamieniamy wpis na set realmlist logonhg.gamefreedom.pl
+
+Pliki potrzebne do gry:
+Wersja enGB
+
+* Klient w wersji 2.0.0 [3175 MB] lub Mirror 2
+* Dodatek TBC [2257 MB] lub Mirror 2
+* Patch 2.4.0 [1100 MB] lub Mirror 2
+* Patch 2.4.0 - 2.4.1 [5 MB] lub Mirror 2
+* Patch 2.4.1 - 2.4.2 [11.7 MB] lub Mirror 2
+* Patch 2.4.2 - 2.4.3 [25 MB] lub Mirror 2
+
+Opis Instalacji: launchera
+
+1. WYMAGANIA
+
+Launcher wymaga do dziaÅ‚ania posiadania w systemie zainstalowanych bibliotek
+NET Framework w wersji co najmniej 2.0 SP1. NajprostszÄ… metodÄ… na sprawdzenie,
+czy juÅ¼ je posiadacie jest pobranie i uruchomienie naszego programu. JeÅ¼eli
+Launcher siÄ™ uruchamia, to wszystko jest ok i niczym siÄ™ juÅ¼ nie trzeba martwiÄ‡,
+jeÅ¼eli nie, to przejdÅº do punktu 4. tej instrukcji.
+
+2. INSTALACJA
+
+Instalacja sprowadza siÄ™ do rozpakowania pobranego archiwum do folderu
+instalacyjnego gry World of Warcraft. DomyÅ›lnie jest to C:Program FilesWorld of Warcraft.
+Polecam zrobiÄ‡ sobie skrÃ³t na pulpicie do HGLauncher, Å¼eby pÃ³Åºniej moÅ¼na byÅ‚o szybciej uruchamiaÄ‡.
+Archiwa sÄ… spakowane programem 7-zip.
+
+3. URUCHOMIENIE
+
+Po uruchomieniu programu pojawi siÄ™ okno zawierajÄ…ce informacje na temat stanu serwera jak i
+najnowsze ogÅ‚oszenie go dotyczÄ…ce. Status serwera jest odÅ›wieÅ¼any co kilka sekund -
+wiÄ™c jest zawsze aktualny.
+Aby uruchomiÄ‡ grÄ™ na serwerze normalnym (HG), klikamy na przycisk Play.
+
+4. POBIERANIE
+
+Bilbioteki .NET Framework 3.5
+Pobierz
+
+Instalator .NET Framework wymaga posiadania Windows Installer w wersji 3.1
+Pobierz
+
+Program archiwizujÄ…cy 7-zip
+Pobierz
+
+-----------------
+
+Aktualna wersja HGLauncher: 1.0.5 

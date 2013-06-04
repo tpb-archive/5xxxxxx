@@ -1,0 +1,151 @@
+[align=center]
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showforum=395][IMG]http://img21.imageshack.us/img21/8945/freeculture.gif[/IMG][/URL]
+[/align]
+
+26th Chaos Communication Congress - Here be dragons 
+[IMG]http://events.ccc.de/congress/2009/wiki/skins/herebedragons/img/26C3_topbar.jpg[/IMG]
+[URL=http://events.ccc.de]http://events.ccc.de[/URL]
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/event-3661-128x128.png[/IMG]
+
+Speakers
+[URL=http://events.ccc.de/congress/2009/Fahrplan/speakers/2031.en.html]	Peter Stuge[/URL]
+Schedule
+Day 	Day 1 - 2009-12-27
+Room 	Saal2
+Start time 	23:00
+Duration 	01:00
+Info
+ID 	3661
+Event type 	Lecture
+Track 	Hacking
+Language used for presentation 	English
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/event-3661-128x128.png[/IMG]
+
+coreboot: Aggiungere supporto per un sistema vicino a te
+
+Lavore con la sostituzione open source del BIOS e far avviare un PC
+
+Il BIOS e il suo successore EFI sono considerati da molti come la frontiera finale per il software open source nei commodity PC [forse intende PC per utenti finali...]. Questo talk descrive brevemente il coreboot del BIOS replacemente (precedentemente chiamato LinuxBIOS) ed in seguito si focalizza su cio' che e' richiesto per portare un PC dall'accensione fisica (col pulsante) fino all'avvio del sistema operativo, e come coreboot affronta il problema.
+
+Un PC moderno e' abbastanza differente dall'originale del 1981 e, nonostante il BIOS sia rimasto deve (il BIOS) ora occuparsi di diverse sfide molto complesse. Quando il PC originale, con la sua bus pre-ISA, veniva acceso, molte se non tutte le parti del sistema erano immediatamente in grado di eseguire applicazioni. Il PC di oggi puo' avere diverse CPU multicore che sono interconnesse da HyperTransport, Front Side Bus o QuickPath, RAM DDR3 su ogni nucleo CPU e PCI Express - rendendo la situazone molto differente dato che tutti questi componenti richiedono una inizializzazione complessa per essere implementati nel software.
+
+Nel 2009 coreboot celebra il suo decimo anno e sono state imparate molte lezioni sull'hardware del PC contemporaneo. Dopo una breve descrizione di coreboot, viene smontata logicamente una tipica scheda madre di PC, prestando attenzione ai componenti hardware piu' significativi e come essi interagiscono, e spiegando come e' stato implementato in coreboot il supporto per questa scheda madre.
+
+La presentazione mira a dare una buona visione all'interno del processo di sviluppo di coreboot, cosi' come i requisiti per aggiungere supporto per nuovi sistemi in coreboot
+
+Allegati:
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1510_26c3_coreboot_slides.zip]    * 26C3 coreboot slides (application/zip - 1.7 MB)[/URL]
+
+Links
+
+[URL=http://coreboot.org/Welcome_to_coreboot]    * coreboot homepage[/URL]
+
+
+
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/event-3652-128x128.png[/IMG]
+
+
+EN: 
+
+coreboot: Adding support for a system near you
+
+Working with the open source BIOS replacement and getting a PC to boot
+
+The BIOS and it's successor EFI are considered by many to be the final frontier for open source software in commodity PCs. This talk briefly describes the BIOS replacement coreboot (formerly LinuxBIOS) and then focuses on what is required to bring up a PC from power on to where an operating system can run, and how coreboot approaches the problem.
+
+A modern PC is quite different from the 1981 original, and while the BIOS still remains it must now take on several fairly complex challenges. When the original PC with it's pre-ISA expansion bus was powered on, most if not all parts of the system were immediately capable of running applications. The PC of today can have several multicore CPUs which are interconnected by HyperTransport, Front Side Bus or QuickPath, DDR3 RAM on each CPU core, and PCI Express - making the situation very different since all these components require complex initialization to be implemented in software.
+
+coreboot celebrates it's 10th year in 2009 and many lessons have been learned about contemporary PC hardware. After a brief description of coreboot, a typical PC mainboard is broken down logically, with attention paid to the significant hardware components and how they interact, finally moving on to how support for this mainboard has been implemented in coreboot.
+
+The presentation aims to give a good look into the development process for coreboot, as well as the requirements for adding support for new systems in coreboot.
+Attached files
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1510_26c3_coreboot_slides.zip]    * 26C3 coreboot slides (application/zip - 1.7 MB)[/URL]
+
+Links
+
+[URL=http://coreboot.org/Welcome_to_coreboot]    * coreboot homepage[/URL]
+
+
+[ Info sul file ]
+
+Nome: 26c3-3661-de-coreboot_adding_support_for_a_system_near_you.mp4
+Data: 10/01/2010 03:07:11
+Dimensione: 828,689,956 bytes (790.3 MB)
+
+[ Info generiche ]
+
+Durata: 01:10:34 (4234.48 s)
+Tipo di contenitore: MP4/MOV
+Major brand: ISO Base Media version 512
+Compatible brands: JVT AVC
+Data creazione: 1/01/1970 00:00:00 UTC
+Data modifica: 1/01/1970 00:00:00 UTC
+Streams totali: 2
+Tipo stream n. 1: video (avc1) {VideoHandler}
+Tipo stream n. 2: audio (AAC Low complexity) {SoundHandler}
+Audio streams: 1
+
+[ Dati rilevanti ]
+
+Risoluzione: 720 x 576
+Larghezza: multipla di 16
+Altezza: multipla di 32
+
+[ Traccia video ]
+
+Codec: avc1
+Risoluzione: 720 x 576
+Frame aspect ratio: 5:4 = 1.25
+Pixel aspect ratio: 25777493:23592960 = 1.092592
+Display aspect ratio: 25777493:18874368 = 1.365740
+Framerate: 25 fps
+Frames totali: 105862
+Bitrate: 1497.343411 kbps
+
+[ Traccia audio ]
+
+Codec: AAC Low complexity
+Bitrate: 63.996771 kbps
+Canali: 1
+Frequenza: 44100 Hz
+
+[ Info sulla codifica H.264 ]
+
+SPS id: 0
+  Profile: Baseline@L3
+  Num ref frames: 1
+  Aspect ratio: Custom pixel shape (59:54 = 1.092592)
+  Chroma format idc: YUV 4:2:0
+PPS id: 0 (SPS: 0)
+  Codifica entropica: CAVLC
+  Weighted prediction: No
+  Weighted bipred idc: No
+  8x8dct: No
+
+[ Profile compliancy ]
+
+Profilo da testare: MTK PAL 6000
+Risoluzione: Ok
+Framerate: Ok
+Avvertenza: Se vuoi un rapporto piÃ¹ completo e preciso clicca su "Analisi DRF"
+
+Rapporto generato da AVInaptic (18-11-2007) in data 14 gen 2010, h 15:43:45
+
+
+Banda: 20kB/s 24/24 7/7 fino ad assestamento della release
+
+se vi piace questa release forse vi interesseranno anche le atre mie rel:
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?act=allreleases&st=0&filter=gioacchino2&sb=1&sd=0&cat=0&mid=294618]http://forum.tntvillage.scambioetico.org/t...&mid=294618[/URL]
+
+nota: in questi giorni il download e' abbastanza veloce (OLTRE 300kB/s ) siccome c'e' molta gente in DHT e su altri trackers
+
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/conference-128x128.png[/IMG]
+
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showtopic=198156]link[/URL]
+

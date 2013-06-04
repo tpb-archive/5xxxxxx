@@ -1,0 +1,103 @@
+User Type,Username,Date,Text
+,kavall,2010-03-31T13:44Z,"Malwarebytes reads the main install program as being a Trojan Dropper. Install at your peril, pity as I was looking forward to installing this baby."
+,JasonVoorhees95,2010-03-31T14:02Z,avg too!!lol
+,glasswings21,2010-03-31T14:16Z,OK this plane is now not worth a TROJAN! not for me at least so i would just totally ignore it for now.
+,chuckmamuck,2010-03-31T16:11Z,"i dont understand how you're getting security alerts, especially from malwarebytes and AVG. i use AVG internet security 9.0, malwarebytes and ESET NOD32 and nothings come up on scans.i wouldnt upload anything if it had any slight security alert cus i wouldnt install it myself and would delete it. i cant see what could be infected tho, theres 2 .exe's, a 1kb text file and a gauges folder so it could only be the gauges folder but its showing clean on everything for me, even my systems clean after install. ive just scanned all files again independently and its all clean and all my security is up to date.
+
+    ive just scanned with ESET online and thats updated in realtime so since reading these comments ive scanned the files and then my system again with NOD32, AVG, malwarebytes and i just ran the ESET NOD32 online scanner and nothing at all, totally clean and thats scanning the RAR files, the files extracted, the installed files and then both my hard drives, i installed it 2days ago and my systems clean, well NOD32 has just found win32/adaware in a keygen/patch from registry winner that i dl'd earlier but not installed yet and thats all."
+,chuckmamuck,2010-03-31T16:27Z,"google ESET online scanner and scan the files independently and then your system and see what the results are cus theres no way theres a trojan in the files, my security is like fort knox so it would pick it up and AVG is bastad for stating any slight thing it dont like as a trojan yet its found nothing and it aint AVG free either, its internet security 9(courtesy of tpb of course) updated daily.
+
+Is anybody else getting any security alerts cus if so i'll take it down.
+
+Try the ESET online scan tho and post what it says.
+
+ive just scanned with Spybot Search and Destroy also and thats reading clean too so i aint got a clue, thats 5 different security scans with clean results."
+,chuckmamuck,2010-03-31T17:13Z,"@mickeyfinney
+same here mate, totally clean and NOD32 is the daddy so if it comes back clean you know its clean.
+yeah i had a problem with the garmin so i re-copied the contents of gauges to the main directory manually putting all parts where they need to be instead of just copying the whole folder over and its seems to have worked, ive not noticed anything wrong so far anyway. saying that ive not really had a proper fly in it yet, my systems been tied up most of the day running security scans 8-/"
+,chuckmamuck,2010-03-31T18:34Z,"@kavall.
+i also cant see there being any infection in the main .exe installer, its a flight1 production installer and ive never seen an infection in a manufacturers .exe installer before. its not like it can be easilly opened and a virus just added cus it would more than likely corrupt the installer so it would have to be rebuilt for it to be effective. if somebody was going to go through the hassle of doing it then im pretty sure they wouldnt choose a cessna citation for flight simulator, it would make more sense to do it on something a little more popular."
+,Amerialb,2010-03-31T23:07Z,"Totally clean, my avast pro on high hysterisis says its clean.
+
+Great plane, but very heavy on the frame rate."
+,Amerialb,2010-03-31T23:13Z,"Just scanned with Superantispyware pro and it was clean also.
+
+Avast Pro And Superantispyware Pro are an unbeatable combo. Nothing gets past these two tough mothers."
+,chuckmamuck,2010-04-01T00:04Z,"amerialb
+you can never have enough good security, especially when scouring the darkest depths of the net looking for freebies in dodgy places, its not worth taking any chances.
+i was watching a vid of the b-17 with the accusim pack last week, it looks amazing, i like the b-17 as it is so making it better is all good. its 1 im after myself so i'll up it when i get it, might even buy it.
+i noticed a frame drop with the mustang, i thought it was from running utorrent, peerblock and messing about with lod radius and mipmap settings in rivatuner but it sounds like it could be a heavy hitter then."
+,simler,2010-04-01T19:47Z,"Hey chuckamuck, many thanks! 
+Would be very nice to see the A2A Accusim Pack for the B-17 here soon...."
+,bigough,2010-04-02T06:36Z,"Can't get the instruments to work, any help would be nice.  Thanks."
+,derda2,2010-04-03T10:11Z,only black instruments. What to do?
+,chuckmamuck,2010-04-03T17:36Z,"@derda2
+you have to transfer the contents of the gauges folder that came with the mustang into the relevant FSX folders. its best to transfer them manually instead of just copying the whole folder at once. any that say ""this file already exsists do you want to replace it"" click yes to all and then it will be sorted."
+,derda2,2010-04-03T19:02Z,Sure but still only black pfd etc. 
+,derda2,2010-04-03T19:06Z,I've copied all off the gauges folder into FSX/gauges?
+,chuckmamuck,2010-04-04T04:00Z,"@derda2
+ahh thats the problem then mate.
+click on the gauges folder then drag or copy each of the 5 files into the main FSX directory, 
+flight1 garmin g1000.aux
+flight1mustang
+flight1 garming1000_510.gau
+flight1 garming1000_510.gau_1.01
+mstngsvc.dll
+
+just put those 5 files in your main FSX directory(not the gauges folder) and replace any that say ""this file already exsists do you want to replace it""
+then hopefully it should all be working,
+thats what i did and it all works as it should. 
+
+"
+,chuckmamuck,2010-04-04T05:36Z,"@derda2
+ive just had another look at my install and the easieast way for you to do it is install the aircraft so you're only left with the contents of the gauges folder to copy over.
+then go to your main FSX directory and click on gauges and you'll see that the same 5 files that you have left to copy over are already installed in the gauges folder.
+all you do is click on your flight1.garminG1000.aux folder and copy the whole contents into the same named folder already installed in the main fsx gauges folder. click move and replace for every item.
+do the same with the flight1 mustang folder and then drag or copy the last 3 files into the main fsx gauges folder and replace the exsisting ones.
+everything will be in its correct place then and it will work.
+all you're doing is replacing the files that have already been installed. "
+,derda2,2010-04-04T08:26Z,still no luck. black instruments...
+,chuckmamuck,2010-04-04T15:39Z,"@derda2
+when you put the contents of flight1.garmin.g1000.AUX folder into the folder with the same name installed in your FSX/gauges folder is it asking you if you want to copy and replace around 300 items? cus thats what should be happening. 
+you need to open the garmin.G1000.AUX folder, the 1 that you have left after you installed the aircraft and when you.ve opened it you should have a long list of files. you need to put every one of those files into the garmin.G1000.AUX folder thats already installed in you FSX/gauges folder. for every 1 of those files you add it will ask you if you want to copy and replace the file with the same name that already exsists and you click yes. then do the same with flight1.mustang folder. you will also see the 3 remaining files you have left already installed in the FSX/gauges folder(mstngsvc.dll etc), just delete the installed ones and replace them with others.
+try uninstalling the aircraft then install it again and go through the procedure above.
+
+also im not sure if every file in the garminG1000.AUX thats already installed is being replaced by the new ones cus if its replacing every file then you could just remove the 2 whole folders from FSX/gauges(flight1.garminG1000.AUX and flight1.mustang) and replace them with the other 2. you could try that to see if it works.  "
+,bigough,2010-04-05T06:29Z,"chuckmamuck I too am having an issue with the instruments.  Have tried all of your techniques to no avail, other than uninstall and reinstall.  Will try that tomorrow and will repost.  Thanks for the upload, really hoping the last step works, this is a plane I have wanted for a while."
+,derda2,2010-04-05T07:35Z,ok i moved fsx to fsxold and repaired. then newly installed the plane and it works! So i guess it's interfering with another plane...now how should i merge those two FSX?
+,chuckmamuck,2010-04-05T10:06Z,"@derda2
+thats cool you got it working, altho not in your actual main FSX directory. im not really sure how you can merge them as ive not had that problem before. it does sound like you had a conflict with something already installed tho. sounds like the best thing to do is manually transfer the files into your main FSX install, just drag the files over from where they are and put them into the same places in your main FSX, like you would when adding a ripped aircraft without an installer. 
+
+@bigough
+yeah try the frsh install mate and if still no luck then try what derda2 did above."
+,chuckmamuck,2010-04-05T10:09Z,is it just me or is anybody else noticing their framerates taking a slapping when they use the g1000? 
+,bigough,2010-04-06T16:17Z,"Fresh install and still no joy.  Don't want to have 2 fsx folders like derda2, to get this plane working.  Also I notice that the instruments are on, but are just blacked out.  If I quickly shuffle between views, I can see the instruments for a split second.  Thanks for your help Chuck."
+,xxaztecxx,2010-05-22T21:56Z,"anyone know how to make the garmin screens work???
+
+please write down step by step"
+,bigough,2010-05-25T04:40Z,"xxaztecxx if none of the instrument panels work I have the solution, at least worked for me (found it in some forum).  
+
+Uninstall Acceleration, install SP1, re-install Acceleration.  
+
+This plane, or any other plane didn't work for me until I did this.  One other note, if you have windows 7 you need to go into the C:/program files and where you have the main FSX.  Right click and disable any ""run with compatibility modes"".  Otherwise your serial code will not be accepted.  Good luck."
+,bigough,2010-05-25T04:42Z,"xxaztecxx come to think of it, if you try removing any of the ""run with compatibility modes"" before uninstalling anything, it might work.  Give that a shot first."
+,RipperG,2010-08-02T03:40Z,"Well there is a new problem. To me this Installer and update were no problem. However, when I upgraded to navigraph 1007 and now 1008 I get an  Access Violation error.  If you read this last post http://forum.navigraph.com/forum/default.aspx?g=posts&t=2005  it states that you need the Flight1 WAAS waypoint update! No luck here! Can't find it on the torrent sites!  So for now, I would not suggest upgrading the Airac!"
+,dashare,2011-02-15T19:50Z,Trojan found  but easy to remove.
+,heli3,2011-04-22T15:45Z,Great! Request: antsairplanes tecnam p2002 
+,bugcrusher,2011-05-12T14:05Z,"Installed flawlessly on Windows 7 with FSX SP2. Thanks uploader !
+
+Still, I confirm that this plane is fps hungry, but it's manageable."
+,el_kab0ng,2011-06-21T20:15Z,We need 1.05a to fix the WAAS update issue with the latest AIRAC.
+,thndr,2011-10-06T04:01Z,"I also have the black gauge issue. The crack is probably not complete. The gauges work fine in 2D and popped out, but are all black on the VC. No flashing when switching between views.
+
+I've used this package on an earlier Windows 7 install, and it worked great at that time. Tried reinstall, new folder, repairing install, nothing seems to work this time around."
+,daan1508,2012-01-07T16:29Z,Could any of you upload the Cessna 162 by Flight1??
+,sneer2012,2012-04-07T00:32Z,"For those who has black gauges
+Add this to your dll.xml:
+
+		Mustangsvc
+		False
+		False
+		..Microsoft Flight Simulator
+    XGaugesmstngsvc.dll"
+,sneer2012,2012-04-07T00:37Z,Sorry. didn't come out as I thought it would. Anyhow you have to register mstngsvc.dll in dll.xml to make your Mustang work.

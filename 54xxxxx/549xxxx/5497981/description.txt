@@ -1,0 +1,102 @@
+Copied from 7-Zip Homepage:
+
+
+License
+
+7-Zip is open source software. Most of the source code is under the GNU LGPL license. The unRAR code is under a mixed license: GNU LGPL + unRAR restrictions. 
+
+You can use 7-Zip on any computer, including a computer in a commercial organization. You don't need to register or pay for 7-Zip.
+
+
+The main features of 7-Zip
+
+High compression ratio in new 7z format with LZMA compression
+
+Supported formats:
+Packing / unpacking: 7z, ZIP, GZIP, BZIP2 and TAR
+Unpacking only: ARJ, CAB, CHM, CPIO, DEB, DMG, HFS, ISO, LZH, LZMA, MSI, NSIS, RAR, RPM, UDF, WIM, XAR and Z.
+
+For ZIP and GZIP formats, 7-Zip provides a compression ratio that is 2-10 % better than the ratio provided by PKZip and WinZip
+
+Strong AES-256 encryption in 7z and ZIP formats
+
+Self-extracting capability for 7z format
+
+Integration with Windows Shell
+
+Powerful File Manager
+
+Powerful command line version
+
+Plugin for FAR Manager
+
+Localizations for 74 languages
+
+
+7-Zip works in Windows 7 / Vista / XP / 2008 / 2003 / 2000 / NT / ME / 98.
+There is a port of the command line version to Linux/Unix.
+
+On 7-Zip's Source Forge Page you can find a forum, bug reports, and feature request systems.
+
+
+Compression ratio
+
+Compression ratio results are very dependent upon the data used for the tests. Usually, 7-Zip compresses to 7z format 30-70% better than to zip format.
+And 7-Zip compresses to zip format 2-10% better than most of other zip compatible programs.
+
+
+Changelog:
+
+
+9.13 beta      2010-04-15
+-------------------------
+- 7-Zip now stores NTFS file timestamps to ZIP archives.
+- New additional "Open archive >" item in context menu allows to select 
+  archive type for some files.
+- Some bugs were fixed.
+- New localization: Uyghur.
+
+
+9.12 beta      2010-03-24
+-------------------------
+- ZIP / PPMd compression ratio was improved in Maximum and Ultra modes.
+- The BUG in 7-Zip 9.* beta was fixed: LZMA2 codec didn't work,
+  if more than 10 threads were used (or more than 20 threads in some modes).
+
+
+9.11 beta      2010-03-15
+-------------------------
+- 7-Zip now supports PPMd compression in ZIP archives.
+- Speed optimizations in PPMd codec.
+- The support for archives in installers was improved.
+- Some bugs were fixed.
+- New localization: Kazakh.
+   
+
+9.10 beta      2009-12-22
+-------------------------
+- The BUG in 7-Zip 9.09 beta was fixed:
+    7-Zip created incorrect ZIP archives, if ZipCrypto encryption was used.
+    
+
+9.09 beta      2009-12-12
+-------------------------
+- 7-Zip now can unpack Apple Partition Map (APM) disk images.
+- Speed optimizations in AES code for Intel's 32nm CPUs.
+- Speed optimizations in CRC calculation code for Intel's Atom CPUs.
+- Some bugs were fixed.
+
+
+
+Don't use this beta version for important data.
+Call "Test" command after each compressing operation. 
+
+
+ED2K Link:
+ed2k://|file|7z913-x64.msi|1327616|DCAAB93C0F1CD578DF68EA02FBD66613|h=AGFHZOG5Z2C3IX622A2NWWM6OB72JZ6Y|/
+
+
+Comments from the uploader (olofolleola4):
+Here is some links if you cannot download it through this torrent:
+upload box  .  com  /  files  /  95b87f40ff
+rapid share  .  com  /  files  /  376339263  /  7z913-x64.msi

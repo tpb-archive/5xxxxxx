@@ -1,0 +1,46 @@
+Source                                  :DVD5@xRG
+Complete name                    : c kkompany xRG.mkv
+Format                           : Matroska
+File size                        : 695 MiB
+Duration                         : 2h 6mn
+Overall bit rate                 : 766 Kbps
+Encoded date                     : UTC 2010-04-15 07:13:22
+Writing application              : mkvmerge v3.2.0 ('Beginnings') built on Feb 12 2010 16:46:17
+Writing library                  : libebml v0.7.9 + libmatroska v0.8.1
+
+Video
+ID                               : 1
+Format                           : AVC
+Format/Info                      : Advanced Video Codec
+Format profile                   : High@L4.1
+Format settings, CABAC           : Yes
+Format settings, ReFrames        : 3 frames
+Muxing mode                      : Container profile=Unknown@4.1
+Codec ID                         : V_MPEG4/ISO/AVC
+Duration                         : 2h 6mn
+Nominal bit rate                 : 639 Kbps
+Width                            : 672 pixels
+Height                           : 288 pixels
+Display aspect ratio             : 2.35
+Frame rate                       : 29.970 fps
+Resolution                       : 24 bits
+Colorimetry                      : 4:2:0
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.110
+Writing library                  : x264 core 80 r1376M 3feaec2
+
+Audio
+ID                               : 2
+Format                 : AAC
+bit rate                         : 128kbps (Multichannel)
+Format/Info                      : Advanced Audio Codec
+Format version                   : Version 4
+Format profile                   : LC
+Format settings, SBR             : Yes
+Format settings, PS              : No
+Codec ID                         : A_AAC
+Duration                         : 2h 6mn
+Channel(s)                       : 6 channels
+Channel positions                : Front: L C R, Rear: L R, LFE
+Sampling rate                    : 48.0 KHz
+Resolution                       : 16 bits

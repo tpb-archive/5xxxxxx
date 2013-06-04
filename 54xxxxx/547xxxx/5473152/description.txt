@@ -1,0 +1,46 @@
+	
+
+
+
+
+
+Quote:
+
+Operating System: Windows XP, Windows Vista
+CPU: Any Intel Core Duo machine, AMD Athlon 3500 + or better
+RAM: 2 GB
+Disk Drive: 8X or faster DVD-ROM drive
+Hard Drive: at least 10 GB of free space
+Video: DirectX 9.0c compatible video card. 256 MB with Shader Model 3.0 support. NVIDIA GeForce 8800 or better, ATI Radeon HD 3850 or better
+Sound: DirectX 9.0c compatible sound card
+Multiplayer: 2 to 10 players, network or Internet connection required (Cable, DSL, or faster connection
+Internet connection required at all times.
+
+Quote:
+Install:
+1. Open the "hosts" file located in the folder "System32driversetc" in notepad,
+and add the following text:
+127.0.0.1   gosredirector.ea.com
+127.0.0.1   blazeserver.blazeemu.org
+127.0.0.1   gosgvaprod-qos01.ea.com
+127.0.0.1   gosiadprod-qos01.ea.com
+127.0.0.1   gossjcprod-qos01.ea.com
+127.0.0.1   demangler.ea.com
+127.0.0.1   vmp.tools.gos.ea.com
+
+2. Open the folder "Data",
+find in it the file "CNC4.game" and rename it to "CNC4.exe"
+
+3. Copy to folder "Data" file "RunCNC4.eng.bat",
+OR
+create a shortcut to file "CNC4.exe" from folder "Data"
+and in the properties of shortcut, add parameters:
+-config "..CNC4_English.SkuDef" -loginToken "test@xmail.com|zzzz" -persona "test"
+
+Launtch:
+1. Start CNC4SERVER.exe
+2. Start game from shortcut or from RunCNC4.eng.bat
+
+Configure firewall:
+Allow connection between the emulator and the game if
+IP is 127.0.0.1

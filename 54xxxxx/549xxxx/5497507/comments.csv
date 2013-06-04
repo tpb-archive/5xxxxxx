@@ -1,0 +1,328 @@
+User Type,Username,Date,Text
+,inv1234,2010-04-15T18:31Z,Let upload the game parts to a mirror ^^
+,InFailityWard,2010-04-15T18:35Z,"Better crack with 200+ seeders:
+
+http://thepiratebay.org/torrent/5496211/GTA_IV_Episodes_From_Liberty_City_WORKING_crack"
+[V],Mbb15,2010-04-15T18:45Z,"@InFailityWard 
+
+that crack is more complicated"
+,sammyunit12,2010-04-15T18:56Z,"Cheers Mbb, will be seeding for a very long time.
+Just need to wait till ELFC is done downloading for me D: 1.2mb/s ftw."
+,Zonzzu,2010-04-15T19:32Z,I still cant get it to work... It crashes after the R* North logo. I did the registry thing and changed the installfolder path to the right one...
+[T],thenoobish,2010-04-15T22:04Z,"Very nice, thanks Mbb15"
+,TempDude29,2010-04-15T22:25Z,"""if you have x64 (64 bit) version of windows you have to edit the reg file provided here and modify HKLM\software\Rockstar Games\EFLC
+to
+HKLM\software\EFLCWow6432Node\Rockstar Games\EFLC ""
+
+Excellent! It now works for me. Thanks! :)"
+,simer007,2010-04-16T05:31Z,from where u all downloaded the game there is just a single torrent with 3000 leechers
+,flamemc1,2010-04-16T06:34Z,"Ok guys i need help, ive done exactly as the crack said.  When i load the game it gets past the rockstar logo, gets to the main menu, when i choose either game it starts to load, then says unable to find downloaded content, do you want to start a new game, then it tries to load says load unsucessfull then crashes to desktop. Can anyone help me with this issue"
+,flamemc1,2010-04-16T07:02Z,"abit more info, i already has a legit copy of gta4 pc installed, but i uninstalled this just incase that was the issue but the same problem happened, the original gta4 wasnt a steam copy, just normal copy from a shop"
+,flamemc1,2010-04-16T07:22Z,"Ive just tried making an offline profile and it says the same thing, ""autoload unable to start, downloadable content not available. do you wish to start a new game of liberty city, press enter"" then i press enter it starts with the gta4 load screen then says unable to load starting a new game then crashed"
+,flamemc1,2010-04-16T07:24Z,"I promice im not a noob, i get all theses sort of games working with no issue, ive got many games installed, its the first time ive come across this kind of issue."
+,flamemc1,2010-04-16T07:32Z,"Description:
+  Critical runtime problem
+
+This is the error i get
+
+Problem signature:
+Problem Event Name:	APPLICATION CRASH
+System RAM:-807841792
+Available RAM:1288728576
+Number of CPUs:	2
+Video Card Manufacturer:NVIDIA
+Video Card Description:NVIDIA GeForce GTS 250
+  Video Card Driver Version:	8.17.0011.9713
+  OS Version:	6.0.6002.2.2.0.256.1
+  Locale ID:	2057
+"
+,zerofreeze5,2010-04-16T08:09Z,"http://www.gtaforums.com/index.php?showtopic=388658
+
+Xliveless for EFLC 
+
+I had no problems on the very first start of the game, Im playing it right now \0/"
+,flamemc1,2010-04-16T09:07Z,"Now i get this crash on startup when i try to use the xlive.dll from that link.
+
+  Problem Event Name:	APPCRASH
+  Application Name:	EFLC.exe
+  Application Version:	1.1.1.0
+  Application Timestamp:	4bb19157
+  Fault Module Name:	xlive.dll
+  Fault Module Version:	6.0.6002.18005
+  Fault Module Timestamp:	49e03821
+  Exception Code:	c0000138
+  Exception Offset:	00009eed
+  OS Version:	6.0.6002.2.2.0.256.1
+  Locale ID:	2057
+  Additional Information 1:	9d13
+  Additional Information 2:	1abee00edb3fc1158f9ad6f44f0f6be8
+  Additional Information 3:	9d13
+  Additional Information 4:	1abee00edb3fc1158f9ad6f44f0f6be8"
+,zerofreeze5,2010-04-16T11:03Z,launcheflc.exe you need that one start that one ;)
+,flamemc1,2010-04-16T11:49Z,"Ive tried launching that and i get the xlive error, when i take out the xlive file it loads gets to the main menu then crashes after it tries to load by saying load fail, cheers for trying to help, but i think the issue is that i have a non steam copy of gta 4 installed and im trying to install this steam version of the game.  Im just annoyed as ive waisted 16gb downloadin it and ive also lost my original gta 4 saves and game by trying to get this to work.  This always happenens when i really want something, it tends not to work for me.  Now assasins creed 2 works fine, but this no. ahhhhh."
+,fsxman,2010-04-16T12:57Z,"""if you have x64 (64 bit) version of windows you have to edit the reg file provided here and modify HKLM\software\Rockstar Games\EFLC
+to
+HKLM\software\EFLCWow6432Node\Rockstar Games\EFLC ""
+how do you do the reg key to edit that"
+,Deadmanwalkin_,2010-04-16T13:07Z,"doesn't work for me. im using x64 win7 and can get in the menu, but it crashes everytime i try to start a new game"
+,zerofreeze5,2010-04-16T14:13Z,@flamemc you need to install GFWL than try again ;)
+,The.Genius.of.the.Hole,2010-04-16T15:18Z,Do you have to add EFLCWOW6432NODE all three times in the registry file?
+,suter47,2010-04-16T15:46Z,"flamemc1 I´v got the same problem as U, but not any longer. I simply delet Gians ani spyware from my disk and than run .reg file a it works. So just delet any program on your system that might block .reg file   I hope it will help you ... "
+,MikeHaggarKJ,2010-04-16T19:16Z,Thanks man. :D
+,flamemc1,2010-04-16T21:26Z,"Right im bk lol, ive tried the .reg thing and i have gfwl installed, i use it for loads of other games also.  Basically i extracted Gta EFLC, then copied this into that folder, then done the .reg fix.  It loads to the main menu, then i try to start either one of the games, then it says something like autoload failed, start a new game press enter, so i do then the gta4 load screen comes up where you have the gta4 characters in them stale poses, then it goes to a black screen and says load failed, starting a new game then crashes to desktop."
+,suter47,2010-04-16T22:18Z,"try also edit .reg file and write to it:
+Looks likde this:
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Rockstar Games\EFLC]
+""INSTALL_LANG""=""1033""
+""InstallComplete""=""1""
+""InstallFolder""=""d:\\Games\\gta iv episodes from liberty city\\EFLC""
+""Design Installer ""=""1""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Rockstar Games\Grand Theft Auto IV\1.00.0000]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Rockstar Games\Grand Theft Auto IV\1.40.0000]
+
+I mean that need to change line in Instal Fodler: and type your dir, where is the game on your disk
+Another thing, when i had GianAntiSpyware, when I run .reg file, it always asking to allow or block..and when I click allow, still .reg file was blocking...after uninstaling Gians spyware, it wet well 
+So unpack the game, download GTA 4 EFLC nodvd from here: http://ulozto.cz/4570607/gtaiv.eflc.nodvd.exe 
+Run nodvd, instal it using your path to game dir, than copy crack: http://thepiratebay.org/torrent/5497507/GTA_IV__Episodes_From_Liberty_City_Crack___.Reg and than write to your .reg file what I wrote at the biginning, than run .reg, it asked U to copy to your registration, click on yes and it should work :) 
+remember, delete any spyware that can block .reg file to working properly "
+,johnniebrasco,2010-04-16T22:46Z,"Well, this does not work for me, on win 7 x64, have installed everything, edited the reg, and updated.. still get the same problem as flamemc.
+I'm about to give up, and wait for razor or reloaded."
+,suter47,2010-04-17T00:31Z,"For 64bit Windows Users: The registry key needed is - Folder: ""HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Rockstar Games\EFLC"" "
+,L_S_wEr,2010-04-17T04:39Z,this is only a CRACK ??? 
+,flamemc1,2010-04-17T07:24Z,"Ok, ive started a fresh, i needed a new install of x64 win 7 so, I did a fresh install of win, then i installed all the things needed gfwl etc, then extracted to the exact location, then added the x64 regedit string,then copied the crack to the extraction folder, then made sure the folder waa the same in the .reg file, then merged the .reg file with no internet security software what so ever, then started the game up, then made a new gfwl offline profile, then chose one of the games then waited for load screen then started to load and then...... the same crash as in vista 32bt and 732bt. ahhhhhhhhh"
+,TheSchaafl,2010-04-17T11:01Z,"Need Help: If i start the game, it comes the error message:
+
+SecuLauncher: failed to start application. [2000]
+
+have anybody the same problem?"
+,suter47,2010-04-17T13:13Z,"TheSchaafl U have to play the game via LanuchEFLC.exe in game directory, not from the desktop ..."
+,suter47,2010-04-17T13:20Z,"flamemc1 I don´t know if its work, but try to not instal GFW. I don´t have to log in my profile as in GTA4 to play, even when I pres Home on keyboard, it wont show me GFWL...so just try it without GFWL  :)"
+,Metalprofi,2010-04-17T13:47Z,444 KB....WTF????
+,The.Genius.of.the.Hole,2010-04-17T15:13Z,"Please I ask again: Do you have to add WOW6432NODE all three times in the registry file? 
+
+I'm still downlaoding, and it's gonna take about 4 days, damn crappy 1MB internet"
+,thority,2010-04-17T15:57Z,"i was so fucking stupid, had the same problem as flamemc1 and finally figured it out. works fine now. thanks for the upload."
+,thority,2010-04-17T20:00Z,"it was easy. first copy the crack files over originals, than run regedit and do the necessary changes, and (WHAT MADE THE GAME WORK FOR ME) set the correct installation directory. i got mine in G:/Games, the default is C:/Program Files etc. i also got that xliveless upgrade. "
+,scorpy1975,2010-04-17T20:27Z,does this crack work if I install  v1.1.1.0 update?
+,flamemc1,2010-04-17T21:33Z,Ok could someone upload some regedit files that would corrospond to the game being installed to a standard directory in win7 x64 beacause i cant get this sh*t to work
+,kudlaty_true,2010-04-17T21:58Z,"Ok, I have yellow rockstar logo, blue rockstar logo and game crash. Every time in the same place. Any of you got that? What to do?
+(win7 x64)
+Obviously I regedited already."
+,Seoulboy1,2010-04-17T22:01Z,I'm getting the exact same prob as flamemc. I've tried without gfwl and it give me the missing live dll error and game won't start so that's a no go. I'm using a offline profile.  Tried xliveless and everything suggested here. Checked and rechecked install path. This is just not a working crack to me it seems. 
+,flamemc1,2010-04-18T04:13Z,"Right i finally got this to work, follow @sharky4687 discription of what to do and i got it to work, its nothing to do with gfwl or if you have gta4 already on ure system, its all to do with the regedit setting, start with a fresh extraction, delete anything youve done already including the .reg files youve added, and extract the files to this exact locastion 
+
+C:\Program Files\Rockstar Games\Grand Theft Auto IV - Episodes From Liberty City
+
+You dont need to change the .reg file in the crack then, and then just follow these exact instructions, also make sure the contents of EFLC is in the location above and not in the EFLC folder.
+
+
+Alright I got this working perfectly on W7 x64
+
+This is how you do:
+
+1.Download this torrent (ofc.)
+2. Download http://thepiratebay.org/torrent/5497507/GTA_IV__Episodes_From_Liberty_City_Crack___.Reg (If it shows that it's a virus I recommend that you should uninstall your AV because it sucks)
+3. extract The game into C:\program files\rockstar games\
+4. extract the crack into the EFLC folder. double click the EFLCINSTALL.reg file and apply.
+5. open up regedit and locate HKEY_LOAD_MACHINE\SOFTWARE\ROCKSTAR GAMES\EFLC
+
+AND (If you're using x64 I think)
+
+HKEY_LOAD_MACHINE\SOFTWARE\Wow6432Node\ROCKSTAR GAMES\EFLC
+
+now you should make new strings in the wow6432 folder. Give them the same name and value as the ones in HKEY_LOAD_MACHINE\SOFTWARE\ROCKSTAR GAMES\EFLC
+
+now to InstallFolder key you should type in the location of the game.. e.g. ""C:\Program Files (x86)\Rockstar Games\Grand Theft Auto IV - Episodes From Liberty City\EFLC""
+5. Install games for windows - live program
+6. Start the game with LaunchEFLC "
+,flamemc1,2010-04-18T04:14Z,And im running Win 7 x64
+,siim357,2010-04-18T13:41Z,"@ flamemc1
+
+hey dude i did everything i can, but when i get to the menu and click on one of the games (Ballad of Gay Tony or The Lost and The Damned), then it starts loading and after that it closes with a message like this : ''EFLC.exe has encountered a problem and needs to close. We are sorry for the inconvenience. '' 
+
+and at the same time EFLC.exe ACTUALLY DOESNT CLOSE, it says ''load failed. starting a new game'' right after it says '' the downloadable content for this game is not available. starting a new game.( or something like that)''... then i have to ctrl alt delete and close the program... any help how i could avoid this??"
+,bapcules,2010-04-18T15:25Z,"I have Exact the same problem like  ""siim357"".
+Please Help.............."
+,bapcules,2010-04-18T15:27Z,.......then it starts loading and after a few secounds that it closes with a message like this : ''EFLC.exe has encountered a problem and needs to close.
+,MikeHaggarKJ,2010-04-18T19:39Z,"Works perfectly. Thanks alot to Razor1911, mbb15 and whoever hexedited this to work with EFLC.
+
+If you have 64-but like I do you simply need to open the .reg file with notepad and change ""[HKEY_LOCAL_MACHINE\SOFTWARE\Rockstar Games\EFLC]"" to ""[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Rockstar Games\EFLC]"" and then run it, and it works. :)"
+,flamemc1,2010-04-18T20:24Z,"Now ppl im gonna create a video on what to do with ure regedit do that this works perfect for u all, and dont forget u all got @noobish @sharky @mmb15 to thank for the fixes, i just braught them together, video will be on in 2hours. "
+,MikeHaggarKJ,2010-04-18T20:55Z,"actually it does not work perfectly, i get the same problem as everyone else. silly me didnt even start playing the game before i concluded that it worked lol.
+
+will follow instructions in the comments. thanks to everyone helping in the comment section (flamemc1 :)), mbb1, razor1911 and the guy who hexedited this to work with eflc"
+,eminded,2010-04-18T21:02Z,"I tried the above. Here is the error msg i get. 
+""EFLC FATAL ERROR: Invalid resource detected - Please re-install the game.  This is with the 16 GB Verison of the game."
+,johnniebrasco,2010-04-18T21:29Z,"aah, thank you flamemc, finally got it together with your instructions"
+,MikeHaggarKJ,2010-04-18T22:39Z,"followed flamemc's instructions, but it won't work....:(
+question for people it works for: do you have the original gta4 installed on your system?"
+,faithfan,2010-04-19T00:29Z,"For Everybody WHO HAS AN xlive.dll ERROR OR STH LIKE THAT. YOU HAVE TO DELETE AN ASI LOADER AND ALL TRAINERS,MODES OR ANYTHING LIKE THAT FROM GTA 4."
+,johnniebrasco,2010-04-19T00:42Z,yes gta iv is installed. no need to uninstall
+,johnniebrasco,2010-04-19T00:43Z,"if you have xlive errors, install games for windows live, from the install foder"
+,flamemc1,2010-04-19T03:26Z,"@eminded if you still get game issues, go back, delete everything including the reg edit settings, by typing regedit into the vista/7 search bar in start, then find anything that has the word rockstar in it and delete, unless you have older versions of gta installed then dont, then restart the instructions again and do every step as it says and it should work.  If not let me know ure os and if ure in a x86 or x64 os."
+,nikoaliti,2010-04-19T12:42Z,"what does make new strings mean??? please
+
+
+now you should make new strings in the wow6432 folder. Give them the same name and value as the ones in HKEY_LOAD_MACHINE\SOFTWARE\ROCKSTAR GAMES\EFLC"
+,m1rzaknows,2010-04-20T14:41Z,"solution my ass, its only for 64 bit -.-"
+,Mochok,2010-04-20T22:26Z,"@flamemc1
+Man...if you would be a girl I would ask you for a date! :P Thanks for the description man! It was my first time to mess around in registry but you made it simple! But I only had to change the install folder sting or what it's called in the HKEY_LOCAL_MACHINE\SOFTWARE\ROCKSTAR GAMES\EFLC!
+It was set as if I was installing it on C drive but my game is on D Drive!
+I will play this as soon I finish Assassins.C. II!!
+Thank you uploader, thanks flamemc1!!"
+,Mochok,2010-04-20T22:27Z,..oh and don't forget to give this torrent a plus just to make it obvious that it is a working crack!
+,chip211,2010-04-21T02:35Z,i downloaded from another site but it came without install it was direct extract but it sucks that it wont even work well tough luck 
+,xtracrossxx,2010-04-22T19:57Z,hey guys this works with the noobishes 8.5 gb ver. ryt???
+,Mochok,2010-04-25T11:43Z,"@xtracrossxx
+I remember dl-ing the 8.5GB version but I don't know which uploader I chose! I guess they are all the same right? I mean tha images..."
+,s_phrozen,2010-04-25T23:37Z,"""Load Failed. Start A New Game."" Crash Problem:
+
+Follow this instruction after installing the registry using EFLC install.reg from EFLC-mbb.rar
+
+If you are using Windows 7. Run regedit. Go to HKEY_LOCAL_MACHINE/SOFTWARE/Rockstar Games/EFLC
+
+Then check the ""InstallFolder"" registry and check if its exactly the same as where you have put your copy of the installed game files.
+
+In my case its a simple mistake of the registry stating install folder is ""C:\Program Files\Rockstar Games\Grand Theft Auto IV - Episodes From Liberty City"" 
+
+while i put my installation in ""C:\Program Files\Rockstar Games\Grand Theft Auto IV - Episode From Liberty City"" 
+
+Did you notice the missing 's' in ""Episode"" ?? :D
+
+Hope this solve your problem.. enjoy.. "
+,Mahesh7,2010-04-28T09:55Z,"^^^^^^^^^^^^^^^^^
+
+i have the same problem..........."
+,Mahesh7,2010-04-28T11:57Z,"Thanks s_phrozen
+
+made it to work............"
+,carnage3344,2010-04-30T18:45Z,"In TLAD I did the diamond mission ""collectors item"" 3 times and gave the money to jim then the game loads and never returns to the game. Can you guys help please?? :S"
+,bleubleu92,2010-04-30T21:18Z,"Does not save key mapping 
+
+any help plz???"
+,LeV000,2010-05-03T00:32Z,Works perfectly! Thanks!
+,Gangxsta,2010-05-04T04:58Z,does online work??
+,Campground,2010-05-05T17:18Z,"Need some seeders, i want this game so badly! Please seed and ill seed for a month!"
+,BonZaZZ,2010-05-10T19:49Z,"444.74 KiB?!??!?! 
+
+The game is on 6.67 GiB!!!!!!"
+,BonZaZZ,2010-05-10T19:50Z,"SRY. now i see its only crack and serial :-P
+
+My bad"
+,njraman,2010-05-11T14:38Z,"i did all the steps and made sure my install folder is same as my reg and also applied everying still i get EFLC.exe encountered a problem error when i start the game..
+
+some 1 kindly help me"
+,SJCarline,2010-05-19T05:19Z,I am having the same issue as eminded or whatever his name was it seems that it only comes up around the times square area....any help? maybe one of those dont check for modified files so you can put mods in the game?
+,mcfixstuff,2010-05-19T19:44Z,THIS IS ONLY THE CRACK FILEZ!!!!!
+,danielboyz,2010-05-22T09:48Z,it keeps asking for the serial how do i solve that
+,mark.taiwan,2010-05-25T17:02Z,"OK I'm using 32bit Windows 7, when I tried to start LaunchEFLC.exe an error message appeared after the Razor logo: ""SecuLauncher: failed to start application. [2000]""
+Does anyone have any idea how to fix this?"
+,mark.taiwan,2010-05-25T17:05Z,"Woops, silly me, I put the files in the wrong directory...."
+,mark.taiwan,2010-05-25T17:31Z,"Ok... now I got the ""Load Failed. Start A New Game."" problem, I have already followed s_phrozen instructions but still doesn't work..."
+,thezeros,2010-05-31T23:17Z,gta iv doesnt start after i installed episodes of liberty city u know why?
+,Mastersaofan,2010-06-12T08:10Z,"@flamemc1
+
+im using windows xp sp2 34bit, well i think it is. since it indicated the x86 thingy. anyway, super exact same problem like yours, mine crashed after the still pose loading screen. and the same error box comes out with the send and dont send thing.
+so have you made a video already? can you put instructions for my os to install this? thanks man.
+
+p.s i uninstalled my gta 4 but left the rockstarsocial club. and i bought the game as pack with the 2 expansion not seperately."
+,bilal2lhr,2010-06-14T15:37Z,when i start...........the menu screen appears fine but when i click play..............then nothing happens
+,pecill,2010-06-16T17:08Z,how to bypass the serial?
+,pecill,2010-06-17T13:26Z,What I mean is that I can play but not save because of the live shit...
+,deepak_rokz,2010-06-19T13:08Z,"for all people for whom the game crashes after rockstar logo, go to regedit and change the name from ROKSTAR to ROCKSTAR and it will work (it worked for me)  "
+,gabriel.b,2010-06-20T16:18Z,"I can´t save the game, it says I need to register at Games for Windows and then I need the serial code of it. Can someone help me?"
+,josefnouicer,2010-06-22T12:51Z,@ gabriel.b: you have to make an offline account if you wanna save.
+,Jeroeny,2010-06-28T11:03Z,How do you make an offline account?
+,theopen,2010-07-03T10:54Z,"dude, i finally figured this out. at wow6432node\rockstargames\eflc
+
+the Installfolder vaule should be this 
+""C:\Program Files\Rockstar Games\Grand Theft Auto IV - Episodes From Liberty City\EFLC""
+
+Remember ADD ""\EFLC"" at the END!!!!
+
+That is the TRICK!!!
+
+enjoy guys!!"
+,mariosrangers,2010-07-07T15:12Z,thanks a lot man! i have the official gta eflc but i was bored to put the cd in the cd-rom so ur crack lets me play withou the cd ;)
+,pppppp1,2010-07-12T00:35Z,you should try G
+,cristiand2703,2010-07-30T06:10Z,does this need gta iv first ?
+,Corvin666,2010-08-03T22:30Z,"FOR THOSE EXPERIENCING THE ""No Download content available"" message and subsequent crash:
+
+The .reg file is wrong. The registry entry should point to %GAMEDIR%/EFLC folder, not the root one. I.e. if you want to have the game in ""D:/games/GTAIV EFLC"" folder, then the InstallFolder reg entry should point to ""D:/games/GTAIV EFLC/EFLC"". So either fix the .reg file or the entry in the registry (HKLM/Software/Rockstar Games/EFLC/InstallDir)
+
+Have fun!"
+,Theelord,2010-08-06T15:56Z,"Hmmm, i did all that were standing there, and when im trying to lunch it stand that im missing xlive.dll on my computer, any help? "
+,TheBergan,2010-08-10T20:38Z,"FUCK i get my GTA 4 EFCL starting to certain point.... i come to the blue ""Rockstar"" sign then when it's begin to fade then my GTA shuts down!!! please help!!!!! i really want to try these 2 ""expansions"""
+,ricolini,2010-09-05T10:34Z,hey d game laggs a lot wen i start it.....can u pls help....i hav all d requirements....1 gb g card....is it coz of d crack? pls help
+,MorphzreaZ,2010-09-05T13:53Z,totally fucks up the game + sound... 
+,delario,2010-10-03T04:26Z,"after i launch ""LaunchEFLC.exe"" the razor logo comes up, then it says ""SecuLauncher: failed to launch application [2000]"""
+,delario,2010-10-03T04:31Z,plus i hav win7 x64
+,tnfontes,2010-10-14T23:09Z,"how do I solve the ""saving"" issue?
+It's not like GTA IV...it keeps asking me to save through Windows LIVE games..."
+,engconboy,2010-10-27T22:28Z,@MorphzreaZ same here the sound is choppy
+,PleaseDontBanMe,2010-11-23T20:30Z,This crack is 100% confirmed working for Episodes From Liberty City patch v1.1.1.0 and 1.1.2.0. Just extract the files and copy+paste them into Episodes From Liberty City game directory. Thank you very much Mbb15!!!
+,hatrick11111111,2010-12-10T04:53Z,this dl is a okay just need to know what your doing thanks Mbb15
+,R.A.T_5,2011-02-10T16:59Z,"tnfontes, just make an Windows Live Offline Account. There will be a button to make offline account or link highlighted in blue color."
+,vicksred,2011-02-19T18:32Z,"Would appreciate if someone could seed this just for a few minutes, i really need it."
+,indicomp,2011-02-25T00:25Z,"delario at 2010-10-03 04:26 CET:
+after i launch ""LaunchEFLC.exe"" the razor logo comes up, then it says ""SecuLauncher: failed to launch application [2000]""
+
+You need to take the files out of the ""EFLC-mbb"" folder and put them in the EFLC folder then launch."
+,sib0,2011-03-17T01:12Z,when i start......the menu screen appears fine but when i click play.....then nothing happens....ANY HELP ?
+,1122Ali,2011-03-27T14:57Z,HELL at All
+,PirateCab,2011-04-18T03:07Z,"Did anybody have the same problem like my in followings?
+1.: I've installed the game.
+2.: Installed the update 1.1.1.0.
+3.: Copied the EFLC install.reg with perfectly correct code.
+4.: Installed the GTA IV EFLC Crack Razor-1911.
+5.: The game starts. (Rockstar Games logo, Rockstar North logo, et cetera...)
+6.: I can choose between TLAD or TBOGT.
+7.: I choose one of.
+8.: Shows the menu to the game.
+9.: I click the start...
+Then nothing happens. I mean the screen turns black - like everytime (for a second) when i start a game -, but after that nothing happens, but no error messages too... What can I do? Anybody...? Thanks for the answer!"
+,Wilsson002,2011-04-25T17:23Z,Nope...still cant get it working. It is a shitty dl. I've done all the reg shit correctly but still the game crashes every f..... time.
+,Wilsson002,2011-04-25T23:35Z,OMG! I did it! I beat the MF! I got it working. This has been my toughest challenge in the history of getting pirategames to work. I dont even know what I did but it is working now. Strangely for some reason I couldnt unpack the rars to my C drive but game started working when I mounted them to outer hard disk drive and made the changes to reg files. Anyways looks even better than the original game. 
+,stupidhunt47,2011-06-03T19:03Z,doesn't work for me 
+,aCe_vEnTuRa2,2011-06-23T20:02Z,Only one fucker fr INdia Sriram and he is not seeding... what an attitude U free bum !!! Seeedddddddddd
+,aCe_vEnTuRa2,2011-06-23T20:03Z,Thanks bro.... whoever that was.. for seeding ...Cheers
+,-Victory-,2011-07-09T12:07Z,"Hey guys if you have problem after this crack with loading and sound or other, go here on walkotrought  on youtube and sereach ""Episodes From Liberty City (CRASH FIX)"" and press first 
+Only change file to rockstar games/EFLC
+or other, where is your game"
+,jason5826,2011-07-17T14:06Z,Well can somone tell me if the game works?
+,streetbum149,2011-09-19T21:42Z,"ok so after a WHOLE FUCKIN LOT of screwing around in the reg-edit ive finally been able to play. like everyone else said, just look for any type of error in the install-folder string in reg edit. my foul was missing the little (86) after program files for 64-bit systems, so if you have a 64-bit os and have yet to be able to play you may wanna try that. good game so far, but there is this annoying little film grain effect id like to turn off. why do games always ruin themselves with that crap? im not watching a fuckin movie and im not in a theater, i DO NOT want film grain! well, happy gaming guys! if you can play that is. like they say. if at first you don't succeed, throw your pc out the window!"
+,SomethingSomethingDotCom,2011-10-29T09:27Z,I hope this works like every other game  a have downloaded and installed. xD
+,ActionWaction,2011-11-08T02:04Z,Great worked! Thx
+,copy2me,2011-11-17T16:33Z,"Don't download It.........
+Time and game waste..........."
+,lalalopsie123,2012-01-24T20:29Z,"after i launch ""LaunchEFLC.exe"" the razor logo comes up, then it says ""SecuLauncher: failed to launch application"
+,Shubhamfreak,2012-01-25T07:23Z,The game is runing fine... But i hav a different problem. There is no audio/subtitles when Luis speaks to anyone on the phone.!!! This happens only during the phone conversations. Audio/subtitles are there in the game cutscenes n all.. Anyone encountered this problem???plzz help... 
+,lalalopsie123,2012-01-25T09:21Z,"í need a fucking serial key!!!!
+fake shit"
+,AlbozInq,2012-02-23T20:44Z,"Dude THANKS!
+
+100% working crack!
+dont´need serial!"
+,dpoz,2012-03-19T17:44Z,Works! Thanks!
+,beso140,2012-04-07T17:36Z,"i uplouded torrent works fantanstic 
+GTA IV Episodes From Liberty City
+on windows 7 tested"
+,RDRMC97,2012-04-08T07:23Z,Please Seed
+,axelrock,2012-06-26T22:08Z,"people i dont know how the fuck you do it, but with whatever crack i use IT STILL REQUIREST WINDOWS LIVE !!! The game works, BUT IT WONT SAVE."
+,lost4815162342,2012-07-13T19:49Z,"PLease help!
+
+I tried hundreds of different ways to get this to work. But whatever i do, when i try starting the game, it always tells me that i am unable to save because i am not logged in to windowslive.
+
+How do i fix this?"
+,lost4815162342,2012-07-13T19:52Z,"HOW HOW HOW
+
+do i manage to get this to work that i dont have to sign in to windows live and i can save my game?
+
+i must have tried a billion different ways now, fucked around in registry for an hour, whatever i do it just doesnt work.
+
+Any advice?"

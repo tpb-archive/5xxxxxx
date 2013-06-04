@@ -1,0 +1,18 @@
+User Type,Username,Date,Text
+,Duncan05,2010-06-08T15:18Z,"Starship Troopers  - to all having the black screen issue with ATI HD cards, visit this link:
+
+http://forums.amd.com/game/messageview.cfm?catid=227&threadid=96638
+
+To make the blackgrey screen dissapear and when u get attacked u wont see sh*T!
+
+These are the settings you need change in the ""global"" setting file to make it all work fine! My Documents\Empire interactive\SST\Settings open up global.settings and these settings below:
+
+PostProcessing: { ""0"" }
+Distort: { ""0"" }
+DisableSM2: { ""0"" }
+
+Shader Quality (in the game options menu, at most) : MEDIUM
+everything else in the ""graphigs menu"" can be set to any thing u want as long u change these things in the ""global"" file! =)
+
+Check out other posts in this forum but this one solved all of my problems
+Thanks a lot to noob007 for this post!"

@@ -1,0 +1,174 @@
+Copied from DC++ Homepage:
+
+
+Welcome to DC++
+
+DC++ announces the freedom to share!
+DC++ is an open source client for Windows for the Direct Connect network.
+Direct Connect allows you to share files over the Internet without restrictions or limits. The client is completely free of advertisements and has a nice, easy to use interface. Firewall and router support is integrated and it is easy and convenient to use functionality like multi-hub connections, auto-connections and resuming of downloads.
+
+
+First time user?
+
+DC++ is a highly ranked piece of software among the projects hosted at Sourceforge. With more than fifty million downloads, new users continue to find benefits from the software every day.
+
+
+Overview
+
+DC++ is a client for the Direct Connect file sharing network.
+The Direct Connect network is a decentralized network, made up of individual servers (hubs) that users join to share files with other members on that hub.
+Each hub is individually run by a fellow user of the Direct Connect network, and may have certain themes to the content on the hub.
+Hub owners set up rules to regulate their hub as they see fit.
+
+
+Features
+
+DC++ is, based on observable factors, the most prevalent client on the Direct Connect network. Below are some of its features:
+
+
+* No ads, spyware, or bundled software that you don't need
+
+* Open source software, code freely available under the GNU GPL
+
+* Joins multiple hubs at the same time
+
+* List of bookmark-like favorite hubs and users
+
+* Shares large files and many files per your organization scheme
+
+* Tiger Tree Hashes (TTH) used for file integrity
+
+* Search across all (or selected) connected hub by type, size, or name
+
+* Resume of downloads, with optional search for alternate sources
+
+* Logging options and configuration for chat, private messages, downloads, and uploads
+
+* Autoconfiguration of UPnP routers
+
+* MAGNET link support for linking to specific content
+
+* Automatic and manual download priorities
+
+* Saving of user's file lists for browsing and queueing
+
+* Translation into other languags by custom supplied gettext po language files
+
+* Segmented downloading
+
+
+
+Changelog:
+
+
+0.761 2010-03-14
+
+* [L#533840] Fix crashes with themed menus (poy)
+* Fix showing settings from the tray menu (poy)
+* Prevent a crash when the app is closed while a modal dialog is up (poy)
+
+
+0.760 2010-03-11
+
+* [L#263390] Fix main icon format (poy)
+* Help updates (emtee, poy)
+* Handle file lists better in finished windows (emtee, poy)
+* [dwt] Implement Richedit text control (cologic)
+* Update the file list window title bar when the user online status changes (poy)
+* Re-open previous windows - no auto-connect/auto-open setting anymore (poy)
+* Fix own file list not deleted on closure
+* Fix menu title size (poy)
+* [L#239895] Display ISTA
+* "Recent windows" button in the toolbar (poy)
+* Upgraded to OpenSSL 0.9.8m-beta1 (poy)
+* [L#350585] Fix sorting issues in finished windows (poy)
+* [L#339872] Fix crash when decompression initialization fails (steven sheehy)
+* Restore check-boxes in the "Context" user command group (poy)
+* CTM protection by domain name instead of ip (thanks poy)
+* [L#362598] Fix share crash (thanks emtee)
+* [L#367186] Fix crash in waiting users (poy)
+* [L#261185] Use standard user menus in PMs, waiting users, file lists (poy)
+* [L#210727] Solve file list refresh & hashing sync issues (thanks ben)
+* [L#264342] Stop hashing on shutdown (thanks steven sheehy)
+* [L#350994] Fix ignored downloads from search (poy)
+* [L#362878] Compilation fix for Mac OS X (thanks ximin luo)
+* Save user nicks (poy)
+* [L#384558] Don't share the temporary download directory (poy)
+* [L#385818] More native menu colors (poy)
+* [L#385821] Apply the font to check-boxes and tabs (poy)
+* [L#213213] Implement bandwidth throttling (cologic, bigmuscle)
+* New icons (thanks radox)
+* Fix dialog focus issues (poy)
+* Fix a crash in queue frame
+* Move finished downloads functionality into queue frame
+* [L#415965] Hashing can be paused (bigmuscle, emtee, poy)
+* [L#414068] No 35-characters limit to nick and description (ullner)
+* [ADC] Support the TS param of MSG (poy)
+* Convert language codes to real names in settings (poy)
+* Improve user command support in ADC hubs (poy)
+* Improve context-sensitive help (poy)
+* Fix Ctrl+Shift+Tab (poy)
+* Readded WTL exception to the license (for mod developers)
+* Update to boost 1.40
+* [L#463723] Fixed download directory path on non-win32 (thanks razzloss)
+* Favorite hub groups (poy)
+* [L#206778] Fix issues related to users online in multiple hubs (poy)
+* [L#460724] [ADC] Handle self-QUI when sent before INF (thanks sulan)
+* [L#431045] Don't overwrite downloaded files in some cases (thanks emtee)
+* Fix splitter positioning (poy)
+* [ADC] Don't send commands that the hub has forbidden via STA (poy)
+* [L#458498] Fix bad bloom error message causing disconnects
+* Fix coloring of drop-down controls (poy)
+* Show last main chat lines, add a "History" settings category (poy)
+* [L#483323] Fix share files instantly after downloaded (emtee)
+* Toolbar customization (shift+drag, double-click, right-click) (poy)
+* [L#338888] Fix sharing hidden directories (emtee)
+* Auto-resize the message editing box when composing a multiline message (poy)
+* Remove flicker when opening a window (poy)
+* Re-try UPnP mappings after closing settings (poy)
+* [L#485018] Handle adcs:// links (thanks emtee)
+* [L#484247] Fix memory usage when parsing (unreasonably) large file lists
+* [L#242259] Fix a few more cases when adding sources to the queue (emtee)
+* [ADC] Filter some status messages
+* Drop support for non-xml hub lists
+* [L#351393] Fix memory leak during share update
+* [L#400080] Improve hub list status messages (emtee)
+* [ADC] Allow hubs to send IPs of passive users via INF (poy)
+* [L#473173] Fix crash when hashing files on non-Windows systems (thanks razzloss)
+* Update list-view filters more often (poy)
+* Show multiple user-command params in the same dialog (poy)
+* [L#509456] Fix pressing Tab in the notepad (poy)
+* Register in HKCU instead of HKLM to avoid UAC warnings; ditch magnet.exe (poy)
+* Don't use the Vista download dir when running in local mode
+* When a static window is opened, check its menu & toolbar buttons (poy)
+* [L#321246] Fix crash with debug builds on non-Windows systems (steven sheehy)
+* [L#510314] Fix a possible crash in rechecker (thanks poy)
+* Don't move files <= 10 MB to weird places
+* [L#515646] Remove ADC 0.10 compatibility (not ADCS 0.10) (cologic)
+* Change the tray icon on private messages (poy)
+* [L#195209] Revise keyboard shortcuts (poy)
+* Error message when loading the notepad file fails (poy)
+* Remove obsolete default hublists (emtee)
+* Chat actions should work better when the user list is hidden (poy)
+* Icons and tooltips in status bars (radox, poy)
+* Update the installer to cope with new settings directories (emtee)
+* [L#512032] Guard against out-of-screen window placement
+
+
+The client can be downloaded, precompiled and ready to run. DC++ runs on Windows NT based operating systems such as Windows 2000, XP, Vista & Windows 7.
+
+
+ED2K Link:
+ed2k://|file|DCPlusPlus-0.761.exe|21220841|fd1818f59c12f1f3f00d605b04012d85|/
+
+
+Comments from the uploader (olofolleola4):
+Here is a FAQ (Frequently Asked Questions) for DC++:
+http://www.dslreports.com/faq/dc/
+
+
+New user on Direct Connect and unsure of what to do? Go read our startup guide: http://dcplusplus.sourceforge.net/webhelp/get_started.html
+
+Here is some links if you cannot download it through this torrent:
+upload box  .  com  /  files  /  1858427769
+rapid share  .  com  /  files  /  373821459  /  DCPlusPlus-0.761.exe

@@ -1,0 +1,20 @@
+User Type,Username,Date,Text
+,dnordic,2010-03-09T01:07Z,The serial does not work. Yes I know its not your but br33z4hs13t
+,dnordic,2010-03-18T19:13Z,"Retried and it works Thanks 
+No bugs 
+Clean and is seeded.
+"
+,dnordic,2010-03-21T17:06Z,"The serial works but each time I turn it on, I have to enter the serial number. It seems to remember that I had a prior trial version which expired. I removed the trial version all together -add and remove, the program still remembers that I had a trial version.
+
+Any fix for this?"
+,qwop123,2010-05-19T02:26Z,"I wrote an AHK script to put the serial into the clipboard when the program asks for it.
+
+Start:
+SetTitleMatchMode 3
+WinWait Beyond TV Trial - Trial Over
+clipboard = a2cc6592-f034-4ee7-8e1d-0ede187a7859-a1d2bdc8
+Goto, Start"
+,Arvo95,2010-07-02T22:17Z,"qwop123:
+Exactly where do I paste in this script? 
+
+Thanks!"

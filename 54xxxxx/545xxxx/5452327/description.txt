@@ -1,0 +1,128 @@
+[align=center]
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showforum=395][IMG]http://img21.imageshack.us/img21/8945/freeculture.gif[/IMG][/URL]
+[/align]
+
+26th Chaos Communication Congress - Here be dragons 
+[IMG]http://events.ccc.de/congress/2009/wiki/skins/herebedragons/img/26C3_topbar.jpg[/IMG]
+[URL=http://events.ccc.de]http://events.ccc.de[/URL]
+
+Speakers [URL=http://events.ccc.de/congress/2009/Fahrplan/speakers/1663.en.html]	Fabian Yamaguchi[/URL]
+Schedule
+Day 	Day 1 - 2009-12-27
+Room 	Saal1
+Start time 	23:00
+Duration 	01:00
+Info
+ID 	3596
+Event type 	Lecture
+Track 	Hacking
+Language used for presentation 	English
+
+Un'altro talk di Fabian Yamaguchi, nella scorsa edizione del Chaos Communication Congress (25C3) fece questo [URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showtopic=197968&st=0entry12137112]talk[/URL] sulle vulnerabilita' DoS del TCP
+
+cat /proc/sys/net/ipv4/fuckups
+
+Presenteremo molti errori di progettazione network-related inediti, da bug nel layer data-link interni ai dirver ethernet, problemi negli stacks TCP/IP e , salendo, fino ai componenti di infrastruttura di comunicazione nel layer 5. La nostra attenzione e' per i sottili malintesi, che non ricade nella categoria di corruzione-di-memoria e forniamo ad un'attaccante un bagaglio potente di trucchi.
+
+Basandoci su una ipotetica rete di azienda media, racconteremo la storia di un'attacco facendo uso di sottili ed inediti bugs nei vari layers. Questi include un bug in un driver Ethernet, il quale permette ad un'attaccante di bypassare i filtri basati su indirizzi MAC e IP, bugs nelle implementazioni TCP che si assume siano stati riparati, ma di fatto non lo sono, una web-cache che si confonde da sola ed un instant-messenger (software x messaggi instantanei), che viene "tirato matto" dalle specifiche tecniche del protocollo
+
+Tutti questi bugs condividono una proprieta' in comune: Sono una conseguenza di progettazione insicura e NON di pratiche di programmazione insicure.
+
+Allegati
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1483_26c3_ipv4_fuckups.pdf]    * (application/pdf - 3.7 MB)[/URL]
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/event-3596-128x128.png[/IMG]
+
+EN:
+
+cat /proc/sys/net/ipv4/fuckups
+
+We will be presenting a number of previously undisclosed network-related design errors, ranging from data-link-layer bugs in Ethernet-drivers across issues in TCP/IP stacks all the way up to communication infrastructure components on layer 5. Our focus is on subtle mistakes, which do not fall into the memory-corruption category and yet in combination provide an attacker with a powerful bag of tricks.
+
+Built around a fictional average company network, we will tell the story of an attack making use of subtle bugs across the layers all of which are as of yet undisclosed. This will include a bug in an Ethernet-driver, which allows an attacker to bypass MAC- and IP-based filters, bugs in TCP-implementations that are assumed to be fixed but aren't, a web-cache which confuses itself and an instant-messenger, which was fooled by the protocol specification.
+
+All of these bugs share a common property: They are a consequence of insecure design and not of insecure coding-practices.
+Attached files
+
+[URL=http://events.ccc.de/congress/2009/Fahrplan/attachments/1483_26c3_ipv4_fuckups.pdf]    * (application/pdf - 3.7 MB)[/URL]
+
+
+[ Info sul file ]
+
+Nome: 26c3-3596-de-cat_procsysnetipv4fuckups.mp4
+Data: 9/01/2010 12:45:01
+Dimensione: 492,082,515 bytes (469.286 MB)
+
+[ Info generiche ]
+
+Durata: 00:41:57 (2517.24 s)
+Tipo di contenitore: MP4/MOV
+Major brand: ISO Base Media version 512
+Compatible brands: JVT AVC
+Data creazione: 1/01/1970 00:00:00 UTC
+Data modifica: 1/01/1970 00:00:00 UTC
+Streams totali: 2
+Tipo stream n. 1: video (avc1) {VideoHandler}
+Tipo stream n. 2: audio (AAC Low complexity) {SoundHandler}
+Audio streams: 1
+
+[ Dati rilevanti ]
+
+Risoluzione: 720 x 576
+Larghezza: multipla di 16
+Altezza: multipla di 32
+
+[ Traccia video ]
+
+Codec: avc1
+Risoluzione: 720 x 576
+Frame aspect ratio: 5:4 = 1.25
+Pixel aspect ratio: 25777493:23592960 = 1.092592
+Display aspect ratio: 25777493:18874368 = 1.365740
+Framerate: 25 fps
+Frames totali: 62931
+Bitrate: 1495.678403 kbps
+
+[ Traccia audio ]
+
+Codec: AAC Low complexity
+Bitrate: 64.002683 kbps
+Canali: 1
+Frequenza: 44100 Hz
+
+[ Info sulla codifica H.264 ]
+
+SPS id: 0
+  Profile: Baseline@L3
+  Num ref frames: 1
+  Aspect ratio: Custom pixel shape (59:54 = 1.092592)
+  Chroma format idc: YUV 4:2:0
+PPS id: 0 (SPS: 0)
+  Codifica entropica: CAVLC
+  Weighted prediction: No
+  Weighted bipred idc: No
+  8x8dct: No
+
+[ Profile compliancy ]
+
+Profilo da testare: MTK PAL 6000
+Risoluzione: Ok
+Framerate: Ok
+Avvertenza: Se vuoi un rapporto piÃ¹ completo e preciso clicca su "Analisi DRF"
+
+Rapporto generato da AVInaptic (18-11-2007) in data 14 gen 2010, h 15:46:12
+
+
+
+Banda: 20kB/s 24/24 7/7 fino ad assestamento della release
+
+se vi piace questa release forse vi interesseranno anche le atre mie rel:
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?act=allreleases&st=0&filter=gioacchino2&sb=1&sd=0&cat=0&mid=294618]http://forum.tntvillage.scambioetico.org/t...&mid=294618[/URL]
+
+nota: in questi giorni il download e' abbastanza veloce (OLTRE 300kB/s ) siccome c'e' molta gente in DHT e su altri trackers
+
+
+[IMG]http://events.ccc.de/congress/2009/Fahrplan/images/conference-128x128.png[/IMG]
+
+[URL=http://forum.tntvillage.scambioetico.org/tntforum/index.php?showtopic=198157]link[/URL]

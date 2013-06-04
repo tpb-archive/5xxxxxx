@@ -1,0 +1,124 @@
++---------------------------+
+|Windows 7 Loader v1.7.9-DAZ|
++---------------------------+
+
++--------+
+|Features|
++--------+
+
+* Can be run as a standalone, just move the executable to wherever you like
+
+* Maintain your own list of serials, future or current (comes with allot of preset keys)
+ 
+* Add your own certificates and SLIC's
+
+* Automatically finds an available drive letter (if required)
+
+* Installer and uninstaller built in as standard
+
+* Checks your Windows version and build before install
+ 
+* Automatically finds your active boot partition
+
+* Works on all languages
+
+ Works alongside hidden partitions
+
+* Works on Windows 7, Vista and Server 2008 editions
+
+* Support for bios modded users
+
+* Argument support for silent installs
+
+* You can use this tool to activate your Windows 7/Vista ISO by editing setupcomplete.cmd
+  
+* Improves Windows 7 boot time on a Mac
+ 
+* Encrypted SLIC support
+ 
++----------+
+|Advantages|
++----------+
+
+* Encryption and randomization for your security
+
+* Byte differences - Everyones GRLDR won't be byte for byte the same
+
+* Profile matchups - SLIC, certificate and serial that best suits your system
+
+* Arguments - Can be used to pre-activate your OS
+
+* Uses custom error checking on near every function making the application much more reliable instead of spitting out files and failing
+
+* Frankenbuild checking
+ 
+* Integrity checking with useful info on screen so the user can verify it
+ 
+* External Keys.ini support for all OS versions
+
+* External file support for both SLIC's and certificates
+
+* Newer GRLDR versions before other applications, thus a greater chance of a successful activation
+ 
+* In short this is now the only application based loader or loader period that has encryption and some randomization going on to help protect you from MS. And on top of that it's using a much newer GRLDR with some bug's fixed
+
++-----+
+|About|
++-----+
+
+      This application started off as a proof of concept. Everyone at the time I made this was using batch scripts as the back end to their activation techniques and although batch file installation worked it's success rate was poor when compared to my demo application.
+  
+       
+  
+      The goal of my program at the time was simple, prove that an application can do everything the batch file can do but in a controlled easy to use way with little to no errors. Not only that though but to show that you can display useful system information and options to the user which a batch file simply can't do.
+  
+       
+  
+      This program to this very day is still the only fully coded API driven application that handles it's own errors and depends on itself. It's the original program based loader and it's arguably the best loader based program to get you activated out right now with over 2 million downloads and counting and a strong fanbase behind it.
+  
+ 
+       
+     Whats the goal of this program?
+  
+     To activate you in a clean and simple way without putting a load of buttons and checkboxes on your screen and expecting you to know what to do. It's all about keeping it simple!
+       
+  
+      What makes this different from every other loader out at the moment?
+  
+      It's the only fully coded API based loader application, this means it cuts out the middle man (.NET framework) and can handle everything on it's own. This increases reliability and is considered the professional coder approach.
+  
+       
+  
+      So whats the advantages and why should you care?
+  
+      With me building this loader as an application I can access system details and create declares for many of the functions. This means anyone that uses this loader should have a greater chance of success!
+  
+       
+  
+      Whats the differences between each loader option?
+  
+      Each option uses a slightly different method to get you activated, of course the custom menu.lst option should be ignored unless you know what you're doing.
+  
+       
+  
+      OK so how do I run it?
+  
+      In general you simply press Install!
+  
+       
+  
+      I activated Windows 7 and now I want to activate Windows Vista, why isn't it working?
+  
+      Use the uninstall option while on Windows 7 and reboot into Windows Vista. Next install your selected cert/slic in Windows Vista and then reboot back to Windows 7 and click install.
+  
+       
+  
+      Activation failed, now what?
+  
+      Try again with one of the other loader options, maybe one of them might just work for you.
+  
+       
+  
+      Application integrity checking?
+  
+      Hover your mouse over the green, amber or red icon towards the bottom right of the window to see the information. 

@@ -1,0 +1,44 @@
+
+Este Torrent es identico a http://thepiratebay.org/torrent/5441423 excepto que el de esta pagina se ha corregido el teclado que aparentemente se habia instaloado el teclado americano. Conclusion: Bajen Este torrent.
+
+Favor de compartir (Seed) este torrent despues de bajarlo. He compartido mas de 80GB y a veces no hay mas que 3 personas compartiendo. Ayuden a propagar este torrent si les ha sido de alguna utilidad. Gracias.
+
+Windows 7 Live CD el Systema Operativo es el EspaÃ±ol y es Basado en el ambiente WinPE gratuito de Microsoft. (Win7RescatePE_EspaÃ±ol_Con_Teclado.ISO)
+
+
+
+Caracteristicas:
+
+Este es un CD de ReInicio (Despues de haber quemado el ISO y configurar la maquina para que inicie desde el CD/DVD). Copiando el arichivo ISO a un CD no es la forma como se quema un ISO a un CD. Para el que no sabe favor consultar o buscar en google/bing. Para ello Se debe usar programas como UltraISO/PowerISO/MagicISO
+
+La Resolucion es de 1024x768 (Se puede cambiar despues de Iniciar con MultiRes.exe)
+
+Es basado en WinPE (Windows PreInstallation Environment - Ambiente Preinstalacion de Windows) que es Gratuito.
+
+Entre las aplicaciones instaladas estan: De Graficos, Quemadores CD/DVD, Buscadores, Exploradores de Internet (si les ha funcionado la red), Explorador de Archivos, Administrador de Discos, Administrador de Dispositivos, Escaneadores de Virus, Acceso Remote de Equipos, etc.
+
+Basicamente contiene aplicaciones para recuperar un sistema que se haya vuelto inaccessible y tambien aplicaciones para particiones, disco duro, antivirus, ect.
+
+Para cambiar la resolucion del monitor usen la aplicacion MULTIRES que al darle doble-click aparentemente no hace nada, pero se instala en los icons de rapido accesso (en la parte inferior-derecha se entra con la flecha hacia arriba).
+
+Otro metodo pPara cambiar la resolucion atraves de MSDOS pueden usar el siguiente formato:
+abrir una ventana de MSDOS dando click en INICIO --> Ejecutar --> CMD
+Escribir el siguiente comando (quitar las comillas):
+
+"D:\Programs\MultiRes\MultiRes.exe /1:1280,1024,32"
+
+Donde: D: el la letra del CD, 1: es el monitor#1 (mayoria de los casos), 1280 es la resolucion horizontal, 1024 la vertical y 32 es el numero de bits (16 o 32 generalmente). Pueden usar otras resoluciones las cuales son aceptadas por sus monitores.
+
+Lo mas critico de ese LiveCD es talves la parte de acceso a la RED. El CD contiene controladores para la mayoria o las mas comunes tarjetas de red, y si no le funciona la RED despues de iniciarlo a lo mejor uds puden agregar los controladores uds mismos editando el archivo ISO con UltraISO, PowerISO, MagicISO o algun otro programa. los pude agregar en la carpeta DRIVERS ya que el CD aun tiene 12,5 MB de espacio si se quema en CD, en DVD queda mucho epacio.
+
+Otro punto importante es cuando se este iniciando y aparece la aplicacion PENetwork y al terminar la ventana se queda en frente, en ese momento hay que darle click al boton OK para que se termine de ejecutar el inicio completamente y asi aparezcan los icons de aplicaciones en el escritorio.
+
+Cualquier comentario de si les funciono por favor indiquenlo  aqui para ir sabiendo que tipo de maquinas soporta/no-soporta.
+
+Antes de Quemar el ISO en un CD puede ensayarlo en Vmware, VirtualBox o Qemu.
+
+El Systema Operativo es funcional pero no esperen tener accesso a todas las funciones ya que en 650 MB solo se puede obtener las funciones basicas como acceso al Administrador de Equips, Administrador de Dispositivos, Administrador de Discos y acceso a Servicios.
+
+Si tienen un Disco USB (1GB) a lo mejor puedan descomprimir el archivo ISO al USB formateado como NTFS usando por ejemplo UltrISO o PowerISO y asi de esa forma poder Iniciar Windows7 Rescate PE desde un disco USB. Personalmente he instalado el Windows 7 completo (No este de rescate) a USB y ha funcinado.
+
+rocketero

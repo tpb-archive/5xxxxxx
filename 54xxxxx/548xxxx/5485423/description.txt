@@ -1,0 +1,35 @@
+This folder contains a complete working disk image for Beagleboard with the Kapture application installed.
+
+More info on 
+
+* http://github.com/tallakt/kapture
+* http://www.tveide.net/fuglewiki/index.php?page=Beagleboard+and+Zigbee+KAP+controller+notes
+
+Partition a SD card with a boot partition 50 megabyte and a second partition with the rest. Use 
+partimage to restore the boot partition and fsarchiver to restore to the root file system partition. 
+
+Boot the beagle board and connect your camera to one port (I use a Canon EOS 350D on the OTG port), 
+and your WLAN dongle to the normal USB port (I use a D-Link DWL-G122, with the case removed).
+
+
+The beagleboard creates a WLAN that you can connect to:
+
+wireless-essid Beagle
+wireless-key 1234567890
+address 192.168.1.2
+netmask 255.255.255.0
+
+
+
+You should give your iphone/pc/whatever an address of for instance 192.168.1.3
+
+Open your web browser and point it to 192.168.1.2
+
+
+
+You can connect to the board using either ssh or serial cable, username root, no password (just press enter).
+
+This image corresponds to commit 95218711d7afe1ae8ea1b6cb77a97beb6a610ec8 in the above github repository. To update kapture, you may connect the beagleboard to the internet (check out the file /etc/network/interfaces) and run:
+
+cd  ~/kapture
+git pull

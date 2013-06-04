@@ -1,0 +1,47 @@
+The WORKING crack for the FULL GTA IV Episodes From Liberty City.
+Tested this myself and works 100%
+
+Full GTA Episodes From Liberty City game: 
+http://thepiratebay.org/torrent/5496057/Grand.Theft.Auto.IV.Episodes.From.Liberty.City-ali213
+
+
+
+How to install & play:
+
+-Download
+-Extract the crack
+-Run the game ..
+
+
+If it shows reg error: follow this to fix:
+
+- Go to regedit, if you don't know how to open that, please consult Google
+- Go to HKEY_LOCAL_MACHINE
+- Software
+- Rockstar Games (create this if it doesn't exist, using rightmousebutton, new, key)
+- EFLC (create this, see above)
+- In EFLC, rightclick on the big white screen, New, string value
+- Name it "InstallFolder"
+- Find the path where you downloaded everything, the main folder, which contains files like data.dll, EFLC.exe, etc.., and copy the location.
+- Edit the InstallFolder-string value, and set the data to the location you just copied
+- You're done :)
+
+64-bit Windows OS:
+Create the following folder: HKLM/software/Wow6432Node/Rockstar Games/EFLC
+
+Thanks to the4x for the Windows 64-bit OS fix!
+
+
+
+
+
+My previous posts:
+Multiplayer crack for Call of Duty Modern Warfare 2
+
+
+Guys please seed, its only a couple MB
+
+
+
+
+ Uploaded by Matthie Versteegen @ Staphoerst

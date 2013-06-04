@@ -1,0 +1,57 @@
+User Type,Username,Date,Text
+,TobiasHUN,2010-04-05T12:43Z,thx i try 
+,pelihullu99,2010-04-09T17:10Z,"sry, but how i can install this, (i know how to install torrent, but how to use tht win xp?'
+plz answer quick ;)"
+,Tommylee567,2010-04-10T11:47Z,"pelihullu99
+You need to burn this ISO to a cd. If you don't like it you can install Virtual Box and run this XP in a virtual environment without making a single change to your physical pc. 
+You got your answer quick. Need any?"
+,bnorman93,2010-04-12T04:03Z,nice little piece of malware you had stuck in there thanks to avira i found it
+,rocketero,2010-04-16T02:34Z,"@bnorman93
+About the malware you mentioned and witch you didn't post the location here is my comment/answer:
+This CD was made possible by a builder-engine which is based on script files, All of the applications in it are incorporated by means of a script file which at certain point ether unzip, unpack or download the application directly from the Internet.
+
+a few of the applications are cataloged by the virus-scanners as Trojans/virus, and for that matter I have made a screen-shot of what Avira v.10.0.0.561 gives as a result of scanning the ISO file that makes this torrent. Here is the link (copy & paste in browser)
+
+bayimg.com/HalnJAAcO
+
+As you can see there are 3 applications there: ScanPort.exe, Keyfinder.exe and DrvImpe.exe
+ScanPort.exe  located at X:\Program files\ScanPort folder
+Keyfinder.exe located at X:\Program Files\Keyfinder folder
+DrvImpe.exe   located at X:\Program Files\DrvImpe Folder
+
+X is the drive letter that appears once the ISO is booted either in Vmware or after burning the ISO. You can also unpack the ISO file into a folder and scan it there, then there won´t be a letter X and instead you can look at root folder ""Program Files""
+
+Also sometimes there is an application located at B:\Program Files RAM\HJTHotKey\HJTHotkey.exe that is detected as Trojan/virus
+
+All of them are false-positives and if you do a search on Google you´ll find that to be the case.
+The creators of those scripts took good care on what was placed on the final ISO, our job was and it´s to decide what applications are in the final ISO and to configure them in case there is a need for it. Some good shareware and applications that bend the rules of some virus scanners are detected as Trojans/virus but the end result is that this is not the case. This ISO is a good work and I´m behind it.
+
+Hope this helps you solve your post/inquiring and please keep seeding this torrent, it´s a good tool for resolving computer problems issues and for extracting data from dead systems."
+,Tubular66,2010-04-27T02:59Z,"Congratulations, rocketero!
+
+You made one of the best XP LiveCD I've never seen. A really good job.
+
+Keep up the good work and forget the bad comments!
+
+Thanks a lot for sharing"
+,augustiners,2010-04-29T05:15Z,possible to boot from usb?
+,kurmiss,2010-05-05T13:01Z,Screen?
+,krispin,2010-05-16T17:53Z,"the thing worx good. the XPs started. and now? there is 5 FTP clients, 10 different scandisc programs, 100 defrag progs, 1K pwd recovery softs, million of other shit, but I absolutely miss web browser. for what reason was this actually created?"
+,hms1018,2010-06-10T23:41Z,"I was burning the torrent as power iso, but it stops saying bad sector. Can you tell me what I am doing wrong?"
+,Stefan1971Ger,2010-09-03T13:27Z,"Thanks, but I always get the error message:
+""""File usbehci.sys caused and unexpected error (32768) at line 5964 in d:\xpsprtm\base\boot\setup\setup.c.""
+while environment installs.
+Any ideas?
+thanks"
+,gunmaker,2010-10-23T09:48Z,"@Stefan1971Ger your usbhci sys driver is missing or corrupted. only take this next step if you are a professional :; download driver genius pro from @ and let it install and update your drivers.. other wise google for the *.dll file and download it from dll files .com ps the dl location is sort of hidden on dll files .com but afree download is stil lavailable.  if it complains when u put the dll(library of driver type ) into the folder ull need unlocker to ""delete the original"" BE VERY SURE to replace the file with the new one)also makes sure its newer or the same) or anything after a reboot will NOT load usb devices. btw .. now that i think about it.. u best not plug in your external usb hardrive unless your 100% certain thats where ulll want to install. windows has a nasty habit of not noticing whats the internal hardrive and whats the external one.. some external hardrives DO NOT load operating systems because of their snazzy io(input output) interface between the 2 hardwares."
+,ScorpioPirate,2010-11-13T23:55Z,Just a' BIG thanks..... :-)
+,rocketero,2011-01-13T18:21Z,"@Krispin, @Stefan, @Gunmaker
+Sorry for the inconvenience, this torrent has been a while since I created, so I have done a better work in a Windows 7 PE Live CD that you can burn (or test in Vmware) and hopefully is working better with less applications but of better use.
+
+http://thepiratebay.org/torrent/6100369/Windows_7PE_Live_CD_English_1280x1024_Size__675MB"
+,Todoro,2011-04-06T19:22Z,Virus!!!
+,samcqdx,2011-06-10T03:29Z,"hi,new to this all .How would i get this image to boot from a flash drive ,have partitioned the primary partition(1GB) and formatted it fat 32 tried it with clonezilla ,have a second partition on there (+- 6gb) ,just to many command prompt commands and extra headaches to add recovery software ,how would i also get file scavenger on to the usb boot disk with win xp pro sp3 ,help would be appreciated ,many thanks rocketero for your hard work ..:-)"
+,sanchit22,2012-03-06T07:07Z,"Best live OS I've ever seen.....seeding also.....So Much of appps.....and web browsers also....people who dun no hw to use dem r makin bad comments.....
+guys dis is gud..."
+,tshirtwisdom,2012-07-08T06:53Z,"Just to ask, can this live CD be used on a multi boot system?"
+,Bonnev,2012-07-15T13:35Z,"I have a question. When you boot it it loads with a resolution of 1280x1024 and this might not work on smaller monitors and my question is: is there a way to decreese it to something like 1024x768 or 600x800, after booting it is possible to make it suitable."

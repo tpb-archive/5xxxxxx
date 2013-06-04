@@ -1,0 +1,51 @@
+The FrostWire team is constantly on top of the P2P & file sharing news striving to keep the application on the edge of technological developments. We have always had a clear vision of where things are headed in our little part of the Internet and weâ€™re proud to be a part of community that can adapt to changes very quickly.
+
+In 2009 we saw a lot of talk about and many changes ocurrying to the most popular torrent tracker websites. We also observed an increase in general usage and understanding of the underlying technology and itâ€™s benefits. Until now, FrostWire used legacy LimeWire technology to support torrent downloads and was able to decently serve our community torrent needs. We thought that decent was not enough.
+
+Now FrostWireâ€™s BitTorrent engine has been entirely replaced and features all the power of a lightweight version of the Azureus BitTorrent Core under the hood.
+
+Not only all the prior issues our users reported with torrents are gone, but downloading torrents with FrostWire is faster than ever. Torrent Bootstrapping has also significantly improved and in some cases the average download speeds are even 3x faster than with our previous torrent technology.
+
+The introduction of gnutella based .torrent file search with our last release clearly stated our direction, a truly decentralized P2P network with the best of the BitTorrent and Gnutella networks.
+
+BitTorrent Magnet Links Support
+The new version of FrostWire also supports BitTorrent Magnets, meaning you only need to get special URL (no initial file downloads necessary) and FrostWire will fetch the Torrent Metadata on the P2P network (using the Azureus DHT technology).
+
+Now, not only will .torrent files survive in the Gnutella network, but they will be fully searchable [in gnutella] and ready to aid in BitTorrent downloads may those torrents ever be removed from web based indexing services.
+
+Every member of the file sharing community will be able to share both the .torrent files as well as the actual content files allowing for the BitTorrent traffic to be fully de-centralized, thanks to Gnutella search and the BitTorrent DHT.
+
+Get high on the BitTorrent DHT with FrostWire â€œTorrent Jointâ€ version 4.20.1 and update your client now.
+
+If youâ€™re not getting enough search results from your peers, or you are seeing too many spam and fake results, itâ€™s a good idea to Refresh your connections. FrostWire will fetch a list of healthy and recently crawled ultrapeers willing to take more peers.
+
+Our community members repeatedly told us that the percentage indicator for download progress was not enough, so we added a new column that shows the progress of the download in bytes. Thanks for your feedback.
+
+If you speak geek, hereâ€™s the changelog.
+
+Changelog:
+Version 4.20.4 "Torrent Joint" (March 2010)
+- Fixes connectivity issues for Mac version.
+
+Version 4.20.3 "Torrent Joint" (March 2010)
+- Fixes a bug where files couldn't be dragged out of the Library.
+- Fixes a bug where opening a magnet link would freeze the UI while it was being fetched in the DHT.
+- Fixes a bug where magnet links that were dropped on FrostWire wouldn't start downloading.
+
+Version 4.20.2 "Torrent Joint" (HotFix)
+- Fixes a bug on torrent resume.
+- Installer sizes reduced over 58%
+
+Version 4.20.1 "Torrent Joint" (February 2010)
+- Major Upgrade: BitTorrent Engine replaced for a lightweight version of the Azureus BitTorrent core.
+  FrostWire has become a far superior BitTorrent client starting version 4.20.x now supporting:
+        - Trackerless Torrents (via Azureus DHT)
+        - Improved Magnet link support (BTIH Magnet Links)
+        - SuperSeeding
+        - +100% Faster Torrent Connection Bootstraping  (No more "More Sources Needed" for .torrents that failed before)
+        - +100% Faster Torrent Downloads in some occasions than 4.18.x
+        - Transport Encryption capabilities
+        - Improved UPnP implementation
+- New Feature: The Download Manager now has a new column showing the amount of bytes downloaded per download.
+- Update: The "Refresh Connections" Tool is now available even if you are Turbo Charged.
+- Fixes a bug where Crash Reports would show an old version number.

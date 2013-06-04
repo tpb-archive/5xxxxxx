@@ -1,0 +1,39 @@
+DVDFab 7.0.3.0 Final |
+
+DVDFab is all-in-one DVD copying/converting/burning software. In just one or two steps, you can copy any DVD to DVDR/PSP/iPod/etc. DVDFab is brand new, is completely rewritten, is based on more than 6 years of DVD copy software development. It allows you to remove all DVD copy protections, like CSS, CPPM, RC, RCE, APS, UOPs, ARccOS, RipGuard, FluxDVD, CORE X2, etc. It is constantly updated to support latest DVD copy protections and has a very fast copying speed, normally it's about 10 - 20 minutes.
+
+March 26, 2010
+DVDFab 7.0.3.0 Updated!
+
+* New: Language files.
+* New: Main window is resizable and more readable on large screen now.
+* New: Added "A/V Codec" page in Settings window, which allows user to set preferred decoder and encoder.
+* Fix: Lots of small issues from V6.
+
+DVDFab "DVD to DVD":
+
+* New: Added support for a new copy protection as found on "New Moon" (US).
+
+DVDFab "Blu-ray to Blu-ray":
+
+* New: Added support for all known BD protection.
+* New: Added chapter support, which means you can copy specific range of movie now.
+* New: Added our own CUDA H.264 encoder. Note: If the video card is really high end, we recommend to enable both CUDA decoder and encoder for max speed. If the video card is not, we suggest to use CUDA encoder for BD25 output, and use CUDA decoder for BD5 and BD9 output.
+* New: Added support for CoreAVC H.264 decoder to speed up copying.
+* New: Improved BD9/BD5 and standalone Blu-ray player compatibility.
+* Fix: A crash problem when opening certain Blu-ray discs, like "Precious".
+* Fix: Backup disc cannot be played on Samsung standalone player.
+
+DVDFab "Blu-ray to Mobile":
+
+* New: Added new "Blu-ray to Mobile" option.
+* New: Added HD file output for Xbox 360 and Playstantion 3.
+* New: Added support for MKV file output. When using WD TV Live as player, it's a perfect match for Blu-ray backup.
+* New: Added support for MKV chapter.
+* New: Added support for "Display only forced subpicture".
+* New: Added support for CoreAVC H.264 decoder to speed up conversion.
+
+DVDFab "File to Mobile":
+
+* New: Added support for CoreAVC H.264 decoder to speed up conversion.
+

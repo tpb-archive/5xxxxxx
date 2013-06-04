@@ -1,0 +1,96 @@
+One of the best albums ever in FLAC format
+
+
+----------------------From wikipedia:----------------------------
+Legacy
+
+The record spent only one week on the British charts, at #45, whereas all the band's previous studio albums had reached the Top 30. In the United States, it reached #66 on the Billboard 200.
+However, it remained a popular album with fans and critics. In 2001 Q magazine named Red as one of the "50 Heaviest Albums of All Time,"[3] and Kurt Cobain has cited the album as a major influence. [4][5] Musicologists Eric Tamm and Edward Macan both consider Red, and particularly the track "Starless", to be the highlight of King Crimson's recorded output. Users of Rate Your Music.com have rated it the Number 1 album of 1974, and 49th greatest album of all time.[6]
+
+
+------------------EAC extraction logfile from 7. March 2010, 22:21---------------
+
+King Crimson / Red
+
+Used drive  : HL-DT-STDVDRAM GH22NS40   Adapter: 1  ID: 1
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : No
+Make use of C2 pointers : No
+
+Combined read/write offset correction       : 0
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : No
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Not detected, thus appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:Program FilesExact Audio CopyFLACFLAC.EXE
+Additional command line options : -6 -V -T "ARTIST=%a" -T "TITLE=%t" -T "ALBUM=%g" -T "DATE=%y" -T "TRACKNUMBER=%n" -T "GENRE=%m" -T "COMMENT=%e" %s -o %d
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  6:16.50 |         0    |    28249   
+        2  |  6:16.50 |  6:03.30 |     28250    |    55504   
+        3  | 12:20.05 |  7:10.10 |     55505    |    87764   
+        4  | 19:30.15 |  8:10.32 |     87765    |   124546   
+        5  | 27:40.47 | 12:16.55 |    124547    |   179801   
+
+
+Track  1
+
+     Filename C:DocumentsRed.wav
+
+     Peak level 90.1 %
+     Track quality 100.0 %
+     Copy CRC 7B94FE25
+     Copy OK
+
+Track  2
+
+     Filename C:DocumentsFallen Angel.wav
+
+     Peak level 90.1 %
+     Track quality 100.0 %
+     Copy CRC 735A8AC0
+     Copy OK
+
+Track  3
+
+     Filename C:DocumentsOne More Red Nightmare.wav
+
+     Peak level 90.1 %
+     Track quality 100.0 %
+     Copy CRC 8742FD63
+     Copy OK
+
+Track  4
+
+     Filename C:DocumentsProvidence.wav
+
+     Peak level 90.1 %
+     Track quality 100.0 %
+     Copy CRC 14A5BA13
+     Copy OK
+
+Track  5
+
+     Filename C:DocumentsStarless.wav
+
+     Peak level 90.1 %
+     Track quality 100.0 %
+     Copy CRC 6F313BBA
+     Copy OK
+
+No errors occurred
+
+End of status report

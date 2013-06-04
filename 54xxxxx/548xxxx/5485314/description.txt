@@ -1,0 +1,12 @@
+This release is a fully free Ubuntu 9.10 derivative that includes extra software, better multimedia support, more translations and a faster configuration. For this release we used Ext4 for the root filesystem and XFS for the home one, to have a balance between speed and usability. Some important features include a much faster boot process and the ability to encrypt the home directory.
+
+All packages were updated, including:
+
+    * Linux-libre kernel 2.6.31
+    * Xorg 7.4
+    * GNOME 2.28
+    * OpenOffice.org 3.1.1
+    * Mozilla based Web Browser 3.5
+
+Homepage:
+http://trisquel.info/en

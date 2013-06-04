@@ -1,0 +1,108 @@
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                ttRRtt  ZZZZZZ""    RRZZRR;;                ZZZZZZZZZZZZZZkk              RRZZZZZZZZJJ                  
+                kkMMJJ  MMMMMMww  ;;MMMMMM""                MMMMMMMMMMMMMMRR              MMMMMMMMMMMMkk                
+                JJMMJJ  MMMMMMMM  JJMMMMMM""      JJJJ            MMMM        ttkk""      MMMM    ""MMMM                
+                JJMMJJ  MMMMMMMM  ZZMMMMMM""  JJMMMMMMMMJJ        MMMM      MMMMMMMMZZ    MMMM      MMMM                
+                JJMMJJ  MMMMwwMM;;MMMMZZMM;;  MMMM;;;;MMMM        MMMM    wwMMww  RRMMtt  MMMMJJkkRRMMMM                
+                JJMMJJ  MMMMttMMkkMMwwZZMM;;JJMMkk    kkMMJJ      MMMM    MMMM"";;JJMMww  MMMMMMMMMMMM;;                
+                JJMMJJ  MMMM  MMMMMMJJZZMM;;JJMMkk    kkMMJJ      MMMM    MMMMMMMMMMMMww  MMMM;;"";;                    
+                JJMMJJ  MMMM  MMMMMM;;ZZMM;;""MMRR    RRMM""      MMMM    RRMM    ttkk;;  MMMM                          
+                kkMMJJ  MMMM  ZZMMMM  ZZMM""  MMMMMMMMMMRR        MMMM    ""MMMMZZMMMM    MMMM                          
+                ttRRtt  ZZRR  ttZZZZ  kkRR;;    wwMMMMww          RRZZ      ttRRMMRR;;    RRZZ                          
+
+
+                                               Proudly Presents:
+
+
+                                   ULTIMATE.Wii.SoftMod.Kit.4.2.REPACK-IMoTeP
+   
+                                              (8 march 2010)
+  
+
+                                              
+                                                ------------- 
+                                                    NOTES
+                                                ------------- 
+
+
+My last release was a hit apparantly. Afterwards a lot of my friends started asking me to help
+them mod their wii. My previous release told you how to upgrade firmwares 3.0 to 4.1, thisone
+will help you hack 4.2 (It got tested on a European 4.2E, but should also work on 4.2U and 4.2J)
+
+Exactly like my previous release, this will convert an untouched wii to one that can load
+backup games from an external hard disk. That's the final goal.
+
+You need to have a SD card (doesn't matter how big) and a SD Card reader/writer in your PC or laptop.
+
+Make sure the SD card is empty to begin with and unpack FirstSD.rar onto it.
+Put the SD card in the wii and start it. 
+Press A to continue to the wii-menu
+In the lower left corner, next to "Wii", there's a little SD Card you can click on, do it.
+It will ask you if you want to load boot.dol, say yes
+A message will appear saying you shoudn't pay for the software, be patient and wait 8 secs
+Press 1 to continue
+
+Now you can install The Homebrew Channel installer, DVDx and Bootmii.
+You won't need help to install the Homebrew Channel or DVDx, as it's too easy
+Next click "Bootmii....", then "Install Bootmii as ios"
+When done go to exit.
+Take out the SD Card
+Afterwards reboot your wii and you should have another icon that says 'The Homebrew Channel'
+
+[if you want to do a NAND backup this is a good time. If you don't know how you can just
+google it very easy. A NAND backup will backup your wii's structure to a SD card so it can
+later be restored in case anything happens. This step is not necessary and you can just
+continue this hack without doing it, altough most people recommend it]
+
+Put the SD Card back in your pc.
+Delete all files on it and extract SecondSD.rar onto it.
+Put it back in your wii, go into the homenbrew channel and press the 'home' button on the remote
+You should have an option there to start bootmii
+A menu should load called WAD manager. 
+Press A to continue and choose 'wii SD slot', A to continue
+It should already say IOS249.WAD, A to continue
+move arrow to the right and change option to UNINSTALL WAD, A to continue
+It should say 4x OK and any key to continue
+Press the home button to leave the program
+
+You can take the SD card out of the wii again and put it back in your pc.
+Delete all files on it and extract ThirdSD.rar onto it.
+Again go to the homebrew channel, press home and launch bootmii
+A new installer will automatically load. 
+In the first screen IOS36 is already selected, this you need, so A to continue
+Afterwards the next option to choose is WAD install, this also what you need, so just A to continue
+So it's actually just next next next
+When done it will say finished succesful and will reboot the wii
+
+You can take the SD card out of the wii again and put it back in your pc.
+Delete all files on it and extract Last.rar onto it.
+Put the SD card in the wii.
+Go to the homebrew channel, start it, and there should be "Configurable USB loader"
+
+Normally you can now launch "Configurable USB loader" and play any game from usb you like, but you first need to prepare
+the USB device. 
+
+So get a USB stick of over 4GB or an external USB hard disk and connect it to your PC.
+Format it completely using FAT32 filesystem. If windows doesn't allow this use Partition Magic 8.0 to format your external hard disk to it.
+For USB sticks there's a tool called HP usb format tool or something.
+
+Remember the drive letter the new formatted USB device got. 
+Go to the Software folder that came with this kit and find "WBFS Wii FileSystem for Windows". 
+Run it, specify the drive letter your usb device is on. Format it to WBFS.
+Afterwards choose option "01. Add" to start adding .iso files. After all this is done reconnect the
+usb device to the lower USB port of your wii. 
+
+Launch "Configurable USB loader" and play the iso-game directly from USB..... ALL DONE !!
+
+For details on installing new super mario bros see the snmb folder :)
+
+
+REPACK: The very first release had errors in the manual
+
+                                                ------------- 
+                                                  Greetings
+                                                ------------- 
+
+                 I wish ALL other release groups the very best. "Scene" or not, who cares anyway?

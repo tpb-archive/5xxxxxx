@@ -1,0 +1,41 @@
+WiFi Slax Wireless Hacking BootCD
+ 
+http://www.imagengratis.org/images/wifislaxwi.jpg
+
+Fast-forward to last summer, when the first of the latest generation of WEP cracking tools appeared. This current generation uses a combination of statistical techniques focused on unique IVs captured and brute-force dictionary attacks to break 128 bit WEP keys in minutes instead of hours. As Special Agent Bickers noted, "It doesn't matter if you use 128 bit WEP keys, you are vulnerable!"
+
+WEP Hacking - The Next Generation
+WEP is an encryption scheme, based on the RC-4 cipher, that is available on all 802.11a, b and g wireless products. WEP uses a set of bits called a key to scramble information in the data frames as it leaves the access point or client adapter and the scrambled message is then decrypted by the receiver.
+
+Both sides must have the same WEP key, which is usually a total of 64 or 128 bits long. A semi-random 24 bit number called an Initialization Vector (IV), is part of the key, so a 64 bit WEP key actually contains only 40 bits of "strong"encryption while a 128 bit key has 104. The IV is placed in encrypted frame's header, and is transmitted in plain text.
+
+Traditionally, cracking WEP keys has been a slow and boring process. An attacker would have to capture hundreds of thousands or millions of packets? a process that could take hours or even days, depending on the volume of traffic passing over the wireless network. After enough packets were captured, a WEP cracking program such as Aircrack would be used to find the WEP key.
+
+Basic Directions:
+1)Boot from cd
+2)Get the wep key
+3)Write it down
+4)Reboot into windows
+5)Connect using wep key.
+
+
+===========================================
+(((((((((((((((((((>><<))))))))))))))))))))
+===========================================
+
+
+Avance rÃ¡pido hasta el verano pasado, cuando el primero de la Ãºltima generaciÃ³n de herramientas de cracking WEP apareciÃ³. Esta generaciÃ³n actual utiliza una combinaciÃ³n de tÃ©cnicas estadÃ­sticas centradas en un Ãºnico IVs capturado y fuerza bruta, ataques de diccionario para romper claves WEP de 128 bits en minutos en lugar de horas. Como se discute el agente especial observado, "no importa si utiliza claves de 128 bits WEP, son vulnerables!" 
+
+WEP Hacking - The Next Generation 
+WEP es un esquema de cifrado, basado en el CR-4 de cifrado, que estÃ¡ disponible en todas las 802.11a, byg de productos inalÃ¡mbricos. WEP utiliza un conjunto de bits llamando una llave para revolver la informaciÃ³n en las tramas de datos, ya que deja el punto de acceso o adaptador de cliente y el mensaje codificado es entonces descifrado por el receptor. 
+
+Ambas partes deben tener la misma clave WEP, que es normalmente un total de 64 o 128 bits de longitud. Un semi-aleatoria 24 nÃºmeros de bits llamado Vector de InicializaciÃ³n (IV), es parte de la clave, por lo que una clave WEP de 64 bits contiene realmente solamente 40 bits de cifrado "fuerte", mientras que una clave de 128 bits tiene 104. El IV se coloca en la cabecera del FRAME cifrado, y se transmite en texto plano. 
+
+Tradicionalmente, la represiÃ³n claves WEP ha sido un proceso lento y aburrido. Un atacante tendrÃ­a que capturar centenares de miles o millones de paquetes? de un proceso que podrÃ­a tomar horas o incluso dÃ­as, dependiendo del volumen de trÃ¡fico que pasa a travÃ©s de la red inalÃ¡mbrica. DespuÃ©s de suficientes paquetes fueron capturados, un programa de WEP como Aircrack serÃ­a utilizado para encontrar la clave WEP. 
+
+Direcciones bÃ¡sicas: 
+Boot 1) desde el CD 
+2) Obtener la clave WEP 
+3) AnÃ³telo 
+4) Reinicie en Windows 
+5) ConexiÃ³n con la clave wep.

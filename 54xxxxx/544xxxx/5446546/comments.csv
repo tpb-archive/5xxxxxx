@@ -1,0 +1,27 @@
+User Type,Username,Date,Text
+,morph3x,2010-04-14T16:22Z,"thx but not works for me, when i try to add certificate it says ""the certificate is invalid (2001D)"""
+,morph3x,2010-04-14T16:24Z,tested on windows xp sp3
+,morph3x,2010-04-14T16:58Z,"sorry on 2nd try it WORKS, program succesfully activated now."
+,Quesenart,2010-08-18T05:07Z,"Works perfectly for Windows 7 64Bit. Thanks for the great up.
+
+(Follow the install instructions to the letter and you will not have any problems)"
+,Lickalicious69,2010-10-17T21:57Z,"You can stop Directory Opus from calling home and invalidating your certificate with the following commands (as administrator):
+
+route -p add 67.228.213.247 mask 255.255.255.255 
+route -p add 203.34.202.11 mask 255.255.255.255 
+
+Replace  with your local IP such as 192.168.1.2 or your external IP if you're directly connected to the internet.
+
+Spread the news!"
+,Lickalicious69,2010-10-17T21:59Z,"You can stop Directory Opus from calling home and invalidating your certificate with the following commands (as administrator):
+
+route -p add 67.228.213.247 mask 255.255.255.255 [yourinternalip]
+route -p add 203.34.202.11 mask 255.255.255.255 [yourinternalip]
+
+Replace [yourinternalip] with your local IP such as 192.168.1.2 or your external IP if you're directly connected to the internet.
+
+Spread the news!"
+,Lickalicious69,2010-10-25T15:11Z,"Batch file to create null-routes to prevent DOpus from calling home. NB: You will have to run this every time you obtain a new IP address (new wireless network, etc.)
+
+Find it here: http://pastebin.com/Kzfr1KwN"
+,1plato,2011-02-05T19:25Z,@Lickalicious69: I bow for you man! you rule. Thank you thousand times!

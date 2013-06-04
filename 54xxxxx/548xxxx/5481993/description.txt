@@ -1,0 +1,160 @@
+Feito e elaborado por Humberto Lima - Beto Default
+
+Contato:
+
+Contact >> betokoframon@hotmail.com << Messenger
+
+#Mupen64Plus 20100330#
+
+Mupen64Plus 20100330 is released. Mupen64Plus is a N64 emulator and plugins for Linux, Mac OSX, and FreeBSD. Mupen64Plus  is a plugin-based N64 emulator for Linux which is capable of accurately playing many games. Included are four MIPS R4300 CPU emulators, with dynamic recompilers for 32-bit x86 and 64-bit amd64 systems, and necessary plugins for audio, graphical rendering (RDP), signal co-processor (RSP), and input. There are 3 OpenGL video plugins included: glN64, RiceVideoLinux, and Glide64.
+
+Mupen64Plus Features:
+* Dynamic recompilers for 32-bit (x86) and 64-bit (amd64) machines
+* 3 OpenGL video plugins: glN64, RiceVideoLinux, Glide64
+* Hi-resolution texture support in Rice Video
+* LIRC Infrared remote control support
+* Rumble Pak support
+* Graphical R4300 debugger
+* Cheat system with gameshark code support
+* Speed adjustment with smooth sound output
+* GTK2-based GUI
+* Qt4-based GUI
+* Command-line options for integration into other systems
+* Installation support for multi-user systems
+
+// Source = http://code.google.com/p/mupen64plus/
+
+#Glitch64 SVN r110#
+
+Glitch64 SVN r110 is released.GlideHQ is a realtime texture enhancer library with hi-resolution texture pack support for Glide64.Glitch64 is the recommended Glide3x wrapper for Glide64, the Glide video plugin for N64 emulators. It currently supports S3TC texture compression, anisotropic filtering, widescreen resolutions and simulates almost all the Glide3x hardware capabilities used by the plugin, included texture buffer capability (needed for render to texture). It is coded using the OpenGL API and uses GLSL shaders.
+
+Traditional and non-traditional techniques have been used to achieve speed and high image quality even on a 9 year old 3Dfx Voodoo2. Although the 3Dfx Glide3x texture format naming conventions are used, the library can be expanded for generic use. The library supports 6 enhancers and 6 image filters. FXT1 and S3TC texture compression are supported.
+
+Glitch64 SVN changelog:
+r106
+Created Internalization wiki page through web user interface.
+r107
+Edited wiki page through web user interface.
+r108
+Internalization support.
+r109
+Added master message catalog and translation file for Russian.
+r110
+Edited wiki page through web user interface.
+
+// Source = http://code.google.com/p/glidehqplusglitch64/
+
+#1964 SVN r60#
+
+1964 SVN r60 is released.1964 is a free Open Source N64 Emulator. It is one of the top Nintendo emulators arround that you can get with a high game compatibility rate.
+
+1964 SVN Changelog
+r58
+Add a fix to * right(const char *src, int nchars) taken from Rice Video Linux (Richard42 and Tillin9)
+Add a fix for a bug in ConvertImage.cpp found by Dorian Fervier taken from Rice
+Video Linux (Richard42)
+This fixes a problem with ConvertImage.cpp unable to load textures that are 1 pixel wide and seems to make more textures on the cars in f-zero X load.
+Cleaned up the texture enhancement checking code so it doesn't use so much if statements..
+r59
+Forgot one thing
+r60
+Edited wiki page through web user interface.
+
+// Source = http://code.google.com/p/emu-1964/
+
+#NRage Input Plugin v2.2 Beta#
+
+NRage Input Plugin v2.2 Beta  is released. Nrage v2.0 fixes an assortment of bugs in the original 1.8 code, and adds new functions, and features, at the same time.
+
+NRage Input Plugin v2.2 Beta Changelog:
++ Experimental Xinput support
++ Fixes to GB Battery support
+
+//Source = http://sourceforge.net/projects/nragev20/
+
+#UltraHLE 2064 Unofficial ultra.ini v1.0.6.1#
+
+UltraHLE 2064 Unofficial ultra.ini v1.0.6.1 is released. Game INI update of the N64 Emulator UltraHLE 2064! This Nintendo 64 emulator is based on the original UltraHLE emulator but now maintained by other team which has more features and improvements over the original. UltraHLE is a Nintendo 64 Emulator for Windows based PC systems. Taking full advantage of Pentium processors and 3DFX (Glide) graphics cards this emulator allows you to play some of the biggest releases to date that the Nintendo 64 has had.
+
+Whats new in 1.0.6.1:
+*Playable Games*
+Lode Runner 3D (E)(J)(U)
+*Intro works Games*
+Excitebike 64 (E)(U) 
+
+// Source = http://www.emutalk.net/showpost.php?p=245062&postcount=1
+
+#Aristotle Video Plugin SVN r73#
+
+Aristotle Video Plugin SVN r73  is released.Aristotle Video  is a graphics plugin for Nintendo 64 Emulators. Aristotle Video is built off mudlords build of Rice Video.This project has stopped.
+
+// Source = http://code.google.com/p/aristole-video/  // NOT FOUND
+
+#Glide3x (09.03.24)#
+
+Glide3x (09.03.24) is released.glide3x.dll is a process belonging to the Glide for Voodoo Banshee program . glide3x.dll is module which supports 3DFX (Voodoo) graphics devices with the Glide 3D drivers.
+
+Glide3x (09.03.24) changelog:
+* Modified all LFB reading code to use PBOs. Needs a video card which supports OpenGL 2.1-3.0
+* Modified the LFB writing code to use dirty rects for texture writing. (only writes the portions of the texture that have changed, a usual optimization technique when writing to 2D surfaces) Depth buffer code still uses glDrawPixels normally.
+Tested with Beetle Adventure Racing, got consistent 60FPS with REFB on. Still, dunno if its placebo or not, due to I having a PCIE card.
+
+// Source = //
+
+#nGlide v0.92#
+
+#CuteMupen v0.0.6#
+
+CuteMupen v0.0.6 is released. CuteMupen is a frontend for the Nintendo 64 emulator Mupen64Plus and runs under Windows, Linux and Mac OS X.
+
+CuteMupen
+A GUI front-end for the cross-platform Mupen64PlusN64 emulator.
+Written using Qt and MupenPlus64 v2.0 API.
+
+Website: http://cutemupen.sourceforge.net/
+License: GNU GPLv2
+Authors:
+- Vincent Knecht
+- Richard42 & others
+Some parts of CuteMupen are taken from mupen64-ui-console
+Features:
+- ROM browser
+- Fullscreen, resolution and OSD settings
+- Settings save and restore across runs
+Not supported yet:
+- Cheats
+- Gamepad configuration
+- Compressed ROMs
+- ...
+
+Building from source code:
+-------------------------
+Dependencies:
+- Qt 4.4+ development environment
+- Mupen64Plus 1.99+ Core source code
+
+Building with *NIX:
+- Edit !win32:INCLUDEPATH in cutemupen.pro to point on Mupen64Plus api/ subdir
+- Run "qmake cutemupen.pro"
+- Run "make"
+
+Building with MSVC:
+- Edit win32:INCLUDEPATH in cutemupen.pro to point on Mupen64Plus api/ subdir
+- Run "qmake cutemupen.pro"
+- Run "qmake -tp vc"
+- Open the .vcproj file using MSVC, and generate the solution
+
+Usage:
+-----
+CuteMupen configuration settings are stored, depending on the OS, in
+- $HOME/.config/CuteMupen/CuteMupen.cfg file on *NIX
+- HKEY_CURRENT_USERSoftwareCuteMupenCuteMupen registry entry on Windows
+
+On first run, CuteMupen will ask you to set the paths to several Mupen64+
+files and directories. 
+
+// Source = http://cutemupen.sourceforge.net/
+
+#Setup Installers#
+
+Instalador do Project 64 v1.6

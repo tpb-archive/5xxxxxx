@@ -1,0 +1,86 @@
+Copied from Unlocker Homepage:
+
+
+Ever had such an annoying message given by Windows?
+
+
+"Error Deleting File or Folder
+
+Cannot delete Folder: It is being used by another person or program.
+
+Close any programs that might be using the file and try again."
+
+
+It has many other flavors:
+
+Cannot delete file: Access is denied
+There has been a sharing violation.
+The source or destination file may be in use.
+The file is in use by another program or user.
+Make sure the disk is not full or write-protected and that the file is not currently in use. 
+
+
+Unlocker is the solution!
+
+1. Simply right click the folder or file and select Unlocker
+2. If the folder or file is locked, a window listing of lockers will appear
+3. Simply click Unlock All and you are done!
+
+
+Donate
+
+Unlocker is completely free and will always remain free, which means you can use it free of charge for any purposes. If you are satisfied with Unlocker and want to help Unlocker improve or motivate the development of other quality programs, any amount of donation small or large will be welcome and gratefully appreciated.
+
+
+Changelog:
+
+
+Unlocker 1.8.9 - 8/3/2010
+
+The rumors of me not working on Unlocker have been greatly exaggerated.
+I have been very busy with pushing the envelope at work, MBA studies during evenings and week-ends, and life during the time left.
+
+Still, I finally had a little time to address all the reported issues on Unlocker, and Unlocker now supports Windows 7. From a x64 stand point, it took me a couple of hours to get it fully working on my machine. I still have to sign the driver which might require a lot of paperwork, but hopefully it will not take long.
+For the impatient kind, I can provide alpha versions :)
+
+Interestingly, now that I have a x64 machine, I had no alternative than to get Unlocker working. Despite the increased number of ersatz, none of them really did the job and I really had a motivation to get Unlocker working.
+
+Finally, I addressed the topic of false positives with Unlocker on my blog.
+There is no malware in Unlocker and there will never be.
+And for the record I am not the only one having similar issues.
+
+
+Fixed bug: Handles should not be missing anymore on Windows7.
+
+Fixed bug: Potential conflict with regular explorer use when opening multiple files or other shell extensions such as 7-zip.
+
+Fixed bug: UI should now appear properly when done from clean install.
+
+Fixed bug: No hangs due to looping junctions should happen anymore.
+
+Fixed bug: Deleting junctions will not erase original files anymore.
+
+Fixed bug: Managing your computer on Windows 7 will not crash anymore.
+
+Fixed bug: Bitmap handles should not leak anymore from the shell extension.
+
+Fixed bug: Many other potential sources of bugs and crashes.
+
+
+Improved behavior: When deleting files they will be sent first to the recycle bin if possible, only if not possible more abrasive deletion will be used.
+
+Improved behavior: Unlocker can be started directly from the start menu to browse to the desired file or folder.
+
+
+Promotional feature: Added fully optional shortcuts to eBay during the installation. Simply untick "eBay shortcuts" in the choose components page during install if you do not wish to have those.
+
+
+ED2K Link:
+ed2k://|file|unlocker1.8.9.exe|220731|D01B1E60B07D660F862FA1D186A80629|h=LBEQDLYJVVHSU5C63WZXSU7HV6URXXHU|/
+
+
+
+Comments from the uploader (olofolleola4):
+Here is some links if you cannot download it through this torrent:
+upload box  .  com  /  files  /  d681343ebb
+rapid share  .  com  /  files  /  362493637  /  unlocker1.8.9.exe

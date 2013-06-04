@@ -1,0 +1,16 @@
+User Type,Username,Date,Text
+,ben4528,2010-04-11T00:21Z,seeded
+,johnnymp3seed,2010-04-11T01:43Z,hummm...don't seem to work for me - no response when I attempt to open.....am I missing something???
+,ben4528,2010-04-11T03:12Z,"this one seems don't need serial number, it worked without it."
+,mikexxxryan,2010-04-11T21:43Z,"I'm a longtime user of Disk Warrior.  I backup to an external drive once a month then boot to that BU and run DW on my main boot drive.  Every time I do this I am no longer able to boot to the main boot drive.  DW does something to it and I'm forced to use the restart-optionkey which lists my bootable options.  The main boot drive is not identified by its name but does show as EFI.  If I chose it I can boot into my main boot drive.
+
+So something is NOT kosher with DW v4.2
+
+I don't know about this 4.1 r42 release."
+[T],nobody2007,2010-04-13T12:27Z,"DiskWarrior 4.2 is published on 2009-08-28. Why do you seed something that is already older than 1.5 years? Why this file is 2 times bigger than the others here on PB?
+
+http://thepiratebay.org/torrent/4474435/DiskWarrior_4.1.1_(with_s_n)"
+[T],nobody2007,2010-04-13T12:29Z,"sorry, I mean DiskWarrior 4.11, NOT 4.2"
+,MikeXRyan,2011-03-07T02:13Z,"This IS the latest release, there is no 4.11 release (Duh...)
+
+I found how to fix the reboot from main drive I note above.  Simply go to Utilities and run Disk Utitlity - Disk Repair.  It resets the boot sector and when you restart the system comes up quickly."

@@ -1,0 +1,61 @@
+User Type,Username,Date,Text
+,zogulusnig,2010-03-07T08:17Z,"So, how exactly does one utilize the functionality of this audio plugin?"
+,1980nick,2010-03-07T20:32Z,"@ zogulusnig
+
+there are tutorials on y*u t**e"
+,zogulusnig,2010-03-07T22:48Z,I got it.  Pro Tools and the like.  Thanks for the up.
+,untrueparadox,2010-03-08T04:16Z,audacity should work with au plugins. its the only free open source software for audio editing. you need the 3.1 beta though.
+,zogulusnig,2010-03-08T21:15Z,"Cool.  Thanks.  I didn't even think about Audacity.  It works great, as I just confirmed.
+
+However, the installation instructions for the Plug In (at least for Audacity) is not quite correct.
+
+It says to install into /Library/Audio/Plug-Ins/Components...
+
+It should be /Library/Audio/Plug-Ins/VST
+
+Then it's working great in Audacity.  Thanks again."
+,untrueparadox,2010-03-09T07:47Z,"ok to the above ^
+
+apple software will only detect au plugins in the component folder. i believe that's the same for soundbooth, pro tools, etc. audacity will only detect it in the vst because the vst plugin and the au plugin support is the same extension on audacity."
+,zogulusnig,2010-03-09T09:04Z,"Agreed.  After some research, I absolutely concur.
+
+This is an Audacity-ONLY fix."
+,danni_lfl,2010-03-09T22:21Z,how come the file is so tinny ?and can anyone confirm that this works on protools LE? for mac?
+,untrueparadox,2010-03-10T05:01Z,"its a condensed version with only the .au component file. it doesnt have any documentations or installers for multiple plugin formats like vst, etc. someone on msj tried on pro tools full version, so it should work for le if it supports that feature."
+,tuvalla,2010-03-10T22:16Z,When I unzip I get a lot of folders and subfolders with different stuff. Shal I put it all in in my Logic component folder or is it a specific file I sould put in there?
+,untrueparadox,2010-03-11T04:44Z,"this is for mac if you haven't noticed at all. when you unzip, it should give you a file named ""Auto-Tune_Evo_AU.component"" which you then move to the folder."
+,thebeast8,2010-03-12T01:00Z,Looks awesome.  Can't wait to try it out.  Thanks a million!
+,thebeast8,2010-03-15T01:27Z,Works great!
+,TopShoTTa7,2010-03-19T00:27Z,will this work on win vista
+,Youngo863,2010-03-25T21:28Z,"Hey how do i get it to work for protools...i unarchived it, and put it in libaray/audio/plugins/compnents, but i dnt seeit in protools... did i do something wrong?"
+,jscore,2010-04-18T07:48Z,"I don't understand why this can only work on Intel Macs? How does hardware affect software?
+Anyone know of an AutoTune torrent for Power PC (PPC) Macs?"
+,abdullah7991,2010-04-26T20:37Z,hey... why cant it work on xp... if u have another torrent of this which can work on any computer pls telll
+,Ross8ch,2010-05-02T05:27Z,"@Youngo863 I am also having a problem getting it to work with Pro-Tools, I have copied  it over to both the
+
+/Library/Audio/Plug-Ins/Components    &
+/Library/Audio/Plug-Ins/VST
+
+when i load up pro-tools, it is no-where to be found, it should be under Plugin - Pitch Shift - and then ""Auto-Tune""
+but all i have is ""Air Frequency Shifter"" ? 
+
+anyone have any solutions? "
+,myskin12,2010-05-06T10:12Z,"everything installed fine, but all the fonts show up as jumbled pixels, how do i fix this?"
+,uaking,2010-05-06T23:24Z,every time i try to open it after it's unzipped it says garageband can't support .component. please help
+,jabz123,2010-05-12T01:51Z,nice torrent
+,bigM15TER,2010-05-12T11:15Z,"I need help, if anyone is feeling nice enough. I have downloaded this torrent and audacity, I followed the steps for installing and moving the files to there needed locations. when i opened audacity it said something about a 10 day trial i clicked try, but see nothing about protools and auto-tune anywhere, total newby here, would appreciate the help thanks :)"
+,Sneag,2010-07-06T05:16Z,"Anyone get this working?  It keeps telling me to go to the PACE website and deal with their ""pirate prevention"" system"
+,klman,2010-09-27T14:01Z,has anybody figured out why it wont show up in pro tools???
+,obello,2010-10-08T22:10Z,@jscore any luck on finding autotune for MAC PPC?
+,bassistbrown,2010-10-26T00:30Z,It says I have a 10 day trial..
+,dgroyer,2010-11-20T14:19Z,Thanks so much. The download was VERY slow like 10 KB/sec tops. Antares auto-tune is much better that pitch correction in Garageband or Logic Pro.
+,wazuhiru,2010-11-25T20:39Z,My trial has expired and now GB doesn't see the plugin. Do you know what i should do?
+,wazuhiru,2010-11-25T20:41Z,"I had a trial that expired, and now GB doesn't see the plugin. Do you know what to do?"
+,wazuhiru,2010-11-25T20:42Z,"Yeah, I usually ask every question 2 times. LOL."
+,Dura07,2011-04-22T09:24Z,@ untrueparadox - works great !!! Thanks !
+,tony419,2011-04-25T15:45Z,"is this a mac only? if yes , where can i get the pc version?"
+,Novanity1,2011-05-01T07:54Z,"Guys,
+
+It's not gonna work for Pro Tools because it's not an RTAS plugin. This will only work in programs that utilize AU plugins. 
+
+If anyone can find an RTAS version of this for Mac please let me know!!!!"

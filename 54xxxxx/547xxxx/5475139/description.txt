@@ -1,0 +1,62 @@
+DOCman 1.5.2 Stable FULL
+------------------------
+
+DOCman is a document and dowload management solution for Joomla! v1.5. DOCman makes offering downloadable documents on your Joomla site a breeze.
+
+Manage documents across multiple categories and subcategories, give users permission to upload, download or edit documents. Store documents either locally or remotely and prevent direct linking using our build-in anti-leech system.
+
+All from within an intuitive and simple to use administration interface.
+
+
+JOOMLA 1.5 NATIVE!
+
+
+
+These are the main features of DOCman
+-------------------------------------
+
+* Infinite categories and subcategories. The documents can be organized across custom categories and subcategories;
+
+* Files can be hosted locally or on a remote server
+
+* Access control: Documents can be assigned to specific user or to custom groups of users
+
+* Download counter and log. You can display a download counter per document and all the downloads can be logged (by user, IP, browser, date and hour);
+
+* Own search system. Documents can be searched by name and/or description. The search system integrates with Joomla! using an optional mambot;
+
+* Anti-leech system. The built-in anti-leech system avoids direct linking to documents;
+
+* Path protection. Real paths to documents are never displayed to users;
+
+* Themes: The layout can be changed using custom themes;
+
+* ... and much more!
+
+
+
+DOCman 1.5.2 released on 1/20/2010
+----------------------------------
+
+Today we released the latest update of DOCman 1.5 to our customers. These are some of the most important changes:
+
+* PHP 5.3 compatibility. Depending on your server configuration, running DOCman on PHP 5.3 produced a couple of innocent yet annoying error messages.
+    
+* Special characters in filenames. DOCman is now much better equiped to handle filenames with all kinds of strange characters in them.
+    
+* Deleted users. When you delete a user, the documents that user owned now no longer generate errors.
+
+* Clear Thumbnails. This new item in the 'Clear data' panel allows you to remove the thumbnails for all documents. This useful in combination with the upcoming Thumbnail generation add-on.
+    
+* ... and a whole bunch of other fixes and improvements. 
+
+As usual, users who bought v1.5.x get free updates. To get you own copy, head over to the Joomlatools Store.
+
+
+
+System Requirements
+-------------------
+
+1. Joomla 1.5.x (recommended 1.5.15 or later). 
+2. PHP 5.2.x or higher
+3. Database: MySQL 4.1 or higher

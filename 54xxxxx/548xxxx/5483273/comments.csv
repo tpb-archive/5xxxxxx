@@ -1,0 +1,156 @@
+User Type,Username,Date,Text
+,superfido,2010-04-06T19:30Z,"Tack OM den funkar!!!!
+
+Ohc, funkar det????  ngn som vet? 
+
+Nyckel?  Crack? Daemon?  Nfo??"
+,Sven the swede,2010-04-07T19:25Z,Det var dålig information och nfo-filen är värdelös. Crack finns på skivan och även information i samma mapp. 
+[T],Askeen.,2010-04-10T14:13Z,"Läs Install.txt i TFTISO-Mappen på CD'n
+...Enjoy "
+,ynf50,2010-04-10T18:58Z,"ja tackar för den ,nästan för lätt att installera. om man jämför med 2009an som det var lite mer att göra  "
+,superfido,2010-04-12T17:08Z,"Ok, så om man ska läsa installfilen, ska man montera med daemon först.   eftersom det är i rer format?   eller packa upp?  tack för rådet."
+,Davidow,2010-04-12T22:42Z,"Hmm. Installerat och fixat Användare, men när jag startar så kraschar programmet direkt.
+Kanske samma problem som någon hade med 2009's verision. I vilket fall som helst så funkar det inte för mig."
+,chsrlog,2010-04-13T09:54Z,"Precis samma problem som Davidow, de känns precis som att en crack saknas i de här fallet.."
+,superfido,2010-04-13T23:01Z,"ok nu har jag fått det att funka.
+
+
+Notera att man behöver ingen crack, men måste skapa användare konto för att komma runt cd-key kravet.
+
+efter du gör detta kan du logga in i programmet-
+
+man skapar användarekonto genom att köra BonniersActivator.exe
+
+det är viktig att montera skivan med daemontools....om du hittar inte programmet med daemon efter uppackningen, se till att den liten fönster i botten höger av daemon programmet står ""all files""....då borde det dyka upp (om du är i rätt mapp förstås)  
+
+I vilket fall....lycka till
+här är instruktionerna från install filen:::
+
+1) Packa upp filerna med Winrar eller motsvarande.
+2) Bränn avbildningen (.cue/.bin) till skiva, eller använd Daemon Tools.
+3) Installera programmet.
+4) Kör BonniersActivator.exe som hittar du i TFTISO-katalogen på skivan, för att aktivera
+   och skapa användare. Aktivatorn kan även användas för att skapa fler konton vid ett senare tillfälle.
+
+   OBS! Du behöver minst .NET 2.0 för att köra BonniersActivatior.exe. Om du inte har det
+   installerat, kör dotnetfx.exe som ligger i den här mappen!
+"
+,adde15lol,2010-04-21T20:51Z,"Mycket bra torrent! Inget prob att cracka ""regga sig"" ! Seedar med 100mbit upp en vecka eller något! 
+
+DOM SOM HAR PROBLEM!!!
+
+Jag läste lite..  här finns en patch 
+http://www.bonnierstrafikskola.se/bt2010/
+
+Laddda hem den.
+
+det står:
+ Patch 1 (För system med Windows 7 installerat)
+Om du har Windows 7 som datorsystem, och upplever att du har problem med din installation av Bonniers Trafikskola 2010, kan du testa den patch som vi tagit fram för att avhjälpa ev. kompatibilitetsproblem.
+
+Klicka på länken för att ladda ner filen>>
+
+Spara filen på ""Skrivbordet"" och följ instruktionerna nedan för att uppdatera Bonniers Trafikskola 2010:
+
+Avsluta alla andra program och starta BT2010_patch.exe. 
+Klicka på knappen ""Start"", uppdateringen installeras. Detta tar några minuter.
+När uppdateringen är klar, klicka på knappen ""Slutför"". 
+
+Vet inte om det funkar men VÄRT att testa!   Tack för upload :D"
+,Mouchie,2010-04-25T07:16Z,"Jag tror jag är förståndshandikappad men jag laddar hem installerar, kör activator för att göra användare, men då jag väl ska logga in står där att det inte finns någon registrerad användare?!"
+,m_soderberg,2010-04-26T22:11Z,Lite färsk på det här... men var fan hittar jag TFTISO-Mappen? 
+,m_soderberg,2010-04-26T23:29Z,"sorry menade BonniersActivator.exe.
+kan inte hitta den"
+,arre_gos,2010-05-05T10:57Z,de är installerat åå klart men när jag öppnar det så hamnar bilden ner skjuten i höger hörn så jag ser bara halva... någon vet hur man kan komma åt bildinställningar:o
+,Hellion92,2010-05-06T20:18Z,"Klockrent!
+Följ dessa fem enkla steg;
+
+1) Packa upp filerna med Winrar eller motsvarande.
+2) Bränn avbildningen .cue.
+3) Installera programmet.
+4) Kör BonniersActivator.exe som hittar du i TFTISO-katalogen på skivan, för att aktivera
+och skapa användare. Aktivatorn kan även användas för att skapa fler konton vid ett senare tillfälle."
+,dafdsdf,2010-05-09T16:22Z,"Vissa vill gärna få svar på:
+
+BonniersActivator.exe vi hittar inte den i TFTISO KATALOGEN som vi inte vet vad det är heller?
+
+när jag söker genom hela datorn så hittar den inte ens den filen. Allt är som det ska har packat upp deamon osv osv. men bara att det kräver akteveringnyckel hjälp till."
+,Ghostx26,2010-06-06T11:11Z,"har problem
+Har skapat ""användare"" men när jag ska starta programmet så händer inget.får upp start rutan men sen händer nada...
+har .net 4. någonting ,tror jag. ialf nyare än 2.0
+skulle uppskatta hjälp"
+,Koogan,2010-06-08T18:41Z,"Jag har XP - Och här finns inga av de filerna ni beskriver. :S
+
+Funkar det inte på XP eller?
+Vilken version rekommenderas isf, för frågorna är väl ungeför desamma iaf?"
+,adde15lol,2010-06-12T02:47Z,Det att ni har prob att hitta BonniersActivator.exe kan vara att ditt antivirus har tagit bort det! Det är ju en crack o det gillar inte antivirus program! 
+,rooova,2010-06-12T14:51Z,"Så här gör du!
+
+1.Packa upp filerna.
+2.Mounta tft-bt10 med daemontools.
+3.Installera Bonniers Trafikskola v2010
+4.Registrera dig med Bonniersactivator som finns i  /BD-ROM-Enhet/TFOISO.
+5.Starta spelet logga in med din användare som du gjorde.
+
+6. Du måste alltid ha tft-bt10 mountad i daemontools när du ska spela eftersom det inte finns någon CD-CRACK
+
+Enjoy!"
+,pesper92,2010-06-14T21:50Z,har ett prob! när jag installerar de så stannar de på gmedia5.cxt och tiden på installationen går bara uppåt.... jag har windows 7 32-bit. sälla hjälp!
+,Alc0_h0lic,2010-06-30T23:22Z,"Klarar av att installera cracka och køra patch helt utmærkt.. Dock nær jag komemr in i programmet ændrar det sig till 800*600 i skærm instællningarna, Nær jag ændrar tillbaka på skrivbordet eller i kontrollpanelen blir bilden/programmet fortfarande i 800*600 bara att det blir en svart rand runt.. Går detta att fixa eller måste jag sitta och råstirra på dessa små bokstæver.. "
+,niklas1590,2010-07-03T17:39Z,är det ingen som seedar?
+,dwd,2010-08-07T15:09Z,"Fungerar jättefint i VirtualBox/VMWare. Ett problem bara, för folk som kör Windows XP:  BonniersActivator.exe fungerar inte om ni har .NET 4.0 installerat. Avinstallera och släng in .NET 2.0 eller 3.5 istället, så fungerar det fint.
+
+Och, TFTISO: en .bin/.cue-release?! Plz, niggaz... ta steget in i 2000-talet och gör det lite lättare för era användare, va? Den här releasen glider fint som .iso, och hade dessutom blivit 100mb mindre."
+,Shaaaa1,2010-09-30T14:05Z,"SÃ¥ hÃ¤r gÃ¶r du! (funkar pÃ¥ windows 7 Garanterat, men Ã¤r ej sÃ¤ker pÃ¥ de andra, fÃ¶rsÃ¶k gÃ¤rna det skadar ej.
+
+1.Packa upp filerna frÃ¥n winrar till skrivbord, (bara den fÃ¶rsta winrar filen rÃ¤cker.
+2.Mounta tft-bt10 med daemontools.
+3.Installera Bonniers Trafikskola v2010
+4.Registrera dig med Bonniersactivator som finns i /BD-ROM-Enhet/TFOISO.
+
+Och dÃ¥ har jag gÃ¶rt mÃ¥nga som sagt: Det finns ingen! 
+Men lyssna nÃ¥ga hÃ¤r: 
+Ta den hÃ¤r datorn sen kommer du se: DvD-RW-enhet (D:)  och bredvid den kommer ni se BD-ROM-enhet (?:) BT2010,   Och i  (?:)  kommer ni att kunna se ett bokstav  istÃ¤llet fÃ¶r frÃ¥ge tecken,
+dÃ¥ ska ni Ta bokstÃ¤ven och  dÃ¤r lÃ¤ngst uppe dÃ¤r det stÃ¥r >Datorn>, sudda bort det och skriv        G:\   (eller vad Ã¤n bokstaven Ã¤r)
+ DÃ¥ kommer det att Ã¶ppnas en annan sida, dÃ¤r kommer ni att kunan se filen TFOISO, vara 3 i listan.
+Ã–ppna den sen kan ni se Bonniers acctivator. 
+
+DÃ¥ kÃ¶r ni den och kÃ¶r en acc hur lÃ¤tt som helst, sen bara starta programmet frÃ¥n start eller frÃ¥n dokumenten dÃ¤r ni packade frÃ¥n winrar fÃ¶rst.
+
+Var sÃ¥ goda. Har ni frÃ¥gor kan ni bara skriva sÃ¥ ska ja fÃ¶rsÃ¶ka hjÃ¤lpa.
+Gjorde acc bara fÃ¶r att hjÃ¤lpa er. :D"
+,Shaaaa1,2010-09-30T14:08Z,"SÃ¥ hÃ¤r gÃ¶r du! (funkar pÃ¥ windows 7 Garanterat, men Ã¤r ej sÃ¤ker pÃ¥ de andra, fÃ¶rsÃ¶k gÃ¤rna det skadar ej.
+
+1.Packa upp filerna frÃ¥n winrar till skrivbord, (bara den fÃ¶rsta winrar filen rÃ¤cker.
+2.Mounta tft-bt10 med daemontools.
+3.Installera Bonniers Trafikskola v2010
+4.Registrera dig med Bonniersactivator som finns i /BD-ROM-Enhet/TFOISO.
+
+Och dÃ¥ har jag gÃ¶rt mÃ¥nga som sagt: Det finns ingen! 
+Men lyssna nÃ¥ga hÃ¤r: 
+Ta den hÃ¤r datorn sen kommer du se: DvD-RW-enhet (D:)  och bredvid den kommer ni se BD-ROM-enhet (?:) BT2010,   Och i  (?:)  kommer ni att kunna se ett bokstav  istÃ¤llet fÃ¶r frÃ¥ge tecken,
+dÃ¥ ska ni Ta bokstÃ¤ven och  dÃ¤r lÃ¤ngst uppe dÃ¤r det stÃ¥r >Datorn>, sudda bort det och skriv        G:\   (eller vad Ã¤n bokstaven Ã¤r)
+ DÃ¥ kommer det att Ã¶ppnas en annan sida, dÃ¤r kommer ni att kunan se filen TFOISO, vara 3 i listan.
+Ã–ppna den sen kan ni se Bonniers acctivator. 
+
+DÃ¥ kÃ¶r ni den och kÃ¶r en acc hur lÃ¤tt som helst, sen bara starta programmet frÃ¥n start eller frÃ¥n dokumenten dÃ¤r ni packade frÃ¥n winrar fÃ¶rst.
+
+Var sÃ¥ goda. Har ni frÃ¥gor kan ni bara skriva sÃ¥ ska ja fÃ¶rsÃ¶ka hjÃ¤lpa.
+Gjorde acc bara fÃ¶r att hjÃ¤lpa er. :D"
+,komigenerik,2010-10-09T14:08Z,"Jag har gjort allt man ska göra, det är installerat och klart, aktiverat en användare (4st), MEN när man ska *Registrera ny användare* inne i ""spelet"" så skriver jag i allt jag behöver, trycker på Registrera via internet (som är enda valet) men då säger skiten bara ""AKTIVERING MISSLYCKADES"" bla bla bla....  Hur kommer jag runt denna skiten? Tack tack tack för hjälp! Neeeed på Trafikskolan!"
+,zalle_swe,2010-10-20T21:24Z,"Fyfan vilka idiotiska och irrelevanta frågor! Gör dig själv en tjänst och skippa detta program, Trafikskolan TEO är mycket bättre!"
+,TLundborg,2011-01-15T23:25Z,"far åt helvete med era beskrivningar? Jag har installerat klart. Men inte fan hittar jag någon ""BD-ROM"" enhet någonstanns? Kan säga så mycket som att den ligger iallafall inte på ""dator""(den här datorn) Så ni kan ju försöka att beskriva en aning bättre."
+,sekko123,2011-01-16T01:01Z,"Jag har gjort allt som står i install txt, mountat tft-bt10 med deamon tools och har gjort användare.
+
+men när jag startar programmet så händer ingenting, har försökt att ominstallera utan lycka,
+
+har windows 7 64 bit, net 3.5.1"
+,sekko123,2011-01-16T01:02Z,"Jag har gjort allt som står i install txt, mountat tft-bt10 med deamon tools och har gjort användare.
+
+men när jag startar programmet så händer ingenting, har försökt att ominstallera utan lycka,
+
+har windows 7 64 bit, net 3.5.1
+
+vad ska jag göra?"
+,ashnight,2011-01-30T21:08Z,Hi! I have downloaded it but I am new to this kind of stuff so would somebody be kind and explain how I can complete this download? I don`t know what a winrar is so pls explain?  
+,MuscleMuseum,2011-02-08T12:50Z,"Funkar skitbra, tack så mycket!!"

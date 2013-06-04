@@ -1,0 +1,15 @@
+Iso2God v1.2.2 and God2Iso v1.0.2
+
+
+>> A new version of Iso2God and God2Iso have been released.
+
+KrK / Team 360h released a new app called ISO2GOD, a PC app for converting Xbox 360 ISO images straight into Games on Demand containers.
+What's new/fixed:
++ New settings for padding removal mode and FTP port.
+~ Low disk space confirmation replaced with status bar notification.
+~ Fix for FTP upload progress.
+~ Fix for FTP connection issue.
+
+Rab released a new version of GOD2ISO.
+What's new/fixed:
+* Now works on god made by Iso2God (with XSF header) and some tools that produce gods without an XSF header. Some/all NXE installs (converted to god) have XSF header stripped and have incorrect offsets in them. I don't know how the xbox works around this, but if I find out I'll be able to add support for them too

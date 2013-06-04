@@ -1,0 +1,50 @@
+Left 4 Dead
+Working on-line
+Non-steam
+Patched to 1.0.1.7
+
+[extracting data ~5.1 Gbytes]
+[1 uncompressible intoduction video was deleted [about 280 mbytes]]
+
+Prerequisites:
+Microsoft Visual C++ 2008 SP1 - Download and install: 32-bit or 64-bit
+Microsoft's .net Framework 3.5 - Download and install .net 3.5
+
+1) Extract files from archive, for example to D:/Games/Left 4 Dead/ (any folder you like, actually)
+
+2) Go into your /Left 4 Dead/bin/config/ folder and mark "Masterserver.vdf" file as Read-Only.
+
+3) Find in your game folder, file "rev.ini" - edit it with notepad to change your name:
+
+
+{{{
+[Emulator]
+# Supported Languages - English, French, Italian, German, Spanish, sChinese, 
+# Korean, Koreana, tChinese, Japanese, Russian, Thai, or Portugeuse
+Language = English
+Logging=False
+SteamDll=Steam_l4d.dll
+SteamClient = True
+SteamUser = DiamonD_|7th|  <===== replace this nickname on to your name !!!
+
+
+[Log]
+FileSystem=False
+Account=False
+UserID=False
+
+
+[steamclient]
+PlayerName = DiamonD_|7th|  <===== replace this nickname on to your name !!!
+Logging=False
+ClientDLL=steamclient_l4d.dll
+}}}
+
+
+4) Create a shortcut for "left4dead.exe" file, for example - to your desktop. Open shortcut properties, and add after "...left4dead.exe" -console -novid -nohltv -serverbrowser          <= to it's launch parameters:
+So, right click your shortcut, select properties.  In the "Target" field, you should have something, like this:
+"C:/Program Files (x86)/Left 4 Dead/left4dead.exe" -console -novid -nohltv -serverbrowser
+
+5) Lunch game use a shortcut you made.
+
+6) I'm sorry, but you will need to RESET game KEYBINDS to default :(

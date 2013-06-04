@@ -1,0 +1,231 @@
+User Type,Username,Date,Text
+,brillmann,2010-04-13T01:02Z,Merci beaucoup :))
+,jakastou,2010-04-13T16:42Z,"Thank you very much Tanauser.
+Now it works perfectly ... I only got one thing to say :
+The damage from rockets seems to be a little too much but it's cool anyway.
+And if you use 3 or 4 rockets at the same time the sounds from explosions continues after the explosions end ... but thats almost unnoticed.
+
+Once again THANK YOU very much for youe excelent work ...  ;D"
+,jakastou,2010-04-27T18:15Z,"Tanauser ...
+I have one small request :
+
+Can you please tell me or put in description what are the DLC Units you have included here that are from Empire Total War ...
+
+Thank you very much .          ;)"
+[T],Tanauser,2010-04-28T19:32Z,"2 in the french faction
+
+Organ gun + all the others (Kogul + etc ....) in the Ottoman faction
+
+no more
+
+Full Description is included with the units"
+,jakastou,2010-04-30T04:01Z,"ok ... 
+
+thank you.
+
+:)"
+,Operative2001,2010-05-01T19:57Z,"ok im dumb, after i unrar the file, i get some pack format files. how do i unpack them? many thx. "
+,Dzieje_Kultury_69,2010-05-01T21:22Z,"Great Mod Tanauser!
+
+But I do have some problem with it. After using it I've noticed that
+- steam ships' guns numbers went down 50%
+- the cannon balls 'traces' after them being shot from the cannons are gone
+- two of the additional units you have included here give me some troble - Hungarian Grenadiers and French Royal Deux-Ponts Regiment (I've managed to disable the rest but they still appear during the main campaign)
+
+Would you be so kind to tell me how to manage with those things? (disable those two units, make steam ships the way their were earlier and make the cannon balls tracable again)
+
+Thanks in advance"
+[T],Tanauser,2010-05-02T01:05Z,"easy
+for cannon ball tracable again
+
+Delete the line fx
+--------------------------------------------
+the rest is a little ""hot"" ; but you can try (....)
+
+delete projectiles_tables only (important) if you have Deleted from the game ottoman organ ; Libyan Kogul  else  CTD
+--------------------------------------------------
+for Hungarian Grenadiers and French Royal Deux-Ponts Regiment out of the game
+
+go to units_to_exclusive_faction_permissions_tables
+
+set custom_unit4 & custom_unit2  to FALSE
+"
+,Ivica121,2010-05-02T15:53Z,Tanauser how to remove units from Empire Total War?
+[T],Tanauser,2010-05-02T16:30Z,"Remove completely will ask some edition
+ but I can show you how to prevent from showing in the game.............
+
+go to units_to_exclusive_faction_permissions_tables
+set True to FALSE the following units
+
+custom_unit35
+custom_unit36
+custom_unit40
+custom_unit42
+custom_unit46
+custom_unit41
+custom_unit44
+custom_unit14
+deaths_head_hussar
+custom_unit2
+organ_gun
+custom_unit4
+custom_unit24"
+,Dzieje_Kultury_69,2010-05-02T21:38Z,"Hi again.
+
+I've managed to remove both units and the cannon balls' traces are back again.
+
+But trying to make the Steam ships as they are in the vanilla game is...well it's over my head honestly.
+
+You've written to delete organ gun and the rest of the additional units that aren't from NTW (at least I understand this that way). Every time I have a CTD. Even when I delete only organ gun I have CTD as well. 
+
+Could you please explain to me (cause It seems I'm just to dumn to know the 'how') what should be deleted and from where exactly?
+
+Regards"
+[T],Tanauser,2010-05-02T22:47Z,"It's long & difficult to explain ; you have ctd because each unit I made is part of a net ; 
+
+removing the units:
+
+you have to clean everything which is part ( belongs) to that unit . 
+mainly  in :     building_units_allowed_tables , 
+unit_stats_land_tables , units_tables , units_to_exclusive_faction_permissions_tables,...........;
+
+look for the unit & destroy each of the line (s) mentioning the same name
+
+BTW what's so bad about ETW units imported ?
+
+About the steam ship ; I didn't touch them ; but maybe because I have modded projectiles (...)
+I don't understand quite well what's the problem about the steam ship.
+
+Explain how it should be"
+,Dzieje_Kultury_69,2010-05-02T23:57Z,"Perhaps I wasn't clear...my bad
+
+When I 'train' an Ironclad in a campaign or choose it in a custom battle it has 80 guns but during the battle it has misteriously only 44 guns. Every time I remove your mod from the main game directory and start a game Ironclads during the battles have their 80 guns. When I put your mod in the game's dir they revert to 44 guns. (the same goes with both steam ships)
+
+About ETW imported units. I don't know why but they drasticaly reduce FPS when I use them so I needed them to be removed."
+[T],Tanauser,2010-05-03T01:00Z,"Now I understand why
+exemple for Steam_Ship_80
+the vanilla is
+
+naval_12_pounder
+naval_12_pounder
+naval_32_pounder
+naval_32_pounder
+naval_32_pounder
+
+and the mod is
+
+naval_18_pounder_lr
+naval_carronade_42_pounder
+naval_18_pounder
+naval_carronade_64_pounder
+naval_carronade_42_pounder
+
+so what you lose in canon number (the mod) is replaced by variation fire power .
+
+try ; you should see a difference when aiming at the sails ; any way this is easy to fix"
+,Dzieje_Kultury_69,2010-05-03T15:10Z,"I've managed succesfully to change steam ships' cannons to their vanilla numbers. I'm a person that believes the more the better :)
+
+So, all I wanted to change has been changed with your help. Thank you very much!
+
+But...I've also donwloaded your Napoleon Total War Patch2 and I have yet another problem I cannot resolve no matter what I do. It's about unit limits i.eq in Data.pack, Patch.pack and your NapMod.pack I've changed the availability of certain units like Hungarian Grenadiers or Moscow Musketeers to a higher number and it worked just fine. After using Napoleon Total War Patch2 those changes reverted to the vanilla ones. So, instead 20 Hungarian Grenadiers I can only have 10 again. Every time I want to change this in Patch2.pack the game crasher.
+
+Any idea what to do?"
+[T],Tanauser,2010-05-03T18:30Z,"Just to understand  ..................
+before I search ; This is the line of Moscow....
+
+custom_unit58	Moscow Musketeers	infantry	infantry_line	800	800	2	650	160	27	True	infantry_generic	placeholder	placeholder	Inf_Line_Russian_Moscow_Musketeers	global	1	mp_infantry	True	True	True	0	False	1	line_infantry	False
+
+
+The n째 after ""global"" which is ""1"" is the unit n째 limit ;
+
+normally if you write ""0"" (zero) instead of 1 those are illimited ; and so one ; 3 is 3 units limited ; 4 is 4 units .....etc .... so you mean this is not working now ?"
+,Dzieje_Kultury_69,2010-05-03T19:30Z,Yes. All units have their vanilla limitations. It's funny now with my British Campaign; I've changed limits for Foot Guards from 4 to 12 and trained 12 of them. After I've used this patch their limit returned to 4 and now on the campaign map when I highlight them I see: 'this unit is blah blah...you have 12 out of 4 units' :)
+[T],Tanauser,2010-05-04T15:37Z,"I will release a mod in which the Egyptian campaign is Unlocked
+
+Playable faction:
+
+English , Ottoman , Al Mahdi , Bedouin
+
+
+http://www.hiboox.fr/go/images/humour/napoleon-2010-05-04-11-02-59-03,81254725d41c59d90fe29c3c26af5627.jpg.html
+
+http://www.hiboox.fr/go/images/humour/napoleon-2010-05-04-14-49-04-25,cc319261d4f13fd4903d1d0c23955e4a.jpg.html
+
+http://www.hiboox.fr/go/images/humour/napoleon-2010-05-04-15-03-04-89,c01b2f6888f01f5e22fe53f79b2b16c5.jpg.html
+
+As you can see on the last picture the 88 foot has his n째 units unlocked
+"
+,Ivica121,2010-05-05T15:37Z,"Tanauser can you explain me how to unlock DLC for Napoleon, i really wont learn
+Here is my email ivica121@gmail.com
+If you want."
+[T],Tanauser,2010-05-05T17:04Z,"It will be faster for me to make a mod without anything else fancy no special effect , no special sounds ............
+
+many people are asking for just the DLC unlocked ; 
+
+Is that what you want ? "
+,Ivica121,2010-05-05T18:13Z,"Yes just clean DLC without any effect or units from Empire, can you upload this?"
+[T],Tanauser,2010-05-05T19:44Z,OK I'll do that tomorrow
+[T],Tanauser,2010-05-07T19:23Z,Tomorrow I will put the coalition Pack merged with this one
+,Ivica121,2010-05-10T11:17Z,"Tanauser do you want upload clean DLC (15 dlc, and coalition Pack). Please. "
+[T],Tanauser,2010-05-10T12:56Z,"I already did it and people start complaining about the job ...
+ The Vanilla is bugged , so what I am doing is correcting the bugs ; when I leave the bugs and do the DLC ; it's another complaint ; 
+
+Why do you think I have corrected the 
+12 , 18 , 6 , 8 ,9 pounder shots ???????
+
+It is because those shots contain a bug ; those cannon are firing in the ground if there is an obstacle in front of them ....instead of this they should be able to fire above it ....
+
+If You want to remove this correction ; it is very simple:
+Open the pack with the PFM and delete 
+the PROJECTILES_TABLES  tab  than you will recover the vanilla settings"
+,Ivica121,2010-05-10T13:27Z,"I am not complaining about your latest DLC, only problem what i have, was CTD when i launching battle of Friedland. But you are mad with reason, because others people are complaining, they do not know what they want, clean DLC or DLC with mods."
+[T],Tanauser,2010-05-10T13:54Z,"So ; you have my latest Pack from yesterday ...
+in which I have done the job upon friedland removed ctd ; unit limits + projectiles bugs ?
+
+there was a guy yesterday that complained that I have 
+""ruined "" his campaign ; that was the top !
+I was so pissed off that I have removed the torrent
+anyway if you don't have the pack I 'll give you a link"
+,Ivica121,2010-05-10T14:10Z,"Please can you give me a link, and can you tell me how to turn on shaking camera."
+[T],Tanauser,2010-05-10T15:56Z,"
+search for :  Napoleon total War DLC reloaded
+
+it's all over torrents site"
+[T],Tanauser,2010-05-10T16:33Z,"You know why I have corrected the shots
+12 , 18 , 6 , 8 ,9 pounder ?
+
+It is because those shots contain a bug ; those cannon are firing in the ground if there is an obstacle in front of them ....instead of this they should be able to fire above it ....
+
+If You want to remove this correction ; it is very simple:
+Open the pack with the PFM and delete
+the PROJECTILES_TABLES tab than you will recover the vanilla settings"
+[T],Tanauser,2010-05-10T17:42Z,"Don't give up !
+
+just download the right tool to open it
+
+http://www.twcenter.net/forums/downloads.php?do=file&id=2791"
+,Ivica121,2010-05-10T18:11Z,Tanauser please do you wont upload clean DLC. 
+[T],Tanauser,2010-05-10T19:42Z,give me your email
+[T],Tanauser,2010-05-10T20:10Z,"Open the pack  and delete
+the PROJECTILES_TABLES tab than you will recover the vanilla settings"
+,Ivica121,2010-05-10T20:53Z,Tanauser here is ivica121@gmail.com
+,jakastou,2010-05-11T04:33Z,"Tanauser :
+
+Thank you for all your hard work on your uploads ...
+
+Please don't stop what you do because of a few people ... there are some of us who are very thankfull and apreciate your work.
+To me you are the best and I thank very much for all you do for us .
+
+Thank you from Portugal ...   ;)"
+[T],Tanauser,2010-05-11T19:59Z,"You are welcome
+
+Here are my next units I just made ; to play my new Mod on the Egyptian  Campaign
+
+so the mod is going to be a Pirate mod with a 
+British Sudan campaign 
+
+http://www.hiboox.fr/go/images/divers/victorian-british-inf,6c1bf8fdda17f56509d91b7695007e35.jpg.html
+
+http://www.hiboox.fr/go/images/divers/victorian-british-inf2,b5fb3faac6e08e4c1f433b0ddf9fbb4c.jpg.html"
+,xhizorx,2010-08-04T21:58Z,my personal opinion (for anyone who cares) is that you shouldn't have mods in your updates because if we want mods we'll download them.
+,mercucio61,2011-10-13T03:18Z,"How do I get rid of ALL your mods and ""fixes"" from all of the patch files and the Peninsula Campaign? I want to use other mods but since you tampered with everything it won't work. So can you tell me how to undo all the stuff you did?"

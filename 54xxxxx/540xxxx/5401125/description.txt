@@ -1,0 +1,102 @@
+SnowLeo Mac OSX86 for intel/AMD (32/64) ENG.
+
+by director A. K.
+
+boot.plist = 32 bit default. 
+
+    | | +-o System 
+    | | |-Base Package  
+    | | |-Rosetta
+    | | |-X11User 
+    | | |-Tools
+    | | |   
+    | | +-o Chameleon Loader
+    | | |-Chameleon RC4 PC-EFI 10.5 (asereBLN)  
+    | | |-Chameleon RC4 PC-EFI 10.6 
+    | | |-Chameleon  RC5 Pre11 Recursor's
+    | | |-Chameleon 2 PC-EFI 10   
+    | | |-Chameleon 1 PC-EFI 9.4
+    | | |   
+    | | +-o AMD Patch (BETA)
+    | | | 
+    | | +-o ChipSet 
+    | | |-Intel AHCI   
+    | | |-ApplePXIIATA 
+    | | |-Nforce ATA   
+    | | |-Super Nforce ATA
+    | | |-VIA ATA
+    | | |-Super VIA
+    | | |-JMicron ATA
+    | | |-MB36x SATA 
+    | | |   
+    | | +-o Video Card
+    | | |--Intel  
+    | | |-GMAX950  
+    | | |-GMAX3100  
+    | | |-GMAX3500
+    | | |-GMAX4500
+    | | |--Nvidia
+    | | |-Natit
+    | | |-NVEnabler
+    | | |-NVInject
+    | | |--ATI
+    | | |-ATI Init
+    | | |-EvoEnabler
+    | | |-ATI Redeon HD
+    | | |
+    | | +-o Network Card 
+    | | |--LAN
+    | | |-BCM440X   
+    | | |-BCM5785  
+    | | |-Intel 82566M
+    | | |-NforceLan
+    | | |-RTL 8139
+    | | |-RTL 8169
+    | | |-AppleYukon2Injector   
+    | | |-AttansicL1eEthernet
+    | | |-AttansicL1Ethernet 
+    | | |-Intel Pro100 
+    | | |-ViaRhine 
+    | | |--Wifi
+    | | |-Realtek R1000
+    | | |-Atheros AR5005
+    | | |-Atheros AR5007
+    | | |-Marvel Yukon
+    | | |-AtherosWifiAdapter
+    | | |-D-LinkDWL-G520
+    | | |   
+    | | +-o Audio Card
+    | | |-VoodooHDA  
+    | | |-HDA Enabler  
+    | | |-LegacyHDA  
+    | | |-AppleAzalioAudio
+    | | |-AppleAC'97 
+    | | |
+    | | +-o System Patches
+    | | |-DSDT Patcher-GUI  
+    | | |-FakeSMC  
+    | | |-NullCPUPM  
+    | | |-PlatformUUID  
+    | | |-Sleep Enabler  
+    | | |-ApplePS2  
+    | | |-USB Patch  
+    | | |-IOATAFamily K.P. Fix
+    | | |-IOPCIFamily Fix
+    | | |-AppleRTC  
+    | | |-FramebufferDisabler  
+    | | |-SmBIOS.plist (imac 11,1)  
+    | | |-UUID  
+    | | |
+    | | +-o Notebook Patches   
+    | | |-AcpiBatterymanager
+    | | |-VoodooBattery  
+    | | |-Voodoo Power Mini  
+    | | |-Vodoo Psate+monitor app  
+    | | |-VoodooPS2withTrackPad  
+    | | |-Thermal Kext  
+    | | |
+    | | +-o Kernel
+    | | |-10.6.2 Kernel - Pcj XNU Release V0.9
+    | | |-Coco Kernel
+    | | |-Intel Atom Kernel
+    | | |==============

@@ -1,0 +1,142 @@
+Copied from eMule Project Homepage:
+
+
+What is eMule?
+At dawn of  May 13th 2002 a guy called Merkur was dissatisfied with the original eDonkey2000 client and was convinced he could do better. So he did.
+He gathered other developers around him, and eMule Project was born.
+Their aim was to put the client back on track where eDonkey had been famous before, adding tons of new features and a nice GUI.
+They couldn't imagine what impact this decision would have... 
+
+As of today, eMule is one of the biggest and most reliable peer-to-peer file sharing clients around the world. Thanks to it's open source policy many developers are able to contribute to the project, making the network more efficient with each release. 
+
+What does eMule mean?
+The name "eMule" comes from an animal called "Mule" which is somehow similar to a donkey ;) 
+
+How often is eMule updated?
+eMule is not updated regularly, but at the moment the frequencies are between 1 and 3 months.
+Don't take this for guaranteed. :) 
+
+
+A list of a few features available.
+
+Clients use several networks to create one reliable network.
+(ED2K, Source Exchange, Kad) 
+
+Kad is now in an open testphase, eMule v0.42 can be enabled to use Kad 
+
+eMule's Queue and Credit system helps to ensure that everyone will get the file he wants by promoting those that upload back to the network. 
+
+eMule is completely free. eMule is also completely free of any Adware, Spyware, and ect. We do this for fun and knowledge, not for money. 
+
+Each file checked for corruptions while downloading to ensure an error free file. 
+
+The eMules Intelligent Corruption Control helps to speed up the correction of corrupted parts. 
+
+Auto priorities and Source management allows you to start many downloads without having to monitor them. 
+
+The Preview function allows you to look at your Videos and Archives before they are completed. For video previewing, we recommend the Video Lan Client. 
+
+The eMule features webservices and a webserver that allows you to have quick access to and from the internet. 
+
+You can create categories for your download to organize them. 
+
+To find the file you want, eMule offers a wide range of search possibilities which include: Servers (Local, and Global), web based (Jigle, and Filedonkey), and Kad (Still in Alpha). 
+
+eMule also allows you to use very complex Boolean searches that make the searches much more flexible. 
+
+With the messaging and friend system, you can send messages to other Clients and add them as friends. In your friend list, you can always see if a friend is online. 
+
+With the build in IRC client, you can chat with other downloaders and chatters around the globe.
+
+
+Changelog:
+
+
+Dear eMule users, 
+
+it has been a long ride, but now we are finally halfway there  
+We are once again happy to present you a new shiny version: eMule 0.50a. 
+Many small but nonetheless important fixes and changes were made, but the main features of this new version are:
+
+Making eMules file verifying algorithm future proof by combining the ed2k hash with the AICH hash to identify and verify downloaded parts and files. 
+This guarantuees that existing and newly found MD4 weaknesses will not affect eMules ability to deliver uncorrupted files in the future. 
+Several GUI improvements, like supporting new taskbar features of Windows7, easier access to download commands by adding a new toolbar, an improved shared files dialog and a brand new Kad graph to look and wonder at
+Better usability in small LANs by adjusting Kad to such an environment and supporting highspeed uploads
+And as always fixing bugs and adding other small changes
+
+
+For all the details, check out the complete changelog below!
+
+
+eMule 0.50a
+-----------------------
+- Apr, 5. 2010 -
+-----------------------
+.: Added preferences.ini-only option "ExtraPreviewWithMenu" (eMule section) which makes eMule put the "Preview with" command into the root context menu rather than into the preview menu (only applies to extended controls with multiple preview programs set)
+.: Added "Open preferences.ini" button to the extended options. 
+Remember that you have to close eMule _before_ saving any changes if you want to edit any not preferences.ini-only settings
+.: AICH hashs work properly in all collection types now
+
+-----------------------
+- Apr, 2. 2010 -
+-----------------------
+.: Added new ed2k link type: "ed2k://|search|[searchterm]|/" makes eMule start a search for the specified searchterm. Plugin for webbrowsers which make use of this will follow later
+.: Fixed some minor bugs in the Kad graph
+.: Fixed a possible bug with AICH recovery when downloading a searchresult which includes the AICH hash
+
+eMule 0.50a BETA3
+-----------------------
+- Mar, 28. 2010 -
+-----------------------
+.: Keyboard shortcuts to switch the dialog work again in the transfer dialog
+.: Fixed a small visual glitch in the tooltips of the webinterface
+.: Fixed a issue regarding eMule deceiding if to trust an AICH hash on files which have no verified AICH has [tHeWiZaRdOfDoS]
+.: Fixed minor issues with the exit commandline command and the multiple instances option [tHeWiZaRdOfDoS, leuk_he]
+
+-----------------------
+- Mar, 23. 2010 -
+-----------------------
+.: Fixed ed2k links not containing the AICH hash on several locations (ctrl+c, webserver, etc)
+.: Fixed further bugs leading to crashes or glitches in the new toolbar
+.: Fixed a possible crash problem with the new Win7 features
+.: The Beta versioncheck will now point to a seperate website instead the standard versioncheck (which doesn't works for betas)
+
+eMule 0.50a BETA2
+-----------------------
+- Mar, 19. 2010 -
+-----------------------
+.: Updated MiniUPnPlib to the latest version
+.: The download commands toolbar now handles closing by pressing the X while in floating mode properly
+.: The icons of the download commands toolbar are now properly drawn gray if disabled on WinXP and older Windows versions
+
+-----------------------
+- Mar, 17. 2010 -
+-----------------------
+.: The new Windows7 taskbar features will no longer vanish when minimizing eMule to the system tray
+.: Updated libpng to the latest version
+.: The lables of the download commands toolbar are now properly adjusted immediately when switching to another language
+.: The archive preview tab has now a context menu to update the contents as replacement for the "Update" button
+.: Fixed a bug in handling part.met files which could cause corrupted parts if eMule paused the file due to insufficient diskspace
+.: Fixed a small visual glitch when resizing the shared files list while the new tabs were hidden
+.: fixed minor memleak in kad keyword storing [tHeWiZaRdOfDoS]
+
+-----------------------
+- Mar, 14. 2010 -
+-----------------------
+.: Fixed the background color of the new Kad graph if custom themes/colors are enabled
+.: eMule now selects the default color of the system icon tray speedbar depending on the color of your taskbar icon area, to avoid show a dark/bright bar on a dark/bright background
+.: Fixed a crashbug in the new download commands toolbar (this bug was responsible for nearly all crashes you might have seen in Beta1).
+.: Active searches are now automatically shown in the new Kad graph by default and eMule remembers the setting (can be siwtched in the contextmenu of the graph)
+.: Fixed a small bug with itemdeletion when closing eMule [JvA]
+.: Fixed a small bug regarding Kad search tolerance [Famerlor]
+
+
+ED2K Link:
+ed2k://|file|eMule0.50a-Installer.exe|3389035|3d366ed505b977fc61c9a6ee01e96329|/
+
+
+
+Comments from the uploader (olofolleola4):
+Here is some links if you cannot download it through this torrent:
+upload box  .  com  /  files  /  31fa3a264e
+rapid share  .  com  /  files  /  373793445  /  eMule0.50a-Installer.exe

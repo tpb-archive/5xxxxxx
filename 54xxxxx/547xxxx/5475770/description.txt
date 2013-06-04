@@ -1,0 +1,60 @@
+First, no 1 April Joke.
+
+Workaround for the Animus-Whitescreen and first Version of the Server-Emulator:
+1. Make sure, that you have the retail(nonsteam) untouched(nodumbcracked) Version of AC2 and the Ubi-Gamelauncher
+2. Download the Package from Dormine here
+3. Extract the whole content of the archive to a new folder on any location
+4. Download Python 2.6 and PyCrypto 2.0.1 and install them(if you are too dumb for that, forget the crack and wait for a one-klick release  )
+5. Open the tls.py in the source folder from the extracted content with an editor like wordpad oder idle.
+6. Find these lines
+
+Code: Select all | Line number On/Off | Expand/Contract
+1. 
+2. 
+3. if extrasettings != binascii.a2b_hex("00001600040005000a000900640062000300060013001200630100"):
+4. print "ERROR, unexpected client settings", binascii.b2a_hex(data)
+5. sys.exit()
+6. 
+7. 
+
+
+7. Delete them and save the file
+8. Install a Webserver like xampp
+9. Now, you must know the apache files folder for your webserver. For xampp, it's named htdocs in the xampp folder on C:
+10. Copy the whole content of the htdocs folder into a new folder
+11. Create the following structure in your htdocs folder:
+xampp/htdocs/orbit/satellitelist/satellitelist.txt
+open the satellitelist.txt and write in
+127.0.0.1
+12. save the file
+13. start the apache webserver in xampp
+14. Put the following lines into your hosts file(C:WindowsSystem32driversetchosts) and save it:
+
+Code: Select all | Line number On/Off | Expand/Contract
+1.127.0.0.1       static3.cdn.ubi.com
+2.127.0.0.1       ubisoft-orbit.s3.amazonaws.com
+3.127.0.0.1       onlineconfigservice.ubi.com
+4.127.0.0.1       orbitservice.ubi.com
+5.127.0.0.1       ubisoft-orbit-savegames.s3.amazonaws.com
+6. 
+
+
+15. Copy the values.db from the server-emulator folder into the source folder and Run Command line(cmd)
+16. Browse to the folder where your extracted files are with the "cd DIR" command
+17. Type in "cd source" and hit enter
+18. Type in "server.py" and hit enter
+19. Leave the command line open and start Assassins Creed 2
+20. Login with any Username and Password
+21. Play, until you are a baby and must kick with your legs 
+22. Wait for an updated values.db with new responses
+23. Have Fun
+
+Not tested by me since I dont have the game. (Hope it works)
+
+If you have problems/ need help go to this site:
+ 
+http://cs.rin.ru/forum/viewtopic.php?f=10&t=55769&sid=2e251b7ef50af39fed677f311d38cd4f
+
+virus results:
+ 
+http://www.virustotal.com/analisis/9d8f99156e40464985aa8584d5f108b533818cf0afd6ef06023bc3816c386ba6-1270129188

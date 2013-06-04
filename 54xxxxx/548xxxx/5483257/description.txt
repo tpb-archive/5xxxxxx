@@ -1,0 +1,13 @@
+                WinRAR - What's new in the latest version
+
+
+   Version 3.93
+
+   1. Bugs fixed:
+
+      a) in WinRAR 3.92 -xd:pathfolder switch could also exclude folders,
+         which path does not match the path specified in the switch
+         and only the folder name is the same as specified;
+      
+      b) switches -y -or did not work correctly together. Switch -or was
+         ignored in presence of -y.

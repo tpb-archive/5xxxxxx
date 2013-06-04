@@ -1,0 +1,53 @@
+EyeTV 3.3.3 (6040) - Mac Os X 
+
+EyeTV lets you watch, record, edit, timeshift and archive TV on your Mac. With solutions for analog and digital television, and video quality options to meet differing customer needs.
+
+System Requirements:
+
+EyeTV 3.3.3 is a Universal application. It requires a Macintosh computer with built-in USB 2.0 ports, and Mac OS X 10.4.11 (Tiger) or later. We recommend Mac OS X 10.6.2 or later with all software and security updates installed.
+
+EyeTV 3.3.3 is fully compatible with Snow Leopard.
+
+Version 3.3.3:
+
+64-bit Components
+
+EyeTV 3.3.3 contains several additional components that are running in Intel 64-bit mode. In addition to the H.264 video decoder, MPEG-2 video is decoded in 64-bit mode for both playback and export.
+
+EyeTV Sharing and EyeConnect now run in 64-bit mode.
+
+Learn more about 64-bit computing: http://www.apple.com/macosx/technology
+
+How to tell if your Intel-based Mac has a 32-bit or 64-bit processor: http://support.apple.com/kb/HT3696
+
+Bug Fixes:
+
+EyeTV 3.3.3 contains many bug fixes, improving performance and stability.
+
+Hardware:
+
+Improved quality of analog recordings with EyeTV Hybrid (North America 2010) on Macs with Intel Core Duo processors 2.26 GHz and faster.
+Improved stability for the EyeTV Netstream DTT, EyeTV Hybrid 2010 (North America), and EyeTV Sat.
+Improved CAM reliability and support for EyeTV Sat.
+EyeTV Sat no longer accepts remote commands from unsupported remote controls.
+Fixed a problem where analog channel names were not displayed when tuning with EyeTV Hybrid.
+Recordings
+Improved performance when loading large libraries.
+Fixed crashes related to memory usage.
+Fix a problem where an incorrect audio track was exported to program or elementary streams.
+Improved sort speed in Programs window.
+Program Guide
+Fixed a problem where shows longer than 3 hours would not show a title or episode title in the EPG.
+Improved details view for EPG.
+Fixed a crash when clearing the EPG.
+Program Guide searches are no longer case sensitive.
+Improved resiliency during EPG server outages.
+
+Misc:
+
+EyeTV 3.3.3 fixes video playback problems with EyeTV 3.3.2 in certain countries.
+Fixed a crash when displaying Picture-in-Picture.
+Fixed a problem during analog input capture where certain VHS players would show "No Signal" after a few seconds of fast forward or reverse.
+Improved picture quality of DV exports.
+EyeConnect now recognizes when the local IP Address has changed, and resumes working.
+Fixed a problem where large channels list were deleted.

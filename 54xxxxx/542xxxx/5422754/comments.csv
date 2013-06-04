@@ -1,0 +1,37 @@
+User Type,Username,Date,Text
+,jewbagel,2010-03-09T14:16Z,Working here. Thanks!
+,LRN,2010-03-09T15:34Z,"Confirmed, works with 1.03.
+
+P.S. You've changed only the bytes_find sequence. Why don't you make a loader that reads the sequence from a config file instead of hard-coding it? It could even detect the game version and read appropriate sequence from the config. Also, read executable file name from config too. That would make it somewhat more legal: generally it is not illegal to launch *some* process and then get access to its memory and change *some* bytes. Only when ""*some*"" is filled with actual data the action can potentially become illegal (in some countries). "
+,TiLLseed,2010-03-09T16:57Z,"The original program I wrote would actually parse hex from the command line. I simplified it to make a release for DAO.
+
+I figure anyone smart enough to know which bytes to fiddle with also has a C++ compiler anyway.
+
+I'm currently pondering ways to make it a bit smarter and future-proof it. BioWare has been kind enough to not actually change the very simple copy protection, but recompiling their EXE can change that call address."
+,TiLLseed,2010-03-11T22:50Z,"It is pretty funny that the Vitality update is still missing from public torrent sites. I had no idea a 1.03 patch was coming soon when I started working on this, but I guess the timing worked out nicely.
+
+I've finished creating a generic loader for all versions of DA:O that does some flexible pattern matching, but I figure I won't bother uploading another torrent until a new version of the game is released.
+
+I did upload the source:
+http://pastebay.com/89288
+
+And the whole package:
+http://stashbox.org/820122/daoloader.r3-TiLL.zip
+
+The code is now a pretty decent framework for building simple memory patchers. Use it, learn from it, make your own stuff, whatever.
+
+Viel SpaĂ,
+Till Eulenspiegel"
+,Syteri,2010-03-12T10:21Z,Question.. Do I still need a crack to make this work?
+,Syteri,2010-03-12T12:55Z,Thanks man! It works great
+,Griffith_,2010-03-16T19:12Z,No console. =(
+,Syteri,2010-03-18T14:27Z,"Till, I hope you can answer my question. Will this loader work with DA:O Awakening?"
+,Dohndorf,2010-03-24T11:30Z,"Hi Till, 
+are you also able to remove DVD search from DAO daorigins.exe (Mac Version)? This daorigins.exe (mac) is 16.5 MB while the PC version is only 10 Mb. If you want to try it, please post me per mail at renimerbitz-mail@yahoo.de "
+,Darktangent10,2010-03-25T05:38Z,"Going to try this.  Damn memory leak is pissing me off, though I heard the new patch only replaces it with more problems."
+,Hower_Power,2010-04-08T02:00Z,can it work with dragon age origins awakening?
+,chris1010,2010-05-12T14:11Z,works perfectly here...great..thanks man
+,raziiiiel,2010-05-19T12:56Z,after i got the crack working my console no longer works (developerconsole) anyone else have this problem or know how to fix it?
+,itisspencer,2010-05-25T21:38Z,"similar issue here developer console is needed for some add-ons from nexus any help would be great.
+this works great beyond this one issue."
+,guthimillerk,2011-03-14T04:50Z,"Any way to get the developer console to work on this? I added a shortcut to my desktop and appended ""-enabledeveloperconsole"" to the end of the target so it reads """"C:\Program Files\Dragon Age\bin_ship\daoloader.exe"" -enabledeveloperconsole"", but there's still no console in game. Thanks."

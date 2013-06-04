@@ -1,0 +1,18 @@
+******************************************************************************
+* For thouse that found it impossible to find an online disk of the release, *
+* here is a method to restore the partition from a saved image.              *
+******************************************************************************
+
+Edubuntu 7.04 used by MK schoolteachers on their Asus eee Pc 900ha
+-------------------------------------------------------------------------------------------------
+1) use unetbootin to make a gparted boot-usb 
+2) boot from gparted usb and create a 22 Gb ext3 primary partition
+3) use unetbootin to make a clonezilla boot-usb
+4) boot from clonezilla and prepare to restore partition
+   4.1) during the process, insert another usb which contains the 2010-03-06-15-imgedubuntu image
+-------------------------------------------------------------------------------------------------
+
+P.S. Dont forget to watch the edubuntu videos each sunday 10:00 am on A1 tv! LMFAO
+
+
+

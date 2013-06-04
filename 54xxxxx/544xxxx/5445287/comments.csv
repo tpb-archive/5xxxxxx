@@ -1,0 +1,157 @@
+User Type,Username,Date,Text
+,Fireball14,2010-03-19T11:28Z,Il be online for 3 hours.
+,devimus,2010-03-19T12:08Z,"its working, at least for russian version 100%
+if you got crash - check readme one more time"
+,Fireball14,2010-03-19T12:12Z,"Same crash was reported for some users thet updated game.
+Its 100% works for
+http://thepiratebay.org/torrent/5438640/Command__amp__Conquer_4_Tiberian_Twilight__Retail
+
+version, cos im playing it now."
+,Fireball14,2010-03-19T12:20Z,"k heres the update on error:
+same error will be there if there are non english text in patch to game use for game install something like thet: d:\Games\CgCTT\
+Works for me."
+,MattHunX,2010-03-19T12:47Z,"I can't get past the Login...I don't have an EA account of my own, and it doesn't accept that ""persona test"" thing. Should I create an EA account then? Would that be safe?"
+,SlaxX2599,2010-03-19T13:02Z,"Working perfect! Just follow instructions and it's done!
+@MattHunX:
+CNC4Server.exe and Account's folder must be in the same folder...i had this problem and it worked for me!"
+,SlaxX2599,2010-03-19T13:05Z,Edit: Worked for english version...
+,MattHunX,2010-03-19T13:05Z,"SlaxX2599
+
+I did copy the file in the folder to the same place I have all the rest, but not the entire thing...so...will do...Thanks! Have fun!"
+,evilgenius67,2010-03-19T13:22Z,where is that host file you have to adjust?? in windows 7 that is????
+,evilgenius67,2010-03-19T13:30Z,what is the host file that you have to open??
+,f4k3r5,2010-03-19T14:11Z,"Seems to be a trojan (or a combination of two trojans), check it on virustotal.com ;)"
+,ndv2,2010-03-19T14:24Z,"Confirmed working for retail English version. It boots up and logs in just fine, even though I disabled all my network connections. 
+
+Very nicely done.
+
+Here is some more info for those having trouble. 
+
+The hosts file in windows 7 is located in 
+""C:\Windows\System32\drivers\etc""
+I edited it with vim for windows but notepad should be able to do it too. Notice, it has no extension so double clicking it won't work straight away, you need to select a program to open it with first.
+
+I copied both the cnc4server.exe file and the accounts folder to \Data as well.
+
+I also created an additional account by creating a new folder under the accounts folder and rewriting the account xml files. It works just fine."
+,MattHunX,2010-03-19T14:31Z,"The only problem I'm having is, that I don't get ANY eXPerience points. I've done the first mission, and quit right after it, no point in playing if I don't get anything. And it's only for the GDI campaign, I couldn't even start NOD.
+
+I really thought that the game would be better than this. The units looks way too big and way to awful. Path-finding is trash. 
+
+This was a really half-assed work from the developers. It's like they haven't even tried. I couldn't even get the units to line up in formations by holding the right mouse button down like in C&C 3 it makes for much easier managing, ambushing...etc."
+,SzonPolDeDiabel,2010-03-19T14:36Z,"MattHunX - you'll start getting exp after 3rd mission or so, same for side (you can switch from gdi to nod)"
+,crb123456,2010-03-19T15:02Z,please explain...how to add paramaters in the shortcut from properties tab...thank you
+,crb123456,2010-03-19T15:10Z,pls ignore my last comment....all working so far.......kiking ass with trainer......
+,thenewbay,2010-03-19T15:13Z,"Please can someone give more details of how to crack?
+
+I already did everything, but it's time to place the account ""test@xmail.com"" does not work and says that either the account or password are incorrect."
+,nawafwaleed,2010-03-19T15:40Z,any 1 can explain how can crack work in the game by pictures or video plZzZZZzz 
+,Caboosee8,2010-03-19T15:43Z,so maybe some can help me out i am on the screen were it is asking me to enter my ea infromation i have already patched the game then i placed the runcnc4.eng into the data folder so when i click on it and load it it ask me to enter info and i can not get any further than that i also am running the CNC4SERVER.exe
+,Caboosee8,2010-03-19T15:45Z,so i guess im stuck with thenewbay  hey thenewbay  does it show the earth in the backround and few ships flying by?
+,deathtrooper30,2010-03-19T15:46Z,"@thenewbay
+
+Learn to read and stop being stupid!"
+,Caboosee8,2010-03-19T15:52Z,when i run the RunCNC4.eng.bat it crashes no one did explain how to fix that error when i run from runcnc4.eng is when i get the log in screen
+,Zaptagius,2010-03-19T16:07Z,"I get to the login screen but then it won't accept the username, I'm supposed to use ""test@xmail.com"" and ""zzzz"" right?
+
+And for the things you have to put in the shortcut, do you put it right after the line in the text field in ""Target""?"
+,gamergames,2010-03-19T16:14Z,Were i most place the map ''accounts''? In C:\Program Files (x86)\Electronic Arts\Command & Conquer 4 Tiberian Twilight and than?
+,icegodd,2010-03-19T16:25Z,"ITS works!!!!
+
+if you got msg:
+I get to the login screen but then it won't accept the username
+
+then you have firewall block the ip or port.
+
+fix that and you can play like me :)"
+,johnpinky7,2010-03-19T16:36Z,"Ok seriously, someone needs to write a DETAILED readme or something, cause i cannot get past the login screen no matter what.  just saying ""then you have firewall block the ip or port."" doesn't help whatsoever!  please someone help, cause many people want this to work."
+,chili-,2010-03-19T16:41Z,"It's works, but for the first mission - 0 XP :(
+I play only for movies on easy difficult, may be this is the reason.. "
+,chili-,2010-03-19T16:53Z,"Upd:
+In emule serv. dir. > Accounts>persona_test.xml>open in notepad:
+Find:
+0
+	0
+0 - XP, write your number of XP and save.
+Enjoy :)"
+,ndv2,2010-03-19T17:04Z,"Wow, people don't seam to be able to read. If you are asked to put user credentials in then you did something wrong as this method bypasses that. You need to rename cnc4.game in the install-dir\Data directory to cnc4.exe, right click and make a shortcut, right click the shortcut and go to properties (you should see a target section) at the end of that line, add what the readme tells you to. Also, copy the cnc4server.exe file and the accounts folder into install-dir\Data. Always use your shortcut to launch the game after you have launched the server."
+,bob_geldof,2010-03-19T17:06Z,works great thx! but what a shit game 
+,johnpinky7,2010-03-19T17:08Z,"ndv2
+
+OK first of all, I DO KNOW HOW TO READ. i have been trying everything many times.  I have reinstalled the game 4 times and tried this everytime.  I have followed the readme exactly everytime.  I can't seem to find anything wrong."
+,ndv2,2010-03-19T17:29Z,"Ok, well, paste the contents of the shortcut's target proporty and explain where you put the accounts folder, the cnc4server.exe file, and what you did with the cnc4.game file as well as that files path.
+
+Something with your environment is different then mine causing your install to not work."
+[T],Shepard76,2010-03-19T17:29Z,Works fine ! Thanks Fireball ! Is not a hit game. I really like it so far. 
+,ndv2,2010-03-19T17:34Z,"Also, try this guys, so that you do not have to manually launch the cnc4server program everytime you want to play:
+
+Create a new text file in install-dir\Data named anything you want.
+inside this file put the following; adjusting for your paths:
+@echo off
+start """" ""C:\Program Files (x86)\Command & Conquer 4 Tiberian Twilight\Data\CNC4SERVER.exe""
+start """" ""C:\Program Files (x86)\Command & Conquer 4 Tiberian Twilight\Data\CNC4.exe-Shortcut""
+
+Rename this txt file so that it ends in .bat (not .bat.txt)
+
+Create a shortcut to that .bat file.
+
+You can them move your new shortcut anywhere you want. This .bat file will launch the server first, then the game, everytiime."
+,johnpinky7,2010-03-19T17:37Z,"ok, i put all the contents of the crack into the install dir/data folder like it told me to do.  I renamed the CNC4.game into CNC4.exe and it changed into an application file.  this is the shortcut:""C:\Program Files (x86)\Electronic Arts\Command & Conquer 4 Tiberian Twilight\Data\CNC4.exe"" -config ""..\CNC4_English.SkuDef"" -loginToken ""test@xmail.com|zzzz"" -persona ""test""        I pasted all the stuff into the host file (step 1) by opening notepad and finding it, not by clicking on it and choosing a program.  any help is greatly appreciated"
+,ndv2,2010-03-19T17:46Z,"johnpinky, that all looks good. I am going to ask a dumb question though, are you launching the game by double clicking the shortcut you made or through the windows games interface?"
+,johnpinky7,2010-03-19T18:00Z,i am launching it through the shortcut i made.  Could it be that i am using windows 7?  also what exactly do i have to do to the firewall?
+,Naixor,2010-03-19T18:05Z,"Got the same problem as johnpinky, did everything (install etc) several times, still that login problem persists. btw, ndv I'm launchin the game by double clicking the shortcut (well, click/enter, for that matters) and I highly doubt this ""lauching method"" question solved the matter for johnpinky."
+,nightwolfjake,2010-03-19T18:16Z,"@ Naixor and Johnpinky:
+
+follow the instructions. edit the host file. add those servers in the readme. once ur done, edit the cnc4.game file they asked u to rename. then copy the downloaded folder into  your data folder. this way ull have the folder accounts copied into your C:\Program Files\Electronic Arts\Command & Conquer 4 Tiberian Twilight\Data . run the cnc4server file, then run the RUNCNC4.batch file. this way u can use the test account already in the game. "
+,johnpinky7,2010-03-19T18:18Z,already tried that
+,imenjak4,2010-03-19T18:19Z,http://s7.gladiatus.us/game/c.php?uid=135888 god game
+,nightwolfjake,2010-03-19T18:20Z,make sure the accounts folder with the test account is copied into your data folder. this way it doesnt ask u to login and goes straight to the main menu. i did this and mines working.
+,johnpinky7,2010-03-19T18:23Z,i know. i read all other comments.  Even then it doesn't work
+,nightwolfjake,2010-03-19T18:24Z,hope u  didnt update the game then. im using this version http://thepiratebay.org/torrent/5438640/Command__amp__Conquer_4_Tiberian_Twilight__Retail
+,johnpinky7,2010-03-19T18:25Z,yepp same version and all. no update ever applied.
+,ndv2,2010-03-19T18:39Z,Do you install the download manager? I did not
+,johnpinky7,2010-03-19T18:40Z,hey i found the SOLUTION!!!!!!!! I missed the top server ip for the host file!  My mistake. thanks nvd and nightwolfjake =)
+,MattHunX,2010-03-19T18:45Z,"Still got a problem.
+
+A have completed that Bonus Mission for NOD with that new guy Gideon and it doesn't show ANY new NOD mission on the list. 
+
+I can go on the second one with GDI but NOD has nothing else. What the hell is going on? "
+,Naixor,2010-03-19T19:36Z,"okay FIXED for me
+I was wondering about johnpinky ""hosts"" problem, I had a ""hosts.sam"" in the .../etc directory, i just renamed it in ""hosts"" (no extension) (with the modifications in it, of course) and it worked ! It seems I mistakenly took that hosts.sam for the hosts it was all about.
+So, for you all who are stuck on the login screen, check that the file in your .../drivers/etc has the EXACT name (hosts with no extension)."
+,thenewbay,2010-03-19T19:50Z,"alguem pode colar aqui o conteĂşdo do seu arquivo "" hosts "" ? 
+por favor. nĂŁo consigo fazer o login com test@xmail.com"
+,thenewbay,2010-03-19T19:50Z,"can someone paste here the contents of your ""hosts""?
+please. I can not login with test@xmail.com"
+,bearnie78,2010-03-19T19:56Z,"Hi!
+I allways got an error message.
+
+http://kepfeltoltes.hu/view/100319/928208701error_www.kepfeltoltes.hu_.jpg
+
+Could anyone help me?
+
+Tnx"
+,thenewbay,2010-03-19T20:18Z,"I managed to play!
+Let me explain for those who are having problems.
+
+Only the folder  [ test@xmail.com ] with files [ account and persona_test ] must be inside the folder [ Command & Conquer Tiberian Twilight 4 \ Data ] for the game have no problem with User name and password."
+,thewaxy,2010-03-19T20:32Z,when ever i star the .bat.eng it comes up with a giant list of files with an error code
+,thewaxy,2010-03-19T20:50Z,"whenever i start the .eng.bat file it shows a huge list of files, and a ""DID YOU Biuld The data?"" help plz"
+,VanderX2,2010-03-19T22:16Z,"I've gotten the http://thepiratebay.org/torrent/5438640/Command__amp__Conquer_4_Tiberian_Twilight__Retail version of the game. I got this server crack and set everything up exactly how the readme's suggested. The game's single player works fine, or so I thought. Made it to mission 5 or 6 for the NOD and saved the game then closed out the game and the server. I then went and loaded everything back up only to find out the missions list was back at the second one. My save file was still up at the 5th one though. So to test this I beat the missions back up to the 5th one and restarted everything again. Same problem. I believe there is an issue with the server looping the missions back to the 2nd one everytime it restarts. "
+,thxforthehelp2,2010-03-20T06:48Z,Okay downloaded followed the readme as instructed  and a login barrier is all that stands between us winning ageist EA or loseing lets not be the latter now I am unsure what to do from here so as one of the others said we might need a in depth discritption of what to do and yes I have tried all of the suggestions left by others I would like to see this crack work we can beat these bastards 
+,missanpassad,2010-03-20T10:19Z,no one knows if their is a better cracked version coming ? 
+,Angel7782,2010-03-20T11:29Z,perfect work on win 7 32bit
+,gaga111,2010-03-20T12:31Z,"its working and u can play, but once u close the game your progress will be lost and u have to start over again from GDI mission 2
+
+also the experience isnt added for me
+
+this is version 0.1 so there will probably be fixes for this"
+,truditu,2010-03-20T12:46Z,"for those of you getting the login screen altough you did everything ok try loging in with the account ""test.xmail.com"" and the password ""zzzz"". Notice that i used ""."" not ""@""."
+,nawafwaleed,2010-03-20T13:02Z,any one have a new crack :(
+,nawafwaleed,2010-03-20T13:04Z,"i hope this worked 
+http://thepiratebay.org/torrent/5447296/Command__amp__Conquer_4_Crack___Automated_Patch"
+,cris2412,2010-03-23T20:46Z,"For people getting the login screen when starting the game, here's a possible solution that worked for me: After what you've done by following the instructions in the ReadMe file, untick the ""Read-only"" box, if it is already ticked, in the same ""hosts"" file you edited by going to its Properties (Right Click on file --> Properties) (the original ""hosts"" file, not ""hosts.txt"").
+Then start the game again, it should work (note that my OS is Windows XP SP2, I'm not sure if it works on other OSs)."
+,bsk1694,2010-12-14T17:40Z,"-config ""..\CNC4_English.SkuDef???
+
+does this mean iahve to add something like S;/Programfiles/ Games/ CNC 4/CNC4_English.SkuDef ??"

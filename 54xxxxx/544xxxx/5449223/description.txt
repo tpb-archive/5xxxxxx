@@ -1,0 +1,14 @@
+**********************************************************************************
+this plug-in replace the poor-shit standart winamp's decoder who names in_mp3.dll!
+mad plug-in uses advanced algorithm to decode mp3's despite that made in 2001 year :-) since this year it not upgrade for some reason :-
+**********************************************************************************
+instalation: 1) go to winamp->plugins directiry and remove in_mp3.dll file(or transfer to other directory), then put here in_mad.dll file. 2) Start winamp go to options->preferences->plug-ins->input->mad plug-in->select mad plug-in and click configure, then check up that there was ENABLED checkbox, also you may set 24-bit sound(if soundcard support this). Its all! restart winamp and enjoy high quality decoded sound! 
+**********************************************************************************
+
+
+ATTENTION lacks:
+
+bad works with shoutcast internet radio(non discreet playback and don't show title name of radio and song playing! also poor IDTAGs editions and show!
+
+if this plugin don't satisfy you, then you may always delete in_mad.dll file from winamp->plugins directory and put here original in_mp3.dll! 
+ GOOD LUCK!

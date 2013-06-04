@@ -1,0 +1,77 @@
+User Type,Username,Date,Text
+,spambox123,2010-04-01T00:02Z,Where do I put the crack please?
+,Telefonkabine,2010-04-01T00:20Z,"seems to me that the crack isn't working. I insertet the crack content into game package contents and contravise.
+
+But I keep seeding. Someone will find out, how to do it or upload another crack."
+,spambox123,2010-04-01T01:34Z,"Okay i get one part.
+inside the braid.app crack is the Braid and Launcher files that are the cracks
+
+but they are plain text and not ""unix executable"" files
+so the app doesnt launch.
+
+fix?"
+,spambox123,2010-04-01T01:43Z,"K
+for people who are lost look down:
+
+in the crack braid.app is the braid and launcher
+if they are plain text open up ""terminal.app"" (an app that comes with mac)
+and type in ""chmod a+x"" "
+,Mr.HDD,2010-04-01T04:00Z,"step by step instructions please
+Not clear enough"
+,GenL,2010-04-01T10:26Z,"1. Install the game. It will be installed into \Braid.app\ directory.
+2. Replace original content in \Braid.app\ with a cracked content from \Cracked\Braid.app\
+
+That's all. Now the difficult part for casual user:
+If you have problems with execution after unpacking from RAR archive, use chmod to gain user permissions for execution. Try ""chmod a+x"", as spambox123 advised.
+
+I don't have a Mac, but i've been told it works.
+afaik, broken user permissions are actually a problem of a RAR unpacker on Mac."
+,Telefonkabine,2010-04-01T14:15Z,"So I made it working. thx to GenL and Spambox123.
+
+U copy the crack into the original game like GenL said. Now for the first time Terminal users of u guys:
+
+-write ""chmod a+x "" and pull the cracked ""Braid"" into this window. It should look something like this: ""chmod a+x /Applications/Games/Braid.app/Contents/MacOS/Braid""
+-press enter
+the file changes into a exec
+-do the same thing with the launcher"
+,spambox123,2010-04-02T05:34Z,"Sorry man
+
+I didnt realze the text box cut off but it seems like genls got it down"
+,wiiS360,2010-04-04T22:29Z,"hi i still can't get the crack to work. am i doing the chmod thing right?
+
+i type:
+chmod a+x[then the dragged cracked file]
+
+then i press enter and it shows up like
+usage:	chmod [-fhv] [-R [-H | -L | -P]] [-a | +a | =a  [i][# [ n]]] mode|entry file ...
+	chmod [-fhv] [-R [-H | -L | -P]] [-E | -C | -i | -I] file ...
+
+i don't know what to do"
+,blessphemy,2010-04-05T02:50Z,im having the same problem...
+,blessphemy,2010-04-06T01:05Z,"got it! heres a tip mac users!
+
+
+control click Braid.app and go to show package contents. Do the same for the crack. Move everything from the app to the crack EXCEPT the folder ""mac os"". Crack will become app. Play"
+,wiiS360,2010-04-07T02:24Z,do what Blessphemy says! definitely works!   
+,GenL,2010-05-12T23:18Z,"camberol, and you can even finish all levels with this solution? And you can change gfx and language options?"
+,kique16,2010-05-16T22:46Z,"Thanks GenL for the upload..
+
+And for everyone else. Follow blessphemy's advice. It works!!!! I almost completed the game already!
+
+
+""control click Braid.app and go to show package contents. Do the same for the crack. Move everything from the app to the crack EXCEPT the folder ""mac os"". Crack will become app. Play!"""
+,hokans777,2010-05-27T07:30Z,Seed please! Will seed as long as I can once it's done
+,bubblewrap4,2010-07-19T22:47Z,"I'm no computer guy, but I'm perfectly capable of following instructions. I moved all of the folders to their corrects places, and when I launch the app, the status says that it's been cracked. But if I play it, it's still in demo mode. I'm just wondering if there's some vital step that I missed or something. Thanks."
+,motd614,2010-11-07T09:15Z,"I see that some people are still having a hard time with this. Here is what you need to do.
+
+1. open braid_mac_r5.dmg and copy to your HDD
+2. Show content the app you put in your HDD, and also show content to crack braid. 
+3. Copy the MacOS folder from crack braid into the other braid. You can close Crack braid. Don't close the braid located in your HDD. Open Terminal.
+4. in terminal type, ""chmod a+x "" and drag the braid file that is in your content/MacOs. Press enter. Do the same for Launcher. so the complete line should look like this, ""chmod a+x /Applications/Braid.app/Contents/MacOS/Braid"" and ""chmod a+x /Applications/Braid.app/Contents/MacOS/Launcher"". This will turn your files into exec files. Close folder.
+5. Run app. If you did it correctly, you should see ""Cracked / THETA"" in the status area. It will still ask for a License, but you can ignore that. Just hit Launch. 
+
+I hope this helps. "
+,Somatogyric,2010-11-30T19:28Z,Is it possible to just get the serial key for the game?
+,runujhkj,2010-12-01T01:08Z,"motd614, I literally followed your instructions to the letter. I opened the new Braid and, well... I didn't. The dock twitched for a half-second, but it never actually opened. "
+,runujhkj,2010-12-01T01:10Z,"I don't know what it is, but it seems like every friggin' game I try to torrent doesn't work, regardless of platform or simplicity. I have in total three games that break this rule."
+,runujhkj,2010-12-01T02:19Z,"Disregard. It works now. Dumb user error with downloading it first to a backup drive, then copying it to the HDD from there."

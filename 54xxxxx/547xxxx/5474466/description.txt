@@ -1,0 +1,24 @@
+29th March 2010 - Fraps 3.2.1 Released
+
+Fraps 3.2 brings a new feature for registered users - loop recording, constantly capture the previous 30 seconds of video.
+
+To start the buffering press and hold the video capture hotkey for a second. The Fraps counter will turn pink to show that video is being cached. When you want to save the action simply tap the capture hotkey and the recording will continue as normal (including the previous 30 seconds of footage).
+
+Never miss a moment again.
+
+Fraps, or it didn't happen!
+	 
+Changelog
+
+
+3.2.1 - 29th Mar 2010
+- Fixed screen capture of large resolutions (ATI Eyefinity)
+- Fixed counter disappearing in some games when switching resolution
+- Improved recording speed on SLI configurations
+- Other minor bug/crash fixes
+
+3.2.0 - 26th Mar 2010
+- Added loop recording for registered users.  Press and hold video capture hotkey to start 30 second buffer
+- Added option to disable stereoscopic capture when running with NVIDIA 3DVision
+- Major optimizations for recording from D3D10 & D3D11 games
+

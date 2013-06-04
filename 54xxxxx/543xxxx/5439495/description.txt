@@ -1,0 +1,16 @@
+Fraps is a universal Windows application that can be used with games using DirectX or OpenGL graphic technology. In its current form Fraps performs many tasks.
+
+Easily record movies within your favourite games to show your friends!
+
+Whats new? : 
+
+Changelog:
+
+3.1.0 - 
+- Added option to capture videos with framerate locked or unlocked
+- Fixed startup crash for some Intel i5/i7 configurations under Windows 7
+- Minimum recording speed is now 1 fps to allow for time lapse recording
+- Fixed vista desktop recording not capturing mouse cursor
+- Fixed sound length for Vista/Win7 recordings
+- Added large address support to 32-bit codec
+- Fixed window starting off screen on some multi-monitor systems

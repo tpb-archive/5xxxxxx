@@ -1,0 +1,54 @@
+#Here you have the final vesion of the AC2 crack made by the guys from cs.rin.ru, so all thanks go to them. I included 2 versions of the crack here:
+
+ 1) the classic version, the offline server 0.44 with the last values.db file PAIR 1900
+ 2) the aotocrack version v1.0.1.0.
+
+
+
+(1) If you want to use offline server 0.44:
+
+Edit your  "hosts" file in "C:windowssystem32driversetc" by opening it with notepad and adding the folowing lines, then save:
+
+127.0.0.1       static3.cdn.ubi.com
+127.0.0.1       ubisoft-orbit.s3.amazonaws.com
+127.0.0.1       onlineconfigservice.ubi.com
+127.0.0.1       orbitservice.ubi.com
+127.0.0.1       ubisoft-orbit-savegames.s3.amazonaws.com
+
+Then run "ipconfig /flushdns"
+
+
+Finally, run server.exe and start your game.
+
+(Enter an id and password (what you wanted). Do not register)
+Keep the same ID and password for next time, in order to resume play where you left off.
+
+!VERY IMPORTANT: a) Make sure you overwrite the Ubisoft Game Launcher in the "C:Program FilesUbisoftUbisoft Game Launcher" folder with the one in the torrent if you have the latest Ubisoft Game Launcher version! The crack doesn't work with the latest version of Ubisoft Game Launcher !!!!!!!!!
+		b)  Make sure you have all internet processes close, like Skype, Dropbox,uTorrent etc!!!!
+
+(2) If you want to use the easier autocrack version:
+
+1 - Download and Install: InstallAC2Crack.exe - Emulator AC2 Server 0.44 including the latest values.db update (v1900)
+
+2 - Start the game via the shortcut "Play Assassin's Creed II" on the desktop or start menu.
+
+(Enter an id and password (what you wanted). Do not register)
+Keep the same ID and password for next time, in order to resume play where you left off.
+
+It is possible to completely remove this "crack" server emu too. (Via control panel or start menu)
+
+!VERY IMPORTANT: a) Make sure you overwrite the Ubisoft Game Launcher in the "C:Program FilesUbisoftUbisoft Game Launcher" folder if you have the latest Ubisoft Game Launcher version! The crack doesn't work with the latest version of Ubisoft Game Launcher !!!!!!!!!
+		b)  Make sure you have all internet processes close, like Skype, Dropbox,uTorrent etc!!!!
+
+(3) I also included the savegams witch will allow you to unlock the black edition DLCs of the game. Yhis saves don't modify your game progress but you have to be careful aplling them:
+Go to "C:Program FilesUbisoftUbisoft Game LauncherstoragebW5pb3N14" folder. There 2 types of saves the ones with 1 in front and the ones with 2 in front. One of the type is the progress saves (they are larger) and the other are the ulocks saves. Make sure you replace the smaller size saves (even if your smaller saves are 1... not 2... like the saves I have uploaded, just rename the my saves with the proper name before overwriting!!!!). Also make sure you have the 1900 values.db by 3xistence in your server folder (inluded in torrent).
+
+That's about it guys. Enjoy it!
+
+##################################################################
+Credits go to:
+- Assassin's Creed II - Server Emulator coded by Dormine @ cs.rin.ru - Thanks
+- AC2 Simple Laucher coded by Approved - Thanks
+- Values.db garthered by 3xistence, razafan, 13korshun13, wormss, krazyyy, LDK, Dalfi and others... - Thanks
+- Thanks to bclkostra, bjamikel, LordGravewish, AC2Clearing for merging the values and all others people who have worked on this so far.
+##################################################################

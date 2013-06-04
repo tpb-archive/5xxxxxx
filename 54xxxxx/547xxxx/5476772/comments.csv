@@ -1,0 +1,90 @@
+User Type,Username,Date,Text
+,du20188,2010-04-25T14:09Z,Thanks for share!
+,budbosa,2010-05-07T14:31Z,"Has anybody got this to work I get erroe license
+request failed for feature Invalid (inconsistent)
+license key warning (-3) no license server for
+this feature refer to the flexnet licensing guide."
+,-s2nehead-,2010-05-14T22:58Z,thanks! working fine.. i just had to run the crack files many times due to error messages before it was completed.
+,indianchief38,2010-05-21T09:44Z,"I´m used to work with computers.
+sometimes i repair my friend computers and i´m pretty good at it.
+it must be several people out there who doesn´t understand a thing about this.
+
+i wonder why it is to difficult to write a simple step by step instruction how to make the program run ??
+
+i can´t figure out how to make it work and the readme file doesn´t agree with my reallity.
+
+please make an instruktion that granma could follow.
+
+Thanks "
+,_purist_,2010-06-15T14:29Z,"It works, but it runs SO SLOW on my dualcore (2,0 Ghz / 3Gb RAM) laptop. please if anybody finds a solution to this, I'm bleeding.."
+,prathiush,2010-07-30T22:49Z,"windows Xp working procedure
+
+1.mount image
+2.go to lic gen/wf5_000 ... unzip WF5_Win32_crk (32 bit os)
+3.edit the license.dat file using notepad... replace 00-00-00-00-00 with
+your host id (u can see it in the bottom left corner when you start pro e set up )
+4.run the set up when asked about license press add... no server (locked node)
+5.complete the set up normally .. DONT RUN THE PROGRAM NOW
+6.COPY the ""proe_WF5_Win32_crk"" from ""WF5_Win32_crk"" folder to ""C:Program FilesproeWildfire 5.0i486_ntobj"" and run it
+7.press next to everything it asks..
+8.run proe from the desktop shortcut it will work..
+
+working for windows 7
+1.Follow the same procedure as above
+2.if it does not work then install it in windows xp and the copy and replace the patched files along with backed up file from installed directory of windows xp to that of windows 7 .. (it worked for me i have winxp and win 7 in dual boot )"
+,WindScar2215,2010-10-10T16:45Z,"I'm having a problem. I have installed Pro E, but the program won't even load up at all. An idea why?"
+,costa_04,2010-10-14T16:02Z,"im have a problem when i add the crack, it says file not found, or fil acces error"
+,kujirasan,2010-10-29T02:09Z,"You guys must disable the anti virus , make sure you do before installing, it blocks the crack and the patch! "
+,WoR486,2010-11-08T00:59Z,"I don't have time right now to write a complete how to on this for how i got it working, but follow the steps in the readme file in the crack folder, but if you run into a problem where the patcher can't find a file, then search for that file in your program files, move the patcher into that folder and run it.
+
+Also one important note as i messed up from this simple mistake. On the patchers there is more than one time you have to click ""next"" and ""ok"" a few times over and over until ""next"" turns into ""finish"" then your done.
+
+Hope this helps."
+,WoR486,2010-11-08T01:01Z,BTW by readme folder i mean the files inside of WF5_Win32_crk.rar inside the lic_gen/wf5_f000/ folder of the CD
+,irfee77,2010-11-27T05:35Z,"Here's what I did and it worked for me......
+
+-Start Pro/E setup
+-Open ptc_licfile.dat in notepad or wordpad
+-Replace every occurance of 00-0C-29-6B-23-E3 with the one shown in the bottom left corner of the Pro/e setup
+ (its your mac-id, format: xx-xx-xx-xx-xx)
+-Install Pro/E - Pro/M - Pro/DS, I dont care which one or in which order
+-On License-config screen select ""nodelocked license"" and point to edited ptc_licfile.dat
+-Install
+
+-Next for pro/engineer:
+(if u didnt install the complete package, u get ""missing file"" errors, accept or bleed)
+-Run Ptc.Pro Engineer.wildfire.5.0-patch.exe, point to the installed directory:
+ \i486_nt\obj folder
+-Edit \bin\proev.bat  (open with notepad)
+  change 
+	""%start_cmd% ""%CGTECH_JRE%\bin\javaw"" -Xms16m -Xmx64m -Xss4m -classpath ""%CGTECH_CLASSES%;%CGTECH_CLASSES%\CGTech.jar"" Vericut %argstr%"" 
+  to
+
+        ""%start_cmd% ""%CGTECH_JRE%\bin\javaw"" -Xms16m -Xmx64m -Xss4m -classpath ""%CGTECH_CLASSES%;%CGTECH_CLASSES%\CGTech.jar"" Vericut %argstr% PTC_KEY=0""
+ (add PTC_KEY=0)
+
+
+
+Hope it works for u ppl too.
+Aarrrrrrr"
+,shivahit,2011-01-13T09:30Z,"****VIRUS ****trojan horse generic17.syw , its in the crack file..... do we have some other copy??"
+,shivahit,2011-01-13T09:34Z,"it also gives runtime error , after deactivation of Antivirus"
+,kaara1,2011-05-24T02:49Z,"first of all thanks for the uploAD MAN ITS greatly apprecaited,
+
+i have installed the package and when i run the mechanica wildfire 5.0 it gives me an error ""invalid (inconsistent) licence key.
+any solutions please??
+
+thanks again for the upload..."
+,clementine2090,2011-06-11T15:37Z,"Hi BLACKTROY, if it is possible could you please upload http://www.coventor.com/? I so desperately need this software, and with a trial version i can hardly design before the 30 day trial period runs out. thanks...p"
+,manisek87,2011-06-28T16:52Z,wer is t crack...
+,vrsthe1,2011-06-29T16:23Z,"http://thepiratebay.org/torrent/5476770/PTC_PRO_ENGINEER_WILDFIRE_V5_M020_WIN64
+
+thats the link for those whose computers are having 64 bit OS.. try that.. "
+,mufasaaa,2011-07-19T16:32Z,does this work on windows7 32 bit
+,whatalegend123,2011-08-10T18:19Z,"works fine on windows 7 32bit .run cracks as administrator
+crack and readme located in lic gen/wf5_000  ,when u explore the disc"
+,Munku,2011-09-15T06:06Z,"For everyone having issues dealing with file not found or unable to access. This is possibly due to the way permissions are setup in Vista and Windows 7 (My OS specifically). Right click each file in the \Obj folder and under the security tab click Edit. Click your user name, not administrator, and check the Full Access tickbox. Hit apply and Ok to close the window. Do this for each file and it should work! Good luck guys."
+,thouf,2011-10-21T16:47Z,"could u pls upload the crack file for pro e 5,i already have a pro e software,n only needs the crack files,pls..."
+,p959,2012-01-08T04:24Z,"i get an error saying 
+License request failed for feature ! :( ...
+anyone else got this error ?"

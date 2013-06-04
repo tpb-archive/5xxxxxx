@@ -1,0 +1,34 @@
+WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING!
+
+DO NOT USE THIS CD IN A PC/LAPTOP THAT HAS A MULTIBOOT MENU (Like Different Partitions with several Operating Systems on the same PC). If you have a /BOOT/BCD hidden file then you have a Multiboot Menu. Booting this CD in such systems will corrupt the /BOOT/BCD FILE and youÂ´ll have to recover it by using the "REPAIR SYSTEM" From the OS Original DVD (Windows OSÂ´s). This problem was discovered a while ago and itÂ´s due to ESET program in the CD. 
+
+For anyone who wants to used a keyboard different than English, here is a small Portable app called KeyboardLayoutChanger.exe written by Ronny Wernicke, you can run it after booting Win7RescuePE, the Link is:
+
+On the page go to the link at the bottom where it says: SAVE FILE TO YOUR PC: CLICK HERE
+Place the file anywhere in your hard disk and after booting Win7RescuePE go to that location and run this app and change the keyboard to the Language available in that app. You can use it also in your phisical machine.
+
+Windows 7 Live-CD (English) Based on Windows PreInstallation Environment (WPE).
+ISO File is ready to Burn on CD/DVD (fits on 700MB CD).
+
+Characteristics:
+Monitor Resolution: 1280x1024x32bit (Can be changed with application MultiRes.exe)
+Keyboard: English
+Operating System: Windows 7 English (The Core Files included in WinPE)
+
+Applications installed covered Hard Disk and File Restoration, Fixing Master Boot Record (MBR), Defragging, CD/DVD Burning, CHM,PDF viewers, Graphic Viewer and Editing, Compression and Decompressing (zip, 7zip), Virus and Spy-ware Scanners, Internet Browsers, Document Editing, File Managers, Network Configuration, Screen Capture, and many more.
+
+All the applications are accessible from the Start Button --> All programs
+
+If the network is not running, there is additional preconfigured network drivers that can be loaded with the application called: Win7PEldr.exe (on Desktop). Optional you can access the drivers from your hard-drive once Win7RescuePE is booted as it should be able to see and read all the Hard-drive partitions in you computer.
+
+Use this CD/DVD to repair unresponsive Systems or to access files in dead computers. It can be used also to installed stored images using the applications located in the Start-up_Menu called System_Recovery-->DART6.5
+
+Also you can use any Portable Application inside once you Finish Booting this CD. Like utorrent_Portable, OpenOffice_Portable, MSN_portable, etc. they can be downloaded from Portableapps.com and portablefreeware.com among the best sites for Portable apps.
+
+Finally, it includes PARTED MAGIC, a fast Linux System to deal with Hard Drives, Partitions and Files. It can read Windows partitions (NTFS)_ and its files/folders.
+
+I haven't tried it but I believe it could be done, Formatting a USB stick (1GB) as NTFS and then using UltraISO or other similar app decompress the ISO file to the USB, and that way be able to boot Win7RescuePE from USB.
+
+Please Help Seeding.
+
+Rocketero

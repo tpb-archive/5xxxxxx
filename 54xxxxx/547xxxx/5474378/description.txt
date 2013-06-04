@@ -1,0 +1,33 @@
+1.cd /root/8634/2.8.0.0/
+
+2.cd CPU_KEYS_SMP8634_xosMc0-1
+
+3.source CPU_KEYS.env
+
+4.cd ..
+
+5.cd smp86xx_toolchain_2.8.0.0
+make menuconfig :changes the Linux toolchain options
+6.source toolchain-path.env
+
+7.cd ..
+
+8.cd smp86xx_rootfs_2.8.0.0
+
+9.source rootfs-path.env
+
+10.cd /root/8634/2.8.0.0/smp86xx_rootfs_2.8.0.0
+
+11.make
+
+12.cd /root/8634/2.8.0.0/smp86xx_kernel_source_2.8.0.0/linux-2.6.15
+make menuconfig :changes the Linux kernel options
+
+13.make vmlinux
+
+14.make modules
+
+15.make modules_install
+
+16.make zbimage-linux-xrpc
+builds the Linux kernel image vmlinux.bin

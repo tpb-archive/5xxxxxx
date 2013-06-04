@@ -1,0 +1,91 @@
+V-Ray was developed by Chaos Group in an effort to raise the bar on the rendering and raytracing standards set by more expensive systems, but at a fraction of the cost. The result is a rendering tool that offers an incredible suite of features that should satisfy even the most hardcore users without breaking the bank. And the output will stun users in terms of both realism as well as overall control.
+Animal Logic, Rezn8, Digital Dimension, Encore Hollywood are among the many V-Ray customers that acknowledged the fast, flexible, production-oriented rendering solution from Chaos Group. Packed with a rich set of high-tech cutting-edge features, V-Ray has become the renderer of choice for many broadcast, architectural visualizations SFX companies around the world.
+
+ 
+**********************************************************************
+
+Key new features
+New features included:
+- VRayFastSSS2 sub-surface scattering material
+- Linear Workflow
+- Mesh-based lights
+- V-Ray light material as direct light
+- V-Ray Fog environmental effect
+- Vector Displacement
+- Import Proxy as mesh
+- Support for Max Arch & Design materials
+- Region Rendering directly in VFB
+
+Major features of V-Rayâ„¢ for 3dsmaxâ„¢ ver 1.5 SP4
+The V-Ray rendering system has a rich set of features; we have listed some of the major ones here. For a full list of features and capabilities visit the V-Ray documentation. Please be aware that every features is subject to change without prior notice.
+
+Core architecture
+Multi-platform object-oriented API
+Fully multithreaded core
+Unified sampling system based on Schlick sampling
+Distributed rendering
+Efficient shading system specifically optimized for ray-tracing
+Modular architecture - many components of the system can be replaced with custom ones
+
+Geometry
+Efficient geometry handling
+True instance rendering
+On-demand dynamic geometry creation
+On-demand geometry loading from disk files
+Displacement mapping
+Catmull-Clark and Loop subdivision surfaces
+Extensible with custom geometric primitives through the V-Ray SDK
+
+Image sampling
+Three different image sampling methods
+Full-scene antialiasing
+Progressive path tracing
+Support for additional render elements (diffuse, reflection, GI etc)
+Advanced color (tone) mapping controls
+Extensible with custom image samplers through the V-Ray SDK
+
+Illumination
+Physically accurate full global illumination solutions
+Different GI algorithms: path tracing, irradiance cache, photon maps, light cache
+Reusable GI solutions for accelerated rendering of walk-through animations and animations with dynamic objects
+Physically accurate area lights
+Efficient illumination from HDR environments
+Procedural sun & sky models
+Extensible with custom lights through the V-Ray SDK
+IES photometric lights
+
+Shaders
+Physically plausible materials
+Blurry reflections/refractions
+Accurate hilights
+Sub-surface scattering
+Support for efficient material layering
+Extensible with custom shaders through the V-Ray SDK
+
+Camera effects
+Depth-of-field with bokeh effects
+Accurate motion blur
+Physical camera model
+Extensible with custom cameras through the V-Ray SDK
+
+Extras
+Toon effect
+Fur generator/raytracer
+Extended matte/shadow capabilities
+Support for Render-to-Texture mode of 3ds Max
+VRaySphereFade to isolate only specific portions of the scene for compositing
+
+Frame buffer
+V-Ray specific frame buffer with integrated color corrections and display of multiple rendering elements
+Direct rendering to disk for extremely large images, either as OpenEXR files or as .vrimg files
+
+ 
+ÐžS: Windows XP and Windows Vista/7
+
+
+If Problems Tell ME In Commants THX
+
+Enjoy
+
+
+                        THIS  IS x86 Version

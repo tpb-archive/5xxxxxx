@@ -1,0 +1,14 @@
+User Type,Username,Date,Text
+,wanderingskitzo,2010-06-09T06:36Z,"hey, doesn't seem to open with any of my programs. never heard of a .dmg file before - what do you use to run it?!"
+,wanderingskitzo,2010-06-12T06:56Z,"this file is a fucking waste of time and bandwidth unless you have a mac. tried converting with poweriso, dmg2iso ans also isobuster - no joy with any. dont bother if you have winxp"
+,hardcore_co,2011-01-12T20:07Z,"Info about dmg:
+
+http://en.wikipedia.org/wiki/Apple_Disk_Image"
+,hardcore_co,2011-01-12T20:09Z,http://thepiratebay.org/torrent/4577392/Dmg2Img
+,kenhag,2011-01-20T16:03Z,"In Linux:
+mkdir /mnt/dmg
+dmg2img -i file.dmg -o stage1.img
+mount -t hfsplus -o loop stage1.dmg /mnt/dmg
+DVD files are now in /mnt/dmg/VIDEO_TS"
+,Vemperic,2011-01-23T17:42Z,"NTSC or PAL  ???
+thanks"

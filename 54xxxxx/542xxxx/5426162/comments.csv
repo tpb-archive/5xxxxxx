@@ -1,0 +1,98 @@
+User Type,Username,Date,Text
+,Gbread,2010-03-10T22:48Z,"Im a bit of a newbe,could u pls explain 2 me how 2 install this on2 my computer afta downloading?..much appreciated."
+,Superpirate420,2010-03-10T23:12Z,"can someone please explain to me what the color of the skulls next to users names mean, 
+
+i assumed, that green means new they're a newbie.
+
+ pink more experienced
+
+ and blue....well i dont even know what the hell blue means. so can you help me understand?"
+[V],thethingy,2010-03-11T00:10Z,"no skull = general user
+pink skull = trusted
+green skull = vip
+blue skull = helper, reports bat torrents, recatogorises torrents, edits torrent descriptions and titles"
+,psyllium,2010-03-11T03:03Z,"Hello, thank you for the loader,
+Would you please help me with a problem?
+
+I used it for my win7 notebook (the only changes I made from default settings was about it being an Acer) and now it starts from its (factory) sucky Vista recovery partition over and over.
+
+In the bios setup screen (pressing esc when starting) I can change the boot device order but cannot chose between partitions, same with F12.
+
+Repairing win start with win7 disc didnt help.
+
+Is there a way to change back the boot to the windows partition (C:)?
+I can access the registry and fool around in DOS, the loader wont run under this conditions do.
+
+Sorry for the bother but the solution may be easy for an advenced user.
+
+Acer Aspire with slic 2.1 and currently downloading BartPE to see if I can run the loader with it. Thank you."
+,psyllium,2010-03-11T08:16Z,Fixed and working; greetings.
+,..[V]..,2010-03-11T20:22Z,"I just want to kiss u , I tried lot of loader , toolkit and all s**t but this one is real deal for me
+"
+,bcBIGbud420,2010-03-12T02:39Z,"worked for me! even after using windows activation on their website,thanks a million!"
+,Kyoma,2010-03-12T02:56Z,i have that problem where it starts the vista recovery partition over and over again can someone tell me how to fix it plz thx
+,Kyoma,2010-03-12T03:07Z,"nvm i figured it out
+if anyone else gets this problem you type
+bootrec.exe /fixboot in the repair command prompt"
+,Quesenart,2010-03-13T18:46Z,"Worked on multiple machines for me. Here is what I did on mine, your mileage may vary.
+
+1) Run the program, click Uninstall. When finished, reboot.
+2) Run program again, click Install. When finished, reboot.
+3) Right click on computer, click activate windows now. This will take you to the Microsoft activator site. Download the file and install. When that is done, click continue and your copy of windows will be activated."
+,simonlevy1,2010-03-13T22:20Z,"dear all
+i'm getting the same problem mentioned above, where my notebook starts from the vista recovery partition, i see there are some solutions, but i have no idea how to use them as i am unable to get a command prompt.
+
+please help
+thanks"
+,simonlevy1,2010-03-14T13:25Z,nvm i figured it out
+,simonlevy1,2010-03-14T14:05Z,"but my windows is still in nitification mode, so i guess it didn't work..."
+,paveziBR,2010-03-17T00:17Z,"My Kaspersky ORIGINAL antivirus detected a specific Trojan... Trojan-Dropper.Win32.VB.alsi
+
+I didn't use the Loader."
+,bcBIGbud420,2010-03-18T06:46Z,"to the 2 people above me
+
+I use bitdefender internet security and it didn't pick anything up,and i can confirm this loader still works
+:)"
+[T],Askeen.,2010-03-18T17:16Z,"it is't any virus in this one, if it is, upload it to virustotal.com and search and post link here with the result."
+,twinkle123321,2010-03-20T11:34Z,Worked perfect on vista x64 sp2! thanks! :D
+,coleix,2010-03-30T05:15Z,"i also got a trojan on my kaspersky and this is the virustotal report.
+
+Anรกlisis del archivo Vista7SlicLdr2.4.8.zip  recibido el 2010.03.24 15:40:36 (UTC)
+Estado actual: anรกlisis terminado
+Resultado: 4/42 (9.52%)
+
+Fortinet 	4.0.14.0 	2010.03.24 	W32/VB.ALSI!tr
+Ikarus 	T3.1.1.80.0 	2010.03.24 	Trojan-Dropper.Win32.VB
+Kaspersky 	7.0.0.125 	2010.03.24 	Trojan-Dropper.Win32.VB.alsi
+VBA32 	3.12.12.2 	2010.03.24 	Trojan-Dropper.Win32.VB.alsi
+
+4 out of 42 detect a trojan or something, is this a false positive?"
+,coleix,2010-03-30T05:17Z,"i forgot the permalink:
+
+http://www.virustotal.com/es/analisis/9e029de9b9f7d06bfaf5aae76e70f49581f261c685442fdb94ac297475e9dafa-1269445236"
+,coleix,2010-03-31T22:52Z,i tried but doesn't work on my PC? can someone tell a little more detailed instructions on what to do?
+[T],Askeen.,2010-04-01T14:20Z,"coleix  - 
+false positive
+
+2. Just press 'Install' and restart pc and it will be activated and genuine
+"
+[T],Askeen.,2010-04-01T14:21Z,"coleix --
+
+or try this one
+http://thepiratebay.org/torrent/5396065"
+,billy_on,2010-05-09T11:33Z,Its no virus and confirmed by omdhar. It can be confirmed after installation by full pc scan by any AV. Its because of LinqBridge.dll included which copies itself to current folder (linq not supported in vb.net 2.0).
+,billy_on,2010-05-27T08:12Z,"New version out. Vista7 Slic Ldr 2.4.9. False Virus Detection fixed.
+
+Check here 
+
+http://forums.mydigitallife.info/threads/11020-Vista7-Slic-Ldr"
+,TheOnlyElias,2010-07-14T17:50Z,"Hi!rnrnGot a Virus Alarm to.rnrnTrojan.Generic.3675368rnrnGoogled it and found out it was one of the most dangerous viruses you can get...rnrnBut I have to ask, is it a false alarm, can you prove it? :P"
+,ratc,2010-08-24T02:05Z,"Worked great for me :)
+I had installed Win 7, and when activating it with another loader it messed up my Vista Loader, and vice-versa. 
+Then I used this one and it did the job, and it didn't mess with previous loaders/activators.
+I have 5 OS's installed in 2 hisks, with 4 different boots, OpenSuse 11, 2 Win XP's, Win Vista and Win 7."
+,ascharbarth,2011-02-07T05:56Z,http://www.virustotal.com/file-scan/report.html?id=9e029de9b9f7d06bfaf5aae76e70f49581f261c685442fdb94ac297475e9dafa-1297054243
+,srinumad,2011-09-25T17:47Z,"What is the difference between loader and SLIC? both are used for making genuine only. Is SLIC is better than the loader?? 
+Please help me Askeen. Thanks "
+[T],Little_Devil,2011-10-28T23:58Z,Thank you! worked like a charm no probs use it 
+,Toasty204,2012-02-17T22:22Z,Perfect! Thanks so much :D !!

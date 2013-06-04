@@ -1,0 +1,19 @@
+User Type,Username,Date,Text
+,Tiok,2010-05-08T19:37Z,"What player / codec(s) should I be using to get these files to play?  I've downloaded half a dozen different codec packs with no effect.  Not working in VLC, DivX Player, or WMP.  (running on Vista 64)
+
+The only files that work for me at all are the short ending and opening clips."
+[T],[D],2010-05-11T14:11Z,"Media player classic, haali splitter (absolutely necessary), and for video/audio coreavc 2.0 and ac3filter (or use ffdshow for both, or internal codecs in media player classic, etc)."
+,AnimePurist,2010-12-09T00:41Z,"As tiok seemed to be having problems with this working in vlc just checking whether you yourself have tried the files in vlc and whether they have worked or not. vlc does accompany for mkv files so i don't see why it wouldn't but yea just checking.
+cheers"
+,BerretSO4,2010-12-19T05:53Z,"Downloaders:
+
+If you run into a problem with seeking on these files, note that VLC, for me, did not have the proper codec to correctly play the file.  The problem would involve such symptoms as the movie being interrupted to restart at set times and random seeking failure with am offset of time specific to each video.
+
+I fixed this by using Media Player Classic (1.4.2999.0x64) instead, which is not my favorite, but I believe the .mkv container reader is more accurate in the case of these videos, specifically.
+
+In short, if you have problems with VLC, MPC will run it with no hitch.
+
+Salz, Pirates."
+,doradhorror,2010-12-31T09:47Z,"@BerretSO4
+
+VLC is terrible. You should use MPC-HC or CCCP which is a codec pack with MPC-HC as your primary media player."

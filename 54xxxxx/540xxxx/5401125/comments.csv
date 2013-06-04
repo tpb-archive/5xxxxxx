@@ -1,0 +1,923 @@
+User Type,Username,Date,Text
+,MWhite,2010-03-01T13:31Z,Can anybody confirm this is not fake?
+,Frastanz,2010-03-03T11:49Z,IT'S A FAKE: 0 elements on image disk!!
+,webjakob,2010-03-03T14:27Z,"The disk appears empty because all the items at root-level are invisible.
+The disk contains 12771 items, and the folder strcture seems ok.
+Beyond this I have not verified the disk."
+,snowleo,2010-03-03T14:40Z,"don't fake
+all files invisible"
+,liberty-books,2010-03-03T17:18Z,"It is not fake. Burn the disc on the slowest speed.
+
+I get through all the boot messages (which takes quite a while) but now I'm sitting at a blank blue screen. Any ideas? thx snowleo"
+,snowleo,2010-03-03T17:20Z,-x command for you:)
+,liberty-books,2010-03-03T17:25Z,at the boot menu? will give it a shot
+,liberty-books,2010-03-03T17:45Z,still just a blue screen :(
+,snowleo,2010-03-03T18:54Z,video card model?
+,liberty-books,2010-03-03T19:21Z,"Its a laptop with integrated Intel 915GM chipset. But never mind, it looks like the ""paperclip"" trick worked! (basically I just plugged in an external monitor to the VGA port)"
+,snowleo,2010-03-03T19:47Z,"sorry
+915 is not compatible"
+,liberty-books,2010-03-03T20:04Z,"Well, like I said - the paperclip trick worked and I'm running the actual install now. Will report back once it finishes."
+,liberty-books,2010-03-04T01:40Z,"Install finished, but after boot I'm stuck at a gray apple screen. If I use ""-v"" I get a repeating message ""Still waiting for root device""."
+,snowleo,2010-03-04T02:22Z,"sata=AHCI
+native mod=disable
+ACPI=enable
+
+legacyAHCI+PXIIATA+JmicronATA
+
+try again"
+,liberty-books,2010-03-04T02:39Z,"What do you mean by:
+
+""legacyAHCI+PXIIATA+JmicronATA""?
+
+Thanks!"
+,liberty-books,2010-03-04T07:19Z,"Ok, I found those options.. but it's one headache after another.
+
+Now after boot I get a kernel panic.. just after the line:
+""AppleIntelPIIXPATA: Secondary PCI IDE Channel is disabled"""
+,snowleo,2010-03-04T17:33Z,"liberty-books;
+
+use IOATAFAMILY Fix"
+,snowleo,2010-03-04T17:56Z,"inewphone ;
+
+your sound card model? 
+
+and...
+
+system preferences/network/airport(ethernet)/ advanced/ DNS;
+
+208.67.222.222
+208.67.220.220"
+,Smedslund,2010-03-05T09:08Z,Is it possible to have dual OS? I run Windows 7 now but would like to try SnowLeo. 
+,snowleo,2010-03-05T11:37Z,"inewphone;
+
+part 1; install win 7
+and part 2: install snowleo with chameleon recursor's"
+,snowleo,2010-03-05T11:39Z,"sorry,
+
+for dual boot...
+
+part 2; install win 7
+and
+part 1; install snow with chameleon recursor's bootloader"
+,blenton,2010-03-05T16:17Z,"Please Snowleo for help
+E8400intel,gigabyte ep45 ds3l,ati 4850 hd,
+intel 889a audio,Pioneer dvd-rom,caviar hd
+
+Ideneb lite v1.6  10.5.8 works perfect with ati init and dongle but Snowleopard i can't install.
+Hazard version and this version have similar problem,after restart(green succesful) in restart
+moment before boot i have few debug and one error:server shutdown bootstrap register-service
+already exist and after reboot he stops.
+What do you think which things i must check in customize?Thank you."
+,snowleo,2010-03-06T04:42Z,"Those selected+
+JmicronATA
+LegacyHDA
+raltekR1000SL
+-----------
+for blue screen; -x command
+
+hd 4850;
+
+for 1 GB
+http://www.insanelymac.com/forum/index.php?showtopic=206466&pid=1380825&mode=threaded&start=#entry1380825
+
+and
+
+for 512 MB
+http://www.insanelymac.com/forum/lofiversion/index.php/t201524.html"
+,snowleo,2010-03-06T16:37Z,"x-fi
+
+http://www.insanelymac.com/forum/index.php?showtopic=204076"
+,snowleo,2010-03-07T14:47Z,download 'COMBO' update
+,naughtydougraw,2010-03-08T07:55Z,"SNOWLEO can you help me out to what ""things"" or ""drivers"" to this specs
+
+CPU....DualCore Intel Pentium D 930, 3000 MHz
+
+Motherboard Name....Asus P5LP-LE (Emery)
+
+RAM...2GB
+
+CHIPSET...ICH7R
+
+GRAPHIC CARD...NVIDIA GeForce 7300 LE 64MB(LOL? SO SMALL)
+
+AUDIO...Realtek ALC882-High Definition Audio
+
+Network Adapter...Intel(R) PRO/100 VE...
+
+plz it would mean alot to me.thanks in advance."
+,snowleo,2010-03-08T16:34Z,"main system
+chameleon rc4 aserebln
+chocolate kernel (maybe v9 kernel)
+fake smc
+nullcpm
+ahc?
+PXII  (maybe ioatafamily fix)
+jmicron
+PS2
+openhalt
+platformUUID
+smbios imac
+voodooHDA
+nvenabler"
+,naughtydougraw,2010-03-08T19:54Z,"THANK YOU..THANK YOU!!!
+
+WOW AFTER TRYIN DIFFERENT METHODS SINCE SNOW WAS RELEASED,U FINALLY DID IT MAN..
+
+SNOWLEO YOU ARE THE BEST MAN..THANK U ONCE AGAIN.IT WORKED!!!"
+,blenton,2010-03-08T22:59Z,"Snowleo, me again.
+I tried but nothing.Yesterday and today i tried many things but fake.Even i tried empire efi and retail version but after basic boot and only ahci mode i get garbage screen and cant go on.In your version in one moment in ahci mode i get grey screen with some squares if i move mouse and thats it.Please can you tell me what i do wrong.Which kernel,which chameleon,ahci or not,you give me link for ati but i can install that kext after succesfully boot snow.How without picture.What about csmos reset problem?I think that ati is main problem but something else maybe.Please help if you have some idea.I can't find someone who have configuration like me and installed snow leopard."
+,blenton,2010-03-08T23:16Z,i forgot to mention my mainboard is gigabyte ep45-ds3 not ds3l how i wrote earlier and lan realtek 8169/8111.sorry.
+,snowleo,2010-03-09T01:31Z,"blenton;
+
+Main system
+Chameleon RC4 asereBLN
+Legacy AHCI
+JmicronATA
+R1000sl
+(vga card???)
+voodooHDA
+fake smc
+nullcpupm
+openhalt
+platformUUID
+Smbios imac
+ps2
+(maybe apple RTC)"
+,blenton,2010-03-09T05:54Z,"Snowleo thanks but i wrote you earlier that i have ati radeon 4850hd,what things i must check on video section or leave empty?"
+,urlich,2010-03-09T09:53Z,Everything is O.K. Works perfectly. There was no problems during installation.
+,urlich,2010-03-09T10:25Z,Thank you for the great torrent. I almost forgot .. : D
+,snowleo,2010-03-09T13:11Z,"blenton;
+evoenabler
+(+maybe pc-efi 10.6)"
+,urlich,2010-03-12T12:36Z,Actually .. It is not perfect. Does not work Quictime X. :(
+,snowleo,2010-03-14T12:06Z,"read this;
+http://www.insanelymac.com/forum/lofiversion/index.php/t135076.html
+and;
+http://kxproject.lugosoft.com/down.php"
+,ciccio92,2010-03-19T19:05Z,SSE2 supported?
+,dellhead,2010-03-19T22:42Z,"sorry snowleo to just contribute to the mass request, but heres my system.
+
+GIGABYTE GA-MA770T-UD3P AM3 AMD 770 ATX AMD Motherboard
+
+Amd Phenom II X3 720 Black Ed CPU
+
+running 4 gigs of ram.
+That's all the specific data needed right?  any recommendations on what settings to Check off?  after guessing a few in installation, i can never get it to boot?  thanks in advance snowleo"
+,snowleo,2010-03-21T16:17Z,"dellhead;
+
+Those selected+
+Chameleon asereBLN
+AMD patch
+VoodooHDA
+SMbios ?mac
+PS2 (64 bit)
+JmicronATA
+
+(maybe) for cmos reset: AppleRTC
+lan and vga"
+,snowleo,2010-03-21T16:18Z,"ciccio92 ;
+
+SSe2 support= select v9 kernel (maybe chocolate kernel)"
+,snowleo,2010-03-21T16:19Z,"sitcoms;
+
+yes, select AMD patch"
+,fearkills,2010-03-22T01:45Z,"@dellhead
+
+Any luck? I'm going to try this disk of a system similar to yours
+
+AMD Phenom II X4 955 3.2GHz 
+Asus M4A77TD
+
+I've tried every possible way with Ideneb and have had no luck. 
+
+Did this disk work for you?"
+,fan_pai,2010-03-23T09:40Z,"SNOWLEO can you help me out to what ""things"" or ""drivers"" to this specs
+
+CPU....DualCore Intel Pentium D 820, 2800 MHz
+
+Motherboard Name....VIA P4M800Pro
+
+RAM...2GB
+
+CHIPSET...VIA P4M800Pro
+
+GRAPHIC CARD...NVIDIA GeForce FX5600 128MB(IS THIS OLD?)
+
+AUDIO... VIA VT8237R Plus (I'VE SEARCHED THAT VT8235 CAN WORK)
+
+Network Adapter...REALTEK RTL8139/810x
+
+HOPE U COULD HELP IT WOULD MEAN LOTS TO ME... TQ IN ADVANCE...."
+,dellhead,2010-03-23T16:10Z,"@snowleo
+
+thanks for the info.  it helped a bit.  i forgot to mention my video card.
+
+ ASUS EAH4850/HTDI/512M Radeon HD 4850 512MB 256-bit GDDR3 PCI Express 2.0 x16
+
+so i also selected ATI for the vga.
+im able to install, but when it tries to boot, after the apple logo screen, it freezes (or perhaps ""hangs"" in the correct word) in the next grey screen.  any suggestions snowleo?  as always, thanks for the time.
+
+@fearkills
+hope my feedback might spark you an idea what to try or not to try.  "
+,ScrubbyScott,2010-03-24T05:00Z,Could this work for a Compaq SR1750NX... I know I have compatible hardware I just forgot what I used/chose for a chipset driver the one working time I had OSx86 installed
+,zapleso,2010-03-24T23:39Z,"snowleo , is it gonna run on dell studio 1535 
+
+Intel Core 2 Duo T5750, 2000 MHz
+2 gb DD2
+ati radeon hd 3450 - 256 mb
+320 gb sata
+Intel Crestline-PM PM965
+IDT Intel 82801HBM ICH8M 
+
+if yes, which patches I need?
+many tnx in advance"
+,spamking98,2010-03-26T17:35Z,"Hey Snowleo can you help me pick which drivers to install, here are my specs for my laptop:
+
+Lenovo y650:
+
+Manufacturer: LENOVO
+
+Model: 4185
+
+BusType: PCI; ISA
+
+Bus
+
+    PNP_BUS_4
+
+        BusType: PNP Bus
+
+        BusNum: 4
+
+    PCI_BUS_0
+
+        BusType: PCI Bus
+
+        BusNum: 0
+
+    PNP_BUS_0
+
+        BusType: PNP Bus
+
+        BusNum: 0
+
+    PNP_BUS_3
+
+        BusType: PNP Bus
+
+        BusNum: 3
+
+    PNP_BUS_2
+
+        BusType: PNP Bus
+
+        BusNum: 2
+
+    PNP_BUS_1
+
+        BusType: PNP Bus
+
+        BusNum: 1
+
+    PCI_BUS_1
+
+        BusType: PCI Bus
+
+        BusNum: 1
+
+    PCI_BUS_4
+
+        BusType: PCI Bus
+
+        BusNum: 4
+
+    PCI_BUS_8
+
+        BusType: PCI Bus
+
+        BusNum: 8
+
+IDE Controller
+
+    Intel(R) ICH9M-E/M SATA AHCI Controller
+
+System Slot
+
+    PCI Slot J8B3 - Unknown
+
+Motherboard Interface
+
+    USB
+
+        Intel(R) ICH9 Family USB Universal Host Controller - 2939
+
+        Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293A
+
+        Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293C
+
+        Intel(R) ICH9 Family USB Universal Host Controller - 2934
+
+        Intel(R) ICH9 Family USB Universal Host Controller - 2935
+
+        Intel(R) ICH9 Family USB Universal Host Controller - 2936
+
+        Intel(R) ICH9 Family USB Universal Host Controller - 2937
+
+        Intel(R) ICH9 Family USB Universal Host Controller - 2938
+
+    Serial Port
+
+    Parallel Port
+
+    1394 Controller
+Manufacturer: LENOVO
+
+SMBIOSBIOSVersion: 15CN21WW(V1.04)
+
+SMBIOSMajorVersion: 2.5
+
+CurrentLanguage:
+
+ReleaseDate: 1/13/2009 4:00:00 PM
+
+BiosCharacteristics
+
+    ReleaseDate: 1/13/2009 4:00:00 PM
+
+    PCI is supported
+
+    Plug and Play is supported
+
+    APM is supported
+
+    BIOS is Upgradable (Flash)
+
+    BIOS shadowing is allowed
+
+    ESCD support is available
+
+    Boot from CD is supported
+
+    Selectable Boot is supported
+
+    EDD (Enhanced Disk Drive) Specification is supported
+
+    Int 13h - 5.25 / 360 KB Floppy Services are supported
+
+    Int 13h - 5.25 /1.2MB Floppy Services are supported
+
+    Int 13h - 3.5 / 720 KB Floppy Services are supported
+
+    Int 13h - 3.5 / 2.88 MB Floppy Services are supported
+
+    Int 5h, Print Screen Service is supported
+
+    Int 9h, 8042 Keyboard services are supported
+
+    Int 14h, Serial Services are supported
+
+    Int 17h, printer services are supported
+
+    Int 10h, CGA/Mono Video Services are supported
+
+    ACPI supported
+
+    USB Legacy is supported
+
+    LS-120 boot is supported
+Intel(R) Core(TM)2 Duo CPU P8700 @ 2.53GHz
+
+    Description: Intel64 Family 6 Model 23 Stepping 10
+
+    Architecture: x64
+
+    Version:
+
+    NumberOfCores: 2
+
+    NumberOfLogicalProcessors: 2
+
+    SocketType: ZIF Socket
+
+    ProcessorId: BFEBFBFF0001067A
+
+    Manufacturer: GenuineIntel
+
+    MaxClockSpeed: 2534 MHz
+
+    CurrentClockSpeed: 2534 MHz
+
+    ExtClock: 266 MHz
+
+    L2CacheSize: 3MB
+
+    L2CacheSpeed: MHz
+
+    L3CacheSize: 0Bytes
+
+    L3CacheSpeed: 0 MHz
+
+    AddressWidth: 64 bits
+
+    DataWidth: 64 bits
+
+    SocketDesignation: U2E1
+
+    PowerManagementSupported: False
+
+    LoadPercentage: 15%
+Video Card
+
+    NVIDIA GeForce G 105M
+
+        Company: NVIDIA
+
+        VideoProcessor: GeForce G 105M
+
+        AdapterRAM: 256MB
+
+        VideoMemoryType: Unknown
+
+        AdapterDACType: Integrated RAMDAC
+
+        InfFilename: oem2.inf (Section030)
+
+        InstalledDisplayDrivers: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
+
+        DriverVersion: 8.15.11.8647
+
+        DriverDate: 7/26/2009 5:00:00 PM
+
+                PNPDeviceID: PCI\VEN_10DE&DEV_06EC&SUBSYS_388317AA&REV_A1\4&68F560D&0&0008
+
+        VideoArchitecture: VGA
+
+        Resolution: 1366 * 768 Pixels
+
+        CurrentNumberOfColors: 4294967296
+
+        ValidRefreshRate: 59 - 59 Hz
+
+        CurrentRefreshRate: 59 Hz
+
+        CurrentBitsPerPixel: 32 Bits
+
+        Availability: Running/Full Power
+
+Monitor
+
+    Generic PnP Monitor
+
+        MonitorManufacturer: (Standard monitor types)
+
+        Resolution: 1366 * 768 Pixels
+
+        PixelsPerLogicalInch: 96 * 96 Pixels/Inch
+
+                PNPDeviceID: DISPLAY\SEC4C4"
+,drummer10630,2010-03-31T18:13Z,@snowleo...Is there anyway to get SATA working on Asus p5v800-mx with Via chipset? Everything else is working fine. Thank you for this upload.
+,linux480,2010-04-05T00:52Z,"@snowleo
+Im sorry about this it probably gets pretty annoying 
+My specs are as follows
+gigabyte GA-MA78LM-s2h mobo
+AMD athlon II x4 620 processor
+ati radeon hd 4670
+i tried installation once but keeps getting the ""still waiting for root device"" error, any suggestions on what i should select?"
+,hauptoon,2010-04-09T09:35Z,"Salü SL_Leo
+I cant Install the ISO after Burning dont know why the iso  install dont start burning was by lowest speed.
+
+Also i enabled my BIOS AHCI, ASPI, S3 only, Jimicron 
+
+may get some Idea 
+Thanks
+
+System
+Board: Asus P5K
+Intel chipset: P35
+CPU: Quade Core2 Q6600
+Graphic: Geforce 8400gs 256 Ram"
+,drummer10630,2010-04-09T10:14Z,"You guys might to check out the 10.6.0 HCl for many tips on your hardware and installation.
+http://wiki.osx86project.org/wiki/index.php/HCL_10.6.0"
+,arsalananwar,2010-04-09T16:13Z,"thanx :) 
+
+this is the only SL distro which works fine on Dell Inspiron 1564 core i3. "
+,cclloyd,2010-04-11T19:55Z,"What kernels can I use to boot, because i got a kernel panic when booting from the CD.  
+
+AMD Athlon X2 QL-65"
+,bs82494,2010-04-13T23:13Z,if i don't feel like spending the time to choose between the harder to choose drivers couldn't i just install each choice? eg. select all network card drivers if i don't know which one to choose. what's the worst that could happen
+,bs82494,2010-04-14T01:56Z,"on second thought maybe you could help me to figure this out, seeing as evry1 else is posting their computer specs. i have a gateway notebook, the specs are in this link. http://support.gateway.com/s/Mobile/Q106/BladeK8F/1013943Rsp2.shtml . any idea what drivers or other install info i need to use? btw im currently running windows 7 and intend on dual booting. thanks snowleo :)"
+,bs82494,2010-04-15T03:51Z,"@linux480
+im having this same problem! iv tried everything i can think of to fix this (im a noob so tht aint much) but evry time i install i keep getting this error. evrythin else seems to work tho... so idk wat i did. any1 hav an idea?"
+,linux480,2010-04-16T05:29Z,Got it working in safe mode. my graphics card doesn't work. anyone had any luck with a ati 4670? i heard people have done it i just need some kind of tutorial.(also my still waiting for root device was from not having my Bios set up correctly)
+,marcus_joy123,2010-04-27T20:01Z,ttthhaankkss!!! wwoorrkk perfecct!!!!!!!!!!  
+,marcus_joy123,2010-04-27T20:47Z,"how to dual boot windows 7, first install mac? and then windows 7?? windows boot loader wont start mac??"
+,n20,2010-04-28T01:22Z,"snowleo - 
+i have an Aspire One A0531h (zg8) netbook (similar to zg5) ive tried multiple settings and always get blue screen
+
+specs
+Intel® Atom? processor N270 (1.66 GHz, 667 MHz FSB, 512 KB L2 cache)
+2 GB DDR2 RAM"
+,web33,2010-04-28T17:01Z,"very good version, all updates all working, thank you men"
+,marcus_joy123,2010-04-28T19:07Z,"but my imovie chrashes?? why, is it the kernel? do i need do install a other kernel"
+,itrimble,2010-04-30T02:19Z,@SnowLeo  I have installed your distro 3 times and I am unable to repair the permissions.  I get the error 'No packages can be found on this disk.'  Any thoughts ?
+,segin,2010-04-30T20:51Z,"I have an SSE3 P4, do I need the coco kernel?"
+,lamaroid,2010-05-03T15:02Z,"how can i install this on my laptop?
+specs:
+AMD Athlonx2dualcore 64
+ATiRadeonHD4570
+4gb ram
+ASUS K50AB laptop
+@SnowLeo can u help me?"
+,puma_ile,2010-05-03T17:57Z,Doesn't work for AMD 64 ?
+,puma_ile,2010-05-03T18:01Z,"Which version is this 10.6.2, 10.6.3 or what ?"
+,puma_ile,2010-05-03T18:04Z,"Will it work on my PC :
+Motherboard: MSI K9N Neo v2/v3 (Chipset: nForce 520/560)
+CPU: AMD Athlon X2 64 4000+
+GPU: nVidia GeForce 7300LE (MSI)
+2GB RAM Memory
+HDD: 21GB on the partition which I want this to install on
+Ethernet: Realtek PCIe GBE Family Controller
+Sound Card: Realtek ALC888/1200 (High Definition Audio Device)
+Please reply...
+And SEED :)"
+,tr13dg3,2010-05-05T14:54Z,Does anyone have confirmation on AMD support?
+,lalrinchhana,2010-05-05T19:23Z,"i typed ""-v"" n i get black screen where there are lot of writings and it stucks there
+core2duo 2.5ghz---processor
+asus p5kpl am/mp---motherboard
+2gb-ram
+nvidia256mb
+
+please help"
+,marcus_joy123,2010-05-07T08:06Z,"omg, okej, yes, i have a smd, it works, this works on a amd, if you have a amd and nforce, nvidia card, i took 
+
+Chameleon RC4 PC-EFI 10.6 
+
+AMD patch
+
+Super Nforce ATA
+
+NVEnabler
+
+VoodooHDA
+
+10.6.2 Kernel - Pcj XNU Release V0.9
+"
+,marcus_joy123,2010-05-07T08:07Z,"try the -f comand, not -v"
+,andis_alves,2010-05-07T17:00Z,"help!
+i install on my MB Asus M2N32-SLI Deluxe, proc. Phenom II X4 9950, VGA Geforce GTX260.
+
+for boot i use ""-x"", because don't boot dvd
+
+installation occurs ok, but when i restart
+don't start, i try flag ""-v"" ""-x"" and nothing
+
+please explain to me what steps i proceed to have success
+
+i try various guides on net, but don't success"
+,andis_alves,2010-05-07T17:41Z,"see the image
+http://img341.imageshack.us/i/foto0114j.jpg/
+
+my specs are in the previous comment"
+,groboto,2010-05-09T08:51Z,"working perfect on ASUS p5b deluxe. Had to delet AppleHPET.kext to make firewire port work.
+But some programs doesn't see it as 10.6.2, only as 10.6....
+
+is there a way to update it to 10.6.2 or 10.6.3?"
+,freekeydude2009,2010-05-13T19:55Z,"hey is this a ripped version cause the size on other places is 5 gb but this is just 2gbs?!
+is this the os?"
+,gogie,2010-05-21T22:05Z,"snowleo, can you help me about the problem. I cannot update from 10.6.0 to 10.6.1 or 10.6.2 or 10.6.3 :( it says does notmeet the requirements for this update. any advise or idea?"
+,yoquecono,2010-05-22T17:32Z,I succesfully installed on AMD 64 + ati 4890. Only manage to get 1600x1200. Does anyone know how to get 1920x1200?
+,yoquecono,2010-05-22T17:34Z,"I succesfully installed this on AMD 64 + ati radeon 4890.
+Unfortunately only get 1600x1200.
+Does anyone know how to get 1920x1200? "
+,shortbussn,2010-05-22T23:21Z,i have dell e1505 945gm chipset...says insatlled correctly but when reboot it goes to apple logo with spinning wheel then to black screen......what do i do....
+,iMasta,2010-05-24T00:31Z,I Got This worked and worked retail on motherboard P5Q Pro Turbo
+,PomTom,2010-05-25T00:51Z,"Can't get it to work with my Gigabyte P35-DS4. Kalyway 10.5.2 used to work fine, but this one always gets me ""Waiting for root device"", no matter how BIOS AHCI settings are.
+"
+,malofx,2010-05-25T07:44Z,"Could anyone please provide a link to a step by step guide on installation? I have an old P4 Gateway. Do I need to select customize options for installation?
+
+Thank you in advance"
+,TehNbs,2010-05-27T12:23Z,"Everything working, thanks."
+,cornholio5ca,2010-05-28T04:47Z,The install work perfect. Except in my Network Diagnostics I have ISP but no Internet when I am using Airport or Ethernet. Nothing I do seems to fix this.
+,cornholio5ca,2010-05-30T17:11Z,I have ISP but no Internet when I am using Airport or Ethernet. Does anyone have any suggestions?
+,erti92,2010-05-31T15:42Z,"snowleo can you help me?
+Here is my config:
+
+CPU->AMD Athlon 64 3200+
+Motherboard->Asus A8V-XE
+RAM->2GB 
+HDD->500GB SATA
+Chipset->VIA K8T890
+Video-> ATI 1950Pro 256MB PCI-E 
+Sound->soundmax adi1986
+Network->ViaRhine
+
+Thanks."
+,erti92,2010-06-02T17:15Z,Please help me
+,jayismyname,2010-06-06T17:25Z,"Hi, i was wondering if someone may help me i have a amd hp laptop with a 2.2ghz amd turon x64 prossessor and it has sse 3. i have 3 gig ram and 160 gig hdd wich i have partitioned so i have 90 gig free to put the os on but......... when i run this disk all it says after about 30 seconds is waiting for root device again and again from the reaserch i have gatered i have a good enough prossessor to be able to do this so is this possible for me to have a mac os?? am i doing something wrong....... i boot from disk then i wait then after the cont down i just press enter but then nothing really happens it has a load of stuff then still waiting for root device.
+
+Any help would be excelent!
+
+Cheers guys 
+
+jay"
+,thejoka,2010-06-06T19:38Z,"Hi everyone. I need some help. I can boot from the DVD and go through the installation flawlessly. However, when its time to restart the computer, it restarts only for me to be greeted with ""Operating system not found"". I have tried on 2 different laptops with the same result. IS there something I am doing wrong? One is an IBM thinkpad X31 and the other an Asus M50. Tried with IDE hard drives, SATA hard drives, USB HDD but same result on both. Any help is much apprecaited. Thank you and thanks for the upload!"
+,drarkanex,2010-06-12T05:56Z,"at the boot prompt, what are the names of the individual kernels.  When I boot this DVD, I get ""Chameleon v1.0.11 Build Date 2008-06-09
+
+Trying to install this on a M4A77D Asus motherboard and running into kernel panics.  Hitting enter at the boot: prompt just ends up in a kernel panic.  Typing in mach_970 at the boot prompt involves the same thing.  cpus=1  still results in kernel panic as well as acpi=off  any clues here would really help..  like how to get it to use the newer chameleons or even another kernel would help as well.  a list of the names of the kernels would be great too"
+,henkdetank,2010-06-14T16:43Z,"When i start the DVD (Asus P5Q-SE/R, Intel Q6600, Ati 4850) it initially starts to load some stuff (black screen with white text) and then restarts my computer. What am i doing wrong? It boots just fine on my laptop."
+,GenoOrlando13,2010-06-15T14:18Z,"For Any Body Who's Getting The ""Still Waiting For Root Device"" Error Here's The Fix go to your BIOS setting and change the ""SATA Controler"" To the one that starts with the A i think its ACHI or something so when ever you wanna boot snow leopard change the settings i posted above when you wanna boot in windows you gotta change the settings back to what it was before you changed it to ACHI or what ever its called lol"
+,chamillion02,2010-06-29T09:49Z,"snowleo: Thank you for all the excellent work that you and others have done for this torrent. Please help me finish installing it, so I can use my computer again -right now I'm writing this comment with Ubuntu live cd-
+
+I have no idea of what you want me to list as specs, but here's a link to my computer's model -Emachine W3107
+
+http://www.dealtime.com/xPF-eMachines-eMachines-W3107-AMD-Sempron-3100-1-8GHZ-512MB-DDR-100GB-7200RPM-HDD-Dual-Layer-DVDRW-Fl
+
+I know my computer's old, but please tell me there's still hope on using this OS!
+
+Thank You
+-Chamillion02"
+,chamillion02,2010-06-29T10:55Z,"...to follow up
+I upgraded to 1.5GB RAM, in case you need to know that
+
+I just need to know what I should do during the installation and restart and what I should do in custom installation. 
+Thank You again!"
+,SNYPE2K9,2010-07-04T03:01Z,"I'm having trouble finding the right options for my build. I made sure to at least try four or five times before bothering you, I know it must be kinda annoying.
+
+CPU: AMD Athlon II x4 630
+RAM: Kingston Hyper-X 4 GB DDR2
+MoBo: Gigabyte GA-MA785GM-US2H
+GPU: ATI Radeon HD 3650
+Onboard Audio: Realtek ALC889A
+Onboard LAN: Realtek 8111C"
+,acatas,2010-08-06T22:48Z,"still waiting for root device?
+Just at the beginning of boot it gave me that message. Then I had to go back and fix windows (pain). Anyone know a solution?"
+,easy90rider,2010-08-09T10:20Z,"stuck at DVD boot @ loading HFS+ file: [/sys...]
+and a blinking crusor. With the hazard dvd I'm stuck only a bit after this with an error saying
+calibation failed with 2 attempts."
+,ramonxito,2010-08-13T19:16Z,"What do i need to install on this system:
+
+T5224 Support Information
+Specifications
+CPU : Intel® Pentium® D 820 Processor (Dual-Core)
+64-bit processor with Intel® EM64T Technology
+Each core operates at 2.80GHz | 2 x 1MB L2 cache | 800MHz FSB
+Chipset : 	Intel® 945G DH (Viiv™)
+Memory : 	1024MB DDR2 dual channel (2 × 512MB), 533MHz (PC4200)
+Media Reader : 	High-Performance 15-in-1 
+Video : 	ATI Radeon HD2400XT
+Sound : 	6-channel (5.1) high-definition audio
+Intel® 10/100Mbps Ethernet LAN (RJ-45 port)"
+,-aA-asSasSin,2010-08-16T14:56Z,"snowleo please tell me which patch.bootloader n kernel etc., should i install to run mac osx on my pc with following configurations :
+
+motherboard : intel DG43NB chipset P45/P43
+Processor: Intel core 2 quad Q8400 @ 2.66 Ghz
+Graphics:Nvidia GeForce 9500GT 512 MB
+Ram :2 GB"
+,ashatimb,2010-08-26T09:29Z,"hey snowleo,
+
+I use a laptop of the following configuration having certain issues,
+
+My config is
+
+System Manufacturer: Hewlett-Packard
+System Model: HP Pavilion dv6700 Notebook PC   
+Processor: Intel(R) Core(TM)2 Duo CPU T5750 @ 2.00GHz (2 CPUs)
+Memory: 3GB
+HDD: TOSHIBA MK3252GSX (320GB)
+External HDD: Maxtor 80GB
+Display Chip type: Nvidia GeForce 8400M GS
+(256MB)
+Audio: Realtek High Definition Audio
+DVDRW: TOSHIBA
+Network Adapters:
+Intel(R) PRO/Wireless 3945ABG
+Realtek PCIe FE Family Controller
+
+I've installed this Snowleo Mac on my External Maxtor 80GB it boots in MAC SnowLeo and cannoct detect my touchpad thn i have to connect a USB mouse and it gets stuck on a page asking me to connect a keyboard why cant if detect my laptops keyboard and touchpad mouse ?"
+,_t_r_,2010-09-02T09:47Z,"Hello snowleo. 
+What do i need to install on this system:
+
+Processor & Cache Memory:  AMD Athlon™ X2 Dual-Core QL-64 (2.1GHz, 3600MHz FSB, 1MB L2 Cache)
+Chipset RS780 
+Main Memory: 3GB(2+1) DDR2 800 
+Display: 15.6 LED Backlit (HD) 1366x768 
+Video Graphics & Memory: ATI Mobility™Radeon® HD 4570, 512MB VRAM 
+Hard Drive: 250GB,5400rpm 
+Optical Drive: DVD Super Multi 
+Video Camera: 1.3 Mega Pixel web camera
+
+Please answer."
+,trpled32,2010-09-22T03:57Z,"When i try to install it says ""Not supported"" How can i get around this? and will snow leopard 10.5 work? Thanks 
+
+ Machine Name:	Power Mac G4 (AGP graphics)
+  Machine Model:	PowerMac3,1
+  CPU Type:	PowerPC G4  (3.3)
+  Number Of CPUs:	1
+  CPU Speed:	1.4 GHz
+  L2 Cache (per CPU):	256 KB
+  L3 Cache (per CPU):	2 MB
+  Memory:	1.12 GB
+  Bus Speed:	100 MHz
+  Boot ROM Version:	4.2.8f1
+  Serial Number:	XB020129HSE
+  Sales Order Number:	M7641LL/A"
+,sarablubana,2010-10-10T02:48Z,"Hello SnowLeo...
+Firstly Please excuse me for my bad English ....
+
+I have ......>>
+AMD (Athlon) 7750 Processor 2.7Ghz,
+Asus M2n68-AM Plus Motherboard
+1 GB Asus EAH 4350 ATI Chipset Graphic Card
+Kingston 4 GB Ram (800 FSB)
+320 GB Sata Hard Drive
+DVD Writer 
+
+Can I Install Mac OS X on my this Configuration. Please Guide me which Version of OS X will better for this configuration & where can I get that all stuff I needed?? I have to install Final Cut Pro on Mac .... I'm an Editing Student & yet I dont have money to buy a ""MAC PRO"", So I really need it .... Please help me ... Thanks in advance ... Please reply ...... Thanks again ...
+
+Second Choice is that if I should have to change my configuration then what configuration should I buy.. plzz help me out ..... "
+,sarablubana,2010-10-10T02:56Z,"I downloaded your this torrent ""SNOWLEO MAC Snow Leopard OSX86_64 For INTEL/AMD 32/64 MBR/GUID"" & also Downloaded Leohazard's torrent ""Snow_Leopard_Client_Server_10.6.2_SSE2_SSE3_Intel_AMD_by_Hazard"" ... Now plzz guide me That which is better for my above configuration PC & how to install it.. like which drivers should I have to choose for sound & VGA & Lan?? 
+& 1 question More that can we install Snowleo on Intel Core 2 duo with Original Intel G43 Motherboard??"
+,narnaz,2010-12-31T11:36Z,"Thank you snowleo, I've tried about 5 other distros and so far this is the only one that has worked for my AMD config.
+
+MotherBoard: Asus M4A88T-M
+CPU: AMD Phenom ii x 4
+GPU: Ati Redeon HD 4250, onBoard (Max REz, 1400x1050)
+LAN: RTL8111e (Not working as yet)
+
+BIOS: COOL & QUIET - Disabled
+
+bootFlags: -v cpus=1 busratio=15 arch=i386 (Mhz/200 = busratio)
+
+I'm not quite there yet but well on the way to having fully fuctional MacOS, Thanks again for this"
+,narnaz,2010-12-31T11:39Z,"Thank you snowleo, Ive tried about 5 other distros and so far this is the only one that has worked for my AMD config.
+
+MotherBoard: Asus M4A88T-M
+CPU: AMD Phenom ii x 4
+GPU: Ati Redeon HD 4250, onBoard (Max REz, 1400x1050)
+LAN: RTL8111e (Not working as yet)
+
+BIOS: COOL & QUIET - Disabled
+
+bootFlags: -v cpus=1 busratio=15 arch=i386 (Mhz/200 = busratio)
+
+Im not quite there yet but well on the way to having fully fuctional MacOS, Thanks again for this"
+,sosjanika,2011-01-11T02:53Z,"Hi Snowleo,i need the proper install setting for my config, please help!
+Mboard: A780GM-LE/128M ,AMD 780G + SB710 Chipsets
+
+CPU: AMD Athlon II X2
+VGA: ATI Radeon HD5450
+here is the MBoard link...for details
+http://www.asrock.com/mb/overview.asp?Model=A780GM-LE/128M
+Thx in advance!"
+,PCgENIUS,2011-01-23T01:48Z,"Hey everything went great until I began installing it. It said their was no hardrive. I tried disk utilities but it didn't give me many option.If you guys know my problem ,help willl be greatly appreciated.
+
+http://img202.imageshack.us/img202/3230/img2212t.jpg
+
+http://sphotos.ak.fbcdn.net/hphotos-ak-ash1/hs774.ash1/166466_10150381855985314_708420313_16781352_609304_n.jpg"
+,imh2o,2011-01-30T11:59Z,@PCgENIUS You need an empty partition to install it.
+,hard92,2011-02-08T06:38Z,"hey snow leo please help me out.
+I installed mac on my pc
+Intel core2duo 1.8ghz
+2Gb DDR2
+Gigabyte  945GCM
+Nvidia 7300..
+but it gets stuck up on verifying DMI POOL data...
+here is a link to screenshot..
+https://picasaweb.google.com/hardik.m92/Randoms#5571188696962393538
+plz help me out soon.."
+,Anonym099,2011-02-17T23:38Z,How do I install this?
+,chirag_game,2011-03-05T16:19Z,"Hey! please help me.....
+I burned the image and verified it.
+Now I boot from the dvd and the pc restarts after 4 lines of ""loading HFS+ file"".
+
+Here's the screenshot after which my laptop restarts:
+http://img853.imageshack.us/i/img0002a.jpg/"
+,Rockleon,2011-03-20T12:56Z,"Snow Leo can you help me out if I can install this or not.My Notebook config
+
+Model  -  Acer Aspire 4720
+
+Bios  -   Z01 v1.3711 3G11
+
+Intel Core 2 Duo T5450(supports SSE2,3 and later)
+
+Ram   -    2.5 GB
+
+Graphics   - Intel GM 965 Express Chipset Family
+
+
+I never installed mac and I wanted to know if it is possible on my machine or not. Also are there any commands that I should use during installation..
+
+Please reply. Thanks in advance"
+,blued00r,2011-03-21T03:39Z,Thanks this is the only distro that worked for me!!
+,Rockleon,2011-03-23T07:38Z,"Hello there anybody..
+
+I have installed leopard and it runs 
+but it takes a long time to start from boot like atleast 10 minutes
+
+
+also i can hear any sounds my soundcard is realtek ac 97 series
+
+any body any suggestions ???"
+,Rockleon,2011-03-24T04:51Z,"i am getting a grey screen box that says ""hold the power button to switch off and then restart""
+
+It is coming in four languages 
+
+ Anyone any ideas where i went wrong ??"
+,tlyn,2011-04-09T19:12Z,"Snow leo can u Help me with this configuration
+
+Dell Studio 1555
+C2D T660
+Ati Radeon HD4570
+Intel WiFi Link 5100"
+,calvonicreaction,2011-04-19T20:43Z,"So Ive intalled it through, and gotten to the chamellion blue screen and typed in the command -v -f, it loads all the files but it says that it doesnt yet have a mac os version, and then it says how many nanoseconds the up time is of the computer. Does anyone know what im missing? Im running a amd v-120 but its installed but hasnt really recognized it completely yet or something. 
+
+Thanks"
+,mtb_kng,2011-04-21T12:32Z,"I've done a guide here to show you how to install on a 785g chipset based computer. AMD in otherwords.
+
+http://www.insanelymac.com/forum/index.php?showtopic=236495"
+,yzklobits,2011-05-17T13:29Z,"snow leo please help!
+my spec:
+-J&W A785GM-D3 motherboard
+-Proc AMD Athlon X2 215 2.7 Ghz
+-VGA ATI HD 4200 Onboard
+-RAM 2GB DDR3
+
+can i install your distro? please config n step by step instruction how to install and what should i do before install your distro?
+
+sorry my bad english,i'm indonesian THX a lot.."
+,IIXVII,2011-05-26T22:20Z,"Anyone help me with my problem , I keep getting the same message ""still waiting for root device "" Specs , Amd Athlon quad core 
+           asrock ucc mobo 
+           radeon 5450 hd 
+           8gig ddr3 
+been trying for 6 days solid and still nothing =("
+,der259007,2011-05-28T19:43Z,"Error after install
+
+https://picasaweb.google.com/deepramsha/May282011?authkey=Gv1sRgCPGHwoSxwKrI7QE#5611822663042587234
+
+https://picasaweb.google.com/deepramsha/May282011?authkey=Gv1sRgCPGHwoSxwKrI7QE#5611822666289411314
+
+https://picasaweb.google.com/deepramsha/May282011?authkey=Gv1sRgCPGHwoSxwKrI7QE#5611822670365352706"
+,fakenstein666,2011-06-30T01:37Z,"Will it work in Virtual box?
+I have:
+ -1GB RAM
+ -intel celerone1500
+   dual core procesor 2,2GHz"
+,appleg,2011-07-01T21:36Z,"Can this be updated to 10.6.8 safely?
+
+Thanks"
+,CHAV25,2011-07-15T20:52Z,"Please someone help I've trying to load the OS on a D945GCLF2 I've googled it for two days forums etc and I still cant get it working.It always says install failed.
+On the options page what patches etc do I tick to get it working."
+,CHAV25,2011-07-16T15:53Z,Please can anyone give pointers on installing on a D945GCLF2 motherboard I tired so many different torrents with no success and I'm tearing my hair out
+,Flanker-B,2011-07-22T13:03Z,"will this work on my config and can you e-mail me (jurisicdavorin@yahoo.co.uk) a bit more detailed instructions? This will be the first time I'm trying to instal snow leopard onto a pc.
+My cofig:
+MB: Asrock P55 Pro/USB3
+CPU: Intel i5 760
+DVD-burner: TSST SH-S222A (SATA)
+BluRay burner: LG BH10LS30
+Graph: Gigabyte GTX460 1GB
+RAM: 2x2GB DDR3 MUSHKIN BLACKLINE STILLETO PC-10666
+HDD: BOOT - Samsung Spinpoint F3 1TB
+         SECOND - WD Caviar Green 640MB
+         THIRD - Samsung Spinpoint F4 2TB
+MONITOR: Samsung SyncMaster T220 (1680x1050)
+OTHER: AverMedia TV Card (PCIExpress 1x)"
+,Sweevo1955,2011-08-14T13:00Z,"For all the guys having problems with this google tonymacx86
+lots of stuff how to get a Hackingtosh to work"
+,G-skill,2011-09-04T17:35Z,"Can it work on my system :
+ASUS Crosshair IV Formula 
+Phenom x6 1100t
+RAM G-skill 2x4 
+XFX 9600gt 
+ned help thx"
+,edwinneed,2011-10-14T05:44Z,"TO snowLEO:
+
+Thanks mate for Sharing this DMG, i was able to install it to my Asus k43sj core i3, that i have been troubling with for about a month now... with o86mod, rather iboot. 
+i want to ask what version is this....
+"
+,nakedmind,2011-10-18T13:11Z,is it is work in 64 bit os  AMD Phenom 4x processor  .. i need the 64 bit version to work in AMD Phenom 4X 
+,VivaLaGaga,2011-12-23T05:51Z,"Hey I am having a major problem here...
+
+I downloaded this and burned the ISO using PowerISO
+
+I then booted my Windows 7 PC from the DVD Drive with the Mac OSx86 DVD inside
+
+I managed to partition the drive and wipe it completely but when it comes to the installation, it says ""verifying your installation cd"" and then it says ""There was a problem with your installation CD, please clean the disc and try again""
+
+I have lost all my windows files and cannot boot my windows 7 recovery cd. PLEASE HELP!
+
+There are no scratches on the disc and there surely could not be any problems with it, but no matter what I do, it seems like the mac os is not installing.
+
+I have an eMachines e520 with Intel Celeron Processor with 4GB RAM and 500GB Hard Drive SATA."
+,VivaLaGaga,2011-12-23T06:05Z,"Hey I am having a major problem here...
+
+I downloaded this and burned the ISO using PowerISO
+
+I then booted my Windows 7 PC from the DVD Drive with the Mac OSx86 DVD inside
+
+I managed to partition the drive and wipe it completely but when it comes to the installation, it says ""verifying your installation cd"" and then it says ""There was a problem with your installation CD, please clean the disc and try again""
+
+I have lost all my windows files and cannot boot my windows 7 recovery cd. PLEASE HELP!
+
+There are no scratches on the disc and there surely could not be any problems with it, but no matter what I do, it seems like it just fails"
+,svetliopenov,2012-03-29T09:20Z,"Can some one tell me.untill now i was with Windows and my LAN card driver was  jMicron Ethernet Adapter NDIS Drive ok.
+With snow leo i can't start ethernet option no internet for me so please help me what to do? "

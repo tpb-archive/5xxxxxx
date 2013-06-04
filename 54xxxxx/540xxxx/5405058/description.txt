@@ -1,0 +1,214 @@
+Exact Audio Copy V0.99 prebeta 4 from 23. January 2008
+
+EAC extraction logfile from 20. May 2009, 16:30
+
+Sascha Funke / Watergate 02
+
+Used drive  : PLEXTOR CD-R   PX-W5224A   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 30
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Installed external ASPI interface
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 32 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:Program FilesFLACflac.exe
+Additional command line options : -8 -V -T "ARTIST=%a" -T "TITLE=%t" -T "ALBUM=%g" -T "DATE=%y" -T "TRACKNUMBER=%n" -T "GENRE=%m" -T "COMMENT=EAC FLAC -8" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  5:22.46 |         0    |    24195   
+        2  |  5:22.46 |  3:04.38 |     24196    |    38033   
+        3  |  8:27.09 |  5:22.51 |     38034    |    62234   
+        4  | 13:49.60 |  4:44.28 |     62235    |    83562   
+        5  | 18:34.13 |  3:35.06 |     83563    |    99693   
+        6  | 22:09.19 |  4:35.36 |     99694    |   120354   
+        7  | 26:44.55 |  5:17.57 |    120355    |   144186   
+        8  | 32:02.37 |  4:02.34 |    144187    |   162370   
+        9  | 36:04.71 |  5:10.74 |    162371    |   185694   
+       10  | 41:15.70 |  6:55.20 |    185695    |   216839   
+       11  | 48:11.15 |  7:28.16 |    216840    |   250455   
+       12  | 55:39.31 |  4:53.07 |    250456    |   272437   
+       13  | 60:32.38 |  6:08.04 |    272438    |   300041   
+       14  | 66:40.42 |  5:27.64 |    300042    |   324630   
+
+
+Track  1
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 02 1 - Nathan Fake - You Are Here (Four Tet Remix).wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 97.1 %
+     Track quality 100.0 %
+     Test CRC 7FA27607
+     Copy CRC 7FA27607
+     Accurately ripped (confidence 2)  [B92724D8]
+     Copy OK
+
+Track  2
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 02 2 - Ellen Allien - Alles Sehen (Miss Kittin Remix).wav
+
+     Peak level 97.2 %
+     Track quality 100.0 %
+     Test CRC F57E8543
+     Copy CRC F57E8543
+     Accurately ripped (confidence 2)  [CC62EE4E]
+     Copy OK
+
+Track  3
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 02 3 - Maus & Stolle - Taxi.wav
+
+     Peak level 97.3 %
+     Track quality 100.0 %
+     Test CRC 02BEC72A
+     Copy CRC 02BEC72A
+     Accurately ripped (confidence 2)  [BDD61014]
+     Copy OK
+
+Track  4
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 02 4 - Zander VT - Get Down.wav
+
+     Peak level 96.6 %
+     Track quality 100.0 %
+     Test CRC 54358B02
+     Copy CRC 54358B02
+     Accurately ripped (confidence 2)  [93FBD991]
+     Copy OK
+
+Track  5
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 02 5 - Minilogue & Kab - That's A Nice Way To Give Me Feedback (Wighnomy Brothers Quintenzirkel Remikks).wav
+
+     Peak level 97.2 %
+     Track quality 100.0 %
+     Test CRC 6115EB4E
+     Copy CRC 6115EB4E
+     Accurately ripped (confidence 2)  [DA06DD98]
+     Copy OK
+
+Track  6
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 02 6 - Dave Aju - Crazy Place.wav
+
+     Peak level 97.4 %
+     Track quality 100.0 %
+     Test CRC C9AFE459
+     Copy CRC C9AFE459
+     Accurately ripped (confidence 2)  [7D17D77C]
+     Copy OK
+
+Track  7
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 02 7 - Sten - More Stash.wav
+
+     Peak level 97.4 %
+     Track quality 99.9 %
+     Test CRC 2B56584E
+     Copy CRC 2B56584E
+     Accurately ripped (confidence 2)  [F3C706F1]
+     Copy OK
+
+Track  8
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 02 8 - Modal - Boy Girl Boy Girl.wav
+
+     Peak level 97.4 %
+     Track quality 100.0 %
+     Test CRC 3F4BD405
+     Copy CRC 3F4BD405
+     Accurately ripped (confidence 2)  [9CCD8FDC]
+     Copy OK
+
+Track  9
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 02 9 - The Mole - Smiling And Running.wav
+
+     Peak level 97.3 %
+     Track quality 100.0 %
+     Test CRC FF37E7B7
+     Copy CRC FF37E7B7
+     Accurately ripped (confidence 2)  [9F4DAB6D]
+     Copy OK
+
+Track 10
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 0210 - Sascha Funke - Mango (Tobias Thomas & Superpitcher's Como Mango Version).wav
+
+     Peak level 97.4 %
+     Track quality 100.0 %
+     Test CRC 3959F7A0
+     Copy CRC 3959F7A0
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 11
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 0211 - DJ Koze - I Want To Sleep.wav
+
+     Peak level 96.2 %
+     Track quality 100.0 %
+     Test CRC 6447B257
+     Copy CRC 6447B257
+     Accurately ripped (confidence 2)  [9A2F1F62]
+     Copy OK
+
+Track 12
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 0212 - Closer Musik - Giganten.wav
+
+     Peak level 97.3 %
+     Track quality 100.0 %
+     Test CRC 131A8FB4
+     Copy CRC 131A8FB4
+     Accurately ripped (confidence 2)  [91A2710B]
+     Copy OK
+
+Track 13
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 0213 -  Patrice Scott - Visions Of Mantada.wav
+
+     Peak level 97.3 %
+     Track quality 100.0 %
+     Test CRC C5F59FC8
+     Copy CRC C5F59FC8
+     Accurately ripped (confidence 2)  [0D2073E0]
+     Copy OK
+
+Track 14
+
+     Filename C:My TorrentsVarious Artists - Sascha Funke - Watergate 0214 - Milch - Housefrau (Acid Jesus' Pure Sex Remix).wav
+
+     Peak level 97.3 %
+     Track quality 100.0 %
+     Test CRC B2594783
+     Copy CRC B2594783
+     Accurately ripped (confidence 2)  [F8C0EE54]
+     Copy OK
+
+
+13 track(s) accurately ripped
+ 1 track(s) not present in the AccurateRip database
+
+Some tracks could not be verified as accurate
+
+No errors occurred
+
+End of status report

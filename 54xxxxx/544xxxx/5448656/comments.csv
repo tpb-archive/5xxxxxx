@@ -1,0 +1,100 @@
+User Type,Username,Date,Text
+,Desmo4,2010-03-20T19:26Z,"Khaled777, how do I add these maps to the Europe version you so kindly uploaded? Just copy/paste the maps only to the maps on the phone?
+
+Thx for the help"
+,khaled777,2010-03-20T19:34Z,"HI Desmo4
+yes copy the new maps to the maps folder, you have to make new mlm just copy the script below to note pad and save as world.mlm
+and copy the mlm in the maps folder
+
+[DEFAULT]
+version=1.2
+majorVersion=7
+freeTmcs=10@1; 4@9; 6@1; 13@1; 1@1; 9@9; 14@17; 5@1; 8@17; 15@49; 14@33; 11@1
+
+[WORLD]
+provider=TA
+mapRelease=2009.03
+detail=full
+7digitPostals=yes
+tmc=yes
+speedcam=yes
+speedCamRelease=2009.03.05
+
+
+[PRODUCT:Europe]
+name=Europe
+AlwaysCheck=yes
+
+[EXTEUR]
+provider=NT
+mapRelease=2009.12
+detail=full
+speedcam=yes
+speedCamRelease=2009.12.24
+7digitPostals=yes
+
+[NAMERICA]
+provider=TA
+mapRelease=2009.03
+detail=full
+tmc=yes
+
+[UVI]
+provider=TA
+mapRelease=2009.03
+detail=full
+tmc=yes"
+,dop33,2010-03-21T11:32Z,"Hi Khaled,
+
+I copied all the maps from USA/Mex/Brasil to the Maps folder of my phone. I made a new world.mlm file like you said below. But Mexico for instance doesnt show up when i try to navigate. Do I have to delete the European.mlm file? Or am I doing something else wrong?
+
+Thanks again,
+
+Dop33"
+,khaled777,2010-03-21T13:15Z,"HI dop33
+
+YES CAN DO THIS OR YOU CAN SWITCH BETWEEN THE WORLD MAPS AND THE EUROPIAN ONE?
+SYGIC/SITTINGS/SWITCHMAP"
+,jojo_dancer,2010-03-22T21:23Z,"@Khaled777, Thanx a ton, works great!  Are these the most recent USA maps? Or are purchasers getting newer maps?  Thanx!"
+,khaled777,2010-03-23T08:00Z,"hi jojo_dancer
+
+this are the last na maps at this momment maybe the next weeks sygic wel come with new maps."
+,jojo_dancer,2010-03-23T17:04Z,"Reason I ask is that on another forum they mentioned this Torrent had old maps, not the maps that came out with the Maemo Sygic release."
+,aayat,2010-03-24T09:17Z,"i downloaded on my computer and transferred to .maps but no results? i made world.mlm file too
+is something i am doing wrong?"
+,CyberCat,2010-04-18T18:02Z,Thank you for this. What exactly is the installation procedure for this? There don't seem to be any instructions anywhere and the process is not immediately self-evident. I copied the files in the directory structure as they are in the RAR archives then ran the .deb file. Installed fine but after lunching the program quits. Where is it the other files go exactly?
+,paulie8711,2010-05-04T18:04Z,"Can anybody tell me if its possible to import these maps into te Sygic Mobile Maps 10?
+
+thanx in advance"
+,shamu007,2010-05-05T15:23Z,"Does anyone have the maps of Brasil, North America and Mexico for Android in the Sygic Mobile Maps 10 version??? I'm urgently looking for the Brasil map. So I hope that any one can help me. Or are these maps also working in Android?"
+,nol77,2010-05-09T00:17Z,"@shamu007
+
+they don't seem to work, we need the american maps for sygic mobile 10! anyone?"
+,BookieM,2010-06-22T16:48Z,"I`ve done everything, but works only with keygen activation from europe maps with north america mlm file"
+,dmts11,2010-12-05T18:36Z,"Hi Khaled
+
+First, thanks a bunch for your torrent.  I got the Europe app + maps + keygen from this torrent:
+
+
+
+http://torrents.thepiratebay.org/5401835/Sygic_Mobile_Maps_10(v.8.06)_Europe_Original_DVD-khaled777.5401835.TPB.torrent
+
+
+And it works great on Nokia s60v5 (x6) after you do the thing with the keygen and the license file.
+
+now I'm trying to add the map for california from this torrent. and failing epically.  Thinggs I have tried:
+
+- copied UCA folder into \maps on the phone
+- pasted the entries from your earlier comment into world.mlm (replaing what was there) - copied new world.mlm to \maps
+- run Sygic
+- switch map to ""World""
+- sygic says each product in turn is not activated.
+- use the keygen from the original europe torrent to generate a new license code, using device ID from ""about Sygic"" and the new MLM file I made
+- entering that licens code when sygic prompts does not work (it says invalid license code)
+- pasting it into the license file in \maps also does not work (when you subsequently start sygic it says each product is not activated)
+
+Help! I fly to California in a week and neeeed satnav!
+
+Thanks again 
+
+dmts"

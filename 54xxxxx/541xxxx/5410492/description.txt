@@ -1,0 +1,29 @@
+This is the hard-to-find Neverwinter Nights Mac Tech Demo. It is no longer available on the original site, and the current host makes you jump through hoops to download it (read: heavy javascript).
+
+Also included are the _instructions_ for installing a full version and expansion packs. This will require having the files from the original PC version and expansion packs (either individually or combined in the gold/platinum/diamond versions).
+
+Elsewhere on TPB you can download the full mac osx client disks, however this is not necessary if you have valid CD-keys and the PC version.
+
+===== Overview =====
+A mac compatible version of NWN can be installed from the PC disks + expansion packs of the game. The basic idea was laid out by jamincollins on the nun.bioware.com forums:
+http://nwn.bioware.com/forums/viewtopic.html?topic=406447&forum=71&sp=0
+
+The premise is that between either the MacTech Demo or the original Mac Client disks a full working install can be achieved. 
+
+===== High Level Instructions =====
+To build a working install, the idea is that you either install or extract the MacTechDemo or Mac Client Disks. Then you (optionally) extract the content from the NWN Expansion CD/DVDs. Next you expand the most recent patch for your combination of expansion packs (NWN, SoU and/or HotU).
+http://nwn.bioware.com/support/patch.html
+
+Copy the files from the expansion DVD over the Mac install folder. Don't use the mac drag & drop as that will replace folder contents. You'll have to drop to the console to copy the files.
+
+Follow the expansion pack instructions for deleting the overrides folder and the other bits.
+
+Copy the files from the expansion pack over the Mac install folder. Again you can't drag and drop, do it from the command line.
+
+That's it, you're done. You should now be able to run NWN on your mac. 
+
+Clean up: You can remove a lot of the PC specific files from the folder (.exe, .dll and such) but it isn't necessary.
+
+
+==== Questions? ====
+I will continue to monitor and seed this torrent as long as it has value to people. There is also a fully installed Mac NWN install elsewhere on TPB. Once I found that I wasn't expecting to see any downloaders. If anyone has any questions feel free to ask in the comments area (english and un petit peu de francais only).

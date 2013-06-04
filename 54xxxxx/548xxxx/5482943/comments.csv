@@ -1,0 +1,105 @@
+User Type,Username,Date,Text
+,Tilatus,2010-04-06T10:21Z,"First torrent uploaded is a keygen that ""might"" show as a virus on your scanner? It just spells trust, doesn't it? "
+,Gabi12345,2010-04-06T10:39Z,"File fff-ea209.exe received on 2010.04.06 08:28:10 (UTC)
+Current status: Loading ... queued waiting scanning finished NOT FOUND STOPPED
+Result: 4/39 (10.26%)
+Antivirus  	Version  	Last Update  	Result
+a-squared	4.5.0.50	2010.04.06	-
+AhnLab-V3	5.0.0.2	2010.04.05	-
+AntiVir	7.10.6.26	2010.04.06	-
+Antiy-AVL	2.0.3.7	2010.04.06	-
+Authentium	5.2.0.5	2010.04.06	-
+Avast	4.8.1351.0	2010.04.05	-
+Avast5	5.0.332.0	2010.04.05	-
+AVG	9.0.0.787	2010.04.05	-
+BitDefender	7.2	2010.04.06	-
+CAT-QuickHeal	10.00	2010.04.06	(Suspicious) - DNAScan
+ClamAV	0.96.0.3-git	2010.04.06	-
+Comodo	4514	2010.04.06	-
+DrWeb	5.0.2.03300	2010.04.06	-
+eSafe	7.0.17.0	2010.04.01	Suspicious File
+eTrust-Vet	35.2.7410	2010.04.06	-
+F-Prot	4.5.1.85	2010.04.05	-
+F-Secure	9.0.15370.0	2010.04.06	-
+Fortinet	4.0.14.0	2010.04.04	-
+GData	19	2010.04.06	-
+Ikarus	T3.1.1.80.0	2010.04.06	-
+Jiangmin	13.0.900	2010.04.06	-
+Kaspersky	7.0.0.125	2010.04.06	-
+McAfee-GW-Edition	6.8.5	2010.04.05	Heuristic.LooksLike.Win32.Suspicious.C
+Microsoft	1.5605	2010.04.06	-
+NOD32	5002	2010.04.05	-
+Norman	6.04.10	2010.04.05	-
+nProtect	2009.1.8.0	2010.04.06	-
+Panda	10.0.2.2	2010.04.05	-
+PCTools	7.0.3.5	2010.04.06	-
+Prevx	3.0	2010.04.06	-
+Rising	22.42.01.04	2010.04.06	-
+Sophos	4.52.0	2010.04.06	-
+Sunbelt	6142	2010.04.06	-
+Symantec	20091.2.0.41	2010.04.06	Suspicious.Insight
+TheHacker	6.5.2.0.256	2010.04.06	-
+TrendMicro	9.120.0.1004	2010.04.06	-
+VBA32	3.12.12.4	2010.04.05	-
+ViRobot	2010.4.6.2262	2010.04.06	-
+VirusBuster	5.0.27.0	2010.04.05	-
+Additional information
+File size: 207872 bytes
+MD5...: cd0d6564ec0495b83022350434f56bd2
+SHA1..: 4af45f20ab486a2060a1765f463dbee4ba7b1f55
+SHA256: e390721bf5d1c9a9e0b4ac424058a243336a935334204cd8a8d87d8ac52edf4f
+ssdeep: 3072:871XImL4NOzj3IXeMim5w0fO9NHI9QESd5An0h2U+n+3Gyr8Bub4XabvmtE
+3T5Lz:6ImkNOz7IvJ5zOPHzV+Nyr8MPvmSjM
+PEiD..: -
+PEInfo: PE Structure information
+
+( base data )
+entrypointaddress.: 0x1000
+timedatestamp.....: 0x4ba13ed7 (Wed Mar 17 20:43:03 2010)
+machinetype.......: 0x14c (I386)
+
+( 2 sections )
+name viradd virsiz rawdsiz ntrpy md5
+.rdata 0x1000 0x9d000 0x2fc00 8.00 ef5d4a4b2be6e859e454febc0ddef5a7
+.rsrc 0x9e000 0x3000 0x2c00 5.73 3c222b912e9bdbb57637f6dce5c7a2bb
+
+( 11 imports )
+> kernel32.dll: LoadLibraryA, GetProcAddress, VirtualAlloc, VirtualFree
+> COMCTL32.dll: InitCommonControlsEx
+> SHLWAPI.dll: StrRChrA
+> VERSION.dll: VerQueryValueW
+> MSIMG32.dll: AlphaBlend
+> USER32.dll: EqualRect
+> GDI32.dll: GetTextExtentPoint32W
+> ADVAPI32.dll: RegCreateKeyExW
+> SHELL32.dll: Shell_NotifyIconW
+> WINMM.dll: waveOutUnprepareHeader
+> OLEAUT32.dll: -
+
+( 0 exports )
+RDS...: NSRL Reference Data Set
+-
+pdfid.: -
+sigcheck:
+publisher....: Fighting For Fun
+copyright....: Copyright (c) 2003-2010 Fighting For Fun
+product......: EA Games Generic Multi Keygen
+description..: 209 Keygens for EA Games
+original name: fff-ea209.exe
+internal name: fff-ea209.exe
+file version.: 2, 7, 0, 209
+comments.....: n/a
+signers......: -
+signing date.: -
+verified.....: Unsigned
+trid..: Win32 EXE PECompact compressed (v2.x) (48.9%)
+Win32 EXE PECompact compressed (generic) (34.4%)
+Win32 Executable Generic (7.0%)
+Win32 Dynamic Link Library (generic) (6.2%)
+Generic Win/DOS Executable (1.6%)
+packers (Kaspersky): PE_Patch.PECompact, PecBundle
+packers (F-Prot): PecBundle, PECompact
+
+ATENTION ATTENTION: VirusTotal is a free service offered by Hispasec Sistemas. There are no guarantees about the availability and continuity of this service. Although the detection rate afforded by the use of multiple antivirus engines is far superior to that offered by just one product, these results DO NOT guarantee the harmlessness of a file. Currently, there is not any solution that offers a 100% effectiveness rate for detecting viruses and malware. "
+,FcukReality,2010-04-06T22:16Z,So... Does these keys work for battlefield bc 2? And will you be able to play online?
+,FcukReality,2010-04-06T22:18Z,"Oh wait my bad, didn't read the descritption properly"

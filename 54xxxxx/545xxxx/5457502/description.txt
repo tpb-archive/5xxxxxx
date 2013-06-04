@@ -1,0 +1,67 @@
++++++++++++++++++++++++++++++++++ Only rus audio +++++++++++++++++++++++++++++++++
+
+9 (2009)
+When 9 first comes to life, he finds himself in a post-apocalyptic world where all humans are gone, and it is only by chance that he discovers a small community of others like him taking refuge from fearsome machines that roam the earth intent on their extinction. Despite being the neophyte of the group, 9 convinces the others that hiding will do them no good. They must take the offensive if they are to survive, and they must discover why the machines want to destroy them in the first place. As they'll soon come to learn, the very future of civilization may depend on them
+
+
+
+General
+Complete name                    : Nine
+Format                           : Matroska
+File size                        : 3.66 GiB
+Duration                         : 1h 19mn
+Overall bit rate                 : 6 612 Kbps
+Encoded date                     : UTC 2009-11-08 14:48:54
+Writing application              : mkvmerge v2.0.2 ('You're My Flame') built on Feb 21 2007 23:40:55
+Writing library                  : libebml v0.7.7 + libmatroska v0.8.1
+
+Video
+ID                               : 1
+Format                           : AVC
+Format/Info                      : Advanced Video Codec
+Format profile                   : High@L4.1
+Format settings, CABAC           : Yes
+Format settings, ReFrames        : 3 frames
+Muxing mode                      : Container profile=Unknown@4.1
+Codec ID                         : V_MPEG4/ISO/AVC
+Duration                         : 1h 19mn
+Bit rate                         : 5 648 Kbps
+Width                            : 1 920 pixels
+Height                           : 1 080 pixels
+Display aspect ratio             : 16:9
+Frame rate                       : 23.976 fps
+Resolution                       : 8 bits
+Colorimetry                      : 4:2:0
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.114
+Stream size                      : 3.12 GiB (85%)
+Writing library                  : x264 core 65 r999kMod cc51047
+Encoding settings                : cabac=1 / ref=3 / deblock=1:-2:-1 / analyse=0x3:0x133 / me=umh / subme=7 / psy_rd=1.0:0.0 / mixed_ref=1 / me_range=16 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / chroma_qp_offset=-2 / threads=4 / thread_queue=4 / nr=0 / decimate=0 / mbaff=0 / bframes=3 / b_pyramid=1 / b_adapt=1 / b_bias=0 / direct=1 / wpredb=1 / keyint=250 / keyint_min=25 / scenecut=40(pre) / rc=crf / crf=21.0000 / qcomp=0.60 / qpmin=10 / qpmax=51 / qpstep=4 / ip_ratio=1.40 / pb_ratio=1.30 / aq=1:1.00
+
+Audio #1
+ID                               : 2
+Format                           : AC-3
+Format/Info                      : Audio Coding 3
+Codec ID                         : A_AC3
+Duration                         : 1h 19mn
+Bit rate mode                    : Constant
+Bit rate                         : 448 Kbps
+Channel(s)                       : 6 channels
+Channel positions                : Front: L C R, Surround: L R, LFE
+Sampling rate                    : 48.0 KHz
+Stream size                      : 254 MiB (7%)
+Title                            : Dublyazh
+
+Audio #2
+ID                               : 3
+Format                           : AC-3
+Format/Info                      : Audio Coding 3
+Codec ID                         : A_AC3
+Duration                         : 1h 19mn
+Bit rate mode                    : Constant
+Bit rate                         : 384 Kbps
+Channel(s)                       : 6 channels
+Channel positions                : Front: L C R, Surround: L R, LFE
+Sampling rate                    : 48.0 KHz
+Stream size                      : 218 MiB (6%)
+Title                            : Goblin

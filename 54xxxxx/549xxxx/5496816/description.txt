@@ -1,0 +1,93 @@
+	Homepage: http://my-mp4box-gui.zymichost.com
+
+What is My MP4Box GUI?
+
+My MP4Box GUI is a Graphical User Interface for the well-known command line tool mp4box. My MP4Box GUI, like mp4box, is freeware. Meaning that it is complete and functional software that does not require payment or other compensation (such as nags or advertising) for its use.
+
+MP4Box is an MP4 muxer. It can import MPEG-4 video (H.264 or ASP, encoded for example with x264, DivX, Xvid, 3ivx or FFmpeg) and audio streams into the MP4 container. The end result is ISO compliant MP4 streams. It can also produce MPEG-4 Timed Text streams by importing subtitles formats such as srt. It can also split MP4 files into sections, which can be useful when transferring files to portable media players. MP4Box is part of the GPAC Project framework. It provides only a command line interface, and, for legal reasons, the author only distributes its source code.
+
+Why My MP4Box GUI?
+
+My MP4Box GUI makes using mp4box much easier to use. Instead of having to type out all the commands that you want mp4box to do, My MP4Box GUI does all this for you. You only have to click a few buttons to get the job done, not type a paragraph, to get the job done.
+
+
+
+
+
+List of features:
+
+   *  Create mp4 files containing:
+     - video streams with m4v, cmp, h264, 264, h263, 263 as input format or from avi, mpg, mpeg, vob, mp4, mov, ogg, qcp and 3gp format.
+     - audio streams with aac, ac3, amr, awb, evc, mp3 as input format or from avi, mpg, mpeg, vob (mp2 only), mp4 and 3gp format.
+     - subtitle streams with srt, idx/sub and ttxt format.
+   * Add up to 20 tracks to an mp4 file.
+   * Delay every audio and/or video track separately.
+   * Change the framerate of added video.
+   * Save a list of jobs to be completed at a later date.
+   * Join supported files(mp4, 3gp) end-to-end aka concatenate joining.
+   * Demux supported files(mp4, avi, mov, ts, idx/sub, srt) to their raw formats.
+   * Hint tracks to ready for streaming.
+   * Split files by size or duration. eg. 700mb CDs or 60min
+   * Support for most MP4Box advanced options
+   * Ability to set priority of mp4box
+   * Logging of mp4box output and GUI input
+
+Changelog
+
+0.5.2.1 - 2010/04/12
+
+   * -added ability to change priority
+   * -added many mp4box advanced options
+   * -enhanced logging
+   * -added workaround for mp4box IDX/SUB periods bug
+   * -enhanced UI and error handling
+   * -added progress bars
+   * -updated to version 0.7.30.0 of Mediainfo.dll
+   * -resolved many bugs
+
+0.4.9.1 - 2009/12/16
+
+   * -added spliting support(duration/size)
+   * -added hinting track support
+   * -added demuxing of subtitles support
+   * -enhanced user interface
+   * --save/revert settings
+   * --check for updates
+
+0.4.5.0 - 2009/11/08
+
+   * -updated to version 0.7.24.0 of Mediainfo.dll
+   * -added demuxing support(w/o queueing)
+   * -added concatenate joining support(w/ queueing)
+
+0.3.0.1 - 2009/11/02
+
+   * -fixed bug preventing idx/sub streams from muxing
+
+0.3.0.0 - 2009/11/02
+
+   * -enhanced user interface
+   * -added support for srt, idx/sub and ttxt subtitle streams
+   * -enabled queueing support (no pause yet)
+
+0.1.2.2 - 2009/10/27
+
+   * -fixed a few bugs
+   * -added/cleaned a few things
+   * -made mp4box.exe window hidden upon execution
+
+0.1.0.0 - 2009/10/25
+
+   * -Initial release
+
+
+Installation:
+
+1. extract
+2. run installer
+
+***************************
+***************************
+********Please Seed********
+***************************
+***************************

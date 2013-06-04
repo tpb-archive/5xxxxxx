@@ -1,0 +1,102 @@
+README.txt:
+
+Math Overflow - Data Dump: March 2010
+ - Files:
+   - badges.xml
+       - UserId, e.g.: "123"
+       - Name, e.g.: "Teacher"
+       - Date, e.g.: "2010-03-01T08:55:03.923"
+   - comments.xml
+       - Id
+       - PostId
+       - Score
+       - Text, e.g.: "@Joe User: Thanks Joe"
+       - CreationDate, e.g.:"2010-02-01T08:07:10.730"
+       - UserId
+   - posts.xml
+       - Id
+       - PostTypeId (Question = 1, Answer = 2)
+       - ParentId (only present if PostTypeId is 2)
+       - AcceptedAnswerId (only present if PostTypeId is 1)
+       - CreationDate
+       - Score
+       - ViewCount
+       - Body
+       - OwnerUserId
+       - LastEditorUserId
+       - LastEditorDisplayName="Joe User"
+       - LastEditDate="2010-03-01T22:28:34.823"
+       - LastActivityDate="2010-03-01T12:51:01.480"
+       - CommunityOwnedDate="2009-03-11T12:51:01.480" 
+       - ClosedDate="2009-03-01T12:51:01.480"
+       - Title
+       - Tags
+       - AnswerCount
+       - CommentCount
+       - FavoriteCount
+   - users.xml
+       - Id
+       - Reputation
+       - CreationDate
+       - DisplayName
+       - LastAccessDate
+       - WebsiteUrl
+       - Location
+       - Age
+       - AboutMe
+       - Views
+       - UpVotes
+       - DownVotes
+   - votes.xml 
+       - Id
+       - PostId
+       - VoteTypeId
+          -  1: AcceptedByOriginator
+          -  2: UpMod
+          -  3: DownMod
+          -  4: Offensive
+          -  5: Favorite (UserId will be included)
+          -  6: Close
+          -  7: Reopen
+          -  8: BountyStart
+          -  9: BountyClose (BountyAwarded will be included)
+          - 10: Deletion
+          - 11: Undeletion
+          - 12: Spam
+          - 13: InformModerator
+       - CreationDate
+       - UserId (only for VoteTypeId 5)
+       - BountyAwarded (only for VoteTypeId 9)
+
+-----------------------------------------------------------------
+license.txt:
+
+All the content contributed to Math Overflow is cc-wiki licensed, intended to be shared and remixed. We even provide all our data as a convenient data dump.
+ 
+http://creativecommons.org/licenses/by-sa/3.0/
+
+But our cc-wiki licensing, while intentionally permissive, does require attribution:
+
+# Copying
+
+If you republish this content, we require that you:
+
+   1. Indicate that the content is from Math Overflow in some way. It doesnâ€™t have to be obnoxious; a discreet text blurb is fine.
+   2. Link to the original question on Math Overflow (e.g., http://mathoverflow.net/questions/12345).
+   3. Show the author names for every question and answer.
+   4. Link each author name back to their user profile page (e.g., http://mathoverflow.net/users/12345/username).
+
+You can â€œnofollowâ€ the links if you like.
+
+# Citing
+
+You are not legally obligated to cite where you learned things, but good citations are academically honest and they help your readers by making it easy to track things down. The recommended citation format for Math Overflow posts as follows. Suppose you're citing post number 1234 (which could be a question or an answer), whose author is John Doe.
+
+[12] Doe, John. Title of the question. mathoverflow.net/questions/1234 (2010)
+
+The important thing is to include a link to the relevant post. Math Overflow makes this easy to do in a couple of ways:
+
+- Even though the full URL of the question is
+      http://mathoverflow.net/questions/1234/title-of-the-question
+  everything after the question number can be safely omitted. It's just there to make it easier for search engines to understand what the page is about.
+- Even if post number 1234 is an answer rather than a question, the given URL will point to the right place. If you prefer, you can also link to the anchor with the URL http://mathoverflow.net/questions/123#1234. Here, I've assumed that post number 1234 is an answer to question number 123.

@@ -1,0 +1,92 @@
+User Type,Username,Date,Text
+,gkarma,2010-04-12T22:50Z,"whatÂ´s the point of install 10.6.2 in a virtual machine  in a Mac that already run this OS ?
+
+this is just a question ..... is not my intention to offend you ....   "
+[T],frankie-boy,2010-04-13T00:08Z,There are many uses for this... your Google not working?
+,hobbypunk,2010-04-13T10:37Z,"Okay, the password is ""xsellize"". The password when using the mac is ""hobbypunk"". To boot, either load the snapshot or point the virtual Cd drive to the provided iso."
+,BuzzMe,2010-04-17T07:05Z,"I currently have the download from torrent 5310760 (Fully_Functional_mac_OS_X_10.6.2_vmware_image_(intel)) running.  The only problem I have with it is the disk size is set kind of small, at 20GB.  Is this torrent any better than the one I have?"
+,hobbypunk,2010-04-18T03:09Z,The disk size here is 20 gigs as well. Why don't you simply create a second harddisc in your virtual mac?
+,BuzzMe,2010-04-19T05:56Z,"I can, and I have.  But programs like to install to /Applications in the root disk, and 20GB is rather stifling for any serious amount of installation. (I have over 200GB installed on the root disk on my G4 PPC system.)  I have tried using SuperDuper to copy from my root disk to the bigger secondary disk, but it doesn't seem to like OS 10.6.  I guess I'll look for other solutions.
+
+The system I'm using this on is a proof of concept.  My goal is to eventually be running on a dual quad-core Xeon system with 12GB of RAM and several TB of disk, with Linux as the main OS and OS X 10.6 running under that, to replace the G4 I'm currently using.  So far, I'm happy, except for the small size of the virtual disk."
+,hobbypunk,2010-04-19T21:44Z,"I haven't used it, but why don't you try ""CCC"": http://www.bombich.com/index.html
+
+btw, please report if it worked ;)
+
+Oh, and I made a mistake: It has a 40 gig harddrive"
+,hobbypunk,2010-04-19T22:33Z,"CCC works fine :) You need to create a new (second) hard drive in VMware, reboot. Format it in Mac OS X, use CCC to create a copy of the old one (there should be something like ""this copy will be bootable"").
+
+Once you copied everything, shut down Mac OS X. Open VM settings, delete the original disk image. Select the image left, go to ""Advanced"", and set the virtual device node to SCSI 0:0. You're done."
+,BuzzMe,2010-04-20T07:13Z,"Ah, I have used CCC like forever before getting hooked up with SuperDuper.  I'll have to try it.  And while I have had extensive experience with vmware, setting the SCSI device node is not something I would have thought of.  Thanks."
+,comefly,2010-04-29T23:43Z,can i use this on windows?
+,PepsiGuy,2010-04-30T03:42Z,"Downloaded this and latest VMWare Player.
+It finished the install and booted into a MAC desktop.
+
+2-3 minutes later, I noticed a 1.2 M/sec connection leaving my machine.
+
+I looked and the connection went to:
+IP address: 205.247.221.128
+No host name is associated with this IP address or no reverse lookup is configured.
+Error:Host not found
+
+205.247.221.128 is from United States(US) in region North America
+
+
+
+
+
+TraceRoute to 205.247.221.128
+
+Hop (ms) (ms) (ms)  IP Address Host name 
+1 14 8 15  72.249.0.65 - 
+2 16 12 6  64.129.174.181 64-129-174-181.static.twtelecom.net 
+3 8 7 10  4.69.145.76 ae-2-70.edge2.dallas3.level3.net 
+4 11 11 10  160.81.236.225 sl-gw41-fw-3-0-0.sprintlink.net 
+5 14 14 12  144.232.0.27 sl-crs2-fw-0-15-0-0.sprintlink.net 
+6 38 35 8  144.232.1.44 sl-crs1-fw-0-7-0-0.sprintlink.net 
+7 41 20 31  144.232.20.109 sl-crs2-chi-0-13-5-0.sprintlink.net 
+8 35 36 30  144.232.18.214 sl-crs1-chi-0-1-0-3.sprintlink.net 
+9 40 49 34  205.247.221.128 - 
+
+Trace complete
+
+
+
+Network IP address lookup:
+
+
+
+
+Whois query for 205.247.221.128...
+
+
+
+Results returned from whois.arin.net:
+
+Sprint SPRINT-BLKF (NET-205-240-0-0-1) 
+                                  205.240.0.0 - 205.247.255.255
+AKAMAI TECHNOLOGIES, INC SPRINTLINK (NET-205-247-221-0-1) 
+                                  205.247.221.0 - 205.247.221.255
+
+Might want to be careful. Any ideas on why anything would want to connect and transmit lots of data?"
+,less_mucca,2010-05-01T12:57Z,"It's probably Apple Software Update, it seems to me Apple hosts their updates there."
+,JBenal,2010-05-24T02:20Z,Thank you for this torrent. I have a Dell Inspiron 1720 and Windows 7. I've been wanting to try Mac OS and your VM worked for me right out of the box. I'm using VMWare Player 3.0.1. All I had to do was change the user name and locale. Everything else was perfect. Just upgraded to 10.6.3. Thanks!
+,Janti08,2010-06-10T23:48Z,"SEED PLEASE!
+Thanks."
+,sidsverma,2010-06-29T21:00Z,"hobbypunk u rock :-)
+btw ur username and password both are ""hobbypunk""
+but the ""y"" is entered as ""z"" in mac for windows pc!!!
+so if using windows pc, then type ""hoobzpunk"" :-)
+thanks a lot!!!"
+,jo7009,2010-08-05T21:26Z,"hobbypunk you ROCK, perfect image, thank you for the upload."
+,BuzzMe,2010-08-22T09:39Z,"Just a followup on my question a while ago -- CCC did work, and now my main disk is 320GB.  Thanks for the heads up."
+,kaiserfft,2010-12-19T16:28Z,"Thanks to uploader and man who made this working. Working nice on my  Core 2 Duo E8400 like charm. Sometimes it hangs but its ok.
+Successfully upgraded to 10.6.5 and iLife 11 is working great ( no imovie isn't because of lack of g-card) Mac OS Software Updates are working without any problem. I am going to try Xcode and Iphone SDK now , will post about it later. Thanks again.
+
+My PC :
+Intel C2D E8400 CPU
+Asus P5kPL - AM/PS M/B ( no g-card , onboard X3100)
+and what more to say ? 4 gigs of ram."
+,MrSmartyPants,2011-03-20T19:32Z,"Hmm... All I'm getting is a never-ending spinning wheel at Mac OS boot-up. Lenovo desktop M58p, Core 2 Duo E8400 3Ghz, w7 64-bit, 4GB Ram, with Virtualization turned on (in BIOS).  Any suggestions?"
+,sububack,2011-04-13T20:33Z,Worked great
+,Japz_m16,2011-07-11T13:54Z,is it compatible with Sony Vaio F series Intel core i7 windows 7 home premium and 4gig ram? 

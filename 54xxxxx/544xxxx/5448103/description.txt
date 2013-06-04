@@ -1,0 +1,22 @@
+Deltaiso from
+
+Fedora 12 i386 DVD ISO
+sha256sum: f0ad929cd259957e160ea442eb80986b5f01daaffdbcc7e5a1840a666c4447c7
+
+to
+
+Fedora Unity 20100303 12 i386 DVD ISO
+sha1sum: 98379c5362c29eb0248fa7c1af443eeeb7709f8d - listed at
+http://spins.fedoraunity.org/Members/Southern_Gentleman/SHA1SUM/view
+
+Fraction of full ISO size: 18.8%
+applydeltaiso's approximate running time (2-3 GHz CPU, 1-2 GiB RAM): 32 minutes
+md5sum of deltaiso: 67a8c551850b320bd45560b7e01c7ddc
+
+Instructions at https://fedoraproject.org/wiki/Delta_ISOs
+
+Verification issues:
+
+1) Fedora Unity still uses sha1sum, even though Fedora Project has used sha256sum since Fedora 11.
+
+2) Fedora Unity tends to erase from their website any traces of previous respins (including even the checksum files needed for verifying) when new respins come out.  If you want to be able to verify in the future discs you currently have, keep a local copy of the checksum file.  Even if you could find a copy of it online (unlikely), the fact that it's unsigned means there would be no way to verify it.

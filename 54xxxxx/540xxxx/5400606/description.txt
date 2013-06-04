@@ -1,0 +1,63 @@
+- No Steam account required
+- Not Riped
+- 100% uncut
+- all textures included (no missing textures)
+- language: english
+- perfect size for a DVD
+
+
+
+Installation Instructions :
+
+
+1) Get in the folder REGFIX and run the file for your system [X86-X64].
+2) Double click left4dead2.exe
+3) HAVE FUN
+
+
+
+Online play instructions:
+
+A - HOST (need to do this everytime you play)
+
+To create your own server:
+1. Type ~ (ie start console - MAKE SURE TO ENABLE CONSOLE IN THE GAME OPTIONS)
+2. Type IP 5.xxx.xx.x (or whatever IP Hamachi VPN has assigned you, the host - located at the top of the hamachi application)
+3. Type SV_LAN 1
+4. Type NET_START
+5. Type MAP XXXXXX (where xxx is the name of the map you want to play - maps with "vs" in the name are where one side plays
+zombie and the other plays the survivors)
+6. Type SV_ALLOW_LOBBY_CONNECT_ONLY 0
+
+
+B - Players (need to do this everytime you play)
+
+1. Enable Console in the options(already enabled)
+2. Play "Campaign"
+3. Pick "Quick Match"
+4. Type ~ (ie. start console)
+5. Type connect 5.xxx.xx.x(or whatever the IP of the server hosting the game is. ie if someone else is hosting you need to get
+his hamachi IP, not his computer's IP and connect to that. note, you can only connect and play together if at least the first 2
+octets of the IP's match. The hamachi ip is located at the top of the hamachi application)
+
+
+
+
+
+I uploaded the game i use to play with my friends on the hamachi network
+
+game has 7GB installed but i compressed it with 7Zip.
+
+all fixes and debugs found until now installed
+
+to change your player name go to rev.ini and edit "player name="
+
+
+
+I am not supporting this anymore, because i have a new and better client.
+Don't worry, I will upload it here too.
+A much better client that works on all the non steam servers in the world using the Seti master server database (about 2000 non steam private servers) :D 
+
+
+the new better version can be found here: 
+http://thepiratebay.org/torrent/5516825

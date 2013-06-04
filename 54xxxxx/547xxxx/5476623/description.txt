@@ -1,0 +1,103 @@
+ALL CREDITS TO THE ORIGINAL UPLOADER OF THE EMULATOR.
+
+
+This is a test server for playing Assassin's Creed 2 offline.U would be able to play till sequnce 8.
+
+
+FOLLOW THE STEPS AND U LL GET THE GAME RUNNING WITHOUT ANY ERRORS.
+I got it working under XP SP3.I ll check it under Windows 7 and comment later.
+
+
+1) use the orignal host file present in 
+
+C:WINDOWSsystem32driversetc
+
+2) Dont start Server.exe
+
+3) Run the game, but dont allow the Ubisoft AutoPatch to run.
+
+u should get the message 
+"Trying to download update file from http://static3.cdn.ubi.com/assassins_creed_2/assassins_creed_2_1.01_eu.exe. Destination: 
+
+C:DOCUME~1PDLOCALS~1Tempubi140.tmp.exe.
+Fatal download error (The requested URL returned error: 404).
+Deleting downloaded data."
+
+in the "advanced" section.
+
+4) Let the Assassins creed 2 updater to run.usually it runs once u cancel the Ubisoft autopatch.
+
+U NEED INTERNET CONNECTION FOR THIS STEP.
+
+5) once u get it done.It takes only a few seconds.U ll get the "PLEASE LOG IN" screen.
+
+6) close the screen.
+
+7) Modify the Hosts file in C:WINDOWSsystem32driversetc
+
+add the following to it
+
+127.0.0.1 static3.cdn.ubi.com
+127.0.0.1 ubisoft-orbit.s3.amazonaws.com
+127.0.0.1 onlineconfigservice.ubi.com
+127.0.0.1 orbitservice.ubi.com
+127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
+
+8) Now run Server.exe
+
+9) Run the game.
+use any random username,password.
+
+10) to save and load use the same username/pass
+
+
+11) enjoy
+
+
+
+
+NEW VERSION
+
+Server: 0.3.1 
+
+
+
+XAMPP, PYTHON AND PYCRYPTO ARE NO LONGER NEEDED! JUST START THE SERVER.EXE! 
+SHUT DOWN XAMPP OR OTHER WEBSERVERS BEFORE STARTING THE SERVER! 
+OTHERWISE YOU WILL GET PROBLEMS!
+To save your game automatically, you must login with the same username everytime!
+No Tutorial needed! Download the newest Version of Server and read the instructions of the readme! With the values.db from 0.3.1 you can play till Giovanni wants you to take some documents and bring them to someone! Till then, everything is working! 
+
+
+
+MANY THANKS TO THE ORIGNAL UPLOADER
+
+_________________________________________________________________________________
+
+SOURCE
+
+
+REMOVED FOR SAFETY REASONS 
+
+
+
+ALL CREDITS TO THE ORIGINAL UPLOADER OF THE EMULATOR.
+
+P.S.
+i have just shared the information to other fans of the Assassins creed series who are very much disappointed with the DRM protection, and high pricing.
+
+
+
+this has no virus/no password.
+instructions are provided within the rar file.for other doubts visit the site and read the comments, to get enlightened.
+
+This doesnt allow u to play the entire game.Have more patience for Reloaded or Razor1911 to come up with some single click version. 
+
+
+
+P.S @ UBISOFT
+
+my internet service provider has come up with a new idea of bundling ur single player games with every new internet connection.
+Too bad i already got an internet connection.
+
+if u expect us to buy original, then bring down the costs.

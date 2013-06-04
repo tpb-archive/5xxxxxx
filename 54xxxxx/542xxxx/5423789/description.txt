@@ -1,0 +1,9 @@
+Warning: Extraction may take several minutes. Be patient!
+
+The screenshots are self-explanatory. Install, use the "ActivKits", point the license manager to the license. Although included, there's no need to install the FLEXnet license server. In the case of Passolo, even though the Trados 2007 installer will say it's launching the installation of Passolo Essentials, it will actually be installing Passolo 2009 SR3 Team Edition. Pay attention during install and make sure you deselect the check box next to the option to install the dongle driver. Then use vnekrilov's patch to activate the application. If Trados Studio 2009 SP1 tries to install Passolo Essentials, cancel it.
+
+To view the ActivKits AIO as intended, you need Adobe Flash Player installed.
+
+All credit for the SDL patches and license go to MaddMaxx and Avrin. vnekrilov did the patch for Passolo 2009 Team Edition. If you repost this elsewhere, plase make sure you give them proper credit.
+
+I shouldn't have to say this but any files that need patching CANNOT be in use at the time of patching. Make sure no SDL app is running during patching, including the license manager.

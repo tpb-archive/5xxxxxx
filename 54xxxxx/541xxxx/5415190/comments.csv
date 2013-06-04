@@ -1,0 +1,9 @@
+User Type,Username,Date,Text
+,anonim1979,2010-03-06T20:23Z,".AVI files bigger than 2GB to be compatibile with most STANDALONE DivX players - will need to be split with VirtualDubMod ( http://surfnet.dl.sourceforge.net/sourceforge/virtualdubmod/VirtualDubMod_1_5_10_2_All_inclusive.zip )
+1. Open movie file:
+""File"", ""Open video file"" (or use Ctrl+O shortcut), then browse to dir with YOUR_MOVIE.avi (press NO if asked about MP3)
+2. ""File"", Save as (or simply press F7)
+Choose ""Segment output file"" and set to 2036MB (no more)
+(If you want CD sized parts you can use 700MB value)
+Put new name and/or directory !BEFORE clicking SAVE: CHANGE(Video)""Video mode"" to ""Direct stream copy""
+Done in 1-2 minutes! "

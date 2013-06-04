@@ -1,0 +1,28 @@
+ConvertXtoDVD changes history
+
+ConvertXtoDVD - 4.0.10.324
+==========================
+
+Fix XEON processor support
+Fix ClickFree automatic backup compatibility
+
+- 0003215: [Bug] ConvertX fail to convert on Xeon processor computer (wesson) - resolved.
+
+
+ConvertXtoDVD - 4.0.9.322c
+=========================
+Improved compatibility with ClickFree Backup solution
+
+
+ConvertXtoDVD - 4.0.9.322a
+=========================
+
+Improved interface:
+* Implemented a merge feature directly from drag/drop, using the <SHIFT> key
+* Fixed issue when reloading settings
+
+- 0003085: [Bug] Video processing failed to init on stream 0000001 error, I can't convert - resolved.
+- 0003087: [Feature Request] Easy merge mode  - resolved.
+- 0003067: [Bug] v4.0.6.316 ÃŸeta: Add a few files, then click Automatic / Add lots more files, no changes on the Advisor !  - resolved.
+- 0003084: [Feature Request] add info under preview window that subtitles are not visible during conversion  - resolved.
+

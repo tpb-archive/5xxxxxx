@@ -1,0 +1,50 @@
+Last August, SIGGRAPH attendees got a glimpse of bonzai3d, a new 3D modeler from AutoDesSys. The new product was touted as a lighter, smaller version of formZ, a well-known NURBS modeler* from the same company. In the announcement, AutoDesSys described bonzai3d as â€œan offspring of formZâ€ and a â€œ3D modeler developed to fill in the demand for a quick, easy, simple but, most importantly, geometrically robust approach to 3D.â€
+AutoDesSys' new modeling package bonzai3d comes with a rich set of Spline editing tools that let you generate imaginative shapes and surfaces. Nevertheless, the software works like a robust 3D package, with ample NURBS editing tools to produce complex geometric shapes and surfaces. It comes with a menu specific to architecture (walls, windows, and staircases that you can drag, drop, and resize, for example), but because of its ability to produce sweeping profiles, it could easily be deployed for conceptualizing consumer goods.
+The interface is quite intuitive. Without watching the tutorial videos, I was able to start using it by experimentation. It offers a good collection of export options, including DWG, DXF, KMZ, 3D Studio, LightWave, and OBJ. The software had a few hiccups when I attempted to apply the Round or Taper command on some surfaces with odd profiles, but I expect these issues to go away when the code matures. You can try it out for yourself by downloading it from www.bonzai3d.com.
+
+[Note: According to AutoDesSys, form.Z and bonzai3d are NURBS modelers, but can also do much more. Alexandra Yessios, the company's VP of marketing, said, "They have multiple personalities, including NURBS ... While we do as much as Rhino does with NURBS, we do more types of modeling: facetted, smooth, subdivisions, metaballs, coons patches, etc. (the latter three in form.Z only)."]
+
+bonzai3d 2.0 New features:
+
+3D Dimensions: 5 new dimension tools have been added including linear, angular, radial, leader lines and notes. Dimensions are associated with the objects that they reference and update dynamically as the model is changed.
+
+NURBS modeling: Six new NURBS modeling tools for extending, merging and blending curves and surfaces enhance bonzai3ds smooth modeling capabilities. The Blend tools feature an innovative interface that makes surface blending easy and intuitive.
+
+Walkthrough tool: This new tool enables real time point of view animation through a scene, including
+collision detection.
+
+3D Clipping planes: This feature cuts models open to reveal interior spaces without destroying the model. The clipping planes are preserved in their own palette so that they can be recalled as needed. Clipping planes are an effective working and presentation tool.
+
+Components: The bonzai3d 1.0 Content feature has been drastically improved and is now called components to match industry standards. Components are managed in the new Components palette. Component groups are now embedded in the project files making them portable and editable directly in the project. The Component tools have been reorganized and a specialized tool for repositioning windows and doors has been added. The hole created by window and door components is automatically healed when a door or window is moved, deleted or replaced.
+
+Printing: It has been completely overhauled and adds the ability to print to a specific scale.
+
+Preferences: The size of the tool icons can be changed through a new option in the Preferences dialog. Additional options control the display of the tool names in the icons.
+
+Views menu: New items for Home, Previous, and Next views have been added.
+
+Help: The Project Info dialog has a new tab for tracking linked files.
+
+Parameter editing: Object parameters in the Parameters tab of the Tool Options palette can now be edited on multiple objects simultaneously.
+
+Group editing: Groups can now be edited in the project. This eliminates the need to ungroup and
+re-group when wishing to make a change to an object in a group.
+
+Object isolation: Objects can now be easily isolated when wanting to work on them and they are part of complex models.
+
+Colors of edges: Control over the color of object edges has been added with the new Edge Color attribute
+
+Transformations: Applying operations such as move, rotate, and scale on large models has been optimized.
+
+DFX/DWG extensions: Support for AutoCad 2010 has been added to the DXF/DWG translator.
+
+Localizations: bonzai3d is now localized for Spanish and German. Additional localizations for Italian,
+Japanese, and Chinese are in progress and will be released shortly.
+
+ÐžS: Windows XP and Windows Vista/7
+
+Here we have a new good program installed myself.
+
+Tested And Working
+
+Enjoy	

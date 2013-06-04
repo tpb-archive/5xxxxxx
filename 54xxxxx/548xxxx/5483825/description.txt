@@ -1,0 +1,21 @@
+Since 2003 ABL has established its sound as the industry standard. In 2007 ABL2 achieves important improvements in several key areas. Amongst new features the most important thing is the sound: The bass is improved for less muddiness. The filter has been improved to incorporate subtile nonlinear effects for additional squelch. The distortion unit has been improved with less aliasing. The controls have been calibrated to better match the response of the original. Moreover several new features are present: The new pattern analyzer which can be used to edit patterns and will even detect patterns from audio files. 
+
+Shuffle ABL2.1 adds support for shuffle, but in standard and triplet timing modes.
+
+Pattern analyzer with Audio detection. The pattern analyzer is a tool for editing and analyzing patterns. In further aid to help users transition their original patterns into ABL an audio detection algorithm has been devised. That's right - it can create patterns using audio files as a source. How does it work? The original patterns are recorded under certain conditions, then simply hit Detect from wave and select the audio file. ABL2 will create a pattern resembling the audio input. Listen to the audio detection examples above for an demonstration. It is possible to copy and paste patterns directly from for example a forum or e-mail using the clipboard functions - no more saving and importing.
+
+Improved filter emulation. The filter has been improved so as to include the nonlinear behavior of the original. This give additional 'squelch' in fast sweeps. See the diagram below where one curve (red) represents the original filters frequency response at one instance and the other (blue) ABL2's response.
+
+Accent ducking On the original 303 it will take the envelope a while to 'warm up' after an accent. When the accent knob is fully counter clockwise this can be perceived as a ducking envelope. This feature is now included in ABL2. Listen to these two comparisons: 303 ducking and ABL ducking.
+
+Pattern library. The pattern library menu allows easy access to your favorite patterns. It also possible to load several patterns in one go by selecting multiple patterns from the Load Pattern dialog.
+
+Other improved features
+
+* MIDI Learn function now displays all mapped CCs
+* Load multiple patterns at once
+* Preferences dialog for easier setup
+* Pattern section buttons are now MIDI assignable
+* ABL2 imports the following file formats: RBS, PH and PAT
+* PNG support for easier user skinning
+* All ABL1 features remain

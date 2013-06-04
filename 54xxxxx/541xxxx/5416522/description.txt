@@ -1,0 +1,19 @@
+In MS-Wndows XP you cannot create folders with following name
+
+AUX
+NUL
+CLOCK$
+COM1 to COM9
+LPT1 to LPT9
+PRN
+CON
+
+1.Run batch File "Cant create".
+2.It will create all the folders in c:cannot(Here all will be present)
+3.And Surely you cannot delete then so ..
+4.Run Batch File "Delete Those".
+Dont Forget to give COMMENT.
+
+You can view commmands written in batch file by opening it with NOTEPAD.
+
+Dont Forget to give COMMENT.

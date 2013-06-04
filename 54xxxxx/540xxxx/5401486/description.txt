@@ -1,0 +1,36 @@
+The purpose of this book is to explain how to develop applications and reusable classes for
+the .NET Framework. Specifically, this means that I intend to explain how the CLR works and
+the facilities that it offers. Iâ€™ll also discuss various parts of the Framework Class Library (FCL).
+No book could fully explain the FCLâ€”it contains literally thousands of types now, and this
+number continues to grow at an alarming rate. Therefore, here Iâ€™m concentrating on the core
+types that every developer needs to be aware of. And while this book isnâ€™t specifically about
+Windows Forms, Windows Presentation Foundation (WPF), Silverlight, XML Web services,
+Web Forms, and so on, the technologies presented in the book are applicable to all these
+application types.
+The book addresses Microsoft Visual Studio 2010, .NET Framework version 4.0, and version 4.0
+of the C# programming language. Since Microsoft tries to maintain a large degree of backward
+compatibility when releasing a new version of these technologies, many of the things
+I discuss in this book apply to earlier versions as well. All the code samples use the C#
+programming language as a way to demonstrate the behavior of the various facilities. But,
+since the CLR is usable by many programming languages, the bookâ€™s content is still quite
+applicable for the non-C# programmer.
+Today, Microsoft offers several versions of the CLR. There is the desktop/server version, which
+runs on 32-bit x86 versions of Microsoft Windows as well as 64-bit x64 and IA64 versions
+of Windows. There is the Silverlight version, which is produced from the same source code
+base as the desktop/server version of the .NET Frameworkâ€™s CLR. Therefore, everything in this
+book applies to building Silverlight applications, with the exception of some differences in
+how Silverlight loads assemblies. There is also a â€œliteâ€ version of the .NET Framework called
+the .NET Compact Framework, which is available for Windows Mobile phones and other
+devices running the Windows CE operating system. Much of the information presented in
+this book is applicable to developing applications for the .NET Compact Framework, but this
+platform is not the primary focus of this book.
+On December 13, 2001, ECMA International (http://www.ecma-international.org/ ) accepted
+the C# programming language, portions of the CLR, and portions of the FCL as standards.
+The standards documents that resulted from this have allowed other organizations to build
+ECMA-compliant versions of these technologies for other CPU architectures, as well as other
+operating systems. In fact, Novell produces Moonlight (http://www.mono-project.com
+/Moonlight), an open-source implementation of Silverlight (http://Silverlight.net) that is
+primarily for Linux and other UNIX/X11-based operating systems. Moonlight is based on the
+ECMA specifications. Much of the content in this book is about these standards; therefore,
+many will find this book useful for working with any runtime/library implementation that adheres
+to the ECMA standard.

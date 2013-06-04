@@ -1,0 +1,152 @@
+Furnace for Nuke is a sophisticated suite of 2D image processing (OFX) plug-ins, designed to enhance workflow and boost productivity for digital artists.
+
+Taking advantage of over seven yearsâ€™ research into advanced image processing algorithms, notably motion estimation technology, Furnace has a wealth of tools to quickly and effectively tackle a diverse range of everyday compositing tasks. Wire, rig and flicker removal, a world class retimer, grain reduction, dust busting, image stabilisation, auto rotoscoping, image segmentation and much more, Furnace delivers scores of plug-ins that youâ€™ll find yourself using on a daily basis.
+
+
+Plugin List:
+------------------------------------------
+There are 36 plug-ins in Furnace for Nuke.
+		
+F_Align
+-------
+Arguably one of the most powerful plug-ins in Furnace, F_Align can be used for stabilisation and match moving. In its most basic form it attempts to line up two images without having to select tracking points. The image on the left shows two clips shot from a hand held camera. The image on the right shows both images aligned and composited.
+		
+F_BlockTexture
+--------------
+F_BlockTexture is a texture generation plug-in that can create large images from small sample textures. It is temporally consistent and can be used for crowd replication. It differs from F_PixelTexture in that it should be used on large scale textures.
+		
+F_ChannelRepair
+---------------
+Occasionally damage can occur in only one or two colour channels in an image. For example, chemical damage may only have permeated the top layer of the film. F_ChannelRepair can be used to repair the damaged channel(s) by using information from the other colour channels. Shown here, on the left, is the damage in the blue channel with the repair on the right.
+		
+F_ColourAlign
+-------------
+Automatically removes misalignment of the three colour channels in an image.
+		
+F_ColourMatte
+-------------
+This plug-in is designed to help an artist key off arbitrary backgrounds. F_ColourMatte is particularly good at generating mattes for hair or fur. A loose inside and outside matte is required and the algorithm will attempt to create an matte for the edge. An example is shown above.
+		
+F_Contrast
+----------
+F_Contrast allows the user to extract hidden detail from dark areas of an image without overexposing the bright areas. Based on the adaptive contrast enhancement algorithm in Apical's Iridix product, F_Contrast behaves like the human visual system by being adaptive and spatially varying.
+		
+F_Correlate
+-----------
+This plug-in is similar to F_Align in that it lines up one clip spatially with another, but it also aligns clips temporally. If you have two panning shots from a hand held camera that pan at slightly different speeds, F_Correlate can align them by picking the best matching frame from the clip and then move it into position. The plug-in also allows you to match the colour grade of the clips.
+		
+F_DeBlur
+--------
+Automatically removes global motion blur or out-of-focus blur from a sequence.
+	
+F_DeFlicker1
+------------
+F_DeFlicker1 reduces localised flicker in clips.
+ 
+F_DeFlicker2
+------------
+F_DeFlicker2 is designed to remove in-scene flicker, poorly synchronised light rigs, stray light etc. It can also remove multiple overlapping phase different flickers while adapting to cope with motion in the sequence.
+	
+F_DeGrain
+---------
+F_DeGrain uses a wavelet-based degraining algorithm to perform both spatial and temporal grain-reduction based on an initial grain selection made by the user. Temporal grain-reduction is automatically activated for image regions where the motion between frames can be reliably used to perform frame blending and thereby reducing the softening of the image.
+		
+F_DeNoise
+---------
+Removes noise and grain from a sequence using motion estimation to average pixels along the direction of motion. This reduces noise without softening the image. F_DeNoise was used on King Kong. For grain reduction on single frames use F_DeGrain.
+		
+F_Depth
+-------
+Z-depth compositing is usually associated with 3D computer generated images, since accurate depth information can be automatically generated. No such information is captured from live action footage. F_Depth attempts to extract a depth channel by looking at the parallax shifts in objects moving in a scene.
+		
+F_DirtRemoval
+-------------
+F_DirtRemoval automatically detects and removes dust and dirt in a sequence. The algorithm produces a seamless repair by taking motion compensated pixels from the surrounding frames and interpolating them into the dirt region. The areas marked as dirt are shown in the alpha channel.
+		
+F_Kronos
+--------
+F_Kronos is used to change the speed of a clip. The algorithm uses motion-estimation technology to generate motion vectors that describe where each pixel is moving from frame to frame. This is then used to build in-between frames in a sequence. The images above show a blend (left) to create a new frame and a sharp frame (right) created using our vectors. Motion blur is automatically created when speeding up clips. Much of our research has concentrated on reducing the edge-dragging between foreground and background objects.
+		
+F_MatchGrade
+------------
+It is often necessary to match the colours of one clip with those of another. When filming outside at different times of the day you will inevitably get colour and luminance differences that will have to be corrected if the sequences are to be composited or edited together. You can, of course, use colour correction tools and trial and error to try and match the clips. But this tends to be time-consuming and requires some considerable skill. F_MatchGrade does it all for you by automatically modifing the colour histogram of an image to match a reference image.
+		
+F_MotionBlur
+------------
+F_MotionBlur uses the Foundry's advanced motion estimation technology to add realistic motion blur to a sequence. F_MotionBlur uses the same techniques and technology as the motion blur found in F_Kronos but presents the controls in a less complex, more user friendly way.
+		
+F_MotionMatch
+-------------
+F_MotionMatch uses the Foundry's advanced global motion estimation to track surfaces in a sequence and optionally replace them with repairs. This technique can be used to remove fixed markers, or to track new detail into a sequence.
+		
+F_MotionMatte
+-------------
+F_MotionMatte uses a combination of The Foundry's advanced motion estimation and auto rotoscoping technology to automatically segment a foreground object from its background and generate the foreground with background colour fringing removed, together with its associated alpha matte. There is no user input apart from selecting the sequence to segment.
+	
+F_FrameRepair
+-------------
+This tool uses the Foundry's advanced motion estimation technology to quickly replace a damaged or missing frame by interpolating pixels from images either side. 
+	
+F_MotionSmooth
+--------------
+This plug-in uses motion estimation to rebuild all the frames in a clip. For each frame of the clip it aligns the frame before and frame after onto the current frame and then combines these three frames using a three way median filter. This process is very good at cleaning up temporally changing artefacts in a sequence. It's good at damping down the boiling you get on painted or cartooned images, as above.
+		
+F_PixelTexture
+--------------
+F_PixelTexture is a texture generation plug-in that can create large images from small sample textures. It differs from F_BlockTexture in that it should be used on small scale textures.
+		
+F_ReGrain
+---------
+F_ReGrain takes grain sampled from one clip and applies it to another. The technique uses pixel-level statistical techniques to produce arbitrarily large regions of new grain blended onto the target footage. Grain from some sample film stocks are also included. The image on the left is real grain from Kodak 500 stock. The image on the right is synthesized using Furnace.
+		
+F_RigRemoval
+------------
+F_RigRemoval uses motion-estimation technology to remove foreground objects from a clip and reconstruct a clean background. The user loosely highlights the foreground object, and provided there is sufficient motion of the foreground relative to the background, visible fragments of background elsewhere in the sequence are extracted to fill the rig region.
+		
+F_ScratchRepair
+---------------
+F_ScratchRepair is designed to remove vertical scratches from a sequence of frames on film. Both spatial and temporal algorithms are supplied.
+		
+F_ShadowRemoval
+---------------
+F_ShadowRemoval is a spatial algorithm designed to remove shadows from an image. It uses image detail present in the shadow area to perform the repair. If the shadow is completely black you'll have to use other techniques.
+		
+F_SmartFill
+-----------
+F_SmartFill is an intelligent texture tool designed to automatically fill a missing region in an image. It can be used to repair damaged pixels or paint over unwanted objects to create clean plates. The algorithm takes textures from nearby areas whilst trying to keep structures and patterns intact. It's a spatial algorithm so will only work on single frames. Don't expect miracles and don't throw away your paint and clone brushes just yet, but it's a great tool and should get you most of the way in a fraction of the time.
+	
+F_SmartPlate
+------------
+This takes an image sequence and stitches the frames together to generate a single large image. It uses our advanced motion estimation technology to calculate the best way to align one frame to another using all the image data not just a few tracking points. The image above shows the large plate built up from an S-shaped camera pan. Also the large plate can be painted and the original camera move put back over it.
+ 
+F_SmartZoom
+-----------
+This takes a sequence of different views of the same object and uses them to make a single image of higher resolution than any of the original views. Motion estimation is used to align the sub-pixel information and this approach differs from a sinc filter or sharpening filter as the output will contain information from several frames not just one.
+	
+F_Splicer
+---------
+F_Splicer is designed to composite two images together and hide the join between the images. Rather than using a conventional alpha matte, it works by overlapping the two images and calculating optimum position for the edge that best hides the join.
+		
+F_Tile
+------
+F_Tile is designed to intelligently repeat an image horizontally and vertically so that the join is invisible.
+		
+F_VectorConverter
+-----------------
+F_VectorConverter is a tool designed to convert images representing motion vector fields, originating from other vendor applications, into the vector format used in Furnace by providing a simple interface to rewire, scale, offset and invert the colour channels.
+		
+F_VectorGenerator
+-----------------
+F_VectorGenerator is a utility plug-in that generates motion vectors. These vectors can then be used as inputs to other Furnace plug-ins. Since motion estimation is a computationally expensive process, the ability to generate the vectors offline then use the results interactively later will speed up the compositing process.
+	
+F_Steadiness
+------------
+F_Steadiness automatically tracks and removes translational and rotational camera shake, without requiring the user to select tracking points. This helps where insufficient stable points exist for conventional tracking, or where good data points continually move off the screen during a sequence. The algorithm also allows motion-smoothing, where high-frequency camera shake can be removed without affecting the underlying camera motion. The algorithm can also be used to remove scale and minor perspective shifts.
+ 
+F_VectorWarper
+--------------
+This is a utility tool to reconstruct images using vector fields. It is a fundamental building block of Kronos but provided here seperately for technical compositors wishing to reconstruct in inner workings of Kronos by hand.
+	
+F_WireRemoval
+-------------
+F_WireRemoval removes wires from an image. It is particularly good on complex shots where background replacement is not possible, for example, when wires cross the actors or where wires cross complex moving backgrounds like trees or smoke. Rather than relying on traditional edge-stitching or cloning techniques, the patented algorithm performs complex signal processing to subtract the wire from the original image while preserving grain and background detail.

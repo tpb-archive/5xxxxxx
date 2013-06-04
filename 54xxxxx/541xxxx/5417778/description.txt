@@ -1,0 +1,219 @@
+Norton Partition Magic 8.05 inc. Serial Number
+Norton PartitionMagic(R)
+Version 8.05
+
+
+You may find it helpful to watch the Norton PartitionMagic Flash tutorial 
+before using Norton PartitionMagic. You can display the Flash by clicking 
+Help > Flash Tutorial from the Norton PartitionMagic main screen.
+
+
+TABLE OF CONTENTS
+-----------------
+1. Back up Your System!
+2. Activating PartitionMagic
+3. General Usage Notes 
+4. Known Issues - Windows NT/2000/XP only
+5. Known Issues - Windows 9x only
+6. Uninstalling Windows Me
+
+
+1. BACK UP YOUR SYSTEM!
+-----------------------
+Remember to back up your hard drives before using PartitionMagic.
+While PartitionMagic has been thoroughly tested, power failures, 
+operating system bugs, and hardware design bugs can put your data 
+at risk. BEFORE USING ANY UTILITY THAT MAKES SUCH EXTENSIVE 
+CHANGES TO YOUR HARD DISK, YOU SHOULD BACK UP YOUR DATA.
+
+To back up your system, we recommend using Symantec Drive 
+Image(R). Drive Image is a disk imaging tool that lets you create
+an image of your entire system that can easily be restored. 
+Having a backup lets you run PartitionMagic with the security 
+of knowing that you can get your system back up and running 
+if you run into problems.
+
+
+2. ACTIVATING PARTITIONMAGIC
+-----------------------------------
+When you install PartitionMagic, the software is in demo mode until 
+you activate it. In demo mode, you can make changes that appear in 
+the PartitionMagic interface, but you cannot apply those changes. The 
+first time you run PartitionMagic, you are prompted to activate the 
+software. You can click Yes to activate the software immediately, or 
+you can use the software in demo mode and activate it later. To 
+activate the software later, click General > Activate Product from 
+the PartitionMagic menu bar. Then follow the directions in the 
+activation dialog.
+
+
+3. GENERAL USAGE NOTES
+----------------------
+- Using PartitionMagic Tools with Norton GoBack
+  If GoBack is enabled on your system and you use any of the tools
+  that are installed with PartitionMagic (for example, BootMagic,
+  PQBoot, PQBoot for Windows, PTEdit) you may experience conflict
+  errors.
+
+  For example, you should avoid using BootMagic (or any other
+  PartitionMagic tool) if GoBack is enabled. If you have
+  already used BootMagic to boot the active partition on your system
+  while GoBack in enable, you will get an error stating that
+  BootMagic cannot write to the Master Boot Record (MBR) and,
+  therefore, the operating system cannot be started.
+
+  To start the operating system in such cases, you must reboot the
+  computer. When the GoBack screen is displayed, disable (turn
+  off) GoBack.
+
+  While disabling GoBack allows BootMagic and all other PartitionMagic
+  tools to work properly, you will lose all GoBack history. If you
+  decide to re-enable GoBack, you should avoid using BootMagic or any
+  other PartitionMagic tools.
+
+- Be aware that there is no undo (after clicking Apply) if you 
+  merge two FAT or FAT32 partitions. You must be particularly 
+  careful not to merge two primary partitions that include 
+  operating systems, as your computer will not be bootable if 
+  you do.
+
+- Progress bars are an estimation only and may pause for several 
+  minutes, even though PartitionMagic is still working correctly.
+  If you think your computer has locked up, please be patient and 
+  allow PartitionMagic to finish the operation.
+
+- You should set up removable media drives so that they are the 
+  last drives on your system. Drives are assigned priorities as 
+  follows: primary master, primary slave, secondary master, 
+  secondary slave. You should not have a fixed hard drive 
+  set up as the secondary master if you have a removable media 
+  drive set up as the primary slave. If you have two IDE
+  controllers, you should connect removable media drives to 
+  the second controller, after any hard drives. If you have a
+  RAID configuration, disconnect any removable media (such as 
+  a Zip drive) before using PartitionMagic. If you do not 
+  configure removable media drives as the last drives, you 
+  will see disk numbering inconsistencies in the PartitionMagic 
+  interface, and the wizards will not work on your system.
+
+- Bad Sector Checking is OFF by default. PartitionMagic ships 
+  with bad sector checking turned OFF by default. Modern hard 
+  disks are designed to avoid bad sectors automatically.  
+  However, if you feel that bad sectors may be a problem on your 
+  system, turn on bad sector checking (by unchecking the 
+  appropriate boxes in the "Skip bad sector checks" list box in 
+  Preferences). Turning on bad sector checking ensures that data 
+  is not moved or copied to bad disk sectors; however, this 
+  causes the create, move, and resize operations to slow down 
+  considerably. Another way to verify that there are no bad 
+  sectors on your disk is to run the operating system check 
+  utility (CheckDisk or ScanDisk) and do a surface scan before 
+  launching PartitionMagic.
+
+- A non-Asian language version of PartitionMagic should never 
+  be used on an Asian language version of Windows NT/2000/XP, 
+  as this may cause corruption of filenames and partition/
+  volume set labels.
+
+- You cannot use PQBoot for Windows (a utility included with 
+  PartitionMagic) unless there is at least one primary 
+  partition on the first hard disk.
+
+
+
+4. KNOWN ISSUES - WINDOWS NT/2000/XP ONLY
+-----------------------------------------
+
+- PartitionMagic does not support volume sets, stripe sets, stripe 
+  sets with parity, or partitions located on disk mirror/duplex 
+  sets configured using Windows NT Disk Administrator. Under 
+  Windows 2000/XP, PartitionMagic supports standard partitions 
+  located on basic disk sets only.
+
+- In a configuration with mixed IDE and SCSI hard drives, Windows 
+  NT does not always see the boot drive as the first physical hard 
+  disk. PartitionMagic displays drives in the order Windows NT 
+  reports them. As a result, you may see your boot device as Drive 
+  1, 2, and so forth. This does not cause problems for 
+  PartitionMagic except when setting a new active partition. Also, 
+  PartitionMagic may incorrectly report that there is no active 
+  partition on your system. To change your active partition, be 
+  sure that you identify which drive is the boot drive. 
+
+- You should not change the drive letter originally assigned to 
+  the Windows NT/2000/XP boot partition (the partition where Windows 
+  is installed). Changing the drive letter to anything but its 
+  original designation will cause severe boot problems and may 
+  cause your computer to be unbootable.
+
+- Under Windows 2000 or Windows XP, if you perform operations 
+  on partitions that include mount points, you must restore the 
+  mount points after the operations are complete.
+
+- Error 183: Init Failed. If you attempt to run PartitionMagic on 
+  a Windows 2000/XP Professional machine where the boot partition
+  (the partition where Windows 2000/XP Professional is installed) 
+  is on a dynamic disk, you will receive the following error message: 
+  "Init failed: Error 183. Unable to identify the Windows partition." 
+  To solve this problem, Windows 2000/XP must be installed on a 
+  basic disk.
+
+- Error 184: If you encounter error 184 when initializing 
+  PartitionMagic, run Disk Administrator (Windows NT) or Disk 
+  Management (Windows 2000/XP), then start PartitionMagic again.
+
+- If the System Restore feature of Windows XP is monitoring a drive, 
+  PartitionMagic cannot perform operations on that drive in Windows. 
+  Instead it must drop down to boot mode to perform the operations. 
+  The operation will still be successful. 
+
+- To uninstall PartitionMagic under Windows XP, you must be logged 
+  in as the user who originally installed the product.  If the user 
+  account has been deleted, you must remove PartitionMagic 
+  manually by cleaning out the PartitionMagic install directory and 
+  registry.
+
+
+
+5. KNOWN ISSUES - WINDOWS 9x ONLY
+---------------------------------
+
+- On a computer with a dual boot, if you have more than 20 
+  partitions, you may not be able to launch PartitionMagic from  
+  Windows 9x.
+
+- If you create an NTFS partition under Windows 9x, it will be 
+  created with NTFS version 3.0, which is not compatible with 
+  Windows NT 4.0.  To create an NTFS version 1.2 partition that will 
+  work with Windows NT 4.0, run PartitionMagic under Windows NT 4.0 
+  or from the rescue disks and create the partition.
+
+- Under Windows 9x, PartitionMagic and the operating system may assign 
+  different drive letters to USB, USB2, and FireWire drives. This 
+  problem is a result of the inconsistent way the operating system 
+  assigns drive letters for removable devices. If the drive 
+  letters appear differently in PartitionMagic than they do in "My 
+  Computer," PartitionMagic can still work on the removable drive.
+
+
+6. UNINSTALLING WINDOWS ME
+--------------------------
+If you use PartitionMagic (or FDISK or any other partitioning
+software), you should be aware of the following Microsoft warning.
+
+IMPORTANT: You should not attempt to uninstall Windows Me if the 
+partition information for your hard disk or disks has changed 
+since you last installed Windows Me successfully.  Windows Me 
+creates a backup copy of your partition information in the 
+Suhdlog.dat file at the end of a successful installation, and 
+Uninstal.exe restores the partition information listed in the 
+Suhdlog.dat file to your hard disk during the uninstall.  If the 
+partition information on your hard disk or disks has changed 
+since you last installed successfully (specifically, since the 
+Suhdlog.dat file was created), then you might experience partial 
+or complete data loss as a result of attempting to uninstall 
+Windows Me.
+
+
+
+

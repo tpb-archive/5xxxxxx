@@ -1,0 +1,54 @@
+User Type,Username,Date,Text
+,rounders62,2010-03-17T21:27Z,Serial don't work
+,mayhem33,2010-03-25T13:18Z,"The first time it rejects block it with your firewall and then hit ok again. Other wise Mod your Host file.
+
+# localhost name resolution is handled within DNS itself.
+#	0.0.0.0 sams.nikonimaging.com
+#	0.0.0.0 sams.nikonimaging.com "
+,mayhem33,2010-03-25T13:26Z,"oOpS I copy and pasted the wrong info.
+
+Just add either
+
+0.0.0.0 sams.nikonimaging.com
+
+or
+
+127.0.0.1	sams.nikonimaging.com
+
+to your host file
+
+c:\WINDOWS\system32\drivers\etc\hosts"
+,mayhem33,2010-03-25T13:29Z,I can also assuming you can probably disco from the internet and do the same provided the program doesn't call home periodically. 
+,SaiyanB,2010-05-06T00:16Z,Thx work like dream...
+,locosurf,2010-06-07T13:53Z,"Hy mayhem33, how do i manupulate the host file on vista?
+any help is apreciated."
+,nedgoak,2010-08-03T04:00Z,"Having trouble with product key that was provided Name:		Ne_viens
+Serial:		59096-17897-11336-52426-35553 Program states its not a valid number. "
+,nedgoak,2010-08-03T06:17Z,please tell me how to get this working. the key code is not working
+,zeevik,2010-12-21T00:24Z,impossible to open key log doesnt work :(
+,aanonymus,2011-03-23T17:29Z,"i cant get it to work with the given serial number, is there any other way)"
+,gaz105,2011-06-05T18:42Z,** WARNING cnx2.exe Contains the Trojan ADH **
+,nikasp1,2011-08-12T21:48Z,"Works like a charm on Win 7 64 bit. Note: there is a lot of BS here about viruses or unable to install etc. It is just the companies trying to stop people from downloading. Just download, edit your host file (run Notepad as Administrator to edit it) and then fill in the user and key provided. Works 100% - good luck guys and girls!"
+,andrewjameshoward,2011-08-26T14:15Z,"I have previously used the free trial which has expired. I uninstalled it and installed this. I made the changes to the hosts file. I am running Vista 32 bit. Using the given serial I receive a Nikon Software License - Warning ""The following product key is valid"". No sign of an virus detection. Could it be that the people who got this to work were only in fact getting the free trial to work?"
+,ginnyone,2011-08-29T23:44Z,"Maybe this will help.
+
+Make sure before installing:
+
+- Edit the file with notepad [hosts] - C: / windows/system32/drivers/etc/hosts
+- Add the line: 127.0.0.1 sams.nikonimaging.com
+- Now the program will not connect to the server and will not block key."
+,TorrentSpotter,2011-09-22T05:40Z,"It works great...Make sure you unplug your computer from internet while installing program and serial number...Then go and up-date host file as explained in the previous comment...Add the line: 127.0.0.1 sams.nikonimaging.com
+Once you do all of this you can connect computer to the internet and run program. "
+,pate1986,2011-10-23T18:16Z,ginnyone your help was great help to me thanks 
+,sjw71,2011-11-07T02:39Z,"Threat Detected ""Downloader-Z"" by Avast.
+
+Don't know if this is a false positive...?"
+,laosanla,2011-12-22T00:30Z,"after all effort to make it work, the CNX2 showed ""can not load NEF files"" when I tried to open a raw photo I took with NIkon D7000. I searched online and found most people saying that the software 2.2.0 is old and need update. I tried to do update and could not make it work. Please advise how to update to 2.2.8 or 2.3.0 if possible at all. Any other solutions, maybe? Please help."
+,blackadder1965,2012-01-03T08:32Z,Where do you put the supplements folder?
+,allain_hardy,2012-01-04T14:36Z,"what i did? i downloaded the torrent, Norton detected virus in .exe file, then i downloaded trial version from nikon's website and applied the serial key, i noticed the Key only works with internet connection off, so i blocked NX2 with my Norton's firewall, now the software cannot connect to internet and so its working fine for me,
+windows 7 ultimate 32 bit
+hope this helps"
+,allain_hardy,2012-01-04T14:42Z,"this is the website where i download .exe file
+http://nikonimglib.com/cnx2/index_en_nsa.html#os-windows"
+,ssykes1,2012-03-11T00:43Z,Anybody have a serial number for the updated MAc version?
+,bubba6666,2012-05-31T04:45Z,Thanks for the troj.  Don't download.

@@ -1,0 +1,16 @@
+RealVNC - the system realizes the functions of remote administration using the protocol RFB (Remote FrameBuffer). Many PC users often need to access your computer is not at the same time in the immediate vicinity. In such a situation may be useful software VNC. VNC is a remote administration system which allows the user to survey the desktop computer is not only in its immediate vicinity, but from anywhere on the network, both local and global - the Internet.
+
+The program consists of server and client side (the server part must be installed on the computer that you want to gain remote access). From many other similar programs, RealVNC is simple to install and configure. VNC allows you to work with the same desktop computer with different platforms. Thus, users of Windows operating systems can easily work with desktop remote server that is running the operating system Unix.
+Minutes VNC, which uses a program is a simple protocol remote access to graphical user interface. The basis of this protocol put simple: to display a rectangle containing the pixel data in the given coordinates x, y. Due to various coding schemes such seemingly inefficient way to display the components of the interface becomes a powerful vehicle for the transmission of graphical information.
+
+VNC Consisting of two components: server and client. VNC-server generates a display image, and subsequently the user sees on his screen. VNC-client, connecting to the VNC-server, constantly asks for an updated image of the display at the VNC-server. At higher connection speeds, such requests are done very often, which allows the user to see the smooth images when moving the desktop components, such as windows running programs. At low speeds the above requests are done less frequently, which may affect the display of graphics when changing their position or by changing the information contained therein.
+
+When connecting VNC-VNC-server identifies the client. Usually at the stage of 
+identification VNC-client asks the user for a password to access the remote desktop on VNC-server and the VNC-client exchange messages on the screen size, pixel format and encoding schemes.
+After starting the access to configuration and management VNC-server is done by right-clicking on the icon VNC, located in the tray.
+After setting the VNC server to connect to it must run VNC viewer (VNC client), enter the IP address of the remote computer and click OK.
+
+
+pls seed if u like 
+clean 100%
+horus

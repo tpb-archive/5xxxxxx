@@ -1,0 +1,20 @@
+FIXES:
+
+    * sometimes rared vobsub subtitles were not loaded
+    *  fixed subtitle editor bugs with new subtitle parser/renderer
+    * problem with frame capture with EVR and JPG file format
+    * bug with adding external audio files with MKV files
+    * text display in full screen skin with UTF8 language files
+    * proxy configuration in codec manager
+    * 'stealing focus' bug if 'Auto hide main window' option was set
+    * problem with local codec system, dll was loaded from system installed folder, instead local (ffdsow, libavcodec)
+    * when 'Always add all files in current directory to playlist' was checked and file with unregistered extension was dragged to player, it was ignored, fixed
+    * crash in subtitle editor
+    * some other bug fixes
+
+ ADDITIONS:         
+
+    * option to save downloaded subtitles
+    * option to define subtitle font sizes for different resolutions
+    * shortcut for 16:10 aspect ratio
+    * some improvements to local codec system

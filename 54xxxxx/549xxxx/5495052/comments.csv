@@ -1,0 +1,29 @@
+User Type,Username,Date,Text
+,Timewarptwo,2010-04-14T23:10Z,"I received my ""Netflix on the Wii"" disc yesterday. The very first thing it asks for is an update. I don't want to update my Wii. I put the disc into my computers DVD/CD-rom drive and my computer does not even detect it. I tried Imgburn and Any DVD and it still is not detected by my computer. I thought I could use imgburn in reverse and run wiibrickblocker on the file. What program did you use to read the disc in order to creat this torrent??"
+,Genewitch,2010-04-15T02:16Z,"I used the wii to rip it to my wii's hard drive, then plugged the hard drive into my PC, used WBFS GUI to extract the iso out, and wiiscrubber 140 to trim it down to the 20 megs.
+
+it wants IOS38 and 223. you should be able to manually update to that IOS and firmware using your ""tools"" or whatever."
+,Genewitch,2010-04-15T02:18Z,"the main reason i uploaded this is for people who use USBloader that wanted to ensure that it doesn't brick the wii.
+
+As i said, you can extract BCA on your own USBloader, and then the iso (it'll fit on a 32 meg thumb drive!) - and force 223-mload and start it up.
+
+I have no idea why anyone else would need this :-)"
+,Mallion,2010-04-18T20:21Z,Thank you for taking the time to upload this. It's greatly appreciated. +1
+,Genewitch,2010-04-21T09:44Z,You're welcome. For a change i provided something that no one else had :-D
+,sf-torrent,2010-05-15T17:05Z,"Tried registering an account from outside of the United States (with a fake address inside the US), running the disc on a US/NTSC Wii, and the netflix service refuses to activate or allow any Wii to function that uses an IP that is registered outside the US apparently. Either way, I guess TPB still really has no real competition when it comes to portability and (lack of) restrictions. Apparently the studios want people to pirate things since they put artificial barriers in place for people that might go for official/paid services, only to be disappointed by the lack of functionality and other imposed restrictions (not to mention thhat its hard to compete with free)."
+,Genewitch,2010-05-16T06:14Z,"sf-torrent: amen to that.
+
+Maybe see if anyone has a shell they're willing to let you tunnel through in the US?
+
+The main thing is most of the MPAA things don't own the rights to international distribution or something. So if they sign off on netflix they can only do it domestically, internationally is a different issue. That's why us USA people can't watch the BBC dr who on the website, we have to pirate it. :-/"
+,Genewitch,2010-05-16T06:15Z,"also, sf-torrent: did it even give you a number to punch in to your netflix account? Cause when you pop the disc in it will give you a code to link your wii to your netflix account..."
+,peterstew,2010-06-29T23:34Z,"apparently when i ran this in ""wiu1.1"" it said that the update partition is still there, so you might want to patch it :S ( according to this http://www.wiihacks.com/wii-games/54870-netflix-dummies.html ) anyways, i'm going to try to load it right now :] and we'll see how it goes.
+
+also you might want to use priiloader, to block the disc updates, etc."
+,Genewitch,2010-07-02T00:22Z,"I didn't hit it with WBB, because you need to do an IOS reload and use the BCA (if possible).
+
+Latest usbloader has all that in there. if you have a hard-modded wii, i guess i can WBB an image, but it's not in huge demand :-)"
+,bmgibben,2010-10-10T22:17Z,I can confirm that this ISO works correctly without needing any updates. I have 4.1U using HBC 1.0.8 and a Cover Flow Loader program with a USB HDD. Loading it onto the HDD with WBFS Manager.
+,joedesu1,2010-12-30T06:01Z,Hi all.  What is BCA and why should I extract it?  Im a little out of the loop i guess.
+,flyingstevedog,2011-03-03T04:09Z,"Tried this and I get  message that says ""disc nolonger supported, use the shop channel...any way around this?"
+,flyingstevedog,2011-03-03T04:11Z,"get a message that says disc no longer supported,use shop channel. Any way around this?"

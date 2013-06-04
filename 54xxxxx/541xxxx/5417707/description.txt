@@ -1,0 +1,180 @@
+Low and behold the Baldur's Gate 1 Ultimate compilation.
+
+--------------------------------------------------------
+
+So I took BG1 and converted it into TUTU installation. What it does is, makes BG1 use the engine from BG2, which is more advanced and gives more gameplay options.
+
+After that I've researched all the fixes and worthwhile mods that work 100% with TUTU version and compiled them in. I've kept it clean, as in, no hardcore mods or stuff that just plainly doesn't fit the world. The game holds true to the original, just being expanded and tweaked for the better.
+
+I've included the G3 widescreen mod so you can enjoy BG1 greatness in your native screen resolution. Tested up to 1080pworking, no crashes.
+
+The game is in English.
+
+--------------------------------------------------------
+
+The TUTU extension.
+http://www.pocketplane.net/tutu
+
+I followed the guide at Gibberlings3 to ensure I have 100% compatibility with all the mods.
+http://www.gibberlings3.net
+
+--------------------------------------------------------
+
+How to use the release.
+
+First unpack the game to your desired folder.
+
+Browse to the game folder and edit "baldur.ini" file. 
+
+Scroll to the following section and change the paths accordingly.
+
+
+HD0:=e:bgtutu		#This is main installation folder
+
+
+Now run the BGConfig.exe and configure the game according to your system specs.
+Computers dating from year 1999 and on should handle the game on highest settings.
+The config tool will ask you to test video settings. Agree on that and depending 
+on your settings you should see an RGB pattern. If the screen flickers during the test
+then the game has issues with 3D acceleration. Ignore that for the moment and disable the acceleration.
+Run the test again and now the flickering should be gone.
+
+Now find "setup-widescreen.exe" file and run it. Using this we will setup the game engine to display in your native resolution.
+Not doing so, unless you own a crt monitor, will result in "muddy" graphics.
+
+Let's get thru the widescreen config. You'll be presented with several options to choose from, as follows.
+
+--------------------------------------------------------
+
+Choose your language:
+ 0 [English]
+ 1 [Francais (Isaya)]
+
+0 for english
+
+Using Language [English]
+
+Would you like to display the readme? [Y]es [N]o
+
+N we don't want to read it
+ 
+Install Component [Widescreen Mod]?
+[R]e-Install, [N]o Change or [U]ninstall or [Q]uit?
+
+R to reinstall the mod
+
+Removing old installation of [Widescreen Mod] first ...
+Will uninstall  23 files for [WIDESCREEN/WIDESCREEN.TP2] component 0.
+Uninstalled     23 files for [WIDESCREEN/WIDESCREEN.TP2] component 0.
+
+SUCCESSFULLY REMOVED OLD [Widescreen Mod]
+
+
+Installing [Widescreen Mod]
+Creating 1 directory
+
+Enter your X coordinate. It should be a number, >= 800.
+
+1680 your horizontal resolution
+
+Enter your Y coordinate. It should be a number, >= 600.
+
+1050 your vertical resolution
+
+1680 x 1050.
+
+Are you sure? Y/N
+
+Y we surely are
+
+Copying and patching 1 file ...
+Copying and patching 2 files ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+Copying and patching 1 file ...
+
+SUCCESSFULLY INSTALLED      Widescreen Mod
+
+Press ENTER to exit.
+
+--------------------------------------------------------
+
+Voila, now just open up "baldur.ini" file and find the following value
+
+3D Acceleration=
+
+Turn it on by adding 1 on the end. Save the file and you are ready to enjoy the game now.
+
+Run it and see if the menus flicker. If they do there are several methods of dealing with it.
+First is to disable 3D acceleration. This will take out some eye candy and make some stuff look ugly.
+Second thing you might try is to turn on antialiasing. This have helped some people.
+Third you might want to try different driver versions for your graphics card.
+
+--------------------------------------------------------
+
+FIX & MOD list
+
+1 Pixel Productions
+1 Pixel Productions Avatars
+1 Pixel Productions Female Dwarves
+1 Pixel Productions Thieves Galore
+aTweaks
+Ashes Of Embers
+BG1 NPC Project
+BG1 NPC Project Music
+BG1 Unfinished Business
+BGQE Mini Quests and Encounters
+BGT Worldmap
+Ding0's Tweak Pack
+Drizzt is Not Stupid
+Easy TUTU Spawn Randomizer
+Full Plate And Packing Steel
+Hard Times
+Herbs & Potions
+Improved BAM's
+Learn Through Use
+Lost Items
+Mix Mod
+ProjectileR
+Rogue Rebalancing
+Sword Coast Stratagems 
+Sirine's Call
+Song and Silence
+The Grey Clan
+Tutu Sounds
+Tutu Tweak Pack
+Tutufix
+Widescreen Mod
+
+--------------------------------------------------------
+
+
+Please rate and comment, I'd like to hear from you people :D

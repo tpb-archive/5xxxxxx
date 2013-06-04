@@ -1,0 +1,66 @@
+This program is for Windows (all Os's) MAC (all os's) and Linux.
+
+FOR ALL OS SYSTEMS, JAVA MUST BE INSTALLED!!!!!
+
+FOR:
+Debian / Ubuntu USERS:
+
+Users of Debian and Ubuntu distributions may use our software repository to install JonDo and keep it up-to-date.
+
+Add the following line to /etc/apt/sources.list. Replace DISTRI by the name of your distribution. At the moment lenny, squeeze, sid, intrepid, jaunty, karmic and lucid are supported. 
+
+ deb http://debian.anonymous-proxy-servers.net DISTRI main
+
+The repository ist signed with the OpenPGP key JonDos_GmbH.asc. Download the key and add it to your apt keyring:
+
+ sudo apt-key add JonDos_GmbH.asc
+
+Afterwards you can install JonDo by:
+
+ sudo apt-get update
+ sudo aptitude install jondo
+
+After installation you will find JonDo in the applications menu of your desktop in the group network or you can start ist at command line with "jondo".
+Other distributions
+
+    * unpack with: tar -xjf jondo_linux.tar.bz2
+    * install with: sudo ./install_jondo
+    * or without root privilegs: ./install_jondo $HOME
+    * uninstall with sudo jondo --remove
+
+After installation you will find JonDo in the applications menu of your desktop in the group network or you can start ist at command line with "jondo".
+
+
+Installation "by hand:"
+
+Store the following file to your hard drive:
+
+JAP.jar (GPG signature, key)
+
+Now you can start JAP by typing in a shell:
+
+java -jar JAP.jar
+Java installation
+
+
+Windows:
+
+Double  click .exe
+Follow On Screen Directions.
+You may also choose a "portable" installation. It runs from flash
+drive and is compatible with
+PortableApps! (Use with JonDOFox also included!)
+
+MACOSX(ALLVERSIONS):
+
+Simply draw the program in the DMG
+file into a folder where you have write access.
+
+This is the updated torrent from my last upload.
+
+Encrypted speeds exceeding 150kbps for each proxy.
+
+
+Enjoy and seed.
+
+-Jugz

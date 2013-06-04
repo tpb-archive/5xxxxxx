@@ -1,0 +1,29 @@
+XXX     XXX XXXXXXXX	XXXXXXXX     XXXXXXXX              XX
+ XXX   XXX  XX		XX     XX    XX	    XX            XX
+  XXX XXX   XX		XX      XX   XX      XX          XX
+   XXXXX    XX		XX       XX  XX       XX        XX
+    XXX     XXXXXX	XX       XX  XXXXXX    XX      XX
+   XXXXX    XX		XX       XX  XX         XX    XX
+  XXX XXX   XX		XX      XX   XX          XX  XX
+ XXX   XXX  XX		XX     XX    XX           XXXX
+XXX     XXX XXXXXXXX	XXXXXXXX     XXXXXXXX      XX
+
+XePatcher v1.1 by TheFallen93 & c0z
+
+This app will compile a .s patch file and apply it to an xex. It will also 
+encrypt or compress the modified xex. This app should help a shit load with
+hacking xex files. The format for patches is the same as FreeBoot/XBR. Just
+use the addresses you find in IDA as the patch address. I would recommend
+loading the xex as a binary file and using an idc, I seem to have better
+luck that way then loading than as an xex.
+
+NOTE: Everyone who uses this will have to put XexTool.exe in the same folder as
+XePatcher.exe. Don't blame me blame the poon (dstruktiv).
+
+Ussage:
+   -p <Patches.s File> 
+   -x <Xex Image>
+
+Post Patch Commands:
+   -c <Compress Xex Image>
+   -e <Encrypt Xex Image>

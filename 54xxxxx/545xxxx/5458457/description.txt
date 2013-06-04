@@ -1,0 +1,27 @@
+Proper Notes:
+
+In RELOADED exe steamworks triggers are not resolved, look
+example:
+
+00401010     51              PUSH ECX
+00401011     B8 30354900     MOV EAX,JustCaus.00493530
+00401016     FFD0            CALL EAX           <- CRASH HERE
+00401018     59              POP ECX
+00401019   - FFE0            JMP EAX
+
+Properly fixed:
+
+00401010     51              PUSH ECX
+00401011     B8 10926F00     MOV EAX,JustCaus.006F9210 <- Good
+address restored
+00401016     90              NOP
+00401017     90              NOP
+00401018     59              POP ECX
+00401019   - FFE0            JMP EAX
+
+RELOADED did also miss 2 vital game files in archives_win32
+folder. Files pc4.arc and pc4.tab to be precise.
+
+Also our crack do not take 20 secs to start exe.
+
+HIGHSPEED @ http://www.torrentzone.net

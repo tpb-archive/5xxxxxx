@@ -1,0 +1,15 @@
+Xbox 360 Commander Beta Rev. 5
+
+Icepir8icepir8 released new revision of Xbox 360 Commander Beta, a Windows utility to backup/restore, transfer on and format Xbox 360 hard drives.
+
+What's new/fixed (since first release):
+* This revisions address some of the problems that jtag systems have been having. Also I have had a few issues with HDDs that Xplore360.exe has updated. (rev 2)
+* This revision has the fix for HDD > 250gb in size. There still are issues with the large drives. I can't test this directly so I need feed back! (rev 3) 
+* Drag files and folders to the file window to copy to HDD. (rev 4)
+* Right click on selected files and folders to extract from HDD. (rev 4)
+* Error checking of the files being added is nil so back up first! (rev 4)
+* Drag and Drop improved. (rev 5)
+* Double clicking on a directory in the right window changes to that directory. (rev 5)
+* Fixed Partition 1 problem (rev 5)
+* Fixed crash when updating the Calculated size in the HDDSS. (rev 5)
+* Error checking of the files and folders being added is still nil so back up first! (rev 5)

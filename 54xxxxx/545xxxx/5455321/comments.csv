@@ -1,0 +1,76 @@
+User Type,Username,Date,Text
+[V],BLACKTROY,2010-03-22T23:55Z,feedback welcome
+[S],velvet.,2010-03-23T02:19Z,Enjoy your green skull.
+[V],BLACKTROY,2010-03-24T15:04Z,hope you guys will continue to seed. i left my pc on for three days. is time to move to something else.
+[V],BLACKTROY,2010-03-25T22:11Z,i am fed up with complain.i am stuck blar-blar-blar. ve been seeding. infact ve uploaded 4 gig so far. hit and run is bad. look guys don't expect me to on my pc for ever.
+,simegof,2010-04-11T21:50Z,"can someone upload 64bit version?
+thanks"
+[V],BLACKTROY,2010-04-17T22:17Z,"
+simegofphere is the x64 bit version
+
+http://thepiratebay.org/torrent/5501124"
+,simegof,2010-05-08T19:21Z,"thanks very much, blacktroy. im using only r17 and r19 professionally but im curious to see what kind of improvements r20 has. thanks again"
+,simegof,2010-05-08T19:24Z,"randyman33, you have to paste it over"
+,simegof,2010-05-20T22:22Z,randyman33; how do you mean you can't find it? JS0GROUP.dll is in _SOlidSQUAD_ directory  on disc image
+,john rallus,2010-05-27T17:28Z,"many thanks to the Uploader and the Seeders!!!
+do you know if it could work on an W7 x64? yes, i need this for an XP x86 machine, but i wonder if it could also be installed on an x64 computer?"
+,maruwo,2010-09-13T23:37Z,"I installed in W7 64bit and it works good, I do have one problem with, what I think must be the graphic card and a refreshing problem. The ""mouse over"" function where you prehighlight data isn't working and there are problems with the tree to, I do have to rotate very often to see what I picked. I'm using a Invidea GTX graphic card in my laptop."
+,reloordan,2010-09-17T19:48Z,"Many thanks to ULoader and seeders!
+1) Installed on Win7 64bit, started with SPO 1st and did the .dll file replacement. Without loading, continue on with SP1 but installation failed.
+2) Load up SP0 successfully, but no access to part design and all other features despite checking MD2 etc licensing options.
+3) Had uninstalled the CAD currently.
+Can maruwo or other pls advise? Been working with CATIA since R13, is been a dream to be able to try out other capable features of this CAD program. "
+,maruwo,2010-09-18T20:47Z,"I downloaded this version
+DSS.CATIA P2 V5R20 GA x64
+burned the data to a real DVD (this should not make a difference). Installed the Catia copied the JS0GROUP.dll into the right dir (there is a file you have to overwrite) Started catia enabled all licenses in options and restarted the system
+Everything works fine exept I have a refresh or double buffering problem with my Invidia GTX craphics card and I'm looking to get the help files."
+,reloordan,2010-09-19T06:41Z,"@maruwo
+Noted. Started to re-download x64 version and will seed whenever i can. Thanks.
+
+Will try it out with my Nvidia GeForce GT335M graphics card on my lappie and see whether will have any problems. Thanks "
+,Montan,2010-10-19T16:59Z,"I have got some problems and I really appreciate if anyone can help me. I have done the following:
+1) Installed the Catia software (Windows 7)
+2) Extacted the JS0GROUP.dll file from the ISO program (winISO)
+
+But still there's no licences to activate. Am I missing something? Has anyone gut a clue how to solve this issue. (Feeling a bit retarded right now) "
+,maruwo,2010-10-26T23:52Z,"To get to the licensing
+Select Tool
+than Options...
+select General at the left side
+and the 4th tab is licensing
+now you select from ADD to WS1 everyone
+that's it"
+,maruwo,2010-10-26T23:53Z,"The licenses are a little bit hidden
+select Tools / Options... 
+inside the option menu go to General and the 4th tab is the licensing
+now you select from ADD to WW1 or so everything"
+,Nextna,2010-12-29T21:39Z,"Please! Why everything at main window (blue screen/work area) are streched/deformed?
+what I need to do?"
+,Nextna,2010-12-29T21:47Z,"Even my white ""3 axys"" at right side is deformed."
+,mayan.kak,2011-01-31T18:02Z,thanks blacktroy for putting it up for us but i am facing a problem running the whole thing ...followed all the steps ....i open it ...it shows not responding...now what do i do ..could anybody help ?
+,ak2011,2011-07-02T00:15Z,"please please can somebody help, i installed CATIA V5R20 from BLACKTROY 64bit but I can't tick non of the configuration licenses, when i open it it says 'You have not requested a configuration or product licenses.'"
+,supremeplayerr,2011-09-11T17:44Z,"BLACKTROY !!!!!
+You are the man 
+Smooth install
+
+works perfectly !!!
+
+Thank you very much!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+,maverick482383k,2011-10-15T23:17Z,"Thank You!!! BLACKTROY, I am having issues with starting Catia V5R20. When I try to start to use it I get a window saying 
+
+""You have not requested a configuration or product license
+
+Click OK and select at least one configuration license using the License Manager Dialogue box.""
+
+When I click OK on the window I get the License Manager but I cannot select anything. 
+
+Can someone help me?"
+,Hemac88,2011-12-17T04:10Z,"I have problem with licence?
+
+Program stop when starting."
+,atekinak,2012-02-20T07:16Z,Just downloaded and installed. Works great after following replacing JS0GROUP.dll. Thanks a lot!
+,mazvydeelis,2012-03-06T11:16Z,"Thanks !
+Just read instructions: move JS0GROUP (from _SolidSQUAD_ ) to installation place intel_a/code/bin"
+,Bushman1961,2012-07-10T21:46Z,"Hi!
+Tried this download, for a start it worked just fine, tried the program, it started, then I also installed the update that were in and then all stopped working. Tried to uninstall and and start all over, but no. Now I've a strange fault, can't reinstall, can't uninstall ""prerequisites x86"" and when starting the installation again, it just fail....what can be wrong, someone??"
+,Bushman1961,2012-07-10T22:17Z,"Ok, made it..copied the whole structure to a new folder, replaced the file JS0GROUP.dll and the installation started, just replaced it one more time after that and the program started. But what about ""CATIA_P2 V5R20 GA(SP0) Win32].DSS.CATIA.V5R20.SP1.Win32.Update_SSQ.iso"" I will not install it again, not until I know why all fails after doing it..someone?"

@@ -1,0 +1,36 @@
+User Type,Username,Date,Text
+,gdtrfb777,2010-07-14T04:39Z,will somebody please explain in detail how to do this.  thanks.  rxr777@hotmail.com
+,funnyq,2010-09-08T20:17Z,Does anyone have the G2 Vision card for northeast Florida? If so please give me the torrent.
+,funnyq,2010-09-08T22:30Z,"gdtrfb777:
+
+This is not what it says it ""covers"" ... it is SW Florida (Withlacoochee River to 20 mi south of Key West) as depicted in the map above.
+
+To use it do the following:
+1. You will need your Card ID. Get it like this:
+   a. Put the card into the GPSMap 640
+   b. Hold your finger on the upper right of the screen
+   c. Power on (keep your finger on the screen). If it does not reboot then switch modes and hold your finger in place (can use car or boat mode).
+   d. You will get a data screen. Touch Next twice. See the Card ID shown as ""Serial"".
+   e. Move the SD card to your computer (below I used e:)
+2. download http://thepiratebay.org/torrent/3924373/Garmin_Keygen__made_by_JetMouse_
+3. Run the .exe (it is safe --- I virus checked it with Avast!)
+4. Enter the Card ID into the top box and click Generate.
+5. Under ""Select Map Product"", click the drop down and select .
+6. Enter the number 487 for the MapID code and click Generate for that.
+7. Swipe and ctrl/c the unlock code that gets displayed for the ""your map unlock code""
+8. Notepad e:\Garmin\GMAPSUPP.UNL (where e: is where your SD card is)
+9. Paste in the value from step 8 and save the file.
+10. Copy the gmapsupp.img from this torrent to e:\Garmin
+11. Be sure to use Safe Removal to be sure the data was written to the SD card.
+
+You should now be able to put the SD card into your GPSMap 640. Select Charts/Navigation Chart. Zoom out until you can see all of Florida and you will see the outline of the map data for VUS011R."
+,funnyq,2010-09-17T16:44Z,"Opps, I was not clear above.
+
+In step 5: select  (at the bottom of the list).
+
+In step 8: Make a folder called Garmin in the root of the SD card. Then Start/Run/Notepad e:\Garmin\GMAPSUPP.UNL (where e: is the location of the SD card). If GMAPSUPP.UNL does not exist, Notepad will create it. Don't make a mistake by copying the GMAPSUPP.UNL file from a torrent over the top of the one created by you."
+,funnyq,2010-09-17T16:56Z,"If you are loading a map where they did not give you the map ID, get it this way: use GmapToolSetup055.exe (get it from http://www.anpo.republika.pl/download.html), open the .img file, click ""Info"" and search for ""FID""."
+,justfish,2011-04-05T15:37Z,Does anyone have the following chart? Garmin BlueChart g2 Vision VUS010R Southeast Florida FL
+,night0wl,2011-11-12T01:06Z,"Please...please...*PLEASE* upload a g2 chart of SouthEAST florida....VUS010R
+
+Thats the only region I have missing!"

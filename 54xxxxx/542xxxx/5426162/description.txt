@@ -1,0 +1,131 @@
+This loader works when others fail.
+
+
+------------------------------------------------
+ACTVIATION ENSURED
+
+------------------------------------------------
+
+------------------------------------------------ 
+http://img706.imageshack.us/img706/5127/capture1.png
+
+Ensure you login as administrator. Activate your copy of windows 7 / Vista/ Server 2008, all edition or uninstall all types of cr**k (bootmgr,bootloader or key/cert) from any loader in one click..
+------------------------------------------------
+
+
+If you have no idea of OEM activation, just click install (default) and wait for install to finish. If loader info inside SLIC Info shows in GREEN color, reboot ur PC and check status.  If ldr info is in red, try changing option under bootloader from random to normal, repeat the steps above. If it stills fails, i recommend you to uninstall bootloader function within to its original state.
+
+
+
+
+It will work in
+
+   * Windows 7 Ultimate x86 & x64
+   * Windows 7 Professional x86 & x64
+   * Windows 7 Home Premium x86 & x64
+   * Windows 7 Home Basic x86 & x64
+   * Windows 7 Starter x86
+   * Windows Server(R) 2008 Standard x86 & x64
+   * Windows Server 2008 R2 Standard x86 & x64
+   * Windows Server(R) 2008 Enterprise x86 & x64
+   * Windows (R) Small Business Server 2008 x86 & x64
+   * Windows Vista Ultimate x86 & x64
+   * Windows Vista Business x86 & x64
+   * Windows Vista Home Premium x86 & x64
+   * Windows Vista Home Basic x86 & x64
+   * Windows Vista Starter x86
+
+
+
+
+MD5...: fe8e128b1bd6a171ddcf2b32eec299d6
+SHA1..: ce7a1c0c13b2b9899f0d71cb539845cf085727f0
+
+
+
+
+
+Update :
+
+
+Vista7 Slic Ldr 2.4.8
+
+   * Fix for autoselection of OEM slic, cert and key.
+
+
+
+
+
+
+
+
+
+Instructions:
+1. Unzip
+2. Just press 'Install' and restart pc and it will be activated and genuine
+
+
+
+
+
+
+Basic Info:
+
+   * OEM (Certificate & Key) install only where bios already (or modded) contains slic 2.1
+
+   * Add slic 2.1 to Bootloader (0.97 grldr customised by Zsmin for me) with option (Default,Alternative, Low Memory, Debug, Forceful)
+     - default option allows auto-detect best method where possible
+     - alt method relocates SLIC, RSDT, XSDT and RSD PTR to low memory
+     - low memory method relocates SLIC to low memory
+     - forceful mode tries to activate on systems where some checks don't complete successfully, may cause problems.
+     - Debug mode allows view to process behind bootloader.
+
+   * Install GUID Path (Thanks to PAYMYRENT) failing which install using Mount method.
+
+   * Add Security to bootloader (Read Access only).
+
+   * Randomly renamed grubloader (Thanks to PAYMYRENT) failing which allow its user to try normal grldr.
+
+   * Add slic 2.1 to Bootmgr (No grldr means less time to boot, not recommended).
+
+   * Certificate install where you want to replace certificate only.
+
+   * Key install where you want to replace key only.
+
+   * OEM Slic detection with matching OEM Key if possible. (You can always choose different OEM Key available or own custom key)
+
+   * Check incorrect custom key.
+
+   * Detects SLIC version(Thanks to MasterDisaster) and then autoselect best activation mode.
+
+   * Detects BIOS Mod, any loader or if no loader installed in most cases.
+
+   * Option to add custom slic and certificate.
+
+   * Works when Multiboot OS too (tested with XP, Vista, Linux and Mac on different partition)
+
+
+
+
+Advantage:
+
+   * Fast Install (since based on WMI script).
+   * Single file.
+   * Much smaller in size (since based on .NET Framework 2.0).
+   * Bootloader are randomly renamed and so uninstall of old ldr not necessary.
+   * Slic can be added in bootmgr (Not recommended).
+   * Cert & Slic option are together for OEM install.
+   * Cert can be installed/replaced only.
+   * Key can be replaced only.
+   * Option to add your customised OEM info and logo.
+   * Option to backup and restore your licence (useful for retail and mak key users).
+   * Option to dump slic matching OEM certificate.
+   * Default start autoselect best activation mode, slic, cert and key.
+   * Detects BIOS Mod, any loader or if no loader installed in most cases from MBR of disk.
+   * Option to add CUSTOM certificate & slic for bootloader or certificate only for bios mod includes validating MATCH.
+
+
+
+
+
+**If you are having problems activating Windows, make sure any other cracks/loaders you used before this one are either uninstalled from your computer or you can just do a clean install of Windows then run this loader and activate it without any problems.**

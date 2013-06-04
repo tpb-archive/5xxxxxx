@@ -1,0 +1,15 @@
+This is the legendary collection of dictionaries and wordlist from openwall.org. These are designed for use with John The Ripper, but can work with any program for bruteforcing passwords, WPA strings etc. The description at http://www.openwall.com/wordlists/ says:
+
+---
+This wordlists collection is a result of processing many hundreds of public domain wordlist files from multiple sources and in a variety of file formats. Most files were rejected for being duplicates or for poor quality, but a few hundred remained and went into the combined wordlists you will find here.
+
+The wordlists are intended primarily for use with password crackers such as John the Ripper and with password recovery utilities.
+
+Included in this collection are wordlists for 20+ human languages and lists of common passwords. The included languages are: Afrikaans, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Latin, Norwegian, Polish, Russian, Spanish, Swahili, Swedish, Turkish, and Yiddish. There's also a list of the common passwords and unique words for all the languages combined in one file (over 40 MB for almost 4 million entries).
+
+Included only on the CD and not available in the freely downloadable version of the collection is a huge list of all the common passwords and words from all the languages with word mangling rules applied (to form other likely passwords, such as by adding capitalization or digits to words) and any duplicates purged. This wordlist is provided as a single uncompressed text file usable directly off the CD. Its size is almost 500 MB and it has over 40 million entries.
+
+For all wordlists, the entries are sorted either alphabetically or for more common to less common passwords/words/languages with alphabetical order within each section (for about equally common passwords or words, or for individual languages). There are no duplicates. 
+---
+
+This is a single zipfile, the same one included in the paid-for download from openwall.org (the description mentions a CD, but the files are the same). Have fun and be safe!

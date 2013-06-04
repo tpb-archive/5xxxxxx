@@ -1,0 +1,81 @@
+How to create a partition on top of the partition, without damaging you OS.
+
+
+Please read carefully and proceed with caution and please understand we are not responsible fot your actions taken from the following steps.
+This has been tested and it should work fine.
+
+
+Let's sys you want to install another operating system without formating your hard without any change to your system done, or you want just 
+another partition fo future use, whether you want it as linux file-system or as windows file-system , Or USB or any other device.
+
+Fo this tutorial we gonna use  Puppy linux 4.2.1 version.
+
+Requirements
+
+A cd with puppy linux installed on it.
+A windows OS or Linux OS on your pc installed.
+
+--For windows--
+
+Puupy homepage.
+ 
+http://puppylinux.org/main/index.php?file=How%20to%20download%20Puppy.htm
+
+If you'v already downloaded puppy linux and burned it on CD, then use the following procedures.
+
+1. Reboot your system and log to Bios settings menu.
+2. Select for Boot priority , CD to be the first to boot, save seetings insert Puppy cd on your drive and restart.
+2. Once you restart you should be able to boot from cd to Puppy linux.
+3. If are at the Puppy screen, chose menu -> system and select Gparted.
+4. On the gparted window you will see your Hard drive, if mounted right click to   unmount it, right click again to resize the hd to your appropriate needed size and click apply then restart back to windows.
+
+5.Once logged in windows right click my computer and click manage->disk mamagment and you should see the unallocated drive you just created in 
+puppy. Right click that one and select new partition, click next, select as primary click next, assign a drive letter, click next, and for 
+
+format chose ntfs, for label(eg linux or Mnew drive) and perform quick format, click next, and click finish.
+The drive should be formated and ready to use.
+
+All done
+
+
+Try this.............
+
+Advanced please only
+Newbies with caution???
+
+Now for fun let's restart, boot back to Puppy and try this
+Go to gparted and format the partition we created to ext3 and right click for flag chose boot , unflag the windows one.
+Open the puppy cd and copy the files initrd.gz vmlinuz and puppy421.sfs file to you new partition we formated to ext3
+
+Go to create  boot-loader from system menu and create the boot-loader for that drive(partition)(mine is /dev/sda2)
+is the one with ext3 fs, so you can't go wrong here
+Remove the cd and restart and you should be able to directly boot to puupy without the cd (well what we'v done here we just installed puppy 
+
+without any installation or any CD.
+
+If you got an error at the boot screen, Type this on the screen
+
+kernel /vmlinuz
+initrd /initrd.gz
+boot
+
+Why we got that error because you have to modify the menu.lst with those lines above on puppy boot folder.
+
+There is more in this tutorial than you can imagine, say u can't boot from usb or your pc wont boot from usb. you can use the same procedures 
+to brute force boot USB installation  hehe.... 
+
+Enjoy and if you get into trouble plese leave a comment???
+
+Brought to you by Dummy-Team.
+
+My spieling is awfuller
+
+
+
+
+
+
+
+
+
+

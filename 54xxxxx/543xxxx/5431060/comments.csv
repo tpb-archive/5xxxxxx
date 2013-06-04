@@ -1,0 +1,24 @@
+User Type,Username,Date,Text
+,Ahmedattia24,2010-03-12T18:55Z,snaps?
+,TKOG13,2010-03-12T22:44Z,"can you please upload this in the smaller (PSP, Ipod, Zune) format"
+,oldSMfan,2010-03-13T00:05Z,"Thnx PT [poppedtart]!
+Cheers!
+:O)"
+,moshster,2010-03-16T21:16Z,"There seems to be something wrong with the H264 track.  When demuxed (withMP4box) and remuxed into MKV (MKVmerge) keeping only the H264 and AC3 tracks, it stutters when streamed to the PS3."
+[V],poppedtart,2010-03-16T23:03Z,seems you are doing something very strange...  the ps3 doesn't support mkv nor ac3 in mkv.  your streaming software is having to do so some serious work to make that playable on your ps3.  just use the .m4v as is unaltered on your ps3 and it will be fine.  what you are doing is completely unsupported and no surprise if it doesn't work properly.
+[V],poppedtart,2010-03-16T23:07Z,You dont need to use mp4box either.  mkvmerge gui supports reading straight from m4v/mp4.  you can just uncheck the mp4a track if you dont want it and create a mkv that contains only the video and dd.
+[V],poppedtart,2010-03-16T23:11Z,these files are pretty easy to use with samsung led tv's using mkvmerge gui.  the major problem with those tv's is they dont support dts audio.
+,moshster,2010-03-19T22:20Z,"I'm using PS3 Media Server, a very reliable streamer.  The process I'm using of extracting H264 and AC3 to make an MKV has worked for all my other MKVs and other PT M4Vs too.  It's only the Sherlock Holmes H264 that the PS3 seem to have an issue with once it is demuxed and remuxed.  Very weird."
+[V],poppedtart,2010-03-20T04:12Z,"dont know what to tell you, this is no different than all the rest, same encoder settings, nothings changed.
+
+I dont think you should be doing what you are doing however."
+,moshster,2010-03-20T17:39Z,"I've just applied the same process to 3Li's (Sherlock Holmes 2009 BRRip 720p H264-3Li) relaease and the H264 track works fine.
+
+I know it may seem odd what I'm doing but I like to have all my media in Matroska containers with Dolby 5.1 audio tracks as this is highly compatible with the devices in my home theater setup.  
+
+As I've said, other PT release have been fine, just this one."
+,dwjake,2010-07-29T16:32Z,"Poppedtart - What program do u use to convert the blu-ray dvd to mp4? 
+
+Thanks so Much!!!
+
+Qualities are Great!"
