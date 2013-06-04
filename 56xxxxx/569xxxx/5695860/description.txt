@@ -1,0 +1,58 @@
+General
+Name : Bhagam Bhag
+Format : AVI
+Format/Info : Audio Video Interleave
+Format profile : OpenDML
+File size : 695 MiB
+Duration : 1h 56mn
+Overall bit rate : 831 Kbps
+Writing application : AVI-Mux GUI 1.17.8.3
+
+
+Video
+ID : 0
+Format : MPEG-4 Visual
+Format profile : Advanced Simple@L5
+Format settings, BVOP : Yes
+Format settings, QPel : No
+Format settings, GMC : No warppoints
+Format settings, Matrix : Default (H.263)
+Codec ID : XVID
+Codec ID/Hint : XviD
+Duration : 1h 56mn
+Bit rate : 764 Kbps
+Width : 544 pixels
+Height : 288 pixels
+Display aspect ratio : 1.889
+Frame rate : 25.000 fps
+Resolution : 8 bits
+Colorimetry : 4:2:0
+Scan type : Progressive
+Bits/(Pixel*Frame) : 0.195
+Stream size : 639 MiB (92%)
+Writing library : XviD 1.2.1
+
+
+Audio
+ID : 1
+Format : MPEG Audio
+Format version : Version 2
+Format profile : Layer 3
+Mode : Joint stereo
+Codec ID : 55
+Codec ID/Hint : MP3
+Duration : 1h 56mn
+Bit rate mode : Constant
+Bit rate : 64.0 Kbps
+Channel(s) : 2 channels
+Sampling rate : 24.0 KHz
+Stream size : 53.5 MiB (8%)
+Alignment : Aligned on interleaves
+Interleave, duration : 981 ms (24.52 video frames)
+Interleave, preload duration : 216 ms
+Title : Bhagam Bhag Final Tc0 L2 2ch 44.1 224 DELAY 0ms
+Writing library : LAME3.98r
+
+
+Source : VCD
+Ripper : Nordmariner

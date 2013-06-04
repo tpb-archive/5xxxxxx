@@ -1,0 +1,60 @@
+Stop Information Leakage: Web Server Anonymization
+Obscure Headers, Cookies, & Error Messages
+Remove Unnecessary HTTP Header & Response Data
+Broadcasting your Web server's identity allows intruders to
+complete their first task -- fingerprinting your technology.
+ServerMask removes unnecessary HTTP header and response data
+and camouflages your server by providing false signatures.
+
+What ServerMask Does:
+Contributes to PCI Compliance
+ServerMask provides application-layer error suppression for PCI compliance.
+
+Per-site Configuration
+ServerMask allows for multiple default profiles and the ability to create custom profiles, allowing unique settings to be applied per domain.
+
+Masks Server Name Header
+ServerMask will mask the Server name header in a number of ways:
+Remove altogether
+Replace with one of 30 other Web server signatures
+Replace with a custom server name you create
+Select multiple false Web server signatures and randomize the response (you select how often a response is refreshed).
+
+Rewrite Identifying Session Cookie Names
+ServerMask will rewrite identifying session cookie names, such as ASPSessionID and ASP.NET_SessionId, using one or more alternative names and fabricate decoy cookies to further confuse attackers. ServerMask utilizes One-to-many cookie masking.
+
+Rewrite 404 & Application-layer Errors
+ServerMask suppresses info leakage by converting 500-range errors to 404 errors, then presenting custom 404 responses.
+
+Remove Identifying File Extensions
+ServerMask removes identifying file extensions, such as .asp, .aspx and other Microsoft technologies from source code and URL display.
+
+Remove unnecessary HTTP headers
+ServerMask removes unnecessary HTTP headers, such as PUBLIC, X-POWERED-BY and others.
+
+Emulate Other Server Data
+ServerMask will emulate the ETAG and ALLOW header formats of non-IIS servers. (As well as Apache's HTTP header order.)
+
+Decoys & Error Messages
+ServerMask provides Auto-generated decoy cookies and headers, and customizable HTTP error messages.
+
+Diagnostics & Validation
+Online diagnostic tool for checking page cacheability and validation tool provided for checking syntax of rule statements
+
+Ease of Use
+Completely redesigned user interface, featuring 100% managed code.
+
+System Requirements
+OS: Windows Server 2003 with Service Pack 2 or Server 2000 with SP4
+Hardware: x86 (32-bit) or x64 (64-bit)
+Note: IIS 7 / Windows Server 2008 not yet supported (sign up for the IIS 7 Beta Alert)
+
+The following runtimes are also required but can be installed by the ServerMask installer if not already present on the target system:
+.Net 2.0 (or higher)
+Download the x86 (32-bit) version.
+Download the x64 (64-bit) version.
+Visual C++ 2005 SP1
+Download the x86 (32-bit) version.
+Download the x64 (64-bit) version.
+ 
+Enjoy

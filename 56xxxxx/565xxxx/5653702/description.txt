@@ -1,0 +1,48 @@
+Win7 Slimmed_Autounattend_Fixed Patch_(FreakyChokra)
+--------------------------------------------------------------------------------
+@ everyone who downloaded the Windows 7 Ultimate x64 Slimed 02 (Freaky Chokra).
+@:
+ 
+http://thepiratebay.org/torrent/5649914/Windows_7_Ultimate_x64_Slimed_02_%28Freaky_Chokra%29
+
+Here's the edited file I've prepared which will fix the Serial Key error.
+
+Just downloaded this .ZIP file torrent, and unzip the "Autounattend.xml" file.
+
+Use Novicorp WinToFlash, and transfer the Slimmed Windows 7 x64 Ultimate INstallation Setup to any 2GB or larger USB Pen drive.
+
+Then simply overwrite the "Autounattend.xml" file on the USB drive with this downloaded file.
+
+Or alternatively you can simply edit the
+
+"Autounattend.xml" file, and edit/reduce the following original lines:
+
+<UserData>
+<ProductKey>
+<Key>Actually my serial key here ;)</Key>
+<WillShowUI>onerror</WillShowUI>
+</ProductKey>
+<AcceptEula>true</AcceptEula>
+</UserData>
+
+TO:
+
+<UserData>
+<AcceptEula>true</AcceptEula>
+</UserData>
+-------------
+Delete these lines only: 
+
+<ProductKey>
+<Key>Actually my serial key here ;)</Key>
+<WillShowUI>onerror</WillShowUI>
+</ProductKey>
+
+And use Vlite to make an ISO image.
+
+The Slimmed Windows 7 x64 Setup will not show any error anymore.
+
+Apologies for the goof up with vLite. It inserted the serial key installed by one of the working activators.
+
+Regards,
+Freaky Chokra

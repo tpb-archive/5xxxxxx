@@ -1,0 +1,63 @@
+Frida (2002)         http://www.imdb.com/title/tt0120679/
+
+Awards: Won 2 Oscars, another 12 wins & 28 nominations   
+
+A biography of Mexican artist Frida Kahlo, who lived a bold and uncompromising life as a political,
+ artistic and sexual revolutionary while suffering from physical and psychical pain.
+
+Format                             : Matroska
+File size                           : 1.85 GiB
+Duration                           : 1h 57mn
+Overall bit rate                 : 2 251 Kbps
+
+Video
+Format                               : AVC
+Display aspect ratio            : 1008 x 544 (AR 1.853, 720 x 544 anamorhic)
+Original display aspect ratio    : 1.855
+Frame rate                          : 25.000 fps
+Stream size                        : 1.45 GiB (78%)
+Writing library                    : x264 core 88
+Encoding settings                : cabac=1 / ref=6 / deblock=1:-1:1 / subme=9 / psy=1 / me_range=64 / 
+                                                      / trellis=2 / bframes=6 / b_pyramid=2 / b_adapt=2 / rc=2pass / 
+
+Audio English : AC-3, Constant, 448 Kbps, 448 Kbps, 6 ch, 48.0 KHz, 377 MB (20%)
+
+Subtitles: English, Arabic, Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hungarian
+Italian, Norwegian, Polish, Port & Bra, Romanian, Russian, Serbian, Slovak, Spanish, Swedish, Turkish 
+http://a.imagehost.org/0303/1_127.jpg 
+http://i.imagehost.org/0382/2_33.jpg
+
+Soundtrack: mp3, VRB 224 KB/s (160-320)
+
+Sample: 10 MB, multisub
+
+Chapters: 29
+
+All subs show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+If the subs are muxed in mkv download & use "MKVextractGUI" to extract(demux) the subtitles from mkv, and "mkvmerge GUI" to mux back the edited/repaired sub in the mkv.
+Download "Notepad++" (free): 
+http://sourceforge.net/projects/notepad-plus/ 
+The sub you demuxed from mkv: Open and save as...ANSI !(Important!)
+Right click on the sub/Open with nppIExplorerShell.exe (Notepad++ exe)/
+click Encoding(upper part menu)/Character sets and chose the language ISO.
+Click again on Encoding/then click on Convert to UTF-8 or Unicode Big
+Indian/save as...srt. You're done with the encoding, now you can mux it back 
+in the mkv with mkvmergeGUI, select the language & mux.
+
+#############################################################################
+
+Those with Win 7 64 bit might have issues with playing back secondary or external audios & subs etc.
+If k-lite pack(too complicated) not working try CCCP ( 
+http://www.cccp-project.net/   ) 
+using the same player (Media Player Classic).
+When installing check "Enable Shell Extensions & Thumbnails (under Select Aditional Taskd Haali), check
+Haali Media Splitter- Autoload VSFilter, VSFilter Subpicture Pre-Buffering & Re-Register Filters, the rest leave as it is. When finished open the player, click View/Options/PlaybackOutput/check Evr Costum & chose System Default under DirectShow Audio.
+Under Internal Filters - Source Filters should be checked DirectShow Media, Matroska & MP4 & Transform Filters should have H264/AVC(DXVA) checked. When playing multiAudio & subtitles movie select audio by right-clicking on the screen/Audio, subtitles right-clicking on the Haali Media Splitter on the icon bottom right Task Bar.
+Now I can even play even Blue-ray m2ts being able to switch between Audio tracks
+ by clicking on the Haali Media Spliter on the task bar bottom right.
+
+#############################################################################
+
+All my torrents are seeded. I regularly check back my older torrents and I will reseed where needed.
+Most of us want only the English (usually) Audio so I got the secondary tracks separately (demuxed).

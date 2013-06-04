@@ -1,0 +1,90 @@
+BBFlashBack is an easy-to-use application that captures all Windows desktop activity to a movie, recording exactly what you see on your computer.It comes complete with a built-in editor that allows you to annotate movies with text and record a spoken commentary.Publisher edition can export to Flash and AVI formats so movies can be embedded in web pages and documents.
+
+Desktop edition includes a simple 'Send Report' function that attaches the last few minutes of screen activity to an incident report mail. High performance technology means recording runs in the background and is almost undetectable on modern PCs.
+
+Uses include PC support and software demonstration or tutorial creation.
+
+Key features
+â€¢ Record and replay movies of your screen.
+â€¢ Export movie to Macromedia Flash format.
+â€¢ Export movie to AVI file.
+â€¢ Export movie to WMV file.
+â€¢ Export movie to standalone EXE file.
+â€¢ Full PowerPoint plug in and support.
+â€¢ Selectable codecs for AVI and WMV formats.
+â€¢ Create/edit HTML templates for web movies.
+â€¢ Record sound through microphone.
+â€¢ Import audio files.
+â€¢ Automatically change screen resolution during recording.
+â€¢ Auto switch-off for Windows graphic effects.
+â€¢ Set plain desktop wallpaper while recording.
+â€¢ Hide desktop icons while recording.
+â€¢ Capture all sound playing through system.
+â€¢ Keystroke logging and playback.
+â€¢ Hotkey control.
+â€¢ Capture only last selected number of minutes.
+â€¢ Compatibility mode for recording on older PCs.
+â€¢ Check for updates wizard.
+â€¢ Navigate by selected movie event.
+â€¢ Framebar shows all movie activity.
+â€¢ Search movie for text string.
+â€¢ Add textboxes and annotations.
+â€¢ Colour fades, shadows and transparency effects on text.
+â€¢ Recently recorded movies list.
+â€¢ Import images files into movie.
+â€¢ Convert selected frame to bitmap file.
+â€¢ Set custom frame rates.
+â€¢ Spilt or merge frames.
+â€¢ Insert or erase footage.
+â€¢ Zoom function.
+â€¢ Auto fit to window or movie size.
+â€¢ Cut and paste footage inside or between movies.
+â€¢ Toggle show/hide mouse cursor at selected points.
+â€¢ Re-record mouse retrospectively after screen capture.
+â€¢ Sound tracks manager to control audio positions and volumes.
+â€¢ Movie clipping to reduce your movie to a selected area.
+â€¢ Speed or slow movies at selected points.
+â€¢ Send movie by email option.
+â€¢ Insert 'click to continue' pauses.
+â€¢ Bookmark movie with markers.
+â€¢ Jump to specified frame.
+â€¢ Preview frame window for better navigation.
+â€¢ Volume controls.
+â€¢ Range of control-bar designs for Flash movies.
+â€¢ Export sound to MP3.
+â€¢ Events drag and drop support.
+â€¢ Autoscroll option to link view to mouse movement.
+â€¢ Customisable editor toolbar
+
+Requirements:
+â€¢ Quicktime 7 or higher
+â€¢ MS Windows Media Player 9 or higher
+â€¢ MS Office 2000 or newer
+â€¢ Processor speed: 500Mhz minimum, 1Ghz recommended
+â€¢ Memory: 256Mb RAM minimum, 512Mb RAM recommended
+â€¢ Display: Super VGA (800x600) or higher resolution
+â€¢ Graphics card: 8Mb video memory required, 64Mb and above recommended
+
+
+
+Version 2.7.4
+* New feature: inverted cursor highlight.
+* Fix: Bad final frame or second to last frame in mpeg recordings.
+* Fix: Cropping mpeg recording to final frame produced access violation.
+* Fix: Saving the final frame of an mpeg recording as a new FBR produced a corrupt file.
+* Fix: Saving a single frame could produce an FBR containing a number of frames.
+* Fix: Exe exports would not autoscroll correctly on some PCs - they would be displayed scaled instead.
+* Fix: Improvements to deskband on windows 7 and addition of deskband for 64bit operating systems.
+* Fix: When inserting an mpeg movie into an mpeg movie, blank frames were added to the end of the movie.
+* Fix: Duplicate markers could be produced by deleteing all frames after a marker and saving the movie.
+* Fix: Static frames produced by using mpeg recording with the limit by time function.
+* Fix: EXE export. Message about missing entry point in dll when running EXE exported from some movies.
+* Fix: Media player detection not working for some players.
+* Fix: Capture driver initialisation error on some Windows 7 PCs.
+* Flash exports: Improved handling of pre v9 Flash players.
+* Now disables video hardware acceleration by default on lower powered PCs.
+
+
+Tested And Working
+
+Enjoy

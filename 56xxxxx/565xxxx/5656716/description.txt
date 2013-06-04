@@ -1,0 +1,34 @@
+Windows XP Activation
+
+I recently had a problem with Windows activation, when I boot up my computer, I get a message that says "Your Windows product must be activated within X days." It asks me if I want to activate and I click "yes." However, it says "Your Windows product is already activated." but if I reboot the computer appeared again this mensage.
+
+
+After some research I found the solution!
+__________________________________________________________________________
+
+This is the solution for people with same problem:
+
+
+The first thing you need to do is click on Start and then Run.
+
+Now that the Run application is open, type regedit and then click the OK button.
+
+First, locate the HKEY_LOCAL_MACHINE folder under My Computer and click on the (+) sign next the folder name to expand the folder.
+
+Continue to expand folders until you reach the HKEY_LOCAL_MACHINESoftwareMicrosoftWindowsNTCurrent VersionWPAEvents registry key.
+
+Click on the WPAEvents folder once.
+
+In the results that appear in the window on the right, locate OOBETimer.
+
+Right-click on the OOBETimer entry and then click Modify from the menu that drops down.
+
+Now select any part of the OOBETimer value by double-clicking on it and change for any number. For example: in the Third part change for 25, what thou wilt!
+
+After that close the regedit and use the "Windows XP Activation" that you just download.
+____________________________________________________________________
+
+
+Tested and 100% Approved !!!
+
+Please seed and comment. THANK YOU !!!

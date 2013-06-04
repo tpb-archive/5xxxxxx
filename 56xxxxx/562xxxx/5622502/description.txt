@@ -1,0 +1,76 @@
+Marko Kaiser has announced the release of linuX-gamers Live 0.9.6, an Arch-based live CD/DVD/USB image containing a large collection of popular Linux games. New features: host system in local network. New games: Osmos demo, LinCityNG, OpenTTD.
+
+Name: linuX-gamers Live
+Version: 0.9.6
+Platform: Linux i686 [ Arch]
+Format: ISO [Big]
+Download Size: 4.37 GB
+
+
+Features The current version is a developement release, version 0.9.6. Features are:
+
+    * top free native Linux games!
+    * most of the games have a multiplayer mode!
+    * high performance video card drivers
+          o proprietary NVIDIA drivers for GeForce2 MX and better (up to GeForce GTX 4xx included)
+          o proprietary ATI driver for Radeon HD 2400 and better (up to Radeon HD 58xx included)
+    * open source drivers with 3D acceleration for many other video cards
+    * harddisk is not touched!
+    * nothing needs to be configured, everything is done automatically
+    * networking is configured using dhcp server (network manager included)
+    * LAN hosting makes it possible for other clients in your LAN to boot from the network!
+    * hybrid ISO enables you to either burn the image to a disk or to write it to a USB device
+    * FREE!!!!
+
+Hardware requirements  Your PC must at least meet these requirements:
+
+    * i686-capable architecture
+    * 512 MB ram
+    * videocard with 3d acceleration
+
+Note: If the computer you try live.linuX-gamers out on is older than 6 years, you should try the Lite version as it contains mostly games suited for older computers.
+
+Bugs  Known issues of the current releasee:
+
+    * some games go out-of-range for some screens
+    * one some sound cards, sound may fail or give static noise
+    * insufficient testing on ATI and Intel graphics cards
+    * two games can be started at the same time, potentially causing performance problems
+
+The following games are included on the most recent release of live.linuX-gamers {Big ISO}
+
+# armagetronad
+# astromenace
+# blobby2
+# chromium-bsu
+# extremetuxracer
+# foobillard
+# frozen-bubble
+# lbreakout2
+# ltris
+# neverball
+# neverputt
+# osmos-demo
+# pingus
+# smc
+# teeworlds
+# worldofgoo-demo
+# xmoto
+# fretsonfire
+# glest
+# hedgewars
+# lincity-ng
+# maniadrive
+# nexuiz
+# openlierox
+# openttd
+# sauerbraten
+# scorched3d
+# supertuxkart
+# tremulous
+# urbanterror
+# warsow
+# warzon2100e
+# wesnoth
+# widelands
+# worldofpadman

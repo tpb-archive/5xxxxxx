@@ -1,0 +1,31 @@
+AnyDVD History
+
+6.6.7.0 2010 07 13
+- New (DVD): Removes characters not allowed by the file system from volume
+ labels to help programs, which use the volume label as a file path, e.g.
+ bookmark files of Zoom player
+- New (DVD): Added support for new protections
+- New (Blu-ray): Added support for AACS protected BDAV discs, e.g.
+ Japanese TV recordings
+- New (Blu-ray): Added support for new BD+ protections
+- New (Blu-ray): Updated decryption keys
+- New: Completely ignores U3 USB sticks or similar devices
+- Fix (HD DVD & Blu-ray): Possible hang when parsing an invalid AACS directory
+- Some minor fixes and improvements
+- Updated languages
+
+
+INSTALLATION NOTES:
+
+1. Uninstall previous version of AnyDVD HD (Don't keep Reg info)
+2. Use Fox Killer and LeftOver Killer to remove all traces
+3. Restart Computer and pull/disable internet connection
+4. Install Latest AnyDVD HD, DO NOT RUN PROGRAM YET
+5. Use HDKey to update registry and register your AnyDVD HD
+6. Start AnyDVD HD, In settings Un-check "Automatic check for updates"
+7. In windows firewall (Or otherwise), make outbound rules to block connection for ANY AnyDVD related programs (ADvdDiscHlp64.exe, AnyDVD.exe, AnyDVDTray.exe, RegAnyDVD.exe)                    
+8. You're all done, enjoy.
+
+-=Additional notes and fixes by others=-
+
+>> 3OH3Starship

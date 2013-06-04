@@ -1,0 +1,27 @@
+Hey guys I found something useful....This Post is not written by me but just copied here from somewhere else...This Guy named sanpork managed to play the game with some modified version of AC2 Server Emulator...when he was asked how he did it he replied with these instructions below...I am not able to fully understand these instructions so i thought of posting it here so that if any of you understand them and try them....they could help the others...I am uploading the Latest Server
+Emulator which these instructions speak of (By tane )...
+
+
+
+
+
+
+1 - Pure all restrictions in your hosts enter (C:WindowsSystem32driversetc) with admin privileges
+2 - (RECOMMENDED) Unistall UBIGL, SCC and saucy establish again
+3 - Download this type of computer emulator that already got the certificates (by tane, modded edition of Dormine?s) Privileged (this one was conferred by 1st4ck)
+4 - Ingenuous the spunky (without hosts restrictions, let the GL updater run, make an reason) until you grappling the series key postulation
+5 - Closemouthed everything, go to hosts line again, alter it, inserting this in it's end: Ubisoft
+127.0.0.1 static3.cdn.ubi.com 127.0.0.1 ubisoft-orbit.s3.amazonaws.com 127.0.0.1 onlineconfigservice.ubi.com 127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com 127.0.0.1 uat-onlineconfigservice.ubi.com 127.0.0.1 wsuplay.ubi.com 127.0.0.1 static8.cdn.ubi.com 127.0.0.1 orbitservice.ubi.com 127.0.0.1 gconnect.ubi.com
+6 - Double the .rar to your Curriculum Files/Ubisoft folder, run equipment.exe and do as it says
+7 - Download and place Python, variation 2.6 (must be): www.python.org
+8 - Multiple flick the .py enter to undetermined it
+9 - Run Announcement FilesUbisoft Consort Of Empire Forgotten Sandssrcsystemprince_of_persia.exe
+
+Closemouthed everything, go to hosts line again, alter it, inserting this in it's end:
+Ubisoft 127.0.0.1 static3.cdn.ubi.com
+127.0.0.1 ubisoft-orbit.s3.amazonaws.com 127.0.0.1 onlineconfigservice.ubi.com
+127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
+127.0.0.1 uat-onlineconfigservice.ubi.com 127.0.0.1 wsuplay.ubi.com
+127.0.0.1 static8.cdn.ubi.com
+127.0.0.1 orbitservice.ubi.com
+127.0.0.1 gconnect.ubi.com 

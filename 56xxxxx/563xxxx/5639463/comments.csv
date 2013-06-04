@@ -1,0 +1,27 @@
+User Type,Username,Date,Text
+,exclplayer,2010-06-20T12:10Z,"If there is something wrong with this, do ask me :D"
+,TantA,2010-06-20T16:09Z,"it's just a registry hack, no problems as i can see"
+,fredland,2010-06-20T19:40Z,"Nice reghack, makes life easy...
+Thx for the uppload."
+,exclplayer,2010-06-20T19:49Z,"guys this is compatible with windows 7 and windows vista..
+so no problems :D"
+,some-young-guy,2010-11-20T14:04Z,"In the event you decide to stop seeding your own torrent, perhaps just maybe you'll leave behind the code per each notepad page posted in a reply to this reply.  This way the codes will be immortalized without the need of seeding."
+,some-young-guy,2010-11-20T14:13Z,"Windows Registry Editor Version 5.00
+
+
+[HKEY_CLASSES_ROOT\*\shell\runas]
+@=""Take Ownership""
+""NoWorkingDirectory""=""""
+
+[HKEY_CLASSES_ROOT\*\shell\runas\command]
+@=""cmd.exe /c takeown /f \""%1\"" && icacls \""%1\"" /grant administrators:F""
+""IsolatedCommand""=""cmd.exe /c takeown /f \""%1\"" && icacls \""%1\"" /grant administrators:F""
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas]
+@=""Take Ownership""
+""NoWorkingDirectory""=""""
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas\command]
+@=""cmd.exe /c takeown /f \""%1\"" /r /d y && icacls \""%1\"" /grant administrators:F /t""
+""IsolatedCommand""=""cmd.exe /c takeown /f \""%1\"" /r /d y && icacls \""%1\"" /grant administrators:F /t"""
+,some-young-guy,2010-11-20T14:23Z,http://thepiratebay.org/torrent/5970489 I'll seed this for a while

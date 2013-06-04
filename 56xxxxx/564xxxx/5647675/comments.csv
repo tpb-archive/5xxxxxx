@@ -1,0 +1,180 @@
+User Type,Username,Date,Text
+,storman_norm,2010-06-24T22:55Z,does this play online like on the 360 arcade been looking for this
+,storman_norm,2010-06-24T23:48Z,hey i got a steam account for mw2 will this screw with it or give me a ban or anything thanks in advance
+,waistland,2010-06-26T21:21Z,This did not work for me when I tried to move the steam_appid wound not move it even after a reboot and tried again!
+,Halosrenz,2010-06-27T07:49Z,i cannot run the game! i can't copy the steamclient.dll from the SKIDROW folder. pls help! :(
+,OSiRASE,2010-06-27T13:07Z,"The reason you guys can't move the steamclient.dll from the skidrow folder is because of your anti virus. I believe it is a false positive and your anti virus prevents this. Then again don't take my word for it, it might be a real virus! :D
+
+I can't seem to fully unlock my deck to edit it, anyone know what to do?"
+,hygraed,2010-06-27T23:19Z,This release contains a real trojan. Search your hard drive for a file called xxxyyyzzz.dat (it should be in the Temp folder in Application Data or AppData) and open it in Notepad. It contains your email passwords. This is the last time I download a Skidrow release.
+,Phaedrus_x,2010-06-29T13:11Z,"hygraed: After installing the game, I did a search for the file you mentioned, and did a deep scan of the hard drive with my anti-virus; both turned up nothing. However you got infected, it had nothing to do with this release."
+,Jok3r219,2010-07-01T14:40Z,"i have download a few SKIDROW games before and have installed them with no problem what so ever, however that is not the case for this one.....can anyone help me with more detailed instructions or something, because i seem to be skipping something. I get a .bin and a .cue when i extract and i can only mount the .bin"
+,Jok3r219,2010-07-01T17:45Z,"if someone could make this a simple iso image that would be fantastic...i keep getting ""application load error 5:0000065434"""
+,HolyWarlok,2010-07-01T23:24Z,Cannot copy steamappid. Invalid MS-DOS function. Help please?
+,Phaedrus_x,2010-07-02T15:03Z,Jok3r219: Try burning the image to disk and installing it that way. A free program that will burn this kind of image is ImgBurn. I installed it that way and have had no problems.
+,SwordS_to_PlowShareS,2010-07-19T11:33Z,"I also had problems with this release.. But after some researching, i finally made it to work on my vista..
+
+Here's what i did.
+
+1. unpack files using winrar.
+2. mount image using daemon tools
+3. install.
+4. since im using vista.. i needed to manually install the direct x. for me to do this. i open my Wizards installation folder, open prereqs folder, open directx folder then run the .exe file
+note: you need to find the .exe file
+5. explore your mounted cd. then copy all the content from the skidrow folder and paste it to your wizards installation directory and overwrite.
+6. launch first the magic launcher.
+7. if the launcher was successful then you can play your game now.
+
+if you were using xp with sp3 ( minimum requirement ), you probably dont need to run directx manually and just install it automatically after you install the game by checking the direct x box
+
+hope this helps. "
+,mjayster,2010-07-20T15:21Z,"when I try to mount the .bin or .cue with daemon tools it says error in command line, using win 7"
+,Fallacy11,2010-07-21T08:04Z,"Check's out with Norton, besides the steamclient popping up continuously which is a nusiance and makes you turn off autoprotect as the simplest way of avoiding that to happen (if you do an actual scan on the file it'll say it's clean, it just has similiar tendencies as a hueristic virus), Installed fast (mounted with PI), transfered skidrow files, had to find d3dx9_41.dll (http://www.dll-files.com/dllindex/dll-files.shtml?d3dx9_41) and then it would load, however screen would go black and continually respond and then not respond, no sound, images or loading screen so I had to close it via task manager tried reinstalling it and installing the c++ and directx that come with it and it still failed to load, I'm running Win7 HP x64 with a ATI Radeon HD 4650 (512mb) and it doesn't work so if anyone knows a solution please help otherwise I have to declare this skidrow uploada failure for Win7, and no I'm not just some newb I've gotten every game I've downloaded to work including: DS emulators with Pokemon and Zelda games, Fallout3 GOTY and Morrowind GOTY and programs such as VDJ with all the skins add-ons etc, Propellerhead Recycle & Reason so I know what I'm doing if someone is thinking that's the issuse SORRY FOR THE PAGE LONG POST! lol "
+,Fallacy11,2010-07-21T08:05Z,"Mjayster, try using Poweriso"
+,Fallacy11,2010-07-21T08:06Z,"Mjayster try using poweriso, it worked for me with that"
+,Fallacy11,2010-07-21T08:07Z,"Sorry for the triple post but the first time it wasn't working and now I need help with this:
+Check's out with Norton, besides the steamclient popping up continuously which is a nusiance and makes you turn off autoprotect as the simplest way of avoiding that to happen (if you do an actual scan on the file it'll say it's clean, it just has similiar tendencies as a hueristic virus), Installed fast (mounted with PI), transfered skidrow files, had to find d3dx9_41.dll (http://www.dll-files.com/dllindex/dll-files.shtml?d3dx9_41) and then it would load, however screen would go black and continually respond and then not respond, no sound, images or loading screen so I had to close it via task manager tried reinstalling it and installing the c++ and directx that come with it and it still failed to load, I'm running Win7 HP x64 with a ATI Radeon HD 4650 (512mb) and it doesn't work so if anyone knows a solution please help otherwise I have to declare this skidrow uploada failure for Win7, and no I'm not just some newb I've gotten every game I've downloaded to work including: DS emulators with Pokemon and Zelda games, Fallout3 GOTY and Morrowind GOTY and programs such as VDJ with all the skins add-ons etc, Propellerhead Recycle & Reason so I know what I'm doing if someone is thinking that's the issuse SORRY FOR THE PAGE LONG POST! lol "
+,Acrolyte,2010-07-23T23:23Z,"Fatal Error
+Steam is required to run this application
+
+ANY HELP ?
+
+I have followed all the instructions of: SwordS_to_PlowShareS"
+,doggfatheroli,2010-07-24T06:21Z,"for all those who can't run this game. 
+
+I've had the issue with the .dll file as well as 'Need steam to run this application'
+
+The following link saved my life.
+
+Enjoy! 
+http://rlsfeed.com/games/magic-the-gathering-duels-of-the-planeswalkers-skidrow.html"
+,Jazaren,2010-07-24T12:47Z,"The fix basically requires PowerISO. Instead of downloading PowerISO, just do the following:
+
+1. Open Notepad.
+2. Type in ""49400"" without the quotes.
+3. Save file as ""steam_appid.txt"" without the quotes.
+4. Move that file to your Magic The Gathering directory.
+
+You still need to copy the other files over. This probably requires Steam, but it's worth it."
+,dwarf314,2010-08-11T23:22Z,"Downloades and installed, had the same problem of the Fatal Error
+Steam is required to run this application, but the link that doggfatheroli gave worked, people listen to him and go on the link, is just a new crak folder to download and problem solve"
+,dwarf314,2010-08-12T04:51Z,"Two questions:
+1- am i the only one to have Skidrow as the players name? can i change it? how? (wont cry if not, just to know it)
+2- Is it possible when one is playing with a multi color deck to choose the manas to cast a spell? (because the pc chooses them for me when i click on the spell and dont let me divide my manas however i need them to cast others)
+Thanks"
+,hotojucie,2010-08-12T07:27Z,"@dwarf314
+I have SKIDROW as my name also, and all CAPS, haven't tried to change it, though I doubt you can.  Do not know about selecting mana manually either, sorry.
+Here is a problem I had.  The first 6 opponents in Campaign mode did nothing but play land.  Also, sometimes the game freezes.  And I cannot do anything.  The first time I tried to get out of full screen mode for a half hour.  Alt-f4, Ctrl-Alt-Del, Ctrl-Esc, middle finger, two middle fingers and a fuck you!  Nothing would work.  Just had to shut the comp off.  BTW, installation was straight forward, no problems whatsoever.  Extract, mount .cue with daemon tools, install, close, copy SKIDROW file contents, paste SKIDROW file contents in mtg directory, run.  Win XP sp3.  Thanks. "
+,dwarf314,2010-08-12T19:47Z,"hotojuicie
+Thanks, at least i know its not me. for now i havent had freezes nor crashes but im still at the third battle cuz im been focusing on challenge mode, so cannot confirm that. Maybe you could start all over but use the clean crack that i used, the one i commented before"
+,hotojucie,2010-08-14T00:37Z,"Talk about finicky.  I erased and installed again, but same thing.  I found that every time I play a match, whether I win or lose, I have to close the application and start again, or the next opponent will only play land.  Also, I turned the in-game volume down to '0' to listen to a radio show and the same thing happened.  Even though I shut down the app the next opponent would only play land.  I closed the app and reopened 5 times with no change.  Then I turned the volume up to 1 and tried.  That solved the problem.  Weird.  @dwarf314, I will try the link.  Thanks. And doggfatheroli, thanks."
+,MickoZRC,2010-08-22T00:53Z,"hi people.I have installed MtG duels of planeswalkers an' of course doesn't work.I did everything you said,but nothing.He say ""your system does not meet the minimum specification to run Duels of the Planeswalkers"" I don't know anymore what the do.Some say it doesn't work on Windows XP.Tell me is it true ,if is not what i do....."
+,oversight9,2010-08-30T16:13Z,"OK I did some messing around after i got a blackscreen at the startup of the game and fixed my problem. I knew it was a problem with the set screen resolution but didnt know how to change it so for all you who get this error try this.   
+
+Open Config using notepad
+Change Width and Height numbers to desired resolution 1024 width and 768 height worked for me
+
+enjoy :)"
+,xaviervega,2010-08-31T21:26Z,anyone know where i can get the 2nd DLC???
+,kolayhe,2010-09-01T14:58Z,"Cool thing is, mine worked perfectly fine on Win XP 32 bit
+for those of you getting an error, you need to remember to copy over the stuff in the SKIDROW folder from the CD into your MTG directory
+
+for those of you with ""to run this you gotta have steam dll"" you should be getting that from the SKIDROW foler aswell, HOWEVER, most antiviruses pick it up as a false negative, so just go into your AV settings and set your MTG directory as an exception, and E:\SKIDROW\steamclient.dll as an exception too (provided E: is the virtual drive you're using)
+once thats done, try copying over the dll again and run MTG-launcher.
+
+if that dont work, you're either fucked, or fuckin stupid"
+,kolayhe,2010-09-01T15:00Z,"As for people with black backgrounds, see this link here if your graphics card is an ATI one with catalyst control centre
+
+http://petergasser.com/de/do-not-enter/solution-duels-of-the-planeswalkers-magic-the-gathering-ati-deck-editor-fix.html
+
+ie, turn everything to defaults and turn on use application settings"
+,kolayhe,2010-09-01T15:01Z,"@MickoZRC
+
+It does work on XP, guess your computer just cant take it"
+,kolayhe,2010-09-02T23:51Z,"amusingly enough, it does in fact seem to be virused, i got a dozen bluescreens in one day, then the second i uninstalled it and cleaned that nasty .dll from my system, everything worked dandy"
+,jun2hundy,2010-09-05T02:05Z,"WINDOWS XP USERS!
+
+This game WILL NOT WORK if you DONT HAVE SP3 if you're running XP.
+
+It uses a function or whatever from the Service Pack 3 for XP. It will not run without it as SP2 does not have it.
+
+-
+
+Has anybody found a solution to getting dealt Land cards the whole time?"
+,Maku7777,2010-09-19T19:07Z,"After one game in campaign mode, the computer AI is playing only lands. Need to reboot the game everytime you start a new game for the AI to work properly.
+Do you have any sugestions? Please help!"
+,Peppamonster,2010-09-24T17:23Z,"Game works great.
+Please upload the second expansion pack!!"
+,lupppp,2010-10-18T01:36Z,"great!! and thx for all seeders, in 10min i have it xD
+
+works perfect on W7x64 and using Spanish Language."
+,S3nd41,2010-10-21T17:43Z,What editions does this game have?
+,S3nd41,2010-10-21T18:26Z,"So, how does one change the player name? Do I have to use hexedit on a certain file to change it?"
+,Lantern23,2010-10-25T03:55Z,"Thank you for this excellect upload. Works on Win7 x64. N360 detected a trojan on the mounted image file, however works fine once installed. Any chance of getting the other expansion and unlocked decks? Thank you again."
+,berserker_panda,2010-10-29T00:50Z,"How do I change the profile/player name? Do I have to play this game as ""skidrow"" permanently?"
+,bbpdude,2010-11-05T16:33Z,Can anybody please help me with this? When  I move the crack from the skidrow map to my comp it says that I don't have the authority to do this. But I have already clicked in that I as administrator agrees with leting the computer do this. What is wrong? It has never been like this when I have cracked anyother game ??
+,almohandes,2010-11-30T21:49Z,"why i can`t play onlline
+
+I can`t find any game or if i want to host it says (error try again later)
+
+any help guys please"
+,nickfuryfan13,2010-12-07T18:13Z,it says .r14 and .r15 are corrputed when i try to extract with winrar
+,nickfuryfan13,2010-12-07T18:22Z,".r15 isnt corrupted its missing, where did it go?"
+,zorome,2010-12-13T05:29Z,23/43 AV says steamclient.dll is a virus :/
+,zorome,2010-12-13T05:40Z,It also doesnt work on WINDOWS 7. Dont bother guys.
+,nuroticblade,2010-12-18T21:26Z,"Thanks for the upload. Love this game, played the card game back in the day."
+,00101010,2010-12-25T18:31Z,"False AV reports, clean install, and yes it DOES work on Windows 7."
+,layla.7,2011-02-02T00:21Z,"hie 
+i have some problems with the installation of the game... i use demon tools etc etc but i have always the same error message when i try to launch the game
+can somebody help me with this please?
+and sorry for my english "
+,Green208,2011-02-05T18:19Z,"Yeah, the steamclient.dll file is infected. if you have steam installed, just copy it from C:\Program Files\Steam\"
+,Green208,2011-02-05T18:22Z,"Nevermind, i thought it worked, but it gave me a missing tier0_s.dll is needed, and steam is required error"
+,Green208,2011-02-05T18:52Z,Did anyone else notice the Tosh.0 reference in the About tab of Magic_Launcher.exe
+,Green208,2011-02-05T19:51Z,"I liked this game so much, I bought it :D. See some people on TPB have souls :P"
+,breticles4,2011-02-19T19:36Z,"THIS DOES WORK ON WINDOWS 7 (64 bit)
+
+I had to get 2 .dll files http://www.dll-files.com/dllindex/dll-files.shtml?d3dx9_41   and    http://www.dll-files.com/dllindex/dll-files.shtml?xinput1_3
+I was a little worried they might be viruses or something harmful to my system, however they were not, I copied then into the install directory for the DOTPW and it worked great. Hope this helps some of you."
+,rob211,2011-03-05T02:39Z,4 minute download! great!
+,tehteh123,2011-03-12T01:48Z,"Yes it works on Windows 7 64-bit, you just didnt have the correct DirectX installed."
+,ohshitson,2011-03-28T01:22Z,"I made a torrent compiling DotP, all 3 expansions, the custom mod, and its 3 patches.
+
+http://thepiratebay.org/torrent/6276415"
+,damageis,2011-04-16T23:28Z,"Please confirm this is the 2010 PC version of the game, not the old 90s Microprose version!? THANK YOU. "
+,MrGovorov,2011-05-26T08:07Z,"The game just hangs on a black screen and an ""hourglass"" when i run DotP.exe. Any advice?
+
+I was having a directx issue at first (missing dll error) so I updated that and now this is happening. Win7 and I did copy the cracked .exe and other files over from the skidrow folder. I ran launcher.exe first but I'm not sure what it did as it just pops up a dialog saying successful."
+,Mesto53,2011-06-02T06:45Z,"To hopefully save others some grief, you need Service Pack 3 in order to play (downloaded 3 separate torrents of this until I figured it out).  Also, to change your name.. I used good ol' ''Cheat Engine"" hex editor, changed all of the instances of SKIDROW to what I want, now they know who's name to say. :) Hope this helps guys, Thank you .BONE.!"
+,Kaustos,2011-06-14T01:54Z,"thanks .BONE, great torrent!
+
+this is the method I used to install MTG2010:
+
+turn off AV(s).
+
+extract .rar files.
+
+mount the second image, which is .cue
+
+install it in default location
+(C:\programfiles\ect..)
+
+open skidrow folder in mounted drive and copy all the cracks.
+
+paste it in MTG directory. replace.
+
+set the compatibility to run as administrator.
+
+re-enabled the AV(s).
+
+and play.
+
+works fine for me.. laptop win7 x32/x86
+
+clean and safe.. scanned by avast pro ver.6"
+,Noodley,2011-06-17T08:55Z,Is there any way to change the Profile name? Currently it's just Skidrow
+,Bodhar,2011-06-18T09:59Z,"Downloaded, and no iso file. Wtf. All in .rar files. What do?"
+,Bodhar,2011-06-18T10:26Z,"Tried everything. Each time I try to open it, I get a Steam error that says : ""Application load error 6:0000065432"""
+,Olevonib,2011-06-18T21:05Z,"Do i need original game since it is an expansion?
+And i am kind of new to downloading games.. what do i need to do step 2? (Mount or burn image then install)"
+,TRiXTeR67662,2011-08-08T09:41Z,"Hey all! Sorry but I am Just learning all this so I may have messed up one of the steps because I am getting an error message that reads......""The program can't be started because X3DAudio1_7.dll is missing from your computer"". If anyone can explain what it is that i need to do to remedy this please do, either on this comment board or e-mail me at andreworona25@yahoo.com. Thanxs"

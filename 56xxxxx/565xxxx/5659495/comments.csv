@@ -1,0 +1,91 @@
+User Type,Username,Date,Text
+,cameronis,2010-07-01T07:16Z,"The only reason the other torrents are such a large size is that is a hybrid DVD. Which i dunno why it is so large, but thats what they are... just thought i'd let ya know."
+,lavato,2010-07-02T04:30Z,"Zip is not working correctly.
+I got lots of zip and did unzip what you said but it still say zip missing"
+,TGDr-aka-RG,2010-07-02T12:47Z,"All good, thanks for the upload!  But why all the zip files?"
+,aborg,2010-07-02T14:10Z,Thanx so much! works perfectly in my Mac. Great!!!!
+,lunatic1,2010-07-03T23:41Z,"Funny, works fine without the crack file, soon as you add as per .NFO instructions the program fails to open???! 
+
+I'm on MB Pro.. Anyone else experiencing this?  My Sibelius 5 works fine but I'd love to use the magnetic score capabilities of 6..  Can anyone assist here?
+
+Thanx"
+,TGDr-aka-RG,2010-07-04T23:32Z,"@lunatic1
+It's because the 'crack' file has become non-executable.  You need to do sudo chmod 755 /filepath on the file and you're good to go!"
+,lunatic1,2010-07-05T13:07Z,"Hey TGDr-aka-RG, that's most kind, I realised this a while back and somehow managed to copy the text info into another .exec file to finally get the blasted thing registered.  Appreciate the tip dude.
+
+Rispek
+
+lunatic1"
+,doniemac,2010-07-16T21:21Z,can anybody help? there\'s no .dmg file here to install the program
+,klynsast,2010-07-19T02:53Z,"guys, I followed all instructions. all went well - it's just the app doesn't open. I feel there's a short attempt to do it, but then, nada. snow leopard, mb pro. hmmm. anybody any idea? tx. !!!"
+,olp99,2010-07-23T22:09Z,"I cannot find the dmg file.  I unziped everything, and then attempted to extract the rar file, but my rar program says theres an error in the file.
+
+i havent been able to find a working sibelius torrent on this whole site"
+,mister_pointer_outer,2010-07-28T17:30Z,"ok, this actually works. it does. however the rippers seem to have been complete morons in how they built the distro.  once you download this, there are about 60 zip files. you need to unzip ALL of them. each one expands into a folder. each folder contains ONE part of an rar archive (WTF???). anyway, move every one of the .rar and .rxx files into one single new folder and then use your favorite un-rar software to build the big install .dmg
+
+once you've run the installer, then move the Sibelius 6 file as noted in a previous comment. You also need to chmod, chown, and chgrp it which can be done using the finder but is easier with Terminal.app:
+$ cd /Applications/Sibelius 6.app/Contents/MacOS
+$ sudo chmod 755 Sibelius\ 6
+$ sudo chown root Sibelius\ 6
+$ sudo chgrp admin Sibelius\ 6
+
+that should do it."
+,gusto_gitano,2010-08-02T18:11Z,"Hey, thanks for this great effort.
+I have one question:
+After extracting the whole thing, I got the DMG file.
+I installed Sibelius on my Mac but upon trying to run it, it asks me for the serial.
+How to solve this?
+Thanks again for this massive work."
+,gusto_gitano,2010-08-02T18:17Z,"Ok, sorry I figure it out.
+Copy Sibelius file that you get after extracting the RAR to /Applications/Sibelius 6/Contents/MacOS
+
+Thanks over and over for this great torrent."
+,WellsHuxley,2010-08-02T18:28Z,"Doesn't work for me on a MacBook w/ latest version of Snow Leopard.  Installation finishes, but then says ""Installation Failed.""  Tried unzipping again, unraring again, downloading again, but the same thing happens every time.  Sibelius 6 icon appears in my Applications folder, but it doesn't work with or without replacement dummy icon.  Anyone else having this issue?"
+,gusto_gitano,2010-08-03T00:10Z,"I have Mac OS X SL 10.6.4 and this torrent is working like a charm.
+Have you replaced Sibelius file?
+Read my previous comment."
+,WellsHuxley,2010-08-03T03:15Z,"Yes, I tried replacing the file, but the serial isn't the issue.  I can't even get to the point where it asks me for a serial - the icon in my applications folder is completely unresponsive before & after I replace the Sibelius 6 file"
+,WellsHuxley,2010-08-04T04:32Z,"@lunatic1 I think I am having the same issue, but I don't know how to ""do sudo chmod 755"" because I'm a n00b.  Any help would be much appreciated"
+,clarinerd666,2010-08-26T06:16Z,Crap. I did all that and my terminal tells me there is no such file or directory.
+,qofe,2010-09-03T20:26Z,"@clarinerd666: I think the first line MrPointerOuter's instructions should be like so: (notice the backslash)
+
+$ cd /Applications/Sibelius\ 6.app/Contents/MacOS
+
+This worked for me. and thank you MrPointerOuter for the instructions!"
+,b4ndg33k,2010-09-19T05:56Z,it asks for a serial number. what do i do?
+,jldrums,2010-09-21T06:30Z,"I got to the point where i have to chmod and whatnot, but it gives me a permission denied or command does not exist error... tried taking ownership of the file, no dice... suggestions?"
+,polar_78,2010-09-24T13:10Z,"I dowloaded, unrarred and made the dmg file. Installation procedure went ok. What is now running is a demo version. I wanted to replace the sibelius 6 in /Applications/Sibelius 6.app/Contents/
+MacOS, but the file I should use to replace is a document file...
+
+What should I do. Can I transform it to the file I need?"
+,polar_78,2010-09-24T14:21Z,"I suppose the 'crack' file has become non-executable, as mentioned above, and that's the reason mac sees it as a document file.
+
+I tried the Terminal trick, without succes. Unfortunately, I'm a complete Terminal noob, so if anyone could give a step-by-step way of dealing with this, it would be much appriciated!"
+,Ozzyton,2010-09-27T08:36Z,So is the Mac terminal anything like the Linux Terminal? I'm a Mac noob period so jw.
+,Qu1k51thr,2010-11-27T18:52Z,hi i was just wondering how to initially install it?
+,Qu1k51thr,2010-11-28T10:39Z,"Ok guys ive found a much easier way to change the crack file back to an exec file. Find the Genuine sibelius 6 file in macos in contents and open in text edit. then open the crack in text edit and copy the code from the crack file into the pre existing exec file, and load up. this will relieve the need to register Sibelius! I made copies of each file just in case :)"
+,joes3ff,2010-12-09T22:13Z,"any of you guys willing to help a nooby? completely useless with this kinda installing,extracting stuff, but im in desperate need of this software but way too poor to afford it! :(
+
+Already tried my hand n completely screwed up
+
+not expecting help but it would be greatly appreciated!!"
+,ZTian10,2010-12-16T00:55Z,"This torrent is a pain in the ass to unzip but part of it does work. First, unzip the .zip files, then take the .rar files in the folders unzip them too. 
+
+Then you will get a .dmg file and a Sibelius 6 unix exec file.
+
+The dmg file did not work for me so I installed using another .dmg from another torrent not on this site.
+
+However, the Sibelius 6 file is of great use. After you have installed another version of Sibelius, find the other Sibelius 6 file in
+
+Applications >>> Sibelius 6 >>> Right-Click >>> Show Package Contents >>> Contents >>> MacOS
+
+Here, open BOTH Sibelius 6 files in TEXTEDIT and copy the code from the old one into the one in the Application contents.
+
+If you have any questions, message me. "
+,cbj662,2010-12-23T01:48Z,perfectly installed. it is asking me for a serial number now. what should i do from here?
+,Jonnie23,2011-01-10T23:53Z,"Can somebody upload just the sibelius.exec file or email it to me? i couldn't install sibelius from this torrent, i didn't have any .rar files at all. if anybody else is having problems with this, you can download one of the older builds of sibelius 6 from here, update it to the latest version via the official sibelius website.... but the one thing you will need is the crack file from this torrent (if somebody will upload it?)"
+,Luddekuddekudde,2011-02-10T05:40Z,"So install works fine, program runs ok. I used Qu1k51thrs method of copying the crack to the one already in the program.
+
+However, I can not hear any playback sound. This was the issue with my earlier version so I reinstalled this one. I am on a macbook pro. When I press Audio Engine Options, I can not even choose my interface, its all grey. What to do?
+THanks!"
+,moonletmoon,2011-05-28T09:40Z,"After going to all the trouble of opening each zip and moving the rars to another folder, etc., this did not work for me. grrr However, I was able to finally get a working application by using this torrent:  http://thepiratebay.org/torrent/5069664/Sibelius_6_Mac_installer_only along with this member's other file with the update and crack and then finally updating to 6.03 at http://www.sibelius.com/helpcenter/updates/sibelius6/6_0_3_updater_installation.html (after doing this is the time to copy the text from the ""Sibelius 6"" file to the one in the MacOS folder, as per the instructions). Best of luck!"

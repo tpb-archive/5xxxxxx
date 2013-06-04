@@ -1,0 +1,49 @@
+THE BEST MEDIA PLAYER I HAVE EVER SEEN
+VLC is a free and open source cross-platform multimedia player and framework, that plays most multimedias files, medias and streaming protocols.
+
+It is simple to use, yet very powerful and extendable
+FEATURES
+1---Ready for HD
+
+    * GPU decoding on Windows Vista and 7, using DxVA2 for H.264, VC-1 and MPEG-2
+    * GPU decoding on GNU/Linux, using VAAPI for H.264, VC-1 and MPEG-2
+    * DSP decoding using OpenMax IL, for compatible embedded devices
+    * Improved support for MKV HD, including seeking fixes, and 7.1 channels codecs
+    * Support for new codecs, like Blu-Ray subtitles, MPEG-4 lossless and VP8
+
+NB: so far, on Windows for GPU decoding, VideoLAN is recommending nVidiaÂ® GPU, until ATIÂ® drivers are working with VLC architecture, and until the VLC developers get access to some IntelÂ® hardware supporting GPU decoding.
+
+2--Better Audio experience
+
+    * Integrated playlist in the Qt4 interface
+    * Multiple views (like album art) in the playlist in the Qt4 interface
+    * Support for AMR-NB, Mpeg-4 ALS, Vorbis 6.1/7.1, FLAC 6.1/7.1 and WMAS
+    * CDDB and CD-Text works now on the Windows port when listening to CD-Audio
+    * Support for DVD-Audio files (.aob)
+    * Improved meta-data and album-art support
+3--
+Faster, Lighter
+
+    * Faster decoding, with up to 40% speed-ups, in HD resolutions
+    * First part of the Video Output core rewrite
+    * Removal or rewrite of dozens of modules, code simplification and tens of thousands of lines of code removed
+    * Some functionalities that are less used are now moved to extensions
+    * More assembly optimizatinons, especially SSSE3/SSE4 and ARM Neon
+    * Fewer threads used
+4--
+Extensions
+New add-ons and script framework so one can personalize its vlc.
+
+    * Written in lua
+    * 2 main types of scripts:
+          o content add-ons, integrated in the playlist
+          o functionnalities extensions, like metadata searching on the web, or subtitles look-ups
+    * Very Simple
+
+ 5--* Support for WebM decoding and encoding
+    * Improved web plugins
+    * Better streaming capabilities
+
+VLC DOWNLOAD-- http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.exe/download
+
+SEED PLEASE!!!!!

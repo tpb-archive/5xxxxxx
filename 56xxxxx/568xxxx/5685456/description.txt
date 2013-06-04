@@ -1,0 +1,9 @@
+Changelog : 
+10.2 - 7/11/2010
+  Updated Xorg-server and drivers 1.8.2
+  Updated GParted 0.6.1
+  Updated (g)host(4)(l)inux 0.34
+  * Removed GRUB2, but you can install it 'install-pkg -i grub2', you
+    can use 'grub2config' to configure and install it on your hard drive.
+
+md5sum : 6095a810b60197dcfc1108ce98579e1a  RIPLinux-10.2-non-X.iso

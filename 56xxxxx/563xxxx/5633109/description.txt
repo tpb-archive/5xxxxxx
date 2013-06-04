@@ -1,0 +1,31 @@
+About Mythbuntu
+
+Mythbuntu is a community supported add-on for Ubuntu focused upon setting up a standalone MythTV based PVR system. It can be used to prepare a standalone system or for integration with an existing MythTV network. Unlike similar projects, Mythbuntu keeps close ties with Ubuntu and all development is given back to Ubuntu. This architecture allows simple conversions from a standard desktop to a Mythbuntu machine and vice versa. The development cycle of Mythbuntu closely follows that of Ubuntu, releasing every six months along side Ubuntu releases.
+
+
+ 
+
+ 
+Desktop
+
+Mythbuntu uses the XFCE desktop. All unnecessary standard Ubuntu applications such as OpenOffice, Evolution, and a full Gnome desktop are not installed in a default Mythbuntu install. If at any time a user wants to, they can install ubuntu-desktop, kubuntu-desktop, or xubuntu-desktop and add a full desktop onto their installation. This can easily be done via the Mythbuntu Control Centre.
+
+
+ 
+
+ 
+Mythbuntu-Control-Centre
+
+The Mythbuntu Control Centre is a custom GUI used to configure the system. From here you can select what kind of system (Backend, Frontend, Both) you want. You can also install different desktops such as ubuntu-desktop and kubuntu-desktop. Install Plugins, configure MySQL, set passwords, install proprietary drivers, proprietary codecs, setup remote controls, and a range of other features all from one convenient program.
+
+
+ 
+
+ 
+Live Frontend
+
+A Mythbuntu CD can also be used as a live frontend. This is great if you want to turn a laptop or desktop into a quick frontend or quickly test hardware compatibility. The live frontend provides a GUI to mount network shares, configure a remote, hostname, location of your master backend and a place to save settings. All settings can be saved directly back to a flash drive for easy portability.
+
+
+
+

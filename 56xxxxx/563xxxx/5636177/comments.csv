@@ -1,0 +1,437 @@
+User Type,Username,Date,Text
+,illiria,2010-06-18T23:17Z,"Forgot to add one more thing: after installation, either launch from game shortcuts, or from ""RunMassEffect2.exe"" file in Game Folder -> Binaries.
+Don't Launch from ""masseffect2.exe"", or the DLCs wont be authorized (but nothing bad will happen if you launch on accident). I have tied the DLC patch to ""RunMassEffect2.exe"" file."
+,illiria,2010-06-18T23:19Z,"Actually, ""RunMassEffect2.exe"" IS a patch. Just saying this for paranoid people who may think it's some virus."
+,User264,2010-06-19T16:09Z,"Can someone confirm this? Sounds pretty much legit, but I am always surprised by lack of comments on torrents."
+,illiria,2010-06-20T08:39Z,"@ User264
+
+Quite on the countrary, don;t be surprised. People start commenting when stuff doesn't work, not when it does. Yes, it's legit, I made it for myself to avoid all the hassle with installing DLCs one by one."
+,illiria,2010-06-20T08:41Z,"@ HMHT
+
+They are ALL in, everything that has ever been released/ From the short Readme:
+
+Mass Effect 2 DLC Pack includes the following DLCs:
+
+Alternate Appearance Pack
+Arc Projector
+Blood Dragon Armor
+Cerberus Weapon and Armor
+Collectors Weapon and Armor
+Equalizer Pack
+Firewalker
+Inferno Armor
+Kasumi - Stolen Memory
+M-29 Incisor Sniper Rifle
+Normandy Crash Site
+Overlord
+Recon Hood
+Sentry Interface
+Terminus Weapon and Armor
+Umbra Visor
+Zaeed - The Price of Revenge"
+,illiria,2010-06-20T11:26Z,Forgot to add: DLC Patch requires Microsoft .NET Framework 3.5. It is *already included in installer*. If you don't have it - install it. You'll get prompt at the end of the installation.
+,kamentbay,2010-06-20T12:46Z,"Please help. Installer starts with copying ""masseffect2-1.01"" file, then ""executes the commands"" for a few seconds and immediately finishes (apparently it doesn't copy shit), and game gives me ""awc.dll"" error. I've got Framework 3.5 sp1, I've tried to disconnect the Internet. What did I do wrong? "
+,kamentbay,2010-06-20T16:03Z,"My bad ? didn't check the file in the client, it just went off on 99.7%. False alarm, sorry."
+,Bacofox,2010-06-20T16:59Z,I assume this is for us version only?
+,kamentbay,2010-06-20T19:14Z,"Works just fine, thanks!"
+,unusingur,2010-06-20T20:39Z,"this is just tooooo cute to be true!
+dude! just update this ""all-in-one"" pack everytime there's a new dlc comming!"
+,BenLinus,2010-06-20T21:06Z,Contains TrojWare.Win32.AdTool.Agent !
+,Morvor,2010-06-20T22:12Z,"Don't download!!
+When I was opening the file the cpu usage rose to 100% and memory to 99%. Then the computer crashed, and now the CPU usage is at 100%. All the time. It obviously contains some sort of virus..."
+,Morvor,2010-06-20T23:44Z,"Crap...ignore my comment. It was like that because of another virus. Im sooo sorry illiria :/
+
+Still...the game wont install for me? What should I do? When I open the file, the window just freezes, the Folder window where I've saved the file. What is wrong?...Maybe it's karma :("
+,tgun99,2010-06-21T00:47Z,"Caused me to continually get the ""failed to authenticate disc"" error when loading.  Had to grab Vitality's 1.02 crack to get it working again.  DLC's are there and work fine.  "
+,kevlar26,2010-06-21T05:29Z,Is there any way to install them individually? Because I have every DLC but the ones released after 2/9/10. If not do I just install it normally? Will my other DLC's be affected?
+,illiria,2010-06-21T14:46Z,"Okay, many comments. Let's see.
+
+@ Bacofox
+
+I'm not sure whether this is for US version only or not, because I have tested only on my, english version of Mass Effect 2. But as far as I know - DLCs are localized for all versions upon release, so yes - in theory it should be compatible with all versions of the game.
+
+@ BenLinus
+
+It has never contained any trojans, don't be a moron - I would not seed 44 gigabytes of trojans. Switch your anti-virus for a better one.
+
+@ tgun99
+
+If you got ""Failed to authenticate disc"" error, then for some reason, last step of executing commands (which is copying the crack to game folder) has failed. I have never encountered that problem before, but yes, it can be fixed by simply downloading a crack.
+
+I have just checked the commands in my project - it is clearly stated to wait until the crack is copied. Something must have caused the command to skip or has broken it during installation. Could be an anti-virus, for whatever reason. Again, I have never encountered that problem.
+
+@ Morvor
+
+The window likely freezes because the file is very big, and your hard drive is loading it. It may take time to load such a big file, try waiting.
+
+@ kevlar26
+
+No, you cant install them individually. Your other DLCs won't be ""affected"" exactly, but they all will be cracked. The patch cracks all the DLCs you have installed, regardless of where did you get them. So if you plan to use DLCs illegally, the patch will crack them all anyway. So in that perspective, no, the DLC Pack itself will overwrite your DLCs, but with same files - won't affect anything. The patch, however, will. No matter where do you get it.
+
+I think I've covered all? :) have any questions - ask away. I will reply whenever I have the time (very busy with other projects). Enjoy people. And I'm glad to see many seeders - thank you very much."
+,MoleUK,2010-06-21T15:34Z,Any idea how to change the path registry for mass effect 2? The authorizer is not working because I had a steam version installed and runmasseffect2 comes up with Could not find mass effect 2 directory.
+,MoleUK,2010-06-21T15:39Z,Just to clarify - I formerly had a steam version installed. Not using that version right now but I assume the former install is screwing with the authorisation patch.
+,1kokolo1,2010-06-21T17:36Z,Does the crack work on windows 7 64-bit. Former ones worked only when I was disconnected from the internet.
+,Morvor,2010-06-21T23:10Z,"Well...I do have a pretty slow hard drive. That's probably the case.
+
+But this it automatically install when you open the file? Does it automatically install everything right away? Or does it like open the file like the DLC files are opened. Asks you to install and then show progress of installation?"
+,User264,2010-06-22T10:02Z,"Yes, works fine on Win7 x64. Worked perfectly."
+,whitevil,2010-06-22T20:19Z,"I have it installed at D:\Program Files\Mass Effect 2 So I can't install this (yes I tried copying the files manually from there, but there's a file named as a directory without an extension and win 7 does not let me copy it there.)
+Your installer does not have a dir selection page.  "
+,Kasseopea,2010-06-23T03:51Z,"Seed more pls, downloading with ~7 kb/s, so it will take a week with this speed..."
+,illiria,2010-06-23T10:23Z,"@ Morvor
+
+When you open the file, it shows you a window. you click ""Next"" - it shows you the readme. Then you click ""Install"" and all done. So its actually two buttons, not one. :) Still, Windows does need to scan the file first, so that might be the case. Otherwise, I just don;t know.
+
+@ whitevil
+
+My installer does not require a directory selection. Just like official patches, it reads the directory path from the registry. If you are missing it (corrupted install/some repack), then you can't install DLCs or patches ANYWAY, because they all check for that registry key. In other words, even if I had the directory selection pazge, the patches wouldn't install anyway, due to your mising registry key. Fix your corrupted installation.
+
+@ Kasseopea
+
+Okay, I'm going back to seed."
+,Elvir666,2010-06-23T12:54Z,Man this doesnt work...i instaled this and when i start the game its telling me ...autorization DLC error something like that ... what should i do ????? :[
+,Key_Tap,2010-06-23T13:22Z,My game fails to authorize any of the DLCs - I launched from the new .exe and everything.
+,Key_Tap,2010-06-23T13:27Z,"Adding to my above comment:
+
+The DLCs work when I am not connected to the Internet. Is there a fix for this? I don't mind not being able to connect to EA Online, but not being able to have internet access at all while playing makes this deal not quite worthwhile.
+
+Thanks for the amazing torrent, btw. I'm seeding best I can."
+,Key_Tap,2010-06-23T13:57Z,"I hate to comment three times in a row, but I've found a simple fix, but it requires one of two things:
+
+Either changing the exe that Steam runs when I tell it to boot Mass Effect 2 (I have the Steam version),
+
+or changing the exe that RunMassEffect2 runs when I tell it to Play.
+
+I'm assuming you may be able to help with the latter."
+,Elvir666,2010-06-23T14:19Z,I think the only thing for now is to buy the game...fuck this :[
+,illiria,2010-06-23T15:00Z,"@ Elvir666
+
+I've heard there is a new DLC patch out, made for different types of connections. Haven't seen it myself, but you can try searching."
+,whitevil,2010-06-23T17:42Z,"Thanks for your quick reply, illiria :)
+Yes, you're right, I formatted my C partition recently...
+I believe I can add those entries myself, can you please post them here? "
+,whitevil,2010-06-23T17:43Z,"@ Elvir666
+Block the exe with a firewall..."
+,whitevil,2010-06-23T17:44Z,"@@ Elvir666
+Block it with your firewall. You do have one, don't you?"
+,whitevil,2010-06-23T17:47Z,"I apologize for the double post, will someone please delete ? I can't..."
+,Key_Tap,2010-06-23T21:38Z,"I blocked the exe with my firewall, the issue is that I still want to run it with the Steam official shortcut so it can track my stats. I need some way to redirect that, or redirect the launcher, or redirect your patcher."
+,kristmas,2010-06-24T14:55Z,@ Key_Tap - im just goin out on a limb here but i assume most if not all cracked games or dlc's are not goin to work properly or at all with steam.
+,Thatguy4600,2010-06-26T03:27Z,"Every time I try to use ""RunMassEffect2.exe"" it opens up the mass effect launcher, from which I press play. After that, it tells me that I still need a disk to play the game.
+
+What gives? I thought this included a crack for the game, doesn't it?"
+,illiria,2010-06-26T15:54Z,"@ whitevil
+
+I'm sorry for not replying sooner, unfortunately I couldn't. I have to spend most of the time in hospital these days. :( Here is the registry entry you need (I post all of them, just in case, simply change your ""path""):
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\BioWare\Mass Effect 2]
+""Language""=""en""
+""Readme""=""Readme_en""
+""ProductName""=""Mass Effect 2""
+""Path""=""C:\\Program Files\\Mass Effect 2""
+""Flavour""=""DVD""
+""GUID""=""{75D84EF7-0D8C-4e70-B3FA-7B42A5D4E0EB}""
+""StartMenu""=""C:\\Documents and Settings\\All Users\\Start Menu\\Programs\\Mass Effect 2\\""
+""GameExplorer""=""{C90A968C-454B-4309-8CF6-79A4B0685998}""
+
+@ Thatguy4600
+
+Well, as I said, for some reason the crack did not get copied at the end of an installation. It might be an issue with permissions in Windows. Do you use a guest account instead of admin on your computer? Either way, most likely it is something wrong with Windows itself, because I unpack the crack into Temp folder, then run a command to copy it, that's all. If Windows cannot perform that simple task, then there's something wrong with it.
+And yes, issue isn;t in my installer. I've checked all the scripts, everything is fine and works. I don't know why do you have this issue. Just look up for a crack on gthe web then. Not a big problem."
+,illiria,2010-06-26T15:56Z,"@ Chaos7777
+
+Wrong advice. This crack you linked to is the same crack I use, I have simply made a shell for it. So if the crack in my torrent doesn't work, this one won't either. They are the same."
+,truthy,2010-06-27T04:08Z,"thx for sharing, worked perfectly!
+
+I'm on win7 32bit, have the US-version of ME2 + official patch 1.02, applied your dlc-pack + 1.02 vitality crack from GCW (your's didn't get copied)
+
+didn't have to disconnect inet-connection - just block ME2 in your software firewall - worked like a charm.
+
+ah and on win7 .NET Framework 3.5 can't be properly installed to my knowledge - but it also works with .NET Framework 4.0
+
+great upload!
+too bad that you can't take off your helmet/see your characters face with the custom armors - but I didn't like them anyway"
+,truthy,2010-06-27T04:12Z,"and the for the registry entries:
+don't know if it will work if you don't enter the sn - those are the complete ones (already with sn):
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\BioWare\Mass Effect 2]
+""Language""=""en""
+""Readme""=""Readme_en""
+""ProductName""=""Mass Effect 2""
+""Path""=""D:\\Games\\Mass Effect 2""
+""Flavour""=""DVD""
+""GUID""=""{75D84EF7-0D8C-4e70-B3FA-7B42A5D4E0EB}""
+""StartMenu""=""C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Mass Effect 2\\""
+""GameExplorer""=""{95598D7F-1FBF-46BA-AD2B-D1D57B834872}""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Electronic Arts\EA Games\Mass Effect 2]
+""DisplayName""=""Mass Effect 2""
+""Locale""=""en_US""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Electronic Arts\EA Games\Mass Effect 2\ergc]
+@=""VW3K59M2D3L6F7R21911"""
+,IZZY-E,2010-06-28T03:17Z,Bad Torrent!!!!!!!! Doesn't even have an install path so the DAMN GAME WON'T WORK WITHOUT AN INSTALL PATH!!!!!!!! Don't download waste of time and bandwidth.
+,Severianz,2010-07-01T06:41Z,"I keep having DLC authorization failed message.
+
+Windows 7 64 bit
+I have .NET framework 4.0 installed
+I am using razor1911 ME2 (i ignored the razor crack and just installed this and game works)
+I have tried with ME2 blocked and unblocked in firewall. (windows default firewall)
+I am using the right .exe to start the game.
+I even tried the patch Chaos7777 suggested.
+Still getting the error every time."
+,Severianz,2010-07-01T09:39Z,"It might have worked despite getting the authorization failed message every time.
+
+I just started the game and I have access to all the armors. don't know how to check for the rest yet.
+
+Still getting the message though."
+,illiria,2010-07-01T16:54Z,"@ IZZY-E 
+
+Idiot, can't you understand that OFFICIAL DLCs AND PATCHES CHECK THE PATH FROM THE REGISTRY. INSTALL PATH ****WON'T HELP****! If you don't have patch in registry, official patches WILL NOT INSTALL. And if you do, then MY INSTALLER READS THE PATH AND KNOWS WHERE TO INSTALL STUFF."
+,illiria,2010-07-01T16:54Z,Path in registry*
+,Severianz,2010-07-01T19:51Z,"So i have confirmed that the DLC stuff is all there and working even though I have gotten the authorization failed message every time I start the game.
+
+So sometimes the DLC's might be authorized even with the failed message?
+I'm not sure but it works so...."
+,DrPiso,2010-07-04T11:13Z,unable to authorize overlord
+,DrPiso,2010-07-04T22:01Z,"I used a DLC Crack from Mass Effect DLC Pack ,I downloaded before & it worked ..."
+,kolokythis,2010-07-05T18:06Z,"XP SP3 here. Everything worked fine. It couldn't be easier. Thanks mate, you save us from a lot of hassle. Hope you're ok (you wrote something about beeing in hospital). Cheers!"
+,Alex228,2010-07-06T07:38Z,worked perfectly for me. just installed and that was it.
+,IZZY-E,2010-07-06T08:17Z,"@ illiria 
+Fuck you, you suck at uploading and go to HELL!!!"
+,Moinsestplus,2010-07-06T20:37Z,"I have done everything RIGHT...Installed the DLC Pack. When afterwards go into the game to play it shows the ""New Content"" but when I double click on it ..it sends me straight to EA page or something! I have tried to play offline but when I start the game with no internet connection the New Content dissapears...I am really frustrated!
+Please help!
+I have installed frame network etc...correctly!"
+,Krelianz,2010-07-06T21:46Z,"confirm this is working, if u are blind don't blame the torrent uploader, it says clearly to open the game from ""runmasseffect2"" to not get the dlc unauthorized message."
+,Krelianz,2010-07-06T21:50Z,"also i forgot to add, disable both options on the internet tab in the game or the dlc authorization will fail, this is normal in all dlc packs."
+,Moinsestplus,2010-07-07T00:16Z,"@Krelianz
+I didn't blame the uploader! Just trying to do what am I doing wrong and yes I have disable the internet connection within the game and is being fire walled as well!"
+,tangledmyth,2010-07-08T08:48Z,"Great pack Illiria!
+
+Can you recommend one of the other torrents to install the Aegis Pack, that will work with this one of yours?"
+,namxad,2010-07-08T20:15Z,"This upload is a double edged sword: YES - The DLCs work, I was able to play all of them with no problems, but after a few hours my system slowed to a crawl and it took almost a full day to get rid of the nasty \""Win32.TDSS.d\"" virus I got from it. And I KNOW it was this file b/c I know my computer well and haven\'t dloaded any other programs in weeks. So thanks for making me uninstall my favorite game just to get my system working again, you asshole."
+,qpalmer12,2010-07-09T04:46Z,Can anybody say whether or not this works on the Steam version of the game?
+,Severianz,2010-07-11T06:01Z,This worked for me and I just got the Aegis pack from here: rnhttp://thepiratebay.org/torrent/5673616/Mass_Effect_2_DLC_Aegis_Packrnrnand it works perfectly with this pack with this pack. just run the dlc installer and the crack with administrator rights.rnrnAlso advice: even if you get failed message go and check your Armor/weapon locker and message terminal for the content anyway.rnThere is nothing at the main menu that tells you the dlc stuff is there.
+,Rokrdude,2010-07-13T15:45Z,"Works perfectly many thanks to the uploadernnIt would be great if you could make something like this for mass effect 1 addons as wellnnnAnyone having problemsn1)Before installation,disable both options on the internet tab in the game or the dlc authorization will fail, this is normal in all dlc packs.nn2)After installation, either launch from  \""RunMassEffect2.exe\"" file in Game Folder -> Binaries.nDon\'t Launch from \""masseffect2.exe\"", or the DLCs wont be authorized (but nothing bad will happen if you launch on accident).nnAegis pack working with thisnhttp://thepiratebay.org/torrent/5673616/Mass_Effect_2_DLC_Aegis_Pack"
+,EvilCorporateWhore,2010-07-14T00:05Z,Works perfectly and could honestly not have been any easier to install unless the uploaded drove to our homes and installed it himself.nnn@MoinsestplusnnYou don\'t have to click the new content tab to use the dlc stuff. You just have to play the game normally. Go to your personal terminal or whatever on the Normandy and you should have a bunch of new emails regarding all the new content along with information.
+,fischkopf11,2010-07-20T14:38Z,is there a virus or trojan in this? please answer.
+,Severianz,2010-07-22T01:18Z,"Theres no virus.        
+It works just remember that there is nothing at the main menu that indicates which DLC's you have installed. Run the installer then actually load your game and play to check if stuff is there. "
+,glemoran,2010-07-26T07:14Z,"Since it was posted some new DLC may have been added. And surely some other might be added in the future. Can u please post a list with all DLC included?
+
+For instance, are the following included?
+
+??? Companion Zeed
+??? Blood Dragon Armor
+??? M-29 Incisor Sniper Rifle
+??? Normandy Crash
+??? Sentry Interface
+??? Collectors Weapon And Armor
+??? Terminus Weapon and Armor
+??? Inferno Armor
+??? Umbra Visor
+??? Recon Hood
+
+Thank u!
+
+"
+,glemoran,2010-07-26T07:15Z,"Since it was posted some new DLC may have been added. And surely some other might be added in the future. Can u please post a list with all DLC included?
+
+For instance, are the following included?
+
+??? Companion Zeed
+??? Blood Dragon Armor
+??? M-29 Incisor Sniper Rifle
+??? Normandy Crash
+??? Sentry Interface
+??? Collectors Weapon And Armor
+??? Terminus Weapon and Armor
+??? Inferno Armor
+??? Umbra Visor
+??? Recon Hood
+
+Thank u!"
+,btor718,2010-07-28T18:40Z,"Help! I'm not a noob. Been dl'ding games for some years now. But I cannot get this to work.
+
+I've tried all instructions. I keep getting ""Could not find Mass Effect 2 directory"" message. I've tried running the ""RunMassEffect2.exe"" shortcut. I get the message.
+
+I've even tried using other authorization cracks out there. All give me that damn message.
+
+Yes, I've even tried copying ""giveme2entitlements.exe"" from another download to several different directories. Same message.
+
+Why can't it reconize the damn folder it's in? I've taken a look at the registry too. I don't see Mass Effect 2 in any of the usual places. Mass Effect is there but under Wow6432Node.
+
+I'm running Vista Home Premium 64-bit."
+,btor718,2010-07-28T19:53Z,"Okay, on my own I've managed to edit the Registry to add entries for Mass Effect 2 and got the giveme2entitlements to work. It even rewrote the .ini file but...
+
+When I try to run the shortcut Runmasseffect2, nothing happens. Running the game normally, with the old shortcut, naturally shows none of the new DLC content. I get that I need to run the new shortcut (Runmasseffect2) but as I've written, nothing happens.
+
+Do I need to add an entry to it as well in the Registry? I'll try that next if no one has any other suggestions."
+,pieisyum13,2010-07-31T07:29Z,"@ illiria
+Whenever I try running mass effect 2 from the desktop shortcut or from RunMassEffect2 all i get is that it couldn't find the Mass Effect 2 Directory "
+,retro222,2010-08-04T09:59Z,"Thanks for the upload illiria, I was getting sick of having to install dlc's separately. :)
+
+I have a legal disc copy of ME2, with Windows 7 64 Bit. Unfortunately I haven't been able to get this to work, as there is no ""runmasseffect2.exe"" in my Binaries folder. When I launch the game I get the failed to authorise message, even with my internet disabled. Is there anywhere I can download the runmasseffect2.exe separately? "
+,btor718,2010-08-05T02:30Z,"Okay, now this one is totally weird. I finally got everything to work. Completed two games all the way through and had all team members survive both Suicide Missions.
+
+So here I am tinkering with things for yet another run through when I suddenly realize something. I have everything, all the DLC weapons, missions and armor except for.... the Kestrel armor from the Aegis pack.
+
+It's really odd because I've got the Incisor Sniper Rifle from that pack but none of the Kestrel armor.
+
+Any ideas???"
+,retro222,2010-08-06T08:48Z,"@btor718
+
+The Incisor Sniper rifle was included with the digital deluxe edition of ME2; in this DLC pack it is included. The Aegis pack also has the Incisor, for people who did not buy the Digital deluxe edition. So installing the Aegis pack will just give you the Kestrel Armor."
+,Sennek,2010-08-06T11:57Z,i can't even run it. i double click it and nothing happens.
+,Mythicos,2010-08-07T05:04Z,"Wow. Downloaded at average 1.9mb/s! 
+
+Scanned it - Clean.
+
+Ran it (As Administrator, naturally with vista.)
+
+Installed *perfect*. Works a charm.
+
+
+The only hitch - which I must stress is NOT illiria's fault - is the Firewalker.
+
+There is an issue with the PC version where the tutorial gives you the wrong keybindings.
+
+To scan, use [V]
+To jump, use [E]
+To boost, use [Space]
+
+Don't do what I did and sit there for 20 mins mashing your keyboard because the bindings it tells you dont work :D
+
+Other than that, everything has been working perfectly for me so far."
+,Death214,2010-08-09T14:58Z,"It is simple enough.If you have the authorization fail,this is what you do : After you install this file,run the old giveme2entitlements.exe.Then start the game,go to extras,pick online,and turn off everything in it.Worked for me.Great torrent iliria,you have my thanks."
+,retro222,2010-08-10T10:58Z,"Thanks a million illiria and Death314, the crack worked. :)"
+,Zechrome,2010-08-12T06:19Z,"Thank you very much illiria !!
+This pack is safe and works perfectly.
+I just hope you will release the future DLC's and make them compatible with this one."
+,locopuffs,2010-08-16T13:11Z,"@ Death214
+
+I can't seem to find the ""giveme2entitlements.exe""'
+Where is it supposed to be?"
+,Death214,2010-08-17T13:11Z,"There are a lot of places to download it from...but fine,here is an example. http://thepiratebay.org/torrent/5737864/Mass_Effect_2_Firepower_Pack_DLC - Just download the ""Old Unlocker"" folder."
+,ovidiusergius,2010-08-20T22:36Z,respect playa
+,vincentdesrd,2010-08-24T06:12Z,"How do I know if my DLC are working correctly? I had to disconnect for the internet to stop getting the ""unable to authorize"" message but now it just starts without any type of message. 
+
+Does that mean it's working?
+
+At what point in the game can I access a DLC to see if it's working?"
+,Cyrez60659,2010-08-27T01:23Z,DLC should activate after the 'Freedom's Progress' mission. Check for messages at your private terminal and look for new objectives on the star map.
+,corpsepaint1991,2010-08-29T01:47Z,well i ve been playing dragon age (same company) for a while. i downloaded dlc several times and after installation we had to change addins.xml file. each authorization value from 1 to 0. there is no such thing in this game. it would be easier like that. now im forever having authentication error. the crack blocking patch didnt work for me. can that happen bcoz of the region u c im not in usa(turkey). in dao i change my location into usa. somebody please solve this damn problem soo many people suffer i guess
+,dixiedog,2010-08-29T03:19Z,"So I keep getting this message ""cannot locate mass effect 2 directory after the installation produre is complete and I click on runmasseffect2.  Can someone help me fix this? It would be such a shame to let this DLC pack go unused. Thanks"
+,Vegita,2010-08-29T21:21Z,"Works fine, THANK YOU illria, you are the best :)"
+,EvilAsh34,2010-09-02T22:52Z,"Works Great, All DLC works. Thanks for such an easy install too!
+
+One (premature) question though. Do you think your repack will work with the new DLC Lair of the Shadowbroker? If not will you be offering a new ""repack"" with it included? 
+
+I just worry that if i use someone else's version of LotSB that it will fuck something up. Any insight into the situation is appreciated. : )"
+,pirate_bay.org,2010-09-03T20:36Z,Some one please tell me is there a way to change default installation directory....... help 
+,dixiedog,2010-09-03T21:50Z,"@ pirate_bay.org
+
+I have the same problem sorta... I want the DLC to recognize that the game is installed and since it wont I want to redirect the data to my program files but I have no idea how!"
+,pirate_bay.org,2010-09-04T12:14Z,"@ dixiedog
+What prob m facing is my wib dir has limited space alloted (ofcourse i did this) so now i want to install this game in some other partition ...... 
+@ every one .... any kind of help appriciated :)"
+,pirate_bay.org,2010-09-04T12:15Z,sorry its windows dir typo err..
+,Zeigh,2010-09-06T19:07Z,"Can anyone help me?
+I can't seem to run Project Overlord. When I land on the planet where it starts, the game freezes.
+Also, Project Firewalker didn't get installed in the game. Got no mails, journal updates about it. No new systems either. 
+The other dlc-s work fine though."
+,masterofvolus1211,2010-09-07T19:01Z,guys please seed more.....everyone is seeding less than 0.1 kb/s.... if you completed is better to seed than to let it rot.godspeed!THX 
+,EvilAsh34,2010-09-09T16:03Z,"@EvilAsh34/Me
+
+To answer my own question. This DLC Pack _is_ compatible with more recent ones. (Aegis, Firepower and LotSB). 
+
+You just need to use the giveme2entitlements.exe to get them working."
+,Monoris,2010-09-10T19:46Z,"Hi Guys,
+I have a problem after 1st facility when im just about to ride to 2nd one the game crashes ;/ ;/ ;/ I have same problem with Shadow broker DLC from another user... any1 have same problem? know how to fix this?"
+,lorelai2009,2010-09-12T07:33Z,"Thank you soooo much for this! It worked perfectly for me, I never managed to get any other DLC pack to work, I'm so happy for all the goodies!  Thanks again for sharing this with us!"
+,demmydemon,2010-09-12T21:08Z,"Uh, nice trojan....
+
+Before anyone says ""CRACKS GIVE FALSE POSITIVES, NEWB"", run this and check out these files:
+C:\Users\YourUsername\AppData\Local\Temp\wareg51.exe
+C:\Windows\Tasks\At1.job
+C:\Windows\Tasks\At2.job"
+,EvilAsh34,2010-09-13T16:45Z,"@demmydemon
+
+C:\Users\YourUsername\AppData\Local\Temp\wareg51.exe
+C:\Windows\Tasks\At1.job
+C:\Windows\Tasks\At2.job
+
+OK, I checked out my system for these files (no hidden files there), scanned my system with NOD32 (clean) and washed behind my ears (not so clean). There is no trojan with this that I can find. Maybe you picked it up from somewhere else?
+
+Don't yell fire when there isn't one."
+,blackpawzz,2010-09-13T20:40Z,"stay away from this. it does (tries to do) nasty things to your registry, firewall, virus-scanner"
+,Death214,2010-09-15T18:24Z,"Nonsense,i downloaded this file months ago,and everything is still fine.Those guys must have been on some questionable porn sites,and then blamed it on the download when they got chewed out..."
+,k-line,2010-09-18T22:17Z,i guess the moral of the story is: don't use custom installer!
+,Hush420,2010-09-26T20:11Z,My only complaint so far is that during a part of the Overlord mission the whole game crashes. I'm not sure if this is just a PC version issue or a problem with the DLC.
+,gino1965,2010-09-26T20:28Z,"Works perfect! No issues, no virus, trojan etc. Thank you so much Illiria!! God bless you.
+
+Thanks Mythicos for key bindings.
+
+"
+,gino1965,2010-09-26T20:32Z,"Works perfect!!! no virus, trojan etc. Thank you illiria, God bless you.
+and thanks to Mythicos for right key operation of the Hammerhead...."
+,birdmanosr,2010-09-29T22:31Z,Hey im new to this all in one thing. I installed this to good to be true all in one package and it says im missing directories. I try to just do the run command to launch it then it says I am missing some dlls!!!!!!!!!!!!!! argh! since im new would u be so kind as to tell me what i did wrong? thank u
+,birdmanosr,2010-09-29T22:36Z,I just tried to reinstall it and it says its missing the directory files.
+,birdmanosr,2010-09-30T19:56Z,i really want to play this but no one is getting back to me on the comment thing here. still says cant find directory.
+,birdmanosr,2010-09-30T20:38Z,"sorry im posting mad times but it doesnt look like anyone has posted here in a while. I re installed the package without the internet and i noticed that that dlc's actually went through this time. but still says im missing directory files. i would edit my registry but i dont want to fuck it up. i also noticed that in the registry that i have no keys related to bioware or mass effect 2.
+
+
+
+running windows 7 home premium on my laptop"
+,sweet_iris,2010-10-16T05:30Z,"Add me to the list of people who always get the ""not authenticated"" message but have the DLC anyway."
+,bobyochen,2010-10-22T03:34Z,"every time i try to run it, it says ""can't find game"" how do i fix this i have the game installed and everything "
+,SatsurikuX,2010-12-15T21:42Z,Is the Firepower Pack included? Because I cant see the new guns in the locker on Illios. Or do I have to go onboard of the Normandy first or something?
+,goku89,2010-12-16T04:46Z,"Hi,
+Is there any possible way I could use this with this rip version----Mass Effect 2 Digital Deluxe Edition(RIP)-TEAMCrossFire?
+Plz help.You know any way I could use a smaller version of ME2 and use this pack?
+I dont want to download whole 14GB and then this 3 GB which makes it 17 GB download!!!!OMG
+Plz help me asap."
+,icelaw,2010-12-17T16:35Z,Does NOT work.
+,wrathbreaker,2010-12-18T18:20Z,Can someone be kind enough to tell me something?...I'm only missing kestrel and Cerberus armor is it included in this torrent?....thanks for the answer
+,FELIPE.FELIPE,2010-12-21T20:36Z,"@illiria 
+sorry illiria,but i am very noob at this,when i open my mass effect say that i am enable to use this dlc's, and something about the internet too.How can i solve this? explain step by step because i am dumb and noob"
+,FELIPE.FELIPE,2010-12-21T20:59Z,"sorry about mt last coment i solved my problem 
+i just click in extras and disconnect in the options my internet,so in the game i can use and my internet still connect out of the game (sorry for my bad english)
+thank you very much illiria :D i will seed"
+,Camizzle,2010-12-28T23:59Z,"I downloaded this one
+
+http://thepiratebay.org/torrent/5818225/Lair_of_the_shadow_broker
+
+Should I delete it? "
+,Arrakiz,2010-12-31T18:35Z,"All of you guys- this is important!- Befor you run the exe. you have to turn off the conection with cerberus network in your mass effect-->options-->internet. If you don't it will either not install at all, not work properly, or (worst case scenario) CORRUPT your game files. I'm guessing that's the reason for your various problems, but then again i might be wrong. Enyway i just wanted to help."
+,kebabonline5233,2011-01-15T05:39Z,"Works perfectly! Didn't really trust it at first, seemed odd. But had absolutely no problems!
+
+It takes about 2-5 Minutes to load
+
+Just install game
+Turn off the internet things that is mentioned everywhere! (Extras, internet upload yada yada)
+Install DLC
+move the entitles.exe thing to binaries, and execute.
+Then get latest patch (1.02) crack. easiest to find on www.gamecopyworld.com press world #1-10 search in the right column for Mass Effect 2 and Grab the first.
+
+Replace in with current .exe file in BINARIES then make shortcut from that file wherever you want it, and GL HF!"
+,MalFusiOn,2011-01-17T00:28Z,"For all thoes wondering this torrent does NOT include:
+	- ME2_AegisPack
+	- ME2_FirepowerPack
+	- ME2_ShadowBroker
+
+but, if u havnt downloaded this torrent and want all the dlcs tyrune18 has repacked this DLC Pack with the missing DLCs, if anyone wanted to know :)"
+,thez11,2011-01-27T15:41Z,"it works, thanks illiria, just follows the instruction  and everything will be fine !"
+,Fieel,2011-02-03T18:37Z,Non no seed. NOT ONLY ONE.
+,voineadmihai,2011-02-19T17:07Z,"one question 
+with what program do you open this thing,because at the other dlc's if you mouse clic right in general,at type of file,you see application,but on this one i've seen just file,i've tryed to open it with other application,but nothing works
+
+please tell me something"
+,Marshall7337,2011-03-04T13:19Z,"Main files are clean, authenication patch contains Suspicious.Cloud.2"
+,Marshall7337,2011-03-04T13:20Z,"Main Files are clean, authentication patch contains Suspicious.Cloud.2"
+,pipgirl,2011-08-05T12:37Z,"Tnx,works pefect...you just need to run the game from the Mass Effect icon with the litle shield on it, oh and btw i cracked the game again but i'm not sure it made any diference. ;)"
+,gk4u,2011-10-20T13:55Z,"Does it contain full game?
+I asked so becoz full game is of size around 14 GB."

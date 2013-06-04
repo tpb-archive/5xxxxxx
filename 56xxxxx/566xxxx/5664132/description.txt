@@ -1,0 +1,70 @@
+This software I've created as a token of appreciation to my favorite porn uploaders: Exmnova,Brego45,Dias_VLD and others.
+
+for those uploaders who upload 10-20-50-100+ movies per day or per week, this is ideal solution for them to create thumbnails in bulk.
+Highlights
+1. Drag and drop files/folder, it searches for movie clips inside them and creates thumbnails.
+2. also zip those thumbnails for easy bulkupload to your favorite imagehost.
+Software Screenshots:
+
+Main Feature
+http://s2.sigmirror.com/pfiles/14010/Screen1.png
+http://s2.sigmirror.com/pfiles/14011/screen2-Result.png
+
+Directly Automatically Zip the created thumbnails (i.e. no extra-harddisk space needed) 
+http://s2.sigmirror.com/pfiles/14012/zip1.png
+http://s2.sigmirror.com/pfiles/14013/zip2.png
+
+Download from following (2 MB) if seeds are less 
+http://www.autohotkey.net/~Ekarth/Ekarth%20Bulk%20Video%20Thumbnail%20Tool.7z
+
+Detailed Description:
+Everytime you want to create thumbnails for your movies, its all point and click this and that so much time wasted.
+Especially those mega uploaders on who upload like 10-50 or more movies per week! So for them, I've create this solution.
+
+Just select multiple files/folders and drag and drop them in my program and it'll automatically create thumnails: be it 10 movies, 100 movies no problem. whether its in a same folder or in the 10th level subfolder of a folder no problem, it'll search all media files and create thumbnails for it! Even if some of those subfolders have non-media files; don't worry, my program will skip them and work flawlessly.
+And yes if you want
+Thumbnails can be created and saved in a ZIP file! hence you can directly zip-upload it to picswan/ imagebam or whatever your favorite imagehost site it!
+
+consider the time, keyboard strokes and mouseclicks saved! just drag and drop.
+
+Supported video formats:-
+.3gp,.3g2,.asf,.avi,.dat,.divx,.dsm,.evo,.flv,.m1v,.m2ts,.m2v,.m4a,.mj2,.mjpg,.mjpeg,.mkv,.mov,.moov,.mp4,.mpg,.mpeg,.mpv,.nut,.ogg,.ogm,.qt,.swf,.ts,.vob,.wmv,.xvid
+
+Principle
+it uses MTN thumbnailer which is a commandline thumbnail creator software. I've provided a 'User friendly' GUI support to it via Autohotkey script.
+for zipping the screenshot/thumbnails, I've given built-in commandline version of 7zip. don't worry you don't have to remember or type any commands any where. all you've to do is drag and drop single time!
+
+Options
+you can set the Movie screenshot's number of
+Rows
+Height
+Columns
+jpeg quality
+and more...
+
+I'm especially thankful to
+#1
+Mr.Tuit for creating the movie thumbnailer (mtn)
+http://moviethumbnail.sourceforge.net/
+my software only provides GUI to his software
+mtn is developed by tuit (tuitfun); though most of its magic is actually done
+by FFmpeg libraries. For documents, please see in the doc directory and at
+http://sourceforge.net/forum/?group_id=201133 .
+#2
+Igor Pavlov
+for 7-zip
+~~~~~~~~~~~
+Troubleshoot:Thumbnails not created
+Reason:1- may be the required video codecs are not installed in your system. This software basically works on FFmpeg libraries.so you need to download and install a codec package like Vistacodec or K-Lite Megacodec to fix the problem. both are free.
+Reason:2- may be your video file or output folder has UNICODE names like chinese,arabic etc. Be sure that all file and folder names are English only.
+any other glitch, Post it on forum.
+~~~~~~~~~~~
+I dedicate my this macro/GUI/software or whatever you wish to call it, to my favorite porn uploaders
+1. Exmnova
+2. Brego45
+3. Dias_VLD
+4. ATKFanii aka Skullmanwoopt
+and all those countless skulled and non-skulled gentleman-uploaders on piratebay like Malestorm, Umbrella_tears etc. in every category who have made our lives so easier. 
+
+Suprbay disscussion thread below for any technical support 
+http://forum.suprbay.org/showthread.php?tid=67971

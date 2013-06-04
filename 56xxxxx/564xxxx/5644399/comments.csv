@@ -1,0 +1,10 @@
+User Type,Username,Date,Text
+,jorma669,2010-06-27T21:01Z,"Video and audio quality is fine
+Its stereoscopic 3d
+
+It has Russian dub and hardsubs + subs are only visible to left eye making them hard to read
+
+Left and right eyes are slightly out of sync reducing 3d effect
+
+Wait for better version"
+,acmelab68,2010-07-08T23:44Z,"This is the first available complete s3d (stereoscopic 3d) movie I know of.  It\'s viewable with Nvidia\'s Stereoscopic Player and the NVidia 3D Vision glasses. The quality is outstanding. The resolution (1024x768) is small enough to be played back on standard hardware, and it looks great on a beamer @1280x720. The aspect ratio have to be adjusted manually to 16:9 though. The 3D impression is amazing!nnHere are some facts about it:nnID_DEMUXER=avinID_VIDEO_FORMAT=DX50nID_VIDEO_BITRATE=5329272nID_VIDEO_WIDTH=1024nID_VIDEO_HEIGHT=768                                                                                                                                                                 nID_VIDEO_FPS=24.000nID_VIDEO_ASPECT=1.3333nID_AUDIO_FORMAT=85nID_AUDIO_BITRATE=256000nID_AUDIO_RATE=0nID_AUDIO_NCH=0nID_LENGTH=5662.25nID_SEEKABLE=1nID_CHAPTERS=0nID_VIDEO_CODEC=ffodivxnID_AUDIO_BITRATE=256000nID_AUDIO_RATE=44100nID_AUDIO_NCH=2nID_AUDIO_CODEC=mp3nID_EXIT=EOFnnAs mentioned before, the audio is russian and the hardcoded subs suck big time indeed.nnTo get rid of the sync problem, just remove the first two frames (or 0.083 secs) from the beginning of the right eye movie. This is easily done under Linux e.g. with avidemux.nIf you don\'t correct the sync problem, you\'ll likely puke after a couple of minutes ;-)nnIt\'s astonishing, this is what many people have been waiting for, but it\'s quite quiet in here, and almost no seeders or leechers. nnAnyway, big thanks!"

@@ -1,0 +1,138 @@
+User Type,Username,Date,Text
+,dANGER_boy,2010-07-06T16:18Z,"Acquired, cracked, and uploaded before you can even get it officially yet for PC from the Bioware site......damn I'm good :)"
+,JackMack10,2010-07-06T17:50Z,thanks mate always knew you could do it ! 
+,Dr.mabra,2010-07-06T18:09Z,Dude your the best :)
+,SnakeHe,2010-07-06T18:23Z,"Why does Dragon age downloadable content say this DLC is 710 mb, and here it's 529mb? What's going on?"
+,dANGER_boy,2010-07-06T18:35Z,"@SnakeHe
+Thanks for the heads up.  I will look into this but my initial reaction is that they are showing you the total size of the uncompressed files.  Rememeber, these files are DAZIPs, essentially glorified zip archives.  They are compressed initially and must be decompressed by daupdater.exe.
+
+I personally have installed this DLC using these exact same DAZIPs and tested it out for the first few minutes.  If anybody notices any problems, please alert me and I will fix them as soon as I can."
+,dANGER_boy,2010-07-06T18:45Z,"I have not verified this either, but another potential piece of the puzzle is that the decryption process might increase file size as it alters encrypted files.  Once again, I haven't verified this and I won't unless a problem arises.  If people are unable to complete the campaign or access the new, unique armor, I will look into it further."
+,Frosty676,2010-07-06T19:09Z,"Hi. 
+Dangerboy is there a way to not have to delete and reinstall awakening +load of dlc) if i got the install error?"
+,dANGER_boy,2010-07-06T19:13Z,"@Frosty676
+Not that I know of, no.  Sorry!  This is a big inconvenience to me too when the error crops up.  Your best bet in the future would be to make a backup of your AddIns.xml after succcesful installation of Awakening/DLC and store it in a safe place.  I haven't found a way around it yet but maybe you can.  Like I said, sorry."
+,SurvivoRR,2010-07-06T19:22Z,Install done but doesnt work for me.... Cannot load the module and its still in the downloadable contents.
+,Bucifer,2010-07-06T19:38Z,"copy your addins and delete it from the dragon age folder , install the DLC , open the new addins , copy all the lines from this dlc paste em in the addins that you copied earlier then move it back to your folder .I corrupted my addins a few months back and this is how i install addons every time ."
+,plshelp,2010-07-06T20:31Z,I'm getting the xml error while installing and i cant reinstall awakening as i dont have the files. Can someone please paste the content of their addins.xml and manifest.xml so i can correct mines?
+,jewelss,2010-07-06T20:47Z,seed guys !
+,jewelss,2010-07-06T20:49Z,@plshelp u have to change your Pc language to English (ABD)
+,adler1984,2010-07-06T20:56Z,"to all people who has problem with addins.xml
+
+go to http://www.dragonagenexus.com/downloads/file.php?id=277 and download Dragon Age ModManager.
+
+Start it and it will say that addins.xml is broken and it will ask you should it repair it, click yes and you don't have to reinstall Origins and Awakening."
+,adler1984,2010-07-06T20:58Z,"Oh forgot to say, when modmanager repairs broken file, install Lelianas Song again and it should work. At least it did for me."
+,Frosty676,2010-07-06T21:05Z,"@adler1984
+Now you're talking! Thanks for the heads up mate.
+@Dangerboy
+Thanks for dlc all of it, keep em coming) "
+,Soverign,2010-07-06T21:06Z,Thanks from Turkey.
+,capf,2010-07-06T21:32Z,"Hello, having a slight problem here.
+Installed the DAZIPs with daoupdater, everything worked fine, went and fixed the addins.xml etc.
+I start up DAO and check the downloadable content tab and everything looks fine, all addons enabled.
+BUT when I do try to start Leliana's Song from the ""Other Campaigns"" tab, it starts to load and after a little while I get ""daorigins.exe has stopped working"".
+This is a little bit annoying, so any tips would be appriciated.
+
+Anyways, thanks for this and your other uploads dANGER_boy! 
+This is the first one that has cause me any kind of grief.
+Thanks in advance from Sweden!"
+,Frosty676,2010-07-06T21:48Z,"@capf
+Mayhaps you forgot to decrypt?"
+,adler1984,2010-07-06T21:59Z,"@capf
+
+Try like this install Leliana's song, run decrypt, change all RequiresAuthorization = 1, from 1 to 0.
+Then try to run it.
+
+If its addins.xml is broken repair it with modmanager, then try again.
+
+If not after repair change RequiresAuthorization values to 0 and try."
+,capf,2010-07-06T22:16Z,"@Frosty676
+I ran the decrypt after installing the DAZIPs.
+
+@adler1984
+I did exactly that.
+addins.xml isn't broken, I assume as much since every other DLC is working.
+And yeah, every single RequiresAuthorization value is at 0, including Leliana's Song.
+
+Still the game crashes after a few seconds when I try to start Leliana's Song.
+Whats wierd is that everything else works, all other DLCs, Origins and Awakening runs perfectly.
+
+Thanks anyways though, I'll continue trying stuff and post it if I find a solution incase someone else has the same issue."
+,Vennuska,2010-07-06T22:27Z,"I did everything as said and there is Leliana's song in downloadable content, but when going to Other campaigns and clicking on Lelianas Song and then Play, it starts to load and then goes back to main page and says Unable to load content. Any help please??? "
+,Vennuska,2010-07-06T22:29Z,"Sorry, it says Unable to load Module. "
+,capf,2010-07-06T23:06Z,"@Vennuska
+Try running the decrypter again, that can happen if the addon is being recoginzied properly."
+,capf,2010-07-06T23:07Z,isn't* being recognized properly.
+,prismaticsmiley,2010-07-07T01:52Z,That was... fast! Thanks! I'm definitely getting this one. :D
+,capf,2010-07-07T03:22Z,"After some time and thinking I found a solution for my problem with this addon.
+I tell you it was amazingly hard to finally get this to work.
+I reinstalled it, ran the decrypt again and changed the values of ""RequiresAuthorization"" in the addins.xml to 0 instead of 1.
+And what do you know, it suddenly works like a charm. 
+I figure it must have been some invisible error the first time I installed it wich just didn't happen the second time around.
+
+So if anyone else is getting a ""daorigins.exe"" error when trying to start Leliana's Song, just try reinstalling it and following the steps in the readme.
+
+My eternal grattitude to  dANGER_boy for this and his other uploads, keep on cracking bro! ;)"
+,dANGER_boy,2010-07-07T03:46Z,"That's weird that you guys are having some issues with the module being unable to load.  Worked fine for me.  I would recommend, as has been mentioned earlier, that you start using DAModder to install DAZIPS.  For some reason this seems to reduce the amount of installation problems people are running into.
+
+Enjoy and seed away mateys!"
+,elven-archer,2010-07-07T05:36Z,Dude you still include thepiratebay in your list of trackers!
+,prismaticsmiley,2010-07-07T06:43Z,"Tried it the first time and I encountered errors during the dazips installation. After that, I did what was written in the README- deleted the addins and manifest xml, and reinstalled whatever DLCs I had previously. The second time I tried installing Leliana's song, everything worked fine already. :)
+
+Thanks again! dANGER_boy, you are amazing."
+,dANGER_boy,2010-07-07T07:03Z,"@elven-archer
+Nope, I don't include it.  TPB must automatically put it in when you upload a torrent.  I only include PublicBitTorrent and OpenBitTorrent in any of my torrents."
+,Fallerup,2010-07-07T09:00Z,"had the error when trying to install, followed the guide here and it worked like a charm, how ever, as you explained, every other DLC + Awakening is gone :( Oh well, it doesn't really bother me all that much, I've completed them all anyway, how ever the new character stuff I never got to try out :( a mod that changes the appearance of your companions and npc ... I gotta reinstall that I try playing it again :)"
+,dANGER_boy,2010-07-07T10:06Z,"@All those with installation errors...ATTENTION!!
+I finally think I pinpointed the problem and have a solution without having to reinstall all your DLC.
+
+***PLEASE READ CAREFULLY AND FOLLOW INSTRUCTIONS EXACTLY
+
+When editting the AddIns.xml to change the RequiresAuthorization flag to 0, I think the encoding of the xml is sometimes being changed behind our backs to ANSI.  The encoding should normally be set to UTF-8, as can be seen in the header of the AddIns.xml.  If you are getting an installation error, follow these directions precisely.
+
+1. Make a copy of your corrupted AddIns.xml to somewhere on your computer.
+2. Delete the original AddIns.xml AND Manifest.xml
+3. Open up Notepad and copy/paste everything from your backup AddIns.xml to this blank file.
+4. Click ""File"" and then click ""Save As...""
+5. For filename, put in ""AddIns.xml"", without the quotes.
+6. In the box ""Save as type"", change this from text document (*.txt) to ""All Files""
+7. Make sure that the box titled ""Encoding"" is set to UTF-8.
+8. Save this where the original was located.
+9. Start up your game.  This should fix all problems!
+
+NOTE: For you that don't need these intricate instructions, you might simply shortcut all this work by opening the original, corrupted AddIns.xml and doing a ""Save As..."", making sure the encoding is set to UTF-8 and overwriting itself.
+
+Hope this helps!"
+,dANGER_boy,2010-07-07T10:10Z,"As an addendum to my previous post, all your DLC prior to your failed installation attempt should be visible and properly recognized by the game.  Now, try installing the new DAZIPs.  Hopefully, now that the encoding has been properly set on AddIns.xml, the daupdater.exe program should be able to properly read and modify the AddIns.xml.
+
+Cheers mateys!"
+,ShepardM,2010-07-07T13:19Z,"""backup AddIns.xml""? where is the backup?"
+,dANGER_boy,2010-07-07T14:58Z,"@ShepardM
+That would be the copy that you made in step #1 and saved in a seperate place on your computer..."
+,elven-archer,2010-07-09T10:54Z,Is the pre-cracked version out yet??
+,ujjju,2010-07-09T17:22Z,"oly 1 torrent of leliana,.,tnks,.,i will seed if yu want after dldin dis,i got nice upload speed.,,cheers :)"
+,wntrwlf,2010-07-10T08:46Z,ive enjoyed DOA since i first got it.. Ill prob seed this for a month!
+,Furious1964,2010-07-11T09:42Z,Anyone know what this Feastday stuff is? Can someone torrent it too?
+,dANGER_boy,2010-07-11T10:41Z,"Feastday gifts are a set of gifts that always give +10 approval and there is one unique gift for each party member that gives +50.  Feastday pranks is the exact opposite.  And to get it, go to my DLC pack here and select what you want.nhttp://thepiratebay.org/torrent/5652679/Dragon_Age__Origins_-_DLC_Pack_%5BUpdated_18_May_2010%5D"
+,dANGER_boy,2010-07-11T10:43Z,"Wow, that was messed up.  Well, just search here on TPB for \""dragon age dlc pack\"" and you\'ll find it."
+,dawid1012,2010-07-11T21:02Z,Nice upload!
+,tris23456,2010-07-16T18:25Z,"Mr. danger_boy! pls help me. i still have problem loading the leliana\'s song. it keeps saying \""Unable to load content\"" please, im xur by now you guys found a solution. hehe"
+,tris23456,2010-07-16T18:28Z,i mean i did everything. but still no successes =(
+,Albien214,2010-07-17T18:26Z,"Followed the updated instructions by dANGER_boy to the \'T\'; all of my DLCs are gone, including Awakening, and Leliana\'s Song failed to appear. Because I believe it has something to do with the decrypter, I could not reinstall the DLCs I previously had either - kept on coming up as \""Error\"". nnShould the .xml file with the authorizations changed to \""0\"" show up completely when you open it in a browser? It continued to show up as:nn----nnThe XML page cannot be displayed nCannot view XML input using style sheet. Please correct the error and then click the Refresh button, or try again later. nnn--------------------------------------------------------------------------------nnInvalid at the top level of the document. Error processing resource \'file:///C:/Users/Alex/Desktop/AddIns.xml\'. Line 1, Po...nn{\\rtf1\\ansi\\ansicpg932\\deff0\\deflang1033\\deflangfe1041{\\fonttbl{\\f0\\fswiss\\fcharset0 Arial;}{\\f1\\fswiss\\fcharset204{\\*\\fname...nn---nnHaving to get the torrent of the original Dragon Age: Origins again, which is more a pain than an actual complaint, but yeah. Still can\'t determine where I went wrong.nnI\'m on Vista 32-bit.n n"
+,Albien214,2010-07-17T18:28Z,Wow comments are getting slashed up funny.
+,shadowpal,2010-07-22T07:43Z,Does anyone out there have the Toolset available from the bioware website????? I would seed for weeks if someone could provide me with that. 
+,Rhiyo,2010-07-24T06:16Z,"Not sure if it's this DLC or one from the DLC pack you released (I installed all the DAZIPS at the same time) but when Installing the DAZIPs the updater said one or two of them were out of date and told me to download the newer ones from dragonage.com. They work fine, but I'd rather updated DLC the old DLC :P"
+,kentaris,2010-07-26T22:08Z,am i doing anything wrong if the DLC needs an authorized account?
+,Pyromaniac88,2010-08-04T12:41Z,"When i try to install the DLC i get an error about ""couldn't get detail list from manifest.xlm"", it happens some other DLC's i downloaded too, i erased addins.xlm and manifest.xlm and reinstalled the Awakening as described in readme but same thing continues to happen, what can i do?"
+,xKerberos,2010-08-10T05:11Z,"Wonder if this works on a retail copy. Well, there's only one way to find out. I'm tired of spending money on half-assed dlcs."
+,dANGER_boy,2010-08-10T06:05Z,"And why wouldn't it work on a retail copy?  I play with a legal, retail version of the game and the cracked DLC works just fine. :)"
+,poppydo12,2010-09-05T23:32Z,"Could any one help me.
+Everytime i try to load the campaign it keeps saying ""unable to load module"""
+,Death214,2010-09-13T13:41Z,"dANGER_boy,you make me laugh. Bragging about your legality on a piracy site..."
+,UndegroundWind,2010-09-20T10:12Z,"As with Witch Hunt, the installation process worked perfectly. Instructions are clear and accurate.
+
+dANGER_boy, Thanks for your effort and dedication."
+,dANGER_boy,2010-09-24T08:01Z,"@Death214
+Nothing in that was bragging.  I merely provided proof that playing with a legal version has no effect on illegal/pirated DLC."
+,sindrel1,2010-09-29T16:05Z,dangerboy when i try 2 load the dlc i keep getting unable 2 load module

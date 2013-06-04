@@ -1,0 +1,5 @@
+User Type,Username,Date,Text
+,wejones,2010-06-16T23:51Z,"One error. While sorting and looking for what was in the list I noticed duplicates. So the list is doubled. More than likely ran an append to file instead of overwrite when generating original directory pull.
+
+Not worth time to fix, so just be aware the list is doubled."
+,wejones,2010-06-17T04:58Z,To remove doubles just delete and IDX row greater than or equal to 6180

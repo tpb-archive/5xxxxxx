@@ -1,0 +1,61 @@
+==========================================================================================================================================================================
+         MICROSOFT WINDOWS VISTA HOME PREMIUM 32BIT ISO UNTOUCHED
+==========================================================================================================================================================================
+
+I do PC Repair for a living and a recent customer had a vista home premium dvd that I was able to make an ISO copy of.
+
+
+==========================================================================================================================================================================
+              BEFORE YOU BITCH, READ THIS
+========================================================================================================================================================================== 
+NO KEY IS INCLUDED.  This iso is for the people who already have Vista Home Premium installed and crashed their computers. USE THE KEY ON SIDE OF PC on the COA sticker
+
+Step 1. Get a DVD-R
+Step 2. Use a ISO Burning Software(I use Active ISO Burner set to slowest burn speed) The Active ISO is also 100% free 
+http://download.cnet.com/Active-ISO-Burner/3000-2646_4-10602452.html
+
+Step 3. After it is done burning, be sure you back up all your files(this is NOT a recovery disc).
+
+Step 4. Insert into PC
+Step 5. Restart.
+Step 6. Boot from DVD
+Step 7. I suggest a clean install, but each to their own, follow on screen prompts.
+Step 8. When asked for a key, use the 25 digit product key located on your coa
+Step 9. Install any drivers you may need.
+Step 10. Seed seed seed and say thanks!!!
+
+======================================================================================================================================================================
+THIS IS FOR YOU CHEAP ASS PIRATES (LIKE ME) WHO DONT HAVE A KEY ALL THE TIME
+===================================================================================
+===================================================================================
+
+HOW TO ACTIVATE VISTA WITHOUT A KEY
+
+Step 1. While running a copy of Windows Vista that hasn't yet been activated, click the Start button, type regedit into the Search box, then press Enter to launch the Registry Editor.
+
+Step 2. Explore down to the following Registry key:
+
+HKEY_LOCAL_MACHINE  SOFTWARE  Microsoft  Windows NT  CurrentVersion  SL
+
+Step 3. Right-click the Registry key named SkipRearm and click Edit. The default is a Dword (a double word or 4 bytes) with a hex value of 00000000. Change this value to any positive integer, such as 00000001, save the change, and close the Registry Editor.
+
+Step 4. Start a command prompt with administrative rights. The fastest way to do this is to click the Start button, enter cmd in the Search box, then press Ctrl+Shift+Enter. If you're asked for a network username and password, provide the ones that log you into your domain. You may be asked to approve a User Account Control prompt and to provide an administrator password.
+
+Step 5. Type one of the following two commands and press Enter:
+
+slmgr -rearm
+or
+rundll32 slc.dll,SLReArmWindows
+
+Either command uses Vista's built-in Software Licensing Manager (SLMGR) to push the activation deadline out to 30 days after the command is run. Changing SkipRearm from 0 to 1 allows SLMGR to do this an indefinite number of times. Running either command initializes the value of SkipRearm back to 0.
+
+Step 6. Reboot the PC to make the postponement take effect. 
+
+Step 7. To extend the activation deadline of Vista indefinitely, repeat steps 1 through 6 as necessary.
+
+======================================================================================================================================================================
+
+CONTACT INFO:
+
+GhostWarriorTheGeek on You||tube...
+you know, that really shitty video site that google bought & made even shittier?

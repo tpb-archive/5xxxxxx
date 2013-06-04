@@ -1,0 +1,52 @@
+Format                           : AVI
+Format/Info                      : Audio Video Interleave
+FileSize/String                  : 351 MiB
+Duration/String                  : 42mn 16s
+OverallBitRate/String            : 1 162 Kbps
+Encoded_Library/String           : VirtualDub build 0/release
+
+Video
+ID/String                        : 0
+Format                           : MPEG-4 Visual
+Format_Profile                   : Advanced Simple@L5
+Format_Settings_BVOP/String      : Yes
+Format_Settings_QPel/String      : No
+Format_Settings_GMC/String       : No warppoints
+Format_Settings_Matrix/String    : Default (H.263)
+MuxingMode                       : Packed bitstream
+CodecID                          : XVID
+CodecID/Hint                     : XviD
+Duration/String                  : 42mn 16s
+BitRate/String                   : 1 022 Kbps
+Width/String                     : 704 pixels
+Height/String                    : 400 pixels
+DisplayAspectRatio/String        : 16:9
+FrameRate/String                 : 25.000 fps
+ColorSpace                       : YUV
+ChromaSubsampling                : 4:2:0
+BitDepth/String                  : 8 bits
+ScanType/String                  : Progressive
+Bits-(Pixel*Frame)               : 0.145
+StreamSize/String                : 309 MiB (88%)
+Encoded_Library/String           : XviD 1.2.1 (UTC 2008-12-04)
+
+Audio
+ID/String                        : 1
+Format                           : MPEG Audio
+Format_Version                   : Version 1
+Format_Profile                   : Layer 3
+CodecID                          : 55
+CodecID/Hint                     : MP3
+Duration/String                  : 42mn 16s
+BitRate_Mode/String              : Constant
+BitRate/String                   : 128 Kbps
+Channel(s)/String                : 2 channels
+SamplingRate/String              : 44.1 KHz
+StreamSize/String                : 38.7 MiB (11%)
+Alignment/String                 : Aligned on interleaves
+Interleave_Duration/String       : 26 ms (0.65 video frame)
+Interleave_Preload/String        : 496 ms
+Encoded_Library/String           : LAME3.92 
+Encoded_Library_Settings         : -m s -V 4 -q 5 -lowpass 13.8 -b 128
+
+-----------------		

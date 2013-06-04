@@ -1,0 +1,24 @@
+Important: 
+You must update RAD Studio to December 2007 Update (11.0.2890.10344) to be able to install and use this hotfix. The Apr08 Hotfix Update cannot be applied to prior software versions. To determine if you have the December 2007 Update installed, please select Help>About and look at the Update versions section.
+
+Description of updates that are included in this hotfix:
+1. AV when implicitly building C++ static library project as a dependency of another project.
+2. Compiling more than 100 packages at a time can result in IDE instability and spurious build errors.
+3. Improve F1 Code Editor help for Delphi and Delphi.NET.
+4. Delphi Win32 compiler generates misaligned data structures causing AV.
+5. AV when evaluating expression using Evaluate/Modify or setting Watch and Tooltip evaluation access violation.
+6. Code Completion for Delphi (Win32 and .NET) omits valid symbols from a ancestor classes.
+7. Hardware exception can occur when using dynamically linked runtime libraries and exceptions.
+8. Memory leak in the TOXDOMImplementation class of OpenXML.
+
+More Info: 
+http://cc.embarcadero.com/item/25495
+(Requires valid license to download, so I'm sharing)
+
+Files:
+radstudio2007apr08hotfix.exe
+(7-zip couldn't make it smaller)
+
+VirusTotal(0/41): 
+http://www.virustotal.com/analisis/c8d655c6589f74e5ad0c915f5500894643b4c52b071ec669ee6393b40193e72d-1275439032
+(It's clean)

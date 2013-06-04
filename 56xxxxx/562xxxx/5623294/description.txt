@@ -1,0 +1,35 @@
+
+If you can't be asked reading description below then basically: allows you to add/take music to/from your ipod/iphone/ipad using any itunes library by changing the library's unique ID. 
+
+
+What is iTunesSyncFix?
+----------------------
+iTunesSyncFix allows you to sync your iPod/iPhone (iPad should work but not tested yet) with more than one computer.
+For example, if you plugged your iPod into a different computer than the one it was originally synced to, a prompt would appear asking you to delete all music off your iPod. Not anymore.
+
+What do I have to do?
+---------------------
+Make sure your iDevice is set to 'Manually manage music' on the library it currently syncs with.
+Download the latest version of iTunesSyncFix, unzip it and open it on the computer your iDevice currently syncs with.
+Select the first tab and get your iTunes Library ID key and save it to a file.
+Transfer that file onto another PC that you want to sync with and open iTunesSyncFix.
+Select the second tab and click import. Select the key file you made earlier and click OK.
+Thats it!
+
+Is there anything else I should know?
+-------------------------------------
+The program should tell you everything you need to know about creating, importing and backing up files.
+However, to run iTunesSyncFix you will need Microsoft .NET Framework 4.
+
+.NET 4 free download from microsoft links are
+
+Web installer (requires internet)
+http://www.microsoft.com/downloads/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992&displaylang=en
+
+Standalone installer (no internet required during install)
+http://www.microsoft.com/downloads/details.aspx?familyid=0A391ABD-25C1-4FC0-919F-B21F31AB88B7&displaylang=en
+
+Please leave feedback at
+http://thepiratebay.org/user/jtwg
+
+:)

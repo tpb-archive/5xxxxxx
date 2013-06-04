@@ -1,0 +1,17 @@
+Filename: Great Science Textbooks Data.txt
+
+Great Science Textbooks DVD List as an importable and searchable dataset.
+This dataset is pipe (|) delimited with a field name row and was tested by importing into microsoft excel
+and access.
+
+Fields:
+IDX - original text file order
+Subvol - some books had a "" char as part of the name along with chapters or volumes. Typically have more than book and author data in the AuthorBookName field
+Directory Listing - the original directory list
+DirectoryDVDTitle - the title of the DVD released
+CategoryFinal - the general topical category, such as Biology, Social, Electronics, etc
+Subcategory1 - further categorical division
+Subcategory2 - further categorical division
+AuthorBookName - not feasible to easily break out due to inconsistencies in order of author and bookname structure. More work than I wanted to do.
+
+Import into your favorite spreadsheet or database and sort, search or just browse. 

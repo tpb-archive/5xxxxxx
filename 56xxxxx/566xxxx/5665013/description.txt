@@ -1,0 +1,29 @@
+Official Web Site:  http://fetchsoftworks.com/fetch/
+
+Fetch is a full-featured FTP, SFTP and FTPS (FTP with TLS/SSL) client with a simple and easy-to-use interface.
+
+Fetch features include: one-click editing remote files with any application, automatic restart of failed or stalled transfers, Quick Look, WebView, droplet shortcuts, automatic support for Zip, Tar, Gzip, StuffIt and other common file formats, Bonjour support, Unicode file names, synchronizing folders using the Mirror command, automating repetitive tasks with Automator actions and AppleScript recording, a Dashboard widget for easy uploading and tracking the progress of your upload, and extensive online help.
+
+What's New?
+
+Version 5.6:
+
+Added automatic resume of stalled or failed downloads
+Improved stalled transfer detection to work better in more circumstances
+Fixed some cases where automatically resumed uploads would try to resume when the entire file was already on the server.
+
+Improved handling of uploads where the connection is dropped after an hour with certain routers, to avoid unnecessary resume upload attempts
+Made detection and automatic resume of FTP upload stalls quicker
+Added automatic resume of SFTP text files uploads in most cases (when not converting line endings).
+
+Improved behavior of automatic upload resume on very slow connections.
+
+Fixed a problem where Adobe Flash (.swf) files would sometimes be uploaded in the incorrect format
+
+
+System Requirements:
+
+OS X.4 and above
+
+-->> PLEASE SEED <<--
+

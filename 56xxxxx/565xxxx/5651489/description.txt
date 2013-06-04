@@ -1,0 +1,107 @@
+Here is the June 23rd, 2010 ( 2.0.1189) release of Zygor's Guide. Included are the horde and the alliance leveling guide and the new dailies guide for both horde & alliance.  It includes both the viewer and the updated guides.
+Also a guide for the midsummer festival is included
+(it was found on the demonoid tracker)
+
+_____________________________________________________________________________
+
+CHANGELOG (from 1049)
+
+Version: 2.0.1052 May 2nd, 2010
+
+Alliance Guides Change Log:
+Dailies Guide:
+* Fixed many Children's Week Guide errors
+
+Horde Guides Change Log:
+Dailies Guide:
+* Fixed many Children's Week Guide errors
+
+Guides Viewer Change Log:
+Viewer:
+* Loading no longer delayed until window is displayed
+* Waypointing reworked; removed waypointer autodetection for more stability
+* New option: hiding guide arrow together with the guide window
+* Improved tracking of failed quests (not mixed up with complete anymore)
+
+Version: 2.0.1054 May 3rd, 2010
+
+Alliance Guides Change Log:
+Leveling Guide:
+* Alliance 35-40 Step 136 - Daggerspine Raiders and Sorcereses are killed in steps 137-141 so put this step at the end since by then you'll have already killed some of these.
+
+Version: 2.0.1058 May 5th, 2010
+
+Alliance Guides Change Log:
+Alliance Dailies:
+* split descriptions over multiple lines. These need to be kept manually split, as the tooltip doesn't use automatic text wrapping in this case.
+* Added more information to the Netherdrake guide to let players know that in order to complete the section they must have Artisan flying.
+
+Horde Guides Change Log:
+Horde Dailies:
+* split descriptions over multiple lines. These need to be kept manually split, as the tooltip doesn't use automatic text wrapping in this case.
+
+Guides Viewer Change Log:
+* fixed display of guide description tooltips
+* fixed map dots disappearing from the large world map
+* fixed Carbonite waypoints appearing with a delay
+* hopefully fixed viewer not detecting arriving at a flight destination
+
+Version: 2.0.1189 June 23rd, 2010
+
+Alliance Guides Change Log:
+* 13-20 Step 33 - Merged several travel steps into one. Now utilizes the Hearthstone to Sentinel Hill instead.
+* Death Knight 55-60 - Step 18 - The quest "The Power Of Blood, Frost And Unholy" has been made into an instant quest and now properly completes.
+* Death Knight 55-60 - Step 28 - The quest "Abandoned Mail" has been made into an instant quest and now properly completes.
+* Added collection of Large Gjalerbron Cage Keys (72-74, step 233)
+* Fixed detection of Frozen Spore (72-74, step 266)
+
+Horde Guides Change Log:
+* Horde 20-25 Step 88 - Get 7 Deepmoss Eggs changed to 15
+* 35-40 Step 70 - Fixed coordinate for Grom'Gol Base Camp Zeppelin
+* Death Knight 55-60 - Step 18 - The quest "The Power Of Blood, Frost And Unholy" has been made into an instant quest and now properly completes.
+* Death Knight 55-60 - Step 28 - The quest "Abandoned Mail" has been made into an instant quest and now properly completes.
+* Tauren 1-13 Step 9 - Step now points to the correct NPC when turning in the Warrior quest "Simple Note".
+* Undead 1-13 - The quest "Tainted Scroll" is now correctly accepted from Novice Elreth instead of Shadow Priest Sarvis.
+* 40-42 Step 124 - Captured Totem quest now instructs hunters to put their pet on passive.
+* 70-72 Step 31: Step now recommends killing Warsong Aberrations as well to get the Scourge Cage Keys.
+
+
+Guides Viewer Change Log:
+* Added / Edited NPCs
+* Added: step frame opacity setting, separate from the static 50% used so far.
+* Fixed: changing "hide window border" from off to on could cause flickering.
+* Fixed: "log" and "event" type quest objectives were displayed as 0/1 even when complete
+* Adjusted "window moving boundaries" to allow for moving the window close to screen edge in both top-down and bottom-up modes.
+* Fixed a bug that could cause waypoints set from a different continent to never appear even after travelling to the proper continent.
+* Removed background texture, replacing with plain colour - Blizzard broke texture resizing in 3.3.3 and there's no working around that
+* New internal pointer convenience feature: audio cues. If you leave your character flying unattended for more than 5 seconds, two sound signals are enabled: a 'boat bell' sound if you reach your destination, or a 'zap' sound if you're not flying towards the correct destination anymore. With these, you can start flying towards the destination and Alt-Tab out or go take a break or something - the sounds will attract your attention so that you don't fly off the map.
+* Bug Report now includes key ring items
+* New internal pointer feature: corpse arrow! Together with not-so-funny descriptions.
+* Fixed: error when trying to create a waypoint in a nonexistent zone
+* Tweaked ETA calculation to behave better in high-load map marker situations
+* Fixed bug with travel steps at the end of a guide chain
+* enUS: Added proper singular plurals for "down", "prey" and "vrykul"
+* Fix: removed the "legacy" db.profile.GuideName that apparently caused problems to some
+* New experimental convenience feature: Manual Waypoints. Click anywhere on the worldmap and an arrow pointing there will be set. Right-click that spot (or advance the guide) to remove. Useful for easy long-distance travel (especially with "audio cues" on).
+* LibCamera is no longer supported under patch 3.3.5. Removing support for "camera-aligned" waypoint arrow. Sorry!
+
+Other changes:
+Alliance Dailies Guide:
+* Icecrown Full Zone Quest Path - Step 253 - Corrected the quest goal, was missing objective number
+* Icecrown Full Zone Quest Path - Step 319 - Corrected the quest goal, was missing objective number
+* Netherdrake Friendly Pre-Quests - Step 16 - Correct the quest goal, was a incorrect objective number
+* Storm Peaks step 79 - Deleted repeated step that had you turnin Facing the Storm too early
+* Dalaran Fishing Step 1, 8, 11 - "Quest Monsterbelly Appetite" was changed to "Disarmed!" and it's objective was corrected to reflect changes made in 3.3.
+* Icecrown Full Path - Step 128 moved to 245 - Quest "Shoot 'Em Up" moved so that all pre-reqs would be done in time to unlock it.
+* Added Midsummer Fire Festival Guide
+
+
+Horde Dailies Guide:
+* Childrens Week Shattrath Step 25 - Changed step so that the player uses the portal to Blasted Lands in Silvermoon. Removed unneeded steps.
+* Stormpeaks Full Zone Step 165 - Ravaged Cavedweller Worgs changed to just Cavedweller Worgs
+* Stormpeaks Full Zone Step 165 - Fixed coordinates for Prospector Khrona's Notes
+* Stormpeaks Full Zone Step 173 - Step is now correctly tied to the quest objective to kill Tracker Thulin
+* Home Cities step 509, 519 - Adjusted the coordinates for NPC Rhinag.
+* Fixed locations where daily quest "What Do You Feed a Yeti, Anyway?" is completed.
+* Dalaran Fishing Step 1, 8, 11 - Quest "Monsterbelly Appetite" was changed to "Disarmed!" and it's objective was corrected to reflect changes made in 3.3.
+* Added Midsummer Fire Festival Guide

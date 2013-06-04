@@ -1,0 +1,47 @@
+R-Drive Image 4.7 Build 4710
+Full version with Serial
+
+
+R-Drive Image is a potent utility providing disk image files creation for backup or duplication purposes. A disk image file contains the exact, byte-by-byte copy of a hard drive, partition or logical disk and can be created with various compression levels on the fly without stopping Windows OS and therefore without interrupting your business. These drive image files can then be stored in a variety of places, including various removable media such as CD-R(W)/DVD, Iomega Zip or Jazz disks, etc.
+R-Drive Image restores the images on the original disks, on any other partitions or even on a hard drive's free space on the fly. To restore system and other locked partitions R-Drive Image is switched to the pseudo-graphic mode directly from Windows or bootable version created by the utility is launched from CD disc or diskettes. R-Drive Image is one of the best backup and disaster recovery solutions to prevent losing your data after a fatal system failure. 
+
+Using R-Drive Image, you can completely and rapidly restore your system after heavy data loss caused by an operating system crash, virus attack or hardware failure. You can also use R-Drive Image for mass system deployment when you need to setup many identical computers. In other words, you can manually setup one system only, create an image of the system, and then deploy it on all other computers, saving your time and costs. If you need to restore only certain files from a disk image, you can connect that image as a virtual disk and copy those files directly from the disk image using Windows Explorer or any other file utility.
+
+R-Drive Image features:
+* A simple wizard interface - no in-depth computer management skills are required.
+* On-the-fly actions: Image files are created on-the-fly, no need to stop and restart Windows. All other disk writes are stored in a cache until the image is created. Data from image files are restored on-the-fly as well, except on a system partition. Data to the system partition can be restored either by restarting R-Drive Image in its pseudo-graphic mode directly from Windows, or by using specially created startup disks.
+* Image files compression. Image files can be compressed to save free storage space.
+* Removable media support. Image files can be stored on removable media.
+* Network support. R-Drive Image bootable CD version supports disk image file creation and restoration over Microsoft network (CIFS protocol).
+* Pseudo-graphic mode. Restart to the pseudo-graphic mode directly from Windows to restore data to the system and other locked partitions. No need to use startup disks any more.
+* Extended List of the supported devices. The list of hardware supported by R-Drive Image bootable versions has been extended. VIEW THE LIST
+* USB 2.0 devices support in the pseudo-graphic mode. With hard drives prices constantly going down, an external IDE-USB 2.0 HDD case with an appropriate hard drive is an ideal (fast and reliable) solution for notebooks and sealed PCs to backup system and other partitions that can be restored only in the pseudo-graphic mode. Do not use numerous unreliable CD discs and slow CD/DVD recorders any more. Remember: with the incremental backup, this hard drive is not to be too large.
+* Bootable version. Special bootable disks (either 2 floppy disks or one CD) can be created to restore data to the system partition.
+* Individual files and folders restoration. A disk image can be connected as a read-only virtual drive and its content can be viewed and copied.
+* Image files splitting. Drive images can be split into several files to fit a storage medium.
+* Image Protection. Disk image files can be password-protected and contain comments.
+* File system conversion. The file system of the restored disk can be converted to another one (FAT16 to FAT32 and vise versa.).
+* New partition creation. Data from a disk image can be restored on a free (unpartitioned) space on any place on a hard drive. The size of the restored partition can be changed.
+* Partition replacement. Data from a disk image can be restored on other existing partitions. R-Drive Image deletes such partitions and restores data on that free space.
+* Disk to Disk copy. An entire disk can be directly copied on another one.
+* Image files verification. You may check if your image files are good before you store them or restore data from them.
+* Scheduler. A time for disk image creation may be scheduled and the process can be run in unattended mode.
+* Script creation for frequent or unattended actions. Such scripts for creating an image file and appending data to an existing image file are created from the R-Drive Image interface the same way the actual action is performed. Scripts are executed from a command line and such command can be included to any command file.
+* Action Report. When disk image is successfully created or the action fails the report can be automatically sent over e-mail or an external application can be launched.
+
+New R-Drive Image features in version 4.x :
+* Windows Vista and 64 bit processors support. New R-Drive Image version supports all Windows Vista operating systems and 64 bit processors.
+* Acceleration of image creation and disc copy operations. Asynchronous I/O and distributed the zlib compression library were added among different processors. As a result, users can see up to 200% speed gains in image creation and disc copy operations.
+* Differential image creation. When the incremental/differential backup is being created, the differential image can be created by comparing the current data with the 128-bit hash of the original data without reading the main image. That speeds up the process of creating the incremental/differential image in any case, but also no need to change the original discs when writing the image to CD/DVD discs.
+* Incremental image creation mode. In the previous versions the differential mode was available only.
+* A bootable module can be written to a CD/DVD disc together with the image data. Thus it is possible to create one CD/DVD disc to boot and to restore the system.
+* Microsoft Volume Shadow Copy Service (VSS) support. In order to create a point-in-time snapshot of a database, the servers like Microsoft Exchange, Microsoft SQL and Oracle are notified before backup process begins. The technology allows synchronizing the servers' database and creating the correct copies of quick-changeable data.
+* Dynamic Disks and BSD slices support. Dynamic disks and BSD slices can be backup, restored and copied. The feature is supported in both Windows and bootable versions of R-Drive image. You may create an image of one disk or a volume of any type and then restore the image back to a dynamic or basic disk. However when such image is restored you may not change a size or other characteristics of the target disk. When you restore a dynamic disk image to a basic disk, the basic disk remains basic and is not converted to the dynamic disk.
+* A flexible control over CD/DVD writing. That allows limiting the writing speed and cashing in the ISO file.
+* Improved file format of the image created by the application.
+* Writing to NTFS partitions. Now the R-Drive Image bootable version (based on the Linux kernel) supports writing to NTFS partitions as well as R-Drive Image Windows version.
+
+Install Notes:
+1. run installer
+2. start program and enter register details (see serial.txt)
+3. done

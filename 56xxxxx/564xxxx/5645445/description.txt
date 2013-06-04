@@ -1,0 +1,192 @@
+ Server 2008 Active Directory Training
+
+Today we are releasing our long awaited Active Directory Training for Server 2008 by our experienced and certified instructor, Ben "Coach" Culbertson.
+
+This new training is better than anything weâ€™ve released before â€” itâ€™s:
+
+Announcing: Active Directory Training for Windows Server 2008
+
+    * Comprehensive â€” at over 20 hours of instruction with in depth coverage of Active Directory for beginners to experienced network admins
+
+    * Convenient â€” with multiple file formats including iPod video, Mp3 audio, .WMV and high quality .AVI video â€” that will allow you to learn on the go
+
+    * Complete â€” full coverage of the 70-640 Configuring Windows Server 2008 Active Directory exam and a bonus FREE full version of Transcenderâ€™s practice exam
+
+And this is just the beginning!
+
+
+Windows Server 2008 R2 Training
+Course Outline
+Video 1
+Introduction
+
+Of course we have to have an introduction video to let you know whatâ€™s in the course, what you can expect, and a little about your instructor.
+
+    * About Your Instructor
+    * About Train Signal
+    * Hardware Setup
+    * 64-bit
+    * Course Topic Overview
+
+Video 2
+New Active Directory Management Tools
+
+In Server 2008, there are some fantastic new Active Directory tools that youâ€™ll love. In this video weâ€™ll take a look at some new tools that will make your life even easier as an administrator.
+
+    * The Active Directory Administrative Center
+    * The Best Practices Analyzer
+    * Download and Install Remote Server Administration Tools (RSAT)
+    * Turn RSAT Features On
+    * Using RSAT from a Client
+    * Enable Remote Management of a Server
+
+Video 3
+The Active Directory Recycle Bin
+
+The Active Directory Recycling Bin is a feature thatâ€™s been a long time coming, but in this current version of R2, itâ€™s strictly a PowerShell tool. But donâ€™t worry, you donâ€™t have to learn a bunch of long commands, because Iâ€™ve included an easy-to-use PowerShell script file that you can use out-of-the-box to enable and use the Active Directory Recycling Bin TODAY (assuming you have a Server 2008 R2 functional level).
+
+    * Server 2008 R2 Domain Functional Level
+    * Installing Integrated PowerShell Editor
+    * Activating AD Recycling Bin
+    * Restoring a Deleted Account
+    * Finding Out Information About a Deleted Object
+    * Restoring a Deleted Organizational Unit
+
+Video 4
+New Group Policy in Server 2008 R2
+
+Group Policy has had some cosmetic surgery done, and it looks pretty nice. But the enhancements are not just skin-deep. In this video, Iâ€™ll show you not only the enhancements to Group Policy interface, but also some of the new Group Policy features that will assist you in working with Windows 7.
+
+    * New Look, Nice Interface
+    * Super Easy Power Plan Preferences
+    * Internet Explorer 8 Preferences
+    * Starter GPOs
+
+Video 5
+Build an ASP.Net Application Server on Server Core
+
+Building a lightweight, secure application server in Server 2008 was not possible with a Server Core installation, but in R2, we now have that capability. In this video, I show you how to build from scratch, an ASP.Net-enabled Server Core R2 server, complete with Remote Management and FTP.
+
+    * Configuring Server Core
+    * Configuring Remote Management on Server Core
+    * Opening and Editing Batch Script
+    * Installing IIS 7.5 and ASP.Net
+    * Connecting a Web Server to Server Core Machine
+    * Configuration Editor
+    * Setting Up FTP Site
+    * FTP Options and Settings
+    * Adding Files to the Server Core Machine
+    * What We Covered: Steps to Creating ASP.Net Application Server on Server Core
+
+Video 6
+Boot a Machine with a Virtual Hard Disk
+
+Why oh why would you ever want to boot a server with a VHD? Well, creating images that play nice with your hardware, quickly and easily, can be a difficult task. Watch this video and discover the arcane secrets of booting up with VHDâ€™s!
+
+    * Why Would You Use a Virtual Hard Drive?
+    * Easy VHD Boot Setup
+    * Copying a VHD to a Physical Machine
+    * Using and Editing VHDBoot Script
+    * Running the VHDBoot Script
+    * Deleting a VHD from the Physical Machine
+
+Video 7
+Hyper-V Dynamic Storage and Quick Switch Settings
+
+Hyper-V in Server 2008 R2 has had some updates, and in this video I show you how easy it is add virtual storage to your virtual machine using virtual SCSI connectors. Yes, thatâ€™s a lot of virtualization!
+
+    * New Hyper-V Capabilities
+    * Hot Add/Remove Virtual SCSI Hard Disks
+
+Video 8
+Remote Desktop Services: Personal Virtual Desktops
+
+Terminal Services is no more â€“ long live Terminal Services! Actually, Terminal Services has been renamed Remote Desktop Services. In this video, I show you what I think is one of the coolest new features (and one of the hardest to set up!) of Remote Desktop Services â€“ Personal Virtual Desktops!
+
+    * The Virtual Personal Desktop Concept
+    * What is a VDI?
+    * Install Remote Desktop Services Roles
+    * Install the Remote Desktop Virtualization Host Role
+    * Add the Desktop Experience Feature
+    * Prep the Windows 7 Client
+    * Turn On Remote Desktop on the Client
+    * Edit and Run the RDP Batch Script
+    * Edit the Client Registry
+    * Add a Firewall Exception
+    * Configure RD Connection Broker for Personal Desktops
+    * Assign a Personal Desktop to a User
+    * Add an RD Source in RD Web Access
+    * Discovering the RD Web Access URL
+    * Add Your RD Server to TS Web Access Computers
+    * Test Personal Desktop Access
+
+Video 9
+Hyper-V Clustering
+
+Clustering has been updated to include the ability to add failover clustering to Hyper-V machines. Thatâ€™s pretty cool, as long as you have the rather expensive hardware to make it happen. Yes, you can move Virtual Machines from one host to another without shutting down the VM, but only if you have a storage device that supports SCSI-3 Persistent Connections. Watch this video to get all the details on what you need for highly available Virtual Machines.
+
+    * What Does it Take to Build Highly Available Virtual Machines?
+    * Two Methods of Easy VM Migration
+    * What We Covered
+    * Bonus: Hyper-V Clustering Science Experiment
+    * Building Failover Clusters
+    * Setting Up for Hyper-V Clustering
+    * Attaching iSCSI Storage
+    * Validating Configuration
+    * Creating a Cluster
+    * Configuring Cluster Quorum Settings
+    * Creating Highly Available Virtual Machine
+    * Live and Quick Migration
+    * What We Covered (Bonus)
+
+Video 10
+AppLocker
+
+Finally, an easy way to lock down which users can use which applications on the desktop. Yes, weâ€™ve seen clunky Software Restriction Policies before, but AppLocker is an elegant and easy to implement solution that will have you back in control of your desktop applications in no time!
+
+    * The AppLocker GPO Setting
+    * Creating the OU
+    * Attaching a GPO to the OU
+    * Creating Default Rules
+    * Creating an AppLocker Rule
+    * Configuring Rule Enforcement
+    * Testing Our AppLocker Rule
+    * Creating a Local AppLocker Rule
+
+Video 11
+BranchCache
+
+With all the issues surrounding branch offices, Microsoft has been hard at work to provide supporting tools for these scenarios. In this video I show you the steps to setting up a Cooperative Mode BranchCache solution for both your file servers and Clients.
+
+    * Life Without BranchCache
+    * The Cooperative BranchCache Method
+    * The Hosted BranchCache Method
+    * Hosted Method Demo
+    * Install the BranchCache Role Service
+    * Enabling the BranchCache via Local Group Policy
+    * Configure a GPO for Clients
+    * Turn On BranchCache on Clients
+    * Set BranchCache Distributed Mode
+    * Configure Windows Firewall for Clients
+    * Enable BranchCache on a Shared Folder
+
+Video 12
+Concept: Direct Access
+
+VPN access without the hassles of VPNâ€™s? Oh yes, itâ€™s here! Direct Access is a feature we are going to see implemented far and wide for shops of all sizes that have mobile and remote users. In this video, I give you the run-down on the concepts behind Direct Access.
+
+    * The Advantages of Direct Access
+    * Components Needed for Direct Access
+    * The Secret Behind Direct Access
+
+Windows Server 2008 R2 Training
+Hereâ€™s What You Get When You Order
+Windows Server 2008 R2 Training Today!
+
+    * 12 videos will be provided in high-quality .AVI and .WMV format. In other words, you get perfect quality and replication of your instructorsâ€™ screens. An easy-to-use table of contents allows you to navigate to key areas you wish to focus on.
+    * Instant Access to all 12 Videos in Train Signalâ€™s My Online Training section. These high resolution videos allow you to access any and all of this award winning training in just moments. No need to wait for the DVDs to arrive to get started learning. You can be watching video in just moments and itâ€™s all included for free.
+    * 12 iPod video files to watch Train Signal on the go! A popular request amongst our students who wish to study while they commute (i.e. train, plane, bus). These 320x240 M4V files are compressed versions of the original course, and play on any iPod that supports video. Also great for reviewing and refreshing your mind "on the job."
+    * 12 MP3 audio files to listen to Train Signal anytime, anywhere. Some of our students have requested this option. Now, you can listen in the car or while working out. Our MP3 files can be burnt to a CD or copied to a portable device.
+    * Instructor Notes â€“ These PDF documents, which can be printed out, contain the slides used by the instructors throughout the videos. These documents allow the user a quick easy reference to the instructorsâ€™ notes on the slides, and provides a place to make additional notes.
+
+

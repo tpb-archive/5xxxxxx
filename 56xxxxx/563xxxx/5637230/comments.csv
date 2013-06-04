@@ -1,0 +1,50 @@
+User Type,Username,Date,Text
+,ghaonhao,2010-06-19T13:58Z,This game come from PSX ???
+,XHandHeld,2010-06-19T15:39Z,this didnt come from psx
+,RIggsta,2010-06-19T21:44Z,"Thanks, fun game, love the series."
+,RinKamishiro,2010-06-20T02:10Z,"helo sir
+how have you been mister xhandheld?
+i was just wondering how the movie is going?"
+,XHandHeld,2010-06-20T04:27Z,sorry for not uploading maburaho for you.im still working on it.
+,RinKamishiro,2010-06-20T04:45Z,"oh!theres no need to apologize,i was just wondering what happen thats all.
+im really thankful for your help sir"
+,FernFrond,2010-06-20T04:51Z,Badass.
+,FernFrond,2010-06-20T04:58Z,Going to the beach for a week but it's going to be too warm during the day and there's the possibility of oil fucking up the beach. This is the perfect game to play during our downtime. thx
+,FernFrond,2010-06-20T05:44Z,What does it mean by License folder?
+,XHandHeld,2010-06-20T06:19Z,take the file UP9000-NPUI94244_00-0000000000000001.rif and put it in the psps license folder it should be under the game folder
+,FernFrond,2010-06-20T06:33Z,Apparently that folder only appears if you download a game from ps3 to psp because I don't have that folder. I made a folder named license and put the file in it but it doesn't do much. I'm running on 5.50 gen d3. The .Rif file starts with S but the game starts with U. I think that's the problem. I can't get it to work. It loads at first and shows the precaution screen then game cannot start COsomething error. 
+,FernFrond,2010-06-20T06:34Z,the .rif file doesn't match up with the game itself. Did anyone get this to work?
+,ghaonhao,2010-06-20T08:36Z,It doesn't work on 5.50 gen d3
+,kuttootta,2010-06-20T19:20Z,"Good work bro keep it up, and thanks."
+,FernFrond,2010-06-20T22:29Z,"Ok I downgraded to 4.01. It Doesn't work. Same error message. I am now trying 5.0 but it doesn't work either. 
+
+""The game could not be started.
+(CA000006)""
+
+ I have M33 on under vsh menu but that's not the problem. All my isos work. Just this doesn't. Do I need POPs for this? I don't have a working version of pops right now if that's the problem. IF so, what firmware should I use for the pops?
+
+ Can someone post a link because the last popsloader or whatever I tried using never turned up under plugins in recovery menu. It was just corrupted data under game. I put it into Seplugins? Help anyone? I have a slim if that's a problem. "
+,FernFrond,2010-06-20T23:19Z,"Ok. Trying to work this out now. I got a working Pops and its enabled from recovery. I am now running on 4.01 Cfw and got the PSAR dumper and I am extracting the .Eboot from 3.70 since the working range for pops 3.80V2 is apparently from 3.0-3.72. It gets decrypted etc then I put it back into USB. THen I opened the F0 folder that appeared on my memory stick. I copied the following files to the seplugins/popsloader folder for cfw 3.70 ( maybe i have to have the eboot from 3.80 since its pops 3.80) 
+
+
+3.40 - 3.72: kd/popsman.prx, kd/pops.prx, vsh/module/pafmini.prx, vsh/module/libpspvmc.prx
+
+After I copied the files I added the 370 (probably has to be 380) prefix to  them  at the end of the filename, renaming popsman.prx to popsman370.prx, pops.prx to pops370.prx, etc.
+
+The popsloader plugin is already enabled but it still won't start the game. It's either that I might need to decrypt the 3.80 cfw or that I need pops for 4.01 or something. PLZ HELP someone."
+,FernFrond,2010-06-21T00:25Z,"Is this crash bandicoot warped? If so I found another link of crash 3 on here and it works on my cfw without needing the gay .rif file etc. I just put it into game and it works. I wanted a racing version. O well lol. This is the link on pirate bay that worked. 
+
+http://thepiratebay.org/torrent/3648816/Crash_Bandicoot_3_%5BPSP%5D_ready_to_play_%5BEBOOT%5D"
+,RIggsta,2010-06-21T03:18Z,"ghaonhao at 2010-06-20 08:36 CET:
+
+
+""It doesn't work on 5.50 gen d3""
+
+
+^^
+yes it does, i have that version and it plays fine
+
+"
+,ghaonhao,2010-06-21T07:16Z,@RIggsta : you can tell how to make it work
+,Sylpheon,2010-06-23T22:17Z,i'm getting an error...
+,7necromancer,2012-04-15T15:36Z,"i got it to work but then it just says ""cannot be accesed from this account"" please help"

@@ -1,0 +1,319 @@
+Windows 7 Loader v1.8.2 by Daz (x86 & x64)
+
+.zip File Format (Loader)
+
+***********************************************************************************
+
+About:
+=======
+This is the loader application that's used by millions of people worldwide, well known for passing Microsoft's WAT (Windows Activation Technologies) and is arguably the safest Windows activation exploit ever created. The application itself injects a SLIC (Software Licensing Description Table) into your system before Windows boots, this is what fools Windows into thinking it's genuine.
+
+Features:
+==========
+â€¢ Can be run as a standalone, just move the executable to wherever you like
+â€¢ Maintain your own list of serials, future or current (comes with allot of preset keys)
+â€¢ Add your own certificates and SLIC's
+â€¢ Automatically finds an available drive letter (if required)
+â€¢ Installer and uninstaller built in as standard
+â€¢ Checks your Windows version and build before install
+â€¢ Automatically finds your active boot partition
+â€¢ Works on all languages
+â€¢ Works alongside hidden partitions
+â€¢ Works on Windows 7, Vista and Server 2008 editions
+â€¢ Support for bios modded users
+â€¢ Argument support for silent installs
+â€¢ You can use this tool to activate your Windows 7/Vista ISO by editing setupcomplete.cmd
+â€¢ Improves Windows 7 boot time on a Mac
+â€¢ Encrypted SLIC support
+
+
+Advantages:
+============
+â€¢ Encryption and randomization for your security
+â€¢ Byte differences - Everyones GRLDR won't be byte for byte the same
+â€¢ Profile matchups - SLIC, certificate and serial that best suits your system
+â€¢ Arguments - Can be used to pre-activate your OS
+â€¢ Uses custom error checking on near every function making the application much more reliable instead of spitting out files and failing
+â€¢ Frankenbuild checking
+â€¢ Integrity checking with useful info on screen so the user can verify it
+â€¢ External Keys***i support for all OS versions
+â€¢ External file support for both SLIC's and certificates
+â€¢ Newer GRLDR versions before other applications, thus a greater chance of a successful activation
+
+
+The rundown:
+=============
+-This will run on x86 and x64 systems âœ” check
+-This can activate all Windows versions at the same time, just install it on each âœ” check
+-No core system files get modified âœ” check
+-No extra processes are run so you have nothing eating at your RAM âœ” check
+-All key parts of the exploit are encrypted with a custom encryption âœ” check
+-The exploit runs before Windows so it's harder for Microsoft to prevent âœ” check
+-The exploit patches all necessary tables making activation look authentic âœ” check
+-The application will select the best profile for your system during installation âœ” check
+-Each and every user has a unique version of the exploit installed on his/her system âœ” check
+
+
+Supported operating systems:
+=============================
+-Windows 7 Ultimate
+-Windows 7 Professional
+-Windows 7 Home Premium
+-Windows 7 Home Basic
+-Windows 7 Starter
+-Windows Vista Ultimate
+-Windows Vista Business
+-Windows Vista Business N
+-Windows Vista Home Premium
+-Windows Vista Home Basic
+-Windows Vista Starter
+-Windows Server 2008 R2: Enterprise
+-Windows Server 2008 R2: Standard
+-Windows Server 2008 R2: Foundation
+-Windows Server 2008: Enterprise
+-Windows Server 2008: Standard
+-Windows Server 2008: Foundation
+-Windows Small Business Server 2008
+
+
+Application integrity checking?
+================================
+Hover your mouse over the green, amber or red icon to see detailed application information.
+
+Note: Even if the icon is green someone might have found a way around the protection system so it's worth checking that the applications path is always the same as the location from which you launched the application. You should also check that the MD5 matches the MD5 found online.
+
+
+
+Changes Log History:
+======================
+
+Version 1.8.2
+* Reverted the loaders memory scanning back to low memory first and then EBDA
+* Fixed x64 partition checks
+* Other minor tweaks and fixes
+
+Version 1.8.1
+* Added a legacy mode which should activate some systems that don't comply with the normal ACPI specifications
+* Improved support for compressed partitions
+* Added Toshiba, Exper, Wortmann and Casper SLIC's
+* Added a new HCL Windows 7 Professional serial
+* Other minor tweaks and fixes
+
+Version 1.8
+* Cleaned up and improved a lot of code
+* Added a new GRLDR version (Thanks to lash78 for spending a few hours helping to debug)
+* Made the UI even more user friendly
+* Added some new serials
+* Improved certificate OEMID to system OEMID installation
+* Made OEM recovery partition ignoring optional
+
+Version 1.7.9
+* Fixed a bug that caused an error on non-english systems
+* Added an option to disable the loaders random file padding (Use this if you get stuck in a reboot loop and can't access GRUB)
+
+Version 1.7.8
+* Fixed loader file padding issue that caused some systems to fail to boot into Windows
+* Fixed Windows Server 2008 R2 support
+* Fixed loader pointer issues (For when each OS needs it's own active partition exclusive while other primaries are set to hidden)
+* Added an option to set the boot menu timeout
+* Added an option to install the loader without changing your systems MBR (Good for Linux users & FirstDefense-ISR)
+* Added support for Haier, Hasee, HCL, Jooyon, NEC, Tongfang and Viliv
+* Added various new OEM SLP serials
+* Blocked title version modifications
+* Cleaned up some code for better performance (May help fix the rare partition finder error)
+
+Version 1.7.7
+* Fixed loader modes to stop system hangs
+* Changed the way the loader is wrote to the partition (no more mounting)
+
+Version 1.7.6
+* Improved the encryption support
+* Added support for Gigabyte
+* Added Toshiba Professional serial
+
+Version 1.7.5
+* Removed the beta SLIC detection (caused crashes on 1.7.4)
+* Added support for LG
+* Added various new OEM SLP serials
+
+Veraion 1.7.4
+* Improved SLIC detection (still not tied to anything, it's simply a BETA feature until I get more feedback)
+* Fixed file write errors caused by version 1.7.3
+* Added support for Server Standard R2
+* Added support for FSC, Quanmax and Trigem
+* Added various new OEM SLP serials
+
+Version 1.7.3
+* Improved free drive letter assignment
+* Corrected some grammar
+* Added random SLIC encryption support, this means everyones SLIC will have a unique encryption
+* Added GRLDR file size randomization
+* Added GRLDR v0.97-DAZ+SEC-R2. This is just a minor version to support the random encryption
+* Added SLIC table detection (BIOS mod and software, it can tell the difference)
+* Added support for Advent, Medion and Nokia
+* Added various new OEM SLP serials
+
+Version 1.7.2
+* Added encrypted SLIC support
+* Added random loader names
+* Added byte differences (everyones GRLDR loader won't be byte for byte the same)
+* Added a new GRLDR version (0.97) from zsmin (custom edition for my program)
+* Added /norestart argument
+* Added support for Windows 7 Home Basic (4 new keys)
+
+Version 1.7.1
+* Removed window transparency to fix a Windows 7 artifacts bug and improve responsiveness on older systems using onboard graphics
+* Improved the "Custom menu.lst" loader option. It will now show all people using this setting the GRUB menu at system startup
+* Upgraded some certificates to version 2.1
+* Added a new GRLDR version (0.96) from zsmin (custom edition for my program)
+* Added external SLIC support (read "How to add support.txt" for more info)
+* Added support for BenQ and Sony machines
+* Added support for Windows 7 Starter Edition
+* Added various new OEM SLP serials
+
+Version 1.7
+* Removed the older loader
+* Added loader mode options
+* Changed the UI so that it's now slightly transparent as well as resized to suit the new options
+* Added Samsung support for Windows 7 Ultimate, Professional & Home Premium editions
+* Improved internal resources security
+
+Version 1.6.9
+* Added amber as a color to the application integrity checking as well as a few tweaks to the existing code (you should still always check the displayed application path even when green)
+* Cleaned up some code for better performance
+* Added new GRLDR 0.94 from zsmin
+
+Version 1.6.8
+* Added application integrity checking. This is a new feature which will display you with information about how the application was launched when the mouse is hovered over the green or red icon. It's goal is to inform you if you are running an untouched version of the application or one that could have been modified in some way by a script kiddie. Of course green is the best result, if it's red then be cautious as someone's likely binded a trojan!
+
+Version 1.6.7
+* Fixed Windows Vista activation status
+* Added Windows 7 Enterprise editions as a supported OS, although you will need to wait for OEM SLP keys to leak
+
+Version 1.6.6
+* Fixed activation checking for non-english systems (This release is just to address confusion as to if a system is activated or not)
+
+Version 1.6.5
+* Improved profile matchups (for matching a SLIC, certificate and serial)
+* Added activation checking for Windows 7, Vista and Server 2008
+* Added tokens checking for Windows 7 (alerts the user, repair is manual so that later on down the line this loader will never frankenbuild your system itself!)
+* Added error handling should UAC fail to elevate the application
+* Added Asus SLIC, certificate and Home Premium serial
+* Added new GRLDR beta 0.93 from zsmin
+
+Version 1.6.4
+* Fixed a missing serial issue when run as a standalone
+* Added checking to elevate to an administrator only when run on Vista or Windows 7
+* Corrected a typo found during an uninstall
+
+Version 1.6.3
+* Fixed a missing serial issue caused by the new bios type detection feature
+* Fixed an issue which would cause the application to start hidden behind other windows
+
+Version 1.6.2
+* UAC control reworked
+* Changed the default loader to zsmin's
+* Bios type detection now assigns a SLIC, certificate and if possible a serial to match
+* Added leaked Dell Home Premium key
+
+Version 1.6.1
+* Fixed Windows Vista version detection
+* Added new Dell Windows 7 Professional key
+* Added new GRLDR beta 0.91 from zsmin
+
+Version 1.6
+* Fixed Windows version detection (name spaces were off)
+* Added support for Windows 7 Home Premium
+* Compressed the internals a litte so the executable size has been shaved just a little
+
+Version 1.5.9
+* Added new GRLDR beta 0.90 from zsmin
+* Fixed missing OS information on unsupported OS's
+
+Version 1.5.8
+* Keys and certificates now use internals when external files cannot be found (this means you can run just the executable as a standalone application)
+* Added future OS key support (via Keys.ini)
+* Changed how an unsupported OS is displayed
+* Added new GRLDR beta 8c from zsmin
+
+Version 1.5.7
+* Fixed unicode text string issue which caused activation to fail
+* Fixed title assignment for unsupported operating systems
+* Added new GRLDR beta 8b from zsmin
+
+Version 1.5.6
+* Full recode so that debugging is easier for me and performance and reliability is better for you
+* User interface redesigned for simplicity
+* Added new GRLDR beta 8 from zsmin (Thanks go to him)
+* Added external certificate support for bios modders
+* Added external key input support
+* Added argument support
+
+Version 1.5.5
+* Improved error handling even more
+* Rewrote drive mounting code (should fix the x64 mounting issue and letter assignment)
+* Mac users should now automatically have the experimental loader option selected for them
+* Tweaked UI layout just a little (width was off)
+* Fixed other minor issues
+
+Version 1.5.4
+* Tweaked free drive letter handling just a little
+* Corrected a typo on the experimental loader option
+* Corrected Windows Vista version ID
+
+Version 1.5.3
+* Fixed a rare issue that would select a network drive as a free drive letter
+* Performing an uninstall now restores to the default Windows 7/Vista bootsect (wasn't required, but some machines need this!)
+* Performing an uninstall now inserts trial keys so you will have x amount of days remaining (On Windows 7)
+* Upgraded support for error handling (errors get logged to the system event viewer)
+* The loader window will now start centered when launched
+* Added a custom file icon (Thanks to my friend Logie)
+* Added support for Starter, HomeBasicN and BusinessN versions of Windows Vista
+* Upgraded experimental GRLDR to beta 6 (Thanks to zsmin)
+* Added another GRLDR for older Dell and HP machines to try (the older loader option)
+* Cleaned up code in general
+
+Version 1.5.2
+* Fixed a rare issue which could cause a nil object exception
+* The window title will now change to a more suiting "Windows Vista Loader v1.5.2 - By Daz" when run on Windows Vista
+
+Version 1.5.1
+* Updated GRLDR v0.4.4 to beta version 4 (Thanks to zsmin)
+
+Version 1.5
+* Fix to prevent hangs at boot when each OS needs it's own active partition exclusive while other primaries are set to hidden. Every other loader has this bug! (Thanks to endeavor for working with me to fix this issue)
+* Can now activate both Windows 7 and Windows Vista, just run the loader on either OS
+* Optional new beta GRLDR v0.4.4 can be used on Mac or Windows (New GRLDR created by zsmin, boots Windows 7 on a Mac much faster)
+* Updates to GRLDR v0.4.4 to become dynamic and allow slic change
+* Fixed UI font sizes for users who have changed their system font
+
+Version 1.4
+* Added x64 support
+* Drive letter assignment is now automatic
+* Changed how the key input is handled
+* Made UI a little more user friendly
+
+Version 1.3
+* Added brand support to the loader creator
+* Added certificate and serial install only for bios modded users
+* Added new Ultimate and Professional keys
+* The loader now automatically displays keys only for your installed version of Windows 7
+
+Version 1.2
+* UAC settings modified in manifest
+* Added future support for Windows 7 Professional
+
+Version 1.1
+* Silent certificate and key installs
+* Fixed file overwriting issue
+* Lists some BIOS information
+
+***********************************************************************************
+
+
+Tested And Working...
+Scanned (With Kaspersky) And 100% Clean.
+
+(If You Found Something "Un-Clean" In Any Of My Torrents, Consider That It May Be A False Positive(Alert) And If you Are Sure Please Report It To Me So I Would Remove It)
+
+[Please Leave A Comment Confirming This Pack]

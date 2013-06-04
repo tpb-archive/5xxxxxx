@@ -1,0 +1,41 @@
+=============================================
+SwissKnife Multiboot CD & USB Stick 2010 v1.0
+=============================================
+
+NOTE: using USB stick as boot device may slow down the loading time of an app (e.g. Paragon Total Defrag). THANKS, COMMENTS AND SUGGESTION ARE REALLY APPRECIATED!
+
+==================
+Included software:
+==================
+
+- Acronis Disk Director Suite 11.0.216
+- Acronis Migrate Easy 7.0.619
+- Acronis True Image Home 2010 (13.0.7046)
+- AVG Rescue CD
+- HDT (Hardware Detection Tool) 0.3.6
+- Memtest86+ 4.10
+- Paragon Backup & Recovery 10 Suite (build 9105)
+- Paragon Disk Wiper Personal 2010 (11.0.216)
+- Paragon Total Defrag 2010 (build 8713)
+
+============
+Instructions
+============
+
+1) Open command prompt as administrator under Vista/Seven
+
+2) Navigate to the folder where you extracted the files (assuming C:\SwissKnife)
+
+   cd C:\SwissKnife
+
+3) To make bootable ISO type this command and hit enter:
+
+   SK2ISO.cmd Source ../SwissKnife.iso
+
+   This will create the ISO file in C:SwissKnife. Burn it with your favorite software.
+
+4) To make bootable USB Stick (should be at least 512MB) type this and hit enter:
+
+   SK2USB.cmd Source X:
+
+   where X: is the path of your USB stick. Note that this will long format your USB stick and may take several minutes.

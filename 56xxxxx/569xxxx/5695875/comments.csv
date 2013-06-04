@@ -1,0 +1,50 @@
+User Type,Username,Date,Text
+,gio.gemelo,2010-07-18T07:25Z,Do not work the HD Key for me :s
+,TheEmpathicEar,2010-07-18T10:00Z,Did you follow the instructions?
+,gio.gemelo,2010-07-19T02:21Z,Yes.
+,gio.gemelo,2010-07-19T02:22Z,The anydvd.chk no exist.
+,TheEmpathicEar,2010-07-19T03:07Z,"You might want ""Google"" the process of completely removing AnyDVD? Or, look over the comments posted on other AnyDVD torrents to get some ideas? I never have any trouble with this, but I have seen a lot folks that do."
+,gio.gemelo,2010-07-19T03:55Z,OK
+,jameskrueger3rd,2010-07-20T17:24Z,"@gio.gemelo 
+You have to uninstall AnyDVD, then run Foxkiller v.7 or v.8, which you need to google up. 
+
+Then you may install this ver. of AnyDVD, but do make sure to unplug the Internet and uncheck the auto update box. THEN reboot and reconnect the Internet. 
+"
+,gio.gemelo,2010-07-21T01:09Z,"I disconnect from the Internet. I use FoxKiller v8 after uninstalling. I installed AnyDVD 6.6.7.0 and nothing, AnyDVD says: Your Trial Period has expired. I search anydvd.chk file in C: \ ProgramData\SlySoft\AnyDVD\anydvd.chk, does not exist."
+,gio.gemelo,2010-07-21T04:00Z,"I could register it after with the Key in this torrent  after uninstalling AnyDVD 6.6.7.0 and then I use a file called AnyDVD Registration.msi by EDiT using the option 3, ""remove reg"" that I found in the Internet."
+,fredpc,2010-07-25T12:41Z,"Here is my fix...follow it to the letter 
+
+1) Uninstalled the old version of anydvd 
+2) Make sure your disconnected from the net
+3) Install the new anydvd 
+4) If it asks to reboot (do it )
+5) When the computer restarts anydvd will load (you will get trial version) now close anydvd 
+6) Add the key (which is usually a reg key)
+7) Open anydvd and you should have a fully registered version 
+8) If you get ""trial expired"" don't worry move on 
+9) Do a search for anydvd.chk and delete it or rename it to anydvd.bak.......you will have to enable hidden files and folders the locations are as follows 
+
+for xp the location is:
+C:\Documents and Settings\All Users\Application Data\SlySoft\AnyDVD\AnyDVD.chk or anydvd.lic
+
+for vista:
+C:\Program Data\Slysoft\Anydvd\anydvd.chk or anydvd.key or anydvd.lic
+
+for windows 7 the location is:
+C:\Program Data\Slysoft\Anydvd\anydvd.chk or anydvd.key or anydvd.lic
+
+10) Now open anydvd you should have a fully registered version while your there go to settings and disable updates 
+11) You can now reconnect to the net
+12) Enjoy  
+
+ps some of the newer versions are using a anydvd.lic file which can be renamed or deleted
+
+sathanas65..........came up with another option with anydvd.chk file......open with notepad delete entries and save and then right click on anydvd.chk and select properties......then select read only..........this will work as well"
+,TheEmpathicEar,2010-07-28T06:15Z,"@fredpc
+
+Thanks for the help!"
+,Dav333,2010-08-11T14:48Z,"@Fredpc.
+
+I use vista & cant find anydvd.chk or anydvd.key or anydvd.lic files at all. I allowed for hidden files.
+
+any other suggestions?"

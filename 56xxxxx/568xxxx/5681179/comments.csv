@@ -1,0 +1,14 @@
+User Type,Username,Date,Text
+,LColCAF,2010-07-11T11:08Z,An .exe from a newbie... I\'ll try and keep you guys posted!!!
+,LColCAF,2010-07-11T12:28Z,"Happy to report: \""All System Go\"".nnThanks for this!!!"
+,realfsx,2010-07-11T18:12Z,"Your welcome, i wanted to put some preview planes in the menu but FSX dont support the FS9 way"
+,DominoFly,2010-07-11T21:04Z,Fonts are missing? Autopilot does not engage?
+,LECHuu,2010-07-11T21:23Z,"And how to click the buttons, because they are not working?"
+,realfsx,2010-07-12T01:05Z,"oh yh i forgot about the fonts, ok this is what im gonna do, im gonna update the nav data and include the fonts in another installer. I will try and upload that tonight"
+,realfsx,2010-07-12T01:07Z,The buttons do not work in the virtual cockpit because it is fs9 vc. to use the buttons u have to use the 2d panel and the 2d overhead panel. To access the 2d overhead panel u need to go to the views menu then select it under instrument panel
+,realfsx,2010-07-12T01:37Z,"ok ive uploaded the fix, sorry about that issue nnhttp://thepiratebay.org/torrent/5684567/PSS_777_FSX_-_nav_data__amp__font_fix.exe"
+,fsxomz,2010-07-12T07:12Z,PSS-B777.gau is not for FSX
+,LECHuu,2010-07-12T16:29Z,"Ok, but in 2D panels they are not working too ............ anyone help?? Maybe you have some other things installed with this 777?"
+,realfsx,2010-07-12T17:39Z,"When fsx starts and u select the plane u should see a window pop up asking you to to trust the file, you should select ok and the 2d panel should work.the only other thing i have installed is fsuipc, so prolly if u get that it will work. if u guys didnt trust the file all u have to do is go the fsx.cfg file in your roaming folder and look for PSS-B777.gau and if u see the value 0 u need to change that to a 2."
+,masterchan,2010-07-14T04:45Z,Autopilot barely works and the autothrottle doesn\'t work. Plane keeps going up and down when on autopilot.
+,realfsx,2010-07-14T15:55Z,"ok so i realize that this thing still has flaws with the autopilot, im going to be working on that and upload another fix, the autothrottle works tho"

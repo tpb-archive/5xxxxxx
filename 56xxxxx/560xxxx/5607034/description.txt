@@ -1,0 +1,234 @@
+RegClean 4.1a                
+-----------------------------------------------------------------
+
+HOW TO INSTALL
+--------------
+
+Copy RegClean.EXE to any folder on your machine.
+
+HOW TO RUN
+----------
+
+Double-click on the RegClean icon.
+
+RegClean will start by displaying a progress dialog. While this
+
+is shown, it will load a copy of the parts of the registry that
+
+it is going to check, and perform the actual scanning. Depending
+
+on how much information is in the registry and the speed of your
+
+CPU, this will take anywhere from about 2 to 30 minutes.
+
+If you have many entries in your registry, there may be times
+
+when RegClean appears to have stopped working. In fact, RegClean
+
+may appear completely halted whenever it is checking remote or
+
+removable drives.
+
+Once these progress meters are gone, you will be prompted for the
+
+next
+
+action. You can do two things at this point:
+
+1. Exit RegClean.
+
+   Well, thatâ€™s kind of pointless, but you can do it. Just press
+
+   the Cancel button.
+
+2. Allow RegClean to fix errors that it found.
+
+   This will create an UNDO.REG file in the folder where RegClean
+
+   was run. The file will be titled "Undo computer yyyymmdd
+
+   hhmmss.REG," where computer is the name of your machine, and
+
+   yyyymmdd is the date and hhmmss is the time.
+
+   After the file is saved, RegClean will remove these entries
+
+   from the registry. You will see a progress meter while it does
+
+   this. Sometimes, the progress meter may stop momentarily, but
+
+   it should resume after a few seconds. When the meter is gone,
+
+   RegClean is done. Press Exit to end RegClean.
+
+WHAT REGCLEAN DOES
+------------------
+
+RegClean analyzes Windows Registry keys stored in a common
+
+location in the Windows Registry. It finds keys that contain
+
+erroneous values, and after recording those entries in the
+
+Undo.Reg file, it removes them from the Windows Registry.
+
+WHAT REGCLEAN DOESN'T DO
+------------------------
+
+RegClean does not fix every known problem with the registry. It
+
+does not fix a "corrupt" registry; it only fixes problems with
+
+some of the entries that are in a normal registry.
+
+It is very possible that RegClean will not correct a problem that
+
+you have encountered. RegClean will leave any entries in the
+
+registry that it doesn't understand or could possibly be correct.
+
+----------------------------------------
+
+FIXES FOR REGCLEAN 4.1a
+
+ - ALWAYS REPORTS ERRORS
+
+   RegClean will now report that it has found all the errors that
+
+   it can correct. Usually, you must run RegClean twice the first
+
+   time to get it to this point. This is expected behavior for
+
+   RegClean.
+
+ - CRASHES
+
+   RegClean should run correctly on these Intel-based operating
+
+   systems:
+   
+   Microsoft Windows NT 3.51 (with Service Pack 3)
+   Microsoft Windows NT 4.0 (all versions) and later
+   Microsoft Windows (all versions) and later
+
+
+SYMPTOMS
+--------
+
+Two messages boxes appear. One box says:
+
+   "REGCLEAN.EXE is linked to missing export OLEAUT32.DLL:421"
+
+while the next message box says:
+
+   "A device attached to the system is not correctly functioning"
+
+RESOLUTION
+----------
+
+You need to install the update to the OLE Automation system
+
+libraries. These files are contained in the executable
+
+OADIST.EXE, which is included in the download. (NOTE: If you are
+
+using Window NT 3.51, you must use OADIST2Z.EXE instead; read the
+
+KB article shown below.)
+
+Alternately, you can find these files either at:
+
+   http://support.microsoft.com/support/kb/articles/Q164/5/29.asp
+
+ -or-
+
+   ftp://ftp.microsoft.com/Softlib/MSLFILES/oadist.exe
+   ftp://ftp.microsoft.com/Softlib/MSLFILES/oadist2z.exe
+
+You can use most web browsers to download this file from either
+
+location.
+
+
+----------------------------------------
+
+PROBLEM: IT DOESN'T SOLVE MY REGISTRY PROBLEMS
+
+ -or-
+
+IT JUST CREATES MORE PROBLEMS
+
+
+Running RegClean may, in a few cases, cause other problems, such
+
+as causing part of the Microsoft Network viewer to stop
+
+functioning, or causing other programs to stop functioning. If
+
+this happens to you, simply Undo the changes RegClean made, by
+
+double-clicking on the last Undo.Reg file.
+
+These types of problems are very rare, but it's a good idea to
+
+keep your last Undo.Reg file for at least a few days or so.
+
+Microsoft will continue improving RegClean to reduce the
+
+frequency of problems like these.
+
+----------------------------------------
+
+PROBLEM: CAN'T UNDO THE UNDO.REG FILE
+
+
+SYMPTOM
+-------
+
+Windows displays several error message boxes when you try to
+
+double-click the UNDO.REG file to undo the changes RegClean made.
+
+RESOLUTION
+----------
+
+This problem is unrelated to RegClean. It's a problem with the
+
+Associated Program for .REG files.
+
+To correct this problem:
+
+1. Go to any Explorer window, click the View menu, and select
+   Options.
+
+2. In the Options dialog, select the File Types tab.
+
+3. Scroll down in the "Registered file types:" list until you
+
+   find the entry called "Registration Entries."
+
+4. Double-click this item or click on the Edit button.
+
+5. In the Edit File Type dialog, select the "Merge" entry, and
+
+   either double-click this item or click on the Edit button.
+
+6. In the "Editing action for type: Registration Entries" dialog
+
+   box, make sure that the text in the "Application used to
+
+   perform action:" field has the following entry, including the
+
+   double quotes:
+
+      regedit.exe "%1"
+
+7. Click the OK buttons to dismiss all three dialog boxes.
+
+8. You should be able to double-click on the Undo.Reg file now.
+
+----------------------------------------
+
+Thanks for using RegClean! We hope you find this utility useful.
+
+ - The RegClean Team -

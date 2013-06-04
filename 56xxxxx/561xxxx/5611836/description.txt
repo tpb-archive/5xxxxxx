@@ -1,0 +1,21 @@
+ Ultimate Boot CD is a bootable recovery CD that contains software used for repairing, restoring, or diagnosing almost any computer problem. Our goal is to be the most complete and easy to use free computer diagnostic tool. Almost all software included in Ultimate Boot CD are freeware utilities for WindowsÂ®. Some of the tools inlcuded are "free for personal use" copies so users need to respect these licenses. A few of the tools included in Ultimate Boot CD are paid for and licensed software owned by UBCD4win. On occasion we work with software companies/authors for permission to include their software in our download or have requested their software better support PE. Users can freely share copies of Ultimate Boot CD with friends but selling Ultimate Boot CD for a profit is not acceptable. We have worked hard for many years helping people for free with this project, others should not make money from our hard work. If you are a dialup user having a hard time downloading Ultimate Boot CD, please visit our ordering page. Ultimate Boot CD is based on Bart's PEÂ©. Bart's PEÂ© builds a WindowsÂ® "pre-install" environment CD, basically a simple WindowsÂ® XP booted from CD. Ultimate Boot CD includes network support and allows you the ability to modify NTFS volumes, recover deleted files, create new NTFS volumes, scan hard drives for viruses, etc. Our download includes almost everything you need to repair your system problems. This project has been put together to be the ultimate recovery cd and not a replacement OS (Operating System). Please visit the "List of Tools" page for a complete list of what is included in the latest version of Ultimate Boot CD.
+
+You need the Ultimate Boot CD if you want to:
+â€¢ Run floppy-based diagnostic tools from CDROM drives. More and more PCs are shipped without floppy drives these days, and it is such a royal pain when you need to run diagnostic tools on them.
+â€¢ Free yourself from the slow loading speed of the floppy drive. Even if you do have a floppy drive, it is still much much faster to run your diagnostic tools from the CDROM drive, rather than wait for the tool to load from the floppy drive.
+â€¢ Consolidate as many diagnostic tools as possible into one bootable CD. Wouldn't you like to avoid digging into the dusty box to look for the right floppy disk, but simply run them all from a single CD? Then the Ultimate Boot CD is for you!
+â€¢ New! Run Ultimate Boot CD from your USB memory stick. A script on the CD prepares your USB memory stick so that it can be used on newer machines that supports booting from USB devices. You can access the same tools as you would from the CD version.
+
+When you boot up from the CD, a text-based menu will be displayed, and you will be able to select the tool you want to run. The selected tool actually boots off a virtual floppy disk created in memory.
+
+Tools currently included in the Ultimate Boot CD
+
+Changelog:
+- Updated UBCD FreeDOS to V1.38. Fixed support for ZIP and 7Z archive formats.
+- Fixed wording of success status messages in ubcd2iso.cmd/ubcd2usb.cmd.
+- Fixed wrong image file for DFT in V5.0.1.
+- Fixed wrong image file for IBM Feature Tool in V5.0.1.
+- Fixed missing fjerase.cab.
+
+
+Enjoy

@@ -1,0 +1,30 @@
+Xbox 360 SMC I/O Config Utility v0.1 Alpha *Update v0.2A*
+
+
+Blackaddr released Xbox 360 SMC I/O Config Utility:
+
+DESCRIPTION:
+This is a simple utility to reconfigure output pins on the SMC that are used to execute the JTAG transaction to the GPU. The utility only supports decrypted SMC files which already contain the JTAG hack code. It is used to research and fix problems caused by sharing SMC output pins, or caused by the bit timing of the JTAG data.
+
+FEATURES:
+* Basic Mode:
+-Change only the TMS signal to use AUD_CLAMP pin. Fixes many issues, a good starting point for testing.
+* Advanced Mode (for researchers):
+-Change the TMS and TDI signals to any general purpose I/O pin on the SMC.
+-Change the TMS lead-in delay. This determines how long between a TMS logic change and the assertion of TCLK.
+-Change the TCLK period. The bit rate is controlled by changing the delay between TCLK level transitions.
+
+USEFUL INFO:
+* The purpose of this utility is to help fix and research boot issues caused by SMC I/O sharing or JTAG bit timing. On non-Xenon consoles, there are no unused I/O available, so we have to borrow some from Microsoft. 
+* The original hack borrowed ARGON_DATA for TMS, which is the data line that controls the Ring of Light and RF board. This can cause weird issues with the controller and LED display (particularly Falcons) and E79 issues on Zephyr. The original hack also borrowed DB1F1 which is used for HDMI purposes(?) on the ANA/HANA chip. It could causes isses with setting up the output video, especially HDMI resulting in boot failures.
+* At the time of this release, two new I/O have been found that are not critical to system boot. First is AUD_CLAMP. This signal is an control signal that mutes the output of the analog audio. It has no interaction with system boot and is an excellent replacement for TMS. The second I/O is TRAY_OPEN. It is a logic signal that tells the DVD drive to open or close. It does not interfere with boot, however on some DVD drives, the tray may eject on bootup, it depends on the mobo/drive combination. It can be useful for moving TDI if boot failures persist.
+* Many issues seem to be resolved simply by moving the TMS signal from the RF header to the AUD_CLAMP.
+
+
+!Update! v0.2 Alpha has been released. What's new/fixed
+* This is a minor update to include a bugfix found by Tiros in the original JTAG code. It is discussed here.
+
+
+You might as well try the bugfix first before going to the trouble of rewiring. Run version 0.2a with the following parameters. It will apply the bugfix, but will patch the SMC with the original wiring. The program only takes in a SMC with the original wiring config since it looks for this configuration to find patch locations.
+smc_io SMC_dec.bin SMC_patched.bin 83 28 C0 03
+If you still have issues, run the basic mode and move the TMS wire (at RF header) to AUD_CLAMP. If you still have issues and are using diodes, switch to transistors.

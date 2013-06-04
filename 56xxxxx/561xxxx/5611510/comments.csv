@@ -1,0 +1,46 @@
+User Type,Username,Date,Text
+[V],Kuthumi,2010-06-07T11:08Z,"Thanks a lot! For those of you who do not understand all of this:
+Subtitles in the idx/sub format consist of two files per avi file.
+One has extension .idx and contain the time stamps.
+The other has extension .sub and contain the actual subpictures.
+Each file must have exactly the same name as the avi file. Do not change either, or you have to change them all.
+The easiest way to make them work is to create new folders, CD1, CD2 and CD3. Copy the original files, do not rename them, or you will not be able to seed!
+
+Example:
+
+Folder CD1 should contain the following:
+carlos.2010.part.1.dvdrip.xvid.fragment.avi
+carlos.2010.part.1.dvdrip.xvid.fragment.idx
+carlos.2010.part.1.dvdrip.xvid.fragment.sub
+
+Folder CD2 should contain the following:
+carlos.2010.part.2.dvdrip.xvid.fragment.avi
+carlos.2010.part.2.dvdrip.xvid.fragment.idx
+carlos.2010.part.2.dvdrip.xvid.fragment.sub
+
+Folder CD3 should contain the following:
+carlos.2010.part.3.dvdrip.xvid.fragment.avi
+carlos.2010.part.3.dvdrip.xvid.fragment.idx
+carlos.2010.part.3.dvdrip.xvid.fragment.sub
+
+If you have dl the first 2 parts and then add only part 3 from the combined upload, you must rename the files for CD3 accordingly. Use ""Properties"" on the filename, copy and paste to be sure it's right.
+
+Then, everything will work well in WMP, other players and even standalone DivX players.
+
+It's really not that complicated, once you understand it."
+,Bartolllo,2010-06-07T18:52Z,"Thank-you very much for this. I was just about to give up, but decided to check one last time.
+Your guidelines took me a while to learn ""the hard way"". Your explanation is perfect and easy to understand. Thanks for checking up and returning to
+rectify the situation. Looking forward to a night of the Jackal.
+Bart. "
+,sabian.ro,2010-06-08T21:53Z,"Thanks, man. You saved my day and give me the possibility to transalte the entire movie in romanian for all the fans. 
+God bless you!"
+,stalker2755,2010-06-09T01:15Z,Cu placere! ;)
+[V],Kuthumi,2010-06-09T19:56Z,"Thank you for all the good words, it has taken me many years of experience to understand this.
+If you want to take on the big job of TRANSLATING all the subtitles, the best thing might be first to convert them to srt format, which is a simple textfile format with time codes.
+Try to google 'subtitle converter idx sub' and
+'subtitle workshop' and
+'how to translate subtitles'
+The .sub files contain small bitmapped PICTURES of the subs (not data characters), so you first have to run an OCR (Optical Character Recognition), often with definition of the font.
+Be prepared for a long time of experimentation!
+And beware that the subtitles for this movie have no contents whenever English is spoken.
+You may click my blue username above and have a look at my many torrents with optional multisubs."

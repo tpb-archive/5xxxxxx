@@ -1,0 +1,100 @@
+User Type,Username,Date,Text
+,principlemajor,2010-06-28T16:39Z,"Is it unattended installation?
+What are some of the registry tweaks you integrated into this ISO?"
+,nathankeating,2010-06-28T19:53Z,"Yes it is an unattended verison
+
+REGISTRY TWEAKS
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+""HungAppTimeout""=""3000""
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+""HungAppTimeout""=""3000""
+
+;Benefit: Lowers the time the system waits for user processes to end after the user clicks the End 
+;Task Command button in Task Manager from 5000 to 3000 (milliseconds)
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+""WaitToKillAppTimeout""=""3000""
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+""WaitToKillAppTimeout""=""3000""
+
+;Benefit: Lowers the time the system waits for user processes to end when the user logs off or shuts 
+;down from 20000 to 3000 (milliseconds)
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer]
+""GroupPrivacyAcceptance""=dword:00000001
+
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+""AutoEndTasks""=""1""
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+""AutoEndTasks""=""1""
+
+;Benefit: Forces user processes to end automatically when the user logs off or shuts down
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Connection Wizard]
+""Completed""=hex:01,00,00,00
+
+;Benefit: Bypasses the Internet Connection Wizard the first time that you use IE
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+""ForceClassicControlPanel""=dword:00000001
+
+UNATTENDED
+
+[Data]
+    AutoPartition=0
+    MsDosInitiated=""0""
+    UnattendedInstall=""Yes""
+    AutomaticUpdates=yes
+
+[Unattended]
+    UnattendMode=ProvideDefault
+    OemSkipEula=Yes
+    OemPreinstall=yes
+    TargetPath=\WINDOWS
+    DriverSigningPolicy=Ignore
+    KeyboardLayout=""United Kingdom""
+
+[GuiUnattended]
+    EncryptedAdminPassword=NO
+    OEMSkipRegional=0
+    TimeZone=85
+
+[UserData]
+    ProductKey=V2C47-MK7JD-3R89F-D2KXW-VPK3J
+    FullName=""""
+    OrgName=""""
+
+[Display]
+    BitsPerPel=32
+    Xresolution=1024
+    YResolution=768
+    AutoConfirm=1
+
+[RegionalSettings]
+    LanguageGroup=1
+
+[Identification]
+    JoinWorkgroup=WORKGROUP
+
+[Networking]
+    InstallDefaultComponents=Yes
+
+
+[Components]
+    msnexplr = Off
+    OEAccess = Off
+    WMAccess = Off
+
+"
+,vlal21,2010-06-29T19:43Z,Can I please have the activation code? I want to install on a macbook using parallels and I think they ask for the activation code. Thanks in advance
+,nathankeating,2010-06-30T00:04Z,ProductKey=V2C47-MK7JD-3R89F-D2KXW-VPK3J
+,mmmeow,2010-07-04T04:05Z,The reg tweeks get applied after install... so they don't make the install unattended.  Otherwise this is as advertised.
+,vinay86,2010-07-05T11:03Z,Does it has all of the sp3 updates released by Microsoft up till now
+,rontorr,2010-07-18T01:16Z,"tried downloading and installing twice, get a missing system file message and won\'t reboot both times"
+,orinvee,2011-08-21T03:33Z,Works like a charm...good job!

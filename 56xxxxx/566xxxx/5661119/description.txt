@@ -1,0 +1,67 @@
+Bananas (1971)   Comedy, Woody Allen, Political Satire
+
+User Comments:       http://www.imdb.com/title/tt0066808/usercomments
+
+                      (Woody Allen's best comedy?)
+
+When a bumbling New Yorker is dumped by his activist girlfriend, 
+he travels to a tiny Latin American nation and becomes involved in its latest rebellion.
+
+Format                           : Matroska
+File size                        : 1.10 GiB
+Duration                         : 1h 18mn
+Overall bit rate                 : 2 011 Kbps
+
+Video
+Format                           : AVC
+Bit rate                         : 1 800 Kbps
+Aspect Ratio                  : Display 1032 x 560 (16:9) (720 x 560 Anagraphic)
+Frame rate                       : 25.000 fps
+Stream size                      : 1 001 MiB (88%)
+Writing library                  : x264 core 79
+Encoding settings                : cabac=1 / ref=5 / deblock=1:0:0 / subme=9 / psy=1 / trellis=2 /bframes=5 / b_pyramid=0 / b_adapt=2 / rc=2pass / 
+
+Audio #1 English(default): AC-3 Constant 192 Kbps mono ( Front: C) 48.0 KHz 108 MB (10%)
+Audio #2 Magyar(external): AC-3 Constant 192 Kbps mono ( Front: C) 48.0 KHz 108 MB
+
+Subtitles: English, Bulgarian, Czech, Dutch, French, German, Greek, Hebrew, Hungarian, Italian, Polish, Portuguese + BR, Romanian, Russian, Serbian, Slovenian, Spanish, Turkish 
+
+Sample: 10.7 MB, multisub
+
+snap shots:           http://a.imagehost.org/0471/1_99.jpg
+
+
+                      http://a.imagehost.org/0869/2_16.jpg
+
+
+##############################################################################
+
+Use MKVextractGUI (     http://www.videohelp.com/tools/MKVExtractGUI    ) to mux in the AC3 dub file.
+
+##############################################################################
+
+All subs show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+If the subs are muxed in mkv download & use "MKVextractGUI" to extract(demux) the subtitles from mkv, and "mkvmerge GUI" to mux back the edited/repaired sub in the mkv. Download "Notepad++" (free): 
+http://sourceforge.net/projects/notepad-plus/
+The sub you demuxed from mkv: Open and save as...ANSI !(Important!)
+Right click on the sub/Open with nppIExplorerShell.exe (Notepad++ exe)/
+click Encoding(upper part menu)/Character sets and chose the language ISO.
+Click again on Encoding/then click on Convert to UTF-8 or Unicode Big
+Indian/save as...srt. You're done with the encoding, now you can mux it back 
+in the mkv with mkvmergeGUI, select the language & mux.
+
+#############################################################################
+
+Those with Win 7 64 bit might have issues with playing back secondary or external audios & subs etc.
+If k-lite pack(too complicated) not working try CCCP from  http://www.cccp-project.net/     (based on Media Player Classic).
+When installing check "Enable Shell Extensions & Thumbnails (under Select Aditional Taskd Haali), check Haali Media Splitter- Autoload VSFilter, VSFilter Subpicture Pre-Buffering & Re-Register Filters, the rest leave as it is. 
+When finished open the player, click View/Options/PlaybackOutput/check Evr Costum & chose System Default under DirectShow Audio.
+Under Internal Filters - Source Filters should be checked DirectShow Media, Matroska & MP4 & Transform Filters should have H264/AVC(DXVA) checked.
+ When playing multi-Audio & subtitles movie select audio by right-clicking on the screen/Audio, subtitles right-clicking on the Haali Media Splitter on the icon bottom right Task Bar.
+Now we can even play even Blue-ray (m2ts) being able to switch between Audio tracks by clicking on the Haali Media Spliter on the task bar bottom right.
+
+#############################################################################
+
+All my torrents are seeded. I regularly check back my older torrents and I will reseed where needed.
+Most of us want only the English (usually) Audio so I got the secondary tracks separately (demuxed).

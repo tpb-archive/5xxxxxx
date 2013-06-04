@@ -1,0 +1,169 @@
+User Type,Username,Date,Text
+,baalika,2010-06-08T09:26Z,"lets try it again, i really hope it'll work :)"
+,jopalx,2010-06-08T19:41Z,"greats uploads dcrack
+Eaglesoft Citation X 2.0 FSX is not work
+can you fix it?please.thanks"
+,roadsport,2010-06-08T20:12Z,"YES !!!!
+Thank's DCrack !!!!!!!!!!"
+,jopalx,2010-06-08T20:20Z,"hello DCrack
+on Eaglesoft Citation X 2.0 FSX
+the panels still black on plane after i change the files and config dll.xml.what im doing wrong?
+can you help,please.
+thanks and great uploads"
+,Jimstalk,2010-06-08T21:45Z,"nice site DCrack.Could you please find&crack VRS Superbug x????????
+
+thanks!!!!
+
+jim:)"
+,tonych76,2010-06-09T01:58Z,"Thanks a lot Dcrack, very nice uploads, I would really appreciate if you can crack the Reality XP Sandel ST3400 for FS2004. Thanks again for your contribution, hope you can find and cack my request."
+,lodestar,2010-06-09T13:49Z,"Thanks DCrack, but still not working with realair beechcraft duke b60"
+,Jimstalk,2010-06-09T15:29Z,tonych76:LOL dude still playing fs2004????FS11 will arrive soon........
+,targeto,2010-06-09T16:33Z,"Dcrack, i really admire you, I dont know how you do the crack like you do, I have an special need, a special req, not an FSX Req, but I hope you can help me (us), there is an sowftware calls Autokitchen 9, and there is no crack for that, all people who design kitchen and interiors we have to conform with a program call kitchendraw from the year 1999 with no updates or anything, really old, if you need this Autokitchen to see it, you can find it in Ares maybe, or emule, but if you dont, maybe I can upload the torrent only with no crack or something like that, it will be a very special help from you if you can help all the designs people...
+
+cheers, and thanks for your wonderfull work"
+,tonych76,2010-06-09T16:37Z,"Hi Jimstalk, I have both versions and I enjoy both, I design my own photorealistic panels and FS2004 is still the best platform for my work, not always but in many cases FS9 with all the addons installed looks a lot better than FSX... unfortunately the Sandel ST3400 is not compatible with FSX and 64 bit OS. Here is the link http://www.reality-xp.com/flightsim/st3400/features/index.html I hope Dcrack can make this available."
+,Tess_T_Kohls,2010-06-11T06:56Z,"DCrack-
+
+Your work as exemplified here with your Reality XP package is nothing short of BRILLIANT!!!   Well done sir!   The Reality XP GNS suite for FSX has always been considered ""uncrackable"", but your abilities and skill are obviously unparalleled.
+
+THANK YOU.
+
+To anyone reading this comment - DCrack's RXP GNS cracked files work perfectly, and this torrent is absolutely golden.   To use DCrack's RXP GNS package within the RealAir Duke's pre-configured virtual cockpit, use the following panel.cfg file below (copy and paste to make a new panel.cfg):
+
+// Panel Configuration file
+// RealAir Simulations Beechcraft Duke B60
+// Panel and Gauge Programming by Sean Moloney
+// Copyright (c) 2009 RealAir Simulations
+
+[Window Titles]
+Window00=Main Panel
+Window01=GNS
+
+
+[Window00]
+file=2D_Help.bmp
+size_mm=1024, 95
+position=6
+BACKGROUND_COLOR=0,0,0
+visible=1
+ident=MAIN_PANEL
+
+[Window01]
+size_mm=308,351
+position=2
+BACKGROUND_COLOR=0,0,0
+visible=0
+ident=15531
+gauge00=DCrackXPGNS!A,0,0,0,0
+gauge01=rxpGNS!GNS530,0,0,308,222
+
+
+
+[VCockpit01]
+size_mm=1024,1024
+pixel_size=750,750
+texture=$RAS_Duke_CFG
+background_color=1,1,1
+
+gauge01=RASDuke!NavCom1, 2, 2, 630, 74
+gauge02=RASDuke!NavCom2, 2, 79, 630, 74
+gauge03=RASDuke!ADF, 4, 156, 414, 61
+gauge04=RASDuke!Xpndr, 637, 634, 378, 69
+gauge05=RASDuke!Autopilot, 5, 219, 365, 77
+gauge06=RASDuke!DME, 632, 569, 323, 61
+gauge07=DCrackXPGNS!A,0,0,0,0
+gauge08=rxpGNS!GNS530, 0, 570, 630, 454
+gauge09=RASDuke!KA285_Annun, 428, 159, 422, 134
+gauge10=RASDuke!Gear_Lights, 639, 2, 276, 72
+gauge11=RASDuke!Annunciator, 701, 761, 137, 262
+gauge12=RASDuke!Flap_Lights, 640, 80, 203, 72
+gauge13=RASDuke!InitVars, 1024, 1024, 0, 0
+
+
+
+// ===== OPTIIONS XML - DO NOT REMOVE =====
+gauge14=Config!Options, 600, 600, 1, 1
+gauge15=Config!RealView, 600, 601, 1, 1
+
+
+
+[Color]
+Day=255,255,255
+Night=225,117,89
+Luminous=200,200,101
+
+[Default View]
+X=0
+Y=0
+SIZE_X=8192
+SIZE_Y=6144
+"
+,StaffBerlin,2010-06-11T08:38Z,"Thank you so much dude, I have been waiting so long for this torrent, but until you cracked it there was no chance for getting it. The whole community has been waited for you!! Sorry for my doubts on your first torrent...i apprechiate your work!!"
+,chuckmamuck,2010-06-11T18:34Z,"ha, remember your first megapack upload DC when they all tried to shoot ya down and doubted you. i said dont worry about it man, they'll all be kissing ya ass when they get it and surprise surprise its a big ass licking fest. 
+i've still not worked the concorde out yet and now you give me this to try to work out. you make my lazy bwains hurt dude. 8)
+DCrack, the cleanest ass on the bay. slurp slurp ;) lol
+
+cheers for this bro."
+,Tess_T_Kohls,2010-06-11T20:18Z,"DCrack pretty much rocks don't he?    :)    What can I say, the man has some uber-serious talent with this stuff.   No one else on the 'net has previously been able to crack the RealityXP stuff that I know of.
+
+I wanted to mention to anyone using DCrack's RXP GNS files and wanting to manually place the gauge into a permanent fixed position in virtual cockpits (as opposed to the pop-up gauge window only), simply add the cracked .dll gauge(s)  into the respective aircraft's panel.cfg file.
+
+For example, if you want to use the GNS gauge with the Realair Duke or the Lotussim L-39 pre-configured virtual cockpits, simply add the crack gauge reference in the panel.cfg file like so:
+
+gauge07=DCrackXPGNS!A,0,0,0,0
+gauge08=rxpGNS!GNS530, 0, 570, 630, 454
+
+If you are manually configuring an aircraft's VC with a permanent position for the RXP GNS, you need to make sure the ""DCrackXPGNS!A,0,0,0,0"" reference is in the gauge list for the virtual cockpit entry in the panel.cfg file, or else FSX will crash to desktop as some of you have already found out.   :)
+
+If you use DCrack's customized RXP configurator to simply add a pop-up RXP GNS gauge to an aircraft, no worries as this process is automatic.   Keep in mind again that both the Realair Duke and Lotussim L-39 have pre-configured panels for use with the RXP GNS, and if you don't do the manual panel.cfg file edit I described above  you will get a CTD when you run FSX.   Just remember that any reference to the ""rxpGNS!GNS530"" (uncracked RXP GNS gauge file) MUST be accompanied by a reference to the cracked ""CrackXPGNS!"" file (cracked .dll supplied by DCrack) in the panel.cfg file of the aircraft you are working with.   
+
+Look at the panel.cfg file I wrote out in my previous comment post to see how this works - it's not hard at all.   So basically, if you just want to use a pop-up window RXP GNS gauge, simply use DCrack's custom configurator and you don't have to mess with anything else, but if you want to use the RXP GNS with the Realair Duke, Lotussim L-39, or any virtual cockpit as a fixed postion, 3D type gauge on the VC panel, do the manual editing of the panel.cfg file(s).    
+
+Thanks again DCrack.   You are the 'Tony Stark' of the cracking world man.    :)
+
+
+"
+,DCrack,2010-06-12T02:38Z,"11THANK YOU!! Comments of appreciation are always well received and they really make a difference! Thank you everybody for helping out with the panel configs for the duke, etc.
+As always, itÂ´s been a crazy week, as soon as I have some time IÂ´ll check out the requests and my next target (I think FSUIPC is on top) ;)
+Please remember I can only crack on my free time, and sometimes it might be a while before I publish any new cracks.
+Cheers!"
+,tonych76,2010-06-12T17:55Z,"Thanks to you Dcrack, you are the ""Master"" ...I'll be waiting for my request, it's the first time I request a cracked software here, the Reality XP Sandel ST3400 so I can finish my DC-9 panel, I hope you can find it, I have the software, but not a working crack, you can email me: ferremundo1@hotmail.com and I will reply your mail with the file attached, its a small file like the GNS 530 and Wx500. Thanks Dcrack!
+Cheers!"
+,DCrack,2010-06-12T22:43Z,"As promised, New Release (FSUIPC4):
+http://thepiratebay.org/torrent/5623717
+Enjoy!"
+,DCrack,2010-06-13T04:59Z,"New Release (Dodosim 206 Chopper ;)):
+http://thepiratebay.org/torrent/5624171
+Enjoy!"
+,DCrack,2010-06-13T15:27Z,"Captain Sim 767 is next on the list for next weekend or whenever I have some time, the thing is I don't have it and it can't be downloaded from the Captain Sim web. Try to get it to me and I'll crack it, otherwise I'll work on the VRS FA18EX Superbug which is number 2 on the list."
+,DCrack,2010-06-13T19:27Z,Follow me on twitter: @DCrackNews
+,aarque,2010-06-13T23:26Z,"DC, I might be able to save you the effort on the Superbug 'cause several of us nabbed it before popcorn pulled his torrent shortly after posting it. The torrent claimed it is cracked and the thing has a .bat installer like you had used to unlock the Concorde (if I remember correctly). Anyway, I clicked the .bat and it opened a command window and installed. After the installer finished an authentication window opened which I simply canceled. I started FSX and noticed the F/A-18E had about a gazillion liveries so I picked one of the Blue Angels. I was a little dismayed to see it had a full loadout, rather than being clean, but it seemed to fly ok. The HUD works, the VC works, the DDI's activate and I have to say that although my frame rates plummeted with the thing, the virtual head movement with varying acceleration almost gave me vertigo, it was that immersive. For some reason one of the AM-120's ignited but didn't release and it appeared to have an engine fire which didn't appear to affect the fly-ability. 
+
+Overall the visual model puts the default Microsoft Hornet to shame, however the abysmal frame rates will keep it in my hanger at least until I upgrade hardware.
+
+I will try to (re)upload a torrent of it sometime in the next 24 hours and y'all can decide if it needs a work over with DCracks magic fingers."
+,DCrack,2010-06-14T04:37Z,"@aarque:
+Thanks bro, that would be great"
+,DCrack,2010-06-15T11:13Z,http://thepiratebay.org/torrent/5629226
+,roadsport,2010-06-19T07:43Z,"DCrack, how make a crack for this :
+http://www.peixsoft.com/index.php?page=ga-panel
+
+Or how make to unlimited the time of the demo ?
+Thanks for you'r answer !!
+Regards"
+,dandan01,2010-08-09T10:02Z,Thanks very much i will keep seeinding this for years.  Thanks for the guy who did the Duke b60 work too.  Dont know what up with my systems (Vista 64) the duke crashes everytime on load up with the GPS pre config and the JS4100 weather radar is just a pixellated panel of the Wx radar....Ah well thanks anyway i am sure the crack is fine its just my pc thats messed up!
+,fly2win4573,2010-08-13T02:50Z,"This works great as a gauge, but when I try to load the L-39 with the RXP add on, it crashes to the desktop. Any help is much appreciated."
+,KYBU18,2010-08-20T18:51Z,Great upload! U think u could crack the new August update?
+,Lonewolf357,2010-08-24T18:21Z,"DCrack, could you make a crack for FS2004 too?! A lot of people still use the old faithful 2004 and will be very grateful!!! Please!!!"
+,robot85,2010-10-03T22:50Z,"I'm just getting black boxes. Also, I get ""Error getting handles... sorry!""
+
+Help... I do NOT want to spend $50 on this..."
+,AnWa06,2010-11-19T16:56Z,"robot85 make sure that you AV is off, I was having the same problem and it turned out that NOD32 was putting the rxpGNSsim of w/e it is into quarantine, and when that happened I was getting the same message that you are plus the black boxes."
+,Davicho61,2010-12-12T11:04Z,"Thanks a lot Master! Could you crack the Reality-XP Jetline 2 or could you explain me how to do it... in think is very complicated, but if is possible to tried I will.
+Thanks again DCrack."
+,Yancop,2011-07-11T00:27Z,There is a trojan on the setup for the wx500! Can you reupload or send to my email??? I rly want this stuff
+,mtr75,2011-11-03T17:20Z,"Hey DCrack, my antivirus is saying this has a trojan (trojan.adh.2) in the ""rxpGNS-Setup.exe"" file. Can you confirm for me that it's safe to install? Or what's going on?
+
+Thanks a lot!"
+,askoD,2011-12-11T21:58Z,This contains trojans in the installers & Dll's. They manipulate the windows rundll executable and automatically configure the firewall for connectivity. 
+,Juauzynhu_FSX,2012-06-12T23:53Z,viruses on dll's... :/

@@ -1,0 +1,8 @@
+User Type,Username,Date,Text
+,Godfire1331,2010-06-17T20:55Z,"After following the instructions, I keep getting trial period ended when I try and start it up.  I have tried to install it multiple times now but still not working.  Any idea how to get past this.  I even cleared my registry as best I could but still no luck. "
+,naveen8354,2010-06-21T12:06Z,"Figured out the problem. After using reg file, you have to rename an extension to a file usually at 
+C:\Documents and Settings\All Users\Application Data\SlySoft\AnyDVD\AnyDVD.chk just rename to bak or something."
+,lozory,2010-06-22T10:47Z,"thanks naveen8354 needed that! works now, thanks bigwimpie:)"
+,psikofunkster,2010-06-25T23:13Z,no mate naveen8354 your trick doesn't work for windows 7 cause the file structure change.
+,TehRealMrWiggles,2010-07-09T21:00Z,"quote \""psikofunkster\""nno mate naveen8354 your trick doesn\'t work for windows 7 cause the file structure change.nn-=-=-=-nnFor the windows 7 people who aren\'t technical enough to know where windows 7 stores it\'s filesnnC:\\Program Data\\SlySoft\\AnyDVD\\AnyDVD.chknnworks just fine on windows 7 :)"
+,psikofunkster,2010-07-10T21:33Z,TehRealMrWiggles there is no chk file ther dude.

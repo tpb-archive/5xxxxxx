@@ -1,0 +1,33 @@
+Changelog:
+- fixed 3-pass encoding
+- audio is only encoded in last pass
+- new: stream is now completely processed by the chameleon engine completely reclocked, realigned, resegmented, refit
+- FFmpeg no longer demuxes, parses or damages the stream in any way FFmpeg still decodes video/audio/subtitles and encodes video/audio, mixes video, audio (scale, crop, deinterlace, subtitle harddup, resampling)
+- FFmpeg still multiplexes streams (avi, mpg, mkv, 3gp, mov, ...)
+- fix: header synchronization (as found in AVP Requiem)
+- new: added profiles for Mio DigiWalker c720
+- new: added .dump file to investigate sync/transcoding issues
+- new: added support for audio copy, video copy (lossless transfer)
+- new: added support for 3gp v2
+- fix: accept 3gp/3gps as alias names for tgp/tg2
+- change: added correction in case audio starts later than video
+- change: switched ac3 decoder to aggressive mode
+- some minor fixes and improvements
+- new: added MPEG2 re-encode/passthrough profiles
+- change: Framerate setting (NTSCFrameRate/PALFrameRate/...) now allow exotic values, like 30 FPS.
+- fix: resync issues with certain long-running movies
+- change: improved x264 encoding quality
+- change: improved handling of stage files (multi-pass encoding)
+- fix: some issues with subtitle decoding
+- fix: some minor issues with SVCD
+- new: x264 featuring patch Psy-RD 0.6 by Jason Garrett-Glaser
+- new: added option to save encoder log
+- several minor fixes and improvements
+- transcoding speed should be greatly improved especially on multi-core systems now.
+- fix: previously selected multi-pass encoding could cause another "multipass" encoding when selecting passthrough mode, where it made no sense and only took up extra time.
+- fix: selecting all angles from a multi-angle title would cause no output to be generated. Transcoding of multiple angles into a single video file is pointless, so now selection of multiple angles is disabled.
+- fix: Any lipsync issues sould be resolved now - please post any problems in the appropriate area at SlySoft Forum
+- change: after initial installation of CloneDVD mobile the default output folder is now changed to the user's "My Documents" directory to ensure write privileges are available.
+- fix: several profiles optimized.
+- several minor fixes and improvements
+- Updated languages

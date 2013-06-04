@@ -1,0 +1,40 @@
+User Type,Username,Date,Text
+[V],twentyforty,2010-06-10T18:07Z,"Dear peers.
+I see what's going on. This is currently my only active torrent - so, please, be smart.
+In my swarms only way to go up and finish download is:
+SET YOUR FRIKKIN UPLOAD ON  ""UNLIMITED"".
+Anything else - and I will kick you out from this download - for good."
+,hkoraddi,2010-06-10T19:39Z,hello i heard that keeping upload to unlimited would be less prioritized in p2p i always keep it to 20% more then my max...out of interest i'm asking you as u said to keep unlimited....
+[V],twentyforty,2010-06-10T20:10Z,"98% have Download on Unlimited and ALL peers goes faster than 10 kB/s. 86% have Upload set on 1-5 kB/s. 34% of these - on 1 kB/s.
+Are they frikkin crazy? Nope. They behave just as they always do. Well, instead of three hours download would be 13 - if I don't delete torrent before and stop to seed. 
+
+It is initial swarm and different rules apply. Judging by the title, download would not be possible - as three days from now. Such people do not seed and wont share."
+,sanyam123,2010-06-10T20:14Z,"@hkoraddi: by unlimited he means to keep it 1:1 ratio(which is by default for torrents program) during the INITIAL phase...
+if your up speed is high lik 30-40kbps or more then u can join the initial seedin stage...just dont go to change the ratio..."
+[V],twentyforty,2010-06-10T20:56Z,"@hkoraddi: OK, here is how I have been doing that: in the past I downloaded regularly from eztv swarms, big ones, with 3000 or even 12000 peers. And - I kept UL at 9 kB/s. I was slow as hell and one XviD took up to 12 hours. I could go, back then 2000/120 (kB/s of course) but - it is only way for BIG swarms. Then I've learned few things and one thing was how to avoid ""choking"" in big swarms: Set Global limit of connections on 256, patch frikkin tcpip.sys on 60 conn., set max. conn. peers per torrent on 16, set max. upload slots at 8. Do not accept Unencrypted traffic at all. Use PeerBlock (back then it was PeerGuardian). Use uTorrent/BitTorrent newest ""Release"", BitTornado if anything goes wrong or for private-trackers.. Use Comodo firewall. Use Avast! a-v. Disable Remote Assistance Service.
+
+This is what I have done and then I could pay visit to eztv swarm, download in 30 minutes (eventualy setting UL max. to 19 kB/s). 
+
+I wrote about these experiences like zillion times. It was standard part of my torrent descr. back on mininova. I copied&pasted few bits maybe few days back, and man was very,very satisfied by improvement he made (20% UL/DL speeds). Maybe you've seen that and maybe you should dig something out.
+I am on-line from 1996. and have been one of developers of one fairly popular torrent-program. But I never stopped learning and trying not just what gives greatest savings - but what gives best results, and if some DL takes 12 hours and could be 2 - no one should be proud of his ""achievement"", right? Getting best result possible is a matter of balance - and not just looking for one sided solution."
+,hkoraddi,2010-06-10T22:28Z,"well thats a best detailed reply i can get thank u 2040.
+
+@sanyam123- yes just this month i have upgraded my net from 30kbps to 60 kbps but still dont want to enter initial seeding i can always wait and not chock the swamp.as its been filled with the people who dont want to follow wats insisted.well in final year of my engi n i'm doing project's.as im too interested in p2p n networking so wanting to know more of present world model( bored of our sylabus books which are fully filled with thing of 1980s)"
+,DCSDOC,2010-06-11T14:17Z,"Thanx 20-40.. Pls Upload Trainspotting BR Rip in Quark or 720p PROPER, in size around 200MB.. Thanx in Advance.."
+,believenu,2010-06-12T03:23Z,"ok. sounds good. but uhhh! me dumb duuhh! new to net(1 yr) and d/l. have looked . I use utorrent but when you talk about limiting peers unencripted traffic and so on where can I go to learn about such things.I have and do use unlimited up speed and always scan for virus' and have firewalls etc(I know they are all NOT created equal..(Reason for two week vacation from net) ""For all newbes look at several anti virus and spyware programs many are not as good as they say(and I am not even doing much d/l and surfing)however any particular spot we can learn about the wonderful world of torrents. Am glad to be back... Remember you leechers Seeding is Sharing.  "
+[V],twentyforty,2010-06-12T10:16Z,"@believenu: ""I use utorrent but when you talk about limiting peers unencrypted traffic and so on where can I go to learn about such things.""
+Two clicks needed: on Help in uTorrent then on ""uTorrent Help"" or ""uTorrent FAQ"".
+Also, spend some time on uTorrent Forum, no need to register, just browse interesting topics and ... read.
+Encrypted traffic only:
+uTorrent Options>Preferences>BitTorrent:
+""Allow unencrypted traffic"" must be UN-marked
+left of it, on drop-down list choose ""Forced""
+>>...""I have and do use unlimited up speed""
+No, that's wrong if you have not really really fast connection. Also, everything I have said is mainly for initial-seeding phase and initial-swarm. What happens later, when I hit 8 or up to 32 with 100% I couldn't care  less.
+
+>>...""and always scan for virus' and have firewalls etc""
+
+They differ as much as people. All people have brain, right - but all people ain't intellectually equal (...""I know they are all NOT created equal.."")
+In short, I named the names for a reason. Rest assured, I've tried everything out there. Reasons are beyond your current ability to comprehend (no pun intended) AND beyond this specific place.
+
+Also, be aware that you've been reading my post to somebody else and therefore, no individual adjustments were present. "

@@ -1,0 +1,149 @@
+User Type,Username,Date,Text
+,Atsyr,2010-07-06T15:50Z,"Yay! Work greats.. Ur magic works like charm.. Thx for this - No homo
+Bump Bump"
+,Ivica121,2010-07-06T16:02Z,Guys when you finish your download please seed.
+,chopa2010,2010-07-06T17:12Z,"seeding...
+
+pozdrav iz zagreba, ivice ;)
+
+ps.does anyone  hats with twcenter forums? seems they are offline for days now :("
+,Ivica121,2010-07-06T17:25Z,"Thnx chopa2010 , i send big regards to you and Zagreb. I also can't open twcenter, i really do hope that we will able to open twcenter tomorrow."
+[T],Tanauser,2010-07-06T18:23Z,"little localisation hot fix
+
+http://thepiratebay.org/torrent/5673424
+
+
+will put back the right text Campaign of the coalition
+in this torrent"
+,chopa2010,2010-07-07T00:49Z,"i have few questions...
+
+1)is it supposed to write 1.3.0 after installing this stuff
+2)when I installed everything, NTW wouldnt start...then I removed boot.pack, and game started
+
+i assume it could have some incompatabilites with Nap.TOTAL FACTION mod i have installed before
+
+then I tried Peninsular Campaign, but CTD
+then I tried to load my previous campaign, and game works
+
+any clues and suggestions?
+
+tnx in advance"
+,Atsyr,2010-07-07T07:04Z,@randir14 Detail plox.. Which is DLC unit or Vanilla?
+,Blackadder907,2010-07-07T13:42Z,i'm having same problem as chopa2010 everything works except Peninsular Campaign
+,DJLiqwid,2010-07-07T14:10Z,"To those having issues even getting this to run, make sure the contents of the folder from the rar goes into ""campaign_maps"" and not ""campaign_map"".  That was the first issue I had with it.
+
+The only issues I have is many of the icons appear to be missing for the provocateurs and the priests.  The political unrest icon isn't there either.
+
+Another thing with the priests and provocateurs is you can't see their traits.  They are just totally blank and you can't tell what their strengths and weaknesses are.
+
+Other than that, it works great!  Thanks a ton Tanauser and keep up the great work."
+[T],Tanauser,2010-07-07T14:23Z,"Right;
+
+correction:  the right spelling of the folder is : campaign_map  
+
+not campaign_maps    with ""s""   ((so that might bring some installation issues))"
+,Atsyr,2010-07-07T14:52Z,"This update will correct missing icon in Peninsular Campaign.
+
+http://thepiratebay.org/torrent/5675668/NTW_Peninsular_Campaign_UI_Fix"
+,Lorkken,2010-07-07T15:30Z,"Tnx guys.It works great now,no CTD,all units are there,icons for priests are fixed. Great job Tanauser and Atsyr."
+,Ivica121,2010-07-07T15:58Z,"Yes thnx Tanauser and Atsyr, now we have all traits."
+,Blackadder907,2010-07-07T18:09Z,"Tnx, everything works for me!"
+,newmanium7,2010-07-08T01:24Z,"Great work guys! 
+
+One thing I noticed though-- this appears to be missing some of the new units advertised on the official NTW website that are part of the Peninsular Campaign. Does anyone else see them? Specifically:
+
+--British 95th Rifles
+--French Vistula Uhlans"
+,newmanium7,2010-07-08T20:27Z,Thanks Dimmis! Been fiddling around trying to get those Rifles haha.
+,Griften,2010-07-08T22:13Z,"Can someone upload the correct unit limits, I noticed the infinite special units were still up for some units, like the Polish Legion..."
+,webtax,2010-07-08T22:41Z,"well just tested and it works with retail steam version , just save the original .exe and choose one or another if you want peninsular or total war online"
+,Ivica121,2010-07-09T12:51Z,"People somone has hacked Tanauser profile, so he is not able to post comment. So if somone start spreading lie about virus or something else this is not Tanauser.nRemember that."
+,Marcus500,2010-07-14T02:04Z,"Atsyr,nThis is very good and much appreciated. However if this torrent is installed with the default Razor_911 install only certain units for the French such as Guard Chasseurs a Cheval are misssing unit card in multiplayer battles and unit graphics. Is there another patch to be installed over this or are the models missing?"
+,Illidan5,2010-07-17T08:59Z,"The game wont load rnrnafter moving the files from the RAR to my napoleaon - total war folder , i started the game and it freezes at the rights reserved screen... wont load ... then i opened my task manager and notcied its not responing... it worked fine before the installing thisrnrnthe folder name is campaign_map with no s , so its not the issue"
+,Marcus500,2010-07-17T11:43Z,A pity Tanauser isnt around to reply anymore.nI had a look at the source files but im no expert.What i found is that the unit models and textures for the imperial guard data pack is missing.The other thing is most of the NapMod.pack is redundant as the DLC units are in the main data file.You will notice if you you have two copies of many units in custom battles etc as the same unit is in data.pack as its actual description and in NapMod as a custom unit.nI pulled the grapical resources from NapMod.pack and disabled the mod and it corrected the duplicated units and restored unit limits correctly. nnIt appears you need graphical resources from the mod but not the mod itself.
+,Illidan5,2010-07-17T22:39Z,"anyway anyone knows why the copyright screen freezes when i use this patch files ? when i switch to the normal crack, the exe file it works fine but without the peninsula campaign, when i put the patch exe file again it wont load"
+,Lehel28,2010-07-19T14:10Z,h
+,Lehel28,2010-07-19T14:11Z,so how can we fix the missing graphic issue with the dlc units
+,Lehel28,2010-07-22T22:34Z,so how can we fix the missing dlc units?????
+,Illidan5,2010-07-23T00:36Z,"Upload a fix that fixed the crash at the begin screen , before the menu "
+,VoodooShaman,2010-07-24T13:11Z,"An intereting Issue I have is that I have 2 sets of most unlocked units - the ones from the old patch and the ones from this 1. Basically there are 2 sets of 17th Jager ""Brave"" Regiments etc"
+,Marcus500,2010-07-24T23:52Z,"What i did was get the pack file manager for napoleon total war from totalwar.net.
+Extract the ui and variantmodels directory from the DLC containing the missing units  
+http://thepiratebay.org/torrent/5555533/Napoleon_total_war_DLC4free_V1.03
+
+and paste these in the data folder (this gets rid of the missing units problem). You dont have to create a .pack file,just paste them in,just be careful your paths are correct.
+The reason there are duplicate units is that these units are mentioned in the mod as well as in the data.pak.So 2 copies are loaded.To fix this I removed user.script.txt. This also seemed to restore the missing unit limits  also.
+Im not sure what the NapMod.pack actually does. I dont think its necessary anymore but im not sure.
+As I said I am by no means an expert and this is all at your own risk."
+,Lehel28,2010-07-25T19:27Z,great i thinkit worked yes but only for the units from th? other 3 dlc pack the imperial guard dlc pack units are all missing and i can find them in any of the pack files on this site there is the napoleon2.7z file by tanauser but i cant open it even if i rewrite it to pack file
+,JamesRK,2010-08-09T02:05Z,"dumb question, but does this make ur version uncompatible with other people's online?"
+,JamesRK,2010-08-09T02:13Z,dum question prolly but will this make my version incompatible with other players online?
+,Lehel28,2010-08-09T13:21Z,yes it will
+,Re95,2010-09-04T05:55Z,@Marcus what Tanauser is not around anymore to reply you mean he's dead? or got caught by the feds and getting rapped in jail?
+,tell_me,2010-09-09T09:05Z,"hey can someone explain to me with detail please how i have to set this stuff up, i have no idea what to do.
+
+i just assumed i have to copy/past each file into the specified  folder but it crashes after showing the pirate skull napoleon total war logo.
+
+also i don't understand the comment about campaign_map vs campaign_maps. the one in my game directory is campaign_maps.
+
+thank you much appreciated."
+[T],Tanauser,2010-09-10T09:49Z,Man  ; I'm not dead yet (lol) ; I just do something else .
+,lnatan25,2010-09-10T21:21Z,"Just to be sure, if I don't care about DLC units and only want the campaign, is this (and the loc fix) enough? I have no old patches or DLC extracted. I just extract and then would have the new campaign and all fixes from the latest patch?
+
+Thanks in advance! :)"
+,Elbart,2010-09-12T13:54Z,Does this need any other patches to be installed or stuff to be extracted etc.?
+,AndarielHalo,2010-09-13T22:02Z,"What's with the piratey-looking launch screen?  That's not how the patch came, is it?"
+,ATournas,2010-11-13T23:25Z,"Dear Sirs,
+If I want to remove the dublicated units, is it OK if I just delete the user.script.txt..?
+Will I miss any features from the game..?
+THANX in advance for your answer..."
+[T],Tanauser,2010-11-19T22:59Z,"If you delete the user.script.txt , than you must remove the Napmod.pack and the loc.pack"
+,LordDakier,2011-01-17T01:31Z,"Ok, so I had to reinstall and now I can't remember how to get this damn thing to work. Before it did and now it won't. I've renamed the campaign_maps and also removed the boot.pack as someone else mentioned. Still no mutton.
+
+I don't even play mods anymore so if it carries on I'll just go vanilla 1.0"
+[T],Tanauser,2011-02-03T20:26Z,"Do not remove the boot.pack neither rename 
+the campaign map folder ... "
+,grisslol,2011-03-16T11:25Z,"So, you guys know if anything ""good"" happens with Shogun 2? Did you find a good torrent for it?"
+,SmotPoker,2011-04-12T08:07Z,The Peninsular Campaign button in the main menu has no text. Can I fix this without using NapMod.pack/my_NAPlock.pack?
+,SmotPoker,2011-04-12T21:59Z,Just fixed the issue by removing patch_en.pack.
+,bobsmith64,2011-08-31T05:32Z,This is terrible!! it not only doesn't work it also screwed up my game now I have to reinstall
+,CarpeDiem96,2011-09-25T07:40Z,when i try to play the campaign it freezes and crashes and when i click on the peninsular factions and the map is blank so can anyone help me?
+,OLDLIMEY4,2011-09-27T01:06Z,    IT COSTS  $9 .99 FROM SEGA GUYS.
+,azervayne,2011-10-26T07:25Z,"This works, just follow the instructions.
+
+1. Install NTW, I really don't think the version you have matters. I have this Lossy Repack and it worked fine for me: 
+http://thepiratebay.org/torrent/5395715
+
+2. Download these torrents:
+http://thepiratebay.org/torrent/5673098
+http://thepiratebay.org/torrent/5673424
+http://thepiratebay.org/torrent/5675668/
+Since I noticed the hotfix torrents were dying here are some mirrors:
+a. loc text hotfix
+http://www.mirrorcreator.com/files/0RDYGX1E/
+b. ui hotfix
+http://www.mirrorcreator.com/files/3XCZ8NYL/
+
+3. Obviously extract the RARs to there own folders.
+
+4. boot.pack, local_en_patch.pack, my_NAPloc.pack, NAPMod.pack, patch_media2.pack, patch4.pack, patch5.pack go to folder location ""Napoleon - Total War\data""
+
+5. nap_spain folder in campaign_map (wrong name in RAR!) goes to ""Napoleon - Total War\data\campaign_maps"", FOR EMPHASIS YES - MAP*S* WITH AN S!
+
+6. spa_napoleon folder goes in ""Napoleon - Total War\data\campaigns""
+
+7. my_NAPloc.pack hotfix from the torrent or my mirror overwrites old one at ""Napoleon - Total War\data""
+
+8. UI Fix.rar contains a folder (buried in extraction at UI Fix\UI Fix\data) named ""ui"" copy this folder to ""Napoleon - Total War\data""
+
+9. Napoleon.exe overwrites existing exe in root folder ""Napoleon - Total War"" (one directory up from the \data folder)
+
+10. If you want to remove/uninstall this Mod/DLC later backup: boot.pack, your ""ui"" folder, and your Napoleon.exe / remove all the files you copied
+
+11. Launch the game, your old shortcuts still works, after the silly pirate loading screen (don't like it myself) the game works perfectly"
+,lordargento,2011-11-12T08:33Z,"Thnak you very much Azervayne!. You step by step explanation allowed me to install the Peninsular Campaign. But i have e little problem, some of the regiments  (single player-custom battle) of the coalition battle pack, the elite regiments and heroes of napoleonic wars appear duplicated. How may i solve this?"
+,lordargento,2011-11-12T08:35Z,"In the roster they appear duplicated (two cards of the same regiment, even in some cases the cards have lightly different values between them)
+Thank you in advance."
+,NoPicks,2011-12-14T05:51Z,How do you get rid of that silly pirate loading screen it's annoying me alot
+,berk99,2012-01-29T16:43Z,"Yes i agree, tanauser please tell us how we can get back orginal startup screen. Before starting the game i feel like napoleon feel like... epic but when i openning game and that damn pirate screen comes it kills all of my feelings.how i can fix that?"
+,berk99,2012-02-01T11:06Z,"Tanauser, dude are u dead? why dont u reply."

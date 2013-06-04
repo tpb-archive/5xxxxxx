@@ -1,0 +1,39 @@
+Hey! I'm back with another release of V-Ray!
+
+This is the LATEST and PROPER version, no watermarks, no long rendering times, no f*cked up AA - everything works just fine!
+
+So, this is V-Ray 1.5 SP5 x64 for 3DS Max 2011.
+
+
+
+Installation:
+
+
+1.Run installer (vray_adv_150SP5_max2011_x64.exe)
+
+
+2.During installation when prompted choose:
+
+-workstation full
+-local license on machine
+-don't install WIBU keys
+
+
+3.Once installation is complete copy "vray2011.dll" to your 3ds max install folder
+
+(..Program Files - Autodesk - 3ds max 2011) and copy "vrender2011.dlr" (located in plugins folder)
+
+to your 3ds max plugins folder (..Program Files - Autodesk - 3ds max 2011 - plugins) replacing the originals
+
+
+4.Enjoy!
+
+
+
+Have fun, don't forget to seed! :D
+
+
+
+Note:
+
+V-Ray RT 2010 WILL NOT work with this release of V-Ray because they use different versions of ".dll" files.

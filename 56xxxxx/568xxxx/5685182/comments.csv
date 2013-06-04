@@ -1,0 +1,96 @@
+User Type,Username,Date,Text
+,trusselo,2010-07-12T05:13Z,enjoy!
+,uilka,2010-07-22T10:24Z,"Thx for upload!
+But i cant get it to work.
+ive done ass the readme says but when i start the nhaspx program and click nethasp, local, read then ok, it says nethasp not found.
+Ive done exacly as the readme says, isnatll with hdwwiz and applied all the cracks.
+Ive tried it 3 times. im running windows 7 x64
+mastercam x3 has worked for me, 
+can i install x4 withe the x3 instructions?
+Thx for help"
+,zulazu,2010-07-27T15:45Z,"I had same problem as uika.
+nethasp not found. 
+Im also running W7 x64."
+,uilka,2010-07-30T12:13Z,anyboda knows whats wrong??
+,uilka,2010-08-03T22:22Z,anybody got it to work on windows 7 64bit?
+,stuffer,2010-08-11T15:10Z,Is this the one with cracked .exe or something that works?
+,Jaakkima,2010-08-20T10:53Z,"Works on XP32 OK but on Windows 7 64-bit home premium cant get usb-emulator running, it installs but it is its not signed driver and remains es yellow exlamanation status and then mastercam says no SIM found. Anyone solved this problem?"
+,XymonSez,2010-08-26T11:20Z,Works fine here with Windows 7 x64. Use Driver Signature Enforcement Overrider. Google it and follow instructions to get the emulator running.
+,ryno_,2010-08-28T06:00Z,I second the above comment.  It does work great in Windows 7 x64 as long as you use the Driver Signature Enforcement Overrider.  DSEO 1.3b is what I used and make sure you disable UAC in windows also.   I overlooked that dseo needed UAC disabled at first and after 5 minutes of going through the instructions I disabled it and it worked immediately.
+,stv123,2010-09-02T23:43Z,I have tried but can not get it loaded either. Keeps telling me there is no sims loaded. Try to run NHapsX and it finds no hasp. Any suggestions?
+,dglover,2010-09-13T18:29Z,will this work with windows xp?
+,joedesu1,2010-09-30T03:29Z,Can someone write a step by step install?  I cant seem to get that dseo program working right. And i disabled UAC.  After install mastercam says no sim detected. Running windows 7 pro 64 bit  Any help?
+,PartCreator32,2010-10-29T12:55Z,"Thanks Everyone! I had McamX3for about 1 year before I figured out what you were all trying to explain. Got X3 going a month ago, now You gave me X4, Works great, use DSEO. and for some reason, I have to have my ethernet cable pluggedc in ! BUT GREAT JOB, THANKS !!!"
+,scottb08,2010-10-31T17:55Z,"-* Got it working on Windows 7 build 7600 x64 *-
+
+Here's what I did:
+
+1) Open up the run dialog box (start, run) and type hdwwiz
+2) Click next, Select to install hardware manually. Next.
+3) Choose ""Show all Devices"" Next
+4) Select ""Have Disk""
+5) Browse to the ""..\USB-Emul_Win64 folder from this download. Select the vusbbus. Next, let it install.
+
+Additional Notes
+Driver need to be digitally signed
+5a) Don't worry about Windows errors that the driver isn't signed and wont work properly.
+5b) Disable Window UAC (google it)
+5c) Google/download dseo13b.exe
+5d) run dseo13b.exe (run as adminstrator)
+5e) Enable Test Mode
+5f) Reboot!!!
+5g) Once restarted, run dseo13b.exe again (run as adminstrator)
+5h) Sign a system file, put in ""C:\Windows\System32\drivers\vusbbus.sys"" (without quote marks)
+6) Reboot!!!
+
+1) Install mastercamX4-web.exe, use any name for company name.
+2) Select Sim Type > NetHASP
+3) Run ""mastercam_x4_nethasp_crk.exe"", browse to C:/mcamx and select mastercam.exe click start then OK.
+4) Run ""mastercam-dealer-unlim.reg"" to use Mastercam with Delear type of license or ""mastercam-industrial-unlim.reg"" to use it with Industrial  type of license.
+5) Copy mastercam.exe from crack folder and replace the one in C:/mcamx
+6) Go to C:/mcamx and run the NHaspX program. Make sure it is set to ""NetHasp"" for sim type and ""Local"" for mode. Then hit read, then Ok.
+7) Reboot!!!
+8) Enjoy!"
+,PartCreator32,2010-11-22T01:17Z,"Sorry Don't know what was up with the ethernet cable thing, but it works now. Vista 64bit. I used ""DSEO"" to install the driver. When I shut down laptop I lost it, So I Used ""Ready Driver Plus"" to keep Mcam working. Great Torrent Thanks ! I deleted the ""584B4AE9"" folder, runs a few hrs, then the folder pops up again, causing ""NO SIM"". I have to keep deleting the file ! Anyone know how to fix this? I'm in school for Mcam and this program allows me to do my homeork at ""HOME"", not drive 30-40 minutes to school for assignments. THANK YOU EVERYONE ON TPB"
+,PartCreator32,2010-11-24T01:17Z,"Anyone have the same problem of "" SIM LOST "" starting to happen hourly to me ! HELP I'm ready to go back to X3. I have 6 months of school left and I'm spending more time reinstalling HASP than doing homework.   HELP !!! THANKS FOR THE TORRENT THOUGH, LOVE IT !!"
+,ForFun00,2010-12-10T02:18Z,"TAL! it works after fout trials. This is what works for me.  Using WXP, SP3. I have more than two HD.
+IMPORTANT: 
+	Uninstall Mastercam Previous versions
+	Copy the installation files to C:\Mastercam_X4, or AT LEAST the ""USB-Emul_Win32"" or it will not work
+	For faster install, disconnect internet, exit ZoneAlarms and Spyware detector
+
+USB-Emul Win32 Setup (not confirmed if it works or not, not tested)
+
+1) Open folder ""USB-Emul_Win32"" and run ""install.bat""
+2) Wait until system will find and install new devices.
+3) Reboot!!!
+
+1) Install mastercamX4-web.exe, use any name for company name.
+2) Select Sim Type > NetHASP
+3) Run ""mastercam_x4_nethasp_crk.exe"", browse to C:/mcamx and select mastercam.exe click start then OK.
+4) Run ""mastercam-dealer-unlim.reg"" to use Mastercam with Delear type of license or ""mastercam-industrial-unlim.reg"" to use it with Industrial  type of license.
+5) Copy mastercam.exe from crack folder and replace the one in C:/mcamx
+6) Go to C:/mcamx and run the NHaspX program. Make sure it is set to ""NetHasp"" for sim type and ""Local"" for mode.
+	Then hit read (it may say ""Local netHASP not found""), 
+	then Ok (it will open a window telling tht there si not local NetHASP on this computer.....), 
+	click Ok
+7) Reboot!!!
+__________________________________________________________________
+
+2010/12/09, 14:50, OK. "
+,argonblade,2010-12-23T06:07Z,i have tried everything...i have the lastest copy of window 7 x64. disabling the uac does nothing.  running driver signature overrider does nothing.  please help!!!
+,sticky667,2010-12-29T01:18Z,is this upgradeable to add MU1/2/3 and any add ons? 
+,argonblade,2011-01-23T20:48Z,i still need help with 7 x64 any clues?  
+,argonblade,2011-01-28T19:25Z,"got it to work!!
+
+this site helped tons!!
+
+http://thehotfix.net/forums/index.php?/topic/25436-how-to-load-and-run-unsigned-drivers-in-64-bit-windows-7/"
+,CNCDOCTOR,2011-04-10T18:45Z,"anyone having problems use driver ready first, disables driver sig fron boot level, then use dseo.   Does anyone have something to view,edit,write mazatrol programs?"
+,viggy_7,2011-05-28T10:16Z,"This is stupid... It works for me except. Something very stupid. When i start the software, it tells me to accecpt the T/C but there is no YES Button visible. I checked the mHT file its there but it dosent want to show... anyother way to activate?"
+,joanzer,2011-07-15T01:03Z,Can someone pls seed :)
+,joanzer,2011-07-30T17:52Z,"Got it to work. Had to digitally sign all 3 hdwwiz files before installing them. But the program seems broken, trimming a simple line does not work."
+,SoDik_f,2011-10-11T06:27Z,"Got it working on Windows 7  x64 ...!!! 
+NO SIM FOUND  resolved.
+same instructions scottb08 , then : look in Registry  , HKEY_LOCAL_MACHINE  , SYSTEM , CURRENT CONTROL SET , SERVICES ,""VUSBBUS"" / SET DEFAULT REG_SZ     1 (ON)  , and EMU 1 (on)  , reboot  !!   it works for me!!! finally !!! 
+WIN 7 advice  now is working , and in  device manager/system devices  you can see it without the yellow admiration mark .    Hope  it works for you guys !  good luck! "

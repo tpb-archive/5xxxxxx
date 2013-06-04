@@ -1,0 +1,30 @@
+User Type,Username,Date,Text
+,Wulf579,2010-06-18T09:32Z,"Key does not work...Upon reboot after registering with the key provided, AnyDVD says that ""your trial period has ended""."
+,fredpc,2010-07-02T18:20Z,"This is how to fix trial expired
+
+1) Uninstalled the old version of anydvd 
+2) Make sure your disconnected from the net
+3) Install the new anydvd 
+4) If it asks to reboot (do it )
+5) When the computer restarts anydvd will load (you will get trial version) now close anydvd 
+6) Add the key (which is usually a reg key)
+7) Open anydvd and you should have a fully registered version 
+8) If you get ""trial expired"" don't worry move on 
+9) Do a search for anydvd.chk and delete it or rename it to anydvd.bak.......you will have to enable hidden files and folders the locations are as follows 
+
+for xp the location is:
+C:\Documents and Settings\All Users\Application Data\SlySoft\AnyDVD\AnyDVD.chk or anydvd.lic
+
+for vista:
+C:\Program Data\Slysoft\Anydvd\anydvd.chk or anydvd.key or anydvd.lic
+
+for windows 7 the location is:
+C:\Program Data\Slysoft\Anydvd\anydvd.chk or anydvd.key or anydvd.lic
+
+10) Now open anydvd you should have a fully registered version while your there go to settings and disable updates 
+11) You can now reconnect to the net
+12) Enjoy  
+
+ps some of the newer versions are using a anydvd.lic file which can be renamed or deleted
+
+sathanas65..........came up with another option with anydvd.chk file......open with notepad delete entries and save and then right click on anydvd.chk and select properties......then select read only..........this will work as well"

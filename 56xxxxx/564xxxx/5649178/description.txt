@@ -1,0 +1,71 @@
+Supported OS:
+Windows 2000
+WindowsXP x86/x64
+Windows 2003 x86/x64(not tested)
+Windows Vista x86/x64
+Windows 2008 x86/x64 (not tested)
+Windows 7 x86
+Windows 7 x64 (not tested)
+
+
+Defined devices:
+Chipset
+Video
+Audio
+NIC and PCI modems
+HDD Controllers
+CardBus controllers
+USB Devices
+LPT printers
+Serial external modems
+PCMCIA devices
+Some common ACPI device.
+
+Number of drivers found by the program for one or Ina OS depends on the availability of those on the disk (rests on the amount of disk) and loyalty to fill the ways in conformable configuration files.
+Users have all chances to add yourself or remove drivers from the disk and supplement the HWID.
+
+MCS Drivers Disk v 7.5.28.157
++ View the entire list of devices (an attempt to make something like own Device Manager)
+= Very likely turn on / off device
+= Quite likely to remove a device (do not know how much work)
+= Likely to manually install drivers for the device with a dedicated HWID
+= Likely a manual update drivers for the device with a dedicated HWID
++ Find missing drivers on the Internet (in the window manager. Internet must be naturally attached.)
+= Search of a dedicated device controller
+= Search from the main window when you click on devices for which there are no drivers (gray text on buttons)
++ Automatic selective sampling survey of the state of devices (can be disabled in the options for resource consumption percent. By default, every 10 seconds. Minimum value of 5 seconds.)
++ Show CPU in the main window
++ Likely resize the main window and some subsidiaries of windows.
+* Editor of configuration files integrated into the shell.
+* Rewrote the algorithm for creating reports and cutoff takes devices with identical principal ID
+* Optimized code.
+* Repacked driver koie caused emptying paranoid antivirus software on the packer (I hope that all and I do not miss)
+* Upgrading of the drivers to the most recent versions
+* Update language file
+Update database * Device
+* Other minor enhancements and changes (all do not remember)
+- Fix bugs or glitches and bugs, but do know that not all â€¦
+
+With regard to updating the database devices.
+So for updating the database devices.
+[+] Daubal display status
+The algorithm
+
+It works like this:
+1. Select the device type (PCI / USB / PCMCIA)
+2. Specify the folder with the driver and click Update Database
+This database itself is not updated and files are created * devs.upd and * devs.xxx (where â€œ- the type that is pci / usb / pcm and xxx â€“ number of updates. For example pcidevs.067) During the generation status demonstrates yellow triangle and the end of the green or red circle.
+
+Green â€“ new devices are found and added
+red â€“ new devices not found (they presentedin database or the driver for another type of device.)
+
+When are you going to check on the new device a number of folders / drayveov one type (eg pci) then again click Update Database. Files * devs.upd and * devs.xxx will be supplemented by new recordings. And only after you upgrade one device type click Apply. Then * devs.xxx be renamed the database file * devs.txt, and * devs.upd will be moved to the folder C:  Temp called * devsxxx.upd and displayed, so you can propoposmotret change. He then (* devsxxx.upd) and should be sent to the address listed in the file.
+
+Thus you will become one file upd for one type of devices but not a number. Will only remove files buckup-a in the project folder Data  DB type bak_ * devs.xxx This operation until manually
+
+Next, please: Everyone who will update the database devices â€“ submit files to *. upd (are the most recent version of the program in the folder C:  Temp) to the address indication in the files.
+
+--------------------------------------------------------------------------------
+
+To stay update with more downloads use RSS:  
+http://feeds.feedburner.com/OpenCd

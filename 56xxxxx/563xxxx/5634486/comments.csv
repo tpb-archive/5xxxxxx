@@ -1,0 +1,49 @@
+User Type,Username,Date,Text
+,buakia,2010-06-18T03:05Z,thanks...
+,SloveniaX,2010-06-21T23:42Z,I should've mentioned that the only thing missing is the PDF documentation (that's why we're talking 60MB instead of 200+MB)...
+,SloveniaX,2010-06-22T00:14Z,"but the documentation will be downloaded when you update Stata (look in the utilities folder!), so eventually you'll have the full (200+MB) package"
+,wooooooah,2010-07-13T17:58Z,does this have the same problem with dropping variables that cracked versions of stata 10 have?
+,SloveniaX,2010-08-13T08:58Z,"No, no problems whatsoever..."
+,Marie000,2010-09-07T14:29Z,"I get the following message: cannot find Stata directory isstata.110 is missing.
+
+Anything I can do?"
+,SloveniaX,2010-09-07T19:55Z,"not sure what you're doing wrong - I've checked myself and installed Stata on a fresh WinXP machine. works like a charm (the way it should). can also update it, etc. etc.
+
+btw-isstata.110 file is in the RAR archive and should be in the folder where the main executable is. if it's not, check if your AV program is blocking it (or if it deletes it upon extraction)..."
+,Solidarnos,2010-09-30T19:54Z,Normally STATA comes with a 1 year or perpetual license.  Does this version have one this will expire and inactivate the software?  Thank you!
+,Solidarnos,2010-09-30T20:52Z,"Sorry, I meant to say: ""Normally STATA comes with a 1 year or perpetual license. Will this version (license) expire and inactivate the software? Thank you!"""
+,SloveniaX,2010-10-02T04:36Z,No. It's a hacked version that never expires...
+,bongles07,2010-11-01T19:40Z,"Thanks so much for this. It works perfectly! 
+
+However, do you have the 64-bit version of Stata 11 SE? 
+
+Btw, thanks for GAMS as well! "
+,SloveniaX,2010-11-06T19:25Z,"you're welcome :) (nah, 32-bit version is all I have, sorry)"
+,irishimport,2010-11-13T14:39Z,"I have the same problem...a message saying cannot find Stata directory isstata.110 is missing 
+The file is there in the same folder as the .exe file, though no path is listed. What can I do anyone to get it working?"
+,angerb,2011-02-10T09:33Z,"Just wanted to say that this is working really nicely for me on Linux under Wine. Not extensively tested yet, but will report back when I have had opportunity to use it more."
+,waitingmore,2011-03-01T02:57Z,"Thank you very much. It worked but not fully, I couldn't do regressions by this version. Do you know why?"
+,SloveniaX,2011-03-23T17:49Z,"Sorry, but you must be doing something wrong. This is a fully functional version!"
+,Setay11,2011-03-30T21:44Z,"Waitingmore, Slovenia is mostly correct. Follow the instructions that Stata gives you and delete all but the StataAdministrativeTools file in the utilities folder. After you've removed those files, run -updateall- and then follow the instructions to complete the updateswap. 
+
+Then you should be able to do regressions."
+,Setay11,2011-03-30T21:47Z,"If my instructions are too ambiguous, waitingmore; let me know and I'll leave a more detailed solution.
+
+Thanks for the upload, SloveniaX."
+,SloveniaX,2011-03-31T20:34Z,"Thanks for the clarification, Setay11!"
+,Can_23,2011-04-08T20:15Z,"When you use the ""update all"" command, doesn't Stata get all your information and notices that you're using an invalid license? Thank you!"
+,SloveniaX,2011-04-12T05:43Z,nope...
+,feeltheplur,2011-05-18T05:59Z,"Thanks SloveniaX, works perfect!"
+,feeltheplur,2011-05-18T06:00Z,"thanks SloveniaX, it works perfect!"
+,SloveniaX,2011-05-21T07:46Z,"ahahahaha, it's been a long time since I heard PLUR for the last time :)"
+,boppingbop,2011-07-21T16:38Z,"For the licence file valid for 
+
+Stata MP 64bit (4-core)
+
+click link below:
+
+h t t p colon slash slash adf period ly slash 29NnX"
+,SloveniaX,2011-08-07T19:39Z,"my guess is that the license supplied with this torrent should work with MP version too. it's the application itself (i.e. MP binary executable) that we need... but thanks anyway, I'm sure it'll help someone out there! "
+,SloveniaX,2011-09-22T23:25Z,"32-bit MP version: http://www.stata.com/support/updates/stata11/win/ (follow the instructions in this torrent, then just do what the website tells you to, i.e. replace the executable (dont touch anything else). works great!"
+,SloveniaX,2011-09-23T00:29Z,http://thepiratebay.org/torrent/6694811/Stata_32-64_SE-MP_executables_only
+,SloveniaX,2011-10-20T10:42Z,http://thepiratebay.org/torrent/6757811/Stata_12_%28all_flavours__32_and_64_bit%29

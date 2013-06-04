@@ -1,0 +1,24 @@
+- Name: rarlinux
+
+- Version: 3.6.0
+
+- Platform: GNU/Linux [All Versions]
+
+- Format: tar.gz
+
+Complete support for RAR, 7zip, and ZIP, compress 8 to 30 percent better than ZIP!
+
+Winrar for Linux will add a .rar option in your "create archive"/"compress" drop down menu.  Splitting files is supported along with password protection.
+
+Installation Instructions (run as root)
+o Open Terminal
+o cd to directory containing rarlinux-3.6.0.tar.gz
+o extract archive using "tar xzf rarlinux-3.6.0.tar.gz" (without quotes)
+o cd to extracted folder (will be named "rar")
+o execute the following commands
+- mkdir -p /usr/local/bin
+- mkdir -p /usr/local/lib
+- cp rar unrar /usr/local/bin
+- cp rarfiles.lst /etc
+- cp default.sfx /usr/local/lib
+o Done!!

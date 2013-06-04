@@ -1,0 +1,551 @@
+User Type,Username,Date,Text
+[T],JugzG0nn4G3tY4,2010-07-07T22:42Z,Worked Flawlessly. +1
+,belentani,2010-07-08T05:19Z,"""iAtkos s3 Snow Leopard 10.6.3 intel/amd""
+
+Intel/AMD or only Intel?
+""Mac OS X Snow Leopard 10.6.3 Intel OSX86 DVD""
+
+?"
+,mariojuniorjp,2010-07-09T07:30Z,"Seed Please!!! Seed Please!!!nnJust finished downloading the file, be as seed and not limit the upload rate ??"
+,vintagesport,2010-07-09T10:07Z,"-----------------------------------------------------nhttp://uphuck.ggrn.de/forum/viewtopic.php?f=54&t=12269nn-----------------------------------------------------nnnREAD PLEASE..nnWelcome all..nnThis is the iATKOS S3 Snow Leopard 10.6.3 Intel Installation DVD readme, this is the 2nd version of S3..nnThe oscar goes to Apple and OSX86 community..nnMaster support from my friend Pere..nnThanks to all OSX86 community and all the computer guys that shared their ideas, gave feedback, reported errors and even fixed them sometimes.nnAnd @zapf2000, thank you for all of your supports, cheers to ggrn.de people again..nnSpecial thanks to all of our operators for making our forum a useful place..nnAnd finally thanks to nice EvOSX86 and OSX86.T?rk people..nnnuphucknnnnAttention:nn1- This DVD is designed for Non-Apple x86 Intel CPU computers.nnRequirements for OSX86:nnMinimum: Compatible motherboard, Intel SSE2 CPU, 512MB RAM, 15GB free space on target partition, compatible VGA card.nnRecommended: Intel Core CPU, 1GB RAM, 15GB free space on target partition, Snow Leo compatible nVidia 6600 or newer / ATI X1900 or newer / Intel GMA 950 or X3100 VGA card.nnMotherboard (the most important part) should be compatible for booting iATKOS S3 DVD and installing natively.nn2- This DVD includes Apple\'s Mac OS X Leopard 10.6.3 (10D573) installation, some basic drivers and x86 patches.nn3- IMPORTANT NOTICE - Make sure that the md5 checksum of your iATKOS iso image matches the one posted on our website. Do this MD5 check just before mounting or doing anything with the iso image! Otherwise you may have a faulty DVD image. Use quality media/burner and burn slowly.nn4- MAKE SURE YOU TAKE NOTE OF YOUR Hardware IDs, Device IDs and device names before installing this system. This is very important. If you aren\'t sure what devices/hardware you own nor its IDs, then 3 options:n-Boot iATKOS S3 DVD, run \""Hardware Info\"" from Utilities menu and take notes.n-Fire up a Linux Live CD (ie. Ubuntu Live CD), type \""lspci -nn\"" in terminal and take notes.n-Windowsers, get Everest Ultimate Edition and take note of your hardware.nn5- Do a google search or surf to InsanelyMac, Hackint0sh, our forum, related OSX86 sites or wiki to find out if your hardware is supported or not. Do this for every piece of your hardware (vga card, ethernet card, motherboard etc.). OSX86 does not support a wide range of hardwares like Linux and Windows. Make sure that it is supported before you install. This is very important because after installation you may ask like \""how can I get this hardware to work\"" and people would simply slap you with \""it will never work\"". This little search will avoid your frustration and anger! Extending your lifespan!nn6- If something goes wrong, please don\'t panic, Scroll down for the Troubleshooting guide. If that fails, take a screenshot (or a picture) of what went wrong and post it in the forums. Make sure you have done the 3 Revival steps and troubleshooting steps before posting in the forum!nn7- Do not forget one thing: IF THE INSTALL ENDS WITH SUCCESS, THEN MOST LIKELY IT CAN RUN ON YOUR HARDWARE. This means if you have a major booting error after installation like kernel panic, \""still waiting for root device\"" error, hang on grey apple screen etc. then this is mostly related to your faulty selections during install, read the instructions carefully and do a very basic install until you boot your new system with success.nn8- iATKOS wallpapers and icons are made by @denizckosar :)nnnInformation:nn- 64-bit/32-bit thing:nMac OS X Snow Leopard is a hybrid operating system which can boot in both 64-bit and 32-bit modes. This iATKOS S3 release boots in 64-bit by default, if you select the 32-bit package or any of the 32bit-only driver(s) then the system will boot the kernel in 32-bit by default.nTo load a driver/module/kext in 32-bit (i.e. a 32-bit only driver) you must boot the system in 32-bit, vice versa for 64-bit. All of the drivers and patches except the 32-b"
+,mrlamort,2010-07-16T14:35Z,Thanks !!!!!!! nIt work fine on my Asus P5QLD-PRO with Intel CORE 2.
+,Chappy5th,2010-07-30T05:13Z,MY UPLOAD IS FASTER THAN MY DOWNLOAD?!?!?! SEED PEOPLE!
+,Ridemywideglide,2010-08-01T04:55Z,"I've downloaded this 3 times today and all I get is multipart or corrupt zip when trying to open.
+Is there somewhere I can get a good copy?"
+,Corininha,2010-08-09T02:21Z,"@usamapk Yes, I did. Works just great. Installed twice, as I never used osx86 before. Is just amazing. I upgraded (also twice) to 10.6.4. Apart from this upgrade were 6 more. iTunes, java and few more. Sound is perfect, everything is just perfect. Except one little thing that pisses me off. Any help highly appreciated!
+My problem is Preview returns a blank (white color) screen. The images look good as thumbnails on my desktop or if I open them with Safari , Firefox or even Adobe Lightroom 3. But the (default) preview simply wont work. Needless to say I can't capture screen. Makes the photomachine click sound, but that's all. Is never saved as an image. And I did all the ""delete pref in home --- Library --- Preferences ---- systemconfiguration"". I did it all, I checked the ""force 32 bit"", I even tried in safeboot, in 32, in 64, every(damn)way. :) I can't get it work. I would like to know if the devs know about this problem, because at this point I see 2 possibilities: 1)Rather I had to check something else in the bootloader (efi, whatsoever) where the patches, drivers and the rest is,
+or
+2) Is a problem with the distribution. 
+
+As I said never ever knew how a os x looked like (on some system) till yesterday. And I would really need some help, pretty please!"
+,Corininha,2010-08-09T14:03Z,"Update: I think my problem is the video card and the rendering. Is not recognized. Is Intel gma945 
+I saw different tutorials, but I didn't actually SAW somebody saying they DID make it work 3D, quartz and all... There are few workarounds for gma950. Is strange that my physical board is 945 but lspci reads it as 950 and the vendor ID leads me to 950. I am sure is 945. :-??"
+,zena_1989,2010-08-18T09:01Z,"my keybord and Mouse dosnt work after complet instal 
+any one can fix that????"
+,fpmedia,2010-08-20T09:48Z,"what kind you're use?
+ps/2 or usb?? may you need usb...
+
+because usually the ps/2 isn't detect on mac, or may be you can use voodoo ps/2
+
+or try using usb mouse and keyboard.
+i never trying iaktos s3,  i only can on leopard"
+,superloadedcat,2010-08-27T09:14Z,"if you get a .zip error like its a damaged or part of a mutlipart zip then:
+
+dont use winrar or winace
+
+right-click and Open With -> Windows Explorer 
+
+then you can copy paste it out. worked for me under windows 7 , i could not extract it with any other archive app besides builtin windows explorer"
+,Corininha,2010-09-03T00:23Z,"Thank you so much iAtkos! My problem was the 945g Intel onboard. After upgrading it to geforce 9500GT Super+ it works like a charm! Is amazing. My hachint0sh was around 370 euros:D:D:D 
+I just upgraded to 10.6.4. Were 7 updates and after those I have 2 more updates. Graphics update and security update. I'll do just the Graphics Update for now. Is 69.2 MB.
+
+Thanks again iAtkos team for all the hard work. 
+
+I "
+,Morenado,2010-09-04T22:03Z,"I have a 
+Medion Akoya E1210(which is based on the MSI Wind)
+Manufacturer : Medion  
+Model name : Akoya Mini  
+Model : id E1210  
+CPU type : Intel Atom (Diamondville) 
+CPU speed : 1600 Mhz  
+Graphics: Intel GMA 950 (mobile 945GME   ??)
+OS Windows  
+Display Size  :10.2"" 1024 X 600 
+RAM:  1024 MB 
+Hard Disk : 80 GB SATA
+Keyboard YES 
+Mouse Pointer YES 
+SD card slot YES
+Ethernet 10/100 Realtek
+VGA 
+MIC-in 
+Line-out / Headphone (3.5mm) 
+USB2.0 (x3) 
+Webcam :Bisoncam
+WIFI : Ralink RT2860
+Audio n10/ich 7 family HD audio controler
+
+
+External Drive : Optiarc Bd Rom
+
+
+- 3 Iatkos S3 v2   Intel (only)    Mac Os X Leopard 10.6.3
+
+
+im trying for weeks , but something is wrong with my settings
+
+After successful installation, restarts and the white/gray screen with the apple, please i need some help"
+,Corininha,2010-09-16T17:58Z,"@morenado. happened the same to me. At start try different boot settings. Alternate between fail/safe defaults and optimized defaults.
+
+945GMA gave me lots of problems. You will never be able to use Preview with it. Or make screen captures (just to name something).
+
+As long as it takes lots to FIRST boot, is OK! As long as under the apple gray logo u see the arrows moving. If not, check the bios settings. Surprisingly it worked for me. :)
+
+Good luck! "
+,Neflem,2010-09-19T13:44Z,"@Corininha
+
+I have Lenovo X60 noteboke and it has the Intel 950/945 graphic card.
+I works flawlessly acceleration and all.
+You just need the correct ""kext"" for your device.
+
+The link below should help those who have this card and do not or cannot ""swap"" it out.
+
+http://uphuck.ggrn.de/forum/viewtopic.php?f=7&t=2970"
+,Corininha,2010-09-19T21:31Z,"Hey Neflem.
+As in the forum:
+""by Pere on Fri Nov 07, 2008 5:16 pm
+
+ThatÂ´s correct for laptops, but not for integrated graphics on desktop motherboards....""
+
+btw, my device ID is/was 27ae. Is onboard on a desktop system. Willing to try any (other) kexts and to report back. Even if I am extremely happy with my new nVidia GeForce 9500 GT I am always up for a challenge. For the sake of technology:P"
+,mfdali01,2010-10-07T14:34Z,I am trying to install this on Toshiba Satellite E105-S1402 laptop. Does not work. Stops during installation. Any suggestions ?
+,mfdali01,2010-10-07T14:37Z,"I am trying to install this on Toshiba Satellite E105-S1402 laptop. Does not work. Stops during installation. Any suggestions ?
+
+My Specs :
+Core2Duo P8400 2.26 Ghz.
+4 GB RAM
+320 GB HDD
+ICH9 Chipset
+Intel GMA4500
+Intel 5100n Wifi
+Realtek HD Audio
+Card Reader
+
+Insyde H20 Bios, Version 1.80"
+,mfdali01,2010-10-07T14:40Z,"I am trying to install on Toshiba E105-S1402 Laptop. Does Not Work.
+
+My Specs :
+Intel Core2Duo P8400 2.26 Ghz.
+4 GB RAM
+320 GB HDD
+ICH9 Chipset
+Intel GMA4500
+Intel 5100n Wifi
+Realtek 8168 LAN
+Realtek HD Audio ALC268
+Insyde H20 Bios, Version 1.80
+
+Any Suggestions ?"
+,SuXuS,2010-10-16T00:30Z,"I've installed it on my pc on a VM and it worked well, but when I started the OS I see a message saying ""there's no keyboard detected.. blah blah"".. what do I do?"
+,FkCrapple,2010-10-23T22:41Z,"Worked for me:
+Using HP DV9000, Intel Core 2 Duo, 2 gig RAM, ATI Radeon laptop.
+
+Before installing, I clicked on the Custom button and (in addition to the existing selections) I selected:
++EVO Enabler
++Sleep Enabler
++ATI 48xx
++ATI Framebuffer
++Laptop HW
+
+Unselected:
+-AppleACPIThermal
+
+On first bootup, you must type -x cpus=1 at the boot prompt. Then, go to the /System/Library/Extentions and remove ATIRadeonX2000.kext (because this was causing a kernel panic for me.)
+
+On subsequent bootups, you must always use cpus=1
+I recommend you also use -v just in case you are getting kernel panics"
+,Tory13579,2010-10-30T02:44Z,"Did not work... 
+
+it booted from the dvd, grey screen with the Iguana came up, gives me a NULL error it flashes the white apple screen then reboots my computer."
+,tolgay007,2010-10-31T16:20Z,Seed please :(
+,Azpire,2010-11-03T12:15Z,"I installed this pretty easily BUT there was pretty much ""couldnt load"", and ""failure"" messages during the boot of the installation. And the system takes ages to start so i guess i've done something wrong? I screw up something so now i have to reinstall anyway..
+
+Im using Asus P6T Deluxe V2, i7 920, HD4890 and iBoot CD.
+
+Installed on a IDE drive because the installation didnt list any of my sata disks =/"
+,Azpire,2010-11-05T15:36Z,"nvm, got it working perfectly!! Dont use any boot cds, its one bootloader included in this dvd.
+
+I have the Asus P6T Deluxe V2 and all i did was turning off hyperthreading and changed to 1 core in bios and booting up with ""busratio=20 cpus=1 -v -f mach_970"".
+
+Works really good, thanks a lot!!"
+,tushar199,2010-11-20T14:10Z,"Awesome.. working version...
+hey i have same problem as ""Corininha"" stated.. can anyone tell me how to get it right... 
+i have Palit GT 240 1GB DDR5 graphic card..  only preview and grab are not working rest all is working fine.. 
+Thanx for the uploader"
+,PrincePwn,2010-11-20T14:29Z,"Worked great on my HP Pavillion af66 whatever, with an Nvidia 9400GT 1GB! Dual monitors."
+,Corininha,2010-11-22T16:14Z,"@tushar199 
+
+Mine is Palit too;). I will tell you the configuration that works to me. Everything working. Including my webcam (microsoft LifeCam VX-800). 
+
+You can't say ""everything is working"" because if PREVIEW or SCREENCAPTURE is not working, means YOU DON'T have Quartz Extreme working. Therefore no video either. To know if you have QE enabled and working take a look at the status bar (the one with the apple logo and clock). If is semi-transparent, then it works. Chose a multicolored background to realize this better. 
+
+If that is not semi-transparent, my guess is the screen resolutions are wrong too. Probably you have ONLY one option in System Preferences >>> Hardware >>> Displays. 
+
+WHat worked for me was:
+
+
+Boot loader:
+-AsereBLN
+Bootloader options:
+-ETHERNET 
+Patches:
+-Extra Directory
+-fakesmc
+-DIsabler
+-RTC
+Modified Kernels:
+-qoopz 10.3.0
+Drivers:
+-AHCI SATA
+-INTEL SATA/IDE
+Sound (both)
+-Voodoo HDA
+-Apple HDA (I NOW install without VOODOO HDA because on their site there is a better and newer version that I install right after OS X is up and running)
+PS/2:
+-VOODOO PS/2
+CPU Power Management:-voodoo P-State
+VGA:
+-nVidia DVI/VGA (to match your input, output. My guess is it's the same)
+NO ENABLERS AT ALL!!!!!
+Network:
+-Realtek>>>Wired>>>RTL8139 (again, match yours).
+
+
+Install and I hope you are done!
+
+ I found RC5 to work too, but not the way asereBLN works. Works all great here and I will show you how my video card is seen in ""about this mac>>>more info>>>hardware>>>Graphics/Display
+
+http://imm.io/media/2b/2bHb.png
+
+The forum where most info I found is:
+http://uphuck.ggrn.de/forum/
+
+
+Good luck and let us know!
+
+"
+,rysher,2010-11-23T09:36Z,"Hi! Well, this must be a lame question at all, but since i installed this edition, (working ""perfect"") i can't boot in without boot DVD. There's any solution to fix this issue please? Thanks."
+,rysher,2010-11-23T09:40Z,Deleting my comment isn't means help.. :) Please answer.
+,rysher,2010-11-23T09:43Z,"Sorry, just bugged. Also sorry for spam. :)"
+,rysher,2010-11-24T11:56Z,"But the problem still exists, anyone experienced same or similar stuff?"
+,PROTEOUS1,2010-11-25T10:18Z,"Confirmed Working: 
+GUID Partition works very well
+
+ASUS COMMANDO Motherboard
+Pentium 4 3.8Ghz EM64T
+4GB DDR2 Crucial Ballistix Ram
+1GB DDR2 NVidia 9500GT
+Creative Sound Blaster Audigy 2 se (not working,no kext available yet)
+
+Replaced with an old C-Media card 
+
+Used kext helper B7 to install the driver from : http://www.kexts.com/
+
+(CMI8738PCIAudioDriver kext )
+
+Now I have fully working sound in/out and Mic .
+
+SETTINGS I USED:
+
+Boot loader - Use Chameleon v2 RC5 (uncheck all others)
+
+Boot loader Options - 32bit boot
+-Graphics Enabler
+USB - usb fix
+
+PATCHES -Extra directory (Uncheck this or it will not install ) 
+
+- fakesmc
+- disabler
+- RTC-RTC (choose first one)
+
+MODIFIED KERNELS - qoopz 10.3.0
+
+DRIVERS :
+
+MAIN HARDWARE - SATA/IDE - Intel SATA/IDE
+
+UNCHECK THE SOUND ( Important ) It will not work with this checked.
+
+You can load the driver kext for your card later manually with kext helper B7 
+
+UNCHECK VGA
+
+NETWORK - Wired - Marvell - Marvell Yukon 88E8001
+
+ANYTHING ELSE LEAVE AS IT IS.
+
+It will update to 10.6.4 from combo update by going to the apple website and downloading from there.(you will need this before you can update to 10.6.5 ) 
+NOTE :The 10.6.5 update knocks out the USB's Here's the Fix.
+
+To update to 10.6.5 : Open Finder- Open your drive- Open System- Open Library- Open Extensions- find IOUSBFamily.kext and copy it to desktop.
+Go to the Apple website support page and download and install the 10.6.5 update not the combo one. Do not reboot. Open kext helper b7 ,drag the IOUSB.kext and drop it in the box,hit easy install. reboot you should have no usb problem.
+
+Reboot until the chameleon shows press f 8 choose the first apple and press the down arrow and choose to boot with -v -f 
+
+Hope this helps a few people
+
+>"
+,arezz09,2010-11-25T12:37Z,"i have problem when burn this iso..
+can anyone help me.."
+,arezz09,2010-11-25T12:41Z,"what software & speed i need to burn this iso...
+i get error when burn this iso..
+anyone can help me"
+,PROTEOUS1,2010-11-25T13:02Z,"You'll need Ultra ISO and burn at slow speed about 4x .
+Ultra ISO is the only one Ifound that opens the image properly. 
+Use a dvd -R Disk Icouldn't get it to burn with the +R type
+
+Good Luck!"
+,arezz09,2010-11-29T10:55Z,"i choose chameleon rc5 during install iatkos s3, after i restart i can boot my laptop but my chameleon rc5 loader be like old chameleon rc1...
+the option to boot only using text, not with theme...why is't happen...anyone help me here..plezzz"
+,TN-048,2010-12-01T00:05Z,"Think it'll work on any of these systems?
+
+*Dell Dimension 8300 (Desktop)(Stock everything)
+
+*Acer Aspire 5810 TZ (Notebook)(Stock everything)
+
+*Intel SE7501BR2 server board with Nvidia GeForce 9500 GT, WD Elements 160GB HDD 3gb RAM, 2x Intel Xeon @2.4 GHz (hyper threaded)
+
+All three can handle Windows 7 if that helps any.
+I just have terrible internet speed (~100Kbps) so I want to make sure..."
+,arezz09,2010-12-01T10:51Z,i always get grey screen if i do smthing like install kext or anyelse...do u know what is problem
+,PROTEOUS1,2010-12-03T01:05Z,"(I thank "" Corininha ""above for the excellent advice.) Please by all means ,check it out.
+
+This link will take you to the site where you can register if you want.
+
+http://uphuck.ggrn.de/forum/
+
+There you will find a forum on the s3 DVD and a sub forum on successful installs posted, with information on different systems and settings used.
+"
+,TN-048,2010-12-11T20:07Z,"Ok I went ahead and downloaded this. It didn't work on either of my towers but it went beautifully on my Acer. I used system ugrade to go to 10.6.5 and all it broke was USB and video drivers. Those were an easy fix, all I had to do was download new ones and reinstall them. The only things that don't work (yet) are sleep and quartz extreme. Everything else works great! Kudos to the iATKOS team! "
+,johnlen97,2010-12-16T17:34Z,"I Accidentally deleted the word file :(
+Could You please upload that alone?"
+,Corininha,2010-12-16T18:06Z,"Welcome Proteous1. 
+
+Glad everything works fine. 
+I broke the USB with 10.6.5, I tried to fix it but I got tired and quit. 
+Now I'm back @10.6.4 
+
+I will wait for Lion:)))) "
+,Corininha,2010-12-16T18:11Z,"Rysher. Happened to me on my Pentium 4 and Leopard (IATKOS 5).
+
+it was all about marking the partition as ACTIVE. 
+This site should be your Bible: http://www.insanelymac.com/
+
+The thread about how to set your partition active:
+http://www.insanelymac.com/forum/index.php?showtopic=22844"
+,cybertronics,2010-12-17T11:00Z,Works Perfectly. On Fujitsu Siemens Esprimo
+,PROTEOUS1,2010-12-19T11:42Z,"If you go to :  http://www.kexts.com/
+Under Misc Downloads,about the 11th post on the list is 10.6.4 USB. 
+(You may have to register to download ,it's free)
+
+Download this then run the 10.6.5 installer(make sure it's not the combo) but do not reboot
+ Use the kext helper to install the 2 kexts contained in the file.
+Kext helper will prompt you to reboot once it finishes Sometimes it requires a force quit.
+
+When it reboots hit f8 when you see that goofy lizard  hit the down arrow key and choose the -f option
+Good luck!"
+,Corininha,2011-01-03T17:58Z,I'll give it a try today. Happy New Year!
+,derda2,2011-03-17T15:56Z,"says ""STALLED"" What's going on? 
+
+Would this work for OpenGL games with my Geforce 8800GTS 512MB???
+If yes, what options at install to check?"
+,Mr.Cl,2011-03-21T14:57Z,is that english??
+,Rockleon,2011-03-24T04:53Z,"i am getting a grey screen box that says ""hold the power button to switch off and then restart""
+
+It is coming in four languages 
+
+ Anyone any ideas where i went wrong ??
+
+Please reply fast"
+,LH-TAIMI,2011-04-10T21:42Z,i cant install boot loop mode :D
+,serinho,2011-04-27T17:53Z,"i have the problem when i turn on computer and when they want to get the system just restarts
+find me on youtube Serinhodj and tell me how can i fix the problem i  have the video on youtube"
+,Shoobox,2011-05-30T22:22Z,"doesn't work, followed everything when OSX restarts: I see the gray background with apple and round loading gif, then after goes black.
+
+is this﻿ because my lcd is installed on pci-e and not using onboard video?"
+,PROTEOUS1,2011-06-02T11:36Z,"MINIMUM REQUIREMENTS 
+
+- Intel Processor that has SSE2/SSE3 support
+ - 512 MB RAM
+ - 128 MB Video
+ - 15 GB of free disk space
+ *Recommended Processor: 
+Intel Core (some pentium 4's will work) 
+- 1 GB RAM
+ - 15 GB of free disk space
+ - A COMPATABLE nVidia 6600 or higher / ATI X1300 or higher / Intel GMA 950 or X3100 graphics card.
+
+PLEASE DOWNLOAD A PROGRAM CALLED EVEREST!!!
+ EVEREST SOFTWARE WILL TELL YOU EVERYTHING ABOUT YOUR SYSTEM SO WHEN YOU ARE CHOOSING FROM THE INSTALL OPTIONS ,YOU'LL KNOW WHAT TO PICK BECAUSE YOU'LL KNOW WHAT YOUR SYSTEM HAS .
+
+Knowing all about your own computer is the key to everything. Patience gives you the ability to use the key.
+"
+,Shadysmurff,2011-06-03T07:50Z,Guys... is this http://thepiratebay.org/torrent/5996525/Mac_Snow_Leopard_for_PC_s__iATKOS_S3_v2.zip the same one as this????
+,PROTEOUS1,2011-06-05T11:43Z,"MAYBE THIS WILL HELP. IT'S FROM THE BEGINNING INSTALL INSTRUCTIONS ON THE DISK. 
+
+
+Requirements for OSX86:
+
+Minimum: Compatible motherboard, Intel SSE2 CPU, 512MB RAM, 15GB free space on target partition, compatible VGA card.
+
+Recommended: Intel Core CPU, 1GB RAM, 15GB free space on target partition, Snow Leo compatible nVidia 6600 or newer / ATI X1300 or newer / Intel GMA 950 or X3100 VGA card.
+
+Motherboard (the most important part) should be compatible for booting iATKOS S3 DVD and installing natively.
+
+2- This DVD includes Apple's Mac OS X Leopard 10.6.3 (10D573) installation, some basic drivers and x86 patches.
+
+3- Make sure that the md5 checksum of your iATKOS iso image matches the one posted on our website. Do this MD5 check just before mounting or doing anything with the iso image! Otherwise you may have a faulty DVD image. Use quality media/burner and burn slowly.
+
+4- MAKE SURE YOU TAKE NOTE OF YOUR Hardware IDs, Device IDs and device names before installing this system. This is very important. If you aren't sure what devices/hardware you own nor its IDs, then 3 options:
+
+-Boot iATKOS S3 DVD, run ""Hardware Info"" from Utilities menu and take notes.
+-Fire up a Linux Live CD (ie. Ubuntu Live CD), type ""lspci -nn"" in terminal and take notes.
+-Windowsers, get Everest Ultimate Edition and take note of your hardware.
+
+5- Do a google search or surf to InsanelyMac, Hackint0sh, our forum, related OSX86 sites or wiki to find out if your hardware is supported or not. OSX86 does not support a wide range of hardwares like Linux and Windows. Make sure that it is supported before you install. This is very important because after installation you may ask like ""how can I get this hardware to work"" and people would simply slap you with ""it will never work"". This little search will avoid your frustration and anger! Extending your lifespan!
+
+6- If something goes wrong, please don't panic, Scroll down for the Troubleshooting guide. If that fails, take a screenshot (or a picture) of what went wrong and post it in the forums. Make sure you have done the 3 Revival steps and troubleshooting steps before posting in the forum!
+
+7- Do not forget one thing: IF THE INSTALL ENDS WITH SUCCESS, THEN MOST LIKELY IT CAN RUN ON YOUR HARDWARE. This means if you have a major booting error after installation like kernel panic, ""still waiting for root device"" error, hang on grey apple screen etc. then this is mostly related to your faulty selections during install, read the instructions carefully and do a very basic install until you boot your new system with success.
+
+
+Personal note: You will need to COPY the ""IOUSBFamily.kext"" + ""THE IOUSBMassStorageClass.kext"" TO A FOLDER ON YOUR DESKTOP!
+
+DOWNLOAD A FREE PROGRAM CALLED ""kexthelper b7"" you will need this to reinstall the kexts after the10.6.5 update before rebooting!
+
+You will find them in :SYSTEM>LIBRARY>EXTENSIONS 
+
+This is because when the 10.6.5 update is installed it breaks the usb.
+
+You will need to download and install the 10.6.4 update first and reboot. Then download and install the10.6.5 update and install BUT DO NOT REBOOT!!!
+Drag the kexts to kexthelper click easy install and then when it tells you reboot.Usually takes a minute or 2 .wait for the prompt onscreen and continue to force quit and it will reboot with the update installed .
+Updating from there is no problem.
+
+CHECK OUT http://www.osx86project.org/ FOR MORE INFORMATION"
+,cariza,2011-07-07T00:01Z,SEEDDDDDDDDDDDD
+,cariza,2011-07-09T07:47Z,Non-System disk...
+,PROTEOUS1,2011-07-12T08:35Z,"TtHE OLDEST AND FIRST RULE OF BATTLE WHEN ENGAGING WITH A SUPERIOR FORCE IS.....WHAT??????
+DIVDE THE OPPOSITION AND CONQUOR IN PEICES!!!!!!!
+THAT'S WHY NO ONE SEEMS TO BE SEEDING BUT THEY ARE .PATIENCE IS NOT ONLY A VIRTUE IT'S A DELAY TACTIC. BE PATIENT!
+WHAT HAS BECOME OF HACKERS ?.... HAVE YOU ALL JUST BENT OVER THE BARREL WAITING FOR BILL AND STEVES HIGH PRICED EXECS TO BRING YOU THE WHAMMEY???"
+,musabhai6012,2011-07-28T19:18Z,"Will this version work for core i7 processor??
+I have s3 v2, but that doesn't work.."
+,PROTEOUS1,2011-08-02T21:24Z,"This is s3 v2....says so right up top under where it says download this torrent.
+Try   TonyMac    "" iBoot""     for your i7 System.
+
+But,...I don't think it'll do much good if you can't read what's right in front of you.  You shouldn't be left alone with a spoon ,never mind a friggin computer."
+,XxOblvionxX,2011-08-04T18:09Z,"Is the latest iAtkos S3 v2 compatible with?
+OPERATING SYSTEM:
+Windows 2.6.1.7601 (Service Pack 1) 64bit
+
+CPU TYPE:
+IntelÂ® Coreâ„¢ i3-2100 CPU @ 3.10GHz
+
+CPU SPEED (GHZ):
+3.12
+
+SYSTEM MEMORY (GB):
+7.98
+
+VIDEO CARD MODEL:
+NVIDIA GeForce GTX 550 Ti
+
+VIDEO CARD DRIVER:
+nvd3dum.dll
+
+DESKTOP RESOLUTION:
+1440x900
+
+HARD DISK SIZE (GB):
+425.44
+
+Motherboard:
+z68a d3 b3
+
+so the issue is that i restart the comp and load the disk and all and when the apple logo appears, it just waits a minute and then the circle with the line crossed in it appears., the NO symbol.
+
+I tried the following:
+
+-v
+arch=i386
+arch=i386 -v
+arch=i386 -force 64
+
+nothing, so
+may I appreciate your answers please?"
+,XxOblvionxX,2011-08-06T18:42Z,anyone? please? I downloaded this and all but that horrid NO sign appears with any command I put :c
+,oliverjj,2011-08-27T15:57Z,hi does it work on compaq 6720s?
+,takiyagenji,2011-09-12T22:38Z,seed plz sankyu
+,takiyagenji,2011-09-13T22:10Z,what do i do with the Md5? i'm using poweriso to burn but what do i do with the md5? sankyu for the help :D
+,G-skill,2011-09-28T16:03Z,"work good on my system i show many board that run this iAtkos
+P5G43T_M_PRO
+P7H55D-M EVO
+P8P67 etc...........
+this iAtkos 10.6.3 i can show u more board that suppot this version  antec10@yahoo.com"
+,prashu85,2011-10-03T23:32Z,"i have intel core 2 duo processor 2.1 ghz
+2gb ram 
+intel gma4500 
+will it work and how to install"
+,hacker808,2011-10-05T20:59Z,"fore me every thing works perfectly except the graphic (resolution) and the Ethernet 
+im using 
+Intel GMA4500 accelerator
+what do you people suggest to fix my resolution because on windows 7 i get 1440x900 plez reply"
+,kostic.dk,2011-10-25T17:05Z,"Work 99% on Toshiba L40-14F
+Wi~fi don't work :("
+,wmatt1983,2011-11-19T00:00Z,"After installing, when I reboot into the OS, I can hear the music for the intro video playing but the screen only shows the gray apple screen. The mouse works but the cursor can only be seen at the edges and seems to disappear ""under"" the apple load screen (where the video is playing I presume). Is there a way to fix this. I can run 10.5.7 Leopard fine on my machine. If it helps I am running a Lenovo R60E core2 duo E7500 with an Intel Mobile 945 express chipset."
+,puchu12,2011-12-29T07:36Z,"@@PROTEOUS1 : plz help.....i m inable to install it ..plz view the link for details error preview.....plz help dude......
+
+http://www.osx86.net/10-6-snow-leopard/13413-need-help-installing-iatkos_s3_v2-snow-leopard-10-6-3-a.html#post91508"
+,802boob,2012-01-01T08:11Z,"Got this working on a Dell Vostro 200 with no video card settings and no Ethernet.   
+
+Mobo- FoxConn G33M (02) -02 is the OEM Dell branch.  I got most the specs from Manufacturer.  With the install the only changes I made were in the IDE controllers.  Installed Intels.
+
+-
+Other configs may make the settings work with video settings but I tried the Intel x3100 which is supposedly the onboard for the G33M and it didn't work.
+
+I am used to the hang ups in the Apple Spinning thingamadoodle, but I waited this time about 3-5 minutes and it booted to Setup options.
+
+----
+
+Update -
+
+New Progress!
+
+Slamed the Foxconn Dell OEM G33M02 into a Dell Dimension 4700 case due to lack of the Vostro space.  The proprietary skinny pci cards did not benefit my 3 party realtek 8139 pci card for normal size form factors.  From here it was a obviouse solution, I customized the Lan install to accomidate and walla!  Interwebs!  
+
+The other big revelation is the 9800 GTX+ I installed by a ball hair in the case to function with an actual full on Welcome intro after a successful install of Mac OS.  After the install It skips the Intro if you have no graphics support I assume right to language selection. I achieved that by simply adding the nvidia install customizations.
+
+iLife 11' functions great
+
+
+---
+
+Next update will be trying to update to 10.6.8
+"
+,daggard,2012-01-08T16:05Z,"Hi All,
+
+I have a HP Pavilion 061 with hardwares as follows:
+
+
+- MotherBoard: Asus PTGD1-LA (3 PCI, 1 PCI-E x16, 4DDR DIMM, AUDIO, LAN, IEEE-1394)
+
+- MotherBoard Chipset: Intel Grantsdale i915P/i915G
+
+- MotherBoard Southbridge: Intel 82801FB (ICH6)
+
+- Processor Specification: Intel Pentium 4 640, 3200 Mhz (16 x 200)
+
+- Processor Instructions: MMX, SSE, SSE2, SSE3, EM64T
+
+- Package: Socket 775 LGA
+
+- Sytem Memory: 1792 Mo (1GB Mo, 512 Mo, 256 Mo = all are DDR SDRAM PC2700 166 Mhz)
+
+- Graphic Card: NVIDIA GeForce 8500 GT (1024 Mo)
+
+- Sound Card: PCI C-Media CMI8738/C3DX Audio Device
+
+- Hard Disk: SAMSUNG HD103SI (1 To)
+
+- LAN: Realtek RTL8139/810x Family Fast Ethernet NIC
+
+
+My question is, what is the best version of MAC system that is supported by my PC, are they iATKOS versions or Ideneb? Please for a person who amready tested a working version or knows a specified version in a pc like mine then let me know and thanks for your help."
+,th3raz,2012-04-22T02:51Z,"This file is corrupt according to 7-Zip and winRAR, any help? Also can some1 link me the latest version of OSx86 snow leopard?"
+,gappa97,2012-04-22T09:14Z,"i have core 2 duo 2.9 ghz
+3gb ram
+no external graphic card .
+can i install mac on my pc?
+which will be suitable version and how can i install it???"

@@ -1,0 +1,108 @@
+About:
+This is the loader application thats used by millions of people worldwide,
+well known for passing Microsoft's WAT (Windows Activation Technologies) and is arguably the safest Windows activation exploit ever created.
+The application itself injects a SLIC (Software Licensing Description Table) into your system before Windows boots,
+this is what fools Windows into thinking it's genuine.
+
+Features
+â€¢Can be run as a standalone application
+â€¢Works well with all system languages
+â€¢Argument support for silent installs
+â€¢Can be used for pre-activation
+â€¢Application integrity checking
+â€¢Custom error handling
+â€¢Support for hidden partitions and complex setups
+â€¢Can work alongside Linux's GRUB or any other boot manager
+â€¢Works with TrueCrypt and many other types of hard drive encryption applications
+â€¢Add your own certificates and serials externally
+â€¢Offers certificate and serial installation only for users with an existing SLIC 2.1
+â€¢Automated system profiling (The application matches everything up for you)
+
+The rundown
+â€¢This will run on x86 and x64 systems
+â€¢This can activate all Windows versions at the same time, just install it on each
+â€¢No core system files get modified
+â€¢No extra processes are run so you have nothing eating at your RAM
+â€¢All key parts of the exploit are encrypted with a custom encryption
+â€¢The exploit runs before Windows so it's harder for Microsoft to prevent
+â€¢The exploit patches all necessary tables making activation look authentic
+â€¢The application will select the best profile for your system during installation
+â€¢Each and every user has a unique version of the exploit installed on his/her system
+
+Supported operating systems
+â€¢Windows 7 Ultimate
+â€¢Windows 7 Professional
+â€¢Windows 7 Home Premium
+â€¢Windows 7 Home Basic
+â€¢Windows 7 Starter
+â€¢Windows Vista Ultimate
+â€¢Windows Vista Business
+â€¢Windows Vista Business N
+â€¢Windows Vista Home Premium
+â€¢Windows Vista Home Basic
+â€¢Windows Vista Starter
+â€¢Windows Server 2008 R2: Enterprise
+â€¢Windows Server 2008 R2: Standard
+â€¢Windows Server 2008 R2: Foundation
+â€¢Windows Server 2008: Enterprise
+â€¢Windows Server 2008: Standard
+â€¢Windows Server 2008: Foundation
+â€¢Windows Small Business Server 2008
+Note: You must be running build 7600 or greater for Windows 7 and Windows Server 2008 R2.
+Note: Windows 7 N and E editions will only be supported when OEM SLP serials leak for them.
+
+Application integrity checking?
+Hover your mouse over the green, amber or red icon to see detailed application information.
+
+Extra information
+Do I need to update ?
+If you have installed a version and you're activated then you shouldn't need to update.
+If however you are like me and you like to use the latest and the best versions of software then updating shouldn't be a problem.
+
+Using a BIE release or another activation solution ?
+â€¢Launch the loader application and select to uninstall â€” This is important
+â€¢Restart the PC
+â€¢Install the loader and restart the PC
+â€¢Visit the following website to revalidate Windows: www.microsoft.com/genuine/ (You might need to use IE8)
+
+How can I convert from RemoveWAT to this loader ?
+â€¢Uninstall RemoveWAT
+â€¢Download and run FixWAT (Cleans up things RemoveWAT doesn't restore. This will restart your PC)
+â€¢Install the loader
+â€¢Visit the following website to revalidate Windows: www.microsoft.com/genuine/ (You might need to use IE8)
+
+Help, my system won't boot !
+â€¢Boot up the PC from your Windows installation disk
+â€¢Select the "Repair your computer" option
+â€¢Select "Command Prompt"
+â€¢Input "bootsect.exe /nt60 SYS /force" (Without quotes)
+â€¢Restart the PC
+
+Support Page: http://forums.mydigitallife.info/showthread.php?t=8632
+
+Version 1.8.4 changes (06/19/2010):
+* Added a new GRLDR version (Calculates the EBDA end 256 bytes lower)
+* Added the ability to give the SLIC a custom position (Useful if SLIC emulation fails under the default options)
+* Added Olidata SLIC, certficiate and serial
+
+
+Windows Loader.exe Hashes:
+MD5: be3804732d7ff22c0f601e7e5199957e
+SHA-1: f2dccd7a58277d1e754de93cd1130b64cce0c35f
+
+Extra information
+--------------------------------------------------------------------------------
+Instructions for Use
+If you have NO SLIC 2.1 in BIOS (which unless you flashed with a modded BIOS, you Probably do not have SLIC 2.1)
+1. Install windows 7 (DON'T Enter a Serial During Installation).
+2. Run this as Administrator.
+3. Click on Profile. (Optional)
+4. Choose Matching SLIC and Certificate (Dell, MSI, etc) (Optional)
+5. Choose Serial (Serial Must match Your version of Win 7) (Optional)
+6. Click on the install button. (under Activation options)
+7. Wait for Loader to Work and Reboot.
+Enjoy !!!!
+
+To Determine if you have Slic 2.0 or Slic 2.1,
+Read this: 
+http://forums.mydigitallife.info/showthread.php?t=8267

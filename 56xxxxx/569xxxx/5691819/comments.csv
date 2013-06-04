@@ -1,0 +1,29 @@
+User Type,Username,Date,Text
+,pend1,2010-12-08T18:19Z,great upload! thx! will seed for months!!
+,Royalpars,2011-01-18T21:47Z,I Cant find english subtitles for all episodes... For example S02E04. 
+,j0ket,2011-03-28T12:29Z,ty
+,blitzoism,2011-04-27T22:07Z,"More seeders please! its a great fucking torrent. got the first season in after 29hour downloading.
+
+A: 9
+V: 9
+
+Some of the subs are missing.. but u can google em and paste it into VLC player. OR just learn a bit english will do. Its really not hard to understand.. Anyways. More seeds will help people get it too! They've earned it. ill upload it for a week or 2. about 600kb/s, not much but I got allot more stuff to seed."
+,cheborneck,2011-08-09T22:38Z,handbrake and dvdfab 8 both choke trying to convert any of these mkv files. divx plus converter seems to work.
+,h4ckerman,2011-10-23T14:08Z,Great Torrent from Konanshine .Seed Plz to keep alive
+,julianojamanta,2012-01-11T07:43Z,Thank you.
+,zagnutty,2012-02-03T08:18Z,"@cheborneck -
+
+tsMuxer, mkv2vob. xvid4psp and multiAVCHD also choke on these. Something wonky with the encodes. 
+
+I needed to convert these to m2ts and finally was able to.
+1. Extract AC3 with MKVExtract
+
+2. Convert to mp4 AVI with MKVBoxer
+
+3. Open AVI and extracted AC3 in MKVMerge. Select only the h264 and ac3 streams, merge to MKV.
+
+4. Extract streams from new MKV with MKVExtract
+
+5. Now mux the streams from previous extract with tsMuxer to an m2ts file. Be sure to change Change FPS to 24000/1001 and change level from 5.1 to 4.1
+
+Crappy way to do it, but the only way I've found that lets me get my m2ts file and keep the original 6 channel ac3."

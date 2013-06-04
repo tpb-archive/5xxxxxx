@@ -1,0 +1,123 @@
+Live Hacking CD is a new Linux distribution packed with tools and utilities for ethical hacking, penetration testing and countermeasure verification. Based on Ubuntu this ΓÇÿLive CDΓÇ¥ runs directly from the CD and doesnΓÇÖt require installation on your hard-drive. Once booted you can use the included tools to test, check, ethically hack and perform penetration tests on your own network to make sure that it is secure from outside intruders.
+
+The CD comes in two forms. A full Linux desktop including a graphical user interface (GNOME) and applications like Firefox along with tools and utilities for DNS enumeration, reconnaissance, foot-printing, password cracking and network sniffing. For greater accessibility there is a Live Hacking menu to help you quick find and launch the tools.
+ 
+The second variation is the Live Hacking Mini CD, which is command line only. However this doesn't detract from the power of the tools and utilities included as most of the penetration testing and ethical hacking tools are command line tools. The included /lh directory has symbolic links to the different tools included.
+ 
+The system requirements for the Live Hacking CDs are quite reasonable. A fast Pentium 3 or any Pentium 4 class processor (or greater) is sufficient. For the desktop version 512MB of memory is required with 1GB recommended. For the command line version just 128MB of memory is needed.
+
+DNS Enumeration
+
+DNS is the Internet service that translates domain names into IP addresses. Each time you use a domain name, DNS is used to translate the name into the corresponding IP address. To do the translation DNS holds records for each domain. The Live Hacking CD includes tools specifically designed for working with DNS.
+
+Reconnaissance
+
+Just like in the military the first step to any mission is reconnaissance; exploring the network to gain information. The idea is to map out the target network and systems before trying to find the potential security weaknesses. Included on the Live Hacking CD are a set of tools to help you perform reconnaissance on your network.
+
+Foot-printing
+
+Once the network has been mapped out, you need to gather information about the specific computers on the network. To help you do this the Live Hacking CD includes the tools you need.
+
+Password Cracking
+
+While trying to penetrate your network you will need to test the strength of the passwords being used. The Live Hacking CD has the tools you need to try and crack the passwords used on your network and on your systems.
+
+Network Sniffing
+
+The technique used to monitor and analyze the traffic on your network is called network sniffing (or some times data packet sniffing). Here a packet sniffer captures the packets of data that pass around the network. Within your network you may find that usernames and passwords are being sent in clear text meaning that the information would be viewable to anyone who can capture your network traffic. The Live Hacking CD contains network sniffing tools to enable you to capture, monitor and analyze your network traffic.
+
+Spoofing (or Masquerading)
+
+Spoofing is the creation of network packets in such a way that they appear as if they came from somewhere or someone else. Spoofing is an integral part of many network attacks and the Live Hacking CD has the tools you need to help you create fake network traffic in order to penetrate your network.
+
+Wireless Networking Utilities
+
+Many networks now use Wi-Fi to enable laptops and mobile devices to connect to the network without wires. The strength and simultaneously the weakness of Wi-Fi is that the network traffic is broadcast to every device. The Live Hacking CD is packed with tools to help you monitor and secure your wireless network.
+
+Open Source and Ethical:
+
+The Live Hacking CD is designed for ethical computer hacking, meaning that it contains the tools and utilities you need to test and hack your own network but using the tools and techniques that more malicious hackers would use.
+
+The Live Hacking CD is based on open source technology and uses the popular Ubuntu Linux distribution as its base. All the tools included can be freely found in either the Ubuntu repositories on the Internet. The CD is designed to be a platform to help IT security professionals (as well as those with a general interest in information security) to start, understand and conduct penetration tests and ethical hacking.
+
+Dr. Jahangiri, the world renowned security expert and the brain-child behind the Live Hacking CD, has made it available to the public for free to encourage IT professionals and others to enhance their knowledge and to prepare for the malicious activities of the unscrupulous hacker.
+
+As with all community and open projects, Dr. Jahangiri and his team welcome all comments, and suggestions along with possible cooperation opportunities to make the Live Hacking CD as complete and useful as possible.
+
+
+
+Application List:
+
+
+
+The Live Hacking CD is packed with tools and utilities for ethical  hacking, penetration testing and countermeasure verification. The CD includes hacking tools for DNS, reconnaissance, foot-printing (gathering information about computers on the network), password cracking, network sniffing, spoofing (or masquerading) and wireless networking utilities.
+
+ Here is a list of the hacking tools you can find on the Live Hacking CD:
+
+     Reconnaissance (and DNS)
+
+        Dig - DNS lookup utility
+        DNSMap - DNS mapping is a mechanism which allows hosts on a private LAN to use DNS Services even if the address of an actual DNS Server is unknown.
+        DNSTracer - Trace DNS queries to the source
+        DNSWalk - Checks DNS zone information using nameserver lookups
+        Netmask - Helps determine network masks
+        Relay Scanner - This program is used to test SMTP servers for Relaying problems
+        TCPTraceroute - Traceroute implementation using TCP packets
+        Firewalk - Firewalk is a network auditing tool that attempts to determine what transport protocols a given gateway will pass.
+
+     Foot-printing
+
+        Amap - Performs fast and reliable application protocol detection, independent of the TCP/UDP port they are being bound to.
+        Curl - Get a file from an HTTP, HTTPS or FTP server
+        Fping - Sends ICMP ECHO_REQUEST packets to network hosts
+        Hping3 - Active Network Smashing Tool
+        HTTprint - A web server fingerprinting tool
+        Ike-Scan - IPsec VPN scanning, fingerprinting and testing tool
+        MetoScan - HTTP method scanner
+        Namp - The Network Mapper
+        Netcat - TCP/IP swiss army knife
+        P0f - Passive OS fingerprinting and masquerade detection utility
+        Zenmap - The Network Mapper Front End
+
+     Password Cracking
+
+        Chntpw - NT SAM password recovery utility
+        Rainbowcrack ΓÇô Crack LM, MD5 and SHA1 hashes
+        THC PPTP Bruter - A brute forcing program against PPTP VPN endpoints (TCP port 1723)
+        VNCrack ΓÇô Crack VNC passwords
+        John the ripper - A fast password cracker
+
+     Network Sniffing
+
+        DHCP Dump ΓÇô DHCP packet dumper
+        Dsniff ΓÇô Password sniffer
+        SSLDump ΓÇô Dump SSL traffic on a network
+        Ntop ΓÇô Displays top network users
+        Wireshark ΓÇô Interactively dump and analyze network traffic
+
+     Spoofing (or Masquerading)
+
+        File2cable - Sends a file as a raw ethernet frame
+        Netsed ΓÇô Network packet streaming editor
+        Sing ΓÇô Send ICMP Nasty Garbage packets to network hosts
+        TCPreplay ΓÇô Replay network traffic stored in pcap files
+
+     Wireless Networking Utilities
+
+        Aircrack-ng - Aircrack-ng is an 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured.
+        Kismet ΓÇô Wireless sniffing and monitoring
+        THC Leap Cracker - The THC LEAP Cracker Tool suite contains tools to break the NTChallengeResponse encryption technique e.g. used by Cisco Wireless LEAP Authentication.
+        WEPCrack - WEPCrack is an open source tool for breaking 802.11 WEP secret keys.
+        WIDZ - Wireless Intrusion Detection System
+        Cowpatty - Brute-force dictionary attack against WPA-PSK
+
+    Miscellaneous
+
+        GDB ΓÇô The GNU Debugger.
+        Hexdump ΓÇô ASCII, decimal, hexadecimal and octal dump tool.
+        Hexedit ΓÇô View and edit file in hexadecimal or in ASCII
+        Wipe ΓÇô Securely erase files
+        Madedit -Text/Hex Editor
+
+
+

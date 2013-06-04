@@ -1,0 +1,37 @@
+User Type,Username,Date,Text
+,ZeeZed,2010-07-02T01:47Z,A great torrent and not a single comment!
+,questar,2010-07-25T18:32Z,"I downloaded the first five movies. There are two minor problems:
+
+(1) While the video quality is great, the audio is only 96Kbps MP3. This is about as good as FM radio.
+
+(2) The aspect ratio is wrong. The first three movies have an aspect ratio of 2.0 while the originals are 2.35. The next two movies have an aspect ratio of 1.5 while the originals are 1.85. This makes everyone look unnaturally skinny.
+
+Most media players have an option to set the display aspect ratio. You can also permanently fix the aspect ratio with the free ffmpeg program as follows:
+
+ffmpeg -i *1978*.avi -acodec copy -vcodec copy -aspect 2.35 Halloween_1.avi
+
+""ffmpeg"" invokes the ffmpeg program
+""-i *1978*.avi"" tells ffmpeg to read the first Halloween movie as the input file.
+""-acodec copy"" tells ffmpeg to simply copy the audio data.
+""-vcodec copy"" tells ffmpeg to simply copy the video data.
+""-aspect 2.35"" tells ffmpeg to write in the output file that the display aspect ratio is 2.35.
+""Halloween_1.avi"" is the name of the output file.
+
+The output file will be nearly identical to the input file except that it'll have data to automatically tell the media player to render the video with an aspect ratio of 2.35.
+
+ffmpeg is available from:
+
+http://www.ffmpeg.org"
+,patch94,2010-07-31T13:56Z,"thanx for upload 
+
+plzz seed everyone taking weeks to dowload"
+,JakeDHS07,2010-08-07T03:22Z,ok so download speed was great for awhile but now it has dropped to average 7kb/s. WTF? seed people. Only 32% complete.
+,rxvillian,2010-12-04T08:18Z,please seed
+,dustyshot,2011-02-05T23:04Z,The movies are sluggish. I just watched the firs 1978 halloween and it just jerks the whole movie. So frickin annoying. Sorry I am looking else where.
+,Robin5555,2011-02-18T12:02Z,great up ! many thnx..
+,Leeroy_2008,2011-04-01T00:25Z,"This is just taking the piss, for 24 hours my download speed has been 9kb/s. Is seeding too much to ask or something? "
+,Anmaddox,2011-06-22T20:15Z,"Can I get some seeds? I'm only trying to download Halloween Resurrection, but it says it's going to take 3 days."
+,Anmaddox,2011-06-23T07:08Z,Please guys. I'm this close to finishing the series. Please seed.
+,etornam,2011-07-05T23:54Z,you are lucky cus i have three years to finish my dowload
+,knut39,2011-09-10T19:42Z,It seems like you have to be a fucking engineer to use ffmpeg. Computer nerd assholes.
+,squirell_1986,2011-12-15T11:20Z,"great torrent all films look amazing! download speed 1.5 mb/s, very fast, thanks!"

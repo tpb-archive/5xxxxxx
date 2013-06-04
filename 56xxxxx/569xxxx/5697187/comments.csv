@@ -1,0 +1,67 @@
+User Type,Username,Date,Text
+,lllukecr,2010-08-15T10:55Z,"For whatever reason, it will not let me edit my torrent.  Make sure you add both apps to the WebOS quick install, if you try to do one-at-a-time, it does not work.  
+
+Here is the proper .nfo:
+
+
+
+        RELEASE NAME ..... 3G Mobile Hotspot
+        SUPPLIER ......... N/A
+        CRACKER .......... N/A
+        PROTECTION ....... N/A
+        RELEASE DATE ..... 06/30/2009
+        SIZE ............. 1.03 MB
+        URL .............. http://phones.verizonwireless.com/palm/pre/
+
+
+
+  PRODUCT DESCRIPTION
+
+3G Mobile Hotspot is a downloadable application that enables web access for 5 Wi-Fi enabled devices, including 
+gaming systmens and more in one convenient solution.
+
+
+
+   INSTALLATION INSTRUCTIONS
+
+1. Extract all files in the .Rar to the root directory of your hard drive. Usually â€œC:\â€
+
+2. You should now have the folder â€œC:\Mobile_Hotspotâ€ with several files inside.
+
+3. Verify Java is current by going to the following link:
+http://www.java.com/en/download/installed.jsp?detect=jre&try=1
+
+4. Install WebOS Quick Install on PC â€“
+Right-click the WebOSQuickInstall.jar file and click Open With and make sure that the default program is
+Java. Now run WebOS Quick Install.
+The first time WebOS Quick Install runs will take a while as it downloads and installs Palm's webOS
+Doctor and Novacomd software on your computer. You will need to restart the WebOSQuickInstall.jar file
+each time it automatically exits to install software for you.
+When asked to install WebOS Doctor, click Yes (highlighted in yellow below) so that WebOS Quick
+Install can use those files. Never run the WebOSDoctor.jar file yourself unless you want to erase
+everything on your phone and start over.
+When asked which webOS Doctor version, if your carrier is not listed, choose Sprint.
+
+5. Setup your phone â€“
+Go to the main (start) screen on your Palm Pre or Pixi:
+Just as if you are performing a Universal Search, start typing ""upupdowndownleftrightleftrightbastart""
+without the quotation marks.
+Tap the Developer Mode icon and turn Developer Mode on. If you're having trouble getting it right, you
+can also enter ""webos20090606"" (though if you ask us the Konami code is much more fun.)
+Set Developer Mode to ON.
+When asked, tap Reset The Device. Your phone will restart. This is just a restart. (Nothing is erased.)
+Connect the USB cable to your PC, Mac, or Linux computer and select ""Just Charge"" when the phone
+prompts you.
+
+6. Install Preware â€“
+Open WebOs quick installer by double clicking â€œWebOSQuickInstall.jarâ€
+Click on the blue down arrow button
+In the drop down on the top select webos-internals feed(pre)
+Select Preware and download
+Install preware
+
+7. Install Mobile Hotspot Software and Update â€“
+Double click â€œWebOSQuickInstall.jarâ€ in C:\Mobile_Hotpsot
+On the right click the green â€œ+â€ button
+Select both IPKs in the C:\Mobile_Hotspot folders
+Click Install"

@@ -1,0 +1,110 @@
+User Type,Username,Date,Text
+,Tchern0,2010-06-15T23:44Z,"Merci pour ce torrent ;)
+MAis jarrive pas a installer le programme me demande le cd d'installation !!! pourtant jai deja applique le ""PatchHOSTS.cmd"" 
+comment faire ???? stp"
+[T],sk4nz,2010-06-16T08:09Z,"Il faut que le .iso soit sur la même partition que celle ou l'installation va s'effectuer. Oui je sais, cela semble bizarre, mais sinon le CD est demandé à l'installation. Si l'erreur a encore lieu, je te conseille d'aller faire un tour par la pour nettoyer tout ce qui pourrait être susceptible d'enter en conflit avec CS5 :
+http://thepiratebay.org/torrent/5592268
+
+Enjoy !"
+,Tchern0,2010-06-16T13:29Z,"Desole de te deranger encore avec mes questions de noob. 
+Mais jarrive pas a installer , toujours le même probleme !!!
+le .iso est place sur mon bureau et j'installe sur le disque C: !
+ensuite j'ai utilise ton conseil pour ""laver"" le registre mais ça marche pas quand même !
+STP aide moi"
+[T],sk4nz,2010-06-16T22:06Z,"Mhh... Il reste la solution d'extraire l'iso avec WinRAR ( http://thepiratebay.org/torrent/5493249/ ) vers un la racine systeme (ici C:\) et d'exécuter ""Set-up.exe"".
+Sinon je ne vois pas d'autres alternatives. Ce bug est mentionné sur les forums Adobe et la majorité des utilisateurs on réussi a le contourner en mettant le dossier d'installation dans la racine de leur disque dur."
+,Tchern0,2010-06-17T14:50Z,"Bingo !
+ça marche , au fete il falait copier le CONTENU de .ISO dans la recine du disque principale et non le .ISO lui même sinon ça marche pas !
+parcontre mon antivirus (NORTON 360) trouve un Trojan present dans le .ISO, c'est le MSGBOX.exe !!!! 
+c'est un virus ou c'est  l'antivirus qui se trompe ?
+Est il essentiel de executer la commande PatchHOST.cmd  ,ou bien on peut sen passer ? Car ça me fait peur d'executer un virus sur le pc !"
+[T],sk4nz,2010-06-19T10:53Z,"L'exécution de la commande ""PatchHOSTS.cmd"" est essentielle, c'est elle qui empêche la vérification par adobe de l'intégrité du programme. Cependant, MSGBOX.exe n'est pas essentiel, il permets juste l'affichage d'une boîte de message lors de l'exécution du patch. Il peut être supprimé sans problème.
+
+@ Tchern0 : surtout n'oublies pas de patcher le fichier HOSTS !
+
+Enjoy !"
+[T],sk4nz,2010-06-19T12:11Z,La seule raison pour laquelle j'utilise MSGBOX.EXE c'est qu'il permets de faire apparaitre une boîte de dialogue très simplement dans un script .cmd (plus d'infos sur le site de Paul Sadowski onglet CmdUtils)
+,Tchern0,2010-06-20T22:31Z,"Donc au fete si jai bien compris- rien que en cliquant sur le Patch la commande sera executeé (les adresses IP bloques) mais il aura pas petite fenetre de commandes qui va me confirmer lexecution de celui si .
+  Encore un grand merci !!!"
+,bwiti,2010-07-23T16:44Z,"Salut sk4nz
+C'est bien dommage mais tes num?ros de s?rie sont morts."
+,bwiti,2010-07-23T17:09Z,"Salut sk4nz, h?las tes n? de s?rie sont morts."
+,Gladiateur,2010-08-11T15:24Z,"Salut SK4NZ tu s'aurais mettre un torrent juste avec les fichiers francais ?
+Ou un patch fr ??"
+[T],sk4nz,2010-08-19T03:17Z,"@bwiti : Rentente l'installation sauf qu'a l'etape 2) utilise le nouveau patch HOSTS present ici : http://thepiratebay.org/torrent/5720249/. Ensuite il faut suivre les autres etapes comme indiqué.
+
+@Gladiateur : Heuh.. Ce torrent est une version francaise.. Que recherches tu exactement ?"
+,BleedOx,2010-08-23T12:14Z,"Yo, merci pour ce torrent, mais je sais pas comment faire --', je télécharge ce torrent dans un de mes dossiers, mais après je ne sais pas comment installer le logiciel, le fichier qui apparait lorsque je le télécharge est en "".torrent"" et je ne sais pas si il faut changer l'extension ou quelque chose comme ça :( Si quelqu'un pouvait me dire comment faire ce serait super sympa, car il me faut absolument ce logiciel :)
+
+Merci d'avance"
+,BleedOx,2010-08-23T12:16Z,"Yo, merci pour ce torrent, mais je sais pas comment faire --', je télécharge ce torrent dans un de mes dossiers, mais après je ne sais pas comment installer le logiciel, le fichier qui apparait lorsque je le télécharge est en "".torrent"" et je ne sais pas si il faut changer l'extension ou quelque chose comme ça :( Si quelqu'un pouvait me dire comment faire ce serait super sympa, car il me faut absolument ce logiciel :)
+
+Merci d'avance"
+[T],sk4nz,2010-08-26T11:05Z,"@BleedOx : Un fichier .torrent est un fichier qui te permets de télécharger des fichiers avec un client Bitorrent. Il te suffit de télécharger Utorrent ( http://www.utorrent.com/ ) et d'ouvrir le fichier .torrent avec Utorrent. Ensuite une fois téléchargé, tu pourras l'ouvrir et suivre les instruction pour l'installation."
+,Turio69,2010-09-01T12:04Z,"Marche parfaitement !
+
+Je confirme qu'il m'a également fallut copié le contenu de l'image sur mon bureau pour que l'installer ne bloque pas en me demandant d'insérer le cd.
+
+Merci Sk4nz :)"
+[T],sk4nz,2010-09-02T11:57Z,De rien ! Ca fait plaisir !
+,ingoldwetrust,2010-09-04T02:28Z,"Reconfirmation, extraire sur bureau et lancer le setup !! 
+
+Merci beaucoup Sk4nz !!!
+
+As tu de disponible des updates ou des plugins ??"
+[T],sk4nz,2010-09-04T04:18Z,"@ingoldwetrust : Les plugins, c'est par la :
+
+http://thepiratebay.org/search/adobe%20photoshop%20plugins/0/7/0"
+,girlyfamous,2010-09-16T19:13Z,"bonjour,j'aimerai qu'on m'aide Svp pcq j'ai telecharger le logiciel ainsi que le patch que j'ai executé je suis a la 5eme étape ,celle de l'installation mais il me demande le CD d'installation de photoshop cs5  et puisque je sais pas quoi faire :( quelqu'in peux m'aider SVP ?? :S jss perdu là. :S"
+,girlyfamous,2010-09-16T21:34Z,"Le fichier iso marche pas j'pense ! :S
+je l'ai monté puis j'ai patché comme tu a dit et puis j'ai clicque setup exe mais sa demande tjr a la derniere etape de linstallation le CD d'intallation... Tu pourrai m'expliquer comment faire STP pcq sa vas faire plusieur heures que je suis dessus --'  merci d'avance ! :)"
+,girlyfamous,2010-09-16T23:28Z,@turio69   l'image??? c 'est surement a cause de çà alors :S personne pour repondre svp ? :(
+[T],sk4nz,2010-09-17T18:58Z,"@girlyfamous : sur certaines configurations, la présence du dvd est demandée en effet. Tu peux contourner cela en ouvrant ton fichier .iso avec WinRAR (http://thepiratebay.org/torrent/5493249) et en fesant ""Extract to"" vers la racine de ton dique dur (ex : C:\). Tu peux aussi copier tout le contenu du DVD monté vers une destination sur ton disque dur (ex : ton bureau). Ensuite il te suffit de lancer ""Set-Up.exe"" a partir de ce nouveau dossier."
+,girlyfamous,2010-10-01T01:19Z,"Copier tout le contenu du DVD monté ? euh ..:/ Dit je t'explique copier j'ai fais pour essayer d'installer photoshop et dit moi si c'est bon pcq je suis pas trés bonne en informatique :S
+
+- j'ai monté l'image sur le lecteur DAEMON tools slite puis j'ai executer le patch.
+-'setup exe et sur l'ordinateur dans aucun dossier  mais l'iso est sur le disque dur. :S ( c'est surement a cause de çà que sa marche pas  )
+-j'ai clicque sur setup.exe mais a la 5eme etapes il demande toujour le CD alors que l'iso est monté. Aide moi please :SS"
+,girlyfamous,2010-10-01T01:19Z,l'ouvrir avec WinRar ? J'ai essayer sa marche pas ;O
+[T],sk4nz,2010-10-07T21:02Z,"@girlyfamous : clic droit sur l'.iso et ""Ouvrir avec.."". Là tu sélectionnes Winrar et tu peux l'extraire où tu le désires"
+,psyco1807,2010-10-12T22:07Z,"Salut sk4nz
+Tous ce passe bien pour l'installation , j'ai lancé au préalable ton patch host v.0.2 mais a chaque fois que je lance Photoshop , il me dit que ma clé n'est pas valide ... help plz 
+merci"
+,jamiuqr,2010-10-16T19:49Z,"guys i found cs5 at:  smartClolC.com/share.php just delete the C's, it works great! i tried many things but this works the best :) very clean and trusted site"
+,Kloport,2010-12-09T20:04Z,"Bonsoir mec, ça a l'air super tout ça, depuis le temps que je cherche ce log :D merci bien en tout cas, enfin je vais voir si j'arrive à le faire marcher u__u """
+,Kloport,2010-12-09T22:27Z,"wah ça à l'air de bien fonctionner :D mais j'ai un petit soucis en fait .. Quelqu'un sais pourquoi photoshop ""cesse de fonctionner"" au démarage ? s'il vous plait moi j'en ai aucune idée.. "
+[T],sk4nz,2011-03-14T18:22Z,"@psyco1807 : Désinstalle Photoshop, nettoies ton ordinateur ( avec des logitiels comme CCleaner ),  patche ton ordinateur ( avec http://thepiratebay.org/torrent/5720249/ ), redemarre et réinstalle le tout. Cela devrait fonctionner.
+
+@Kloport : Idem que psyco1807, c'est l'installation qui a du foirer, ou bien ton systeme qui n'est pas tres stable..."
+,bilalou,2011-04-24T14:28Z,super ........... bon travail...........
+,bilalou,2011-04-24T14:43Z,"salut sk4nz...
+
+aprés l'installation  j'ai découvert que cette version est """"Adobe Photoshop CS5"""" 
+
+et..
+
+le titre et l'image du torrent disent  """" Adobe Photoshop CS5 Extended""""
+
+peux tu nous uploader la version extended .parce que  c""est le seul moyen pour editer les images DICOM
+
+MERCI ."
+[T],sk4nz,2011-04-26T18:23Z,"@bilalou : Ouvres Photoshop, va dasn le menu déroulant aide et clique sur ""A propos de Photoshop"". Tu pourras remarquer le fait qu' il s'agit bien de Photoshop CS5 Extended version 12.0."
+,Sareo,2011-06-02T10:59Z,"Bonjour, 
+
+Après avoir suivi ton tutoriel, après avoir essayer maintes et maintes fois d'autres torrent j'arrive toujours au même problème.
+
+Adobe me dit que la clé est bonne mais ensuite lorsque j'ouvre Photoshop il me redemande une clé puis mon ID Adobe, il me dit ensuite "" nous ne sommes pas en mesure de démarrer votre abonnement à Adobe Photoshop CS5 extended Subscription Edition""
+
+Que Faire ? "
+,ninobeo,2011-12-28T15:06Z,"Il marche nickel, mais j'ai un bug quand je veux exporter pour le web et les périphériques, le message d'erreur est le suivant : Impossible d'effectuer l'opération, le chemin d'accès spécifié est introuvable.
+
+Dommage!! si qqu'un a une solution, ty."
+,portesouvertes,2012-01-06T09:02Z,"Bonjour,
+
+je viens de télécharger le torrent. Je l'ai décompressé avec Winrar et j'ai téléchargé le nouveau patch.
+
+Mon soucis: ""la version de ce fichier est incompatible avec la version de windows que vous utilisez...""
+
+Je suis sur windows 7 integrale 32bits. Est ce un probleme? Ai-je raté une manipulation?
+
+Je vous remercie pour votre aide."

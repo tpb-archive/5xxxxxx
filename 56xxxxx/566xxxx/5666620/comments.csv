@@ -1,0 +1,123 @@
+User Type,Username,Date,Text
+,godoflove,2010-07-03T17:33Z,please seed it 
+,Jazz_76,2010-07-30T10:42Z,"Hi,
+How do you install the license/crack. The install/info file is somehow scrambled and unreadable on my computer."
+,Jazz_76,2010-07-30T10:44Z,"I think I've done everything ok but I get this:
+License failure:
+License file does not support this version.
+Feature: nuke_i
+Application version > License version: 2010.0408 > 2010.0225
+License path: C:\ProgramData\The Foundry\FLEXlm\foundry.lic;C:\Program -
+Files\The Foundry\FLEXlm\*.lic;C:\Program Files\Nuke6.0v4\foundry.lic
+FLEXnet Licensing error:-21,126
+For further information, refer to the FLEXnet Licensing End User Guide,
+available at ""www.macrovision.com""."
+,Nyphot,2010-09-22T10:59Z,"INSTALL NOTES!!
+
+The included install notes seem to be corrupted, but here's what I did to get it to work. You'll need to keep several windows open, so it may get rather messy. 
+
+I did this with 32-bit Vista, but I would guess the process is the same with WIN7. You may want to save these notes for future installs of this particular version.
+
+1. Disconnect from the internet (Always do this just in case!)
+
+2. Install Nuke 6.04 from your torrent download folder.
+
+3. Run the crack for the appropriate version
+
+4. Goto C:\\Program Data and create the folder TheFoundry. Inside of that, create the folder FLEXlm (leave it open). [Note: Program Data is an invisible folder by default.]
+
+5. Copy and paste the file foundry.lic from your download into the FLEXlm folder and also into C:\\Program Files\Nuke6.04v4
+
+6. Open Notepad
+
+7. Run the program and you will receive a license error pop-up. Make note of what your HOSTID is and type it into notepad. Close the popup window.
+
+7.5 See below*
+
+8. Open the foundry.lic that you had pasted into FLEXlm with Notepad. (Yes, I realize this is getting messy with stuff open all over the place. We're almost done.)
+
+9. For every line and instance that the license says: HOSTID=0000000000000, delete the zeros and paste your own HOST ID# in it's place.
+
+10. Click File>Save.
+
+11. Copy and paste your new updated  foundry.lic into C:\\Program Files\Nuke6.0v4 and allow overwite.
+
+12. Done. Close everything and start creating some award winning shit!
+
+----------------
+
+*7.5 At this point I had run the FoundryLicenseInstaller app and re-ran the program. I received a slightly different pop-up window, but I don't believe that it effected the outcome. If you still have an error, go back to this step and continue through the rest.
+
+I'll stop back occasionally to see if there are any questions.
+
+-Nyphot"
+,Nyphot,2010-09-22T11:15Z,"*Facepalm* 
+
+I just found that most of the install info is in the User Guide. They even say to run the program without the license installed so that you know your System ID (HOSTID)...page 32. 
+
+Oh well. If you follow my install notes, you'll be just fine."
+,jason87,2010-11-22T11:33Z,"Followed install notes to the T but get same problem as Jazz_76, still get the license error, any clues?"
+,raj2020,2011-01-08T08:40Z,"copy the license file to C:\Program -
+ Files\The Foundry\FLEXlm too. Then everything works fine"
+,dogtag666,2011-01-14T21:39Z,seed please......and also Just wanna ask if I need both 32 and 64 bit files
+,zeddy95,2011-02-28T14:50Z,The licence doesn't WORK ! i am trying 2 hours to install the damn program and it always displays error wtf ? can you just make a clear tutorial on how to install it ?!!!!!!!
+,zeddy95,2011-02-28T14:55Z,It just doesnt work !
+,Emoman,2011-03-13T14:39Z,"Nyphot,s instructions are Spot ON, the only thing I had to do aswel was to copy both the relevant crack and the Licence tool to the C:\Program Files\Nuke6.0v4 directory and runthem both from there, for the crack you have to set the correct dir C:\Program Files\Nuke6.0v4 , After that Everything worked for Me. Cool Hope this helps. Thanks Nyphot.."
+,indrikis99,2011-03-23T11:25Z,Thanks Nyphot!!! Good app!!!
+,blackninja121212121212,2011-10-01T08:43Z,please help. please make a video on how to install this and I'll give you 50 dollars via paypal. 
+,blackninja121212121212,2011-10-01T14:08Z,never mind thanks emo man thank nympho
+,Steerage,2011-10-04T12:15Z,"How on earth do you open the foundry.lic file. I just get can't be done? Also, when the popup comes my HOSTID is 000000000000.
+I really think I have followed the instructions. Anyone please!"
+,Steerage,2011-10-04T12:20Z,"OK, duh, opened the foundry.lic, but my HOSTID
+is still 000000000000."
+,blackninja121212121212,2011-10-16T15:22Z,"im missing all the reader like ff reader, mpeg reader. wtf?"
+,noplan,2012-01-13T19:58Z,"Many thanks at first to murali30 an Nyphot!!
+
+I have a question: There are also Cracks for the Plug-ins. But when I restart Nuke it seems that the program load automatically all the new stuff. Did I anything wrong? 
+
+And one thing more: If you or maybe someone else does have Mari it would be amazing if you seeding and crack it. Thanks!!!!!!!!!!!!!!"
+,noplan,2012-01-17T20:47Z,"Thanks again, everything is working.::::::::::-)"
+,VFXMaster,2012-01-26T06:19Z,"Holy Sh!t Thankyou soo much Nyphot
+
+It works if you Having Problems Here How-To Fix
+
+When You Open The License Generator It Says Your ID At The Bottom Of The Window Thats What You Do To Fix The kEy Problem and also make sure your have the crack put in the right folder and every thing!!!!!"
+,Sheppy96,2012-02-25T18:45Z,"Still having problems. Got license to work for main program, but when using Furnace I get this license error:
+
+FOUNDRY LICENSE ERROR REPORT
+----------------------------
+Timestamp: Sat Feb 25 17:33:03 2012
+License(s) Requested:
+furnace 4.3 for ofx interactive with options all f_rigremoval 
+furnace set1 4.3 for ofx interactive with options all f_rigremoval 
+Extended Info: F_RigRemoval on uk.co.thefoundry.nuke (GUI) 1.0
+
+FLEXlm LICENSE DIAGNOSTICS
+---------------------------
+Invalid (inconsistent) license key.
+ The license key and data for the feature do not match.
+ This usually happens when a license file has been altered.
+Feature: furnace_set1_ofx_i or furnace_ofx_i
+License path: C:\Program Files\The Foundry\FLEXlm\foundry.lic;
+FLEXnet Licensing error:-8,523
+For further information, refer to the FLEXnet Licensing documentation,
+available at ""www.acresso.com""."
+,Sheppy96,2012-02-26T17:56Z,"!!! FURNACE PLUGIN FIX !!!
+OK this is what I did to get the Furnace plugin working. The problem is that when you install nuke, it installs Furnace 4.3 at the same time, but the license provided only works for Furnace 4.2. Before this, make sure that the actual Nuke and NukeX app works itself. Follow these steps (adapt file paths/files for 64):
+
+1. Go to C:\Program Files\Nuke6.0v4\Plugins and delete the folder at the top (should be something like F_Furnace.ofx.bundle).
+
+2. Go to the torrent download folder then go in ""plugins"" and find the Furnace 4.2 folder. Run the exe AS ADMINISTRATOR and install. Then run the crack AS ADMINISTRATOR and patch.
+
+3. It should have installed in C:\Program Files\Common Files\OFX\Nuke and there should be a folder called ""Furnace_4.2_Nuke"" and one called ""Furnace_4.2_Nuke.backup"".
+
+4. Copy Furnace_4.2_Nuke"" into the Nuke installation folder in C:\Program Files\Nuke 6.0v4 \plugins.
+
+Not sure if the last step is necessary but I did it and now Furnace works. Provided the other plugins aren't preinstalled you should just install and crack those. If they are already installed (check the plugins folder) then try the above steps.
+
+To test Furnace, make a new script and add a read node. Add a read node and duplicate it. Add a Furnace_RigRemoval node and connect it to the viewer node. Then connect the read nodes to ""src"" and ""mask"" on the rig removal node. If you don't get a license error or noise on the output then it should work fine."
+,dsafasdgea,2012-05-10T13:44Z,What do I do if the pop up is giving me five different host numbers? Trying them one by one doesn't seem to be doing much good.
+,Brensriffer,2012-06-01T11:29Z,"@Nyphot
+
+I've tried this method step for step many times and every single time after I complete the steps, I get the same error as 7. This is getting really frustrating, any idea on how to fix? Trying ti install the 64-Bit version"
+,Shawnblaze,2012-06-18T07:16Z,"yes it works ...i followed the steps, and in the don't forget to install the crack again, then only it will work"

@@ -1,0 +1,93 @@
+Created by Rocks Team, RockSteady edition of Windows 2003 is made by using tools like nlite. There are a lot of integrated components in this RockSteady Edition. It includes all updates upto June 2010, some additional programs like Firefox, Wireshark, Java are also included and there is a heap of drivers.. 
+
+Unlike the RockStable Editions we have released, the RockSteady Editions are build to be feature rich. RockStable Editions are build as specified by M$ without using any tools like nlite. RockSteady Editions are build using Nlite, DriverPacks BASE etc.
+
+RocksTeam's Windows 2003 RockSteady Series have a Windows 2003 Enterprise Server Core. So it supports upto 32 GB of RAM which is more than enough for today's usage.
+
+The problem with our (RocksTeam's) RockSteady Series is the more installation time needed for the updates and drivers integrated into it. But this means that you won't need to install much drivers after installation - it will install almost all drivers during the installation - also it should be able to recognize almost any new hardware that you will put after installation..
+
+Also like any modified Windows running around, you can find errors during repairing or upgrading an existing OS. Also you can't use this as an image for Remote Installation Services. For these purposes use RocksTeam's RockStable Edition..
+
+To Install this OS, burn the "RocksTeam-Win2003-x86-RockSteady-2010-06.iso" image into a DVD and boot from it.
+
+[b]CD-Key: J797T-WJPRH-KFKWV-HXKR9-FQGBB[/b]
+
+[b]Why not use a Windows 2003 Server as a Desktop/Gaming OS? [/b]
+
+There are even rumors that Xbox uses Server 2003 Code in its OS. And many people have found out that Windows 2003 is pretty good in gaming.
+
+However if you are using Windows 2003 Server (any Windows 2003 Server) as a Desktop/Client/Gaming OS, you will need to enable/change certain services and features.
+
+In Server - Sound, themes etc are disabled and Hardware Acceleration is also not enabled. 
+
+To enable themes, go to Start - Programs - Administrative Tools - Services - Themes
+Right Click Themes - Properties
+In Startup Type - select Automatic - Click Apply
+
+[URL=http://www.imgbox.cc/viewer.php?file=94766006160966649703.jpg][IMG]http://www.imgbox.cc/images/94766006160966649703_thumb.jpg[/img][/URL]
+
+Then click - Start - this will start the theme service.
+
+[URL=http://www.imgbox.cc/viewer.php?file=45505544244009652369.jpg][IMG]http://www.imgbox.cc/images/45505544244009652369_thumb.jpg[/img][/URL]
+
+
+Now you can see that you can get Windows XP Themes in Windows 2003.
+
+[URL=http://www.imgbox.cc/viewer.php?file=64826534238799237022.jpg][IMG]http://www.imgbox.cc/images/64826534238799237022_thumb.jpg[/img][/URL]
+
+If you want I have another theme for you- download it and extract the contents to C:WINDOWSResourcesThemes (%systemroot%ResourcesThemes) 
+
+[URL=http://www.imgbox.cc/viewer.php?file=52617066682151350554.jpg][IMG]http://www.imgbox.cc/images/52617066682151350554_thumb.jpg[/img][/URL]
+
+Now to enable sound, go to Start - Programs - Administrative Tools - Services - Windows Audio
+
+[URL=http://www.imgbox.cc/viewer.php?file=21900422512107269670.jpg][IMG]http://www.imgbox.cc/images/21900422512107269670_thumb.jpg[/img][/URL]
+
+Right Click Themes - Properties
+In Startup Type - select Automatic - Click Apply
+
+[URL=http://www.imgbox.cc/viewer.php?file=93818823010164659549.jpg][IMG]http://www.imgbox.cc/images/93818823010164659549_thumb.jpg[/img][/URL]
+
+Then click - Start - this will start the Windows Audio service.
+
+[URL=http://www.imgbox.cc/viewer.php?file=31590114269582575285.jpg][IMG]http://www.imgbox.cc/images/31590114269582575285_thumb.jpg[/img][/URL]
+
+For enabling graphics acceleration,
+
+Right Click Desktop - properties - Settings - Advanced - Troubleshoot - Here Set Hardware Acceleration to Full..
+
+or go to Control Panel - Display - Settings - Advanced - Troubleshoot - Here Set Hardware Acceleration to Full..
+
+[URL=http://www.imgbox.cc/viewer.php?file=33837481732721600271.jpg][IMG]http://www.imgbox.cc/images/33837481732721600271_thumb.jpg[/img][/URL]
+
+For enabling Sound acceleration,
+
+Go to Control Panel - Sounds and Audio Devices - Audio - Sound Playback - Advanced - Performance - Here Set Hardware Acceleration to Full..
+
+[URL=http://www.imgbox.cc/viewer.php?file=92263863423658541387.jpg][IMG]http://www.imgbox.cc/images/92263863423658541387_thumb.jpg[/img][/URL]
+
+Note that Windows 2003 Server by default provides more preference to background services rather than the foreground programs. So you need to change this.
+
+Right Click - My Computer - Properties
+
+[URL=http://www.imgbox.cc/viewer.php?file=24370333663252507755.jpg][IMG]http://www.imgbox.cc/images/24370333663252507755_thumb.jpg[/img][/URL]
+
+Click Advanced Tab - in Performance - Click Settings
+
+[URL=http://www.imgbox.cc/viewer.php?file=20862871939674867474.jpg][IMG]http://www.imgbox.cc/images/20862871939674867474_thumb.jpg[/img][/URL]
+
+Click Advanced Tab - Select Programs (in Processor Scheduling and Memory Usage) - Click OK
+
+<a href="http://www.imgbox.cc/viewer.php?file=15358525446536785596.jpg" target="_blank"><img src="http://www.imgbox.cc/images/15358525446536785596_thumb.jpg" border="0" alt="15358525446536785596.jpg" /></a>
+
+
+Site Link:
+  
+http://rocksteam.org
+
+For further discussion/opinion/critcs please come to our forum
+  
+http://rocksteam.org/community/index.php/topic,4072.0.html
+
+Please let us know about your valued opinion/critics.
+

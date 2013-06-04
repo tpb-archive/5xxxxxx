@@ -1,0 +1,89 @@
+The Ten (2007)     (Comedy)
+
+
+Das 10 Gebote Movie                                         Germany (DVD title)
+
+HÃ¥rda bud                                                   Sweden
+
+Los diez locos mandamientos                                 Spain (DVD title)
+
+Os Novos Dez Mandamentos                                    Portugal (DVD title)
+
+Para... deka                                                Greece (DVD title)
+
+The ten - I dieci comandamenti come non li avete mai visti  Italy
+
+                 
+If you liked the movies "Airplane!", Top Secret!", "The Onion Movie" you will like this one.
+
+Ten hilarious stories, each inspired by one of the ten commandments.
+( Extremely underrated by the "too religious" people, one shouldn't take things too seriously!"
+C'mon guys, the movie surely wasn't intended to offend anybody.)
+
+Format                           : Matroska
+File size                        : 1.45 GiB
+Duration                         : 1h 32mn
+Overall bit rate                 : 2 249 Kbps
+
+Video
+Format                           : AVC
+Bit rate                         : 1 800 Kbps
+Aspect ratio                   : 720 x 576 Display 1031 x 576 (16:9) Anamorphic Loose (mod 16)
+Frame rate                       : 25.000 fps
+Stream size                      : 1.13 GiB (78%)
+Writing library                  : x264 core 88
+Encoding settings                : cabac=1 / ref=6 / deblock=1:-1:-1 / subme=9 / psy=1 /me_range=64 / trellis=2 / 8x8dct=1 /bframes=6 / b_pyramid=2 /b_adapt=2 
+
+Audio #1 English (default)   : AC-3, 448 KB/s, 6 ch, 296 MB (20%) 
+
+Separate Audio Tracks (skip from download the ones you don't want):
+
+Audio #2 Deutsch (Ger)               AC-3, 448 KB/s, 6 ch, 296 MB
+Audio #3 Espanol (Spa)               AC-3, 192 KB/s, 2 ch, 126 MB
+Audio #4 Italiano (Ita)                AC-3, 192 KB/s, 2 ch, 126 MB 
+
+Subtitles: English, Arabic, Czech, Danish, Dutch, Finnish, German, Greek, Hungarian, Norwegian, Persian, Polish, Portuguese + BR, Romanian, Serbian, Slovak, Spanish +Latino, Swedish, Turkish
+
+Sample: 10 MB
+
+Snap shots:  http://i.imagehost.org/0857/1_135.jpg
+
+
+             http://j.imagehost.org/0267/2_20.jpg
+
+
+##############################################################################
+
+Use MKVextractGUI ( 
+http://www.videohelp.com/tools/MKVExtractGUI   ) to mux in the AC3 dub file.
+
+##############################################################################
+
+All subs show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+If the subs are muxed in mkv download & use MKVextractGUI to extract(demux) the subtitles from mkv,
+ and mkvmerge GUI to mux back the edited/repaired sub in the mkv.
+Download "Notepad++" (free): 
+http://sourceforge.net/projects/notepad-plus/ 
+The sub you demuxed from mkv: Open and save as...ANSI !(Important!)
+Right click on the sub/Open with nppIExplorerShell.exe (Notepad++ exe)/
+click Encoding(upper part menu)/Character sets and chose the language ISO.
+Click again on Encoding/then click on Convert to UTF-8 or Unicode Big
+Indian/save as...srt. You're done with the encoding, now you can mux it back in the mkv with mkvmergeGUI, select the language & mux.
+
+#############################################################################
+
+Those with Win 7 64 bit might have issues with playing back secondary or external audios & subs etc.
+If k-lite pack(too complicated) not working try CCCP ( 
+http://www.cccp-project.net/    ) 
+using the same player (Media Player Classic).
+When installing leave all as it is (default). When finished open the player, click View/Options/PlaybackOutput/check Evr Costum Pres & chose System Default under DirectShow Audio.
+Under Internal Filters - Source Filters should be checked DirectShow Media, Matroska & MP4 and Transform Filters should have H264/AVC(DXVA) checked.
+Now I can even play Blue-ray m2ts being able to switch between Audio tracks by clicking on the Haali Media Spliter on the task bar bottom right.
+
+#############################################################################
+
+All my torrents are seeded. I regularly check back my older torrents and I will seed where needed.
+Most of us want only the English (usually) Audio so I got the secondary tracks separately (demuxed).
+
+

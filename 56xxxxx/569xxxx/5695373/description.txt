@@ -1,0 +1,186 @@
+*****DIARY OF A GPGPU USER*****
+
+wow today one of my dreams just come true an antivirus engine using GPGPU is out and 
+
+is already 100 times faster than a regular engine using only cpu plus it's open 
+
+source which means free
+
+check it out:
+ 
+http://gpgpu.org/2010/07/04/gravity-antivirus-engine
+
+---------------------------------------------------------------------------------
+
+Hey people Out There Just To Let You KNow i'm so glad of my self Just Because of this high end personal supercomputer configuration:
+
+-Motherboard (Dual Cpu Socket 1366) = SuperMicro X8DAH+F
+
+-CPU = 2 x Intel Xeon 5560 (a total of 8 physical core = 16 threads)
+
+Raid Controller = 3Ware Raid Card
+
+HDD = 8 x 2 TO Mounted In Raid 6
+
+Ram = 4 x 4 GB = 16 GB
+
+Chassis = Zalman
+
+SSD = 2 x 80 GB Intel SSD Mounted in Raid 1 (System Volume)
+
+GPU = ATI 5970 (That's My Baby, The Important Piece In My Config After The HDDs) It Developps Approximatively 5 Teraflops Of Raw Computing Power
+
+But Even If I Have All This GPGPU Computing Power Inside The GPU, I'm Still Waiting For Software To Take Advantage o this horsepower And here is my Dream list 
+ 
+for GPGPU Application:
+
+-Antivirus
+
+-Hash Check Functionnality Inside Most P2P Application (Torrent And Edonkey Network)
+
+-Real Time Encoding Inside Streaming Application Especially (mycast orb Stream)
+
+-archive applicaion (like winrar and 7zip) even if this compression is not a 100% parallel task, still some task can be handled by the GPU
+
+-HD Decoding Is Already Implemented But Just For h.264 And VC-1 Even If All The Functinnalities Are Handled By The GPU The xvid and divx HD Is Not Supported Yet
+
+-Video Transcoding (H.264 codec), The aVailable Solution Like Badaboom Are Not As Good As the Free x.264 implementation of videolan which use the CPU
+
+-Video Transcoding (Dirac Video)
+ 
+-Audio Transcoding (Ogg Vorbis) My Favorite Audio Format But Still Take Some Time When ranscoded using the CPU (i wish ayoumi can hear my voice)
+
+AAC also is to be considered but not Mp3 i don't use that old format at all
+
+-Search option inside windows explorer
+
+-thumbnail generation inside windows explorer (it will make navigation inside folders with big content an easy task)
+
+-media library scan inside media player (as i'm concerned winamp my best audio player) having inside my pc as of now 175643 albums, looking for new content to add to the 
+
+library is always a time consuming task (i hope also that winamp encoder will take advantage of GPU)
+
+-Parallelization  and pipelining  inside the opensource application called Truecrypt
+
+-Real time upscaling of SD Videos To HD Format Inside media players like (Vlc And Media player classic)
+
+-real time video enhancement for low quality videos (noise removable, stabelisation......)
+
+........any other suggestion
+                           
+            
+
+                                 ***god bless you***
+
+              My Sharing Ratio Will Depends On Your Thanks Or Comments 
+               So for every comment i will seed an other full ratio = 100%
+                and for any thanks it will be = 50%
+
+----------------------------------------------------------------------------
+
+Screens: Are included inside the torrent
+
+File Info:
+
+Info: Format                           : MPEG-4
+
+Format profile                   : Base Media
+
+Codec ID                         : isom
+
+File size                        : 1.11 GiB
+
+Duration                         : 25mn 52s
+
+Overal bit rate                  : 6134 Kbps
+
+Encoded date                     : UTC 2010-03-21 09:05:29
+
+Tagged date                      : UTC 2010-03-21 09:05:29
+
+
+
+Video
+
+Format                           : AVC
+
+Format/Info                      : Advanced Video Codec
+
+Format profile                   : High@L4.0
+
+Format settings, CABAC           : Yes
+
+Format settings, ReFrames        : 3 frames
+
+Codec ID                         : avc1
+
+Duration                         : 25mn 52s
+
+Bit rate mode                    : Variable
+
+Bit rate                         : 5979 Kbps
+
+Maximum bit rate                 : 11.8 Mbps
+
+Width                            : 1920 pixels
+
+Height                           : 1080 pixels
+
+Display aspect ratio             : 16/9
+
+Frame rate mode                  : Constant
+
+Frame rate                       : 29.970 fps
+
+Colorimetry                      : 4:2:0
+
+Scan type                        : Progressive
+
+Bits/(Pixel*Frame)               : 0.096
+
+Stream size                      : 1.08 GiB
+
+Encoded date                     : UTC 2010-03-21 09:05:29
+
+Tagged date                      : UTC 2010-03-21 09:06:59
+
+
+
+Audio
+
+Format                           : AAC
+
+Format/Info                      : Advanced Audio Codec
+
+Format version                   : Version 4
+
+Format profile                   : LC
+
+Format settings, SBR             : No
+
+Codec ID                         : 40
+
+Duration                         : 25mn 52s
+
+Bit rate mode                    : Variable
+
+Bit rate                         : 151 Kbps
+
+Maximum bit rate                 : 169 Kbps
+
+Channel(s)                       : 2 channels
+
+Channel positions                : L R
+
+Sampling rate                    : 44.1 KHz
+
+Resolution                       : 16 bits
+
+Stream size                      : 27.9 MiB
+
+Language                         : English
+
+Encoded date                     : UTC 2010-03-21 09:06:57
+
+Tagged date                      : UTC 2010-03-21 09:06:59
+

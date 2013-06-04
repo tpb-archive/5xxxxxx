@@ -1,0 +1,38 @@
+User Type,Username,Date,Text
+,skygear,2010-07-18T11:01Z,i'll seed for as long as i can....  tried to put up on demonoid and even got a confirmation it was done then i refreshed my page and it gave me an error message that the torrent had been deleted by the admin... weird
+,jsl7687,2010-08-12T02:01Z,Does anyone know where I can find the US 24K - West?
+,jsl7687,2010-08-12T02:02Z,Does anyone know where I can find US 24K - West?
+,tismon,2010-09-21T21:13Z,"I can get it to unlock on my device, but does anyone know how to just simply get mapsource to use it as well?"
+,gnomad,2010-10-08T00:36Z,"I have *no* idea what the deal is with the files in this torrent.  The Locked version is unrecognized by neither PC or Mac Installers.  The unlocked img file is not recognized by my GPS.  Nonetheless, after a few hours I was able to figure out how to get these installed on my Mac.  Here is what I needed to do.
+
+First off, don't bother to download the ""locked"" files.  You won't need them.  This will cut your download time in half.
+
+Second, you need to get down to the command line in Windows.  You're on you own in learning that one.
+
+Third, you need Mapsource installed.
+
+Ok,  There are a bunch of EXEs in the ""Garmin Unlock Utility/01 - Find the map product ID"" folder.  Move them into the folder with the unlocked ""gmapsupp.img"" file.
+
+Then run the command ""gmt -S gmapsupp.img""
+
+This will create a bunch of data files and a batch file called ""install.bat""
+
+Run this, and it will merge all of the topo maps into mapsource, and they will be completely unlocked for any GPS.
+
+Now, if you want to get the maps onto a Mac, download the Garmin tool ""Map Converter for Mac""
+
+This will generate a mac package called ""FAMILY_466.gmapi""
+
+Copy this file over to your Mac.
+
+Install it with the Garmin Map Manager for Mac.
+
+Finally, you can use the Garmin MapInstall tool for Mac to install the map panels onto your GPS.
+
+If anyone is interested, leave a note and I'll try to seed the ""gmapi"" package to make life infinitely more easy for OS/X users.
+"
+,DittlyDoo,2011-03-10T18:06Z,Followed GNOMAD's instructions on PC and worked perfectly - Thanks ABUNCH
+,skygear,2011-08-28T06:33Z,"you people realize that there isn't a Garmin Topo 24k Mid Atlantic, right? This was a SD card! yes if you want to install them that is the process, or one of them...
+
+some other releases soon to come... SouthWEST, SouthEAST"
+,skygear,2011-09-06T01:56Z,just use the full instal DVD and create your own cards http://thepiratebay.org/torrent/6645491/Garmin_TOPO_24k_SE_v2

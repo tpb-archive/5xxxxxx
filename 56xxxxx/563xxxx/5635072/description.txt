@@ -1,0 +1,36 @@
+TOIK PanoramaMaker is new automatic photo panorama software that turns any group of overlapping photos into high quality panoramic image. The program combines very simple user interface, step by step workflow and powerful modern mathematical approach to image matching. You can create panorama either automatically with just few clicks, or assemble and stitch pictures manually if automatic procedure fails to perfectly match images in complicated cases. New version adds possibility to create automatically tiled panorama from several rows of photos or a panorama from photos taken with different camera focal length.
+
+Product Info
+
+â€¢ Image Browser
+First step of the workflow is the Add Images screen where you can use the Browser window to browse folders on your computer, to organize your image files, to view images in the File list pane, to sort them, and to select and add photos to the Picture Tray for using in creation of a panorama image.
+
+â€¢ TWO Stitching Algorithms
+At the second step of the workflow â€” Stitch screen â€” you can select the algorithm of stitching
+
+â€¢ Vertical/Horisontal/360Â° panorama stitching
+The program automatically detects if it can stitch Horizontal or Vertical Panorama. You can manually force program to make a 360Â° panorama.
+
+â€¢ Automatic ordering and stitching
+When on the Stitch screen the program analyzes the selected group of photos, puts them in the correct order and calculates panorama in low resolution. Scale, Rotate and Skew image transformations can be used to reach best stitching result. You can set focal length for Lens distortion compensation. At Export stage the program renders high-resolution panorama image with manual or automatic cropping.
+
+â€¢ Manual Mode
+In manual matching mode you can assemble a panorama manually: you can order pictures and stitch all subsequent image pairs by
+placing special markers on the distinctive features in the two overlapping photos. The program prompts to switch to manual mode if it fails to match some photo pairs automatically.
+
+â€¢ Tiled/Multifocus panorama New
+You can select "Compensate lens distortion" and the program will do it for each photo individually. If "High order aberration" is selected, the results will be better; but it requires more time.
+You can set the type of the geometrical projection and use Elevation, Azimuth and Tilt controls to compensate geometrical distortions. You can change these parameters by dragging mouse over the image.
+
+â€¢ Output to Multiple Formats
+You can save your panoramas in JPG, TIF, BMP, PNG, JPC, JP2 image file formats.
+
+â€¢ Printing
+Program lets you print across multiple sheets of paper, supports banner paper and borderless printing and allows printing with overlap for easy assembling and seamless alignment of printed pages.
+
+â€¢ Technology
+The program is based on latest mathematical technologies for image matching in 128-D features space. Fast matching procedure was tuned to maximize the probability of automatic panorama creation from any series of overlapping photos. Automatic image transformation, alignment and color blending are performed according to special image quality criteria to correct image differences in brightness, color balance, camera tilt angle. As a result many stitching defects typical for other panorama stitching application can be avoided or minimized. For version 2.0 the the advanced projective bundle adjustment algorithm was developed.
+
+ OS: Windows 98SE, ME, 2K, XP, Vista,W7
+
+Enjoy

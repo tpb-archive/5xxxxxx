@@ -1,0 +1,75 @@
+
+[size=5][color=darkOrange]bollywood Movie[/color][/size]
+[size=7][color=Darkgreen]
+[color=red][color=Navy]DE DANA[/color] DAN[/color]
+
+[color=black][size=4]FIXED DTS Audio Track ONLY[/size][/color]
+
+[code]
+Tech Specs:
+Source: bD-50 @ DDR
+size: 1.75 Gb
+
+Audio
+Format                           : DTS
+Format/Info                      : Digital Theater Systems
+Codec ID                         : A_DTS
+bit rate mode                    : Constant
+bit rate                         : 1 510 Kbps
+Channel(s)                       : 6 channels
+Channel positions                : Front: L C R, Surround: L R, LFE
+Sampling rate                    : 48.0 KHz
+Resolution                       : 24 bits
+Runtime = 2H43m
+[/code]
+[color="black"][size="6"]*** Audio FIX ***[/size]
+
+Sorry for the inconvenience.
+This is due to a bUG in TSMUXER which cannot handle Audio Files larger than 4 Gb.
+Thus it cut the audio file at 2H04m.
+
+HERE IS THE FIX..
+
+1. Download the NEW DTS AUDIO FILE from 2nd torrent here.
+size = 1.7 Gib
+2. Follow this EASY process to replace the AUDIO with the good file.
+
+- You need MKVMERGEGUI (free soft) download from [url=http://www.bunkus.org/videotools/mkvtoolnix/win32/mkvtoolnix-unicode-4.0.0-setup.exe][U]MKVMerge GUI v 4.0 from HERE[/U][/url].[/color]
+
+Follow this Step by Step process.
+
+A. Open the Original problematic video MKV file you previously download in [color="blue"]MKVMERGE GUI[/color].
+
+b. Select the DTS Audio track & click to [color="Red"]uncheck [/color]it.
+
+C. Click on ADD and browse to the [color="blue"]NEW DTS AUDIO[/color] file you download using the 2nd torrent file.
+It will be loaded in the "Input File" window section.
+
+D. In the "Output Filename" below, put a [color="Red"]NEW [/color]name to the target file.
+ Ex: De Dana Dan (2009) bDrip 1080P DTS Esub Chapters [color="Red"]NEW [/color][DDR].mkv
+
+E. Click on "[I]Start Muxing[/I]" and you are done in less than 5 minutes on a standard PC.
+[size="4"][color="Red"]
+
+STEP1.
+[color="black"]Open Original file "[I]De Dana Dan (2009) bDrip 1080P DTS ESub Chapters [DDR].mkv[/I]" using the "ADD" button.[/color]
+[img]http://leetleech.org/images/02032460458212195157.png[/img]
+
+Uncheck the DTS audio track.
+
+STEP-2.
+
+[color="black"]Load the new DTS Audio file using the "[I]add[/I]" button[/color].
+
+[img]http://leetleech.org/images/58409545342289415748.png[/img]
+
+
+STEP-3.
+
+[color="black"]Change the target file name in the output[/color] "[I]filename[/I]"
+[color="black"]Then click on[/color] "[I]Start Muxing[/I]"
+[img]http://leetleech.org/images/21586237457475240895.png[/img]
+
+*** NEW Audio ONLY Torrent.***[/color][/size]
+
+[/b][/center]

@@ -1,0 +1,20 @@
+User Type,Username,Date,Text
+,ZionXFC,2010-08-20T15:45Z,"Thanks man, 1up.
+BUT
+What is the damned Password for ""Paragon Disk wiper"" and ""Paragon Backup & Recovery 10 Suite""?"
+,chitchatid,2011-10-01T22:32Z,"cool man. how do you do it? compiling with a command prompt? great... great... i haven't tested it yet.
+
+i have a delicate situation. my pc is built for vista. but i insist upon using ide hdd as the system drive. after installing the wxpsp3, uncompleted yet, the system return annoying error: ""A disk read occured. Press Ctrl+Alt+Del to restart.""
+
+i learnt that it is the hardware and software issue from the beginning. the pc only read BCD (Boot Configuration Database) to boot.
+
+as the mobo fails to provide IDE/SATA  controller, i add on a PCI card with ALi chipset having ALi ATA/RAID  Controller and ALi SATA/RAID Controller. such pci card can be operated without any windows driver. they are not produced anymore.
+
+the issue is: any bootable winpe cd cannot detect the hdd connected with such pci card, including:
+1. Acronis True Image Home 2010 and
+2. Paragon Hard Disk Manager 2011 Suite Advanced Recovery CD.
+
+this sucks. i intend to keep such 'mighty' and 'obsolete' pci card preserved and reserved but as the emergecy calls.
+
+can you address my issue?
+thank you for the upload. great jobs"

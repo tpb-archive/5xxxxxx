@@ -1,0 +1,26 @@
+Overview of Particular Interface
+
+Following is an overview of many of main control groups in Particular 2.0.
+
+The Preset Gallery has premade particle animations, called presets, that are an easy way to get started with Particular. Check out the Using Presets page for info about how presets work.
+
+The Emitter group generates the particles. This section controls the shape of the emitter, its initial direction, the velocity of the particles, and moving and rotating the Emitter.
+
+The Particle group controls the properties of the particles, such as size, opacity and color. This section also controls how the properties vary over the particles' lifespan.
+
+The Particle group contains an important popup called Particle Type which sets the base shape of the particles. The Streaklet group controls an interesting new Particle Type is a long exposure, light painting effect.
+
+The Shading group gives the particle scene some special effects shading. This includes the new Shadowlet Setting group, which creates a shadow off the main light for soft, self-shadowing. 
+
+Once emitted, the particles obey certain real world physical rules, as defined in the Physics group. Here are properties such as gravity and turbulence, and controls for making particles bounce on other layers in the composition.
+
+The Aux System group is a particle system within the particle system. Cool, huh? Aux particles are emitted from the particles in the main system. They can be emitted continoulsy or when the particles collide with bounce layers.
+
+The new World Transform group lets you move around and rotate the whole particle system independently of the After Effects camera. 
+
+The Visibility group gives control over where particles are visible. For example, particles far away can be set to fade out. Here are also all obscuration settings, so that layers in the composition can be used to obscure particles.
+
+The newly streamlined Options panel contains two settings for the particle system. These name and activate the Light Emitters and Shadowlets. 
+
+The Rendering group controls how the particles look when they render. The Motion Blur feature gives fast-moving particles a smooth look, like a real camera does.
+

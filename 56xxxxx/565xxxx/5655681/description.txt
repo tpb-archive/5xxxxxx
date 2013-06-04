@@ -1,0 +1,11 @@
+Changes since last release:
+
+* Using my new rewrite of archiso called archiso2. The idea was to get remove the need of base.lzm file for linux-live scripts. I have done just that. I added linuxrc and liblinuxlive scripts into initramfs then copy everything thing into /new_root folder mounted as tmpfs. I made sure the linuxrc is /sbin/init in the /new_root folder also. I move the mounted /proc, /sys, and /dev at the end of /sbin/init also.
+* Everything should work as i did in the last archiso-live. I donâ€™t have same menu like i had in the older releases right now. So this is a english only release at the moment.
+* Boot option keyb is now keymap. lang is now locale. (locale will take the full name that /etc/rc.conf takes. ex. locale=en_US.UTF-8)
+* Also Xorg 1.8 is so good i donâ€™t need chakra-hardware-detection from what i can tell. If you have problems with this iso please report them in the comments. That goes for any problems.
+Everything is up2date as of 8:00PM EST on 20100626.
+
+md5sum : f7fee16f37650c5984444624df9e3858  archiso-live-2010-06-26.iso
+Package list : http://arch-live.isawsome.net/iso/archiso/20100626/packages.list
+Package changes : http://arch-live.isawsome.net/iso/archiso/20100626/update

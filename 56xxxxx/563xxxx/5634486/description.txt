@@ -1,0 +1,78 @@
+New in Stata 11
+
+ Multiple imputation
+
+    * Five univariate imputation methods
+    * Multivariate normal imputation
+    * Most estimation commands supported
+    * Control panel guides you along
+    * Manage MI datasets
+    * More...
+
+ Factor variables
+
+    * Indicators for categorical variables
+    * Interactionsâ€”categorical and continuous
+    * Polynomial terms
+    * Factorial designs
+    * More...
+
+ GMM
+
+    * Linear and nonlinear models
+    * One-step, two-step, and iterative estimators
+    * Cross-sectional, time-series, and panel models
+    * Easily specify panel-style instruments
+    * Interactive version just like nl
+    * More...
+
+ Marginal analysis
+
+    * Estimated marginal means
+    * Predictive margins
+    * Average marginal effects
+    * Average adjusted predictions
+    * More...
+
+ Fonts in graphics
+
+    * Italics and bold
+    * Greek letters
+    * Mathematical symbols
+    * Superscripts and subscripts
+    * Multiple font faces
+    * More...
+
+ Competing-risks regression
+
+    * Time-varying covariates
+    * Cumulative incidence graphs
+    * Predict relative subhazards
+    * More...
+
+ State-space models
+
+    * VARMA Models
+    * Structural time-series models
+    * Unobserved component models
+    * Stationary and nonstationary cases
+    * Kalman filter
+    * More...
+
+ Variables Manager
+
+    * Change storage types, names, and formats
+    * Add and edit value labels
+    * Attach notes to variables
+    * Filter variables
+    * More...
+
+... and many more ...
+
+____________________________________________________________
+
+
+
+1. Download, extract and run - no cracking/hacking required
+2. Update Stata by running "update all"
+3. If you want, change the name of the file "_profile.do" to "profile.do" and re-run Stata - it will add a new submenu Meta-analysis to the User menu

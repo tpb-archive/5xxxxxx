@@ -1,0 +1,5 @@
+User Type,Username,Date,Text
+,tommo39,2010-06-14T12:48Z,ran the portable version but on restarting program the RESTORE backup had been deleted!!
+[V],NoExcuses,2010-06-14T15:48Z,"@tommo39
+Uhm...
+The Portable expand its files in %Temp%\RarSFXx, and the Backup gets saved there too, but when you close the program it deletes the complete dir, and so it goes the Backup. The only way to save it is to copy it out from there before closing the program, or modify the SFX exe to use Path=%Temp%\RD or similar, or extract all the files of the SFX somewgere on the desktop and run the run.bat from there, so it will not delete the backup file. Or install it..."

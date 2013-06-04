@@ -1,0 +1,21 @@
+User Type,Username,Date,Text
+[T],FatFreddy69,2010-06-17T15:04Z,"Use mkvmerge GUI & MKVextractGUI ( http://www.videohelp.com/tools/MKVExtractGUI )
+to mux & demux the dub files & subs.
+###################################
+All subs show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+If the subs are muxed in mkv download & use MKVextractGUI to extract(demux) thesubtitles from mkv, and mkvmerge GUI to mux back the edited/repaired sub in the mkv.
+Download ""Notepad++"" (free): http://sourceforge.net/projects/notepad-plus/ The sub you demuxed from mkv: Open and save as...ANSI !(Important!)
+Right click on the sub/Open with nppIExplorerShell.exe (Notepad++ exe)/click Encoding(upper part menu)/Character sets and chose the language ISO.
+Click again on Encoding/then click on Convert to UTF-8 or Unicode Big
+Indian/save as...srt. You're done with the encoding, now you can mux it back in the mkv with mkvmergeGUI, select the language & mux.
+
+###################################
+
+Those with Win 7 64 bit seem to have issues with playing back secondary or external audio tracks & subs etc.
+If k-lite pack(too complicated) is not working download CCCP ( http://www.cccp-project.net/ ) using the same player MPC).
+When installing leave all as it is (default). When finished open the player, click View/Options/PlaybackOutput/check Evr Costum Pres & chose System Default under DirectShow Audio.
+Under Internal Filters - Source Filters should be checked DirectShow Media, Matroska & MP4 and Transform Filters should have H264/AVC(DXVA) checked.
+Now I can even play Blue-ray m2ts being able to switch between Audio tracks by clicking on the Haali Media Spliter on the task bar bottom right.
+################################### 
+The sample is very small in size to encourage you to dl/test if your system can play it. Cheers."

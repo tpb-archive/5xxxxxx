@@ -1,0 +1,73 @@
+User Type,Username,Date,Text
+[T],SnowCrash05,2010-06-16T05:30Z,Thank you Matey! :-)
+,Godfire1331,2010-06-17T19:24Z,"I installed it following the instruction provided.  Upon reconnecting the internet and restarting, then starting anydvd it says that the trial period has ended.  Reading the other torrents of anydvd, it says to un-check specific settings before reconnecting the internet.  I went back to try this after uninstalling but it still says trial period expired after a fresh install.  Does anyone know how to get by this?  "
+,naveen8354,2010-06-21T12:11Z,"Figured out the problem. After using reg file, you have to rename an extension to a file usually at 
+C:\Documents and Settings\All Users\Application Data\SlySoft\AnyDVD\AnyDVD.chk just rename to bak or something."
+,psikofunkster,2010-06-25T23:13Z,no mate naveen8354 your trick doesn't work for windows 7 cause the file structure change.
+,ljob12,2010-06-26T20:23Z,"psikofunkster: It works, it's just a different path. The windows 7/Vista path is C:/ Program Data/ Slysoft/ AnyDVD"
+,RR92,2010-06-29T11:24Z,"Thank you for the upload. I followed the above advice, but found the necessary file in C:\Users\All Users\Slysoft\AnyDVD."
+,war59312,2010-06-30T23:19Z,"Start Then Type In CMD In Search And Run:
+
+ren ""C:\Users\All Users\SlySoft\AnyDVD\AnyDVD.chk"" AnyDVD.chk.bak
+
+Easiest way really."
+,Biigskron,2010-07-01T01:25Z,I've tried all these and am still coming up with the Trial period has ended.  Any other ideaz?
+,fredpc,2010-07-02T18:15Z,"Here is my detailed fix 
+
+1) Uninstalled the old version of anydvd 
+2) Make sure your disconnected from the net
+3) Install the new anydvd 
+4) If it asks to reboot (do it )
+5) When the computer restarts anydvd will load (you will get trial version) now close anydvd 
+6) Add the key (which is usually a reg key)
+7) Open anydvd and you should have a fully registered version 
+8) If you get ""trial expired"" don't worry move on 
+9) Do a search for anydvd.chk and delete it or rename it to anydvd.bak.......you will have to enable hidden files and folders the locations are as follows 
+
+for xp the location is:
+C:\Documents and Settings\All Users\Application Data\SlySoft\AnyDVD\AnyDVD.chk or anydvd.lic
+
+for vista:
+C:\Program Data\Slysoft\Anydvd\anydvd.chk or anydvd.key or anydvd.lic
+
+for windows 7 the location is:
+C:\Program Data\Slysoft\Anydvd\anydvd.chk or anydvd.key or anydvd.lic
+
+10) Now open anydvd you should have a fully registered version while your there go to settings and disable updates 
+11) You can now reconnect to the net
+12) Enjoy  
+
+ps some of the newer versions are using a anydvd.lic file which can be renamed or deleted
+
+sathanas65..........came up with another option with anydvd.chk file......open with notepad delete entries and save and then right click on anydvd.chk and select properties......then select read only..........this will work as well"
+,psikofunkster,2010-07-03T06:57Z,"thanks fredpc your stupi'd trick doesn't work and disable old versions of anydvd from functioning, thanks asshl#$"
+,fredpc,2010-07-04T13:32Z,"psikofunkster
+
+I guess you can't READ, and that you can't use a computer either except to fling swear words
+
+It says to remove old anydvd before proceding,I guess you didn't READ that Far
+and if you followed the directions to the letter you would have a fully working copy   
+
+I thankyou for calling me an assh#le....cause I'm the assh#le that found the fix "
+,psikofunkster,2010-07-07T05:06Z,no fredpc your 3$#$ trick doesn't work only creates more problems
+,VISailor,2010-07-09T23:01Z,Works Great!nThanks Hellboy & fredpc
+,fredpc,2010-07-10T15:03Z,"psikofunksterrnrnWhat Os are you running ??? Win 7 ??? rnDo you even know ??? rnrnWhy would I create more problems for others, when I\'m trying to help you out ??rnrnI think you\'d better take lessons in how to use software , coz you don\'t seem to know how rnrnI\'m surprised you know how to turn it on ,or does mummy do it for you ???rn"
+,psikofunkster,2010-07-10T21:31Z,fredpc i bet you work for slysoft.....
+,psikofunkster,2010-07-10T21:38Z,"yes im using windows 7 fredpc and doesn\'t work, there is no file .chk only a .lic and if you change that to read only anydvd doesn\'t work anymore."
+,fredpc,2010-07-10T22:52Z,"Sorry I don\'t work for slysoft rnrnDid you enable hidden files and folders ???rnrnDid you look in programdata NOT programfiles ???rnrnThat step is where most people get it wrong rnrnI am helping you ,not trying to cause you grief"
+,fredpc,2010-07-10T22:57Z,btw....don\'t use the seach function....do a manual search.....eg...start....computer....drive.C\\Program Data\\Slysoft\\Anydvd\\......now look for one of these........anydvd.chk...........anydvd.key or anydvd.licrnrn
+,psikofunkster,2010-07-11T03:51Z,"yes i enabled hidden files and folders, but there is only one file anydvd.lic nothing more nothing less. Im using windows 7 ultimate"
+,psikofunkster,2010-07-11T03:53Z,"sorry man, it really cost me many many minutes to restore back to version 6.6.4.8 after having installing this new version and followed the install instructions."
+,psikofunkster,2010-07-11T03:58Z,and if i change that file i get an exception error while starting anydvd.
+,fredpc,2010-07-11T22:00Z,psikofunkster.......I use.....Win7...Ultimate....Win7...Home....and xp...and never..had...problem....with...any...of..them.............If you try a next time remove old anydvd first and do a registry clean.......then install the new version.....and make sure that you not connected to the net...and that you disable updates...in the settings
+,fredpc,2010-07-11T22:02Z,btw when you uninstall the old anydvd does it ask you to save registry info ????  if it does ask say no
+,loadeded,2010-07-13T05:22Z,"fredpc you fix works just fine, Here it is agian explained in Barney style.rn1. disable network bak  (after reboot software will auto launch with trial expired if network is up. See setp 7)rn2. Unistall old version, during uninstall click no to not save registry info.rn3. install 6.6.6.0rn4. Reboot rn5. In C:\\ProgramData\\SlySoft\\AnyDVD rename anydvd.chk to anydvd.bakrn6. In program settings uncheck \""Automatically check for new versions of Anydvd.\""rn7. If you did not disable the nic you will get trial expired.  Disable the nic. In C:\\ProgramData\\SlySoft\\AnyDVD  delete anydvd.bakrn"
+,loadeded,2010-07-13T05:25Z,I have tried this on multiple computer and it works perfectly.
+,fredpc,2010-07-13T14:53Z,loadededrnThanx for the positive comment .........rnI know it works coz I found the cause and wrote the fix for this software
+,steelersno1,2010-07-19T10:12Z,Works perfectly on XP. Thanks to all involved for this essential app.
+,JuStReLaXaY,2010-07-27T13:57Z,Works perfectly! Thanks heaps champ
+,JuStReLaXaY,2010-07-27T13:58Z,Works just like it should on vista after followin ur install notes. Thanks heaps champ!
+,thewoodishard,2010-08-04T22:13Z,"Can anyone help please, after install I’m getting the “Your trial has ended” window, I have done everything as per instructions, uninstalled the old one and deleted any files associated with slysoft including hidden, registry, and program. Rebooted, then fresh install and all I get is the trial has ended. Been at this for about 4 days now and it‘s really pissing me off, any help would be very much appreciated.  "
+,repsolfireblade05,2010-08-09T07:14Z,"thanks for this great d/l  hellboy your a legend ,,and thanks a shitload to you to fredpc for your info ,keep up the great work guys..cheers"
+,repsolfireblade05,2010-08-09T07:21Z,"works fine with windows 7 im no genius ,,follow fredpc steps ,,go to program files not x86 files and you will see 2 files 1 is the chk file and the other is the lic file i only changed the chk file and didnt touch the lic file ,,it works perfect,,"
+,repsolfireblade05,2010-08-09T07:27Z,"sorry go to program data ,,not program files,,,"

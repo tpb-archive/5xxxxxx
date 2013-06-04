@@ -1,0 +1,35 @@
+This torrent is the newest piece of downloadable content for Bioware's epic RPG Dragon Age: Origins, titled Leliana's Song, released 06 July 2010.
+
+It is a standalone module that also comes with a unique item for use in the original game and its expansion, Awakening.
+
+-=-=Installation=-=-
+
+1. If not already, update your game to v1.03.  You can find the patch easily on the internet.
+2. Locate and run daupdater.exe in the "bin_ship" folder where you installed the game.
+3. Click "Select DAZIPs" and select all 4 DAZIP files in this torrent.
+4. Highlight all the files in the list and click "Install Selected"
+5. Upon completion, run decrypt_all.bat from the "DLC Decrypter" folder of this torrent.
+6. Locate AddIns.xml in "C:/(Username)/Documents/Bioware/Dragon Age/Settings" and edit it using WordPad or any XML editor. Replace all RequiresAuthorization="1" with RequiresAuthorization="0".
+7. Run the game and check to see if everything worked!  Click "Other Campaigns" and the DLC should be visible and playable.
+
+Cheers!
+
+ATTENTION: If you are getting an error while installing the DLC, it is most likely caused by a corrupt AddIns.xml.  Navigate to where it is located and delete both it AND Manifest.xml.  You will need to reinstall the Awakenings expansion (if you have it) and any previous DLC.  This should solve your problem.
+
+NOTE: The unique item can only be accessed after collecting all masterpiece leather items and completing the main campaign.
+
+NOTE: This version of the DLC Decrypter will ONLY decrypt this DLC.  It is not a generic decryption tool and must be modified to decrypt other DLC.
+
+-=-=Info=-=-
+
+Number of files: 7
+Total size: ~529 MB
+
+** Please seed until your ratio is at least 1.50. Remember, SHARING is CARING!
+
+
+
+dANGER boy
+
+Check out my other torrents here:  
+http://thepiratebay.org/user/dANGER_boy/

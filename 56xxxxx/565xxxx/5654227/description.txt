@@ -1,0 +1,274 @@
+Multi Password Recovery
+
+Multi Password Recovery (MPR) - multifunctional password recovery and auditing solution for Windows. MPR instantly finds and recovers passwords from more than 100 popular applications (FTP, E-mail clients, Instant Messengers, Browsers and so on). It also checks saved passwords for vulnerabilities, can delete lost and stored passwords, shows passwords hidden behind asterisks, copies SAM file, can generate new passwords. 
+
+Supports decryption for the following applications:
+
+FTP clients
+
+    * Windows/Total Commander 4.x, 6.x, 7.x
+            Recovers Windows and Total Commander FTP passwords stored in wcx_ftp.ini. 
+    * FAR Manager 1.6x, 1.7x, 2.x
+            Recovers FAR and FAR2 FTP Manager passwords stored in HKCUFarPluginsFTPHosts, HKCUFar2PluginsFTPHosts registry paths. 
+    * WS_FTP 5, 6, 7, 8, 9, 10, 12 Home/Pro, 2007
+            Recovers WS_FTP FTP passwords stored in ws_ftp.ini and win.ini files. 
+    * CuteFTP Home/Pro (mostly all versions)
+            Recovers Cute FTP Home, Pro and Lite version passwords stored in sm.dat, smdata.dat, tree.dat files.
+            Quick save passwords can be also decrypted. 
+    * FlashFXP 1.x-3.x
+            Recovers FlashFXP passwords stored in Sites.dat, Quick.dat, History.dat files.
+            Quick save passwords can be also decrypted. 
+    * FileZilla 2.x
+            Recovers FileZilla passwords stored in filezilla.xml, sitemanager.xml, recentservers.xml files.
+            Recent servers and Firewall (Proxy) passwords can be also decrypted. 
+    * FTP Commander Pro/Deluxe (mostly all versions)
+            Recovers FTP Commander passwords, Pro and Deluxe versions aswell stored in ftplist.txt files. 
+    * FTP Navigator (mostly all versions)
+            Recovers FTP Navigator passwords stored in ftplist.txt files. 
+    * BulletProof FTP Client 1.x, 2.x
+            Recovers BulletProof FTP passwords stored in bpftp.dat files. 
+    * SmartFTP 1.x, 2.x
+            Recovers SmartFTP passwords stored in Favorites.dat, History.dat and .xml files. 
+    * TurboFTP 5
+            Recovers TurboFTP passwords stored in addrbk.dat files. 
+    * FFFTP 1.x
+            Recovers FFFTP passwords stored in registry path HKCUSoftwareSotaFFFTPOptions. 
+    * CoffeeCup FTP 3.x
+            Recovers CoffeeCup FTP passwords stored in registry path HKCUSoftwareCoffeeCup SoftwareInternetProfiles.
+            Firewall (Proxy) passwords can be also decrypted. 
+    * Core FTP 2.x
+            Recovers Core FTP passwords stored in registry path HKCUSoftwareFTPWareCOREFTPSites. Firewall (Proxy) passwords can be also decrypted. 
+    * FTPExplorer 7.x
+            Recovers FTPExplorer passwords stored in registry path HKCUSoftwareFTP ExplorerProfiles. 
+    * Frigate3 FTP 3.x
+            Recovers Frigate3 FTP passwords stored in FtpSite.XML files. 
+    * UltraFXP 1.x
+            Recovers UltraFXP FTP passwords stored in sites.xml files. 
+    * FTPRush 1.x
+            Recovers FTPRush passwords stored in RushSite.xml files. 
+    * SecureFX (mostly all versions)
+            Recovers SecureFX FTP passwords stored in .ini files 
+    * Web Site Publisher 2.1.0
+            Recovers Web Site Publisher FTP passwords stored in registry path HKCUSoftwareCryerWebSitePublisher. 
+    * BitKinex 3.0.8
+            Recovers BitKinex FTP passwords stored in bitkinex.ds files. 
+    * ExpanDrive 1.8
+            Recovers ExpanDrive FTP passwords stored in registry path HKCUSoftwareExpanDriveSessions. 
+    * Classic FTP PC (mostly all versions)
+            Recovers Classic FTP PC passwords stored in registry path HKCUSoftwareNCH SoftwareClassicFTPFTPAccounts. 
+    * Fling (mostly all versions)
+            Recovers Fling FTP passwords stored in registry path HKCUSOFTWARENCH SoftwareFlingAccounts. 
+    * SoftX FTP Client (mostly all versions)
+            Recovers SoftX FTP passwords stored in registry path HKEY_USERSSoftwareFTPClientSites. 
+    * Directory Opus (mostly all versions)
+            Recovers Directory Opus FTP passwords stored in .oxc files 
+    * FTP Uploader (mostly all versions)
+            Recovers FTP Uploader passwords stored in .exe files 
+    * FreeFTP (mostly all versions)
+            Recovers FreeFTP passwords stored in SharedSettings.ccs files 
+    * DirectFTP (mostly all versions)
+            Recovers DirectFTP passwords stored in SharedSettings.ccs files 
+    * LeapFTP (mostly all versions)
+            Recovers LeapFTP passwords stored in sites.dat files 
+    * WinSCP (mostly all versions)
+            Recovers WinSCP FTP saved passwords stored in registry path HKCUSoftwareMartin PrikrylWinSCP 2Sessions. 
+    * 32bit FTP (mostly all versions)
+            Recovers 32bit FTP passwords stored in 32BitFtp.ini files. 
+    * WebDrive (mostly all versions)
+            Recovers WebDrive FTP passwords stored in registry path HKCUSoftwareSouth River TechnologiesWebDriveConnections. 
+    * FTP Control 4
+            Recovers FTP Control passwords stored in .prf files. 
+
+E-mail clients
+
+    * Outlook Express 6.0
+            Recovers Outlook Express POP3, IMAP, NNTP (news), HTTP (hotmail.com), SMTP server passwords stored in registry.
+            Recovers Outlook Express Identity access password. 
+    * Outlook 2000 (MSO 2000), 2002 (MSO XP), 2003 (MSO .NET), 2007
+            Recovers Outlook POP3, IMAP, NNTP (news), HTTP (hotmail.com), SMTP server passwords stored in registry and Protected Storage.
+            Recovers Outlook Identity access password.
+            Recovers Outlook PST (Outlook Personal Folders) access password stored in .pst files.
+    * Mozilla Thunderbird 1.0, 1.5.x, 2, 3.x
+            Recovers Mozilla Thunderbird POP3, IMAP, SMTP e-mail passwords stored in signons.txt, signons.sqlite and *.s files. 
+    * The Bat! v. 1.x, 2.x, 3.x, 4.x
+            Recovers The Bat! POP3, IMAP, SMTP e-mail passwords stored in account.cfg and account.cfn files.
+            Dial-up and account access passwords stored by The Bat! are also decrypted. 
+    * Becky 2.x
+            Recovers Becky POP3, IMAP, SMTP e-mail passwords stored in Mailbox.ini files.
+    * Eudora/Eudora Light (mostly all versions)
+            Recovers Eudora POP3, IMAP, SMTP e-mail passwords stored in Eudora.ini and signons.sqlite files. 
+    * Gmail Notifier (mostly all versions)
+            Recovers Gmail Notifier application passwords stored in Protected Storage and Windows Credentials.
+    * Mail.Ru Agent 4.x, 5.x
+            Recovers Mail.Ru Agent client passwords stored in magent_logins, magent_logins2, mra_logins, mra_logins2 files.
+    * Opera Email Client
+            Recovers POP3, SMTP, IMAP passwords stored by Opera built-in e-mail client in accounts.ini and wand.dat files.
+    * IncrediMail (mostly all versions)
+            Recovers IncrediMail POP3 and SMTP passwords stored in HKCUSoftwareIncrediMailIdentities registry path.
+    * Group Mail Free (mostly all versions)
+            Recovers Group Mail Free POP3 and SMTP e-mail passwords stored in fb.dat files.
+    * Vypress Auvis 2.x
+            Recovers Vypress Auvis client passwords stored in HKCUSoftwareVypressAuvisSettings registry path.
+    * PocoMail 3.x, 4.x
+            Recovers PocoMail POP3 and SMTP e-mail passwords stored in poco.ini files.
+    * Forte Agent 3.x
+            Recovers Forte Agent POP3, SMTP, News (NNTP) passwords stored in agent.ini files.
+    * iScribe/nScribe 1.x
+            Recovers iScribe and nScribe POP3, SMTP, IMAP passwords stored in ScribeOptions.xml files.
+    * POP Peeper 3.x
+            Recovers POPPeeper POP3, SMTP and account access (admin) passwords stored in poppeeper.ini files.
+    * Mail Commander 8.x
+            Recovers Mail Commander POP3 and SMTP e-mail passwords stored in profiles.txt files.
+    * Windows Mail (mostly all versions)
+            Recovers Windows Mail POP3, SMTP, IMAP, NNTP (news), HTTP e-mail passwords stored in .oeaccount files.
+    * Windows Live Mail (mostly all versions)
+            Recovers Windows Live Mail POP3, SMTP, IMAP, NNTP (news), HTTP e-mail passwords stored in .oeaccount files.
+
+Browsers
+
+    * Opera 6.x, 7.x, 8.x, 9.x, 10.x
+            Recovers Opera Browser auto complete form (wand) passwords stored in wand.dat files, encrypted wands with master password set (strong-protection) are not supported at the moment.
+            Also recovers basic-auth web and FTP passwords, passwords from Opera built-in e-mail client stored in accounts.ini file. 
+    * Mozilla Browser 1.7.x
+            Recovers Mozilla Browser web form, http (basic-auth) and ftp passwords stored in signons.txt file. 
+    * Internet Explorer 4, 5, 6, 7, 8
+            Automatically recovers all types of Internet Explorer passwords. MPR is able to decrypt passwords stored in Protected Storage and inside Windows Credentials file. Active Form passwords within current open Internet Explorer tabs and hidden behind asterisks are also decrypted using OLE (Object Linking and Embedding) technology.
+            Auto complete, Saved Form, Basic-auth (http and https) and FTP passwords are deciphered instantly. 
+    * Mozilla Firefox (mostly all versions)
+            Automatically recovers all types of Mozilla Firefox passwords stored in signons.sqlite, signons.txt, signons2.txt, signons3.txt. Encrypted signons with master password set (strong-protection) are not supported at the moment.
+            Firefox must be installed in order to decrypt the passwords.
+            Autocomplete, Saved Form, Basic-auth (http and https) and FTP passwords are deciphered instantly. 
+    * Google Chrome 1.0
+            Recovers Google Chrome saved form, basic-auth and FTP passwords stored in Web Data file.
+            You have to close the browser in order to decrypt all the passwords. 
+    * Apple Safari 3.2
+            Recovers Apple Safari Browser saved form passwords stored in keychain.plist files. 
+
+Dialers
+
+    * Windows Remote Access Service (RAS), VPN and Dial-up passwords
+            Recovers Virtual Private Network (VPN) and Dial-up passwords stored by Windows Remote Access Service in rasphone.pbk files. 
+    * EType Dialer 1.x
+            Recovers E-Type Dialer dial-up passwords stored in edialer.ini files. 
+    * MuxaSoft Dialer 3.0, 4.0, 4.1
+            Recovers MuxaSoft Dialer dial-up passwords stored in mdialer.ini and *.mdp files. 
+    * FlexibleSoft Dialer 2.x-4.x
+            Recovers FlexibleSoft Dialer dial-up passwords stored in *.set files. 
+    * Advanced Dialer 2.x
+            Recovers Advanced Dialer dial-up passwords stored in HKCUSoftwarePySoftAutoConnect registry path.
+            Accounts with master password set (strong-protection) are not supported at the moment. 
+    * Dialer Queen 1.x
+            Recovers Dialer Queen dial-up passwords stored in *.ini files. 
+    * VDialer 3
+            Recovers VDialer dial-up passwords stored in Vd3User.dat files. 
+
+Download managers
+
+    * Download Master 4, 5
+            Recovers Download Master http, https and ftp download task passwords stored in *.xml and *.spl files.
+            Proxy passwords stored by Download Master can be also decrypted. 
+    * GetRight 5
+            Recovers GetRight http, https and ftp download task passwords stored in *.inifiles. 
+    * FlashGet (JetCar) 1.6, 1.71, 1.8
+            Recovers FlashGet http, https and ftp download task passwords stored in *.jcdfiles.
+            Proxy and dial-up passwords stored by FlashGet can be also decrypted. 
+    * Internet Download Accelerator 5
+            Recovers Internet Download Accelerator (IDA) http, https and ftp download task passwords stored in plsf.dat, plsh.dat and *.spl files.
+            Proxy passwords stored by IDA can be also decrypted. 
+
+Instant messengers
+
+    * QIP 2005a
+            Recovers QIP ICQ passwords stored in config.ini files.
+            QIP Infium password recovery is not supported at the moment. 
+    * Miranda IM 0.2.x, 0.3.x, 0.4.x, 0.5.x, 0.6, 0.8
+            Recovers Miranda IM ICQ, AIM, MSN, Yahoo, MRA, Gadu-gadu, Jabber profile passwords stored in *.dat files. 
+    * ICQ 99b-2003b, Lite 4, Lite 5
+            Recovers ICQ passwords stored in HKCUSOFTWAREMirabilisICQNewOwners registry path and *.dat files. 
+    * MSN Messenger 1.x-7.x
+            Recovers MSN Messenger passwords stored in HKCUSoftwareMicrosoftMSNMessenger, HKCUSoftwareMicrosoftMessengerService registry keys and in Windows Credential Service. 
+    * Windows Messenger
+            Recovers Windows Messenger passwords stored in HKCUSoftwareMicrosoftMessengerService registry path. 
+    * Yahoo! Messenger 3.x-6.x
+            Recovers Yahoo! Messenger passwords stored in HKCUSoftwareYahooPager registry path. 
+    * &RQ 0.9
+            Recovers &RQ ICQ passwords stored in andrq.ini files. 
+    * Trillian 0.x, 2, 3
+            Recovers Trillian ICQ, AIM, MSN, Yahoo! and profile access passwords stored in aim.ini, msn.ini, yahoo.ini and profiles.ini files. 
+    * AOL Instant Messenger (older versions)
+            Recovers AOL Instant Messenger (AIM) passwords stored in registry path HKCUSoftwareAmerica OnlineAOL Instant Messenger (TM)CurrentVersionUsers.
+            Note that versions above 6.1 are not supported. 
+    * GAIM 1.x
+            Recovers GAIM ICQ, AIM, Gadu-Gadu, MSN, Jabber, IRC, Napster, Silc, Yahoo, QQ, Meanwhile, Simple, Novel, MySpace passwords stored in accounts.xml file. 
+    * Odigo 4
+            Recovers Odigo passwords stored in *.odu file. 
+    * IM2 (Messenger 2) 1.5.x
+            Recovers IM2 passwords stored in accounts.xml files. 
+    * SIM 0.9
+            Recovers SIM UIN and E-mail passwords stored in clients.conf files. 
+    * Google Talk (mostly all versions)
+            Recovers Google Talk client passwords stored in HKCUSoftwareGoogleGoogle TalkAccounts registry path, Windows Credentials or Protected Storage subsystems.
+            Firewall (Proxy) passwords can be also recovered. 
+    * PSI (mostly all versions)
+            Recovers PSI passwords stored in config.xml files. 
+    * Faim 0.1
+            Recovers Faim ICQ, AIM passwords stored in HKCUSoftwareFaim registry path. 
+    * Windows Live Messenger
+            Recovers Windows Live Messenger passwords stored in Windows Credentials subsystem. 
+    * Paltalk (mostly all versions)
+            Recovers Paltalk password stored in HKCUSoftwarePaltalk registry path. 
+    * Excite Private Messenger 1.x
+            Recovers Excite Private Messenger passwords stored in HKCUSoftwareExcitePrivateMessenger and Windows Crdentials service. 
+    * Gizmo Project (mostly all versions)
+            Recovers Gizmo passwords stored in HKCUSoftwareSipphoneGizmo ProjectAccounts registry path. 
+    * Pidgin (mostly all versions)
+            Recovers Pidgin ICQ, AIM, Gadu-Gadu, MSN, Jabber, IRC, Napster, Silc, Yahoo, QQ, Meanwhile, Simple, Novel, MySpace passwords stored in accounts.xml file. 
+    * AIM Pro (mostly all versions)
+            Recovers AIM Pro passwords stored in HKCUSoftwareAimg/IM/AIMPro registry path. 
+    * MySpaceIM 1.0
+            Recovers MySpace IM passwords stored in users.txt files. 
+    * Pandion 2.5
+            Recovers Pandion passwords stored in global.xml files. 
+    * QIP.Online (mostly all versions)
+            Recovers QIP Online profile access passwords stored in HKCUSoftwareQIP.OnlineQIP.Onlineaccountsaccount registry path. 
+    * JAJC (Just Another Jabber Client) (mostly all versions)
+            Recovers JAJC jabber passwords stored in HKCUSoftwareABstract SoftwareJAJCAccounts registry path. 
+    * Digsby (build 19635)
+            Recovers Digsby passwords stored in Digsby.dat files. 
+    * Trillian Astra (mostly all versions)
+            Recovers Trillian Astra passwords stored in accounts.ini files. 
+
+Other
+
+    * Windows registration key
+            Recovers Windows CD-KEY stored in HKLMSOFTWAREMicrosoftWindows NTCurrentVersion registry path. 
+    * ClubTimer 2.2-2.7
+            Recovers ClubTimer admin and client access passwords stored in clients.dat files. 
+    * Punto Switcher 2.5-2.9
+            Recovers Punto Switcher diary access passwords stored in HKCUSoftwarePunto Switcher registry path. 
+    * WinVNC 3.x
+            Recovers WinVNC client passwords stored in HKCUSoftwareORLWinVNC3 registry path. 
+    * Screen Saver Win9x
+            Recovers Screen Saver password stored by Windows 95, 98 and ME in HKCUControl PanelDesktop registry path. 
+    * ASP.NET Account
+            Recovers ASP.NET Account password stored by Windows. 
+    * Remote Desktop Connection
+            Recovers Remote Desktop Connection passwords stored in Windows Credentials and Default.rdp files. 
+    * The Bee 1.x
+            Recovers The Bee passwords stored in TheBee.ini files. 
+    * FreeCall 3.x
+            Recovers FreeCall account login and passwords stored in HKCUSoftwareFreeCallFreeCallAccounts registry path. 
+    * CamFrog 3.x
+            Recovers CamFrog password stored in HKCUSoftwareCamfrogClientProfileInfo registry path. 
+    * PC Remote Control (mostly all versions)
+            Recovers PC Remote Control password stored in HKCUSoftwarePC Remote Control registry path. 
+    * UPSMon 2.8
+            Recovers UPSMon access password stored in UPSMON.ini file. 
+    * Cisco VPN Client 5
+            Recovers Cisco VPN client password stored in .pcf files. 
+    * Microsoft Access .mdb password recovery
+            Unlocks password protected Microsoft Access .mdb files. 
+    * Windows Cached Credentials (.NET Passport, Domain and Network passwords)
+            Recovers passwords stored using Windows Credential subsystem: .NET Passport, Windows Domain, Cached Network (LAN) passwords. 
+    * Windows 9x Cached Network passwords
+            Recovers Windows 95, 98, ME Cached Network (LAN) passwords. 

@@ -1,0 +1,90 @@
+User Type,Username,Date,Text
+,jersson,2010-06-13T19:35Z,What happened to your Nero vers. It just disappeard ?
+,azjeanne,2010-06-15T16:46Z,Thank you for the download...where or how do I find the serial to activate?
+,chaucerchris,2010-06-22T05:06Z,"Here are your so called brilliant and helpful instruction. Use serials + instructions from the Serial Box 06.2010"" Where are the serials and instructions and this Serial box to be found? There's the install and three folders. deploy, packages and payloads. 
+
+Other people who post this bother to place such serial, keygen and instructions in the main. This is useless and your so called helpfulness stinks. Thank you. i'll now go and get this from somewhere else where others can be bothered to give clear and more helpful instructions. "
+,skirix,2010-06-26T21:53Z,"is it so difficult? y lol!
+http://lmgtfy.com/?q=Serial+Box+06.2010
+
+fst link:
+http://www.wtfmacos.ru/?p=14403"
+,priscillaflores,2010-06-26T23:59Z,"well I'm downloading it right now, I already have stuff in the terminal and host file that lets me use PSCS5 and IllCS5 no problem.  "
+,priscillaflores,2010-06-27T00:58Z,"well just to let everyone know, this actually worked for me, but I didn't do any serial box thing, when it downloaded it had a serial key in it with the last four characters XXXX at the end, then everything installed, and as usual it asked for an ID, but I always skip that.  Everything works fine for me, I have everything.  It's great!!!n "
+,incaico,2010-08-06T05:18Z,Installed eggxactly how Anonymous zed.  Serial Box is AWESOME!
+,cmoose35,2010-08-12T17:44Z,I'm new to this site....is there a fee for Serial Box?  Or is there a free version to get the serial numbers for Adobe CS5 Master Collection
+,carsonb,2010-08-14T00:33Z,"This was a little confusing at first as a new Mac user. @chaucerchris - can only version 6 be used? @priscillaflores - where in the files specifically was that serial?
+
+Here's what I did that worked:
+1) downloaded and installed Serial Box 06.2010
+2) downloaded and installed this CS5 file
+3) looked up the serial in Serial Box, entered in CS5 install"
+,crezfortech,2010-08-19T14:25Z,"Do I need to pay for the serial Box?  I see the Russian version or whatever, but what exactly am I downloading?  Sorry I am a old newbie... Any Suggestions? I saw the first link, but I ask for email and registration and money...... :("
+,jimsterjk7,2010-08-28T22:34Z,"i don't know what to do after installation so that after effects won't keep telling me i need another serial code. all i can do is turn off the internet everytime and re-enter serial code. what do i do so it will stop asking me for a new serial?
+
+ where can i find the host file and what do i replace it with???"
+,eyedownload,2010-08-29T20:52Z,"hello, i have a downloaded the
+Serial Box 06.2010	file, however on the mac, and it will open with a short about of text, then about 7 pages of random characters, letters and numbers, and tried finding readers, is there a serial someone could post here?  Or which type of reader would someone recommend.  thanks"
+,mkplanet,2010-08-31T17:43Z,"Thank You
+Macallee King"
+,eyedownload,2010-09-01T16:29Z,"Got the serial numbers to work, however each time i open a program it states it's invalid, so is it reconnecting to the site or has anyone else had this problem?  "
+,Mrcvdvr,2010-09-03T16:04Z,"Must be me... I've downloaded Serial Box 06.2010 
+But i can't find any serial to work? Where do i search for? Adobe Creative Suite or seperate applications like photoshop?"
+,Nash-LR,2010-09-06T02:47Z,"Here is what you do: 
+
+Install CS5 on your Mac. Disconnect from the Internet. Open one of the applications, say Photoshop. Insert a serial number. It really doesn't matter which number. Use one from the serial box. It will be accepted. It is only when CS5 calls home to check the number that it will be rejected. But you are going to prevent CS5 from calling home. So, enter a serial number.
+
+Next, open a Terminal window, and type
+
+sudo -s
+
+Press Enter
+
+Now type your Administrator Password (you won't see what you type as it is not displayed) 
+
+Press Enter
+
+Then type this, or better yet, copy this text and drop it in Terminal:
+
+if [ ""$(grep -o adobe.activate.com /etc/hosts)"" = ""adobe.activate.com"" ];
+then exit 0
+else  
+echo ""127.0.0.1     adobe.activate.com"" >> /etc/hosts
+exit 0
+fi
+
+Press Enter. Quit Terminal.
+
+Now restart your Mac, connect to the Internet and open Terminal again. Then type:
+
+ping activate.adobe.com
+
+Press Enter
+If Terminal comes back with this message:
+
+64 bytes from 127.0.0.1 
+
+then it worked and you can use cs4 without any problems. 
+
+This is how I did it after downloading the trial version from the Adobe site.
+
+Good luck.
+
+
+"
+,Nash-LR,2010-09-06T19:04Z,"CS[b]5[/b], then you can use cs[b]5[/b] without any problems."
+,Blaanth,2011-04-11T09:04Z,"I followed the instructions, but when I go to install the program, I get the following message: installer failed to initialize. please download Adobe Support Advisor (which I did). This found no issues. Then I downloaded the Adobe cleanup program - it found no old files to delete. What do I do now?"
+,omthedome,2011-05-23T16:51Z,"Good job, thank you very much."
+,PixelTech,2011-05-24T16:58Z,1MB/s Download speed. =D
+,MustL0veD0gs,2011-06-29T22:39Z,"I'm having issues with the Bridge application. It opens and the menu at the top works fine, but the actual window doesnt load images properly, it acts as if its buffering and doesn't fully load. I tried to reinstall photoshop, but that did not fix the problem. Is there anything I can do to make it work properly? my email is mariyanovitski@yahoo.com Thank you!"
+,IXLGuy06,2011-11-06T03:19Z,"I have Adobe CS5 Master Collection ready to ship.
+All Updates Work As Of November 2011!!!
+100% Working
+Exact copy of the retail Apple store version that sells
+
+Contact me at IXLGuy@yahoo.com
+
+I have other MAC goodies
+
+This is great for people who do not want to spend forever getting it"
+,stjsweeps,2012-05-21T21:50Z,ok i for real need a key code. none of the ones on this thread have worked for me...nor any links to a key generator. Help? anybody?

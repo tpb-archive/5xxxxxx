@@ -1,0 +1,15 @@
+This is a tiny tuned Fedora Core 12 i686 (32-bit) VMware virtual appliance with the ability to easily adjust the root volume size at any time.
+
+Here are a few of the features:
+
+    * Base system installed only, Use 'yum' to install what you want
+    * Fully updated to 7/1/2009 with kernel PAE-2.6.32.14-127.fc12
+    * kernel is tuned to 100hz clock and a few other optimizations in /etc/grub.conf
+    * All un-necessary services have been disabled
+    * Open VM Tools has been installed
+    * On-Demand Volume Sizing - Super easy adjustment of volume/filesystem size as needed
+    * Runs easily in a 256M RAM virtual machine
+
+For more info: http://minfc12.office.bensoft.com/minFC12/
+
+

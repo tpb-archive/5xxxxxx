@@ -1,0 +1,17 @@
+easy trick to use wmTorrent  3 free forever:D
+
+seeeeeeeeeeeeeeeeeeeed please
+
+plus many many many wm users face the problem of disconnecting their internet and this damn wmtorrent does not even auto connect to internet.
+
+I have a solution no need to buy any software for this tiny-miny thing just edit in your windows mobile registry set 1 to auto connect internet and 0 to turn auto connect
+
+HKEY_LOCAL_MACHINE
+Comm
+ConnMgr
+Providers
+{7C4B7A38-5FF7-4bc1-80F6-5DA7870BB1AA}Connections
+*your connection name*
+AlwaysOn = 1
+
+sorry as I typed regkey like this because the 'hash' sign is not shown in allow in description

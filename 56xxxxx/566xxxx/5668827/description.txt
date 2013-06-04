@@ -1,0 +1,28 @@
+Cracked AES (Airport Enhancement Services) for FS2004/FSX
+
+How to install:
+
+1. Deinstall AES from FS scenery.cfg
+
+2. Delete the AES folder (FS9AerosoftAES)
+
+3. Delete the following registry entries:
+
+HKEY_LOCAL_MACHINE SOFTWARE aerosoft [cryptic string]
+
+HKEY_LOCAL_MACHINE SOFTWARE aerosoft AES-Basepack&AirportPack - FS2004 (if it's not removed after deinstallation)
+
+HKEY_USERS [Looong cryptic string] SoftwareVB an VBA Program Settings [same cryptic string as above]
+
+4. Run the AES 2.05 exe from the download and install it normally. After AEShelp starts u have a fresh install of the product, but without serials.
+
+5. Run the aes_crack exe and follow every instruction on screen. After install, it starts AEShelp and this time you have the serials but unfortunately the old 2.04 database.
+
+6. Run the AES 2.05 exe again and after it finishes the install just exit AEShelp. Now you have both AES2.05 and a lot of serials :D
+
+Again after few FS starts it will give fault message, but if you run the crack exe then the AES 2.05 exe every time before FS start it will work perfectly.The order is important! I know this is quite hard but I found no other method to get AES2.05 working. I hope I was clear, please write if you have problem.
+
+Note: this method does not work with 2.06 unfortunately.
+
+
+Happy flights!

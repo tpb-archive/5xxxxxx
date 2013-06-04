@@ -1,0 +1,43 @@
+User Type,Username,Date,Text
+,sdcheeran,2010-06-05T15:33Z,34 seeds and bittorrent isnt loading any of them... maybe i should reset my comp
+[V],twentyforty,2010-06-05T16:13Z,"@sdcheeran: It's always good start, if you change IP address by doing comp. reset. If one have external modem/router connected to network adapter - one can do power off/on sequence just for router/modem and doing Local Area Connection Status>Support>Repair in WinXP (I have no clue for other Windows"").
+Check however your Settings in BitTorrent.
+Here is small excerpt from my older answer and I guess you can find something interesting there:
+QUOTE:
+""Usage of ""rigged"" and ""patched"" torrent programs (as from ""leecher pack"" ) is not recommended (or to aggressive Transmissions ? record is 257 requests per minute even if client can go 32 kB/s). Also, banning (kicking all other peers) from Azureus and KTorrent is not recommended. Irregular torrent clients (as Shareazes and MLDonkeys) are also not recommended. Putting initial-seed flag (there is only one who can do that ? me) or KEEPING YOUR UPLOAD SPEED AT MINIMUM (""'cause someone told me so"" ) during the download (it is lowest kind of s*it one can do) aren't desirable.
+All these recommendations can be taken as decisions for ""FOF"" target rules (in short ? if something goes bad; not recommended ones will be kicked out first). 
+
+BiT Tornado as the fairest torrent program IS RECOMMENDED.
+
+Also, for XP, use patched tcpip.sys or patch it from TCP-Z. Your modems/routers control panel/page has ability to open designated ONE TCP and ONE UDP port for your torrent programs. Do it! 
+
+Widest acceptances today have high-numbered ports (ranging 55000-60000). Use them, 'cause uPnP in 98% cases cannot do it properly. Use 3rd party firewalls rather than built-ins, not because they are better, but they are ""harder"" to hack. Update virus definitions daily. Firewalls and anti-virus programs always come in some free version, use them and forget about hacked programs. 
+
+Finally, DO NOT run Windows without logging-in in created account/user and protected by password. For sure it isn't convenient, but may offer you some better protection. Also, Windows users' should disable Remote Assistance, in Control Panel and in Services. Close biggest open-house doors.
+
+---------------------------------------------
+
+As someone who has been on Internet last 12 years, I can almost guarantee that some of you drag and look as snails, because you are too lazy to follow advice.
+
+1st. ? XP users MUST use patched tcpip.sys or patch it from TCP-Z. Set on 60 half-open connections. There is a solution for Vista too. Your torrent program must be set to: accept 256 global connections, 16 (or 32), 8 upload slots per torrent, Google.
+Most of you ARE CHOKED by leechers, empty request, attacks from above dot net guys and so on and on. You are sitting ducks for them.
+
+2nd. ? ALL should pay a visit to their user pages of their ISP (Internet Service Provider) and look around, get informed and make adjustments. Why? Because most of the modern providers offer different services ? as anti-spam filtering, virus-checking of incoming mail AND firewalling. 
+Most ISPs by DEFAULT switch on firewalls ? 'cause of your security ? but this ISP firewall must be switched off (disabled) by you ? user. You cannot achieve decent speeds or connect at all to P2P network with activated ISP firewall. Thousands of Providers use firewall (tactic) to prevent (protect) you from misdoings. 
+
+3rd. ? USE ports in range 50000 to 60000, not lower (one TCP and one UDP).
+
+4th. ? OPEN these ports in modem/router. Google ? every modem/router has different procedure ? almost ALL of them are detailed on some site.
+
+5th. ? Use (as I said) YOUR firewall and antivirus. It should be 3rd party programs, not built-in ones. XP Windows users should disable Remote Assistance, Firewall/Security Center (become useless), in Control Panel ""System"" and in  ""Adm.Tools/Services"".
+
+6th. ? Set your torrent programs to use Encrypted traffic ONLY ? and DO NOT accept (allow) unencrypted connections.
+
+7th. ? IF you feel like be throttled-down by ISP do following:
+	a) Apply every tip I gave above
+	b) Use uTorrent from 1.8.4 up
+	c) In"
+[V],twentyforty,2010-06-05T16:17Z,"Stupid ""?"" signs were ""invented"" by page/submit-script here, not written by me. Sorry."
+,sdcheeran,2010-06-05T20:16Z,thanks for the knowledge... will try to follow these steps
+,believenu,2010-06-12T03:02Z,"have been gone for couple weeks but most of my shows over for the year so not a lot of loss.I thank you for the upload trying new possibally interesting shows of this is one. 
+seeding is sharing."

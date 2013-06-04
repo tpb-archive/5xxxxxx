@@ -1,0 +1,59 @@
+KMPlayer 2.9.4.1437
+
+A Korean media and DVD Front-End Player
+
+KMPLAYER is a Korean movie and audio player that supports a wide range of codecs and file formats, It has full VCD/DVD playback functionality.
+
+KMPlayer is a program that allows you to play audio and video files.
+
+Here are some key features of "KMPlayer":
+
+Supported Files or Devices:
+Â· HTTP Streaming(AVI etc including none-streaming media)
+Â· Directshow playback (avi, mkv etc)
+Â· Real Engine + Directshow (needs Real Player or Alternative)
+Â· QuickTime Engine + Directshow (needs QuickTime player or Alternative)
+Â· Mplayer Engine Support
+Â· Winamp Input Plugin(decoder) Support
+Â· Compressed Audio Album Support(zip, rar)
+Â· Audio CD(2000, XP only / Win9x-Support by winamp plugin)
+Â· Video CD/SVCD/XCD : CDXA Format (2000, XP only)
+Â· DVD playback
+Â· DTS Wave and AC3 files
+Â· WDM device support like TV or Camera
+Â· CD Image File (BIN/ISO/IMG/NRG) ; NRG needs mplayer.dll
+Â· Shoutcast (Including NSV)
+Â· AAC, OGG parser/decoder
+Â· Shockwave Flash/FLC/FLI
+Â· Ape/MPC/Flac/Module etc
+Â· Various Image files like png, gif etc
+Â· Incomplete/Damaged AVI file (Skip Damaged Frames)
+Â· Locked Media Files while downloading or sharing
+
+Built-in Codec/Filters:
+Â· Video Codec
+Â· MPEG4 (Divx/Xvid : ffmpeg/xvid)
+Â· MPEG1/2 (ffmpeg/libmpeg)
+Â· etc (ffmpeg)
+Â· Audio Codec
+Â· AC3/DTS/LPCM/MPG/MP3/OGG/AAC/WMA
+Â· 2Ch to Multi Channel expansion
+Â· External Codec
+Â· Media Priority to Connect among Directshow, Real, QT, Winamp and Mplayer
+Â· Custom Filter Manager
+Â· System Filter Manger
+
+Plugins:
+Â· Winamp Input Plugins
+Â· Winamp DSP Plugins (Can Stack)
+Â· Winamp Visual Plugins (Can Stack)
+Â· Winamp General Plugins (Media Library etc Support)
+Â· KMP Video Plugins by SDK (Can Stack)
+Â· DScaler Filter Support (Can Stack)
+
+What's New in This Release: [ read full changelog ]
+
+Â· added multithread support.
+Â· modified supporting SMC codec.
+Â· removed the message that have occured when Flash ActiveX isn't installed.
+Â· added Album Art ON button which will be showed when you use internal skin.

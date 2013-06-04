@@ -1,0 +1,26 @@
+Changelog :
+10.0 - 7/4/2010
+  Updated hdparm 9.29
+  Updated wiper 2.7
+  Updated syslinux 4.01
+  Updated xorriso 0.6.0
+  Updated cdrskin 0.8.4
+  Updated sleuthkit 3.1.3
+  Updated LVM2 2.02.69
+  Updated chntpw 100627
+  Updated testdisk/photorec 6.12-WIP June 2010
+  Updated sylpheed 3.0.3
+  * Removed Thunderbird, but it can be installed in X.
+  * Fixed problem (in xsetup and autologin) when "Xorg -configure" chooses
+    the framebuffer driver and there's no framebuffer device.
+  * There's only these non kernel boot options:
+    autologin      "Automatically login!"
+    nokeymap       "Don't prompt for a keymap choice!"
+    keymap=fr      "Specify console keymap! (overrides nokeymap)"
+    xlogin         "Automatically login and start X!"
+    xkeymap=fr     "Specify X keymap! (depends on xlogin and overrides nokeymap)"
+    xdriver=intel  "Specify X video card driver! (depends on xlogin)"
+    * This is a patched 32-bit kernel option!
+    nologo         "Turn off Penguin logo whe
+
+md5sum : 3455f547f174852014854aa0250558d7  RIPLinuX-10.0.iso

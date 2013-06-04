@@ -1,0 +1,46 @@
+User Type,Username,Date,Text
+,toinksiam,2010-07-17T03:00Z,INSTRUCTIONS!!!!rn---------------rn1. Install WindowsXPMode_en-us  FIRSTrn2. Install WindowsVirtualPC          SECONDrn3. Install WindowsXPModeUpdate  THIRDrnrn^^nube here! icant find WindowsVirtualPC hehe! any idea?
+,acatas,2010-07-17T06:10Z,Well whats wrong...?
+,Pink_Bob88,2010-07-19T18:20Z,"toinksiam... 
+All three files are in the torrent..."
+,AlienProxity,2010-07-30T08:11Z,What does this torrent exactly do..?
+,acatas,2010-08-03T05:23Z,"""Windows XP Mode and Windows Virtual PC, available on Windows 7 Professional and Windows 7 Ultimate, allow you to run multiple Windows environments, such as Windows XP, from your Windows 7 desktop."""
+,toinksiam,2010-08-09T01:58Z,works gerat at w7 64bit. sorry obove!
+,Simcut1982,2010-08-16T00:18Z,Thanks for this :)
+,dietSnapple666,2010-08-21T17:49Z,"I need this for 32bit, this one didnt work for me. i know it said for 64bit i tried it anyways... any help?"
+,scrdppy,2010-09-13T09:35Z,"md5 sums for these:
+bf3726d684d3acb98185665123c9efcf *WindowsXPMode_en-us.exe
+88c4cd0d80989ba391b1f1066328e40e *WindowsVirtualPC.msu
+211d6a1697b34893d08e4cae3efc35e4 *WindowsXPModeUpdate.msu
+c38688a555f7705f5df57057c33845f7 *Instructions.txt"
+,scrdppy,2010-09-13T09:36Z,"what I noticed is that the big exe has same md5sum as the torrent named ""Microsoft Windows Virtual PC And XP Mode 7600 16393 RTM ML-DivxM""...
+So likely you won't find an updated exe but you will find the updates *.msu and maybe you only need the *.msu files for 32 or 64bit
+these here worked perfectly on win7 64bit and also note virtualbox won't work if you have any virtualpc aka xp mode machines running, but vmware workstation works ok - at the same time with xp mode (also vmware and virtualbox work fine at the same time)"
+,scrdppy,2010-09-13T09:37Z,"same md5sum as the torrent from another site named ""Windows 7 XP Mode RTM Leaked [GLADRAG_MANHUNT] "" which was upped on 12/10/2009"
+,scrdppy,2010-09-13T10:10Z,"ok, I don't know what I changed in virtualbox and virtualpc aka xp mode that they now can run at the same time (ubuntu was always in my virtualbox) so maybe disregard my previous comment about virtualbox and xp mode not working at the same time. Maybe there was also a reboot that did the trick."
+,scrdppy,2010-09-15T14:05Z,"it appears that by unticking aka disabling USB controller (in virtualbox on the current vm) and also unticking System->Enable absolute pointing device (since it needs the above disabled USB constroller) allows me to run virtualbox and virtualpc xp mode at the same time; I was using a CA-42 clone cable which is an usb to TTL serial with ark3116 chip by arkmicro , and only had drivers for winxp(not win 7 64bit) and xp mode was the only vm that could do it (vmware and virtualbox couldn't); so maybe this cable being plugged was affecting xpmode and virtualbox being able to run concurrently"
+,scrdppy,2010-09-17T00:43Z,"erm, that probably wasn't it because , if I have ubuntu in virtualbox running and I'm just starting XP Mode, the virtualbox will insta fail like power failure for ubuntu inside it. And I have to start virtualbox again and works ok.
+But if I start XP Mode first, then virtualbox (in this order) then they both work ok running at the same time."
+,downloader979,2010-09-19T15:39Z,"yeah- only works on the versions that are supposed to have it- doesn't work on 7 64bit home. O well, i guess il just partition the drive, and install xp sperately. thanknss for the upload, and il continue to seed"
+,scrdppy,2010-10-03T13:16Z,"err hi again lol :)
+in virtualbox, I had to disable VT-x/AMD-V setting for the virtual machine and now xp mode and virtualbox work with each other at the same time w/o problems. This issue is likely only on AMD processors (?) not sure though."
+,sumitchahal,2011-02-16T12:40Z,Does this work on 64 bit or 32 bit?
+,matey456,2011-03-08T21:37Z,just wanted to add my thanks for uploading this. i've been looking for a way to get this working for ages!
+,Shadow420,2011-03-12T19:07Z,"Why is this one so much smaller than the other one
+?"
+,dothackjhe,2011-06-02T16:03Z,Thanks for this. ^________^
+,doonbugie,2011-07-30T14:35Z,"Contains malware, don't download it. Some malware noted... yu.exe, z.Moth, some toolbar shit and some other executables and worms. Aswell as a keylogger."
+,ItsPete,2011-08-02T21:12Z,Scanned clean for me and worked perfectly.
+,achint123,2011-09-15T20:19Z,"3 file in this torrent..how it works...
+first who's file install..pls say guys"
+,Cobes26,2011-10-16T20:40Z,"I have a problem trying to get Virtual PC in Fullscreen mode. I've set up Windows XP fine with virtual pc but when I try to go into full screen, it says the resolution is too high and switches out of full screen. My resolution on my Windows 7 64bit is at 1366x768. That is also the same resolution in XP. But when I try to enter full screen in that resolution it still says the resolution is too high, even though it's the exact same resolution as my Windows 7! Either I'm stupid or missing something here because it's been frustrating me all day. Does anyone know how to actually properly put XP in complete full screen without any black walls beside the display? Thanks, any help will do."
+,cywin,2011-10-28T18:18Z,Works perfect on windows 7 32 bit thanks for sharing
+,Edweirdo,2012-05-31T16:58Z,"This is the same copy you can download directly from Microsoft.
+
+THIS COPY ONLY WORKS WITH:
+Windows 7 Professional, Enterprise, or Ultimate.
+
+I tried it with my Windows 7 Home Premium 64bit, and it does not work.
+
+The uploader says in his instruction text that it 
+""may work"" Thanks for wasting my time."

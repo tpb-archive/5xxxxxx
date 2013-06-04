@@ -1,0 +1,46 @@
+Blue Project SysTracer Pro v2.2: trace your system changes
+
+SysTracer is a system utility tool that can scan and analyze your computer to find changed (added, modified or deleted) data into registry and files.
+
+SysTracer can scan your system and record information about:
+changed files and folders
+modified registry entries
+system services
+system drivers
+applications that are configured to run at computer startup
+running processes
+loaded dlls
+
+Each scan operation performed with SysTracer generates a binary image file representing a snapshot of your system.
+
+Recording the snapshot usually takes a few minutes depending on your system complexity. You can choose to scan only specific parts from folders or registry, in order to speed up the recording process.
+
+By comparing snapshots from before and after a new program installation or execution, you can determine which files or registry entries were added, changed, or deleted.
+
+You can create as many snapshots as you may want or need, and you can compare anytime any pair of them, having the possibility to export differences to HTML list.
+
+SysTracer Pro
+
+SysTracer Pro is an enhanced version of SysTracer. SysTracer Pro have advanced functionality like exporting and importing snapshots, useful in order to compare snapshots taken on different computers.
+
+With SysTracer Pro you can search for files, folders and registry information into recorded snapshots.
+SysTracer Pro have command line support, for automating recording snapshots and exporting snapshots differences.
+Visit SysTracer features section for a detailed comparison matrix between SysTracer and SysTracer Pro.
+
+Remote scanning - track changes from network computers
+
+SysTracer have support for remote scanning, providing you an easy way to take snapshots of your network computers.
+In order to allow scanning, each computer from your network will have a SysTracer executable installed as windows service.
+The management of the entire process is done from a single computer (server) with a SysTracer instance running in normal desktop mode. From this server you will be able to control each SysTracer client by selecting scan targets, sending scan commands and receiving resulted snapshots.
+
+System Requirements
+
+Windows XP, 2003, Vista, 2008, Windows 7
+Internet Explorer 6.0 or later
+
+Instructions:
+
+Run Systracer_setup_en.exe
+Choose the place to install the software and finish the setup
+Start the program and open the key.txt file
+Use the serial key to register the product.

@@ -1,0 +1,57 @@
+Complete pack to use Triiforce + Sneek with all cios
+
+
+
+ISWAD :
+
+-Copy the "apps" and "isWad" folder to the root of your SD card then run "isWad_mod_by_Maeiky".
+
+-Select ios 36, navigate to "cios install" and install FIRST IOS248 v19(38)
+
+-Then reload, you have now the ios 248 has default ios, now you can install anything.
+
+-Navigate again in the "cios install" folder and install all other cios for Triiforce, cios 249 rev 19, Hermes v4 and Wiimc.
+
+
+
+TRIIFORCE with all games INCLUDED:
+
+This is USB only, extract the "Triiforce_Nand_With_All_Games_by_Maeiky" content to the root of your external usb drive on a Fat32 partition.
+
+This version is made to work with the cios rev 19, be sure you have the IOS245 v17 installed (see iswad)
+
+Then start Triiforce_mod_by_Maeiky and Enjoy
+
+
+Manage your game with ShowMiiWads in the tools folder
+
+This is a mod version by me and not final, I corrected some bugs and made it to work with a large number of games, all source are include change it as you want.
+
+I don't have tested all game, some may not work.
+
+
+
+SNEEK :
+
+The DarkWii_Ntsc_Decrypted_Nand_by_Maeiky.rar is a working nand dump of my Wii in 4.2 already decrypted with dark theme to view difference when loaded in Sneek. 
+
+-Cios corp v3.6 installed
+-Cios 249 rev 17
+-Priiloader with hacks
+
+To install :
+
+-copy "_BOOT_Sneek_SD" contain folder to SD root 
+-extract DarkWii_Ntsc_Decrypted_Nand_by_Maeiky.rar to SD root
+
+If you have bootmii in boot2 this will boot on Sneek
+else set your priiloader autoboot on bootmii or run Bootmii_Sneek
+
+
+
+TOOLS:
+
+qwbfsmanager : A great tool to manage your wii games on a WBFS partition
+
+
+Universal unbrick disc v4 : Unbrick your wii with the savemiifree if you have <= 3.2 wii or a Drivekey or an autoboot disc method already installed like priiloader_hacks/starfall

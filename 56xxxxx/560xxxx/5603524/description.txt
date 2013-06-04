@@ -1,0 +1,55 @@
+Important: 
+You must have CodeGear RAD Studio Update 3 for Delphi 2007/C++Builder 2007 installed for this patch to work.  This patch will not install correctly on any previous versions. To be sure, open up the about box and ensure that you have version 11.0.2804.* installed. If the third number in that sequence is less than 2804, do not install this patch.
+
+Release Notes:
+The RAD Studio December update contains fixes for approximately 280 problems in many product areas, including:
+
+    * The IDE
+          o Code Editor
+          o Project Options
+          o Project Manager
+          o Code DOM
+          o Error Insight
+          o Help Insight
+          o File handling
+          o HTML/ASP
+          o Object repository
+          o Code Completion
+    * Install
+    * Database
+          o DBExpress
+          o Data Explorer
+          o BlackfishSQL
+          o Fields Editor 
+    * Debugger
+    * ECO
+    * Internet XML Data Binding
+    * Modeling
+    * Compilers and RTL
+          o Delphi
+                + Parameterized types
+                + Overloading of generics
+                + CLR import
+          o C++
+    * SOAP/WSDL Importer
+    * VCL
+          o Dialogs / TOpenDialog
+          o StdCtrls / TLabel and TMainMenu
+          o Forms / TApplication
+          o Menus / TMainMenu 
+
+More Info:
+http://cc.embarcadero.com/item/25238
+(Requires active subscription and valid license to download, so I'm sharing)
+
+Special Note for Vista/7:
+From https://forums.codegear.com/thread.jspa?threadID=35119&tstart=1
+The install may appear to hang on "Validating install". The solution is to simply wait and allow it to continue on its own. It will finish eventually. 
+
+Files:
+RADStudioDec2007setup.exe
+(Well packed already, 7-zip couldn't make it smaller)
+
+VirusTotal Report (0/41):
+http://www.virustotal.com/analisis/e1b5c5d8a5fee40cf51a01a880210bafaa54f58aa37c075f172fa22614e5f0c6-1275437198
+(It's clean)

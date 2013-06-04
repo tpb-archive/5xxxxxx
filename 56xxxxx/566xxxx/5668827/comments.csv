@@ -1,0 +1,115 @@
+User Type,Username,Date,Text
+,NSRacer,2010-07-04T18:39Z,whats wrong with the old database? i mean can't i stick to that or it won't work
+,etomee2,2010-07-05T09:35Z,"If you just want to use the program with old database some new airports won't start. And for mickyfinnnny, I will check your problem."
+,klint_jack,2010-07-05T21:15Z,thanks!!
+,klint_jack,2010-07-05T21:17Z,thanks
+,Cathay777,2010-07-06T02:44Z,"Where delete the following registry entries?
+
+HKEY_LOCAL_MACHINESOFTWAREaerosoft [cryptic string]
+
+HKEY_LOCAL_MACHINESOFTWAREaerosoftAES-Basepack&AirportPack - FS2004 (if it's not removed after deinstallation)
+
+HKEY_USERS [Looong cryptic string] SoftwareVB an VBA Program Settings [same cryptic string as above]
+"
+,etomee2,2010-07-06T15:05Z,there is a / sign between them but TPB does not show it so HKEY_LOCAL_MACHINE->SOFTWARE->aerosoft... etc in the registry
+,dash8captain,2010-07-06T21:23Z,"Attention ladies and gentlemen this is your captain speaking; 
+
+1. Right click on the AES help icon on your desktop, a window appears...click on properties
+
+2. Click ""Find Target"". (This will open the AES folder)
+
+3. Right click on AES_0001.DAT, click properties then check ""Read Only"", click apply then click ""ok""
+
+4. Right click on AES_0002.DAT  click properties then check ""Read Only"", click apply then click ""ok""
+
+5. Next, open the ""Scenery"" folder in the AES Folder and right click on  AES_LFFFF0.BGL click properties then check ""Read Only"", click apply then click ""ok""...that's it. Done!
+
+The error message should not show up again no matter how many times u launch the Sim. When you need to change your AES configuration, or activate airports, just remove the ""Read Only"" status from the three (3) files and once you are finished re-apply the ""Read Only"" and fly to your hearts delight...Maintain Airspeed."
+,etomee2,2010-07-06T23:15Z,"Hmmm.... Your instructions appears to be working :D 12 FS starts without error message... If you don't mind, can I add this to the torrents description? Anyway thanks"
+,GregC8902,2010-07-09T17:23Z,Dude i badly need help..its not working for me! Here\'s what i\'ve done.. 1. Deleted everything AES involved. 2Installed 2.05.. 3. Then the Crack 3. Then restarted the computer as it told me 4. Install 2.05 again and when i run AES Help it has serials but no EIRESIM Cork or Shannon.! It had it the first time and i cant remember how i got it! :(
+,GregC8902,2010-07-09T21:05Z,Or else could someone try and get the files from 2.07 for Cork and Shannon and convert them to 2.04..I\'ve tried but it wont work! :)
+,imagnusmr,2010-07-12T09:47Z,Any idea how to add more credits? Never thought that 99 would be not enough hahahaha
+,tvr_284,2010-07-18T18:48Z,"i did that process, but i've no credits. just demos and some ""full"""
+,sabre32,2010-07-22T07:35Z,How do you deinstall from Scenery.cfg?
+,bart9494,2010-07-24T04:28Z,How do you delete from the registry?
+,MajorWales,2010-07-31T15:20Z,"for people not knowing how to delete from registry, you need to open up regedit (search in start) and open it up. it should have a UI like my computer or my documents. on the left, you have multiple options. two of these should be HKEY_LOCAL_MACHINE and HKEY_USERS. open up HKEY_LOCAL_MACHINE. if you are running vista or W7, you need to go to this: HKEY_LOCAL_MACHINE -> SOFTWARE -> AEROSOFT -> Airport Enhancement Systems - delete this folder. there is also a folder name with a load of jibberish (eg: 732fj84fnfnv7n8v78vn3) delete that as well.
+
+then, you go to HKEY_USERS -> Jibberish line -> VB and VBA program settings OR Software VB and VBA
+
+and delete the folder inside (jibberish named folder)
+
+then you can install :)"
+,crazy4torrents10,2010-08-02T22:27Z,"it says that im using illegal serial numbers and will not start.... i installed v2.05 , then crack, then again v2.05. Any help?"
+,tfkdougal95,2010-08-11T00:33Z,"Anybody want to trade serials?
+
+haiiryjellybean@ymail.com.
+
+1 for 1 or 2 for 2.
+
+You send me 1 working you get 1 back.
+
+Simple
+
+Thanks"
+,hahahah1,2010-08-24T19:07Z,"Requesting AES 2.07!
+Needed for Amsterdam X..."
+,hahahah1,2010-08-24T19:08Z,Request for AES 2.07!
+,tjmufc,2010-09-05T23:46Z,it saye used iligal keys plz put 6 keys to continue useing aes any help plzzzzzzzzz
+,the deed,2010-09-06T10:38Z,REQ: AES 2.07 working...
+[T],stevekasian,2010-09-17T03:05Z,"STFU deed boy - everyone want AES 2.07 ""working"", so it goes without saying. Do you see anyone with any credibility on here requesting FSDT Honolulu or KLAS, which everyone and their brother wants? No, because that's fucking stupid.
+
+Instead of requesting shit, try SHARING some of your shit. You'd be quite surprised at the things that tend to come your way when you GIVE rather than TAKE."
+,irikimoss,2010-10-02T06:07Z,"I can't get Aerosoft Madeira to work with this version, with neither the 2.05 nor the 2.04 databases. Has anyone tried it ?"
+,irikimoss,2010-10-02T06:42Z,"ignore last post. seems for AES to work in Madeira, it is necessary to have Autogen Density to at least Sparse (I had none)."
+,choisw84,2010-10-27T19:11Z,what download??
+,Alfa4,2010-11-29T22:20Z,How to transfer the 2.05 blacklisted serials to a newer version like 2.08?
+,Alfa4,2010-11-29T22:34Z,"By the way, I know how to compute the first and last string for the serials. Problem is the middle string and the way (if any) relationship with the first and last string.-"
+,rafs9fly,2010-12-28T02:22Z,Please send serials to rafs9fly@aol.com. I'd appreciate it :) Thanks in advance! 
+,gotbutchi,2011-01-01T09:31Z,"I've tested and work perfectly. Thanks a lot !
+"
+,chaoshon,2011-01-24T17:28Z,"@gotbutchi
+
+How have you managed to install this? I find it difficult as I'm a new pirate..
+
+BTW I have FSX.
+
+1. ""Deinstall AES from FS scenery.cfg
+Wait a sec, what should I ""deinstall""? Am I not suppose to download it? Or should I install the trial (with the 10 credits) first? And will it work if I install the 2.09 version?
+
+2. Again, not sure why am I suppose to even have this folder..
+
+The rest of the steps are pretty clear, but not the first ones.. I'll be glad if someone helps, sorry for my ignorance.."
+,gotbutchi,2011-01-29T19:20Z,"@chaoshon:
+-The first deinstall step is only for the people who already had the older version of AES. If you don't have any then you can skip it :)
+
+-This only work for 2.05,do not install 2.09 or it will screw everything up!"
+,hellboyhuy,2011-01-31T20:00Z,"Can anyone show me how to do this in Window7 64x. The tutorial just can apply for 32x.
+
+I don't know where i can find the jibberish is
+
+I have to go to HKEY_LOCAL_MACHINE/SOFTWARE/Wow6432Nodl/Aerosoft/ AES-Basepack&AirportPack - FS2004
+
+HKEY_USERS/[Looong cryptic string] Software/VB an VBA Program Settings and then Microsoft/VBA
+I can't apply the crack. After the crack it's still 0 credit
+
+PLEASE HELP"
+,fridbergj,2011-02-03T10:23Z,"Can anyone crack AES 2.08 
+BTW this download works fine.
+Tanks"
+,idanba,2011-02-16T18:19Z,don't work make error in me..
+,David-7237,2011-03-14T20:16Z,does anyone have FS2Crew Voice commander for lvl-d and PMDG?
+,karank88,2011-05-01T15:40Z,"Thanks! Can someone please upload 'MultiCrew Experience' for Flight Simulator 2004 ? 
+Link : http://www.multicrewxp.com/index.html"
+,xmazingx,2011-06-26T17:09Z,Anyone help i do everything it says then load AEShelp and it says 'Info:You have used illegal serialnumber in the past! You must add 6 valid SN to get AES back to work' Anyone know whats wrong?
+,aa928,2011-07-30T00:27Z,"How to completely uninstall AES from Windows 7:
+
+1. Go to the Aerosoft folder in the main FS9 folder and delete the remaining AES folder in FS9/Aerosoft/AES and also delete AES from the scenery.cfg.
+2. go to the start menu click Run, and type Regedit.exe.
+3. When the folder opens click HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Aerosoft\{D48E210F-8F8C-404e-B3D7-F4BF6881F193}
+Delete this file
+4. Then click HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\aerosoft\AES-Basepack&&AirportPack
+Delete this file
+5. Then click HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\aerosoft\Airport Enhancement Services
+Delete this file
+6. Then go to HKEY_USERS\S-1-5-21-1214440339-1450960922-839522115-1004\Software\VB an VBA Program Settings\{D48E210F-8F8C-404e-B3D7-F4BF6881F193}
+Delete this file aswell"

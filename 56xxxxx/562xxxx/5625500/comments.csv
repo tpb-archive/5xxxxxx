@@ -1,0 +1,181 @@
+User Type,Username,Date,Text
+,cheno1115,2010-06-21T17:51Z,Where are the seeds?
+,xoyass666,2010-06-22T13:52Z,NEED SEED PLZ !!! (67%) !!
+[T],sk4nz,2010-06-22T18:03Z,"Sorry, I've to pass some exams (me and my computer ^^) so I can't seed everytime... Thursday it will be fine.. Sorry"
+,xoyass666,2010-06-23T02:20Z,yep now its good : 2 seeds !
+,xoyass666,2010-06-24T21:19Z,stuck @ 94% !
+,ddlekhan,2010-06-27T20:20Z,"Merci, enfin une version française.
+
+Je ne sais pourquoi, je n'ai réussi à installer que l'anglais avec les soi-disant versions ""multi""de 4 DVD et 15 Go...
+
+Sinon c'est une version retail/boîte ?"
+[T],sk4nz,2010-06-29T20:27Z,"Version Retail Multilingue, que j'ai allégée pour ne prendre en compte que le français et que j'ai repack en .iso"
+,avilash,2010-07-05T23:02Z,dude......... are those cd keys worked....?????? sombody answer please...........
+,nocturnal75,2010-07-06T10:44Z,"Salut, j'ai installer en suivant tes instructions mais à chaque ouverture du logiciel il me demande toujours de rentrer la clé car elle était incorrect et j'ai tester toutes tes clés, toujours ce panneau qui me stipule qui me reste 30 jours d'essais, aurait tu une solution à mon problème? Je suis sur windows 7.
+"
+,nocturnal75,2010-07-06T11:04Z,"Salut, j'ai installer suivant tes instructions mais à chaque démarrage de Cs5 il m'affiche la fenêtre pour choisir entre continuer l'évaluation ou entrer une clé, j'ai tester toutes tes clés rien ne change, si tu as une solution sa serais cool merci. (je suis sur windows 7)"
+[T],sk4nz,2010-07-07T21:52Z,"@avilash : all these keys works, of course.
+
+@nocturnal75 : Tu dois mal avoir appliqué patchHOSTS.cmd ou dumoins, il n'a pas du avoir d'effects. Retente de le lancer en tant qu'administrateur et avec ton antivirus désactivé (en effet, le petit programme écrit dans le fichier C:\Windows\System32\drivers\etc\hosts, ce qui peut etre pris pour une action malveillante par un antivirus).
+Pour vérifier si l'ordinateur a bien été isolé des serveurs adobe, il suffit d'ouvir l'invite de commande et de taper :
+find ""adobe"" %WINDIR%\System32\drivers\etc\hosts : si une liste IP/Nom de domaine apparait, c'est que le crack a été bien effectué !"
+,Mizoux,2010-07-11T23:15Z,Set-up ne marche pas apres telechargement et apres excecution du patch hosts
+[T],sk4nz,2010-07-12T08:53Z,"@Mizoux : C\'est ? dire ? Le processus \""Set-Up.exe\"" est-il bien pr?sent dans le gestionnaire des t?ches ?"
+,totoseven,2010-07-27T11:19Z,Sur Win 7 il faut ?x?cuter patchHOSTS.cmd en admin
+,totoseven,2010-07-27T11:30Z,Meme en executant le patch en tant qu'administrateur cela ne fonctionne pas ...   :/
+,totoseven,2010-07-27T11:38Z,"En fait cela vient peut etre des mises ? jour ?
+sk4nz, faut il bloquer les mises ? jour?"
+,totoseven,2010-07-27T11:39Z,"sk4nz, faut il bloquer les mises ? jour ?"
+[T],sk4nz,2010-07-28T00:46Z,"@totoseven : pour ce qui est de l'activation il y a : https://thepiratebay.org/torrent/5720249/. Pour les mises a jour, aucun probleme !"
+,.Rambot.,2010-08-01T08:23Z,"I know you said its French, but does it have English or allow for English on install?
+Also, can you still get updates from adobe?
+
+Thanks. :)"
+[T],sk4nz,2010-08-19T03:19Z,"@.Rambot. : No, this is only the French version.. So you can get updates with this crack"
+,misterflash,2010-08-24T03:45Z,"Tout d'abord sk4nz merci pour ton up!
+Est ce que je dois absolument graver le fichier iso sur un DVD pour l'installation ou est ce que je peux simplement décompresser ce fichier sur mon ordi et lancer le set -up.exe? "
+[T],sk4nz,2010-08-26T11:09Z,"@misterflash : Bien sûr que tu peux le décompresser ! Cependant, on a remarqué un petit bug sur l'installateur : il ne fonctionne pas si le chemin du dossier où il est présent comporte des espaces. D'ou le choix du .iso mais tu peux le décompresser dans un chemin du style C:\adobe\"
+,athemin,2010-09-15T13:09Z,"je comprend pas, l'installation ne me propose pas Acrobat 9. Est ce que je suis seul dans ce cas?"
+,athemin,2010-09-15T13:16Z,il manque Acrobat 9 pro? le set up ne me propose pas de l'installer :( 
+,athemin,2010-09-15T21:00Z,désolé pour le double post :$ 
+[T],sk4nz,2010-10-07T13:38Z,"@athemin : en effet, Acrobat 9 n'est pas dispo sur cette compil...
+
+@CAMXposure : The only supported language is french! We have removed all other languages for reduce size of release."
+,jbmatrix,2010-10-13T04:11Z,Stop wasting your time. I have adobe master collection cs4 and lots of other programs for next to nothing. For details email me at apntexas@msn.com.
+,Yepii,2010-11-01T19:49Z,"Merci Sk4nz,  pour cette version et ce support en Fr
+
+Je cherche cette version en FR/UK/SP X86, je sais que c'est lourd mais j'ai pas le choix :-(
+Un lien a me recommander?
+
+Si je Dl la ver. trial (si c'est possible) je peux editer le fichier host et ca roule ou je rêve...
+
+Encore merci pour ta Fr présence!
+(vista X86 32bit)"
+,Fouky,2010-11-10T09:33Z,"Merci sk4nz pour les efforts que tu fais pour la communautÃ©. 
+
+
+J'ai exÃ©cutÃ© ""PatchHOSTS.cmd"" situe dans le dossier -=SK4NZ= / Il m'a indiquÃ© que la procÃ©dure de patch avait fonctionnÃ©. 
+J'ai ensuite installÃ© la suite avec ""Set-up.exe"". 
+
+La suite s'installe mais me demande encore des mots de passe Ã  chaque ouverture et fermeture de logiciel. Le patch n'a pas du marchÃ©.
+
+J'ai supprimÃ© la Suite via suppression de programmes + un scan de la base de registre avec CCleaner. 
+J'ai arrÃªtÃ© la protection rÃ©sidente de mon avast pour appliquer la V2 de ton patch (http://thepiratebay.org/torrent/5720249/SkZ-Adobe_CS5_Activation_Patch_HOSTS_v0.2_%5BFR_EN%5D_SK4NZ). 
+Le patch m'indique que le fichier Windows\System32\drivers\etc\hosts Ã  bien Ã©tÃ© patchÃ©. 
+Je rÃ©installe la suite et Ã§a ne marche toujours pas. Il me demande encore des mots de passe Ã  chaque ouverture et fermeture de logiciel. Les mots de passe ne marchent qu'une fois. 
+
+Est-ce que tu peux m'indiquer quelle est la procÃ©dure Ã  suivre pour patcher correctement la suite et l'installer stp. 
+Merci. "
+,LeSurHumain,2011-01-16T00:27Z,"Salut sk4nz,
+
+Merci bien pour cette release tip top !!! :-))
+
+Par contre ""Acrobat 9 Pro"" n'est pas inclus dans celle-ci. :-(
+Ni dans la version officielle d'ailleurs (exception faite de la version boite). ;-)
+
+VoilÃ  pourquoi:
+https://www.adobe.com/cfusion/tdrc/index.cfm?product=master_collection&loc=fr
+
+Acrobat 9 Pro et Encore CS5
+Adobe AcrobatÂ® 9 Pro et Adobe EncoreÂ® CS5 ne sont pas disponibles en versions d'Ã©valuation. La version complÃ¨te d'Acrobat 9 Pro est toutefois incluse dans la version complÃ¨te de Master Collection disponible Ã  la vente. Encore CS5 sera installÃ© avec la version d'Ã©valuation de Master Collection, mais vous devrez l'acheter pour pouvoir l'utiliser.
+
+N'aurez-tu pas une release ""Adobe Acrobat 9 Pro CS5 [FR]"" proche de ta ""souris pirate"" ?
+
+De plus, le petit outil ( http://thepiratebay.org/torrent/5592268 & http://thepiratebay.org/torrent/5942953/ ) n'est plus en ligne sur ""la baie"" (404 no found)
+
+Bien Ã  toi.
+
+
+
+
+
+"
+,LeSurHumain,2011-01-16T00:34Z,"Oups, je viens de trouver cela :
+
+Adobe Acrobat Pro X v10.0 Multilingual (Full) [RH]
+http://thepiratebay.org/torrent/6060905/Adobe_Acrobat_Pro_X_v10.0_Multilingual_(Full)_[RH]
+
+PS : Je n'ai pas tÃ©lÃ©charger et tester cette release..."
+[T],sk4nz,2011-02-05T17:37Z,"@LeSurHumain : Les releases de RH sont toujours tres serieuses, je pense donc que tu peux immediatement te le procurer !"
+,tomorow,2011-03-09T10:38Z,"Moi Ã§a marche pas, j'ai extrait le fichier .iso et quand j'installe une erreur s'affiche Ã  l'Ã©tape "" Installer "". Voici l'erreur en question :
+
+WARNING: PayloadPolicyNode.SetAction: IN payload {03B6AF5B-A024-43DE-8DD2-8FB7B6A4149A} Adobe Media Player is required by {ABDC1F61-2C50-4BB1-ACDA-66D412D72582} Adobe OnLocation CS5 but isn't free.
+
+
+WARNING: PayloadPolicyNode.SetAction: IN payload {03B6AF5B-A024-43DE-8DD2-8FB7B6A4149A} Adobe Media Player is required by {C79312BD-3E76-4474-A10C-1435D1856A4B} Adobe Dreamweaver CS5 but isn't free.
+
+
+WARNING: PayloadPolicyNode.SetAction: IN payload {03B6AF5B-A024-43DE-8DD2-8FB7B6A4149A} Adobe Media Player is required by {DE60F0DE-469A-42DC-A678-978313210057} Adobe Contribute CS5 but isn't free.
+
+
+WARNING: PayloadPolicyNode.SetAction: IN payload {03B6AF5B-A024-43DE-8DD2-8FB7B6A4149A} Adobe Media Player is required by {E8815668-95B0-443D-AC92-2BFD7DD8F16A} Adobe Flash Catalyst CS5 but isn't free.
+
+
+WARNING: PayloadPolicyNode.SetAction: IN payload {03B6AF5B-A024-43DE-8DD2-8FB7B6A4149A} Adobe Media Player is required by {164965E8-4BB0-4EEB-AFBA-75785A2A2A7F} Adobe Fireworks CS5 but isn't free.
+
+
+WARNING: PayloadPolicyNode.SetAction: IN payload {03B6AF5B-A024-43DE-8DD2-8FB7B6A4149A} Adobe Media Player is required by {A334FDED-DCCA-481E-B226-F902CCC419D2} Adobe Encore CS5 but isn't free.
+
+
+Et il y en a encore plein des comme Ã§a"
+,plastiked,2011-03-13T13:52Z,"Hello, j'ai tout essayÃ© (plusieurs fois), je n'arrive pas Ã  installer le soft.
+
+J'avais une version de Photoposh CS5 seule (anglais) installÃ©e, je l'ai dÃ©sinstallÃ©e avec l'outils de Adobe + check Ccleaner + ajout//supp de programmes.
+
+Reboot
+
+J'ai lancÃ© ton patch de host en admin (les deux d'ailleurs, celui inclu et la v0.2...
+
+Reboot
+
+L'install se lance, le Serial fonctionne, je choisis mes softs Ã  installer et au moment du calcul du temps d'install, l'installe stop : erreur, veuillez redÃ©marrer ou contacter adobe...
+
+(image lancÃ©e sur alcool 52) 
+
+J'ai envie de dire : ARRRRRRRRRRRRRRRRRRRG!
+
+DÃ©solÃ©, j'ai tout tentÃ©, as-tu une idÃ©e de lÃ  ou je me suis plantÃ©? J'ai une version officielle de windows 7 familliale premium 64bits.
+
+Merci!
+
+Je tente sur un second PC avec windows 7 pro 64 sous peu mais lÃ  je suis saoulÃ© :):)"
+[T],sk4nz,2011-03-14T18:18Z,"@plastiked : Extrait l'image .iso dans un dossier qui est dans la racine de la partition ou le systeme est installe (ex : C:\blabla\ ). Ou bien sinon il te suffit de telecharger Master Collection sur le site officiel d' Adobe en version d'essai, de patcher ton ordinateur et de l' installer avec une des cles fournies !"
+,jackspa48,2011-03-15T15:50Z,"Salut, 
+
+j'ai installé la suite sans soucis, mais j'ai dû me tromper quelque part car le compteur des jours de la version d'essai tourne.
+Pourtant j'ai bien lancé le fichier .cmd avant de lancer l'installation.
+J'ai désinstallé et réinstallé les logiciels, mais le compteur est toujours là. Peux tu m'aider à changer ça, où me dire sur quoi agir pour supprimer ce compteur stp ?
+
+Merci"
+[T],sk4nz,2011-04-09T23:26Z,"@jackspa48 : Essaie d'installer le tout sur un ordinateur ""propre"" ( sans aucune installation de Master Collection auparavant dessus ou bien nettoye avec CCleaner ou autre ) et surtout au lieu d'utiliser le patch .cmd, utilise la V2 du patch disponible ici : http://thepiratebay.org/torrent/5720249 ."
+,dancepower,2011-06-27T23:24Z,"Hello sk4nz,
+J'ai appliqué le nouveau patch que avec le lien que tu as laissé, et j'ai installé le logiciel... tout c'est installé niquel... MAIS...
+adobe ouvre une fenetre au lancement des logiciels de temps en temps et me demande d'inscrire un ID ADOBE car sinon ça va finir par stopper la version ... as tu une solution ?
+Merci d'avance !!!
+S."
+,FanStargate,2011-07-08T03:11Z,"Bonjour,
+Même problème pour moi : 
+J'ai d'abord lancé le 1er patch, installé avec un sérial fourni. Toujours la demande de la clé avec compte adobe, qui ne marche jamais (j'ai un compte mais la vérif ne marche pas). J'ai désinstallé, réinstallé avec un sérial d'un keygen, pareil. Désinstallé, refait avec le 2ème patch.
+Toujours la demande de clé, et du compte adobe qui ne s'authentifie pas.
+
+Que faire ? Ou comment annuler l'action des patchs ?
+
+Cordialement,"
+,TrouilletArthur,2011-07-09T19:41Z,"Bonjour Sk4nz,
+
+J'ai un problème, je dois installé la Master Collection sur l'ordinateur d'une copine mais avant elle avait télécharger la version démo et elle a rentrer un Adobe ID, maintenant elle est obligé dans rentré un, donc il trouve que c'est une version pirate, que faire ?
+
+Merci :) "
+,fiilouu,2011-09-22T17:21Z,"Salut, j'arrive pas à monter l'image avec daemon tools lite, comment ça se fait?"
+,man2300,2011-10-25T19:11Z,"bonjours sk4nz,
+alors pour tout dire, j'ai pas bien pigé l’installation.
+il faut graver l'image .iso sur un dvd?! où trouver un dvd de 6go?! peut tu m'éclairer sur le sujet stp. je suis novice en informatique et il est vrai que j'ai un peu de mal à tout décrypter...  merci beaucoup "
+,nakoris,2012-01-27T04:37Z,"Salut, j'ai suivi les instructions, jai meme commencer l'instalation, mais rendue a 63%, l'instalation arrete et me demande : ""Insérez le disque AdobeMasterCollection5-trial-ContinentalEurope pour continuer"""
+,xXxFamouusxXx,2012-02-04T22:41Z,"@man2300 va cherche sur google Virtual clone Drive ! ce que le programme c'est que sa prendre l'ISO et fais comme si y serais sur un CD Donc y va le lire au complet ! Sinon tu peu acheter dans des magasins des DVD DL ( Double LAyer ) donc l'espace sur le disque sera 8.5Gb !! 
+
+Est-ce que le monde pourrais SEEDER un peu ma vitesse est en moyenne 150ko/s -_- Je peu aller jusqua 1800ko/s et il y a 66seeder !! SVP moi je seed pour 1-2mois aussitot cest fini !!! "
+,xXxFamouusxXx,2012-02-05T16:58Z,@sk4nz !! j'ai un probleme ! J'Ai runner le PATCH HOST comme du monde sur le CD apres je part linstallation a partir du SET-UP je rentre un SERIAL NUMBER dans ta liste ! j'installe toutes les applications sur mon ordi l'installation termine et me dit impossible de communiquer avec ADOBE et chaque fois que jouvre PHOTOSHOP AFTER EFFECT ou peu importe sa me dit de rentrer le code ou de faire mes 30jours dessaies ! pis quand je rentre le code sa fais impossible de communiquer et tout .. que dois je faire ?? !! 
+,nonoseki,2012-04-17T19:59Z,"Excellent !!!!
+je cherche tous les softs et les voilà en français !
+Respect SkZ !!"
+,malous33,2012-07-04T23:35Z,"bonjour Sk4nz et merci pour ton torrent je recherche tropppp ce logiciel en français car j'en avais téléchager un autre en anglais mais j'ai pas reussi a le patcher et la license etait périmer fin bref, le probleme c'est qu il fait 6 gb et j'ai des dvd qui n'en font que 4 , ya pas un moyen de compresser ton iso ??,"

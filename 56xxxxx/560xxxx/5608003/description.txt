@@ -1,0 +1,23 @@
+Compressed videos of TTC High School Level - Algebra I and II, Chemistry, Geometry, Basic Math.
+
+Description here 
+ 
+http://www.teach12.com/ttcx/coursedesclong2.aspx?cid=1001 
+http://www.teach12.com/ttcx/coursedesclong2.aspx?cid=102 
+http://www.teach12.com/ttcx/coursedesclong2.aspx?cid=1012 
+http://www.teach12.com/ttcx/coursedesclong2.aspx?cid=105 
+http://www.teach12.com/ttcx/coursedesclong2.aspx?cid=104
+
+Compression mini tutorial:
+1. Run virtualdub.
+2. Go to Video->Compression->(Choose Xvid driver)... is the last in the list->click Ok
+3. Go to Video->Filters->Add->(Choose 2:1 Reduction High Quality).. is the first in the list anyway-> Click Ok->Click Ok again.
+4. Go to File->Save processing settings (Next time you run VirtualDub you will just load the settings, not having to do steps 2-4 again and again)
+5. Go to File->Open File... (Choose your video file)
+6. Go to File->Save as AVI... (Choose the new name for your compressed version of the video file).
+7. Keep doing steps 5-6 until you have loaded all video files you want.
+8. Go to File->Job Control
+9. Hit Start.
+10.That's all.
+
+Hope I stirr some people into making some more compressed TTC videos.

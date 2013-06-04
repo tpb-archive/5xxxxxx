@@ -1,0 +1,145 @@
+Welcome to We-Travel !
+Free navigation, 3D maps, voice guidance and tourist information always available on your java enabled mobile phone, without network connection
+
+We-Travel is a personal initiative to develop a free navigation solution for Java enabled mobile phones. To complete this initiative, we need your help.
+
+If you are looking for a bullet proof navigation system, please take a look here.
+
+ 
+The key features of We-travel are :
+Turn-by-Turn Voice Guided Navigation :
+Based on your location, We-Travel gives you clear voice directions to reach your destination in an optimal way, either by car, bike or foot, supported by a 3D 'bird's eye' rotating map display.
+
+Always Available  :
+All map data is stored locally on your phone. This ensures  We-Travel works offline in places where there is no mobile phone reception, abroad or in the countryside. And as a plus, there are no telecom costs associated with route calculation or map display ! (except for online services, like weather information,...)
+
+Free :
+We-Travel is a free navigation software for java enabled mobile phones, based on map data from Open Street Map. No good map navigation maps available for your area ? Help Open Street Map ! Our map download server provides up to date maps for most of the world. Note that due to bandwidth restrictions, the number of free download slots is restricted. Our paying map download services should allow you to donwload maps at any time for a small amount.
+
+New Features :
+Current We-Travel versions also offer :
+
+    * Track recording
+    * Fully customizable map, skin, menu and theme layouts
+    * Possibility to visualise raster maps from various sources
+    * Track graphs showing track overview, speed and altitude profiles
+    * Possiblity to download rich POI descriptions from Wikipedia, Wikitravel, ...
+    * Online/offline reporting of speed camera's or your favorite places
+    * Enhanced reality POI superimposition on camera image (on selected phones)
+    * Satellite view, along with the sun, the moon and major star constellations
+    * Possibiliy to develop additional screens as plugins
+    * Possibility to follow a pre recorded track
+    * Support for Garmin and TomTom POI formats
+    * Uploading and sharing of track on the We-Travel website
+
+
+
+==========================
+
+note: 	
+i asked the guys to help them out with a working torrent, but i have no answer yet.
+but i think/hope it's ok.
+
+this is the (nearly) complete pack with all maps and stuff, which i could download, because their server breaks most of the time.
+
+should work with:
+
+9500 storm
+9520 storm 2
+8900 curve
+8310
+9000 bold
+9700 bold 2
+
+
+
+
+w995
+SE-G705
+SE K880
+LG KC910 Renoir
+sony ericsson c702
+
+
+installing:
+
+tested on blackberry 9700 (bold 2)
+firmware: Blackberry9700AllLang_PBr5.0.0_rel1111_PL5.1.0.153_A5.0.0.656
+
+1.) extract the wetravel directory from to_sdcard.7z to the root of your sdcard
+    the tree should look like this:
+    sdcard/wetravel/Atlases
+		   /Config
+		   /CurrentTraces
+	etc.
+
+2.) choose your desired map pack(s) and unpack the dir in the .7z to sdcard/wetravel/Maps/
+    the tree should look like this:
+    sdcard/wetravel/Maps/China
+    sdcard/wetravel/Maps/India
+    sdcard/wetravel/Maps/Germany_OSM_241209
+	
+	etc.
+
+3.) unpack main_app.7z to a tempdir on your pc, maybe c:/navi
+    
+	(here i assume, you have installed the newest BlackBerry Desktop Manager 5.0.1)
+
+	connect your bb-device
+
+	install the BBLight manually with the Desktop Manager, reboot your device if needed (this app is to 		keep on the backlight, which still isn't working properly in WE Travel)
+	
+	install BBSAKv1.5_Installer.msi and run it
+
+	enter your bb-password, otherwise leave blank
+
+	click on Install COD, choose the WeTravelMidletSuite.cod (here it's going buggy again, i reconnected the 	device once, with the second try it worked.)
+
+	if you see 3 items in the download folder on your device (hw, RecorderMidlet and WeTravelMain), your done 		with the hard work.
+
+4.) 	run WeTravelMain
+
+	if it asks to search for root, say no
+	
+	go to menu->settings->advanced->files
+
+	go INTO! sdcard/wetravel/ and choose 'set we-travel root'
+
+	restart WeTravelMain
+
+	go to menu->settings->advanced->screen details
+
+	choose your language, skin, menu and theme
+
+	i suggest you try skin:commuter, menu:menucarbon26, theme:blue for best results on the 9700
+
+	it's important, that you press bb-key and then choose ok to save the config you made
+
+	restart WeTravelMain
+
+	go to menu->settings->advanced->map config
+
+	choose your map, bb-key, ok
+
+	restart WeTravelMain
+
+	go to menu->settings->gps
+
+	choose internal gps (jsr-179), bb-key, ok
+
+	go to menu->settings->screen->sound
+
+	choose your favourite voice (BUT never use mp3-voice, it will crash the whole bb. i included this to have a 	complete package for other mobile phones, where it should work)
+
+5.) 	configure bblights to your needs and have fun navigating :)
+	if you want to add maps, simply extract the map like in part 2 and choose it in WeTravel
+
+
+=================================
+
+for other phones:
+
+
+same procedure as in part 1 and 2 then use the jad and jar files. nokias will install them automatically, when run in the phone explorer.
+
+i didn't try this, so i can't tell if the configuration works the same on other mobile phones.

@@ -1,0 +1,66 @@
+Workstation for Linux 32-bit with VMware Tools
+	
+File size: 307MB
+
+File type: .bundle
+
+MD5SUM: 942f819f72280ccf9af4779c37f5dd10
+
+SHA1SUM: fce07933a982b3c91bfa81126d6f688a8c643f77
+
+
+* Run Windows 7 in a virtual machine with the industryâ€™s first support for Windows Aero 3D graphics. Easy Install makes installing 32-bit and 64-bit versions of Windows 7 in a virtual machine even easier than on your physical PC. VMware Workstation 7 works with Flip 3D and Aero Peek to show live thumbnails of your virtual machines. Better than Windows XP Mode, you can run Windows XP with 3D graphics, faster performance, and tighter integration with Unity, shared folders and drag and drop convenience. VMware Workstation is optimized for maximum performance when running on 32-bit and 64-bit Windows 7 PCs.
+
+* Best 3D Graphics Just Got Better
+VMware Workstation was the first to support 3D graphics in virtualized environments and is now the first to support Windows Aero in Windows Vista and Windows 7 virtual machines. Run even more 3D applications with support for DirectX 9.0c Shader Model 3 and OpenGL 2.13D graphics in Windows virtual machines.
+
+* Most Advanced Virtualization Platform
+Create virtual machines with up to 4 virtual processors or 4 virtual cores and up to 32GB of memory per virtual machine. Driverless printing makes your PC printers automatically accessible to your Windows and Linux virtual machinesâ€”no configuration or drivers required. Smart card authentication enables you to dedicate a Smart Card reader to a virtual machines or share access.
+
+* Features Professionals Cannot Live Without:
+* Install and run VMware vSphere 4 and VMware ESXi in a virtual machine
+New IDE integrations for the SpringSource Tools Suite and Eclipse IDE for C/C++
+* Replay debugging is now easier and faster
+* Remote Replay Debugging makes it easier to share virtual machine recordings for analysis
+
+
+* More Refined Than Ever
+
+* Protect from Prying Eyes
+Protect your virtual machines from prying eyes with 256-bit AES encryption.
+
+* Printing that Just Works
+Driver-less printing makes your PC printers automatically accessible to your Windows and Linux VMsâ€”no configuration or drivers required. Your PCâ€™s default printer even shows up as the default, too.
+
+* Go Back in Time
+Buggy applications, hardware failures, viruses and other malware do not give you fair warning to take a manual snapshot. AutoProtect luckily automatically takes snapshots at set intervals, protecting you from unexpected bumps in the road, making itâ€™s easy to go back in time to when things were good.
+
+* Free Up System Resources
+Pause a virtual machine to free up CPU resources for use by other running virtual machines or demanding applications.
+
+* Changes in VMware Workstation 7.1 Build 261024 | 25 MAY 2010:
+- OpenGL 2.1 support for Windows 7 and Windows Vista guests â€” Improves the ability to run graphics-based applications in virtual machines.
+
+- Improved Graphics Performance â€” Enhanced performance with better benchmarks, frame rates, and improved rendering on Windows 7 and Windows Vista guests allows you to run various graphics-based applications. In addition, major improvements in video playback enable you to play high-resolution videos in virtual machines.
+
+- Automatic Software Updates â€” Download and install VMware Tools and receive maintenance updates when available.
+
+- Direct Launch â€” Drag guest applications from the Unity start menu directly onto the host desktop. Double-click the shortcut to open the guest application. The shortcut remains on the desktop after you exit Unity and close VMware Workstation.
+
+- Autologon â€” Save your login credentials and bypass the login dialog box when you power on a Windows guest. Use this feature if you restart the guest frequently and want to avoid entering your login credentials. You can enable Autologon and use direct launch to open guest applications from the host.
+
+- OVF 1.1 Support â€” Import or export virtual machines and vApps to upload them to VMware vSphere or VMware vCloud. The VMware OVF Tool is a command-line utility bundled in the VMware Workstation installer. Use this tool along with VMware Workstation to convert VMware .vmx files to .ovf format or vice versa. VMware recommends that you use the OVF command-line utility. For more information, see the OVF Web site and OVF Tool User Guide.
+
+- Eight-Way SMP Support â€” Create and run virtual machines with a total of up to eight-processor cores.
+
+- 2TB Virtual Disk Support â€” Maximum virtual disks and raw disks size increased from 950GB to 2TB.
+
+- Encryption Enhancements â€” VMware Workstation includes support for Intel's Advanced Encryption Standard instruction set (AES-NI) to improve performance while encrypting and decrypting virtual machines and faster run-time access to encrypted virtual machines on new processors.
+
+- Memory Management â€” User interface enhancements have simplified the handling of increased virtual memory capacity.
+
+- User Experience Improvement Program â€” Help VMware improve future versions of the product by participating in the User Experience Improvement Program. Participation in the program is voluntary and you can opt out at any time. When you participate in the User Experience Improvement Program, your computer sends anonymous information to VMware, which may include product configuration; usage and performance data, virtual machine configuration; usage and performance data, and information about your host system specifications and configuration.
+
+Installation Instructions:
+o install vmware-workstation-full-7.1.0-261024.i386.bundle
+o register with serial

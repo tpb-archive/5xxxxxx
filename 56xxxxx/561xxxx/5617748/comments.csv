@@ -1,0 +1,105 @@
+User Type,Username,Date,Text
+,Redgrass,2010-06-10T12:04Z,"Thank you very much, this is most useful. I own a license for version 16, but they lock it down to the computer. So it is always more comfortable if I can get a backup program that can be used  and untethered  to another computer. "
+,bigman711,2010-06-15T17:51Z,"Could poster please explain how this works?? As no instructions included, and appears the packaged tool requires some file which doesnt come with the download."
+,scifi95,2010-06-15T19:22Z,"I've had the same problem.  The patch asks for a ""MtbAuth.dll"" file that is NOT in the Minitab directory.  
+
+Is there a different file we should specify?"
+,dan9khoa,2010-06-18T07:15Z,"run the patch in
+Program Files (x86)\Common Files\Minitab Shared\Auth\SU
+or     
+Program Files\Common Files\Minitab Shared\Auth\SU
+
+
+and just for your information when you get into this pirating road. whenever you see an .nfo file, rename the extension to .txt to read the instructions."
+,xida1125,2010-06-19T04:08Z,"I've ran it in the place, and I've used the browse function to locate the file, however, it keeps saying that the file is in use, any ideas? Checked my task manager, don't see anything about it"
+,trainspotting,2010-06-22T20:45Z,"If the patch says ""file in use"" run the patch as admin."
+,peachy0863,2010-08-20T03:40Z,thanks for the .nfo to .txt post!  how do i find the keys?  thanks!
+,Javilyn,2010-08-26T19:56Z,Works in Windows 7 64bit.  Make sure to run crack as administrator
+,diverbob123456,2010-09-13T08:42Z,Ok so i installed the program fine but dont seem to have a crack or patch file within the download. Please HELP!
+,n1ck1216,2010-09-18T20:25Z,where is the patch file??
+,bosango,2010-10-22T06:23Z,"Thanks man, works great in Windows 7.  For the knuckleheads that can't figure it out: Copy the minitab...-ismail.exe file into the Auth\SU directory like the instructions say, run it as administrator, and let the cow do all the work for you.  Cool!"
+,missyq,2010-12-18T05:17Z,"I got an error referencing the ""public key""  then the application backed everything out. Anyone know a way around?"
+,onlydragon4000,2010-12-30T10:15Z,"This is a troll, cannot crack this shit...do not download it everyone.... "
+,Pithawk,2011-01-22T21:15Z,"Troller is troll.  People have figured this out, just read above..."
+,drunken_me,2011-01-28T21:44Z,where is the patch file or are you saying you just install the program to that directory and it works without key?
+,w0551229,2011-01-29T16:47Z,"Thanks for upoading, great work!"
+,killpop,2011-01-31T06:03Z,"The crack startled me a little bit. Wasn't expecting there to be music and shit.
+
+Otherwise, no complaints. Seems to run fine. Saves me the trouble of having to go to a computer lab every time I need to crunch some stat problems."
+,strongarmrap,2011-01-31T19:30Z,"I'm not great at this...
+So I downloaded it, instilled program with 30 Day Trail. 
+Then I opened the folder called ""Ismail"", there an nfo file inside called ""Ismail.nfo"". So I copied to the Program Files (x86)\Common Files\Minitab Shared\Auth\SU path. I changed the file type to .exe but it wouldn't run. it says the file is damaged or some crap..
+Please advice, in detail please? Thank you"
+,strongarmrap,2011-01-31T19:57Z,"there's not an exe. file in the ismail folder. there an nfo file, I copied it and changed to it exe inside the AU folder. But I couldnt run it cuz it says the file is damaged.."
+,blackpearl4u,2011-02-17T18:12Z,"WARNING!!! This download has a nasty (and I mean nasty) payload. There are two files included. The first is simply the trial of Minitab 16, the other is an executable that will do the following to your PC:
+1 - kill your ability to restore
+2 - embed itself deeply into the VSS
+3 - Corrupt a ton of Windows core files WinXP and Win7
+4 - Force you to spend a day re-installing.
+
+If you run Win7 - be sure to do a full system image backup to an external source BEFORE you try this puppy."
+,odette1028,2011-02-18T08:26Z,"After many frustrating attempts, this managed to finally work on Windows 7. Of course, I'll know certainly in a 30 days. :) 
+
+For those who are having trouble: 
+
+1.) Download the application. 
+2.) Copy the patch ""minitab.professional.v16.1.0.0-ismail""
+3.) Paste into Program Files (x86) > Common Files > Minitab Shared > Auth > SU 
+4.) Right click and ""Run as admin"". The cow does the rest! 
+
+Just open up minitab and it should stop prompting you for the product key. Works like a charm for me, so THANK YOU SO MUCH FOR THIS! "
+,voffsen89,2011-02-19T18:18Z,@blackpearl4u Is this true?
+,tkdboy5547,2011-02-25T11:38Z,"This is the right DIRECTION to paste the crack!!!
+
+C:\Program Files\Common Files\Minitab Shared\Auth\SU
+
+NOT
+
+Program Files\Common Files\Minitab Shared\Auth\SU"
+,tkdboy5547,2011-02-25T11:39Z,"This is the right DIRECTION to paste the crack!!!
+
+C:\Program Files\Common Files\Minitab Shared\Auth\SU
+
+NOT
+
+Program Files\Minitab Shared\Auth\SU"
+,voffsen89,2011-03-02T16:47Z,"Can someone give an answer?
+
+Is what blackpearl4u said true?
+
+Is this just a trial of Minitab 16 and an executable that will fuck my computer?"
+,rebeldevil,2011-03-08T16:08Z,thanks pmp!!
+,cmorellato,2011-03-16T02:52Z,"It works fine, guys! I use Vista and it's running smoothly, just follow the instructions :)"
+,polke2,2011-04-03T22:30Z,"Hi I did install the program, and i can run it in the trial version.
+however the crack does not work
+renemane and read the ismail.
+There is no SU directory to copy the minitab.professional.v16.1.0.0-ismail.exe into
+whatever I do I do not get that directory anywhere.
+when I drun the exe, it needs to locate a file mtbauth.dll which is not on my harddrive........
+
+anyone knows what I do wrong?
+
+thanks in advance :-)"
+,polke2,2011-04-03T22:43Z,"I found it out by good old dos commands.
+I went to the root of c:\ and did a 
+dir mtbauth.dll /s
+search, and there is was:
+c:\program files\common files\minitab shared\auth\su
+
+now it seems to work fine on Vista Ultimate"
+,Semir89,2011-05-17T08:18Z,"I didnt figure it out. When I install it, and crack it, can i use it for long time, or just 30 days???"
+,ichewmyfood,2011-05-24T03:48Z,The music is kick ass
+,sd_dav,2011-07-06T12:20Z,"works fine , highly apprciated"
+,sd_dav,2011-07-06T12:22Z,"***Works fine, highly appreciated"
+,egap_z,2011-12-12T21:17Z,"When I try to launch, mtben1610su.exe, my PC keeps trying to install a Samsung USB driver.  Any idea what may be causing this conflict?
+
+I've used this torrent on other PCs in the past, and it worked great."
+,elisalandon,2012-01-24T15:51Z,"license state :tampered
+asking for the product key..
+I dont have the key !! :(
+need help"
+,ssSHH,2012-01-28T13:00Z,need a new licence key. Malware bytes deleting the patch file for obvious reasons
+,vbsurferr,2012-02-01T01:05Z,"WARNING:
+A few days after installing I turned on my computer and noticed my desktop was missing more then half my programs! Even my Recycle Bin was missing! I now have to restore to secure my computer :(
+
+I mean there are no ""free"" programs. And if you find one then it probably has some strings attached, like the virus or whatever that randomly deleted mall my programs"

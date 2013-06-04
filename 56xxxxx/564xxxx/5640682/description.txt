@@ -1,0 +1,79 @@
+This movie can be shown to blind (or Partially Visually Impaired) or deaf (or Hearing Impaired).
+
+                                   Seven Pounds (2008)
+
+                Drama , Depression, Suicide, Twist In The End, Redemption
+
+                Will Smith, Rosario Dawson, Woody Harrelson, Barry Pepper
+
+User comments:     http://www.imdb.com/title/tt0814314/usercomments         
+
+
+
+An IRS agent with a fateful secret embarks on an extraordinary journey of redemption by forever changing the lives of seven strangers.
+
+Format : Matroska
+File size : 3.99 GiB
+Duration : 2h 3mn
+Overall bit rate : 4 645 Kbps
+
+Video
+Format : AVC
+Format profile : High@L4.0
+Bit rate : 4 000 Kbps
+Display aspect ratio : 1 920p x 800p (2.40:1)
+Frame rate : 23.976 fps
+Stream size : 3.36 GiB (84%)
+Writing library : x264 core 88
+Encoding settings : cabac=1 / ref=5 / deblock=1:0:0 / subme=9
+psy=1 /me_range=64 / chroma_me=1 / trellis=2 / 8x8dct=1 / bframes=5
+b_pyramid=2 / b_adapt=2 / rc=2pass / bitrate=4000 /
+
+Audio #1 English (default) : AC-3, 640 KB/s, 6 ch, 563 MB (14%)
+
+Separate Audio Tracks ( skip from download the ones you don't want
+
+Audio #2 Deutsch AC-3, 448 KB/s, 6 ch, 394 MB
+Audio #3 Director's Commentary ogg, 128 KB/s, 2 ch, 90 MB
+Audio #4 English AD (Audio Description) AC-3, 448 KB/s, 6 ch, 394 MB
+Audio #5 Espanol ogg, 128 KB/s, 2 ch, 90 MB
+Audio #6 Francais ogg, 128 KB/s, 2 ch, 90 MB
+Audio #7 Italiano AC-3, 448 KB/s, 6 ch, 394 MB
+Audio #8 Magyar AC-3, 448 KB/s, 6 ch, 394 MB
+
+Subtitles: English + SDH + Director's Commentary, Arabic, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch + Dir Com, Finnish, French, German + Dir Com, Greek, Hindi, Hungarian, Indonesian, Italian + Dir Com, Korean, Lithuanian, Norwegian, Persian(Farsi), Polish, Portuguese + BR, Romanian, Russian, Serbian, Slovenian, Spanish, Swedish, Turkish
+
+snap shot:   http://h.imagehost.org/0647/Seven_Pounds_2008.jpg
+
+Sample: 14.2 MB, multisub
+
+This movie can be shown to blind (or Partially Visually Impaired) or deaf (or Hearing Impaired).
+For blind or Partially Visually Impaired you need to download the English(AD) (Audio Description) file.
+For English Hearing Impaired chose the English(SDH) subtitles muxed in the movie.
+
+##############################################################################
+
+Use MKVextractGUI  (     
+  http://www.videohelp.com/tools/MKVExtractGUI    )  to mux in the AC3 dub file.
+
+##############################################################################
+
+All subs show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+If the subs are muxed in mkv download & use MKVextractGUI to extract(demux) the subtitles from mkv, and mkvmerge GUI to mux back the edited/repaired sub in the mkv.
+Download "Notepad++" (free):       
+   http://sourceforge.net/projects/notepad-plus/    The sub you demuxed from mkv: Open and save as...ANSI !(Important!)
+Right click on the sub/Open with nppIExplorerShell.exe (Notepad++ exe)/
+click Encoding(upper part menu)/Character sets and chose the language ISO.
+Click again on Encoding/then click on Convert to UTF-8 or Unicode Big
+Indian/save as...srt. You're done with the encoding,
+now you can mux it back in the mkv with mkvmergeGUI, select the language & mux.
+
+#############################################################################
+
+Those with Win 7 64 bit might have issues with playing back secondary or external audios & subs etc.
+If k-lite pack(too complicated) not working try CCCP (    
+    http://www.cccp-project.net/      ) using the same player (Media Player Classic).
+When installing leave all as it is (default). When finished open the player, click View/Options/PlaybackOutput/check Evr Costum Pres & chose System Default under DirectShow Audio.
+Under Internal Filters - Source Filters should be checked DirectShow Media, Matroska & MP4 and Transform Filters should have H264/AVC(DXVA) checked.
+Now I can even play Blue-ray m2ts being able to switch between Audio tracks by clicking on the Haali Media Spliter on the task bar bottom right.

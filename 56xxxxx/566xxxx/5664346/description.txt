@@ -1,0 +1,52 @@
+General
+Complete name : TNA.iMPACT.2010.07.01.HDTV.XviD-KYR
+Format : AVI
+Format/Info : Audio Video Interleave
+File size : 743 MiB
+Duration : 1h 23mn
+Overall bit rate : 1 237 Kbps
+Writing application : Nandub v1.0rc2
+Writing library : Nandub build 1853/release
+
+Video
+Format : MPEG-4 Visual
+Format profile : AdvancedSimple@L5
+Format settings, BVOP : Yes
+Format settings, QPel : No
+Format settings, GMC : No warppoints
+Format settings, Matrix : Default (H.263)
+Codec ID : XVID
+Codec ID/Hint : XviD
+Duration : 1h 23mn
+Bit rate : 1 096 Kbps
+Width : 624 pixels
+Height : 352 pixels
+Display aspect ratio : 16:9
+Frame rate : 29.970 fps
+Resolution : 24 bits
+Colorimetry : 4:2:0
+Scan type : Progressive
+Bits/(Pixel*Frame) : 0.166
+Stream size : 658 MiB (89%)
+Writing library : XviD 1.3.0.dev55
+
+Audio
+Format : MPEG Audio
+Format version : Version 1
+Format profile : Layer 3
+Format_Settings_Mode : Joint stereo / MS Stereo
+Codec ID : 55
+Codec ID/Hint : MP3
+Duration : 1h 23mn
+Bit rate mode : Variable
+Bit rate : 127 Kbps
+Nominal bit rate : 128 Kbps
+Channel(s) : 2 channels
+Sampling rate : 48.0 KHz
+Resolution : 16 bits
+Stream size : 76.2 MiB (10%)
+Alignment : Aligned on interleaves
+Interleave, duration : 24 ms (0.72 video frame)
+Interleave, preload duration : 499 ms
+Writing library : LAME3.92 
+Encoding settings : -m j -V 4 -q 2 -lowpass 17.5 --abr 128

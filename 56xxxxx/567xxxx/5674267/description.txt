@@ -1,0 +1,10 @@
+new GPU plugin gpuDXv3 (DirectX 9 with shaders). Naomi1/Dreamcast/Atomiswave need PS 2.0 compatible video cards, Naomi2 needs PS 3.0 compatible cards
+- new GPU plugin gpuDXLegacy (DirectX 9 without shaders). For Old and Intel videocards
+- new SPU plugin spuOAL (uses OpenAL api). Can be used instead of directsound plugin
+- new texture cache, new coord calculation system
+- many fixes in GPU and SPU
+- added many romsets. All romsets (except GDROM) are fully compatible with MAME
+- added custom decrypted rom loading routine. Push â€œLoad Decrypted româ€ inside romset selection dialog. Atomisware roms may need to increase loading rom size by 2
+
+
+DEmul is a Sega Dreamcast emulator able to play commercial games.

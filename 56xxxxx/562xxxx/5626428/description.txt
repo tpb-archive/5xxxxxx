@@ -1,0 +1,36 @@
+By Mattisdada 
+
+Description: 
+The only working Killing Floor 1011+ crack for Killing Floor. In theory this should work for 1008 and onwards, haven't tested it on older versions yet... 
+
+If your stuck on the connecting screen, this is the crack for you  
+
+
+This will work! It has two modes, dedicated server mode and client mode. 
+
+If you want the dedicated server to work, run Dedicated Server Mode.bat 
+You will NOT be able to connect to ANY server while in dedicated server mode 
+
+If you want to be able to JOIN any game (steam AND non-steam, LAN/Internet), 
+run Client Mode.bat. 
+
+1. Extract zip contents to the root of killing floor 1011+ (should work for 1008 and on wards. Keyword, SHOULD) 
+2. Run Repair Current Directory.bat 
+3. Run Client Mode.bat 
+4. Run KF_Play.exe from now on (you dont need to do steps 1 - 3 every time) 
+5. (opt) Run Dedicated Server Mode.bat to enable dedicated server 
+
+Note: 
+You can run a listening server within client mode. 
+
+Note2: 
+If the game is still not working (stuck on connecting screen). Manually make sure the following files are NOT in system (this is what Repair Current Directory.bat is supposed to do) Quote:
+
+rev.ini 
+revApps.ini 
+revLoader.exe 
+steamclient.dll 
+steam.dll 
+tier0_s.dll 
+vstdlib_s.dll 
+steam_appid.txt

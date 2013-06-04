@@ -1,0 +1,49 @@
+Game: Crimson Skies
+Year: 2000
+Publisher: Microsoft
+Decompressed Size: 805mb
+Version: 1.02
+
+More info on game here -
+http://en.wikipedia.org/wiki/Crimson_Skies_%28video_game%29
+
+Fonts
+-----
+You can install these additional fonts if your system does not already have them -
+Andy, Pepita MT, Secret Service Typewriter
+
+The game reads from these fonts, and the only difference they will make is that the mission history and newspaper cutouts will look slightly different when you install them.
+
+Installation
+------------
+To install, you need to manually unzip the files to a folder and call it Crimson Skies. You will need either 7Zip or WinRAR to unzip the files.
+
+Important Note: This does not come with installation, and it does not need one. You can put the Crimson Skies folder anywhere, and create a shortcut of crimson.exe to your desktop or Start Menu to run. On first run, it will ask for video device. Select the one with "Accelerator" mentioned in it - this is your graphics card.
+
+Tested with Windows 7 x64 Ultimate, using DX11. Works fine!
+
+Some drawbacks -
+1. Max resolution is 1024x768
+2. No shadows (although you won't miss it much, as in the sky there is hardly anything to cast shadow on)
+3. You may not like the text rendering
+
+Some plus points -
+1. No hassle DnP (download and play) installation
+2. No hassle easy to use and smooth flight control
+3. Amazing dogfights give hours of fun
+4. The superb script and voice acting makes you feel like a real pirate leader
+
+Screenshots from installed game
+http://bayimg.com/HanCmaACG
+http://bayimg.com/haNcpaACG
+
+Original crimson.exe is backed up as crimson.exe_. dontrun.zip contains a few additional files that were present in the installtion folder, but not required to be run for any reason.
+
+Uninstallation
+--------------
+To uninstall, you can use the !uninstall.reg to remove the registry entries. Then you have to remove the Crimson Skies folder manually.
+
+Registry Uninstallation - It only adds minimal nodes to your registry. If you want to get rid of them, advice you to open !uninstall.reg in a text editor and remove them manually from registry, or double click the file to remove automatically if you are sure. However if you are not confident about changing the registry, you can let them be.
+
+If you have installed the fonts, it is upto you if you want to uninstall them.
+
