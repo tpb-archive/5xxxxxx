@@ -1,0 +1,28 @@
+User Type,Username,Date,Text
+[V],polisdavid,2010-11-25T10:34Z,THANK YOU SEEDERS!!  ;-)
+,lex.usa,2010-11-25T16:07Z,Thanks
+,mariuspmg,2010-11-25T18:22Z,Thanks.
+,dinodig,2011-01-05T02:39Z,"I had Little Snitch 2.2.4 installed before this and was registered with the serial given on this site and had blocked UI agent and everything was going well.
+
+ Then I installed 2.3.3 version and it upgraded taking the old key as a valid one.
+
+ One day after I installed the latest version it said that the old key is invalid and I had to get a new one. It checked with its homesite. Well, I registered with your new key and it worked but still how can it have checked the key although UI Agent was still blocked? Just a point  of concern.........."
+,ereng,2011-02-02T07:48Z,"dinodig try to give a short with this one:
+
+Step1. Block obdev.at in /etc/hosts by adding the line: 127.0.0.1 obdev.at
+Step2. Block Little Snitch with Little Snitch - within LilSnitch Configuration, click ""New"" then select Deny Connections at top, and choose the application /Library/Little Snitch/Little Snitch UIAgent
+Step3. Enter a serial number
+
+Good luck!"
+,ereng,2011-02-02T07:49Z,"polisdavid, thanks for the serial! awesome sharing!"
+,3rd.1,2011-02-06T12:51Z,"@polisdavid:
+
+how do i do it if i have an older version (2.3.3) of the L. Snitch on my mac, and want to install this version? 
+
+Do i have to de-install the old one fisrt and then install the new one , or i can also install the new one on the old one?
+
+Thx a lot for the good job =O)"
+,2011jm,2011-03-05T13:30Z,"Hi, any chance of sending me the # number, tx"
+,sha4000,2011-03-17T00:33Z,downloaded fine and installed. put the serial # and all was good.
+,leatherneck6017,2011-06-10T00:31Z,"@ereng Thanks, this worked!"
+,rj2413,2012-02-13T05:32Z,"could someone plz share the Serial #, Thanks"

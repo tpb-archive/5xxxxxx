@@ -1,0 +1,510 @@
+1. Notes
+2. Changes
+3. Virus scan results / checksums
+4. Arguments
+5. Extra
+
+
+
+##########################################################################
+#   1   -   Notes
+##########################################################################
+Do you have the WAT update installed, KB971033? If yes you may have got flagged as non-genuine, in order to become genuine again just do the following.
+
+* Launch the loader application and select to uninstall
+* Restart the PC
+* Install the loader and restart the PC
+* Visit the following website to revalidate Windows: www.microsoft.com/genuine/   (You may need to set IE to compatibility mode!)
+
+####
+
+Is Windows failing to boot after you installed the loader? Just do the following.
+
+* Boot up the PC from your Windows installation disk
+* Select the \"Repair your computer\" option
+* Select \"Command Prompt\"
+* Input \"bootsect.exe /nt60 SYS /force\" (without quotes)
+* Restart the PC
+
+Note: If the above doesn\'t fix your boot issue then use the command \"bootsect.exe /nt60 ALL /force\" instead. Just make sure you remove all USB flash drives before you use the command.
+
+####
+
+If you have previously used another activation solution and have been marked as non-genuine then you first need to uninstall the software you used or just format and start fresh.
+
+####
+
+Q. I received the error message \"Error finding your systems active partition\", what do I have to do?
+A. You need to format the whole hard drive with a program like Active@ Kill Disk. This issue is caused by your locked OEM partition. http://software.lsoft.net/boot-cd-iso.zip
+
+Q. I received the error message \"Failed to add loader to the boot code\", what do I have to do?
+A. Disable any system protection. Some types of software block the loader application from installing to the boot code.
+
+Q. I\'ve used a version of the loader before and it failed to work, what do I have to do?
+A. If you previously used bootsect to get back into Windows then you first need to press uninstall, reboot and then install the newest version of the loader.
+
+Q. Why was table sorting changed so that it\'s now disabled by default?
+A. Some machines don\'t like the table order being changed so to make the loader more system compatible we disabled it by default.
+
+Q. I\'ve previously used another activation solution and I think it\'s modified my systems files, can I fix it?
+A. You can first try to uninstall what you originally installed and then try running \"sfc.exe /scannow\" from command prompt as an administrator.
+
+Q. I\'ve got Linux on another partition/drive, is there anything I should know?
+A. Use the preserve current boot code option.
+
+Q. How can I use BitLocker, TrueCrypt or another boot manager?
+A. First setup the software and then install the loader with the option selected to preserve the current boot code.
+
+Q. I lose activation status after my systems been to sleep or has been in hibernation, can I fix it?
+A. Go to the advanced options and select to disable type 4 memory, install the loader again and see if that cures it. If you\'re not cured try to disable type 3 memory instead. If it still fails try selecting the legacy setting.
+
+Q. I installed the loader and my system hangs during the boot process, can I fix it?
+A. Go to the advanced options and select to disable type 4 memory, install the loader again and see if that cures it. If you\'re not cured try to disable type 3 memory instead. If it still fails try selecting the legacy setting.
+
+Q. I installed the loader and rebooted but I\'m not activated. The loader application displays the message \"BAD SLIC SIZE\" or \"BAD SLIC DATA\", can I fix it?
+A. Uninstall the loader, power down and then boot up the system again. Go to the applications advanced options and select to ignore the existing SLIC and then press install.
+
+
+
+##########################################################################
+#   2   -   Changes
+##########################################################################
+Version 1.9.5
+* Added a new GRLDR version which fixes a bug that prevented activation on systems with an XSDT
+
+Version 1.9.4
+* Added a new GRLDR version (Improves the ignore existing SLIC function)
+* Disabled table sorting by default for compatibility reasons
+* Added an option to disable type 3 memory as well as an option to reverse the SLIC search direction
+* Displays motherboard version to help with debugging
+* Added ECS, Dealin, Higrade and KSystems SLIC\'s
+* Added HCL, Ksystems and MSI Home Basic serials
+* Added MSI Professional serial
+* Added Dealin Home Premium serial
+* Other minor tweaks and fixes
+
+Version 1.9.3
+* You can now install the loader from safe mode
+* Added Panasonic, Viewsonic and Kraftway SLIC\'s
+* Added Viewsonic and Kraftway serials
+* Fixed a status refresh bug that caused the OS information to be displayed twice
+* Other minor tweaks and fixes
+
+Version 1.9.2
+* Added a new GRLDR version
+* Added an option to disable ACPI table sort (Use this if your system hangs under the default settings)
+* Added an option to disable the usage of type 4 memory (Try this if you lose genuine status after hibernation or sleep)
+* Tweaked the UI which now also displays the systems current serial
+* Fixed a bug which prevented the application from installing the loader over really old GRLDR versions
+* Other minor tweaks and fixes
+
+Version 1.9.1
+* Improved corrupt SLIC detection
+* Added Medion Starter serial & STEG Professional serial
+* Added a new GRLDR version
+* Other minor tweaks and fixes
+
+Version 1.9
+* Fixed a bug that caused a few systems to hang
+* Added an option to ignore a systems existing SLIC
+
+Version 1.8.9
+* Added a new GRLDR version
+* The default boot menu display time is now set to 30 seconds
+* Custom usermenu.lst file scanning is now an option (disabled by default)
+* Other minor tweaks and fixes
+
+Version 1.8.8
+* Added 8-bit SLIC checksum verification
+* Added a new custom application icon (Thanks to Logie)
+* Added a new GRLDR version (Fixes custom menu loading, just be sure to call your menu usermenu.lst)
+* Improved ASUS system profiling
+* Fixed a bug that prevented people upgrading from version 1.7.x to 1.8.4 or newer
+
+Version 1.8.7
+* Loads your last used settings (Should work with all 1.8.x builds)
+* Added a new GRLDR version
+
+Version 1.8.6
+* Added a new GRLDR version
+* Added SLIC detection with a dumping feature (Used to check if a SLIC is valid)
+
+Version 1.8.5
+* Fixed a bug that caused upgrading to fail when \"preserve current boot code\" was selected
+* Added a new GRLDR version
+* Added Alienware serial (Professional)
+* Other minor tweaks and fixes
+
+Version 1.8.4
+* Added a new GRLDR version (Calculates the EBDA end 256 bytes lower)
+* Added the ability to give the SLIC a custom position (Useful if SLIC emulation fails under the default options)
+* Added Olidata SLIC, certificate and serial
+
+Version 1.8.3
+* Added a new GRLDR version (Fixes EBDA length calculation)
+
+Version 1.8.2
+* Reverted the loaders memory scanning back to low memory first and then EBDA
+* Fixed x64 partition checks
+* Other minor tweaks and fixes
+
+Version 1.8.1
+* Added a legacy mode which should activate some systems that don\'t comply with the normal ACPI specifications
+* Improved support for compressed partitions
+* Added Toshiba, Exper, Wortmann and Casper SLIC\'s
+* Added a new HCL Windows 7 Professional serial
+* Other minor tweaks and fixes
+
+Version 1.8
+* Cleaned up and improved a lot of code
+* Added a new GRLDR version (Thanks to lash78 for spending a few hours helping to debug)
+* Made the UI even more user friendly
+* Added some new serials
+* Improved certificate OEMID to system OEMID installation
+* Made OEM recovery partition ignoring optional
+
+Version 1.7.9
+* Fixed a bug that caused an error on non-english systems
+* Added an option to disable the loaders random file padding (Use this if you get stuck in a reboot loop and can\'t access GRUB)
+
+Version 1.7.8
+* Fixed loader file padding issue that caused some systems to fail to boot into Windows
+* Fixed Windows Server 2008 R2 support
+* Fixed loader pointer issues (For when each OS needs it\'s own active partition exclusive while other primaries are set to hidden)
+* Added an option to set the boot menu timeout
+* Added an option to install the loader without changing your systems MBR (Good for Linux users & FirstDefense-ISR)
+* Added support for Haier, Hasee, HCL, Jooyon, NEC, Tongfang and Viliv
+* Added various new OEM SLP serials
+* Blocked title version modifications
+* Cleaned up some code for better performance (May help fix the rare partition finder error)
+
+Version 1.7.7
+* Fixed loader modes to stop system hangs
+* Changed the way the loader is wrote to the partition (no more mounting)
+
+Version 1.7.6
+* Improved the encryption support
+* Added support for Gigabyte
+* Added Toshiba Professional serial
+
+Version 1.7.5
+* Removed the beta SLIC detection (caused crashes on 1.7.4)
+* Added support for LG
+* Added various new OEM SLP serials
+
+Veraion 1.7.4
+* Improved SLIC detection (still not tied to anything, it\'s simply a BETA feature until I get more feedback)
+* Fixed file write errors caused by version 1.7.3
+* Added support for Server Standard R2
+* Added support for FSC, Quanmax and Trigem
+* Added various new OEM SLP serials
+
+Version 1.7.3
+* Improved free drive letter assignment
+* Corrected some grammar
+* Added random SLIC encryption support, this means everyones SLIC will have a unique encryption
+* Added GRLDR file size randomization
+* Added GRLDR v0.97-DAZ+SEC-R2. This is just a minor version to support the random encryption
+* Added SLIC table detection (BIOS mod and software, it can tell the difference)
+* Added support for Advent, Medion and Nokia
+* Added various new OEM SLP serials
+
+Version 1.7.2
+* Added encrypted SLIC support
+* Added random loader names
+* Added byte differences (everyones GRLDR loader won\'t be byte for byte the same)
+* Added a new GRLDR version (0.97) from zsmin (custom edition for my program)
+* Added /norestart argument
+* Added support for Windows 7 Home Basic (4 new keys)
+
+Version 1.7.1
+* Removed window transparency to fix a Windows 7 artifacts bug and improve responsiveness on older systems using onboard graphics
+* Improved the \"Custom menu.lst\" loader option. It will now show all people using this setting the GRUB menu at system startup
+* Upgraded some certificates to version 2.1
+* Added a new GRLDR version (0.96) from zsmin (custom edition for my program)
+* Added external SLIC support (read \"How to add support.txt\" for more info)
+* Added support for BenQ and Sony machines
+* Added support for Windows 7 Starter Edition
+* Added various new OEM SLP serials
+
+Version 1.7
+* Removed the older loader
+* Added loader mode options
+* Changed the UI so that it\'s now slightly transparent as well as resized to suit the new options
+* Added Samsung support for Windows 7 Ultimate, Professional & Home Premium editions
+* Improved internal resources security
+
+Version 1.6.9
+* Added amber as a color to the application integrity checking as well as a few tweaks to the existing code (you should still always check the displayed application path even when green)
+* Cleaned up some code for better performance
+* Added new GRLDR 0.94 from zsmin
+
+Version 1.6.8
+* Added application integrity checking. This is a new feature which will display you with information about how the application was launched when the mouse is hovered over the green or red icon. It\'s goal is to inform you if you are running an untouched version of the application or one that could have been modified in some way by a script kiddie. Of course green is the best result, if it\'s red then be cautious as someone\'s likely binded a trojan!
+
+Version 1.6.7
+* Fixed Windows Vista activation status
+* Added Windows 7 Enterprise editions as a supported OS, although you will need to wait for OEM SLP keys to leak
+
+Version 1.6.6
+* Fixed activation checking for non-english systems (This release is just to address confusion as to if a system is activated or not)
+
+Version 1.6.5
+* Improved profile matchups (for matching a SLIC, certificate and serial)
+* Added activation checking for Windows 7, Vista and Server 2008
+* Added tokens checking for Windows 7 (alerts the user, repair is manual so that later on down the line this loader will never frankenbuild your system itself!)
+* Added error handling should UAC fail to elevate the application
+* Added Asus SLIC, certificate and Home Premium serial
+* Added new GRLDR beta 0.93 from zsmin
+
+Version 1.6.4
+* Fixed a missing serial issue when run as a standalone
+* Added checking to elevate to an administrator only when run on Vista or Windows 7
+* Corrected a typo found during an uninstall
+
+Version 1.6.3
+* Fixed a missing serial issue caused by the new bios type detection feature
+* Fixed an issue which would cause the application to start hidden behind other windows
+
+Version 1.6.2
+* UAC control reworked
+* Changed the default loader to zsmin\'s
+* Bios type detection now assigns a SLIC, certificate and if possible a serial to match
+* Added leaked Dell Home Premium key
+
+Version 1.6.1
+* Fixed Windows Vista version detection
+* Added new Dell Windows 7 Professional key
+* Added new GRLDR beta 0.91 from zsmin
+
+Version 1.6
+* Fixed Windows version detection (name spaces were off)
+* Added support for Windows 7 Home Premium
+* Compressed the internals a litte so the executable size has been shaved just a little
+
+Version 1.5.9
+* Added new GRLDR beta 0.90 from zsmin
+* Fixed missing OS information on unsupported OS\'s
+
+Version 1.5.8
+* Keys and certificates now use internals when external files cannot be found (this means you can run just the executable as a standalone application)
+* Added future OS key support (via Keys.ini)
+* Changed how an unsupported OS is displayed
+* Added new GRLDR beta 8c from zsmin
+
+Version 1.5.7
+* Fixed unicode text string issue which caused activation to fail
+* Fixed title assignment for unsupported operating systems
+* Added new GRLDR beta 8b from zsmin
+
+Version 1.5.6
+* Full recode so that debugging is easier for me and performance and reliability is better for you
+* User interface redesigned for simplicity
+* Added new GRLDR beta 8 from zsmin (Thanks go to him)
+* Added external certificate support for bios modders
+* Added external key input support
+* Added argument support
+
+Version 1.5.5
+* Improved error handling even more
+* Rewrote drive mounting code (should fix the x64 mounting issue and letter assignment)
+* Mac users should now automatically have the experimental loader option selected for them
+* Tweaked UI layout just a little (width was off)
+* Fixed other minor issues
+
+Version 1.5.4
+* Tweaked free drive letter handling just a little
+* Corrected a typo on the experimental loader option
+* Corrected Windows Vista version ID
+
+Version 1.5.3
+* Fixed a rare issue that would select a network drive as a free drive letter
+* Performing an uninstall now restores to the default Windows 7/Vista bootsect (wasn\'t required, but some machines need this!)
+* Performing an uninstall now inserts trial keys so you will have x amount of days remaining (On Windows 7)
+* Upgraded support for error handling (errors get logged to the system event viewer)
+* The loader window will now start centered when launched
+* Added a custom file icon (Thanks to my friend Logie)
+* Added support for Starter, HomeBasicN and BusinessN versions of Windows Vista
+* Upgraded experimental GRLDR to beta 6 (Thanks to zsmin)
+* Added another GRLDR for older Dell and HP machines to try (the older loader option)
+* Cleaned up code in general
+
+Version 1.5.2
+* Fixed a rare issue which could cause a nil object exception
+* The window title will now change to a more suiting \"Windows Vista Loader v1.5.2 - By Daz\" when run on Windows Vista
+
+Version 1.5.1
+* Updated GRLDR v0.4.4 to beta version 4 (Thanks to zsmin)
+
+Version 1.5
+* Fix to prevent hangs at boot when each OS needs it\'s own active partition exclusive while other primaries are set to hidden. Every other loader has this bug! (Thanks to endeavor for working with me to fix this issue)
+* Can now activate both Windows 7 and Windows Vista, just run the loader on either OS
+* Optional new beta GRLDR v0.4.4 can be used on Mac or Windows (New GRLDR created by zsmin, boots Windows 7 on a Mac much faster)
+* Updates to GRLDR v0.4.4 to become dynamic and allow slic change
+* Fixed UI font sizes for users who have changed their system font
+
+Version 1.4
+* Added x64 support
+* Drive letter assignment is now automatic
+* Changed how the key input is handled
+* Made UI a little more user friendly
+
+Version 1.3
+* Added brand support to the loader creator
+* Added certificate and serial install only for bios modded users
+* Added new Ultimate and Professional keys
+* The loader now automatically displays keys only for your installed version of Windows 7
+
+Version 1.2
+* UAC settings modified in manifest
+* Added future support for Windows 7 Professional
+
+Version 1.1
+* Silent certificate and key installs
+* Fixed file overwriting issue
+* Lists some BIOS information
+
+
+
+##########################################################################
+#   3   -   Virus scan results / checksums
+##########################################################################
+VirSCAN.org Scanned Report :
+Scanned time   : 2010/11/23 19:10:35 (GMT)
+Scanner results: Scanners did not find malware!
+File Name      : Windows Loader.exe
+File Size      : 3195511 byte
+File Type      : PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5            : dd4ba2d1b33e1e6d45ef343d1bfd7659
+SHA1           : 11471d2dfd15e32c9881f97c4e3d6b61bde6b5b1
+Online report  : http://virscan.org/report/84376fe03fe2050d5decfee7241e6e66.html
+
+Scanner        Engine Ver      Sig Ver           Sig Date    Time   Scan result
+a-squared      5.0.0.20        20101123050636    2010-11-23  8.65   -
+AhnLab V3      2010.11.23.01   2010.11.23        2010-11-23  1.76   -
+AntiVir        8.2.4.98        7.10.14.38        2010-11-18  0.48   -
+Antiy          2.0.18          20101119.5738706  2010-11-19  0.03   -
+Arcavir        2010            201011240122      2010-11-24  1.33   -
+Authentium     5.1.1           201011182230      2010-11-18  2.14   -
+AVAST!         4.7.4           101118-2          2010-11-18  0.40   -
+AVG            8.5.850         271.1.1/3265      2010-11-19  2.88   -
+BitDefender    7.90123.6271665 7.34710           2010-11-19  8.48   -
+ClamAV         0.96.3          12280             2010-11-18  1.67   -
+Comodo         4.0             6822              2010-11-23  10.16  -
+CP Secure      1.3.0.5         2010.11.24        2010-11-24  0.00   -
+Dr.Web         5.0.2.3300      2010.11.19        2010-11-19  10.53  -
+F-Prot         4.4.4.56        20101118          2010-11-18  2.18   -
+F-Secure       7.02.73807      2010.11.19.02     2010-11-19  0.53   -
+Fortinet       4.2.254         12.595            2010-11-22  0.62   -
+GData          21.1159/21.492  20101123          2010-11-23  9.56   -
+ViRobot        20101123        2010.11.23        2010-11-23  0.42   -
+Ikarus         T3.1.32.15.0    2010.11.19.77193  2010-11-19  8.16   -
+JiangMin       13.0.900        2010.11.20        2010-11-20  1.50   -
+Kaspersky      5.5.10          2010.11.18        2010-11-18  0.32   -
+KingSoft       2009.2.5.15     2010.11.23.14     2010-11-23  0.97   -
+McAfee         5400.1158       6168              2010-11-15  20.93  -
+Microsoft      1.6402          2010.11.23        2010-11-23  6.06   -
+Norman         6.06.10         6.06.00           2010-11-15  18.03  -
+Panda          9.05.01         2010.11.23        2010-11-23  10.33  -
+Trend Micro    9.120-1004      7.634.02          2010-11-18  0.67   -
+Quick Heal     11.00           2010.11.23        2010-11-23  3.88   -
+Rising         20.0            22.75.01.02       2010-11-23  2.76   -
+Sophos         3.13.1          4.59              2010-11-24  3.58   -
+Sunbelt        3.9.2459.2      7388              2010-11-23  8.90   -
+Symantec       1.3.0.24        20101123.002      2010-11-23  0.48   -
+nProtect       20101118.02     9129801           2010-11-18  10.92  -
+The Hacker     6.7.0.1         v00086            2010-11-17  0.63   -
+VBA32          3.12.14.2       20101118.1131     2010-11-18  7.92   -
+VirusBuster    4.5.11.10       10.130.25/2038578 2010-11-18  0.00   -
+
+
+
+##########################################################################
+#   4   -   Arguments
+##########################################################################
+/silent
+ Turns on silent mode
+
+/restart
+ Restart the OS after install (used with /silent)
+
+/norestart
+ Prevents system restart after successful installation
+
+/preactivate
+ This just helps the loader decide on it\'s environment
+
+/bios
+ Force the application to install just the certificate and serial
+
+/loader
+ Force the application to install the loader
+
+/swap
+ Install the loader without changing your systems boot code
+
+/k=XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+ Set the Windows 7/2008/Vista key
+
+/c=
+ Set the certificate (use the name of a certificate from the certificates folder or from the SLIC list)
+
+/s=
+ Set the SLIC (Acer, Advent, Alienware, Asus, BenQ, Casper, Dealin, Dell, ECS, Exper, Founder, FSC, Fujitsu, Gigabyte, Haier, Hasee, HCL, Higrade, HP, Jooyon, Kraftway, KSystems, Lenovo, LG, Medion, MSI, NEC, Nokia, Olidata, Panasonic, Quanmax, Samsung, Sony, Tongfang, Toshiba, Trigem, Viewsonic, Viliv, Wortmann)
+
+======
+* If you don\'t set the certificate it will default to your BIOS\'s model
+* If you don\'t set the SLIC it will default to your BIOS\'s model
+* If you don\'t set the key it will default to your BIOS\'s model and the correct one for the OS (Ultimate, Professional, Starter or Home Premium)
+* You can use these arguments via SetupComplete.cmd to pre-activate Windows 7/Vista/Server 2008
+======
+
+Example:
+\"D:\\Windows Loader.exe\" /silent /restart /k=342DG-6YJR8-X92GV-V7DCV-P4K27 /c=Acer /s=Acer
+
+
+SetupComplete.cmd Example:
+
+@ECHO OFF
+%~dp0\"Windows Loader.exe\" /silent /preactivate
+cd %~dp0
+attrib -R -A -S -H *.*
+SHUTDOWN /R /T 5
+RMDIR /S /Q \"%WINDIR%\\Setup\\Scripts\"
+exit
+
+
+
+##########################################################################
+#   5   -   Extra
+##########################################################################
+If a certificate or SLIC is released and I have not put out a new version of my application
+simply create two folders, one called \"Certificates\" and another called \"SLICs\".
+
+In each folder put the files you want to add support for, just be sure you label the files
+like this:
+
+*Certificates folder*
+Acer.XRM-MS
+Advent.XRM-MS
+Alienware.XRM-MS
+Asus.XRM-MS
+
+
+*SLICs folder*
+Acer.BIN
+Advent.BIN
+Alienware.BIN
+Asus.BIN
+
+
+When using external files all preset internals will be ignored, this is a cleaner approach
+for users who want to build their own list without my presets getting in the way.
+
+
+
+Special thanks:
+BobSheep, zsmin, Woota!? & lash78
+
+Thanks:
+Everyone who supports this project, you\'re all the reason I\'m still working on it.

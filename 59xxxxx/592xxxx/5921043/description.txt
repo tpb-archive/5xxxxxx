@@ -1,0 +1,307 @@
+Elemental: War of Magic v1.09 Update                              
+          ====================================                              
+                                                                            
+          ***************                                                   
+          * Multiplayer *                                                   
+          ***************                                                   
+                                                                            
+          - Added code to prefer a random map that supports the max         
+            players                                                         
+                                                                            
+          - Cloud saving/loading enabled                                    
+                                                                            
+          - AI opponents enabled                                            
+                                                                            
+          - Added handling for if firewall is turned off                    
+                                                                            
+          - Added check for if player is disconnected before starting       
+           turn timer when the end turn is requested                        
+                                                                            
+          - Added check to prevent player from going to multiplayer menu    
+           if it's still checking for an update                             
+                                                                            
+          **********************                                            
+          * Gameplay / Balance *                                            
+          **********************                                            
+                                                                            
+          - AI sovereigns take more care about where they are doing         
+            their attacking                                                 
+                                                                            
+          - Added code so that AIBasic is smarter about attacking units     
+            in cities                                                       
+                                                                            
+          - "Equipment Cache" goodie hut now hands out cloth armor,         
+            instead of the patchwork armor that should not be in the        
+            game anymore                                                    
+                                                                            
+          - You can no longer train groups of Dragons, Catapults, or        
+            Giant Demons                                                    
+                                                                            
+          - New option: Players can choose not to have monsters spawn       
+                                                                            
+          - New option: Players can disable minor factions                  
+                                                                            
+          - Loot given by monsters increased                                
+                                                                            
+          - Fixed bug where some AI-controlled caravans that had already    
+            established trade routes would wander off those routes while    
+            delivering their stuff at a city                                
+                                                                            
+          - Fixed a bug where caravan pathfinding through territory         
+            owned by anyone other than their owner would still have a       
+            penalty, even through caravans can always move freely           
+            through any territory                                           
+                                                                            
+          - Changed dynasty kids to determine their essence based on the    
+            BASE essence of their parents (ignoring equipment, player       
+            ability bonuses, etc.) This should keep kids from double-       
+            dipping from things like player-wide essence bonuses and        
+            keep their max mana at more reasonable levels                   
+                                                                            
+          - fixed several armor and special ability xml issues (that        
+            were either pointed out on the forums or that I discovered      
+            while fixing others)                                            
+                                                                            
+          ***********                                                       
+          * Battles *                                                       
+          ***********                                                       
+                                                                            
+          - The starting side in a tactical battle is now chosen            
+            randomly. The attacker and the defender have an equal chance    
+            to go first.                                                    
+                                                                            
+          - Added shorter/faster annimations for bow attacks and spell      
+            attacks                                                         
+                                                                            
+          - Fixed a divide by zero error in spell damage.                   
+                                                                            
+          - Fixed some logic to determine whether or not a tactical unit    
+            was moving.                                                     
+                                                                            
+          - Added code to make sure a unit cancels its destination when     
+            it skips a turn.                                                
+                                                                            
+          - Added some additional checks to skip turn logic in tacatical    
+            battles to stop a turn from being skipped in the middle of      
+            other actions.                                                  
+                                                                            
+          - Fix to be sure ranged attacks don't always do max damage in     
+            tactical battles.                                               
+                                                                            
+          - Fix to experience display for battles, and fixed a bug where    
+            auto resolve was only rewarding experience for killing the      
+            leader unit.                                                    
+                                                                            
+          - The AI does not take its first turn immediately after the       
+            window loads. This will prevent cases where the AI takes its    
+            turn before the window finishes rendering.                      
+                                                                            
+          - Fixed a spell type tag for Quicken (now shows up in Tactical    
+            Battles)                                                        
+                                                                            
+          - Fixed an issue where a single unit might lose its mana after    
+            attacking and killing a defending team.                         
+                                                                            
+          - Added the UsableInBattle tag for item types, will help to       
+            determine if an item should be displayed during a tactical      
+            battle. This defaults to FALSE.                                 
+                                                                            
+          - Items in a tactical battle will now properly stack in the       
+            UI.                                                             
+                                                                            
+          ******                                                            
+          * UI *                                                            
+          ******                                                            
+                                                                            
+          - NEW! City List window which can be brought up via a tab on      
+            the kingdom screen                                              
+                                                                            
+          - this will list all your current cities, along with vital        
+            information about resource, training, and building being        
+            done there (ie: it's a city spreadsheet)                        
+                                                                            
+          - New icons hooked up for sovereign talents                       
+                                                                            
+          - Got rid of trailing decimal zeros for the global resource       
+            pool tooltips, to clean up the display of resources that are    
+            always integers                                                 
+                                                                            
+          - Fixed bug where the global resources for a player didn't        
+            refresh when a city was lost through razing until the next      
+            turn                                                            
+                                                                            
+          - Tweaked the spell info card to get the stats to show up in      
+            the grey bar at the bottom of the info card, and to support     
+            multiple text entries of varying sizes                          
+                                                                            
+          - Item Shop now shows change in Combat Speed, Defense, and        
+            Attack for the highlighted item                                 
+                                                                            
+          - Message Box input field now limited to 20 chars                 
+                                                                            
+          - Made auto-select next moveable unit code not select caravans    
+                                                                            
+          - Fixed City HUDs clipping at the end (now they all get           
+            rounded edges)                                                  
+                                                                            
+          ***************************                                       
+          * Performance / Stability *                                       
+          ***************************                                       
+                                                                            
+          - Moved code around that calls clean-up functions so that we      
+            don't get false mem-leak messages anymore                       
+                                                                            
+          - Moved clean up code around so that game within a game cleans    
+            up properly                                                     
+                                                                            
+          - Fixed mem leak in Trigger Manager, city wall nodes,             
+            destination and selection cursors for destroyed objects         
+                                                                            
+          - Removed code in CTreeGraphic that was causing a leak            
+                                                                            
+          - Fixed big leak in DecalGraphicGraphicManager where every        
+            decal in the game was leaking when starting a new game          
+            within a game                                                   
+                                                                            
+          - Fixed leak in CUnitSceneViewWindow (which is used on lots of    
+            screens)                                                        
+                                                                            
+          - Fixed random crash in kingdom screen with the filling of the    
+            Lore Book                                                       
+                                                                            
+          - Tile Designs now flush out the graphics for their "base         
+            graphic" (the one that the graphic instances use to render)     
+            once the instances for that base graphic are released           
+                                                                            
+          - Fixed crash if a spellcaster ever had to cancel more than       
+            one enchantment at a time from losing 2 or more available       
+            enchantment slots                                               
+                                                                            
+          - Fixed memory leak in UnitAnimationHelper that caused unit       
+            gfx to leak after the unit was destroyed                        
+                                                                            
+          - Fixed memory leak in TreeGraphic that caused tree batches to    
+            leak on game within a game or destruction of the forest         
+            object                                                          
+                                                                            
+          *************                                                     
+          * Bug Fixes *                                                     
+          *************                                                     
+                                                                            
+          - Fixed bug where mini map would not update itself after          
+            starting a new game from within a game                          
+                                                                            
+          - Hooked up renaming cities and units to use events (for MP)      
+                                                                            
+          - Fixed bug where you could go into the enchants tab for any      
+            unit and cancel their enchantments, whether that unit           
+            belonged to you or not                                          
+                                                                            
+          - Fixed bug where destination cursor would disappear if the       
+            unit it belonged to was off-screen                              
+                                                                            
+          - Added support for Resource modifier types in unit ability       
+            bonus options to be taken into account in what resources a      
+            unit always provides, without needing to be stationed in a      
+            city                                                            
+                                                                            
+          - Fixed Bug When reload a game with Wild Shard Improvements,      
+            the game now properly relinks them to their resource hoards     
+            (fixed issue where destroyed shrines would not regenerate       
+            shard resource)                                                 
+                                                                            
+          - Fixed particle effect render order on main map screen           
+                                                                            
+          - Fixed graphical bug where mounted units in an army did not      
+            scale properly                                                  
+                                                                            
+          - CalculateAbilities now uses champions for ability modifiers     
+            (this fixes NPCs that should give bonuses but didn't, such      
+            as "Royalty")                                                   
+                                                                            
+          - Fixed bug where the NPC AI player would spawn new NPCs based    
+            off of the unit types of dynasty kids. This would cause         
+            champions wandering around with the same name, and with baby    
+            portraits if they hadn't grown up yet.                          
+                                                                            
+          - Attacking cities or lone improvements while in attack mode      
+            now works                                                       
+                                                                            
+          - hooked up the cursor to change to the crossed swords at the     
+            right time for cities/improvements when one of your units is    
+            selected                                                        
+                                                                            
+          - Fixed comment in CityLevelUpBonuses.xml that caused             
+            malformed xml                                                   
+                                                                            
+          - Fixed badly merged text in QuestUnits.xml for Talax             
+                                                                            
+          - Fixed end tags in CoreCityWalls                                 
+                                                                            
+          - Fixed game modifiers and ending tag after Magnar_Staff in       
+            CoreSpecialWeapons.xml                                          
+                                                                            
+          - Fixed end tag for Thumb in SpecialUnitProps.xml                 
+                                                                            
+          - Fixed comments in UnitSoundPacks.xml                            
+                                                                            
+          - note: thanks to â€˜kenataâ€™ and â€˜heavenfallâ€™ for helping us        
+            hunt down those above XML issues down and pointing us to        
+            some cool data checking tools                                   
+                                                                            
+          ***********                                                       
+          * Modding *                                                       
+          ***********                                                       
+                                                                            
+          - Tile Editor: Fixed bug where large silhouette figure would      
+            render in the middle of a tile design when placing              
+            pedestrians                                                     
+                                                                            
+          - Map Editor: when using the creature placement tool, defaults    
+            to giving the creature a random wander radius, which can be     
+            changed with the tool's third spinner in the bottom left        
+             corner                                                         
+                                                                            
+          - Also changed the wander radius 0 item to say "Don't Wander"     
+            instead, does what the default used to do, cause the unit to    
+            not even go into auto-patrol mode                               
+                                                                            
+          - Added new data def type, CSpellResourceCost, which can be       
+            used in spell def xml to specify resource costs on casting a    
+            spell, as well as any persistent maintenance costs if this      
+            spell is an enchantment                                         
+                                                                            
+          - tag used in the SpellResourceCost xml object to say whether     
+            the cost is deducted at time of casting (Per-Turn is 0), or     
+            if it is a continued maintenance cost that exists as long as    
+            the spell is in effect through an enchantment (Per-Turn is      
+            non-zero)                                                       
+                                                                            
+          - Note: maintenance resource costs can only be per-turn if the    
+            spell is an enchantment; there's no one-time cut to per-turn    
+            resource production from an instant, non-enchantment spell      
+                                                                            
+          - Here's an example of some xml to put in a spell def, making     
+            this spell cost 5 metal immediately when cast, and having a     
+            maintenance cost of 1 material per turn until the               
+            enchantment is cancelled:                                       
+                                                                            
+          Metal                                                             
+          5                                                                 
+                                                                            
+          Materials                                                         
+          1                                                                 
+          1                                                                 
+                                                                            
+          - MODs folders now creatured for the user in their My             
+            Games/Elemental folder                                          
+                                                                            
+          - Fixed Bug: Quests read in from XML (after loading the           
+            Data.zip) no longer override QuestDefIDs                        
+                                                                            
+          - Images and models now read in from the Mods/GFX folder          
+            properly                                                        
+                                                                            
+          - Mods are now enabled by default in Prefs.ini                    
+                                                                            
+          - Overlay: Implement tile upload/download                         

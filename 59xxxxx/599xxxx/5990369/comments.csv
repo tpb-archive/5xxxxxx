@@ -1,0 +1,58 @@
+User Type,Username,Date,Text
+,lilars26,2010-11-27T13:59Z,Thank you 20-40 for all your work and Happy Anniversary.
+,longdistance,2010-11-27T14:17Z,Thanks for Sanctuary and for the special Kung Fu Panda!
+,DMVIN,2010-11-27T14:28Z,thanks for uploading my request :-)
+,feroxxx,2010-11-27T14:28Z,"hey twentyfourty
+where is 30 rock??"
+[V],twentyforty,2010-11-27T14:33Z,"@lilars: Thanks, but we met no pilgrims and those who cometh after, requireth me not, and were cooked and eaten. So, nobody here have no anniversaries to celebrate."
+[V],twentyforty,2010-11-27T14:37Z,"@feroxxx: In New York.
+
+Kidding aside, almost nothing interesting (for people outside the States) have been aired."
+,lilars26,2010-11-27T15:59Z,"@ 20-40
+Ha,I am not even going to pretend that I understand what you just said.How about ""Have a shinier year""?"
+,punk67,2010-11-27T16:01Z,Thanks twentyforty !i wasnt complaining just enquireing !and you do deserve well earned break!thanks for sanctuary!
+,justregged,2010-11-27T22:34Z,"Hi twentyforty is there any possiblity of you doing an encode of this
+http://www.imdb.com/title/tt0347228/
+
+All i can find is 2cd stuff at gig and a half filesize.
+Whatever resoultion you want is good with me i'll just be happy if you can do it. My brother said it was very interesting."
+[V],twentyforty,2010-11-28T00:28Z,"Thanks.
+
+@justregged: Yeah, I got that one. In next couple of days, OK?"
+,justregged,2010-11-28T00:53Z,"Thanks so much, even more so because i seen you put requests frozen on hp7 torrent. No rush (who the fuck am i to rush you anyway lol) your the most productive uploader i know :)"
+,funpigj,2010-11-28T08:35Z,"20-40, thank you so much for your torrents.  They are really saving me while I'm away from my Sat-TV.
+
+Do you have a suggestion on how to convert your conversions to something iphone compatible?  When I try and convert your stuff the video goes over great, but there is no sound.  So, for the stuff i grab for my wife to watch, I have to go elsewhere for the avi and then convert to mp4 to put on her phone.  
+
+thanks again for your hard work!!  I count on you daily!"
+[V],twentyforty,2010-11-28T11:49Z,"@funpigj: Once per day I post so called ""long header"" where is clearly stated that ONLY 272p is iPod compatible.
+
+480p (as here) cannot be played on any ipod or clone.
+
+So, you should convert my 480p (720x400 pixels) to 480x272 pixels with any fully iPod compatible converter out there. Try different ones, you obviously use wrong one. Which one that would be, I have no clue, I don't use any of those nor follow their developement.
+
+Sound basically IS already iPod compatible and can just re-muxed with re-encoded video."
+,lfcchrisft9,2010-11-28T13:43Z,Can you do the mentalist season 3 at 272p?
+[V],twentyforty,2010-11-28T15:51Z,"@lfcchrisft9: Mentalist always follows the format of my other regular shows - Mentalist WAS 272p, and then 320p... currently 480p.
+
+SoA is the only show which deserved (better to say 'his fans') so obvious ""two-formats-two-releases""."
+,funpigj,2010-11-29T03:46Z,"@20-40 Yeah, I saw the note about the 272p, I meant to refer to that but forgot.  I dont' see many 272 files coming out of you anymore (as you mentioned)
+
+I use DVDFab to convert files for the iphone.  I've been converting to the high res possible.  I'll try to convert your files to 480x272. Would be AWESOME to use only your files."
+[V],twentyforty,2010-11-29T07:46Z,"@funpigj: Try this:
+
+Get Handbrake (free, open-source)
+As for test
+JUST first 120 seconds (remove --stop-at duration:120 for full length)
+CHANGE -i as needed
+CHANGE or REMOVE --srt-file and --srt-default as needed
+CHANGE -o as needed
+CHANGE -r (FPS) if needed (get from/with MediaInfo)
+
+
+
+HandBrakeCLI --no-dvdnav -v -i ""G:\down\FILE.YOU.NEED.TO.CONVERT.mp4"" --srt-file ""G:\down\IF.YOU.NEED.SUBS.srt"" --srt-default 1 --stop-at duration:120 -t 1 -c 1 -o ""G:\IPHONE.COMPATIBLE.mp4"" -f mp4 -I -w 480 -l 272 -e x264 -b 428 -2 -T -r 23.976 -a 1 -E faac -B 128 -R 44.1 -6 dpl2 -D 4 -x no-8x8dct=1:bframes=0:me=dia:subme=1:b-pyramid=0:b-adapt=0:no-weightb=1:ref=2:merange=16:subq=6:no-fast-pskip=1:cabac=0:mixed-refs=1:analyse=all:trellis=1:sar=1/1:level=3.0 --pixel-aspect 1:1 -v 
+
+NOTE: Command-line above should be one line only. Copy&Paste the text, edit (remove the line breaks) and C&P in CMD window
+or save as .bat or .cmd."
+,funpigj,2010-11-30T08:23Z,"@20-40 You're a genius!!  For some reason I was unable to run handbrake from the command line (must not have been in the path, and I forgot how to get it there...) but, I set the default settings in the handbrake GUI following your instructions.  VOILA!  loaded the .m4v file onto my wife's phone and we're in business.  Thanks again!"

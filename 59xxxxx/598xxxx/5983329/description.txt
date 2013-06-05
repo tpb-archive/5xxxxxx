@@ -1,0 +1,9 @@
+Ubuntu 10.04 with Diaspora app. built using VMWare Fusion. Username: diaspora Password: !password1
+
+Also installed, openssh server (change the password or all your app belong to us).
+
+Diaspora is in "pristine" condition and hasn't been logged into, you may need to run rake db:migrate from the app directory, I forgot to check. 
+
+To operate, double-click the diaspora icon on the desktop. A terminal will pop up, if you want to run as a pod, follow the instructions in the terminal. The homepage of Firefox is set to the application.
+
+I'll seed at least through the weekend. 

@@ -1,0 +1,96 @@
+Linux HLDS 100920
+Ð²Ñ‹Ð´ÐµÐ»ÐµÐ½Ð½Ñ‹Ð¹ ÑÐµÑ€Ð²ÐµÑ€ CS 1.6 steam/no steam Ð¾Ñ‚ ÑÐ°Ð¹Ñ‚Ð° cs.nline.net.ua
+
+Ð¡Ð¾Ð´ÐµÑ€Ð¶Ð¸Ñ‚:
+AmxModx 1.8.1.3
+Metamod 1.19
+Dproto 0.8.72
+
+Ð¡Ñ‚Ð°Ð±Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ Ð¸ Ð·Ð°Ñ‰Ð¸Ñ‰ÐµÐ½ Ð¾Ñ‚ ÑÐºÑÐ¿Ð»Ð¾Ð¸Ñ‚Ð°, Ð±Ñ€ÑƒÑ‚Ð° Ð¸ Ð´Ñ€ÑƒÐ³Ð¾Ð¹ Ð½ÐµÑ‡ÐµÑÑ‚Ð¸!
+ÐÐ°ÑÑ‚Ñ€Ð¾ÐµÐ½ Ð¿Ð¾Ð´ amxbans 5.0
+ÐŸÐ¾Ð´Ð´ÐµÑ€Ð¶Ð¸Ð²Ð°ÐµÑ‚ Ð²ÑÐµ Ð¿Ñ€Ð¾Ñ‚Ð¾ÐºÐ¾Ð»Ñ‹
+
+ÐŸÐ»Ð°Ð³Ð¸Ð½Ñ‹:
+Code
+; AMX Mod X plugins
+
+killa_hp.amxx                          
+;flashbang_dlight.amxx                   
+join_ip.amxx                          
+auto_rr.amxx                            
+;weapon_lights.amxx
+Bullet_Whizz.amxx   
+gamenamechanger.amxx                  
+psycholisten.amxx                     
+shamusi_music_plugin. amxx            
+;lastround2.amxx                      
+admin_spec_esp.amxx                    
+weapon_icon.amxx                  
+;translit.amxx                          
+ad_manager.amxx                         
+public_rules.amxx                       
+;inp_low.amxx
+spec_banner_ads.amxx                    
+;loading_banner.amxx                     
+Show-ip.amxx                            
+;anti_hosterror.amxx
+;showtime.amxx
+;anticommerce.amxx
+deagsmapmanager.amxx
+afkkicker2.amxx
+;Antireconnect.amxx
+
+; AMX Bans
+admin_amxbans.amxx
+amxbans.amxx
+
+; Admin Base - Always one has to be activated
+;admin.amxx  ; admin base (required for any admin-related)
+;admin_sql.amxx  ; admin base - SQL version (comment admin.amxx)
+
+; Basic
+admincmd.amxx  ; basic admin console commands
+adminhelp.amxx  ; help command for admin console commands
+adminslots.amxx  ; slot reservation
+multilingual.amxx    ; Multi-Lingual management
+
+; Menus
+menufront.amxx  ; front-end for admin menus
+cmdmenu.amxx  ; command menu (speech, settings)
+plmenu.amxx  ; players menu (kick, ban, client cmds.)
+;telemenu.amxx  ; teleport menu (Fun Module required!)
+mapsmenu.amxx  ; maps menu (vote, changelevel)
+pluginmenu.amxx  ; Menus for commands/cvars organized by plugin
+
+; Chat / Messages
+adminchat.amxx  ; console chat commands
+antiflood.amxx  ; prevent clients from chat-flooding the server
+scrollmsg.amxx  ; displays a scrolling message
+imessage.amxx  ; displays information messages
+adminvote.amxx  ; vote commands
+
+; Map related
+;nextmap.amxx  ; displays next map in mapcycle
+;mapchooser.amxx  ; allows to vote for next map
+timeleft.amxx  ; displays time left on map
+
+; Configuration
+pausecfg.amxx  ; allows to pause and unpause some plugins
+statscfg.amxx  ; allows to manage stats plugins via menu and commands
+
+; Counter-Strike
+;restmenu.amxx  ; restrict weapons menu
+statsx.amxx  ; stats on death or round end (CSX Module required!)
+;miscstats.amxx  ; bunch of events announcement for Counter-Strike
+;stats_logging.amxx    ; weapons stats logging (CSX Module required!)
+
+; Enable to use AMX Mod plugins
+;amxmod_compat.amxx    ; AMX Mod backwards compatibility layer
+
+; Custom - Add 3rd party plugins here
+;amx_adminmodel.amxx     ; Admin Models (Updated v1.1.1)
+backweapons.amxx        ; Back Weapons v1.87
+
+Ð’ Ð¾ÑÐ½Ð¾Ð²Ð½Ð¾Ð¼ Ñƒ Ð½Ð°Ñ ÐµÑÑ‚ÑŒ Ð¾Ð¿Ð¸ÑÐ°Ð½Ð¸Ðµ Ð²ÑÐµÑ… Ð¾ÑÐ½Ð¾Ð²Ð½Ñ‹Ñ… Ð¿Ð»Ð°Ð³Ð¸Ð½Ð¾Ð²!
+Ð”Ð»Ñ Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð¸Ðµ Ð¿Ð°Ñ€Ð¾Ð»Ñ Ð¾Ñ‚ Ð°Ñ€Ñ…Ð¸Ð²Ð° Ð¾Ð±Ñ€Ð°Ñ‚Ð¸Ñ‚ÐµÑÑŒ ÐºÐ¾ BuTaMuH Ð² Ð»Ð¸Ñ‡ÐºÑƒ cs.nline.net.ua
+Ð”ÐµÐ»Ð°ÐµÑ‚ÑÑ ÑÑ‚Ð¾ Ð´Ð»Ñ Ñ‚Ð¾Ð³Ð¾ Ñ‡Ñ‚Ð¾ Ð±Ñ‹ Ð½Ðµ Ð±Ñ‹Ð»Ð¾ "ÐºÐ¾Ð¿Ð¸Ð¿Ð°ÑÑ‚Ð°" 

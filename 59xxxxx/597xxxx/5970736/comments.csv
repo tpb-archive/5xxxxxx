@@ -1,0 +1,35 @@
+User Type,Username,Date,Text
+,Spartanus,2010-11-20T16:58Z,"Thanks, mate! You are the best!!!"
+,Spartanus,2010-11-20T17:03Z,"PS. Last year you used to make larger rips - 1024x576, one of the last of them was... Can you maybe go back to a larger size in future rips?"
+,BasilBrush,2010-11-20T18:50Z,"I thought I'd stick to the BBC style flashvhigh format this year.
+
+That's 832x468 at 1400Kbps using x264 and variable bit AAC audio at 128Kbps (150Kbps max).
+
+This keeps the filesize down. The quality factor at this frame size at bitrate is 0.144bits/(pixel*frame) which is ok for the low quality Eurosport channel.
+
+Eurosport (like most satellite channels) broadcast at a frame size of 544x576. They use the old analogue aspect ratio of 1.8234 rather than the modern 1.777 value. This means 18 pixels of wasted width so the useable width is 544-18 or 526. The 526 pixels are then stretched to 832 width. Each pixel is stretched by 832/526 or 158%
+
+Having a larger width just means stretching the pixels a bit further. When the raw MPEG2 bitrate is low this stretching becomes noticeable as pixelation.
+
+I didn't use the AVS lsfmod filter on this to keep the encode fast. I might add a bit of sharpening on tomorrows races but the encode time doubles when using lsfmod.
+
+I also used the standard Yadif de-interlacer rather than nnedi3. nnedi3 is great but it also increases the encode time."
+,BasilBrush,2010-11-20T18:58Z,"Just in case you were wondering the flashvhigh format is what get_iplayer calls the 832x468 frame size MP4 files from BBC iPlayer.
+
+This is the largest frame size that the BBC encode in from standard definition source."
+,BasilBrush,2010-11-21T05:31Z,"Here's the same torrent on Demonoid
+www[dot]demonoid[dot]com/files/details/2459424/
+
+You might need to switch sites if one site goes down."
+,vadimk_0,2010-11-21T10:42Z,"Thanks a lot! I watched almost all CC and Biathlon World cups last year by your videos.
+Great that you are uploading this season as well."
+,Spartanus,2010-11-21T11:22Z,"Ok, I understand about the horizontal resolution - but what about the vertical one? How do 576 pixels get scaled down to 468? That's loss of quality, right?
+
+Anyway, you are the boss. :)
+
+All I meant to say is that last year it was REALLY noticeable when you switched from the low size you used to do your encodes in to a much higher size.
+
+As for the file size, I don't think it matters to many folks these days... :)"
+,Spartanus,2010-11-21T11:45Z,"PS. So maybe you could do 976x560, like you did last year? That would keep the original vertical resolution. I mean, BBC's player is not the definitive standard. :)
+
+In any case, that's not very important and what's important that it is only through you that I've been able to follow cross-country skiing last year and I am very thankful to you for last year and for this year, and for all the work you do!!!"

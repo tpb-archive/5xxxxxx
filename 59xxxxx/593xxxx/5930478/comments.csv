@@ -1,0 +1,54 @@
+User Type,Username,Date,Text
+,lekkeralgemeen,2010-11-03T11:41Z,"Hi HR, when I add subtitles to your movies I always use MP4Box. However when added 1 subtitle I can't add another. I can add another, but iTunes won't show it. VLC however does show the second subtitle. Is is possible to add a second subtitle and what command do I have to use for it? For 1 subtitle I use this command: MP4Box -add MyMovie.srt:lang=nld:layout=0x60x0x-1:group=2 MyMovie.m4v 
+I'm looking forward to your answer!"
+,lekkeralgemeen,2010-11-03T11:42Z,I want this so that I have an english and a dutch subtitle track in my movies that I watch on my iPod...
+[V],HolyRoses,2010-11-03T12:49Z,hah your method sounds very similar to logic i posted a long time ago.  I would have to research this again.  Use subler if you own a mac.
+[V],HolyRoses,2010-11-03T15:36Z,"@lekkeralgemeen read the entire documentation located below.  I think you are missing a flag in your 2nd track.  The disable argument.  Try methods outlined exactly as I noted in documentation.
+
+http://thepiratebay.org/torrent/5212197/encode-handheld.pl_v5.2_with_binaries_for_Linux_and_Mac_OS_X
+"
+[T],qwersd,2010-11-03T15:47Z,"@HR will u be doing a handheld version of this and weeds?
+
+@lekkeralgemeen what i do is hardcode 1 subtitle and rename the other subs 2 the same name as the file & then switch on the other subs whenever necessary"
+[V],HolyRoses,2010-11-03T16:03Z,not good to hard code subtitles.  yes handheld versions.
+,lekkeralgemeen,2010-11-03T16:04Z,"I just tried this. In iTunes it just shows both subtitle tracks at the same time, but the little balloone thing isn't showing up, so I can't select one of the 2 subtitle tracks... In VLC it can show both again. But when subs aren't recognised on iTunes, they also aren't recognised on iPod. "
+[T],qwersd,2010-11-03T16:26Z,"@HR yup often while hardcoding subs, the audio gets screwed..."
+[V],HolyRoses,2010-11-03T16:29Z,"make sure subsequent subs are set disabled.  you may need to start from scratch again.
+
+pretty sure this method works fine.  i cant actually test right at this moment.  later i can reverify process but it did work fine when i published documentation."
+,lekkeralgemeen,2010-11-03T16:52Z,"IÂ´m going to test this out. But if this works. What to do when a file already has a subtitle embedded? Do I have to delete that subtitle track and add my tracks disabled again? And in your documentation, I don't really understand how to delete a subtitle track. Is there any way you can give a example command? Like: mp4box -rem (trackID)..."
+[V],HolyRoses,2010-11-03T17:08Z,"removing tracks is pretty easy, look at the example, first get the track numbers with the -info command then run the remove it
+
+MP4Box -rem TrackID #
+
+I dont know if you need the word trackid and then track number.  Don't have mp4box right here to test.  sure it has builtin help.
+
+formatting is goofed in the documentation it looks like.
+
+if file comes with 1 subtitle embedded it should be set to active, just add another one with syntax show and make sure use disable argument.  Thats proper iTunes way as far as I know.
+"
+[V],HolyRoses,2010-11-03T17:13Z,http://gpac.sourceforge.net/doc_mp4box.php
+[V],HolyRoses,2010-11-03T17:28Z,"http://kurtnoise.free.fr/mp4tools/
+
+can download goodies here."
+[V],HolyRoses,2010-11-03T17:33Z,"goodies
+
+http://kurtnoise.free.fr/mp4tools/
+
+newer mp4box download and mp4v2 tools"
+[V],HolyRoses,2010-11-03T17:40Z,"think can probably do most of this with yamb now, give it a try."
+,lekkeralgemeen,2010-11-03T19:00Z,"Thanks for your help! Still didn't manage to get 2 subtitles in 1 file. But at least I now can remove those english subtitles and replace them with Dutch subtitles. This is pretty much OK with me. Maybe one day I will try to add multiple subs to a .m4v file, but not very soon I think... 
+Looking forward to your Inception BRRip upload btw ;)"
+[V],HolyRoses,2010-11-04T06:26Z,"watched this movie tonight, pretty good."
+,hadesj1985,2010-11-05T11:44Z,awesome HR love your work will you be doing Inception? 
+[V],HolyRoses,2010-11-05T15:47Z,Undoubtedly
+,hadesj1985,2010-11-05T21:08Z,awesome love that movie cant wait thanks in advance
+,jport123,2010-11-06T13:37Z,Stuck On 97.9% But The Video 10 Audio 10 :D From What I Seen So Far.
+[V],HolyRoses,2010-11-07T04:06Z,its pretty entertaining.  watched it 2x now.
+[V],HolyRoses,2010-11-08T04:20Z,dude this thing claims i have mail.
+,mattinui,2011-02-21T07:43Z,"Dude, how to change the thumbnails of all your videos? I've looked everywhere and no one seems to know how, but you do! Please tell me."
+,Crisisblade13,2011-05-03T05:59Z,Dude why cant i put this on my iphone ? its mp4 but its says it cant be played :D 
+,Animeman1000,2012-01-25T18:28Z,"One of my 3 favorite movies of forever lol.
+The Mask (1994)
+Disturbia (2007)
+Scott Pilgrim vs the World (2010)"

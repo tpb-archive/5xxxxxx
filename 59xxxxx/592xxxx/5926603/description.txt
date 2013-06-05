@@ -1,0 +1,3 @@
+Deltaisos to generate the entire Fedora 14 i386 install disc set (DVD, CDs, and netinst) from the Fedora 14 Beta i386 DVD. First apply Fedora-14-Beta_Final-i386-DVD.diso to the F14 Beta i386 DVD ISO to generate the F14 i386 DVD ISO.  The other deltaisos can then be applied to the new DVD image to generate any of the other new install images.
+
+Instructions at https://fedoraproject.org/wiki/Delta_ISOs

@@ -1,0 +1,22 @@
+Here is updated version of well known Windows activator-loader by DAZ.
+
+
+##########################################################################
+# Changes
+##########################################################################
+Version 1.9.5
+* Added a new GRLDR version which fixes a bug that prevented activation on systems with an XSDT
+
+Version 1.9.4
+* Added a new GRLDR version (Improves the ignore existing SLIC function)
+* Disabled table sorting by default for compatibility reasons
+* Added an option to disable type 3 memory as well as an option to reverse the SLIC search direction
+* Displays motherboard version to help with debugging
+* Added ECS, Dealin, Higrade and KSystems SLIC's
+* Added HCL, Ksystems and MSI Home Basic serials
+* Added MSI Professional serial
+* Added Dealin Home Premium serial
+* Other minor tweaks and fixes
+
+
+don't forget to say thanks!

@@ -1,0 +1,64 @@
+Hi everyone,
+
+Itâ€™s been a while since we last updated on the forthcoming F1 2010 patch so here is where things are at currentlyâ€¦ 
+
+The team are hard at work, and have been since launch, building the patch. Weâ€™ve focussed on both fixes to the game and a number of gameplay improvements based on your feedback. Once the process has finished, we can then release the patch for submission which will take an additional couple of weeks until it is available for release. Here is a quick overview of the main issues which weâ€™re addressing:
+
+
+1. Corrupt Save Games - We have identified an over-zealous anti-cheating check that manifested as falsely identified corrupt saves, specifically the ones relating to practice and R&D upgrades, the save-games should now load without issue. However if any of you are experiencing corrupt saves outside of this then please continue to send your PS3 save game files to us (Xbox360 & PC saves arenâ€™t of any use to us) and we can test these against the latest patch to see whether all instances of this issue have now been fixed
+
+2. AI not pitting in dry races where a mandatory pit stop was required (20% or more) â€“ This has been fixed.
+
+3. Player held in pit-stop too long â€“ Weâ€™ve improved exit logic so that it isnâ€™t too cautious in holding players during a pit-stop.
+
+4. Puncture frequency reduced â€“ The likelihood of players suffering punctures has been reduced. 
+
+5. Pit-stop lock-ups - Fixed several instances which caused the pit crew to lock-up and not be able to service the cars.
+
+6. Automatically updating race strategy â€“ Selecting prime tyres from the tyre menu (over default option) now updates the strategy so that the pit-crew assign options during the pit stop as opposed to re-attaching another set of primes (in a dry race of 20% or more).
+
+7. First lap calculates correctly â€“ The lap time for the first lap of the race now calculates correctly, from the lights going out as opposed to the cars crossing the start line.
+
+
+In addition to these fixes weâ€™ve also made improvements to the game based on your forum feedback:-
+
+
+1. OSD changes â€“ showing split times rather than gap to leader â€“ Weâ€™ve changed how the OSD timing information functions so that split times are now displayed on the OSD, showing race time and race time differences to the other cars â€“ I.e. how far ahead/behind are at a sector boundary.
+
+2. AI affected more by damage received â€“ Damage sustained by an AIâ€™s car will have a greater effect their handling characteristics, effectively slowing damaged AI down more. AI cars that cannot maintain a racing speed will naturally yield to faster cars & come into the pits for repairs. As before, If they receive too much damage, they will retire from the race.
+
+3. AI yielding to other cars when not on flying lap in qualifying - Improved AI behaviour to move off the racing line or out of the playerâ€™s way when the player is on a flying lap.
+
+4. Increased wheel support â€“ Increased wheel support and force feedback tweaks (where applicable) for the following wheels; Thrustmaster Ferrari F430 Force Feedback (officially supported), Thrustmaster Ferrari GT Experience (officially supported), Thrustmaster RGT Force Feedback Pro Clutch (not officially supported but will work), Fanatec Porsche 911 Turbo S & GT3 RS2 (both officially supported).
+
+5. Wet weather improvements - Rebalanced graphical and handling effect of cars driving on a wet track - the level of wetness has been increased as well as tyre trails being made more prominent.
+
+6. Improved Damage Modelling â€“ Tweaks to the damage system so that more damage is visible / received during lesser impacts.
+
+7. Next lap invalidated time trial logic - In time trial the next lap is no longer invalidated for any offence committed in the 3rd sector. It is calculated per track and is predominantly based on the final corner.
+
+8. AI: Driver Behaviours - Addressed some issues in driver behaviour balancing that were causing occasionally unrealistic finishing positions.
+
+
+
+There have also been several PC specific improvements as well:-
+
+
+1. PC \'replay saving\' and playback â€“ You will be able to save out the files to replay them later or share them with others.
+
+2. DX11 â€“ The F1 2010 patch will enable the game to run on DX11. All of the graphical improvements are configurable from graphical options when in DX11. Specifically, \"ultra\" settings for \'shadows\' and \'postprocess\'. (These options require a lot of processing power, and are only recommended for high-end graphics cards.
+
+3. Eyefinity Support â€“ F1 2010 now supports 3 x 1 or 3 x 2 monitor display setups (minimum requirement of 3 x monitors)
+
+4. Optimisations â€“ We have made better use of multi-core processors in general, which will lead to better framerates on higher end machines.
+
+5. Additional Support - Support for SandyBridge processors, which also adds support for currently available \'modern\' processors, like Core i7, which wasn\'t correctly detected previously.
+
+
+This list is not exhaustive of the issues being addressed in the patch but a snap shot of the key improvements. Please keep your feedback coming though as it is invaluable both for the work on the patch and for the design of F1 2011. 
+
+Once the patch goes into submission, weâ€™ll try to give you guys a heads up as to when it will be live and ready to download as soon as we know. 
+
+Thanks for your continued support & feedback.
+
+The F1 2010 Development Team.

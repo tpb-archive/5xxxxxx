@@ -1,0 +1,6 @@
+Notch slipped an update past without mentioning it in his blog.
+
+He only changed 4 files inside the main minecraft.jar. I checked 2 of them with winmerge and the only differences were some sha1 digests. It seemed kinda important so I decided to upload it.
+
+unzip and replace minecraft.jar in .minecraft\bin
+you can put the new version file in there too.

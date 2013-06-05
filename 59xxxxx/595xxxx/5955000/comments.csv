@@ -1,0 +1,244 @@
+User Type,Username,Date,Text
+,JoeKKer,2010-11-13T20:19Z,"See The Web seeds Column For Direct Link , In Ur Torrent Client"
+,sharmila123,2010-11-13T20:35Z,Is this for real??? or is it just spam or malware
+,naga3,2010-11-13T21:10Z,Its just in bytes... plz seed...:(
+,naga3,2010-11-13T21:16Z,"@above:come on... do u have to ask those questions whereever u go...@jokker
+dun think anybody's seedin.. so could u be a bit more specific abt d direct link"
+,OmniNegro,2010-11-14T02:09Z,"@sharmila123
+Do you even have this error?
+
+You did not mention it in the other thread.
+
+""Fix it 'til it's broke"" is a saying here. If the game does not give you the error this claims to fix, then you are begging for trouble if you run it. And it seems no-one is seeding this anyway.
+
+(So no-one can scan it to see if it is a known virus, I rather suspect it is malware)"
+,OmniNegro,2010-11-14T02:23Z,"There is no mention of this on GameCopyWorld or GameFix.
+
+I believe it may well be legitimate, but only because feedback in JoeKKer's other torrents seems to suggest that he is not one of those malware bastards.
+
+JoeKKer has made a torrent of a ripped version of the game. This is the fix to THAT torrent. sharmila123, if you are not running the rip he made then you do not need this.
+
+@JoeKKer, sorry about my earlier comment. I bid you well and much respect. :)"
+,jagaa,2010-11-14T04:52Z,JoeKKer where are you. We're waiting for you 
+,jagaa,2010-11-14T04:53Z,Come on what happened
+,naga3,2010-11-14T05:14Z,"come on ppl... he's new but he's one of d best rippers i have seen...tat sadi.,..
+
+
+seed this torrent...u have not yet downloaded this torrent...:X"
+,JoeKKer,2010-11-14T05:36Z,"THIS IS A FIX FOR EVERY 1 WHO IS GETTING GAME NOT INSTALLED ERROR 
+
+And About Malware......Malware Is In Ur Head"
+,JoeKKer,2010-11-14T05:40Z,"Join The Gaming House
+
+joekkerr DOT 0fees DOT net "
+,sharmila123,2010-11-14T07:21Z,OmniNegro....did u not read my comments on the PC_Two.Worlds.II.-TPTB... i installed the TPTB game 18 times .. uninstalled it 18 times... planned to jump of the building :-) and then asked him if it was malware for a simple reason... i was despo then!!!
+,AgentHaze,2010-11-14T22:36Z,it works and isn't malware. the only problem i am having is that now when i try to make a username for my save file it says invaild characters in username
+,JoeKKer,2010-11-15T02:21Z,"U Might Be Using ""Special Characters In Username"" (Like ""*"" ""/"" ""-"")"
+,chirssayscool,2010-11-15T05:19Z,great job joekker it s working great
+,chirssayscool,2010-11-16T06:06Z,"joekkerr u r not only a gr8 ripper but u r a nice human too
+all the best"
+,rko36,2010-11-16T11:25Z,"dam it wont work, what directory do i install it to exactly? when i run the batch file, it says windows needs your permission to continue, and i click continue, then nothing happens.Help?"
+,rko36,2010-11-16T11:36Z,"I put the batch file into the games directory and ran it, windows permission control pops up and i click on continue, and the black window cmd box comes open and then nothing happens.I still get the game isnt installed error"
+,JoeKKer,2010-11-17T09:31Z,I Think U Use Vista Right RKO ?
+,ccr123,2010-11-17T22:01Z,I have same problem as AgentHaze (invaild characters in username) and can't even start the game because of it. Any help?? 
+,cousland,2010-11-17T22:01Z,"when I try to run the .bat file it says this:
+
+
+""regedit is not recognized as an internal or external command,operable program or batch file""
+
+and closes the window
+
+any ideas anyone?"
+,legireg,2010-11-18T02:03Z,"For everyone with problem, try editing the batch file and change the REGEDIT near the end (third line from end of file) to just REG.
+
+Also, 64 bit users, change all
+HKEY_LOCAL_MACHINE\SOFTWARE\Reality Pump\xxxxxxx
+to
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\xxxxxxxx
+
+you have to do this change in 6 places.
+
+The game finally started for me after this."
+,cousland,2010-11-18T11:18Z,"changing REGEDIT in bottom to REG didn't do anything...now it says
+
+ ""reg is not recognized as an internal or external command,operable program or batch file""
+
+wtf...
+
+here's the batch file...maybe something is wrong?can someone look over it please?
+
+
+@echo off
+echo.
+SET path=%CD%
+SET path=%path:\=\\%
+> ""%Temp%.\regfile.reg"" ECHO REGEDIT4
+>>""%Temp%.\regfile.reg"" ECHO.
+>>""%Temp%.\regfile.reg"" ECHO [HKEY_LOCAL_MACHINE\SOFTWARE\Reality Pump\TwoWorlds2]
+>>""%Temp%.\regfile.reg"" ECHO.
+>>""%Temp%.\regfile.reg"" ECHO [HKEY_LOCAL_MACHINE\SOFTWARE\Reality Pump\TwoWorlds2\FileSystem]
+>>""%Temp%.\regfile.reg"" ECHO ""DataPath""=""%path%\\""
+>>""%Temp%.\regfile.reg"" ECHO ""OutputDir""=""%path%\\""
+>>""%Temp%.\regfile.reg"" ECHO ""AppDataFolder""=""%path%\\""
+>>""%Temp%.\regfile.reg"" ECHO ""MyDocumentsFolder""""%path%\\""
+>>""%Temp%.\regfile.reg"" ECHO ""UseSavedGamesFolder""=dword:00000002
+>>""%Temp%.\regfile.reg"" ECHO ""Version""=""1.0.0""
+>>""%Temp%.\regfile.reg"" ECHO ""LanguageVersion""=""ENG""
+>>""%Temp%.\regfile.reg"" ECHO.
+>>""%Temp%.\regfile.reg"" ECHO [HKEY_LOCAL_MACHINE\SOFTWARE\Reality Pump\TwoWorlds2\Installer]
+>>""%Temp%.\regfile.reg"" ECHO ""UninstallFolder""=""%path%\\""
+>>""%Temp%.\regfile.reg"" ECHO ""PFTree""=dword:00000001
+>>""%Temp%.\regfile.reg"" ECHO ""SMTree""=dword:00000002
+>>""%Temp%.\regfile.reg"" ECHO ""StartMenuGroup""=""Reality Pump\\Two Worlds II""
+>>""%Temp%.\regfile.reg"" ECHO.
+>>""%Temp%.\regfile.reg"" ECHO [HKEY_LOCAL_MACHINE\SOFTWARE\Reality Pump\TwoWorlds2\Interface]
+>>""%Temp%.\regfile.reg"" ECHO ""EnablePad""=dword:00000001
+>>""%Temp%.\regfile.reg"" ECHO.
+>>""%Temp%.\regfile.reg"" ECHO [HKEY_LOCAL_MACHINE\SOFTWARE\Reality Pump\TwoWorlds2\Network]
+>>""%Temp%.\regfile.reg"" ECHO ""EarthNetMasterServerAddress""=""warnet.2-worlds.com""
+>>""%Temp%.\regfile.reg"" ECHO.
+>>""%Temp%.\regfile.reg"" ECHO [HKEY_LOCAL_MACHINE\SOFTWARE\Reality Pump\TwoWorlds2\SerialKey]
+>>""%Temp%.\regfile.reg"" ECHO ""BuySerialKeyWebsite""=""https://secure.zuxxez.com/shop/"" 
+cls
+regedit /s ""%Temp%.\regfile.reg"" >nul
+""%windir%\regedit.exe"" /s ""%Temp%.\regfile.reg"" >nul
+del /F /Q ""%Temp%.\regfile.reg"" >nul"
+,cousland,2010-11-18T12:03Z,"SOLVED
+
+it wasn't the batch file's fault...I just needed to update physx drivers...
+
+things like that should come with the game damnit..."
+,ccr123,2010-11-18T12:57Z,"Anybody got a solution for my problem? I'm not using any special letters, but whatever I write there, shows as invalid. Anybody, please?"
+,JoeKKer,2010-11-18T20:17Z,Try Another Crack
+,royhere,2010-11-19T14:04Z,"When globe rips a game.........
+
+he is rips nothing many times just only decrease video quality and languages....
+
+and make games amazing rip..
+
+better than tptb...
+
+tptb makes a rip and we can apply tptb patches.
+
+thats a advantage in tptb games,
+
+globe is not make a rip patch applicable..
+
+
+globe is far better and superior..
+
+every time available for help and he is not behave like tptb...
+
+who is not accept that globe is best"
+,Shoobox,2010-11-21T01:34Z,"@royhere
+Globe has turned into a lacky joke,
+his rips dont run the video half the time, only audio but he claims everything is there,
+he uses old out of date compression,
+he makes the worse cd cracks for his games to work. he runs his games on a 64 bit windows 7 so he relies on 32 bit windows 7 users to test his rips, 
+get real globe has slipped off the edge: let him fall and i new ripper rise!!!!"
+,Shoobox,2010-11-21T01:35Z,"let me also point out Globe does copy rips from skidrow so no he is not a true hacker!!!!!
+many of his files comes from skidrow!!!"
+,DR32MZ,2010-11-24T14:27Z,"thx legireg, now the game works but still got problem with registering the game.can n1 explain how to use serial key?
+@Shoobox i dont know about globes recent rips but all of his game i downloaded worked perfectly for me.no probs with audio or video. "
+,aceveda05,2010-11-25T14:00Z,HOW TO ACTIVATE THE GAME!!!!!!!!!!!!!!!!!!!!
+,Shoobox,2010-12-01T21:36Z,"for my version of the game when entering the patch it will still say the game serial is unregistered just click enter serial later, you should still be able to play thru to chapter 3 ,
+now on chapter 4 i had to save game,
+delete the game registry and re-enter the jokker patch, then rinse repeat, with register serial later, continue to play the game.
+
+Two Worlds 2 bonus codes
+2h Sword: 3542-3274-8350-6064
+Heavy Armor: 4149-3083-9823-6545
+Laby. Map: 6972-5760-7685-8477
+1h Mace: 3654-0091-3399-0994 "
+,Shoobox,2010-12-01T21:41Z,"@DR32MZ
+Globe is famous for taking skidrow and reloadedd games and shrinking down the game video for compresion, some games at 5 or 7 gigs do not need smaller crappier video compression,
+a 5 to 7gb game iso only need to be broken down to archive files rather than converting video to smaller quality,
+some of globes games also requires you to play the video outside the game instead of following the story line, i willl say that TPTB triesd to keep all the video files intact to view them in proper order.
+example, globes SWTFU-2 games only plays audio and not video which alot of people have posted, requiring ytou to view video seperately."
+,horkaveh,2010-12-24T16:56Z,"This is fucking bullshit. When i followed the instructions, a damn side comes upp where there's full of buttons like them when you're loading a game and all says ""emty sloat"" and on top it says ""new"" whatever i type it says ""wrong charachter name etc."".
+Cant even enter the game now and my lvl 39 charachter that made it to chapter 4, is gone I presume."
+,_bismuth,2011-01-18T04:11Z,@horkaveh You need to delete the 'TwoWorlds files' folder from c/user/document after un-install but before re-install.
+,dragondeathlord,2011-03-12T05:11Z,"I converted this for 64 bit .reg.
+
+Just  copy under the line rename it To something.reg and fix the paths.
+
+JoeKKer you are a GOD! 
+_____________________________________
+
+
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\FileSystem]
+""DataPath""=""I:\\Two Worlds II""
+""OutputDir""=""I:\\Two Worlds II""
+""AppDataFolder""=""I:\\Two Worlds II""
+""MyDocumentsFolder""=""I:\\Two Worlds II""
+""UseSavedGamesFolder""=dword:00000002
+""Version""=""1.0.0""
+""LanguageVersion""=""ENG""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\Installer]
+""UninstallFolder""=""I:\\Two Worlds II""
+""PFTree""=dword:00000001
+""SMTree""=dword:00000002
+""StartMenuGroup""=""Reality Pump\\Two Worlds II""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\Interface]
+""EnablePad""=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\Network]
+""EarthNetMasterServerAddress""=""warnet.2-worlds.com""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\SerialKey]
+""BuySerialKeyWebsite""=""https://secure.zuxxez.com/shop/""
+"
+,dragondeathlord,2011-03-12T05:36Z,"Sorry I screwed up pasted an old file, sleepy here the right one but fix paths.
+__________________________________________
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\FileSystem]
+""DataPath""=""I:\\Two Worlds II""
+""OutputDir""=""I:\\Two Worlds II""
+""AppDataFolder""=""Two Worlds II""
+""MyDocumentsFolder""=""Two Worlds II""
+""UseSavedGamesFolder""=dword:00000002
+""Version""=""1.0.0""
+""LanguageVersion""=""ENG""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\Installer]
+""UninstallFolder""=""I:\\Two Worlds II""
+""PFTree""=dword:00000001
+""SMTree""=dword:00000002
+""StartMenuGroup""=""Reality Pump\\Two Worlds II""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\Interface]
+""EnablePad""=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\Network]
+""EarthNetMasterServerAddress""=""warnet.2-worlds.com""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Reality Pump\TwoWorlds2\SerialKey]
+""BuySerialKeyWebsite""=""https://secure.zuxxez.com/shop/""
+"
+,newmouse,2011-06-26T03:44Z,"I have had the problem with Two Worlds II repeatedly asking for the serial nearly every time its run.
+Its disabled in the Firewall.
+This DOESN'T happen if my Internet Connection is switched off.
+
+I've decided that the game looks for a active Internet connection  & try's to verify the Serial.
+If it doesn't find an active connection then it excepts the Serial as OK.
+That is, it rejects the Serial just because it can' t verify it when the Game thinks it should be able to.
+The only solution I have found that works & completely stops the activation requests is 
+to edit Windows HOSTS file adding the entry 
+""127.0.0.1       secure.zuxxez.com"" 
+Just disabling TWII in the Firewall isn't enough.
+
+You will have to Google around about working with that HOSTS file ...to complicated to detail here. @@@@  "

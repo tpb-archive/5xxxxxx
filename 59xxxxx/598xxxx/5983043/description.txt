@@ -1,0 +1,180 @@
+WHAT YOU CAN DO ON 0.2.1:
+- !! FULLY SUPPORT FOR AION PATCH 2.0.0.4, USE THE NEW LOCALHOST LAUNCHER !
+
+â€¢ Full Aion client version 2.0.0.4 support
+â€¢ GeoData Mpas - NPC know there z Axis are!
+â€¢ Many Quest fixes!
+â€¢ Day/Night Spawns.
+â€¢ Broker.
+â€¢ Characters creation.
+â€¢ All basic chat types.
+â€¢ Player cube expansion (inventory), warehouse.
+â€¢ Items support, equipements, potions, food
+â€¢ Exping and level up is possible.
+â€¢ Player stats.
+â€¢ Monsters move and attack normally (Basic AI).
+â€¢ Merchant npc sale & buy items, shops 100%.
+â€¢ Drop and loot system from monsters.
+â€¢ Normal & Flight Teleport.
+â€¢ Trade between players.
+â€¢ Player class change.
+â€¢ Player pvp system.
+â€¢ Player vs Player (pvp) in the Abyss.
+â€¢ Player duel system.
+â€¢ Players friend system.
+â€¢ Npc titles.
+â€¢ Other npcs <> players interaction.
+â€¢ Spawn protection
+â€¢ Different skill types: (hundreds of skills working correctly)
+â€¢ Items stats attributes, attack, defense, etc.
+â€¢ Quests engine with campaign quests, group drop distribution for quests
+â€¢ Skillbooks
+â€¢ Stigma system
+â€¢ Group system
+â€¢ Manastone socketing and bonuses
+â€¢ Rifts and rift announcements
+â€¢ Channels support
+â€¢ Instances support
+â€¢ Legion system with many advanced features, legion warehouse
+â€¢ Gathering process and gather skill level up
+â€¢ Crafting support
+â€¢ Godstone socketing and effects
+â€¢ Private shops
+â€¢ Flying timer, correct gliding
+â€¢ Zone manager with drowning/breath area working
+â€¢ Item set bonuses
+â€¢ Basic npc skills support
+
+- Use new GM Commands / Teleport IDs from the List (in folder "Tools")
+- And much more, find out or read the SVN CHangesets online!
+
+==========================================
+
+==========================================
+HOW TO START AION WITH YOUR OWN IP:
+
+To Start AION on localhost, make a start.bat file with notepad and write:
+
+start bin32\aion.bin -ip:127.0.0.1 -port:2106 -cc:1 -lang:enu -noauthgg -noweb
+or
+start bin32\aion.bin -ip:127.0.0.1 -port:2106 -cc:2 -lang:enu -noauthgg -noweb
+
+and put it into your Aion Main Folder!
+
+
+(if you have german installed, use: lang:deu; if you have french installed, use: lang:fra)
+
+(if you have EU Client use cc:2, if you have NA Client, use cc:1 if you have RUS Client, use cc:7)
+Default Setting is cc:1, if you have other cc, open "gameserver.properties" of "Novo's EasyAion Emulator\AIONEmulator\gameserver\config\main" with Notepad:
+
+# Server Country Code (cc)
+# (CountryCode has to be the same as in start.bat Launcher)
+# (cc:1 is for NA Client, cc:2 is for EU Client, cc:7 is for RUS Client)
+gameserver.country.code=1
+
+
+! Don't forget: !
+You NEED to copy fyyre's "d3dx9_38.dll" from "\Tools\Aion Launcher\Disable Login IP Check fix" to "Aion\bin32\" FOR LOGIN FIX !!
+==========================================
+
+
+Tutorial HowTo download, compile and start and the AionEmu Emulator:
+
+1.
+download and unpack "Novo's EasyAIONEmulator Repack"
+
+2.
+Go into the folder "SVN AIONEmu Source" and click on "1. SVN Update Source.bat"
+
+3.
+after that start "2. Build&Copy Aion-Lightning Server.bat"
+
+4.
+Now install the Database.
+Sstart "3. Install Database.bat"
+Warning: All existing character / Accounts from the Database get lost!
+Backup of the old Database get saved in the folder "Database Installer".
+
+5.
+Now, you have to edit the config files of LoginServer and GameServer.
+start "4. Configure Configs.bat"
+
+6.
+Now you can start the Server.
+Just click on: "Start AIONEmulator.bat"
+
+7.
+Create an Account:
+go to "http://127.0.0.1:8096/"
+and create your account or login with preconfigured Account admin / admin
+
+If you want to be "Admin/GM",
+log out, open Navicat, open the "aionls" Database and look for
+your Account the table "account_data".
+Set the "access_level" column of your Account to "3" for admin
+Relog your character to take effect.
+(Database Login: User: root - Password: aion - Port: 3316)
+
+!!! FINISH !!!
+
+To Start the Server, only do Step 6.
+To update the Server by yourself, do Step 1-7 again
+
+
+Optional:
+Go to the folder "Novo's EasyAion Emulator\AIONEmulator\gameserver\config\"
+Open the Configs with Notepad
+Set other Options if you want, like: Rates, Drops, Skill AutoLearn, and so on.
+
+Make the Aion Server public:
+Edit the file "ipconfig.xml" of "Novo's EasyAion Emulator\AIONEmulator\gameserver\config\network" with notepad:
+
+Default:
+<ipconfig default="127.0.0.1">
+
+# If you want to connect from an other computer (make it public)
+# then change the IP to your IP from "http://whatismyip.com/"
+# now open the Ports 7777, 2106, 8096 (TCP) 
+
+__________________
+also
+Router Settings: Network / NAT & Port Rules / NAT Settings
+
+DMZ:
+If you have DMZ or Virtual Server set your computer as Server: 192.168.2.20 ( Example your Local IP Adress)
+
+Port Rules: Open
+
+TCP: 7777,2106,9014,3306,3316,10241,9021
+UDP: 7777,2106,9014,3306,3316,10241,9021 
+
+3.
+If you have only a dynamic IP internet connection, you can create a FREE hostname to point to your dynamic IP. One of the most used provider is, No-IP - Dynamic DNS, Static DNS for Your Dynamic IP, but you can choice another as well. Register a new host and don't forget to download and install the update client.
+
+4.
+If you wish to play with other in your local network, you must set your Windows "hosts" file as Loop-Back. So here are some setting example:
+First of all, you need to setup your "localhost" C:\Windows\System32\drivers\etc\hosts.
+Edit your "hosts" file.
+
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+
+# localhost name resolution is handled within DNS itself.
+# ::1 localhost
+
+127.0.0.1 localhost
+192.168.2.20 yourhost.no-ip.com # your computer IP
+
+If the game crashes at login, startup your server  create a new connection in Navicat and use port 3316 root as the user and aion as pass, and on aiongs double click, right click Click execute sql file
+Browse for AIONEmulator\gameserver\sql\Update
+Open abyss_kills_points.sql Hit start close and exit navicat
+
+
+If you're using english version and getting message "the client's regional code is not compatible with game server"  of aion: browse to C:\Novos_Easy_AionUnique_Emulator_Repack_0.2.1\AIO NEmulator\gameserver\config\main and find gameserver and edit with notepad change line to gameserver.country.code = 1
+
+If you're an idiot and can't follow instructions, don't complain and go do something else.

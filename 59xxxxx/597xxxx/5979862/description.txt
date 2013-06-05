@@ -1,0 +1,31 @@
+Official release of C4E's iXtreme LT+
+
+- Supports Benq and Liteon Drives (74850, 83850V1, 83850V2, 93450)
+- Optimized PFI code to accommodate AP25 SS data
+- Defeats current AP25 protection
+- Protects console from logging AP25 violation
+- Full disc stealth used by default
+- Waveless booting, disc images are assumed to be correct!
+- Split-Vid used as default
+
+If booting an AP25 title without AP25 SS game will not boot but will still be protected from logging AP25 violation on current dash 2.0.12611.0
+If LT+ encounters an unknown AP25 challenge, game will not boot but console will still be protected from logging AP25 violation on current dash 2.0.12611.0
+
+AP25 SS are region specific for region locked games (Current Example NFS: Hot Pursuit is both PAL and NTSC - 2 different AP25 Patches)
+
+If you boot the AP25 titles without LT+ you will probably be flagged for a ban.
+
+You cannot spoof a different model drive as that can now be detected. With this release of LT+ you HAVE to have an original Benq or Liteon.
+
+LT+ for slim 9504 is next followed by LT+ for slim 0225
+
+Thanks go to Team Jungle for their hard work and efforts in the development process.
+Thanks go to Team Xecuter for their generous support and input to this project.
+
+You can download the current batch of AP25 Patches from http://www.team-xecuter.com/forums/s...ad.php?t=58118 
+
+
+
+
+tools:
+

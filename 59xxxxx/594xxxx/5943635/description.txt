@@ -1,0 +1,51 @@
+(MKVInfo) + EBML head
+(MKVInfo) |+ EBML version: 1
+(MKVInfo) |+ EBML read version: 1
+(MKVInfo) |+ EBML maximum ID length: 4
+(MKVInfo) |+ EBML maximum size length: 8
+(MKVInfo) |+ Doc type: matroska
+(MKVInfo) |+ Doc type version: 2
+(MKVInfo) |+ Doc type read version: 2
+(MKVInfo) + Segment, size 366219925
+(MKVInfo) |+ Seek head
+(MKVInfo) | + Seek entry
+(MKVInfo) |  + Seek ID: 0x15 0x49 0xa9 0x66 (KaxInfo)
+(MKVInfo) |  + Seek position: 4099
+(MKVInfo) | + Seek entry
+(MKVInfo) |  + Seek ID: 0x16 0x54 0xae 0x6b (KaxTracks)
+(MKVInfo) |  + Seek position: 4300
+(MKVInfo) | + Seek entry
+(MKVInfo) |  + Seek ID: 0x1c 0x53 0xbb 0x6b (KaxCues)
+(MKVInfo) |  + Seek position: 366192601
+(MKVInfo) |+ EbmlVoid (size: 4044)
+(MKVInfo) | + Duration: 5836.885s (01:37:16.885)
+(MKVInfo) | + Date: Mon Nov 08 23:01:08 2010 UTC
+(MKVInfo) | + Title: Stone 2010 R5 MiC Xvid-Dior
+(MKVInfo) |+ Segment tracks
+(MKVInfo) | + A track
+(MKVInfo) |  + Track number: 1
+(MKVInfo) |  + Track UID: 2715605930
+(MKVInfo) |  + Track type: video
+(MKVInfo) |  + Lacing flag: 0
+(MKVInfo) |  + MinCache: 1
+(MKVInfo) |  + Codec ID: V_MPEG4/ISO/AVC
+(MKVInfo) |  + CodecPrivate, length 54 (h.264 profile: High @L4.0)
+(MKVInfo) |  + Default duration: 40.000ms (25.000 fps for a video track)
+(MKVInfo) |  + Language: und
+(MKVInfo) |  + Video track
+(MKVInfo) |   + Pixel width: 624
+(MKVInfo) |   + Pixel height: 352
+(MKVInfo) |   + Display width: 624
+(MKVInfo) |   + Display height: 352
+(MKVInfo) | + A track
+(MKVInfo) |  + Track number: 2
+(MKVInfo) |  + Track UID: 839434146
+(MKVInfo) |  + Track type: audio
+(MKVInfo) |  + Codec ID: A_AAC
+(MKVInfo) |  + CodecPrivate, length 2
+(MKVInfo) |  + Default duration: 21.333ms (46.875 fps for a video track)
+(MKVInfo) |  + Audio track
+(MKVInfo) |   + Sampling frequency: 48000
+(MKVInfo) |   + Channels: 2
+(MKVInfo) |+ EbmlVoid (size: 1091)
+(MKVInfo) |+ Cluster

@@ -1,0 +1,72 @@
+Windows Loader 1.9.4 x86-x64 by Daz 
+
+ 
+http://img46.imageshack.us/img46/8108/1zaxo7.png
+ 
+http://img703.imageshack.us/img703/9749/2zaxo7.png
+
+This is the loader application thats used by millions of people worldwide, well known for passing Microsoft\'s WAT (Windows Activation Technologies) and is arguably the safest Windows activation exploit ever created. The application itself injects a SLIC (Software Licensing Description Table) into your system before Windows boots, this is what fools Windows into thinking it\'s genuine.
+
+Features
+Can be run as a standalone application
+Works well with all system languages
+Argument support for silent installs
+Can be used for pre-activation
+Application integrity checking
+Custom error handling
+Support for hidden partitions and complex setups
+Can work alongside Linux\'s GRUB or any other boot manager
+Works with TrueCrypt and many other types of hard drive encryption applications
+Add your own certificates and serials externally
+Offers certificate and serial installation only for users with an existing SLIC 2.1
+Automated system profiling (The application matches everything up for you)
+
+The rundown
+This will run on x86 and x64 systems Ã¢Å“â€ check
+This can activate all Windows versions at the same time, just install it on each Ã¢Å“â€ check
+No core system files get modified Ã¢Å“â€ check
+No extra processes are run so you have nothing eating at your RAM Ã¢Å“â€ check
+All key parts of the exploit are encrypted with a custom encryption Ã¢Å“â€ check
+The exploit runs before Windows so it\'s harder for Microsoft to prevent Ã¢Å“â€ check
+The exploit patches all necessary tables making activation look authentic Ã¢Å“â€ check
+The application will select the best profile for your system during installation Ã¢Å“â€ check
+Each and every user has a unique version of the exploit installed on his/her system Ã¢Å“â€ check
+
+Supported operating systems
+Windows 7 Ultimate
+Windows 7 Professional
+Windows 7 Home Premium
+Windows 7 Home Basic
+Windows 7 Starter
+Windows Vista Ultimate
+Windows Vista Business
+Windows Vista Business N
+Windows Vista Home Premium
+Windows Vista Home Basic
+Windows Vista Home Basic N
+Windows Vista Starter
+Windows Server 2008 R2: Enterprise
+Windows Server 2008 R2: Standard
+Windows Server 2008 R2: Foundation
+Windows Server 2008: Enterprise
+Windows Server 2008: Standard
+Windows Server 2008: Foundation
+Windows Small Business Server 2008
+
+Version 1.9.4 changes (11/21/2010):
+* Added a new GRLDR version (Improves the ignore existing SLIC function)
+* Disabled table sorting by default for compatibility reasons
+* Added an option to disable type 3 memory as well as an option to reverse the SLIC search direction
+* Displays motherboard version to help with debugging
+* Added ECS, Dealin, Higrade & KSystems SLIC\'s
+* Added HCL, Ksystems, MSI Home Basic serials
+* Added MSI Professional serial
+* Added Dealin Home Premium serial
+* Other minor tweaks and fixes
+
+
+
+scand with virustotal  100% 
+
+ 
+http://www.virustotal.com/file-scan/report.html?id=193696d60c4c3402506752f0bda01f3dc2aef4cee238b2f7130c9c1965ba6c3c-1290363296

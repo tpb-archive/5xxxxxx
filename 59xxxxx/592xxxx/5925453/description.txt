@@ -1,0 +1,22 @@
+*** FSX FSGLOBAL 2010 SP1 ***
+
+
+
+SP1 + SCENERY FIX OF SKCL 
+ 
+
+WHO NEEDS THIS SP1?
+====================
+You ONLY need this SP1, if you are running R1 of FS Global 2010.
+If you are running a later release, you DO NOT NEED this SP1 as it is already
+implemented in your version.
+To determine, if you are running R1, please check the readme file on
+your DVD1. If the header says \"PILOT\'S FS Global 2010 R1 for ...\" then you need
+SP1. DO NOT INSTALL SP1, IF YOU RUN A LATER VERSION!
+WHAT HAS BEEN FIXED?
+=====================
+Due to the nature of SRTM in flat areas high buildings can be mistaken for a hill. It is
+impossible to solve this issue by reworking data using a special algorithm. We
+therefore decided to switch data sources for North America. Instead of SRTM we will
+be using alternative data in future versions. SP1 addresses obvious issues in the
+area of Florida.

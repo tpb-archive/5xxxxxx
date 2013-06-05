@@ -1,0 +1,114 @@
+User Type,Username,Date,Text
+,DAKherrTD,2010-10-26T15:54Z,"SwitchSound can open files in the following formats for Windows:
+
+NOTE
+* copy protected files are not decoded
+^ playlists
+
+.wav (PCM, ADPCM+, aLaw, uLaw, and others)
+.mp3 (MPEG Layer 3)
+.mp2 (MPEG Layer 2)
+.mpga (MPEG Audio)
+.au
+.aif/aiff
+.gsm
+.dct
+.vox
+.raw
+.ogg
+.flac
+.amr
+.wma*
+.wmv*
+.aac* (not aacPlus)
+.m4a*
+.mid (General MIDI only)
+.act/rcd/rec (newer version of format not supported)
+.dvf (Not all dvf recorders are supported)
+.msv (Not all msv recorders are supported)
+.dss (SP Mode only)
+.sri
+.shn
+.cda
+.avi
+.mpg/mpeg
+.m3u^
+.pls^
+
+Switch on a Windows computer can open most other formats which can be decoded by Windows Media Player.
+
+Switch can also save files to the following formats in Windows:
+
+.wav (PCM, ADPCM+, aLaw, uLaw, and others, see here)
+.mp3
+.au
+.aif/aiff
+.gsm
+.vox
+.raw
+.ogg
+.flac
+.rss
+.m3u^
+.pls^
+.wpl
+.amr
+.aac
+.m4a
+.wma"
+,DAKherrTD,2010-10-26T15:55Z,"Video formats Prism Video Converter can decompress from:
+
+    * AVI
+    * WMV
+    * ASF
+    * MPG
+    * MPEG
+    * MPE
+    * VOB
+    * MOV
+    * 3GP
+    * MP4
+    * M4V
+    * FLV
+    * MKV
+    * MOD
+    * OGM
+    * DV
+    * DIVX
+    * and others 
+
+Video compression types Prism can decompress from:
+(Video compression is a process which reduces the number of bytes required to store/transmit digital video.)
+
+    * MPEG 4 - most common video compression type
+    * DivX - variation of MPEG 4
+    * Xvid - freeware variation of MPEG 4
+    * Windows Media - compressed video file format for several proprietary codecs developed by Microsoft
+    * H264 - the most advanced implementaion of MPEG4 standard
+    * MPEG 2 Program Stream (VOB) - Used by DVD
+    * MPEG 2 Transport Stream - Used by Blu-ray and Digital TV sources
+    * MPEG 1 - mostly used by VCD
+    * Motion JPEG- used by digital cameras, surveillance systems and other portable devices
+    * DV - used by DV-tape camcoders and cameras
+    * H263 - used for videoconferencing and flash video content
+    * VC1 - used for HD DVDs, Blu-ray Discs, and Windows Media Video 9.
+    * Indeo 3 - used for the compression of television-quality video
+    * Huffyuv - a lossless video codec
+    * Smacker - used in computer games, supports only 256 colors and includes transparency support.
+    * and others 
+
+Prism can convert from many more formats (depending on what decoders you have installed)"
+,JohnHolmesII,2010-12-30T22:45Z,"You fail
+the main tracker is down, and thepiratebay cant find the torrent you uploaded.
+magnet link doesnt work because it wants to downlaod info from the seeder, you, or tracker, which is offline.
+add 
+
+http://tracker.publicbt.com:80/announce
+
+udp://tracker.openbittorrent.com:80/announce
+
+udp://tracker.publicbt.com:80/announce
+
+http://tracker.publicbt.com/announce
+
+to tracker list and seed from there pls."

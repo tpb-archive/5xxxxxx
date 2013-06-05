@@ -1,0 +1,12 @@
+abgx360 v1.0.4
+
+With the release of C4E\'s iXtreme LT+ for LiteOn and BenQ drives with \'anti\'-AP2.5 the guys over at abgx360 also released a new version of their software.
+
+What\'s new/fixed:
+* AntiPiracy 2.5 (AP25) replay sector for iXtreme LT+ firmware is checked for when a game has the AP25 system flag in the Xex set or when its media ID matches a list updatable through abgx360.dat (Fable III is the only game so far that uses AP25 but does not have the AP25 system flag set)
+* AP25 replay data is Verified/AutoFixed according to your settings, albeit separately from the normal INI based Verify/AutoFix, so make sure to read the entire abgx360 output
+* Video padding size changed to support the new AP25 replay sector using a variable which is updatable through abgx360.dat in case additional stealth sectors are needed so that the video padding check will not blank them out
+* Removed short explanations of ISO filesizes (unnecessary, hard to keep updated and misleading in terms of SplitVid; just because an ISO has the space for SplitVid doesn\'t mean it has valid SplitVid data in that space)
+* gzip compression is now supported when abgx360 downloads certain files
+* miscellaneous small changes
+* Note: The GUI has not been changed and will still display version 1.0.2, don\'t worry about it as long as the CLI app displays v1.0.4

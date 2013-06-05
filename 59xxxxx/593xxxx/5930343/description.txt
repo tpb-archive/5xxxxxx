@@ -1,0 +1,36 @@
+The point-and-click network boot kit for Hiren's BootCD 9.5.
+
+I had a Dell Latitude C400 laptop that had a corrupted hard drive, no CD drive, no USB boot, and no floppy... just LAN boot. That was my only option. So what do I do?
+
+I Google. This is the combined result, packaged into a neatly digestable format.
+
+You need:
+1) A computer with a bootable LAN card (many onboard adapters are bootable from LAN) and a USB port
+2) A USB storage device of some kind, be it USB flash drive, USB hard drive, or USB CD-ROM.
+
+(This is also great for the Asus Eee PC series, although they can boot from USB)
+Optional: A removable hard drive and a way to slave it to another computer, for purposes of installing Windows. If you just want the BootCD, this is what you need.
+
+How to use it:
+0) Extract it to a folder somewhere, dur.
+1) Copy the contents of "(Place on USB Storage Device)" to a USB device of some kind (as mentioned in what-you-need). Plug it into the booting computer. Don't turn it on.
+2) Configure your DHCP server to receive pxelinux.0 from your server PC's current IP. I cannot help you with this first step because every router is different - and all consumer-class routers I'm aware of don't, by default, allow a user to enter such an option. However, if you're using DD-WRT, follow these steps:
+2a) Go to the Services tab of the WebUI.
+2b)Scroll down to DNSMasq and make sure it's enabled. Under "Additional DNSMasq options", enter "dhcp-boot=pxelinux.0,,192.168.1.XXX" - where "192.168.1.XXX" is the IP of your server computer.
+2c) Save, and make sure (on the Setup tab) that DNSMasq is used for DHCP.
+3) Start tftpd32.exe. It should be preset to recognize the tftproot folder as its starting point, but if not, configure it as such.
+4) Moment of truth: fire up the computer and tell it to boot from network, be sure it's configured for PXE boot.
+5) Report bugs here!
+
+Optional:
+6) After performing pre-maintenance on the drive with a Victoria "erase" pass (which re-zeroes the physical placement of the sectors, unlike a Windows "format" or writing zeroes), partition it with Partition Magic and set active, then remove the drive and slave it.
+7) Grab nLite and your favorite XP source. nLiten it.
+8) Grab the "Install Windows from USB" GUI project, http://www.msfn.org/board/-t120444.html .
+9) Point the Install Windows from USB GUI at the slaved drive and the Windows source. Let it do its magic.
+10) Put the drive back in the computer and boot from hard drive, which will start Setup.
+11) ???
+12) Profit!
+
+If I can figure out how to get files transferred over the network instead of needing a USB stick, I'll do that in the next version depending on how popular this is.
+
+Thanks to Hiren for making such an excellent collection of tools and a mostly open framework ;)!

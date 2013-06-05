@@ -1,0 +1,67 @@
+ http://www.create.ea.com/en_US/home/index
+
+
+
+Checking for updates to abgx360.dat...
+Server file abgx360.dat no newer than local file - not retrieving
+
+C:\EA Create-SKILLED.dvd is valid
+
+Checking Game
+ISO: "C:\EA Create-SKILLED.iso"
+Size: 7838695424 bytes (SplitVid 3rd or 4th wave)
+Files in ISO: 25, Folders in ISO: 3
+Total bytes used: 1861211668 (25.50%)
+Game appears to have random padding
+
+Checking default.xex
+Original PE Filename: hp_unity_f.exe
+Original PE Timestamp: 2010/10/08 15:07:07
+Game Name: Create(TM)
+Developer: DEVELOPER
+Publisher: PUBLISHER
+Genre: GENRE
+No Avatar Awards
+Achievements: 49 Achievements totaling 1000 Gamerscore
+XEX CRC = 5C14B818
+XEX Media ID: 21D536B68D2446A572BC5705-59AE67FF
+
+Region Code: 0xFFFFFFFF
+Region Free!
+
+Checking SS
+Timestamp of Authoring: 2010/10/13 00:00:00
+Timestamp of Mastering: 2010/10/28 06:05:05
+SS Version: 1
+SS CRC = 62551C96 (RawSS = 9215A1D3)
+SS Media ID: 21D536B68D2446A572BC5705-59AE67FF (matches game)
+SS looks valid
+
+Checking DMI
+Timestamp of Authoring: 2010/10/13 00:00:00 (matches SS)
+DMI CRC = 36F0EC4C
+DMI Media ID: 21D536B68D2446A572BC5705-59AE67FF (matches game)
+DMI looks valid
+
+Checking PFI
+PFI CRC = 05C6C409
+PFI matches known data (4th - 7th Wave)
+
+Video partition found
+Video CRC = E2FA3A26 (V0 = E0363F4E, V1 = EAE76B94)
+Video partition matches known data (6th Wave)
+
+Basic Stealth check passed!
+
+Starting Verification
+Looking for 62551C965C14B818.ini in the online verified database
+There is no verified rip of this Xex/SS combination in the online database
+Failed to find a verified ini file for this Xex/SS combination
+Attempting to at least verify the PFI, Video and game data
+Looking for Xex_5C14B818.ini in the online verified database
+There is no verified rip of Xex CRC 5C14B818 in the online database
+Failed to find a verified ini file for this Xex
+Verification failed
+
+Comparing L1 Video on L0 to L1 Video on L1...
+SplitVid is valid

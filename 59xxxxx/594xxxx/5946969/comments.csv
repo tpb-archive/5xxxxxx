@@ -1,0 +1,82 @@
+User Type,Username,Date,Text
+[V],big_dad_e,2010-11-14T11:24Z,"Thanks m8, works great!"
+,fanoftheball,2010-12-07T01:18Z,Unfortunately says invalid licence code.
+,mrs2phace,2010-12-17T21:52Z,WORKS GREAT! EVERYTHING WORKS INCLUDING THE SERIAL! THANKYOU SOOOOOO MUCH! :)
+,mrs2phace,2010-12-17T21:56Z,works great THANKS
+,zhas,2010-12-20T14:42Z,"Invalid License info!!! Tried several times,but it says the same thing!!!=(( Doesn't work?!!!"
+,TawnyT,2011-01-02T16:56Z,"works perfectly, thanks m8"
+,kaliver,2011-01-07T13:06Z,if its anything like prior versions you'll want to block all the vc*.exe files in the install folder from accessing the internet. i do this before running their programs the first time and never have a problem (tho you may have some registry cleaning to do if you failed to do so and have to reinstall).
+,WiR3D-kNiGhT,2011-01-09T08:32Z,"used to work, just broke this morning...
+Tried reinstalling, and used regcure to clean registry, each time it wants me to connect to net when i enter the serial.
+Also tried cracks from BBB and MPT to no avail.
+
+Did not update, it may have sneaked past my firewall originally, but i shut it down solidly at the reinstall, and even tried allowing it to access the web.
+
+Im running Win7 X64"
+,TawnyL,2011-02-04T08:23Z,"serial stopped working, might be my fault :P"
+,kamandcompany,2011-02-11T08:00Z,EVERYONE THIS WILL NOT WORK UNLESS YOU DISCONNECT FROM THE INTERNET OR BLOCK USING YOUR FIREWALL! Don't say this don't work because there are certain serials that are implanted into the program to prevent difficulty to people who don't have internet. so when a serial code is compromised they quickly shutdown the serial meaning that if your online the serial will go through the serial server before it registers otherwise it looks at the embedded serials. DISCONNECT AND IT WILL REGISTER 100% FINE
+,PawnSacrifice,2011-03-07T22:09Z,"Doesn't work. Even if you turn off your internet it will say it needs to connect to validate the key.
+
+So no. "
+,evil_cookiee,2011-05-23T20:09Z,"Works great, just don't update it!"
+[T],passionettez,2011-05-31T07:31Z,thank you much!!!!
+,jasim00002,2011-05-31T13:24Z,"great work .. Thank you so so much ,,
+ Pirates rocks..
+Work smoothly 
+
+thanks once again..."
+,jbob75,2011-06-20T05:19Z,"if the patch wouldn't work, try creating and merging a .REG file containing the following:
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\ImTOO\Video Converter Ultimate 6\RegInfo]
+""Name""=""@ByteArray(4261686D616E)""
+""Serial""=""""
+""Code""=""@ByteArray(D0DF2028720264E2B66D856819CC2706CDBFDA942F484BC9FFD5C11C52A2DE4DCEFDD6CF52771C)""
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{0BB6C95A-CE6C-425a-84F2-EB211CD1A90A}]
+""5918569797E09F35""=""1A""
+
+[HKEY_CURRENT_USER\Software\ImTOO\Video Converter Ultimate 6\Settings]
+""regstatus""=""1""
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{0BB6C95A-CE6C-425a-84F2-EB211CD1A90A}\CIA_INFO]
+""before_reg_openItem""=""2""
+""before_reg_dayCounter""=""0"" "
+,-MiGaa-,2011-07-15T17:28Z,Serial will work if you dont update.
+,CirusVirus,2011-08-31T11:36Z,"OK people Very Very easy to solve the problem!!
+ firs in program folder their is vc.exe program 
+on win7 create block rule for this inbound and outbound 
+first step done 
+second step is to change some reg key 
+open regedit and navigate to 
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{0BB6C95A-CE6C-425a-84F2-EB211CD1A90A}]
+change values for those as you can see
+""440D54AA8AF58E3D""=""1A"" 
+""580950B697F5823D87""=""194D31F5CEB1D37DD187"" 
+""481244AA97E58A29""=""1B"" 
+""5E0E54A082F8883F97D844""=""1B"" 
+""5918569797E09F35""=""1A"" 
+and delete all the other keys 
+start imtoo and see the unregistered is gone!!!!!!!!!!
+now if you blocked the vc.exe via fire wall it cant check if the serial is ok so it will not chnage the state of the program back to  unregistered 
+Enjoy:)"
+,theSweetBite,2011-09-03T04:49Z,Works Very Well Thank for uploading now im seeding
+,kitchcock,2011-09-05T02:58Z,THANKS MAN! YOU ARE AWESOME! WORKS GREAT!
+,begwande,2011-09-19T15:14Z,"I love you CircusVirus. Modified reg values as described, and now everything works like a dream!! 
+
+Thanks a lot."
+,begwande,2011-09-19T15:16Z,"Sorry for misspelling your name, CirusVirus!"
+,hentai66666666,2011-10-02T01:41Z,"there aint no other keys smartass cirusvirus -.-'
+
+anyody got a precompiled reg 
+
+so i just have to add and not remove that key or add this reg key to a reg entry 
+
+-.-'
+
+still unfukin registerd"
+,101pepsi,2011-12-28T14:12Z,Very Nice UP can you do the latest version THANKS ALOT!!!!!
+,shariardj,2012-01-08T21:36Z, u rock dude it works like a charm !
+,fuckyourbullshit,2012-03-31T16:34Z,converts 5 seconds then stops. also loads msiexec for some suspicious reason.
+,ihtisham,2012-06-26T08:03Z,+1

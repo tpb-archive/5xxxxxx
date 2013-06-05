@@ -1,0 +1,37 @@
+Sandboxie is a proprietary sandbox-based isolation program developed by Ronen Tzur, for 32-bit Windows NT-based operating systems. It creates a sandbox-like isolated operating environment in which applications can be run or installed without permanently modifying the local or mapped drive. An isolated virtual environment allows controlled testing of untrusted programs and web surfing.
+Sandboxie runs your programs in an isolated space which prevents them from making permanent changes to other programs and data in your computer. When you run a program on your computer, data flows from the hard disk to the program via read operations. The data is then processed and displayed, and finally flows back from the progam to the hard disk via write operations. Sandboxie changes the rules such that write operations do not make it back to your hard disk.
+
+Ã¢â‚¬Â¢ Intercept changes to both your files and registry settings, making it virtually impossible for any software to reach outside the sandbox.
+Ã¢â‚¬Â¢ Traps cached browser items into the sandbox as a by-product of normal operation, so when you throw away the sandbox, all the history records and other side-effects of your browsing disappear as well.
+
+Benefits of the Isolated Sandbox:
+Ã¢â‚¬Â¢ Secure Web Browsing: Running your Web browser under the protection of Sandboxie means that all malicious software downloaded by the browser is trapped in the sandbox and can be discarded trivially.
+Ã¢â‚¬Â¢ Enhanced Privacy: Browsing history, cookies, and cached temporary files collected while Web browsing stay in the sandbox and don't leak into Windows.
+Ã¢â‚¬Â¢ Secure E-mail: Viruses and other malicious software that might be hiding in your email can't break out of the sandbox and can't infect your real system.
+Ã¢â‚¬Â¢ Windows Stays Lean: Prevent wear-and-tear in Windows by installing software into an isolated sandbox.
+
+Translations: The following languages can be selected during installation: English, Albanian, Chinese (Simplified and Traditional), Czech, Finnish, French, German, Italian, Japanese, Korean, Polish, Portuguese (Brasil), Russian and Turkish.
+
+Changes in Version 3.50, Released on 18 October 2010:
+* Enhancements:
+* Improvements in Sandbox Settings windows.
+* Run Sandboxed action can automatically select the DefaultBox sandbox.
+* Filter outgoing connections on SMB/CIFS ports through the Block Port setting.
+* Problems Fixed:
+* Windows Update KB981852 causing SBIE2304 errors.
+* Drop Rights feature interfering with running programs.
+* Windows Live Messenger 2011 not connecting.
+* Ctrl+clicking on web links in Microsoft Word, when Internet Explorer is set as a forced program.
+* Installing games into a sandboxed instance of Steam in 64-bit Windows.
+* Adobe Photoshop CS5 runs under Sandboxie without having to use Window Access exclusions.
+* System Restriction Policies interfering with Sandboxie on Windows 7.
+* Removal/rename of DefaultBox sandbox interferes with installing applications into the sandbox.
+* Windows Installer (MSI) fails to run in the sandbox on 64-bit Windows.
+* Errors when running some UPX-compressed executables in the sandbox.
+* Improved compatibility with: avast! Pro, AVG 2011, Bsecure CloudCare, CyberPatrol, Handy Folders, 64-bit Outpost Firewall, PretonSaver.
+
+Homepage: http://www.sandboxie.com 
+
+
+NOTICE ALL! patch.exe is NOT a virus/trojan or malware its patch FALSE POSITIVE!
+Stop posting bullshit in comments you will get removed.

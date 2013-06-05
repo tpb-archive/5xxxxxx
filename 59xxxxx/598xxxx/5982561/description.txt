@@ -1,0 +1,49 @@
+=======================================================
+
+Words from Notch
+
+Iâ€™m expecting bugs on this one, so Iâ€™m monitoring the usual channels (irc, twitter, email) extra carefully.
+
+Basically everything I talked about in the last post is done, with some extras such as visible hurt animations (how did I forget that?) and visible fire on burning mobs.
+
+The lighting still isnâ€™t right, I need to rewrite it. I think I know what the problem is now, though. Or rather, I know what ONE problem is. You know when youâ€™re traveling by boat, and you see weird strips of light on the ocean floor in multiplayer? That.
+
+Also needed is visible armor on players and mobs (sheep!), and some tweaks to reduce laggy moving mobs. And bows and arrows.
+
+There are a couple of new settings for the server:
+pvp. True by default. If this is set to false, players canâ€™t hurt other players.
+spawn-monsters. True by default. Set to false to remove all monsters.
+spawn-animals. Also true by default. Set to false to remove all animals.
+
+[edit:]
+
+Wow, that broke the game. Hold on while I try to fix stuff.
+
+[edit:]
+
+Iâ€™ve uploaded a new server and a new client, fixing the two major bugs I heard about.
+I had to disable leaves decaying again (sorry!) because it caused infinite loops in certain situations.
+
+Keep me posted, and Iâ€™ll keep fixing!
+
+
+
+Stay tuned for updates @ Kaen-Paradise.co.cc
+
+=======================================================
+
+This is an UPGRADE ONLY RELEASE
+
+REPLACE YOUR BIN FOLDER IN ".minecraft/bin" with this bin folder
+Overwrite all files. Start MineCraft the way you normally do.
+
+
+=======================================================
+
+
+Works well ONLINE on all FREE & Legit Servers.
+
+Released by Kaen
+24th Nov 2010
+
+And I'm not Kaen, so if you hate this upload, direct your hatred towards Kaen, because I could give less of a shit whether you hated it or not.

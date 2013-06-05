@@ -1,0 +1,13 @@
+User Type,Username,Date,Text
+,Brat001,2010-12-21T05:55Z,anyone else find the sound unbearably low on this release? the video was excellent but i don't feel like tweaking the codec and blasting the player volume for just this one movie.
+,hell81007,2011-01-19T14:32Z,"only if you play it in KMplayer will you find problem with sound. when it came to dialogues, i could hear d sound only from one side of my headset. However there was no problem at all when i played it in windows media player as well as vlc player."
+,Zirak_90,2011-03-17T04:49Z,"I can't hear dialogues on VLC or GOM, only the background noise. It's perfectly fine on WMP though(I use K-Lite). What sucks though is that I cant get the subs to work on WMP."
+,bragazar1710,2011-07-16T05:05Z,thanks.
+,hel1k3rn,2011-08-01T04:43Z,"okay just leaving this out here for anyone interested;
+if you can't hear any dialog and you don't want to mess around with ffdshow's mixer matrix everytime you play the movie here's what you gotta do.. extract the raw aac stream with YAMB,export to a multichannel wave with FAAD,downmix that using WaveWizard,transcode the resulting wave file to whatever format you like and mux it back (MegUI has all the tools you need).
+or you can just play it with WMP lol"
+,kevinzee,2011-09-30T13:59Z,"I use KMPlayer with stereo headphones, dialog only goes to the left ear only. Here's how to fix:
+While playing, right click, Filters -> KMP Audio Codec, and set 3.1 Surround in Speaker Setting. The four channel audio is now 3.1 surround (which will be properly downmixed by system). 
+
+Choosing ""Same as input (Original)"" didn't work; other media players (WMP, MPC, VLC and Comet player) also failed so I suspect there is something wrong with this release (perhaps the 4 channel audio is not properly set to 3.1). I am not expert though."
+,SergioFCPorto,2012-05-24T16:50Z,thanks

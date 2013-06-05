@@ -1,0 +1,198 @@
+User Type,Username,Date,Text
+,Synnder,2010-11-19T23:29Z,"Worked great , thanks much."
+,Krelianz,2010-11-20T04:22Z,what does this do?
+,-TexWiller-,2010-11-20T06:25Z,"@Krelianz
+- Register The Game Serial
+- Fix PhysXLoader.dll Error
+- Fix Game Isn't Properly Installed Error."
+,koteman,2010-11-20T13:09Z,if you follow the very simple instructions this does work! i got passed the Chapter 2 serial thingy :D and yes it also works if  you didnt install it in the normal (default) i have 2 harddrives 2nd is for games :) still worked :D if you get the serial pop up when u load the game after using this... just click the BACK or CANCEL wichever shows up for you. just load your gamesave like normal and POOF! u can move on :D
+,koteman,2010-11-20T13:10Z,Thanks blaze69 for sharing this fix :)
+,servitka,2010-11-20T17:24Z,"It worked for me to proceed to chapter 3. But I am unable to continue in chapter 4. It asks serial again and this method isnt working for CH4. I have also tried delete registry with 3rd file in this pack and use bat file again, but still cant play CH4. Any ideas?"
+,Jaxom120,2010-11-21T11:43Z,"For those who still have the keygen, you can always just put in a new serial. As in the the one with letters and numbers not the the 2 below it its how I got past it. don't forget to use the phone activation."
+[V],blaze69,2010-11-21T13:52Z,"Please Note Guys. This Fix was Intended To get the game Running, Because I have realized That some People Had alot of problems getting the serial to work because they had to ALT-Tab out of the game to get the serial and activation Code, seems some of them have never Heard Of Pen and Paper. It's Not my fault that the game asks for Serial again after certain chapters. I didn't know this, Cuz I Only Install these games get them Running and Then Uninstall Them. Look I even haven't Completed a Game Like Dead Space Yet -Lame- heehee. And YES The KEYGEN From RELOADED""s Release Still Does Work to Reactivate."
+,servitka,2010-11-21T19:49Z,"Thx for tip, reactivating helped. At first try i had serial that didnt have acces to chapter 4, but tried to generate another one and that worked. So just keep trying.(I have completed the singleplayer so thx to everyone who made it possible :D)"
+,LostBelowLife,2010-11-21T23:32Z,"hm.. maybe i did something wrong.. i   copied all the files 2 my two worlds 2 folder, and i went 2 run the registry thingy... and the thing says  regedit  something something run batch file... it pops up and goes away 2 fast 2 read     thsi said it registers the games serial,  well i never got the keygen for the serial 2 even work, is that why?
+
+i realy wana play this game but so far i cant get passed the serial"
+,peacefirexoox,2010-11-22T04:48Z,didnt work for me. still says wrong serial number. after ive done the registry.bat
+,xiIix,2010-11-24T18:27Z,"So, so many of you are screwing yourselves with user error. The only thing I can tell you is to go back to the NFO and the original torrent, install it and crack it with the keygen exactly as the instructions tell you to."
+,Shoobox,2010-11-29T22:30Z,"doesn't seem to wirk for chapter 3, worked fine for chapter 1&2 now stuck at chapter 3 wtf?
+any suggestions?"
+,Shoobox,2010-11-29T22:32Z,"ok lol my mistake it doesn't work for chapter 4,
+ so now no new work for chapter 4 this is so silly that all that play and no keygen or fix ive tried works for chapter 4"
+,MrNeok,2010-12-02T14:18Z,"Hey, thanks to this I got to the ''intro-screen'' but I stops right after it.
+Might it have to do something with the fact that I didn't have to enter a serial anywhere? Also, the registration file ( Registry.bat ) doesn't work as it should, by me, I think. Just flashes a tiny black screen and dissapears again.. Help would be appreciated ;)"
+,Syruzik,2010-12-09T16:57Z,"after i did what the instructions say, it stopped asking for activation code, and then asked to register, after i registered, it says i got wrong activation code, i tried to unistall and install again but i still have the same problem, what should i do?"
+,kaplis117,2010-12-16T17:12Z,dont work for chapter 4 for me 
+,leezaal40,2011-01-30T21:04Z,keeps asking me to register/activate so i click on phone activation and tried using reloaded keygen to generate phone code but it keeps saying invalid code
+,slimfrog,2011-02-15T20:26Z,Getting Chapter 4 issue as well
+,Whistar,2011-02-20T22:41Z,"Well, I had to fix it myself after getting all the possible error messages(invalid username, serial bull, game not installed crap)
+so hope this registry entry helps a few of you:
+
+[HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2]
+
+[HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\Console]
+
+[HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\FileSystem]
+""DataPath""=""C:\\Program Files\\Reality Pump\\Two Worlds II\\""
+""OutputDir""=""Two Worlds II""
+""AppDataFolder""=""Two Worlds II""
+""MyDocumentsFolder""=""Two Worlds II""
+""UseSavedGamesFolder""=dword:00000002
+""Version""=""1.2.0""
+""LanguageVersion""=""ENG""
+
+[HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\Graphics]
+""Width""=dword:000005a0
+""Height""=dword:00000384
+""FullScreen""=dword:00000001
+""CommonGraphicsOptions""=hex:00,00,00,00,00,00,80,3f,00,00,80,3f,02,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,80,3f,00,00,80,3f,04,00,00,00,01,00,00,00,01,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\Installer]
+""UninstallFolder""=""C:\\Program Files\\Reality Pump\\Two Worlds II\\""
+""PFTree""=dword:00000001
+""SMTree""=dword:00000000
+""StartMenuGroup""=""Reality Pump\\Two Worlds II""
+
+[HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\Interface]
+""ForceVideoOGG""=dword:00000000
+""LastPlayer""=""default""
+
+[HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\Mods]
+
+[HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\SerialKey]
+""Registered""=dword:00000001
+""RegistrationKey""=hex:30,37,32,36,35,31,37,33,33,33,30,38,33,39,38,30,00
+""SerialKey""=hex:bb,8a,9d,8a,19,63,72,39,f7,84,8d,8b,0b,38,2d,61,ad,9a,8b,ff,78,\
+  56,00,00
+
+Patch 1.2, no crack needed, playing chapter 4 
+If you dont know about regedit and stuff--> google
+
+Cheers and HF"
+,oscube,2011-02-21T22:20Z,"If youâ€˜re stuck in Chapter 4, use the original key generator that comes in the ISO to generate a key then use with the game then take the activation request write it in th generator then take the serial put it in the game and play. Remember to block .exe using your firewall."
+,Lion_3,2011-02-25T00:39Z,"Which is CD key of this Registry.Fix.Requested. 
+I need this CD key for registration !!! Activation code is 0583-2291-7969-9258.
+I can't get verification code, becouse i don't know CD key. 
+pleaseeeeeee :(((((((((((((((((((("
+,Lion_3,2011-02-25T17:50Z,"Whistar i fix all this registry just like u write here, but this error for serial numbers shows again. I tryed with all the possibility, with key generator and fix registry but without success.
+
+
+""CommonGraphicsOptions""=hex:00,00,00,00,00,00,80,3f,00,00,80..... >>>>   is this ""hex"" must create ""String Value"" or other string value in regedit  ??????"
+,setari,2011-02-27T09:44Z,"Looks like it works. Haven't tested it in-game though, but it looks legitimate."
+,setari,2011-02-28T23:09Z,THE .BAT FILE DOES NOT WORK. DO NOT DOWNLOAD.  (Windows 7 Ultimate)
+,Lion_3,2011-03-01T02:04Z,"setari dude Bat. file work for first 3 chapters, but not work for 4 chapter. only solution is to wait to someone crack this 4 chap :)))"
+,hkf999,2011-03-13T21:48Z,"I did this, started the bat. and clicked in the game again. at the menu it says it has been made some changes and i have to re-enter the codes. when i go to the phone activation and re-enter the activation code using the keygen from the original torrent i just get a message saying it's the wrong code... i really love this game, but now i can't play chapter 3... help plz"
+,Nitrus015,2011-03-14T03:30Z,"No need for all this, If you used your barins you'd get it right away...
+
+Sigh.... OK, I'll help. What the game makers did was made a system that empowers their key over net or phone, or they just released them as such. As we don't have such keys and the *.exe isn't capable ov overriding this we will need to make the protection system THINK that we're playing chapter 2 all over again, as we have a serial with which chapter 2 is possible. So, all we have to do is this:
+
+1. Play around until the game asks for a serial, at which point autosave and exit.
+
+2. Paste this into a *.bat file and run it:
+
+[-HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\SerialKey]
+
+SET path=%CD%
+SET path=%path:\=\\%
+> ""%Temp%.\regfile.reg"" ECHO REGEDIT4
+>>""%Temp%.\regfile.reg"" ECHO [-HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\SerialKey]
+>>""%Temp%.\regfile.reg"" ECHO [HKEY_CURRENT_USER\Software\Reality Pump\TwoWorlds2\SerialKey]
+>>""%Temp%.\regfile.reg"" ECHO ""Registered""=dword:00000001
+
+%windir%regedit /s ""%Temp%.\regfile.reg"" >nul
+""%windir%\regedit.exe"" /s ""%Temp%.\regfile.reg"" >nul
+del /F /Q ""%Temp%.\regfile.reg"" >nul
+
+3. Start the game and run it into DEMO MODE. ***DON'T ENTER SERIAL JUST YET!!!***
+
+4. Load your last save, or better yet, an autosave made before the one you saved last.
+
+5. Run the fixed Reloaded keygen, and activate your game.
+
+6. Done! Tested with the latest patch, 1.2
+
+7. Do this with every chapter, and you'll be able to finish the game.
+
+You're welcome."
+,hkf999,2011-03-15T18:01Z,"I may be braindead, but how do you paste that into a bat. file?"
+,hkf999,2011-03-15T18:03Z,"I may be braindead, but how do you paste that into a bat. file?
+
+(Yeah, I'm kind of a newb at this)"
+,Nitrus015,2011-03-15T20:11Z,"Create a new text file and rename it, so it would look like this: [Desired_name].bat
+
+If you can't see file extensions (on Windows 7) , you'll need to open My Computer, click Organize (upper left corner), then Folder and Search Options, click the View tab, and uncheck ""Hide extensions for known file types"". Then Apply.
+
+So, to sum it up:
+
+Open My computer, then Organize, then Folder and Search Options, then View, uncheck ""Hide extensions for known file types"", then apply.
+
+Create new text document, paste the code, save it, rename it as mycode.bat
+
+Then you can follow the upper instructions.
+(Running a bat file will open and close a command prompt, this is just the way it works, don't expect something flashy)"
+,Lion_3,2011-03-16T12:08Z,Nitrus 015 can u explane in short line how to copy this lines in bat file ??? or we must edit these lines in registry editor ???
+,Lion_3,2011-04-27T17:50Z,"U don't need any of this fix reguistry, just folow next steps
+
+Things you'll need:
+1.Revo uninstaller
+2.Two worlds 2 game
+3.TW2 reloaded's keygen Fix
+
+Steps:
+1.Go to C:\Users\(Username)\Saved Games\Two Worlds II
+2.Copy all saved games somewhere on disk drive.
+3.Open RevoUninstaller, choose Two Worlds 2 and press uninstall.
+4.Choose advanced.
+5.when it asks you if you want to delete all saves and stuff press yes (Remember to back your saves up before).
+6.after the installation is completed revo will scan for leftovers wait for it then when it finishes press select all then delete.
+7.Now install the game again in a new folder.
+8.Go to Control panel>System and security>Windows Firewall and click (allow a program or feature through windows firewall) on the left.
+9.Click change settings, then look for two worlds 2 and uncheck it, then press ok and exit.
+10.Now open up your game.
+11.It will ask you for a serial just use Reloaded keygen Fix to generate a serial and enter it
+12.Choose phone activation, then type the number shown in the keygen and press verify and the keygen well generate your verification code.
+13.Type your verification code in the game, then exit the game.
+14.Move the saves you backed up earlier to C:\Users\(Username)\Saved Games\Two Worlds II (If you had any)
+15.Now open the game press continue and load your save
+
+Note:
+You need to do this everytime you complete a chapter. 
+Work 100 %"
+,newmouse,2011-06-26T03:41Z,"I have had the problem with Two Worlds II repeatedly asking for the serial nearly every time its run.
+Its disabled in the Firewall.
+This DOESN'T happen if my Internet Connection is switched off.
+
+I've decided that the game looks for a active Internet connection  & try's to verify the Serial.
+If it doesn't find an active connection then it excepts the Serial as OK.
+That is, it rejects the Serial just because it can' t verify it when the Game thinks it should be able to.
+The only solution I have found that works & completely stops the activation requests is 
+to edit Windows HOSTS file adding the entry 
+""127.0.0.1       secure.zuxxez.com"" 
+Just disabling TWII in the Firewall isn't enough.
+
+You will have to Google around about working with that HOSTS file ...to complicated to detail here. @@@@  "
+,Srekins,2011-07-13T06:31Z,What Nitros015 said got me past chapter 2 :D just wanted to let yall know..:) 
+,TyMod,2011-07-16T15:51Z,"blaze69, can you do a registry fix for Fallout 3.  I know you did one for Fallout New Vegas but not Fallout 3.  If you did sorry.  I have the game on my backup hard drive but not the disk image to reinstall it on my new computer."
+,PonyJL,2011-07-31T17:32Z,"This Registry Fix worked perfect for chapter 1, 2 and 3. Sadly It wont let me play chapter 4. Will try other ways."
+,PonyJL,2011-07-31T17:42Z,Strange what Nitrus015 suggested didnt work for chapter 2. So I used the Registry Fix. Then the Registry Fix stopped working for chapter 4 and Nitrus015 way started working :P
+,leviminator94,2011-09-24T11:00Z,it doesn't work 4 me the first its asked for the activation code..... many code what i generated they aren't working
+,Kewlgai,2011-09-29T08:28Z,"I may be an idiot when it comes to this but, yesterday my keygen for this game worked perfectly. Today it says I might have no right to open it and in turn it will not start. Any advise?"
+,hack_sparrow,2011-10-25T06:18Z,"hi i downloaded the game from  extremezones site ---   but had some problems ,,, and  tried following some tips from the comments -- andd ended up deleting  the reality pump  registry -- and now  when i played it again the textures in the game are white over huge areas .,,, like the cover up the whole ground someplaces   ---- if anyone could maybe upload their  registry file --  ((( type regedit in the start menu -- then  find reality pump -- or any other tips would we appreciated -- thank youu :)"
+,PhiberOptix,2011-10-27T10:15Z,"I can confirm what ""newmouse"" says, it's as easy as editing your hostfile.
+
+In Windows 7, open ""My Computer"" (or just ""Computer"", but names stick).
+In the address bar type ""%systemroot%\system32\drivers\etc\"" (or just copy/paste).
+Copy ""hosts""-file to desktop.
+Open with notepad.
+Type or copy/paste:
+127.0.0.1 secure.zuxxez.com
+Save
+Copy the hosts file back to ""%systemroot%\system32\drivers\etc\"".
+
+Now, start the game, register game serial, and you won't have the problem with the game asking for the serial ever again.
+
+Neither will you be able to enter the secure.zuxxez.com web site. So if you plan to buy the game from there in the future you will have to edit the hosts-file again and remove or rem out the line that blocks that web site."

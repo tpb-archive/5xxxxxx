@@ -1,0 +1,57 @@
+User Type,Username,Date,Text
+,StealWill,2010-12-01T06:43Z,"Official torrent from wikileaks
+http://cablegate.wikileaks.org/static/cablegate-201011282316.7z.torrent
+or through nyud.net
+http://cablegate.wikileaks.org.nyud.net/static/cablegate-201011282316.7z.torrent"
+,SB555,2010-12-01T19:39Z,"If I may ask, how did you get these files to a .txt format?"
+,Skinkie,2010-12-03T17:40Z,"Don't know how he did it but this is what I used:
+
+
+import os
+import sys
+import re
+from BeautifulSoup import BeautifulSoup
+from BeautifulSoup import BeautifulStoneSoup
+
+import re, htmlentitydefs
+from os.path import join
+
+def unescape(text):
+    def fixup(m):
+        text = m.group(0)
+        if text[:2] == ""&#"":
+            # character reference
+            try:
+                if text[:3] == ""&#x"":
+                    return unichr(int(text[3:-1], 16))
+                else:
+                    return unichr(int(text[2:-1]))
+            except ValueError:
+                pass
+        else:
+            # named entity
+            try:
+                text = unichr(htmlentitydefs.name2codepoint[text[1:-1]])
+            except KeyError:
+                pass
+        return text # leave as is
+    return re.sub(""&#?\w+;"", fixup, text)
+
+
+for root, dirs, files in os.walk('cable'):
+        for name in files:
+                if name.endswith('.html') and not os.path.exists(os.path.join(root, name.replace('.html', '.txt'))):
+                        f = open(os.path.join(root, name), 'r')
+                        soup = BeautifulSoup(''.join(f.read()), convertEntities=BeautifulStoneSoup.ALL_ENTITIES)
+                        f.close()
+
+                        pre = soup.findAll(""pre"")
+
+                        f = open(os.path.join(root, name.replace('.html', '.txt')), 'w')
+                        for i in pre:
+                                for j in i.contents:
+                                        try:
+                                                f.write(unescape(j))
+                                        except:
+                                                pass
+                        f.close()"

@@ -1,0 +1,35 @@
+User Type,Username,Date,Text
+,Yumii123,2010-11-07T20:11Z,"Spelet crashar n채r jag g책r in i Lava Cave
+
+The game freezes when I go in the Lava Cave
+
+Help anyone?"
+,Zekarus,2010-11-12T04:10Z,"Fault in the undub unless the dude feels like fixing it.
+
+You'll have to deal with the normal version. I've been told you can salvage the saves, though."
+,Zelnick,2010-11-21T05:02Z,Saves will work back and forth between both versions because only the audio system is altered. Until the undubber can find a .brsar unpacker AND repacker then this undub will remain bugged.
+,gundambot,2010-12-19T14:57Z,"does anyone know whom or which group made this undub version?
+or any kind of release/version notes?
+
+thanks so much"
+,Alexlf,2011-01-08T21:20Z,"If anyone still cares, I'm currently working on a fix. It looks like it might be something as simple as a bad offset in fst.bin. If it is, I'll have either a patch or a new iso up by the end of the month. If it's something more complex though, It might take a little longer..."
+,pikablu32,2011-01-12T21:02Z,"^ I care, Alexlf. Thanks so much for helping us out with this! I (and all the other people who downloaded this) will be eagerly hoping for a patch!"
+,Alexlf,2011-01-12T23:13Z,"Thanks PikaBlu32, I appreciate the sentiment. Turns out it was as Zelnick said above. We need a brsar repacker. Good thing I was able to make one, eh? ;D  I managed to get it to work, that is it no longer crashes, but there are still some minor errors (ie, sounds that are longer then the original sounds get cut off). I'll continue to work on it, but if I find I'm not making very much progress, I'll release what I have."
+,Alexlf,2011-01-13T00:31Z,"On second thought, I'll just release what I have now, so those who don't mind a few errors can try it out. You can download the updated RuneFactoryWii.brsar and fst.bin with the proper offsets from my torrent (since apparently TPB doesn't let you post links). I'll seed when I can, so don't give up if there are 0 seeders for a while.
+
+All you need to do is replace the RuneFatoryWii.brsar in the sound folder on the .iso, and swap out the current fst.bin with the one supplied.
+
+For replacing, I suggest Wiimms ISO Tools. WiiScrubber (version 1.4 anyways) seems to only want to crash, and corrupt my isos in the process :(
+
+Be sure to back up your iso before you try to make any changes!
+
+
+p.s. If anyone was wondering, the crash was caused by the Ghosts you can find in the lava ruins. It was why some people also might have experienced crashes in their barn, if they tamed one."
+,gundambot,2011-01-17T10:59Z,"@Alexlf
+Thanks so much for the response. I appreciate you work with this!
+
+(I bought and played the JP RFF when it came out..so I won't be playing this again undub...
+but nonetheless, this is a wonderful game. Best RPG on wii for me...)
+It's great to see more people interested in this game."
+,signum19,2011-02-28T05:33Z,Hey Alexlf I need to get a hold of you somehow. I need this brsar repacker.
+,KUSmurf,2011-09-15T05:31Z,Need seeders. Getting some abysmal download speeds (9kb/s)

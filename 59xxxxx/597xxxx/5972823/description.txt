@@ -1,0 +1,13 @@
+Format: IMG (Garmin)
+FID cards: Not required
+Language: English
+Hardware: PC / PPC / Symbian Garmin Mobile XT, Garmin Nuvi, Streetpilot
+
+Due to the fact that Garmin Mobile XT does not support opening cards over 2 GB, the file was razdelen.Karta Ukraine carved and hand in a separate file.
+
+Garmin supports opening files of 4 cards at once, but they should only have allowed the program name:
+
+Gmapbmap.img - basemap, resolve issues with errors routing over long distances, as well as a route through a few cards
+Gmapsupp.img - your map
+Gmapsup2.img - your other card
+Gmapprom.img - your other card

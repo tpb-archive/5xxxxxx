@@ -1,0 +1,50 @@
+Revision history
+
+    * MakeMKV v1.6.2
+          o Improved processing for some DVDs
+          o Fixed occasional crashes introduced in 1.6.0
+          o Many stability improvements
+    * MakeMKV v1.6.0
+          o Updated blu-ray keys for AACS v19
+          o Updated BD+ engine
+          o On backup MakeMKV now validates content hash tables and detects corrupted M2TS files
+          o Better support for DVD discs
+          o MakeMKV is now more tolerable to badly-mastered or damaged discs
+          o Better support for HD-DVD discs
+          o Many stability improvements
+    * MakeMKV v1.5.8
+          o Updated BD+ engine
+          o Added (optional) automatic checking for program and svq updates
+          o Miscellaneous stability improvements
+    * MakeMKV v1.5.6
+          o Improved handling for DVD discs
+          o Added default tracks selection based on language
+          o Many small improvements
+    * MakeMKV v1.5.5
+          o Updated BD+ engine
+          o Corrected rare error with some H264 iterlaced video
+          o Improved handling for DVDs with incorrect DVD-TEXT metadata
+    * MakeMKV v1.5.4
+          o Updated blu-ray keys for AACS v17
+    * MakeMKV v1.5.3
+          o OS X: OS access mode is now default
+          o Many miscellaneous stability improvements
+    * MakeMKV v1.5.2
+          o Added support for MPEG audio tracks on DVD
+          o Corrected "code 28" error with some Blu-ray discs
+          o All LPCM audio formats from Blu-ray are now handled correctly
+          o Fixed occasional GUI failures
+          o Improved handling of Blu-ray discs with episodic content
+          o Various stability improvements
+    * MakeMKV v1.5.1
+          o Added myiBox streaming for NMT devices
+          o Improved compatibility of produced MKV files
+          o Stability improvements
+    * Previous history
+
+System Requirements
+
+    * Windows Vista/XP/Win7 or Intel-based Mac OS X 1.4 and above
+    * 512 MB of RAM, 1 GB recommended. MakeMKV will run on computers with low memory amount but conversion speed will be very slow.
+    * 10 MB of hard drive space for program files.
+    * Adequate hard drive space for converted content. Typical DVD movie takes 6 GB on hard drive. Typical Blu-ray movie takes 20 GB.

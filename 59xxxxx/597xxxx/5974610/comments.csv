@@ -1,0 +1,187 @@
+User Type,Username,Date,Text
+,gps1976,2010-11-23T17:38Z,"Seems to work fine on my nuvi 200 - note: if you are storing this in the Garmin folder on an SD card in the unit, rename this image file ""gmapsupp"" - insert card and restart"
+,jdoubles,2010-11-24T09:47Z,"This worked great once I made a slight change on how to do this on my Street Pilot c530. 
+1) Simply create a folder named ""Gramin"" on a 2gb SD card (Not SDHC). Make sure this card is completely empty.
+2)Transfer the the zip file from your hardrive to the SD card and place it in the ""Garmin"" folder (you dont have to unzip or unrar this file, leave it alone)
+3) Rename the file on the SD card ""gmapsupp"", (for me I did not add the .img extension, tried it first and didn't work, removed it and it worked)
+4) Now enjoy having to 2011 maps!"
+,nittany,2010-11-27T12:57Z,I'll download this and install it and test it out.  If I don't report back that means everything went fine.
+,nittany,2010-11-27T13:21Z,"Detailed instructions for unlocked image files:
+
+
+Use either Part A or Part B depending on your choice:
+
+Part A â€“ Internal Memory
+
+1. Connect your device to the computer.
+2. Go into the Nuvi files and backup the file named â€œgmapprom.imgâ€ to your computer.
+3. Delete the â€œgmapprom.imgâ€ file from the device.
+4. Copy the unlocked â€œgmapprom.imgâ€ file that you downloaded into the device.
+5. Restart your device and check your map info via : Tools>Settings>Map>Map Info.
+
+
+Part B â€“ SD Card
+
+1. Get a 2GB SD card (NOT SDHC) and format it FAT or FAT32
+
+2. Create a folder on the memory card called â€œGarminâ€
+
+3. Copy the downloaded â€œgmapprom.imgâ€ file into the Garmin folder on your SD card.
+
+4. Rename the â€œgmapprom.imgâ€ to â€œgmapsupp.imgâ€ on the SD card.  Remember the "".img"" is just the file extension so you don't need to type that.
+
+5. Insert the SD card into your Garmin GPS, and browse to your map information on your Garmin GPS and you should see the new maps selected. This can be found on the device via : Tools>Settings>Map>Map Info. (Note: The SD card must remain in your device if you want to use the maps.)
+
+Why the renaming?
+
+This must be done because this is not the primary mapset as it is being used from the SD card. The primary mapset is the one on the GPSâ€™s internal memory."
+,HoslerG,2010-11-29T20:28Z,Can someone help me? Macbook Pro OS X 10.6.4 backed up the gmapprom.img and erased it from my Garmin 205 and then went to simply drag it into the folder and it just won't copy in. Any help would be much appreciated!
+,HoslerG,2010-11-29T21:13Z,"I'm retarded, super easy fix. Just make sure when replacing you have the finder cleared out when trying to past back into ""Garmin"" Thank you so much pycmuk2 for the upload!!! You just saved me and everyone else here $49.99!!!!!! Long live TPB"
+,joekim20,2010-12-01T03:37Z,Hey I was wondering how I can get the FM traffic after downloading the new map...my lifetime traffic doesn't seem to appear on the newly dled map...before I put the new map on..I had traffic reports but now I don't. hmm....
+,joekim20,2010-12-01T03:45Z,"Hey I was wondering if the traffic reports gets erased after dling the new map...I dled the new map and I don't seem to see any FM traffic report because I had it on my previous map...Also, can you put two maps on the same device by changing the file name or does it get messed up?"
+,nittany,2010-12-01T07:51Z,"***********WARNING***********
+
+DO NOT INSTALL MAP UPDATES ON NUVI'S THAT HAVE VR (VOICE RECOGNITION) FEATURES OR YOU WILL LOSE THOSE FEATURES.  ALSO, THERE ARE PEOPLE THAT ARE COMMENTING THAT ARE SAYING THEY LOST THEIR TRAFFIC FEATURES AS WELL.
+"
+,nittany,2010-12-01T08:55Z,"Just a warning to people out there, no matter what I did, I could not get my voice recognition features to work on my Nuvi 850 after installing this update.  It's not this update though, it's any update because I've tried several including the older 2011.10 maps and the VR features did not work either. Certain basic menu voice commands work, but the other ones do not.
+
+I also tried the 2011.30 torrent from demonoid as well because for that one you have to install Mapsource and then Mapsource builds the mapset and transfers it to your GPS.  I figured if I did it that way maybe Mapsource would update the VR files on my unit, nope.
+
+
+Apparently, the voice recognition (VR) files on the 8x0/8x5 series nuvis have to be updated to match the map. The map and the VR files are considered a ""set"", that is, the VR files are associated with their particular mapset. If those VR files are not used with their associated mapset, certain VR key commands (like searches for associated items in the mapset like addresses, POIs, etc) will not work.
+
+I have no idea how to update the VR files to match the mapset, I assumed mapsource would do that automatically when it configures the map files and transfers them to your GPS. So I guess if I want updated maps on my Nuvi 850 I'm going to have to go without the VR features. I put back my old 2010.10 maps on the unit and all the VR features worked again, so it's definitely the maps causing the problem.
+
+
+Too bad some hacker out there can't figure out a fix for this problem."
+,WildcardHB,2010-12-04T00:33Z,"I can't get this to work on my Garmin 650.
+
+I formatted a 2gb SD card to FAT32, created a Garmin Folder and put the ""gmapsupp.img"" file in there, but it's not showing up on the GPS.
+
+I also tried naming the file ""gmapsupp"" without the .img extension, but no success.  Any thoughts?"
+,gps1976,2010-12-05T20:44Z,"@WildcardHB 
+
+You seem to have done right about the card format and placing this into the Garmin folder on it.  Make sure you still have your gmapprom file on the actual unit.  The only reason you rename this torrent's file gmapsupp is because it's a supplement to the main basemap gmapprom file.  Turn off your unit, insert the SD card, and restart.  You should see a little green progress meter go across the screen.  You should then be able to verify the map version in the Settings."
+,Punkristo,2010-12-08T18:15Z,I cannot get it to work on the internal memory. It keeps showing the info from the old map.
+,Punkristo,2010-12-09T20:53Z,Does this have the full map for Mexico? I was looking in Mexico city and it was only showing me the big highways! Does it have the normal streets for Mexico?
+,WildcardHB,2010-12-13T08:31Z,"@gps1976
+
+Yup, I understand that.  I have both the gmapprom on the internal memory and the gmapsupp on the SD card, but still no success.  I'm quite befuddled.
+
+Maybe I'll try putting on the OEM maps back on the GPS internal memory.  It currently has a cracked 2011.10 version."
+,grapow,2010-12-14T16:46Z,"I have an old c580...none of the above worked. But what did work was just connecting the unit to my computer via USB and swapping out this download with the gmapprom.img that is in there. You have to delete the older one first, or else there's no room. Keep a backup just in case. The transfer took a real long time (1-2 hrs)."
+,joekim20,2010-12-16T11:43Z,I am a noob...the traffic worked...I didn't realized it only works when you hook it up to a power source...thanks for the upload! Works Great!
+,poorerman,2010-12-17T13:46Z,"A noobie to maps and MapSource.  Can this map be used as the MapSource source map?  I've tried everything I can imagine but can't get MapSource to recognize this map from locations on either SD 2GB card (and renamed to gmapsupp.img and recognized by nuvi) or a folder on my PC.  I just purchased a nuvi 855 model for creating routes, only to find out that GoogleMaps and MapQuest no longer support route exporting to the device.  Using MapSource appears to be the only ""route"" (bad pun), but having great difficulty.  Anyone use this unlocked map with MapSource?  Thanks in advance."
+,nittany,2010-12-20T05:27Z,"I want to correct something, I posted a warning telling people not to download this if your GPS has VR features.
+
+Well you can download this fine and your VR features will still work as long as you put the map update on a SD card and don't put it on your GPS internal memory.
+
+For anybody that is confused or having problems with this torrent follow the directions from Method 2 from the link below, I would also use Part B the SD card method that way you can't screw up your GPS internal memory.
+
+http://www.haklabs.com/2010/garmin-2011-gps-update/"
+,arkar1984,2010-12-20T17:34Z,"Breaks postal code search and makes it imossible to change country and state...
+
+I reverted to older map."
+,a8a999,2010-12-22T03:16Z,"I confirm this file working on my nuvi 1350T. I have a 4GB HCSD.
+Thanks pycmuk2! You're the man!"
+,PittSucks,2010-12-22T19:07Z,Tested on Garmin Nuvi 260W & Nuvi 255W - works great!  Quality release~
+,war59312,2010-12-23T22:23Z,"jdoubles, hows that?
+
+This file is 1.29 GB while my GPS is only 991 MB. So it will not fit, period."
+,poisonknives,2010-12-24T15:50Z,"does any one now how to open the file once downloaded. it says its not a valid maspource file and cant be opened. i have already copied the file to my garmin rino 530 and it works on the unit. but i would like to use it in mapsourse. is there a special way to unpack to file, 7-zip cant open it. i did it before with the 2010 version, i just forgot how to do it."
+,nittany,2010-12-25T12:38Z,"@poisonknifes
+
+Search on demonoid if u want mapsource version of 2011.30"
+,poisonknives,2010-12-25T17:10Z,"i found it on demonoid  but one would need a subscription to download, and they have new subscriptions shut down."
+,poisonknives,2010-12-25T17:12Z,if someone had an invitation code for me i would be most great full:)
+,phatan,2010-12-26T22:33Z,"SOME PLEASE HELP.  I used the Part A â€“ Internal Memory method on my 1490T Nuvi.  And when I looked in the unit, it says no map data available.  And when I copied the backup back on the Unit, it still says the same message.  Please help."
+,phatan,2010-12-26T22:43Z,"Please Help.  I followed the Part A Internal Memory method on my 1490T Nuvi.  When I resetted the unit, it say no map data found.  So I loaded the original version back and that is now giving me the same message.  What should I do?"
+,billy234,2011-01-04T14:26Z,"Installed on Internal Memory(followed part A) on a Nuvi 255 and it worked like a charm.  voice recognition (VR)works as well ! 
+
+First i backup the gmapprom.img that was on my garmin, took me 40minutes, than delete it from the garmin, then copy paste the gmapprom.img included in this torrent, took about another 40minutes(i replace my original 1.1gb by that new 1,29gb file, sill 400mb left on the internal space). Power up the GPS and worked number 1. Now the GPS is updated and it's a lot faster than it used to be.
+
+Thanks pycmuk2"
+,SerSpec-V,2011-01-06T21:58Z,Just loaded it in my 255W will test it tonight and will report back but since I've uploaded maps 4 times now it should be fine.
+,Newb787,2011-01-09T23:29Z,2011.31 is out. please post torrent with link in this thread. thank you. 
+,skeppley,2011-01-15T05:26Z,"Worked perfectly on nuvi 650, Thanks!"
+,SerSpec-V,2011-01-15T22:46Z,Working great on my 255w and a 260.
+,shrifty,2011-01-17T05:03Z,"Thanks for the map update!  The only issue I noticed is that Oahu is missing, everything else seems to be included."
+,firefox83,2011-01-20T10:42Z,"Anyone have luck with the Vista HCX? Followed the instructions, but when I put the SD card in, my units screen starts flashing, then shuts off. I dont get any error messages or anything. Any ideas?"
+,firefox83,2011-01-20T10:45Z,"Anyonehave luck with the Visa HCX? I followed the instructions, but when i put the SD card into my unit the screen flashes, then shuts off. There is no error message or anything. Anyone have any ideas?"
+,firefox83,2011-01-20T10:48Z,"sorry for the double post, computer is being stupid."
+,Newb787,2011-01-22T21:38Z,2011.32 is out boys and girls. post the link if u have it. 
+,Newb787,2011-01-22T21:39Z,NT North America 2011.32 is out. Please post link to it.
+,firefox83,2011-01-23T01:39Z,"Ok, it works on the Vista HCX, but you have to keep the file as gmapsupp.img in order for it to load. If you delete the .img, the Vista HCX doesnt read it."
+,onetoe,2011-01-27T21:29Z,This worked perfectly on my garmin nuvi 255w using the A method (overwrite the existing file). Thanks. Great for me since I live in an area where there has still been lots of new development in the last year. 
+,Tankerman,2011-02-02T05:03Z,"It works, but only half ass. Won't let you zoom in. It keeps you at about a 1.5 - 2 mile radius on your display."
+,AErthule,2011-02-03T22:51Z,"nittany- 
+Thanks for the directions.  I installed and it works great.
+
+pycmuk2-
+Thanks for the download, much appreciated."
+,dohawk1,2011-02-08T18:11Z,"I have dl'ed this twice now and can not open zip file, can anyone help?"
+,r3ckl3ss,2011-02-09T01:34Z,"dohawk1, it's not a zip file, it's an img file.
+I have installed this on my 765T and it didn't update the 3D map but the other is updated to 2011.30."
+,ninvin21,2011-02-09T22:04Z,The size of this file is 1.29 GB My garmin 260 only has 1.21 GB of internal memory SO how are people putting this on there system with out an SD card?
+,trigbee,2011-02-10T07:49Z,HELP! I get the maps on my 265 and when typing in a address it turn all the letters into chinese? Anyone else have this problem
+,dntca,2011-02-14T20:10Z,works perfect. thank you pycmuk2
+,dntca,2011-02-14T20:13Z,ninvin21 - copy your old img to hard drive.  then delete the img from the memory and then copy the new img. 
+,suprvulcan,2011-02-18T22:29Z,"Copied the original file to my hard drive, copied the new file to the device and restarted. No problems at all. Thank you very much"
+,Chinadian,2011-02-26T03:08Z,"Garmin City Navigator North America NT 2011.30 3D
+
+http://thepiratebay.org/torrent/6202843/Garmin_City_Navigator_North_America_NT_2011.30_3D.rar"
+,Garmin62s,2011-03-01T21:30Z,"Worked on my Garmin GPSMAP 62s. I backed up the pre-installed 'world-map' on my computer, and changed the name of the ISO file to ""gmapbmap"" (name of file it replaces).
+
+Couple questions though.
+
+1. I am getting a ""Route Calculation Error: Maps do not have routable roads in this area."" when I try road navigation. How do I fix it?
+2. Anyone have a comparable map with Oahu on it? (it's cut off this one.)"
+,Mykskleen,2011-03-11T13:04Z,"Q.  I have a Garmin 1300 that is updated with all current maps, could I just copy the files and transplant them into my older Garmin's ?"
+,DavidsXB,2011-03-22T19:36Z,Downloaded and installed on Nuvi 1200 - worked like a charm. Excellent. Thanks.
+,perfectly_dark007,2011-03-29T11:23Z,works beautifully on Nuvi 255. installed just as per instructions in the comments
+,mooviefreak,2011-03-31T04:09Z,works like a charm. thx for sharing. works on a SDHC as well
+,crho85,2011-04-07T03:52Z,"Worked perfectly, even on our European model"
+,ninvin21,2011-05-19T13:42Z,"How do I get this Map to Load up into MapSource is it possible?
+
+Thank you"
+,Mandro1d,2011-05-19T22:05Z,"I dl'ed the file and installed it as per the instructions. For some reason though when I try and navigate it doesn't begin from the actual location. Now this isn't my GPS is actually my girlfriends father who mailed it to me from Michigan and that is actually the starting point that the GPS gives me. The following is what I see in the ""Garmin"" folder:
+
+Garmin Nuvi 370
+GPX, HELP, poi, RemoteSW, vehicle, Voice, 006B047800, 006B048201, GarminDevice, gmapbmap.img, gmapprom.img, nuvi_drive
+
+Does any of that seem incorrect???"
+,tickturd,2011-06-03T06:40Z,Worked for me! Thanks!
+,dai0ma,2011-06-07T09:20Z,"install it on my garmin nuvi 255 and is working perfectly, THANK YOU very much!!!!!!"
+,remmy212,2011-06-18T19:59Z,"Works Great! Have Garmin Nuvu 200. Just delete your old file and replace with new and restart. If you dont delete first, it will say you have no space on internal memory."
+,nanapeal,2011-06-20T05:42Z,"Works great! Thanks for your effort pycmuk2!!
+
+Tip: my nuvi 1300 was 50mb short on space (1.76GB != 2GB advertized!!) so I deleted some languages out of the Voices folder and made some room! also, the image file is in the hidden folder, "".System""."
+,tylers56,2011-06-23T03:05Z,"Having trouble with this... Garmin Nuvi 260W, when i delete the gmapprom.img file from the device, it does not change the size of available space on the device even though the file is gone. This is preventing me from putting the new .img file on it... Any thoughts?"
+,dexmr2,2011-07-25T19:30Z,"Worked perfect. Changed the file name to ""gmapsupp"" Put it in a ""Garmin"" folder on a FAT32 formated SD card and worked 100%. This was on a NUVI 200 in Ireland."
+,louderks,2011-07-26T00:03Z,who has Warawara software ( Curacao)
+,sexpanther,2011-09-14T03:07Z,Works perfectly - thanks for the upload!
+,africanbrit,2011-09-25T01:28Z,"very nice torrent...I am not good at this stuff, but followed the instruction
+2g SD card, formatted to fat32
+created a ""Garmin"" folder in the sd card
+changed file name to mapsupp, copied it and pasted to the folder ""Garmin"" on the sd
+inserted the sd card in my nuvi 200 turned it on and saw a green line come up and walla updated perfect.....thanks again for the  terrific torrent"
+,oviovik,2011-10-15T07:17Z,"Hello Guys.
+I want to know if I can put this 2012 map on my old Garmin c320. if yes how to do that? please help) thank u in advance"
+,kiyoshi67,2011-10-19T02:51Z,"Worked great for me on Garmin 1490T. 
+The File was larger than the original, so I had to delete a bunch of ""Voice"" folder files (removed languages I didn't need) to gain the extra space.
+
+For some reason I didn't have ""show system files"" checked in vista, so I couldn't see the "".System"" folder to replace the ""gmapsupp.img"" file. I felt stupid once I solved that!"
+,foonte,2011-10-22T09:01Z,"Ok after d/l the .img file I deleted the original .img file from my Garmin Nuvi 265W and replaced it w/ the one I just downloaded.  Question is how do I know that it is working?  After replacing the file I still can't seem to find some of the adds... any help guys?  When I check to see the map version through the Tools menu, it shows ""City Navigator North America NT 2011.3"" ... help plz :) "
+,foonte,2011-10-22T09:16Z,"Ok after d/l the .img file I deleted the original .img file from my Garmin Nuvi 265W and replaced it w/ the one I just downloaded. Question is how do I know that it is working? After replacing the file I still can't seem to find some of the adds... any help guys? When I check to see the map version through the Tools menu, it shows ""City Navigator North America NT 2011.3"" ... help plz :) "
+,cr250msr,2011-10-28T02:04Z,"Super Easy to Install and works great on Garmin Nuvi 265.  
+
+I followed Part A since I don't have an SD Card.
+
+1. I copied all of the existing files on the Garmin device to my cpu.
+2. Deleted extra languages of the Garmin device.
+3. Deleted the gmpabmap, gmaprom, gmaptz off the Garmin device. 
+4. Copied and pasted new files from the torrent to the Garmin (files listed in step 3).
+5. Ejected Garmin
+6. Turn on Garmin, Go to Tools, Setting, Maps and there's the new maps. 
+
+Super easy and works great and saved me $49.95!"

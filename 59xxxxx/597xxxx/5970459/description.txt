@@ -1,0 +1,48 @@
+CD Image
+
+FLAC info:
+$ metaflac --list CDImage.flac
+METADATA block #0
+  type: 0 (STREAMINFO)
+  is last: false
+  length: 34
+  minimum blocksize: 4096 samples
+  maximum blocksize: 4096 samples
+  minimum framesize: 14 bytes
+  maximum framesize: 14928 bytes
+  sample_rate: 44100 Hz
+  channels: 2
+  bits-per-sample: 16
+  total samples: 196690116
+  MD5 signature: c48f79ab414679890d1872c33aa8df8b
+METADATA block #1
+  type: 3 (SEEKTABLE)
+  is last: false
+  length: 8046
+  seek points: 447
+    point 0: sample_number=0, stream_offset=0, frame_samples=4096
+    point 1: sample_number=438272, stream_offset=1119026, frame_samples=4096
+    point 2: sample_number=880640, stream_offset=2570500, frame_samples=4096
+    point 3: sample_number=1318912, stream_offset=4010777, frame_samples=4096
+    point 4: sample_number=1761280, stream_offset=5456942, frame_samples=4096
+          [TRUNCATED]
+    point 444: sample_number=195801088, stream_offset=581170054, frame_samples=4096
+    point 445: sample_number=196243456, stream_offset=582403258, frame_samples=4096
+    point 446: sample_number=196685824, stream_offset=583325722, frame_samples=4096
+METADATA block #2
+  type: 4 (VORBIS_COMMENT)
+  is last: false
+  length: 243
+  vendor string: reference libFLAC 1.2.1 20070917
+  comments: 7
+    comment[0]: artist=Motorhead
+    comment[1]: title=Love Me Like A Reptile
+    comment[2]: album=Ace Of Spades (JVC K2 24-Bit Japanese BVCM-37962)
+    comment[3]: date=1980
+    comment[4]: tracknumber=02
+    comment[5]: genre=Heavy Metal
+    comment[6]: comment=EAC v0.99pb4 / FLAC 1.2.1 q6
+METADATA block #3
+  type: 1 (PADDING)
+  is last: true
+  length: 65536

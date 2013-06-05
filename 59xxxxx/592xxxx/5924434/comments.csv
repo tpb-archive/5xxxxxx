@@ -1,0 +1,91 @@
+User Type,Username,Date,Text
+,pappy.,2010-10-31T22:51Z,is this the latest version?
+,vic70cent,2010-11-01T02:25Z,can some one make a torrent of rex2.0
+,jb42682,2010-11-01T10:25Z,"I have never asked for help before but I am lost on this one. I install all the crack files including the d-crack to my gauges. I then write the script for the dll.xml I've tried MindstarHypergauge,Mindstar Hyperguage. I've also copied over from txt and hand typed it. Still no displays. The Fms and everything work fine just no display:( Please help. Win7 64 bit"
+,Just_Ask,2010-11-01T12:22Z,"some people make mistake when edit the dll.xml
+
+make sure u did right
+
+
+        Mindstar Hypergauge
+        False
+        False
+        Modules\HyperGauge.dll
+"
+,vic70cent,2010-11-01T18:00Z,no no displays and when edit edit the dll.xml it crash my fsx
+,jb42682,2010-11-01T20:56Z,"Thanks for response Just. Here it is I even mirrored it from the one above and the rest.
+
+        FSUIPC 4
+        False
+        Modules\FSUIPC4.dll
+
+
+
+        Mindstar Hypergauge
+        False
+        False
+        Modules\HyperGauge.dll"
+,Just_Ask,2010-11-02T01:23Z,"Sorry about the reply i'm horry.Here is the right way
+
+
+Mindstar Hypergauge
+False
+False
+Modules\HyperGauge.dll
+
+
+  Make sure this line is always in the botton "
+,Just_Ask,2010-11-02T01:23Z,"Sorry about the reply i'm hurry.Here is the right way
+
+
+Mindstar Hypergauge
+False
+False
+Modules\HyperGauge.dll
+
+
+  Make sure this line is always in the botton "
+,Just_Ask,2010-11-02T01:24Z,"Sorry about the reply i'm hurry.Here is the right way
+
+
+Mindstar Hypergauge
+False
+False
+Modules\HyperGauge.dll
+
+
+  Make sure this line is always in the botton"
+,Just_Ask,2010-11-02T01:26Z,"Sorry about the reply i'm hurry.Here is the right way
+
+Launch.Addon
+Name>Mindstar HypergaugeFalseFalseModules\HyperGauge.dll"
+,jb42682,2010-11-02T03:11Z,I put it as the very last. I even tryed it at the very bottom. What's the differance from the one before? I followed the format of the orignal file dll.xml with supplied script. something's missing and or glitch. Should dcrack overwrite in gauges? Look at number of comments when post it helps. Fly's great no display. 
+,Just_Ask,2010-11-02T04:01Z,sorry my web browser is freak can no reply werry wel when i write
+,Just_Ask,2010-11-02T04:11Z,"try this link my web browser is freak now
+
+http://img14.imageshack.us/img14/518/dllo.jpg
+"
+,Just_Ask,2010-11-02T04:12Z,"try this link my web browser is freak now
+
+http://img14.imageshack.us/img14/518/dllo.jpg"
+,Just_Ask,2010-11-02T04:17Z,http://img14.imageshack.us/img14/518/dllo.jpg
+,rrodger99,2010-11-02T04:25Z,I am hunting for the KCLT scenery for FSX....Would anyone happen to have it that wouldn't mind posting?
+,jb42682,2010-11-02T06:03Z,That did it. Thanks.
+,jb42682,2010-11-02T09:22Z,Also. I know this isn't on you but you wouldn't have any idea why i'm loosing all power mid flight? And yes my gen's on 23.5v to both engines. Temp drops as climb then rises rapidly and it then it all goes black and won't let me turn the battery back on.
+,Just_Ask,2010-11-05T02:03Z,on my works fine whitout problem 
+,jb42682,2010-11-06T22:25Z,"I don't know what it is. I've tried leaving the apu running,Leaving off pitot static heat,xtie on/off. Followed the checklist to the letter. It almost seems timed it shuts down the same way everytime no warning just the bat temp rising. It's even happend on the ground and won't let run external our any battery.
+Maybe fsx version. I'm running fsx sp2 no accel on win7 64. I wish I could figure out what's going on. They won't let me in dev forums lol."
+,acropilot,2010-11-09T12:43Z,"Thanks. 
+
+REQ: (Updated) Sibwings Saab Safir FSX"
+,derda2,2010-11-21T10:58Z,"doesn't work. why? unzipped into program files and copied as told all into d:\FSX
+no gauges any help?"
+,derda2,2010-11-21T20:01Z,anyone got this working with Vista?
+,Wallboy19,2010-12-18T07:20Z,"Hmm thought this was a different version then DCracks, I was having the same problem with the plane just completely shutting off in climb or cruise."
+,el_kab0ng,2011-03-30T06:35Z,Apparently the CX750 has a time limit due to a license file check (30 minutes). Dcrack claimed it was something to do with esftchk5.dll but never explained how to adjust it to remove the time limit.
+,BlacJac,2011-04-06T01:46Z,thanks!!!   Request Wilco Tower! 2011
+,baalika,2011-04-23T13:59Z,"hm, im kinda lost now
+
+How exactly is this the fsx version when the readme and the installer as well talks about fs9 ?"
+,tman3555,2011-08-06T03:05Z,"i cant get the damn gauges to work the dll edit doesnt seem to be working can someone help,  yes i have checked the format again and again.  what editor do you use to edit the text.  "
+,tman3555,2011-09-05T17:48Z,why couldnt he just do the right xml format and put it in the crack haha

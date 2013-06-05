@@ -1,0 +1,21 @@
+Comando para usar o maemo flasher
+
+Instale o programa maemo flasher.
+
+Para inicar seu N900 em modo flash, desligue o aparelho, segure a tecla u, e conecte o
+cabo usb, atÃ© o logo Nokia aparecer ao fundo e o indicativo de conectado no canto superior
+direito.
+
+Na aba todos os programas, procure maemo e execute o maemo flasher.
+
+ApÃ³s copie e cole os comandos abaixo na tela de cmd. Na ordem conforme abaixo.
+
+1Â° - Zerar Firmware
+
+flasher-3.5.exe -F RX-51_2009SE_20.2010.36-2_PR_COMBINED_MR0_ARM.bin -f
+
+2Â° - Zerar EMC (Obs.: Caso queira, pois todos os dados serÃ£o perdidos.
+
+flasher-3.5.exe -F RX-51_2009SE_10.2010.13-2.VANILLA_PR_EMMC_MR0_ARM.bin -f -R
+
+Pronto. Instalado o Ãºltimo firmware e zerado emc

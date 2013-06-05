@@ -1,0 +1,190 @@
+User Type,Username,Date,Text
+,siki20,2010-10-24T00:19Z,"Tedd fel majd lĂŠci a Z-re vagy EVO-ra!
+KĂśszi"
+,RawRanger,2010-10-26T16:49Z,Thanks for the excellent post!
+,RawRanger,2010-10-26T16:51Z,"How To Install 19.10.2010:
+
+Prepare your system before installing and activating Nero 9:
+
+1. A user account with Administrator rights: Windows Vista/7
+2. disable UAC and reboot for the changes.
+3. run the installation .exe and registration/key maker applications as administrator (right-click on the icon 
+
+for the shortcut menu and choose ""Run as administrator"") Just in case.
+
+Deleting all old versions of Nero 10/9/8/7/6:
+
+1. stop all running Nero applications.
+
+2. run the Nero General CleanTool. Reboot your system.Just to be sure (not necessary, but sometimes it helps) 
+
+you can repeat the process.
+
+3. in the ""Program Files"" and the ""Documents and Settings"" directories in XP (or ""Users"" and ""ProgramData"" 
+
+directories for Windows Vista/7) delete all folders containing the name ""Nero"" (use search to find them). Also 
+
+delete your temporary files.
+
+4. reboot the system.
+
+Also, before installing it is best to upgrade your system's .Net and directX framework.
+
+Minimum required:. NET Framework 3.5 ( already present in Windows 7) and DirectX 9.0c (Current version: June 
+
+2010):
+
+1. Update DirectX 9.0c June 2010  http://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-
+
+AD2AE20B6B14/directx_Jun2010_redist.exe
+
+2) update. NET Framework to version 3.5 http://download.microsoft.com/download/6/0/f/60fc5854-3cb8-4892-b6db-
+
+bd4f42510f28/dotnetfx35.exe"
+,RawRanger,2010-10-26T16:55Z,"Start the installation:
+
+1. Start the installation of Nero Multimedia Suite 10 Platinum HD. During the installation program will ask 
+
+you if you would like to install components not included in the install package and then will offer them to 
+
+download for you. You are free to do so.
+The program will then ask for a reboot, after which the installation continues automatically.
+
+NOW TURN OFF THE INTERNET!!!
+
+2. Install Nero Multimedia Suite 10 Platinum HD with key 9X03-014M-337H-H1CZ-L2KK-229X-1ZUX-LPHA
+
+3. After installation is complete, restart the system. Do not run the program.
+
+4. If needed, install Nero MediaHome 4 and/or Nero Move it.
+
+When the installation asks for a key open the Nero 9.0 HQ License maker manager 5.55 BetaMaster (Run as 
+
+administrator on Vista/7).
+Check the Auto Handle Installers, select CO list of these two products, click ""Generate"" and click ""Add to 
+
+White-List"". 
+They must show up as registered in the Control Center!
+
+5. After a successful installation of the entire Nero Suite reboot. 
+
+Make sure the Internet is still disabled at this point!!!
+
+Start the Nero 9.0 HQ License maker manager 5.55 BetaMaster (Run as administrator on Vista/7). 
+Choose: 
+Activation (Nero MediaHome 4) 
+Activation (Nero move it)
+DTS plug-in click Register Serial.
+They must show up as registered in the Control Center.
+
+6. Then manually add the following keys in the Control Center:
+
+DTS Plug-In: 	KK00-5195-199K-254K-132E-9056-XC07
+mp3PRO Plug-In: KC00-203X-1886-2446-051E-54C2-XC60
+
+IMPORTANT! Unable to generate the keys for the following components:
+
+Gracenote Plug-in
+Blu-Ray Video Plug-in
+Blu-Ray/HD-DVD Plug-in
+Blu-Ray Disc Authoring Plug-in
+Blu-Ray Disc Playback Plug-in
+Move it Plug-in"
+,RawRanger,2010-10-26T16:59Z,"The most important thing to do after the installation and activation process is to block all access of your 
+
+Nero products to the Internet. Do this by means of your firewall!!!
+
+Now it's safe to turn the internet connection back on.
+
+And do not update the product! This will get your keys blacklisted!
+
+If you want to get rid of the annoying registration notice, delete the file ""NOSProductRegistration.dll"" in 
+
+the following locations:
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero BackItUp \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero Burning ROM \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero Express \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero MediaHub \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero StartSmart \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero Vision \\ OnlineServices
+
+and replace them with ""dummy""or empty files of the same name.
+
+That's it! Sorry for the long post."
+,RawRanger,2010-10-26T17:09Z,"The most important thing to do after the installation and activation process is to block all access of your 
+
+Nero products to the Internet. Do this by means of your firewall!!!
+
+Now it's safe to turn the internet connection back on.
+
+And do not update the product! This will get your keys blacklisted!
+
+If you want to get rid of the annoying registration notice, delete the file ""NOSProductRegistration.dll"" in 
+
+the following locations:
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero BackItUp \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero Burning ROM \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero Express \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero MediaHub \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero StartSmart \\ OnlineServices
+C: \\ Program Files \\ Nero \\ Nero 10 \\ Nero Vision \\ OnlineServices
+
+and replace them with ""dummy""or empty files of the same name. 
+
+That's it!"
+,robsinbc,2010-10-26T18:46Z,thx - but where is the keygen?
+,petermfrj,2010-10-27T21:47Z,"thanks great post!
+i might have installed it incorrectly, everything is working fine except MediaHub
+when i open MediaHub it tries to activate 3rd party patent, it fails and stops working.
+Anyone else have the same problem?"
+,petermfrj,2010-10-28T18:30Z,actually its working now :)
+,eagleeye007,2010-10-29T10:20Z,it's asking for 3rd party patent activation... :|
+,gaiaman554,2010-10-31T22:25Z,best torrent ive gotten so far lol I LOVE IT!!!!!!
+,GunnzAkimbo,2010-11-05T17:59Z,Asks for Patent Activation serial number when using Nero Vision video import.
+,avi11,2010-11-09T07:12Z,"see  http://www.gratisprogramas.org/descargar/nero-multimedia-suite-platinum-hd-10-5-10900-final-ml-full-multi-host/  (use google translate, it is in spanish) no.7 comment......it is first fully activated version!!!!!!"
+,Pit222,2010-11-11T21:39Z,"No, it's not fully activated version. It gives Third party Activation error; ... bulshit"
+,ajx31h-sss,2010-11-16T05:17Z,"So if we are unable to generate the keys for the following components:
+
+Gracenote Plug-in
+Blu-Ray Video Plug-in
+Blu-Ray/HD-DVD Plug-in
+Blu-Ray Disc Authoring Plug-in
+Blu-Ray Disc Playback Plug-in
+Move it Plug-in 
+
+does this mean the above components will not work?"
+,avi11,2010-11-16T23:35Z,see this link  http://www.torrents.net/torrent/280229/Nero-Multimedia-Suite-10-Spanish---Divxatope-com/.
+,iamutham,2010-12-10T15:44Z,genuine serial[code]9X0C-004C-AXCP-797C-7ET6-C723-1ALK-2UTP[/code]
+,iamutham,2010-12-10T15:48Z,genuine serial--->[code]9X0C-004C-AXCP-797C-7ET6-C723-1ALK-2UTP[/code]
+,iamutham,2011-01-02T11:40Z,Use this serial during setup [code]9X13-01AA-TU89-2UCZ-L852-H2P8-PP40-K0XE[/code]
+,iamutham,2011-01-02T11:59Z,"---------------------------------------------REAL
+----------------------------------------REAL
+------------------------------------REAL
+--------------------------------REAL
+-----------------------------REAL
+--------------------------REAL
+-----------------------REAL
+--------------------REAL
+------------------REAL
+--REAL----------REAL
+-----REAL-----REAL
+------REAL--REAL
+------REALREAL"
+,sint75,2011-01-13T02:01Z,any one have a 3 party patent activation serial for nero vision??
+,Flow_Motion,2011-01-14T16:53Z,"Thanks to RawRanger for the instructions. So far so good, except Nero Vision doesn't work :( Nobody can seem to get that working, as I've been looking around. "
+,chevy1966,2011-02-08T06:33Z,i have tried all the codes and none of them work can you help me
+,chevy1966,2011-02-08T06:35Z,i have tried all codes and none of them work can anybody help
+,daveo76,2011-02-10T03:53Z,Thanks to avi11 for that link. I download KindlyEdition12.Nero10.rar and replaced it instructions which was in foreign language with english instructions. After using this. Nero Multimedia Suite Platinum HD 10 works with all it programs.
+,daveo76,2011-02-10T04:15Z,"http://img844.imageshack.us/img844/643/neroul.jpg for KindlyEdition12.Nero10.rar
+
+The link is in the picture and sorry it in picture format but it only one way I can provide a link to use"
+,me4free,2011-03-09T09:50Z,"
+
+I have tried to open the link below and all you get is ""This domain violates imageshck's Tos. Where to now
+
+ daveo76 at 2011-02-10 04:15 CET: 
+
+http://img844.imageshack.us/img844/643/neroul.jpg for KindlyEdition12.Nero10.rar
+
+The link is in the picture and sorry it in picture format but it only one way I can provide a link to use "
+,jhango,2011-04-02T03:49Z,thanks iamutham it works you save my day hehehe

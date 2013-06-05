@@ -1,0 +1,35 @@
+*******************************************************************************
+
+*******************************************************************************
+
+-------------------------------------------------------------------------------
+                                 Release Notes
+-------------------------------------------------------------------------------
+
+Fallout 2 Revived Installer 1.02.27.3
+
+This installer will take care of everything. Contains Bear Dude's unofficial
+patch (version 1.02.27.3) and the High Resolution Patch made by Mash (2.3).
+
+Many thanks for them making it possible to play with this decade-old game even
+on Windows 7 x64!
+
+After installation, download the Fallout 2 Revived Data Files, otherwise you
+won't be able to run the game.
+
+Also check out the valueadd folder, it contains a few additions.
+
+Install: just use the exe provided, it will install to "Games" in your user
+folder. Then you can run Fallout 2 from the Start Menu.
+
+If the game crashes on run, check whether fallout2.cfg exists. If it doesn't,
+run bs_run.bat and it will create it. If it fails for some reason, copy
+fallout2.cfg.in to fallout2.cfg, and replace the REPLACEME string with the
+install path everywhere (5 occurrences in total).
+
+Uninstall: go to Control Panel, and use "Add or remove programs" or "Uninstall
+a program". Alternatively, use "Uninstall" from Start Menu.
+
+*******************************************************************************
+
+*******************************************************************************

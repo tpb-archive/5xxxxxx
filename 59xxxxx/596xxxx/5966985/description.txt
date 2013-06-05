@@ -1,0 +1,324 @@
+##################################################
+#         MINECRAFT ALPHA 1.2.2.125              #
+##################################################
+Custom server Build
+I dont do this for fun, I did it for you guys.
+##################################################
+#                    DONATE                      #
+##################################################
+DONATE: http://nekio.com
+Click Paypal at bottom of the page.
+##################################################
+
+##################################################
+INSTALL NOTES:
+##################################################
+1. Go to Start > Run
+2. Type in %appdata%
+3. Extract "Minecraft.1.2.2.125.&.SMP.LAN.SERVER.&.NAME.SPOOFER.(NanoEntity)" to "appdata\roaming" 
+(You already should be there when running %appdata%, if not verify location.)
+
+Example:
+Win7/Vista
+"C:\Users\%username%\AppData\Roaming\"
+.minecraft
+.minecraft server
+
+XP
+"C:\Documents and Settings\%username%\Application Data\"
+.minecraft
+.minecraft server
+
+4. Go to ".minecraft" folder and run "minecraft_name.jar"
+(When you open the game, just press login, it will fail, but prompt you with
+an offline option. Click on that and play the game!)
+
+##################################################
+LAN:
+##################################################
+1. Go to http://tunngle.com and Download and install Tunngle.
+2. Log into Tunngle
+3. In "Network Search" type "minecraft"
+4. Join "minecraft" Channel
+5. Ask for Server IP in channel, or host your own server.
+6. Run "minecraft_name.jar" in ".minecraft" folder
+7. Connect to LAN server.
+
+##################################################
+HOSTING SERVER:
+SERVER NOTE: SERVER MIGHT NOT WORK ON WINDOWS XP
+##################################################
+1. Go to ".minecraft server" folder
+2. Go to "BIN" Folder
+3. Open users.txt
+4. Add YOURNAMEHERE:admins
+5. Save "users.txt" and EXIT
+6. Run "launch.bat" in "BIN" folder to start SERVER.
+##################################################
+#            LAUNCH.BAT STARTS SERVER            #
+##################################################
+7. Go to Multiplayer and enter server IP "xxx.xxx.xxx.xxx" or "xxx.xxx.xxx.xxx:25566".
+8. You should be connected to your own server.
+9. If you want other people to join your server
+(GO to "http://www.whatsmyip.org" it will say on top "Your IP Address is xxx.xxx.xxx.xxx"
+Copy "xxx.xxx.xxx.xxx" IP address and give it to the people that you wish to join your server.)
+
+
+##################################################
+CANT BUILD WHAT TO DO?
+##################################################
+All new users have to /register then /login
+
+All new users cant build, or interact with world.
+YOU as the ADMIN have to manually promote users and give them proper rights.
+
+All new users have to be promoted with this command.
+
+IN GAME
+/modify [player] groups [group]
+Example: /modify Jeff groups admins
+
+SERVER CONSOLE
+modify [player] groups [group]
+Example: modify Jeff groups admins
+
+There are 5 Ranks
+admins / administrators, people that you think there your family, else server will go BOOM, FIRE, DEAD....
+mods / Moderators, people you really really trust 200%, else kiss your server good bye.
+builders / Builders, people you trust 100%, people that been with the server for a while, builrders get fire,water... blocks.
+vip / Normal users that can build stuff, all users should be promoted to this rank first.
+ban / Users that cant do anything but walk around the world as a zombie, this is Default.
+
+##################################################
+SERVER NOTES:
+##################################################
+
+##################################################
+ANTIGRIEF PACK:
+##################################################
+(Fire, Lava, TNT, Adminium, Lighter)
+The server has ANTIGRIEF pre installed, if you DONT WANT that.
+
+Go to
+.minecraft server
+\bin
+\minecraft_server_original
+
+Copy all files
+
+And Paste them into
+.minecraft server
+\bin
+minecraft_server.jar
+
+You can open "minecraft_server.jar" with WinZIP or WInRAR.
+
+##################################################
+GENERATE NEW WORLD:
+##################################################
+Go to
+.minecraft server
+\bin
+
+Delete "world" folder.
+
+##################################################
+NOTES:
+##################################################
+minecraft_name.jar - Works now in offline mode, no internet connection required.
+minecraft_name_alt.jar - Diffrent moded version, if minecraft_name.jar dose not work for you.
+
+Server - Has tons of new commands, also alot of anti-grief commands, and items. :)
+Server - /item command converted to /kit now, only mods and up can use /item.
+Server - Has registration now, no need to bind users to IP's.
+Server - /kit TOOLS_MODS will give all the new tools for BUILDERS/MODS/ADMINS can use.
+Server - Stick - removes any/all blocks
+Server - !lock & !unlock / locks and unlocks chests, can only have 1 locked chest per user, dose not work on duble chests.
+
+##################################################
+#                 BANIP NOTE                     #
+##################################################
+Server - "/banip user" dose not work, if you use it, it will ban your server ip and lock the server, to unlock server delete banned-ips.txt
+Server - To ban a user by IP / please use "!banip user" command, that will ban there IP.
+
+To access !banip command
+add your name into member-list.txt
+.minecraft server
+\bin
+\simpleserver
+member-list.txt
+
+NanoEntity=5 / will set as Owner of server.
+
+-1=Guest
+0=Default
+1=Vip
+2=Builder
+3=Mod
+4=Admin
+5=Owner
+
+##################################################
+#               TNT TNT TNT TNT                  #
+##################################################
+Server - TNT is enabled only MODS/ADMINS can use, please remember do no turn MONSTERS on else people will be able to make TNT.
+
+
+##################################################
+#               COMMANDS                         #
+##################################################
+
+#Color
+# 0 = black
+# 1 = dark blue
+# 2 = dark green
+# 3 = light blue
+# 4 = dark red
+# 5 = purple
+# 6 = orange
+# 7 = gray
+# 8 = dark gray
+# 9 = blue
+# A = bright green
+# B = teal
+# C = red
+# D = pink
+# E = yellow
+# F = white
+
+#Commands
+# /help [Page] - Shows a list of commands. 7 per page.
+# /playerlist - Shows a list of players
+# /reload - Reloads config
+# /listbans <IP or bans> - Gives a list of bans
+# /banip [Player] <Reason> - Bans the player's IP
+# /unbanip [IP] - Unbans the IP
+# /ban [Player] <Reason> - Bans the player
+# /unban [Player] - Unbans the player
+# /mute [Player] - Toggles mute on player.
+# /tp [Player] - Teleports to player. Credits to Zet from SA
+# /tphere [Player] - Teleports the player to you
+# /kick [Player] <Reason> - Kicks player
+# /item [ID] [Amount] <Player> - Gives items
+# /kit [Kit] - Gives a kit. To get a list of kits type /kit
+# /listwarps - Gives a list of available warps
+# /home - Teleports you home
+# /sethome - Sets your home
+# /setspawn - Sets the spawn point to your position.
+# /me [Message] - * hey0 says hi!
+# /msg [Player] [Message] - Sends a message to player
+# /spawn - Teleports you to spawn
+# /warp [Warp] - Warps to the specified warp.
+# /setwarp [Warp] - Sets the warp to your current position.
+# /removewarp [Warp] - Removes the specified warp.
+# /getpos - Displays your current position.
+# /compass - Gives you a compass reading.
+# /time [Time|day|night] - Changes time
+# /lighter - Gives you a lighter for lighting furnaces
+# /motd - Displays the MOTD
+# /modify [player] [key] [value] - Type /modify for more info
+# /whitelist [operation (add or remove)] [player]
+# /reservelist [operation (add or remove)] [player]
+
+
+#Time Rift
+#
+# /rift [Time|day|night] - Loops time, /time disables timerift
+
+#iStick
+#
+# /is - Dose give items back
+# /isn - Dose not give items back
+
+#WorldEdit
+#
+#Selection commands:
+#
+# //wand - Gives you a wand that lets you define a cuboid region
+# //pos1 - Set position one of the selection to the block you are in
+# //pos2 - Set position two of the selection to the block you are in
+# //hpos1 - Set position one of the selection to the block that you are looking at
+# //hpos2 - Set position two of the selection to the block that you are looking at
+# //chunk - Select all the blocks in the chunk that you are in
+# //expand - Expand your selection in any direction
+# //contract - Contract your selection
+# //size - Find out how big your selection is
+#
+#Clipboard commands:
+#
+# //copy - Copy to your clipboard
+# //cut - Copy and delete
+# //paste - Paste your selection
+# //pasteair - Paste, air included
+# //rotate - Rotate your clipboard
+# //load - Load a .schematic
+# //save - Save a .schematic
+# //clearclipboard
+#
+#History commands:
+#
+# //undo
+# //redo
+# //clearhistory
+#
+#Region operations:
+#
+# //set - Set all the blocks inside a region to a block type, OR to a definable random mix of blocks (i.e only 1% diamond ore)
+# //stack - Stack the region (i.e. repeat a section of a bridge)
+# //stackair - Also copies air
+# //move - Move the region
+# //moveair - Also moves air
+# //outline - Draw faces
+# //walls - Draw walls
+# //replace - Replace one block type with another, OR several block types with another, OR replace non-air blocks with another
+# /replacenear - Shortcut //replace that works on nearby blocks
+# //overlay - Overlay a block over the selected region
+#
+#Point operations:
+#
+# //fill - Fill holes with something
+# //drain - Drains water and lava pools
+# //cyl - Generate filled cylinders
+# //hcyl - Generate hollow cylinders
+# //sphere - Generate spheres
+# //hsphere - Generate hollow spheres
+# /fixwater - Level water and turns flowing water into stationary water
+# /fixlava - Level lava and turns flowing lava into stationary lava
+# /removeabove - Remove blocks directly above
+# /removebelow - Remove blocks directly below
+# /removenear - Remove blocks near you of a certain type (i.e. TNT)
+# /forestgen - Generate a forest (with Notch's tree algorithm)
+# /pinegen - Generate a pine tree forest
+# /snow - Generate snow cover and freeze over lakes near you
+#
+#Restoring from backups:
+#
+# /listsnapshots - List the backups available to use
+# //use - Select the backup to use
+# //restore - Restore the selection region from a backup
+#
+#Tools:
+#
+# // or /, - Toggle super pickaxe mode to remove any block instantly
+# //mode - Super-super pickaxe modes with area and recursive effects
+# //tool - Lets you use extra tools, like insta-tree!
+# /unstuck - Frees you if you are stuck inside some blocks
+# /ascend - Go up to the level above you
+# /descend - Go down a level
+# /ceil - Get access to the ceiling above you
+# /thru - Go through the wall that you are looking at
+# /up - Go upwards some distance
+# /jumpto - Go to the block that you are looking at
+# /chunkinfo - Get the coordinates and path of the chunk that you are in currently in
+# /listchunks - Get a list of chunks
+# /delchunks - Generate a shell script to delete chunks
+# /ex - Fire extinguisher
+#
+#Per-player preferences:
+#
+# //limit - Set a maximum block change limit for operations
+# /toggleeditwand - Toggles use of the edit wand
+# /toggleplace - Rather than use your feet, use position 1 for point commands
+
+HAVE FUN!
+ - NanoEntity

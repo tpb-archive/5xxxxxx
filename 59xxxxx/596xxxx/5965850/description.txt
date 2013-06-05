@@ -1,0 +1,57 @@
+Advanced Combat Environment 2 OA version 1.6
+
+Includes following versions of A.C.E. files:
+
+ACEX_RU_v1.6.0.19.7z
+ACEX_SM_v1.6.0.70.7z
+ACEX_USNavy_v1.6.0.16.7z
+ACEX_v1.6.0.288.7z
+ACE_v1.6.0.425.7z
+CBA_v0-7-0.zip
+
+Quote :
+About 6 weeks after the first stable release for Operation Arrowhead, we are proud to present ACE 1.6! Countless improvements, optimizations and new features available in this latest version!
+
+
+New version highlights:
+In game ACE settings and ACE Clippi tool, new way of handling userconfig
+
+Fire propagation
+
+Vehicle towing system
+
+Vehicle cargo system
+
+Quick weapon selection, quick gear check and quick sight adjustment
+
+Buddy healing
+
+Mortars as CSW
+
+New weapons and equipment + old ones improved (flippable GL sights / CQB sight mode)
+
+New vehicles: BTR-70, Russian L-39ZA jets
+
+
+
+Quote :
+The release equals that of CBA included with the latest ACE Stable (v1.6), however as per usual it is signed with official CBA key.
+To complete it, we have additionally included the dev-keys and signatures seperately within the archive.
+More info on the dev-heaven.net website.
+
+
+Key changes:
+
+Improved:
+- Initialization behavior in general, and especially BI Functions Module init, and post-init on dedicated servers
+
+Fixed:
+- XEH onRespawn handling
+
+Changed:
+- KeyHandlers can now be changed and removed on the fly
+- FiredEventhandler includes _magazine, when using latest 1.55 beta's
+
+Added:
+- CBA_actionHelper by BigDawgKS
+Internal fixes and improvements

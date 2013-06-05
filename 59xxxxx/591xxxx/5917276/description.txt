@@ -1,0 +1,73 @@
+Thanks to gambe from
+
+
+---------------------------------------------------------------------
+                   Pink Floyd - Wish You Were Here
+---------------------------------------------------------------------
+
+Artist...............: Pink Floyd
+Album................: Wish You Were Here
+Genre................: Rock
+Source...............: Columbia Mastersound half-speed mastered audiophile LP 
+Year.................: Original - 1975, this Mastersound - 1980
+Ripper...............: See Log for ripping details
+Codec................: Free Lossless Audio Codec (FLAC)
+Version..............: reference libFLAC 1.1.4 20070213
+Channels.............: Stereo / 96000 HZ / 24 Bit
+Tags.................: VorbisComment
+Included.............: Transfer log, MD5, M3U, CUEs
+Covers...............: Front, Back, LP Labels (400 dpi jpg) 
+Playing Time.........: 00:44:14
+Total Size...........: 802.87 MB
+
+Hardware:
+-------------------------------------------------------------------------------
+Cartridge........: Stanton Groove Master II with Pickering elliptical stylus 
+                   from KAB, tracking: 1.25 grams
+Turntable........: Modified Technics SL-1200MK5 from KAB	
+Preamp...........: Velleman 8021 Control Amplifier
+Audio Adapter....: Creative Labs E-MU 0202 set to 24bit/96kHz  
+Computer.........: Sony VAIO 3.0 GHz Pentium IV
+
+Software:
+-------------------------------------------------------------------------------
+Audio Editor 1...: Cool Edit Pro 2.1: record at 32bit/96kHz,
+                   Save as 24-bit packed int(type 1)
+Noise Reduction..: Edit Pro's Click/Pop Eliminator on first 21 seconds, manual 
+removal of 2 other pops
+Audio Editor 1...: Cool Edit Pro 2.1:  Drop & name track cues
+
+Audio Editor 2...: GoldWave v5.14: save cue file
+Cue File Editor..: foobar2000: add metadata to cue file, split Image.wav,
+                   convert to FLACs, & tag FLACs from image cue file
+File converter...: CUETools: convert single wav cues to multiple flac cues)
+-------------------------------------------------------------------------------
+
+I picked up this gem at a used record store. The lable said "near mint," and that was only a slight exaggeration. This is a wonderful sounding pressing of one of my favorite albums. I split the album into five tracks because that is the format to which we are accustomed. I used the preset named "Old Record - Quiet Audio" in Cool Edit Pro's Click/Pop Eliminator on the first 21 seconds.I used Click/Pop Eliminator's "Fill Single Click Now" option to eliminate two other pops. No other noise reduction or editing was done.I also included cue files that divide the album into the twelve tracks that are implied on the album lable. Just open the file "Multiple FLAC (5 files, 12 tracks).cue" with foobar or AutoFLAC if you would like the five files displayed as twelve tracks instead of five.
+
+---------------------------------------------------------------------
+
+See the transfer log for a few more details.
+
+---------------------------------------------------------------------
+
+The album was transcribed on a Technics SL-1200MK5 turntable with custom 
+modifications by KAB Electro-Acoustics using a Stanton Groove Master II 
+cartridge with Pickering elliptical stylus, also from KAB. The preamp was a 
+Velleman 8021 Control Amplifier. Analog to digital converson to 24-bit/96kHz was 
+with an E-MU-0202. Recording was on a Sony VAIO desktop computer with a 3.0 GHz 
+Pentium IV processor using Cool Edit Pro 2.1  at 32-bit/96kHz, floating. Extra 
+"silence" at the beginning, end and between sides was trimmed in Cool Edit Pro. 
+No volume adjustment was required. 
+
+I found the "static" during the quiet beginning of track one to be distracting, 
+so I used the preset named "Old Record - Quiet Audio" in Cool Edit Pro's 
+Click/Pop Eliminator on the first 21 seconds (seconds:frames).I used Click/Pop 
+Eliminator's "Fill Single Click Now" option to eliminate two other pops. No 
+other noise reduction or editing was done. Cues were dropped and named and the 
+file saved as a 24-bit 96kHz type 1 wav. This file was opened in GoldWave to 
+extract and save the image cue file. Metadata was added to the image cue file 
+using foobar. The multiple files cue was created with CUETools (www.moitah.net). 
+Both image file was split into tracks, compressed to FLAC and tagged in 
+foobar2000. M3u files were created with mp3tag.
+

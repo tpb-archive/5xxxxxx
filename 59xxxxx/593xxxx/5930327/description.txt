@@ -1,0 +1,11 @@
+With Windows Vista came a whole new series of energy-inspired, sleek and flashy sounds. The only problem is, they are almost inaudibly quiet. It's no wonder you can't tell the volume you just set by listening to the test "ding" anymore. This is here to fix that. This torrent is designed for Windows Vista only, however I believe it can be applied to Windows XP as well, if you want to hear Vista. They may be the same filenames, I can't remember exactly.
+
+Tired of having to crank the volume up to hear your notifications only to be deafened the next time you play a video? Having trouble hearing the hardware disconnect/connect sounds in the background of your music? And worse... maybe trying to use the Mixer to boost the Windows sound level, then not being able to turn the rest of your sounds back up? It's bad enough we have to put up with way-too-low DVD audio, so why put up with Windows following suit?
+
+Behold, the answer. I ran all the Windows sounds through Adobe Audition's "normalize 98%" script and came up with this. The only highly irritating one was the "navigation start" sound, which is played when you move between folders in Explorer, which I reduced by 12db to make it less annoying. Windows sounds are meant to be heard, not silenced. These suckers were all but a flat line in file view. I swear, they were down by about 22db - that's almost inaudible!
+
+To install, browse to C:\Windows\Media, back up your old files if you like, and paste the contents of the torrent over the old ones. You should notice the difference immediately.
+
+If there is a problem installing, you may need to take ownership of the directory (from TrustedInstaller) and try again. Do this by getting Properties on the folder - go up to Windows, right click Media, and click Properties - then go to Security, Advanced, Owner, Edit, click your name, click "replace owner on subcontainers and objects", click OK, *deep breath*... back to the advanced screen, click Permissions, Edit, Add, type "Administrators", give them full control, click "replace all existing inheritable... blah blah blah", click OK, OK, OK, wham bam, thank you ma'am, and you're done. Now try again. God, Vista makes modifying your Windows files a pain in the royal ass.
+
+ENJOY!!!

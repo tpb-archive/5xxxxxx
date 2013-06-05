@@ -1,0 +1,118 @@
+(NOTE):
+
+Be patient the loader takes a few minutes to extract for usage as it is a 1.3gig file, 
+and make sure you keep the loader open, as a saftey feature i have it set that if you close the loader it will delete all temp files it extracted so it has a clean shut off for your pleasure ,but if you close it during install it will cause an error as it will delete the setup temp files just minimize till after your completely done ,Enjoy from Slickinator
+
+AdobeÂ® FlashÂ® Professional CS5
+
+Create and deliver rich interactive content
+
+AdobeÂ® FlashÂ® Professional CS5 software is the industry standard for interactive authoring and delivery of immersive experiences that present consistently across personal computers, mobile devices, and screens of virtually any size and resolution.
+
+Flash Web Design
+Create interactive experiences
+
+Express your creative vision and attention to detail and design pixel-perfect interactive content with exceptional typography, flexible layouts, and incredibly smooth animation.
+Features for web design
+
+Web Application Development
+Build web applications
+
+Develop cross-platform web applications and content with an integrated development environment that offers intelligent ActionScriptÂ® coding tools.
+Features for
+web application development
+
+
+Embed video
+
+Wow your audience and produce engaging rich video content and interactivity that contains expressive, lifelike motion and animation.
+Features for
+interactive and video projects
+
+Import your design from Adobe PhotoshopÂ® CS5 Extended, IllustratorÂ® CS5, or InDesignÂ® CS5, and then add interactivity with Flash Professional CS5 to bring your work to life.
+Do more with Adobe Creative SuiteÂ® Design Premium
+
+Use Adobe Flash Builderâ„¢ software as your primary ActionScript editor for Flash Professional projects. Streamline your workflow by testing, debugging, and publishing content in Flash Professional while editing code in Flash Builder.
+Do more with Web Premium
+
+Easily edit, add effects and animation, encode, and deliver high-quality video with Adobe PremiereÂ® Pro and After EffectsÂ®. Share concepts with clients, promote finished projects, or extend your story with FLV video.
+Do more with Production Premium.
+
+And so much more.
+ 
+http://www.adobe.com/products/flash/
+
+
+
+
+INSTALLATION INFO:
+
+
+
+1; Uninstall all previous cs3/4 flash apps.
+
+2; Turn off internet
+
+3; Replace your hosts file with the one in this folder   (do this before u install cs5)
+   or open your hosts file with notepad and change it 
+   to look like this;
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+127.0.0.1				activate.adobe.com
+127.0.0.1				practivate.adobe.com
+127.0.0.1				ereg.adobe.com
+127.0.0.1				activate.wip3.adobe.com
+127.0.0.1				wip3.adobe.com
+127.0.0.1				3dns-3.adobe.com
+127.0.0.1				3dns-2.adobe.com
+127.0.0.1				adobe-dns.adobe.com
+127.0.0.1				adobe-dns-2.adobe.com
+127.0.0.1				adobe-dns-3.adobe.com
+127.0.0.1				ereg.wip3.adobe.com
+127.0.0.1				activate-sea.adobe.com
+127.0.0.1				wwis-dubc1-vip60.adobe.com
+127.0.0.1				activate-sjc0.adobe.com
+127.0.0.1                               adobe.activate.com
+127.0.0.1                               adobeereg.com                        
+127.0.0.1                               www.adobeereg.com                    
+127.0.0.1                               wwis-dubc1-vip60.adobe.com           
+127.0.0.1                               125.252.224.90                       
+127.0.0.1                               125.252.224.91
+127.0.0.1                               hl2rcv.adobe.com
+
+hosts file is at;
+
+C:\Windows\System32\drivers\etc
+
+4; Restart and make sure hosts entries are saved (open it with notepad and look).
+
+5; Install CS5 using serials;
+
+1302-1009-3696-1065-6850-7951
+1325-1558-5864-4422-1094-1126 
+
+6; Copy the dll file from this folder and replace each of the amtlib.dll 
+   files in c:programe files adobe (only do this on 32bit)
+
+
+copy too all folders with CS5 in the name 

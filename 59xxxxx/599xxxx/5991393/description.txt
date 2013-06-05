@@ -1,0 +1,42 @@
+*** 2-pass encoding for PC, PS3 or Xbox . ***
+*** Video is H264; audio is AAC LC and container is MP4. ***
+
+NOTE: Sample is included. Download it first, then decide. 
+
+REQUESTS ARE "FROZEN".
+
+NOTE: [lepton] family = frame-size 368/480x-2 (AR) pixels, 
+             16:9 or 2.35:1 aspect ratio
+             ONLY for PC/PS3/Xbox/standalone mp4 capable players. 
+             NOT Handhelds/iPod/PSP/Zune/clones compatible file, however, 
+             some portables accept these format (TIP: upgrade firmware).
+             WATCH from 6-8 ft. distance at low-res settings of display.       
+      272p = frame-size 480x272 pixels, 16:9 aspect ratio, playable on all kinds
+             of MP4 capable devices/players/playback systems
+      320p = frame-size 576x320 pixels, 16:9 aspect ratio, or 576x240 for 2.35:1
+             (movies/theatrical AR)middle-format, playback
+             ONLY on PC/PS3/Xbox/standalone mp4 capable players. 
+             NOT Handhelds/iPod/PSP/Zune/clones compatible file, however, 
+             some portables accept these format (TIP: upgrade firmware).       
+      352p = frame-size 624x352(272) pixels, 16:9(2.35:1) aspect ratio, 
+             playback ONLY on PC/PS3/Xbox/standalone mp4 capable players. 
+             NOT Handhelds/iPod/QuickTime/PSP/Zune/clones compatible file.       
+      360p = frame-size 640x360 pixels, 16:9 aspect ratio, middle-format, playback
+             as for 272p (except streaming)
+      480p = frame-size 720x400 pixels for 16:9 aspect ratio (TV) or 720x304
+             for 2.35:1 (movies/theatrical AR)
+             NOT Handhelds/iPod/QuickTime/PSP/Zune/clones compatible file.       
+      720p = frame-size 1280x720 pixels for 16:9 aspect ratio (TV) or 1280x528-544
+             for 2.35:1 (movies/theatrical AR), hardware intensive
+             NOT Handhelds/iPod/QuickTime/PSP/Zune/clones compatible file.       
+      NAMING RULE: name.source.year/season/episode.frame-format.encoding-type
+      
+NOTE 2: 352p and 480p encodes use new tool-chain and new encoding type.
+        320p, 360p should be considered obsolete.
+        272p would remain because of compatibility with portables, but soon
+        would be abandoned.
+        Practically, ALL "wide-targets formats" would be abandoned, and
+        only PC-PS3-Xbox formats would be encoded.
+        I would like to keep PS3/Xbox/standalones compatibility - therefore, 
+        I need feedback from users of PS3/Xbox and different standalone 
+        MP4 capable players.

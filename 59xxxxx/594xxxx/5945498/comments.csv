@@ -1,0 +1,290 @@
+User Type,Username,Date,Text
+,Wi-Foo-er,2010-11-10T00:52Z,"sorry for the missing discription bits, it got fuck up. from text to html, don't know why ?"
+,Rambo1909,2010-11-11T23:33Z,"I just dowloaded this and am seeding. My question is how do you open this? I tried opening it in windows, it says the file is too big for notepad. So I booted backtrack3 live cd, and tried opening it from: system/ removable drive/Super-WPA, but it simply shows a percentage being opened, and it when it finally reaches 100% open, it shows a blank ""Super-WPA-KWRITE"" document. Any tips on how to open this. I have some experience in penetration testing WPA on my home network, so im familiar with backtrack in that level. But I just cant open any of the files, neither the custom-wpa or the super-wpa files. Any tips you can please give?"
+,Rambo1909,2010-11-11T23:34Z,"I just dowloaded this and am seeding. My question is how do you open this? I tried opening it in windows, it says the file is too big for notepad. So I booted backtrack3 live cd, and tried opening it from: system/ removable drive/Super-WPA, but it simply shows a percentage being opened, and it when it finally reaches 100% open, it shows a blank ""Super-WPA-KWRITE"" document. Any tips on how to open this. "
+,Rambo1909,2010-11-11T23:35Z,"I just dowloaded this and am seeding. My question is how do you open this?  I tried opening with both windows and backtrack 3 live cd, but it still wont open. any tips?"
+,Rambo1909,2010-11-11T23:37Z,it wont open on backtrack or windows. Please help..
+,Rambo1909,2010-11-11T23:52Z,"I just dowloaded this and am seeding. My question is how do you open this? I tried opening it in windows, it says the file is too big for notepad. So I booted backtrack3 live cd, and tried opening it from: system/ removable drive/Super-WPA, but it simply shows a percentage being opened, and it when it finally reaches 100% open, it shows a blank ""Super-WPA-KWRITE"" document. Any tips on how to open this. I have some experience in penetration testing WPA on my home network, so im familiar with backtrack in that level. But I just cant open any of the files, neither the custom-wpa or the super-wpa files. Any tips you can please give to open this?"
+,Rambo1909,2010-11-11T23:54Z,Sorry for all the same damn comments. I was using internet explorer. piece of shit internet wouldnt submit a comment. 
+,Rambo1909,2010-11-12T02:31Z,"Thanks for the quick reply. For the rest of you who had the same problem, heres the reply from Wi-Foo-er:
+
+yes of course it, BT or winblows won't open it (as no one has 13 GB of ram) 
+
+you can ether do the command; cat super-wpa and this will not load the file but rather just flick trough to show you its contents. like the ""type"" command in winblows
+
+or if you must ""look"" at it then you must split it into more manageable peaces. 
+
+for this do the command (BT)
+
+
+split --bytes=1000m wordlist.txt wordlist_part
+
+the ""wordlist.txt"" is the imput file and the ""wordlist_part"" would be the output and the 1000m is the size of the split (1GB) so you would have 13 x 1 GB files. 
+
+or you could just not worry about it and dump it into pyrit.  (around 30 min read time)
+
+p.s  Thanks for the download. Hope it helps.  (by the way with Internet Explorer or firefox i couldn't post any comments. i think the site being stupid)
+
+
+"
+,Wi-Foo-er,2010-12-02T23:20Z,If you en joyed my wordlist collection then please SEED SEED SEED SEED SEED SEED !!!! As this is a one off opportunity ans not sure if can offer again in the future
+,IlluminiX,2010-12-20T18:15Z,I had no trouble with the Custom WPA list - renamed to .lst file and opened with AC. But the 12GB refuses to open in the same program. Do you have to split it up before AC can read it due to memory limits (I have 4GB)? Or is there something I am missing? I have Win 7 FYI. Thanks.
+,Wi-Foo-er,2010-12-23T02:25Z,1
+,Wi-Foo-er,2010-12-23T02:33Z,"IlluminiX. Have you read my mail i sent ""Rambo1909"" witch he posted ?  if not, 4GB of ram will not open 12GB ! "
+,Wi-Foo-er,2010-12-23T02:35Z,"List of supported GPU's hear at en.wikipedia.org/wiki/CUDA 
+List of speed results hear neverafk.org/?p=17"
+,Wi-Foo-er,2010-12-23T02:41Z,"PS forget Windows if you want to be a hacker!
+Hacking With windows is like dancing with no leggs
+
+Check out myYouTube Channel 
+
+/user/cyberjackcyberjack"
+,Wi-Foo-er,2010-12-23T02:49Z,"Just mail me please for questions. As i keep getting ""Database Error"" when postong. Thnks TPB"
+,ramrock,2011-01-12T20:01Z,"Hey, i just starting to learn hacking wep network in school and it's way to easy so i will try to hack wpa/wpa2, but i'm wondering how good this dictionary is^^  because my teacher says i would need a dictionary at 1 to 2 TB but is it really necessary?"
+,modotech,2011-01-15T10:26Z,"Hi all. Go the website below and download the freeware program.
+http://zen.taozero.net/freeware/systemtool/ezo.html
+
+Simply enter the number of parts you want to split the file into and click ""Do It!""
+
+And you are done."
+,modotech,2011-01-15T10:30Z,"Hi all. Go the website below and download the freeware program.
+http://zen.taozero.net/freeware/systemtool/ezo.html
+
+Simply enter the number of parts you want to split the file into and click ""Do It!""
+
+And you are done."
+,modotech,2011-01-15T10:33Z,Put the text file in the folder that the program is in so that it will find your text file. It will split the file and automatically number them.
+,Wi-Foo-er,2011-01-18T21:48Z,"ramrock  
+
+You dont nead i  1 / 2 TB wordlist thats stupid, the avrage user would choose a simple password (as we are all lazy at the end of the day)  a 5 Gb would be fine, i just went for the overkill with mine"
+,ramrock,2011-01-22T12:11Z,"OK,thanks;) for the reply. but how do i use the dic? i've tried to split it with the app that they in the comment linked to, but the file is to big^^"
+,sniper_13,2011-01-26T07:34Z,"hi Wi-Foo-er
+can u tell me step by step to open the file in bt
+pls...................!"
+,Wi-Foo-er,2011-01-30T23:07Z,"split --bytes=1000m wordlist.txt wordlist_part
+
+the ""wordlist.txt"" is the imput file and the ""wordlist_part"" would be the output and the 1000m is the size of the split (1GB) so you would have 13 x 1 GB files.
+
+or you could just not worry about it and dump it into pyrit. (around 30 min read time)"
+,some-young-guy,2011-02-24T03:11Z,"Wi-Foo-er
+
+Could you split the file on your end and repack that folder into a torrent for us?  Not to offend, but the lack of descriptive language used in Rambo's repost might prove difficult to apply for some.  Would you be so kind to spend more time explaining your procedure to us with more descriptive words?  If no, I am still grateful for what you've shared thus far."
+,grizzmo,2011-03-02T14:01Z,"I would like to say thanks.
+
+Calculation:
+Here is the number off all possible passwords in 8-63 charset.
+
+3.9279476958506387e+135
+
+I guess this kind off diskspace which this wordlist will need and 8-core, or more core's, processors with the best videocards and you will need a lot! isn't available for any home user."
+,grizzmo,2011-03-02T14:07Z,3.927947695850638700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+,grizzmo,2011-03-02T14:19Z,"Hi, 
+
+i am extracting this one and I want to split this in win7 to use with elcomsoft wireless security auditor with my video card.
+Your list doesn't say .txt or .lst i see now.
+What do I have to do to split and use this one in win7?
+because yesterday I download another wordlist from the net and after splitting the file into reasonable proporties i noticed they where unusable as they were binary files. i don't want to split 13 GB, which will take a hell off a lot of time, and then see I can't use them.
+
+Thanks for your time."
+,apeshiit13,2011-03-15T10:20Z,WOW IM DOWNLOADING RIGHT NOW AT 1.2MB/S WILL SEED FER SURE
+,Scopse,2011-03-27T18:13Z,"""split --bytes=1000m wordlist.txt wordlist_part
+
+the ""wordlist.txt"" is the imput file and the ""wordlist_part"" would be the output and the 1000m is the size of the split (1GB) so you would have 13 x 1 GB files.
+
+or you could just not worry about it and dump it into pyrit. (around 30 min read time) ""
+
+
+Thanks for taking the time to share such a comprehensive wordlist. When using this in BT and splitting it into 13 x 1GB files to crack a WPA key should Aircrack-ng be run individually for each 'wordlist_part'? So it could take to the 12th 'wordlist_part' before there's a key match? If you could clarify that then it'd really appreciated, thanks alot pal!"
+,Wi-Foo-er,2011-03-27T20:22Z,"Scopse
+
+Well thats the thing with cracking WPA, 80% is luck and 20% is skill. So the answer to your question is.. I dont know !  it may take upto the 12th part or it may not, it depends on how the user has choisen his/her password. 
+
+If is not a default ISP set WPA then thers a good chance of crackig it. On the other hand if its a ISP set WPA (8-12 RANDOM) then its unlikly you will be able to crack it."
+,UserAjax,2011-03-30T00:06Z,"Great upload! Thank you! I was just curious (for computational purposes) if you could tell me how many words are in each of the lists?
+
+Thanks again!"
+,Scopse,2011-03-30T14:18Z,"'Scopse
+
+Well thats the thing with cracking WPA, 80% is luck and 20% is skill. So the answer to your question is.. I dont know ! it may take upto the 12th part or it may not, it depends on how the user has choisen his/her password.
+
+If is not a default ISP set WPA then thers a good chance of crackig it. On the other hand if its a ISP set WPA (8-12 RANDOM) then its unlikly you will be able to crack it. '
+
+Okay, hopefully I get in the 20% of luck. I already hacked 2 WEP networks in this building but they changed their security to WPA so hopefully they picked some easy words. I'll let you know how I get on. Cheers!"
+,Scopse,2011-04-06T23:26Z,"Wi-Foo-Er....
+
+been running the super-WPA for the past few days, split it into 1GB chunks and been running it through Aircrack after I de-authed the client and forced a handshake, just a question for you if you know, will Aircrack constantly loop through a dictionary untill you quit it? I get to about 16,000,000 keys tested and I quit it to start the next dictionary. I'm assuming if I never intervened then Aircrack would stay trying to crack the password with the same dictionary on loop until you quit it? If so then I think I'm doing the right thing and I'm on my 5th x 1GB chunk of the super-WPA wordlist with no success yet.
+
+Thanks again for uploading this."
+,kfir50,2011-04-08T21:35Z,Wi Foo can you give me your mail i have a little question and i'll will thank you if you can explain me something of what to do after the spliiting
+,SwitchKat,2011-04-09T01:20Z,"Scopse
+
+If you just let aircrack go it will chug along until it gets to the end of the dic file.  When it gets to the end without finding the passphrase in the dic file, you will see the message ""Passphrase not in dictionary"".  So just let it fly and keep checking in on it periodically. "
+,Scopse,2011-04-14T18:13Z,"'Scopse
+
+If you just let aircrack go it will chug along until it gets to the end of the dic file. When it gets to the end without finding the passphrase in the dic file, you will see the message ""Passphrase not in dictionary"". So just let it fly and keep checking in on it periodically. '
+
+Okay, cheers pal. I was running aircrack with say the first part of a dictionary and I was getting to about 22,000,000 keys tested and I thought it was just looping around the dictionary so I was cancelling and going on to the second part of the dictionary, what you're saying is that aircrack will notify me with a 'passphrase not in dictionary' when it's tested all of the keys in the first part of the dictionary so I know to move to the second part?
+
+Thanks for replying by the way."
+,Scopse,2011-04-17T20:34Z,"Answered my question myself, for a typical 1GB wordlist, aircrack was finishing with 'passphrase not in dictionary' after around 88,000,000 keys tested."
+,Kirby1988,2011-04-19T14:04Z,"Hello,I need some help if someone is willing to. I made a handshake of wpa key but I dont have a quality dictionary and some of this size are too big for me to download.If someone would run a dictionary attack instead of me so I will send him my pcap file."
+,Scopse,2011-04-22T12:52Z,"Took my AMD Turion X2 just over 100 hours to run an attack through aircrack using the 1.9GB Custom-WPA dictionary, 450 PMks is slow.
+
+Got pyrit working with GTX260 and now attack at 9200 PMks! 20x as fast! 5 hour attack as opposed to almost 5 days! Cheers Wi-Foo-er"
+,Wi-Foo-er,2011-04-24T23:56Z,"Scopse 
+
+No, it will end when the wordlist as come to the end. 
+If speed is a problem then use Pyrit as this uses your graphics card GPU and can be 500% faster"
+,Wi-Foo-er,2011-04-24T23:59Z,"Scopse 450pmk is slow, mine with a nvidia 8800GT GPU i get around 9,000 - 10,000 PMK/s "
+,Scopse,2011-04-26T00:18Z,"Wi-Foo-er
+'Scopse 450pmk is slow, mine with a nvidia 8800GT GPU i get around 9,000 - 10,000 PMK/s '
+
+Yeah but I got pyrit working on my GTX260 getting 11,000 PMK/s now, cheers for the wordlist again dude."
+,0igo,2011-05-16T22:46Z,Hey can someone please help me can i use this words list for WPA2-PSK? please help thanks
+,Wi-Foo-er,2011-05-22T17:41Z,"0igo - 
+
+Dont be fooled WPA & WPA2 is the same thing ! "
+,dhruvseth,2011-05-24T10:14Z,when i open super wpa file its only show tutorials
+,0igo,2011-05-25T06:07Z,do i need to rename these files? because it wont open it with any program. can i change them to like .lst or .txt? please help thanks
+,0igo,2011-05-25T23:02Z,Can someone please help me i have no idea on how to add these wordlists to backtrack -__- i tried looking everywhere but cant find out how to add it to backtrack please help. please
+,Wi-Foo-er,2011-06-07T02:06Z,"FOR PPL TYRING TO OPEN MY WORDLISTS. 
+You Cant open them up with any program ! as think about it, who has 13 GB of RAM ? come'on guys dont be silly.
+
+To add it to backtrack 4 / 5  just copy it to the desktop ie /root/  then just import it into pyrit with command Pyrit -i /root/name-of-wordlist  -import_unique_passwords"
+,hello.20,2011-06-25T04:43Z,"hi wi-foo-er 
+thanks for your hard work and i want to say i download that and extracted but when i want to copy custom-wpa to linux desktop it says /root/custom-wpa disk full.
+how to solve this problem?
+please help"
+,hello.20,2011-06-26T02:45Z,"hi wi-f00-er 
+thank you for your hard work and i have a problem
+when i make copy custom-wpa to root it says full disk
+so how can i solve this problem?
+can i use it when it is in flash drive?
+if so what do i need to write?
+help please"
+,Wi-Foo-er,2011-06-28T09:11Z,"* hello.20 *
+Am guessing that you are using BT on VMware if so you must allocate more disk space hears the link; 
+http://communities.vmware.com/message/659054#659054"
+,niltonnunes@intra.co.mz,2011-07-14T21:47Z,"Porraaaaaaaa.....
+Mais uma vez caralho!
+
+Guys,
+Just wanted to say thanks for the upload!"
+,xon1c,2011-08-25T02:21Z,"Everytime I try to extract it I get a WinRAR diagnostic error message. 
+
+It says ""There is not enough space on the disk"" but I have 90 GBs free. I also tried it on two other hard drives both with 30+ GBs.
+
+:("
+,seristee,2011-08-26T14:43Z,how can i convert your file into a lst file please i am new to all this and i did the pyrit thing and ha ve to niead what to do after  please help thanks 
+,Just_Another_Peer,2011-08-31T21:50Z,"Um, Custom-WPA is good but the Super-WPA list comes up as ""empty dictionary"" in aircrack and genpmk. Is there any special trick to extracting it properly? I use power archiver. Maybe WinRar? It's not really a big deal since the key I was looking to retrieve was found (thanks, BTW) using the Custom dictionary."
+,lsdlee666,2011-09-12T23:51Z,"been tryin to decompress this with winrar but with no luck, do i have to split this when it is still compressed any help would be great, im running vista but will use it with backtrack"
+,lsdlee666,2011-09-13T00:08Z,"sorted it, just winrar took its time to get started, not finished yet so havent tryed it yet but thanks for the time u put into this wi-roo-er"
+,Wi-Foo-er,2011-09-21T01:45Z,"greatwolf  -  i did my best to remove dupes with the command  cat ""wordlist-in"" | uniq > wordlist-out"
+,oldcrank,2011-09-21T03:06Z,"Hi Wi-foo-er, thanks for your work on this, I'm also getting an ""empty dictionary"" result from aircrack-ng on the Superwpa file. Any ideas?"
+,olslu,2011-09-22T00:56Z,could u tell me how to make it work with blacktrack software for cracking wpa networks? I mean how to type in the address to the file. I've tried several times - no success.
+,ksteuber,2011-10-06T06:34Z,"A few interesting things about this wordlist:
+
+It is true that aircrack can only handle files up to 2 GB (If you are getting the ""Empty List"" error, this is most likely your problem). You can divide it up with the split command: 
+split -b 1610612736 -d Super-WPA wordlist
+(1610612736 bytes = 1.5 GB)
+
+Although it is quite a sizable list, there are a large number of duplicates. I ran the file through sort -u to sort it and remove duplicates, and the resulting file was only 7.2 GB which means that almost half of the words were duplicates.
+
+Additionally, since aircrack displays the passwords as it tries them, I noticed that there is a *VERY* long section of passwords that are strictly numeric and increase by 1 at a time. I guess maybe this was an effort on someone's part to pad their list and make it look bigger. I calculated that there is approximately a gigabyte of lines that are entirely numeric."
+,Wi-Foo-er,2011-10-12T19:22Z,"ksteuber =  sort -u it NOT reliable in backtrack as its RAM dependent meaning that the sort command loads the file into memory and if you don't have the RAM to suit then BT will dump the rest, so that don't mean you have so many duplicates. !!  And it's there is a gig of numeric entries this is to cover house phone numbers,  mobile/Cell numbers, date of births and so on .. it's called being ""flexible""  you fucking noob  as you NEVER know what he or she has chosen for the passphrase     
+"
+,fakevrn,2011-11-16T08:40Z,"uniq only compares consecutive lines, so unless the word list is pre-sorted it will not remove all duplicates.
+
+sort -u is not limited by the amount of memory, it writes multiple temp files to disk so it can handle large files. 
+
+Thank you for putting the list together but its not flawless, running sort -u will reduce the size of the file significantly. I would also suggest leaving the phone number list as a separate file"
+,Wi-Foo-er,2011-11-20T23:18Z,fakevrn  =  Thanks for your comments. :¬)
+,Zyzx,2011-12-20T22:28Z,"[quote=""Wi-Foo-er""]
+FOR PPL TYRING TO OPEN MY WORDLISTS. 
+You Cant open them up with any program ! as think about it, who has 13 GB of RAM ? come'on guys dont be silly.
+
+To add it to backtrack 4 / 5 just copy it to the desktop ie /root/ then just import it into pyrit with command Pyrit -i /root/name-of-wordlist -import_unique_passwords
+[/quote]
+
+
+According to the pyrit reference manual:
+
+[quote]
+[b]import_unique_passwords[/b]: 
+...This command does not check if there are duplicating passwords within the file or between the file and the database; it should be used with caution to prevent the database from getting poisoned with duplicated passwords. This command however can be much faster than import_passwords
+[/quote]
+
+So, this command is contradictory to is name. It does NOT check for unique passwords.
+
+Just use: import_passwords
+[quote]
+[b]import_passwords[/b]:
+...Pyrit's storage-implementation guarantees that all passwords remain unique throughout the entire database
+[/quote]"
+,losfreddy,2012-01-01T18:01Z,"i cant seem to get this to work.  I dont even think its a text file.  its a file file, whatever that is.  I keep trying to find a file splitter to cut the 10 gig 5 to 6 times to no avail.  I almost think this is useless. I keep trying for a few more days. if it doesnt work, im deleting it to get back my 15 gigs of space"
+,Dubai_DXB,2012-01-04T06:28Z,Do I unzip these text files into my words.list ?
+,ypb9fzl3,2012-01-06T17:45Z,"These are really strange files..
+
+Custom-WPA has 185866729 ""words"" of length 7-30 which contains any character (mostly numbers and lowercase letters though).
+
+Super-WPA has 982963903 ""words"" of length 8-16, but every ""word"" only contains numbers and/or lowercase letters. WHY?"
+,ypb9fzl3,2012-01-31T00:47Z,"I can confirm what ksteuber said about duplicates. I wrote a program in C++ to sort the lists and remove duplicates (and count words).
+Custom-WPA had 106'512'000 unique words (out of 185'866'729) and the file size shrank from 2'044'058'553 to 1'153'558'441 bytes.
+Super-WPA had 582'620'889 unique words (out of 982'963'903) and the file size shrank from 11'539'177'677 to 6'995'374'899 bytes. Even when sorted, Super-WPA had about 100'000'000 words (numbers) starting with ""077""."
+,smartypants,2012-01-31T15:33Z,"Wi-Foo-er: Do you mind making a new list without the duplicates and separate the number entries into different files? 
+
+Or maybe ypb9fzl3 can do it? "
+,Pirate_on_a_motorbike,2012-02-13T19:31Z,"I agree. I get the empty dictionairy error aswell. It would be great if someone were able to delete the duplicates and split the file into smaller files that will work in backtrack 5.
+Don't get me wrong, we all appreciate the work that has gone into this list, it is just that most of us are having problems with empty dictionairy so we are unable to use it. Thanks"
+,Wi-Foo-er,2012-02-23T09:55Z,"PPL SAYING ""most of us are having problems with empty dictionairy so we are unable to use it. Thanks ""  
+
+YOU CANT OPEN IT "
+,Wi-Foo-er,2012-02-23T09:57Z,"PPL SAYING ""most of us are having problems with empty dictionary so we are unable to use it. Thanks ""
+
+YOU CANT OPEN IT; THAT'S COZ YOU USING AIRCRACK-NG IT ONLY SUPPORTS FILES UP-TO 2GB 
+
+ITS NOT EMPTY  "
+,Wi-Foo-er,2012-02-23T10:00Z,"PPL SAYING ""most of us are having problems with empty dictionairy so we are unable to use it. Thanks ""
+
+YOU CANT OPEN IT OR USE IT WITH AIRCRACK-NG, AS IT ONLY SUPPORTS FILES UP-TO 2 GB - SO IT'S NOT EMPTY & STOP COMPLYING YOU CANT OPEN IT WITH MS-WORD OR SOME SHIT, NO ONE HAS 13 GB OF RAM YOU TITS. YOU MUST USE PYRIT OVER AIRCRACK-NG  "
+,Wi-Foo-er,2012-02-23T10:01Z,"PPL SAYING ""most of us are having problems with empty dictionairy so we are unable to use it. Thanks ""
+
+YOU CANT OPEN IT OR USE IT WITH AIRCRACK-NG, AS IT ONLY SUPPORTS FILES UP-TO 2 GB - SO IT'S NOT EMPTY & STOP COMPLYING YOU CANT OPEN IT WITH MS-WORD OR SOME SHIT, NO ONE HAS 13 GB OF RAM YOU TITS. YOU MUST USE PYRIT OVER AIRCRACK-NG  
+
+SORRY FOR MANY POSTS, HAD TROUBLE "
+,0hmnis,2012-02-23T22:49Z,I am totally in love with the idea of getting this stupid file crackin away however I'm currently experiencing a multitude of problems. I can't seem to figure out how to get the file imported into my virtual disk without it overloading prolly cuz of ram overload. Is there a particular method because i was just trying to use an smb share and copy straight over. In that instance does that load the complete file into RAM or not? I keep getting memory allocation errors. I've tried to directly mount my ntfs disks but to no avail within vmware. I have also successfully installed backtrack onto my hard drive as a tri-boot situation however I can't get it to start x so I'm just stuck with the vmware bs. It's a shame that I'm going through all of this over a little ram troubles. Please someone light the way for your fellow pirate! arr â˜ 
+,chilton88,2012-02-25T20:21Z,thanks for up mate does this work on commview 6.3 on win 7?
+,Wi-Foo-er,2012-02-27T17:55Z,"am not sure on ""work on commview 6.3 on win 7""  I don't see why it wouldnt, if Windows 7 is x64 "
+,agn0genic,2012-03-28T21:40Z,"This list is ridiculously huge. With 10 machines in my pyrit cluster it still takes several days to crunch the entire list.That said I've had 100% success but if the password is towards the end of the list you are going to have to wait for it. I pity the user using a single machine with this list.
+
+That said if you have an Nvidia card, make sure you setup pyrit with cuda for a 10-20x performance gain. Also test to see if the AP is susceptible to reaver. http://code.google.com/p/reaver-wps/  I have had reaver crack an AP in 2-3 hours that takes a day or so to use pyrit."
+,Banksno925,2012-04-10T04:18Z,"Thanks Great Upload. I used the Custom list and worked no problem in BT5. But the Super list wont fully mount as it says I only have 5 GB of free space. How do I go about splitting the file in 2 or 3 parts ?  I am using the BT5 disc to boot on my PC.
+
+Thanks for your time and download. Best wordlist I have so far."
+,stepking2,2012-05-30T19:49Z,"I just want to inform you that Aircrack-ng takes the Super-WPA wordlist without a hickup.
+
+Also, thank you so much Wi-Foo-er for these wordlists, and especially by making them into 2 bigger files, than 30 smaller files!
+
+Will definatly download more wordlists from you ;-)"
+,Tinta-Roriz,2012-06-03T17:36Z,"Nice list (and big too :))
+
+Wi-Foo-er, can you tell me if your list has keys such as:
+
+AE05C328F0E40B240AC00F6AEB
+
+This is the default key of my router NetGear.
+It seems that these NetGear routers have a 26 letters/numbers password (by default)!
+
+I appreciate your comment and again a big thanks for your effort.
+
+Cheers "
+,tungdp1992,2012-06-21T06:27Z,"@Tinta:
+
+Netgear are usually WEP codes. I believe that password of yours is a WEP password :o Like the one I use at home. You dont really need a wordlist for that .-.
+
+Thx for the upload btw :o fml....Im only using 1 machine... this is gonna take a while x.x"
+,tungdp1992,2012-06-21T06:28Z,"@Tinta:
+Netgear are usually WEP codes. I believe that password of yours is a WEP password :o Like the one I use at home. You dont really need a wordlist for that .-.
+
+Thx for the upload btw :o fml....Im only using 1 machine... this is gonna take a while x.x"
+,stepking2,2012-06-22T12:25Z,"Is it okey if release your two wordlists, only optimized and 1337ified?"

@@ -1,0 +1,67 @@
+User Type,Username,Date,Text
+[V],thethingy,2010-11-15T17:19Z,"this is the bat file;
+
+@echo off
+echo ""OFFICE 2010 PATCH""
+echo............................................................................................................
+Pause
+@echo off
+cd %0\..\
+start keygen.exe
+cscript ""%PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs"" /act
+cscript ""%PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs"" /dstatus
+cd %0\..\
+Taskkill /IM keygen.exe
+
+echo.............................................................................................................
+echo.............................................................................................................
+echo ""press any key for step 2""
+pause > null
+cd %0\..\
+Start keygen.exe
+cscript ""%PROGRAMFILES%\Microsoft Office\office14\ospp.vbs"" /inpkey:VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB
+cscript ""%PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs"" /sethst:127.0.0.1
+cscript ""%PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs"" /act
+cscript ""%PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs"" /dstatus
+cd %0\..\
+Taskkill /IM keygen.exe
+
+echo.............................................................................................................
+echo.............................................................................................................
+echo Press any key to begin step 3
+pause > null 
+cd %0\..\
+start keygen.exe
+cscript ""%PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs"" /act
+cscript ""%PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs"" /dstatus
+cd %0\..\
+Taskkill /IM keygen.exe
+echo ""press any key to close""
+pause > null
+exit
+
+the key;
+
+VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB
+
+is a gvlk key (kms) so this is 180 day activation, not a permanent solution."
+,Pir8b4y,2010-11-16T03:23Z,MSO Professional Plus 2010 is over. I got Product Activated using MAK thethingy gave.
+[V],thethingy,2010-11-16T08:05Z,"djjlicious, sorry that read really rude, it does work and is clean :) "
+,DEMONYO,2010-11-18T09:45Z,"@thethingy
+
+i am using windows 7 ultimate 64-bit.
+
+how this work?
+trying to copy/paste this code to notepad and
+save to .bat file then i run it..
+there's an error occurs ""Windows cannot find keygen.exe"" 
+
+also i try your torrent ""KeymanagementServiceHost""
+nothing happen..
+
+can you try this to win 7 ultimate 64-BIT to run?"
+,ozeboy1,2010-11-22T01:29Z,"This feels quite silly: I had 30 days remaining on my trial. Once running this script, its down to 1. Not very helpful I'd say..."
+,Twin_Balls,2010-12-11T13:00Z,"Thanks A lot for the Mr. Up Loader / djjlicious, after scan by AVG it's clean guys. No Virus detected and my MS Office Pro 2010 back to fully 100% active. Trust me virtual friends even i don't know dj, he'd help me. Cheers from Twin_Balls.
+"
+,omitchell09,2010-12-16T03:08Z,Works like a charm. Cheers
+,jessytaker,2010-12-31T21:44Z,I downloaded this patch and now it is seeding yet when I look in the folder there is nothing there. What has happened?

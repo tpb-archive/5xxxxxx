@@ -1,0 +1,33 @@
+VirtualBox.Ubuntu.10.10.Server.i386.vdi-OpenSci
+Maverick Meerkat
+
+Warning: Default user has weak password, use only behind firewall. Change with passwd for public servers.
+
+Warning: Does not contain recent system updates. Update with:
+  sudo apt-get update && sudo apt-get upgrade
+
+Username: ubuntu
+Password: ubuntu
+
+No additional services have been enabled. Install them with tasksel:
+  sudo tasksel
+  
+See https://help.ubuntu.com/community/Tasksel for more details.
+
+Settings
+Storage: 500gb hd (dynamic)
+Language: English
+Region: United States
+Keyboard: USA
+Hostname: ubuntu
+Timezone: America/New_York
+Partition: Guided, use LVM
+Username: ubuntu
+Password: ubuntu
+Encrypt home directory: no
+HTTP proxy: none
+Updates: automatic security updates
+Software to install (dns, ssh server): none
+Install grub to mbr: yes
+
+Released by Open Science Info http://opensci.info

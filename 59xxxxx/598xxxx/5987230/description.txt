@@ -1,0 +1,27 @@
+Maximus iXtreme LT+ UART Enable Patch for LiteOn
+
+Maximus released an UART Enable Patch for C4E's iXtreme LT+ FW for LiteOn drives that will allow you to read the DVD-key again on LiteOn drives flashed with LT+ without having to cut/repair extra traces.
+
+From the README/NFO:
+
+WHAT IT IS:
+Silly patch to re-enable the READ KEYS OVER SERIAL On LT+
+This will save you from having to do (or re-do) the cuts on the drives or also will save you of being FORCED to install board clips of any kind on your drive to do later reads. (of course if its a 83V2 or 93 stock drive you still need do cuts the first time)
+Since the releases are based on the 93450 its possible with a really quick patch re-enable that functionality. It should work for all LT+ releases of liteon as all are based on the 93450 fw.
+Please note will not work on non-93450 based firmwares.
+
+HOW TO APPLY
+a) Prepare your LT+ file (with the spoof, keys, etc) but dont flash it just yet.
+b) Open LT+ file with ppf-o-matic and apply the attached ppf file.
+c) After ppf applied just flash your drive and you will have later the option to read keys over the UART port (just like old Liteon 74) using spear or Usbxtractor, whatever
+
+Alternatively you can also patch the template files to avoid doing each time. If JF complains about opening the patched firmware just use an older (without restrictions) version or better use dosflash
+
+Thanks to geremia for the firmware descrambler. The software is being distributed with an "I dont care" license so use at your own risk.
+
+
+*Update* C4Eva said on IRC (#fw) the patch is "less secure", Maximus (carranzafp) said it's as safe as the unpatched LT+ - you decide.
+[c4eva on #FW] btw, avoid the mamimus patch for lt+,less secure!
+[carranzafp via forums] The hack is as safe as LT+ can be, if we remember a bit the 93450 had the uart serial removed with simple hex edit, so this just revert back the functionality doing the same.
+Unless of course the console had a small hand and put a probe on the spot by itself to check if its enable. Wich is not likely happen
+

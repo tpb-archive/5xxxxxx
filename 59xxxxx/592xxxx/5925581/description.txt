@@ -1,0 +1,47 @@
+Description
+===========
+
+After watching a video in a Web site, you may want to save the video file
+into your local disk for playing it offline in the future. If the video
+file is stored in your browser's cache, this utility can help you to
+extract the video file from the cache and save it for watching it in the
+future.
+It automatically scans the entire cache of Internet Explorer and
+Mozilla-based Web browsers (Including Firefox) and finds all video files
+that are currently stored in it. It allows you to easily copy the cached
+video files into another folder for playing/watching them in the future.
+If you have a movie player that is configured to play flv files, it also
+allows you to play the video directly from your browser's cache.
+
+With VideoCacheView, you can easily save the downloaded .flv files of
+many popular video sharing sites, like YouTube, Metacafe, Putfile, and
+more...
+
+Using VideoCacheView
+====================
+
+VideoCacheView doesn't require any installation process or additional DLL
+files. In order to start using it, simply run the executable file
+(VideoCacheView.exe)
+After running VideoCacheView, it scan the cache folders of your Internet
+Explorer and Mozilla browsers, as well as the temporary folder of
+Windows. Wait 5 - 30 seconds until the scanning process is finished, and
+the main window of VideoCacheView should display all the video files that
+are currently in cache.
+
+After the video list is displayed, you can use one of the following
+options, assuming that the video files are stored in the cache ('In
+Cache' = Yes):
+* Play Selected File: Allows you to play the video file directly from
+the cache, assuming that you have a video player that is configured to
+play .flv files.
+* Copy Selected Files To: Allows to copy the video files from the cache
+into another folder, so you will be able to play them in the future.
+
+If you have a video file that is not stored in the cache ('In Cache' =
+No), you can use the 'Open Download URL In Browser' option (F8) in order
+to download the video file. You can also use the 'Copy Download URLs'
+option (Ctrl+U) to copy the download URLs to the clipboard, and then use
+then in your browser or in other download software.
+Be aware that some Web sites may not allow you to download a video file
+in this way.

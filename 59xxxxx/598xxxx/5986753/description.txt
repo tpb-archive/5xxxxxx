@@ -1,0 +1,37 @@
+
+Microsoft Visual C++ 6.0 Compiler (1998) Standard Edition.
+
+The legendary C++ compiler... Still produces C, C++, and Windows applications
+that are leaner and faster than anything that the .NET compilers can produce today.
+
+-Produses dsp/dsw projects.
+-Excellent for learning, it will not distract you w/  today's busy Visual Studio displays.
+-No signatures, if you write a naughty program (but not guarranteed w/ updates).
+-Well behaving, it will not interfere w/ your fancy-schmancy 2008 or '10 compiler.
+
+I uploaded it in the past with the MSDN disks. The disks would increase the size from
+the current 83MB to over 1.1GB. I guess you can connect to the MSDN Site instead.
+
+Instructions:
+
+1. Unzip to decompress the compiler.
+
+2. Open the text file 'Serial' inside the compiler. Leave it open.
+
+3. Run the Setup.exe (the multi-colored sideways '8'). Vista,7, run as Administrator.
+
+4. During installation it will ask you two important questions (besides the usual ones):
+
+   1-INSTALLATION: TYPICAL OR CUSTOM. Choose 'CUSTOM'.
+     On the panel that opens next choose 'SELECT ALL' and 'CONTINUE'.
+
+   2-REGISTER ENVIRONMENT VARIABLES: Check the square next to it and OK.
+
+5. After it is done with the installation, it will ask you for the MSDN Library.
+  Check the "do not install msdn". It will complain, but continue.
+
+6. At the very end asks you to register with Microsoft. Do not (uncheck the square).
+
+
+
+

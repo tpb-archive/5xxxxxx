@@ -1,0 +1,92 @@
+More AT:  http://thumperdc.com/	
+
+
+
+
+
+88888888888 888                                                       
+    888     888                                                       
+    888     888                                                       
+    888     88888b.  888  888 88888b.d88b.  88888b.   .d88b.  888d888
+    888     888 "88b 888  888 888 "888 "88b 888 "88b d8P  Y8b 888P"   
+    888     888  888 888  888 888  888  888 888  888 88888888 888     
+    888     888  888 Y88b 888 888  888  888 888 d88P Y8b.     888     
+    888     888  888  "Y88888 888  888  888 88888P"   "Y8888  888 
+                                            88
+                                            88
+
+
+
+
+
+VLC Media Player - Universal media player that can play almost any existing file formats: MPEG-1, MPEG-2, MPEG-4, DivX, XviD, H.264, MP3, OGG and other, regular DVD and VCD discs and music formats. One of its features is the ability to play almost any type of streaming video, including the transport stream from the satellite receivers. Can act as a server to stream over the network and using IPv4 or IPv6, with sufficient bandwidth.
+
+Features:
+- Support for MPEG-1, MPEG-2, MPEG-4, DivX, DVD, VCD, mp3, ogg and other
+- Support for broadcast media stream from the satellite channels transmitted on the protocols UDP, RTP, HTTP, HTTPS, FTP, MMS, RTSP, IPSec and SSL / TLS
+- Extended Playlists
+- Video and audio filters
+- Subtitles and plug-ins that further extend the possibility of the player
+- Free Edit Playlists
+- Mac OS X audio module, which provides support for all devaysov
+- Supports FTP
+- Support for SSL / TLS
+- Support for SOCKS proxy
+- PNG decoder
+- Support for Apple Lossless Audio Codec
+- Support for Skins
+- High speed
+- High quality results
+- Nice and easy interface
+
+Changelog:
+Security:
+* Fix a Windows crash on accessing Network Shared files / drives, VideoLAN-SA-1006
+Access:
+* Support for RTP access for H264 streams by specifying the demux in the MRL
+Services Discovery:
+* Integration in the playlist, of a list of web shows, provided by channels.com
+Demuxers:
+* Game Music Emu (GME) plugin rewritten, using the proper C API
+* DVDnav and DVDread fixes for encoding and misc issues
+* Playback of live http. Webm streams
+* Taglib thread-safety fix
+Decoders:
+* Fix decoding of H264 using DxVA2 using Intel IGP, thanks to the donation from "Puget Systems"
+Skins:
+* Add an icon to VLC on Linux
+Video Output:
+* Fix a bug that could lead to 100% CPU usage on XCB
+Interfaces:
+* Fix for Qt bug where VLC didn't exit properly on some Windows XP configuration
+* Fixes on luatelnet and luarc
+Miscellaneous crashes and fixes in various plugins (telnet, live555, theora and TS-mux, Qt) libLVC:
+* Add libvlc_media_new_fd () to play directly file descriptors (not Win32/Win64)
+* Miscellaneous fixes
+Translations:
+* Update translations for Walloon, Lithuanian, Spanish, Turkish, Estonian, Dutch, Bengali, German, Polish, Brazillian Portuguese, Japanese, Italian, Galician, French and Ukrainian
+* Major update and activation on Windows of Modern Greek
+* New Asturian translation
+
+Released: 2010
+OS: Windows 2000/XP/Vista/7
+
+
+
+
+More AT:  http://thumperdc.com/	
+
+
+
+
+
+88888888888 888                                                       
+    888     888                                                       
+    888     888                                                       
+    888     88888b.  888  888 88888b.d88b.  88888b.   .d88b.  888d888
+    888     888 "88b 888  888 888 "888 "88b 888 "88b d8P  Y8b 888P"   
+    888     888  888 888  888 888  888  888 888  888 88888888 888     
+    888     888  888 Y88b 888 888  888  888 888 d88P Y8b.     888     
+    888     888  888  "Y88888 888  888  888 88888P"   "Y8888  888 
+                                            88
+                                            88

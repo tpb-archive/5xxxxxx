@@ -1,0 +1,23 @@
+This book provides an introduction to the SQLite database product. SQLite is a zero-
+configuration, standalone, relational database engine that is designed to be embedded
+directly into an application. Database instances are self-contained within a single file,
+allowing easy transport and simple setup.
+Using SQLite is primarily written for experienced software developers that have never
+had a particular need to learn about relational databases. For one reason or another,
+you now find yourself with a large data management task, and are hoping a product
+like SQLite may provide the answer. To help you out, the various chapters cover the
+SQL language, the SQLite C programming API, and the basics of relational database
+design, giving you everything you need to successfully integrate SQLite into your ap-
+plications and development work.
+The book is divided into two major sections. The first part is a traditional set of chapters
+that are primarily designed to be read in order. The first two chapters provide an in-
+depth look at exactly what SQLite provides and how it can be used. The third chapter
+covers downloading and building the library. Chapters Four and Five provide an in-
+troduction to the SQL language, while Chapter Six covers database design concepts.
+Chapter Seven covers the basics of the C API. Chapter Eight builds on that to cover
+more advanced topics, such as storing times and dates, using SQLite  from scripting
+languages, and utilizing some of the more advanced extensions. Chapters Nine and
+Ten cover writing your own custom SQL functions, extensions, and modules.
+To complete the picture, the ten chapters are followed by several reference appendixes.
+These references cover all of the SQL commands, expressions, and built-in functions
+supported by SQLite, as well as documentation for the complete SQLite API.

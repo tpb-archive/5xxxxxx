@@ -1,0 +1,274 @@
+User Type,Username,Date,Text
+,halfoff,2010-11-11T00:36Z,"Small question, are the updates cumulative or not? 
+ie Does update 3 take care of previous updates, or should I get the original ISO, and the 3 updates?"
+,Klimt_Westwood,2010-11-11T00:41Z,This update should have all previous updated content.
+,skreemer,2010-11-11T01:03Z,"afaik, update 2 included update 1. so my suggestion is download update 3 and check the "".nfo"" file.
+but if you donÂ´t wanna wait, install update 2 and start playing, because it seems itÂ´ll take some time till we get enough seeders here."
+,SubGum,2010-11-11T01:28Z,The installer tells you to install the previous updates before this one.
+,carterd.net,2010-11-11T01:59Z,"wrong, this doesn't require updates 1 or 2. It includes everything you need. You only need this update!"
+,Dark-Por,2010-11-11T02:46Z,"i read was another patch imediatly following the last one (Dunno time frame exactly from the first patch just released to the patch that fixed the first patch)
+apperntly made some mobs invincible or something
+
+anyway stuck at 10% so they repacking a new patch or what BTW
+
+I LOVE YOU GUYS SKIDROW and RAZOR1911
+
+keep up the good/great work :)"
+,SubGum,2010-11-11T05:43Z,"My mistake.  The setup says:
+
+-------------
+[ ] This update require previous updates installed to function properly
+
+[x] This update don't require previous updates installed to function properly
+-------------
+
+Could have just said ""This update doesn't require previous updates installed to function properly""
+I read the first line and moved ahead since I'd already installed the last updates anyways.
+
+Anyways, forget what I said earlier.  Enjoy."
+,zilko,2010-11-11T07:55Z,"Hey, thanks for the up ! This fixed my game nicely ty!"
+,232323,2010-11-11T10:03Z,am i the only one whose game won't start after this last update? Getting falloutnv error and that's about it.
+,232323,2010-11-11T10:05Z,am i the only one whose game won't start after this update?
+,diosisback,2010-11-11T10:38Z,"232323: You are not the only one, it happens to me too. The problem lies in the cracked exes: you need to copy and overwrite them with the ones from update 2.
+
+Bad crack from SKIDROW :("
+,Separaattori,2010-11-11T11:23Z,"haha, idiots! you should check google sometimes. this update screws archivevalidation. so you need to edit ini files to make it work.
+
+""Quote
+To summarize the fixes though, in no particular order (and I have tested both) -
+1) Rename your the fake BSA to - ""Fallout - ArchiveInvalidation.bsa"". Update the ini files to reflect this change. This will allow the fake .bsa to be the first on the SArchiveList entry.
+2) Change the order of the .bsa files in the SArchiveList. I put ""Fallout - Voices1.bsa"" as the first entry, then the fake .bsa, then the rest of the line.""
+
+
+...I can confirm the first tactic is working, with NVSE enabled, and I recommend using that incase the next patch messes up archiveinvalidation again, so you only have to rename it. "
+,Kurogawa,2010-11-11T12:09Z,"For those who use NVSE, be careful. The latest loader doesn't seem to work with the latest patch."
+,Kurogawa,2010-11-11T12:14Z,My mistake! Thanks for the info Separaattori! Came quite in handy ;)
+,diosisback,2010-11-11T12:17Z,"@separaattori: It worked,  you could have been less of a jerk, but thank you very much !!!"
+,Separaattori,2010-11-11T12:55Z,"Sorry for being jerk.. :/ its just that I found out about fix for the patch before I knew about new patch and ended up saying ""idiots"" cuz of this... :)  "
+[T],FatFreddy756,2010-11-11T14:21Z,"Thanks for the upload!
+It worked 100% for me after installing it. It actually fixed the game from stuttering and everything so that its actually playable! It pretty much runs smooth as fallout 3 now which is quite amazing"
+,Pr2est0r,2010-11-11T15:10Z,Thank you so much. You guys rock my nerdy life.
+,Katilot,2010-11-11T15:55Z,SKIDROW FOR PRESIDENT
+,Separaattori,2010-11-11T16:08Z,seems to be working here too. rocks! just don't really know what it changes in directX or otherwise. as I'm using many mods that fixes bugs or otherwise mods the game for better performance.
+,NZP,2010-11-11T17:26Z,"Seed people seed! this is wonderful, thanks AiTB!
+
+come on people!"
+,DarkMerc,2010-11-11T18:14Z,"@NZP
+lol why you need the seeds, it downloads with 1,8 mb per sec :)))
+thank you AiTB for this fast torrent, it works fine, info file is included and no you dont need the 4 dlcs or the 2 previous updates!!!"
+,NZP,2010-11-11T18:55Z,"I dont need seeds silly, but i dont want this beautiful update dying out... i downloaded it in 5 secs.."
+,Raye_Gunn,2010-11-11T19:41Z,"Woot, like 2 days ago, the game started to refuse to load my 2 most recent saved games, which was annoying, this patch fixed them. nice, perfect timing. 
+
+For the record, I didn't need to do anything extra to get the game to work afterwards besides copying over the exe files. So people should just try it first before messing around with the bsa's, may not be necessary for you. "
+,Atturo,2010-11-11T20:45Z,"I keep getting an error saying, ""Error reading application id. Please either write it to steam_appid.txt or use launcher!"" when I try and launch the game. I didn't have the ArchiveInvalidation program installed. Any help would be appreciated."
+,Texag10,2010-11-11T21:22Z,"Still didn't fix my horrible fps.  I've tried every ""fix"" out there don't know what else to do.
+
+Nvidia 8800 GTS 512"
+,OmniNegro,2010-11-12T02:18Z,"If you have a decent modern system and you have terrible FPS then something is very wrong. Shut down all the background crap that is running. Especially the retarded and useless antiviral garbage. If you are not running risky software and you have already scanned the stuff you intend to run, what difference will the antiviral garbage manage besides making your system behave like it is several years older? The answer is nothing at all.
+
+Shut the fuck up if you are unable to figure out how to not only disable, but also UNLOAD that crap. Go to school and learn, or just be patient. Even a retard will learn with time.
+
+How much did the game and this update cost you? You were given a nice new game on a silver platter.
+
+Awwwww. Is your silver platter not polished enough for your tastes? Too fucking bad. You paid nothing. You pay with respect and by learning to pull your head out of your arse. 
+
+Google will tell you anything if you ask it right. If you need help, find a nice forum to troll like a bitch.
+
+Damn. I am going a bit far here. Most here understand my prospective though. And those who do not have my sympathies, but they will learn and in time will probably agree 100%. If not, then I am really interested in learning what to call the sub-animal retard."
+,yuwuxie,2010-11-12T06:16Z,"Wow, this update really helps the graphics, the game runs much smoother now. However, if you Alt+Tab to switch to other program (like to check the vault wiki), you wil find that the backgournd soud of the game is behaving strangely. But when you switch back to the game, the sound is fine again."
+,yuwuxie,2010-11-12T06:21Z,"Wow, this update really helps the graphics, the game runs much smoother now."
+,junjo1975,2010-11-12T17:54Z,"so the cracked exe are not working? I read that I should use my cracked exe from the Update.2...I noticed that when I go into my options the game says I am running version 1.1.1.271 (which is the old Update.2). Im assuming the game is actually running on this third update, even though its giving me the old version number?"
+,deepandhard,2010-11-12T21:24Z,"fwiw, i got the same update off usenet and I did not have any problems with executables.
+
+after some googling on the new update, it would seem it causes conflicts with those good people who are using mods in additon to the cracked game.
+
+I would expect not to have any issues since I've only updated the game with the Skidrow cracked updates.  So far, I have had no problems with the update or the new executables."
+,poketama,2010-11-13T03:35Z,Jesus christ what the fuck is wrong with you OmniNegro?
+,OmniNegro,2010-11-13T04:40Z,"@poketama
+
+You do not always want a direct answer to what you ask. May I suggest you do do not want to hear my issues. They exist. I acknowledge them.
+
+What has gotten me so very upset is that I have been trying to help people in these threads for months now and at first I was tired of giving the same damned answer that someone else gave a dozen times in a row.
+
+Then I was starting to get pissed and noticed that if I am a total arse, people ACTUALLY read my posts. 
+
+That is all I want. If you have problems and you actually read the advice you are given, you will find the solution in most cases. If not, then Google will probably tell you in a minute flat.
+
+I have want to see even more such *Fun* threads, check out the Two Worlds II torrent by extremezone. Again, it is a good post and the solution to most issues is already in the comments. And again, I am a total arse. :)
+
+Good day to everyone. Have fun. :) :) :) :)"
+,LongTimeNoPee,2010-11-13T09:40Z,"Thanks! Downloaded in 4 minutes, max speed. And now I will seed because a bunch of people are going to start downloading this soon. :)"
+,Jennacide,2010-11-13T20:22Z,"@Separaattori:
+That's a bizarre fix. I was having the crashing issue as well, and have been using NVArchiveInvalidation. Turned it off and then back on, still crashing. But then I tried moving Fallout - Voices1.bsa to the front of the list and all better.
+
+That doesn't make a lick of sense, but I'll take it. Thanks for the tip."
+,Bubbel_Boy,2010-11-13T22:31Z,The update works like a charme. thx
+,Rumudiez,2010-11-14T02:12Z,"for anyone with horrendous performance issues, im using a GTX 285 and i found that running the game on the default High setting but changing the AA to 4x and the antisotropic to 15x made the game run well. i'm only getting about 40fps on it, but its not lagging or jumping for me."
+,Arse_Done_69,2010-11-14T05:26Z,"Does this update fix sound cuts? The sound on my game lags behind, and when i try to fire my gun, i hear the gunshot like 10 seconds later."
+,OmniNegro,2010-11-14T19:52Z,"@Arse_Done_69
+
+The problem is almost always the fact that you have integrated sound. Really. I am not joking.
+
+Buy a *Real* soundcard and you will almost certainly not have that problem. I would almost bet my own computer that you have an integrated Realtek audio chipset.
+
+Certain integrated chipsets work alright for gaming, and some do not. Try checking your motherboard manufacturer's website for driver updates for that chipset. That sometimes fixes the issue for some people.
+
+Also, remember that despite what the manufacturer implies and in some cases actually tells you, *ALL* integrated audio chipsets put the load onto the CPU."
+,micnor14,2010-11-16T03:38Z,"Once again not only the uploader forgets to, but SKIDROW does as well! 
+
+Confirmed 1.2.0.285 release! NVSE compatible!!!
+
+Speak UP damn it!"
+,fucko31243,2010-11-16T06:36Z,"OMG OmniNegro , do you fucking live here, all i see is your dumb comments all over TPB , shut the fuck up for once, maybe get a job and stop showing how talented you aren't by hanging around the forums flam,ing everyone that thinks you're a moron, which is everyone. Shut the fuck up and go away. Or like previously stated, GET A FUCKING JOB DICKHEAD!."
+,1994GiOVANNi2,2010-11-16T08:54Z,"@OmniNegro
+Calm down killa. Raging mole-rat."
+,Satan_PL,2010-11-16T12:58Z,"The guy with the sound problem... Integrated or not, get the newest drivers in most cases. In other cases, dig up old cds you got with pc and install those very old drivers, but for some reason often those are custom and newest for the same thing don't work.
+
+ABOUT THE UPDATE: IT WORKS. Much higher fps too!"
+,OmniNegro,2010-11-16T19:34Z,"@fucko31243
+
+Lol. You suggest ""I"" am over-reacting? I am rude. Certainly. But find a post that I do not try to help. I will wait. :)
+
+I will say it one more time. Somewhat paraphrased.
+
+I am an arse to people because it makes them pay attention to my advice. I am trying to help. But it has been my experience that no-one ever listens to good advice unless you are a total and complete arsehole as well.
+
+You make wild presumptions about me. I must be unemployed. Why? Because you say so. And you call me a fucking dickhead too. How productive. You show great promise as an aspiring troll. Be well nonetheless.
+
+Now, a suggestion. Read the comments before you reply. I have never flamed anyone without reason. And I always try to help if I know of something that may help.
+
+Sometimes I DO go too far. I know this. But there is no way to edit posts here.
+
+@1994GiOVANNi2
+Sorry. I do get carried away at times.
+
+Be well everyone. Even those who insult and contribute nothing. (Myself at times) :)
+"
+,Pro1yfic,2010-11-17T11:37Z,"@Texag10 and anyone else with FPS problems and a gts
+
+the ToggleEmotions console suggestion linked above, it worked great for me and I have the same card
+
+@Omni
+
+we all have our methods but I find it much more productive to address the Problem and not the person"
+,zhool,2010-11-18T01:22Z,"works fine; btw you get DLC with this that plonks a bunch of stuff in yr inv, unchecking the esms in data files or FOMM doesnt seem to stop u getting it - meh"
+,josh1003,2010-11-19T05:51Z,"The fps can be easily fixed by downloading a mod:
+http://www.newvegasnexus.com/downloads/file.php?id=36691
+and/or
+http://www.newvegasnexus.com/downloads/file.php?id=34778(not in use by the author anymore so...)
+
+Anyway, there's a problem with this solution, one day, they may require NVSE(new vegas script extender) which is required by good mods. the problem is, nvse doesn't seem to recognize this update :/"
+,samqran,2010-11-19T14:11Z,"be an arse OmniNegro, House style FTW!"
+,PonyJL,2010-11-19T17:03Z,"Meh, my game still crashes every 5 minutes, quicker when I use VATS. You'd think my computer is to slow but ithas  a good fps on High and decent one on Ultra but even on low it crashes :S 
+Have checked whether my cpu or gpu are overheating but thats not the case either. 
+Google is my best friend but cant find any solutions :("
+,vacendek,2010-11-19T20:23Z,"Buggy shit! Even after Update 3 game feels like early beta. Why? Whole thing is like a big DLC for Fallout 3!
+
+Tips:
+- Save more often than you would in Word. (~5 min)
+- Never give your companions any valuable stuff.
+- Avoid glitching and therefor immortal scorpions, when traveling with companions. "
+,0-LSD-0,2010-11-20T09:16Z,"That's just the shit you'd expect from any Bethesda game.
+Thanks for keeping us up to date with the updates skidrow."
+,Jangles90,2010-11-20T22:07Z,"Well, works but still have the random crashes."
+,SpockTrek,2010-11-21T12:49Z,Don't bitch about the game when you didn't even pay for it.
+,Metalsucks,2010-11-22T00:34Z,"Thanks for the updates, but damn it, it still crashes at random intervals."
+,lozzer22,2010-11-22T02:21Z,I'v played through this game multiple times with multiple mods enabled and I haven't had the game crash or glitch once...
+,lozzer22,2010-11-22T02:23Z,"@0-LSD-0
+
+Its not a Bethesda game its an Obsidian game, Bethesda just released it."
+,deadspaced,2010-11-22T05:59Z,"The crack works fine. You won't be able to use NVSE if you use the crack from update 2. Here's how to get it working with the crack from update 3: 
+
+Download Archiveinvalidation Invalidated from http://newvegasnexus.com/downloads/file.php?id=37004
+
+Copy over ArchiveInvalidationInvalidated!.bsa to your \Fallout New Vegas\Data\ directory and rename it to Fallout - ArchiveInvalidation.bsa.
+
+Find your Fallout_default.ini and open it. In the SKIDROW version it is located in your \Fallout New Vegas\ directory. Inside, change ""bInvalidateOlderFiles=0"" to ""bInvalidateOlderFiles=1"". 
+
+Once that is done, find the line starting with ""SArchiveList="" and add ""Fallout - ArchiveInvalidation.bsa"" after the equals sign (no space between) and IN FRONT of the other .bsa's. Placement IS important.
+
+The line should look like this: ""SArchiveList=Fallout - ArchiveInvalidation.bsa, Fallout - Textures.bsa, Fallout - Textures2.bsa, Fallout - Meshes.bsa, Fallout - Voices1.bsa, Fallout - Sound.bsa,  Fallout - Misc.bsa""
+
+Save your changes and load up NVSE. This should result in no more application load errors.
+
+"
+,Arse_Done_69,2010-11-24T06:30Z,"@OmniNegro
+@Satan_PL
+Yea, my game works great except for the sound, i guess i will work on getting a new sound card. Thanks."
+,EvilCorporateWhore,2010-11-25T19:37Z,"Simple Question:
+
+I downloaded New Vegas a while ago... only played through the opening to see if it was working - and it was, but haven't played it since. Anyway, i figured i'd install this update, just wondering if this can install directly over the cracked game, or should i put the original uncracked files back before i run the update?
+
+If i do, then does anyone have the original uncracked files? lol. Thanks for the help."
+,EvilCorporateWhore,2010-11-25T20:53Z,"Scratch the last question... i think it installed over it fine.
+
+
+@deadspaced
+
+Thanks for the easy walkthrough."
+,toenail77,2010-11-26T01:30Z,"you are a legend for releasing this, thank you."
+,josh1003,2010-11-26T02:58Z,"@deadspace
+A SOLUTION :D
+KUDOS TO YOU!!!"
+,jarooko,2010-11-26T09:07Z,"For me, the game work's very good without this update... Very rarely, I experience a smaller bug, or 4 to 5 times now a crash, and that's very good in my book.
+
+Gonna report how the game is doing with the update once I try it."
+,GoodTunes,2010-11-27T23:41Z,"@deadspaced
+I friggen' love you, man. I had no audio after I updated, the NPC's would not move their mouth but the text would roll out. After fixing my ArchiveInvalidation, everything is back to normal.
+Ahh, friggen' tank God!"
+,GoodTunes,2010-11-27T23:50Z,"@deadspaced
+I friggen' love you, man. I had no audio after I updated, the NPC's would not move their mouth but the text would roll out. After fixing my ArchiveInvalidation, everything is back to normal.
+Ahh, friggen' thank God!"
+,YuriLakey,2010-12-06T09:14Z,"Did everything,but NVSE still doesn't work keep getting message ""Please Update to the latest version of Fallout"".What should i do?"
+,rayne117,2010-12-07T04:28Z,"Hello everyone!
+
+I am here to help YOU, yes YOU, get this update working.
+
+Download the torrent as you normally would.
+
+""OK, rayne117, you sly dog you. It downloaded. But... WHAT IS THIS? There are 18 files? WHAT I AM SUPPOSED DO FUCK EVERYONE RAAAAAAW!""
+
+Calm down there, buddy. I can get you back up on your feet in no time! Download a program called 7-Zip (http://www.7-zip.org/). Got it installed? Good.
+
+Navigate yourself to the folder with all those mysterious .rxx files. Find a file named ""sr-fnvu3.rar"". It should be the second from the bottom.
+
+Right click > 7-Zip > Open Archive
+
+Make sure you see three files: SKIDROW (folder), Fallout.New.Vegas.Update.3.exe and skidrow.nfo
+
+Click ""Extract"", it should be a blue subtraction mark.
+
+Go to where you extracted the files. Find the .exe. Run it.
+
+Take ""FalloutNV"" and ""FalloutNVLauncher"" and replace them with the files that are in Fallout New Vegas directory.
+
+Click either of them to start the game."
+,TheShadows798,2010-12-07T09:15Z,do i need the update 2 before i use this update or does this include the previous updates?
+,rayne117,2010-12-08T16:32Z,@TheShadows798: I downloaded the SKiDROW torrent for FNV and then installed it. Then I downloaded this patch. It worked great. You do NOT need any other patch before this one.
+,3count0,2010-12-09T04:21Z,"haven't installed yet but i trust that skidrow got it right, thanks to all involved, and the previous commenters for setting up nvse, which is why im getting this. good speeds too thanks all"
+,dangitsalex,2010-12-12T03:52Z,Is there anyway I can disable the addons? I always start up the game and become overweigh or w/e.
+,Redback13,2010-12-22T08:13Z,"To help mostly stop the crashes try disabling page file.
+
+Heres how:
+
+-Open the Start Menu and go to Control Panel
+-Click on the System icon
+-Select the Advanced tab
+-Under Performance, click Settings
+-Go to Advanced
+-Under Virtual Memory, click Change
+-Select No Paging File and then click Set
+-Click OK in all the menus
+-Restart
+
+It worked for me (just remember it requires a somewhat more powerful PC)"
+[V],matimike,2011-02-04T02:07Z,thanks
+,SilentK1ller,2011-04-20T18:06Z,"Thank you good update!
+Game worked good even without any updates but im glad that they fixed some problems!"
+,oCoreCyan,2011-05-16T00:59Z,"Thanks so much for this update man, i love the effort you put in.
+
+1st off this update does work fine, just follow the instructions in the NFO file. Its basically like installing the game again but this time its a patch. 
+
+The game has started up fun after the patch installed and ive managed to start a new game so im assuming i wont run into any problems since a patch is suppose to fix them but i will leave another comment if a run into a problem.
+
+Thanks again."

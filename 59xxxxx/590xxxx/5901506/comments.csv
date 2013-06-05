@@ -1,0 +1,76 @@
+User Type,Username,Date,Text
+,Lama43,2010-10-21T22:53Z,Please seed... or NZB?
+,Telmar3,2010-10-21T23:33Z,"2:32PM PST, No seeds, come on people, I have the original file ready for this fix! Pls seed!"
+[V],Shroo,2010-10-22T00:25Z,"his is for those that still cant get the game to run
+
+
+
+1: Go to my documents then to ""My Games"" folder then delete ""FalloutNW"" folder
+
+2: Go to the folder where you installed the game and run ""FalloutNVLauncher.exe"" some messages will pop out just press ok and ok till you shut it down after that run ""Fallout.exe""
+(at this point it seemd like it was going to work had a black screen going, but then it crashed) so
+
+3: Go to where you installed the game open ""Regsetup.txt"" it should look like this 
+======================================================================
+
+REGEDIT4 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Bethesda Softworks] 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Bethesda Softworks\FalloutNV]
+
+""Installed Path""=""%d""
+======================================================================
+Now change it so it looks like this:
+REGEDIT4 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Bethesda Softworks] 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Bethesda Softworks\FalloutNV]
+
+""Installed Path""=""%d""
+======================================================================
+When you done save it then run ""Reg.exe"" as admin 
+
+Then run ""Fallout.exe""
+
+At this point i was able to play the game 
+
+If you get the black screen and then you get kicked to desktop try going to my document/my games/ and delete FalloutNV folder again 
+then go to where u installed the game and run ""FalloutLauncher.exe"" and go through the ini not found bs again then close it and run ""Fallout.exe""
+======================================================================"
+,golabskii,2010-10-22T02:34Z,dude i installed it and everything and then the shorcut to fall out new vegas by tptb popped up and i click on it then it just shows me the option to install exit or... but its already installed
+,superscooter143,2010-10-22T02:48Z,"Goddamnit. We're doing everything you say yet it's not working. I followed all the steps, did the fix, and it's still giving me the option only Install or Exit in the launcher or .exe.
+
+Plus, I can't even start up the launcher thanks to editing that file you told me to edit."
+,superscooter143,2010-10-22T02:55Z,"This doesn't work. I somehow got the launcher to work, but it doesn't work."
+,superscooter143,2010-10-22T03:02Z,"Just sayin' your rips are great
+
+but this one isn't :U"
+,spiraloof,2010-10-22T07:22Z,"search regedit from start menu or run then
+...go to regedit HKEY_LOCAL_MACHINE\SOFTWARE\Bethesda Softworks\FalloutNV and dont forget to add ""\"" after vegas. you can do that by right clicking installed path and modify.it should work now, otherwise delete the FalloutNV from mygames & do the shroo""s fix instructios again.it should work now. by the way it's part of the fix shroo posted. i didn't do anything so i can't take credit for it."
+,myers23,2010-10-22T10:51Z,"in regedit  i had to go to HKEY_LOCAL_MACHINE\SOFTWARE\Bethesda Softworks\FalloutNV and put a
+\
+at the end of reg string.
+
+
+
+mine looks like this E:\games\fallout New Vegas\ "
+,myers23,2010-10-22T10:52Z,do wot shroo said 1st then do as i did
+,tenspeed33,2010-10-22T15:26Z,When I run reg.exe as Admin it doesn't actually add the keys to the registry... any ideas?
+,invader123,2010-10-22T16:42Z,plzzzzzzzzzz upload medal of honour 2010
+,namezaka1,2010-10-22T17:16Z,"I can't get it to work. The reg.exe doesn't work, so I manually added the registry using notepad by exporting the one that was already in Wow6432Node, dragging it into a notepad doc, deleting the ""\Wow6432Node\"" and importing it.
+
+No luck."
+,namezaka1,2010-10-22T17:38Z,Is this going to get fixed or should we just get the skidrow release?
+,Nikoza,2010-10-22T17:54Z,Install the newest update (Fallout New Vegas Update 2) and it should start to work.. atleast mine works now.
+,namezaka1,2010-10-22T19:46Z,"Nikoza, did you do anything special before or after installing the update?"
+,namezaka1,2010-10-22T19:51Z,UPDATE: I can CONFIRM that installing SKIDROW's Update-2 and copying the cracked .exes from that update will make the game work.
+,myers23,2010-10-22T22:00Z,regestration is open at TeamTPTB over the weekend
+,royhere,2010-10-30T12:18Z,"Hello shroo... pls upload shank...... if tptb make a rip...
+
+pls"
+,vjudragon,2011-06-17T15:13Z,"UPDATE: I can CONFIRM that installing SKIDROW's Update-2 and copying the cracked .exes from that update will make the game work. 
+
+Download This: http://thepiratebay.org/torrent/5903905/Fallout.New.Vegas.Update.2-SKIDROW-%5Btracker.BTARENA.org%5D"
+,s0v13t_0n10n,2011-10-27T07:23Z,OMG SOMEBODY SEED!!!!!!!!!

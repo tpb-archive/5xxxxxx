@@ -1,0 +1,85 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+               T H I S   T O R R E N T   I S   N O W   O B S O L E T E
+------------------------------------------------------------------------------------
+It is here only for archival. If you are new to F4UBCD you should search for the
+latest version. Due to TPB's current missing "edit" functionality, I can't come back
+to edit the latest version into each torrent.
+F4UBCD is now on Facebook:dot com slash F4UBCD   (f u, tpb url filter.)
+------------------------------------------------------------------------------------
+
+.......______                                                                      |
+       L,.   ',                                                                    |
+        \      ',_                                                                 |
+         \   @   ',                                                                |
+          \ ^~^    ',                                                              |
+           \    NR   ',                                                            |
+            \___'98fw  ',_                          _..----.._                     |
+            [______       "'==.I\_____________..--"(__\\_n@___4\,_                 |
+          ,..-=T         __   ____________          \/  "'" O(==  ""-+.._          |
+          I____|_____    }_)=========I)=**""''==-------------==-   " |   "'-.,___  |
+          [_____,.--'"             _______         ""--=(""-----=====+==--''""     |
+          ""'-=+..,,__,-----,_____|       |         -=* |                          |
+                      |__   /     |---,--'"---+------+-'"                          |
+                         """     d"b="        '-----+t                             |
+                                 q_p                '@                             |
+-----------------------------------------------------------------------------------+
+             F A L C O N F O U R   P R O U D L Y   P R E S E N T S                 |
+-------------+-------------------------------------+----------+--------------------+
+T I T L E    | FalconFour's Ultimate Boot CD v2.0  | D A T E  | Aug 14, 2009       |
+-------------+-------------------------------------+----------+--------------------+
+                            D E S C R I P T I O N                                  |
+-----------------------------------------------------------------------------------+
+In this boot CD are the most popular and useful tools anyone would ever need. The
+best of the free software, the best of the commercial software, and it all fits on
+one CD-R that's readable by any computer worth booting on. Not everything can read
+a DVD, and USB booting is hit and miss at best.
+
+This is the Ultimate Boot CD that I've used myself, and all the combined tools I
+use for PC diagnostics at the shop I work at. It's been part of my toolbox for
+years.With the release of Hiren's BootCD 9.7, the entire playing field has been
+shifted, with the new MiniXP boot functionality. It's a 30mb image that loads and
+decompresses into RAM, then boots Windows off RAM at lightning speed - including
+reading to RAM, it appears to boot even faster than off a hard drive... and still
+gives you network (and internet) functionality on many PCs. Many drivers for net
+and SATA are built right in, but you can load anything with the F6 driver prompt
+during startup.
+
+Hiren's XP BootCD is an extremely useful diagnostic tool, and is at the heart of
+this BootCD. However, several techs (myself included) have found issues with the
+lack of easy access to the multitude of tools on the disc, so I modified the disk
+image to add shortcuts to many popular applications right on the desktop, and
+added a shiny wallpaper :P . More applications can be found by browsing the CD's
+"PROGRAMS" folder.
+
+Many techs use ERD Commander, which (after the Microsoft acquisition) is now
+known as Microsoft DaRT - the Diagnostic and Recovery Toolkit. It's a considerably
+smaller (than Hiren/UBCD4Win) set of extremely useful and specialized tools to
+repair Windows. I've repackaged the XP version into a lightning-fast-booting
+compressed RAM disk, and added DaRT 6.0 for Windows Vista. Both versions include
+tools like Offline System Restore, System File Checker, and Crash Analyzer.
+
+If you work in a tech shop, you know the pain of user passwords. The typical order
+of business would be to use NTPWEdit to erase the login passwords (replaces Active
+Password Changer). However, Kon-Boot actually patches the Windows kernel in RAM
+during startup, causing it to ignore an incorrect password at login! You can log in
+without entering the user's password, perform your tech duties, shut the system off,
+and their password stays intact. It's still an experimental tool, and often fails to
+start on many computers, but it's a great new tool that makes a valuable addition to
+a tech toolkit.
+
+Once you dive into this disc, you'll never need another boot CD.
+
+-----------------------------------------------------------------------------------+
+                                O N   T H E   D I S C                              |
+-----------------------------------------------------------------------------------+
+Hiren's XP 9.9 + MyDefrag 4.0 w/ FalconFour's FullOptimize script, fix_hdc, HD Tune
+        Pro, desktop icons, Taskmgr as task manager
+Misc apps: Active File Recovery, Keyfinder, Victoria for Windows, windirstat,
+        ImgBurn 2.5
+Hiren's DOS 9.9 + SpinRite 6.0 (under Hard Disk Tools)
+ERD Commander / Microsoft DaRT 5.0 (WinXP)
+MS DaRT 6.0 (Vista)
+Dell MBR Recovery Disk
+Memtest86+ 2.11
+Kon-Boot 1.1
+Windows Recovery Console

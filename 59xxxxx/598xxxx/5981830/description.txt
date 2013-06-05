@@ -1,0 +1,85 @@
+The KMPlayer 3.0.0.1439 
+
+is a versatile media player which can cover various types of container format such as VCD, DVD, AVI, MKV, Ogg Theora, OGM, 3GP, MPEG-1/2/4, WMV, RealMedia, and QuickTime among others. It handles a wide range of subtitles and allows you to capture audio, video, and screenshots in many ways.
+
+The player provides both internal and external filters with a fully controlled environment in terms of connections to other splitters, decoders, audio/video transform filters and renderers without grappling with the DirectShow merit system. Internal filters are not registered to user's system to keep it from being messed up with system filters.
+
+In December 2008 KMPlayer was bought by Pandora.tv, and continues to be made available as freeware.
+
+
+
+  Version history:
+
+- Audio errors during content playing are fixed.
+- Decision logic for content(AVI) scanning fixed.
+- DXVA2 H.264 performance improved.
+- DXVA2 MPEG2 bug fixed.
+- File playing start speed improved.
+- MP2, ATRAC3, H.261 codec bug fixed.
+- Resizing of Preference page.
+- Synchronizing errors between Video and Audio channels are fixed.
+
+
+
+
+All features / Full description: 
+
+Supported Files or Devices
+
+* Incomplete/Damaged AVI file (Skip Damaged Frames)
+
+* Locked Media Files while downloading or sharing
+  (with realtime index rebuilding under certain condition: AVI downloading in consecutive order)
+
+* Incoming Stream delivered via HTTP 
+  (ASF/OGG/MP3/AAC/MPEG PS/MPEG TS: Only works with KMP splitters)
+
+* Directshow playback (avi, mkv, mov, mp4, 3gp, ogg theora, 
+  ogm, rmvb, mpeg1/2, vob, wmv, dvr-ms, http:// etc including almost every  
+  audio formats)
+
+o Async File Source (network) filter for memory caching
+o Compressed Audio Album Support (zip, rar)
+o Shoutcast (Including NSV), Icecast
+o DTS Wave, AC3, AAC, Ogg Vorbis, Monkey's Audio, Musepack, FLAC/Ogg FLAC, 
+  Modules (MOD, S3M, MTM, UMX, XM and IT), AMR, ALAC, WavPack, TTA etc
+
+o Native (ansi/unicode) Cue Sheet Support
+o Google Video (GVI), Flash Video (FLV), Nullsoft Streaming Video (NSV), PMP
+* Real Engine + Directshow (needs Real Player or Alternative or its decoders)
+o Supports the playback and seeking of multirate real media files 
+  (surestream clips) with KMP RealMedia splitter
+
+o Almost all Real Media files are supported (directshow).
+* QuickTime Engine + Directshow (needs QuickTime player or Alternative or its decoders)
+o The verified MOV samples with KMP mp4/mov splitter (directshow)
++ MOV[H264/AVC1+AAC], MOV[H264+AC3]
++ MOV[SVQ1+A-law], MOV[SVQ1+IMA4], MOV[SVQ1+PCM]
++ MOV[SVQ3+QDM2], MOV[SVQ3+MP3], MOV[SVQ3+IMA4], MOV[SVQ3+QCLP]
++ MOV[MP4V+AAC], MOV[MP4V+MP3], MOV[MP4V+ALAC], MOV[MP4V+PCM]
++ MOV[RLE+AAC], MOV[MSVC+MP3], MOV[MPNG+QDM2], MOV[MPG1+MP2]
++ MOV[CVID+TWOS], MOV[CVID+PCM], MOV[MJPEG+PCM], MOV[DVC+PCM], 
+  MOV[H263+MU-law], MOV[SMC/RPZA+PCM]
+
+o Almost all MP4s are supported(directshow).
+* Mplayer Engine Support
+* Winamp Input Plugin (decoder) Support
+* DVD playback, ratDVD support (needs ratDVD filters)
+o Audio CD (2000, XP only / Win9x-Support by winamp plugin)
+o Video CD/SVCD/XCD : CDXA Format (2000, XP only)
+o VCD Image File (BIN/ISO/IMG/NRG) ; NRG needs mplayer.dll
+* WDM device support like TV/HDTV/Camera/Cam etc
+* Adobe Flash (SWF)/FLC/FLI
+* Various Image files like png, gif etc
+
+
+
+
+
+
+
+
+
+
+
+

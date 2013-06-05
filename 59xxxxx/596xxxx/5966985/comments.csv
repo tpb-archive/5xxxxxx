@@ -1,0 +1,354 @@
+User Type,Username,Date,Text
+,GarrydePineut,2010-11-20T02:27Z,"Hey,
+Thanks alot NanoEntity, it works! But i was wondering if you might have any idea why, when i try to make a costom char, i always get a white head. Anyway, thanks alot that you do this for us, i really appreciate it."
+,Rodef2099,2010-11-20T11:06Z,This is the buggy version that has lag issues and block regeneration bug... :(
+,King1ak,2010-11-20T19:49Z,"Ok, I have a question. I downloaded an earlier version of minecraft (1.015 I believe) and I was wondering how I would be able to use the world I made while using that one on this version."
+,King1ak,2010-11-20T19:58Z,"Nvm, figured it out."
+,NanoEntity,2010-11-20T20:46Z,"Rodef2099
+This bug is in all 1.2.2 versions of the game, no matter which one you download its gonna be there, the developer of the game made the bug, there is nothing you can do about that.
+
+""Most of you know that the recent update has cause some new bugs. The most annoying of which, is the block regeneration. When you're holding down the ""break"" button with a tool, the blocks can regenerate up to like 5 times before dispersing entirely. Annoying huh!
+
+Well to fix this, break blocks without holding down the ""break"" button. So hold down the button just long enough for the block to break, then let go."""
+,r.yu,2010-11-21T08:06Z,http://uploadingcom/files/836f14ae/Minecraft.1.2.2.125.%2526.SMP.LAN.SERVER.%2526.NAME.SPOOFER.%2528NanoEntity%2529.rar/
+,r.yu,2010-11-21T08:06Z,"http://uploading(.)com/files/836f14ae/Minecraft.1.2.2.125.%2526.SMP.LAN.SERVER.%2526.NAME.SPOOFER.%2528NanoEntity%2529.rar/
+Theres a ddl"
+,csoffos,2010-11-21T23:41Z,"Hi, I'm using your older version of this(couldn't find the other page) and I don't really want to upgrade, considering the glitches. Can you tell me how to get LAN to work on the old one?
+I open Minecraft_Mod.jar, then I run minecraft_name and type in a name. I try to log in and it says Login Failed, so I choose play offline, Multiplayer, type in my IP Address, and then it times out connecting to the server. Can you tell me what I'm doing wrong?"
+,GarrydePineut,2010-11-21T23:44Z,"Hey, NanoEntity
+I was wondering how you could turn on monsters because there is not a single monster in my world even with difficulty on hard."
+,NanoEntity,2010-11-22T00:19Z,"csoffos 
+server IP ""xxx.xxx.xxx.xxx"" or ""xxx.xxx.xxx.xxx:25566"" or ""xxx.xxx.xxx.xxx:25565"" 
+
+To connect to your own server."
+,NanoEntity,2010-11-22T00:21Z,"GarrydePineut
+
+To turn monsters on SMP
+
+Edit
+server.properties"
+,GarrydePineut,2010-11-22T01:28Z,"Hey,
+me again, thanks it worked, i switched monsters from false to true, i understand why you had it turned off tho. here are a few more questions that are bugging me i hope you find the time to answere them.
+1) You can't create obisidian, lava and water changes into cobblestone, how can i fix this.
+2) Can you find redstone rocks at all, because i didnt encounter one yet.
+3) And the last question is, why can't i create hell gates. I tried to light my *admin made* obsidian and it didnt work. Any idea how to change this? Also i tried to turn hellgates from false to true but after that it didn't let me into my own server, So i had to turn it back to false."
+,Mwtwplyr,2010-11-22T03:43Z,"I recently downloaded this because my friend has it and it just looked awesome. I tried launching the launch.bat file as it says in the instructions, but I get an error saying ""Java is not recognized as an internal or external command, operable program or batch file. Sorry, kinda noob. Can you tell me what I'm doing wrong?"
+,csoffos,2010-11-22T03:45Z,"NanoEntity
+
+When I enter the IP, I try enter into the box
+xxx.xxx.xxx.xxx and when that fails,
+xxx.xxx.xxx.xxx:25565
+Then, let's say my IP is 94.265.353.54 
+I try entering that into the box, and it doesn't work, so I try
+94.265.353.54:25565
+
+No matter what I try, it tells me: 
+Failed to connect to the server
+Connection timed out: connect"
+,csoffos,2010-11-22T06:47Z,lol I figured out the problem. Thanks for the releases :)
+,NanoEntity,2010-11-22T10:18Z,"Mwtwplyr
+
+open launch.bat with notepad and edit java location on your computer
+
+Example:
+""C:\Program Files (x86)\Java\jre6\bin\java.exe"" -Xms512M -Xmx512M......"
+,NanoEntity,2010-11-22T10:22Z,"GarrydePineut READ what it says for
+
+ANTIGRIEF PACK:
+
+To remove the changes."
+,GarrydePineut,2010-11-22T19:38Z,I've read it and had it done before i made the server but all it changes is that lava flows and it still makes cobblestone instead of obsidian
+,NanoEntity,2010-11-22T21:02Z,"Only source lava blocks make obsidian in the game XD
+
+Not regular lava.
+
+Find the source block!"
+,GarrydePineut,2010-11-23T00:35Z,"It worked! I got a nethergate! Only one more question, can you actually go to the nether in multiplayer, or is it not yet a feature that the makers of the game have added. because i can't enter."
+,Lostmarine,2010-11-23T05:49Z,"Great! Works fine, thanks! The only problem is that every time i try to start my own server it says ""IP banned"" and I thought i did everything right. Any help?"
+,Lostmarine,2010-11-23T06:58Z,"Sorry i forgot, you can't join other servers with this, can you?"
+,NanoEntity,2010-11-23T07:13Z,"Delete
+
+banned-ips.txt
+banned-players.txt"
+,NanoEntity,2010-11-23T07:14Z,"You can only play on cracked servers
+
+AKA tunngle
+
+And no you cant play on real retail servers."
+,Lostmarine,2010-11-23T07:36Z,I dunno maybe i messed something up? i deleted those files but keep getting banned from server.
+,HamSammich,2010-11-23T07:46Z,"I got server Up and running but when I try to login 
+
+It says
+
+Disconnected by server
+Outdated Client!
+
+Its Installed exactly like the previous version and all 3 Minecraft(name and name_alt) have the same problem.
+
+
+
+
+
+"
+,HamSammich,2010-11-23T08:39Z,"NVM figured it out  for some reason was trying to run 2.1 server instead of 2.4
+
+Now to figure out setting admin powers afain so I can create blocks...
+
+
+Thanks again for the DL!"
+,xtrender,2010-11-23T15:16Z,"mine says that I have to register...
+what do i have to do?"
+,Lostmarine,2010-11-23T17:41Z,"Hey i fixed my mistake and entered my own server but then i can't move, and it spams me with /register "
+,NanoEntity,2010-11-23T19:02Z,"then /register password
+
+enter into chat."
+,Lostmarine,2010-11-23T21:49Z,"Sorry for my noobness, works fine. Thanks again!"
+,Lostmarine,2010-11-23T22:07Z,"Okay, I'm really sorry about my total noobness. Why can't i break blocks, build etc? and i gave my IP but they get error messages with ""time out"" and ""failed to connect"", would router affect that? Also thanks for all your help."
+,NanoEntity,2010-11-24T05:46Z,"Read the readme lol
+
+Do people ever read what i posted?
+
+CANT BUILD WHAT TO DO?
+##################################################
+All new users have to /register then /login
+
+All new users cant build, or interact with world.
+YOU as the ADMIN have to manually promote users and give them proper rights.
+
+All new users have to be promoted with this command.
+
+IN GAME
+/modify [player] groups [group]
+Example: /modify Jeff groups admins
+
+SERVER CONSOLE
+modify [player] groups [group]
+Example: modify Jeff groups admins
+
+There are 5 Ranks
+admins / administrators, people that you think there your family, else server will go BOOM, FIRE, DEAD....
+mods / Moderators, people you really really trust 200%, else kiss your server good bye.
+builders / Builders, people you trust 100%, people that been with the server for a while, builrders get fire,water... blocks.
+vip / Normal users that can build stuff, all users should be promoted to this rank first.
+ban / Users that cant do anything but walk around the world as a zombie, this is Default.
+"
+,NanoEntity,2010-11-24T05:47Z,"3. Open users.txt
+4. Add YOURNAMEHERE:admins
+5. Save ""users.txt"" and EXIT"
+,Lostmarine,2010-11-24T06:24Z,okay yea sorry -.-' but why is it that people can't join my server?
+,NanoEntity,2010-11-24T08:21Z,"That is your problem, not the server.
+
+Firewall, router, not open ports, many things.
+
+Giving people wrong ip.... etc..."
+,NanoEntity,2010-11-24T12:27Z,"NOTE UPDATE 1.2.3:
+This update breaks mostly all mods, plus has tons of bugs in SMP and SP.
+
+I suggest you wait for more stable version as NOTCH is updating it like every few hours, by tomorrow you might see v1.2.4 lol
+
+""The Word of Notch
+Iâ€™m expecting bugs on this one, so Iâ€™m monitoring the usual channels (irc, twitter, email) extra carefully.
+
+Basically everything I talked about in the last post is done, with some extras such as visible hurt animations (how did I forget that?) and visible fire on burning mobs.
+
+The lighting still isnâ€™t right, I need to rewrite it. I think I know what the problem is now, though. Or rather, I know what ONE problem is. You know when youâ€™re traveling by boat, and you see weird strips of light on the ocean floor in multiplayer? That.
+
+Also needed is visible armor on players and mobs (sheep!), and some tweaks to reduce laggy moving mobs. And bows and arrows.
+
+There are a couple of new settings for the server:
+pvp. True by default. If this is set to false, players canâ€™t hurt other players.
+spawn-monsters. True by default. Set to false to remove all monsters.
+spawn-animals. Also true by default. Set to false to remove all animals.
+
+[edit:]
+
+Wow, that broke the game. Hold on while I try to fix stuff.
+
+[edit:]
+
+Iâ€™ve uploaded a new server and a new client, fixing the two major bugs I heard about.
+I had to disable leaves decaying again (sorry!) because it caused infinite loops in certain situations.
+
+Keep me posted, and Iâ€™ll keep fixing!"""
+,NanoEntity,2010-11-25T04:19Z,"if he gets connection time out and you dont and you can log into the server.
+
+Then
+1) your firewall is on
+2) you didn't open ports if you have router
+3) his firewall is on
+4) he didn't open ports if he has router
+5) he dose something to his PC that dose not connect to server."
+,dragonphire7,2010-11-25T08:04Z,"i have 2 questions that may be linked, when i try to connect to the server i get ""end of stream"". the second question is in the server property file, i can't change the server-ip, when i launch it gets changed. what file do i need to edit to set the right server ip?"
+,NanoEntity,2010-11-25T09:59Z,"Your not so post to change the server IP
+
+Never change the default IP in the con fig files.
+
+go to whatsmyip.org
+And there is your server IP if your hosting server from your PC."
+,NanoEntity,2010-11-25T10:05Z,"About
+End of stream Error
+
+- Update your Java
+- Update the drivers of your network card
+- Turn down render distance in the options
+
+Start Button -> Control Panel -> Hardware and Sound -> Device Manager -> Network Adapters
+Right Click the YOUR NETWORK Card -> Properties -> Advanced
+
+***Select Each of the things with ""Checksum Offload"" and disable them.
+Click Okay"
+,GonnaCreepOnYou,2010-11-25T14:42Z,"Hi NanoEntity! Thanks for this release!
+
+I've been trying to make the server work for quite some time now. Here's my problem:
+
+I know you recommended using Tunngle, but I went with Hamachi instead since the free version requires no registration etc., reasons like that.
+
+But that's not the problem. This far I only managed to connect the server and the clients with Hamachi in a way I'm not supposed to. Others can join the server when I start with ""minecraft_server.jar"". This way I can change the server's IP in ""server.properties"" to the my computer's Hamachi IP. But this way the game is horribly buggy.
+
+By starting the server with ""launch.bat"" (like I should, according to the instructions) I can join my own server from the same machine and the whole thing seems more stable, but the server's IP cannot be changed, it will use the default 127.0.0.1. So others can't connect through Hamachi.
+
+What can I do?
+
+(Also, by running ""launch.bat"" there's no server GUI. Can I bring it forth somehow?)"
+,GonnaCreepOnYou,2010-11-25T15:02Z,"Oh and I forgot to mention that portforwarding doesn't work on my network. The reason is complicated, let's not get into that. That's why I chose Hamachi in the first place, because I knew I couldn't forward ports.
+
+As I said, others can connect without any problem when I change the server IP to the Hamachi virtual LAN IP and run ""minecraft_server.jar"", but ""launch.bat"" will start the server with 127.0.0.1, no matter what."
+,dragonphire7,2010-11-25T16:41Z,"thanks for the response. end of stream, did all that, still get error.
+
+as for server ip, i have the same type of issue as Creep, in the fact that the server is using 127.0.0.1 for the ip which is not the internal or external ip of the server. i don't have hamachi."
+,NanoEntity,2010-11-25T21:00Z,"""launch.bat""
+Has a Server Console
+Just type ""help"" for list of commands.
+
+127.0.0.1 - is Local Host/ is your own computer, is whatsmyip.org, ITS YOUR OWN IP ADDRESS! ITS YOUR SERVER ADDRESS, ITS TUNNGLE IP, ITS HAMACHI IP, don't make no difference.
+
+That is your server IP, changing it dose not matter at all, it dose nothing, 127.0.0.1 becomes for example 65.789.345.890, there the same IP, get it?
+
+Only thing that matters is PORT, if the PORT is not open no one will be able to connect.
+
+And Minecraft uses :25565 or :25566 or TUNNGLE 11155 or HAMACHI no idea what port it uses.
+1) Run Server
+2) Go to http://www.whatsmyip.org/ports/
+3) Look for Custom Port Test
+4) enter 1 of the ports listed above
+5) if 1 of them is open your good.
+6) if there all closed you can not host a server.
+
+And I strongly recommend tunngle, it supports over 255 users on same network and it works.
+"
+,free666free,2010-11-26T19:43Z,Want free premium account? http://www.youtube.com/watch?v=r4dQRDrA1dM
+,Nomederster,2010-11-29T02:02Z,"Thanks for the upload!
+
+How can I change my name from ""Player"" to something else?"
+,sadist14,2010-11-29T21:44Z,"I did every single step in the instructions. But i still cant promote my friend, I write /modify in game and modify in server console, it says modifed or smth, but they still cant interact with world. HELP HELP HELP HELP :((("
+,Nomederster,2010-11-30T02:21Z,"Figured out how to change the name, that was idiotic.
+
+Thanks again for the release!"
+,lolled14,2010-12-01T15:01Z,i have that problem with java iwe updated it now and im not sure did i do rigth with the path...
+,lolled14,2010-12-01T15:16Z,i mean when i try to play with my brother with lan ill create the server and it says that error always pls help me and sorry im pretty noob in this...
+,lolled14,2010-12-01T19:15Z,sorry about my comments before i did got it working but when i go play it loads the map all  the fking time the same damn spots and it lags like hell and sometimes i try to take sand or somthing but it just dissapears for few seconds and comes back pls help me
+,narfdude,2010-12-02T07:23Z,"You gonna upload a new server pack sometime soon? I know its still a bit unstable, but the new features are nice."
+,GarrydePineut,2010-12-03T22:53Z,"Hey, NanoEntity,
+
+Would you mind posting the newly patched minecraft soon please? It seems to me that its pretty much playable! Would be much appriciated!"
+,NanoEntity,2010-12-03T23:56Z,"The new BUILD is very un stable, there is a patch like every day.
+
+Also every server is broken right now, and yes that means even the premium users that payed for minecraft cant play on there SMP servers.
+
+Because NOTCH released so many changed the mods/plugin developers having hard time updating there stuff."
+,NanoEntity,2010-12-03T23:56Z,I will release  a Server BUILD when we get something more stable.
+,shamang37,2010-12-04T16:17Z,"I have a problem where when I run minecraft.exe and press ""Login"" without typing anything the game says ""Login failed. Play online once to enable offline."" And the ""play offline"" button is grayed out so that I can't click it. Does anyone else have this problem?"
+,Jomppane,2010-12-05T11:38Z,Java Virtual Machine Launcher: Fatal exception occurred. Program will exit. so i cant play Minecraft and i tried all versions and still the same problem
+,shamang37,2010-12-05T16:16Z,"Ok, I found out how to fix the problem.
+
+If you have a disabled ""Play offline"" button: (Thanks to OdeonDeathstalker & xaian)
+1. Open Minecraft.jar from wherever you downloaded the torrent to, then close the game. This creates the "".minecraft"" folder in the C:\Users\[UserName]\AppData\Roaming directory.
+2. Press Win+R (or go to Start -> Run if it's on your Start Menu), type %appdata% (exactly as shown) and press Enter. A Windows Explorer window will open to C:\Users\[UserName]\AppData\Roaming on Win7 or C:\Documents and Settings\[UserName]\Application Data\ for WinXP.
+3. Copy the contents of the ""minecraft 1.2.2.125"" (not the whole folder, but the contents of it) into the "".minecraft"" folder. 
+4. Open Minecraft.jar from %appdata%\.minecraft
+5. Type anything or nothing into the Username and Password boxes and click Login (Enter doesn't work). It will say ""Login Failed"", but the ""Play Offline"" button will not be grayed out, which it will be if opened from any other folder."
+,shamang37,2010-12-05T16:27Z,"Ok, I found out how to fix the problem.
+
+To anyone who has a disabled ""Play offline"" button: (Thanks to OdeonDeathstalker & xaian)
+1. Unzip the RAR archive into a folder anywhere, and then run the minecraft JAR file, then close it. This creates a "".minecraft"" folder in the %appdata% directory.
+2. Press Win+R (or go to Start -> Run if it's on your Start Menu), type %appdata% (exactly as shown) and press Enter. A Windows Explorer window will open to C:\Users\[UserName]\AppData\Roaming on Win7 or C:\Documents and Settings\[UserName]\Application Data\ for WinXP.
+3. Copy the contents of the "".minecraft"" folder from ""minecraft 1.2.2.125"" (not the whole folder, but the contents of it) into the "".minecraft"" folder which was just created in %appdata%.
+4. Open Minecraft.jar from %appdata%\.minecraft
+5. Type anything or nothing into the Username and Password boxes and click Login (Enter doesn't work). It will say ""Login Failed"", but the ""Play Offline"" button will not be grayed out, which it will be if opened from any other folder."
+,Tiwill,2010-12-07T20:01Z,"Hey, I got a little problem... for some reason, I can't take any damage from the monsters and from falling. Everything works fine, except I can't die... is there a way to fix that?
+
+Thanks."
+,Pordycus,2010-12-09T11:15Z,"Hy!
+
+NanoEntity
+
+When come the 1.2.6. LAN privat server version?"
+,thesancezzz,2010-12-09T17:25Z,"All join to mine minecraft hamachi server
+Owner Paulius-Cpu
+When i'm on then server is on
+minecraft ltu
+minecraft ltu1
+minecraft ltu2
+minecraft ltu3
+minecraft ltu4
+minecraft ltu5
+minecraft ltu6
+minecraft ltu7
+minecraft ltu8
+minecraft ltu9
+minecraft ltu10
+All password 123"
+,thesancezzz,2010-12-09T17:30Z,"*******************************************All join to mine minecraft hamachi server***
+**minecraft ltu goes from 1-10***************
+****E.G minecraft ltu1,minecraft ltu2*********
+***************************************************************************************************************************************************************************************************************All welcome**********************"
+,sadist14,2010-12-10T21:31Z,It would be nice if you could update the version because I heard that in newest the health system is working. Is that truth?
+,BulletBill22,2010-12-11T11:03Z,"Thanks for your hard work, NanoEntity, very fun. However, when I try playing multiplayer, mien and my friends' avatars spawn in a weird place with no blocks around. We have registered and logged in, and the server confirms this, but we do not find ourselves in any coherent setting. wat do?"
+,Pordycus,2010-12-11T20:46Z,"Yes new healt system working...
+
+i search very much time in internet about the 1.2.6. client and 0.2.8. server version crack but i dont find:(
+
+PLs nano make this crack my friends and me cannot wait more long:(
+
+greating from hungary"
+,BulletBill22,2010-12-11T21:23Z,"never mind, it stopped doing it. I don't know what the problem was but its been fixed."
+,Mwtwplyr,2010-12-13T05:54Z,So I'm still getting the Outdated Client shit. What the hell is going on? Besides Notch screwing everything up.
+,SirRudolph,2010-12-16T15:22Z,"Thanks for the upload NanoEntity, However I do have one question concerning the slip gate.
+
+I took out the AntiGrief pack for the server, and managed to build the slip gate, however it seems I cannot enter it, When I stand inside it the portal never actually activates.
+
+Can this be fixed?"
+,killer274,2010-12-18T05:59Z,"I get everything except when in join my server it says I have to /register. So I read the Readme but it doesnt explain how to do it, which means im probably doing something else wrong. if not the how do i access the console in game.
+thx"
+,bwtw10,2010-12-29T09:03Z,"hey guys, once again i'm trying to run online on this file, and all these people are talking about a hamachi server, i have hamachi but..... now what?"
+,bwtw10,2010-12-29T09:49Z,"also, need help, my chat wont work in sp"
+,SmegMaster,2010-12-29T23:05Z,"When i try to run the ""launch"" batch file in .minecraft server/bin it says:'Java' is not recognized as an internal or external commend, operable program or batch file press any key to continue . . . And when i press something the program just closes. Does anybody know a solution for this? An answer would be very much appreciated!"
+,SmegMaster,2010-12-29T23:39Z,Ok figured it out on my own.... sorry for double post. And thanks for the torrent! :D
+,GSMine,2011-01-09T03:33Z,"Hi, I had the same problem as the guy above me, trying to run launch.bat just comes up with the message of: ""'java' does not register as an internal or external command'. How can I fix this? Thanks in advance... I have followed all instructions."
+,GSMine,2011-01-09T03:50Z,"Well, it works, but how do I get my own server? I don't really know how to set one up using Tunngle, and I'm using launch.bat. I don't know how to get my own server ip to work! 127.0.0.1:25566 works perfectly (although it is a little laggy) but it has a pre-made world. How can I make it so that I have my own? "
+,bwtw10,2011-01-10T09:00Z,none of the commands work on my computer
+,acido121,2011-02-23T03:26Z,"If you started your own server but your friend can't connect you might have to port forward. Now I have no clue what the fuck this means but I managed to do it and now I can play with my friends =D
+
+This site tells you exactly how to do it (STEP BY STEP):
+http://portforward.com/
+
+This also helped:
+http://www.minecraftwiki.net/wiki/Tutorials/Setting_up_a_server#Configure_the_Minecraft_Server
+
+Any additional help:
+http://lmgtfy.com/?q=port+forward+minecraft
+
+If you some how accomplish this (which I doubt because the majority of you are idiots) use this TO SEE IF YOUR PORT IS OPEN:
+http://portforward.com/help/portcheck.htm
+(trust me. use this instead of portchecker.com or whatever the fuck websites. its a program but it worked when the sites i used didnt.)
+
+p.s. great torrent nano
+p.s.s. im not coming back to answer questions so figure it out mother fuckers"
+,Tapparasfy,2011-02-28T16:13Z,"PLEASE help me i've tried to get this work so bad but NO... I mean the problem is that I just cant be host, and i cant build anything, also i cant die.!? what is the problem
+
+you said 
+''4. Add YOURNAMEHERE:admins''
+
+BUT WHERE?! I have copied everywhere in the users txt file but it still doesnt work.. fuck"
+,JoinIn,2011-03-01T16:14Z,Please!!!! Make a torrent for beta 1.3_01 with NameSpoofer!!!
+,TobiaSSss,2011-05-07T18:37Z,"How do get creeps on my multiplay lan server? And it is night but nothing comes and i can only kill animals with tnt, Help me plz"

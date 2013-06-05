@@ -1,0 +1,194 @@
+WinRAR is a powerful archive manager (Win86/64, Linux, Mac). RAR files can usually compress content by 8 percent to 15 percent more than ZIP files can. WinRAR is a powerful compression tool with many integrated additional functions to help you organize your compressed archives. It can backup your data and reduce size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.
+WinRAR puts you ahead of the crowd when it comes to compression. By consistently creating smaller archives, WinRAR is often faster than the competition. This will save you disc space, transmission costs AND valuable working time as well. WinRAR is ideal for multimedia files. WinRAR automatically recognizes and selects the best compression method. The special compression algorithm compresses multimedia files, executables and object libraries
+
+Features of WinRAR:
+- Using WinRAR puts you ahead of the crowd when it comes to compression by consistently making smaller archives than the competition, saving disk space and transmission costs.
+- WinRAR provides complete support for RAR and ZIP archives and is able to unpack CAB, ARJ, LZH, TAR, GZ, ACE, UUE, BZ2, JAR, ISO, 7Z, Z archives.
+- WinRAR offers a graphic interactive interface utilizing mouse and menus as well as the command line interface.
+- WinRAR is easier to use than many other archivers with the inclusion of a special "Wizard" mode which allows instant access to the basic archiving functions through a simple question and answer procedure. This avoids confusion in the early stages of use.
+- WinRAR offers you the benefit of industry strength archive encryption using AES (Advanced Encryption Standard) with a key of 128 bits.
+- WinRAR supports files and archives up to 8,589 billion gigabytes in size. The number of archived files is, for all practical purposes, unlimited.
+- WinRAR offers the ability to create selfextracting and multivolume archives.
+Recovery record and recovery volumes allow to reconstruct even physically damaged archives.
+- WinRAR features are constantly being developed to keep WinRAR ahead of the pack.
+
+Version 4.00 beta 1:
+1. RAR decompression speed is improved. Depending on data type,
+decompression can be up to 30% faster than in previous versions.
+
+Both the general RAR algorithm and most of special RAR multimedia
+methods benefit from this improvement. The only module of RAR
+algorithm, which is not affected, is "Text compression" method.
+
+2. Changes in ISO support:
+
+a) UDF support is upgraded to UDF 2.50 revision. It makes possible
+to unpack most of Blue-ray ISO files;
+
+b) when browsing UDF ISO file, UDF revision number is displayed
+after the "UDF" format name in WinRAR address bar
+and in archive information dialog;
+
+c) WinRAR sets the folder modification date when unpacking folders
+stored in UDF and ISO9660 files.
+
+3. Changes in password dialog:
+
+a) WinRAR uses the same format of password dialog both when archiving
+and extracting, so "Show password" option is available also
+when extracting;
+
+b) "Organize passwords..." button in password dialog provides
+access to password organizer interface, where you can specify
+your frequently used passwords. You will be able to access these
+saved passwords using the drop down list or autocomplete feature
+in password dialog.
+
+It is important to know that saved passwords are not encrypted
+and anybody having access to your computer can view them.
+Use "Organize passwords" feature only if your computer is
+protected from unauthorized access;
+
+c) "Use for all archives" option is available in password dialog
+when unpacking several archives at once. You can utilize it
+to apply an entered password to all archives.
+
+If you use this option with an empty password, WinRAR will skip
+all encrypted archives.
+
+4. In Windows 7 WinRAR will display the total operation progress
+also on WinRAR icon on Windows taskbar. You can disable it using
+"Taskbar progress bar" option on "General" page of WinRAR settings.
+
+5. Numerous Unicode support improvements allow to process non-English
+file names more smoothly. These improvements include:
+
+a) better Unicode handling in WinRAR in "Rename", "Convert",
+"Find" and other commands, in folder tree panel, in password
+request dialog and in many other parts of WinRAR interface;
+
+b) correctly displayed Unicode names in WinRAR items in Explorer
+context menus;
+
+c) Unicode support in .lng files, making WinRAR localization
+possible for Unicode only languages.
+
+6. Changes in -x switch syntax. Now you can specify a wildcard
+exclusion mask for folders. Such mask must have the trailing ''
+character, like -x*tmp* or -x*temp
+
+7. New "Extract relative paths" option in "Advanced" part of extraction
+dialog. If you browse some archive subfolder in WinRAR shell
+and enable "Extract relative paths" option, the path part up to
+and including the current subfolder will be removed from extracted
+file paths.
+
+For example, if you are inside of "BackupMyData" archive folder
+and extract "Images" folder, it will be extracted as "Images",
+not as "BackupMyDataImages".
+
+This option is the new default extraction mode, but you can change
+the default back to WinRAR 3.x style. Just select "Extract full paths"
+and then press "Save settings" in "General" part of extraction dialog.
+
+8. Windows 98, Windows Me and Windows NT are not supported by WinRAR
+and WinRAR self-extracting modules anymore. Minimum Windows version
+required for WinRAR 4.0 is Windows 2000.
+
+If you need to run WinRAR on older Windows, you can download
+previous WinRAR versions from ftp://ftp.rarlab.com/rar
+
+9. If TAR, TAR.GZ or TAR.BZ2 archive contains symbolic or hard links
+and if destination file system is NTFS, WinRAR will create these
+links when unpacking such archive. WinRAR will create symbolic links
+as symbolic and hard links as hard in Windows Vista and newer
+and it will create all links as hard in older Windows.
+
+If destination file system is FAT32 or any other not supporting
+file links, WinRAR will skip links when unpacking TAR, TAR.GZ
+and TAR.BZ2 archives.
+
+10. Recovery volume processing involves less disk seek operations
+resulting in higher performance.
+
+11. You can select Windows 7 library in tree panel in extraction dialog
+and WinRAR will use its default save location as the destination path.
+
+12. "Report" command allows to select HTML, Unicode text and usual text
+as output format for report file. Unlike previous WinRAR versions,
+now WinRAR preservers Unicode characters in reports when using HTML
+or Unicode text format. So non-English characters in file names
+will be displayed properly in such reports.
+
+13. Message list in GUI SFX archives displays only operation status
+and error messages. It does not contain names of all extracted files
+anymore. This change improves the speed and reduces memory requirements
+for SFX archives containing a large number of files. Also it makes
+easier to locate error messages, because they are not hidden among
+extracted file names.
+
+14. GUI SFX archives display "Extract" button instead of "Install"
+if no "Setup" or "Presetup" commands are present in the archive
+comment. If you prefer "Install" button, but do not need to
+execute any setup programs, you can add "Setup" command
+without any parameters.
+
+15. WinRAR displays the current percent above the operation progress bar
+when repairing an archive containing the recovery record
+and when processing recovery volumes.
+
+16. WinRAR limits the maximum possible volume size to 4 GB minus 1 byte
+when creating RAR volumes on a disk with FAT or FAT32 file system
+in volume size autodetecting mode. These file systems do not support
+4 GB and larger files.
+
+17. If "Wait if other WinRAR copies are active" option is enabled
+and WinRAR waits for another copy, you can press "Continue" button
+in command progress window to force WinRAR to stop waiting.
+So now "Continue" button allows to override the state of
+"Wait if other WinRAR copies are active" option for current operation.
+
+18. WinRAR displays one password request instead of two, when saving
+an encrypted file back to RAR or ZIP archive after modifying it
+in some external editor. Previous WinRAR versions usually requested
+the password twice, both when extracting the original file
+and archiving its modified copy. Only RAR archives with encrypted
+file names were processed with the single password prompt.
+
+19. New error code 10 ("no files") is added to list of error codes
+returned in command line mode by RAR and WinRAR. This new code
+can be returned by archive, extract, delete and repair commands.
+It means that RAR did not find any files matched the specified
+file or archive mask.
+
+20. File name area in file overwrite dialog occupies several lines now.
+It makes possible to display much longer names.
+
+21. Bugs fixed:
+
+a) renaming a file in archive could also rename all other files
+with the same name in other folders of the same archive;
+
+b) previous versions displayed the wrong total packed size
+in "Info" command for multivolume CAB archives;
+
+c) in ZIP archives 'U' (update) and 'F' (fresh) commands could
+erroneously update even files not specified in the command line.
+It happened only for files in current folder which names matched
+files in ZIP archive. This bug was not present in usual 'A' (add)
+archiving mode.
+
+INSTALL NOTES:
+- Install the program do not start
+- Copy the file 'rarreg.key' to the main program directory
+- The default directory is C: / Program Files / WinRAR
+- Run program
+
+
+Screenshot:
+
+ 
+http://www.postimg.com/image/25000/24130.jpg
+
+
+ENJOY!

@@ -1,0 +1,87 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+               T H I S   T O R R E N T   I S   N O W   O B S O L E T E
+------------------------------------------------------------------------------------
+It is here only for archival. If you are new to F4UBCD you should search for the
+latest version. Due to TPB's current missing "edit" functionality, I can't come back
+to edit the latest version into each torrent.
+F4UBCD is now on Facebook: tiny url. com / F4UBCD   (f u, tpb url filter.)
+------------------------------------------------------------------------------------
+
+.......______                                                                      |
+       L,.   ',                                                                    |
+        \      ',_                                                                 |
+         \   @   ',                                                                |
+          \ ^~^    ',                                                              |
+           \    NR   ',                                                            |
+            \___'98fw  ',_                          _..----.._                     |
+            [______       "'==.I\_____________..--"(__\\_n@___4\,_                 |
+          ,..-=T         __   ____________          \/  "'" O(==  ""-+.._          |
+          I____|_____    }_)=========I)=**""''==-------------==-   " |   "'-.,___  |
+          [_____,.--'"             _______         ""--=(""-----=====+==--''""     |
+          ""'-=+..,,__,-----,_____|       |         -=* |                          |
+                      |__   /     |---,--'"---+------+-'"                          |
+                         """     d"b="        '-----+t                             |
+                                 q_p                '@                             |
+-----------------------------------------------------------------------------------+
+             F A L C O N F O U R   P R O U D L Y   P R E S E N T S                 |
+-------------+-------------------------------------+----------+--------------------+
+T I T L E    | FalconFour's Micro Boot CD v2.5     | D A T E  | Feb 18, 2010       |
+-------------+-------------------------------------+----------+--------------------+
+                            D E S C R I P T I O N                                  |
+-----------------------------------------------------------------------------------+
+A little preview of what's to come.
+
+Possibly the most powerful 50mb you will ever download. On this disc is a bootable
+Windows XP installation containing many useful tools for PC diagnostics and
+repair... or anything else you want to use it for. Live XP based on Hiren's XP 10.1
+gives you a working copy of Windows on any bootable PC, even without a hard drive.
+From there you can edit the PC's registry offline, run an offline Chkdsk, or run a
+quick offline temp file cleanup with CleanExternal. All sorts of cool offline stuff
+here.
+
+But 50mb gave me a little more room to work with. So I added a few DOS-based
+utilities as well, like Spinrite to refresh/repair a hard drive, PTEdit to reveal if
+your old system is 48-bit LBA compatible (137gb barrier on old IDE systems), and
+Kon-Boot to log in to any local account without a password - and without breaking
+the existing one. Pretty powerful stuff.
+
+Suck on that, Damn Small Linux.
+
+How'd this all start? Well, I had created a MiniBootCD of the v2.5 F4UBCD to fit on
+an 8cm 185mb CD-R (we had a lot of 'em laying around), and those became the de-facto
+shop standard. Then, I was browsing around and I saw a business-card CD-R that held
+50mb. Well, 50mb was about the size of the raw XP image. Why not try cramming it in
+there? Cram, I did. But in making it fit, I found some extra free space laying
+around. And I found that I could apply those techniques to other parts of the system
+as well. Next thing I knew, I was thinking of all the useful tools I could cram onto
+the disc. Instead of wasting space with flat floppy images, they're now cleared and
+GZipped, decompressed on startup with memdisk. And it worked well.
+
+Now you can see what's in store for v2.5 ahead of time. Since this isn't actually
+being used officially in shop I can give it to you guys for your consumption.
+Hopefully it'll make up for the relatively unpolished v2.0 (by current standards)!
+
+Once you dive into this disc, you'll never need another boot CD. (tm)
+
+Notes:
+
+Compression of the ISO isn't necessary... everything is so tightly packed, 7z'ing it
+would only save about 1mb, tops. Better to make it more convenient to use.
+
+The RAM image fills up fast after booting since it doesn't support file compression
+like NTFS does. So if you use network support, make sure you do it last, as you'll
+be likely to have 0 bytes free after starting it. Clear the *.pnf files from
+X:/i386/inf to free some space if needed.
+
+-----------------------------------------------------------------------------------+
+                                O N   T H E   D I S C                              |
+-----------------------------------------------------------------------------------+
+Live XP based on Hiren's XP 10.1
+ Includes: HD Tune Pro 4.01, RegEditPE v2.0 Beta, Ghost 11.5, fix_hdc, network
+  support, Keyfinder, NTPWEdit, RemoveWGA, Unstoppable Copier, 7-Zip, and Solitaire
+ Tweaks: Desktop icons, Taskmgr as task manager, 1024x768 res, 7-zip instead of UHA
+  compression, FAT32 image filesystem to save space, various other tweaks
+SpinRite 6.0
+PTEdit
+Memtest86+ 4.0
+Kon-Boot 1.1

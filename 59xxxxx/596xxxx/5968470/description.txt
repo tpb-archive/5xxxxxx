@@ -1,0 +1,67 @@
+velles fonctionnalitÃ©s, nouvelle barre des taches, une accessibilitÃ© simplifiÃ©e aux paramÃ¨tres de configuration sont au menu de cette version du futur systÃ¨me d'exploitation de Microsoft. Le design gÃ©nÃ©ral a Ã©tÃ© revu et les applications comme Paint ou WordPad adoptent l'aspect de la suite Office 2007. Un systÃ¨me de prÃ©visualisation des fenÃªtres en cours d'exÃ©cution est intÃ©grÃ© Ã  la barre des tÃ¢ches. Enfin, l'accent a Ã©tÃ© mis sur la simplification du contrÃ´le des pÃ©riphÃ©riques connectÃ©s au PC, du paramÃ©trage des fonctionnalitÃ©s rÃ©seaux et le partage des donnÃ©es sur le rÃ©seau local.
+
+Ã‰lÃ©ments dÃ©sactivÃ©s:
+
+* UAC (unitÃ© de control des actions) et la veille prolongÃ©e
+
+- Noyau Windows version v6.1.7600.20510.090819-1503
+- Fichiers WIM optimisÃ©s et donc plus lÃ©gÃ©s
+- DLL patchÃ©e pour ne pas avoir la partition cachÃ©e de 100MB lors du formatage
+- Changement de l'icÃ´ne par dÃ©faut du DVD
+- 78 Mises Ã  jour Post-RTM intÃ©grÃ©es (74 Windows + 3 WUA + 1 Silverlight)
+- Microsoft VirtualPC RTM 6.1.7600.16393
+- Microsoft Silverlight 3.0.40818.0
+- Microsoft DirectX Redistributable 9.27.1734 AoÃ»t 2009
+- SPTDinst x86 v1.60.0.0
+- MRT OCTOBRE 2009 v3.0.3003.0
+- Windows Update Agent v7.4.7600.226
+- HashCheck v2.1.9.0 pour l'onglet "hashage" dans les propriÃ©tÃ©s de fichiers
+- Fonts pack de Adobe CS4
+- Fonts pack de Adobe Font Folio 11
+- Ajout de la commande "Ouvrir une invite de commandes" au menu contextuel
+- DLL patchÃ©es pour supporter de nouveaux thÃ¨mes
+
+Drivers ajoutÃ©s (tous certifiÃ©s compatible Windows 7 x86 & WHQL):
+
+- Broadcom BTW v6.0.1.5400
+- Broadcom NetXtreme v11.7.3.0
+- Dell 2407WFP Monitor v2.0
+- HP Photosmart v61.063.247.00
+- Intel Chipset Software Installation Utility 9.1.1.1020
+- Jmicron JMB36x R1.17.50.2
+- Marvell Yukon Ethernet Controller 11.22.3.3
+- Microsoft USB Finger Printer Reader v1.0.0.3
+- nVidia GeForce 191.07
+- nVidia GeForce HD Audio 1.00.00.59
+- nVidia Mobile Display Driver 187.25
+- Realtek High Definition Audio R2.35
+- Realtek RTL8187 Wireless LAN v6.1313.0613.2008
+
+Optimisations de la Base de Registre
+
+- Toujours dÃ©charger les fichiers DLL
+- Supprime le support des Librairies dans Windows 7
+- Supprime les Librairies de l'explorateur de Windows 7
+- Supprime "porte-documents" du menu "nouveau" du menu contextuel
+- Augmente le nombre de connections simultanÃ©es de Internet Explorer 8
+- Supprime le fichier blanc sur le bureau
+- DÃ©sactivation du Marquage dernier accÃ¨s NTFS
+- DÃ©sactivation de la crÃ©ation de noms de fichier DOS 8.3
+- DÃ©sactivation de la compression sur les disques NTFS
+- Supprime "envoyers vers" du menu contextuel
+- DÃ©sactivation de l'UAC
+- AmÃ©lioration du cache DNS
+- Ne pas effacer le fichier d'Ã©change Ã  l'arrÃªt du PC
+- ArrÃªt rapide de l'ordinateur
+- Forcer le noyau de Windows 7 dans la RAM plutot que dans le fichier d'Ã©change
+- DÃ©sactivation des infos bulles "espace disque faible"
+- Ajout de la commande "Gestionnaire de PÃ©riphÃ©riques" au menu contextuel du bureau
+- Ajout de la commande "Ajout/Suppression de Programmes" au menu contextuel du bureau
+
+ElÃ©ments supprimÃ©s :
+
+- Ã‰chantillons d'image, Ã©chantillon de musique, toutes les langues sauf le FR
+
+- Ps : pas besoin de crack il es dÃ©jÃ  activer
+
+Plus stable et fiable

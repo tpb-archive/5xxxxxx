@@ -1,0 +1,10 @@
+App Runner 0.4.9 for Debian, Ubuntu and any GNOME-based system
+
+
+Features:
+*No need to mark the file as "executable" before running it
+*Run any executable/script that the host OS supports: ELF, BASH, Python, Perl... (.bin .sh .run .py, etc...)
+*Can run any program as a normal user, or as the root user
+*Works both with GUI (graphical) programs and CLI (command line) programs
+*Automatically expires the root session (on systems with sudo) before running any program (to increase security)
+*Automatically removes the "executable flag" after running the file (if App Runner added it)

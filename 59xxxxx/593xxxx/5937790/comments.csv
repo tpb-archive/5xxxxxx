@@ -1,0 +1,40 @@
+User Type,Username,Date,Text
+,slippry,2010-11-11T03:41Z,"have system menu 4.2u, usb loader gx, hermes 222(i believe)
+game loads, but when new case(game) slected, wii reboots ... have tried a few different settings inside of gx, nothing works. any help?"
+,mgnthe54,2010-11-11T11:08Z,"Jeu avec le Franรงais (sous-titre)
+merci
+
+game with French on it!
+thank you"
+,Eluisa,2010-12-06T03:55Z,"Just as slippry said, this file is corrupted. When you select a new case in game it reboots your Wii. I tested this on 3 different Wii's and 2 different loaders. It's ""bunk"" don't bother downloading it."
+,Wiiman1982,2010-12-11T08:27Z,"Requires ios56v65535 to play from disc.
+Google is your friend!"
+,drewkrew,2011-01-21T21:34Z,"Hmmm...
+I'm inclined to agree with the idea that this is corrupted, a bad dump, or damaged by over-scrubbing, as it also went wrong for me using so many different methods of loading and configurations.
+Game loads, displays opening credits, proceeds to main title menu, and as soon as you select ""NEW CASE: Case 1"" it immediately crashes the wii.
+The comment on updating cIOS files makes no difference i found...
+
+----------------------------
+My Nintendo Wii information:
+----------------------------
+REGION: United Kingdom (110)
+FORMAT: PAL
+FIRMWARE: V3.2E
+MOD CHIP: No
+SOFT MOD: Yes (soft mod pack installed - no modchips at all!)
+cIOS VERSION: cIOScorp v3.6 currently installed at present, all known cIOS revisions tried also etc etc
+PRELOADER VERSION: 0.27
+TESTED BY: uLoader - crashes. Disc Loading - crashes
+
+DrewKrew, United Kingdom"
+,drewkrew,2011-01-22T23:35Z,"Right, i have looked into this...
+THIS GAME WILL NOT RUN THROUGH A USB LOADER as it tries to reload IOS, which USB loaders can't do as the USB ports temporarily reset when the reload IOS command is sent and therefore drop the connection to the USB drive.
+THIS SHOULD LOAD FROM DISC THO.
+
+Which brings me to the main point here... 
+WHY SUPPLY THIS GAME AS A "".WBFS"" file? 
+WBFS files are for USB Loader use. This should have stayed as an "".iso"" disc image!"
+,joe_83,2011-01-23T16:30Z,"@drewkrew
+Would you rather take 5 minutes to convert to .iso or take a few extra hours and bandwidth to download the extra 3+ GB?"
+,ra_H,2011-01-24T22:21Z,Ok. I used wii backup manager to convert to iso and burn the image on to a disc. Now will this work or will my wii crash.
+,ftomi,2011-07-21T20:28Z,works fine with d2x and configurable usb loader and wiiflow

@@ -1,0 +1,68 @@
+Since Kaspersky started giving false positive (trojan-warning) to my previous version, 
+I'm not going to give any exe files anymore.
+Instead I'm giving the autohotkey script.  (You can manually edit and check it in notepad, if you think I'm supplying trojans around!) 
+
+To use
+1. Install Autohotkey from following place 
+http://www.softpedia.com/get/System/OS-Enhancements/AutoHotkey.shtml
+
+2. Double click on "Kaspersky_Key_Changer_Launch_ME.ahk" script provided in my torrent. >Window comes, there you drag-n-drop your key and it'll be installed.
+
+No need to punch any registration code or anything.
+I've created this tear-free, no0b friendly method to activate Kaspersky keys. 
+All you need is the keyfile, and you've to drag and drop it on my macro-program and it'll automatically install the key ;) [This is created using autohotkey, no virus, trojan, spam etc. I'm giving the source code as well]  
+http://bayimg.com/
+Screens
+How to use the software  
+http://farm5.static.flickr.com/4143/4896710637_f62dcfd93b_b.jpg
+
+How to delete a blacklisted key  
+http://farm5.static.flickr.com/4117/4896710643_a559cb4df2_b.jpg
+
+A new window pops out like this.
+Now Drag and drop your key file in it and it should install the keys.
+
+Important:
+1. If your previous keys are blacklisted, you should delete them, before using this 'drag and drop'. If you don't know how to delete the previous / blacklisted keys, then see this screenshot
+2. Autohotkey Users can launch the '[source-code].ahk' file given within the zip file and may even modify it)
+
+Tested on 
+-Microsoft XP SP3 (32-bit)
+-Kaspersky Internet Security 2011 (v. 11.0.1.400)
+-should work on Vista / Win7, as long as you've the Administrative rights.
+-For 64-bit systems, you can also do a drag-n-drop, please refer the 'geeky-stuff explained' at the bottom and create a shortcut like that.
+
+
+Troubleshoot:
+Q. How to delete a blacklisted keys?
+Ans. See the screen given in above 'important' section.
+
+Q. I drag-and dropped the key file but its not working? Kaspersky says my application is not activated?
+A. Many reasons, but the main is that you've to delete the previously blacklisted keys from the software before you can install the new keys. You can at max have 2 keys in your software.
+So first delete the previously blacklisted key before trying to install the new key. If you don't know how to delete the keys, then see this screenshot in above answer. Other reasons-
+
+Reason#1: You've incompatible key file
+The key file in your harddisk is of different version. Example, you've Kaspersky internet security(KIS) software but you're trying to activate it with Kaspersky Antivirus Software(KAV).
+Or perhaps the keyfile is already blacklisted or of older version software.
+Solution: Goto following web-page and download the latest key file for free  
+http://thepiratebay.org/user/ChattChitto/
+
+Reason#2: You don't have the administrative rights (You are using the computer via guest account etc) that's why program is not installing the keys.
+Solution: Log in to the different user account with Administrative rights and try again.
+
+Q. How to know if it worked or not? or How do I know if keys were installed or not?
+A. Well just double click on the Kaspersky icon in the traybar and you'll see the Kaspersky window. If on the right side bottom it says 'xyz days remaining' that means it worked. 
+
+Geeky stuff Explained: How this Macro file works? or the principle behind this software (Source Code )
+There is a 'avp.com' file in the Kaspersky installation folder, which allows you to install key files via command prompt.
+I've created a GUI-interface for that avp file, via Autohotkey script. And if you apply your brain, you can create a desktop shortcut for drag and drop and you won't even need my exe file.
+i.e.assuming that installation folder is default, the you can create a shortcut on desktop, with target path like
+
+C:\Program Files\Kaspersky Lab\Kaspersky Anti Virus 2011\avp.com" addkey 
+
+Now drag and drop keys on it and they'll be installed! 
+
+Here is the geek forum thread where I originally posted the script code 
+http://www.autohotkey.com/forum/topic61456.html&sid=a6b686605dc56b8f7a601bfbd540179e
+
+

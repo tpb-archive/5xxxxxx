@@ -1,0 +1,16 @@
+2010/11/06:
+
+abgx360 v1.0.3 released!
+
+Changes affecting all platforms:
+
+- Added full support for all current PFI/Video waves and the ability for future waves to be fully supported through updates to abgx360.dat
+- The SplitVid check is now mandatory when checking an ISO/DVD and the "Check Stealth" option is enabled (iXtreme LT requires SplitVid for XBL safety)
+
+Note: The GUI has not been changed and will still display version 1.0.2, don't worry about it as long as the CLI app displays v1.0.3
+
+Sorry for the long release interval but v1.1.0 is taking much longer than expected and hopefully this interim update will address the main concern people were having, even though v1.0.2 was designed to support new PFI/Video waves as long as the game was verified, v1.0.3 gets rid of the yellow text and also allows you to check SplitVid on newer games that haven't been verified yet. It does not, however, add automatic searching/patching of SS v2 files. That's something that isn't even finished in v1.1.0 yet, and there's still the matter of SS v3 to deal with.
+
+Note 2: XBL safety is very uncertain at the moment... The latest LT firmware for Samsung drives is considered by many to be fairly safe (since the TS-H943A ms25/ms28 original firmware doesn't support AP 2.5) but owners of other drives need to be very careful and upgrade to LT+ when it becomes available.
+
+Note 3: Just because the source code for abgx360 is made available, it does not imply a right to make changes and/or distribute source or binaries. Permission to do so is granted on a case-by-case basis. This is necessary to prevent people from distributing buggy code or binaries which may adversely affect the online database, or distributing potentially virus infected binaries on sites that appear official but are not. If you only need to make a small change to enable compilation on your system, permission is hereby granted to do so, as long as it does not affect the way abgx360 communicates with its online database in any way.

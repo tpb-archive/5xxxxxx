@@ -1,0 +1,28 @@
+DroidRootHelper v9 by CrotalusFreak
+ for Motorola Droid 
+
+Not tested against the Android OS on any other device!!
+I am not responsible for any damage that may occur due to use of this 
+application. The end user assumes full responsibility by using these files.
+
+Read the instructions that are provided in the application after installing the app before you do anything else. You will notice that there are several parts to this application. You do not need to download Linda File Manager or OI File Manager or attempt to download the tools folder. This package is the complete assembly.
+
+
+Installation:
+
+1.Transfer the Tools folder and the .apk to the root of the SD card on the device
+
+2.Install the .apk
+
+3.Open the app 
+
+4.Read all the provided instructions
+
+5.Mount the system read/write (the first time you will be asked to allow Superuser permissions, accept and remember)
+
+6.Install Busybox and flash_image
+
+7.Rename Recovery-from-Boot.p (this step prevents the OEM recovery from being reflashed on reboot)
+
+
+Requirements: The device MUST be rooted for anything to work!!

@@ -1,0 +1,29 @@
+User Type,Username,Date,Text
+,EzekielBlackmore,2010-11-08T16:11Z,Worked for me. Legit as far as I can see so far.
+,tpbl,2010-11-12T05:11Z,didn't worked for me could u plz tell me how u did that
+,brndz,2010-11-12T13:49Z,@tpbl I think you didn'd block Coda from connecting to panic.com. U can use Little Snitch for this.
+,xavierci,2010-12-04T12:41Z,"I've tried it out and the program keeps saying that the demo has run out and copying the file over does nothing, have block it from accessing internet with little snitch. Think the program is looking at the date of the program before even getting to the plist file?
+if anyone have gotten this to work pls write in detail how."
+,dwd,2010-12-04T14:20Z,".plist supplied works perfectly (also with ""vanilla"" Coda 1.7 downloaded from panic.com, for those who want to be sure they're running an untouched application). A tip: before starting Coda with this .plist, edit it and uncheck the two options for automatic version check and automatic download+install of updates."
+,dwd,2010-12-04T14:22Z,"Oh, and, for those of you who can't get this to work: you need to replace your current com.panic.Coda.plist in ~/Library/Preferences/ with the new one in this zip. It's all explained in the readme, if only you would've bothered reading it..."
+,xavierci,2010-12-04T15:34Z,"The txt file is one line so not hard to get and I have copied the file into the folder and also tried with editing the file and stop the update and version check BUT, still starts the program with demo feature saying that it's run out and I need to buy it or unlock it - i've even gotten the code from the plist file and tried, but won't work without internet access. If I enable internet it says that it's wrong (pirate)....So I am completely stuck at this point. Any help would be appreciated."
+,xavierci,2010-12-04T15:50Z,"Right after some searching around in the files I found the solution to the problem. IF the program starts up with Demo feature this is what you do.
+First download the files here and copy Coda to applications and the com.panic.Coda.plist to user / Library / preferences.
+Next download this free program to modify plists.
+
+http://www.nightproductions.net/prefsetter.html
+
+Before running Coda go to applications, find Coda and right-click - show package contents.
+Enter the Contents folder and you should see a info.plist file. Open this with prefsetter and find  CFBundleIdentifier, ninth from the top. To the right you should see com.panic.Coda - edit this and add .plist, so to com.panic.Coda.plist. Save the file and start Coda, should start up asking about updates which you can now say no to. Hope this helps ppl who are stuck with the Demo feature."
+,badbonkex,2011-01-28T16:08Z,"I had the ""official"" demo version from the panic.com site until it expired. I then deleted all the Coda stuff with AppCleaner.app (I recommend that app) by simply dragging Coda.app on AppCleaner.app - done. Quit AppCleaner.app, Empty Trash, download this .zip file, extract, find ~//Library/Preferences/, place the .plist file in there, move Coda.app into Applications, and done. Worked fine for me!"
+,badbonkex,2011-01-28T16:09Z,"correcting my earlier post, the path is ~/YOURUSERNAME/Library/Preferences"
+,hadareanrares,2011-02-08T07:19Z,"awesome torrent, it worked"
+,aziZeezoo,2011-06-09T18:18Z,"Works just fine for me, just follow xavierci instructions and you will have it right there in your Mac. Thanks uploader and thanks xavierci for the nice solution.  "
+,MPAAss,2011-07-28T17:13Z,"It updates to 1.7.4 and then doesn't work, giving an anti-piracy message."
+,jackdaniels617,2011-08-09T22:59Z,"Works in Lion, but you get an error every time you save a page. You need to upgrade to 1.7.4, which then deactivates the program... :("
+,jackdaniels617,2011-08-09T23:11Z,"Nevermind. Doesn't work in Lion, because even though it appears the files are saving remotely, they aren't."
+,MPAAss,2011-08-22T02:48Z,Need a Lion fix
+,midge218,2011-09-04T00:23Z,yep definately need a lion fix.
+,MPAAss,2011-09-10T19:08Z,any cracks for 1.7.4 anywhere? lion
+,czaras1,2011-10-07T12:02Z,still waiting for lion fix guys
+,cupidi,2011-10-24T22:55Z,@xavierci nice tutorial coda working fine on lion 10.7.2

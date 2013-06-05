@@ -1,0 +1,53 @@
+-----------------------------------------------
+WSUS Offline Update 6.6.4 Microsoft Update DVD
+-----------------------------------------------
+
+
+
+
+OPTIONS SELECTED (in WSUS Offline):
+-------------------------------------------------------------------
+	WSUS Offline Update 6.6.4 - Generator
+
+	Download Microsoft updates for...
+	* Winows XP English
+	* Windows Server 2003 English
+	* Windows 7 /Server 2008 R2 Global
+	* Microsoft Office 2007 English
+
+	Options
+	* Include Service Packs (for every product above-mentioned)
+	* Include .NET Framework 3.5 SP1 and 4
+
+	Create ISO image(s)...
+	* per selected language, 'x86-/x64-cross-product' (DVDs)
+	-----------------------------------------------------------
+
+
+
+How to use:
+-----------
+
+Burn ISO file to a DVD using your favorite program. Dont make a data disc, instead of that, use image burning mode.
+Disc is autorun-enabled. Or double-click UpdateInstaller.exe in the DVD and follow on-screen instructions.
+
+
+
+
+If you want to update:
+----------------------
+Can be updated (not required, only if you want) again by using WSUS Offline Update Software (not included).
+
+Download WSUS Offline Update (google it).
+Unzip it. There will be a folder wsusoffline.
+
+Download this ISO file "wsusoffline-enu-x86" (this torrent).
+Unzip it with Winrar Archiever or any other Zip program.
+
+Copy/cut all the contents and paste it in the folder wsusoffline\client folder
+
+Start WSUS Offline software
+Select the above mentioned options and make sure "Clean up download directories" is UNCHECKED (or elseit will delete all the contents of CLIENT folder and will start downloading from scratch.).
+Click Start button. It will compare, and will download only those files, which are new on Microsoft Servers. The files which are same, will not be downloaded.
+
+SEED....

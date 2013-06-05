@@ -1,0 +1,113 @@
+About
+
+This is the loader application thats used by millions of people worldwide, well known for passing Microsoft's WAT (Windows Activation Technologies) and is arguably the safest Windows activation exploit ever created. The application itself injects a SLIC (System Licensed Internal Code) into your system before Windows boots, this is what fools Windows into thinking it's genuine.
+
+
+Features
+
+    * Can be run as a standalone application
+    * Works well with all system languages
+    * Argument support for silent installs
+    * Can be used for pre-activation
+    * Application integrity checking
+    * Custom error handling
+    * Support for hidden partitions and complex setups
+    * Can work alongside Linux's GRUB or any other boot manager
+    * Works with TrueCrypt and many other types of hard drive encryption applications
+    * Add your own certificates and serials externally
+    * Offers certificate and serial installation only for users with an existing SLIC 2.1
+    * Automated system profiling (The application matches everything up for you)
+
+
+The rundown
+
+    * Compatible with all Windows updates ? check
+    * This will run on x86 and x64 systems ? check
+    * This can activate all Windows versions at the same time, just install it on each ? check
+    * No core system files get modified ? check
+    * No extra processes are run so you have nothing eating at your RAM ? check
+    * All key parts of the exploit are encrypted with a custom encryption ? check
+    * The exploit runs before Windows so it's harder for Microsoft to prevent ? check
+    * The exploit patches all necessary tables making activation look authentic ? check
+    * The application will select the best profile for your system during installation ? check
+    * Each and every user has a unique version of the exploit installed on his/her system ? check
+
+
+Supported operating systems
+
+    * Windows 7 Ultimate
+    * Windows 7 Professional
+    * Windows 7 Home Premium
+    * Windows 7 Home Basic
+    * Windows 7 Starter
+    * Windows Vista Ultimate
+    * Windows Vista Business
+    * Windows Vista Business N
+    * Windows Vista Home Premium
+    * Windows Vista Home Basic
+    * Windows Vista Home Basic N
+    * Windows Vista Starter
+    * Windows Server 2008 R2: Enterprise
+    * Windows Server 2008 R2: Standard
+    * Windows Server 2008 R2: Foundation
+    * Windows Server 2008: Enterprise
+    * Windows Server 2008: Standard
+    * Windows Server 2008: Foundation
+    * Windows Small Business Server 2008
+
+Note: You must be running build 7600 or greater for Windows 7 and Windows Server 2008 R2.
+Note: Windows 7 N and E editions will only be supported when OEM SLP serials leak for them editions.
+
+
+Application integrity checking?
+
+Hover your mouse over the green, amber or red icon to see detailed application information.
+
+Version 1.9.5 changes (11/23/2010):
+* Added a new GRLDR version which fixes a bug that prevented activation on systems with an XSDT
+
+Version 1.9.4 changes (11/21/2010):
+* Added a new GRLDR version (Improves the ignore existing SLIC function)
+* Disabled table sorting by default for compatibility reasons
+* Added an option to disable type 3 memory as well as an option to reverse the SLIC search direction
+* Displays motherboard version to help with debugging
+* Added ECS, Dealin, Higrade and KSystems SLIC's
+* Added HCL, KSystems and MSI Home Basic serials
+* Added MSI Professional serial
+* Added Dealin Home Premium serial
+* Other minor tweaks and fixes
+
+MD5: dd4ba2d1b33e1e6d45ef343d1bfd7659
+SHA-1: 11471d2dfd15e32c9881f97c4e3d6b61bde6b5b1
+
+
+Instructions:
+
+1.Extract the folder
+
+2.Install Windows Loader
+
+3.Restart your computer
+
+4.Done
+
+
+
+
+For reporting bad or suspicious torrents:        
+http://forum.suprbay.org/forumdisplay.php?fid=29
+
+Report Comment Spammers Here:      
+http://forum.suprbay.org/showthread.php?tid=51644
+
+
+
+It is scanned by using Kaspersky and Norton antivirus, and its completely virus free, Please help me by seeding my torrents.
+
+
+
+For more downloads please visit http://thepiratebay.org/
+
+
+Cheers Matey! :-)
+		

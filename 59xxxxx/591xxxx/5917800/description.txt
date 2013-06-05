@@ -1,0 +1,22 @@
+GpsGate v2.6 build 365 for Windows Vista/XP/2k/NT/9x/ME
+ 
+http://gpsgate.com/products/gpsgate_client
+
+--
+
+GpsGate for 64-bit / x64 Vista and Windows 7
+
+If you use 64-bit Vista please follow those steps.
+(If you are unsure, simply install GpsGate normally first, if Virtual ports does not work - follow those steps)
+
+1. Install GpsGate for Windows 2.6 build 340 (or later)
+
+2. After installation copy the file 
+C:\Program Files (x86)\Franson\GpsGate 2.0\x64\bizVSerialNT.sys
+to C:\Windows\System32\Drivers
+
+3. Exit GpsGate (if running)
+
+4. Run GpsGate as Administrator once. (Right click on the GpsGate icon in the Start Menu and select "Run as administrator")
+
+Now the 64-bit driver is installed. You can exit GpsGate and run it as a normal user.

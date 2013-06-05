@@ -1,0 +1,84 @@
+the latest release of a custom minecraft
+
+Custom Client Fixes and Mods in this Release: 
+* Pre-Patched High Definition (HD) Textures (128 x 128)
+* Pre-installed some of the most popular HD texture packs
+* Working Hell/Nether Teleportation in Multiplayer!
+* Improved Multi Player chat system. Scroll through the last 300 messages. Ctrl+C to copy and Ctr+V to paste. All chat is logged to chatlog.txt
+* Couple of other small fixes that I may have forgotten
+
+please seed, as we need more right now
+enjoy
+
+General fixes:
+* players and mobs in lava or fire no longer spam sound effects
+* getting hit with a higher damage while recovering from a smaller one now works as intended
+* lava flows further in the Nether
+* zombie pigs eventually forgives
+* added support for custom skin packs
+* fixed duplicate buttons when resizing screens
+* zombie pigs and ghasts no longer get hurt by fire or lava
+* fixed volume sliders now saving properly
+
+Multiplayer fixes:
+* hellworld=true no longer overwrites old save chunks. Player positions will still break if you switch it on a running server, though
+* boats are now visible to other players
+* minecarts move nicer
+* fishing kinda sorta works, but needs more work
+* sheep and cows look like sheep and cows now
+* buckets work now
+* fixed stairs being really difficult to destroy
+* increased the timeout before â€œTook too long to log inâ€
+* made it possible to ride carts and boats
+* added (after lots of work) the ability to steer server-side boats
+* added â€œno-animalsâ€ setting. if true, animals will immediately vanish
+* added support for more animation settings. Currently itâ€™s just the â€œridingâ€ animation, but the same system will be used for sneaking
+
+
+Upgrading?
+
+*As this is a massive update. I highly recommend DELETING your old 
+.minecraft folder before installing this one, you may exclude your "saves" folder
+if you want to preserve your old SP maps*
+UNPACK your RAR into your old .minecraft folder. 
+Run Launch.bat files (Requires 1GB ram). Tada!
+
+
+=======================================================
+
+How to use HD texture packs?
+
+Go into folder ".minecraft/Install HD Texture Packs"
+Pick any .bat file... run it. and it new textures will be loaded the 
+next time you launch MineCraft.
+
+
+=======================================================
+
+Quick Instructions:
+
+UNPACK your RAR into %appdata% folder.
+Make Sure you change "Your User Name" with your actual username
+
+Windows 7: 
+C:\Users\Your User Name\Appdata\Roaming\.minecraft
+
+Windows Vista: 
+C:\Users\Your User Name\Appdata\Roaming\.minecraft
+
+Windows XP: 
+C:\Documents and Settings\Your User Name\Local Settings\Application Data\.minecraft
+
+
+That's ALL now Run "Launch.bat" or "Launch_x64.bat" to play!
+If you have Win7 and 64bit Java with 4GB or more RAM you can run "Launch_x64_4GB.bat" (5GB or more required)
+
+
+Works well ONLINE on ALL FREE & LEGIT Servers.
+
+Released by Kaen
+18th Nov 2010
+
+There are NEVER any Viruses, Trojans or Malware hidden in my releases. 
+Please decompile them and see for yourself before making wild accusations.
+TOTALLY LEGIT!  

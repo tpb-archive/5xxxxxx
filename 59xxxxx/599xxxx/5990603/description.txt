@@ -1,0 +1,35 @@
+Winrar 4.00 Beta 2 svensk 32-bit + 64-bit
+RePacked by nwz ingen patch behÃ¶vs
+
+Version 4.00 beta 2
+
+   1. "Reenter password for verification" field is not displayed in password
+      dialog when extracting or opening an encrypted archive. It is present
+      only when archiving and only if "Show password" option is off.
+
+   2. If you enabled "Use for all archives" option when entering the default
+      password (Ctrl+P) and specified the empty password, extract and test
+      commands will skip all encrypted archives.
+
+   3. If you prefer to use "Install" button instead of "Extract"
+      in SFX module, but do not need any setup programs, you can add
+      "Setup=<>" command to archive comment or enter "<>" as setup name
+      in "Advanced SFX options" dialog.
+
+      We changed it to "Setup=<>" instead of "Setup" as in the first beta,
+      because presence of specific parameter allows to enable this mode also
+      through "Advanced SFX options" dialog, by entering "<>" as setup name.
+
+   4. Bugs fixed:
+
+      a) extraction operation activated from Explorer context menu could fail
+         if several archives were selected and processed at once;
+
+      b) WinRAR window title did not contain the current disk name,
+         when browsing the root disk folder;
+
+      c) items related to extraction were not present in Explorer context menu
+         for 7-Zip self-extracting archives;
+
+      d) sorting by "Type" in WinRAR shell did not work inside of archives.
+

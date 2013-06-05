@@ -1,0 +1,1288 @@
+LinuxCBT Security Edition(Reupload)
+
+
+
+LinuxCBT Security Edition encompasses 11 pivotal security modules:
+
+1. Security Basics (fundamentals)
+2. Proxy Security feat. Squid
+3. Firewall Security feat. IPTables
+4. SELinux Security - MAC-based Security Controls
+5. Network Intrusion Detection System (NIDS) Security feat. SnortÂ® NIDS
+6. Packet | Capture | Analysis Security feat. EtherealÂ®|WireSharkÂ®
+7. Pluggable Authentication Modules (PAM) Security
+8. Open Secure Shell version 2 (OpenSSHv2) Security
+9. OpenPGP with Gnu Privacy Guard (GPG) Security
+10. Secure File Transfer Protocol (SFTP) Security
+11. Berkeley Packet Filters (BPF) Security
+
+
+
+
+Basic Security - Module I
+
+* Boot Security
+o Explore Dell PowerEdge BIOS Security-related features
+o Discuss concepts & improve Dell PowerEdge BIOS security
+o Explain run-time boot loader vulnerabilities
+o Explore single-user mode (rootshell) and its inherent problems
+o Modify default GRUB startup options & examine results
+o Secure boot loader using MD5 hash
+o Identify key startup-related configuration files & define boot security measures
+o Identify key boot-related utilities
+o Confirm expected hardware configuration
+o Discuss INIT process, runlevel configuration & concepts
+o Explore & tighten the security of the INIT configuration
+*
+* Shell Security
+o Confirm expected applications
+o Discuss Teletype Terminals (TTYs) and Pseudo Terminals (PTS)
+o Identify common TTYs and PTSs
+o Track current TTYs and PTSs - character devices
+o Discuss concepts related to privileged and non-privileged use
+o Restrict privileged login
+o Use SSH and discuss TTYs
+o Discuss the importance of consistent system-wide banners & messages
+o Define and configure system banners for pre and post-system-access
+o Identify user-logon history and correlate to TTYs
+o Identify current user-connections - console-based and network-based
+o Use lsof to identify open files and sockets
+*
+* Syslog Security
+o Discuss Syslog concepts and applications
+o Explain Syslog semantics - facilities & levels - message handling & routing
+o Focus on security-related Syslog facilities
+o Examine security logs managed by Syslog
+o Configure Network Time Protocol (NTP) on interesting hosts
+o Secure NTP configuration
+o Ensure time consistency to preserve log-integrity
+o Configure Syslog replication to preserve log-integrity
+o Identify log discrepancies between Syslog hosts
+*
+* Reconnaissance & Vulnerability Assessment Tools
+o Discuss Stage-1 host/network attack concepts
+o Upgrade NMAP reconnaissance tool to increase effectiveness
+o Identify NMAP files
+o Discuss TCP handshake procedure
+o Discuss half-open/SYN connections
+o Perform connect and SYN-based host/network reconnaissance
+o Identify potential vulnerabilities on interesting hosts derived from reconnaissance
+o Examine NMAP logging capabilities
+o Perform port sweeps to identify common vulnerabilities across exposed systems
+o Secure exposed daemons/services
+o Perform follow-up audit to ensure security policy compliance
+o Discuss vulnerability scanner capabilities and applications
+o Prepare system for Nessus vulnerability scanner installation - identify/install dependencies
+o Generate self-signed SSL/TLS certificates for secure client/server communications
+o Activate Nessus subscription, server and client components
+o Explore vulnerability scanner interface and features
+o Perform network-based reconnaissance attack to determine vulnerabilities
+o Examine results of the reconnaissance attack and archive results
+o Secure exposed vulnerabilities
+*
+* XINETD - TCPWrappers - Chattr - Lsattr - TCPDump - Clear Text Daemons
+o Install Telnet Daemon
+o Install Very Secure FTP Daemon (VSFTPD)
+o Explore XINETD configuration and explain directives
+o Configure XINETD to restrict communications at layer-3 and layer-4
+o Restrict access to XINETD-protected daemons/services based on time range
+o Examine XINETD logging via Syslog
+o Discuss TCPWrappers security concepts & applications
+o Enhance Telnetd security with TCPWrappers
+o Confirm XINETD & TCPWrappers security
+o Discuss chattr applications & usage
+o Identify & flag key files as immutable to deter modifcation
+o Confirm extended attributes (XATTRs)
+o Discuss TCPDump applications & usage
+o Configure TCPDump to intercept Telnet & FTP - clear-text traffic
+o Use Ethereal to examine & reconstruct captured clear-text traffic
+*
+* Secure Shell (SSH) & MD5SUM Applications
+o Use Ethereal to examine SSH streams
+o Generate RSA/DSA PKI usage keys
+o Configure Public Key Infrastructure (PKI) based authentication
+o Secure PKI authentication files
+o Use SCP to transfer files securely in non-interactive mode
+o Use SFTP to transfer files securely in interactive mode
+o Configure SSH to support a pseudo-VPN using SSH-Tunnelling
+o Discuss MD5SUM concepts and applications
+o Compare & contrast modified files using MD5SUM
+o Use MD5SUM to verify the integrity of downloaded files
+*
+* GNU Privacy Guard (GPG) - Pretty Good Privacy (PGP) Compatible - PKI
+o Discuss GPG concepts & applications - symmetric/asymmetric encryption
+o Generate asymmetric RSA/DSA GPG/PGP usage keys - for multiple users
+o Create a local web of trust
+o Perform encrypts/decrypts and test data-exchanges
+o Sign encrypted content and verify signatures @ recipient
+o Import & export public keys for usage
+o Use GPG/PGP with Mutt Mail User Agent (MUA)
+*
+* AIDE File Integrity Implementation
+o Discuss file-integrity checker concepts & applications
+o Identify online repository & download AIDE
+o Install AIDE on interesting hosts
+o Configure AIDE to protect key files & directories
+o Alter file system objects and confirm modifications using AIDE
+o Audit the file system using AIDE
+*
+* Rootkits
+o Discuss rootkits concepts & applications
+o Describe privilege elevation techniques
+o Obtain & install T0rnkit - rootkit
+o Identify system changes due to the rootkit
+o Implement T0rnkit with AIDE to identify compromised system objects
+o Implement T0rnkit with chkrootkit to identify rootkits
+o T0rnkit - rootkit - cleanup
+o Implement N-DU rootkit
+o Evaluate system changes
+*
+* Bastille Linux - OS-Hardening
+o Discuss Bastille Linux system hardening capabilities
+o Obtain Bastille Linux & perform a system assessment
+o Install Bastille Linux
+o Evaluate hardened system components
+*
+* NPING - Flexible Packet Crafting
+o Discuss benefits
+o Download and install
+o Explore typical usage
+*
+* Nikto - Web Server Vulnerability Scanner
+o Download and install
+o Discuss configuration options
+o Scan web servers
+o Evaluate results
+*
+* top
+
+Proxy Security - Module II
+
+* Squid Proxy Initialization
+o Discuss Squid concepts & applications
+o Discuss DNS application
+o Configure DNS on primary SuSE Linux server for the Squid Proxy environment
+o Confirm DNS environment
+o Start Squid and evaluate default configuration
+o Install Squid Proxy server
+*
+* General Proxy Usage
+o Configure web browser to utilize proxy services
+o Grant permissions to permit local hosts to utilize proxy services
+o Discuss ideal file system layout - partitioning
+o Explore key configuration files
+o Use client to test the performance of proxy services
+o Discuss HIT/MISS logic for serving content
+o Configure proxy support for text-based (lftp/wget/lynx) HTTP clients
+*
+* Squid Proxy Logs
+o Discuss Squid Proxy logging mechanism
+o Identify key log files
+o Discuss & explore the Access log to identify HITS and/or MISSES
+o Discuss & explore the Store log to identify cached content
+o Convert Squid logs to the Common Log Format (CLF) for easy processing
+o Discuss key CLF fields
+o Configure Webalizer to process Squid-CLF logs
+o Revert to Squid Native logs
+o Discuss key Native log fields
+o Configure Webalizer to process Squid Native logs
+*
+* Squid Network Configuration & System Stats
+o Discuss cachemgr.cgi Common Gateway Interface(CGI) script
+o Explore the available metrics provided by cachemgr.cgi
+o Change default Squid Proxy port
+o Modify text/graphical clients and test communications
+o Discuss Safe Ports - usage & applications
+*
+* Squid Access Control Lists (ACLs)
+o Intro to Access Control Lists (ACLs) - syntax
+o Define & test multiple HTTP-based ACLs
+o Define & test ACL lists - to support multiple hosts/subnets
+o Define & test time-based ACLs
+o Nest ACLs to tighten security
+o Implement destination domain based ACLs
+o Exempt destination domains from being cached to ensure content freshness
+o Define & test Anded ACLs
+o Discuss the benefits of Regular Expressions (Regexes)
+o Implement Regular Expressions ACLs to match URL patterns
+o Exempt hosts/subnets from being cached or using the Squid cache
+o Force cache usage
+o Configure enterprise-class Cisco PIX firewall to deny outbound traffic
+o Configure DNS round-robin with multiple Squid Proxy caches for load-balancing
+o Discuss delay pool concepts & applications - bandwidth management
+o Configure delay pools - to support rate-limiting
+o Examine results of various delay pool classes
+o Enforce maximum connections to deter Denial of Service (DoS) attacks
+o Verify maximum connections comply with security policy
+*
+* Squid Proxy Hierarchies
+o Discuss Squid cache hierarchy concepts & applications
+o Ensure communications through a primary cache server - double-auditing
+o Discuss and configure parent-child bypass based on ACLs
+o Configure Intranet ACLs for peer-cache bypass
+o Discuss & implement Squid cache hierarchy siblings
+o Configure transparent proxy services
+*
+* Squid on Windows
+o Download & Install
+o Manipulate configuration
+o Test connectivity from multiple platforms
+o Evaluate results
+*
+* Reverse Proxy
+o Install Squid3
+o Configure forward proxy access for local subnet
+o Test connectivity
+o Discuss reverse proxy features
+o Configure reverse proxy
+o Evaluate results
+*
+* top
+
+Firewall Security - Module III
+
+* Intro IPTables
+o Discuss key IPTables concepts
+o OSI Model discussion
+o Determine if IPTables support is available in the current kernel
+o Identify key IPTables modules and supporting files
+o Explore and examine the default tables
+o Learn IPTables Access Control List (ACL) syntax
+o Discuss ACL management
+o Learn to Save & Restore IPTables ACLs
+*
+* IPTables - Chain Management
+o Explore the various chains in the default tables
+o Discuss the purpose of each chain
+o Examine packet counts & bytes traversing the various chains
+o Focus on appending and inserting new ACLs into pre-defined chains
+o Write rules to permit common traffic flows
+o Delete & Replace ACLs to alter security policy
+o Flush ACLs - reset the security policy to defaults
+o Zero packet counts & bytes - bandwidth usage monitoring
+o Create user-defined chains to perform additional packet handling
+o Rename chains to suit the security policy/nomenclature
+o Discuss & explore chain policy
+*
+* IPTables - Packet Matching & Handling
+o Explain the the basics of packet matching
+o Identify key layer-3/4 match objects - (Source/Dest IPs, Source/Dest Ports, etc.)
+o Explore the multi-homed configuration
+o Block traffic based on untrusted (Internet-facing) interface
+o Perform packet matching/handling based on common TCP streams
+o Perform packet matching/handling based on common UDP datagrams
+o Perform packet matching/handling based on common ICMP traffic
+o Write fewer rules (ACLs) by specifying lists of interesting layer-4 ports
+o Discuss layer-3/4 IPTables default packet matching
+o Discuss default layer-2 behavior
+o Increase security by writing rules to match packets based on layer-2 addresses
+*
+* IPTables - State Maintenance - Stateful Firewall
+o Discuss the capabilities of traditional packet-filtering firewalls
+o Explain the advantages of stateful firewalls
+o Examine the supported connection states
+o Identify key kernel modules to support the stateful firewall
+o Implement stateful ACLs & examine traffic flows
+*
+* IPTables - Targets - Match Handling
+o Discuss the purpose of IPTables targets for packet handling
+o Write rules with the ACCEPT target
+o Write rules with the DROP target
+o Write rules with the REJECT target
+o Write rules with the REDIRECT target
+o Confirm expected behavior for all targets
+*
+* IPTables - Logging
+o Explore Syslog kernel logging configuration
+o Define Access Control Entry (ACEs) to perform logging
+o Explain the key fields captured by IPTables
+o Log using user-defined chain for enhanced packet handling
+o Log traffic based on security policy
+o Define a catch-all ACE
+o Use ACE negation to control logged packets
+o Label log entries for enhanced parsing
+*
+* IPTables - Packet Routing
+o Describe subnet layout
+o Enable IP routing in the kernel - committ changes to disk
+o Update routing tables on the other Linux Hosts on the network
+o Update the Cisco PIX Firewall\'s routing tables
+o Test routing through the Linux router, from a remote Windows 2003 Host
+o Focus on the forward chain
+o Write ACEs to permit routing
+o Test connectivity
+*
+* IPTables - Network Address Translation (NAT)
+o Discuss NAT features & concepts
+o Discuss & implement IP masquerading
+o Define Source NAT (SNAT) ACEs & test translations
+o Create SNAT multiples
+o Implement Destination NAT (DNAT) ACEs & test translations
+o Define DNAT multiples
+o Create NETMAP subnet mappings - one-to-one NATs
+*
+* IPTables - Demilitarized Zone (DMZ) Configuration
+o Describe DMZ configuration
+o Write Port Address Translation (PAT) rules to permit inbound traffic
+o Test connectivity from connected subnets
+o Configure DMZ forwarding (Routing)
+o Implement Dual-DMZs - ideal for n-tiered web applications
+*
+* IPTables - IPv6
+o Explore IPv6 configuration
+o Peruse IPv6 IPTables management tools
+o Log and Filter ICMPv6 traffic
+o Log and Filter TCPv6 traffic
+o Log and Filter UDPv6 traffic
+o Use \'nping\' to generate IPv6 traffic for analysis
+o Create IPv6 Sub-Chains to manage rules
+o Evaluate results
+*
+* top
+
+SELinux Security - Module IV
+
+* Access Control Models
+o Describe Access Control Model (ACM) theories (DAC/MAC/nDAC)
+o Explain features & shortcomings of Discretionary Access Control (DAC) models
+o Identify key DAC-based utilities
+o Discuss the advantages & caveats of Mandatory Access Control (MAC)models
+o Explore DAC-based programs
+*
+* SELinux - Basics
+o Discuss subjects & objects
+o Explain how SELinux is implemented in 2.6.x-based kernels
+o Confirm SELinux support in the kernel
+o Identify key SELinux packages
+o Use sestatus to obtain the current SELinux mode
+o Discuss subject & object labeling
+o Describe the 3 SELinux operating modes
+o Identify key utilities & files, which dictate the current SELinux operating mode
+o Focus on the features of SELinux permissive mode
+o Explore the boot process as it relates to SELinux
+*
+
+* SELinux - Object Labeling
+o Discuss subject & object labeling
+o Discuss the role of extended attributes (XATTRs)
+o Expose the labels of specific objects
+o Alter the lables of specific objects
+o Configure SELinux to automatically label objects per security policy
+o Reset the system and confirm labels on altered objects
+o Explain security tuples
+o Use fixfiles to restore object labels on running system per security policy
+*
+* SELinux - Type Contexts - Security Labels Applied to Objects
+o Intro to object security tuples - security labels
+o Attempt to serve HTML content using Apache in SELinux enforcing mode
+o Identify problematic object security labels
+o Serve HTML content in SELinux permissive mode
+o Use chcon to alter object security labels
+o Switch to enforcing mode & confirm the ability to serve HTML content
+o Use restorecon to restore object security context (labels)
+*
+* SELinux - Basic Commands - Type & Domain Exposition
+o ps - reveal subjects\' security context (security label) - Domains
+o ls - reveal objects\' security label - Types
+o cp - preserve/inherit security labels
+o mv - preserve security labels
+o id - expose subject security label
+*
+* SELinux - Targeted Policy - Binary
+o Explain the Targeted Policy\'s features
+o Discuss policy transitions for domains
+o Compare & contrast confined & unconfined states
+o Exempt Apache daemon from the auspicies of the targeted policy\'s confined state
+o Evaluate results after exemption
+o Explain the security contexts applied to subjects & objects
+o Peruse key targeted binary policy files
+o Identify the daemons protected by the targeted policy
+o Discuss the unconfined_t domain - subject label
+*
+* SELinux - Targeted Policy - Source
+o Install the targeted policy source files
+o Identify & discuss TE and FC files
+o Explore file_contexts - context definition for objects
+o Discuss the file context syntax
+o Explain the purpose of using run_init to initiate SELinux-protected daemons
+o Switch between permissive & enforcing modes and evaluate behavior
+o Peruse the key files in the targeted source policy
+*
+* SELinux - Miscellaneous Utilities - Logging
+o Use tar to archive SELinux-protected objects
+o Confirm security labels on tar-archived objects
+o Use the tar substitute \'star\' to archive extended attributes(XATTRs)
+o Confirm security labels on star-archived objects
+o Discuss the role of the AVC
+o Examine SELinux logs - /var/log/messages
+o Alter Syslog configuration to route SELinux messages to an ideal location
+o Use SETools, shell-based programs to output real-time statistics
+o Install & use SEAudit graphical SELinux log-management tool
+*
+* SELinux - RedHatÂ® Enterprise 5.x - Exploration
+o Explore configuration & key utilities
+o Transition from \'disabled\' to \'permissive\' mode
+o Focus on Apache web server behavior
+o Enable UserDir functionality & test content access
+o Transition to \'enforcing\' mode
+o Examine Apache behvavior in restricted environment
+o Adjust SELinux directives
+o Evaluate results
+*
+* SELinux - Network Ports - Service Restrictions
+o Explore standard behavior
+o Configure new application bindings
+o Examine SELinux intervention
+o Rectify SELinux configuration for multiple services
+o Evaluate results
+*
+* top
+
+Network Intrusion Detection System (NIDS) Security - Module V
+
+* Snort NIDS - Installation
+o Peruse the LinuxCBT Security Edition classroom network topology
+o Download Snort
+o Import G/PGP public key and verify package integrity
+o Identify & download key Snort dependencies
+o Install current libpcap - Packet Capture Library
+o Establish security configuration baseline
+*
+* Snort NIDS - Sniffer Mode
+o Discuss sniffer mode concepts & applications
+o Sniff IP packet headers - layer-3/4
+o Sniff data-link headers - layer-2
+o Sniff application payload - layer-7
+o Sniff application/ip packet headers/data-link headers - all layers except physical
+o Examine packets & packet loss
+o Sniff traffic traversing interesting interfaces
+o Sniff clear-text traffic
+o Sniff encrypted streams
+*
+* Snort NIDS - Logging Mode
+o Discuss logging mode concepts & applications
+o Log traffic using default PCAP/TCPDump format
+o Log traffic using ASCII mode & examine output
+o Discuss directory structure created by ASCII logging mode
+o Control verbosity of ASCII logging mode & examine output
+o Enhance packet logging analysis by defaulting to binary logging
+o Discuss default nomenclature for binary/TCPDump files
+o Alter binary output options
+o Use Snort NIDS to read binary/TCPDump files
+*
+* Snort NIDS - Berkeley Packet Filters (BPFs)
+o Explain the advantages to utilizing BPFs
+o Discuss BPF directional, type, and protocol qualifiers
+o Identify clear-text based network applications and define appropriate BPFs
+o Execute Snort NIDS in sniffer mode with BPFs enabled to match interesting traffic
+o Log to the active pseudo-terminal console and examine the packet flows
+o Combine BPF qualifiers to increase packet-matching capabilities
+o Use logical operators to define more flexible BPFs
+o Read binary TCPDump files using Snort & BPFs
+o Execute Snort NIDS in logging/daemon mode
+*
+* Snort NIDS - Cisco Switch Configuration
+o Examine the current network configuration
+o Identify Snort NIDS sensors and centralized DBMS Server
+o Create multiple VLANs on the Cisco Switch
+o Secure the Cisco Switch configuration
+o Isolate internal and external hosts, sensors and DBMS systems
+o Configure SPAN - Port Mirroring for internal and external Snort NIDS Sensors
+o Examine internal and external packet flows
+*
+* Snort NIDS - Network Intrusion Detection System (NIDS) Mode
+o Discuss NIDS concepts & applications
+o Prepare /etc/snort - configuration directory for NIDS operation
+o Explore the snort.conf NIDS configuration file
+o Discuss all snort.conf sections
+o Download & install community rules
+o Execute Snort in NIDS mode with TCPDump compliant output plugin
+o Download & install Snort Vulnerability Research Team (VRT) rules
+o Compare & contrast community rules to VRT rules
+*
+* Snort NIDS - Output Plugin - Barnyard Configuration
+o Discuss features & benefits
+o Configure Syslog based logging and examine results
+o Configure Snort to log sequentially to multiple output locations
+o Implement unified binary output logging to enhance performance
+o Discuss concepts & features associated with post-processing Snort logs
+o Download and install current barnyard post-processor
+o Use barnyard to post-process logs to multiple output destinations
+*
+* Snort NIDS - BASE - MySQLÂ® Implementation
+o Discuss benefits of centralized console reporting for 1 or more Snort sensors
+o Re-compile Snort on both sensors to support MySQL logging
+o Configure MySQL on Database Management System (DBMS) Host
+o Implement Snort database schema on DBMS Host
+o Configure Snort to log output to MySQL DBMS Host
+o Confirm output logging to the MySQL DBMS Host
+o Prepare DBMS Host for BASE console installation
+o Install BASE and complete schema extension
+o Peruse BASE interface
+*
+* SnortÂ® NIDS - Rules Configuration & Updates
+o Discuss the concept of rules as related to Snort NIDS
+o Examine Snort rule syntax
+o Peruse pre-defined Snort rules
+o Download & configure oinkmaster to automatically update Snort rules
+o Confirm oinkmaster operation
+*
+* top
+
+Packet Capture Analysis Security feat. EtherealÂ® - Module VI
+
+* Introduction - Topology - Features
+o Discuss course outline
+o Explore system configuration
+o Identify key network interfaces to be used for captures
+o Identify connected interfaces on Cisco Switch
+o Explore network topology - IPv4 & IPv6
+o Identify Ethereal installation
+o Enumerate and discuss key Ethereal features
+*
+* EtherealÂ® Graphical User Interface (GUI)
+o Identify installation footprint
+o Differentiate between promiscuous and non-promiscuous modes
+o Configure X.org to permit non-privileged user to write output to screen
+o Launch Ethereal GUI
+o Identify the primary GUI components /Packet List | Packet Details | Packet Bytes/
+o Discuss defaults
+o Explore key menu items
+*
+* TCPDump | WinDump - Packet Capturing for /Linux|Unix|Windows/
+o Discuss defaults, features and applications
+o Use TCPDump on Linux to capture packets
+o Log traffic using default PCAP/TCPDump format
+o Discuss Berkeley Packet Filters (BPFs)
+o Capture and log specific packets using BPFs for analysis with Ethereal
+o Connect to Windows 2003 Server using Remote Desktop (RDesktop) utility
+o Install WinDump and WinPCAP on Windows 2003 Server
+o Identify available network interfaces using WinDump
+o Capture and log packets using WinDump
+o Capture and log specific packets using BPFs with WinDump for analysis with Ethereal
+o Upload captures to Linux system for analysis in Ethereal
+*
+* SnortÂ® NIDS Packet Capturing & Logging
+o Discuss Snort NIDS\'s features
+o Confirm prerequisites - /PCRE|LibPCAP|GCC|Make/
+o Download and Import Snort G/PGP key and MD5SUM for Snort NIDS
+o Download, verify, compile and install Snort NIDS
+o Discuss BPF directional, type, and protocol qualifiers
+o Identify clear-text based network applications and define appropriate BPFs
+o Execute Snort NIDS in sniffer mode with BPFs enabled to match interesting traffic
+o Log to the active pseudo-terminal console and examine the packet flows
+o Combine BPF qualifiers to increase packet-matching capabilities
+o Use logical operators to define more flexible BPFs
+o Create captures for further analysis with Ethereal
+*
+* Sun Snoop Packet Capturing & Logging
+o Connect to Solaris 10 system and prepare to use Snoop
+o Draw parallels to TCPDump
+o Enumerate key features
+o Sniff and log generic traffic
+o Sniff and log specific traffic using filters
+o Sniff using Snoop, HTTP and FTP traffic
+o Save filters for analysis by Ethereal
+o Snoop various Solaris interfaces for interesting traffic
+*
+* Layer-2 & Internet Control Messaging Protocol (ICMP) Captures
+o Launch Ethereal
+o Identify sniffing interfaces
+o Capture Address Resolution Protocol (ARP) Packets using Capture Filters
+o Discuss and Identify Protocol Data Units (PDUs)
+o Identify default Ethereal capture file
+o Peruse packet capture statistics
+o Identify Cisco VOIP router generating ARP requests
+o Peruse time precision features - deci - nano-seconds
+o Discuss time manipulations - relative to first packet - actual time
+o Reveal protocol information from layer-1 through 7
+o Identify network broadcasts in the packet stream
+o Generate Layer-2 ARP traffic using PING and capture and analyze results
+o Sniff traffic based on MAC addresses using Ethereal and Capture FIlters
+*
+* User Datagram Protocol (UDP) Captures & Analyses
+o Discuss UDP Characteristics
+o Focus on Network Time Protocol (NTP)
+o Setup NTP strata for testing between multiple systems
+o Analyze NTP - UDP traffic using Ethereal
+o Focus on Domain Name Service (DNS)
+o Install a BIND DNS Caching-Only Server
+o Analyze DIG queries
+o Analyze \'nslookup\' queries
+*
+* Transmission Control Protocol (TCP) Captures & Analyses
+o Discuss TCP Characteristics - Connection-Oriented Services
+o Explain TCP connection rules - Socket creation
+o Sniff TCP traffic using Capture Filters in Ethereal
+o Use Display Filters to parse TCP traffic
+o Sniff FTP traffic
+o Reconstruct FTP flows using TCP Stream Reassembly
+o Differentiate between client and server flows
+o Quantify client and server flows
+o Discuss embedded Protocol Data Units (PDUs)
+o Sniff Internet Protocol Version 6 (IPv6) traffic
+o Peruse and discuss the IPv6:TCP:FTP traffic dump
+o Analyze TCP Sockets
+*
+* Ethereal Display Filters - Post Processing Filters
+o Identify previously captured - TCPDump - Ethereal - Snort - Snoop - Dumps
+o Discuss features
+o Explain Display Filter syntax
+o Post-process previously captured traffic dumps
+o Identify the various methods to exact display filters
+o Filter data using the expression builder
+o Filter traffic based on interesting properties
+o Filter traffic using logical operators
+*
+* Ethereal Statistics
+o Discuss features
+o Explore the summary (metadata) of captured packets
+o Peruse the protocol hierarchy - Layer\'s 1 - 7 of OSI
+o Examine network conversations of captured packets
+o Identify Destinations in packet dumps
+o Examine ICMP statistics
+*
+* Text-based Captures with Tethereal
+o Discuss features and applications
+o Identify \'tethereal\' and invoke
+o Enumerate network interfaces
+o Sniff generic network traffic
+o Suppress capture output
+o Apply Capture Filters
+o Capture UDP Traffic
+o Capture TCP Traffic
+*
+* Intranet-based Captures & Analysis
+o Discuss Intranet monitoring objectives
+o Analyze the network topology drawing
+o Discuss Unicast, Broadcast and Multicast traffic
+o Discuss Switch Port Mirroring - SPAN
+o Configure Port Mirroring - SPAN on Cisco Switch for interesting ports
+o Dedicate a network interface for sniffing traffic
+o Configure Snort NIDS to sniff traffic on dedicated network interface
+o Analyze Snort NIDS captures in Ethereal
+o Sniff traffic between various Intranet hosts
+*
+* Internet-based Captures & Analysis
+o Discuss Internet monitoring objectives
+o Identify key external interfaces to monitor
+o Update the Port Mirroring configuration to capture Internet traffic
+o Capture external traffic
+o Analyze using Ethereal
+*
+* Wireless-based Captures & Analysis
+o Discuss Wireless monitoring objectives
+o Connect to remote system with wireless interface
+o Enable wireless interface
+o Sniff traffic on wireless network
+o Analyze using Ethereal
+*
+* Windows-based Captures & Analysis on Windows
+o Download and Install Ethereal for Windows
+o Explore interface
+o Load previously captured data
+o Analyze data
+o Compare and contrast with Ethereal for Linux|Unix systems
+*
+* WireSharkÂ® on MacOSXÂ®
+o Download and Install
+o Explore interface
+o Load previously captured data
+o Analyze data
+o Capture new data
+o Evaluate results
+*
+* top
+
+PAM Security - Module VII
+
+* Introduction - Topology - Features
+o Discuss course outline
+o Explore system configuration
+o Explore network topology
+o Identify primary PAM systems
+o Enumerate and discuss key PAM features
+*
+* PAM Rules Files & Syntax
+o Identify key PAM configuration files
+o Explain the purpose of the /etc/pam.d/other PAM rules file
+o Discuss PAM\'s 4 management tasks
+o Identify the 4 tokens supported within PAM rules files
+o Explain possible values for the 4 supported rules file tokens
+o Discuss PAM\'s stacking of rules for the 4 management tasks
+o Examine the /etc/pam.d/sshd PAM rules file for the SSHD service/daemon
+o Explore the contents of included PAM rules files
+*
+* Common PAMs - Identify & Discuss Commonly Implemented PAMs
+o Explain the purpose and implementation of pam_echo
+o Test pam_echo using SSH
+o Explain the purpose and implementation of pam_warn
+o Explain the purpose and implementation of pam_deny
+o Identify instances of pam_warn and pam_deny modules
+o Explain the purpose and implementation of pam_unix2
+o Identify instances of pam_unix2 module
+o Explain the purpose and implementation of pam_env
+o Explain the purpose and implementation of pam_ftp
+o Peruse /etc/pam.d/vsftpd and discuss the implemenation of pam_ftp
+o Explain the purpose and implementation of pam_lastlog
+o Explain the purpose and implementation of pam_limits
+o Explain the purpose and implementation of pam_listfile
+o Explain the purpose and implementation of pam_nologin
+*
+* Account Policies with PAM
+o Explain authentication flow when using PAM
+o Discuss account policies features
+o Identify and peruse the default account policies file: /etc/login.defs
+o Discus PAM\'s usage of /etc/login.defs as it pertains to system security
+o Discuss pam_pwcheck is maintaining system policy
+o Configure pam_pwcheck to support minimum password length
+o Correlate pam_pwcheck system policy to user accounts database
+o Configure pam_pwcheck to support password history
+o Use chage to enumerate and change user accounts\' attributes associated with system policy
+*
+* PAM Tally
+o Explain applications of pam_tally
+o Identify failed logins log file: /var/log/faillog
+o Identify PAM authentication messages in /var/log/messages
+o Compare and contrast pam_tally with faillog
+o Use pam_tally to display user\'s tally
+o Enable pam_tally system-wide with desired policy
+o Fail to login multiple times, exceeding the system policy and evaluate results
+o Reset user\'s login count using pam_tally and faillog
+o Redirect PAM log messages using Syslog-NG
+*
+* PAM Password Quality Check (pam_passwdqc)
+o Identify pam_passwdqc using RPM
+o Discuss features
+o Enumerate the supported password character classes - Complex passwords
+o Replace pam_pwcheck with pam_passwdqc using at least 2 character classes
+o Test password policy in non-enforcing mode
+o Evaluate the effects
+o Enable password policy in enforcing mode and evaluate
+o Alter character class and length (complexity) requirements and evaluate
+*
+* PAM Time - Time-based Access Control
+o Discuss features
+o Explain configuration file syntax
+o Impose restrictions on common services
+o Evaluate results
+*
+* PAM Nologin
+o Discuss features
+o Explain configuration file syntax
+o Implement nologin module via /etc/nologin
+o Evaluate results
+*
+* PAM Limits - System Resource Limits Controlled by PAM
+o Discuss features
+o Explain configuration file syntax
+o Impose restrictions on system resources
+o Evaluate results
+*
+* PAM Authentication with Apache
+o Discuss features and desired result
+o Install Apache and development modules providing apxs support
+o Download PAM Apache module
+o Compile and install PAM Apache module
+o Configure Apache web site to support PAM
+o Evaluate results
+*
+* PAM Make $HOME Dir
+o Explore features
+o Implement pam_mkhomedir
+o Create new accounts without $HOME
+o Evaluate module results
+*
+* PAM Execute Processes
+o Discuss applicability
+o Implement pam_exec with various types
+o Evaluate module results
+*
+* PAM Password History | Policy Enforcement
+o Discuss benefits
+o Implement pam_pwhistory
+o Tweak defaults
+o Evaluate module results
+o Implement pam_pwcheck
+o Contrast with pam_pwhistory
+o Apply policy to all users
+o Evaluate resuls
+*
+* PAM Wheel
+o Consider applications
+o Implement pam_wheel
+o Evaluate resuls
+*
+* top
+
+Open Secure Shell version 2 (OpenSSHv2) Security - Module VIII
+
+* Introduction - Topology - Features
+o Discuss course outline
+o Explore system configuration
+o Identify key systems to be used
+o Explore network topology
+o Enumerate and discuss key OpenSSHv2 features
+*
+* Identify Key OpenSSHv2 Components
+o Identify installed OpenSSHv2 related packages
+o Peruse related startup and run-control script files
+o Locate \'sshd\' on the file system
+o Discuss related client | server configuration files
+*
+* OpenSSHv2 Client - /ssh/
+o Discuss features and benefits
+o Obtain shell access on a remote system
+o Configure /etc/hosts to provide local name resolution for OpenSSHv2
+o Identify and discuss pseudo-terminals - pty
+o Redirect X11/X.org traffic to localhost via SSH
+o Bind \'ssh\' to specific source IP address and test connectivity
+o Execute commands on remote system without allocating a pseudo-terminal
+o Debug \'ssh\' connectivity
+o Explore the system-wide client configuration file
+o Explore user configuration file
+*
+* Secure Copy Program (SCP) - /scp/
+o Discuss features and benefits
+o Locate \'scp\' on the file system
+o Discuss usage
+o Copy, non-interactively, previously generated data to remote systems
+o Test \'scp\' with global and user configuration directives
+o Debug \'scp\' connectivity
+o Limit transfer rate to conserve bandwidth
+*
+* Secure File Transfer Program (SFTP) - /sftp/
+o Discuss features and benefits
+o Locate \'sftp\' on the file system
+o Discuss usage
+o Connect to remote system using \'sftp\' interactive shell
+o Issue puts and gets and evaluate results
+o Identify the sftp-server subsystem
+o Peruse process list while connected to OpenSSHv2 server
+o Illustrate batch file usage
+*
+* SSH Key Scan Utility - /ssh-keyscan/
+o Discuss features and benefits
+o Locate \'ssh-keyscan\' on the file system
+o Discuss usage
+o Scan the network from STDIN for OpenSSHv2 public keys - RSA (SSHv1 & SSHv2) | DSA
+o Scan the network based on a file with a list of hosts for OpenSSHv2 public keys
+o Populate ~/.ssh/known_hosts file using \'ssh-keyscan\' with BASH for loop
+o Compare and contrast STDOUT with the output file
+*
+* SSH Key Generation Utility - /ssh-keygen/
+o Discuss features and benefits
+o Locate \'ssh-keygen\' on the file system
+o Discuss usage
+o Generate RSA-2 usage keys
+o Identify RSA-2 public and private key pair
+o Generate DSA usage keys
+o Identify DSA public and private key pair
+o Expose usage keys\' fingerprint using \'ssh-keygen\'
+o Generate RSA-2 | DSA usage keys for all hosts
+*
+* Public Key Infrastructure (PKI) - Password-less Logins
+o Discuss features and benefits
+o Identify key files for client and server implemenation of password-less (PKI-based) logins
+o Copy manually, RSA-2 | DSA public keys to remote system\'s ~/.ssh/authorized_keys file
+o Test password-less logins
+o Use \'ssh-copy-id\' to seamlessly populate remote system with RSA-2 | DSA usage keys
+o Test password-less connectivity after using \'ssh-copy-id\'
+o Confirm password-less connectivity using SSH clients /ssh|scp|sftp/ in debug mode
+o Connect to privileged account from non-privileged account using PKI
+o Configure RSA-1 connectivity using PKI
+*
+* System-wide OpenSSHv2 Configuration Directives
+o Identify key directory and files associated with client | server configuration
+o Explore primary server configuration file
+o Discuss applicability of directives
+o Alter and test several SSHD directives
+o Explore OpenSSHv2 configuration on RedHat Linux
+o Explore OpenSSHv2 configuration on Solaris 10
+*
+* Port Forwarding - Pseudo-VPN Support - /Local|Remote|Gateway/
+o Discuss features and benefits
+o Implement local port forwarding using \'ssh\'
+o Configure remote port forwarding using \'ssh\'
+o Test circumvention of local firewall using remote port forwarding
+o Implement gateway ports to share forwarded /local|remote/ with connected users
+o Test connectivity
+*
+* Windows Integration - /PuTTY|WinSCP/
+o Discuss features and applications
+o Download and install PuTTY
+o Explore PuTTY\'s features
+o Configure PKI logins
+o Download and install WinSCP
+o Explore WinSCP\'s features
+o Move data between Windows, Linux and Solaris
+*
+* Syslog | Syslog-NG Configuration
+o Discuss features and benefits
+o Identify default configuration
+o Redirect OpenSSHv2 data using Syslog and Syslog-NG
+o Examine results
+o Enable debugging
+*
+* Host-based Authentication
+o Discuss applicability and caveats
+o Identify key configuration files and directives
+o Implement host-based authentication
+o Test results
+*
+* OpenSSHv2 Source Installation
+o Discuss features and benefits
+o Download current OpenSSHv2 source code
+o Compile and install
+o Restart services|daemons
+o Test new version of OpenSSHv2
+*
+* Secure OpenSSHv2 Implementation
+o Discuss features and benefits
+o Identify key configuration file
+o Enumerate and implement key directives
+o Test configuration
+*
+* Upgrade OpenSSHv2
+o Identify target systems
+o Download latest OpenSSH source code
+o Compile with compatible options
+o Test installation
+*
+* CHROOT - SFTP Connections
+o Discuss features and benefits
+o Implement CHROOT SFTP sessions for specific users
+o Evaluate results
+*
+* top
+
+OpenPGP Security - Module IX
+
+* Introduction - Topology - Features
+o Discuss course outline
+o Explore system configuration
+o Identify key systems to be used
+o Explore network topology
+o Enumerate and discuss key OpenPGP features
+*
+* Explore GPG Configuration
+o Identify installed GPG packages in various Linux distros
+o Discuss the key contents of those packages
+o Explore configuration hierarchy
+o Discuss security as it pertains to private key management
+o Explain the purpose of public and private keys
+o Discuss symmetric and asymmetric encryption provided by OpenPGP-compliant Apps
+*
+* Generate | Import | Export OpenPGP Usage Keys
+o Discuss features and benefits
+o Obtain shell access on remote systems
+o Generate usage (private|public) keys
+o Identify the generated keys
+o Discuss how usage keys are used
+o Generate usage keys on remote systems
+o Export OpenPGP public key chain on various systems
+o Import OpenPGP public keys on various systems
+o Evaluate the results of exchanging public keys
+*
+* Digital Signatures
+o Discuss features and benefits as they pertain to data integrity
+o Identify default digital signatures on multiple hosts
+o Explain the differences between signing and encrypting correspondence
+o Sign and export data to remote systems - Inline
+o Create detached OpenPGP signatures for data
+o Confirm the signed data on the remote systems
+o Recap non-repudiation benefits provided by digitally signing correspondence
+*
+* Encryption | Decryption | Sign & Encrypt Content
+o Discuss features and benefits
+o Generate files for usage
+o Encrypt content using symmetric (shared-key) algorithm
+o Decrypt content using the shared-key, based on the symmetric algorithm
+o Evaluate results on multiple machines
+o Explain caveats associated with symmetric encryption
+o Encrypt content to a given recipient, using their public key - asymmetric encryption
+o Decrypt content on various hosts
+o Attempt to decrypt content without the corresponding private key
+o Evaluate results
+o Encrypt using ASCII-armoured and binary (OpenPGP-compliant) formats
+o Decrypt both ASCII-armoured and binary formats
+o Recap encryption decryption processes
+o Discuss the requirements of signing and encrypting content
+o Sign and encrypt content to various recipients
+o Confirm signed and encrypted content
+o Attempt to confirm and decrypt content as the unintended recipient
+o Evaluate results
+*
+* OpenPGP Key Management | Web of Trust | Internet Key Distribution
+o Discuss features and benefits
+o Explore GPG key management facility
+o Update properties of public/private key pairs
+o Add sub-keys to public/private key pairs
+o Sign remote users\' public keys
+o Evaluate results
+o Discuss the web of trust functionality
+o Create a web of trust with various hosts
+o Evaluate trust confirmation
+o Discuss the features of OpenPGP Internet key distribution servers
+o Generate and upload public keys to an Internet key server
+o Download the uploaded public keys to the public keyrings of various hosts
+o Evaluate results
+*
+* Perl scripting with GPG
+o Discuss features and benefits
+o Create a Perl script to backup key directories and files
+o Ensure that the script GPG-protects the content post-backup
+o Include error-handling to ensure that each step of the script is routed appropriately
+o Configure the script to transfer the encrypted content to a remote host ust \'scp\'
+o Evaluate results
+*
+* OpenPGP (GPG | PGP Desktop) on Win32
+o Discuss features and benefits
+o Download and install GPG for Win32
+o Generate usage keys
+o Exchange public keys with a user on a Linux system
+o Sign and encrypt content to and from the Win32 user
+o Confirm results
+o Download and install GPG4WIN (GUI-based GPG for Win32)
+o Explore features
+o Sign and encrypt content to and from the Win32 user
+o Confirm results
+o Integrate GPG4WIN with MS Outlook
+o Sign and encrypt e-mail messages
+o Confirm and decrypt e-mail messages
+o Install PGP Desktop for Win32
+o Explore features and interface
+o Generate usage keys
+o Exchange public keys with Linux user
+o Sign and encrypt content to and from the Win32 user using PGP Desktop
+o Evaluate results
+o Draw parallels between Win32 based OpenPGP tools and GPG for Linux | Unix
+o Recap OpenPGP functionality included in /GPG|GPG4WIN|PGP Desktop/
+*
+* top
+
+Secure File Transfer Protocol (SFTP) Security - Module X
+
+* Introduction - Topology - Features
+o Discuss course outline
+o Explore network topology
+o Identify key systems to be used
+o Discuss key SFTP features
+*
+* FTP Analyses - Caveats & Ramifications
+o Identify FTP caveats
+o Intercept FTP Client | Server traffic using TCPDump
+o Analyze traffic streams using WireShark
+o Install PuTTY SFTP | SSH clients on Windows
+o Generate SFTP traffic using PuTTY
+o Analyze SFTP traffic using WireShark
+o Compare and contrast FTP | SFTP traffic streams
+o Disable | Remove FTPD services
+*
+* Secure Copy Program (SCP)
+o Discuss features and benefits
+o Generate test data for transmissions via SCP
+o Transfer test data to various systems using SCP
+o Confirm applied permissions
+o Use \'pscp\' on Windows to transfer test data to various systems
+o Reverse transfers with SCP
+o Implement rate limiting of transfers with SCP
+o Examine SCP behavior with respect to existing | nonexisting data
+o Evaluate results
+*
+* SFTP on SUSEÂ® Enterprise Linux
+o Connect to remote SUSE Enterprise system
+o Identify key binaries
+o Discuss common command-line options
+o Initiate SFTP sessions
+o Debug corrupt public key upon connection
+o Explore SFTP interactive mode
+o Examine SFTP instances in the process table
+o Transfer data using SFTP
+*
+* SFTP on RedHatÂ® Enterprise Linux
+o Discuss features and benefits
+o Identify key binaries
+o Initiate connections
+o Perform puts and gets
+o Enable debugging on multiple levels and evaluate key output
+o Explore remote and local identity files for SSHv1 & SSHv2
+o Evaluate results
+*
+* SFTP on SolarisÂ®
+o Discuss features and benefits
+o Obtain pseudo-terminal on Solaris system
+o Identify key binaries
+o Compare and contrast Linux | Solaris \'sftp\' options
+o Transfer test data
+o Examine transfer status in progress
+o Enable debugging
+o Discuss the function of the \'known_hosts\' file
+o Explain SFTP key management
+o Explore identify files
+o Examine escape character sequences in SFTP and SSH
+*
+* SFTP on MacOSXÂ®
+o Discuss features and benefits
+o Initiate SSH session with debugging on MacOSX
+o Explore debug output
+o Identify key binaries and associated permissions
+o Peruse \'sftp\' command-line options
+o Connect to Solaris system into non-standard location
+o Discuss first-time SFTP|SSH connectivity ramifications
+o Transfer test data and evaluate
+o Identify global configuration files - contrast with Linux|Solaris
+o Use \'sftp\' non-interactively
+o
+*
+* SFTP on WindowsÂ® Server
+o Discuss features and benefits
+o Initiate \'rdesktop\' session to Windows Server
+o Configure and use PuTTY
+o Explore \'psftp\' interactive commands - contrast with Linux|Solaris|MacOSX
+o Initiate connectivity with \'psftp\' interactively
+o Use \'psftp\' to transfer test data
+o Enable debugging
+*
+* SFTP with FileZilla
+o Discuss features and benefits
+o Download FileZilla
+o Configure to use SFTP
+o Initiate connections to remote systems
+o Transfer test data
+o Use PuTTY to examine SFTP PID on remote system for FileZilla
+*
+* Public Key Authentication with SFTP
+o Discuss features and benefits
+o Generate PKI usage keys on various platforms
+o Identify key files
+o Share usage keys with communicating partners
+o Initiate passwordless connections
+o Move test data seamlessly
+o Integrate FileZilla with PuTTY public key authentication
+o Evaluate results
+*
+* SFTP on FreeBSD
+o Discuss features and benefits
+o Identify key binaries
+o Initiate oubound SFTP connections from FreeBSD to various hosts
+o Enable debugging
+o Dictate identity file selection via the command-line
+o Use wildcards and metacharacters with \'sftp\'
+o Enable debugging
+o Enable SSH server on non-standard port
+o Evaluate connectivity via command-line override
+o Use the shell within interactive SFTP sessions
+*
+* SFTP - Batch Processing Mode
+o Discuss features and benefits
+o Define and execute a simple batch
+o Evaluate results
+o Explore error handling of the batch processor
+o Supply input from STDIN
+o Expand the batch process to include more useful steps
+o Create and execute a simple backup process for SFTP
+o Integrate SFTP batch process with Cron
+*
+* SFTP Configuration Control
+o Discuss features and benefits
+o Explore: command-line, user, and system-wide logic and options
+o Implement directives at each tier and evaluate
+*
+* LFTP with SFTP
+o Discuss features and benefits
+o Initiate manual connections
+o Define connection string for automation
+o Connect to remote systems via SFTP
+o Enable debugging
+o Explore how LFTP uses SSH to function similar to SFTP
+o Transfer test data
+o Configure LFTP to use public key auth
+o Define batch steps to move test data
+o Evaluate results
+*
+* Restrict SSH Sessions to SFTP Only
+o Discuss features and benefits
+o Explore key configuration files
+o Apply changes to various hosts
+o Evaluate results
+*
+* IPv6 Integration
+o Explore IPv6 environment
+o Configure name resolution for IPv6
+o Test IPv6 connectivity with SFTP
+o Evaluate results
+*
+* top
+
+Berkeley Packet Filters (BPF) Security - Module XI
+
+* Introduction - Topology - Features
+o Discuss course outline
+o Explore network topology
+o Identify key systems to be used
+o Discuss key BPF features
+*
+* Type Qualifiers
+o Identify type qualifiers
+o Explore examples
+o Write filters for various scenarios
+o Test and debug filters
+*
+* Directional Qualifiers
+o Discuss features and benefits
+o Identify directional qualifiers
+o Write filters for various scenarios
+o Test and debug filters
+*
+* Protocol Qualifiers
+o Identify protocol qualifiers
+o Explore a number of protocols and options
+o Write filters for various scenarios
+o Test and debug filters
+o Combine type, directional and protocol qualifiers
+o Evaluate results
+*
+* Rule (Filter) Negation | Alternation | Concatenation
+o Discuss features and benefits
+o Write alternated filters for various scenarios
+o Write concatenated filters for various scenarios
+o Write negated filters for various scenarios
+o Test and debug filters
+o Evaluate results
+*
+* Rule (Filter) Segregation with Parenthetical Statements
+o Discuss features and benefits
+o Write parenthesized rules for various scenarios
+o Write alternative rules and contrast
+o Test and debug parenthesized and alternative rules
+o Evaluate results
+*
+* TCPDump & Windump
+o Discuss features and benefits
+o Explore useful features of both utilities
+o Execute with key options
+o Apply additional BPFs
+o Evaluate results
+*
+* BPFs with SnortÂ® NIDS|NIPS
+o Discuss features and benefits
+o Install SnortÂ®
+o Explore useful options
+o Apply predefined BPFs
+o Evaluate results
+*
+* BPFs with WireShark Capture | Analysis Engine
+o Discuss features and benefits
+o Explore useful options
+o Invoke with useful options
+o Apply predefined BPFs
+o Extend and archive BPFs
+o Evaluate results
+*
+* BPF Lists
+o Discuss features and benefits
+o Generate BPF lists for sample scenarios
+o Supply lists to utilities for processing
+o Archive lists for reuse
+o Evaluate results

@@ -1,0 +1,7 @@
+PECompact is a next generation Windows executable compressor designed for software developers and vendors. Commonly termed an 'executable packer', such utilities compress executables and modules (i.e. *.EXE, *.DLL, *.OCX, *.SCR). At runtime the compressed modules are rapidly decompressed in memory.
+
+Executable compressors work by compressing selected portions of executables. At runtime, compressed executables are decompressed and reconstructed directly into their virtual image (memory) so that no data is ever written to the disk. The executable can therefore be run exactly as it was before without the user even knowing it was compressed.
+
+Notes:
+- used VMWare ThinApp v4.6.0.287958
+- tested & working under Win7 x64

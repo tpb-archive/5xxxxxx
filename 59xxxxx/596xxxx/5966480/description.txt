@@ -1,0 +1,309 @@
+		===================================
+		Small Business Server 2008 Training
+		===================================
+
+Our Small Business Server 2008 Training Teaches You About: Establishing a Network, Migrating File Shares and Email, IIS 7.0, Remote Access and Much More. Plus, Windows Small Business Server 2008, Configuring MCTS: 70-653 Exam Coverage!
+
+
+
+Small Business Server 2008 Course Outline
+
+
+Lesson 1 - Introduction
+
+    This video introduces the instructor and what will be covered in the course.
+
+        * About Your Instructor
+        * Topics Covered in this Course
+        * How this Course Works
+        * Introduction to the Scenario
+        * Lab Setup
+
+Lesson 2 - SBS 2008 Overview
+
+    In this video youâ€™ll take a look at the compenents of SBS 2008 and learn about important features and limitations. Plus, weâ€™ll dispel some common myths about Small Business Server.
+
+        * What is Small Business Server 2008?
+        * Some Relevant Windows Server 2008 Features
+        * Why Exchange 2007 Makes the Difference
+        * Limitations of SBS 2008
+        * Common Myths about Small Business Server
+
+Lesson 3 - SBS 2008 Planning and Prep
+
+    In this video you will learn how Device CALs and User CALs will prepare you to determine appropriate licensing for your organization. Plus, you will work step-by-step to create your own answer file that will help to streamline the installation process.
+
+        * SBS 2008 Licensing Overview
+        * Device CALs and User CALs
+        * Hardware Requirements
+        * Other Requirements
+        * Creating an Answer File
+
+Lesson 4 - SBS 2008 Installation
+
+    In this video you will work step-by-step to install SBS 2008 and you will learn how to troubleshoot common installation issues.
+
+        * The Setup Process
+        * The Install WIM File
+        * Checking the Answer File
+        * More About Setup and the Answer File
+        * Installation Issues
+        * Troubleshooting Installation
+
+Lesson 5 - SBS 2008 Networking Setup
+
+    In this video you will work hands-on to setup up your own network using the Network Setup Wizard. Plus, you will learn how to verify and troubleshoot your configuration by using the SBS Fix My Network Wizard.
+
+        * Overview of Networking Concepts
+        * Configuring the Court Spies Private Network
+        * Key Networking Terms
+        * Running the Network Setup Wizard
+        * Checking Network Settings & Properties
+        * Verifying Proper Configuration
+        * The Fix My Network Wizard
+        * Address Reservation
+
+Lesson 6 - Establishing the Public Presence
+
+    In this video you will work to setup your networkâ€™s internet address from the SBS Console and learn how to purchase the public domain name and SSL Certificate from a third party. Plus, youâ€™ll work hands-on to configure and test connectivity via your router, to make sure you can connect to your network and to the internet.
+
+        * Running the Set-Up Internet Address Wizard
+        * Setting Up a Public Domaing Name
+        * Configuring Public DNS Records
+        * Getting an SSL Certificate
+        * Testing Connectivity
+        * Configuring Your Router
+
+Lesson 7 - User Management
+
+    In this video you will learn how to configure users and groups and assign specific roles to each user and group to limit userâ€™s access to only what they need.
+
+        * How Users, Groups and Resources Fit Together
+        * Using Groups
+        * How Roles Work
+        * User Properties vs. User Role Properties
+        * Creating Additional Email Addresses for a User
+        * Creating User Roles
+        * Adding Users to Roles
+        * Working with Roles
+        * Creating User Accounts in Active Directory Users and Computers (ADUC)
+        * Opening an Advanced SBS Console
+
+Lesson 8 - Working With Files
+
+    In this video you will learn how to add elevated levels of availability and security to your files by using the Move Data Wizards, by creating shared folders, and by adding share and file level permissions to files.
+
+        * Using the Move Data Wizards
+        * Pre-Built File Shares
+        * Add a New Shared Folder
+        * Share and File Level Permissions
+        * More File Features
+        * Folder Redirection
+        * Shadow Copies
+        * Disk Quotas
+
+Lesson 9 - Adding Client Computers
+
+    In this video you will work to join your client computers to the domain and discover the features and benefits of this process. Plus, you will learn how to connect and manage the computers on the domain.
+
+        * Overview and Benefits of Domain Joining
+        * SBS Client Advisor Tool
+        * Using the Connect Computer Wizard
+        * Post-Join Follow Up
+        * Managing Domain Joined Computers
+
+Lesson 10 - Managing Windows Server Update Services (WSUS)
+
+    In any network environment managing bandwidth requirements is always a concern. In this video you will learn how to us WSUS to manage the depoloyment of updates, service packs, and security patches. Plus, you will work hands-on to schedule downloads, approve updates, and perform required maintenance.
+
+        * Overview of WSUS 3.0
+        * WSUS and Group Policy
+        * WSUS Scheduling
+        * Update Approval
+        * Things You Can Do to Divorce WSUS from SBS Console
+        * WSUS Reporting
+        * WSUS Maintenance Tasks
+        * Client Side after Automatic Updates
+
+Lesson 11 - Server Management
+
+    One of the most important aspects of managing your Small Business Server 2008 network is doing so efficiently and cost-effectively. In this video you will learn how to customize the console, create service accounts to ease the management of third party applications and manage terminal services connections to make remote administration even easier. Plus, you will discover how to customize information flow to administrators, so that they get the important information they need about network performance.
+
+        * Scenario Management Requests
+        * Custom Consoles
+        * Creating Service Accounts
+        * Managing the Page File
+        * Managing Terminal Server Connections
+        * Disabling User Account Control (UAC) Prompts
+        * Configuring Reporting
+        * Notifications
+        * The File Server Resource Manager
+        * The Task Scheduler
+        * Custom Notifications and Alerts
+        * Troubleshooting with the Best Practices Analyzer
+        * Resolving Common Issues
+
+Lesson 12 - Implementing SharePoint
+
+    In this video you will learn what SharePoint can do and how to create and manage SharePoint libraries to maximize communication within your company. Plus, you will work hands-on to integrate mail with SharePoint and create and set permissions in SharePoint libraries.
+
+        * Scenario Management Requests
+        * The Two Components of SharePoint
+        * Internet Information Services (IIS) Connections
+        * Accessing the SharePoint Site from Outside the Domain
+        * The SharePoint Central Administration Website
+        * SQL on SharePoint
+        * SharePoint Lists and Libraries
+        * Create and Set Permissions on a New Library
+        * Mail-Enabled SharePoint
+        * Using Application Templates
+
+Lesson 13 - Remote Access
+
+    Properly utilizing the remote access capabilities of SBS 2008 can be a great boost to availability and productivity. In this video you will learn about the different options for allowing users to connect to resouces remotely. Plus, you will work hands-on using Remote Web Workplace, Remote Desktop, VPN Access, and an outside connection to SharePoint. This will allow you to discover how to determine the best remote access option for the proper situation.
+
+        * Tools for Remote Access
+        * Remote Web Workplace (RWW) Setup
+        * Customizing Links on RWW Site
+        * How Users File Support Requests in SharePoint
+        * Giving Users Remote Access to File Shares
+        * Accessing File Shares in Outlook Web Access (OWA)
+        * Enabling Direct Access to the Server
+        * Managing VPN Connectivity
+        * The Routing and Remote Access Console
+        * Setting Up a VPN Connection
+        * Terminal Services Tools
+
+Lesson 14 - Backup and Recovery
+
+    Having a backup and recovery plan for your SBS 2008 resources can save you a lot of time and money. In this video you will learn the benefits of using the Volume Shadowcopy Service, how to configure a server backup, and how to troubleshoot your backup if something goes wrong during the backup and recovery process.
+
+        * Introducing Volume Shadowcopy Service (VSS) Backups
+        * How SBS 2008 Backups Work
+        * Configuring Server Backup
+        * Troubleshooting Backup
+        * Recovery Procedures
+        * Complete Server Recovery
+        * Performing a Single Backup
+
+Lesson 15 - Exchange Management
+
+    In this video you will work hands-on to configure and manage the features of Exchange Server within SBS 2008.
+
+        * Using a Smarthost
+        * Configuring the POP3 Connector
+        * Configuring Message Size Limits
+        * Adding Additional Domains
+        * Allowing non-PC Devices to Send Mail
+        * Allow Internal Devices to Relay Messages Outside Local Domain
+        * Creating a Mail Disclaimer
+        * Transport Rules
+        * Checking Mailbox Statistics
+        * Resources for Troubleshooting
+        * MX Toolbox and DNS Stuff Websites
+        * Exchange Server Remote Connectivity Analyzer
+        * Exchange Cosole Toolbox
+
+Lesson 16 - Exchange Clients
+
+    Most employees these days need access to their work email via web access, their mobile phones, and other email capable devices when they canâ€™t be in the office. In this video you will learn how to setup email solutions to give your users and roaming clients a stable, bug-free mail experience.
+
+        * AutoDiscover
+        * Testing Email Autoconfiguration
+        * Cached Exchange Mode
+        * Running the Remote Connnectivity Analyzer with AutoDiscover
+        * Configuring Outlook
+        * Outlook Web Access
+        * Redirecting HTTP to HTTPS
+        * Outlook Anywhere
+        * ActiveSync
+        * Configuring Windows Mobile Clients
+
+Lesson 17 - Exchange Recovery
+
+    Once you have your users set up on Exchange, you will need to make sure your system is prepared in case of some kind of system failure. In this video you will discover the different levels of Exchange Server recovery and you will learn the best practices for managing your Exchange backup and recovery; so if disaster strikes, youâ€™ll be able to keep your e-mail system up and running.
+
+        * How Exchange Stores Data
+        * Overview of Recovery Storage Groups
+        * Creating Recovery Storage Groups
+        * Database-Level Restores
+        * Item-Level Recovery
+
+Lesson 18 - Security
+
+    In this video you will learn about the many threats your servers and clients face, both internally and externally. Plus, you will work hands-on to secure your network from threats like hacking and malware.
+
+        * Overview of Threat Vectors
+        * Accidental Compromises
+        * The Security Console and Group Policy
+        * Managing UAC with Group Policy
+        * Configuring UAC for Workstations
+        * Enabling Windows Defender
+        * The Best Practices Analyzer
+        * Removing Local Admin Rights
+        * Creating a Domain Desktop Admin Account
+        * External Attack
+        * Mail Filtering
+        * Data Leakage
+        * Hacking
+        * Setting Password Criteria with Default Domain Policy
+        * Managing the Server Firewall
+        * Creating Firewall Rules
+        * Controlling Outbound Traffic
+        * Internal Threats
+        * Share Permissions
+        * Securing and Monitoring RWW Usage
+        * Locking Down Edge Firewall Ports
+        * Preventing Rogue Laptops on the Network
+
+Lesson 19 - Group Policy
+
+    As an administrator it is important to understand Group Policy in order to streamline workstation deployment and keep your network as secure as possible. In this video you will learn how to manage your networkâ€™s Group Policy by working hands-on to map drives and printers, keep software uniform across your client systems, and allow applications to run without local admin rights.
+
+        * Where Policies Reside on the Server
+        * Using Policy Preferences
+        * Downloading Client Side Extensions to a Share
+        * The Group Policy Management Console
+        * Creating Group Policies
+        * Deploying Group Policy Objects
+        * Checking Policy Changes on a Workstation
+        * Troubleshooting Policy Deployment
+        * Enforcing Password-Protected Screensavers
+        * Allowing Users to Run Applications Without Admin Rights
+        * Deploying Software via Group Policy
+
+Lesson 20 - Migration from SBS 2003
+
+    Letâ€™s say you currently have a Small Business Server 2003 environment and you would like to migrate this to a Small Business Server 2008 environment but you donâ€™t want to lose all of your settings. In this video you will learn to migrate your SBS 2003 network to an SBS 2008 network while at the same time preserving your current Active Directory environment. Plus, you will walk through a step-by-step migration, including creating an answer file and migrating users, groups, data, and certificates.
+
+        * Migration Overview
+        * Preparing for Migration
+        * Getting Ready to Migrate - Part 1
+        * Checking Network Health
+        * Getting Ready to Migrate - Part 2
+        * Synchronizing Times
+        * Migration Preparation Tool
+        * Creating the Migration Answer File
+        * Phase 1 - Migration Mode Installation
+        * Phase 2 - The Migration Wizard
+        * Migrating Your Certificate
+        * Migrating Exchange
+        * Debris Removal
+        * Migrating Data
+        * Migrating Users and Groups
+
+Bonus Lessons
+
+Bonus Video 1 - Navigating SBS 2008
+
+        * SBS Console
+        * User Administration in SBS
+        * More Features of the SBS Console
+        * Exchange Management Console
+        * Exchange Management Shell
+        * Active Directory Users and Computers
+        * Internet Information Services Console
+        * Working with the Microsoft Management Console Tool
+        * Certificate Services Console
+
+Bonus Video 2 - SBS 2008 Update Rollup 3

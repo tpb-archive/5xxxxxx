@@ -1,0 +1,114 @@
+User Type,Username,Date,Text
+,ekarth22,2010-10-29T13:55Z,I'm available on suprbay forum under the same username (ekath22) incase you wanna contact me for any troubleshoot.
+,daleel,2010-10-31T14:37Z,thanks for sharing.
+,daleel,2010-10-31T14:41Z,"thanks for sharing. checked with F-secure, no virus alert. Download is clean!"
+,haveatit,2010-11-03T23:20Z,Did this work for anyone? It has pretty extensive instructions but I do not want follow if it has a virus. 
+,haveatit,2010-11-03T23:27Z,Where can I get the setup.exe virus free?
+,ekarth22,2010-11-04T05:59Z,"@haveatit
+no worries man, just get Kaspersky internet security 2011 then you download that virus infected DNS v11 (Kaspersky will automatically block the setup.exe) then you install it with the instruction given in my torrent."
+,haveatit,2010-11-04T17:39Z,"I dont have Kaspersky, I have Norton. 
+
+I dont even know where the virus setup.exe is..."
+,haveatit,2010-11-04T18:05Z,"I found it here...
+
+http://www.btscene.com/details/2213713/Nuance+Dragon+NaturallySpeaking+11+Premium.html
+
+I just skipped downloading the setup.exe file... will that work?"
+,ekarth22,2010-11-05T10:06Z,"@haveit
+certainly man, it will work.
+I had used the same torrent link. (magnet link) and i've installed from that same torrent.
+skip that setup.exe
+
+and if any problems, contact me on this profile
+
+http://forum.suprbay.org/member.php?action=profile&uid=121358
+"
+,Deadlight2,2010-11-05T12:10Z,"I'm using 64 bt Wndows - will this work?  Remember, the /Program Files/ is named different too!"
+,haveatit,2010-11-06T01:12Z,"awesome job.I got it to work. I'm using it to write this right now. So getting the hang of all the commands. Seems pretty cool so far.
+
+One quick note. The folder update service was not in the install Shield folder. I had to create it and put the files in there."
+,ekarth22,2010-11-06T03:50Z,"@Deadlight2 
+try it, it might work, If it accepts the serials given in this torrent then it should work because those cracked exe files are only 0 kb. so I think they should work both in 32 bit as well as 64 bit but you'd need a 64 bit setup file for Dragon v11"
+[V],DeGun,2010-11-18T23:38Z,"FRENCH VERSION PEOPLE : 
+
+http://thepiratebay.org/torrent/5900915/Nuance_Dragon_Naturally_Speaking_Pro_FRENCH___Serials 
+
+to see if language can be changed into register hkey ... to try and to TELL to TPB userz . thx "
+,Kiera6910,2010-11-23T11:33Z,"@ekarth22
+If I wanted to reinstall version 10.1, can I use your instructions about uninstalling version 10, and then restart a new version 10 installation?  Thanks for your help!
+Kiera"
+,yrwehere,2010-12-09T14:36Z,"awesome job, worked perfect. thanks"
+,MRajaciedje020,2010-12-14T16:57Z,"you say the setup.exe has a virus, can i just skip downloading the file:  cracked_exe_v11.7z ?"
+,ekarth22,2010-12-15T09:27Z,"@MRajaciedje020
+dude my torrent doesnt have virus as im only providing the 'crack and serial'
+
+but the original 'installation setup torrent' provided by other releasers, have a virus in setup.exe in their torrent.
+
+MY torrent is completely safe"
+,mank111,2011-02-23T01:09Z,"YEs. worked. Didnt understand when to press witch button. Actually its ok with http://www.btscene.com/details/2213713/Nuance+Dragon+NaturallySpeaking+11+Premium.html for me. And it all worked. Then got problem witch has nothing to do with Setup.exe couse i didnt install using exe but msi file.
+So nothing to do with exe is this error messege ""The file C:\WINDOWS\speech\speech.dll is version 4.0.x.xxxx. Naturally Speaking requires version 4.0.4.2512 to run reliably
+If u also get this messege then fix for this worked for me is in http://www.mikemuonline.com/tech-tips/2011/1/3/help-need-4042512-speechdll-file.html"
+,beardedgnu,2011-02-28T02:39Z,thanks! this is great!
+,sycme1,2011-03-03T07:15Z,"msi file does not launch properly from win 7 x64. errors with the following message
+""Dragon Naturally Speaking 11 setup requires elevation. Please run setup.exe from the installation source""
+
+this version is from the link posted above, downloaded completely aside for the setup.exe file"
+,vmod32,2011-03-09T22:41Z,"For those having problems with running the Dragon NaturallySpeaking 11.msi and getting the error message the the programs requires elevation there is a simple solution.  Essentially the program needs to be launched with admin privileges but windows 7 does not have the option when you right click on an .msi file. To get around this create a shortcut to the command prompt cmd.exe. Right click on the shortcut and launch it with admin privileges. Then navigate to the directory with the ""Dragon NaturallySpeaking 11.msi"" file and run it. This should solve your problem... it did for me.."
+,zippy1947,2011-03-10T03:58Z,"vmod32: could you provide more explicit instructions on how to get elevated permission to run the msi? I tried from the command prompt to open the msi (using admin) and it does not work when i put in the file path.
+any screenshots or how to get run to run with admin privileges, would be appreciated."
+,Ooinn,2011-04-17T20:01Z,"Blah, getting a ""C++ Runtime must be installed before running [DNS] installation. Please run setup.exe from the installation source"".
+
+Also, to the elevation problem. Not sure what 'kind' of Windows you're running but 'my' Windows does not allow ""Run as Admin"" on even the shortcut. I suspect '.msi' does not grant that option because if I make a shortcut of a '.exe' the shortcut has ""Run as Admin"".
+
+-Windows 7 (64bit) SP 1"
+,Ooinn,2011-04-17T20:05Z,"Major ""Derp Moment""...about the C++ Runtime:
+
+Manually Install the VC++ Runtime
+(It's in IsSetupPre-requisits\VCRuntime)
+
+Taken from: http://thepiratebay.org/torrent/4480581"
+,dereksha,2011-04-28T16:36Z,"For those who are running problems with a x64 system: there is a quick .reg file that adds ""Take ownership"" to your right click. Just download that file, install it, then right click on your dir where you have downloaded your files, click ""Take Ownership"" and then proceed to install it.
+
+I believe you can find this .reg file on howtogeek or just google it.
+
+It worked here."
+,coppert,2011-05-08T02:51Z,"vmod32 at 2011-03-09 22:41 CET: 
+
+His comment actually got me pass the point of the elevated error.  Once you're in the administrative cmd prompt, type in ""cd"" to change directory followed up with the address of your folder. i.e.
+cd C:\users\.......\dragon nat....v11.
+
+Then run the file by typing the file name with the file name in quotation marks.  Many thanks to uploader and vmod32"
+,QUIETSIDE,2011-05-09T10:03Z,Yes... do not download the setup.exe... Nice trojan... However the command line set up of the Dragon NaturallySpeakingv11.msi worked like a charm..... (Make sure - if 64 Bit to run the vcruntimeX64 first... RESTART your system.. then run the .msi file - worked like a charm...)
+,QUIETSIDE,2011-05-09T10:06Z,"Oh I forgot to add for those WIN7 users.... rename the folder and the msi to something short such as DNSv11.msi so the 8 character recognition is effective....
+
+example: (in the cmd.exe / In Administrator Mode)
+
+msiexec/i C:\DNSv11\dns.msi"
+,QUIETSIDE,2011-05-09T10:12Z,"DO NOT USE the SETUP.EXE...(nice trojan)...
+FOR 64Bit WINDOWS7 USERS
+
+Once Downloaded... RUN the 64Bit vcruntimeX64.exe then restart (important)....
+
+I renamed the folder and renamed the Dragon NaturallySpeaking v11 folder and the Dragon NaturallySpeaking v11.msi (shortened them for the cmd.exe format....(Win7)
+
+NOW:
+
+Run the cmd.exe.......
+
+At the Cmd.exe (admin mode)
+
+EXAMPLE: (mine)
+
+msiexec/i C:\DNSv11\dns.msi
+
+WHolla... use the codes in the file... WORKS GREAT!!!!!"
+,Cracker_Jak,2011-08-21T18:41Z,"I finally figured it out. Actually it wasn't that hard, I am used to only one crack for a program and I was under the impression that the crack always went into the program files folder. Not the case so I learned. The ""requires elevation"" was really giving me a hard time, I used the ""take ownership"" but it wouldn't work so I was about to give up, I have Revo uninstaller pro, from TPB, and it offers through the right click menu ""install with revo "" option. I tried it and it worked!!! From there on was easy as following instructions. Thanks so much for the cracks and your time."
+,GBFantastic,2011-10-02T21:07Z,"Hi, I got around the elevation problem by first installing C++ as per instructions (vcruntime.exe), then instead of clicking the .msi file I clicked on the Setup file. But not before blocking it accessing the internet with my firewall. I think the setup tries to access the internet and download the virus, but because I already had C++ installed, the setup file worked without needing to download/install C++. It installed with no probs and no virus.  ...just make sure to install C++ first and block the internet access before running the Setup.exe file!"
+,hath,2011-10-08T18:06Z,"Works like a charm, although I had to find where to copy and replace, as I couldn't find the c:\..\InstallShield\UpdateService.
+
+Now one chink is that I cannot create new commands other than ""text and graphics"" any way around this?"
+,robinp38,2012-03-15T20:58Z,"Hey !
+
+Can you give me serial number for 11.5 home edition... I have downloaded the home edition but it is miissing the serial number..."
+,erwintalento,2012-03-28T05:05Z,I installed dragon v11 successfully. I'd like to ask if it's safe to install v11.5 update? pls help!!
+,Watchadog,2012-06-16T23:30Z,"Thus version of DNS is practically useless. It does not have any of the features that you really need, like macro. The PRO version has that and more, but I can't find it anywhere."

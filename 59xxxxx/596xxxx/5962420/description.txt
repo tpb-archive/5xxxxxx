@@ -1,0 +1,14 @@
+FreeBOOT Toolbox 0.04 Maker v2.6
+
+BestPig released a new version of freeBOOT ToolBox - a tool that allows to create and customize a freeBOOT image based on an original or XBR/freeBOOT dump.
+This new version of course comes with "freeBOOT" 12611/v0.04(1) (fbBuild 0.11) support.
+
+Besides the new fbBuild 0.11 patches this new version added swedish language and allows to use "freeboot_alt.bin" for 360 users without DVD-player. Since the last version (v2.5) there's of course still the debug option that will show you all ibuild or fbuild error messages.
+
+What's new :
+- Add FbBuild V0.11 support
+- Add Swedish language
+- Add option to use freeboot_alt.bin for xbox without drive.
+
+To create a new "freeBOOT" v0.04 image the program can take in a freeBOOT v0.032, XBR or original dump for 16Mb NANDs, for 256/512 you will need an original NAND dump.
+

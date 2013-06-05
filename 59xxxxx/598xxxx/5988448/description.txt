@@ -1,0 +1,42 @@
+For Help go here: 
+http://kaen-paradise.co.cc
+
+Released 26th Nov 2010 ~Kaen
+
+=======================================================
+
+Words from Notch
+
+I struggled for a long time to figure out exactly why players and mobs would sometimes vanish when players respawn, and finally gave up and asked Jakob to help me sort out the problem.
+
+While explaining the problem, we found the cause.
+
+Turns out that the entities failed to get added to the global render list. This is caused by the chunk not being prepared when the entity is added. The servers SHOULD tell the client what chunks to render before adding entities. Then I remembered the throttling which makes entity updates higher priority than chunk updates..
+
+So now whenever the server tells the client to add an entity, it gets added to the â€œreinsert if ever lostâ€-list I already have in place, but which was only used for a few special entities (mainly the local player) so far.
+
+The client has been updated to 1.2.3_04 (hey look at that!), and the server has an optional update to 0.2.5_02.
+Iâ€™ve got plenty of more bugs to address in SMP, which will be fixed over the coming weeks. I think we might be getting close to beta soon. =D
+
+(btw, working in an office with real people is AWESOME. I love it)
+
+
+
+
+Stay tuned for updates @ Kaen-Paradise.co.cc
+
+=======================================================
+
+This is an UPGRADE ONLY RELEASE
+
+REPLACE YOUR BIN FOLDER IN ".minecraft/bin" with this bin folder
+Overwrite all files. Start MineCraft the way you normally do.
+
+
+=======================================================
+
+
+Works well ONLINE on all FREE & Legit Servers.
+
+Released by Kaen
+26th Nov 2010

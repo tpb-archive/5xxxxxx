@@ -1,0 +1,54 @@
+User Type,Username,Date,Text
+,amirul90,2010-11-12T16:17Z,yes..pliss seed......i want to try....
+,amirul90,2010-11-12T16:39Z,i also..stuck at 41.8%...huhuhuhuhuu...pliss seed
+,rhaoul,2010-11-12T23:37Z, your write its stop its not going any further than 48 so uploader do something if u want to share thanks
+,amirul90,2010-11-13T08:55Z,"yess...if uploader dont share with all, dont upload here.,.."
+,princektd,2010-11-13T11:29Z,"sorry guys, my net connection got cut off. back now.
+
+PS. remember to set testsigning on in bcd else, it wont work.just copy paste the following into a command console and press enter:
+
+bcdedit /set {current} testsigning on"
+,princektd,2010-11-13T11:39Z,"sorry guys, my net connection broke off. back now.
+
+remember to set testsigning on in bcd.
+
+copy/paste following into a command console and press enter.
+
+
+bcdedit /set {current} testsigning on
+
+"
+,amirul90,2010-11-13T14:00Z,not work for me..please write instruction detail
+,princektd,2010-11-13T19:50Z,"instructions:
+***********  
+start->run->cmd
+
+enter the following in the command window without the quotes:
+
+  ""bcdedit /set {current} testsigning on""
+
+
+go to x:\windows\system32 where x is ur system drive letter.
+
+take ownership of the file bootres.dll and winload.dll
+
+to take ownership of files and folder in an easy way, check this page:
+
+http://www.blogsdna.com/2173/add-take-ownership-option-in-right-click-context-menu-of-windows-7.htm
+
+
+next, rename them to bootres-original.dll and winload-original.dll so that u have a backup copy of the original, in case u need them later.
+
+then, copy the bootres.dll and winload.exe found in any one folder of this torrent download and paste them into x:\windows\system32 where x is ur system drive letter.
+
+restart ur system to check out if the new boot animation plays well.
+
+
+
+NOTE:
+*****
+in case some error about winload.exe appears, just boot from a windows 7/vista DVD, choose 'Repair your system' option, select your OS and click next. cancel any automatic repair options if any comes up. from the advanced repair options list, select 'command prompt'. In the command prompt, type: 'notepad' without the quotes, press enter.
+
+Notepad will open up now. from there, select file->open and in the open dialogue box, set file type to 'all files', then browse to the drive wheer u have installed windows. from there, go to the folder windows\system32 and delete winload.exe. next, rename winload-original.exe to winload.exe. now restart."
+,leezaal40,2010-12-06T17:53Z,Does not work for me on windows 7 x64
+,psinha123,2010-12-20T14:35Z,whoa amazing speed of 3.2kBps!!!

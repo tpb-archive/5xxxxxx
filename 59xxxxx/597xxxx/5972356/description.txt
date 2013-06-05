@@ -1,0 +1,36 @@
+last update suzuki worldwide epc parts catalogue
+
+Installation.
+Carefully read!
+1. Burn a disc from an image, or simply connect its image (with NTI, NERO or Alcohol)
+2. It is advisable to close all unnecessary applications
+3. Prepare for the fact that your PC will be installed JAVA (jre 1.4.1) and. NET FrameWork 1.1
+4. Install the program by running setup.exe from the disk and follow the instructions.
+5. Unpack the archive containing a license generator (say, on the desktop. After the successful completion of this operation can be erased).
+6. The catalog generator (KeyGen_ProQuest) c using the "notepad" to open the file 1.dat.
+7. Replacing the value FEATURE c AUCYPURRRdh (or any other) on AUSZPWRRRbb.
+If a directory with key generator already has a file "lic_all.lic", delete it.
+8. Run file Run.bat
+9. In the newly obtained license file "lic_all.lic" using "notepad" remove formatting strings, string form
+
+FEATURE AUSZPWRRRbb bhepcls 1.0 14-feb-2020 0
+DD76051C04603488E3EB 
+HOSTID = ANY
+
+converted into a string
+
+FEATURE AUSZPWRRRbb bhepcls 1.0 14-feb-2012 0 DD76051C04603488E3EB HOSTID = ANY
+
+10. Add contents of the file lic_all.lic the end of the file  Program Files  BHPS  lic  lic  lic_all.lic and
+ Program Files  BHPS  lic  lic  lic_any.lic, expanding existing lines there, example:
+
+SERVER station-main ANY 27009
+DAEMON bhepcls
+
+FEATURE AUSZPWRRRbb bhepcls 1.0 14-feb-2012 0
+DD76051C04603488E3EB HOSTID = ANY
+
+11. Start ProQuest Product Licenser
+12. Make sure the installed licenses.
+13. Close ProQuest Product Licenser
+14. Start the Suzuki Worldwide automotive                                                                                                                                                  

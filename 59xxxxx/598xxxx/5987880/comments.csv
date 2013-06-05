@@ -1,0 +1,46 @@
+User Type,Username,Date,Text
+,jappe6,2010-11-26T21:08Z,Varför så stor? XP är ju inte mer än 600 mb...
+,krasfras,2010-11-26T22:50Z,driverpacks.net tar plats. Orignialdrivarna från 2001 är ju lagom roliga på nyare maskiner.
+,jappe6,2010-11-27T09:53Z,ok - du har inte en motsvarande x64 liggandes...
+,krasfras,2010-11-28T12:45Z,Tyvärr ingen 64-bit.
+,Knause,2010-11-28T18:09Z,"FÃ¥r bluescreen nÃ¤r jag fÃ¶rsÃ¶ker installera, tror jag gÃ¶r allt rÃ¤tt, startar med cd, lÃ¥ter de vara, den lÃ¤ser in allt den ska, sen i slutet fÃ¥r jag bluescreen. Vad gÃ¶r jag fel? har en annan xp skiva och gÃ¶r likadant dÃ¥ ocksÃ¥"
+,krasfras,2010-11-29T12:30Z,Vill du har generell datorsupport är det här fel forum.
+,chief38,2010-11-29T21:25Z,går väl att intsallera på en ny ren dator utan förinstallerat xp eller ??
+,krasfras,2010-11-30T12:28Z,"chief38, enda kravet är att dators DMI-arean i BIOS innehåller SLP, som även kan fixas på icke fabriksdatorer på 3 minuter med en CD-skiva.
+
+Mer info @ forums.mydigitallife.info/threads/6351-DMI-Boot-CD-for-Award-AMI-Intel-BIOS-(Add-SLP1.0-w-o-modding)"
+,Slimfitidd,2010-12-12T05:20Z,Mer seeds tack!:)
+,krasfras,2010-12-13T07:03Z,"Seeds? Just nu Ã¤r det 25 seeds och det har varit +15 sedan starten. 
+
+Hittills inga klagomÃ¥l pÃ¥ den. Ã„r det nÃ¥gon som har feedback? FÃ¶r mig funkar den iaf bÃ¥de normalt och virtuellt (om man fixar SLP tjafset). FÃ¶r VMware kÃ¶r man http://forums.mydigitallife.info/threads/11152-VMware-Workstation-(Multi-Brand)-Bios-Installer"
+,VarJag2,2010-12-13T11:24Z,"Man får tacka !
+Detta borde vara rätt program för den som vill byta ut ett förinstallerat W Vista - som är hur segt som helst.  usch - nu ska det ut.
+Några råd? 
+Hur kollar man SLP i BIOS DMI-area ?"
+,krasfras,2010-12-13T19:02Z,"KÃ¶r alternativ ""1"" mha programmet @ forums.mydigitallife.info/threads/6077-VLK-and-OEMBIOS-changer... sÃ¥ listas alla SLP-entrys i BIOS. Syns det inga ""E:"" eller ""F:"" i den skapade listade som visas lÃ¤r man anvÃ¤nda forums.mydigitallife.info/threads/6351-DMI-Boot-CD-for-Award-AMI-Intel-BIOS-(Add-SLP1.0-w-o-modding) fÃ¶r att lÃ¤gga in SLP i DMI-arean. Helt 100% riskfritt att utfÃ¶ra."
+,busungen1221,2011-01-06T03:05Z,"Hejsan!
+
+Jag började med att installera detta operativsystem, för att sedan köra uppdateringarna och gjorde iordning med alla program, fixade drivrutiner etc. Men nu så kommer det upp ett krav om att aktivera Windows i princip hela tiden. 
+
+Är det något i torrenten som jag missat som gör att detta undviks eller har jag gjort något fel?"
+,krasfras,2011-01-07T12:08Z,"busungen1221 och tohag12, LÄS de tidigare kommentarerna så VET ni vad som knasar. 
+
+Era datorer har inte SLP i BIOS DMI-area. Mina länkar i de tidigare kommentarerna går till fungerande åtgärder."
+,busungen1221,2011-01-07T12:46Z,"krasfras:
+
+Där ser man. Hade för mig att datorn såldes med Xp, men kanske är annat innuti burken. 
+
+Ska se över länkarna!
+
+Mvh."
+,busungen1221,2011-01-07T15:41Z,"Fixade problemet, tror jag i alla fall. Kollade Ã¶ver lÃ¤nkarna men fick upp felmeddelande, sÃ¥ testade ett annat sÃ¤tt.
+
+Drog ned den: http://thepiratebay.org/torrent/3468960/Windows_XP_Activation_Crack Och kÃ¶rde den. Patchen fungerade direkt och alla aktivations;-, Windows samt RegistreringsanmÃ¤rkningar fÃ¶rsvann.
+
+FÃ¥r se ifall det fortlÃ¶per med fungerande operativsystem. "
+,herrcat,2011-04-12T01:14Z,"Är denna gjord med n-lite eller på ""riktigt sätt"" ?"
+,krasfras,2011-04-16T18:08Z,Den Ã¤r nlite'ad. Nu efter ett halvÃ¥rs anvÃ¤ndande har jag noterat lite brister. Listan pÃ¥ OEMBIOS skulle behÃ¶va utÃ¶kas - men dÃ¥ lÃ¤r disten bli vÃ¤ldigt stor att tanka sÃ¥ VLK-AND-OEMBIOS-CHANGER lÃ¤r anvÃ¤ndas. Man lÃ¤r Ã¤ven manuellt lÃ¤gga pÃ¥ WindowsXP-KB969084-x86-sve.exe (version 7 av RDP) fÃ¶r att Windows Update inte ska gnÃ¤lla om mismatch av installerade komponenter.
+,Sharifen,2011-05-18T22:12Z,"kan man använda den här för att uppdatera från XP Home till XP Pro, eller är enda alternativet en ominstalation med diskformatering som följd? Har tankat den och seedar för fulla muggar i väntan på svar"
+,zorgs83,2011-07-22T12:13Z,"krasfras, jag testade installationen två filer kom inte över och alltså kunde den inte avsluta installationen.
+När jag skulle till att reparera installationen och lägga över de saknade filerna misslyckades det eftersom det finns ett administratör-lösenord inkodat i installationen, nu undrar jag vilket det är och varför du har lagt in något alls."
+,krasfras,2011-09-18T10:08Z,Admin-password är tomt dvs icke-satt. Kan du inte logga in som admin - enabla admin-kontot.

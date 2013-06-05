@@ -1,0 +1,20 @@
+XexTool v6.0 and Xex Loader for IDA v6.0
+
+XorLoser released a new version of XexTool:
+
+I have been meaning to update this site for a while, and also to release updates for XexTool and the Xex Loader for IDA. So over the weekend I finally got around to doing so.
+
+For those who donâ€™t know, XexTool is a windows command line tool that gives info on every aspect of an Xbox360 xex file. It also extracts the file that the xex is based on (usually an exe file) and has the ability to alter most of the various flags and parameters set inside an xex file.
+What's new/fixed:
+* finally fixed the patching ability where the target file is smaller than the source file. hopefully it is fixed properly :)
+* fixed handling of bitfields in version structs (only affected big endian systems)
++ added support for natal/kinect related flags
++ added support for xex date restrictions
++ added support for xex console id restrictions
++ added support for xex device id restrictions
++ added support for xex keyvault privileges restrictions
++ added support for extra debug memory entry
++ added support for a few new xex flags and system partitions
+
+The IDA loader for XEX files enables you to directly load an xex file into the IDA disassembler in order to look at what the internal code is doing. This is extremely useful for developers and reversers. If you donâ€™t know what IDA is or what this loader does, then this tool isnâ€™t for you. :)
+

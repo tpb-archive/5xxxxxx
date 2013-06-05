@@ -1,0 +1,29 @@
+The second ImagineOS release is finally available. This livecd created by using Linux live scripts with few modifications uses KDE (4.5.1) as desktop environment and its based on Slackware current with more applications and features. Thanks for everyone for making this release possible, everyone helping and working on open source applications and every GoblinX old user.
+
+Some versions of major components of the system:
+
+- Kernel 2.6.33 (with Zen Kernel patch)
+- SquashFS 20100119
+- AuFS 20100116
+- C compiler gcc-4.5.1
+- Binutils 2.20.51.0.11
+- GNU C Library glibc-2.12.1
+- X Window System Updated (but not â€œbleeding edgeâ€) packages from X.Org
+- Kde 4.5.1
+
+O segundo lanÃ§amento do ImagineOS finalmente chegou. Este livecd criado com os scripts do Linux Live modificados utiliza o KDE (4.5.1) como ambiente grÃ¡fico de trabalho e Ã© baseado no Slackware current (corrente) com adiÃ§Ã£o de mais aplicativos e recursos. Agradecemos a todos que ajudaram a tornar este lanÃ§amento possÃ­vel especialmente aos antigos usuÃ¡rios do GoblinX e todos que trabalham em projetos open source.
+
+Abaixo a lista de alguns dos principais componentes do sistema:
+
+- Kernel 2.6.33 (com o patch do Zen Kernel)
+- SquashFS 20100119
+- AuFS 20100116
+- C compiler gcc-4.5.1
+- Binutils 2.20.51.0.11
+- GNU C Library glibc-2.12.1
+- X Window System Atualizado (mas nÃ£o o â€œbleeding edgeâ€) do X.Org
+- Kde 4.5.1
+
+md5sum :
+71116ecc93b5309e636a33ae1adcb6d7  Imagineos_en-20101103-i486-K1.iso
+2dc28f5d54a0c9f92fbac474774b6130  Imagineos_br-20101103-i486-K1.iso

@@ -1,0 +1,12 @@
+User Type,Username,Date,Text
+,OpenSci,2010-11-05T04:27Z,"For a better guided server software installation use:
+sudo tasksel --section server"
+,arizaqq,2010-11-09T02:39Z,What's the password for root? Thanks.
+,OpenSci,2010-11-16T08:23Z,"The default user ""ubuntu"" has root access. To execute a command as root, login to the ""ubuntu"" and use the ""sudo"" command for example:
+sudo apt-get update
+
+Then enter the ""ubuntu"" password which is also ""ubuntu"".
+To login as root use:
+sudo -i"
+,OpenSci,2010-11-16T08:29Z,"Anyone having trouble with network connection try refreshing DHCP with:
+sudo dhclient -r && sudo dhclient"

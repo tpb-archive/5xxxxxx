@@ -1,0 +1,29 @@
+User Type,Username,Date,Text
+,Kirmz,2010-11-17T04:20Z,Split archiving is not nessecary for torrents. Why people keep doing this is beyond me.
+,Bob__Dole,2010-11-17T04:35Z,"Kirmz, I agree and wish they weren't split, BUT I still wish to thank scenebalance!
+
+Keep in mind that someday, copyrighted content will need to be encrypted or at least compressed so ISP filters don't block it.  Whether that is one big file or multi-file archive doesn't matter, ""maybe"" unless ISPs also start prioritizing traffic based on file size, type, location, etc."
+,vadavidg,2010-11-17T04:40Z,Great show. Good quality. But really? A RAR? Why? Malicious intent is my best guess. other than the feeling of pure enjoyment. Based off of other people suffering. RAR was left in the days of warez... 
+,vadavidg,2010-11-17T04:41Z,Great show. Good quality. But really? A RAR? Why? Malicious intent is my best guess. other than the feeling of pure enjoyment. Based off of other people suffering. RAR was left in the days of warez...  FUCK THAT
+,tjaffz,2010-11-17T04:46Z,"Splitted RAR archives for already compressed  AVI means larger size and ""hit & run"" leechers. Nobody wants to have two sets of the file, RAR and extracted.
+If it's a AVI file it can be viewed by a video player and remain seeded in the BitTorrent software at the same time."
+,Shoobox,2010-11-17T05:18Z,"the reason for rare files is so if one becomes corrupted then you won't have to download the whole file again, all you would do is redownload the piece as your client would read the already downloaded parts.
+"
+,billyboy999,2010-11-17T05:49Z,"Is it just my computer or does the 
+advertising space (On The Right--->>)
+always cover the comment section for
+everyone???"
+,tjaffz,2010-11-17T06:14Z,"@Shoobox
+
+BitTorrent clients have the ability to check each received torrent file piece against the expected check-sum value. Most torrent clients also have the options to validate the whole torrent when it reached 100%. Any parts with error will then be re-downloaded automatically.
+The argument for RAR or ZIP is NOT valid when it comes to safe-guard corrupted file transfers within a torrent application."
+,Shoobox,2010-11-17T06:30Z,"@tjaffz
+thats what i said,
+ the reason for rar files in pieces is so if one piece is corrupted you wouldn't have to download the whole file again, where example if you download an avi file and its corrupted you would have to redownload the whole file"
+,Shoobox,2010-11-17T06:40Z,"whether its rar or a stright file its the downloaders choice if they want to download it if you don't want the rar version look for a stright file version you can see the file before you download, its rare that i download rar files but a small 350mb file shouldn't matter if you unzip it and have two fo the same files unless you on a private site, open trackers should be rar or zipped files but no private trackers don't need a a rar or zipped file."
+,tjaffz,2010-11-17T07:27Z,"@Shoobox
+
+Sorry but you're not making any sense.
+BitTorren clients make their own checking for corrupted file pieces and don't need the overhead of RAR archives to enable re-download of just the corrupted part. In fact you get even better granularity with the torrent client check-sum validation compared to a lot of RAR files.
+
+Your RAR argument is valid for plain file transfers over FTP or HTTP, not for torrents."

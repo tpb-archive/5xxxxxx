@@ -1,0 +1,16 @@
+Yes, the time has come again Ã¢â‚¬â€œ for a new kernel, and a new release of BackTrack. Codenamed Ã¢â‚¬Å“NemesisÃ¢â‚¬Â. This release is our finest release as of yet with faster Desktop responsiveness, better hardware support, broader wireless card support, streamlined work environment.
+
+We could go on for pages on saying how great the new version is, but weÃ¢â‚¬â„¢ll cut to the chase, and give you the run down:
+
+    * Kernel 2.6.35.8 Ã¢â‚¬â€œ *Much* improved mac80211 stack.
+    * USB 3.0 support.
+    * New wireless cards supported.
+    * All wireless Injection patches applied, maximum support for wireless attacks.
+    * Even *faster* desktop environment.
+    * Revamped Fluxbox environment for the KDE challenged.
+    * Metasploit rebuilt from scratch, MySQL db_drivers working out of the box.
+    * Updated old packages, added new ones, and removed obsolete ones.
+    * New BackTrack Wiki with better documentation and support.
+    * Our most professional, tested and streamlined release ever.
+
+For those wanting to upgrade an older release of BT4, an apt-get update && apt-get dist-upgrade should do the job.

@@ -1,0 +1,22 @@
+User Type,Username,Date,Text
+,highstream,2010-11-29T06:37Z,"Thanks again, BasilBrush.
+
+Since 832x468 .mp4 videos are not playable via most DVD players attached to TVs, they need to be converted.  The only way I've found to keep the quality and full TV screen format is to go to .wmv or mpeg at 640x480 or sometimes 720x480, both which typically create converted files 3-4x larger than the original (smaller converted files lose quality and .avi @ 640x480 is ok but comes out smaller format). Hence, I would be grateful if, when possible, you split the races into separate files, e.g., male and female.  Thanks,"
+,BasilBrush,2010-11-30T12:48Z,"You should be able to use Yamb with mp4box to chop up file.
+
+The MP4 files will play on Atom based netbook computers with VLC or MPC-HC although Quicktime is useless on an Atom. These netbooks usually have a VGA and audio out connectors that you can plug into a flatscreen TV.
+
+Another alternative is to use the export function of Quicktime to convert the file into one of the Apple device M4V style files.
+
+For Xvid you'll need about 50% more bitrate and you need to convert the AAC audio to MP3 or AC3.
+
+As the AAC uses VBR the upper bitrate is about 150Kbps. VLC is able to transcode AAC to MP3 or AC3.
+
+I'm not particularly a fan of MP4 and CAVLC mode (I prefer MKV and CABAC) but the MP4 should play on most modern hardware."
+,BasilBrush,2010-11-30T13:17Z,"I've just been reading a Doom9 forum on MP4/h264 to AVI/Xvid conversion. It looks a bit misleading.
+
+If you want to play AVI/Xvid on a standard Divx hardware player you have to re-encode the video from h264 to h263 (the Divx/Xvid standard) as the Divx players firmware is very unlikely to contain the h264 codec. Also the audio must be converted from AAC to MP3 or AC3. The Divx player is unlikely to have the AAC codec.
+
+What they're talking about in the forum is just re-muxing the video and audio into an AVI container which isn't the same thing. This works if played back on a PC but is very unlikely to work on a Divx player.
+
+http://forum[dot]doom9[dot]org/showthread.php?t=123148"

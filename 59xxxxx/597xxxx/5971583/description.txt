@@ -1,0 +1,77 @@
+This release contains fairly outdated, but still nice DjVu manipulation software for MS Windows:
+
+
+
+Document Express Enterprise 5.1 [version 5.1.0.973]
+
+Document Express Editor 6.0 [EXE version 6.0.1.1229, DLL version 6.0.1.1320]
+
+
+
+Virtual Printer (Pro) 4.1 [version 4.1.5.973]
+
+DjVu IFilter 1.1
+
+PDFtoDjVu Shell Extension
+
+DjVu Browser Plugin 5.0.1
+
+
+
+Express Cartridge Manager
+
+Document Express Enterprise - Workgroup Edition 3.6 [legacy]
+
+
+
+IRIS OCR engine for European and Asian languages is also included.
+
+
+
+***
+
+
+
+Archive format: ISO image. Burn it or mount with Alcohol 120%, Daemon Tools etc.
+
+
+
+Working serials and keygen are included.
+
+
+
+There are some bugs.
+
+1) Sometimes Document Express Enterprise unexpectedly exits just after loading with error info about "some missing/incorrect directory {0}". The reason is unknown (?), but this program is easily recovered by reinstalling it (you can just choose "Repair/Upgrade" option of installer).
+
+2) Some PDFs can't be converted to DjVu, probably because of pdftodjvu using outdated GhostScript engine version 8.14. Unfortunately, it cannot be upgraded to the recent versions without breaking the functionality of pdftodjvu.
+
+3) Sometimes IRIS OCR engine doesn't like some pages, so it doesn't produce text layer there. Fortunately, alternative OCR software (such as FineReader) can be used later to do OCR in DjVu documents.
+
+
+
+***
+
+
+
+Some components are distributed free of charge, so updated versions of them can be downloaded from:
+ 
+http://www.caminova.jp/en/downloads/
+
+(Choose DjVu Browser Plug-in and DjVu Shell Extension Pack).
+
+
+
+The ownership rights to the commercial development of the DjVu encoding software have been transferred to different companies over the years, including AT&T, LizardTech, Celartem and Caminova, see: http://en.wikipedia.org/wiki/DjVu
+
+
+
+***
+
+
+
+There is some nice free open source DjVu software.
+
+1) WinDjView is a nice free DjVu viewer for MS Windows: http://windjview.sourceforge.net
+
+2) DjVuLibre is Open Source DjVu library and viewer for Linux, MacOS and other platforms: http://djvu.sourceforge.net

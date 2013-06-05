@@ -1,0 +1,29 @@
+NovitÃƒÂ 
+
+Stability is improved when you edit curve segments using the Virtual Segment Delete tool, Reduce Nodes and the Fillet/Scallop/Chamfer. Curves edited with these tools were previously interpreted as invalid. 
+Printing
+DeviceN bitmaps that contain Lab colors generate errors when you use Ghost Script 8.70 or earlier versions. Support of PostScript Level 3 is required for such bitmaps. 
+Ghost Script Ver. 9.00 renders Spot colors with overprints incorrectly 
+Color Styles
+You can delete all color styles in a document with one click. Open the Color Styles docker, select the document folder that contains multiple color styles in the Color Styles docker, and click the new Delete Color Styles button. 
+Color Palettes
+PANTONE PLUS process and spot color palettes have been included for use in CorelDRAW and Corel PHOTO-PAINT. These palettes are updated versions of the PANTONE MATCHING SYSTEM and contain new colors as well as updated Lab, RGB and CMYK equivalent colors. Files created in the GM or SP1 version of CorelDRAW Graphics Suite X5, and previous versions, will continue to use the colors from the older palettes files so they will have the same appearance when opened in SP2. If you are opening an EPS, PDF, PSD or AI file that has a color included in both the old and new palettes, you are prompted to choose which palette you would like to use. You can also set an application preference to use the older or new palettes from Tools>Options>Global>Color. 
+The default spot color palette, which is the palette selected on the Palettes tab of the Color docker, can now be set on the Color page of the Tools dialog box if you want to use a different palette than the current default. 
+Filters
+Export AI: In order maintain enhanced line styles (created in Corel DESIGNER) in your file, you must select the option Convert Outline to Object in the AI export dialog box. 
+Export AI: To maintain arrowheads in the exported file, lines ending arrowheads must be converted to objects prior to export. 
+Very large images are no longer downsampled in the Export dialog boxes 
+RAW libraries
+The RAW libraries were updated to support the following new camera models as well as A100 images modified by Sony software.
+
+Fuji FinePix S200EXR 
+Fuji FinePix S5100/S5500 
+Kodak Z981 
+OLYMPUS E-P2 
+Panasonic DMC-G1 
+Panasonic DMC-G2 
+SONY DSLR-A450 
+Canon SX20 IS 
+Samsung EX1 
+Samsung WB550 and NX10, Casio EX-Z1050, and Fuji HS10/HS11 
+Canon EOS 550D / Digital Rebel T2i / Kiss Digital X4 

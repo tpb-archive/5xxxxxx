@@ -1,0 +1,96 @@
+PROGRAMMING MOBILE DEVICES AN INTRODUCTION FOR PRACTITIONERS
+
+ISBN: 978-0-470-05738-4, Format: PDF, 244 pages, April 2007
+
+:: Description ::
+
+With forewords by Jan Bosch, Nokia and Antero Taivalsaari, Sun Microsystems. 
+Learn how to programme the mobile devices of the future! 
+
+The importance of mobile systems programming has emerged over the recent years as a new domain in software development. The design of software that runs in a mobile device requires that developers combine the rules applicable in embedded environment; memory-awareness, limited performance, security, and limited resources with features that are needed in workstation environment; modifiability, run-time extensions, and rapid application development. 
+
+Programming Mobile Devices is a comprehensive, practical introduction to programming mobile systems. The book is a platform independent approach to programming mobile devices: it does not focus on specific technologies, and devices, instead it evaluates the component areas and issues that are common to all mobile software platforms. This text will enable the designer to programme mobile devices by mastering both hardware-aware and application-level software, as well as the main principles that guide their design. 
+
+Programming Mobile Devices: 
+
+â€¢ Provides a complete and authoritative overview of programming mobile systems. 
+â€¢ Discusses the major issues surrounding mobile systems programming; such as understanding of embedded systems and workstation programming. 
+â€¢ Covers memory management, the concepts of applications, dynamically linked libraries, concurrency, handling local resources, networking and mobile devices as well as security features. 
+â€¢ Uses generic examples from JavaTM and Symbian OS to illustrate the principles of mobile device programming. 
+
+Programming Mobile Devices is essential reading for graduate and advanced undergraduate students, academic and industrial researchers in the field as well as software developers, and programmers.
+
+
+:: Table of Contents ::
+
+Foreword by Jan Bosch. 
+Foreword by Antero Taivalsaari. 
+
+Preface. 
+Acknowledgments. 
+1 Introduction. 
+	1.1 Motivation. 
+	1.2 Commonly Used Hardware and Software. 
+	1.3 Development Process. 
+	1.4 Chapter Overview. 
+	1.5 Summary. 
+	1.6 Exercises. 
+2 Memory Management. 
+	2.1 Overview. 
+	2.2 Strategies for Allocating Variables to Memory. 
+	2.3 Design Patterns for Limited Memory. 
+	2.4 Memory Management in Mobile Java. 
+	2.5 Symbian OS Memory Management. 
+	2.6 Summary. 
+	2.7 Exercises. 
+3 Applications. 
+	3.1 What Constitutes an Application? 
+	3.2 Workflow for Application Development. 
+	3.3 Techniques for Composing Applications. 
+	3.4 Application Models in Mobile Java. 
+	3.5 Symbian OS Application Infrastructure. 
+	3.6 Summary. 
+	3.7 Exercises. 
+4 Dynamic Linking. 
+	4.1 Overview. 
+	4.2 Implementation Techniques. 
+	4.3 Implementing Plugins. 
+	4.4 Managing Memory Consumption Related to Dynamically Linked Libraries. 
+	4.5 Rules of Thumb for Using Dynamically Loaded Libraries. 
+	4.6 Mobile Java and Dynamic Linking. 
+	4.7 Symbian OS Dynamic Libraries. 
+	4.8 Summary. 
+	4.9 Exercises. 
+5 Concurrency. 
+	5.1 Motivation. 
+	5.2 Infrastructure for Concurrent Programming. 
+	5.3 Faking Concurrency. 
+	5.4 MIDP Java and Concurrency. 
+	5.5 Symbian OS and Concurrency. 
+	5.6 Summary. 
+	5.7 Exercises. 
+6 Managing Resources. 
+	6.1 Resource-Related Concerns in Mobile Devices. 
+	6.2 Common Concerns. 
+	6.3 MIDP Java. 
+	6.4 Symbian OS. 
+	6.5 Summary. 
+	6.6 Exercises. 
+7 Networking. 
+	7.1 Introduction. 
+	7.2 Design Patterns for Networking Environment. 
+	7.3 Problems with Networking Facilities and Implementations. 
+	7.4 MIDP Java and Web Services. 
+	7.5 Symbian OS and Bluetooth Facilities. 
+	7.6 Summary. 
+	7.7 Exercises. 
+8 Security. 
+	8.1 Overview. 
+	8.2 Secure Coding and Design. 
+	8.3 Infrastructure for Enabling Secured Execution. 
+	8.4 Security Features in MIDP Java. 
+	8.5 Symbian OS Security Features. 
+	8.6 Summary. 
+	8.7 Exercises. 
+References. 
+Index.
