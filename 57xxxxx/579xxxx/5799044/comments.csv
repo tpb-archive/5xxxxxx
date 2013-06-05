@@ -1,0 +1,23 @@
+User Type,Username,Date,Text
+,Rispa1,2011-01-09T13:16Z,"Anyone get this to work? After installing and copying crack, when I run the game I only get the normal King Arthur campaign. No options anywhere to activate the expansion - I have searched thoroughly, even started a new game, but it's the base game through and through.
+
+The base game was updated, though; it show 1.04 at bottom right hand corner whereas the base game was not updated at all, so the expansion must have been installed correctly."
+,nunyabidnezz,2011-01-23T03:39Z,"Okay, this is what you have to do: On the shortcut that's created, the shortcut is absolutely wrong.
+
+It was something like:
+""C:\Gamez\King Arthur - The Role-playing Wargame\KingArthur.exe"" win startgame:saxon
+
+You have to right click, properties, and put this into the shortcut:
+
+""C:\Gamez\King Arthur - The Role-playing Wargame\KingArthur.exe"" win DLC:saxon
+
+Of course, using C:\Gamez\King Arthur - The Role-playing Wargame\ as an example, it'll be whatever you install KARP into. All you need to do is delete the startgame and replace it with DLC so that part looks like this:
+
+win DLC:saxon
+
+I had problems running it too but I installed the druid expansion, and checked to see why I could play it, but not saxon. Lo and behold, that's the only difference between the two games and it works.
+
+You welcome."
+,TITIBUTI,2011-01-30T14:41Z,"Guys, I have exactly the same problem as Rispa1. I Have the main game and the Druids and saxons expansions installed and working but I canÂ´t find any difference between the main game updated to version 1.04 and with the two expansions installed. It seems that the crack just activates the main game with the updates. I saw the expansions trailers and it seems that a new campaign should be available for each expansion. CanÂ´t find it anywhere.
+Can someone help ? Thanks in advance."
+,maareek,2011-02-12T17:51Z,"In order to enable expansion you need to launch the game from druids or saxons shortcut in startmenu. After that theres a little green icon in top left corner in the main menu of the game (the window where you have settings, new game, multiplayer etc) and after you click it you can see what expansion(s) are enabled. If you have druids and vanilla version, then after starting a new campaign you can choose wheter its original king  arthur, druids expansion or something else."

@@ -1,0 +1,40 @@
+[img]http://img412.imageshack.us/img412/8926/98049672.jpg[/img]
+
+More AT:
+
+This is the loader application thats used by millions of people worldwide, well known for passing Microsoft's WAT (Windows Activation Technologies) and is arguably the safest Windows activation exploit ever created. The application itself injects a SLIC (Software Licensing Description Table) into your system before Windows boots, this is what fools Windows into thinking it's genuine.
+
+Features
+Can be run as a standalone application
+Works well with all system languages
+Argument support for silent installs
+Can be used for pre-activation
+Application integrity checking
+Custom error handling
+Support for hidden partitions and complex setups
+Can work alongside Linux's GRUB or any other boot manager
+Works with TrueCrypt and many other types of hard drive encryption applications
+Add your own certificates and serials externally
+Offers certificate and serial installation only for users with an existing SLIC 2.1
+Automated system profiling (The application matches everything up for you)
+
+
+The Rundown
+This will run on x86 and x64 systems âœ” check
+This can activate all Windows versions at the same time, just install it on each âœ” check
+No core system files get modified âœ” check
+No extra processes are run so you have nothing eating at your RAM âœ” check
+All key parts of the exploit are encrypted with a custom encryption âœ” check
+The exploit runs before Windows so it's harder for Microsoft to prevent âœ” check
+The exploit patches all necessary tables making activation look authentic âœ” check
+The application will select the best profile for your system during installation âœ” check
+Each and every user has a unique version of the exploit installed on his / her system âœ”
+
+Version 1.9.1 Changes (08/12/2010):
+* Improved corrupt SLIC detection
+* Added Medion Starter serial & STEG Professional serial
+* Added a new GRLDR version
+* Other minor tweaks and fixes 
+
+More AT:
+

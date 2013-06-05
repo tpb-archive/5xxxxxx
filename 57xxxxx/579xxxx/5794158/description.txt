@@ -1,0 +1,43 @@
+CyanogenMod is a free, community built distribution of Android 2.2 (Froyo) which greatly extends the capabilities of your phone.
+
+#include <std_disclaimer.h>
+/*
+ * Your warranty is now void.
+ *
+ * I am not responsible for bricked devices, dead SD cards,
+ * thermonuclear war, or you getting fired because the alarm app failed. Please
+ * do some research if you have any concerns about features included in this ROM
+ * before flashing it! YOU are choosing to make these modifications, and if
+ * you point the finger at me for messing up your device, I will laugh at you.
+ */
+
+
+This is an AOSP-based build with extra contributions from many people which you can use without any type of Google applications. I found a link from some other project that can be used to restore the Google parts, which can be found below or elsewhere in the thread. I've still included the various hardware-specific code, which seems to be slowly being open-sourced anyway.
+
+Visit the CHANGELOG for a full list of changes and features!
+
+If you'd like to to contribute to CyanogenMod, checkout our Gerrit instance.
+
+It's important to know that the "DangerSPL" (or DeathSPL or Haykuro's SPL or whatever you prefer) is a prerequisite for Dream/G1 users. Magic (MT3G etc) users do *not* need to do this. Ciwrl has written a guide to installing this bootloader. Flashing this bootloader under the wrong conditions can actually brick your device, so pay attention to the guide. CM releases have always avoided this requirement, but the new bootloader frees up enough space so that no crazy hacks are required for a fully functional system, and it's easier to keep in sync with the N1/Droid releases.
+
+
+INSTRUCTIONS:
+- First time flashing CM 6 to your Dream/Sapphire (or coming from another ROM)?
+1. Unlock/root your device and install Clockwork Recovery via ROM Manager or Amon_RA's recovery image
+2. Do a Nandroid backup!
+3. Update your radio if necessary
+4. WIPE
+5. Install the ROM
+5. Optionally install the Google Addon
+
+- Upgrading from earlier CM6?
+1. Do a Nandroid Backup!
+2. Install the ROM (your Google apps will be backed up automatically)
+
+HOW TO REPORT BUGS OR PROBLEMS?
+- Was it a hard reboot? Get me the file "/proc/last_kmsg".
+- Was it a soft reboot or a "boot loop"? Run "adb logcat" and get me the full output.
+- Pastebin links preferred
+- Please use the issue tracker whenever possible!
+
+Please visit the CyanogenMod Wiki for step-by-step installation walkthroughs and tons of other useful information.

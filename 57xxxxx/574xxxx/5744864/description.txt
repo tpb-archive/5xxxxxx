@@ -1,0 +1,52 @@
+Exact Audio Copy V0.99 prebeta 5 from 4. May 2009
+
+EAC extraction logfile from 23. November 2009, 11:58
+
+Adam Lambert / For Your Entertainment
+
+Used drive  : PIONEER DVD-RW  DVR-108   Adapter: 0  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 48
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 128 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files\Exact Audio Copy\FLAC\FLAC.EXE
+Additional command line options : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s 
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  3:16.66 |         0    |    14765   
+        2  |  3:16.66 |  3:35.12 |     14766    |    30902   
+        3  |  6:52.03 |  3:47.24 |     30903    |    47951   
+        4  | 10:39.27 |  3:29.40 |     47952    |    63666   
+        5  | 14:08.67 |  4:33.32 |     63667    |    84173   
+        6  | 18:42.24 |  3:33.03 |     84174    |   100151   
+        7  | 22:15.27 |  4:04.48 |    100152    |   118499   
+        8  | 26:20.00 |  3:48.18 |    118500    |   135617   
+        9  | 30:08.18 |  4:00.64 |    135618    |   153681   
+       10  | 34:09.07 |  3:26.36 |    153682    |   169167   
+       11  | 37:35.43 |  4:26.25 |    169168    |   189142   
+       12  | 42:01.68 |  4:26.34 |    189143    |   209126   
+       13  | 46:28.27 |  5:10.74 |    209127    |   232450   
+       14  | 51:39.26 |  4:42.61 |    232451    |   253661   
+
+
+Track  1
+
+     Filename C:\Documents and Settings\say-go\Æ

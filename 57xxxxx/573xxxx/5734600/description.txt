@@ -1,0 +1,21 @@
+Proteus Professional - software for automated design of electronic circuits. The package is a system of circuit simulation, based on the models of electronic components in PSpice. A distinctive feature of the package Proteus Professional is the possibility of modeling of the programmable devices: microcontrollers, microprocessors, DSP and others. Additionally, the package of Proteus Professional is a system design of printed circuit boards. Proteus Professional can simulate the following microcontrollers: 8051, ARM7, AVR, Motorola, PIC, Basic Stamp. The library contains the components of reference data
+
+Pictures:
+
+
+Info install:
+
+1-Go to control panel select add/remove and install Proteus
+2-Go to program files and erase the folder Labcenter Electronics
+3-go to Run and run regedit
+4-delet the file SOFTWARE/LABCENTER ELECTRONIC
+5-Run Cclenner ( you can download from www.ccleaner.com) select the Register option. This will clean the last traces of Proteus installation.
+ 6-Install  setup76sp4.exe
+7-Run the Fix.exe -*** warning *** you have to re direct the local of installation to:
+programfiles/labcenter electronics/Proteus7Professional/MODELS
+>> the location for the shortcut does not care
+8-Run the patch and enjoy.
+It works for me. And more The file DIODE08 works fine now. The doorbell for pic16 also works.
+
+
+by JZs

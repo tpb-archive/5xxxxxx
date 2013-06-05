@@ -1,0 +1,53 @@
+
+Format                           : Matroska
+File size                        : 2.40 GiB
+Duration                         : 2h 25mn
+Overall bit rate                 : 2 350 Kbps
+Encoded date                     : UTC 2010-08-14 06:36:33
+Writing application              : mkvmerge v3.1.0 ('Happy up here') built on Jan 19 2010 12:09:24
+Writing library                  : libebml v0.7.9 + libmatroska v0.8.1
+
+Video
+ID                               : 1
+Format                           : AVC
+Format/Info                      : Advanced Video Codec
+Format profile                   : High@L4.1
+Format settings, CABAC           : Yes
+Format settings, ReFrames        : 8 frames
+Muxing mode                      : Container profile=Unknown@4.1
+Codec ID                         : V_MPEG4/ISO/AVC
+Duration                         : 2h 25mn
+Bit rate                         : 2 160 Kbps
+Width                            : 1 280 pixels
+Height                           : 528 pixels
+Display aspect ratio             : 2.40:1
+Frame rate                       : 25.000 fps
+Original frame rate              : 23.976 fps
+Color space                      : YUV
+Chroma subsampling               : 4:2:0
+Bit depth                        : 8 bits
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.128
+Stream size                      : 2.25 GiB (94%)
+Writing library                  : x264 core 80 r1376M 3feaec2
+Encoding settings                : cabac=1 / ref=8 / deblock=1:-2:-2 / analyse=0x3:0x113 / me=umh / subme=9 / psy=1 / psy_rd=0.2:0.0 / mixed_ref=1 / me_range=32 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=0 / chroma_qp_offset=-1 / threads=3 / sliced_threads=0 / slices=2 / nr=0 / decimate=0 / mbaff=0 / constrained_intra=0 / bframes=6 / b_pyramid=2 / b_adapt=2 / b_bias=0 / direct=1 / wpredb=1 / wpredp=2 / keyint=250 / keyint_min=25 / scenecut=42 / rc_lookahead=42 / rc=2pass / mbtree=1 / bitrate=2160 / ratetol=1.0 / qcomp=0.60 / qpmin=10 / qpmax=51 / qpstep=4 / cplxblur=20.0 / qblur=0.5 / ip_ratio=1.40 / aq=1:1.00
+
+Audio
+ID                               : 2
+Format                           : MPEG Audio
+Format version                   : Version 1
+Format profile                   : Layer 3
+Mode                             : Joint stereo
+Mode extension                   : MS Stereo
+Codec ID                         : A_MPEG/L3
+Codec ID/Hint                    : MP3
+Duration                         : 2h 26mn
+Bit rate mode                    : Constant
+Bit rate                         : 96.0 Kbps
+Channel(s)                       : 2 channels
+Sampling rate                    : 32.0 KHz
+Video delay                      : 810ms
+Stream size                      : 100 MiB (4%)
+Writing library                  : LAME3.98r
+
+sample included..

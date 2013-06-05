@@ -1,0 +1,92 @@
+Anonymous port scanner - Linux-Win-Mac [py-Ita]
+
+[align=center]
+
+[align=center][b][SIZE=16][color=blue]Anonymous port scanner[/SIZE][/color][/b][/align]
+
+[b][color=green].: Descrizione del Software :.[/color][/b]
+
+Il software funziona sia su Linux che Windows che Mac.
+Anonymous port scanner utilizza i servizi web gratuiti di webyield per ottenere la scansione di porte su un IP presente su internet.
+
+Perche' anonimo?
+Perche' la scansione e' delegata al web server, quindi non e' il PC su cui e' caricato il programma ad effettuare la scansione, ma il servizio di scansione webyield. Non avviene quindi alcun "contatto" fra il nostro PC e l'IP da scansionare.
+
+Funzionamento: 
+il programma richiede al sito www.webyield.net di scansionare l'IP/s alla porta/e scelta e ritorna una risposta affermativa o negativa.
+
+[b][color=green].: Scheda del Software :.[/color][/b]
+
+[b]Nome: Anonymous Port Scanner[/b]
+[b]Os: Linux, Windows, Mac[/b]
+[b]NazionalitÃ : Italiano[/b]
+[b]Anno: 2010[/b]                                    
+[b]Versione: ultima[/b]
+[b]Genere: Hacking[/b]
+[b]Produzione: freeware[/b]
+[b]Distribuzione: questa rel[/b]
+[b]Data di uscita: ieri[/b]
+
+[b][color=green].: Comandi :.[/color][/b]
+
+eseguire il comando da Windows nel prompt di DOS [basta caricare cmd.exe da Esegui]:
+invece che digitare "./anonmap" bisogna digitare:
+"python anonmap "
+seguito dai parametri.
+
+linux:
+"./anonmap"
+seguito dai parametri (come nell'help)
+
+mac:
+so che funziona anche li' ma non ho idea di come si carichino i programmi sul Mac
+
+[b][color=green].: Screen :.[/color][/b]
+"""
+Anonymous port scanner
+Scansione tramite il sito web www.webyield.net
+
+Modalita' ip singolo:
+
+./anmap IP Address [Port|firstport-lastport|port1,port2,port3,...,portn|-F]
+
+- IP Address			Indirizzo IP da scansionare
+- Port				Porta
+- firstort-lastport		range porte (lento, funziona sempre ma son sconsigliati i range troppo vasti)
+- port1,port2,port3,.,portn	lista porte
+- -F				fast scan (equivale a -F in nmap), sconsigliato, genera molto traffico sul server,
+				e' lentissimo e puo' generare problemi se abusato.
+
+esempi:
+./anonmap 123.123.123.123 1080
+./anonmap 123.123.123.123 100-2000
+./anonmap 123.123.123.123 80,110,1080,8080
+./anonmap 123.123.123.123 -F
+
+Modalita' ip multiplo: (solo subnets di classe C e solo singola porta)
+
+./anmap IPAddress-lastc port multi
+
+- IPAddress-lastc		Rnge di indirizzi ip che variano in classe C 
+- port				porta
+- multi				flag per attivare la modalita' ip multiplo
+
+esempio:
+./anmap 123.123.123.100-250 80 multi
+"""
+
+Buon Scanning!
+
+Ogni suggerimento/feedback e' benvenuto!
+
+
+Banda: 20kB/s 24/24 7/7 fino ad assestamento della release
+
+se vi piace questa release forse vi interesseranno anche le atre mie rel:
+
+Le mie releases|My other releases|Mis otros torrentes: 
+http://tracker.btarena.org/account-details.php?id=35713 
+http://thepiratebay.org/user/exportacc/ 
+http://ilcorsaronero.info/usr/53046 
+http://1337x.org/user/exportaccoun/ 
+http://www.torrentmatrix.com/account-details.php?id=874873

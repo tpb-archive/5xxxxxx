@@ -1,0 +1,180 @@
+Port para Homebrew de la conocidÃ­sima arcade de todos los tiempos para Nintendo Wii. Con este emulador podrÃ¡s volver a todo aquellos maravillosos juegos de las recreativas que marcaron toda una Ã©poca
+
+[b]Tutorial[/b]
+[spoiler]
+- Descomprimir y copiar las 2 carpetas en la raiz de la SD (Si queremos cargar desde USB los roms copiamos la carpeta \'\'mame\'\' en la raiz del dispositivo USB).
+- Abrir homebrew y cargar SDL Mame.
+- Selecionar la rom desde la SD o USB y cargarla. Yo la engo en la Sd y perfecto.
+[b]
+Controles[/b]
+
+Los controles se pueden configurar en el propio emulador o cambiando la configuraciÃ³n en / mame / cfg / archivo default.cfg. A continuaciÃ³n se muestran los ajustes de control por defecto:
+
+
+Nada mas que cargue el emulador SDLMame, os puede salir una de las 2 siguientes pantallas:
+
+[img]http://img203.imageshack.us/img203/7290/44649783.jpg[/img]
+
+  * Si os sale esa pantalla, tranquilos. Solo avisa que no habeis metido las ROMS en la carpeta correcta o que no teneis ROMS metidas.
+
+Si habeis metido bien las ROMS, os saldra esta pantalla:
+
+[img]http://img638.imageshack.us/img638/7675/83865015.jpg[/img]
+
+  * Las ROMS, siempre apareceran por encima de la opciÃ³n "Configure General Inputs" (ConfiguraciÃ³n general de mandos). Para empezar a jugar con una ROM, pulsaremos el botÃ³n A y empezara a cargar.
+
+  * En la opcion "Configure General Inputs", podremos configurar los controles generales del mando de cada jugador. Os recomiendo no tocar nada.
+  * Si pulsamos "Exit", saldremos de SDLMame, reiniciando la Wii automÃ¡ticamente.
+
+[b]La primera vez que useis una ROM en SDLMame, os saldra una pantalla como esta:[/b]
+
+[img]http://img819.imageshack.us/img819/9256/38715940.png[/img]
+
+Cuando os salga esta pantalla, simplemente moveis el Pad analogico (el gris) a la izquierda y seguidamente, a la derecha.
+
+[b]El siguiente menu, y con mas opciones de configuracion, aparecerÃ¡ mientras jugamos, si pulsamos Start:[/b]
+
+  * Input (general): De nuevo, vemos la opcion, para configurar los controles generales del mando de cada jugador.
+  * Input (this game) Configuracion de los controles de juego del mando de cada jugador.
+  * Brookkeeping Info: Sirve, para ver cuantas veces hemos metido creditos.
+  * Game Information: Nos mostrara todos los detalles de la ROM con la que estemos jugando
+  * Video Options: Pantalla de configuracion de video (Mas abajo, puedes ver el menu y las opciones, detalladamente.)
+  * Select New Game: Ir a la lista de Seleccion de ROMS.
+  * Return to Game: Volvemos al juego, para seguir jugando.
+
+[b]El menu de Video Options (ConfiguraciÃ³n de video)[/b]
+
+  * Standard (4:3), Pixel Aspect(12:7) y Cocktail: Diferentes tipos de visualizacion.
+  * Rotate View: Girar pantalla hacia la izquierda 90Âº.
+  * Hide Backdrops: (No se diferencian cambios)
+  * Hide Overlays: (No se diferencian cambios)
+  * Hide Bezels: (No se diferencian cambios)
+  * Crop to Screen: (No se diferencian cambios)
+  * Return to Prior menu: Retroceder al Menu de Pausa.[/spoiler]
+
+[b]Juegos emulados:[/b]
+
+[spoiler]
+
+Hay mas juegos en el pack, pero por no poner todos...os dejo estos de muestra.
+
+1941
+1942
+720 (although I couldnt work out the controls)
+Afterburner (although the controls were a bit funky)
+Aliens
+Alein Syndrome
+Altered Beast
+Arkanoid
+Asterix
+APB (although the controls were weird)
+Bad Dudes vs Dragon Ninja
+Battletoads
+Bubble Bobble
+Captain America and the Avengers
+Captain Commando
+Carrier Air WIng
+Centipede
+Championship Sprint
+Chelnov
+Combat School
+Commando
+Cotton
+Crudebusters
+Dark Seal
+Darius (although the screen is stretched and v small)
+Dig Dug
+Dynamite Dux
+Dynasty Warritors
+Enduro Racer (strage controls though)
+Empire Strikes Back
+Eswat
+Exed Exes
+Forgotn Realms
+Final Fight
+Galaga
+Galaga 88
+Gauntlet 2p & 4p version
+Ghosts n Goblins
+Golden Axe
+Goonies
+Gradius
+Gradius 3
+Green Beret
+Gyruss
+Hang On (control issues)
+Haunted Castle
+Magic Sword
+Mario Bros
+Mega twins
+Mercs
+Michael jacksons Moonwalker
+Midnight Resistance (although the controls were funky)
+Millipede
+Mr Do
+Nemesis
+Osman
+Outrun (control issues_
+Operation Wolf (although I couldnt control it)
+Pacland
+Pac mania
+Paperboy
+Parodius
+Pole Position (controls were a little 'meh')
+Pole Position II (ditto)
+Popeye
+Punch Out
+Rainbos Islands
+Rampage
+Rastan
+Return of the Jedi
+RoboCop
+RoboCop II
+Rygar
+Salamander
+Shadow Dancer
+Shinobi
+Sidearms
+Simpsons (both 2p and 4p version)
+Silkworm
+Sly Spy
+Snow Bros
+SNow Bros 2
+Son Son
+Space Invaders
+Super Bubble Bobble
+Super Contra
+Super Punch Out
+Space Harrier (contorl issues)
+Splater House
+Spy Hunter
+Super Sprint
+Star Wars
+Street Fighter II - the World Warrior
+Street Fighter II - Champion Edition
+Street Fighter II - Turbo Hyper Fighting
+Strider
+Super Contra
+Super Pacman
+Sunset Riders
+Teenage Mutant Ninja Turtles (both 2p & 4p version)
+Tetris
+The King of Dragons
+The Real ghostbuster
+Thunderblade (all the controls were a bit strange)
+TMNT II - Turtles In Time (both 2p & 4p version)
+Track and Field
+UN Squadron
+Varth
+Vendetta
+Yiearkungfu
+vs Castlevania
+vs Ice Climbers
+vs Super Mario Bros
+World Cup 90
+Willow
+Wild West C.O.W. Boys Of Moo Mesa
+Xmen (2p and 4p versions)
+Zerowing
+
+[b]Os recuerdo que el emulador solo reconoce de golpe 150 juegos, osea que si meteis los 463 del pack solo serÃ¡n los 150 primeros los que os salga la lista.[/b]

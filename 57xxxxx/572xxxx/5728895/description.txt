@@ -1,0 +1,45 @@
+General
+Complete name                    : Billie Jean Motown 25th anniversary.mkv
+Format                           : Matroska
+File size                        : 33.3 MiB
+Duration                         : 5mn 5s
+Overall bit rate                 : 916 Kbps
+Encoded date                     : UTC 2010-07-30 16:27:13
+Writing application              : mkvmerge v4.1.1 ('Bouncin' Back') built on Jul  3 2010 22:54:08
+Writing library                  : libebml v1.0.0 + libmatroska v1.0.0
+
+Video
+ID                               : 1
+Format                           : AVC
+Format/Info                      : Advanced Video Codec
+Format profile                   : High@L4.0
+Format settings, CABAC           : Yes
+Format settings, ReFrames        : 4 frames
+Muxing mode                      : Container profile=Unknown@4.0
+Codec ID                         : V_MPEG4/ISO/AVC
+Duration                         : 5mn 5s
+Nominal bit rate                 : 673 Kbps
+Width                            : 704 pixels
+Height                           : 528 pixels
+Display aspect ratio             : 4:3
+Frame rate                       : 25.000 fps
+Resolution                       : 8 bits
+Colorimetry                      : 4:2:0
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.072
+Writing library                  : x264 core 104 r1675 2484aa0
+Encoding settings                : cabac=1 / ref=1 / deblock=1:0:0 / analyse=0x3:0x113 / me=hex / subme=2 / psy=1 / psy_rd=0.00:0.00 / mixed_ref=0 / me_range=16 / chroma_me=1 / trellis=0 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=0 / threads=3 / sliced_threads=0 / nr=0 / decimate=1 / interlaced=0 / constrained_intra=0 / bframes=3 / b_pyramid=2 / b_adapt=1 / b_bias=0 / direct=1 / weightb=1 / open_gop=0 / weightp=0 / keyint=100 / keyint_min=10 / scenecut=40 / intra_refresh=0 / rc_lookahead=10 / rc=abr / mbtree=1 / bitrate=673 / ratetol=1.0 / qcomp=0.60 / qpmin=10 / qpmax=51 / qpstep=4 / vbv_maxrate=20000 / vbv_bufsize=25000 / ip_ratio=1.40 / aq=1:1.00 / nal_hrd=none
+
+Audio
+ID                               : 2
+Format                           : AAC
+Format/Info                      : Advanced Audio Codec
+Format version                   : Version 4
+Format profile                   : LC
+Format settings, SBR             : Yes
+Format settings, PS              : No
+Codec ID                         : A_AAC
+Duration                         : 5mn 5s
+Channel(s)                       : 6 channels
+Channel positions                : Front: L C R, Rear: L R, LFE
+Sampling rate                    : 48.0 KHz

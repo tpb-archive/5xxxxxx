@@ -1,0 +1,17 @@
+The General Algebraic Modeling System (GAMS) is specifically designed for modeling linear, nonlinear and mixed integer optimization problems. The system is especially useful with large, complex problems. GAMS is available for use on personal computers, workstations, mainframes and supercomputers.
+
+GAMS allows the user to concentrate on the modeling problem by making the setup simple. The system takes care of the time-consuming details of the specific machine and system software implementation.
+
+GAMS is especially useful for handling large, complex, one-of-a-kind problems which may require many revisions to establish an accurate model. The system models problems in a highly compact and natural way. The user can change the formulation quickly and easily, can change from one solver to another, and can even convert from linear to nonlinear with little trouble.
+  
+http://www.gams.com/
+
+__________________________________________________
+
+Install and use the license supplied (gamslice.txt) when requested by the installation.
+
+The license is valid for all future versions!
+
+GAMS binary downloaded from: http://www.gams.com/download/
+
+(A full license for the AIX version is also provided (gamslice_aix.txt), but I could not verify if it works.)

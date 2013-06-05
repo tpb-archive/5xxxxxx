@@ -1,0 +1,78 @@
+User Type,Username,Date,Text
+,micke4life,2010-08-28T11:31Z,i downloaded it...and i can't open the file.. only the first one and the rest is broken :(
+,blinkster,2010-08-28T20:18Z,you just need to rename the files... so .000 become .rar then .001 to .019 need to be renamed .r00 to .r17 accordingly
+,pinfo,2010-08-29T02:32Z,"Can't get the crack to work. The installation works fine, but when I replace the files with the cracked files all I get is ""Application exited abnormally"".
+
+Help please!"
+,pinfo,2010-08-31T01:41Z,"Ok, I got it to work, so Iâ€™ll try to put together a little guide for installing Smoke SP3. This is the way I did it, and it worked for me. (I don't understand why they didn't include instructions in the release...??)
+
+1. First of all, I unpacked the files on my PC using WinRAR. Iâ€™m sure you could use another program, or unpack it directly on the Mac, but my BT-computer is a PC. If you are having trouble unpacking the files you may need to rename them, so your RAR unpacking program understands the files. To make it easier for unpackers to understand, rename the first file â€œ.001â€³ to â€œ.rarâ€ and then rename the second file â€œ.002â€³ to â€œ.r01â€³, and the third file â€œ.003â€³ to â€œ.r02â€³, and so on, etcâ€¦
+
+2. After unpacking open the .DMG-file and run the installer with the default values/options.
+
+3. In Finder go to: â€œMacintosh HD/Applications/Autodesk/Smoke 2011 SP3/â€ and right-click the file â€œSmoke 2011 SP3â€³ and press Show Original. This will take you to the original install directory.
+
+4. Now right-click â€œSmoke 2011 SP3â€³ again and press â€œShow Package Contentsâ€. Navigate down to â€œContent/MacOSâ€. Here you find the ACTUAL â€œsmokeâ€ executable file.
+
+5. Delete the original â€œsmokeâ€ file. And replace it with the â€œsmokeâ€ file from the PANTHEON-directory. (The crack-directory.)
+
+6. Open a terminal window.
+
+7. write the following:
+
+cd /usr/discreet/smoke_2011.SP3/bin/smoke_MACOSX_10.6_x86_64.app/Contents/MacOS/
+
+sudo chown root:wheel smoke
+
+sudo chmod 4755 smoke
+
+8. In Finder go to: â€œ/usr/discreet/wiretapgateway/â€ (if you have trouble navigating to this directory, use step 3 again, and then right-click where it says â€œbinâ€ at the top of the Finder-window, and the go up two directory levels, to the â€œdiscreetâ€ directory. Then just go into â€œwiretapgatwayâ€.)
+
+9. Delete the executable in that directory called â€œwiretapgatewayâ€, and replace it with the one found in the PANTHEON-directory.
+
+10. In the terminal window write:
+
+cd /usr/discreet/wiretapgateway/
+
+sudo chown root:wheel wiretapgateway
+
+sudo chmod 777 wiretapgateway
+
+11. Youâ€™re done! This worked for me! :)"
+,pinfo,2010-08-31T04:04Z,"One more thing: If you are having trouble unpacking this on a Mac, I've heard UnRarX will do the trick.
+
+http://www.unrarx.com/"
+,miles_holt,2010-09-11T07:08Z,"password incorrect says ""sorry, try again"" for both terminal commands"
+,Gott666,2010-09-17T15:20Z," miles_holt 
+password incorrect says ""sorry, try again"" for both terminal commands
+
+
+""miles_holt"", Have you enabled, Root User?
+
+If you don't know, then you haven't.
+
+Do this:
+
+Launch the, ""Terminal"", App and type:
+
+sudo passwd root
+
+then enter a password,
+and it will prompt you, to confirm your password.
+
+That should take care of your problem."
+,rikardpah,2010-12-06T08:37Z,"Cheers pinfo for the installation info, worked out perfectly.
+Now to next problem, have read that lot of people runs Smoke for fun on their Macbook pros, so thats what Im trying to do, it installs just fine BUT cant create a project or username as it only supports over 1920x1200 and my machine only do 1440x900, the idea of resetting to 32 mb system seemed to be the answer but does not do the trick...
+Any solution anybody?"
+,macman7606,2010-12-12T05:25Z,"I have tried renaming these file 100 times, and keep getting the same CRC error. I have renamed them just like pinfo suggested and it keeps coming up with cant find .r00  but i have named them all in the correct order.. Can someone tell me what I may be doing wrong..."
+,rikardpah,2010-12-13T10:55Z,"Hey macman7606, your not suppose to rename any files, just read what Pinfo wrote (I know its bit tricky cause all the ""Ã¢â‚¬Å“""characters all over it), but its doable and works fine. The resolution problem is still there thoe..., the only way I found arround it is to shut lid of Macbook Pro and let it go to sleep, then put a USB device in and my secondary monitor comes to life with higher resolution and then just open the Macbook and its screen will stay off, so you can use the secondary monitor as prior."
+,Loay.aj97,2011-01-21T08:46Z,I Did all the Steps .. But Now The Program Isnt Starting Up .. Why Cant u Just Upload A Ready CracK????
+,nofil,2011-01-30T10:09Z,"nope... didn't work for me. the application exited abnormally for me, too. then i tried the sudo stuff and when i do sudo passwd root it's ASKING me for a password rather than allowing me to put in a new one."
+,nofil,2011-01-30T10:11Z,i tried putting my standard mac os password but that didn't work either
+,zFisherman,2011-03-04T22:22Z,"Hi everyone, UnrarX will do the trick so easily to upack this on Mac. Good Luck!
+
+http://www.unrarx.com/"
+,duvalier99,2012-02-01T05:53Z,"pinfo thanks for the info,it worked but the program is taking super long to load. I have a mac pro with 6gb .... it isn't suppose to take this long, anyone going through this..??"
+,duvalier99,2012-02-01T05:55Z,"take back my last comment, it didn't work, it quit abruptly, help on this please"
+,loxl,2012-06-19T16:30Z,"followed pinfo's directions exactly, but program won't launch. any suggestions?"
+,loxl,2012-06-19T18:00Z,"i reinstalled and it worked this time. when i deleted the /usr/discreet/wiretapgateway/ i made sure to empty the trash using terminal to force empty (previously, it wouldn't empty bc it said the file was in use). install seems ok, but i now i have the same 1440x900 display problem as rikardpah. will try w ext monitor later."

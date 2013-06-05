@@ -1,0 +1,43 @@
+User Type,Username,Date,Text
+,thuerrsch,2010-08-16T01:38Z,"I'd love to see this movie again ... unfortunately Transmission won't accept your torrent file, claiming it's ""invalid or currupt"". Same thing with the magnet link. I've had this problem with some of your other torrents too (you really have lots of great stuff out there!), but only yours. It's probably some minor bug in Transmission (which is really getting somewhere, but not perfect yet).
+
+To file a proper bug report on this, I need  to know how you create your .torrent files, which tool you use etc. I'd be happy to help in resolving this and to enjoy more of your phantastic releases in the future!"
+[V],GoodFilms,2010-08-16T14:12Z,USE UTORRENT
+,thuerrsch,2010-08-17T02:14Z,"Thanks for telling me which client you prefer, but that's not what I wanted to know. Believe me, I have very good reasons for preferring Transmission over any other client, reason #1 being that it's certainly a much better choice for a 24/7 headless Linux box than uTorrent. Don't you think so too?
+
+Anyway, I'll find out what's wrong with those torrents, if not with your kind support, than without it..."
+[V],GoodFilms,2010-08-17T22:57Z,The problem is with Transmission.
+,RhumKeep,2010-08-18T09:06Z,"Play with Nero 9 without subttitles. Does not play with VLC.
+Does not play with WDTV (V1) causes a system Hang that can youly be solved with system reset.
+
+The newe the codecs you use the greater the chance of the fail. The last fashion is, in general the worse. Please be a little more conservative. I never had problems with Goodfilms before. Also this is full of Japanese supplenets. If the torrent is destined to Japanese, please note that in the info, so Europeand don't load it."
+,thuerrsch,2010-08-18T17:39Z,"To be precise, there's obviously something wrong about the way Transmission parses the torrent file. I'm still looking into this and I'll post a bug report as soon as I have the required information.
+
+I don't blame you for any of this, GoodFilms. If that's the impression you got then please accept my apologies. I've enjoyed many of your uploads, and I'd really like to get this Transmission problem fixed so that I can enjoy even more of them."
+[V],GoodFilms,2010-08-18T20:23Z,"RhumKeep. It does work in VLC, but I recommend using Media Player Classic or KMPlayer, because they are better."
+,thuerrsch,2010-08-23T04:55Z,"GoodFilms, we were both half right about the Transmission error: https://trac.transmissionbt.com/ticket/3524
+
+The gist: this and other torrents of yours have unusual piece sizes that do not really conform to the BitTorrent specs. Most clients don't mind. Transmission does, unfortunately."
+,systechsolution,2010-09-28T09:05Z,"Guys Yaar Learn To Comment On Quality...
+GoodFilms Can You Upload This Movie In Dual Language (English And Hindi)....
+If Possible Then Reply It To My Mail....
+Thanks For The Decent Upload...
+
+
+
+Saggi Here...
+systechsolution@in.com"
+[T],FatFreddy69,2010-10-02T13:46Z,"This torrent has 1.63 MB size pieces which is very weird. So it was created by some crazy bittorrent client but surely not by utorrent.
+In utorrent you have round numbers choices like 512 KB, 1024 KB, 2048 KB sizes..For a 10 GB torrent the best is 1024 KB  or 2048 KB pieces.
+
+about linux peers;
+To be honest about Transmission is one of the worst clients, naive in handshaking, either stilling from generous peers or giving to those who don't deserve it.
+
+I prefer to see libtorrent & deluge clients in my torrent peer list, they are much more intelligent and genuine, also much faster.(my observations)
+
+Oh, and I often block Transmission users, Bitcomet, ABC, Bitlord  (when I check & see their selfish  behavour, watching from 2 of my remote btclients.)
+
+ Nice movie by the way ;-)"
+[V],GoodFilms,2010-12-22T14:41Z,I wasn't half right. The problem is Transmission.
+,Jrexxx,2011-02-06T12:38Z,"Great upload, Thx a lot!!^^ I had no problem downloading it with utorrent and playing it with VLC.... Will be seeding for some time now:)"
+,Illbashu,2011-04-21T05:13Z,Someone please seed!

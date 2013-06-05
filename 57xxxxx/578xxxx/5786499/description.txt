@@ -1,0 +1,90 @@
+       On with the update release information:                        
+                                                                      
+       Elemental: War of Magic v1.01 Update                           
+       ====================================                           
+                                                                      
+       - Lots of new seed maps (particularly for medium and large)    
+                                                                      
+       - Enemy Unit caching modified so that they are released from   
+         the game after death (this should addre the "game gets     
+         slower over time" iue some have reported)                  
+                                                                      
+       - In tactical battles, the camera will only move IF the unit   
+         is off screen                                                
+                                                                      
+       - Fixed a crash related to city tiles on DirectX 11 based      
+         setups with a game within a game                             
+                                                                      
+       - Removed non-terrain based tactical battle bonus modifiers    
+         (an interesting idea but unintuitive)                        
+                                                                      
+       - There are technologies that will spawn more shards on the    
+         map.                                                         
+                                                                      
+       - Fixed tactical heal spell to ensure that it doesn't do any   
+         0 point healing.                                             
+                                                                      
+       - Fixed iue that caused failed spells to say "mi"          
+                                                                      
+       - Disabled the use of the L8 texture format to use the         
+         A8R8G8B8 format as it was incompatible with certain video    
+         cards and causing the game to crash (fog of war iue)       
+                                                                      
+       - Worldly knowledge renamed to "Tech Knowledge" to be          
+         consistent with the manual.                                  
+                                                                      
+       - Fixed a crash related to children being born during a        
+         reloaded saved game that could cause a crash on 64-bit       
+         machines                                                     
+                                                                      
+       - Fixed a crash related to reference counting on the Dynasty   
+         screen that happens on 32-bit Windows XP machines            
+                                                                      
+       - Tactical Battles now support edge scroll                     
+                                                                      
+       - Fixed a buffer overrun iue that caused random crashing on  
+         D SATA drives while saving a game.                         
+                                                                      
+       - Cosmetic fix to the object tool in th map editor             
+                                                                      
+       - Fixed a bug that would cause the goodie hut graphics not to  
+         be removed when they were no longer relevant.                
+                                                                      
+       - Fixed minimap bug where unhiding and dragging the minimap    
+         without first resizing it would cause the map part to get    
+         offset from the rest of the minimap window, leaving it blank 
+                                                                      
+       - Fixed bug on loading a game or starting a new game within a  
+         game where clicking on a city would leave its resource tab   
+         blank until it was clicked on again                          
+                                                                      
+       - Improved performance of units joining into an army           
+                                                                      
+       - Hooked up the draggable window showing the list of players   
+         who have requested a new turn or not in multiplayer,         
+         automatically shows up in multiplayer but does not get       
+         filled or ever unhide in single player [NOTE: Multiplayer    
+         servers will NOT be enabled until AFTER day 0]               
+                                                                      
+       - Fixed crash related to very very fast machines loading up    
+         data.zip before initialization causing data to not be fully  
+         enabled which would result in a crash when the object in     
+         question was acceed.                                       
+                                                                      
+       - Ice Bolt spell removed                                       
+                                                                      
+       - New spell: Stab of Ice, short range spell, causes enemy to   
+         lose turn in addition to damage.                             
+                                                                      
+       - Sion Unit given special abilities and rebalanced             
+                                                                      
+                                                                      
+ 
+     Install Notes: Ã›                                               
+                                             
+                                                               
+    1. Unpack the included rar files.                              
+       2. Run Elemental.War.of.Magic.v1.01.Update.exe and install     
+       3. Copy the cracked content from SKIDROW directory to your     
+          main installation directory and overwrite.                  
+       4. Play the game                                               

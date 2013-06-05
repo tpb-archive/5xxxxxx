@@ -1,0 +1,62 @@
+User Type,Username,Date,Text
+,napptunes,2010-08-25T01:19Z,good work one more time. i get each of your release.
+[V],poppedtart,2010-08-25T02:15Z,that's cool.  enjoy.
+,One_Burnt_Potato,2010-08-25T03:44Z,"Do you take requests?
+
+If so, I would like a Hostel PSP  if possible? 
+
+thx, pop is awesome"
+,biorisk,2010-08-25T04:40Z,"Hey PT are there any plans on how you will be tackling the problems with your BRRIPs.  It seems ""cinavia"" has placed some audio watermarks on their movies and they are not fully functional on the PS3.  Not sure about Xbox.  If this is the case then you might not want to put in your description that they are PS3 compatible.  This sucks bad because I really wanted to watch ""The Karate Kid"" but the sound was muted because of this.  Please let me know.  Thanks!"
+[V],poppedtart,2010-08-25T05:23Z,"cinavia audio protection is a new bluray content protection scheme.  It is limited to bluray players.  It does not effect Popcorn hour, xbox 360, apple tv, wdtv.  There is nothing I can do about it, nor do I have a way to determine what audio tracks are cinavia protected.
+
+You can read more about it here:
+
+http://www.cinavia.com/languages/english/pages/messages.html
+
+It effected ""The Losers"" as well.  It will probably effect more films in the future as production companies begin to realize its value (if it has one).  In the case of the ""The Losers"" it effected every copy of it.  I do not know the impact of ""Karate Kid"".
+
+Eventually work arounds will likely be found to remove the cinavia watermark but so far this has not happened.
+
+-PT"
+,Flanker-B,2010-08-25T11:24Z,I've read somwhere that cinavia drm can be removed by recoding the audio to a lower bitrate.
+,Flanker-B,2010-08-25T11:30Z,"corr. somewhere, not somwhere"
+,umd,2010-08-25T11:32Z,   The Losers 2010 BRRip No Cinavia Watermark  resource copy will play on ps3
+[V],Team_xRG,2010-08-25T13:57Z,"umm not a gr8 solution but those who really want to see movies can get audio from dvd rips 
+sonner or later it will be removed 
+btw thnx for up :) "
+,maruse,2010-08-26T08:05Z,"Any plan on a BR 720p rip? I love all your BR 720p rips and I would love this movie as well.
+Please!"
+[V],poppedtart,2010-08-26T17:43Z,in time.
+[V],Team_xRG,2010-08-26T18:44Z,"hye little query why arent u using cabac??? 
+hr did used it so i guess no apple tv compatibily issue
+cabac imo makes quality better
+but well not complaning :) "
+[V],poppedtart,2010-08-26T19:43Z,"The.Adventures.of.Sharkboy.and.Lavagirl.BRRIP.MP4.x264.720p-HR was the last release by HR to feature CABAC.  CABAC release does not play perfectly on Apple TV unless you use very low bitrates and bitrate thresholds.  They will play but you cannot be for certain that there will be display issues on occasion based on scene.  Lockups, slow frame rates or pixel corruption are common symptoms.  CABAC requires more CPU to decode.  CABAC 480p will play fine however due to smaller frame, this release features CABAC encoding.  These encoding profiles have been carefully selected and designed for optimal playback and end user experience.
+
+-PT"
+[V],Team_xRG,2010-08-26T20:41Z,"mate i agree settings are perfect!
+looks same like source no changes in colour and all
+now just waiting for 720p hd! of this movie :)"
+[V],poppedtart,2010-08-26T22:21Z,"proper pillars VI finally out, be doing that soon.  no 1080 of prince yet, got killer inside me, 5 dollars a day to work on."
+[V],poppedtart,2010-08-27T02:54Z,"by the way, if anyone is wondering why Prince.of.Persia.The.Sands.of.Time.720p.BluRay.x264-HUBRIS will not play on your popcorn hour it is because it has header compression in both the audio and video tracks.
+
+use mkwdclean to correct.
+
+There is a Mac OS X 64bit binary here:
+
+http://jbnetsys.com/mkclean.html
+
+or get the windows binary from 
+
+http://www.matroska.org/downloads/mkclean.html
+
+or simply remux with mkvmerge and disable header compression."
+[V],poppedtart,2010-08-27T03:00Z,"to determine if an MKV file has header compression use mkvinfo.
+
+example: mkvinfo prince.mkv
+
+look for output line like this:
+
++ Algorithm: 3 (header removal)
+
+That signifies header compression."

@@ -1,0 +1,71 @@
+###################       Keeping Mum (2005)       ####################
+
+  Comedy, Crime, Rowan Atkinson, Maggie Smith, Kristin Scott Thomas
+
+                http://www.imdb.com/title/tt0444653/
+
+Format                           : Matroska
+File size                        : 3.42 GiB
+Duration                         : 1h 42mn
+Overall bit rate                 : 4 764 Kbps
+
+
+Video
+Format                           : AVC
+Encoding                       : High@L4.0, CABAC, 5 frames
+Bit rate                           : 4000 Kbps
+Display aspect ratio             : 1 920 x 816  (2.35:1)
+Frame rate                       : 23.976 fps
+Stream size                      : 2.81 GiB (82%)
+
+Audio #1 English (default) :   DTS, 755 Kbps, 6 ch, 555 MiB (16%)
+
+Separate Audio Tracks ( you may want to skip them from download)
+
+Audio #2 Espanol AC3 192 KB/s, 1 ch, 141 MB
+Audio #3 Francais AC3 192 KB/s, 1 ch, 141 MB
+Audio #4 Italiano AC3 448 KB/s, 6 ch, 329 MB
+
+Subtitles: 
+English, Arabic, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, Estonian
+Finnish, French, Greek, Hebrew, Hungarian, Italian, Norwegian, Polish, Portuguese
+Romanian, Serbian, Slovenian, Spanish, Swedish, Turkish, Vietnamese
+
+
+                  http://j.imagehost.org/0728/1_101.jpg
+
+Snap Shots
+
+                  http://j.imagehost.org/0009/2_24.jpg
+
+
+#####################################################################
+Subtitles show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+If the subs are muxed in mkv download & use MKVextractGUI to extract(demux) the subtitles 
+from mkv, and mkvmerge GUI to mux back the edited/repaired sub in the mkv.
+Download Notepad++ (free)  from   
+        http://sourceforge.net/projects/notepad-plus/ 
+The sub you demuxed from mkv Open and save as...ANSI !(Important!)
+Right click on the sub, Open with nppIExplorerShell.exe (Notepad++ exe)
+click Encoding(upper part menu)Character sets and chose the language ISO.
+Click again on Encoding then click on Convert to UTF-8 or Unicode Big Indian, save as...srt. 
+You're done with the encoding, now you can mux it back in the mkv with mkvmergeGUI.
+
+#####################################################################
+Those with Win 7 64 bit might have issues with playing back secondary or external audios & subs.
+If k-lite pack is not working try CCCP 
+ (       http://www.cccp-project.net/     ) 
+based on the same player (Media Player Classic).
+
+#####################################################################
+
+If DTS is not good for you convert to AC3 without extracting the Audio Track in a few minutes with
+ PopCorn MKV AudioConverter;
+     http://www.videohelp.com/tools/PopCorn_MKV_AudioConverter
+ Don't convert it to lower then 448 KB/s. 
+
+#####################################################################
+
+ All my torrents are seeded. I regularly check back my older torrents and I will reseed where needed.
+Most of us want only the English (usually) Audio so I got the secondary tracks separately (demuxed).

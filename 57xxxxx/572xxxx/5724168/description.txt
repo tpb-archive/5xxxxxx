@@ -1,0 +1,23 @@
+Testing (Debian-based)
+
+Changelog :
+Clonezilla live 1.2.5-38
+
+ * The underlying GNU/Linux operating system was upgraded. This release is based on the Debian Sid repository (as of 2010/Jul/28).
+ * Package syslinux was updated to 4.02.
+ * Partclone was updated to 0.2.13. Now partclone is the default program to do JFS job in Clonezilla.
+ * Bug fixed: The bug about failing to use partclone to do disk to disk clone was fixed. Thanks to Steve Poe for this bug report.
+
+ -- Steven Shiau <steven _at_ nchc org tw>  Thu, 29 Jul 2010 10:57:00 +0800
+
+
+MD5SUMS
+16dd6cb47946a157eecd0198bb931fc5  clonezilla-live-1.2.5-38-amd64.iso
+7496f406d7a7a2a454df685efa817613  clonezilla-live-1.2.5-38-i486.iso
+349accfdb9aaf66ce9ed12da87483c37  clonezilla-live-1.2.5-38-i686.iso
+SHA1SUMS
+9ad75fcfb57d4dfe9cd09f9430f22c3d0cb0d519  clonezilla-live-1.2.5-38-amd64.iso
+ff3cecf436bd13046607b44bfba7243dcc735063  clonezilla-live-1.2.5-38-i486.iso
+863c2447533361b98cf1710f1c8e39fbab62c080  clonezilla-live-1.2.5-38-i686.iso
+ 
+http://www.clonezilla.org/news/

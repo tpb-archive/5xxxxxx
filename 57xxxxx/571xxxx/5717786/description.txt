@@ -1,0 +1,80 @@
+General
+Format                           : Matroska
+File size                        : 14,7GIB
+Duration                         : 3h 20min.
+Overall bit rate                 : 10,5Mbps
+Encoded date                     : UTC 2010-07-11 06:42:12
+Writing application              : mkvmerge v4.0.0 ('The Stars were mine') built on Jun  6 2010 16:18:42
+Writing library                  : libebml v1.0.0 + libmatroska v1.0.0
+
+Video
+ID                               : 1
+Format                           : AVC
+Format/Info                      : Advanced Video Codec
+Format profile                   : High@L4.0
+Format settings, CABAC           : Si
+Format settings, ReFrames        : 1marco
+Muxing mode                      : Container profile=Unknown@4.0
+Codec ID                         : V_MPEG4/ISO/AVC
+Duration                         : 3h 20min.
+Bit rate                         : 9 633Kbps
+Width                            : 1 920pixeles
+Height                           : 1 080pixeles
+Display aspect ratio             : 16:9
+Frame rate                       : 25,000fps
+Color space                      : YUV
+Chroma subsampling               : 4:2:0
+Bit depth                        : 8bits
+Scan type                        : MBAFF
+Bits/(Pixel*Frame)               : 0.186
+Stream size                      : 13,5GIB (92%)
+Title                            : Video
+Writing library                  : x264 core 93 r1538bm bd72d46
+Encoding settings                : cabac=1 / ref=1 / deblock=1:0:0 / analyse=0x3:0x13 / me=umh / subme=7 / psy=1 / psy_rd=0.00:0.00 / mixed_ref=0 / me_range=16 / chroma_me=1 / trellis=1 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=0 / threads=1 / sliced_threads=0 / nr=0 / decimate=1 / interlaced=tff / constrained_intra=0 / bframes=0 / wpredp=0 / keyint=250 / keyint_min=25 / scenecut=40 / intra_refresh=0 / rc=cqp / mbtree=0 / qp=27 / ip_ratio=1.40 / aq=0
+
+Audio #1
+ID                               : 2
+Format                           : AC-3
+Format/Info                      : Audio Coding 3
+Mode extension                   : CM (complete main)
+Codec ID                         : A_AC3
+Duration                         : 3h 20min.
+Bit rate mode                    : Constante
+Bit rate                         : 320Kbps
+Channel(s)                       : 2canales
+Channel positions                : Front: L R
+Sampling rate                    : 48,0KHz
+Stream size                      : 460MB (3%)
+Title                            : No comments
+
+Audio #2
+ID                               : 3
+Format                           : AC-3
+Format/Info                      : Audio Coding 3
+Mode extension                   : CM (complete main)
+Codec ID                         : A_AC3
+Duration                         : 3h 20min.
+Bit rate mode                    : Constante
+Bit rate                         : 320Kbps
+Channel(s)                       : 2canales
+Channel positions                : Front: L R
+Sampling rate                    : 48,0KHz
+Stream size                      : 460MB (3%)
+Title                            : Spanish comments
+Language                         : EspaÃ±ol
+
+MenÃº
+00:04:16.000                     : Alexander Rybak & FRIKAR Dance Company - Fairytale
+00:06:07.560                     : Hosts introduction
+00:09:33.920                     : 01 Azerbaijan - Postcard
+00:10:11.120                     : 01 Azerbaijan - Safura - Drip Drop
+00:13:29.840                     : 02 Spain - Postcard
+00:14:06.480                     : 02 Spain - Daniel Diges - Algo PequeÃ±ito
+00:17:23.440                     : 03 Norway - Postard
+00:18:00.080                     : 03 Norway - Didrik Solli-Tangen - My Hear is Yours
+00:21:20.240                     : 04 Moldova - Postcard
+00:21:57.120                     : 04 Moldova - SunStroke Project & Olia Tira - Run Away
+00:25:08.000                     : 05 Cyprus - Postcard
+00:25:44.720                     : 05 Cyprus - Jon Lilygreen and The Islanders - Life Looks Better In Spring
+00:28:55.680                     : 06 Bosnia & Herzegovina - Postcard
+00:29:31.240                     : 06 Bosnia & Herzegovina - VukaÅ¡in BrajiÄ

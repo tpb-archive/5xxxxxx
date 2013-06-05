@@ -1,0 +1,87 @@
+User Type,Username,Date,Text
+[V],gansuk,2010-08-20T17:16Z,sum reason other torrent got fucked up by the site so had to delete it and reuploaded it so hope its working now
+,vincentdesrd,2010-08-20T21:18Z,"I get a virus threat from AVG from steam_api.dll file and also when I try to launch the game it give me an error 
+
+""the application falied to initialize properly (0x0000022)"""
+,hank266,2010-08-20T23:28Z,"i cant get it work. It say something about steam.api,dll. I try download steam_api.dll from internet then i get another wrong message. Any suggestions?"
+[V],gansuk,2010-08-20T23:36Z,"the virus is a false positive im using nod32 and that did pick it up also when it first got released
+now nod32 dont pick it up anymore since its just false positive the only reason it picks it up is cous its a cracked version so u dont need steam running to play the game
+the game needs 11gb to unpack it all the final install size is 5.90gb"
+,hank266,2010-08-20T23:46Z,"now i got another error messag:, steam must be runing to play this game. what im i doing wrong?"
+,vincentdesrd,2010-08-20T23:55Z,"I just deleted it and cleaned my registry.
+
+I'll try reinstalling it once more.
+
+That virus threat from AVG is really annoying, doesn't give me this threat any any other cracked steam games I have... Is there a way to disable it?"
+,hank266,2010-08-20T23:56Z,"""Steam must be running to play this game"". Whats wrong?"
+,vincentdesrd,2010-08-20T23:56Z,"hank266, did you try to use another steam_api.dll from another game? I tried that and it doesn't work."
+,vincentdesrd,2010-08-21T00:23Z,Well I reinstalled and still get the same damn error message when I try to launch the game...
+,hank266,2010-08-21T00:58Z,"well i give up now, trying to do what i can to get this working. Anyway i know Kaos rips are always good so i guess im doing something wrong. Pushing delete now."
+,-R3ap3R-,2010-08-21T01:34Z,"I cant believe how many are so inconsiderate!!!
+
+When downloading something you should atleast seed at 100kb minimum, but no people dont even bother seeding 10kb they just take and run..... shame on you 
+
+I intend to seed this game untill ive completed it and i will be seeding it at 100kb ... thats how it should be done ... fuck tards 
+
+Thanks for re-upping the torrent gansuk .. Kaos rips are truley superior... "
+,vincentdesrd,2010-08-21T02:18Z,"-R3ap3R-
+
+How about you wait until you install the game and see for yourself if everything works or not before acting like above everyone else.
+
+Until someone can confirm that there is nothing wrong with this release then it doesn't work, and I'm not the only one saying that."
+,-R3ap3R-,2010-08-21T04:14Z,"@ -vincentdesrd-]
+
+Are you a fucking moron, am i complaining if the game works or not ... you stupid ignorent shit, read my comment!!! its about people seeding the fucking game .... SEEDING 
+
+im getting 0kb ..... fucking seed, wasting my time, when i could of downloaded the full 7gb file
+"
+,-R3ap3R-,2010-08-21T04:14Z,"@ -vincentdesrd-]
+
+Are you a fucking moron, am i complaining if the game works or not ... you stupid ignorent shit, read my comment!!! its about people seeding the fucking game .... SEEDING 
+
+im getting 0kb ..... fucking seed, wasting my time, when i could of downloaded the full 7gb file"
+,vincentdesrd,2010-08-21T05:14Z,"@ -R3ap3R- 
+
+My point is why should people waste bandwith on uploading a torrent that clearly has problem and still not have been confirmed to work.
+
+You need to calm the fuck down you're acting like a maniac."
+,vincentdesrd,2010-08-21T07:23Z,Ok so I tried re-installing the game one last time but this time I installed it in the default folder the kaos installer was giving me and also adding the folder in AVG Resident Shield Exceptions list and it worked!!
+,vincentdesrd,2010-08-21T07:26Z,"Update: I tried moving the folder in another directory and it gave me the same error as before so
+
+THE PROBLEM COMES FROM AVG. ADD THE GAME'S PATH TO THE RESIDENT SHIELD EXCEPTIONS."
+,darkfenix619,2010-08-21T10:21Z,With AVG you must disable resident shield to allow the steam_api.dll which is required for the game to launch.It's not a virus.
+,vincentdesrd,2010-08-21T15:34Z,"Hell no don't disable Resident Shield!!!
+
+Just add the game path in the exceptions."
+,-R3ap3R-,2010-08-21T16:30Z,"-vincentdesrd- 
+
+Sorry, i apologise, its just that everything ive been downloading has been ok since this torrent ...! 
+
+Im stressed, not mad.... But yeah seed the game please "
+,hank266,2010-08-21T22:39Z,"Ok i hate to give up so i downloaded the game again. This time i read and follow vincentdesrd comments and guess what? Game is working perfect!!! Thx to vincentdesrd^^
+I also will thank Kaos and Gansuk."
+,pbfriend,2010-08-22T03:51Z,"To Gansuk,
+Many thnx for this game.
+i've 2 requests
+Could u start seedng Scorpion Disfigured by kaos,there is no seeder man.
+and do u have any plan to release Alpha Protocol.The game is huge,so a ripped version'd be nice."
+,guytonetter,2010-08-24T13:44Z,anyone tried if Lan works?
+,Optimus_Prim3,2010-08-25T21:38Z,"Thanks for the upload!, Shame about the seeding!, Only 4 Weeks and 3 Days too go to!, Cheers! Leechers!"
+,westjgames,2010-08-26T09:40Z,"The steam_api.dll problem is because the Dynamic Link Library is trying to alter your system to look like you bought the game and that the steam ID is valid. With AVG, the only option is to open the AVG User Interface, goto Tools/Advanced Settings. On the left hand side should be resident sheild. Expand it and click Directory Excludes. Add a directory, adn then navigate to the folder where the game is held. Add the folder, then hit OK. Next, to restore the file if deleted, goto History/Virus Vault. Find the staem_api.dll, and hit restore. That will solve the deletion/access deny issues when you run it. Unfortunantly, I have not figured out how to exclude it from a full or scheduled scan, so you will need to open the virus vault and restore it if nessecary. Yay!!!"
+,westjgames,2010-09-12T01:01Z,"This program fails to work for me
+It seems to run, then as soon as I see the main menu background, it crashes after a second, sometimes it will crash during the developer videos.
+
+Intel Pentium Dual Core 2.5Ghz
+ATi Radeon HD 4350
+2GB DDR2 RAM
+60GB free space
+
+(This setup worked perfectly for the official Steam Demo)
+
+Help much appreciated"
+,loudand,2010-09-21T21:59Z,"I HAVE NO SOUND!
+
+Vista 64 bit, 4850s in crossfire, quadcore, I can run it and play it fine, but NO SOUND!
+
+Can't find anything about what went wrong, anyone???"
+,fgtfg,2011-05-13T15:00Z,pleaaseeee seed only one seeeder

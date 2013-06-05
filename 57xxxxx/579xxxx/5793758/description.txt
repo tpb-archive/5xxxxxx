@@ -1,0 +1,227 @@
+Exact Audio Copy V0.99 prebeta 4 from 23. January 2008
+
+EAC extraction logfile from 27. August 2010, 14:42
+
+Disturbed / Asylum
+
+Used drive  : TSSTcorpDVD+-RW TS-L632H   Adapter: 0  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 6
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 192 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files\Exact Audio Copy\Flac\flac.exe
+Additional command line options : -8 -A tukey(0.25) -A gauss(0.1875) -b 4096 -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s --sector-align
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  2:43.50 |         0    |    12274   
+        2  |  2:43.50 |  4:36.17 |     12275    |    32991   
+        3  |  7:19.67 |  4:08.63 |     32992    |    51654   
+        4  | 11:28.55 |  3:24.62 |     51655    |    67016   
+        5  | 14:53.42 |  4:13.29 |     67017    |    86020   
+        6  | 19:06.71 |  3:33.53 |     86021    |   102048   
+        7  | 22:40.49 |  4:13.61 |    102049    |   121084   
+        8  | 26:54.35 |  4:36.74 |    121085    |   141858   
+        9  | 31:31.34 |  4:09.57 |    141859    |   160590   
+       10  | 35:41.16 |  3:18.04 |    160591    |   175444   
+       11  | 38:59.20 |  4:00.06 |    175445    |   193450   
+       12  | 42:59.26 |  4:31.21 |    193451    |   213796   
+       13  | 47:30.47 |  5:28.04 |    213797    |   238400   
+       14  | 52:58.51 |  5:55.21 |    238401    |   265046   
+       15  | 58:53.72 |  4:17.27 |    265047    |   284348   
+
+
+Track  1
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\01 - Disturbed - Remnants - Disturbed.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC D1F8E08E
+     Copy CRC D1F8E08E
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  2
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\02 - Disturbed - Asylum - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC E3CFF516
+     Copy CRC E3CFF516
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  3
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\03 - Disturbed - The Infection - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 4D575520
+     Copy CRC 4D575520
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  4
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\04 - Disturbed - Warrior - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC EF0DC2CF
+     Copy CRC EF0DC2CF
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  5
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\05 - Disturbed - Another Way To Die - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 9DD247CB
+     Copy CRC 9DD247CB
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  6
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\06 - Disturbed - Never Again - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC EECA5828
+     Copy CRC EECA5828
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  7
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\07 - Disturbed - The Animal - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC D20138FF
+     Copy CRC D20138FF
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  8
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\08 - Disturbed - Crucified - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 09D3645C
+     Copy CRC 09D3645C
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  9
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\09 - Disturbed - Serpentine - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 3393BA85
+     Copy CRC 3393BA85
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 10
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\10 - Disturbed - My Child - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 8F7400A8
+     Copy CRC 8F7400A8
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 11
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\11 - Disturbed - Sacrifice - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 99.9 %
+     Test CRC D77EDE75
+     Copy CRC D77EDE75
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 12
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\12 - Disturbed - Innocence - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 99.9 %
+     Test CRC 880D7675
+     Copy CRC 880D7675
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 13
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\13 - Disturbed - Ishfwilf - Disturbed.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC F1EBC72A
+     Copy CRC F1EBC72A
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 14
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\14 - Disturbed - Down With The Sickness (Live) - Disturbed.wav
+
+     Pre-gap length  0:00:01.98
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 52B9EC0E
+     Copy CRC 52B9EC0E
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 15
+
+     Filename F:\Downloads\Disturbed - Asylum (2010) [Flac]\15 - Disturbed - Stricken (Live) - Disturbed.wav
+
+     Pre-gap length  0:00:01.96
+
+     Peak level 98.8 %
+     Track quality 99.9 %
+     Test CRC 8CDFC934
+     Copy CRC 8CDFC934
+     Track not present in AccurateRip database
+     Copy OK
+
+
+None of the tracks are present in the AccurateRip database
+
+No errors occurred
+
+End of status report

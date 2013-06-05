@@ -1,0 +1,28 @@
+DVDFab What's New
+
+DVDFab v7.0.9.0 Updated! July 30, 2010
+- New: Updated language files.
+- Fix: Several small issues.
+
+DVDFab "DVD to DVD":
+- New: In "Clone" mode, removes characters not allowed by the file system from volume name to help programs, which use the volume name as a file path, e.g. bookmark files of Zoom player.
+- Fix: A problem that IFO file may be corrupt.
+- Fix: An error 100 when copying DVD folder on UNC path.
+
+DVDFab "DVD to Mobile":
+- New: Improved profile for iPhone, iPhone4 and iPad to allow DVDFab to calculate most suitable bitrate automatically.
+
+DVDFab "Blu-ray to Blu-ray":
+- New: In "Clone" mode, removes characters not allowed by the file system from volume name.
+- New: In "Clone" mode, patches UDF file system to allocate more space for jar files when decryption on certain discs, like "The Lovely Bones".
+- New: Rewritten Blu-ray scanning code to improved speed up to 500%.
+- Fix: A freeze problem when scanning in certain cases.
+- Fix: A problem that "Main Movie" backup cannot be played if there is no compression.
+
+DVDFab "Blu-ray to Mobile":
+- New: Improved profile for iPhone4 and iPad to allow DVDFab to calculate most suitable bitrate automatically.
+
+DVDFab "File to Mobile":
+- New: Improved profile for iPhone, iPhone4 and iPad to allow DVDFab to calculate most suitable bitrate automatically.
+
+OS: Windows 2000/XP/Vista/7

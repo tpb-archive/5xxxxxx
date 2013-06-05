@@ -1,0 +1,12 @@
+This has some modifications for my personal needs:
+
+1. Busybox + ROOT 
+2. Old A2SD+ (Cause the Froyo one sucks.), if you don't want to use this, don't create an ext partition on your sdcard. Simple as that.
+3. OpenVPN binary with tun modules for the new kernel (loaded on boot)
+4. EXT4 support (also through a module on boot) - EXT2 and EXT3 are still supported, don't worry.
+5. Wifi 802.11N support.
+6. Symlinked /data/local/bootanimation.zip for easy bootanimation replacements.
+
+You will also need the new radio for this:
+ 
+http://android.adamg.co.uk/bravo/radio/32.43.00.32U_5.09.00.20.zip

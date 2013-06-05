@@ -1,0 +1,10 @@
+Alpine Linux is a community-developed operating system designed for x86 Routers, Firewalls, VPNs, VoIP and servers.
+Alpine Linux is and always will be free of charge. You do not pay any licensing fees. You can download, use and share Alpine Linux with anyone for absolutely nothing.
+Alpine Linux was designed with security in mind. It has proactive security features, such as PaX and SSP, that prevent security holes from being exploited.
+Alpine Linux uses the uClibc C library and all of the base tools from BusyBox. These are normally found on embedded systems and are smaller than the tools found on GNU/Linux systems. 
+ 
+http://alpinelinux.org/wiki/About
+
+sha1sum : 820eba9e5d4998fd4a116af5056d6fbe748ff5ba  alpine-2.0.0-x86.iso
+sha1sum : 34b4cb379add84ea8c0da4efd60f48166b368618  alpine-mini-2.0.0-x86.iso
+sha1sum : dc81094840dc8853bbad93c95f744b63a538c0a8  alpine-vserver-2.0.0-x86.iso

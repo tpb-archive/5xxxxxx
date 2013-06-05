@@ -1,0 +1,51 @@
+User Type,Username,Date,Text
+,xorxor,2010-08-02T20:51Z,"""This is everything that i got from the .exefile"" Is it Aerosoft's original installer, or RIP compiled into .exe file?"
+,F.B.I,2010-08-02T21:12Z,Everything from the original installer
+,F.B.I,2010-08-02T22:58Z,"Y25, it doesnt work i tried, they have a new ascrypt.dll, called pro.ascrypt.dll"
+,TheOrbitt,2010-08-03T00:22Z,"thanks!! this at least fixed the cars wich where in the ground! but there is still no car traffic over the airfield. did aerosoft include some program to turn it on and off? 
+
+yes, i tried the on wich in the airport file but that doesn't change anything.."
+,arran13,2010-08-03T02:41Z,can someone please upload the raytheon premier 1 from eaglesoft for FSX please!!! here's a link- http://www.eaglesoftdg.com/Corporate_Aviation.htm
+,moonrider53,2010-08-03T09:24Z,"i have an installer ready to upload from anice usenet for flightsim with traffic workin.
+Just say so an i put it online."
+,dylan1980,2010-08-03T09:34Z,"arran13
+
+have a look here DCrack did a lot of eaglesoft aircraft for fsx
+
+http://thepiratebay.org/torrent/5595187"
+,dylan1980,2010-08-03T09:38Z,"arran13 here is the link for the  raytheon premier
+
+http://thepiratebay.org/torrent/3547989/Raytheon_Beechjet_400A_Hawker_400XP_Package__(_Right_file_this_t
+
+enjoy"
+,F.B.I,2010-08-03T10:36Z,"TheOrbitt, did you put the vistamare folder in your main fsx folder????"
+,F.B.I,2010-08-03T10:39Z,"for the traffic did you try the traffic.exe in the 1_GIB_FSX_Airport folder, also its very important that you have that vistamare in your fsx folder, if you already have it try overwriting the files??? (BUT MAKE SURE YOU BACK THEM UP FIRST)"
+,TheOrbitt,2010-08-03T11:49Z,"yes, i put all the files in my FSX folder. and as i said, i tried the one wich is in the Airport file, but that doesn't make a change."
+,F.B.I,2010-08-03T13:54Z,"The orbitt, i know it sounds silly, but have you tried flying over the road as the cars wont move whilst there is an aircraft on the runway or on approach!! just park off to the side and the gates should lift up and then youll see the flow off traffic come threw!!!"
+,xorxor,2010-08-03T15:30Z,"Ok, many thanks for your efforts F.B.I :> I have one request for you, could you please paste somewhere (eg pastebin.com) dump from this archive (type: dir /f /a >> a.txt)? I need to compare something, before I'll download this stuff :>"
+,xorxor,2010-08-03T15:38Z,"Ok, many thanks or your efforts F.B.I. I have one request to you, could you please paste somewhere (eg pastebin*com) your dump from this archive (type ""dir /a /f >> a.txt"" in cmd) ? I need to compare something, before I'll download this stuff. There is no gotcha in my req :>"
+,fltsimbloke,2010-08-03T17:24Z,req. new update for GEX 1.025 please.
+,TheOrbitt,2010-08-03T21:40Z,"you don't get it. there are no cars at all (only the static ones like the push-back car), so there is also nothing wich can drive.. :-P"
+,dylan1980,2010-08-04T13:55Z,is it me or is pirate bay all ways getting hacked
+,dylan1980,2010-08-04T13:56Z,now every body is Anonymous picks has gone and last week messages removed
+,irikimoss,2010-09-05T03:06Z,"TheOrbitt, I found out the solution. Add this to the DLL.XML
+
+
+ ViMaCoreX
+ False
+ Vistamare\ViMaCoreX.dll
+
+
+Now we have cars on the runway =)"
+,irikimoss,2010-09-05T03:15Z,"rofl, tpb's parses part of the text. Just add the Vistamare\ViMaCoreX.dll to the dll.xml, copy paste other entries that may reside there and just replace the name and the path :)"
+,TheOrbitt,2010-09-11T00:22Z,"Thanks guys! That indeed worked, now i got car traffic. For those who wonder what it has to be exactly:
+
+
+    ViMaCoreX
+    False
+    Vistamare\ViMaCoreX.dll"
+,TheOrbitt,2010-09-11T00:22Z,"Oh lol, i see TPB doesn't allow that. :')
+
+Well, just use the one above it in your dll.xml and edit it. "
+,irikimoss,2010-10-05T05:15Z,:-)
+,Pilot1996,2011-07-27T07:47Z,Hi! Im having trouble when i try to Add an Area on the Setting on FSX. I dont know what to choose. Pls anyone help. Thkx

@@ -1,0 +1,8 @@
+GNOBSD is an OpenBSD-based live DVD with automatic hardware detection which boots into a GNOME desktop and includes a graphical system installer (written in Ruby) for transferring the system to a hard disk or a USB storage device. The system includes some popular desktop applications, such as Mozilla Firefox and MPlayer.
+
+
+The LiveDVD is using the OpenBSD single-processor kernel, all sets, excluding the compiler-set, and some packages (e.g. firefox).
+
+The window-manager is GNOME.
+
+The LiveDVD starts a X-Session for the user â

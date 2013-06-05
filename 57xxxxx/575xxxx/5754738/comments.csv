@@ -1,0 +1,404 @@
+User Type,Username,Date,Text
+,algola,2010-08-11T15:13Z,tnx.....but this is only in german....any solutions?
+,luisik,2010-08-11T19:08Z,"True... it works, but it's  ONLY  in german... so for those of you not very keen in languages, better wait for another upload.
+Thanks anyway to ThumperTM"
+,Glasgow76,2010-08-11T19:55Z,The serial dont work
+,MB0SS,2010-08-12T02:37Z,"hi
+
+crack for english editon
+just install this german edition put the key and register
+then go to install darictery copy the DriverGenius.exe and save on desktop
+then install english edition and replase with u just save on desktop
+
+goodluk"
+,Aranues,2010-08-13T12:33Z,"works great for english version. 
+
+tnx ppl"
+,cicero_gbg,2010-08-14T00:20Z,"NIS 2011 beta had the install file for lunch... didn't like it at all...
+False positiv?"
+,cicero_gbg,2010-08-14T00:22Z,"NIS 2011 beta had the install file for lunch...
+False positiv?"
+,flyboy72261,2010-08-14T16:49Z,"Guys i figure it out! 
+Follow these steps.
+(1) Install Driver Genius German version then Register with the code included.
+
+(2) Download the trial version put on your desktop but brfore installing the trial creat a folder and place on your desktop name it what ever you want. Once the folder has been created click on the trial version of driver genius, Next select the folder you just created on your decktop shoose it to install the trial version, Once finished you will see you have to programs 1 on the programs file X86 folder and the trial on the desktop folder.
+Now Open the driver genius folder of the registered version (German) Next open the trial version from the folder on your desktop Now look for  (Driver Genius.cfg) of both the folders side by side. Copy and paste from the trial version LOOKS THIS!
+ [Link]
+HomePage=C9FDC73B25C8178A8E0E935B75432BAE  0800D14612D228BBE9A99093DDA26F27
+Support=5ED58AA93B12CED7B94ECAAF7C92BF89  6EE9633D5136C220AB178A8C24AE203B  F3405EC600669125609A8FCA5488E7FC  3DA6D8D5BDB17A44A3EDD681F7C09EE6  5D3F955CEF1D006565033D3124CF76BF
+Purchase=55A96A51446119CE6EDB9FDFD30C6CB6  27DE7DAA643C8F164EA91890BA3A4F33  4F6F347012C43795DF0CE5592F9B94CB  011834D0C7FCD340EEC44D75F1113562  F2762BE0C774219C407613C750C25739
+[LiveUpdate]
+DatabaseVersion=DatabaseVersion
+DatabaseURL=DatabaseURL
+SoftwareVersion=Avanquest_DE_Version
+SoftwareURL=Avanquest_DE_URL
+[Language]
+Total=8
+Default=0
+DefaultLanguage=0409
+0=0409
+1=040C
+2=0407
+3=0410
+4=0C0A
+5=0401
+6=041B
+7=0414
+;8=0429
+;9=0416
+;10=0405
+;11=0813
+
+[0409]
+LCID=1033
+Icon=221
+LngFile=English.lng
+HelpFile=UserGuide_ENG.chm
+Open the cfg from the German Version delete that line from it and PASTE the English into it now close hit the Driver Genius.exe and walla is registered and in english.
+It works for me."
+,flyboy72261,2010-08-14T16:58Z,"Guys i figure it out! 
+Follow these steps.
+(1) Install Driver Genius German version then Register with the code included.
+
+(2) Download the trial version put on your desktop but before installing the trial create a folder and place on your desktop name it what ever you want. Once the folder has been created click on the trial version of driver genius, Next select the folder you just created on your decktop choose it to install the trial version, in that folder. Once finished you will see you have 2 programs English and German Version. Now Open the driver genius folder of the registered version (German) Next open the trial version from the folder on your desktop Now look for  (Driver Genius.cfg) of both the folders side by side. Copy and paste from the trial version LOOKS LIKE THIS!
+ [Link]
+HomePage=C9FDC73B25C8178A8E0E935B75432BAE  0800D14612D228BBE9A99093DDA26F27
+Support=5ED58AA93B12CED7B94ECAAF7C92BF89  6EE9633D5136C220AB178A8C24AE203B  F3405EC600669125609A8FCA5488E7FC  3DA6D8D5BDB17A44A3EDD681F7C09EE6  5D3F955CEF1D006565033D3124CF76BF
+Purchase=55A96A51446119CE6EDB9FDFD30C6CB6  27DE7DAA643C8F164EA91890BA3A4F33  4F6F347012C43795DF0CE5592F9B94CB  011834D0C7FCD340EEC44D75F1113562  F2762BE0C774219C407613C750C25739
+[LiveUpdate]
+DatabaseVersion=DatabaseVersion
+DatabaseURL=DatabaseURL
+SoftwareVersion=Avanquest_DE_Version
+SoftwareURL=Avanquest_DE_URL
+[Language]
+Total=8
+Default=0
+DefaultLanguage=0409
+0=0409
+1=040C
+2=0407
+3=0410
+4=0C0A
+5=0401
+6=041B
+7=0414
+;8=0429
+;9=0416
+;10=0405
+;11=0813
+
+[0409]
+LCID=1033
+Icon=221
+LngFile=English.lng
+HelpFile=UserGuide_ENG.chm
+
+NEXT
+Copy the english (DRIVER GENIUS.CFG) then delete the (DRIVER GENIUS.CFG) from the German version and replace it withe english version close it all up walla you have an english fully registered program. OH you can delete the folder on your desktop now."
+,flyboy72261,2010-08-14T17:01Z,Guys i figure out how to make it in english email me for instructions it work great no more German language fully registered. Flyboy72261@aol.com
+,flyboy72261,2010-08-14T17:15Z,Thanks Thumper it works like a charm Happy is my language now
+,flyboy72261,2010-08-14T19:08Z,"SORRY TO POST SO MUCH WRITING
+To install all laguages copy and paste this to the Languages folder and you are set.
+
+[Language]
+Total=8
+Default=0
+DefaultLanguage=0409
+0=0409
+1=040C
+2=0407
+3=0410
+4=0C0A
+5=0401
+6=041B
+7=0414
+;8=0429
+;9=0416
+;10=0405
+;11=0813
+
+[0409]
+LCID=1033
+Icon=221
+LngFile=English.lng
+HelpFile=UserGuide_ENG.chm
+
+[040C]
+LCID=1036
+Icon=69
+LngFile=French.lng
+HelpFile=UserGuide_FRE.chm
+
+[0407]
+LCID=1031
+Icon=51
+LngFile=Deutsch.lng
+HelpFile=UserGuide_DEU.chm
+
+[0410]
+LCID=1040
+Icon=103
+LngFile=Italian.lng
+HelpFile=UserGuide_ITA.chm
+
+[0C0A]
+LCID=1034
+Icon=62
+LngFile=Spanish.lng
+HelpFile=UserGuide_SPA.chm
+
+[0401]
+LCID=1025
+Icon=183
+LngFile=Arabic.lng
+HelpFile=UserGuide_ARB.chm
+
+[041B]
+LCID=1051
+Icon=191
+LngFile=Slovak.lng
+HelpFile=UserGuide_SVK.chm
+
+[0414]
+LCID=1044
+Icon=158
+LngFile=Norwegian.lng
+HelpFile=UserGuide_NOR.chm
+
+;[0429]
+;LCID=1065
+;Icon=101
+;LngFile=Persian.lng
+;HelpFile=UserGuide_Per.chm
+
+;[0416]
+;LCID=1046
+;Icon=27
+;LngFile=BrazilianPortuguese.lng
+;HelpFile=UserGuide_POR.chm
+
+;[0405]
+;LCID=1029
+;Icon=50
+;LngFile=Czech.lng
+;HelpFile=UserGuide_Cze.chm
+
+;[0813]
+;LCID=2067
+;Icon=50
+;LngFile=Dutch.lng
+;HelpFile=UserGuide_Dut.chm"
+,flyboy72261,2010-08-14T19:10Z,"To add multible languages just copy and paste this to the language folder of Driver Genius
+
+[Language]
+Total=8
+Default=0
+DefaultLanguage=0409
+0=0409
+1=040C
+2=0407
+3=0410
+4=0C0A
+5=0401
+6=041B
+7=0414
+;8=0429
+;9=0416
+;10=0405
+;11=0813
+
+[0409]
+LCID=1033
+Icon=221
+LngFile=English.lng
+HelpFile=UserGuide_ENG.chm
+
+[040C]
+LCID=1036
+Icon=69
+LngFile=French.lng
+HelpFile=UserGuide_FRE.chm
+
+[0407]
+LCID=1031
+Icon=51
+LngFile=Deutsch.lng
+HelpFile=UserGuide_DEU.chm
+
+[0410]
+LCID=1040
+Icon=103
+LngFile=Italian.lng
+HelpFile=UserGuide_ITA.chm
+
+[0C0A]
+LCID=1034
+Icon=62
+LngFile=Spanish.lng
+HelpFile=UserGuide_SPA.chm
+
+[0401]
+LCID=1025
+Icon=183
+LngFile=Arabic.lng
+HelpFile=UserGuide_ARB.chm
+
+[041B]
+LCID=1051
+Icon=191
+LngFile=Slovak.lng
+HelpFile=UserGuide_SVK.chm
+
+[0414]
+LCID=1044
+Icon=158
+LngFile=Norwegian.lng
+HelpFile=UserGuide_NOR.chm
+
+;[0429]
+;LCID=1065
+;Icon=101
+;LngFile=Persian.lng
+;HelpFile=UserGuide_Per.chm
+
+;[0416]
+;LCID=1046
+;Icon=27
+;LngFile=BrazilianPortuguese.lng
+;HelpFile=UserGuide_POR.chm
+
+;[0405]
+;LCID=1029
+;Icon=50
+;LngFile=Czech.lng
+;HelpFile=UserGuide_Cze.chm
+
+;[0813]
+;LCID=2067
+;Icon=50
+;LngFile=Dutch.lng
+;HelpFile=UserGuide_Dut.chm"
+,flyboy72261,2010-08-14T19:28Z,"Make sure you open the language folder and transfer all of the languages from the trial to the german version now you,ll free to select the language.
+
+[Language]
+Total=8
+Default=0
+DefaultLanguage=0409
+0=0409
+1=040C
+2=0407
+3=0410
+4=0C0A
+5=0401
+6=041B
+7=0414
+;8=0429
+;9=0416
+;10=0405
+;11=0813
+
+[0409]
+LCID=1033
+Icon=221
+LngFile=English.lng
+HelpFile=UserGuide_ENG.chm
+
+[040C]
+LCID=1036
+Icon=69
+LngFile=French.lng
+HelpFile=UserGuide_FRE.chm
+
+[0407]
+LCID=1031
+Icon=51
+LngFile=Deutsch.lng
+HelpFile=UserGuide_DEU.chm
+
+[0410]
+LCID=1040
+Icon=103
+LngFile=Italian.lng
+HelpFile=UserGuide_ITA.chm
+
+[0C0A]
+LCID=1034
+Icon=62
+LngFile=Spanish.lng
+HelpFile=UserGuide_SPA.chm
+
+[0401]
+LCID=1025
+Icon=183
+LngFile=Arabic.lng
+HelpFile=UserGuide_ARB.chm
+
+[041B]
+LCID=1051
+Icon=191
+LngFile=Slovak.lng
+HelpFile=UserGuide_SVK.chm
+
+[0414]
+LCID=1044
+Icon=158
+LngFile=Norwegian.lng
+HelpFile=UserGuide_NOR.chm
+
+;[0429]
+;LCID=1065
+;Icon=101
+;LngFile=Persian.lng
+;HelpFile=UserGuide_Per.chm
+
+;[0416]
+;LCID=1046
+;Icon=27
+;LngFile=BrazilianPortuguese.lng
+;HelpFile=UserGuide_POR.chm
+
+;[0405]
+;LCID=1029
+;Icon=50
+;LngFile=Czech.lng
+;HelpFile=UserGuide_Cze.chm
+
+;[0813]
+;LCID=2067
+;Icon=50
+;LngFile=Dutch.lng
+;HelpFile=UserGuide_Dut.chm"
+,friendlytec,2010-08-16T10:09Z,"FOLKS ITS REALLY QUITE SIMPLE TO RESOLVE THIS ISSUE, I HAVE CAREFULLY CHECKED AND TESTED THE FOLLOWING SUGGUESTION, AND FOUND IT WORKING WELL (NOW IN ENGLISH AS ON THE 16th AUGUST 2010.
+KINDLY INSTALL THUMPERS VERSION ABOVE ALONG WITH tHUMPERS SERIAL CODE NUMBER PLEASE.
+NEXT DOWNLOAD THE ENGLISH VERSION. 
+OPEN WINDOWS EXPLORER AND GO TO PROGRAM FILES AND OPEN THE DRIVER GENIUS FOLDER. NOW OPEN THE LANGUAGE FOLDER.
+NEXT, WITH ""NOTEPAD"" OPEN THE GERMAN LANGUAGE FILE AND DELETE (iE: REMOVE ALL THE CONTENTS CONTAINED AND SAVE IT EMPTY.)
+LASTLY OPEN THE ENGLISH VERSION OF  THE DRIVER GENIUS VERSION, AGAIN  OPEN WINDOWS EXPLORER AND AGAIN FIND THE DRIVER GENIUS FOLDER, ONCE AGAIN OPEN THE LANGUAGE FOLDER- AND USE NOTEBOOK TO COPY AND PASTE THE CONTENTS CONTAINED INSIDE THE ENGLISH LANGUAGE  FILE VERSION  BACK TO THE GERMAN LANGUAGE FILE, AND SAVE IT. VOILA, IT WILL NOW WORK PERFECTLY IN ENGLISH, A BIG THANKS TO THUMPER.SURELY THIS IS MORE SIMPLE AND EASY, I  HOPE  YOU FOLKS WILL FIND THAT SOLUTION USEFUL ETC. HAVE FUN  FOLKS."
+,garycooper,2010-08-16T21:12Z,MBOSS is right. Download latest version off the various download sites. install your german version. put shortcut on desktop. dont update drivers. go to help in menu on german one you installed and you will see register. hit that and put in your serial. close down german version. go to directory where german version is and copy the genius.exe file and paste to desktop. install your downloaded english version. when done. copy and paste the german genius.exe from desktop into new directory for english one - overwrite the english exe with german. the double click your shortcut on desktop for the original german version. thats it - it runs the english version with the german exe.
+,flyboy72261,2010-08-17T22:18Z,Guys i dont know why for some of you the step mentined is so dificult i discovered this when i first doenloaded the program follow the steps is very easy OH! i love this driver Genius is the best backup my drivers and burned obto a cd for future refference. Thanks
+,Fixer1243,2010-08-21T14:16Z,"No wdf are all of u DOIN... DON'Y DO ALL THAT, instead delete the Deutsch.lng file located in DriverGenius/Languages that solved good!!!"
+,Hennorma,2010-08-23T21:13Z,Thanks man!
+,3v1lg0d,2010-08-31T16:22Z,38.4403000 million thanks thanks thanks
+,Maoxx,2010-09-02T08:48Z,"All right, this one works."
+,Mclectric,2010-09-03T05:21Z,"Cant get the Serial to work, I think the Serial no longer works, but if someone gets it to work after this post, can you post a how to. Oh and I did get the program back to English easy enough so thanks for the how to's on that. "
+,Mclectric,2010-09-03T05:34Z,"Sorry about that last post, Serial works fine, I ran it again for the third time and it worked!! Must have been operator error! :-)"
+,1Anonimo3,2010-09-04T00:08Z,"## ATENCTION## The  easiest thing to do, is to just download the language pack from their website (http://www.driver-soft.com/localization.html)
+Locate the English.lng file and open change the name to Deutsch.lng 
+Copy eand paste it in the Deutsch.lng file and replace.
+File its located in DriverGenius/Languages 
+
+WORKS FOR ME"
+,1Anonimo3,2010-09-04T00:09Z,"## ATENCTION## The  easiest thing to do, is to just download the language pack from their website (http://www.driver-soft.com/localization.html)
+Locate the English.lng file and open change the name to Deutsch.lng 
+Copy and paste it in the Deutsch.lng file and replace.
+File its located in DriverGenius/Languages 
+
+WORKS FOR ME"
+,pmolson,2010-09-04T15:00Z,"PROBLEM! It took in the serial and registered just fine BUT as soon as I run an update it becomes unregistered again! (note when I ran the update the program version didn't change: it stayed as 10.0.0.526. I believe only the drv database changed, which is good) YET the program became UNREGISTERED!!! Please Help> Should I not run the update at all???"
+,pmolson,2010-09-04T16:00Z,"Plz ignore my last post (34)...I got it! Once u update (after u register 1st of course), just use the same serial BUT w/o the dashes!"
+,Mclectric,2010-09-04T17:42Z,"Thanks for the fix pmolson! After update, same serial remove dashes!!"
+,markyoass,2010-09-12T18:13Z,"im sorry,but the serial doesnt work with dashes or without!mostly sorry for myself!"
+,mik3s,2010-09-21T10:07Z,"This is not English, How can i change the language in English? Thanks in advance."
+,vimadimo,2010-10-25T03:28Z,"Hello Thumper, this serial doesn´t work any more. Perhaps its blocked. I´m looking for this app in other sites and all are using the same serial."
+,Gory666,2010-11-06T17:19Z,Thanks :)

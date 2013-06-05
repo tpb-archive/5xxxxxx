@@ -1,0 +1,107 @@
+User Type,Username,Date,Text
+,inertia,2010-08-11T04:29Z,Thanks.
+,dANGER_boy,2010-08-11T04:34Z,"Sorry for the fucked up torrent info.  TPB is being really lame on parsing right now.  I considered releasing this torrent on Demonoid or another site because TPB needs some fixing.  Oh well...at least the actual READ ME.txt looks OK.
+
+Enjoy!"
+,AceofSpades1412,2010-08-11T10:24Z,You are a lifesaver dANGER_boy.Thanks again!
+,GCor71,2010-08-11T13:27Z,Thanks you uploader. Just played it and worked great. Thanks again.
+,sauriva,2010-08-11T16:20Z,"Thanks, great job!
+But I've got some problems after istalling and decrypting all of this. Suddenly the game began to ask for a cd, but it did run without any! When I try to lounch it manually I get an error that fmod_event.dll was not found ("
+,dANGER_boy,2010-08-11T18:04Z,"@sauriva
+The only thing I can think of is that you updated to v1.04 but failed to reapply a No CD patch.  The update will override your .exe, so you need to get a new v1.04 No CD crack.  Check Gamecopyworld.com for a current one."
+,Josh1g2g3g,2010-08-11T20:42Z,"@dANGER_boy
+AWESOME torrent! Although I have a little problem ):
+
+The installation is cool and all that, and so is the 5 - 10 min of gameplay before it screws up S:
+Dunno why, but after i've killed the first mobs, and when i follow that dwarf ghost with Jerrik, i end up at the ""door to Amgarrak"". When i enter it, a little movie pops up, and after that the whole screen goes grey. Although the health bar, and skill bar and all that are still there.. i just cant see my chars, or anything else S:? "
+,CorreX,2010-08-13T18:03Z,"""ATTENTION: If you are getting an error while installing the DLC, it is most likely caused by a corrupt AddIns.xml. Navigate to where it is located and delete both it AND Manifest.xml.  You will need to reinstall the Awakenings expansion (if you have it) and any previous DLC.  This should solve your problem.  A simpler way to do this without having to install everything again is to make sure the encoding of AddIns.xml is set to UTF-8 rather than deleting the two XMLs.""
+
+
+...Yeah..."
+,Eruza,2010-08-13T20:10Z,"This one installs fine for me but displays ""Missing Requirements"" in the DLC menu in-game. I'm patched to 1.04 (which runs fine with the Awakenings crack exe) and I have every other DLC installed except for Darkspawn. My AddIns.xml file is fine and I've run the decrypter. Any ideas?"
+,Pizzicato.ba,2010-08-13T21:27Z,"@Josh1g2g3g
+
+Me too... =(
+
+[]Â´s"
+,jaguuar,2010-08-13T23:50Z,Works like magic! Thanks a lot!
+,danielamach,2010-08-14T02:36Z,"@Eruza
+
+Same here!!! Any ideas?"
+,cry.lord,2010-08-14T10:38Z,"hi, guys im new to DLC ...is it a game to be installed?? i have downloaded it..cn anyone tell me wht to do with these files? ur help will be appreciated !!"
+,neoscorpx,2010-08-14T21:15Z,"@Eruza
+@danielamach
+I've got the same problem too. I would be very grateful if someone offered a solution. Thank you!"
+,dANGER_boy,2010-08-14T22:48Z,"Out of curiousity, what game region are y'all using and what No CD crack?"
+,Eruza,2010-08-14T23:46Z,"@dANGER_boy 
+
+I'm using the crack from http://thepiratebay.org/torrent/5435879/Dragon_Age_Origins_Awakening-Razor1911 but it's been marked ""Missing Requirements"" since before I installed Awakening and 1.04."
+,Eruza,2010-08-14T23:47Z,"Sorry: US region, as far as I know."
+,dANGER_boy,2010-08-15T02:41Z,"@Eruza
+Update using the v1.04 patch again, just to be sure, and then get a v1.04 No CD crack from Gamecopyworld.com"
+,Peepeebedee,2010-08-16T05:28Z,"got a slight hitch, installed everything, change the xml's etc etc, tried to import my character, pressed play and said it couldn't load the area, re-installing all the DLc's now, just incase. any ideas ?"
+,dANGER_boy,2010-08-16T22:40Z,"@Peepeebedee
+This is a very anal addon.  I couldn't play it intially cause I kept getting put into a square room with no exits.  Turns out some of the other mods/addons were causing conflicts.  Try disabling mods until you get it to work.  Hopefully that is the problem."
+,kopo007,2010-08-17T18:48Z,"Million thanks to you dANGER_boy:). It's working a charm after I change the addins encoding to utf 8.
+Thx..,."
+,T-Totaller,2010-08-19T04:13Z,"@dANGER_boy
+
+after installing the 4 files, i got an error on the first 3 files. i even tried to check addins.xml and checked with the settings, and ran decrypter- all those failed. so i downloaded the DAO ModManager from the DA Nexus site and it found an error in my .xml file and repaired it. i tried again, and all 4 files were successfully installed this time- then ran the decrypter and edited the .xml entries.
+
+the problem lies here: when i try to import a character from my origins OR awakening, the game crashes. yet when i try to make a new character, nothing bad happens. i'd really appreciate some help. thanks!"
+,dANGER_boy,2010-08-20T00:19Z,"@T-Totaller
+This sounds like an error with the mod itself and not the DAZIPs.  I did not test the DLC with an imported character, nor do I have one currently available to test with.  However, you might want to check the Bioware support forums at http://social.bioware.com and see if other users are experiencing the same problem."
+,osjjdb89,2010-08-20T15:32Z,"""If you are getting an error while installing the DLC, it is most likely caused by a corrupt AddIns.xml.  
+
+Navigate to where it is located and delete both it AND Manifest.xml.  You will need to reinstall the Awakenings 
+
+expansion (if you have it) and any previous DLC.  This should solve your problem.  A simpler way to do this without 
+
+having to install everything again is to make sure the encoding of AddIns.xml is set to UTF-8 rather than deleting the 
+
+two XMLs.
+
+""
+how to do this?i mean change the encoding of the .xml file??"
+,dANGER_boy,2010-08-21T05:43Z,"@osjjdb89
+Open AddIns.xml in Notepad, go to File, Save As..., and change the encoding drop-down box to UTF-8.  Save in the same place, overwriting the original."
+,ReMiNz,2010-08-21T12:24Z,"Hey dANGER_boy,
+I have the same issue as T-Totaller..
+The 1st 3 files had error and the last file was installed..
+I did everything u said about AddIns.xml but the same error continues...
+any suggestions? TY in advance"
+,Banalityofevil,2010-08-21T20:20Z,"Hey man thanks for the torrent. I'm having the same issue as Peepeebedee. In that no matter what I've tried; enabling/disabling/reinstalling... 
+I still get the ""unable to load area"" 
+It's really frustrating anyone manage to tackle this?"
+,thankuforurhardwork,2010-08-22T03:12Z,danger boy you are the best and trust worthy uploader many thanks
+,aca92srb,2010-08-22T14:26Z,Guys I had a problem that first 3 files couldn't install so I changed the encoding to utf-8. And now only first file won't install. I am really confused right now so i downloaded dao modmanager but i dk how to repair .xml file. can smb pls explain it to me. TY
+,Peepeebedee,2010-08-23T00:01Z,"@dANGER_boy
+
+in the end i uninstalled everything and reinstalled after the 3rd time and then reinstalled the DLC's a bit more :P, the original problem was because i didn't click the correct decrypter file i think, but then i got other problems. 
+
+reinstalling awakening and the DLC's several times fixed it though. remember to delete your addin's xml and manifest files in User/documents/bioware/dragonage/settings everytime you have a problem with installing them :).
+
+hope i helped, and thanks alot for the upload, i've had alot of fun with these DLC's "
+,ratchet5,2010-08-25T03:25Z,"I finished this campaign without a problem earning all the achievements, but however I could not transfer the items to my normal campaign because you have to log in confirming that you bought this DLC. Anyone have a crack for this or a way around it?"
+,ratchet5,2010-08-25T04:53Z,"Actually, adding on to what I said earlier, I changed the requires authorization for the item packs to 0 and it now says enabled. But I still didnt get the items although i completed all three achievements for Amgarrak."
+,ratchet5,2010-08-25T05:33Z,"I think its this file or its unpacked contents that dont get decrypted (DAO_PRC_GIB_O_1.0.dazip), so we cant access the item rewards for getting the achievements."
+,dANGER_boy,2010-08-25T06:20Z,"@ratchet5
+This file is called an Offer file and does not need decryption.  It is a set of files that help the game engine communicate with the DLC.  The files that pertain to the weapons are DAO_PRC_GIB_DAO and DAO_PRC_GIB_EP1, which get properly decrypted.  I need more people to confirm that they cannot get the weapons rather than just one case."
+,Josjes,2010-08-28T18:45Z,"@Banalityofevil Have you tried using the DLC encrypter? I had the ''Unable to load area'' problem as well before I used the Encrypter. Works perfectly fine now, thanks Danger_boy! :D
+"
+,Banalityofevil,2010-09-01T18:04Z,Still no luck... :/ Tried everything...
+,seanb1979,2010-09-05T21:15Z,I followed the instructions to a T and about half the content is listed as unauthorized content. Not sure why this is. I guess I'll try a clean uninstall and reinstall.
+,seanb1979,2010-09-05T22:08Z,yeah not sure what happened the first time but the 2nd time worked
+,ZohaibHidayat,2010-09-26T14:52Z,"i havent been successful in playing a single dlc...every time i try to run decrypter it gives an error message that it suffered somekind of problem and you need to shut it down...when i try to play the game i get ""unable to load area"" or ""unable to load domain"" problem....Help plzzzzzzzzzzz. i m dying to play these dlcs..."
+,rocketman501,2010-10-23T17:33Z,"thx..
+it is working...!!"
+,Pan43bros,2011-01-23T11:16Z,"OMG ! i was trying to install Golems of Amgarrak for like 2 hours, and didnt manage and i was about to delete Dragon Age and Awakening, but when i saw that i didnt had space in C:   my movie changed, i was so happy ! i installed the game
+BTW Uploader thanks i will seed on this torent and the Witch Hunt torent ! 
+cheers !"
+,djlawan,2011-04-26T05:30Z,hey got a question why when I click downloadable content in dragon age origins the file size of golems of amgarrak is only 310 MB
+,Sugram1,2011-08-08T16:29Z,"when i want to play no matter if i import or make new char it load'es little bit & drows my in to mane menu & says unable to load area or something like that, or do i need to finish witch hunt first??? i finished awakening"
+,Sugram1,2011-08-08T16:36Z,"if it dose not add anything important in the story then of course i ton't care about that DLC, if DA2 fills this hole i mean, i plan to use saves in DA2"
+,dANGER_boy,2012-03-05T10:29Z,"People still seed this?  Might as well stop.  I have another, more complete torrent out there.
+
+Haha, just find it funny."
+,Sunny16,2012-04-02T16:35Z,Thanks. 

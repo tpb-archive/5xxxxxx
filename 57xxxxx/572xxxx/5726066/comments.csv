@@ -1,0 +1,286 @@
+User Type,Username,Date,Text
+,HamHamHam,2010-07-30T08:48Z,I cannot find a Mac crack anywhere!  If anyone knows of one can they post a link to it!
+,Prince_Laharl,2010-07-30T09:14Z,I also would like to know where to find a crack for mac :C
+,damat101,2010-07-30T15:03Z,SEEDSEEDSEED!!!
+,arsnic,2010-07-30T16:26Z,"Sorry for all of you waiting, I'm maxed out at seeding at 100 kB/s. By the way the crack has been added to the mac>games directory."
+,jakhead,2010-07-30T22:45Z,Installer.app doesn't launch. There a step I'm missing?
+,jakhead,2010-07-30T22:52Z,"Nevermind. Found a solution, on google. You'll need to modify permissions:
+$ chmod 755 /Installer.app/Contents/MacOS/InstallerLauncher
+
+
+$ chmod 755 /Installer.app/Contents/Resources/Installer.app/Contents/MacOS/Installer "
+,jvhester,2010-07-31T00:01Z,I made a name on here just to say thanks.  And please seed when you're done people.
+,it4lian,2010-07-31T02:37Z,"How do I use those instructions to change permissions? I really don't know anything about computers, less about a mac, so could you please help with a list or specific steps? Thank you very much"
+,arsnic,2010-07-31T04:33Z,"@it4lian
+
+You need to either use Spotlight and type in terminal then enter or go to Applications>Utilities>Terminal
+
+Once you have done that type in:
+
+cd [Download Directory]
+
+This means if you have utorrent or whatever set to download to your Downloads folder you would type:
+
+cd ~/Downloads
+
+Next type:
+
+chmod -R 755 ./SC2-WingsOfLiberty-enUS-Installer
+
+This should change the ownership of the files on your computer to your account allowing you to run the file.
+
+Please People share, I've uploaded nearly 20 gigs and I'm still the only seed!!!!"
+,it4lian,2010-07-31T05:38Z,"I have the folder on my desktop to have easy access to it. I did what you told me and all this came up. Is it O.K?
+
+Luigi-Bevilacquas-MacBook-Pro:~ lbevilacqua$ cd ~/Desktop
+Luigi-Bevilacquas-MacBook-Pro:Desktop lbevilacqua$ chmod -R 775/Users/lbevilacqua/Desktop/Starcraft\ II\ /Installer.app 
+usage:	chmod [-fhv] [-R [-H | -L | -P]] [-a | +a | =a  [i][# [ n]]] mode|entry file ...
+	chmod [-fhv] [-R [-H | -L | -P]] [-E | -C | -N | -i | -I] file ...
+Luigi-Bevilacquas-MacBook-Pro:Desktop lbevilacqua$"
+,it4lian,2010-07-31T05:47Z,That's what I tried and it didn't work. . . Thank you for your patience
+,Tam-Linn,2010-07-31T06:39Z,I Love You.  will upload at 800m/s for 24 hours
+,arsnic,2010-07-31T07:09Z,"First off @Tam-Linn:
+
+Thanks.
+
+Second @ it4lian:
+
+Sorry you may need to add the word sudo in front of the line chmod -R 755 ./SC2-WingsOfLiberty-enUS-Installer
+
+So,
+
+sudo chmod -R 755 ./SC2-WingsOfLiberty-enUS-Installer
+
+It should then prompt for your password, so something like this should happen in terminal:
+
+YourComputerName:~ UrUsername$ cd ~/Downloads
+YourComputerName:Downloads UrUsername$ sudo chmod -R 755 ./SC2-WingsOfLiberty-enUS-Installer/
+Password:
+YourComputerName:~ UrUsername$
+
+At this point you should be done. Close terminal and run installer but be sure the files have reached 100% first or else you might cause problems."
+,it4lian,2010-07-31T07:38Z,You guys are awesome! Thanks for all the help and patience. I appreciate it. Hope that someday I can help someone like you helped me today. Many thanks.
+,WhoaD.rug,2010-07-31T16:15Z,"@arsnic
+
+Thanks for your terminal instructions and got it to work.
+
+However, the installer runs now and I let the app connect to the internet (maybe to verify the app as legit?) and it requested the Starcraft Disc.
+
+I didn't let it connect the second time, and it still has the same request.
+
+Is this because I am lacking a crack?"
+,arsnic,2010-07-31T17:13Z,"@WhoaD.rug
+
+I bought this game myself and downloaded and installed and was never asked for a disk. Once I was asked for an activation key and just skipped that screen. Sorry I wasn't asked for a disk so I can't be much help here. I do know the crack is on tpb under Games>Mac if you need it."
+,it4lian,2010-07-31T18:39Z,Anyone have any idea where the save files are located in the Mac? Many thanks in advance
+,arsnic,2010-07-31T19:09Z,"Well most by default download to your Downloads directory. What torrent program are you using? uTorrent, Transmission, etc"
+,arsnic,2010-07-31T21:11Z,"@it4lian
+
+The save files are in your Documents folder under the Blizzard folder."
+,it4lian,2010-08-01T01:55Z,"There still is no way to be able to resume a saved campaign right?
+I tried opening directly the saved game to see if it could work but nothing :S"
+,Tam-Linn,2010-08-01T03:53Z,"0 seeders and 800+ leechers. come on- any body who completed download seed for just one day and we get a healthy torrent going, those of us who've been stuck at 96% or so would be pretty gratefull."
+,arsnic,2010-08-01T04:36Z,"@Tam-Linn
+
+Sorry, had to use my computer for actual work (away from an internet connection), don't worry your seed is back, I'll be here throughout the night, again ...."
+,luc1992,2010-08-01T05:53Z,"so i have tried to apply the patch (by following the instructions mind you) and i cannot get it to work. First of all even though the version appears to be the base15405 the instructions call for, there is no battle.net-patch.mpq. i can only find a battle.net.mpq file in the battle.net folder. 
+so i try to replace that one and when i launch the game it tells me some files are missing and apple gives me an error message about compatibility. 
+i am running snow leopard on a core I5 macbook pro. 
+if someone who got it to work could post up some more detailed instructions i would be very thankful.
+Also i have downloaded the game from here, the one that appears at the top of the ""top 100"" mac game torrents.
+thanks again.  
+(P.S i have been seeding for the past hour or so since my download completed and i see that the number of seeders has increased considerably and so has the number of completed downloads, i would like to think that i participated somewhat to this :P) "
+,luc1992,2010-08-01T05:54Z,"sorry for ""Also i have downloaded the game from here, the one that appears at the top of the ""top 100"" mac game torrents.
+thanks again. "" 
+i copy pasted my comment from the crack download page"
+,Sheepinatorx,2010-08-01T05:55Z,"Btw, if anyone gets the message in Terminal, ""No such file or directory exists"" when trying to change permissions, move the file SC2-WingsOfLiberty-US-Installer to the downloads folder, then follow arsnic's instructions.  I tried doing it with the SC2 folder on the desktop, and it would not work"
+,Tam-Linn,2010-08-01T06:19Z,"same problem as luc1992, cant figure it out."
+,iSkepsis,2010-08-01T06:26Z,"I am stuck at the homescreen and it keeps telling me to register at battle.net. Obviously I can not do so because I do not have a game key. Is there any crack out there that will work? Is there any other way around this? 
+
+@arsnic
+I have been seeding, and thank you for the amazing game. Can you answer my questions? I feel sooo close yet sooo far away.  "
+,iSkepsis,2010-08-01T06:32Z,"Found the crack but how do you replace the sc2.app at /StarCraft II/Versions/Base15405/...sooo confused. I do not know where to start. 
+
+@luc1992
+Can you walk me through what you did step by step and i will see if i can get it to work? Then i may be able to help you.
+
+@tam-lin
+Can you walk me through what you did step by step and i will see if i can get it to work? Then i may be able to help you."
+,iSkepsis,2010-08-01T06:53Z,"Ok so i got this message when i replaced the sc2.app and the battle.net-patched
+
+The patch ""mac-game-hdfiles/StarCraft II Editor.app/Contents/Helpers/GLShaderCompiler"" could not be applied. (MD5 mismatch: expected 0x1761BBE955C8586CAA9DEE86F591A2F8, actual 0xEA55A0652A79CF34C21843ACCC4C9A7F.)(PTCApply_BSDiff failed.) If this problem persists, you may be able to solve it by uninstalling and then reinstalling the game. If you are unable to correct this problem, please contact Blizzard Technical Support. (BNUpdate::PTCApply)
+"
+,Tam-Linn,2010-08-01T07:17Z,"@iSkepsis,
+
+step by step,
+1)downloaded game 2) applied the ""sudo chmod -R 755 ./SC2-WingsOfLiberty-enUS-Installer"" thing in the terminal. 3) opened installer while connected to internet, then disconnected to run installation. 4) reconnected and tried to apply patch/ was told my Starcraft Editor glshadercompiler hash didnt match up 5) tried applying crack but there was no battle.net-patch.mpq to replace as instructed by the crack
+6) tried relaunching and reapplying patch but got same message.
+
+all this on a 13' mac 2.26 core dua with 4 gb memory and a geforce 9400m
+
+having uploaded 60 gigs im hoping to get this working"
+,Tam-Linn,2010-08-01T07:18Z,"@iSkepsis, yeah thats the message i got too."
+,luc1992,2010-08-01T07:20Z,"ok so i solved the problem, what i did was reinstalled but let it patch completely at the end of the installation (let it patch up until you can click play on the launcher) once that is done apply the patch as per the instructions and voila! i was able to play the first 2 missions no problem, but like everyone else, even if i saved the game manually i cannot come back to it once i exit the game. hope someone will find the solution to this soon enough!"
+,luc1992,2010-08-01T07:21Z,"@tam-linn
+i left my internet connection open the whole time, i only turned it off once i wanted to launch the game and it worked fine. "
+,eyes only,2010-08-01T11:10Z,"I need help i cant even get the installer to start, i have done all the terminal stuff but when i click on the installer nothing happends.
+What  am i doing wrong?"
+,eyes only,2010-08-01T11:15Z,"I need help i cant even get the installer to start, i have done all the Terminal things but whene i click on the installer nothing happens :)"
+,iMacZoid,2010-08-01T11:47Z,"I have the same problem as eyes only.
+
+I click the installer and nothing happens.
+
+I've tried every combination with the terminal.
+No matter where I put the file (Desktop or Downloads) I get the same ""file does not exist"" message.
+
+btw - I was at a 3:1 seed ratio before I quit seeding so I could try to install the game"
+,iMacZoid,2010-08-01T11:51Z,"To be exact - after I type my password I get this message in the terminal:
+
+chmod: ./SC2-WingsOfLiberty-enUS-Installer: No such file or directory"
+,iMacZoid,2010-08-01T12:54Z,"Never mind - got it . . .
+forgot to ad ""cd"" before: cd ~/Downloads
+
+It is SC1.0.0.15405
+
+Now let's see how the rest of the installation goes . . .
+
+Many thanks for the helpful posts here and also for the torrent!"
+,b3rx,2010-08-01T14:09Z,"@luc1992: I was able to get to the 3rd mission. Here are my steps.
+
+1. Saved from mission 3.
+2. Quit the game.
+3. Start SC2.
+4. Start Campaign.
+5. Go to menu and click on load."
+,luc1992,2010-08-01T14:23Z,"@b3rx - wow thanks, i had not thought of that. looks like you are one of the few, if not the only one that has discovered a workaround for that! 
+I started a new campaign and than from the menu on mission 1 loaded my previous saved game and it worked like a charm! Granted you need to load the first mission every time you want to play but thats not to bad!
+thanks!!"
+,R.Deckard,2010-08-01T14:53Z,"There is a way to load a saved campaign, i found a way around this...you just gotta advance in a campaign and normally save it. then when you load, start a new campaign game, and from the first mission battle map (in-game) select load, and load the campaign from there you've saved. Takes a bit of time, but works."
+,b3rx,2010-08-01T15:19Z,"@luc1992: no problem. its just a workaround though. would enjoy not to have to reload mission one just to be able to load my save file.
+
+just here to help."
+,arsnic,2010-08-01T16:10Z,"Ok, to explain a bit, the cd command causes terminal to change directories, so if your SC2-blah folder is on the desktop you type:
+
+cd ~/Desktop
+
+if in downloads type
+
+cd ~/Downloads
+
+Second as I posted before this is just the legit installer directly from battle.net. I bought the game so I have no idea what problems you could face with the crack.
+
+Lastly, yes you can transfer games load old games just place them in your Documents>Blizzard>StarCraft II folder. And once I quit while playing a campaign and upon starting again it automatically loaded and once it didn't I think it's something they need to work on but it will only load if the game had saved prior.
+
+Happy seeding, happy playing. Well worth the $60 bucks."
+,eyes only,2010-08-01T19:03Z,"This is what i get but i cant write the password nothing happens. does any body know how to do it?
+
+
+MacBook-Pro:Desktop David$ sudo chmod -R 755 ./SC2-WingsOfLiberty-enUS-Installer
+Password:
+"
+,eyes only,2010-08-01T19:42Z,"am i suppose to click the installer before i do something in the terminal?
+If so nothing happens when i klick the installer, and i tryed the terminal first but when i get to password i cant write anything?
+Any one ho can teach and novis on Mac?"
+,redsox04,2010-08-01T22:42Z,"Hey guys.... you are using peer guardian, uninstall it and then you will be able to run the patch..."
+,the_modem,2010-08-02T00:35Z,"Alright so I got the game installed but whenever I replace the SC2 file, changed the SC2.exe from crack, and the battle.net-patch.MPQ, the game says it does not have the necessary files to run, if I dont replace the files I'm stuck at the battle.net screen, how do I get past that?"
+,zookap,2010-08-02T05:47Z,Can anyone post a cd key for this game? It doesn't have to work on battle.net. Thanks to all the seeders any thanks if anyone posts one.
+,Sheepinatorx,2010-08-02T06:05Z,"yeahh.... So still having problems with this error:
+The patch ""mac-game-hdfiles/StarCraft II Editor.app/Contents/Helpers/GLShaderCompiler"" could not be applied. (MD5 mismatch: expected 0x1761BBE955C8586CAA9DEE86F591A2F8, actual 0xEA55A0652A79CF34C21843ACCC4C9A7F.)(PTCApply_BSDiff failed.) If this problem persists, you may be able to solve it by uninstalling and then reinstalling the game. If you are unable to correct this problem, please contact Blizzard Technical Support. (BNUpdate::PTCApply)"
+,Sheepinatorx,2010-08-02T06:11Z,"The patch ""mac-game-hdfiles/StarCraft II Editor.app/Contents/Helpers/GLShaderCompiler"" could not be applied. (MD5 mismatch: expected 0x1761BBE955C8586CAA9DEE86F591A2F8, actual 0xEA55A0652A79CF34C21843ACCC4C9A7F.)(PTCApply_BSDiff failed.) If this problem persists, you may be able to solve it by uninstalling and then reinstalling the game. If you are unable to correct this problem, please contact Blizzard Technical Support. (BNUpdate::PTCApply)
+HELP!!!"
+,Sheepinatorx,2010-08-02T06:12Z,"sorry for the double post, twas a accident"
+,Sheepinatorx,2010-08-02T06:17Z,"So anyway, i solved my own problem.  If anyone gets the same error I did, just disconnect from the internet, therefore it wont patch and you will be golden"
+,the_modem,2010-08-02T06:39Z,"heres what I've been able to get out of the comments
+
+open up terminal, Applications > Utilities
+type 
+cd [Download Directory]
+
+This means if you have utorrent or whatever set to download to your Downloads folder you would type:
+
+cd ~/Downloads
+
+Next type:
+
+sudo chmod -R 755 ./SC2-WingsOfLiberty-enUS-Installer
+
+a password entry will appear, type in your password, you wont see it, then press enter
+
+This should change the ownership of the files on your computer to your account allowing you to run the file.
+
+now keep your internet on during the entire installation, get the patch at the end, then wait for it to be 100% done and click play.
+
+you will reach the menu but you still have to login to battle.net so quit the game
+
+download the mac crack
+http://thepiratebay.org/torrent/5726851/StarCraft2_[k]_by_zeorge_008.dmg
+
+then go into the folder with starcraft II in your applications
+
+go into the battle.net folder and replace the Battle.net-patch.MPQ with the one in the patch
+
+then go back to the starcraft II folder > Versions > Base15405 and then replace the SC2 file with the one in the crack.
+
+then start star craft II again. This is an amazing game after I finally got it working, totally worth the trouble."
+,jisor,2010-08-02T09:28Z,"the_modem: Good summary. 
+However, there are still a few bugs with the crack.
+1. I have to totally disable the internetconnection to get the game running. Tried blocking the app with Little Snitch, but the patcher launched anyway, gave an errormessage about the patch, and then exited.
+2. You have to start a new campaign to be able to load the game. Not the best solution maybe... ;-)
+
+Hoping for a better crack soon. 
+Thanks for upload! :-)"
+,eyes only,2010-08-02T12:07Z,THX the_modem you made my day
+,Sheepinatorx,2010-08-02T17:07Z,"This torrent is great and all.... But it is kind of a downer that you can only play campaign.  Sure the campaign is fun and all, but, at least with SC1 and Brood Wars, I beat the campaigns in about a week then played custom games for months.  I may just end up buying the game when I have enough monies."
+,the_modem,2010-08-03T02:46Z,"well if your not happy with the mac version, just get a windows 7 install off here, install it in bootcamp, get the better windows cracks of star craft 2 and play it that way."
+,jisor,2010-08-03T08:58Z,"the_modem: hehe... Play in bootcamp? No thanks. There is a reason why I converted from Windows to Mac OS X ;-)
+
+Anyways... I bought the game instead. "
+,Psychotika,2010-08-03T18:21Z,If only i could find my OSX 10.5 install disk i would run bootcamp XP pro 
+,fancocies,2010-08-04T02:44Z,"Hi. I get an error right before the installation process starts.
+
+i've placed the files in my Download folder as told in other comments. Did the terminal commands. Then i ran the installer.
+
+as soon as i Validate the directory for the installation and click OK. I have a pop-up that tells me I have an error :
+
+ The installer was unable to read the file ""fileset.installer/global/platform/Mac/StarCraft II.app/Contents/Info.plist"". This error may be caused by problems with the media or drive at --for example, a scratched or dirty CD-ROM/DVD-ROM, hard drive corruption, or a networking problem while downloading the installer. (The error code was 0.) : DecompressJob::Execute()
+
+I couldn't find any other instances where people had this problem. The install obviously stops at 1%. I can't get passed this error... anybody know how to fix this?"
+,Tam-Linn,2010-08-04T04:41Z,Don't know if this is a temporary issue but for some reason this stopped showing up under games>mac and now pops up as games>pc. 
+,arsnic,2010-08-04T15:41Z,"TPB was having some problems yesterday, I'm not sure why or how it switched areas but I'll see if I can move it back."
+,the_sea_cucumber,2010-08-04T16:46Z,"I'm having the same problem as Fancocies, but I can't see any listed solution to it. I've successfully followed the first part of the_modem's instructions, but when i try and run the installer (offline) by 2% I get an error reading
+
+""The installer was unable to read the file \""fileset.installer/global/platform/Mac/StarCraft II.app/Contents/Info.plist\"". This error may be caused by problems with the media or drive at --for example, a scratched or dirty CD-ROM/DVD-ROM, hard drive corruption, or a networking problem while downloading the installer. (The error code was 0.) : DecompressJob::Execute()""
+
+any help?? i'm running snow leopard if it makes any difference."
+,the_sea_cucumber,2010-08-04T16:54Z,"I'm having the same problem as Fancocies...whenever I try and run the installer, I get this error:
+
+""The installer was unable to read the file \""fileset.installer/global/platform/Mac/StarCraft II.app/Contents/Info.plist\"". This error may be caused by problems with the media or drive at --for example, a scratched or dirty CD-ROM/DVD-ROM, hard drive corruption, or a networking problem while downloading the installer. (The error code was 0.) : DecompressJob::Execute()""
+
+any help? was my file corrupted when tpb moved the torrent around?"
+,the_sea_cucumber,2010-08-04T17:04Z,"I solved my own problem (for anyone else who may encounter this, simply reload the torrent file...apparently the download missed some files)"
+,munich_bullet,2010-08-06T22:50Z,"hi....
+before all... THANKS!
+
+I followed all the the_modern instructions but it donĂÂ´t let me play single player only the campaing...
+PLEASE HELP!!!"
+,semiotec,2010-08-07T20:12Z,"chmod: ./SC2-WingsOfLiberty-en-US-Installer: No such file or directory
+
+What am I doing wrong?"
+,arsnic,2010-08-07T23:55Z,"@semiotec
+
+Clearly, the file is not in the directory that you are trying to modify. Remember, you need to cd to the directory where the folder is stored."
+,semiotec,2010-08-15T04:14Z,"thanks arsnic
+
+is there a better mac crack out yet?"
+,UHUHginge,2010-08-16T11:13Z,"Add http://us.tracker.worldofwarcraft.com:3724/announce to your trackers, Blizzard are seeding this from their own servers."
+,UHUHginge,2010-08-16T11:17Z,"I have chmodded the installer to 755 (executable for owner)
+
+Now when the installer launches it asks for a game disc, any way around this?"
+,archerdjm,2010-08-23T16:17Z,"Hi, thanks for the download. Everything went well except now that I have the game installed, it won't connect to battle.net so I can play. I tried changing firewall setting and opening the right ports as battle.net recommended but it still will not connect.
+Help?"
+,sergiu15,2010-09-27T16:36Z,I can give the correct password please tell me who believes a partnership of the game my e-mail is sergiu_curtusan@yahoo.es
+,sergiu15,2010-09-27T17:46Z,"The update was cancelled.
+  The patch ""pc-battlenet-hdfiles\Support\Battle.net.dll"" could not be applied. (MD5 mismatch: expected 0x4E550684A6090A23857568FF7834C342, actual 0x92582E79806B0E2D3EB4EAD75EAA4F04.)(PTCApply_BSDiff failed.) If this problem persists, you may be able to solve it by uninstalling and then reinstalling the game. If you are unable to correct this problem, please contact Blizzard Technical Support. (BNUpdate::PTCApply)"
+,GamerRay94,2010-10-10T18:21Z,Does that updating take so much time or did is something wrong
+,GamerRay94,2010-10-10T18:39Z,"I can't play the game i don't know what to do 
+can someone help me?"

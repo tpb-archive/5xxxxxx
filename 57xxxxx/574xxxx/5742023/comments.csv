@@ -1,0 +1,30 @@
+User Type,Username,Date,Text
+,ClassicalSuport,2010-08-06T06:13Z,"hi there... This is Really great thing you have made... can you please tell how to Prepare USB Bootable with your Stuff... I need it Quit Often..
+
+Thanx for Soft..."
+,chitchatid,2010-08-06T06:36Z,"i am downloading this one. could this program be used in the netbook with the resolution of 1024x600. most bootable CDs or USBs are not applicable to be resized to that dimension. though, i want to give a try. thank you"
+,hniv,2010-08-06T07:59Z,"My english is very bad so sorry about commen.
+To write USB_rescue.img to your usb, use rdeploy\windows\rdeploy.exe ---choice your usb in menu and usb_rescue.img.
+To make this usb I use Acronis utilities, use rdeploy.exe to make image.
+I want upload long time ago but i can't untill I found rdeploy.exe"
+,hniv,2010-08-06T08:06Z,"Hi chitchatid
+I make it to use on my notebook and to install windows, rescue data on varies models of PC in my company and it work. But don't use USB format utilities or any software rewrite Master-boot-record 'cause this USB contain two partitions"
+,faith123,2010-08-07T07:00Z,"Great work man thankssss
+look if u crack ""DERescue data recovery master"" software"
+,chitchatid,2010-08-09T07:20Z,"any shared experience, knowledge to the world is highly worth appreciated and acknowledged. "
+,chitchatid,2010-08-09T07:27Z,any shared experience and/or knowledge to the world is highly worth and appreciated. tq
+,hniv,2010-08-09T10:11Z," First I thanhk to every ones who try this and sorry because share some not nessesery...
+ Thanh to PC doctor give idea about usb still booting after format.
+ You guy can do this for yourself:
+1- Craete bootable USB via Grub (see Hiren - USB)
+2- Use Acronis or something create USB's Image (I use Acronis true image).
+3- Use Partition software like Acronis' or Paragon to make USB have 2 primary partions.
+4- Un-plug and Plug USB to windows recog USB (Only one part can see).
+5- Use Image software to restore USB image to other partion (unvisible par) and in options must choice: Active partion.
+6- Resize partions as you want.
+7- Use rdeploy.exe to create (and restore) image (just because rdeploy.exe can use whit single file. I share all rdeploy 'cause I got it not easely)
+I make this by Acronis 9.7 server, what availble in this USB (8GB).
+............................
+ If you want other softs in this USB, boot with USB and choice miniXP, in desktop have ""Partion find and mount"".7z extraxt and use it.
+ I want tell you more but my english too bad
+"

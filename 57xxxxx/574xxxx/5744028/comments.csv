@@ -1,0 +1,84 @@
+User Type,Username,Date,Text
+,molama,2010-08-07T12:28Z,anyone finished download? let me know how this work when u finish
+,molama,2010-08-07T22:29Z,"DON`T DOWNLOAD
+
+this is pure shit trust me!"
+,krumbak,2010-08-10T20:55Z,The audio is Chinese or something. The movie however is real 3D.
+,DoctorVrach,2010-08-11T18:46Z,10% in one day. 小omplete disappointment!
+,AgentHitman,2010-08-17T00:44Z,Yes it's disappointment because many of seeders limits the upload!
+,AgentHitman,2010-08-21T22:39Z,"Fuck this shit!Thx uploader!""Need to watch 3D device: the simplest is the red and blue glasses""      BULLSHIT!!!"
+,L4m4,2010-08-22T21:56Z,Awsome with Nvidia 3D! Best 3D content I have ever yet. But the audio is in some asian language. Does anyone know what it takes to change the sound in a MKV file?
+,krumbak,2010-08-25T11:11Z,You could remux the video with an english dts track. But since this movie is 30fps you have to find an english dts trrack from a 30fps movie and not 24fps i guess
+,bartdotnet,2010-09-06T07:10Z,"Here are the programs needed:
+
+MKVmerge
+Stereoscopic Player
+ffdshow
+MKVextract / VirtualDub (Optional)
+
+1.) First off, do you already have a copy of Avatar?
+If so, you can demux the audio from it and save some bandwidth.
+The DTS English track posted above is from the Blu-ray with a runtime of 2:41:41.
+If you use a track from a PAL source you'll have to adjust the timings.
+
+Use MKVextract or VirtualDub to demux the audio.
+MKVextract (.mkv) (resave your .avi with MKVmerge)
+VirtualDub (.avi/mkv)
+
+2.) Now that you have all your files, open MKVmerge.
+- Drag in order the .mkv file, then the .dts file and finally the .srt file into the top window.
+- Uncheck the AC3 Mandarin track.
+- Select the DTS English DTS track and set language to English and default track to Yes.
+with the English track still selected tab over to Format specific options. Put -950 into the delay window.
+- Select the AVC video track and tab over to Format specific options. Put 23.999/23.976 into the stretch window.
+- Select the English srt file and set language to English and default track to Yes.
+- Change the output file name to Avatar.2009.3D.Stereoscopic.CAM.720p.AVC.DTS-YZX.mkv and click start muxing.
+
+http://img143.imageshack.us/img143/9319/guide01.jpg
+
+http://img36.imageshack.us/img36/7171/guide02.jpg
+
+http://img24.imageshack.us/img24/1684/guide03.jpg
+
+3.) Install Stereoscopic Player and follow this guide to enable subtitles.
+
+4.) Open Stereoscopic Player and drag in Avatar. Set your layout as Over/Under, Left Image Top.
+Under View, select your viewing method. These are my recommended setting for anaglyph.
+- Red / Cyan (Optimized Anaglyph)
+- Yellow / Blue (Color Anaglyph)
+- Green / Magenta (Half Color Angalyph)
+
+Enjoy
+
+here's the english audio track of avatar
+
+http://sharethefiles.com/forum/viewtopic.php?f=136&t=168888"
+,atnas1010,2010-09-17T18:16Z,"3d is real!
+Hardcoded asian subs on the Na'vi parts
+Asian audio"
+,stinger666,2010-11-05T05:25Z,Can you watch it via HDMI on 3DTV?
+,Aimar55555,2010-12-23T17:20Z,"When you use vlc-mediaplayer on a MKV file (like this on) it will be easy to switch to English audio by simpelly clicking on the audio-tab and selecting the audio-track (if english is included). You could also try with other players, what you have to keep in mind is that MKV-files some times are multi-language.(languages are internal)
+
+When english is not included you will have to rip the video and copy past audio-shit into the file, what I think is just too much effort.
+
+I'm kinda wondering if this works with the red/blue-glasses. It would be nice if the seeders could answer my question.
+
+I'm just a kid from the Netherlands thence the bad English."
+,i4gotmy_sn,2011-02-11T23:04Z,"@Aimar55555
+
+If and when I finish DL'ing this, I'll let you know. All I have the option for right now is stereoscopic. Hopefully, all that it requires are the red/cyan glasses, b/c I'm not about to spend $100-$150 per pair for the shutter, battery-powered kind.
+
+- Onyx"
+,VishnuNJ,2011-04-11T17:00Z,"Its works perfectly with any of the 3d glasses available, except for glasses you get from movie theater.. (if u have a 3D projector u can use that glass too)
+
+Pirate search ""stereoscopic player"" for this purpose.. 
+See options in the player if u have any doubt... "
+,scotpilgr,2011-05-08T06:17Z,PLEASE SEED. I have cancer and it is my dying wish to see this movie in 3D. It is out of theatres. Please help me fulfil my dying wish. PLEASE SEED! Thank you.
+,piku87,2011-08-10T03:59Z,"hello everybody. can somebody pls post the link for english audio for this torrent. previously given link is not working.
+this is with asian audio. but it  is a real 3d video.
+thanks"
+,piku87,2011-08-10T04:00Z,"hi bartdotnet pls post the link for english audio and subs.
+thanks in advance"
+,stevenlakham,2011-10-02T10:32Z,"Hi      
+
+can u tell me how to create the 3d analgraph movies?"

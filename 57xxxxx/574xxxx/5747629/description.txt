@@ -1,0 +1,70 @@
+PLATYPUX V5 LINUX ~ July 29th, 2010 
+
+------------------------------------------------------------------
+------------------------------------------------------------------
+
+What is PLATYPUX ? :
+
+Platypux is a french Linux distribution which allows you to take your works everywhere.
+
+    * Easy to use : Thanks to the window manager Openbox, you will be at ease with your system environnement
+    * Multi-plateform : on PCs, laptops, external hard disk or USB keys (easy installation on RAID 0 available !!).
+    * Adapt it for your needs : You will get THE system which corresponds YOU by customizing the PLATYPUX DVD.
+    * Free : Free to use, only based in free softwares
+    * A lot of tools installed by default : OpenOffice, Gimp, Inkscape, Xsane, Firefox, Pidgin, OpenShot, FileZilla, Peazip, JavaMPlayer... to listen to music, navigate on the Web...
+    * 3D acceleration available: NVIDIA with proprietaries drivers , ATI with open-sources drivers only...
+    * Kernel sources (2.6.33 version) available :to compile an "exotic" module. It works with UDEV AND WITHOUT HAL
+
+Why this name ??!! PLATYPUX is an assembly of word "Tux" (LINUX mascot) and Platypus.
+
+The bizarre appearance of this egg-laying, venomous, duck-billed, beaver-tailed, otter-footed mammal baffled European naturalists when they first encountered it, with some considering it an elaborate fraud. It is one of the few venomous mammals; the male Platypus has a spur on the hind foot that delivers a venom capable of causing severe pain to humans(Wikipedia)
+
+Why PLATYPUX so? With sources of LFS, BLFS, AUFS ..., and GMOs parts of some "penguins" and others, we have made a perfect GMO : a platypus ;)
+
+Somes softwares of PLATYPUX V5 :
+alsa-lib : 1.0.22
+bash : 4.1.2
+cmake : 2.8.1
+cups : 1.4.3
+dhcpcd : 5.2.2
+firefox : 3.6.3 (3.6.6 version available in LZM package)
+freetype2 : 10.0.4
+gcc : 4.4.3
+gem : 1.3.1
+gimp : 2.6.8
+glibc : 2.11.1
+gtk+ : 2.19.7
+inkscape : 0.47
+jdk : 1.6.0_19
+libgnome : 2.30.0
+linux : 2.6.33
+mono : v20100410
+NVIDIA : available in optional LZM directory after installation
+OpenBox : 3.4.11
+OpenOffice : 3.2.0
+openssh : 5.4p1
+openssl : 0.9.8m
+perl : 5.10.1
+pidgin : 2.6.6
+python : 2.6.5
+Qt : sdk-2010.02
+ruby : 1.9.1p376
+samba : 3.5.1
+sane : 1.0.20
+scons : 1.3.0
+udev : 151
+vim : 7.2
+xorg-server : 1.7.6 
+
+------------------------------------------------------------------
+------------------------------------------------------------------
+
+The password of root is root. Don't forget to change it with "passwd" command...
+
+MD5SUM: 55e871208ede424441b1b8cec7a1a8ed
+
+ 
+http://platypux.olympe-network.com/index_en.html
+
+------------------------------------------------------------------
+------------------------------------------------------------------

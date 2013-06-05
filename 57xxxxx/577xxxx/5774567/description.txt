@@ -1,0 +1,16 @@
+Korona is a live DVD that makes it easy to peek at the current state of porting KDE4 to OpenSolaris. It's created by adding the packages of the KDE-Solaris project on top of a regular OpenSolaris image. Apart from setting KDE as default, there are no other customizations. 
+
+Monday, August 16, 2010
+KDE 4.5.0 & Korona for OpenSolaris
+The latest and greatest stable release of KDE4 is again available as IPS binary packages at the usual place (and the usual mirror in case you hit problems downloading).
+Since 4.4.5, many improvements were done in terms of packaging correctness (dependencies, linking), thanks to hnhn's adaptation of alanc's check-deps script.
+Also Qt was updated to 4.6.3, Amarok to 2.3.1, Koffice to 2.2.1, as well as few other KDE dependencies.
+Last but not least, kdel10n-* packages are present, providing support for 55 languages.
+The upstream changes are best described in the KDE 4.5.0 announcement.
+The showcase of the kde-solaris project, Korona 4.5.0, combining the powers of the late OpenSolaris b134 and KDE 4.5.0 has just been uploaded and should become available in a few hours at http://genunix.org. As a small improvement, the nepomuk stuff is disabled there and akonadi appetite has been minimized. I had to do this otherwise desktop metadata would fill the $HOME, which lead to crashes. (Note that konversation was unintentionally ommited from the live cd, sorry.)
+
+Read more : 
+http://blog.hajma.cz/2010/08/kde-450-korona-for-opensolaris.html 
+http://techbase.kde.org/Projects/KDE_on_Solaris/OpenSolaris/Korona
+
+md5sum : 00e6e1aabf7350e583e7b0f19e26abbf  Korona4.5.0.iso

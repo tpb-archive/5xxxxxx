@@ -1,0 +1,17 @@
+Redes de computadores es un libro que forma parte del mÃ¡ster en software libre de la Universitat Oberta de Catalunya que ofrece una visiÃ³n de las redes informÃ¡ticas en general y de la red Internet en particular.
+En la primera parte, se introducen las ideas y los conceptos bÃ¡sicos de las redes de ordenadores. Siguiendo un hilo histÃ³rico, se presentan los diferentes mecanismos que se han utilizado y se utilizan para comunicarse a distancia. TambiÃ©n se abordan el concepto de arquitectura de protocolos, fundamental en sistemas distribuidos, y el modelo de referencia OSI como un ejemplo paradigmÃ¡tico de ello. Aunque hoy en dÃ­a este modelo no disfruta de una gran popularidad, sus virtudes pedagÃ³gicas estÃ¡n mÃ¡s que demostradas: a partir de Ã©l es fÃ¡cil estudiar y entender otras arquitecturas, como la arquitectura Internet que conforma la columna vertebral del libro.
+La segunda parte del libro estÃ¡ dedicada al estudio de las redes de Ã¡rea local. Se presentan de forma descriptiva los diferentes tipos de redes que existen, las ideas bÃ¡sicas de su funcionamiento y la nociÃ³n de cableado estructurado, clave en el gran auge que han tenido Ãºltimamente las redes de Ã¡rea local.
+En la tercera parte se presentan los fundamentos de la red Internet. En concreto, se describe el protocolo IP y sus mÃ¡s inmediatos colaboradores (ARP y ICMP), asÃ­ como distintos mecanismos de acceso a Internet disponibles: a travÃ©s de una red de Ã¡rea local o un enlace telefÃ³nico, ya sea mediante PPP y un mÃ³dem tradicional o, mÃ¡s recientemente, mediante ADSL.
+En la cuarta parte, se describen los protocolos de aplicaciÃ³n mÃ¡s utilizados actualmente en Internet y los programas mÃ¡s habituales que los implementan, como son la conexiÃ³n remota (telnet, rlogin), la transferencia de archivos (FTP), el correo electrÃ³nico (SMTP, POP, IMAP), las news (NNTP), el WWW (HTTP) y la mensajerÃ­a instantÃ¡nea.
+Objetivos:
+1. Conocer los antecedentes histÃ³ricos de las redes de computadoras.
+2. Conocer la arquitectura de protocolos de las redes de computadoras.
+3. Identificar los elementos bÃ¡sicos de las redes de Ã¡rea local.
+4. Conocer el funcionamiento de los protocolos de las redes TCP/IP.
+5. Conocer el modelo de aplicaciones cliente/servidor, el modelo peer-to-peer, y las aplicaciones Internet mÃ¡s relevantes.
+Autor: JosÃ© MarÃ­a BarcelÃ³ Ordinas, Jordi ÃÃ±igo Griera, RamÃ³n MartÃ­ EscalÃ©, Enric Peig OlivÃ©, Xavier Perramon Tornil
+CapÃ­tulo 1: IntroducciÃ³n a las redes de computadoras
+CapÃ­tulo 2: Redes de Ã¡rea local
+CapÃ­tulo 3: TCP/IP
+CapÃ­tulo 4: Aplicaciones Internet
+

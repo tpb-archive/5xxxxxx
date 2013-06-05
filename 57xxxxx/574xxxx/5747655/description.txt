@@ -1,0 +1,63 @@
+##############       Shanghai Knights (2003)         #####################
+
+               http://www.imdb.com/title/tt0300471/
+
+      Action | Adventure | Comedy | Western | Jackie Chan | Owen Wilson
+
+
+Format                           : Matroska
+File size                        : 2.84 GiB
+Duration                         : 18h 14mn
+Overall bit rate                 : 3600 Kbps
+
+Video
+Format                           : AVC
+Nominal bit rate                 : 2 800 Kbps
+Display aspect ratio             : 1 280 x 544 (2.35:1)
+Frame rate                       : 23.976 fps
+Writing library                  : x264 core 88
+Encoding settings                : cabac=1 / ref=6 / deblock=1:-1:-1/ subme=9 / psy=1 / 
+me_range=48 / chroma_me=1 / trellis=2 / 8x8dct=1 / threads=6 / bframes=6 /
+ b_pyramid=2 / b_adapt=2 / rc=2pass / mbtree=1 / bitrate=2800 / 
+
+Audio English  DTS 755 KB/s
+
+Subtitles: English, Arabic, Czech, Danish, Dutch, Finnish, French, German, Hebrew, Italian
+Polish, Portuguese, Romanian, Russian, Serbian, Slovenian, Spanish, Swedish, Turkish
+
+Sample: 17.2 MB, multisub
+
+
+                   
+
+SNAP SHOTS         
+
+                   
+
+#####################################################################
+Subtitles show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+If the subs are muxed in mkv download & use MKVextractGUI to extract(demux) the subtitles from mkv, and mkvmerge GUI to mux back the edited/repaired sub in the mkv.
+Download Notepad++ (free)  from    http://sourceforge.net/projects/notepad-plus/ 
+The sub you demuxed from mkv Open and save as...ANSI !(Important!)
+Right click on the sub, Open with nppIExplorerShell.exe (Notepad++ exe)
+click Encoding(upper part menu)Character sets and chose the language ISO.
+Click again on Encoding then click on Convert to UTF-8 or Unicode Big Indian, save as...srt. 
+You're done with the encoding, now you can mux it back in the mkv with mkvmergeGUI.
+
+#####################################################################
+Those with Win 7 64 bit might have issues with playing back secondary or external audios & subs.
+If k-lite pack(too complicated) not working try CCCP 
+(  http://www.cccp-project.net/  ) 
+based on the same player (Media Player Classic).
+
+#####################################################################
+
+If DTS is not good for you convert to AC3 without extracting the Audio Track in a few minutes with PopCorn MKV AudioConverter;
+http://www.videohelp.com/tools/PopCorn_MKV_AudioConverter
+ Don't convert it to lower then 448 KB/s. 
+
+#####################################################################
+
+ All my torrents are seeded. I regularly check back my older torrents and I will reseed where needed.
+Most of us want only the English (usually) Audio so I got the secondary tracks separately (demuxed).

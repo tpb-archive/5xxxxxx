@@ -1,0 +1,20 @@
+Thursday, August 26, 2010
+SuperSeed Testing 
+SuperSeed Testing 
+I dabble in research, as some might have noticed. One of the things I'm testing at present is 'superseed' or 'initial seeding' feature of many clients. To do that, I'm going to need your help.
+
+I need peers for the swarm.
+
+Now, I'm using a 60Mb file courtesy of TorrentFreak.tv, and will be testing 18 clients. That means you'll need around 1100Mb free for the tests. It will also be a load-it-and-leave-it test. You load the torrent, leave your default settings, and we'll run from there. There's just one rule - please, no seedboxes. In fact, nothing faster than a 5Mbit upload please. When you can upload so much faster than me, it means you can send around every piece you get, to a dozen or more peers, faster than I can upload the next piece, and it renders the test ineffective.If you do want to participate, and have a fast upload, PLEASE can you limit each torrent to 1Mbit upload. That will also prevent it from impacting any other activity you're doing. 
+
+So just load the 15 torrents, point them at some empty space, and leave them be. I'll be running them one by one, and watching the swarm. There will also be a few 'control' ones, where the client is run normally, for comparison.
+
+The two things I'm looking at are
+How much of a distributed copy is out there when I've uploaded the same amount of data as the torrent (ie if the torrent is 60Mb of data, how many distributed copies are there when I've uploaded 60Mb)
+how much data I have to upload to get a single distributed copy.
+
+These two together make up a measure of how effective the superseed/initial seed system is.
+
+I'll update this shortly, when the torrents are all collected. and ready to download. The results will be updated on this Google Doc
+ 
+https://spreadsheets.google.com/ccc?key=0Al2HZ_VI9yc_dE8tSzQ2b1ZzQWt2OHg1S2ZGekRVZGc&hl=en&authkey=COTMnL4G

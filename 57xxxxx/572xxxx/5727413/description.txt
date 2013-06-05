@@ -1,0 +1,15 @@
+The updated version also contains the following other changes:
+
+Safety improvement: Running the Clean and Fix my computer or File Cleaner with the safest 
+
+scan option will no longer list any files relating to Windows, nor any DLL or other 
+
+executable files.
+Bug fix: The Status Bar of Star Menu Tool does not correctly show the number of items on the 
+
+list.
+Bug fix: The File Finder doesn't find all the possible files when performing a search based 
+
+on a wild card search pattern such as "Foobar*".
+Bug fix: The program can crash to "List index out of bounds".
+This build contains updated translations to many languages and one new translation: Spanish

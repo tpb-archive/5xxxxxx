@@ -1,0 +1,45 @@
+release date: 2010-08-21      supplier: TEAM BLZ
+disks: 1                cracker: TEAM BLZ
+protection: Registration          os: WinALL
+
+RELEASE INFO
+
+Opti Drive Control is a test and benchmark utility for optical
+drives. It can be used to verify the performance, quality and
+reliability of the burn and read functions of optical drives and
+discs. Test results can be saved as a HTML report and the graphs
+can be exported to CSV which allows for detailed analysis with
+spreadsheets. With the multi-test feature all functions can be
+run and saved without user intervention.
+
+Key features...
+
+- Support for CD, DVD and BD drives/media
+- Read / write transfer rate
+- Create test disc / verify function
+- Detailed drive information
+- Detailed disc information
+- Disc quality tests: BLER, PI/PO, C1/C2, Jitter ()
+- FE / TE test ()
+- Erase / format
+- Overburning
+- Multi-test
+- Enhanced save functions
+- CSV export of graphs
+() not all drives support these functions
+
+Changes in Opti Drive Control 1.49:
+
+- Transfer rate: Added support for DVD-R DL LJR discs
+- Transfer rate: Layer break is shown on graph
+- Create disc: Improved detection of disc capacity
+- Verify disc: Improved sequential verify
+- Bug fix: Under some conditions read speed was set to the
+lowest value
+
+INSTALL INFO
+
+Run OPTIDRIVECONTROL149.EXE and follow instructions.
+
+Copy B-ODC149-PATCH.EXE to your installed folder and run it from
+there.

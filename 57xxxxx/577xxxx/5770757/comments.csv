@@ -1,0 +1,23 @@
+User Type,Username,Date,Text
+[T],FatFreddy69,2010-08-19T02:53Z,"If you mean Subtitles for the Deaf and Hard of hearing, most European blue-rays have those as well.
+I prefer SDH then the regular; for instance a known tune is played then you're angry with yourself that can't remember who's the composer then here comes SDH saying...""Soft tune by Chopin..."" or ""Salsa""  or what ever ;-) I love SDH-s.
+You're welcome."
+,boonlert55,2010-08-20T07:33Z,"I cannot play this movie ,it clash in 2 minute.
+Sorry for my English. "
+[T],FatFreddy69,2010-09-10T12:51Z,"Ripped from an old rented disc and the disc probably had a scratch between 2min22s - 2min55s. 
+It's in the video, not in DTS.
+It can happen. This is the first time it happened with me. Sorry about it.
+Just ignore those 30 seconds. C'est la vie"
+[T],FatFreddy69,2010-09-10T22:42Z,"If you'd like to remux(mux in your Audio...) do the following: 
+
+Drop the mkv and your Audio Track in mkvmerge.
+Click Global/check Enable Splitting & check ...after timecodes
+
+Copy/paste in...after timecodes:
+00:02:16,00:02:56
+
+ Start muxing. When finished you get 3 files. Now click File/New on mkvmerge, drop the first splited file, click append(right from input files)  and chose the third splited file then Start muxing.
+I've done it, muxrd in the Spanish Audio, it worked."
+,shinobiung,2011-12-09T11:22Z,"such a shame, it does indeed have a glitch at 2:22 causing the bitrate to freeze, which means your player and your movie stops. so you have to skip forward, not possible if your playing via USB TV or on a console.
+
+FAIL"

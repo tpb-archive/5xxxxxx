@@ -1,0 +1,289 @@
+Title:  	Microsoft SQL Server Development
+Category: 	Development & Programming
+Presenter: 	Paul Nielsen
+Paul Nielsen believes SQL is the romance language of data. As such he's a hands-on database developer, Microsoft SQL Server MVP, trainer, and author of many books including SQL Server 2005 Bible. As a data architect, he developed the concepts of Optimization Theory and Nordic - an O/R dbms for SQL Server, and writes the data architecture column for SQL Standard magazine. Paul supports the SQL community as the Director of Global Community Development with the PASS (Professional Association for SQL Server). You may have seen Paul speaking at a PASS Summit, SQL Open in Denmark, or SQL Teach in Montreal. His website is www.SQLServerBible.com.
+Platform: 	Windows
+Format: 	DVD-ROM & Online
+Running Time: 	8 Hrs, 2 DVD
+Level: 	Beginner to Advanced
+Project Files: 	Included
+Solutions: 	Multi-User   Education   Government   International   More
+Description: 	Total Training for Microsoft SQL Server Development takes you inside the latest, coolest, and most powerful database software platform, Microsoft's SQL Server 2005. The tutorials focus on key elements in a logical sequence. You can easily find what you need-including all the SQL Server 2005 basics, best practices, dozens of targeted examples, and sample code. If you design or develop SQL Server 2005 databases, this video series is what you need to succeed!
+
+Highlights
+
+    * Master the fundamentals of SQL Server technology.
+    * Learn how to write better queries to return the exact data required.
+    * Avoid slow iterative code by refactoring cursors into queries using user-defined functions and case expressions.
+    * Develop stored procedures using T-SQL.
+    * Understand how transactions affect performance, how to detect blocking transactions, and how to minimize the impact of locking and blocking.
+    * Create triggers to build custom audit trails and enforce database rules.
+
+
+
+
+Free Tutorial 1
+
+Free Tutorial 2
+
+Play Quick Time clip
+Free Sample Training
+View samples traing tutoorials from a large list of topics. We are confident that you're going to love our online training courses.
+
+View Free Sample Tutorials
+QuickTime Get the latest QuickTime Player
+Download the free player
+Windows Media Player Get the latest Windows Media Player
+Download the free player
+Product Family
+
+	
+	ASP.NET AJAX
+Â» More Details
+	
+	ASP.NET 2.0
+Building Web Applications (Set 1)
+Â» More Details
+	
+	ASP.NET 2.0
+Building Web Applications (Set 2)
+Â» More Details
+	
+	
+	Visual Studio 2005
+Productivity with .NET Framework 2.0
+Â» More Details
+	
+	Visual Studio 2008
+Essentials - Featuring Windows Forms
+Â» More Details
+Â» View All Microsoft Products
+	Bundles
+Available Microsoft Bundles
+	
+	Microsoft ASP.NET 2.0
+Building Web Applications Bundle
+Â» More Details
+	
+	Microsoft Expression Studio Bundle
+Â» More Details
+	Microsoft Expression Studio2: Essentials Bundle
+Â» More Details
+	Microsoft Office 2007 Bundle
+Â» More Details
+Â» View All Bundles
+
+
+
+DISC1:
+
+
+PART 1: Introduction to SQL Server 2005
+
+Chapter 1: SQL SERVER OVERVIEW (32 min)
+1. Understanding Client Server Architecture
+2. Introducing the Tools
+3. Selecting an Edition
+4. Creating Sample Databases
+
+Chapter 2: USING MANAGEMENT STUDIO (23 min)
+1. Arranging the Workspace
+2. Registering Servers
+3. Explaining Items in the Object Explorer
+4. Explaining the Database Properties Dialog
+5. Explaining the Columns Properties Dialog
+6. Continuing with Object Explorer Items
+7. Using the Query Editor
+
+Chapter 3: DESIGNING RELATIONAL DATABASES (35 min)
+1. Understanding Normalization
+2. Discovering Patterns
+3. Avoiding Over Complexity
+4. Managing Optional Data
+5. Creating Physical Keys
+6. Using the Database Diagrammer Tool
+7. Final Comments
+
+Part 2: Selecting Data
+
+Chapter 1: WORKING WITH SINGLE TABLE QUERIES (42 min)
+1. Understanding Query Flow
+2. Filtering Data with the Where Clause
+3. Columns, Expressions & Scalar Functions
+4. Using Case Expressions
+5. Working with Nulls & Coalesce
+6. Selecting Environment Functions
+7. Working with Dates & Times
+8. Parsing Strings
+9. Converting Data
+10. Sorting Data
+11. Topping Off the Query with Predicates
+
+Chapter 2: MERGING DATA WITH JOINS & UNIONS (25 min)
+1. Working with Inner Joins
+2. Using Left Outer Joins
+3. Multiplying Data with Cross Joins
+4. Referencing Self-Joins
+5. Working with Complex Joins
+6. Finding the Set Difference
+7. Stacking Data with Unions
+
+Chapter 3: WORKING WITH SUBQUERIES (19 min)
+1. Using Subqueries as Expressions
+2. Including Subqueries as Lists
+3. Adding Subqueries as Derived Tables
+4. Working with Correlated Subqueries
+5. Solving for X with Relations Division
+
+Chapter 4: AGGREGATING DATA (35 min)
+1. Using the New Windowing Functions
+2. Using Aggregate Functions
+3. Grouping a Data Set
+4. Nesting Aggregations
+5. Filtering Groups & Adding Grand Totals
+6. Generating Cross Tab Tables (Pivot)
+7. Calculating Cumulative Sums
+
+Chapter 5: USING FULL-TEXT SEARCH (14 min)
+1. Creating a Full-Text Index
+2. Searching for Words
+3. Using a Fuzzy Search to Search for Phrases
+
+Chapter 6: SELECTING DATA THROUGH VIEWS (11 min)
+1. Creating Views
+2. Preventing Disappearing Rows
+3. Protecting from Schema Changes
+4. Nesting Views
+
+Chapter 7: DISTRIBUTED QUERIES (18 min)
+1. Linking to External Data Sources
+2. Executing Distributed Queries
+3. Looking at Where the Work Takes Place
+4. Using Pass Through Queries
+5. Controlling Distributed Transactions
+
+Chapter 8: MODIFYING DATA (29 min)
+1. Inserting Data
+2. Updating Data
+3. Deleting Data
+4. Using the Output Clause
+5. Final Comments & Credits
+
+PART 3: Developing Solutions
+
+Chapter 1: T-SQL & STORED PROCEDURES (68 min)
+1. Introducing T-SQL
+2. Working with Variables
+3. Controlling Procedural Flow
+4. Examining SQL Server with Code
+5. Using Temp Tables
+6. Developing Dynamic SQL
+7. Introducing Stored Procedures
+8. Passing Parameters
+9. Returning Parameters
+10. Working with a Cursor
+11. Handling Errors
+12. Explaining the Raise Error
+13. Controlling Transactions
+
+Chapter 2: TRIGGERS & AUDIT TRAILS (31 min)
+1. Introducing After Triggers
+2. Using "Instead of" Trigger
+3. Disabling Triggers
+4. Using the Update ( ) Function
+5. Selecting Transaction Data
+6. Nesting & Recursion
+7. Enforcing Complex RI
+8. Auditing Data Changes
+
+Chapter 3: USER-DEFINED FUNCTIONS (27 min)
+1. Creating Scalar Functions
+2. Working with Inline Table-Valued Functions
+3. Using Multi-Statement Table-Valued UDFs
+4. Navigating a Hierarchy
+5. Having Fun with Apply
+6. Exploring Functions in Nordic
+
+Chapter 4: INDEXING FOR PERFORMANCE (32 min)
+1. Introducing Indexes
+2. Creating Indexes
+3. Examinging Query Execution Plans, Pt. 1
+4. Examinging Query Execution Plans, Pt. 2
+
+Chapter 5: TRANSACTIONS, LOCKING & BLOCKING (33 min)
+1. Introducing ACID
+2. Understanding Transactional Faults
+3. Stepping through a Transaction
+4. Exploring Locks
+5. Working with Locks
+6. Viewing Deadlocks
+7. Using Snapshot Isolation
+
+Chapter 6: INTRODUCTION TO OPTIMIZATION THEORY (22 min)
+1. Deconstructing the Database System
+2. Walking through Optimization Theory
+3. Optimization Theory Continued
+4. Final Comments & Credits
+
+
+
+
+DISC2:
+
+
+
+PART 3: Developing Solutions
+
+Chapter 1: T-SQL & STORED PROCEDURES (68 min)
+1. Introducing T-SQL
+2. Working with Variables
+3. Controlling Procedural Flow
+4. Examining SQL Server with Code
+5. Using Temp Tables
+6. Developing Dynamic SQL
+7. Introducing Stored Procedures
+8. Passing Parameters
+9. Returning Parameters
+10. Working with a Cursor
+11. Handling Errors
+12. Explaining the Raise Error
+13. Controlling Transactions
+
+Chapter 2: TRIGGERS & AUDIT TRAILS (31 min)
+1. Introducing After Triggers
+2. Using "Instead of" Trigger
+3. Disabling Triggers
+4. Using the Update ( ) Function
+5. Selecting Transaction Data
+6. Nesting & Recursion
+7. Enforcing Complex RI
+8. Auditing Data Changes
+
+Chapter 3: USER-DEFINED FUNCTIONS (27 min)
+1. Creating Scalar Functions
+2. Working with Inline Table-Valued Functions
+3. Using Multi-Statement Table-Valued UDFs
+4. Navigating a Hierarchy
+5. Having Fun with Apply
+6. Exploring Functions in Nordic
+
+Chapter 4: INDEXING FOR PERFORMANCE (32 min)
+1. Introducing Indexes
+2. Creating Indexes
+3. Examinging Query Execution Plans, Pt. 1
+4. Examinging Query Execution Plans, Pt. 2
+
+Chapter 5: TRANSACTIONS, LOCKING & BLOCKING (33 min)
+1. Introducing ACID
+2. Understanding Transactional Faults
+3. Stepping through a Transaction
+4. Exploring Locks
+5. Working with Locks
+6. Viewing Deadlocks
+7. Using Snapshot Isolation
+
+Chapter 6: INTRODUCTION TO OPTIMIZATION THEORY (22 min)
+1. Deconstructing the Database System
+2. Walking through Optimization Theory
+3. Optimization Theory Continued
+4. Final Comments & Credits 

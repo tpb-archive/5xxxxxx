@@ -1,0 +1,1116 @@
+User Type,Username,Date,Text
+,j8k3y-b01,2010-08-27T23:40Z,I cant login? Help please
+,Botuts,2010-08-28T00:03Z,How do you play without premium account?
+,torrentine1,2010-08-28T00:50Z,Which OS are you using?
+,torrentine1,2010-08-28T00:52Z,"Put the .minecraft (rename the .minecraft folder to minecraft for Mac OS X) folder in one of these folders, depending on which OS you have.
+XP: Documents and Settings\$USER$\Application Data
+Vista: Users\$USER$\AppData\Roaming
+Mac OS X: /Users//Library/Application Support/
+Linux: /home/USERNAME/
+
+The minecraft.exe/minecraft.app*/minecraft.jar can go anywhere.
+
+Run the minecraft.exe/minecraft.app/minecraft.jar and click login without entering in any info.
+The game will say ""Login failed."" then click Play offline."
+,NanoEntity1,2010-08-28T02:21Z,"This is kind of useless, because its in EXE format, good for a newbie to mess around with though.
+
+Next time release it in JAR format the server and mine craft.
+
+Because you can edit them and add add-ons/mods, this is kind of bad lol.
+
+Your pretty much stuck with the lame features, cant add anything that is on minecraft forums."
+,Dietrever,2010-08-28T02:42Z,"the problem is that you need to play online first to play offline, so, no chance"
+,j8k3y-b01,2010-08-28T03:28Z,"@torrentine1
+
+Thanks bro, works great, just needed to move that folder into where you said, load up the game and dont type anything in login, it will say failed, then click play offline, simples :D"
+,j8k3y-b01,2010-08-28T03:54Z,Why is it always snowing though?
+,j8k3y-b01,2010-08-28T03:57Z,"Ah dont worry, i know now :')"
+,GeneralDollin,2010-08-28T05:39Z,what about win 7!
+,fanatic49,2010-08-28T06:43Z,Can you play multiplayer with this?
+,Gooxgoox,2010-08-28T09:38Z,"I cannot click play offline, it says i need to play once online to play offline. Please help!"
+,L1thium,2010-08-28T12:13Z,Thanks for the torrent! Works fine.
+,achilles511,2010-08-28T13:51Z,"@torrentine1
+Where do you place .minecraft in windows 7?"
+,ReaperOne1Two2,2010-08-28T13:56Z,"Host of torrent if you would add my instruction to the discription it would be great. I'm putting down steps to install the game AND play multiplayer.
+
+__________________________________________
+                            Instructions
+__________________________________________
+
+1) First Make sure you downloaded the correct launcher for your system along with the server files and .minecraft.
+
+2) Drag your .exe file to your desktop or .jar depending on what system your on.
+
+3) Next drag your server folder to your desktop(The entire folder not just one the one file or else it will spam your desktop with files) This step can be ignored if you have no plans to ever host.
+
+4) Now for the .minecraft folder. If you don't get a play offline button when failing to log in this is where you messed up like so many of you posted. Open run from Start->All Programs-> Accessories and type in %appdata% and drag your .minecraft folder into here.(Yes the whole folder)
+
+5)Now run your .exe to see if your window pops up asking for a login name just hit login then play offline.(Your done right now if you have no interest to play online).
+
+6) Now for online play. Your server must be in lan so you will need to use hamachi etc.. Run the exe inside the server folder atleast once then close it.(Ignore this step if your not hosting ever)
+"
+,ReaperOne1Two2,2010-08-28T14:08Z,"7) Activate lan server. Inside the server folder you ran the serverfile in atleast once you have many new files. One file is called server and it's a PROPERTIES File.
+Open this with notepad(If you really cant find out which file this is open both in notepad. *Hint* It's the One that doesn't already open in notepad). This can be done by right clicking going to properties and clicking change.
+
+8) Now for the part where you actually get the client to connect to the server with multiple people without kicking them out. Everyone by default is named Player by default
+and no duplicate names are allowed. You will need a memory ediot of some sort.(Not allowed to put this part probably but dl this one) www.softcows/com/memory_editor_faqs.htm.
+
+9) After the memory editor is installed open the game and goto the multiplayer connection screen but don't connect. Now open the memory editor and put the Search value
+as player and data type as string. You'll get quite a few results but you want to edit the only one that is Value=Player and Type=WideString.Right click edit and connect to lan server of your choice. The name must be 6 letters or less and if it's less add spaces."
+,ReaperOne1Two2,2010-08-28T14:30Z,"7) Activate lan server. Inside the server folder you ran the serverfile in atleast once you have many new files. One file is called server and it's a PROPERTIES File.
+Open this with notepad(If you really cant find out which file this is open both in notepad. *Hint* It's the One that doesn't already open in notepad). This can be done by right clicking going to properties and clicking change.
+
+8) Now for the part where you actually get the client to connect to the server with multiple people without kicking them out. Everyone by default is named Player by default
+and no duplicate names are allowed. You will need a memory ediot of some sort.(Not allowed to put this part probably but dl this one) www|softcows|com|memory_editor_faqs|htm.
+
+9) After the memory editor is installed open the game and goto the multiplayer connection screen but don't connect. Now open the memory editor and put the Search value
+as player and data type as string. You'll get quite a few results but you want to edit the only one that is Value=Player and Type=WideString.Right click edit and connect to lan server of your choice. The name must be 6 letters or less and if it's less add spaces."
+,dzuwno,2010-08-28T14:53Z,"Works fine with offline mode, but have problems with MP ""outdated client"" ..."
+,j8k3y-b01,2010-08-28T14:56Z,"@ReaperOne1Two2  When i run the server, then close it, there are no new files?"
+,eman101,2010-08-28T15:14Z,I get an error that says user not premium. What exactly do i have to put into the mem editor? I found the player wide string thing and theres a shitload of things.
+,eman101,2010-08-28T15:22Z,what exactly do i put when i hit edit player on the mem editor. Also i try to connect to my hamachi ip and it says im not premium
+,Hidden_driver,2010-08-28T15:23Z,THANK YOU!!!! REAPER ONE THNAK YOU 2!!!! LOVE YOU GUYS!!! THNAKS!!!
+,torrentine1,2010-08-28T16:33Z,"@achilles511
+The Windows Vista location is the same for Windows 7.
+
+@ReaperOne1Two2
+I cannot edit the torrent description, I get a page that just says Error."
+,torrentine1,2010-08-28T16:35Z,"If you cannot connect to your server, make sure the server.properties file (edit with notepad or whatever) has online-mode=false
+
+This will set it to unsecure mode which wont check the minecraft.net server for logins.
+
+If you can forward ports then you dont actually need hamachi, minecraft uses port 25565."
+,ReaperOne1Two2,2010-08-28T16:44Z,"Everyone if you get a not premium error I totally forgot to add/failed to explain something in step 7.  When you open the server file in notepad it should look like this.
+
+#Minecraft server properties
+#Tue Aug 24 04:29:03 EDT 2010
+online-mode=false
+server-ip=
+server-port=25565
+max-players=20
+level-name=world
+verify-names=false
+
+Make sure you have online-mode=false and not true. This makes sure the server is lan. Also you can connect with internet i.p's even without hamachi or a lan program for some reason.
+
+@dzuwno
+You may have not downloaded the server folder from the torrent or are launching an old one by mistake. You can get it from the main page in the download section for the newest client. The server should read version 0.1.4 when you run it at the very top line. Also make sure in game on single player it reads 1.0.17_04 in the top right.
+
+@j8k3y-b01 
+Make sure you wait for the server to fully setup. The first time it takes quite a bit at the end it should read something like 
+""[INFO] Done! For help, type ""help"" or ""?""""
+ The files should be made inside the server launchers location.
+
+@eman101
+Once you have the game open on the multiplayer screen and open the mem editor you do a search for Player and string make sure you left click on the one named Player(The only one that is a widestring) right click edit then you only change the name Player to any name 6 charcters or less(If it's less add spaces so it equals 6 charcters). The premium error solution is at the top of this post."
+,ReaperOne1Two2,2010-08-28T16:47Z,"Everyone if you get a not premium error I totally forgot to add/failed to explain something in step 7.  When you open the server file in notepad it should look like this.
+
+#Minecraft server properties
+#Tue Aug 24 04:29:03 EDT 2010
+online-mode=false
+server-ip=
+server-port=25565
+max-players=20
+level-name=world
+verify-names=false
+
+Make sure you have online-mode=false and not true. This makes sure the server is lan. Also you can connect with internet i.p's even without hamachi or a lan program for some reason.
+
+@dzuwno
+You may have not downloaded the server folder from the torrent or are launching an old one by mistake. You can get it from the main page in the download section for the newest client. The server should read version 0.1.4 when you run it at the very top line. Also make sure in game on single player it reads 1.0.17_04 in the top right.
+
+@j8k3y-b01 
+Make sure you wait for the server to fully setup. The first time it takes quite a bit at the end it should read something like 
+""[INFO] Done! For help, type ""help"" or ""?""""
+ The files should be made inside the server launchers location.
+
+@eman101
+Once you have the game open on the multiplayer screen and open the mem editor you do a search for Player and string make sure you left click on the one named Player(The only one that is a widestring) right click edit then you only change the name Player to any name 6 charcters or less(If it's less add spaces so it equals 6 charcters). The premium error solution is at the top of this post.
+
+I seem to have issues with pirate bay posting comments so sorry for double post before."
+,ReaperOne1Two2,2010-08-28T16:49Z,"Everyone if you get a not premium error I totally forgot to add/failed to explain something in step 7.  When you open the server file in notepad it should look like this.
+
+#Minecraft server properties
+#Tue Aug 24 04:29:03 EDT 2010
+online-mode=false
+server-ip=
+server-port=25565
+max-players=20
+level-name=world
+verify-names=false
+
+Make sure you have online-mode=false and not true. This makes sure the server is lan. Also you can connect with internet i.p's even without hamachi or a lan program for some reason.
+
+@dzuwno
+You may have not downloaded the server folder from the torrent or are launching an old one by mistake. You can get it from the main page in the download section for the newest client. The server should read version 0.1.4 when you run it at the very top line. Also make sure in game on single player it reads 1.0.17_04 in the top right.
+
+@j8k3y-b01 
+Make sure you wait for the server to fully setup. The first time it takes quite a bit at the end it should read something like 
+""[INFO] Done! For help, type ""help"" or ""?""""
+ The files should be made inside the server launchers location.
+
+@eman101
+Once you have the game open on the multiplayer screen and open the mem editor you do a search for Player and string make sure you left click on the one named Player(The only one that is a widestring) right click edit then you only change the name Player to any name 6 charcters or less(If it's less add spaces so it equals 6 charcters). The premium error solution is at the top of this post.
+
+@torrentine1
+I seem to have issues with pirate bay posting comments also which I click submit and it shows nothing in resembelence that a post has been made and sits there and does nothing."
+,ReaperOne1Two2,2010-08-28T16:54Z,"Everyone if you get a not premium error I totally forgot to add/failed to explain something in step 7.  When you open the server file in notepad it should look like this.
+
+#Minecraft server properties
+#Tue Aug 24 04:29:03 EDT 2010
+online-mode=false
+server-ip=
+server-port=25565
+max-players=20
+level-name=world
+verify-names=false
+
+Make sure you have online-mode=false and not true. This makes sure the server is lan. Also you can connect with internet i.p's even without hamachi or a lan program for some reason.
+
+@dzuwno
+You may have not downloaded the server folder from the torrent or are launching an old one by mistake. You can get it from the main page in the download section for the newest client. The server should read version 0.1.4 when you run it at the very top line. Also make sure in game on single player it reads 1.0.17_04 in the top right.
+
+@j8k3y-b01 
+Make sure you wait for the server to fully setup. The first time it takes quite a bit at the end it should read something like 
+""[INFO] Done! For help, type ""help"" or ""?""""
+ The files should be made inside the server launchers location.
+
+@eman101
+Once you have the game open on the multiplayer screen and open the mem editor you do a search for Player and string make sure you left click on the one named Player(The only one that is a widestring) right click edit then you only change the name Player to any name 6 charcters or less(If it's less add spaces so it equals 6 charcters). The premium error solution is at the top of this post.
+
+@torrentine1
+I seem to have issues with pirate bay posting comments also which I click submit and it shows nothing in resembelence that a post has been made and sits there and does nothing and shows up like 30 minutes later."
+,eman101,2010-08-28T17:47Z,"@Reaper
+
+when im using the mem edit. When i search it brings up a list of programs. Do i select the java client or my hamachi client?"
+,dzuwno,2010-08-28T19:32Z,"Thank you ReaperOne1Two2
+
+I have one more question 
+When i start server i have this :
+
+""[WARNING] Can't keep up ! Did the system time change, or is the server overloaded?""
+
+and my own server (when im only playing) is little laggy"
+,EnVuxiFreaK,2010-08-28T23:00Z,when I open memory editor i search player and use string but it asks me to use a program what one do I use
+,EnVuxiFreaK,2010-08-28T23:05Z,i search player with string and when i click search its asks for a program and if its java what one do i edit
+,ex1ver,2010-08-28T23:09Z,"i have a problem.
+when i press the ""play offline"" button there comes the ""mojang blablabla"" ...now the problem begins. you can see the menu just for 0.5 seconds. and then... black screen..... HELP ME!
+
+HELP ME :( "
+,wedealindreams,2010-08-29T00:14Z,"I'm using Mac 10.5
+
+I've done everything you've said to do when I launch I login without any info press work offline and then all i get is a black screen. nothing loads. I've tried the other installers and they all do the same thing.
+
+I've renamed the .minecraft folder and put it in /Users//Library/Application Support/
+
+Is there anything i'm missing or doing wrong?"
+,torrentine1,2010-08-29T00:45Z,"@wedealindreams
+Sorry I don't have a mac, so I do not know all the stuff for running it on a mac."
+,wedealindreams,2010-08-29T01:24Z,Has anyone got it working for Mac?
+,wedealindreams,2010-08-29T01:25Z,@ex1ver did you find  solution yet? I'm getting the black screen too!
+,matlon,2010-08-29T01:49Z,"i have a question where do i insert #Minecraft server properties
+#Tue Aug 24 04:29:03 EDT 2010
+online-mode=false
+server-ip=
+server-port=25565
+max-players=20
+level-name=world
+verify-names=false
+
+can you please specifically say where to insert it in the 
+
+
+2010-08-28 18:41:04 [INFO] Starting minecraft server version 0.1.4
+2010-08-28 18:41:04 [INFO] Loading properties
+2010-08-28 18:41:04 [INFO] Starting Minecraft server on *:25565
+2010-08-28 18:41:04 [INFO] Preparing level ""world""
+2010-08-28 18:41:04 [INFO] Preparing start region
+2010-08-28 18:41:04 [INFO] Done! For help, type ""help"" or ""?"""
+,matlon,2010-08-29T02:02Z,"please i need help im still having trouble with the whole play offline thing. im a major newfag and i really wanna play this game. i see the server stats and i just dont know where to put the 
+
+#Minecraft server properties
+#Tue Aug 24 04:29:03 EDT 2010
+online-mode=false
+server-ip=
+server-port=25565
+max-players=20
+level-name=world
+verify-names=false
+
+please help asap"
+,ReaperOne1Two2,2010-08-29T02:19Z,"@eman
+Sorry responded earlyier but it didn't submit. When on the game on the multiplayer screen after hitting play offline open the memory editor click Add task and add javaw.exe(It should show up when the game is open). Then you make sure the Search value is on Player and Data type is string. Then just select the only string listed as Player with Widestring to the right. Right click hit edit and change Player to anything and make sure it is equal to 6 charcters space counts. Then right click on it again and hit refresh and join a server of your choice. You can close to memory editor at this point.
+
+@dzuwno 
+That's another bug unrelated to to this. I saw it mentioned under the FAQ I think on the site or something. Just type it in google and you'll probably find it or the forums. Has something to do with the system clock I think. If it's your first time launching and connecting to the server it's loading lag due to generating the map. Look in all directions for like 5 seconds and see if that fixes it. It should go away.
+
+@ EnvuxiFreaK
+You forgot to hit add task an choose javaw.exe Check emans response for funn details.
+
+@ex1ver
+I heard someone else mention that try to run as administrator I think fixed it. That or the forums, haven't had the problem so I can't fully say. You may have somehow installed it wrong. If your on a mac nothing I can really say.
+
+@wedealindrams
+I don't have a mac eaither so I can't say. My instructions only apply to windows."
+,ReaperOne1Two2,2010-08-29T02:41Z,"@matlon 
+Those server properties are generated inside a file called server the first time your run the server.exe basically. Then you open the server file with notepad and change online-mode from true to false so it should read online-mode=false instead of online-mode=true.
+
+That only is for running a server to make it so it doesn't check if the players connecting are using a valid login. To play offline basically drag .minecraft into the folder using %appdata% in run, then running the launcher that was in a folder you downloaded. Then you just type in anything or leave it blank hit play then hit play offline.
+
+If your not hosting a server you can ignore the minecraft server properties."
+,Velstyx,2010-08-29T09:56Z,"I've had trouble with EVERY Minecraft torrent, i've only seen one other person with this problem as well
+i can get into the game fine (only singleplayer, thought i should get this sorted out before trying lan) but the only materials i can collect are meat, flowers etc.
+Please can someone help me out- i created this account just for this question."
+,HaKeRiZ,2010-08-29T12:39Z,"Hey guys, thanks for the help. But I still have some problems trying to play multiplayer. Me and my friend try to connect to my server. I did all steps, edited my name, joined the server. Everything works fine. But my friend cant join. In-game it says : Player joined the game. And I can see him floating in the air. But all my friend can see is window that says : Logging in. After few seconds he gets an error. Something to do with java. Any help?"
+,Velstyx,2010-08-29T13:22Z,"Ive tried this out on three of my PCs and none of them have worked
+My friend however, with a little guidance over msn has his working fine... Has anyone got the same problem as me and if so do they know how to fix it?"
+,toxicfired9,2010-08-29T13:40Z,I've done all the directions and when i run the server it says its in insecure mode and all that but when I go to 'login' it doesn't give me the offline button still. Username or no username. It almost seems as if the launcher isnt recognizing the server and wants to connect to the minecraft site. Any suggestions?
+,toxicfired9,2010-08-29T13:47Z,"oh wait nvm, i got it. Thanks!!"
+,omar6000,2010-08-29T13:50Z,"EVERYONE on mac has the same problem, the black screen, I've renamed the .minecraft folder, put in /Users/namehere/Library/Application Support and I've put the 'Other OS server' on my desktop along with the Minecraft launcher and I've edited the server.properties in textedit (notepad). Everything loads up fine and after clicking Login and Play offline a load screen flashes up for less than a second and then comes up with a black screen. I've checked their forums and there's nothing. This works fine on Windows."
+,ex1ver,2010-08-29T17:01Z,"I have a LITTTTTLEEE solution for the black screen after clicking play offline.
+ok you must be fast. when the mojang blabla comes click-click-click. then you will get in the game. yeah its not a very good solution but.. better then nothing."
+,ex1ver,2010-08-29T17:01Z,(click on the singleplay button i forgot :()
+,ciderzak,2010-08-29T17:27Z,"2 problems 
+
+1) whn i do the mem search i get to results called player with widestring not 1 so what do i do ?
+
+2) iv edited the propaties file perfectly yet i still get the preimium account error ? 
+
+plz help :D"
+,dzuwno,2010-08-29T17:40Z,"I can connect and play with friend but we have few problems
+
+-Furnace dont work correctly (works only to half arrow)
+
+-Pigs and other animals are on GOD MODE
+
+-Me and my friend are on GODMOD
+
+-There is no monsters
+
+HOW TO FIX it ?"
+,calvinmc5,2010-08-29T18:31Z,how can i play online? i run the server app but then i dont know the ip and is it ment to say im not a premium member?
+,calvinmc5,2010-08-29T18:33Z,"how can i play online? i run the server app but then i dont know the ip and is it ment to say im not a premium member?
+how do i fix it!!!"
+,JoinX,2010-08-29T19:08Z,"@dzuwno
+I'm having the same problem :( Are there anyone who's been able to play this as it should be?"
+,toxicfired9,2010-08-29T20:02Z,"@Omar6000
+
+Where'd you find the .minecraft folder? whenever it pops up for me its already renamed minecraft and nothings in it. And I know somethings supposed to be there for when i tried running it on windows"
+,toxicfired9,2010-08-29T21:51Z,ahhh got it. now i has black screen of death too :/
+,ex1ver,2010-08-29T22:56Z,"I have a little solution for the black screen (when you press play offline)
+ok. when the ""mojang bla bla bla"" comes 
+click-click-click dont stop clicking. when u did it right. you clicked on the SINGLE-PLAYER and world 4 button......
+
+now you can play :D enjoooy :D"
+,Thatcoolkid,2010-08-30T00:19Z,"Can some one please help me, i downloaded it and followed the instructions, placing it in the right folders and such. i press login then play offline and then the screen goes black and it closes and a little notepad file apears. i would really like to play please help me"
+,toxicfired9,2010-08-30T01:21Z,"@ex1ver
+I know what you're talking about but thats not it. The mojang doesnt come up here. Its litereally after you press play offline theres just a glimpse of a loading bar and saying somethin about update (i think) and then black. You cant click anything :/"
+,tails-4,2010-08-30T11:45Z,"@toxicfired9
+I've got the same problem on Mac......
+wtf.....
+i cant get it started!!!!!!!!!!!!!!!!! :(
+Any help????
+
+PS Great torrent :)"
+,bluemoon006,2010-08-30T13:30Z,"""fatal exception has occured. the program will now close""
+
+Windows 7 64 bit. I have followed instructions on the README file. It will not let me open the minecraft.jar folder under any circumstance and will always show this message. Any pointers?
+
+things I have already tried:
+
+-restarting
+-redownloading
+-run as admin
+-change compatibility
+-tried previous versions"
+,Chabs232,2010-08-30T15:30Z,"Peoples with those server problems, try to check all files that could contain letters in them if you open with notepad, (look for files named like... I dunno config, options, settings, whatever, with whatever file type) then try to look for those kinds of settings. Use your logic."
+,totte1127,2010-08-30T16:25Z,"I got it all to work except one thing, all of my friends and me are nicking ""player"" so we can only be one on the server each time. I have followed every step but i just cant get step 8-9."
+,FoDalite,2010-08-30T17:59Z,"ReaperOne1Two2, i have a problem with name change, i open the Quick Memory Editor (is this the right software?) when im in the multiplayer screen (with the I.P field). And what i get is 3, not 1 ""player"" values with widestring. If i try to edit them and connect to the game i'm still called player.
+
+Could you please post the ""adress"" of the correct string? "
+,samueloco,2010-08-30T18:36Z,OK DAMM.... MAAAAAC!?!? how i make it work?? i cant find d .minecraft folder D:
+,southpauw,2010-08-30T19:04Z,"yea man i cant find the .minecraft file on the mac. but i run windows 7 on my mac and i found it on there, but the point is i cant find that file on my mac. "
+,southpauw,2010-08-30T19:07Z,yea man i cant find the .minecraft file on mac either.
+,southpauw,2010-08-30T19:23Z,Sorry my internet is freaking out
+,caduck,2010-08-30T21:10Z,Where do i drop my files for ubuntu?
+,toxicfired9,2010-08-30T21:58Z,"To everyone who cant find .minecraft on mac, its a hidden file
+
+http://guides.macrumors.com/Viewing_hidden_files_on_a_Mac 
+
+this explains how to find it"
+,JoinX,2010-08-30T22:27Z,"@Chabs232
+Already done that, basically all you can change is maxplayers and the server port and wether it should be online or offline.
+
+It seems like that's the way it is right now, it's still in developement."
+,southpauw,2010-08-30T23:15Z,ToxicFire U R an Animal! I Love U! IT works!
+,southpauw,2010-08-30T23:48Z,Ha never mind i got black death screen :(
+,omar6000,2010-08-30T23:49Z,"@ex1ver i'm not sure what mojang your on about, but it flashes up as 'Done loading' for half a second and then black screens, I tried 3x constatnly clicking around the screen, where the play offline button was and near the top of the screen where the 'single-player' button might be, but nothing happens. Anyone help?"
+,southpauw,2010-08-31T00:02Z,yea im with you omar! 
+,Leetn00b,2010-08-31T00:10Z,@Velstyx i have exactly the same problem! i can only take flowers and kill animals. i cannot mine materials.. it only cracks a bit.. have you figured out a way to fix this?
+,Leetn00b,2010-08-31T00:22Z,"@Velstyx i have exactly the same problem.. cant mine any materials, just flowers and meat. have you figured out what to do? "
+,Leetn00b,2010-08-31T00:27Z,omg i am such a noob...! you have to hold down the mouse to mine.. 
+,southpauw,2010-08-31T03:09Z,what you mean leetnoob?
+,DJX3,2010-08-31T03:48Z,This torrent works just fine for me but it crashes once in a while. Can I do anything to fix this?
+,toxicfired9,2010-08-31T05:41Z,"@Tails-4
+Im stuck still. If i figure it out ill post it.
+
+@southpauw
+Did you try running the Minecraft on Windows 7 because I too have it on my Mac but when i ran it on that OS the mouse sensitivity in game would freak out. Did you experience this as well?"
+,southpauw,2010-08-31T06:39Z,"@toxicfired9 
+yea man i have window 7 to on my mac and its sensitivity flips out to, like it just spins all over! i tried to lower the sensitivity of the mouse but it didn't do anything. i went online (on my Mac) and went to minecraft.net and played minecraft in the browser, and it was just fine! but now i get the black screen of death :( "
+,southpauw,2010-08-31T06:40Z,Sorry i ment the torrent gives me the black.  but the browser is good.
+,ReaperOne1Two2,2010-08-31T16:11Z,"@ciderzak
+1) If you see anyt that says like Player*gun*hold etc... ignore those and make sure your on the multiplayer screen when doing it there should only be one that has a value of just Player with widestring.
+
+2) You didn't edit the server value to false. Check a few others asking it also on page 2.
+
+@dzuwno
+There's a few mods on the forums that have a workaround for the furnace and bucket. There's nothing that can be done about the rest till the game maker fixes it as it's just not programmed fully atm.
+
+@calvinmc5
+go to whatismyip to figure out your online ip and fully do the instructions. 
+
+@JoinX same as dzuwno nothing can be done.
+
+@totte1127 You just have to make sure you edit the name Player in memory editor before joining. How far are you getting with it?
+
+@Fodalite If I remember the address generates a new one every time so I can't. There should be only one correct Player it sometimes shows up as Player | Just keep trying ones till you get the right one. It's normally 2nd one down.
+
+@Leetn00b lol yah quite a few people didn't realise you have to hold click down to actually break stuff. You can't just single click it.
+
+@DJX3 at best make sure all drivers are updated etc... other then that no."
+,auddi123,2010-08-31T18:34Z,what program do i need to run this ?
+,auddi123,2010-08-31T18:45Z,what program do i use to run this ?
+,maolen,2010-08-31T19:15Z,please seed !!
+,ciderzak,2010-08-31T19:25Z,"thx mate but there si 2 with the the value player and widescreen i duno y ahah    
+
+and yeh i did change it to false iv done everythign said in every comment :D im just guan keep trying see what happens :D ahah "
+,omar6000,2010-08-31T19:32Z,Has no one found a fix for the Mac black screen yet?
+,dzuwno,2010-08-31T20:53Z,Where i can find private 24/h server to play ?
+,Brolaf,2010-08-31T21:25Z,"Alright, so I have a friend that's trying to play on my server. I started up the server with the following server properties:
+
+#Minecraft server properties
+#Mon Aug 30 19:13:38 EDT 2010
+online-mode=false
+server-ip=
+server-port=25565
+max-players=20
+level-name=world
+verify-names=false
+
+I can connect to my server using 127.0.0.1. But when I tell my friend my IP (from ipchicken.com), he can't connect and he gets a ""timeout"" message. I'd appreciate if you could help me."
+,cheeser180,2010-09-01T00:40Z,"It's a little laggy, but it's playable. Thanks!"
+,earthmage,2010-09-01T01:26Z,"yup black screen right when i start it up. My specs on my mac laptop are decent. It should be more than enough to at least run minecraft. If anyone could figure this out, it would be greatly appreciated by me and many others."
+,southpauw,2010-09-01T05:42Z,whoever fixes the black screen wins! :)
+,wedealindreams,2010-09-01T12:06Z,Yeah that's what I'm waiting for. I'm waiting for some smart Mac Pro to fix the game. Its only Java so it should play anyways
+,liam689,2010-09-01T14:57Z,"does this game work online?
+with friends who own the game"
+,liam689,2010-09-01T15:00Z,"is this the full game?
+and can i play online with friends who actually own the game"
+,crocer95,2010-09-01T16:53Z,When I download this for mac my .minecraft file never appears and I accidentally deleted the data in the minecraft folder in application support. Please help
+,tails-4,2010-09-01T18:04Z,"@crocer95
+Mac OS automatically treats any file with a . at the start as hidden.
+So to unhide this, google it."
+,southpauw,2010-09-01T19:43Z,"@Tails
+Please explain again. I dont get what this is or what this is for. Black Screen? "
+,fjurer,2010-09-01T20:06Z,when i go to change the name of my character when i search for the value player of type string i find 3 named player . when i change one of them and enter the server of my friend i would still be name player and my friend would be kicked out of the server.
+,IneedHelp899,2010-09-01T21:24Z,"hi,
+im using Windows xP 
+and i dont have the program ""RUN"" 
+is there a way to install it or something??
+
+already many thanks"
+,lamerlade,2010-09-01T21:56Z,"I could use some help with multiplayer,
+
+My server properties file looks like this:
+#Minecraft server properties
+#Tue Aug 31 15:20:22 EDT 2010
+online-mode=false
+server-ip=
+server-port=25565
+max-players=20
+level-name=world
+verify-names=false
+
+I can start up the server fine, and it gives the right messages (Done! for help type.. etc)
+
+But when i go to multiplayer and type in my ip, I can't connect. Is there something i forgot to do?"
+,lamerlade,2010-09-02T00:08Z,"never mind, i got it working
+
+i just have that problem with invincible players, invincible animals, and no enemies. any fix?"
+,coreAIR,2010-09-02T02:36Z,"When i get to the single player screen, and i select a world, it starts making the world and setting up stuff, but as soon as it starts ""Simulating"" the world, the game freezes for a moment, then turns black, briefly flickering with a screen with a box with a scroll bar, before returning to the black screen which keeps on going.
+
+Help?"
+,ReaperOne1Two2,2010-09-02T03:50Z,"@Brolaf
+It's eaither due to a port issue or firewall. Also 127.0.0.1 if I recall is a lan i.p not an internet one. Most internet i.p's look like this
+xx.xx.xxx.xxx
+x=numbers
+
+@liam689
+Yes, if the server settings for online-mode=false and verify-names=false on the server. It's also the full game. Onlines a bit buggy at the moment.
+
+@fjurer
+Keep trying each one till you find the right one. They generally always spawn in the same spot on the list by default.
+
+@IneedHelp899
+Drag the .minecraft folder to c:\Windows\Users\name\appdata
+\roaming If I recall. IT should be something like that. The path I gave may not be 100% correct but should be pretty close.
+
+@lamerlade
+There's currently no fix for that in online as it's not fully programmed yet. You can kill critters with cactus and lava or falling. There's also no enemy npc's and bucket/forge is glitched badly without a server mod that can be found on the sites forums.
+"
+,WalterWulf007,2010-09-02T14:25Z,"Can you tell some minecraft hamachi networks.
+pls"
+,diabloj,2010-09-02T15:59Z,"Hey im settip up my own minecraft server to play with my friends on LAN, I've started the server.exe changed the properties to false, gone to multiplayer. Then I enter quick memory editor but when I search for player and string there pops up 3 widestrings with ''player''. I change all of them to ''random'' and I end up haveing ''Singelplayer'' and ''Multiplayer'' being ''Singlerandom'' and ''Multirandom''
+Please submit the ''address'' of the string I have to change, Thanks :-)"
+,WalterWulf007,2010-09-02T20:26Z,"@christian549
+You change one that is (Player |).Something like that.You cahnge that to any name of 6 characters or less.If it is less just rpleace it with space(Oh my eanglish is realy bad)."
+,ReaperOne1Two2,2010-09-03T01:11Z,"@Diabloj
+You need to use Player not player with a capital P.
+
+For anyone getting the 3 widestring issues your not using Player is why it's doing that. Cap's count. This is why I couldn't seem to check why anyone was getting that.
+
+@christian
+Same issue as above. Fix it to Player not player and edit the only one that appears. IF somehow your still getting the issue WalterWulf007 has the other problem you may have. 
+
+@WalterWulf007 
+Your english is easily understood for the most. 
+
+You don't actually need hamachi also to connect to servers unless you specifically want them. You can connect via internet to the servers even in offline mode. Best place to find servers currently is the forums."
+,uwguy26,2010-09-03T03:33Z,Has ANYONE got this working on mac yet? I have the black screen problem like everyone else...
+,nose13,2010-09-03T05:52Z,"Hey downloaded for mac, what do i login as because it says you have to go online first?"
+,xTrendx,2010-09-03T06:32Z,"im on a mac and i get this in terminal
+
+Exception in thread ""Minecraft main thread"" java.lang.UnsatisfiedLinkError: Can't load library: /Users/Korey/Library/Application Support/minecraft/bin/natives/liblwjgl.jnilib
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1702)
+	at java.lang.Runtime.load0(Runtime.java:770)
+	at java.lang.System.load(System.java:1020)
+	at org.lwjgl.Sys$1.run(Sys.java:69)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.lwjgl.Sys.doLoadLibrary(Sys.java:65)
+	at org.lwjgl.Sys.loadLibrary(Sys.java:81)
+	at org.lwjgl.Sys.(Sys.java:98)
+	at org.lwjgl.opengl.Display.(Display.java:132)
+	at net.minecraft.client.Minecraft.a(SourceFile:148)
+	at net.minecraft.client.Minecraft.run(SourceFile:553)
+	at java.lang.Thread.run(Thread.java:637"
+,sabetts,2010-09-03T07:59Z,"for mac users getting the black screen, here's a fix.
+
+The problem is you don't have the jmonkeyengine native binaries. download this: http://code.google.com/p/jmonkeyengine/downloads/detail?name=jME2_0_1-StableDistribution.zip&can=2&q=
+
+then copy these files to the Minecraft/bin/ folder:
+
+jinput.jar
+
+lwjgl.jar
+
+lwjgl_util.jar
+
+(yes you're overwriting the existing ones)
+
+then copy these files to Minecraft/bin/native/ folder:
+
+libjinput-osx.jnilib
+
+liblwjgl.jnilib
+
+openal.dylib
+
+(yes, these are missing)
+
+The above files are from the jmonkeyengine archive that you downloaded and are in the directories:
+
+jME2_0_1-StableDistribution/jME2_0_1-StableDistribution/lib/lwjgl/native/
+
+jME2_0_1-StableDistribution/jME2_0_1-StableDistribution/lib/lwjgl/native/macosx
+
+
+Good luck!"
+,tails-4,2010-09-03T08:27Z,"@southpauw.
+That is just for installing it normally for a mac.
+However the mac version doesnt work at the moment."
+,xTrendx,2010-09-03T09:20Z,thank you sabetts you got it working on my mac
+,uwguy26,2010-09-03T09:21Z,"@sabetts
+
+That worked! Thanks a ton!!!!!!!!!!!!!!!"
+,IneedHelp899,2010-09-03T09:53Z,"ok, it worked, but now my brother wants it too,
+he's using W7 and doesnt have ""Run"" too...
+what to do now?"
+,WalterWulf007,2010-09-03T10:21Z,"Question for ReaperOne1Two2
+Can you play with someone trough hamachi cause i tryed to connect to someones server (he bought the game).I couldn t connect but he could connect to my server.I told him to change online mod to false but still i couldn t connect.Why."
+,WalterWulf007,2010-09-03T10:22Z,Btw i tricked him to connect to my.He s not my friend LOL.
+,narutoowns,2010-09-03T10:51Z,hey i was wondering if you could help me. i can find out how to change the name. ive done everything you say but its not working. please email me at mikye_3@hotmail.com i would really appreciate it. thanks :)
+,joel7o1,2010-09-03T16:36Z,i downloaded the game did everything i was told. i can play singleplayer fine but only for a little while then i get a black screen plz help
+,samb311,2010-09-03T17:00Z,can someone help me. i downloaded another torrent 1.015 where u cant build fences etc and after i downloaded this torrent and use the windows launcher it works but it loads the previous version with my two already saved worlds.. any way to use this newer version
+,isitko,2010-09-03T18:17Z,"please help ive done what Reaperoone1two2 said and i cant get the play offline button to work, i cant click on it."
+,hatmen,2010-09-03T19:51Z,"FIX FOR BLACK SCREEN -
+
+Go to options, turn graphics from fancy to fast.
+
+fixed it for me."
+,DankSpank,2010-09-04T01:13Z,"Black Screen Problem on Mac also, would loke to have fix.
+
+Gotten it to work on Win7 but my windows laptop is very old and its very choppy with this game"
+,ShiftyHQ,2010-09-04T13:56Z,"i can't collect wood and things.
+only wool from sheep en flowers??
+help?"
+,IneedHelp899,2010-09-04T17:02Z,"where do i have to put the "".minecraft"" folder when im using Windows 7??"
+,ShiftyHQ,2010-09-04T18:46Z,"@IneedHelp899
+
+go to start en type in %appdata% en pres enter
+you have to put the .minecraft folder there.
+
+anyone got a fix for my probleme? cant collect wood or sand or dirt only animals en flowers???"
+,zstet,2010-09-04T19:20Z,"I did everything you guys said, but when I try to connect to a Server, I get a bad login error, no matter what I do."
+,poobill,2010-09-04T20:22Z,"When I try to open the launcher it says
+
+""Fatal exception occurred. Program will now exit""
+then closes
+
+the error window is under the name of ""Java virtual machine launcher""
+
+
+Help me!"
+,IneedHelp899,2010-09-04T21:45Z,i dont have %appdate%
+,liam689,2010-09-04T23:15Z,how do i get this to work online
+,Koolaidkid10,2010-09-05T01:18Z,please iam a noob at this i downloaded this and i can play but i cant play online .when ever i type a server in the box i get an error message please help
+,Trikzed,2010-09-05T03:44Z,"When I try to play it, it says not a premium account. And I guess to play online you need a premium account. And therefore i cant even play offline. Help?"
+,GGFROG12,2010-09-05T05:08Z,"@isitko
+Go to the MineCraft Alpha 1.0.17_04 folder and copy the folder ""  .minecraft   "" then go to Windows Task manager, click ""File, new task (run..).
+Then type in "" %appdata% "" press ok. paste the "" .minecraft "" folder into it."
+,shady454,2010-09-05T07:21Z,"It wont let me play offline, someone help me?"
+,srsguy,2010-09-05T08:45Z,"Reposted from torrentine1 (this worked for me):
+""Put the .minecraft (rename the .minecraft folder to minecraft for Mac OS X) folder in one of these folders, depending on which OS you have.
+XP: Documents and Settings\$USER$\Application Data
+Vista: Users\$USER$\AppData\Roaming
+Mac OS X: /Users//Library/Application Support/
+Linux: /home/USERNAME/
+
+The minecraft.exe/minecraft.app*/minecraft.jar can go anywhere.
+
+Run the minecraft.exe/minecraft.app/minecraft.jar and click login without entering in any info.
+The game will say ""Login failed."" then click Play offline."""
+,tails-4,2010-09-05T11:16Z,"Pushed from @sabells
+THIS IS A WORKING FIX FOR MAC BLACK SCREEN ISSUE.
+""for mac users getting the black screen, here's a fix.
+
+The problem is you don't have the jmonkeyengine native binaries. download this: http://code.google.com/p/jmonkeyengine/downloads/detail?name=jME2_0_1-StableDistribution.zip&can=2&q=
+
+then copy these files to the Minecraft/bin/ folder:
+
+jinput.jar
+
+lwjgl.jar
+
+lwjgl_util.jar
+
+(yes you're overwriting the existing ones)
+
+then copy these files to Minecraft/bin/native/ folder:
+
+libjinput-osx.jnilib
+
+liblwjgl.jnilib
+
+openal.dylib
+
+(yes, these are missing)
+
+The above files are from the jmonkeyengine archive that you downloaded and are in the directories:
+
+jME2_0_1-StableDistribution/jME2_0_1-StableDistribution/lib/lwjgl/native/
+
+jME2_0_1-StableDistribution/jME2_0_1-StableDistribution/lib/lwjgl/native/macosx"""
+,ggfrog12fails,2010-09-05T12:15Z,"Omg i go on %appdata% but theres no roaming!!
+
+im using vista!!! 
+
+
+
+i neeed helppppppppppppppppppppppp"
+,rjg92,2010-09-05T12:25Z,"@tails-4, I've done this on mac but it still say's ""play online once to enable offline"" how do i solve this? thanks  "
+,rjg92,2010-09-05T12:26Z,"@tails-4, I've done this but i still get ""play online once to enable offline"", how do i solve this? thanks"
+,rjg92,2010-09-05T12:31Z,"I'm getting 'Play online once to enable offline"" on mac, anyone know to fix this? thanks"
+,ex1ver,2010-09-05T15:10Z,"Hey guys :D
+i found a solution 4 the black screen (not mac)
+after 3 hours searching i realized that my graphiccard is old.
+
+so i updated it.
+and it worked!
+
+so i had a ""via s3g km400/kn400"" (i know not good)
+
+all you must do is to update your grap.card
+(it worked 4 me) i hope it works 4 u :/"
+,tails-4,2010-09-05T15:37Z,"@rjg92
+""Put the .minecraft (rename the .minecraft folder to minecraft for Mac OS X) folder in one of these folders, depending on which OS you have.
+XP: Documents and Settings\$USER$\Application Data
+Vista: Users\$USER$\AppData\Roaming
+Mac OS X: /Users//Library/Application Support/
+Linux: /home/USERNAME/
+
+The minecraft.exe/minecraft.app*/minecraft.jar can go anywhere.
+
+Run the minecraft.exe/minecraft.app/minecraft.jar and click login without entering in any info.
+The game will say ""Login failed."" then click Play offline.""
+If you do this, then it should work.
+Also, just leave the username and password blank when youre trying to get into it."
+,rjg92,2010-09-05T16:37Z,"@tails-4 thanks but i should have mentioned I've already done that and still don't have the option to play offline. thanks anyway 
+"
+,FUUCK,2010-09-05T22:42Z,"I can't even start the server, or the client for that matter.
+I get absolutely nothing, other than it creating a hs_err_pid5708.log file
+Any help, guys?"
+,WiredReflexes,2010-09-06T00:59Z,when i go to the offline i click it and then it says updating......what do i do...need HALP
+,WiredReflexes,2010-09-06T01:00Z,oh and it doesnt stop updating
+,R0flc3,2010-09-06T01:06Z,"For some reason the games lags like crazy on my setup, and I know it shouldn't. I look at the FPS and it goes from high 30s all the way down to 1 FPS all the time. It's a fun game, but the lag kills it for me. Does anyone know how i can get it to stop lagging as hard as it does? I've already tried fancy and fast, and they are the exact same, as far as the FPS goes."
+,ansari0,2010-09-06T05:22Z,cant say anything about this as yet.. apparently my graphics card is too old for this.. it needs openGL support (which i have!!! ffs) i mean i can play halo & unreal tournament just fine.. but not this??
+,ReaperOne1Two2,2010-09-06T06:55Z,"@IneedHelp899
+
+Move the .minecraft folder to C:\Users\Username here\AppData\Roaming Then just run the .exe.
+
+@WalterWulf
+Make sure he didn't somehow mess up verify-names=false and online-mode=false. There's literally no difference between this client and the bought one other then login names which if server has these set anyone can join.
+
+@samb311
+You didn't replace the old .minecraft file in %appdata% under run.
+
+@isitko
+If it's not giving you the option at all you probably forgot to move the .minecraft folder. IF you physically can't click it not a clue try asking forums since it's first time I have heard that.
+
+@ShiftyHQ
+Hold left click on objects don't single click.
+
+@IneedHelp899
+Shifty answered that above I also have manual path posted above.
+
+@zstet
+If you mean user not premium the serverhost needs to change settings if you really mean bad login error make sure when you changed your name you changed the right value or server has ports open.
+
+@poobill make sure you installed java.
+
+@Koolaidkid10
+You get an error message! ZOMG WE CAN TOTALLY FIGURE OUT WHICH ERROR THAT IS.
+
+@Trikzed
+You didn't move the .minecraft folder to the correct spot.
+
+@shady454 
+Be more specific as to why.
+
+@FUUCK
+Make sure you have java installed and graphics drivers. No clue on that one.
+
+@WiredReflexes
+Your using another torrent or didn't update or something. Follow all steps for this torrent. 
+
+@r0flc3
+If it doesn't go away after a few minutes on the first run of the game or when your running a farther distance and has random spikes for a bit due to new parts of the map loading make sure you have updated graphics etc... You can also try to run it in single core and see if that fixes it. Try asking there forums also they probably have a better solution.
+
+@ansari0
+ Which graphics card is it? And make sure you installed the drivers for the game at all since opengl is updated through your driver install if I recall. "
+,ex1ver,2010-09-06T12:57Z,"i have no problems.
+i had the black screen.
+lagg problems.
+
+and now... nothing :D
+4 the black screen i just updated my graphic-card
+and 4 the lagg problem... i dont know :D"
+,bobbey12,2010-09-06T13:10Z,"reaper, before i say anything, thank you so much for all the comments on these things lol =].
+
+and, i gotta ask a question (soz man )
+
+when i search the mem for Player, the only widestrings that resemble it are 
+
+Player| 
+
+there are four of them, and i changed all the values to different values. except even now with the minecraft multiplayer i entered this ip (its real cuz its on the forums) and it said bad login :( 
+
+failed to connect :( 
+
+any help would be greatly appreciated :)"
+,xBlazinghavocx,2010-09-06T20:33Z,"I just downloaded this and went to play it and it's telling me that I need to play first online before I can play offline, any solutions for this or am I missing something obvious."
+,xBlazinghavocx,2010-09-06T20:38Z,"Downloaded, installed and it wants me to log in online before I play offline, any help?"
+,Hasaosan,2010-09-06T22:15Z,how do i play online?
+,ownsall60,2010-09-07T01:44Z,"I made an account just to ask this so I would appreciate an answer, so I downloaded the files ran the server thing changed everything properties I was supposed to and edited one of the players in the editing thing ( Don't know if it's the right one or not, not the problem at the moment) and so when I put in my IP into the multiplayer thing I get an error : 
+Failed To Connect To The Server
+
+Connection Time Out: Connect"
+,ownsall60,2010-09-07T01:46Z,So yeah please help :)
+,ownsall60,2010-09-07T02:16Z,"If you can add me on MSN then please do :)
+andriy600@hotmail.com"
+,Antivenom,2010-09-07T04:43Z,"Reaper
+Dude l did evrything  from your guide on how to play  lan  but still wen l try to connect it says
+
+""Failed to connect to server 
+
+Connection Refused.""
+
+#Minecraft server properties
+#Thu Sep 02 17:30:33 EEST 2010
+online-mode=false
+server-ip=
+server-port=25565
+max-players=5
+level-name=world"
+,Dasqe4,2010-09-07T09:52Z,"Hey did anyone else get this message after they moved the .minecraft folder then tried to play the game? :  
+
+     Bad video card drivers!      
+      -----------------------      
+
+Minecraft was unable to start because it failed to find an accelerated OpenGL mode.
+This can usually be fixed by updating the video card drivers.
+
+
+
+--- BEGIN ERROR REPORT 7fe0271 --------
+Generated 9/7/10 2:45 AM
+
+Minecraft: Minecraft Alpha v1.0.17_04
+OS: Windows XP (x86) version 5.1
+Java: 1.6.0_18, Sun Microsystems Inc.
+VM: Java HotSpot(TM) Client VM (mixed mode), Sun Microsystems Inc.
+LWJGL: 2.4.2
+[failed to get system properties (java.lang.NullPointerException)]
+
+org.lwjgl.LWJGLException: Pixel format not accelerated
+	at org.lwjgl.opengl.WindowsPeerInfo.nChoosePixelFormat(Native Method)
+	at org.lwjgl.opengl.WindowsPeerInfo.choosePixelFormat(WindowsPeerInfo.java:52)
+	at org.lwjgl.opengl.WindowsDisplay.createWindow(WindowsDisplay.java:185)
+	at org.lwjgl.opengl.Display.createWindow(Display.java:311)
+	at org.lwjgl.opengl.Display.create(Display.java:856)
+	at org.lwjgl.opengl.Display.create(Display.java:784)
+	at org.lwjgl.opengl.Display.create(Display.java:765)
+	at net.minecraft.client.Minecraft.a(SourceFile:196)
+	at net.minecraft.client.Minecraft.run(SourceFile:553)
+	at java.lang.Thread.run(Unknown Source)
+--- END ERROR REPORT aa2dd740 ----------
+
+
+I'm pretty sure i have a good enough video card to play Alpha...I played the InDev version of Minecraft but this won;t work any ideas?   And sorry about long post. =)"
+,Dasqe4,2010-09-07T10:32Z,"i keep getting this error after i moved the folder then ran the exe then logged in with out typing in user and pass went to offline then got a error saying my driver was not up to date to play i updated it then tried again and got the error again. 
+
+i have play the InDev or InDef version or what ever without a problem any ideas?"
+,the_clayman,2010-09-08T02:32Z,hey guys sorry to bother. my game runs fine i can load up the world but i cant attack things properly so i could collect them if i attack a block of wood or earth it just stays the way it is. anybody know this issue? or got a fix? help would be appreciated.
+,the_clayman,2010-09-08T02:40Z,guys i cant attack anything in my worlds ... not even wood or sand ... anybody know what to do? game runs fine i dont get any errors.
+,bobbey12,2010-09-08T08:20Z,"Before you post a friggin comment, read EVERY PAGE of comments. It's most likely that the answers are there, so theclayman you cant kill anything because you aren't holding down the left click button. To mine something, you MUST hold down something unless your killing flowers. That's been repeated atleast 5 times in this comments section.
+
+And whoever posted the codes for the mac black screen problem, sorry it didn't work :P. Anyone that has another solution, post it here."
+,TRWartune,2010-09-08T09:03Z,I NEED TO KNOW CAN U PLAY ONLINE 
+,ReaperOne1Two2,2010-09-09T00:02Z,"@bobbey12
+No problem, trying my best to help out although I take a bit to respond due to other things. Well try to narrow this down to see what's causing it. 
+I am fairly certain it is currently caused by the server setup not having the correct settings. If your not the serverhost make sure inside the server properties file that online-mode=false
+and verify-names=false. I can also throw up a test server which I don't leave up normally for you to try on also.
+
+@Blazinghavocx
+You forgot to move the .minecraft folder to %appdata% under run.
+
+@hasaosan
+... read the instructions posted and ask if you have a certain problem.
+
+@ownsall60
+It sounds like currently you have a firewall blocking connections or your ports are closed on your router. I added you and put the invitation comment as From TPB but you blocked me as if you have downsyndrome as soon as I said Hi.
+
+@Antivenom
+It may be a ports/firewall issue. If you leave an email I will add you and throw up a test server real quick for you to try on which will give the answer right away.
+
+@the_clayman
+Hold down left click to break blocks. Most people make the same mistake lol.
+
+@TRWartune
+Obviously.
+
+I will add people to help test servers when they get a wierd error connecting to servers to see if it's a port issue also if you leave an email."
+,ReaperOne1Two2,2010-09-09T00:03Z,"@bobbey12
+No problem, trying my best to help out although I take a bit to respond due to other things. Well try to narrow this down to see what's causing it. 
+I am fairly certain it is currently caused by the server setup not having the correct settings. If your not the serverhost make sure inside the server properties file that online-mode=false
+and verify-names=false. I can also throw up a test server which I don't leave up normally for you to try on also.
+
+@Blazinghavocx
+You forgot to move the .minecraft folder to %appdata% under run.
+
+@hasaosan
+... read the instructions posted and ask if you have a certain problem.
+
+@ownsall60
+It sounds like currently you have a firewall blocking connections or your ports are closed on your router.
+
+@Antivenom
+It may be a ports/firewall issue. If you leave an email I will add you and throw up a test server real quick for you to try on which will give the answer right away.
+
+@the_clayman
+Hold down left click to break blocks. Most people make the same mistake lol.
+
+@TRWartune
+Obviously.
+
+I will add people to help test servers when they get a wierd error connecting to servers to see if it's a port issue also if you leave an email."
+,kyler45,2010-09-09T06:11Z,"1) Does this update automatically?
+
+
+2) I can't get Reskins to work... can anyone help?"
+,kyler45,2010-09-09T06:18Z,"1) Does this auto update?
+
+2) do re-skins work with this?"
+,bo_waleed55,2010-09-09T06:23Z,@ReaperOne1Two2 why don't u make a tutorial video wouldn't that makes it easier ???
+,EbilPhish,2010-09-09T13:09Z,"I made some instructions for Ubuntu users as the native libraries are not included on Ubuntu 10.04. They might be in the next Ubuntu 10.10 though.
+
+Just dump the Minecraft.jar file anywhere you want (I made a dir in /opt which is the semi-official location for such packages)
+
+Put .minecraft in your home directory.
+
+Ubuntu users need the java monkey engine libraries. These are for Maverik but we can extract just the necessary .so file and it works fine:
+http://packages.ubuntu.com/maverick/i386/liblwjgl-java-jni/download (this has .so file, 32bit gives error on my 64bit version)
+http://packages.ubuntu.com/maverick/amd64/liblwjgl-java-jni/download (64bit version)
+
+Extract the package with (Change package name):
+dpkg -x ~/Downloads/liblwjgl-java-jni_2.4.2+dfsg-3_amd64.deb /tmp/lwjgl
+Find the usr/lib/jni/liblwjgl.so and dump in in ~/.minecraft/bin/natives
+
+java -jar /opt/Minecraft/Minecraft.jar
+
+That should probably work, but you might also need to set your Java to the offical sun build, haven't tried it using the openjdk:
+apt-get install sun-java6-jre (or is this sun-java6-jdk? just install both, you might need to add another repo or something, just Google it)
+update-java-alternatives -s java-6-sun
+
+There is some error about libjinput-linux64.so but it doesn't seem to matter. You could probably track it down in packages.ubuntu.com and do the same extract thing if you want)."
+,tails-4,2010-09-09T15:52Z,"@bo_waleed55
+lay off dude, ReaperOne1Two2 is doing a hell of a job and this isnt even his torrent...
+Lay off....
+
+Good job reaper."
+,ReaperOne1Two2,2010-09-09T22:18Z,"@kyler
+1) Nope, there's no auto update with this as far as i'm aware of.
+
+2) What have you tried to do the reskins?
+
+Normally you just open the minecraft.jar in the bin folder within .minecraft in %appdata% using winzip then just drag and drop your new skin over the old one. Haven't tested reskins on multiplayer.
+
+@bo_waleed55
+Currently I don't want to go dl screencapping software to do that. Although when multiplayer is fully functioning I may make a picture one. If anyone else wants to take on a video one that would be nice.
+
+@tails-4
+Thanks."
+,ReaperOne1Two2,2010-09-09T22:19Z,"@kyler
+1) Nope, there's no auto update with this as far as i'm aware of.
+
+2) What have you tried to do the reskins?
+
+Normally you just open the minecraft.jar in the bin folder within .minecraft in %appdata% using winzip then just drag and drop your new skin over the old one. Haven't tested reskins on multiplayer.
+
+@bo_waleed55
+Currently I don't want to go dl screencapping software to do that. Although when multiplayer is fully functioning I may make a picture one. If anyone else wants to take on a video one that would be nice.
+
+@tails-4
+Thanks.
+
+@EbilPhish
+Also good job. Now we just need someone to make a mac one to help mac users around there issues."
+,bobbey12,2010-09-10T08:44Z,"nvm, the mac thing works. you just have to follow the instructins carefully especially which folders you put the files in. Thanks for the guy that solved it."
+,DiabolusIgnis,2010-09-10T12:51Z,"Hey, I can't fix the ""you're not a premium user"" problem. I'm using Windows XP."
+,S3BBY,2010-09-11T02:57Z,"Alright, Question!
+I've already made an account on Minecraft|net, and whenever I try to log in using minecraft.exe, it says I'm not a premium user.
+
+How can I play online, w/ an account on Minecraft?"
+,TRWartune,2010-09-11T07:52Z,"@reaper i try to get online and i did wat u said but this is wat it says that the login fail and that user is not pruumim{if thats how u spell it lol}
+can u help"
+,Dragday,2010-09-11T14:40Z,"@TRWartune
+all will need to do to play is follow this steps
+1) Go to start and click in RUN ( or just press windows + r ) , when the menu opens type in the box %appdata%.
+2) it will open a folder , so get the .minecraft folder ,you have downloaded ,and put it there ( in %appdata% that opened with your command )
+3) Now open your Laucher ( see your OS laucher )
+4) The game will open with a login screen , let it in blank , press ok and put play offilne =)
+
+
+
+it worked for me and my friend try it out"
+,Dragday,2010-09-11T14:51Z,"@S3BBY
+ to be a premium user you need to buy the game =x
+but you can play without paying , follow this steps
+
+EVERYONE MUST DO IT TO PLAY
+1) Go to start and click in RUN ( or just press windows + r ) , when the menu opens type in the box %appdata%.
+2) it will open a folder , so get the .minecraft folder ,you have downloaded ,and put it there. ( in %appdata% that opened with your command )
+3) Now open your Laucher ( see your OS laucher )
+4) The game will open with a login screen , let it in blank , press ok and put play offilne =)
+5) Select singleplayer , and select a space DONE  you are now playing minecraft =)
+
+Ps : you can also play online with your friends , 
+1) Go to your server folder , open a file named server.propriestes ( open it with notepad ) , change the online mode to false ( it will make NOT  premium users be able to join to , like you and your friends ) .
+2) LEAVE SERVER IP IN BLANK!
+3) Go to minecraft server.exe and lauch it . 
+4) Opne minecraft , click login and play offiline , and search in google for Quick Memory Editor.
+5) aff you installed it , open it ( with the minecraft on ) put to search the value : Player ( with capital in P ) and search as string.
+6) There is a file with Player  - WideString ( there is only one ) click in edit/lock and change to other name with 6 letters ( if less complete with spaces ), also let the square in final after your name.
+7) Now to join your server go to multplayer and type 127.0.0.1
+8) to your friend to your server get your ip ( type myip in google ) and send to your friend + the port of the game .
+9) Remember to unblock minecraft and minecraft server at firewall.
+
+
+"
+,Dragday,2010-09-11T15:01Z,i mad a tutorial in comment but i cant post?
+,Dig1taL,2010-09-11T15:41Z,"Reaper, I have a problem.
+
+When I use the Memory Editor, I get 3 ""Player"" & ""WideString"" results. How do I know which one to edit? Or do I edit them all?"
+,Dig1taL,2010-09-11T15:49Z,"I'm not making a public server for the moment, so I didn't change my name from ""public""
+
+So I launched the server and put ""localhost"" as the IP. It said connecting but then said Timed Out."
+,Dig1taL,2010-09-11T15:50Z,"I skipped changing my name from Public
+
+I tried to connect to localhost and it just says timed out"
+,lauriraudla,2010-09-11T17:27Z,upload newest version plz
+,Dragday,2010-09-11T17:36Z,"@Dig1taL
+Make sure u have searched for Player ( with capital in P ) and as string... i think if u search for player ( without capital ) it will find 3 players with widestring.
+So search for Player
+
+And to connect to your server try 127.0.0.1 instead if localhost"
+,Dig1taL,2010-09-11T21:24Z,"Thanks, got it working :)
+My sister connected from our network too.
+Problem though - I can't delete or pick up any blocks. Why's that?
+
+Also, if I close the server and open it again, will it make a new world? Because me and a friend want to make a world that we can both use and build up like, a whole town of buildings and things.
+
+This wont work if the map changes every time the server closes. If that happens, how do I stop it from happening?"
+,kyler45,2010-09-11T21:51Z,can you please upload the newest version?
+,Dragday,2010-09-11T22:28Z,"@Dig1taL
+
+i had the same problem of the blocks when i created for the first time. in the menu ( the screen you need to let open to run server )  type there save-off
+them re-open your server .
+everytime you want to save something in your world type in server screen save-all.
+
+I had also problems to save what a have done in my world with my friend.
+So i got a map from single player ( go to .minecraft/saves/ ) and you copy a world from there.. for example World3. Paste it at your server folder ( the folder that have server.properties ) .
+
+Remeber also to change name level-name in server.proprerties to the current world you will use.
+
+Try this =)"
+,Dragday,2010-09-11T22:36Z,NEW VERSION PLSSSSSSSSSSSSSSS
+,Dig1taL,2010-09-12T00:55Z,"Thanks for your help Dragday :)
+
+But just one question.
+What do you mean the menu where I type save-off?
+
+Do you mean in the server.properties file? Or in the place where I type 127.0.0.1? I'm confused, sorry."
+,Dig1taL,2010-09-12T01:23Z,"I've also come across a few other problems.
+I can't loose health. Bad mobs don't spawn (spiders, skeletons, etc.) I've only seen a chicken. And I can't kill the chicken either."
+,ReaperOne1Two2,2010-09-12T02:55Z,"@DiablousIgnis
+You didn't move the .minecraft folder to the right location. Follow steps on where to put it or check a few of the pages, I had full path posted somewhere if you don't have run.
+
+@S3BBY Do as Dragsays you don't log in with any account.
+
+@TRWartune
+The server host didn't put online-mode=false and verify-names=false inside the server files.
+
+@Dragday thanks.
+
+@Dig1tal 
+Currently mobs can't take damage. The new version also has the same issue but actually has enemy mobs atleast. They can only die to lava etc...
+
+As for a new world everytime that doesn't seem right. Run the server as administrator and don't play it till it says like done or something like that.
+Also you can't break blocks in the spawn area within 30 squares. Just a note incase that was your no loot issue. I haven't ran into any save issues as dragday has.
+
+
+@lauriraudla 
+Yes, we do need someone who has a good source to put the newest versions. I'm going to check 4chan and a few others to see if they have the newest version yet. If I manage to be first to upload a torrent i'll put better instructions then what's around."
+,fjurer,2010-09-12T12:05Z,"i can play multiplayer and stun like that but when i go out fro the server and then go back in all my tools are lost and i know the cheat code, but when i enter a cheat nothing happens is there a program i need to download or it is because it is not the original game"
+,Dig1taL,2010-09-12T12:51Z,"Did you say that there are NO mobs in the 0.17 version?
+
+Anyway, thanks for your help guys :0"
+,gakor,2010-09-12T22:24Z,"@Reaper:
+
+First off I'd like to thank you for everything you've done so far.
+You've helped so much and it isn't even your torrent.
+
+
+Anyways, for the most part everything seems to be going smoothly. However, I can't find a way to SAVE my stuff when on my LAN server.
+The landscape and stuff stays, but my inventory empties out every time I relog, as do chests and stuff.
+
+I spent a lot of time mining so I can get some building started, but when I logged in I found that all my materials were gone.
+
+Is there any way around this?
+Thanks! :D"
+,gakor,2010-09-13T03:05Z,"Hmm, nevermind. I got the new torrent - the 1.1 alpha, and this problem seems to have been solved.
+
+Looks like mobs can't die, still, though.
+
+and now i'm having trouble getting other people into the server... >_>"
+,elementsk8ter,2010-09-14T03:29Z,ok i have xp it starts up but then it does the black screen thing like the macs are doing or whatever some one plz help
+,Beefbars,2010-09-15T04:01Z,"I don't know if this happened to anyone else, It could just be my computer, but everything is working fine so far except one thing. Once I click ""Play offline"" It just stops at the ""Updating Minecraft"" screen. It says ""Done loading"", but the bar isn't all the way full, and nothing has happened in ten minutes. What's up with that?"
+,emillo108,2010-09-17T19:04Z,""".minecraft"" is hided! my computer didn't show hided folders and I have been chearchinlike an idiot for finding it!!!!"
+,As4ss1n,2010-09-18T20:50Z,Cool upload but when i start the game it laggs after a minute and it will keep lagged till i quit it :( any solution? thx
+,1nsan1ty,2010-09-19T00:25Z,"The have made an update for this so when ever you play it make sure you are not connected to the internet when you start the game so that the game wont fuck up and be useless, and re connect to the internet when you are in your map"
+,bakkerboy465,2010-09-19T03:29Z,"im doin everything ive ever been told to... however it still tells me ""please play online once before playing offline"""
+,Xalx09,2010-09-19T03:59Z,"Okay well ive been playing this for like 2-3 days now (perfectly mobs take damage and everything dungeons and all that good stuff) and i have opened and closed it numerous times and it worked everytime but now when i open it, it says ""Fatal error 5"" and some other crap i run it on a mac can anyone help?"
+,bobobby,2010-09-19T05:25Z,"I get this error:
+""Failed To Launch
+fatal error occurred (5): null
+Extracting lwjgl.jar.lzma to lwjgl.jar""
+help please? "
+,bobbey12,2010-09-19T05:40Z,"@Xalx09 I am having the exact same problem. Do you have a loading bar where it says like extracting lwjgl.jar.lzma to lwjgl.jar? because i checked in the minecraft folder and it made those things and now i  dont know what to do :(
+
+REAPER TO THE RESCUE (hopefully)"
+,bobbey12,2010-09-19T10:54Z,*waits impatiently for reaper to come*
+,Gornax,2010-09-19T13:22Z,"Got the same error aswell, but, i went to minecraft.net, saying the server was down, have to download the new launcher, it works.
+""Minecraft
+This is a temporary page.
+Minecraft got way too popular for this humble server. I've had to disable everything fancy to even get it to run. It went down on Saturday, September 18.
+It will probably go back to normal on Monday, September 20.
+
+If your launcher is giving you download errors, please update the launcher by downloading the latest version from this page.""
+"
+,Vennon_Perrow,2010-09-19T15:40Z,"wtf... don't try to explain guyz cause you don't get it.. it worked for me at first i've been playing it for a couple months. but now it says there's an update available.. and it updates itself automaticaly, it doesn't work if i disconnect either"
+,Dig1taL,2010-09-19T16:18Z,"For the people getting update errors:
+
+Download the file below, it doesn't matter where to. 
+
+Run it, it will update.
+
+Then you can open your original Minecraft.exe from your Minecraft folder and it'll work just fine.
+
+
+
+File: http://www.minecraft.net/download/Minecraft.exe?v=445"
+,Xalx09,2010-09-21T00:55Z,To the maker of this torrent or to someone else skilled i have downloaded both the windows and mac version of this and my request to you guys is to crack this new version i run mac but since most of you run windows i will provide with windows version as well. If any of you know how to crack it on mac can you tell me so i can do it myself
+,Spironic,2010-09-22T16:43Z,"Tried Dig1taL's solution and it didn't work. Weird though, that the Windows version allows me to play offline with the out-of-date software and the linux version does not.."
+,Retooler,2010-09-23T14:32Z,"Working perfect, people also look on page 1 of this torrent to followup instructions regards how-to-play this. From Torrentine1. Rate this torrent up if things go well people."
+,MrWezel,2010-09-24T15:26Z,"Hey,
+
+I tried playing online on my own little server.
+I have followed all of the instructions, but i keep getting the 'Launcher Outdated' error :S"
+,nickcob,2010-09-28T20:58Z,"Hey i got a problem,
+
+i get that player error, i just cant change it with memory editor, i search player and string but i get Player I orso and i change only the noname thing to 6 words thingy what am i doing wrong?
+
+so i can log in but when other connect it disconnects me :("
+,MrWezel,2010-09-30T20:07Z,"My problem is solved.
+
+What I did is updating the minecraft Apha server software, than just follow the same steps as in the guide."
+,Luxas-kun,2010-10-02T20:14Z,I've got a major problem: NOTHING besides mobs and flowers dies. Nothing at all.
+,MalanoMan,2010-10-05T05:24Z,"@tails-4
+hey i downloaded the stablized distribution thing and none of the files stated in the post can be found. yes im on a mac and im trying to fix the black screen problem. ive downloaded it twice and each has none of those files to be found. your help is appreciated. thanks"
+,mccaffreym2,2010-10-07T09:37Z,"BLACK SCREEN FIX!
+
+http://www.youtube.com/watch?v=ETk_UyXcl9Y
+download the patch in the comment section, worked for my mac OS X"
+,undefinedArray,2010-10-08T00:32Z,"@ReaperOne1Two2
+
+hi everyone and reaper, 
+if i were to set up my LAN mutliplayer, can other people join my game? or does the people have to be in my network to play with me?
+"
+,habbada,2010-11-02T08:59Z,"FOR MAC USERS:
+
+I had the ""must play online once"" problem, even after renaming the .minecraft folder and moving it to application support.
+
+The problem is the mincraft.app creates a new minecraft folder under application support itself when it's run for the first time.
+
+Move the all the files from the folder you renamed, to this new folder (called simply 'minecraft') and it should work. Hope that helps."
+,Spiderlord001,2010-12-17T07:57Z,"Hello i could really use your help i cant log in the Play Offline button is completely gray
+
+tell me how to make it work please it wont let me sign in completely
+-Tarzan"
+,imcfreak,2011-01-18T10:52Z,"When I run Minecraft I get past the login screen and all but then it just says loading and it wont load, help please?"
+,nomnomnomnom333,2011-01-28T07:13Z,"Some of the sounds aren't working like walking on sand, picking up items animals, water. Is there any way I can fix this?"
+,spritman123,2011-04-17T12:13Z,Its Minecraft beta!!! fuck you! I want alpha
+,Resurrection2pac,2011-11-01T03:01Z,"It works PERFECT..
+for people who don't know how to instal you just need go to ""start"",open ""run"" and write ""%appdata%""..
+all files you downloaded just copy and paste it in folder "".minecraft"" ..
+that's all. and make a shortcut of ""Minecraft"" to desktop that you don't need every time go to the minecraft destination folder. ;)"

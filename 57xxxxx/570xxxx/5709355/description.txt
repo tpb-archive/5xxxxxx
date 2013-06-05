@@ -1,0 +1,163 @@
+Korsakovia
+==========
+
+an experimental Half Life 2 mod 
+by thechineseroom
+
+www.thechineseroom.co.uk
+
+
+The cult horror game Korsakovia is an experimental mod about madness, reality and the end of the world. It was designed to explore what happens when normal expectations of play are subverted and destroyed, so the player cannot rely on the normal cues or understanding of typical FPS play. As such, it uses visual distortions, extreme audio effects, flashing lights, and disturbing imagery. It is not recommended for minors or those susceptible to motion sickness or other conditions brought on by flashing lights and audiovisual distortions. 
+
+Otherwise, play late at night, on your own, wearing headphones and with the lights off.
+
+
+PATCHED VERSION 16/07/2010
+==========================
+
+***WARNING***
+
+The original version of Korsakovia didn't come with a warning, but according to a number of emails I've received since release, it
+probably should have. 
+
+Korsakovia includes extreme audio effects, with very sudden jumps in volume and distortion. This may damage your speakers, headphones,
+ears and brain, so don't crank it up too loud at first. I've got at least one set of very expensive speakers on my conscience. 
+
+It also includes strobe effects, shudders and environmental distortions that can aggravate the usual potentially harmful stuff. If you 
+have trouble playing any regular FPS games, you should probably steer clear of this one. Goes without saying that if you start feeling motion
+sickness, dizziness, nausea, etc, please stop playing immediately.
+
+Finally, Korsakovia is a horror game and contains disturbing and adult imagery. We take no responsibility for minors playing this game. This
+is a work of fiction that takes inspiration from a real-world psychological disorder and is not intended to be accurate or realistic in anyway. 
+If you are easily offended, shocked or disturbed, again, please steer clear. 
+
+***
+
+
+
+==========
+
+1. Installation
+---------------
+
+You will need the Orange Box version of Source running on your computer. If you don't have Episode Two, you won't be able to 
+run the game.
+
+Run the installation programme. This should automatically install Korsakovia onto your computer.
+
+Alternatively, unzip Korsakovia.zip into your SourceMods folder. Then quit and restart Steam. Korsakovia should appear in 
+your games list.
+
+
+
+2. System Requirements
+----------------------
+
+Korsakovia is very entity intensive. It should run fine on any machine meeting the recommended requirements for The
+Orange Box, but we have tracked some performance issues with lower-grade machines. This seems to be due to the large numbers of
+physics-based props used in the game. See known issues and bugs below for more details.
+
+
+3. Playing Korsakovia
+---------------------
+
+Korsakovia is a survival horror mod using the standard control scheme of Half Life 2. You can move, jump, sprint, use objects and
+attack as normal. 
+
+Korsakovia does use a number of visual effects. These are not bugs. In places, geometry has been deliberately deformed. This is also
+deliberate. There are a large number of voice-over cues, many of which include distortions, static and other audio effects. This is
+also deliberate.
+
+Finally, due to the number of entities used, we ended up using a slightly weird way of handling level transitions which means you won't
+get the 'Loading' message and the screen will just go to black whilst the levels are loading in. It hasn't crashed if this happens... 
+
+
+4. Known issues and bugs
+------------------------
+A number of things are not deliberate, however. Korsakovia seems to be pushing at a capabilities of the Source engine in a number of ways,
+and whilst there are probably programming solutions to these, we didn't have the time, experience or money (or all three) to solve 
+them all. Playtesting has reported a few bugs that may crop up during play, although these don't seem to be either common or 
+generic.
+
+a) The program may crash between levels, with an error report that the program has exceeded memory. This is a result of the
+large numbers of entities in the levels. To resolve this, reload the game and you should be able to restart the level manually. If so, 
+the map names are (in order): hospital, warehouse, tenement, korsakovia01, korsakovia02, finallevel, finallevel2
+
+b) Double-firing voice-over triggers. We think we've found all of these, but if you find any, please let us know and we'll fix and 
+re-release the map as a patch. There are over 60 voice-overs in Korsakovia, so there's always room for that one more error you didn't
+spot.
+
+c) Lagging: there are two places where lag was noticed on lower spec machines. This is not a universal problem and is a result of
+the entity-heavy build, as above.
+
+d) Map transition errors. In early builds, there were a small number of bugs during level transitions, where either random props 
+were spawned into the new level, or the player spawned outside the map area. We believe these have been taken care of, but please 
+let us know if it happens to you!
+
+
+5. Credits
+----------
+
+Korsakovia was written and produced by Dan Pinchbeck
+
+The environment was designed by Dan Pinchbeck and Adam Griffiths and built by Adam Griffiths 
+with additional build by Dan Pinchbeck and Ankur Shah
+
+Audio and music was by Jessica Curry (www.jessicacurry.co.uk)
+
+Coding was by Maksim Mitrofanov
+
+Genevieve Adam voiced Doctor Christine Grayson 
+and 
+Ben Crystal voiced Christopher
+
+The voice acting was recorded at Middle Street Studios, UK, by Phil Thompson
+
+Playtesters were:
+
+Nick Mower 
+Donkey81 
+Eli Just 
+Maksim Mitrofanov 
+BiGToM (who also debugged a level for us)
+Albert Teng 
+
+
+This version of Korsakovia includes the 2010 patch by Doogie4Ever, who saved us from obsoletion hell courtesy of a source update for Mac users, which is
+as good a reason to hate Apple as all the others on my list. He's a star and  we owe him one. This version also includes a second patch by William Cook, 
+fixing the flashlight - he is also a star...
+
+
+6. thechineseroom
+-----------------
+
+Korsakovia was developed for the earth-shattering sum of approximately Â£10,500 as an internal grant from the University of Portsmouth,
+as part of the ongoing chineseroom project into experimental FPS gaming. 
+
+The core ideas behind thechineseroom are that 
+
+a) there are important and interesting questions about FPS gaming that cannot be answered simply by studying and analysing commercial 
+titles, and that it's necessary to experiment and build in order to address them and
+
+b) that there's no reason why a research project shouldn't be any less playable and 'fun' than a non-research project (i.e. a 'normal' 
+game). On top of that, if you want to really make something that is true to the medium, then it should stand or fall as a game in its
+own right, and players should be able to engage with in on those terms. 
+
+Previous releases as part of the project include Dear Esther (Source), Conscientious Objector (Doom3/idTech4) and Antlion Soccer (Source).
+
+All are available freely from www.moddb.com/members/chineseroom
+
+If you have any questions about thechineseroom project or any of our mods, please contact me at dan.pinchbeck@port.ac.uk
+
+More information about us can be found at
+
+www.thechineseroom.co.uk
+
+====================
+
+Thanks for playing, and please send any feedback to me at dan.pinchbeck@port.ac.uk
+
+Equally, if you have any improvements to the game, please feel free to send them through. The codebase and vmfs are available on request.
+
+
+Korsakovia (c) 2009 thechineseroom

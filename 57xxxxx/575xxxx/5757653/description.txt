@@ -1,0 +1,15 @@
+Hi everyone! It's time for a new Salix release! Here is Salix 13.1.1, using the XFCE desktop, available both in 32-bit and 64-bit flavours.
+
+Here is a list of changes since the previous release in the 13.1 branch:
+* Lilosetup, a new graphical tool that can be used for setting up the Lilo bootloader has been added.
+* New graphical system administration tools have been added; a tool to manage ALSA sound cards, one to manage system hostnames and a small tool to rebuild the system icon cache in XFCE. All salix system tools are now available in a "basic" installation too.
+* The installation CDs can now be used as a local repository with slapt-get/gslapt, complete with dependency support. Detailed instructions on how to do that can be found in the README file in the iso images. This will help users with no internet access that are performing "core" or "basic" mode installations and would like an easy way to install extra software found in a "full" mode installation.
+* The default start page in Firefox has been changed to: http://www.salixos.org/start
+* An older version of the intel driver (2.9.1) is included in the installation media in the salix/extra directory. This is not installed by default but might be of use with some intel graphics cards. You can read the README.intel file in the iso images for more details.
+* New packages included in a "full" mode installation: pyxdg, notify-python, libnl, net-snmp.
+* All security fixes and package upgrades since the previous release have been included.
+* Flash has been removed from the 64-bit release. Adobe has not updated their 64-bit flash plugin for the latest version and the previous version is a security hole. You can read more about the issue here: viewtopic.php?f=17&t=921
+ 
+http://www.salixos.org/forum/
+
+md5sum : b7b70c8427e987d6495e99a0adc75fb2  salix64-13.1.1.iso

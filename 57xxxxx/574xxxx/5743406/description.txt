@@ -1,0 +1,5 @@
+v2010.5 released:
+
+* Fixed a possible memory leak in Internet access component (which may have caused access violation during freedb/MusicBrainz query or no results in Amazon Cover Art query)
+* Changed Freedb and MusicBrainz spinning top to a status window to prevent flickering of the top bar
+* Updated "Enter Disc Data" and "Submit to Freedb" windows so that they are in correct position

@@ -1,0 +1,19 @@
+User Type,Username,Date,Text
+,jersson,2010-07-21T13:47Z,"This looks very interesting and it's not portable. How come ? I'l try it out, thank's"
+[V],NoExcuses,2010-07-21T17:33Z,"@jersson
+This one requires .NET 3.5 to work, So even if made portable doesn't work on systems that doesn't have .NET already installed, and putting this too in a Portable version means making a more than 200 MB file. Not my slice of bread. I've found later a Portable made with Xenocode, but it needs .NET already installed on the system. Personally I'll continue to use the good old 6.5.4 but if someone wants to see how the new version looks, here it is..."
+,wullthebull,2010-07-21T18:34Z,personally I dont like the 2010 version far too slow compared to 6.54
+,jersson,2010-07-21T20:01Z,"I agree with wullthebull and the 6.54 vers is much better. Thanks for your new vers anyway but Il stick to your 6.54 vers. It's much faster
+Any new uploads of Atomic Mail Sender 7.0 or 7.05 ?"
+,mrblue777,2010-07-23T21:53Z,"I just installed this software and it works perfectly. No virus after scanning with Kaspersky, Malwarebyte and Ad-Aware. I don't think this version is slower as other users mentioned. It took only about 5 seconds to load. I have 6 email accounts and it completed scanning in seconds. I like the new version. It looks much nicer!"
+,useful_pirate,2010-07-24T00:34Z,"This version is clean. Here is the scan for the patched exe.
+
+http://www.virustotal.com/analisis/9ad0c00447e3e1811112647205428947718d267b3435b05908c1e088ca7b08ea-1279829989
+
+This version is slow? need to change your computer :) The computer is old."
+,Lasaruz,2010-08-01T07:47Z,Backdoor/Win32.Trojan
+,Lasaruz,2010-08-01T07:57Z,"patch_mailwasher_pro_2010_v1.0.4.
+
+http://www.virustotal.com/sv/analisis/5784565cf837e481cb50ba920d4116e031a9e803b1ea8dc67040b9182cdc1bd5-1280069195"
+[V],NoExcuses,2010-08-02T18:01Z,"@Lasaruz
+If you see, some of the AVs detect it as a Patch.MailWasher, most of the others signal it as a generic Trojan, probably because it's packed with UPX, the good ones, like Kaspersky, don't find anything wrong in it. Anyway, it's always better to run *EVERYTHING* unknown into Sandboxie or similar. If you do that you'll see that it modifies only some bits in the MW exe, and being a Patcher that's what it's supposed to do..."

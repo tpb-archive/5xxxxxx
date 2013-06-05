@@ -1,0 +1,5 @@
+Ultra-Secure One-time Pad Encryption (OTP)
+
+Is One-time pad Unbreakable? If all rules of one-time pad are followed? Yes! Since the key is truly random, one cannot determine wich key is used. If someone had infinite computational power he could go through all possible keys (a brute force attack). He would find out that applying the key XVHEU on ciphertext QJKES would produce the (correct) word TODAY. Unfortunately, he would also find out that the key FJRAB would produce the word LATER, and even worse, DFPAB would produce the word NEVER. He has no idea which key is the right one. In fact, you can produce any desired word or phrase from any OTP-encrypted message, as long as you use the 'right' wrong key. There is no way to verify if a solution is the right one. Therefore, the one-time pad system is proven completely secure.
+
+tags: encryption, decryption, one-time pad, key, security, software, manual, cryptanalysis, OTP, vernam, cipher, Shannon, software, cryptography, privacy, internet, network

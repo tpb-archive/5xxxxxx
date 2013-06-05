@@ -1,0 +1,61 @@
+So I had a difficult time finding and gathering JunOS images to setup an Olive lab. It seems many of those posting blogs about how to configure Olive don't seem to support the distribution of the images, but probably ended up finding it the same way I did. So, having scoured the Internet I collected a nice chunk of JunOS images, particularly useful for setting up Olive (with the help of GNS3). I hope you find these useful.
+
+If you only need to pick and choose a few files to download, the following are recommended:
+
+jinstall-8.5R1.14-domestic-signed.tgz
+jinstall-9.6R1.13-domestic-signed.tgz
+jweb-9.6R1.13-signed.tgz
+
+( You will also probably want to download: 4.11-RELEASE-i386-miniinst.iso
+  Available here: ftp://ftp-archive.freebsd.org:/pub/FreeBSD-Archive/old-releases/i386/ISO-IMAGES/4.11/ )
+
+By downloading the above files, you can then use the following instructions to setup your own lab:
+ 
+http://www.gns3.net/phpBB/topic1616.html
+(same information but easily downloadable at: http://gns3.net/documentation/ )
+
+Please do not use the comments for tech supponrt on configuring Olive; just google around or ask in more appropriate forums.
+
+Contents:
+
+Filename                                        Size
+--------                                        ----
+
+jinstall-6.4R2.4-export-signed.tgz              52319033
+Jinstall-7.3r2.7-Domestic-Signed.tgz            68352609
+jinstall-7.3R3.6-domestic-signed.tgz            68394574
+jinstall-7.4R1.7-domestic-signed.tgz            71184053
+jinstall-7.4R1.7-export-signed.tgz              69045945
+Jinstall-7.4r3.4-Domestic-Signed.tgz            71273426
+jinstall-7.6R1.10-domestic-signed.tgz           76335896
+jinstall-7.6R4.3-export-signed.tgz              73490302
+jinstall-8.1R1.5-export-signed.tgz              91914211
+jinstall-8.3-20071208.0-domestic-signed.tgz     98082681
+jinstall-8.3R1.5-domestic-signed.tgz            97955497
+jinstall-8.3R2.8-domestic-signed.tgz            97989149
+jinstall-8.3R2.8-export-signed.tgz              94927919
+jinstall-8.3R4.3-domestic-signed.tgz            98090469
+jinstall-8.4R1.13-domestic-signed.tgz           114329348
+jinstall-8.4R3.3-domestic-signed.tgz            114897376
+jinstall-8.4R4.2-domestic-signed.tgz            114900497
+jinstall-8.5-20081219.0-domestic-signed.tgz     160084156
+jinstall-8.5R1.14-domestic-signed.tgz           159714183
+jinstall-8.5R4.3-domestic-signed.tgz            160039672
+jinstall-9.0R1.10-domestic-signed.tgz           164711626
+jinstall-9.1R1.8-domestic-signed.tgz            174688154
+jinstall-9.2R2.15-export-signed.tgz             185562724
+jinstall-9.6R1.13-domestic-signed.tgz           282523881
+jinstall-9.6R1.13-export-signed.tgz             276783205
+
+jbundle-9.2R2.15-export-signed.tgz              180980175
+jinstall-10.1R1.8-domestic-olive.tgz            309685668
+
+jinstall-ex-3200-9.6R1.13-domestic-signed.tgz   103672669
+jinstall-ex-3200-10.0R2.10-domestic-signed.tgz  107966826
+
+jweb-8.4R4.2-signed.tgz                         3963333
+jweb-8.5R1.14-signed.tgz                        4241947
+jweb-8.5R2.10-signed.tgz                        4238723
+jweb-9.0R1.10-signed.tgz                        4749299
+jweb-9.6R1.13-signed.tgz                        6681751
+jweb-10.1R1.8-signed.tgz                        7469549

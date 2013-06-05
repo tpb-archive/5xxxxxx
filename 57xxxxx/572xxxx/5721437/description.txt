@@ -1,0 +1,21 @@
+Stable Clonezilla Live 1.2.5-35 Released
+
+This release of Clonezilla live (1.2.5-35) includes major enhancements, changes and bug fixes.
+
+MAJOR ENHANCEMENTS and CHANGES:
+* The underlying GNU/Linux operating system was upgraded. This release is based on the Debian Sid repository (as of 2010/Jul/20)
+* The Linux kernel was updated to 2.6.32-17.
+* This release was created by live-helper 2.0~a19-1.1drbl, and live-initramfs 1.236.2-1drbl-3 is used.
+* Partclone was updated to 0.2.11.
+* Default to use VGA 800x600 for Clonezilla live. Since most of the netbook does not support 1024x768, and 800x600 is the common one for most of the computers, and it's good enough for Clonezilla live. Thanks for swdotnet for suggesting this.
+* Program prep-ocsroot was improved to work with sshfs/cifs path with space.
+* Program ocs-iso is able to create the recovery iso larger than 4.5 GB. Thanks to Zoltan Kerenyi Nagy for reporting this issue.
+
+BUG FIXES
+* Bug fixed: an extra shift should not exist in create-drbl-live. Thanks to Orgad Shaneh for this bug report (http://sourceforge.net/tracker/?func=detail&atid=671650&aid=3016950&group_id=115473).
+* Bug fixed: Programs ocs-iso and ocs-live-dev were improved to include only Clonezilla-related files. Other files in /live/image/ won't be included.
+
+md5sum : f8d48b8e046c0d49f08fb1f7f680ab94  clonezilla-live-1.2.5-35-i686.iso
+sha1sum : b3ed1a88744a37bbff59f398e114200d8ebe013d  clonezilla-live-1.2.5-35-i686.iso
+ 
+http://www.clonezilla.org/news/

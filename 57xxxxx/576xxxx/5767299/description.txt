@@ -1,0 +1,8 @@
+From DistroWatch :
+Trinity Rescue Kit (TRK) is a bootable Linux distribution aimed specifically at offline operations for Windows and Linux systems such as rescue, repair, password resets and cloning. It has custom tools to easily recover deleted files, clone Windows installations over the network, perform antivirus sweeps with two different antivirus products, reset windows passwords, read and write on NTFS partitions, edit partition layout and much much more. Trinity Rescue Kit is mostly based on Mandriva Linux and heavily adapted start-up scripts.
+
+Tom Kerremans has announced Trinity Rescue Kit 3.4, a Mandriva-based distribution designed to facilitate data rescue from Linux and Windows systems: "Big news from the Trinity Rescue Kit camp: an all new version of the live distro has just been published after almost a year of silence. The biggest visible enhancement here is the addition of a menu interface. Not a graphical one, but a text based, scrollable menu from which any regular computer user can perform otherwise complicated tasks. TRK 3.4 has received numerous feature additions like 'winclean', a home brewed utility to perform offline Windows disk cleaning, a new virusscan engine in the seriously debugged virusscan tool, rewritten winpass (password reset tool) which is way more tamperproof, complete manpages for TRK's own utilities, a quick and dirty guide for the impatient, and literally thousands of other changes...." 
+
+Homepage : http://trinityhome.org/Home/index.php?content=TRINITY_RESCUE_KIT____CPR_FOR_YOUR_COMPUTER&front_id=12&lang=en&locale=en
+
+md5sum : 2d0539839d49a35d1aa0b572201d962a  trinity-rescue-kit.3.4-build-367.iso

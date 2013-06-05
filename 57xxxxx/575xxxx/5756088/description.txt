@@ -1,0 +1,36 @@
+KisMAC is an open-source and free sniffer/scanner application for Mac OS X. It has an advantage over MacStumbler / iStumbler / NetStumbler in that it uses monitor mode and passive scanning.
+
+KisMAC supports several third party PCMCIA cards: Orinoco, PrismII, Cisco Aironet, Atheros and PrismGT. USB devices with Intersil Prism2, Ralink rt2570 and rt73, and Realtek rtl8187 chipsets are in progress towards full support as well. All of the internal AirPort hardware is supported for scanning.
+
+Please note: This program is not intended for novices but for professional users. Take this as your warning, the rest of this wiki assumes you are prepared for advanced topics and know what you are doing with your system.
+
+
+Features:
+
+    * Reveals hidden / cloaked / closed SSIDs
+    * Shows logged in clients (with MAC Addresses, IP addresses and signal strengths)
+    * Mapping and GPS support
+    * Can draw area maps of network coverage
+    * PCAP import and export
+    * Support for 802.11b/g
+    * Different attacks against encrypted networks
+    * Deauthentication attacks
+    * AppleScript-able
+    * Kismet drone support (capture from a Kismet drone)
+
+Supported hardware chipsets:
+
+    * Apple AirPort and AirPort Extreme (dependent upon Apple's drivers)
+    * Lucent Hermes I & II (Orinoco 2 and 11 Mbit)
+    * Intersil Prism 2, 2.5, 3 in PCMCIA and USB devices
+    * Cisco Aironet (with older 4.xx firmware)
+    * Intersil PrismGT
+    * Atheros PCMCIA
+    * Ralink rt2570 and rt73 USB devices
+    * Realtek RTL8187L USB (such as the Alfa AWUS036H)
+
+Crypto support:
+
+    * Bruteforce attacks against LEAP, WPA and WEP
+    * Weak scheduling attack against WEP
+    * Newsham 21-bit attack against WEP

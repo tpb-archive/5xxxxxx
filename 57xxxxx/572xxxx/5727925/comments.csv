@@ -1,0 +1,78 @@
+User Type,Username,Date,Text
+,cocainus,2010-07-30T23:27Z,"For each individual application, use your serial number!"
+,cocainus,2010-07-31T00:33Z,"ClamXav scan:
+
+----------- SCAN SUMMARY -----------
+Known viruses: 811526
+Engine version: 0.96.1
+Scanned directories: 232
+Scanned files: 509
+Infected files: 0
+Data scanned: 643.36 MB
+Data read: 958.36 MB (ratio 0.67:1)
+Time: 138.926 sec (2 m 18 s)
+
+No infected files were found."
+,azubi43,2010-07-31T17:47Z,"Hello
+
+I'm looking for this in German.
+
+thanks"
+,rg23,2010-07-31T18:27Z,"How long can I use it before expire?!
+thanks!"
+,lavato,2010-07-31T21:54Z,Yes we have german saucisse for windows frankfurters 
+,Sixer,2010-08-01T12:37Z,"Yeah, is there an expiry on this build, or will it keep working?"
+,Sixer,2010-08-01T13:29Z,"#!/bin/sh
+#
+# Patch for Microsoft Office 2011 Beta 5
+# by Wanderer, updated for Beta 5 by Sixer
+#
+# Removes beta expiration
+#
+
+TARGET=""/Applications/Microsoft Office 2011/Office/MicrosoftComponentPlugin.framework/Ve$
+OFFSET=0xE83CE
+PATCH=""\xB8\x00\x00\x00\x00\xC3""
+
+if [ -f ""$TARGET"" ]; then
+        printf $PATCH | dd conv=notrunc of=""$TARGET"" seek=$OFFSET bs=1
+        STATUS=$?
+        if [ $STATUS -eq ""0"" ]; then
+                echo ""******************************************""
+                echo ""*          PATCHED SUCCESSFULLY          *""
+                echo ""******************************************""
+        else
+                echo ""******************************************""
+                echo ""*   Problem Patching, check permissions  *""
+                echo ""******************************************""
+        fi
+else
+        echo ""******************************************""
+        echo ""*    Problem Patching, file not found    *""
+        echo ""******************************************""
+fi"
+,seiferd,2010-08-03T19:54Z,"Are we sure there is no malware in this one? ClamXav didn't detect anything on the other one that got pulled. 
+
+Anyone got intego who can run a scan?"
+,seiferd,2010-08-03T20:17Z,"Just scanned myself, looks clean!"
+,kl20,2010-08-07T13:16Z,what's the serial number for this??
+,kl20,2010-08-07T13:20Z,"I found the install numbers in my downloaded files, but when I entered it, it said it wasn't valid. Help on this?"
+,kl20,2010-08-07T13:29Z,"Sorry everyone, this is my very first experience with Pirate bay, please excuse all the questions. :) When I tried to use the product key when asked, that's what came up as ""invalid"", but I just entered the Word key, and it worked immediately. Thank you!"
+,astro123,2010-08-08T06:59Z,"Works great! Couple of hints:
+1. The main serial number is for the Beta 4; not sure why this was included. In this beta, you need to enter the individual serial number for each app (Word, Excel, etc.) and then each one works fine.
+2. If you are trying to patch the expiration, there is a bug in the script posted by ""sixer"". Replace the TARGET line with the following:
+TARGET=""/Applications/Microsoft Office 2011/Office/MicrosoftComponentPlugin.framework/Versions/14/MicrosoftComponentPlugin""
+That should work much better."
+,astro123,2010-08-08T07:00Z,"In the above, make sure the TARGET is a single line, not two lines as it appears in the browser."
+,faluda,2010-08-08T20:06Z,"hey, found beta 6 on the net at http://www.downeu.com/software/122457-microsoft-office-for-mac-2011-beta-6-1400-build-100802.html
+
+Will Wanderers Expiration Patch work for it?"
+,becoo1,2010-08-17T11:03Z,There are rumours around that this version contains a keylogger (malware). Can somebody confirm? Thanks
+,becoo1,2010-08-17T22:27Z,was a hoax! file is clean :)
+,scud11,2010-08-29T15:03Z,"HELP! During installation (double clicking on *.dmg) it asks me for password, then I take it from file ""OFFICE 2011 BETA 6: MUV37..."", I click ""OK"" - and I have got information ""wrong password or user name"" - WHAT SHOULD BE A USER NAME? what I do wrong? For what I need patch command? HELP! HELP! HELP! HELP! "
+,kl20,2010-08-30T19:03Z,"I see the ways around the expiration date (thanks for that!) but you're speaking to a 'computer language' newbie - so I'm unsure WHERE to input all the given information, to bypass the trial period. What file do I need to go into to bypass the trial and enter in your given information? Thank you in advance. All of it is much appreciated! :)"
+,Ness4114,2010-09-02T04:50Z,"I'm sorry, I have no idea how to run the patch given by Sixer.  Can someone help?"
+,ecf1965,2010-09-02T21:49Z,"@sixer
+Can you tell me how to apply the expiry patch? Do I do it in Terminal? I'm not as technical as some.
+Thx"
+,laotseu,2010-09-07T13:14Z,serial already blacklisted - DO NOT DOWNLOAD !

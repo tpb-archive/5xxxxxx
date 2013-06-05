@@ -1,0 +1,207 @@
+_________________________
+
+Index:
+
+* Welcome
+* What is WinBorg XP
+* Instructions
+* What's New
+* FAQ
+* Change log
+
+_________________________
+
+** Welcome **
+_________________________
+
+Hi there! Welcome to the new edition of WinBorg XP ... once you've confirmed it works as advertised, please spread it around as far and wide as you can. This README text file contains all the answers to questions you may have, so please read it if you encounter problems. You can also post questions and report problems to the homepage at http://sharethefiles.com/forum/viewtopic.php?t=49284
+
+_________________________
+
+** What is Winborg XP **
+_________________________
+
+If you boot with this DVD and start one of the setup routines, this will clean install a corporate edition of Windows XP Pro SP3 updated to the month of release. The aim is for you to be able to stick this DVD in, quickly get setup running, and then when setup finally stops, your computer is ready to use. There are no steps in between, you don't need to do a thing, you get a fully unattended installation of everything. This means all your device drivers installed and no critical updates need installing. You just sit back and enjoy the ride.
+
+Actually, there are some options you can select, in particular, the Driver Packs Selector is something you'll want to look out for as the operating system is installed because you can choose extra driver packs that aren't selected by default and you can also un-select some to save some time for the install. You can also set the type of screen resolution you have - standard or widescreen - this will make the end result a lot more satisfying to gaze upon. Once setup has finished, select your favourite applications from the fully-stocked software library -- all titles are installed for you and you don't have to do anything about registering, cracking, or any of that crap. Just reboot at the end.
+
+Winborg XP was created by BartOfBorg.
+
+Further development since August 2006 by Soporific.
+
+_________________________
+
+** Instructions **
+_________________________
+
+* Burn the image to DVD at slow speed or verify the data after burning
+* Make sure the BIOS of your PC is set to boot from your DVD drive
+* Boot with the DVD and choose your OS option, or use the Tools to check your hardware
+* Not all tools from the Tools menu will work on your machine, so don't be concerned. Just try another tool.
+* Some USB devices interfere with setup so if you experience problems, try unplugging all USB devices and then trying again.
+* Be cautious when selecting extra driverpacks when you see the list of available packs (after your PC reboots for the 1st time) - if devices don't appear to work as intended, redo the installation without them or unplug the devices and install them after the OS is installed. Also, check Device Manager for incorrectly installed devices after setup has finished.
+
+_________________________
+
+** New in this version **
+_________________________
+
+* A new 4th OS option was added
+
+_________________________
+
+** FAQ **
+_________________________
+
+Q: What is this DVD?
+A: It's an unattended Boot and Installation DVD for Windows XP Professional SP3 build 5512
+
+Q: What is WinBorg XP?
+A: 'WinBorg XP' was created by BartofBorg and developed until the final release in 2005. An updated version was released in August 2006 by me that was simply the same DVD but with everything updated and some new features. Another update was released in February 2007. For WinBorg XP August 2007 the disc was completely rebuilt, the only remaining element from the previous WinBorg discs by BartofBorg being the install theme. The next release in November 2007 was another complete rebuild with a change to a multi-boot format. The less said about WinBorg XP February 2008 the better. March 2008 saw the introduction of the Matrix theme and this was also the first build i finally got completely right. All versions since then have been slightly improved, but nothing major has changed since the March 2008 edition.
+
+Q: What does it do?
+A: If you boot with this DVD and start one of the setup routines, this will clean install a corporate edition of Windows XP Pro SP3 updated to the month of release. You can also boot into Hiren's Boot CD to use the utilities there to test your system's hardware before installing the operating system (OS). Unless your hardware is new, it is HIGHLY recommended doing RAM tests, and also surface scans of your hard drives before starting the OS installation. If you report problems, the first thing i will ask is 'have you confirmed your hardware still works 100% perfectly?'... as there are so many programs to choose from, every bit of hardware can be tested. There are other utilities available as well, see below for the full list.
+
+Q: Do i have to worry about 'validating' this copy of Windows?
+A: No worries mate! If you want to use Windows Update, you can. If the website asks you to validate, go ahead as you will pass their nasty test. So have no fear! There is no need to fear submitting to be authenticated at anytime. Don't ask me how this is achieved, i gotta have some secrets.
+
+Q: When i reboot the PC, it is asking for a username and password ... what are they?
+A: This happens if you install some of the tweaks available from the apps menu. The username you should use is "Administrator" (without quotes), and the password is blank (ie leave the password field empty). You should create a new profile as soon as possible, because it is not a good idea to use the Administrator account for general use.
+
+Q: I installed Winborg XP about 3 months ago and now it is saying my password will expire soon ... but i didn't set one!
+A: In this situation all you need to do is set the new password the same as the old one, ie nothing (leave it empty)!
+
+Q: I can't seem to boot from the DVD, and i have set my machine to boot from the DVD in BIOS, what do i do?
+A: Some older machines and some of the newer netbook machine with low screen resolutions can't boot with Ezyboot which uses a graphical interface. If this is the case, you will need to remake the DVD image. Copy the DVD contents onto your PC (you will need about 10 gigs of space), look for the MakeDVD folder in the place where you saved the files, and run the MakeDVD.exe utility. When asked which boot method you want to use, choose CD Shell (the older method).
+
+Q: So, all these programs that are also available, what do i have to do to use them?
+A: Just choose to install them. Every program in the post-install applications menu has been cracked or was free in the first place. Each title installs silently or unattendedly. No user interaction should be required!
+
+Q: Sometimes when i use the Apps Menu, some of the programs seem to hang and the rest of the apps are not installed.
+A: Sorry about this, but sometimes the automation is not entirely right - in very rare situations you may have to abort the current list of apps (use the abort button), reboot, and try again. Its a good idea not to include the problematic app that was hanging until everything else is installed. Then try again. Also, some Anti-Virus programs consider the keygens and patches that are contained on this DVD to be 'Trojans' - the worst culprits are AVG and AVAST. This means they will interfere with the automatic installation routines that require these keygens and patches to be briefly run.  If you suspect this may be happening, just de-activate the anti-virus scanners until all apps are installed. You'll just have to trust me that these AREN'T actually trojans!! If you dont' believe me, choose ANY OTHER anti-virus program (like NOD32 or Kaspersky) and see if the same things happen. I'll save you some time --- both those apps don't report the same files as AVG does as being bad files.
+
+Q: Are there any specially designed WinBorg XP DVD cover images that we can use to print onto the DVD?
+A: No, not for this version. I may get around to designing some for the next release. Feel free to make your own to print. If you think its good enough, send it to me! Post a message to the homepage...
+
+Q: I need to use WinBorg at a workplace and i can't risk the OS booting with the WinBorgXP bootscreen, is there any way to make WinBorg look normal?
+A: Yes! Don't choose to install the WinBorg XP option. Choose to install the Vanilla edition - it is still totally updated but it will look like a normal installation of Windows XP.
+
+Q: I heard some music playing while the post-install apps was loading and running, where can i find that again?
+A: Just do a search on the DVD for mp3 & ogg files.
+
+_________________________
+
+Boot Menu Features:
+
+* 4 different flavours of Windows XP Professional SP3 - install with or without the latest hard disk drivers.
+
+* Tools Menu:
+- Hard Drive Mechanic Gold Edition -- an excellent disk & file system repair tool
+- HDD Regenerator 1.61 -- can restore bad disk sectors to working order
+- Hiren's Boot CD 10.5 -- many many tools that can test your hardware before install
+- Partition Wizard 4.2 -- perform all sorts of operations on your disk partitions
+- MemTest 86+ 3.4 -- easy access to this useful program
+- HDClone Pro 3.2 -- clone entire disks or partitions from one to another.
+- SpinRite 6 -- verifies & tests the physical magnetic media of a hard drive
+- Acronis True Image -- hard disk drive copy, cloning, disk imaging, and disaster recovery software
+
+
+*** Please Note: If you plan of visiting the applications folder, the installation packages are all switchless installers meaning that all you do to install the application is run the file. This means that once you start the file, that's it, no message boxes asking if you have made the right choice. If you have made the wrong choice, every application comes with an uninstaller so wait until its finished installing, reboot, and then un-install. In some cases you can extract the files within each package to find out more about what the package contains, but even then unless you are a computer head, it probably won't be of much use. It is highly recommended you don't use the computer while the installers are running, especially when in a few cases there is an AutoIT script running that will need to recognise active windows in order to work.
+
+*** One last thing: If you are launching the apps menu yourself - ie you aren't also installing the operating system - then it's up to you to remember to reboot your machine after all the installations have finished. Don't forget!!
+
+___________________________________
+
+** Change log **
+___________________________________
+
+** June 2010 Rev 2
+
+- Just after i released the June 2010 edition of Winborg, lots of new apps and hotfixes were released, also new driverpacks. The 'Revision 2' edition is simply an updated version of the original June 2010 release.
+
+** June 2010
+- added a 4th OS option - the 1st OS option is now completely tweak free, only updates are added. All other OS options moved down an option.
+- lots of updates to background images
+- removed Microsoft Office completely, OpenOffice replaced it.
+- many minor cosmetic changes to setup scripts
+
+** December 2009
+- updated OS and apps (of course)
+- I have switched to using a different update pack -- all previous versions from this year used a combination of RyanVM's Jan 09 pack and the current Xable update pack. I am now using User_Hidden's Update pack (which is basically an updated version of RyanVM's pack). This is heaps better ... u get all the essential and highly recommended updates, and none of the extras u don't really need. go here for the full list of included updates:
+- Windows Time bug has been fixed
+- switched from Hashtab to HashCheck (superior options)
+- A few little cosmetic changes were made
+- modified the way system files are installed to save more space
+- updated the Boot Menu Tools Apps
+
+** August 2009
+- major overhaul of the code was undertaken. lots of little things cleaned up.
+- driverpacks were updated to the latest beta packs -- its been ages since the official ones have been updated, especially the Sound packs. They still haven't releaaed them as official but they work very well apparently. I have tried them and they worked perfectly for me.
+- update to the User Settings utility - added ability to create a user profile and change the product key from within the utility.
+- updated starting fonts for all OS options.
+- all apps in the apps library use the new install system - every title starts and finishes with a one-second message.
+- added new themes and wallpapers and got rid of some old ones.
+
+** March 2009 **
+- OS and apps updated
+- Windows XP Live! v0.98.2 is included
+- new: icons, themes, wallpapers, and one new screensaver.
+- fixed: missing text from Setting utility
+- fixed: previous versions of Winborg XP were starting to fail validation - now fixed.
+- there are less apps this time around, there's a new Winborg Apps library disk coming soon.
+- that's all folks.
+
+** November 2008 **
+- Driverpacks are updated
+- OS updates to month of release
+- Apps updated to latest versions
+- inserting new removable drives now doesn't ask you for their drivers - they are installed automatically in the background like they should be
+- all booting with the DVD problems are no more -- i've permanently switched to a new boot system (Ezyboot)
+- the default Windows XP theme was all messed up -- now fixed for those who want the default theme.
+- When using Statbar, the July edition was causing this to not load properly - you had to shut it down and reopen it. -- This is now fixed.
+
+** July 2008 **
+- this edition was pretty terrible, sorry!
+
+** March 2008 **
+- Integrated SP3 build 5508
+- Added new Driverpacks selection system
+- Added 3 Printer driver packs
+- Driverpacks are updated to 31st March 2008
+- OS updates as of 31st March 2008
+- APPS updated to latest versions
+- Windows Pre-Installation Environment has been removed (its now a separate CD)
+- new icons pack integrated for 6 of the OS options
+- new 7th OS option allows a standard vanilla installation of Windows XP with updates only (no tweaks or addons).
+- added new feature: Post-Install Suggestions text file opens after setup finishes.
+- re-designed the autorun and UserSettings apps
+
+** February 2008?**
+- Integrated SP3 build 3311
+- Driverpacks are updated to 29th February 2008
+- OS updates as of 29th February 2008
+- APPS updated to latest versions
+
+** January 2008?**
+- fixed: no more Google toolbars are installed! Yay!
+- fixed: problem with input languages, they are all now available
+- Driverpacks are updated to 1st February 2008
+- OS updates as of 1st February 2008
+
+** November 2007?**
+- added: many new control panel apps - you will have 56 objects in your control panel.
+- updated: redesigned the entire boot menu into 5 or so pages of information
+- added: HD Clone Professional 3.2 to boot menu
+- added: Windows Pre-install Environment - made entirely from scratch but some of the apps and the shortcut generator came from LastXP17. So, some credit to ReturnOfNights and the LastXP team. Good one guys.
+- fixed: bug in code that adds Device Manager to Right-Click context menu
+- fixed: bug where you get two "Cmd Prompt here" entries in the right-click menu
+- added: driverpack "extract % completed" progress indicator, this tells you exactly how long all the driverpacks have to go to extract. Nicked from the latest eXperience DVD.
+- updated: driver pack finisher
+- updated: all pre-existing driverpacks
+- added: 13 new packs - Broadband, Input, Misc, Modem, Monitor, PrintersCanonLaserjet, Scanner, SmartCardReader, TouchScreen, TV, USB, Virtual machine, WebCam
+- added: option to use driverpacks or not before setup starts
+- added: User Settings changer designed from scratch that allows easy access to changing "User Name", "Organization Name", "Computer Name" and "Workgroup", and also can do other tasks. The idea nicked from LastXP but the application i wrote myself.
+
+___________________________________
+
+Capitalism is a system of exploitation and oppression, so join the revolution already! Seriously, the system is killing us and we can do so much better.

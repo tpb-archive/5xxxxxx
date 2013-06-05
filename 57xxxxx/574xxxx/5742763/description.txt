@@ -1,0 +1,3 @@
+Deltaisos to generate the entire Fedora 14 Alpha RC1 x86_64 install disc set. First use Fedora-14-Alpha.TC2_RC1-x86_64-DVD.diso to convert from the TC2 x86_64 DVD ISO to the RC1 x86_64 DVD ISO.  Then use the other deltaisos to convert from the new DVD image to each of the other new install images.
+
+Instructions at https://fedoraproject.org/wiki/Delta_ISOs

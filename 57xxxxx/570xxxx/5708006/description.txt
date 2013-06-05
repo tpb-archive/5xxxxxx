@@ -1,0 +1,18 @@
+BSNL Broadband usage finder
+
+
+     This tool is an automated way to check BSNL Broadband (dataone) usage. This tool was initially developed when BSNL usage checking website provided only session logs and did not provide total bandwidth usage. Later upon request from users lot of features were added to program.
+
+Some features of this tool
+
+
+* Auto login to BSNL usage checking site
+
+
+* Daily total of non free and free usage( for those having night(2am to 8am) free usage)
+
+
+* Graphic display of daily usage
+
+
+* Summary of usage, daily average used , average usable, estimated bill etc.

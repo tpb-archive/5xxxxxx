@@ -1,0 +1,46 @@
+Format                           : AVI
+Format/Info                      : Audio Video Interleave
+Format profile                   : OpenDML
+File size                        : 2.10 GiB
+Duration                         : 1h 42mn
+Overall bit rate                 : 2 941 Kbps
+Writing library                  : Boilsoft Joiner build 2411/release
+
+Video
+ID                               : 0
+Format                           : MPEG-4 Visual
+Format settings, BVOP            : Yes
+Format settings, QPel            : No
+Format settings, GMC             : No warppoints
+Format settings, Matrix          : Default (H.263)
+Muxing mode                      : Packed bitstream
+Codec ID                         : DX50
+Codec ID/Hint                    : DivX 5
+Duration                         : 1h 42mn
+Bit rate                         : 2 801 Kbps
+Width                            : 720 pixels
+Height                           : 404 pixels
+Display aspect ratio             : 16:9
+Frame rate                       : 25.000 fps
+Resolution                       : 24 bits
+Colorimetry                      : 4:2:0
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.385
+Stream size                      : 2.00 GiB (95%)
+Writing library                  : DivX 6.8.5 (UTC 2009-08-20)
+
+Audio
+ID                               : 1
+Format                           : AC-3
+Format/Info                      : Audio Coding 3
+Codec ID                         : 2000
+Duration                         : 1h 42mn
+Bit rate mode                    : Constant
+Bit rate                         : 128 Kbps
+Channel(s)                       : 2 channels
+Channel positions                : L R
+Sampling rate                    : 48.0 KHz
+Stream size                      : 93.4 MiB (4%)
+Alignment                        : Aligned on interleaves
+Interleave, duration             : 40 ms (1.00 video frame)
+Interleave, preload duration     : 480 ms

@@ -1,0 +1,25 @@
+Name: Evil Clown
+version: N/A
+Platform: Windows 7 32 or 64 bit
+5 Wallpapers Included
+Extras: EvilCLown Start Orbz, EvilClown Timedate, Red-Explorerframe, and shell32 replacement files
+
+
+Install
+
+- Use Universal Theme Patcher To Patch Necessary Windows Files - [Read The Readme File] If your unsure run universal theme patcher and the program will tell you if you need to patch the files or not.  For 64-bit Systems you need to patch 2 copies of files: using UniversalThemePatcher-x64.exe to patch the 64bit files in windowssystem32; and using UniversalThemePatcher-x86.exe to patch the 32bit files in windowssyswow64.
+
+- Restart PC When Finished Patching
+
+run Evilclown_Theme.install.exe
+or
+copy and paste the contents of the Evil CLown Folder to: C:WindowsResourcesThemes
+
+To apply theme: right click desktop > personalize > Browse Through installed themes > click on theme to apply
+
+or double click the evilclown.theme file
+
+
+Optional
+
+Replace the system files included in the extras folder.  Backup the files and rename them before you replace them. You may have to take ownership of the file in order to rename it.  After all files are replaced > restart for changes to take effect.

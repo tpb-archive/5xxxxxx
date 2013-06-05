@@ -1,0 +1,77 @@
+User Type,Username,Date,Text
+,old60,2010-07-19T13:47Z,P.S. This not my relase... The limited help is possible...
+,old60,2010-07-19T15:27Z,"Simple translate below:
+
+""First of all:
+ In this kind the product was tested under Windows XP sp3 (32bit). That is almost pure system with the classical
+set (drivers. codecs pack, last DirectX, Office), established FSX updated to the second service-pack.
+
+And on-order:
+
+1. Folders and files from archive ""FSX_PMDG-MD11_v1-20-0055_rip.rar"" it is copied in a folder FSX,
+ observing an arrangement and hierarchy of folders.
+
+2. We insert into the file end dll.xml next lines (the file is in a folder of configuration FSX
+ On the way C:\Documents and Settings \""your name in WINDOWS"" \Application Data\Microsoft\FSX):
+
+
+    PMDG Options
+    False
+    PMDG\DLLs\PMDGOptions.dll
+
+
+    PMDG Events
+    False
+    PMDG\DLLs\PMDGEvents.dll
+
+
+    PMDG Sounds
+    False
+    PMDG\DLLs\PMDGSounds.dll
+
+
+On the sample of a file dll.xml from this distribution.
+If such file is not present on the specified way this file is copied there.
+
+3. We register a product in the register by means of a file ""PMDG_MD-11_FSX_Registry_Fix.reg""
+ (having cluck on a file twice and we agree on entering of the data into the register).
+
+... And everything, we fly... =)
+
+Necessary additions:
+ a. You at system should have a library of files ""Microsoft Visual C ++ 2008 Redistributable Package"".
+ b. Should be established SimConnect from SDK sp2 (FSX there should be updated to the second a service-paka or should be ???????????? addition ""Acceleration"").
+ If SimConnect is not present, the archive with installation include here.
+ c. The plane manager utilite is on the way ""a simulator folder"" \PMDG\a file ""MD11_LoadManager.exe""
+ (In this folder all information and system files of the plane) for convenience it is possible to create labels on a desktop.
+
+
+Happy landings.
+
+ -artkor3-""
+"
+,dalsol,2010-07-20T14:55Z,"Great upload, thanks for a job well done. Works like a charm (FS2004)"
+,jamesk5,2010-07-21T09:59Z,i got black screens and  buttons dont work - have any ideas??
+,old60,2010-07-21T11:42Z,For FSX:Try to establish SimConnect from this distribution... If at you OS x64 that the protective code in the register has to be here:[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Abraxis\TheftTracking\MBZ\htvz1]
+,derda2,2010-07-27T16:02Z,dalsol how did u install for FS9? I've copied into FS9 and FS9 immediately quits...so I forgot something? Thks
+,dalsol,2010-07-29T04:30Z,"@ derda2 all you need to do is ensure that you place the contents of each of the supplied folders, in the coreresponding folder in FS9. Pay particular attention to the ""Sound"" , ""Guages"" and ""Modules""folders. If you have any other PMDG products installed, just place the MD-11 folder in that PMDG sound folder. Also there is a file ""PMDG MD-11views.acv and the TCAS2v7.dll...place these anywhere in your FS9 main folder. Double click on ""PMDG MD 11 Registry""...click ""ok""... ""That's it. Lemme know if this helps."
+,derda2,2010-07-29T10:49Z,Thanks but intialize is counting down and i only get black sceens.
+,dalsol,2010-07-29T14:43Z,"Hmmm.? Since you're getting the countdown it means you're missing something. Do you have other PMDG products installed? You need to relace the ""PMDGOptions. dll"" in the modules folder. That is critical for everything to work. I also suggest replacing the ""FSUIPC.dll""...overwrite these if asked to do so. Also make sure there are two ""Guage"" files installed. "
+,kmankm,2011-01-08T19:40Z,"Thanks mate!
+Works perfectly
+
+Does any one know if you can download the liveries with this? I haven't tried it with this version cause i don't want to screw my FSX installation again"
+,lodestar738,2011-02-18T20:10Z,"Works on my fs9, but i need some help with fsx version, i have non working screens and fmc. I have windows 7 64bit, and i have fs9 and fsx and other pmdg products instaled too"
+,FPulzz,2011-03-09T14:56Z,"I was geting black screens on FSX but now it works perfectly. Check the modules, overwrite te FSUIPC.DLL and check manualy the reg as described above. Do this and it will work !"
+,kmankm,2011-03-24T21:37Z,"@lodestar738
+you never mentioned what you needed help with
+if your guages are blacked out then i suggest you update your fsuipc and also registry
+""If at you OS x64 that the protective code in the register has to be here:[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Abraxis\TheftTracking\MBZ\htvz1] """
+,kmankm,2011-03-24T22:07Z,"to instal the reg file for x64 systems:
+simply make a copy of the .reg file (for sefekeeping) right click edit and capy paste this:
+""[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Abraxis\TheftTracking\MBZ\htvz1]""
+instead of this:
+""[HKEY_LOCAL_MACHINE\SOFTWARE\Abraxis\TheftTracking\MBZ\htvz1]""
+run the reg file and youre done
+enjoy"
+,hhgstr,2011-04-20T16:16Z,works for me fsx win7 x64. install both x64 and x86 of vc++ 2008 redist.

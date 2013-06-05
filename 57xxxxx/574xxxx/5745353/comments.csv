@@ -1,0 +1,64 @@
+User Type,Username,Date,Text
+,NicePics13,2010-08-07T17:19Z,"OK, my previous torrents were removed from Demonoid and now it seems these too are being tracked by some corporate fools - just give it up!"
+,Syntax_E,2010-08-24T10:31Z,Does somebody know where I can get reg key?
+,dforell,2010-08-30T00:58Z,Found a way around the key.
+,raptorycp,2010-08-31T13:04Z,@dforell Please share the info!!
+,dforell,2010-08-31T19:33Z,"Won't let me post my message, says database error."
+,dforell,2010-08-31T19:34Z,Contact me at dforell86 at yahoo dot com.
+,mario001,2010-09-03T21:53Z,"replace 2.0ga's \ecs\install\register.dll  with 2.0rc7's and use reg key below:
+
+EN12UP20 & all zero
+
+good luck."
+,garfield1234,2010-09-05T19:33Z,"EN12UP20 & all zero ? meaning instead EN12UP20 you replace with all zero ;
+ EN12UP20 AND all zero ;
+EN12UP20 & all zero ???!! THX!!"
+,raptorycp,2010-09-06T13:35Z,"dforell is it mario001 way?
+
+Will try this later..."
+,Patzilla,2010-10-11T10:45Z,"Tried mario001:s suggestion about replacing register.dll with the one from with Ecomstation 2.0rc7.
+It works!
+I failed however to fully install Ecomstation. That has probably nothing to do with the password, but more with the computer I tried install it on.
+Programs needed Magic Iso & Image burner
+1. Download 2.0rc7 and extracted the register.dll ( \ecs\install\register.dll) (use Magic iso or a virtual CD reader, like Deamon tools)
+2. Replace 2.0 GA:s, using the Magic iso program. ( \ecs\install\register.dll) 
+(if you just copy the eCS20_cd1_en_us.iso into a folder, replace the register.dll - you wont fit the content onto a new cd with a burning program like Nero; it is simply too big!) 
+3. Burne CD (with image burner)
+4. Install Ecomstation 2.0 using:
+Username: EN12up20
+Serial: 00000000000-00000000000-00000000000-00000000000-00000000000-00000000000-00000000000-00000000000"
+,xakXOLAS,2010-11-08T19:31Z,name  and key is fine?
+,segin,2010-12-23T11:03Z,"For the ""EN12UP20"" code to work, you need to edit the .iso image for eCS 2.0 GA, disc 1.
+
+Grab eComStation 2.0 Release Candidate 7: http://thepiratebay.org/torrent/5063260/eComStation_2.0_RC7_Silver_Release_(OS2)
+
+Get a program that'll allow you to extract or mount ISO images. Grab \ECS\INSTALL\REGISTER.DLL from the eCS 2.0 RC7 ISO, extract it somewhere.
+
+Get Magic ISO: http://thepiratebay.org/search/Magic%20ISO/0/7/0
+
+Open eCS20_cd1_en_us.zip and extract the .iso image within. Open the .iso image in Magic ISO. Replace the \ECS\INSTALL\REGISTER.DLL with the one you extracted from eCS 2.0 RC7.
+
+Save the modified ISO, burn to disk, install with:
+Username: EN12up20
+Serial: 00000000000-00000000000-00000000000-00000000000-00000000000-00000000000-00000000000-00000000000
+
+That's it! For those that think that this is a whole lot of work, ever downloaded a game where you have to replace an .exe with a cracked one for the game to work? This is the same thing, except that you need to replace the file on an .iso image (like editing a LiveCD)
+
+If you do not replace the .dll, then the serial above won't work. If you do replace the .dll and it still doesn't work, try actually paying for eComStation.
+
+If you can't figure this all out, then you're just too stupid to enjoy OS/2 anyways, quit bothering us with your stupid questions written in horribly broken English and just go away, you're just annoying everyone else.
+
+And for those that got it to work, congratz. Go get yourself Odin and run Windows apps on it. (Odin is based on Wine, but it's not up-to-date and most stuff doesn't work right with it.)"
+,maxcrabs,2011-02-13T03:09Z,"its already hacked, get this:
+
+http://thepiratebay.org/torrent/6170829/eComStation_eCS_2.0_GA_Cracked_Installer_en12up20_fixed"
+,n1nj4Lo,2011-03-04T21:07Z,"EN12UP20 and all 0's key doesn't work anymore.... I'm getting tired of this, I've got like 5 or 6 eComStation cd's and none of them work... Even the one that I made and imported a real register.dll with that was said to be valid and allowed me to continue with the installation didn't work... Something wrong with installation or whatever IDK, and I have no idea where that CD Is anymore."
+,andremo,2011-04-06T19:16Z,"Patching the iso with the file from the version linked in the comments, and entering the suggested serial doesn't apepar to work. 
+However, I recall, to install an 1.2 release, one had to edit the iso file, and patch some file by simply uncommenting the register.dll file. 
+I've googled but I cannot seem to find any site mentioning this patch, and I don't recall which file was needed for this. 
+And I am not even sure if this patch is also valid for 2.0 versions"
+,andremo,2011-04-06T19:47Z,"Correction: the all zero patch does work after all.
+The ""problem"" is that the boxes take an input longer then visible. Be carefull not to enter too many zeros in the boxes."
+,nightlifecj,2011-04-16T18:41Z,"NicePics13.
+Please kindly help seed eComStation 1.2MR :|
+Thanks."

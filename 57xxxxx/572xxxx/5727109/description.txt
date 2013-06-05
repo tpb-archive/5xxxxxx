@@ -1,0 +1,27 @@
+Based on Toutou Linux (Puppy Linux FR), livecd for rescue (French only)
+Toutou Linux Rescue : version de toutou linux 4.31 modifiÃ©e
+
+*hardinfo : pour avoir les infos techniques sur la machine
+*Pour la gestion des partitions : Pmount, Gparted, Partview, et l'explorateur XFE
+*Pour sauvegarder ses donnÃ©es : Pudd, tesdisk, photorec, ddrescue, dvdisaster
+*Antivirus : XFprot, accÃ¨s internet indispensable pour l'installation de la
+derniÃ¨re version et la mise Ã  jour de la base.
+*Antivirus : ClamAv avec interface graphique
+
+AccÃ¨s Ã  tous ces outils facilitÃ© par l'apparition d'une boÃ®te de dialogue au dÃ©marrage.
+
+-Plopmanager : pour dÃ©marrer Ã  partir de n'importe quel pÃ©riphÃ©rique. Utile si on ne peut pas ou ne sait pas changer la sÃ©quence de boot.
+-Utilitaires :   
+* Parted magic 4.0 :pour partitionner
+* SuperGrub et SuperGrub2 : Logiciel de dÃ©marrage, rÃ©cupÃ©ration, suppression de GRUB
+* GAG 4.1 : Gestionnaire de dÃ©marrage (multi boot manager)
+* Offline NT password 080802 : pour rÃ©initialiser le mot de passe des comptes locaux utilisateur sous Windows
+* Dban : effacer de maniÃ¨re sÃ©curisÃ©e les donnÃ©es contenues sur un disque dur
+* Balder 10 : disquette de sauvetage basÃ©e sur FreeDOS
+* Memtest86+ 4.00 :pour diagnostiquer ses barrettes mÃ©moires.
+* Hardware detection tools : dÃ©tection matÃ©rielle
+ 
+http://zorgue.over-blog.fr/ 
+
+md5sum : 5571046e4aa1ce997a9346bcc041332b  Toutou_rescue_RC2.1.iso
+sha1sum : 7ed2fc1287a486f42d2817c7cf0751330b718810  Toutou_rescue_RC2.1.iso

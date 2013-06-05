@@ -1,0 +1,9 @@
+Changes in PerfectDisk Build 11.00.178 (08/13/2010):
+         1. We correct a bug when creating Auto Pilot schedules for Exchange Data stores on Exchange 2010. If individual stores were selected instead of all stores you would get an error.
+         2. A new feature was added to allow controlling the behavior (display) of the registration dialog. This can now be blocked using group policy, the config.ini file or the Enterprise Console
+         3. A new feature was added to control the VSS settings from Group Policy or the config.ini file.
+         4. A new feature was added to control the custom SmartPlacement settings from Group Policy.
+         5. We modified the behavior of the Screen Saver Auto-Pilot schedule to allow the monitor to power off. Prior to this version Screen Saver schedules would not run if the monitor powered off as not screen saver was present. This behavior was modified to recognize the corporate need to have monitor power down to save energy.
+         6. The defragmentation logic was modified to minimize skipping files during a defragmentation pass. Prior to this version a file could be skipping after failing to move when requested. This logic was changed to only skip the file under more restrictive terms.
+         7. We corrected a flaw in the SmartDefrag logic where the proper defragmentation algorithm was not always being used.
+         8. We added support for Japanese translations.

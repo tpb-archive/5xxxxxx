@@ -1,0 +1,31 @@
+##########################################################################
+#   1   -   Notes
+##########################################################################
+Do you have the WAT update installed, KB971033? If yes you may have got flagged as non-genuine, in order to become genuine again just do the following.
+
+* Launch the loader application and select to uninstall
+* Restart the PC
+* Install the loader and restart the PC
+* Visit the following website to revalidate Windows: www.microsoft.com/genuine/
+
+
+Is Windows failing to boot after you installed the loader? Just do the following.
+
+* Boot up the PC from your Windows installation disk
+* Select the "Repair your computer" option
+* Select "Command Prompt"
+* Input "bootsect.exe /nt60 SYS /force" (without quotes)
+* Restart the PC
+
+
+
+##########################################################################
+#   2   -   Changes
+##########################################################################
+Version 1.9.2
+* Added a new GRLDR version
+* Added an option to disable ACPI table sort (Use this if your system hangs under the default settings)
+* Added an option to disable the usage of type 4 memory (Try this if you lose genuine status after hibernation or sleep)
+* Tweaked the UI which now also displays the systems current serial
+* Fixed a bug which prevented the application from installing the loader over really old GRLDR versions
+* Other minor tweaks and fixes

@@ -1,0 +1,17 @@
+Test build for Android-x86 2.2 (Froyo-x86) on virtual machine.
+The iso is intended for vm only (virtual box, qemu, vmware, ...). It may not work on any other real x86 machine.
+
+Key Features
+
+Kernel 2.6.32.9
+Audio support for ICH AC97 and SB16
+Ethernet support
+Mouse cursor
+Persistent mode
+Some 3rd party apps updated
+
+In this build I add a special experimental mode for testing purpose. In this mode the system still boots from the iso and runs like a live CD, but it saves settings and user data to a Linux ext3 partition on the (virtual) harddisk. It also emulates a sdcard by a fat partition on the harddisk. Therefore, you don't need to install android-x86 to the harddisk, but all data are persistent. So I call it the persistent mode.
+ 
+http://www.android-x86.org/releases/build-20100812
+
+sha1sum : froyo-vm-20100812.iso

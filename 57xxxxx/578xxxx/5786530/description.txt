@@ -1,0 +1,65 @@
+Changelog 
+Bug fix: The program can randomly crash to List Index Out Of Bounds error when working with 
+
+the result lists, such as with the results of the Registry Cleaner. 
+Bug fix: The program can randomly crash to Access Violation error when working with the 
+
+result list. 
+Bug fix: Decrypt feature of File Tool's More Functions menu actually executes file Encrypt, 
+
+not Decrypt. 
+Bug fix: In History Cleaner, if you double click an item, select the Files tab and select 
+
+Properties from the Right-Click menu, nothing happens. 
+Bug fix: If you select not to install certain translations (e.g. Russian or Dutch), they are 
+
+still installed to your system. 
+Bug fix: Some scan modules of the Registry Cleaner are not scanning the 64 bit side of the 
+
+registry under 64 bit Windows. 
+Bug fix: Using the Right-Click menu's List Control features remove items from a result list 
+
+can cause an Access Violation error. 
+Bug fix: The result lists of some tools, such as Clean and Fix My Computer, can contain 
+
+duplicate groups, such as two "Temp files" groups. 
+Bug fix: The result list can show a negative number of selected items, for example: 
+
+"Selected: -1, highlighted: 0, total: 10" 
+Bug fix: Closing the program right after opening a tool, such as the History Cleaner, can 
+
+cause the program not to terminate properly. 
+Bug fix: The Registry Cleaner can sometimes display duplicate result lines, that is, a same 
+
+registry entry can be listed twice. 
+Bug fix: The Registry Cleaner can crash to Access Violation when using the Fix button. 
+Bug fix: The File Encryptor sometimes reports that the file you are attempt to decrypt is 
+
+not valid, even if the file is valid. 
+Bug fix: The File Encryptor fails to decrypt a file if the Also Encrypt The Filename option 
+
+was used. This bug in only in the GUI, all the encrypted files can be decrypted with this 
+
+fixed build, there is no data loss. 
+
+Improvement: The installer will from now on remember its previous settings, so when 
+
+installing the next update you will not have to make all the same changes again. 
+Improvement: The Registry Cleaner now finds more left-over data from old software. 
+Improvement: The installer now allows you to download translated versions of the Handbook, 
+
+Danish and Dutch being the first available translations. 
+Improvement: Accessing and modifying the result lists is now faster, the list control is 
+
+more responsive even with many items. 
+Improvement: In Clean and Fix My Computer, double clicking a registry item will now open it 
+
+in RegEdit and double clicking a temp file item will open its folder in Windows Explorer. 
+Improvement: Added a Right-Click menu to History Cleaner -> Double click item -> Select the 
+
+Registry tab. 
+
+New translations: Italian, Slovak. 
+Updated translations: Czech, Dutch, Russian.
+
+Home Page www.macecraft.com

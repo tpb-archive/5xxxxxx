@@ -1,0 +1,119 @@
+Comprehensive MIDway Walkthrough/Guide as seen on:
+  http://www.howardforums.com/showthread.php/473506-Comprehensive-MIDway-Walkthrough-Guide
+
+---------------------------------------------------------------------
+
+    Ok guys & gals, here's my attempt at a MIDway walkthrough.
+
+    Note: MIDway is a Windows application used to transfer Java games and apps to Motorola GSM phones using a serial or USB data cable.
+
+    - This walkthrough makes several assumptions.
+
+    1. That you have a Motorola phone with the Java App Loader enabled in your Java Settings Menu.
+    (If not, then you need to STOP and use PST, or P2KMAN + seem editing to enable it)
+    Note: SEEM 0032_0001 - Offset 43 - Bit 0 value=1 to enable, 0 to disable)-->See HERE and HERE for more information.
+
+    2. You have a USB data cable designed specifically for Motorola phones and have successfully used it to connect to Motorola Phone tools, p2kman or PST. In other words, the USB drivers should be installed and working properly. (Serial cable users: This walkthrough was written specifically for USB cable owners but the steps to use MIDway with your cable are nearly identical)
+
+    3. You should be running Windows XP or 2000, and know how to use it. While the steps for older versions of Windows are VERY similar, I intend to have screenshots below & I do not have screens for those operating systems, but the similarities should be close enough for you to find the necessary information.
+
+    4. You have the MIDway program downloaded and ready to execute. (Version 2.8 in this case)
+
+
+    --------------------------------------------------------------------------------------------
+
+    Before beginning, your PC and phone should be powered on, and your data cable should be connected to your phone only, but
+    DO NOT , I REPEAT DO NOT connect the usb cable to the PC at this time. Only connect the larger end to the phone.
+
+    STEP 1:
+    On your phone press the Menu button, and navigate to Settings, then Java Settings, then highlight the Java App Loader option(should be at the top)
+    and select it. You should then see a screen that says Insert cable Now
+
+    Insert the other end of the USB cable into your pc now. After you do this, you should see a brief screen on the phone that says 'Jal link is active...',
+    then it should return back to the Java Settings Screen. If not, then you have USB driver issues that need to be resolved before proceeding.
+
+    STEP 2:
+    On your PC, open the control panel, then open the Phone and Modem options applet and click the Modems Tab at the top.
+
+    At this point your screen should look something like this:
+    .
+
+
+    IMPORTANT: Take note of the Com port number listed (COM 3 in this example). This information is also located in the device manager under
+    Motorola USB modem properties, Advanced tab, Advanced Port settings button.
+
+    Once you've made a note (mental or otherwise) of the com port number, close the control panel and the Phone & Modem options applet.
+
+    STEP 3:
+
+    At this point you should run the Midway program from wherever you have it stored on your particular pc.
+    Once opened, your screen should look like the one below:
+
+    .
+
+    Note: If you receive an error that states "Cannot open serial port! Would you like to change MIDway settings,"click 'YES' and skip ahead to STEP 5
+
+
+    STEP 4:
+
+    Click on File, then Settings as I did in the screen capture below.
+
+
+    STEP 5:
+
+    Once done that will bring you to the screen below:
+    At this point you should change the COM port to match what was listed earlier in the control panel.
+    Hopefully you remember it or wrote it down. In addition, the baud rate should be set to 115200 and the AT command
+    box should be left blank. Once you've confirmed these settings click the 'OK' button and move along to STEP 6:
+    .
+
+
+    STEP 6:
+
+    Click on the 'Open JAD' button on the program, circled in red below:
+
+
+    Browse to the location on your PC where you have your JAVA game or App stored. (MIDway is designed to only look for files
+    with an extension of .JAD, so if you only have files with a .JAR extention then you need a program such as jadmaker
+    or jadgen to make a JAD file in order for MIDway to recognize it )
+
+    Once you've highlighted the one you want to transfer to the phone, click on the Open button as shown below.
+
+
+    STEP 7:
+
+    Once you've done that, you will see the screen below, click on the 'Send JAD' button that's circled in red.
+
+
+    After you click this button, the screen on your PHONE should then change and show details on the game/app
+    you chose (Name, Size, Version & Vendor).
+    NOTE: If you receive a TIMED OUT error ,then verify your COM port is set correctly by returning to STEP 4
+
+    Assuming that the communications between the phone & pc are normal, your options at the bottom of the phone's screen
+    should be CANCEL or DOWNLD. Press Download and the transfer should begin.
+    This may take some time depending on the size of the game/app in question, but the phone should show a download progress meter.
+
+    Once the transfer is done you should see a screen that says "Download Complete", then another that says "installing.."
+
+    At this point, the game or app will either install successfully, fail or give an error message stating "Application installed but may have limited functionality"
+    In those cases the game should still run, but parts of game may not function, such as sound or the controls (This varies depending entirely on the game/app in question)
+
+    The phone should then prompt if you want to run the game/app or not.
+    If you DO, I recommend you close MIDway on the PC first, then disconnect the cable from phone & pc and enjoy your new game.
+
+    ----------
+    Personal Note: For some bizarre & paranoid reason, I always feel the need to shut the phone off, and restart it at this point.
+    I probably have Microsoft to thank for this superstition, but restarting make me feel like everything is saved & configured properly and the universe is back in balance.
+    ----------
+
+    If you choose not to play the game and select 'NO,' you can then select another game or app to transfer by going back to step STEP 6
+
+
+    I hope this walkthrough turns out to be useful for someone, because it took a long time and its WAY past my bedtime
+
+    Enjoy, Peace and keep the to a minimum.
+
+    Remember, we were all newbies at one point. 
+-------------------------------------------------------------------
+
+This torrent also includes PST which enables the Java Menu on the phone in order to use Midway.

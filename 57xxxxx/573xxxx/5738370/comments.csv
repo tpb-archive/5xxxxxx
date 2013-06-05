@@ -1,0 +1,77 @@
+User Type,Username,Date,Text
+[T],FatFreddy69,2010-08-04T09:36Z,"This is ridiculous, Thepiratebay is messed up.
+ Here is again the description:
+
+###   He's Just Not That Into You (2009)   ###
+                Comedy | Drama | Romance  
+http://www.imdb.com/title/tt1001508/usercomments
+
+Format                           : Matroska
+File size                        : 4.32 GiB
+Duration                         : 2h 9mn
+Overall bit rate                 : 4 784 Kbps
+
+Video
+Format                           : AVC
+Bit rate                         : 4 000 Kbps
+Display aspect ratio             : 1 920 x 800 (2.40:1)
+Frame rate                       : 23.976 fps
+Stream size                      : 3.55 GiB (82%)
+Writing library                  : x264 core 88
+Encoding settings                : cabac=1 / ref=5 / deblock=1:-1:-1 / subme=9 / psy=1 /me_range=32 /chroma_me=1 / trellis=2 /8x8dct=1 / bframes=5 / rc=2pass / 
+
+Audio #1 English (default)          : DTS, 755 KB/s, 6 ch, 698 MB (16%)
+
+Separate Audio Tracks ( Skip From Download the ones you don't want):
+
+Audio #2 Cestina                       : AC3, 448 KB/s, 6 ch, 414 MB
+Audio #3 Deutsch                     : AC3, 448 KB/s, 6 ch, 414 MB
+Audio #4 Espanol                     : AC3, 448 KB/s, 6 ch, 414 MB
+Audio #5 Francais                    : MP3, 128 KB/s, 2 ch, 118 MB
+Audio #6 Italiano                     : AC3, 448 KB/s, 6 ch, 414 MB
+Audio #7 Japanese                   : AC3, 448 KB/s, 6 ch, 414 MB
+Audio #8 Magyar                     : AC3, 448 KB/s, 6 ch, 414 MB
+Audio #9 Portugues                 : MP3, 128 KB/s, 2ch, 118 MB
+Audio #10 Pyccky                 : AC3, 448 KB/s, 6 ch, 414 MB
+Audio #11 Thai                       : AC3, 448 KB/s, 6 ch, 414 MB  
+Audio #12 Ukrayin                  : AC3, 448 KB/s, 6 ch, 414 MB
+
+Subtitles: English (SDH), Arabic, Bulgarian, Chinese, Croatian, Czech(+ Forced), Danish, Dutch, Estonian
+French, German (SDH + Forced), Hebrew, Hungarian (+ Forced), Indonesian, Japanese, Korean, Latvian
+Lithuanian, Persian (Farsi), Polish (+ Forced), Portuguese, Romanian, Russian (+ Forced), Serbian, Slovak
+Slovenian, Spanish, Swedish, Thai (+ Forced), Turkish, Ukrainian (Forced), Vietnamese
+
+Sample; 21 MB, multisub
+
+Snap Shots:
+
+http://i.imagehost.org/0651/1_148.jpg
+
+http://a.imagehost.org/0824/2_31.jpg 
+
+##################################
+
+Use MKVextractGUI (      http://www.videohelp.com/tools/MKVExtractGUI    ) to mux in  dub files & subs.
+
+#################################
+
+Subtitles show the right characters (saved under the right Unicode ISO).
+In the future if you find subs not showing the right characters do the following:
+If the subs are muxed in mkv download & use MKVextractGUI to extract(demux) the subtitles from mkv, and mkvmerge GUI to mux back the edited/repaired sub in the mkv.
+Download Notepad++ (free)  from   http://sourceforge.net/projects/notepad-plus/ 
+The sub you demuxed from mkv Open and save as...ANSI !(Important!)
+Right click on the sub, Open with nppIExplorerShell.exe (Notepad++ exe)
+click Encoding(upper part menu)Character sets and chose the language ISO.
+Click again on Encoding then click on Convert to UTF-8 or Unicode Big Indian, save as...srt. 
+You're done with the encoding, now you can mux it back in the mkv with mkvmergeGUI.
+
+#################################
+
+Those with Win 7 64 bit might have issues with playing back secondary or external audios & subs etc.
+If k-lite pack(too complicated) not working try CCCP ( http://www.cccp-project.net/ ) 
+based on the same player (Media Player Classic).
+
+#################################
+
+ All my torrents are seeded. I regularly check back my older torrents and I will reseed where needed.
+Most of us want only the English (usually) Audio so I got the secondary tracks separately (demuxed)."

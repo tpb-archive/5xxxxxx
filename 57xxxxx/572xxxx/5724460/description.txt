@@ -1,0 +1,60 @@
+This is a direct DVD rip of Kung Fu Panda in Google's new open-source WebM format.
+
+**************************
+*** BIG FAT DISCLAIMER ***
+**************************
+
+WEBM IS A VERY NEW CODEC. THERE IS A VERY GOOD CHANCE THAT WHATEVER SOFTWARE YOU USE TO PLAY MOVIES DOES NOT YET SUPPORT IT.
+
+More info here:
+www.webmproject.org/
+
+If you're on Windows, you will need to download the DirectShow filter to enable playback in Windows Media Player:
+ 
+http://code.google.com/p/webm/downloads/list
+
+Alternatively, a development build of VLC will play it (on any OS).
+
+The current nightly build of Chromium (Google Chome dev build) plays the video fine, but trips up heavily on the 6 channel audio.
+
+**************************
+
+Why am I uploading this?: There's currently NO WebM content on TPB, and I thought it needed some. 
+
+Why Kung Fu Panda?: This was ripped primarily to demonstrate the codec, and it's the first DVD I picked up that had a progressive scan video track, and the audio didn't require amplification. It seemed good for the purpose of demonstrating what you can cram into a CD-R with WebM.
+
+Why WebM?: It's the new HTML5 standard codec. It has no patent restrictions, or any restrictions at all for that matter.
+
+Complete name                    : Kung Fu Panda.webm
+Format                           : Matroska
+File size                        : 691 MiB
+Duration                         : 1h 28mn
+Overall bit rate                 : 1 095 Kbps
+Writing application              : FFMpeg 0.6~svn20100711
+Writing library                  : Lavf52.73.0
+
+Video
+ID                               : 1
+Format                           : V_VP8
+Codec ID                         : V_VP8
+Duration                         : 1h 28mn
+Bit rate                         : 785 Kbps
+Width                            : 716 pixels
+Height                           : 432 pixels
+Display aspect ratio             : 2.35:1
+Frame rate                       : 25.000 fps
+Bits/(Pixel*Frame)               : 0.102
+Stream size                      : 495 MiB (72%)
+
+Audio
+ID                               : 2
+Format                           : Vorbis
+Format settings, Floor           : 1
+Codec ID                         : A_VORBIS
+Duration                         : 1h 28mn
+Bit rate mode                    : Variable
+Bit rate                         : 235 Kbps
+Channel(s)                       : 6 channels
+Sampling rate                    : 48.0 KHz
+Stream size                      : 182 MiB (26%)
+Writing library                  : libVorbis 20090709 (UTC 2009-07-09)

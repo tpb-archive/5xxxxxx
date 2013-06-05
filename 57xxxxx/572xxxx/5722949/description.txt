@@ -1,0 +1,19 @@
+INSTALL FIX FOR
+
+StarCraft 2 Wings Of Liberty Digital Download-WW
+-------------------------------------
+
+I've created an install fix for everyone who can't get the digital
+download release to install.
+
+Here's the fix, note I've included par files to check to see if your 
+files are corrupted.  the PAR2 files check your MPQ's to make sure they
+dl'd ok and the installer is in the zip file, you merely need to unrar
+the installer in the root where the MPQ files are
+
+
+1) extract the files to root MPQ directory
+2) Ensure that the installer.app directory exists and that you unrar'd
+it correctly
+3) Install quickpar
+4) Open the par2 files to check to see if your MPQ files are ok

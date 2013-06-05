@@ -1,0 +1,19 @@
+[img]http://img836.imageshack.us/img836/237/asduv.jpg[/img]
+
+This is the loader application thats used by millions of people worldwide, well known for passing Microsoft's WAT (Windows Activation Technologies) and is arguably the safest Windows activation exploit ever created. The application itself injects a SLIC (Software Licensing Description Table) into your system before Windows boots, this is what fools Windows into thinking it's genuine.
+
+Features
+Can be run as a standalone application
+Works well with all system languages
+Argument support for silent installs
+Can be used for pre-activation
+Application integrity checking
+Custom error handling
+Support for hidden partitions and complex setups
+Can work alongside Linux's GRUB or any other boot manager
+Works with TrueCrypt and many other types of hard drive encryption applications
+Add your own certificates and serials externally
+Offers certificate and serial installation only for users with an existing SLIC 2.1
+Automated system profiling (The application matches everything up for you)
+The rundown
+This will run on x86 and x64 systems â

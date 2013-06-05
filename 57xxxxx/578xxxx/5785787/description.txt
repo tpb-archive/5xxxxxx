@@ -1,0 +1,81 @@
+Houdini Master is the most complete visual effects and animation solution available. This award-winning and production-proven product handles the most challenging shots without the need for additional plug-ins or an army of programmers. Film production facilities can rely on Houdini Master to help them create stunning feature film effects and character animation.
+Features:
+Houdini Master is a full-featured 3D animation and
+visual effects software renowned for its node-based procedural workflow. Houdini Master is indispensible for visual effects artists and technical directors (TDs) and includes a fully unified dynamics environment. Houdini Escape is a complete 3D modeling, animation, lighting, rendering and compositing package that works well on its own or with Houdini Master. Houdini Escape includes strong character animation features such as
+powerful auto-rigging and muscle tools.
+Interoperability: Use Houdini Master to set up sophisticated particle and physical effects, then view and render them in Houdini Escape. Encapsulate those effects into Houdini Digital Assets, and you can bring them into Houdini Escape as interactive artist tools.
+Whatâ€™s new in Houdini 10:
+
+Dynamics:
+
+The new Pyro FX shelf tools let you create production-quality smoke and fire effects quickly. The shelf tools are backed by new DOP nodes (Pyro solver), SOP nodes (DOP I/O surface node), and a very flexible, production material (Pyro material). More information.
+You can now divide the work of a fluid simulation and distribute it to multiple networked computers.
+The wire, fluid, and cloth solvers are now faster due to multi-threading and/or algorithmic improvements.
+
+Motion FX:
+
+Motion FX allows you to easily add CHOPs effects to parameters using the parameters menu. More information.
+You can add effects to objects using the Lag Object and Jiggle Object tools on the Animation shelf tab.
+
+Fur:
+You can now create a clear part line in combed fur by using the Add Parting tool on the shelf.
+Replaced parameters on the Fur Object for specifying how thickness, frizz, and color vary along the length of each hair with ramps.
+
+Network usability:
+The network editor now has a toolbar to allow easier access to network functionality. Use the network editors Gear menu to turn the toolbar off.
+Sticky notes in the network. Press Ctrl + P to create a new note. More information.
+You can now nest network boxes inside each other.
+Improvements to wiring.
+Shaking a node disconnects it.
+Dropping a node onto a wire connects it. Hold ? Shift to connect the next free input instead of the first one. This new behavior is disabled if you turn selectable wires off in the main preferences.
+
+Dropped nodes now automatically snap to line up with their parents and siblings. More information.
+
+Holding ? Shift while dragging a node will move it with its children, and holding ? Shift + Ctrl will move the node with its parents. You can also turn on a checkbox called Move Tiles With Their Children on the Network editor page of the main preferences, which automatically move it together with its children.
+
+You can now press B in the network editor to quickly set/unset the bypass flag on the node under the mouse pointer. Press ? Shift + B to set/unset the bypass flags on the selected nodes.
+
+You can now use the HOUDINI_NODE_WIDTH environment variable to control the width of nodes in the network editor. The variable is a multiple of the flag width.
+
+The current node (the node displayed in the parameter editor) is now marked in the network editor with a dark outline when its not selected.
+
+General usability:
+Motion Effects let you very easily override a parameter with a CHOP network, allowing you to quickly apply an effect such as jitter or overshoot. More information.
+There is now stereoscopic viewing in the viewport, a stereo camera rig, stereoscopic rendering in ROPs, and stereoscopic MPlay and IPR viewing. The stereo camera rig is also on the Lights and Cameras tab of the shelf. More information.
+Better display and manipulation performance.
+Multi-line editor fields, such as on the Code tab in the type properties window, now feature a toolbar with common editing functions.
+Expression evaluation is now faster.
+
+Shading and rendering:
+The render view now supports fast previews that update as you change parameters. More information.
+New production-quality Pyro shader. More information.
+New occlusion materials. Useful for general occlusion passes, occlusion-for-compositing passes, or simple colored/textured type occlusion renders. More information.
+New Simple Ramp material in the palette, which makes for a useful x-ray or toon type material. More information.
+VOP networks now automatically convert datatypes when possible. You can middle-click an auto-converted connection and choose to create an explicit conversion node.
+The PBR rendering engine is now implemented in VEX. This allows you to export deep raster variables in PBR and to use a shader to control PBR rendering.
+You can now export deep raster planes such as direct_diffuse (Direct lighting, diffuse component) and direct_glossy (Direct lighting, glossy component) from PBR.
+Better filtering of shadow maps (also in 9.5).
+
+New shelf tools:
+
+The new Pyro FX shelf tab contains new pyro effects tools.
+There are two new Cloth shelf tools.
+Elastic Object is useful for simulating objects that try to regain their original shapes after a collision, such as a rubber ball.
+Dentable Object is useful for simulating objects that do not try to regain their original shapes after a collision, such as a crushed can.
+There is a new Animation shelf tab.
+Lag Object uses Motion FX to add lag to an object.
+Jiggle Object uses Motion FX to add jiggle to an object.
+The Freeze transforms tool pushes an objects Scene-level transforms down into a Transform surface node at the geometry level.
+The Knife tool lets you interactively split polygons along a drawn line.
+The Edge loop tool lets you easily insert a loop of edges in quad polygon geometry.
+
+Other improvements:
+Mac port is faster and more reliable.
+HOM is more completely implemented and better documented.
+Many improvements and new options in FBX translation.
+The context menu for parameters is now defined by an editable XML file.
+New Houdini Dark color scheme available in the color settings menu.
+Scripts can now disable ramp parameters.
+Bug fixes and optimizations.
+
+: Windows XP and Windows Vista x86, Linux, MacOS X

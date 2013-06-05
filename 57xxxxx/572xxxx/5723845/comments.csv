@@ -1,0 +1,70 @@
+User Type,Username,Date,Text
+,EvilOga,2010-07-29T08:43Z,Thx a lot!!!
+,EvilOga2,2010-07-29T13:18Z,"I haven't confirmed, but I'm fairly confident this doesn't contain all images.  img-m.onemanga rar file which is for Mobile versions of manga only has one image per manga.  I imagine the other rar files are the same and only provide one image per manga.  I think in order for this to be complete, expect  ~100+ gigs of scanlated images."
+,EvilOga2,2010-07-29T13:24Z,I believe my comment disappeared.  This is an incomplete collection.
+,EvilOga2,2010-07-29T13:26Z,"Nevermind.  It didn't.  Additionally, there isn't enough time to mirror the site in its entirety before it will disappear and I think it may take a community effort to recreate all the content in some fashion.  It would be awesome if there a kind of bittorrent technology that implemented ability to dynamically add content to a torrent so that many peers could fill missing gaps of any data. (e.g. individual image files)."
+,user12312,2010-07-29T21:23Z,"I couldnt complete mine because of disk space..
+Started it on main disk drive.. and i had only 30GB of free space..
+From what I know.. only the images I have more then 30GB of data.. (I moved some in other disk drive been compressed at a 96% of initial size)
+
+I started a new one yesterday.. i'm having 15GB of data from now.. and that include only the cover, page 1, page 2 and some page 3..
+Ur archive must be incomplete ;).
+
+If he keep the site open till the 2 august I might have the complete site to seed. 
+(www.onemanga.com, not beta, not mobile, not forum)"
+[V],phatwarez,2010-07-30T07:53Z,"If you make your own siterip and release it as a torrent your welcome to post the link in the comments.
+
+I'm pretty sure I got the main site completed, but your right, the files from the img server probably are incomplete. My problem wasn't hard drive space, it was the raw volume. I had actually done a first attempt on a regular magnetic hard drive, but due to the amount it was simply unworkable- just to count the totals would take hours. So I started over on my SSD which is much faster, but the space was limited."
+,user12312,2010-07-31T16:35Z,For all thoses that downloaded it.. Anyone can tell if it's really incomplete?
+,MedaForce,2010-07-31T20:36Z,"I finished the download and it just has page 1 for all of them. Kind of a bummer, my wife was really looking forward to having access to this. :("
+[V],phatwarez,2010-08-01T02:52Z,"I tried to get in contact with the site administration to get them to open up their directory, but they ignored me."
+,EvilOga2,2010-08-01T03:36Z,pw: How can I get in contact with you?
+,EvilOga2,2010-08-01T03:38Z,"nm, I downloaded nfo file"
+,EvilOga2,2010-08-01T18:49Z,I have downloaded about 64gb of images.  There are about 36gb of images remaining for me to have a complete archive.  Only ~14.5 hours remaining.  I do not have enough time to finish. =/  Perhaps there are others that have an archive also that may be incomplete as well but may also contain parts that are missing from my collection that I could combine to try to create a complete collection?
+,EvilOga2,2010-08-01T18:53Z,More like 45-60gb remaining
+,DannOrly,2010-08-02T08:02Z,"hey guys, i thought i was the only one who thought of this lol however i started it far too late and the program i'm using is only downloading @ 50 kb/s so I won't have near as much as you guys will, however I am going to continue to let it run until it exhausts all avenues (and here's hoping that the admin only removes the links for now and decides to remove the images at a later date...) and when it completes I will make a torrent of it and paste a link to it here, and hopefully we can collaborate it and get it to be mostly complete. I have a friend of mine doing this as well, and so I'll get ahold of his and slap it together with mine. I'm doing one of onemanga.com and m.1000manga.com since 1000manga isnt working, and the mobile was the only one that would allow me file access."
+,titenerd,2010-08-02T13:32Z,"Hey, since the images are still accessible on the site for now (only the links have been removed), if you have the folder structure from this torrent, you can download the rest! I wrote a little shell script, I tried it on the ""mobile-mangas"" part of the site since that was small (haven't finished dling the big index).
+
+Anyone who has a bash shell and lots of disk space, try this:
+
+#!/bin/bash 
+for i in *; do
+	cd $i
+		for j in *; do
+			cd $j
+				for k in {1..9}; do
+					curl -fsSO http://img-a.onemanga.com/mangas/$i/$j/0$k.jpg
+					if [ ""$?"" -ne 0 ]
+					then 
+						echo http://img-a.onemanga.com/mangas/$i/$j/0$k.jpg
+						break 
+					fi
+				done
+				for k in {10..50}; do
+					curl -fsSO http://img-a.onemanga.com/mangas/$i/$j/$k.jpg
+					if [ ""$?"" -ne 0 ]
+					then 
+						echo http://img-a.onemanga.com/mangas/$i/$j/$k.jpg
+						break 
+					fi
+				done
+			cd ..
+		done
+	cd ..
+done
+
+You need to execute it with the current directory being the first one where all the folders are, I think it's either directly ""img-a.onemanga.com"" or ""mangas""?
+
+I don't think I have enough disk space for the whole site, so please help!"
+[V],phatwarez,2010-08-02T14:25Z,"After I posted this rip I received a lot of feedback and support. I'm currently collaborating with others to collect and release a better, more extensive site rip. Expect a new torrent to be released soon."
+,user12312,2010-08-02T15:47Z,Well.. I was going to do it in PHP as I have the complete file structure ^^
+,user12312,2010-08-02T16:15Z,For those who cannot wait ;) found that on reddit http://somemanga.com/
+,DannOrly,2010-08-03T10:06Z,"Here's my torrent. 
+
+http://thepiratebay.org/torrent/5736288
+
+Might as well grab it and see if I have some files you (and the others who have sent you files) are missing. Hope it can be of some use, and I'll be sure to keep an eye out for your new torrent :3"
+[V],phatwarez,2010-08-18T11:16Z,A new site rip for onemanga has been completed and is scheduled to be released in a couple weeks. The delay is due to the enormous size. If you wish to inquire or discuss further please find me at my site since I rarely have time to go back and peruse old comments.
+,mr-walter,2010-09-07T03:58Z,How is your torrent coming? I'll seed for a lil while once it comes out.
+[V],phatwarez,2010-09-27T03:56Z,"The new, more complete siterip is available.
+http://thepiratebay.org/torrent/5854778"

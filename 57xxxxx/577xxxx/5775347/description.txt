@@ -1,0 +1,75 @@
+Algemeen:
+
+Volledige naam                   : De Legende van de Titanic.avi
+Formaat                          : AVI
+Formaat/Info                     : Audio Video Interleave
+Bestandsgrootte                  : 896 MiB
+Duur                             : 1h 22mn
+Totale bitrate                   : 1 526 Kbps
+Gebruikt programma               : VirtualDubMod 1.5.4.1 (build 2178/release)
+Gebruikte encoderbibliotheek     : VirtualDubMod build 2178/release
+
+Video:
+
+Formaat                          : MPEG-4 Visual
+Formaatprofiel                   : Advanced Simple@L5
+Formaatinstellingen, BVOP        : Ja
+Formaatinstellingen, Qpel        : Nee
+Formaatinstellingen, GMC         : Geen warppoints
+Formaatinstellingen, Matrix      : Aangepast
+Codec-ID                         : XVID
+Codec-ID/Hint                    : XviD
+Duur                             : 1h 22mn
+Bitrate                          : 1 205 Kbps
+Breedte                          : 640 pixels
+Hoogte                           : 448 pixels
+Beeldverhouding                  : 1,429
+Framerate                        : 25,000 fps
+ColorSpace                       : YUV
+ChromaSubsampling                : 4:2:0
+BitDepth/String                  : 8 bits
+Scansoort                        : Progressief
+Bits/(Pixel*Frame)               : 0.168
+Stroomgrootte                    : 708 MiB (79%)
+Gebruikte encoderbibliotheek     : XviD 1.2.1 (UTC 2008-12-04)
+
+Audio 1:
+
+Formaat                          : AC-3
+Formaat/Info                     : Audio Coding 3
+Format_Settings_ModeExtension    : CM (complete main)
+Codec-ID                         : 2000
+Duur                             : 1h 22mn
+Bitrate-modus                    : Constant
+Bitrate                          : 192 Kbps
+Kanaal(en)                       : 2 kanalen
+Kanaalposities                   : Front: L R
+Samplerate                       : 48,0 KHz
+Stroomgrootte                    : 113 MiB (13%)
+ Uitlijning                      : Uitgelijnd op interleaves
+Interleave, duur                 : 96 ms (2,40 videoframes)
+Interleave, preloadduur          : 96 ms
+Taal                             : Engels
+
+Audio 2:
+
+Formaat                          : MPEG Audio
+Formaatversie                    : Version 1
+Formaatprofiel                   : Layer 3
+Format_Settings_Mode             : Joint stereo
+Codec-ID                         : 55
+Codec-ID/Hint                    : MP3
+Duur                             : 1h 21mn
+Bitrate-modus                    : Variabel
+Bitrate                          : 114 Kbps
+Nominale bitrate                 : 128 Kbps
+Kanaal(en)                       : 2 kanalen
+Samplerate                       : 48,0 KHz
+Video vertraging                 : 216ms
+Stroomgrootte                    : 66,8 MiB (7%)
+ Uitlijning                      : Gesplitst over interleaves
+Interleave, duur                 : 24 ms (0,60 videoframes)
+Interleave, preloadduur          : 1033 ms
+Gebruikte encoderbibliotheek     : LAME3.98r
+Instellingen codering            : -m j -V 4 -q 2 -lowpass 17 --abr 128
+Taal                             : Nederlands

@@ -1,0 +1,42 @@
+
+********************************************************************************
+
+            The Resin Brothers present for your viewing pleasure:
+
+********************************************************************************
+
+TITLE:		Dude Where's My Car? (2000)
+DIRECTOR:	Danny Leiner
+SCREENWRITER:	Philip Stark
+
+STARRING:	Ashton Kutcher
+		Seann William Scott
+
+IMDB: 	http://www.imdb.com/title/tt0242423/
+
+VIDEOFORMAT:	720p x264 @ ~5000 kbits/s
+AUDIOFORMAT:	5.1 DTS English
+SOURCE:		Dude.Wheres.My.Car.Blu-ray.REMUX.MPEG2.1080P.DTS.HDT.RUS
+
+NO SUBTITLES, NO SECONDARY AUDIO!
+Get subs here: 
+http://www.sub-titles.net/en/ppodnapisi/search/sM/96420
+
+********************************************************************************
+
+Technical:
+
+Pass 1:
+
+ffmpeg -i Dude.Wheres.My.Car.Blu-ray.REMUX.MPEG2.1080P.DTS.HDT.RUS.mkv -s 1280x720 -vb 5000k -f matroska -vcodec libx264 -vpre libx264-default -pass 1 -passlogfile ffmpeg2pass -threads 4 -an -sn /dev/null
+
+Pass 2:
+
+ffmpeg -i Dude.Wheres.My.Car.Blu-ray.REMUX.MPEG2.1080P.DTS.HDT.RUS.mkv -s 1280x720 -vb 5000k -f matroska -vcodec libx264 -vpre libx264-default -pass 2 -passlogfile ffmpeg2pass -threads 4 -sn -an dwmc.mkv
+
+Muxing Pass:
+
+mkvmerge -o "DudeWheresMyCar720p.mkv" --global-tags dwmc.xml dwmc.mkv -a 4 -D -S Dude.Wheres.My.Car.Blu-ray.REMUX.MPEG2.1080P.DTS.HDT.RUS.mkv
+
+
+Didn't keep logs... Sorry

@@ -1,0 +1,212 @@
+[img]http://img339.imageshack.us/img339/3387/picsv.jpg[/img]
+
+
+
+eXPerience Presents...
+
+eXPerience Windows XP 2003 DVD (x86) - June 2010[TeNeBrA]
+________________________________________________________________________
+
+This DVD includes 8 Windows installations and 2 extra boot options...
+
+1) Install Full XP (with IE8 and WMP11) June 2010
+2) Install Slimmed XP (with IE8 and WMP11) June 2010
+3) Install TinyXP (with IE6 and WMP9) June 2010
+4) Install MicroXP (without IE or WMP) June 2010
+
+5) Install Full 2003 (with IE8 and WMP11) June 2010
+6) Install Slimmed 2003 (with IE8 and WMP11) June 2010
+7) Install Tiny2003 (with IE6 and WMP10) June 2010
+Install Micro2003 (without IE or WMP) June 2010
+
+9) Boot Acronis (Backup & Restore partitions)
+0) Boot Hiren's BootCD v10.6 (Live Windows XP)
+
+________________________________________________________________________
+
+- Full XP
+This has most of the required hotfixes slipstreamed with nLite,
+other odd hotfixes that cannot be slipstreamed (for example KB890830)
+are installed on first logon. This also includes IE8 and slipstreamed
+WMP11 with all hotfixes.
+
+- Slimmed XP
+Same as above with WMP11 slipstreamed, but this has a few items
+removed, the only item that might be needed is Chinese, Japanese
+and Korean. The only other items removed are redundant items like
+the Windows XP "Tour".
+
+- TinyXP
+This aims to remove only the big components in Windows. Its smaller
+size comes not from taking out items, but by simply not updating
+to IE8 or WMP11 and instead, updating the OS the same way to June
+2010 but with IE6 and WMP9 like the original XP. You will only see
+one Windows Update appear for this on Windows Update - "Internet
+Explorer 8"
+
+- MicroXP
+This is, as usual, stripped right down to the bare OS almost.
+
+________________________________________________________________________
+
+The Server 2003 versions are the same as above in terms of removed
+components, for example, Tiny2003 has the same items removed as
+TinyXP.
+
+________________________________________________________________________
+
+All installations are "typical" installations in that you can access
+the Repair Option or Recovery Console - even the MicroXP and Micro2003
+versions are NOT unattended. This allows you to choose your keyboard
+and timezone etc as Windows installs. If you don't like this and want
+an unattended installation, no problem, just look in the ISO folder
+on the DVD and there you have 32 options for making a CD sized ISO file.
+
+Drivers are automatically included with all eight installations.
+
+________________________________________________________________________
+
+To install Windows from this DVD, set your PC up so it will boot from
+the CD/DVD-ROM in the PC's BIOS.
+
+You do not need any product key for any of the installations.
+
+________________________________________________________________________
+
+DRIVERS
+
+You have the following drivers in all 8 options:
+
+- Chipset --------> (included by default)
+- CPU ------------> (included by default)
+- Graphics -------> (included by default)
+- LAN Ethernet ---> (included by default)
+- SATA -----------> (included by default)
+- Sound ----------> (included by default)
+- Wireless LAN ---> (included by default)
+
+When the PC reboots for the first time during installation (just after
+Windows files have copied) then you will see a driver selector pop up.
+
+If you do not catch this in time, or are not sat at the PC when this
+driver selector has timed out (after one minute) then all the drivers
+will extract - bear in mind, this will take a few gigabytes of disk
+space. If you do not want to extract the driverpacks, make sure you
+are sat at the PC after the files have copied and it reboots.
+
+________________________________________________________________________
+
+APPS folder
+
+SILENT INSTALLERS:
+
+7-Zip v4.65
+allSnap v1.33.2
+AutoIt v2.64
+Daemon Tools Lite v4.35
+DirectX 9c Feb 2010
+Everything v1.2.1.371
+Flash Player v10.0.45.2 (IE)
+FolderSizes v4.5.1.1
+Foxit PDF Reader Pro v3.0.1301
+GetDiz v4.4.0.2
+HashTab v3.0
+IMG Burn v2.5.0.0
+NET Framework v3.5
+Notepad2 v4.0.23
+Prio v1.9.9.2091
+Unlocker v1.8.8
+uTorrent v1.8.5.17414
+Visual C++ Runtimes 2005 2008
+VMware Workstation Lite v5.5.4 (Build 44386)
+WinRAR v3.91
+
+PORTABLE PROGRAMS:
+
+Agent Ransack v1.7.3.332
+ChromePlus v1.4.0.0
+Desksave v8.2.1
+DeVeDe v3.12.2
+Dir2Txt v1.0
+Duplicate File Finder v3.5
+DVDFab Platinum v6.2.1.8
+ExamDiff Pro v3.1.4.8
+Foobar2000 v1.0
+Google Earth v5.1.3506.3999b
+G Spot Codec Viewer v2.70a
+HandBrake v0.9.4
+Hex Workshop v6.0.1.4603
+Levelator v2.1.1
+Nero Micro v9.4.13.2
+Nicotine+ v1.2.10 With GTK+ v2.16.0
+Photoshop v11 CS4 Lite
+PowerArchiver 2010 v11.50.41
+Process Explorer v11.33
+Resource Hacker v3.4.0.79
+Shutdown Timer v1.0.3
+SMplayer v0.6.8.3392
+SoftMaker Office 2010 Rev 570
+SopCast 3.2.9 [SMplayer v0.6.9]
+Sound Forge v10.0a Build 425
+Startup Control Panel v2.8
+TCP View v2.54
+UltimateDefrag 2008 v2.0.0.55
+UltraISO v9.3.5.2716
+Unstoppable Copier v2.28
+Video MP3 Extractor v1.6.0.35
+Virtual DJ v5.2.1
+
+________________________________________________________________________
+
+ISO folder
+
+In the ISO folder you will see 32 batch files - these 32 files give
+you 32 separate options for building a sub-700Mb CD ISO file of a
+chosen option.
+
+You can choose XP or 2003, full, slimmed, Tiny or Micro but also,
+you can choose to include drivers (or not) and even make the CD
+install as an "Unattended" CD where no user input is needed in
+the Windows setup.
+
+________________________________________________________________________
+
+REMOVED ITEMS
+
+You can see what items were removed by opening the "Last Session.ini"
+file that corresponds to the installation you want to check.
+
+All nLite "Last Session" files can be found in the relevant folders:
+
+Option 1 = XP01I386SVCPACKNLITELast Session.ini
+Option 2 = XP02I386SVCPACKNLITELast Session.ini
+Option 3 = XP03I386SVCPACKNLITELast Session.ini
+Option 4 = XP04I386SVCPACKNLITELast Session.ini
+
+Option 5 = WS01I386SVCPACKNLITELast Session.ini
+Option 6 = WS02I386SVCPACKNLITELast Session.ini
+Option 7 = WS03I386SVCPACKNLITELast Session.ini
+Option 8 = WS04I386SVCPACKNLITELast Session.ini
+
+(If using these files, nLite version 1.4.9.1 must be used)
+
+These files also list all the hotfixes slipstreamed with nLite.
+
+All other Windows Updates can be found in the "WU" folder of
+each "????I386SVCPACK" (where ???? is XP01 or XP02 etc)
+
+________________________________________________________________________
+
+eXPerience folder (Desktop)
+
+Most of these folders contain quick solutions to things that otherwise
+would be buried away in the Windows GUI, or require DOS style commands.
+
+________________________________________________________________________
+
+Don't forget To Join The Forum @ SnipeR's Redemption Network:
+  http://retestrak.nl/board/
+
+Enjoy this fine release from eXPerience
+
+Release Date : June 2010

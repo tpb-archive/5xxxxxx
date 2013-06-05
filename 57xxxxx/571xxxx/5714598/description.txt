@@ -1,0 +1,133 @@
+Reuters at home - linux-win-mac [py]
+
+[align=center][b][SIZE=16][color=blue]Reuters at Home[/SIZE][/color][/b][/align]
+
+[b][color=green].: Descrizione del Software :.[/color][/b]
+
+Reuters at Home e' un programma che permette di leggere le headlines Reuters senza dover aprire un browser.
+E' Open Source, scritto in python, per cui funziona su ogni piattaforma (Linux, Windows, Mac).
+E' utile per avere velocemente le headlines di un settore particolare, e' una roba simile alle headlines che scorrono sullo schermo tv dei canali di notizie in tv (tipo bbc o rainews24) dove appare invece una notizia per settore.
+
+[b][color=green].: Scheda del Software :.[/color][/b]
+
+[b]Nome: Reuters at Home[/b]
+[b]Os: Linux,Windows,Mac[/b]
+[b]NazionalitÃ : Inglese[/b]
+[b]Anno: 2020[/b]                                    
+[b]Versione: ultima[/b]
+[b]Genere: informazione/notizie[/b]
+[b]Produzione: freeware[/b]
+[b]Distribuzione: questa rel[/b]
+[b]Data di uscita: ieri[/b]
+
+[b][color=green].: Note :.[/color][/b]
+
+Installazione:
+Non necessita di essere installato, l'unico requisito base e' avere un' interprete Python.
+
+Requisiti:
+www.python.org
+www.wxpython.org (serve solo per la versione grafica)
+connessione internet [:-)]
+
+Il programma e' disponibile in 2 versioni: 
+-command line
+-grafica
+
+Command Line:
+Esempio:
+
+lanciando il programma:
+python reuters.py
+
+si ottiene il menu:
+"""
+
+	Scegli fra questi settori:
+	 
+	 topNews
+	 worldNews
+	 politicsNews
+	 mergersNews
+	 healthNews
+	 businessNews
+	 technologyNews
+	 scienceNews
+	 environment
+	 domesticNews
+	 dealsNews
+	 inDepthNews
+	 internetNews
+	 entertainment
+	 privateequityNews
+	 oddlyEnoughNews
+	 
+
+
+
+"""
+
+quindi digitando ad esempio:
+python reuters.py topNews
+
+si ottiene:
+"""
+		U.S., U.N. boost Haiti aid security as looters swarm
+		PORT-AU-PRINCE (Reuters) - U.S. troops protected aid handouts and the United Nations sought extra peacekeepers to bolster security in earthquake-shattered Haiti on Monday as marauding looters emptied wrecked shops and tens of thousands of survivors waited desperately for food and medical care.
+
+	Obama scrambles to save Democratic Senate seat
+		BOSTON (Reuters) - President Barack Obama went on a rescue mission on Sunday to try to save an endangered Massachusetts Democratic candidate for the U.S. Senate whose defeat by a Republican could imperil Obama's sweeping healthcare overhaul.
+
+	Kabul "under control" after brazen Taliban assault
+		KABUL (Reuters) - Taliban gunmen launched a brazen assault on the center of Kabul on Monday, with suicide bombers blowing themselves up at several locations and militants battling security forces from inside a shopping center engulfed in flames.
+
+	Germany warns Iran it faces new sanctions
+		BERLIN (Reuters) - Iran faces further sanctions unless it changes stance in talks over its nuclear program, German Chancellor Angela Merkel said on Monday, even if there is no United Nations agreement to act against Tehran.
+
+	U.S. poll: fewer see Obama advancing racial ties
+		WASHINGTON (Reuters) - Fewer Americans believe the presidency of Barack Obama, the first African American elected to the White House, has helped advance race relations compared with a year ago, a Washington Post-ABC News poll suggests.
+
+	Qaeda denies fighters killed, Yemen vows more strikes
+		DUBAI (Reuters) - The Yemen-based wing of al Qaeda said on Monday its fighters had survived an air strike last week that Yemeni officials said killed six leaders of the militant group.
+
+	Moderate quake rocks Guatemala, Salvador; no damage
+		GUATEMALA CITY (Reuters) - A magnitude 6.0 earthquake hit Guatemala's Pacific coast near the border with El Salvador on Monday, the U.S. Geological Survey reported, but there were no immediate reports of victims or damage.
+
+	Turk who shot Pope John Paul released from prison
+		ANKARA (Reuters) - The man who tried to kill Pope John Paul II nearly 30 years ago was released from a Turkish prison on Monday, rekindling the mystery over whether he acted alone or had been hired by a Soviet-era secret service.
+
+	Flu pandemic easing, but risks remain: WHO
+		GENEVA (Reuters) - The H1N1 flu pandemic appears to be easing, but a third wave of infections could yet strike, the World Health Organization (WHO) said on Monday.
+
+	Somali pirates free oil tanker for record ransom
+		MOGADISHU (Reuters) - Somali pirates freed a Greek-flagged tanker carrying 2 million barrels of oil for a record ransom on Monday and witnesses said four pirates were killed in a clash between rival groups over the cash.
+
+"""
+
+
+Versione Grafica:
+la versione grafica consiste in una finestra con bottoni, ogni bottone corrispondente ad un settore (topNews, politicsNews ecc.), premendo il bottone si visualizzano le headlines nello spazio a destra.
+
+Consigli specifici per Linux:
+lanciando il comando: chmod +x reuters.py gui_reuters.py
+e' possibile omettere python prima del nome del programma, ad es.:
+./reuters.py 
+oppure
+./gui_reuters.py
+
+
+Considerazioni:
+Lo so, puo' ancora essere migliorato, comunque ogni suggerimento/feedback e' benvenuto!
+
+
+
+Banda: 20kB/s 24/24 7/7 fino ad assestamento della release
+
+se vi piace questa release forse vi interesseranno anche le atre mie rel:
+
+Le mie releases|My other releases|Mis otros torrentes: 
+http://tracker.btarena.org/account-details.php?id=35713 
+http://thepiratebay.org/user/exportacc/ 
+http://ilcorsaronero.info/usr/53046 
+http://1337x.org/user/exportaccoun/ 
+http://www.torrentmatrix.com/account-details.php?id=874873

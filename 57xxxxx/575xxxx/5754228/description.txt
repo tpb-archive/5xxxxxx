@@ -1,0 +1,440 @@
+Career Academy Hacking, Penetration Testing and Countermeasures 17 CDs
+Total Size: 4Gb
+
+Release includes:
+Featuring live instructor-led classroom sessions with full audio, video and demonstration components
+Printable courseware
+300+ Penetration Testing Review Questions
+eWorkbook - 725 pages Student eWorkbook developed by Shon Harris
+
+Our training videos will show you how to scan, test, hack and secure your own systems. The intensive demonstrations give each student in-depth knowledge and practical experience with the current security systems. You will begin by understanding how perimeter defenses work and then be lead into scanning and attacking your own networks. You will then learn how intruders escalate privileges and what steps can be taken to secure a system. Students will also learn about Penetration Testing and Countermeasures, Intrusion Detection, Policy Creation, Social Engineering, DDoS Attacks, Buffer Overflows and Virus Creation.
+
+Author:
+Michael J Lester - (CISSP, MCSE:Messaging & Security, MCSE+I, MCSA, MCT, CCNP, CCDP, CCSE+, CCI, CCEA, CTT+, Linux+, Security+, Network+, I-net+, A+)
+Michael holds a Bachelor of Science degree in Information Technology, and is a senior consultant and instructor for MicroLink Corporation. He divides his time between consulting and teaching. In his consulting work he performs security audits, penetration testing, network reconfigurations and design, and general troubleshooting for a range of small to large businesses. He has taught and written curricula for a variety of courses, including bootcamps for Microsoft and Cisco certification, Check Point, Citrix and IT security, and has worked for IBM Learning Services, the University of Miami and other institutions. For the individual needs of his clients he has created specialized courses that combine several technologies into week-long, hands-on training workshops.
+
+
+Course Detail:
+Module 1
+Ethical Hacking and Penetration Testing
+Security 101
+Hacking Hall of Fame
+What are Today's hackers Like?
+Today's Hackers
+Risk Management
+Evolution of Threats
+Typical Vulnerability Life Cycle
+What is Ethical Hacking?
+Rise of the Ethical Hacker
+Types of Security Test
+Penetration Test (Pen-test)
+Red Teams
+Testing Methodology
+VMWare Workstation
+Windows and Linux Running VMWare
+Linux Is a Must
+Linux Survival Skills
+Useful vi Editor Commands
+Module 1 Review
+
+Module 2
+Footprinting and Reconnaissance
+Desired Information
+Find Information by the Target (Edgar)
+terraserver.microsoft.com
+Network Reconnaissance & DNS Search
+Query Whois Databases
+Command-Line Whois Searches
+ARIN whois: Search IP Address Blocks
+SamSpade Tool and Website
+Internet Presence
+Look Through Source Code
+Mirror Website
+Find Specific Types of Systems
+Big Brother
+AltaVista
+Specific Data Being Available?
+Anonymizers
+Countermeasures to Information Leakage
+Social Engineering
+DNS Zone Transfer
+Nslookup command-line utility
+Zone Transfer from Linux
+Automated Zone Transfers
+Zone Transfer Countermeasures
+www.CheckDNS.net
+Tracing Out a Network Path
+tracert Output
+Free Tools
+Paratrace
+War Dialing for Hanging Modems
+Manual and Automated War Dialing
+Case Study
+www.guidedogs.com
+Footprinting Countermeasures
+Demo - Footprinting & Info Gathering
+Module 2 Review
+
+Module 3
+TCP/IP Basics and Scanning
+The OSI Model
+TCP/IP Protocol Suite Layers
+Encapsulation
+Data-Link Protocols
+IP - Internet Protocol, Datagram (Packet)
+ICMP Packets
+UDP â€“ User Datagram Protocol
+UDP Datagram
+TCP â€“ Transmission Control Protocol
+TCP Segment
+TCP/IP 3-Way Handshake and Flags
+TCP and UDP Ports
+Ping Sweeps
+Good Old Ping, Nmap, TCP Ping Sweep
+TCP Sweep Traffic Captured
+Unix Pinging Utilities
+Default TTLs
+Pinging Countermeasures
+Port Scanning
+Nmap
+Advanced Probing Techniques
+Scanrand
+Port Probing Countermeasures
+Watch Your Own Ports
+Demo - Scanning Tools
+Module 3 Review
+
+Module 4
+Enumeration and Verification
+Operating System Identification
+Differences Between OS TCP/IP Stack
+Nmap -O
+Active vs Passive Fingerprinting
+Xprobe/Xprobe2
+Countermeasures
+SNMP Overview
+SNMP Enumeration
+SMTP, Finger, and E-mail Aliases
+Gleaning Information from SMTP
+SMTP E-mail Alias Enumeration
+SMTP Enumeration Countermeasures
+CIFS/SMB
+Attack Methodology
+Find Domains and Computers
+NetBIOS Data
+NBTscan
+NULL Session
+Local and Domain Users
+Find Shares with net view
+enum: the All-in-one
+Winfo and NTInfoScan (ntis.exe)
+Digging in the Registry
+NetBIOS Attack Summary
+NetBIOS Countermeasures
+Whatâ€™s this SID Thing Anyway?
+Common SIDs and RIDs
+whoami
+RestrictAnonymous
+USER2SID/SID2USER
+psgetsid.exe and UserDump Tool
+LDAP and Active Directory
+GUI Tools to Perform the Same Actions
+Demo - Enumeration
+Module 4 Review
+
+Module 5
+Hacking & Defending Wireless/Modems
+Phone Numbers & Modem Background
+Phone Reconnaissance
+Modem Attacks
+Wireless Reconnaissance
+Wireless Background
+Wireless Reconnaissance Continued
+Wireless Sniffing
+Cracking WEP Keys
+Defending Wireless
+Module 5 Review
+
+Module 6
+Hacking & Defending Web Servers
+Web Servers in General: HTTP
+Uniform Resource Locator: URL
+Apache Web Server Functionality
+Apache: Attacking Mis-configurations
+Apache: Attacking Known Vulnerabilities
+Defending Apache Web Server
+Microsoft Internet Information Server (IIS)
+IIS: Security Features
+IIS: Attacking General Problems
+IIS: IUSER or IWAM Level Access
+IIS: Administrator or Sys Level Access
+IIS: Clearing IIS Logs
+IIS: Defending and Countermeasures
+Web Server Vulnerability Scanners
+Demo - Hacking Web Servers
+Module 6 Review
+
+Module 7
+Hacking & Defending Web Applications
+Background on Web Threat & Design
+Basic Infrastructure Information
+Information Leaks on Web Pages
+Hacking over SSL
+Use the Source, Lukeâ€¦
+Functional/Logic Testing
+Attacking Authentication
+Attacking Authorization
+Debug Proxies: @stake webproxy
+Input Validation Attacks
+Attacking Session State
+Attacking Web Clients
+Cross-Site Scripting (XSS) Threats
+Defending Web Applications
+Module 7 Review
+
+Module 8
+Sniffers and Session Hijacking
+Sniffers
+Why Are Sniffers so Dangerous?
+Collision & Broadcast Domains
+VLANs and Layer-3 Segmentation
+tcpdump & WinDump
+Berkley Packet Filter (BPF)
+Libpcap & WinPcap
+BUTTSniffing Tool and dSniff
+Ethereal
+Mitigation of Sniffer Attacks
+Antisniff
+ARP Poisoning
+MAC Flooding
+DNS and IP Spoofing
+Session Hijacking
+Sequence Numbers
+Hunt
+Ettercap
+Source Routing
+Hijack Countermeasures
+Demo - Sniffers
+Module 8 Review
+
+Module 9
+Hacking & Defending Windows Systems
+Physical Attacks
+LANMan Hashes and Weaknesses
+WinNT Hash and Weaknesses
+Look for Guest, Temp, Joe Accounts
+Direct Password Attacks
+Before You Crack: Enum Tool
+Finding More Account Information
+Cracking Passwords
+Grabbing the SAM
+Crack the Obtained SAM
+LSA Secrets and Trusts
+Using the Newly Guessed Password
+Bruteforcing Other Services
+Operating System Attacks
+Hiding Tracks: Clearing Logs
+Hardening Windows Systems
+Strong 3-Factor Authentication
+Creating Strong Passwords
+Authentication
+Windows Account Lockouts
+Auditing Passwords
+File Permissions
+Demo - Attacking Windows Systems
+Module 9 Review
+
+
+Module 10
+Hacking & Defending Unix Systems
+Physical Attacks on Linux
+Password Cracking
+Brute Force Password Attacks
+Stack Operation
+Race Condition Errors
+Format String Errors
+File System Attacks
+Hiding Tracks
+Single User Countermeasure
+Strong Authentication
+Single Sign-On Technologies
+Account Lockouts
+Shadow Password Files
+Buffer Overflow Countermeasures
+LPRng Countermeasures
+Tight File Permissions
+Hiding Tracks Countermeasures
+Removing Unnecessary Applications
+DoS Countermeasures
+Hardening Scripts
+Using SSH & VPNs to Prevent Sniffing
+Demo - Attacking Unix Systems
+Module 10 Review
+
+Module 11
+Rootkits, Backdoors, Trojans & Tunnels
+Types Of Rootkits
+A Look at LRK
+Examples of Trojaned Files
+Windows NT Rootkits
+NT Rootkit
+AFX Windows Rootkit 2003
+Rootkit Prevention Unix
+Rootkit Prevention Windows
+netcat
+netcat: Useful Unix Commands
+netcat: What it Looks Like
+VNC-Virtual Network Computing
+Backdoor Defenses
+Trojans
+Back Orifice 2000
+NetBus
+SubSeven
+Defenses to Trojans
+Tunneling
+Loki
+Other Tunnels
+Q-2.4 by Mixter
+Starting Up Malicious Code
+Defenses Against Tunnels
+Manually Deleting Logs
+Tools to Modify Logs
+Demo - Trojans
+Module 11 Review
+
+Module 12
+Denial of Service and Botnets
+Denial-of-Service Attacks
+CPUHog
+Ping of Death
+Teardrop Attacks
+Jolt2
+Smurf Attacks
+SYN Attacks
+UDP Floods
+Distributed DoS
+DDoS Tool: Trin00
+Other DDoS Variation
+History of Botnets
+Anatomy of a Botnet
+Some Common Bots
+Demo - Denial of Service
+Module 12 Review
+
+Module 13
+Automated Pen Testing Tools
+General: Definitions
+General:What?
+General: Why?
+Core Impactâ„¢ Framework
+Core Impactâ„¢ Operation
+Canvasâ„¢ Framework
+Canvasâ„¢ Operation
+Metasploit Framework
+Metasploit Operation
+Demo - Automated Pen Testing
+Module 13 Review
+
+Module 14
+Intrusion Detection Systems
+Types of IDSs
+Network IDSs
+Distributed IDSs (DIDSs)
+Anomaly Detection
+Signature Detection
+Common IDS Software Products
+Introduction to Snort
+Attacking an IDS
+Eluding Techniques
+Testing an IDS
+Hacking Tool - NIDSbench
+Hacking Tool - Fragroute
+Hacking Tool - SideStep
+Hacking Tool - ADMmutate
+Other IDS Evasion Tools
+Demo - IDS and Snort
+Module 14 Review
+
+Module 15
+Firewalls
+Firewall Types
+Application Layer Gateways
+ALGs (Proxies)
+Stateful Inspection Engine
+Hybrid Firewall
+Host-Based Firewall
+Network-Based Firewall
+DMZ (Demilitarized Zone)
+Back-to-Back Firewalls
+Bastion Hosts
+Control Traffic Flow
+Multiple DMZs
+Controlling Traffic Flow
+Why Do I Need a Firewall?
+What Should I Filter?
+Egress Filtering
+Network Address Translation (NAT)
+Firewall Vulnerabilities
+IPTables/NetFilter
+Default Tables and Chains
+iptables Syntax 1
+iptables Syntax 2
+Sample IPTables Script 1
+Sample IPTables Script 2
+Persistent Firewalls
+Firewall Identification
+Firewalk
+Tunneling with Loki
+Tunneling with NetCat/CryptCat
+Port Redirection with Fpipe
+Denial-of-Service Attacks Risk?
+Demo - Firewalls and IP Tables
+Module 15 Review
+
+Module 16
+Honeypots and Honeynets
+What Is a Honeypot?
+Advantages and Disadvantages
+Types and Categories of Honeypots
+Honeypot: Tarpits
+Honeypot: Kfsensor
+Honeypot: Honeyd
+Sample Honeyd Configuration
+High-Interaction Honeypot
+Project HoneyNet
+Types of Honeynets
+The Main Difference is Data Control
+GEN II Data Control: Honeywall CD
+Gen II Data Capture: Sebek & Sebek II
+Automated Alerting
+Testing
+Legal Issues
+Demo - Setting up a Honeypot
+Module 16 Review
+
+Module 17
+Ethics and Legal Issues
+The Costs
+Relation to Ethical Hacking?
+The Dual Nature of Tools
+Good Instead of Evil?
+Recognizing Trouble When It Happens
+Emulating the Attack
+Security Does Not Like Complexity
+Proper and Ethical Disclosure
+CERTâ€™s Current Process
+Full Disclosure Policy
+Organization for Internet Safety (OIS)
+What Should We Do from Here?
+Legal Meets Information Systems
+Addressing Individual Laws
+18 USC SECTION 1029
+18 USC SECTION 1030
+1030: Worms and Viruses
+Blaster Worm Attacks
+Civil vs. Criminal
+18 USC SECTIONS 2510 and 2701
+Digital Millennium Copyright Act
+Cyber Security Enhancement Act
+Module 17 Review
+Course Closure 

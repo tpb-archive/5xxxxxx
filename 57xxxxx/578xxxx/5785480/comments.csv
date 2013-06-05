@@ -1,0 +1,51 @@
+User Type,Username,Date,Text
+[T],carter67,2010-08-23T22:00Z,"http://bayimg.com/jAoMEaaci
+http://bayimg.com/JaoMJAAcI
+
+onvertXtoDVD Extra Menu Templates and Modifications
+Uploaded by DMAN999
+
+DISCLAIMER: 
+(USE THESE AT YOUR OWN RISK, YOU ARE RESPONSIBLE FOR ANY CONFLICTS IF YOU DECIDE TO USE THESE TEMPLATES)
+INTENDED FOR ADVANCED USERS ONLY !!!!!
+
+Instructions:
+The minimal and classic templates are simple, uncluttered, and generate only title menus, no root menu that is inconvenient unless really needed, etc.
+
+But the mninimal and classic menus supplied by VSO have some limitations. The classic menu has no background video capability, and both templates make menus that look top heavy when fewer titles are used than the maximum 6 per page for minimal and 8 for classic. 
+
+Some template modifications are attached that help overcome these limitations and more. The default opacity of backgrounds is changed from 20 to 100% in all of them and background video capability is added to the classic ones. Some alternate selection indicators are also included for the minimal template for those that donâ€™t like the standard underline bar. Several choices of different titles per page are offered. These make the menu more attractive when only a few titles are used by placing the title list in the middle of the screen instead of at the top (similar to what the different choices for glossy templates accomplish). Changes are also included that eliminate the slow menu animations and will help solve the short looping times of background video or audio. 
+
+
+1. Download the attached ZIP files and unzip tthem. The classic_8ch w video.ini is the same as the one supplied with CX2D except it includes background video capability and default background opacity is 100%. 
+
+The other INI files labeled as mod3 include all features described above. The puce files are alternate selection indicators for the minimal template. 
+
+2. Extract files you wish to use for the classic template to the \templates\classic folder under the folder on your hard drive where CX2D version 3 is installed. Extract those for the minimal template to the \templates\minimal folder. 
+
+Each INI file extracted will show as new templates available to use the next time you start CX2D. 
+
+3. To change the minimal selection indicator, rename the original \templates\minimal\puce.gif file to puce original.gif and then rename one of the alternate puce files to puce.gif. 
+
+4. All the mod3 modifications are set for a 30 second loop time. To change it, open the INI file in 
+
+Notepad if you have CX2D version 3.2.3.77 or later. For earlier versions, you must use Wordpad (see note below) if you do not need to preserve script language characters in the template description or another editor that can save in UTF-8 format without byte order marks to preserve script characters. 
+Search for main_duration and change its value. The duration is specified in microseconds (1 second = 1,000,000 microseconds) and the last digit should be an even number like 0, 2, 8 â€¦. 
+
+Make sure the duration is less than or equal to the length of your background file including the length remaining if you choose to start in the middle of a file. Your background will then loop seamlessly. Set it to very near but just slightly less than the length of a file you want to play completely before looping and playing again. For example, a file that is 2 min and 45.33 seconds long will loop completely if you set main_duration=165328000 
+
+Edit Note: Any change you make to main_duration will take effect the next time you start CX2D and it will remain in effect until changed again. 
+
+Wordpad Note: SteveSatch pointed a bug in Wordpad out that can keep CX2D from recognizing your new changes if you have the default setting in Windows to not display file extensions. 
+
+To prevent that, Open Windows Explorer (not Internet Explorer, search Windows help if you don't know how), click on the menu bar Tools > Folder Options then the View tab, uncheck Hide extensions for known file types and click OK. 
+
+Disclaimer 
+
+These modifications were made for  personal"
+[V],Alia_Erenel,2010-09-20T00:38Z,"
+Moved all Other > Other back to proper categories."
+,nine2one,2010-10-01T12:47Z,"will you PLEASE reseed 
+http://thepiratebay.org/torrent/5722768/R-Tools_R-Wipe_and_Clean_v9_1_1623_WinAll_Cracked
+
+THANK YOU"

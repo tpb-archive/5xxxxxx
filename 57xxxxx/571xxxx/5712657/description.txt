@@ -1,0 +1,27 @@
+From DistroWatch :
+Recovery Is Possible (RIP) is a Slackware-based CD or floppy boot/rescue/backup/maintenance system. It has support for a lot of filesystem types (Reiserfs, Reiser4, ext2/3, iso9660, UDF, XFS, JFS, UFS, HPFS, HFS, MINIX, MS DOS, NTFS, and VFAT) and contains a bunch of utilities for system recovery. It also has IDE/SCSI/SATA, PCMCIA, RAID, LVM2, and Ethernet/DSL/cable/PPP/PPPOE network support.
+
+Changelog : 
+10.4 - 7/23/2010
+  * Added option to change backlight level in X.
+  Added dkopp 5.3 (X DVD/BD backup program)
+  Updated aria2c 1.10.0
+  Updated tmux 1.3
+  Updated tar 1.23.90
+  Updated ntfs-3g 2010.6.31-RC
+  Updated ddrescue 1.13-rc2
+  Updated syslinux 4.02
+  Updated grsync 1.1.1
+  Updated btrfs-progs 0.19+git-20100717
+  Updated sylpheed 3.1.0beta2
+  Updated truecrypt 7.0
+  Updated FireFOX 3.6.7
+  Updated beaver 0.4.0 (stable)
+  * Fixed 'install-pkg -i wine' to install Wine 1.2.
+  * Readded GRUB2 1.98+20100722, you can use 'grub2config' to configure
+    and install it on your hard drive. Run 'install-pkg -i grub2' first,
+    because there may be a more recent version available.
+ 
+http://www.tux.org/pub/people/kent-robotti/looplinux/rip/
+
+md5sum : 2406729ac11a1b5a9940c47346cb34be  RIPLinuX-10.4.grub2.iso

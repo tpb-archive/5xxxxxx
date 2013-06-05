@@ -1,0 +1,83 @@
+User Type,Username,Date,Text
+,gem8,2010-08-12T18:46Z,"Has anyone made an succesful install of this release yet?
+
+I can't extract all zip files and my
+setup gets message (translated)""cant find file""."
+,gem8,2010-08-12T19:31Z,"I figured it out!
+
+1. Extract otl-v201
+
+2. Extract the rest (otl-v202 to otl-v247), mark 'em and rightclick the last one and chose ""Extract to otl-v247\""
+
+3. Extract outlaws.ace, to do this u need to browse for the location of outlaws.c00 to outlaws.c45, wich where in the otl-v202 to otl-v247 ZIP files.
+
+4. Run setup
+
+5. Play!"
+,gem8,2010-08-12T19:37Z,"I figured it out!
+
+1. Extract otl-v201
+
+2. Extract the rest (otl-v202 to otl-v247), mark 'em and rightclick the last one and chose ""Extract to otl-v247\""
+
+3. Extract outlaws.ace, to do this u need to browse for the location of outlaws.c00 to outlaws.c45, wich where in the otl-v202 to otl-v247 ZIP files.
+
+4. Run setup
+
+5. Play!"
+,Shils,2010-08-12T19:55Z,"to gem8
+
+you'll need additionally extract 'outlaws.ace'"
+,locke0025,2010-08-12T22:15Z,"AntiVir Guard detects a Windows virus in SetupReg.exe : ""Contains recognition patter of the W32/Induc.A Windows virus"""
+,Maibinenu,2010-08-13T00:07Z,"I unpacked everything and ended up with an outlaws.dat and a setup.bat. Running the setup.bat gives me a ""The system cannot find the file..."". Is there something i'm missing?"
+,EPDJ,2010-08-13T00:33Z,"Well, I was a bit weary about whether this was a virus or possibly the demo(since the game is to be released on the 13th).. but I did unpack it(checking for viruses) and I was able to get it to work successfully. So far, I am able to run it, select any country(I just started it as Siam) and play it.
+
+I will let you all know if I get any random crashes(CTD).
+
+@maibeniu check the outlaw.ace file again after running the bat file the first time. It should have more files and another bat(which should work to install the game)."
+,Maibinenu,2010-08-13T01:00Z,"As far as i can see, when i run setup.bat nothing happens ( plus is deletes itself after i run it ).
+I don't understand why this was packed in such a bizzare way.
+Or maybe it's because i have win 7?
+At any rate i'd appreciate a more detailed guide about the install, since it's so tricky."
+,EPDJ,2010-08-13T01:33Z,"Well, all I did was unzip the ace file and all of the .01-etc files. Then I ran the setup bat(i think in the ace file), I got a similar(if not the same) error. Then open up that same ace file(i think) and it 'should' be different, with additional files and another setup.bat. Unzip those and run the .bat file and it should start unpacking the game to that folder.
+
+At least that is how I believe I did it. "
+,EPDJ,2010-08-13T01:39Z,"Uhm.. It doesn't look like my last post was put up here.
+
+I have W7 as well. I just unzipped the .01-.2x files and the ace file, then opened the ace file and unrared those files to the same folder. Then there ""should"" be a setup.bat file to run. The first time I did it, I got an error of some sort(and it did not install), but by doing that.. I believe it changes the .ace file(or adds a new one), so open that again and check for any differences and unzip, run the .bat again. After that, the .bat file did its magic and unpacked all of the needed files."
+,panzertoter,2010-08-13T02:10Z,Outlaws.ace should be unpacked by an application like WinRar. There are several more files in this .ace file(s) then just setup.bat and outlaws.dat.
+,Valmont1982,2010-08-13T02:23Z,"Its packed bizzarely but it works. Had to install WinAce though, as neither Winrar or Powerarchiver could deal with it correctly.
+
+Honestly, the only explanation I can see for such convulted packtaging is that the release group wants to reserve their work for people who ""deserve it"" or some such. "
+,gamblor123,2010-08-13T06:07Z,"Shite release.
+It's not the install files, it's just the game folder, and setup.bat is inherently broken (read it, it refers to missing files).
+
+I'll wait until someone does a proper release, or at least reuploads this one in more functional form."
+,mr.keda,2010-08-13T10:53Z,"My game is 857 MB big, is this normal, because on the homepage it is saying that i need 2 gb on my hard disk "
+,opmandrake,2010-08-13T12:59Z,"Step by step (use winrar, right-click on files and choose ""extract here""):
+
+- Select all the zip's and extract them into the same folder (if it asks to replace something click Yes)
+
+- Extract outlaws.ace
+
+- Extract outlaws.c00 (it'll automatically extract the rest of the .c** files)
+
+- Run setup.bat and wait for the final extraction."
+,MagnusNordir,2010-08-13T13:13Z,"Why the fuck would you ""rip"" a Paradox game? It doesn't have any copy protection, JUST RELEASE THE FULL ISO GOD DAMNIT."
+,bryk,2010-08-13T15:45Z,"Full ISO (Skidrow) here:
+
+http://thepiratebay.org/torrent/5760238/Victoria_II-SKIDROW"
+,RickyVIP,2010-08-21T05:42Z,"There is a hotfix out for this but I cant post it due to ""database error"". "
+,RickyVIP,2010-08-23T08:44Z,"Essential hotfix for version 1.1
+
+media . fire.com/file/bkmfj3wc5e8nx15/Victoria1.1hotfix.zip
+
+remove the dot between media and fire, the fix is for some weird reason its on a site that cant be posted properly.
+
+The hotfix fixes most issues in the game as far as I've seen, most notably rebels which make the game unplayable. Varios pop related and other bugs also seem fixed. "
+,RickyVIP,2010-08-27T14:38Z,"Hotfix 2 for patch 1.1 is out though, with many improvements over the previous one.
+
+media.fire.com/file/i9nppkj2puoeyo2/Victoria1.1hotfix2.zip
+
+remove the dot (.) between media and fire to get it. "
+,Eneru112,2010-11-08T15:27Z,"Thank you SO much, Outlaws. To everyone who has trouble installing the game, just follow gem8's instructions. It's pretty easy and simple."

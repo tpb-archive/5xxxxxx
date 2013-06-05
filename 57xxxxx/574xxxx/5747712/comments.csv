@@ -1,0 +1,47 @@
+User Type,Username,Date,Text
+,CheesusTehLord,2010-08-20T04:19Z,"why no comments? anyway, it worked fine, but there are some default settings you need to change to make it less of a console game and more of a beautiful pc game.
+for starters, the english language pack can be found at:
+http://dlh.net/cgi-bin/dlp.cgi?lang=eng&sys=pc&file=tpuetp11.zip&ref=ps
+once you boot up the game after this, go to options and hit ""video"", then exit out of the video options and click ""controls"", then exit out of the options completely and close the game (the reason you have to do this is because accessing the video or controls settings creates files you have to edit to make the game better)
+once you have done that and exited the game, browse to C:\Users\Public\Public Documents\Precursors\INI\ (this may only be the correct path on windows vista/7!), and open both CONTROLSETTINGS.INI and VIDEOOPTIONS.ini
+
+in VIDEOOPTIONS.ini change these values to the following:
+
+SMOOTHFPS=1
+RENDERLAG=1
+LIMITFPS=60
+DISABLE_ROTATION_MOTION_BLUR=1
+
+in CONTROLSETTINGS.INI, change these values to the following:
+Keyboard Sensitivity=0.000000
+After this line, add the following line:
+Mouse K2=0.000000
+(if you have a different mouse k2=xxxxx line, delete that one)
+
+if the maximum in-game sensitivity is too low for you, you can manually increase it using the mouse sensitivity value in CONTROLSETTINGS.ini
+
+whew, that was a lot of writing. also, i scanned it with my virus scanner and nothing was detected
+thanks for the torrent"
+,Akasnakeyes,2010-08-25T18:51Z,"The game installed great, with no hassle; but I am having a problem with the keygen. When I try to run the keygen my anti-virus detects something; I know this is a false-positive. I turned off the anti-virus, and reinstalled the game. After re-installing I try to run the keygen, and I get ""Windows cannot access the specified device, path, or file. You may not have the appropriate permissions to access the item."" I am running as Admin. Plz Help"
+,piemag,2010-08-30T18:54Z,"Downloaded and patched the game but i'm unable to find a keygen or crack. Can someone tell me where i'm going wrong? there doesn't seem to be one in the folder. the Trivium file is only 12kb and an NFO if i remember correctly. 
+
+Please help, i'm dieing to play!"
+,Filthgoblin,2011-01-09T04:07Z,"The game wont start. I get this error;
+
+""The application was unable to start correctly (0x80000003). Click OK to close the application.
+
+Help?"
+,solarsimian,2011-06-20T22:57Z,"I'm having the same problem with the keygen as Akasnakeyes, except it's 706kb for me."
+,keybad,2011-08-07T10:37Z,pls seed
+,keybad,2011-08-07T21:27Z,"installs and plays okay.
+
+here's the steps with keygen
+
+1. start the game, you will see ""license key"" popup.
+2. enter generated S/N, then click on a link below input box, means ""another way"" (to activate game)
+3. enter generated (by ""another way"") HW number to keygen and grab second generated key
+4. n'joy
+
+P.S.: All prerequisites seems installed durning setup. If not, install latest DX and VC++2008 runtime or something.
+
+P.P.S.: Game uses Starforce anti-pirate software, so calm down you protection before installing, thus setup may be corrupted otherwise."

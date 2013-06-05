@@ -1,0 +1,93 @@
+User Type,Username,Date,Text
+,matte_halen,2010-07-24T13:05Z,how do i install this map on my TOMTOM one XL
+,freakyman19,2010-07-28T17:32Z,"what should I do with the metafile?
+my tomtom say: tomtom map can not be used.
+help please."
+,MrJinky,2010-07-28T19:46Z,"Works perfect with ""Easy Map Activation Tools"".
+But...
+
+TomTom 7.910 / 7.915 / 7.918 dossent ""see"" this map.
+I cant choose it from the maplist.
+
+Whats wrong?"
+,Omswiender,2010-07-29T21:36Z,"1)	Install TomTom Navigator 7 with the TTN_7.450.9028.cab provided
+2)	Copy the folders RASTER and VOICES to the root of the storage card
+3)	Copy the folder of your map (e.g. Western_and_Central_Europe_V720_1803, not included in this package) to the root of the starage card
+4)	Start TomTom and look up your DEVICE ID from TomTom, which can be found in the file ttnavigator.bif on the starage card under DeviceUniqueID
+5)	Copy the file *.meta from your map folder and put it in the folder where you saved the downloaded files (I recommend C:\TTN7 for an easy use)
+6)	Open a command prompt on your pc and navigate to this folder
+7)	Execute the command 	
+	tt7_keygen.exe ?path to the *.meta? ?XXXXX-XXXXX?
+	where XXXXX-XXXXX will be your Device ID found before	
+	Example:
+	tt7_keygen.exe ?C:\TTN7? ?XXXXX-XXXXX?
+	If everything succeeds, the patcher should return an ""OK"" message.
+8)	Now copy the new file *.meta.dct from this folder to the folder of your map on the storage card
+9)	Open TTN7
+10)	Enjoy!!!!"
+,Omswiender,2010-07-29T21:37Z,doesn't work on PDA TomTom Navigator_7.450.9028
+,gvp2612,2010-07-30T11:05Z,Ik heb een TomTom One XL T Europe met TomTom Home software. Zal de werkwijze van Omswiender bij mij werken? Ik heb bvb geen TT Navigator.....
+,MrJinky,2010-07-30T11:42Z,"gvp2612: Dont think so.
+I believe that this is for PDA."
+,gvp2612,2010-08-01T11:09Z,"@MrJinky : That's what I thought also, tnx!
+Anyone know any torrent for One XL T => no PDA?
+Tnx a million."
+,andzejek,2010-08-01T13:37Z,it works fine on GO 720 with navcore 9.026 and corresponding SE tt system.
+,Pulverman,2010-08-03T01:48Z,"Works perfect on my TomTom 730, with navcore 8.351."
+,xdf,2010-08-06T20:05Z,"beste Pulverman
+
+Hoe hebt jij deze kaart op je tomtom go 730 gekregen????
+
+bvd xdf"
+,xdf,2010-08-06T20:08Z,"beste Pulverman
+
+Hoe hebt jij deze kaart op je tomtom go 730 gekregen???? ik heb nu versie V830.2305 navcore 8.351 er op staan.
+
+bvd xdf"
+,matz8916,2010-08-09T00:44Z,"@Omswiender your instructions cant be used with this torrent....
+
+There is no ""TomTom Navigator 7 TTN_7.450.9028.cab provided""
+
+There is no ""raster and voices folder""
+
+all you get when you extract this is the ""western europe folder"" with a bunch of .dat files.
+
+@Stun
+
+There are no instructions, does this even work with a tomtom one, nobody fuckin knows. What a waste of time this torrent is..."
+,Obelix:(,2010-08-09T21:33Z,"Used this one with Easy Activator.
+Installing + patching works perfect (no errors)
+But in the end my TT-One doesn't see the map.
+i'll stop seeding this since it looks pointless.
+
+-Scott me up Beamy-"
+,bojanban123,2010-08-09T22:37Z,waist of time
+,Obelix:(,2010-08-10T23:38Z,"better go with this one:
+http://thepiratebay.org/torrent/5628109/tomtom_europe_850.2801_meta_inside
+
+But use this key instead:
+
+; Europe_2GB_850_2801
+9C 7C CD D8 7C 00 47 85 A7 44 2B 3A 7C 17 CF 7D Europe_2GB-162.meta
+
+It works for my old tomtom one :)"
+,glalufc,2010-08-15T22:48Z,Does anyone know if this will work on a Go710?
+,nauriceprivat,2010-08-31T18:50Z,great torrent
+,bitdevil,2010-08-31T22:20Z,"Works fine with my TomTom ONE !
+
+To activate the map I used 'Albert's Easy Activator v0.57.21 ' :
+http://thepiratebay.org/torrent/5786989/Albert_s_Easy_Activator_v0.57.21
+
+Thanks Stun!"
+,stimpy1984,2010-09-06T12:21Z,"I couldn't get this map to work. Activating the meta with the specified one returned ""OK"", but when starting TomTom Navigator 7.910, it informs me that no maps are installed.
+
+This (older?) map worked without any problems:
+http://thepiratebay.org/torrent/5786998/TOMTOM_Western_and_Central_Europe_2GB_850_2820"
+,IchiTheKiller,2010-09-11T14:20Z,"This works on my Tomtom XL 2 IQ Routes Edition!
+I used 'Albert's EasyActivator5' to make this work.
+I accidently formatted my tomtom, but it works again! thanks to the uploader!"
+,SomeOne02,2011-07-07T01:09Z,"If this one does not work for you on a Tom Tom One v3 this is because you are using an outdated version: NavCore 7903.
+
+Install an navcore version 8.5 or higher (use google to find this version) on your SD card."
+,zutmanuk,2011-07-15T20:11Z,"sorry new to this i have got the new map files but its in vdc format i have been trying for 4 days cant do anything with them have tryed to mount them tryed to burn to dvd with nero please help me with this it must be simple (bit like me)
+Thanks"

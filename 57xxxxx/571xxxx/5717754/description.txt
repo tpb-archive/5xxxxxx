@@ -1,0 +1,9 @@
+You know how some malware viruses etc mess up your PC so you can't get into Windows?
+
+One of the normal routes would be to reboot to safe mode and attack the problem from there. How many times has your safe mode been inaccessible? Often malware is written to clobber safe mode to protect its existence. 
+Here's a little something I found which will bullet proof your safe mode so it doesn't get disabled.
+Personally I've found this to be quite superb. Have a read of the enclosed PDF.
+
+Briefly you run the enclosed small program to find out if you have a safeboot key.
+
+Enclosed in the other zip files are reg files for various windows flavors. Just apply the one that applies to the windows your using. REMEMBER to take a reg back up first. You shouldn't experience any probs as it is really easy to apply

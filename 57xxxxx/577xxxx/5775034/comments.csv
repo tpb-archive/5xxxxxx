@@ -1,0 +1,50 @@
+User Type,Username,Date,Text
+[T],johnnyrep,2010-08-19T16:25Z,"http://leetleech.org/images/05278847413598241724.png
+http://leetleech.org/images/52638356555713708800.png
+http://leetleech.org/images/61887170364128600642.png
+http://leetleech.org/images/67215489399612228791.png
+
+http://www.imdb.com/title/tt1325004/
+
+
+Thanks to enriqo"
+,alex0008,2010-08-21T08:06Z,"Audio and video look good, but one problem -- the aspect ratio is off a bit.
+
+I fixed it easily:
+Download MP4Box (very popular free app).  I get most of my video progs through Videohelp -- http://www.videohelp.com/tools/mp4box
+
+Put 'libgpac.dll' and 'MP4Box.exe' in same dir as this torrent.
+Open a command prompt to that dir and enter:
+MP4Box.exe -par 1=64:63 -add The Twilight Saga Eclipse 2010.mp4 -new output.mp4
+
+THERE ARE SPACES IN THE FILE NAME SO YOU MUST PUT QUOTES AROUND IT, but Pirate Bay if messed up right now, so if I had included the quotes the command it would have looked like this: ""The Twilight Saga Eclipse 2010.mp4""
+
+This will LOSSLESSLY rewrite the file with an almost 1:1 aspect ratio.
+I compared the Eclipsed sun a 2min-20sec, to an image of an Eclipse poster to figure out
+what the correct ratio should be.
+The output will be called 'output.mp4'
+
+A faster way is to ALTER THE ORIGINAL FILE instead of creating a new one:
+(THE FOLLOWING COMMAND WILL ALTER THE ORIGINAL FILE,
+MAKING IT IMPOSSIBLE TO SEED WITHOUT DOWNLOADING THE WHOLE TORRENT AGAIN)
+(you'll need to quote the file name).
+mp4box.exe -par =64:63 The Twilight Saga Eclipse 2010.mp4
+
+
+Also -- I read on another one of these DVDscr's that the bottom was slightly cropped out.
+Twice during this video there is a text message about ""this screener has been uniquely
+watermarked so if you share it we'll know it was you"".
+I assume that any pirate worth his salt has cropped out his watermark, so most/all off
+the screeners will have a slight crop.
+
+Thanks to uploader :)"
+,honeybaby,2010-09-11T03:37Z,"Wasnt a bad copy but it isnt the complete movie.  Stopped about, what I assume, is 3/4 of the way through.  Now I am wondering how it ends.  "
+,alex0008,2010-09-14T06:59Z,"Plays all the way to the credits for me.
+Windows 7 x64
+Tested with:
+VLC v1.1.3
+MPC Home Cinema x64"
+,honeybaby,2010-09-14T12:04Z,"hmm you know what alex0008, you are right.  Tested on VLC on computer and it plays thru.  When I play it on the media player, it stops 3/4 of the way.... I wonder why.  "
+,alex0008,2010-09-15T10:45Z,"@honeybaby
+I don't know.  Perhaps try doing what I suggested in my first reply to this torrent.
+IIRC the file changes size so I assume it changes more than just one setting, and maybe mp4box.exe writes the file better than whatever the uploader (or his source) used.  It's lossless, so can't hurt."

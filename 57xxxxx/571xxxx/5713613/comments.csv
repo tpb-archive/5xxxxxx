@@ -1,0 +1,63 @@
+User Type,Username,Date,Text
+,mikaru86,2010-07-24T18:30Z,"I almost forgot: the subs work fine with VLC although they seem to be a bit ugly.
+
+And in case you are also looking for the Wings of Liberty OST, check out my other torrent."
+,saeid64,2010-07-24T19:02Z,"thanks man,
+can you upload the original game too?"
+,mlgnom,2010-07-24T19:58Z,@saeid64 Use https://eu.battle.net/account/management/sc2/pre-download.html?gameRegion=EU〈=en-GB&platform=win to do download teh game
+,mlgnom,2010-07-24T20:16Z,try to stop seeding other torrents. With this seeding rate the download will take a week.
+,mikaru86,2010-07-24T21:17Z,"I'm not seeding anything else at the moment, but you are right, somehow my up speed dropped to about 10-15kb/s whereas it's normally at around 50-60kb/s I'll try to figure out what's causing the problem and fix it, thanks for pointing this out ;)"
+,mikaru86,2010-07-24T23:10Z,"I found the source of the problem, someone on the same network was maxing out the downstream bandwidth and the resulting protocol traffic was eating up all the upstream bandwidth XD
+this is fixed now and I'm again seeding at a steady rate of 50kb/s.
+the speed may temporarily drop again in the future, but over all I should be able to seed at about 50-60kb/s until initial seeding is finished and there are enough complete copies out there."
+,mlgnom,2010-07-25T00:27Z,Thanks for looking into this. My average download speed is only 10 kB/s so I hope it will improve
+,saeid64,2010-07-25T12:37Z,"mikaru86:
+I mean dvd version of the game."
+,mikaru86,2010-07-25T13:38Z,"@saeid64: at the moment I'm not really planning to upload the game itself. not only is it available for download from blizzard (see comment by mlgnom), but there is also no use to it, as you can't play the game without a battle.net account that has a SC2 key registered to it (unless there will be a crack in the future). furthermore at the moment you can't even install the game, since it requires a connection to the blizzard server and checks whether the official release time (27.07. 10:00 CEST) has already passed.
+by the way, with my shitty connection there is no way I could effectively seed tow torrents at once, so I would have to wait until the initial seeding of this torrent is finished anyways. by then there should be plenty of isos of the DVD available ;)"
+,UA-boy,2010-07-25T14:37Z,So slow... Having 100mbit/s connection i download it at 10kb/s
+,mikaru86,2010-07-25T20:39Z,"@UA-boy: well, you may have a 100mbit connection, but sadly, I don't ;)
+50-60kb/s is the technical limit of my connection and there isn't anything I can do about that.
+I did however notice, that although I had already uploaded 2.5gb (38% of the size of the torrent) there were only about 16% of the torrent available in the swarm. I looked into that a little bit deeper and noticed that I was constantly uploading pieces that were already available in the swarm and thereby wasting some of the precious and scarce bandwidth of mine on parts of the torrent that were essentially already available.
+So even though I was uploading with 50-60kb/s large parts of the bandwidth were wasted on parts that were already available which obviously negatively affected the average download speed in the swarm.
+I dug a little deeper into the config of my client and did some research and noticed that the ""super seeding"" option was not enabled and quickly rectified this problem :X
+I hope this will fix some of the issues with this torrent XD
+Sorry for this little problem, although I have been using torrent for quite some time I don't have much experience with creating or initial seeding of torrents, please bear with me ;)
+Feedback, positive as well as constructive negative, is very much welcome^^"
+,logical2,2010-07-25T21:18Z,@mikaru86: thanks for the amazing upload :) but is there no way you can get a friend to copy it locally and help seed? :) Thanks in advance
+,UA-boy,2010-07-25T21:38Z,"Yes, its good idea. Ask your friends to help you))"
+,mlgnom,2010-07-25T23:37Z,"The super seeding help my average download speed is now doubled :)
+
+Is one of the torrents where i have a seed ratio of 7 before the even finishes. *g*"
+,mikaru86,2010-07-26T01:13Z,"@logical2: That's an interesting idea, but unfortunately I don't have access to any other internet connections right now. I am however at the university tomorrow and I will certainly seed from there for a while (in addition to my home PC which will keep seeding with the usual rate). I'm just curious which will come first, finishing the seeding or me getting kicked from the network for excessive usage XD"
+,mlgnom,2010-07-26T01:26Z,"4 gb of traffic is nothing in a university network :)
+
+Even medium sized universities have a 1TB+ traffic per day."
+,mikaru86,2010-07-26T02:43Z,"@mlgnom: Yes, but I didn't mean that I would max out the universities connection, but rather that my connection to the university network would be revoked since all access is monitored via personalized certificates. Guess I'll have to find an unattended Ethernet cable and not use the wireless network then ;)"
+,mikaru86,2010-07-26T03:49Z,"Just a quick heads up: Don't get your hopes up to much, I have no access to the configuration of the network and therefore can't set up any port forwarding, so I have no idea how great the performance may be. Although the connection can easily sport 7-8mb/s downstream (tested only on HTTP downloads) I have no idea what the actual upload performance will be, but I guess it can't be much worse than my home connection (even without proper port forwarding XD), and it will after all be in addition to my home machine which will continue seeding ;)"
+,SHERIFA,2010-07-26T04:10Z,"@mikaru86: Do you have any MSN / Skype ? Also, look for software like ""Easy File Sharing Web Server"".
+
+On the 27th MANY more people will upload ""Behind the Scenes"" DVD, so... they won't DL your torrent, then will start DLing theirs torrents... if it couldn't be finished TODAY.
+
+That's all..."
+,mikaru86,2010-07-26T05:02Z,"@SHERIFA: I have neither MSN nor Skype and btw even the most fancy software can't fix the core issue: the technical limitation of bandwidth by my internet connection ;)
+
+And I am well aware that there probably will be a ton of torrents with the same or similar content once the game is officially released, but my goal with this torrent was never to be the first, or to get eFame or anything like that, but to share what I had the good fortune of getting a few days early^^
+
+But I am still quite confident that the initial seeding will be finished before the official release. At the moment there are about 35% of the torrent available in the swarm and my seed effectiveness (GB uploaded in relation to percents added to the availability in the swarm) is at about 80%. This means that I have to upload roughly another 5,2GB to finish the initial seeding, which at 55kb/s would take 28 hours.
+But in addition to the constant 50-60kb/s I will be uploading from the university for as long as I can tomorrow. So yes, I'm confident that if will work out :)"
+,mikaru86,2010-07-26T05:07Z,"BTW: If the torrent performance at the university should be way to bad due to the lack of port forwarding I will try to upload the content to a DDL site an post the links here so that other can get the files faster and join seeding.
+Please post your preferred DDL site recommendations, since I'm usually not a fan of DDL (sharing is caring after all XD) and have no idea which ones are actually good at the moment and which ones are a huge pain in the ass, like RS which really sucks lately as far as I have heard :X"
+,mlgnom,2010-07-26T10:10Z,seeding without port forwarding should work well enough. All you need are 2-3 clients which are not firewalled which have a good connection.
+,mikaru86,2010-07-26T11:22Z,"OK, I'm at the university now and it seems to work fine. The speed is somewhat unstable though, fluctuating between 100kb/s and 500kb/s. But I havent tweeked the client config on this machine yet, so maybe increasing the number of parallel connection will smoothen that out a little (preferably in the 500kb/s region XD).
+Well, anyways, the upload will be finished a lot faster than with only my home connection :)"
+,logical2,2010-07-26T12:14Z,"100%! Yay, thanks you ALOT. :) I'll help seed at 2mb/s for a while until more people have it"
+,mikaru86,2010-07-26T12:28Z,"It's done! XD
+Initial seeding has finally been finished.
+Thanks to everyone who stuck with this torrent even when it was only loading at about 10kb/s and to those who provided vital feedback.
+
+I hope you enjoy the videos and make it well trough the next 20 something ours until the official release ;)"
+,UA-boy,2010-07-26T13:11Z,Someone tried to record this on DVD? Is disk-menu work?
+,David9876,2010-07-27T02:29Z,"hey thanks for this, do you by chance have the art book in a pdf format? "
+,mikaru86,2010-07-27T08:07Z,"@David9876: Well, I have access to the art book (the Collector's Edition didn't belong to me), but I don't have a scanner and therefore no way of digitalizing the book, sorry."
+,mikaru86,2010-08-22T23:11Z,"This might be a little bit late, but I just discovered that opening the folder with VLC's ""Open Disk..."" option enables the complete DVD menu with all its features (subtitles, commentary tracks, different audio options etc). So if anyone was still looking for an easy way to play this with the original DVD feeling, here it is ;)"

@@ -1,0 +1,73 @@
+User Type,Username,Date,Text
+,limp_jeric,2010-08-19T05:46Z,"@big_dude what is the good software that can convert ps2 cd games to dvd. coz my ps2 slim cant read games from cd... i dont know why but its maybe on the lens... any help is appreciated. thanks in advanced...
+
+P.S. can you upload brother in arms road to hill 30 and brother in arms earned in blood (PS2-NTSC). "
+[V],Big_dude,2010-08-20T14:34Z,"Okay I will explain how I do it carefully use this website as a guide bookmark it.
+
+http://forums.afterdawn.com/thread_view.cfm/275350
+
+Create a New folder on your desktop (Make you turn off auto arrange show in groups and aling to grid from view menu in folder you exactred the data to)
+
+You use the same methods described in the website to extract the data from the Ps2 cd game
+(or the PS2 CD Image) to the folder you just created on your computer using isobuster.
+
+in the new folder click Icon view type and  arrange the folders and files from top to bottom exactly as shown in isobuster where you extracted.
+
+Now you need to patch the files to DVDR to do this Run a program called DVDScan37.exe (do a search online good luck finding it try dvdscan patch to dvdr or something in google search or go to skyapps and search there for it) 
+
+run dvdscan click the DVD option go to options menu and choose yes for auto media patch. 
+now click file open and go to your data folder from the cd and scan the file sles or slus****  and look for a file named *****.IMG (example IPRP300.IMG). scan it and it should patch it if 
+possible.
+
+DVDScan only scans files not folders so you need to opdn each folder and open the files to scan.
+
+Usually these are the only two files to patch but you should scan all files to be safe.
+
+It will autopatch the files it scans that need to patched for dvdr if it can.
+
+some games dvdscan can't patch right or it  doesn't understand the cd check code and
+it won't work you won't know till the whole process is done and you have the burned dvd
+version to test.
+
+Now create a dummy file (Use a program like dummyfile creator.exe) search online for a dummyfile creator run the program and lets say your data size in the new folder you extracted from the cd is 540 mb you would then create a dummy file the size of 810 mb for example.  Pick a location to create the dummyfile set the size big enough so when added to the data folder the total size of the folder would be over a gig or 1.2 gig larger for example.
+
+The purpose of the dummy file is to create the extra space needed to fit on a dvd.
+
+Open or go to a folder on your computer click
+Tools menu then folder options click view and make sure the hide extensions for known file types is unchecked.
+
+check the dummyfile you just created
+Make sure the dummy file name is called dummyfile.bin or dummy.bin if it isn't rename it then. 
+
+You should have already alinged the folders and files properly from top to bottom compared to isobuster as I described in your data folder containing the extracted cd data.
+
+Now place the dummyfile you created under the last file from the ps2 cd data folder example it would go under system.cnf file. 
+
+You need to install or have CD/DVD Sony Generator Version 2.00 thats what I use as described here.
+
+To properly install cd/dvd gen sony program you need to first install ASPI drivers for your computer use forceASPI v1.7 or later you can search online after installing the drivers restart and to run the install for cd/dvd gen you need to click start click run type in command (not cmd) hit enter.. this will load up the 16-bit version of dos get to the install folder of cd/dvd gen thru dos and run the install or setup program to install it this will run the install thru the 16-bit dos version and should work.
+
+If it Installed successfully now we can use it.
+
+Open sony CD/DVD gen create new project select DVD-ROM Master Disc.
+
+Then like the website says you select the data in your folder from top to bottom including the dummyfile with your mouse and drag it to sony cd/dvd creator. 
+
+The folders and files should be alinged top to bottom in sony cd/dvd gen in the right order now.
+
+check inside the folders and make sure the files are alinged top to bottom in the right order as well.
+
+Now click volume 
+
+Find the DiscID of the ps2 cd game or game its either slus*** sles or similar also you can look at game disc and find it if it says slus44343.43 for exmp you would type in slus443443 without the period.
+"
+[V],Big_dude,2010-08-20T14:53Z,"http://thepiratebay.org/torrent/4390201/Sony_Ps2_Burn_Tools__amp__Guides
+
+Has everything described here in it you need to do this.
+
+If the seeds drop be patient and I'll catch on eventually and seed as I check time to time if I see peers I'll seed it so its not dead.
+
+Try sksapps.com to."
+,limp_jeric,2010-08-23T03:18Z,"@big_dude
+
+thank you man.... its helps..."

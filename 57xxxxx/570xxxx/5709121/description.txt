@@ -1,0 +1,51 @@
+Date Night (2010) AVCHD 1080p Eng-NLsub NLUPPER
+
+
+MM:    http://www.moviemeter.nl/film/61494
+
+IMDB:    http://www.imdb.com/title/tt1279935/
+
+INFO
+
+Video:
+
+Codec/Info....: MPEG-4 AVC
+Codec profile.: High@L4.1
+Video Codec...: X264
+Bit rate......: 8704 Kbps
+Aspect ratio..: 16/9
+Frame rate....: 23.976 fps
+Width.........: 1920 pixels
+Height........: 1080 pixels
+
+Audio:
+
+Codec.........: DTS
+Bit rate......: 1536 Kbps
+Channel(s)....: 6 channels
+Sampling rate.: 48.0 KHz
+Language......: English
+
+programs Used
+
+MKVToolnix
+Eac3to v1.09 beta 10
+tsMuxer v 1.10.6
+MeGui v 0.3.3.0; Encoder Profile Trellis1:
+
+program --profile high --level 4.1 --pass 2 --bitrate 8704 --stats ".stats" --thread-input --deblock -1:-1 --keyint 24 --min-keyint 1 --b-adapt 2 --ref 4 --weightp 0 --ipratio 1.1 --pbratio 1.1 --vbv-bufsize 18000 --vbv-maxrate 18000 --direct auto --partitions all --psy-rd 1.0:0.15 --no-fast-pskip --aud --nal-hrd --psnr --mvrange 511 --output "output" "input"
+
+BDEdit v0.17b to activate buttons in H.264 menu and to manipulate BDMV structure
+PowerIso v 4.3
+img Burn v 2.4.4.0
+Adobe Photoshop Cs4 Extended Version
+Nero Vision to create H.264 menu
+
+Additional Information
+
+Iso created with IMG Burn 2.4.4.0 (UDF 2.5)
+Burning iso img tested Burn 2.4.4.0 (UDF 2.5)
+AVCHD drive tested on the Sony BDP-S360
+AVCHD can be a ps3 (playstation 3) / BluRay player
+AVCHD support on your PC or play with
+Power DVD Ultra Edition or Arcsoft TotalMedia Theatre 3!

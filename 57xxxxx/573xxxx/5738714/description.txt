@@ -1,0 +1,26 @@
+Burn the iso to a cd (This can be done with any cd burning software, imgburn found here is free)
+
+Put the CD into your computer cd/dvd drive and reboot your computer.
+
+You must make your computer boot from CD, there are many different ways to do this depending on what computer you have, most recent computers have this enabled by default. Here is a guide that may help if you can't get this to work:Enable Boot from CD
+
+Once it boots from the cd it will show a small picture of a keyboard and a person, do not press anything here and it will come to a window that will allow you to select your language.
+
+Select your language and click "Try Ubuntu 10.04 LTS". This will boot up to a standard Ubuntu livecd desktop.
+
+On your phone click menu, settings, applications, development, usb debugging
+
+On the computer click "Places" on the top menubar and click "Home Folder". This will open a file explorer window, in that window is a script called "reflash.sh". 
+
+Double click reflash.sh. A window will pop up asking you what to do with this file, click "Run in Terminal". This will go get from the internet the current version of Unrevoked recovery installer from unrevoked.com/recovery, unzip/tar it, and run it as root.
+
+Once it is complete you will be looking at the unrevoked3 screen and you should follow the prompts on screen.
+
+You will then follow the prompts on the screen to plug in your phone, from the notification pane in android select charge only.
+
+unrevoked3 will reboot your phone twice and leave you in ClockworkMod Recovery. On the computer at the bottom of the window it will say "Done".
+Close the window, if you do not need to do anything further you can shut down the machine and be back in windows with nothing changed on your windows system.
+
+Congratulations, your phone is now rooted and has ClockworkMod recovery installed.
+
+read more, see original thread at xda-developers: http://forum.xda-developers.com/showthread.php?t=741824

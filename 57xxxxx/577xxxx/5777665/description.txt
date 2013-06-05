@@ -1,0 +1,37 @@
+FBAnext Beta 2
+
+ The Logic Sunrise team released a new version of Fbanext for homebrew 360s.
+
+Waht's new/fixed:
+- Added 68000 overclock option
+- d_aerofgt endian fixes
+- Added filter for '3 or 4 player games only'
+- Added 'Hide Child Roms' Option
+- d_unico fixes (Zero Point/Zero Point 2)
+- d_f1gp fixes
+- Fixed analog in opwolf/spacegun/seta deer hunter games (Arkanoid still not working)
+- d_snk68.cpp - IkariIII fixes
+- d_kaneko16.cpp - fixed crash with The Berlin Wall
+- Menu now saves the last rom and hardware filter you were on
+- fixed crash in d_hellfire.cpp
+- f1dream, tigerroad fixes
+- BC Kid fixes
+- Updated font
+- Added Left Trigger/Right Trigger buttons to input config
+- d_wwfwfest endian fixes
+- Cave - fixed palette issues with Power Instinct 2, Power Instinct 2, Gawange
+- Fixed crash issue with some System16 games
+- fixed gfx sprite priority issue with CPS1
+- fixed reset on pause
+- Analog stick 3 no longer controllers player 4
+- endian fix for Pang 3
+- Fixed slowdown issue on European Region Megadrive Roms
+- Added support for Arcade Sticks. The stick will be auto-detected and Back + Start buttons will bring up the In Game Menu
+- Added Screen adjustment. If you use an arcade stick hold 'B' and moving the stick will stretch, or just the stick to move the screen.
+- Fixed d_toki.cpp
+- fixed issue with JAMMA NeoGeo Roms
+- chelnov fixes
+- Added default button mapping option
+- FBANext will now display an error if you have a bad rom.
+- Fixed issues with Wrestlefest
+- Expermental OpenMP support added in some Taito Drivers. ChaseHQ went from 30->60fps without filters. More optimizations will be done in further releases.

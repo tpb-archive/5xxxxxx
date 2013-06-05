@@ -1,0 +1,33 @@
+AnyDVD History
+
+6.6.8.0 2010 07 27
+
+- New: Added AnyDVD System Information shortcut
+- New: Added AppInit DLLs to sysinfo.txt
+- New (Blu-ray): Added support for new BD+ protections
+- New (Blu-ray): Updated decryption keys
+- New (Blu-ray): Removes copy control information (CCI) from transport stream
+- New (Blu-ray BDAV): Workaround for bug of some BD recorders with dual layer
+  discs causing the second layer decryption to fail
+- New (DVD BDAV): Added support for AACS protected AVCREC discs, e.g.
+  Japanese TV recordings
+- Fix (Blu-ray): Playback of m2ts files from discs, which are protected by BD+,
+  could fail
+- Fix (Blu-ray BDAV): Decryption could fail, if titles have been deleted from disc
+
+
+========================
+Installation instructions:
+========================
+
+1.Run SetupAnyDVD6680.exe
+2.Don't reboot if asked.
+3.Close AnyDVD completely from the Taskbar Tray 
+4.Double-click/Merge "AnyDVD Registration Key" in the "key" folder to add information to the Registry.
+5.Start AnyDVD HD
+6.UNTICK two boxes in (program Settings)Automatically check for new AnyDVD version) and (Show notification...Update server)
+7.Reboot now if required.
+
+Firewall and Never allow it to call home.
+
+[Read "Installation instuction.txt" for more info]

@@ -1,0 +1,2583 @@
+Filename,Size,Unit
+bin/BsSndRpt.exe,176,K
+bin/BugSplat.dll,104.06,K
+bin/BugSplatRc.dll,64.06,K
+bin/DbgHelp.dll,963,K
+bin/editor_splash.png,218.44,K
+bin/GDFBinary.dll,145.25,K
+bin/gpgcore.dll,409.25,K
+bin/gpggal.dll,1.19,M
+bin/LuaPlus_1081.dll,349.25,K
+bin/Microsoft.VC80.CRT.manifest,522,B
+bin/MohoEngine.dll,9.2,M
+bin/msvcm80.dll,468,K
+bin/msvcp80.dll,536,K
+bin/msvcr80.dll,612,K
+bin/SHSMP.DLL,112.5,K
+bin/splash.png,2.07,M
+bin/SupComDataPath.lua,1.19,K
+bin/SupremeCommander.exe,173.25,K
+bin/sx32w.dll,98.5,K
+bin/wxmsw24u-vs80.dll,3.41,M
+bin/zlibwapi.dll,71,K
+coderes/Engine/boxart_neutral.png,121.62,K
+coderes/Engine/dbg_break_disabled.bmp,920,B
+coderes/Engine/dbg_break_enabled.bmp,920,B
+coderes/Engine/dbg_cursor.bmp,920,B
+coderes/Engine/dbg_cursor_disabled.bmp,920,B
+coderes/Engine/dbg_cursor_enabled.bmp,920,B
+coderes/Engine/dbg_tool_clearbreakpoints.bmp,824,B
+coderes/Engine/dbg_tool_disablebreakpoints.bmp,824,B
+coderes/Engine/dbg_tool_enablebreakpoints.bmp,824,B
+coderes/Engine/dbg_tool_find.bmp,824,B
+coderes/Engine/dbg_tool_findnext.bmp,824,B
+coderes/Engine/dbg_tool_findprev.bmp,824,B
+coderes/Engine/dbg_tool_resume.bmp,824,B
+coderes/Engine/dbg_tool_step.bmp,824,B
+coderes/Engine/gpg.ico,4.6,K
+coderes/Engine/rotNone.bmp,1016,B
+coderes/Engine/rotRandom.bmp,1016,B
+coderes/Engine/rotSlope.bmp,1016,B
+coderes/Engine/save.bmp,1.62,K
+coderes/Engine/SupremeCommander.ico,21.96,K
+coderes/Engine/SupremeCommander.mcl,540,B
+coderes/UnitViewer/fullscreen_active.png,1.05,K
+coderes/UnitViewer/fullscreen_blue.png,1.13,K
+coderes/UnitViewer/fullscreen_disabled.png,1.01,K
+coderes/UnitViewer/lod.png,3.16,K
+coderes/UnitViewer/lod_blue.png,3.19,K
+coderes/UnitViewer/lod_disabled.png,3.12,K
+coderes/UnitViewer/media_panel_background.png,3.41,K
+coderes/UnitViewer/next_active.png,951,B
+coderes/UnitViewer/next_blue.png,988,B
+coderes/UnitViewer/next_disabled.png,943,B
+coderes/UnitViewer/pause.png,1.95,K
+coderes/UnitViewer/pause_blue.png,2.12,K
+coderes/UnitViewer/pause_disabled.png,1.96,K
+coderes/UnitViewer/play.png,2.1,K
+coderes/UnitViewer/play_blue.png,2.27,K
+coderes/UnitViewer/play_disabled.png,2.06,K
+coderes/UnitViewer/playlistdrawer_active.png,947,B
+coderes/UnitViewer/playlistdrawer_blue.png,1016,B
+coderes/UnitViewer/playlistdrawer_disabled.png,928,B
+coderes/UnitViewer/previous_active.png,953,B
+coderes/UnitViewer/previous_blue.png,1001,B
+coderes/UnitViewer/previous_disabled.png,960,B
+coderes/UnitViewer/repeat_active.png,3.7,K
+coderes/UnitViewer/repeat_blue.png,3.72,K
+coderes/UnitViewer/repeat_disabled.png,3.65,K
+coderes/UnitViewer/skip_forward_active.png,1.55,K
+coderes/UnitViewer/skip_forward_blue.png,1.68,K
+coderes/UnitViewer/skip_forward_disabled.png,1.55,K
+coderes/UnitViewer/skip_previous_active.png,1.58,K
+coderes/UnitViewer/skip_previous_blue.png,1.71,K
+coderes/UnitViewer/skip_previous_disabled.png,1.59,K
+coderes/UnitViewer/stop.png,833,B
+coderes/UnitViewer/stop_blue.png,881,B
+coderes/UnitViewer/stop_disabled.png,836,B
+fonts/ARIAL.TTF,358.51,K
+fonts/ARIALBD.TTF,343.97,K
+fonts/ARIALBI.TTF,221.43,K
+fonts/ARIALI.TTF,202.94,K
+fonts/ARIALN.TTF,131.05,K
+fonts/ARIALNB.TTF,135.87,K
+fonts/ARIALNBI.TTF,135.32,K
+fonts/ARIALNI.TTF,138.09,K
+fonts/ARIBLK.TTF,114.29,K
+fonts/ARLRDBD.TTF,44.2,K
+fonts/BUTTERBE.TTF,54.03,K
+fonts/wintermu.ttf,25.13,K
+fonts/zeroes_3.ttf,28.53,K
+gamedata/airstaging_firebase_v1.81.scd,376.57,K
+gamedata/ambience.scd,405.73,K
+gamedata/editor.scd,54.89,M
+gamedata/effects.scd,21.5,M
+gamedata/env.scd,710.16,M
+gamedata/loc_US.scd,493.91,K
+gamedata/lua.scd,5.82,M
+gamedata/meshes.scd,7.41,M
+gamedata/Mod_units2.bp,39.18,K
+gamedata/mods.scd,924.27,K
+gamedata/mohodata.scd,484.67,K
+gamedata/objects.scd,639.94,K
+gamedata/projectiles.scd,9.94,M
+gamedata/props.scd,2.27,M
+gamedata/schook.scd,17.62,K
+gamedata/skins.scd,271,B
+gamedata/SSGs.scd,52.47,K
+gamedata/textures.scd,524.75,M
+gamedata/units.scd,644,M
+maps/PerfTest/perftest.scmap,9.49,M
+maps/PerfTest/perftest_aeon1plan.lua,434,B
+maps/PerfTest/perftest_aeon1planlist.lua,627,B
+maps/PerfTest/perftest_aeonplan.lua,433,B
+maps/PerfTest/perftest_aeonplanlist.lua,625,B
+maps/PerfTest/perftest_cybran2plan.lua,436,B
+maps/PerfTest/perftest_cybran2planlist.lua,634,B
+maps/PerfTest/perftest_playerplan.lua,435,B
+maps/PerfTest/perftest_playerplanlist.lua,633,B
+maps/PerfTest/perftest_save.lua,795.35,K
+maps/PerfTest/perftest_scenario.lua,573,B
+maps/PerfTest/perftest_script.lua,28.07,K
+maps/PerfTest/perftest_uefplan.lua,432,B
+maps/PerfTest/perftest_uefplanlist.lua,630,B
+maps/SCCA_A01/SCCA_A01.psd,1.56,M
+maps/SCCA_A01/SCCA_A01.raw,514.15,K
+maps/SCCA_A01/SCCA_A01.scmap,2.36,M
+maps/SCCA_A01/SCCA_A01_EditorFunctions.lua,1.28,K
+maps/SCCA_A01/SCCA_A01_fauxrhizaplan.lua,868,B
+maps/SCCA_A01/SCCA_A01_fauxrhizaplanlist.lua,684,B
+maps/SCCA_A01/SCCA_A01_fauxuefplan.lua,971,B
+maps/SCCA_A01/SCCA_A01_fauxuefplanlist.lua,680,B
+maps/SCCA_A01/SCCA_A01_operation.lua,1.22,K
+maps/SCCA_A01/SCCA_A01_playerplan.lua,575,B
+maps/SCCA_A01/SCCA_A01_playerplanlist.lua,697,B
+maps/SCCA_A01/SCCA_A01_rhizaplan.lua,955,B
+maps/SCCA_A01/SCCA_A01_rhizaplanlist.lua,676,B
+maps/SCCA_A01/SCCA_A01_save.lua,619.77,K
+maps/SCCA_A01/SCCA_A01_scenario.lua,556,B
+maps/SCCA_A01/SCCA_A01_script.lua,71.61,K
+maps/SCCA_A01/SCCA_A01_Strings.lua,25.59,K
+maps/SCCA_A01/SCCA_A01_uefplan.lua,1.24,K
+maps/SCCA_A01/SCCA_A01_uefplanlist.lua,672,B
+maps/SCCA_A02/SCCA_A02.psd,1.62,M
+maps/SCCA_A02/SCCA_A02.raw,514.1,K
+maps/SCCA_A02/SCCA_A02.scmap,2.33,M
+maps/SCCA_A02/SCCA_A02_EditorFunctions.lua,4.06,K
+maps/SCCA_A02/SCCA_A02_operation.lua,1.22,K
+maps/SCCA_A02/SCCA_A02_playerplan.lua,575,B
+maps/SCCA_A02/SCCA_A02_playerplanlist.lua,698,B
+maps/SCCA_A02/SCCA_A02_save.lua,379.27,K
+maps/SCCA_A02/SCCA_A02_scenario.lua,592,B
+maps/SCCA_A02/SCCA_A02_script.lua,59.33,K
+maps/SCCA_A02/SCCA_A02_strings.lua,22.24,K
+maps/SCCA_A03/SCCA_A03_erisplan.lua,437,B
+maps/SCCA_A03/SCCA_A03_erisplanlist.lua,568,B
+maps/SCCA_A03/SCCA_A03_operation.lua,1.22,K
+maps/SCCA_A03/SCCA_A03_playerplan.lua,439,B
+maps/SCCA_A03/SCCA_A03_playerplanlist.lua,572,B
+maps/SCCA_A03/SCCA_A03_save.lua,1.5,M
+maps/SCCA_A03/SCCA_A03_scenario.lua,580,B
+maps/SCCA_A03/SCCA_A03_script.lua,38.69,K
+maps/SCCA_A03/SCCA_A03_strings.lua,17.92,K
+maps/SCCA_A03/SCCA_A03_uefplan.lua,2.55,K
+maps/SCCA_A03/SCCA_A03_uefplanlist.lua,565,B
+maps/SCCA_A04/SCCA_A04_civilianplan.lua,443,B
+maps/SCCA_A04/SCCA_A04_civilianplanlist.lua,701,B
+maps/SCCA_A04/SCCA_A04_cybranplan.lua,441,B
+maps/SCCA_A04/SCCA_A04_cybranplanlist.lua,697,B
+maps/SCCA_A04/SCCA_A04_EditorFunctions.lua,3.06,K
+maps/SCCA_A04/SCCA_A04_nodeplan.lua,439,B
+maps/SCCA_A04/SCCA_A04_nodeplanlist.lua,693,B
+maps/SCCA_A04/SCCA_A04_operation.lua,1.22,K
+maps/SCCA_A04/SCCA_A04_playerplan.lua,575,B
+maps/SCCA_A04/SCCA_A04_playerplanlist.lua,697,B
+maps/SCCA_A04/SCCA_A04_save.lua,1.08,M
+maps/SCCA_A04/SCCA_A04_scenario.lua,613,B
+maps/SCCA_A04/SCCA_A04_script.lua,52.78,K
+maps/SCCA_A04/SCCA_A04_strings.lua,19.09,K
+maps/SCCA_A05/SCCA_A05.psd,25.67,M
+maps/SCCA_A05/SCCA_A05.raw,8.01,M
+maps/SCCA_A05/SCCA_A05.scmap,7.65,M
+maps/SCCA_A05/SCCA_A05_EditorFunctions.lua,2.5,K
+maps/SCCA_A05/SCCA_A05_operation.lua,1.21,K
+maps/SCCA_A05/SCCA_A05_playerplan.lua,441,B
+maps/SCCA_A05/SCCA_A05_playerplanlist.lua,697,B
+maps/SCCA_A05/SCCA_A05_save.lua,1.15,M
+maps/SCCA_A05/SCCA_A05_scenario.lua,604,B
+maps/SCCA_A05/SCCA_A05_script.lua,52.14,K
+maps/SCCA_A05/SCCA_A05_strings.lua,28.39,K
+maps/SCCA_A06/SCCA_A06_blankplan.lua,634,B
+maps/SCCA_A06/SCCA_A06_blankplanlist.lua,786,B
+maps/SCCA_A06/SCCA_A06_EditorFunctions.lua,3.05,K
+maps/SCCA_A06/SCCA_A06_operation.lua,1.22,K
+maps/SCCA_A06/SCCA_A06_playerplan.lua,575,B
+maps/SCCA_A06/SCCA_A06_playerplanlist.lua,698,B
+maps/SCCA_A06/SCCA_A06_save.lua,961.07,K
+maps/SCCA_A06/SCCA_A06_scenario.lua,601,B
+maps/SCCA_A06/SCCA_A06_script.lua,56.43,K
+maps/SCCA_A06/SCCA_A06_strings.lua,23.37,K
+maps/SCCA_A06/strata03_out.raw,256,K
+maps/SCCA_E01/SCCA_E01.psd,2.17,M
+maps/SCCA_E01/SCCA_E01.raw,514,K
+maps/SCCA_E01/SCCA_E01.scmap,2.45,M
+maps/SCCA_E01/SCCA_E01_arnoldfakeplan.lua,440,B
+maps/SCCA_E01/SCCA_E01_arnoldfakeplanlist.lua,640,B
+maps/SCCA_E01/SCCA_E01_arnoldplan.lua,436,B
+maps/SCCA_E01/SCCA_E01_arnoldplanlist.lua,632,B
+maps/SCCA_E01/SCCA_E01_cybranneutralplan.lua,443,B
+maps/SCCA_E01/SCCA_E01_cybranneutralplanlist.lua,646,B
+maps/SCCA_E01/SCCA_E01_cybranplan.lua,2.21,K
+maps/SCCA_E01/SCCA_E01_cybranplanlist.lua,632,B
+maps/SCCA_E01/SCCA_E01_eastresearchplan.lua,948,B
+maps/SCCA_E01/SCCA_E01_eastresearchplanlist.lua,644,B
+maps/SCCA_E01/SCCA_E01_editorfunctions.lua,3.83,K
+maps/SCCA_E01/SCCA_E01_operation.lua,1.22,K
+maps/SCCA_E01/SCCA_E01_playerplan.lua,436,B
+maps/SCCA_E01/SCCA_E01_playerplanlist.lua,632,B
+maps/SCCA_E01/SCCA_E01_powergenplan.lua,428,B
+maps/SCCA_E01/SCCA_E01_powergenplanlist.lua,583,B
+maps/SCCA_E01/SCCA_E01_save.lua,691.23,K
+maps/SCCA_E01/SCCA_E01_scenario.lua,553,B
+maps/SCCA_E01/SCCA_E01_script.lua,35.94,K
+maps/SCCA_E01/SCCA_E01_strings.lua,23.82,K
+maps/SCCA_E02/Height.raw,514,K
+maps/SCCA_E02/Height02.raw,514,K
+maps/SCCA_E02/lighting_E02-low-setting-sun-tundra-01.lua,369,B
+maps/SCCA_E02/SCCA_E02.psd,1.86,M
+maps/SCCA_E02/SCCA_E02.raw,514.79,K
+maps/SCCA_E02/SCCA_E02.scmap,2.35,M
+maps/SCCA_E02/SCCA_E02_aeonaiplan.lua,19.51,K
+maps/SCCA_E02/SCCA_E02_aeonplanlist.lua,666,B
+maps/SCCA_E02/SCCA_E02_EditorFunctions.lua,1.12,K
+maps/SCCA_E02/SCCA_E02_operation.lua,1.22,K
+maps/SCCA_E02/SCCA_E02_plans.lua,713,B
+maps/SCCA_E02/SCCA_E02_playerplan.lua,575,B
+maps/SCCA_E02/SCCA_E02_playerplanlist.lua,674,B
+maps/SCCA_E02/SCCA_E02_save.lua,928.22,K
+maps/SCCA_E02/SCCA_E02_scenario.lua,618,B
+maps/SCCA_E02/SCCA_E02_script.lua,95.95,K
+maps/SCCA_E02/SCCA_E02_strings.lua,27.35,K
+maps/SCCA_E03/SCCA_E03.psd,2.63,M
+maps/SCCA_E03/SCCA_E03.raw,2,M
+maps/SCCA_E03/SCCA_E03.scmap,2.39,M
+maps/SCCA_E03/SCCA_E03_aeonplan_one.lua,1.61,K
+maps/SCCA_E03/SCCA_E03_aeonplanlist.lua,687,B
+maps/SCCA_E03/SCCA_E03_arnoldplan.lua,560,B
+maps/SCCA_E03/SCCA_E03_arnoldplanlist.lua,681,B
+maps/SCCA_E03/SCCA_E03_EditorFunctions.lua,1.73,K
+maps/SCCA_E03/SCCA_E03_operation.lua,1.22,K
+maps/SCCA_E03/SCCA_E03_playerplan.lua,575,B
+maps/SCCA_E03/SCCA_E03_playerplanlist.lua,687,B
+maps/SCCA_E03/SCCA_E03_readme.txt,7.32,K
+maps/SCCA_E03/SCCA_E03_save.lua,570.25,K
+maps/SCCA_E03/SCCA_E03_scenario.lua,583,B
+maps/SCCA_E03/SCCA_E03_script.lua,34.61,K
+maps/SCCA_E03/SCCA_E03_strings.lua,23.18,K
+maps/SCCA_E04/SCCA_E04.psd,7.27,M
+maps/SCCA_E04/SCCA_E04.raw,2,M
+maps/SCCA_E04/SCCA_E04.scmap,2.67,M
+maps/SCCA_E04/SCCA_E04_cybranplan.lua,587,B
+maps/SCCA_E04/SCCA_E04_cybranplanlist.lua,734,B
+maps/SCCA_E04/SCCA_E04_EditorFunctions.lua,3.22,K
+maps/SCCA_E04/SCCA_E04_operation.lua,1.22,K
+maps/SCCA_E04/SCCA_E04_playerplan.lua,575,B
+maps/SCCA_E04/SCCA_E04_playerplanlist.lua,697,B
+maps/SCCA_E04/SCCA_E04_save.lua,465.43,K
+maps/SCCA_E04/SCCA_E04_scenario.lua,594,B
+maps/SCCA_E04/SCCA_E04_script.lua,50.52,K
+maps/SCCA_E04/SCCA_E04_strings.lua,25.43,K
+maps/SCCA_E05/readme_8_7_06.txt,2,K
+maps/SCCA_E05/SCCA_E05.psd,26.21,M
+maps/SCCA_E05/SCCA_E05.raw,8.01,M
+maps/SCCA_E05/SCCA_E05.scmap,6.43,M
+maps/SCCA_E05/SCCA_E05_aeonplan.lua,1.06,K
+maps/SCCA_E05/SCCA_E05_aeonplan1.lua,54.08,K
+maps/SCCA_E05/SCCA_E05_aeonplanlist.lua,677,B
+maps/SCCA_E05/SCCA_E05_cityplan.lua,439,B
+maps/SCCA_E05/SCCA_E05_cityplanlist.lua,684,B
+maps/SCCA_E05/SCCA_E05_cybranplan.lua,1.59,K
+maps/SCCA_E05/SCCA_E05_cybranplanlist.lua,688,B
+maps/SCCA_E05/SCCA_E05_EditorFunctions.lua,13.53,K
+maps/SCCA_E05/SCCA_E05_operation.lua,1.22,K
+maps/SCCA_E05/SCCA_E05_playerplan.lua,669,B
+maps/SCCA_E05/SCCA_E05_playerplanlist.lua,689,B
+maps/SCCA_E05/SCCA_E05_save.lua,1.29,M
+maps/SCCA_E05/SCCA_E05_scenario.lua,592,B
+maps/SCCA_E05/SCCA_E05_script.lua,108.06,K
+maps/SCCA_E05/SCCA_E05_strings.lua,28.32,K
+maps/SCCA_E05/SCCA_E05_ueftrucksplan.lua,444,B
+maps/SCCA_E05/SCCA_E05_ueftrucksplanlist.lua,694,B
+maps/SCCA_E06/Height.raw,8.01,M
+maps/SCCA_E06/Height_copy.raw,8.01,M
+maps/SCCA_E06/lighting_E06-low-setting-sun-tropical-01.lua,359,B
+maps/SCCA_E06/SCCA_E06.psd,12.05,M
+maps/SCCA_E06/SCCA_E06.raw,8.01,M
+maps/SCCA_E06/SCCA_E06.scmap,7.88,M
+maps/SCCA_E06/SCCA_E06_aeonplan.lua,444,B
+maps/SCCA_E06/SCCA_E06_aeonplanlist.lua,691,B
+maps/SCCA_E06/SCCA_E06_blacksunplan_one.lua,444,B
+maps/SCCA_E06/SCCA_E06_blacksunplanlist.lua,705,B
+maps/SCCA_E06/SCCA_E06_cybranplan.lua,446,B
+maps/SCCA_E06/SCCA_E06_cybranplanlist.lua,696,B
+maps/SCCA_E06/SCCA_E06_EditorFunctions.lua,3.95,K
+maps/SCCA_E06/SCCA_E06_operation.lua,1.22,K
+maps/SCCA_E06/SCCA_E06_playerplan.lua,441,B
+maps/SCCA_E06/SCCA_E06_playerplanlist.lua,697,B
+maps/SCCA_E06/SCCA_E06_save.lua,1.29,M
+maps/SCCA_E06/SCCA_E06_scenario.lua,609,B
+maps/SCCA_E06/SCCA_E06_script.lua,83.79,K
+maps/SCCA_E06/SCCA_E06_Strings.lua,26.38,K
+maps/SCCA_R01/SCCA_R01.psd,603.9,K
+maps/SCCA_R01/SCCA_R01.raw,514,K
+maps/SCCA_R01/SCCA_R01.scmap,2.26,M
+maps/SCCA_R01/SCCA_R01_aeonplan.lua,950,B
+maps/SCCA_R01/SCCA_R01_aeonplanlist.lua,674,B
+maps/SCCA_R01/SCCA_R01_dostyaplan.lua,554,B
+maps/SCCA_R01/SCCA_R01_dostyaplanlist.lua,674,B
+maps/SCCA_R01/SCCA_R01_fauxaeonplan.lua,555,B
+maps/SCCA_R01/SCCA_R01_fauxaeontplanlist.lua,682,B
+maps/SCCA_R01/SCCA_R01_fauxuefplan.lua,554,B
+maps/SCCA_R01/SCCA_R01_fauxuefplanlist.lua,680,B
+maps/SCCA_R01/SCCA_R01_fauxueftplanlist.lua,680,B
+maps/SCCA_R01/SCCA_R01_operation.lua,1.19,K
+maps/SCCA_R01/SCCA_R01_playerplan.lua,559,B
+maps/SCCA_R01/SCCA_R01_playerplanlist.lua,687,B
+maps/SCCA_R01/SCCA_R01_save.lua,881.12,K
+maps/SCCA_R01/SCCA_R01_scenario.lua,585,B
+maps/SCCA_R01/SCCA_R01_script.lua,79.18,K
+maps/SCCA_R01/SCCA_R01_Strings.lua,28.48,K
+maps/SCCA_R01/SCCA_R01_symbiontplan.lua,555,B
+maps/SCCA_R01/SCCA_R01_symbiontplanlist.lua,682,B
+maps/SCCA_R01/SCCA_R01_uefplan.lua,950,B
+maps/SCCA_R01/SCCA_R01_uefplanlist.lua,675,B
+maps/SCCA_R01/SCCA_R01_wreckage_holdingplan.lua,557,B
+maps/SCCA_R01/SCCA_R01_wreckage_holdingplanlist.lua,693,B
+maps/SCCA_R02/SCCA_R02.psd,1.62,M
+maps/SCCA_R02/SCCA_R02.raw,514.06,K
+maps/SCCA_R02/SCCA_R02.scmap,2.05,M
+maps/SCCA_R02/SCCA_R02_aeonplan.lua,1.75,K
+maps/SCCA_R02/SCCA_R02_aeonplanlist.lua,690,B
+maps/SCCA_R02/SCCA_R02_cybranplan.lua,1.15,K
+maps/SCCA_R02/SCCA_R02_cybranplanlist.lua,694,B
+maps/SCCA_R02/SCCA_R02_Editorfunctions.lua,19.82,K
+maps/SCCA_R02/SCCA_R02_operation.lua,1.19,K
+maps/SCCA_R02/SCCA_R02_playerplan.lua,575,B
+maps/SCCA_R02/SCCA_R02_playerplanlist.lua,683,B
+maps/SCCA_R02/SCCA_R02_save.lua,1.27,M
+maps/SCCA_R02/SCCA_R02_scenario.lua,622,B
+maps/SCCA_R02/SCCA_R02_script.lua,105.21,K
+maps/SCCA_R02/SCCA_R02_strings.lua,22.04,K
+maps/SCCA_R03/SCCA_R03_brackmanconvoyplan.lua,453,B
+maps/SCCA_R03/SCCA_R03_brackmanconvoyplanlist.lua,715,B
+maps/SCCA_R03/SCCA_R03_civilianplan.lua,447,B
+maps/SCCA_R03/SCCA_R03_civilianplanlist.lua,694,B
+maps/SCCA_R03/SCCA_R03_cybrancloakedplan.lua,452,B
+maps/SCCA_R03/SCCA_R03_cybrancloakedplanlist.lua,712,B
+maps/SCCA_R03/SCCA_R03_operation.lua,1.19,K
+maps/SCCA_R03/SCCA_R03_playerplan.lua,575,B
+maps/SCCA_R03/SCCA_R03_playerplanlist.lua,693,B
+maps/SCCA_R03/SCCA_R03_save.lua,506.3,K
+maps/SCCA_R03/SCCA_R03_scenario.lua,615,B
+maps/SCCA_R03/SCCA_R03_script.lua,48.8,K
+maps/SCCA_R03/SCCA_R03_strings.lua,21.6,K
+maps/SCCA_R03/SCCA_R03_uefplan.lua,1.39,K
+maps/SCCA_R03/SCCA_R03_uefplanlist.lua,681,B
+maps/SCCA_R04/SCCA_R04.psd,9.08,M
+maps/SCCA_R04/SCCA_R04.raw,8.01,M
+maps/SCCA_R04/SCCA_R04.scmap,8.3,M
+maps/SCCA_R04/SCCA_R04_aeonplan.lua,435,B
+maps/SCCA_R04/SCCA_R04_aeonplanlist.lua,679,B
+maps/SCCA_R04/SCCA_R04_EditorFunctions.lua,1.37,K
+maps/SCCA_R04/SCCA_R04_operation.lua,1.19,K
+maps/SCCA_R04/SCCA_R04_playerplan.lua,575,B
+maps/SCCA_R04/SCCA_R04_playerplanlist.lua,682,B
+maps/SCCA_R04/SCCA_R04_save.lua,1009.07,K
+maps/SCCA_R04/SCCA_R04_scenario.lua,597,B
+maps/SCCA_R04/SCCA_R04_script.lua,71.68,K
+maps/SCCA_R04/SCCA_R04_strings.lua,19.83,K
+maps/SCCA_R05/SCCA_R05.psd,2.25,M
+maps/SCCA_R05/SCCA_R05.raw,2,M
+maps/SCCA_R05/SCCA_R05.scmap,7.43,M
+maps/SCCA_R05/SCCA_R05_fauxuefplan.lua,567,B
+maps/SCCA_R05/SCCA_R05_fauxuefplanlist.lua,680,B
+maps/SCCA_R05/SCCA_R05_hex5plan.lua,575,B
+maps/SCCA_R05/SCCA_R05_hex5planlist.lua,674,B
+maps/SCCA_R05/SCCA_R05_operation.lua,1.19,K
+maps/SCCA_R05/SCCA_R05_playerplan.lua,566,B
+maps/SCCA_R05/SCCA_R05_playerplanlist.lua,698,B
+maps/SCCA_R05/SCCA_R05_save.lua,1.69,M
+maps/SCCA_R05/SCCA_R05_scenario.lua,592,B
+maps/SCCA_R05/SCCA_R05_script.lua,77.57,K
+maps/SCCA_R05/SCCA_R05_Strings.lua,22.82,K
+maps/SCCA_R05/SCCA_R05_uefplan.lua,1.5,K
+maps/SCCA_R05/SCCA_R05_uefplanlist.lua,672,B
+maps/SCCA_R06/SCCA_R06_aeonplan.lua,1.23,K
+maps/SCCA_R06/SCCA_R06_aeonplanlist.lua,695,B
+maps/SCCA_R06/SCCA_R06_blacksunplan.lua,441,B
+maps/SCCA_R06/SCCA_R06_blacksunplanlist.lua,703,B
+maps/SCCA_R06/SCCA_R06_editorfunctions.lua,867,B
+maps/SCCA_R06/SCCA_R06_operation.lua,1.19,K
+maps/SCCA_R06/SCCA_R06_playerplan.lua,439,B
+maps/SCCA_R06/SCCA_R06_playerplanlist.lua,699,B
+maps/SCCA_R06/SCCA_R06_save.lua,1.25,M
+maps/SCCA_R06/SCCA_R06_scenario.lua,593,B
+maps/SCCA_R06/SCCA_R06_script.lua,49.96,K
+maps/SCCA_R06/SCCA_R06_strings.lua,23.04,K
+maps/SCCA_R06/SCCA_R06_uefplan.lua,2.08,K
+maps/SCCA_R06/SCCA_R06_uefplanlist.lua,693,B
+maps/SCCA_Tutorial/SCCA_Tutorial.scmap,3.08,M
+maps/SCCA_Tutorial/SCCA_Tutorial_cybranplan.lua,445,B
+maps/SCCA_Tutorial/SCCA_Tutorial_cybranplanlist.lua,653,B
+maps/SCCA_Tutorial/SCCA_Tutorial_playerplan.lua,445,B
+maps/SCCA_Tutorial/SCCA_Tutorial_playerplanlist.lua,650,B
+maps/SCCA_Tutorial/SCCA_Tutorial_save.lua,48.81,K
+maps/SCCA_Tutorial/SCCA_Tutorial_scenario.lua,571,B
+maps/SCCA_Tutorial/SCCA_Tutorial_script.lua,4.91,K
+maps/SCMP_001/SCMP_001.scmap,7.97,M
+maps/SCMP_001/SCMP_001_save.lua,394.85,K
+maps/SCMP_001/SCMP_001_scenario.lua,1.49,K
+maps/SCMP_001/SCMP_001_script.lua,160,B
+maps/SCMP_002/SCMP_002.scmap,6.56,M
+maps/SCMP_002/SCMP_002_save.lua,96.07,K
+maps/SCMP_002/SCMP_002_scenario.lua,1.34,K
+maps/SCMP_002/SCMP_002_script.lua,261,B
+maps/SCMP_003/SCMP_003.scmap,7.36,M
+maps/SCMP_003/SCMP_003_save.lua,265.95,K
+maps/SCMP_003/SCMP_003_scenario.lua,1.26,K
+maps/SCMP_003/SCMP_003_script.lua,160,B
+maps/SCMP_004/SCMP_004.scmap,9.25,M
+maps/SCMP_004/SCMP_004_save.lua,76.79,K
+maps/SCMP_004/SCMP_004_scenario.lua,1.09,K
+maps/SCMP_004/SCMP_004_script.lua,162,B
+maps/SCMP_005/SCMP_005.scmap,32.16,M
+maps/SCMP_005/SCMP_005_save.lua,255.64,K
+maps/SCMP_005/SCMP_005_scenario.lua,1.35,K
+maps/SCMP_005/SCMP_005_script.lua,160,B
+maps/SCMP_006/SCMP_006.scmap,9.31,M
+maps/SCMP_006/SCMP_006_save.lua,99.06,K
+maps/SCMP_006/SCMP_006_scenario.lua,1.09,K
+maps/SCMP_006/SCMP_006_script.lua,261,B
+maps/SCMP_007/SCMP_007.scmap,2.54,M
+maps/SCMP_007/SCMP_007_save.lua,68.18,K
+maps/SCMP_007/SCMP_007_scenario.lua,1.27,K
+maps/SCMP_007/SCMP_007_script.lua,261,B
+maps/SCMP_008/SCMP_008.scmap,8.43,M
+maps/SCMP_008/SCMP_008_save.lua,95.18,K
+maps/SCMP_008/SCMP_008_scenario.lua,1.33,K
+maps/SCMP_008/SCMP_008_script.lua,162,B
+maps/SCMP_009/SCMP_009.scmap,8.19,M
+maps/SCMP_009/SCMP_009_save.lua,123.36,K
+maps/SCMP_009/SCMP_009_scenario.lua,1.38,K
+maps/SCMP_009/SCMP_009_script.lua,158,B
+maps/SCMP_010/SCMP_010.scmap,8.48,M
+maps/SCMP_010/SCMP_010_save.lua,139.93,K
+maps/SCMP_010/SCMP_010_scenario.lua,1.18,K
+maps/SCMP_010/SCMP_010_script.lua,160,B
+maps/SCMP_011/SCMP_011.scmap,25.71,M
+maps/SCMP_011/SCMP_011_save.lua,225.19,K
+maps/SCMP_011/SCMP_011_scenario.lua,1.03,K
+maps/SCMP_011/SCMP_011_script.lua,160,B
+maps/SCMP_012/SCMP_012.scmap,883.39,K
+maps/SCMP_012/SCMP_012_save.lua,63.73,K
+maps/SCMP_012/SCMP_012_scenario.lua,1,K
+maps/SCMP_012/SCMP_012_script.lua,160,B
+maps/SCMP_013/SCMP_013.scmap,856.23,K
+maps/SCMP_013/SCMP_013_save.lua,27.21,K
+maps/SCMP_013/SCMP_013_scenario.lua,857,B
+maps/SCMP_013/SCMP_013_script.lua,250,B
+maps/SCMP_014/Preview_SCMP_014.dds,128.13,K
+maps/SCMP_014/Preview_SCMP_014.psd,13.92,M
+maps/SCMP_014/SCMP_014.scmap,9.6,M
+maps/SCMP_014/SCMP_014_save.lua,98.07,K
+maps/SCMP_014/SCMP_014_scenario.lua,1.32,K
+maps/SCMP_014/SCMP_014_script.lua,162,B
+maps/SCMP_015/SCMP_015.scmap,3.5,M
+maps/SCMP_015/SCMP_015_save.lua,50.47,K
+maps/SCMP_015/SCMP_015_scenario.lua,1.02,K
+maps/SCMP_015/SCMP_015_script.lua,251,B
+maps/SCMP_016/SCMP_016.scmap,1.28,M
+maps/SCMP_016/SCMP_016_save.lua,34.87,K
+maps/SCMP_016/SCMP_016_scenario.lua,876,B
+maps/SCMP_016/SCMP_016_script.lua,300,B
+maps/SCMP_017/SCMP_017.scmap,2.6,M
+maps/SCMP_017/SCMP_017_save.lua,123.88,K
+maps/SCMP_017/SCMP_017_scenario.lua,1.13,K
+maps/SCMP_017/SCMP_017_script.lua,298,B
+maps/SCMP_018/SCMP_018.scmap,1.92,M
+maps/SCMP_018/scmp_018_save.lua,114.01,K
+maps/SCMP_018/scmp_018_scenario.lua,1.03,K
+maps/SCMP_018/SCMP_018_script.lua,300,B
+maps/SCMP_019/SCMP_019.scmap,3.35,M
+maps/SCMP_019/SCMP_019_save.lua,34.27,K
+maps/SCMP_019/SCMP_019_scenario.lua,891,B
+maps/SCMP_019/SCMP_019_script.lua,300,B
+maps/SCMP_020/SCMP_020.scmap,9.81,M
+maps/SCMP_020/scmp_020_save.lua,95.52,K
+maps/SCMP_020/scmp_020_scenario.lua,1.25,K
+maps/SCMP_020/SCMP_020_script.lua,300,B
+maps/SCMP_021/SCMP_021.scmap,30.72,M
+maps/SCMP_021/scmp_021_save.lua,309.94,K
+maps/SCMP_021/scmp_021_scenario.lua,1.44,K
+maps/SCMP_021/SCMP_021_script.lua,298,B
+maps/SCMP_022/SCMP_022.scmap,2.16,M
+maps/SCMP_022/scmp_022_save.lua,138.55,K
+maps/SCMP_022/scmp_022_scenario.lua,1.1,K
+maps/SCMP_022/SCMP_022_script.lua,298,B
+maps/SCMP_023/SCMP_023.scmap,2.09,M
+maps/SCMP_023/scmp_023_save.lua,130.65,K
+maps/SCMP_023/scmp_023_scenario.lua,846,B
+maps/SCMP_023/SCMP_023_script.lua,298,B
+maps/SCMP_024/SCMP_024.scmap,10.4,M
+maps/SCMP_024/scmp_024_save.lua,82.5,K
+maps/SCMP_024/scmp_024_scenario.lua,772,B
+maps/SCMP_024/SCMP_024_script.lua,348,B
+maps/SCMP_025/SCMP_025.scmap,2.53,M
+maps/SCMP_025/scmp_025_save.lua,279.95,K
+maps/SCMP_025/scmp_025_scenario.lua,1.32,K
+maps/SCMP_025/SCMP_025_script.lua,298,B
+maps/SCMP_026/SCMP_026.scmap,3.59,M
+maps/SCMP_026/scmp_026_save.lua,157.87,K
+maps/SCMP_026/scmp_026_scenario.lua,960,B
+maps/SCMP_026/SCMP_026_script.lua,296,B
+maps/SCMP_027/SCMP_027.scmap,7.82,M
+maps/SCMP_027/scmp_027_save.lua,73.04,K
+maps/SCMP_027/scmp_027_scenario.lua,1.25,K
+maps/SCMP_027/SCMP_027_script.lua,300,B
+maps/SCMP_028/SCMP_028.scmap,26.95,M
+maps/SCMP_028/scmp_028_save.lua,107.07,K
+maps/SCMP_028/scmp_028_scenario.lua,1.48,K
+maps/SCMP_028/scmp_028_script.lua,298,B
+maps/SCMP_029/SCMP_029.scmap,116.3,M
+maps/SCMP_029/scmp_029_save.lua,320.1,K
+maps/SCMP_029/scmp_029_scenario.lua,1.21,K
+maps/SCMP_029/scmp_029_script.lua,296,B
+maps/SCMP_030/height.raw,32.02,M
+maps/SCMP_030/height2.raw,32.02,M
+maps/SCMP_030/SCMP_030.scmap,104.97,M
+maps/SCMP_030/scmp_030_save.lua,132.19,K
+maps/SCMP_030/scmp_030_scenario.lua,1.37,K
+maps/SCMP_030/scmp_030_script.lua,298,B
+maps/SCMP_031/SCMP_031.scmap,2.27,M
+maps/SCMP_031/scmp_031_save.lua,165.38,K
+maps/SCMP_031/scmp_031_scenario.lua,1.16,K
+maps/SCMP_031/SCMP_031_script.lua,162,B
+maps/SCMP_032/SCMP_032.scmap,3.17,M
+maps/SCMP_032/scmp_032_save.lua,67.46,K
+maps/SCMP_032/scmp_032_scenario.lua,1.23,K
+maps/SCMP_032/scmp_032_script.lua,298,B
+maps/SCMP_033/SCMP_033.scmap,3.17,M
+maps/SCMP_033/scmp_033_save.lua,69.16,K
+maps/SCMP_033/scmp_033_scenario.lua,1.01,K
+maps/SCMP_033/scmp_033_script.lua,298,B
+maps/SCMP_034/SCMP_034.scmap,2.52,M
+maps/SCMP_034/scmp_034_save.lua,47.98,K
+maps/SCMP_034/scmp_034_scenario.lua,774,B
+maps/SCMP_034/scmp_034_script.lua,298,B
+maps/SCMP_035/SCMP_035.scmap,2.65,M
+maps/SCMP_035/scmp_035_save.lua,66.56,K
+maps/SCMP_035/scmp_035_scenario.lua,1.12,K
+maps/SCMP_035/scmp_035_script.lua,298,B
+maps/SCMP_036/SCMP_036.scmap,929.08,K
+maps/SCMP_036/scmp_036_save.lua,62.06,K
+maps/SCMP_036/scmp_036_scenario.lua,1.1,K
+maps/SCMP_036/scmp_036_script.lua,298,B
+maps/SCMP_037/SCMP_037.scmap,694.72,K
+maps/SCMP_037/scmp_037_save.lua,39.45,K
+maps/SCMP_037/scmp_037_scenario.lua,767,B
+maps/SCMP_037/scmp_037_script.lua,298,B
+maps/SCMP_038/SCMP_038.scmap,1.18,M
+maps/SCMP_038/scmp_038_save.lua,125.53,K
+maps/SCMP_038/scmp_038_scenario.lua,1.07,K
+maps/SCMP_038/scmp_038_script.lua,298,B
+maps/SCMP_039/SCMP_039.scmap,1.11,M
+maps/SCMP_039/scmp_039_save.lua,135.2,K
+maps/SCMP_039/scmp_039_scenario.lua,1.14,K
+maps/SCMP_039/scmp_039_script.lua,298,B
+maps/SCMP_040/SCMP_040.scmap,8.27,M
+maps/SCMP_040/scmp_040_save.lua,67.98,K
+maps/SCMP_040/scmp_040_scenario.lua,1.18,K
+maps/SCMP_040/scmp_040_script.lua,298,B
+mods/BlackOpsAR/effects/emitters/em_pdlaser_beam_01_emit.bp,276,B
+mods/BlackOpsAR/hook/lua/sim/Unit.lua,1.21,K
+mods/BlackOpsAR/hook/lua/ui/help/unitdescription.lua,525,B
+mods/BlackOpsAR/icons/yoda_icon.bmp,16.93,K
+mods/BlackOpsAR/lua/BlackOpsARdefaultantiprojectile.lua,14.74,K
+mods/BlackOpsAR/lua/BlackOpsARdefaultcollisionbeams.lua,4.2,K
+mods/BlackOpsAR/lua/BlackOpsAREffectTemplates.lua,2.72,K
+mods/BlackOpsAR/lua/BlackOpsARprojectiles.lua,10.05,K
+mods/BlackOpsAR/lua/BlackOpsARweapons.lua,3.32,K
+mods/BlackOpsAR/projectiles/BARFragmentationShell01/BARFragmentationShell01_proj.bp,1.28,K
+mods/BlackOpsAR/projectiles/BARFragmentationShell01/BARFragmentationShell01_script.lua,2.27,K
+mods/BlackOpsAR/projectiles/BARFragmentationShellChild01/BARFragmentationShellChild01_proj.bp,1.26,K
+mods/BlackOpsAR/projectiles/BARFragmentationShellChild01/BARFragmentationShellChild01_script.lua,295,B
+mods/BlackOpsAR/projectiles/EXClusterMissle01/EXClusterMissle01_proj.bp,1.83,K
+mods/BlackOpsAR/projectiles/EXClusterMissle01/EXClusterMissle01_Script.lua,4.31,K
+mods/BlackOpsAR/projectiles/EXSmallYieldNuclearBomb01/EXSmallYieldNuclearBomb01_Albedo.dds,85.48,K
+mods/BlackOpsAR/projectiles/EXSmallYieldNuclearBomb01/EXSmallYieldNuclearBomb01_lod0.scm,7.99,K
+mods/BlackOpsAR/projectiles/EXSmallYieldNuclearBomb01/EXSmallYieldNuclearBomb01_normalsTS.dds,341.48,K
+mods/BlackOpsAR/projectiles/EXSmallYieldNuclearBomb01/EXSmallYieldNuclearBomb01_proj.bp,1.41,K
+mods/BlackOpsAR/projectiles/EXSmallYieldNuclearBomb01/EXSmallYieldNuclearBomb01_script.lua,1.37,K
+mods/BlackOpsAR/projectiles/EXSmallYieldNuclearBomb01/EXSmallYieldNuclearBomb01_SpecTeam.dds,85.48,K
+mods/BlackOpsAR/projectiles/MBeetleMissileTactical01/MBeetleMissileTactical01_Albedo.dds,85.48,K
+mods/BlackOpsAR/projectiles/MBeetleMissileTactical01/MBeetleMissileTactical01_lod0.scm,2.68,K
+mods/BlackOpsAR/projectiles/MBeetleMissileTactical01/MBeetleMissileTactical01_normalsTS.dds,341.48,K
+mods/BlackOpsAR/projectiles/MBeetleMissileTactical01/MBeetleMissileTactical01_proj.bp,1.88,K
+mods/BlackOpsAR/projectiles/MBeetleMissileTactical01/MBeetleMissileTactical01_Script.lua,2.02,K
+mods/BlackOpsAR/projectiles/MBeetleMissileTactical01/MBeetleMissileTactical01_SpecTeam.dds,85.48,K
+mods/BlackOpsAR/projectiles/NukeShell01/NukeShell01_proj.bp,1.56,K
+mods/BlackOpsAR/projectiles/NukeShell01/NukeShell01_script.lua,919,B
+mods/BlackOpsAR/projectiles/SuperShell01/SuperShell01_proj.bp,1.41,K
+mods/BlackOpsAR/projectiles/SuperShell01/SuperShell01_script.lua,227,B
+mods/BlackOpsAR/textures/ui/common/icons/units/OEA0401_icon.dds,5.48,K
+mods/BlackOpsAR/textures/ui/common/icons/units/OEL0401_icon.dds,5.48,K
+mods/BlackOpsAR/textures/ui/common/icons/units/OEL0402_icon.dds,5.48,K
+mods/BlackOpsAR/textures/ui/common/icons/units/ORL0111_icon.dds,5.48,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_Albedo.dds,170.8,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_lod0.scm,481.78,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_lod1.scm,481.78,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_lod1_Albedo.dds,2.8,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_lod1_normalsTS.dds,5.48,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_lod1_SpecTeam.dds,5.48,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_normalsTS.dds,341.48,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_Script.lua,5.23,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_SpecTeam.dds,341.48,K
+mods/BlackOpsAR/units/OEA0401/OEA0401_unit.bp,35.25,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_Albedo.dds,682.8,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_AOpen.sca,67.58,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_lod0.scm,189.59,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_lod1.scm,189.59,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_lod1_Albedo.dds,10.8,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_lod1_normalsTS.dds,21.48,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_lod1_SpecTeam.dds,21.48,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_normalsTS.dds,341.48,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_script.lua,1.83,K
+mods/BlackOpsAR/units/OEL0401/OEL0401_SpecTeam.dds,1.33,M
+mods/BlackOpsAR/units/OEL0401/OEL0401_unit.bp,31.24,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_ADeploy.sca,187.29,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_ADeploy2.sca,187.29,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_Albedo.dds,682.8,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_lod0.scm,880,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_lod1.scm,879.87,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_lod1_Albedo.dds,10.8,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_lod1_normalsTS.dds,21.48,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_lod1_SpecTeam.dds,21.48,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_normalsTS.dds,341.48,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_script.lua,3.53,K
+mods/BlackOpsAR/units/OEL0402/OEL0402_SpecTeam.dds,1.33,M
+mods/BlackOpsAR/units/OEL0402/OEL0402_unit.bp,79.07,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_ADeath01.sca,21.61,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_ADeath02.sca,13.25,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_Albedo.dds,682.8,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_AWalk01.sca,25.79,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_lod0.scm,46.46,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_lod1.scm,46.46,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_lod1_Albedo.dds,10.8,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_lod1_normalsTS.dds,21.48,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_lod1_SpecTeam.dds,21.48,K
+mods/BlackOpsAR/units/ORL0111/ORL0111_normalsTS.dds,1.33,M
+mods/BlackOpsAR/units/ORL0111/ORL0111_script.lua,612,B
+mods/BlackOpsAR/units/ORL0111/ORL0111_SpecTeam.dds,1.33,M
+mods/BlackOpsAR/units/ORL0111/ORL0111_unit.bp,8.66,K
+mods/BlackOpsAR/v0001/BlackOpsAR.version,70,B
+mods/BlackOpsAR/BlackOpsARv1.txt,916,B
+mods/BlackOpsAR/mod_info.lua,463,B
+mods/Build Patterns/hook/lua/ui/game/gamemain.lua,506,B
+mods/Build Patterns/hook/lua/simcallbacks.lua,91,B
+mods/Build Patterns/hook/mods/uimod/sca_utils/remap.lua,400,B
+mods/Build Patterns/textures/backgrounds/bgbottom.dds,5.09,K
+mods/Build Patterns/textures/backgrounds/bgmiddle.dds,5.09,K
+mods/Build Patterns/textures/backgrounds/bgtop.dds,5.09,K
+mods/Build Patterns/textures/buttonsAEON/RadarAndPower.dds,7.03,K
+mods/Build Patterns/textures/buttonsAEON/T1FabGroup.dds,7.03,K
+mods/Build Patterns/textures/buttonsAEON/T1LandFacWithPower.dds,7.03,K
+mods/Build Patterns/textures/buttonsAEON/T1MexAndStorage.dds,7.03,K
+mods/Build Patterns/textures/buttonsAEON/T2FirebaseCore.dds,7.03,K
+mods/Build Patterns/textures/buttonsAEON/T3MassComplexSpread.dds,7.03,K
+mods/Build Patterns/textures/buttonsAEON/T3MassComplexTight.dds,7.03,K
+mods/Build Patterns/textures/buttonsCYBRAN/RadarAndPower.dds,7.03,K
+mods/Build Patterns/textures/buttonsCYBRAN/T1FabGroup.dds,7.03,K
+mods/Build Patterns/textures/buttonsCYBRAN/T1LandFacWithPower.dds,7.03,K
+mods/Build Patterns/textures/buttonsCYBRAN/T1MexAndStorage.dds,7.03,K
+mods/Build Patterns/textures/buttonsCYBRAN/T2FirebaseCore.dds,7.03,K
+mods/Build Patterns/textures/buttonsCYBRAN/T3MassComplexSpread.dds,7.03,K
+mods/Build Patterns/textures/buttonsCYBRAN/T3MassComplexTight.dds,7.03,K
+mods/Build Patterns/textures/buttonsUEF/RadarAndPower.dds,7.03,K
+mods/Build Patterns/textures/buttonsUEF/T1FabGroup.dds,7.03,K
+mods/Build Patterns/textures/buttonsUEF/T1LandFacWithPower.dds,7.03,K
+mods/Build Patterns/textures/buttonsUEF/T1MexAndStorage.dds,7.03,K
+mods/Build Patterns/textures/buttonsUEF/T2FirebaseCore.dds,7.03,K
+mods/Build Patterns/textures/buttonsUEF/T3MassComplexSpread.dds,7.03,K
+mods/Build Patterns/textures/buttonsUEF/T3MassComplexTight.dds,7.03,K
+mods/Build Patterns/textures/footprints/footprint-1by1.dds,496,B
+mods/Build Patterns/textures/footprints/footprint-2by2.dds,1.48,K
+mods/Build Patterns/textures/footprints/footprint-4by4.dds,5.48,K
+mods/Build Patterns/textures/footprints/footprint-6by6.dds,12.17,K
+mods/Build Patterns/textures/footprints/footprint-8by8.dds,21.48,K
+mods/Build Patterns/BuildingTemplates.lua,7.28,K
+mods/Build Patterns/buildpatterns.lua,17.98,K
+mods/Build Patterns/mod_info.lua,221,B
+mods/Build Patterns/PatternTemplates.lua,4.16,K
+mods/Siege Shields/units/AeonSSG/AeonSSG_Adeath.sca,2.73,K
+mods/Siege Shields/units/AeonSSG/AeonSSG_Albedo.dds,682.8,K
+mods/Siege Shields/units/AeonSSG/AeonSSG_lod0.scm,139.41,K
+mods/Siege Shields/units/AeonSSG/AeonSSG_lod1.scm,32.94,K
+mods/Siege Shields/units/AeonSSG/AeonSSG_lod1_Albedo.dds,10.8,K
+mods/Siege Shields/units/AeonSSG/AeonSSG_lod1_normalsTS.dds,21.48,K
+mods/Siege Shields/units/AeonSSG/AeonSSG_lod1_SpecTeam.dds,21.48,K
+mods/Siege Shields/units/AeonSSG/AeonSSG_normalsTS.dds,1.33,M
+mods/Siege Shields/units/AeonSSG/AeonSSG_script.lua,2.65,K
+mods/Siege Shields/units/AeonSSG/AeonSSG_SpecTeam.dds,1.33,M
+mods/Siege Shields/units/AeonSSG/AeonSSG_unit.bp,5.64,K
+mods/Siege Shields/units/CSSG/CSSG_Albedo.dds,682.8,K
+mods/Siege Shields/units/CSSG/CSSG_lod0.scm,246.54,K
+mods/Siege Shields/units/CSSG/CSSG_lod1.scm,12.48,K
+mods/Siege Shields/units/CSSG/CSSG_lod1_Albedo.dds,10.8,K
+mods/Siege Shields/units/CSSG/CSSG_lod1_normalsTS.dds,21.48,K
+mods/Siege Shields/units/CSSG/CSSG_lod1_SpecTeam.dds,21.48,K
+mods/Siege Shields/units/CSSG/CSSG_normalsTS.dds,341.48,K
+mods/Siege Shields/units/CSSG/CSSG_script.lua,1.81,K
+mods/Siege Shields/units/CSSG/CSSG_SpecTeam.dds,1.33,M
+mods/Siege Shields/units/CSSG/CSSG_unit.bp,5.37,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_Albedo.dds,170.8,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_lod0.scm,95.26,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_lod1.scm,37.88,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_lod1_Albedo.dds,10.8,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_lod1_normalsTS.dds,21.48,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_lod1_SpecTeam.dds,21.48,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_normalsTS.dds,341.48,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_script.lua,2.06,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_SpecTeam.dds,341.48,K
+mods/Siege Shields/units/UEFSSG/UEFSSG_unit.bp,5.33,K
+mods/Siege Shields/mod_info.lua,224,B
+mods/build patterns readme.txt,517,B
+mods/SSG readme.txt,309,B
+movies/A01_B01.sfd,12.44,M
+movies/A01_B02.sfd,7.44,M
+movies/A01_B03.sfd,12.57,M
+movies/A01_Berry_M07_00774.sfd,80,K
+movies/A01_Berry_M07_00777.sfd,46,K
+movies/A01_Berry_M07_00780.sfd,134,K
+movies/A01_Berry_T01_00738.sfd,78,K
+movies/A01_Berry_T01_00739.sfd,54,K
+movies/A01_Berry_T01_00740.sfd,64,K
+movies/A01_Berry_T01_00741.sfd,96,K
+movies/A01_Berry_T01_00742.sfd,114,K
+movies/A01_Berry_T01_00743.sfd,64,K
+movies/A01_Berry_T01_00744.sfd,58,K
+movies/A01_Berry_T01_00745.sfd,84,K
+movies/A01_Choir_D01_00737.sfd,180,K
+movies/A01_Choir_M01_01557.sfd,96,K
+movies/A01_Choir_M07_00788.sfd,64,K
+movies/A01_Rhiza_M01_00746.sfd,282,K
+movies/A01_Rhiza_M01_00747.sfd,1.13,M
+movies/A01_Rhiza_M01_00748.sfd,814,K
+movies/A01_Rhiza_M01_00754.sfd,354,K
+movies/A01_Rhiza_M01_01556.sfd,354,K
+movies/A01_Rhiza_M01_01558.sfd,504,K
+movies/A01_Rhiza_M01_01559.sfd,654,K
+movies/A01_Rhiza_M02_00749.sfd,1.17,M
+movies/A01_Rhiza_M02_00756.sfd,392,K
+movies/A01_Rhiza_M02_01560.sfd,356,K
+movies/A01_Rhiza_M03_00750.sfd,800,K
+movies/A01_Rhiza_M03_00759.sfd,424,K
+movies/A01_Rhiza_M03_01561.sfd,120,K
+movies/A01_Rhiza_M04_00751.sfd,756,K
+movies/A01_Rhiza_M04_00761.sfd,452,K
+movies/A01_Rhiza_M04_01562.sfd,342,K
+movies/A01_Rhiza_M05_00752.sfd,2.56,M
+movies/A01_Rhiza_M05_00763.sfd,458,K
+movies/A01_Rhiza_M05_01563.sfd,348,K
+movies/A01_Rhiza_M06_00753.sfd,604,K
+movies/A01_Rhiza_M06_00765.sfd,110,K
+movies/A01_Rhiza_M06_01564.sfd,142,K
+movies/A01_Rhiza_M07_00767.sfd,502,K
+movies/A01_Rhiza_M07_00768.sfd,142,K
+movies/A01_Rhiza_M07_00769.sfd,250,K
+movies/A01_Rhiza_M07_00770.sfd,178,K
+movies/A01_Rhiza_M07_00771.sfd,418,K
+movies/A01_Rhiza_M07_00772.sfd,204,K
+movies/A01_Rhiza_M07_00773.sfd,248,K
+movies/A01_Rhiza_M07_00775.sfd,192,K
+movies/A01_Rhiza_M07_00776.sfd,194,K
+movies/A01_Rhiza_M07_00778.sfd,122,K
+movies/A01_Rhiza_M07_00779.sfd,98,K
+movies/A01_Rhiza_M07_00781.sfd,160,K
+movies/A01_Rhiza_M07_00782.sfd,118,K
+movies/A01_Rhiza_M07_00784.sfd,202,K
+movies/A01_Rhiza_M07_00786.sfd,134,K
+movies/A01_Rhiza_M07_01146.sfd,228,K
+movies/A01_Rhiza_M07_01147.sfd,340,K
+movies/A01_Rhiza_M07_01148.sfd,102,K
+movies/A01_Rhiza_M07_01149.sfd,46,K
+movies/A01_Rhiza_M07_01565.sfd,122,K
+movies/A01_Rhiza_M07_01566.sfd,152,K
+movies/A01_Rhiza_M07_01567.sfd,156,K
+movies/A01_Rhiza_M07_02484.sfd,674,K
+movies/A02_B01.sfd,8.6,M
+movies/A02_B02.sfd,14.92,M
+movies/A02_B03.sfd,17.22,M
+movies/A02_Choir_D01_00789.sfd,142,K
+movies/A02_Choir_M01_00798.sfd,158,K
+movies/A02_Choir_M01_00799.sfd,86,K
+movies/A02_Choir_M01_00800.sfd,144,K
+movies/A02_Choir_M01_00802.sfd,90,K
+movies/A02_Choir_M01_00803.sfd,114,K
+movies/A02_Choir_M01_00805.sfd,136,K
+movies/A02_Choir_M01_01568.sfd,150,K
+movies/A02_Choir_M02_00807.sfd,238,K
+movies/A02_Choir_M02_00813.sfd,180,K
+movies/A02_Choir_M02_00814.sfd,306,K
+movies/A02_Choir_M02_00815.sfd,234,K
+movies/A02_Choir_M02_00816.sfd,236,K
+movies/A02_Choir_M02_00818.sfd,110,K
+movies/A02_Choir_M02_00819.sfd,124,K
+movies/A02_Choir_M02_00820.sfd,162,K
+movies/A02_Choir_M02_00821.sfd,116,K
+movies/A02_Choir_M02_00822.sfd,98,K
+movies/A02_Choir_M02_00826.sfd,148,K
+movies/A02_Choir_M02_01094.sfd,152,K
+movies/A02_Choir_M02_02670.sfd,120,K
+movies/A02_Choir_M03_00829.sfd,272,K
+movies/A02_Choir_M03_00831.sfd,152,K
+movies/A02_Choir_M03_00832.sfd,240,K
+movies/A02_Choir_M03_00833.sfd,88,K
+movies/A02_Choir_M03_00834.sfd,84,K
+movies/A02_Choir_M03_00836.sfd,110,K
+movies/A02_Choir_M03_00838.sfd,118,K
+movies/A02_Choir_M03_00839.sfd,132,K
+movies/A02_Choir_M03_00840.sfd,192,K
+movies/A02_Choir_M03_01095.sfd,146,K
+movies/A02_Choir_M03_01096.sfd,120,K
+movies/A02_Choir_M03_01150.sfd,88,K
+movies/A02_Leopard11_M01_00801.sfd,72,K
+movies/A02_Leopard11_M02_00806.sfd,112,K
+movies/A02_Leopard11_M02_00817.sfd,88,K
+movies/A02_Leopard11_M02_00823.sfd,82,K
+movies/A02_Leopard11_M02_00824.sfd,76,K
+movies/A02_Leopard11_M03_00828.sfd,76,K
+movies/A02_Leopard11_M03_00830.sfd,68,K
+movies/A02_Leopard11_M03_00835.sfd,128,K
+movies/A02_Leopard11_T01_00790.sfd,70,K
+movies/A02_Leopard11_T01_00791.sfd,58,K
+movies/A02_Leopard11_T01_00792.sfd,108,K
+movies/A02_Leopard11_T01_00793.sfd,104,K
+movies/A02_Leopard11_T01_00794.sfd,112,K
+movies/A02_Leopard11_T01_00795.sfd,76,K
+movies/A02_Leopard11_T01_00796.sfd,54,K
+movies/A02_Leopard11_T01_00797.sfd,92,K
+movies/A02_Marxon_M02_00808.sfd,104,K
+movies/A02_Marxon_M02_00810.sfd,76,K
+movies/A02_Marxon_M02_00812.sfd,258,K
+movies/A02_Marxon_M02_00825.sfd,102,K
+movies/A02_Princess_M02_00811.sfd,140,K
+movies/A02_Toth_M02_00809.sfd,128,K
+movies/A03_Arnold_M01_00859.sfd,96,K
+movies/A03_Arnold_M01_00861.sfd,52,K
+movies/A03_Arnold_M01_00863.sfd,88,K
+movies/A03_Arnold_M01_00917.sfd,80,K
+movies/A03_Arnold_M02_00861.sfd,50,K
+movies/A03_Arnold_M03_00879.sfd,46,K
+movies/A03_Arnold_M03_00885.sfd,226,K
+movies/A03_Arnold_M03_00887.sfd,84,K
+movies/A03_Arnold_T01_00842.sfd,50,K
+movies/A03_Arnold_T01_00843.sfd,72,K
+movies/A03_Arnold_T01_00844.sfd,36,K
+movies/A03_Arnold_T01_00845.sfd,86,K
+movies/A03_Arnold_T01_00846.sfd,76,K
+movies/A03_Arnold_T01_00847.sfd,66,K
+movies/A03_Arnold_T01_00848.sfd,42,K
+movies/A03_Arnold_T01_00849.sfd,72,K
+movies/A03_B01.sfd,6.53,M
+movies/A03_B02.sfd,8.21,M
+movies/A03_B03.sfd,11.05,M
+movies/A03_Choir_D01_00841.sfd,192,K
+movies/A03_Choir_M01_00850.sfd,126,K
+movies/A03_Choir_M01_00852.sfd,168,K
+movies/A03_Choir_M01_00853.sfd,90,K
+movies/A03_Choir_M01_00854.sfd,102,K
+movies/A03_Choir_M01_00855.sfd,246,K
+movies/A03_Choir_M01_00856.sfd,72,K
+movies/A03_Choir_M01_00858.sfd,176,K
+movies/A03_Choir_M01_00860.sfd,228,K
+movies/A03_Choir_M01_00862.sfd,140,K
+movies/A03_Choir_M01_00916.sfd,174,K
+movies/A03_Choir_M02_00864.sfd,306,K
+movies/A03_Choir_M02_00865.sfd,180,K
+movies/A03_Choir_M02_00866.sfd,96,K
+movies/A03_Choir_M02_00867.sfd,120,K
+movies/A03_Choir_M02_00868.sfd,114,K
+movies/A03_Choir_M02_00869.sfd,92,K
+movies/A03_Choir_M02_00870.sfd,76,K
+movies/A03_Choir_M02_00871.sfd,86,K
+movies/A03_Choir_M02_00872.sfd,114,K
+movies/A03_Choir_M02_00873.sfd,134,K
+movies/A03_Choir_M02_01569.sfd,140,K
+movies/A03_Choir_M03_00875.sfd,140,K
+movies/A03_Choir_M03_00878.sfd,192,K
+movies/A03_Choir_M03_00880.sfd,110,K
+movies/A03_Choir_M03_00883.sfd,138,K
+movies/A03_Choir_M03_01570.sfd,120,K
+movies/A03_Eris_M01_00851.sfd,220,K
+movies/A03_Marxon_M03_00881.sfd,276,K
+movies/A03_Princess_M03_00877.sfd,538,K
+movies/A03_Princess_M03_00882.sfd,218,K
+movies/A03_Princess_M03_00886.sfd,208,K
+movies/A03_Princess_M03_00888.sfd,146,K
+movies/A03_Toth_M01_00857.sfd,46,K
+movies/A03_Toth_M03_00876.sfd,188,K
+movies/A04_B01.sfd,9.37,M
+movies/A04_B02.sfd,8.7,M
+movies/A04_B03.sfd,13.79,M
+movies/A04_B04.sfd,10.07,M
+movies/A04_B05.sfd,6.13,M
+movies/A04_Choir_D01_00889.sfd,166,K
+movies/A04_Choir_M01_00898.sfd,252,K
+movies/A04_Choir_M01_00900.sfd,260,K
+movies/A04_Choir_M01_00901.sfd,308,K
+movies/A04_Choir_M01_00902.sfd,118,K
+movies/A04_Choir_M01_00903.sfd,108,K
+movies/A04_Choir_M01_00904.sfd,326,K
+movies/A04_Choir_M01_00907.sfd,292,K
+movies/A04_Choir_M01_00908.sfd,122,K
+movies/A04_Choir_M01_00911.sfd,138,K
+movies/A04_Choir_M01_00912.sfd,130,K
+movies/A04_Choir_M01_00914.sfd,112,K
+movies/A04_Choir_M01_01571.sfd,160,K
+movies/A04_Choir_M01_01572.sfd,138,K
+movies/A04_Choir_M02_00918.sfd,536,K
+movies/A04_Choir_M02_00919.sfd,144,K
+movies/A04_Choir_M02_00920.sfd,144,K
+movies/A04_Choir_M02_00921.sfd,122,K
+movies/A04_Choir_M02_00922.sfd,274,K
+movies/A04_Choir_M02_00924.sfd,262,K
+movies/A04_Choir_M02_00925.sfd,150,K
+movies/A04_Choir_M02_00926.sfd,118,K
+movies/A04_Choir_M02_00927.sfd,94,K
+movies/A04_Choir_M02_00928.sfd,112,K
+movies/A04_Choir_M02_00929.sfd,128,K
+movies/A04_Choir_M02_00930.sfd,166,K
+movies/A04_Choir_M02_00931.sfd,122,K
+movies/A04_Choir_M02_00933.sfd,122,K
+movies/A04_Choir_M02_00935.sfd,146,K
+movies/A04_Choir_M02_01573.sfd,142,K
+movies/A04_Choir_M02_01574.sfd,178,K
+movies/A04_Elliott_M01_00899.sfd,294,K
+movies/A04_Elliott_M01_00909.sfd,172,K
+movies/A04_Gauge_M01_00905.sfd,102,K
+movies/A04_Gauge_M01_00906.sfd,86,K
+movies/A04_Gauge_M01_00910.sfd,100,K
+movies/A04_Gauge_M01_01151.sfd,90,K
+movies/A04_Gauge_M02_00923.sfd,72,K
+movies/A04_Gauge_T01_00890.sfd,82,K
+movies/A04_Gauge_T01_00891.sfd,102,K
+movies/A04_Gauge_T01_00892.sfd,80,K
+movies/A04_Gauge_T01_00893.sfd,68,K
+movies/A04_Gauge_T01_00894.sfd,60,K
+movies/A04_Gauge_T01_00895.sfd,100,K
+movies/A04_Gauge_T01_00896.sfd,116,K
+movies/A04_Gauge_T01_00897.sfd,74,K
+movies/A04_Princess_M02_00936.sfd,196,K
+movies/A05_Ariel_M01_00957.sfd,250,K
+movies/A05_Ariel_M01_00968.sfd,70,K
+movies/A05_Ariel_M01_00971.sfd,140,K
+movies/A05_Ariel_M01_00974.sfd,44,K
+movies/A05_Ariel_M01_00976.sfd,100,K
+movies/A05_Ariel_M03_01005.sfd,88,K
+movies/A05_Ariel_M03_01007.sfd,200,K
+movies/A05_Ariel_M03_01009.sfd,138,K
+movies/A05_Ariel_M03_01011.sfd,146,K
+movies/A05_Ariel_M03_01013.sfd,76,K
+movies/A05_Ariel_M03_01155.sfd,76,K
+movies/A05_Ariel_T01_00938.sfd,90,K
+movies/A05_Ariel_T01_00939.sfd,158,K
+movies/A05_Ariel_T01_00940.sfd,132,K
+movies/A05_Ariel_T01_00941.sfd,130,K
+movies/A05_Ariel_T01_00942.sfd,104,K
+movies/A05_Ariel_T01_00943.sfd,98,K
+movies/A05_Ariel_T01_00944.sfd,122,K
+movies/A05_Ariel_T01_00945.sfd,82,K
+movies/A05_B01.sfd,7.42,M
+movies/A05_B02.sfd,14.98,M
+movies/A05_B03.sfd,17.82,M
+movies/A05_B04.sfd,16.79,M
+movies/A05_B05.sfd,14.59,M
+movies/A05_Blake_M01_00962.sfd,60,K
+movies/A05_Blake_M01_00964.sfd,98,K
+movies/A05_Blake_M01_00966.sfd,134,K
+movies/A05_Blake_M02_00998.sfd,34,K
+movies/A05_Blake_T01_00946.sfd,78,K
+movies/A05_Blake_T01_00947.sfd,110,K
+movies/A05_Blake_T01_00948.sfd,56,K
+movies/A05_Blake_T01_00949.sfd,80,K
+movies/A05_Blake_T01_00950.sfd,106,K
+movies/A05_Blake_T01_00951.sfd,72,K
+movies/A05_Blake_T01_00952.sfd,56,K
+movies/A05_Blake_T01_00953.sfd,60,K
+movies/A05_Choir_D01_00937.sfd,182,K
+movies/A05_Choir_M01_00959.sfd,222,K
+movies/A05_Choir_M01_00961.sfd,252,K
+movies/A05_Choir_M01_00967.sfd,104,K
+movies/A05_Choir_M01_00969.sfd,164,K
+movies/A05_Choir_M01_00970.sfd,118,K
+movies/A05_Choir_M01_00972.sfd,314,K
+movies/A05_Choir_M01_00973.sfd,154,K
+movies/A05_Choir_M01_00975.sfd,80,K
+movies/A05_Choir_M01_00977.sfd,164,K
+movies/A05_Choir_M01_00978.sfd,154,K
+movies/A05_Choir_M01_00979.sfd,158,K
+movies/A05_Choir_M01_00981.sfd,154,K
+movies/A05_Choir_M01_00983.sfd,174,K
+movies/A05_Choir_M01_00984.sfd,98,K
+movies/A05_Choir_M01_01154.sfd,238,K
+movies/A05_Choir_M01_01575.sfd,150,K
+movies/A05_Choir_M02_00985.sfd,218,K
+movies/A05_Choir_M02_00987.sfd,160,K
+movies/A05_Choir_M02_00988.sfd,96,K
+movies/A05_Choir_M02_00989.sfd,336,K
+movies/A05_Choir_M02_00990.sfd,84,K
+movies/A05_Choir_M02_00991.sfd,96,K
+movies/A05_Choir_M02_00992.sfd,112,K
+movies/A05_Choir_M02_00993.sfd,110,K
+movies/A05_Choir_M02_00994.sfd,262,K
+movies/A05_Choir_M02_00995.sfd,90,K
+movies/A05_Choir_M02_00996.sfd,272,K
+movies/A05_Choir_M02_00997.sfd,242,K
+movies/A05_Choir_M02_00999.sfd,126,K
+movies/A05_Choir_M02_01001.sfd,126,K
+movies/A05_Choir_M02_01003.sfd,110,K
+movies/A05_Choir_M02_01576.sfd,140,K
+movies/A05_Choir_M02_01577.sfd,118,K
+movies/A05_Choir_M03_01008.sfd,194,K
+movies/A05_Choir_M03_01010.sfd,250,K
+movies/A05_Choir_M03_01012.sfd,92,K
+movies/A05_Choir_M03_01014.sfd,80,K
+movies/A05_Choir_M03_01015.sfd,104,K
+movies/A05_Princess_M01_00954.sfd,412,K
+movies/A05_Princess_M01_00956.sfd,66,K
+movies/A05_Princess_M01_00958.sfd,278,K
+movies/A05_Princess_M01_00963.sfd,142,K
+movies/A05_Princess_M01_00965.sfd,124,K
+movies/A05_Princess_M02_00986.sfd,110,K
+movies/A05_Princess_M03_01004.sfd,204,K
+movies/A05_Princess_M03_01006.sfd,162,K
+movies/A05_Princess_M03_01016.sfd,256,K
+movies/A05_Rhiza_M01_00955.sfd,104,K
+movies/A05_Rhiza_M01_00960.sfd,204,K
+movies/A05_Rhiza_M01_00980.sfd,26,K
+movies/A06_Aiko_M01_01047.sfd,86,K
+movies/A06_Aiko_M01_01050.sfd,64,K
+movies/A06_Aiko_M02_01061.sfd,186,K
+movies/A06_Aiko_M02_01067.sfd,168,K
+movies/A06_Aiko_M02_01157.sfd,278,K
+movies/A06_Aiko_M02_01158.sfd,62,K
+movies/A06_Aiko_T01_01034.sfd,90,K
+movies/A06_Aiko_T01_01035.sfd,68,K
+movies/A06_Aiko_T01_01036.sfd,92,K
+movies/A06_Aiko_T01_01037.sfd,80,K
+movies/A06_Aiko_T01_01038.sfd,84,K
+movies/A06_Aiko_T01_01039.sfd,60,K
+movies/A06_Aiko_T01_01040.sfd,58,K
+movies/A06_Aiko_T01_01041.sfd,68,K
+movies/A06_Arnold_M03_01074.sfd,136,K
+movies/A06_Arnold_M03_01076.sfd,212,K
+movies/A06_Arnold_M03_01079.sfd,88,K
+movies/A06_B01.sfd,12.2,M
+movies/A06_B02.sfd,11.27,M
+movies/A06_B03.sfd,11.6,M
+movies/A06_Choir_D01_01017.sfd,144,K
+movies/A06_Choir_M01_01042.sfd,44,K
+movies/A06_Choir_M01_01048.sfd,80,K
+movies/A06_Choir_M01_01049.sfd,262,K
+movies/A06_Choir_M01_01052.sfd,84,K
+movies/A06_Choir_M01_01053.sfd,116,K
+movies/A06_Choir_M01_01054.sfd,174,K
+movies/A06_Choir_M01_01055.sfd,118,K
+movies/A06_Choir_M01_01056.sfd,120,K
+movies/A06_Choir_M01_01057.sfd,122,K
+movies/A06_Choir_M02_01058.sfd,316,K
+movies/A06_Choir_M02_01059.sfd,154,K
+movies/A06_Choir_M02_01062.sfd,150,K
+movies/A06_Choir_M02_01063.sfd,124,K
+movies/A06_Choir_M02_01065.sfd,60,K
+movies/A06_Choir_M02_01066.sfd,144,K
+movies/A06_Choir_M02_01069.sfd,92,K
+movies/A06_Choir_M02_01070.sfd,84,K
+movies/A06_Choir_M02_01071.sfd,124,K
+movies/A06_Choir_M02_01072.sfd,218,K
+movies/A06_Choir_M02_01073.sfd,138,K
+movies/A06_Choir_M03_01081.sfd,84,K
+movies/A06_Choir_M03_01088.sfd,118,K
+movies/A06_Choir_M03_01089.sfd,96,K
+movies/A06_Choir_M03_01090.sfd,102,K
+movies/A06_Marxon_M01_01043.sfd,150,K
+movies/A06_Marxon_M01_01045.sfd,124,K
+movies/A06_Marxon_M03_01075.sfd,64,K
+movies/A06_Marxon_M03_01077.sfd,170,K
+movies/A06_Marxon_M03_01091.sfd,72,K
+movies/A06_Marxon_M03_01160.sfd,232,K
+movies/A06_Marxon_T01_01026.sfd,122,K
+movies/A06_Marxon_T01_01027.sfd,138,K
+movies/A06_Marxon_T01_01028.sfd,176,K
+movies/A06_Marxon_T01_01029.sfd,80,K
+movies/A06_Marxon_T01_01030.sfd,92,K
+movies/A06_Marxon_T01_01031.sfd,60,K
+movies/A06_Marxon_T01_01032.sfd,84,K
+movies/A06_Marxon_T01_01033.sfd,110,K
+movies/A06_Princess_M01_01044.sfd,138,K
+movies/A06_Princess_M01_01046.sfd,258,K
+movies/A06_Princess_M02_01060.sfd,204,K
+movies/A06_Princess_M03_01078.sfd,24,K
+movies/A06_Princess_M03_01080.sfd,62,K
+movies/A06_Princess_M03_01092.sfd,250,K
+movies/A06_Princess_M03_01161.sfd,68,K
+movies/A06_Princess_M03_1080.sfd,64,K
+movies/A06_Princess_M03_1092.sfd,252,K
+movies/A06_Princess_M03_1161.sfd,70,K
+movies/A06_RedFog_M01_01051.sfd,80,K
+movies/A06_RedFog_M02_01064.sfd,64,K
+movies/A06_RedFog_M02_01068.sfd,96,K
+movies/A06_RedFog_M03_01159.sfd,56,K
+movies/A06_RedFog_T01_01018.sfd,120,K
+movies/A06_RedFog_T01_01019.sfd,82,K
+movies/A06_RedFog_T01_01020.sfd,78,K
+movies/A06_RedFog_T01_01021.sfd,126,K
+movies/A06_RedFog_T01_01022.sfd,96,K
+movies/A06_RedFog_T01_01023.sfd,106,K
+movies/A06_RedFog_T01_01024.sfd,62,K
+movies/A06_RedFog_T01_01025.sfd,92,K
+movies/A_B01_connect.sfd,456,K
+movies/AeonUI_bottom.sfd,542,K
+movies/AeonUI_text_left.sfd,4.63,M
+movies/AeonUI_text_right.sfd,6.2,M
+movies/AeonUI_top.sfd,654,K
+movies/amBX_logo.sfd,4.45,M
+movies/C01_B01.sfd,4.23,M
+movies/C01_B02.sfd,6.17,M
+movies/C01_B03.sfd,9.13,M
+movies/C01_B04.sfd,8.98,M
+movies/C01_B05.sfd,16.72,M
+movies/C01_Dostya_M01_00650.sfd,76,K
+movies/C01_Dostya_M01_01472.sfd,118,K
+movies/C01_Dostya_M01_01554.sfd,86,K
+movies/C01_Dostya_M01_01555.sfd,116,K
+movies/C01_Dostya_M01_0336.sfd,78,K
+movies/C01_Dostya_M01_0337.sfd,86,K
+movies/C01_Dostya_M02_00652.sfd,92,K
+movies/C01_Dostya_M02_01473.sfd,132,K
+movies/C01_Dostya_M02_0338.sfd,62,K
+movies/C01_Dostya_M03_00654.sfd,82,K
+movies/C01_Dostya_M03_01474.sfd,140,K
+movies/C01_Dostya_M03_0339.sfd,74,K
+movies/C01_Dostya_M04_00656.sfd,100,K
+movies/C01_Dostya_M04_01475.sfd,114,K
+movies/C01_Dostya_M04_01479.sfd,130,K
+movies/C01_Dostya_M04_01480.sfd,114,K
+movies/C01_Dostya_M04_01481.sfd,114,K
+movies/C01_Dostya_M04_0340.sfd,164,K
+movies/C01_Dostya_M05_00658.sfd,158,K
+movies/C01_Dostya_M05_01476.sfd,150,K
+movies/C01_Dostya_M05_01482.sfd,108,K
+movies/C01_Dostya_M05_0341.sfd,336,K
+movies/C01_Dostya_M06_01484.sfd,98,K
+movies/C01_Dostya_M06_01486.sfd,26,K
+movies/C01_Dostya_M06_01488.sfd,76,K
+movies/C01_Dostya_M06_01490.sfd,200,K
+movies/C01_Dostya_M06_01492.sfd,80,K
+movies/C01_Dostya_M06_01493.sfd,100,K
+movies/C01_Dostya_M06_01494.sfd,674,K
+movies/C01_Dostya_M06_01495.sfd,110,K
+movies/C01_Dostya_M06_01496.sfd,154,K
+movies/C01_Dostya_M06_01497.sfd,94,K
+movies/C01_Dostya_M06_01498.sfd,86,K
+movies/C01_Dostya_M07_00662.sfd,114,K
+movies/C01_Dostya_M07_00664.sfd,92,K
+movies/C01_Dostya_M07_00666.sfd,116,K
+movies/C01_Dostya_M07_00668.sfd,110,K
+movies/C01_Dostya_M07_01499.sfd,134,K
+movies/C01_Dostya_M07_01500.sfd,134,K
+movies/C01_Dostya_M07_01550.sfd,154,K
+movies/C01_Dostya_M07_01551.sfd,108,K
+movies/C01_Dostya_M07_0355.sfd,166,K
+movies/C01_Dostya_M07_0356.sfd,230,K
+movies/C01_Dostya_M07_0357.sfd,162,K
+movies/C01_Dostya_M07_0358.sfd,300,K
+movies/C01_Dostya_M07_0359.sfd,126,K
+movies/C01_Dostya_M07_0360.sfd,258,K
+movies/C01_Dostya_M08_00670.sfd,136,K
+movies/C01_Dostya_M08_01162.sfd,106,K
+movies/C01_Dostya_M08_01277.sfd,68,K
+movies/C01_Dostya_M08_01501.sfd,100,K
+movies/C01_Dostya_M08_0362.sfd,256,K
+movies/C01_Dostya_M08_0363.sfd,152,K
+movies/C01_Jericho_M06_01483.sfd,194,K
+movies/C01_Jericho_M06_01485.sfd,66,K
+movies/C01_Jericho_M06_01487.sfd,64,K
+movies/C01_Jericho_M06_01489.sfd,20,K
+movies/C01_Min_M08_0364.sfd,136,K
+movies/C01_Min_T01_0328.sfd,52,K
+movies/C01_Min_T01_0329.sfd,76,K
+movies/C01_Min_T01_0330.sfd,90,K
+movies/C01_Min_T01_0331.sfd,70,K
+movies/C01_Min_T01_0332.sfd,84,K
+movies/C01_Min_T01_0333.sfd,62,K
+movies/C01_Min_T01_0334.sfd,124,K
+movies/C01_Min_T01_0335.sfd,122,K
+movies/C01_Ops_D01_0003.sfd,74,K
+movies/C01_Ops_M01_01536.sfd,84,K
+movies/C02_Ariel_M02_0404.sfd,70,K
+movies/C02_Ariel_M02_0405.sfd,120,K
+movies/C02_Ariel_M02_0406.sfd,106,K
+movies/C02_Ariel_M03_0415.sfd,54,K
+movies/C02_Ariel_T01_0366.sfd,62,K
+movies/C02_Ariel_T01_0367.sfd,52,K
+movies/C02_Ariel_T01_0368.sfd,88,K
+movies/C02_Ariel_T01_0369.sfd,70,K
+movies/C02_Ariel_T01_0370.sfd,52,K
+movies/C02_Ariel_T01_0371.sfd,90,K
+movies/C02_Ariel_T01_0372.sfd,42,K
+movies/C02_Ariel_T01_0373.sfd,48,K
+movies/C02_B01.sfd,8.73,M
+movies/C02_B02.sfd,18.43,M
+movies/C02_B03.sfd,10.74,M
+movies/C02_B04.sfd,13.3,M
+movies/C02_B05.sfd,10.99,M
+movies/C02_Dostya_M02_0410.sfd,42,K
+movies/C02_Dostya_M02_0413.sfd,26,K
+movies/C02_Dostya_M03_0414.sfd,248,K
+movies/C02_Mach_M01_0377.sfd,116,K
+movies/C02_Mach_M01_0382.sfd,62,K
+movies/C02_Mach_M01_0386.sfd,70,K
+movies/C02_Mach_M02_0402.sfd,82,K
+movies/C02_Mach_M02_0407.sfd,228,K
+movies/C02_Mach_M02_0409.sfd,40,K
+movies/C02_Mach_M02_0411.sfd,194,K
+movies/C02_Ops_D02_0365.sfd,68,K
+movies/C02_Ops_M01_00636.sfd,98,K
+movies/C02_Ops_M01_00638.sfd,124,K
+movies/C02_Ops_M01_00640.sfd,88,K
+movies/C02_Ops_M01_00642.sfd,82,K
+movies/C02_Ops_M01_01502.sfd,98,K
+movies/C02_Ops_M01_01503.sfd,120,K
+movies/C02_Ops_M01_01504.sfd,96,K
+movies/C02_Ops_M01_01505.sfd,96,K
+movies/C02_Ops_M01_0374.sfd,184,K
+movies/C02_Ops_M01_0375.sfd,198,K
+movies/C02_Ops_M01_0376.sfd,100,K
+movies/C02_Ops_M01_0378.sfd,110,K
+movies/C02_Ops_M01_0379.sfd,172,K
+movies/C02_Ops_M01_0380.sfd,138,K
+movies/C02_Ops_M01_0381.sfd,156,K
+movies/C02_Ops_M01_0383.sfd,202,K
+movies/C02_Ops_M01_0384.sfd,182,K
+movies/C02_Ops_M01_0385.sfd,124,K
+movies/C02_Ops_M01_0387.sfd,122,K
+movies/C02_Ops_M01_0389.sfd,98,K
+movies/C02_Ops_M02_00644.sfd,150,K
+movies/C02_Ops_M02_01506.sfd,122,K
+movies/C02_Ops_M02_0400.sfd,202,K
+movies/C02_Ops_M02_0401.sfd,130,K
+movies/C02_Ops_M02_0403.sfd,80,K
+movies/C02_Ops_M02_0408.sfd,82,K
+movies/C02_Ops_M02_0412.sfd,140,K
+movies/C02_Ops_M03_00646.sfd,102,K
+movies/C02_Ops_M03_00648.sfd,120,K
+movies/C02_Ops_M03_01507.sfd,132,K
+movies/C02_Ops_M03_01508.sfd,78,K
+movies/C02_Ops_M03_0416.sfd,124,K
+movies/C02_QAI_M01_0388.sfd,174,K
+movies/C03_B01.sfd,12.82,M
+movies/C03_B01_QAI.sfd,11.26,M
+movies/C03_B02.sfd,8.65,M
+movies/C03_B02_QAI.sfd,7.55,M
+movies/C03_B03.sfd,14.22,M
+movies/C03_B03_QAI.sfd,11.72,M
+movies/C03_B04.sfd,15.31,M
+movies/C03_B04_QAI.sfd,12.72,M
+movies/C03_B05.sfd,5.5,M
+movies/C03_Berry_M01_0426.sfd,116,K
+movies/C03_Berry_M01_0428.sfd,56,K
+movies/C03_Berry_M02_0444.sfd,56,K
+movies/C03_Berry_M03_0454.sfd,102,K
+movies/C03_Berry_M03_0457.sfd,104,K
+movies/C03_Berry_T01_0417.sfd,86,K
+movies/C03_Berry_T01_0418.sfd,88,K
+movies/C03_Berry_T01_0419.sfd,66,K
+movies/C03_Berry_T01_0420.sfd,66,K
+movies/C03_Berry_T01_0421.sfd,106,K
+movies/C03_Berry_T01_0422.sfd,68,K
+movies/C03_Berry_T01_0423.sfd,48,K
+movies/C03_Berry_T01_0424.sfd,76,K
+movies/C03_Brackman_M02_0440.sfd,256,K
+movies/C03_Dostya_M03_01099.sfd,90,K
+movies/C03_Dostya_M03_0453.sfd,240,K
+movies/C03_Ops_D01_0433.sfd,74,K
+movies/C03_Ops_M01_00622.sfd,82,K
+movies/C03_Ops_M01_00624.sfd,90,K
+movies/C03_Ops_M01_00626.sfd,76,K
+movies/C03_Ops_M01_01509.sfd,108,K
+movies/C03_Ops_M01_01510.sfd,88,K
+movies/C03_Ops_M01_01511.sfd,78,K
+movies/C03_Ops_M01_0425.sfd,274,K
+movies/C03_Ops_M01_0427.sfd,204,K
+movies/C03_Ops_M01_0429.sfd,46,K
+movies/C03_Ops_M01_0430.sfd,58,K
+movies/C03_Ops_M01_0431.sfd,52,K
+movies/C03_Ops_M01_0432.sfd,178,K
+movies/C03_Ops_M01_0434.sfd,58,K
+movies/C03_Ops_M01_0435.sfd,70,K
+movies/C03_Ops_M02_00628.sfd,106,K
+movies/C03_Ops_M02_00630.sfd,80,K
+movies/C03_Ops_M02_00632.sfd,100,K
+movies/C03_Ops_M02_01512.sfd,92,K
+movies/C03_Ops_M02_01513.sfd,100,K
+movies/C03_Ops_M02_01514.sfd,90,K
+movies/C03_Ops_M02_0436.sfd,300,K
+movies/C03_Ops_M02_0437.sfd,132,K
+movies/C03_Ops_M02_0438.sfd,104,K
+movies/C03_Ops_M02_0439.sfd,204,K
+movies/C03_Ops_M02_0441.sfd,76,K
+movies/C03_Ops_M02_0442.sfd,120,K
+movies/C03_Ops_M02_0443.sfd,102,K
+movies/C03_Ops_M02_0446.sfd,102,K
+movies/C03_Ops_M02_0447.sfd,146,K
+movies/C03_Ops_M02_0449.sfd,100,K
+movies/C03_Ops_M02_0450.sfd,104,K
+movies/C03_Ops_M02_0451.sfd,100,K
+movies/C03_Ops_M02_0452.sfd,104,K
+movies/C03_Ops_M03_00634.sfd,118,K
+movies/C03_Ops_M03_01107.sfd,110,K
+movies/C03_Ops_M03_01171.sfd,64,K
+movies/C03_Ops_M03_0456.sfd,110,K
+movies/C03_Yeoh_M03_0455.sfd,250,K
+movies/C04_B01.sfd,5.2,M
+movies/C04_B01_QAI.sfd,4.28,M
+movies/C04_B02.sfd,15.03,M
+movies/C04_B02_QAI.sfd,9.55,M
+movies/C04_B03.sfd,10.4,M
+movies/C04_B03_QAI.sfd,8.76,M
+movies/C04_B04.sfd,10.38,M
+movies/C04_B04_QAI.sfd,8.69,M
+movies/C04_Dostya_M03_01101.sfd,146,K
+movies/C04_Dostya_M03_01453.sfd,136,K
+movies/C04_Dostya_M03_01454.sfd,434,K
+movies/C04_Dostya_M03_0488.sfd,46,K
+movies/C04_Dostya_M03_0491.sfd,400,K
+movies/C04_Elliott_M02_0475.sfd,168,K
+movies/C04_Elliott_M02_0479.sfd,160,K
+movies/C04_Eris_M01_0467.sfd,68,K
+movies/C04_Eris_M01_0468.sfd,128,K
+movies/C04_Eris_M01_0469.sfd,86,K
+movies/C04_Eris_M01_0470.sfd,80,K
+movies/C04_Eris_M01_0471.sfd,114,K
+movies/C04_Eris_M02_0477.sfd,68,K
+movies/C04_Eris_M02_0478.sfd,88,K
+movies/C04_Eris_M02_0481.sfd,78,K
+movies/C04_Eris_M03_01100.sfd,78,K
+movies/C04_Eris_M03_01103.sfd,150,K
+movies/C04_Eris_M03_0484.sfd,258,K
+movies/C04_Eris_M03_0486.sfd,180,K
+movies/C04_Eris_M03_0493.sfd,70,K
+movies/C04_Eris_T01_0458.sfd,60,K
+movies/C04_Eris_T01_0459.sfd,128,K
+movies/C04_Eris_T01_0460.sfd,86,K
+movies/C04_Eris_T01_0461.sfd,108,K
+movies/C04_Eris_T01_0462.sfd,122,K
+movies/C04_Eris_T01_0463.sfd,102,K
+movies/C04_Eris_T01_0464.sfd,84,K
+movies/C04_Eris_T01_0465.sfd,74,K
+movies/C04_Ops_D01_02593.sfd,76,K
+movies/C04_Ops_M01_00612.sfd,90,K
+movies/C04_Ops_M01_00614.sfd,106,K
+movies/C04_Ops_M01_01515.sfd,96,K
+movies/C04_Ops_M01_01516.sfd,102,K
+movies/C04_Ops_M01_0466.sfd,204,K
+movies/C04_Ops_M01_0472.sfd,152,K
+movies/C04_Ops_M01_0473.sfd,188,K
+movies/C04_Ops_M01_0474.sfd,156,K
+movies/C04_Ops_M02_00616.sfd,104,K
+movies/C04_Ops_M02_01517.sfd,72,K
+movies/C04_Ops_M02_0476.sfd,124,K
+movies/C04_Ops_M02_0480.sfd,130,K
+movies/C04_Ops_M02_0482.sfd,134,K
+movies/C04_Ops_M03_00618.sfd,76,K
+movies/C04_Ops_M03_00620.sfd,96,K
+movies/C04_Ops_M03_01102.sfd,74,K
+movies/C04_Ops_M03_01518.sfd,98,K
+movies/C04_Ops_M03_01519.sfd,102,K
+movies/C04_Ops_M03_0483.sfd,710,K
+movies/C04_Ops_M03_0485.sfd,136,K
+movies/C04_Ops_M03_0487.sfd,106,K
+movies/C04_Ops_M03_0489.sfd,82,K
+movies/C04_Ops_M03_0490.sfd,86,K
+movies/C04_Ops_M03_0492.sfd,82,K
+movies/C05_B01.sfd,10.62,M
+movies/C05_B01_QAI.sfd,8.85,M
+movies/C05_B02.sfd,11.79,M
+movies/C05_B02_QAI.sfd,10.08,M
+movies/C05_B03.sfd,11.21,M
+movies/C05_B03_QAI.sfd,9.83,M
+movies/C05_B04.sfd,9.86,M
+movies/C05_B04_QAI.sfd,8.34,M
+movies/C05_B05.sfd,9.44,M
+movies/C05_B05_QAI.sfd,7.97,M
+movies/C05_B06.sfd,14.86,M
+movies/C05_B06_QAI.sfd,12.02,M
+movies/C05_Brackman_M03_00530.sfd,358,K
+movies/C05_Brackman_M03_00537.sfd,116,K
+movies/C05_Dostya_M03_00529.sfd,110,K
+movies/C05_Godwyn_M01_00508.sfd,60,K
+movies/C05_Godwyn_M01_00510.sfd,98,K
+movies/C05_Godwyn_M02_00513.sfd,60,K
+movies/C05_Godwyn_M02_00514.sfd,152,K
+movies/C05_Godwyn_M02_00525.sfd,56,K
+movies/C05_Godwyn_M03_00531.sfd,118,K
+movies/C05_Godwyn_M03_00536.sfd,268,K
+movies/C05_Godwyn_M03_00539.sfd,188,K
+movies/C05_Godwyn_M03_00541.sfd,154,K
+movies/C05_Godwyn_T01_0494.sfd,64,K
+movies/C05_Godwyn_T01_0495.sfd,68,K
+movies/C05_Godwyn_T01_0496.sfd,104,K
+movies/C05_Godwyn_T01_0497.sfd,66,K
+movies/C05_Godwyn_T01_0498.sfd,90,K
+movies/C05_Godwyn_T01_0499.sfd,78,K
+movies/C05_Godwyn_T01_0500.sfd,78,K
+movies/C05_Godwyn_T01_0501.sfd,74,K
+movies/C05_Hex5_M01_00502.sfd,478,K
+movies/C05_Hex5_M02_00511.sfd,302,K
+movies/C05_Hex5_M02_00520.sfd,176,K
+movies/C05_Hex5_M02_00522.sfd,144,K
+movies/C05_Hex5_M02_00524.sfd,72,K
+movies/C05_Hex5_M03_01104.sfd,156,K
+movies/C05_Ops_D01_02594.sfd,80,K
+movies/C05_Ops_M01_00503.sfd,232,K
+movies/C05_Ops_M01_00504.sfd,78,K
+movies/C05_Ops_M01_00505.sfd,164,K
+movies/C05_Ops_M01_00506.sfd,140,K
+movies/C05_Ops_M01_00507.sfd,78,K
+movies/C05_Ops_M01_00509.sfd,96,K
+movies/C05_Ops_M01_00604.sfd,106,K
+movies/C05_Ops_M01_01520.sfd,122,K
+movies/C05_Ops_M02_00512.sfd,258,K
+movies/C05_Ops_M02_00516.sfd,102,K
+movies/C05_Ops_M02_00517.sfd,64,K
+movies/C05_Ops_M02_00518.sfd,66,K
+movies/C05_Ops_M02_00519.sfd,108,K
+movies/C05_Ops_M02_00521.sfd,154,K
+movies/C05_Ops_M02_00523.sfd,128,K
+movies/C05_Ops_M02_00526.sfd,118,K
+movies/C05_Ops_M02_00527.sfd,222,K
+movies/C05_Ops_M02_00606.sfd,104,K
+movies/C05_Ops_M02_00608.sfd,84,K
+movies/C05_Ops_M02_01521.sfd,118,K
+movies/C05_Ops_M02_01522.sfd,130,K
+movies/C05_Ops_M03_00528.sfd,138,K
+movies/C05_Ops_M03_00534.sfd,376,K
+movies/C05_Ops_M03_00535.sfd,72,K
+movies/C05_Ops_M03_00538.sfd,156,K
+movies/C05_Ops_M03_00540.sfd,152,K
+movies/C05_Ops_M03_00542.sfd,136,K
+movies/C05_Ops_M03_00610.sfd,132,K
+movies/C05_Ops_M03_01523.sfd,182,K
+movies/C05_QAI_M03_00532.sfd,616,K
+movies/C06_Aiko_M01_00563.sfd,80,K
+movies/C06_Aiko_M02_00579.sfd,334,K
+movies/C06_Aiko_M03_00594.sfd,66,K
+movies/C06_Aiko_M03_00596.sfd,44,K
+movies/C06_Aiko_T01_00543.sfd,86,K
+movies/C06_Aiko_T01_00544.sfd,68,K
+movies/C06_Aiko_T01_00545.sfd,70,K
+movies/C06_Aiko_T01_00546.sfd,92,K
+movies/C06_Aiko_T01_00547.sfd,58,K
+movies/C06_Aiko_T01_00548.sfd,58,K
+movies/C06_Aiko_T01_00549.sfd,106,K
+movies/C06_Aiko_T01_00550.sfd,104,K
+movies/C06_Arnold_M01_00562.sfd,160,K
+movies/C06_Arnold_M01_00571.sfd,96,K
+movies/C06_Arnold_M03_01106.sfd,24,K
+movies/C06_Arnold_T01_00551.sfd,56,K
+movies/C06_Arnold_T01_00552.sfd,84,K
+movies/C06_Arnold_T01_00553.sfd,64,K
+movies/C06_Arnold_T01_00554.sfd,70,K
+movies/C06_Arnold_T01_00555.sfd,70,K
+movies/C06_Arnold_T01_00556.sfd,80,K
+movies/C06_Arnold_T01_00557.sfd,52,K
+movies/C06_Arnold_T01_00558.sfd,48,K
+movies/C06_B01.sfd,11.42,M
+movies/C06_B02.sfd,8.75,M
+movies/C06_B03.sfd,10.39,M
+movies/C06_B04.sfd,18.1,M
+movies/C06_Clarke_M03_00595.sfd,54,K
+movies/C06_Dostya_M01_00569.sfd,138,K
+movies/C06_Dostya_M02_00572.sfd,174,K
+movies/C06_Dostya_M03_00592.sfd,166,K
+movies/C06_Dostya_M03_00598.sfd,46,K
+movies/C06_Dostya_M03_00603.sfd,138,K
+movies/C06_Jericho_M01_00559.sfd,168,K
+movies/C06_Jericho_M01_00561.sfd,196,K
+movies/C06_Jericho_M01_01105.sfd,48,K
+movies/C06_Jericho_M02_00573.sfd,136,K
+movies/C06_Jericho_M03_00593.sfd,2.03,M
+movies/C06_Ops_D01_02595.sfd,88,K
+movies/C06_Ops_M01_00560.sfd,332,K
+movies/C06_Ops_M01_00564.sfd,124,K
+movies/C06_Ops_M01_00565.sfd,84,K
+movies/C06_Ops_M01_00566.sfd,76,K
+movies/C06_Ops_M01_00570.sfd,68,K
+movies/C06_Ops_M01_01108.sfd,178,K
+movies/C06_Ops_M01_01525.sfd,132,K
+movies/C06_Ops_M01_01535.sfd,80,K
+movies/C06_Ops_M02_00574.sfd,200,K
+movies/C06_Ops_M02_00575.sfd,138,K
+movies/C06_Ops_M02_00576.sfd,234,K
+movies/C06_Ops_M02_00577.sfd,190,K
+movies/C06_Ops_M02_00578.sfd,126,K
+movies/C06_Ops_M02_00581.sfd,66,K
+movies/C06_Ops_M02_00582.sfd,100,K
+movies/C06_Ops_M02_00584.sfd,142,K
+movies/C06_Ops_M02_00585.sfd,98,K
+movies/C06_Ops_M02_00587.sfd,102,K
+movies/C06_Ops_M02_00589.sfd,114,K
+movies/C06_Ops_M02_01127.sfd,280,K
+movies/C06_Ops_M02_01128.sfd,118,K
+movies/C06_Ops_M02_01526.sfd,84,K
+movies/C06_Ops_M02_01527.sfd,134,K
+movies/C06_Ops_M02_01528.sfd,144,K
+movies/C06_Ops_M03_00599.sfd,118,K
+movies/C06_Ops_M03_00601.sfd,64,K
+movies/C06_Ops_M03_01129.sfd,1.93,M
+movies/C06_Ops_M03_01259.sfd,886,K
+movies/C06_Ops_M03_01529.sfd,128,K
+movies/C06_Ops_M03_01530.sfd,82,K
+movies/C06_Qai_M02_00580.sfd,304,K
+movies/C06_QAI_M02_00583.sfd,214,K
+movies/C06_QAI_M03_00591.sfd,144,K
+movies/C06_QAI_M03_00597.sfd,172,K
+movies/C_B01_connect.sfd,456,K
+movies/campaign-select-aeon.sfd,540,K
+movies/campaign-select-cybran.sfd,538,K
+movies/campaign-select-uef.sfd,560,K
+movies/comm_aeon.sfd,42,K
+movies/comm_cybran.sfd,42,K
+movies/comm_static.sfd,84,K
+movies/comm_uef.sfd,50,K
+movies/CybranUI_bottom.sfd,318,K
+movies/CybranUI_left_bar.sfd,182,K
+movies/CybranUI_left_light.sfd,130,K
+movies/CybranUI_rightbracket.sfd,484,K
+movies/E01_Arnold_M01_0004.sfd,342,K
+movies/E01_Arnold_M01_0005.sfd,74,K
+movies/E01_Arnold_M01_00672.sfd,60,K
+movies/E01_Arnold_M01_01130.sfd,62,K
+movies/E01_Arnold_M01_01552.sfd,82,K
+movies/E01_Arnold_M01_01553.sfd,58,K
+movies/E01_Arnold_M02_0008.sfd,124,K
+movies/E01_Arnold_M02_00675.sfd,70,K
+movies/E01_Arnold_M02_01132.sfd,72,K
+movies/E01_Arnold_M03_0009.sfd,160,K
+movies/E01_Arnold_M03_00677.sfd,98,K
+movies/E01_Arnold_M03_01133.sfd,68,K
+movies/E01_Arnold_M04_0010.sfd,176,K
+movies/E01_Arnold_M04_00679.sfd,72,K
+movies/E01_Arnold_M04_01134.sfd,72,K
+movies/E01_Arnold_M05_0011.sfd,338,K
+movies/E01_Arnold_M05_0014.sfd,140,K
+movies/E01_Arnold_M05_00681.sfd,80,K
+movies/E01_Arnold_M05_01135.sfd,78,K
+movies/E01_Arnold_M05_01532.sfd,40,K
+movies/E01_Arnold_M05_01533.sfd,266,K
+movies/E01_Arnold_M06_00683.sfd,92,K
+movies/E01_Arnold_M06_01136.sfd,94,K
+movies/E01_Arnold_M07_0016.sfd,170,K
+movies/E01_Arnold_M07_0017.sfd,334,K
+movies/E01_Arnold_M07_0018.sfd,112,K
+movies/E01_Arnold_M07_0019.sfd,116,K
+movies/E01_Arnold_M07_0020.sfd,82,K
+movies/E01_Arnold_M07_0021.sfd,1.28,M
+movies/E01_Arnold_M07_00685.sfd,108,K
+movies/E01_Arnold_M07_00687.sfd,72,K
+movies/E01_Arnold_M07_00689.sfd,76,K
+movies/E01_Arnold_M07_01137.sfd,92,K
+movies/E01_Arnold_M07_01138.sfd,160,K
+movies/E01_Arnold_M07_01455.sfd,114,K
+movies/E01_Arnold_M07_01456.sfd,76,K
+movies/E01_Arnold_M07_01457.sfd,122,K
+movies/E01_B01.sfd,4.7,M
+movies/E01_B02.sfd,9.69,M
+movies/E01_B03.sfd,15.19,M
+movies/E01_EarthCom_D01_0022.sfd,134,K
+movies/E01_EarthCom_M01_0023.sfd,156,K
+movies/E01_EarthCom_M01_01131.sfd,80,K
+movies/E01_EarthCom_M07_0024.sfd,112,K
+movies/E01_Leopard11_M01_0025.sfd,90,K
+movies/E01_Leopard11_M05_01531.sfd,104,K
+movies/E01_Leopard11_M06_01534.sfd,132,K
+movies/E01_Leopard11_M07_0029.sfd,58,K
+movies/E01_Leopard11_M07_0030.sfd,64,K
+movies/E01_Leopard11_T01_0031.sfd,100,K
+movies/E01_Leopard11_T01_0032.sfd,76,K
+movies/E01_Leopard11_T01_0033.sfd,82,K
+movies/E01_Leopard11_T01_0034.sfd,104,K
+movies/E01_Leopard11_T01_0035.sfd,114,K
+movies/E01_Leopard11_T01_0036.sfd,84,K
+movies/E01_Leopard11_T01_0037.sfd,140,K
+movies/E01_Leopard11_T01_0038.sfd,138,K
+movies/E01_Thompson_M07_0039.sfd,268,K
+movies/E01_Thompson_M07_0040.sfd,292,K
+movies/E01_Thompson_M07_0041.sfd,146,K
+movies/E01_Thompson_M07_0042.sfd,210,K
+movies/E01_Thompson_M07_0043.sfd,154,K
+movies/E02_Arnold_M01_0045.sfd,266,K
+movies/E02_Arnold_M01_0046.sfd,38,K
+movies/E02_Arnold_M01_0047.sfd,238,K
+movies/E02_Arnold_M01_0048.sfd,30,K
+movies/E02_Arnold_M01_0049.sfd,86,K
+movies/E02_Arnold_M01_0050.sfd,92,K
+movies/E02_Arnold_M02_0051.sfd,54,K
+movies/E02_Arnold_M03_0052.sfd,70,K
+movies/E02_Arnold_M04_0053.sfd,250,K
+movies/E02_Arnold_M04_0054.sfd,34,K
+movies/E02_Arnold_M04_0055.sfd,74,K
+movies/E02_Arnold_M04_00697.sfd,90,K
+movies/E02_Arnold_M04_01097.sfd,158,K
+movies/E02_B01.sfd,6.49,M
+movies/E02_B02.sfd,10.24,M
+movies/E02_B03.sfd,5.6,M
+movies/E02_B04.sfd,8.92,M
+movies/E02_B05.sfd,4.09,M
+movies/E02_EarthCom_D01_0056.sfd,112,K
+movies/E02_EarthCom_M01_0044.sfd,154,K
+movies/E02_EarthCom_M01_0057.sfd,158,K
+movies/E02_EarthCom_M01_0058.sfd,204,K
+movies/E02_EarthCom_M01_0059.sfd,250,K
+movies/E02_EarthCom_M01_0060.sfd,114,K
+movies/E02_EarthCom_M01_00691.sfd,100,K
+movies/E02_EarthCom_M01_00692.sfd,112,K
+movies/E02_EarthCom_M02_0061.sfd,418,K
+movies/E02_EarthCom_M02_0062.sfd,78,K
+movies/E02_EarthCom_M02_01139.sfd,66,K
+movies/E02_EarthCom_M02_01140.sfd,100,K
+movies/E02_EarthCom_M03_0063.sfd,162,K
+movies/E02_EarthCom_M03_0064.sfd,106,K
+movies/E02_EarthCom_M03_0065.sfd,164,K
+movies/E02_EarthCom_M03_0066.sfd,294,K
+movies/E02_EarthCom_M03_0067.sfd,90,K
+movies/E02_EarthCom_M03_0068.sfd,82,K
+movies/E02_EarthCom_M03_0069.sfd,82,K
+movies/E02_EarthCom_M03_00693.sfd,116,K
+movies/E02_EarthCom_M03_00695.sfd,134,K
+movies/E02_EarthCom_M03_0070.sfd,162,K
+movies/E02_EarthCom_M03_0071.sfd,142,K
+movies/E02_EarthCom_M03_0073.sfd,184,K
+movies/E02_EarthCom_M03_0074.sfd,168,K
+movies/E02_EarthCom_M04_0075.sfd,208,K
+movies/E02_EarthCom_M04_0076.sfd,158,K
+movies/E02_EarthCom_M04_0077.sfd,104,K
+movies/E02_Min_M01_0079.sfd,272,K
+movies/E02_Min_M02_0080.sfd,158,K
+movies/E02_Min_M02_0081.sfd,118,K
+movies/E02_Min_M04_0082.sfd,178,K
+movies/E02_Min_M04_0083.sfd,140,K
+movies/E02_Min_T01_0084.sfd,92,K
+movies/E02_Min_T01_0085.sfd,92,K
+movies/E02_Min_T01_0086.sfd,94,K
+movies/E02_Min_T01_0087.sfd,128,K
+movies/E02_Min_T01_0088.sfd,92,K
+movies/E02_Min_T01_0089.sfd,52,K
+movies/E02_Min_T01_0090.sfd,88,K
+movies/E02_Min_T01_0091.sfd,74,K
+movies/E02_Nakamura_M03_0092.sfd,304,K
+movies/E02_Nakamura_M03_0093.sfd,80,K
+movies/E02_Nakamura_M03_0094.sfd,138,K
+movies/E02_Nakamura_M03_0095.sfd,118,K
+movies/E02_Nakamura_M03_0096.sfd,64,K
+movies/E02_Nakamura_M03_0097.sfd,90,K
+movies/E02_Nakamura_M03_0098.sfd,98,K
+movies/E02_Nakamura_M03_0099.sfd,92,K
+movies/E02_Nakamura_M03_01335.sfd,90,K
+movies/E02_Nakamura_M03_01458.sfd,126,K
+movies/E02_Nakamura_M03_01459.sfd,152,K
+movies/E02_Stenson_M01_0100.sfd,292,K
+movies/E02_Stenson_M01_0101.sfd,80,K
+movies/E02_Stenson_M01_0102.sfd,136,K
+movies/E02_Stenson_M01_0103.sfd,90,K
+movies/E02_Stenson_M01_0104.sfd,82,K
+movies/E02_Stenson_M02_0105.sfd,74,K
+movies/E03_Arnold_M01_0106.sfd,126,K
+movies/E03_Arnold_M01_0107.sfd,104,K
+movies/E03_Arnold_M01_0108.sfd,146,K
+movies/E03_Arnold_M01_0109.sfd,304,K
+movies/E03_Arnold_M01_0110.sfd,80,K
+movies/E03_Arnold_M01_0111.sfd,42,K
+movies/E03_Arnold_M01_0112.sfd,106,K
+movies/E03_Arnold_M01_0113.sfd,76,K
+movies/E03_Arnold_M01_0114.sfd,30,K
+movies/E03_Arnold_M01_01524.sfd,58,K
+movies/E03_B01.sfd,5.83,M
+movies/E03_B02.sfd,10.45,M
+movies/E03_B03.sfd,5.67,M
+movies/E03_B04.sfd,6.99,M
+movies/E03_Clarke_M01_0115.sfd,36,K
+movies/E03_Clarke_M01_0116.sfd,46,K
+movies/E03_Clarke_M02_0117.sfd,188,K
+movies/E03_Clarke_M04_0118.sfd,190,K
+movies/E03_EarthCom_D01_0119.sfd,104,K
+movies/E03_EarthCom_M01_00699.sfd,88,K
+movies/E03_EarthCom_M01_00701.sfd,170,K
+movies/E03_EarthCom_M01_0120.sfd,436,K
+movies/E03_EarthCom_M01_0121.sfd,144,K
+movies/E03_EarthCom_M01_0122.sfd,124,K
+movies/E03_EarthCom_M01_0123.sfd,300,K
+movies/E03_EarthCom_M01_0124.sfd,56,K
+movies/E03_EarthCom_M01_0125.sfd,130,K
+movies/E03_EarthCom_M01_0126.sfd,74,K
+movies/E03_EarthCom_M01_0127.sfd,58,K
+movies/E03_EarthCom_M01_01460.sfd,136,K
+movies/E03_EarthCom_M01_01461.sfd,72,K
+movies/E03_EarthCom_M01_01491.sfd,136,K
+movies/E03_EarthCom_M02_0129.sfd,102,K
+movies/E03_EarthCom_M02_0130.sfd,156,K
+movies/E03_EarthCom_M02_0131.sfd,136,K
+movies/E03_EarthCom_M02_0132.sfd,140,K
+movies/E03_EarthCom_M02_0133.sfd,106,K
+movies/E03_EarthCom_M02_0134.sfd,102,K
+movies/E03_EarthCom_M03_00703.sfd,118,K
+movies/E03_EarthCom_M03_0135.sfd,164,K
+movies/E03_EarthCom_M03_0136.sfd,224,K
+movies/E03_EarthCom_M03_0137.sfd,200,K
+movies/E03_EarthCom_M03_01462.sfd,128,K
+movies/E03_EarthCom_M04_00705.sfd,160,K
+movies/E03_EarthCom_M04_0138.sfd,190,K
+movies/E03_EarthCom_M04_0139.sfd,206,K
+movies/E03_EarthCom_M04_0140.sfd,170,K
+movies/E03_EarthCom_M04_0141.sfd,132,K
+movies/E03_EarthCom_M04_0142.sfd,140,K
+movies/E03_EarthCom_M04_0143.sfd,126,K
+movies/E03_EarthCom_M04_01463.sfd,104,K
+movies/E03_Eris_M01_0144.sfd,122,K
+movies/E03_Eris_M02_01537.sfd,96,K
+movies/E03_Eris_M03_0145.sfd,86,K
+movies/E03_Eris_M03_0146.sfd,182,K
+movies/E03_Eris_T01_0147.sfd,84,K
+movies/E03_Eris_T01_0148.sfd,120,K
+movies/E03_Eris_T01_0149.sfd,100,K
+movies/E03_Eris_T01_0150.sfd,114,K
+movies/E03_Eris_T01_0151.sfd,144,K
+movies/E03_Eris_T01_0152.sfd,102,K
+movies/E03_Eris_T01_0153.sfd,148,K
+movies/E03_Eris_T01_0154.sfd,110,K
+movies/E03_Princess_M04_0155.sfd,302,K
+movies/E03_Princess_M04_0156.sfd,376,K
+movies/E03_Princess_M04_0157.sfd,406,K
+movies/E03_Princess_M04_0158.sfd,268,K
+movies/E04_B01.sfd,12.03,M
+movies/E04_B02.sfd,4,M
+movies/E04_B03.sfd,9.13,M
+movies/E04_B04.sfd,19.65,M
+movies/E04_B05.sfd,5.7,M
+movies/E04_Brackman_M03_0159.sfd,222,K
+movies/E04_Clarke_M02_0177.sfd,158,K
+movies/E04_Clarke_M03_01141.sfd,204,K
+movies/E04_Clarke_M03_01142.sfd,66,K
+movies/E04_Clarke_M03_0160.sfd,200,K
+movies/E04_Clarke_M03_0161.sfd,90,K
+movies/E04_Clarke_M03_0162.sfd,64,K
+movies/E04_EarthCom_D01_0163.sfd,104,K
+movies/E04_EarthCom_M01_00707.sfd,104,K
+movies/E04_EarthCom_M01_00709.sfd,72,K
+movies/E04_EarthCom_M01_01464.sfd,112,K
+movies/E04_EarthCom_M01_01465.sfd,96,K
+movies/E04_EarthCom_M01_0164.sfd,178,K
+movies/E04_EarthCom_M01_0165.sfd,122,K
+movies/E04_EarthCom_M01_0166.sfd,110,K
+movies/E04_EarthCom_M01_0167.sfd,130,K
+movies/E04_EarthCom_M01_0168.sfd,280,K
+movies/E04_EarthCom_M01_0392.sfd,282,K
+movies/E04_EarthCom_M02_00711.sfd,104,K
+movies/E04_EarthCom_M02_00713.sfd,110,K
+movies/E04_EarthCom_M02_00715.sfd,156,K
+movies/E04_EarthCom_M02_01540.sfd,106,K
+movies/E04_EarthCom_M02_01541.sfd,160,K
+movies/E04_EarthCom_M02_01542.sfd,86,K
+movies/E04_EarthCom_M02_0169.sfd,266,K
+movies/E04_EarthCom_M02_0170.sfd,146,K
+movies/E04_EarthCom_M02_0171.sfd,250,K
+movies/E04_EarthCom_M02_0172.sfd,240,K
+movies/E04_EarthCom_M02_0173.sfd,190,K
+movies/E04_EarthCom_M02_0174.sfd,172,K
+movies/E04_EarthCom_M02_0175.sfd,116,K
+movies/E04_EarthCom_M02_0176.sfd,166,K
+movies/E04_EarthCom_M03_00717.sfd,64,K
+movies/E04_EarthCom_M03_00719.sfd,126,K
+movies/E04_EarthCom_M03_00721.sfd,68,K
+movies/E04_EarthCom_M03_01466.sfd,90,K
+movies/E04_EarthCom_M03_01467.sfd,116,K
+movies/E04_EarthCom_M03_01468.sfd,84,K
+movies/E04_EarthCom_M03_0178.sfd,326,K
+movies/E04_EarthCom_M03_0179.sfd,90,K
+movies/E04_EarthCom_M03_0180.sfd,86,K
+movies/E04_EarthCom_M03_0181.sfd,168,K
+movies/E04_EarthCom_M03_0182.sfd,126,K
+movies/E04_EarthCom_M03_0183.sfd,146,K
+movies/E04_EarthCom_M03_0184.sfd,82,K
+movies/E04_EarthCom_M03_0185.sfd,176,K
+movies/E04_EarthCom_M03_0186.sfd,32,K
+movies/E04_EarthCom_M03_0187.sfd,38,K
+movies/E04_EarthCom_M03_0188.sfd,200,K
+movies/E04_EarthCom_M03_0189.sfd,114,K
+movies/E04_EarthCom_M03_0190.sfd,146,K
+movies/E04_Gauge_M01_0191.sfd,88,K
+movies/E04_Gauge_M01_0192.sfd,70,K
+movies/E04_Gauge_M01_0193.sfd,98,K
+movies/E04_Gauge_M02_0194.sfd,96,K
+movies/E04_Gauge_M02_0195.sfd,88,K
+movies/E04_Gauge_T01_0196.sfd,142,K
+movies/E04_Gauge_T01_0197.sfd,158,K
+movies/E04_Gauge_T01_0198.sfd,110,K
+movies/E04_Gauge_T01_0199.sfd,122,K
+movies/E04_Gauge_T01_0200.sfd,86,K
+movies/E04_Gauge_T01_0201.sfd,62,K
+movies/E04_Gauge_T01_0202.sfd,78,K
+movies/E04_Gauge_T01_0203.sfd,78,K
+movies/E05_Arnold_M01_01143.sfd,94,K
+movies/E05_Arnold_M01_0204.sfd,130,K
+movies/E05_Arnold_M01_0205.sfd,42,K
+movies/E05_Arnold_M01_0206.sfd,118,K
+movies/E05_Arnold_M01_0207.sfd,156,K
+movies/E05_Arnold_M01_0208.sfd,146,K
+movies/E05_Arnold_M03_0209.sfd,72,K
+movies/E05_Arnold_T01_0210.sfd,90,K
+movies/E05_Arnold_T01_0211.sfd,124,K
+movies/E05_Arnold_T01_0212.sfd,58,K
+movies/E05_Arnold_T01_0213.sfd,58,K
+movies/E05_Arnold_T01_0214.sfd,50,K
+movies/E05_Arnold_T01_0215.sfd,64,K
+movies/E05_Arnold_T01_0216.sfd,126,K
+movies/E05_Arnold_T01_0217.sfd,58,K
+movies/E05_B01.sfd,15.88,M
+movies/E05_B02.sfd,12.24,M
+movies/E05_B03.sfd,11.44,M
+movies/E05_B04.sfd,8,M
+movies/E05_B05.sfd,7.03,M
+movies/E05_Clarke_M01_0218.sfd,24,K
+movies/E05_Clarke_M01_0219.sfd,62,K
+movies/E05_Clarke_M01_0220.sfd,62,K
+movies/E05_Clarke_M01_0221.sfd,70,K
+movies/E05_Clarke_M01_0222.sfd,180,K
+movies/E05_Clarke_M03_0224.sfd,152,K
+movies/E05_EarthCom_D01_0225.sfd,90,K
+movies/E05_EarthCom_M01_00723.sfd,100,K
+movies/E05_EarthCom_M01_00724.sfd,100,K
+movies/E05_EarthCom_M01_00725.sfd,128,K
+movies/E05_EarthCom_M01_00726.sfd,154,K
+movies/E05_EarthCom_M01_01098.sfd,124,K
+movies/E05_EarthCom_M01_0226.sfd,310,K
+movies/E05_EarthCom_M01_0227.sfd,206,K
+movies/E05_EarthCom_M01_0228.sfd,130,K
+movies/E05_EarthCom_M01_0229.sfd,274,K
+movies/E05_EarthCom_M01_0230.sfd,182,K
+movies/E05_EarthCom_M01_0231.sfd,96,K
+movies/E05_EarthCom_M01_0232.sfd,114,K
+movies/E05_EarthCom_M02_00727.sfd,104,K
+movies/E05_EarthCom_M02_00728.sfd,124,K
+movies/E05_EarthCom_M02_0233.sfd,146,K
+movies/E05_EarthCom_M02_0234.sfd,238,K
+movies/E05_EarthCom_M02_0235.sfd,202,K
+movies/E05_EarthCom_M02_0236.sfd,124,K
+movies/E05_EarthCom_M03_00729.sfd,90,K
+movies/E05_EarthCom_M03_00730.sfd,82,K
+movies/E05_EarthCom_M03_01549.sfd,62,K
+movies/E05_EarthCom_M03_0237.sfd,104,K
+movies/E05_EarthCom_M03_0238.sfd,84,K
+movies/E05_EarthCom_M03_0239.sfd,84,K
+movies/E05_EarthCom_M03_0240.sfd,108,K
+movies/E05_EarthCom_M03_0241.sfd,138,K
+movies/E05_EarthCom_M03_0242.sfd,96,K
+movies/E05_EarthCom_M03_0396.sfd,72,K
+movies/E05_Mach_M02_0243.sfd,52,K
+movies/E05_Mach_T01_0245.sfd,64,K
+movies/E05_Mach_T01_0246.sfd,94,K
+movies/E05_Mach_T01_0247.sfd,48,K
+movies/E05_Mach_T01_0248.sfd,40,K
+movies/E05_Mach_T01_0249.sfd,134,K
+movies/E05_Mach_T01_0250.sfd,66,K
+movies/E05_Mach_T01_0251.sfd,52,K
+movies/E05_Mach_T01_0252.sfd,42,K
+movies/E05_Riley_M03_0253.sfd,222,K
+movies/E05_Riley_M03_0390.sfd,156,K
+movies/E05_Sweeney_M02_0254.sfd,100,K
+movies/E05_Sweeney_M02_0255.sfd,104,K
+movies/E05_Sweeney_M03_01144.sfd,56,K
+movies/E05_Sweeney_M03_0256.sfd,82,K
+movies/E05_Sweeney_M03_0257.sfd,98,K
+movies/E05_Sweeney_M03_0258.sfd,90,K
+movies/E05_Sweeney_M03_0259.sfd,120,K
+movies/E05_Sweeney_M03_0260.sfd,70,K
+movies/E05_Sweeney_M03_0261.sfd,112,K
+movies/E05_Sweeney_M03_0262.sfd,78,K
+movies/E05_Sweeney_M03_0263.sfd,90,K
+movies/E05_Sweeney_M03_0393.sfd,78,K
+movies/E05_Sweeney_M03_0394.sfd,82,K
+movies/E05_Sweeney_M03_0395.sfd,92,K
+movies/E06_Aiko_M01_0264.sfd,170,K
+movies/E06_Aiko_M01_0265.sfd,108,K
+movies/E06_Aiko_M01_0266.sfd,38,K
+movies/E06_Aiko_M01_0391.sfd,310,K
+movies/E06_Aiko_M01_0399.sfd,98,K
+movies/E06_Aiko_M02_01122.sfd,74,K
+movies/E06_Aiko_M02_0267.sfd,126,K
+movies/E06_Aiko_M02_0268.sfd,208,K
+movies/E06_Aiko_M02_0269.sfd,112,K
+movies/E06_Aiko_M02_0271.sfd,152,K
+movies/E06_Aiko_M02_0272.sfd,140,K
+movies/E06_Aiko_M02_0273.sfd,144,K
+movies/E06_Aiko_M02_0275.sfd,184,K
+movies/E06_Aiko_M03_01114.sfd,64,K
+movies/E06_Aiko_M03_01116.sfd,52,K
+movies/E06_Aiko_M03_01538.sfd,96,K
+movies/E06_Aiko_M03_0277.sfd,164,K
+movies/E06_Aiko_M03_0278.sfd,66,K
+movies/E06_Aiko_M03_0279.sfd,56,K
+movies/E06_Aiko_M03_0280.sfd,306,K
+movies/E06_Aiko_M03_0281.sfd,100,K
+movies/E06_Arnold_M03_0282.sfd,274,K
+movies/E06_Arnold_M03_0284.sfd,82,K
+movies/E06_Arnold_T01_0285.sfd,128,K
+movies/E06_Arnold_T01_0286.sfd,64,K
+movies/E06_Arnold_T01_0287.sfd,70,K
+movies/E06_Arnold_T01_0288.sfd,92,K
+movies/E06_Arnold_T01_0289.sfd,92,K
+movies/E06_Arnold_T01_0290.sfd,102,K
+movies/E06_Arnold_T01_0291.sfd,30,K
+movies/E06_Arnold_T01_0292.sfd,46,K
+movies/E06_B01.sfd,11.04,M
+movies/E06_B02.sfd,13.8,M
+movies/E06_B03.sfd,7.47,M
+movies/E06_Clarke_M02_0293.sfd,130,K
+movies/E06_Clarke_M02_0294.sfd,256,K
+movies/E06_Clarke_M03_0295.sfd,72,K
+movies/E06_Clarke_M03_0296.sfd,138,K
+movies/E06_EarthCom_D01_0298.sfd,110,K
+movies/E06_EarthCom_M01_00731.sfd,102,K
+movies/E06_EarthCom_M01_01118.sfd,84,K
+movies/E06_EarthCom_M01_01469.sfd,106,K
+movies/E06_EarthCom_M01_0398.sfd,48,K
+movies/E06_EarthCom_M02_00733.sfd,74,K
+movies/E06_EarthCom_M02_01119.sfd,116,K
+movies/E06_EarthCom_M02_01120.sfd,146,K
+movies/E06_EarthCom_M02_01121.sfd,102,K
+movies/E06_EarthCom_M02_01123.sfd,66,K
+movies/E06_EarthCom_M02_01124.sfd,1.03,M
+movies/E06_EarthCom_M02_01125.sfd,158,K
+movies/E06_EarthCom_M02_01126.sfd,132,K
+movies/E06_EarthCom_M02_01470.sfd,112,K
+movies/E06_EarthCom_M02_01593.sfd,142,K
+movies/E06_EarthCom_M02_0299.sfd,178,K
+movies/E06_EarthCom_M02_0300.sfd,216,K
+movies/E06_EarthCom_M03_00735.sfd,88,K
+movies/E06_EarthCom_M03_01109.sfd,118,K
+movies/E06_EarthCom_M03_01110.sfd,70,K
+movies/E06_EarthCom_M03_01111.sfd,54,K
+movies/E06_EarthCom_M03_01112.sfd,60,K
+movies/E06_EarthCom_M03_01113.sfd,62,K
+movies/E06_EarthCom_M03_01115.sfd,256,K
+movies/E06_EarthCom_M03_01117.sfd,34,K
+movies/E06_EarthCom_M03_01471.sfd,92,K
+movies/E06_EarthCom_M03_01539.sfd,78,K
+movies/E06_RedFog_T01_0301.sfd,78,K
+movies/E06_RedFog_T01_0302.sfd,46,K
+movies/E06_RedFog_T01_0303.sfd,66,K
+movies/E06_RedFog_T01_0304.sfd,94,K
+movies/E06_RedFog_T01_0305.sfd,108,K
+movies/E06_RedFog_T01_0306.sfd,90,K
+movies/E06_RedFog_T01_0307.sfd,72,K
+movies/E06_RedFog_T01_0308.sfd,144,K
+movies/E06_Riley_M01_0309.sfd,140,K
+movies/E06_Riley_M02_0276.sfd,138,K
+movies/E_B01_connect.sfd,456,K
+movies/FMV_Aeon_Intro_1.sfd,88.53,M
+movies/FMV_Aeon_Intro_2.sfd,11.7,M
+movies/FMV_Aeon_Outro_1.sfd,50.9,M
+movies/FMV_Aeon_Outro_2.sfd,6.65,M
+movies/FMV_Campaign_Intro.sfd,116.05,M
+movies/FMV_campsel_planet_aeon.sfd,1.01,M
+movies/FMV_campsel_planet_cybran.sfd,1.01,M
+movies/FMV_campsel_planet_uef.sfd,1.05,M
+movies/FMV_Credits.sfd,188.58,M
+movies/FMV_cs_aeon.sfd,2.75,M
+movies/FMV_cs_cybran.sfd,2.31,M
+movies/FMV_cs_uef.sfd,2.09,M
+movies/FMV_Cybran_Intro_1.sfd,91.32,M
+movies/FMV_Cybran_Intro_2.sfd,18,M
+movies/FMV_Cybran_Outro_1.sfd,75.7,M
+movies/FMV_Cybran_Outro_2.sfd,13.7,M
+movies/FMV_loading.sfd,3.72,M
+movies/FMV_loading02.sfd,3.68,M
+movies/FMV_menu.sfd,48.28,M
+movies/FMV_UEF_Intro_1.sfd,53.21,M
+movies/FMV_UEF_Intro_2.sfd,6.99,M
+movies/FMV_UEF_Outro_1.sfd,51.5,M
+movies/FMV_UEF_Outro_2.sfd,5.48,M
+movies/game_introduction.sfd,87.18,M
+movies/generic_credits.sfd,302.88,M
+movies/gpglogo.sfd,1.53,M
+movies/loader-sm.sfd,3.67,M
+movies/nvidialogo.sfd,2.68,M
+movies/QAI_LOOP.sfd,8.42,M
+movies/thqlogo.sfd,2.6,M
+movies/thqlogo_china.sfd,12.08,M
+movies/Title.sfd,3.81,M
+movies/UEF_blinkies_left.sfd,726,K
+movies/UEF_blinkies_right.sfd,692,K
+movies/UEf_LED_blue.sfd,88,K
+movies/UEf_LED_green.sfd,106,K
+movies/UEf_LED_red.sfd,146,K
+movies/UEf_LED_yellow.sfd,140,K
+movies/UEf_meter_01.sfd,582,K
+movies/UEf_meter_02.sfd,480,K
+movies/UI_bottom.sfd,318,K
+movies/UI_left_bar.sfd,182,K
+movies/UI_left_light.sfd,130,K
+movies/UI_rightbracket.sfd,484,K
+movies/zz_black.sfd,72,K
+sounds/Voice/us/Tutorials/TUA100.xsb,272,B
+sounds/Voice/us/Tutorials/TUA100.xwb,9.11,M
+sounds/Voice/us/Tutorials/TUA200.xsb,272,B
+sounds/Voice/us/Tutorials/TUA200.xwb,7.44,M
+sounds/Voice/us/Tutorials/TUA400.xsb,272,B
+sounds/Voice/us/Tutorials/TUA400.xwb,8.37,M
+sounds/Voice/us/Tutorials/TUA500.xsb,272,B
+sounds/Voice/us/Tutorials/TUA500.xwb,6.81,M
+sounds/Voice/us/Tutorials/TUB100.xsb,272,B
+sounds/Voice/us/Tutorials/TUB100.xwb,5.07,M
+sounds/Voice/us/Tutorials/TUB200.xsb,272,B
+sounds/Voice/us/Tutorials/TUB200.xwb,10.57,M
+sounds/Voice/us/Tutorials/TUB300.xsb,272,B
+sounds/Voice/us/Tutorials/TUB300.xwb,4.86,M
+sounds/Voice/us/Tutorials/TUB350.xsb,272,B
+sounds/Voice/us/Tutorials/TUB350.xwb,5.93,M
+sounds/Voice/us/Tutorials/TUB400.xsb,272,B
+sounds/Voice/us/Tutorials/TUB400.xwb,8.92,M
+sounds/Voice/us/Tutorials/TUB425.xsb,272,B
+sounds/Voice/us/Tutorials/TUB425.xwb,10.15,M
+sounds/Voice/us/Tutorials/TUB450.xsb,272,B
+sounds/Voice/us/Tutorials/TUB450.xwb,12.83,M
+sounds/Voice/us/Tutorials/TUB500.xsb,272,B
+sounds/Voice/us/Tutorials/TUB500.xwb,8.37,M
+sounds/Voice/us/Tutorials/TUB600.xsb,272,B
+sounds/Voice/us/Tutorials/TUB600.xwb,9.55,M
+sounds/Voice/us/Tutorials/TUB700.xsb,272,B
+sounds/Voice/us/Tutorials/TUB700.xwb,9.25,M
+sounds/Voice/us/Tutorials/TUB800.xsb,272,B
+sounds/Voice/us/Tutorials/TUB800.xwb,7.47,M
+sounds/Voice/us/Tutorials/TUC100.xsb,272,B
+sounds/Voice/us/Tutorials/TUC100.xwb,11.34,M
+sounds/Voice/us/Tutorials/TUC115.xsb,272,B
+sounds/Voice/us/Tutorials/TUC115.xwb,12.66,M
+sounds/Voice/us/Tutorials/TUC200.xsb,272,B
+sounds/Voice/us/Tutorials/TUC200.xwb,8.41,M
+sounds/Voice/us/Tutorials/TUC250.xsb,272,B
+sounds/Voice/us/Tutorials/TUC250.xwb,9.18,M
+sounds/Voice/us/Tutorials/TUC300.xsb,272,B
+sounds/Voice/us/Tutorials/TUC300.xwb,5.35,M
+sounds/Voice/us/Tutorials/TUE200.xsb,272,B
+sounds/Voice/us/Tutorials/TUE200.xwb,10.75,M
+sounds/Voice/us/Tutorials/TUF200.xsb,272,B
+sounds/Voice/us/Tutorials/TUF200.xwb,8.57,M
+sounds/Voice/us/Tutorials/TUF300.xsb,272,B
+sounds/Voice/us/Tutorials/TUF300.xwb,6.47,M
+sounds/Voice/us/A01_VO.xsb,2.93,K
+sounds/Voice/us/A01_VO.xwb,11.95,M
+sounds/Voice/us/A02_VO.xsb,2.74,K
+sounds/Voice/us/A02_VO.xwb,9.72,M
+sounds/Voice/us/A03_VO.xsb,2.48,K
+sounds/Voice/us/A03_VO.xwb,8.19,M
+sounds/Voice/us/A04_VO.xsb,2.44,K
+sounds/Voice/us/A04_VO.xwb,10.76,M
+sounds/Voice/us/A05_VO.xsb,4,K
+sounds/Voice/us/A05_VO.xwb,16.62,M
+sounds/Voice/us/A06_VO.xsb,3.63,K
+sounds/Voice/us/A06_VO.xwb,11.01,M
+sounds/Voice/us/C01_VO.xsb,4.01,K
+sounds/Voice/us/C01_VO.xwb,11.49,M
+sounds/Voice/us/C02_VO.xsb,3.24,K
+sounds/Voice/us/C02_VO.xwb,10.5,M
+sounds/Voice/us/C03_VO.xsb,3.21,K
+sounds/Voice/us/C03_VO.xwb,9.8,M
+sounds/Voice/us/C04_VO.xsb,3.11,K
+sounds/Voice/us/C04_VO.xwb,9.67,M
+sounds/Voice/us/C05_VO.xsb,3.44,K
+sounds/Voice/us/C05_VO.xwb,13.6,M
+sounds/Voice/us/C06_VO.xsb,3.85,K
+sounds/Voice/us/C06_VO.xwb,11.13,M
+sounds/Voice/us/COMPUTER_AEON_VO.xsb,13.48,K
+sounds/Voice/us/COMPUTER_AEON_VO.xwb,7.93,M
+sounds/Voice/us/COMPUTER_CYBRAN_VO.xsb,13.89,K
+sounds/Voice/us/COMPUTER_CYBRAN_VO.xwb,7.87,M
+sounds/Voice/us/COMPUTER_UEF_VO.xsb,13.27,K
+sounds/Voice/us/COMPUTER_UEF_VO.xwb,7.87,M
+sounds/Voice/us/E01_VO.xsb,3.53,K
+sounds/Voice/us/E01_VO.xwb,8.71,M
+sounds/Voice/us/E02_VO.xsb,4.19,K
+sounds/Voice/us/E02_VO.xwb,10.78,M
+sounds/Voice/us/E03_VO.xsb,3.81,K
+sounds/Voice/us/E03_VO.xwb,10.5,M
+sounds/Voice/us/E04_VO.xsb,3.93,K
+sounds/Voice/us/E04_VO.xwb,11.22,M
+sounds/Voice/us/E05_VO.xsb,4.51,K
+sounds/Voice/us/E05_VO.xwb,11.16,M
+sounds/Voice/us/E06_VO.xsb,4.18,K
+sounds/Voice/us/E06_VO.xwb,9.91,M
+sounds/Voice/us/Experimental_VO.xsb,1.42,K
+sounds/Voice/us/Experimental_VO.xwb,2.62,M
+sounds/Voice/us/FMV.xsb,771,B
+sounds/Voice/us/FMV.xwb,46.23,M
+sounds/Voice/us/Instructor_VO.xsb,3.27,K
+sounds/Voice/us/Instructor_VO.xwb,1.92,M
+sounds/Voice/us/Ops.xsb,5.1,K
+sounds/Voice/us/Ops_VO.xwb,3.26,M
+sounds/AEONSelect.xwb,468.04,K
+sounds/AmbientTest.xsb,960,B
+sounds/AmbientTest.xwb,2.32,M
+sounds/CYBRANSelect.xwb,503.95,K
+sounds/CYBRANStream.xwb,186,K
+sounds/Explosions.xsb,1.23,K
+sounds/Explosions.xwb,1.02,M
+sounds/ExplosionsStream.xwb,1.5,M
+sounds/FMV_BG.xsb,1.14,K
+sounds/FMV_BG.xwb,99.39,M
+sounds/Group_Move.xsb,434,B
+sounds/Group_Move.xwb,192.55,K
+sounds/Impacts.xsb,1.97,K
+sounds/Impacts.xwb,1.25,M
+sounds/Interface.xsb,6.45,K
+sounds/Interface.xwb,1.22,M
+sounds/Music.xsb,1.36,K
+sounds/Music.xwb,104.72,M
+sounds/Op_Briefing.xsb,2.59,K
+sounds/Op_Briefing.xwb,66.07,M
+sounds/SupCom.xgs,2.37,K
+sounds/TestBank.xsb,270,B
+sounds/TestBank.xwb,2.26,K
+sounds/Tutorial_SE.xsb,1.24,K
+sounds/Tutorial_SE.xwb,100.51,M
+sounds/UAA.xsb,5.25,K
+sounds/UAA.xwb,4.1,M
+sounds/UAADestroy.xsb,486,B
+sounds/UAADestroy.xwb,574.31,K
+sounds/UAAWeapon.xsb,1.38,K
+sounds/UAAWeapon.xwb,431.62,K
+sounds/UAB.xsb,8.32,K
+sounds/UAB.xwb,5.42,M
+sounds/UAL.xsb,11.34,K
+sounds/UAL.xwb,3.92,M
+sounds/UALDestroy.xsb,1.18,K
+sounds/UALDestroy.xwb,895.45,K
+sounds/UALWeapon.xsb,3.61,K
+sounds/UALWeapon.xwb,1.94,M
+sounds/UAS.xsb,3.63,K
+sounds/UAS.xwb,3.18,M
+sounds/UASDestroy.xsb,1.24,K
+sounds/UASDestroy.xwb,1.75,M
+sounds/UASWeapon.xsb,1.68,K
+sounds/UASWeapon.xwb,1.13,M
+sounds/UEA.xsb,6.5,K
+sounds/UEA.xwb,4.82,M
+sounds/UEADestroy.xsb,592,B
+sounds/UEADestroy.xwb,712.85,K
+sounds/UEAWeapon.xsb,1.14,K
+sounds/UEAWeapon.xwb,292.69,K
+sounds/UEB.xsb,8.34,K
+sounds/UEB.xwb,4.56,M
+sounds/UEFSelect.xwb,385.19,K
+sounds/UEL.xsb,11.9,K
+sounds/UEL.xwb,4.91,M
+sounds/UELDestroy.xsb,1.25,K
+sounds/UELDestroy.xwb,1.02,M
+sounds/UELWeapon.xsb,3.57,K
+sounds/UELWeapon.xwb,1.91,M
+sounds/UES.xsb,3.47,K
+sounds/UES.xwb,3.17,M
+sounds/UESDestroy.xsb,761,B
+sounds/UESDestroy.xwb,1.43,M
+sounds/UESWeapon.xsb,1.91,K
+sounds/UESWeapon.xwb,1.64,M
+sounds/UnitRumble.xsb,318,B
+sounds/UnitRumble.xwb,168.19,K
+sounds/UnitsGlobal.xsb,620,B
+sounds/UnitsGlobal.xwb,257.2,K
+sounds/URA.xsb,4.59,K
+sounds/URA.xwb,4,M
+sounds/URADestroy.xsb,486,B
+sounds/URADestroy.xwb,639.39,K
+sounds/URAWeapon.xsb,1.29,K
+sounds/URAWeapon.xwb,373.93,K
+sounds/URB.xsb,7.87,K
+sounds/URB.xwb,3.83,M
+sounds/URL.xsb,11.4,K
+sounds/URL.xwb,4.09,M
+sounds/URLDestroy.xsb,1.11,K
+sounds/URLDestroy.xwb,1.19,M
+sounds/URLWeapon.xsb,4.39,K
+sounds/URLWeapon.xwb,1.71,M
+sounds/URS.xsb,3.57,K
+sounds/URS.xwb,2.8,M
+sounds/URSDestroy.xsb,798,B
+sounds/URSDestroy.xwb,2.09,M
+sounds/URSStream.xsb,379,B
+sounds/URSStream.xwb,374,K
+sounds/URSWeapon.xsb,2.41,K
+sounds/URSWeapon.xwb,1.59,M
+supcom mods/119-0.4-noexplosionshadowsmod-supcomsource/shadow/effects/Emitters/destruction_explosion_fire_shadow_01_emit.bp,2.51,K
+supcom mods/119-0.4-noexplosionshadowsmod-supcomsource/shadow/textures/particles/fire_cloud_noExploShadow.dds,85.46,K
+supcom mods/119-0.4-noexplosionshadowsmod-supcomsource/NoExploShadows_ReadMe.txt,2.3,K
+supcom mods/build_patterns/Build Patterns/hook/lua/ui/game/gamemain.lua,506,B
+supcom mods/build_patterns/Build Patterns/hook/lua/simcallbacks.lua,91,B
+supcom mods/build_patterns/Build Patterns/hook/mods/uimod/sca_utils/remap.lua,400,B
+supcom mods/build_patterns/Build Patterns/textures/backgrounds/bgbottom.dds,5.09,K
+supcom mods/build_patterns/Build Patterns/textures/backgrounds/bgmiddle.dds,5.09,K
+supcom mods/build_patterns/Build Patterns/textures/backgrounds/bgtop.dds,5.09,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsAEON/RadarAndPower.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsAEON/T1FabGroup.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsAEON/T1LandFacWithPower.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsAEON/T1MexAndStorage.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsAEON/T2FirebaseCore.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsAEON/T3MassComplexSpread.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsAEON/T3MassComplexTight.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsCYBRAN/RadarAndPower.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsCYBRAN/T1FabGroup.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsCYBRAN/T1LandFacWithPower.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsCYBRAN/T1MexAndStorage.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsCYBRAN/T2FirebaseCore.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsCYBRAN/T3MassComplexSpread.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsCYBRAN/T3MassComplexTight.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsUEF/RadarAndPower.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsUEF/T1FabGroup.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsUEF/T1LandFacWithPower.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsUEF/T1MexAndStorage.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsUEF/T2FirebaseCore.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsUEF/T3MassComplexSpread.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/buttonsUEF/T3MassComplexTight.dds,7.03,K
+supcom mods/build_patterns/Build Patterns/textures/footprints/footprint-1by1.dds,496,B
+supcom mods/build_patterns/Build Patterns/textures/footprints/footprint-2by2.dds,1.48,K
+supcom mods/build_patterns/Build Patterns/textures/footprints/footprint-4by4.dds,5.48,K
+supcom mods/build_patterns/Build Patterns/textures/footprints/footprint-6by6.dds,12.17,K
+supcom mods/build_patterns/Build Patterns/textures/footprints/footprint-8by8.dds,21.48,K
+supcom mods/build_patterns/Build Patterns/BuildingTemplates.lua,7.28,K
+supcom mods/build_patterns/Build Patterns/buildpatterns.lua,17.98,K
+supcom mods/build_patterns/Build Patterns/mod_info.lua,221,B
+supcom mods/build_patterns/Build Patterns/PatternTemplates.lua,4.16,K
+supcom mods/build_patterns/build patterns readme.txt,517,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/aeon_heavy_missile_trail_emit.bp,349,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/energy_beam_01_emit.bp,346,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/flamethrower_01_emit.bp,2.71,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/flamethrower_02_emit.bp,2.71,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/flamethrower_03_emit.bp,2.71,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/flamethrower_trail_01_emit.bp,355,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/leech_beam_01_emit.bp,318,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/pheonix_hit_01_emit.bp,2.86,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/pheonix_hit_02_emit.bp,2.86,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/pheonix_hit_03_emit.bp,2.83,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/pheonix_hit_04_emit.bp,2.7,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/plasmacannon_01_emit.bp,2.7,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/plasmacannon_02_emit.bp,2.7,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/plasmacannon_trail_01_emit.bp,355,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/repair_beam_01_emit.bp,319,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/shockbolt_01_emit.bp,2.7,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/shockbolt_02_emit.bp,2.71,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/effects/emitters/shockbolt_trail_01_emit.bp,355,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/ui/game/gamecommon.lua,2.24,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/ui/help/unitdescription.lua,6.94,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/aeonprojectiles.lua,1.14,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/aeonweapons.lua,835,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/cybranprojectiles.lua,307,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/cybranweapons.lua,634,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/defaultcollisionbeams.lua,867,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/EffectTemplates.lua,1.95,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/terranprojectiles.lua,630,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/hook/lua/terranweapons.lua,284,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAA0205_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAA0205_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAA0205_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAA0205_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAA0206_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAA0206_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAA0206_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAA0206_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0107_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0107_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0107_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0107_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0204_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0204_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0204_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0204_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0305_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0305_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0305_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0305_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0306_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0306_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0306_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0306_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0307_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0307_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0307_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0307_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0308_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0308_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0308_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0308_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0309_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0309_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0309_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0309_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0310_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0310_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0310_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0310_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0311_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0311_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0311_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAL0311_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAS0203_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAS0203_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAS0203_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RAS0203_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REA0205_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REA0205_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REA0205_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REA0205_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REA0306_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REA0306_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REA0306_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REA0306_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0107_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0107_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0107_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0107_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0305_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0305_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0305_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0305_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0306_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0306_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0306_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0306_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0307_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0307_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0307_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0307_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0308_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0308_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0308_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0308_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0309_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0309_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0309_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0309_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0310_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0310_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0310_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0310_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0311_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0311_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0311_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/REL0311_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RES0203_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RES0203_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RES0203_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RES0203_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RES0301_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RES0301_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RES0301_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RES0301_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRA0205_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRA0205_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRA0205_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRA0205_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRA0206_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRA0206_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRA0206_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRA0206_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0107_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0107_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0107_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0107_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0204_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0204_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0204_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0204_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0305_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0305_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0305_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0305_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0306_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0306_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0306_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0306_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0307_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0307_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0307_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0307_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0308_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0308_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0308_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0308_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0309_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0309_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0309_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0309_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0310_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0310_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0310_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRL0310_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRS0203_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRS0203_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRS0203_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRS0203_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRS0306_build_btn_down.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRS0306_build_btn_over.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRS0306_build_btn_up.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/icons/units/RRS0306_icon.dds,4.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/ADFPaladinShell01/ADFPaladinShell01_proj.bp,1.28,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/ADFPaladinShell01/ADFPaladinShell01_script.lua,2.18,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/ADFPaladinShell02/ADFPaladinShell02_proj.bp,1.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/ADFPaladinShell02/ADFPaladinShell02_script.lua,295,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/AeonHeavyMissile01/AeonHeavyMissile01_proj.bp,2.12,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/AeonHeavyMissile01/AeonHeavyMissile01_script.lua,3.61,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/AeonHeavyMissile02/AeonHeavyMissile02_proj.bp,1.46,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/AeonHeavyMissile02/AeonHeavyMissile02_Script.lua,431,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/DaggerShell/DaggerShell_proj.bp,1.1,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/DaggerShell/DaggerShell_script.lua,621,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/FlameThrower/FlameThrower_proj.bp,1.17,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/FlameThrower/FlameThrower_script.lua,541,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/JuggernautProjectile/JuggernautProjectile_proj.bp,1.38,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/JuggernautProjectile/JuggernautProjectile_script.lua,426,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/JuggernautProjectile/TIFMortar.max,198,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/JuggernautProjectile/TIFMortar_Albedo.psd,20.43,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/JuggernautProjectile/TIFMortar_HighResBumps.psd,20.77,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/JuggernautProjectile/TIFMortar_SpecTeam.psd,20.99,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/MiniNukeProjectile/MiniNukeProjectile_proj.bp,1.52,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/MiniNukeProjectile/MiniNukeProjectile_Script.lua,1.97,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/NeutronFlak/NeutronFlak_proj.bp,1.17,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/NeutronFlak/NeutronFlak_script.lua,741,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/PheonixGun/PheonixGun_proj.bp,1.42,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/PheonixGun/PheonixGun_script.lua,171,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/PlasmaCannon/PlasmaCannon_proj.bp,1.17,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/PlasmaCannon/PlasmaCannon_script.lua,541,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/ShockBolt/ShockBolt_proj.bp,1.14,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/projectiles/ShockBolt/ShockBolt_script.lua,360,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAA0205/RAA0205_Script.lua,404,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAA0205/RAA0205_unit.bp,12.02,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAA0206/RAA0206_Script.lua,360,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAA0206/RAA0206_unit.bp,13.88,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0107/RAL0107_Script.lua,373,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0107/RAL0107_unit.bp,9.93,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0204/RAL0204_Script.lua,516,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0204/RAL0204_unit.bp,9.41,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0305/RAL0305_Script.lua,302,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0305/RAL0305_unit.bp,9.44,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0306/RAL0306_Script.lua,287,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0306/RAL0306_unit.bp,10.73,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0307/RAL0307_script.lua,981,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0307/RAL0307_unit.bp,11.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0308/RAL0308_script.lua,1.48,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0308/RAL0308_unit.bp,7.74,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0309/RAL0309_Script.lua,300,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0309/RAL0309_unit.bp,9.83,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0310/RAL0310_Script.lua,154,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0310/RAL0310_unit.bp,8,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0311/RAL0311_script.lua,1000,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAL0311/RAL0311_unit.bp,10.04,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAS0203/RAS0203_script.lua,589,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RAS0203/RAS0203_unit.bp,15.04,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REA0205/REA0205_Script.lua,394,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REA0205/REA0205_unit.bp,11.58,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REA0306/REA0306_Script.lua,468,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REA0306/REA0306_unit.bp,19.57,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0107/REL0107_Script.lua,571,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0107/REL0107_unit.bp,10.73,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0305/REL0305_Script.lua,323,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0305/REL0305_unit.bp,10.17,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0306/REL0306_script.lua,331,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0306/REL0306_unit.bp,9.69,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0307/REL0307_Script.lua,276,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0307/REL0307_unit.bp,9.62,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0308/REL0308_script.lua,732,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0308/REL0308_unit.bp,6.43,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0309/REL0309_script.lua,3.25,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0309/REL0309_unit.bp,7.45,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0310/REL0310_Script.lua,279,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0310/REL0310_unit.bp,10.31,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0311/REL0311_Script.lua,342,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/REL0311/REL0311_unit.bp,9.36,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RES0203/RES0203_script.lua,1.14,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RES0203/RES0203_unit.bp,18.03,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RES0301/RES0301_script.lua,2.4,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RES0301/RES0301_unit.bp,11.49,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRA0205/RRA0205_Script.lua,305,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRA0205/RRA0205_unit.bp,13.51,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRA0206/RRA0206_Script.lua,565,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRA0206/RRA0206_unit.bp,17.02,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0107/RRL0107_Script.lua,536,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0107/RRL0107_unit.bp,12.6,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_Albedo.dds,170.8,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_lod0.scm,42.18,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_lod1.scm,42.18,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_lod1_Albedo.dds,2.8,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_lod1_normalsTS.dds,5.48,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_lod1_SpecTeam.dds,5.48,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_NormalsTS.dds,341.48,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_script.lua,2.26,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_SpecTeam.dds,341.48,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0204/RRL0204_unit.bp,9.7,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0305/RRL0305_script.lua,597,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0305/RRL0305_unit.bp,10.07,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0306/RRL0306_script.lua,428,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0306/RRL0306_unit.bp,12.97,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0307/RRL0307_Script.lua,450,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0307/RRL0307_unit.bp,12.17,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0308/RRL0308_Script.lua,814,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0308/RRL0308_unit.bp,10.13,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0309/RRL0309_Script.lua,962,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0309/RRL0309_unit.bp,6.75,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0310/RRL0310_script.lua,1.61,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRL0310/RRL0310_unit.bp,9.14,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRS0203/RRS0203_script.lua,3.14,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRS0203/RRS0203_unit.bp,18.63,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRS0306/RRS0306_script.lua,328,B
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/units/RRS0306/RRS0306_unit.bp,10.98,K
+supcom mods/redsunitpackv2.1/mods/Reds Unit Pack/mod_info.lua,308,B
+supcom mods/firebase1.87.rar,182.09,K
+supcom mods/giantfatboy-1174647175-1.0-supcomsource.rar,4.07,K
+supcom mods/owning_exp_v2_0.rar,5.26,M
+supcom mods/siegeshields-1174327588-v1-supcomsource.rar,2.3,M
+tutorials/TUA100/TUA100.lua,3.07,K
+tutorials/TUA100/TUA100.sfd,59.95,M
+tutorials/TUA200/TUA200.lua,2.67,K
+tutorials/TUA200/TUA200.sfd,48.41,M
+tutorials/TUA400/TUA400.lua,2.77,K
+tutorials/TUA400/TUA400.sfd,56.86,M
+tutorials/TUA500/TUA500.lua,2.6,K
+tutorials/TUA500/TUA500.sfd,45.22,M
+tutorials/TUB050/TUB050.lua,1.39,K
+tutorials/TUB100/TUB100.lua,2.24,K
+tutorials/TUB100/TUB100.sfd,42.59,M
+tutorials/TUB200/TUB200.lua,3.6,K
+tutorials/TUB200/TUB200.sfd,70.24,M
+tutorials/TUB300/TUB300.lua,2.27,K
+tutorials/TUB300/TUB300.sfd,32.35,M
+tutorials/TUB350/TUB350.lua,2.42,K
+tutorials/TUB350/TUB350.sfd,41.74,M
+tutorials/TUB400/TUB400.lua,2.88,K
+tutorials/TUB400/TUB400.sfd,59.01,M
+tutorials/TUB425/TUB425.lua,3.25,K
+tutorials/TUB425/TUB425.sfd,66.75,M
+tutorials/TUB450/TUB450.lua,3.91,K
+tutorials/TUB450/TUB450.sfd,84,M
+tutorials/TUB500/TUB500.lua,3.1,K
+tutorials/TUB500/TUB500.sfd,53.54,M
+tutorials/TUB600/TUB600.lua,3.17,K
+tutorials/TUB600/TUB600.sfd,65.57,M
+tutorials/TUB700/TUB700.lua,3.15,K
+tutorials/TUB700/TUB700.sfd,61.72,M
+tutorials/TUB800/TUB800.lua,2.69,K
+tutorials/TUB800/TUB800.sfd,51.78,M
+tutorials/TUC100/TUC100.lua,3.61,K
+tutorials/TUC100/TUC100.sfd,74,M
+tutorials/TUC200/TUC200.lua,3.04,K
+tutorials/TUC200/TUC200.sfd,55.1,M
+tutorials/TUC250/TUC250.lua,3.29,K
+tutorials/TUC250/TUC250.sfd,59.75,M
+tutorials/TUC300/TUC300.lua,2.19,K
+tutorials/TUC300/TUC300.sfd,34.97,M
+tutorials/TUE200/TUE200.lua,3.32,K
+tutorials/TUE200/TUE200.sfd,70.15,M
+tutorials/TUF200/TUF200.lua,2.95,K
+tutorials/TUF200/TUF200.sfd,55.24,M
+tutorials/TUF300/TUF300.lua,2.38,K
+tutorials/TUF300/TUF300.sfd,42.16,M
+Installed.prefs,47,B
+readme.txt,81.6,K
+supcom_manual.pdf,14.47,M

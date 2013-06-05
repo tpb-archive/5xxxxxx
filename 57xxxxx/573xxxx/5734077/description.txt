@@ -1,0 +1,28 @@
+Turbo C++ v1.01 from Borland.
+
+Released as a freeware by Borland. Had a hard time finding the proper setup on the 
+
+internet so I'm gonna seed this as long as I can.
+
+Installation is pretty simple.
+
+1. Run INSTALL.EXE
+
+2. Enter the drive in which the setup is located. (C:, D:, ...)
+
+3. Enter directory location of the setup. (This uses DOS style directory names 
+
+limited to 8-10 characters, most probably the directory will already be entered.)
+
+4. After that, you get to select where exactly you want to install the software.
+
+5. After installion in complete the setup will ask you to make certain modifications 
+
+to your config.sys file which will be located in your root directory. 
+
+(Example:-C:CONFIG.SYS )
+
+
+Then go to the installed directory > TC > BIN > TC.EXE
+
+Enjoy coding.

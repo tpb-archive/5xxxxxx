@@ -1,0 +1,35 @@
+User Type,Username,Date,Text
+,thezig,2010-08-04T08:48Z,"Uploader here (funny, I don't recall setting it to anonymous). I'm sorry to hear that you can't get it working on W7 either.
+
+I don't think it's the crack, because it does seem to work fine under XP/32."
+,Kopojken,2010-11-16T23:23Z,"För att få det att fungera på Win7, lägg istället in filerna som skall in [install path]\Archives\
+
+till
+
+C:\Users\USERNAME\AppData\Roaming\thriXXX\3DSexVilla2-Everlust\Archives\"
+,McShine,2010-12-04T16:27Z,"
+I followed Kopojken's steps on W7 & Vista.
+- It got the program started showing the thrixxx intro, but when it comes to the ""update/connection screen"", it crashes: sayin' - ""3DSexVilla2-093.001.exe stopped working"" 
+
+Any ideas? what to do now?
+Or is it just impossible to get it to work on W7/vista"
+,theyloveme,2011-01-25T11:07Z,"Kopjken is right...!! All you have to do to get it working in Win 7 is to follow the instructions in the read me but instead of placing the Archive files in the install folder, use the following path: C:\Users\USERNAME\AppData\Roaming\thriXXX\3DSexVilla2-Everlust\Archives\
+
+To be precise,
+
+In XP:
+
+1.Install
+2.Copy 3DSexVilla2-093.001.exe to [install path]\binaries\
+3.Copy 3DSexVilla2.Archives.txx to [install path]\Archives\
+4.Copy everything from [ 2.093.001]to [install path]\Archives\2.093.001\
+5.Play
+
+In Win 7
+
+1.Install
+2.Copy 3DSexVilla2-093.001.exe to [install path]\binaries\
+3.Copy 3DSexVilla2.Archives.txx to C:\Users\USERNAME\AppData\Roaming\thriXXX\3DSexVilla2-Everlust\Archives\Archives\
+4.Copy everything from [ 2.093.001]to C:\Users\USERNAME\AppData\Roaming\thriXXX\3DSexVilla2-Everlust\Archives\Archives\2.093.001\
+5.Play"
+,NicoT1n3,2011-01-30T18:39Z,"Sorry if i missed it, but how do i start doing anything? all the options i have is [Community] (Which i can't click), [Media] (Which is empty and i can't find any media files on internet or create anything), [Settings], [Help], [Quit Game]. Thanks in advance."

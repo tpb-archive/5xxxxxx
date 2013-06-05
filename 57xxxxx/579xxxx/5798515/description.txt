@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+
+
+General
+Format                           : MPEG-4
+Format profile                   : Base Media
+Codec ID                         : isom
+File size                        : 30.1 MiB
+Duration                         : 3mn 34s
+Overall bit rate                 : 1 178 Kbps
+
+
+Video
+ID                               : 1
+Format                           : AVC
+Format/Info                      : Advanced Video Codec
+Format profile                   : High@L3.1
+Format settings, CABAC           : Yes
+Format settings, ReFrames        : 8 frames
+Format settings, GOP             : M=1, N=28
+Codec ID                         : avc1
+Codec ID/Info                    : Advanced Video Coding
+Duration                         : 3mn 34s
+Bit rate mode                    : Variable
+Bit rate                         : 1 035 Kbps
+Maximum bit rate                 : 1 981 Kbps
+Width                            : 1 008 pixels
+Height                           : 528 pixels
+Display aspect ratio             : 1.909
+Frame rate mode                  : Constant
+Frame rate                       : 25.000 fps
+Color space                      : YUV
+Chroma subsampling               : 4:2:0
+Bit depth                        : 8 bits
+Scan type                        : Progressive
+
+
+Audio
+ID                               : 2
+Format                           : AAC
+Format/Info                      : Advanced Audio Codec
+Format version                   : Version 4
+Format profile                   : LC
+Format settings, SBR             : No
+Codec ID                         : 40
+Duration                         : 3mn 34s
+Bit rate mode                    : Variable
+Bit rate                         : 137 Kbps
+Maximum bit rate                 : 147 Kbps
+Channel(s)                       : 2 channels
+Channel positions                : Front: L R
+Sampling rate                    : 48.0 KHz
+
+
+------------------------------------------------------------
+                       

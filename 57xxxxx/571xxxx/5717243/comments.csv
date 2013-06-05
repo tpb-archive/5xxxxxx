@@ -1,0 +1,15 @@
+User Type,Username,Date,Text
+,dude12407,2010-07-28T07:26Z,hey im getting a message bout a bad bios what do i do?
+,xiIix,2010-07-31T03:16Z,This makes no sense. Isn't the current beta 3119?
+,dude12407,2010-07-31T08:09Z,"the instructions say config and enjoy, but when it askes me bout the bios, i locate the bios file and it shows them but it wnt let me advance. "
+,AZkiller7,2010-07-31T17:07Z,"@dude12407
+
+probably you need to update DirectX and Visual C++ runtime libraries to the 2010 version, you can download them from Microsoft website"
+,oriug,2010-08-01T01:01Z,"When I used WinXP Pro SP3 32-bit, I used your PCSX2.PS2emu.rev2186-[AZkiller7] version for a game (Berserk), and it worked superb! I've now moved over to Windows 7 Ultimate 32-bit and downloaded this rev/torren, used the SAME options AND speed hacks as in the old rev, but now the game is really slow and stuff, even with the same settings + speed hacks. But when I move the VU Cycle Stealing to ""Moderate"", it gets TOO speedy, so that's no good, even with all the other hacks turned off/default! And on ""Slight"" it is just TOO slow... I've updated the drivers to my gfx card and I've got DX11. My specs: AMD Phenom II X3 720 2.8ghz, 4GB RAM, Radeon HD4850 X2. WHAT can be wrong? HOW can I make the game run as smooth as I runned it on Windows XP Pro SP2 and SP3? I've also tried to change the Compatibility to Win XP Pro SP2 and then SP3, but no luck. Do you know how I can fix this? Thanks so much in advance!"
+,AZkiller7,2010-08-01T22:05Z,"@oriug
+
+if the game runs fast after enabling some speed hacks go to CONFIG - EMULATION SETTING - GS, set NTSC Framerate to 90.94 and PAL Framerate to 70.0"
+,oriug,2010-08-02T04:38Z,"i tried that to not much better result. however i twisted around the configs and now the settings seem to work all good on ALL stages except the 2 last stages... sucks, but it will have to do. ONE more problem tho........ when i try to RECORD my play, the playing gets INCREDIBLE slow! that didn't happen on WinXP Pro.. why does the recording make my game so SLOW and laggy? Do you know? Once i end the recording and watch the video, it has the normal speed on it! then what's wrong?"
+,AZkiller7,2010-08-02T06:39Z,"Recording generally slows down gameplay, depends on the output format you set, for example if you set the recorder to record the video in Xvid, Divx, MP4 or any other compressed video format, that'll take a lot of CPU power, however if the format is set to let's say Lossless AVI the impact on the CPU will be less."
+,DEVILsARM,2010-08-11T13:45Z,How do i make it work
+,giorgos69,2010-08-23T12:24Z,How can i find a bios...i dont get it

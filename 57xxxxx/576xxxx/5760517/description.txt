@@ -1,0 +1,9 @@
+The Donchian Scalper is an expert advisor based on the famous Donchian channel, an indicator developed by Richard Donchian after the market crash of 1929. The Donchian channel is formed with the highest high and the lowest low of the x last candles. Like the bollinger bands, and the average true range, it is an excellent indicator to see the volatility of a market. If the market is range the channel will be narrow, if the market is trending, the channel will be wider. It is also a good tool to get signals. If the price goes over the previous channel upper value, then we go long, if the price goes under the previous channel lower value, then we go short.
+
+I have added a volatility filter with the bollinger bands.
+
+The indicator Donchian.mq4 is not needed.
+
+Since 1999. EU M5. Default settings.
+
+

@@ -1,0 +1,56 @@
+Usb Bootable from hidden partition:
+___________________________
+
+
+I make boot usb with Grub and hide all software in it. So I can use format it by windows format
+utility and USB still bootable.
+Some utilities containing in this USB may interest you.
+And hows you can make "Acronis security zone" all from this usb
+This like sample for anyone ... 
+(My English is very bad) 
+=====================================================================
+Use rdeploy\windows\rdeploy.exe to restore USB.img (you can change size of partitions).
+Use rdeploy\windows\imgexpl.exe to explore USB.img.
+=====================================================================
+
+USB Hidden partition: (size >=180. MB)
+
+Boot menu:
+_________
+Load Windows XP from HDD
+Load Windows Vista From HDD
+Reboot
+
+Load Mini XP (Contains: 7z; notepad; Partion find and mount).
+Acronis media (server 9.7) full: partion manager and image echo.
+Ontrack Easyrescovery Profesional  6.1;
+Partition Magic 8.0; 
+Ontrack Easyrescovery Profesional 6.1
+Ontrack Disk Manager ver 10.46.
+Magic Boot disk with Partition Table Doctor, MBRTool, MBRWizard, MBRFix, and..+
+Active@Partition Recovery.
+HDD Regenerator 1.71
+SPINRITE.EXE (Like HDD Regenerator) 
+Acive Kill Disk 
+Dft32.IMG - HPA Tool: Dft32 ver 415-b01 Install. +
+HDAT2ALL.IMG - HPA Tool: HDAT2 Floppy Boot Disk +
+HPA Tool: IBM-Hitachi HDD Feature Tool ver 2.15. +
+Memory Test: Mem test
+.......................................................
+
+Windows_tools (portable)
+____________________
+Active killdisk 5.1.24
+active patition rescovery 1.71
+flobo harddisk repair
+hdd regenerator 1.71 portable
+hddhacker
+mobalivecd.exe
+OntrackEasyRescoveryPro 6.2 (En)
+Ptdd Partion Table doctor 3.5.
+ptedit32
+speedcommander 12
+UltraISO 9.35.2716
+virtual floppy
+grub
+................................................

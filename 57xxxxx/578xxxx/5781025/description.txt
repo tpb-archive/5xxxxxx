@@ -1,0 +1,89 @@
+ConvertXtoDVD - 4.1.1.334 
+
+Key Features
+
+    * Video formats supported: avi, divx, xvid, mov, mkv, flv, mpeg-1, mpeg2-, mpeg-4, nsv, dvr-ms, tivo, ts, ifo, vob, asf, wmv, realmedia, rm, rmvb, ogm, existing files from digital camcorders, TV/Sat, capture cards, etc. No external codecs needed like avi codec download
+    * Create DVD menus with different templates available, possibility to add background video, image or audio, have chapter and audio/subtitle menus
+    * Conversion advisor wizard, control of the conversion speed vs. quality
+    * Fast and quality encoder, typically less than 1 hour for converting 1 movie, and supports Multi-Core processors!
+    * Included burning engine with burn speed control choice of SAO or packet writing methods, supports all DVD formats and Some Blueray Support
+    * Custom and or automatic chapter creation with markers and preview window
+    * Advanced file merging possibilities
+    * Audio formats supported internal and external: AC3, DTS, PCM, OGG, MP3, WMA and more...
+    * Subtitles files supported internal and external: SRT, .SUB/IDX, .SSA with color and font selection, and supports tags like italic, bold
+    * Video output for video standard (NTSC, PAL), TV Screen (Widescreen 16:9, Fullscreen 4:3) and DVD Resolution (Full D1, Boradcast D1, Half D1, SIF), or choose automatic for all choices listed above. Also convert video from NTSC to PAL or PAL to NTSC
+    * Video post processing settings like video resize-pad/cropping and de-interlacing options
+    * Multilingual support available languages...
+    * Optimized for Windows 2000 / XP / Vista.
+
+
+ConvertXtoDVD changes history
+
+
+ConvertXtoDVD - 4.1.1.334 (Released 2010-08-17)
+===============================================
+
+Minor regression fixes from version 4.1.0.333 
+
+- 0003163: [Feature Request] link to BatchXtoDVD from File menu (wesson) - resolved.
+- 0003771: [Bug] Template Selector in the main window displays all black, cannot preview templates ! (wesson) - resolved.
+
+traduction FranÃ§aise mise Ã  jour
+
+
+ConvertXtoDVD - 4.1.0.333 
+==========================
+
+* Update FFMPEG library to revision 23153
+* interface cleanup, make it easier to use without a mouse
+* fix support of RAW video (RGB24 or YUV)
+* fix many issues with the audio rendering and sync in AVI files
+* other minor bugfixes
+* updated EULA's for LGPL compliance
+
+- 0002877: [Information] Converting MP4 file (h264/AAC) / Get Audio sync messages in the logs, did not occur on older builds/versions (annelise) - resolved.
+- 0002868: [Bug] Some MPEG2 files are no longer recognized by Convertxtodvd (wesson) - resolved.
+- 0002891: [Bug] regression out of sync avi (worked in 3.6.13) - resolved.
+- 0002892: [Bug] out of memory (wesson) - resolved.
+- 0002904: [Bug] Audio sync message with Avi file (wesson) - resolved.
+- 0002918: [Bug] Regression : No audio when converting some MP4 files with AAC audio streams. (wesson) - resolved.
+- 0003095: [Bug] image split in half and inversed in preview and final result (wesson) - resolved.
+- 0002923: [Bug] Bad conversion when the source is an uncompressed RGB24 AVI files. (wesson) - resolved.
+- 0003154: [Bug] no decodable video stream (wesson) - resolved.
+- 0003217: [Unsupported file/stream format] regression, noload: Stream #0 (video) - Codec tag "" unsupported (wesson) - resolved.
+- 0003303: [Unsupported file/stream format] v4 can no longer convert this video stream / Video: Raw video, yuyv422 (wesson) - resolved.
+- 0003370: [Crash] Crash Access Violation converting some wmv files (wesson) - resolved.
+- 0003747: [Bug] v4.1.0.322 regression no audio on 2 files in test validation 2 (wesson) - resolved.
+- 0003431: [Bug] regression, ccess violation at address 00403623 in module 'ConvertXtoDvd.exe'. Read of address 076557C5] while reading packet 0000001 (wesson) - resolved.
+- 0003193: [Bug] Regression: bug 0002451 returned and DVD playback loops continu on No Menu template (wesson) - resolved.
+- 0003765: [Unsupported file/stream format] green screen with MXF file (wesson) - resolved.
+- 0003233: [Feature Request] remove option complete from convertxtodvd "Add original files to DVD" (wesson) - resolved.
+- 0003226: [Bug] detect the partition type and inform the user of file system limitations (wesson) - resolved.
+- 0003182: [Suggestion] Add text to hintbox "skip root menu initially" at DVD options (wesson) - resolved.
+- 0003737: [Bug] about window not compatible with notebooks (wesson) - resolved.
+- 0002056: [Feature Request] add text next to menu template Black Mirror with video (wesson) - resolved.
+- 0003192: [Bug] Double separation for Width / Height in log (typo) (wesson) - resolved.
+- 0001868: [Bug] Menu text style editor does not save new created style (wesson) - resolved.
+- 0003018: [Bug] v3.8.0.193k bad audio on converted file (wesson) - resolved.
+- 0003745: [Feature Request] special setting for 12 core (wesson) - resolved.
+- 0002880: [Bug] after conversion the file play much much faster (wesson) - resolved.
+- 0003195: [Feature Request] Add DVD Options to log for No Menu template (wesson) - resolved.
+- 0003101: [Bug] English / french mix in log files (wesson) - resolved.
+- 0003094: [Bug] For the 3rd time editing "DVD menu labels" broken. (wesson) - resolved.
+- 0003099: [Bug] dvd menu labels menu dialog ( double click broken ) (wesson) - resolved.
+- 0003748: [Bug] v4.1.0.322 regression audio out of sync - test validation 2 file "0000627 [NOSOUND] 3642_4_4044.swf" (wesson) - resolved.
+- 0003216: [Feature Request] activate tabstop and set tab order in all setting sections (wesson) - resolved.
+- 0003710: [Feature Request] change link of buy button (wesson) - resolved.
+- 0003724: [Bug] cannot cancel a conversion correctly when conversion freezes - must end with task manager (wesson) - resolved.
+- 0003734: [Bug] does not know how to convert more than 1 file (or depending on order...?) (wesson) - resolved.
+- 0003723: [Bug] menu does not display correctly (wesson) - resolved.
+- 0003059: [Feature Request] Prevent Windows 7 from going to sleep when converting (wesson) - resolved.
+- 0003038: [Bug] Safe view area differs in size from the one shown in v3. (wesson) - resolved.
+- 0003102: [Bug] Undue "Video processing failed to init on stream 0000001" (wesson) - resolved.
+- 0003124: [Crash] Transcoder has stopped working when pressing on red X / after having changed font for menus (wesson) - resolved.
+- 0003134: [Bug] Video processing failed to init on stream 0000001 when cropping merged files (wesson) - resolved.
+- 0003673: [Suggestion] make some treeview items clickable (in the case virtual treeview doesnt work) (wesson) - resolved.
+- 0003116: [Crash] Assertion failed! Program: C:\vsoffmpeg\libavcodec\/motion_est_template.c (wesson) - resolved.
+[43 issues]
+
+

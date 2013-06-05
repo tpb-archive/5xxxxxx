@@ -1,0 +1,63 @@
+Program NOD32 zapewnia ochronÄ™ przed wirusami, spyware, adware oraz phishingiem, sprawdzajÄ…c w czasie rzeczywistym wszystkie otwierane, uruchamiane i zapisywane zbiory (monitor antywirusowy AMON), pliki pobierane z Internetu oraz pocztÄ™ elektronicznÄ… (monitor internetowy IMON). OchronÄ™ w czasie rzeczywistym uzupeÅ‚nia skaner uruchamiany na Å¼Ä…danie lub wedÅ‚ug harmonogramu. NajwyÅ¼szÄ… efektywnoÅ›Ä‡ zapewnia programowi NOD32 korzystanie z innowacyjnej technologii ThreatSense Å‚Ä…czÄ…cej klasyczne skanowanie przy uÅ¼yciu baz sygnatur z zaawansowanÄ… analizÄ… heurystycznÄ….
+
+Cechy programu:
+
+SzybkoÅ›Ä‡
+
+NOD32 jest jednym z najszybszych programÃ³w antywirusowych na rynku. WyjÄ…tkowa szybkoÅ›Ä‡ programu zostaÅ‚a wielokrotnie potwierdzona w testach. NOD32 skanuje od 2 do 50 razy szybciej niÅ¼ inne programy antywirusowe. Uzyskanie takiej szybkoÅ›ci skanowania moÅ¼liwe jest dziÄ™ki temu, Å¼e moduÅ‚y kluczowe dla szybkoÅ›ci dziaÅ‚ania programu zostaÅ‚y napisane i zoptymalizowane w jÄ™zyku niskiego poziomu (asemblerze). Zastosowanie asemblera sprawiÅ‚o teÅ¼, iÅ¼ NOD32 ma bardzo maÅ‚e wymagania systemowe i moÅ¼e byÄ‡ stosowany rÃ³wnieÅ¼ na komputerach starszego typu, nie obniÅ¼ajÄ…c ich wydajnoÅ›ci.
+
+Technologia ThreatSense
+
+ThreatSense Å‚Ä…czy wiele sposobÃ³w wykrywania wirusÃ³w w jednym silniku. Klasyczna analiza z uÅ¼yciem aktualizowanej co godzinÄ™ bazy sygnatur wykrywa znane zagroÅ¼enia. Tzw. heurystyka pasywna pozwala na wykrycie nowych odmian znanych wirusÃ³w. Unikalna, opracowana przez ESET metoda zaawansowanej (aktywnej) heurystyki analizuje podejrzane fragmenty kodu uruchamiajÄ…c plik na wirtualnej maszynie PC (w oddzielonym zabezpieczonym Å›rodowisku), dziÄ™ki czemu moÅ¼e sprawdziÄ‡ dziaÅ‚anie programu, nie naraÅ¼ajÄ…c systemu operacyjnego naszego komputera na niebezpieczeÅ„stwo.
+
+System wczesnego ostrzegania ThreatSense.NET
+
+W razie wykrycia przez technologiÄ™ ThreatSense nowego zagroÅ¼enia, moÅ¼liwe jest automatyczne wysyÅ‚anie podejrzanego pliku do natychmiastowej dalszej analizy w laboratorium ESET-a. W razie potrzeby opracowywane sÄ… aktualizacje bazy sygnatur, pozwalajÄ…ce na jednoznacznÄ… identyfikacjÄ™ nowego zagroÅ¼enia i jego usuniÄ™cie.
+
+Ochrona w czasie rzeczywistym - AMON (Antivirus MONitor)
+
+Jednym z podstawowych moduÅ‚Ã³w programu NOD32 jest AMON - monitor antywirusowy skanujÄ…cy w tle wszystkie otwierane, uruchamiane i zapisywane zbiory. Podobnie jak wszystkie inne moduÅ‚y, AMON wykorzystuje technologiÄ™ ThreatSense pozwalajÄ…cÄ… nie tylko na pewne identyfikowanie znanych juÅ¼ zagroÅ¼eÅ„, ale takÅ¼e na rozpoznawanie zupeÅ‚nie nowych, dziÄ™ki zaawansowanej analizie heurystycznej.
+
+Ochrona przed zagroÅ¼eniami z Internetu - IMON (Internet MONitor)
+
+NOD32 zostaÅ‚ wyposaÅ¼ony w specjalny moduÅ‚ chroniÄ…cy w czasie rzeczywistym poÅ‚Ä…czenie komputera z Internetem. DziÄ™ki niemu caÅ‚a przychodzÄ…ca poczta elektroniczna wraz ze wszystkimi zaÅ‚Ä…cznikami skanowana jest "w locie" i w razie potrzeby automatycznie oczyszczana. Monitorowane sÄ… takÅ¼e w czasie rzeczywistym przeglÄ…dane strony WWW (ruch HTTP) oraz wszystkie pobierane z Internetu zbiory.
+
+Ochrona poczty w korporacjach - moduÅ‚ EMON (Email MONitor)
+
+NOD32 zostaÅ‚ wyposaÅ¼ony dodatkowo w moduÅ‚ EMON skanujÄ…cy w protokole MAPI pocztÄ™ przychodzÄ…cÄ… i wychodzÄ…cÄ… ze stacji roboczej. Jest to szczegÃ³lnie waÅ¼ne w sieciach korporacyjnych korzystajÄ…cych z serwerÃ³w MS Exchange oraz programu MS Outlook w trybie korporacyjnym (w trybie "niekorporacyjnym" poczta dla MS Outlook skanowania jest przez moduÅ‚ IMON).
+
+Akcje podejmowane po wykryciu zagroÅ¼enia
+
+W przypadku wykrycia wirusa lub innego wrogiego programu, NOD32 moÅ¼e podjÄ…Ä‡ szereg akcji w zaleÅ¼noÅ›ci od sytuacji i preferencji uÅ¼ytkownika. W domyÅ›lnej konfiguracji program blokuje dostÄ™p do podejrzanego zbioru i kaÅ¼dorazowo pyta uÅ¼ytkownika o decyzjÄ™. UÅ¼ytkownik ma do wyboru nastÄ™pujÄ…ce moÅ¼liwoÅ›ci: wylecz zbiÃ³r, usuÅ„, przenieÅ› do kwarantanny, zmieÅ„ nazwÄ™, pozostaw bez zmian lub wyÅ›lij prÃ³bkÄ™ do analizy w laboratorium ESET.
+
+Katalog kwarantanny
+
+Katalog kwarantanny jest miejscem, gdzie zainfekowane zbiory mogÄ… byÄ‡ bezpiecznie przechowywane, jeÅ¼eli z jakichÅ› powodÃ³w nie chcemy ich od razu wyleczyÄ‡ lub usunÄ…Ä‡. Wrogie programy przechowywane sÄ… w postaci zaszyfrowanej, nie zagraÅ¼ajÄ…c w Å¼aden sposÃ³b komputerowi. Nie mogÄ… byÄ‡ przypadkowo uruchomione ani teÅ¼ samodzielnie siÄ™ uaktywniÄ‡.
+
+Dodatkowe funkcje
+
+NOD32 oferuje uÅ¼ytkownikowi wiele dodatkowych funkcji uÅ‚atwiajÄ…cych codzienne korzystanie z programu. Pozwala na zdefiniowanie profili uÅ¼ytkownika, w ktÃ³rych moÅ¼liwe jest zapamiÄ™tanie konkretnych ustawieÅ„. UÅ¼ytkownik moÅ¼e zdefiniowaÄ‡ sobie ich dowolnÄ… iloÅ›Ä‡. DziÄ™ki temu moÅ¼liwe jest Å‚atwe dostosowanie ustawieÅ„ ochrony do potrzeb - inne ustawienia moÅ¼na zdefiniowaÄ‡ do pracy w bezpiecznej sieci lokalnej, a inne do pracy z bezpoÅ›rednim podÅ‚Ä…czeniem do Internetu. WaÅ¼nÄ… cechÄ… programu NOD32 jest moÅ¼liwoÅ›Ä‡ ochrony aktualnej konfiguracji programu antywirusowego hasÅ‚em, ktÃ³re uniemoÅ¼liwia takÅ¼e odinstalowanie programu.
+
+Automatyczna aktualizacja
+
+NOD32 aktualizuje bazÄ™ sygnatur wirusÃ³w w peÅ‚ni automatycznie, nawet co godzinÄ™. Aktualizacja przeprowadzana jest na zasadzie inkrementacji - niewielkie pliki aktualizacyjne minimalizujÄ… obciÄ…Å¼enie sieci. NOD32 moÅ¼e byÄ‡ aktualizowany przez Internet, z wybranej stacji roboczej lub serwera w sieci lokalnej, a w przypadku braku poÅ‚Ä…czenia z Internetem, takÅ¼e z pÅ‚yty CD. W przypadku problemÃ³w z poÅ‚Ä…czeniem z serwerem aktualizacyjnym, program umoÅ¼liwia wybÃ³r alternatywnego ÅºrÃ³dÅ‚a aktualizacji.
+
+Dzienniki zdarzeÅ„ i powiadomienia
+
+Program wyposaÅ¼ony jest w bogate dzienniki zdarzeÅ„ dostarczajÄ…ce informacji o wynikach skanowania, wykrytych wirusach i innych wrogich programach oraz o aktualizacjach systemu.
+
+
+Uwaga!
+Wersje programu naleÅ¼y jak najszybciej po zainstalowaniu uaktualniÄ‡ (Å›ciÄ…gnÄ…c najnowsze definicje wirusÃ³w). Dopiero po aktualizacji bazy wirusÃ³w program bÄ™dzie mÃ³gÅ‚ w peÅ‚ni skutecznie chroniÄ‡ komputer przed najnowszymi zagroÅ¼eniami. Aby uchroniÄ‡ siÄ™ przed wirusami i wykorzystaÄ‡ w peÅ‚ni moÅ¼liwoÅ›ci programu NOD32 naleÅ¼y go okresowo aktualizowaÄ‡.
+
+
+System: Windows XP/2000/Vista/7
+
+
+1. Uruchom ess
+2. Podczas instalacji zaznacz opcjÄ™, Å¼e kod podasz potem
+3. Po instalacji uruchom Fix
+4. Zainstaluj program z domyÅ›lnymi opcjami
+
+Przy kaÅ¼dym uruchomieniu komputera program bÄ™dzie automatycznie pobieraÅ‚ aktualne key'e
+i zmieniaÅ‚ je w programie.

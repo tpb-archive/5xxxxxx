@@ -1,0 +1,45 @@
+Release date:April-2010
+Build: 7046
+
+Acronis is pleased to announce Acronis True Image Home 2010.
+
+ 
+
+New Features
+
+* Integration with Acronis Drive Monitor: Acronis True Image Home backs up data on a hard drive as soon as there is an alarm on Acronis Drive Monitor about a potential problem with the drive.
+* Autoupdate: Acronis True Image Home automatically checks for a new version on the Web site every time you run the application.
+
+List of issues fixed in this update
+
+* Consolidation progress window shows the wrong time that remains till the task is finished.
+* System reboots when you press "Tab" in Acronis True Image Home Restore wizard on bootable media.
+* Some files are not included into the backup when you back up files and folders together with Windows special folders (e.g. "Documents").
+* Scheduled e-mail backup fails if MS Outlook is running.
+* Acronis True Image Home overwrites full backups even if the "A new full backup overwrites the previous one" option is disabled.
+* Acronis True Image Home does not detect the iOmega REV-70 USB drive.
+* Acronis True Image Home renames an archive with the "-" symbol in its name when the task runs for the second time.
+* Acronis True Image Home 2010 on bootable media reboots the computer when you click the "Next" button in the "Options" window of the Backup wizard.
+* Partition labels are displayed incorrectly in the One-click Backup wizard.
+* The color of the days in the calendar remains blue (scheduled) for the current day even if the backup has already run successfully.
+* Consolidation fails with the "Backup date cannot be found" error in a log file.
+* Acronis True Image Home 2010 creates the "MyBackups" folder while a backup is being created.
+* Acronis True Image Home 2010 asks you to insert the next storage media when the size of the archive, created on the iOmega REV storage device reaches 2 GB.
+* Wireless keyboard and mouse packs do not work with Acronis True Image Home 2010 on bootable media.
+* One-Click Backup operation fails with the "Tag 0x0" error.
+* Acronis True Image Home becomes unresponsive when you delete a large backup from the Acronis Secure Zone.
+* TrueImage.exe process may stop responding after closing Acronis True Image Home.
+* Acronis Time Explorer recovers an empty *.doc file from an external hard drive in case the *.doc file was modified while the Time Explorer was running.
+* Acronis Time Explorer recovers a corrupted *.doc file in case the *.doc file was modified while the Time Explorer was running.
+
+Known issues
+
+* Wrong hard drive icon is assigned to the mounted image in "My computer".
+* The Program Compatibility Assistant detects a compatibility issue when you close the installation window and do not install Acronis True Image Home.
+
+
+
+Tested And Working
+
+
+Enjoy

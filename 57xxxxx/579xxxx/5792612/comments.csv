@@ -1,0 +1,36 @@
+User Type,Username,Date,Text
+,Seygantte,2010-08-27T18:35Z,"If it refuses to work with your new operating system, you will need to use DOSBOX which is a program that emulates an environment suitable for old games. It can be found here:
+
+http://www.dosbox.com/download.php?main=1
+
+After installing dosbox, follow these instructions:
+
+1. Create a folder on your desktop and call it ""Pizza""
+
+2. Open up DOSBOX and enter ""MOUNT C ""C:\Users\XXXX\Desktop\Pizza"""" replacing XXXX with your user name, and hit enter
+
+3. Use daemon tools to mount pizza tycoon to you cd drive, mine was mounted to drive D
+
+4. In dosbox enter ""Mount D D:\ -t cdrom"" and hit enter
+
+5. In dosbox enter ""D:\"" and hit enter
+
+6. In dosbox enter ""install.bat"" and hit enter
+
+7. Dosbox should now become the pizza tycoon installation UI, so select install. Use the default directory.
+
+8. Once the installation is complete keep hitting enter to go through the configuration settings, this is just for sound and it will work
+
+9. After the installation you will be given the option to exit to dos or quit program or whatever, at which point you will be presented with the black screen again. Enter ""pizza"" and hit enter
+
+10. Play!
+
+11. It should be that from now on whenever you want to play pizza tycoon, you will need to repeat step 2, then enter ""C:\"" and then enter ""mps\pizza\pizza"" to play again"
+,Illuminatri,2011-10-09T09:37Z,"Hi, lovely game! Played it a lot as a kid.
+Followed your instructions up to the letter.
+Get the DVD simulated only when assigning the dir,
+I get the message it can't find the dir.
+Tried nearly anything now. Doesnt seem to work.
+Made a pizza dir I'm program files, desktop, c:\ etc. 
+Nothing works keeps saying invalid dir even on standard dir.
+Please help I really wanna renjoy this retro game!!"

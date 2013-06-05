@@ -1,0 +1,12 @@
+SEED PLEASE 
+FOLLOW US ON TWITTER
+SEED SEED SEED 
+
+peer
+    A peer is another computer on the internet that you connect to and transfer data. Generally a peer does not have the complete file, otherwise it would be called a seed. Some people also refer to peers as leeches, to distinguish them from those generous folks who have completed their download and continue to leave the client running and act as a seed.
+
+seed
+    A computer that has a complete copy of a certain torrent. Once your client finishes downloading, it will remain open until you click the Finish button (or otherwise close it.) This is known as being a seed or seeding. You can also start a BT client with a complete file, and once BT has checked the file it will connect and seed the file to others. Generally, it's considered good manners to continue seeding a file after you have finished downloading, to help out others. Also, when a new torrent is posted to a tracker, someone must seed it in order for it to be available to others. Remember, the tracker doesn't know anything of the actual contents of a file, so it's important to follow through and seed a file if you upload the torrent to a tracker.
+
+reseed
+    When there are zero seeds for a given torrent (and not enough peers to have a distributed copy), then eventually all the peers will get stuck with an incomplete file, since no one in the swarm has the missing pieces. When this happens, someone with a complete file (a seed) must connect to the swarm so that those missing pieces can be transferred. This is called reseeding. Usually a request for a reseed comes with an implicit promise that the requester will leave his or her client open for some time period after finishing (to add longevity to the torrent) in return for the kind soul reseeding the file.

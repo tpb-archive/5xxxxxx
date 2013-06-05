@@ -1,0 +1,14 @@
+User Type,Username,Date,Text
+,Hamulus,2010-08-12T10:17Z,"Might be me being thick, but I can't see any way of
+
+2. Use Wii Backup Manager to add .wbfs file to your partition.
+
+When I browse for the .wbfs file, it only seems to recognise .iso or .rar files. I am using WBM v3.0. Is there another version where this is possible to do, or could you tell me exactly how to do this with v3.0? Any help much appreciated.
+
+Since I mainly use the HDD to play Wii games, I thought you definitely had the right idea offering downloads in .wbfs format as it usually means smaller file sizes and no conversion... If only I could get it to load. lol Can't seem to get USB Loader to recognise these games on a FAT32 partition, and can't get WBM to load them onto the WBFS partition."
+[V],r3dcat,2010-08-17T14:17Z,"@Hamulus: From what I can tell you are trying to use WBFS Manager 3.0 to transfer .wbfs file ... WBFS Manager 3.0 does not support the .wbfs file format so it will not work ... that is why I have recommended Wii Backup Manager which does.
+You also say you are having trouble using a USB Loader to read .wbfs files on a fat32 partition. What USB Loader are you trying to use? not all USB Loaders support .wbfs file format ... again that is why I recommended Configurable USB Loader ... if you experience any problems with Configurable USB Loader just ask your questions in the forum ... support in the forum is really good ->  http://gbatemp.net/index.php?showtopic=147638"
+,Hamulus,2010-08-18T08:30Z,"OMFG Thanks so much! I cannot believe I made such a stupid mistake as to use the wrong program. Feel more than a little Jerry Lewis at the moment. In my defence, they both have ""manager"" in the title...
+
+Will definitely give this USB loader a go too. If it's customizable, then perhaps loading from an NTFS partition is possible? Much more efficient, esp for larger partitions. Thanks again for your patient advice."
+,pottymouthed,2011-01-27T20:50Z,Why is the file size so small?

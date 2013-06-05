@@ -1,0 +1,18 @@
+Lunar is a source-based distribution for 32 and 64bit Intel or AMD systems with simple, yet powerful package management and system administration tools. If you want a flexible system built from source that is easy to install and maintain, you should try Lunar!
+Summary of changes since 1.6.4:
+
+    * Isolinux updated
+    * All modules refreshed
+    * Custom compilation of the kernel during install should once again be working
+    * Pre-compiled kernels now properly generate an install and md5sum log
+    * Added modules: yasm, gperf, libusb-compat, usbutils, xz, gmp, mpfr, cron-common, logrotate, rsyslog, iwlwifi-3945-ucode, iwlwifi-4965-ucode, iwlwifi-5000-ucode, screen, slang and mc
+    * Removed modules: mktemp, lard and device-mapper
+    * Grub2 tarball is available on the LiveCD for manual install
+    * Fixed a few minor bugs with the installer
+    * Rsyslog is now the new default syslog daemon
+    * Wireless firmware available on the liveCD
+
+Release announcement : http://foo-projects.org/pipermail/lunar/2010-August/008455.html
+Homepage : http://www.lunar-linux.org/
+
+sha1sum : 07e5e8c5a46a8f49e75616263736e0803cb3c2fe  lunar-1.6.5-i686.iso.bz2

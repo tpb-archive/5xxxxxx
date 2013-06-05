@@ -1,0 +1,139 @@
+What is the story behind Jolicloud?
+
+Jolicloud is the company behind the Jolicloud Operating System, the first operating system designed for netbooks users.
+
+Jolicloud was started by Tariq Krim, founder of Netvibes, the popular personalized homepage, and Romain Huet who joined the project. Like many netbooks users, Tariq used his netbook mostly to use web apps on the go. Frustrated by the systems shipped with the first netbooks and not satisfied with the idea of using the old Windows XP, he decided to design the prototype of an OS that would make it easy and fun to use a netbook. The idea was to replace as much as possible traditional apps with their web equivalent. They started sharing with some other netbook users. With a growing number of users asking to try the OS and with a very enthusiastic feedback, the team decided to make Jolicloud their full-time job and the initial team was hired. In June 2009, Jolicloud released its private alpha and announced that Skype founders Niklas ZennstrÃ¶m and Janus Friis with Atomico Venture and Mangrove Capital Partners were backing the project.
+Why create an OS for netbooks?
+
+A netbook is not a traditional laptop: its screen size is usually smaller (around 10 inch) and the processing power does not allow you to do much more than web browsing, and using multimedia and office apps. Jolicloud was designed with this usage in mind. It boots fast and lets you access all your apps in one click. You can even use native apps like OpenOffice (the free alternative compatible with MS Office) or Skype, or you can use web apps like the Google Apps to manage your mail, documents, social networking or tweets.
+
+Jolicloud comes with a multimedia player that can play videos and music. Because of the smaller screen size, we are using Mozilla Prism to provide full screen web apps to maximize the space for apps.
+
+Jolicloud has created an application directory that lets you install all apps in one click. Our directory contains not only the essential tools for your daily life but has curated a very cool selection of apps in art, education and games. All our apps are tested to work on a netbook screen and do not require any specific setup. Because we believe your time is precious, we are taking care of all the complexity and optimization. From time to time we push updates that are improving the quality or the speed of the system. With just one click you install them. Because a netbook is cheap and the hardware can be unreliable, Jolicloud lets you easily synchronize your hardrive with online storage services, making your data safe in case of a hardware failure. Online storage is also an incredible way to share documents between computers. Start a document on your office computer and use your netbook to finish it on the go. The combination of netbooks and online access provides a new range of services and Jolicloud's mission is to make them available to you in a very simple way.
+What can the cloud do for me? (Hint: you are already in the cloud)
+
+If you are using Gmail, Facebook, Twitter, Zoho or the Google Apps you are already in the cloud. The cloud let you use software that is generated on the web rather than downloading a native software.
+
+Considering that we spend a lot of time online a netbook becomes the platform that lets you quickly and easily interact with all your favorite online apps. You would be surprised to see how much can be done online theses days.
+What are the benefits of using Jolicloud?
+
+Jolicloud has been designed for netbooks. Our technical team has spent a lot of time to make sure that everything works smoothly. Other operating systems don't have a netbook specific approach. They have been designed for more powerful computers and using them on a netbook can have an impact on the battery, the general speed and the display.
+I heard Jolicloud is based on Linux, why is this better?
+
+Jolicloud is based on a Linux kernel. It means that the core component of Jolicloud is Linux. We chose the Debian and Ubuntu flavor of Linux for a few reasons: reliability, the large driver and software base which our users will be able to benefit from and the packaging of the apps which makes it easy to update the system. Unlike other Linux systems we have invested a lot of time and effort on the optimization for netbooks. Jolicloud is known to be the OS that supports the largest number of netbooks. Also we have made the user interface as simple as possible. On Jolicloud we have only selected the apps that match the criteria of simplicity and usability. We have also removed the complexity of installing and setting up your netbook. If we didn't tell you Linux is underneath you may have never known :).
+What is the architecture of Jolicloud?
+
+Jolicloud is based on three components. The kernel which is the core system. The user interface which you see while using the system. My Jolicloud, your online homebase which you access by double-clicking the little cloud on the top right of the screen. You can add and remove apps, set-up your netbook, install new updates, connect with friends and follow them. My Jolicloud is independent from your netbook. It is your personal command center than lets you control all the netbooks you have linked to it. In our upcoming version, all your netbooks will be synchronized with your My Jolicloud. In essence this will mean that any modification or updates which you make on one netbook will automatically be made available on all of your linked netbooks.
+What are the apps I can use on Jolicloud?
+
+On Jolicloud you can either use native apps or web apps. Native apps are Linux versions of popular software like Firefox, Skype, VLC or OpenOffice. The native apps you can find in the application directory have been tested and preset to work out-of-the-box on your netbook. Theses apps also work offline and can save documents on your local hard drive. The web apps are online apps that you would normally use through a browser. Because your screen size is limited we show them in full screen using Mozilla Prism rendering technology. The result and the speed is the same as if you were using Firefox. To make your life easier we have preinstalled Adobe Flash and Gears.
+
+Certain apps like Google or Zoho are using Gears or HTML5 technologies to work offline. It means that if you are offline you can still use certain functionalities.
+
+A very large number of Windows apps can be used on Jolicloud if you use Wine.
+
+You can also run Adobe Air apps, you will need to install the Air installer. Please note that Adobe Air for Linux is still experimental.
+How can I install a Jolicloud application?
+
+It's very easy to install a Jolicloud application. Open your My Jolicloud, go to the app directory section, select a category or use the search bar to find the application you need. Click on the install button. Your computer password will be needed (unless you already installed an application less than 20 minutes before) to start the install. You will see the download icon appear on the top right of the screen. We take care of the downloading and the installation for you. When installed the application will automatically appear in its category with a little orange tick.
+
+You can install as many apps as you want, you just need to make sure that you have enough space on your netbook and that you are using a good connection to the Internet for faster install. And don't forget, uninstalling an application is as easy, just click on the uninstall button.
+Should I install my own apps?
+
+We do not recommend that you install your own apps as they have not been tested and can interfere with the existing computing settings. If you want an application to be available in our directory don't hesitate to suggest it to us.
+I heard Jolicloud can run Windows apps, how is it possible?
+
+Jolicloud is leveraging a software called Wine. With Wine installed you can run Windows programs. All your Windows applications will be accessible from the Wine section of your launcher. On the Wine website you will find the list of supported software. Microsoft Office and some popular games like World of Warcraft are supported but don't forget that your netbook may not be powerful enough to run certain software.
+
+For now it seems that iTunes for Windows is not yet supported on Wine.
+Can I run Adobe AIR apps on Jolicloud?
+
+Yes, install the Adobe AIR installer and then install AIR apps like you would do on other systems. Don't forget that the Adobe AIR implementation on Linux is still experimental.
+What is the Jolicloud application directory, what type of apps can I find?
+
+The Jolicloud app directory is the place where you can find all the must have apps for your netbook. We have a large selection of native apps and web apps to cover all your needs. But the directory is much more than this, it is also a guide to the best apps on the Internet, from new cutting edge apps to education tools and games. You will discover lots of cool things to add on your netbook!
+Using Jolicloud
+How do I install Jolicloud on my netbook if I have Windows?
+
+If your netbook is running Windows XP or Windows 7, we recommend that you use Jolicloud Express to install Jolicloud. It's the most convenient process and it will keep all your Windows data safe.
+How do I install Jolicloud on my netbook if I don't have Windows on it?
+
+If you don't have Windows installed, you will need to create a key with the Jolicloud USB Creator and install Jolicloud on its own partition. The process will ask you if you want to remove the previous OS and use the entire disk space for Jolicloud. If you are using a netbook with a small SSD hardrive (4GB to 16GB) you might have no other option but to install only Jolicloud. In any case, even if we think Jolicloud is the best choice for your netbook, you should make sure that you have the recovery disk or your netbook in case you want to reinstall your previous OS.
+What is the difference between Jolicloud Express and the USB key install?
+
+When you install Jolicloud with Jolicloud Express, the program sets up the Jolicloud partition in a big file and boots from it. For Windows, you just have a file the size of the partition. Jolicloud Express is very easy and requires minimum effort. The USB key installs a real partition on the side of Windows or your other OS. During the installation you need to decide how much space you will give to Jolicloud.
+Can I keep Windows on my netbook?
+
+If you use Jolicloud Express you will keep Windows automatically. If you use the USB creator, you have the choice to remove Windows or to do a dual boot which enables you to keep Windows.
+How can I launch Windows when I have installed Jolicloud on my netbook?
+
+When you start your netbook, you will have the choice to launch either Windows or Jolicloud. Simply select your choice and press enter.
+My netbook is not on the list of tested netbooks. Can I still use Jolicloud?
+
+If your netbook is not on the list, it may be because you are using a very new model what we have not yet tested, or it could be that part of the netbook is unsupported due to a lack of proper drivers. In any case you should check the processor of your netbook and if it has a similar list of components to a netbook which we have approved, there is a big chance that it will work. If you successfully install and run Jolicloud on a computer not appearing on our list of compatible devices please let us know so that we can update the list!
+
+If your netbook is one of the devices that remains unsupported, please be aware that we are doing our best to support all netbooks. Certain drivers may be missing or Linux may not be supported on certain hardware platforms.
+Can I install Jolicloud on a normal laptop?
+
+A lot of people have tried to use Jolicloud on their regular laptop. In a large number of cases it has worked but we do not provide hardware support for devices that are not on our list of compatible devices.
+How much space do I need to run Jolicloud?
+
+The default installation of Jolicloud OS occupies about 2.5GB on the hard drive. This disk usage can of course vary depending on the installation of native applications and local documents.
+Can I use Jolicloud when I am offline?
+
+When you are offline if you have downloaded native apps, it means that you can manage your local documents, picture and videos. A few web apps currently provide offline support, enabling a limited subset of features to work when there is no Internet connection.
+What is the online storage and why should I set it up?
+
+Online storage is a facility that lets to keep copies of our documents, videos and music in the cloud. Having your stuff in the cloud means that if your netbook crashes you don't lose it. Online storage is also an incredible way to share documents between computers. Start a document on your office computer and use your netbook to finish it on the go. The combination of netbooks and online access provides a new range of services and Jolicloud's mission is to make them available to you in a very simple way.
+Can I use Jolicloud on multiple netbooks with the same account?
+
+Yes Jolicloud can be used on multiple netbooks: just log out off a netbook to be able to log into your account on another one. Our upcoming version will allow you to synchronize your Jolicloud account across several netbooks and automatically save settings and configurations across all of them.
+I don't see my favorite app on Jolicloud, can I suggest it?
+
+If there are apps you would recommend and would like to see in our directory, please let us know via Twitter @jolicloud.
+How can I increase the size of my Jolicloud partition?
+
+First, boot from your Jolicloud USB key and select the first option to Try Jolicloud without any change to your computer. On the live session, go to Administration and launch the program called Partition Editor. You will then be able to resize your Jolicloud partition.
+
+Once it is done, restart your netbook and boot on the Jolicloud installation on your hard drive.
+Can I connect an external hard drive to my Jolicloud netbook?
+
+You can connect an external hard drive to your Jolicloud netbook. It will be mounted automatically and will appear in the Places menu of your computer. Don't forget to unmount it by clicking on the eject icon.
+Can I connect my iPod or phone or Blackberry?
+
+Yes you can connect your device but it will simply be identified as a camera. It will also charge up.
+Can I use Bluetooth to connect with my phone?
+
+Yes you will be able to pair your phone with your netbook. Jolicloud comes with a Bluetooth applet to facilitate device management.
+Jolicloud Community
+How do I become part of the community?
+
+If you use Jolicloud you already are part of the community. You can get involved by sending your feedback to feedback (at) jolicloudcom. You can suggest new cool applications to add to our directory via @jolicloud on Twitter or just spread the word and add the Jolicloud badge on your website or blog. Developers, partners and individuals who want to work with us on localization please visit the business section of our website.
+I am a developer and I have created a web app. How can I make it work for Jolicloud?
+
+Your web app needs to be adpated to netbook screens (1024*575 pixels). Our full web app technology relies on Mozilla Prism and we support Flash and Gears. Please get in touch so we can add your app to our Directory.
+I am an OEM, can I have Jolicloud preinstalled?
+
+Please get in touch with us via business (at) jolicloudcom.
+Common Problems and Solutions
+Oops, I mistyped my email and can't access my Jolicloud account?
+
+Please contact us via our dedicated Twitter support stream on @jolisupport. We will be able to correct your email address. Don't forget to complete your profile once on Jolicloud.
+I have forgotten the password of my Jolicloud account?
+
+Just click here (or on Forgot your password? in the login section). We will be able to send you a new password.
+How can I get support for Jolicloud?
+
+Support is available via Get Satisfaction. For real-time support, please use our dedicated Twitter support stream @jolisupport.
+Who should I contact if a software I use on Jolicloud has a bug?
+
+It would be great if you could report it to us. Please use our support channel on Get Satisfaction or our dedicated Twitter support stream @jolisupport.
+What can I do if my WiFi doesn't work?
+
+Check that the hardware switch is correctly installed. If you are using a netbook we have successfully tested, your WiFi should work. If however you cannot get it to work please contact us via Get Satisfaction or our dedicated Twitter support stream @jolisupport for any issues.
+What can I do if my 3G card doesn't work?
+
+Jolicloud has been designed to support the widest variety of 3G cards. We want to hear about your experience of using 3G USB dongles and internal 3G modems. Please contact us via Get Satisfaction or our dedicated Twitter support stream @jolisupport for any issues.
+What can I do if my peripherals do not work on Jolicloud?
+
+Unfortunately, some peripherals may not work on Jolicloud. The could be because the manufacturer of the peripheral has not made their system compatible with Jolicloud or Linux. If one of your peripherals is not working we suggest that you add them to the wiki list. Sometimes a new software update can resolve the problem. Don't hesitate to let us know and give us details (the netbook, the type of connection like USB, etc.), as other users may have a solution to share!
