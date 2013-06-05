@@ -1,0 +1,75 @@
+--------Kaspersky Rescue Boot Disk 10.0.23.14 ISO (Update 01/09/2010)----------
+---
+Kaspersky Rescue Boot Disk 10.0.23.14 ISO (Update September 01, 2010) 
+Kaspersky Rescue Disk 11 is a bootable CD containing a set of tools for efficiently detecting and eliminating computer infections. It is required when a computer is so damaged that the operating system or antivirus software fails to launch correctly. The ISO image includes up-to-date antivirus databases and configuration files.
+
+The application should be used when the infection is at such level that it is impossible to disinfect the computer using anti-virus applications or malware removal utilities (such as Kaspersky Virus Removal Tool) running under the operating system. In this case, disinfection is more efficient because malware programs do not gain control when the operating system is being loaded.
+
+In system rescue mode only object scans and database updates are available as well as update rollback and viewing of statistics.
+
+You can take the following steps
+
+* Specify the virus scan task settings
+
+- change security level
+- change actions to be performed on detected objects
+- create list of objects to be scanned
+- change type of objects to scan
+- restrict scan duration
+- specify settings for scanning compound files
+- change the scan method
+- restore default scan settings
+
+* Specify update task settings
+
+- select update source
+- edit the proxy server settings
+- specify regional settings
+- roll back last update if necessary
+
+* Configure additional settings
+
+- select categories of threats to detect
+- create trusted zone
+- configure notification settings
+- specify storage time for report files
+- specify a storage setting for quarantined and backup objects
+
+* Create report of scan and update tasks
+
+* View application operation statistics
+
+What's new
+
+- Autorun objects can be disinfected.
+- A heuristic analyzer has been added.
+- The program modules have been updated.
+- RAID arrays support has been added.
+- The ability to configure a network, including Wi-Fi, has been added.
+- Text mode operation has been modified.
+- The operating system loader has been modified.
+- The operating system kernel has been modified.
+- The third-party application packages have been updated.
+- A set of third-party application packages has been added.
+
+Requirements
+
+- Windows XP : Home Edition (SP2 or higher), Professional (SP2 or higher), Professional x64 Edition (SP2 or higher) - 256 MB free RAM.
+- Windows Vista : All versions (32/64 bit) - 512 MB free RAM
+- Windows 7 : All versions (32/64 bit) - 1 GB free RAM (32 bit); 2 GB free RAM (64 bit)
+
+For the rescue CD to use effectively, you must provide that the computer boots from the Kaspersky Rescue Boot Disk. Boot priority can be modified in the BIOS. Alternatively, you can invoke the boot menu during the computer startup - usually using one of the F9 - F12 keys depending on the version of your motherboard/BIOS.
+
+This Kaspersky Rescue Boot Disk was created with Kaspersky Internet Security, version 11.0.1.400 (x86), on a fully updated Windows XP3 machine.
+
+Definitions released: September 01, 2010 at 13:00
+
+Recommendation: Burn the ISO image at low speed (8x if available)
+
+Install:
+
+Burn the iso file in to cd and install it
+
+Or
+
+mount and install the iso file

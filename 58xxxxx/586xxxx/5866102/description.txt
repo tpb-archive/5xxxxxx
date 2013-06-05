@@ -1,0 +1,25 @@
+If you like it buy it and support the developers!!!!! ENJOYYY :)
+
+INSTRUCTIONS AND FIX !!!!!(first step login as ADMINISTRATOR)
+PLEASE CHECK THIS LINK
+
+1.install to c:desktop:games folder to get it to work n run reg.exe as admin aswell
+
+2. Go into the "img" folder and you will see a file named "dt00_f" (its 422mb). You need to change the "f" to an "e" and the commentary will be fixed.
+
+3. REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\KONAMI]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\KONAMI\PES2011]
+"code"="SWY7-HTUN-3YF5-CD4D-W3AF"
+"installdir"="C:\\Konami\\PES2011\\"
+"version"="1.00.0000"
+
+
+"installdir"="C:\\Konami\\PES2011\\"
+
+be sure you have your install path inside above [REGISTRY FIX FOR ALL WHO GET AN ERROR GAME IS NOT INSTALLED!!
+
+4. MAKE SURE YOU EXTRACT TO THE LOCATION EXAMPLE>>C:\Users\USERNAME\Games\KONAMI\PES2011
+

@@ -1,0 +1,36 @@
+Oxford DeClicker
+
+Oxford DeClickerThe Oxford DeClicker has three main sections: DePop, DeClick and DeCrackle. These three sections deal with events that are up to 10ms, 3ms and 0.4ms in duration, respectively. Each of these sections has a threshold and sensitivity control, and an excitation profile which shows the residual signal left after harmonic content is removed. The excitation profile represents how much the signal deviates from the predicted signal.
+
+The threshold controls determine how many events are detected, and the sensitivity controls determine how many of those detected events go on to be repaired.
+
+The Events Graph
+
+
+_____
+
+
+Oxford DeBuzzer
+
+Oxford DeBuzzerThe Oxford DeBuzzer is divided into two stages: Detection and Removal.
+
+Buzz removal is usually accomplished using a comb filter. The comb filter has many tight notches that eliminate the fundamental frequency and associated harmonics of the buzz. For this process to work well, the fundamental frequency must be very accurately determined.
+
+The DeBuzzer has several ways of helping isolate the fundamental frequency.
+
+First is the Peak Profile that is displayed above the central rotary control, which shows the strength of a given nominal frequency in the input signal. Second is the large FFT display which accentuates any frequency components that are consistently present, making them stand out in the plot. It will automatically mark the three highest peaks found, and you can set the nominal frequency by clicking one of the peaks on the graph.
+
+The third method of isolating the fundamental frequency is a tone generator. In the same way as you can tune a guitar, as you home into the fundamental, the beat frequency between the tone and the fundamental will become slower and slower the closer you get. 
+
+
+
+_____
+
+
+
+
+Oxford DeNoiser
+
+Oxford DeNoiserThe Oxford DeNoiser removes wide-band noise from audio material using a variety of sophisticated techniques. The key to good de-noising lies in helping the user produce pleasing and accurate results, rather than encouraging the over-aggressive use of controls.
+
+The Oxford DeNoiser is based around the concept of a \'noise profile\'. The noise profile is used to gate-out components of the frequency spectrum that are below it, and keep the components that are above it. There are several methods to arrive at an appropriate noise floor.

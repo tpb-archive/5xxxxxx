@@ -1,0 +1,93 @@
+Instruction updated on 10-Sep-2010 by HexMod
+
+I did better instructions (added more details and pictures), because old
+one was not so good and easy to misunderstand.
+
+The procedure is quite long, but working ok and you'll
+get 2048 days license.
+Follow the instruction carefully.
+
+
+======================================================================
+                     Kaspersky Anti Blacklist v1.1.4
+
+      VERSION: This is not an executable.
+               
+ PROGRAMMER: El Crabe & TeaM NKD   
+ RELEASE DATE: 08.27.2010
+ RELEASE TYPE: Kaspersky Key Expolit
+ COMPATIBILITY: KIS7, KAV 7, KIS 8, KAV 8, KIS 9, KAV 9, KAV 2011, KIS 2011 
+     
+     PASSWORD: patch
+         
+     NOTE: The patch is password protected to prevent Kaspersky from 
+           deleting automatically. 
+
+DESCRIPTION:
+
+This product allows you to edit any data license key. It is a continuation 
+development of the Blacklist Exploits. You can change the basic parameters
+of the key: i.e. creation date, expiration date, time, number of licenses and so
+forth. Keygen generated on the basis of previous data and is unique for each
+machine. This means that the key would never fall into the blacklist and will
+work as long as you need. Basically .. this Patch allows you to edit Kaspersky 
+keys. Thus enabling you to extend the life of any Key for as long as you want.
+
+INSTALLATION (updated 10-Sep-2010 by HexMod):
+
+01. In "Settings" > Disable "Self-defense" and "Protection".
+    * See pictures pic_01.jpg and pic_02.jpg from "Pictures" -folder
+02. Delete all Keys
+    * See picture pic_03.jpg	
+03. Close Kaspersky > right-click Kaspersky's tray icon and exit
+04. Copy the 2 Patch files that match your Kaspersky version.
+    * Unzip Anti-Blacklist Patch v1.1.4.rar -file to ex. temp folder
+    * RAR-file password is "patch"
+    * If you use Kaspersky Internet Security 11, use KIS11.KAV11 -folder
+      KAV=Kaspersky AntiVirus, KIS=Kaspersky Internet Security
+05. Paste into Kaspersky's installation directory
+    For instance:
+    (C:\Program Files\Kaspersky Lab\Kaspersky Internet Security 2011)
+    * Paste all two files to installation directory.
+06. Delete the 2 patch files BEFORE start and enable Kaspersky self defense again.
+    * This mean, that you have to DELETE the temp -folder, where did you
+      unzip the rar-file. Otherwise KIS will detect these files as
+      suspicious files. 
+07. Start Kaspersky BUT DON'T ENABLE SELF DEFENSE YET!
+08. Add 2 patches into your Exclusion list-from Kaspersky install dir.
+    to Kaspersky Exclusion rules
+    * See pictures pic_04.jpg and pic_05.jpg
+    * pic_05.jpg: Press "add", press "select object" and browse the first
+      hacked file from KIS installation folder and press OK.
+    * Press again "add", press "select object" and browse the last hacked
+      file from KIS installation folder and press OK.
+    * Now these should be at least two files in exclusion rules list.
+      -> Press "OK"
+09. Enable "Self-defense" and "Protection".
+    * See pictures pic_01.jpg and pic_02.jpg and put the crosses on
+      these boxes back.
+10. Install Key using "11111-11111-11111-1111x" as activation code (for KIS 2011)
+                       "T1JVS-NNMBD-K1QTN-SUBP8"as activation code (for KIS 2010)
+    * Steps for this: See pictures pic_06.jpg and pic_07.jpg
+    * Browse correct .key -file from "KEYS" -folder. See picture pic_08.jpg
+      and press "NEXT"
+11. Restart Computer > then Update Kaspersky (Update -> Run update)
+    (Important to Restart for Patch to take effect)
+    * Now you should have 2048 days license left. See pic_09.jpg
+12. Complete .You can now update Kaspersky and set it up.
+
+
+[KIS 9 / KAV 9 *KNOWN ISSUE*]
+Kaspersky is blocked from deleting Exploit which causes an alert: "no rights for 
+replace clldr.dll" etc... just ignore it.
+
+[NOT WORKING FOR YOU?]
+* Maybe you are using unsupported version of KIS/KAV 
+* On Windows Vista/7: try turning off DEP and UAC
+
+[FALSE POSITIVE]
+* Kaspersky falsely identifies this exploit as "Hacktool.Kiser"
+* This is because it's used for hacking Kaspersky
+* Add to "Exclusions" list 
+  (wait for Kaspersky alert, then add to "Exclusions")
+  (Ensure you set Kaspersky to ask before making decisions)

@@ -1,0 +1,90 @@
+The No. 1 Movie Experience on PCs
+
+PowerDVD is the consumers favorite Blu-ray / DVD playback software, complemented by high-definition Dolby and DTS audio technologies. PowerDVD now converts 2D movies into 3D, plays an extensive range of video formats, and makes movies social by sharing bookmark reviews and live comments. Experience PowerDVD - the best Blu-ray playback and DVD player software available today. 
+
+
+The Universal Player that Upgrades Your Media Experience to 3D and HD
+
+- Immerse in amazing depth and realism with Blu-ray 3D playback
+- CPU/GPU acceleration for smooth playback
+- Lossless HD audio quality for maximum enjoyment
+- Convert DVDs and videos into lifelike 3D experience
+- Play broad range of video formats: MKV, FLV, 3GP, AVCHD, AVCREC, and more
+- Supports the latest audio formats: Dolby; TrueHD, Digtial EX, Plus, DTS-HD
+- Make movies social: share bookmark reviews and live comments
+- Includes TrueTheater Stabilizer and Noise Reduction
+
+
+Available Languages:
+
+English, Chinese Traditional, Japanese, Spanish, Korean, Chinese Simplified, German, French, Italian and Russian
+
+
+PreActivated Recompressed Setup:
+
+- Installs the Mark II Ultra Version, pre-activated & pre-registered
+- The MoovieLive, Remix and Comment features are disabled by default
+- Sets the cursor hide time in Full Screen to 1 second (default = 3)
+
+-----------------------------------------------------------------------------------
+
+Changelog build 2113 (2010-09-14):
+
+- adds side by side 3D video playback support. 
+- adds over/under 3D video playback support. 
+- adds Fujifilm FinePix REAL 3D W1 recorded 3D video playback support. 
+- adds NVIDIA GTX 460 graphics card HDMI 1.3a bit-stream lossless pass-through support. (*) 
+- adds NVIDIA GTX 460 HDMI 1.4 support. 
+- adds an improved 3D configuration page. 
+
+* To support NVIDIA GTX460 HDMI 1.4 and HDMI 1.3a bit-stream lossless pass-through audio support Users must install 260.63 beta driver. End users need visit ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œNVIDIA Beta and Archived DriversÃƒÂ¢Ã¢â€šÂ¬Ã‚Â site to download this beta driver. 
+
+NVIDIA 32bit R260 driver download link: 
+http://www.nvidia.com/object/win7-winvista-32bit-260.63-beta-driver.html 
+
+NVIDIA 64bit R260 driver download link: 
+http://www.nvidia.com/object/win7-winvista-64bit-260.63-beta-driver.html
+
+-----------------------------------------------------------------------------------
+
+Install: Just run Setup.exe and you are done, it's registered and activated.
+
+Note: You can update all my releases, the only con is that it will ask to register.
+Just enter a phony name + email address, and the reminder won't popup anymore.
+
+Updates: http://www.cyberlink.com/downloads/support/powerdvd/patches_en_US.html
+
+This version is not compatible with the PowerDVD 10 Mark II Skinpack!!
+
+
+================================
+:: Tweak Pack for PowerDVD 10 ::
+================================
+
+Blu-Ray_Region_Reset.bat:         Resets the Blu-Ray region settings
+Disable_BD_Mouse_Pop-up.bat:      Disables the Blu-Ray disk Mouse support Pop-up
+Enable/Disable_3DFeature.bat:     Enables/Disables the 3D Feature
+Enable/Disable_MoovieLive.bat:    Enables/Disables MoovieLive, Remix + Comments
+Enable/Disable_CinemaMode.bat:    Enables/Disables the Cinema Mode
+Enable/Disable_CLFLVSplitter.bat: Enables/Disables the FLV Splitter *
+Reset_HD_Dailog.bat:              Resets the High-Definition Content dialog **
+Remove/Restore_StartupApps.bat:   Removes/Restores the Startup Applications ***
+Enable/Disable_Toolbar.bat:       Enables/Disables the PowerDVD Toolbar
+Enable/Disable_Upgrade.bat:       Enables/Disables the Upgrade Popups and Buttons
+
+
+*    CLFLVSplitter.ax can cause a crash when you play flv videos in Windows Media
+     Player. Disable_CLFLVSplitter.bat unregisters the FLV Splitter, which fixes
+     the problem
+
+**   This comes in handy if you selected "Don't ask me this question again" and 
+     want to re-enable or disable TrueTheater Lightning and Smart De-interlace
+     when playing High-Definition content
+
+***  Enables/Disables BDRegion and RemoteControl10 from running at startup.
+     Don't disable them if you're planning to use a remote to control PowerDVD!
+
+
+Cheers,
+
+ADHDerby

@@ -1,0 +1,120 @@
+User Type,Username,Date,Text
+,spotshot,2010-10-08T06:06Z,"question - victory144  - does this already contain the Modified HTML Code that 10.0 had.
+to keep your homepage from changing.
+or can I use the previous modified code.
+
+thanks
+DriverPack has saved an incredible amount of time not having to hunt down drivers"
+[T],victory144,2010-10-09T03:32Z,"Have not tested this version yet.
+
+You can backup and try the old modified files.
+
+Good luck..."
+,1TWISTED,2010-10-09T13:13Z,"thanks,.. nice job,.. well done,.. ; )"
+,seeder08,2010-10-13T03:16Z,"@ victory
+thank you again! 
+why is it the file size is smaller than the previous version?"
+,crizsha,2010-10-13T16:29Z,thx for the up..could u uplod a new SamDrivers v10.10.1 plz appriciated ur hardwork
+,asperi,2010-10-15T00:24Z,"how dose this work if i burn this to dvd then stick it in my laptop that has no drivers for the laptop on the hdd it search its program and install all the drivers for my laptop then i could install windows xp 
+is this how it works i need to no soon"
+,badpnt0,2010-10-15T17:15Z,"This version(based on R145) is a significant improvement over the previous version(based on R130) but it still lags behind even though
+most old driverpacks(2008/2009) were updated to August 2010.
+http://code.google.com/p/driverpacksolution/source/list
+
+
+It's a shame that R130 was here for so long while R145 was made on Feb 05, 2010.
+
+I tried to contact victory144 but I never got a response.
+
+I suggest using SamDrivers 10.10.1(1st October 2010) which includes the latest DriverPack Solution 10 R149 and have all driverpacks updated.
+A friend of mine uploaded this torrent here but that got got him banned and his torrent was removed. I have the torrent but I can't post the link to it in the comments.
+
+Note1: ""SamDrivers 10.30"" stands for ""30th October"". It actually was released in 2009.
+Note2: ""DriverPack Solution 10.6"" stands for ""June 2010"".
+Note3: If you would check out the R130 from the SVN(http://code.google.com/p/driverpacksolution/wiki/SVNbasics), you would find that this version works with Internet Explorer 6, doesn't change the homepage
+and find more drivers."
+,badpnt0,2010-10-15T17:24Z,"Here is the torrent for SamDrivers 10.10.1 which has the autorun menu translated in English.
+The link is:
+www_tediafire_com/?zom7a0qjlblgz7n (replace ""_"" with ""."", ""tedia""  with ""media"", and ""???"" with ""com"").
+I guess someone with a ""trusted"" badge should upload it to TPB to avoid risking being banned."
+,badpnt0,2010-10-15T17:41Z,Regarding the note3. My point is the unmodified R130 doesn't have the undesirable behavior but victory144 might not be aware of this. This is why he tried to fix it himself.
+,tricycle515,2010-10-16T20:22Z,"waste of download-
+gives a startup error that is NOT resolved in its
+own forums,
+program can't run."
+,badpnt0,2010-10-16T23:17Z,"Are you referring to the script error on the 238th line?
+
+As I said earlier, that version required Internet Explorer 8 and won't work with Internet Explorer 6.
+
+DriverPack Solution(the complete package), which is available on the official website of the program, is rather conservative as far as the version of the program and driverpacks go. 
+
+There are other parties who pairs the latest software with the latest driverpacks together and release it as a complete package.
+Keep in mind that the driverpacks and the software are made by different teams.
+Most driverpack are made by the team at http://driverpacks.net.
+SamLab(a person) makes driverpacks and pairs them with the latest software. The whole package is called ""SamDrivers""."
+,yrekadude,2010-10-21T10:53Z,I downloaded this and tested it on clean install of my computer (after I created a backup image) and it installed drivers in languages I couldnt read. Unfortunately I had to make a coaster out of the disk.
+,badpnt0,2010-10-21T13:50Z,"Which driverpacks?
+
+Everyone, who is involved in making driverpacks, is making sure that drivers have English interface. Most driverpacks are made in the English-speaking community(http://driverpacks.net). SamLab is also sticking with English-language drivers."
+[T],victory144,2010-10-22T05:23Z,"2 ""yrekadude""
+
+That is common in some sound drivers, likes Realtek ones.
+
+This program sometime install base sound driver (Usually in Russian) just to recognize the specific driver.....
+
+ Then, when you run the program again, check for Install Driver it will replace the old driver (Russian's characters one) with the required.
+
+So just restart the program, and install Driver again (It will install just required ones).
+
+Remember to use Custom Install and deselect the optional toolbar and home page if you do not need them.
+
+Good Luck... "
+,badpnt0,2010-10-22T08:08Z,"I see. I just noticed that DriverPack Solution 10.6 includes an extra driverpack DP_UAA_wnt5_x86-32_1006.7z which is actually the K888111 hotfix for Russian Windows XP.
+
+This hotfix isn't needed anyway because it is already integrated into drivers. This is why it isn't included in SamDrivers and everywhere else.
+
+Actually DriverPack Solution finds drivers in both Russian and English language but this version of DriverPack Solution has the aggressive driver filtering activated(file ""Tools\config.js"", ""aggressiveDriverFiltering = true"") so only one of drivers is displayed. This is why you have to run the program again. This mode is also enabled in DriverPack Solution R130 and is disabled anywhere else."
+,badpnt0,2010-10-22T08:11Z,The optional toolbar(Yandex bar) for browsers is included only in DriverPack Solution 10.6.
+,badpnt0,2010-11-16T12:12Z,"@ dotuletz2
+No, you understood that backward. Read my first comment and the SVN log.
+I'd put it that way: 
+The R149 is better than this 10.6(which is based on R145) and 10.6 is better than R130.
+
+The R149 doesn't have any of the issues I mentioned.
+
+Anyway, a new version of SamDrivers(which is using DriverPack Solution 10 R150) is due to be released in a week or so. Also I was able to contact victory144."
+,Flopis,2010-11-18T14:25Z,"It runs well the first time after installation, but never allow the update of the driver data base, or it asks you to register and stops working."
+,deejay4angels,2010-11-26T01:11Z,"What to register, Flopis?!?
+""DriverPack Solution is open source software and itâs distributed freely under the GNU GPL license. This means everyone can customize the program making it even better!"""
+,vladaservis2,2011-01-14T19:32Z,"victory144,Thank you for this!God blass you!!!!!"
+,principlemajor,2011-02-12T11:10Z,"Please seed for others to benefit from this also.
+"
+,xxxyyyzzzus,2011-02-19T15:06Z,"Dear Victory144
+  I have a dell inspiron 1545 and have installed windows 2003 R2. I have been struggling to install proper drivers for network & Audio drivers. The other drivers seem to work fine. Though I have installed the above drivers (Network and audio)...computer browser service seems to go  off every now and then and I cannot access anyother machine in the wireless network. Similarly my audio goes off very now and then. I have to start the computer browser every time. Similarly I have to reinstall the IDT audio driver everytime. Any pointers or help by yourself or anybody in this forum will be highly appreciated...
+Cheers"
+,xxxyyyzzzus,2011-02-19T15:10Z,"Dear Victory144
+  I have a dell inspiron 1545 and have installed windows 2003 R2. I have been struggling to install proper drivers for network & Audio drivers. The other drivers seem to work fine. Though I have installed the above drivers (Network and audio) properly ,the computer browser service seems to go  off every now and subsequently  I cannot see/access any other machine/device in my wireless network. Similarly my audio goes off very now and then. I have to start the computer browser every time. Similarly I have to reinstall the IDT audio driver everytime. Any pointers or help by yourself or anybody in this forum will be highly appreciated...
+I also noted that my intenet doesn't work with wireless network alone. My ethernet network seem to work fine...
+Kindly help - somebody..
+Cheers"
+,Ibwaheemi,2011-02-20T22:18Z,"it couldnt find a driver for me and directed me to russian website that keeps changing my homepage to a russian site.
+
+DO NOT INSTALL
+-----------------------
+
+also add yandex.ru to the host file"
+[T],victory144,2011-02-27T07:27Z,"@ xxxyyyzzzus
+
+I think, if you just give a try for the official driver for Windows XP (From Dell Support)... Of course it's just for 32 Bit. 
+
+Good luck..."
+,the.count,2011-03-04T22:50Z,"When using the upgrade driver option after all Drivers had been installed. I got a bsod for Chipset - High Precision Event Timer.
+
+Is the Upgrade option not recommended? Does the software phone home cus I got a f/w alert - MS HTML Application Host needs TCP access to connect to remote server..
+
+More Details would be highly appreciated.
+
+Thanks for the up! Great Job :)"
+,Aledd,2011-03-13T18:14Z,Does this actually work and is it any good? :)
+,keimo93,2011-03-22T16:10Z,"fucked up my computer. started normally but then screen went black.
+I had to reInstall computer."

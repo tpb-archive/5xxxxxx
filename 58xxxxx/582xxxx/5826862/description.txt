@@ -1,0 +1,120 @@
+Windows Vista Business Service Pack 2 x64 (64 Bit) All Windows Updates Integrated Up Too September 2010.
+
+
+
+Windows Vista
+
+Windows Vista is an operating system released in several variations developed by Microsoft for use on personal computers, including home and business desktops, laptops, tablet PCs, and media center PCs. Prior to its announcement on July 22, 2005, Windows Vista was known by its codename "Longhorn." Development was completed on November 8, 2006; over the following three months it was released in stages to computer hardware and software manufacturers, business customers, and retail channels. On January 30, 2007, it was released worldwide, and was made available for purchase and download from Microsoft's website. The release of Windows Vista came more than five years after the introduction of its predecessor, Windows XP, the longest time span between successive releases of Microsoft Windows desktop operating systems. It was succeeded by Windows 7 which was released to manufacturing on July 22, 2009, and for the general public on October 22, 2009.
+Windows Vista contains many changes and new features, including an updated graphical user interface and visual style dubbed Aero, a redesigned search function, multimedia tools including Windows DVD Maker, and redesigned networking, audio, print, and display sub-systems. Vista aims to increase the level of communication between machines on a home network, using peer-to-peer technology to simplify sharing files and media between computers and devices. Windows Vista includes version 3.0 of the .NET Framework, allowing software developers to write applications without traditional Windows APIs.
+Microsoft's primary stated objective with Windows Vista has been to improve the state of security in the Windows operating system. One common criticism of Windows XP and its predecessors is their commonly exploited security vulnerabilities and overall susceptibility to malware, viruses and buffer overflows. In light of this, Microsoft chairman Bill Gates announced in early 2002 a company-wide "Trustworthy Computing initiative" which aims to incorporate security work into every aspect of software development at the company. Microsoft stated that it prioritized improving the security of Windows XP and Windows Server 2003 above finishing Windows Vista, thus delaying its completion.
+While these new features and security improvements have garnered positive reviews, Vista has also been the target of much criticism and negative press. Criticism of Windows Vista has targeted its high system requirements, its more restrictive licensing terms, the inclusion of a number of new digital rights management technologies aimed at restricting the copying of protected digital media, lack of compatibility with some pre-Vista hardware and software, and the number of authorization prompts for User Account Control. As a result of these and other issues, Windows Vista had seen initial adoption and satisfaction rates lower than Windows XP. However, with an estimated 330 million Internet users as of January 2009, it had been announced that Vista usage had surpassed Microsoftâ€™s pre-launch two-year-out expectations of achieving 200 million users. At the release of Windows 7 (October 2009), Windows Vista (with approximately 400 million Internet users) was the second most widely used operating system on the Internet with an approximately 18.6% market share, the most widely used being Windows XP with an approximately 63.3% market share. As of the end of May 2010, Windows Vista's market share estimates range from 15.26% to 26.04%.
+Windows Vista is intended to be a technology-based release, to provide a base to include advanced technologies, many of which are related to how the system functions and thus not readily visible to the user. An example is the complete restructuring of the architecture of the audio, print, display, and networking subsystems; although the results of this work are visible to software developers, end-users will only see what appear to be evolutionary changes in the user interface.
+Vista includes technologies such as ReadyBoost and ReadyDrive which employ fast flash memory (located on USB drives and hybrid hard disk drives) to improve system performance by caching commonly used programs and data. This manifests itself in improved battery life on notebook computers as well, since a hybrid drive can be spun down when not in use. Another new technology called SuperFetch utilizes machine learning techniques to analyze usage patterns to allow Windows Vista to make intelligent decisions about what content should be present in system memory at any given time. It uses almost all the extra RAM as disk cache. In conjunction with SuperFetch, an automatic built-in Windows Disk Defragmenter makes sure that those applications are strategically positioned on the hard disk where they can be loaded into memory very quickly with the least amount of physical movement of the hard diskâ€™s read-write heads.
+As part of the redesign of the networking architecture, IPv6 has been fully incorporated into the operating system and a number of performance improvements have been introduced, such as TCP window scaling. Earlier versions of Windows typically needed third-party wireless networking software to work properly, but this is not the case with Vista, which includes more comprehensive wireless networking support.
+For graphics, Vista introduces a new Windows Display Driver Model and a major revision to Direct3D. The new driver model facilitates the new Desktop Window Manager, which provides the tearing-free desktop and special effects that are the cornerstones of Windows Aero. Direct3D 10, developed in conjunction with major graphics card manufacturers, is a new architecture with more advanced shader support, and allows the graphics processing unit to render more complex scenes without assistance from the CPU. It features improved load balancing between CPU and GPU and also optimizes data transfer between them. WDDM also provides video content playback that rivals typical consumer electronics devices. It does this by making it easy to connect to external monitors, providing for protected HD video playback and increasing overall video playback quality. For the first time in Windows, graphics processing unit (GPU) multitasking is possible, enabling users to run more than one GPU-intensive application simultaneously.
+At the core of the operating system, many improvements have been made to the memory manager, process scheduler and I/O scheduler. The Heap Manager implements additional features such as integrity checking in order to improve robustness and defend against buffer overflow security exploits, although this comes at the price of breaking backward compatibility with some legacy applications. A Kernel Transaction Manager has been implemented that enables applications to work with the file system and Registry using atomic transaction operations.
+
+Removed Features:
+
+Features removed from Windows Vista
+Some notable Windows XP features and components have been replaced or removed in Windows Vista, including several shell and Windows Explorer features, multimedia features, networking related functionality, Windows Messenger, NTBackup, the network Messenger Service, HyperTerminal, MSN Explorer, Active Desktop, and the replacement of NetMeeting with Windows Meeting Space. Windows Vista also does not include the Windows XP "Luna" visual theme, or most of the classic color schemes which have been part of Windows since the Windows 3.x era. The "Hardware profiles" startup feature has also been removed, along with support for older motherboard technologies like the EISA bus, APM and Game port support (though on the 32-bit version game port support can be enabled by applying an older driver). IP over FireWire (TCP/IP over IEEE 1394) has been removed as well. The IPX/SPX Protocol has also been removed, although it can be enabled by a third-party plug-in.
+Editions
+
+Windows Vista editions:
+
+Windows Vista ships in eight editions. These are roughly divided into two target markets, consumer and business, with editions varying to cater for specific sub-markets. For consumers, there are four editions, with three available for developed countries. Windows Vista Starter edition is limited to emerging markets. Windows Vista Home Basic is intended for budget users with low needs. Windows Vista Home Premium covers the majority of the consumer market, and contains applications for creating and using multimedia. The home editions cannot join a Windows Server domain. For businesses, there are three editions. Windows Vista Business is specifically designed for small and medium-sized businesses, while Windows Vista Enterprise is only available to customers participating in Microsoft's Software Assurance program. Windows Vista Ultimate contains the complete feature-set of both the Home and Business (combination of both Home Premium and Enterprise) editions, as well as a set of Windows Ultimate Extras, and is aimed at enthusiasts.
+
+All editions except Windows Vista Starter support both 32-bit (x86) and 64-bit (x64) processor architectures.
+In the European Union, Home Basic N and Business N versions are also available. These come without Windows Media Player, due to EU sanctions brought against Microsoft for violating anti-trust laws. Similar sanctions exist in South Korea.
+
+Service Pack 1:
+
+Windows Vista Service Pack 1 (SP1) was released on February 4, 2008, alongside Windows Server 2008 to OEM partners, it was a five-month beta test period. The initial deployment of the service pack caused a number of machines to continually reboot, rendering the machines unusable.[66] This caused Microsoft to temporarily suspend automatic deployment of the service pack until the problem was resolved. The synchronized release date of the two operating systems reflected the merging of the workstation and server kernels back into a single code base for the first time since Windows 2000. MSDN subscribers were able to download SP1 on February 15, 2008. SP1 became available to current Windows Vista users on Windows Update and the Download Center on March 18, 2008.[67][68][69] Initially, the service pack only supported 5 languages - English, French, Spanish, German and Japanese. Support for the remaining 31 languages was released on April 14, 2008.[70]
+
+A whitepaper published by Microsoft near the end of August 2007 outlined the scope and intent of the service pack, identifying three major areas of improvement: reliability and performance, administration experience, and support for newer hardware and standards.
+
+One area of particular note is performance. Areas of improvement include file copy operations, hibernation, logging off on domain-joined machines, JavaScript parsing in Internet Explorer, network file share browsing, Windows Explorer ZIP file handling, and Windows Disk Defragmenter. The ability to choose individual drives to defragment is being reintroduced as well.
+
+Service Pack 1 Introduced support for some new hardware and software standards, notably the exFAT file system, 802.11n wireless networking, IPv6 over VPN connections, and the Secure Socket Tunneling Protocol. Booting a system using Extensible Firmware Interface on x64 systems was also introduced; this feature had originally been slated for the initial release of Vista but was delayed due to a lack of compatible hardware at the time.
+Two areas have seen changes in SP1 that have come as the result of concerns from software vendors. One of these is desktop search; users will be able to change the default desktop search program to one provided by a third party instead of the Microsoft desktop search program that comes with Windows Vista, and desktop search programs will be able to seamlessly tie in their services into the operating system. These changes come in part due to complaints from Google, whose Google Desktop Search application was hindered by the presence of Vista's built-in desktop search. In June 2007, Google claimed that the changes being introduced for SP1 "are a step in the right direction, but they should be improved further to give consumers greater access to alternate desktop search providers". The other area of note is a set of new security APIs being introduced for the benefit of antivirus software that currently relies on the unsupported practice of patching the kernel (see Kernel Patch Protection).
+
+An update to DirectX 10, named DirectX 10.1, marked mandatory several features which were previously optional in Direct3D 10 hardware. Graphics cards will be required to support DirectX 10.1. SP1 includes a kernel (6001) that matches the version shipped with Windows Server 2008.
+The Group Policy Management Console (GPMC) was replaced by the Group Policy Object Editor. An updated downloadable version of the Group Policy Management Console was released soon after the service pack.
+
+SP1 enables support for hotpatching, a reboot-reduction servicing technology designed to maximize uptime. It works by allowing Windows components to be updated (or "patched") while they are still in use by a running process. Hotpatch-enabled update packages are installed via the same methods as traditional update packages, and will not trigger a system reboot.
+
+Service Pack 2:
+
+Service Pack 2 for Windows Vista was released to manufacturing on April 28, 2009, and released to Microsoft Download Center and Windows Update on May 26, 2009. In addition to a number of security and other fixes, a number of new features have been added. However, it did not include Internet Explorer 8:
+Windows Search 4.0 (currently available for SP1 systems as a standalone update)
+Feature Pack for Wireless adds support for Bluetooth 2.1
+Windows Feature Pack for Storage enables the data recording onto Blu-ray media
+Windows Connect Now (WCN) to simplify Wi-Fi configuration
+Improved support for resuming with active Wi-Fi connections
+Enables the exFAT file system to support UTC timestamps, which allows correct file synchronisation across time zones
+Support for ICCD/CCID smart cards
+Support for VIA 64-bit CPUs
+Improves audio and video performance for streaming high-definition content
+Improves Windows Media Center (WMC) in content protection for TV
+Provides an improved power management policy that is up to 10% more efficient than the original in some configurations
+Windows Vista and Windows Server 2008 share a single service pack binary, reflecting the fact that their code bases were joined with the release of Server 2008. Service Pack 2 is not a cumulative update meaning that Service Pack 1 must be installed first.
+
+Platform Update:
+
+The Platform Update for Windows Vista was released on October 27, 2009. It includes major new components that shipped with Windows 7, as well as updated runtime libraries. It requires Service Pack 2 of Windows Vista or Windows Server 2008 and is on Windows Update as a Recommended download.
+The Platform Update allows application developers to target both Windows Vista and Windows 7. It consists of the following components:
+Windows Graphics runtime: Direct2D, DirectWrite, Direct3D 11, DXGI 1.1, and WARP;
+Updates to Windows Imaging Component;
+Updates to XPS Print API, XPS Document API and XPS Rasterization Service;
+Windows Automation API (updates to MSAA and UI Automation); (will also be available on Windows XP)
+Windows Portable Devices Platform; (adds support for MTP over Bluetooth and MTP Device Services)
+Windows Ribbon API;
+Animation Manager Library.
+Some updates will also be available as separate releases for both Windows XP and Windows Vista:
+Windows Management Framework: Windows PowerShell 2.0, Windows Remote Management 2.0, BITS 4.0
+Remote Desktop Connection 7.0 (RDP7) client;
+Although extensive, the Platform Update does not bring Windows Vista to the level of features and performance offered by Windows 7. For example, even though DXGI 1.1 update introduces support for hardware 2D acceleration featured by WDDM 1.1 video drivers, only Direct2D and DirectWrite will employ it and GDI/GDI+ will continue to rely on software rendering.  Also, even though Direct3D 11 runtime will be able to run on D3D9-class hardware and WDDM drivers using "feature levels" first introduced in Direct3D 10.1, Desktop Windows Manager has not been updated to use either Direct3D 10.1 or WARP software rasterizer.
+
+--------------------------------------------------------------------------------
+
+Windows Vista System Requirements (Vista Capable)
+Processor:  800 MHz
+Memory:  512 MB
+Graphics Card:  DirectX 9.0 capable
+Graphics Memory:  32 MB
+HDD Capacity:  20 GB
+HDD Free Space:  15 GB
+Other Drives:  DVD-ROM
+
+--------------------------------------------------------------------------------
+
+Windows Vista System Requirements (Vista Premium Ready)
+Processor:  1 GHz
+Memory:  1 GB
+Graphics Card:  DirectX 9.0 capable and WDDM 1.0 driver support
+Graphics Memory:  128 MB
+HDD Capacity:  40 GB
+HDD Free Space:  15 GB
+Other Drives:  DVD-ROM
+
+--------------------------------------------------------------------------------
+
+Physical Memory (RAM) Limits In 32-bit Windows
+
+Windows Vista Ultimate: 4 GB
+Windows Vista Enterprise: 4 GB
+Windows Vista Business: 4 GB
+Windows Vista Home Premium: 4 GB
+Windows Vista Home Basic: 4 GB
+Windows Vista Starter: 1 GB
+
+--------------------------------------------------------------------------------
+
+Physical Memory (RAM) Limit in 64-bit Windows
+
+Windows Vista Ultimate: 128 GB
+Windows Vista Enterprise: 128 GB
+Windows Vista Business: 128 GB
+Windows Vista Home Premium: 16 GB
+Windows Vista Home Basic: 8 GB
+Windows Vista Starter: N/A

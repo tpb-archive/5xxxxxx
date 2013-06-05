@@ -1,0 +1,20 @@
++--------------+
+| DESCRIPTION: |
++--------------+
+
+This tool for PC allows you to install PSN content in your PS3, without PSN access, 
+creating the folder structure and files needed for it.
+
+It's necessary to have write access to the PS3 hard disk.
+
+
++--------+
+| STEPS: |
++--------+
+
+1. Drag the .pkg file you want to install onto the application executable.
+2. If everything went ok, a folder called "00000xxx" (xxx is a random number) should be created.
+3. Copy the .pkg file inside the folder.
+4. Copy the entire folder in your PS3 into "/dev_hdd0/vsh/task"
+5. Reboot your PS3 (without the jailbreak) and the package should appear in the GAME menu,
+   ready to be installed.

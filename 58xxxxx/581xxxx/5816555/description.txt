@@ -1,0 +1,26 @@
+ http://www.hiew.ru/
+
+Basically HIEW (Hacker`s view) is a hex viewer for those who need change some bytes in the code (usually 7xh to 0EBh). Also includes tools for: detailed dump of OMF/COFF object files and libraries, detailed dump of NE/LE/LX/PE/ELF executables, splitting and joining dual executables. Hiew is able to view unlimited length files in text/hex modes and in Pentium(R) Pro disassembler mode. Here are some key features of "Hiew":
+
+Â· view and edit files of any length in text, hex, and decode modes 
+Â· x86-64 disassembler & assembler Â· physical & logical drive view & edit 
+Â· support for NE, LE, LX, PE, PE32+ and little-endian ELF executable formats 
+Â· support for Netware Loadable Modules like NLM, DSK, LAN,... 
+Â· following direct call/jmp instructions in any executable file with one touch 
+Â· pattern search in disassembler 
+Â· built-in simple 64bit decrypt/crypt system 
+Â· built-in powerful 64bit calculator 
+Â· block operations: read, write, fill, copy, move, insert, delete, crypt 
+Â· multifile search and replace 
+Â· keyboard macros Â· unicode support 
+Â· Hiew Extrenal Module (HEM) support Limitations for the DEMO version: 
+Â· file size is limited to 150000 bytes 
+Â· no 64bit dis/assembler 
+Â· no ini-file processing 
+Â· no ordinal names 
+Â· no loading/storing keyboard macros in file 
+Â· no loading/storing crypt scripts in file 
+Â· crypt 32bit 
+Â· no progress bar 
+Â· no unicode support 
+Â· no HEM (Hiew External Module) support 

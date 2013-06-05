@@ -1,0 +1,47 @@
+-------------------------eZe bootable USB v0.0.0.2 By Orbit30----------------------
+
+
+Info: 
+=====
+
+Create bootable USB drives to install Windows from USB.
+Detects available assign letters, File system, Volume lable, USB total size/total size available, auto detects USB.
+
+Operating system:
+=================
+
+Windows 7, Windows Vista, Windows Server.
+
+Platform:
+=========
+32Bit - 64Bit
+
+Build: 0.0.0.2
+
+Default Mode:
+=============
+Quick Format NTFS, Bootable, assigns next available drive letter.
+
+Advanced:
+=========
+1: Extract ISO image directly to USB
+2: Copy setup files to USB.
+3: Quick Format
+4: Force dismount
+5: None Bootable option
+6: NTFS or FAT32 Format
+7: Assign drive letter
+8: Volume label
+
+Changelog v0.0.0.2:
+------------------
+Fixed Default Format mode
+Fixed Default Volume label mode
+
+Next version will have support for XP too,it was said by him in Demonoid.
+
+Orbit30 2010 :)
+
+This was actually released by Orbit30,all credits goes to him.
+
+Anyways please help me to seed this torrent guys.

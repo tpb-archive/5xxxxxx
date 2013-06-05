@@ -1,0 +1,116 @@
+We have a new version of our Minecraft client wrapper with speed, flying and noclip hacks.
+Version 1.5.9 works with Minecraft 0.30
+ABOUT
+This WoM edition external Minecraft client wrapper allows you to perform special actions that aren't normally available in the web based client and doesn't require a browser to be loaded while you play.
+NOTE:
+AS PER THE MINECRAFT DISTRIBUTION POLICY: This package does not contain the original client code "minecraft.jar" which is copyright and the intellectual property of Mojang Specifications. We do not have the right to package this file and distribute it to you, so you will need to download this component from the official minecraft website and place it into the lib folder of the extracted custom client wrapper package yourself. It's URL is: https://s3.amazonaws.com/MinecraftDownload/classic/minecraft.jar
+INSTRUCTIONS
+To start up the game, simply download our client wrapper package below, extract it, put the official minecraft.jar (which you downloaded from the official site as per the above notice) into the lib folder and then execute run.bat. The external client application will prompt you for your login details and then allow you to select from the available servers, or enter your own server link to connect.
+USAGE
+When the client application completes loading you will be able to access the following special functions: Keys W A S D - movement keys as normal. Z - press to toggle on/off fly mode. X - noclip mode while held down. Q E - up and down when in fly mode. Shift - Turn on 5x speed while held down. Ctrl - Turn on 2x speed while held down. Noclip mode Hold down the X key while moving/flying to go through solid objects or outside the normal map boundaries. If you release the button while inside solid block or outside the map, you will get stuck. Simply hold down again to continue moving.
+TROUBLESHOOTING
+Note there's a troubleshooting comment directly below this post. Read it and follow it's instructions. If you still have problems after reading it, do not comment them in this thread as it will get long and unwieldy. Instead, start a new thread in the Support forum. Just to be clear: Any help/support requests in this forum will be ignored! Praise, critiques, suggestions etc are more than welcome here however. 
+
+
+Troubleshooting
+
+Most problems that people have are due to one or more of the following reasons:
+Windows troubleshooting
+If
+
+You see an error message like:
+
+Could not find the main class: Main.  Program will exit.
+========================================
+Warning: lib\minecraft.jar not found.
+Did you read instructions / download it?
+========================================
+
+Then
+
+You didn't read the instructions, and download then install the minecraft.jar file.
+To fix
+
+Go back to the instructions, download minecraft.jar as instructed and place it in the correct directory.
+If
+
+You see an error like:
+
+ERROR: 32-bit Java 6 not found!
+Please download and install from java.com
+
+Then
+
+You do not have the correct version of java installed, or it cannot be found automatically.
+To fix
+
+This needs 32 bit Java 6. You need to download and install it from: http://java.sun.com/javase/downloads
+Look for the file labeled: "Java SE Runtime Environment (JRE)", click the download button.
+Select "Platform: Windows" from the next download page that appears (note: Do not select 64 bit or Itanium versions, these will not run the wrapper)
+Download it, install it.
+
+If after installing the correct version, or if it is installed but cannot be found automatically due to it being in a non-standard location, open the run.bat in a text editor and change the line that reads:
+
+set JAVA6="auto"
+
+to read
+
+set JAVA6="C:\MyPath\bin\java.exe"
+
+(change "C:\MyPath" to your actual java installation's path)
+Mac OSX Troubleshooting
+If
+
+You see an error like:
+
+-bash: ./minecraft-osx.sh: Permission denied
+
+Then
+
+The minecraft-osx.sh file does not have execute permission.
+To fix
+
+Run the following command:
+
+chmod +x minecraft-osx.sh
+
+If
+
+You see an error like:
+
+./minecraft-osx.sh: line 12: /System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/bin/java: No such file or directory
+
+Then
+
+Your mac doesn't have the Java 6 interpreter installed.
+To fix
+
+You need at least OS 10.5 with the Java 6 packs applied (if you apply system updates, you should have this, otherwise look for the Java 6 downloads from the Apple site.
+If
+
+You see an error like:
+
+Exception in thread "main" java.lang.NoClassDefFoundError: com/mojang/minecraft/MinecraftApplet
+
+Then
+
+You didn't read the instructions, and download then install the minecraft.jar file.
+To fix
+
+Go back to the instructions, download minecraft.jar as instructed and place it in the correct directory.
+Linux Troubleshooting
+Running under linux
+
+You will need to modify the minecraft-osx.sh file to point to your local java interpreter.
+Focus / mouse clicking issues
+
+There can be some weird interactions between the windows managers and the java windows that make java think it has lost focus whenever you click. Very rarely this may not happen on some combinations of linux+distro+x11+wm, but for most linux users, this will be a problem. In this case you may want to take a look at the Don't lose focus hack, which may solve this problem for you.
+/dev/input/event ownership problems
+
+If you see an error like:
+
+Failed to open device (/dev/input/event0): Failed to open device /dev/input/event0 (13)
+
+This means that the current user doesn't have permission to access the direct input devices.
+
+sudo chmod go=u /dev/input/event*

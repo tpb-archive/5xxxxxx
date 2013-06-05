@@ -1,0 +1,46 @@
+N2KMaster Page Blaster Version 2.0 Beta
+---------------------------------------
+
+Version 2.0 fixes
+=================
+
+- Panic Switch installed.
+
+- If you know how many proxies are in your list you can change the proxies used here. The proxy list file requires to have a total number of proxies at the beginning of the list.
+
+- Now handles up to 999,999 proxies
+
+- Quit Button Installed
+
+- Graphic Interface added
+
+- More cut and dry than before.
+
+What it does:
+=============
+
+A lot of the fake hits generators out there don't show up on the live maps and other little widgets on the website. They do show in webalizer, however no one pays for webalizer (unfortunately). This blasts the entire page and loads everything. Instead of being just pinged or http requested. This hits EVERYTHING on the page, live maps, any of the proxies that allow javascript thru, will show up with this.
+
+How does it work:
+=================
+* - Proxylist.txt - theres a number at the top, then a list of proxy : port format list. That first number is the amount of proxies in the list, the rest are proxies, as long as you know how many are in the list that number can be changed from 1 to 999,999.
+PageBlaster.exe -  It uses these proxies in Internet Explorer to fully load the page desired. One at a time, at a timed interval (to allow for slow proxies/popups etc), then ends the process manually and then repeats with a new ip address and port and reloads the entire page until the desired amount of hits are sent.
+
+
+* - Had to add info on that, few people got confused
+
+Is it safe?:
+============
+AVG Full and Avast Full both report clean, Kapersky will class it clean, the very worst would be a false positive cuz it changes the Internet Explorer proxy settings. Nothing more.
+
+Is it legal?:
+=============
+Do I care?
+
+Any flaws left?:
+================
+1 that i know of. It doesnt reset the proxy settings for Internet Explorer when its done, you'll have to do that in Internet Explorer's Settings.
+
+Who made it?:
+=============
+As it says on the label, N2KMaster built, sponsored by Click-Me.org

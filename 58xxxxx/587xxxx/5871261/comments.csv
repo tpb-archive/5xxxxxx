@@ -1,0 +1,44 @@
+User Type,Username,Date,Text
+,Parcero,2010-10-11T03:23Z,"Hola,
+
+this Software works really good.
+No Virus and no Treats. But, my question
+is That i hear something about that the
+Company DISKEEPER is spying our
+Computers with this Software.
+Someone can tell me Something about this?
+
+Thank you very much
+
+Parcero"
+,arhhh,2010-10-16T17:14Z,I got virus varnings from this
+,eibobo,2010-11-04T18:38Z,"Can you guys analyze the fragments of each drive? It seems for me that I can go into the software, but could not manually defrag the drives.."
+,jersson,2010-11-08T15:47Z,"This works fantastic, Thank's, nice job"
+,ralter,2010-12-13T12:58Z,I'm getting virus warnings as well. Can anyone confirm this is clean?
+,tamara4king,2010-12-26T05:01Z,"@Parcero - I did notice that each time you restart your PC or restart the diskeeper service, an HTTPS diskeeper site is contacted as shown by TCPView.  You can block this in firewall, use IPSec or set the diskeeper site(s) in your HOSTS to 127.0.0.1 to stop diskeeper from phoning home.
+"
+,tamara4king,2010-12-26T05:03Z,"@Parcero - I did notice that each time you restart your PC or restart the diskeeper service, an HTTPS diskeeper site is contacted as shown by TCPView.  You can block this in firewall, use IPSec or set the diskeeper site(s) in your HOSTS to 127.0.0.1 to stop diskeeper from phoning home."
+,TheMafia,2011-01-14T18:53Z,"The following files have been added to the system: 
+
+â€¢%TEMP%\662671
+â€¢%TEMP%\~662671
+â€¢%TEMP%\~662671r
+â€¢%USERPROFILE%\Local Settings\Application Data\GDIPFONTCACHEV1.DAT
+â€¢%USERPROFILE%\Desktop\HDD Low.lnk
+â€¢%USERPROFILE%\Start Menu\Programs\HDD Low\HDD Low.lnk
+â€¢%USERPROFILE%\Start Menu\Programs\HDD Low\Uninstall HDD Low.lnk
+
+
+ The following registry elements have been changed: 
+
+â€¢HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\INTERNET EXPLORER\MAIN\USE FORMSUGGEST = Yes
+â€¢HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\WARNONZONECROSSING = 0
+â€¢HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\INTERNET SETTINGS\ZONES\3\1601 = 0
+â€¢HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN\662671 = %TEMP%\662671.exe
+
+
+ The applications attempted the following network connection(s): 
+
+â€¢hxxp://findhate.org/dfrg/****
+â€¢91.200.242.**:80
+â€¢95.169.190.***:80"

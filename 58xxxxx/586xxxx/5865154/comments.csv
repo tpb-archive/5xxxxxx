@@ -1,0 +1,25 @@
+User Type,Username,Date,Text
+,chrisstar,2011-01-27T21:43Z,"Hi, have downloaded this but cant get the crack to work. Keygen seems to work fine. Where do I need to paste the Keyshot2 file to, the only place I can find to place it is in the Applications folder, but the file type and size is different to the one it replaces and it doesnt work. If anyone has any ideas I would be massively grateful! Thanks in advance.  "
+,jacquelinne,2011-02-14T17:39Z,"Seems like I got it working, needs some manual work and tricks:
+
+After the download is ready, you have app. 40 zip files under the main folder, unzip them. The unzipped folders are named something like xks21c[01-40].
+Every folder contains 3 files, *.diz, *.nfo and xfks21osx64.r[01-40].
+Move all the r.xxx -files to folder ""xks21c01"", there should be a file named xfks21osx64.rar.
+Unrar that file after all the 40 files are copied to the same folder, now it should work and you'll find a file called KeyShot_mac64_2.1.20.pkg,
+click on it and installation goes fine."
+,Sheeds,2011-02-28T21:36Z,"I'm having the same problem as chrisstar, does anyone know where to put the ""keyshot2"" file that's in the crack folder? I've already unziped everything and that worked fine."
+,Sheeds,2011-03-01T17:46Z,"Nevermind, if you right click on Keyshot after installing it and selecting ""show contents"" you'll find the directory."
+,chugaze,2011-03-03T22:43Z,"Thanks for the torrent, but I'm still having some trouble using this program.. 
+
+I did the same as jacquelinne, but after installing and replacing the keyshot2 file from the crack with the one installed, I tried to open the keyshot application but got the error message from the finder saying that I can't ""open the application keyshot2 because it is not supported on this type of mac"". However I checked the system requirements for running keyshot2 and I should have no problems. ( My mac is version 10.6.6, 2 GHz Intel core duo, 2 GB memory and 50 gig free space).
+
+Does anyone have the same problem as me , and maybe knows how to solve it ?"
+,ESMP,2011-05-25T22:37Z,"For all those having problems installing...
+
+Once you install Keyshot, go to the application, right-click on the app and select ""Show Package Contents"" then go to the folder:
+
+Contents -->Mac OS
+
+There, you should replace the keyshot2 file and the generated license key... (I don't know if copying the license is necessary, but do it anyways)
+
+Cheers."

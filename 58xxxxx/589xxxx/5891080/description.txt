@@ -1,0 +1,138 @@
+*** 2-pass encoding for PC, PS3 or Xbox . ***
+*** Video is H264; audio is AAC LC and container is MP4. ***
+
+Subtitles: external, Czech, German, English, Spanish, Finnish, French, Hungarian, Dutch, Portuguese, Romanian
+
+"Home" of my torrents (for Bookmark/Favorites in your browser) 
+http://thepiratebay.org/user/twentyforty
+
+I am disillusioned enough to know that no man's opinion on any subject
+is worth a damn unless backed up with enough genuine information to
+make him really know what he's talking about. - HP Lovecraft
+
+Requests (or re-seed requests) should be posted in [COMMENTS] section of newest torrents.
+"Out of schedule" shows or pilot-episodes may get uploaded randomly, if circumstances allow (i.e. free slots open up).
+
+Do NOT bother requesting easily available titles. If I haven't encoded something new and current - I have my reasons for that.
+
+Do NOT request movies which have IMDB score lower than 4.4.
+
+Do NOT request inclusion of TV shows in my schedule; that's my call. The removal of some show depends on many factors, however, be sure that shows would be dropped if I spot lack of interest, hungry hard-fisting crowd or too high a number of Hit and Runs. These decisions are my own.
+
+My "regulars" can reach me at twentyforty1@gmail.com
+(put your TPB screen-name in subject-line of e-mail).
+
+NOTE: [lepton] family = frame-size 368/416x-2 (AR) pixels, 
+             16:9 or 2.35:1 aspect ratio
+             ONLY for PC/PS3/Xbox/standalone mp4 capable players. 
+             NOT Handhelds/iPod/PSP/Zune/clones compatible file, however, 
+             some portables accept these format (TIP: upgrade firmware).
+             WATCH from 6-8 ft. distance at low-res settings of display.       
+      272p = frame-size 480x272 pixels, 16:9 aspect ratio, playable on all kinds
+             of MP4 capable devices/players/playback systems
+      320p = frame-size 576x320 pixels, 16:9 aspect ratio, or 576x240 for 2.35:1
+             (movies/theatrical AR)middle-format, playback
+             ONLY on PC/PS3/Xbox/standalone mp4 capable players. 
+             NOT Handhelds/iPod/PSP/Zune/clones compatible file, however, 
+             some portables accept these format (TIP: upgrade firmware).       
+      352p = frame-size 624x352(272) pixels, 16:9(2.35:1) aspect ratio, 
+             playback ONLY on PC/PS3/Xbox/standalone mp4 capable players. 
+             NOT Handhelds/iPod/QuickTime/PSP/Zune/clones compatible file.       
+      360p = frame-size 640x360 pixels, 16:9 aspect ratio, middle-format, playback
+             as for 272p (except streaming)
+      480p = frame-size 720x400 pixels for 16:9 aspect ratio (TV) or 720x304
+             for 2.35:1 (movies/theatrical AR)
+             NOT Handhelds/iPod/QuickTime/PSP/Zune/clones compatible file.       
+      720p = frame-size 1280x720 pixels for 16:9 aspect ratio (TV) or 1280x528-544
+             for 2.35:1 (movies/theatrical AR), hardware intensive
+             NOT Handhelds/iPod/QuickTime/PSP/Zune/clones compatible file.       
+      NAMING RULE: name.source.year/season/episode.frame-format.encoding-type
+      
+NOTE 2: 352p and 480p encodes use new tool-chain and new encoding type.
+        320p, 360p should be considered obsolete.
+        272p would remain because of compatibility with portables, but soon
+        would be abandoned.
+        Practically, ALL "wide-targets formats" would be abandoned, and
+        only PC-PS3-Xbox formats would be encoded.
+        I would like to keep PS3/Xbox/standalones compatibility - therefore, 
+        I need feedback from users of PS3/Xbox and different standalone 
+        MP4 capable players.
+      
+      
+      Most problems people have are with frame-sizes 1280x720 (720p). I recommend 
+      and have used one system for years - CoreAVC for H264 
+      http://thepiratebay.org/torrent/4787782/
+      ("Deblocking" set to "Standard") and part of DivX7-8 for AAC - 
+      AAC DirectShow filter.
+
+      Both are proved perfect, fastest and provide seamless playback up to 1080p 
+      on new generation of computers. Newer NVIDIA graphic cards processors (GPU)
+      decode H264 using dedicated subroutines directly served from CoreAVC 
+      (I have an ATI card, just in case you were wondering).
+      
+      New DivX8 is maybe 18% slower than Core AVC and very common, 
+      and in order to use DivX8 H264 and AAC DS filters outside DivX7 or 8 player 
+      (as in Windows Media Player or Media Player Classic), Haali spliter 
+      must be installed. Beware, however, that video quality could be very much
+      degraded on encodings where extremely low bit-rates have been used.
+      TIP: Switch back and forth between Core AVC and DivX H264 DS filters by marking
+      and un-marking Core AVC "Preferred decoder" setting.
+      
+      Problems one can have may come from either one of the following 
+      and-or a combination of these:  the playback system itself, a 
+      malfunctioning device or lack of knowledge. 
+      
+      For instance, any so called "jerky" playback of "system-heavy" 720p comes
+      from insufficient CPU and graphic engine power or simply - overloaded 
+      computer. Use of ddshow filters and "codecs" is suicidal. This is not 
+      Russian 720p Matroska format ("official" 720p) and completely different 
+      setup is required (extremely high bit-rates of .mkv 720p to some extent
+      "hide" bad encoding style). In low bit-rate H264, such as mine, 
+      those errors and bad technique cannot be hidden and therefore are avoided as 
+      much as possible.
+        
+      Any "blurriness" of video comes from less-than-recommended media player. 
+      VLC  and a few other players are the most versatile and, generally speaking,
+      good - but quality is 10-20% lower.
+      Any "blockiness" comes from "system-too-slow" situation, when
+       decoding engine of ones device become over-capacitated and cannot 
+       process all frames as it supposed to.
+      On "I have no video" and "I have no sound" I don't waste my time as this 
+      is generally a complete lack of knowledge and/or understanding. 
+      RTFM is the best response I can give.
+
+      MP4 is absolutely ISO 14496-1 compliant. There are no B-frames, no CABAC 
+      entropy in 272p and 360p, no strange filtering and no AV weirdness of 
+      any kind.
+
+      Recommended resolution for computers is 1024x768 (no matter frame-size).
+      If you watch on HighDef TV or new HighRes monitor - take a proper watching
+      distance - 6 to 8 ft. (It's a must then, I KNOW how ugly it looks with nose
+      in front of screen).
+      PS3 + HDMI cable + newer TV have been reported as best combination.
+      I am very proud on sound quality and hence I recommend use of stereo system 
+      and proper loudspeakers (connect Line Out of Soundcard or standalones 
+      with Line In of any Stereo rack).
+
+************************************************************************************
+
+You meet people who forget you. You forget people you meet. But sometimes you meet those people you can't forget. Those are your friends.
+
+------------------
+
+Please be aware that the download manager called Flashget, Transmission under v1.9, Xtorrent (any), generally malfunctioning Miro/libtorrent, uTorrent lower than 1.8.3, Azureus/Vuze under v4, KTorrent, BitLord and ANY other "wrong" or hacked/patched/"tweaked"/"with-wrong-settings" torrent-program - can and WILL  get you blocked by me.
+
+I will not be re enabling people if they have been using ANY of the above applications; there is NO discussion on this. Please treat this as the ONLY warning you will get about it!
+
+If you have used it, do yourself a favour and get a NEW and proper torrent program.
+In light of recent events, I have no intention to discuss or listen to someone's comments/complaints such as Oh, but I am used to it. or I have this-or-that settings, this is good program for torrents.
+
+It might be true for you, but that's not what I see day after day.
+Recommended torrent applications are: BitTornado and new uTorrent/BitTorrent!!!
+
+Also, stay AWAY from newly upped torrents, still in the phase of initial-seeding IF you have upload speed below 50kB/s and CANNOT or WILL NOT set UL/DL speeds at 1:1.
+Wait until at LEAST five (5) stable seeds are present.
+If you have a problem with my initial-seeding rule then go elsewhere to source your files.
+
+You have been warned, my torrents therefore my rules. There are a million other sources to go to if you do not like them.
+

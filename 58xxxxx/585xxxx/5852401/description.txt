@@ -1,0 +1,44 @@
+Windows Trust 3 Collector FR
+
+MD5 de l'iso: 555701f588651fd5a6e34d4dc85623c6
+
+[Taille de l'iso: 654 Mo
+Date de sortie: 21 Octobre 2008
+(sont sorties ensuite la v3 maj 23 Mai 2009 et la v4.)
+
+"Contenu:
+[*]Windows Trust 3 Collector (Service Pack 3)
+[*]Windows Trust 3 Collector DriverPacks (Service Pack 3)
+[*]Memtest86+
+[*]Parted Magic
+[*]Acronis True Image Echo Server
+[*]SuperGrub
+[*]Passware Windows Key
+[*]Spinrite
+[*]Dban
+
+
+PrÃ©sentation:
+Ayant pour dessein de vous proposer une base solide reposant sur Windows XP, nous avons dÃ©cidÃ© de mettre Ã  disposition une version remaniÃ©e de Windows Trust 3.
+Ce n'est donc pas une grosse Ã©volution en soit. Cependant, en vous proposant une troisiÃ¨me version globalement mieux finalisÃ©e, il nous sera enfin possible de nous consacrer entiÃ¨rement Ã  l'Ã©volution du projet... Sans regret aucun!
+
+
+Changelog:
+[*] Ajout de divers utilitaires en ligne de commande issus du monde de linux/Windows Server.
+[*] AmÃ©lioration de l'intÃ©gration d'Internet Explorer 7, Windows Media Player 11 et des librairies VC++ 2005/2008 (Un grand merci Ã  Kal).
+[*] AmÃ©lioration du patcheur d'iso concernant les paramÃ¨tres de rÃ©solution.
+[*] Correction d'une petite erreur rendant impossible l'Ã©dition du fichier boot.ini via msconfig.
+[*] Diverses retouches au niveau de l'interface.
+[*] Introduction au Windows Trust Core Codecs (900ko pour la plupart des codecs vidÃ©os/audio).
+[*] L'aso/WTUpdate et l'assistant ont Ã©tÃ© modifiÃ©s de faÃ§on Ã  supporter la prochaine Ã©volution de Windows Trust (On quittera XP).
+[*] L'iso contient un dossier "CREATEISO" compatible avec nlite.
+[*] L'assistant de configuration sera exÃ©cutÃ© par dÃ©faut lors du deuxiÃ¨me dÃ©marrage (DÃ©sactivable).
+[*] Le multiboot comprend dÃ©sormais Spinrite, Passware Windows Key, Dban et SuperGrub.
+[*] Meilleure intÃ©gration des produits Sysinternals.
+[*] PrÃ©activation par dÃ©faut de services supplÃ©mentaires dans le but de dÃ©charger le support.
+[*] Putty fait partie de notre distribution dans le but d'offrir une alternative viable Ã  l'hyperterminal de microsoft.
+[*] Toutes les mises Ã  jour proposÃ©es par WTUpdate sont, bien entendu, intÃ©grÃ©es Ã  l'iso.
+[*] Virtuawin est installable par le biais du WTIS.
+[*] VistaDriveIcon / RocketDock / LClock / Virtual Clone Drive ne sont plus proposÃ©s via le WTIS.
+[*] WTUpdate supporte dÃ©sormais le switch /S dans le cas oÃ¹ vous voudriez programmer une tÃ¢che planifiÃ©e."
+

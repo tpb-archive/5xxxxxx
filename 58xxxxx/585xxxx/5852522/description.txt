@@ -1,0 +1,239 @@
+This is a fully working copy of Halo Reach copyied right from a Halo Reach off the GameStop shelf that i bought. Make sure your ABGX can check wave 6 games. If your ABGX fails you do not have wave 6 support. Here is the ABGX report from when i checked it Enjoy and have fun!:
+
+-------------------------------------------------------------------------------
+\\//\\//\\//\\//\\/Â¦\\//\ \ \/ /+-++-++-+\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+//\\//\\//\\//\Â¦Â¯Â¦\Â¦Â¯Â¦\Â¦Â¯Â¦/ /\ \ -Â¦+-+Â¦ Â¦//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+                       Â¯Â¯Â¯  MOD by AEtH
+
+Checking for updates to abgx360.dat...
+
+* About to connect() toport 80 (#0)
+*   Trying 64.22.123.253... * connected
+* Connected to(64.22.123.253) port 80 (#0)
+> GET /Apps/Stealth360/abgx360.dat HTTP/1.1
+User-Agent: abgx360 v1.0.2 (Windows)
+Host:
+Accept: */*
+If-Modified-Since: Sun, 22 Nov 2009 23:37:57 GMT
+
+< HTTP/1.1 304 Not Modified
+< Date: Sat, 25 Sep 2010 18:56:08 GMT
+< Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/0.9.7a mod_auth_passthroug
+h/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+< ETag: "edcb87-1f4-478f997ee2880"
+< Vary: Accept-Encoding,User-Agent
+< X-Pad: avoid browser bug
+<
+* Connection #0 to hostleft intact
+
+     Server file abgx360.dat no newer than local file - not retrieving
+
+F:\Xbox Games\Halo Reach\Halo Reach.dvd is valid
+
+Checking Game
+     ISO: "F:\Xbox Games\Halo Reach\Halo Reach.iso"
+     Size: 7572881408 bytes (normal size)
+     Game partition offset: 0xFD90000
+     Root sector: 1783935 (0xE99CF800), 2048 bytes
+     default.xex sector: 1777847 (0xE8DEB800), 12468224 bytes
+     Files in ISO: 135, Folders in ISO: 7
+     Total bytes used: 7022280555 (96.21%)
+Game appears to have random padding
+
+Checking default.xex
+     Module Flags:          Title Module
+     Image Flags:           XGD2 Media Only
+                            64 KB Pages
+     System Flags:          Uses Game Voice Channel
+                            Pal50 Incompatible
+                            Allow Access to Both Utility Partitions
+     Title ID:              4D53085B (MS-2139)
+     Ver / Base Ver:        v0.0.0.1 / v0.0.0.1
+     Disc Number:           1 of 1
+     Original PE Filename:  halo3_cache_release.exe
+     Original PE Timestamp: 2010/07/24 09:12:06
+     Allowed Media Types:   DVD-XGD2 (Xbox 360 original disc)
+     Game Ratings:          ESRB:    M (Mature 17+)
+                            PEGI:    16+
+                            PEGI-FI: 15+
+                            PEGI-PT: 16+
+                            BBFC:    16+
+                            CERO:    D (17+)
+                            USK:     18+
+                            OFLC-AU: MA15+
+                            OFLC-NZ: MA15+
+                            FPB:     16+
+     Compression Info:      Uncompressed and Encrypted
+     Title Type:            Full Game Title
+     Dashboard Languages:   English (default)
+                            Japanese
+                            German
+                            French
+                            Spanish
+                            Italian
+                            Korean
+                            Traditional Chinese
+                            Portuguese
+     Game Name:             Halo: Reach
+     Developer:             Bungie Studios
+     Publisher:             Microsoft Game Studios
+     Genre:                 First-Person Shooter
+     Description: From the beginning, you know the end. Halo: Reach. Fall 2010.
+     Avatar Awards:         5 Avatar Awards
+     Achievements:          49 Achievements totaling 1000 Gamerscore
+     XEX CRC = 4BA83208
+     XEX Media ID: D5F8036CA497AFADC59687E1-566C10D3
+
+Region Code: 0xFFFFFFFF
+     Region Free!
+
+Checking SS
+     04FB20h ------- PSN ------> 20339Fh DFCC60h ------- PSN ------> FB04DFh
+     +---------------------------------------------------------------------+
+     Â¦  L0 Data Area = 1783936 sectors  Â¦  L1 Data Area = 1783936 sectors  Â¦
+     +---------------------------------------------------------------------+
+     0x000FD90000 --------> 0x00E99CFFFF 0x00E99D0000 --------> 0x01C360FFFF
+     <----------------- 3567872 sectors (7307001856 bytes) ---------------->
+
+     Timestamp of Authoring: 2010/07/26 00:00:00
+     Timestamp of Mastering: 2010/08/04 22:29:22
+     SS Version: 2 (trusted)
+     ------------------------------------------------------------------------
+     CT RT CID Mod? Pad? Data          CD       Response   Angle Deviation
+     -- -- --  --   --   ------------- -------- ---------- ----- ------------
+     14    A8  00   00                 20AA4603 B3CDEE02
+        03 A8  00        04A9B0 04B9AF 20AA4603 B3CDEE0200
+     15    1B  00   00                 0AB83BA0 16A2B23F
+        01 1B  00        20D7F0 20E7EF 0AB83BA0 16A2B23F00
+     14    5B  00   00                 F1EBFFC9 CE68031D
+        03 5B  00        DF85F0 DF95EF F1EBFFC9 CE68031D00
+     15    97  00   00                 665F0432 4DFD8D2D
+        01 97  00        FB5B70 FB6B6F 665F0432 4DFD8D2D00
+     24    F7  0F   00                 A09EE6D7 A09E0001   1
+        07 F7  00        04A9B0 04B72F A09EE6D7 0100000100
+                         v1 deviation from CCRT            1      0   (00.0%)
+                         v2 deviation from CCRT            1      0   (00.0%)
+                         v1 deviation from v2                     0   (00.0%)
+     25    6F  0F   00                 C6F5AE9B C6F5005B   91
+        05 6F  00        20D7F0 20E56F C6F5AE9B 5B00005B00
+                         v1 deviation from CCRT            91     0   (00.0%)
+                         v2 deviation from CCRT            91     0   (00.0%)
+                         v1 deviation from v2                     0   (00.0%)
+     24    B5  0F   00                 9DF29C68 9DF200B5   181
+        07 B5  00        DF85F0 DF936F 9DF29C68 B50000B500
+                         v1 deviation from CCRT            181    0   (00.0%)
+                         v2 deviation from CCRT            181    0   (00.0%)
+                         v1 deviation from v2                     0   (00.0%)
+     25    71  0F   00                 3CB9F838 3CB9010F   271
+        05 71  00        FB5B70 FB68EF 3CB9F838 0F01000F01
+                         v1 deviation from CCRT            271    0   (00.0%)
+                         v2 deviation from CCRT            271    0   (00.0%)
+                         v1 deviation from v2                     0   (00.0%)
+     01    6B  00   00                 A5CC4523 C32FC439
+        00 6B  00        71C32F CAC439 00000000 0000000000
+     E0    84  00   00                 4F9056A8 2C131504
+        E0 84  00        AA2C13 161504 00000000 0000000000
+     ------------------------------------------------------------------------
+     CPR_MAI: A5CC4523
+     SS CRC = 40ED5281 (RawSS = D5CD4CA3)
+     SS Media ID: D5F8036CA497AFADC59687E1-566C10D3 (matches game)
+SS looks valid
+
+Checking DMI
+     Timestamp of Authoring: 2010/07/26 00:00:00 (matches SS)
+     Catalog Number: MS-2139-01-W0-X11
+     DMI CRC = 795C39AE
+     DMI Media ID: D5F8036CA497AFADC59687E1-566C10D3 (matches game)
+DMI looks valid
+
+Checking PFI
+     030000h ------- PSN ------> 03AD7Fh FC5280h ------- PSN ------> FCFFDFh
+     +---------------------------------------------------------------------+
+     Â¦  L0 Data Area = 0044416 sectors  Â¦  L1 Data Area = 0044384 sectors  Â¦
+     +---------------------------------------------------------------------+
+     0x0000000000 --------> 0x00056BFFFF 0x01CDCE0000 --------> 0x01D338FFFF
+     <----------------- 0088800 sectors (0181862400 bytes) ---------------->
+
+     PFI CRC = 05C6C409
+PFI matches known data (4th, 5th and 6th wave - requires iXtreme v1.51 [Hitachi
+only], v1.6 [using activation disc], v1.61 or later (4th wave), iXtreme LT or
+later (5th and 6th wave)
+
+Video partition found
+     Volume ID: "CD_ROM"
+     Volume space size: 44356 sectors (90841088 bytes)
+     Volume creation date & time: 2009/10/29 17:00:00 (GMT-07:00)
+     Checking Video padding... Video is zero padded
+     Video CRC = E2FA3A26 (V0 = E0363F4E, V1 = EAE76B94)
+Video partition matches known data (6th wave - requires iXtreme v1.51 [Hitachi
+only], v1.6 [using activation disc], iXtreme LT or later)
+
+Stealth check passed! (6th wave)
+
+Starting Verification
+     Looking for 40ED52814BA83208.ini in the online verified database
+
+* Connection #0 seems to be dead!
+* Closing connection #0
+* About to connect() toport 80 (#0)
+*   Trying 64.22.123.253... * connected
+* Connected to(64.22.123.253) port 80 (#0)
+> GET /Apps/verified/40ED52814BA83208.ini HTTP/1.1
+User-Agent: abgx360 v1.0.2 (Windows)
+Host:
+Accept: */*
+If-Modified-Since: Tue, 14 Sep 2010 15:09:08 GMT
+
+< HTTP/1.1 304 Not Modified
+< Date: Sat, 25 Sep 2010 18:56:23 GMT
+< Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/0.9.7a mod_auth_passthroug
+h/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+< ETag: "edc2b6-15b-4903227013e00"
+< Vary: Accept-Encoding,User-Agent
+< X-Pad: avoid browser bug
+<
+* Connection #0 to hostleft intact
+
+     Server file 40ED52814BA83208.ini no newer than local file - not retrieving
+
+     Using 40ED52814BA83208.ini (347 bytes):
+
+[40ED52814BA83208]
+SS=40ED5281
+RawSS=DF853C9E
+PFI=05C6C409
+DMI=795C39AE
+RegionFlags=FFFFFFFF
+V0=E0363F4E
+V1=EAE76B94
+Video=E2FA3A26
+Game=8BEC1F2B
+XexHash=4BA83208
+MediaID=D5F8036CA497AFADC59687E1-566C10D3
+DiscSource=Retail
+GameName=Halo: Reach
+GamerTag=AmyGrrl
+DriveName=TS-H943A
+DriveFW=iXtreme v1.6 0800 standalone
+Notes=Canada [abgx360 v1.0.2]
+
+     Video CRC matches
+     V0    CRC matches
+     V1    CRC matches
+     PFI   CRC matches
+     DMI   CRC matches
+     SS    CRC matches
+     Xex   CRC matches
+
+Checking Game CRC... (press Q to cancel)
+ Percent  Elapsed  Estimated   Time     Average     Current     Errors    Total
+    Done     Time       Time   Left       Speed       Speed  Recovered  Retries
+    100%     4:24       4:24   0:00   26.4 MB/s   27.0 MB/s
+
+     AnyDVD style corruption was not detected
+     Game CRC = 8BEC1F2B (matches)
+
+All CRCs match
+Verification was successful!
+
+Press any key to exit . . .

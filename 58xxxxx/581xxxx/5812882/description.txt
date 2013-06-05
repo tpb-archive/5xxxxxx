@@ -1,0 +1,55 @@
+Format                           : AVI
+Format/Info                      : Audio Video Interleave
+File size                        : 697 MiB
+Duration                         : 1h 37mn
+Overall bit rate                 : 995 Kbps
+Writing application              : VirtualDubMod 1.5.10.2 (build 2540/release)
+Writing library                  : VirtualDubMod build 2540/release
+
+Video
+ID                               : 0
+Format                           : MPEG-4 Visual
+Format profile                   : Advanced Simple@L5
+Format settings, BVOP            : Yes
+Format settings, QPel            : No
+Format settings, GMC             : No warppoints
+Format settings, Matrix          : Default (H.263)
+Codec ID                         : DIVX
+Codec ID/Info                    : Project Mayo
+Codec ID/Hint                    : DivX 4
+Duration                         : 1h 37mn
+Bit rate                         : 874 Kbps
+Width                            : 664 pixels
+Height                           : 392 pixels
+Display aspect ratio             : 1.694
+Frame rate                       : 25.000 fps
+Resolution                       : 8 bits
+Colorimetry                      : 4:2:0
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.134
+Stream size                      : 612 MiB (88%)
+Writing library                  : XviD 1.2.1 (UTC 2008-12-04)
+
+Audio
+ID                               : 1
+Format                           : MPEG Audio
+Format version                   : Version 1
+Format profile                   : Layer 3
+Format_Settings_Mode             : Joint stereo
+Codec ID                         : 55
+Codec ID/Hint                    : MP3
+Duration                         : 1h 37mn
+Bit rate mode                    : Variable
+Bit rate                         : 108 Kbps
+Nominal bit rate                 : 112 Kbps
+Channel(s)                       : 2 channels
+Sampling rate                    : 44.1 KHz
+Stream size                      : 75.9 MiB (11%)
+Alignment                        : Aligned on interleaves
+Interleave, duration             : 26 ms (0.65 video frame)
+Interleave, preload duration     : 485 ms
+Writing library                  : LAME3.98r
+Encoding settings                : -m j -V 4 -q 2 -lowpass 15.6 --abr 112
+
+
+NOTE: English subtitles included ;).

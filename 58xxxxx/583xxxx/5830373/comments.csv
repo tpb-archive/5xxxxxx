@@ -1,0 +1,248 @@
+User Type,Username,Date,Text
+,Bronthion,2010-09-15T12:16Z,"Can't seem to change the resolution for some reason, and game freezes up after a little while"
+,WingsOfDespaireh,2010-09-15T15:37Z,"The serials don't work..
+does anybody have any?
+or an idea how come"
+,JerombaCZ,2010-09-15T18:05Z,"WingsOfDespaireh : read nfo, you must firewall game otherwise it updates and serials don't work"
+,adam1516,2010-09-15T21:58Z,"hhmmm I've added the game to the firewall and it STILL wants to connect. The only way I can get it to work is physically unplug the internet cable - not very practical.
+
+Anyone any suggestions?"
+,FarazSeyedi,2010-09-17T18:01Z,I thought this wasn't coming out before 21.
+,Crunox,2010-09-17T18:20Z,"no offense, but the game doesn't work at ALL. it needs internet to be played. if i unplug my internet and try to launch i get the message ""pat4 has stopped working"".
+
+with internet i get the message ""key is invalid"". soooo...what's next? what do I do now?"
+,Crunox,2010-09-17T18:24Z,doesn't work at ALL. game doesn't launch when I launch it without internet. game doesn't launch with internet because the product key is invalid..what's next?
+,badsector,2010-09-18T04:25Z,"SOLUTION:
+right after the install, the game patches itself to Kalypso Launcher 1.1.1.3.  the serials didn't worked with this version so we need to revert to the old one.
+You can find a dll KalypsoLauncher.dll in the game's directory. the size of this dll is 103k, this is the updated dll.  Mount the disk image and you can find the old dll(size 95k) on it. 
+Copy and overwrite the KalypsoLauncher.dll from the disc to the game directory.
+The serieals now working with this version(1.1.1.0). But, BLOCK THE GAME FROM THE INTERNET, WITH UNPLUG CABLE OR WITH GOOD FIREWALL!! IF YOU DON'T,THE GAME PATCHES ITSELF AGAIN!! (if it happends, do this procedure again)
+(btw good game but its crash frequently, and didnt well optimized, it is stressed my GPU, even with very low graph settings)"
+,D33f,2010-09-18T15:06Z,"Updating this game is higly recommended, as it adds quite a few nice features.
+
+1) Install the game
+2) disable the internet connection for the game. You can do this by going to the advanced settings for the windows firewall, and then add a rule for outgoing connections for the patrician4.exe
+3) run the game and enter one of the serial keys, then exit
+4) download the patch online, i got it from here:
+http://patches.gamersgate.com/patrician_iv_113.exe
+5) when installing, make sure to put it in the right folder! It's wrong by default (patrizier 4 instead of patrician 4)
+
+now you can play the game without any troubles"
+,Kooh,2010-09-18T20:14Z,"Wow thanks D33f, patching the game that way actually worked for me :o"
+,hongsydney,2010-09-20T22:45Z,"D33f  How did u do the update???
+The update 1.3 ask for activate....i got stuck here...can u help???"
+,JesShare,2010-09-21T00:28Z,"I figured out how to patch this without the activation thing. Even if you've used the gamersgate patch that has securom activation, you can just download the retail game patch from another site like brothersoft and install over it.
+
+its whatever patch is less than the 160mb patch from gamersgate. The one that works is like 148mb. You still need to block the internet connection probably - I just installed the patch and ran the game with my connection disabled."
+,habuki0,2010-09-21T17:50Z,works great thanks :) had to block both incoming/outgoing connections on my firewall so it would work but works a treat now 
+,mamalimankan,2010-09-21T20:24Z,hey can you please supply me with a extra cd key they are not working .... guys i need help im stuck at the cd key part
+,Kooh,2010-09-22T00:14Z,I can't believe people can't even follow simple instructions here. Just unplug your freakin internet cable and reinstall the game if you are too retarded to figure how to use a firewall properly.
+,sonushan,2010-09-22T07:42Z,"hey thnxxx 
+JesShare"
+,stenzxz,2010-09-23T13:32Z,"Just in case... very easy step-by-step ""guide""
+I have Win7, and this worked for me.
+1. Download and install (don't run the game)
+2. Go to Control Panel and open Windows Firewall and select Advanced settings
+3. Go to Outbound rules and press New rule button on the right side
+Rule type: Program; Browse (Patrician IV exe file); Block the connection; make sure that everything is checked and name the rule.ĂÂ´
+Run and enter the serial key
+So far I could run the game, but not after the patching. My suggestion: don't patch."
+,Antiquado,2010-09-25T10:57Z,"For people without firewall software:
+
+1) Create a new text document
+2) name the document: Patrician IV.bat
+3) In the document, type this text:
+ipconfig /release
+C:
+cd\[you install dir - e.g. c:\games\Patrician IV]
+Patrician4.exe
+ipconfig /renew
+4) Double-click Patrician.bat
+
+Whenever you want to play, just double click the Patrician IV.bat - it will disable your Internet while you play Patrician, and enable it again when you are done."
+,deus-ex-nihilo,2010-09-27T16:36Z,"it works also with patch!
+1. install game
+2. disable internet
+3. start game& insert serial
+4. exit game and download the patch from brothersoft (148MB)
+5. apply patch (be sure you install the patch in the correct folder!!!)
+6. play game"
+,Kaupo,2010-09-28T19:47Z,"All works fine for me.
+Only crappy thing is that I can't update to 1.1.3 until it will be cracked.
+You fail all assignments in game even if you do them way b4 time limit if you won't update xd"
+,Mart726,2010-09-28T20:11Z,"I have the problem BEFORE a game gets to the net or to do anything.
+I've installed the game. Blocked it in the firewall. 
+And when I'm starting the game it thinks for a while than gives me this error:
+""Patrician4.exe has encountered a problem and needs to close.  We are sorry for the inconvenience.""
+
+ps. My KalypsoLauncher.dll has 95 kb.
+
+WHAT CAN I DO?"
+,Mart726,2010-09-30T13:04Z,"The game has a problem with iZ3D driver.
+I've excluded the game in the iZ3D driver setting and the game started - at least i get the first ""upgrate"" screen."
+,sharmila123,2010-10-02T19:57Z,"well i have a original Vista Laptop and a XP destop..
+While the patch works on the Vista Laptop it does install on the Destop but when i click the Patrician.exe icon it opens a box giving me a request key to give to the game develpers to get a new serial key
+iN CASE ANYONE HAS GOT THROUGH THE PROBLEM PLEASE COMMENT"
+,MrTTAO,2010-10-03T05:46Z,"first, this really should have had a proper crack, what a half assed release.
+
+Second, the game is v1.0... in v1.0 the game is unplayably buggy, on many system it crashes on launch. The official list of bugs fixed from v1.0 to v1.13 is horrifying.
+
+Therein is the problem. V1.0 will take any serial you input as long as it is blocked from an internet connection, this is done via firewall or disconnecting from the internet. Do not try to edit the hosts file to point it at local host, it will go into an infinite loop and crash.
+it is trying to connect to launcher01.kalypsomedia.com for the interested. I was going to try just pointing it at a junk IP rather then local host... but there is no point in bothering...
+
+why? because as I said, v1.0 is unplayable...
+v1.13 has been linked in this thread, it can be gotten here: http://patches.gamersgate.com/patrician_iv_113.exe
+
+it will NOT take any of the serials provided, whether you are connected to the internet or not, they simply do not work. It demands online activation, but it will not even try (it makes no connection attempts according to fiddler) when you input any of the serials herein (makes sense, they would have included serial bans in the patch).
+
+bottom line... you can try running the v1.0, and deal with the bugs.
+Reviews are mixed, but tending to be low, all say its horribly buggy. There is no demo, and the DRM on the patch stands uncracked... So there is absolutely no way to try this before you buy it, and its probably a turd. Pass"
+,ncrpts,2010-10-04T06:07Z,Any crack yet ?
+,McNuttylol,2010-10-04T23:06Z,so... MRTTAO says you can update it? im kinda confuzzled
+,McNuttylol,2010-10-05T03:37Z,"oh, and WHY IS THIS SO SLOW? IM GETTING 2 KB/S NO MATTER WHAT I DO"
+,McNuttylol,2010-10-05T03:41Z,"soz for the triple post, but i followed those instructions at the bottom of description which i didnt see b4 but its slightly faster now thanks. this is like port royale, right? that was epic game"
+,pepoh,2010-10-05T15:19Z,"with brothersoft patch it works!! 
+thnx for this"
+,MrTTAO,2010-10-06T18:40Z,"@McNuttylol: You can download the patch, you can install the patch, the game just isn't going to work without a legit key once patched. there is no crack currently."
+,shiftygoescrazy,2010-10-06T18:59Z,"Stop uploading Games without decent description how to install.
+
+
+
+Done all things in these comments game still ask Activation"
+,karakalos10,2010-10-10T23:04Z,"the pacth of kalypsolauncher is easy to avoid by not allowing to go online while starting the game
+
+so any solution how to work with patch 1.1.3 ?"
+,smythtec,2010-10-11T20:55Z,"For those having issues. Follow D33F's instructions but use the brothersoft game patch. If you don't it will ask for activation code.
+http://www.brothersoft.com/games/patrician-iv-english-patch-download.html"
+,ayam_utan,2010-10-22T08:54Z,"Is only 20 cities? not 32.....
+anyway thanks for upload..."
+,AuDr,2010-10-25T14:06Z,"Kalypso released 1.2 patch with lots of improvements, bug fixes and some new missions, but we need a crack for it. Any solutions?"
+,leonfranswa,2010-11-13T09:23Z,i give it up o dont know how to let it work :S:S:S
+,Kermit,2010-12-09T13:29Z,"Thank's to D33f for his exellent description of the correct installations procedure with patch 1.1.3 - great job D33f!
+Now, the question is who will answer our prayers by solving the next patch-quiz - the 1.2?
+The new patch is out, and available here: http://www.brothersoft.com/games/patrician-iv-english-patch-gamersgate-download.html
+But this demands online access or activation code. So who'll be our hero this time?! 
+""Help us XXX - your our only hope!"" ;-)"
+,Blarg6969,2010-12-14T20:21Z,"This is a VERY long game with a long lead into the real gameplay. It takes a a couple hours of just trading meat and cheese before you get to begin making any serious headway. Fun game for anyone that enjoys dominating the trade scene in games like Civilization, except this is not even close as easy to master. Do not bother to play this game without the 1.1.3 patch! Follow the instructions below *exactly* to play and patch.
+
+1. Install Game
+2. Disable Internet (I disable network adapter in the network settings)
+3. Start Game
+4. Enter one of the following Serial Numbers: (cut & paste)
+
+PAT4-G6UW2-5RLEB-7YP2X-N77PA
+PAT4-MC7Q6-MU5C8-G42GG-FR9LP
+PAT4-52WRW-YZBQY-S4ZTR-SUD8G
+PAT4-NS43N-65VZB-6AM5X-WVHS4
+PAT4-YXYWA-M8Z7U-RU5WK-TRS97
+PAT4-MUTLB-5P9UH-W927V-SCTWR
+PAT4-3AHKW-3ZA4J-WHYFR-ASDWC
+
+4. Exit game and download the patch from Brothersoft (148MB) *If you use the other patches it will deny you the ability to play unless you get an Internet authorization.*
+
+http://www.brothersoft.com/games/patrician-iv-english-patch-download.html
+
+5. Apply patch (The patch is written wrong and the default installation is to the incorrect folder, make sure to correct this)
+6. play game
+
+*Sorry, no fix for patch 2.0... yet*"
+,Spartan_,2010-12-15T18:56Z,I followed every step to the letter it asks me for login what am i missing ? i blocked communication from and to patrician.exe
+,Kermit,2010-12-18T02:01Z,Now patch 1.3 is out as well...
+,gamerXT,2010-12-30T21:45Z,Anyone knows how to play the 1.3 patch?
+,ishist,2011-01-10T20:43Z,"Guess nobody cares anymore, I need a crack for at least 1.2 for the USB headset fix."
+,alpakal,2011-01-15T11:15Z,Doeas anybody have functional crack for version 1.3? Pls seed it.
+,Podestabr,2011-01-19T22:14Z,"Reloaded have done better jobs..
+Really, no crack at all... don't waste your time on this..."
+,cyber86,2011-02-02T23:37Z,does anyone have crack for version 1.3 ?
+,2keith,2011-02-19T06:33Z,Sorry if this is a stupid question but how do i add a rule for outgoing connections for the patrician4.exe? Anyone mind explaining to mehow i do that. Im not that good with computers
+,Lion_3,2011-03-02T00:24Z,"Hey Blarg6969 your patch from brothersoft didn't work. when i install the game and after this patch, the game can't start. But without patch game will start. 
+Please left a comment !"
+,Lion_3,2011-03-02T02:20Z,"Don't install any patch !!!! When u install the game turn off network adapter enter one of these codes: 
+PAT4-G6UW2-5RLEB-7YP2X-N77PA
+PAT4-MC7Q6-MU5C8-G42GG-FR9LP
+PAT4-52WRW-YZBQY-S4ZTR-SUD8G
+PAT4-NS43N-65VZB-6AM5X-WVHS4
+PAT4-YXYWA-M8Z7U-RU5WK-TRS97
+PAT4-MUTLB-5P9UH-W927V-SCTWR
+PAT4-3AHKW-3ZA4J-WHYFR-ASDWC
+
+and play, it's only way to play. :)))"
+,alpakal,2011-03-05T09:57Z,"Abou crack for version 1.3. I found something about Der-Patrizier-4-GERMAN-Update-v1-30-Cracked-GNSDOX link e.g. 
+http://www.xrel.to/game-nfo/274290/Der-Patrizier-4-GERMAN-Update-v1-30-Cracked-GNSDOX.html
+but there is no possibility to downloade it. 
+Could you please inform about functional crack or release new one for version 1.3?"
+,sacerdose,2011-04-20T22:41Z,"Alright everyone. I think every single post to make the game work has some mistake in it. After finally having figured out how to play WITH a patch that actually makes the game enjoyable (the 1.0 version crashes and sucks!), I've decided to give you a guide to install this game that actually works.
+
+*Note: This guide is to enable you to play the 1.1.3 version of the game. For versions 1.2 and 1.3, I have no clue how to play the game without buying it.
+All you need to enjoy this game is patch 1.1.3.
+
+So:
+
+1) Mount the game (use Daemon Tools for this) and install. Don't run it yet.
+
+2) This part if VERY IMPORTANT. The game does not allow you to play it if you let the internet to communicate with it. Therefore you need to block the communication between the two.
+Here's how to do that:
+
+2.1) Go to Control Panel and open Windows Firewall and select Advanced settings.
+2.2) Go to Outbound rules and press New rule button on the right side.
+2.3) Rule type: Program; Browse (Patrician IV exe file); Block the connection; make sure that everything is checked and name the rule.
+
+3) Run the game (shortcut on your desktop should work).
+
+4) Enter CD Key. This one should work PAT4-G6UW2-5RLEB-7YP2X-N77PA.
+
+5) Now exit the game, since you've only got the crappy 1.0 version to work at this point.
+
+6) Download the correct 1.1.3 patch which enables you to play WITH the internet communication blocked from THIS site: http://www.gamershell.com/download_63696.shtml (hit download at the bottom, and download again after 5 seconds on the next page.) D33F's little guide on page one linked the wrong 1.1.3 patch which CRASHES if you block the internet.
+*The correct patch to download is indeed the 148MB one, not the 157MB one.
+
+7) Patch the game. You will have to select the correct folder to patch the game since its default location to patch is WRONG. Normally you will need to patch to: C:\Program Files\Kalypso Media\Patrician IV
+
+8) Once patch is done. Run the game! Should work from the desktop.
+
+9) ENJOY!"
+,Crunox,2011-05-26T03:46Z,"Nope, followed ur instructions to the letter. all I get is when i start the launcher is a login question, after i made an account it asks me for a product key, i entered the product key, it said it is invalid...
+
+so yeas, to bad reloaded. bad release."
+,FireFox736,2011-05-30T13:56Z,"Did you read this,?
+
+
+5. Play the game, but do not allow it to go online (protip: firewall)."
+,sacerdose,2011-06-16T09:18Z,"Give us a more detailed account of how you installed the game and can maybe figure out where things went wrong. If I got it installed on my Windows 7 computer, there's no reason you shouldn't."
+,karos47491,2011-06-20T14:15Z,"Hey guys!
+
+I made to install, turned off the wifi, used the code, was working. Even after i put it into the firewall system, and was able to use the patch.
+Still running.
+
+BUT im facing with a serious problem. Have huge graphic failures, cannot play the game at all on Emachines acer, T4400 intel pentium, 4 GB ram.
+
+Dont know why. I have win 7 64, got the newest directx which was 550 mb by the way.
+Even read after, so i got the 9.0c as well for win 7 64.
+
+Cannot see the boats, the wall, its killing the graphic card. The menu and the video in the beginning works well in all resolutions. Im completly confused, any ideas?
+Thanks in advance."
+,svanier99,2011-06-25T00:37Z,"Thanks Sacerdose; followed your directions to a ""T"" and it works fully updated.  "
+,anst81,2011-06-25T13:40Z,Hi! I follow the instructons given to the letter but it stops after the introduction film.I tried to re-install with differnt codes but it stops. Does anyone now a solution?
+,anst81,2011-06-25T13:42Z,hi! I follow the instructions to the letter but it didn't work. I tryed to re-install but it stops after the introduction film. does anyone know a solution?
+,Scubahood,2011-11-04T01:36Z,"Great Torrent, games worth a try if you're into 'management style' pc games. I got the game patched (not the latest update, but at least to a version that doesn't crash like 1.0) and working using the directions posted by secardoes on page 2 of the comments. "
+,torrent_killer,2012-03-12T03:50Z,"im having a problem getting it to work ive followed all the steps and ive installed the patch 1.1.3. but when i double click the shortcut its say "" patrician4.exe has stopped working ""  what shall i do ??? "
+,scribe20,2012-03-14T21:39Z,"For those who wants the latest 1.3.. download from http://www.patches-scrolls.de/patrician4.php
+and the crack from: http://strategia-games.ru/index.php/2011-04-02-13-03-00/259-patrician-4-nocdnodvd-13-
+
+scan all your download.. safety first"
+,torrent_killer,2012-03-18T19:21Z,RELOADED U FUCKING STUPID CUNTS DO A DECENT FUCKING TORRENT FOR FUCKING ONCE NONE OF YOUR FUCKING TORRENT WORKS FOR WINDOWS 7 WITCH IS FUCKING STUPID U THICK FUCKING CUNTS COZ ITS 2012 U FUCKING MORONS WHAT I STRONGLY SUGGEST YOU DO IS PACK AWAY YOUR WINDOWS 98 AND SMASH IT UP COZ IT OBV DOSNT DO THE FUCKING JOB YOU WASTE OF FUCKING SPACE CUNTS I HOPE YOU GET FUCKING CAUGH AND BUMMED IN PRISON YOU BUNCH OF FUCKING GEEKS
+,RegPulp,2012-04-13T22:17Z,"@ scribe20
+
+have you confirmed the russian patch works with the english release?, or as anyone tested this...."
+,RegPulp,2012-04-13T22:18Z,i meant the Russian NoCD which scribe20 is referencing.
+,RegPulp,2012-04-13T22:43Z,"i believe ""scribe20"", after quickly doing a search with google, (only took 4 minutes.....), found this
+
+russian forum, translated by google
+
+""I can not find a working crack / nocd for 1.3 Eng. version of the Trivium crack does not work. + Crack for the Russian version of the database, does not work on the English version""
+
+
+as i thought (quite easy to work out), the russian version of the game comes with startforce protection, the english version does not, so that fact alone would more and likely make the executable non-interchangeable, and that is not even factoring in that the english version of the game does not comes with russian version, so again suggesting the two countries having there own individual releases.
+
+i wish people would use there sense before misleading people.
+"

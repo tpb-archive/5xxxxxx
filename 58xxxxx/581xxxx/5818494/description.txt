@@ -1,0 +1,56 @@
+NEON_GENESIS_EVANGELION_TV[platinum]+MOVIES[renewal][h.264_5.1ac3]
+
+-----------------------------------------------------------------
+
+I relly like the series, but i was anoyed that there were no good encodes of it (best i could find are zx) so i decided to go ahead and make my own.
+finding sources was hard, but thanks go out to Gianni86 of tntvillage who posted the original discs of the TV series (platinum edition)-DVD9
+i chose to encode using a crf of 15 because that was the point where i could not tell my encodes from the original videos.
+if someone wants to do styled subs on this release, and time them better i would be verry glad.
+this has no orderd chapters, i just put a clean intro in the batch for the heck of it :D
+i added an ost video i found on one of the discs, it's in 5.1 ac3 @ 448kbps.
+my uplod bandwidth is 512kbps. i will try to seed 24/7 untill there are at least 5 sedds.
+hope you enjoy, and pls help with the seeding :p
+
+-----------------------------------------------------------------
+
+TV
+
+ Video:
+ -h.264, encoded with CRF15.
+ -source PAL: 720x576 @ 25fps (resolution and framerate are a bit higher than in ntsc-720x480 @ 23.976-)
+ -the source was PROGRESSIVE, i did not do any deinterlacing.
+ -the source was italian so the intro and outro text is in italian. no other changes to the video.
+ -i did not crop, because i did not want to loose any frame info, and keep mod16 resolution.
+ -i set the display aspect ratio to 1.34(772x576), this way, i see the movie as wide as it should be on 16:9 monitor
+ 
+ Audio:
+ -ac3 5.1 @ 384kbps.
+ -this is the original audio, i only muxed it (i did NOT recode).
+ -i only muxed the japanese audio (the other track was italian but to me as far as anime goes, japanese audio, with subtitles is how it should be).
+ -episodes 20 and 26 (i think) have english commentary.
+
+ Subtitles:
+ -Translated by Wada Mitsuhito (Wada-kun)
+  Timed by: Todd Perkins
+  Edited by: Todd Perkins, Hiroaki Fukuda, Dave
+ -i did not style.
+ -the subs were made for 23.976fps, i used subtitle workshop to retime them for 25fps, and used delay option when muxing to make them just about right.
+that is to say i did not carefully time them so they are not perfect.
+
+-----------------------------------------------------------------
+
+Movies
+
+ Video:
+ -h.264, encoded with CRF15.
+ -source NTSC: 720x480 @ 23.976
+ -the source was PROGRESSIVE, i did not do any deinterlacing.
+ -i did not crop THE END OF EVANGELION, beacause i did not want to loose frame info (yes there are black bars on the sides, if you do not like them simply hit numpad 6 when playing if you use MPC).
+ -i cropped the hell out of DEATH TRUE2 because the source was odd(still the best one i could find), there are thin black bars all around the video because i did not want to dig into the frame.
+
+ Audio:
+ -ac3 5.1 @ 448kbps.
+ -this is the original audio, i only muxed it (i did NOT recode).
+
+ Subtitles:
+ -i got them from the ZX versions.

@@ -1,0 +1,77 @@
+User Type,Username,Date,Text
+,RipMin2,2010-10-16T04:25Z,"[Rec] 1 2007 720p BRrip may be obtained here...
+http://thepiratebay.org/torrent/4687090"
+,ccm789,2010-10-16T16:07Z,this rip is bad mate sorry but id recomend no1 download it
+,RipMin2,2010-10-16T21:55Z,"To quickly download the Sample first and judge for yourself, simply set the Sample file to High priority in your Torrent software.  To fix playback issues try VLC video player:  http://www.videolan.org/vlc/ 
+~ RipMinion ~"
+,elektronik_supersonik,2010-10-20T08:56Z,"I'm still no expert, but here goes:
+
+
+I was under the impression that the M2TS container doesn't support AAC audio.
+
+Then I noticed the keyint=240 parameter. Everywhere I read it is recommended to keep keyint at 24 (or 25 or 30). Have you performed tests to conclude otherwise?
+
+You seem quite perfectionistic (as am I for that matter), yet you choose not to utilize 2-pass. I remember reading somewhere (maybe HandBrake forums) that even though CRF yields good results, 2-pass encodes still end up slightly better. In HandBrake you can conveniently check the ""Turbo 1st Pass""-option.
+
+I'm curious about the chroma-qp-offset value, and how you ended up selecting that value. I have no understanding about this switch, so it'd be interesting to hear some thoughts. And what about the ip_ratio?
+
+BTW, it should be possible to have a bigger ref value while still remaining AVCHD compatible (according to turbojet from http://forum.doom9.org/archive/index.php/t-145858.html).
+
+Your choice of CRF 23 puzzles me. It's quite likely that the bad quality reported by others is due to this. The video bitrate is enough for an anamorphically-encoded 576p (fake-interlaced 576i), but for 720p you should aim at 1/2 DVDR in M2TS format. An M2TS made of an MKV seems to be something like 4,35/4 of the MKV's size, so you should aim at 2240/(4,35/4) before remuxing to M2TS. BTW, does M2TS really support text-based subtitles? Because if it doesn't you'll need around 10 MB for each subtitle language.
+
+Well, that's all. (I'm a bit compulsive :P)"
+,RipMin2,2010-10-20T18:01Z,">""quality reported by others""
+Well, only one person has added his 2 cents so far.  I disregard this guy though since I googled his ""reviews"" on other torrents  and was sadly amused by his peculiar comments on verified good and functional _Green Skull_ uploads, such as : ""it doesnt work m8"" ,  ""u need to make it compatable with vuze"" (this odd comment was on a standard .AVI torrent), and so on...
+
+>""
+Your choice of CRF=23 puzzles me.""  
+I'm certainly no expert, though crf=23 has produced excellent results for my HD-Lite goal in the past, I even used crf=25 (higher=worse quality) on the following linked rip and got excellent quality reviews, some folks couldn't believe it...
+http://thepiratebay.org/torrent/5305273
+I use CRF because my personal experimentation showed that ABR no only wastes space, but doesn't provide enough quality during rapid-motion scenes.
+
+>""the M2TS container doesn't support AAC""  
+True, though this torrent is just your common .MP4 (h264+AAC) media file.  I simply state that, optionally, one may use multiAVCHD software for easy AVCHD conversion; the AAC to AC3 transcode done by multiAVCHD takes very little time.  The major plus is that the video does Not need to be re-encoded to true 720p (takes long time, reduces quality, etc.) because this torrent is already in the true standard NTSC 720p size.
+
+>""I noticed the keyint=240 parameter. Everywhere I read it is recommended to keep keyint at 24""
+You must be thinking about the keyint_min parameter, which I've set to 24 btw.  I've checked other famous scene uploaders files and they use keyint=24 or 25 and keyint_min = 240 or 250.
+
+>""ref=3 parameter""
+Yes, I was considering raising this to 6 or 7 on future uploads of 720p content, although I recall reading that some cheesy hardware Players needed 3 max.  I'll research this again...
+
+>""subtitles size""
+This won't be expanded to high file size unless, again, one is converting to AVCHD with multiAVCHD software, which means you'll have an entire DVD-R worth of free space to burn (so to speak).
+
+Thank you for the food for thought,
+~ RipMinion ~
+http://1337x.org/user/RipMinion/"
+,RipMin2,2010-10-20T18:24Z,">""crf"" (cont.)
+I actually switched to ""crf"" (VBR) from ""2pass"" (ABR) after being inspired by my favorite scene uploader of all time: ""newartriot"" who, of course, used ""crf"" (VBR)."
+,RipMin2,2010-10-20T18:33Z,"(correction to previous post)...
+I've checked other famous scene uploaders files and they use keyint=240 or 250 and keyint_min = 24 or 25.  
+Sorry for the confusion."
+,elektronik_supersonik,2010-10-21T00:17Z,"You conducted your rapid-motion experiment with ABR  AND 2 passes? Sorry but I'm having a little trouble at first hand believing that 2-pass be inferior to CRF. Here's the thread from HandBrake's forum:
+
+http://forum.handbrake.fr/viewtopic.php?f=6&t=848
+
+By the way, when using 2-pass with target size, there won't be any bits wasted, especially when using a maximum size like 1/3 DVDR (-M2TS overhead) or 1/2 DVDR.
+
+
+I think your statement of AVCHD compliancy is misleading because of the fact that you need to transcode audio before you're all set. And overall, transcoding is generally frowned upon.
+
+
+About keyint: it's a Blu-Ray compliance thing to have it at max 1xFPS or 2xFPS depending on H264 level. See http://forum.doom9.org/showthread.php?t=154533 for info about Blu-Ray compliance.
+
+BTW, it says 6 ref frames max for 720p on the above-mentioned page. But some people say you'll need to use 1 less if you have the b-pyramid strict option enabled. Anyway, you should be safe to use 5 ref frames (though 3 B-frames still max).
+
+
+For convenient BD5 use with multiple movies on one disc, the resulting AVCHD disc folder should be a fraction of a DVD5 like 1494 MB or 2241 MB. It looks like having AVCHD-compatible subtitles requires 16-17 MB per language if you're looking at a typical 90 min movie. If your release had AC3 audio AND it still were the same size, then you'd probably get an AVCHD folder size of < 1/3 DVDR (1494 MB) IF you only muxed one subtitle language into the AVCHD structure. But 1.33 GB with AC3 audio included would take a lot of bits from the video, so at least I would go for 1/2 DVDR in that case."
+,elektronik_supersonik,2010-10-21T03:16Z,The sample certainly looked good. ccm789 must've had a hallucination :)
+,RipMin2,2010-10-21T03:42Z,">""safe to use 5 ref frames""
+Excellent research, thank you.  I'll likely increase ref from 3 to 5 on my next upload (non-tech translation: more starting points when the viewer chooses to rewind or fast-forward, which is good).
+
+>""statement of AVCHD compliancy""
+Quite right; I am referring Only to my Video stream, not audio or subtitles, and there's no misrepresentation intended.  I will strive to me more specific in future descriptions.  I chose AAC audio because it's the most space efficient and because most downloaders will be watching this on their computers, media centers or media players, not on BluRay players (avchd capable); so, the latter group, being in the minority, shall be content with the trivial effect upon audio quality from converting AAC to AC3.
+
+>""target size""
+Well, I actually don't have an intended target Size, just an intended consistent Quality; the resulting file size is inconsequential.  Also, the number of movies one can fit on a DVD-R is of far lesser concern to me than the consistent Quality of my rips."
+,Dhorse,2011-03-07T20:47Z,"Great quality. A10/V10. thnx, man."

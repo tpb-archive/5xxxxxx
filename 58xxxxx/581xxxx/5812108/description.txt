@@ -1,0 +1,121 @@
+------------------------------------Chew7 ver 1.1-------------------------------
+
+
+About:
+======
+
+Official Chew7 homepage: http://chew7.org
+
+Chew7 is the only activation solution that disables the loathed \"calling home\" feature (spyware) that is embedded into the software protection platform of Windows. In Windows XP days, when WGA was first released, it quickly became apparent to the more self conscious technologically inclined users, that Microsoft was retrieving personally identifiable information from its users without notice on a daily basis (every time the system boots up and then on a 24 hour interval after that). Now they have switched to a robust \"software protection platform\" built into the framework of the operating system itself, and they\'ve changed this 24 hour grab interval to something much less conspicuous â€” 14 days, so it\'s no wonder most people haven\'t caught on to what\'s happening. Even with a firewall installed, most of us are inclined to simply ignore notices about Windows components connecting to the internet without apparent cause. Private information like names and internet protocol addresses, browsing history, and sometimes even files that they deem to require further investigation, are being sent over the internet. What do they do with all this information? It\'s anyone\'s guess, but the way we see it, it\'s certainly an invasion of rights to privacy. Will they admit to it? Probably not; it\'s spyware after all.
+
+Chew7 v1.1 was designed for the following operating systems:
+
+Windows 7 Starter
+Windows 7 Home Basic
+Windows 7 Home Premium
+Windows 7 Professional
+Windows 7 Enterprise
+Windows 7 Ultimate
+Windows N Premium
+Windows N Professional
+Windows N Enterprise
+Windows N Ultimate
+Windows Server 2008 R2
+Windows Home Server V2
+Windows Embedded Standard 7
+Windows Embedded Standard 11
+
+Chew7 v1.1 is compatible with the following operating systems:
+
+* Windows 7 Starter
+* Windows 7 Home Basic
+* Windows 7 Home Premium
+* Windows 7 Professional
+* Windows 7 Enterprise
+* Windows 7 Ultimate
+* Windows N Premium
+* Windows N Professional
+* Windows N Enterprise
+* Windows N Ultimate
+* Windows Server 2008 R2 Foundation
+* Windows Server 2008 R2 Standard
+* Windows Server 2008 R2 Enterprise
+* Windows Server 2008 R2 Datacenter
+* Windows Web Server 2008 R2
+* Windows HPC Server 2008
+* Windows Server 2008 R2 for Itanium-Based Systems
+* Windows Home Server V2 (codename: Vail)
+
+Installation:
+=============
+
+(For users on a fresh install of Windows, you donâ€™t need these instructions.)
+
+1.Turn off or disable your anti-virus/anti-malware software.
+2.Completely uninstall any previous versions of Chew-WGA or related software.
+3.Run â€œsfc /scannowâ€ (without quotes). Wait for it to finish, then restart the computer.
+4.Run â€œservices.mscâ€ (without quotes) to open the Microsoft Management Console \"services\" snap-in.
+5.Verify that the startup type for â€œSoftware Protectionâ€ is set to â€œAutomatic (Delayed Start)â€.
+6.Verify that the startup type for â€œSPP Notification Serviceâ€ is set to  â€œManual.â€
+7.Run â€œChew7.exeâ€ and click the â€œInstallâ€ button.
+
+As with any application, there is a chance that your anti-virus / anti-malware software will falsely detect trojans and other viruses when it scans Chew7. As long as the cryptography hashes of your copy match with those listed on the website and in the Cryptography section above, you can ignore these false positives. There has never been, and never will be malicious code in Chew7.
+
+
+If you are wondering what this is, it\'s an activation tool for Windows 7, Windows Server 2008 R2, and Windows Home Server V2 (aka Vail).
+
+IMPORTANT NOTES:
+================
+â˜†If you are updating to SP1, please uninstall Chew7 first, then you can reinstall it after the update.
+
+Changelog:
+=========
+2010-07-28
+added patch for Initial Configuration Tasks and Server Manager for R2, but it does make patching take longer
+
+2010-07-27
+changed logging to not report a SKIP for files not present
+removed SKIP result status altogether from logging since it became essentially useless
+improved system architecture check by referring to the registry, directory structure and environment variables
+
+2010-07-26
+added wlms patch for the Windows License Monitoring Service on Windows Embedded Standard x64 and x86
+fixed a small glitch where reinstall would give OKAY status on wlms, caused by a missing exit call
+
+2010-07-21
+added a file size check for cwlog.dtl, so that upon boot if it is greater than 500KB, it is emptied
+changed installer to delete existing cwlog.dtl file upon patch initialization
+removed resource hogging file comparisons to determine patched status
+incorporated crc32 hashing to determine if target is already patched
+added chew7 registry key deletion upon install / uninstall failure
+
+2010-07-20
+attempted to correct windows update conflict by only preventing disruptive anti-patch transactions
+fixed version reporter applet (winver) expiration notification issue
+fixed explorer crash caused by an incorrect binary string replacement on system cpl x64
+
+2010-07-19
+fixed dynamic patching for System CPL to always show activated regardless of existing status
+added registry entry to specify last attempt
+
+2010-07-18
+removed scheduled task for running hale, and for periodic emptying of detail log
+removed exit and added a reprocess loop (prevents repeated unpacking, and adds better protection)
+interval now defines wait time between runs instead of forcing a schedule
+changed IntervalMinutes registry value to IntervalSeconds
+changed default interval to 30 seconds (was 3 minutes)
+changed minimum interval to 0 seconds (was 1 minute)
+changed maximum interval to 600 seconds (same limit, was 10 minutes)
+changed detail logging to only store the latest run
+
+2010-07-14
+removed extraneous random number generator for registry entries
+changed to not add a new runonce registry entry when unnecessary
+
+
+-::- legal disclaimer -::-
+==========================
+
+Chew7 is a software tool intended for educational and security research purposes only. The authors and beta testers take no responsibility for the way you use it or any problems that may arise as a result of its use. If you decide to use it, you may be breaking your Microsoft Windows license agreement. Do not access, use, or in any way utilize this software if it is in conflict with any of your state, federal, or local laws. By obtaining or possessing a copy of this software or a derivative of its original package, you are acknowledging that you are personally responsible for its use and possessorship.
+
+Hope you Guys will like my uploads,so please help me to seed this torrent.

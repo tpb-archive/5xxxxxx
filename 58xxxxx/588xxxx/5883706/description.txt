@@ -1,0 +1,274 @@
+##################################################
+#         MINECRAFT ALPHA 1.1.2_01.113           #
+##################################################
+
+##################################################
+INSTALL NOTES:
+##################################################
+1. Go to Start > Run
+2. Type in %appdata%
+3. Extract "Minecraft.Alpha.1.1.2_01.113.&.SMP.LAN.SERVER.&.NAME.SPOOFER" to "appdata\roaming" 
+(You already should be there when running %appdata%, if not verify location.)
+
+Example:
+Win7/Vista
+"C:\Users\%username%\AppData\Roaming\"
+.minecraft
+.minecraft server
+
+XP
+"C:\Documents and Settings\%username%\Application Data\"
+.minecraft
+.minecraft server
+
+4. Go to ".minecraft" folder and run "minecraft_name.jar"
+(When you open the game, just press login, it will fail, but prompt you with
+an offline option. Click on that and play the game!)
+
+##################################################
+SKINS:
+##################################################
+I have included custom skin pack for minecraft, 
+if you want to install it.
+
+Go to
+.minecraft
+\bin
+\minecraft_jar_skins
+
+Copy all files
+
+And Paste them into
+.minecraft
+\bin
+minecraft.jar
+
+You can open "minecraft.jar" with WinZIP or WInRAR.
+
+##################################################
+LAN:
+##################################################
+1. Go to http://tunngle.com and Download and install Tunngle.
+2. Log into Tunngle
+3. In "Network Search" type "minecraft"
+4. Join "minecraft" Channel
+5. Ask for Server IP in channel, or host your own server.
+6. Run "minecraft_name.jar" in ".minecraft" folder
+7. Connect to LAN server.
+
+##################################################
+HOSTING SERVER:
+SERVER NOTE: SERVER MIGHT NOT WORK ON WINDOWS XP
+##################################################
+1. Go to ".minecraft server" folder
+2. Go to "BIN" Folder
+3. Open users.txt
+4. Add YOURNAMEHERE:admins
+5. Save "users.txt" and EXIT
+6. Run "launch.bat" in "BIN" folder to start SERVER.
+##################################################
+#            LAUNCH.BAT STARTS SERVER            #
+##################################################
+7. Go to Multiplayer and enter server IP "xxx.xxx.xxx.xxx" or "xxx.xxx.xxx.xxx:25566".
+8. You should be connected to your own server.
+9. If you want other people to join your server
+(GO to "http://www.whatsmyip.org" it will say on top "Your IP Address is xxx.xxx.xxx.xxx"
+Copy "xxx.xxx.xxx.xxx" IP address and give it to the people that you wish to join your server.)
+
+
+##################################################
+CANT BUILD WHAT TO DO?
+##################################################
+All new users have to /register then /login
+
+All new users cant build, or interact with world.
+YOU as the ADMIN have to manually promote users and give them proper rights.
+Or Promote somone to "mods" group and let them deal with it if your lazy.
+
+All new users have to be promoted with this command.
+Only Mods/Admins can use this command.
+/setrank [user] [group]
+Example; /setrank Jeff vip
+
+You can only promote users to builders rank and no higher.
+
+If you want moderators or administrators
+Use this command
+/modify [player] groups [group]
+Example: /modify Jeff groups admins
+
+There are 5 Ranks
+admins / administrators, people that you think there your family, else server will go BOOM, FIRE, DEAD....
+mods / Moderators, people you really really trust 200%, else kiss your server good bye.
+builders / Builders, people you trust 100%, people that been with the server for a while, builrders get fire,water... blocks.
+vip / Normal users that can build stuff, all users should be promoted to this rank first.
+ban / Users that cant do anything but walk around the world as a zombie.
+
+##################################################
+SERVER NOTES:
+##################################################
+
+##################################################
+ANTIGRIEF PACK:
+##################################################
+(Fire, Lava, TNT, Adminium, Lighter)
+The server has ANTIGRIEF pre installed, if you DONT WANT that.
+
+Go to
+.minecraft server
+\bin
+\minecraft_server_original
+
+Copy all files
+
+And Paste them into
+.minecraft server
+\bin
+minecraft_server.jar
+
+You can open "minecraft_server.jar" with WinZIP or WInRAR.
+
+##################################################
+GENERATE NEW WORLD:
+##################################################
+Go to
+.minecraft server
+\bin
+
+Delete "world" folder.
+
+##################################################
+NOTES:
+##################################################
+minecraft_name.jar - Works now in offline mode, no internet connection required.
+minecraft_name_alt.jar - Diffrent moded version, if minecraft_name.jar dose not work for you.
+
+Server - Has tons of new commands, also alot of anti-grief commands, and items. :)
+Server - /item command converted to /kit now, only mods and up can use /item.
+Server - Has registration now, no need to bind users to IP's.
+Server - /kit TOOLS_MODS will give all the new tools for BUILDERS/MODS/ADMINS can use.
+Server - Stick - removes any/all blocks / Woodsword - checks cuboid protection / woodshovel - cuboid tool.
+Server - !lock & !unlock / locks and unlocks chests, can only have 1 locked chest per user, dose not work on duble chests.
+
+##################################################
+#                 BANIP NOTE                     #
+##################################################
+Server - "/banip user" dose not work, if you use it, it will ban your server ip and lock the server, to unlock server delete banned-ips.txt
+Server - To ban a user by IP / please use "!banip user" command, that will ban there IP.
+
+To access !banip command
+add your name into member-list.txt
+.minecraft server
+\bin
+\simpleserver
+member-list.txt
+
+NanoEntity=5 / will set as Owner of server.
+
+-1=Guest
+0=Default
+1=Vip
+2=Builder
+3=Mod
+4=Admin
+5=Owner
+
+##################################################
+#               TNT TNT TNT TNT                  #
+##################################################
+Server - TNT is enabled only MODS/ADMINS can use, please remember do no turn MONSTERS on else people will be able to make TNT.
+
+##################################################
+GROUPS.TXT COMMANDS:
+##################################################
+#Commands
+# /help [Page] - Shows a list of commands. 7 per page.
+# /playerlist - Shows a list of players
+# /reload - Reloads config
+# /listbans <IP or bans> - Gives a list of bans
+# /banip [Player] <Reason> - Bans the player's IP
+# /unbanip [IP] - Unbans the IP
+# /ban [Player] <Reason> - Bans the player
+# /unban [Player] - Unbans the player
+# /mute [Player] - Toggles mute on player.
+# /tp [Player] - Teleports to player. Credits to Zet from SA
+# /tphere [Player] - Teleports the player to you
+# /kick [Player] <Reason> - Kicks player
+# /item [ID] [Amount] <Player> - Gives items
+# /kit [Kit] - Gives a kit. To get a list of kits type /kit
+# /listwarps - Gives a list of available warps
+# /home - Teleports you home
+# /sethome - Sets your home
+# /setspawn - Sets the spawn point to your position.
+# /me [Message] - * hey0 says hi!
+# /msg [Player] [Message] - Sends a message to player
+# /spawn - Teleports you to spawn
+# /warp [Warp] - Warps to the specified warp.
+# /setwarp [Warp] - Sets the warp to your current position.
+# /removewarp [Warp] - Removes the specified warp.
+# /getpos - Displays your current position.
+# /compass - Gives you a compass reading.
+# /time [Time|day|night] - Changes time
+# /lighter - Gives you a lighter for lighting furnaces
+# /motd - Displays the MOTD
+# /modify [player] [key] [value] - Type /modify for more info
+# /whitelist [operation (add or remove)] [player]
+# /reservelist [operation (add or remove)] [player]
+
+
+#Time Rift
+#
+# /rift [Time|day|night] - Loops time, /time disables timerift
+
+#Grief Alert
+#
+# /griefalert - Turn the alert system on/off
+# /gaignore - Add to the groups you want to be ignored by the plugin
+# /gcheck - Teleport to the last incident, /gcheck [label]" to teleport to an older one, gcheckToCoordinates=true in server.prop
+# /degriefstick - Remove any block by holding a stick (id 280)
+# /gareload - Reload the content of the watchedBlocks.txt
+
+#Cuboid Plugin
+#
+#/protect turns on all the features below for a given group even if there added or not.
+#
+# /protect [player] g:[groupName] [cuboidName] - Sets owners
+# /unprotect [cuboidName] - Remove the protected Cuboid
+# /listprotected - Will output the list of the protected Cuboids
+# /toggleprot - Turns on/off the Cuboid protection (worldwide)
+# /creload - Re-reads the data file
+#
+#/cuboid turns on all the features below for a given group even if there added or not.
+#
+# /cfill [blockID|name] - Fills the Cuboid
+# /creplace [blockID|name] [lastblockID|name] - Replaces Cuboid
+# /cdel - Simply removes any block withing the Cuboid
+# /csize - Displays the number of blocks inside selected Cuboid
+# /ccircle [radius] [blockID|name] [height] - Select ONE point
+# /csphere [radius] [blockID|name] - Select ONE point
+# /cball [radius] [blockID|name] - Select ONE point
+# /cfaces [blockID|name] - Select TWO points/corners
+# /cwalls [blockID|name] - Select TWO points/corners
+# /undo - Reverts the last action, dose not work on circle/etc
+# /copy - Select TWO points/corners of a Cuboid to copy
+# /paste - Select ONE point of a Cuboid to paste
+# /csave [name] - Saves a selected Cuboid to server
+# /cload [name] - Select ONE point, pastes Cuboid from server
+# /clist - Prints the list of available cuboids
+
+#DalaRank
+#
+# /setrank [user] [group] - Sets user rank to given group
+# /promote [user] - Promotes user
+# /demote [user] - Demotes user
+# /getrank [user] - Shows the users rank, leave user empty do get your own rank
+# /gethighestrank - Shows the highest rank (Group)
+# /sethighestrank [group] - Sets the highest rank (Group) and adds the Inherited groups to a rank-list for fast promotion/demotion.
+
+#MineSecurity
+#
+# /pass [oldPassword] [newPassword] - Change your password
+# /reset [userNames] - Reset registrations, EX: /reset user1 user2 / command only for admins
+
+HAVE FUN!
+ - NanoEntity

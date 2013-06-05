@@ -1,0 +1,22 @@
+This is the complete Aqua Teen Hunger Force Episodes torrent.
+
+
+Format: .mp4
+Video Codec: h264 @ 224kbps
+Audio Codec: aac  @ 64kbps
+
+All episodes are compliant with the Baseline h264 profile which means that they will play on almost any h264 device ( iPod, iPhone, Android, Blackberry, etc.)  They have also been Web optimized so that they can be streamed from a server and begin playing immediately.  All special characters and uppercase letters have been removed so that they can be used in a URL very easily.
+
+
+
+
+More Technical Info:
+All episodes were converted using HandbrakeCLI 0.9.4.3447
+
+Command Line String: 
+
+HandBrakeCLI.exe   -i \"%s\" --main-feature -o \"%s\" -f mp4 -I  -O  -Y 240 -e x264 -b 224 -a 1 -E faac -6 stereo -R 48 -B 64 -D 0.0 -x level=30:bframes=0:cabac=0:ref=1:vbv-maxrate=256:vbv-bufsize=2000:analyse=all:me=umh:no-fast-pskip=1:subq=6:8x8dct=0:trellis=0:weightb=0:mixed-refs=1 -C 4  -v 1
+
+
+
+Enjoy

@@ -1,0 +1,38 @@
+Install Notes:
+
+1. Go to Start > Run
+2. Type in %appdata%
+3. Extract "Minecraft.1.1.0.&.Custom.SMP.LAN.Server.Files.(NanoEntity).rar" to "appdata>roaming" 
+(You already should be there when running %appdata%, if not verify location.)
+Example:
+"C:\Users\%username%\AppData\Roaming\"
+.minecraft
+.minecraft server
+
+4. Go to ".minecraft" folder and run "minecraft.jar"
+(When you open the game, just press login, it will fail, but prompt you with
+an offline option. Click on that and play the game!)
+
+
+Multiplayer / LAN:
+
+1. Go to ".minecraft server" folder
+
+2. Go to "BIN" Folder
+
+3. Run "Minecraft_Mod.jar" in "BIN" Folder.
+
+4. Run "minecraft.jar" in ".minecraft" folder
+
+5. Go to Multiplayer and enter "127.0.0.1" as IP.
+
+6. You should be connected to your own server.
+
+7. If you want other people to join your server
+(GO to "http://www.whatsmyip.org" it will say on top "Your IP Address is xxx.xxx.xxx.xxx"
+Copy "xxx.xxx.xxx.xxx" IP address and give it to the people that you wish to join your server.)
+
+
+Note:
+HAVE FUN!
+ - NanoEntity

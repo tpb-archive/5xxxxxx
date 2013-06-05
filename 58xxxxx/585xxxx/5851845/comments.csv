@@ -1,0 +1,29 @@
+User Type,Username,Date,Text
+,Robicika,2010-09-27T20:48Z,my AVG found a virus in the exe file!!
+[V],nikita200,2010-10-02T03:21Z,"@Robicika
+
+No panic: false positive."
+,Robicika,2010-10-08T14:42Z,Thx
+,Vladi1204,2010-10-30T20:39Z,"Do not use 10.0.102.130.exe, throw it, it kills the boot Windiws.
+Otherwise it works very well"
+,minreal,2010-12-02T22:33Z,"@Vladi1204: could you explain that a bit more? Is it a virus, or, or? Does this release work 100% properly? Thanks."
+,fedfue,2010-12-06T08:57Z,"My AVG found Trojan horse Dropper.Generic2.FAN in 10.0.102.130.exe (which is the file you are supposed to copy and run). Could you please explain what this does (maybe it's a false alarm)?
+Also, I'm a bit confused by Vladi1204's comment. What do you mean it kills the boot Windows and are you supposed to not to run 10.0.102.130.exe at all? If that's the case, how did you install it correctly if the instructions require to run this file?"
+,ticateban,2011-02-09T17:35Z,Thanks so much
+,Traumaticparoxyst,2011-02-21T11:04Z,"Sigh! Is it not lame to take time to write lame stuff about viruses and not working and even destroying windows. You guys that write this shitthrowing stuff are most probably guys that hate TPB and the fact that ge get your stuff for free. It´s obvious that you have failed and all you can resort to is writing this to scare off people to download, that´s just sad.
+
+This file works just as it soppose to and don´t worry about the shit they write."
+,Traumaticparoxyst,2011-02-21T11:32Z,"It DOES include:Trojan horse Dropper.Generic2.FAN
+
+I believe it just another variant from original Trojan.Dropper.Generic.
+
+A quote from symantec:
+A Trojan.Dropper is a type of Trojan whose purpose is to deliver an enclosed payload onto a destination host computer. A dropper is a means to an end rather than the end itself. In other words, the dropper is usually used at the start or in the early stages of a malware attack.
+
+Once a dropper is executed, its own code is simply to load itself into memory and then extract the malware payload and write it to the file system. It may perform any installation procedures and execute the newly dropped malware. The dropper usually ceases to execute at this point as its primary function has been accomplished.
+
+Droppers are used by malware creators to disguise their malware. They create confusion amongst users by making them look like legitimate applications or well known and trusted files.
+
+Source: Symantec.com"
+,ImSoJaded,2011-05-04T13:32Z,"/sigh
+If you trust Symantec, you might as well trust politicians. Did you know that anti-virus developers regularly include cracks and keygens - even if they do not include malicious code - in their definition files so as to deter n00bs from using illegal downloads?"

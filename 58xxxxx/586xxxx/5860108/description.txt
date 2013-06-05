@@ -1,0 +1,29 @@
+Year: 2009
+Genre: Fighting
+Developer: Namco Bandai Games
+Publisher: Namco Bandai Games
+Platform: PS3
+Language: English, Russian
+Publication Type: License
+Code disk: BLES-00635
+Dumped: Yes - PSGROOVE (PSJailbreak)
+
+INSTRUCTIONS ON HOW TO COPY PS3 GAMES TO YOUR HARD DISK DRIVE:
+1. Extract the file. ISO with WinRar OR With Power ISO, OR Simply Mount it with Power ISO & copy all the files.
+2. Now you should get these 2 folder PS3_GAME &PS3_UPDATE & 1 file PS3_DISC.sfb.
+3. Make a new folder & name it with the game ID (for example: Assassins creed 2 game id is BLUS30446)
+4. Now copy PS3_GAME, PS3_UPDATE & PS3_DISC.sfb to the Game id folder we made earlier.
+5. Finally, copy the game id folder with all data in it, to your GAMEZ folder in FAT32 Hard disk drive.
+6. It should look like this " X:/GAMEZ/BLUS30446 " where " X " is your drive name.
+
+HOW TO FIND THE EXACT GAME ID:
+JUST GO IN TO "PS3_GAME" FOLDER & OPEN "PARAM.SFO" IN NOTEPAD & AT THE END OF THE FILE, THERE IS A GAME ID. (PLEASE SEE THIS IMAGE TO BE MORE CLEAR) http://img17.imageshack.us/img17/8760/ps3gameid.png
+
+TROUBLESHOOTING GUIDE:-
+1) IF GAME DOESN'T WORK FROM EXTERNAL HARD DRIVE, TRY PUTTING IN INTERNAL HARD DRIVE.
+2) CHECK THAT YOU HAVE DOWNLOADED THE FILE CORRECTLY, BECAUSE SOMETIME IDM (Internet Download Manage) CORRUPT FILES DUE TO SUDDEN INTERNET CONNECTION LOST.
+3) IF YOU CAN'T EXTRACT .ISO FILE, TRY MOUNTING THE .ISO IMAGE WITH POWER ISO OR ANY OTHER ISO MOUNTING TOOL & COPY ALL THE FILES FROM IT.
+
+---------------------------------------------------
+This release works fine, confirmed on ps3iso forum.
+---------------------------------------------------

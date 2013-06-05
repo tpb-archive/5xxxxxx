@@ -1,0 +1,19 @@
+User Type,Username,Date,Text
+,subnet_mask,2010-10-19T20:22Z,"The RAR archive has made improperly and the app has problems, doesn't launch at all. No error messages. "
+,macreli,2010-10-21T02:33Z,same here. impossible to start the app.
+,ryankentp,2010-11-07T04:41Z,"This torrent is great, it just takes a little to fix it. I made the following solution.
+
+1. Move/copy to /Applications/ScreenFlow.app
+2. Open Terminal (/Applications/Utilities/Terminal.app)
+3. Copy and paste the really long line below, then press enter.
+4. It should ask for your password. Type it, then press enter. (It will look like you aren't typing it, but you really are.)
+5. Try opening the application. If everything went right, it should open fine. You can quit terminal.
+
+This is what you need to copy and paste (it's all one line):
+
+sudo chmod a+x ""/Applications/ScreenFlow.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/relaunch"" ""/Applications/ScreenFlow.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle"" ""/Applications/ScreenFlow.app/Contents/Library/Automator/Configure ScreenFlow Recording.action/Contents/MacOS/Configure ScreenFlow Recording"" ""/Applications/ScreenFlow.app/Contents/Library/Automator/Start ScreenFlow Recording.action/Contents/Resources/main.command"" ""/Applications/ScreenFlow.app/Contents/Library/Automator/Stop ScreenFlow Recording.action/Contents/Resources/main.command"" ""/Applications/ScreenFlow.app/Contents/Library/QuickLook/ScreenFlow.qlgenerator/Contents/MacOS/ScreenFlow"" ""/Applications/ScreenFlow.app/Contents/Library/Spotlight/ScreenFlow.mdimporter/Contents/MacOS/ScreenFlow"" ""/Applications/ScreenFlow.app/Contents/MacOS/ScreenFlow"" ""/Applications/ScreenFlow.app/Contents/MacOS/ScreenFlowHelper.app/Contents/MacOS/ScreenFlowHelper"" ""/Applications/ScreenFlow.app/Contents/MacOS/ScreenFlowHelper.app/Contents/Resources/uninstallVaraAudioDriver.sh"" ""/Applications/ScreenFlow.app/Contents/MacOS/SetPrefTool"" ""/Applications/ScreenFlow.app/Contents/Resources/installVaraAudioDriver.sh"" ""/Applications/ScreenFlow.app/Contents/Resources/screenflowrecorder"" ""/Applications/ScreenFlow.app/Contents/Resources/screenflowserver64"" ""/Applications/ScreenFlow.app/Contents/Resources/uninstallVaraAudioDriver.sh"" ""/Applications/ScreenFlow.app/Contents/Resources/VaraAudio.kext/Contents/MacOS/VaraAudio"""
+,Mrshll187,2010-11-21T06:57Z,make it short and sweet: chmod -R 777 ScreenFlow.app/ depending on how your systems rolled out just tighten up the permissions. But this will work
+,paliometoxo,2010-11-27T00:18Z,thnx Mrshll187 that worked nicely :D
+,a4abbas,2011-02-16T03:43Z,Awesome! thank you
+,josehndz3,2011-02-25T03:00Z,"tried the long line thing and got nothing... also the short command got nothing again... it only says ""no such file or directory: :/"
+,matters5,2011-03-12T06:58Z,"Rockin'! Mrshll187's solution worked (actually, I didn't try it before changing the permissions first.)"

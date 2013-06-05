@@ -1,0 +1,30 @@
+This ESET SysRescue CD (ESR) was created with ESET Smart Security Business Edition, version 4.2.40.0. 
+
+The main advantage of ESET SysRescue is the fact that it runs independent of the host operating system, while it has a direct access to the disk and the entire filesystem. 
+Thanks to this it is possible to remove those infiltrations that normally could not be deleted, e.g. when the operating system is running, etc.
+
+Scanning speed is pretty fast compared to other rescue disks. The scan is very thorough as it tries to scan files inside compressed archive and also in setup installers. With the latest virus signature database (5175), it manages to catch all of known viruses by August 20th , 2010.
+
+For the rescue CD to use effectively, you must provide that the computer boots from the ESET SysRescue boot media. 
+
+Boot priority can be modified in the BIOS. 
+
+Alternatively, you can invoke the boot menu during the computer startup - usually using one of the F9 - F12 keys depending on the version of your motherboard/BIOS.
+
+The content of the CD will be written to the operating memory (RAM). After booting up, ESS will start. Since ESET SysRescue is used only in specific situations, some protection modules and program features present in regular ESS are not needed; their list is narrowed down to Computer scan, Update, and some sections in Setup. 
+Capability of updating virus signature database is the most important feature of ESET SysRescue.
+
+Suppose that computers in the network have been infected by a virus modifying executable (EXE) files. ESS is capable of cleaning all infected files except for explorer.exe, which can't be cleaned, not even in the Safe mode. That is due to the fact that explorer.exe, as one of the essential Windows processes, is launched in the Safe mode as well. ESS cannot perform any action with the file and therefore it remains infected.
+
+In such a scenario, you can employ ESET SysRescue to solve the problem. ESET SysRescue does not require any component of the host operating system. Therefore it is capable of processing (cleaning, deleting) any file on the disk.
+
+Virus database release : 2010-08-20
+OS : Win XP/2000/Vista/Win 7 (32-bit / 64-bit)
+Language : English
+Requirement: CD drive
+
+Recommendation : Burn the ISO image at low speed (2x if available)
+
+Both Versions are available for you to download , more or less 576mb of Ram
+
+Burn iso at low speed 4x max.

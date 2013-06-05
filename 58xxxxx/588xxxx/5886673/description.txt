@@ -1,0 +1,63 @@
++-----------------------+
+|mIRC 7.14 + Crack -[HB]|
++-----------------------+
+
+mIRC is a full featured Internet Relay Chat client for Windows that can be used to communicate, share, play or work with others on IRC networks around the world, either in multi-user group conferences or in one-to-one private discussions. Serving the Internet community for over a decade, mIRC has evolved into a powerful, reliable and fun piece of technology.
+
+It has a clean, practical interface that is highly configurable and supports features such as buddy lists, file transfers, multi-server connections, IPv6, SSL encryption, proxy support, UTF-8 display, UPnP, customizable sounds, spoken messages, tray notifications, message logging, and more. mIRC also has a powerful scripting language that can be used both to automate mIRC and to create applications that perform a wide range of functions from network communications to playing games.
+
+mIRC is a popular Internet Relay Chat client used by millions of people, and thousands of organizations, to communicate, share, play and work with each other on IRC networks around the world. Serving the Internet community for over a decade, mIRC has evolved into a powerful, reliable and fun piece of technology.
+
+mIRC is a full featured Internet Relay Chat client for Windows that can be used to communicate, share, play or work with others on IRC networks around the world, either in multi-user group conferences or in one-to-one private discussions. It has a clean, practical interface that is highly configurable and supports features such as buddy lists, file transfers, multi-server connections, SSL encryption, proxy support, UTF-8 display, customizable sounds, spoken messages, tray notifications, message logging, and more.
+
+mIRC also has a powerful scripting language that can be used both to automate mIRC and to create applications that perform a wide range of functions from network communications to playing games.
+
+This is the second stable release of the new Unicode version of mIRC and addresses a number of issues that have been reported by users since the last release. It includes improvements, changes and fixes to a number of features, including:
+
+* A new and improved Log Files dialog has been added that allows you to search log files and to view them in a window in mIRC.
+
+* A Clear History dialog has been added to the Tools menu that allows you to clear the history of a number of features.
+
+* File transfers now display progress bars in different colors to indicate transfer status.
+
+* DCC Send transfer speed has been improved.
+
+* A "UTF-8 encode/decode messages" option has been added to the Messages dialog to enable or disable UTF-8 encoding/decoding of server messages.
+
+* The DNS routines have been changed to only request IPv6 if you are using features that require it, which should speed up connections for some users.
+
+* Many other changes and bug fixes 
+
+In total there have been almost 80 changes to this version.
+
+A significant number of changes were needed to convert mIRC into a Unicode application (see the previous v7.1 release announcement for details) and this version builds on that to create a more stable and reliable mIRC. We should now be able to focus on adding some new and interesting features to the
+
++---------------+
+|Changes in 7.14|
++---------------+
+
+- Fixed mouse drop menu event bug.
+
+- Fixed $isutf() bug.
+
+- Fixed /scon recursion gpf bug.
+
+- Changed /filter to halt only if an alias call returns an error.
+
+- Fixed /hadd -u bug.
+
+- Optimized text display caching.
+
+- Changed file handling to flush files to disk immediately. 
+
++-------------+
+|Install Notes|
++-------------+
+
+* Install the app.
+
+* Replace the crack with original file(s) in the install dir of the app.
+
+* When asked for registration details use any name/serial.
+
+* Enjoy! =]

@@ -1,0 +1,93 @@
+----------------------Office 2010 Toolkit & EZ-Activator 2.0 Beta 4----------------------
+
+
+* Credits goes to CODYQX4 & Bosh for making this nice tool.
+
+
+This toolkit will activate your Office 2010 both retail version downloaded from MSDN also Trial Office,and a lot more changes in new version..
+
+
+Office 2010 Toolkit Information:
+================================
+This is a set of tools and functions for managing licensing and activating Office 2010. All information from using these functions is displayed in the Information Console. All functions are run in the background and the GUI is disabled to prevent running multiple functions, as this could conflict or damage Office 2010. For information about individual functions, read further below.
+
+Office 2010 Toolkit Functions:
+==============================
+
+Main Tab:
+*********
+
+EZ-Activator: This is a universal and simple activator for Office 2010. It can use KMS activation even if you are using Retail Office. EZ-Activator gathers information about your Office 2010 licensing status to provide the best method of activation. If you are using activated Retail or MAK Product Key, it will keep this Product Key and license as this activation is good forever unlike KMS which is for 180 days. Otherwise the MAK/Retail Product Keys will be uninstalled and replaced with KMS Product Keys, and Retail Office 2010 will be converted to Volume Edition. The EZ-Activator will then install AutoKMS and attempt to activate Office 2010 using the KMS Keygen.
+
+Office 2010 Information: This displays if Office 2010 is installed on your PC and whether it is 32 bit (x86), 64 bit (x64) or 32 bit running on 64 bit OS (WOW).
+
+Activation Tools Tab:
+*********************
+
+Office 2010 AutoKMS: AutoKMS is a scheduled task that will reset your 180 day KMS activation. Unlike other KMS activators, AutoKMS does not run 24/7 or only at the last minute with the hope it won't fail, and leaves no traces of itself other than a Scheduled Task and EXE file. It will run at boot and attempt KMS activation up to 25 times. It should not take that many times unless something is wrong, so it will warn you in that case. The Install/Uninstall buttons are used to install or remove AutoKMS from your PC.
+
+Attempt Office 2010 Activation: This will attempt to activate any and all Office 2010 products. The KMS Keygen will be run to activate KMS licenses, and online activation will be attempted for MAK and Retail keys.
+
+Check Office 2010 Activation Status: This will display detailed information on Office 2010 activation including how many days you are licensed for, what Product Key and type of license you are using, and much more.
+
+Rearm Office 2010: This resets the 30 day grace period that all Office 2010 products have. Rearm can be done up to 5 times.
+
+License Management Tab:
+***********************
+
+Add License: This will add the ability to use a license/Product Key for a certain Office 2010 product. You do not need that Office 2010 Product installed. 
+It will install a hardcoded Product Key if available, else you will have to install your own Product Key. All The Provided Retail Keys are trials or blacklisted but can be rearmed for temporary use.
+EX: This can be used to use Professional Plus license on Standard. 
+
+This also lets you convert from Retail to VL. Set License Type To Volume and select the Office 2010 Product you want to convert to VL, then press Add. 
+NOTE: There are no VL versions of Home and Business, Home and Student, and Professional so convert them to Professional Plus.
+
+Delete All: This deletes all licensing information for Office 2010. This is meant to be used if your license details are corrupted/marked as tampered. This will force Office 2010 to repair itself and it will be in either Notifications Mode (VL) or Reduced-Functionality Mode (Retail). You will probably not be able to rearm to get out. You will have to activate which may fail with KMS Keygen. This is an absolute last resort and should be used sparingly. 
+NOTE: When Office 2010 repairs itself, it restores licenses for what you have physically installed, any licenses Added/Converted using License Add or EZ-Activator will not be restored.
+
+Key Management Tab:
+*******************
+
+Add: This will install an Office 2010 Product Key, using either a hardcoded Product Key based upon your selection or a custom key that you enter. A Product Key cannot be installed unless you have that Office 2010 license installed.
+
+Remove: This will remove an Office 2010 Product Key, using either a hardcoded Product Key based upon your selection or a custom Product Key that you enter. 
+
+Check: This will give information on an Office 2010 Product Key, using either a hardcoded Product Key based upon your selection or a custom Product Key that you enter. This information is what you would get from a PIDX checker.
+
+License Backup Tab:
+******************
+
+Backup: This saves your Office 2010 licensing information so it can be restored later. This information is machine and install specific, so it probably won't work after a reformat and definitely won't work on different hardware. It saves the current state but does not stop the clock, so a 25 day old backup restored will be whatever days you had minus 25 when you took the backup. Backups are stored in subdirectories in a "Backups" folder that will be created in the same directory as the Office 2010 Toolkit executable using the name you entered.
+
+Full Restore: Restores all of the information saved in a previous backup. It will take a temporary backup of your current state, delete your current state, then restore the backup. If it fails to restore it will try to restore the temporary backup.
+
+Tokens Only Restore: This is the same as Full Restore except it doesn't touch the current registry. This is probably not enough to restore activation so if it fails try the Full Restore.
+
+New Changes:
+============
+
+NOTE:
+~~~~~
+
+There are almost innumerable but here is the main things.
+
+BETA 4 Has changed drastically. The most important things for you to keep in mind are:
+1. Toolkit Now Has A Settings Menu which let you change toolkit behavior.
+2. *License Delete All and EZ-Activator Automatically repair office so you no longer have to delete, open office several times and wait for it to repair.
+3. *EZ-Activator will attempt all known fixes in case of failure. This includes Rearn, License Reinstall, and License Delete All-> Repair
+4. **This contains a tool called "AutoRearm", which is supposed to allow you to run in 30 day grace, rearm, and when you are out of rearms, reset the count.
+5. Settings Config With INI Files
+-AutoRearm Tool Added
+6. EZ-Activator can automatically rearm, reinstall license files, delete and repair license (Which license delete does by default) and restore backup in case of failure.
+7. Almost every use of ospp.vbs now done via WMI calls.
+
+8.More tweaks
+
+*=Default Behavior
+
+**=Tool should be tested. Also, people with retail office may experience a nag on startup while on rearm mode. You can fix this by converting to VL with License Add for the equivalent Retail2VL product (HomeBusiness, and HomeStudent, and Professional Plus should use Pro Plus as there are no VL versions.) This is because MS programmed Retail to nag in grace mode, and lose features in Notifications Mode, but not VL.
+
+
+
+Guys please help me to seed this torrent,hope you guys will like it..
+		

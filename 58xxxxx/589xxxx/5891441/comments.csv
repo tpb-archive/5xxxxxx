@@ -1,0 +1,28 @@
+User Type,Username,Date,Text
+,wmears,2010-11-02T07:09Z,раздайте плз )) или скажите кгда на раздаче будет полный источник. Заранее благодарен
+,Skeingald,2010-12-05T02:54Z,Please seed/reseed
+,hitman585,2011-01-15T23:20Z,is this in rus only?
+,neoraistlin,2011-01-16T20:14Z,"This is most defiantely a RUS only install. However, I have found the way to convert it to English.
+
+Follow the installation instructions completely as recommended. The installed game will be in RUS and is playable.
+
+Now download the NWN2 Patcher by tnt 220 found here http://vnfiles.ign.com/nwvault.ign.com/fms/files/nwn2tools/12/nwn2patcher.zip
+
+Download the English Update ""nwn2_pcx1_english_from1221588_to1231763"" from the following link http://nwvault.ign.com/fms/Download.php?id=142400
+  -I know the cracked version already has a patch that updates it fully, but re-running this patch overwrites some of the RUS dialog (but not all of it)
+
+Use the NWN2 Patcher to install the .RTP file that is extracted from the nwn2_pcx1_english_from1221588_to1231763 archive
+
+Download the file ""Kaedrin's PrC Pack v1.40.4"" from the link http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=209
+  - You can install this pack using his installation instruction (it really is a good thing as it has numerous bugfixes)
+  - Alternatively, all we need is the dialog.tlk that is found in the root directory of this archive
+Copy the dialog.tlk from Kaedrin's PrC Pack v1.40.4 into C:\My Documents\Neverwinter Nights 2
+
+Lastly browse to your installation directory (mine was D:\Games\Neverwinter Nights 2, but your will likely be different). In the root directory there are three dialog files: dailog.tlk, dialogF.tlk, and dialog_old.tlk
+  - The dialogf.tlk is for languages that have different dialog for male and female genders. We will remove this file by deleteing it or renaming it to dialogf.bak
+  - The dialog.tlk should be replaced with the same dialog.tlk from Kaedrin's PrC Pack v1.40.4 which was copied into C:\My Documents\Neverwinter Nights 2
+  - I left the dialog_old.tlk alone
+
+That's what I have done and it has worked for me. So far all the menus, text, and spoken dialogue is in English."
+,Farhe,2011-02-28T04:01Z,The key generator isn't working.  Tried it at least 20 times and some pop-up in Russian keeps showing.  I am just making a wild guess here but I think it is probably saying Invalid.  Any suggestions?
+,vlastdoloy,2011-06-18T12:01Z,"На Windows 7 ставится с ошибкой (не устанавливается Windows Insteller 3.1 v2, для семерки не предназначенный) и при запуске компании игра вылетает :("

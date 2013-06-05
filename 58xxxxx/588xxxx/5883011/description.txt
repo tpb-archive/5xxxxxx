@@ -1,0 +1,35 @@
+Welcome!
+
+Thanks for downloading ubuntu-reloaded-10.10-desktop-i386.iso.This release contains the finest blend of Ubuntu packages, built off Ubuntu 10.10.
+
+This folder has the following things:
+1) A folder containing unetbootin to make bootable usb.
+2) A DRIVER.iso file containing following proprietary drivers
+a)Nvidia (recommended)
+b)Broadcom STA driver
+c)ATI FGLRX
+Steps for installing: System>Administration>APTonCD>Restore>Load>None>browse for .iso
+file>enter your password>Restore>Done!...then install the drivers from the Additional Drivers
+dialogue.
+3) A pdf file illustrating how to enable the offline English dictionary and thesaurus.
+4) Getting Started with Ubuntu - Second Edition for getting comfortable in using Ubuntu.
+5) ubuntu-reloaded-10.10-desktop-i386
+6) Release notes
+7)Folder.jpg
+8)opera key
+
+Feel the sheer awesomeness of free software...you will be mesmerized...I promise!
+
+Some tips:
+if you get an error that opera key not found
+either type in terminal:
+wget -O - http://deb.opera.com/archive.key | sudo apt-key add -
+or add the opera key file in the system>administration>synaptic package
+manager>settings>repositories>authentication>import key file>Done!
+
+If you are too desperate to use microsoft office 2007, then you can install it using
+Applications>Games>PlayOnLinux
+
+ALL THE BEST!IS EAGERLY WAITING FOR YOUR FEEDBACK!
+
+Please consider supporting the development if you can....every small contribution counts!

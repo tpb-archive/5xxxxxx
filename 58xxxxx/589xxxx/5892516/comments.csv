@@ -1,0 +1,157 @@
+User Type,Username,Date,Text
+,john_lila2006,2010-12-15T15:04Z,"this is not working,(torrent file is not getting downloaded)
+
+ plz help"
+,EnTek,2011-03-05T01:28Z,Use the magnet link.  It works...
+,jvezirian,2011-04-12T20:48Z,"How to install Microstation and get the damn thing to work!!!!!!!!
+
+Well worked for me!!! ""And on Windows 7""
+
+These are the instructions from the one I downloaded, sorry I forget the site.
+
+1. Install Setup_Prerequisites_08.09.03.06_en.exe
+
+2. Install MicroStation_08.09.03.06
+
+3. Extract Patch.rar into \Program Files\Bentley\MicroStation\ (extract all of the 
+
+contents, there is an additional rar file here, extract it too, this is where it 
+
+messes up I think, but this is what I did and it worked!!!!!!!!!!)
+
+3a. After extracting all the files I copied them into the Microstation folder, yes 
+
+let it overwrite any and all files that come up!!!!!!!
+
+3b.  In windows 7 you need to go to C/Windows/system 32 and the License.xml file is 
+
+there, well that is where my computer put it. It was the only one, and I viewed it 
+
+and it had all the microstation data. Copy this file to the microstation folder, do 
+
+not try to use the method below!!!!!!!!!! If you try to use the Utility to find it in 
+
+System 32, it does not see the file!!!!!
+
+
+4. Right Click patcher.bat and run as ""Administrator"" A DOS WINDOW WILL OPEN REAL 
+
+FAST AND GO AWAY...
+
+5. Run the ""License Tool"" from inside the Microstation folder, ""DO NOT"" run 
+
+microstation first as described IN OTHERE DOWNLOADS!!!!!!!!
+
+6. It will say no server found or something like that, just click ok. Now select 
+
+import, as described and browse to the License.xml file you copied into the 
+
+Microstation folder.
+
+Choose ""File | Import"" and browse to license.xml in \Program Files\Bentley
+
+\MicroStation\. It should say ""License Import Succeeded""
+
+7. You will also then recieve this message:""Failed to retrieve a list of available 
+
+licenses"".... just click ok and close the license utility window.
+
+8. Run microstation and open a default drawing of something and it should work, no 
+
+warnings for me."
+,swazi_matt,2011-05-27T08:59Z,"I JUST DOWNLOADED THIS TORRENT, BUT ONLY GET TWO FILES:
+microstationMX.cue
+microstationMX.bin
+HOW DO I EXTRACT THEM, OR GET THEM TO WORK?
+I HAVE BEEN LOOKING FOR THIS PROGRAM FOR AGES, AND ON OUR INTERNETOSAURUS IT HAS TAKEN DAYS TO DOWNLOAD! PLEASE HELP!!"
+,swazi_matt,2011-05-27T09:16Z,"I only have two files showing in my download:
+MicroStationMX.cue
+MicroStationMX.bin (337MB) 
+
+how do i extract this? It has taken me ages to download on out internetosaurus and even longer to find! I had problems downloading the torrent and eventually had to use magnet link to get it to start downloading
+
+PLEASE HELP"
+,qxerty132,2011-07-19T16:56Z,thnx for the wonderfull upload but need more seeders plz thnx in advance 
+,stan_d_32,2011-07-27T01:18Z,A big thanks from me too. It says license expires in 2026. Is that for real or will I start getting angry messages soon about using unlicensed software....?
+,qxerty132,2011-08-14T09:07Z,any user having MX with Autocad?
+,keiran,2011-09-08T06:18Z,"Use Alcohol 120% to load MicrostationMX.cue.
+Follow instructions from jvezirian"
+,keiran,2011-09-08T06:20Z,"Use Alcohol 120% to load MicrostationMX.bin
+Follow instructions from jvezirian"
+,calteq,2011-10-26T12:00Z,"Just cut the .cue file to a CD
+and install just as 'jvezirian' instructions.
+Works just fine ........
+Marvellous"
+,skibba,2011-12-06T07:43Z,"Does it work on Win7 but 64 bits? During installation of prerequisities I get info "" you must have IE6 or greater"" But I have IE9.  any ideas?"
+,Skeeta229,2012-04-24T23:19Z,"Windows 7 32/64 bit Installation: 
+
+1. Install Setup_Prerequisites_08.09.03.06_en.exe
+
+2. Install MicroStation_08.09.03.06
+
+3. Extract Patch.rar
+
+4. Extract filezz.rar from within Patch.rar into same folder as files extracted from 
+
+Patch.rar
+
+- Unextracted folder should contain:
+  - Bentley.liclib.dll
+  - install.txt
+  - LicenseTool
+  - patcher
+  - Rar
+
+5. After extracting all the files, copy all to C:Program Files (x86)BentleyMicroStation, 
+
+overwrite all files.
+
+6. Open MicroStation, load a .dwg file. Cancel all license and registration notice 
+
+windows that pop up.
+
+7. Close MicroStation, do not touch any menus or edit .dwg file.
+
+8. Goto C:Windowssystem 32 locate License.xml file. COPY this file to C:Program 
+
+Files (x86)BentleyMicroStation
+
+9. Locate patcher.bat in C:Program Files (x86)BentleyMicroStation. Right Click 
+
+patcher.bat and run as ""Administrator"", click ""yes"" on any prompts.
+
+10. Run the ""License Tool"" from inside C:Program Files (x86)BentleyMicroStation
+
+- No Server Found wil prompt, click ok. 
+
+11. Choose ""File | Import"" and browse to C:Program Files (x86)BentleyMicroStation 
+
+and select License.xml file. 
+
+- ""License Import Succeeded"" prompt will appear, followed by ""Failed to retrieve a list 
+
+of available licenses"". 
+
+- Click Ok and close the license utility window.
+
+12. Run Microstation and open a .dwg file. 
+
+13. Goto ""Help | About Microstation..."" and click the details button.
+
+- Prompt should read:
+  Using a checked-out license
+  Expiration Date: 
+  SELECT Server Serial Number:"
+,arya83-,2012-05-12T22:35Z,"I have only two files in my download folder .. 
+
+- MicroStationMX
+- MicroStationMX
+
+What do I do .. ??!! 
+
+Please help .. "
+,cupcake28,2012-05-18T14:59Z,"I'm having trouble - help!
+
+I follow the instructions and get all the way to the part where you need to copy the license.xml from the ""system 32"" folder. but the file isn't there... or anywhere on my computer when I search for it. what did I miss? i have win7."
+,Sir_Hal,2012-06-16T03:41Z,"to above ... nothing. I too can't find this License.xml This torrent is useless, well for me."
+,balongski,2012-06-22T16:49Z,i cannot find license.xml anywhere. I've looked at system32 but nothing in there. Can anyone send me a license.xml. please email me at tangangotako@yahoo.com ... I would really appreciate it 

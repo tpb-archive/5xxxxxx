@@ -1,0 +1,23 @@
+ScaraOS
+Description
+ScaraOS is a 32bit mutiboot OS kernel for IA32 (PC/AT) systems. I wrote it to teach myself OS fundamentals and just to have a bit of fun. It already has PCI support, the beginnings of a paged memory management system, and the start of a VFS layer. It supports the basic PC/AT stuff such as timer, PIC, keyboard, floppy.
+The most recent version includes a working inode and dentry cache, pre-emptive multi-tasking, demand loading and a system call interface. The only implemented system calls so far are exec(2), open(2), close(2), read(2), write(2), and exit(2). Implementations of fork(2) and others are currently pending on the next milestone, context switching to and from userspace. You can look at a pretty screenshot.
+More details are available on the wiki page which I am maintaining as a sort of pseudo-blog about scaraOS development.
+
+Current Features
+    * Mostly written in C
+    * Multiboot compliant
+    * Pre-emptive multi-tasking
+    * Paged memory management including demand loading of files, anonymous memory areas and ELF binaries.
+    * Virtual filesystem switch including inode and page cache
+    * EXT2 support
+    * Slab allocator
+    * Block I/O subsystem
+    * Floppy disk controller driver
+    * 32bit protected mode
+    * 8254 PIT support
+    * 8259A PIC support
+    * PCI device enumeration
+    * VGA text mode output 
+
+HomePage : http://www.scaramanga.co.uk/scaraOS/

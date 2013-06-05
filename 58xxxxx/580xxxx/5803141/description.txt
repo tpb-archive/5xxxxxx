@@ -1,0 +1,20 @@
+The GParted application is a graphical partition editor for creating, reorganizing, and deleting disk partitions.
+A disk device can be subdivided into one or more partitions. The GParted application enables you to change the partition organization on a disk device while preserving the contents of the partitions.
+
+GParted uses GNU libparted to detect and manipulate devices and partition tables. Several optional file system tools provide support for file systems not included in libparted. 
+GParted live 0.6.2-5
+
+ * The underlying GNU/Linux operating system is based on the Debian Sid repository (as of 2010/Sep/01).
+ * This release was created by live-build and live-boot 2 and live-config 2 were used. An extra boot parameter "live-config" was added so it works for live-config.
+
+ -- Steven Shiau <steven _at_ nchc org tw>  Wed, 01 Sep 2010 06:17:00 +0800
+
+This is GParted live 0.6.2-5.
+New in this release:
+ * The underlying GNU/Linux operating system is based on the Debian Sid repository (as of 2010/Sep/01).
+ * Live-boot and live-config are used in this release. Live-initramfs is no more. Therefore if you manage the boot paramters by yourself, you have to put extra boot parameter "live-config" to make live-config to work.
+
+Homepage : http://gparted.sourceforge.net/index.php
+
+md5sum : 2f2fdaec0554dbacf6307505e79c9ef2  gparted-live-0.6.2-5.iso
+sha1sum : d318cab1fbb8b436b884eb26e7ff90e09a173726  gparted-live-0.6.2-5.iso

@@ -1,0 +1,58 @@
+NetBeans.Platform.6.9.Developers.Guide.English.rar.torrent
+There is NO password for RAR archive!
+
+Netbeans Platform 6.9 Developer`s Guide (2010) - English
+
+** Buy this book at: ** 
+https://www.packtpub.com/netbeans-platform-6-9-developers-guide/book
+********************************************************************
+
+Book Review: Netbeans Platform 6.9 Developer`s Guide
+September 15th, 2010 | by Tonny Kohar |
+
+Netbeans Platform 6.9 Developerâ€™s Guide by JÃ¼rgen Petri comes with 273 pages. This is not Java beginner book or learning Java book, and not about Netbeans IDE as well. The author assumes zero Netbeans Platform knowledge. This book is written for developers who are comfortable with Java and Swing, and who would like to use a framework (Netbeans Platform) as the basis of their Swing applications.
+
+Important, the bookâ€™s author write
+
+    â€œThis book doesnâ€™t aim to explicate all that the NetBeans Platform offers or to explore each and every corner of its many features. Rather, this book guides you through the development of a specific Java desktop application, while showing you everything that is relevant in the context of the particular application itself. That process, in turn, will lead you through the main features relevant to the development of most general
+    applications on the NetBeans Platform.â€
+
+For me, this book is really good to introduce Netbeans Platform development. It discuss all or most important API in Netbeans Platform from basic module creation to deployment and how to integrate them all together. Another good thing is this book using single application sample (Task Management Application) through out all the chapters. So each chapter add more features to the application sample, rather than each chapter using different example to describe the Netbeans Platform API. However, this book is not without flaw. Chapter 2 (Forms) discuss too much about Swing Layout and Netbeans Form Builder which is not necessary (IMHO, this book is not about Swing and Netbeans IDE, but about Netbeans Platform). Other than that, the book is good introduction to Netbeans Platform development.
+
+I have been developing Netbeans Platform Application since few years and release (public release) at least 3 applications based on Netbeans Platform, so I know my way around Netbeans Platform API. But this book still give me few surprises regarding Netbeans API, and my favorite is the Lookup API (Chapter 4). And yes you can teach old dog new trick
+
+The chapters structure is nice and follow the logical step and easy to follow:
+
+    * Chapter 1, Module: the basic building block of Netbeans Platform Application.
+    * Chapter 2, Forms: You learn how forms are created for usage on the NetBeans Platform, how their layout is set, and how to implement the related handling of events.
+    * Chapter 3, Window System: The NetBeans Window System, together with the API that it exposes, lets you arrange forms on the screen within a docking framework.
+    * Chapter 4, Lookup: The Lookup API provides a communication mechanism, comparable to an event bus, which is of central significance in the creation of NetBeans Platform applications.
+    * Chapter 5, Actions: You learn how to create actions and how to invoke them from menus and toolbars, including keyboard shortcut and context sensitive action.
+    * Chapter 6, Nodes and Explorer Views: A sophisticated MVC implementation for displaying business objects is made available via a set of extensible Swing components, which you can use without very much work at all.
+    * Chapter 7, File System: The File System API lets you access a NetBeans Platformâ€™s virtual filesystem, which serves as the applicationâ€™s central registry and configuration system.
+    * Chapter 8, Data System: The Datasystems API gives you access to the content of files. You learn how to extend a NetBeans Platform application to provide support for custom data types.
+    * Chapter 9, Dialogs: The responsibilities of dialogs in an application extend from the display of simple messages to the management of step-by-step procedural wizards.
+    * Chapter 10, Settings: which introduces you to the most important APIs and the entry points into the centralized Options window.
+    * Chapter 11, Help: HTML files constituting your documentation can be integrated into the application which can be invoked using action or keyboard shortcut
+    * Chapter 12, Branding: which enables the applicationâ€™s ancillary details, such as icons and splash screens, to be customized.
+    * Chapter 13, Distribution and Updates: To let you distribute applications, and examine the various distribution mechanisms for NetBeans Platform applications including installer and online update.
+
+**
+Netbeans Platform 6.9 Developer`s Guide (2010)
+
+
+** Buy this book at: ** 
+https://www.packtpub.com/netbeans-platform-6-9-developers-guide/book
+********************************************************************
+
+Cover Picture:  
+http://1.bp.blogspot.com/_fcQoj48LYPE/TI3QNP09IUI/AAAAAAAACp8/r4vVZwVrVik/s1600/Screen+shot+2010-09-13+at+12.46.50+PM.png
+
+Book review (credits by Tonny Kohar): 
+http://blogs.kiyut.com/tonny/2010/09/15/book-review-netbeans-platform-69-developers-guide/
+
+Book review2 at: 
+http://netbeanside61.blogspot.com/2010/09/book-review-netbeans-platform-69.html
+
+English translation errata: 
+http://wiki.netbeans.org/PetriEnglishTranslationErrata

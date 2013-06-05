@@ -1,0 +1,34 @@
+Race Driver: Grid is the most recent addition to the TOCA Touring Car series, which is published and developed by Codemasters.
+
+This is the PC version, conveniently packaged with the latest update (1.3) and patched executable. No tedious extracting of RAR files.
+
+*** Installation instructions *** 
+
+1. Mount the image (MDS) with Daemon Tools or another image mounter of your choice,
+2. Install the game (no serial number required),
+3. Install the version 1.3 patch (gridpatch_1_3.exe)
+4. Extract GRID.exe and rld.dll,
+   - from RACE.DRIVER.GRID.V1.3.ALL.RELOADED.NOCD.zip
+   - to the folder where you installed the game
+5. Play!
+
+Seeding would be greatly appreciated.
+If you like this game, please consider paying for it.
+
+*** Please note ***
+
+A decent controller is a must!
+
+If your computer is running the game at a low framerate, you will want to try this:
+
+Go to your documents folder, navigate to Codemasters, GRID, hardwaresettings, and open the file "hardware_settings_config.xml".
+
+There you will find the line: 
+ postprocess enabled="true" blur="true"
+
+Change both to false, like so: 
+ postprocess enabled="false" blur="false"
+
+Or mix and match to find a setting you like.
+
+--4rror

@@ -1,0 +1,21 @@
+This version is designed to seamlessly handle both MPEG2 and H.264 encoded files. H.264 is also called AVC and AVCHD. Technically, we support the following H.264 formats:
+
+Input formats:
+â€¢Transport streams with H.264/AVC video with the following audio codecs: MPEG Layer 2, AC-3, AAC and AAC-HE.
+â€¢MP4 formatted files with H.264/AVC video with AAC and AAC-HE audio. This includes Apple MOV files, and some camera formats.
+â€¢Video dimensions up to 1920x1080p at chroma 4:2:0.
+â€¢WTV streams support is preliminary (see below).
+â€¢All the traditional MPEG2 formats supported in earlier versions.
+Output formats:
+â€¢MPEG2, program, transport and dvr-ms streams with MPEG and AC-3 audio.
+â€¢H.264 transport streams with MPEG Layer 2 and AAC audio. AC3 and AAC-HE audio is supported if they are present in the source file.
+â€¢H.264 .MP4 files with MPEG Layer 2 and AAC audio. AAC-HE audio is suported if present in the source file.
+â€¢WMV/VC1 output.
+â€¢MPEG-4 Part 2 .mp4 files.
+â€¢Elementary streams.
+â€¢NTSC closed captioning and DVB subtitling, if present in the source, is preseved in the output file.
+Smart editing:
+If source and destination formats have identical formats, dimensions and bit rates, TVSuite V4 will automatically invoke its smart editing feature and not recode your source video except for a few frames at cut points. This is the traditional behavior you expected from VideoReDo in the past.
+
+Output Profiles:
+The output format is determined by a list of file types, called profiles, in the file save box. The product comes with quite a few profiles which can serve as a starting point. You can create your own profiles, exchange profiles with other users using the import and export mechanism. There will be more on profiles in a separate post. 

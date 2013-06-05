@@ -1,0 +1,326 @@
+User Type,Username,Date,Text
+,MannMedBart,2010-09-21T18:40Z,"Hey! First of all, awesome torrent. Great instructions and easy to make it work, Thanks! 
+Now for a little question, me and my friends wanted to play Lan and everything went fine, sat up a server, they connected to the server etc. However there was only one big FLAT map, so we changed that out with a save file so we could get another world. However, now the zombies won't work. Night comes and eveything, but the zombies just don't appear. Any tips on how we can get zombies back in the game? Thanks :D"
+,NanoEntity,2010-09-21T20:51Z,"Open
+server.properties
+
+Look for
+monsters=false
+
+and set to
+monsters=true"
+,Teldrangel,2010-09-22T03:33Z,"Hey, I got it working according to your instructions, turned off the TNT mod and turned on monsters, but when I log into the server the entire thing is flat! I tried switching to a world from single player, yet when I get past the loaded part of the world, everything spawns flat again! why is this? and can I change it back to proper spawning like in single player? a completely flat landscape just isnt fun :("
+,UnknownLife,2010-09-22T03:50Z,Im having trouble connecting to my own server. What am I doing wrong?
+,Periclams,2010-09-22T04:06Z,"Does anyone know how to get this running in Linux? I think I need to get the Linux natives, e.g. liblwjgl.so."
+,xsexyxian,2010-09-22T06:43Z,"Whenever I click 'play offline' it shows the loading bar thing, and then it all goes black! What's wrong?"
+,stevenlane,2010-09-22T06:50Z,"sound doesn't work using the name spoofer, but it suddenly works again when you just run minecraft.exe"
+,mikejacobs,2010-09-22T09:45Z,"How do you generate the world, its just flat =="
+,knapman47,2010-09-22T13:53Z,"Its fine except the sound doesn't work, how do I get it to work? Also, is it meant to be snowing? I prefered it when it wasn't, can I change that? "
+,NanoEntity,2010-09-22T14:00Z,"To generate new world
+
+Delete
+world
+
+in the Server."
+,Psychoray,2010-09-22T14:09Z,"Thanks for the upload NanoEntity! :)
+
+Question: Cobblestone doesn't seem to drop, not in singleplayer and not in multiplayer. What am I doing wrong? All other blocks seem to be dropping (gravel, wood, dirt).
+
+I can't make any tools without cobblestone."
+,lolzzznub,2010-09-22T15:08Z,Hey where's the sound?
+,Psychoray,2010-09-22T15:52Z,"Nvm, I was just being stupid -_-"
+,knapman47,2010-09-22T16:38Z,"Thanks for the upload but there are too many errors in this thing. Sound doesn't work, there are no monsters when its night time (I even walked right up to a monster spawner underground and nothing was there). I walked into lava and set myself on fire without getting hurt. I cant find the file named ""server.properties"" to change it from monser=false to mosnters=true. A little help would be appreciated otherwise I would tell people to avoid this download. "
+,knapman47,2010-09-22T16:43Z,"My bad, the game starts with the difficulty setting ""Peaceful"", I didn't know this meant there were no monsters, just change it to one ofthe others and monsters will start to come at night, but still no solution to there being no sound?"
+,Durial,2010-09-22T17:40Z,"Quick question, will my world's save keep saved if I close the minecraft server .exe? i.e next day I want to play with my and a friend and I just do the same instructions and it will work? "
+,Durial,2010-09-22T18:04Z,Wait sound doesnt work! :( 
+,AnonDeveloper,2010-09-22T19:18Z,"Sound is apparently broken for people that bought the game as well.
+see: http://www.minecraftforum.net/viewtopic.php?f=35&t=39400&sid=e90041b9a35e73ba966e863ffbb8298b
+
+The problem is not the name spoofer, notch is aware of the bug and is working to fix it.  The current fix involves either replacing a dll, or starting the game offline and then connecting to the internet.  Either way, it sucks.
+
+Funny story, the name spoofer doesn't work unless you are connected to the internet :D
+I'll look at messing with it this weekend to allow you to launch the game from a .jar located in the same folder as the name spoofer, but notch will probably fix the bug before I fix the spoofer."
+,knapman47,2010-09-22T19:59Z,"To save everyone trapsing through that forum that was posted, basically the only solution seemed to be that you had to be disconnected from your internet BEFORE starting the game, so, close your game, disconnect from your internet, restart game (sound should then come on) and reconnect to internet if you wish. "
+,As4ss1n,2010-09-22T21:18Z,"Hi , i have a problem, I downloaded it did what i had to do but when i start playing it slowly starts lagging and then it laggs completely and quits in few seconds. Is there any solution?"
+,Lonemav22,2010-09-22T23:29Z,"Nice upload wanted to try this out, having an issue though when I start the client and just try to log in and attempt to play offline the client says i must play online once to enable offline, and the offline button is greyed out.  Is there a workarround? thanks in advance :)"
+,ItzMax,2010-09-23T00:27Z,i have 83 md uploaded thats more than a 2 ratio and im prob gonna upload till i have like a 10 torrent works 100% thanks man!
+,mikejacobs,2010-09-23T06:04Z,"Hey NanoEntity or anyone, does anyone know how to turn off immortality in the game? My friend and I want to kill each other and have guerilla warfare ^^."
+,NanoEntity,2010-09-23T09:24Z,Killing players/monsters dose not work in MP.
+,NoxMortal,2010-09-23T09:40Z,"@mikejacobs
+
+""SERVER NOTES:
+
+ANTIGRIEF PACK:
+(Fire, Lava, TNT, Adminium, Lighter)
+The server has ANTIGRIEF pre installed, if you DONT WANT that.
+
+Go to
+.minecraft server
+\bin
+\minecraft_server_original
+
+Copy all files
+
+And Paste them into
+.minecraft server
+\bin
+minecraft_server.jar
+
+You can open ""minecraft_server.jar"" with WinZIP or WInRAR.""
+
+there ya go mate :) I think that should help you out."
+,louiehamper,2010-09-23T17:51Z,"hey anybody, i cant seem to create a server and i have the server properties with the offline mode and the not checking peopel names, and also, is the minecraft_mod.jar file supposed to open something, because it doesnt do anything for me"
+,Bajsskumpan,2010-09-23T20:50Z,"How to change world?
+The only world that was there for me was a shitty world with some big scrapers in the middle and it was flatten everywhere else. I found a ""level-name"" property in the server file located in the bin folder of minecraft server... what can I change it to? It's deafult is world which is apparentley the shit map"
+,Bajsskumpan,2010-09-23T21:27Z,"Got the world working.. however, me and my friend are invincible how to make us non invicible??"
+,NanoEntity,2010-09-23T21:29Z,"SOUND FIX
+Load a world or connect to a server, and once you are ingame, hold down F3 and press S.
+
+This should turn your sound back on. You have to do it every time that you restart Minecraft, however.
+
+(F3 is the debug key, and F3+S reloads web resources)"
+,AnonDeveloper,2010-09-23T22:56Z,"the newest update, 1.1.2_01 (I think that's what it's called) fixes this."
+,Xalx09,2010-09-23T23:07Z,okay i set up a server and try to get into but when i press connect after a few seconds it all turns black and nothing happens. In the server window it says it is working but i dont connect. Also i port forwarded the port and still nothing. Can anyone help??
+,Xalx09,2010-09-23T23:21Z,I got into my server but my friend cant any suggestions?
+,iSoTanic,2010-09-23T23:43Z,Can you please upload a minecraft_server.jar build which has admin commands but no antigrief? because all my mates want to mess around with TNT and antigrief just respawns the blocks T_T P.S. I already tried an ingame command /modify [username] modworld true . But it keeps respawning! please fix!
+,iSoTanic,2010-09-23T23:57Z,can you please make a a pack which ONLY removes the antigrief? so you can use the admin part? need it for my hamachi server :)
+,NanoEntity,2010-09-24T00:38Z,"Forgot to add 1 thing to server.properies
+
+Find
+disalloweditems=
+
+Change to
+disalloweditems=51,52,7"
+,louiehamper,2010-09-24T00:57Z,"hey seriosly can someone help me with my problem, i follow the instructions but it doesnt work
+
+i open up the minecraft_server.jar file and it doesnt work, it says it couldnt copy the properties file or something like that. and the minecraft_mod.jar file does nothing at all"
+,NanoEntity,2010-09-24T01:10Z,install java.
+,louiehamper,2010-09-24T02:12Z,"i have java installed, what version should i have, if i didnt have java installed i woudnt be able to open the server files"
+,louiehamper,2010-09-24T02:20Z,i have it installed
+,CrackaJackAttack,2010-09-24T04:02Z,"When i try and play minecraft like you have written for windows xp it wont let me play offline without playing online once, is there a way i can play offline without playing online once?"
+,CrackaJackAttack,2010-09-24T04:04Z,I followed your instructions for xp but i cant play offline without playing online once. can i get around this?
+,NanoEntity,2010-09-24T06:22Z,"extract minecraft to C drive, where it so post to go."
+,lolzzznub,2010-09-24T09:54Z,"Hey i seem to have a problem when minecraft sometimes turns black. I play for around 30mins, the it suddenly stops. then, if i mined coal(may be other stuff too, the place where i found it will have a new supply. Also, i notice that the size of my save never changes. Also, i play in a snow world. Could somebody help?"
+,DarkArchy,2010-09-24T10:09Z,"Are you going to implement survival multiplayer anytime soon?
+Or have you already done that?"
+,iSoTanic,2010-09-24T14:10Z,"I'm sorry to annoy you again Nano, but the blocks are still respawning after I use TNT :( . So I want to be able to use TNT without respawning blocks and still have those fancy admin commands enabled... is it so hard to do? or is it even impossible? -__-"
+,kristoffer3x,2010-09-24T20:36Z,"i get login error:
+
+""Can't Connect to minecraft.net 
+Play online once to enable offline.""
+????"
+,kristoffer3x,2010-09-24T21:02Z,i cant loggin to offline!!!!!
+,NanoEntity,2010-09-25T01:18Z,"@Isotanic
+Read what it says in ANTIGRIEF PACK:
+And do what it asks."
+,Darkning,2010-09-25T07:37Z,"Is the game supposed to start after entering a name in the minecraft_name file? Nothing happens for me. 
+Or do I run that after I boot up the minecraft.exe?
+
+Also even without that working, for some reason inside the game I can't dig away blocks, is there a setting that needs to be enabled to allow this?"
+,WhiteGG,2010-09-26T01:48Z,"Hey Nano, first of all, great torrent!
+
+One little problem though:
+
+I can't break any blocks (wood, ground) but I can still kill animals.. What's wrong? Is there a workaround? Seems like I have the same issue as Darkning"
+,CrackaJackAttack,2010-09-26T03:47Z,When i try to play offline it says i have to play online once first. how can i play offline?
+,lolzzznub,2010-09-26T06:53Z,@WhiteGG Did you hold down the mouse?
+,JesusIsMyFriendsUncle,2010-09-26T08:05Z,"Ey Great torrent works excellent. But im having a problem connecting to my own server, i've followed your directions to the letter but whenever i try to log into my server it says:
+failed to connect to the server
+Connection refused:connect
+
+Any idea how to fix this?"
+,lauriraudla,2010-09-26T08:47Z,i wish there were sea monsters and dragons and prefix mobs already.
+,Lonemav22,2010-09-26T10:01Z,"@white & dark
+
+I think that might depend on who's server you joined, i believe it can be set up to have non distructable environments, for building only."
+,Lonemav22,2010-09-26T10:04Z,"Oh yes and my question, having problems setting up/connecting to my own LAN server as well.  Seems as when I run Minecraft_Mod it doesnt do anything? any help would be nice, thanks in advance :)"
+,Nolzi,2010-09-26T16:44Z,"Nano, can I kindly ask you to make the next version's default server config as identical to the classic single play as possible? I mean zombies, damage, killing animals, etc. Or a guide how to do it. Thank you!"
+,captain_duck,2010-09-26T23:00Z,"Does anyone know a way to connect to a multiplayer running in the same networkďťż on another computer?
+
+Im aware minecraft doesnt allow people from the same ip to join the network, but is there a way around this? Id like to play this with my roommate."
+,NanoEntity,2010-09-26T23:40Z,"HP and Damage monsters dose not work, ask developer of minecraft to add that."
+,Nik721832,2010-09-27T01:37Z,"Nice upload wanted to try this out, having an issue though when I start the client and just try to log in and attempt to play offline the client says i must play online once to enable offline, and the offline button is greyed out. Please help."
+,Dug363636,2010-09-27T01:39Z,"The name spoofer doesn't work at all.  It doesn't give you any prompt to enter a name, it just starts the game normally."
+,captain_duck,2010-09-28T03:04Z,"Did the Minecraft_Name.jar stop working for anyone else this evening? Me and 3 of my friends suddenly cant change our name using it anymore. 
+
+I still get the enter name prompt, but then after pressing ok it does nothing, and this while it worked earlier tonight. Maybe notch patched this or something?"
+,virus57ags,2010-09-29T13:04Z,"sorry NanoEntity, how to remove the immortality of the protagonist and monsters?"
+,huldu,2010-09-29T17:59Z,"NanoEntity - The world is ""indestructible"" if you break someone it reappears instantly. I tried copy your ""original"" files but they are identical to the ones already in the cabinet! It didnt work. Something is wrong. This is for multiplayer. Monsters etc works but you cant destroy anything."
+,A93Ja3,2010-09-30T05:26Z,"*** FOR EVERYONE HAVING THE PROBLEM WHERE THEY CANNOT CLICK THE PLAY OFFLINE BUTTON (BECAUSE IT IS GREYED OUT) ***
+
+So i downloaded several versions of minecraft cause i kept getting the same problem. and i finally figured it out.
+In every torrent they tell u to paste the .minecraft folder into the Appdata/.minecraft.
+Instead. Delete the old Appdata/.minecraft and copy the new one into Appdata.
+Then just open and dont type n e thing on the  username + password and it works :)"
+,HamSammich,2010-10-02T10:50Z,"I am able to run game fine and even got the server to work with little trouble, hell even managed to add to kit list but still can not get the GD anti grief off  I copied the files from ""minecraft_server_original"" to     ""C:\Users\User\AppData\Roaming\.minecraft server\bin"" 
+am I missing something as game still has AG running   am I supposed to run server with ""minecraft_server"" ? cause that didn't work either and lose admin with that one.
+This is what my minecraft folder looks like now with the files copied in 
+Logs                                    Folder
+minecraft_server_original       Folder
+World                                  Folder
+am.class          ap.class         Banned-ips
+Banned-Players     bx.class    Groups.txt
+Homes.txt       hz.class     id.class
+items.txt        kit.txt       
+Minecraft_Mod
+minecraft_server
+mysql-connector-java-bin          ops.txt  
+README.txt        reservelist.txt       Server.txt
+Server.log.1       Server.txt    Server.gui
+Server.gui.sh Server.nogui  Server.nogui.sh
+Users.txt     Whitelist/txt    x.class
+
+Am I missing a file or are they in wrong area?
+"
+,dalsor,2010-10-03T05:48Z,"Hey all! If you guys want to play on my server, you're welcome to. DOWNLOAD Hamachi(Can get it from hxxps://secure.logmein.com/products/hamachi2/download.aspx) 
+
+1. Download the unmanaged version
+2. Connect to server:peepeesauce Password: farris
+3. Open minecraft WITH your name changed and connect to the ip: 5.29.181.118
+4. PLAY! No griefing, I will ban and kick.
+Thanks for playing!"
+,NanoEntity,2010-10-03T12:19Z,"Your so post o copy into minecraft_server.jar XD
+
+thats how to disable anti grief.
+
+you can open minecraft_server.jar with winzip or winrar."
+,HamSammich,2010-10-04T08:02Z,"Ohhh Ok now I understand I wasn't aware that's how a .Jar file worked (mix of other files) The wording was confusing, so its basically a executable zip file lol
+
+Awesome TY :)"
+,Enki54,2010-10-04T15:28Z,"To all that is having problems connecting to their own server:
+try entering 0.0.0.0 as the ip adress.
+If you haven't reset the world you should get into a flat world with some big buildings in the middle (where you spawn).
+To reset the world remove the folder ""world"" in .minecraft server/bin"
+,huldu,2010-10-05T17:19Z,"Nah, it wont work. The original files == grief files. No difference. The server will always run in anti-grief mode. Please new files."
+,webepoop,2010-10-06T01:46Z,"yeah, this torrent is great and all, but, there is no sound for the sand or any of the mobs, but other than that, its great!"
+,CpX,2010-10-06T18:54Z,"Att.: NanoEntity
+Hey, I did what you asked, copied the files into the jar file. I even checked the timestamps to be sure.
+
+I deleted everything, since I didnt know how to delete only the world. reinstalled this, applied the file I changed according to your txt file.
+
+I still can't loose life, and can't kill any monster or pig!!!
+
+Is there an easy solution here? Copy something from singleplayer maybe?
+
+Everything works though. Pls assist."
+,PPG113,2010-10-06T19:10Z,Game works. Dont know/care about the rest of the stuff.
+,Wildcard6,2010-10-08T15:03Z,"Torrent works great and fast download
+
+--For anybody having the sound problem (no sound from mobs etc) press F3 + S while playing to fix it.--"
+,Mr.Mellow1,2010-10-08T15:53Z,"Hey me and my friend are trying to play a game together but we cant get it to connect. We are using hamachi aswell but it still says unknown host or connection timed out.
+
+help please."
+,theonewithboringusername,2010-10-08T21:17Z,offline option no longer works until you sign on with a working account.
+,MulliganM,2010-10-09T23:47Z,"@theonewithboringusername
+
+Use the name.exe and you can by pass not using log on to do offlinemode"
+,menos23,2010-10-10T23:40Z,"When i try to connect to my own server i get the error  ""Failed to connect to the server. Connection refused: connect"" anyone know how to fix this?"
+,snap64,2010-10-11T21:47Z,"I downloaded the torrent and set it up and everything, and it was working just fine(aside from the fact that my computer is too shitty to run it any faster than 2 fps), until, for no apparent reason, it said ""Could not create Java virtual machine."" when I tried to launch it.
+
+I have no idea why it wont work now. Could someone please help me?"
+,Xeferoth,2010-10-11T22:55Z,"I downloaded this, and my computer does not have the option to extract the rar file. how do i fix that?"
+,MulliganM,2010-10-12T01:16Z,"@Everyone having problems. 
+
+NetWork HOSTING: To get other join you'll need the computer your running the server IP. By doing so Go to Start > All Programs > Accessories > Run. When you get run open type ""cmd"" after that type ""ipconfig"" you'r looking for IPV4 Address. Thats the IP in which you use to connect with. ALSO make sure you are using the port number you put on the server Default is 25565 (Connect Example 10.101.0.10:25565)
+
+Outside Network Hosting. You'll need you IP so google my IP thats they IP you'll give to your friends. Also note you need setup port forwarding. The port is whatever you make it on server. Default 25565.
+
+Still having trouble on network. Try opening port on router. And give it a shot from that...
+
+Need anymore help just ask"
+,MulliganM,2010-10-12T01:17Z,@Xeferoth.. It should be just in a folder I belive. If not it's win.rar.. If your talking about running the game you need java.scripts.
+,MulliganM,2010-10-12T01:34Z,"NEED MORE HELP?
+http://www.minecraftforum.net/viewtopic.php?f=1013&t=25110"
+,lauris3722,2010-10-12T20:12Z,"@MulliganM
+I have some network problem. When i startup server, try to connect it, it's saying ""Logging in"" and suddenly i lost internet connections. I have tried 5 times to start server, Every time i lost connection to the internet and i have to restart the server. When i check network status, there's no ip's and sent/received size is 0b (reseted?)."
+,iFFAAAi,2010-10-13T15:16Z,"Every time I try to start minecraft_name.jar, a cmd box opens up and goes instantly away, if I spam it I can see it complaining something about ""Main class not found""
+
+?!?! How can I fix this :/ All . jar files have the problem"
+,iFFAAAi,2010-10-13T15:19Z,"Problem solved. If you have the same thing, heres a fix. Copy the following code to notepad and save the file as NAME.bat
+@echo off
+java -jar minecraft_name.jar
+pause
+
+;D"
+,NanoEntity,2010-10-13T17:43Z,"#################################
+NEW 1.1.2_01.113 
+http://thepiratebay.org/torrent/5883706
+#################################"
+,cormorant27,2010-10-14T02:58Z,"when i try to play offline it says that i have to play online first, help please!"
+,i2true4who,2010-10-18T05:58Z,"This is ridiculous, the directions don't make any sence, I get the game working in offline mode singleplayer, but getting the multiplayer to work is such a pain in the ass"
+,pasmurf,2010-10-20T01:40Z,i am probably being a complete noob but i don't torrent much and i don't understand the instructions
+,pasmurf,2010-10-20T10:27Z,can anyone help me?
+,Dutchy131,2010-10-20T22:12Z,hmm i played 1.0.15 for a while and now this one and minecraft_name doesn't seem to work for me and a friend of me who never played 1.0.15
+,pasmurf,2010-10-21T00:44Z,"i have followed the instructions but when i open minecraft and log in(without putting in username/password) the ""play offline"" is greyed out, what can i do about thin"
+,telefonjacket,2010-10-21T15:27Z,"guys, i dont have any appdata :s what sould i do?"
+,gameboogy,2010-10-25T21:37Z,"Thank you very much, I got it working. Don't listen to those who says it doesn't. They're just dumbasses who can't read readme-files. You are awesome."
+,coolguy32,2010-10-29T01:09Z,"For Online Mode, it says Failed to connect: account not premium. What do i do to make it work?"
+,Mr.Mellow1,2010-10-30T09:18Z,is it possible to host servers with this without hamachi?
+,Mr.Mellow1,2010-10-30T09:20Z,is it possible to host this without hamachi?
+,Zegrod,2010-11-01T18:44Z,"Hey Nano.
+First of all, thanks! 
+Secondly, I'm wondering how I proceed to make my patched server (1.2 game client) work with the mods you have? i.e I like how I can use commands like ""/item 4 64"" and ""/time day"", but now with the newest update, I can't. (I've bought the game, yeah. But want your great mod working on my real server.) 
+
+Thanks in advance!"
+,Kassner,2010-11-03T09:15Z,Will you be making this for version 1.2? I want to try out the latest version of the game before I decide weather or not I want to buy it because it sounds like their are a lot of changes in 1.2.
+,yoep,2010-11-03T13:31Z,can you please update your server mod to v1.2?
+,mitchell2.0,2010-11-08T04:53Z,"I'd just like to say that it worked great, but for people with dial up like me you have to connect to the internet for the name spoofer to work. Also for a LAN game you dont need tungle. Type ipconfig in command prompt on the server or from a different computer ping your server using the name to find the ip address, then enter it in the game"
+,mitchell2.0,2010-11-08T04:59Z,I forgot to mention that THE SERVER MAP IS NOT FLAT. Keep walking in one direction and you'll come to a glass wall. smash through it and there you go. Most of the map is like a single player map. Its so massive i havent found the edge yet
+,NanoEntity,2010-11-19T22:04Z,New: http://thepiratebay.org/torrent/5966985/
+,hungryman521,2010-11-20T15:40Z,"please guys can you help me with this prob i have, i have dld every sing minecraft i can find but they all come up with this error message.
+ Bad video card drivers!      
+      -----------------------      
+
+Minecraft was unable to start because it failed to find an accelerated OpenGL mode.
+This can usually be fixed by updating the video card drivers.
+
+
+
+--- BEGIN ERROR REPORT 7fe0271 --------
+Generated 10/23/10 3:32 PM
+
+Minecraft: Minecraft Alpha v1.1.2
+OS: Windows 7 (x86) version 6.1
+Java: 1.6.0_22, Sun Microsystems Inc.
+VM: Java HotSpot(TM) Client VM (mixed mode), Sun Microsystems Inc.
+LWJGL: 2.3
+[failed to get system properties (java.lang.NullPointerException)]
+
+org.lwjgl.LWJGLException: Pixel format not accelerated
+	at org.lwjgl.opengl.WindowsPeerInfo.nChoosePixelFormat(Native Method)
+	at org.lwjgl.opengl.WindowsPeerInfo.choosePixelFormat(WindowsPeerInfo.java:52)
+	at org.lwjgl.opengl.WindowsDisplay.createWindow(WindowsDisplay.java:185)
+	at org.lwjgl.opengl.Display.createWindow(Display.java:311)
+	at org.lwjgl.opengl.Display.create(Display.java:843)
+	at org.lwjgl.opengl.Display.create(Display.java:771)
+	at org.lwjgl.opengl.Display.create(Display.java:752)
+	at net.minecraft.client.Minecraft.a(SourceFile:196)
+	at net.minecraft.client.Minecraft.run(SourceFile:554)
+	at java.lang.Thread.run(Unknown Source)
+--- END ERROR REPORT f0717b0f ----------
+
+please help me, i really want to play this game. BTW this message appears after i have clicked play offline mode then it goes black screen for a couple seconds then comes up with the above.
+Thanks for the upload, but i really want to play it too."
+,Rodef2099,2010-12-07T19:41Z,"This version is ANCIENT!
+Download the Latest version with HD (High Definition) Textures packs and tons of goodies here.
+
+P.S = 700,000+ Copies of the game have been sold... the developer has already made 7million euros...
+
+http://thepiratebay.org/torrent/6017102/MineCraft_v1.2.6_MEGAPACK_Kaen_v14.rar"
+,Th3_Raging_Bull,2010-12-13T22:46Z,SeaNanners!
+,AnderEL,2010-12-16T02:01Z,nice game
+,AnderEL,2010-12-16T02:04Z,"If you want tips and trix like how to fine lots of dimons take a look at my Youtube page :) 
+
+AnderZEL
+
+and if you like the game buy it :) "
+,loljames101,2010-12-20T19:55Z,it got stuck on 99.9 % ....anybody know what i should do 
+,reepacheep523,2011-01-16T09:12Z,I cant find the .jar for the name thing...where is it??
+,ProButch,2011-01-26T05:13Z,"If you like minecraft, buy the freaking game! Notch and the Mojang team have put alot of effort into making Minecraft for all the good little boys and girls, and you freeloaders just come and torrent it.
+If you are just trying minecraft out, sure... As long as you pay for it when you realize how awesome it is. With an account, you get so much more stuff. Updates as soon as they're out, skins, and multiplayer.
+Do yourselves a favor and just get the game. It is well worth it."
+,AnderEL,2011-03-08T16:43Z,"If you nead some tips and trix on how to find lots off diamonds iron gold and what not take a look at my youtube videos on difrent minecraft tutorial how to and let's play videos hope you enjoy them :) youtube channel name AnderZEL 
+
+and if you like minecraft buy it defenaty worth 15euros :) "
+,baszem1,2011-09-15T16:04Z,Thank you It really helped me and now I can play minecraft online with my friends!
+,leo230898,2011-09-28T19:11Z,I downloaded this torrent long time ago. Then bought the game. Too bad you can't downgrade minecraft but thanks for this. Can't wait to nostalgia!

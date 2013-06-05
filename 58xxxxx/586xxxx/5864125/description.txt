@@ -1,0 +1,26 @@
+N2KMaster Page Blaster v1.0 beta Testing Version
+================================================
+Sponsored by Click-Me.org
+
+WARNING! - THIS IS STILL IN BETA PHASES! I just need people willing to test this!
+
+What it does: 
+=============
+
+A while back i spent quite a bit of time trying to find some way to create full page views thro some sort of bot system that would run on autopilot. While all i could find online were php scripts that would show thro the webalizers and seemed to somewhat show on alexa thro hits generators, while the counters, chatboxes, live maps etc would never show any result of these. Meaning that if you wanted to make your website look super active, it wouldn't therefore making your sites true rating (what's really calculated as web traffic, all those little widgets and such) wasn't reading anything. This bot is designed to fool all these systems, and drive a better system of fake visitors appear on your website. While the hits are worthless, the overall benefit outweighs that and ups all the other stats.
+
+Why it was made:
+================
+Autosurf and Manual surf exchanges are dying, not matter how many framers they hold. They are an outdated version running thru php of this app.
+
+Is it safe:
+===========
+Yes. Its clean. However it has these flaws right now and these will be fixed by next version which is coming out this week.
+
+1. No Panic kill switch yet, you have to task manager to close it.
+2. If you have windows and program files installed to another area it wont work.
+3. You have to reset the Internet Explorer connection back to where it was and disable the proxy manual in the IE settings. Not hard. Just a pain i will fix that
+4. The proxy list can't be tampered with yet, im building a website that will have updated proxy lists compatible with this.
+5. DO NOT LET IE REMEMBER YOUR PREVIOUS SESSION, IE EXPLODES, It will try to reopen every last gd IE window it opens, like if you sent 10,000 hits, its gonna remember 10,000 windows (I found out the hard way)
+
+Next version I'm gonna try to make it compatible with firefox as well and its gonna have a graphical window and display more, for now its text to make sure everything is working, you may get a lot of dead loads due to crappy proxies but the list is current so hey its a free proxy list :P

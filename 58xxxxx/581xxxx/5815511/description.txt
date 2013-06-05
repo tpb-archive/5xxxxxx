@@ -1,0 +1,29 @@
+1) Download my previous torrent and read the install instructions if you haven't done so already:
+ 
+http://thepiratebay.org/torrent/5814666/Boot_iso__img_images_etc_directly_from_hard_drive_in_XP
+
+-----------
+
+Two programs that can be useful. Neither of them requires to be installed. Yjey will not leave any track in the regestry and so on - the are completely portable. 
+
+
+WinContig:
+
+If you have a full and/or very fragmented hard drive the image files (iso, img, imz ...) might get fragmented as well and it might not boot from grub4dos. You can use the WinContig program to defragment those individual files instead of defragment the whole disk. 
+
+
+MobaLiveCD:
+
+You can test if it boot proces will work with the second program - MobaLiveCD. So you don't need to reboot untill everything works. To do this
+1) Open the program by clicking on "MobaLiveCD_v2.1.exe"
+2) Go to the "Start directly from a bootable USB drive"
+3) But instead of chosing a usb drive in the drop down list - chose your boot hard drive (most often C:\ ) and press OK
+4) Don't create a virtual machine
+5) See the boot process and choose Grub4dos in the XP boot menu
+
+(PS You have to press Ctrl + Alt to get the "mouse out of" the emulator)
+
+ 
+Both programs are freeware: 
+http://wincontig.mdtzone.it/en/faq.htm 
+http://mobalivecd.mobatek.net/en/

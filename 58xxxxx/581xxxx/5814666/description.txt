@@ -1,0 +1,44 @@
+Boot iso, img images etc directly from hard drive in XP
+
+(includes Slitaz an amazing 30 meg Linux distro that loads in RAM and is extremely fast)
+
+Install instructions:
+
+1)
+
+Add the following line to the [operating systems] section of the configuration file boot.ini -
+C:\grldr="Grub4Dos"
+
+NOTE 1 - the path "C:\grldr" should be used even if the Windows OS has a different drive letter.
+NOTE 2 â€“ boot.ini is a hidden system file. It is not displayed by default, in order to edit it you will need to open Explorer and select the Tools menu then select Folder Optionsâ€¦ and open the View tab.
+
+    * Enable "Show hidden files and folders"
+    * Disable "Hide extensions for known file types"
+    * Disable "Hide protected operating system files"
+
+The edited boot.ini file will look something like this -
+
+[boot loader]
+timeout=30
+default=multi(0)disk(0)rdisk(0)partition(1)\WINDOWS
+[operating systems]
+multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Microsoft Windows XP Professional" /noexecute=optin /fastdetect
+C:\grldr="Grub4Dos"
+
+
+(The text above is taken from grub4dos excellent guide: 
+http://diddy.boot-land.net/grub4dos/files/install_windows.htm )
+
+2)
+
+Copy the content in the folder "Copy_content_to root" to the root directory - most often  C:\
+
+3)
+
+Now reboot windows â€“ a boot menu should be displayed with a new option for Grub4dos. Choose Slitaz from the Grub4dos meny
+
+-----------------------------
+
+Important:
+
+There are other boot options then Slitaz that I will upload later (these coming files should also be put directly in the root directory). The file menu.lst can be edited if you wish to reduce the number of non functioning boot options. Read the excellent grub4dos guide mentioned above for instructions (the guide also explain how this can be done in windows 7, Vista etc if you want to check it out) OR you can download the missing iso files if you don't want to wait for me uploading them.

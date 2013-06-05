@@ -1,0 +1,12 @@
+Hadron is a Gentoo based binary and portable Linux operating system. The aim of this project is to create a powerful, optimized, modular, reliable and stable GNU/Linux distribution.
+The system uses a new tool called lpms, written in Python. It is similar to well-known package managers but has important differences. For instance, lpms compile nothing and does not copy and file on Hadron.
+Portability is major feature of Hadron. Basically Hadron is a live Linux distribution which is developed to run on USB sticks. Nevertheless, Hadron can also run on hard disk and cdrom as well.
+In our approach, modules are a file system that mounts to root. Otherwise,modules are similiar to packages of other Linux distributions. But a module can include many packages. Modules are described by using XML and small Python scripts. lpms tool reads XML spec file and collects files from the host system. For more information about this process, click here.
+Hadron has software repositories. New modules(new packages) can be installed from these repositories. To do this, you simply run the following command :
+# lpms -a module-name
+lpms resolves dependencies automatically and downloads the needed modules from servers. In addition, lpms can support more than one software repository.
+ 
+http://hadrongnulinux.sourceforge.net/
+
+sha1sum : a2363294e08b9fe0d093a6254fcf68890e5c089f  hadron-alpha-core-x86.iso
+md5sum : a1fae9f86f08e84b263d27cc39f9ae00  hadron-alpha-core-x86.iso

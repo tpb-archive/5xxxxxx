@@ -1,0 +1,32 @@
+
+
+All Windows 7 versions are supported.
+Windows Server 2008 R2 Editions supported.
+RemoveWAT removes WAT (Windows Activation Technologies) completely from the OS, whilst still retaining OS genuine status and receiving all updates.
+You will still pass the genuine check (WGA).
+Disables activation completely but does nothing to the validation.
+There will be no windows activation section in control panel.
+Windows Activation Technologies will be gone.
+No slmgr, no nags, no prompts.
+Original credits to: FreeRyde & Hazar
+Works perfectly on a system where previous activation (Developer activation 1.1.3) was disabled by the new WAT update.
+New Windows 7 antipiracy update to phone home regularly
+Feb 2010
+The update will detect \"more than 70 known and potentially dangerous activation exploits\" that attempt to bypass or compromise WAT and will determine whether the copy of Windows 7 that is installed on a PC is genuine. It is also supposed to improve the integrity of key licensing components on the OS and will run periodic validations every 90 days.
+The update will be for all editions of Windows 7, although it will be distributed for Home Premium, Professional, Ultimate, and Enterprise editions first. It will be available online at Microsoft.com/Genuine starting on February 16, and on the Microsoft Download Center the following day. Later this month, the update will also be offered through Windows Update as an \"Important\" update, but it will not be directly offered through Windows Server Update Services (WSUS). The update will be voluntary (meaning that you can choose not to install it) and can also be uninstalled at any time. Enterprise customers use WSUS to manage the distribution of software updates in their IT environment, so it\'s surprising that Microsoft is skipping this area, though the company noted a WSUS administrator can import this update from Microsoft Update.
+Microsoft also promised that the update will not jeopardize the user\'s privacy since none of the information sent to Microsoft\'s servers includes personally identifiable information. If the update spots known activation exploits and the copy of Windows 7 is found to be nongenuine, the antipiracy notifications built into the OS will spring to life.
+PCs running genuine Windows 7 software with no activation exploits won\'t see any prompts since the update runs quietly in the background. Microsoft also says the customer will see no reduced functionality in their copy of Windows: applications work as expected and access to personal information is unchanged. During the quarterly validation, Windows will download the latest \"signatures\" that are used to identify new activation exploits (think antivirus software). The WAT update will run a check and repair weekly, however, if it discovers tampering, disabling, or missing licensing files.
+Just last week, a federal judge dismissed a lawsuit over the Windows Genuine Advantage (WGA) component in Windows XP after more than three years. Still, Microsoft chose to make this WAT update optional, so clearly the company has changed its ways at least a little bit.
+WAT removed/disabled, no watermark, able to set wallpaper of choice.
+
+Installation:
+1.Urar
+2.Open Remove WAT v2.2.5.2 - Windows 7 Activation
+3.Install RemoveWAT.exe *
+4.Reoob PC 
+5.Enjoy
+
+
+
+More AT:  http://thumperdc.com/		
+

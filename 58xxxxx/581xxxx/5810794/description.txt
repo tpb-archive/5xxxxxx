@@ -1,0 +1,22 @@
+From DistroWatch :
+Clonezilla Live is a Debian-based live CD containing Clonezilla, a partition and disk cloning software similar to Norton Ghost. It saves and restores only used blocks in hard drive. With Clonezilla, one can clone a 5 GB system to 40 clients in about 10 minutes.
+Clonezilla live 1.2.6-18
+
+'* The underlying GNU/Linux operating system was upgraded. This release is based on the Debian Sid repository (as of 2010/Sep/04).
+ * Partclone was updated to 0.2.15.
+ * Live-boot was updated to 2.0.3-1.drbl1, and live-config was updated to 2.0.4-1.drbl1.
+ * New file system support, btrfs, was added in this release. //NOTE// btrfs is still in the beta status, therefore this support is in testing.
+ * Russian language was updated. Thanks to Anton Pryadko.
+
+ -- Steven Shiau <steven _at_ nchc org tw>  Sat, 04 Sep 2010 00:16:00 +0800'
+  
+http://www.clonezilla.org/
+
+md5sum :
+be287871b6da474a66a070aabe1772e3  clonezilla-live-1.2.6-18-amd64.iso
+7b7e8c27955282c6781c4927957a97f1  clonezilla-live-1.2.6-18-i486.iso
+f279e99023acd9b1f23dce1333539771  clonezilla-live-1.2.6-18-i686.iso
+sha1sum :
+e133629c194c203169848fd628f4c6dfcf3e5cc3  clonezilla-live-1.2.6-18-amd64.iso
+dbf9567c6165b2bb7fd57f35d141c102736e623d  clonezilla-live-1.2.6-18-i486.iso
+31594fe5e24862020f969265fe3dd9d5f393a6e6  clonezilla-live-1.2.6-18-i686.iso

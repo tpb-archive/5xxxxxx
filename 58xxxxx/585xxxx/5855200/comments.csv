@@ -1,0 +1,7 @@
+User Type,Username,Date,Text
+,Maharaja-Krishna,2010-10-13T03:06Z,"Since I cannot edit the info page and the link is not working you may use this one instead:
+http://torcache.com/torrent/C2DD65F7C69E22DDBF22FE8B0F5A2A677B311713
+
+For those having problems (black screen) playing the movie on a media player it may be due to the (new) compression of the video header which has been implemented by default in the latest mkvmerge. Some players (like ACRyan PlayOnHD) are not able to handle this correctly. There are only 2 solutions: 1) Upgrade the player firmware if possible 2) Remux the mkv (mkvmerge) *without* compression for the video track.
+
+Sorry for that!! In the near future I will always disable compression since it does not bring any advantage more than a couple of kb less for a big risk of black screen..."

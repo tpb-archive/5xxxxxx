@@ -1,0 +1,44 @@
+Release Notes for CRUX 2.7
+
+Introduction
+
+This page discusses the relevant changes introduced in CRUX 2.7. Everybody upgrading from the previous release is advised to carefully read the following notes.
+Toolchain updates
+CRUX 2.7 includes glibc 2.12.1, gcc 4.5.1 and binutils 2.20.1
+Kernel
+Linux 2.6.35.6
+Xorg
+CRUX 2.7 ships with Xorg 7.5 and xorg-server 1.9.0.
+
+Image
+
+To save space, all packages shipped with the image are compressed with xz, which requires a new version of pkgutils. A gz compressed package of pkgutils has been placed the /tools subdirectory.
+Besides the usual ISO image, an image suitable for USB thumbdrives is available from our download mirrors.
+Incompatible changes
+Important libraries have been updated to new major versions, which are not ABI compatible with the old versions. We strongly advise against manually updating to CRUX 2.7 via ports, since these changes will temporarily break the system.
+    * libgmp has been updated to version 5.0, required by gcc and coreutils
+    * libmpfr has been updated to version 3.0, required by gcc
+    * openssl has been updated to version 1.0, required by many packages (most noticeable: wget, which in turn is called by pkgmk to download sources)
+    * libjpeg has been updated to version 8
+    * libpng has been updated to version 1.4
+    * cairo is no longer built with support for the glitz backend (this affects GTK+ applications and others) 
+
+Important changes
+    * New features in pkgutils:
+          o In addition to gzip, pkgmk has been enhanced to optionally compress newly built packages with bzip2 or xz.
+          o pkgutils can read packages that have been compressed with bzip2 and xz in addition to gzip.
+          o pkgmk has been extended by the --ignore-new command line switch, which makes it ignore new files in a footprint mismatch.
+          o pkgmk has learned distinct exit codes for the various errors that might occur. 
+    * acl has been added to core
+    * btrfs-progs has been added to core
+    * libattr has been renamed to attr and moved from opt to core
+    * libpcap has been moved from opt to core
+    * support for acl/cap has been added to coreutils
+    * NFSv4 support has been added to nfs-utils. This requires a couple of new libraries (libevent, libtirpc, libnfsidmap), and portmap has to be replaced by rpcbind. We have moved the entire NFS stack to opt, which is still shipped with the ISO. Setup will handle the upgrade and new requirements automatically.
+    * portmap has been removed from core
+    * the default configuration of sysklogd has been extended
+    * default logging of dcron is now done via sysklogd
+    * minor release numbers are no longer used in the directory layout of perl. It is now possible to update the perl port without breaking every perl extension module.
+    * the default X font path has been changed to /usr/share/fonts/X11 
+
+HomePage : http://crux.nu/Main/HomePage

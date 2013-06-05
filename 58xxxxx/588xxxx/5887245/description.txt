@@ -1,0 +1,23 @@
+This is an EverQuest client customized for use with Project 1999, an emulated server. The game plays very much like the Original EverQuest currently pre-Kunark era.
+
+www.project1999.org
+
+Instructions: 
+Follow steps 2, 3, and 5 on the tutorial here: http://www.eqemulator.net/wiki/wikka.php?wakka=PlayGuide
+
+Step 2 - Forum Account
+If you have not already done so, you will need to register an account with the EQEmulator Forums( http://eqemulator.net/forums/ )âˆž. Click the "Register" link at the top left of the page. Follow the prompts that are displayed and enter the required information: username, password, email address, etc. Make sure you use a valid email address as your new account needs to be verified. Check your email and validate your account. If you do not receive a validation code, please PM an Administrator in the IRC channel.
+
+
+Step 3 - Login Server Account
+You will now need to create a Login Server account that you will use log into the EQEmulator Loginserver. Please go to the Login Server page (located under Miscellaneous in your UserCP( http://eqemulator.net/forums/usercp.php? )âˆž). Select "Create a LS Account( http://eqemulator.net/forums/profile.php?do=newlsaccount )âˆž." Fill out the fields and proceed. Please note that your EQEmulator Forum account and EQEmulator Login Server account are totally seperate; you should use a different username/password combination for each.
+
+Step 5 - Creating Shortcut
+Now, you will need to create a shortcut to launch EverQuest and bypass the EQLive patcher (if this step is not taken, you will launch the patcher and overwrite the EQHost.txt file that you just modified, making you connect to the global EQLive Login Server). To do this, go into your EverQuest directory. Locate the EQGAME.EXE file. Right-click on the file and select "Create Shortcut." You can rename this shortcut and drag it anywhere you'd like (most people like to put it on their desktop). Now, right-click that shortcut and select Properties. In the target box, you will see the path to the eqgame.exe file. We need to edit this so that it will pass an argument to that executable when the shortcut is launched. At the end of the text box (after any parenthases), add "patchme" (no quotes). Your target box should look similar to this:
+
+"C:\Program Files\Everquest\eqgame.exe" patchme
+
+
+Or if you do not have spaces in the path, it will look like this without quotes:
+
+C:\Everquest\eqgame.exe patchme

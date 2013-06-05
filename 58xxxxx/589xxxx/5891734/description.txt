@@ -1,0 +1,9 @@
+Garmin g2 Vision Card: South Norway, VEU709L
+
+MFG ID: 010-C0856-00 MAP ID (FID): 2027
+
+VEU709L Covers:
+
+Detailed coverage of the southern portion of Norway and the north-western coast of Sweden from Roan, Nor. to Halmstad, Swe. including Bergen, Oslo, and Kristiansand in Norway, and GÃƒÂ¶teborg in Sweden, as well as coverage of northern Denmark including Limfjorden, Alborg and Frederikshavn. Also includes coverage of lake MjÃƒÂ¶rn, Swe.
+
+Insert your SD card into your GPS unit. Start the GPS. Point at the battery symbol a few seconds. When in the service mode menus go to 'Data Card Test Page'. The SD card ID is the 10 digit 'Serial'. Start GMapTool. Drag&Drop GMAPSUPP.IMG into GMapTool. Now you will find you MapID (Should here be 2027). Get and Start JetMouse Garmin Unlock 1.5. Insert SD card ID in the first entry. Generate. Choose 'Custom Mapset' and add your MapID in the 2nd entry. Generate. Copy og Paste map unlock code into the file GMAPSUPP.UNL. Both GMAPSUPP.IMG, GMAPSUPP.GMA, GUPDATE.GCD and GMAPSUPP.UNL must be put in a GARMIN folder in the new SD card. 

@@ -1,0 +1,49 @@
+User Type,Username,Date,Text
+,Bman420420,2010-09-11T03:13Z,D'loaded this file from another site and has tons of issues.  Will not play on most standalones or will not convert in most programs.
+,pizzahut123,2010-09-11T03:20Z,u fail softwarez!
+[T],jemyre,2010-09-11T07:11Z,is the audio fine or still out of sync?????
+,SoftWarez,2010-09-11T10:50Z,not oos.
+,loadstone007,2010-09-11T13:33Z,"If it has so many issues as detailed, perhaps it's best to wait for a different release/proper."
+[V],-jonny-,2010-09-11T23:57Z,This is just a shitty R5. But the proper R1 bluray will probably be in a couple of months
+,Dolores88,2010-09-12T09:58Z,"Solution: Will not play on most standalones or will not convert in most programs. 
+
+Please read this from the Matroska FAQ:
+
+Why does audio or video not play anymore since v4.1.0 (e.g. MP3, AC3, DTS audio tracks, h264 video tracks)?
+
+The Matroska specifications know a feature called ""header removal compression"". This allows a muxer to keep a certain number of bytes that are identical for each frame in the track headers removing them from the individual frames. This reduces the size of the tracks significantly without altering the content as a demuxer can add the bytes found in the track headers to each frame during demuxing.
+
+Starting with v4.1.0 mkvmerge uses header removal compression for a couple of track types by default. These include AC3, DTS and MP3 audio tracks as well as Dirac and MPEG-4 part 2 (aka. XviD/DivX) video tracks. The user muxing a file may disable it by explicitely selecting 'none' as the compression scheme for such a track.
+
+If your player has difficulties playing such files then it is a bug in that player or in the demuxer but not in mkvmerge. This feature has been part of the Matroska specification since more than six years, and there's no excuse for refusing to add support for it. 
+
+I made a copy mkvmerge Gui v4.1.1 
+Not change the settings just make a copy and it works ,and then you get images and sound
+Works for me every time
+
+http://www.videohelp.com/download/mkvtoolnix-unicode-4.1.1-setup.exe
+
+Greetings 
+
+Dolores88"
+,ROSSINL,2010-09-12T20:50Z,"Why do uploaders claim to have used Bluray disks as the source, when it's obvious that this is just an upscaled movie?! "
+,snookin6,2010-09-13T18:27Z,Movie is very good quality it would play great on my computer but would not display a picture on my Seagate Theater+ I tried what dolores had suggested and it works fine now! Thanks!
+,PriSoner69,2010-09-13T20:19Z,"For me this file crashes the lastest VLC Media Player and Nero Showtime after the first few seconds of playback.
+
+It also fails to play on the Play!On HD.
+
+Will try Dolores88's fix.."
+,PriSoner69,2010-09-14T00:56Z,"remuxed with mkvmerge.
+
+Generated lots of errors and warning.
+
+Created an mkv file which plays back on everything but not worth watching as it stutters and stops in all the places where it was repaired by mkvmerge.
+
+Avoid like the plague!"
+,loadstone007,2010-09-14T14:02Z,"OK, so I'll be patient and wait for a proper release."
+,AMoveFan,2010-09-28T21:15Z,Most of you downloaders are fucking stupid because you make unnecessary complaints you should be happy that someone decides to put they're hard work into uploading just so you downloaders can freeload give them a break they know what they are doing and most blue ray uploads are yes blue ray uploads dumbasses 
+,AMoveFan,2010-09-28T21:17Z,and I watched this 1 and it looks great good job softwarez.
+,AMoveFan,2010-09-28T23:31Z,I started to watch the actual movie itself after watching the sample and there are errors in the movie but still this movie is watchable it pixelates a couple of times but it is defently blue ray quality.
+,hahasanta,2010-10-03T09:10Z,some 1 please email me at    ranger_tommy1995@hotmail.com     and please tell me a good safe site to dl movies?... i really want this movie?
+,mathias921,2010-10-26T10:54Z,worst release ever!
+,Mathlol,2010-12-10T20:13Z,"Fine for people who want it, but not even released yet so stop complaining about anythign you can think of."

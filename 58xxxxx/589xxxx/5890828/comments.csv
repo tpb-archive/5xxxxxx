@@ -1,0 +1,71 @@
+User Type,Username,Date,Text
+,jcas5,2010-10-19T13:10Z,"Great work Kellso76, I am using Mac OSX 10.6.4 and I am able to encode successfully with one minor drawback...no Dolby Digital 5.1 audio? I am using a source file of 720p .mkv ? What am I doing wrong? Please help. Thanks again for all your work!!"
+,Kellso76,2010-10-19T23:12Z,"Explain the process you're using. What program, what type of file you're trying to encode to, etc. Alot of encoders put up the bogus ""6 channel"" AAC audio but its not true Dolby Digital 5.1. Its a track with sound coming from all 6 channels. Its the equivalent of Pro Logic II but its still not Dolby Digital. Are you trying to accomplish Dolby Digital 5.1 or a 6 channel AAC track? "
+,jcas5,2010-10-20T00:07Z,I am using encode-handheld-5.3 and encoding to appletv.m4v same as you.  Was advised by holyroses to use subler and mux together? so trying that now? Any other suggestions?  I am after a way to get the exact video/audio quality you/holyroses/poppedtart get.  I believe I am close as just need to get the audio part down. Thanks alot for your feedback.
+,Kellso76,2010-10-20T00:41Z,"Ur on the right track.......After u encode a movie, u should get an AC3 audio track made by Encode-Handheld and it should be in the output folder once encoding is complete. After that, u just Mux it in with Subler and rename it to Dolby Digital and thats it.....if that doesn't work, U can extract the audio from the MKV file with this command line:  
+
+to copy DD track:
+ffmpeg -i (File Name) -acodec copy (File Name).ac3"
+,jcas5,2010-10-22T14:31Z,Okay figured it out with Subler but is there a way to do it auto like command line?  Also what switches do you use to get your quality -t appletv -pbM ? Thanks for the feedback...
+,Kellso76,2010-10-22T20:16Z," Ur doin everything right. As far as it being a command line for automatically muxing an AC3 track, I have no idea on that one.......thats def an HR or PT question. What switches are u using currently?  "
+,Kellso76,2010-10-22T20:31Z,"This is the first part of the command line I use when I encode:
+
+encode-handheld.pl -t appletv -pb  
+
+pbM is for MKV files
+
+You shouldn't have to tweak anything. HR and PT have already tweaked the hell out of the program but if u wanna tweak your own way, u should contact HR on that one. This list may help:
+
+-t = type psp or appletv in this case
+-p = 2 pass
+-i = ipod compatiable
+-M  = extract matroska audio
+-o +10 (gain +10 on audio)
+-w (numbers = IMDB number)
+-m12 = 12 compute threads to run with
+-f = file to encode
+-C = thumbnail to use
+-n = file name to output to
+-N = itunes name
+-y = release date (from imdb)
+-e = genre from imdb
+-d = desription from imdb
+-q = rating from imdb
+the -b appletv = use bframes"
+,jcas5,2010-10-22T22:29Z,"here is what my encode vampire d.command file contains.  I am just able to double click and it runs.  Just edit each week.
+#!/bin/sh
+cd ~/Movies/handheld-video/
+encode-handheld.pl -m12 -t appletv -pbM -f ""/users/name/downloads/the.vampire.diaries.s02e06.720p.hdtv.x264-immerse.mkv"" -C ""/users/name/pictures/posters/thevampirediaries.jpg"" -e ""Sci-Fi & Fantasy 
+"" -q TV-14 -N ""Plan B"" -D ""Despite Elenaâ€™s efforts to keep Jeremy safe, he offers to help Damon and Alaric deal with Katherine. Sheriff Forbes and Caroline share a few rare moments of quality mother/daughter time. Bonnie accidentally discovers new information about Mason and shares it with Stefan, leading Damon to take matters into his own hands."" -y ""October 21, 2010 8pm EST"" -n ""The Vampire Diaries S02E06""
+rm *.log
+rm *.mbtree
+killall Terminal
+
+But I'm trying to find a way to add the .ac3 file in this batch?"
+,Kellso76,2010-10-22T23:59Z,"Your AC3 file should save to your Handheld-Video folder automatically. It should look like this but without the DTS audio track:
+
+http://img824.imageshack.us/img824/5118/screenshot20101022at240.png
+
+Encode-Handheld already automatically extracts the DTS or AC3 track from whatever file you put in your Batch sequence. For example:
+
+-f /Users/(name)/Desktop/""Back to the Future.m2ts""
+
+When I put this file into my -f batch sequence, that lets Encode-Handheld know to extract the DTS audio track to an AC3 DD 5.1 track at 384 Kbps. "
+,Kellso76,2010-10-23T00:03Z,Is Encode-Handheld automatically extracting the audio from your file?
+,Kellso76,2010-10-23T00:13Z,"Your batch file looks incorrect. This is one of mines:
+
+
+encode-handheld.pl -t appletv -pb  -w 0088763 -m12 -f /Users/(Name)/Desktop/""Back to the Future.m2ts"" -C /Users/(Name)/Desktop/Posters/Back-to-the-Future.jpg -n ""Back to the Future (HD)"" -N ""Back to the Future"" -y ""3 July 1985 7pm EST"" -e Adventure -d ""In 1985, Doc Brown invents time travel; in 1955, Marty McFly accidentally prevents his parents from meeting, putting his own existence at stake."" -q PG
+
+U would use -pbM for MKV files tho....."
+,Kellso76,2010-10-23T00:34Z,"Looks like u have a different set-up from mines. I have a universal Batch File called Kellso76.txt.
+Its saved in my Handheld-Video folder on my Desktop. I start my encodes like this:
+
+cd ~/Desktop/Handheld-Video then press enter
+
+Then I type: ./Kellso76.txt and press enter.
+
+After that, my encode or encodes start. I have my batch file saved 12 times within my Kellso76.txt file so I am able to encode 12 movies in whatever order I save them in. When those 12 are done, I simply copy and paste the info from other files into my 12 batch files and encode those movies. Its a very simple process
+"
+[V],HolyRoses,2010-11-21T05:36Z,makes perfect sense to me!
+,westpoint22,2010-12-07T07:05Z,"picture quality average, no crisp"

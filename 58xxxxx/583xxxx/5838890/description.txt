@@ -1,0 +1,52 @@
+dBpoweramp Music Converter Reference v14
+
+dBpoweramp supports practically every audio type created: mp3, mp4, m4a (iTunes / iPod), 
+
+wma, Ogg Vorbis, AAC, Monkeys Audio, FLAC, the list goes on....fully compatible with Windows 
+
+95/98/ME/2000/XP/2003/Vista/Seven 
+
+Split into four components:
+nicknamed the Swiss army knife of audio:
+CD Ripper: digitally rip audio CDs (secure, fast, AccurateRip),Convert audio formats, preserve ID tags, Explorer Integration: audio info tips & columns,
+DSP Effects,
+ID tag editing (Power Pack), 
+Free from nags**, popups, hidden spyware or bundleware.
+
+Changes:
+
+CD Ripper
+
+Compilation tag (also used in naming) taken from compilation check, not by checking for 
+
+differing artists
+When create a new profile offers to use the current one as template
+Compilation, conductor & style tags created by default
+All meta data items are shown in meta section, excluded (for id tags) are shown in light 
+
+gray
+All meta data items list shows [x] instead of [Remove]
+If the option to disable autoplay is enabled, then every second the status of the CD drive 
+
+is polled, to autorefresh when CD is inserted, auto press eject button when CD draw is open, also stops windows autoplaying the CD when closing CD ripper
+Pressing the eject button when the draw is open, closes it
+Auto eject CD should function more reliably
+
+Win98 the convert window cli from CD ripper, or music converter was not closing after rip, plus was shown
+Edit id tag (from right click >> edit tag) no longer locks explorer window whilst editing
+Edit id tag displays common id elements blank if a track has no tags
+Edit id tag - remembers the last position of the window + if window is large enough 
+
+(starting from last time only), the elements have extra room to show
+Naming added [length_mmss], [length_hhmmss], [composer] & [conductor]
+Reference: Pro Frequency Conversion enabled by default
+All programs: if running in debug mode, the debugging information will show even if program 
+
+crashes
+Music Converter: No longer creates ARTIST id tags for naming if one does not exist (TITLE is created from filename if does not exist)
+Audio Properties page: Visually more smarter
+Wave decoder - if a wave file is PCM then does not use the fact chunk (could be wrong)
+
+OS: Windows 95/98/ME/2000/XP/2003/Vista/Seven
+
+Home Page: http://www.dbpoweramp.com/

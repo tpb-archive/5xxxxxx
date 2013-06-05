@@ -1,0 +1,72 @@
+hi, 
+
+i uploaded this torrent because i thought many people would like to play red alert 2/yuri's revenge on the internet, including me.
+ 
+Many of you wich tried this and didn't succeed got the error: shared internet co
+mponents not installed. Well here they are.
+
+
+
+Just copy the files to your Westwood folder( or wherever you got RA2 installed )
+
+Then do the following:
+
+
+Try connecting to the internet once. you will be asked to download somthing. Accept it. 
+
+
+
+Once you're finished. Exit the game and press the win key + R, you will be shown the run prompt. 
+
+Type this \WINDOWS\system32\drivers\etc\hosts and start it.
+
+you will then be asked how you want it to be open, select notepad. Or any other text editor, and in put these lines at the bottom..
+
+195.189.238.82 servserv.westwood.com
+195.189.238.82 irc.westwood.com
+195.189.238.82 gameres.westwood.com
+195.189.238.82 apiregister.westwood.com
+
+
+
+
+
+Your file should look like this
+
+
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+
+
+102.54.94.97 rhino.acme.com # source server
+38.25.63.10 x.acme.com # x client host
+127.0.0.1 localhost
+ 
+195.189.238.82 servserv.westwood.com
+195.189.238.82 irc.westwood.com
+195.189.238.82 gameres.westwood.com
+195.189.238.82 apiregister.westwood.com
+
+Save the file and start RA2
+click internet, login.
+
+Login with a unique personal name.
+your password must be 8 characters
+
+
+these are cracked servers, there is another way to play online please read this for more information:
+ 
+http://www.wikihow.com/Play-Red-Alert-2-over-the-Internet

@@ -1,0 +1,56 @@
+ MAME32 With 4100 Games - Pack 1 of 7
+
+ by John Crichton 
+ 
+http://img238.Imageshack.us/img238/5011/mamelogotmsmallwl0.jpg
+
+ - Description - 
+
+M.A.M.E. stands for Multiple Arcade Machine Emulator, as the name suggests it's an emulator for arcade videogames. Born in 1996 from the genial mind of the italian Nicola Salmoria,it's a program  that reproduces on PC all kind of arcade games.
+These series of packs contain more than 4100 videogames.
+
+ - Installation - 
+
+Launch the file "Mame32v1.84.2_Binary.exe" (located in the first pack) and unpack it in a directory at your choice (eg: c:\mame32\ )
+There are 3 additional file that you can copy in mame32 main directory:
+CHEATS.DAT 	- cheats are activated
+HIGHSCORE.DAT   - highscores are saved
+HISTORY.DAT 	- additional infos
+
+Open the isos with daemon tools or similar programs and copy its content in the main directory (eg: c:\mame32\ ) , overwrite all
+Now you can launch mame32.exe and the roms list will be updated
+On the left menu on the AVAILABLE folder you can choose the game and start playing
+
+ - Commands - 
+
+1,2,3,4 - start the game for player 1,2,3,4
+
+5,6,7,8 - insert coin for player 1,2,3,4
+
+Ctrl (left) , Alt (left), Spacebar - Are the default buttons 1,2,3
+
+Arrow Keys - Movement
+
+Esc - Exit the game
+
+P - Pausa
+
+F3 - Reset
+
+F12 - Snapshot in .png format , saved on the \snap folder
+
+Tab - Configuration Menu,which let you redefine the game buttons: 
+      "input (general)" keeps the configuration for all games
+      "input (this game)" keeps the configuration for the current game
+
+ - Data - 
+
+Language: English
+Version: 0.85
+Genre: Emulator + ROMs
+Developer: Nicola Salmoria
+Official Site :  http://www.mame.net/
+Year: 1996
+
+
+Visit

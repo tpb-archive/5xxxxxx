@@ -1,0 +1,91 @@
+User Type,Username,Date,Text
+,whatsthedeal,2010-10-06T00:01Z,need some seeders plz
+[V],mrspatula,2010-10-06T15:25Z,"The torrent it's seeded, but the trackers stats are not being update, so it shows 0 seeders."
+,whatsthedeal,2010-10-07T15:22Z,cool. the first time i tried it would not download. Im trying again and its working. A little slow but working nonetheless. Thanks!!
+,SShtrk,2010-10-17T11:23Z,"License worked 2 days and thats it. Now show not active and wont work. Pls hellp me, Im in the midle of animation :("
+,jenumba,2010-10-17T22:37Z,"If you're having trouble getting the activation to work, try right-clicking the keygen and make sure to run it as Administrator.
+
+If that doesn't work, a guy on demonoid posted this:
+
+""I also got the ""failed to get activation code"" but eventually found out what the problem was:
+
+The licenses file is most likely in the wrong place.
+This could be due to me using a non-english Windows XP so the folder is not called ""Application Data"" by default.
+
+To find out the correct location do the following:
+
+Use keygen and save the Licenses file anywhere you want, open it with notepad.
+Then disconnect from the internet and start dragon stop motion, it will prompt you for name and serial, enter the values as stored in the licenses file after the ""="". Then it will try to connect to the activation server and fail after a minute or so, then an offline activation dialog will open, again copy paste the activation code from the licenses file. When you press enter the dialog will just close and go back to the serial screen. Dont worry this is normal. Now use the Window explorer to locate where Dragon Stop Motion placed its licenses file by searching for ""com.dzed.DragonStopMotion-License.properties"" in your ""Documents and Settings"" Folder.
+
+Once you found it you can check if the first 2 lines in the file are something like:
+#Dragon Stop Motion License
+#Sun Sep ... ....
+
+Now copy the content of the generated licenses file and paste it into this one.
+
+Done.""
+"
+,SShtrk,2010-10-17T23:23Z,I crack it and do license again. Restart comp and it work again. I let you know how log it will work now. I use xp english version so app data is default. Thx for hellp anyway. Crack and original file did not have the same mb size. Possiblle update disabler dot work for me...
+,de8struct,2010-11-02T03:53Z,OMG thanks if this works i will seed!
+,jenumba,2010-11-02T16:03Z,"Some other people have also mentioned that if you simply changed the registered name to a one word name like ""bob"" it'll overwrite the license file properly. Give that a try as well."
+,matiemanre4,2011-01-11T03:38Z,To get the activation code i need to fill out the form on the website is there any other ways?? (you cant put your email address in to register online)??
+,extremeuser3,2011-02-08T09:12Z,any Stop Motion 7 pro ???
+,jazziest,2011-07-18T17:58Z,anyone has dragon stop motion for mac? tks!
+,CrewmanJones,2011-10-06T02:12Z,"I found the install notes left out some extra steps, so here re my additional activation notes. These work for a W7 Ult x64 setup, but they may help on other set ups as well.
+
+1.Install Dragon Stop Motion
+
+2.Copy Dragon Stop Motion.exe from Crack dir to installation dir (overwrite)
+
+3.Start XFORCE Keygen
+
+  enter a user name - a single word only
+  click on Disable updates check
+  click on Generate
+
+4. On W7 x64, this saves a file called ""com.dzed.DragonStopMotion-License.properties""
+
+5. You need this to overwrite the ""properties"" file saved at C:\ProgramData\D-Zed Software\dragon Stop Motion - so either save it there or copy it from where you save it and paste over.
+
+(Note: on other setups you can search to find where this ""properties"" file is saved and copy the generated file over the program file.)
+
+6. Open the generated ""properties"" file with notepad or similar. The last 2 lines will be:
+
+license.registerTo=YYYYY
+license.serialNumber=XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+
+7. Start Dragon Stop Motion
+
+At the registration activation box, enter the User Name you chose before (and shown as YYYYY in the generated ""properties"" file.)
+
+Also enter the serial number from the generated ""properties"" file.
+
+click Activate.
+
+8. Now you can enjoy it."
+,g4gerrard,2011-10-21T14:09Z,there's no properties file other than from the generated one... i cant get it activate...!!!!
+,WAFERSHAF,2011-11-16T21:43Z,"It works perfectly.
+Win7 - 64bit
+
+I followed the instructions laid out by CrewmanJones at 2011-10-06 02:12.
+
+Thanks for the upload and for the extra instructions!"
+,alinoe13,2011-12-05T20:52Z,"Yes works great on windows 7,
+but I had trouble to activate it on xp 
+like gerrard said:
+there's no properties file other than from the generated one... i cant get it activate...!!!! 
+
+I don't really know how come but after having removing dragon and tried to reinstall it again, 
+the properties file have been created so I was able to overwrite it with the one created by the keygen then it worked great "
+,alinoe13,2011-12-08T16:08Z,"edit,
+after having tried again and again,
+it works like a charm on xp sp3 by following the steps described
+
+MAKE SURE you run Dragon from
+the shortcut of the crack you copied in the install folder
+and not from the shortcut that has been created automatically on the desktop during the install"
+,josef_fuchs,2012-02-29T03:29Z,"Works with Win7 64bit, follow CrewmanJones' instructions above. DO NOT change the install directory or it won't work. I only had to go to Step #5, and did not have to activate any further. It fired right up! 
+
+BUT the program will not recognize any of my cameras, and if you try to update to a newer version the activation stops working. So its useless unless you have an older camera.
+
+Hopefully somebody will upload a newer version..."

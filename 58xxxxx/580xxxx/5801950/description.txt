@@ -1,0 +1,31 @@
+From DistroWatch :
+Recovery Is Possible (RIP) is a Slackware-based CD or floppy boot/rescue/backup/maintenance system. It has support for a lot of filesystem types (Reiserfs, Reiser4, ext2/3, iso9660, UDF, XFS, JFS, UFS, HPFS, HFS, MINIX, MS DOS, NTFS, and VFAT) and contains a bunch of utilities for system recovery. It also has IDE/SCSI/SATA, PCMCIA, RAID, LVM2, and Ethernet/DSL/cable/PPP/PPPOE network support.
+
+10.8 - 8/31/2010
+  * The 32bit and 64bit kernels are 2.6.35.4.
+  * Added SMP support to kernels.
+  Updated ntfs-3g 2010.8.8AC.4
+  Updated hdparm 9.30
+  Updated wiper 2.8
+  Updated gdisk 0.6.10
+  Updated xfsprogs 3.1.3
+  Updated grub2 1.98+20100804-4
+  Updated sylpheed 3.1.0beta3
+  Updated dd_rescue 1.20
+  Updated ddrescue 1.13
+  Added tw_cli 10.2
+  Added hpacucli 8.50-6.0.2-2
+  Updated aria2c 1.10.1
+  Updated openssh 5.6
+  Updated encfs 1.7.0
+  Added fuse-exfat 0.9.2+svn
+  * Added these kernel boot options:
+  dhcp=eth0  "Start DHCP client on eth0 etc."
+  sshd       "Start SSH daemon."
+  nosmp      "Disable SMP in kernel."
+
+Homepage : http://www.tux.org/pub/people/kent-robotti/looplinux/rip/
+
+md5sum : c689c385252f00a5cd3f002f0dc0c301  RIPLinuX-10.8.iso
+md5sum : dabd74bd108ea86726bbcb108c041a6d  RIPLinux-10.8-non-X.iso
+md5sum : ba9b040314b44e96ac15718f80b3ef5c  RIPLinuX-10.8.grub2.iso

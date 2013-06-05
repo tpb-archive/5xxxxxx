@@ -1,0 +1,510 @@
+
+   ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ      ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ   ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ  
+   ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã     ÃŸÃ›Ã›Ã›Ã›Ã›Ã›    Ã›Ã›Ã›Ã›ÃŸ ÃŸÃ›Ã›ÃŸÃ›Ã›Ã›Ã›Ã›Ã›ÃŸ Ã›Ã›Ã›Ã›Ã› ÃžÃ›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã 
+     ÃŸÃ›Ã›Ã›Ã›Ã›      ÃœÃ›Ã›Ã›Ã›ÃŸ      ÃŸÃ›Ã›Ã Ã›Ã›Ã  Ã›Ã›Ã›Ã›Ã›Ã ÃžÃ›Ã›Ã›Ã   ÃŸÃ›Ã›Ã›Ã    Ã›Ã›Ã›Ã›Ã›    ÃžÃ›Ã›Ã›ÃŸ   
+      Ã›Ã›Ã›Ã›Ã›    ÃœÃ›Ã›Ã›ÃŸ           ÃŸ Ã›Ã›Ã    Ã›Ã›Ã›ÃŸ ÃœÃ›Ã›ÃŸ       ÃŸÃ›Ã›Ã   Ã›Ã›Ã›Ã›Ã›   ÃžÃ›Ã›ÃŸ     
+      Ã›Ã›Ã›Ã›Ã›  ÃœÃ›Ã›ÃŸ               Ã›Ã›Ã     ÃŸÃŸ ÃœÃ›ÃŸ            Ã›Ã›   Ã›Ã›Ã›Ã›Ã›   Ã›Ã›       
+      Ã›Ã›Ã›Ã›ÃÃœÃ›ÃŸ  ÃœÃœÃœ            Ã›Ã›Ã›      ÃœÃ›ÃŸ Ãœ            ÃžÃ›ÃŸ   Ã›Ã›Ã›Ã›Ã›   ÃŸÃ›Ã      
+      Ã›Ã›Ã›Ã›ÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ         Ã›Ã›Ã›    ÃœÃ›ÃŸ  ÃœÃ›Ã›Ã›                 Ã›Ã›Ã›Ã›Ã›            
+      Ã›Ã›Ã›ÃÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã       ÃžÃ›Ã›Ã ÃœÃ›ÃŸ    ÃžÃ›Ã›Ã›Ã›Ã                Ã›Ã›Ã›Ã›Ã›            
+  Ãœ   Ã›Ã›Ã›Ã›ÃÃŸÃŸÃŸÃŸ    ÃŸÃŸ        Ã›Ã›Ã›Ã›Ã›ÃŸ       Ã›Ã›Ã›Ã›Ã›      Ãœ         Ã›Ã›Ã›Ã›Ã›            
+ ÃŸÂ°ÃŸ  Ã›Ã›Ã›Ã›Ã›                 ÃžÃ›Ã›Ã›ÃŸ         ÃžÃ›Ã›Ã›Ã›Ã    ÃŸÂ°ÃŸ        Ã›Ã›Ã›Ã›Ã›            
+      Ã›Ã›Ã›Ã›Ã›           Ãœ     Ã›Ã›Ã›            Ã›Ã›Ã›Ã›Ã›               Ã›Ã›Ã›Ã›Ã›            
+      Ã›Ã›Ã›Ã›Ã›    Ãœ     ÃŸÂ°ÃŸ   ÃžÃ›Ã›Ã            ÃžÃ›Ã›Ã›Ã›Ã              Ã›Ã›Ã›Ã›Ã›      Ãœ     
+      Ã›Ã›Ã›Ã›Ã›Ã  ÃŸÂ°ÃŸ      Ãœ   Ã›Ã›Ã›Ã›             Ã›Ã›Ã›Ã›Ã›              Ã›Ã›Ã›Ã›Ã›     ÃŸÂ°ÃŸ    
+      Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ        ÃœÃ›Ã› ÃžÃ›Ã›Ã›Ã›ÃœÃ›       Ãœ   ÃžÃ›Ã›Ã›Ã›Ã             Ã›Ã›Ã›Ã›Ã›            
+    ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã     ÃŸÂ°ÃŸ  ÃœÃ›Ã›Ã›Ã›Ã›Ãœ           ÃœÃ›Ã›Ã›Ã›Ã›Ãœ           
+  ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›  Ã›Ã›Ã›Ã›Ã›Ã›         ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ       ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ         
+  ÃŸÃŸÃ›Ã›Ã›Ã›ÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃŸÃ›Ã›Ã›Ã›Ã›ÃŸÃŸ    ÃŸÃ›Ã›ÃŸ          ÃŸÃ›Ã›Ã›ÃŸÃŸÃŸÃ›Ã›Ã›ÃŸ       ÃŸÃ›Ã›Ã›ÃŸÃŸÃŸÃ›Ã›Ã›ÃŸ         
+                      Ãœ           ÃœÃœÃœÂ°Â±ÃœÂ±Â°ÃœÃœÃœ                                   
+                     ÃŸÂ°ÃŸ     ÃœÃœÃœÃ›Ã›ÃŸÃŸÃŸÃŸÂ°Â±Â°ÃŸÃŸÃŸÃŸÃ›Ã›ÃœÃœÃœ              Ãœ               
+                          ÃœÃ›Ã›ÃŸÃŸ        ÃŸ        ÃŸÃŸÃ›Ã›Ãœ          ÃŸÂ°ÃŸ              
+                        Â±Ã¾ÃŸ        SINCE 2000       ÃŸÃ¾Â±                         
+                       ÃŸ                               ÃŸ                        
+                     Ã¾       E A T  P R E S E N T S      Ã¾                      
+                                                                                
+  Phase.One.Capture.One.PRO.v5.2.41190.41123.Multilingual.MacOSX.Cracked-EAT    
+                                                                                
+                                                                                
+                                                                                
+                              Ã¾                  Ã¾                              
+        ÃœÃœÃœ                 ÃœÃ›Ã                  ÃžÃ›Ãœ                 ÃœÃœÃœ        
+    ÃœÃœÃ›Ã›Â±Â²Ã›Â²Ã›ÃœÃœ            ÃžÃ›Ã›                    Ã›Ã›Ã            ÃœÃœÃ›Â²Ã›Â²Â±Ã›Ã›ÃœÃœ    
+   Â²Ã›Â²Ã›ÃœÃŸÃ›ÃŸÂ°ÃŸÂ²ÃŸÃ›Ãœ          Ã›Ã›Ã   RELEASE  INFO    ÃžÃ›Ã›          ÃœÃ›ÃŸÂ²ÃŸÂ°ÃŸÃ›ÃŸÃœÃ›Â²Ã›Â²   
+  ÃžÃ›Â²ÃŸ          ÃŸÃ›Â²Ãœ       ÃžÃ›Ã›                    Ã›Ã›Ã       ÃœÂ²Ã›ÃŸ          ÃŸÂ²Ã›Ã  
+  Ã›Ã›Ã             ÃŸÃ›Ã›Ãœ      Ã›Â²Ã                  ÃžÂ²Ã›      ÃœÃ›Ã›ÃŸ             ÃžÃ›Ã›  
+  Â²Ã›Ã›               ÃŸÂ²Ã›Ãœ    ÃžÃ›Ã›                  Ã›Ã›Ã    ÃœÃ›Â²ÃŸ               Ã›Ã›Â²  
+   ÃŸÂ²Â²Ãœ               ÃŸÃœÃ›Â±ÃœÃ¾ÃœÃ›Ã›Ã                ÃžÃ›Ã›ÃœÃ¾ÃœÂ±Ã›ÃœÃŸ               ÃœÂ²Â²ÃŸ   
+ÃœÃ›Ã›Ãœ Ã›Ã›Ã›Ã¾                ÃŸÂ²ÃŸ ÃžÃ›Ã                ÃžÃ›Ã ÃŸÂ²ÃŸ                Ã¾Ã›Ã›Ã› ÃœÃ›Ã›Ãœ
+Â²ÃžÃœÃŸÃ›ÃœÃŸÂ²Ã›Ã¾                    Ã›                  Ã›                    Ã¾Ã›Â²ÃŸÃœÃ›ÃŸÃœÃÂ²
+Â±ÃžÂ²Â² ÃŸÃ›Ã›ÃŸ                     Ã                  Ãž                     ÃŸÃ›Ã›ÃŸ Â²Â²ÃÂ±
+Â±ÃžÂ²Ã›   Â²                     Ã¾                    Ã¾                     Â²   Ã›Â²ÃÂ±
+Â±ÃžÃ›Ã›   Â±                                                                Â±   Ã›Ã›ÃÂ±
+Â°ÃžÃ›Ã   Â±                                                                Â±   ÃžÃ›ÃÂ°
+Â°Ã›Ã›    Â±  SUPPLIER ....: TEAM EAT                                       Â±    Ã›Ã›Â°
+ÃžÃ›Ã    Â±  PROG TYPE ...: UTILITY                                        Â±    ÃžÃ›Ã
+Ã›Ã›     Â°  LANGUAGE ....: ENGLISH CHINESE CZECH FRENCH GERMAN ITALIAN    Â°     Ã›Ã›
+Ã›Ã›     Â°                 JAPANESE KOREAN SPANISH SWEDISH                Â°     Ã›Ã›
+Ã›Ã        RELEASE DATE.: 2010-10-01                                           ÃžÃ›
+Ã›      Â°                                                                Â°      Ã›
+Ã›     Â°   CRACKER ......: TEAM EAT                                       Â°     Ã›
+Ã›         PROTECTION ...: NA                                                   Ã›
+Ã›         DIFFICULTY ...: GUESS!                                               Ã›
+Ã›                                                                              Ã›
+Ã›         PACKAGER ....: TEAM EAT                                              Ã›
+Ã›         FORMAT ......: ZIP/RAR                                               Ã›
+Ã›         ARCHIVE NAME.: eatcm501                                              Ã›
+Ã›         No OF DISKS .: [XX/50]                                               Ã›
+Ã›                                                                              Ã›
+Ã›         REQUIREMENTS .: MAC OS X 10.6, 10.5.8 or later                       Ã›
+Ã›         PRICE ........: $399.00                                              Ã›
+Ã›         WEBSITE.......: http://www.phaseone.com/en/Software/Capture-One-5-   Ã›
+Ã›                         Pro.aspx                                             Ã›
+Ã›                                                                              Ã›
+Ã›Ã                                                                            ÃžÃ›
+Ã›Ã›Ãœ                                                                          ÃœÃ›Ã›
+Ã¾Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœÂ°                                                           Â°ÃœÃœÃœÃœÃ›Ã›Ã›Â±Ã›Ã¾
+  ÃŸÃ›Ã›Â²Ã›Ã›Ã›Ã›Â²ÃœÃœ                                                     ÃœÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›ÃŸ 
+      ÃŸÃŸÂ²Â²Ã›Ã›ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœ                                    Â°    ÃœÃŸÃ›Ã›Ã›Ã›Ã›Â²Â²ÃŸÃŸ     
+         ÃœÃ›Ãœ ÃœÃ›Ã›ÃŸÃŸÂ²Ã›Ã›ÃŸ ÃœÃ›Ã›Ã›Ã›Ã›Ã›ÃœÃœ                   ÃœÃœÃœÃœÃœÃœÃœÃœÃ›Ã›Ã›Ã›Ã›Ãœ ÃœÃ›Ã›Ã›ÃŸ   Ãœ     
+     ÃœÃœÂ²Ã›ÃŸÃŸÃŸÃŸÃŸÃŸÃ›Ã›ÃœÃœÃœ  ÃŸÃ›Ã›Â²ÃŸ ÃŸÃ›Ã›Ã›Â²Ã›ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÂ²ÃœÃ›Ã›ÃŸ ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸÃŸÂ² ÃœÃœÃ›ÃŸ      
+   ÃœÃŸÃŸÂ°          ÃŸÂ²Ã›Â²Ã› Ã›ÃŸÃ›Ã›ÃœÃ›ÃœÃŸÃ›Â±ÃžÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Ã›ÃŸÃœÃ›ÃœÃ›Ã›ÃŸ         ÃœÃ›Ã›Ã›Ã›ÃŸÃŸ        
+                 ÃœÃ›Â²ÃŸ  ÃŸÂ°ÃžÂ²Ã›ÃŸÃŸÂ²ÃÂ°              Â°ÃžÂ²ÃŸÃŸÃ›Â²ÃÂ°        ÃœÂ²Ã›ÃŸÃŸ           
+                   Â°    ÃŸÂ²Ã›ÃœÂ°                      Â°ÃœÃ›Â²ÃŸ       ÃŸÂ°               
+                          Ã›Ã›Ã›Â²                    Â²Ã›Ã›Ã›                          
+                       ÃœÃœÃ›Ã›Â²ÃŸ                      ÃŸÂ²Ã›Ã›ÃœÃœ                       
+                   Ãœ Â²ÃŸÃŸÃŸ                              ÃŸÃŸÃŸÂ² Ãœ                   
+                 ÃŸ                                            ÃŸ                 
+                                                                                
+                                                                                
+                              Ã¾                  Ã¾                              
+        ÃœÃœÃœ                 ÃœÃ›Ã                  ÃžÃ›Ãœ                 ÃœÃœÃœ        
+    ÃœÃœÃ›Ã›Â±Â²Ã›Â²Ã›ÃœÃœ            ÃžÃ›Ã›                    Ã›Ã›Ã            ÃœÃœÃ›Â²Ã›Â²Â±Ã›Ã›ÃœÃœ    
+   Â²Ã›Â²Ã›ÃœÃŸÃ›ÃŸÂ°ÃŸÂ²ÃŸÃ›Ãœ          Ã›Ã›Ã   RELEASE  NOTES   ÃžÃ›Ã›          ÃœÃ›ÃŸÂ²ÃŸÂ°ÃŸÃ›ÃŸÃœÃ›Â²Ã›Â²   
+  ÃžÃ›Â²ÃŸ          ÃŸÃ›Â²Ãœ       ÃžÃ›Ã›                    Ã›Ã›Ã       ÃœÂ²Ã›ÃŸ          ÃŸÂ²Ã›Ã  
+  Ã›Ã›Ã             ÃŸÃ›Ã›Ãœ      Ã›Â²Ã                  ÃžÂ²Ã›      ÃœÃ›Ã›ÃŸ             ÃžÃ›Ã›  
+  Â²Ã›Ã›               ÃŸÂ²Ã›Ãœ    ÃžÃ›Ã›                  Ã›Ã›Ã    ÃœÃ›Â²ÃŸ               Ã›Ã›Â²  
+   ÃŸÂ²Â²Ãœ               ÃŸÃœÃ›Â±ÃœÃ¾ÃœÃ›Ã›Ã                ÃžÃ›Ã›ÃœÃ¾ÃœÂ±Ã›ÃœÃŸ               ÃœÂ²Â²ÃŸ   
+ÃœÃ›Ã›Ãœ Ã›Ã›Ã›Ã¾                ÃŸÂ²ÃŸ ÃžÃ›Ã                ÃžÃ›Ã ÃŸÂ²ÃŸ                Ã¾Ã›Ã›Ã› ÃœÃ›Ã›Ãœ
+Â²ÃžÃœÃŸÃ›ÃœÃŸÂ²Ã›Ã¾                    Ã›                  Ã›                    Ã¾Ã›Â²ÃŸÃœÃ›ÃŸÃœÃÂ²
+Â°ÃžÂ²Â² ÃŸÃ›Ã›ÃŸ                     Ã                  Ãž                     ÃŸÃ›Ã›ÃŸ Â²Â²ÃÂ°
+Â°ÃžÂ²Ã›   Â²                     Ã¾                    Ã¾                     Â²   Ã›Â²ÃÂ°
+Â°ÃžÃ›Ã›   Â²                                                                Â²   Ã›Ã›ÃÂ°
+Â°ÃžÃ›Ã   Â±                                                                Â±   ÃžÃ›ÃÂ°
+Â°Ã›Ã›                                                                          Ã›Ã›Â°
+ÃžÃ›Ã    Â°                                                                Â°    ÃžÃ›Ã
+Ã›Ã›     Â°                                                                Â°     Ã›Ã›
+Ã›Ã                                                                            ÃžÃ›
+Ã›             Capture Your Creativity and Deliver Superior Image               Ã›
+Ã›             Quality                                                          Ã›
+Ã›                                                                              Ã›
+Ã›             Capture One 5 is a raw converter and workflow                    Ã›
+Ã›             software which enables photographers to reduce the               Ã›
+Ã›             time and effort required to deliver stunning                     Ã›
+Ã›             ready-to-use images with excellent color and detail.             Ã›
+Ã›                                                                              Ã›
+Ã›             Capture One is designed to create the best image                 Ã›
+Ã›             quality in the market and holds a series of                      Ã›
+Ã›             easy-to-use tools created to match the professional              Ã›
+Ã›             photographer's daily workflow.                                   Ã›
+Ã›                                                                              Ã›
+Ã›             New and enhanced features:                                       Ã›
+Ã›             New - Advanced Noise Reduction                                   Ã›
+Ã›             Surface Smoothness helps you to gently smooth                    Ã›
+Ã›             surfaces of similar color. E.g. car paint can be                 Ã›
+Ã›             made to appear smooth while preserving the edge                  Ã›
+Ã›             sharpness in the rest of the image. Fine Grain                   Ã›
+Ã›             assists you to make high ISO images that appear too              Ã›
+Ã›             â€œprocessedâ€ look more natural through introducing a              Ã›
+Ã›             small amount of fine grain into the processing. Used             Ã›
+Ã›             in combination with Surface Smoothness, this may                 Ã›
+Ã›             significantly increase the quality of high ISO                   Ã›
+Ã›             images.                                                          Ã›
+Ã›                                                                              Ã›
+Ã›             New - Inverted Color Editor Selection                            Ã›
+Ã›             The new Inverted Color Editor Selection is perfect               Ã›
+Ã›             to create an image which is almost monochromatic but             Ã›
+Ã›             emphasizes one or more colors.                                   Ã›
+Ã›                                                                              Ã›
+Ã›             New - Focus Mask                                                 Ã›
+Ã›             Accelerate your image selection by using the Focus               Ã›
+Ã›             Mask for fast verification of image sharpness and                Ã›
+Ã›             focus. The Focus Mask is applied both to the                     Ã›
+Ã›             image(s) in the viewer and to the thumbnails in the              Ã›
+Ã›             image browser. The Focus Mask is perfectly suited                Ã›
+Ã›             for portrait, wedding and fashion shoots.                        Ã›
+Ã›                                                                              Ã›
+Ã›             New - Focus Tool                                                 Ã›
+Ã›             Get an instant, true view of image sharpness with                Ã›
+Ã›             the Focus tool. Use it as part of your fixed tool                Ã›
+Ã›             tab or drag it out as a floating tool.                           Ã›
+Ã›                                                                              Ã›
+Ã›             New - Skin Tone Enhancer                                         Ã›
+Ã›             Achieve perfect, smooth and soft appearing skin                  Ã›
+Ã›             tones with the Skin Tone Enhancer.                               Ã›
+Ã›                                                                              Ã›
+Ã›             New - Watermark                                                  Ã›
+Ã›             Enhance image rights protection and watermark your               Ã›
+Ã›             images. You are able to add a watermark with your                Ã›
+Ã›             logo or other information to every photo you output.             Ã›
+Ã›                                                                              Ã›
+Ã›             New - Live Preview                                               Ã›
+Ã›             Speed up image composition, lighting, and focusing               Ã›
+Ã›             with Live Preview. Makes it possible for the                     Ã›
+Ã›             photographer, art director, client, and others to                Ã›
+Ã›             easily view an image on a computer screen at the                 Ã›
+Ã›             same time, in real-time. Especially useful with                  Ã›
+Ã›             technical cameras. Live Preview is now available for             Ã›
+Ã›             both Mac and Windows and comes with improved                     Ã›
+Ã›             performance.                                                     Ã›
+Ã›                                                                              Ã›
+Ã›             New - LCC based Light Falloff                                    Ã›
+Ã›             With LCC based Light Falloff you are able to even                Ã›
+Ã›             out color and intensity differences in the light and             Ã›
+Ã›             compensate for lens fall off.                                    Ã›
+Ã›                                                                              Ã›
+Ã›             New - Local Copy and Apply                                       Ã›
+Ã›             Easily copy and apply individual image tool                      Ã›
+Ã›             adjustments to other images and save time.                       Ã›
+Ã›             Completely integrated with the Adjustments Clipboard             Ã›
+Ã›             for a seamless experience and improved efficiency.               Ã›
+Ã›                                                                              Ã›
+Ã›             New - Viewer Margin                                              Ã›
+Ã›             Improve evaluation of image composition and colors               Ã›
+Ã›             by setting a viewer margin (and proof margin).                   Ã›
+Ã›                                                                              Ã›
+Ã›             New - Creative Vignetting Tool                                   Ã›
+Ã›             Add vignettes to the edges of your images for                    Ã›
+Ã›             artistic effect (follows crop).                                  Ã›
+Ã›                                                                              Ã›
+Ã›             New - RGB Levels and Curves                                      Ã›
+Ã›             RGB Levels and Curves provide a tool, which enables              Ã›
+Ã›             you to adjust individual color channels easily and               Ã›
+Ã›             to be creative with colors.                                      Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Spot Removal                                          Ã›
+Ã›             One-click spot and dust spot removal. The new Spot               Ã›
+Ã›             Removal type is the fastest and most efficient way               Ã›
+Ã›             to remove imperfections in images. Dust spot removal             Ã›
+Ã›             allows you to select a group of images and remove                Ã›
+Ã›             dust spots from all images with just one click.                  Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Metadata Editing                                      Ã›
+Ã›             In Capture One, metadata refers to data that                     Ã›
+Ã›             describes your image and how it was taken. The                   Ã›
+Ã›             metadata tool adds multiline fields, GPS                         Ã›
+Ã›             information, control of what metadata are included               Ã›
+Ã›             in processed files and a new preference which                    Ã›
+Ã›             determines how to handle conflicting metadata during             Ã›
+Ã›             load.                                                            Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Clarity Tool                                          Ã›
+Ã›             Use the Clarity Tool to improve hazy images by                   Ã›
+Ã›             adjusting local contrast and a small amount of                   Ã›
+Ã›             sharpness. The tool now allows negative clarity                  Ã›
+Ã›             values, which helps you to smooth out local contrast             Ã›
+Ã›             in portrait images.                                              Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Workflow Accelerators                                 Ã›
+Ã›             Handle large volume shoots even faster with new and              Ã›
+Ã›             enhanced workflow accelerators. New functionality                Ã›
+Ã›             includes: new preference to disable JPEG/TIFF                    Ã›
+Ã›             editing, aspect ratios available directly from the               Ã›
+Ã›             crop cursor tool, Auto icon and Style Selector items             Ã›
+Ã›             for the toolbar, as well as â€œEdit All Selectedâ€                  Ã›
+Ã›             feature which makes it possible to instantly perform             Ã›
+Ã›             adjustments on multiple images.                                  Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Tethered Capture                                      Ã›
+Ã›             Capture One PRO lets you shoot tethered with your                Ã›
+Ã›             Phase One digital back, selected Leaf and Mamiya                 Ã›
+Ã›             digital backs, and with Canon or Nikon DSLRs, which              Ã›
+Ã›             means that you are capturing images directly into                Ã›
+Ã›             your computer without any interim storage. The                   Ã›
+Ã›             latest version adds tethered support for a wide                  Ã›
+Ã›             range of Leaf cameras as well as the latest Canon                Ã›
+Ã›             and Nikon DSLRs.                                                 Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Camera Support                                        Ã›
+Ã›             Capture One supports image files from the most                   Ã›
+Ã›             popular DSLRs from Canon, Epson, Fuji, Konica                    Ã›
+Ã›             Minolta, Leica, Nikon, Olympus, Panasonic, Pentax                Ã›
+Ã›             and Sony, as well as Phase One digital backs and                 Ã›
+Ã›             selected Leaf and Mamiya digital backs.                          Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Color Editor                                          Ã›
+Ã›             Adjust colors in a smooth way with the Color Editor              Ã›
+Ã›             â€“ and keep changes all natural with Smart                        Ã›
+Ã›             Saturation. You have the opportunity to adjust                   Ã›
+Ã›             colors either in larger areas using the basic tool,              Ã›
+Ã›             or select a narrow color space in the Advanced Color             Ã›
+Ã›             Editor tool. The Color Editor can also be used to                Ã›
+Ã›             tweak ICC color profiles.                                        Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Multi-monitor                                         Ã›
+Ã›             Support for multiple monitors enables you to                     Ã›
+Ã›             configure your workspace to manage image workflow                Ã›
+Ã›             and presentation more efficiently. The new Preview               Ã›
+Ã›             Image Size Preference allows a better and faster                 Ã›
+Ã›             workflow when using large screens.                               Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Workspaces and Tool Tabs                              Ã›
+Ã›             Customize your Workspace, Tools and Tool Tabs to                 Ã›
+Ã›             make your personal workflow more efficient. Included             Ã›
+Ã›             in Capture One is a selection of best practice                   Ã›
+Ã›             default workspaces.                                              Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - Web Contact Sheet                                     Ã›
+Ã›             Share your images easily. With the Web Contact Sheet             Ã›
+Ã›             you are able to generate all the thumbnails, full                Ã›
+Ã›             sized previews and HTML code required for the                    Ã›
+Ã›             finished contact sheet. All the elements are stored              Ã›
+Ã›             on the desktop in a single folder for uploading to a             Ã›
+Ã›             website or sending to clients. The Web Contact Sheet             Ã›
+Ã›             now supports larger image sizes.                                 Ã›
+Ã›                                                                              Ã›
+Ã›             Enhanced - .EIP                                                  Ã›
+Ã›             Enhanced Image Package is a convenient way of                    Ã›
+Ã›             packing your master file for smooth cooperation with             Ã›
+Ã›             your customers. When the .EIP file is opened by                  Ã›
+Ã›             Capture One on your clientâ€™s computer, the image                 Ã›
+Ã›             file will be seen exactly as you created it. The                 Ã›
+Ã›             original untouched RAW file will be packed with your             Ã›
+Ã›             setting file and LCC profile. You also have the                  Ã›
+Ã›             option to include ICC camera profiles in the .EIP                Ã›
+Ã›             package. EIP support now includes all RAW file types             Ã›
+Ã›             that are supported by Capture One. This includes                 Ã›
+Ã›             DSLR and Leaf image files.                                       Ã›
+Ã›Ã                                                                            ÃžÃ›
+Ã›Ã›                                                                            Ã›Ã›
+ÃžÃ›Ã                                                                          ÃžÃ›Ã
+Ã¾Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœÂ°                                                           Â°ÃœÃœÃœÃœÃ›Ã›Ã›Â±Ã›Ã¾
+  ÃŸÃ›Ã›Â²Ã›Ã›Ã›Ã›Â²ÃœÃœ                                                     ÃœÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›ÃŸ 
+      ÃŸÃŸÂ²Â²Ã›Ã›ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœ                                    Â°    ÃœÃŸÃ›Ã›Ã›Ã›Ã›Â²Â²ÃŸÃŸ     
+         ÃœÃ›Ãœ ÃœÃ›Ã›ÃŸÃŸÂ²Ã›Ã›ÃŸ ÃœÃ›Ã›Ã›Ã›Ã›Ã›ÃœÃœ                   ÃœÃœÃœÃœÃœÃœÃœÃœÃ›Ã›Ã›Ã›Ã›Ãœ ÃœÃ›Ã›Ã›ÃŸ   Ãœ     
+     ÃœÃœÂ²Ã›ÃŸÃŸÃŸÃŸÃŸÃŸÃ›Ã›ÃœÃœÃœ  ÃŸÃ›Ã›Â²ÃŸ ÃŸÃ›Ã›Ã›Â²Ã›ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÂ²ÃœÃ›Ã›ÃŸ ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸÃŸÂ² ÃœÃœÃ›ÃŸ      
+   ÃœÃŸÃŸÂ°          ÃŸÂ²Ã›Â²Ã› Ã›ÃŸÃ›Ã›ÃœÃ›ÃœÃŸÃ›Â±ÃžÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Ã›ÃŸÃœÃ›ÃœÃ›Ã›ÃŸ         ÃœÃ›Ã›Ã›Ã›ÃŸÃŸ        
+                 ÃœÃ›Â²ÃŸ  ÃŸÂ°ÃžÂ²Ã›ÃŸÃŸÂ²ÃÂ°              Â°ÃžÂ²ÃŸÃŸÃ›Â²ÃÂ°        ÃœÂ²Ã›ÃŸÃŸ           
+                   Â°    ÃŸÂ²Ã›ÃœÂ°       COMMENTS       Â°ÃœÃ›Â²ÃŸ       ÃŸÂ°               
+                          Ã›Ã›Ã›Â²                    Â²Ã›Ã›Ã›                          
+                       ÃœÃœÃ›Ã›Â²ÃŸ                      ÃŸÂ²Ã›Ã›ÃœÃœ                       
+                   Ãœ Â²ÃŸÃŸÃŸ                              ÃŸÃŸÃŸÂ² Ãœ                   
+              Ãœ ÃŸ                                              ÃŸ Ãœ              
+            Ãœ                                                      Ãœ            
+          Ãœ    Do NOT distribute this release outside of the scene   Ãœ          
+         Ãœ              Keep the scene alive and secure!              Ãœ         
+        Ãœ                                                              Ãœ        
+                                                                                
+                                                                                
+        ÃŸ               All good progs start as freeware,             ÃŸ         
+         ÃŸ               then things get worse ... ;-)               ÃŸ          
+           ÃŸ                                                        ÃŸ           
+             ÃŸÃœÃœ                                                ÃœÃœÃŸ             
+               ÃŸÃ¾Ã›Ã›ÃœÃœÃœ                                    ÃœÃœÃœÃ›Ã›Ã¾ÃŸ               
+                  ÃŸÃŸÃ›Â²Ã›Ã›Â°ÃœÃœ                          ÃœÃœÂ°Ã›Ã›Â²Ã›ÃŸÃŸ                  
+                      ÃŸÃŸÃ›Â²Ã›Ã›Â°Ãœ                    ÃœÂ°Ã›Ã›Â²Ã›ÃŸÃŸ                      
+                          ÃŸÃ›Ã›Â²Ã                  ÃžÂ²Ã›Ã›ÃŸ                          
+                       ÃœÃœÃ›Ã›Â²Ã›ÃŸ                    ÃŸÃ›Â²Ã›Ã›ÃœÃœ                       
+                    ÃœÂ²Ã›ÃŸÃŸÃŸ                            ÃŸÃŸÃŸÃ›Â²Ãœ                    
+                Ãœ ÃŸ                                          ÃŸ Ãœ                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                              Ã¾                  Ã¾                              
+        ÃœÃœÃœ                 ÃœÃ›Ã                  ÃžÃ›Ãœ                 ÃœÃœÃœ        
+    ÃœÃœÃ›Ã›Â±Â²Ã›Â²Ã›ÃœÃœ            ÃžÃ›Ã›                    Ã›Ã›Ã            ÃœÃœÃ›Â²Ã›Â²Â±Ã›Ã›ÃœÃœ    
+   Â²Ã›Â²Ã›ÃœÃŸÃ›ÃŸÂ°ÃŸÂ²ÃŸÃ›Ãœ          Ã›Ã›Ã INSTALLATION NOTES ÃžÃ›Ã›          ÃœÃ›ÃŸÂ²ÃŸÂ°ÃŸÃ›ÃŸÃœÃ›Â²Ã›Â²   
+  ÃžÃ›Â²ÃŸ          ÃŸÃ›Â²Ãœ       ÃžÃ›Ã›                    Ã›Ã›Ã       ÃœÂ²Ã›ÃŸ          ÃŸÂ²Ã›Ã  
+  Ã›Ã›Ã             ÃŸÃ›Ã›Ãœ      Ã›Â²Ã                  ÃžÂ²Ã›      ÃœÃ›Ã›ÃŸ             ÃžÃ›Ã›  
+  Â²Ã›Ã›               ÃŸÂ²Ã›Ãœ    ÃžÃ›Ã›                  Ã›Ã›Ã    ÃœÃ›Â²ÃŸ               Ã›Ã›Â²  
+Â²  ÃŸÂ²Â²Ãœ               ÃŸÃœÃ›Â±ÃœÃ¾ÃœÃ›Ã›Ã                ÃžÃ›Ã›ÃœÃ¾ÃœÂ±Ã›ÃœÃŸ               ÃœÂ²Â²ÃŸ  Â²
+ÃœÃ›Ã›Ãœ Ã›Ã›Ã›Ã¾                ÃŸÂ²ÃŸ ÃžÃ›Ã                ÃžÃ›Ã ÃŸÂ²ÃŸ                Ã¾Ã›Ã›Ã› ÃœÃ›Ã›Ãœ
+Â²ÃžÃœÃŸÃ›ÃœÃŸÂ²Ã›Ã¾                    Ã›                  Ã›                    Ã¾Ã›Â²ÃŸÃœÃ›ÃŸÃœÃÂ²
+Â±ÃžÂ²Â² ÃŸÃ›Ã›ÃŸ                     Ã                  Ãž                     ÃŸÃ›Ã›ÃŸ Â²Â²ÃÂ±
+Â±ÃžÂ²Ã›   Â²                     Ã¾       `TLB'        Ã¾                     Â²   Ã›Â²ÃÂ±
+Â±ÃžÃ›Ã›   Â±                    Try it, Like it, Buy it!                    Â±   Ã›Ã›ÃÂ±
+Â°ÃžÃ›Ã   Â±                                                                Â±   ÃžÃ›ÃÂ°
+Â°Ã›Ã›                                                                          Ã›Ã›Â°
+ÃžÃ›Ã    Â°                                                                Â°    ÃžÃ›Ã
+Ã›Ã›     Â°                                                                Â°     Ã›Ã›
+Ã›Ã    Â°                                                                  Â°    ÃžÃ›
+Ã›             1. ING-Install n Go, its cracked already :) enjoy                Ã›
+Ã›                                                                              Ã›
+Ã›             P.S.                                                             Ã›
+Ã›             [enob] license says 30 days left?                                Ã›
+Ã›             [cia] yes and in a week, month, 10 years it will                 Ã›
+Ã›             still state 30 days left                                         Ã›
+Ã›                                                                              Ã›
+Ã›             Capture One 5 User Guide:                                        Ã›
+Ã›             http://80.237.159.100/330a3505-0085-4247-a029-                   Ã›
+Ã›             d396cc74c3c8/22944442-4fe4-4bb0-93f3-2895fc8143d9/               Ã›
+Ã›             Capture%20One%20User%20Guide%20uk-us%20Hi-res.pdf                Ã›
+Ã›                                                                              Ã›
+Ã›             Capture One 5.2 Release Notes:                                   Ã›
+Ã›             http://80.237.159.100/330a3505-0085-4247-a029-                   Ã›
+Ã›             d396cc74c3c8/bf656aef-1164-4b92-a770-f52c005195cc/               Ã›
+Ã›             Capture%20One%205.2%20Release%20Notes.pdf                        Ã›
+Ã›      ___________________________________________________________________     Ã›
+Ã›                                                                              Ã›
+Ã›      Always remember to block applications (or go off line) from calling     Ã›
+Ã›      home 'during install'. Once installed, disable 'check for automatic     Ã›
+Ã›      updates' option if available, so that you don't get it blacklisted.     Ã›
+Ã›Ã                                                                            ÃžÃ›
+Ã›Ã›Ãœ                                                                          ÃœÃ›Ã›
+Ã¾Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœÂ°                                                           Â°ÃœÃœÃœÃœÃ›Ã›Ã›Â±Ã›Ã¾
+  ÃŸÃ›Ã›Â²Ã›Ã›Ã›Ã›Â²ÃœÃœ                                                     ÃœÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›ÃŸ 
+      ÃŸÃŸÂ²Â²Ã›Ã›ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœ                                    Â°    ÃœÃŸÃ›Ã›Ã›Ã›Ã›Â²Â²ÃŸÃŸ     
+         ÃœÃ›Ãœ ÃœÃ›Ã›ÃŸÃŸÂ²Ã›Ã›ÃŸ ÃœÃ›Ã›Ã›Ã›Ã›Ã›ÃœÃœ                   ÃœÃœÃœÃœÃœÃœÃœÃœÃ›Ã›Ã›Ã›Ã›Ãœ ÃœÃ›Ã›Ã›ÃŸ   Ãœ     
+     ÃœÃœÂ²Ã›ÃŸÃŸÃŸÃŸÃŸÃŸÃ›Ã›ÃœÃœÃœ  ÃŸÃ›Ã›Â²ÃŸ ÃŸÃ›Ã›Ã›Â²Ã›ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÂ²ÃœÃ›Ã›ÃŸ ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸÃŸÂ² ÃœÃœÃ›ÃŸ      
+   ÃœÃŸÃŸÂ°          ÃŸÂ²Ã›Â²Ã› Ã›ÃŸÃ›Ã›ÃœÃ›ÃœÃŸÃ›Â±ÃžÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Ã›ÃŸÃœÃ›ÃœÃ›Ã›ÃŸ         ÃœÃ›Ã›Ã›Ã›ÃŸÃŸ        
+                 ÃœÃ›Â²ÃŸ  ÃŸÂ°ÃžÂ²Ã›ÃŸÃŸÂ²ÃÂ°              Â°ÃžÂ²ÃŸÃŸÃ›Â²ÃÂ°        ÃœÂ²Ã›ÃŸÃŸ           
+                   Â°    ÃŸÂ²Ã›ÃœÂ°                      Â°ÃœÃ›Â²ÃŸ       ÃŸÂ°               
+                          Ã›Ã›Ã›Â²                    Â²Ã›Ã›Ã›                          
+                       ÃœÃœÃ›Ã›Â²ÃŸ                      ÃŸÂ²Ã›Ã›ÃœÃœ                       
+                   Ãœ Â²ÃŸÃŸÃŸ                              ÃŸÃŸÃŸÂ² Ãœ                   
+             Ãœ  ÃŸ                                              ÃŸ  Ãœ             
+       Ãœ  ÃŸ                                                          ÃŸ  Ãœ       
+   ÃœÂ²ÃŸ                                                                    ÃŸÂ²Ãœ   
+  Ã›Ã›Ã                                                                      ÃžÃ›Ã›  
+  Â²Ã›Ã›                         Ãœ                  Ãœ                         Ã›Ã›Â²  
+Â² Ã¾ÃŸÂ²Â²Ãœ                      Ã›Ã                  ÃžÃ›                      ÃœÂ²Â²ÃŸÃ¾ Â²
+ÃœÃ›Ã›Ãœ Ã›Ã›Ã                     ÃžÂ²   EAT  CONTACT   Â²Ã                     ÃžÃ›Ã› ÃœÃ›Ã›Ãœ
+Â²ÃžÃœÃŸÃ›ÃœÃŸÂ²ÃœÃ¾                    Ã›                  Ã›                    Ã¾ÃœÂ²ÃŸÃœÃ›ÃŸÃœÃÂ²
+Â±ÃžÂ²Â² ÃŸÃ›Ã›ÃŸ                     ÃžÃ                ÃžÃ                     ÃŸÃ›Ã›ÃŸ Â²Â²ÃÂ±
+Â±ÃžÂ²Ã›   Â²                       Ã¾                Ã¾                       Â²   Ã›Â²ÃÂ±
+Â±ÃžÃ›Ã›   Â±                                                                Â±   Ã›Ã›ÃÂ±
+Â±ÃžÃ›Ã›   Â±                                                                Â±   Ã›Ã›ÃÂ±
+  Ã›Ã›   Â±                                                                Â±   Ã›Ã›  
+Â± Ã›Ã›Ã  Â±                                                                Â±  ÃžÃ›Ã› Â±
+Â± Ã›Ã›Ã›  Â°     EAT is a closed group. We would consider only:             Â°  Ã›Ã›Ã› Â±
+Â± Ã›Ã›Ã›  Â°                                                                Â°  Ã›Ã›Ã› Â±
+Â° Ã›Ã›Ã  Â°     Ã¾Excellent reverse-engineers                               Â°  ÃžÃ›Ã› Â°
+Â°ÃžÃ›Ã›   Â°     Ã¾Experienced coders/scripters                              Â°   Ã›Ã›ÃÂ°
+Â°Ã›Ã›Ã   Â°     Ã¾Supplier of quality software who can do so on a           Â°   ÃžÃ›Ã›Â°
+ÃžÃ›Ã›    Â°      frequent basis (retail date not older then 6 months)      Â°    Ã›Ã›Ã
+Ã›Ã›Ã                                                                          ÃžÃ›Ã›
+Ã›Ã›Ã          We do *NOT* want...                                             ÃžÃ›Ã›
+Ã›Ã›           Ã¾Distros, Shells, etc                                            Ã›Ã›
+Ã›Ã     Â°     Ã¾Carders <You aren't what the scene is & bring even more   Â°     ÃžÃ›
+Ã›             security risk                                                    Ã›
+Ã›     Â°      Ã¾Couriers                                                   Â°     Ã›
+Ã›                                                                              Ã›
+Ã›Ã                                                                            ÃžÃ›
+Ã›Ã›Ãœ                                                                          ÃœÃ›Ã›
+Ã¾Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœÂ°                                                           Â°ÃœÃœÃœÃœÃ›Ã›Ã›Â±Ã›Ã¾
+  ÃŸÃ›Ã›Â²Ã›Ã›Ã›Ã›Â²ÃœÃœ                                                     ÃœÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›ÃŸ 
+      ÃŸÃŸÂ²Â²Ã›Ã›ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœ                                    Â°    ÃœÃŸÃ›Ã›Ã›Ã›Ã›Â²Â²ÃŸÃŸ     
+         ÃœÃ›Ãœ ÃœÃ›Ã›ÃŸÃŸÂ²Ã›Ã›ÃŸ ÃœÃ›Ã›Ã›Ã›Ã›Ã›ÃœÃœ                   ÃœÃœÃœÃœÃœÃœÃœÃœÃ›Ã›Ã›Ã›Ã›Ãœ ÃœÃ›Ã›Ã›ÃŸ   Ãœ     
+     ÃœÃœÂ²Ã›ÃŸÃŸÃŸÃŸÃŸÃŸÃ›Ã›ÃœÃœÃœ  ÃŸÃ›Ã›Â²ÃŸ ÃŸÃ›Ã›Ã›Â²Ã›ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÂ²ÃœÃ›Ã›ÃŸ ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸÃŸÂ² ÃœÃœÃ›ÃŸ      
+   ÃœÃŸÃŸÂ°          ÃŸÂ²Ã›Â²Ã› Ã›ÃŸÃ›Ã›ÃœÃ›ÃœÃŸÃ›Â±ÃžÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Ã›ÃŸÃœÃ›ÃœÃ›Ã›ÃŸ         ÃœÃ›Ã›Ã›Ã›ÃŸÃŸ        
+                 ÃœÃ›Â²ÃŸ  ÃŸÂ°ÃžÂ²Ã›ÃŸÃŸÂ²ÃÂ°              Â°ÃžÂ²ÃŸÃŸÃ›Â²ÃÂ°        ÃœÂ²Ã›ÃŸÃŸ           
+                   Â°    ÃŸÂ²Ã›ÃœÂ°                      Â°ÃœÃ›Â²ÃŸ       ÃŸÂ°               
+                          Ã›Ã›Ã›Â²                    Â²Ã›Ã›Ã›                          
+                       ÃœÃœÃ›Ã›Â²ÃŸ                      ÃŸÂ²Ã›Ã›ÃœÃœ                       
+                   Ãœ Â²ÃŸÃŸÃŸ                              ÃŸÃŸÃŸÂ² Ãœ                   
+                                                                                
+                              Ã¾                  Ã¾                              
+        ÃœÃœÃœ                 ÃœÃ›Ã                  ÃžÃ›Ãœ                 ÃœÃœÃœ        
+    ÃœÃœÃ›Ã›Â±Â²Ã›Â²Ã›ÃœÃœ            ÃžÃ›Ã›                    Ã›Ã›Ã            ÃœÃœÃ›Â²Ã›Â²Â±Ã›Ã›ÃœÃœ    
+   Â²Ã›Â²Ã›ÃœÃŸÃ›ÃŸÂ°ÃŸÂ²ÃŸÃ›Ãœ          Ã›Ã›Ã     EAT  NEWS      ÃžÃ›Ã›          ÃœÃ›ÃŸÂ²ÃŸÂ°ÃŸÃ›ÃŸÃœÃ›Â²Ã›Â²   
+  ÃžÃ›Â²ÃŸ          ÃŸÃ›Â²Ãœ       ÃžÃ›Ã›                    Ã›Ã›Ã       ÃœÂ²Ã›ÃŸ          ÃŸÂ²Ã›Ã  
+  Ã›Ã›Ã             ÃŸÃ›Ã›Ãœ      Ã›Â²Ã                  ÃžÂ²Ã›      ÃœÃ›Ã›ÃŸ             ÃžÃ›Ã›  
+  Â²Ã›Ã›               ÃŸÂ²Ã›Ãœ    ÃžÃ›Ã›                  Ã›Ã›Ã    ÃœÃ›Â²ÃŸ               Ã›Ã›Â²  
+Â²  ÃŸÂ²Â²Ãœ               ÃŸÃœÃ›Â±ÃœÃ¾ÃœÃ›Ã›Ã                ÃžÃ›Ã›ÃœÃ¾ÃœÂ±Ã›ÃœÃŸ               ÃœÂ²Â²ÃŸ  Â²
+ÃœÃ›Ã›Ãœ Ã›Ã›Ã›Ã¾                ÃŸÂ²ÃŸ ÃžÃ›Ã                ÃžÃ›Ã ÃŸÂ²ÃŸ                Ã¾Ã›Ã›Ã› ÃœÃ›Ã›Ãœ
+Â²ÃžÃœÃŸÃ›ÃœÃŸÂ²Ã›Ã¾                    Ã›                  Ã›                    Ã¾Ã›Â²ÃŸÃœÃ›ÃŸÃœÃÂ²
+Â±ÃžÂ²Â² ÃŸÃ›Ã›ÃŸ                     Ã                  Ãž                     ÃŸÃ›Ã›ÃŸ Â²Â²ÃÂ±
+Â±ÃžÂ²Ã›   Â²                     Ã¾                    Ã¾                     Â²   Ã›Â²ÃÂ±
+Â±ÃžÃ›Ã›   Â±                                                                Â±   Ã›Ã›ÃÂ±
+Â°ÃžÃ›Ã   Â±                                                                Â±   ÃžÃ›ÃÂ°
+Â°Ã›Ã›                                                                          Ã›Ã›Â°
+ÃžÃ›Ã    Â°                                                                Â°    ÃžÃ›Ã
+Ã›Ã›     Â°                                                                Â°     Ã›Ã›
+Ã›Ã    Â°                                                                  Â°    ÃžÃ›
+Ã›                                                                              Ã›
+Ã›                                                                              Ã›
+Ã›                                                                              Ã›
+Ã›                                                                              Ã›
+Ã›Ã                                                                            ÃžÃ›
+Ã›Ã›Ãœ                                                                          ÃœÃ›Ã›
+Ã¾Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœÂ°                                                           Â°ÃœÃœÃœÃœÃ›Ã›Ã›Â±Ã›Ã¾
+  ÃŸÃ›Ã›Â²Ã›Ã›Ã›Ã›Â²ÃœÃœ                                                     ÃœÃœÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›ÃŸ 
+      ÃŸÃŸÂ²Â²Ã›Ã›ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœÃœ                                    Â°    ÃœÃŸÃ›Ã›Ã›Ã›Ã›Â²Â²ÃŸÃŸ     
+         ÃœÃ›Ãœ ÃœÃ›Ã›ÃŸÃŸÂ²Ã›Ã›ÃŸ ÃœÃ›Ã›Ã›Ã›Ã›Ã›ÃœÃœ                   ÃœÃœÃœÃœÃœÃœÃœÃœÃ›Ã›Ã›Ã›Ã›Ãœ ÃœÃ›Ã›Ã›ÃŸ   Ãœ     
+     ÃœÃœÂ²Ã›ÃŸÃŸÃŸÃŸÃŸÃŸÃ›Ã›ÃœÃœÃœ  ÃŸÃ›Ã›Â²ÃŸ ÃŸÃ›Ã›Ã›Â²Ã›ÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÃœÂ²ÃœÃ›Ã›ÃŸ ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸÃŸÃŸÂ² ÃœÃœÃ›ÃŸ      
+   ÃœÃŸÃŸÂ°          ÃŸÂ²Ã›Â²Ã› Ã›ÃŸÃ›Ã›ÃœÃ›ÃœÃŸÃ›Â±ÃžÂ²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Ã›ÃŸÃœÃ›ÃœÃ›Ã›ÃŸ         ÃœÃ›Ã›Ã›Ã›ÃŸÃŸ        
+                 ÃœÃ›Â²ÃŸ  ÃŸ ÃžÂ²Ã›ÃŸÃŸÂ²ÃÂ°              Â°ÃžÂ²ÃŸÃŸÃ›Â²Ã         ÃœÂ²Ã›ÃŸÃŸ           
+                   Â°      ÃŸ                          ÃŸ         ÃŸÂ°               
+                                                                                
+                              Ã¾                  Ã¾                              
+        ÃœÃœÃœ                 ÃœÃ›Ã                  ÃžÃ›Ãœ                 ÃœÃœÃœ        
+    ÃœÃœÃ›Ã›Â±Â²Ã›Â²Ã›ÃœÃœ            ÃžÃ›Ã›                    Ã›Ã›Ã            ÃœÃœÃ›Â²Ã›Â²Â±Ã›Ã›ÃœÃœ    
+   Â²Ã›Â²Ã›ÃœÃŸÃ›ÃŸÂ°ÃŸÂ²ÃŸÃ›Ãœ          Ã›Ã›Ã     GREETINGS      ÃžÃ›Ã›          ÃœÃ›ÃŸÂ²ÃŸÂ°ÃŸÃ›ÃŸÃœÃ›Â²Ã›Â²   
+  ÃžÃ›Â²ÃŸ          ÃŸÃ›Â²Ãœ       ÃžÃ›Ã›                    Ã›Ã›Ã       ÃœÂ²Ã›ÃŸ          ÃŸÂ²Ã›Ã  
+  Ã›Ã›Ã             ÃŸÃ›Ã›Ãœ      Ã›Â²Ã                  ÃžÂ²Ã›      ÃœÃ›Ã›ÃŸ             ÃžÃ›Ã›  
+  Â²Ã›Ã›               ÃŸÂ²Ã›Ãœ    ÃžÃ›Ã›                  Ã›Ã›Ã    ÃœÃ›Â²ÃŸ               Ã›Ã›Â²  
+Â²  ÃŸÂ²Â²Ãœ               ÃŸÃœÃ›Â±ÃœÃ¾ÃœÃ›Ã›Ã                ÃžÃ›Ã›ÃœÃ¾ÃœÂ±Ã›ÃœÃŸ               ÃœÂ²Â²ÃŸ  Â²
+ÃœÃ›Ã›Ãœ Ã›Ã›Ã›Ã¾                ÃŸÂ²ÃŸ ÃžÃ›Ã                ÃžÃ›Ã ÃŸÂ²ÃŸ                Ã¾Ã›Ã›Ã› ÃœÃ›Ã›Ãœ
+Â²ÃžÃœÃŸÃ›ÃœÃŸÂ²Ã›Ã¾                    Ã›                  Ã›                    Ã¾Ã›Â²ÃŸÃœÃ›ÃŸÃœÃÂ²
+Â±ÃžÂ²Â² ÃŸÃ›Ã›ÃŸ                     Ã                  Ãž                     ÃŸÃ›Ã›ÃŸ Â²Â²ÃÂ±
+Â±ÃžÂ²Ã›   Â²                     Ã¾                    Ã¾                     Â²   Ã›Â²ÃÂ±
+Â±ÃžÃ›Ã›   Â±                                                                Â±   Ã›Ã›ÃÂ±
+Â°ÃžÃ›Ã   Â±                                                                Â±   ÃžÃ›ÃÂ°
+Â°Ã›Ã›                                                                          Ã›Ã›Â°
+ÃžÃ›Ã    Â°                                                                Â°    ÃžÃ›Ã
+Ã›Ã›     Â°                                                                Â°     Ã›Ã›
+Ã›Ã    Â°                                                                  Â°    ÃžÃ›
+Ã›                                                                              Ã›
+Ã›                         All our friends out there...                         Ã›
+Ã›                                                                              Ã›
+Ã›                      Respect goes out to the competition                     Ã›
+Ã›                     and to those who keep the scene secure!                  Ã›
+Ã›                                                                              Ã›
+Ã›Ã                                                                            ÃžÃ›
+Ã›Ã›                              ÃœÃœÃ›Ã›Ã›Ã›Â²ÃœÂ²Ã›Ã›Ã›Ã›ÃœÃœ                               Ã›Ã›
+ÃžÃ›Ã                         ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ                          ÃžÃ›Ã
+Â°Ã›Ã›                       ÃœÃ›Ã›Ã›Â²Â±Â²Â²Ã›Ã›Ã›Â°Â°Â°Â°Â°Ã›Ã›Ã›Â²Â²Â±Â²Ã›Ã›Ã›Ãœ                        Ã›Ã›Â°
+Â°Ã›Ã›Ã                    ÃœÃ›Ã›Ã›Ã›Â±Â±Â²Ã›Ã›Ã›Â²Â°Â°Â°Â°Â°Â°Â°Â²Ã›Ã›Ã›Â²Â±Â±Ã›Ã›Ã›Ã›Ãœ                     ÃžÃ›Ã›Â°
+Â°ÃžÃ›Ã›                   Ã›Ã›Ã›Â²Â²Â±Â²Ã›Ã›Ã›Â²Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â²Ã›Ã›Ã›Â²Â±Â²Â²Ã›Ã›Ã›                    Ã›Ã›ÃÂ°
+Â° Ã›Ã›Ã                 Ã›Ã›Ã›Â²Â±Â²Â²Ã›Ã›Ã›Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Ã›Ã›Ã›Â²Â²Â±Â²Ã›Ã›Ã›                  ÃžÃ›Ã› Â°
+Â° Ã›Ã›Ã›                Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Â±Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â±Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›                 Ã›Ã›Ã› Â°
+Â° Ã›Ã›Ã›   Ãœ           Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Â²Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â²Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›                Ã›Ã›Ã› Â°
+Â° Ã›Ã›Ã  ÃŸÂ±ÃŸ         Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›Â±Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â±Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›               ÃžÃ›Ã› Â°
+Â°ÃžÃ›Ã›              Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›Â±Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â±Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›       Ãœ       Ã›Ã›ÃÂ°
+ ÃžÃ›Ã›              Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Â°Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›      ÃŸÂ±ÃŸ      Ã›Ã›Ã 
+Â°ÃžÃ›Ã›              Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Â°Â°Â°Â°Â²Â²Ã›Ã›Ã›Â²Â²Â°Â°Â°Â°Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›               Ã›Ã›ÃÂ°
+Â°ÃžÂ²Ã›Ã              Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Â°Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â°Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›               ÃžÃ›Â²ÃÂ°
+Â°ÃžÂ²Â²Ã¾ÃœÃ›Ã›Ãœ           Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›            ÃœÃ›Ã›ÃœÃ¾Â²Â²ÃÂ°
+ÃœÃžÃŸÃœÃ›ÃŸ  ÃŸÃ¾           Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›            Ã¾ÃŸ  ÃŸÃ›ÃœÃŸÃÃœ
+ÃŸÃ›Ã›ÃŸ ÃœÂ±Ãœ     Ãœ      Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›ÃÂ°Â°Â°ÃžÃ›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›             ÃœÂ±Ãœ ÃŸÃ›Ã›ÃŸ
+Ã¾  ÃœÃŸÃœÃ›Ã›Ã›Ãœ  ÃŸÂ±ÃŸ    Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Â°Â°Â°Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›      Ãœ   ÃœÃ›Ã›Ã›ÃœÃŸÃœ  Ã¾
+Â±Ã¾Ãœ ÃŸÃœÂ²Â±ÃŸ         Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›ÃœÃ›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    ÃŸÂ±ÃŸ   ÃŸÂ±Â²ÃœÃŸ ÃœÃ¾Â±
+Â±  Ã›Ãœ ÃŸ ÃœÂ²Ã›Ãœ      Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›       ÃœÃ›Â²Ãœ ÃŸ ÃœÃ›  Â±
+Â±  ÃžÂ²Ã›ÃœÃ›ÃŸÃ›  ÃŸ     Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›      ÃŸ  Ã›ÃŸÃ›ÃœÃ›Â²Ã  Â±
+Â°  Â°Ã›Ã›ÃŸ ÃžÃ›        Â²Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Ã›Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Â²         Ã›Ã ÃŸÃ›Ã›Â°  Â°
+Â°  ÃœÃŸ ÃœÃ›Ã›Ã  ÃœÃ›Ã›Ã›Ã›Ãœ Â²Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Â² ÃœÃ›Ã›Ã›Ã›Ãœ   Ã›Ã›Ãœ  ÃŸÃœ  Â°
+Â°  Â± ÃœÃ›Ã›ÃŸ ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã› Â²Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Ã›Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â²Â²Ã›Ã›Ã›Ã›Ã›Â² Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ  Ã›Ã›Ã  Â±  Â°
+Â°  Â± Ã›Ã›Ã  Ã›Ã›Ã›Ã›Ã›Ã›ÃÃŸ ÃÂ²Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Ã›Â²Ã›Ã›Ã›Ã›Â²Ã›Ã›Â²Ã›Ã›Ã›Ã›Â²Ã›Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›Â²Ãž ÃŸÃžÃ›Ã›Ã›Ã›Ã›Ã›  ÃžÃ›Ã›  Â±  Â°
+Â°  Â° Ã›Ã›  ÃžÃ›Ã›Ã›Ã›Ã›Ã ÃœÃœ  Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Â²Â²Â²Â²Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã›  ÃœÃœ ÃžÃ›Ã›Ã›Ã›Ã›Ã  Ã›Ã›  Â°  Â°
+   Â° Â²Ã›   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ Ã›Ã›Ã›Ã›Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Ã›Â²Â²Â²Â²Ã›Â²Â²Â²Â²Â²Â²Â²Â²Â²Â²Ã›Ã›Ã›Ã› ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Ã›Â²  Â°   
+   Â° Ã›Â²    Ã›Ã›Ã›Ã›Ã›Ã›ÃŸ   Ã› Ã›ÃžÃ›Ã›Â²Â²Â±Â²Â²Â²Â²Â²Â²Ã›Â²Â²Â²Â²Â²Â²Ã›Â²Â²Â²Â²Â²Â±Â²Â²Ã›Ã›ÃÃ› Ã›   ÃŸÃ›Ã›Ã›Ã›Ã›Ã›    Â²Ã›  Â°   
+     ÃžÃ›     Ã›Ã›Ã›Ã›Ã›    Â±Ã¾ Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Â²Â²Â²Â²Ã›Â²Â±Â±Â±Â±Â²Ã›Â²Â²Â²Â±Ã›Ã›Ã›Ã›Ã›Ã›Ã› Ã¾Â±    Ã›Ã›Ã›Ã›Ã›     Ã›Ã      
+   Â°  Ã›Ã›   Ãœ Ã›Ã›Ã›Ã›Ã   Â± Ã›Ã›Ã›Ã›Ã›Ã›Â²Â±Â±Â²Â±Â²Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²Â±Â²Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã› Â±   ÃžÃ›Ã›Ã›Ã›     Ã›Ã›   Â°   
+   Â°  ÃžÃ›Ã ÃŸÂ±ÃŸ Ã›Ã›Ã›Ã›Ã  Â±  Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Â±Â±Â±Â±Â±Â±Â²Ã›Ã›Â²Â±Â±Â±Â±Â±Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›  Â±  ÃžÃ›Ã›Ã›Ã›     ÃžÃ›Ã   Â°   
+  Â°    Ã›Ã›     ÃžÃ›Ã›Ã›Ã›  Â°   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Â±Â±Â±Â±Â²Ã›Ã›Ã›Ã›Â²Â±Â±Â±Â±Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Â°  Ã›Ã›Ã›Ã›Ã     Ã›Ã›     Â°  
+        Ã›Ã›     Ã›Ã›Ã›Ã›Ã    Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Â±Â±Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Â±Â±Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    ÃžÃ›Ã›Ã›Ã›     Ã›Ã›         
+         Ã›Ã›   ÃžÃ›Ã›Ã›Ã›  Â°  Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â±Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›  Â°  Ã›Ã›Ã›Ã›Ãn0!Ã›Ã›          
+          Ã›Ã›  Ã›Ã›Ã›Ã›   Â°   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃœÃœÃœÃœÃœÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Â°   Ã›Ã›Ã›Ã›  Ã›Ã›    Ãœ      
+           Ã›Ã›ÃžÃ›Ã›Ã›    Â°    Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Â²Â²ÃÃ›Ã›Ã›Ã›Ã›ÃžÂ²Â²Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›    Â°    Ã›Ã›Ã›ÃÃ›Ã›    ÃŸÂ±ÃŸ     
+           Â°ÃžÃ›Ã›Ã›           ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃÃŸÃŸÃ›Ã›Ã›ÃŸÃŸÃžÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸ           Ã›Ã›Ã›ÃÂ°            
+           ÃžÃ›Ã›Ã›  Ãœ   Â°       ÃŸÃŸÃŸÃŸÃŸÃŸ         ÃŸÃŸÃŸÃŸÃŸ        Â°      Ã›Ã›Ã›Ã            
+           Ã›Ã›Ã›Â° ÃŸÂ±ÃŸ Â°                                     Â°     Â°Ã›Ã›Ã›            
+          Ã›Ã›Ã› Â°      Ã¹ Ã¹                          Ã¹ Ã¹           Â° Ã›Ã›Ã›            
+         ÃžÃ›Ã›  Â°                                                 Â°  Ã›Ã›Ã          
+         Ã›Ã                                        Ãœ                ÃžÃ›          
+        ÃžÃ›    Â°                                   ÃŸÂ±ÃŸ           Â°    Ã›Ã         
+        Ã›    Â°                                                   Â°    Ã›         
+        Ã                                                             Ãž         
+        Ã¾                                                             Ã¾         
+                                                                                

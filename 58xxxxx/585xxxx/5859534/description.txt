@@ -1,0 +1,40 @@
+Video
+ID                               : 1
+Format                           : AVC
+Format/Info                      : Advanced Video Codec
+Format profile                   : Baseline@L3.1
+Format settings, CABAC           : No
+Format settings, ReFrames        : 1 frame
+Codec ID                         : avc1
+Codec ID/Info                    : Advanced Video Coding
+Duration                         : 5mn 4s
+Bit rate mode                    : Variable
+Bit rate                         : 3 364 Kbps
+Width                            : 1 280 pixels
+Height                           : 576 pixels
+Display aspect ratio             : 2.222
+Frame rate mode                  : Constant
+Frame rate                       : 23.976 fps
+Color space                      : YUV
+Chroma subsampling               : 4:2:0
+Bit depth                        : 8 bits
+Scan type                        : Progressive
+Bits/(Pixel*Frame)               : 0.190
+Stream size                      : 122 MiB (96%)
+
+Audio
+ID                               : 2
+Format                           : AAC
+Format/Info                      : Advanced Audio Codec
+Format version                   : Version 4
+Format profile                   : LC
+Format settings, SBR             : No
+Codec ID                         : 40
+Duration                         : 5mn 4s
+Bit rate mode                    : Variable
+Bit rate                         : 128 Kbps
+Channel(s)                       : 2 channels
+Channel positions                : Front: L R
+Sampling rate                    : 48.0 KHz
+Stream size                      : 4.64 MiB (4%)
+

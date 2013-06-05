@@ -1,0 +1,53 @@
+User Type,Username,Date,Text
+,m4xr4nd0m,2010-10-25T23:22Z,"i had no success launching this.
+
+firmware 3.41
+psfreedom 0.9.6.1"
+,wackyum,2010-11-16T01:51Z,"I could not launch this.
+- external didnt work
+- internal didnt work
+- inserting bd didnt work
+ps3break 1.1 (hermes v5b)"
+,binghamd,2011-01-19T03:10Z,Seriously? i'm getting 2.0 kb/s... Seeddd
+,killzone3,2011-02-06T04:27Z,please help me about this game at talhajanee@yahoo.com
+,ripper345,2011-02-23T19:09Z,"can somebody download a working copy of this game please, thank you"
+,ajaylion2,2011-02-24T03:38Z,"for all those who get black screen or loop back to xmb, dont worry this torrent is worth you download:) after a week of struggling to get it work, the game now works 100%. Here's what i did:
+1)Load this up onto external hdd(fat32 of-course)
+2)Download latest Multiman from ps3hacks and install.
+3)Do not back up onto internal HDD, it doesn't work
+4)Insert an original game BD(i used AC Brotherhood but any will do)
+5)Open multiman and browse upto AC on ur ext disk
+6)Press and hold ""SELECT"" and press ""X""
+7)It asks for Virtual Emulate BD from ext disk, select yes and OK
+8)Start from the BD icon, your good to go:)
+i feel embarrassed after solving a noob problem after so many days:D"
+,ripper345,2011-02-25T05:10Z,aight ill try one more time
+,ripper345,2011-02-25T18:09Z,bro dat doesnt work n it supposed to be R3 intsead of select x and u didnt even say wat folder to go to
+,ajaylion2,2011-02-26T03:34Z,"its not r3+x. copy the usrdir to the root of usb and hold select and then press X. remember it works only on latest multiman 1.15xxx and on external storage only. here is multiman 1.16
+http://www.ps3-hacks.com/file/160
+i tested it on 3.41. if still u get issues try installing the patch, i dont think you'l get any issues"
+,ajaylion2,2011-02-26T03:37Z,i'm sharing this as i too ran alot of frustration thinking ac bckp will never run on ps3
+,ripper345,2011-02-26T19:49Z,"i got the latest multiman and i didnt say R3 + x i said just R3, bt lemme c"
+,ripper345,2011-02-26T20:13Z,bruh u bs'in dat dnt work somebdy else pls explain or give sum definite 2 if dere is sum way 2 make this work
+,ripper345,2011-02-26T20:20Z,it dnt show up on the covers screen either
+,ajaylion2,2011-02-27T17:08Z,"k i'l teach u the noob way. dump the blus30089 u downloaded from this torrent to devusb\GAMEZ\blus30089. install multiman with hermes payload. insert an original game br disc. In multiman, browse upto assassin's creed with a disc inside(any ORIGINAL GAME bluraydisc). hold select and then press X. it asks to emulate exthdd as bluray disc click yes and it says that it has to quit xmb and press OK. now under the GAME section select assassin's creed and boom it does the mandatory install and runS! i already beat the game"
+,ajaylion2,2011-02-27T17:10Z,devusb refers to your external hard disk
+,ajaylion2,2011-02-27T17:14Z,"oh and install this:
+http://sonycoment-9.vo.llnwd.net/tppkg/np/BLUS30089/BLUS30089_T4/be16719a2ae20da7/UP0001-BLUS30089_00-ASSASSINPATCH001-PE.pkg?product=008E"
+,ripper345,2011-02-28T18:36Z,"ok u know wat da problem was, i run my games frm da file manager and u runninem directly frm the game screen, thnx 4 dat lol, bt another thing is da patch u have there isnt downloadin and I still get looped bak"
+,ajaylion2,2011-03-01T04:00Z,"ok did you get the game work? seriously, AC1 has betta graphics dan the other two"
+,ripper345,2011-03-01T07:14Z,naw
+,ajaylion2,2011-03-01T13:33Z,man i've told tou everythng i did. keep trying. gud lukK!
+,robotukas,2011-03-13T20:17Z,its not working I tried your inctructions but its not working on cfw3.55 
+,DarkTamashii,2011-05-14T06:06Z,"I got this working:...
+
+don't know why for some people this works without problems but for the ones that can't get it to run, even using the [SELECT]+[X] method, you must create a folder inside the USRDIR called ASSASSIN_ISO...
+I did it and run it with [SELECT]+[X] and it worked... Still don't know if the game have other issues..."
+,sumart303,2011-05-17T11:44Z,I'm getting 7.0kb/s... seed please :/
+,robotukas,2011-05-27T15:49Z,I got it working now thanks
+,VsEarth,2011-07-17T18:23Z,"Tried w/ game disc in bd emulate loop back to XMB, installed patch loop back to xmb, created the ASSASSINS_ISO folder worked! weird shit (might have something to do with this being the greatest hits version)"
+,sapmaskey,2011-08-07T18:51Z,its taking forever to download.. pretty slow :(
+,denatorewu38,2011-08-16T01:04Z,video/movies tutorial of the Assassins: http://www.gamestia.com/video/assassins-creed-c14s1.html
+,Murd3rMiL,2011-10-20T07:42Z,Simply in multiman go to the file manager go to the assissins creed game folder inside the usdir folder make another folder by pressing circle ASSASSIN_ISO then launch with select+X
+,maxdesolate,2011-12-24T19:25Z,"ok, heres the solution which no one had explained properly to noobs. what you have to do is - create a folder called ASSASIN_ISO in your USDIR folder in your USB(external), not internal. no need to install any pkg. after that select+x in multiman, then select+x in xmb. thats it!"
+,maxdesolate,2011-12-24T19:29Z,and this game DOES NOT work from internal. hope i helped guys.

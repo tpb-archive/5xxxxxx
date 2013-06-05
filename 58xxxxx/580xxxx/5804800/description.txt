@@ -1,0 +1,20 @@
+DOSBOX 0.65
+
+NOTE: (taken from readme file)
+=====
+
+While we are hoping that one day, DOSBox will run all programs
+ever made for the PC, we are not there yet. At present, DOSBox running on a 
+high-end machine will roughly be the equivalent of a 486 PC. The 0.60
+release has added support for "protected mode" allowing for more complex and
+recent programs, but note that this support is still in an early stage of 
+development and unlike the support for 386 real-mode games (or earlier) hasn't
+been completed yet. Also note that "protected mode" games need substantially 
+more resources and may require a much faster processor for you to run them
+properly in DOSBox.
+
+
+An essential program needed to play many older games on newer machines. Suprisingly for me this actually worked on a x64 bit system (vista x64 ultimate).
+
+
+Instructions are included within the file.

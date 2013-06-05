@@ -1,0 +1,53 @@
+General
+Complete name                    : Home Alone 1
+Format                           : AVI
+Format/Info                      : Audio Video Interleave
+File size                        : 587 MiB
+Duration                         : 1h 35mn
+Overall bit rate                 : 860 Kbps
+Writing library                  : MPlayer
+
+Video
+ID                               : 0
+Format                           : MPEG-4 Visual
+Format profile                   : Simple@L1
+Format settings, BVOP            : No
+Format settings, QPel            : No
+Format settings, GMC             : No warppoints
+Format settings, Matrix          : Default (H.263)
+Codec ID                         : DX50
+Codec ID/Hint                    : DivX 5
+Duration                         : 1h 35mn
+Bit rate                         : 736 Kbps
+Width                            : 630 pixels
+Height                           : 310 pixels
+Display aspect ratio             : 2.032
+Frame rate                       : 25.000 fps
+Color space                      : YUV
+Chroma subsampling               : 4:2:0
+Bit depth                        : 8 bits
+Scan type                        : Interlaced
+Scan order                       : Top Field First
+Bits/(Pixel*Frame)               : 0.151
+Stream size                      : 502 MiB (86%)
+Writing library                  : Lavc52.30.1
+
+Audio ::HINDI
+ID                               : 1
+Format                           : MPEG Audio
+Format version                   : Version 1
+Format profile                   : Layer 3
+Mode                             : Joint stereo
+Mode extension                   : MS Stereo
+Codec ID                         : 55
+Codec ID/Hint                    : MP3
+Duration                         : 1h 35mn
+Bit rate mode                    : Constant
+Bit rate                         : 112 Kbps
+Channel(s)                       : 2 channels
+Sampling rate                    : 44.1 KHz
+Stream size                      : 76.4 MiB (13%)
+Alignment                        : Aligned on interleaves
+Interleave, duration             : 26 ms (0.65 video frame)
+Interleave, preload duration     : 809 ms
+

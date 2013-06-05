@@ -1,0 +1,46 @@
+EasyTunes 1.2
+iTunes decryption applet 
+by MoCP [AT] zentipede
+Updated by Macravin
+
+Front end for Requiem 1.9.8 (iTunes 10 compatible) 
+iTunes decryption software 
+by Brahms
+
+DISCLAIMER:
+Not intended to promote piracy! 
+
+Changes in 1.2*
+Requem updated to 1.9.8
+Minor Facelift
+
+Changes in 1.0*
+Requiem updated to 1.8.13
+
+Changes in 0.7
+Requiem updated to 1.8.1.
+
+Changes in 0.6.1
+Bug fixes.
+
+Changes in 0.6
+PowerPC now supported.
+Decryption runs in separate thread.
+GUI responsive while decrypting.
+Decryption can be stopped/paused. 
+
+Changes in 0.5.4
+Bug fixes.
+
+Changes in 0.5.3
+Application now launches and responds to App Icon drag and drop operations.
+Instant decryption of files and folders dragged to App Icon.
+Application drag area is now an image.
+Reworked Application base class and init function.
+Updated file viewer:
+- Folders and subfolders now expand automatically during decryption.
+- Decrypted items removed from top of list.
+Better error log when decrypting folders.
+Window can now resize.
+
+*Unofficial Builds by Macravin

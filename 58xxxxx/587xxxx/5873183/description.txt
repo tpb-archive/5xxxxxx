@@ -1,0 +1,326 @@
+This is the CBT nuggets video series of ICND1 and ICND2 taken from the CD's but ripped to xvid using mencoder
+I did this cause I hate wmv and i had trouble playing them back in some players if you already have this series
+and dont mind using the original wmv files then its probably not for you.
+I renamed the files aswell so they are more usfully named and that way you dont need the cd to browse them by menu names (although i did include original cd contents).
+
+
+
+
+
+ICND1
+
+Video 1: Welcome to Cisco CCENT!|35:26
+
+This opening video sets the expectations for the entire CCENT series as well as reviewing the Cisco certification track. Because Jeremy gives many certification exam tips and advice, it is recommended that you view this video once more after finishing the series.
+*
+Video 2: Foundations: What is a Network?|35:32
+
+This video answers the question of "why." Why do we need a network? What does the network accomplish for us? Without understanding this foundation, the rest of the Cisco certification track will not make much sense.
+*
+Video 3: Foundations: Living in the OSI World|43:30
+
+If someone told you, "My car is broken," but was unable to expand on what exactly was broken, you wouldn't know where to begin looking for a solution. In the same sense, networks are an extremely complex system of communicating. The OSI Model holds the key to understanding the layers of network functionality. This video walks through both a logical and practical presentation of the OSI Model.
+*
+Video 4: Basic TCP/IP: Addressing Fundamentals|39:42
+
+We live in a TCP/IP world. Having a thorough understanding of this protocol is critical to your success in any network environment. This video breaks down the basics of TCP/IP and discusses concepts such as IP address format, public and private addressing, and address classes. Jeremy also walks you through the reasons why having TWO addresses is the key to successful network communication.
+*
+Video 5: Basic TCP/IP: TCP and UDP Communication|23:20
+
+Every network-aware application has a choice to make when it communicates across the network - TCP or UDP? This decision determines how reliable the data transfer will be. This video walks through the discussion of TCP and UDP, focusing specifically on TCP windowing, sequence numbers, and acknowledgements.
+*
+Video 6: Basic TCP/IP: Understanding Port Numbers|17:17
+
+Imagine that you wanted to see your friend, Dave, who lived in a house with 100 other people. As soon as you reached the house, you would open the door and yell, "I'M LOOKING FOR DAVE!!!" Port numbers do exactly the same thing for network communication between devices, allowing you to dictate what service you are trying to reach. This video gives practical examples of using TCP and UDP port numbers when communicating.
+*
+Video 7: Basic TCP/IP: The Tale of Two Packets|20:47
+
+To wrap up the section on Basic TCP/IP communication, Jeremy walks you through the "Tale of Two Packets." This gives a big picture perspective on local network communication (the Bob packet) and remote network communication (the Sally packet).
+*
+Video 8: LANs: Welcome to Ethernet|22:31
+
+Ethernet defines the standard for LAN communication around the world. Because of this, it is critical to understand the fundamentals of how this "fabric of networks" operates. This video walks through the origins of the Ethernet standard, CSMA/CD (the rules of communication), and the architecture of a MAC address.
+*
+Video 9: LANs: Understanding the Physical Connections|18:17
+
+If you've never experienced calloused fingers from crimping Ethernet cables, this video is for you. In it, Jeremy walks through the two primary physical standards of Ethernet: UTP and Fiber Optics, straight-through vs. crossover cables, and an end-to-end picture of cabling in a corporate environment.
+*
+Video 10: LANs: Understanding LAN Switches|19:46
+
+Ethernet's use of CSMA/CD allowed it to obtain much faster speeds than its competitor (token ring); however, it also led to many problems with collisions in larger networks. This video walks through the solution to those problems and lays the foundation understanding of how the network switch fits into our network environments.
+*
+Video 11: LANs: Working with the Cisco Switch IOS|29:15
+
+Before you can jump right into setting up Cisco switches, you must understand how to work with Cisco's operating system: the IOS. This video walks you through the general navigation and help features of the IOS.
+*
+Video 12: LANs: Initial Setup of a Cisco Switch|35:03
+
+With the IOS foundations in place, this video jumps straight into the initial configuration of a Cisco switch. In this video you will see the meaning of the physical LEDs on a switch, the initial boot process and configuration dialog, and the configuration of a VLAN interface.
+*
+Video 13: LANs: Configuring Switch Security, Part 1|37:08
+
+Network security has become such a major topic that Cisco has moved much of what used to be considered a CCSP (security professional) topic into the CCENT and CCNA certifications. This video discusses the initial security of your switch, primarily focusing on configuring passwords, logon banners, and SSH.
+*
+Video 14: LANs: Configuring Switch Security, Part 2|19:00
+
+The network security topics continue. In this video, Jeremy walks you through enabling port security for your network, which gives you complete control of the number and type of devices that attach to your network.
+*
+Video 15: LANs: Optimizing and Troubleshooting Switches|31:44
+
+It's time to wrap up the world of LAN switching with optimization and troubleshooting. In this video, Jeremy addresses common problems you may encounter when working in a LAN environment. He also interjects a "bonus section" dealing with improving your efficiency on Cisco devices.
+*
+Video 16: Wireless: Understanding Wireless Networking|34:25
+
+Wireless networking technology has changed the LAN landscape very quickly. As one of the newest technologies added to the CCENT/CCNA certifications, wireless is almost guaranteed to pop up in organizations of any size. This video discusses the foundations of wireless networks including radio frequency, wireless channels and standards, and the best way to design wireless for your organization.
+*
+Video 17: Wireless: Wireless Security and Implementation|29:27
+
+Understanding the foundations of wireless is never enough! Security vulnerabilities have proven more than once that wireless can be devastating to an organization. This video walks through the steps to take to successfully implement and secure a wireless network.
+*
+Video 18: Advanced TCP/IP: Working with Binary|25:51
+
+This video begins the move to the world of advanced TCP/IP addressing. More specifically, you will learn the skill of IP subnetting. One of the most foundational skills in subnetting is converting from decimal to binary and back. This video carefully explains this skill and provides many examples to practice.
+*
+Video 19: Advanced TCP/IP: IP Subnetting, Part 1|55:06
+
+The first style of subnetting you'll need to learn is the ability to separate IP addresses into subnets based on the number of networks an organization needs. This video walks through the initial style.
+*
+Video 20: Advanced TCP/IP: IP Subnetting, Part 2|22:29
+
+The second style of subnetting you'll need to learn is the ability to separate IP addresses into subnets based on the number of hosts an organization needs in each network. This video explains this style.
+*
+Video 21: Advanced TCP/IP: IP Subnetting, Part 3|18:51
+
+The final style of subnetting you'll need to learn is the ability to reverse engineer subnets based on the IP address and subnet mask that has been given. This video discusses this final style.
+*
+Video 22: Routing: Initial Router Configuration|31:07
+
+Routers are the device that made Cisco famous (as a Company). Unlike a switch, when you initially pull a Cisco router out of the box, it is non-operational; that is, you must initially configure the router before it works properly. This video explains the boot process and initial configuration of a Cisco router.
+*
+Video 23: Routing: SDM and DHCP Server Configuration, Part 1|32:06
+
+For the first time in Cisco certification history, a graphic user interface (GUI) is now used to configure Cisco devices. It's known as the Cisco Security Device Manager, or SDM for short. This video walks through preparing your Cisco router to be managed through the SDM.
+*
+Video 24: Routing: SDM and DHCP Server Configuration, Part 2|20:02
+
+Manually configuring IP addresses on every device in your network can eat up a ton of time. That's why some brilliant individual created the Dynamic Host Configuration Protocol (DHCP). In this video, Jeremy walks through configuring your router to be a DHCP server by using our newly configured SDM.
+*
+Video 25: Routing: Implementing Static Routing|37:32
+
+Once the router is initially configured with IP addresses and passwords, it will effectively...well, sit there. The router has IP addresses, but it is not routing yet. In this video, Jeremy configures the foundational form of routing known as static routing.
+*
+Video 26: Routing: Implementing Dynamic Routing with RIP|40:46
+
+Static routing is great if you are paid by the hour, but dynamic routing works much better when you want to get the job done fast. The RIP routing protocol has definitely been around for quite some time and has proven itself as a stable routing protocol for small network environments. This video walks through the description and configuration of the RIP routing protocol.
+*
+Video 27: Routing: Internet Access with NAT and PAT|24:41
+
+Because nearly every organization uses a private IP addressing scheme, routing can occur within the company network, but fails when attempting to access the Internet. That's where Network Address Translation (NAT) comes in to save the day. In this video, Jeremy explains how to use the Cisco SDM to configure your router to support NAT Overload (also known as PAT).
+*
+Video 28: Routing: WAN Connectivity|27:38
+
+In addition to providing access between networks, routers also allow us to connect to the Wide Area Network (WAN). This video discusses the types of WAN connections that exist along with the interfaces and configuration used to make that connection possible.
+*
+Video 29: Management and Security: Telnet, SSH, and CDP|28:48
+
+At this point, we've wrapped up router-specific discussion and can now move into management and security strategies for all Cisco devices. The key management protocols we use to configure and monitor our devices are Telnet and SSH. This video discusses how you can navigate between Cisco devices using these protocols and also how the Cisco Discovery Protocol (CDP) can help unveil an undocumented network.
+*
+Video 30: Management and Security: File Management|20:11
+
+Having the ability to copy files to and from your routers and switches is key to successfully being able to back up configurations and IOS versions. In this video, Jeremy discusses the key file systems of Cisco devices and demonstrates moving files to and from these file systems.
+*
+Video 31: Last Words for Test Takers|07:29
+
+To wrap up the CCENT series, Jeremy gives some last words to test-takers on how best to prepare for the ICND1, ICND2, and CCNA certification exams.
+
+02.What.is.a.Network.avi
+03.Living.in.the.OSI.World.avi
+04.Basic.TCP-IP.Addressing.Fundamentals.avi
+05.Basic.TCP-IP.TCP.and.UDP.Communication.avi
+07.Basic.TCP-IP.The.Tale.of.Two.Packets.avi
+09.LANs.Understanding.the.Physical.Connections.avi
+10.LANs.Understanding.LAN.Switches.avi
+11.LANs.Working.with.the.Cisco.Switch.IOS.avi
+12.LANs.Initial.Setup.of.a.Cisco.Switch.avi
+13.LANs.Configuring.Switch.Security.Part.1.avi
+14.LANs.Configuring.Switch.Security.Part.2.avi
+15.LANs.Optimizing.and.Troubleshooting.Switches.avi
+16.Wireless.Understanding.Wireless.Networking.avi
+17.Wireless.Wireless.Security.and.Implementation.avi
+18.Advanced.TCP-IP.Working.with.Binary.avi
+19.Advanced.TCP-IP.IP.Subnetting.Part.1.avi
+20.Advanced.TCP-IP.IP.Subnetting.Part.2.avi
+21.Advanced.TCP-IP.IP.Subnetting.Part.3.avi
+22.Routing.Initial.Router.Configuration.avi
+23.Routing.SDM.and.DHCP.Server.Configuration.Part.1.avi
+24.Routing.SDM.and.DHCP.Server.Configuration.Part.2.avi
+25.Routing.Implementing.Static.Routing.avi
+26.Routing.Implementing.Dynamic.Routing.with.RIP.avi
+27.Routing.Internet.Access.with.NAT.and.PAT.avi
+28.Routing.WAN.Connectivity.avi
+29.Management.and.Security.Telnet.SSH.and.CDP.avi
+30.Management.and.Security.File.Management.avi
+31.Last.Words.for.Test.Takers.avi
+
+ICND2
+
+*
+Video 1: Review: Rebuilding the Small Office Network, Part 1|33:54
+
+Jeremy begins the ICND2 series by rebuilding much of the network that existed in ICND1 as a "cram-session" review of key concepts. This video focuses on the LAN (switch-based) environment.
+*
+Video 2: Review: Rebuilding the Small Office Network, Part 2|28:45
+
+The ICND1 network rebuild continues. This video focuses on the key router concepts and configurations.
+*
+Video 3: Review: Rebuilding the Small Office Network, Part 3|23:36
+
+The ICND1 review wraps up with a full implementation of RIP routing across the office network.
+*
+Video 4: Switch VLANs: Understanding VLANs|16:09
+
+VLANs have absolutely changed the face of networks over the last decade; it is rare to walk into any large network that is not built upon a VLAN foundation. This video walks you through the definition of VLANs and discusses how to architect VLANs for your network.
+*
+Video 5: Switch VLANs: Understanding Trunks and VTP|39:07
+
+The VLAN discussion continues through the ideas of VLAN Trunking and the VLAN Trunking Protocol (VTP). These allow VLANs to stretch through your entire organization rather than remaining on a single switch.
+*
+Video 6: Switch VLANs: Configuring VLANs and VTP, Part 1|35:58
+
+The VLAN configuration wraps up as we assign the switchports to the necessary VLANs and implement Inter-VLAN routing using a router-on-a-stick configuration.
+*
+Video 7: Switch VLANs: Configuring VLANs and VTP, Part 2|39:36
+
+Installing redundant switch links in a network environment is absolutely critical to a network's success. At the same time, installing redundant links in a network environment can cause the entire network to crumble in a few seconds. Interested? Join Jeremy as he discusses the place of the Spanning Tree Protocol (STP) in network environments.
+*
+Video 8: Switch STP: Understanding the Spanning-Tree Protocol|28:18
+
+*
+Video 9: Switch STP: Configuring Basic STP|21:16
+
+While STP is operational on every Cisco switch by default, it needs to be modified to work optimally. This video walks you through the initial STP implementation and optimization.
+*
+Video 10: Switch STP: Enhancements to STP|29:54
+
+Because STP was created many years ago, it is not optimized for the speedy convergence that networks require in our modern times. This video discusses the recent STP optimizations implemented through the Rapid STP protocol.
+*
+Video 11: General Switching: Troubleshooting and Security Best Practices|29:23
+
+To wrap up the LAN section of the ICND2 series, Jeremy walks you through switch troubleshooting best-practices and hits common trouble spots in a LAN environment.
+*
+Video 12: Subnetting: Understanding VLSM|18:42
+
+If there's one concept everyone in the Cisco must know, it's IP subnetting. ICND2 expands on the subnetting foundations of ICND1 by introducing Variable Length Subnet Masking (VLSM). Keep in mind, the original subnetting videos from the ICND1 series are available as an appendix to this series.
+*
+Video 13: Routing Protocols: Distance Vector vs. Link State|26:25
+
+The ICND1 series focused primarily on Distance Vector routing protocols such as RIP. The ICND2 series branches into the Link State and Hybrid routing protocols. This video explores the difference between these routing protocol categories and discusses the problems associated with Distance Vector routing loops.
+*
+Video 14: Routing Protocols: OSPF Concepts|30:36
+
+OSPF is, by far, the most popular routing protocol in the world. Despite its popularity, it is also one of the most complex routing protocols in existence. In this video, Jeremy discusses the key concepts behind the OSPF routing protocol.
+*
+Video 15: Routing Protocols: OSPF Configuration and Troubleshooting|39:53
+
+It's now time to implement the OSPF concepts in our network. This video walks you through the conversion of the ICND2 office network from RIP to OSPF. Jeremy goes quite a bit beyond the standard CCNA curriculum to demonstrate a multi-area OSPF configuration that includes route summarization!
+*
+Video 16: Routing Protocols: EIGRP Concepts and Configuration|32:28
+
+Cisco created EIGRP to combine the best features of Distance Vector (easy to configure) and Link State (many features) into a single routing protocol. This video discusses the concepts and configuration of the EIGRP routing protocol.
+*
+Video 17: Access-Lists: The Rules of the ACL|27:44
+
+Cisco access-lists are used not only for security purposes, but for just about every major network configuration you will find on a Cisco router. This video discusses the key concepts behind access-lists and their configuration.
+*
+Video 18: Access-Lists: Configuring ACLs|34:40
+
+Access-lists in action! This video walks you through the configuration of standard access-lists in practical scenarios.
+*
+Video 19: Access-Lists: Configuring ACLs, Part 2|48:42
+
+The access-list action continues! This video walks you through the configuration of extended access-lists in practical scenarios.
+*
+Video 20: NAT: Understanding the Three Styles of NAT|20:00
+
+You'll be hard-pressed to find any network in operation that is not using Network Address Translation (NAT) in some form. In this video, Jeremy walks through the three forms of NAT implemented in today's networks.
+*
+Video 21: NAT: Command-line NAT Configuration|35:41
+
+It's time to provide Internet access to our ICND2 office network. This video explores the configuration of each of the three forms of NAT.
+*
+Video 22: WAN Connections: Concepts of VPN Technology|33:20
+
+It's time to turn our attention to the Wide Area Network (WAN). One of the fastest growing "WAN technologies" is not really a WAN technology at all: Virtual Private Networks (VPNs). VPNs use existing Internet connections to connect remote offices and users. In this video, Jeremy walks you through the place of VPNs in today's network and the basics of VPN security.
+*
+Video 23: WAN Connections: Implementing PPP Authentication|34:39
+
+Leased Lines are one of the more conventional ways to interconnect office networks. There are two data link protocols used to operate leased line connections in the Cisco realm: HDLC and PPP. This video reviews the benefits of each and reconfigures the ICND2 office network to use PPP authentication.
+*
+Video 24: WAN Connections: Understanding Frame Relay|28:42
+
+Packet Switched networks are still the darling of the WAN link industry, combining the best of two worlds: performance and price. Frame Relay continues to reign as one of the more popular Packet Switched network types. This video discusses the concepts, terminology and design of a Frame Relay network.
+*
+Video 25: WAN Connections: Configuring Frame Relay|30:52
+
+There are two possible ways to configure a Frame Relay network: using a Multipoint or Point-to-Point configuration. In this video, Jeremy sets up both and offers some advice as to what is the best Frame Relay design.
+*
+Video 26: IPv6: Understanding Basic Concepts and Addressing|33:59
+
+Welcome to the Next Generation: TCP/IP version 6 (IPv6). Everything is changing and changing fast. The Internet2 is growing with new networks every day. This video prepares you for the upcoming IPv6 transition by walking through the new addressing standards and communication types.
+*
+Video 27: IPv6: Configuring, Routing, and Interoperating|23:36
+
+Cisco routers have begun to support TCP/IPv6 configurations. This video walks you through the configuration of IPv6 addresses on your routers and even shows the configuration of RIP Next Generation (RIPng)! Finally, Jeremy wraps up this video by discussing strategies to migrate your network from running IPv4 to IPv6.
+*
+Video 28: Certification: Some Last Words for Test Takers|13:10
+
+To wrap up the CCNA series, Jeremy gives some last words to test-takers on how best to prepare for the ICND1, ICND2, and CCNA certification exams.
+*
+Video 29: Advanced TCP/IP: Working with Binary|25:51
+
+This video begins the move to the world of advanced TCP/IP addressing. More specifically, you will learn the skill of IP subnetting. One of the most foundational skills in subnetting is converting from decimal to binary and back. This video carefully explains this skill and provides many examples to practice.
+*
+Video 30: Advanced TCP/IP: IP Subnetting, Part 1|55:06
+
+The first style of subnetting you'll need to learn is the ability to separate IP addresses into subnets based on the number of networks an organization needs. This video walks through the initial style.
+*
+Video 31: Advanced TCP/IP: IP Subnetting, Part 2|22:29
+
+The second style of subnetting you'll need to learn is the ability to separate IP addresses into subnets based on the number of hosts an organization needs in each network. This video explains this style.
+*
+Video 32: Advanced TCP/IP: IP Subnetting, Part 3|19:53
+
+The final style of subnetting you'll need to learn is the ability to reverse engineer subnets based on the IP address and subnet mask that has been given. This video discusses this final style.
+
+01.Review.Rebuilding.the.Small.Office.Network.Part.1.avi
+02.Review.Rebuilding.the.Small.Office.Network.Part.2.avi
+03.Review.Rebuilding.the.Small.Office.Network.Part.3.avi
+04.Switch.VLANs.Understanding.VLANs.avi
+05.Switch.VLANs.Understanding.Trunks.and.VTP.avi
+06.Switch.VLANs.Configuring.VLANs.and.VTP.Part.1.avi
+07.Switch.VLANs.Configuring.VLANs.and.VTP.Part.2.avi
+08.Switch.STP.Understanding.the.Spanning-Tree.Protocol.avi
+09.Switch.STP.Configuring.Basic.STP.avi
+10.Switch.STP.Enhancements.to.STP.avi
+11.General.Switching.Troubleshooting.and.Security.Best.Practices.avi
+12.Subnetting.Understanding.VLSM.avi
+13.Routing.Protocols.Distance.Vector.vs..Link.State.avi
+14.Routing.Protocols.OSPF.Concepts.avi
+15.Routing.Protocols.OSPF.Configuration.and.Troubleshooting.avi
+16.Routing.Protocols.EIGRP.Concepts.and.Configuration.avi
+17.Access-Lists.The.Rules.of.the.ACL.avi
+18.Access-Lists.Configuring.ACLs.avi
+19.Access-Lists.Configuring.ACLs.Part.2.avi
+20.NAT.Understanding.the.Three.Styles.of.NAT.avi
+21.NAT.Command-line.NAT.Configuration.avi
+22.WAN.Connections.Concepts.of.VPN.Technology.avi
+23.WAN.Connections.Implementing.PPP.Authentication.avi
+24.WAN.Connections.Understanding.Frame.Relay.avi
+25.WAN.Connections.Configuring.Frame.Relay.avi
+26.IPv6.Understanding.Basic.Concepts.and.Addressing.avi
+27.IPv6.Configuring.Routing.and.Interoperating.avi
+28.Certification.Some.Last.Words.for.Test.Takers.avi
+ccent.revision.18.Advanced.TCP-IP.Working.with.Binary.avi
+ccent.revision.19.Advanced.TCP-IP.IP.Subnetting.Part.1.avi
+ccent.revision.20.Advanced.TCP-IP.IP.Subnetting.Part.2.avi
+ccent.revision.21.Advanced.TCP-IP.IP.Subnetting.Part.3.avi

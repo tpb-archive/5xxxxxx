@@ -1,0 +1,492 @@
+User Type,Username,Date,Text
+,marlee82,2010-09-12T20:28Z,"Will it work if I put the PS3_GAME folder in the GAMEZ folder in my ps3 via FTP? Or should I put the whole shebang to my playstation? 
+
+I mean the whole of BLUS30418 folder.
+
+What`s the update folder in it? 3.41? Will it work without it? I`m still on 3.30? Is that a problem?"
+,drunkyb,2010-09-13T20:10Z,"THX!!!
+
+Works Great!!!"
+,YoSoyYoda,2010-09-15T00:39Z,"I can't get this to work. I have a 3.41 slim, I have PSFreedom successfully up and running and have seven other backups running without problems....I originally tried it on an external HD (yes I know it says don't), and with Stealth Backup Manager (again yes I saw the instruction not to but thought I'd give it a shot) - however even after FTPing the files accross to the PS3 in /dev_hdd0/game/laun1234/ (or whatever the exact directory was) and using regular Backup Manager instead of Stealth I couldn't get it to work.
+
+With every permutation what happens is:
+
+The game shows up, I select it, it correctly appears as the game in the drive. I launch it. It installs to the internal HD as part of it's setup, then it quits back to XMB....On trying to relaunch it the screen goes blank there's a delay then it quits back to XMB. Deleting the installed data for the game causes it to install again but doesn't allow it to load itself......Anyone know where I've gone wrong? As other people seem to be reporting it is working? I'll try resending it over FTP again and downloading a new copy from the torrent....Can anyone confirm the file is working?? Thanks all! Great to see this number of seeds!"
+,D4t4v4mP,2010-09-15T04:33Z,Can some 1 please make a step by step guide on how to install-play ps3 jailbreak games? Thnx in advance...
+,bubba2533,2010-09-15T19:14Z,"YoSoyYoda:
+
+I have the same problem"
+,ganlinia,2010-09-16T23:20Z,"for people who cant get it to work, i found the trick (took me 5 freakin hrs!!)
+
+after transfer with ftp
+go back to xmb - internet connection and disable internet
+hit the game, and u should be able to play without freezing, or jump back to xmb.
+
+enjoy"
+,poeticpyro,2010-09-17T02:21Z,"I keep sending it to the PS3 via FTP.  I originally sent it to /dev_hdd0/game which didn't work.  I then tried /dev_hdd0/LAUN12345/GAMEZ which still didn't work.  It doesn't show up under the backup manager.
+
+I am using a stealth manager, but that should NOT matter (even though it states it does).  It must need to go in to a different folder or something, after /dev_hdd0/game...
+
+Anyone have any idea?"
+,poeticpyro,2010-09-17T02:59Z,"NOTE:
+
+IT WILL WORK WITH ANY BACKUP MANAGER!
+
+I just got it to work.
+
+When looking at the ftp (I recommend FileZilla-3.3.4.1) navigate to /dev_hdd0/game folder.  You'll see all the BLUS folders (Games) and if you have a backup manager installed you should see one odd one in there (or two if you have an FTP hack like me) that is NOT listed as BLUS but something similar to FTP049483.  Click that.  You should see  a ""BCKUP"" folder and a ""USBDIR"" folder.  Copy the whole game folder to the ""BCKUP"" folder.
+
+BOOM!
+
+Works.
+
+I'm using a stealth manager and got it to work."
+,OFW,2010-09-17T08:01Z,"Thanks to the uploader!
+
+To play the game, you need a jailbroken PS3 on 3.41 firmware plus a backup manager. Extract the files then transfer the folder BLUS30418 to /dev_hdd0/LAUN12345/GAMEZ via FTP."
+,min0,2010-09-18T09:49Z,"the game works fine but rlly slow download speed if u are using mac dont transfere the game using filezilla try cyberdock 
+
+tnx"
+,sk8rboy361,2010-09-19T09:46Z,lol look at the leechers that are so poor they cant afford a $60 game...
+,EdMaN8883,2010-09-19T22:06Z,"Hey everyone look at sk8rboy361, the dumbass that uses TPB, and talking shit about people downloading. Should find something better to do sk8rboy361. 
+
+thanks to whoever put this up!! good shit!"
+,dsimula,2010-09-19T22:11Z,Please  what is the audio language?
+,Bman2800,2010-09-20T01:06Z,"Did you guys have a eboot.bin file in this download? 
+I've transferred the game to it's correct folder but when I open it in backup manager it's saying that eboot.bin is not valid. 
+
+Any help is really appreciated!"
+,poeticpyro,2010-09-21T06:19Z,"Bman, happened to me the first time as well.
+
+Make sure your decompression has the eboot.bin afterward.  I had to extract it a second time and the eboot was there."
+,michaelkbh,2010-09-23T12:23Z,"Hi ppl. I finally got this s*Â¤@-game working :-) I have tried for so many hours. I have the PSJailBreak USB Dongle and the game was in the right folder on the internal HDD of my PS3. (/dev_hdd0/game/LAUN12345/GAMEZ/BLUS30418/)but it did not work. First I had the same problem as 'YoSoyYoda'. I disabled internet as 'Ganlinia' suggested and that gave me around 1 more sec. with the game startup-text before going to blank screen. I looked for the folder 'BCKUP' as 'Poeticpyro' said, but i do not have this folder. I tried 4 different BackupManagers (2 Stealth and 2 others) and nothing worked. I was getting a little pissed, so i totally formatted my PS3 HDD. Transferred the game by FTP again and installed the first/original BackupManager and disabled internet and pressed the game icon... Yiippieee.. It works. Dont really know why the HDD format did the trick but it did. One last thing is that i have noticed that it is always the games i download packed in ISO files that have problems with my dongle. I found this program : http://teknogods.com/?p=445 that is maybe worth a try, but when i found it i had already deleted the images, so are downloading 35GB images again to test :-D"
+,osman_1102,2010-09-23T21:47Z,"ps3 slim results : first time it didnt work it installs , and then it kicks me back to the xmb, i tryed again it worked 100%! the problem was : the game didnt upload 100% to my HDD so i tryed again, when my ftp stopped i just restarted my ps3 and then restarted uploading the files witch didnt upload very well. 
+
+THX for the game anyways$"
+,MrWaX95,2010-09-24T09:46Z,How Can i play This Games on my ps3 ? Like.. How do i install them ? =)
+,hypno777,2010-09-26T07:58Z,Can someone please help and give detailed instructions on how to install this on PS3 (v.3.50)
+,6oxtynin9,2010-09-26T22:54Z,"@hypno777
+
+You can't. The moment you've upgard firmware past 3.41, you've lost the ability to exploit the system. 
+
+And to all the people who downloading this but do not know what to do with it or know how to exploit your PS3, make it easier on yourself, DO YOU DAMN RESEARCH and figure it out yourself. No one is here to spoon feed your ass and you're just taking up room for those who REALLY has to comment about the game or problems. 
+
+If you're not smart enough to use the Google search engine, you should not be tinkering with hacking/exploiting the PS3 as you can brick or seriously damage you console."
+,angloaxman,2010-09-28T10:06Z,"Ok people that are having problems, heres a tip on how to make sure it works. If your transfering the game file to your ps3 via ftp you will need the game ID to be the proper BLESXXXXX ID . You can find out ps3 game ids by using the program ""PS3SFOEDIT"" and navigating to the .sfo file in the game folder of your extracted game ISO. Rename the main folder so that it is like this. So if your using ftp to transfer this game should be like this â€˜dev_hdd0/game/LAUN12345/GAMEZ/BLESXXXX/PS3_Disc.SFB , PS3_GAME, and PS3_UPDATE.â€™ 
+
+And Not: dev_hdd0/game/LAUN12345/GAMEZ/Red Dead Redemption/PS3_Disc.SFB , PS3_GAME, and PS3_UPDATE. Once FTP has finsihed then load backup mager and boot the game, depending on what version of backup manager you have you may need to put a retail game disc in the PS3 BR drive for it to work. ANd be very careful not to select yes to any updates whatsoever. My advice is every time you finish an FTP transfer you should disable the internet option on the PS3."
+,con16,2010-09-29T16:48Z,"Thanks for the uplaod, plz seed, average dl speed 100kbs, will seed for 1 week"
+,toamtoeggs,2010-10-02T09:38Z,is it EUR - PAL ?
+,byebye4now,2010-10-02T23:33Z,"I got this http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=250705541427 
+
+PS3 Key of Ebay works great, Goin crazy downloading games off pbay now.. woo hoo.
+PS3 Key is easily upgradeable using the tool available on http://www.ps3key.com"
+,Quad-K,2010-10-05T06:46Z,"i can confirm it works with PSGroove 1.1 With a stealth backup manager, networked enabled.
+
+Thank you ""Anonymous"" :P"
+,toamtoeggs,2010-10-07T12:30Z,Could someone confirm if it is PAL or NTSC?
+,ahsan_101,2010-10-11T01:25Z,"Hey guys i got the game to work. This is what i had to do:
+
+- Using Filezilla(latest) and my PS3 running FTP blackbox (v1.2), I transferred the game folder by folder individually into the /dev_hdd0/game/LAUN12345/GAMEZ directory.
+
+- The backup manager i used was the one that was patched for no-disc support.
+
+- Game plays flawlessly whether internet is on or off
+
+One question I had was, is it ok if i update to 1.04 which is prompted every time i start RDR?"
+,r1chee,2010-10-13T06:58Z,im new what do i need step by step to get this game to play on my ps3?
+,Marko1994,2010-10-13T23:59Z,"Full Guide to Install Game:
+
+Download: FileZilla (PC Or Mac) and FTPserver
+ (Search Google For links)
+
+1) Unzip the files on the torrent
+2) Connect your PS3 to a PC with an Ethernet Cable
+       -IF you are connected to the internet wirelessly Then connect the Cable
+         go on your computer to Start>Network and Sharing Center>(on the Left) Choose
+        Manage Network Connection> you will find your local area connection and wireless,
+        Drag your mouse on the two then right click and press ""Bridge Connection""
+3) On your ps3: Install the FTPserver, Then go to network settings and set the connection to Wired, no open the ftp server and choose start ftp server
+4) on your PC install filezilla, then open it up, in the upper bar you will see an IP address field
+look on your ps3 and you will find the iP address copy it, then write FTPD12345, leave the password field, then type 21 in the port field and click connect
+5) Now you have access to your internal Hard Disk, on the right side navigate to /dev_hdd0/game/LAUN12345/GAMEZ, then on the left side navigate to your downloaded file (name something like ""BLU23o423"" and drag it to the right hand side, it will take a while to finish
+6) Finally after finishing copying to your internal HDD go to backup manger and you will find it
+
+IF you got stuck contact me at mercurious1994@gmail.com "
+,DDRobert,2010-10-17T22:29Z,"thank you Marko1994, I just spent 37 hours trying to figure out first why I couldn't just unrar this on an external drive and then the next day learning all about old FAT32's hard limit of 4G, specificaly this games 7g 'rdr2_layer0.rpf' file since it was the only game I've encountered like this so far"
+,ninjashazbot,2010-10-18T00:37Z,"Worked flawlessly with PSFreedom on an HTC Hero phone, used backup manager 2 & blackb0x ftp 1.2 to load the large files onto the PS3. Thanks to the uploader."
+,gani.slimshady,2010-10-22T04:02Z,Working!!
+,jls_14,2010-10-23T17:29Z,Does this work online?
+,jls_14,2010-10-24T14:46Z,does this work online with the 3.5 version???? Can anyone answer please?????
+,Daemon87,2010-10-24T19:37Z,"It should work online if you were to use another piece of software called XLink since PSN won't let you on.
+
+As for you other question, no this unfortunately will not work on a 3.50 or higher firmware. Why? Because Sony patched the flaw that makes jail breaking possible in firmware 3.50 and up. The only solution is right now is to be lucky enough not to have updated yet or if someone has figured out a way to downgrade the new firmware."
+,jls_14,2010-10-24T20:18Z,Thanks for the reply. One more question. Do u know if anyone is going to hack the 3.50 version or is it impossible???? I've already updated :S
+,jls_14,2010-10-24T20:20Z,Ok thank you for ur answer. And 1 more thing. Do u know if it is possible to hack the PS3 3.50 version or you don't know that?
+,heyhey1993,2010-10-26T21:19Z,Do you need the USB Jailbreak or just an ordinary usb ? thanks 
+,bigbossait,2010-10-28T10:06Z,"what is the fucking region of this game PAL , NTSC"
+,sladey,2010-11-06T06:46Z,how do download it ? i click download torrent then i go open is goes to the page then it goes away . could someone tell me why and how to download it please?
+,bigbossait,2010-11-07T11:01Z,tnk's anonymous it's PAL 
+,azzlips,2010-11-16T17:38Z,"Works like a charm, thank you."
+,A.l.xx,2010-11-20T22:16Z,"Can Someone tell me how to connect my imac to my ps3 to transfer game files via ftp ,   and which ftp to use i have blackbox ftp in my ps3!
+Thanks"
+,nab_1,2010-12-01T20:56Z,"THIS TOTALLY WORKS PEOPLE... THANKS TO THE UPLOADER ALOT  :) .. DOWNLOADED IT, USED PS3 FTP TO TRANSFER FILES TO THE PS3 AND VOILA WORKED LIKE A CHARM"
+,clever101,2010-12-04T18:48Z,"Some help over here please. 
+I'm on 3.50 spoof, the game start better than other that i had try before but after the R star logos the black screen,hang there foreveeeeeeeeeeer. "
+,tadas3,2010-12-05T09:10Z,"Why,when I want to bacup it,the window comes up and shows: EBOON is invalid or how then.Can any one help me ?"
+,gunmaker,2010-12-05T16:03Z,"new notice for distributers and to ALL TORRENT USERS
+
+anti p2p organizations are now ddosing users and sending invalidated data OR VIRUSES into our torrents!!
+
+this chocking of our extending seeding is halt !! -able!
+
+download 
+
+http://sourceforge.net/projects/peerblock/files/PeerBlock-Setup_v1.1_r518.exe/download
+
+and prevent most of them from choking you, and rapidsearch for a non viral loic.exe so u can legally retaliate against them!
+(ps if u do get a viraled loic.exe u can simply prune the viruses before u reboot, they sit in the main program files menu and a funny looking icon in there as well as your temp folders. simply delete them before rebooting.
+
+THIS IS THE FUCKING PIRATE BAY! WE DONT TAKE CRAP FROM SCALLYWAGS! YARrRrR!"
+,pittart,2010-12-07T15:42Z,...
+,pittart,2010-12-07T15:55Z,"yipppy just got this shit work..after spend a lot of time looking for the mentioned folder  /dev_hdd0/game/LAUN12345/GAMEZ....i couldn't find it..i use open manager 2.1 i and ftp black box 1.2...
+i thought i was about the version of the manager so i installed backup manager 2 and also try ftp 1.1 
+still..couldn't find it.
+so i try to move the file right to /dev_hdd0/GAMEZ and it work!!! ran the game with open manager 2.1 after blank out on the first tried and a couple of bounce back after..it just WORK!!!
+what i want to share with those who couldnt get it work..try to copy the file to /GAMEZ in any location u can find..i guess the location is different depend on version of your backup manager ...i had the problem with ftp file transfer ,though..the connection time always ran out before it complete..anybody know why??
+i had the damn thing work by manually copied the missing file and make sure everything is there..."
+,clever101,2010-12-10T05:26Z,"I don't know why it didn't work the first time I tried.
+But this time I install open manager 2.1A and I'm playing it now.
+
+
+"
+,paddy0815,2010-12-26T10:38Z,"If someone hates FTP or is too lazy to connect the PS3 with the PC and/or set it up, here's my solution:
+1. Unrar
+2. Split the Files >4GB with ""PS3Splitter"" (Google)
+3.Put the splitted files on a HDD/Stick
+4. Copy it with Gaia Manager, Openmanager... onto the internal HDD
+5.????
+6.Profit"
+,Podgkin,2011-01-08T17:07Z,"Cheers for this...
+Finally got it running on a JB 3.5 Slim using Open Manager via FTP.
+(And a few headaches. :P )
+:D"
+,shadow9234,2011-01-14T19:24Z,@podgkin HOW!? Btw nice upload :D
+,AngryGamer94,2011-01-15T18:44Z,"After hours of searching i actually got this working on 3.55cfw(geohot's jailbreak)
+Thanks for this! 
+and now i am going to seed"
+,mamushkaxii,2011-01-16T19:50Z,@angrygamer94 how?
+,Illidan23,2011-01-16T23:10Z,"@angrygamer
+
+Can you please tell me how you got his to work on 3.55?
+
+Did you make a patched EBOOT and if you did can you please tell me where i can download it.
+
+Thanks in advance."
+,ashleycole12345,2011-01-18T17:17Z,I fucking love you if this works.
+,simon0322,2011-01-18T19:06Z,its PAL or NTSC?
+,sirslick1,2011-01-18T20:28Z,hey i hate to sound like a noob but how do i get this work because i have nooooo idea
+,sanitysama,2011-01-20T00:51Z,"it unpacks to a folder named BLUS30418.
+
+only US NTSC discs are marked with the ""BLUS"" prefix. PAL games in the European region use BLES. this is an NTSC copy.
+
+also if anyone has found a way to make this work on firmware 3.55 please post what you did or at least link to some source material. i don't want a direct link to a download without an explanation on how to use the files. for a lot of people this is their first time playing backups on the ps3 and we need some sort of basic knowledge before we feel comfortable with what we're doing."
+,sanitysama,2011-01-20T02:32Z,"and to follow up, ps3 are region free so it doesn't matter if it's ntsc or pal.
+
+what i found out from hours of fucking with this finnicky bullshit is that this game does not work on 3.55 yet.
+
+and here's some keywords for the googlebros: red dead redemption does not work on 3.55 cfw yet."
+,nipunthebest,2011-01-25T12:46Z,"Awesome Upload .. Running just fine 
+
+Copied via FTP to Internal. Runnin on Waninkoko 3.55 CFW using Rogero 7.9a. (Rogero fixed the permissions) Then run with any BD inside. 
+
+Really happy such an awesome game .. and a big download .. and working great.
+
+Thanks a ton!"
+,LeecherSeeder,2011-01-25T20:41Z,"HOW TO GET IT TO WORK ON 3.55 CFW!!!
+0. YOU NEED TO USE PS3SPLITTER, IF YOUR GOING TO PUT THIS ON EXTERNAL AND THEN TRANSFER TO INTERNAL. 
+
+1. YOU NEED CUSTOM FW. I USE WUTANGRZA+GEOHOT
+2. GAIA MANAGER
+3. BOOT FROM GAIA MANAGER
+4. NOTE THE GAME WILL NOT BOOT FROM EXTERNAL, NEEDS TO BE ON INTERNAL. "
+,rayyan_legal,2011-01-26T01:39Z,WTF IM getting only 100 kb/s seed plz!
+,bobgj69,2011-01-26T23:50Z,"Do I seriously need to have a random disk in the PS3 drive in order to play backed up games? If so, does anyone know how to get it to work without a disk in there?
+
+I'm making a big deal about this because my blu ray drive is dead. It recognizes the disk (the load symbol pops up) but can't read it. If you do need a disk will it work if my PS3 just recognizes the disk or does it have to be able to read it?"
+,bobgj69,2011-01-27T02:56Z,"Hey ahsan_101,
+
+How did you get a backup manager that requires no disk in order to run the backup?"
+,Goon23,2011-01-28T07:34Z,How did you guys get this to work for 3.55? i have in gaja manager and multiMAN and they both boot then back to xmb :( plz help
+,rayyan_legal,2011-01-29T00:26Z,"FUCK THIS RPF file how the fuck should i split it up...and i DONT reccommend FTP coZ its BUGGY AS FUCK!..so i found out this PS3 splitter, will it work?"
+,Goon23,2011-02-02T20:21Z,"This game works great :) i got it to work on 3.55 :)
+USE multiMAN 1.15. (newset) 
+wont wonk on old miliMAN
+
+just transfer the game to
+/dev_hdd0/GAMES
+i used filezill (FTP)
+
+Have any questions hit me up youngstarpower@gmail.com"
+,hallolag,2011-02-04T18:02Z,"How can i transfer this???????
+I have no idea how to transfer data with FTP:
+what is FTP?"
+,shahwill,2011-02-05T03:54Z,"hey guys, so im done downloading and i've been seeding. the torrent extracts 97 WINZIP FILES! each 73,000 kb. do i just use smartFTP to transfer them to my ps3 or must i extract ALL OF THEM? (thatd be a pain!) also, im running geo+wut on 3.55 with DNS. THANKS!"
+,L_Reventon,2011-02-05T07:23Z,"@shahwill, just open 1 file on your pc and extract it. It will automatically extract all the others. "
+,hallolag,2011-02-05T15:39Z,"Please  i need help!!
+How do i get this onto my ps3?"
+,hallolag,2011-02-05T18:35Z,"Alright i unrared it, splitted this with ps3 splitter, put it on external hard drive and copied it with Gaia manager. But when I start the game, it doesn't work. What am I doing wrong?
+Please reply!! "
+,Zero3irty,2011-02-05T19:48Z,This game works perfect on cfw 3.55. I did the update to 1.06 and still works perfect and can play multiplayer. Thanks man.
+,hallolag,2011-02-05T19:55Z,FINALLY got it working!!! thank you! Great game!!
+,shahwill,2011-02-06T04:20Z,"@L_Reventon
+thanks! im just extracting #1 right now, and its taking time so thats a good sign :) everyone enjoy 3.55 + DNS while it lasts! till its patched, team overfl0w + the hacking community will get us a new CFW!"
+,killzone3,2011-02-06T05:03Z,good for upload and thankx but one problem just send me the information of this game that how to install this game isn ps3 (3.55 cfw) i shall be very thank full to you people . wa angrezano ta ghark shai sam she war ka wai 
+,qwea44,2011-02-08T19:09Z,"pzl help me some one
+when i start it on my multiman manager
+it ask for a update for rdr so when i click yes, after the install a black screen comes up and then rdr closes automatically, and when i skip the update the same happens i tried to reinstall rdr even to re-jailbreak my ps3, I'm on 3.55 from waninkoko
+plzzz help me this is my e-mail for if you can help me out:):  baker_iraq@hotmail.com"
+,d4re,2011-02-08T20:33Z,"@hallolag: ist it now possible to have it on external drive?
+Thanks for help"
+,kloneboyz1,2011-02-11T10:23Z,"whoala...whew this thing made me crazy..working for 2 days and finally got it working...(kmeaw 3.55cfw~multiman 1.15.04) experienced black screen and keeps on going back to SMB here's what i did
+1. download the latest LV2 patcher V8 and fix permission you can find it here: http://psgroove.com/content.php?729-Kmeaw-s-LV2-Patcher-v8-Released-Syscall36-Waninkoko-CFWv2-Support
+2. Run your Lv2 v8
+3. Run the Fix Permissions application that is installed from running the package 
+4. fireup multiman and run it on your internal.
+This will run perfectly as most of the post, confirmed running in 3.55cfw.
+Thanks Team!"
+,qwea44,2011-02-11T14:38Z,"@kloneboyz1
+uhmm sorry but uhh 
+DO YOU KNOW THAT YOU SAVED A POOR BOY WITH A PS3 HIS LIFE????"
+,qwea44,2011-02-11T19:56Z,uhh sorry actionly it didn't worked but when i readed the comment i thought it was really going to work but yeah... it doesn't work plzz help me guys  rdr just closes and i return to xmb i can only see the rockstar information crap for 2 seconds then it shut down automatically 
+,Pherreyra,2011-02-11T20:58Z,"Hi,
+Every time I try to run this game through multiMAN (v01.15.05) the game opens but just appears a black screen... I've tried with and without lv2 patcher (v1.33). I'm running kmeaw CFW 3.55. I've tried other games and they worked.
+
+Can anyone help me? Thanks in advance.
+
+andre.ferreira.15@hotmail.com"
+,stealthpancho,2011-02-12T03:00Z,Works on Kmeaw 3.55 cfw. Thank you;)
+,hallolag,2011-02-13T11:29Z,"@d4re : no, i tried it with ps3 splitter but didn't work for me. I transferred it with FileZilla."
+,itsraheel,2011-02-18T01:22Z,my ps3 is ntsc is it work for me ?????
+,itsraheel,2011-02-18T01:39Z,my ps3 is NTSC iS it work for me??
+,mark98980,2011-02-19T20:38Z,hi i have just seen i might be able to get games to work on my ps3 now off here and looks like from reading things i need an internet connection to both my pc and ps3 i only have 1 cable 4 my internet  and usally just put the cable in the 1 im using is there a way to do this with 1 internet cable
+,dragoncurt,2011-02-20T21:44Z,Thank you works great on my pal ps3 and went 1mb per second thank you so much good game.
+,mark98980,2011-02-22T16:20Z,hey was hopin someone could help been trying to get this to work for 3 days now and i installed the 3.55 update to make sure it was 3.55 then i installed the jailbreak went on fine then ftp blackbox and client tryed a number of managers transfered it over to GAMES but every time i try to play the game it just wont work it eva says need to del game data for it to work or when i go back to the xps it just has the real disk that i have got in there do i need the dongle that flashes red and stuff or can i do this with out it  wouldnt mind any help tryed google utube nothin can help evan tryed formatting
+,aliphbay,2011-02-25T19:08Z,its works fine wid me. i was using 3.55 kmeao with mutlimen 1.1.5 LV2 pacth v8
+,aliphbay,2011-02-25T19:09Z,its works fine wid me. i was using 3.55 kmeao with mutlimen 1.1.5 LV2 pacth v8 and file permission to get peromssion.
+,aliphbay,2011-02-25T19:13Z,"for file trasnfer one can use FILEZILLA. FTP put ur ps3ip address... user name : blank
+:pw: 1234
+port 21
+hopefully it will work.
+run the file from main game menu"
+,Colte,2011-02-27T02:25Z,hey it worked great for me without ftp but i had to split the file that was to big for fat32 and then copy it to the hdd in my ps3 from multiman but after that it booted right up and ran like a charm hope that helped you guys out
+,robinhyco,2011-03-01T04:21Z,"This game work fine for me. Use Gaia manager for it. I try with multi man not working. 
+Instruction how i do it:
+1.Split the game with ps3 splitter.
+2. Copy to the external hard drive all of it at the same time. I try to do it with USb 4gb file at a time. NOt wroking. But when i copy the whole file directly it work so have external drive.
+3. Copy to PS3 and run it
+Enjoy the game"
+,jarisaizprua,2011-03-02T04:09Z,"It works perfectly on KNEW 3.55 and ROGER MANAGER 8.1. If you need help, please contact to me jarisaizprua@hotmail.com"
+,gabriel816,2011-03-03T08:02Z,"Can i get some help please?
+
+im on 3.55 wutangrza cfw, Geohot, gia manager (open manager)
+
+
+heres wat i did on gaia... basically split the 4gb+ file into 2  parts. Copied BLUS30418 to external nd after connectin 2 ps3 open gaia nd copy 2 internal.
+
+then i try to open it off BOTH the internal and  external i get ""There is not enough free space on the hard disk, the game was forced to quit, at least 516 MB more of space is needed""  my ps3 is brand new so i know for a fact there memory
+
+i REALLY want to get this game to work :)
+
+help is appreciated 
+
+gabriel_sansan@yahoo.com 
+
+
+
+but i tried with open manager and it game me the starting screen and then i get a  black screen. :/"
+,ELDREAMBOY13,2011-03-05T07:21Z,"I GOT PS3 BACK UP GAMES FOR TRADE
+
+MY EMAIL IS GUSTAVO_LOVEY@YAHOO.COM
+"
+,JHess1022,2011-03-08T19:09Z,"Works Cfw 5.55 40GB ps3 FAT. 
+1. Download
+2. Unzip or Unrar
+3. Make folder named BLUS30418 if not already made.
+4. Use FTP I use black box
+5. Fix Premision 
+6. LV2 Patcher 
+7. multiMAN
+8. Exit to XMB don't load without exiting.
+And it works fine for me :)"
+,ELDREAMBOY13,2011-03-09T04:14Z,"ANY ONE DOWN TRADE BACK UP
+MY EMAIL IS GUSTAVO_LOVEY@YAHOO.CO,
+THIS IS MY FOLLOWING GAMES
+50 cent:blood on the sand
+ac brotherhood
+aliens vs predator
+army of two:the 40th day
+assassin's creed 11
+battlefield:bad company 2
+bionic commando
+bioshock
+call of duty:black ops
+call of juarez:bound in blood
+create
+dante's inferno
+dead space 2
+semon's souls
+devil may cry 4
+dragon ball:raging blast
+fracture
+god of war 3
+hellboy:the science of evil
+infamous
+avatar
+lost planet 2
+madagascar kartz
+mafia 2
+majin and the forsaken kingdom
+marvel v.s capcom 3
+medal of honor
+mindjack
+mini ninjas
+monopoly streets
+mortal combat v.s dc universe
+naughty bear
+oblivion
+r.u.s.e
+saw 2
+soul calibur IV
+up
+viking:battle for asgard,
+wanted:weapons of fate "
+,gabriel816,2011-03-09T05:50Z,"@JHess1022  i did what you said but it doesnt work :(
+
+
+1. Downloaded
+2. Unzip or Unrar
+3. Make folder named BLUS30418 if not already made.
+4.split file
+5.copied it to ps3 (via external)
+6. ran it off the HDD
+7. it installs but it shuts down :(
+
+
+
+CAN  ANYBODY HELP ME?"
+,Veroryn,2011-03-14T13:59Z,"rdr2_layer0.rpf is corrupt. I really don't want to have to try and re-download this damn thing, seeing as so few people are seeding. Took me damn near 24 hours to get it. So is it a bad download, or does this have to be re-uploaded?"
+,rodrot,2011-04-02T01:31Z,"Split and joined to my external hdd with ps3splitter, then transferred to my internal hdd. Plays perfect from internal with kmeaw 3.55 and rogero manager 8.2 would not play from my external hdd though."
+,sezar512,2011-04-03T18:12Z,"working perfect here, 
+1- split the folder blusxxx using ps3splitter
+2- copy it to external hard disk ( in GAMEZ folder )
+3- connect hard disk to ps3
+4- open multiman, click o to copy it to internal
+5- lunch the game from xmb screen
+thanks uploader"
+,dbupton,2011-04-12T21:17Z,i downloaded this i was wondering how to do it on a ps3 slim that is not jailbroken
+,dbupton,2011-04-12T21:18Z,if you know how i can do it on a non jailbroken ps3 slim or how i can jailbreak it without mod clip please email me at du0665@gmail.com
+,kloneboyz1,2011-04-18T00:04Z,i have this on my external and does not work. Since i dont have space on my internal I can transfer it to my ps3. Will this work on external USB? Or will only work on internal drive (PS3 only)?
+,sudeus,2011-04-19T17:06Z,"Hey, please help me I'm dying here :)
+
+I've been trying to get this to work.. and it did!(partly)... :(
+
+The things that I did:
+
+First, I copied the files that were extracted to my external hdd. 
+
+Next was to put my external hdd on my PS3. 
+
+Then, I opened Rogero Manager and copied the
+file from my external hdd to the PS3's internal hdd.
+
+After that, The game was installed.. and it worked(kinda).
+
+The game loads, runs, but just until the game select mode, when in you got to choose whether you push sqaure(for online gaming), X(for single), I don't know what the other one was.
+
+Please help me, I'm dying :))"
+,jokoss,2011-04-21T18:22Z,is the 3.60 crackable just yet?
+,sudeus,2011-04-23T09:46Z,"Thank you very much!, .. seeding for 5 days"
+,sudeus,2011-05-10T09:18Z,"Works like MAGIC.
+
+CFW 3.41, Rogero Manager 7.2"
+,andre_alb,2011-05-30T19:41Z,"Funcionou bacana! Só extrair, passar a pasta no OpenSplit 1.2, que ele vai scanear e ver se tem algum arquivo maior do q 4gb.(E tem!) Depois vc passa para um HD Externo, roda pelo multiMAN, ele vai dizer q tem que passar pro interno. Aí vc passa, e depois é só correr pro abraço! =) Kmeaw 55 + multiMAN."
+,andre_alb,2011-05-30T19:44Z,"Funcionou bacana! Só extrair, passar a pasta no OpenSplit 1.2, que ele vai scanear e ver se tem algum arquivo maior do q 4gb.(E tem!) Depois vc passa para um HD Externo, roda pelo multiMAN, ele vai dizer q tem que passar pro interno. Aí vc passa, e depois é só correr pro abraço! =) Kmeaw 55 + multiMAN.
+"
+,jestin456,2011-06-02T05:58Z,"THIS GAME WORKS A 100%;;;
+I GOT IT TO WORK ON MY PS3 KMEAW 3.55.
+AND I AM PLAYIN REDEMPTION FROM MY 500 GB FAT32 EXTERNAL DEVICE.
+YES!!! U DONOT NEED TO TRANSFER THE GAME 2 INTERNAL HDD.
+JUST USE THE NEW MULTIMAN multiMAN ver 2.00.03 BASE (20110529_223000) (with SHOWTIME) WT::
+BUT U HAV TO DOWNLOAD BDEMU2-355.PKG (just google it).
+launch multiman and connect ur external device it show the game(the game must be split using split4g). CHOOSE GAME SETTINGS BY PRESSING TRIANGLE AND IN THE LOWER LEFT CORNER CHOOSE EXTERNAL AND UNSELECT THE REST. NOW JUST GO BACK TO MULTIMAN MENU AND CHOOSE THE GAME and it would ask u wether 2 save cache files to internal or something...choose yes and proceed,,
+at the end u will get to play the game from ps3 xmb by choosing NO to 'whether u want to play game without exiting to xmb'.
+just follow my way and get the game to work.
+i hav made this new account just to HELP ALL THOSE WHO HAV NOT YET GOT TO MAKE THIS GAME WORK ON THEIR PS3,,,ALL THE BEST.
+GIV REPLY IF WORKS OR NOW."
+,jestin456,2011-06-02T06:01Z,"NO NEED 4 FILEZILLA OR DONGLE OR ROGER OR ANY BULLSHIT..
+THIS GAME WORKS PERFECT FROM EXTERNAL.
+I GUARANTEE U ALL.
+JUST TRY IT THE WAY I SAID"
+,barrage,2011-06-15T16:42Z,"wat? no need of the jailbreak dongle? the torrent says jailbreak in caps...
+
+plz reply... i dont have dongle or anyting but if this works without any hardware then ima download this :))"
+,YoungKhalifa,2011-06-28T05:16Z,"Works on:
+
+3.55 Kmeaw ; Internal ; Gaia Manager v2.07 (disc less)"
+,finneusj,2011-06-28T19:12Z,"I downloaded this torrent a few days ago, and this morning received a ""Notice of Claim of Copyright Infringement"" from Comcast, presumably notified by the RIAA. Please take my advice and don't download this torrent."
+,RyanTheAngryYoungMan,2011-07-10T10:29Z,"sorry finneusj, but don't say crap around here, its the ps3, go scare the xbox users, they use cracked games 5× times more since a lot earlier"
+,Fuqthegovt,2011-07-16T01:39Z,"@finneusj tell them to go fuck themselves. I told the RIAA as much when I got a letter directly from them. Just keep your bank acct empty and never buy a house or car or get a job, then it's pointless for them to sue you."
+[M],Agricola,2011-07-21T23:54Z,moved--->PSx
+,sarihaddu,2011-08-06T18:55Z,"Thanks friend.  This thing works perfectly on PS3 320 GB slim.  3.55 firmware, i donno how it was hacked but it uses multiman and lv2 patcher.
+
+I copied the game to the internal harddisk by using an ethernet (no need cross over cable) cable in just under 5 minutes.  The settings is as follows.
+
+I configured Manual IP on my PC by going to Network connections, change adapter settings, then right clicking Internet Protocol Version 4 (TCP/IPv4)
+
+Then on PS3 install your Blackbox FTP server and enter these settings in your network settings, which is located in system settings
+
+Internet Connection = Enabled
+Connection Method = Wired Connection
+Speed and Duplex = Auto-Detect
+Address Settings = Manual
+IP Address = 192.168.1.2
+Subnet mask = 255.255.255.0
+Default Router = 192.168.1.1
+Primary DNS = 192.168.1.1
+Secondary DNS (Leave Blank at 0.0.0.0.0)
+MTU = Automatic
+Proxy Server = Do Not Use
+UPnP = Disabled
+
+Save (dont click on test settings now). Launch your FTP on your PS3 and it will give you a IP address to enter into FlashfXP which will be 192.168.1.2. 
+
+And then your in! Thats how i get my fast transfer speed 30 to 40 MB per second. Directly connect your PC to your PS3 it will be better.
+
+This will work for Windows XP, Windows Vista and Windows 7.
+
+Hope I helped you."
+,RatManiax,2011-08-11T13:45Z,"Works on PS3ITA 3.55 / Rogero Manager v8.4 / Internal..
+
+Thanx a lot! seeding.."
+,mikesoft,2011-10-26T06:27Z,"Can anyone help me? I've helped tons over pc games, but I just got the PS3 and I've been wanting to play this game since it got out like 2 years ago.
+
+I'm not asking ""how"" to get this to work on my ps3. All I want to know is if by making this game run on my console, can I get banned somehow? I'm willing to d/c the ethernet cable if needs be, I just don't want my psn account banned for life, as I love playing online and i'm sure I'll buy original games forever. Just this one, I can't afford for the next month or two, I'll get it used from a friend, but I want to play it know! So, is there a possibility to get banned from psn if I install whatever hack is needed to play this?
+
+Thanks!!!"
+,macmamacc,2011-12-27T13:02Z,"works great! .. PS3 320GB slim
+
+Kmeaw 3.55 CFW
+multiMAN ver 02.09.02 FULL
+internal
+
+thanks for upload!seeding"
+,DARKnight02.14,2012-01-23T15:18Z,can anyone help me? i cant get is start. it goes back to the xmb. where should be the blus folder be? hdd0/GAMEZ? LUNAR1234? or what? please help me. 
+,beto4632,2012-03-01T02:20Z,"Works great man. Running off external i used split4g.. To make it fit:)
+Ps3 Slim 3.55 kmeaw
+
+NOTE: Only works on jailbroken 3.41 or 3.55 ps3 will not work on 3.56+ Sorry "
+,karan1234,2012-03-01T14:18Z,will this gonna work on external HDD?
+,sakib126,2012-04-29T11:11Z,seed SEED seed SEED
+,sakib126,2012-04-29T11:12Z,"SEEEEEEEEEEEEEEED seeeeeeeeeeeed SEEEEEEEED seeeeeed
+SEED SEED"

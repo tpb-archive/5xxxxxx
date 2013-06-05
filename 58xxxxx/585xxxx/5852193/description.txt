@@ -1,0 +1,15 @@
+Install
+1. Install mobile-maps- 8.1.2 (8.16)-armel.deb
+2. Copy Maps (you can use any maps for Sygic 10) and .mlm file to N900/Maps/
+3. Copy modifica.pl to N900
+4. install rootsh if its not installeted on your n900
+5. Run X-Terminal and write:
+
+sudo gainroot
+cd /home/user/MyDocs
+perl modifica.pl
+
+
+Sygic Mobile Maps 10 MAEMO V8.16 Europe-galedo
+ 
+http://thepiratebay.org/torrent/5747342/Sygic_Mobile_Maps_10_MAEMO_V8.16_Europe-galedo

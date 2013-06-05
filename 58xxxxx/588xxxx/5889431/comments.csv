@@ -1,0 +1,32 @@
+User Type,Username,Date,Text
+,BasilBrush,2010-10-16T00:31Z,The flickering video at 3minutes that lasts for 20seconds appears to be a cock up by the BBC. The problem is in the original TS file - it's not an encoding problem.
+,BasilBrush,2010-10-16T10:31Z,"Commonwealth Games 2010 Opening Ceremony 720p HDTV x264 AAC
+
+thepiratebay[dot]org/torrent/5867676
+
+replace the [dot] with a ."
+,SuMFoRFuN,2010-10-16T10:32Z,Thanks!
+,BasilBrush,2010-10-16T13:45Z,"The torrent is also available at Demonoid.
+
+The MD5 hash of the Piratebay torrent file (not the MKV file) is:
+65FF7FB0667B1F902B5E1A84578DF08C
+
+The Demonoid and Piratebay torrents have different MD5 hashes because Piratebay add extra trackers to the torrent file most of which don't work."
+[V],jainmehul,2010-10-16T15:12Z,thanks for this buddy
+,ankushdawar,2010-10-16T15:14Z,I am not getting audio in it ?
+,BasilBrush,2010-10-17T05:10Z,"You'll have to give me a clue which player and Operating System you're using.
+
+Here's the list of players I've tested it with:
+1) VLC v1.1.4 - plays ok.
+2) MPC-HC 1.3.1301.0 (with ffdshow 3562 and Haali 1.10.262.12) - plays ok.
+3) Winamp 5.581 - requires MP4 adding to the extension list in DirectShow decoder. Also requires ffdshow and Haali - plays ok.
+4) Windows Media Player v11.0.5721.5268 - requires ffdshow and Haali - plays ok.
+5) Quicktime - staggered video - not a good player for CABAC. If your a Apple MAC user try MPlayerX or VLC. MPlayerX supports the ffmpeg multi-threaded h264 decoder which you'll need for decoding CABAC.
+6) PowerDVD8 - doesn't suppory AAC audio - a pretty useless player."
+,BasilBrush,2010-10-17T05:17Z,If you are a Quicktime user you can use the Export function to convert from CABAC to CAVLC mode for a lower quality version for Apple devices. This is likely to take a few hours at least.
+,BasilBrush,2010-10-18T02:21Z,"ankushdawar
+Did you manage to solve the problem ?"
+,dnerikar,2010-10-18T10:11Z,Nice ....working well.
+,thunga,2010-10-27T19:33Z,Thanks for the upload.
+,vykis,2010-10-30T10:36Z,what are the songs that are played during the highlights at the end? specially during the indoor cycling and boxing?
+,Dance123,2011-10-16T18:58Z,"Please seed this torrrent. I know it's too late for seeding this but I need it. Please if any one can seed, it will be greatful for me..."

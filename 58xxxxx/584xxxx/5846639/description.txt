@@ -1,0 +1,22 @@
+Unofficial Windows for Workgroup 3.11 Bootable image for Emulators such as MS Virstual PC, VM Ware, etc.
+Bootable Mini CD-Rom Notes:
+Windows for Workgroup 3.11 Pan European with w32s and MS-Dos 7.10 Bootable Mini CD-Rom  
+CD Notes:   
+- Is required a FAT or FAT32 partition for both Ms-Dos 7.1 and Win 3.11 
+- It contains the GNU version of MS-Dos 7.1 wich can be installed direct from  the bootable CD and can upgrade Win 9x DOS too.  
+
+This Windows version: 
+- is for educational and testing porposes 
+- it's recomandated that the computer to be conected torog a network with the server firewall active 
+- tcl/ip protocol and realtek/ndis 10/100 LAN cards are supported 
+- win32s is included and you most patch 
+- some drivers are included in drivers folder for et400/w32 and nvidea riva displays, for nic2000 and realtek 10/100 lan cards, for creative sound blaster 16 card and others
+- to read from ntfs partitions a driver is included in drivers/ntfs/
+- ie5 can be installed from i386/iesetup.exe
+- media player 5.1 can be installed from i386/MPSetup.exe after win32s pach was upgraded.
+- Known Bugs:
+* memory paging for more then 256 MB of RAM on some host machines;
+* win32s not loded corect in system.ini, use sysedit.exe to remove line win32s.sys and reinstall win32s from the cd or from ms office 43 cd or from borland c++ cd.
+
+See also: http://www.itwriting.com/blog/691-windows-31-in-a-virtual-machine-virtual-pc-wins-this-one.html
+Screen shot:

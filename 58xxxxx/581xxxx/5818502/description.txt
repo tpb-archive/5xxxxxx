@@ -1,0 +1,30 @@
+Hello everybody!
+After you install the Microsoft Visual Studio 2010:
+---------------------------------------------------------
+1)
+you should copy the content of HelpLibrary.7Z to:
+in Windows 7:
+C:\ProgramData\Microsoft
+(if you coldn't see, follow Start Menu -> type %programdata% and press enter)
+
+in Windows XP or Vista:
+I don't know! Look for a folder,named HelpLibrary!
+(probably you can acess to that by following the Start menu -> RUN -> %programdata%)
+---------------------------------------------------------
+2)
+Now Open Visual Studio 2010 and follow:
+Help => Mannage Help Settings
+
+if you see a window, whitch contains:
+O I want to use online help
+O I want to use local help
+choose second one!
+else
+you probably see a window, witch contains 5 options
+select "Install Content disk"
+browse the path: C:\ProgramData\MIcrosoft\Help Library\VS_100_en_US\ and select the file: HelpContentSetup.msha
+(as I had said, the path may be different in each version of windowses)
+---------------------------------------------------------
+3)
+Click Next
+...and you've done!

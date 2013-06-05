@@ -1,0 +1,90 @@
+-----Office 2010 Installer Channel Switcher ( x86 & x64 ) v1.2 -Stannieman-----
+      *********************************************************************
+
+Description:
+============
+
+This Application will convert your Retail Versions of Office 2010,Visio,Project Pro Installer Downloaded from MSDN or other,into a perfect Volume License ISO,which is 100% Genuine Untouched ISO,So that you can Activate Office with KMS Activation or with an MAK Key.
+
+It also supports reverse function ie., You can convert a VL version of Office Installer to Retail also,This application will save your time & BandWidth,as you dont need to download VL version again if you have a Retail Version.
+And there are more other uses too..
+
+Also You can combine all input files into a one ISO,ie., Office ProPlus+Visio+Project Pro= One ISO.
+
+What it does?
+-------------
+It combines all the input files into one iso which contains all the inputed installers.
+It can convert the activation channel of the input products from retail into volume or visa versa.
+
+
+What it doesn't?
+----------------
+It doesn't activate/crack Office, Visio or Project, unless you do it yourself with an unattended file.
+It doesn't add any other crap to the installer.
+
+Usage Guide:
+============
+
+1) Input all the installers you want. Those can be exe files or iso images. Only original Microsoft installers should be used. It may be possible that non original installers pass the checks, but this could result into a corrupted output file. You can also add for example two x86 Visio installers with a different language, you will then have the choice between these languages during setup. (This requires the note at the bottom of the post!)
+
+2) Choose one activation channel for all the output files, or check "Use advanced options". If you didn't check "Use advanced options go to step 5, otherwise proceed with step 3.
+
+3) On the Advanced options tab select the desired activation channel.
+
+4) If you want to add additional files or folders or want to make moddifications to the files then you can check "Add additional files/folders to the installer". This option will open an explorer window in the right directory before creating the output iso image.
+Never give an already moddified input installer, if you want to make moddifications always use this option or do it afterwards.
+
+5) Specify an output file.
+
+6) Click "Start channel switching" and wait until you iso is created.
+
+Other info or FAQ:
+==================
+
+The output file is always an iso file. Why?
+
+Because the exes are an sfx program followed by a regular cab file, but I think the files to extract from the cab are coded inside the sfx program. So when you add files to the installer, or when you switch the activation channel (which also renames files) the sfx program won't extract all necessary files.
+The iso files are made exactly the same way as Microsoft made it's dual architecture MSDN iso: using cdimage 2.47 and the right commandline arguments so the iso is official-Microsoft-iso-like.
+
+Why is the program almost 11MB in size?
+
+The xml files are really edited, so only those parts that are different are replaced. The cab files are only different in their signature, that's also just edited. The msi files however have so many differences it's undoable to only change that parts, so I 7zipped those files and included them in the app. That's why it's pretty big for what it does. But still downloading 11MB is better than downloading all the magebytes nefor replacing the folders manually.
+
+If you don't trust this you can always extract the output installer and check the file hashes of the files inside, you'll see for yourself nothing unwanted is added and the files are genuine. The hash of the output iso won't match any hash of valid office installers, this is only because the timestamps of some files are different.
+
+Note:
+=====
+Imagine you make for example an iso with both English and Dutch versions of Visio.
+Now when the setup wizard is ran in English, setup forces you to install the English version (you can't uncheck it). You can still choose if you want to isntall the Dutch version also or not. Af cource if the setup is ran in Dutch it's the other way around.
+
+The language the setup wizard uses is automatically determined from Windows' locale/language settings. This means an English version will always run the English setup, and you're forced to install at least the English version.
+
+You can however force the setup to use a language, and this can be done in two ways:
+1) Changing Windows' locale/language settings
+2) Removing the Office.xx-xx folder (xx-xx is the language ID) for all languages, except the one from the language you want the setup running in. Setup will be forced to use this language simply because there is no other.
+
+Changelog:
+==========
+1.1 -> 1.2
+- Added support for Visio and Project Professional
+- It can now combine Visio, Project and Office installers into one iso.
+- It can now combine different language installer into one multilanguage installer.
+1.0 -> 1.1
+- Fixed the problem that caused incompatibility with Windows XP and earlier.
+- Typo
+
+Pre-Requirements:
+=============
+.net Framework 3.5
+
+Checksums:
+==========
+MD5: 06ca8d4e972ec4742c5959da6a1f2cb6
+SHA1: 42d1329fd1fcab70312f6fdd25ca1b5a25fe5441
+
+Hope you guys will like my uploads,so please help me to seed thi torrent.
+
+
+
+
+

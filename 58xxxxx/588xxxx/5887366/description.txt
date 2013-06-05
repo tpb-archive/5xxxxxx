@@ -1,0 +1,36 @@
+Ok, after months of random pops, stutters and crackles (no, its not the pci corruption playing nforce chips, its an issue specific to Win7/Vista with the current Beta1 driver) i decided to repackage the latest creative apps with the latest available Auzentec stuff and older 1.1 Driver. from Auzentech\'s archive.
+So far those using it have reported the issue to be solved, if anyone here is having these issues with a Prelude, and are running Vista/7 and using the latest Prelude Beta1 driver, then you can make use of this repackage.
+
+Versions
+Auzentech Audio Driver 6.0.01.1281
+Creative ALchemy 1.42.06
+Creative Audio Control Panel 3.00.47
+Creative Console Launcher 2.61.49
+Creative Dolby Digital Live Pack 3.00.06
+DTS Connect Pack 1.03.08
+Sound Font Bank Manager 3.21.02
+Volume Panel 2.21.13
+
+Creative Audio Processing Object Interface Module 2.48.0.0
+Audio Device Selection 3.03.01
+Creative Audio Engine Licensing Service 1.00.02
+Common Audio Driver Interface 2.30.82
+Creative Audio Service 3.22.0.0
+
+Creative AutoMode Switcher 1.01.05
+Sound Blaster Vista Control Panel 1.02.07
+
+Notes
+Packed with LZMA2/7zip, so you need the latest beta of 7zip to unpack
+To install SBPpt(Sound Blaster Vista Control Panel), just run the setup.exe in the folder containing the SBPpt folders.
+For Bass Boost to work in 2.1 mode, the speakers must not be set to Full Range in windows sound properties.
+
+
+If the Console launcher is not fully uninstalled prior to installing this version, you will need to download the latest DirectX Runtime (Full installer) and unpack it to a directory titled \"DirectX\" in the root directory of the driver so you have
+
+Audio\\
+CTShared\\
+Extras\\
+DirectX\\
+
+1.4 goes back to the working 2008 driver but includes newer UDAAPO and CtTele files, now i\'ve verified these do work on Applications and games so any problems making them work are on your end and not the driver. perhaps you are trying to use it with an app that outputs via Xaudio, which automatically expands to multiple channels.	

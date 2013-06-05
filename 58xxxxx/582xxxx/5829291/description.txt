@@ -1,0 +1,83 @@
+INSTALL NOTES:
+
+1. Go to Start > Run
+2. Type in %appdata%
+3. Extract "Minecraft.Alpha.1.1.0.&.SMP.LAN.SERVER.&.NAME.SPOOFER" to "appdata\roaming" 
+(You already should be there when running %appdata%, if not verify location.)
+
+Example:
+Win7/Vista
+"C:\Users\%username%\AppData\Roaming\"
+.minecraft
+.minecraft server
+
+XP
+"C:\Documents and Settings\%username%\Application Data\"
+.minecraft
+.minecraft server
+
+4. Go to ".minecraft" folder and run "minecraft.jar"
+(When you open the game, just press login, it will fail, but prompt you with
+an offline option. Click on that and play the game!)
+
+LAN:
+
+1. Go to http://tunngle.com and Download and install Tunngle.
+2. Log into Tunngle
+3. In "Network Search" type "minecraft"
+4. Join "minecraft" Channel
+5. Ask for Server IP in channel, or host your own server.
+6. Run "minecraft_name.jar" in ".minecraft" folder
+7. Connect to LAN server.
+
+LAN SERVER:
+
+1. Go to ".minecraft server" folder
+2. Go to "BIN" Folder
+3. Run "Minecraft_Mod.jar" in "BIN" Folder.
+4. Run "minecraft_name.jar" in ".minecraft" folder
+5. Go to Multiplayer and enter server IP "xxx.xxx.xxx.xxx".
+6. You should be connected to your own server.
+7. If you want other people to join your server
+(GO to "http://www.whatsmyip.org" it will say on top "Your IP Address is xxx.xxx.xxx.xxx"
+Copy "xxx.xxx.xxx.xxx" IP address and give it to the people that you wish to join your server.)
+
+
+SERVER NOTES:
+
+ANTIGRIEF PACK:
+(Fire, Lava, TNT, Adminium, Lighter)
+The server has ANTIGRIEF pre installed, if you dont want that.
+
+Go to
+.minecraft server
+\bin
+\minecraft_server_original
+
+Copy all files
+
+And Paste them into
+.minecraft server
+\bin
+minecraft_server.jar
+
+You can open "minecraft_server.jar" with WinZIP or WInRAR.
+
+KITS:
+Server has 3 Kits pre installed.
+
+Tools
+Compass
+Armor
+
+Type /kit in game on server.
+
+You can remove the kits in
+
+.minecraft server
+\bin
+kits.txt
+
+Note:
+HAVE FUN!
+ - NanoEntity

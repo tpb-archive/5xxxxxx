@@ -1,0 +1,120 @@
+------------------------The Ultimate PID Checker v1.0.3.3 By janek2012------------------------------
+
+
+
+I. Program Description
+**********************
+
+
+In Short:
+=========
+
+You are getting a Key from someone,you don't know what the Key is for either Office or Windows?,for which edition is the key used for?,what type of key is it either a retail or Volume?,for what version is this Key used for? etc...
+Then this Program is the only solution for all.
+
+In Brief:
+=========
+
+The Universal PID Checker allows you to calculate the Product ID of given product key. Key validity will be checked also. The unique feature is reading keys from file and saving log (beta). Performance of PID generation is checked too - time spent on generating will be printed under the result.
+
+Features:
+=========
+Generating PID from typed key/input
+
+*for Windows Vista/Server 2008
+*for Windows 7/Server 20008 R2
+*for Office 2010
+*for all builds >= 6.0.5365.8
+
+Generating PID from file
+Saving output to log
+Viewing system key
+
+
+II. Usage
+*********
+
+from clipboard/manual input:
+============================
+
+Enter a 25-digit key (dashes will be added automatically), (if you have it in clipboard, it will be pasted automatically) .
+The Windows Flag button pastes your current system key into box.
+If you want to check keys for unsupported beta builds, just select "Custom" and choose pkeyconfig file.
+Click the "Go!" button to start generating PID.
+
+from file:
+==========
+Click "Browse" button and choose file with keys. Note that it must be text file containing keys only, one key per one line. Now, file CAN contain spaces.
+Select a profile (If you want to check keys for unsupported beta builds, just select "Custom" and choose pkeyconfig file).
+You can choose the Log option to log output to file (recommended).
+Click "Go!" button to start generating.
+You will get a message when it will be done. Overall time will be shown too.
+
+Note: 
+=====
+You can use pkeyconfigs from build 5365.8 of Vista and newer.
+
+III. System Requirements
+************************
+
+OS: Windows XP/Vista/7/Server 2008/Server 2008 R2
+RAM: 25MB free memory
+CPU: AMD Phenom X2 or Intel Core 2 Duo (~2GHz) for good performance
+HDD: Application uses about 10MB on disk
+
+
+IV. Changelog:
+    **********
+
+* v1.0.3.3 (04-09-2010)             
+                          
+        - Appearance fixes on XP (Check attached screenshot)
+	- "About" button is now disabled during the generation process
+
+  * v1.0.3.2 (31-08-2010)             
+                          
+        - Custom config support
+	- Redesigned "Profile chooser"
+	- Taskbar's progressbar fix
+
+  * v1.0.3.1 (20-08-2010)             
+                          
+        - Better Windows themes compatibility
+	- Improved reading from txt
+	- Bugfixes
+
+  * v1.0.3.0 (19-08-2010)             
+                          
+        - GUI improvements
+	- Pasting current system key option
+	- Main window is now resizable
+	- Txt file with keys can contain spaces now
+
+  * v1.0.2.1 (22-07-2010)             
+                          
+        - Aero Glass improvements
+	- Log function removed from standard mode
+
+  * v1.0.2.0 (19-07-2010)             
+                          
+        - Application size decreased
+	- Bugfixes
+
+  * v1.0.1.0 (19-07-2010)             
+                          
+        - PIDs are now generated in separate thread
+	- Bugfixes
+	- Automatic dashes addition
+
+  * v1.0.0.1 (18-07-2010)             
+                          
+        - Added a summary on the end of log
+
+  * v1.0.0.0 (18-07-2010)
+       
+        - Initial release 
+
+Hope you guys will like my uploads,so please help me to seed this.
+
+
+
